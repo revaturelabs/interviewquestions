@@ -1,0 +1,230 @@
+## Real-Time Applications
+
+1. Physics Department in Caltech got a new 3D printer, Sheldon used the printer for printing prototypes for his hadron collider. Howard used the print to print his mini action figure. this is an example for?
+
+   ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+
+- A.Polymorphism
+- B.Inheritance
+- C.Abstarction
+- D.Encapsulation
+
+
+<details><summary> <b>Show Answer</b> </summary>
+  
+  **Ans**: A
+  
+  **Explanation**: printing using a 3D printer is a method in the Caltech Physics department, which is a class. Sheldon used the method for research and Howard used the same method for fun.
+</details>
+
+## Technical
+
+1. The following code snippet is an example for?
+
+     ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+
+
+``` java
+public class Languages {
+     public static void main(String[] args) {
+      Languages l= new Languages();
+      l.speakGerman();
+    
+  }
+  public void speakGerman() {
+    System.out.println("Guten Tag");
+  }
+  public String speakGerman() {
+    return "Wiedersehen";
+  }
+
+}
+```
+- A.Method Overloading
+- B.Method Overriding
+- C.Inheritance
+- D.None of the above
+
+
+
+<details><summary> <b>Show Answer</b> </summary>
+  
+  **Ans**: D
+  
+  **Explanation**: "speakGerman()" class is written twice with different signatures in the same method, So it can not be considered as method overloading. it is just a duplicate method.
+  
+</details>
+
+2. What is static polymorphism?
+
+    ![HARD](hard.jpg)
+
+
+
+
+<details><summary> <b>Show Answer</b> </summary>
+  
+  **Ans**: Static Polymorphism is also called Compile time Polymorphism or Method overloading. The method behavior is decided during compile-time in static polymorphism.
+  
+</details>
+
+3. What is Dynamic polymorphism?
+
+    ![HARD](hard.jpg)
+
+<details><summary> <b>Show Answer</b> </summary>
+  
+  **Ans**: Dynamic Polymorphism is also called Run-time Polymorphism or Method overriding. The method behavior is decided during runtime in static polymorphism.
+  
+</details>
+
+4. Which of the following is an example of static binding?
+
+   ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+
+- A.method overriding
+- B.method overloading
+- C.abstraction
+- D.none of the above
+
+<details><summary> <b>Show Answer</b> </summary>
+  
+  **Ans**: B
+
+  **Explanation**: static binding is linking method call with method definition during compile-time. compile-time polymorphism is
+  also called method overloading. 
+
+</details>
+
+
+## Problem solving
+
+1. What is the output of the following java code?
+
+    ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+``` java
+  class Animal {
+        
+    public void barkingDog() {
+    System.out.println("Wolf Wolf!");
+  }
+  public void barkingDog(String a) {
+    System.out.println(a);
+    
+  }
+  public static void main(String[] args) {
+    Animal a = new Animal();
+    a.barkingDog("Barking!");
+  }
+}
+        
+   ```
+
+<details><summary> <b>Show Answer</b> </summary>
+  
+  **Ans**: Barking!
+
+  **Explanation**: the concept of method overloading is implemented here, In the main method we are calling barkingDog() with a
+  parameter "Barking!". So bakringDog(String a) is implemented.
+
+</details>
+
+
+
+## Error Detection
+
+1. Predict the output of the program and debug the program.  
+
+    ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg)       
+
+``` java
+public class Vacation{
+    public void visitLondon(){
+        System.out.println("I met the Queen of England");
+    }  
+     public static void main(String[] args) {
+      BusinessTrip b = new BusinessTrip();
+      b.visitLondon();
+    
+  }
+ 
+} 
+class BusinessTrip extends Vacation{
+    public String visitLondon(){
+        return "The London branch is totally off the charts";
+    }
+
+
+}
+``` 
+  - A.Compile time error
+  - B.Runtime error
+  - C.No output
+  - D.The London branch is totally off the charts
+  
+  
+  <details>
+  <summary> <b>Show Answer</b> </summary>
+  
+  **Ans**: A
+  
+  **Explanation**: the outcome of the program is the compile-time error and it's caused because the method signature for visitLondoon(), which is being overloaded is different in the parent class(Vacation) and Child class(BusinessTrip).
+  
+  </details>
+
+
+  2. Find the error in the following program.  
+
+  ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg)  
+
+
+``` java
+public class Area{
+
+  public static void main(String[] args) {
+      Area a= new Ares();
+      System.out.println(a.calculateTriangleArea(1.0,2.0));
+    
+  }
+    
+    public double calculateTriangleArea(double d, double e)
+    {
+      return  0.5*d*e;
+      
+    }
+    public int calculateTriangleArea(int base, int height) {
+      return base*height;
+      
+    }
+   
+} 
+
+``` 
+  - A.Compile-time error
+  - B.Run-time error
+  - C.1.0
+  - D.2
+  
+  
+  <details>
+  <summary> <b>Show Answer</b> </summary>
+  
+  **Ans**: C
+  
+  **Explanation**: calculateTriangleArea(double base, double height) is implemented when 1.0 and 2.0 are passed as method parameters.
+  
+  </details>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
