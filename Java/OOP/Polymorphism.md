@@ -1,6 +1,6 @@
 ## Real-Time Applications
 
-1. Physics Department in Caltech got a new 3D printer, Sheldon used the printer for printing prototypes for his hadron collider. Howard used the print to print his mini action figure. this is an example for?
+1. Physics Department in Caltech got a new 3D printer, Sheldon used the printer for printing prototypes for his hadron collider. Howard used the printer to print his mini action figure. this is an example for?
 
    ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 
@@ -9,12 +9,24 @@
 - C.Abstarction
 - D.Encapsulation
 
+2. John got a recipe for cookies from his mother, but john likes choco chips, so he altered the original cookie recipe, 
+   this is an example for?![HARD](hard.jpg)
 
+- A.Method Overriding
+- B.Method Overloading
+- C.Inheritance
+- D.Abstraction
+
+<details><summary> Show Answer </summary>
+  Ans: A
+  explanation: John inherited The original recipe(a method) is  from his mother(parent class) and he altered the recipe.
+  
+</details>
 <details><summary> <b>Show Answer</b> </summary>
   
   **Ans**: A
   
-  **Explanation**: printing using a 3D printer is a method in the Caltech Physics department, which is a class. Sheldon used the method for research and Howard used the same method for fun.
+  **Explanation**: <i>printing using a 3D printer is a method in the Caltech Physics department</i>, which is a class. Sheldon used the method for research and Howard used the same method for fun.
 </details>
 
 ## Technical
@@ -51,7 +63,7 @@ public class Languages {
   
   **Ans**: D
   
-  **Explanation**: "speakGerman()" class is written twice with different signatures in the same method, So it can not be considered as method overloading. it is just a duplicate method.
+  **Explanation**: <i>"speakGerman()" method is written twice with different signatures in the same class, So it can not be considered as method overloading. it is just a duplicate method.</i>
   
 </details>
 
@@ -182,7 +194,7 @@ class BusinessTrip extends Vacation{
 public class Area{
 
   public static void main(String[] args) {
-      Area a= new Ares();
+      Area a= new Area();
       System.out.println(a.calculateTriangleArea(1.0,2.0));
     
   }
