@@ -9,6 +9,14 @@
 - C.Abstarction
 - D.Encapsulation
 
+</details>
+<details><summary> <b>Show Answer</b> </summary>
+  
+  **Ans**: A
+  
+  **Explanation**: <i>printing using a 3D printer is a method in the Caltech Physics department</i>, which is a class. Sheldon used the method for research and Howard used the same method for fun.
+</details>
+
 2. John got a recipe for cookies from his mother, but john likes choco chips, so he altered the original cookie recipe, 
    this is an example for?![HARD](hard.jpg)
 
@@ -20,14 +28,6 @@
 <details><summary> Show Answer </summary>
   Ans: A
   explanation: John inherited The original recipe(a method) is  from his mother(parent class) and he altered the recipe.
-  
-</details>
-<details><summary> <b>Show Answer</b> </summary>
-  
-  **Ans**: A
-  
-  **Explanation**: <i>printing using a 3D printer is a method in the Caltech Physics department</i>, which is a class. Sheldon used the method for research and Howard used the same method for fun.
-</details>
 
 ## Technical
 
