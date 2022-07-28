@@ -256,9 +256,6 @@ for i in range(1, 10):
   
 15.What will be the output of the following code?
   
-
-<details><summary> <b>Show Answer</b> </summary>
-  
 ```python
 def outer_function(a, b):
     def inner_function(c, d):
@@ -268,7 +265,151 @@ def outer_function(a, b):
 Output = outer_function(45, 10)
 print(Output)
   ```
-
-  **Output**:
+- A.55
+- B.(45,10)
+- C.45
+- D.Syntax Error
+	
+<details><summary> <b>Show Answer</b> </summary>
   
-  55
+ **Ans**:
+	
+  Option B.55
+<details><summary> <b>Explanation</b> </summary>
+
+Adding multiple return statements doesn’t perform any task. Once function execution is encountered with the return statement, it stops the execution by returning whatever specified by the return statement.
+	</details>
+	</details>
+	
+16.Debug the code, give the correct code and output for the following code?
+(Create a function named func which always returns the number: 100)
+	
+``` python
+
+# Type your answer here.
+print(func(999))
+```
+	
+<details><summary> <b>Hint</b> </summary>
+	
+Simply return 100.
+	</details>
+	
+<details><summary> <b>Show Answer</b> </summary>
+	
+```python
+	
+def func(x):
+    return 100
+print(func())
+```
+	
+</details>
+
+17.What Will be the output of the following code?
+	
+```python
+def salary(**kwargs):
+    for i in kwargs:
+        print(i)
+salary(emp="suruthi", salary=10000)
+```
+
+<details><summary> <b>Show Answer</b> </summary>
+
+**Ans**:
+emp
+salary
+
+<details><summary> <b>Explanation</b> </summary>
+
+To accept Variable Length of Keyword Arguments, i.e., To create functions that take n number of Keyword arguments we use **kwargs (prefix a parameter name with a double asterisk ** ).
+
+keyword arguments: display(emp="suruthi", salary=10000)
+	
+This **kwargs collects all passed arguments into a new dictionary, where the argument names are the keys, and their values are the key’s values.So to get the values we need to iterate the kwargs dictionary like this
+
+</details>
+	
+**Example**:
+	
+('emp', 'suruthi')
+('salary', 10000)
+
+</details>
+	
+18.Fill the remaining lines for the following code and get the correct output for the code.
+(Write a function named func which will ask user for their name and print Hello!, Name)
+
+```python
+# Type your answer here.
+func()
+```
+<details><summary> <b>Hint</b> </summary>
+
+You can use input() function to ask for user input. Then you can assign it to a variable.
+	
+</details>
+	
+<details><summary> <b>Show Answer</b> </summary>
+
+```python
+def func():
+    name = input("Please enter your name.")
+    print("Hello!, ", name)
+func()
+```
+**Sample Output**:
+	
+Hello!,  Kavin
+
+</details>
+	
+19.Choose the correct function declaration of  fun1() so that we can execute the following function call successfully
+
+```python
+fun1(25, 75, 55)
+fun1(10, 20)
+```
+- A.def func1(**kwargs)
+- B.No,it is not possible 
+- C.def fun1(args*)
+- D.def fun1(*data)
+	
+<details><summary> <b>Show Answer</b> </summary>	
+
+*option D*:def fun1(*data)
+
+<details><summary> <b>Explanation</b> </summary>
+
+To accept multiple values or if the number of arguments is unknown, we can add * before the parameter name to accept arbitrary arguments. i.e., To accept Variable Length of Positional Arguments, i.e., To create functions that take n number of Positional arguments we use *args(prefix a parameter name with an asterisk * ).
+	
+*Example*:
+	
+```python
+def fun1(*data):
+    for i in data:
+      print(i)
+      print("Done!")
+fun1(25, 75, 55)
+fun1(10, 20)
+```
+</details>	
+</details>
+	
+20. How does the range function work?
+	
+<details><summary> <b>Show Answer</b> </summary>
+	
+The range function returns the sequence of numbers between the start to stop with a step increment. The syntax of the range function is range(start, stop[, step]).
+The stop argument is mandatory. The arguments start and step are optional. The default value of start and step are 0 and 1, respectively.
+
+**Example**:
+	
+```python
+print(list(range(1, 10, 2)))
+```
+*Output*:
+[1, 3, 5, 7, 9]
+	
+</details>
