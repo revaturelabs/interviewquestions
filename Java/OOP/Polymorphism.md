@@ -28,6 +28,7 @@
 <details><summary> Show Answer </summary>
   Ans: A
   explanation: John inherited The original recipe(a method) is  from his mother(parent class) and he altered the recipe.
+   </details>
 
 ## Technical
 
