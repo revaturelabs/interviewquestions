@@ -1,27 +1,11 @@
 ## Real-Time Applications
 
-1. 
-
-- A.
-- B. 
-- C. 
-- D. 
-
-<details><summary>Show Answer</summary>
-
-<b> Ans</b>: A
-
-Explanation:
-
-
-
-</details>
 
 ## Technical
 
 1. Can java be considered as absolute Object Orineted language? Explain the reason ?
 
-    ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main /Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -33,7 +17,7 @@ Explanation:
 
 2. What is boxing ?
 
-   ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+
     
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -53,7 +37,6 @@ Explanation:
 
 4. How to covert a primitive datatype to an Object wrapper class ?
 
-    ![HARD](hard.jpg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -69,7 +52,7 @@ Explanation:
 
 5. How to convert wrapper object to a primitive data type?
 
-   ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+
 
 
 <details><summary> <b>Show Answer</b> </summary>
