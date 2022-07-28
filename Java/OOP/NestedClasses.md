@@ -3,7 +3,7 @@
 1. Do inner classes have access to private members of the outer class?
 
 <details><summary>Show Answer</summary>
-Ans: yes, 
+Ans: yes, inner classes have access to all the members of outer class that include private members of class.
 </details>
 
 2. What are the uses of nested classes?
