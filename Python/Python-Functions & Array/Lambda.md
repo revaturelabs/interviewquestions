@@ -281,9 +281,9 @@ print(lst)
      
 **Output**:
 [12, -1, 9, 8, -0.5, -0.2, -100]
-[-1, -0.5, -0.2, -100]
                                  
-                                 </details>
+[-1, -0.5, -0.2, -100]
+</details>
   
 15.What will be the output of the following code?
   
@@ -309,7 +309,64 @@ print(lst)
   </details>
   </details>
 
- 
+16.Write a python program using map() and filter() functions add the values below 80. 
+  
+<details><summary> <b>Show Answer</b> </summary>  
+  
+ ```python
+lst1=[1000, 50, 600, 700, 5000, 90000, 175]
+lst2 = list(map(lambda x: x+2000, filter(lambda x: x<800, lst1)))
+print(lst2)
+```
+<details><summary> <b>Explanation</b> </summary> 
+  
+- You can use filter(f, list). Make sure your function is a logical statement to facilitate the filtering process.
+- Since filter() function will return an iterator, you can use list() function to convert it to a proper Python list.
+- You can use filter() function inside your map() function:
+  
+  map(f, list)
+  
+  where list is a filter() function itself:
+  
+  map(f1, filter(f2,list))
+  
+</details>
+ </details>                                                        
                                  
-                                 
-                                 
+17.What will be the output of the following code?
+
+```python
+lst1=[22, 100, 19, 13, 11, 1, 4, 66]
+lst2 = list(filter(lambda x: x%2 == 1, lst1))
+print(lst2)
+```
+<details><summary> <b>Show Answer</b> </summary> 
+  
+[19, 13, 11, 1]
+
+</details>
+
+<details><summary> <b>Explanation</b> </summary>
+  
+  - You can use filter(f, list). Make sure your function is a logical statement to facilitate the filtering process.
+  - Since filter() function will return an iterator, you can use list() function to convert it to a proper Python list.
+</details>
+
+18.What is the output of the following code?
+
+```python
+import functools
+l=[1, 2, 3, 4, 5]
+m=functools.reduce(lambda x, y:x if x>y else y, l)
+print(m)
+```
+<details><summary> <b>Show Answer</b> </summary>
+  
+5 
+  </details>
+  
+<details><summary> <b>Explanation</b> </summary>
+The code shown above can be used to find the maximum of the elements from the given list. In the above code, this operation is achieved by using the programming tool reduce. Hence the output of the code shown above is 5.
+
+</details>
+
