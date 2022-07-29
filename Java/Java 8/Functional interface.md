@@ -84,7 +84,7 @@ one abstract method is allowed in functional interface </details>
 ``` java
 @FunctionalInterface
 public interface Runnable {
- public abstract void run();
+    public abstract void run();
 }
 ```
 <details><summary> Show Answer </summary>
@@ -98,8 +98,7 @@ abstract method
 
 ``` java
 
-Consumer<Integer> consumer = (value) -> System.out.println
-(value);
+Consumer<Integer> consumer = (value) -> System.out.println(value);
 ```
 
 -  which accepts only one argument and has no return value. 
@@ -112,9 +111,7 @@ Consumer<Integer> consumer = (value) -> System.out.println
 
 ``` java
 public interface Predicate<T> {
-
     boolean test(T t);
-
 }
 ```
 - a function that accepts an argument and returns a boolean value as an answer
@@ -130,8 +127,8 @@ public interface Predicate<T> {
 ``` java
 @FunctionalInterface
 public interface Supplier<T>{
- returns the specific result 
-T.get();
+    //returns the specific result 
+    T.get();
 
 }
 ```
@@ -168,25 +165,24 @@ It will throw a compile time error that Revature is not a functional interface, 
 20: Convert the following code into a lambda expression.
 ``` java
 import java.util.Scanner;  
-public class Addition 
-{  
-public static void main(String args[])  
-{  
-int x, y, sum;  
-Scanner sc = new Scanner(System.in);  
-System.out.print("Enter the first number: ");  
-x = sc.nextInt();  
-System.out.print("Enter the second number: ");  
-y = sc.nextInt();  
-sum = sum(x, y);  
-System.out.println("The sum of two numbers x and y is: " + sum);  
-}  
-//method that calculates the sum  
-public static int Sum(int a, int b)  
-{  
-int sum = a + b;  
-return sum;  
-}  
+public class Addition {
+	   public static void main(String[] args) {
+	    	int x, y, sum;  
+    		Scanner sc = new Scanner(System.in);  
+    		System.out.print("Enter the first number: ");  
+    		x = sc.nextInt();  
+    		System.out.print("Enter the second number: ");  
+    		y = sc.nextInt();  
+    		sum = sum(x, y);  
+    		System.out.println("The sum of two numbers x and y is: " + sum); 
+		
+	  }
+
+   //method that calculates the sum  
+   public static int Sum(int a, int b)  {  
+      int sum = a + b;  
+      return sum;  
+   }  
 }  
 ```
 
@@ -195,13 +191,11 @@ Explanation: A lambda expression is a short block of code that takes in paramete
 
 ``` java
 
-public class Main
-{  
-public static void main(String args[])  
-{  
-Sum sum = (a,b) -> a+b;
-System.out.print(sum.add(2,3));  
-}  
+public class Main{ 
+	public static void main(String args[]){ 
+		Sum sum = (a,b) -> a+b;
+        System.out.print(sum.add(2,3));  
+    }  
 }  
 interface Sum{
     int add(int a, int b);
