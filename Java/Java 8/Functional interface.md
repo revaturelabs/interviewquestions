@@ -166,22 +166,22 @@ It will throw a compile time error that Revature is not a functional interface, 
 ``` java
 import java.util.Scanner;  
 public class Addition {
-	   public static void main(String[] args) {
-	    	int x, y, sum;  
-    		Scanner sc = new Scanner(System.in);  
-    		System.out.print("Enter the first number: ");  
-    		x = sc.nextInt();  
-    		System.out.print("Enter the second number: ");  
-    		y = sc.nextInt();  
-    		sum = sum(x, y);  
-    		System.out.println("The sum of two numbers x and y is: " + sum); 
+    public static void main(String[] args) {
+	int x, y, sum;  
+    	Scanner sc = new Scanner(System.in);  
+    	System.out.print("Enter the first number: ");  
+    	x = sc.nextInt();  
+    	System.out.print("Enter the second number: ");  
+    	y = sc.nextInt();  
+    	sum = sum(x, y);  
+    	System.out.println("The sum of two numbers x and y is: " + sum); 
 		
-	  }
+   }
 
    //method that calculates the sum  
    public static int Sum(int a, int b)  {  
-      int sum = a + b;  
-      return sum;  
+       int sum = a + b;  
+       return sum;  
    }  
 }  
 ```
@@ -192,9 +192,9 @@ Explanation: A lambda expression is a short block of code that takes in paramete
 ``` java
 
 public class Main{ 
-	public static void main(String args[]){ 
-		Sum sum = (a,b) -> a+b;
-        System.out.print(sum.add(2,3));  
+     public static void main(String args[]){ 
+         Sum sum = (a,b) -> a+b;
+         System.out.print(sum.add(2,3));  
     }  
 }  
 interface Sum{
