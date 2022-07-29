@@ -74,9 +74,10 @@ No, it is used to implement a method defined by a functional interface.
 </details>
 
 13: Does functional interface allows static methods.
-
+<details>
+ <summary> Show Answer</summary>
 JDK 8 allows static methods in interface, before this only
-one abstract method is allowed in functional interface
+one abstract method is allowed in functional interface </details>
 
 14: Is this a functional interface code snippet?
 ``` java
