@@ -69,6 +69,7 @@ No, it is used to implement a method defined by a functional interface.
 12: Expand and explain about SAM.
 <details>
 <summary> Show Answer</summary>
+ 
 - Single Abstarct Method interfaces
 - Whcih is also called as functional interfaces, having only one abstcrt methods and multiple default methods.
 </details>
