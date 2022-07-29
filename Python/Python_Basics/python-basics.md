@@ -205,14 +205,14 @@ ii) **Global Namespace:** the object name that are defined in a main program or 
 iii) **Built-in Namespace:** it contains the names of built-in methods and variables. It can be a datatype, exceptions and methods like print() & input(). 
 
 Example: 
-
+```
 def student(name):
     new_name ="rohit"   #local namespace
     return new_name
 
 name ="rohan"     #global namespace
 print(student(name))  #built-in namespace 
-
+```
 output: rohit 
 </details>
 
