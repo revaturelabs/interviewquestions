@@ -14,7 +14,7 @@
 ---
 
 2. How many keywords are there in Python 3.7?
-
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 - a) 31
 - b) 32
 - c) 37
@@ -27,6 +27,7 @@
 ---
 
 3. What do you mean by keywords?
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 <details><summary> <b>Show Answer</b> </summary>
   
 **Ans:** Keywords are the reserved words that have special meaning in python. We cannot use keywords as identifier, function and variable name. All the keywords are in lower case except "True" and "False". Python 3.7 have total of 33 keywords.  
@@ -34,7 +35,8 @@ For Example: and, or, if, elif,True, etc.
 </details>
 
 ---
-4. What is an identifiers?
+4. What is an identifiers? 
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 <details><summary> <b>Show Answer</b> </summary>
   
 **Ans:** Identifier is the name given to variable, function, class, etc in python. It consists of character, digit and underscore("_", [special character]). 
@@ -62,7 +64,7 @@ For Example:  first_name, _rollNo, id_1, etc.
 
 ---
 6. Which is not a feature of Python?
-
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 - a) Easy to learn
 - b) Platform independent 
 - c) Dynamically Typed
@@ -77,7 +79,7 @@ For Example:  first_name, _rollNo, id_1, etc.
 ---
 
 7. Which of the below mentioned is the correct extension of python file?
-
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 - a) .py
 - b) .python
 - c) .cpp
@@ -90,6 +92,7 @@ For Example:  first_name, _rollNo, id_1, etc.
 ---
 
 8. What are the advantages of python over other programming languages?
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 <details><summary> <b>Show Answer</b> </summary>
   
 **Ans:** Python offers some key features that makes it different from other programming languages such as:
@@ -145,6 +148,7 @@ For Example:  first_name, _rollNo, id_1, etc.
 
 ---
 13. Predict the output of below code.
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 ```
 print("9/2")
 ```
@@ -231,7 +235,7 @@ Types of Operators:
 
  ---
 18. Which of the following is not a comparison operator?
-
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 - a) ==
 - b) >
 - c) >> 
@@ -245,7 +249,7 @@ Types of Operators:
 
 ---
 19. Which of the following is an assignment operator?
-
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 - a) =
 - b) ==
 - c) is 
@@ -305,7 +309,7 @@ print(a & b)
 
 ---
 23. Which of the below code shows the correct representation of taking integer values as user input in Python3?
-
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 - a) n = int(input())
 - b) n = input() 
 - c) n = raw_input()
@@ -319,7 +323,7 @@ print(a & b)
 
 ---
 24. Which of the following is the correct way for single line comment in python?
-
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 - a) //
 - b) @
 - c) #
@@ -330,7 +334,7 @@ print(a & b)
 
 ---
 25. Which of the following is the correct way for multi-line comments in python?
-
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 - a) // hi 
       this is abc //
 - b) @ hi 
@@ -346,7 +350,7 @@ print(a & b)
 
 ---
 26. State True or False: "Comments are always required in the code. Without comments the code will not run". 
-
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 - a) True
 - b) False
 <details><summary> <b>Show Answer</b> </summary>
@@ -403,7 +407,7 @@ print(value)
 
  ---
 30. Which of the following is not a logical operator?
-
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 - a) and
 - b) or
 - c) not in
@@ -440,7 +444,7 @@ print(y) # it should print 30
 
 ---
 32. What is the data type of print(type(5))
-
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 - a) float
 - b) integer
 - c) int 
@@ -502,7 +506,7 @@ print(x)
 
 ---
 35. Which is not a datatype in Python?
-
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 - a) int
 - b) float 
 - c) char 
@@ -516,7 +520,7 @@ print(x)
   
 ---
 36. Which is not a datatype in python?
-
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 - a) bool
 - b) double
 - c) float 
@@ -662,6 +666,7 @@ if x ** 2 > 16 and y+1 < 10:
 
 ---
 45. What is the output of below print statement?
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 ```
 print(-22//4)
 ```
@@ -766,7 +771,7 @@ print(str1 or str2)
 
 ---
 51. State True or False: "the result of a division operator(/), is always float value".
-
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 - a) True
 - b) False 
 <details><summary> <b>Show Answer</b> </summary>
@@ -830,6 +835,7 @@ if (a = b):  # line 2
 
 ---
 55. What is the output of below print statement?
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 ```
 print(3%6) 
 ```
