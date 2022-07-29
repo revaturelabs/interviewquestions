@@ -61,7 +61,7 @@ It is to refer the method of functional interface. While using a lambda expressi
 
 - It has 2 parts. class/object and method/constructor.
 - Separated by :: (double colons)
-- No additional parameters passed in method reference.
+- No additional parameters are passed in method reference.
 
 </details>
 
