@@ -3,24 +3,24 @@
 
  <details><summary> Show Answer</summary>
 
- java.util.stream - which includes all the classes and interfaces used for functional - type operations. 
+ java.util.stream - which includes all the classes and interfaces used for functional-type operations. 
 
  </details>
 
- 2 : Why we need to import java.util.stream even after importing java.util.* in the code to use stream API?
+ 2: Why do we need to import java.util.stream even after importing java.util.* in the code to use stream API?
 
   <details><summary> Show Answer</summary>
 
-  - java.util.* will import all the direct classes and interfaces but not sub classess/ sub packages.
+  - java.util.* will import all the direct classes and interfaces but not sub-classes/sub-packages.
   - stream class resides in the sub package java.util.stream package so it will not be included in java.util.*.
 
   </details>
 
-  3: Explain about Stream API.
+  3: Explain Stream API.
 
   <details><summary> Show Answer</summary>
 
-  - Stream API is a collection of objects which can be processed to get a desired result.
+  - Stream API is a collection of objects which can be processed to get the desired result.
   - Example: If we want to filter the movies released in 2022 from the movie database.
 
   </details>
@@ -30,8 +30,8 @@
   <details><summary> Show Answer</summary>
 
 - two operations -Intermediate and terminal operations.
-- Intermediate - will process the stream to get the result (like filter, map).
-- Termainal - it is the end of the stream to return the result.
+- Intermediate - will process the stream to get the result (like a filter, or map).
+- Terminal - it is the end of the stream to return the result.
 
 </details>
 
@@ -51,29 +51,29 @@
 <details><summary> Show Answer</summary>
 
 - Collect- returns the result of intermediate operations.
-- forEach- used to iterate through the elements of stream
-- reduce - to reduce the elements of stream to one value
+- forEach- used to iterate through the elements of the stream
+- reduce - to reduce the elements of the stream to one value
 
 </details>
 
-7: Will the values of elements in stream change when you process it?
+7: Will the values of elements in the stream change when you process it?
 
 <details><summary> Show Answer</summary>
 
-No, because stream API process the elements as per pipelined operations without changing the values.
+No, because stream API processes the elements as per pipelined operations without changing the values.
 
 </details>
 
-8: Explain about pipeline operations.
+8: Explain pipeline operations.
 
 <details><summary> Show Answer</summary>
 
-- Stream API will take the stream of elements as source, performs pipeline of operations and returns the  result 
--  A pipeline of operations consists of source, zero or more intermediate operations(filter,sort,map) and a terminal operation.
+- Stream API will take the stream of elements as the source, performs a pipeline of operations, and returns the  result 
+-  A pipeline of operations consists of a source, zero or more intermediate operations(filter, sort, map), and a terminal operation.
 
 </details>
 
-9: List the ways of creating stream in java8.
+9: List the ways of creating a stream in java8.
 
 <details><summary> Show Answer</summary>
 
@@ -92,7 +92,7 @@ No, because stream API process the elements as per pipelined operations without 
 <details><summary> Show Answer</summary>
 
 - When we need to process and return a stream from another stream that satisfies a given condition we use filters in intermediate operations.
-- Exmaple: Return the movie list relaesed in 2022 from the movie database.
+- Example: Return the movie list released in 2022 from the movie database.
 
 </details>
 
@@ -100,17 +100,17 @@ No, because stream API process the elements as per pipelined operations without 
 
 <details><summary> Show Answer</summary>
 
-- map()- will work on the streams and transform the single input value into single output.
-- flatMap()- will work on the streams and transform the single input value into mulitple outputs by flattening it.
+- map()- will work on the streams and transform the single input value into a single output.
+- flatMap()- will work on the streams and transform the single input value into multiple outputs by flattening it.
 
 </details>
 
-12: When do we need sorted intermediate operation to be performed?
+12: When do we need a sorted intermediate operation to be performed?
 
 <details><summary> Show Answer</summary>
 
 - sorted can be used when we need to return the stream of elements in sorted order like sorting arrays.
-- Example: return the student database sorted with their department id's.
+- Example: return the student database sorted with their department ids.
 
 </details>
 
@@ -118,8 +118,8 @@ No, because stream API process the elements as per pipelined operations without 
 
 <details><summary> Show Answer</summary>
 
-- when we need the result of the stream to be in finite numbers.
-- Example : return the numnber of employees working in particular department.
+- when we need the result of the stream to be finite numbers.
+- Example: return the number of employees working in a particular department.
 
 </details>
 
@@ -127,8 +127,8 @@ No, because stream API process the elements as per pipelined operations without 
 
 <details><summary> Show Answer</summary>
 
-- When we need to iterate the elements in stream.
-- This is the only one operation that returns void.
+- When we need to iterate the elements in the stream.
+- This is the only operation that returns void.
 - can call directly on collections or stream.
 
 </details>
@@ -139,7 +139,7 @@ No, because stream API process the elements as per pipelined operations without 
 <details><summary> Show Answer</summary>
 
 - When we need to convert the source stream into collections by using intermediate operations. 
-- Ressult stream may be of list, set , map etc.
+- Result stream may be of the list, set, map, etc.
 
 </details>
 
@@ -147,7 +147,7 @@ No, because stream API process the elements as per pipelined operations without 
 
  <details><summary> Show Answer</summary>
 
- - No, we cannot add/ delete elements in stream
+ - No, we cannot add/ delete elements in the stream
  - we can only perform the operations on the stream
  - Stream does not store the data as well.
 
@@ -157,8 +157,8 @@ No, because stream API process the elements as per pipelined operations without 
 
 <details><summary> Show Answer</summary>
 
-- Intermediate operations are lazy because it will be invoked if only its required for the execution of terminal operation.
-- But it is optimized and it can process large number of data with high performance.
+- Intermediate operations are lazy because they will be invoked if only required for the execution of terminal operations.
+- But it is optimized and it can process large numbers of data with high performance.
 
 </details>
 
@@ -173,11 +173,11 @@ Stream<String> s = Stream.of("java", "SQL", "python",  "JDBC");
  <details><summary> Show Answer</summary>
 
  - returns SQL
- - Here we are using filter to return the result of element starting with "S".
+ - Here we are using the filter to return the result of the element starting with "S".
 
  </details>
 
- 19: Predict the output of the following intermediate opeartion.
+ 19: Predict the output of the following intermediate operation.
  ``` java
  Stream<String> s = Stream.of("appple", "orange", "apple", "banana", "banana");
  s.distinct().forEach(System.out::print); 
@@ -210,9 +210,9 @@ public class JavaStreamExample {
    4<br>
    6<br>
    8<br>
-   - iterate () used to iterate through the elements in the stream.
+   - iterate () is used to iterate through the elements in the stream.
    - filter() used to apply the condition on the stream 
-   - forEach() used to return the result from the stream after iteration.
+   - forEach() is used to return the result from the stream after iteration.
 </details>
 
 
