@@ -3,7 +3,7 @@
 
  <details><summary> Show Answer</summary>
 
- java.util.stream - which includes all the classes and interfaces used for functional-type operations. 
+ java.util.stream includes all the classes and interfaces used for functional-type operations. 
 
  </details>
 
