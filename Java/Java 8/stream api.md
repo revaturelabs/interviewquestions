@@ -1,3 +1,4 @@
+ ## Technical 
  1: Which package should be imported to use Stream API in Java 8?
 
  <details><summary> Show Answer</summary>
@@ -142,7 +143,29 @@ No, because stream API process the elements as per pipelined operations without 
 
 </details>
 
-16: Predict the output for the following operation.
+ 16: Can we add or delete elements from streams?
+
+ <details><summary> Show Answer</summary>
+
+ - No, we cannot add/ delete elements in stream
+ - we can only perform the operations on the stream
+ - Stream does not store the data as well.
+
+ </details>
+ 
+ 17: Explain about Lazy Invocation.
+
+<details><summary> Show Answer</summary>
+
+- Intermediate operations are lazy because it will be invoked if only its required for the execution of terminal operation.
+- But it is optimized and it can process large number of data with high performance.
+
+</details>
+
+
+## Problem Solving
+
+18: Predict the output for the following operation.
 ``` java
 Stream<String> s = Stream.of("java", "SQL", "python",  "JDBC");
  s.filter(x -> x.startsWith("S")).forEach(System.out::print); 
@@ -154,7 +177,7 @@ Stream<String> s = Stream.of("java", "SQL", "python",  "JDBC");
 
  </details>
 
- 17: Predict the output of the following intermediate opeartion.
+ 18: Predict the output of the following intermediate opeartion.
  ``` java
  Stream<String> s = Stream.of("appple", "orange", "apple", "banana", "banana");
  s.distinct().forEach(System.out::print); 
@@ -166,15 +189,7 @@ Stream<String> s = Stream.of("java", "SQL", "python",  "JDBC");
 - distinct()- will return a stream from the source stream removing the duplicate elements.
  </details>
 
- 18: Can we add or delete elements from streams?
 
- <details><summary> Show Answer</summary>
-
- - No, we cannot add/ delete elements in stream
- - we can only perform the operations on the stream
- - Stream does not store the data as well.
-
- </details>
 
  19: Predict the output of the following code.
 
@@ -200,12 +215,4 @@ public class JavaStreamExample {
    - forEach() used to return the result from the stream after iteration.
 </details>
 
-20: Explain about Lazy Invocation.
-
-<details><summary> Show Answer</summary>
-
-- Intermediate operations are lazy because it will be invoked if only its required for the execution of terminal operation.
-- But it is optimized and it can process large number of data with high performance.
-
-</details>
 
