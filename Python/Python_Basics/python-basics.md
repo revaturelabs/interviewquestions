@@ -728,6 +728,7 @@ print(b >> 2)
      1 
 - d) 14 
      2 
+     
 <details><summary> <b>Show Answer</b> </summary>
   
 **Ans:** correct option is b) 
