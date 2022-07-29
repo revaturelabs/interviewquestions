@@ -126,7 +126,7 @@ public class MethodReference {
 <details><summary> Show Answer</summary>
 
  Sample sam = MethodReference::printhello;  <br>
- - Refers a static method printhello() to its functional method print() in the interface Sample declared.
+ - Here the static method reference printhello() refers to its functional method print() in the interface Sample.
 
  </details>
 
