@@ -996,7 +996,7 @@ print(sum2)
 **Ans:** option c) is correct 
 
 **Explanation:** When the elements that are present in a list is divisible by 2 ,the statement present inside first if is exceuted. When the elements that are present in a list is divisible by 3 ,the statement present inside 2nd if is exceuted.  
-<details>
+</details>
   
 ---
 55. Predict the output of the following python code.
@@ -1033,8 +1033,8 @@ else:
     print("False")
 print ("True")
 ```
-- a) True
-   True
+- a) True 
+     True
 - b) True
    False
 - c) False
