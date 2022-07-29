@@ -302,13 +302,13 @@ print(a & b)
 ```
 
 - a) 5  
-&emsp; 5     
-- b) 5 
-     1 
-- c) 9 
-     9
-- d) 9 
-     0       
+&emsp;5     
+- b) 5  
+&emsp;1 
+- c) 9   
+&emsp;9
+- d) 9   
+&emsp;0    
 <details><summary> <b>Show Answer</b> </summary>
   
 **Ans:** correct option is b). 
