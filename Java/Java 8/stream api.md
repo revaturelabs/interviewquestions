@@ -69,7 +69,7 @@ No, because stream API processes the elements as per pipelined operations withou
 <details><summary> Show Answer</summary>
 
 - Stream API will take the stream of elements as the source, performs a pipeline of operations, and returns the  result 
--  A pipeline of operations consists of a source, zero or more intermediate operations(filter, sort, map), and a terminal operation.
+- A pipeline of operations consists of a source, zero or more intermediate operations(filter, sort, map), and a terminal operation.
 
 </details>
 
@@ -167,7 +167,7 @@ No, because stream API processes the elements as per pipelined operations withou
 
 18: Predict the output for the following operation.
 ``` java
-Stream<String> s = Stream.of("java", "SQL", "python",  "JDBC");
+ Stream<String> s = Stream.of("java", "SQL", "python",  "JDBC");
  s.filter(x -> x.startsWith("S")).forEach(System.out::print); 
  ```
  <details><summary> Show Answer</summary>
@@ -210,9 +210,11 @@ public class JavaStreamExample {
    4<br>
    6<br>
    8<br>
+ 
    - iterate () is used to iterate through the elements in the stream.
    - filter() used to apply the condition on the stream 
    - forEach() is used to return the result from the stream after iteration.
+ 
 </details>
 
 
