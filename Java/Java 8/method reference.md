@@ -1,9 +1,9 @@
 ## Technical
-1: Explain about Method Reference.
+1: Explain Method Reference.
 
 <details><summary> Show Answer</summary>
 
-It is to refer the method of functional interface.When using lambda expression to refer a method ,we can use method reference instead of lambda expressison.
+It is to refer the method of functional interface. While using a lambda expression to refer to a method, we can use a method reference instead of a lambda expressison.
 
 </details>
 
@@ -18,7 +18,7 @@ It is to refer the method of functional interface.When using lambda expression t
 
 </details>
 
-3: Write the syntax for reference to a static method?
+3: Write the syntax for referring to a static method?
 
 <details><summary> Show Answer</summary>
 
@@ -50,17 +50,17 @@ It is to refer the method of functional interface.When using lambda expression t
 <details><summary> Show Answer</summary>
 
 - ClassName::new
-- New is the keyword to refer the constructor with the class name.
+- Now is the keyword to refer to the constructor with the class name.
 
 </details>
 
- 7: Explain the parts of method reference.
+ 7: Explain the parts of the method reference.
 
  
 <details><summary> Show Answer</summary>
 
 - It has 2 parts. class/object and method/constructor.
-- Seperated by :: (double colons)
+- Separated by :: (double colons)
 - No additional parameters passed in method reference.
 
 </details>
@@ -72,7 +72,7 @@ It is to refer the method of functional interface.When using lambda expression t
 
               list.forEach(System.out::println);  <br>
 
-- Here we are using forEach method to display the elements one by one in the list.
+- Here we are using the forEach method to display the elements one by one in the list.
 
 </details>
 
@@ -99,15 +99,15 @@ public class MethodReference{
 
 <details><summary> Show Answer</summary>
 
-   Data Strcutures and Alogrithms<br>
+   Data Structures and Alogrithms<br>
    Java Programming<br>
    Python Programming
    -  This is an example of Reference to an instance method of an arbitrary object of a particular type.
-   -  First it will sort the list and applys compareToIgnoreCase to returns the result.
+   -  First, it will sort the list and apply compareToIgnoreCase to return the result.
 
 </details>
 
-10: What should be the code in line 9  to get the result "Hello, this is static method." using reference to the static methods?
+10: What should be the code in line 9  to get the result "Hello, this is a static method." using a reference to the static methods?
 
 ``` java
 interface Sample{  
