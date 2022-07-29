@@ -125,8 +125,12 @@ public class MethodReference {
 }  
 ```
 <details><summary> Show Answer</summary>
+ 
+ ``` java
 
- Sample sam = MethodReference::printhello;  <br>
+ Sample sam = MethodReference::printhello; 
+ 
+ ```
  - Here the static method reference printhello() refers to its functional method print() in the interface Sample.
 
  </details>
