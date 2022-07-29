@@ -166,7 +166,7 @@ No, because stream API processes the elements as per pipelined operations withou
 ## Problem Solving
 
 18: Predict the output for the following operation.
-``` java
+ ``` java
  Stream<String> s = Stream.of("java", "SQL", "python",  "JDBC");
  s.filter(x -> x.startsWith("S")).forEach(System.out::print); 
  ```
