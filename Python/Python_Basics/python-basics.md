@@ -1,13 +1,4 @@
 
-# Python Basics 
-- Introduction to Python 
-- Python Syntax
-- Comments 
-- Operators 
-- Variable and datatypes
-- User input and output 
----
-
 1. Python was developed in which year?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 - a) 1990
