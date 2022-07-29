@@ -1,3 +1,4 @@
+# Python Basics Questions And Answers
 
 1. Python was developed in which year?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
