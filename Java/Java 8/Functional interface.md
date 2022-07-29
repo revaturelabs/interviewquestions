@@ -141,7 +141,7 @@ T.get();
 </details>
 
 
-18: Is thre ia any limit for static and default methods in functional interface?
+18: Is there any limit for static and default methods in functional interface?
 
 <details><summary> Show Answer </summary>
 
@@ -269,7 +269,7 @@ interface Double extends Single{
 <details>
 <summary> Show Answer</summary>
 
-- It will throw an compile time error
+- It will throw a compile time error
 
 - When fucntional interface extends another interface it should not contain any abstract methods.
 
