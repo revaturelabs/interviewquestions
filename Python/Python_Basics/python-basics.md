@@ -22,16 +22,19 @@
 
 2. How many keywords are there in Python 3.7?
 
-a) 31
-b) 32
-c) 37
-d) 33
+- a) 31
+- b) 32
+- c) 37
+- d) 33
 <details><summary> <b>Show Answer</b> </summary>
+  
 **Ans:** correct option is d) 33 
 </details>
 
+
 3. What do you mean by keywords?
 <details><summary> <b>Show Answer</b> </summary>
+  
 **Ans:** Keywords are the reserved words that have special meaning in python. We cannot use keywords as identifier, function and variable name. All the keywords are in lower case except "True" and "False". Python 3.7 have total of 33 keywords.  
 For Example: and, or, if, elif,True, etc. 
 </details>
