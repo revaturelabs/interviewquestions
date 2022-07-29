@@ -723,8 +723,9 @@ In python, there are 6 Bitwise operators:
 **Ans:** *Bitwise left shift* operator shifts the bits of the integer number to the left and put 0 on voids right as a result.         
 For example:    
 x = 4 = 0100 (binary)      
-x << 1 = 1000 = 8   # Here it shifts the bit by 1 on the left side.     
-- *Bitwise right shift* operator shifts the bits of integer number to the right and put 0 on voids left as a result.    
+x << 1 = 1000 = 8   # Here it shifts the bit by 1 on the left side.
+<br />
+ *Bitwise right shift* operator shifts the bits of integer number to the right and put 0 on voids left as a result.    
 For example:      
 x = 4 = 0100 (binary)     
 x >> 1 = 0010 = 2  # Here it shifts the bit by 1 on the right side.     
