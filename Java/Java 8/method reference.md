@@ -50,7 +50,7 @@ It is to refer the method of functional interface. While using a lambda expressi
 <details><summary> Show Answer</summary>
 
 - ClassName::new
-- Now is the keyword to refer to the constructor with the class name.
+- new is the keyword to refer to the constructor with the class name.
 
 </details>
 
