@@ -76,7 +76,7 @@ For Example:  first_name, _rollNo, id_1, etc.
 **Ans:** correct option is d) mid-level language.
 
 **Explanation:** Python is a High- level language.
-</detials>
+</details>
 
 
 7. Which of the below mentioned is the correct extension of python file?
@@ -143,9 +143,9 @@ For Example:  first_name, _rollNo, id_1, etc.
 </details>
 
 13. Predict the output of below code.
-'''
+```
 print("9/2")
-'''
+```
 - a) 4.5
 - b) 4.0
 - c) 4 
@@ -158,32 +158,39 @@ print("9/2")
 </details>
 
 14. What is the output of below code?
-'''
+```
 i = 4
 while i < 7:
        print(i)
        i++
        print(i+2)
        break
-''' 
+``` 
 
-a) 4 
-   6 
-b) 4 
-   7 
-c) Error
-d) 5 
-   7 
-Ans: correct option is c) Error. 
+- a) 4 
+     6 
+- b) 4 
+     7 
+- c) Error
+- d) 5 
+     7 
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** correct option is c) Error. 
 
+**Explanation:** '++' and '--' symbols are not present in python. To incremenet or decrement a value, we can use assignment operators like += and -= respectively.
+</details>
+ 
 
 15. Define Namespace, explain the types of namespaces in python. 
-Ans:  A namespace is a way to provide unique name for each and every object in python. An object can be a variable or a method. There are three types of namespace present in python:
-i) Local Namespace: the variable names defined in a class, function, loop or in any block of code are comes under local namespace. These variables cannot be accessed by outer Namespace in python. Local namespace can access the global namespace objects and built-in namespace..
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:**  A namespace is a way to provide unique name for each and every object in python. An object can be a variable or a method. There are three types of namespace present in python:
+i) **Local Namespace:** the variable names defined in a class, function, loop or in any block of code are comes under local namespace. These variables cannot be accessed by outer Namespace in python. Local namespace can access the global namespace objects and built-in namespace..
 
-ii) Global Namespace: the object name that are defined in a main program or in a module comes under global namespace. These are outside any function or block of code. It can access the builtin namespace objects. 
+ii) **Global Namespace:** the object name that are defined in a main program or in a module comes under global namespace. These are outside any function or block of code. It can access the builtin namespace objects. 
 
-iii) Built-in Namespace: it contains the names of built-in methods and variables. It can be a datatype, exceptions and methods like print() & input(). 
+iii) **Built-in Namespace:** it contains the names of built-in methods and variables. It can be a datatype, exceptions and methods like print() & input(). 
 
 Example: 
 
@@ -195,10 +202,12 @@ name ="rohan"     #global namespace
 print(student(name))  #built-in namespace 
 
 output: rohit 
-
+</details>
 
 16. What is the use of Operators in Python & what are its types? 
-Ans: Operators are the symbol that are used to perform opertions on an operands. An operand is a variable or a value on which operator is applied. 
+<details><summary> <b>Show Answer</b> </summary>
+ 
+**Ans:** Operators are the symbol that are used to perform opertions on an operands. An operand is a variable or a value on which operator is applied. 
 Types of Operators: 
 - Arithmetic operators :  [+, -, *, /, %, **, //]
 - Assignment operators :  [=, +=, -=, *=, /=, %=, //=, **=] 
@@ -207,120 +216,137 @@ Types of Operators:
 - Identity operators :  [is, is not] 
 - Membership operators: [in, not in]
 - Bitwise operators: [&, |, ^, ~, <<, >>]
-
+  </details>
 
 17. What is the difference b/w "is" and "==" in python?
-Ans: The first difference b/w both is that, 'is' operator is an Identity operator, whereas '==' is an comparison operator. 'is' operator is used to check whether both operands belongs to same location or not in the memory. On the other hands '==' is used to check whether both the operands have same value or not. 
-
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** The first difference b/w both is that, 'is' operator is an Identity operator, whereas '==' is an comparison operator. 'is' operator is used to check whether both operands belongs to same location or not in the memory. On the other hands '==' is used to check whether both the operands have same value or not. 
+  </details>
 
 18. Which of the following is not a comparison operator?
 
-a) ==
-b) >
-c) >> 
-d) <= 
+- a) ==
+- b) >
+- c) >> 
+- d) <= 
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** correct option is c) >>
 
-Ans: correct option is c) >>
-
-Explanation: >> is a bitwise operator.
-
+**Explanation:** >> is a bitwise operator.
+  </details>
 
 19. Which of the following is an assignment operator?
 
-a) =
-b) ==
-c) is 
-d) != 
+- a) =
+- b) ==
+- c) is 
+- d) != 
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** correct option is a) = 
 
-Ans: correct option is a) = 
-
-Explanation: option b) and d) are comparison operators and option c) is an identity operator.
+**Explanation:** option b) and d) are comparison operators and option c) is an identity operator. 
+  </details>
 
 
 20. Which is/are not a membership operators?
 
-a) in 
-b) not in
-c) is 
-d) is not 
+- a) in 
+- b) not in
+- c) is 
+- d) is not 
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** Correct options are c) and d).
 
-Ans: Correct options are c) and d).
-
-Explanation: is and is not are identity operators.
-
+**Explanation:** is and is not are identity operators.
+  </details>
 
 21. What is the difference b/w 'and' and 'or' operator?
-Ans: Both "and" and "or" are the logical operators which requires two operands and both return True and False after evaluation. The "and" operator returns True when both the operands are True otherwise False, whereas "or" operator returns True if either operand is True and return False when both operands are False. 
-
+<details><summary> <b>Show Answer</b> </summary>
+ 
+**Ans:** Both "and" and "or" are the logical operators which requires two operands and both return True and False after evaluation. The "and" operator returns True when both the operands are True otherwise False, whereas "or" operator returns True if either operand is True and return False when both operands are False. 
+  </details>
 
 22. Predict the output for the below code:
-'''
+```
 a = 9
 b = 5
   
 print(a and b) 
 print(a & b) 
-'''
+```
 
-a) 5
-   5 
-b) 5 
-   1 
-c) 9 
-   9
-d) 9 
-   0       
+- a) 5
+     5 
+- b) 5 
+     1 
+- c) 9 
+     9
+- d) 9 
+     0       
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** correct option is b). 
 
-Ans: correct option is b). 
-
-Explanation: In 1st print statement logical "and" operator is used, which checks if both operand values are non- zero it will return the value of operand mentioned in last i.e 'b=5'. In 2nd print statement bitwise operator '&' is used, which converts the operands values in binary[ in terms of 0 and 1] and compares and returns 1 if both the bits are 1 otherwise 0. So, a=9 in binary is 1001 and b=5 in binary is 0101. therefore after comparing both operand values bit by bit we get final result as 0001 in binary which is equal to 1 in decimal format. Hence the output (b).
-
+**Explanation:** In 1st print statement logical "and" operator is used, which checks if both operand values are non- zero it will return the value of operand mentioned in last i.e 'b=5'. In 2nd print statement bitwise operator '&' is used, which converts the operands values in binary[ in terms of 0 and 1] and compares and returns 1 if both the bits are 1 otherwise 0. So, a=9 in binary is 1001 and b=5 in binary is 0101. therefore after comparing both operand values bit by bit we get final result as 0001 in binary which is equal to 1 in decimal format. Hence the output (b).
+  </details>
 
 23. Which of the below code shows the correct representation of taking integer values as user input in Python3?
 
-a) n = int(input())
-b) n = input() 
-c) n = raw_input()
-d) n = int(raw_input())
+- a) n = int(input())
+- b) n = input() 
+- c) n = raw_input()
+- d) n = int(raw_input())
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** correct option is a)
 
-Ans: correct option is a)
-
-Explanation: option b) is used to take user input as string values in python. option c) and d) are the functions of Python2.
-
+**Explanation:** option b) is used to take user input as string values in python. option c) and d) are the functions of Python2.
+  </details>
 
 24. Which of the following is the correct way for single line comment in python?
 
-a) //
-b) @
-c) #
-d) <!...> 
-Ans: correct option is c)
-
+- a) //
+- b) @
+- c) #
+- d) <!...> 
+ <details><summary> <b>Show Answer</b> </summary>
+**Ans:** correct option is c)
+  </details>
 
 25. Which of the following is the correct way for multi-line comments in python?
 
-a) // hi 
+- a) // hi 
       this is abc //
-b) @ hi 
+- b) @ hi 
      this is abc @
-c) # hi
+- c) # hi
      this is abc #
-d) ''' hi 
-       this is abc '''
-Ans: correct option is d) 
-
+- d) ''' hi 
+        this is abc '''
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** correct option is d) 
+  </details>
 
 26. State True or False: "Comments are always required in the code. Without comments the code will not run". 
 
-a) True
-b) False
-Ans: correct option is b) False.
+- a) True
+- b) False
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** correct option is b) False.
 
-Explanation: Comments are used to make the code easy to understand. It is not mandatory to use comments while writing program.
-
+**Explanation:** Comments are used to make the code easy to understand. It is not mandatory to use comments while writing program.
+  </details>
 
 27. What is a Ternary operator in Python? Give Example.
-Ans: Ternary operator are like if-else statements but with a difference, it allows checking a condition in single line only replacing the multiline if-else block in python. 
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** Ternary operator are like if-else statements but with a difference, it allows checking a condition in single line only replacing the multiline if-else block in python. 
 
 For example: 
 num1 = 5
@@ -328,80 +354,88 @@ num2 = 8
 
 maximum =  num1 if num1>num2 else num2
 print(maximum)  # it returns 8 as output.
-
+  </details>
 
 28. Predict the output of below code:
+```
 value =  10//2**3*3+4/2
 print(value) 
+```
+- a) 377 
+- b) 5
+- c) 5.0 
+- d) 2 
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** correct option is c) 5.0. 
 
-options:
-a) 377 
-b) 5
-c) 5.0 
-d) 2 
-
-Ans: correct option is c) 5.0. 
-
-Explanation: According to precedence of operators, Exponent(**) has highest precedence in this expression. After that Multiplication(*), Division(/), Floor division(//) all three have same precedence so, it is evaluated from left to right order in an expression. And at last Addition(+). So 2**3 will evaluate first and gives,'8'.
-Then 10//8 gives 1 because of floor division. Then 1*3 gives '3' and 4/2 gives '2.0'. Hence the final result will come out as 3+2.0 = 5.0
-
+**Explanation:** According to precedence of operators, Exponent(**) has highest precedence in this expression. After that Multiplication(*), Division(/), Floor division(//) all three have same precedence so, it is evaluated from left to right order in an expression. And at last Addition(+). So 2**3 will evaluate first and gives,'8'. Then 10//8 gives 1 because of floor division. Then 1*3 gives '3' and 4/2 gives '2.0'. Hence the final result will come out as 3+2.0 = 5.0
+  </details>
 
 29. Odd one out: Which of the following statement is incorrect?
 
-a) '+' is an arithmetic operator.
-b) '+=' is an arithmetic operator.
-c) '>=' is a comparison operator.
-d) 'and' is a logical operator. 
-Ans: correct option is b).
+- a) '+' is an arithmetic operator.
+- b) '+=' is an arithmetic operator.
+- c) '>=' is a comparison operator.
+- d) 'and' is a logical operator. 
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** correct option is b).
 
-Explanation: += is an assignment operator
-
+**Explanation:** += is an assignment operator
+  </details>
 
 30. Which of the following is not a logical operator?
 
-a) and
-b) or
-c) not in
-d) not 
-Ans: correct option is c).
+- a) and
+- b) or
+- c) not in
+- d) not 
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** correct option is c).
 
-Explanation: not in is a membership operator in python.
-
+**Explanation:** not in is a membership operator in python.
+  </details>
+  
 
 31. Select the correct expression to reassign a global variable “y” to 30 inside a function reassign() 
-'''
+```
 y = 50
 def reassign():
     # your code to assign global y = 30
 reassign()
 print(y) # it should print 30
-'''
+```
 
-a) global y = 30
-b) global var y 
-   y = 30
-c) global.y = 30
-d) global y 
-   y = 30 
+- a) global y = 30
+- b) global var y 
+     y = 30
+- c) global.y = 30
+- d) global y 
+     y = 30 
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** option d) is correct.
 
-Ans: option d) is correct.
-
-Explanation: First we have to declare the variable y with global keyword inside the reassign() function, then we can assign the value to y variable. Hence option (d).
-
+**Explanation:** First we have to declare the variable y with global keyword inside the reassign() function, then we can assign the value to y variable. Hence option (d).
+  </details>
 
 32. What is the data type of print(type(5))
 
-a) float
-b) integer
-c) int 
-d) number 
-Ans: correct option is c).
+- a) float
+- b) integer
+- c) int 
+- d) number 
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** correct option is c).
 
-Explanation: 5 is an integer value in python
-
+**Explanation:** 5 is an integer value in python
+  </details>
 
 33. What is the output of the following code?
-'''
+```
 x = 50
 def fun1():
     x = 25
@@ -409,20 +443,22 @@ def fun1():
     
 fun1()
 print(x) 
-'''
-a) 25 
-   25 
-b) 25 
-   50 
-c) NameError
-d) None
-Ans: correct option is b) 
+```
+- a) 25 
+     25 
+- b) 25 
+     50 
+- c) NameError
+- d) None
+ <details><summary> <b>Show Answer</b> </summary>
+ 
+**Ans:** correct option is b) 
 
-Explanation: fun1() is called first, so the statements that are there in fun1() will executes first and therefore prints the value of x = 25 in first line in console and then prints 50 in new line after comming out of fun1() function. 
-
+**Explanation:** fun1() is called first, so the statements that are there in fun1() will executes first and therefore prints the value of x = 25 in first line in console and then prints 50 in new line after comming out of fun1() function. 
+  </details>
 
 34. What will be the output of following code?
-'''
+```
 x = 75
 def myfunc():
     x = x + 1
@@ -430,96 +466,97 @@ def myfunc():
 
 myfunc()
 print(x)
-'''
-a) Error 
-b) 76 
-c) 76
-   75
-d) 76
-   76 
+```
+- a) Error 
+- b) 76 
+- c) 76
+     75
+- d) 76
+     76 
+<details><summary> <b>Show Answer</b> </summary>
+**Ans:** correct option is a) 
 
-Ans: correct option is a) 
-
-Explanation: UnboundLocalError: local variable 'x' referenced before assignment.
-
+**Explanation:** UnboundLocalError: local variable 'x' referenced before assignment.
+  </details>
 
 35. Which is not a datatype in Python?
 
-a) int
-b) float 
-c) char 
-d) bool 
+- a) int
+- b) float 
+- c) char 
+- d) bool 
+<details><summary> <b>Show Answer</b> </summary>
+**Ans:** correct option is c) char 
 
-Ans: correct option is c) char 
-
-Explanation: In python we can create char by creating a string of length 1. 
-
+**Explanation:** In python we can create char by creating a string of length 1. 
+  </details>
 
 36. Which is not a datatype in python?
 
-a) bool
-b) double
-c) float 
-d) str 
+- a) bool
+- b) double
+- c) float 
+- d) str 
+<details><summary> <b>Show Answer</b> </summary>
+**Ans:** correct option is b) double.
 
-Ans: correct option is b) double.
-
-Explanation: In python, every number with decimal values will comes under float class.
-
+**Explanation:** In python, every number with decimal values will comes under float class.
+  </details>
 
 37. Which is a datatype in python?
 
-a) number
-b) char
-c) complex
-d) double 
+- a) number
+- b) char
+- c) complex
+- d) double 
+<details><summary> <b>Show Answer</b> </summary>
+**Ans:** correct option is c) complex
 
-Ans: correct option is c) complex
-
-Explanation: we can create complex numbers by using complex datatype.
-
+**Explanation:** we can create complex numbers by using complex datatype.
+  </details>
 
 38. Which of the following is not a correct way of making string in python?
 
-a) str1 = "hi"
-b) str1 = 'hi'
-c) str1 = '''hi'''
-d) str1 = '"hi"
+- a) str1 = "hi"
+- b) str1 = 'hi'
+- c) str1 = '''hi'''
+- d) str1 = '"hi"
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** correct option is d) str1 = '"hi" 
 
-Ans: correct option is d) str1 = '"hi" 
-
-Explanation: option d) will lead to an SyntaxError.
-
+**Explanation:** option d) will lead to an SyntaxError.
+  </details>
 
 39. predict the output of following code. 
-'''
+```
 def func1():
     x = 25
     return x
 func1()
 print(x)
-'''
-a) NameError
-b) 25
-c) 0
-d) none of the above 
+```
+- a) NameError
+- b) 25
+- c) 0
+- d) none of the above 
+<details><summary> <b>Show Answer</b> </summary>
+**Ans:** correct option is a) NameError. 
 
-Ans: correct option is a) NameError. 
-
-Explanation: option a) is correct because, in python, it will give a NameError that name "x" is not defined.
-
+**Explanation:** option a) is correct because, in python, it will give a NameError that name "x" is not defined.
+  </details>
 
 40. Which of the following is not a built-in function in python?
 
-a) sum()
-b) avg()
-d) all() 
-d) len() 
+- a) sum()
+- b) avg()
+- d) all() 
+- d) len() 
+<details><summary> <b>Show Answer</b> </summary>
+**Ans:** correct option is b) avg() 
 
-Ans: correct option is b) avg() 
-
-Explanation: there is no function with name avg() in python.
-
+**Explanation:** there is no function with name avg() in python.
+  </details>
 
 41. Which of the following is not a built-in function in python?
 
