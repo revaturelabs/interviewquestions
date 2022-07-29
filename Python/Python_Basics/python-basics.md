@@ -301,7 +301,7 @@ print(a and b)
 print(a & b) 
 ```
 
-- a) 5
+- a) 5__
      5 
 - b) 5 
      1 
