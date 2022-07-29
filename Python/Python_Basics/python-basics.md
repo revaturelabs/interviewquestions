@@ -707,12 +707,12 @@ print(-22//4)
   
 **Ans:**  Bitwise operators first converts the integer to binary and then performs bit-by-bit operations on it. The final result is returned in decimal format. 
 In python, there are 6 Bitwise operators:
-- & - Bitwise AND
-- | - Bitwise OR 
-- ~ - Bitwise NOT 
-- ^ - Bitwise XOR 
-- >> - Bitwise right shift 
-- << - Bitwise left shift 
+- '&' - Bitwise AND
+- '|' - Bitwise OR 
+- '~' - Bitwise NOT 
+- '^' - Bitwise XOR 
+- '>>' - Bitwise right shift 
+- '<<' - Bitwise left shift 
 </details>
 
 ---
@@ -720,14 +720,14 @@ In python, there are 6 Bitwise operators:
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
 
-**Ans:** *Bitwise left shift* operator shifts the bits of the integer number to the left and put 0 on voids right as a result. 
-For example:   
-x = 4 = 0100 (binary)   
-x << 1 = 1000 = 8   # Here it shifts the bit by 1 on the left side.  
-*Bitwise right shift* operator shifts the bits of integer number to the right and put 0 on voids left as a result.   
-For example:   
-x = 4 = 0100 (binary)  
-x >> 1 = 0010 = 2  # Here it shifts the bit by 1 on the right side.  
+**Ans:** *Bitwise left shift* operator shifts the bits of the integer number to the left and put 0 on voids right as a result.         
+For example:    
+x = 4 = 0100 (binary)      
+x << 1 = 1000 = 8   # Here it shifts the bit by 1 on the left side.     
+- *Bitwise right shift* operator shifts the bits of integer number to the right and put 0 on voids left as a result.    
+For example:      
+x = 4 = 0100 (binary)     
+x >> 1 = 0010 = 2  # Here it shifts the bit by 1 on the right side.     
 </details>  
 
 ---
