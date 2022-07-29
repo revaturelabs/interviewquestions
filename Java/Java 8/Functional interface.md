@@ -1,34 +1,34 @@
 ## Technical
-1: How do we implement interface with lambda experssion?
+1: How do we implement the interface with lambda expression?
 
 <details><summary> Show Answer</summary>
-Functional interface(An interface with single abstarct method)
+A functional interface(An interface with a single abstract method)
 </details>
 
 
 
- 2:  Is @Functional Interface annotation mandatory for every interface with single abstarct method?
+ 2:  Is @Functional Interface annotation mandatory for every interface with a single abstract method?
  <details><summary> Show Answer</summary>
-No , not necessary because compiler will consider it as functional interface when it has only one abstarct method. </details>
+No, not necessarily because the compiler will consider it as a functional interface when it has only one abstract method. </details>
 
-3: Is it possible to have default and static methods in functional interface?
+3: Is it possible to have default and static methods in the functional interface?
  <details><summary> Show Answer</summary>
- Yes we can have any number of default and static methods but can contain only one abstract method. 
+ Yes, we can have any number of default and static methods but can contain only one abstract method. 
  </details>
 
-4: How many default methods can we have in functional interface?
+4: How many default methods can we have in the functional interface?
  <details><summary> Show Answer</summary>
- fucntional interface can have Multiple default methods with only one abstrcat method. </details>
+ a functional interface can have Multiple default methods with only one abstract method. </details>
 
 5: Exaplain about Lambda Expression?
  <details><summary> Show Answer</summary>
  The functional interface has been introduced in Java 8 to support the lambda expression, lambda expression is the instance of a functional interface.</details>
 
-6: Write a single–line lambda expressions having void return type?
+6: Write a single–line lambda expression having void return type?
 <details><summary> Show Answer</summary>
 Answer: () -> System.out.println("Welcome");</details>
 
-7: List some java built-in examples for fucntional interfaces.
+7: List some java built-in examples for functional interfaces.
 <details><summary> Show Answer</summary>
 
 -Runnable     
@@ -39,45 +39,45 @@ Answer: () -> System.out.println("Welcome");</details>
 8: What is the use of @Functional Interface annotation?
 <details><summary> Show Answer</summary>
 
-It forces the Java compiler to indicate that the interface is a functional interface, so it should not allow to have more than one abstract method. 
+It forces the Java compiler to indicate that the interface is a functional interface, so it should not allow having more than one abstract method. 
 </details>
 
-9: Does lambda expression execute on its own ? Give explanation.
+9: Does lambda expression execute on its own? Explain.
 <details><summary> Show Answer</summary>
 No, it is used to implement a method defined by a functional interface.
 
 </details>
 
-10: List the main kinds of Functional Interface in Java 8.
+10: List the main kinds of Functional Interfaces in Java 8.
 <details><summary> Show Answer</summary>
 
-- Consumer - which takes only one arguments
-- Predicate - which takes one argument and returns the result as boolean value
-- Supplier - which does not take any arguments returns a single result.
-- Function - which recieves an argument and returns the result based on the processing
+- Consumer - which takes only one argument
+- Predicate - which takes one argument and returns the result as a boolean value
+- Supplier - which does not take any arguments and returns a single result.
+- Function - which receives an argument and returns the result based on the processing
 
 </details>
 
-11: When does an functional inetrface can extend another interface?
+11: When does a functional interface can extend another interface?
 <details><summary> Show Answer</summary>
 
-- A fucntional inetrface can extends the interface only when there is no abstract methods in it.
-- If it has abstract method then it will be an invalid fucntional interface.
+- A functional interface can extend the interface only when there are no abstract methods in it.
+- If it has an abstract method then it will be an invalid functional interface.
 
 </details>
 
-12: Expand and explain about SAM.
+12: What is SAM?
 <details>
 <summary> Show Answer</summary>
  
-- Single Abstarct Method interfaces
-- Whcih is also called as functional interfaces, having only one abstcrt methods and multiple default methods.
+- Single Abstract Method interfaces
+- Which is also called functional interfaces, having only one abstract method and multiple default methods.
 </details>
 
-13: Does functional interface allows static methods.
+13: Does the functional interface allows static methods?
 <details>
  <summary> Show Answer</summary>
-JDK 8 allows static methods in interface, before this only
+JDK 8 allows static methods in the interface, before this only
 one abstract method is allowed in functional interface </details>
 
 14: Is this a functional interface code snippet?
@@ -88,11 +88,11 @@ public interface Runnable {
 }
 ```
 <details><summary> Show Answer </summary>
-Yes, this is functional interface, since there is only one
+Yes, this is a functional interface, since there is only one
 abstract method
 </details>
 
-15: Write the syntax for consumer functional interface?
+15: Write the syntax for the consumer functional interface?
 
 <details><summary> Show Answer </summary>
 
@@ -106,7 +106,7 @@ Consumer<Integer> consumer = (value) -> System.out.println
 
 </details>
 
-16: Write the syntax of Predicate Functional Interface ?
+16: Write the syntax of the Predicate Functional Interface.
 
 <details><summary> Show Answer </summary>
 
@@ -141,7 +141,7 @@ T.get();
 </details>
 
 
-18: Is there any limit for static and default methods in functional interface?
+18: Is there any limit for static and default methods in the functional interface?
 
 <details><summary> Show Answer </summary>
 
@@ -150,8 +150,8 @@ T.get();
 </details>
 
 
-# Error Detetction
- 19:Predict the error of the following code snippet?
+# Error Detection
+ 19:Predict the error of the following code snippet.
  
 ``` java  
 @FunctionalInterface  
@@ -164,8 +164,8 @@ interface Arithmetic {
 It will throw a compile time error that Revature is not a functional interface, since it has 2 abstract methods.</details>
 
 
-# Problem Solving
-20: Convert the following code into lambda expresssion.
+# Problem-Solving
+20: Convert the following code into a lambda expression.
 ``` java
 import java.util.Scanner;  
 public class Addition 
@@ -191,7 +191,7 @@ return sum;
 ```
 
 <details><summary> Show Answer</summary>
-Explanation: A lambda expression is a short block of code which takes in parameters and returns a value. Which is similar to methods, but they do not need a name(Function name) and they can be implemented right in the body of a method.
+Explanation: A lambda expression is a short block of code that takes in parameters and returns a value. Which is similar to methods, but they do not need a name(Function name) and they can be implemented right in the body of a method.
 
 ``` java
 
@@ -271,7 +271,7 @@ interface Double extends Single{
 
 - It will throw a compile time error
 
-- When fucntional interface extends another interface it should not contain any abstract methods.
+- When a functional interface extends another interface it should not contain any abstract methods.
 
 </details>
 
