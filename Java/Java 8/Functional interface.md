@@ -33,9 +33,9 @@ Answer:
 7: List some java built-in examples for functional interfaces.
 <details><summary> Show Answer</summary>
 
--Runnable     
--Callable       
--Comparable
+- Runnable     
+- Callable       
+- Comparable
 </details>
 
 8: What is the use of @Functional Interface annotation?
