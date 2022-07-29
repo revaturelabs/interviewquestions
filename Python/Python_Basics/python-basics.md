@@ -40,94 +40,122 @@ For Example: and, or, if, elif,True, etc.
 </details>
 
 4. What is an identifiers?
-Ans: Identifier is the name given to variable, function, class, etc in python. It consists of character, digit and underscore("_", [special character]). 
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** Identifier is the name given to variable, function, class, etc in python. It consists of character, digit and underscore("_", [special character]). 
+There are some rules for Identifier in python, let's talk about them one by one: 
+- Identifier should start with a character or an underscore. 
+- A character can be a lowercase(a-z) or uppercase(A-Z). 
+- A digit(0-9) can be placed at any position except at the starting. 
+- No special characters(@,!,#,$,%,&) are allowed other than underscore. 
+For Example:  first_name, _rollNo, id_1, etc. 
+</details>
 
 
 5. Which of the following statement is false regarding Identifiers? 
 
-a) Variable name can have lower and upper case letters.
-b) Identifier should start with a character or a number. 
-c) A digit(0-9) can be placed at any position except at the starting. 
-d) No special characters(@,!,#,$,%,&) are allowed other than underscore. 
- 
-Ans: correct option is b)
+- a) Variable name can have lower and upper case letters.
+- b) Identifier should start with a character or a number. 
+- c) A digit(0-9) can be placed at any position except at the starting. 
+- d) No special characters(@,!,#,$,%,&) are allowed other than underscore. 
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** correct option is b)
 
-Explanation: Identifier can start with character or underscore, but not with a number.
-
+**Explanation:** Identifier can start with character or underscore, but not with a number.
+</details>
 
 6. Which is not a feature of Python?
 
-a) Easy to learn
-b) Platform independent 
-c) Dynamically Typed
-d) mid-level language
+- a) Easy to learn
+- b) Platform independent 
+- c) Dynamically Typed
+- d) mid-level language
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** correct option is d) mid-level language.
 
-Ans: correct option is d) mid-level language.
-
-Explanation: Python is a High- level language.
+**Explanation:** Python is a High- level language.
+</detials>
 
 
 7. Which of the below mentioned is the correct extension of python file?
 
-a) .py
-b) .python
-c) .cpp
-d) none of the above
-
-Ans: correct option is a) .py 
+- a) .py
+- b) .python
+- c) .cpp
+- d) none of the above
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** correct option is a) .py 
+</details>
 
 
 8. What are the advantages of python over other programming languages?
-Ans: Python offers some key features that makes it different from other programming languages such as:
-i) Easy to code: any non- programmer can also learn python basics in few hours but that is not true with Java or C++. 
-ii) no need to remember where to add curly braces({}) or semi-colon (;) throughout the program.
-iii) it is dynamically typed means, we don't need to specify the type of variable as the variable type is decided at the run time. 
-iv) it has a large set of libraries that provides built-in functions and modules so that every time we don't have to write the code for every single thing. 
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** Python offers some key features that makes it different from other programming languages such as:
+- Easy to code: any non- programmer can also learn python basics in few hours but that is not true with Java or C++. 
+- No need to remember where to add curly braces({}) or semi-colon (;) throughout the program.
+- It is dynamically typed means, we don't need to specify the type of variable as the variable type is decided at the run time. 
+- It has a large set of libraries that provides built-in functions and modules so that every time we don't have to write the code for every single thing. 
+</details>
 
-
-9. How do you differentiate b/w Interpreter and Compiler?
-Ans: i) Compiler translates our program in a single run, whereas Interpreter translates our program line by line.
-ii) In terms of CPU utilization, Compiler utilizes more CPU than Interpreter. 
-iii) In compilation all the errors in the program are shown in the end together, whereas in Interpreter errors of the code are shown line by line. 
-iv) As the code size increases Complier takes more time to Scan a code compared to Interpreters.
-v) Example: C, C++, java, etc are based on Compiler whereas Python, Ruby, MATLAB, etc are interpreted language.
+9. How do you differentiate between Interpreter and Compiler?
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** These are the following differences between Interpreter and Compiler:
+- Compiler translates our program in a single run, whereas Interpreter translates our program line by line.
+- In terms of CPU utilization, Compiler utilizes more CPU than Interpreter. 
+- In compilation all the errors in the program are shown in the end together, whereas in Interpreter errors of the code are shown line by line. 
+- As the code size increases Complier takes more time to Scan a code compared to Interpreters.
+- Example: C, C++, java, etc are based on Compiler whereas Python, Ruby, MATLAB, etc are interpreted language.
+</details>
 
 
 10. Is Python an Interpreted language or Compiled?
-Ans: Python is an Interpreted language because it checks our code line by line not all together. For example suppose there are 2 errors in your code one in line 3 and other one in line 4. When you run the code it will only throw error for line 3 in console( output screen) but not  for line 4. The reason behind it is that it checks the code one line at a time. 
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** Python is an Interpreted language because it checks our code line by line not all together. For example suppose there are 2 errors in your code one in line 3 and other one in line 4. When you run the code it will only throw error for line 3 in console( output screen) but not  for line 4. The reason behind it is that it checks the code one line at a time. 
+</details>
 
 
 11. Is "true" an Identifier or Keyword?
 
-a) Keyword
-b) Identifier
-c) both a and b
-d) None of the above.
+- a) Keyword
+- b) Identifier
+- c) both a and b
+- d) None of the above.
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** correct option is b) Identifier. 
 
-Ans: correct option is b) Identifier. 
+**Explanation:** True is a keyword, whereas true with first letter in lower case is an Identifier. 
+</details>
 
-Explanation: True is a keyword, whereas true with first letter in lower case is an Identifier. 
-
-
-12. Point out whether the identifiers mentioned in a list are valid or not: [Last_Name, student@id, 4_id, var, for].
-Ans: Last_Name and var are the only valid identifiers from the above list. 
+12. Point out whether the identifiers mentioned in a list are valid or not: [Last_Name, student@id, 4_id, var, for]. 
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** Last_Name and var are the only valid identifiers from the above list. 
 > student@id is not a valid identifier because it has a special character "@" in it.
 > 4_id is not a valid identifier because the identifier should not start with a digit. 
 > for is invaild because it a reserved word in python. 
-
+</details>
 
 13. Predict the output of below code.
 '''
 print("9/2")
 '''
-a) 4.5
-b) 4.0
-c) 4 
-d) 9/2 
-Ans: correct option is d) 9/2. 
+- a) 4.5
+- b) 4.0
+- c) 4 
+- d) 9/2 
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** correct option is d) 9/2. 
 
-Explanation: 9/2 is a string here.
-
+**Explanation:** 9/2 is a string here.
+</details>
 
 14. What is the output of below code?
 '''
