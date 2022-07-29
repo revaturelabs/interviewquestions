@@ -70,7 +70,9 @@ It is to refer the method of functional interface. While using a lambda expressi
 <details><summary> Show Answer</summary>
 
 
-              ``` java list.forEach(System.out::println);   ``` 
+ ``` java 
+ list.forEach(System.out::println);  
+ ``` 
 
 - Here we are using the forEach method to display the elements one by one in the list.
 
