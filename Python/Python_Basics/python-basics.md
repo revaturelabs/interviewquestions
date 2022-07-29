@@ -19,6 +19,7 @@
 **Ans:** correct option is c) 1989.
 </details>
 
+---
 
 2. How many keywords are there in Python 3.7?
 
@@ -31,6 +32,7 @@
 **Ans:** correct option is d) 33 
 </details>
 
+---
 
 3. What do you mean by keywords?
 <details><summary> <b>Show Answer</b> </summary>
@@ -39,6 +41,7 @@
 For Example: and, or, if, elif,True, etc. 
 </details>
 
+---
 4. What is an identifiers?
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -51,7 +54,7 @@ There are some rules for Identifier in python, let's talk about them one by one:
 For Example:  first_name, _rollNo, id_1, etc. 
 </details>
 
-
+---
 5. Which of the following statement is false regarding Identifiers? 
 
 - a) Variable name can have lower and upper case letters.
@@ -65,6 +68,7 @@ For Example:  first_name, _rollNo, id_1, etc.
 **Explanation:** Identifier can start with character or underscore, but not with a number.
 </details>
 
+---
 6. Which is not a feature of Python?
 
 - a) Easy to learn
@@ -78,6 +82,7 @@ For Example:  first_name, _rollNo, id_1, etc.
 **Explanation:** Python is a High- level language.
 </details>
 
+---
 
 7. Which of the below mentioned is the correct extension of python file?
 
@@ -90,6 +95,7 @@ For Example:  first_name, _rollNo, id_1, etc.
 **Ans:** correct option is a) .py 
 </details>
 
+---
 
 8. What are the advantages of python over other programming languages?
 <details><summary> <b>Show Answer</b> </summary>
@@ -101,6 +107,7 @@ For Example:  first_name, _rollNo, id_1, etc.
 - It has a large set of libraries that provides built-in functions and modules so that every time we don't have to write the code for every single thing. 
 </details>
 
+---
 9. How do you differentiate between Interpreter and Compiler?
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -112,6 +119,7 @@ For Example:  first_name, _rollNo, id_1, etc.
 - Example: C, C++, java, etc are based on Compiler whereas Python, Ruby, MATLAB, etc are interpreted language.
 </details>
 
+---
 
 10. Is Python an Interpreted language or Compiled?
 <details><summary> <b>Show Answer</b> </summary>
@@ -119,7 +127,7 @@ For Example:  first_name, _rollNo, id_1, etc.
 **Ans:** Python is an Interpreted language because it checks our code line by line not all together. For example suppose there are 2 errors in your code one in line 3 and other one in line 4. When you run the code it will only throw error for line 3 in console( output screen) but not  for line 4. The reason behind it is that it checks the code one line at a time. 
 </details>
 
-
+---
 11. Is "true" an Identifier or Keyword?
 
 - a) Keyword
@@ -133,6 +141,7 @@ For Example:  first_name, _rollNo, id_1, etc.
 **Explanation:** True is a keyword, whereas true with first letter in lower case is an Identifier. 
 </details>
 
+---
 12. Point out whether the identifiers mentioned in a list are valid or not: [Last_Name, student@id, 4_id, var, for]. 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -142,6 +151,7 @@ For Example:  first_name, _rollNo, id_1, etc.
 - for is invaild because it a reserved word in python. 
 </details>
 
+---
 13. Predict the output of below code.
 ```
 print("9/2")
@@ -157,6 +167,7 @@ print("9/2")
 **Explanation:** 9/2 is a string here.
 </details>
 
+---
 14. What is the output of below code?
 ```
 i = 4
@@ -181,7 +192,7 @@ while i < 7:
 **Explanation:** '++' and '--' symbols are not present in python. To incremenet or decrement a value, we can use assignment operators like += and -= respectively.
 </details>
  
-
+---
 15. Define Namespace, explain the types of namespaces in python. 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -204,6 +215,7 @@ print(student(name))  #built-in namespace
 output: rohit 
 </details>
 
+---
 16. What is the use of Operators in Python & what are its types? 
 <details><summary> <b>Show Answer</b> </summary>
  
@@ -218,12 +230,14 @@ Types of Operators:
 - Bitwise operators: [&, |, ^, ~, <<, >>]
   </details>
 
+  ---
 17. What is the difference b/w "is" and "==" in python?
 <details><summary> <b>Show Answer</b> </summary>
   
 **Ans:** The first difference b/w both is that, 'is' operator is an Identity operator, whereas '==' is an comparison operator. 'is' operator is used to check whether both operands belongs to same location or not in the memory. On the other hands '==' is used to check whether both the operands have same value or not. 
   </details>
 
+ ---
 18. Which of the following is not a comparison operator?
 
 - a) ==
@@ -237,6 +251,7 @@ Types of Operators:
 **Explanation:** >> is a bitwise operator.
   </details>
 
+---
 19. Which of the following is an assignment operator?
 
 - a) =
@@ -250,7 +265,7 @@ Types of Operators:
 **Explanation:** option b) and d) are comparison operators and option c) is an identity operator. 
   </details>
 
-
+---
 20. Which is/are not a membership operators?
 
 - a) in 
@@ -263,13 +278,15 @@ Types of Operators:
 
 **Explanation:** is and is not are identity operators.
   </details>
-
+  
+---
 21. What is the difference b/w 'and' and 'or' operator?
 <details><summary> <b>Show Answer</b> </summary>
  
 **Ans:** Both "and" and "or" are the logical operators which requires two operands and both return True and False after evaluation. The "and" operator returns True when both the operands are True otherwise False, whereas "or" operator returns True if either operand is True and return False when both operands are False. 
   </details>
 
+---
 22. Predict the output for the below code:
 ```
 a = 9
@@ -294,6 +311,7 @@ print(a & b)
 **Explanation:** In 1st print statement logical "and" operator is used, which checks if both operand values are non- zero it will return the value of operand mentioned in last i.e 'b=5'. In 2nd print statement bitwise operator '&' is used, which converts the operands values in binary[ in terms of 0 and 1] and compares and returns 1 if both the bits are 1 otherwise 0. So, a=9 in binary is 1001 and b=5 in binary is 0101. therefore after comparing both operand values bit by bit we get final result as 0001 in binary which is equal to 1 in decimal format. Hence the output (b).
   </details>
 
+---
 23. Which of the below code shows the correct representation of taking integer values as user input in Python3?
 
 - a) n = int(input())
@@ -307,6 +325,7 @@ print(a & b)
 **Explanation:** option b) is used to take user input as string values in python. option c) and d) are the functions of Python2.
   </details>
 
+---
 24. Which of the following is the correct way for single line comment in python?
 
 - a) //
@@ -317,6 +336,7 @@ print(a & b)
 **Ans:** correct option is c)
   </details>
 
+---
 25. Which of the following is the correct way for multi-line comments in python?
 
 - a) // hi 
@@ -332,6 +352,7 @@ print(a & b)
 **Ans:** correct option is d) 
   </details>
 
+---
 26. State True or False: "Comments are always required in the code. Without comments the code will not run". 
 
 - a) True
@@ -343,6 +364,7 @@ print(a & b)
 **Explanation:** Comments are used to make the code easy to understand. It is not mandatory to use comments while writing program.
   </details>
 
+---
 27. What is a Ternary operator in Python? Give Example.
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -355,7 +377,8 @@ num2 = 8
 maximum =  num1 if num1>num2 else num2
 print(maximum)  # it returns 8 as output.
   </details>
-
+  
+---
 28. Predict the output of below code:
 ```
 value =  10//2**3*3+4/2
@@ -372,6 +395,7 @@ print(value)
 **Explanation:** According to precedence of operators, Exponent(**) has highest precedence in this expression. After that Multiplication(*), Division(/), Floor division(//) all three have same precedence so, it is evaluated from left to right order in an expression. And at last Addition(+). So 2**3 will evaluate first and gives,'8'. Then 10//8 gives 1 because of floor division. Then 1*3 gives '3' and 4/2 gives '2.0'. Hence the final result will come out as 3+2.0 = 5.0
   </details>
 
+---
 29. Odd one out: Which of the following statement is incorrect?
 
 - a) '+' is an arithmetic operator.
@@ -385,6 +409,7 @@ print(value)
 **Explanation:** += is an assignment operator
   </details>
 
+ ---
 30. Which of the following is not a logical operator?
 
 - a) and
@@ -398,7 +423,7 @@ print(value)
 **Explanation:** not in is a membership operator in python.
   </details>
   
-
+---
 31. Select the correct expression to reassign a global variable “y” to 30 inside a function reassign() 
 ```
 y = 50
@@ -421,6 +446,7 @@ print(y) # it should print 30
 **Explanation:** First we have to declare the variable y with global keyword inside the reassign() function, then we can assign the value to y variable. Hence option (d).
   </details>
 
+---
 32. What is the data type of print(type(5))
 
 - a) float
@@ -434,6 +460,7 @@ print(y) # it should print 30
 **Explanation:** 5 is an integer value in python
   </details>
 
+---
 33. What is the output of the following code?
 ```
 x = 50
@@ -457,6 +484,7 @@ print(x)
 **Explanation:** fun1() is called first, so the statements that are there in fun1() will executes first and therefore prints the value of x = 25 in first line in console and then prints 50 in new line after comming out of fun1() function. 
   </details>
 
+---
 34. What will be the output of following code?
 ```
 x = 75
@@ -480,6 +508,7 @@ print(x)
 **Explanation:** UnboundLocalError: local variable 'x' referenced before assignment.
   </details>
 
+---
 35. Which is not a datatype in Python?
 
 - a) int
@@ -492,7 +521,8 @@ print(x)
 
 **Explanation:** In python we can create char by creating a string of length 1. 
   </details>
-
+  
+---
 36. Which is not a datatype in python?
 
 - a) bool
@@ -506,6 +536,7 @@ print(x)
 **Explanation:** In python, every number with decimal values will comes under float class.
   </details>
 
+---
 37. Which is a datatype in python?
 
 - a) number
@@ -519,6 +550,7 @@ print(x)
 **Explanation:** we can create complex numbers by using complex datatype.
   </details>
 
+---
 38. Which of the following is not a correct way of making string in python?
 
 - a) str1 = "hi"
@@ -532,6 +564,7 @@ print(x)
 **Explanation:** option d) will lead to an SyntaxError.
   </details>
 
+---
 39. predict the output of following code. 
 ```
 def func1():
@@ -551,6 +584,7 @@ print(x)
 **Explanation:** option a) is correct because, in python, it will give a NameError that name "x" is not defined.
   </details>
 
+---
 40. Which of the following is not a built-in function in python?
 
 - a) sum()
@@ -564,6 +598,7 @@ print(x)
 **Explanation:** there is no function with name avg() in python.
   </details>
 
+---
 41. Which of the following is not a built-in function in python?
 
 - a) input()
@@ -577,6 +612,7 @@ print(x)
 **Explanation:** there is no function with name count() in python.
   </details>
 
+---
 42. Which of the following is a built-in function in python?
 
 - a) add()
@@ -590,6 +626,7 @@ print(x)
 **Explanation:** options a), b) and c) are not a built-in function.
   </details>
 
+---
 43. What is the output of following code?
 ```
 a = [1, 2]
@@ -612,6 +649,7 @@ print(b)
 **Explanation:** In the above code, both a and b shares the same memory in python, any change made to a will reflects in b and vise-versa.
   </details>
 
+---
 44. Predict the output of below code.
 ```
 x = 4
@@ -630,6 +668,7 @@ if x ** 2 > 16 and y+1 < 10:
 **Explanation:** In if statement, first condition is false as 16 greater then 16 is false and 2nd condition is true as 6 less then 10 is true. and operator is used between first and second condition therefore the resultant of true and false is false. Hence the print statement inside if block will not executes.
 </details>
 
+---
 45. What is the output of below print statement?
 ```
 print(-22//4)
@@ -645,6 +684,7 @@ print(-22//4)
 **Explanation:** // is a floor division operator, it returns the integer value after division.
 </details>
 
+---
 46. What are the Bitwise operators present in python?
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -658,9 +698,10 @@ In python, there are 6 Bitwise operators:
 - << - Bitwise left shift 
 </details>
 
+---
 47. What is the use of left shift and right shift operators?
 <details><summary> <b>Show Answer</b> </summary>
- 
+
 **Ans:** *Bitwise left shift* operator shifts the bits of the integer number to the left and put 0 on voids right as a result. 
 For example: 
 x = 4 = 0100 (binary) 
@@ -671,6 +712,7 @@ x = 4 = 0100 (binary)
 x >> 1 = 0010 = 2  # Here it shifts the bit by 1 on the right side.
 </details>
 
+---
 48. What is the output of below code?
 ```
 a = 5
@@ -693,6 +735,7 @@ print(b >> 2)
 **Explanation:** In both the print statements Bitwise operators are used. In first print statement, bitwise or operator is used which converts values of a and b in binary and returns 1 if either of the bit is 1 else 0. Binary value of 5 is 0101 and binary value of 10 is 1010 so the resultant will be 1111 in binary which is equivalent to 15 in decimal. Therefore 1st print statement prints 15 as output. In 2nd print statement Bitwise right shift operator is used which shifts the bits of a number to the right and fills 0 on voids left. So 1010 is shifted twice to the right as mentioned in print statement and we got the result as 0010 in binary which is equivalent to 2 in decimal. Hence the output 15 and 2.    
 </details> 
 
+---
 49. Predict the output of the following code.
 ```
 str1 = 'and'
@@ -709,7 +752,8 @@ print(str1 and str2)
 
 **Explanation:** Because both the values are true and the "and" operator is used in print(), therefore it prints the value of last variable in output screen that is 'or'.
   </details>
-  
+
+---
 50. Predict the output of the following code.
 ```
 str1 = 'and'
@@ -727,6 +771,7 @@ print(str1 or str2)
 **Explanation:** Because both the values are true and the "or" operator is used in print(), therefore it prints the value of first variable in output screen that is 'and'.
   </details>
 
+---
 51. State True or False: "the result of a division operator(/), is always float value".
 
 - a) True
@@ -738,6 +783,7 @@ print(str1 or str2)
 **Explanation:** In python, division (/) operator returns the float value whereas, floor division (//) operator returns the int value.
   </details>
 
+---
 52. Predict the output.
 ```
 x = 20//4**2-10*2/ 3
@@ -754,6 +800,7 @@ print(x)
 **Explanation:** The operations will be performed based on the precedence of operators. Exponent (**) operator has the highest precedence in this expression, so it evaluates first resulting in 16. After that Multiplication(*), Division(/), Floor division(//) all three have same precedence so, it is evaluated from left to right order in an expression. And at last subtraction(-). So, 20//16 gives 1 and 10*2/3 gives 6.67. At last 1 - 6.67 results in -5.67, hence the answer.
 </details>
 
+---
 53. What is the output of below mentioned code?
 ```
 x = 6
@@ -771,6 +818,7 @@ print(y ^ x)
 **Explanation:** Bitwise xor operator is used in the print statement that returns 0 if both the bit is 0 or 1 and returns 1 if either of the bit is 1. 6 in binary is 110 and 4 in binary is 100, therefore after doing xor operation the resultant will be 010, which is 2 in decimal. Hence the option b) is correct.
 </details>
 
+---
 54. Choose the correct option, for the below code, that will not lead to any error.
 ```
 a, b = 1   # line 1
@@ -785,8 +833,9 @@ if (a = b):  # line 2
 <details><summary> <b>Show Answer</b> </summary>
   
 **Ans:** correct option is b).
+</details>
 
-
+---
 55. What is the output of below print statement?
 ```
 print(3%6) 
@@ -802,6 +851,7 @@ print(3%6)
 **Explanation:** Modules (%) operator gives the remainder of two numbers after division. 
   </details>
 
+---
 56. Which of the following operators has the highest precedence?
 
 - a) *
@@ -815,6 +865,7 @@ print(3%6)
 **Explanation:** From the given options, multiplication (*) has the highest precedence and not has the lowest precedence. 
   </details>
 
+---
 57. State True or False: "Bitwise shift operators (<<, >>) has lower precedence than Bitwise And(&) operator".
 
 - a) True
@@ -824,6 +875,7 @@ print(3%6)
 **Ans:** option b) False.
   </details>
 
+---
 58. What is the output of the following code?
 ```
 b = 8
@@ -840,7 +892,8 @@ print(a)
 
 **Explanation:** In line 2 of the above code, it is invalid to assign the value of b to a at the time of increment.
   </details>
-
+  
+---
 59. Which of the following statement is not a correct representation of comments in python?
 
 - a) # this is a sample.
@@ -854,6 +907,7 @@ print(a)
 **Explanation:** option c) is a string, rest all are comments in python.
   </details>
 
+---
 60. Which of the following code will not lead to SyntaxError in python?
 
 - a) for i in range(4)
@@ -871,4 +925,5 @@ print(a)
 **Explanation:** Semicolon is missing in option a). In option c) in operator is missing. In option d) 'fro' will result in syntax error.
   </details>
 
+---
   
