@@ -26,7 +26,9 @@ No, not necessarily because the compiler will consider it as a functional interf
 
 6: Write a single–line lambda expression having void return type?
 <details><summary> Show Answer</summary>
-Answer: () -> System.out.println("Welcome");</details>
+Answer: 
+	
+``` java () -> System.out.println("Welcome"); ```</details>
 
 7: List some java built-in examples for functional interfaces.
 <details><summary> Show Answer</summary>
