@@ -344,14 +344,14 @@ print(a & b)
 ---
 25. Which of the following is the correct way for multi-line comments in python?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
-- a) // hi 
-      this is abc //
-- b) @ hi 
-     this is abc @
-- c) # hi
-     this is abc #
-- d) ''' hi 
-        this is abc '''
+- a) // hi  
+&emsp; this is abc //
+- b) @ hi   
+&emsp; this is abc @
+- c) # hi  
+&emsp; this is abc #
+- d) ''' hi    
+&emsp; this is abc '''
 <details><summary> <b>Show Answer</b> </summary>
   
 **Ans:** correct option is d) 
@@ -377,11 +377,13 @@ print(a & b)
 **Ans:** Ternary operator are like if-else statements but with a difference, it allows checking a condition in single line only replacing the multiline if-else block in python. 
 
 For example: 
+```
 num1 = 5
 num2 = 8 
 
 maximum =  num1 if num1>num2 else num2
 print(maximum)  # it returns 8 as output.
+```
   </details>
   
 ---
