@@ -443,12 +443,12 @@ reassign()
 print(y) # it should print 30
 ```
 
-- a) global y = 30
-- b) global var y 
-     y = 30
-- c) global.y = 30
-- d) global y 
-     y = 30 
+- a) global y = 30    
+- b) global var y     
+&emsp;y = 30   
+- c) global.y = 30  
+- d) global y        
+&emsp;y = 30 
 <details><summary> <b>Show Answer</b> </summary>
   
 **Ans:** option d) is correct.
@@ -482,11 +482,11 @@ def fun1():
 fun1()
 print(x) 
 ```
-- a) 25 
-     25 
-- b) 25 
-     50 
-- c) NameError
+- a) 25   
+&emsp;25 
+- b) 25   
+&emsp;50 
+- c) NameError  
 - d) None
  <details><summary> <b>Show Answer</b> </summary>
  
@@ -509,10 +509,10 @@ print(x)
 ```
 - a) Error 
 - b) 76 
-- c) 76
-     75
-- d) 76
-     76 
+- c) 76  
+&emsp;75
+- d) 76  
+&emsp;76 
 <details><summary> <b>Show Answer</b> </summary>
   
 **Ans:** correct option is a) 
@@ -649,12 +649,12 @@ b += [3, 4]
 print(a)
 print(b)
 ```
-- a) [1, 2, 3, 4]
-     [1, 2, 3, 4]
-- b) [1, 2]
-     [1, 2, 3, 4] 
-- c) [1, 2, 3, 4]
-     [1, 2]
+- a) [1, 2, 3, 4]   
+&emsp;[1, 2, 3, 4]
+- b) [1, 2]  
+&emsp;[1, 2, 3, 4] 
+- c) [1, 2, 3, 4]  
+&emsp;[1, 2]
 - d) Error 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -721,14 +721,14 @@ In python, there are 6 Bitwise operators:
 <details><summary> <b>Show Answer</b> </summary>
 
 **Ans:** *Bitwise left shift* operator shifts the bits of the integer number to the left and put 0 on voids right as a result. 
-For example: 
-x = 4 = 0100 (binary) 
-x << 1 = 1000 = 8   # Here it shifts the bit by 1 on the left side.
-*Bitwise right shift* operator shifts the bits of integer number to the right and put 0 on voids left as a result. 
-For example: 
-x = 4 = 0100 (binary)
-x >> 1 = 0010 = 2  # Here it shifts the bit by 1 on the right side.
-</details>
+For example:   
+x = 4 = 0100 (binary)   
+x << 1 = 1000 = 8   # Here it shifts the bit by 1 on the left side.  
+*Bitwise right shift* operator shifts the bits of integer number to the right and put 0 on voids left as a result.   
+For example:   
+x = 4 = 0100 (binary)  
+x >> 1 = 0010 = 2  # Here it shifts the bit by 1 on the right side.  
+</details>  
 
 ---
 48. What is the output of below code?
@@ -739,14 +739,14 @@ b = 10
 print(a | b)
 print(b >> 2)
 ```
-- a) 15         
-     1              
-- b) 15                        
-     2                    
-- c) 14                   
-     1 
-- d) 14 
-     2 
+- a) 15               
+&emsp;1              
+- b) 15                            
+&emsp;2                    
+- c) 14                    
+&emsp;1 
+- d) 14     
+&emsp;2 
      
 <details><summary> <b>Show Answer</b> </summary>
   
