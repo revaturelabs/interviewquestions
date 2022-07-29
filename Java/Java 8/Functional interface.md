@@ -261,7 +261,7 @@ interface Single{
 }  
 @FunctionalInterface  
 interface Double extends Single{  
-    // Invalid '@FunctionalInterface' annotation; Doable is not a functional interface  
+ 
     void doIt();  
 }  
 ```
@@ -271,7 +271,7 @@ interface Double extends Single{
 
 - It will throw an compile time error
 
-- When fucntional interface extends another interface it should noy contain any abstract methods.
+- When fucntional interface extends another interface it should not contain any abstract methods.
 
 </details>
 
