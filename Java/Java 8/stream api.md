@@ -56,7 +56,7 @@
 
 </details>
 
-7: Does the value of elements in stream will be changed when you process it?
+7: Will the values of elements in stream change when you process it?
 
 <details><summary> Show Answer</summary>
 
@@ -114,7 +114,7 @@ No, because stream API process the elements as per pipelined operations without 
 
 </details>
 
-13: what is the use of count() terminal operations in stream API?
+13: What is the use of count() terminal operations in stream API?
 
 <details><summary> Show Answer</summary>
 
@@ -123,7 +123,7 @@ No, because stream API process the elements as per pipelined operations without 
 
 </details>
 
-14: Why do you use forEach() terminal operation?
+14: What are the uses of forEach() terminal operation?
 
 <details><summary> Show Answer</summary>
 
@@ -177,7 +177,7 @@ Stream<String> s = Stream.of("java", "SQL", "python",  "JDBC");
 
  </details>
 
- 18: Predict the output of the following intermediate opeartion.
+ 19: Predict the output of the following intermediate opeartion.
  ``` java
  Stream<String> s = Stream.of("appple", "orange", "apple", "banana", "banana");
  s.distinct().forEach(System.out::print); 
@@ -191,7 +191,7 @@ Stream<String> s = Stream.of("java", "SQL", "python",  "JDBC");
 
 
 
- 19: Predict the output of the following code.
+ 20: Predict the output of the following code.
 
 ``` java
 import java.util.stream.*;  
