@@ -118,6 +118,7 @@ For Example:  first_name, _rollNo, id_1, etc.
 ---
 
 10. Is Python an Interpreted language or Compiled?
+![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
 <details><summary> <b>Show Answer</b> </summary>
   
 **Ans:** Python is an Interpreted language because it checks our code line by line not all together. For example suppose there are 2 errors in your code one in line 3 and other one in line 4. When you run the code it will only throw error for line 3 in console( output screen) but not  for line 4. The reason behind it is that it checks the code one line at a time. 
@@ -291,6 +292,7 @@ Types of Operators:
 
 ---
 22. Predict the output for the below code:
+![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
 ```
 a = 9
 b = 5
@@ -384,6 +386,7 @@ print(maximum)  # it returns 8 as output.
   
 ---
 28. Predict the output of below code:
+![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
 ```
 value =  10//2**3*3+4/2
 print(value) 
@@ -492,6 +495,7 @@ print(x)
 
 ---
 34. What will be the output of following code?
+![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
 ```
 x = 75
 def myfunc():
@@ -659,6 +663,7 @@ print(b)
 
 ---
 44. Predict the output of below code.
+![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
 ```
 x = 4
 y = 5
@@ -725,6 +730,7 @@ x >> 1 = 0010 = 2  # Here it shifts the bit by 1 on the right side.
 
 ---
 48. What is the output of below code?
+![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
 ```
 a = 5
 b = 10
@@ -799,6 +805,7 @@ print(str1 or str2)
 
 ---
 52. Predict the output.
+![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
 ```
 x = 20//4**2-10*2/ 3
 print(x)
@@ -816,6 +823,7 @@ print(x)
 
 ---
 53. What is the output of below mentioned code?
+![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
 ```
 x = 6
 y = 4
