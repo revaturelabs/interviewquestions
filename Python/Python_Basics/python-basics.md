@@ -50,7 +50,7 @@ For Example:  first_name, _rollNo, id_1, etc.
 
 ---
 5. Which of the following statement is false regarding Identifiers? 
-
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 - a) Variable name can have lower and upper case letters.
 - b) Identifier should start with a character or a number. 
 - c) A digit(0-9) can be placed at any position except at the starting. 
@@ -104,6 +104,7 @@ For Example:  first_name, _rollNo, id_1, etc.
 
 ---
 9. How do you differentiate between Interpreter and Compiler?
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
   
 **Ans:** These are the following differences between Interpreter and Compiler:
@@ -124,7 +125,7 @@ For Example:  first_name, _rollNo, id_1, etc.
 
 ---
 11. Is "true" an Identifier or Keyword?
-
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 - a) Keyword
 - b) Identifier
 - c) both a and b
@@ -138,6 +139,7 @@ For Example:  first_name, _rollNo, id_1, etc.
 
 ---
 12. Point out whether the identifiers mentioned in a list are valid or not: [Last_Name, student@id, 4_id, var, for]. 
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
   
 **Ans:** Last_Name and var are the only valid identifiers from the above list. 
@@ -165,6 +167,7 @@ print("9/2")
 
 ---
 14. What is the output of below code?
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 ```
 i = 4
 while i < 7:
@@ -190,6 +193,7 @@ while i < 7:
  
 ---
 15. Define Namespace, explain the types of namespaces in python. 
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
   
 **Ans:**  A namespace is a way to provide unique name for each and every object in python. An object can be a variable or a method. There are three types of namespace present in python:
@@ -213,6 +217,7 @@ output: rohit
 
 ---
 16. What is the use of Operators in Python & what are its types? 
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
  
 **Ans:** Operators are the symbol that are used to perform opertions on an operands. An operand is a variable or a value on which operator is applied. 
@@ -228,6 +233,7 @@ Types of Operators:
 
   ---
 17. What is the difference b/w "is" and "==" in python?
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
   
 **Ans:** The first difference b/w both is that, 'is' operator is an Identity operator, whereas '==' is an comparison operator. 'is' operator is used to check whether both operands belongs to same location or not in the memory. On the other hands '==' is used to check whether both the operands have same value or not. 
@@ -263,7 +269,7 @@ Types of Operators:
 
 ---
 20. Which is/are not a membership operators?
-
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 - a) in 
 - b) not in
 - c) is 
@@ -277,6 +283,7 @@ Types of Operators:
   
 ---
 21. What is the difference b/w 'and' and 'or' operator?
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
  
 **Ans:** Both "and" and "or" are the logical operators which requires two operands and both return True and False after evaluation. The "and" operator returns True when both the operands are True otherwise False, whereas "or" operator returns True if either operand is True and return False when both operands are False. 
@@ -362,6 +369,7 @@ print(a & b)
 
 ---
 27. What is a Ternary operator in Python? Give Example.
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
   
 **Ans:** Ternary operator are like if-else statements but with a difference, it allows checking a condition in single line only replacing the multiline if-else block in python. 
@@ -393,7 +401,7 @@ print(value)
 
 ---
 29. Odd one out: Which of the following statement is incorrect?
-
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 - a) '+' is an arithmetic operator.
 - b) '+=' is an arithmetic operator.
 - c) '>=' is a comparison operator.
@@ -421,6 +429,7 @@ print(value)
   
 ---
 31. Select the correct expression to reassign a global variable “y” to 30 inside a function reassign() 
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 ```
 y = 50
 def reassign():
@@ -458,6 +467,7 @@ print(y) # it should print 30
 
 ---
 33. What is the output of the following code?
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 ```
 x = 50
 def fun1():
@@ -534,7 +544,7 @@ print(x)
 
 ---
 37. Which is a datatype in python?
-
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 - a) number
 - b) char
 - c) complex
@@ -548,7 +558,7 @@ print(x)
 
 ---
 38. Which of the following is not a correct way of making string in python?
-
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 - a) str1 = "hi"
 - b) str1 = 'hi'
 - c) str1 = '''hi'''
@@ -562,6 +572,7 @@ print(x)
 
 ---
 39. predict the output of following code. 
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 ```
 def func1():
     x = 25
@@ -582,7 +593,7 @@ print(x)
 
 ---
 40. Which of the following is not a built-in function in python?
-
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 - a) sum()
 - b) avg()
 - d) all() 
@@ -596,7 +607,7 @@ print(x)
 
 ---
 41. Which of the following is not a built-in function in python?
-
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 - a) input()
 - b) print()
 - c) type()
@@ -610,7 +621,7 @@ print(x)
 
 ---
 42. Which of the following is a built-in function in python?
-
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 - a) add()
 - b) avg()
 - c) count()
@@ -624,6 +635,7 @@ print(x)
 
 ---
 43. What is the output of following code?
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 ```
 a = [1, 2]
 b = a
@@ -683,6 +695,7 @@ print(-22//4)
 
 ---
 46. What are the Bitwise operators present in python?
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
   
 **Ans:**  Bitwise operators first converts the integer to binary and then performs bit-by-bit operations on it. The final result is returned in decimal format. 
@@ -697,6 +710,7 @@ In python, there are 6 Bitwise operators:
 
 ---
 47. What is the use of left shift and right shift operators?
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
 
 **Ans:** *Bitwise left shift* operator shifts the bits of the integer number to the left and put 0 on voids right as a result. 
@@ -735,6 +749,7 @@ print(b >> 2)
 
 ---
 49. Predict the output of the following code.
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 ```
 str1 = 'and'
 str2 = 'or'
@@ -753,6 +768,7 @@ print(str1 and str2)
 
 ---
 50. Predict the output of the following code.
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 ```
 str1 = 'and'
 str2 = 'or'
@@ -818,6 +834,7 @@ print(y ^ x)
 
 ---
 54. Choose the correct option, for the below code, that will not lead to any error.
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 ```
 a, b = 1   # line 1
 if (a = b):  # line 2
@@ -852,7 +869,7 @@ print(3%6)
 
 ---
 56. Which of the following operators has the highest precedence?
-
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 - a) *
 - b) &
 - c) not
@@ -866,7 +883,7 @@ print(3%6)
 
 ---
 57. State True or False: "Bitwise shift operators (<<, >>) has lower precedence than Bitwise And(&) operator".
-
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 - a) True
 - b) False
  <details><summary> <b>Show Answer</b> </summary>
@@ -876,6 +893,7 @@ print(3%6)
 
 ---
 58. What is the output of the following code?
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 ```
 b = 8
 a = b += 3
@@ -894,7 +912,7 @@ print(a)
   
 ---
 59. Which of the following statement is not a correct representation of comments in python?
-
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 - a) # this is a sample.
 - b) """ this is a sample."""
 - c) s = ''' this is a sample.'''
@@ -908,7 +926,7 @@ print(a)
 
 ---
 60. Which of the following code will not lead to SyntaxError in python?
-
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 - a) for i in range(4)
          print(i) 
 - b) for i in range(4):
