@@ -70,7 +70,7 @@ It is to refer the method of functional interface. While using a lambda expressi
 <details><summary> Show Answer</summary>
 
 
-              list.forEach(System.out::println);  <br>
+              ``` java list.forEach(System.out::println);   ``` 
 
 - Here we are using the forEach method to display the elements one by one in the list.
 
@@ -90,8 +90,7 @@ public class MethodReference{
         bookList .add("Java Programming");
         bookList .add("Data Strcutures and Alogrithms");
         bookList .add("Python Programming");
-        Collections.sort(bookList ,
-                         String::compareToIgnoreCase);
+        Collections.sort(bookList ,String::compareToIgnoreCase);
         bookList .forEach(System.out::println);
     }
 }
