@@ -783,4 +783,368 @@ for i in range(len(x)):
   </details>
 
 --- 
+42. Predict the output of below code
+```
+num = 123
+for i in num:
+    print(i, end=" ")
+```
+- a) 1 2 3
+- b) 123
+- c) Error
+- d) None of the above
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** option c) Error is correct 
+
+**Explanation:**  It will give "TypeError: 'int' object is not iterable". 
+  </details>
+ 
+---
+43. Predict the output of below code
+```
+num = '123'
+for i in num:
+    print(i, end=" ")
+```
+- a) 1 2 3
+- b) 123
+- c) Error
+- d) None of the above
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** option a) is correct 
+
+**Explanation:** In the above code, num is a string. So, "123" string will be printed character by character having space in between because of end keyword. 
+  </details>
+
+---
+44. We can check the condition in which of the following loop?
+
+- a) for loop
+- b) do while loop
+- c) while loop
+- d) None of the above
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** correct option is c) while loop
+
+**Explanation:** In for loop we cannot check the condition, whereas do while loop is not present in python.
+</details>
+
+---
+45. What is the output of below code?
+```
+l =[]
+for i in l:
+    print(i)
+```
+- a) []
+- b) list
+- c) list()
+- d) None of the above
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** correct option is d)
+
+**Explanation:** Because in the above code 'l' is an empty list, therefore it will print anything.
+  </details>
+
+---
+46. To break the infinite loop, which keyword we can use in python?
+
+- a) exit
+- b) break
+- c) continue
+- d) pass
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** correct option is b) break
+  </details>
+
+---
+47. What to put at the last of a loop in python?
+
+- a) semicolon ;
+- b) Nothing to put
+- c) colon :
+- d) comma ,
+<details><summary> <b>Show Answer</b> </summary>
+
+**Ans:** option c) colon : is correct
+  </details>
+ 
+---
+48. Which of the following is/are an infinite loop condition?
+
+- a) while 1:
+- b) while True:
+- c) while 0:
+- d) while -1:
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** options a), b) and d) are correct. 
+
+**Explanation:** While 0: in python means false.
+  </details>
+ 
+---
+49. State True and False: " In python while(0): and while False: both are same." 
+
+- a) True
+- b) False
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** option a) True is correct.
+  </details>
+
+---
+50. State True and False: " range() function in python creates iterable elements."
+
+- a) True
+- b) False
+<details><summary> <b>Show Answer</b> </summary>
+
+**Ans:** option a) is correct. 
+  </details>
+
+---
+51. Which is not a decision making statement in python?
+
+- a) if-elif
+- b) if-else
+- c) for
+- d) if
+<details><summary> <b>Show Answer</b> </summary>
+
+**Ans:** correct option is c) for.
+  </details>
+
+---
+52. Predict the output of following python code.
+```
+list1 = [3 , 2 , 5 , 6 , 0 , 7, 9]
+sum1 = 0
+sum2 = 0
+for elem in list1:
+    if (elem % 2 == 0):
+        sum1 = sum1 + elem
+        continue
+    if (elem % 3 == 0):
+        sum2 = sum1 + elem
+print(sum1 , end=" ")
+print(sum2)
+```
+- a) 8 12
+- b) 8 17
+- c) 12 8
+- d) 8  8
+<details><summary> <b>Show Answer</b> </summary>
+
+**Ans:** option b) is correct
+
+**Explanation:** When the elements that are present in a list is divisible by 2 ,the statement present inside first if is exceuted. When the elements that are present in a list is divisible by 3 ,the statement present inside 2nd if is exceuted.  
+  </details>
+
+---
+53. Predict the output of following python code.
+```
+list1 = [3 , 2 , 5 , 6 , 0 , 7, 9]
+sum1 = 0
+sum2 = 0
+for elem in list1:
+    if (elem % 2 == 0):
+        sum1 = sum1 + elem
+        continue
+    if (elem % 3 == 0):
+        sum2 = sum1 + sum2
+print(sum1 , end=" ")
+print(sum2)
+```
+- a) 8 12
+- b) 8 17
+- c) 12 8
+- d) 8  8
+<details><summary> <b>Show Answer</b> </summary>
+ 
+**Ans:** option d) is correct
+
+**Explanation:** When the elements that are present in a list is divisible by 2 ,the statement present inside first if is exceuted. When the elements that are present in a list is divisible by 3 ,the statement present inside 2nd if is exceuted.  
+  </details>
+  
+---
+54. Predict the output of following python code.
+```
+list1 = [3 , 2 , 5 , 6 , 0 , 7, 9]
+sum1 = 0
+sum2 = 0
+for elem in list1:
+    if (elem % 2 == 0):
+        sum1 = sum2 + elem
+        continue
+    if (elem % 3 == 0):
+        sum2 = sum1 + elem
+print(sum1 , end=" ")
+print(sum2)
+```
+- a) 8 12
+- b) 12 4
+- c) 3 12
+- d) 8  8
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** option c) is correct 
+
+**Explanation:** When the elements that are present in a list is divisible by 2 ,the statement present inside first if is exceuted. When the elements that are present in a list is divisible by 3 ,the statement present inside 2nd if is exceuted.  
+<details>
+  
+---
+55. Predict the output of the following python code.
+```
+list1 = [3 , 2 , 5 , 6 , 0 , 7, 9]
+sum1 = 0
+sum2 = 0
+for elem in list1:
+    if (elem % 2 == 0):
+        sum1 = sum1 + sum2
+        continue
+    if (elem % 3 == 0):
+        sum2 = sum1 + elem
+print(sum1 , end=" ")
+print(sum2)
+```
+- a) 9 18
+- b) 8 17
+- d) 8 18
+- c) 9 17
+<details><summary> <b>Show Answer</b> </summary>
+
+**Ans:** correct option is a) 9 18
+
+**Explanation:** When the elements that are present in a list is divisible by 2 ,the statement present inside first if is exceuted. When the elements that are present in a list is divisible by 3 ,the statement present inside 2nd if is exceuted.  
+  </details>
+
+---
+56. What will be the output of below code?
+```
+if 4+5 < 10:
+    print("True")
+else:
+    print("False")
+print ("True")
+```
+- a) True
+   True
+- b) True
+   False
+- c) False
+   False
+- d) False
+   True
+<details><summary> <b>Show Answer</b> </summary>
+
+**Ans:** option a) is correct
+
+**Explanation:** The first if condition becomes true, as 9<10, in the above code, so 'True' is printed. Also last 'True' is always printed as it is not a part of if-else statements.
+</details>
+  
+---
+57. What will be the output of below code?
+```
+if 4+5 < 10:
+    print("True")
+else:
+    print("False")
+# print ("True")
+```
+- a) True
+   True
+- b) True
+   False
+- c) False
+   True
+- d) None of the above
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** option d) is correct
+
+**Explanation:** The first if condition becomes true, as 9<10, in the above code, so 'True' is printed. Last print statement is not executed because it is started with # which makes it as comment in the code.
+</details>
+  
+---
+58. What will be the output of the following code?
+```
+if 4+5 < 10 and 5+5>10:
+    print("True")
+if 8//2*2!=4:
+    print("False")
+if 10//2**2==25:
+    print("True")
+print ("True")
+```
+- a) True
+   True
+   True
+- b) False 
+   True
+- c) True
+- d) True
+   False
+   True 
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** correct option is b).
+
+**Explanation:** The first and thrid print statements are not executed as if condition becames false. The second print statement is executed as 8!=4 condition becomes true. Also last 'True' is always printed as it is not a part of if-else statements. Hence option b) is correct.
+</details>
+ 
+---
+59. What will be the output of the following code?
+```
+if 4+5 < 10 and 5+5>10:
+    print("True")
+if 8//2*2!=4:
+    print("False")
+if 10//2**2==2:
+    print("True")
+print ("True")
+```
+- a) False
+   True
+   False
+- b) False 
+   True 
+- c) True
+- d) None of the above
+<details><summary> <b>Show Answer</b> </summary>
+ 
+**Ans:** correct option is d)
+
+**Explanation:** The first print statement is not executed as if condition becames false. The 2nd and 3rd print statements are executed as if condition for both becomes true. Also last 'True' is always printed as it is not a part of if-else statements. Therefore, it will print "False", "True", "True" each in new line. Hence option d) is correct.
+  </details>
+ 
+---
+60. What will be the output of the below code for a=5 and b=5?
+```
+a= int(input())
+b= int(input())
+if a*b > 10 and a+b<10:
+    print("True")
+else: 
+    print("False")
+```
+- a) True
+- b) False
+- c) No Output
+- d) Error 
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans:** correct option is b) False.
+
+**Explanation:** The first if condition becomes false as 10<10 is false. Therfore the else part is executed and printed 'False' in console. 
+  </details>
+ 
+ ---
+61. 
+
 
