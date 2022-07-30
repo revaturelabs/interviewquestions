@@ -98,6 +98,7 @@ private class Main{
 
 <details><summary>Show Answer</summary>
 	<b>Ans:</b>
+	
 	- Modularity: the source code for every object can be maintained independently and once an object is created it can be easily propagated inside the system.
 	- Information-hiding: since an object is used to implement methods, the internal working of the class can be hidden using an object.
 	- Code - reusability:  once an object is created, it can be reused anywhere in the program.
