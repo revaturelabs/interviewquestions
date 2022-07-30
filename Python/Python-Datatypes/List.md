@@ -6,10 +6,11 @@
   
 - List is a part of Collections in python. it has been used to store mulitple items in a single variable. An empty List is created by square brackets [], we can place the elements inside that [] separated by commas.  
 No, list and array both are not same in python. Although, list and array both are used to store elements in it, but still some differences are there: 
-i) List can consist of elements of different types, for eg. [1, 2, "a", 4.5], whereas Array can store elements of same type only. 
-ii) List is a built-in data type in python so anyone can directly use it, whereas for using Array we have to import the array module. 
-iii) List are preferred for shorter sequence of data items, on the other hand arrays are preferred for data items of longer sequence. 
-iv) We can print List without any loop, but for printing elements of an array a loop is required.
+  
+- i) List can consist of elements of different types, for eg. [1, 2, "a", 4.5], whereas Array can store elements of same type only. 
+- ii) List is a built-in data type in python so anyone can directly use it, whereas for using Array we have to import the array module. 
+- iii) List are preferred for shorter sequence of data items, on the other hand arrays are preferred for data items of longer sequence. 
+- iv) We can print List without any loop, but for printing elements of an array a loop is required.
 </details>
 
 2.What are the methods you frequently used when dealing with list in python?
@@ -36,8 +37,11 @@ x) reverse() : it reverses the order of elements present in a list.
 <details><summary> <b>Show Answer</b> </summary>
   
 i) del is a keyword, whereas remove() and pop() is a method of a list.
-ii) For deleting element del and pop() uses the index, whereas remove() uses value as parameter. 
+  
+ii) For deleting element del and pop() uses the index, whereas remove() uses value as parameter.
+  
 iii) del and remove() does not return any value, whereas pop() returns the removed value. 
+  
 iv) del can delete any number of values from a list or a whole list at a time, whereas pop() and remove() deletes only one value from a list.
   
 For example: 
@@ -387,6 +391,7 @@ print(sampleList[-4:-1])
 <details><summary> <b>Show Answer</b> </summary>
   
 40
+  
 [20,30,40]
   
 <details><summary> <b>Explanation</b> </summary>
@@ -398,6 +403,8 @@ print(sampleList[-4:-1])
 
 19.Write a python program to find the max,min number from the list(take input from user).
 
+  <details><summary> <b>Show Answer</b> </summary>
+    
 ```python
 listlang = []
 numbers = int(input('enter the number of items in list '))
@@ -407,6 +414,7 @@ for num in range(numbers):
 print('entered list =',listlang)
 print("Max number = :", max(listlang), "\nMin number :", min(listlang))
 ```
+  </details>
   
 20.What will be the output of the following list operation
 
@@ -498,6 +506,7 @@ print (list)
 ```
   
 <details><summary> <b>Show Answer</b> </summary>
+  
 **Output**:
   
 [87, 56, 14, 12, 67, 45]
