@@ -194,3 +194,13 @@ print(myFunction())
 True
   
   </details>
+  
+11.Can you tell me some advantages of boolean() data type?
+  
+<details><summary> <b>Show Answer</b> </summary>
+  
+- A boolean can be set to one of only two predefined values, which maps perfectly to what it is used for. You could use an integer as a boolean, but there are many more than two possible integer values. So you'd have to define which integer values should be considered “true” and which should be considered “false”.
+- Advantages of the boolean retrieval model It is easy to implement.
+- It is easy to understand why the document is retrieved or not. Users can determine whether the query is too specific or too broad. 
+  
+  </details>  
