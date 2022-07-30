@@ -94,13 +94,17 @@ private class Main{
 
 </details>
 
-4.what is the output of the following code?
+4.What are the benifit of using Objects?
 
-``` java
-
-```
-
-- A. 
+<details><summary>Show Answer</summary>
+	<b>Ans:</b>
+	- Modularity: the source code for every object can be maintained independently and once an object is created it can be easily propagated inside the system.
+	- Information-hiding: since an object is used to implement methods, the internal working of the class can be hidden using an object.
+	- Code - reusability:  once an object is created, it can be reused anywhere in the program.
+	- Pluggability and debugging: if an existing object fails to staisfy the requiremts of the developer or causes any abnormality in the code, it can be 
+	  deleted.
+	
+</details>
 
 
 
