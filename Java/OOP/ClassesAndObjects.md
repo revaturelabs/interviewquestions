@@ -94,7 +94,13 @@ private class Main{
 
 </details>
 
-4.
+4.what is the output of the following code?
+
+``` java
+
+```
+
+- A. 
 
 
 
