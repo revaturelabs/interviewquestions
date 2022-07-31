@@ -2,192 +2,313 @@
 
 1.What is a Tuple? How tuple different from list in python?
 
-
+<details><summary> <b>Show Answer</b> </summary>
+ 
 - Tuple is a immutable datatype in python which is used to store elements separated by comma inside parentheses (). To create an empty tuple we can use () in python. 
-For example: i) tuple1 =()  ii) tuple1 = (1, 2, 3) 
+ 
+**Example**: 
+ 
+ i) tuple1 =()  
+ 
+ ii) tuple1 = (1, 2, 3) 
 
 In python, both list and tuple looks similar as they both can store any type of data in it but there are some difference that makes both of them distinct. Some of the following differences are:
 
-i) Lists in python are mutable, whereas tuples are immutable.
-ii) We can use append() or insert() to add elements to a list, but in tuple append and insert are not present.
-iii) We can use pop() or remove() to delete an element from the list, but in tuple we cannot delete elements.
-iv) Use list when you have to perform manipulation operations on data such as insertion or deletion. Use tuple when you have frequently access the elements without changing. 
-v) Using [] brackets we can create list. Using (), we can create tuple in python. 
+- i) Lists in python are mutable, whereas tuples are immutable.
+- ii) We can use append() or insert() to add elements to a list, but in tuple append and insert are not present.
+- iii) We can use pop() or remove() to delete an element from the list, but in tuple we cannot delete elements.
+- iv) Use list when you have to perform manipulation operations on data such as insertion or deletion. Use tuple when you have frequently access the elements without changing. 
+- v) Using [] brackets we can create list. Using (), we can create tuple in python. 
 
+</details>
 
-102) What are the built-in methods present in tuple?
-Ans: Tuple has 2 built-in methods in python:
-i) count() - it returns the count of specified element in tuple.
-ii) index() - it searches the specified value in a tuple and returns the position of that element where it found. 
+2.What are the built-in methods present in tuple?
 
+<details><summary> <b>Show Answer</b> </summary>
+ 
+- Tuple has 2 built-in methods in python:
+ 
+_ i) count() - it returns the count of specified element in tuple.
+- ii) index() - it searches the specified value in a tuple and returns the position of that element where it found. 
 
-103) How to add element to a Tuple?
-Ans: We cannot add elements to a tuple directly since it is immutable but if we convert the tuple to a list then we can add element to that list using append() or extend() method and after adding we can convert that list back to tuple. 
-For example: 
+</details>
+
+3.How to add element to a Tuple?
+
+<details><summary> <b>Show Answer</b> </summary>
+ 
+- We cannot add elements to a tuple directly since it is immutable but if we convert the tuple to a list then we can add element to that list using append() or extend() method and after adding we can convert that list back to tuple. 
+ 
+**Example**:
+ 
+ ```python
 tuple1 =(1, 2, 3)
 list1 =list(tuple1)
 list1.append(4)
 tuple1 =tuple(list1)
 print(tuple1)    # output: (1, 2, 3, 4)
 print(type(tuple1))  # output: <class 'tuple'>
+```
 
+ </details>
+ 
+4.Tuple does not have sort method to sort the elements compared to List, then how will you sort the elements of a tuple in python?
+ 
+<details><summary> <b>Show Answer</b> </summary>
+  
+- There are few ways by which we can sort the elements of tuple, let's see them 1 by 1. 
 
-104) Tuple does not have sort method to sort the elements compared to List, then how will you sort the elements of a tuple in python?
-Ans: there are few ways by which we can sort the elements of tuple, let's see them 1 by 1. 
-
+ ```python
 # Using sorted() method and type conversion 
 tuple1 = (12, 4, 7, 21, 34, 2, 16)  
 sorted_tuple= tuple(sorted(tuple1))  
 print(sorted_tuple)  # output: (2, 4, 7, 12, 16, 21, 34)
-
+```
+ 
+```python 
 # Using sort() method of list and type conversion 
 tuple1 = (12, 4, 7 , 21, 34, 2, 16)  
 lst = list(tuple1)
 lst.sort()   
 print(tuple(lst))  # output: (2, 4, 7, 12, 16, 21, 34) 
+```
+ 
+ </details>
 
+5.How to sort the elements of a tuple in descending order?
+ 
+<details><summary> <b>Show Answer</b> </summary>
+  
+- By passing reverse = True as argument of sort() method, we can sort the elements of a list. After that using type conversion we can convert the list to tuple. 
 
-105) How to sort the elements of a tuple in descending order?
-Ans: By passing reverse = True as argument of sort() method, we can sort the elements of a list. After that using type conversion we can convert the list to tuple. 
-
+```python 
 # Code 
 tuple1 = (12, 4, 7 , 21, 34, 2, 16)  
 lst = list(tuple1)
 lst.sort(reverse =True)   
 print(tuple(lst))
+```
+ 
+ </details>
 
-
-106) How to join two tuples together in Python?
-Ans: We can use the '+' operator to join two tuples together. 
-For example:
+6.How to join two tuples together in Python?
+ 
+ <details><summary> <b>Show Answer</b> </summary>
+  
+- We can use the '+' operator to join two tuples together. 
+  
+**Example**:
+  
+```python  
 t1 = (12, 4, 7 , 21)
 t2 = (34, 2, 16)
 print(t1 + t2)  # output: (12, 4, 7, 21, 34, 2, 16)
- 
+```
+  
+ </details>
 
-107) How to print the reverse order of elements in a tuple? 
-Ans: Using reverse() method of list and type conversion we can achieve our task. 
-For example: 
+7.How to print the reverse order of elements in a tuple? 
+ 
+<details><summary> <b>Show Answer</b> </summary>
+ 
+- Using reverse() method of list and type conversion we can achieve our task. 
+ 
+**Example**:
+ 
+```python 
 t1 =(1, 5, 3, 9, 2)
 lst = list(t1)
 lst.reverse()
 print(tuple(lst))   # output: (2, 9, 3, 5, 1)
+```
+ </details>
+ 
+8.What is the output of below code:
 
-
-108) What is the output of below code:
+ ```python
 tuple1 = (10, 20, 30, 40, 50)
 tuple1.pop(2)
 print(tuple1) 
+```
+ 
+**Options**:
+ 
+- A.(10, 20, 40, 50)
+- B.(10, 30, 40, 50)
+- C.30 
+- D.Error 
 
-Options:
-a) (10, 20, 40, 50)
-b) (10, 30, 40, 50)
-c) 30 
-d) Error 
+<details><summary> <b>Show Answer</b> </summary>
+ 
+**Ans**:
+ 
+ Correct option is d) Error. 
+ 
+ <details><summary> <b>Explanation</b> </summary>
+  
+ The reason for it is that Tuple is immutable in python i.e we cannot change the values of a tuple.
 
-Ans: Correct option is d) Error. The reason for it is that Tuple is immutable in python i.e we cannot change the values of a tuple.
+ </details>
+ </details>
 
-
-109) Select the correct statements out of following regarding Tuple. 
+9.Select the correct statements out of following regarding Tuple. 
 
 options: 
-a) We can delete the element from a tuple but we cannot update elements of the tuple.
-b) We cannot delete the tuple.
-c) We cannot delete the items from the tuple
-d) We cannot update items of the tuple. 
+- A.We can delete the element from a tuple but we cannot update elements of the tuple.
+- B.We cannot delete the tuple.
+- C.We cannot delete the items from the tuple
+- D.We cannot update items of the tuple. 
 
-Ans: options c) and d) both are correct. We can delete the whole tuple by using del keyword so option b) is incorrect. Option a) is incorrect because we cannot remove, add or update items of a tuple. 
+ <details><summary> <b>Show Answer</b> </summary>
+  
+**Ans**: 
+  
+  options c) and d) both are correct. 
+  We can delete the whole tuple by using del keyword so option b) is incorrect. Option a) is incorrect because we cannot remove, add or update items of a tuple. 
 
+ </details>
+ 
+10.State True or False: A Python tuple can also be created without using parentheses.
 
-110) State True or False: A Python tuple can also be created without using parentheses.
+- A.True 
+- B.False
 
-a) True 
-b) False
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans**: 
+ 
+ option a) is correct.
+ - We can create a tuple without parentheses but we have to seperate each element of tuple by comma ','. 
+ 
+ </details>
 
-Ans: option a) is correct. We can create a tuple without parentheses but we have to seperate each element of tuple by comma ','. 
-
-
-111) What will be the output of following code?
+11.What will be the output of following code?
+ 
+```python 
 tuple1 = (10,)
 print(tuple1 * 3)
 
 options:
-a) TypeError
-c) (30)
-b) (10, 10, 10)
-c) (10, 20, 30) 
+- A.TypeError
+- B.30)
+- C.(10, 10, 10)
+- D.(10, 20, 30) 
 
-Ans: correct option is c) (10, 10, 10). We can use '*' operator to repeat the values of tuple n number of times.
+ <details><summary> <b>Show Answer</b> </summary>
+  
+**Ans**: 
+  
+Correct option is c) (10, 10, 10). 
+- We can use '*' operator to repeat the values of tuple n number of times.
 
-
-112) What is the type of follwing code?
+ </details>
+ 
+12.What is the type of follwing code?
+ 
+ ```python
 tuple1 = ("anu")
 print(type(tuple1))
-
+```
+ 
 options:
-a) list 
-b) tuple
-c) array
-d) str
+- A.list 
+- B.tuple
+- C.array
+- D.str
 
-Ans: Correct option is d) str. The answer of following code is not tuple because in python if you have to create a tuple of single item only, then you need to add a comma after the item. 
-If you missed the comma, the python will treat it as a string type (str class). 
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans**: 
+ 
+- Correct option is d) str. The answer of following code is not tuple because in python if you have to create a tuple of single item only, then you need to add a comma after the item. 
+- If you missed the comma, the python will treat it as a string type (str class). 
 
-
-113) Predict the output of the code.
+ </details>
+ 
+13.Predict the output of the code.
+ 
+```python
 tuple1 = 25, 20, 15, 10, 5 
 a, b, c, d, e = tuple1
 print(b)
-
+```
+ 
 options:
-a) 25
-b) 20
-c) 15
-d) 5 
+- A.25
+- B.20
+- C.15
+- D.5 
 
-Ans: Correct option is b) 20. In python, we can create a tuple without parentheses. Also tuple unpacking is possible. 
+<details><summary> <b>Show Answer</b> </summary>
+ 
+**Ans**: 
+ 
+ Correct option is b) 20. 
+- In python, we can create a tuple without parentheses. Also tuple unpacking is possible. 
+ </details>
+ 
+14.Debug the code and give me a correct code.(To print the third element of the tuple.)
 
-114)Debug the code and give me a correct code.(To print the third element of the tuple.)
-
+```python 
 tuple=(11, 100, 101, 999, 1001)
 #Type your answer here.
 answer_1=
 print(answer_1)
-
-Ans:
+```
+<details><summary> <b>Show Answer</b> </summary>
+  
+**Ans**:
+ 
+ ```python
 tuple=(11, 100, 101, 999, 1001)
 #Type your answer here.
 answer_1=tuple[2]
 print(answer_1)
+```
+ 
+<details><summary> <b>Explanation</b> </summary>
+ 
+- 0,1,2 … Third element is index 2: [2]
 
-Explanation:
- 0,1,2 … Third element is index 2: [2]
+</details>
+ </details>
+ 
+15.What will be the output of the following code?
 
-115)What will be the output of the following code?
-
+```python 
 Tuple1="yellow",20,"Red"
 a,b,c=Tuple1
 print(b)
+---
+ 
+- A.('yellow',20,'red')
+- B.TypeError
+- C.yellow
+- D.No output
 
-a)('yellow',20,'red')
-b)TypeError
-c)yellow
-d)No output
-
+<details><summary> <b>Show Answer</b> </summary>
 Ans:
 c)yellow
-Explanation:
-The tuple unpacking is also possible
+<details><summary> <b>Explanation</b> </summary>
+ 
+- The tuple unpacking is also possible
+ 
+ </details>
+ </details>
 
-116)Write a python program to sort list of tuples by second element.
+16.Write a python program to sort list of tuples by second element.
 
-Ans:
+<details><summary> <b>Show Answer</b> </summary>
+ 
+ ```python
 listtuple= [('C#',1), ('Go',7), ('Basic',8), ('Python',60)]
 print('original list of tuples =\n',listtuple)
 listtuple.sort(key = lambda item:item[1])
 print('after sorting by second item=\n',listtuple)
-
-Output:
+```
+ 
+Output**:
+ l
 original list of tuples =
  [('C#', 1), ('Go', 7), ('Basic', 8), ('Python', 60)]
 after sorting by second item=
