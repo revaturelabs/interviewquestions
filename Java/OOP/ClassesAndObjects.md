@@ -94,7 +94,7 @@ private class Main{
 
 </details>
 
-4.What are the benifit of using Objects?
+4.What are the benifits of using Objects?
 
 <details><summary>Show Answer</summary>
 	<b>Ans:</b>
