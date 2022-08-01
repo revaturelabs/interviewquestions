@@ -73,20 +73,20 @@ Aggregation: Has-a Relationship is implemented in aggregation.
 Inheritance: Is- a Relationship is implemented in Inheritance.
 </details>
 
-6. How can a subclass use the private fields of a super class?
+6. How can a subclass use the private fields of a superclass?
 
 <details>
   <summary> Show Answer </summary>
   
-  <b>Ans: </b> A subclass can access the private members of the super class in two possible ways:<br>
+  <b>Ans: </b> A subclass can access the private members of the superclass in two possible ways:<br>
   
-  1. If public or protected methods of the superclass have access to the private fields, then the sub class can have access to the private fields.
-  2. If the superclass has a public or protectd nested class then the sub class can access all the private members of superclass usiing the nested class.
+  1. If public or protected methods of the superclass have access to the private fields, then the subclass can have access to the private fields.
+  2. If the superclass has a public or protected nested class then the subclass can access all the private members of the superclass using the nested class.
   
   
 </details>
 
-7. Which of the follwing is invalid in java?
+7. Which of the following is invalid in java?
 
 - A.Mltiple Inheritance of state
 - B.Multiple inheritance of Implementation
@@ -105,7 +105,7 @@ Inheritance: Is- a Relationship is implemented in Inheritance.
 
 <details><summary>Show Answer</summary>
 
-<b>Ans:</b> If a class extends multiple classes the object of the class inherits all the fields of all the inherited classes, and inherited classes might have the same fileds which are instatiated by differnt methods or constructors, its not possible to set the precedene for all the methods and constructors, so the intantiation of the field is ambigious.A class extend a single class, to avoid Multiple inheritane of state.
+<b>Ans:</b> If a class extends multiple classes the object of the class inherits all the fields of all the inherited classes, and inherited classes might have the same fields which are instantiated by different methods or constructors, it's not possible to set the precedence for all the methods and constructors, so the instantiation of the field is ambiguous. A class extend a single class, to avoid Multiple inheritances of state.
 
 </details>
 
@@ -251,7 +251,7 @@ Main m = o;
 <details><summary> Show Answer</summary>
   
 <b>Ans:</b> 
-  - the above code is an example for object casting and the line 2 creates an error, even if object o is of type Main, JVM can not recognize it and an explicit type      cast should be added to avoid copiletime error.
+  - the above code is an example for object casting and line 2 creates an error, even if object o is of type Main, JVM can not recognize it and an explicit type cast should be added to avoid compile time error.
   
  ``` java
   
@@ -265,7 +265,7 @@ Main m = o;
 
 </details>
 
-4. The object declared in the below code snippet is type casted but it may or may not be of type Main, How does a pogrammer avoids runtime error?
+4. The object declared in the below code snippet is type casted but it may or may not be of type Main, How does a programmer avoid runtime error?
 
 ``` java
 
@@ -275,7 +275,7 @@ Main m = (Main) o;
 
 <details><summary>Show Answer</summary>
 
-  <b>Ans: </b> In order to avoid any runtime error the decleration can be enclosed in a simple condition which checks the instance of object o.
+  <b>Ans: </b> To avoid any runtime error the declaration can be enclosed in a simple condition which checks the instance of object o.
   
   ``` java
   if( o instanceof Main)
@@ -287,7 +287,6 @@ Main m = (Main) o;
 
 </details>
 
-5. 
 
 
 
