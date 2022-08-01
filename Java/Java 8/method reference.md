@@ -120,7 +120,7 @@ public class MethodReference {
     }  
     public static void main(String[] args) {  
         // Line 9
-        sam.print();  
+        sample.print();  
     }  
 }  
 ```
