@@ -107,6 +107,36 @@ private class Main{
 	
 </details>
 
+5. Variables declared in an interface are?
+
+- A. public,static and final
+- B. private and final
+- C. public and final
+- D. Default or public, static.
+
+
+<details><summary>Show answer</summary>
+
+	<b>Ans:</b> A
+	<b>Explanation:</b>
+	- final: variables in an interface are accessed by many classes and its not ideal, if any of the classes appends the value of the variable, to avoid this
+	         variables are declared final.
+	- public: interfaces are accessed by any class present in any package, so to support this all variables are declared public.
+	- static: interface itself cant be initialized, so objects of a class are used to access variables, but if a class is imcomplete, an object cant be created.
+	          All variables are static so that they can be accessed without an object.
+	
+
+</details>
+
+6. choose the right answer.
+
+1. local class                                  a. used to create more than one instance of a class, 
+2. Anonymous class
+3. lambda expression
+4. Nested class
+	
+	
+
 
 
 
