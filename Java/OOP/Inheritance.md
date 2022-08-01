@@ -86,6 +86,29 @@ Inheritance: Is- a Relationship is implemented in Inheritance.
   
 </details>
 
+7. Which of the follwing is invalid in java?
+
+- A.Mltiple Inheritance of state
+- B.Multiple inheritance of Implementation
+- C.Simple Inheritance 
+- D.Multilevel Inheritance
+
+<details><summary>Show Answer</summary>
+<b>Ans: </b> A
+
+<b>Explanantion: </b> Multiple Inheritance of state is invalid in java because a class cant extend more than one class but it can implement multiple interfaces.
+
+
+</details>
+
+8. Why is a class restricted to extend a single class in java?
+
+<details><summary>Show Answer</summary>
+
+<b>Ans:</b> If a class extends multiple classes the object of the class inherits all the fields of all the inherited classes, and inherited classes might have the same fileds which are instatiated by differnt methods or constructors, its not possible to set the precedene for all the methods and constructors, so the intantiation of the field is ambigious.A class extend a single class, to avoid Multiple inheritane of state.
+
+</details>
+
 ## Problem solving
 
 1. What is the output of the following code?
@@ -263,6 +286,8 @@ Main m = (Main) o;
   ```
 
 </details>
+
+5. 
 
 
 
