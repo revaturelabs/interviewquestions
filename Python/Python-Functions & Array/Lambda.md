@@ -9,6 +9,7 @@ Syntax:
    lambda arguments: expression
   
 **Example**:
+  
 ```python
 double = lambda x: x * 2
 print(double(5))
@@ -29,6 +30,7 @@ print(new_list)
 **Output**:
   
 new_list = list(filter(lambda x: (x%2 == 0) ,list))
+  
 TypeError: 'list' object is not callable
   
 </details>
