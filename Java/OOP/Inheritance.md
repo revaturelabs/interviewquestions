@@ -89,7 +89,7 @@ Inheritance: Is- a Relationship is implemented in Inheritance.
 7. Which of the following is invalid in java?
 
 - A.Mltiple Inheritance of state
-- B.Multiple inheritance of Implementation
+- B.Multiple inheritance of type
 - C.Simple Inheritance 
 - D.Multilevel Inheritance
 
