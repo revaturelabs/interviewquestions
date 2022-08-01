@@ -16,17 +16,17 @@ No, not necessarily because the compiler will consider it as a functional interf
 
 4: How many default methods can we have in the functional interface?
  <details><summary> Show Answer</summary>
- a functional interface can have Multiple default methods with only one abstract method. </details>
+ A functional interface can have Multiple default methods with only one abstract method. </details>
 
 5: Exaplain about Lambda Expression?
  <details><summary> Show Answer</summary>
  The functional interface has been introduced in Java 8 to support the lambda expression, lambda expression is the instance of a functional interface.</details>
 
-6: Write a single–line lambda expression having void return type?
+6: Write a single–line lambda expression having void return type. Consider the interface name as Greeting.
 <details><summary> Show Answer</summary>
 Answer: 
 	
-``` java () -> System.out.println("Welcome"); ```</details>
+``` Greeting greeting = () -> System.out.println("Welcome"); ```</details>
 
 7: List some java built-in examples for functional interfaces.
 <details><summary> Show Answer</summary>
@@ -38,8 +38,9 @@ Answer:
 
 8: What is the  primary condition to convert Anonymous class to lambda expression? 
 <details><summary> Show Answer</summary>
-- The Anonymous classes should have only one abstarct method/ non default methods so that it can be converted into lambda expression.
-- Functional interface is uimplemneted using lambda expression. which is also called as SAM(Single Abstract Method)
+
+- The Anonymous classes should have only one abstarct method so that it can be converted into lambda expression.
+- Functional interface is implemented using lambda expression. which is also called as SAM(Single Abstract Method)
 </details>
 
 9: Does lambda expression execute on its own? Explain.
@@ -70,7 +71,7 @@ No, it is used to implement a method defined by a functional interface.
 <details>
 <summary> Show Answer</summary>
  
-- Single Abstract Method interfaces
+- SAM means Single Abstract Method.
 - Which is also called functional interfaces, having only one abstract method and multiple default methods.
 </details>
 
@@ -119,7 +120,7 @@ public interface Predicate<T> {
 </details>
 
 
-17: Write the Syntax of Supplier Functional Interface?
+17: Write the Syntax of Supplier Functional Interface.
 
 
 <details><summary> Show Answer </summary>
@@ -128,7 +129,7 @@ public interface Predicate<T> {
 @FunctionalInterface
 public interface Supplier<T>{
     //returns the specific result 
-    T.get();
+    T get();
 
 }
 ```
@@ -211,16 +212,16 @@ interface Sum{
 
  ``` java
 
- public class Anonymousclass  {
+ public class AnonymousClassExample  {
 
     public static void main(String[] args) {
 
-        Thread thread = new Thread(){
+        Runnable runnable = new Runnable(){
             public void run(){
-                System.out.println("Understanding what is an anonymous class");
+                System.out.println("Convertion of Anonymous class into Lamda");
             }
         };
-        thread.start();
+        runnable.run();
     }
 }
 ```
@@ -234,7 +235,7 @@ public class AnonymousClassExample {
     public static void main(String[] args) {
 
         Runnable runnable = () -> {
-            System.out.println("Understanding functional interfaces");
+            System.out.println("Convertion of Anonymous class into Lamda");
         };
         runnable.run();
     }
