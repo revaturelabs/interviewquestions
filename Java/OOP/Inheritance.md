@@ -215,6 +215,33 @@ public final class Car{
   <b>Explanation</b>: final class can not be inherited but no object is created for the subclass and no subclass methods are implemented, So there is no error in the code.
 </details>
 
+3. What is the error in the following code snippet? correct the error.
+
+``` java
+
+Object o = new Main();
+Main m = o;
+
+
+``` 
+
+<details><summary> Show Answer</summary>
+  
+<b>Ans:</b> 
+  - the above code is an example for object casting and the line 2 creates an error, even if object o is of type Main, JVM can not recognize it and an explicit type      cast should be added to avoid copiletime error.
+  
+ ``` java
+  
+  Main m = (Main) o;
+  
+  ```
+  
+  - After adding the type cast, if the object o is not of type main, a runtime error occurs.
+  
+  
+
+</details>
+
 
 
 
