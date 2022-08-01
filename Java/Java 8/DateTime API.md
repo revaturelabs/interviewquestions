@@ -3,7 +3,8 @@
 
 <details><summary> Show Answer</summary>
 
-- Newly introduced Data Time API will be included in the package java.time.
+- In Java 8 Data Time API is included in the package java.time.
+- We need to import this package to use all the classes, interfaces and methods in it.
 
 </details>
 
