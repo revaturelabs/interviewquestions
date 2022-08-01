@@ -122,7 +122,7 @@ private class Main{
 	
 <b>Explanation:</b>
 	
-- final: variables in an interface are accessed by many classes and its not ideal, if any of the classes appends the value of the variable, to avoid this
+- final: variables in an interface are accessed by many classes and its not ideal, if any of the classes appends the value of the variable. to avoid this
 	 variables are declared final.
 - public: interfaces are accessed by any class present in any package, so to support this all variables are declared public.
 - static: interface itself can't be initialized, so objects of a class are used to access variables, but if a class is imcomplete, an object cant is created.
