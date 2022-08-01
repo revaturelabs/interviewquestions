@@ -73,6 +73,19 @@ Aggregation: Has-a Relationship is implemented in aggregation.
 Inheritance: Is- a Relationship is implemented in Inheritance.
 </details>
 
+6. How can a subclass use the private fields of a super class?
+
+<details>
+  <summary> Show Answer </summary>
+  
+  <b>Ans: </b> A subclass can access the private members of the super class in two possible ways:<br>
+  
+  1. If public or protected methods of the superclass have access to the private fields, then the sub class can have access to the private fields.
+  2. If the superclass has a public or protectd nested class then the sub class can access all the private members of superclass usiing the nested class.
+  
+  
+</details>
+
 ## Problem solving
 
 1. What is the output of the following code?
