@@ -6,6 +6,7 @@
 - Newly introduced Data Time API will be included in the package java.time.
 
 </details>
+---
 
 2: List the classes in Date and Time API in java 8.
 
