@@ -1,11 +1,9 @@
 ## Technical
-1: How do we implement the interface with lambda expression?
-
+1: What is the use of @Functional Interface annotation?
 <details><summary> Show Answer</summary>
-A functional interface(An interface with a single abstract method)
+
+It forces the Java compiler to indicate that the interface is a functional interface, so it should not allow having more than one abstract method. 
 </details>
-
-
 
  2:  Is @Functional Interface annotation mandatory for every interface with a single abstract method?
  <details><summary> Show Answer</summary>
@@ -38,10 +36,10 @@ Answer:
 - Comparable
 </details>
 
-8: What is the use of @Functional Interface annotation?
+8: What is the  primary condition to convert Anonymous class to lambda expression? 
 <details><summary> Show Answer</summary>
-
-It forces the Java compiler to indicate that the interface is a functional interface, so it should not allow having more than one abstract method. 
+- The Anonymous classes should have only one abstarct method/ non default methods so that it can be converted into lambda expression.
+- Functional interface is uimplemneted using lambda expression. which is also called as SAM(Single Abstract Method)
 </details>
 
 9: Does lambda expression execute on its own? Explain.
