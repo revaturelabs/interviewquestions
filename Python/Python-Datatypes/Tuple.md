@@ -28,7 +28,7 @@ In python, both list and tuple looks similar as they both can store any type of 
  
 - Tuple has 2 built-in methods in python:
  
-_ i) count() - it returns the count of specified element in tuple.
+- i) count() - it returns the count of specified element in tuple.
 - ii) index() - it searches the specified value in a tuple and returns the position of that element where it found. 
 
 </details>
@@ -187,7 +187,8 @@ options:
 ```python 
 tuple1 = (10,)
 print(tuple1 * 3)
-
+```
+ 
 options:
 - A.TypeError
 - B.30)
@@ -279,7 +280,7 @@ print(answer_1)
 Tuple1="yellow",20,"Red"
 a,b,c=Tuple1
 print(b)
----
+```
  
 - A.('yellow',20,'red')
 - B.TypeError
@@ -287,8 +288,11 @@ print(b)
 - D.No output
 
 <details><summary> <b>Show Answer</b> </summary>
-Ans:
+ 
+**Ans**:
+ 
 c)yellow
+ 
 <details><summary> <b>Explanation</b> </summary>
  
 - The tuple unpacking is also possible
@@ -300,161 +304,258 @@ c)yellow
 
 <details><summary> <b>Show Answer</b> </summary>
  
- ```python
+```python
+ 
 listtuple= [('C#',1), ('Go',7), ('Basic',8), ('Python',60)]
 print('original list of tuples =\n',listtuple)
 listtuple.sort(key = lambda item:item[1])
 print('after sorting by second item=\n',listtuple)
 ```
  
-Output**:
- l
+**Output**:
+ 
 original list of tuples =
  [('C#', 1), ('Go', 7), ('Basic', 8), ('Python', 60)]
+ 
 after sorting by second item=
  [('C#', 1), ('Go', 7), ('Basic', 8), ('Python', 60)]
 
-Explanation:
-This is the one way of approach only you can do in your way.
+<details><summary> <b>Explanation</b> </summary>
+ 
+- This is the one way of approach only you can do in your way.
+ 
+ </details>
+ </details>
+ 
 
-117)Debug the code and give the output of the following code?
+17.Debug the code and give the output of the following code?
 (sum of all the numbers in the tuple)
-
+ 
+```python
 tuple=(45,2,90,5,36,65)
 output=
 print("sum of the tuple:",output)
-
-Hint:
-sum() function will calculate the total sum inside the numbers of your tuple.
-
-Ans:
+```
+ 
+<details><summary> <b>Show Answer</b> </summary>
+ 
+<details><summary> <b>Hint</b> </summary>
+ 
+- sum() function will calculate the total sum inside the numbers of your tuple.
+ 
+ </details>
+ 
+**Ans**:
+ 
+```python
 tuple=(45,2,90,5,36,65)
 output=sum(tuple)
 print("sum of the tuple:",output)
-
-Output:
+```
+ 
+**Output**:
+ 
 sum of the tuple: 243
 
-118)Write program to swap two tuples in python.
+ </details>
 
-Sample tuple:
+18.Write program to swap two tuples in python.
+
+**Sample tuple**:
+ 
+```python
 tuple1=(11,22)
 tuple2=(99,88)
+```
+ 
 Expected output:
+ 
 tuple1:(99,88)
+ 
 tuple2:(11,22)
 
-Ans:
+<details><summary> <b>Show Answer</b> </summary>
+ 
+**Ans**:
+
+```python
 tuple1=(11,22)
 tuple2=(99,88)
 tuple1,tuple2=tuple2,tuple1
 print('tuple1 value after swapping:',tuple1)
 print('tuple1 value after swapping:',tuple2)
-
-Output:
+```
+ 
+**Output**:
+ 
 tuple1 value after swapping: (99, 88)
 tuple1 value after swapping: (11, 22)
 
-119)What is the output of the following tuple operation
+ </details>
+ 
+19.What is the output of the following tuple operation
 
+```python 
 aTuple = (100, 200, 300, 400, 500)
 aTuple.pop(2)
 print(aTuple)
+```
+ 
+- A.(100,200,400,500)
+- B.(100,300,400,500)
+- C.AttributeError
+- D.No output
 
-a)(100,200,400,500)
-b)(100,300,400,500)
-c)AttributeError
-d)No output
+<details><summary> <b>Show Answer</b> </summary>
+ 
+**Option c** : AttributeError
 
-Ans:
-option c:AttributeError
+<details><summary> <b>Explanation</b> </summary>
+ 
+- A tuple is immutable. Once a tuple is created, you cannot remove its items, but you can delete the tuple completely. If you try to remove the item from the tuple, you will receive an AttributeError: 'tuple' object has no attribute 'pop'.
 
-Explanation:
-A tuple is immutable. Once a tuple is created, you cannot remove its items, but you can delete the tuple completely. If you try to remove the item from the tuple, you will receive an AttributeError: 'tuple' object has no attribute 'pop'.
+ </details>
+ </details>
+ 
+20.A Python tuple can also be created without using parentheses
 
-120)A Python tuple can also be created without using parentheses
+- A.False
+- B.True
 
-a)False
-b)True
+<details><summary> <b>Show Answer</b> </summary>
+ 
+ **Ans**:
+ 
+Option:B.True
 
-Ans:
-option:b)True
+<details><summary> <b>Explanation</b> </summary>
+ 
+- A tuple can also be created without using parentheses. It is called tuple packing.
 
-Explanation:
-A tuple can also be created without using parentheses. It is called tuple packing.
-
-example:
+**Example**:
+ 
+```python
 tuple = "Yarn", 20, "Rabbit"
 print(tuple)
+```
+ 
+ </details>
+ </details>
+ 
+21.Write a program to convert two list to dictionary in python?
 
-121)Write a program to convert two list to dictionary in python?
-
-Ans:
+<details><summary> <b>Show Answer</b> </summary>
+ 
+```python 
 Team=["Training","Dev","Sales","Finance"]
 Members=[38,50,33,79]
 Office=dict(zip(Team,Members))
 print(Office)
+````
+ 
+**Output**:
+ 
+{'Training': 38, 'Dev': 50, 'Sales': 33, 'Finance': 79}
+ 
+ </details>
+ 
 
-Output:
-{'Training': 38, 'Dev': 50, 'Sales': 33, 'Finance': 79
+22.What is the type of the following variable?
 
-122)What is the type of the following variable?
-
+```python
 Tuple=("Engineer")
 print(type(Tuple))
+```
+ 
+- A.tuple
+- B.str
+- C.array
+- D.list
 
-a)tuple
-b)str
-c)array
-d)list
+<details><summary> <b>Show Answer</b> </summary>
+ 
+**Option**:
+ 
+ B.str
 
-Ans:
-option:b)str
-
-Explanation:
-   To create a tuple with a single item, you need to add a comma after the item. Otherwise, Python will not recognize the variable as a tuple, and it will treat it as a string type.
-example:
+<details><summary> <b>Explanation</b> </summary>
+ 
+- To create a tuple with a single item, you need to add a comma after the item. Otherwise, Python will not recognize the variable as a tuple, and it will treat it as a string type.
+ 
+**Example**:
+ 
+ ```python
 Tuple=("Engineer")
 print(type(Tuple))
 Tuple1=("Software",)
 print(type(Tuple1))
-Output:
+ ```
+ 
+**Output**:
+ 
 <class 'str'>
+ 
 <class 'tuple'>
+ 
+ </details>
+ </details>
+ 
 
-123)How will you find the duplicate tuple in list of tuple.
+23.How will you find the duplicate tuple in list of tuple.
 
-Ans:
+<details><summary> <b>Show Answer</b> </summary>
 
+```python 
 Tuple= [('Python',5),('Java',3),('C#', 1), ('JS', 2), ('C#', 1), ('JS', 2),('React',1)] 
 #finding the duplicate tuple
 Output_tuple = list(set([item for item in Tuple if Tuple.count(item) > 1])) 
 print(Output_tuple)
-
-Output:
+```
+ 
+**Output**:
+ 
 [('JS', 2), ('C#', 1)]
+ 
+ </details>
 
-124)Counts the number of occurrences of item 50 from a tuple.
+24.Counts the number of occurrences of item 50 from a tuple.
 Sample tuple:
-tuple = (50, 10, 60, 70, 50,67,89,160,145,67,50)
+ 
+> tuple = (50, 10, 60, 70, 50,67,89,160,145,67,50)
 
-Ans:
+<details><summary> <b>Show Answer</b> </summary>
+ 
+**Ans**:
+ 
+```python
 tuple = (50, 10, 60, 70, 50,67,89,160,145,67,50)
 print(tuple.count(50))
-
-Output:
+```
+ 
+**Output**:
+ 
 3
-Explantion:
- To count the number of occurrences we used the count() method of a tuple.
+ 
+<details><summary> <b>Show Answer</b> </summary>
+ 
+- To count the number of occurrences we used the count() method of a tuple.
 
-125)Choose the correct way to access value 20 from the following tuple.
+ </details>
+ </details>
+ 
+25.Choose the correct way to access value 20 from the following tuple.
 
-Tuple = ("Software",[10, 20, 30], (5, 15, 25))
+> Tuple = ("Software",[10, 20, 30], (5, 15, 25))
 
-a)Tuple[1:2][1]
-b)Tuple[1:2](1)
-c)Tuple[1:2][1]
-d)Tuple[1][1]
+- A.Tuple[1:2][1]
+- B.Tuple[1:2](1)
+- C.Tuple[1:2][1]
+- D.Tuple[1][1]
 
-Ans:
-option:c)Tuple[1:2][1]
+<details><summary> <b>Show Answer</b> </summary>
+ 
+**Option**:
+ 
+C.Tuple[1:2][1]
+
+ </details>
