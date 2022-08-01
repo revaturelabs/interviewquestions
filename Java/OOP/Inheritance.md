@@ -33,6 +33,8 @@
 
 
 
+
+
 ## Technical
 
 1. How is Multiple Inheritance implemented in java?
@@ -286,6 +288,8 @@ Main m = (Main) o;
   ```
 
 </details>
+
+
 
 
 
