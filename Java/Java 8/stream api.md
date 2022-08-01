@@ -29,7 +29,7 @@
 
   <details><summary> Show Answer</summary>
 
-- two operations -Intermediate and terminal operations.
+- Two operations - Intermediate and terminal operations.
 - Intermediate - will process the stream to get the result (like a filter, or map).
 - Terminal - it is the end of the stream to return the result.
 
@@ -40,7 +40,7 @@
 
 <details><summary> Show Answer</summary>
 
-- Filter- select elements based on the condition passed
+- Filter - select elements based on the condition passed
 - Map - by applying the given function in the stream
 - Sorted - used to sort the stream
 
@@ -50,7 +50,7 @@
 
 <details><summary> Show Answer</summary>
 
-- Collect- returns the result of intermediate operations.
+- collect - returns the result of intermediate operations.
 - forEach- used to iterate through the elements of the stream
 - reduce - to reduce the elements of the stream to one value
 
@@ -98,10 +98,10 @@ No, because stream API processes the elements as per pipelined operations withou
 
 11: Differentiate between map() and flatMap().
 
-<details><summary> Show Answer</summary>
+<details><summary> Show Answer </summary>
 
-- map()- will work on the streams and transform the single input value into a single output.
-- flatMap()- will work on the streams and transform the single input value into multiple outputs by flattening it.
+- map() - will work on the streams and transform the single input value into a single output.
+- flatMap() - will work on the streams and transform the single input value into multiple outputs by flattening it.
 
 </details>
 
@@ -129,12 +129,11 @@ No, because stream API processes the elements as per pipelined operations withou
 
 - When we need to iterate the elements in the stream.
 - This is the only operation that returns void.
-- can call directly on collections or stream.
+- It can directly call on collections or stream.
 
 </details>
 
 15: What is the use of collect() terminal operation?
-
 
 <details><summary> Show Answer</summary>
 
@@ -179,13 +178,13 @@ No, because stream API processes the elements as per pipelined operations withou
 
  19: Predict the output of the following intermediate operation.
  ``` java
- Stream<String> s = Stream.of("appple", "orange", "apple", "banana", "banana");
+ Stream<String> s = Stream.of("apple", "orange", "apple", "banana", "banana");
  s.distinct().forEach(System.out::print); 
  ```
 
 <details><summary> Show Answer</summary>
 
-- returns orange
+- returns appleorangebanana
 - distinct()- will return a stream from the source stream removing the duplicate elements.
  </details>
 
