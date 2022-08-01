@@ -242,6 +242,29 @@ Main m = o;
 
 </details>
 
+4. The object declared in the below code snippet is type casted but it may or may not be of type Main, How does a pogrammer avoids runtime error?
+
+``` java
+
+Main m = (Main) o;
+
+```
+
+<details><summary>Show Answer</summary>
+
+  <b>Ans: </b> In order to avoid any runtime error the decleration can be enclosed in a simple condition which checks the instance of object o.
+  
+  ``` java
+  if( o instanceof Main)
+	{
+			Main m = (Main) o;
+	}
+  
+  ```
+
+</details>
+
+
 
 
 
