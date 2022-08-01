@@ -2,6 +2,7 @@
 # Python-Flow Control Statements 
 
 1. Does python have a Switch-Case statement?
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 <details><summary> <b>Show Answer</b> </summary>
   
 **Ans:** Python doesn't have a switch case statement, we can use the normal if else statements in it.
@@ -9,6 +10,7 @@
 
 ---
 2. Does python have a while and do-while loop?
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 <details><summary> <b>Show Answer</b> </summary>
   
 **Ans:** In Python, there is no do-while loop present. But we can use while loop in it.
@@ -16,7 +18,7 @@
 
 ---
 3. Which keyword in python helps in including condition in code?
-
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 - a) for
 - b) while
 - c) if 
@@ -30,6 +32,7 @@
 
 ---
 4. Write the syntax for if-else statement.
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 <details><summary> <b>Show Answer</b> </summary>
 
 **Ans:** 
@@ -47,7 +50,7 @@
 
 ---
 5. State True or False: We can write only 1 print statement inside if and else block respectively.
-
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 - a) True
 - b) False 
 <details><summary> <b>Show Answer</b> </summary>
@@ -112,7 +115,7 @@ else:
 
  ---
 9. Which one of the following is correct way of writing if statement in python?
-
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 - a) if (x>4)
 - b) if (x=>4)
 - c) if (x<4):
@@ -126,6 +129,7 @@ else:
 
  ---
 10. What will be the output of following Python code?
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 ```
 a = 15
 if a <= 15:
@@ -285,6 +289,7 @@ for i in 'Akshay':
 
 ---
 17. What is the output of the following for loop?
+  
 ```
 for i in 'akshay':
    if i == 'a':
@@ -327,7 +332,7 @@ for i in 'akshay':
 for num in range(8, 12):
    for i in range(2, num):
        if num%i == 1:
-          print(num)
+          print(num, end=" ")
           break
 ```
 - a) 8
@@ -353,7 +358,7 @@ for num in range(8, 12):
 for num in range(8, 12):
    for i in range(2, num):
        if num%i == 0:
-          print(num)
+          print(num, end=" ")
           break
 ```
 - a) 8
