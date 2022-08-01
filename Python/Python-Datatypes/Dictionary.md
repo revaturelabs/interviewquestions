@@ -4,8 +4,8 @@
 
 <details><summary> <b>Show Answer</b> </summary>
   
- - Python dictionary objects are data types that are enclosed in curly braces '{}' and havkey and value pairs and each pair is seperated by a comma(,).
- - Dictionary is mapped. Meaning since it has key and value pair, a meaningful key can save a lot of trouble for coders, like using an address key to save all the addresses, an id key for all id’s and so on.
+- Python dictionary objects are data types that are enclosed in curly braces '{}' and havkey and value pairs and each pair is seperated by a comma(,).
+- Dictionary is mapped. Meaning since it has key and value pair, a meaningful key can save a lot of trouble for coders, like using an address key to save all the addresses, an id key for all id’s and so on.
   
 **Example**:
   
@@ -18,15 +18,15 @@ print(user_info['name'])
   
 **Output**:
   
-Variable user_info is a <class 'dict'>.
+> Variable user_info is a <class 'dict'>.
   
-{'name': 'Naveen', 'education': 'B.Tech', 'age': 23}
+> {'name': 'Naveen', 'education': 'B.Tech', 'age': 23}
   
-Naveen
+> Naveen
 
   </details>
   
-2. How will you get keys and values of dictionary?
+2.How will you get keys and values of dictionary?
   
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -54,7 +54,7 @@ print(user_info.values())
   
 **Output**:
   
-dict_values(['Naveen', 'B.Tech', 23])
+> dict_values(['Naveen', 'B.Tech', 23])
 
 - In Dictionary using items() method that returns list consisting of key and value pair.
   
@@ -67,7 +67,7 @@ print(user_info.items())
   
 **Output**:
   
-dict_items([('name', 'Naveen'), ('education', 'B.Tech'), ('age', 23)])
+> dict_items([('name', 'Naveen'), ('education', 'B.Tech'), ('age', 23)])
   
   </details>
   
@@ -91,6 +91,7 @@ print("Student info after corrections: ", student_info)
 **Output**:
   
 Student info original:  {'id': 12, 'nationality': 'China', 'data_enrolled': 2015, 'gender': 'Male'}
+  
 Student info after corrections:  {'id': 12, 'nationality': 'China', 'data_enrolled': 2015, 'gender': 'Female'}
   
 </details>
@@ -118,7 +119,7 @@ After popping:  {'current_location': 'Bangaluru', 'job': 'sofware engineer'}
   
 </details>
 
-5. How will you merge more than one dictionary?
+5.How will you merge more than one dictionary?
   
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -164,11 +165,11 @@ pet_number_dict={}
 for animal,num in zip(pets,numbers):
     pet_number_dict[animal]= num
 print(pet_number_dict)
-```python
+```
   
 **Output**:
   
-{'dog': 2, 'cat': 4, 'guinea pig': 10, 'parrot': 2}
+> {'dog': 2, 'cat': 4, 'guinea pig': 10, 'parrot': 2}
 
 ii)Zip, Comprehension with two lists
   
@@ -184,11 +185,11 @@ print(pet_number_dict_2)
   
 **Output**:
   
-{'dog': 2, 'cat': 4, 'guinea pig': 10, 'parrot': 2}
+> {'dog': 2, 'cat': 4, 'guinea pig': 10, 'parrot': 2}
 
   </details>
   
-7. What is the difference between duplicating dictionary with and without copy()?
+7.What is the difference between duplicating dictionary with and without copy()?
 
 <details><summary> <b>Show Answer</b> </summary>
 - It means is dict_2 = dict_1 vs. dict_2 = dict_1.copy(). When you are duplicating a dictionary object without a copy() method, you are not creating a new dictionary but pointing to the same dictionary object. So, when you make changes in the duplicate list it changes the original one too.
@@ -237,11 +238,11 @@ print("Are the memory address of two dicts same? {}".format(
   
 **Output**:
   
-Original List before {'eggs': '1 karton', 'banana': '1 kg', 'milk': '1 ltr', 'sugar': '1 kg'}
+> Original List before {'eggs': '1 karton', 'banana': '1 kg', 'milk': '1 ltr', 'sugar': '1 kg'}
   
-Original List after duplication {'eggs': '1 karton', 'banana': '1 kg', 'milk': '1 ltr', 'sugar': '1 kg'}
+> Original List after duplication {'eggs': '1 karton', 'banana': '1 kg', 'milk': '1 ltr', 'sugar': '1 kg'}
   
-Are the memory address of two dicts same? False
+> Are the memory address of two dicts same? False
   
 </details>
   
@@ -257,7 +258,7 @@ print('dictionary output:' ,d[3,4,9])
   
 **Output**:
   
-print('dictionary output:',d[3,4,9])
+> print('dictionary output:',d[3,4,9])
   
 KeyError: (3, 4,9)
 
@@ -284,11 +285,13 @@ pprint.pprint(dictionary)
 ```
   
 **Output**:
-  
+
+```python
 [{'Age': '23', 'Country': 'USA', 'Name': 'John'},
  {'Age': '44', 'Country': 'Spain', 'Name': 'Jose'},
  {'Age': '29', 'Country': 'UK', 'Name': 'Anne'},
  {'Age': '35', 'Country': 'Japan', 'Name': 'Lee'}]
+```
   
   </details>
   
@@ -304,7 +307,7 @@ print(id(cpydict) == id(dictlang))
   
 **Output**:
   
-False
+> False
 
   </details>
   
@@ -325,7 +328,7 @@ print('Dictionary after deleting key =',fruitsDict)
   
 **Output**:
   
-Dictionary after deleting key = {'Orange': 200, 'Banana': 400, 'pomegranate': 600}
+> Dictionary after deleting key = {'Orange': 200, 'Banana': 400, 'pomegranate': 600}
 
 </details>
   
@@ -343,7 +346,7 @@ print('max value key:',max(FruitsDict,key=FruitsDict.get))
   
 **Output**: 
   
-max and min values it's depends upon the user values
+> max and min values it's depends upon the user values
 
   </details>
   
@@ -362,7 +365,7 @@ print('sum of dict elements = ',sum(Fruit.values()))
   
 **Output**:
   
-sum of dict elements = 210
+> sum of dict elements = 210
   
   </details>
 
@@ -379,7 +382,7 @@ print(two_highest_values)
   
 **Output**:
   
-['Guava','Apple']
+> ['Guava','Apple']
   
   </details>
 
@@ -417,7 +420,7 @@ print(sorted_dict)
   
 **Output**:
   
-{'n1': [1, 2, 3], 'n2': [1, 2, 5], 'n3': [2, 3, 4]}
+> {'n1': [1, 2, 3], 'n2': [1, 2, 5], 'n3': [2, 3, 4]}
   
   </details>
 
@@ -437,10 +440,15 @@ for a in students:
 <details><summary> <b>Show Answer</b> </summary>
   
 kanika
+  
 class : V
+  
 rolld_id : 2
+  
 Harini
+  
 class : V
+  
 roll_id : 3
 
   </details>
@@ -448,6 +456,7 @@ roll_id : 3
 18.Write a Python program to sort counter by value?
   
 Sample data : {'Math':81, 'Physics':83, 'Chemistry':87}
+  
 Expected data: [('Chemistry', 87), ('Physics', 83), ('Math', 81)]
 
 <details><summary> <b>Show Answer</b> </summary>
@@ -460,7 +469,7 @@ print(x.most_common())
   
 **Output**:
   
-[('Chemistry', 87), ('Physics', 83), ('Math', 81)]
+> [('Chemistry', 87), ('Physics', 83), ('Math', 81)]
 
   </details>
   
@@ -476,7 +485,7 @@ print(dict_len)
   
 **Output**:
   
-AttributeError: 'dict' object has no attribute 'value'
+> AttributeError: 'dict' object has no attribute 'value'
 
   </details>
   
