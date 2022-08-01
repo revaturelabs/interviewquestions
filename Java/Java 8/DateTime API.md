@@ -85,7 +85,7 @@ LocalDateTime currentDateTime = LocalDateTime.now(); <br>
 
 </details>
 
-## 
+## Predict the output
 
 10: Predict the output of the following code.
 
