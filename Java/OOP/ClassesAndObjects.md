@@ -90,7 +90,7 @@ private class Main{
 
 <b>Ans:</b> C
 	
-<b>Explanation:</b> The default constructor of any class call the no-arg constructor of the superclass, So, java provides an implicit super class "Object" which has a default constructor.
+<b>Explanation:</b> The default constructor of any class calls the no-arg constructor of the superclass, So, java provides an implicit super class "Object" which has a default constructor.
 
 </details>
 
