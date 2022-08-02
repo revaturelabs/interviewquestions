@@ -1,7 +1,7 @@
 ## Technical
 1: Explain Method Reference.
 
-<details><summary><b> Show Answer <b></summary>
+<details><summary><b> Show Answer </b></summary>
 
 It is to refer the method of functional interface. While using a lambda expression to refer to a method, we can use a method reference instead of a lambda expressison.
 
@@ -11,7 +11,7 @@ It is to refer the method of functional interface. While using a lambda expressi
 
 2: List the types of Method References.
 
-<details><summary><b> Show Answer <b></summary>
+<details><summary><b> Show Answer </b></summary>
 
 - Reference to a static method.
 - Reference to an instance method.
@@ -24,7 +24,7 @@ It is to refer the method of functional interface. While using a lambda expressi
  
 3: Write the syntax for referring to a static method?
 
-<details><summary><b> Show Answer <b></summary>
+<details><summary><b> Show Answer </b></summary>
 
 - ContainingClass::staticMethodName
 - We can refer to the static method by calling its name with the class where it resides.
@@ -35,7 +35,7 @@ It is to refer the method of functional interface. While using a lambda expressi
 
 4: Write the syntax for Reference to an instance method of a particular object?
 
-<details><summary><b> Show Answer <b></summary>
+<details><summary><b> Show Answer </b></summary>
 
 - containingObject::instanceMethodName
 - use the instance method name of the particular object name.
@@ -46,7 +46,7 @@ It is to refer the method of functional interface. While using a lambda expressi
  
 5: Write the syntax for Reference to an instance method of an arbitrary object of a particular type?
 
-<details><summary><b> Show Answer <b></summary>
+<details><summary><b> Show Answer </b></summary>
 
 - We can mention the type with the instance method name of the object.
 - ContainingType::methodName
@@ -57,7 +57,7 @@ It is to refer the method of functional interface. While using a lambda expressi
 
 6: Write the syntax for Reference to a constructor?
 
-<details><summary><b> Show Answer <b></summary>
+<details><summary><b> Show Answer </b></summary>
 
 - ClassName::new
 - new is the keyword to refer to the constructor with the class name.
@@ -69,7 +69,7 @@ It is to refer the method of functional interface. While using a lambda expressi
  7: Explain the parts of the method reference.
 
  
-<details><summary><b> Show Answer <b></summary>
+<details><summary><b> Show Answer </b></summary>
 
 - It has 2 parts. class/object and method/constructor.
 - Separated by :: (double colons)
@@ -81,7 +81,7 @@ It is to refer the method of functional interface. While using a lambda expressi
 
 8: How to print all the elements in the list using method reference?
 
-<details><summary><b> Show Answer <b></summary>
+<details><summary><b> Show Answer </b></summary>
 
 
  ``` java 
@@ -117,7 +117,7 @@ public class MethodReference{
 }
 ``` 
 
-<details><summary><b> Show Answer <b></summary>
+<details><summary><b> Show Answer </b></summary>
 
    Data Structures and Alogrithms<br>
    Java Programming<br>
@@ -150,7 +150,7 @@ public class MethodReference {
     }  
 } 
 ```
-<details><summary><b> Show Answer <b></summary>
+<details><summary><b> Show Answer </b></summary>
  
  ``` java
 
