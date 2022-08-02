@@ -1,11 +1,13 @@
 ## Technical
 1: Explain Method Reference.
 
-<details><summary> Show Answer</summary>
+<details><summary><b> Show Answer <b></summary>
 
 It is to refer the method of functional interface. While using a lambda expression to refer to a method, we can use a method reference instead of a lambda expressison.
 
 </details>
+ 
+ ---
 
 2: List the types of Method References.
 
@@ -18,6 +20,8 @@ It is to refer the method of functional interface. While using a lambda expressi
 
 </details>
 
+ ---
+ 
 3: Write the syntax for referring to a static method?
 
 <details><summary> Show Answer</summary>
@@ -26,6 +30,8 @@ It is to refer the method of functional interface. While using a lambda expressi
 - We can refer to the static method by calling its name with the class where it resides.
 
 </details>
+ 
+ ---
 
 4: Write the syntax for Reference to an instance method of a particular object?
 
@@ -36,6 +42,8 @@ It is to refer the method of functional interface. While using a lambda expressi
 
 </details>
 
+ ---
+ 
 5: Write the syntax for Reference to an instance method of an arbitrary object of a particular type?
 
 <details><summary> Show Answer</summary>
@@ -44,6 +52,8 @@ It is to refer the method of functional interface. While using a lambda expressi
 - 	ContainingType::methodName
 
 </details>
+ 
+ ---
 
 6: Write the syntax for Reference to a constructor?
 
@@ -54,6 +64,8 @@ It is to refer the method of functional interface. While using a lambda expressi
 
 </details>
 
+ ---
+ 
  7: Explain the parts of the method reference.
 
  
@@ -64,6 +76,8 @@ It is to refer the method of functional interface. While using a lambda expressi
 - No additional parameters are passed in method reference.
 
 </details>
+ 
+ ---
 
 8: How to print all the elements in the list using method reference?
 
@@ -73,11 +87,16 @@ It is to refer the method of functional interface. While using a lambda expressi
  ``` java 
  list.forEach(System.out::println);  
  ``` 
-
+<details><summary><b>Explanation</b></summary>
+ 
 - Here we are using the forEach method to display the elements one by one in the list.
 
 </details>
+ 
+ </details>
 
+ ---
+ 
 ## Problem Solving
 
 9: Predict the output of the following code.
@@ -103,11 +122,18 @@ public class MethodReference{
    Data Structures and Alogrithms<br>
    Java Programming<br>
    Python Programming
+ 
+ <details><summary><b>Explanation</b></summary>
+  
    -  This is an example of Reference to an instance method of an arbitrary object of a particular type.
    -  First, it will sort the list and apply compareToIgnoreCase to return the result.
 
 </details>
+ 
+ </details>
 
+ ---
+ 
 10: What should be the code in line 9  to get the result "Hello, this is a static method." using a reference to the static methods?
 
 ``` java
@@ -131,9 +157,16 @@ public class MethodReference {
  Sample sample = MethodReference::printhello; 
  
  ```
+ 
+ <details><summary><b>Explanation</b></summary>
+  
  - Here the static method reference printhello() refers to its functional method print() in the interface Sample.
 
  </details>
+ 
+ </details>
+ 
+ ---
 
 
 
