@@ -49,7 +49,7 @@
  
  ---
 
-6: Write a lambda expression which prints HelloWorld?
+6: Write a code to print "HelloWorld" using lambda expression and functional interface?
 
 <details><summary><b>Show Answer</b></summary>
 	
@@ -67,6 +67,11 @@ public class test {
 	}
 } 
 ```
+	<details> <summary><b>Explanation</b></summary>
+		<li>Create a functional interface, <code>Greeting</code> with <code>greet</code> as one abstract method</li>
+		<li>In main method, provide <code>greet</code> method definition using lambda expression </li>
+			<li>Print <b>HelloWorld</b> by calling <code>g.greet()</code></li>
+	</details>
 </details>
 
 ---
