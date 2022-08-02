@@ -1,8 +1,7 @@
 ## Technical
 1: What is the use of `@FunctionalInterface` annotation?
 <details><summary> Show Answer</summary>
-
-It forces the Java compiler to indicate that the interface is a functional interface, so it does not not allow having more than one abstract method. 
+If an interface annotated with `@FunctionalInterface`, Java complier ensures that interface has only one abstract method.
 </details>
 
  2:  Is `@FunctionalInterface` annotation mandatory for every interface with a single abstract method?
