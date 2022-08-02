@@ -53,7 +53,7 @@
 
 <details><summary><b>Show Answer</b></summary>
 	
-```java 
+<pre>
 @FunctionalInterface
 interface Greetings {
 	void greet();
@@ -66,7 +66,7 @@ public class test {
 
 	}
 } 
-```
+</pre>
 	<details> <summary><b>Explanation</b></summary>
 		<li>Create a functional interface, <code>Greeting</code> with <code>greet</code> as one abstract method</li>
 		<li>In main method, provide <code>greet</code> method definition using lambda expression </li>
