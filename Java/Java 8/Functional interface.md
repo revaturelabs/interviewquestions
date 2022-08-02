@@ -19,23 +19,28 @@ Not necessarily because the compiler will consider it as a functional interface 
 ---
 
 3: Is it possible to have default and static methods in the functional interface?
+
  <details><summary><b> Show Answer</b></summary>
 	
  Yes
 	
-</detaisl>
-
+</details>
 
 <details><summary><b>Explanation</b></summary>
 	
 we can have any number of default and static methods but can contain only one abstract method. 
+	
  </details>
 
 ---
 
 4: How many default methods can we have in the functional interface?
+
  <details><summary><b>Show Answer</b></summary>
- A functional interface can have Multiple default methods with only one abstract method. </details>
+	
+ A functional interface can have Multiple default methods with only one abstract method.
+
+</details>
  
  ---
 
@@ -145,11 +150,12 @@ public interface Runnable {
 	
 Yes
 
-	</details>
+</details>
 	
 <details><summary><b>Explanation</b></summary>
-This is a functional interface, since there is only one
-abstract method
+	
+This is a functional interface, since there is only one abstract method
+	
 </details>
 
 ---
@@ -161,8 +167,9 @@ abstract method
 ``` java
 
 Consumer<Integer> consumer = (value) -> System.out.println(value);
+	
 ```
-	</details>
+</details>
 	
 <details><summary><b>Explanation</b></summary>
 	
@@ -177,11 +184,14 @@ Consumer<Integer> consumer = (value) -> System.out.println(value);
 <details><summary><b>Show Answer</b></summary>
 
 ``` java
+	
 public interface Predicate<T> {
     boolean test(T t);
 }
+	
 ```
-		</details>
+	
+</details>
 	
 <details><summary><b>Explanation</b></summary>
 	
@@ -196,13 +206,14 @@ public interface Predicate<T> {
 <details><summary><b>Show Answer</b></summary>
 
 ``` java
+	
 @FunctionalInterface
 public interface Supplier<T>{
     //returns the specific result 
     T get();
-
 }
-```	</details>
+```
+</details>
 	
 <details><summary><b>Explanation</b></summary>
 
@@ -217,7 +228,8 @@ public interface Supplier<T>{
 <details><summary><b>Show Answer</b></summary>
 
 - No.
-	</details>
+	
+</details>
 	
 <details><summary><b>Explanation</b></summary>
 	
@@ -227,22 +239,28 @@ public interface Supplier<T>{
 
 ---
 
-# Error Detection
+## Error Detection
+	
  19:Predict the error of the following code snippet.
  
 ``` java  
-@FunctionalInterface  
+
 interface Arithmetic {  
     void addition(String msg);  
     void subtraction();
-} 
+}
+	
 ```
+	
 <details><summary><b>Show Answer</b></summary>
-It will throw a compile time error that Revature is not a functional interface, since it has 2 abstract methods.</details>
+	
+It will throw a compile time error that Revature is not a functional interface, since it has 2 abstract methods.
+	
+</details>
 
 ---
 	
-# Problem-Solving
+## Problem-Solving
 	
 20: Convert the following code into a lambda expression.
 	
@@ -250,21 +268,22 @@ It will throw a compile time error that Revature is not a functional interface, 
 import java.util.Scanner;  
 public class Addition {
     public static void main(String[] args) {
-	int x, y, sum;  
-    	Scanner sc = new Scanner(System.in);  
-    	System.out.print("Enter the first number: ");  
-    	x = sc.nextInt();  
-    	System.out.print("Enter the second number: ");  
-    	y = sc.nextInt();  
-    	sum = sum(x, y);  
-    	System.out.println("The sum of two numbers x and y is: " + sum); 
-		
+    int x, y, sum;  
+        Scanner sc = new Scanner(System.in);  
+        System.out.print("Enter the first number: ");  
+        x = sc.nextInt();  
+        System.out.print("Enter the second number: ");  
+        y = sc.nextInt();  
+        sum = sum(x, y);  
+        System.out.println("The sum of two numbers x and y is: " + sum); 
+         
    } 
    public static int Sum(int a, int b)  {  
        int sum = a + b;  
        return sum;  
    }  
-}  
+}
+	
 ```
 
 <details><summary><b>Show Answer</b></summary>
@@ -281,6 +300,7 @@ public class Main{
 interface Sum{
     int add(int a, int b);
 }
+	
 ```
 
 </details>
@@ -289,7 +309,7 @@ interface Sum{
 
 -  A lambda expression is a short block of code that takes in parameters and returns a value. Which is similar to methods, but they do not need a name(Function name) and they can be implemented right in the body of a method.
 	
-	</details>
+</details>
 	
 ---
 	
@@ -299,9 +319,9 @@ interface Sum{
  ``` java
 
  public class AnonymousClassExample  {
-
+ 
     public static void main(String[] args) {
-
+ 
         Runnable runnable = new Runnable(){
             public void run(){
                 System.out.println("Convertion of Anonymous class into Lamda");
@@ -317,18 +337,17 @@ interface Sum{
 ``` java
 
 public class AnonymousClassExample {
-
     public static void main(String[] args) {
-
         Runnable runnable = () -> {
             System.out.println("Convertion of Anonymous class into Lamda");
         };
         runnable.run();
     }
 }
+	
 ```
 	
-	</details>
+</details>
 	
 <details><summary><b>Explanation</b></summary>
 	
@@ -342,15 +361,15 @@ public class AnonymousClassExample {
 22: Predict the output for the following code snippet.
 	
 ``` java
-
+	
 interface Single{  
     void say(String msg);   // abstract method  
 }  
 @FunctionalInterface  
 interface Double extends Single{  
- 
+  
     void doIt();  
-}  
+}
 ```
 
 <details><summary><b>Show Answer</b></summary>
@@ -360,6 +379,7 @@ interface Double extends Single{
 - When a functional interface extends another interface it should not contain any abstract methods.
 
 </details>
+	
 ---
 
 
