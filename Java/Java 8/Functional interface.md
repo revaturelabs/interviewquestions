@@ -92,13 +92,13 @@ public class test {
 
 <details><summary><b>Show Answer</b></summary>
 
-- The Anonymous classes should have only one abstarct method so that it can be converted into lambda expression.
+- The Anonymous classes should have only one abstract method so that it can be converted into lambda expression.
 - Functional interface is implemented using lambda expression. which is also called as SAM(Single Abstract Method)
 </details>
 
 ---
 
-9: Does lambda expression execute on its own? Explain.
+9: Does lambda expression execute on its own? 
 
 <details><summary><b>Show Answer</b></summary>
 	
@@ -160,8 +160,8 @@ one abstract method is allowed in functional interface </details>
 
 ``` java
 
-public interface Runnable {
-    public abstract void run();
+public interface Circle {
+    public abstract void draw();
 }
 ```
 <details><summary><b>Show Answer</b></summary>
@@ -263,6 +263,8 @@ public interface Supplier<T>{
  
 ``` java  
 
+@FunctionalInterface
+
 interface Arithmetic {  
     void addition(String msg);  
     void subtraction();
@@ -272,7 +274,7 @@ interface Arithmetic {
 	
 <details><summary><b>Show Answer</b></summary>
 	
-It will throw a compile time error that Revature is not a functional interface, since it has 2 abstract methods.
+It will throw a compile time error that Arithmetic is not a functional interface, since it has 2 abstract methods.
 	
 </details>
 
@@ -280,7 +282,7 @@ It will throw a compile time error that Revature is not a functional interface, 
 	
 ## Problem-Solving
 	
-20: Convert the following code into a lambda expression.
+20: Write lambda expression for the method sum.
 	
 ``` java
 import java.util.Scanner;  
