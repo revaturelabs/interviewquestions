@@ -3,7 +3,7 @@
 
 <details>
 	<summary><b> Show Answer</b></summary>
-	<li>If an interface annotated with <code>@FunctionalInterface</code>, java complier ensures that interface has only one abstract method.<li>
+	<li>If an interface annotated with <code>@FunctionalInterface</code>, java complier ensures that interface has only one abstract method.</li>
 </details>
 
 ---
