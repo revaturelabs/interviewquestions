@@ -19,7 +19,7 @@
 
   </details>
 
-    ---
+  ---
     
   3: Explain Stream API.
     
@@ -212,8 +212,10 @@ Because stream API processes the elements as per pipelined operations without ch
 
 18: Predict the output for the following operation.
  ``` java
- Stream<String> s = Stream.of("java", "SQL", "python",  "JDBC");
- s.filter(x -> x.startsWith("S")).forEach(System.out::print); 
+ 
+Stream<String> s = Stream.of("java", "SQL", "python",  "JDBC");
+ s.filter(x -> x.startsWith("S")).forEach(System.out::print);
+  
  ```
   <details><summary><b> Show Answer<b></summary>
 
@@ -231,8 +233,10 @@ Because stream API processes the elements as per pipelined operations without ch
 
  19: Predict the output of the following intermediate operation.
  ``` java
- Stream<String> s = Stream.of("apple", "orange", "apple", "banana", "banana");
- s.distinct().forEach(System.out::print); 
+
+Stream<String> s = Stream.of("apple", "orange", "apple", "banana", "banana");
+s.distinct().forEach(System.out::print);
+   
  ```
  <details><summary><b> Show Answer<b></summary>
 
@@ -260,7 +264,7 @@ public class JavaStreamExample {
         .limit(4)  
         .forEach(System.out::println);  
     }  
-} 
+}
 ```
  <details><summary><b> Show Answer<b></summary>
   
