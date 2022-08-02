@@ -117,6 +117,7 @@ public class LocalDateExample1 {
     System.out.println("Today date: "+date);    
   }    
 }
+
 ```
 
 <details><summary><b> Show Answer </b></summary>
