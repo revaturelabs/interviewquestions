@@ -1,8 +1,9 @@
 ## Technical
 1: What is the use of `@FunctionalInterface` annotation?
 
-<details><summary><b> Show Answer</b></summary>
-	If an interface annotated with <code>@FunctionalInterface</code>, java complier ensures that interface has only one abstract method.
+<details>
+	<summary><b> Show Answer</b></summary>
+	<li>If an interface annotated with <code>@FunctionalInterface</code>, java complier ensures that interface has only one abstract method.<li>
 </details>
 
 ---
