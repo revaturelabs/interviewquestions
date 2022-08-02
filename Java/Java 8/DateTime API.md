@@ -1,9 +1,9 @@
 ## Technical
 1: In which package does the Date Time API reside in Java 8?
 
-<details><summary> Show Answer</summary>
+<details><summary><b> Show Answer </b></summary>
  
- <b> Ans: </b>  Newly introduced Data Time API will be included in the package java.time.
+ Newly introduced Data Time API will be included in the package java.time.
 
 </details>
 
@@ -12,9 +12,8 @@
 
 2: List the classes in Date and Time API in java 8.
 
-<details><summary> Show Answer</summary>
+<details><summary><b> Show Answer </b></summary>
  
- <b> Ans: </b>  
 - Local DateTime API- Simplified form of date - time API without any complexities.
 - Zoned DateTime API- Special form of date - time API  with varaiations.
 
@@ -24,9 +23,9 @@
 
 3: When do you use Local DateTime API and Zoned DateTime API  in Java 8?
 
-<details><summary> Show Answer</summary>
+<details><summary><b> Show Answer </b></summary>
 
-<b> Ans: </b>  It can be used when there is no need for time zones.
+- It can be used when there is no need for time zones.
 - It can be used when we need to consider time zones.
 
 </details>
@@ -36,9 +35,9 @@
 
 4: List the drawbacks of existing date and time API before Java 8.
 
-<details><summary> Show Answer</summary>
+<details><summary><b> Show Answer </b></summary>
  
-<b> Ans: </b>  It is not thread safe 
+- It is not thread safe 
 - It was poorly Designed with less number of features
 - Need to write a seperate code for handling time zone logic in older version. 
 
@@ -48,9 +47,9 @@
 
 5: Write the pattern of DateTime using DateTimeFormatter class.
  
-<details><summary> Show Answer</summary>
-
-<b> Ans: </b>  DateTimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");  
+<details><summary><b> Show Answer </b></summary>
+ 
+DateTimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");  
 
 </details>
 
@@ -58,9 +57,9 @@
 
 6: Explain about Period and Duration classes.
 
-<details><summary> Show Answer</summary>
+<details><summary><b> Show Answer </b></summary>
 
-<b> Ans: </b>  Period handles date based amount of time . 
+- Period handles date based amount of time . 
 - Example : "3 months and 1 day"
 - Duration handles time based amount of time (measured in terms of time).
 - Example : "3 seconds and 3 nanoseconds".
@@ -71,9 +70,9 @@
 
 7: Write the syntax for LocalTime class to find the current time in java 8?
 
-<details><summary> Show Answer</summary>
+<details><summary><b> Show Answer </b></summary>
 
- <b> Ans: </b>  LocalTime time = LocalTime.now();  
+LocalTime time = LocalTime.now();  
 
  </details>
  
@@ -82,9 +81,9 @@
  
 8: Explain about time-zone offset?
 
-<details><summary> Show Answer</summary>
+<details><summary><b> Show Answer </b></summary>
 
-<b> Ans: </b>  Its is an amount of time that a time -zone varies from Greenwich/UTC. 
+- Its is an amount of time that a time -zone varies from Greenwich/UTC. 
 - It is measured in fixed number of hours and minutes.
 
 </details>
@@ -93,9 +92,9 @@
 
 9: Write the syntax to print the current date and time in Java 8?
 
-<details><summary> Show Answer</summary>
+<details><summary><b> Show Answer </b></summary>
 
-<b> Ans: </b>  LocalTime currentTime = LocalTime.now(); <br>
+LocalTime currentTime = LocalTime.now(); <br>
 
 LocalDate currentDate = LocalDate.now();<br>
 
@@ -120,9 +119,9 @@ public class LocalDateExample1 {
 }
 ```
 
-<details><summary> Show Answer</summary>
+<details><summary><b> Show Answer </b></summary>
 
-<b> Ans: </b>  LocalDate class resides in java.time package and the factory method now() will display the current date. 
+LocalDate class resides in java.time package and the factory method now() will display the current date. 
 
 </details>
 
