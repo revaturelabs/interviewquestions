@@ -3,7 +3,7 @@
 
 <details>
 	<summary><b> Show Answer</b></summary>
-	<li>If an interface annotated with <code>@FunctionalInterface</code>, java complier ensures that interface has only one abstract method.</li>
+	If an interface annotated with <code>@FunctionalInterface</code>, java complier ensures that interface has only one abstract method.
 </details>
 
 ---
@@ -11,9 +11,9 @@
  2:  Is `@FunctionalInterface` annotation mandatory for every interface with a single abstract method?
  <details>
 	<summary><b>Show Answer</b></summary>
-No.
+	No.
 	<details> <summary><b>Explanation</b></summary>
-Not necessarily because the compiler will consider it as a functional interface when it has only one abstract method. 
+		Not necessarily because the compiler will consider it as a functional interface when it has only one abstract method. 
 	</details>
 </details>
 
@@ -24,14 +24,12 @@ Not necessarily because the compiler will consider it as a functional interface 
  <details><summary><b> Show Answer</b></summary>
 	
  Yes
-	
-</details>
-
-<details><summary><b>Explanation</b></summary>
+	<details><summary><b>Explanation</b></summary>
 	
 we can have any number of default and static methods but can contain only one abstract method. 
 	
  </details>
+</details>
 
 ---
 
@@ -56,7 +54,7 @@ we can have any number of default and static methods but can contain only one ab
 
 <details><summary><b>Show Answer</b></summary>
 	
-``` Greeting greeting = () -> System.out.println(" HelloWorld"); ```</details>
+```java Greeting greeting = () -> System.out.println(" HelloWorld"); ```</details>
 
 ---
 
