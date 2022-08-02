@@ -8,12 +8,12 @@
 ---
 
  2:  Is `@FunctionalInterface` annotation mandatory for every interface with a single abstract method?
- <details><summary><b>Show Answer</b></summary>
+ <details>
+	<summary><b>Show Answer</b></summary>
 No.
-</details>
-
-<details><summary><b>Explanation</b></summary>
-Not necessarily because the compiler will consider it as a functional interface when it has only one abstract method. </details>
+	<details> <summary><b>Explanation</b></summary>
+Not necessarily because the compiler will consider it as a functional interface when it has only one abstract method. 
+	</details>
 </details>
 
 ---
