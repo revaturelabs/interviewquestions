@@ -81,9 +81,9 @@ public class test {
 
 <details><summary><b>Show Answer</b></summary>
 
-- Runnable     
-- Callable       
-- Comparable
+- Runnable - Used in Multithreading , which has run() method    
+- Callable - Used to wrap a text and pass to a thread , which has call() method
+- Comparable - Used to compare between the objects in the class, which has compareTo() method
 </details>
 
 ---
@@ -103,13 +103,14 @@ public class test {
 <details><summary><b>Show Answer</b></summary>
 	
 No.
-	
-</details>
 
 <details><summary><b>Explanation</b></summary>
 	
 It is used to implement a method defined by a functional interface.
 
+</details>
+	
+	
 </details>
 
 ---
@@ -168,12 +169,14 @@ public interface Circle {
 	
 Yes
 
-</details>
 	
 <details><summary><b>Explanation</b></summary>
 	
 This is a functional interface, since there is only one abstract method
 	
+</details>
+	
+
 </details>
 
 ---
@@ -187,7 +190,7 @@ This is a functional interface, since there is only one abstract method
 Consumer<Integer> consumer = (value) -> System.out.println(value);
 	
 ```
-</details>
+
 	
 <details><summary><b>Explanation</b></summary>
 	
@@ -195,6 +198,8 @@ Consumer<Integer> consumer = (value) -> System.out.println(value);
 
 </details>
 
+</details>
+	
 ---
 
 16: Write the syntax of the Predicate Functional Interface.
@@ -209,11 +214,13 @@ public interface Predicate<T> {
 	
 ```
 	
-</details>
 	
 <details><summary><b>Explanation</b></summary>
 	
 - a function that accepts an argument and returns a boolean value as an answer
+
+</details>
+	
 
 </details>
 
@@ -231,13 +238,15 @@ public interface Supplier<T>{
     T get();
 }
 ```
-</details>
-	
+
 <details><summary><b>Explanation</b></summary>
 
 - which does not take any input or argument and yet returns a single output. 
 
 </details>
+	
+</details>
+	
 
 ---
 	
@@ -247,7 +256,6 @@ public interface Supplier<T>{
 
 - No.
 	
-</details>
 	
 <details><summary><b>Explanation</b></summary>
 	
@@ -255,6 +263,8 @@ public interface Supplier<T>{
 
 </details>
 
+</details>
+	
 ---
 
 ## Error Detection
@@ -323,12 +333,13 @@ interface Sum{
 	
 ```
 
-</details>
 
 <details><summary><b>Explanation</b></summary>
 
 -  A lambda expression is a short block of code that takes in parameters and returns a value. Which is similar to methods, but they do not need a name(Function name) and they can be implemented right in the body of a method.
 	
+</details>
+
 </details>
 	
 ---
@@ -367,7 +378,6 @@ public class AnonymousClassExample {
 	
 ```
 	
-</details>
 	
 <details><summary><b>Explanation</b></summary>
 	
@@ -375,6 +385,8 @@ public class AnonymousClassExample {
  - It can reduce the lines of code. 
 	
  </details>
+
+</details>
 
  ---
 
