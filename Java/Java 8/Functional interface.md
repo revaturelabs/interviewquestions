@@ -12,8 +12,8 @@
  <details>
 	<summary><b>Show Answer</b></summary>
 	No.
-	<details> <summary><b>Explanation</b></summary>
-		Not necessarily because the compiler will consider it as a functional interface when it has only one abstract method. 
+	<details><summary><b>Explanation</b></summary>
+	Not necessarily because the compiler will consider it as a functional interface when it has only one abstract method. 
 	</details>
 </details>
 
@@ -22,12 +22,9 @@
 3: Is it possible to have default and static methods in the functional interface?
 
  <details><summary><b> Show Answer</b></summary>
-	
- Yes
+ 	Yes
 	<details><summary><b>Explanation</b></summary>
-	
-we can have any number of default and static methods but can contain only one abstract method. 
-	
+	 We can have any number of default and static methods but can contain only one abstract method. 
  </details>
 </details>
 
@@ -36,17 +33,19 @@ we can have any number of default and static methods but can contain only one ab
 4: How many default methods can we have in the functional interface?
 
  <details><summary><b>Show Answer</b></summary>
-	
- A functional interface can have Multiple default methods with only one abstract method.
-
+ 	A functional interface can have any number of default methods with only one abstract method.
 </details>
  
  ---
 
-5: How functional interface and Lambda Expression are realted?
+5: Is Functional Interface related to the Lambda Expression?
 
  <details><summary><b>Show Answer</b></summary>
- The functional interface has been introduced in Java 8 to support the lambda expression, lambda expression is the instance of a functional interface.</details>
+	Yes
+	<details><summary><b>Explanation</b></summary>
+		The functional interface has been introduced in Java 8 to support the lambda expression, lambda expression is the instance of a functional interface.
+	</details>
+</details>
  
  ---
 
@@ -54,7 +53,21 @@ we can have any number of default and static methods but can contain only one ab
 
 <details><summary><b>Show Answer</b></summary>
 	
-```java Greeting greeting = () -> System.out.println(" HelloWorld"); ```</details>
+```java 
+@FunctionalInterface
+interface Greetings {
+	void greet();
+}
+
+public class test {
+	public static void main(String[] args) {
+		Greetings g = () -> System.out.println("HelloWorld");
+		g.greet(); // Output: HelloWorld
+
+	}
+} 
+```
+</details>
 
 ---
 
