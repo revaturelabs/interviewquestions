@@ -8,7 +8,8 @@
 - d) 1991 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is c) 1989.
+option c) 1989.
+  
 </details>
 
 ---
@@ -21,7 +22,8 @@
 - d) 33
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is d) 33 
+option d) 33 
+  
 </details>
 
 ---
@@ -30,8 +32,8 @@
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** Keywords are the reserved words that have special meaning in python. We cannot use keywords as identifier, function and variable name. All the keywords are in lower case except "True" and "False". Python 3.7 have total of 33 keywords.  
-For Example: and, or, if, elif,True, etc. 
+ Keywords are the reserved words that have special meaning in python. We cannot use keywords as identifier, function and variable name. All the keywords are in lower case except "True" and "False". Python 3.7 have total of 33 keywords.  
+**For Example**: and, or, if, elif,True, etc. 
 </details>
 
 ---
@@ -39,7 +41,7 @@ For Example: and, or, if, elif,True, etc.
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** Identifier is the name given to variable, function, class, etc in python. It consists of character, digit and underscore("_", [special character]). 
+- Identifier is the name given to variable, function, class, etc in python. It consists of character, digit and underscore("_", [special character]). 
 There are some rules for Identifier in python, let's talk about them one by one: 
 - Identifier should start with a character or an underscore. 
 - A character can be a lowercase(a-z) or uppercase(A-Z). 
@@ -57,9 +59,13 @@ For Example:  first_name, _rollNo, id_1, etc.
 - d) No special characters(@,!,#,$,%,&) are allowed other than underscore. 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is b)
+Option b) Identifier should start with a character or a number. 
 
-**Explanation:** Identifier can start with character or underscore, but not with a number.
+<details><summary> <b>Explanation</b> </summary>  
+  
+> Identifier can start with character or underscore, but not with a number.
+  
+  </details>  
 </details>
 
 ---
@@ -71,9 +77,13 @@ For Example:  first_name, _rollNo, id_1, etc.
 - d) mid-level language
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is d) mid-level language.
+option d) mid-level language.
 
-**Explanation:** Python is a High- level language.
+<details><summary> <b>Explanation</b> </summary> 
+  
+> Python is a High- level language.
+  
+  </details> 
 </details>
 
 ---
@@ -86,7 +96,7 @@ For Example:  first_name, _rollNo, id_1, etc.
 - d) none of the above
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is a) .py 
+option a) .py 
 </details>
 
 ---
@@ -95,7 +105,7 @@ For Example:  first_name, _rollNo, id_1, etc.
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** Python offers some key features that makes it different from other programming languages such as:
+Python offers some key features that makes it different from other programming languages such as:
 - Easy to code: any non- programmer can also learn python basics in few hours but that is not true with Java or C++. 
 - No need to remember where to add curly braces({}) or semi-colon (;) throughout the program.
 - It is dynamically typed means, we don't need to specify the type of variable as the variable type is decided at the run time. 
@@ -107,7 +117,7 @@ For Example:  first_name, _rollNo, id_1, etc.
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** These are the following differences between Interpreter and Compiler:
+These are the following differences between Interpreter and Compiler:
 - Compiler translates our program in a single run, whereas Interpreter translates our program line by line.
 - In terms of CPU utilization, Compiler utilizes more CPU than Interpreter. 
 - In compilation all the errors in the program are shown in the end together, whereas in Interpreter errors of the code are shown line by line. 
@@ -121,7 +131,7 @@ For Example:  first_name, _rollNo, id_1, etc.
 ![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** Python is an Interpreted language because it checks our code line by line not all together. For example suppose there are 2 errors in your code one in line 3 and other one in line 4. When you run the code it will only throw error for line 3 in console( output screen) but not  for line 4. The reason behind it is that it checks the code one line at a time. 
+- Python is an Interpreted language because it checks our code line by line not all together. For example suppose there are 2 errors in your code one in line 3 and other one in line 4. When you run the code it will only throw error for line 3 in console( output screen) but not  for line 4. The reason behind it is that it checks the code one line at a time. 
 </details>
 
 ---
@@ -133,9 +143,13 @@ For Example:  first_name, _rollNo, id_1, etc.
 - d) None of the above.
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is b) Identifier. 
+option b) Identifier. 
 
-**Explanation:** True is a keyword, whereas true with first letter in lower case is an Identifier. 
+<details><summary> <b>Explanation</b> </summary> 
+    
+> True is a keyword, whereas true with first letter in lower case is an Identifier. 
+  
+</details>
 </details>
 
 ---
@@ -143,7 +157,7 @@ For Example:  first_name, _rollNo, id_1, etc.
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** Last_Name and var are the only valid identifiers from the above list. 
+- Last_Name and var are the only valid identifiers from the above list. 
 - student@id is not a valid identifier because it has a special character "@" in it.
 - 4_id is not a valid identifier because the identifier should not start with a digit. 
 - for is invaild because it a reserved word in python. 
@@ -161,9 +175,13 @@ print("9/2")
 - d) 9/2 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is d) 9/2. 
+option d) 9/2. 
 
-**Explanation:** 9/2 is a string here.
+<details><summary> <b>Explanation</b> </summary> 
+  
+> 9/2 is a string here.
+  
+</details>
 </details>
 
 ---
@@ -187,9 +205,13 @@ while i < 7:
      7 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is c) Error. 
+option c) Error. 
 
-**Explanation:** '++' and '--' symbols are not present in python. To incremenet or decrement a value, we can use assignment operators like += and -= respectively.
+<details><summary> <b>Explanation</b> </summary>
+  
+>'++' and '--' symbols are not present in python. To incremenet or decrement a value, we can use assignment operators like += and -= respectively.
+  
+</details>
 </details>
  
 ---
@@ -197,14 +219,15 @@ while i < 7:
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:**  A namespace is a way to provide unique name for each and every object in python. An object can be a variable or a method. There are three types of namespace present in python:
+- A namespace is a way to provide unique name for each and every object in python. An object can be a variable or a method. There are three types of namespace present in python:
 i) **Local Namespace:** the variable names defined in a class, function, loop or in any block of code are comes under local namespace. These variables cannot be accessed by outer Namespace in python. Local namespace can access the global namespace objects and built-in namespace..
 
 ii) **Global Namespace:** the object name that are defined in a main program or in a module comes under global namespace. These are outside any function or block of code. It can access the builtin namespace objects. 
 
 iii) **Built-in Namespace:** it contains the names of built-in methods and variables. It can be a datatype, exceptions and methods like print() & input(). 
 
-Example: 
+**Example**: 
+  
 ```
 def student(name):
     new_name ="rohit"   #local namespace
@@ -221,7 +244,7 @@ output: rohit
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
  
-**Ans:** Operators are the symbol that are used to perform opertions on an operands. An operand is a variable or a value on which operator is applied. 
+- Operators are the symbol that are used to perform opertions on an operands. An operand is a variable or a value on which operator is applied. 
 Types of Operators: 
 - Arithmetic operators :  [+, -, *, /, %, **, //]
 - Assignment operators :  [=, +=, -=, *=, /=, %=, //=, **=] 
@@ -237,7 +260,7 @@ Types of Operators:
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** The first difference b/w both is that, 'is' operator is an Identity operator, whereas '==' is an comparison operator. 'is' operator is used to check whether both operands belongs to same location or not in the memory. On the other hands '==' is used to check whether both the operands have same value or not. 
+The first difference b/w both is that, 'is' operator is an Identity operator, whereas '==' is an comparison operator. 'is' operator is used to check whether both operands belongs to same location or not in the memory. On the other hands '==' is used to check whether both the operands have same value or not. 
   </details>
 
  ---
@@ -251,7 +274,11 @@ Types of Operators:
   
 **Ans:** correct option is c) >>
 
-**Explanation:** >> is a bitwise operator.
+<details><summary> <b>Explanation</b> </summary> 
+    
+> >> is a bitwise operator.
+  
+  </details>
   </details>
 
 ---
@@ -263,9 +290,13 @@ Types of Operators:
 - d) != 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is a) = 
+option a) = 
 
-**Explanation:** option b) and d) are comparison operators and option c) is an identity operator. 
+<details><summary> <b>Explanation</b> </summary> 
+  
+  > option b) and d) are comparison operators and option c) is an identity operator. 
+  
+  </details>
   </details>
 
 ---
@@ -277,9 +308,13 @@ Types of Operators:
 - d) is not 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** Correct options are c) and d).
+options are c) and d).
 
-**Explanation:** is and is not are identity operators.
+<details><summary> <b>Explanation</b> </summary> 
+  
+> is and is not are identity operators.
+  
+  </details>
   </details>
   
 ---
@@ -287,7 +322,7 @@ Types of Operators:
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
  
-**Ans:** Both "and" and "or" are the logical operators which requires two operands and both return True and False after evaluation. The "and" operator returns True when both the operands are True otherwise False, whereas "or" operator returns True if either operand is True and return False when both operands are False. 
+- Both "and" and "or" are the logical operators which requires two operands and both return True and False after evaluation. The "and" operator returns True when both the operands are True otherwise False, whereas "or" operator returns True if either operand is True and return False when both operands are False. 
   </details>
 
 ---
@@ -311,11 +346,15 @@ print(a & b)
 &emsp;0    
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is b). 
+option b) 5  
+       &emsp;1 
 
-**Explanation:** In 1st print statement logical "and" operator is used, which checks if both operand values are non- zero it will return the value of operand mentioned in last i.e 'b=5'. In 2nd print statement bitwise operator '&' is used, which converts the operands values in binary[ in terms of 0 and 1] and compares and returns 1 if both the bits are 1 otherwise 0. So, a=9 in binary is 1001 and b=5 in binary is 0101. therefore after comparing both operand values bit by bit we get final result as 0001 in binary which is equal to 1 in decimal format. Hence the output (b).
+<details><summary> <b>Explanation</b> </summary> 
+  
+> In 1st print statement logical "and" operator is used, which checks if both operand values are non- zero it will return the value of operand mentioned in last i.e 'b=5'. In 2nd print statement bitwise operator '&' is used, which converts the operands values in binary[ in terms of 0 and 1] and compares and returns 1 if both the bits are 1 otherwise 0. So, a=9 in binary is 1001 and b=5 in binary is 0101. therefore after comparing both operand values bit by bit we get final result as 0001 in binary which is equal to 1 in decimal format. Hence the output (b).
+  
   </details>
-
+  </details>
 ---
 23. Which of the below code shows the correct representation of taking integer values as user input in Python3?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
@@ -325,9 +364,13 @@ print(a & b)
 - d) n = int(raw_input())
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is a)
+option a) n = int(input())
 
-**Explanation:** option b) is used to take user input as string values in python. option c) and d) are the functions of Python2.
+<details><summary> <b>Explanation</b> </summary> 
+  
+> option b) is used to take user input as string values in python. option c) and d) are the functions of Python2.
+  
+  </details>
   </details>
 
 ---
@@ -338,7 +381,7 @@ print(a & b)
 - c) #
 - d) <!...> 
  <details><summary> <b>Show Answer</b> </summary>
-**Ans:** correct option is c)
+ option is c)
   </details>
 
 ---
@@ -354,7 +397,7 @@ print(a & b)
 &emsp; this is abc '''
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is d) 
+option is d) 
   </details>
 
 ---
@@ -364,9 +407,13 @@ print(a & b)
 - b) False
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is b) False.
+option is b) False.
 
-**Explanation:** Comments are used to make the code easy to understand. It is not mandatory to use comments while writing program.
+<details><summary> <b>Explanation</b> </summary>
+  
+  > Comments are used to make the code easy to understand. It is not mandatory to use comments while writing program.
+  
+  </details>
   </details>
 
 ---
@@ -374,7 +421,7 @@ print(a & b)
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** Ternary operator are like if-else statements but with a difference, it allows checking a condition in single line only replacing the multiline if-else block in python. 
+Ternary operator are like if-else statements but with a difference, it allows checking a condition in single line only replacing the multiline if-else block in python. 
 
 For example: 
 ```
@@ -399,9 +446,13 @@ print(value)
 - d) 2 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is c) 5.0. 
+option is c) 5.0. 
 
-**Explanation:** According to precedence of operators, Exponent(**) has highest precedence in this expression. After that Multiplication(*), Division(/), Floor division(//) all three have same precedence so, it is evaluated from left to right order in an expression. And at last Addition(+). So 2**3 will evaluate first and gives,'8'. Then 10//8 gives 1 because of floor division. Then 1*3 gives '3' and 4/2 gives '2.0'. Hence the final result will come out as 3+2.0 = 5.0
+<details><summary> <b>Explanation</b> </summary> 
+  
+> According to precedence of operators, Exponent(**) has highest precedence in this expression. After that Multiplication(*), Division(/), Floor division(//) all three have same precedence so, it is evaluated from left to right order in an expression. And at last Addition(+). So 2**3 will evaluate first and gives,'8'. Then 10//8 gives 1 because of floor division. Then 1*3 gives '3' and 4/2 gives '2.0'. Hence the final result will come out as 3+2.0 = 5.0
+  
+  </details>
   </details>
 
 ---
@@ -413,9 +464,13 @@ print(value)
 - d) 'and' is a logical operator. 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is b).
+option is b).
 
-**Explanation:** += is an assignment operator
+<details><summary> <b>Explanation</b> </summary> 
+  
+  > += is an assignment operator
+  
+  </details>
   </details>
 
  ---
@@ -426,15 +481,21 @@ print(value)
 - c) not in
 - d) not 
 <details><summary> <b>Show Answer</b> </summary>
-  
-**Ans:** correct option is c).
 
-**Explanation:** not in is a membership operator in python.
+  option is c).
+
+<details><summary> <b>Explanation</b> </summary> 
+  
+> not in is a membership operator in python.
+  
+  </details>
   </details>
   
 ---
+  
 31. Select the correct expression to reassign a global variable “y” to 30 inside a function reassign() 
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg)
+  
 ```
 y = 50
 def reassign():
@@ -451,12 +512,17 @@ print(y) # it should print 30
 &emsp;y = 30 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** option d) is correct.
+option d) is correct.
 
-**Explanation:** First we have to declare the variable y with global keyword inside the reassign() function, then we can assign the value to y variable. Hence option (d).
+<details><summary> <b>Explanation</b> </summary> 
+  
+> First we have to declare the variable y with global keyword inside the reassign() function, then we can assign the value to y variable. Hence option (d).
+  
+  </details>
   </details>
 
 ---
+  
 32. What is the data type of print(type(5))
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 - a) float
@@ -465,14 +531,19 @@ print(y) # it should print 30
 - d) number 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is c).
+option is c).
 
-**Explanation:** 5 is an integer value in python
+<details><summary> <b>Explanation</b> </summary> 
+  
+> 5 is an integer value in python
+  
   </details>
-
+  </details>
+  
 ---
 33. What is the output of the following code?
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+  
 ```
 x = 50
 def fun1():
@@ -490,10 +561,14 @@ print(x)
 - d) None
  <details><summary> <b>Show Answer</b> </summary>
  
-**Ans:** correct option is b) 
+option is b) 
 
-**Explanation:** fun1() is called first, so the statements that are there in fun1() will executes first and therefore prints the value of x = 25 in first line in console and then prints 50 in new line after comming out of fun1() function. 
-  </details>
+<details><summary> <b>Explanation</b> </summary> 
+  
+> fun1() is called first, so the statements that are there in fun1() will executes first and therefore prints the value of x = 25 in first line in console and then prints 50 in new line after comming out of fun1() function. 
+  
+</details>
+</details>
 
 ---
 34. What will be the output of following code?
@@ -515,7 +590,7 @@ print(x)
 &emsp;76 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is a) 
+option is a) 
 
 **Explanation:** UnboundLocalError: local variable 'x' referenced before assignment.
   </details>
@@ -529,9 +604,13 @@ print(x)
 - d) bool 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is c) char 
+option is c) char 
 
-**Explanation:** In python we can create char by creating a string of length 1. 
+<details><summary> <b>Explanation</b> </summary> 
+  
+> In python we can create char by creating a string of length 1. 
+  
+  </details>
   </details>
   
 ---
@@ -543,9 +622,13 @@ print(x)
 - d) str 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is b) double.
+option is b) double.
 
-**Explanation:** In python, every number with decimal values will comes under float class.
+<details><summary> <b>Explanation</b> </summary> 
+  
+> In python, every number with decimal values will comes under float class.
+  
+  </details>
   </details>
 
 ---
@@ -557,9 +640,13 @@ print(x)
 - d) double 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is c) complex
+option is c) complex
 
-**Explanation:** we can create complex numbers by using complex datatype.
+<details><summary> <b>Explanation</b> </summary> 
+  
+> we can create complex numbers by using complex datatype.
+  
+  </details>
   </details>
 
 ---
@@ -571,9 +658,13 @@ print(x)
 - d) str1 = '"hi"
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is d) str1 = '"hi" 
+option is d) str1 = '"hi" 
 
-**Explanation:** option d) will lead to an SyntaxError.
+<details><summary> <b>Explanation</b> </summary> 
+  
+> option d) will lead to an SyntaxError.
+  
+  </details>
   </details>
 
 ---
@@ -592,9 +683,13 @@ print(x)
 - d) none of the above 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is a) NameError. 
+option is a) NameError. 
 
-**Explanation:** option a) is correct because, in python, it will give a NameError that name "x" is not defined.
+<details><summary> <b>Explanation</b> </summary> 
+  
+> option a) is correct because, in python, it will give a NameError that name "x" is not defined.
+  
+  </details>
   </details>
 
 ---
@@ -606,9 +701,13 @@ print(x)
 - d) len() 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is b) avg() 
+option is b) avg() 
 
-**Explanation:** there is no function with name avg() in python.
+<details><summary> <b>Explanation</b> </summary> 
+  
+> there is no function with name avg() in python.
+  
+  </details>
   </details>
 
 ---
@@ -620,9 +719,13 @@ print(x)
 - d) count()
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is d) count()
+option is d) count()
 
-**Explanation:** there is no function with name count() in python.
+<details><summary> <b>Explanation</b> </summary> 
+  
+> there is no function with name count() in python.
+  
+  </details>
   </details>
 
 ---
@@ -634,9 +737,13 @@ print(x)
 - d) max() 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is d) max() 
+option is d) max() 
 
-**Explanation:** options a), b) and c) are not a built-in function.
+<details><summary> <b>Explanation</b> </summary> 
+  
+> options a), b) and c) are not a built-in function.
+  
+  </details>
   </details>
 
 ---
@@ -658,9 +765,13 @@ print(b)
 - d) Error 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is a)  
+option is a)  
 
-**Explanation:** In the above code, both a and b shares the same memory in python, any change made to a will reflects in b and vise-versa.
+<details><summary> <b>Explanation</b> </summary> 
+  
+> In the above code, both a and b shares the same memory in python, any change made to a will reflects in b and vise-versa.
+  
+  </details>
   </details>
 
 ---
@@ -678,9 +789,13 @@ if x ** 2 > 16 and y+1 < 10:
 - d) Error
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** option a) is correct
+option a) is correct
 
-**Explanation:** In if statement, first condition is false as 16 greater then 16 is false and 2nd condition is true as 6 less then 10 is true. and operator is used between first and second condition therefore the resultant of true and false is false. Hence the print statement inside if block will not executes.
+<details><summary> <b>Explanation</b> </summary> 
+  
+> In if statement, first condition is false as 16 greater then 16 is false and 2nd condition is true as 6 less then 10 is true. and operator is used between first and second condition therefore the resultant of true and false is false. Hence the print statement inside if block will not executes.
+  
+</details>
 </details>
 
 ---
@@ -695,9 +810,13 @@ print(-22//4)
 - d) 6 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is c) -6. 
+option is c) -6. 
  
-**Explanation:** // is a floor division operator, it returns the integer value after division.
+<details><summary> <b>Explanation</b> </summary> 
+  
+> // is a floor division operator, it returns the integer value after division.
+  
+  </details>
 </details>
 
 ---
@@ -705,7 +824,7 @@ print(-22//4)
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:**  Bitwise operators first converts the integer to binary and then performs bit-by-bit operations on it. The final result is returned in decimal format. 
+- Bitwise operators first converts the integer to binary and then performs bit-by-bit operations on it. The final result is returned in decimal format. 
 In python, there are 6 Bitwise operators:
 - '&' - Bitwise AND
 - '|' - Bitwise OR 
@@ -720,7 +839,7 @@ In python, there are 6 Bitwise operators:
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
 
-**Ans:** *Bitwise left shift* operator shifts the bits of the integer number to the left and put 0 on voids right as a result.         
+- *Bitwise left shift* operator shifts the bits of the integer number to the left and put 0 on voids right as a result.         
 For example:    
 x = 4 = 0100 (binary)      
 x << 1 = 1000 = 8   # Here it shifts the bit by 1 on the left side.
@@ -751,9 +870,13 @@ print(b >> 2)
      
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is b) 
+option is b) 
 
-**Explanation:** In both the print statements Bitwise operators are used. In first print statement, bitwise or operator is used which converts values of a and b in binary and returns 1 if either of the bit is 1 else 0. Binary value of 5 is 0101 and binary value of 10 is 1010 so the resultant will be 1111 in binary which is equivalent to 15 in decimal. Therefore 1st print statement prints 15 as output. In 2nd print statement Bitwise right shift operator is used which shifts the bits of a number to the right and fills 0 on voids left. So 1010 is shifted twice to the right as mentioned in print statement and we got the result as 0010 in binary which is equivalent to 2 in decimal. Hence the output 15 and 2.    
+<details><summary> <b>Explanation</b> </summary> 
+  
+> In both the print statements Bitwise operators are used. In first print statement, bitwise or operator is used which converts values of a and b in binary and returns 1 if either of the bit is 1 else 0. Binary value of 5 is 0101 and binary value of 10 is 1010 so the resultant will be 1111 in binary which is equivalent to 15 in decimal. Therefore 1st print statement prints 15 as output. In 2nd print statement Bitwise right shift operator is used which shifts the bits of a number to the right and fills 0 on voids left. So 1010 is shifted twice to the right as mentioned in print statement and we got the result as 0010 in binary which is equivalent to 2 in decimal. Hence the output 15 and 2.    
+  
+  </details>
 </details> 
 
 ---
@@ -770,9 +893,13 @@ print(str1 and str2)
 - d) False 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is c) or
+option is c) or
 
-**Explanation:** Because both the values are true and the "and" operator is used in print(), therefore it prints the value of last variable in output screen that is 'or'.
+<details><summary> <b>Explanation</b> </summary> 
+  
+> Because both the values are true and the "and" operator is used in print(), therefore it prints the value of last variable in output screen that is 'or'.
+  
+  </details>
   </details>
 
 ---
@@ -789,9 +916,13 @@ print(str1 or str2)
 - d) False 
 <details><summary> <b>Show Answer</b> </summary>
  
-**Ans:** correct option is a) and 
+option is a) and 
 
-**Explanation:** Because both the values are true and the "or" operator is used in print(), therefore it prints the value of first variable in output screen that is 'and'.
+<details><summary> <b>Explanation</b> </summary> 
+
+> Because both the values are true and the "or" operator is used in print(), therefore it prints the value of first variable in output screen that is 'and'.
+  
+  </details>
   </details>
 
 ---
@@ -801,9 +932,13 @@ print(str1 or str2)
 - b) False 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** option a) True is correct. 
+ option a) True is correct. 
 
-**Explanation:** In python, division (/) operator returns the float value whereas, floor division (//) operator returns the int value.
+<details><summary> <b>Explanation</b> </summary> 
+  
+> In python, division (/) operator returns the float value whereas, floor division (//) operator returns the int value.
+  
+  </details>
   </details>
 
 ---
@@ -819,9 +954,13 @@ print(x)
 - d) -6.67 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct output is option c) -5.67 
+output is option c) -5.67 
 
-**Explanation:** The operations will be performed based on the precedence of operators. Exponent (**) operator has the highest precedence in this expression, so it evaluates first resulting in 16. After that Multiplication(*), Division(/), Floor division(//) all three have same precedence so, it is evaluated from left to right order in an expression. And at last subtraction(-). So, 20//16 gives 1 and 10*2/3 gives 6.67. At last 1 - 6.67 results in -5.67, hence the answer.
+<details><summary> <b>Explanation</b> </summary> 
+  
+> The operations will be performed based on the precedence of operators. Exponent (**) operator has the highest precedence in this expression, so it evaluates first resulting in 16. After that Multiplication(*), Division(/), Floor division(//) all three have same precedence so, it is evaluated from left to right order in an expression. And at last subtraction(-). So, 20//16 gives 1 and 10*2/3 gives 6.67. At last 1 - 6.67 results in -5.67, hence the answer.
+  
+  </details>
 </details>
 
 ---
@@ -838,9 +977,13 @@ print(y ^ x)
 - d) 0 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is b) 2.
+option is b) 2.
 
-**Explanation:** Bitwise xor operator is used in the print statement that returns 0 if both the bit is 0 or 1 and returns 1 if either of the bit is 1. 6 in binary is 110 and 4 in binary is 100, therefore after doing xor operation the resultant will be 010, which is 2 in decimal. Hence the option b) is correct.
+<details><summary> <b>Explanation</b> </summary> 
+  
+> Bitwise xor operator is used in the print statement that returns 0 if both the bit is 0 or 1 and returns 1 if either of the bit is 1. 6 in binary is 110 and 4 in binary is 100, therefore after doing xor operation the resultant will be 010, which is 2 in decimal. Hence the option b) is correct.
+  
+  </details>
 </details>
 
 ---
@@ -858,7 +1001,8 @@ if (a = b):  # line 2
 - d) No error in the above code.
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is b).
+option is b).
+  
 </details>
 
 ---
@@ -873,9 +1017,13 @@ print(3%6)
 - d) 0.5 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is c) 3
+option is c) 3
 
-**Explanation:** Modules (%) operator gives the remainder of two numbers after division. 
+<details><summary> <b>Explanation</b> </summary> 
+  
+> Modules (%) operator gives the remainder of two numbers after division. 
+  
+  </details>
   </details>
 
 ---
@@ -887,9 +1035,13 @@ print(3%6)
 - d) +
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** option a) is correct.
+  option a) is correct.
 
-**Explanation:** From the given options, multiplication (*) has the highest precedence and not has the lowest precedence. 
+<details><summary> <b>Explanation</b> </summary> 
+  
+> From the given options, multiplication (*) has the highest precedence and not has the lowest precedence. 
+ 
+  </details>
   </details>
 
 ---
@@ -899,7 +1051,8 @@ print(3%6)
 - b) False
  <details><summary> <b>Show Answer</b> </summary>
    
-**Ans:** option b) False.
+option b) False.
+   
   </details>
 
 ---
@@ -916,9 +1069,13 @@ print(a)
 - d) None of the above 
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** option c) is correct. 
+ option c) is correct. 
 
-**Explanation:** In line 2 of the above code, it is invalid to assign the value of b to a at the time of increment.
+<details><summary> <b>Explanation</b> </summary> 
+  
+> In line 2 of the above code, it is invalid to assign the value of b to a at the time of increment.
+  
+  </details>
   </details>
   
 ---
@@ -930,9 +1087,13 @@ print(a)
 - d) ''' this is a sample.'''
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is c)
+option is c)
 
-**Explanation:** option c) is a string, rest all are comments in python.
+<details><summary> <b>Explanation</b> </summary> 
+  
+> option c) is a string, rest all are comments in python.
+  
+  </details>
   </details>
 
 ---
@@ -948,9 +1109,13 @@ print(a)
          print(i)
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is b)
+option is b)
 
-**Explanation:** Semicolon is missing in option a). In option c) in operator is missing. In option d) 'fro' will result in syntax error.
+<details><summary> <b>Explanation</b> </summary> 
+  
+> Semicolon is missing in option a). In option c) in operator is missing. In option d) 'fro' will result in syntax error.
+  
+  </details>
   </details>
 
 ---
