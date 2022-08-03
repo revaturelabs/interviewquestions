@@ -3,7 +3,7 @@
 
 <details><summary><b> Show Answer </b></summary>
  
- Newly introduced Data Time API will be included in the package java.time.
+ Newly introduced Data Time API will be included in the java.time package
 
 </details>
 
@@ -14,14 +14,14 @@
 
 <details><summary><b> Show Answer </b></summary>
  
-- Local DateTime API- Simplified form of date - time API without any complexities.
-- Zoned DateTime API- Special form of date - time API  with varaiations.
+- Local DateTime API - Simplified form of date - time API without any complexities.
+- Zoned DateTime API - Special form of date - time API  with varaiations.
 
 </details>
 
 --- 
 
-3: When do you use Local DateTime API and Zoned DateTime API  in Java 8?
+3: When do you use Local DateTime API and Zoned DateTime API in Java 8?
 
 <details><summary><b> Show Answer </b></summary>
 
@@ -48,9 +48,10 @@
 5: Write the pattern of DateTime using DateTimeFormatter class.
  
 <details><summary><b> Show Answer </b></summary>
- 
-DateTimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");  
 
+```java
+DateTimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");  
+```
 </details>
 
 --- 
@@ -60,9 +61,9 @@ DateTimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
 <details><summary><b> Show Answer </b></summary>
 
 - Period handles date based amount of time . 
-- Example : "3 months and 1 day"
+  - Example : "3 months and 1 day"
 - Duration handles time based amount of time (measured in terms of time).
-- Example : "3 seconds and 3 nanoseconds".
+  - Example : "3 seconds and 3 nanoseconds".
 
 </details>
 
@@ -72,9 +73,10 @@ DateTimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
 
 <details><summary><b> Show Answer </b></summary>
 
+```java
 LocalTime time = LocalTime.now();  
-
- </details>
+```
+</details>
  
  --- 
 
@@ -94,11 +96,13 @@ LocalTime time = LocalTime.now();
 
 <details><summary><b> Show Answer </b></summary>
 
-LocalTime currentTime = LocalTime.now(); <br>
+```java
+LocalTime currentTime = LocalTime.now(); 
 
-LocalDate currentDate = LocalDate.now();<br>
+LocalDate currentDate = LocalDate.now();
 
-LocalDateTime currentDateTime = LocalDateTime.now(); <br>
+LocalDateTime currentDateTime = LocalDateTime.now(); 
+```
 
 </details>
 
@@ -110,7 +114,7 @@ LocalDateTime currentDateTime = LocalDateTime.now(); <br>
 
  ``` java
 
- import java.time.*;    
+import java.time.*;    
 public class LocalDateExample1 {    
   public static void main(String[] args) {    
     LocalDate date = LocalDate.now();   
