@@ -19,9 +19,9 @@
   <i>printing using a 3D printer is a method in the Caltech Physics department</i>, which is a class. Sheldon used the method for research and Howard used the same method for fun.
   </details>
 </details>
+---
 
-2. John got a recipe for cookies from his mother, but john likes choco chips, so he altered the original cookie recipe, 
-   this is an example for?
+2. John got a recipe for cookies from his mother, but john likes choco chips, so he altered the original cookie recipe, this is an example for?
 
 - A.Method Overriding
 - B.Method Overloading
@@ -30,8 +30,8 @@
 
 <details><summary> Show Answer </summary>
   Ans: A
-  explanation: John inherited The original recipe(a method) is  from his mother(parent class) and he altered the recipe.
-   </details>
+  explanation: John inherited the original recipe(a method) from his mother(parent class) and he altered the recipe.
+</details>
 
 ## Technical
 
@@ -53,19 +53,18 @@ public class Languages {
   public String speakGerman() {
     return "Wiedersehen";
   }
-
 }
 ```
-- A.Method Overloading
-- B.Method Overriding
-- C.Inheritance
-- D.None of the above
+- A. Method Overloading
+- B. Method Overriding
+- C. Prints "Guten Tag"
+- D. Compilation Error
 
 
 
 <details><summary> <b>Show Answer</b> </summary>
   
-  **Ans**: D
+  **Ans**: C
   
   **Explanation**: <i>"speakGerman()" method is written twice with different signatures in the same class, So it can not be considered as method overloading. it is just a duplicate method.</i>
   
@@ -93,7 +92,6 @@ public class Languages {
 </details>
 
 4. Which of the following is an example of static binding?
-
 
 
 - A.method overriding
@@ -138,8 +136,7 @@ public class Languages {
   
   **Ans**: Barking!
 
-  **Explanation**: the concept of method overloading is implemented here, In the main method we are calling barkingDog() with a
-  parameter "Barking!". So bakringDog(String a) is implemented.
+  **Explanation**: the concept of method overloading is implemented here, In the main method we are calling barkingDog() with a parameter "Barking!". So bakringDog(String a) is implemented.
 
 </details>
 
@@ -182,7 +179,7 @@ class BusinessTrip extends Vacation{
   
   **Ans**: A
   
-  **Explanation**: the outcome of the program is the compile-time error and it's caused because the method signature for visitLondoon(), which is being overloaded is different in the parent class(Vacation) and Child class(BusinessTrip).
+  **Explanation**: the outcome of the program is the compile-time error and it's caused because the method signature for <code>visitLondoon()</code>, which is being overloaded is different in the parent class(Vacation) and Child class(BusinessTrip).
   
   </details>
 
@@ -214,8 +211,8 @@ public class Area{
 } 
 
 ``` 
-  - A.Compile-time error
-  - B.Run-time error
+  - A.Compile time error
+  - B.Run time error
   - C.1.0
   - D.2
   
