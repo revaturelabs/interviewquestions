@@ -10,6 +10,11 @@
   
 option c) + is correct
   
+<details><summary> <b>Explanation</b> </summary> 
+  
+> The + operator in python can be used to add numbers as well as to concatenate the string. 
+  
+  </details>
 </details>
 
 ---
@@ -23,7 +28,12 @@ option c) + is correct
 <details><summary> <b>Show Answer</b> </summary>
   
 option a) is correct
+
+<details><summary> <b>Explanation</b> </summary> 
+
+> In python, single and double underscore is used to make protected and private variables respectively. 
   
+  </details>
 </details>
 
 ---
