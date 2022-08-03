@@ -14,9 +14,9 @@
 <details> 
       <summary> <b> Show Answer </b></summary>     
       
-- Whenever we run a command in the command prompt, the prompt will check the given executable file presents in the current directory or in our environment variables.
-- When we compile a java program by running `javac MyPrg.java` command in the command prompt, it will look for the java.c file to compile.
-- If we running that command in another directory apart from JDK\bin directory, we'll get **javac is not recognized** error. 
+- Whenever we run any command in the command prompt, the prompt will check for the relevant executable file present in the current directory or in system environment variables.
+- When we compile a java program by running `javac MyPrg.java` command in the command prompt, it will look for the `javac.exe` file to compile.
+- If current directory is not  `C:\Program Files\Java\jdk1.8.0_91\bin` (where javac.exe` present), we'll get **javac is not recognized** error. 
 - One of the way to avoid this error is by setting the java path `C:\ProgramFiles\Java\jdk1.8.0_05\bin` in environment variables. 
 
 </details>
