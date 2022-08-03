@@ -6,9 +6,8 @@ set path = C:\Program Files\Java\jdk1.8.0_91\bin
 <summary> <b> Show Answer </b> </summary> 
       
 - We need tools like javac, java etc., which is inside the JDK/bin directory to compile and run the java programs.
-- Before compiling and running java programs, we need to set the path. 
-      - This informs where JDK packages installed
-- **Note:** We don't need to set the path, if we save the java programs inside JDK\bin directory      
+- Before compiling and running java programs, we need to set the path. This informs where JDK packages installed. 
+- **Note:** We don't need to set the path, if we save the java source file inside JDK\bin directory      
 </details>
 
 ---
