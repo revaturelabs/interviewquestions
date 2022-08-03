@@ -14,22 +14,21 @@
 <details> 
       <summary> <b> Show Answer </b></summary>     
       
-- Whenever we run any command in the command prompt, the prompt will check for the relevant executable file present in the current directory or in system environment variables.
-- When we compile a java program by running `javac MyPrg.java` command in the command prompt, it will look for the `javac.exe` file to compile.
-- If current directory is not  `C:\Program Files\Java\jdk1.8.0_91\bin` (where javac.exe` present), we'll get **javac is not recognized** error. 
+- Whenever we run any command in the terminal, the prompt will check for the relevant executable file present in the current directory or in system environment variables.
+- When we compile a java program by running `javac MyPrg.java` command in the terminal, it will look for the `javac.exe` file to compile.
+- If current directory is not  `C:\Program Files\Java\jdk1.8.0_91\bin` (where `javac.exe` present), we'll get **javac is not recognized** error. 
 - One of the way to avoid this error is by setting the java path `C:\ProgramFiles\Java\jdk1.8.0_05\bin` in environment variables. 
 
 </details>
 
 ---
 
-3: What is classpath?
+3: What is `classpath`?
  <details>
       <summary> <b> Show Answer </b></summary> 
-
-- The class path is the path that is used by java runtime environment to search for classes which are used in the program.
-- It is used to load the class library files and refers the developing environment.
-    </details>
+      
+`classpath` is just a set of paths where the java compiler and the JVM must find needed classes to compile or execute other classes.
+ </details>
 
 ---    
 
@@ -37,8 +36,8 @@
  <details>
       <summary> <b> Show Answer </b></summary> 
 
-- JDK means Java Development Kit that contains JRE and developments tools like compilers and debuggers which are usefull for developing the applications.
-- By the use of compiler the java .java is converted into .class file.
+- JDK stands for **J**ava **D**evelopment **K**it that contains JRE and developments tools like compilers and debuggers which are useful for developing java applications.
+- For instance, JDK contains `javac` i.e., java compiler helps us to compiles java source file `MyPrg.java` and generates the class file `MyPrg.class`.
   
  </details>
 
@@ -63,7 +62,7 @@
 
 ---
 
- 7: why java is platform independent?
+ 7: Why java is platform independent?
  <details>
       <summary><b> Show Answer </b></summary> 
 
@@ -138,8 +137,8 @@ public static void main(String[] args)
       <summary><b> Show Answer </b></summary> 
 
 - The left side class of denotes reference of the object and right side denotes object of which to be created.
-    Eg. B b = new A()
-- B(Reference) can be respected class, abstract class or interface.
+      Eg. <code>B b = new A()</code>
+- B(Reference) can be a class, abstract class or interface.
     </details>
 
 ---
@@ -231,7 +230,7 @@ public static void main(String[] args)
  <details>
       <summary><b> Show Answer </b></summary> 
 
-- When we use wrapper class while using arithmatic operations between two values there will be unboxing and auto boxing.
+- When we use wrapper class while using arithmetic operations between two values there will be unboxing and auto boxing.
 - Unboxing means converting object into primitive datatype and auto boxing means converting primitive into object which also deals with primitives.
 - So, Java is not pure object oriented when we use wrapper class also.
   </details>
