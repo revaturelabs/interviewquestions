@@ -1,28 +1,28 @@
 # Python Basics Questions And Answers
 
-1. Python was developed in which year?
+1. Which operator in python can be used to join two or more string values together?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
-- a) 1990
-- b) 1987
-- c) 1989 
-- d) 1991 
+- a) ==
+- b) +=
+- c) +
+- d) in
 <details><summary> <b>Show Answer</b> </summary>
   
-option c) 1989.
+option c) + is correct
   
 </details>
 
 ---
 
-2. How many keywords are there in Python 3.7?
+2. Why the local variable names beginning with an underscore discouraged in python?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
-- a) 31
-- b) 32
-- c) 37
-- d) 33
+- a) They are used to indicate a private/ protected variables of a class
+- b) Because of readability purpose
+- c) They are used for some method names
+- d) They slow down execution of the program
 <details><summary> <b>Show Answer</b> </summary>
   
-option d) 33 
+option a) is correct
   
 </details>
 
