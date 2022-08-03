@@ -176,7 +176,7 @@ option b) Identifier.
 ---
 13. Predict the output of below code.
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
-```
+```python3
 print("9/2")
 ```
 - a) 4.5
@@ -197,7 +197,7 @@ option d) 9/2.
 ---
 14. What is the output of below code?
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
-```
+```python3
 i = 4
 while i < 7:
        print(i)
@@ -229,7 +229,7 @@ option c) Error.
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
   
-- A namespace is a way to provide unique name for each and every object in python. An object can be a variable or a method. There are three types of namespace present in python:
+- A namespace is a way to provide unique name for each and every object in python. An object can be a variable or a method. There are three types of namespace present in python:  
 i) **Local Namespace:** the variable names defined in a class, function, loop or in any block of code are comes under local namespace. These variables cannot be accessed by outer Namespace in python. Local namespace can access the global namespace objects and built-in namespace..
 
 ii) **Global Namespace:** the object name that are defined in a main program or in a module comes under global namespace. These are outside any function or block of code. It can access the builtin namespace objects. 
@@ -238,7 +238,7 @@ iii) **Built-in Namespace:** it contains the names of built-in methods and varia
 
 **Example**: 
   
-```
+```python3
 def student(name):
     new_name ="rohit"   #local namespace
     return new_name
@@ -286,7 +286,7 @@ The first difference b/w both is that, 'is' operator is an Identity operator, wh
 
 <details><summary> <b>Explanation</b> </summary> 
     
-> >> is a bitwise operator.
+> '>>' is a bitwise operator.
   
   </details>
   </details>
@@ -338,7 +338,7 @@ options are c) and d).
 ---
 22. Predict the output for the below code:
 ![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
-```
+```python3
 a = 9
 b = 5
   
@@ -434,7 +434,7 @@ option is b) False.
 Ternary operator are like if-else statements but with a difference, it allows checking a condition in single line only replacing the multiline if-else block in python. 
 
 For example: 
-```
+```python3
 num1 = 5
 num2 = 8 
 
@@ -446,7 +446,7 @@ print(maximum)  # it returns 8 as output.
 ---
 28. Predict the output of below code:
 ![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
-```
+```python3
 value =  10//2**3*3+4/2
 print(value) 
 ```
@@ -506,7 +506,7 @@ option is b).
 31. Select the correct expression to reassign a global variable “y” to 30 inside a function reassign() 
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg)
   
-```
+```python3
 y = 50
 def reassign():
     # your code to assign global y = 30
@@ -554,7 +554,7 @@ option is c).
 33. What is the output of the following code?
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
   
-```
+```python3
 x = 50
 def fun1():
     x = 25
@@ -583,7 +583,7 @@ option is b)
 ---
 34. What will be the output of following code?
 ![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
-```
+```python3
 x = 75
 def myfunc():
     x = x + 1
@@ -680,7 +680,7 @@ option is d) str1 = '"hi"
 ---
 39. predict the output of following code. 
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
-```
+```python3
 def func1():
     x = 25
     return x
@@ -759,7 +759,7 @@ option is d) max()
 ---
 43. What is the output of following code?
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
-```
+```python3
 a = [1, 2]
 b = a
 b += [3, 4]
@@ -787,7 +787,7 @@ option is a)
 ---
 44. Predict the output of below code.
 ![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
-```
+```python3
 x = 4
 y = 5
 if x ** 2 > 16 and y+1 < 10:
@@ -811,7 +811,7 @@ option a) is correct
 ---
 45. What is the output of below print statement?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
-```
+```python3
 print(-22//4)
 ```
 - a) -5
@@ -851,19 +851,19 @@ In python, there are 6 Bitwise operators:
 
 - *Bitwise left shift* operator shifts the bits of the integer number to the left and put 0 on voids right as a result.         
 For example:    
-x = 4 = 0100 (binary)      
+x = 4 = 0100 (binary)         
 x << 1 = 1000 = 8   # Here it shifts the bit by 1 on the left side.
 <br />
  *Bitwise right shift* operator shifts the bits of integer number to the right and put 0 on voids left as a result.    
 For example:      
-x = 4 = 0100 (binary)     
+x = 4 = 0100 (binary)       
 x >> 1 = 0010 = 2  # Here it shifts the bit by 1 on the right side.     
 </details>  
 
 ---
 48. What is the output of below code?
 ![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
-```
+```python3
 a = 5
 b = 10
 print(a | b)
@@ -892,7 +892,7 @@ option is b)
 ---
 49. Predict the output of the following code.
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
-```
+```python3
 str1 = 'and'
 str2 = 'or'
 print(str1 and str2) 
@@ -915,7 +915,7 @@ option is c) or
 ---
 50. Predict the output of the following code.
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
-```
+```python3
 str1 = 'and'
 str2 = 'or'
 print(str1 or str2) 
@@ -954,7 +954,7 @@ option is a) and
 ---
 52. Predict the output.
 ![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
-```
+```python3
 x = 20//4**2-10*2/ 3
 print(x)
 ```
@@ -976,7 +976,7 @@ output is option c) -5.67
 ---
 53. What is the output of below mentioned code?
 ![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
-```
+```python3
 x = 6
 y = 4
 print(y ^ x)
@@ -999,7 +999,7 @@ option is b) 2.
 ---
 54. Choose the correct option, for the below code, that will not lead to any error.
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
-```
+```python3
 a, b = 1   # line 1
 if (a = b):  # line 2
     c= a+b   # line 3 
@@ -1018,7 +1018,7 @@ option is b).
 ---
 55. What is the output of below print statement?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
-```
+```python3
 print(3%6) 
 ```
 - a) 2
@@ -1068,7 +1068,7 @@ option b) False.
 ---
 58. What is the output of the following code?
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
-```
+```python3
 b = 8
 a = b += 3
 print(a)
@@ -1109,14 +1109,14 @@ option is c)
 ---
 60. Which of the following code will not lead to SyntaxError in python?
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
-- a) for i in range(4)
-         print(i) 
-- b) for i in range(4):
-         print(i) 
-- c) for i range(4):
-         print(i) 
-- d) fro i in range(4):
-         print(i)
+- a) for i in range(4)     
+&emsp;&emsp;print(i) 
+- b) for i in range(4):     
+&emsp;&emsp;print(i) 
+- c) for i range(4):     
+&emsp;&emsp;print(i) 
+- d) fro i in range(4):   
+&emsp;&emsp;print(i)
 <details><summary> <b>Show Answer</b> </summary>
   
 option is b)
