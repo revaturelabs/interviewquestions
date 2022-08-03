@@ -2,7 +2,7 @@
 
 1. Physics Department in Caltech got a new 3D printer, Sheldon used the printer for printing prototypes for his hadron collider. Howard used the printer to print his mini action figure. this is an example for?
 
-   ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+  
 
 - A.Polymorphism
 - B.Inheritance
@@ -18,7 +18,7 @@
 </details>
 
 2. John got a recipe for cookies from his mother, but john likes choco chips, so he altered the original cookie recipe, 
-   this is an example for?![HARD](hard.jpg)
+   this is an example for?
 
 - A.Method Overriding
 - B.Method Overloading
@@ -34,7 +34,7 @@
 
 1. The following code snippet is an example for?
 
-     ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+  
 
 
 ``` java
@@ -70,7 +70,6 @@ public class Languages {
 
 2. What is static polymorphism?
 
-    ![HARD](hard.jpg)
 
 
 
@@ -83,7 +82,6 @@ public class Languages {
 
 3. What is Dynamic polymorphism?
 
-    ![HARD](hard.jpg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -93,7 +91,7 @@ public class Languages {
 
 4. Which of the following is an example of static binding?
 
-   ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+
 
 - A.method overriding
 - B.method overloading
@@ -114,7 +112,7 @@ public class Languages {
 
 1. What is the output of the following java code?
 
-    ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+
 ``` java
   class Animal {
         
@@ -148,7 +146,7 @@ public class Languages {
 
 1. Predict the output of the program and debug the program.  
 
-    ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg)       
+        
 
 ``` java
 public class Vacation{
@@ -188,7 +186,7 @@ class BusinessTrip extends Vacation{
 
   2. Find the error in the following program.  
 
-  ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg)  
+  
 
 
 ``` java
