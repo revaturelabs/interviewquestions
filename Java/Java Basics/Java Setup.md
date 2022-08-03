@@ -10,14 +10,13 @@
 
 ---
 
-2: What is the neccessary to set path in Enviornmental variable for java?
-<details>
-      <summary> <b> Show Answer </b></summary>       
+2: Why do we need to set environment variable for java?
+<details> <summary> <b> Show Answer </b></summary>       
+- Whenever we run a command in the command prompt, the prompt will check the given executable file presents in the current directory or in our environment variables.
+- When we compile a java program by running `javac MyPrg.java` command in the command prompt, it will look for the java.c file to compile.
+- If we running that command in another directory apart from JDK\bin directory, we'll get **javac is not recognized** error. 
+- One of the way to avoid this error is by setting the java path `C:\ProgramFiles\Java\jdk1.8.0_05\bin` in environment variables. 
 
-- If we execute a command in command prompt, it will check the given executable file in command presents in the folder or in the operating system.
-- If the command is not present in current folder, it will check with the Operating system.
-- If we set the path in Environmental variable, it will consider as setting the file in os.
-- While executing the code it will find the path from os.
     </details>
 
 ---
