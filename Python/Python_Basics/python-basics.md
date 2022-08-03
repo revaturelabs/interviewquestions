@@ -357,7 +357,7 @@ print(a & b)
 <details><summary> <b>Show Answer</b> </summary>
   
 option b) 5  
-       &emsp;1 
+ &emsp; &emsp;1 
 
 <details><summary> <b>Explanation</b> </summary> 
   
@@ -365,6 +365,7 @@ option b) 5
   
   </details>
   </details>
+  
 ---
 23. Which of the below code shows the correct representation of taking integer values as user input in Python3?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
@@ -381,7 +382,7 @@ option a) n = int(input())
 > option b) is used to take user input as string values in python. option c) and d) are the functions of Python2.
   
   </details>
-  </details>
+</details>
 
 ---
 24. Which of the following is the correct way for single line comment in python?
