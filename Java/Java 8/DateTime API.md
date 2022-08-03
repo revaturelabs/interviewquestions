@@ -3,7 +3,7 @@
 
 <details><summary><b> Show Answer </b></summary>
  
- Newly introduced Data Time API will be included in the java.time package
+ Newly introduced Data Time API will be included in the <code>java.time </code> package
 
 </details>
 
@@ -60,9 +60,9 @@ DateTimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
 
 <details><summary><b> Show Answer </b></summary>
 
-- Period handles date based amount of time . 
+ - <code>Period</code> handles date based amount of time . 
   - Example : "3 months and 1 day"
-- Duration handles time based amount of time (measured in terms of time).
+ - <code> Duration </code>handles time based amount of time (measured in terms of time).
   - Example : "3 seconds and 3 nanoseconds".
 
 </details>
@@ -126,7 +126,7 @@ public class LocalDateExample1 {
 
 <details><summary><b> Show Answer </b></summary>
 
-LocalDate class resides in java.time package and the factory method now() will display the current date. 
+<code>LocalDate</code> class resides in <code>java.time</code> package and the factory method <code>now()</code> will display the current date. 
 
 </details>
 
