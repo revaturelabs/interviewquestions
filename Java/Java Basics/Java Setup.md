@@ -1,6 +1,8 @@
-1: Why do we need to set the path for java? `set path = C:\Program Files\Java\jdk1.8.0_91\bin`
+1: Why do we need to set the path for java? 
+`set path = C:\Program Files\Java\jdk1.8.0_91\bin`
 <details>
 <summary> <b> Show Answer </b> </summary> 
+      
 - We need tools like javac, java, etc., which are located in the JDK/bin directory to compile and run java programs.
 - Before compiling and running a java program, we need to set the path. This informs where JDK packages are installed.
 - **Note:** We don't need to set the path if we save the java source file inside the JDK\bin directory
