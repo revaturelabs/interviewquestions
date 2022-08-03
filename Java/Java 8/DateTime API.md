@@ -25,8 +25,8 @@
 
 <details><summary><b> Show Answer </b></summary>
 
-- It can be used when there is no need for time zones.
-- It can be used when we need to consider time zones.
+- Local DateTime API - It can be used when there is no need for time zones.
+- Zoned DateTime API - It can be used when we need to consider time zones.
 
 </details>
 
