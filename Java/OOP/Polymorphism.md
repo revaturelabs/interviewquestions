@@ -12,9 +12,12 @@
 </details>
 <details><summary> <b>Show Answer</b> </summary>
   
-  **Ans**: A
+  A
+  <details><summary> <b>Explanation</b> </summary>
+  Consider printer is a class, printing is a methods, Sheldon and Howard using the same printer but for printing different docs.. this underlines the priniple of polymoriphsm
   
-  **Explanation**: <i>printing using a 3D printer is a method in the Caltech Physics department</i>, which is a class. Sheldon used the method for research and Howard used the same method for fun.
+  <i>printing using a 3D printer is a method in the Caltech Physics department</i>, which is a class. Sheldon used the method for research and Howard used the same method for fun.
+  </details>
 </details>
 
 2. John got a recipe for cookies from his mother, but john likes choco chips, so he altered the original cookie recipe, 
