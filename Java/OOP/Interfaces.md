@@ -78,6 +78,9 @@ A
   </details>
 </details>
 
+5. what are the advantages of using default methods in an interface?
+
+
 
 
 ## Error Detection
