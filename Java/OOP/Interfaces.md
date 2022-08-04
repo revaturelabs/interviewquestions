@@ -40,8 +40,10 @@
 3. Is it possible to create an Object for Interface?
 
 <details>
+<summary>Show Answer</summary>  
 <b>Ans:</b> No 
 <details>
+  
   <summary><b>Explanation:</b></summary> 
     
 >	Interfaces contain abstract methods , Which means only method declerations are present but not implementation, so there is no purpose of an Object, But one can create an Object for a class that implements Interface and reference it to the Interface. 
