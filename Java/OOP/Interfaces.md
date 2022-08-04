@@ -12,7 +12,14 @@
 
 <b>Ans:</b> A
   
-<b>Explanation</b>: All the methods in an interface are public by default and It is not possible to alter the access modifier while overriding the method.
+<details>
+  
+<summary><b>Explanation</b>:</summary>
+  
+> All the methods in an interface are public by default and It is not possible to alter the access modifier while overriding the method.
+    
+</details>
+  
 </details>
 
 2. What is Marker Interface?
@@ -21,7 +28,7 @@
 <summary>Show Answer</summary>
 
 <b>Ans:</b> A
-  <details>
+ <details>
   <summary><b>Explanation:</b></summary> 
     
 >	Marker Interfaces are empty Interfaces (no fields or methods).
