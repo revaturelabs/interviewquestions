@@ -5,7 +5,8 @@
 <details><summary> <b>Show Answer</b> </summary> 
   
 - Object-Oriented Programming refers to the programming style related with classes and objects. Here the object is a real world entity and a class is a blueprint to that object. For example, we can consider a 'car' as a class and maruti suzuki or honda as an object. 
-Python is a OOP language, so it supports all OOPs concepts such as Polymorphism, Inheritance, Encapsulation and Abstraction. Polymorphism in python defines method in child class have same name as method in parent class. Inheritance means the child class can inherits the properties from its parent class. Encapsulation is wrapping up of data and member functions together in same unit. And finally abstraction means hiding the irrelevent data from user showing only the important part or functionality. 
+
+- Python is a OOP language, so it supports all OOPs concepts such as Polymorphism, Inheritance, Encapsulation and Abstraction. Polymorphism in python defines method in child class have same name as method in parent class. Inheritance means the child class can inherits the properties from its parent class. Encapsulation is wrapping up of data and member functions together in same unit. And finally abstraction means hiding the irrelevent data from user showing only the important part or functionality. 
 </details>
 
 ---
