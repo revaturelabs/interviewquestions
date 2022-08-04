@@ -22,6 +22,8 @@
   
 </details>
 
+---
+
 2. What is Marker Interface?
 
 <details>
@@ -37,6 +39,8 @@
   </details>
 </details>
 
+---
+
 3. Is it possible to create an Object for Interface?
 
 <details>
@@ -50,6 +54,8 @@
 
   </details>
 </details>
+
+---
 
 
 
