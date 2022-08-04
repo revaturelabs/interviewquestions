@@ -1,9 +1,9 @@
 
 <details>
 
-  <summary>***Show Answer*** </summary>
+  <summary><b>Show Answer</b> </summary>
   
-  <details> <summary>***Explanation***</summary>
+  <details> <summary><b>Explanation</b></summary>
     
     > 
   </details>
