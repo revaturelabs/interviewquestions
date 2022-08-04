@@ -536,6 +536,7 @@ Correct option is c)
   </details>
 </details>
 
+---
 27. How many objects and reference variables are there for the given python program?
 ```python3
 class Student():
