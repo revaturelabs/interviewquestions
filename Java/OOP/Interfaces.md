@@ -55,9 +55,9 @@ A
   </details>
 </details>
 
------
+---
 
-4. What methods can be created in Interface?
+4. What methods can be created in an Interface?
 
 - A.abstract
 - B.static
@@ -71,7 +71,9 @@ A
   
   <summary>Explanation</summary> 
     
->	 
+>	 Interface is used to implement abstraction, so abstract methods are allowed in an Interface.
+> Default methods are allowed to avoid the issue of madatory implementation of all methods in an Interface.
+> static methods are gerneraly used to create elper methods, static methods are referenced to the interface, rather than the class that implements the interface.
 
   </details>
 </details>
@@ -83,6 +85,8 @@ A
 1. What is the output of the following code?
 
 ``` java
+
+
 
 ```
 
