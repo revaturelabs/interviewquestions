@@ -14,7 +14,7 @@
   
 <details>
   
-<summary><b>Explanation</b>:</summary>
+<summary>Explanation</summary>
   
 > All the methods in an interface are public by default and It is not possible to alter the access modifier while overriding the method.
     
@@ -31,7 +31,7 @@
 
 <b>Ans:</b> A
  <details>
-  <summary><b>Explanation:</b></summary> 
+  <summary>Explanation</summary> 
     
 >	Marker Interfaces are empty Interfaces (no fields or methods).
 > Marker interfaces are used to pass the information to JVM that a certain object of a class can implement methods like Serializable, Cloneable etc.
