@@ -81,6 +81,15 @@ A
 5. what are the advantages of using default methods in an interface?
 
 
+<details>
+
+  <summary><b>Show Answer</b> </summary>    
+    
+
+   </details>
+
+
+
 
 
 ## Error Detection
