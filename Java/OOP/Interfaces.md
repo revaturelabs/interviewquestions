@@ -8,9 +8,9 @@
 - D.default
 
 <details>
-<summary>Show Answer</summary>
+<summary><b>Show Answer</b></summary>
 
-<b>Ans:</b> A
+A
   
 <details>
   
@@ -27,9 +27,9 @@
 2. What is Marker Interface?
 
 <details>
-<summary>Show Answer</summary>
+  <summary><b>Show Answer</b></summary>
 
-<b>Ans:</b> A
+ A
  <details>
   <summary>Explanation</summary> 
     
@@ -44,8 +44,8 @@
 3. Is it possible to create an Object for Interface?
 
 <details>
-<summary>Show Answer</summary>  
-<b>Ans:</b> No 
+<summary><b>Show Answer</b></summary>  
+ No 
 <details>
   
   <summary>Explanation</summary> 
@@ -57,7 +57,32 @@
 
 ---
 
-4. 
+4. What are the different types of methods can an Interface have?
+
+- A.abstract
+- B.static
+- C.Default
+- D. All the above
+
+<details>
+<summary><b>Show Answer</b></summary>  
+ D
+<details>
+  
+  <summary>Explanation</summary> 
+    
+>	 
+
+  </details>
+</details>
+
+
+
+## Error Detection
+
+1. What is the output of the following code?
+
+
 
 
 
