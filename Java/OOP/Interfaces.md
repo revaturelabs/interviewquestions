@@ -57,7 +57,7 @@ A
 
 ---
 
-4. What are the different types of methods can an Interface have?
+4. What methods can be created in Interface?
 
 - A.abstract
 - B.static
