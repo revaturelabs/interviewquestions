@@ -55,7 +55,7 @@ A
   </details>
 </details>
 
----
+-----
 
 4. What methods can be created in Interface?
 
