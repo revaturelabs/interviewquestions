@@ -139,61 +139,61 @@ Python offers some key features that makes it different from other programming l
 ![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
 <details><summary> <b>Show Answer</b> </summary>
   
-Python is an Interpreted language because it checks the code line by line not all together. For example suppose there are 2 errors in your code one in line 3 and other one in line 4. When you run the code it will only throw error for line 3 in console( output screen) but not  for line 4. The reason behind it is that it checks the code one line at a time. 
+Python is an Interpreted language because it checks the code line by line and not all together. For example, suppose there are 2 errors in the code, one in line 3 and other in line 4. When you execute the code, it will throw error in line 3 of console( output screen) but not in line 4,beacause it checks the code one line at a time. 
 </details>
 
 ---
-11. Is "true" an Identifier or Keyword?
+11. Is "true" an Identifier or a Keyword?
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
-- a) Keyword
-- b) Identifier
-- c) both a and b
-- d) None of the above.
+a) Keyword
+b) Identifier
+c) both a and b
+d) None of the above.
 <details><summary> <b>Show Answer</b> </summary>
   
 option b) Identifier. 
 
 <details><summary> <b>Explanation</b> </summary> 
     
-> True is a keyword, whereas true with first letter in lower case is an Identifier. 
+> True is a keyword, whereas true with first letter as lower case is an Identifier. 
   
 </details>
 </details>
 
 ---
-12. Point out whether the identifiers mentioned in a list are valid or not: [Last_Name, student@id, 4_id, var, for]. 
+12. State whether the identifiers mentioned in the below list are valid. [Last_Name, student@id, 4_id, var, for]. 
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
   
 - Last_Name and var are the only valid identifiers from the above list. 
 - student@id is not a valid identifier because it has a special character "@" in it.
 - 4_id is not a valid identifier because the identifier should not start with a digit. 
-- for is invaild because it a reserved word in python. 
+- for is invaild because it is a reserved word in python. 
 </details>
 
 ---
-13. Predict the output of below code.
+13. Predict the output of the following code.
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 ```python3
 print("9/2")
 ```
-- a) 4.5
-- b) 4.0
-- c) 4 
-- d) 9/2 
+a) 4.5
+b) 4.0
+c) 4 
+d) 9/2 
 <details><summary> <b>Show Answer</b> </summary>
   
 option d) 9/2. 
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> 9/2 is a string here.
+> 9/2 is a string here as it is embedded in double quotes.
   
 </details>
 </details>
 
 ---
-14. What is the output of below code?
+14. What is the output of the following code?
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 ```python3
 i = 4
@@ -204,13 +204,13 @@ while i < 7:
        break
 ``` 
 
-- a) 4 
-     6 
-- b) 4 
-     7 
-- c) Error
-- d) 5 
-     7 
+a) 4 
+   6 
+b) 4 
+   7 
+c) Error
+d) 5 
+   7 
 <details><summary> <b>Show Answer</b> </summary>
   
 option c) Error. 
@@ -223,16 +223,16 @@ option c) Error.
 </details>
  
 ---
-15. Define Namespace, explain the types of namespaces in python. 
+15. Define Namespace and explain the types of namespaces in python. 
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
   
-- A namespace is a way to provide unique name for each and every object in python. An object can be a variable or a method. There are three types of namespace present in python:  
-i) **Local Namespace:** the variable names defined in a class, function, loop or in any block of code are comes under local namespace. These variables cannot be accessed by outer Namespace in python. Local namespace can access the global namespace objects and built-in namespace..
+A namespace is a way to provide unique name for each and every object in python. An object can be a variable or a method. There are three types of namespace present in python:  
+i) **Local Namespace:** the variable names defined in a class, function, loop or in any block of code comes under local namespace. These variables cannot be accessed by outer Namespace in python. Local namespace can access the global namespace objects and built-in namespace.
 
 ii) **Global Namespace:** the object name that are defined in a main program or in a module comes under global namespace. These are outside any function or block of code. It can access the builtin namespace objects. 
 
-iii) **Built-in Namespace:** it contains the names of built-in methods and variables. It can be a datatype, exceptions and methods like print() & input(). 
+iii) **Built-in Namespace:** it contains the names of built-in methods and variables. It can be a datatype, exceptions or methods like print() & input(). 
 
 **Example**: 
   
@@ -248,11 +248,11 @@ output: rohit
 </details>
 
 ---
-16. What is the use of Operators in Python & what are its types? 
+16. What are Operators in Python & what are its types? 
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
  
-- Operators are the symbol that are used to perform opertions on an operands. An operand is a variable or a value on which operator is applied. 
+Operators are the symbols used to perform opertions on operands. An operand is a variable or a value on which operator is applied. 
 Types of Operators: 
 - Arithmetic operators :  [+, -, *, /, %, **, //]
 - Assignment operators :  [=, +=, -=, *=, /=, %=, //=, **=] 
@@ -264,11 +264,12 @@ Types of Operators:
   </details>
 
   ---
-17. What is the difference b/w "is" and "==" in python?
+17. What is the difference between "is" and "==" in python?
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
   
-The first difference b/w both is that, 'is' operator is an Identity operator, whereas '==' is an comparison operator. 'is' operator is used to check whether both operands belongs to same location or not in the memory. On the other hands '==' is used to check whether both the operands have same value or not. 
+'is' operator is an Identity operator, whereas '==' is a comparison operator. 
+'is' operator is used to check whether both operands belongs to same location in the memory. On the other hand, '==' is used to check whether both the operands have same value. 
   </details>
 
  ---
