@@ -641,7 +641,7 @@ d) 'and' is a logical operator.
 
  ---
   
-30. Which of the following is not a logical operator?
+30.Which of the following is not a logical operator?
   
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
   
@@ -759,9 +759,12 @@ option is b)
 </details>
 
 ---
+  
 34.What will be the output of following code?
+  
 ![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
-```python3
+  
+```python
 x = 75
 def myfunc():
     x = x + 1
@@ -770,17 +773,25 @@ def myfunc():
 myfunc()
 print(x)
 ```
-a) Error 
+  
+a) Error
+  
 b) 76 
+  
 c) 76  
 &emsp;75
+  
 d) 76  
 &emsp;76 
+  
 <details><summary> <b>Show Answer</b> </summary>
   
-option is a) 
+> Option is a) 
 
-**Explanation:** UnboundLocalError: local variable 'x' is referenced before assignment.
+<details><summary> <b>Explanation</b> </summary>
+  
+> UnboundLocalError: local variable 'x' is referenced before assignment.
+  
   </details>
 
 ---
@@ -814,13 +825,13 @@ d) bool
   
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
   
-a)bool
+a) bool
   
-b)double
+b) double
   
-c)float 
+c) float 
   
-d)str 
+d) str 
   
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -1461,18 +1472,25 @@ print(a)
 
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 
- a) for i in range(4)     
-&emsp;&emsp;print(i) 
-
- b) for i in range(4):     
-&emsp;&emsp;print(i) 
-
- c) for i range(4):     
-&emsp;&emsp;print(i) 
-
- d) fro i in range(4):   
-&emsp;&emsp;print(i)
-
+ a) ```python  
+   for i in range(4)     
+   &emsp;&emsp;print(i) 
+   ```
+  
+ b)```python 
+  for i in range(4):     
+  &emsp;&emsp;print(i) 
+  ```
+ c)```python    
+  for i range(4):     
+  &emsp;&emsp;print(i) 
+  ```
+  
+ d)```python
+  fro i in range(4):   
+  &emsp;&emsp;print(i)
+  ```
+  
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option is b)
