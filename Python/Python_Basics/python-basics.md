@@ -2,9 +2,10 @@
 
 1. Which operator in python can be used to combine two or more string values together?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
-a) ==
-b) +=
-c) +
+
+a) == <br>
+b) +=<br>
+c) +<br>
 d) in
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -21,9 +22,10 @@ option c) + is correct
 
 2. Why local variable names beginning with an underscore discouraged in python?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
-a) They are used to indicate a private/ protected variables of a class
-b) Because of readability purpose
-c) They are used for some method names
+
+a) They are used to indicate a private/ protected variables of a class <br>
+b) Because of readability purpose<br>
+c) They are used for some method names<br>
 d) They slow down execution of the program
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -62,9 +64,10 @@ For Example:  first_name, _rollNo, id_1, etc.
 ---
 5. Which of the following statement is false regarding Identifiers? 
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
-a) Variable name can have lower and upper case letters.
-b) Identifier should start with a character or a number. 
-c) A digit(0-9) can be placed at any position except at the starting. 
+
+a) Variable name can have lower and upper case letters.<br>
+b) Identifier should start with a character or a number. <br>
+c) A digit(0-9) can be placed at any position except at the starting. <br>
 d) No special characters(@,!,#,$,%,&) are allowed other than underscore. 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -80,9 +83,10 @@ Option b) Identifier should start with a character or a number.
 ---
 6. Which of the following is not a feature of Python?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
-a) Easy to learn
-b) Platform independent 
-c) Dynamically Typed
+
+a) Easy to learn<br>
+b) Platform independent <br>
+c) Dynamically Typed<br>
 d) mid-level language
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -99,9 +103,10 @@ option d) mid-level language.
 
 7. Which of the following is the correct extension of python file?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
-a) .py
-b) .python
-c) .cpp
+
+a) .py<br>
+b) .python<br>
+c) .cpp<br>
 d) none of the above
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -145,9 +150,10 @@ Python is an Interpreted language because it checks the code line by line and no
 ---
 11. Is "true" an Identifier or a Keyword?
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
-a) Keyword
-b) Identifier
-c) both a and b
+
+a) Keyword<br>
+b) Identifier<br>
+c) both a and b<br>
 d) None of the above.
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -177,9 +183,9 @@ option b) Identifier.
 ```python3
 print("9/2")
 ```
-a) 4.5
-b) 4.0
-c) 4 
+a) 4.5<br>
+b) 4.0<br>
+c) 4 <br>
 d) 9/2 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -205,10 +211,10 @@ while i < 7:
 ``` 
 
 a) 4 
-   6 
+   6 <br>
 b) 4 
-   7 
-c) Error
+   7 <br>
+c) Error <br>
 d) 5 
    7 
 <details><summary> <b>Show Answer</b> </summary>
@@ -275,9 +281,10 @@ Types of Operators:
  ---
 18. Which of the following is not a comparison operator?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
-a) ==
-b) >
-c) >> 
+  
+a) ==<br>
+b) ><br>
+c) >> <br>
 d) <= 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -624,8 +631,9 @@ option is c) char
   </details>
   
 ---
-36. Which is not a datatype in python?
+36. Which of the follwing is not a datatype in python?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+  
 - a) bool
 - b) double
 - c) float 
@@ -642,7 +650,7 @@ option is b) double.
   </details>
 
 ---
-37. Which is a datatype in python?
+37. Which of the following is a datatype in python?
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 - a) number
 - b) char
@@ -654,13 +662,13 @@ option is c) complex
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> we can create complex numbers by using complex datatype.
+> We can create complex numbers by using complex datatype.
   
   </details>
   </details>
 
 ---
-38. Which of the following is not a correct way of making string in python?
+38. Which of the following is not a correct way of creating a string in python?
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 - a) str1 = "hi"
 - b) str1 = 'hi'
@@ -678,7 +686,7 @@ option is d) str1 = '"hi"
   </details>
 
 ---
-39. predict the output of following code. 
+39. Predict the output of following code. 
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 ```python3
 def func1():
@@ -697,7 +705,7 @@ option is a) NameError.
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> option a) is correct because, in python, it will give a NameError that name "x" is not defined.
+> option a) is correct because, in python, it will give a NameError as name "x" is not defined.
   
   </details>
   </details>
@@ -715,7 +723,7 @@ option is b) avg()
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> there is no function with name avg() in python.
+> There is no function with name avg() in python.
   
   </details>
   </details>
@@ -779,13 +787,13 @@ option is a)
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> In the above code, both a and b shares the same memory in python, any change made to a will reflects in b and vise-versa.
+> In the above code, both a and b shares the same memory in python, any change made to 'a' will reflect in 'b' and vise-versa.
   
   </details>
   </details>
 
 ---
-44. Predict the output of below code.
+44. Predict the output of the following code.
 ![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
 ```python3
 x = 4
@@ -803,13 +811,13 @@ option a) is correct
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> In if statement, first condition is false as 16 greater then 16 is false and 2nd condition is true as 6 less then 10 is true. and operator is used between first and second condition therefore the resultant of true and false is false. Hence the print statement inside if block will not executes.
+> In if statement, first condition is false as 2 greater then 16 is false and the second condition is true as 6 less then 10 is true. Operator is used between first and second condition therefore the resultant of true and false is false. Hence the print statement inside if block will not executes.
   
 </details>
 </details>
 
 ---
-45. What is the output of below print statement?
+45. What is the output of the following print statement?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 ```python3
 print(-22//4)
@@ -824,7 +832,7 @@ option is c) -6.
  
 <details><summary> <b>Explanation</b> </summary> 
   
-> // is a floor division operator, it returns the integer value after division.
+> // is a floor division operator and it returns the integer value after division.
   
   </details>
 </details>
@@ -834,7 +842,7 @@ option is c) -6.
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
   
-- Bitwise operators first converts the integer to binary and then performs bit-by-bit operations on it. The final result is returned in decimal format. 
+Bitwise operators first converts the integer to binary and then performs bit-by-bit operations on it. The final result is returned in decimal format. 
 In python, there are 6 Bitwise operators:
 - '&' - Bitwise AND
 - '|' - Bitwise OR 
@@ -861,7 +869,7 @@ x >> 1 = 0010 = 2  # Here it shifts the bit by 1 on the right side.
 </details>  
 
 ---
-48. What is the output of below code?
+48. What is the output of the following code?
 ![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
 ```python3
 a = 5
@@ -884,7 +892,7 @@ option is b)
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> In both the print statements Bitwise operators are used. In first print statement, bitwise or operator is used which converts values of a and b in binary and returns 1 if either of the bit is 1 else 0. Binary value of 5 is 0101 and binary value of 10 is 1010 so the resultant will be 1111 in binary which is equivalent to 15 in decimal. Therefore 1st print statement prints 15 as output. In 2nd print statement Bitwise right shift operator is used which shifts the bits of a number to the right and fills 0 on voids left. So 1010 is shifted twice to the right as mentioned in print statement and we got the result as 0010 in binary which is equivalent to 2 in decimal. Hence the output 15 and 2.    
+> In both the print statements, Bitwise operators are used. In the first print statement, bitwise 'or' operator is used which converts values of 'a' and 'b' in binary and returns 1 if either of the bit is 1 or else 0. Binary value of 5 is 0101 and binary value of 10 is 1010, so the resultant will be 1111 in binary which is equivalent to 15 in decimal. Therefore, first print statement prints 15 as output. In the second print statement, Bitwise 'right' shift operator is used which shifts the bits of a number to the right and fills 0 on voids left. So 1010 is shifted twice to the right as mentioned in print statement and we got the result as 0010 in binary which is equivalent to 2 in decimal. Hence, the output 15 and 2.    
   
   </details>
 </details> 
@@ -930,13 +938,13 @@ option is a) and
 
 <details><summary> <b>Explanation</b> </summary> 
 
-> Because both the values are true and the "or" operator is used in print(), therefore it prints the value of first variable in output screen that is 'and'.
+> Because both the values are true and the "or" operator is used in print(), therefore it prints the value of first variable in output screen as 'and'.
   
   </details>
   </details>
 
 ---
-51. State True or False: "the result of a division operator(/), is always float value".
+51. State True or False: "The result of a division operator(/), is always float value".
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 - a) True
 - b) False 
@@ -968,7 +976,7 @@ output is option c) -5.67
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> The operations will be performed based on the precedence of operators. Exponent (**) operator has the highest precedence in this expression, so it evaluates first resulting in 16. After that Multiplication(*), Division(/), Floor division(//) all three have same precedence so, it is evaluated from left to right order in an expression. And at last subtraction(-). So, 20//16 gives 1 and 10*2/3 gives 6.67. At last 1 - 6.67 results in -5.67, hence the answer.
+> The operations will be performed based on the precedence of operators. Exponent (**) operator has the highest precedence in this expression, so it evaluates first resulting in 16. After that Multiplication(*), Division(/), Floor division(//) all three have same precedence, so, it is evaluated from left to right order in an expression and finally subtraction(-). So, 20//16 gives 1 and 10*2/3 gives 6.67. At last, 1 - 6.67 results in -5.67, hence the answer.
   
   </details>
 </details>
@@ -991,13 +999,13 @@ option is b) 2.
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> Bitwise xor operator is used in the print statement that returns 0 if both the bit is 0 or 1 and returns 1 if either of the bit is 1. 6 in binary is 110 and 4 in binary is 100, therefore after doing xor operation the resultant will be 010, which is 2 in decimal. Hence the option b) is correct.
+> Bitwise 'xor' operator is used in the print statement that returns 0 if both the bit is 0 or 1 and returns 1 if either of the bit is 1. 6 in binary is 110 and 4 in binary is 100, therefore, after doing xor operation the resultant will be 010, which is 2 in decimal. Hence the option b) is correct.
   
   </details>
 </details>
 
 ---
-54. Choose the correct option, for the below code, that will not lead to any error.
+54. Choose the correct option, for the following code, that will not lead to any error.
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 ```python3
 a, b = 1   # line 1
@@ -1016,7 +1024,7 @@ option is b).
 </details>
 
 ---
-55. What is the output of below print statement?
+55. What is the output of the following print statement?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 ```python3
 print(3%6) 
@@ -1049,7 +1057,7 @@ option is c) 3
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> From the given options, multiplication (*) has the highest precedence and not has the lowest precedence. 
+> From the given options, multiplication (*) has the highest precedence and 'not' has the lowest precedence. 
  
   </details>
   </details>
@@ -1083,7 +1091,7 @@ print(a)
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> In line 2 of the above code, it is invalid to assign the value of b to a at the time of increment.
+> In line 2 of the above code, it is invalid to assign the value of 'b' to 'a' at the time of increment.
   
   </details>
   </details>
@@ -1123,7 +1131,7 @@ option is b)
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> Semicolon is missing in option a). In option c) in operator is missing. In option d) 'fro' will result in syntax error.
+> Semicolon is missing in option a). In option c) 'in' operator is missing. In option d) 'fro' will result in syntax error.
   
   </details>
   </details>
