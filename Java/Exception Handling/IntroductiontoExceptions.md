@@ -29,11 +29,11 @@ ArrayIndexOutOfBoundsException,StringIndexOutOfBoundsException.
 </details>
 
 7.Which is the base class of StackOverflowError and  VirtualMachineError class.
-<details><summary> Show Answer</summary>
+<details><summary><b> Show Answer</b></summary>
 Error class.
 </details>
 
 8.What are the keywords that is used to handle exceptions.
-<details><summary> Show Answer</summary>
+<details><summary><b>Show Answer</b></summary>
 try,catch,finally,throw and throws.
 </details>
