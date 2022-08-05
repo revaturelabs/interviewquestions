@@ -107,7 +107,7 @@ local repository  ->  central repository -> remote repository
 <details> <summary> <b> Show Answer </b> </summary>
 
 - Jar files will be installed in local repository by using the command <code> mvn install </code>.
-- Manually also it can be installed by using the plugin <code> install-file-Dfile = <file path> </code>.
+- Manually also it can be installed by using the plugin `install-file-Dfile =<file path> `.
 
 </details>
 
