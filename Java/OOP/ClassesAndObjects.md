@@ -49,9 +49,14 @@ private class Main{
 
 <details><summary>Show Answer</summary>
 
-<b>Ans:</b> compilation error is caused because a class can be public, abstract and final but not private unless it's a nested class.
+compilation error is caused because a class can be public, abstract and final but not private unless it's a nested class.
 
 </details>
+
+
+
+
+
 
 ## Technical
 
@@ -157,6 +162,25 @@ d. Used to create more than one instance of a class, and to add new fields and m
 
 </details>
 
+7. How to destroy an object in java?
+
+<details><summary>Show Answer</summary>
+
+>  An object can not be directly destroid in java. by setting all the references to object as null, the object is eligible for garbage collection.
+
+</details>
+
+8. how many object references are present after executing the following code?
+
+``` java
+
+String s = "Revature";
+String[] arr = new String[10];
+arr[0] = s;
+s=null;
+
+```
+
 ## Real-time Application
 
 1. Consider that a code is created for the sole purpose of notifying the user that the battery is fully charged, this can be used by any device like a mobile, pc, AirPods etc. Which of the following implementations suits the best?
@@ -174,6 +198,9 @@ d. Used to create more than one instance of a class, and to add new fields and m
 <b>Explanation:</b> a code with a single purpose translates to a class/ interface with a single method, functional interface is the best way to implement this scenario and lambda implementation in each device, makes the code concise, easily readable and maintainable.
 	
 </details>
+
+
+
 
 
 
