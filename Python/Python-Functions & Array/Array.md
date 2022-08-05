@@ -1,10 +1,10 @@
 ## Array
 
-1.What are the dynamic Arrays? How it will from basics Arrays?
+1.What are dynamic Arrays and how is it different from basics Arrays?
  
  <details><summary> <b>Show Answer</b> </summary>
   
-- Dynamic arrays (also known as a growable array, resizable array, mutable array ) offer a big improvement, i.e., automatic resizing. 
+- Dynamic arrays (also known as a growable array, resizable array or mutable array ) offer a big improvement, i.e., automatic resizing. 
 - An array has a fixed size, so you always have to specify the number of elements your array will hold ahead of time. However, a dynamic array expands as you add more elements to it and you need not determine the size ahead of time.
   
   </details>
@@ -17,23 +17,23 @@
 
 - An Array is a sorted list of homogeneous elements.
 - You have to set the size of an array before using it.
-- Arrays can be in dynamic in size.
+- Arrays can be dynamic in size.
 - If you want to increase the array size, you have to use the ReDim statement.
   
 **Dictionary**:
   
-- A dictionary holds key-values pairs.
+- A dictionary holds key-value pairs.
 - You don't have to set the size for dictionaries.
 - There is no dynamic concept for dictionaries.
-- You can add an element in dictionaries without the need for any statement.
+- You can add an element in dictionary without the need for any statement.
   
   </details>
   
-3.How will you access individual elements in an Array? Give me an Example.
+3.How will you access individual elements in an Array? State an Example.
 
  <details><summary> <b>Show Answer</b> </summary>
   
-- In python we can use index numbers for accessing individual elements in an array.
+- In python, index numbers are used for accessing individual elements in an array.
   
 ```python
 c = ["Fan", "Van", "Bat"]
@@ -47,7 +47,7 @@ Fan
 
 <details><summary> <b>Explanation</b> </summary>
   
--The above program we used index numbers the index numbers are, starts from 0 and ends with n-1
+-In the above program, index numbers are used and the index numbers starts from 0 and ends with n-1
   
   </details>
   </details>
@@ -91,11 +91,11 @@ smallest element in array is 304
                         
  </details>
   
- 5.Can i change a particular index values in python?
+ 5.Can a particular index value be used in python?
   
 <details><summary> <b>Show Answer</b> </summary>
      
-- Yes, we can change the values using index numbers.
+- Yes, the values can be changed using index numbers.
 
   <details><summary> <b>Example</b> </summary>   
    
@@ -123,7 +123,7 @@ print(Juice)
   
 **Disadvantages**:
 
-- You need to specify how many elements you're going to store in your array ahead of time and We can not increase or decrease the size of the Array after creation.
+- You need to specify how many elements are you going to store in your array ahead of time and we can not increase or decrease the size of the Array after creation.
 - You have to shift the other elements to fill in or close gaps, which takes worst-case O(n) time.
   
   </details>
@@ -149,13 +149,13 @@ print(Remove(duplicate))
   
  <details><summary> <b>Explanation</b> </summary> 
    
-- For this type of problems we have numbers ways to solve this problem.In that, We used only one way.  
--We can use not in on list to find out the duplicate items. We create a result list and insert only those that are not already not in. 
+-We have a numbers of ways to solve these types of problems. We have opted for only one approach.  
+-We can use 'not in' in the list to find out the duplicate items. We create a result list and insert only those that are not already 'not in'. 
   
   </details>
   </details>
   
-8.Can you tell me some set of built-in methods that you can use on lists/arrays.  
+8.Mention some of the built-in methods that you can use on lists/arrays.  
   
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -190,7 +190,7 @@ print("Array after inserting",num,"at end",arr)
   
 **Output**:
   
-Enter a number to insert in array at end :56
+Enter a number to insert an array at the end :56
   
 Array after inserting 56 at end [1, 2, 3, 4, 5, 56]
   
@@ -201,7 +201,7 @@ Array after inserting 56 at end [1, 2, 3, 4, 5, 56]
 <details><summary> <b>Show Answer</b> </summary>
 
 - Python does not have built-in support for Arrays.
-- But, In python Lists can be used instead of Arrays.
+- But in python, Lists can be used instead of Arrays.
 
 **Example**:
 
@@ -212,7 +212,7 @@ print(fruits)
 ```
 </details>
   
-11.Write a python Program to find missing number in array?
+11.Write a python Program to find a missing number in array?
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -241,7 +241,7 @@ enter element of array : 2
   
   </details>
   
-12.To declare an array, you must use
+12.Which of the following must be used to declare an array?
   
 - A.brackets[]
 - B.parenthesis()
@@ -345,7 +345,7 @@ Number of occurrences: 3
   </details>
   </details>
   
-17.Write a python program to delete a given element of an array(list).
+17.Write a python program to delete any	given element of an array(list).
   
 <details><summary> <b>Show Answer</b> </summary>  
 
@@ -379,7 +379,7 @@ after removing 78 = [24, 2456, 567, 3467]
   
   </details>
   
-18.What will be the output of the following code?
+18.What would be the output of the following code?
   
 ```python
 arr=[1,2,3,4,5]
@@ -397,7 +397,7 @@ NameError: name 'arr1' is not defined
   
 </details>
   
-19.Write a Python program to create an array contains six integers. Also print all the members of the array.
+19.Write a Python program to create an array that contains six integers ans also to print all the members of the array.
   
 <details><summary> <b>Show Answer</b> </summary>    
   
