@@ -1,1 +1,337 @@
 
+# Encapsulation
+
+
+1. What do you mean by encapsulation in python? How to achieve it? Give example. 
+<details><summary> <b>Show Answer</b> </summary> 
+  
+- Binding up of data members and member functions together into a single unit is known as encapsulation. A class is an example of encapsulation as it binds the variables and methods together. We can achieve encapsulation by declaring the data members of a class either as private or protected.   
+  
+For Example: 
+```python3
+class Student:
+    def __init__(self, name, marks):
+        self.name = name
+        # private member
+        self.__marks = marks
+
+stu = Student('Rohan', 76)
+print('Marks:', stu.__marks)
+```
+  
+In the above code, we will get the "AttributError: 'Student' object has no attribute '__marks'" because __marks is a private variable and we cannot access private variables directly outside the class. 
+</details>
+
+---
+2. Give a real-life example of encapsulation.
+<details><summary> <b>Show Answer</b> </summary> 
+  
+- Consider there are two companies that makes motercycles one is 'Hero' and other one is 'Honda'. Hero company has its own production unit and team, and Honda company also has its own production unit and team. They both are doing well in the market. Now there's a situation arises, Honda company wants to work with Hero company and wants to access the info of how Hero company production unit works. As Honda company doesn't have the direct access of Hero company, they have to contact some of the higher officials to get the work done. This is what we can say encapsulation in real world is. Here all the data related to Hero company can be wrapped into a single unit. Utill Hero company will not give permission to anyone outside that to access the data, the data has been hiden and secure from the outside world. 
+</details>
+
+---
+3. Which statement out of the following is best for encapsulation?
+
+- a) It gives ability to a child class to access properties from parent class.
+- b) It has the ability to hide the unwanted complex implemenation from the user
+- c) It wrap up the data members and member functions of a class in a single unit.
+- d) It gives different meaning to same function in different classes.
+<details><summary> <b>Show Answer</b> </summary> 
+  
+option c) is correct
+<details><summary> <b>Explanation</b> </summary> 
+  
+> Encapsulation is a way of binding all the members of a class together. 
+  </details>
+</details>
+
+---
+4. Predict the output of the following code.
+```python3
+class Test:
+    def __init__(self):
+        self.num1 = 5
+        self.__num2 = 10
+ 
+    def display(self):
+        return self.__num2
+
+obj = Test()
+print(obj.num1)
+```
+- a) 5 is printed
+- b) 10 is printed
+- c) Error, because num1 is not retured by display() method.
+- d) Error, because __num2 is a private data member.
+<details><summary> <b>Show Answer</b> </summary> 
+  
+correct option is a).
+<details><summary> <b>Explanation</b> </summary> 
+  
+> num1 is a public variable of Test class. It can be accessed outside the class using objects of that class. 
+  </details>
+</details>
+
+---
+5. Predict the output of the following code.
+```python3
+class Test:
+    def __init__(self):
+        self.num1 = 5
+        self.__num2 = 10
+ 
+    def display(self):
+        return self.__num2
+
+obj = Test()
+print(obj.__num2)
+```
+- a) 5 is printed
+- b) 10 is printed
+- c) Error, because num1 is not retured by display() method.
+- d) Error, because __num2 is a private data member.
+<details><summary> <b>Show Answer</b> </summary> 
+  
+correct option is d).
+<details><summary> <b>Explanation</b> </summary> 
+  
+> As __num2 is private variable of Test class, we cannot access the variable through objects of that class. 
+  </details>
+</details>
+
+---
+6. Predict the output of the below code.
+```python3
+class Test:
+    __num2=30
+    def __init__(self):
+        self.num1 = 5
+        self.__num2 = 10
+ 
+    def getNumber(self):
+        print(Test.__num2)
+    
+    def setNumber(self):
+        self.__num2 =20
+        
+obj = Test()
+obj.getNumber()
+```
+- a) 10
+- b) 20
+- c) 30
+- d) Error
+<details><summary> <b>Show Answer</b> </summary> 
+  
+Option c) is correct
+
+<details><summary> <b>Explanation</b> </summary> 
+  
+> Class variable's value is printed through getNumber() method using Class_Name.variable name. 
+  </details>
+</details>
+
+---
+7. What will be the output of the following code?
+```python3
+class Test:
+    __num2=30
+    def __init__(self, __num2):
+        self.__num2 = __num2
+ 
+    def getNumber(self):
+        print(self.__num2)
+    
+    def setNumber(self, __num2):
+        self.__num2 =__num2
+        
+obj = Test(10)
+obj.setNumber(20)
+obj.getNumber()
+```
+- a) 10
+- b) 20
+- c) 30 
+- d) Error 
+<details><summary> <b>Show Answer</b> </summary> 
+  
+Option b) is correct 
+<details><summary> <b>Explanation</b> </summary> 
+  
+> The current instance value, that is 20, is printed using 'self.variable_name' when calling getNumber() method.  
+  </details>
+</details>
+
+---
+8. What will be the output of the following code.
+```python3
+class Test:
+    __num2=30
+    def __init__(self, __num2):
+        self.__num2 = __num2
+ 
+    def getNumber(self):
+        print(__num2)
+    
+    def setNumber(self, __num2):
+        self.__num2 =__num2
+        
+obj = Test(10)
+obj.setNumber(20)
+obj.getNumber()
+```
+- a) 10
+- b) 20
+- c) 30 
+- d) Error
+<details><summary> <b>Show Answer</b> </summary> 
+  
+Correct option is d) Error
+<details><summary> <b>Explanation</b> </summary> 
+  
+> In the above code, we will get "NameError: name '_Test__num2' is not defined". To resolve this error we have to use either 'class_name' or 'self' before the __num2 variable in print statement, according to our need. For example, "self.__num2". 
+  </details>
+</details>
+
+---
+9. Private members of a class can be access through methods of a class known as ?
+
+- a) __init__ / __del__
+- b) getters / setters
+- c) __iter__ / __eq__
+- d) __repr__ / __str__
+<details><summary> <b>Show Answer</b> </summary> 
+  
+Option b) is correct
+<details><summary> <b>Explanation</b> </summary> 
+  
+> The motive of using getters and setters functions in a class is to get[return] and set[assign] the private variables of a class. 
+  </details>
+</details>
+
+---
+10. What is name mangling in python? give example.
+<details><summary> <b>Show Answer</b> </summary> 
+  
+- In python, when we some attributes in one class that we don't want to be used in child classes, than we make them as private by adding two underscores('__') in prefix of variable name. So to access those variables outside the class we uses name mangling concept. To access those private class variables we have to add "_classname" with that variable.   
+  
+For Example:
+```python3
+class Student:
+    def __init__(self, name):
+        self.__name = name    # __name is private
+  
+obj = Student("Akshay")
+print(obj._Student__name)    # using name mangling we get output as Akshay. 
+```
+</details>
+
+---
+11. State True and False: "Private variables of a class cannot be accessed outside the class".
+
+- a) True
+- b) False 
+<details><summary> <b>Show Answer</b> </summary> 
+  
+Option b) is correct
+<details><summary> <b>Explanation</b> </summary> 
+  
+> Using name mangling we can access the private members of a class. For that we have to write ObjectName._ClassName__VariableName. For example: obj._Student__name, where obj is object name, Student is a class name and __name is a private variable.
+  </details>
+</details>
+
+---
+12. Which of these is a protected data member of a class in python?
+```python3
+class Test:
+    def __init__(self):
+        __num1 = 0
+        self._num2 = 0
+        self.__num3__ = 0
+        __num4__= 0
+```
+- a) __num1
+- b) _num2
+- c) __num3__
+- d) __num4__
+<details><summary> <b>Show Answer</b> </summary> 
+  
+Option b) is correct. 
+<details><summary> <b>Explanation</b> </summary> 
+  
+> Variables with single underscore (_) are the protected variables of a class. 
+  </details>
+</details>
+
+---
+13. Predict the output of the following code?
+```python3
+class Apple: 
+    def __init__(self):
+        self.price = 500
+        self.__quantity = 5
+        
+    def display(self):
+        print(self.price, self.__quantity)
+        
+obj = Apple()
+obj.display()
+```
+- a) 500 5
+- b) 500 Error
+- c) Error
+- d) Nothing is printed 
+<details><summary> <b>Show Answer</b> </summary> 
+  
+Option a) is correct
+<details><summary> <b>Explanation</b> </summary> 
+  
+>  __quantity is a private variable of a class, and private variables can be printed using class methods. 
+  </details>
+</details>
+
+---
+14. State True or False: " Private and Protected class variables can be accessed by name mangling".
+
+- a) True
+- b) False
+<details><summary> <b>Show Answer</b> </summary> 
+  
+Option b) is correct. 
+<details><summary> <b>Explanation</b> </summary> 
+ 
+> Private variables can be accessed by name mangling but protected variables cannot. 
+  </details>
+</details>
+
+---
+15. Predict the output of the following code.
+```python3
+class Design:
+    _shape = "Square"
+    def __init__(self):
+        self.colour = None
+        self._shape = "Rectangle" 
+ 
+    def display(self, s):
+        self._shape = s
+obj=Design()
+print(obj._Design_shape)
+```
+- a) Square
+- b) Rectangle
+- c) Error
+- d) Nothing is printed 
+<details><summary> <b>Show Answer</b> </summary> 
+ 
+Option c) is correct
+<details><summary> <b>Explanation</b> </summary> 
+  
+> Here in the above code, we will get "AttributeError: 'Design' object has no attribute '_Design_shape'" because,  _shape is a protected member of Design class and we cannot access protected members outside the class using name mangling.  
+  </details>
+</details>
+
+---
+
+
+
