@@ -41,13 +41,9 @@ Java Virtual Machine(JVM).
 
 ---
 
-6:What is the role of JVM in default ExceptionHandling mechanism.
+6:What is the role of JVM in default Exception Handling mechanism.
 <details><summary><b> Show Answer</b></summary>
-<code>
-Prints out the exception description
-Prints the StackTrace
-Causes the program to terminate.
-</code>
+JVM prints out the exception description,prints the stacktrace and causes the program to terminate.
 </details>
 
 ---
@@ -93,8 +89,11 @@ public class TryCatchExample1 {
 }  
 ```
 <details><summary> <b> Show Answer</b></summary>
+	
+```java
 /by zero
 Exception Occurred
+```
 </details>
 
 ---
@@ -220,11 +219,12 @@ public class NestedTryBlock1{
 }  
 ```
 <details><summary><b> Show Answer</b></summary>
-<code>
+
+```java
 Divide by zero error
 /by zero
 Index 10 out of bounds for length 10
-</code>
+```
 </details>
 
 ---
@@ -245,7 +245,7 @@ When a Java program does not throw any exception a finally block gets  executed.
 
 19: Predict the output of the following code.
  ``` java   
-class Finallyblock1 {    
+public class Finallyblock1 {    
         public static void main(String args[]){    
              try{    
                      int data=50/10;    
@@ -261,9 +261,11 @@ class Finallyblock1 {
                 }    
 ```
 <details><summary><b> Show Answer</b></summary>
-<code> 5
+
+```java
+5
 finally block is executed
-</code>
+```
 </details>
 
 ---
@@ -287,12 +289,13 @@ public class FinallyBlock2{
     }  
 ```
 <details><summary><b> Show Answer</b></summary>
-<code>
+	
+ ``` java  
 Inside try block
 Exception handled
 / by zero
 finally block is executed
-</code>
+ ```
 </details>
 
 ---
