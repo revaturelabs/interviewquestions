@@ -175,6 +175,14 @@ interface Elevator{
 
 </details>
 
+2. Identify the error in the following code snippet.
+
+``` java
+
+
+
+
+```
 
 
 
