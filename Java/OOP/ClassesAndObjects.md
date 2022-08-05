@@ -187,6 +187,42 @@ one reference will be left after executing the code snippet(arr[0]--> s).
 
 </details>
 
+8. Which of the following options best explains the folowing code snippet?
+
+``` java
+interface Car{
+        // code	
+}
+
+public class Audi implements Car{
+	
+	public static void main(String[] args) {
+		Car c = new Audi();	
+	}
+	// code
+  
+}
+
+```
+
+A. Object for interfcae Car is created and it's reference is assigned to Class Audi.<br>
+B. Object for interfcae Car is created and it's reference is assigned to itself.<br>
+C. Object for Class Audi will be created and it's reference is assigned to itself.<br>
+D. Object for Class Audi is created and it's refrence is assigned to the Interface.
+
+<details><summary><b>Show Answer</b></summary>
+
+D
+
+<details><summary><b>Explanation</b></summary>
+
+> It is not possible to create an object for interface, an Object can be created only for classes and the reference can be assigned to an interface.
+	
+</details>
+
+
+</details>
+
 ## Real-time Application
 
 1. Consider that a code is created for the sole purpose of notifying the user that the battery is fully charged, this can be used by any device like a mobile, pc, AirPods etc. Which of the following implementations suits the best?
