@@ -83,7 +83,11 @@ A
 
 <details>
 
-  <summary><b>Show Answer</b> </summary>    
+  <summary><b>Show Answer</b> </summary>  
+  
+  ```  java 
+  
+  ```
     
 
    </details>
