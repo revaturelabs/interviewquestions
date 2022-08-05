@@ -170,7 +170,7 @@ d. Used to create more than one instance of a class, and to add new fields and m
 
 </details>
 
-8. how many object references are present after executing the following code?
+8. How many object references are present after executing the following code?
 
 ``` java
 
@@ -180,6 +180,12 @@ arr[0] = s;
 s=null;
 
 ```
+
+<details><summary><b>Show Answer</b></summary>
+	
+one reference will be left after executing the code snippet(arr[0]--> s).
+
+</details>
 
 ## Real-time Application
 
