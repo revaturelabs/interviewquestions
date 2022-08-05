@@ -150,7 +150,7 @@ D.Error
 
 Option A.True
 
-<details><summary><b>\Explanation</b></summary>
+<details><summary><b>Explanation</b></summary>
 
 > The WITH statement once used with open file guarantees that the file object is closed once the with block exits.
 
@@ -171,7 +171,7 @@ D.a list of integers
 
 <details><summary><b>Show Answer</b></summary>
 
-B.return a list of lines
+Option B.return a list of lines
 
 <details><summary><b>Explanation</b></summary>
 
