@@ -9,7 +9,9 @@ whenever an exception is occurred in the try block the rest of the code will not
 </details>
 
 3:What is the Syntax for the try-catch block? 
+	
 <details><summary><b> Show Answer</b></summary>
+	
 ``` java
  try{
 
@@ -19,9 +21,12 @@ whenever an exception is occurred in the try block the rest of the code will not
  }
 ```
 </details>
+	
 
 4:Can we have multiple catch blocks with the single try block.
+	
 <details><summary> <b> Show Answer</b></summary>
+	
 yes
 </details>
 
@@ -143,17 +148,17 @@ The File location is not found
 </details>
 
 13:How catch block is executed in multiple catch blocks?
-details><summary><b> Show Answer</b></summary>
+<details><summary><b> Show Answer</b></summary>
 All the catch blocks must be ordered from most specific to most generic i.e it should start from ArithmeticException class and then to the Exception class.
 </details>
 
 14:What is a nested try  block?
-details><summary><b> Show Answer</b></summary>
+<details><summary><b> Show Answer</b></summary>
 the try block inside another try block is called as nested try block.
 </details>
 
 15:When should we use nested try  block?
-details><summary> <b> Show Answer</b></summary>
+<details><summary> <b> Show Answer</b></summary>
 A situation may arise where a part of  block of code may cause one error and the entire block of code itself may cause another error. In such cases, exception handlers have to be nested.
 </details>
 
@@ -197,12 +202,12 @@ Index 10 out of bounds for length 10
 </details>
 
 17:What is a finally  block?
-details><summary><b> Show Answer</b></summary>
+<details><summary><b> Show Answer</b></summary>
 Java finally block is always executed whether an exception is handled or not. Therefore, it contains all the necessary statements that need to be printed regardless of the exception occurs or not.The finally block follows the try-catch block.
 </details>
 
 18:When a finally block gets executed?
-details><summary><b> Show Answer</b></summary>
+<details><summary><b> Show Answer</b></summary>
 When a Java program does not throw any exception a finally block gets  executed.
 </details>
 
