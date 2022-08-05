@@ -98,13 +98,26 @@ A
 
 ## Error Detection
 
-1. What is the output of the following code?
+1. Identify the error in the following code snippet?
 
 ``` java
-
-
+interface Elevator{
+	
+	int goUP();
+	int goDown();
+	final void stop();
+}
 
 ```
+
+<details><summary><b>Show Answer</b></summary>
+
+> methods in the interface can be abstract or default or static.
+> methods in interface can not be final, because final methods can not be overriden. Interfaces are created so they can be implemented by a class and the methods of an inteface shoould have the possibility to be overriden.
+
+</details>
+
+
 
 
 
