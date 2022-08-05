@@ -78,6 +78,8 @@ A
   </details>
 </details>
 
+---
+
 5. what are the advantages of using default methods in an interface?
 
 
@@ -91,6 +93,8 @@ A
     
 
    </details>
+   
+---
 
 6. Consider that a class extends the interface Elevetor, Which of the folling true?
 
@@ -124,9 +128,13 @@ interface Elevator extends Electrical, Mechnical{
 <summary><b>Show Answer</b></summary>
 B
 	
-<details><b>Explanation</b></details>
+<details>
+
+<summary><b>Explanation</b></summary>
+	
 > if a class implents Elevator, all the methods of Elevator, Mechanical and  Electrical are  inherited by class, all the methods other than default and static shoudl be overriden in the class.
 
+</details>
 </details>
 
 
