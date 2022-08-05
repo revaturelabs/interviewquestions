@@ -405,6 +405,7 @@ class Human(Animal):
 ___________________
 `````
 <details><summary> <b>Show Answer</b> </summary> 
+  
 ```python3
 class Animal:
     
