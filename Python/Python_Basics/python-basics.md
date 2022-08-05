@@ -275,10 +275,10 @@ Types of Operators:
  ---
 18. Which of the following is not a comparison operator?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
-- a) ==
-- b) >
-- c) >> 
-- d) <= 
+a) ==
+b) >
+c) >> 
+d) <= 
 <details><summary> <b>Show Answer</b> </summary>
   
 **Ans:** correct option is c) >>
@@ -293,10 +293,10 @@ Types of Operators:
 ---
 19. Which of the following is an assignment operator?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
-- a) =
-- b) ==
-- c) is 
-- d) != 
+a) =
+b) ==
+c) is 
+d) != 
 <details><summary> <b>Show Answer</b> </summary>
   
 option a) = 
@@ -309,12 +309,12 @@ option a) =
   </details>
 
 ---
-20. Which is/are not a membership operators?
+20. Which is/are not membership operators?
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
-- a) in 
-- b) not in
-- c) is 
-- d) is not 
+a) in 
+b) not in
+c) is 
+d) is not 
 <details><summary> <b>Show Answer</b> </summary>
   
 options are c) and d).
@@ -327,15 +327,15 @@ options are c) and d).
   </details>
   
 ---
-21. What is the difference b/w 'and' and 'or' operator?
+21. What is the difference between 'and' and 'or' operators?
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
  
-- Both "and" and "or" are the logical operators which requires two operands and both return True and False after evaluation. The "and" operator returns True when both the operands are True otherwise False, whereas "or" operator returns True if either operand is True and return False when both operands are False. 
+Both "and" and "or" are logical operators which requires two operands and both returns True and False values after evaluation. The "and" operator returns True when both the operands are True, else returns False, whereas "or" operator returns True if either operand is True and returns False when both operands are False. 
   </details>
 
 ---
-22. Predict the output for the below code:
+22. Predict the output for the following code.
 ![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
 ```python3
 a = 9
@@ -345,13 +345,13 @@ print(a and b)
 print(a & b) 
 ```
 
-- a) 5  
+a) 5  
 &emsp;5     
-- b) 5  
+b) 5  
 &emsp;1 
-- c) 9   
+c) 9   
 &emsp;9
-- d) 9   
+d) 9   
 &emsp;0    
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -360,18 +360,18 @@ option b) 5
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> In 1st print statement logical "and" operator is used, which checks if both operand values are non- zero it will return the value of operand mentioned in last i.e 'b=5'. In 2nd print statement bitwise operator '&' is used, which converts the operands values in binary[ in terms of 0 and 1] and compares and returns 1 if both the bits are 1 otherwise 0. So, a=9 in binary is 1001 and b=5 in binary is 0101. therefore after comparing both operand values bit by bit we get final result as 0001 in binary which is equal to 1 in decimal format. Hence the output (b).
+> In the first print statement, logical "and" operator is used, which checks if both operand values are non- zero and it will return the value of operand mentioned in the last i.e 'b=5'. In the second print statement, bitwise operator '&' is used, which converts the operand values to binary[ in terms of 0 and 1] and compares and returns 1 if both the bits are 1 otherwise, it returns 0. So, a=9 in binary is 1001 and b=5 in binary is 0101. Therefore after comparing both operand values bit by bit, we get final result as 0001 in binary which is equal to 1 in decimal format. Hence, the output (b).
   
   </details>
   </details>
   
 ---
-23. Which of the below code shows the correct representation of taking integer values as user input in Python3?
+23. Which of the following code shows the correct representation of taking integer values as user input in Python3?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
-- a) n = int(input())
-- b) n = input() 
-- c) n = raw_input()
-- d) n = int(raw_input())
+a) n = int(input())
+b) n = input() 
+c) n = raw_input()
+d) n = int(raw_input())
 <details><summary> <b>Show Answer</b> </summary>
   
 option a) n = int(input())
@@ -384,26 +384,26 @@ option a) n = int(input())
 </details>
 
 ---
-24. Which of the following is the correct way for single line comment in python?
+24. Which of the following is the correct way to single line comment in python?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
-- a) //
-- b) @
-- c) #
-- d) <!...> 
+a) //
+b) @
+c) #
+d) <!...> 
  <details><summary> <b>Show Answer</b> </summary>
  option is c)
   </details>
 
 ---
-25. Which of the following is the correct way for multi-line comments in python?
+25. Which of the following is the correct way to multi-line comments in python?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
-- a) // hi  
+a) // hi  
 &emsp; this is abc //
-- b) @ hi   
+b) @ hi   
 &emsp; this is abc @
-- c) # hi  
+c) # hi  
 &emsp; this is abc #
-- d) ''' hi    
+d) ''' hi    
 &emsp; this is abc '''
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -413,15 +413,15 @@ option is d)
 ---
 26. State True or False: "Comments are always required in the code. Without comments the code will not run". 
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
-- a) True
-- b) False
+a) True
+b) False
 <details><summary> <b>Show Answer</b> </summary>
   
 option is b) False.
 
 <details><summary> <b>Explanation</b> </summary>
   
-  > Comments are used to make the code easy to understand. It is not mandatory to use comments while writing program.
+  > Comments are used in the code for easy understanding. It is not mandatory to use comments while writing any program.
   
   </details>
   </details>
@@ -431,7 +431,7 @@ option is b) False.
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
   
-Ternary operator are like if-else statements but with a difference, it allows checking a condition in single line only replacing the multiline if-else block in python. 
+Ternary operators are like if-else statements but the difference is, it allows checking a condition in a single line replacing the multiline if-else block in python. 
 
 For example: 
 ```python3
@@ -444,23 +444,23 @@ print(maximum)  # it returns 8 as output.
   </details>
   
 ---
-28. Predict the output of below code:
+28. Predict the output of the following code.
 ![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
 ```python3
 value =  10//2**3*3+4/2
 print(value) 
 ```
-- a) 377 
-- b) 5
-- c) 5.0 
-- d) 2 
+a) 377 
+b) 5
+c) 5.0 
+d) 2 
 <details><summary> <b>Show Answer</b> </summary>
   
 option is c) 5.0. 
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> According to precedence of operators, Exponent(**) has highest precedence in this expression. After that Multiplication(*), Division(/), Floor division(//) all three have same precedence so, it is evaluated from left to right order in an expression. And at last Addition(+). So 2**3 will evaluate first and gives,'8'. Then 10//8 gives 1 because of floor division. Then 1*3 gives '3' and 4/2 gives '2.0'. Hence the final result will come out as 3+2.0 = 5.0
+> According to precedence of operators, Exponent(**) has the highest precedence in this expression. After that Multiplication(*), Division(/), Floor division(//) all three have same precedence so, it is evaluated from left to right order in an expression, finally ending with Addition(+). So 2**3 will get evaluated first which gives,'8'. Then 10//8 gives 1 because of floor division, 1*3 gives '3' and 4/2 gives '2.0'. Hence, the final result will come out as 3+2.0 = 5.0
   
   </details>
   </details>
@@ -468,10 +468,10 @@ option is c) 5.0.
 ---
 29. Odd one out: Which of the following statement is incorrect?
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
-- a) '+' is an arithmetic operator.
-- b) '+=' is an arithmetic operator.
-- c) '>=' is a comparison operator.
-- d) 'and' is a logical operator. 
+a) '+' is an arithmetic operator.
+b) '+=' is an arithmetic operator.
+c) '>=' is a comparison operator.
+d) 'and' is a logical operator. 
 <details><summary> <b>Show Answer</b> </summary>
   
 option is b).
@@ -486,24 +486,24 @@ option is b).
  ---
 30. Which of the following is not a logical operator?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
-- a) and
-- b) or
-- c) not in
-- d) not 
+a) and
+b) or
+c) not in
+d) not 
 <details><summary> <b>Show Answer</b> </summary>
 
   option is c).
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> not in is a membership operator in python.
+> 'not in' is a membership operator in python.
   
   </details>
   </details>
   
 ---
   
-31. Select the correct expression to reassign a global variable “y” to 30 inside a function reassign() 
+31. Select the correct expression to reassign a global variable “y” to 30 inside a function reassign(). 
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg)
   
 ```python3
@@ -514,11 +514,11 @@ reassign()
 print(y) # it should print 30
 ```
 
-- a) global y = 30    
-- b) global var y     
+a) global y = 30    
+b) global var y     
 &emsp;y = 30   
-- c) global.y = 30  
-- d) global y        
+c) global.y = 30  
+d) global y        
 &emsp;y = 30 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -526,19 +526,19 @@ option d) is correct.
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> First we have to declare the variable y with global keyword inside the reassign() function, then we can assign the value to y variable. Hence option (d).
+> First, we have to declare the variable y with global keyword inside the reassign() function and then we can assign the value to y variable. Hence, option (d).
   
   </details>
   </details>
 
 ---
   
-32. What is the data type of print(type(5))
+32. What is the data type of print(type(5))?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
-- a) float
-- b) integer
-- c) int 
-- d) number 
+a) float
+b) integer
+c) int 
+d) number 
 <details><summary> <b>Show Answer</b> </summary>
   
 option is c).
@@ -563,19 +563,19 @@ def fun1():
 fun1()
 print(x) 
 ```
-- a) 25   
+a) 25   
 &emsp;25 
-- b) 25   
+b) 25   
 &emsp;50 
-- c) NameError  
-- d) None
+c) NameError  
+d) None
  <details><summary> <b>Show Answer</b> </summary>
  
 option is b) 
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> fun1() is called first, so the statements that are there in fun1() will executes first and therefore prints the value of x = 25 in first line in console and then prints 50 in new line after comming out of fun1() function. 
+> fun1() is called first, so the statements that are in the fun1() will execute first and prints the value of x as 25 in first line of console and then prints 50 in the new line after wxiting of fun1() function. 
   
 </details>
 </details>
@@ -592,33 +592,33 @@ def myfunc():
 myfunc()
 print(x)
 ```
-- a) Error 
-- b) 76 
-- c) 76  
+a) Error 
+b) 76 
+c) 76  
 &emsp;75
-- d) 76  
+d) 76  
 &emsp;76 
 <details><summary> <b>Show Answer</b> </summary>
   
 option is a) 
 
-**Explanation:** UnboundLocalError: local variable 'x' referenced before assignment.
+**Explanation:** UnboundLocalError: local variable 'x' is referenced before assignment.
   </details>
 
 ---
-35. Which is not a datatype in Python?
+35. Which of the following is not a datatype in Python?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
-- a) int
-- b) float 
-- c) char 
-- d) bool 
+a) int
+b) float 
+c) char 
+d) bool 
 <details><summary> <b>Show Answer</b> </summary>
   
 option is c) char 
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> In python we can create char by creating a string of length 1. 
+> In python, we can create char by creating a string of length 1. 
   
   </details>
   </details>
