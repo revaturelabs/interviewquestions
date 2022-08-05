@@ -55,9 +55,6 @@ compilation error is caused because a class can be public, abstract and final bu
 
 
 
-
-
-
 ## Technical
 
 1. Which of the following can be declared private?
