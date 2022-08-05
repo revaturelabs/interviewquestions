@@ -92,7 +92,42 @@ A
 
    </details>
 
+6. Consider that a class extends the interface Elevetor, Which of the folling true?
 
+``` java
+interface  Electrical{
+	void controlLight();
+	void controlAC();
+}
+
+interface Mechnical{
+	void pullUp();
+	void pullDown();
+}
+
+interface Elevator extends Electrical, Mechnical{
+	
+	int goUP();
+	int goDown();
+
+}
+
+```
+
+- A. The class that implemnets Elevator, must override the methods of evelator, overriding methods of  Electrical and Mechanical is optional.
+- B. The class that implements Elevator, must override all the methdos of all the interface.
+- C. class can not implement Elevator because an interface can not extend more then one interface.
+- D. It is not mandatory to override any method of any interface.
+
+<details>
+	
+<summary><b>Show Answer</b></summary>
+B
+	
+<details><b>Explanation</b></details>
+> if a class implents Elevator, all the methods of Elevator, Mechanical and  Electrical are  inherited by class, all the methods other than default and static shoudl be overriden in the class.
+
+</details>
 
 
 
@@ -116,6 +151,8 @@ interface Elevator{
 > methods in interface can not be final, because final methods can not be overriden. Interfaces are created so they can be implemented by a class and the methods of an inteface shoould have the possibility to be overriden.
 
 </details>
+
+
 
 
 
