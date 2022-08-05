@@ -80,23 +80,26 @@ A
 
 ---
 
-5. what are the advantages of using default methods in an interface?
+5. Give an exammple where default methods are created in an Interface.
 
 
 <details>
 
   <summary><b>Show Answer</b> </summary>  
   
-  ```  java 
-  
-  ```
+> - 
+
     
 
    </details>
    
 ---
 
-6. Consider that a class extends the interface Elevetor, Which of the folling true?
+
+6. Give an exammple where static methods are created in an Interface.
+
+
+7. Consider that a class extends the interface Elevetor, Which of the folling true?
 
 ``` java
 interface  Electrical{
