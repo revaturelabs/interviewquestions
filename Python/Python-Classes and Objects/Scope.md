@@ -28,14 +28,14 @@ print(x)
 obj.show()
 ``` 
 
-- a) 20
-     20 
-- b) 20 
-     40
-- c) 40 
-     20
-- d) 40
-     40 
+- a) 20  
+&emsp;20 
+- b) 20   
+&emsp;40
+- c) 40   
+&emsp;20
+- d) 40  
+&emsp;40 
 <details><summary> <b>Show Answer</b> </summary> 
   
 Correct option is d) 
@@ -59,14 +59,14 @@ obj = Test()
 print(Test.x)
 obj.show() 
 ```
-- a) 10 
-     40 
-- b) 10
-     20 
-- c) 40 
-     20 
-- d) 40
-     10 
+- a) 10   
+&emsp;40 
+- b) 10  
+&emsp;20 
+- c) 40   
+&emsp;20 
+- d) 40  
+&emsp;10 
 <details><summary> <b>Show Answer</b> </summary> 
   
 Option a) is correct
@@ -90,14 +90,14 @@ obj = Test()
 print(x)
 obj.show()
 ```
-- a) 10 
-     40 
-- b) 10
-     20 
-- c) 40 
-     20 
-- d) 40
-     10 
+- a) 10   
+&emsp;40 
+- b) 10  
+&emsp;20 
+- c) 40   
+&emsp;20 
+- d) 40  
+&emsp;10 
 <details><summary> <b>Show Answer</b> </summary> 
   
 Option c) is correct
