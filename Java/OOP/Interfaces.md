@@ -98,6 +98,18 @@ A
 
 6. Give an exammple where static methods are created in an Interface.
 
+<details>
+
+  <summary><b>Show Answer</b> </summary>  
+  
+> - 
+
+    
+
+   </details>
+   
+ ---
+
 
 7. Consider that a class extends the interface Elevetor, Which of the folling true?
 
