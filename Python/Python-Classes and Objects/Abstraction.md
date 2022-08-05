@@ -43,6 +43,7 @@ c.sound()  # output: Zoom-Zoom...!!
 - Abstract base class provides a way to declare methods without implementation, and these methods must be implemented by derived classes. It has an advantage of hiding unrelevant or complex implementation from user. We cannot create object for abstract base class in python. 
 </details>
 
+---
 4. Which of the following is true regarding abstract class in python?
 
 - a) Abstract classes can be instantiated.
