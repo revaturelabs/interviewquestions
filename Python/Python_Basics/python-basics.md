@@ -1,11 +1,11 @@
 # Python Basics Questions And Answers
 
-1. Which operator in python can be used to join two or more string values together?
+1. Which operator in python can be used to combine two or more string values together?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
-- a) ==
-- b) +=
-- c) +
-- d) in
+a) ==
+b) +=
+c) +
+d) in
 <details><summary> <b>Show Answer</b> </summary>
   
 option c) + is correct
@@ -19,12 +19,12 @@ option c) + is correct
 
 ---
 
-2. Why the local variable names beginning with an underscore discouraged in python?
+2. Why local variable names beginning with an underscore discouraged in python?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
-- a) They are used to indicate a private/ protected variables of a class
-- b) Because of readability purpose
-- c) They are used for some method names
-- d) They slow down execution of the program
+a) They are used to indicate a private/ protected variables of a class
+b) Because of readability purpose
+c) They are used for some method names
+d) They slow down execution of the program
 <details><summary> <b>Show Answer</b> </summary>
   
 option a) is correct
@@ -42,17 +42,16 @@ option a) is correct
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 <details><summary> <b>Show Answer</b> </summary>
   
- Keywords are the reserved words that have special meaning in python. We cannot use keywords as identifier, function and variable name. All the keywords are in lower case except "True" and "False". Python 3.7 have total of 33 keywords.  
+Keywords are the reserved words that have a special meaning in python. We cannot use keywords as identifier, function or variable name. All the keywords are in lower case except "True" and "False". Python 3.7 have 33 keywords in total.  
 **For Example**: and, or, if, elif,True, etc. 
 </details>
 
 ---
-4. What is an identifiers? 
+4. What are identifiers? 
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 <details><summary> <b>Show Answer</b> </summary>
   
 - Identifier is the name given to variable, function, class, etc in python. It consists of character, digit and underscore("_", [special character]). 
-There are some rules for Identifier in python, let's talk about them one by one: 
 - Identifier should start with a character or an underscore. 
 - A character can be a lowercase(a-z) or uppercase(A-Z). 
 - A digit(0-9) can be placed at any position except at the starting. 
@@ -63,10 +62,10 @@ For Example:  first_name, _rollNo, id_1, etc.
 ---
 5. Which of the following statement is false regarding Identifiers? 
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
-- a) Variable name can have lower and upper case letters.
-- b) Identifier should start with a character or a number. 
-- c) A digit(0-9) can be placed at any position except at the starting. 
-- d) No special characters(@,!,#,$,%,&) are allowed other than underscore. 
+a) Variable name can have lower and upper case letters.
+b) Identifier should start with a character or a number. 
+c) A digit(0-9) can be placed at any position except at the starting. 
+d) No special characters(@,!,#,$,%,&) are allowed other than underscore. 
 <details><summary> <b>Show Answer</b> </summary>
   
 Option b) Identifier should start with a character or a number. 
@@ -79,12 +78,12 @@ Option b) Identifier should start with a character or a number.
 </details>
 
 ---
-6. Which is not a feature of Python?
+6. Which of the following is not a feature of Python?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
-- a) Easy to learn
-- b) Platform independent 
-- c) Dynamically Typed
-- d) mid-level language
+a) Easy to learn
+b) Platform independent 
+c) Dynamically Typed
+d) mid-level language
 <details><summary> <b>Show Answer</b> </summary>
   
 option d) mid-level language.
@@ -98,12 +97,12 @@ option d) mid-level language.
 
 ---
 
-7. Which of the below mentioned is the correct extension of python file?
+7. Which of the following is the correct extension of python file?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
-- a) .py
-- b) .python
-- c) .cpp
-- d) none of the above
+a) .py
+b) .python
+c) .cpp
+d) none of the above
 <details><summary> <b>Show Answer</b> </summary>
   
 option a) .py 
@@ -111,37 +110,36 @@ option a) .py
 
 ---
 
-8. What are the advantages of python over other programming languages?
+8. What are the advantages of using python over other programming languages?
 ![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
 <details><summary> <b>Show Answer</b> </summary>
   
 Python offers some key features that makes it different from other programming languages such as:
-- Easy to code: any non- programmer can also learn python basics in few hours but that is not true with Java or C++. 
-- No need to remember where to add curly braces({}) or semi-colon (;) throughout the program.
+- Easy to code: any non- programmer can learn python basics in few hours but that is not true with Java or C++. 
+- Not necessary to remember where to add curly braces({}) or semi-colon (;) throughout the program.
 - It is dynamically typed means, we don't need to specify the type of variable as the variable type is decided at the run time. 
-- It has a large set of libraries that provides built-in functions and modules so that every time we don't have to write the code for every single thing. 
+- It has a large set of libraries that provides built-in functions and modules so that each time we don't have to write the code for every single thing. 
 </details>
 
 ---
 9. How do you differentiate between Interpreter and Compiler?
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 <details><summary> <b>Show Answer</b> </summary>
-  
-These are the following differences between Interpreter and Compiler:
+ 
 - Compiler translates our program in a single run, whereas Interpreter translates our program line by line.
 - In terms of CPU utilization, Compiler utilizes more CPU than Interpreter. 
-- In compilation all the errors in the program are shown in the end together, whereas in Interpreter errors of the code are shown line by line. 
-- As the code size increases Complier takes more time to Scan a code compared to Interpreters.
+- During compilation, all the errors in the program are displayed in the end together, whereas in Interpreter errors of the code are displayed line by line. 
+- As the code size increases, complier takes more time to scan a code compared to Interpreters.
 - Example: C, C++, java, etc are based on Compiler whereas Python, Ruby, MATLAB, etc are interpreted language.
 </details>
 
 ---
 
-10. Is Python an Interpreted language or Compiled?
+10. Is Python an Interpreted or Compiled language?
 ![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
 <details><summary> <b>Show Answer</b> </summary>
   
-- Python is an Interpreted language because it checks our code line by line not all together. For example suppose there are 2 errors in your code one in line 3 and other one in line 4. When you run the code it will only throw error for line 3 in console( output screen) but not  for line 4. The reason behind it is that it checks the code one line at a time. 
+Python is an Interpreted language because it checks the code line by line not all together. For example suppose there are 2 errors in your code one in line 3 and other one in line 4. When you run the code it will only throw error for line 3 in console( output screen) but not  for line 4. The reason behind it is that it checks the code one line at a time. 
 </details>
 
 ---
