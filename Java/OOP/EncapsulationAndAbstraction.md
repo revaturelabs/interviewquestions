@@ -5,6 +5,7 @@
 <details>
 
 <summary><b>Show Answer</b> </summary>
+	
 > Encapsulation is the creating a class with realted feilds and methods and hiding the feilds and methods from the rest of the world, this can be achived by creating feilds and methods and private and accesing the feilds and methods using objects.
   
   ``` java
@@ -56,10 +57,14 @@ public class ATM {
    
  2. What is Abstraction?
 
-<details><b>Show Answer</b></details>
-> - Abstraction is hiding the feilds and methods of a class or interface by extending or implementing them using a different class.
-> - In java Abstraction can be achieved in two ways
+<details> <summary><b>Show Answer</b></summary>
+	
+> Abstraction is hiding the feilds and methods of a class or interface by extending or implementing them using a different class.
+> In java Abstraction can be achieved in two ways	
 > 1. By creating an abstract class with abstract methods.
 > 2. By creating an interface with abstract methods.
 
 </details>
+
+## Error Detection
+
