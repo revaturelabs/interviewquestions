@@ -4,7 +4,7 @@ Exception handling is the mechanism which is used to handle the runtime errors u
 </details>
 
 2.Which is the root class of  all the Exception classes.
-<details><summary> Show Answer</summary>
+<details><summary> <b> Show Answer</b></summary>
 Java.lang.Throwable is the root class of all the Exception classes.
 </details>
 
