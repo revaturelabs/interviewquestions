@@ -103,11 +103,12 @@ for x in itr:
 <details><summary> <b>Show Answer</b> </summary> 
   
 Option d) is correct
-<details><summary> <b>Show Answer</b> </summary> 
+<details><summary> <b>Explanation</b> </summary> 
   
-As the current value of a is more than 5, it will raise StopIteration exception and prints nothing in output screen.
+> As the current value of a is more than 5, it will raise StopIteration exception and prints nothing in output screen.
+  </details>
 </details>
-
+  
 ---
 6. Predict the output for the following code.
 ```python3
@@ -171,7 +172,7 @@ Option c) is correct
 Option b) is correct
 <details><summary> <b>Explanation</b> </summary> 
   
-next() method, in python, returns the next element from iterator.
+> next() method, in python, returns the next element from iterator.
   </details>
 </details> 
   
