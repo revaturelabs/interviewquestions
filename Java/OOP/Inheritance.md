@@ -111,6 +111,20 @@ Inheritance: Is- a Relationship is implemented in Inheritance.
 
 </details>
 
+9. What is Multiple Inheritance of state and why is it not possible to implement it in java?
+
+<details><summary>Show Answer</summary>
+
+<b>Ans:</b>
+
+Exteding more than one class leads to multiple inheritance of state in java.
+
+</details>
+
+
+
+
+
 ## Problem solving
 
 1. What is the output of the following code?
