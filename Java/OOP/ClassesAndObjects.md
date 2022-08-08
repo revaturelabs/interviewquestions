@@ -184,7 +184,7 @@ one reference will be left after executing the code snippet(arr[0]--> s).
 
 </details>
 
-8. Which of the following options best explains the folowing code snippet?
+9. Which of the following options best explains the folowing code snippet?
 
 ``` java
 interface Car{
