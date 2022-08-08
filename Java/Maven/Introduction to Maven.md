@@ -164,17 +164,7 @@ Various build tools available(Naming only few):
 
 ---
 
-13. What will be stored in pom.xml file?
-
-<details> <summary> <b> Show Answer </b> </summary>
-
-- It contains the information about the project and to instruct the maven too build the project.
-
-</details>
-
----
-
-14. Define Build tool.
+13. Define Build tool.
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -192,18 +182,7 @@ Various build tools available(Naming only few):
 
 ---
 
-15. List the most common terms encountered while using Maven.
 
-<details> <summary> <b> Show Answer </b> </summary>
-
-- groupId - which is a domain ID, identifies the project uniquely.
-- artifactId - It is the name of the jar without version.
-- version - It creates a version of the project
-- Local repository - downloads all required dependencies and stores in this repository.
-
-</details>
-
----
 
 
 
