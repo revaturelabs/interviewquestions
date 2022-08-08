@@ -66,6 +66,26 @@ public class ATM {
 
 </details>
 
+3. When to use abstract class and interface?
+
+<details><summary><b>Show Answer</b></summary>
+	
+<b>Abstract Class: </b>
+
+> 1. When classes are closely related and share the implementation an abstract class can be used. 
+> 2. 
+
+	
+	
+<b>Interface: </b>
+
+> 1. When classes are not related, they have same methods but different imolementations an interface is used.
+> 2. 
+
+
+
+</details>
+
 ## Error Detection
 
 1. 
