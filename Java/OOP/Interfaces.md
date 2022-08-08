@@ -199,7 +199,7 @@ B
 
 ## Error Detection
 
-1. Identify the error in the following code snippet?
+1. Identify the error in the following code snippet.
 
 ``` java
 interface Elevator{
@@ -264,6 +264,10 @@ public class Circle implements Shape{
 > A compile time error is created. eventhough the anonymous inner class overrides all the methods of the interface, The class Circle doesnt overrides them.
 
 </details>
+
+---
+
+3. identify the error in the following code snippet.
 
 
 ## Senario Based
