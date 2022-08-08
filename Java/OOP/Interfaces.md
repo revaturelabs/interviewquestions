@@ -87,8 +87,7 @@ A
 
   <summary><b>Show Answer</b> </summary>  
   
-> - 
-
+> Consider that there is an interface inplemented by 4 classes and a new method should be added to the interface, but all the previous classes should implement the new method, which crates trouble for the developer. So, the new method can be added as a defualt method. a default method in interface can be overriden by a class based on the requirement. 
     
 
    </details>
