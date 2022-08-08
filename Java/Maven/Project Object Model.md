@@ -118,6 +118,54 @@
 
 ---
 
+11. Explain about Maven plugins.
+
+<details><summary><b> Show Answer </b></summary>
+  
+  - Any action performed on a project is implemented as a maven plugin.
+  - whcih is used to create jar files, create war files, compile code, unit test code, create project documentation etc.
+  
+</details>
+
+---
+
+12. What is a Mojo?
+
+<details><summary><b> Show Answer </b></summary>
+  
+ - It is a goal in maven, a plug-in can have any number of goals.
+ - Which specifies the metadata about the goal. The goal name, which phase of lifecycle it fits in and parameters its excepcting.
+ 
+</details>
+
+---
+
+13. Explain about Snapshot.
+
+<details><summary><b> Show Answer </b></summary>
+
+- It is a kind of version specifies the current development copy.
+- It checks for new snapshot version in a remote repository for every build.
+- It will automatically fetch for the new version during each build.
+
+</details>
+
+---
+
+14. List the type of plug-ins used in maven.
+
+<details><summary><b> Show Answer </b></summary>
+  
+- **Build plugins**-which is executed during the build and they should be configured in the <build/> from the POM.
+- **Reporting plugins**-which is executed during the site generation and they should be configured in the <reporting/> from the POM.
+  
+ </details>
+ 
+ ---
+  
+  
+
+
 
 
 
