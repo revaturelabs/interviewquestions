@@ -9,10 +9,13 @@
 
 <details><summary> <b>Show Answer</b> </summary>
   
-  **Ans**: No
+> No
   
-  **Explanation**: Java is not perfectly object oriented beacuse Primitive datatypes are included in java for fast execution. Wraper classes are used to convert primitives to objects.
+<details> <summary><b>Explanation</b></summary>
   
+> Java is not perfectly object oriented beacuse Primitive datatypes are included in java for fast execution. Wraper classes are used to convert primitives to objects.
+  
+</details>
 </details>
 
 2. What is boxing ?
@@ -20,8 +23,8 @@
 
     
 <details><summary> <b>Show Answer</b> </summary>
-  
-  **Ans**: The conversion of Primitive data types to Object is called Boxing.
+
+ > The conversion of Primitive data types to Object is called Boxing.
   
 </details>
 
@@ -29,7 +32,7 @@
 
 <details><summary> <b>Show Answer</b> </summary>
   
-  **Ans**: The conversion of Object to primitive datatype is called Unboxing.
+> The conversion of Object to primitive datatype is called Unboxing.
   
 </details>
 
@@ -40,7 +43,7 @@
 
 <details><summary> <b>Show Answer</b> </summary>
   
-  **Ans**: 
+  
   ``` java
   // primitive int i
   int i =1;
@@ -56,8 +59,7 @@
 
 
 <details><summary> <b>Show Answer</b> </summary>
-  
-  **Ans**: 
+ 
   ``` java
   // wrapper object of type Integer
   Integer i =1;
@@ -75,13 +77,23 @@
 <summary><b>Show Answer</b></summary>
   
  > Yes, wrapper classes are immutable.
- > 
+ > wrapper classses are used to store data i collections and as a developer one doesnt wish that all the values in collection are changed just because a primitive value is changed. 
  
   
   
   
   
 </details>
+
+7. How does wrapper class work Internally?
+
+<details>
+  
+<summary><b>Show Answer</b></summary>
+  
+> when a wrapper class is created the primitive data type is stored as a field in the  wrapper class and an object reference is created.
+</details>
+
 
 
 ## Problem solving
