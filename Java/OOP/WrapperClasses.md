@@ -96,12 +96,6 @@
 
 
 
-## Problem solving
-
-1. 
-
-
-
 ## Error Detection
 
 1. 
