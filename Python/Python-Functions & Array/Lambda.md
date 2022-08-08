@@ -1,9 +1,9 @@
 ## Lambda
-1.What is lambda function?
+1.What is a lambda function?
 
 <details><summary> <b>Show Answer</b> </summary>
   
-Lambda function is an anonymous function is a function that is defined without a name.Lambda functions can have any number of arguments but only one expression. The expression is evaluated and returned. Lambda functions can be used wherever function objects are required.
+Lambda function is an anonymous function that is defined without a name and it can have any number of arguments but only one expression. The expression is evaluated and returned. Lambda functions can be used wherever function objects are required.
 
 Syntax:
    lambda arguments: expression
@@ -18,7 +18,7 @@ print(double(5))
 10
 </details>
 
-2.Look at the code carefully and Predict the output of the following code.
+2. Predict the output of the following code.
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -35,7 +35,7 @@ TypeError: 'list' object is not callable
   
 </details>
 
-3.Debug the following code and give the correct code?
+3.Debug and correct the following code and predict the output?
 
 ```python
 #Type your answer here.
@@ -46,7 +46,7 @@ print(L(i))
 <details><summary> <b>Hint</b> </summary>
   You can start your function as following: lambda x: 
   
-And then write your statement after the colon (:)
+And, write your statement after the colon (:)
   
   </details> 
 
@@ -66,7 +66,7 @@ print(L(i))
 
 
 <details><summary> <b>Show Answer</b> </summary>
-The functionality of both functions and lambda functions are similar. But, we need to write some extra code in normal functions compared to lambda functions for the same functionality.
+The functionality of functions and lambda functions are similar. But, we need to write some extra code in functions compared to lambda functions for the same functionality.
 
 Lambda functions come in handy when there is a single expression.
   
@@ -94,7 +94,7 @@ print(L(i))
   
 </details>
 
-5.What will be the output of the following code?
+5.What is the output of the following code?
 
 ```python
 i=10
@@ -122,7 +122,7 @@ print(f(i))
   
  </details>
  
- 6.What will be the output of the following code?
+ 6.What is the output of the following code?
  
  ```python
 min = (lambda x, y: x if x < y else y)
@@ -141,25 +141,25 @@ C.816
   
 </details>
 
-7.Does lambda contains return statements?
+7.Does lambda contain return statements?
 
-- A.True
-- B.False
+- A.Yes
+- B.No
 
 <details><summary> <b>Show Answer</b> </summary>
   
 **Ans**:
   
-  B.False
+  B.No
 
 <details><summary> <b>Explanation</b> </summary>  
   
- lambda definition does not include a return statement. it always contains an expression which is returned. Also note that we can put a lambda definition anywhere a function is expected. We don’t have to assign it to a variable at all.
+ Lambda definition does not include a return statement and it always contains an expression which is returned. Also, note that we can put a lambda definition anywhere a function is expected. We don’t have to assign it to a variable.
 
   </details>
   </details>
   
-8.Write a lambda function which takes two arguments: a and b and returns the multiplication of them: a*b.
+8.Write a lambda function which takes two arguments as a and b and returns the multiplication of them as a*b.
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -179,7 +179,7 @@ print(f(i, j))
   
   </details>
   
-9.Write a python program to sort the given list in ascending order with lambda function.(Get input from user)
+9.Write a python program to sort a given list in ascending order with lambda function.(Get input from user)
   
   <details><summary> <b>Show Answer</b> </summary>
   
@@ -196,7 +196,7 @@ print(lst)
 [4, 8, 10, 23, 666]
 </details>
 
-10.What will be the output of the following code?
+10.What is the output of the following code?
 
 ```python
 y = 6
@@ -211,25 +211,25 @@ print (z(7))
   
 <details><summary> <b>Explanation</b> </summary>  
   
-The lambda keyword creates an anonymous function. The x is a parameter, that is passed to the lambda function. The parameter is followed by a colon character. The code next to the colon is the expression that is executed, when the lambda function is called. The lambda function is assigned to the z variable.
-The lambda function is executed. The number 7 is passed to the anonymous function and it returns 117649 as the result. Note that z is not a name for this function. It is only a variable to which the anonymous function was assigned.
+The lambda keyword creates an anonymous function. The x is a parameter that is passed to the lambda function and the parameter is followed by a colon character. The code next to the colon is the expression that is executed when the lambda function is called and, the lambda function is assigned to the z variable.
+The lambda function is executed. The number 7 is passed to the anonymous function and it returns 117649 as the result. Note that z is not a name for this function and it is only a variable to which the anonymous function was assigned.
   </details>
   </details>
   
-11.What is map and filter in Python?
+11.What is a map and a filter in Python?
 
 <details><summary> <b>Show Answer</b> </summary>
   
-1.The map function takes each item in a given iterable and and includes all of them in a new lazy iterable, transforming each item along the way.
+1.The map function takes each item in the given iterable and includes all of them in a new lazy iterable, transforming each item along the way.
   
-2.The filter function doesn't transform the items, but it's selectively picks out which items it should include in the new lazy iterable.
+2.The filter function doesn't transform the items, but it selectively chooses the items to be included in the new lazy iterable.
 
 **Syntax of map() function**:
   
      map(function,sequence)
   
 where,
-- function – function argument responsible for applied on each element of the sequence
+- function – function argument responsible to be applied on each element of the sequence
 - sequence – Sequence argument can be anything like list, tuple, string  
   
 **Syntax of filter() function**:
@@ -241,11 +241,11 @@ where,
 - sequence – Sequence argument can be anything like list, tuple, string
 </details>
 
-12.What is use of reduce() function in python?
+12.What is the use of reduce() function in python?
 
 <details><summary> <b>Show Answer</b> </summary>
   
-In Python, the reduce() function is used to minimize sequence elements into a single value by applying the specified condition. The reduce() function is present in the functools module; hence, we need to import it using the import statement before using it.
+In Python, the reduce() function is used to minimize sequence elements into a single value by applying the specified condition. The reduce() function is present in the functools module and hence, we need to import it using the import statement before using it.
 
 **Syntax of reduce() function**:
   
@@ -253,18 +253,18 @@ In Python, the reduce() function is used to minimize sequence elements into a si
   
   </details>
   
-13.What is difference between filter and reduce in python?
+13.What is the difference between filter and reduce in python?
   
 <details><summary> <b>Show Answer</b> </summary>
   
 **Filter**:
-   - filter is used to spliting the data.
+   - filter is used to split the data.
    - Function is a boolean condition that rejects all the items in the iterable object that are not true.
    - Syntax: filter(function,iterable object)
    - Example: All the even numbers from a list.
 **Reduce**:
-   - reduce function used to single output operations.
-   - Breaks down the entire process of the applying the function into pair-wise operations.
+   - reduce function is used for single output operations.
+   - Breaks down the entire process of applying the function into pair-wise operations.
    - Syntax: reduce(function,iterable object)
    - Example: Product of all the items in the list.
   
@@ -287,7 +287,7 @@ print(lst)
 [-1, -0.5, -0.2, -100]
 </details>
   
-15.What will be the output of the following code?
+15.What is the output of the following code?
   
 ```python
 str1="Welcome to my new world"
@@ -303,15 +303,15 @@ print(lst)
   
 <details><summary> <b>Explanation</b> </summary>
  
-  - You can use filter(f, list). Make sure your function is a logical statement to facilitate the filtering process.
+  - It could be used as filter(f, list). Make sure your function is a logical statement to facilitate the filtering process.
   - Since filter() function will return an iterator, you can use list() function to convert it to a proper Python list.
-  - To create a lambda function with logical expression you can implement something like this:
+  - To create a lambda function with logical expression, you can implement something like the following:
 
     **lambda x: True if x in ….else False**
   </details>
   </details>
 
-16.Write a python program using map() and filter() functions add the values below 80. 
+16.Write a python program using map() and filter() functions to add the values below 80. 
   
 <details><summary> <b>Show Answer</b> </summary>  
   
@@ -322,9 +322,9 @@ print(lst2)
 ```
 <details><summary> <b>Explanation</b> </summary> 
   
-- You can use filter(f, list). Make sure your function is a logical statement to facilitate the filtering process.
-- Since filter() function will return an iterator, you can use list() function to convert it to a proper Python list.
-- You can use filter() function inside your map() function:
+- We could use filter(f, list). Make sure your function is a logical statement to facilitate the filtering process.
+- Since filter() function will return an iterator, we can use list() function to convert it to a proper Python list.
+- You can use filter() function inside the map() function:
   
   map(f, list)
   
@@ -335,7 +335,7 @@ print(lst2)
 </details>
  </details>                                                        
                                  
-17.What will be the output of the following code?
+17.What is the output of the following code?
 
 ```python
 lst1=[22, 100, 19, 13, 11, 1, 4, 66]
@@ -350,7 +350,7 @@ print(lst2)
 
 <details><summary> <b>Explanation</b> </summary>
   
-  - You can use filter(f, list). Make sure your function is a logical statement to facilitate the filtering process.
+  - We could use filter(f, list). Make sure the function is a logical statement to facilitate the filtering process.
   - Since filter() function will return an iterator, you can use list() function to convert it to a proper Python list.
 </details>
 
@@ -368,7 +368,7 @@ print(m)
   </details>
   
 <details><summary> <b>Explanation</b> </summary>
-The code shown above can be used to find the maximum of the elements from the given list. In the above code, this operation is achieved by using the programming tool reduce. Hence the output of the code shown above is 5.
+The code shown above can be used to find the maximum of the elements from the given list. In the above code, the operation is achieved by using the programming tool reduce. Hence, the output is 5.
 
 </details>
 
