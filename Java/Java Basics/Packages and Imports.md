@@ -1,3 +1,5 @@
+## Packages and Imports
+
 1: Why do we need packages?
  <details>
       <summary><b> Show Answer </b></summary> 
@@ -44,5 +46,3 @@
   - We can add subpackages along with this like `com.example.packagename`.
   - The special characters are not allowed for naming
   - If the domain contains number, we have to use underscore. `12example.com` domain can be coverted as package name as `com._12example`.
-   
-   ---
