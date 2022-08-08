@@ -308,6 +308,21 @@ public class Circle {
 	
 </details>
 
+11. How to create an immutable class in java?
+
+<details><summary><b> Show Answer </b></summary>
+	
+> A class is considered as imputable if once an object is created, then its contents cant be modified.
+	
+> An immutable class can be created by
+> 1. Declaring all the feilds as private to avoid access. 
+> 2. Declaring the class as final to avoid overriding of methods.
+> 3. Declare class as final to avoid ineritance.
+> 4. intializing data using a parameterized constructor 
+> 5. retriving data using a getter method to avoid getting direct access to the object reference.
+
+
+</details>
 
 
 ## Real-time Application
