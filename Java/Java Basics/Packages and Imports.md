@@ -33,6 +33,7 @@
 - <span style="color:blue">*</span> will import all the classes, interfaces, enums and annotations.
 - It will not import the sub packages and components in sub packages.
 - If we want to import sub package, we will have to specify the sub package.
+</details>
 
 ---
 
@@ -46,3 +47,5 @@
   - We can add subpackages along with this like `com.example.packagename`.
   - The special characters are not allowed for naming
   - If the domain contains number, we have to use underscore. `12example.com` domain can be coverted as package name as `com._12example`.
+
+---
