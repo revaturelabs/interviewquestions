@@ -82,8 +82,6 @@ public class ATM {
 > 2. when behavior is specified but the implementation of the behavior can be altered.
 > 3. To implement Multiple Inheritance of value.
 
-
-
 </details>
 
 
