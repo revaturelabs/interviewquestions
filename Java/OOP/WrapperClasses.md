@@ -73,6 +73,9 @@
 <details>
   
 <summary><b>Show Answer</b></summary>
+  
+ > Yes, wrapper classes are immutable.
+ > 
  
   
   
