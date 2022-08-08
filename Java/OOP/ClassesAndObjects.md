@@ -18,7 +18,7 @@ public class Game {
 
 ```
 
-<details><summary>Show Answer</summary>
+<details><summary><b>Show Answer</b></summary>
 
  The above code creates a compile-time error, The object "g" is declared but not initialized, and It is not possible to use an object of a class without Initializing it.
 
@@ -31,7 +31,7 @@ public class Child extends Parent, Grandparent{
 	// code
 }
 ```
-<details><summary>Show Answer</summary>
+<details><summary><b>Show Answer</b></summary>
 
  compilation error is caused because a class can extend only one parent class.
 
@@ -47,7 +47,7 @@ private class Main{
 
 ```
 
-<details><summary>Show Answer</summary>
+<details><summary><b>Show Answer</b></summary>
 
 compilation error is caused because a class can be public, abstract and final but not private unless it's a nested class.
 
@@ -64,7 +64,7 @@ compilation error is caused because a class can be public, abstract and final bu
 - C. Nested Class
 - D. None of the above
 
-<details><summary>Show Answer</summary>
+<details><summary><b>Show Answer</b></summary>
 
  C
 	
@@ -89,7 +89,7 @@ compilation error is caused because a class can be public, abstract and final bu
 - C. Object
 - D. None of the above
 
-<details><summary>Show Answer</summary>
+<details><summary><b>Show Answer</b></summary>
 
 C
 	
@@ -100,7 +100,7 @@ C
 
 4. What are the benefits of using Objects?
 
-<details><summary>Show Answer</summary>
+<details><summary><b>Show Answer</b></summary>
 	
 
 	
@@ -120,7 +120,7 @@ C
 - D. Default or public, static.
 
 
-<details> <summary>Show answer</summary>
+<details> <summary><b>Show answer</b></summary>
 
  A
 	
@@ -157,14 +157,14 @@ d. Used to create more than one instance of a class, and to add new fields and m
 - D. 1-b, 2-c, 3-d, 4-a
 
 <details>
-	<summary>Show Answer</summary>
+	<summary><b>Show Answer</b></summary>
 	C
 
 </details>
 
 7. How to destroy an object in java?
 
-<details><summary>Show Answer</summary>
+<details><summary><b>Show Answer</b></summary>
 
 >  An object can not be directly destroid in java. by setting all the references to object as null, the object is eligible for garbage collection.
 
@@ -296,7 +296,7 @@ public class Circle {
 - D. Interface with a single abstract method and lambda.
 
 <details>
-<summary>Show Answer</summary>
+<summary><b>Show Answer</b></summary>
 	
 D
 <details><summary><b>Explanation:</b></summary> a code with a single purpose translates to a class/ interface with a single method, functional interface is the best way to implement this scenario and lambda implementation in each device, makes the code concise, easily readable and maintainable.
