@@ -4,16 +4,16 @@
 
 <details><summary><b>Show Answer</b></summary>
 
-- In python we are using open() built-in function to make a file.
+- In python we are using `open()` built-in function to make a file.
+```python
 open("myfile.txt","W+")
+```
 - This is the only open method that may create the file if it's not present.
 - To add content in fresh created file,You should open the file in write mode.
-- There are 2 arguments are passed to the open() builtin function- the name of the file and mode the file (w+).
-Here,
-
-- w– produce the file in write mode
-
-- +– create a file if it’s not present within the current directory.
+- There are 2 arguments are passed to the `open()` builtin function- the name of the file and mode the file (w+).
+	Here,
+	- `w–` produce the file in write mode
+	- `+–` create a file if it’s not present within the current directory.
 
 **Note**: File will be created within the current directory (the directory wherever your Python code is running).
 
