@@ -59,12 +59,10 @@
 interface Greetings {
 	void greet();
 }
-
 public class test {
 	public static void main(String[] args) {
 		Greetings g = () -> System.out.println("HelloWorld");
 		g.greet(); // Output: HelloWorld
-
 	}
 } 
 ```
@@ -274,7 +272,6 @@ public interface Supplier<T>{
 ``` java  
 
 @FunctionalInterface
-
 interface Arithmetic {  
     void addition(String msg);  
     void subtraction();
@@ -306,7 +303,6 @@ public class Addition {
         y = sc.nextInt();  
         sum = sum(x, y);  
         System.out.println("The sum of two numbers x and y is: " + sum); 
-         
    } 
    public static int Sum(int a, int b)  {  
        int sum = a + b;  
@@ -350,9 +346,7 @@ interface Sum{
  ``` java
 
  public class AnonymousClassExample  {
- 
     public static void main(String[] args) {
- 
         Runnable runnable = new Runnable(){
             public void run(){
                 System.out.println("Convertion of Anonymous class into Lamda");
@@ -399,7 +393,6 @@ interface Single{
 }  
 @FunctionalInterface  
 interface Double extends Single{  
-  
     void doIt();  
 }
 ```
