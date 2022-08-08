@@ -4,7 +4,9 @@
 
 <details> <summary> <b> Show Answer </b> </summary>
 
-- It refers to dierctories of packaged jar files that contains metadata about the project.
+- A Maven Repository is a location, generally on a filesystem (either remote or local), where maven artifacts are stored and managed.
+- In Maven terminology, a repository is a directory where all the project jars, library jar, plugins or any other project specific artifacts are  
+  stored and can be used by Maven easily.
 
 </details>
 
@@ -15,7 +17,7 @@
 <details> <summary> <b> Show Answer </b> </summary>
 
 - Local repository - present in developer's machine.
-- Remote repository - present in web server.
+- Remote repository - hosted on intranet web server to be used by companies in their own primies.
 - Central repository - present in maven community.
 
 </details>
@@ -32,12 +34,13 @@
 
 ---
 
-4. Explain about remote repository.
+4. Explain about Remote repository.
 
 <details> <summary> <b> Show Answer </b> </summary>
 
-- Which refers to the repository present in web server. Used when maven needs to download the dependencies.
-- It is same as central repository.If we want anything from remote repository, have to download the required file from local repository. 
+- Which refers to the repository hosted on intranet web server to be used by companies in their own primies. Used when maven needs to download the   dependencies.
+- Remote repository work exactly same way as maven’s central repository. Whenever an artifact is needed, it is downloaded to developer’s local    
+  repository and then it is used.
 
 </details>
 
@@ -61,10 +64,12 @@
 <code>
 
 	<dependency>
-  		<groupId>........</groupId>
-  		<artifactId>........</artifactId>
-  		<version>.......</version> 
-  	</dependency>
+	<groupId>com.baeldung</groupId>
+	<artifactId>custom-project</artifactId>
+	<version>1.3.2</version>
+	<type>pom</type>
+	<scope>import</scope>
+	</dependency>
 
 </code>
 
