@@ -68,6 +68,18 @@
 
 </details>
 
+6. Are wrapper classes immutable? justify the answer.
+
+<details>
+  
+<summary><b>Show Answer</b></summary>
+ 
+  
+  
+  
+  
+</details>
+
 
 ## Problem solving
 
