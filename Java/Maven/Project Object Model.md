@@ -15,7 +15,7 @@
 
 <details><summary><b> Show Answer </b></summary>
 
-- pom.xml file will store the project structure and instructtions for maven to build the project such as dependencies, source code,plugins, goals 
+- pom.xml file will store the project structure and instructions for maven to build the project such as dependencies, source code,plugins, goals 
   etc.
 
 </details>
