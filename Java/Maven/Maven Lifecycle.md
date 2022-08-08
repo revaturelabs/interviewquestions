@@ -6,14 +6,14 @@
 
 Here are some of the most important phases in the default build lifecycle:
  
-  - validate: check if all information necessary for the build is available
-  - compile: compile the source code
-  - test-compile: compile the test source code
-  - test: run unit tests
-  - package: package compiled source code into the distributable format (jar, war, …)
-  - integration-test: process and deploy the package if needed to run integration tests
-  - install: install the package to a local repository
-  - deploy: copy the package to the remote repository
+  - `validate`: check if all information necessary for the build is available
+  - `compile`: compile the source code
+  - `test-compile`: compile the test source code
+  - `test`: run unit tests
+  - `package`: package compiled source code into the distributable format (jar, war, …)
+  - `integration-test`: process and deploy the package if needed to run integration tests
+  - `install`: install the package to a local repository
+  - `deploy`: copy the package to the remote repository
 
 </details>
 
@@ -49,10 +49,10 @@ Here are some of the most important phases in the default build lifecycle:
 <details><summary><b> Show Answer</b></summary>
 
 - Clean lifecycle can be executed by running the command `mvn post-clean`.
-- Which can be of follwing phases
-    - pre - cleam
-    - clean
-    - post - clean
+- Which can be of following phases
+    - `pre - clean`
+    - `clean`
+    - `post - clean`
 
 </details>
 
@@ -62,13 +62,13 @@ Here are some of the most important phases in the default build lifecycle:
 
 <details><summary><b> Show Answer</b></summary>
 
-- mvn compile:used to compile the project’s source code.
-- mvn clean: project is cleaned to remove all previous-build files generated.
-- mvn test:one can run project testing steps.
-- mvn test-compile:used to compile the code from the test source.
-- mvn install:deploys the packaged WAR/JAR files storing them as classes in the local repository.
-- mvn package:one packages or creates a project WAR or JAR file to be able to use a distributable format.
-- mvn deploy:which occurs after compilation, running project tests and project building.
+- `mvn compile`: used to compile the project’s source code.
+- `mvn clean`: project is cleaned to remove all previous-build files generated.
+- `mvn test`:one can run project testing steps.
+- `mvn test-compile`:used to compile the code from the test source.
+- `mvn install`:deploys the packaged WAR/JAR files storing them as classes in the local repository.
+- `mvn package`:one packages or creates a project WAR or JAR file to be able to use a distributable format.
+- `mvn deploy`:which occurs after compilation, running project tests and project building.
 
 </details>
 
