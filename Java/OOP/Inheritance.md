@@ -121,6 +121,10 @@ Exteding more than one class leads to multiple inheritance of state in java.
 
 </details>
 
+10. What is Upcasting?
+
+11. What is Downcasting?
+
 
 
 
