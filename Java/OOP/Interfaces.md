@@ -164,6 +164,35 @@ B
 
 </details>
 
+---
+
+9. What is Multiple Inheritance of implementation using Interfaces?
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+	
+> 
+
+</details>
+
+---
+
+
+
+11. 9. What is Multiple Inheritance of value using Interfaces?
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+	
+> 
+
+</details>
+
+
+
+
 
 
 ## Error Detection
@@ -186,6 +215,8 @@ interface Elevator{
 > methods in interface can not be final, because final methods can not be overriden. Interfaces are created so they can be implemented by a class and the methods of an inteface shoould have the possibility to be overriden.
 
 </details>
+
+---
 
 2. Identify the error in the following code snippet.
 
@@ -259,6 +290,7 @@ C
 </details>
 
 </details>
+
 
 
 
