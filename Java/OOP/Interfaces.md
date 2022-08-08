@@ -278,13 +278,13 @@ public class Circle implements Shape{
 
 
 
-## Senario Based
+## Scenario Based
 
-1. Kia launched 4 car models named seltos, carnival and sonnet with features like Front and Side Airbags, Highline Tyre Pressure Monitor, Hill assist control etc. from the 5th model kia wants to add a new featire of autopilot and self driving. Which of the following implemntations best represents the senario?
+1. Kia launched 4 car models named seltos, carnival, Carens and sonnet with features like Front and Side Airbags, Highline Tyre Pressure Monitor, Hill assist control etc. from the 5th model kia wants to add a new feature of autopilot and self driving. Which of the following implementations best represents the scenario?
 
 - A. A Kia interfcae with all features as abstract methods and models as classes that implemnt the kia interface.
 - B. A Kia Class with methods and features as abstract methods and models as class that inherit the kia.
-- C. A Kia intrface with all features as abstract methods except for new feature( autopilot) which is a default method and all models as classes that implement Kia.
+- C. A Kia interface with all features as abstract methods except for new feature( autopilot) which is a default method and all models as classes that implement Kia.
 - D. None of the above.
 
 <details>
