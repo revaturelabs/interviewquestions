@@ -101,7 +101,7 @@ A
 
   <summary><b>Show Answer</b> </summary>  
   
-> Static methods scope is 
+> Static methods are introduced in java 8 and static methods are added to intergrate helper methods into the interfce. if helper methods are created in a separate class it creates some problems with code cohesion.
     
 
    </details>
