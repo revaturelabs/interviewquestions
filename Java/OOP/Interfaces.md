@@ -209,17 +209,37 @@ public class Circle implements Shape{
 	
 }
 
-
-
-
-
 ```
+
+<details>
+	<summary><b>Show Answer</b></summary>
+	
+> A compile time error is created. eventhough the anonymous inner class overrides all the methods of the interface, The class Circle doesnt overrides them.
+
+</details>
+
 
 ## Senario Based
 
 1. Kia launched 4 car models named seltos, carnival and sonnet with features like Front and Side Airbags, Highline Tyre Pressure Monitor, Hill assist control etc. from the 5th model kia wants to add a new featire of autopilot and self driving. Which of the following implemntations best represents the senario?
 
-- A.
+- A. A Kia interfcae with all features as abstract methods and models as classes that implemnt the kia interface.
+- B. A Kia Class with methods and features as abstract methods and models as class that inherit the kia.
+- C. A Kia intrface with all features as abstract methods except for new feature( autopilot) which is a default method and all models as classes that implement Kia.
+- D. None of the above.
+
+<details>
+	
+	<summary><b>Show Answer</b></summary>
+C
+	
+	<summary><b>Explanation</b></summary>
+	
+> Kia(interface) has some models(Classes) that had some features till model 4 ( abstract methods in interface ), from model 5 a new feature auto pilot( method) is being added to upcomming kia car models. but the previous models doesnt support the autopilot( override the method) so the new feature is added as a default method which can be used by upcomming models.
+	
+	
+
+</details>
 
 
 
