@@ -73,18 +73,19 @@ public class ATM {
 <b>Abstract Class: </b>
 
 > 1. When classes are closely related and share the implementation an abstract class can be used. 
-> 2. 
-
-	
+> 2. To create unrelated classes with same methods and fields but with access modifiers other than public, i.e. private and protected.
+> 3. to declare non static and non final methods, which can be altered by creating methods and using an object of the class.
 	
 <b>Interface: </b>
 
 > 1. When classes are not related, they have same methods but different imolementations an interface is used.
-> 2. 
+> 2. when behavior is specified but the implementation of the behavior can be altered.
+> 3. To implement Multiple Inheritance of value.
 
 
 
 </details>
+
 
 ## Error Detection
 
