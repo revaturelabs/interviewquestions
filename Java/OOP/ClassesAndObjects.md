@@ -225,10 +225,59 @@ D
 
 <details><summary><b>Show Answer</b></summary>
 	
+> Interfaces and Abstract classes cant be initialized because they have abstract methods, so its not possibel to create an object for an Interface. but while creating an anonymous class an object can be created for interface and abstract method.
+	
 ``` java
+	
+interface Shape{
+	void area();
+	void circuference();
+}
+
+abstract class Dimension{
+	abstract void visibility();
+}
+
+public class Circle {
+	
+	
+	public static void main(String[] args) {
+		Shape  c = new Shape() {
+
+			@Override
+			public void area() {
+				System.out.println("3.14*r*r is the area of circle");
+				
+			}
+
+			@Override
+			public void circuference() {
+				System.out.println("3.14*r*r is the circufrence of circle");
+				
+			}
+			
+			
+		};
+		
+		Dimension d = new Dimension() {
+			
+			@Override
+			void visibility() {
+				System.out.println("A circle is 2D object or planar object");
+				
+			}
+		};
+		
+		
+		
+	}
+	
+}
+
 	
 	
 ```
+> In the above code, obejcts c and d are created for interface Shape and abstract class Dimension.
 	
 </details>
 
