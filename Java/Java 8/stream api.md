@@ -4,7 +4,7 @@
 
  <details><summary><b> Show Answer</b></summary>
 
- java.util.stream includes all the classes and interfaces used for functional-type operations. 
+ We should import java.util.stream, which includes all the classes and interfaces used for functional-type operations. 
 
  </details>
 
@@ -25,8 +25,14 @@
     
  <details><summary><b> Show Answer</b></summary>
 
-  - Stream API is a collection of objects which can be processed to get the desired result.
-  - Example: If we want to filter the movies released in 2022 from the movie database.
+ - Stream API is a collection of objects which can be processed to get the desired result. Example: If we want to filter the movies released in     
+   2022 from the movie database.
+ - A stream is a sequence of objects that supports various methods which can be pipelined to produce the desired result.
+   The features of Java stream are –
+   - A stream is not a data structure instead it takes input from the Collections, Arrays or I/O channels.
+   - Streams don’t change the original data structure, they only provide the result as per the pipelined methods.
+   - Each intermediate operation is lazily executed and returns a stream as a result, hence various intermediate operations can be pipelined.   
+     Terminal operations mark the end of the stream and return the result.
 
   </details>
 
@@ -47,10 +53,8 @@
 5:List some intermediate operations in Stream API.
 
  <details><summary><b> Show Answer</b></summary>
-
-- Filter - select elements based on the condition passed
-- Map - by applying the given function in the stream
-- Sorted - used to sort the stream
+ These are some intermediate operations used in Stream API.
+ ![image](https://user-images.githubusercontent.com/92523245/183340700-36890903-b56e-4875-b2c5-5f3b0e9e812b.png)
 
 </details>
 
@@ -59,10 +63,10 @@
 6: List some terminal operations in Stream API.
 
  <details><summary><b> Show Answer</b></summary>
+ 
+ These are some terminal operations used in Stream API.
 
-- collect - returns the result of intermediate operations.
-- forEach- used to iterate through the elements of the stream
-- reduce - to reduce the elements of the stream to one value
+![image](https://user-images.githubusercontent.com/92523245/183340851-0d37a284-efa2-4743-b2e1-ae56137139f0.png)
 
 </details>
   
@@ -128,6 +132,10 @@ Because stream API processes the elements as per pipelined operations without ch
 
 - map() - will work on the streams and transform the single input value into a single output.
 - flatMap() - will work on the streams and transform the single input value into multiple outputs by flattening it.
+- The primary difference between map() vs flatMap() is the return type of both methods.
+-  map() is used for transformation only, but flatMap() is used for both transformation and flattening.
+
+   ` flatMap() = map() + Flattening `
 
 </details>
 
@@ -147,7 +155,8 @@ Because stream API processes the elements as per pipelined operations without ch
 13: What is the use of count() terminal operations in stream API?
 
  <details><summary><b> Show Answer</b></summary>
-
+ 
+- The count() method returns the count of elements in a stream
 - when we need the result of the stream to be finite numbers.
 - Example: return the number of employees working in a particular department.
 
