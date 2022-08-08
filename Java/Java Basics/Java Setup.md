@@ -240,18 +240,19 @@ public static void main(String[] args)
 ---
 
 22: What is java sorce file extention?<br>
-      A)`.java`
-      B)`.class`
-      C)`.exe`
-      D)`.src`
+  -    A)`.java`
+  -   B)`.class`
+  -   C)`.exe`
+ -    D)`.src`
 
  <details>
       <summary><b> Show Answer </b></summary> 
   
    A) `.java`
-   
+   <details>
+      <summary><b> Explanation </b></summary> 
    - The source file is coded in `.java` extention before compiling.
-  </details>
+  </details> </details>
 
 ---
 
