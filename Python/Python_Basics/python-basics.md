@@ -954,32 +954,32 @@ print(x)
 
 ---
   
-41.Which of the following is not a built-in function in python?
+41. Which of the following is not a keyword in python?
   
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
   
- a) input()
+ a) assertion
   
- b) print()
+ b) elif
   
- c) type()
+ c) True
   
- d) count()
+ d) assert
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option is d) count()
+> Option is a) 
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> there is no function with name count() in python.
+> There is no keyword with the name assertion in python. 
   
   </details>
   </details>
 
 ---
   
-42.Which of the following is a built-in function in python?
+42.Which of the following is/are a built-in function in python?
   
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
   
@@ -987,13 +987,13 @@ print(x)
   
  b) avg()
   
- c) count()
+ c) countall()
   
  d) max() 
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option is d) max() 
+> Option is d) max()  
 
 <details><summary> <b>Explanation</b> </summary> 
   
@@ -1338,7 +1338,11 @@ if (a = b):  # line 2
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option is b).
-  
+<details><summary> <b>Explanation</b> </summary>
+
+> Option b) is correct because if we don't change the line 1 of the above code to a= b=1, it will result into "TypeError: cannot unpack non-iterable int object". If we don't change the line 2 to if(a==b):, it will result into "SyntaxError". 
+ 
+  </details>
 </details>
 
 ---
@@ -1437,7 +1441,7 @@ print(a)
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> In line 2 of the above code, it is invalid to assign the value of b to a at the time of increment.
+> It is invalid to assign and increment the value at the same line in python. Therefore, it will throw SyntaxError in line 2. 
   
   </details>
   </details>
