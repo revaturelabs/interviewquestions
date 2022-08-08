@@ -39,8 +39,7 @@
 <details> <summary> <b> Show Answer </b> </summary>
 
 - Which refers to the repository hosted on intranet web server to be used by companies in their own primies. Used when maven needs to download the   dependencies.
-- Remote repository work exactly same way as maven’s central repository. Whenever an artifact is needed, it is downloaded to developer’s local    
-  repository and then it is used.
+- Remote repository work exactly same way as maven’s central repository. Whenever an artifact is needed, it is downloaded to developer’s local     repository and then it is used.
 
 </details>
 
