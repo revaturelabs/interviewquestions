@@ -179,12 +179,47 @@ interface Elevator{
 
 
 
+interface Shape{
+	void area();
+	void circumference();
+}
+
+public class Circle implements Shape{
+	
+	
+	public static void main(String[] args) {
+		Shape  c = new Shape() {
+
+			@Override
+			public void area() {
+				System.out.println("3.14*r*r is the area of circle");
+				
+			}
+
+			@Override
+			public void circumference() {
+				System.out.println("3.14*r*r is the circufrence of circle");
+				
+			}
+			
+			
+		};
+		
+	}
+	
+}
+
+
+
+
 
 ```
 
 ## Senario Based
 
 1. Kia launched 4 car models named seltos, carnival and sonnet with features like Front and Side Airbags, Highline Tyre Pressure Monitor, Hill assist control etc. from the 5th model kia wants to add a new featire of autopilot and self driving. Which of the following implemntations best represents the senario?
+
+- A.
 
 
 
