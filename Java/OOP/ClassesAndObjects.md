@@ -89,6 +89,7 @@ compilation error is caused because a class can be public, abstract and final bu
 <details><summary><b>Show Answer</b></summary>    
  A 
 </details>
+
 ---
 
 3. What is the implicit superclass for all java classes?
@@ -107,6 +108,8 @@ C
 </details>
 </details>
 
+---
+
 4. What are the benefits of using Objects?
 
 <details><summary><b>Show Answer</b></summary>
@@ -120,6 +123,8 @@ C
 	  deleted.
 	
 </details>
+
+---
 
 5. Variables declared in an interface are?
 
@@ -144,6 +149,8 @@ C
 
 </details>
 </details>
+
+---
 
 6. choose the right answer.
 
@@ -171,6 +178,8 @@ d. Used to create more than one instance of a class, and to add new fields and m
 
 </details>
 
+---
+
 7. How to destroy an object in java?
 
 <details><summary><b>Show Answer</b></summary>
@@ -178,6 +187,8 @@ d. Used to create more than one instance of a class, and to add new fields and m
 >  An object can not be directly destroid in java. by setting all the references to object as null, the object is eligible for garbage collection.
 
 </details>
+
+---
 
 8. How many object references are present after executing the following code?
 
@@ -195,6 +206,8 @@ s=null;
 one reference will be left after executing the code snippet(arr[0]--> s).
 
 </details>
+
+---
 
 9. Which of the following options best explains the folowing code snippet?
 
@@ -231,6 +244,8 @@ D
 
 
 </details>
+
+---
 
 
 10.  Write a code where an object is created for an Interface or abstract class.
