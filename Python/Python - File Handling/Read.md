@@ -21,13 +21,16 @@ Here,
 
 ---
 
-2.Can you tell me how will you open the file in python?
+2.What is the procedure to open the file in python?
 
 <details><summary><b>Show Answer</b></summary>
 
 We can use the same code as what we have used for creating a file.
+	
+```python	
 open("myfile.txt","r") as fObj6.
-
+```
+	
 </details>
 
 ---
@@ -150,7 +153,7 @@ Line4: world
 
 ---
 
-9.Can we read file without opening? Which funtion used to open a file?
+9.How will you read a file without opening? Which funtion used to open a file?
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -281,11 +284,11 @@ Option c
 
 <details><summary><b>Explanation</b></summary>
 
-r: This mode opens an existing file to read-only mode. The file pointer exists at the beginning.
+> r: This mode opens an existing file to read-only mode. The file pointer exists at the beginning.
 
-ab+:This mode used to opens a file to append and read both in binary format.
+> ab+:This mode used to opens a file to append and read both in binary format.
 
-wb+: This is used opens the file to write and read both in binary format.
+> wb+: This is used opens the file to write and read both in binary format.
 
 </details>
 </details>
