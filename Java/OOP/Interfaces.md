@@ -192,6 +192,16 @@ B
 
 </details>
 
+11. Is it possible to override the static method of interface?
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+	
+> No, static methods can not be overriden, if a method is created in the class that implements the method with same name as static method in the interface, its considered as method hiding.
+	
+
+</details>
 
 
 
@@ -272,6 +282,8 @@ public class Circle implements Shape{
 
 
 ``` java
+
+
 
 
 
