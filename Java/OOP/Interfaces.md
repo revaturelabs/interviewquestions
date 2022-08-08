@@ -29,9 +29,7 @@ A
 <details>
   <summary><b>Show Answer</b></summary>
 
- A
- <details>
-  <summary>Explanation</summary> 
+
     
 >	Marker Interfaces are empty Interfaces (no fields or methods).
 > Marker interfaces are used to pass the information to JVM that a certain object of a class can implement methods like Serializable, Cloneable etc.
