@@ -1473,29 +1473,19 @@ print(a)
 
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
 
- a) 
-   ```python  
-   for i in range(4)     
-   &emsp;&emsp;print(i) 
-   ```
+ a) for i in range(4)     
+    &emsp;&emsp;print(i) 
+ 
   
- b)
-  ```python 
-  for i in range(4):     
-  &emsp;&emsp;print(i) 
-  ```
+ b) for i in range(4):     
+    &emsp;&emsp;print(i) 
   
- c)
-  ```python    
-  for i range(4):     
-  &emsp;&emsp;print(i) 
-  ```
   
- d)
-  ```python
-  fro i in range(4):   
-  &emsp;&emsp;print(i)
-  ```
+ c) for i range(4):     
+    &emsp;&emsp;print(i) 
+  
+ d) fro i in range(4):   
+    &emsp;&emsp;print(i)
   
 <details><summary> <b>Show Answer</b> </summary>
   
