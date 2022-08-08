@@ -15,12 +15,13 @@
 
 ---
 
-2: Why do we need imports?
+2: What is the purpose of `import` statement?
 <details>
     <summary><b> Show Answer </b></summary> 
 
-- To get the access of classes from another package imports are used.
-- The special character <span style="color:blue">*</span> is used to select all classes, interfaces, enums and annotation.
+- To get the access of classes/interfaces/enumns from another package, we need to use `import` statement.
+- Example: `import java.util.*` or `import java.util.Scanner`
+- The special character <span style="color:blue">*</span> is used to select all classes, interfaces, enums and annotation from the package.
 - We can also import the particular class of the package which will avoid neccessary imports and increases the performance.
 </details>
 
@@ -42,10 +43,9 @@
       <summary><b> Show Answer </b></summary> 
   
   - To avoid naming collision in name with class interface, the package name should be in small letters.
-  - The naming shold be in reverse form of the domain.
-  - If the domain is `example.com`, the package name should be `com.example` which reverse od domain.
-  - We can add subpackages along with this like `com.example.packagename`.
-  - The special characters are not allowed for naming
+  - The naming should be in reverse form of the domain.
+  - If the domain is `example.com`, the package name should be `com.example` which is reverse form of domain.
+  - We can add subpackages along with `com.example` like `com.example.packagename`.
+  - The special characters are not allowed for naming a  packages
   - If the domain contains number, we have to use underscore. `12example.com` domain can be coverted as package name as `com._12example`.
-
 ---
