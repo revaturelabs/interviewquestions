@@ -37,7 +37,7 @@ Here are some of the most important phases in the default build lifecycle:
 
 - It depends on the order of which goals and phases invoked.
 - Here clean and package are arguments of build phase , others are termed ad goals.
-- Example : ` mvn clean dependency:copy-dependencies package`.
+- **Example** : ` mvn clean dependency:copy-dependencies package`.
 - Clean will be executed first then dependency and finally package will be executed.
 
 </details>
