@@ -22,7 +22,7 @@
 
 ---
 
-3. Does maven need Java to be executed?
+3. Does maven need jdk to execute various goals?
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -30,7 +30,8 @@ Yes
 
 <details> <summary> <b> Explanation </b> </summary>
 
-- We need Java to execute maven. Java should be installed to set <code> JAVA_HOME environment varaiable </code> to point to a valid Java SDK(Like Java 8)
+- We need compatible version of jdk to execute maven. jdk should be installed & JAVA_HOME environment variable should be set properly. 
+-  We need Java to execute maven. Java should be installed to set <code> JAVA_HOME environment varaiable </code> to point to a valid Java SDK(Like Java 8)
 
 </details>
 
@@ -41,7 +42,7 @@ Yes
 
 <details> <summary> <b> Show Answer </b> </summary>
 
-- POM (Project Object Model)- which is an XML file having the details of project  strccture and contents termed as pom.xml file.
+- POM (Project Object Model)- which is an XML file having the details of project  structure and contents termed as pom.xml file.
 
 </details>
 
@@ -54,9 +55,9 @@ Yes
 - Generate source code
 - Create documentation from the source code generated.
 - Compiles the source code
-- Packages the compiled code into JAR of ZIP file.
-- Install the packaged code into Local repository, Server repository and Central repository.
-
+- Packages the compiled code into JAR, WAR, EAR file.
+- Install the packaged code into Local, Remote repository.
+ 
 </details>
 
 ---
@@ -70,8 +71,7 @@ Yes
 
 <code>
 
-mvn archetype:generate -DgroupId=groupid -DartifactId=artifactid   
--DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=booleanValue
+mvn archetype:generate -DgroupId=groupid -DartifactId=artifactid -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=booleanValue
 
 </code>
 
@@ -114,19 +114,20 @@ java com.javatpoint.App
 
 ---
 
-9. How to package a maven project?
+9. List the valid lifecycle goals in maven?
 
 <details> <summary> <b> Show Answer </b> </summary>
 
-- mvn package command completes the maven lifecycle as
-    1. validate
-    2. compile
-    3. test
-    4. package
-    5. integration
-    6. verify
-    7. install
-    8. deploy
+Here are some of the most important phases in the default build lifecycle:
+ 
+  - validate: check if all information necessary for the build is available
+  - compile: compile the source code
+  - test-compile: compile the test source code
+  - test: run unit tests
+  - package: package compiled source code into the distributable format (jar, war, …)
+  - integration-test: process and deploy the package if needed to run integration tests
+  - install: install the package to a local repository
+  - deploy: copy the package to the remote repository
 
 </details>
 
@@ -180,13 +181,21 @@ java com.javatpoint.App
 
 <details> <summary> <b> Show Answer </b> </summary>
 
-- It is to set up all the requirements to run a java program independently. Which generates source code, compile and package the code into JAR file.
+- Build tools are programs that automate the creation of executable applications from source code (e.g., .apk for an Android app, jar war for java apps). Building incorporates compiling,linking and packaging the code into a usable or executable form.
+ 
+- Basically build automation is the act of scripting or automating a wide variety of tasks that software developers do in their day-to-day activities like:
+ 
+  1. Downloading dependencies.
+  2. Compiling source code into binary code.
+  3. Packaging that binary code.
+  4. Running tests.
+  5. Deployment to production systems.
 
-</details>
+ </details>
 
 ---
 
-15. List some general phrases used in Maven.
+15. List the most common terms encountered while using Maven.
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -198,7 +207,21 @@ java com.javatpoint.App
 </details>
 
 ---
+16. Why do we use build tools or build automation?
 
+<details> <summary> <b> Show Answer </b> </summary>
+
+- In small projects, developers will often manually invoke the build process. This is not practical for larger projects, where it is very hard to keep track of what needs to be built, in what sequence and what dependencies there are in the building process. Using an automation tool allows the build process to be more consistent.
+ 
+Various build tools available(Naming only few):
+ 
+   - For java - Ant,Maven,Gradle.
+   - For .NET framework - NAnt
+   - C# - MsBuild
+ 
+</details>
+
+---
 
 
 
