@@ -1,8 +1,8 @@
-1:Explain throw statement?
+1:Explain `throw` statement?
 <details><summary><b> Show Answer</b></summary>
-<summary><b> Explanation</b></summary>
+<details><summary><b> Explanation</b></summary>
 The throw statement is used to throw an exception explicitly.We specify the exception object which is to be thrown. The Exception has some message with it that provides the error description. These exceptions may be related to user inputs, server, etc.We can throw either checked or unchecked exceptions in Java by throw keyword. 
-</details>
+</details></details>
 	
 ---
 	
