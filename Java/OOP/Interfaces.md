@@ -101,8 +101,7 @@ A
 
   <summary><b>Show Answer</b> </summary>  
   
-> - 
-
+> Static methods scope is 
     
 
    </details>
@@ -183,6 +182,9 @@ interface Elevator{
 
 ```
 
+## Senario Based
+
+1. Kia launched 4 car models named seltos, carnival and sonnet with features like Front and Side Airbags, Highline Tyre Pressure Monitor, Hill assist control etc. from the 5th model kia wants to add a new featire of autopilot and self driving. Which of the following implemntations best represents the senario?
 
 
 
