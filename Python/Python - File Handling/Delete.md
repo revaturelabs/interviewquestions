@@ -32,6 +32,8 @@ The remove objects and path are described in the os module.So,you have to import
 3.Write a program to check if file is exist or not?
 
 <details><summary><b>Show Answer</b></summary>
+    
+> If i want to check the given file is exist or not for that we can use .exists("file_name").
 
 ```python
 import os
