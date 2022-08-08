@@ -54,6 +54,7 @@
 
  <details><summary><b> Show Answer</b></summary>
  These are some intermediate operations used in Stream API.
+ 
  ![image](https://user-images.githubusercontent.com/92523245/183340700-36890903-b56e-4875-b2c5-5f3b0e9e812b.png)
 
 </details>
