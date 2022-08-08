@@ -186,7 +186,9 @@ B
 
 <summary><b>Show Answer</b></summary>
 	
-> 
+> A class can implemnt multiple interfaces, and multiple objects can be created referencing to those interfaces, this is called Multiple Inheritance of type.
+> Condider that a class implements more than one one interface with default methods of same name, the issue with implementation of methods can be resolved by defining the type of reference while creating the object for the class.
+	
 
 </details>
 
