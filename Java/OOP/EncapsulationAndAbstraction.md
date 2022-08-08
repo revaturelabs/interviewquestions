@@ -55,7 +55,7 @@ public class ATM {
   </details>
    </details>
    
- 2. What is Abstraction?
+2. What is Abstraction?
 
 <details> <summary><b>Show Answer</b></summary>
 	
