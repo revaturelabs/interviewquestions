@@ -308,6 +308,33 @@ C
 </details>
 
 
+2. ISRO invented many rockets from pslv to gslv with different features and purposes but one feature that is constant is the vikas engine. which implemntation best represents the senario?
+
+- A. An interface with features of rocket, classes that implement the class( rokcket model), and a default method for vikas engine.
+- B. An interface with features of rocket, classes that implement the class( rokcket model), and an abstract method for vikas engine.
+- C. An interface with features of rocket, classes that implement the class( rokcket model), and a static method for vikas engine.
+- D. None of the above.
+
+<details>
+	
+<summary><b>Show Answer</b></summary>
+	
+C
+	<details>
+	
+<summary><b>Explanation</b></summary>
+	
+	
+> ISRO Rockets is an interface with basic features of a rocket, PSLV, GSLV etc are the models(Classes) that satify the basic features. vikas enginer( method) is a constant feature for the rockets that are launched and about to be launched in the future, it cant be overriden, So its  declared as static.
+	
+	
+
+</details>
+
+</details>
+
+
+
 
 
 
