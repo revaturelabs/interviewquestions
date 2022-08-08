@@ -220,6 +220,20 @@ D
 
 </details>
 
+
+10.  Write a code where an object is created for an Interface or abstract class.
+
+<details><summary><b>Show Answer</b></summary>
+	
+``` java
+	
+	
+```
+	
+</details>
+
+
+
 ## Real-time Application
 
 1. Consider that a code is created for the sole purpose of notifying the user that the battery is fully charged, this can be used by any device like a mobile, pc, AirPods etc. Which of the following implementations suits the best?
