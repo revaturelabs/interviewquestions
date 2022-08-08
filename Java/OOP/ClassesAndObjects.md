@@ -20,7 +20,7 @@ public class Game {
 
 <details><summary>Show Answer</summary>
 
-<b>Ans:</b> The above code creates a compile-time error, The object "g" is declared but not initialized, and It is not possible to use an object of a class without Initializing it.
+ The above code creates a compile-time error, The object "g" is declared but not initialized, and It is not possible to use an object of a class without Initializing it.
 
 </details>
 
@@ -33,7 +33,7 @@ public class Child extends Parent, Grandparent{
 ```
 <details><summary>Show Answer</summary>
 
-<b>Ans:</b> compilation error is caused because a class can extend only one parent class.
+ compilation error is caused because a class can extend only one parent class.
 
 </details>
 
@@ -66,10 +66,11 @@ compilation error is caused because a class can be public, abstract and final bu
 
 <details><summary>Show Answer</summary>
 
-<b>Ans:</b> C
+ C
 	
-<b>Explanation:</b> classes and interfces can not be declared private, nested classes can be declared private.
+<details><summary><b>Explanation:</b></summary> classes and interfces can not be declared private, nested classes can be declared private.
 
+</details>
 </details>
 
 2. What are the parameters and arguments?
@@ -90,17 +91,18 @@ compilation error is caused because a class can be public, abstract and final bu
 
 <details><summary>Show Answer</summary>
 
-<b>Ans:</b> C
+C
 	
-<b>Explanation:</b> The default constructor of any class calls the no-arg constructor of the superclass, So, java provides an implicit super class "Object" which has a default constructor.
+<details><summary><b>Explanation:</b></summary> The default constructor of any class calls the no-arg constructor of the superclass, So, java provides an implicit super class "Object" which has a default constructor.
 
+</details>
 </details>
 
 4. What are the benefits of using Objects?
 
 <details><summary>Show Answer</summary>
 	
-<b>Ans:</b>
+
 	
 - Modularity: the source code for every object can be maintained independently and once an object is created it can be easily propagated inside the system.
 - Information hiding: since an object is used to implement methods, the internal working of the class can be hidden using an object.
@@ -120,9 +122,9 @@ compilation error is caused because a class can be public, abstract and final bu
 
 <details> <summary>Show answer</summary>
 
-<b>Ans:</b> A
+ A
 	
-<b>Explanation:</b>
+<details><summary><b>Explanation:</b></summary>
 	
 - final: variables in an interface are accessed by many classes and its not ideal, if any of the classes appends the value of the variable. to avoid this
 	 variables are declared final.
@@ -131,6 +133,7 @@ compilation error is caused because a class can be public, abstract and final bu
 	   All variables are static so that they can be accessed without an object.
 	
 
+</details>
 </details>
 
 6. choose the right answer.
@@ -155,7 +158,7 @@ d. Used to create more than one instance of a class, and to add new fields and m
 
 <details>
 	<summary>Show Answer</summary>
-	<b>Ans:</b> C
+	C
 
 </details>
 
@@ -295,10 +298,10 @@ public class Circle {
 <details>
 <summary>Show Answer</summary>
 	
-<b>Ans:</b> D
+D
+<details><summary><b>Explanation:</b></summary> a code with a single purpose translates to a class/ interface with a single method, functional interface is the best way to implement this scenario and lambda implementation in each device, makes the code concise, easily readable and maintainable.
 	
-<b>Explanation:</b> a code with a single purpose translates to a class/ interface with a single method, functional interface is the best way to implement this scenario and lambda implementation in each device, makes the code concise, easily readable and maintainable.
-	
+</details>
 </details>
 
 
