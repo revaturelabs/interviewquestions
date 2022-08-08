@@ -230,14 +230,19 @@ public class Circle implements Shape{
 
 <details>
 	
-	<summary><b>Show Answer</b></summary>
-C
+<summary><b>Show Answer</b></summary>
 	
-	<summary><b>Explanation</b></summary>
+C
+	<details>
+	
+<summary><b>Explanation</b></summary>
+	
 	
 > Kia(interface) has some models(Classes) that had some features till model 4 ( abstract methods in interface ), from model 5 a new feature auto pilot( method) is being added to upcomming kia car models. but the previous models doesnt support the autopilot( override the method) so the new feature is added as a default method which can be used by upcomming models.
 	
 	
+
+</details>
 
 </details>
 
