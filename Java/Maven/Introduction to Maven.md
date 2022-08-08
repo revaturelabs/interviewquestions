@@ -114,21 +114,18 @@ java com.javatpoint.App
 
 ---
 
-9. List the valid lifecycle goals in maven?
+9.  Why do we use build tools or build automation?
 
 <details> <summary> <b> Show Answer </b> </summary>
 
-Here are some of the most important phases in the default build lifecycle:
+- In small projects, developers will often manually invoke the build process. This is not practical for larger projects, where it is very hard to keep track of what needs to be built, in what sequence and what dependencies there are in the building process. Using an automation tool allows the build process to be more consistent.
  
-  - validate: check if all information necessary for the build is available
-  - compile: compile the source code
-  - test-compile: compile the test source code
-  - test: run unit tests
-  - package: package compiled source code into the distributable format (jar, war, …)
-  - integration-test: process and deploy the package if needed to run integration tests
-  - install: install the package to a local repository
-  - deploy: copy the package to the remote repository
-
+Various build tools available(Naming only few):
+ 
+   - For java - Ant,Maven,Gradle.
+   - For .NET framework - NAnt
+   - C# - MsBuild
+ 
 </details>
 
 ---
@@ -207,21 +204,7 @@ Here are some of the most important phases in the default build lifecycle:
 </details>
 
 ---
-16. Why do we use build tools or build automation?
 
-<details> <summary> <b> Show Answer </b> </summary>
-
-- In small projects, developers will often manually invoke the build process. This is not practical for larger projects, where it is very hard to keep track of what needs to be built, in what sequence and what dependencies there are in the building process. Using an automation tool allows the build process to be more consistent.
- 
-Various build tools available(Naming only few):
- 
-   - For java - Ant,Maven,Gradle.
-   - For .NET framework - NAnt
-   - C# - MsBuild
- 
-</details>
-
----
 
 
 
