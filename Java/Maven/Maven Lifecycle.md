@@ -63,12 +63,12 @@ Here are some of the most important phases in the default build lifecycle:
 <details><summary><b> Show Answer</b></summary>
 
 - `mvn compile`: used to compile the project’s source code.
-- `mvn clean`: project is cleaned to remove all previous-build files generated.
-- `mvn test`:one can run project testing steps.
+- `mvn clean`: used to clean or remove all previous-build files generated.
+- `mvn test`:used to run project testing steps.
 - `mvn test-compile`:used to compile the code from the test source.
-- `mvn install`:deploys the packaged WAR/JAR files storing them as classes in the local repository.
-- `mvn package`:one packages or creates a project WAR or JAR file to be able to use a distributable format.
-- `mvn deploy`:which occurs after compilation, running project tests and project building.
+- `mvn install`:used to deploy the packaged WAR/JAR files storing them as classes in the local repository.
+- `mvn package`:used to create packages or a project WAR or JAR file to be able to use a distributable format.
+- `mvn deploy`:used after compilation, running project tests and project building.
 
 </details>
 
@@ -91,9 +91,9 @@ Here are some of the most important phases in the default build lifecycle:
 
 <details><summary><b> Show Answer</b></summary>
 
-- Per-User:described in Maven settings.xml file.
-- Per Project:described in pom.xml of the project.
-- Global:described in the global Maven settings.xml file.
+- `Per-User`:described in Maven settings.xml file.
+- `Per Project`:described in pom.xml of the project.
+- `Global`:described in the global Maven settings.xml file.
 
 </details>
 
@@ -129,7 +129,7 @@ Here are some of the most important phases in the default build lifecycle:
 
 <details><summary><b> Show Answer</b></summary>
  
-- mvn - package is used to package the project.
+- `mvn - package` is used to package the project.
 
 </details>
 
