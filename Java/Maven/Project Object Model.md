@@ -160,7 +160,7 @@
   
 - **Build plugins**-which is executed during the build and they should be configured in the <build/> elements from the POM.
 - **Reporting plugins**-which is executed during the site generation and they should be configured in the <reporting/> elements from the POM.
-- **Core plugins **- where the Plugins corresponding to default core phases (ie. clean, compile). They may have multiple goals as well.
+- **Core plugins**- where the Plugins corresponding to default core phases (ie. clean, compile). They may have multiple goals as well.
 - **Packaging types/tools -** which relates to packaging respective artifact types.
 - **Tools**-which are miscellaneous tools available through Maven by default.
   
