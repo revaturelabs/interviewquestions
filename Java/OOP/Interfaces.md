@@ -150,6 +150,18 @@ B
 </details>
 </details>
 
+8. How can complete abstraction be achieved by interface but not by an abstract class?
+
+<details>
+
+<summary><b>Show Answer</b></summary>
+	
+> Interface contains abstract class with no impelemnattaion where as abstract class contain both abstract and non abstract methods with concrete implemnetion, so complete abstraction can achived by an interface
+	
+>But from java 8 interface can contain default and static methods.
+
+</details>
+
 
 
 ## Error Detection
