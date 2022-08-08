@@ -24,6 +24,8 @@ public class Game {
 
 </details>
 
+---
+
 2. What is the error in the following code snippet?
 
 ``` java
@@ -36,6 +38,8 @@ public class Child extends Parent, Grandparent{
  compilation error is caused because a class can extend only one parent class.
 
 </details>
+
+---
 
 3.  What is the error in the following code snippet?
 
@@ -73,6 +77,8 @@ compilation error is caused because a class can be public, abstract and final bu
 </details>
 </details>
 
+---
+
 2. What are the parameters and arguments?
 
 - A. parameters: list of variables in the method declaration.
@@ -80,7 +86,10 @@ compilation error is caused because a class can be public, abstract and final bu
 - B. parameters: list of variables in the method declaration.
      Arguments:  Values that are passed when a method is invoked.
      
-<b>Ans:</b> A </details>
+<details><summary><b>Show Answer</b></summary>    
+ A 
+</details>
+---
 
 3. What is the implicit superclass for all java classes?
 
