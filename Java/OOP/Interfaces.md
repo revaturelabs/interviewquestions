@@ -271,6 +271,21 @@ public class Circle implements Shape{
 3. identify the error in the following code snippet.
 
 
+``` java
+
+
+
+```
+
+
+<details>
+	<summary><b>Show Answer</b></summary>
+	
+> A compile time error is created. eventhough the anonymous inner class overrides all the methods of the interface, The class Circle doesnt overrides them.
+
+</details>
+
+
 
 
 
