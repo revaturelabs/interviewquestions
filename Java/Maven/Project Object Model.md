@@ -96,6 +96,8 @@
 
 </details>
 
+---
+
 9. How to run a pom.xml file?
 
 <details><summary><b> Show Answer </b></summary>
