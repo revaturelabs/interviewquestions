@@ -38,7 +38,7 @@
 
 ---
 
-4: Can you tell about the naming covertion of packages?
+4: Can you tell about the naming convention of packages?
  <details>
       <summary><b> Show Answer </b></summary> 
   
@@ -48,4 +48,5 @@
   - We can add subpackages along with `com.example` like `com.example.packagename`.
   - The special characters are not allowed for naming a  packages
   - If the domain contains number, we have to use underscore. `12example.com` domain can be coverted as package name as `com._12example`.
+ </details>
 ---
