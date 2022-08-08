@@ -1,13 +1,13 @@
 ## Function
 
-1.What is function?
+1.What is a function?
 
 <details>
   <summary>
     <b>Show Answer</b>
   </summary>
   
-A function is a block of organized, reusable code that is used to perform a single, related action. Functions provide better modularity for your application and a high degree of code reusing.In python we have three types of functions.
+A function is a block of organized, reusable code that is used to perform a single, related action. Functions provide better modularity for your application and a high degree of code reusing.In python, we have three types of functions:
   <ul>
     <li> Built-in print()</li>
     <li>User-defined functions(UDF)</li>
@@ -24,13 +24,13 @@ A function is a block of organized, reusable code that is used to perform a sing
   
 Call by value:<ol>
   <li>A copy of the variable is passed.</li>
-  <li>Change in a copy of variable doesn't modifyy the orginal value of variable.</li>
+  <li>Change in the copy of variable doesn't modify the original value of variable.</li>
   <li>Syntax: function_name(variable_name1,variable_name2)</li>
   <li>Default calling-primitive type are passed using the call_by_value.</li>
   </ol>
 Call by reference:<ol>
   <li>A variable itself is passed.</li>
-  <li>Change in a copy of variable modify the original value of variable.</li>
+  <li>Change in the copy of variable modify the original value of variable.</li>
   <li>Syntax: function_name(&variable_name1,&variable2...)</li>
   <li>Default calling-Objects are implicitly passed using call_by_reference.</li>
   </ol>
@@ -40,14 +40,14 @@ Call by reference:<ol>
 
 <details><summary><b>Show Answer</b></summary>
   
-There are two basic scope of variable are in python.
+There are two basic scope of variable in python,
 <ol><li>Global variables</li>
     <li>Local variables</li>
   </ol>
 <ul>
 Global variable:
   
-  * Global variable are those which are not defined inside any function and have a global scope.
+  * Global variables are those which are not defined inside any function and have a global scope.
   
 Local variable:
   
@@ -74,7 +74,7 @@ print(add(2,3))
 </details>
 </details>
 
-5.What will be the output of the following code?
+5.What is the output of the following code?
   
 ```Python
 def my_func()
@@ -94,16 +94,15 @@ SyntaxError: invalid syntax
   
 <details><summary> <b>Explanation</b> </summary>  
   
-Here, we are getting syntax error because the syntax is def function_name():
+Here, we get syntax error because the syntax is def function_name():
   
 </details>
 </details>
   
-6.Can you tell me some Built-in functions in python?
+6.Specify few Built-in functions in python?
   
 <details><summary> <b>Show Answer</b> </summary>
-  
-Functions that are built into Python.we have so many built-in functions in python.Here i have mentioned some built-in funtions,
+	
 - python abs()-returns absolute value of a number
 - python all()-returns true when all elements in iterable is true
 - python ascii()-eturns String Containing Printable Representation
@@ -112,11 +111,11 @@ Functions that are built into Python.we have so many built-in functions in pytho
   
 </details>
 
-7.Can we use local variable in the local global scope?
+7.Can we use local variables in the local global scope?
   
 <details><summary> <b>Show Answer</b> </summary>
   
-No,We cannot use local variables in the global scope.
+No,we cannot use local variables in the global scope.
   
 **For example**:
   
@@ -127,7 +126,7 @@ def spam():
 print(calls)
   ```
  
-if run this program, the output will be:
+If this program is executed, the output will be:
 Traceback (most recent call last):
   File "C:/test1.py", line 4, in <module>
     print(Calls)
@@ -135,7 +134,7 @@ Traceback (most recent call last):
 <details><summary> <b>Explanation</b> </summary> 
   
 NameError: name 'calls' is not defined
-The error happens because the calls variable exists only in the local scope created when spam()is called.once the program execution returns from spam, that local scope is destroyed, and there is no longer a variable named calls.
+The error happens because the calls variable exists only in the local scope created, when spam() function is called. Once the program execution returns from spam, the local scope is destroyed, and there is no longer a variable as calls.
   </details>
   </details>
   
@@ -143,7 +142,7 @@ The error happens because the calls variable exists only in the local scope crea
   
 <details><summary> <b>Show Answer</b> </summary>
   
-   **None** has a special status in Python. The None is used to define a null variable or an object, and it is a data type of the class NoneType.
+   **None** has a special status in Python. The 'None' is used to define a null variable or an object, and it is a data type of the class NoneType.
 
 **Example**:
 
@@ -156,11 +155,11 @@ print(type(x))
 <class 'NoneType'>
 </details>
   
-9.When does the code in a function execute: when the function is defined or when the function is called?
+9.When does the code in a function gets executed: when the function is defined or when the function is called?
   
 <details><summary> <b>Show Answer</b> </summary>
   
-The code in a function executes when the function is called, not when the function is defined.
+The code in a function executes when the function is called, and not when the function is defined.
   
 **Example**:
 ```python
@@ -193,19 +192,19 @@ print (q)
    I love coffee
   </details>
   
-11.Which return type reuturns a value?
+11.Which return type returns a value?
   
 <details><summary> <b>Show Answer</b> </summary>
   
-You declare a method's return type in its method declaration. Within the body of the method, you use the return statement to return the value. Any method declared void doesn't return a value.
+You declare a method's return type in its method declaration. Within the body of the method, you use the return statement to return the value. Any method declared as void doesn't return a value.
   
 </details>
   
-12.When a function does not have a return statement What does the function return when called in Python?
+12. In python, when a function does not have a return statement, what does the function return when it is called?
 
 <details><summary> <b>Show Answer</b> </summary>
   
- So, if you don't explicitly use a return value in a return statement, or if you totally omit the return statement, then Python will implicitly return a default value for you. That default return value will always be None .
+ If you don't explicitly use a return value in a return statement, or if you totally omit the return statement, then Python will implicitly return a default value. That default return value will always be None.
  
   </details>
 
@@ -213,21 +212,21 @@ You declare a method's return type in its method declaration. Within the body of
   
 <details><summary> <b>Show Answer</b> </summary>
   
-If you want to refer to a global variable in a function you can use the global keyword to declare wh ich variables are global.In Python, global keyword allows you to modify the variable outside of the current scope. It is used to create a global variable and make changes to the variable in a local context.
+If a global variable has to be refered in a function, the global keyword can be used to declare the respective variables as global.In Python, global keyword allows us to modify the variable outside of the current scope. It is used to create a global variable and make changes to the variable in a local context.
 
  ```Python
 x = 5
 def change():
 	global x
 	x = x + 5
-	print("Value of x inside a func:", x)
+	print("Value of x inside a function:", x)
 change()
-print("Value of x outside a func :", x)
+print("Value of x outside a function :", x)
 ```
 **Output**:
   
-  Value of x inside a funct : 10
-  Value of x outside a funct : 10
+  Value of x inside a function : 10
+  Value of x outside a function : 10
   </details>
   
 14.Can you tell me some Built-in functions in python? 
@@ -254,7 +253,7 @@ for i in range(1, 10):
   
   </details>
   
-15.What will be the output of the following code?
+15.What is the output of the following code?
   
 ```python
 def outer_function(a, b):
@@ -277,11 +276,11 @@ print(Output)
   Option B.55
 <details><summary> <b>Explanation</b> </summary>
 
-Adding multiple return statements doesn’t perform any task. Once function execution is encountered with the return statement, it stops the execution by returning whatever specified by the return statement.
+Adding multiple return statements doesn’t perform any task. Once function execution is encountered with the return statement, it stops the execution by returning whatever is specified by the return statement.
 	</details>
 	</details>
 	
-16.Debug the code, give the correct code and output for the following code?
+16.Debug and correct the following code and find the output for the same?
 (Create a function named func which always returns the number: 100)
 	
 ``` python
@@ -306,7 +305,7 @@ print(func())
 	
 </details>
 
-17.What Will be the output of the following code?
+17.What is the output of the following code?
 	
 ```python
 def salary(**kwargs):
@@ -323,11 +322,11 @@ salary
 
 <details><summary> <b>Explanation</b> </summary>
 
-To accept Variable Length of Keyword Arguments, i.e., To create functions that take n number of Keyword arguments we use **kwargs (prefix a parameter name with a double asterisk ** ).
+To accept Variable Length of Keyword Arguments, i.e., To create functions that take 'n' number of Keyword arguments, we use **kwargs (prefix a parameter name with a double asterisk ** ).
 
 keyword arguments: display(emp="suruthi", salary=10000)
 	
-This **kwargs collects all passed arguments into a new dictionary, where the argument names are the keys, and their values are the key’s values.So to get the values we need to iterate the kwargs dictionary like this
+This **kwargs collects all passed arguments into a new dictionary, where the argument names are the keys, and their values are the key’s values. So, to get the values, we need to iterate the kwargs dictionary.
 
 </details>
 	
@@ -338,7 +337,7 @@ This **kwargs collects all passed arguments into a new dictionary, where the arg
 
 </details>
 	
-18.Fill the remaining lines for the following code and get the correct output for the code.
+18.Complete the following code and get the correct output for the same.
 (Write a function named func which will ask user for their name and print Hello!, Name)
 
 ```python
@@ -347,7 +346,7 @@ func()
 ```
 <details><summary> <b>Hint</b> </summary>
 
-You can use input() function to ask for user input. Then you can assign it to a variable.
+You can use input() function to ask for user input. And you can assign it to a variable.
 	
 </details>
 	
@@ -365,7 +364,7 @@ Hello!,  Kavin
 
 </details>
 	
-19.Choose the correct function declaration of  fun1() so that we can execute the following function call successfully
+19.Choose the correct function declaration of fun1() so that we can execute the following function call successfully.
 
 ```python
 fun1(25, 75, 55)
@@ -382,7 +381,7 @@ fun1(10, 20)
 
 <details><summary> <b>Explanation</b> </summary>
 
-To accept multiple values or if the number of arguments is unknown, we can add * before the parameter name to accept arbitrary arguments. i.e., To accept Variable Length of Positional Arguments, i.e., To create functions that take n number of Positional arguments we use *args(prefix a parameter name with an asterisk * ).
+To accept multiple values or if the number of arguments is unknown, we can add * before the parameter name to accept arbitrary arguments. i.e., To accept Variable Length of Positional Arguments. To create functions that take 'n' number of Positional arguments, we use *args(prefix a parameter name with an asterisk *).
 	
 *Example*:
 	
@@ -402,7 +401,7 @@ fun1(10, 20)
 <details><summary> <b>Show Answer</b> </summary>
 	
 The range function returns the sequence of numbers between the start to stop with a step increment. The syntax of the range function is range(start, stop[, step]).
-The stop argument is mandatory. The arguments start and step are optional. The default value of start and step are 0 and 1, respectively.
+The 'stop' argument is mandatory. The arguments 'start' and 'step' are optional. The default value of start and step are 0 and 1, respectively.
 
 **Example**:
 	
