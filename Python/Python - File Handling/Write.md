@@ -331,9 +331,11 @@ print("Total lines are :", c)
 
 ---
 
-20.Write a python program to copy the entir content file "sample.txt" to "file.txt"
+20.Write a python program to copy the entire content file "sample.txt" to "file.txt".
 
 <details><summary><b>Show Answer</b></summary>
+  
+> We want to copy the entire file content to another text file. First read the content from one file to write another file.
 
 ```python
 f = open("file.txt", "r")
