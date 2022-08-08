@@ -166,21 +166,21 @@ B
 
 ---
 
-9. What is Multiple Inheritance of implementation using Interfaces?
+9. Explain Multiple Inheritance of implementation using Interfaces.
 
 <details>
 
 <summary><b>Show Answer</b></summary>
 	
-> 
+> A class can Inherit multiple Interfaces with same methods names and this might cause a conflit while overriding the methods of the interface.
+> To resolve this issue interfaces can have default methods with same method name and JVM has some rules implement the default methods.
 
 </details>
 
 ---
 
 
-
-11. 9. What is Multiple Inheritance of value using Interfaces?
+10. What is Multiple Inheritance of type using Interfaces?
 
 <details>
 
