@@ -146,8 +146,10 @@ Parent p = new Child();
 ``` java
 Child c= (Child) new Parent();
 	
+``` 
+	
 </details>
-</details>
+
 
 
 
