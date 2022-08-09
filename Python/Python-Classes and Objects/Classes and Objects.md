@@ -21,7 +21,7 @@ There are many reasons why one should go for programming languages that supports
 </details> 
 
 ---
-3. What do u mean class and object in python?
+3. What do u mean by class and object in python?
 <details><summary> <b>Show Answer</b> </summary>
   
 > A class, in python, is a user defined datatype and also a blueprint of an object. Class provides a way of binding data and member functions together. An object is an instance of a class and a real world entity. For example, A gender can be considered as a class and male and female as an object of that class. 
