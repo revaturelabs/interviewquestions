@@ -134,7 +134,7 @@ c) obj = Student()
 d) Student obj;   
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option is c) obj =Student()
+> Option c) obj =Student()
 <details><summary> <b>Explanation</b> </summary>
   
 > options a) and d) are incorrect because this is how we can create a object in java and c++ respectively, not in python.
