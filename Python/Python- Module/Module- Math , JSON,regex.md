@@ -4,12 +4,12 @@
 
 <details><summary><b>Show Answer</b></summary>
   
-- A file containing Python definitions and statements is known as a module. In python Variables, classes, and functions can all be defined in a module. 
-- Executable file may also be included in a module.A Python source code file,
+> - A file containing Python definitions and statements is known as a module. In python Variables, classes, and functions can all be defined in a module. 
+> - Executable file may also be included in a module.A Python source code file,
 
 **Example**: 
  
-- File name: example.py, is called a module, and its module name is example.
+> File name: example.py, is called a module, and its module name is example.
    
 ```python
 def add(a,b):
@@ -38,11 +38,11 @@ example.add()
 
 <details><summary><b>Show Answer</b></summary>
 
-- In python **JSON** is a syntax to storing and exchanging data.
-- Python have an built-in package it's called json, which is used to work with JSON data.
-- Because, It is easy for humans to browse and write. It's simple for machines to analyze and generate.
+> - In python **JSON** is a syntax to storing and exchanging data.
+> - Python have an built-in package it's called json, which is used to work with JSON data.
+> - Because, It is easy for humans to browse and write. It's simple for machines to analyze and generate.
  
-import the JSON module :
+**import the JSON module :**
  
 > import json
   
@@ -54,13 +54,13 @@ import the JSON module :
 
 <details><summary><b>Show Answer</b></summary>
   
-- In Python, the import statement is used to import the whole module. Also, we can able to import specific categories and functions from a module.
+> In Python, the import statement is used to import the whole module. Also, we can able to import specific categories and functions from a module.
   
 **Example**:
   
 > import module name.
   
-- To import modules in Python, we use the Python import keyword. With the assistance of the import keyword, each the **built-in** and **user-defined** modules are imported.
+> To import modules in Python, we use the Python import keyword. With the assistance of the import keyword, each the **built-in** and **user-defined** modules are imported.
 
 **Example**
   
@@ -81,8 +81,8 @@ print(math.sqrt(5))
   
 <details><summary><b>Show Answer</b></summary>
   
-- Yes, we can import multiple modules in python.
-- If we want to use more than one module, then we can import multiple modules. This is the simplest form of import a statement.
+> - Yes, we can import multiple modules in python.
+> - If we want to use more than one module, then we can import multiple modules. This is the simplest form of import a statement.
 
 **Syntax**:
   
@@ -108,7 +108,7 @@ print(random.randint(10, 20))
 
 <details><summary><b>Show Answer</b></summary>
   
-- If we want to use the module with a different name, we can use from import_as statement. It is possible to import a particular method and use that method with a different name. 
+> If we want to use the module with a different name, we can use from import_as statement. It is possible to import a particular method and use that method with a different name. 
 After, we can use that name in the entire program.
 
 **Syntax**:  
@@ -131,7 +131,7 @@ print(number(100, 500))
 
 <details><summary><b>Show Answer</b></summary> 
   
-- If we want to **import** all the functions and attributes of a specific module, then instead of writing all names and functions names ,we can import all using
+> If we want to **import** all the functions and attributes of a specific module, then instead of writing all names and functions names ,we can import all using
   an <b> * </b>. 
  
 **Syntax**:
@@ -223,8 +223,8 @@ print(output)
 
 <details><summary><b>Show Answer</b></summary> 
   
-- In python,dir() is a built-in function. This  function used to list all the members in current modules.
-- When we use this dir() function with any object(like list,tuple,set,...) it will return properties , attributes and methods.
+> - In python,dir() is a built-in function. This  function used to list all the members in current modules.
+> - When we use this dir() function with any object(like list,tuple,set,...) it will return properties , attributes and methods.
   
 **Syntax**:
   
@@ -249,8 +249,8 @@ print(dir(re))
 
 <details><summary><b>Show Answer</b></summary>
   
-- In python, to sort JSON keys first we need to import the JSON.
-- After importing the json data we need to write into a file. For that we should open a file and dump the data into the single file.
+> - In python, to sort JSON keys first we need to import the JSON.
+> - After importing the json data we need to write into a file. For that we should open a file and dump the data into the single file.
   
 ```python
 import json
@@ -275,12 +275,12 @@ print("writing JSON data into a file is done")
 
 <details><summary><b>Show Answer</b></summary> 
   
-1. \w - This is an Word class (alphanumeric).
-2. \d - This label is for Digits.
-3. \s - Space label used for an whitespace.
-4. \W - This label is for an Non-word class.
-5. \D - This for is Non-digit.
-6. \S - This label is for an Non-space. 
+> 1. \w - This is an Word class (alphanumeric).
+> 2. \d - This label is for Digits.
+> 3. \s - Space label used for an whitespace.
+> 4. \W - This label is for an Non-word class.
+> 5. \D - This for is Non-digit.
+> 6. \S - This label is for an Non-space. 
   
 </details>
 
@@ -315,23 +315,23 @@ print(isinstance(abs, types.LambdaType))
 
 <details><summary><b>Show Answer</b></summary> 
   
-- In python re.split() is used to define a how many splits you want to perform.
-- Take an example if maxsplit=3, then it will done 3 splits.
+> - In python re.split() is used to define a how many splits you want to perform.
+> - Take an example if maxsplit=3, then it will done 3 splits.
   
 **Syntax**:
 
->re.split(pattern,string,maxsplit=0,flags=0)
+> re.split(pattern,string,maxsplit=0,flags=0)
   
-- In regular expression pattern and strings are the mandatory ones.
-- maxsplit and flag functions are not mandatory.
+> - In regular expression pattern and strings are the mandatory ones.
+> - maxsplit and flag functions are not mandatory.
   
-1.pattern: In regular expression pattern function is  used for splitting the string.
+> 1.pattern: In regular expression pattern function is  used for splitting the string.
 
-2.string: The string we want to perform split.
+> 2.string: The string we want to perform split.
 
-3.maxsplit: The numbers of splits you want ot perform.It's based upon the split size.
+> 3.maxsplit: The numbers of splits you want ot perform.It's based upon the split size.
 
-4.flags: There is no flages are applied, by dafault.
+> 4.flags: There is no flages are applied, by dafault.
 
 </details>
 
@@ -343,11 +343,11 @@ print(isinstance(abs, types.LambdaType))
 
 **string split()**:
 
-1.The string split() method is used to split the string into a list of substring with single fixed delimiter.
+> 1.The string split() method is used to split the string into a list of substring with single fixed delimiter.
 
-2.In string split() method we can't inculde the seperator.
+>2.In string split() method we can't inculde the seperator.
 
-3.**Example** 
+>3.**Example** 
 
 ```python
 #string split method
@@ -362,11 +362,11 @@ print(output)
 
 **regex split()**:
 
-1.The regex split() method is also used to split the into a list of substring s with an multiple delimiters.
+> 1.The regex split() method is also used to split the into a list of substring s with an multiple delimiters.
 
-2.In regex split() method we can include the seperator.
+> 2.In regex split() method we can include the seperator.
 
-3.**Example**
+> 3.**Example**
 
 ```python
 # regex split() method
@@ -388,15 +388,15 @@ print(output)
 
 <details><summary><b>Show Answer</b></summary>
 
-- In python we can use sub() and subn() methods are used to search and replace a string.
-- Using these methods we can replace one or more occurrences of a regex pattern in the target string with the given string.
-- We have some regex replacement operations also these are,
+> - In python we can use sub() and subn() methods are used to search and replace a string.
+> - Using these methods we can replace one or more occurrences of a regex pattern in the target string with the given string.
+> - We have some regex replacement operations also these are,
   
-1.re.sub(paatern,replacement,string) - this operation used to find and replaces the **all** occurrences of pattern.
+> 1.re.sub(paatern,replacement,string) - this operation used to find and replaces the **all** occurrences of pattern.
 
-2.re.sub(pattern,replacement,string,count=1) - this operation used to find and replaces only the **first** occurrences of pattern.
+> 2.re.sub(pattern,replacement,string,count=1) - this operation used to find and replaces only the **first** occurrences of pattern.
 
-3.re.sub(pattern,replacement,string,count=n) - this operation
+> 3.re.sub(pattern,replacement,string,count=n) - this operation
 used to find and replaces the **first n** occurrences of pattern.
 
 </details>
@@ -407,11 +407,11 @@ used to find and replaces the **first n** occurrences of pattern.
 
 <details><summary><b>Show Answer</b></summary>
 
-**Built-in modules**:
+> **Built-in modules**:
 
-1.Built-in modules are come with default python installation.
-2.Built-in modules are provides a lot od reusable code.
-3.Some built-in modules are,
+> 1.Built-in modules are come with default python installation.
+> 2.Built-in modules are provides a lot od reusable code.
+> 3.Some built-in modules are,
  - datetime
  - os
  - math
@@ -420,11 +420,11 @@ used to find and replaces the **first n** occurrences of pattern.
   
 **User-defined modules**:
 
-1.The modules which are defined by user is called a user-defined module.
+> 1.The modules which are defined by user is called a user-defined module.
 
-2.User can create own with which contains classes,functions ,variables,etc.
+> 2.User can create own with which contains classes,functions ,variables,etc.
 
-3.User-defined modules are created as per our requirements.
+> 3.User-defined modules are created as per our requirements.
 
 </details>
 
@@ -434,7 +434,7 @@ used to find and replaces the **first n** occurrences of pattern.
 
 <details><summary><b>Show Answer</b></summary>
 
-- In python we have python object,you can convert object into a json by using json.dumps() method.
+> In python we have python object,you can convert object into a json by using json.dumps() method.
 
 **Example**:
 
@@ -451,9 +451,9 @@ print(y)
 
 **Output**:
 
-{"name": "Jack", "age": 30, "city": "London"}
+> {"name": "Jack", "age": 30, "city": "London"}
 
-- When we convert python string to json,python objects are converted into the json.
+> When we convert python string to json,python objects are converted into the json.
 
 Example :
 
@@ -485,13 +485,11 @@ print(Json_data)
 
 <details><summary><b>Show Answer</b></summary>
 
-**Output**:
-
 > ['>Belarus', '>China', '>2000']
 
 <details><summary><b>Explanation</b></summary>
 
--The Ouptut of the code is (['>Belarus', '>China', '>2000']) starts with > sign. It will return only those statements.
+> The Ouptut of the code is (['>Belarus', '>China', '>2000']) starts with > sign. It will return only those statements.
 
 </details>
 </details>
@@ -500,14 +498,17 @@ print(Json_data)
 
 20.Which of the following functions creates a python object?
 
-- A.re.compile(str)
-- B.re.assemble(str)
-- C.re.regex(str)
-- D.re.create(str)
+ A.re.compile(str)
+ 
+ B.re.assemble(str)
+ 
+ C.re.regex(str)
+ 
+ D.re.create(str)
 
 <details><summary><b>Show Answer</b></summary>
 
-A.re.compile(str)
+> Option A.re.compile(str)
 
 <details><summary><b>Explanation</b></summary>
 
