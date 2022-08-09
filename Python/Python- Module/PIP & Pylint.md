@@ -92,7 +92,7 @@ pip list
 
 <details><summary><b>Show Answer </b></summary>
 
-- There are many debugging tools are there,some of them are:
+- There are many debugging tools,some of them are:
   
 i)Pychecker – A tool for locating bugs in python ASCII text file(source code).
 
