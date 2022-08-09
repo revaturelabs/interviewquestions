@@ -130,7 +130,8 @@ public class ATM {
 
 <details> <summary><b>Show Answer</b></summary>
 	
-> 
+> No, abstract class can not be initialized as it contains incomplete methods( abstract methods or methods with no imolementation).
+> One way to create an object for an abstract class is use an Anonymous inner class.
 
 </details>
 
