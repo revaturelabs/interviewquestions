@@ -85,7 +85,5 @@ public class ATM {
 </details>
 
 
-## Error Detection
 
-1. 
 
