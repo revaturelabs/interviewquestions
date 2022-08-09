@@ -1,19 +1,28 @@
 1:What are Custom Exceptions?
 <details><summary><b> Show Answer</b></summary>
+ 
 Custom Exceptions
-</details>
+
 <details><summary><b> Explanation</b></summary>
+ 
 When we create our own exceptions that are derived classes of the Exception class is known as custom exception or user-defined exception.Custom exceptions are used to customize the exception according to the user needs.
+  
+</details>
 </details>
 
 ---
 
 2:Why we use custom exceptions?
 <details><summary><b> Show Answer</b></summary>
+ 
 Custom Exceptions
-</details>
+ 
+
 <details><summary><b> Explanation</b></summary>
-Custom Exception are used to catch and provide specific treatment to a subset of existing java exceptions.We also have exceptions related to business logic and workflow. It is useful for the application users or the developers to understand the exact problem.In order to create custom exception, we need to extend Exception class that belongs to java.lang package.
+ 
+Custom Exception are used to catch and provide specific treatment to a subset of existing java exceptions.We also have exceptions related to business logic and workflow. It is useful for the application users or the developers to understand the exact problem.In order to create custom exception, we need to extend Exception class that belongs to <code>java.lang </code> package.
+
+ </details>
 </details>
 
 ---
@@ -51,7 +60,11 @@ public class CustomException1
 }  
 ```
 <details><summary><b> Show Answer</b></summary>
+ 
+ ```java
 Exception occured:InvalidAgeException:An individual age is not eligible to vote
+ ```
+ 
 </details>
 
 ---
@@ -86,12 +99,14 @@ System.out.println("Caught " + e);
 ```
 <details><summary><b> Show Answer</b></summary>
 <details><summary><b> Explanation</b></summary>
+ 
 ```java
 Called compute(55)
 Normal exit
 Called compute(101)
 Caught MyException[101]
 ```
+ 
 </details>
 
 ---
