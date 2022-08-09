@@ -99,11 +99,21 @@ public class ATM {
 </details>
 
 
+5. Members of abstract class
+
+6. Abstract class implemnting interface
+
+
 
 
 ## Real-Time Application.
 
 1.
+
+## Error Detection
+
+1. Class Extending abstract class but not implementing all abstrcat methods.
+
 
 
 
