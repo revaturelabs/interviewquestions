@@ -25,6 +25,9 @@
 - `groupId`- Is the way of grouping different maven artifacts.
 - `artifactId` - Is the way of identifying the artifact.(Like JAR, WAR)
 - `version` - Particular release of the project, denotes different versions in same artifacts and same repository.
+- <b>Example</b> for the coordinates explained above	
+	<img width="930" alt="Capture" src="https://user-images.githubusercontent.com/92523245/183573496-fe0e3b37-7998-4fe1-a8f2-296a64c98e7a.PNG">
+
 
 </details>
 
