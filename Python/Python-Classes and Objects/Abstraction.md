@@ -93,7 +93,7 @@ c) Error
 d) Nothing is printed   
 <details><summary> <b>Show Answer</b> </summary>
   
-> option is b) 
+> option b) 
 <details><summary> <b>Explanation</b> </summary>
   
 > Derived class called its own method path() so, statement inside path() method is executed and hence we got the output as "60 km away from Delhi".
