@@ -50,8 +50,17 @@
 - There are two additional coordinates used in maven but not to uniquely identify the project.
 	- **Packaging** - Which defines the project type (WAR,JAR).
 	- **Classifiers** - Which is used to distinguish between the artifacts created for two versions.
-
-
+- **Example** for these coordinates.
+``` java
+	  <dependency>
+	  <groupId>com.javatpoint.application1</groupId>  
+ 	  <artifactId>my-application1</artifactId>  
+ 	  <version>1.0</version>  
+  	  <packaging>jar</packaging>  
+	  <classifier>sources</classifier>
+          </dependency>
+```
+	
 </details>
 
 ---
@@ -59,9 +68,14 @@
 5. What is the difference between JAR and WAR files?
 
 <details><summary> <b> Show Answer </b></summary>
+	
+- JAR is a file format, used for java archive files.
+	- JAR files are the only archive format that works across several platforms, which means that any JAR file on your desktop will be 
+	  automatically executed with the Java JAR. 
+	
+- WAR is a file format, used for web application archive files. 
+	- The benefit of utilizing a WAR file is to consolidate all of the files into a single unit, to reduces the amount of time it takes for the  		user to move a file from one client to another client.
 
-- A project with packaging set to JAR will give jar archive. (Java file).
-- Whereas one with WAR produces a web application.
 
 </details>
 
@@ -72,6 +86,8 @@
 <details><summary> <b> Show Answer </b></summary>
 
 `groupId:artifactId:packaging:version` - through which will express the dependencies of a project in POM file.
+	
+<b>Example</b> `MySQL:MYSQL-Connector:jar: 6.0'
 
 </details>
 
