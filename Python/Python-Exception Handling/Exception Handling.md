@@ -14,7 +14,7 @@
 
 ---
 
-2.Can you tell me some different types  exceptions?
+2.Can you tell me some different types of exceptions?
 
 <details><summary><b>Show Answer </b></summary>
 
