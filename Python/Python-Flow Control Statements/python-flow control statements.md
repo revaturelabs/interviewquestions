@@ -427,8 +427,8 @@ d) 4, 1, -1, -3,
 > The range() function prints the i value from 4 and decrement by 1 at each iteration till i>-2.
  </details>
 </details>
----
   
+---
 23. What is the output of the below code?
 ```python3
 numbers = [4, 5]
@@ -1400,6 +1400,7 @@ for i in list1:
     # write your logic here
 ```
 <details><summary> <b>Show Answer</b> </summary>
+  
 ```python3
 if(i%2==0):
      print(i)
@@ -1431,167 +1432,177 @@ if(i%2!=0):
   
 ---
 71. Write your own logic inside the for loop to print the values 7 and 9 in the output screen.
-```
+```python3
 list1 = [4, 2, 7, 3, 8, 9, 1]  
 for i in list1:  
     # write your logic here
 ```
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** 
-```
+```python3
 if i%2!=0 and i>3:
      print(i)
 ```    
-
-**Explanation:** i%2!=0 is the condition for printing odd numbers and i> 3 will take the value of i which is greater then 3 and there is a logical 'and' operator between both the if conditions. Therefore when both the conditions becomes true only then the print statement inside if will executes. Hence, we get the final result as 7 and 9. 
+<details><summary> <b>Explanation</b> </summary>
+  
+> i%2!=0 is the condition for printing odd numbers and i> 3 will take the value of i which is greater then 3 and there is a logical 'and' operator between both the if conditions. Therefore when both the conditions becomes true only then the print statement inside if will executes. Hence, we get the final result as 7 and 9. 
   </details>
-
+  </details>
+  
 --- 
 72. Write your own logic inside the for loop to print the values 4, 2, 7, 8 and 9 in the output screen.
-```
+```python3
 list1 = [4, 2, 7, 3, 8, 9, 1]  
 for i in list1:  
     # write your logic here
 ```
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** 
-```
+```python3
 if i%2==0 or i>3:
      print(i)
 ```
+<details><summary> <b>Explanation</b> </summary>
+  
+> i%2==0 is the condition for printing even numbers and i> 3 will take the value of i which is greater then 3 and there is a logical 'or' operator between both the if conditions. Therefore when either of the conditions becomes true only then the print statement inside if will executes. Hence, we get the final result as 4, 2, 7, 8, and 9. 
+  </details>
+  </details>
+  
+---
+73. The order of execution of the statements in a python program is known as ______.  
 
-**Explanation:** i%2==0 is the condition for printing even numbers and i> 3 will take the value of i which is greater then 3 and there is a logical 'or' operator between both the if conditions. Therefore when either of the conditions becomes true only then the print statement inside if will executes. Hence, we get the final result as 4, 2, 7, 8, and 9. 
+a) central flow    
+b) selection    
+c) flow of control    
+d) iteration    
+<details><summary> <b>Show Answer</b> </summary>
+  
+> option is c) flow of control.
   </details>
 
 ---
-73. The order of execution of the statements in a python program is known as ______.
+74. Which loop in python is used to run for infinite times when required?  
 
-- a) central flow
-- b) selection
-- c) flow of control
-- d) iteration
+a) for    
+b) while    
+c) do-while    
+d) both a) and b)    
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is c) flow of control.
-  </details>
-
----
-74. Which loop in python is used to run for infinite times when required?
-
-- a) for 
-- b) while
-- c) do-while
-- d) both a) and b)
-<details><summary> <b>Show Answer</b> </summary>
-  
-**Ans:** correc option is b) while loop.
+> option is b) while loop.
   </details>
 
 --- 
 75. What is a nested if in python?
 
-- a) if condition inside for loop.
-- b) if condition inside another if condition
-- c) if condition with elif and else block
-- d) None of the above
+a) if condition inside for loop.  
+b) if condition inside another if condition  
+c) if condition with elif and else block  
+d) None of the above  
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** option b) is correct.
+> option b)
   </details>
 
 ---
 76. Predict the output of the below code.
-```
+```python3 
 var = 5
 if 5!=var:
  print("Hello")
 else :
  print("Hi")
 ```
-- a) Error
-- b) Hello
-- c) Hi
-- d) Nothing will be printed
+a) Error  
+b) Hello  
+c) Hi  
+d) Nothing will be printed  
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** option c) is correct.
-
-**Explanation:** The if condition becomes false as 5!= var is false. Hence Hi is printed.
+> option c)
+<details><summary> <b>Explanation</b> </summary>
+  
+> The if condition becomes false as 5!= var is false. Hence Hi is printed.
   </details>
-
+  </details>
+  
 ---
 77. Predict the output of the below code.
-```
+```python3 
 for = 5
 if 5!=for:
  print("Hello")
 else :
  print("Hi")
 ```
-- a) Error
-- b) Hello
-- c) Hi
-- d) Nothing will be printed
+a) Error  
+b) Hello  
+c) Hi  
+d) Nothing will be printed  
 <details><summary> <b>Show Answer</b> </summary>
  
-**Ans:** option a) is correct.
-
-**Explanation:** The above code will result in syntax error as 'for' is a keyword in python and we cannot use keywords as variable or a class. 
+> option a)
+<details><summary> <b>Explanation</b> </summary>
+  
+> The above code will result in syntax error as 'for' is a keyword in python and we cannot use keywords as variable or a class. 
   </details>
-
+  </details>
+  
  ---
-78. Which of the following statement is not assigning a numerical value 5 to variable var, if the original value of var is 0? 
+78. Which of the following statement is not assigning a numerical value 5 to variable var, if the original value of var is 0?   
 
-- a) var = 5
-- b) var += 5
-- c) var *=5
-- d) None
+a) var = 5  
+b) var += 5  
+c) var *=5  
+d) None  
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is c) var *=5
+> option is c) var *=5
 
-**Explanation:** var *=5 will store the value 0 to var not 5, hence wrong.
+> var *=5 will store the value 0 to var not 5, hence wrong.
   </details>
-
+  </details>
+  
  ---
 79. Jake knows how to create a variable and assign a integer value to it, but he don't know how to display all the values (greater then -1) which are lesser then that particular variable's value. Help Jake by writing the logic for it in the given spaces below.
-```
+```python3 
 n = 6
 ___#write the logic here___
 ```
 <details><summary> <b>Show Answer</b> </summary>
-  
-**Ans:** 
-```
+   
+```python3
 for i in range(0,n):
     print(i)
 ```
-
-**Explanation:** The for loop in python helps in running the loop for the range given. The above code will print the values from 0 till 5, not including 6.
+<details><summary> <b>Explanation</b> </summary>
+  
+> The for loop in python helps in running the loop for the range given. The above code will print the values from 0 till 5, not including 6.
   </details>
-
+  </details>
+  
 ---
 80. Predict the output of the following code.
-```
+```python3 
 for i in range(6, -3, -2):
     print(i, end=", ")
 ```
-- a) 6, 3, 0, -3
-- b) 6 3 0 -3
-- c) 6, 4, 2, 0, -2
-- d) error
+a) 6, 3, 0, -3  
+b) 6 3 0 -3  
+c) 6, 4, 2, 0, -2  
+d) error  
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is c)
-
-**Explanation:** The for loop in the above code will first take 6 as intial value and for each iteration it decrements the value by -2. Therefore it will print the values in reverse order untill -3. 
+> option is c)
+<details><summary> <b>Explanation</b> </summary>
+  
+> The for loop in the above code will first take 6 as intial value and for each iteration it decrements the value by -2. Therefore it will print the values in reverse order untill -3. 
   </details>
-
+  </details>
+  
 ---
 81. What will be the output of the following code? 
-```
+```python3 
 age =50
 if age > 45:
     if age > 65:
@@ -1601,32 +1612,35 @@ if age > 45:
 else:
     print('young')
 ```
-- a) old
-- b) middle
-- c) young
-- d) None
+a) old  
+b) middle  
+c) young  
+d) None  
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** option b) is correct
-
-**Explanation:** For age=50, the first if condition becomes true, but nested if becomes false resulting in executing the nested else statement.
+> option b) is correct
+<details><summary> <b>Explanation</b> </summary>
+  
+> For age=50, the first if condition becomes true, but nested if becomes false resulting in executing the nested else statement.
   </details>
+  </details> 
   
 ---
 82. Which operators are used to combine clauses within an if statement?
 
-- a) not
-- b) or
-- c) and
-- d) Both b) and c)
+a) not  
+b) or  
+c) and  
+d) Both b) and c)  
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** option d) is correct
+> option d)
   </details>
 
 ---
 83. Predict the output of the following code.
-```
+  
+```python3
 i=0
 while i<3:
   print(i, end=" ")
@@ -1634,85 +1648,92 @@ while i<3:
 else:
   print(4)
 ```
-- a) 0 1 2 
-- b) 0 1 2 4
-- c) 0 1 2 3 4
-- d) 1 2 3 4
+a) 0 1 2   
+b) 0 1 2 4  
+c) 0 1 2 3 4  
+d) 1 2 3 4  
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is b)
-
-**Explanation:** In python, we can write else part with for and while loop. So first while loop while executes untill it becomes false that is when i value becomes 3. After that else statement gets executed. 
+> Option is b) 
+<details><summary> <b>Explanation</b> </summary>
+  
+> In python, we can write else part with for and while loop. So first while loop while executes untill it becomes false that is when i value becomes 3. After that else statement gets executed. 
+</details>
 </details>
 
 ---
 84. Predict the output of the following code.
-```
+```python3
 i=5
 while(i<=8):
   print("i", end=" ")
   i+=1 
 ```
-- a) 5 6 7 8
-- b) 5 6 7
-- c) i i i i
-- d) i i i
+a) 5 6 7 8    
+b) 5 6 7    
+c) i i i i    
+d) i i i    
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is c) 
-
-**Explanation:** Here in the print statement in while loop, 'i' is printed 4 times as it is of string type not int type.
+> Option is c) 
+<details><summary> <b>Explanation</b> </summary>
+  
+> Here in the print statement in while loop, 'i' is printed 4 times as it is of string type not int type.
+</details>
 </details>
 
 --- 
 85. Predict the output of the following code.
-```
+```python3 
 i=5
 while(i<=8):
   print("i", end=" ")
   i+=1 
 ```
-- a) 5 6 7 8
-- b) 5 6 7
-- c) i i i i
-- d) i i i
+a) 5 6 7 8  
+b) 5 6 7  
+c) i i i i  
+d) i i i  
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is a) 
-
-**Explanation:** Here in the print statement in while loop, the value of 'i' is printed 4 times starting from 5 till 8.
+> option is a) 
+<details><summary> <b>Explanation</b> </summary>
+  
+> Here in the print statement in while loop, the value of 'i' is printed 4 times starting from 5 till 8.
+</details>
 </details>
 
 ---
 86. For what value of n, in the below code, will execute the if block?
-```
+```python3 
 if n>=7 and n<8:
     print("Hello")
 else:
     print("Hi")
 ```
-- a) 6
-- b) 7
-- c) 8
-- d) 10
+a) 6  
+b) 7  
+c) 8  
+d) 10  
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** option b) is correct
-
-**Explanation:** The only value of n that makes the if condition true is 7. 
+> option b)
+<details><summary> <b>Explanation</b> </summary>
+  
+> The only value of n that makes the if condition true is 7. 
+</details>
 </details>
 
 ---
 87. Rohit wants to write a code that will print the table of any number given by user at run time. He got stuck after writing the 1st line, help him to write the whole code in provides space. 
-```
+```python3 
 number = int(input("Enter any number"))
 
 # write your logic here 
 ```
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** 
-```
+```python3
 for i in range(1,11):
     print(number,"*",i,"=",number*i)
 ```
