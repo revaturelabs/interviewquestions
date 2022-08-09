@@ -94,18 +94,27 @@ public class ATM {
 
 <details> <summary><b>Show Answer</b></summary>
 	
-> 
+> 1. Encapsulation is used to implement data binding and data hinding.
+> 2. Encapsulation allows code reusability.
+> 3. It is used to maintain data security by restricting the access to only the non private members of the class.
 
 </details>
 
+---
 
-5. Members of abstract class
+5. What are the members of an abstract class?
 
 <details> <summary><b>Show Answer</b></summary>
 	
-> 
+> 1. feilds
+> 2. Absatract Method
+> 3. Non Abstract Mtehod.
+> 4. Constructor 
+> 5. main() method.
 
 </details>
+
+---
 
 6. Abstract class implemnting interface
 
@@ -114,6 +123,32 @@ public class ATM {
 > 
 
 </details>
+
+---
+
+7. Is it posssible to create an object for abstract class?
+
+<details> <summary><b>Show Answer</b></summary>
+	
+> 
+
+</details>
+
+---
+
+
+
+8 . 
+
+<details> <summary><b>Show Answer</b></summary>
+	
+> 
+
+</details>
+
+
+
+---
 
 
 
