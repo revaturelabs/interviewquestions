@@ -55,6 +55,8 @@ public class ATM {
   </details>
    </details>
    
+ ---
+   
 2. What is Abstraction?
 
 <details> <summary><b>Show Answer</b></summary>
@@ -65,6 +67,8 @@ public class ATM {
 > 2. By creating an interface with abstract methods.
 
 </details>
+
+---
 
 3. When to use abstract class and interface?
 
@@ -83,6 +87,8 @@ public class ATM {
 > 3. To implement Multiple Inheritance of value.
 
 </details>
+
+---
 
 
 
