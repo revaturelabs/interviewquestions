@@ -118,7 +118,7 @@ obj.show()
 - b) False
 <details><summary> <b>Show Answer</b> </summary>
   
-> option is b) False.
+> option b) False.
 <details><summary> <b>Explanation</b> </summary>
   
 > self is not a keyword in python, it is a parameter to a function and we can use any other name also in place of self, but it is advisable to use self as it increases the code readability. 
@@ -164,7 +164,7 @@ c) Error, because self is not used as a parameter in show().
 d) None    
 <details><summary> <b>Show Answer</b> </summary>
   
-> option is b) rohit 23 
+> option b) rohit 23 
 <details><summary> <b>Explanation</b> </summary>
   
 > option b) is corrent because both the print statements inside show() method is pointing to the current instance of a class, using current parameter. 
@@ -194,7 +194,7 @@ c) Error, because self is not used as a parameter in show().
 d) akshay 23   
 <details><summary> <b>Show Answer</b> </summary>
   
-> option is d) akshay 23 
+> option d) akshay 23 
 <details><summary> <b>Explanation</b> </summary>
   
 > In show() method, the 1st print statement is referring the class variable using the class name 'Student'. And in 2nd print statement it is referring to instance variable through current parameter. Hence option d) is correct. 
@@ -259,7 +259,7 @@ c) init
 d) __int__()  
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option is b) __init__()
+> Option b) __init__()
 <details><summary> <b>Explanation</b> </summary>
   
 >  __init__() is a constructor in python, rest all are wrong. 
@@ -357,7 +357,7 @@ c) Error as one argument is required while creating the object
 d) Error as show() function requires additional argument   
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option is c) 
+> Option c) 
 <details><summary> <b>Explanation</b> </summary>
   
 > During object creation, 1 argument is requried because __init__() method has another argument name other than self. For example obj= Student("rohit")
@@ -371,7 +371,7 @@ a) True
 b) False  
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option is b) False. 
+> Option b) False. 
 <details><summary> <b>Explanation</b> </summary>
   
 >  __init__() is a private method and a constructor in python. 
@@ -432,7 +432,7 @@ c) Shalini
 d) Error     
 <details><summary> <b>Show Answer</b> </summary>
   
-> option is a) Shalini
+> option a) Shalini
 <details><summary> <b>Explanation</b> </summary>
   
 > Only the girl1 object is calling the namePrint() method, so only the value stored in girl1 object is printed, that is Shalini.
@@ -476,7 +476,7 @@ c) Constructor methods are required to initialize an object
 d) Ability to create a new class by extending an existing class.   
 <details><summary> <b>Show Answer</b> </summary>
   
-> option is c).
+> option c).
 <details><summary> <b>Explanation</b> </summary>
   
 > A constructor is optional and can be used to set initial values for an object in python.
@@ -492,7 +492,7 @@ c) object
 d) instance     
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option is b) class
+> Option b) class
 </details>
 
 ---
@@ -504,7 +504,7 @@ c) init
 d) self   
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option is d) self.
+> Option d) self.
 </details>
 
 ---
@@ -530,7 +530,7 @@ c) We can create objects based on the number of methods present inside a class
 d) Python treats everything as objects including variables, functions, list, tuple, ect.  
 <details><summary> <b>Show Answer</b> </summary>
  
-> option is c) 
+> option c) 
 <details><summary> <b>Explanation</b> </summary>
   
 > There is no restriction in the number of objects that can be created for a class in python, but by convention it should be meaningful.
@@ -569,7 +569,7 @@ c) Inheritance
 d) Polymorphism   
 <details><summary> <b>Show Answer</b> </summary>
   
-> option is b) Instantiation.
+> option b) Instantiation.
 <details><summary> <b>Explanation</b> </summary>
   
 > 4 pillers of OOPs are, Abstraction, Polymorphism, Encapsulation, Inheritance. 
@@ -593,7 +593,7 @@ c) Error
 d) None of the above  
 <details><summary> <b>Show Answer</b> </summary>
   
-> option is b) 60. 
+> option b) 60. 
 <details><summary> <b>Explanation</b> </summary>
   
 > In the above code, self is pointing to the current instance of the class which has the value 60. 
@@ -620,7 +620,7 @@ c) 12
 d) Error, too many 'a' variable used     
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option is b) 11
+> Option b) 11
 <details><summary> <b>Explanation</b> </summary>
   
 > assign() method returns the current instance variable's value, which is 11 at that time. Hence the output.
@@ -647,7 +647,7 @@ c) 12
 d) Error, too many 'a' variable used 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option is a) 10
+> Option a) 10
 <details><summary> <b>Explanation</b> </summary>
   
 > assign() method returns the class variable's value, which is 10 at that time. Hence the output.
@@ -674,7 +674,7 @@ c) 12
 d) Error, too many 'a' variable used   
 <details><summary> <b>Show Answer</b> </summary>
   
-> option is c) 12
+> option c) 12
 <details><summary> <b>Explanation</b> </summary>
   
 > assign() method returns the parameter's value of assign(), that was assign to it as 12 at the time of calling. Hence the output.
