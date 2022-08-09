@@ -277,7 +277,7 @@ d) Department.__init__(Company)
 </details>
 
 ---
-14. Odd one out: Which is not a type of inheritance?
+14.Pick the Odd one out: Which is not a type of inheritance?
 
 a) Hybrid  
 b) Single-level  
