@@ -4,22 +4,24 @@
 
 <details><summary> <b>Show Answer</b> </summary>
 	
-- List:[]
-    - List is Mutable and ordered/indexed.
-    - List allows duplicate values.
-    - It can stroe any data type str,list,set,tuple,int and dictionary.
+> List:[]
+   > - List is Mutable and ordered/indexed.
+   > - List allows duplicate values.
+   > - It can stroe any data type str,list,set,tuple,int and dictionary.
 	
-- Set:{}
-    - Set is Mutable and unordered.
-    - Set not allow duplicate values.
-    - Inside of dictionary key can be int,str,and tuple only values can be of any data type int,str,list,tuple,set and dictionary.
+> Set:{}
+   > - Set is Mutable and unordered.
+   > - Set not allow duplicate values.
+   > - Inside of dictionary key can be int,str,and tuple only values can be of any data type int,str,list,tuple,set and dictionary.
 </details>
 
-2.How will you add list items into a Set?
+---
+
+2.How will you add list of items into a Set?
 
 <details><summary> <b>Show Answer</b> </summary>
 	
-- In python we can use the update() method of a set, to add list of items into a set.
+> In python we can use the update() method of a set, to add list of items into a set.
 	
 **Example**:
 
@@ -32,9 +34,11 @@ print(sample_set)
 	
 **Output**:
 	
-{'Green', 'Yellow', 'Red', 'Black', 'Orange', 'Blue'}
+> {'Green', 'Yellow', 'Red', 'Black', 'Orange', 'Blue'}
 	
 </details>	
+
+---
 
 3.How will you return a new set of identical items from these two sets?
 
@@ -45,7 +49,7 @@ set2 = {30, 40, 50, 60, 70}
 
 <details><summary> <b>Show Answer</b> </summary>
 	
-- For that we have Intersction() method of a set.
+> For that we have Intersction() method of a set.
 	
 ```python
 set1 = {10, 20, 30, 40, 50}
@@ -57,6 +61,8 @@ print(set1.intersection(set2))
 	
 {40,50,60}
 </details>
+
+---
 
 4.What will be the output of the following code?
 
@@ -76,11 +82,11 @@ print(set3)
 
 <details><summary> <b>Show Answer</b> </summary>
 	
-**Output**:
-	
-{(9, 5), (9, 6), (10, 6), (8, 5)}
+> {(9, 5), (9, 6), (10, 6), (8, 5)}
 
 </details>
+
+---
 
 5.How will you remove items 10, 20, 30 from the set at once?
 
@@ -88,7 +94,7 @@ print(set3)
 
 <details><summary> <b>Show Answer</b> </summary>
 	
-- In python we use difference_update() method of a set.
+> In python we use difference_update() method of a set.
 
 ```python	
 s1 = {10, 20, 30, 40, 50}
@@ -101,6 +107,8 @@ print(1)
 40,50
 
 </details>
+
+---
 
 6.Write a program to Check if two sets have any elements in common. If yes, display the common elements.
 
@@ -118,51 +126,56 @@ else:
 	
 **Output**:
 	
-Two sets have items in common
-{10}
+> Two sets have items in common
+	
+>  {10}
 
 </details>
+
+---
 
 7.What are the methods you frequently used when dealing with set in python?
 
 <details><summary> <b>Show Answer</b> </summary>
 	
-- Set provides different kinds of built-in methods that anyone can use for Set manipulations. Some of these methods are mentioned below:
+> - Set provides different kinds of built-in methods that anyone can use for Set manipulations. Some of these methods are mentioned below:
 	
-i) add(): it is used to adds an element to the set
+> i) add(): it is used to adds an element to the set
 	
-ii) clear(): it removes all the elements from the set
+> ii) clear(): it removes all the elements from the set
 	
-iii) copy(): it returns a copy of the set
+> iii) copy(): it returns a copy of the set
 	
-iv) difference(): it returns a set containing the difference between two or more sets
+> iv) difference(): it returns a set containing the difference between two or more sets
 	
-v) difference_update(): it removes the items in this set that are also included in another, specified set
+> v) difference_update(): it removes the items in this set that are also included in another, specified set
 	
-vi) discard(): it remove the specified item
+> vi) discard(): it remove the specified item
 	
-vii)intersection(): it returns a set, that is the intersection of two other sets
+> vii)intersection(): it returns a set, that is the intersection of two other sets
 	
-viii)issubset():it returns whether another set contains this set or not
+> viii)issubset():it returns whether another set contains this set or not
 	
-ix)issuperset():it returns whether this set contains another set or not
+> ix)issuperset():it returns whether this set contains another set or not
 	
-x)pop():it removes an element from the set
+> x)pop():it removes an element from the set
 	
-xi)remove(): it removes the specified element
+> xi)remove(): it removes the specified element
 	
-xii)union():it return a set containing the union of sets
+> xii)union():it return a set containing the union of sets
 	
-xiii)update(): Update the set with the union of this set and others
+> xiii)update(): Update the set with the union of this set and others
 
 </details>
+
+---
 	
 8.What is the difference between pop() and remove()?
 
 <details><summary> <b>Show Answer</b> </summary>
 	
-- pop():
-  - it is used to removes an element from the set.
+> pop():
+  > - it is used to removes an element from the set.
 	
 **Example**:
 	
@@ -176,8 +189,8 @@ print(x)
 	
 apple(it removes random element from set)
 	
-- remove():
-  - it is used to removes the specified element.
+> remove():
+  > - it is used to removes the specified element.
 	
 **example**:
 	
@@ -193,11 +206,13 @@ print(fruits)
 	
 </details>
 
+---
+
 9.How to iterate over the set of elements?Write a code for that.
 
 <details><summary> <b>Show Answer</b> </summary>
 	
-- To iterate over set in python we can use any loop.
+> To iterate over set in python we can use any loop.
 	
 i)using for loop
 
@@ -216,12 +231,14 @@ c
 a
 
 </details>
+
+---
 	
 10.What is the use of copy() method? 
 
 <details><summary> <b>Show Answer</b> </summary>
 	
-- The copy() method used to copies the set.
+> The copy() method used to copies the set.
 	
 **Example**:
 	
@@ -233,17 +250,19 @@ print(x)
 	
 **Output**:
 	
-{'ant','bat','cat'}
+> {'ant','bat','cat'}
 	
 </details>
 
-11.Can you zip 2 sets together?
+---
+
+11.How will you zip 2 sets together?
 
 <details><summary> <b>Show Answer</b> </summary>
 	
-- Yes,but the values from each set may not be joined in order.
+> We can zip also,but the values from each set may not be joined in order.
 	
-**example**:
+**Example**:
 	
 ```python	
 z = zip({1,2,3},{'a','b','c'})
@@ -252,15 +271,17 @@ print(list(z))
 	
 **Output**:
 	
-[(1, 'b'), (2, 'c'), (3, 'a')]
+> [(1, 'b'), (2, 'c'), (3, 'a')]
 	
 </details>
+
+---
 
 12.Can a set be accessed by index?
 
 <details><summary> <b>Show Answer</b> </summary>
 	
-- No.Set can't be accessed by index,if your trying to access a set by index will throw an error.
+> No.Set can't be accessed by index,if your trying to access a set by index will throw an error.
 	
 **example**:
 
@@ -275,11 +296,13 @@ TypeError: 'set' object is not subscriptable
 	
 </details>
 
+---
+
 13.Can you Update a set to equal the intersection of it and another set.
 
 <details><summary> <b>Show Answer</b> </summary>
 	
-- In python intersection_update() updates the first set to be equal to the intersection.
+> In python intersection_update() updates the first set to be equal to the intersection.
 	
 **Example**:
 	
@@ -292,9 +315,9 @@ print(s1)
 	
 **Output**:
 	
-{4,5}
+> {4,5}
 
-- This can also be done with the &= operator.
+> This can also be done with the &= operator.
 
 ```python	
 s1 = {1,2,3,4,5}
@@ -305,15 +328,17 @@ print(s1)
 	
 **Output**:
 	
-{4,5}
+> {4,5}
 
 </details>
+
+---
 
 14.Can you remove the intersection of a 2nd set from the 1st set.
 
 <details><summary> <b>Show Answer</b> </summary>
 	
-- In python difference_update() removes the intersection from the first set.
+> In python difference_update() removes the intersection from the first set.
 	
 **Example**:
 	
@@ -326,9 +351,9 @@ print(s1)
 	
 **Output**:
 	
-{1, 2, 3}
+> {1, 2, 3}
 
-- The operator -= also works.
+- The operator **-=** also works.
 
 ```python	
 s1 = {1,2,3,4,5}
@@ -343,11 +368,13 @@ print(s1)
 	
 </details>
 
+---
+
 15.Write a Python program to create a shallow copy of sets.
 
 <details><summary> <b>Show Answer</b> </summary>
 	
-Note : Shallow copy is a bit-wise copy of an object. A new object is created that has an exact copy of the values in the original object.
+> Note : Shallow copy is a bit-wise copy of an object. A new object is created that has an exact copy of the values in the original object.
 
 ```python
 s1 = set(["Red", "Green"])
@@ -359,7 +386,7 @@ print(setr)
 	
 **Output**:
 	
-{'Green','Red'}
+> {'Green','Red'}
 	
 
 Pictorial Representation  of the above code:
@@ -373,3 +400,5 @@ s1     s2
   Red Green
 	
 </details>
+
+---
