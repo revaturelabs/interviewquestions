@@ -101,7 +101,19 @@ public class ATM {
 
 5. Members of abstract class
 
+<details> <summary><b>Show Answer</b></summary>
+	
+> 
+
+</details>
+
 6. Abstract class implemnting interface
+
+<details> <summary><b>Show Answer</b></summary>
+	
+> 
+
+</details>
 
 
 
@@ -113,6 +125,13 @@ public class ATM {
 ## Error Detection
 
 1. Class Extending abstract class but not implementing all abstrcat methods.
+
+
+<details> <summary><b>Show Answer</b></summary>
+	
+> 
+
+</details>
 
 
 
