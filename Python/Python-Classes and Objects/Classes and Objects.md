@@ -3,7 +3,7 @@
 
 1. What do you understand by Object-Oriented Programming? What are its main features?
 <details><summary> <b>Show Answer</b> </summary> 
-  
+   
 - Object-Oriented Programming refers to the programming style related with classes and objects. Here the object is a real world entity and a class is a blueprint to that object. For example, we can consider a 'car' as a class and maruti suzuki or honda as an object. 
 
 - Python is a OOP language, so it supports all OOPs concepts such as Polymorphism, Inheritance, Encapsulation and Abstraction. Polymorphism in python defines method in child class have same name as method in parent class. Inheritance means the child class can inherits the properties from its parent class. Encapsulation is wrapping up of data and member functions together in same unit. And finally abstraction means hiding the irrelevent data from user showing only the important part or functionality. 
@@ -24,7 +24,7 @@ There are many reasons why one should go for programming languages that supports
 3. What do u mean class and object in python?
 <details><summary> <b>Show Answer</b> </summary>
   
-- A class, in python, is a user defined datatype and also a blueprint of an object. Class provides a way of binding data and member functions together. An object is an instance of a class and a real world entity. For example, A gender can be considered as a class and male and female as an object of that class. 
+> A class, in python, is a user defined datatype and also a blueprint of an object. Class provides a way of binding data and member functions together. An object is an instance of a class and a real world entity. For example, A gender can be considered as a class and male and female as an object of that class. 
 
 Example in python:
 ```python3
@@ -44,7 +44,7 @@ male.fun1()
 4. What is a constructor in python? Give example.
 <details><summary> <b>Show Answer</b> </summary>
   
-- Constructor is a method that is used to initialize the variable and are called when an object of a class is created. In python we can use the __init__() method that is a constructor, unlike in other programming language where both class name and constructor name should be same. The statements present inside the constructor are executed at the time of object creation. 
+> Constructor is a method that is used to initialize the variable and are called when an object of a class is created. In python we can use the __init__() method that is a constructor, unlike in other programming language where both class name and constructor name should be same. The statements present inside the constructor are executed at the time of object creation. 
 
 For Example:
 ```python3
@@ -67,7 +67,7 @@ obj.show()   # output: rohit 23
 5. Does python supports constructor overloading? If yes, than how?
 <details><summary> <b>Show Answer</b> </summary>
   
-- Python doesn't support constructor overloading, means we can not create two constructor, within same class, with different arguments. But there is a way in python through which we can make a constructor that can work in different way when we pass different number of arguments at the time of object creation. We can pass number of default arguments to __init__() method to make it as constructor overloading. 
+> Python doesn't support constructor overloading, means we can not create two constructor, within same class, with different arguments. But there is a way in python through which we can make a constructor that can work in different way when we pass different number of arguments at the time of object creation. We can pass number of default arguments to __init__() method to make it as constructor overloading. 
 
 For example: 
 ```python3
@@ -92,7 +92,7 @@ print(obj1.getname())          # output: ('akshay', 'rohit', None)
 6. What is a self in class in python?
 <details><summary> <b>Show Answer</b> </summary>
   
-- The self is a first parameter of every method in a class, and is used to refer the current class instance. There is no restriction in python to name it as self, it can be named whatever we like, but it has to be the first parameter of a method.   
+> The self is a first parameter of every method in a class, and is used to refer the current class instance. There is no restriction in python to name it as self, it can be named whatever we like, but it has to be the first parameter of a method.   
   
 For Example:
 ```python3
@@ -118,7 +118,7 @@ obj.show()
 - b) False
 <details><summary> <b>Show Answer</b> </summary>
   
-Correct option is b) False.
+> option is b) False.
 <details><summary> <b>Explanation</b> </summary>
   
 > self is not a keyword in python, it is a parameter to a function and we can use any other name also in place of self, but it is advisable to use self as it increases the code readability. 
@@ -128,13 +128,13 @@ Correct option is b) False.
 ---
 8. Which of the following is the correct way of creating an object of a class "Student" in python?
 
-- a) Student obj = new Student();
-- b) obj Student = new Student();
-- c) obj = Student()
-- d) Student obj; 
+a) Student obj = new Student();  
+b) obj Student = new Student();  
+c) obj = Student()  
+d) Student obj;   
 <details><summary> <b>Show Answer</b> </summary>
   
-Correct option is c) obj =Student()
+> Option is c) obj =Student()
 <details><summary> <b>Explanation</b> </summary>
   
 > options a) and d) are incorrect because this is how we can create a object in java and c++ respectively, not in python.
@@ -158,13 +158,13 @@ class Student:
 obj = Student("rohit", 23)
 obj.show()
 ```
-- a) akshay 22
-- b) rohit 23
-- c) Error, because self is not used as a parameter in show().
-- d) None
+a) akshay 22    
+b) rohit 23    
+c) Error, because self is not used as a parameter in show().    
+d) None    
 <details><summary> <b>Show Answer</b> </summary>
   
-Correct option is b) rohit 23 
+> option is b) rohit 23 
 <details><summary> <b>Explanation</b> </summary>
   
 > option b) is corrent because both the print statements inside show() method is pointing to the current instance of a class, using current parameter. 
@@ -188,13 +188,13 @@ class Student:
 obj = Student("rohit", 23)
 obj.show()
 ```
-- a) akshay 22
-- b) rohit 23
-- c) Error, because self is not used as a parameter in show().
-- d) akshay 23 
+a) akshay 22  
+b) rohit 23  
+c) Error, because self is not used as a parameter in show().  
+d) akshay 23   
 <details><summary> <b>Show Answer</b> </summary>
   
-Correct option is d) akshay 23 
+> option is d) akshay 23 
 <details><summary> <b>Explanation</b> </summary>
   
 > In show() method, the 1st print statement is referring the class variable using the class name 'Student'. And in 2nd print statement it is referring to instance variable through current parameter. Hence option d) is correct. 
@@ -217,13 +217,13 @@ class Student:
 obj = Student("rohit", 23)
 obj.show()
 ```
-- a) akshay 22
-- b) rohit 23
-- c) Error 
-- d) No output
+a) akshay 22  
+b) rohit 23  
+c) Error   
+d) No output  
 <details><summary> <b>Show Answer</b> </summary>
   
-Option c) is correct.
+> Option c)
   
 <details><summary> <b>Explanation</b> </summary>
   
@@ -253,13 +253,13 @@ For example: __name = "akshay"
 --- 
 13. In Python, all classes have a function known as?
 
-- a) __inti__()
-- b) __init__()
-- c) init
-- d) __int__()
+a) __inti__()  
+b) __init__()  
+c) init  
+d) __int__()  
 <details><summary> <b>Show Answer</b> </summary>
   
-Correct option is b) __init__()
+> Option is b) __init__()
 <details><summary> <b>Explanation</b> </summary>
   
 >  __init__() is a constructor in python, rest all are wrong. 
@@ -269,13 +269,13 @@ Correct option is b) __init__()
 ---
 14. Which keyword can be used to delete the objects of a class in python?
 
-- a) delete
-- b) remove 
-- c) pop 
-- d) del 
+a) delete  
+b) remove   
+c) pop   
+d) del   
 <details><summary> <b>Show Answer</b> </summary>
   
-Option d) is correct. 
+> Option d)
 <details><summary> <b>Explanation</b> </summary>
   
 > Through del we can delete objects created for a class. 
@@ -300,13 +300,13 @@ obj.show()   # this will throw "NameError: name 'obj' is not defined"
 ---
 15. Variable that is defined inside a method of a class and its value varies from object to object is known as?
 
-- a) Instance variable
-- b) Class variable 
-- c) Method variable
-- d) Block variable 
+a) Instance variable  
+b) Class variable   
+c) Method variable  
+d) Block variable   
 <details><summary> <b>Show Answer</b> </summary>
   
-Option a) is correct. 
+> Option a) 
 <details><summary> <b>Explanation</b> </summary>
   
 > An instance variable is a variable whose value varies from object to object. These variables are not shared by objects. 
@@ -317,7 +317,7 @@ Option a) is correct.
 16. What is the difference between instance variable and class variable?
 <details><summary> <b>Show Answer</b> </summary>
   
-Instance variables are declared inside the method or a constructor of a class. They are not shared by any objects. Every object has its own copy of the instance variable.
+> Instance variables are declared inside the method or a constructor of a class. They are not shared by any objects. Every object has its own copy of the instance variable.
 
 - Class variables are declared inside the class but outside any method. These variables are shared accross all the objects of a class. Any change to the class variable will reflect to all the objects of that class. 
 
