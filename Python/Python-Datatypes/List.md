@@ -84,10 +84,12 @@ print(l)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> append() can be used when we have to add or insert single element in the end of list.   
-> insert() can be used to add an element at desired postion in a list by passing index value along with element as a parameter.   
-> extend() can be used when we have to add more then 1 element at the end of a list. It appends each element of an iterable such as list and tuple.   
-
+> append() can be used when we have to add or insert single element in the end of list.  
+    
+> insert() can be used to add an element at desired postion in a list by passing index value along with element as a parameter.  
+    
+> extend() can be used when we have to add more then 1 element at the end of a list. It appends each element of an iterable such as list and tuple.  
+  
 For example: 
 
 ```python
