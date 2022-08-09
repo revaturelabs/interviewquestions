@@ -4,7 +4,7 @@
 1. Explain polymorphism in Python? What are its type?
 <details><summary> <b>Show Answer</b> </summary> 
   
-> Polymorphism in python states that we can use the same function with same signature in parent and child class both. It allows the object to have multiple forms. Unlike other programming languages python does not support compile time polymorphism that is method overloading. If there are two functions with same name in a class, the last function specified will override the earlier one in python. It only supports the run time polymorphism, that is, method overriding.    
+> Polymorphism in python states that we can use the same function with same signature in both parent and child class. It allows the object to have multiple forms. Unlike other programming languages, python does not support compile time polymorphism, that is method overloading. If there are two functions with same name in a class, the last function specified will override the earlier one. It only supports the run time polymorphism, that is, method overriding.    
   
 For example: 
 ```python3
@@ -27,10 +27,10 @@ obj1.flight()   # it overrides the flight method of Bird class function.  #outpu
 </details>
 
 ---
-2. Does python supports method overloading and method overriding?
+2. Does python support method overloading and method overriding?
 <details><summary> <b>Show Answer</b> </summary> 
   
-> Python doesn't supports method overloading but it supports method overriding. That is we can define the same function in child and parent class with same signature and child's function override the parent class function. But when we define multiple functions with same name with different signatures and trying to call both with different number of argument passing, it executes the later one but gives error for trying to call the other functions as in namespace there will always be a single entry against each function name. let's see this with an example.   
+> Python doesn't support method overloading but it supports method overriding. That is, we can define the same function in child and parent class with same signature and child's function overrides the parent class function. But when we define multiple functions with same name with different signatures and trying to call both with different number of argument passing, it executes the later one but gives error for trying to call the other functions as in namespace there will always be a single entry against each function name. let's see this with an example.   
 
 #Example 1 
 ```python3
@@ -89,7 +89,7 @@ b) False
 > Option b)
 <details><summary> <b>Explanation</b> </summary> 
   
-> Suppose we define two functions with same name and different argument list in python, and when we try to call the first function it will give error in the program, but when we try to call the second function it doesn't gives the error and overrides the prior function and generates the output. 
+> Suppose, if we define two functions with same name and different argument list in python, and when we try to call the first function, it will give error in the program. But, when we try to call the second function, it doesn't give the error and overrides the prior function and generates the output. 
   </details>
 </details>
 
@@ -117,7 +117,7 @@ d) None of the above
 > option is b) 
 <details><summary> <b>Explanation</b> </summary> 
   
-> Car class overrides the wheel() method of Vehicle class and Therefore when calling the wheel() method of Car using object of Car class, it prints the statement present inside it. 
+> Car class overrides the wheel() method of Vehicle class and therefore when calling the wheel() method of Car using object of Car class, it prints the statement present inside it. 
   </details>
 </details>
 
@@ -150,7 +150,7 @@ d) Error
 > Option d)
 <details><summary> <b>Explanation</b> </summary> 
   
-> The above code will throw an AttributeError because Car class object is trying to call the method present inside Vehicle class which is not possible as there is now relationship between Car and Vehicle class.
+> The above code will throw an AttributeError because Car class object is trying to call the method present inside Vehicle class which is not possible, as there is now relationship between Car and Vehicle class.
   </details>
 </details>
 
@@ -220,7 +220,7 @@ d) 31
 </details>
 
 ---
-10. What will be the output of the below code?
+10. What is the output of the below code?
 ```python3
 class Test:
     def __init__(self, a):
@@ -247,7 +247,7 @@ d) Error
 > Option d) 
 <details><summary> <b>Explanation</b> </summary> 
   
-> The above code on running will throw the NameError as there is no 'a' variable defined in class Test1. 
+> The above code on execution will throw the NameError, as there is no 'a' variable defined in class Test1. 
   </details>
 </details>
 
@@ -290,7 +290,7 @@ d) Error
 > Option c)
 <details><summary> <b>Explanation</b> </summary> 
   
-> obj1, obj2, obj3 all three objects belongs to different classes and when assign() method is called using these objects, the statement present inside these methods are executed and hence we get the values as 11, 12 and 13.
+> obj1, obj2, obj3 all three objects belongs to different classes and when assign() method is called using these objects, the statement present inside these is executed and hence we get the values as 11, 12 and 13.
   </details>
 </details>
 
@@ -333,7 +333,7 @@ d) Error
 > Option d)
 <details><summary> <b>Explanation</b> </summary> 
   
-> The above code will throw a TypeError because the default way of method overloading is not possible in python. Here the later function overrides the previous function at the run time so, three arguments are required to pass to multiply() method not two at the time of calling. 
+> The above code will throw a TypeError because the default way of method overloading is not possible in python. Here, the later function overrides the previous function at the run time and so, three arguments are required to pass to multiply() method and not two at the time of calling. 
   </details>
 </details>
 
@@ -360,7 +360,7 @@ d) Error
 > Option b)
 <details><summary> <b>Explanation</b> </summary> 
   
-> As three arguments are passed to multiply() method of Test class. So, last method implementation is executed and we will get the result as, which is multiplication of 10, 20 and 2 , 400.   
+> As three arguments are passed to multiply() method of Test class, last method implementation is executed and we will get the result as multiplication of 10, 20 and 2 , which is 400.   
   </details>
 </details>
 
@@ -389,12 +389,12 @@ d) Error
 > Option d)
 <details><summary> <b>Explanation</b> </summary> 
   
-> According to method overriding, parent class and child class method should have the same name with same number of arguments but, here the multiply() method of Test class and multiply() method of Test1 class both have different number of arguments, which lead to an error. While calling the mutliply() of Test1, 3 arguments are required but, only 2 passed. 
+> According to method overriding, parent class and child class method should have the same name with same number of arguments but, the multiply() method of Test class and multiply() method of Test1 class have different number of arguments, which leads to an error. While calling the mutliply() of Test1, 3 arguments are required but, only 2 passed. 
   </details>
 </details>
 
 ---
-16. Rohan is trying the polymorphism concept in his code for the first time, he remembered something about method overriding and is able to create one method, in Parent class "Animal", named as "leg()" and has given the implementation of leg() method. He also created one more class named as "Human" which inheriting the Base class Animal. But now he forgets what to write in Human class to complete the concept of method overriding and how to create a object of that class. Help Rohan in solving his problem, you have to create a leg() method in Human class which prints "Humans have legs" and create an object for the Human class to call leg() method. Given below has some code written, write your logic in the spaces provided. 
+16. Rohan is trying the polymorphism concept in his code for the first time, he remembered something about method overriding and is able to create one method, as Parent class "Animal", named as "leg()" and has given the implementation of leg() method. He also created one more class named as "Human" which inherited the Base class Animal. But he forgets what to write in Human class to complete the concept of method overriding and how to create an object of that class. Help Rohan in solving his problem, and you have to create a leg() method in Human class which prints "Humans have legs" and create an object for the Human class to call leg() method. Given below has some code written, and write your logic in the spaces provided. 
 ```python3
 class Animal:
     
@@ -426,7 +426,7 @@ obj1.leg()
 17. Create a class that shows the concept of method overloading in python?
 <details><summary> <b>Show Answer</b> </summary> 
   
-> Default implementation of method overloading is not possible in python, still we can implement and show overloading by passing default arguments to methods in python. Let's see how to do it. 
+> Default implementation of method overloading is not possible in python, but we can implement and show overloading by passing default arguments to methods. Let's see how to do it. 
 ```python3
 class Overloading:
     
@@ -437,14 +437,14 @@ obj = Overloading()
 print(obj.add(10, 20))        # output: 30
 print(obj.add(10, 20, 30))    # output: 60
 ```
-> Here we have passed different number of arguments at the time of calling, and we are getting different output as well for that. 
+> Here, we have passed different number of arguments at the time of calling, and we are getting different output as well for that. 
 </details>
 
 ---
 18. Show the polymorphism concept by using '+' operator inside a class. 
 <details><summary> <b>Show Answer</b> </summary> 
   
-> In python '+' operator, not only be used to add multiple values together but, it can also be used to concatenate two or more string values. Let's understand this better by seeing one code.
+> In python '+' operator is not only used to add values together but, it can also be used to concatenate two or more string values. Let's understand this better through a code.
 ```python3
 class Operator:
     
@@ -461,20 +461,20 @@ print(obj.add("Akshay"," Bhadauria"))
 </details>
 
 ---
-19. Can we say that len() function can be used in showing polymorphism in python?
+19. Can len() function be used in polymorphism in python?
 <details><summary> <b>Show Answer</b> </summary> 
   
-> In python, len() is used to find the length of different datatypes like string, list, tuple, etc. It is one of the good examples to show polymorphism in python as well. The below code will show how we can use len() function with different types of data.
+> In python, len() is used to find the length of different datatypes like string, list, tuple, etc. The below code will show how we can use len() function with different types of data.
 ```python3
 print(len("Akshay"))           #Output: 6
 print(len([1, 2, 3, 4]))       #Output: 4
 print(len((1.5, 2.8, 3.3)))    #Output: 3 
 ```
-> As we can see in different print statements different types of values are present, in first it is a string, in second it is a list, and in third it is a tuple. And the len() function is returing the length of these values. 
+> Different types of values are present in different print statements. First it is a string, then it is a list, and at last it is a tuple. The len() function is returing the length of these values. 
 </details>
 
 ---
-20. Why to use polymorphism in python?
+20. What is the use of polymorphism in python?
 
 a) It allows to use the same code again and again.  
 b) Programs that uses the polymorphism concepts takes less space in memory.   
@@ -490,7 +490,7 @@ d) It allows the methods to have different implementation according to the class
 </details>
 
 ---
-21. The __add__() function overloads which of the following operator?
+21. Which of the following operator overloads the __add__() function?
 
 a) +  
 b) +=  
