@@ -395,7 +395,7 @@ print("The data type of the variable",type(b))
   
 <details><summary> <b>Show Answer</b> </summary> 
    
-**Output**:
+**Output**: 
   
 8
   
@@ -410,7 +410,7 @@ The data type of the variable <class 'int'>
    
  --- 
   
-18.In Python 3, what is the output of type(range(5)). (What data type it will return).
+18.In Python 3, what is the output of **type(range(5))**. (What data type it will return).
    
  A.int
   
@@ -456,7 +456,7 @@ print(type(a1))
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Numeric values can be converted into complex numbers with complex() function. 
+> Numeric values can be converted into complex numbers with **complex()** function. 
   
 **Example**:
   
@@ -473,9 +473,10 @@ print(complex(a))
   
 <details><summary> <b>Explanation</b> </summary>
 
-> To convert real numbers into complex numbers we can use **complex()**
+> To convert real numbers into complex numbers we can use **complex()** method.
   
 </details>
+ </details>
   
   ---
 
