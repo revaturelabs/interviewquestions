@@ -351,13 +351,13 @@ class Student:
 obj = Student()
 obj.show()
 ```
-- a) It prints output as akshay
-- b) It prints the garbage value.
-- c) Error as one argument is required while creating the object
-- d) Error as show() function requires additional argument 
+a) It prints output as akshay  
+b) It prints the garbage value  
+c) Error as one argument is required while creating the object  
+d) Error as show() function requires additional argument   
 <details><summary> <b>Show Answer</b> </summary>
   
-Correct option is c) 
+> Option is c) 
 <details><summary> <b>Explanation</b> </summary>
   
 > During object creation, 1 argument is requried because __init__() method has another argument name other than self. For example obj= Student("rohit")
@@ -365,13 +365,13 @@ Correct option is c)
 </details>
 
 ---
-18. State True and False: "__init__() is a constructor and public method in python".
+18. State True and False: "__init__() is a constructor and public method in python".  
 
-- a) True
-- b) False
+a) True  
+b) False  
 <details><summary> <b>Show Answer</b> </summary>
   
-Correct option is b) False. 
+> Option is b) False. 
 <details><summary> <b>Explanation</b> </summary>
   
 >  __init__() is a private method and a constructor in python. 
@@ -425,14 +425,14 @@ girl1 = Girl("Shalini")
 girl2 = Girl("Aakriti")
 girl1.namePrint()
 ```
-- a) Shalini
-- b) Aakriti
-- c) Shalini 
-     Aakriti 
-- d) Error 
+a) Shalini  
+b) Aakriti  
+c) Shalini     
+&emsp;Aakriti     
+d) Error     
 <details><summary> <b>Show Answer</b> </summary>
   
-Correct option is a) Shalini
+> option is a) Shalini
 <details><summary> <b>Explanation</b> </summary>
   
 > Only the girl1 object is calling the namePrint() method, so only the value stored in girl1 object is printed, that is Shalini.
@@ -454,13 +454,13 @@ girl1 = Girl("Shalini")
 girl2 = Girl("Aakriti")
 girl1.namePrint()
 ```
-- a) The __init__ method is used to set initial values for attributes. 
-- b) 'self' is not needed in namePrint() method
-- c) girl1 and girl2 are two different instances of the Girl class.
-- d) girl2 has a different value for 'name' than girl1.
+a) The __init__ method is used to set initial values for attributes. 
+b) 'self' is not needed in namePrint() method
+c) girl1 and girl2 are two different instances of the Girl class.
+d) girl2 has a different value for 'name' than girl1.
 <details><summary> <b>Show Answer</b> </summary>
   
-Option b) is correct.
+> Option b)
 <details><summary> <b>Explanation</b> </summary>
   
 > 'self' is used to represent the current instance of the class and is compulsory to have self for every method inside the class in python. 
@@ -468,15 +468,15 @@ Option b) is correct.
 </details>
 
 ---
-22. Which of the following is wrong statement for OOPs in python?
+22. Which of the following is wrong statement for OOPs in python?  
 
-- a) OOPs can hide complexity.
-- b) Class can contain functions as well as data
-- c) Constructor methods are required to initialize an object 
-- d) Ability to create a new class by extending an existing class. 
+a) OOPs can hide complexity.  
+b) Class can contain functions as well as data  
+c) Constructor methods are required to initialize an object   
+d) Ability to create a new class by extending an existing class.   
 <details><summary> <b>Show Answer</b> </summary>
   
-Correct option is c).
+> option is c).
 <details><summary> <b>Explanation</b> </summary>
   
 > A constructor is optional and can be used to set initial values for an object in python.
@@ -486,35 +486,35 @@ Correct option is c).
 ---
 23. The ______ is used to store the data members and functions together in python.
 
-- a) Class
-- b) class
-- c) object
-- d) instance 
+a) Class    
+b) class    
+c) object    
+d) instance     
 <details><summary> <b>Show Answer</b> </summary>
   
-Correct option is b) class
+> Option is b) class
 </details>
 
 ---
 24. ______ is not a keyword, but by convention it is used to refer to the current instance of a class. 
 
-- a) this
-- b) super
-- c) init
-- d) self 
+a) this  
+b) super  
+c) init  
+d) self   
 <details><summary> <b>Show Answer</b> </summary>
   
-Correct option is d) self.
+> Option is d) self.
 </details>
 
 ---
 25. State True or False: In order to extend a class, the child class should have access to all the data and functions of the parent class.
 
-- a) True
-- b) False 
+a) True  
+b) False   
 <details><summary> <b>Show Answer</b> </summary>
   
-option b) False is correct 
+> option b) False
 <details><summary> <b>Explanation</b> </summary>
   
 > The child class does not need access to the all the functions in parent class.
@@ -522,15 +522,15 @@ option b) False is correct
 </details>
 
 ---
-26. Which of the following is wrong with respect to objects in python?
+26. Which of the following is wrong with respect to objects in python?  
 
-- a) Objects are real world enitites.
-- b) Object is an instance of a class.
-- c) We can create objects based on the number of methods present inside a class
-- d) Python treats everything as objects including variables, functions, list, tuple, ect.
+a) Objects are real world enitites.  
+b) Object is an instance of a class.  
+c) We can create objects based on the number of methods present inside a class  
+d) Python treats everything as objects including variables, functions, list, tuple, ect.  
 <details><summary> <b>Show Answer</b> </summary>
  
-Correct option is c) 
+> option is c) 
 <details><summary> <b>Explanation</b> </summary>
   
 > There is no restriction in the number of objects that can be created for a class in python, but by convention it should be meaningful.
@@ -547,13 +547,13 @@ Student()
 Student()
 obj= Student()
 ```
-- a) 3 and 1
-- b) 2 and 1
-- c) 1 and 3
-- d) 3 and 3
+a) 3 and 1  
+b) 2 and 1  
+c) 1 and 3  
+d) 3 and 3  
 <details><summary> <b>Show Answer</b> </summary>
   
-Option a) is correct 
+> Option a) 
 <details><summary> <b>Explanation</b> </summary>
   
 > In the above code, 3 objects are present, two without reference variable and 1 with reference variable, Obj = student(). 
@@ -563,13 +563,13 @@ Option a) is correct
 ---
 28. Odd one out: Which is not comes under four pillers of OOPs in python?
 
-- a) Encapsulation
-- b) Instantiation
-- c) Inheritance 
-- d) Polymorphism 
+a) Encapsulation  
+b) Instantiation  
+c) Inheritance   
+d) Polymorphism   
 <details><summary> <b>Show Answer</b> </summary>
   
-Correct option is b) Instantiation.
+> option is b) Instantiation.
 <details><summary> <b>Explanation</b> </summary>
   
 > 4 pillers of OOPs are, Abstraction, Polymorphism, Encapsulation, Inheritance. 
@@ -587,13 +587,13 @@ class Number():
 n = Number(60)
 print(n.num)
 ```
-- a) 50
-- b) 60
-- c) Error
-- d) None of the above
+a) 50  
+b) 60  
+c) Error  
+d) None of the above  
 <details><summary> <b>Show Answer</b> </summary>
   
-Correct option is b) 60. 
+> option is b) 60. 
 <details><summary> <b>Explanation</b> </summary>
   
 > In the above code, self is pointing to the current instance of the class which has the value 60. 
@@ -614,13 +614,13 @@ class Test:
 obj1 = Test(11)
 print(obj1.assign(12))
 ```
-- a) 10
-- b) 11
-- c) 12
-- d) Error, too many 'a' variable used 
+a) 10    
+b) 11    
+c) 12    
+d) Error, too many 'a' variable used     
 <details><summary> <b>Show Answer</b> </summary>
   
-Correct option is b) 11
+> Option is b) 11
 <details><summary> <b>Explanation</b> </summary>
   
 > assign() method returns the current instance variable's value, which is 11 at that time. Hence the output.
@@ -641,13 +641,13 @@ class Test:
 obj1 = Test(11)
 print(obj1.assign(12))
 ```
-- a) 10
-- b) 11
-- c) 12
-- d) Error, too many 'a' variable used 
+a) 10  
+b) 11  
+c) 12  
+d) Error, too many 'a' variable used 
 <details><summary> <b>Show Answer</b> </summary>
   
-Correct option is a) 10
+> Option is a) 10
 <details><summary> <b>Explanation</b> </summary>
   
 > assign() method returns the class variable's value, which is 10 at that time. Hence the output.
@@ -668,13 +668,13 @@ class Test:
 obj1 = Test(11)
 print(obj1.assign(12))
 ```
-- a) 10
-- b) 11
-- c) 12
-- d) Error, too many 'a' variable used 
+a) 10  
+b) 11  
+c) 12  
+d) Error, too many 'a' variable used   
 <details><summary> <b>Show Answer</b> </summary>
   
-Correct option is c) 12
+> option is c) 12
 <details><summary> <b>Explanation</b> </summary>
   
 > assign() method returns the parameter's value of assign(), that was assign to it as 12 at the time of calling. Hence the output.
@@ -684,11 +684,11 @@ Correct option is c) 12
 ---
 33. State True and False: "It is mandatory to create a class with Starting letter in capital in python".
 
-- a) True
-- b) False
+a) True  
+b) False  
 <details><summary> <b>Show Answer</b> </summary>
   
-Option b) is correct
+> Option b) 
 <details><summary> <b>Explanation</b> </summary>
   
 > It is not mandatory to have a class with starting letter in uppercase but, it is recommended to make a class with starting letter in capital in python. 
@@ -708,13 +708,13 @@ class Dance:
 
 Dance.stop()
 ```
-- a) body moves started
-- b) body moves stoped
-- c) Error
-- d) Nothing will print 
+a) body moves started    
+b) body moves stoped    
+c) Error    
+d) Nothing will print     
 <details><summary> <b>Show Answer</b> </summary>
   
-Option c) is correct
+> Option c) 
 <details><summary> <b>Explanation</b> </summary>
   
 > As stop() is not a Static method of Dance class, We can not access it without creating the object for it. 
