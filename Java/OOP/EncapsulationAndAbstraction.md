@@ -90,6 +90,22 @@ public class ATM {
 
 ---
 
+4. What are the advatages of encapsulation?
+
+<details> <summary><b>Show Answer</b></summary>
+	
+> 
+
+</details>
+
+
+
+
+Real-time Application
+
+1.
+
+
 
 
 
