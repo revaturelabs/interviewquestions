@@ -83,7 +83,8 @@ D.It will result in error because list index is out of range.
 
 > Generally there are two types of errors, when is syntax error and another is logical error. 
 
-- **Syntax error**: 
+-
+ **Syntax error**: 
   > These types of error will occur at compile time. When we write something wrong in the program with respect to structure or syntax of the language these errors were thrown in the program. 
   
 **Example**: 
@@ -126,7 +127,7 @@ D.we get the indentation error
 
 <details><summary><b>Explanation</b></summary>
 
->After running the above code, the program will throw the IndentationError because 2nd print statement is not correctly indented. To resolve this error, remove the spaces before 2nd print statement. 
+> After running the above code, the program will throw the IndentationError because 2nd print statement is not correctly indented. To resolve this error, remove the spaces before 2nd print statement. 
 
 </details>
 </details>
