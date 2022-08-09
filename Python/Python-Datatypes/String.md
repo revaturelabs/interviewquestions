@@ -222,7 +222,12 @@ print ("string entered by user : ", string)
 print (" Total Upper case characters  : ", upper_case)
 print ("Total Lower case Characters : ", lower_case)
 ```
-  
+
+ <details><summary> <b>Explanation</b> </summary>
+   
+ > If we want to count total number of upper case and lower case in the given string we can use isupper() and islower() method.
+   
+</details>
 </details>
 
 ---
@@ -436,7 +441,13 @@ print(str[2 : 10 : 2])
   
 > fw
   
+<details><summary> <b>Explanation</b> </summary>
+  > In the above program we used slicing operator  and this is used to cut the strings based on the values.
+  
+  </details>
 </details>
+  
+  ---
 
 19.What will be the output of the following code?
 
@@ -502,25 +513,23 @@ print(str[3 : 14 : 3])
 ```
   
 <details><summary> <b>Show Answer</b> </summary>
-  
-**Output**:
-  
+
 > ssecorPgninraeLerutaveR
   
 > Poe
   
 > aren
 
-  </details>
+</details>
   
-  ---
+---
   
 23.Which method should I use to convert String "welcome to the beautiful world of python" to "Welcome To The Beautiful World Of Python".
 
 <details><summary> <b>Show Answer</b> </summary>
   
-  - title()-method
-  - For this in python we can use title() method.
+ > - title()-method
+ > - For this in python we can use title() method.
   
 <details><summary> <b>Show Explanation</b> </summary>
   
@@ -529,21 +538,25 @@ print(str[3 : 14 : 3])
   </details>
   </details>
 
+  ---
+  
 24.Can you name some Escape Characters in python?
 
 <details><summary> <b>Show Answer</b> </summary>
   
-- \'	Single Quote	
-- \\	Backslash	
-- \n	New Line	
-- \r	Carriage Return	
-- \t	Tab	
-- \b	Backspace	
-- \f	Form Feed	
-- \ooo	Octal value	
-- \xhh	Hex value
+> - \'	Single Quote	
+> - \\	Backslash	
+> - \n	New Line	
+> - \r	Carriage Return	
+> - \t	Tab	
+> - \b	Backspace	
+> - \f	Form Feed	
+> - \ooo	Octal value	
+> - \xhh	Hex value
   
-  </details>
+</details>
+  
+---
 
 25.Debug the code and give correct answer for that code.
 
@@ -554,17 +567,17 @@ lst=
 print(lst)
 ```
 
+<details><summary> <b>Hint</b> </summary>
+  
+> .split() method can be used to split strings based on a given character. It returns a list of split substrings.
+  
+ </details>  
+  
 <details><summary> <b>Show Answer</b> </summary>
   
 Expected output:
   
 > ['Hello','World!']
-  
-<details><summary> <b>Hint</b> </summary>
-  
-  .split() method can be used to split strings based on a given character. It returns a list of split substrings.
-  
-  </details>
   
 **Answer**:
  
@@ -573,7 +586,10 @@ str="Hello World!"
 lst=str.split(" ")
 print(lst)
 ```
+  
   </details>
+  
+  ---
   
 26.Find the correct output of the following String operations
   
@@ -582,9 +598,7 @@ str1='Welcome'
 print(str1[:6] + ' to India')
 ```
   
- <details><summary> <b>Show Answer</b> </summary>
-   
-**Output**:
+<details><summary> <b>Show Answer</b> </summary>
    
 > Welcom to India
    
@@ -592,8 +606,10 @@ print(str1[:6] + ' to India')
   
 > Here we are used slicing for getting some part of string and then we used + operator for string combining.
 
-   </details>
   </details>
+  </details>
+  
+  ---
   
 27.What will be the output of the following code?
   
@@ -606,13 +622,14 @@ print(str2.isdigit())
   
 <details><summary> <b>Show Answer</b> </summary>
   
-False
-False
+> False
+> False
   
 <details><summary> <b>Explanation</b> </summary>
   
-  > isdigit() method is checking it contains only the characters or not,if it is contains it will return True orelse it will return False.
+> isdigit() method is checking it contains only the characters or not,if it is contains it will return True orelse it will return False.
   
   </details>
   </details>
   
+---
