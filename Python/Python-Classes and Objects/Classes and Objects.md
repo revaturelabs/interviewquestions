@@ -89,7 +89,7 @@ print(obj1.getname())          # output: ('akshay', 'rohit', None)
 </details>
 
 --- 
-6. What is a self in Class python?
+6. What is a self in class and python?
 <details><summary> <b>Show Answer</b> </summary>
   
 > The self is a first parameter of every method in a class, and is used to refer the current class instance. There is no restriction in python to name it as self, it can be named whatever we like, but it has to be the first parameter of a method.   
