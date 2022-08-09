@@ -18,7 +18,7 @@
 
 
 
-2. English language vocabulary is comprised of old germanic, French, and Latin words, this is an example for?    ![EASY](Easy%20(2).jpg)
+2. English language vocabulary is comprised of old germanic, French, and Latin words, this is an example for? 
 
 - A.Hybrid Inheritance
 - B.Multilevel Inheritance
