@@ -11,13 +11,21 @@
 
 <details>
   <summary><b>Show answer</b></summary>
-> Collection framworks contain imlementations for all the data structres, so the hectic task of creating and implemanting everything is avoided.
+> Collection framworks contains imlementations for all the data structres, so the hectic task of creating and implemanting everything is avoided.
 > 
   
 </details>
 
 5. what is collection Interface?
+
+<details>
+<summary><b>Show answer</b></summary>
+
+> 
+
+</details>
 6. travesing the collection interface.
 7. bulk methods
 8. Array operations
 9. Collection Classes
+10. Collection API
