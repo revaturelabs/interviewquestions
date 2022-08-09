@@ -116,11 +116,20 @@ public class ATM {
 
 ---
 
-6. Abstract class implemnting interface
+6. Which of the following is true when an abstract class implements an Interface?
+
+- A. Abstract class must override all the methods of an interface
+- B. Abstract class must override all the abstract methods of an Interface.
+- C. It is not mandatory for the abstract class to override all the methods of the interface.
+- D. None of the above.
 
 <details> <summary><b>Show Answer</b></summary>
+C
+<details><summary><b>Explanation</b></summary>
+
+> normally when a class doesnt implement all the abstract methods of an interface it leads to an compilation error, this can be avoided by declaring the class abstract, because and abstract method can have unimplemented methods. 
 	
-> 
+</details>
 
 </details>
 
