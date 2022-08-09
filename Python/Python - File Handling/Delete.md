@@ -4,7 +4,7 @@
 
 <details><summary><b>Show Answer</b></summary>
 
-- So Many times you need to delete the file instead of closing it.
+- Many a times you need to delete the file instead of closing it.
 - If you try to delete the file which is not present, it will throw an Input Output error.
 
 ```python
@@ -13,27 +13,27 @@ import os
 os.remove("File.txt")
 ```
 
-The remove objects and path are described in the os module.So,you have to import the "os" module.
+The remove objects and path are described in the os module and hence it is to be imported.
 
 </details>
 
 ---
 
-2.What will be the use of checking the file is exist or not?
+2.What is the use of checking whether a file exists or not?
 
 <details><summary><b>Show Answer</b></summary>
 
-- To avoid obtaining an error, you would possibly need to check if the file exists before you try to delete it.
+- To avoid obtaining an error, we would possibly need to check if the file exists before trying to delete it.
 
 </details>
 
 ---
 
-3.Write a program to check if file is exist or not?
+3.Write a program to check if a file exist or not?
 
 <details><summary><b>Show Answer</b></summary>
     
-> If i want to check the given file is exist or not for that we can use .exists("file_name").
+> If we want to check whether the given file exists, we could use .exists("file_name")
 
 ```python
 import os
@@ -47,7 +47,7 @@ else:
 
 ---
 
-4.How will you close a file in python?
+4.How do we close a file in python?
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -57,10 +57,10 @@ open("myFile.txt", "r") as fObj
 fObj.close()
 ```
 
-- It is always good practice to close the file after using it.
+- It is always a good practice to close the file after using it.
 
-Orelse,
-- We can use "with" statement while opening the file. You don’t got to explicitly close the file object. As soon as the pointer goes out of the with statement block, the file object are closed.
+Or else,
+- We can use "with" statement while opening the file. We don’t have to explicitly close the file object. As soon as the pointer goes out of the 'with' statement block, the file object is closed.
   
 ```python
 with open("myFile.txt", "r") as fObj:
@@ -72,11 +72,11 @@ with open("myFile.txt", "r") as fObj:
 
 ---
 
-5.How will you delete a folder?
+5.How do we delete a folder?
 
 <details><summary><b>Show Answer</b></summary>
 
-- Inpython to delete an folder,we can use os.rmdir() method.
+- In python, to delete a folder, we can use os.rmdir() method.
   
 ```python
 import os
@@ -97,11 +97,11 @@ Yes,we can delete/remove a folder.But,you can remove only empty folders.
 
 ---
 
-7.How will you listing the files in a directory?
+7.How do we list the files in a directory?
 
 <details><summary><b>Show Answer</b></summary>
 
-- To lisiting all the files or directories from a particular path we can use os.listdir() method.
+- To list all the files or directories from a particular path, we can use os.listdir() method.
 
 ```python
 import os
@@ -113,7 +113,7 @@ for x in os.listdir('_'):
 
 ---
 
-8.Write a program to read the file "rename.txt" and display the entire content after removing leading and trailing spaces.
+8.Write a program to read the file "rename.txt" and display the entire content after removing the leading and trailing spaces.
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -129,7 +129,7 @@ f.close()
 
 ---
 
-9.What will be the output of the folowing code?
+9.What is the output of the following code?
 
 ```python
 f = None
@@ -154,14 +154,14 @@ Option A.True
 
 <details><summary><b>Explanation</b></summary>
 
-> The WITH statement once used with open file guarantees that the file object is closed once the with block exits.
+> The 'WITH' statement which is used to open file, guarantees that the file object is closed once the 'with' block exits.
 
 </details>
 </details>
 
 ---
 
-10.The readlines() method returns
+10.What would the readlines() method return?
 
 A.str
 
@@ -177,14 +177,14 @@ Option B.return a list of lines
 
 <details><summary><b>Explanation</b></summary>
 
-> Every lines are stored in a list and it will returned.
+> Every line is stored in a list and it will be returned.
 
 </details>
 </details>
 
 ---
 
-11.Write a python program to count number of lines from "data.txt" which are not starting from 'M'.
+11.Write a python program to count the number of lines from "data.txt" which does not start from 'M'.
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -202,7 +202,7 @@ print("Total lines are :", count)
 
 ---
 
-12.What will be the output of the following code?
+12.What is the output of the following code?
 
 ```python
 f=open('C:\file.txt')
@@ -211,7 +211,7 @@ a=f.read()
 
 <details><summary><b>Show Answer</b></summary>
 
-It will read the content from the file.txt until end of file.
+It will read the content from the file.txt until the end of file.
 
 <details><summary><b>Explanation</b></summary>
 
@@ -222,7 +222,7 @@ It will read the content from the file.txt until end of file.
 
 ---
 
-13.To open a file c:\scores.txt for appending information, we have a tendency to use
+13.To open a file c:\scores.txt for appending the information, we have the tendency to use,
 
 A.outfile = open("c:\\scores.txt", "a")
 
@@ -238,7 +238,7 @@ Option A.outfile = open("c:\\scores.txt", "a")
 
 <details><summary><b>Explanation</b></summary>
 
-> it is used to indicate the data to be append.
+> It is used to indicate the data to be appended.
 
 </details>
 </details>
@@ -280,7 +280,7 @@ f.close()
 
 ---
 
-16.What are the modes are valid to opening file to read and write?
+16.What modes are valid to open a file to read and write?
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -299,7 +299,7 @@ f.close()
 
 ---
 
-17.How will you get current position within the files?
+17.How would you get the current position within the files?
 
 A. fp.seek()
 
@@ -315,14 +315,14 @@ Option B. fp.tell()
 
 <details><summary><b>Explanation</b></summary>
 
-> fp.tell() method used to get the current position within the file.
+> fp.tell() method is used to get the current position within the file.
 
 </details>
 </details>
 
 ---
 
-18.What will be the output of the following code?
+18.What is the output of the following code?
 
 ```python
 str=input("enter the input")
@@ -336,26 +336,26 @@ received input is:[x*5 for x in range(2,10,2)]
 
 <details><summary><b>Explanation</b></summary>
 
-> it will printing whatever we are giving input
+> It will print whatever is given as input
 
 </details>
 </details>
 
 ---
 
-19.What is the difference between  r+and w+ modes in python?
+19.What is the difference between r+ and w+ modes in python?
 
 <details><summary><b>Show Answer</b></summary>
 
 **r+**:
 
 - It will not create a file if it does not exist.
-- If the file is already exists opening it with r+ it does not destroys is contents.
+- If the file already exists, opening it with r+ does not destroys the contents.
   
 **w+**:
 
-- If it does not exist,it will create a file.
-- If the file is already exists opening it with r+ it will destroys is contents.
+- If the file does not exist,it will be created.
+- If the file already exists, opening it with r+ will destroys the contents.
 
 </details>
 
@@ -365,8 +365,8 @@ received input is:[x*5 for x in range(2,10,2)]
 
 <details><summary><b>Show Answer</b></summary>
 
-- To delete multiple files, simply loop over your list of files and use the higher than os. rmdir() operate. 
-- To delete a folder containing all files you want to remove got to import shutil package. Then you can take away the folder as follows.
+- To delete multiple files, loop over your list of files and use the higher than os. rmdir() operate. 
+- To delete a folder that contains all files, you want to remove got to import shutil package. Then you can take away the folder as follows.
   
 </details>
 
