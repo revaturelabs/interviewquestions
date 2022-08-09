@@ -1,4 +1,4 @@
-## Real-Time Applications
+
 
 
 ## Technical
@@ -96,9 +96,7 @@
 
 
 
-## Error Detection
 
-1. 
 
 
 
