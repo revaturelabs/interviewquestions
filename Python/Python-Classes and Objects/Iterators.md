@@ -4,7 +4,7 @@
 1. What is an iterator in python?
 <details><summary> <b>Show Answer</b> </summary> 
   
-- Iterator allows to iterate or traverse through all the values of collection in python. It has two methods __iter__() and __next__(). iter() method is similar to init() method, as it is used to initializing the objects but, it returns an iterator. next() method is used to get the next element of the iteration.   
+> Iterator allows to iterate or traverse through all the values of collection in python. It has two methods __iter__() and __next__(). iter() method is similar to init() method, as it is used to initializing the objects but, it returns an iterator. next() method is used to get the next element of the iteration.   
 
 For example:
 ```python3
@@ -31,7 +31,7 @@ for i in m:
 2. How to create an iterator in python?
 <details><summary> <b>Show Answer</b> </summary> 
   
-- To create a custom iterator in python we can use __iter__() and __next__() method inside a class.
+> To create a custom iterator in python we can use __iter__() and __next__() method inside a class.
 
 ```python3
 class Numbers:
@@ -59,19 +59,19 @@ for x in itr:
 3. What is a StopIteration exception?
 <details><summary> <b>Show Answer</b> </summary> 
   
-In python, it is raised by next() method when there is no element to be present for iteration. 
+> In python, it is raised by next() method when there is no element to be present for iteration. 
   </details>
 
 ---
 4. Which of the following exception is thrown by next() in python?
 
-- a) RuntimeError
-- b) SystemExit
-- c) StopIteration 
-- d) IndexError
+a) RuntimeError    
+b) SystemExit    
+c) StopIteration     
+d) IndexError    
 <details><summary> <b>Show Answer</b> </summary> 
   
-Option c) is correct
+> Option c)
 </details>
 
 ---
@@ -96,13 +96,13 @@ itr = iter(obj)
 for x in itr:
         print(x, end=" ")
 ```
-- a) 5 6 7 8
-- b) 8 7 6 5
-- c) Error
-- d) Nothing is printed
+a) 5 6 7 8  
+b) 8 7 6 5  
+c) Error  
+d) Nothing is printed  
 <details><summary> <b>Show Answer</b> </summary> 
   
-Option d) is correct
+> Option d)
 <details><summary> <b>Explanation</b> </summary> 
   
 > As the current value of a is more than 5, it will raise StopIteration exception and prints nothing in output screen.
@@ -131,13 +131,13 @@ itr = iter(obj)
 for x in itr:
         print(x, end=" ")
 ```
-- a) 3 4 5
-- b) 5 4 3
-- c) Error
-- d) Nothing is printed 
+a) 3 4 5  
+b) 5 4 3  
+c) Error  
+d) Nothing is printed   
 <details><summary> <b>Show Answer</b> </summary> 
   
-Option a) is correct.
+> Option a)
 <details><summary> <b>Explanation</b> </summary> 
   
 > The initial value of a is 3 and it will increment by 1 untill it reaches 5 in __next__() method. Therefore, we will get 3, 4 and 5 as an output.  
@@ -147,13 +147,13 @@ Option a) is correct.
 ---
 7. What is the use of iter() method in python?
 
-- a) It is used to initialize an object.
-- b) It is used to throw an error.
-- c) It is used to return an iterator.
-- d) None of the above.
+a) It is used to initialize an object.  
+b) It is used to throw an error.  
+c) It is used to return an iterator.  
+d) None of the above.  
 <details><summary> <b>Show Answer</b> </summary> 
   
-Option c) is correct
+> Option c)
 <details><summary> <b>Explanation</b> </summary> 
   
 > It returns an iterator and converts an iterable to an iterator. 
@@ -163,13 +163,13 @@ Option c) is correct
 ---
 8. What is the use of next() in python?
 
-- a) It is used to initialize an object.
-- b) It is used to give next element from the iteration through iterator.
-- c) It is used to return an iterator.
-- d) It is used to throw StopIteration exception.
+a) It is used to initialize an object.  
+b) It is used to give next element from the iteration through iterator.  
+c) It is used to return an iterator.  
+d) It is used to throw StopIteration exception.  
 <details><summary> <b>Show Answer</b> </summary> 
   
-Option b) is correct
+> Option b)
 <details><summary> <b>Explanation</b> </summary> 
   
 > next() method, in python, returns the next element from iterator.
