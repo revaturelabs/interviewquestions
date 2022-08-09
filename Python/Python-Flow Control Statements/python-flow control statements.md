@@ -235,8 +235,8 @@ else:
 > In if condition Bitwise xor ^ operator is used which returns 1 if either of the bits are 1 else return 0 if both the bits are 0 or 1. Therefore in the above code, 0 and 1 results in 1 which is true in python. Hence 1st print statement executes.
   </details>
 </details>
----
   
+---
 14. Which of the following is the correct output?
 ```python3
 a = 10
@@ -501,11 +501,11 @@ a) 2
 &emsp;4  
 b) 2    
 &emsp;3   
-c) 2  
-&emsp;3 
-&emsp;4
-&emsp;5 
-d) Error   
+c) 2    
+&emsp;3   
+&emsp;4  
+&emsp;5   
+d) Error     
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option is d)
@@ -526,16 +526,16 @@ while True:
  
     i += 1
 ```
-a) 2  
-&emsp;3  
-&emsp;4
-b) 2    
-&emsp;3  
-c) 2  
-&emsp;3   
+a) 2    
+&emsp;3    
 &emsp;4  
-&emsp;5   
-d) Error   
+b) 2      
+&emsp;3    
+c) 2    
+&emsp;3     
+&emsp;4    
+&emsp;5     
+d) Error     
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option is a)
