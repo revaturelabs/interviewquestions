@@ -4,7 +4,17 @@
 
 <details><summary> <b> Show Answer </b></summary>
 
-- Which identifies uniquely a project, a dependency or a plugin defined in POM based on the combination of a group identifier, an artifact and the version of project.
+-  Maven coordinates helps us to uniquely identify a project, a dependency or a plugin defined in POM. Based on the combination of a group identifier, an artifact and the version of project.
+-  **For example:** If you want to include any library dependency in `pom.xml` file, you have to define the _Maven coordinate._
+```xml
+<!-- MySQL database driver -->
+<dependency>
+	<groupId>mysql</groupId>
+	<artifactId>mysql-connector-java</artifactId>
+	<version>5.1.9</version>
+</dependency>
+```
+      
 
 </details>
 
