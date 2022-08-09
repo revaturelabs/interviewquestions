@@ -4,8 +4,8 @@
 
 <details><summary><b>Show Answer</b></summary>
 
-- Many a times you need to delete the file instead of closing it.
-- If you try to delete the file which is not present, it will throw an Input Output error.
+> - Many a times you need to delete the file instead of closing it.
+> - If you try to delete the file which is not present, it will throw an Input Output error.
 
 ```python
 import os
@@ -13,7 +13,7 @@ import os
 os.remove("File.txt")
 ```
 
-The remove objects and path are described in the os module and hence it is to be imported.
+> The remove objects and path are described in the os module and hence it is to be imported.
 
 </details>
 
@@ -23,7 +23,7 @@ The remove objects and path are described in the os module and hence it is to be
 
 <details><summary><b>Show Answer</b></summary>
 
-- To avoid obtaining an error, we would possibly need to check if the file exists before trying to delete it.
+> To avoid obtaining an error, we would possibly need to check if the file exists before trying to delete it.
 
 </details>
 
@@ -57,10 +57,10 @@ open("myFile.txt", "r") as fObj
 fObj.close()
 ```
 
-- It is always a good practice to close the file after using it.
+> - It is always a good practice to close the file after using it.
 
 Or else,
-- We can use "with" statement while opening the file. We don’t have to explicitly close the file object. As soon as the pointer goes out of the 'with' statement block, the file object is closed.
+> - We can use "with" statement while opening the file. We don’t have to explicitly close the file object. As soon as the pointer goes out of the 'with' statement block, the file object is closed.
   
 ```python
 with open("myFile.txt", "r") as fObj:
@@ -76,7 +76,8 @@ with open("myFile.txt", "r") as fObj:
 
 <details><summary><b>Show Answer</b></summary>
 
-- In python, to delete a folder, we can use os.rmdir() method.
+> - In python, to delete a folder, we can use os.rmdir() method.
+> - This os.rmdir() methos is used delete only the empty folders.  
   
 ```python
 import os
@@ -91,7 +92,8 @@ os.rmdir("folder_name")
 
 <details><summary><b>Show Answer</b></summary>
 
-Yes,we can delete/remove a folder.But,you can remove only empty folders.
+> Yes,we can delete/remove a folder.But,you can remove only empty folders.
+> We can't delete the folder which contains content inside the folder.
 
 </details>
 
@@ -101,7 +103,7 @@ Yes,we can delete/remove a folder.But,you can remove only empty folders.
 
 <details><summary><b>Show Answer</b></summary>
 
-- To list all the files or directories from a particular path, we can use os.listdir() method.
+> To list all the files or directories from a particular path, we can use os.listdir() method.
 
 ```python
 import os
@@ -150,7 +152,7 @@ D.Error
 
 <details><summary><b>Show Answer</b></summary>
 
-Option A.True
+> Option A.True
 
 <details><summary><b>Explanation</b></summary>
 
@@ -173,7 +175,7 @@ D.a list of integers
 
 <details><summary><b>Show Answer</b></summary>
 
-Option B.return a list of lines
+> Option B.return a list of lines
 
 <details><summary><b>Explanation</b></summary>
 
@@ -211,7 +213,7 @@ a=f.read()
 
 <details><summary><b>Show Answer</b></summary>
 
-It will read the content from the file.txt until the end of file.
+> It will read the content from the file.txt until the end of file.
 
 <details><summary><b>Explanation</b></summary>
 
@@ -234,7 +236,7 @@ D.outfile = open(file = "c:\\scores.txt", "w")
 
 <details><summary><b>Show Answer</b></summary>
 
-Option A.outfile = open("c:\\scores.txt", "a")
+> Option A.outfile = open("c:\\scores.txt", "a")
 
 <details><summary><b>Explanation</b></summary>
 
@@ -284,11 +286,11 @@ f.close()
 
 <details><summary><b>Show Answer</b></summary>
 
-1.r+
+> 1.r+
 
-2.w+
+> 2.w+
 
-3.wb+
+> 3.wb+
 
 <details><summary><b>Explanation</b></summary>
 
@@ -311,7 +313,7 @@ D. fp.pos
 
 <details><summary><b>Show Answer</b></summary>
 
-Option B. fp.tell()
+> Option B. fp.tell()
 
 <details><summary><b>Explanation</b></summary>
 
@@ -331,8 +333,8 @@ print("Received input",str)
 
 <details><summary><b>Show Answer</b></summary>
 
-enter the input:[x*5 for x in range(2,10,2)]
-received input is:[x*5 for x in range(2,10,2)]
+> enter the input:[x*5 for x in range(2,10,2)]
+> received input is:[x*5 for x in range(2,10,2)]
 
 <details><summary><b>Explanation</b></summary>
 
@@ -347,15 +349,15 @@ received input is:[x*5 for x in range(2,10,2)]
 
 <details><summary><b>Show Answer</b></summary>
 
-**r+**:
+> **r+**:
 
-- It will not create a file if it does not exist.
-- If the file already exists, opening it with r+ does not destroys the contents.
+> - It will not create a file if it does not exist.
+> - If the file already exists, opening it with r+ does not destroys the contents.
   
-**w+**:
+> **w+**:
 
-- If the file does not exist,it will be created.
-- If the file already exists, opening it with r+ will destroys the contents.
+> - If the file does not exist,it will be created.
+> - If the file already exists, opening it with r+ will destroys the contents.
 
 </details>
 
@@ -365,8 +367,8 @@ received input is:[x*5 for x in range(2,10,2)]
 
 <details><summary><b>Show Answer</b></summary>
 
-- To delete multiple files, loop over your list of files and use the higher than os. rmdir() operate. 
-- To delete a folder that contains all files, you want to remove got to import shutil package. Then you can take away the folder as follows.
+> - To delete multiple files, we can use loop over the list of files and use the higher than os. rmdir() operate. 
+> - To delete a folder that contains all files, you want to remove got to import shutil package. Then you can take away the folder as follows.
   
 </details>
 
