@@ -1,0 +1,98 @@
+1:What are Custom Exceptions?
+<details><summary><b> Show Answer</b></summary>
+Custom Exceptions
+</details>
+<details><summary><b> Explanation</b></summary>
+When we create our own exceptions that are derived classes of the Exception class is known as custom exception or user-defined exception.Custom exceptions are used to customize the exception according to the user needs.
+</details>
+
+---
+
+2:Why we use custom exceptions?
+<details><summary><b> Show Answer</b></summary>
+Custom Exceptions
+</details>
+<details><summary><b> Explanation</b></summary>
+Custom Exception are used to catch and provide specific treatment to a subset of existing java exceptions.We also have exceptions related to business logic and workflow. It is useful for the application users or the developers to understand the exact problem.In order to create custom exception, we need to extend Exception class that belongs to java.lang package.
+</details>
+
+---
+
+3:Predict the output of the following code.
+ ``` java 
+class InvalidAgeException  extends Exception  
+{  
+    public InvalidAgeException (String str)  
+    {  
+        super(str);  
+    }  
+}  
+public class CustomException1  
+{  
+    static void valid(int age) throws InvalidAgeException{    
+       if(age < 18){  
+        throw new InvalidAgeException("An individual age is not eligible to vote");    
+    }  
+       else {   
+        System.out.println("An individual is eligible to vote ");   
+        }   
+     }    
+    public static void main(String args[])  
+    {  
+        try  
+        {    
+            valid(16);  
+        }  
+        catch (InvalidAgeException e)  
+        {   
+            System.out.println("Exception occured: " + e);  
+        }   
+    }  
+}  
+```
+<details><summary><b> Show Answer</b></summary>
+Exception occured:InvalidAgeException:An individual age is not eligible to vote
+</details>
+
+---
+
+4:Predict the output of  the following code.
+ ``` java 
+class CustomException extends Exception {
+private int number;
+CustomException(int x) {
+number = x;
+}
+public String toString() {
+return "CustomException[" + number + "]";
+}
+}
+class CustomDemo {
+static void validate(int x) throws CustomException {
+System.out.println("Called validate(" + x + ")");
+if(x > 100)
+throw new CustomException(x);
+System.out.println("Normal exit");
+}
+public static void main(String args[]) {
+try {
+validate(55);
+validate(101);
+} catch (CustomException e) {
+System.out.println("Caught " + e);
+}
+}
+}
+```
+<details><summary><b> Show Answer</b></summary>
+<details><summary><b> Explanation</b></summary>
+```java
+Called compute(55)
+Normal exit
+Called compute(101)
+Caught MyException[101]
+```
+</details>
+
+---
+
