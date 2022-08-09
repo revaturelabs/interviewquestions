@@ -4,17 +4,17 @@
 
 <details><summary><b>Show Answer</b></summary>
 
-Whenever a text has to be written to a file, we've to open to get in to one of the specified access modes. We will open the file to browse, write or append and sometimes to do multiple operations on a file.
+> Whenever a text has to be written to a file, we've to open to get in to one of the specified access modes. We will open the file to browse, write or append and sometimes to do multiple operations on a file.
 
-1.w - This mode is used to open a file for writing.
+> 1.w - This mode is used to open a file for writing.
 
-2.w+ - Open a file for both reading and writing
+> 2.w+ - Open a file for both reading and writing
 
-3.wb - This is used to open a binary file for writing.
+> 3.wb - This is used to open a binary file for writing.
 
-4.a - Used to open a file for writing
+> 4.a - Used to open a file for writing
 
-5.a+ - Opens a file for both reading and appending.
+> 5.a+ - Opens a file for both reading and appending.
 
 </details>
 
@@ -24,15 +24,15 @@ Whenever a text has to be written to a file, we've to open to get in to one of t
 
 <details><summary><b>Show Answer</b></summary>
 
-1.Find the path of the file.
+> 1.Find the path of the file.
 
-2.Open file in write mode.
+> 2.Open file in write mode.
 
-3.Write a content into a file.
+> 3.Write a content into a file.
 
-4.Close file after completing the write operation.
+> 4.Close file after completing the write operation.
 
-5.Append the content at the end of the file.
+> 5.Append the content at the end of the file.
 
 </details>
 
@@ -42,9 +42,9 @@ Whenever a text has to be written to a file, we've to open to get in to one of t
 
 <details><summary><b>Show Answer</b></summary>
 
-- First open the .txt file.
-- Enter he data into the file(.txt)
-- Close the file.
+> - First open the .txt file.
+> - Enter he data into the file(.txt)
+> - Close the file.
 
 ```python
 f=open('file.txt','w')
@@ -52,7 +52,7 @@ f.write('Python is interpreted language')
 f.close()
 ```
 
-- The above code opens a file in write mode and then rewrites the file ans it contains "Python is interpreted language".
+> - The above code opens a file in write mode and then rewrites the file ans it contains "Python is interpreted language".
 
 </details>
 
@@ -62,8 +62,8 @@ f.close()
 
 <details><summary><b>Show Answer</b></summary>
 
-- **Similarity**: In both the modes, we can do read and write operations.
-- **Difference**: In w+ mode, file will be truncated(previous data is lost) while in a+ mode,file's existing data will not be deleted and new data will be added at the end of the file.
+> - **Similarity**: In both the modes, we can do read and write operations.
+> - **Difference**: In w+ mode, file will be truncated(previous data is lost) while in a+ mode,file's existing data will not be deleted and new data will be added at the end of the file.
   
 </details>
 
@@ -73,8 +73,8 @@ f.close()
 
 <details><summary><b>Show Answer</b></summary>
 
-- In python, the **.** folder is the current folder.
-- In python, the **..** is the parent folder.
+> - In python, the **.** folder is the current folder.
+> - In python, the **..** is the parent folder.
   
 </details>
 
@@ -84,11 +84,11 @@ f.close()
 
 <details><summary><b>Show Answer</b></summary>
 
--In python, we have two types of methods to write to a file.
+> - In python, we have two types of methods to write to a file.
 
-1.Write(s): This method is used to write a string 's' to the stream and it will return the number of characters written.
+> 1.Write(s): This method is used to write a string 's' to the stream and it will return the number of characters written.
 
-2.writelines(lines): This method writes a list of lines into the stream and each line must have a seperator at the end of it.
+> 2.writelines(lines): This method writes a list of lines into the stream and each line must have a seperator at the end of it.
 
 </details>
 
@@ -98,7 +98,7 @@ f.close()
 
 <details><summary><b>Show Answer</b></summary>
 
-- 'a' or 'a+' modes are used to append the content at the end of the existing file using the open() method.
+> 'a' or 'a+' modes are used to append the content at the end of the existing file using the open() method.
 
 ```python
 f=open('C:\file.txt','a')
@@ -121,7 +121,7 @@ f.close()
 
 <details><summary><b>Show Answer</b></summary>
 
-- Consider an "text.txt" file.
+> Consider an "text.txt" file.
 
 ```python
 def countlower():
@@ -143,7 +143,7 @@ countlower()
 
 <details><summary><b>Show Answer</b></summary>
 
-- In python, we have writelines() method to save the contents of a list object in a file.
+> In python, we have writelines() method to save the contents of a list object in a file.
 
 ```python
 a=["Hello World.\n","welcome to International Airport.\n"]
@@ -160,9 +160,9 @@ f.close()
 
 <details><summary><b>Show Answer</b></summary>
 
-- seek() method is used to set the position of file pointer.
-- A file pointer denotes the position of file contents to be read or written.The file handler is called as a file pointer.
-- tell() method is used to return the current position of a file pointer.
+> - seek() method is used to set the position of file pointer.
+> - A file pointer denotes the position of file contents to be read or written.The file handler is called as a file pointer.
+> - tell() method is used to return the current position of a file pointer.
   
 </details>
 
@@ -172,7 +172,7 @@ f.close()
 
 <details><summary><b>Show Answer</b></summary>
 
-We can use write function to write a single line to a file.
+> We can use **write()** function to write a single line to a file.
 
 ```python
 file=open('myfile','w')
@@ -188,7 +188,7 @@ file.close()
 
 <details><summary><b>Show Answer</b></summary>
 
-"Binary" files are any files for which the format is not created for readable characters. Binary files will range from image files like JPEGs or GIFs, audio files like MP3s or binary document formats like Word or PDF. In python, by default files are opened in text mode. To open files in binary mode, after specifying a mode, add 'b' to that.
+> "Binary" files are any files for which the format is not created for readable characters. Binary files will range from image files like JPEGs or GIFs, audio files like MP3s or binary document formats like Word or PDF. In python, by default files are opened in text mode. To open files in binary mode, after specifying a mode, add 'b' to that.
 
 **Example**:
 
@@ -213,10 +213,10 @@ file.close()
 
 <details><summary><b>Show Answer</b></summary>
 
-- shutil.copyfileobj():Used to copy the file object from source code to destination code.
-- shutil.copyfile(): Used to copy the contents from one file to another file.
-- shutil.copy():Copy the content from source file to destination file along with the metadata.
-- shutil.copy2():Copy data,timestamps of the supply file to the destination.
+> - shutil.copyfileobj():Used to copy the file object from source code to destination code.
+> - shutil.copyfile(): Used to copy the contents from one file to another file.
+> - shutil.copy():Copy the content from source file to destination file along with the metadata.
+> - shutil.copy2():Copy data,timestamps of the supply file to the destination.
   
 </details>
 
@@ -227,10 +227,10 @@ file.close()
 <details><summary><b>Show Answer</b></summary>
 
 There are four steps to write text file in python,
-- Open the text file("text.txt")
-- Write a text file.
-- Append a text file.
-- Finally, we need to close a text file.
+> - Open the text file("text.txt")
+> - Write a text file.
+> - Append a text file.
+> - Finally, we need to close a text file.
 
 </details>
 
@@ -337,6 +337,7 @@ print("Total lines are :", c)
   
 > First, read the content from one file and write to another file.
 We want to copy the entire file content to another text file. 
+  
 ```python
 f = open("file.txt", "r")
 f1 = open("sample.txt", "w")
