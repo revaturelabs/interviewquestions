@@ -737,7 +737,7 @@ d) None of the above
 > Option b)
 <details><summary> <b>Explanation</b> </summary>
   
-> In the above code, @staticmethod decorater is used which makes the functions inside the class as Static and that can be accessed outside the class with the help of Class_Name. 
+> In the above code, @staticmethod decorater is used which makes the function inside the class as Static and that can be accessed outside the class with the help of Class_Name. 
   </details>
 </details>
 
