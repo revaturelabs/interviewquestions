@@ -4,7 +4,7 @@
 
 <details><summary> <b>Show Answer</b> </summary>
   
- A string literal is a sequence of zero or more characters enclosed in single quotes.
+> A string literal is a sequence of zero or more characters enclosed in single quotes.
   
 **Examples**:
   
@@ -13,12 +13,13 @@
   
  </details>
 
+---
 
 2.How do you know if every word in a string starts with a capital letter?
 
 <details><summary> <b>Show Answer</b> </summary>
   
-  The istitle() function checks if each word is capitalized or not.
+> The istitle() function checks if each word is capitalized or not.
   
 **Example**:
   
@@ -27,16 +28,18 @@ print( 'The Dog'.istitle() ) #=> True
 ```
 <details><summary> <b>Explanation</b> </summary>  
   
-In python istitle() function used to check whether the given string is starts with a capital letter or not.
+> In python istitle() function used to check whether the given string is starts with a capital letter or not.
   
 </details>
 </details>
+
+---
   
 3.How will you combine two or more strings in python?
 
 <details><summary> <b>Show Answer</b> </summary>
  
-  - In Python, you can concatenate two strings  by simply using the `+' operator between them. You can use the + operator to concatenate three or more strings.
+> In Python, you can concatenate two strings  by simply using the `+' operator between them. You can use the + operator to concatenate three or more strings.
 
 **Example**:
   
@@ -50,14 +53,16 @@ print(string)
   
 **Output**:
   
-helloworld
+> helloworld
   
 <details><summary> <b>Explanation</b> </summary>
   
-  In the above program we used '+' operator for combining two or more strings into a single string.
+> In the above program we used '+' operator for combining two or more strings into a single string.
   
-  </details>
-  </details>
+</details>
+</details>
+
+---
 
 4.What will be the output of the following code?
 
@@ -73,17 +78,17 @@ print(s3)
 ```
 <details><summary> <b>Show Answer</b> </summary>
   
-**Output**:
-  
 > nnnpp
   
 </details>
+
+---
 
 5.How will you count total number of characters in a string?
 
 <details><summary> <b>Show Answer</b> </summary>
   
-- In python len() function will return the length of a string.
+> In python len() function will return the length of a string.
   
 **Example**:
   
@@ -96,7 +101,9 @@ print(len(s))
   
 8
 
- </details>
+</details>
+
+---
  
 6.What would be the output for the following code?
 
@@ -106,23 +113,23 @@ string2 = "LEARNING!!!"
 print((string1 + string2)*3)
 ```
 <details><summary> <b>Show Answer</b> </summary>
-
-**Output**:
   
-HAPPY LEARNING!!!HAPPY LEARNING!!!HAPPY LEARNING!!!
+> HAPPY LEARNING!!!HAPPY LEARNING!!!HAPPY LEARNING!!!
 
 <details><summary> <b>Explanation</b> </summary>
   
 > In the case of a string, the * operator is used to repeat a string.
   
-  </details>
-  </details>
+</details>
+</details>
+
+---
 
 7.How will you check if a string contains only string or not?
 
 <details><summary> <b>Show Answer</b> </summary>
   
-- In python isnumeric() function returns True if all characters are numeric.
+> In python isnumeric() function returns True if all characters are numeric.
   
 **Example**:
 
@@ -135,7 +142,9 @@ print(s.isnumeric())
   
 False
   
-  </details>
+</details>
+
+---
 
 8.Write a program to find the characters at an odd position in string input by user?
 
@@ -147,25 +156,26 @@ outputString = ''
 for i in range(len(string)):
     if(i % 2 == 0):
         outputString = outputString + string[i]
-print("input string :  ", string)
+print("Input string :  ", string)
 print("String after odd charcater :", outputString)
 ```
   
 **Output**:
   
 Enter the string : PythonString
-input string :   PythonString
+Input string :   PythonString
 String after odd charcater : PtoSrn
   
 <details><summary> <b>Explanation</b> </summary>
   
- - In above program first we used len() function to find the size of the string. Then we want to find the odd position in string for that we used if statements inside the for loop.
-if the position/index is not equal to 0 , those characters are stored into the single variable and then it will printing the values.
+> In above program first we used len() function to find the size of the string. Then we want to find the odd position in string for that we used if statements inside the for loop.
+> If the position/index is not equal to 0 , those characters are stored into the single variable and then it will printing the values.
 
-  </details>
-  </details>
+</details>
+</details>
   
-  
+---
+
 9.Write a program  to replace all occurrence of sub-string in string?
 
 <details><summary> <b>Show Answer</b> </summary>
@@ -179,20 +189,22 @@ print(modifiedStr)
 
 **Output**:
   
-the  Python  Program
+> the  Python  Program
   
-  <details><summary> <b>Explanation</b> </summary>
+<details><summary> <b>Explanation</b> </summary>
     
 > In python we used **.replace()** function to replace one character with another character.
     
-  </details>
-  </details>
+</details>
+</details>
+
+---
 
 10.How will you Count Total numbers of upper case and lower case characters in input string?
 
 <details><summary> <b>Show Answer</b> </summary>
   
-  In python, we are using isupper() to find upper case characters and islower() to find the lower case characters.
+> In python, we are using isupper() to find upper case characters and islower() to find the lower case characters.
   
 **Example**:
   
@@ -210,7 +222,10 @@ print ("string entered by user : ", string)
 print (" Total Upper case characters  : ", upper_case)
 print ("Total Lower case Characters : ", lower_case)
 ```
+  
 </details>
+
+---
 
 11.What will be the output of the following code?
 
@@ -220,8 +235,6 @@ reversed_str =''.join(reversed(input_string))
 print('reversed string =',reversed_str)
 ```
 <details><summary> <b>Show Answer</b> </summary>
-  
-**Output**:
 
 > reversed string = ycnatlusnoC
 
@@ -229,8 +242,10 @@ print('reversed string =',reversed_str)
 
 > In python to reverse a string  we can use built-in function reversed orelse we can use negative index ([::-1]).
   
-  </details>
-  </details>
+</details>
+</details>
+
+---
 
 12.Write a program to Extract URL From A String In Python?
 
@@ -249,17 +264,19 @@ print("Urls found: ", URLsearch(textcontent))
   
 **Output**:
   
-Urls found:  ['https://devenum.com', 'https://google.com,http://devenum.com']
+> Urls found:  ['https://devenum.com', 'https://google.com,http://devenum.com']
   
 </details>
+  
+---
 
 13.Does creating a string twice (with two distinct variable names) result in one or two objects being stored in memory?
 
 <details><summary> <b>Show Answer</b> </summary>
   
-- For example, writing animal = 'dog' and pet = 'dog'.
-  It only creates one.
-  Here we can see this example,
+> For example, writing animal = 'dog' and pet = 'dog'.
+> It only creates one.
+> Here we can see this example,
 
  ```python
 animal = 'dog'
@@ -269,13 +286,16 @@ pet = 'dog'
 print( id(pet) )
 #=> 4441985688
 ```
-  </details>
+  
+</details>
+  
+---
   
 14.How will you remove whitespace from the left, right or both sides of a string?
 
 <details><summary> <b>Show Answer</b> </summary>
   
-- In python we can use lstrip(), rstrip() and strip() remove whitespace from the ends of a string.
+> In python we can use lstrip(), rstrip() and strip() remove whitespace from the ends of a string.
   
 **Example**,
  
@@ -294,12 +314,14 @@ Whitespace of strings
 
 <details><summary> <b>Explanation</b> </summary>
   
-- For removing whitespace from the ends of the string, we can use .strip() functions.
-- .lstrip() -used to remove whitespace from left side of the string.
-- .rstrip() -used to remove whitespace from right side of the string.
+> For removing whitespace from the ends of the string, we can use .strip() functions.
+> .lstrip() -used to remove whitespace from left side of the string.
+> .rstrip() -used to remove whitespace from right side of the string.
   
   </details>
   </details>
+  
+  ---
   
 15.Select the correct output for the following code?
 
@@ -310,49 +332,54 @@ print(str1 == str2)
 print(str1 is str2)
 ```
   
-- A. True
-     False
-- B. False
-     False
-- C. False
-     True
-- D. True
-     True
+ A. True
+    False
+  
+ B. False
+    False
+  
+ C. False
+    True
+  
+ D. True
+    True
   
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans**:
-  
-  Option B is the correct one
+> Option B is the correct one
   
 <details><summary> <b>Explanation</b> </summary>
   
-- In the case of a string, == and is operators are used to check whether the given strings are equal or not.
+> In the case of a string, == and is operators are used to check whether the given strings are equal or not.
   
   </details>
   </details>
+  
+  ---
 
 16.What is slicing and what is the use of that?
 
 <details><summary> <b>Show Answer</b> </summary>
   
-- Slicing in Python is a feature that enables accessing parts of sequences like strings, tuples, and lists. 
-- You can also use them to modify or delete the items of mutable sequences such as lists. Slicing enables writing clean, concise, and readable code.
+> Slicing in Python is a feature that enables accessing parts of sequences like strings, tuples, and lists. 
+> You can also use them to modify or delete the items of mutable sequences such as lists. Slicing enables writing clean, concise, and readable code.
   
 **Syntax**: 
   
 > slice(stop) slice(start, stop, step)
   
 </details>
+  
+---
 
-17.What are the difference between == and is operator in python?
+17.What are the difference between **==** and **is** operator in python?
 
 <details><summary> <b>Show Answer</b> </summary>
   
 ** == **:
   
-- In python this operator is equality operator.
-- The == operator is used when the values of two operands are equal, then the condition becomes true.
+> - In python this operator is equality operator.
+> - The == operator is used when the values of two operands are equal, then the condition becomes true.
   
 **Example**:
 
@@ -368,8 +395,8 @@ print(s1 == s2)
   
 **is** :
   
-- In python this operator is Identity operator.
-- The is operator evaluates to true if the variables on either side of the operator point to the same object and false otherwise.
+> - In python this operator is Identity operator.
+> - The is operator evaluates to true if the variables on either side of the operator point to the same object and false otherwise.
   
 **Example**:
   
@@ -393,8 +420,10 @@ print(list_1 is list_3)
   
 > Here you can see (list_1 is list_3) is False because list_1 and list_3 are pointing to two different objects , even though their contents might be the same. So, we can say "is" will return True if two variables point to the same object and "==" if the objects referred to by the variables are equal.
 
-  </details>
-  </details>
+</details>
+</details>
+  
+---
   
 18.Predict the output of the following code?
   
@@ -405,11 +434,9 @@ print(str[2 : 10 : 2])
   
 <details><summary> <b>Show Answer</b> </summary>
   
-**Output**:
+> fw
   
-fw
-  
-  </details>
+</details>
 
 19.What will be the output of the following code?
 
@@ -418,8 +445,6 @@ str1 = "Revature"
 print(str1[1:4], str1[:5], str1[4:], str1[0:-1], str1[:-1])
 ```
 <details><summary> <b>Show Answer</b> </summary>
-  
-**Output**:
   
 > eva Revat ture Revatur Revatur
 
@@ -434,32 +459,38 @@ print(str1[1:4], str1[:5], str1[4:], str1[0:-1], str1[:-1])
   </details>
   </details>
   
+  ---
+  
 20.What is the difference between indexing and slicing?
 
 <details><summary> <b>Show Answer</b> </summary>
   
-- **Indexing**: Indexing is used to obtain individual elements.
-           - Indexing returns one item.
-           - Indexing starts from 0.Negative Indexing starts from -1.
-- **Slicing**: Slicing is used to obtain a sequence of elements.
-           - Slicing returns new list.
-           - We can specify range of indxes.
+> - **Indexing**: Indexing is used to obtain individual elements.
+          > - Indexing returns one item.
+          > - Indexing starts from 0.Negative Indexing starts from -1.
+> - **Slicing**: Slicing is used to obtain a sequence of elements.
+          > - Slicing returns new list.
+          > - We can specify range of indxes.
 
-- Indexing and Slicing can be be done in Python Sequences types like list, string, tuple, range objects.
+> - Indexing and Slicing can be be done in Python Sequences types like list, string, tuple, range objects.
 
   </details>
+  
+  ---
   
 21.Can you tell me some different String methods in Python?
 
 <details><summary> <b>Show Answer</b> </summary>
   
-   - endswith()	Returns true if the string ends with the specified value
-   - format()	Formats specified values in a string
-   - isalpha()	Returns True if all characters in the string are in the alphabet
-   - isidentifier()	Returns True if the string is an identifier
-   - partition()	Returns a tuple where the string is parted into three parts
+   > - endswith()	Returns true if the string ends with the specified value
+   > - format()	Formats specified values in a string
+   > - isalpha()	Returns True if all characters in the string are in the alphabet
+   > - isidentifier()	Returns True if the string is an identifier
+   > - partition()	Returns a tuple where the string is parted into three parts
   
   </details>
+  
+  ---
   
 22.What will be the output of the following code?
 
@@ -474,13 +505,15 @@ print(str[3 : 14 : 3])
   
 **Output**:
   
-ssecorPgninraeLerutaveR
+> ssecorPgninraeLerutaveR
   
-Poe
+> Poe
   
-aren
+> aren
 
   </details>
+  
+  ---
   
 23.Which method should I use to convert String "welcome to the beautiful world of python" to "Welcome To The Beautiful World Of Python".
 
