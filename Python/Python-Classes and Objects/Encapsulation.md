@@ -19,22 +19,24 @@ stu = Student('Rohan', 76)
 print('Marks:', stu.__marks)
 ```
   
-> In the above code, we will get the "AttributError: 'Student' object has no attribute '__marks'" because __marks is a private variable and we cannot access private variables directly outside the class. 
+> In the above code, we will get the "AttributError: 'Student' object as no attribute '__marks'" because __marks is a private variable and we cannot access private variables directly outside the class. 
 </details>
 
 ---
-2. Give a real-life example of encapsulation.
+2. Give a real-time example of encapsulation.
 <details><summary> <b>Show Answer</b> </summary> 
   
-> Consider there are two companies that makes motercycles one is 'Hero' and other one is 'Honda'. Hero company has its own production unit and team, and Honda company also has its own production unit and team. They both are doing well in the market. Now there's a situation arises, Honda company wants to work with Hero company and wants to access the info of how Hero company production unit works. As Honda company doesn't have the direct access of Hero company, they have to contact some of the higher officials to get the work done. This is what we can say encapsulation in real world is. Here all the data related to Hero company can be wrapped into a single unit. Utill Hero company will not give permission to anyone outside that to access the data, the data has been hiden and secure from the outside world. 
+> Consider there are two companies that makes motercycles, one is 'Hero' and other one is 'Honda'. 
+  Hero company has its own production unit and team, and Honda company also has its own production unit and team. They both are doing well in the market. Now there's a situation arises, where Honda company wants to work with Hero company and wants to access the info of how Hero company production unit works. 
+  As Honda company doesn't have the direct access of Hero company, they have to contact some of the higher officials to get the work done. This is what we can say encapsulation in real world is. Here all the datas related to Hero company can be wrapped into a single unit. Hero company will not give permission to anyone outside to access the data, the data has been hiden and secure from the outside world. 
 </details>
 
 ---
 3. Which statement out of the following is best for encapsulation?  
 
 a) It gives ability to a child class to access properties from parent class.  
-b) It has the ability to hide the unwanted complex implemenation from the user  
-c) It wrap up the data members and member functions of a class in a single unit.  
+b) It has the ability to hide the unwanted complex implementation from the user  
+c) It wraps up the data members and member functions of a class in a single unit.  
 d) It gives different meaning to same function in different classes.  
 <details><summary> <b>Show Answer</b> </summary> 
   
@@ -132,7 +134,7 @@ d) Error
 </details>
 
 ---
-7. What will be the output of the following code?
+7. What is the output of the following code?
 ```python3
 class Test:
     __num2=30
@@ -163,7 +165,7 @@ d) Error
 </details>
 
 ---
-8. What will be the output of the following code.
+8. What is the output of the following code.
 ```python3
 class Test:
     __num2=30
@@ -189,12 +191,12 @@ d) Error
 > option is d) Error
 <details><summary> <b>Explanation</b> </summary> 
   
-> In the above code, we will get "NameError: name '_Test__num2' is not defined". To resolve this error we have to use either 'class_name' or 'self' before the __num2 variable in print statement, according to our need. For example, "self.__num2". 
+> In the above code, we will get "NameError: name '_Test__num2' which is not defined". To resolve this error, we have to use either 'class_name' or 'self' before the __num2 variable in print statement, according to our need. For example, "self.__num2". 
   </details>
 </details>
 
 ---
-9. Private members of a class can be access through methods of a class known as ?
+9. What do we call the Private members of a class that can be accessed through methods of a class?
 
 a) __init__ / __del__  
 b) getters / setters  
@@ -210,10 +212,10 @@ d) __repr__ / __str__
 </details>
 
 ---
-10. What is name mangling in python? give example.
+10. What is name mangling in python? Give example.
 <details><summary> <b>Show Answer</b> </summary> 
   
-> In python, when we some attributes in one class that we don't want to be used in child classes, than we make them as private by adding two underscores('__') in prefix of variable name. So to access those variables outside the class we uses name mangling concept. To access those private class variables we have to add "_classname" with that variable.   
+> In python, when we have some attributes in one class that we don't want to use in child classes, then we make them as private by adding two underscores('__') in prefix of variable name. So, to access those variables outside the class, we use name mangling concept. To access those private class variables, we have to add "_classname" with that variable.   
   
 For Example:
 ```python3
@@ -236,7 +238,8 @@ b) False
 > Option b)
 <details><summary> <b>Explanation</b> </summary> 
   
-> Using name mangling we can access the private members of a class. For that we have to write ObjectName._ClassName__VariableName. For example: obj._Student__name, where obj is object name, Student is a class name and __name is a private variable.
+> Using name mangling, we can access the private members of a class. For that, we have to write ObjectName._ClassName__VariableName. 
+  For example: obj._Student__name, where obj is object name, Student is a class name and __name is a private variable.
   </details>
 </details>
 
@@ -327,7 +330,7 @@ d) Nothing is printed
 > Option c)
 <details><summary> <b>Explanation</b> </summary> 
   
-> Here in the above code, we will get "AttributeError: 'Design' object has no attribute '_Design_shape'" because,  _shape is a protected member of Design class and we cannot access protected members outside the class using name mangling.  
+> In the above code, we will get "AttributeError: 'Design' object as no attribute '_Design_shape'" because,  _shape is a protected member of Design class and we cannot access protected members outside the class using name mangling.  
   </details>
 </details>
 
