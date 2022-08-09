@@ -165,7 +165,25 @@ C
 
 ## Real-Time Application.
 
-1.
+1. A vending machine different items and functions to take the cash and dispense the item, but all these occur internally and as an external user one can only access it using selection buttons. this is an example for?
+
+- A. Polymorphism
+- B. Inheritance
+- C. Encapsulation
+- D. None of the above.
+
+<details><summary><b>Show Answer</b></summary>
+
+C
+	
+<details><summary><b>Explanation</b></summary>
+
+> Vending machine is a class with items as feilds and fuctions as methods combined into a single unit.
+	
+</details>
+
+
+</details>
 
 ## Error Detection
 
