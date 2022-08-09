@@ -20,3 +20,4 @@
 6. travesing the collection interface.
 7. bulk methods
 8. Array operations
+9. Collection Classes
