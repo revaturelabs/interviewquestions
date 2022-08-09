@@ -1,18 +1,18 @@
 ## Write
 
-1.What are the Access modes for writing a file?
+1.What are the Access modes to write a file?
 
 <details><summary><b>Show Answer</b></summary>
 
-Whenever we want to write down text into a file, we've got to open the get in one of the specified access modes. we will open the file basically to browse, write or append and sometimes to do multiple operations on one file.
+Whenever a text has to be written to a file, we've to open to get in to one of the specified access modes. We will open the file to browse, write or append and sometimes to do multiple operations on a file.
 
 1.w - This mode is used to open a file for writing.
 
 2.w+ - Open a file for both reading and writing
 
-3.wb - This is used to opens a binary file for writing.
+3.wb - This is used to open a binary file for writing.
 
-4.a - Used to opens a file for writing
+4.a - Used to open a file for writing
 
 5.a+ - Opens a file for both reading and appending.
 
@@ -20,7 +20,7 @@ Whenever we want to write down text into a file, we've got to open the get in on
 
 ---
 
-2.What are the steps need to do writing data into a file?
+2.What are the steps needed to write data into a file?
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -52,18 +52,18 @@ f.write('Python is interpreted language')
 f.close()
 ```
 
-- The above code opens a file in write mode and then rewrites the file it contain "Python is interpreted language".
+- The above code opens a file in write mode and then rewrites the file ans it contains "Python is interpreted language".
 
 </details>
 
 ---
 
-4.What are the similarity and  difference between a+ and w+?
+4.What are the similarities and differences between a+ and w+?
 
 <details><summary><b>Show Answer</b></summary>
 
 - **Similarity**: In both the modes, we can do read and write operations.
-- **Difference**: In w+ mode file will be truncated(previous data lost) while in a+ mode,file's existing data will not be deleted and new data will be added at the end of the file.
+- **Difference**: In w+ mode, file will be truncated(previous data is lost) while in a+ mode,file's existing data will not be deleted and new data will be added at the end of the file.
   
 </details>
 
@@ -73,32 +73,32 @@ f.close()
 
 <details><summary><b>Show Answer</b></summary>
 
-- In python the **.** folder is the current folder.
-- In python the **..** is the paret folder.
+- In python, the **.** folder is the current folder.
+- In python, the **..** is the parent folder.
   
 </details>
 
 ---
 
-6.What are the methods available to write to a file?
+6.What are the methods to write something to a file?
 
 <details><summary><b>Show Answer</b></summary>
 
--In python we have two types methods available to write to a file.
+-In python, we have two types of methods to write to a file.
 
-1.Write(s): This method used to write a string s to the stream and it will return the number of characters written.
+1.Write(s): This method is used to write a string 's' to the stream and it will return the number of characters written.
 
-2.writelines(lines): This method write a list of lines into the stream and Each line must have an seperator at the end of it.
+2.writelines(lines): This method writes a list of lines into the stream and each line must have a seperator at the end of it.
 
 </details>
 
 ---
 
-7.What are the modes used to appending the content to an existing file?
+7.What are the modes used to append the content to an existing file?
 
 <details><summary><b>Show Answer</b></summary>
 
-- 'a' or 'a+' modes are used to appends the content at the end of the existing file in the open() method.
+- 'a' or 'a+' modes are used to append the content at the end of the existing file using the open() method.
 
 ```python
 f=open('C:\file.txt','a')
@@ -117,11 +117,11 @@ f.close()
 
 ---
 
-8.Write a function in python to count the number of lowercase alphabets present in a text file "text.tx".
+8.Write a function program in python to count the number of lowerercase alphabets in a text file "text.tx".
 
 <details><summary><b>Show Answer</b></summary>
 
-- Consider you have an "text.txt" file.
+- Consider an "text.txt" file.
 
 ```python
 def countlower():
@@ -139,11 +139,11 @@ countlower()
 
 ---
 
-9.Write a python program to mutiple times at a time?
+9.Write a python program to write mutiple lines at a time?
 
 <details><summary><b>Show Answer</b></summary>
 
-- In python we have writelines() method to save the contents of a list object in a file.
+- In python, we have writelines() method to save the contents of a list object in a file.
 
 ```python
 a=["Hello World.\n","welcome to International Airport.\n"]
@@ -161,18 +161,18 @@ f.close()
 <details><summary><b>Show Answer</b></summary>
 
 - seek() method is used to set the position of file pointer.
-- A file pointer is denotes the position of file which file contents to be read or written.The file handler is called a file pointer.
-- tell() method used to returns the current possition of a file pointer.
+- A file pointer denotes the position of file contents to be read or written.The file handler is called as a file pointer.
+- tell() method is used to return the current position of a file pointer.
   
 </details>
 
 ---
 
-11.How will you write a single line in text file in python?
+11.How will you write a single line in a text file in python?
 
 <details><summary><b>Show Answer</b></summary>
 
-We can use write function to write the line to file.
+We can use write function to write a single line to a file.
 
 ```python
 file=open('myfile','w')
@@ -184,11 +184,11 @@ file.close()
 
 ---
 
-12.How will you write binary data to a file ?
+12.How to write binary data to a file ?
 
 <details><summary><b>Show Answer</b></summary>
 
-"Binary" files are any files wherever the format is not created of readable characters. Binary files will range from image files like JPEGs or GIFs, audio files like MP3s or binary document formats like Word or PDF. In python by default files are opened in text mode.To open files in binary mode, once specifying a mode, add 'b' to that.
+"Binary" files are any files for which the format is not created for readable characters. Binary files will range from image files like JPEGs or GIFs, audio files like MP3s or binary document formats like Word or PDF. In python, by default files are opened in text mode. To open files in binary mode, after specifying a mode, add 'b' to that.
 
 **Example**:
 
@@ -215,28 +215,28 @@ file.close()
 
 - shutil.copyfileobj():Used to copy the file object from source code to destination code.
 - shutil.copyfile(): Used to copy the contents from one file to another file.
-- shutil.copy():Copy the content from one source file to destination file along with the metadata.
-- shutil.copy2():Copy namely data namely timestamps of the supply file to the destination.
+- shutil.copy():Copy the content from source file to destination file along with the metadata.
+- shutil.copy2():Copy data,timestamps of the supply file to the destination.
   
 </details>
 
 ---
 
-14.What are the steps we need to do write text file in python?
+14.What are the steps to write text file in python?
 
 <details><summary><b>Show Answer</b></summary>
 
-There are four steps we need to do write text file in python,
+There are four steps to write text file in python,
 - Open the text file("text.txt")
 - Write a text file.
-- To append a text file.
-- Finally we need to close a text file.
+- Append a text file.
+- Finally, we need to close a text file.
 
 </details>
 
 ---
 
-15.Write a python program to open a file named "mark.txt" stored in folder "class.txt" in C drive.
+15.Write a python program to open a file named as "mark.txt" and store in a folder "class.txt" in C drive.
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -254,7 +254,7 @@ file=open("C:\class\mark.txt")
 
 ---
 
-16.Write a program to read first 20 characters from a file named "data.txt?
+16.Write a python program to read first 20 characters from a file named "data.txt?
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -267,7 +267,7 @@ print(data)
 
 ---
 
-17.Write a program to accecpt five names from the user and write into a file "file.txt".
+17.Write a python program to get five names from the user as input and write into a file "file.txt".
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -282,7 +282,7 @@ f.close()
 
 ---
 
-18.Write a program in python to count the frequency of every vowels in a file "text.txt".
+18.Write a python program to count the frequency of every vowels in a file "text.txt".
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -312,7 +312,7 @@ print("Freq of vowel \"u\" is", vu)
 
 ---
 
-19.Write a python program to count which are starting from 'T' or 'M' in "sample.txt" file.
+19.Write a python program to count the words that starts as 'T' or 'M' in "sample.txt" file.
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -335,8 +335,8 @@ print("Total lines are :", c)
 
 <details><summary><b>Show Answer</b></summary>
   
-> We want to copy the entire file content to another text file. First read the content from one file to write another file.
-
+> First, read the content from one file and write to another file.
+We want to copy the entire file content to another text file. 
 ```python
 f = open("file.txt", "r")
 f1 = open("sample.txt", "w")
