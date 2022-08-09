@@ -72,7 +72,7 @@ print(10/0) ===>ZeroDivisionError
 
 ---
 
-5.Can you tell me different types of Built-in Exceptions?
+5.What are the different types of Built-in Exceptions?
 
 <details><summary><b>Show Answer </b></summary>
 
@@ -211,7 +211,7 @@ Each type of exception can be specified directly. There is no need to put it in 
 
 ---
 
-11.predict the output of the following code?
+11.Predict the output of the following code?
 
 ```python
 try:
@@ -238,7 +238,7 @@ A new exception class must inherit from a BaseException. There is no such inheri
 
 ---
 
-12.Debug the code and give the correct for solution for this code?
+12.Debug the code and give the correct solution for this code?
 
 ```python
 a=5
@@ -269,7 +269,7 @@ Divide by zero error
 
 ---
 
-13.How try() block is working?
+13.How will try() block work?
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -294,7 +294,7 @@ divide(3, 2)
 
 ---
 
-14.What do you mean by else clause ?
+14.What is else clause ?
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -339,7 +339,7 @@ finally:
 
 ---
 
-16.Which of the following not from the built-in error?
+16.Which of the following is not from the built-in error?
 
 - A.EOFError
 - B.KeyError
@@ -423,7 +423,7 @@ except ValueError as e:
 
 ---
 
-20.When is that the finally block executed?
+20.When will the finally block be executed?
 - A.once there's no exception
 - B.once there's an exception
 - C.given that some condition that has been specified  is satisfied
@@ -542,7 +542,7 @@ B.Semantic,Syntax
 
 ---
 
-25.Why to use else block with try?
+25.Why should we use else block with try?
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -611,7 +611,7 @@ can't add int to string
 
 ---
 
-28.Can you write a small python code for exception handling?
+28.Write a python code for exception handling?
 
 <details><summary><b>Show Answer</b></summary>
 
