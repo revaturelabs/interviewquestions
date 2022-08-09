@@ -173,12 +173,45 @@ C
 
 ## Error Detection
 
-1. Class Extending abstract class but not implementing all abstrcat methods.
+1. What is the output of the following code?
 
+``` java
+interface Car{
+	void engine();
+	void brake();
+}
+
+abstract public class Audi implements Car{
+	
+	public static void main(String[] args) {
+		
+	}
+
+	@Override
+	public void engine() {
+		// code	
+	}
+}
+
+```
+
+- A.Compiletime error caused by main method
+- B.compliletime error caused by not implementing all the methods of interface
+- C.Runtime error
+- D.No error
 
 <details> <summary><b>Show Answer</b></summary>
 	
-> 
+> D
+
+<details><summary><b>Explanation</b></summary>
+
+> an abstract class can have a main method.
+> its not mandatory for an abstract class to implement all the methods of an interface.
+	
+</details>
+
+
 
 </details>
 
