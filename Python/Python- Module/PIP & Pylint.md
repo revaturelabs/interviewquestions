@@ -1,6 +1,6 @@
 ## PIP & Pylint
 
-1.what is the full from of pip? What is the use of pip in python?
+1.What is the full from of pip? What is the use of pip in python?
 
 <details><summary><b>Show Answer </b></summary>
 
