@@ -4,8 +4,8 @@
 
 <details><summary> <b> Show Answer </b></summary>
 
--  Maven coordinates helps us to uniquely identify a project, a dependency or a plugin defined in POM. Based on the combination of a group identifier, an artifact and the version of project.
--  **For example:** If you want to include any library dependency in `pom.xml` file, you have to define the _Maven coordinate._
+-  Maven coordinates helps us to uniquely identify a project, a dependency or a plugin defined in `pom.xml` file. Based on the combination of a group identifier, an artifact and the version of project.
+-  **For example:** If you want to include any library dependency in `pom.xml` file, you have to define the _Maven coordinate. i.e., - `groupId` , `artifactId` and `version` of that dependency. Below, we have `mysql-connector-java` dependency with maven coordinates.
 ```xml
 <!-- MySQL database driver -->
 <dependency>
@@ -13,8 +13,7 @@
 	<artifactId>mysql-connector-java</artifactId>
 	<version>5.1.9</version>
 </dependency>
-```
-      
+
 
 </details>
 
@@ -24,9 +23,9 @@
 
 <details><summary> <b> Show Answer </b></summary>
 
-- Group identifier- Is the way of grouping different maven artifacts.
-- Artifact - Is the way of identifying the artifact.(Like JAR, WAR)
-- Version - Particular release of the project, denotes different versions in same artifacts and same repository.
+- `groupId`- Is the way of grouping different maven artifacts.
+- `artifactId` - Is the way of identifying the artifact.(Like JAR, WAR)
+- `version` - Particular release of the project, denotes different versions in same artifacts and same repository.
 
 </details>
 
@@ -47,8 +46,9 @@
 <details><summary> <b> Show Answer </b></summary>
 
 - There are two additional coordinates used in maven but not to uniquely identify the project.
-        - Packaging - Which defines the project type (WAR,JAR).
-        - Classifiers - Which is used to distinguish between the artifacts created for two versions.
+	- **Packaging** - Which defines the project type (WAR,JAR).
+	- **Classifiers** - Which is used to distinguish between the artifacts created for two versions.
+
 
 </details>
 
@@ -69,7 +69,7 @@
 
 <details><summary> <b> Show Answer </b></summary>
 
-` groupId:artifactId:packaging:version` - through which will express the dependencies of a project in POM file.
+`groupId:artifactId:packaging:version` - through which will express the dependencies of a project in POM file.
 
 </details>
 
