@@ -4,7 +4,7 @@
 1. What is an iterator in python?
 <details><summary> <b>Show Answer</b> </summary> 
   
-> Iterator allows to iterate or traverse through all the values of collection in python. It has two methods __iter__() and __next__(). iter() method is similar to init() method, as it is used to initializing the objects but, it returns an iterator. next() method is used to get the next element of the iteration.   
+> Iterator allows to iterate or traverse through all the values of collection in python. It has two methods, __iter__() and __next__(). iter() method is similar to init() method, as it is used to initialize the objects but, it is returned an iterator. next() method is used to get the next element of the iteration.   
 
 For example:
 ```python3
@@ -31,7 +31,7 @@ for i in m:
 2. How to create an iterator in python?
 <details><summary> <b>Show Answer</b> </summary> 
   
-> To create a custom iterator in python we can use __iter__() and __next__() method inside a class.
+> To create a custom iterator in python, we can use __iter__() and __next__() method inside a class.
 
 ```python3
 class Numbers:
@@ -140,7 +140,7 @@ d) Nothing is printed
 > Option a)
 <details><summary> <b>Explanation</b> </summary> 
   
-> The initial value of a is 3 and it will increment by 1 untill it reaches 5 in __next__() method. Therefore, we will get 3, 4 and 5 as an output.  
+> The initial value of a is 3 and it will increment by 1 until it reaches 5 in __next__() method. Therefore, we will get 3, 4 and 5 as an output.  
   </details>
 </details>
 
