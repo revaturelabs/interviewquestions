@@ -191,7 +191,7 @@ c) Error, because Derived class is an abstract class.
 d) Nothing is printed   
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option c) is correct
+> Option c)
 <details><summary> <b>Explanation</b> </summary>
   
 > We will get the "TypeError: Can't instantiate abstract class Derived with abstract methods path". This is because we have not provided any implementation to path() method of Abstract class in Derived class, therefore Derived class also becomes abstract class. 
@@ -225,7 +225,7 @@ c) Error, because Derived class is an abstract class.
 d) Nothing is printed   
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option d) is correct 
+> Option d)
 <details><summary> <b>Explanation</b> </summary>
   
 > The path() method of Derived class has implemented the path() method of Abstract class by just providing it pass statement in the method definition. Pass is a null statement is python so, nothing is printed in the console [output screen].
@@ -241,7 +241,7 @@ c) re
 d) sys   
 <details><summary> <b>Show Answer</b> </summary>
   
-> Correct option is b) abc. 
+> option b) abc. 
 </details>
 
 ---
