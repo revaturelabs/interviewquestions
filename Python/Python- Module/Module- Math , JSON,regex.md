@@ -34,7 +34,7 @@ example.add()
 
 ---
 
-2.Which one is used to storing and exchanging the data?
+2.Which one of these are used to storing and exchanging the data?
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -50,7 +50,7 @@ import the JSON module :
 
 ---
 
-3.How will you import modules in python?
+3.How can we import modules in python?
 
 <details><summary><b>Show Answer</b></summary>
   
@@ -219,7 +219,7 @@ print(output)
 
 ---
 
-10.Can you tell me what is dir() function in modules?
+10.What is dir() function in modules?
 
 <details><summary><b>Show Answer</b></summary> 
   
@@ -271,7 +271,7 @@ print("writing JSON data into a file is done")
 
 ---
 
-12.Can you tell me some -Short Labels in python module?
+12.CWhat is Short Labels in python module?
 
 <details><summary><b>Show Answer</b></summary> 
   
@@ -311,7 +311,7 @@ print(isinstance(abs, types.LambdaType))
 
 ---
 
-14.How to will you use re.split() function in module?
+14.How can we use re.split() function in module?
 
 <details><summary><b>Show Answer</b></summary> 
   
@@ -337,7 +337,7 @@ print(isinstance(abs, types.LambdaType))
 
 ---
 
-15.What are the difference between string split() method and regex split()?
+15.What is the difference between string split() method and regex split()?
 
 <details><summary><b>Show Answer</b></summary> 
 
@@ -384,7 +384,7 @@ print(output)
 
 ---
 
-16.How will you replace one or more occurrences of a regex pattern in given string?
+16.How can we replace one or more occurrences of a regex pattern in given string?
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -430,7 +430,7 @@ used to find and replaces the **first n** occurrences of pattern.
 
 ---
 
-18.How will you convert python object to JSON?
+18.How can we convert python object to JSON?
 
 <details><summary><b>Show Answer</b></summary>
 
