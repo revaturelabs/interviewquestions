@@ -271,7 +271,7 @@ print("writing JSON data into a file is done")
 
 ---
 
-12.CWhat is Short Labels in python module?
+12.What is Short Labels in python module?
 
 <details><summary><b>Show Answer</b></summary> 
   
