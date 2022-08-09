@@ -16,7 +16,7 @@
   
 </details>
 
-3. what is collection Interface?
+3.What is collection Interface?
 
 <details>
 <summary><b>Show answer</b></summary>
