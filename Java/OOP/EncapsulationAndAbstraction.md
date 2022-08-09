@@ -148,20 +148,6 @@ C
 
 
 
-8 . 
-
-<details> <summary><b>Show Answer</b></summary>
-	
-> 
-
-</details>
-
-
-
----
-
-
-
 
 ## Real-Time Application.
 
