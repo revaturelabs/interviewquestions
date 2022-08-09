@@ -1,6 +1,6 @@
 ## PIP & Pylint
 
-1.what is the full from of pip?What the use of pip in python?
+1.what is the full from of pip? What is the use of pip in python?
 
 <details><summary><b>Show Answer </b></summary>
 
@@ -15,7 +15,7 @@
 
 ---
 
-2.How will you install particular package using command?
+2.How can we install particular package using command?
 
 <details><summary><b>Show Answer </b></summary>
 
@@ -33,7 +33,7 @@ pip install pandas
 
 ---
 
-3.How will you remove a package in python?
+3.How can we remove a package in python?
 
 <details><summary><b>Show Answer </b></summary>
 
@@ -51,7 +51,7 @@ Consider the package name as studentclass.
 
 ---
 
-4.How will you list all packages on your system?
+4.How can we list all packages on your system?
 
 <details><summary><b>Show Answer </b></summary>
 
@@ -88,7 +88,7 @@ pip list
 
 ---
 
-7.Can you tell me some python checkers for Debugging?
+7.What are the python checkers for Debugging?
 
 <details><summary><b>Show Answer </b></summary>
 
@@ -126,7 +126,7 @@ Pylint may be a tool that,
 
 ---
 
-9.How will pip work Python?
+9.How will pip work in Python?
 
 <details><summary><b>Show Answer </b></summary>
 
@@ -137,7 +137,7 @@ Pylint may be a tool that,
 
 ---
 
-10.Can i use other tools instead of pip?What are the tools can i use rather than pip?
+10.Can we use other tools instead of pip? What are the tools that we can use rather than pip?
 
 <details><summary><b>Show Answer </b></summary>
 
@@ -159,7 +159,7 @@ Pylint may be a tool that,
 
 ---
 
-12.What is the lint errors?
+12.What are the lint errors?
 
 <details><summary><b>Show Answer </b></summary>
 
