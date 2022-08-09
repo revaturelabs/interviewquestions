@@ -1740,115 +1740,125 @@ for i in range(1,11):
 </details>
 
 ---
-88. Which condition will force to jump out of a loop when a number becomes 0 in python?
+88. Which condition will force to jump out of a loop when a number becomes 0 in python?    
 
-- a) if(number == 0)
-- b) while(number!=0)
-- c) elif( number==0)
-- d) None
+a) if(number == 0)      
+b) while(number!=0)      
+c) elif( number==0)      
+d) None      
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is b) 
+> Option is b) 
 </details>
 
 ---
 89. Predict the output of the below code.
-```
+```python3
 for i in range(2,10):   
     if (i%2==0):
         continue
         print(i, end=" ")
 ```
-- a) 2 4 6 8 10
-- b) 3 5 7 9
-- c) 2 4 6 8
-- d) Nothing is printed 
+a) 2 4 6 8 10    
+b) 3 5 7 9    
+c) 2 4 6 8    
+d) Nothing is printed     
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** option d) is correct.
-
-**Explanation:** Whenever the if condition becomes true, it skips the below print statement because of continue. As there is no else part in the above code, the execution will again goes to for loop whenever if becomes false.
+Option d) is correct.
+<details><summary> <b>Explanation</b> </summary>
+  
+> Whenever the if condition becomes true, it skips the below print statement because of continue. As there is no else part in the above code, the execution will again goes to for loop whenever if becomes false.
+</details>
 </details>
 
 ---
 90. Predict the output of the below code.
-```
+```python3 
 for i in range(1,6):   
     if (i%2==0):
         break
         print(i, end=" ")
     print(i)
 ```
-- a) 1
-- b) 2
-- c) 1 3 5
-- d) 2 4 
+a) 1  
+b) 2  
+c) 1 3 5  
+d) 2 4   
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is a) 1 
-
-**Explanation:** The for loop will starts from 1 and goes till 5. In if block break statement is used which break the flow and jumps out of it whenever the if condition becomes true. So for i = 1, it prints the value as it is outside if block, then for i=2 the if condition becames true resulting in executing the break statement. 
+> Option is a) 1 
+<details><summary> <b>Explanation</b> </summary>
+  
+> The for loop will starts from 1 and goes till 5. In if block break statement is used which break the flow and jumps out of it whenever the if condition becomes true. So for i = 1, it prints the value as it is outside if block, then for i=2 the if condition becames true resulting in executing the break statement. 
+</details>
 </details>
 
 ---
 91. What will be the output of following code?
-```
+```python3 
 for i in range(1,6):   
     if (i%2==0):
         break
         print(i)
 print(i)
 ```
-- a) 1
-- b) 2
-- c) 1 3 5
-- d) 2 4 
+a) 1    
+b) 2    
+c) 1 3 5    
+d) 2 4     
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is b) 2 
-
-**Explanation:** The for loop will starts from 1 and goes till 5. In if block break statement is used which break the flow and jumps out of it whenever the if condition becomes true. So for i = 1 it does not print anything as there is no print statement inside for loop after if block, then for i=2 the if condition becames true resulting in executing the break statement. Therefore the current value of i that is 2 is printed by print statement outside for loop.
+> option is b) 2 
+<details><summary> <b>Explanation</b> </summary>
+  
+> The for loop will starts from 1 and goes till 5. In if block break statement is used which break the flow and jumps out of it whenever the if condition becomes true. So for i = 1 it does not print anything as there is no print statement inside for loop after if block, then for i=2 the if condition becames true resulting in executing the break statement. Therefore the current value of i that is 2 is printed by print statement outside for loop.
+</details>
 </details>
 
 ---
 92. What should be the arguments of a range() function that will print the values 10, 14 and 18 for the below code given?
-```
+```python3
 for i in range(_,_,_):
     print(i)
 ```
-- a) 10, 18, 4
-- b) 11, 19, 4
-- c) 10, 19, 4
-- d) 10, 18, -4 
+a) 10, 18, 4  
+b) 11, 19, 4  
+c) 10, 19, 4  
+d) 10, 18, -4   
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is c) 
-
-**Explanation:** For printing 10, 14 and 18 the range should starts with 10 and goes till the number greater then 18, that is till 19 with steps having 4. 
+> Option is c) 
+<details><summary> <b>Explanation</b> </summary>
+  
+> For printing 10, 14 and 18 the range should starts with 10 and goes till the number greater then 18, that is till 19 with steps having 4. 
+</details>
 </details>
 
 ---
 93. What will be the output of the following code?
-```
+```python3 
 for i in range(4):
     for j in range(3):
         if(i>3):
             print("Hello")
 ```
-- a) It prints "Hello" three times.
-- b) It prints "Hello" four times.
-- c) It gives an error.
-- d) it prints nothing.
+a) It prints "Hello" three times.    
+b) It prints "Hello" four times.    
+c) It gives an error.    
+d) it prints nothing.    
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is d) 
-
-**Explanation:** The 'i' value in the for loop never goes beyond 3 so if condition will never becomes true. Hence no output is printed in console.
+> option is d) 
+<details><summary> <b>Explanation</b> </summary>
+  
+> The 'i' value in the for loop never goes beyond 3 so if condition will never becomes true. Hence no output is printed in console.
+</details>
 </details>
 
 ---
 94. What will be the output of the below code?
-```
+```python3 
 matrix = [[1, 2, 3, 4],
 [4, 5, 6, 7],
 [8, 9, 10, 11],
@@ -1856,20 +1866,22 @@ matrix = [[1, 2, 3, 4],
 for i in range(0, 4): 
     print(matrix[i][1], end=" ")
 ```
-- a) 1 4 8 12
-- b) 1 5 10 15
-- c) 2 5 9 13
-- d) 2 5 10 14 
+a) 1 4 8 12    
+b) 1 5 10 15    
+c) 2 5 9 13    
+d) 2 5 10 14     
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is c) 
-
-**Explanation:** The print statement always chooses the 1st value of every list from the matrix. 
+> Option is c) 
+<details><summary> <b>Explanation</b> </summary>
+  
+> The print statement always chooses the 1st value of every list from the matrix. 
+</details>
 </details>
 
 ---
 95. What will be the output of the below code?
-```
+```python3
 matrix = [[1, 2, 3, 4],
 [4, 5, 6, 7],
 [8, 9, 10, 11],
@@ -1877,20 +1889,22 @@ matrix = [[1, 2, 3, 4],
 for i in range(0, 4): 
     print(matrix[i][i], end=" ")
 ```
-- a) 1 4 8 12
-- b) 1 5 10 15
-- c) 2 5 9 13
-- d) 2 5 10 14 
+a) 1 4 8 12  
+b) 1 5 10 15  
+c) 2 5 9 13  
+d) 2 5 10 14   
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is b) 
-
-**Explanation:** The print statement prints the ith value from each list, one by one, starting from 0 till 3.
+> Option is b) 
+<details><summary> <b>Explanation</b> </summary>
+  
+> The print statement prints the ith value from each list, one by one, starting from 0 till 3.
+</details>
 </details>
 
 ---
 96. What will be the output of the below code?
-```
+```python3 
 matrix = [[1, 2, 3, 4],
 [4, 5, 6, 7],
 [8, 9, 10, 11],
@@ -1898,93 +1912,103 @@ matrix = [[1, 2, 3, 4],
 for i in range(0, 4, 2): 
     print(matrix[i][i], end=" ")
 ```
-- a) 1 4 8 12
-- b) 1 5 10 
-- c) 2 10
-- d) 1 10  
+a) 1 4 8 12  
+b) 1 5 10   
+c) 2 10  
+d) 1 10    
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is d)
-
-**Explanation:** The print statement prints the ith value from 1st and 3rd list because in for loop the interval given is 2.
+> option is d)
+<details><summary> <b>Explanation</b> </summary>
+  
+> The print statement prints the ith value from 1st and 3rd list because in for loop the interval given is 2.
+</details>
 </details>
 
 ---
 97. Predict the output.
-```
+```python3 
 if(10//2**2==2):
    print("hello")
 else: 
    print("hi")
 ```
-- a) hello
-- b) hi
-- c) hello hi
-- d) Error 
+a) hello  
+b) hi  
+c) hello hi  
+d) Error   
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is a) hello
-
-**Explanation:** The if condition becomes true as the following expression 10//2**2 is equal to 2 satisfied. Hence 'hello' is printed.
+> option is a) hello
+<details><summary> <b>Explanation</b> </summary>
+  
+> The if condition becomes true as the following expression 10//2**2 is equal to 2 satisfied. Hence 'hello' is printed.
+</details>
 </details>
 
 ---
 98. Predict the output of the following code.
-```
+```python3 
 list1 = [1, 2]
 for i in list1:
     list1.append(i)
 print(list1)
 ```
-- a) [1, 2]
-- b) [1, 2, 2, 1]
-- c) [1, 2, 1, 2]
-- d) None of the mentioned
+a) [1, 2]  
+b) [1, 2, 2, 1]  
+c) [1, 2, 1, 2]  
+d) None of the mentioned  
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is d) 
-
-**Explanation:** The for loop does not terminate as new element is being added to the list in each iteration. 
+> option is d) 
+<details><summary> <b>Explanation</b> </summary>
+  
+> The for loop does not terminate as new element is being added to the list in each iteration. 
+</details>
 </details>
 
 ---
 99. What will be the output of the below code?
-```
+```python3 
 list1 = [1, 2]
 list2 = []
 for i in list1:
     list2.append(i)
 print(list1+list2)
 ```
-- a) [1, 2]
-- b) [1, 2, 2, 1]
-- c) [1, 2, 1, 2]
-- d) None of the mentioned
+a) [1, 2]  
+b) [1, 2, 2, 1]  
+c) [1, 2, 1, 2]  
+d) None of the mentioned  
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is c) 
-
-**Explanation:** The append() function will add all the values of list1 to an empty list list2. Then both list gets concatenate together through + operator. 
+> option is c) 
+<details><summary> <b>Explanation</b> </summary>
+  
+> The append() function will add all the values of list1 to an empty list list2. Then both list gets concatenate together through + operator. 
+</details>
 </details>
 
 ---
 100. Predict the output of the following code. 
-```
+```python3
 list1 = [1, 2]
 list2 = []
 for i in list1:
     list2.append(i)
 print(list1+(list2+1))
 ```
-- a) [1, 2, 1, 2]
-- b) [1, 2, 2, 3]
-- c) [1, 2, 3, 2] 
-- d) Error
+a) [1, 2, 1, 2]  
+b) [1, 2, 2, 3]  
+c) [1, 2, 3, 2]   
+d) Error
 <details><summary> <b>Show Answer</b> </summary>
   
-**Ans:** correct option is d) Error.
-
-**Explanation:** The above code throws the "TypeError: can only concatenate list (not "int") to list". 
+> option is d) Error.
+<details><summary> <b>Explanation</b> </summary>
+  
+> The above code throws the "TypeError: can only concatenate list (not "int") to list". 
+</details>
 </details>
 
 ---
