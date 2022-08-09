@@ -1,16 +1,16 @@
 ## Read
 
-1.How will you create a file in python?
+1.How would you create a file in python?
 
 <details><summary><b>Show Answer</b></summary>
 
-- In python we are using `open()` built-in function to make a file.
+- In python, we use `open()` built-in function to create a file.
 ```python
 open("myfile.txt","W+")
 ```
-- If `myfile.txt` exists, it will open that file. If not there, it will create a file and open that created file.
+- If `myfile.txt` exists, the file would be opened. If not, it will create a file and open the created file.
 	
-**Note**: File will be created within the current directory (the directory wherever your Python code is running).
+**Note**: Files will be created within the current directory (the directory wherever your Python code runs).
 
 </details>
 
@@ -20,7 +20,7 @@ open("myfile.txt","W+")
 
 <details><summary><b>Show Answer</b></summary>
 
-We can use the same code as what we have used for creating a file.
+We can use the same code that we use to create a file.
 	
 ```python	
 open("myfile.txt","r") as fObj6.
@@ -34,7 +34,7 @@ open("myfile.txt","r") as fObj6.
 
 <details><summary><b>Show Answer</b></summary>
 
-Consider you have a some **.txt file**, this code is used to read that text file.
+Consider you have some **.txt file**, the following code is used to read that text file.
 
 ```python
 def file_read(fname):
@@ -47,25 +47,25 @@ file_read('test.txt')
 
 ---
 
-4.How many types of modes available in opening a file? Can you explain me what are use of those modes?
+4.How many types of modes are available to open a file? Also, explain what are the uses of those modes?
 
 <details><summary><b>Show Answer</b></summary>
 
-- There are four different methods(modes) for opening a file.
+- There are four different methods(modes) to open a file,
   
-i)"r" - Read - Default value. Opens a file for reading, error if the file does not exist.
+i)"r" - Read - Default value. Opens a file for reading, ans shows error if the file does not exist.
 
-ii)"a" - Append - Opens a file for appending, creates the file if it does not exist.
+ii)"a" - Append - Opens a file for appending, and creates the file if it does not exist.
 
-iii)"w" - Write - Opens a file for writing, creates the file if it does not exist.
+iii)"w" - Write - Opens a file for writing, and creates the file if it does not exist.
 
-iv)"x" - Create - Creates the specified file, returns an error if the file exists.
+iv)"x" - Create - Creates the specified file, and returns an error if the file exists.
 
 </details>
 
 ---
 
-5.Write a python program to read lin-by-line file into list?
+5.Write a python program to read a file line-by-line into list?
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -75,22 +75,22 @@ with open("myFile.txt") as fObj:
     print(liData)
 ```
 
-- Each line within the file are saved as one part in the list. that the size of the list are the same because the range of lines within the file.
-- Reading a go in the list is very vital once you wish to manipulate the text in every line of the file. once reading file content within the list, you simply need to loop over every element within the list and perform your desired operation.
+- Each line within the file is saved as one part in the list. The size of the list remains same as the range of the lines lies within the file.
+- Once the file content is read within the list, we simply need to loop over every element within the list and perform the desired operation.
 
 </details>
 
 ---
 
-6.What are the file methods used to read the data from file?
+6.What are the file methods used to read the data from a file?
 
 <details><summary><b>Show Answer</b></summary>
 
-- There are three methods in python to read data from file.
+- There are three methods in python to read data from file,
 
-1.read(chars): In python read() method used to reads the specified number of characters from the current position.
+1.read(chars): In python, read() method is used to read the specified number of characters from the current position.
 
-2.readline(): This method reads the characters starting from the current reading position up to a newline character.
+2.readline(): This method reads the characters starting from the current reading position to a newline character.
 
 3.readlines(): This method reads all lines until the end of file and returns a list object.
 
@@ -98,27 +98,25 @@ with open("myFile.txt") as fObj:
 
 ---
 
-7.Name two types of data files available in python .
+7.Name two types of data files in python.
 
 <details><summary><b>Show Answer</b></summary>
 
-- In python we have two types of data files available in python .
+- In python, we have two types of data files,
 
-The two types of files are,
+i)Text File-A document that consists of human readable characters, which might be opened by any text editor. 
 
-i)Text File-A document consists of human readable characters, which might be opened by any text editor. 
-
-ii)Binary File-In binary files contains non-human readable characters and symbols, that require specific programs to access its contents.
+ii)Binary File- contains non-human readable characters and symbols, that requires specific programs to access its contents.
 
 </details>
 
 ---
 
-8.Write a python program to read all the lines from file?
+8.Write a python program to read all the lines from a file?
 
 <details><summary><b>Show Answer</b></summary>
 
-To read all the lines from the file we have so many methods.This is one of the method.
+To read all the lines from the file, we have so many methods. Following is one of the method.
 
 ```python
 L = ["Welcome\n", "to\n", "my\n","world\n"]
@@ -148,18 +146,18 @@ Line4: world
 
 ---
 
-9.How will you read a file without opening? Which funtion used to open a file?
+9.How would we read a file without opening it? Which funtion is used to open a file?
 
 <details><summary><b>Show Answer</b></summary>
 
-- No,we can't able to read file without opening.
+- No,we can't read a file without opening it.
 - open() function used to open a file.
 
 </details>
 
 ---
 
-10.What is the use of 'r' as prefix in the given statement?  
+10.What is the use of 'r' as prefix in the below statement?  
 
 ```python   
 f = open(r, "d:\Python\test.txt")
@@ -171,7 +169,7 @@ f = open(r, "d:\Python\test.txt")
 f = open(r, "d:\Python\test.txt")
 ```
 
-In the above program 'r' makes the string as raw string, it means there is no special character in string.
+In the above program, 'r' makes the string as raw string, which means, there is no special character in the string.
 
 </details>
 
@@ -197,7 +195,7 @@ In the above program 'r' makes the string as raw string, it means there is no sp
   
 </details>
 
-13.Select all the correct statements when a file is opened using the with statement.
+13.Which of the following is/are correct when a file is opened using 'with' statement.
 
 **A**.The with statement simplifies exception handling
 
@@ -211,9 +209,9 @@ option A and B are the correct statements.
 
 <details><summary><b>Explanation</b></summary>
 
-- The with statement is simplifies exception handling by encapsulating common preparation and cleanup tasks.
+- The with statement simplifies exception handling by encapsulating common preparation and cleanup tasks.
 - This additionally ensures that a file is automatically closed when leaving the block.
-- As the file is closed automatically it ensures that each one the resources that are bound with the file are released.
+- As the file is closed automatically, it ensures that each one the resources that are bound with the file are released.
 
 </details>
 </details>
@@ -224,7 +222,7 @@ option A and B are the correct statements.
 
 <details><summary><b>Show Answer</b></summary>
 
-- 'r','w' and 'a' these are the three mode arguments that can be passed to the open() function.
+- 'r','w' and 'a' are the three mode arguments that can be passed to the open() function.
 - 
 i) 'r'-it's used for read mode.
 
@@ -236,11 +234,11 @@ iii) 'a'-this is used for an append mode.
 
 ---
 
-15.What type mode used to Reading a Binary file in python?
+15.What type mode is used to Read a Binary file in python?
 
 <details><summary><b>Show Answer</b></summary>
 
-In python we can use **rb** mode in the *open()* function to read a binary files.
+In python, we can use **rb** mode in the *open()* function to read a binary file.
 
 </details>
 
@@ -257,13 +255,13 @@ print(content)
 f.close()
 ```
 
-- Using 'rb' mode we can read the binary file in python.
+- Using 'rb' mode, we can read the binary file in python.
 
 </details>
 
 ---
 
-17.which one is incorrect  file access mode?
+17.which of the below is incorrect with respect to file access mode?
 
 **A**.r
 
@@ -279,18 +277,18 @@ Option c
 
 <details><summary><b>Explanation</b></summary>
 
-> r: This mode opens an existing file to read-only mode. The file pointer exists at the beginning.
+> r: This mode opens an existing file as read-only mode. The file pointer exists at the beginning.
 
-> ab+:This mode used to opens a file to append and read both in binary format.
+> ab+:This mode is used to open a file to append and read, both in binary format.
 
-> wb+: This is used opens the file to write and read both in binary format.
+> wb+: This is used to open the file to write and read, both in binary format.
 
 </details>
 </details>
 
 ---
 
-18.How will you get the list of files from the directory ?
+18.How to get the list of files from the directory ?
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -300,11 +298,11 @@ Option c
 
 ---
 
-19.How will you check the given File is exists or not?
+19.How to check the given file is exists or not?
 
 <details><summary><b>Show Answer</b></summary>
 
-Use the **os.path.isfile('file_path')** function to see whether a file exists. Pass the file name or file path to the current perform as associate degree argument. This performs returns True if a file is gift on the given path. Otherwise, it returns False.
+Use the **os.path.isfile('file_path')** function to see whether a file exists. Pass the file name or file path to the current perform as associate degree argument. This returns True if a file is present in the given path. Otherwise, it returns False.
 
 </details>
 
