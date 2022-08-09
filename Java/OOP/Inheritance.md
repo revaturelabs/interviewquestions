@@ -126,7 +126,13 @@ Exteding more than one class leads to multiple inheritance of state in java.
 <details>
 <summary><b>Show Answer</b></summary>
 	
->
+> A child class inherits all the properties of parent class so the child class can be implicitly upcasted to parent.
+	
+``` java
+	
+Parent p = new Child();
+	
+```
 	
 </details>
 
@@ -135,7 +141,10 @@ Exteding more than one class leads to multiple inheritance of state in java.
 <details>
 <summary><b>Show Answer</b></summary>
 	
->
+> A parent class may or may not have all the properties of Child class, so parent class can be ecplicily downcasted to Child class
+
+``` java
+Child c= (Child) new Parent();
 	
 </details>
 
