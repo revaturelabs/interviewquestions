@@ -5,7 +5,7 @@
 <details><summary> <b> Show Answer </b></summary>
 
 -  Maven coordinates helps us to uniquely identify a project, a dependency or a plugin defined in `pom.xml` file. Based on the combination of a group identifier, an artifact and the version of project.
--  **For example:** If you want to include any library dependency in `pom.xml` file, you have to define the _Maven coordinate. i.e., - `groupId` , `artifactId` and `version` of that dependency. Below, we have `mysql-connector-java` dependency with maven coordinates.
+-  **For example:** If you want to include any library dependency in `pom.xml` file, you have to define the _Maven coordinates_. i.e., - `groupId` , `artifactId` and `version` of that dependency. Below, we have `mysql-connector-java` dependency with maven coordinates.
 ```xml
 <!-- MySQL database driver -->
 <dependency>
