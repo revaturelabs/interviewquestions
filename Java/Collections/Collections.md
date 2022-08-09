@@ -16,15 +16,16 @@
   
 </details>
 
-5. what is collection Interface?
+3. what is collection Interface?
 
 <details>
 <summary><b>Show answer</b></summary>
 
-> 
+> Collection 
 
 </details>
-6. travesing the collection interface.
+
+4. travesing the collection interface.
 7. bulk methods
 8. Array operations
 9. Collection Classes
