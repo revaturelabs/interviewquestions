@@ -1,7 +1,7 @@
 # Python Inheritance 
 
 
-1. What do you mean by inheritance? give example.
+1. What do you mean by inheritance? Give example.
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Deriving the properties of one class to another is known as inheritance. In python, the class which takes the functionality of another class is known as child class or derived class and the class from which child class inherits is known as base class or parent class. For example, lets say human is a parent class and we inherit certain properties from it like ability to eat, think, drink, speak, etc.   
@@ -199,7 +199,7 @@ c) class Department(Company)
 d) class Department extends Company   
 <details><summary> <b>Show Answer</b> </summary> 
   
-> option is c) 
+> option c) 
 <details><summary> <b>Explanation</b> </summary> 
   
 > option a) and b) are used in C++ and option D) is used in Java to inherit one class from another. Hence option c) is correct.
@@ -217,7 +217,7 @@ c) class B(A):
 d) class C(A,B):  
 <details><summary> <b>Show Answer</b> </summary> 
   
-> option is b)
+> option b)
 <details><summary> <b>Explanation</b> </summary> 
   
 > Option a) depicts single inheritance, option c) depicts hierarchical inheritance, and option d) multiple inheritance.
@@ -235,7 +235,7 @@ c) class B(A):
 d) class C(A,B):  
 <details><summary> <b>Show Answer</b> </summary> 
   
-> option is d)
+> option d)
 <details><summary> <b>Explanation</b> </summary> 
   
 > Option a) depicts single inheritance, option c) depicts hierarchical inheritance, and option b) multi-level inheritance.
@@ -253,7 +253,7 @@ c) class B(A):
 d) class C(A,B):  
 <details><summary> <b>Show Answer</b> </summary> 
   
-> option is c)
+> option c)
 <details><summary> <b>Explanation</b> </summary>
   
 > Option a) depicts single inheritance, option d) depicts multiple inheritance, and option b) multi-level inheritance.
@@ -285,7 +285,7 @@ c) Double-level
 d) Multiple   
 <details><summary> <b>Show Answer</b> </summary>
   
-> option is c) 
+> option c) 
 <details><summary> <b>Explanation</b> </summary>
   
 > There is no double level inheritance present in python.
@@ -346,7 +346,7 @@ c) Error
 d) Nothing is printed  
 <details><summary> <b>Show Answer</b> </summary>
   
-> option is c) 
+> option c) 
 <details><summary> <b>Explanation</b> </summary>
   
 > The above code Throws the AttributeError while calling obj1.show() because there is show method present inside Company class. 
@@ -408,7 +408,7 @@ c) Error, no use of obj1 object
 d) Error, accessing private class member in subclass can't possible   
 <details><summary> <b>Show Answer</b> </summary>
   
-> option is d)
+> option d)
 <details><summary> <b>Explanation</b> </summary>
   
 > '__name' is a private data member of Company class and private members of one class cannot be accessed in another class in python. 
@@ -632,7 +632,7 @@ c) Hierarchical Inheritance
 d) Hybrid Inheritance   
 <details><summary> <b>Show Answer</b> </summary>
   
-> option is b) Multiple Inheritance. 
+> option b) Multiple Inheritance. 
 <details><summary> <b>Explanation</b> </summary>
   
 > By the definition, Multiple inheritance states that one derived class can inherits properties from more than 1 base class. In the above scenario also, we can see that Child class  is a derived class which inherits all the properties from the 2 base classes, that is Father and Mother class. 
