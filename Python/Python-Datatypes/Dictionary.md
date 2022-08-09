@@ -4,8 +4,9 @@
 
 <details><summary> <b>Show Answer</b> </summary>
   
-- Python dictionary objects are data types that are enclosed in curly braces '{}' and havkey and value pairs and each pair is seperated by a comma(,).
-- Dictionary is mapped. Meaning since it has key and value pair, a meaningful key can save a lot of trouble for coders, like using an address key to save all the addresses, an id key for all id’s and so on.
+> Python dictionary objects are data types that are enclosed in curly braces '{}' and havkey and value pairs and each pair is seperated by a comma(,).  
+    
+> Dictionary is mapped. Meaning since it has key and value pair, a meaningful key can save a lot of trouble for coders, like using an address key to save all the addresses, an id key for all id’s and so on.
   
 **Example**:
   
@@ -25,12 +26,13 @@ print(user_info['name'])
 > Naveen
 
   </details>
-  
+
+---
 2.How will you get keys and values of dictionary?
   
 <details><summary> <b>Show Answer</b> </summary>
   
-- In dictionary comes with keys() method that will provides all list of the keys in dictionary.
+> In dictionary comes with keys() method that will provides all list of the keys in dictionary.
   
 **Example**:
 
@@ -41,9 +43,9 @@ print(user_info.keys())
   
 **Output**:
   
-> dict_keys(['name','education','age'])
+```dict_keys(['name','education','age'])```
 
-- In dictionary comes with values() method that will provides all list of the keys in dictionary.
+> In dictionary comes with values() method that will provides all list of the keys in dictionary.
   
 **Example**:
   
@@ -54,9 +56,9 @@ print(user_info.values())
   
 **Output**:
   
-> dict_values(['Naveen', 'B.Tech', 23])
+```dict_values(['Naveen', 'B.Tech', 23])```
 
-- In Dictionary using items() method that returns list consisting of key and value pair.
+> In Dictionary using items() method that returns list consisting of key and value pair.
   
 **Example**:
   
@@ -67,17 +69,18 @@ print(user_info.items())
   
 **Output**:
   
-> dict_items([('name', 'Naveen'), ('education', 'B.Tech'), ('age', 23)])
+```dict_items([('name', 'Naveen'), ('education', 'B.Tech'), ('age', 23)])```
   
   </details>
   
-
+---
 3.Are dictionaries mutable?What do you mean by mutable?
   
 <details><summary> <b>Show Answer</b> </summary>
 
- - Yes,the python dictionary is a mutalbe object.
- - Mutable means we can change,add or remove key-value pairs after assigning.
+> Yes,the python dictionary is a mutalbe object.  
+    
+> Mutable means we can change,add or remove key-value pairs after assigning.  
   
 **Example**:
   
@@ -89,18 +92,19 @@ print("Student info after corrections: ", student_info)
 ```
   
 **Output**:
-  
+```  
 Student info original:  {'id': 12, 'nationality': 'China', 'data_enrolled': 2015, 'gender': 'Male'}
   
 Student info after corrections:  {'id': 12, 'nationality': 'China', 'data_enrolled': 2015, 'gender': 'Female'}
-  
+```  
 </details>
- 
+
+---
 4.What is the difference between list.pop() and dictionary.pop()?
   
 <details><summary> <b>Show Answer</b> </summary>
   
-- The pop() method in list the last item in the list, however, the pop() method in the dictionary can remove a specified item. The dict.popitem() would be the equivalent of list.pop(). 
+> The pop() method in list the last item in the list, however, the pop() method in the dictionary can remove a specified item. The dict.popitem() would be the equivalent of list.pop(). 
   
 **Example**:
   
@@ -112,18 +116,19 @@ print("After popping: ", recurrence_dict)
 ```
   
 **Output**:
-  
+``` 
 Before popping:  {'current_location': 'Bangaluru', 'job': 'sofware engineer', 'older_location': 'Chennai'}
   
 After popping:  {'current_location': 'Bangaluru', 'job': 'sofware engineer'}
-  
+``` 
 </details>
 
+---
 5.How will you merge more than one dictionary?
   
 <details><summary> <b>Show Answer</b> </summary>
   
-- In python dictionary can be merger as {**dict_1, **dict_2, …,**dict_n}.In python 3.9 its can be merged using "|" operator.
+> In python dictionary can be merger as {**dict_1, **dict_2, …,**dict_n}.In python 3.9 its can be merged using "|" operator.
   
 **Example**:
   
@@ -139,21 +144,22 @@ print("using | operator :",dict_merged_2)
 ```
   
 **Output**:
-  
+```  
 using ** argument : {'name': 'Harini', 'age': 27, 'location': 'kerala', 'job': 'software engineer'}
   
 using | operator : {'name': 'Harini', 'age': 27, 'location': 'kerala', 'job': 'software engineer'}
-
+```
   </details>
-  
+ 
+---
 6.How will you convert list to a dictionary?
 
 <details><summary> <b>Show Answer</b> </summary>
   
-- In python as you know dictionary has key and value pair but the list does not. So, some cases of converting lists into dictionaries are.
-  
-i)For loop and Zip with two lists
-  
+> In python as you know dictionary has key and value pair but the list does not. So, some cases of converting lists into dictionaries are.  
+    
+i) For loop and Zip with two lists  
+    
 **Example**:
 
 ```python  
@@ -169,10 +175,10 @@ print(pet_number_dict)
   
 **Output**:
   
-> {'dog': 2, 'cat': 4, 'guinea pig': 10, 'parrot': 2}
-
-ii)Zip, Comprehension with two lists
+> {'dog': 2, 'cat': 4, 'guinea pig': 10, 'parrot': 2}  
   
+ii) Zip, Comprehension with two lists    
+    
 **Example**:
   
 ```python
@@ -188,11 +194,13 @@ print(pet_number_dict_2)
 > {'dog': 2, 'cat': 4, 'guinea pig': 10, 'parrot': 2}
 
   </details>
-  
+
+---
 7.What is the difference between duplicating dictionary with and without copy()?
 
 <details><summary> <b>Show Answer</b> </summary>
-- It means is dict_2 = dict_1 vs. dict_2 = dict_1.copy(). When you are duplicating a dictionary object without a copy() method, you are not creating a new dictionary but pointing to the same dictionary object. So, when you make changes in the duplicate list it changes the original one too.
+  
+> It means is dict_2 = dict_1 vs. dict_2 = dict_1.copy(). When you are duplicating a dictionary object without a copy() method, you are not creating a new dictionary but pointing to the same dictionary object. So, when you make changes in the duplicate list it changes the original one too.
   
 **Example**:
 
@@ -211,12 +219,12 @@ print("Are the memory address of two dicts same? {}".format(id(list) == id(list_
 ```
   
 **Output**:
+ 
+> Original List before {'eggs': '1 karton', 'banana': '1 kg', 'milk': '1 ltr', 'sugar': '1 kg'}
   
-Original List before {'eggs': '1 karton', 'banana': '1 kg', 'milk': '1 ltr', 'sugar': '1 kg'}
+> Original List after duplication {'eggs': '1 karton', 'banana': '1 kg', 'milk': '1 ltr', 'sugar': '1 kg', 'salt': '1 kg'}
   
-Original List after duplication {'eggs': '1 karton', 'banana': '1 kg', 'milk': '1 ltr', 'sugar': '1 kg', 'salt': '1 kg'}
-  
-Are the memory address of two dicts same? True
+> Are the memory address of two dicts same? True
   
 - Now we can do with copy() method.
 
@@ -246,7 +254,7 @@ print("Are the memory address of two dicts same? {}".format(
   
 </details>
   
-
+---
 8.What will be output of following program?
   
 ```python
@@ -264,12 +272,13 @@ KeyError: (3, 4,9)
 
   </details>
   
+--- 
 9.What module and function can be used to "pretty print" dictionary values?
 
 <details><summary> <b>Show Answer</b> </summary>
   
-- pprint is a python module that provides the capability to pretty print python data types.
-- First, declare an array of dictionaries. After, pretty print it using the function pprint.pprint().
+> pprint is a python module that provides the capability to pretty print python data types.  
+> First, declare an array of dictionaries. After, pretty print it using the function pprint.pprint().  
   
 **Example**:
   
@@ -293,8 +302,9 @@ pprint.pprint(dictionary)
  {'Age': '35', 'Country': 'Japan', 'Name': 'Lee'}]
 ```
   
-  </details>
+ </details>
   
+---
 10.What will be the output of the following code?
   
 ```python  
@@ -311,11 +321,12 @@ print(id(cpydict) == id(dictlang))
 
   </details>
   
+---
 11.How will you delete a key from Dictionary?
 
 <details><summary> <b>Show Answer</b> </summary>
   
-- In python for that we can use del keyword to delete a key from dictionary.
+> In python for that we can use del keyword to delete a key from dictionary.
   
 **Example**:
   
@@ -331,7 +342,8 @@ print('Dictionary after deleting key =',fruitsDict)
 > Dictionary after deleting key = {'Orange': 200, 'Banana': 400, 'pomegranate': 600}
 
 </details>
-  
+ 
+---
 12.Write a program to get min and max keys corresponding to min and max value in dictionary?
 
 <details><summary> <b>Show Answer</b> </summary>
@@ -349,12 +361,13 @@ print('max value key:',max(FruitsDict,key=FruitsDict.get))
 > max and min values it's depends upon the user values
 
   </details>
-  
+
+---
 13.How to sum all elements of Dictionary?
 
 <details><summary> <b>Show Answer</b> </summary>
   
-- In python using sum() method we can sum the dictionaries elements.
+> In python using sum() method we can sum the dictionaries elements.
   
 **Example**:
   
@@ -369,6 +382,7 @@ print('sum of dict elements = ',sum(Fruit.values()))
   
   </details>
 
+---
 14.What will be the output of the following program?
 
 ```python  
@@ -386,6 +400,7 @@ print(two_highest_values)
   
   </details>
 
+---
 15.How will you print dictionary as table?
 
 <details><summary> <b>Show Answer</b> </summary>
@@ -397,7 +412,7 @@ for row in zip(*([key] + (value) for key, value in sorted(Dict_tab.items()))):
 ```
   
 **Output**:
-  
+```  
 Fruit Students Subject
   
 Apple Rack Phy
@@ -405,9 +420,10 @@ Apple Rack Phy
 Banana Jack Math
   
 Orange John English
-
+```
   </details>
-  
+ 
+---
 16.Write a Python program to sort a list alphabetically in a dictionary?
 
 <details><summary> <b>Show Answer</b> </summary>
@@ -424,6 +440,7 @@ print(sorted_dict)
   
   </details>
 
+---
 17.Look at the code carefully and tell me what will be the output of the following code?
 
 ```python
@@ -439,6 +456,7 @@ for a in students:
   
 <details><summary> <b>Show Answer</b> </summary>
   
+``` 
 kanika
   
 class : V
@@ -450,9 +468,10 @@ Harini
 class : V
   
 roll_id : 3
-
+```
   </details>
   
+---
 18.Write a Python program to sort counter by value?
   
 Sample data : {'Math':81, 'Physics':83, 'Chemistry':87}
@@ -472,7 +491,8 @@ print(x.most_common())
 > [('Chemistry', 87), ('Physics', 83), ('Math', 81)]
 
   </details>
-  
+ 
+---
 19.What will be the output of the following code?
   
 ```python  
@@ -488,7 +508,8 @@ print(dict_len)
 > AttributeError: 'dict' object has no attribute 'value'
 
   </details>
-  
+
+---
 20.What will be the output of the following code?
 
 ```python  
@@ -504,3 +525,4 @@ print(dict1 .keys( ))
   
   </details>
   
+---
