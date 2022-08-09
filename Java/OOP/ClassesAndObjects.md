@@ -308,6 +308,8 @@ public class Circle {
 	
 </details>
 
+---
+
 11. How to create an immutable class in java?
 
 <details><summary><b> Show Answer </b></summary>
