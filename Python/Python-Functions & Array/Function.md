@@ -2,6 +2,8 @@
 
 1.What is a function?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details>
   <summary>
     <b>Show Answer</b>
@@ -9,9 +11,9 @@
   
 > A function is a block of organized, reusable code that is used to perform a single, related action. Functions provide better modularity for your application and a high degree of code reusing.In python, we have three types of functions:
 
-> 1. Built-in print()
+> 1. Built-in `print()`
 > 2. User-defined functions(UDF)
-> 3. Anonymous-Lambda()
+> 3. Anonymous-`Lambda()`
   
 </details>
 
@@ -19,28 +21,31 @@
 
 2.What is the difference between call by value and call by reference?
 
-<details>
-  <summary>
-    <b>Show Answer</b>
-  </summary>
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b>Show Answer</b></summary>
+ <blockquote>
   
-> **Call by value:**
-  > - A copy of the variable is passed.
-  > - Change in the copy of variable doesn't modify the original value of variable.
-  > - **Syntax: function_name(variable_name1,variable_name2)**
-  > - Default calling-primitive type are passed using the call_by_value.
+- **Call by value:**
+   - A copy of the variable is passed.
+   - Change in the copy of variable doesn't modify the original value of variable.
+   - **Syntax: function_name(variable_name1,variable_name2)**
+   - Default calling-primitive type are passed using the call_by_value.
 	
-> **Call by reference:**
-  > - A variable itself is passed.
-  > - Change in the copy of variable modify the original value of variable.
-  > - Syntax: function_name(&variable_name1,&variable2...)
-  > - Default calling-Objects are implicitly passed using call_by_reference.
+- **Call by reference:**
+   - A variable itself is passed.
+   - Change in the copy of variable modify the original value of variable.
+   - Syntax: function_name(&variable_name1,&variable2...)
+   - Default calling-Objects are implicitly passed using call_by_reference.
  
+ </blockquote>
 </details>
 
 ---
 
 3.How many scope of variables are in python?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
   
@@ -62,10 +67,12 @@
 ---	
 	
 4.How does a function return values?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer</b></summary>
   
-> A function uses the **return** keyword to return a value. 
+> A function uses the `return` keyword to return a value. 
   
 **Example**:
   
@@ -79,6 +86,7 @@ print(add(2,3))
 <details><summary> <b>Output</b> </summary>
   
       5
+	
 </details>
 </details>
 
@@ -94,6 +102,9 @@ x = 20
 my_func()
 print("Value :",x)
 ```
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 **Output**:
@@ -104,7 +115,7 @@ SyntaxError: invalid syntax
   
 <details><summary> <b>Explanation</b> </summary>  
   
-> Here, we get syntax error because the syntax is **def function_name():**
+> Here, we get `Syntax error` because the syntax is `def function_name():`
 
 ```Python
 def my_func():
@@ -121,22 +132,30 @@ print("Value :",x)
 ---
   
 6.Specify few Built-in functions in python?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
+	 <blockquote>
 	
-> - python abs()-returns absolute value of a number
-> - python all()-returns true when all elements in iterable is true
-> - python ascii()-eturns String Containing Printable Representation
-> - python delattr()-deletes attribute from the object
-> - python eval()-runs code within program
+ - python `abs()`-returns absolute value of a number
+ - python `all()`-returns true when all elements in iterable is true
+ - python `ascii()`-eturns String Containing Printable Representation
+ - python `delattr()`-deletes attribute from the object
+ - python `eval()`-runs code within program
   
+ </blockquote>
 </details>
 
+--
+
 7.Can we use local variables in the local global scope?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> No,we cannot use local variables in the global scope.
+> `No`,we cannot use local variables in the global scope.
   
 **For example**:
   
@@ -150,11 +169,11 @@ print(calls)
 > If this program is executed, the output will be:
 Traceback (most recent call last):
   File "C:/test1.py", line 4, in <module>
-    print(Calls)
+    `print(Calls)`
   
 <details><summary> <b>Explanation</b> </summary> 
   
-> NameError: name 'calls' is not defined
+> `NameError`: name 'calls' is not defined
 > The error happens because the calls variable exists only in the local scope created, when spam() function is called. Once the program execution returns from spam, the local scope is destroyed, and there is no longer a variable as calls.
   </details>
   </details>
@@ -162,10 +181,12 @@ Traceback (most recent call last):
 ---
   
 8.What is the data type of None?
+	
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> **None** has a special status in Python. The 'None' is used to define a null variable or an object, and it is a data type of the class NoneType.
+> `None` has a special status in Python. The `None` is used to define a null variable or an object, and it is a data type of the `class NoneType`.
 
 **Example**:
 
@@ -173,14 +194,18 @@ Traceback (most recent call last):
 x=None
 print(type(x))
 ```
+	
 <b>Output:</b> 
   
-<class 'NoneType'>
+`<class 'NoneType'>`
+	
 </details>
  
 ---
 	
 9.When does the code in a function gets executed: when the function is defined or when the function is called?
+	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -196,7 +221,7 @@ greet('Sam')
 	
 **Output**:
   
-Hello  Sam
+`Hello  Sam`
 	
 <details><summary> <b>Explanation</b> </summary>
 	
@@ -208,6 +233,8 @@ Hello  Sam
 ---
 	
 10.How many global scopes are there in a Python program? 
+	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
 	
@@ -232,30 +259,36 @@ print (q)
 ---	
 	
 11.Which return type returns a value?
+	
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> You declare a method's return type in its method declaration. Within the body of the method, you use the return statement to return the value. Any method declared as void doesn't return a value.
+> You declare a method's return type in its method declaration. Within the body of the method, you use the `return` statement to return the value. Any method declared as `void` doesn't return a value.
   
 </details>
 	
 ---	
   
 12. In python, when a function does not have a return statement, what does the function return when it is called?
+	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> If you don't explicitly use a return value in a return statement, or if you totally omit the return statement, then Python will implicitly return a default value. That default return value will always be None.
+> If you don't explicitly use a return value in a `return` statement, or if you totally omit the return statement, then Python will implicitly return a default value. That default return value will always be None.
  
   </details>
 
 ---	
 	
 13.How can you force a variable in a function to refer to the global variable?
+	
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> If a global variable has to be refered in a function, the global keyword can be used to declare the respective variables as global.In Python, global keyword allows us to modify the variable outside of the current scope. It is used to create a global variable and make changes to the variable in a local context.
+> If a global variable has to be refered in a function, the `global` keyword can be used to declare the respective variables as global.In Python, `global` keyword allows us to modify the variable outside of the current scope. It is used to create a global variable and make changes to the variable in a local context.
 
  ```Python
 x = 5
@@ -266,23 +299,28 @@ def change():
 change()
 print("Value of x outside a function :", x)
 ```
+	
 **Output**:
   
   Value of x inside a function : 10
 	
   Value of x outside a function : 10
+	
   </details>
 
 ---	
 	
-14.Is bytes() a Built-in function or predefined function in python and explain any one of the Built-in function? 
+14.Is `bytes()` a Built-in function or predefined function in python and explain any one of the Built-in function? 
+	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
+ <blockquote>
  
-> Yes, bytes() is a Built-in function.
-> The functions which are come along with python itself are called a **Bulit-in function** or **predefined function**.
+- `Yes, bytes()` is a Built-in function.
+- The functions which are come along with python itself are called a `Bulit-in function` or `predefined function`.
 	
-- range()
+- `range()`
   
 **Example**:
 
@@ -295,7 +333,8 @@ for i in range(1, 10):
 
 1 2 3 4 5 6 7 8 9 
   
-  </details>
+   </blockquote>
+	 </details>
  
 ---	
 	
@@ -319,6 +358,8 @@ print(Output)
 	
  D.Syntax Error
 	
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+	
 <details><summary> <b>Show Answer</b> </summary>
 	
 > Option B.55
@@ -339,11 +380,13 @@ print(Output)
 print(func(999))
 ```
 	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+	
 <details><summary> <b>Hint</b> </summary>
 	
-> Create a function named func.
+> Create a function named `func`.
 	
-> reutrn a value which always returns the number: 100
+> `reutrn` a value which always returns the number: 100
 	
 </details>
 	
@@ -369,6 +412,8 @@ def salary(**kwargs):
 salary(emp="Anto", salary=10000)
 ```
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+	
 <details><summary> <b>Show Answer</b> </summary>
 	
 emp
@@ -377,11 +422,11 @@ salary
 
 <details><summary> <b>Explanation</b> </summary>
 
-> To accept Variable Length of Keyword Arguments, i.e., To create functions that take 'n' number of Keyword arguments, we use **kwargs (prefix a parameter name with a double asterisk ** ).
+> To accept Variable Length of Keyword Arguments, i.e., To create functions that take 'n' number of Keyword arguments, we use `**kwargs` (prefix a parameter name with a double asterisk ** ).
 
 > keyword arguments: display(emp="Anto", salary=10000)
 	
-> This **kwargs collects all passed arguments into a new dictionary, where the argument names are the keys, and their values are the key’s values. So, to get the values, we need to iterate the kwargs dictionary.
+> This `**kwargs` collects all passed arguments into a new dictionary, where the argument names are the keys, and their values are the key’s values. So, to get the values, we need to iterate the kwargs dictionary.
 	
 **Example**:
 	
@@ -401,9 +446,12 @@ salary
 # Type your answer here.
 func()
 ```
+	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)	
+	
 <details><summary> <b>Hint</b> </summary>
 
-> You can use input() function to ask for user input. And you can assign it to a variable.
+> You can use `input()` function to ask for user input. And you can assign it to a variable.
 	
 </details>
 	
@@ -424,28 +472,30 @@ Hello! Jack
 	
 ---
 	
-19.Choose the correct function declaration of fun1() so that we can execute the following function call successfully.
+19.Choose the correct function declaration of `fun1()` so that we can execute the following function call successfully.
 
 ```python
 fun1(25, 75, 55)
 fun1(10, 20)
 ```
 	
- A.def func1(**kwargs)
+ A.`def func1(**kwargs)`
 	
  B.No,it is not possible 
 	
- C.def fun1(args*)
+ C.`def fun1(args*)`
 	
- D.def fun1(*data)
+ D.`def fun1(*data)`
+	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 	
 <details><summary> <b>Show Answer</b> </summary>	
 
-> Option D:def fun1(*data)
+> Option D:`def fun1(*data)`
 
 <details><summary> <b>Explanation</b> </summary>
 
-> To accept multiple values or if the number of arguments is unknown, we can add * before the parameter name to accept arbitrary arguments. i.e., To accept Variable Length of Positional Arguments. To create functions that take 'n' number of Positional arguments, we use *args(prefix a parameter name with an asterisk *).
+> To accept multiple values or if the number of arguments is unknown, we can add the `*` before the parameter name to accept arbitrary arguments. i.e., To accept Variable Length of Positional Arguments. To create functions that take 'n' number of Positional arguments, we use `*args`(prefix a parameter name with an asterisk *).
 	
 *Example*:
 	
@@ -465,10 +515,12 @@ fun1(10, 20)
 	
 20. How does the range function work?
 	
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+	
 <details><summary> <b>Show Answer</b> </summary>
 	
-> The range function returns the sequence of numbers between the start to stop with a step increment. The syntax of the range function is range(start, stop[, step]).
-> The **stop** argument is mandatory. The arguments **start** and **step** are optional. The default value of start and step are 0 and 1, respectively.
+> The `range()` function returns the sequence of numbers between the start to stop with a step increment. The syntax of the range function is range(start, stop[, step]).
+> The `stop` argument is mandatory. The arguments `start` and `step` are optional. The default value of start and step are 0 and 1, respectively.
 
 **Example**:
 	
