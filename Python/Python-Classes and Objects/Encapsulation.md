@@ -27,6 +27,9 @@ print('Marks:', stu.__marks)
 
 ---
 2. Give a real-time example of encapsulation.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Consider there are two companies that makes motercycles, one is 'Hero' and other one is 'Honda'. 
@@ -101,6 +104,9 @@ a) 5 is printed
 b) 10 is printed  
 c) Error, because num1 is not retured by display() method.  
 d) Error, because __num2 is a private data member.  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > option is d).
@@ -132,6 +138,9 @@ a) 10
 b) 20  
 c) 30  
 d) Error  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option c)
@@ -198,6 +207,9 @@ a) 10
 b) 20  
 c) 30   
 d) Error  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > option is d) Error
@@ -228,6 +240,9 @@ d) __repr__ / __str__
 
 ---
 10. What is name mangling in python? Give example.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > In python, when we have some attributes in one class that we don't want to use in child classes, then we make them as private by adding two underscores('__') in prefix of variable name. So, to access those variables outside the class, we use name mangling concept. To access those private class variables, we have to add "_classname" with that variable.   
@@ -248,6 +263,9 @@ print(obj._Student__name)    # using name mangling we get output as Jack.
 
 a) True  
 b) False   
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option b)
@@ -302,6 +320,9 @@ a) 500 5
 b) 500 Error  
 c) Error  
 d) Nothing is printed   
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option a)
@@ -316,6 +337,9 @@ d) Nothing is printed
 
 a) True  
 b) False  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option b) 
@@ -343,6 +367,9 @@ a) Square
 b) Rectangle  
 c) Error  
 d) Nothing is printed   
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
  
 > Option c)
