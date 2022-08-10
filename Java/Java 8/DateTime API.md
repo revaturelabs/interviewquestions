@@ -29,7 +29,7 @@
 
 --- 
 
-3. When do you use Local DateTime API and Zoned DateTime API in Java 8?
+3. When do you use `LocalDateTime` API and `ZonedDateTime` API in Java 8?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -37,8 +37,8 @@
 
  <blockquote>
 
-- Local DateTime API - It can be used when there is no need for time zones.
-- Zoned DateTime API - It can be used when we need to consider time zones.
+- `LocalDateTime` API - It can be used when there is no need for time zones.
+- `ZonedDateTime` API - It can be used when we need to consider time zones.
   
  </blockquote>
 
@@ -56,7 +56,7 @@
   <blockquote>
  
 - It is not thread safe 
-- It was poorly Designed with less number of features
+- It was poorly designed with less number of features
 - Need to write a seperate code for handling time zone logic in older version. 
 
     </blockquote>
@@ -65,7 +65,7 @@
 
 --- 
 
-5. Write the pattern of DateTime using DateTimeFormatter class.
+5. Print the current date and time in this pattern `dd-MM-yyyy HH:mm:ss`.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
@@ -73,13 +73,30 @@
  
  <blockquote>
   
-```java
-DateTimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");  
+```java  
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+public class test3 {
+ public static void main(String[] args) {    
+        DateTimeFormatter pattern = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");         System.out.println(LocalDateTime.now().format(pattern));
+ }
+}
 ```
   
  </blockquote>
  
+ <details><summary><b> Explanation </b></summary>
+ 
+ - `LocalDateTime.now()` -this gives the current date and time in this format `2022-08-10T17:27:20.016675200`
+ -  To convert the date and time in the given format we use `DateTimeFormatter` class.
+ -  `ofPattern` is to define the pattern
+ -  `format`- to format the date and time in the pattern mentioned.
+ 
+ 
 </details>
+ 
+ </details>
 
 --- 
 
