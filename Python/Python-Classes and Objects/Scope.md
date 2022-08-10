@@ -184,10 +184,12 @@ d) None of the above
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option c)
+<details><summary> <b>Explanation</b> </summary> 
+ 
+> In python, if both global and local variable having the same name and we have to access them at the same time, in that situtaion your code will access the local variable.  
 </details>
 
 ---
-
 
 
 
