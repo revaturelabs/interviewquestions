@@ -6,7 +6,7 @@
 > 
 
 
-1. What is list?
+1. What is List Interface?
 
 <details>
 
