@@ -1,5 +1,5 @@
 ## Technical
-1: Explain Method Reference.
+1. Explain Method Reference.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -15,7 +15,7 @@ It is to refer the method of functional interface. While using a lambda expressi
  
  ---
 
-2: List the types of Method References.
+2. List the types of Method References.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -35,7 +35,7 @@ It is to refer the method of functional interface. While using a lambda expressi
 
  ---
  
-3: Write the syntax for referring to a static method?
+3. Write the syntax for referring to a static method?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -52,7 +52,7 @@ It is to refer the method of functional interface. While using a lambda expressi
  
  ---
 
-4: Write the syntax for Reference to an instance method of a particular object?
+4. Write the syntax for Reference to an instance method of a particular object?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -69,7 +69,7 @@ It is to refer the method of functional interface. While using a lambda expressi
 
  ---
  
-5: Write the syntax for Reference to an instance method of an arbitrary object of a particular type?
+5. Write the syntax for Reference to an instance method of an arbitrary object of a particular type?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -86,7 +86,7 @@ It is to refer the method of functional interface. While using a lambda expressi
  
  ---
 
-6: Write the syntax for Reference to a constructor?
+6. Write the syntax for Reference to a constructor?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -102,7 +102,7 @@ It is to refer the method of functional interface. While using a lambda expressi
 
  ---
  
- 7: Explain the parts of the method reference.
+ 7. Explain the parts of the method reference.
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
@@ -120,7 +120,7 @@ It is to refer the method of functional interface. While using a lambda expressi
  
  ---
 
-8: How to print all the elements in the list using method reference?
+8. How to print all the elements in the list using method reference?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -142,7 +142,7 @@ It is to refer the method of functional interface. While using a lambda expressi
  
 ## Problem Solving
 
-9: Predict the output of the following code.
+9. Predict the output of the following code.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -187,7 +187,7 @@ public class MethodReference{
 
  ---
  
-10: What should be the code in line 9  to get the result "Hello, this is a static method." using a reference to the static methods?
+10. What should be the code in line 9  to get the result "Hello, this is a static method." using a reference to the static methods?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
