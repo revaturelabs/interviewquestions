@@ -177,7 +177,7 @@ d) Nothing is printed
 > Option c)
 <details><summary> <b>Explanation</b> </summary> 
   
-> As self is not defined outside the class, we get the NameError. 
+> As self is not defined outside the class, we get the `NameError`. 
   </details>
 </details>
 
