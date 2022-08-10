@@ -2,6 +2,8 @@
 
 1:What is use of Custom Exceptions?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <details><summary><b> Explanation</b></summary>
@@ -16,6 +18,8 @@
 
 2:Why we use custom exceptions?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
 <details><summary><b> Explanation</b></summary>
  
@@ -29,6 +33,9 @@
 ---
 
 3:Predict the output of the following code.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
  ``` java 
 class InvalidAgeException  extends Exception  
 {  
@@ -71,6 +78,9 @@ Exception occured:InvalidAgeException:An individual age is not eligible to vote
 ---
 
 4:Predict the output of  the following code.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
  ``` java 
 class CustomException extends Exception {
  private int number;
