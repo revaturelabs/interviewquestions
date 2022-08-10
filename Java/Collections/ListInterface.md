@@ -54,11 +54,10 @@ List <E> l ;
 <summary><b>Show Answer</b></summary>
 
 > The following are the classes that implement List Interface.
-
-> 1. ArrayList
-> 2. LinkedList
-> 3. Vector
-> 4. Stack
+> 1. `ArrayList`
+> 2. `LinkedList`
+> 3. `Vector`
+> 4. `Stack`
 
 </details>
 
