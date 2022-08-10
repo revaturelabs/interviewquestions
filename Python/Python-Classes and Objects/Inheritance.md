@@ -215,7 +215,7 @@ obj3.fun()    # output: I'm the Father of two
 </details>
 
 ---
-9. Which of the following is the correct way of inheriting the "Company" class from "Department" class in python?
+9. Which of the following is the correct way of inheriting the `Company` class from `Department` class in python?
 
 a) class Company : public Department  
 b) class Department : protected Company  
@@ -299,10 +299,10 @@ d) class C(A,B):
 ---
 13. Suppose class Department is a child of Company class, to invoke the `__init__()` in Company from Department, what line of code you will write?
 
-a) Company.__init__(self)  
-b) Company.__init__(Department)  
-c) Department.__init__(self)  
-d) Department.__init__(Company)  
+a) `Company.__init__(self)` 
+b) `Company.__init__(Department)`  
+c) `Department.__init__(self)`  
+d) `Department.__init__(Company)`  
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -397,7 +397,7 @@ d) Nothing is printed
 > option c) 
 <details><summary> <b>Explanation</b> </summary>
   
-> The above code Throws the AttributeError while calling obj1.show() because there is no show method present inside Company class. 
+> The above code Throws the AttributeError while calling `obj1.show()` because there is no show method present inside Company class. 
   </details>
 </details>
 
@@ -502,13 +502,13 @@ d) Error, accessing private class member in subclass can't possible
 </details>
 
 ---
-20. What super() do in python? give example.
+20. What `super()` do in python? give example.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> super() in python is a method, used in child class to access the functions defined in parent class. This helps in code reuseability as we don't have to implement the function of parent class again in child class.   
+> `super()` in python is a method, used in child class to access the functions defined in parent class. This helps in code reuseability as we don't have to implement the function of parent class again in child class.   
   
 For example:
 ```
@@ -574,7 +574,7 @@ d) Error, no attribute named "a" present in Test2 class.
 > c) 4 6 
 <details><summary> <b>Explanation</b> </summary>
   
-> super() is used to access the members of parent class in child class. 
+> `super()` is used to access the members of parent class in child class. 
   </details>
 </details>
 
@@ -604,7 +604,7 @@ d) Error, no attribute named "a" present in Test2 class.
 > option d)
 <details><summary> <b>Explanation</b> </summary>
   
-> The above code throws "AttributeError: 'Test2' object has no attribute 'a'". 
+> The above code throws `"AttributeError: 'Test2' object has no attribute 'a'"`. 
   </details>
 </details>
   
@@ -811,7 +811,7 @@ d) None of the above.
 > Option c)
 <details><summary> <b>Explanation</b> </summary>
   
-> The above code will throw "AttributeError: 'Test1' object has no attribute 'num1'" because Test1 class is not a child of Test class and cannot inherit the things of Test class directly. 
+> The above code will throw `"AttributeError: 'Test1' object has no attribute 'num1'"` because Test1 class is not a child of Test class and cannot inherit the things of Test class directly. 
   </details>
 </details>
 
@@ -844,7 +844,7 @@ d) None of the above
 > Option b)
 <details><summary> <b>Explanation</b> </summary>
   
-> In the above code, @staticmethod decorater is used which makes the function inside the class as Static and that can be accessed outside the class with the help of Class_Name. 
+> In the above code, `@staticmethod` decorater is used which makes the function inside the class as Static and that can be accessed outside the class with the help of Class_Name. 
   </details>
 </details>
 
