@@ -1,6 +1,6 @@
 # Python Basics Questions And Answers
 
-1.Which operator in python can be used to combine two or more string values together?
+1.Which operator in python is used to combine two or more string values together?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -14,7 +14,7 @@ d) in
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option c) + is correct
+> Option c) + correct
   
 <details><summary> <b>Explanation</b> </summary> 
   
@@ -25,7 +25,7 @@ d) in
 
 ---
 
-2.Why local variable names beginning with an underscore discouraged in python?
+2.Why local variable names beginning with an underscore is discouraged in python?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -39,7 +39,7 @@ d) They slow down execution of the program
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option a) is correct
+> Option a) correct
 
 <details><summary> <b>Explanation</b> </summary> 
 
@@ -50,7 +50,7 @@ d) They slow down execution of the program
 
 ---
 
-3.What do you mean by keywords?
+3.What is keywords?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -63,7 +63,7 @@ d) They slow down execution of the program
 </details>
 
 ---
-4.What are identifiers? 
+4.What is identifiers? 
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
