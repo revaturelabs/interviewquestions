@@ -181,7 +181,15 @@ public class LocalDateExample1 {
 <details><summary><b> Show Answer </b></summary>
  
   <blockquote>
-
+   
+   Current date will be displayed
+   
+  </blockquote>
+ 
+ <blockquote>
+   
+<details><summary><b> Explanation </b></summary>
+ 
 <code>LocalDate</code> class resides in <code>java.time</code> package and the factory method <code>now()</code> will display the current date. 
    
  </blockquote>
