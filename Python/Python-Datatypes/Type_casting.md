@@ -1,13 +1,13 @@
 ## Type Casting
 
-1.What is Type casting?
+1. What is Type casting?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
 > In python type casting is a method to change the variables/values declared in a certain data type into a different data type to match the operation required to be performed by the code snippet.
-The type casting process's excecution can be performed by using two different types of type casting,
+The type casting process's execution can be performed by using two different types of type casting,
 1)Implicit type casting
 2)Explicit type casting
   
@@ -15,33 +15,33 @@ The type casting process's excecution can be performed by using two different ty
   
   ---
 
-2.What is the difference between `Implicit type casting` and `explicit type casting`?
+2. What is the difference between `Implicit type casting` and `explicit type casting`?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> `Implicit casting` doesn't require a casting operator.Implicit Type Conversion is automatically performed by the Python interpreter. Python avoids the loss of data in Implicit Type Conversion. Explicit type casting is performed by the programmer.`Explicit Type Conversion` is also called Type Casting, the data types of objects are converted using predefined functions by the user.
+> `Implicit casting` doesn't require a casting operator. Implicit Type Conversion is automatically performed by the Python interpreter. Python avoids the loss of data in Implicit Type Conversion. Explicit type casting is performed by the programmer.`Explicit Type Conversion` is also called Type Casting, the data types of objects are converted using predefined functions by the user.
 
 </details>
 
 ---
 
-3.What are all the advantages of type casting?
+3. What are all the advantages of typecasting?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
- > - Python provides the loss of data implict type conversion.
- > - In python automatically converts one data type to another data type.This process doesn't nedd any user involvement,python promotes the conversion of lower data type.
- > - For example,integer to higher data type says float to avoid data loss. This type of conversion or type casting is called UpCasting.
+ > - Python provides the loss of data implicit type conversion.
+ > - In python automatically converts one data type to another data type. This process doesn't need any user involvement, python promotes the conversion of lower data types.
+ > - For example, integer to higher data type says float to avoid data loss. This type of conversion or type of casting is called UpCasting.
   
   </details>
   
   ---
 
-4.Can we convert complext into int datatype?
+4. Can we convert the complex into int datatype?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -54,19 +54,19 @@ The type casting process's excecution can be performed by using two different ty
   
   ---
   
-5.What is the use of `int()` function?
+5. What is the use of the `int()` function?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
->  The `int()` function converts a string,hexadecimal,binary,octal and float to int.If the argument is a floating point, the conversion truncates the number. If the argument is outside the integer range, It converts the number into long type.
+>  The `int()` function converts a string,hexadecimal,binary,octal and float to int.If the argument is a floating point, the conversion truncates the number. If the argument is outside the integer range, It converts the number into a long type.
 
   </details>
   
   ---
   
-6.After executing the following line of code, what would be the data type of data ?
+6. After executing the following line of code, what would be the data type of data?
 
 > d = 7,
 
@@ -74,19 +74,19 @@ The type casting process's excecution can be performed by using two different ty
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> The data type of the d is tuple.Because,in python tuple does not need brackets/parentheses,if there are more than one element tuples need a comma to distinguish from a numeric data element.
+> The data type of the d is a tuple. Because python tuple does not need brackets/parentheses, if there are more than one element tuples need a comma to distinguish from a numeric data element.
 
 </details>
 
 ---
 
-7.How will you convert float value 12.6 to integer value?
+7. How will you convert float value 12.6 to integer value?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
->  Float value can be converted to an integer value by calling  `int()` funtion.
+>  Float value can be converted to an integer value by calling the `int()` function.
   
 **Example**:
   
@@ -110,7 +110,7 @@ print(type(a1))
   
   ---
 
-8.How do you remove a reference to a variable?
+8. How do you remove a reference to a variable?
   
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -143,13 +143,13 @@ NameError: name 'a' is not defined
   
   ---
   
-9.How will you convert integer value (18) to float value?
+9. How will you convert integer value (18) to float value?
     
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Integer value can be converted to an Float value by calling  `float()` funtion.
+> Integer value can be converted to a Float value by calling the `float()` function.
   
 **Example**:
 
@@ -169,7 +169,7 @@ print(type(a1))
   
   ---
 
-10.What will be the output of the following code?(What data type it will return).
+10. What will be the output of the following code? (What data type it will return).
 
 ```python  
 type(range(5))
@@ -179,7 +179,7 @@ type(range(5))
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> The above program it will return the data type is `range()`. 
+> The above program will return the data type as `range()`. 
   
 <details><summary> <b>Explanation</b> </summary>
   
@@ -188,7 +188,7 @@ type(range(5))
   </details>
   </details>
 
-11.Predict the output of the follwing code?
+11. Predict the output of the following code?
 
 ```python  
 x = 80
@@ -220,7 +220,7 @@ print(x)
   
   ---
 
-12.What will be the output of the following code?
+12. What will be the output of the following code?
   
   ```python
 def func1():
@@ -246,7 +246,7 @@ print(y)
   
 <details><summary> <b>Explanation</b> </summary>
   
-> You will get a `NameError: name 'y' is not defined`. To access the function’s return value we must accept it using an assignment operator like this.
+> You will get a `NameError: name 'y' is not defined. To access the function’s return value we must accept it using an assignment operator like this.
   
 ```python
 def myfunc():
@@ -261,7 +261,7 @@ print(y)
   
   ---
   
-13.What is the output of the following code?
+13. What is the output of the following code?
   
 ```python
 print(bool(0), bool(3.14159), bool(-3), bool(1.0+1j))
@@ -283,13 +283,13 @@ print(bool(0), bool(3.14159), bool(-3), bool(1.0+1j))
   
   ---
 
-14.What is `del` keyword in python and explain with an example?
+14. What is the `del` keyword in python and explain with an example.
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> `del` keyword is used to delete a objects in python.
+> `del` keyword is used to delete objects in python.
 > You can delete a reference to an object using the del keyword.
   
 **Example**:
@@ -311,7 +311,7 @@ NameError: name 'a' is not defined
 
 ---
   
-15.Predict the output of the following code?
+15. Predict the output of the following code?
   
 ```python  
 x=56.9
@@ -335,9 +335,9 @@ TypeError: can't convert complex to int
   
 <details><summary> <b>Explanation</b> </summary>
   
-  - It will printing the type of x variable.
-  - It will converting float to integer.
-  - In line 6 it's converting complex to interger.But,it will throw an type error because we can't able to convert complex into integer.
+  - It will be printing the type of x variable.
+  - It will convert float to integer.
+  - In line 6 it's converting complex to an integer. But, it will throw a type error because we can't able to convert the complex into integers.
   
   </blockquote>
   </details>
