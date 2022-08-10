@@ -2,6 +2,8 @@
 
 1.What is boolean data type in python?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > The Python Boolean type is one of Python's built-in data types.  Boolean is a primitive data type that takes either "true" or "false" values. So anything that returns the value "true" or "false" can be considered as a boolean example. Checking some conditions such as "a==b" or "a<b" or "a>b" can be considered as boolean examples.
