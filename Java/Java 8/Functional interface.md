@@ -20,11 +20,13 @@ If an interface annotated with <code>@FunctionalInterface</code>, Java complier 
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
  
  <details><summary><b>Show Answer</b></summary>
-  No.
+<blockquote>
+  No
+</blockquote>
 <details><summary><b>Explanation</b></summary>
-	
->- Not necessarily because the compiler will consider it as a functional interface when it has only one abstract method. 
-			
+<blockquote>	
+- Not necessarily because the compiler will consider it as a functional interface when it has only one abstract method. 
+</blockquote>			
 </details>
 </details>
 
@@ -35,7 +37,9 @@ If an interface annotated with <code>@FunctionalInterface</code>, Java complier 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
  <details><summary><b> Show Answer</b></summary>
+	<blockquote>
  	Yes
+		</blockquote>
 <details><summary><b>Explanation</b></summary>
 <blockquote>
 We can have any number of default and static methods but can contain only one abstract method.
@@ -49,13 +53,15 @@ We can have any number of default and static methods but can contain only one ab
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<blockquote>
+
 
  <details><summary><b>Show Answer</b></summary>
+	<blockquote>
  	A functional interface can have any number of default methods with only one abstract method.
+		</blockquote>
 </details>
 	
-</blockquote>
+
  
  ---
 
@@ -64,7 +70,9 @@ We can have any number of default and static methods but can contain only one ab
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
  <details><summary><b>Show Answer</b></summary>
+	</blockquote>
 	Yes
+	</blockquote>
 	<details><summary><b>Explanation</b></summary>
 <blockquote>
 		The functional interface has been introduced in Java 8 to support the lambda expression, lambda expression is the instance of a functional interface.
@@ -148,9 +156,10 @@ public class test {
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
+	<blockquote>
 	
 No.
-
+</blockquote>
 <details><summary><b>Explanation</b></summary>
 	
 <blockquote>
@@ -247,10 +256,10 @@ public interface Circle {
 }
 ```
 <details><summary><b>Show Answer</b></summary>
-	
+<blockquote>	
 Yes
 
-	
+</blockquote>	
 <details><summary><b>Explanation</b></summary>
 	
 <blockquote>
