@@ -14,7 +14,7 @@
 
 ---
 
-2:Why we use custom exceptions?
+2.Why we use custom exceptions?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -30,7 +30,7 @@
 
 ---
 
-3:Predict the output of the following code.
+3.Predict the output of the following code.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -75,7 +75,7 @@ Exception occured:InvalidAgeException:An individual age is not eligible to vote
 
 ---
 
-4:Predict the output of  the following code.
+4.Predict the output of  the following code.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
