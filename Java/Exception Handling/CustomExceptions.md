@@ -6,8 +6,6 @@
 
 <details><summary><b> Show Answer</b></summary>
   
-<details><summary><b> Explanation</b></summary>
-  
 >  - When we create our own exceptions that are derived classes of the `Exception` class is known as custom exception or user-defined exception. 
 >  - Custom exceptions are used to customize the exception according to the user needs.
   
@@ -21,12 +19,12 @@
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
-<details><summary><b> Explanation</b></summary>
- 
+  
 > - Custom Exception are used to catch and provide specific treatment to a subset of existing java exceptions.
 > - We also have exceptions related to business logic and workflow. 
 > - It is useful for the application users or the developers to understand the exact problem.
 > - In order to create custom exception, we need to extend `Exception` class that belongs to <code>java.lang</code> package.
+
  </details>
 </details>
 
@@ -109,7 +107,6 @@ public static void main(String args[]) {
 }
 ```
 <details><summary><b> Show Answer</b></summary>
-<details><summary><b> Explanation</b></summary>
  
 ```java
 Called compute(55)
