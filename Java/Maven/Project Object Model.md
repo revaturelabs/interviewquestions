@@ -229,7 +229,7 @@ A project should have dependency to compile, build, test and run , which is coll
   
  <blockquote>
 
--It is a special version of a Maven package that refers to the latest production branch code. It is a development version that precedes the final release version. 
+- It is a special version of a Maven package that refers to the latest production branch code. It is a development version that precedes the final release version. 
 - We can identify a snapshot version of a Maven package by the suffix SNAPSHOT that is appended to the package version.
 
  </blockquote>
