@@ -3,11 +3,11 @@
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
-<details><summary><b> Explanation</b></summary>
+
 	
 >The `throw` statement is used to throw an exception explicitly. We specify the exception object which is to be thrown. The Exception has some message with it that provides the error description. These exceptions may be related to user inputs, server, etc.We can throw either checked or unchecked exceptions in Java by throw keyword. 
 	
-</details></details>
+</details>
 	
 ---
 	
@@ -45,6 +45,12 @@ public class throw1 {
 <details><summary><b> Show Answer</b></summary>
 	
 >An individual is not eligible to vote
+
+<details><summary><b> Explanation</b></summary>
+
+>The age passed is less than 18 in the verify method that is why it throws an arithmetic exception
+
+</details>
 	
 </details>
 
@@ -77,6 +83,12 @@ public class throw2 {
 <details><summary><b> Show Answer</b></summary>
 	
 >`java.io.FileNotFoundException`
+
+<details><summary><b> Explanation</b></summary>
+
+>The file doesn't exist in the location specified and it throws a FileNotFoundException.
+
+</details>
 	
 </details>
 
@@ -136,6 +148,12 @@ System.out.println("exception handled");
 <details><summary><b> Show Answer</b></summary>
 	
 >exception handled
+
+<details><summary><b> Explanation</b></summary>
+
+>The Input Output resource is not available it throws an IOException.
+
+</details>
 </details>
 
 
@@ -209,6 +227,12 @@ public class Throw1{
 	
 >Number is negative, cannot calculate square
 	
+<details><summary><b> Explanation</b></summary>
+
+>The negative number has been passed to the calsquare method it throws an ArithmeticException.
+
+</details>
+	
 </details>
 
 
@@ -239,7 +263,12 @@ public class Throws2 {
 <details><summary><b> Show Answer</b></summary>
 	
 >Number cannot be divided by 0
-	
+
+<details><summary><b> Explanation</b></summary>
+
+>The number 0 has been passed to the divide method as a second argument it throws an ArithmeticException.
+
+</details>
 </details>
 
 ---
@@ -282,6 +311,12 @@ public class finalvariable {
 <details><summary><b> Show Answer</b></summary>
 	
 >`Cannot assign a value to the final variable age=15`
+	
+<details><summary><b> Explanation</b></summary>
+
+>The final variable cannot be re-initialized again.
+
+</details>
 	
 </details>
 
