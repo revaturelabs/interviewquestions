@@ -7,8 +7,10 @@
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Abstraction refers to hiding of unnecessary data from the user and showing only the relevant part in order to reduce complexity and increasing the efficiency of program. For example let's take a social media platforms where we share photos, chat, etc., with friends without knowing how all these operations are happening in background.     
-> We can achieve abstraction in python by creating abstract classes in our program.      
+> Abstraction refers to hiding of unnecessary data from the user and showing only the relevant part in order to reduce complexity and increasing the efficiency of program. For example let's take a social media platforms where we share photos, chat, etc., with friends without knowing how all these operations are happening in background.    
+  
+> We can achieve abstraction in python by creating abstract classes in our program. 
+  
 > By default, python doesn't provide any implementation to create abstract class. There is a module in python that provides the way to create abstract classes and that module name is `ABC`[Abstract Base Classes]. Let's see an example that clears all the doubt.    
 ```python3
 # example for abstract class
