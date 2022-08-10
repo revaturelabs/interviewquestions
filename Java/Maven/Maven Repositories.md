@@ -76,7 +76,7 @@
 	
 <blockquote> 
 
-- It was used to downlaod the dependencies, When there is a need and which was not there in local reposirory.  
+- It was used to downlaod the dependencies, When there is a need and which was not there in local repository.  
 - It is the default location for maven to download all the project dependency libraries.
 	
 </blockquote> 
