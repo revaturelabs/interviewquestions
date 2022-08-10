@@ -15,7 +15,7 @@ If an interface annotated with <code>@FunctionalInterface</code>, Java complier 
 
 ---
 
- 2:  Is `@FunctionalInterface` annotation mandatory for every interface with a single abstract method?
+ 2.  Is `@FunctionalInterface` annotation mandatory for every interface with a single abstract method?
  
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
  
@@ -32,7 +32,7 @@ If an interface annotated with <code>@FunctionalInterface</code>, Java complier 
 
 ---
 
-3: Is it possible to have default and static methods in the functional interface?
+3. Is it possible to have default and static methods in the functional interface?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -49,11 +49,9 @@ We can have any number of default and static methods but can contain only one ab
 
 ---
 
-4: How many default methods can we have in the functional interface?
+4. How many default methods can we have in the functional interface?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-
 
  <details><summary><b>Show Answer</b></summary>
 	<blockquote>
@@ -65,7 +63,7 @@ We can have any number of default and static methods but can contain only one ab
  
  ---
 
-5: Is Functional Interface related to the Lambda Expression?
+5. Is Functional Interface related to the Lambda Expression?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -82,7 +80,7 @@ We can have any number of default and static methods but can contain only one ab
  
  ---
 
-6: Write a code to print "HelloWorld" using lambda expression and functional interface?
+6. Write a code to print "HelloWorld" using lambda expression and functional interface?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -117,7 +115,7 @@ public class test {
 
 ---
 
-7: List some java built-in examples for functional interfaces.
+7. List some java built-in examples for functional interfaces.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -125,9 +123,9 @@ public class test {
 	
 <blockquote>
 
-- Runnable - Used in Multithreading , which has run() method    
-- Callable - Used to wrap a text and pass to a thread , which has call() method
-- Comparable - Used to compare between the objects in the class, which has compareTo() method
+- `Runnable` - Used in Multithreading , which has `run()` method    
+- `Callable` - Used to wrap a text and pass to a thread , which has `call()` method
+- `Comparable` - Used to compare between the objects in the class, which has `compareTo()` method
 	
 </blockquote>
 	
@@ -135,7 +133,7 @@ public class test {
 
 ---
 
-8: What is the  primary condition to convert Anonymous class to lambda expression? 
+8. What is the  primary condition to convert Anonymous class to lambda expression? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -151,7 +149,7 @@ public class test {
 
 ---
 
-9: Does lambda expression execute on its own? 
+9. Does lambda expression execute on its own? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -175,7 +173,7 @@ It is used to implement a method defined by a functional interface.
 
 ---
 
-10: List the main kinds of Functional Interfaces in Java 8.
+10. List the main kinds of Functional Interfaces in Java 8.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -184,10 +182,10 @@ It is used to implement a method defined by a functional interface.
 
 <blockquote>
 
-- Consumer - which takes only one argument
-- Predicate - which takes one argument and returns the result as a boolean value
-- Supplier - which does not take any arguments and returns a single result.
-- Function - which receives an argument and returns the result based on the processing
+- `Consumer` - which takes only one argument
+- `Predicate` - which takes one argument and returns the result as a boolean value
+- `Supplier` - which does not take any arguments and returns a single result.
+- `Function` - which receives an argument and returns the result based on the processing
 	
 </blockquote>
 
@@ -195,7 +193,7 @@ It is used to implement a method defined by a functional interface.
 
 ---
 
-11: When does a functional interface can extend another interface?
+11. When does a functional interface can extend another interface?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -211,7 +209,7 @@ It is used to implement a method defined by a functional interface.
 
 ---
 
-12: What is SAM?
+12. What is SAM?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -228,7 +226,7 @@ It is used to implement a method defined by a functional interface.
 
 ---
 
-13: Does the functional interface allows static methods?
+13. Does the functional interface allows static methods?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -245,7 +243,7 @@ one abstract method is allowed in functional interface
 
 ---
 
-14: Is this a functional interface code snippet?
+14. Is this a functional interface code snippet?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -275,7 +273,7 @@ This is a functional interface, since there is only one abstract method
 
 ---
 
-15: Write the syntax for the consumer functional interface?
+15. Write the syntax for the consumer functional interface?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -305,7 +303,7 @@ Consumer<Integer> consumer = (value) -> System.out.println(value);
 	
 ---
 
-16: Write the syntax of the Predicate Functional Interface.
+16. Write the syntax of the Predicate Functional Interface.
 	
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 	
@@ -337,7 +335,7 @@ public interface Predicate<T> {
 
 ---
 
-17: Write the Syntax of Supplier Functional Interface.
+17. Write the Syntax of Supplier Functional Interface.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 	
@@ -369,7 +367,7 @@ public interface Supplier<T>{
 
 ---
 	
-18: Is there any limit for static and default methods in the functional interface?
+18. Is there any limit for static and default methods in the functional interface?
 	
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -392,7 +390,7 @@ public interface Supplier<T>{
 
 ## Error Detection
 	
- 19:Predict the error of the following code snippet.
+ 19. redict the error of the following code snippet.
 	
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -419,7 +417,7 @@ It will throw a compile time error that Arithmetic is not a functional interface
 	
 ## Problem-Solving
 	
-20: Write lambda expression for the method sum.
+20. Write lambda expression for the method sum.
 	
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -479,7 +477,7 @@ interface Sum{
 	
 ---
 	
-21: Convert the follwing Anonymous class code into Lambda expresssion.
+21. Convert the follwing Anonymous class code into Lambda expresssion.
  
 
  ``` java
@@ -530,7 +528,7 @@ public class AnonymousClassExample {
 
  ---
 
-22: Predict the output for the following code snippet.
+22. Predict the output for the following code snippet.
 	
 ``` java
 	
