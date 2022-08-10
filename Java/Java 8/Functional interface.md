@@ -370,7 +370,7 @@ Which does not take any input or argument and yet returns a single output.
 
 <details><summary><b>Show Answer</b></summary>
 
-- No
+No
 	
 	
 <details><summary><b>Explanation</b></summary>
@@ -387,7 +387,7 @@ We can add any number of static and default methods in the functional interface 
 
 ## Error Detection
 	
- 19. redict the error of the following code snippet.
+ 19. Predict the output of the following code snippet.
 	
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
