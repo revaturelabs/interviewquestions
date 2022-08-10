@@ -1,18 +1,20 @@
 ## PIP & Pylint
 
-1.What is the full from of pip? What is the use of pip in python?
+1.What is the full from of `pip`? What is the use of `pip` in python?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer </b></summary>
+  <blockquote>
 
-> - **pip** full form is-python package installler.
-> - Python PIP is a python package manager that basically helps the users install,review and use various packages/modules in python programming.
+ - `pip` full form is-python package installler.
+ - Python PIP is a python package manager that basically helps the users install,review and use various packages/modules in python programming.
 
 **Syntax**:
 
-> pip install package_name
-
+`pip install package_name`
+  
+<blockquote>
 </details>
 
 ---
@@ -22,17 +24,19 @@
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer </b></summary>
+   <blockquote>
 
-> - In python for that we can use pip command to install the particular package.
+ - In python for that we can use `pip` command to install the particular package.
   
 **Example**:
 
-> - Install pandas package for this installation we can use pip install command.
+ - Install pandas package for this installation we can use `pip install` command.
 
 ```python  
 pip install pandas
 ```
 
+  </blockquote>    
 </details>
 
 ---
@@ -49,7 +53,7 @@ pip install pandas
   
 Consider the package name as studentclass.
 
-> pip unistall studentclass
+`pip unistall studentclass`
 
 >  After running this command, The pip package manager will to confirm that we want to remove the package sudentclass.
 
@@ -62,16 +66,18 @@ Consider the package name as studentclass.
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer </b></summary>
+  <blockquote>
 
-> - **list** command used to list all the packages installed on your system.
+ - `list` command used to list all the packages installed on your system.
 
-> - **Example**
+ - **Example**
   
 ```python
 pip list
 ```
 
-</details>
+ </blockquote>
+    </details>
 
 ---
 
@@ -92,8 +98,8 @@ pip list
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details><summary><b>Show Answer </b></summary>
 
-> - **Yes** , pip is a command line tool.
-> - In Python, PIP may be an algorithmic form for "Preferred Installer Program" or "PIP Installs Packages" . It is a command-line tool that installs, reinstall, or uninstalls PyPI packages with one straightforward command: "pip".
+> - `Yes` , pip is a command line tool.
+> - In Python, PIP may be an algorithmic form for "Preferred Installer Program" or `PIP Installs Packages` . It is a command-line tool that installs, reinstall, or uninstalls PyPI packages with one straightforward command: "pip".
 
 </details>
 
@@ -104,40 +110,45 @@ pip list
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer </b></summary>
+<blockquote>
 
-> - There are many debugging tools,some of them are:
+ - There are many debugging tools,some of them are:
   
-> i)Pychecker – A tool for locating bugs in python ASCII text file(source code).
+ i)Pychecker – A tool for locating bugs in python ASCII text file(source code).
 
-> ii)pudb – PuDB could be a full-screen, console-based visual debugger for Python.
+ ii)pudb – PuDB could be a full-screen, console-based visual debugger for Python.
 
-> iii)pdb – The module pdb defines associate degree interactive ASCII text file(source code) debugger for Python programs.
+ iii)pdb – The module pdb defines associate degree interactive ASCII text file(source code) debugger for Python programs.
 
-> iv)pylint – Analyzes Python ASCII text file(source code) trying to find bugs and signs of poor quality.
+ iv)pylint – Analyzes Python ASCII text file(source code) trying to find bugs and signs of poor quality.
 
-</details>
+ <blockquote>
+  </details>
 
 ---
 
-8.What is the use of pylint in python?
+8.What is the use of `pylint` in python?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer </b></summary>
+   <blockquote>
 
-> Pylint may be a tool that,
+- Pylint may be a tool that,
 
-> - Lists Errors that comes when execution of that Python code
-> - Enforces a coding standard and appears for code smells
-> - Suggest however specific blocks will be updated
-> - Offer details regarding the code’s complexness.
-> - Pylint is similar to pychecker, pyflakes, flake8, and mypy.
+- Lists Errors that comes when execution of that Python code
+- Enforces a coding standard and appears for code smells
+- Suggest however specific blocks will be updated
+- Offer details regarding the code’s complexness.
+- Pylint is similar to pychecker, pyflakes, flake8, and mypy.
 
 **Syntax**:
 
-> pip install pylint
+`pip install pylint`
 
-</details>
+
+</blockquote>
+     </details>
 
 ---
 
@@ -147,20 +158,20 @@ pip list
 
 <details><summary><b>Show Answer </b></summary>
 
-> - The pip command looks for the package in PyPI, resolves its dependencies, and installs everything in your current Python atmosphere to confirm that requests can work. 
-> - The pip install **package** command continually looks for the most recent version of the package and installs it.
+> - The `pip` command looks for the package in `PyPI`, resolves its dependencies, and installs everything in your current Python atmosphere to confirm that requests can work. 
+> - The pip install `package` command continually looks for the most recent version of the package and installs it.
 
 </details>
 
 ---
 
-10.Can we use other tools instead of pip? What are the tools that we can use rather than pip?
+10.Can we use other tools instead of `pip`? What are the tools that we can use rather than `pip`?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer </b></summary>
 
-> - Yes,we can use other tools other than pip.
+> - Yes,we can use other tools other than `pip` installer.
 > - The tools are,
 > - npm, Homebrew, Yarn, RequireJS, and Bower are the most common alternatives and competitors to pip.
 
@@ -168,25 +179,25 @@ pip list
 
 ---
 
-11.Is pylint a PEP8?
+11.Is `pylint` a PEP8?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer </b></summary>
 
-> Pycodestyle (Formerly PEP8) is that the official linter tool to check the python code against the design conventions of PEP8 python. Pylint could be a python linter that checks the source code and conjointly acts as a bug and quality checker. it's it has verification checks and choices than simply PEP8.
+> Pycodestyle (Formerly PEP8) is that the official linter tool to check the python code against the design conventions of PEP8 python. `Pylint` could be a python linter that checks the source code and conjointly acts as a bug and quality checker. it's it has verification checks and choices than simply PEP8.
   
 </details>
 
 ---
 
-12.What are the lint errors?
+12.What are the `lint` errors?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer </b></summary>
 
-> Lint or a linter, may be a static code analysis tool wont to flag programming errors, bugs, rhetorical errors and suspicious constructs. The term originates from a UNIX utility that examined C language source code.
+> `Lint` or a linter, may be a static code analysis tool wont to flag programming errors, bugs, rhetorical errors and suspicious constructs. The term originates from a UNIX utility that examined C language source code.
 
 </details>
 
