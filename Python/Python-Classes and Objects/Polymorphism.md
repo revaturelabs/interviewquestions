@@ -2,6 +2,9 @@
 
 
 1. Explain polymorphism in Python? What are its type?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Polymorphism in python states that we can use the same function with same signature in both parent and child class. It allows the object to have multiple forms. Unlike other programming languages, python does not support compile time polymorphism, that is method overloading. If there are two functions with same name in a class, the last function specified will override the earlier one. It only supports the run time polymorphism, that is, method overriding.    
@@ -58,6 +61,9 @@ print(add(2,4,6))   # output: 12
 
 ---
 3. What do you mean by method overriding?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Method overriding comes under runtime polymorphism and has the abilty by which a parent or base class functions can be redefined again in child or derived class. The method present in both parent and child should be same with same number of arguments.  
@@ -70,6 +76,9 @@ a) Ability to hide the complexity of code.
 b) Ability to inherit properties from base to subclass.  
 c) Ability to restrict the access of data members from one class to another.   
 d) Ability to override the functionality of parent class in child class.   
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option d)
@@ -112,6 +121,9 @@ b) It has 4 wheels
 c) It has 4 wheels    
 &emsp;It can have 2 or more wheels     
 d) None of the above     
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > option is b) 
@@ -178,6 +190,9 @@ b) It is a part of Vehicle class
 c) It is a part of Vehicle class  
 &emsp;It has 4 wheels  
 d) Error    
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option c) 
@@ -301,6 +316,9 @@ a) Private method in a parent class can be overridden in a child class.
 b) Public method in a parent class can be overridden in a child class.  
 c) Method Overriding is not possible in python.  
 d) Any method of parent class can be overridden in a child class.  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option b)
@@ -394,7 +412,7 @@ d) Error
 </details>
 
 ---
-16. Rohan is trying the polymorphism concept in his code for the first time, he remembered something about method overriding and is able to create one method, as Parent class "Animal", named as "leg()" and has given the implementation of leg() method. He also created one more class named as "Human" which inherited the Base class Animal. But he forgets what to write in Human class to complete the concept of method overriding and how to create an object of that class. Help Rohan in solving his problem, and you have to create a leg() method in Human class which prints "Humans have legs" and create an object for the Human class to call leg() method. Given below has some code written, and write your logic in the spaces provided. 
+16. Jack is trying the polymorphism concept in his code for the first time, he remembered something about method overriding and is able to create one method, as Parent class "Animal", named as "leg()" and has given the implementation of leg() method. He also created one more class named as "Human" which inherited the Base class Animal. But he forgets what to write in Human class to complete the concept of method overriding and how to create an object of that class. Help Jack in solving his problem, and you have to create a leg() method in Human class which prints "Humans have legs" and create an object for the Human class to call leg() method. Given below has some code written, and write your logic in the spaces provided. 
 ```python3
 class Animal:
     
@@ -480,6 +498,9 @@ a) It allows to use the same code again and again.
 b) Programs that uses the polymorphism concepts takes less space in memory.   
 c) We can hide the complexity through polymorphism.  
 d) It allows the methods to have different implementation according to the class.   
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option d)
@@ -496,6 +517,9 @@ a) +
 b) +=  
 c) -  
 d) -=  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option a)
@@ -508,6 +532,9 @@ a) ||
 b) |  
 c) //  
 d) /  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option b)
