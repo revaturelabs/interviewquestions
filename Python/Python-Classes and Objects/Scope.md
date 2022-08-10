@@ -2,6 +2,9 @@
 
 
 1. What do you mean by global scope in python?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > The object name that is defined in a main program or in a module comes under global scope. They could be used outside any function or block of code. It can access the built-in namespace objects. 
@@ -9,6 +12,9 @@
 
 ---
 2. What do you mean by local scope in python?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > The variable names defined in a class, function, loop or in any block of code comes under local scope. In python, these variables cannot be accessed by outer Namespace. Local namespace can access the global namespace objects and built-in namespace. 
@@ -36,6 +42,9 @@ c) 40
 &emsp;20  
 d) 40    
 &emsp;40   
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > option is d) 
@@ -67,6 +76,9 @@ c) 40
 &emsp;20   
 d) 40    
 &emsp;10   
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option a)
@@ -98,6 +110,9 @@ c) 40
 &emsp;20   
 d) 40    
 &emsp;10   
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option c)
@@ -125,6 +140,9 @@ a) 40
 b) 10  
 c) 20  
 d) 5  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option b)
@@ -151,6 +169,9 @@ a) 40
 b) 10  
 c) Error  
 d) Nothing is printed  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option c)
@@ -165,6 +186,9 @@ d) Nothing is printed
 
 a) True  
 b) False  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option b)
@@ -181,6 +205,9 @@ a) It will result in Error
 b) The local variable is shadowed   
 c) The global variable is shadowed  
 d) None of the above  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option c)
