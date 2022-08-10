@@ -70,7 +70,12 @@ public class CustomException1
  ```java
 Exception occured:InvalidAgeException:An individual age is not eligible to vote
  ```
- 
+
+<details><summary><b> Explanation</b></summary>
+  
+>constructor of InvalidAgeException takes a string as an argument. This string is passed to constructor of parent class Exception using the super() method. Also the constructor of Exception class can be called without using a parameter and calling super() method is not mandatory.
+  
+</details
 </details>
 
 ---
@@ -114,7 +119,18 @@ Normal exit
 Called compute(101)
 Caught MyException[101]
 ```
- 
+
+<details><summary><b> Explanation</b></summary>
+  
+>A subclass of Exception called CustomException is defined. This subclass
+is quite simple: it has only a constructor plus an overloaded `toString( )` method that
+displays the value of the exception. The CustomDemo class defines a method
+named `validate( )` that throws a CustomException object. The exception is thrown when
+`validate( )` integer parameter is greater than 100. The `main( )` method sets up an
+exception handler for CustomException, then calls `validate( )`  with a legal value (less
+than 100) and an illegal one to show both paths through the code.
+  
+</details>
 </details>
 
 ---
