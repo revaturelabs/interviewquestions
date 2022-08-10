@@ -2,6 +2,9 @@
 
 1. What is Assertions?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
 <details><summary> Show Answer </summary>
 
 >- It is to compare the actual result and excepcted result to evaluate whether the executed testcase is 
@@ -17,6 +20,9 @@
 --- 
 
 2. List all the default assert methods in JUnit.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 
 <details><summary> Show Answer </summary>
 
