@@ -408,7 +408,7 @@ interface Arithmetic {
 </blockquote>	
 <details><summary><b>Explanation</b></summary>	
 <blockquote>	
- that Arithmetic is not a functional interface, since it has 2 abstract methods.
+ The Arithmetic interface is not a functional interface, since it has 2 abstract methods.
 </blockquote>
 	</details>
 </details>
