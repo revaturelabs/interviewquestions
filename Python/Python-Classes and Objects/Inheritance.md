@@ -303,6 +303,9 @@ a) Company.__init__(self)
 b) Company.__init__(Department)  
 c) Department.__init__(self)  
 d) Department.__init__(Company)  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option a)
@@ -386,6 +389,9 @@ b) Training Department
 &emsp;Revature Company   
 c) Error  
 d) Nothing is printed  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option c) 
@@ -419,6 +425,9 @@ c) Training Department
 &emsp;Revature Company   
 d) Training Department   
 &emsp;Training Department  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option b)
@@ -448,6 +457,9 @@ a) James
 b) Jack  
 c) Error, no use of obj1 object   
 d) Error, accessing private class member in subclass can't possible   
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option d)
@@ -492,6 +504,7 @@ d) Error, accessing private class member in subclass can't possible
 ---
 20. What super() do in python? give example.
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -553,6 +566,9 @@ a) 4
 b) 6  
 c) 4 6  
 d) Error, no attribute named "a" present in Test2 class.  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > c) 4 6 
@@ -580,6 +596,8 @@ a) 4
 b) 6  
 c) 4 6  
 d) Error, no attribute named "a" present in Test2 class.  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -623,6 +641,9 @@ a) Multiple Inheritance
 b) Hybrid Inheritance  
 c) Multilevel Inheritance  
 d) Single Inheritance  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option b)
@@ -646,6 +667,8 @@ class C(A,B):
 obj =C()
 obj.show()
 ```
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > TypeError: Cannot create a consistent method resolution order (MRO) for bases A, B. 
@@ -680,6 +703,9 @@ a) Multilevel Inheritance
 b) Multiple Inheritance  
 c) Hierarchical Inheritance  
 d) Hybrid Inheritance   
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option c)
@@ -696,6 +722,9 @@ a) Multilevel Inheritance
 b) Multiple Inheritance  
 c) Hierarchical Inheritance  
 d) Hybrid Inheritance   
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option b) Multiple Inheritance. 
@@ -712,6 +741,9 @@ a) Multilevel Inheritance
 b) Multiple Inheritance  
 c) Hierarchical Inheritance  
 d) Hybrid Inheritance   
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option a)
@@ -740,6 +772,9 @@ a) 1 2
 b) 1 4  
 c) 1 Error  
 d) Nothing is printed  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option b)
@@ -768,6 +803,9 @@ a) 1 2
 b) 1 4  
 c) Error  
 d) None of the above.  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option c)
@@ -798,6 +836,9 @@ a) This sample will run first
 b) This sample will run second  
 c) Error, because object is not created.  
 d) None of the above  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option b)
