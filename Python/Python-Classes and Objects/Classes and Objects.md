@@ -4,16 +4,16 @@
 1. What do you understand by Object-Oriented Programming? What are its main features?
 <details><summary> <b>Show Answer</b> </summary> 
    
-- Object-Oriented Programming refers to the programming style related with classes and objects. Here the object is a real world entity and a class is a blueprint to that object. For example, we can consider a 'car' as a class and maruti suzuki or honda as an object. 
-
-- Python is a OOP language, so it supports all OOPs concepts such as Polymorphism, Inheritance, Encapsulation and Abstraction. Polymorphism in python defines method in child class have same name as method in parent class. Inheritance means the child class can inherits the properties from its parent class. Encapsulation is wrapping up of data and member functions together in same unit. And finally abstraction means hiding the irrelevent data from user showing only the important part or functionality. 
+> Object-Oriented Programming refers to the programming style related with classes and objects. Here the object is a real world entity and a class is a blueprint to that object. For example, we can consider a 'car' as a class and maruti suzuki or honda as an object.   
+  
+> Python is a OOP language, so it supports all OOPs concepts such as Polymorphism, Inheritance, Encapsulation and Abstraction. Polymorphism in python defines method in child class have same name as method in parent class. Inheritance means the child class can inherits the properties from its parent class. Encapsulation is wrapping up of data and member functions together in same unit. And finally abstraction means hiding the irrelevent data from user showing only the important part or functionality. 
 </details>
 
 ---
 2. Why OOPs concepts important in programming?
 <details><summary> <b>Show Answer</b> </summary>
   
-There are many reasons why one should go for programming languages that supports OOPs concepts like Python. Some of the reasons are: 
+> There are many reasons why one should go for programming languages that supports OOPs concepts like Python. Some of the reasons are: 
 - Problems can be divided into different parts making it simple to solve. 
 - Code reusibility increases thereby reducing redundancy.
 - Functions implementations will be hidden by user, making it more simpler to understand. For example, we can directly use the append() method of a list to add an item without knowing how append() method works internally. 
