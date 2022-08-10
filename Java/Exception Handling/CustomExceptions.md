@@ -1,8 +1,10 @@
+## Custom Exceptions
+
 1:What is use of Custom Exceptions?
 
 <details><summary><b> Show Answer</b></summary>
 <details><summary><b> Explanation</b></summary>
- > - When we create our own exceptions that are derived classes of the `Exception` class is known as custom exception or user-defined exception. 
+> - When we create our own exceptions that are derived classes of the `Exception` class is known as custom exception or user-defined exception. 
 > - Custom exceptions are used to customize the exception according to the user needs.
   
 </details>
