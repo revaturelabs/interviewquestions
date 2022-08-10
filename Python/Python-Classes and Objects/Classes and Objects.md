@@ -112,10 +112,10 @@ obj.show()
 </details>
 
 ---
-7. State True and False: "self is a keyword in python".
+7. State True and False: "self is a keyword in python".  
 
-- a) True
-- b) False
+a) True  
+b) False  
 <details><summary> <b>Show Answer</b> </summary>
   
 > option b) False.
