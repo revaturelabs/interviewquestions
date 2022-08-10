@@ -1,4 +1,4 @@
-1:Which block has to be followed after the try block.
+1.Which block has to be followed after the try block?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
