@@ -44,6 +44,9 @@ c.sound()  # output: Zoom-Zoom...!!
 
 ---
 3. What is an abstract base class in python?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Abstract base class provides a way to declare methods without implementation, and these methods must be implemented by derived classes. It has an advantage of hiding unrelevant or complex implementation from user. We cannot create object for abstract base class in python. 
@@ -56,6 +59,8 @@ a) Abstract classes can be instantiated.
 b) Abstract classes can have only abstract methods.    
 c) We can create abstract class using abstract keyword.    
 d) Abstract classes can have both abstract methods and non-abstract methods.    
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -101,6 +106,7 @@ b) 60 km away from NY
 c) Error  
 d) Nothing is printed   
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -135,6 +141,9 @@ a) Reached NY
 b) 60 km away from NY  
 c) Error  
 d) Nothing is printed   
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option a)
@@ -259,6 +268,9 @@ a) ast
 b) abc  
 c) re  
 d) sys   
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option b) abc. 
