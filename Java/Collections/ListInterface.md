@@ -1,14 +1,19 @@
 ## Technical
 
-1. What is the list?
+> How we cna store collections of elements
+> Which allows to store collections of elements without size restruction
+> Which alllows to store collection of elements with duplicates
+> 
+
+
+1. What is list?
 
 <details>
 
 <summary><b>Show Answer</b></summary>
 
 > - A list is an ordered collection of elements. 
-> - Duplicate elements are allowed in the list.
-
+> - Duplicate elements are allowed in the list. 
 ``` java 
 List <E> l ;
 ```
