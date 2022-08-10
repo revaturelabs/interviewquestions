@@ -1,5 +1,5 @@
 ## Technical
-1: What is the use of `@FunctionalInterface` annotation?
+1. What is the use of `@FunctionalInterface` annotation?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -25,7 +25,7 @@ If an interface annotated with <code>@FunctionalInterface</code>, Java complier 
 </blockquote>
 <details><summary><b>Explanation</b></summary>
 <blockquote>	
-- Not necessarily because the compiler will consider it as a functional interface when it has only one abstract method. 
+	Not necessarily because the compiler will consider it as a functional interface when it has only one abstract method. 
 </blockquote>			
 </details>
 </details>
@@ -43,7 +43,7 @@ If an interface annotated with <code>@FunctionalInterface</code>, Java complier 
 <details><summary><b>Explanation</b></summary>
 <blockquote>
 We can have any number of default and static methods but can contain only one abstract method.
-	</blockquote>
+</blockquote>
  </details>
 </details>
 
