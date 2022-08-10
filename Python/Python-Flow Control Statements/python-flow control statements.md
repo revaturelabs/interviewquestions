@@ -71,7 +71,7 @@ b) False
 </details>
 
 ---
-6. What will be the output of below code?  
+6. What is the output of below code?  
 ```python3
 age = 16
 if age >=18
