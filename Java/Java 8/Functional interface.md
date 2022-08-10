@@ -312,11 +312,9 @@ Consumer<Integer> consumer = (value) -> System.out.println(value);
 <blockquote>
 
 ``` java
-	
 public interface Predicate<T> {
     boolean test(T t);
 }
-	
 ```
 </blockquote>
 	
@@ -324,7 +322,7 @@ public interface Predicate<T> {
 <details><summary><b>Explanation</b></summary>
 <blockquote>
 	
-- a function that accepts an argument and returns a boolean value as an answer
+	A function that accepts an argument and returns a boolean value as an answer
 
 </blockquote>
 
@@ -344,7 +342,6 @@ public interface Predicate<T> {
 <blockquote>
 
 ``` java
-	
 @FunctionalInterface
 public interface Supplier<T>{
     //returns the specific result 
