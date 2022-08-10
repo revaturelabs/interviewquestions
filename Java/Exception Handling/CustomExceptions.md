@@ -1,8 +1,5 @@
 1:What are Custom Exceptions?
 <details><summary><b> Show Answer</b></summary>
- 
-Custom Exceptions
-
 <details><summary><b> Explanation</b></summary>
  
 When we create our own exceptions that are derived classes of the Exception class is known as custom exception or user-defined exception.Custom exceptions are used to customize the exception according to the user needs.
@@ -14,11 +11,7 @@ When we create our own exceptions that are derived classes of the Exception clas
 
 2:Why we use custom exceptions?
 <details><summary><b> Show Answer</b></summary>
- 
-Custom Exceptions
- 
-
-<details><summary><b> Explanation</b></summary>
+ <details><summary><b> Explanation</b></summary>
  
 Custom Exception are used to catch and provide specific treatment to a subset of existing java exceptions.We also have exceptions related to business logic and workflow. It is useful for the application users or the developers to understand the exact problem.In order to create custom exception, we need to extend Exception class that belongs to <code>java.lang </code> package.
 
