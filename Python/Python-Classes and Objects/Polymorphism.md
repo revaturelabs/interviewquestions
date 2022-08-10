@@ -31,6 +31,9 @@ obj1.flight()   # it overrides the flight method of Bird class function.  #outpu
 
 ---
 2. Does python support method overloading and method overriding?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Python doesn't support method overloading but it supports method overriding. That is, we can define the same function in child and parent class with same signature and child's function overrides the parent class function. But when we define multiple functions with same name with different signatures and trying to call both with different number of argument passing, it executes the later one but gives error for trying to call the other functions as in namespace there will always be a single entry against each function name. let's see this with an example.   
@@ -93,6 +96,9 @@ d) Ability to override the functionality of parent class in child class.
 
 a) True    
 b) False    
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option b)
@@ -157,6 +163,9 @@ b) It is a part of Vehicle class
 c) It is a part of Vehicle class  
 &emsp;It has 4 wheels  
 d) Error   
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option d)
@@ -225,6 +234,9 @@ a) 11
 b) 21  
 c) 30   
 d) 31   
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option b)
@@ -257,6 +269,9 @@ a) 11
 b) 21  
 c) 20   
 d) Error  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option d) 
@@ -300,6 +315,8 @@ a) 11 11 11
 b) 11 12 11    
 c) 11 12 13     
 d) Error    
+
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option c)
@@ -346,6 +363,9 @@ a) 20
 b) 10  
 c) 200  
 d) Error  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option d)
@@ -373,6 +393,9 @@ a) 20
 b) 400  
 c) 200  
 d) Error  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option b)
@@ -402,6 +425,9 @@ a) 10
 b) 30  
 c) 200  
 d) Error  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option d)
@@ -412,7 +438,7 @@ d) Error
 </details>
 
 ---
-16. Jack is trying the polymorphism concept in his code for the first time, he remembered something about method overriding and is able to create one method, as Parent class "Animal", named as "leg()" and has given the implementation of leg() method. He also created one more class named as "Human" which inherited the Base class Animal. But he forgets what to write in Human class to complete the concept of method overriding and how to create an object of that class. Help Jack in solving his problem, and you have to create a leg() method in Human class which prints "Humans have legs" and create an object for the Human class to call leg() method. Given below has some code written, and write your logic in the spaces provided. 
+16. Jack is trying the polymorphism concept in his code for the first time, he remembered something about method overriding and is able to create one method, in Parent class `Animal`, named as "leg()" and has given the implementation of leg() method. He also created one more class named as `Human` which inherited the Base class Animal. But he forgets what to write in Human class to complete the concept of method overriding and how to create an object of that class. Help Jack in solving his problem, and you have to create a leg() method in Human class which prints "Humans have legs" and create an object for the Human class to call leg() method. Given below has some code written, and write your logic in the spaces provided. 
 ```python3
 class Animal:
     
@@ -422,6 +448,9 @@ class Animal:
 class Human(Animal):
 ___________________
 `````
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 ```python3
@@ -460,6 +489,9 @@ print(obj.add(10, 20, 30))    # output: 60
 
 ---
 18. Show the polymorphism concept by using '+' operator inside a class. 
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > In python '+' operator is not only used to add values together but, it can also be used to concatenate two or more string values. Let's understand this better through a code.
@@ -479,7 +511,10 @@ print(obj.add("Akshay"," Bhadauria"))
 </details>
 
 ---
-19. Can len() function be used in polymorphism in python?
+19. Can len() function be used in polymorphism in python? 
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > In python, len() is used to find the length of different datatypes like string, list, tuple, etc. The below code will show how we can use len() function with different types of data.
