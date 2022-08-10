@@ -27,9 +27,9 @@ Here are some of the most important phases in the default build lifecycle:
 
 <details><summary><b> Show Answer</b></summary>
 
->- clean
->- default(or build)
->- site
+>- Clean
+>- Sefault(or build)
+>- Site
 
 </details>
 
