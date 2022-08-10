@@ -291,10 +291,10 @@ d. ad.DD(e): to get an element from the front end
 <blockquote>
 
 
-AA is offerFirst() or addFirst().
-BB is pollLast() or removeLast().
-CC is offer() or add().
-DD is poll() or remove().
+- AA is offerFirst() or addFirst().
+- BB is pollLast() or removeLast().
+- CC is offer() or add().
+- DD is poll() or remove().
 
 </blockquote>
 
