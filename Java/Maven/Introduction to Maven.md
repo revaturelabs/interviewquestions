@@ -77,15 +77,18 @@
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
+ 
+ <blockquote>
 
->- We can create a simple project in Maven using <code> archetype:generate </code> in command promt using Maven.
->- Syntax to generate a project architecture
-
+ We can create a simple project in Maven using <code> archetype:generate </code> in command promt using Maven.
+ Syntax to generate a project architecture
 <code>
 
->mvn archetype:generate -DgroupId=groupid -DartifactId=artifactid -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=booleanValue
+mvn archetype:generate -DgroupId=groupid -DartifactId=artifactid -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=booleanValue
 
 </code>
+  
+  </blockquote>
 
 </details>
 
