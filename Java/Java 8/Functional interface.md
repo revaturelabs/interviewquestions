@@ -68,7 +68,7 @@ We can have any number of default and static methods but can contain only one ab
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
  <details><summary><b>Show Answer</b></summary>
-	</blockquote>
+	<	blockquote>
 	Yes
 	</blockquote>
 	<details><summary><b>Explanation</b></summary>
