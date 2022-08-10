@@ -81,7 +81,7 @@ For Example:  first_name, _rollNo, id_1, etc.
 ---
 5.Which of the following statement is false regarding Identifiers?
 
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 a) Variable name can have lower and upper case letters.
 
@@ -165,7 +165,7 @@ d) none of the above
 ---
 9.How do you differentiate between Interpreter and Compiler?
 
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
  
@@ -181,7 +181,7 @@ d) none of the above
 
 10.Is Python an Interpreted or Compiled language?
 
-![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -192,7 +192,7 @@ d) none of the above
 
 11.Is "true" an Identifier or a Keyword?
 
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 a) Keyword
 
@@ -216,7 +216,7 @@ d) None of the above.
 ---
 12.State whether the identifiers mentioned in the below list are valid. [Last_Name, student@id, 4_id, var, for]. 
 
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -259,7 +259,7 @@ d) 9/2
 ---
 14.What is the output of the following code?
 
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg) 
 
 ```python
 i = 4
@@ -287,7 +287,7 @@ d) 5
 
 <details><summary> <b>Explanation</b> </summary>
   
->'++' and '--' symbols are not present in python. To incremenet or decrement a value, we can use assignment operators like += and -= respectively.
+>'++' and '--' symbols are not present in python. To increment or decrement a value, we can use assignment operators like += and -= respectively.
   
 </details>
 </details>
@@ -296,7 +296,7 @@ d) 5
 
 15.Define Namespace and explain the types of namespaces in python. 
 
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -325,7 +325,7 @@ output: rohit
 
 16.What are Operators in Python & what are its types? 
 
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
  
@@ -345,7 +345,7 @@ output: rohit
   
 17.What is the difference between "is" and "==" in python?
   
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -406,7 +406,7 @@ option a) =
 ---
 20.Which is/are not membership operators?
   
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 a) in 
   
@@ -431,7 +431,7 @@ d) is not
   
 21.What is the difference between 'and' and 'or' operators?
   
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
  
@@ -442,7 +442,7 @@ d) is not
   
 22.Predict the output for the following code.
   
-![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 ```python
 a = 9
@@ -569,7 +569,7 @@ b) False
   
 27.What is a Ternary operator in Python? Give Example.
   
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -590,7 +590,7 @@ print(maximum)  # it returns 8 as output.
   
 28.Predict the output of the following code.
   
-![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 ```python
 value =  10//2**3*3+4/2
@@ -619,7 +619,7 @@ d) 2
   
 29.Odd one out: Which of the following statement is incorrect?
   
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 a) '+' is an arithmetic operator.
   
@@ -669,7 +669,7 @@ d) not
   
 31.Select the correct expression to reassign a global variable “y” to 30 inside a function reassign(). 
   
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 ```python
 y = 50
@@ -729,7 +729,7 @@ d) number
   
 33.What is the output of the following code?
   
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 ```python
 x = 50
@@ -764,7 +764,7 @@ option is b)
   
 34.What will be the output of following code?
   
-![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 ```python
 x = 75
@@ -851,7 +851,7 @@ d) str
   
 37.Which is a datatype in python?
   
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
  a) number
   
@@ -876,7 +876,7 @@ d) str
   
 38.Which of the following is not a correct way of making string in python?
   
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg) 
   
 a) str1 = "hi"
   
@@ -901,7 +901,7 @@ d) str1 = '"hi"
   
 39.predict the output of following code. 
   
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 ```python
 def func1():
@@ -933,7 +933,7 @@ print(x)
   
 40.Which of the following is not a built-in function in python?
   
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
   
  a) sum()
   
@@ -983,8 +983,8 @@ print(x)
   
 42.Which of the following is/are a built-in function in python?
   
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
-  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
  a) add()
   
  b) avg()
@@ -1008,7 +1008,7 @@ print(x)
   
 43.What is the output of following code?
   
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 ```python
 a = [1, 2]
@@ -1044,7 +1044,7 @@ print(b)
   
 44.Predict the output of below code.
   
-![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 ```python
 x = 4
@@ -1103,7 +1103,7 @@ print(-22//4)
 
 46. What are the Bitwise operators present in python?
 
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -1121,7 +1121,7 @@ In python, there are 6 Bitwise operators:
 
 47.What is the use of left shift and right shift operators?
 
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -1140,7 +1140,7 @@ x >> 1 = 0010 = 2  # Here it shifts the bit by 1 on the right side.
 
 48.What is the output of below code?
 
-![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 ```python
 a = 5
@@ -1176,7 +1176,7 @@ option is b)
 
 49.Predict the output of the following code.
 
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 ```python
 str1 = 'and'
@@ -1207,7 +1207,7 @@ print(str1 and str2)
 
 50.Predict the output of the following code.
 
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 ```python
 str1 = 'and'
@@ -1259,7 +1259,7 @@ print(str1 or str2)
 
 52.Predict the output.
 
-![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 ```python
 x = 20//4**2-10*2/ 3
@@ -1289,7 +1289,7 @@ print(x)
 
 53.What is the output of below mentioned code?
 
-![Complex](https://github.com/krishnagopika/githubpages/blob/main/hard.jpg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 ```python
 x = 6
@@ -1320,7 +1320,7 @@ print(y ^ x)
 
 54.Choose the correct option, for the below code, that will not lead to any error.
 
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 ```python
 a, b = 1   # line 1
@@ -1380,7 +1380,7 @@ print(3%6)
 
 56.Which of the following operators has the highest precedence?
 
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
  a) *
  
@@ -1405,7 +1405,7 @@ print(3%6)
 
 57.State True or False: "Bitwise shift operators (<<, >>) has lower precedence than Bitwise And(&) operator".
 
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
  a) True
  
@@ -1421,7 +1421,7 @@ print(3%6)
 
 58.What is the output of the following code?
 
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg) 
 
 ```python
 b = 8
@@ -1452,7 +1452,7 @@ print(a)
 
 59.Which of the following statement is not a correct representation of comments in python?
 
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
  a) # this is a sample.
  
@@ -1477,7 +1477,7 @@ print(a)
 
 60. Which of the following code will not lead to SyntaxError in python?
 
-![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg) 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
  a) 
  ```python
