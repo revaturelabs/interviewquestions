@@ -319,9 +319,10 @@ public interface Predicate<T> {
 	
 	
 <details><summary><b>Explanation</b></summary>
+	
 <blockquote>
 	
-	A function that accepts an argument and returns a boolean value as an answer
+A function that accepts an argument and returns a boolean value as an answer
 
 </blockquote>
 
