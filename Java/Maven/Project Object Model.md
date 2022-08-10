@@ -141,7 +141,7 @@ By running the command ` mvn help:effective-pom ` we can view the default config
  
 <blockquote>
 
-- pom.xml file resides in `projects root-folder`.
+pom.xml file resides in `projects root-folder`.
   
  
 </blockquote>
