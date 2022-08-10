@@ -126,13 +126,12 @@ It is to refer the method of functional interface. While using a lambda expressi
 
 <details><summary><b> Show Answer </b></summary>
 
-
  ``` java 
  list.forEach(System.out::println);  
  ``` 
 <details><summary><b>Explanation</b></summary>
   <blockquote>
-- Here we are using the forEach method to display the elements one by one in the list.
+   Here we are using the `forEach` method to display the elements one by one in the list.
  </blockquote>
 </details>
  
@@ -166,9 +165,9 @@ public class MethodReference{
  
  <blockquote>
   
-   Data Structures and Alogrithms<br>
-   Java Programming<br>
-   Python Programming
+   - Data Structures and Alogrithms<br>
+   - Java Programming<br>
+   - Python Programming
   
   </blockquote>
  
@@ -217,7 +216,7 @@ public class MethodReference {
   
    <blockquote>
     
- - Here the static method reference printhello() refers to its functional method print() in the interface Sample.
+  Here the static method reference printhello() refers to its functional method print() in the interface Sample.
     
  </blockquote>
   
