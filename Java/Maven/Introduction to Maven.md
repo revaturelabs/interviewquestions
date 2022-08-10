@@ -36,15 +36,15 @@
 
 <details> <summary> <b> Explanation </b> </summary>
 
->- We need compatible version of jdk to execute maven. jdk should be installed & JAVA_HOME environment variable should be set properly. 
->- We need Java to execute maven. Java should be installed to set <code> JAVA_HOME environment varaiable </code> to point to a valid Java SDK(Like Java 8)
+>- We need compatible version of jdk to execute Maven. jdk should be installed & JAVA_HOME environment variable should be set properly. 
+>- We need Java to execute Maven. Java should be installed to set <code> JAVA_HOME environment varaiable </code> to point to a valid Java SDK(Like Java 8)
 
 </details>
 
 </details>
 
 ---
-4. Which is the most fundamental unit of maven system?
+4. Which is the most fundamental unit of Maven system?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -78,7 +78,7 @@
 
 <details> <summary> <b> Show Answer </b> </summary>
 
->- We can create a simple project in maven using <code> archetype:generate </code> in command promt using maven.
+>- We can create a simple project in Maven using <code> archetype:generate </code> in command promt using Maven.
 >- Syntax to generate a project architecture
 
 <code>
@@ -91,7 +91,7 @@
 
 ---
 
-7. How to compile the maven project?
+7. How to compile the Maven project?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -103,7 +103,7 @@
 
 ---
 
-8. How to run the maven project?
+8. How to run the Maven project?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -139,13 +139,13 @@
 
 <details> <summary> <b> Show Answer </b> </summary>
 
->- Jar file will be created inside the project/target directory, When you execute the command <code> mvn package </code> in the command prompt to package the maven project.
+>- Jar file will be created inside the project/target directory, When you execute the command <code> mvn package </code> in the command prompt to package the Maven project.
 
 </details>
 
 ---  
 
-11. List some scenarios where the maven should be used in the project.
+11. List some scenarios where the Maven should be used in the project.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
