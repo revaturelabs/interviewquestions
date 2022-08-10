@@ -7,7 +7,7 @@
 
 <details><summary> <b>Show Answer</b> </summary> 
   
-> Iterator allows to iterate or traverse through all the values of collection in python. It has two methods, __iter__() and __next__(). iter() method is similar to init() method, as it is used to initialize the objects but, it returns an iterator. next() method is used to get the next element of the iteration.   
+> Iterator allows to iterate or traverse through all the values of collection in python. It has two methods, `__iter__()` and `__next__()`. `iter()` method is similar to `init()` method, as it is used to initialize the objects but, it returns an iterator. `next()` method is used to get the next element of the iteration.   
 
 For example:
 ```python3
@@ -37,7 +37,7 @@ for i in m:
 
 <details><summary> <b>Show Answer</b> </summary> 
   
-> To create a custom iterator in python, we can use __iter__() and __next__() method inside a class.
+> To create a custom iterator in python, we can use `__iter__()` and `__next__()` method inside a class.
 
 ```python3
 class Numbers:
@@ -68,7 +68,7 @@ for x in itr:
   
 <details><summary> <b>Show Answer</b> </summary> 
   
-> In python, it is raised by next() method when there is no element to be present for iteration. 
+> In python, it is raised by `next()` method when there is no element to be present for iteration. 
   </details>
 
 ---
@@ -120,7 +120,7 @@ d) Nothing is printed
 > Option d)
 <details><summary> <b>Explanation</b> </summary> 
   
-> As the current value of a is more than 5, it will raise StopIteration exception and prints nothing in output screen.
+> As the current value of a is more than 5, it will raise `StopIteration` exception and prints nothing in output screen.
   </details>
 </details>
   
@@ -158,12 +158,12 @@ d) Nothing is printed
 > Option a)
 <details><summary> <b>Explanation</b> </summary> 
   
-> The initial value of a is 3 and it will increment by 1 until it reaches 5 in __next__() method. Therefore, we will get 3, 4 and 5 as an output.  
+> The initial value of a is 3 and it will increment by 1 until it reaches 5 in `__next__()` method. Therefore, we will get 3, 4 and 5 as an output.  
   </details>
 </details>
 
 ---
-7. What is the use of iter() method in python?
+7. What is the use of `iter()` method in python?
 
 a) It is used to initialize an object.  
 b) It is used to throw an error.  
@@ -182,7 +182,7 @@ d) None of the above.
 </details>
 
 ---
-8. What is the use of next() in python?
+8. What is the use of `next()` in python?
 
 a) It is used to initialize an object.  
 b) It is used to give next element from the iteration through iterator.  
