@@ -114,7 +114,7 @@
 	
 <blockquote> 
 
-- We can change the location of maven local repository by changing the settings.xml file.
+We can change the location of maven local repository by changing the settings.xml file.
 
 </details>
 
