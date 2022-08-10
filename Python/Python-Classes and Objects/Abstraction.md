@@ -190,7 +190,7 @@ d) Nothing is printed
 </details>
 
 ---
-9. What will be the output of the following code?
+9. What is the output of the following code?
 ```python3
 from abc import ABC, abstractmethod
 class Abstract(ABC):
@@ -225,7 +225,7 @@ d) Nothing is printed
 </details>
 
 ---
-10. What will be the output of the following?
+10. What is the output of the following?
 ```python3
 from abc import ABC, abstractmethod
 class Abstract(ABC):
