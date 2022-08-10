@@ -77,6 +77,9 @@ obj.show()   # output: rohit 23
 
 ---
 5. Does python support constructor overloading? If yes, then how?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Python doesn't support constructor overloading, means we can not create two constructor, within same class, with different arguments. But there is a way in python through which we can make a constructor that can work in different way when we pass different number of arguments at the time of object creation. We can pass number of default arguments to __init__() method to make it as constructor overloading. 
