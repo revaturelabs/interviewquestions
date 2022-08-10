@@ -150,7 +150,7 @@ d) Error
 > Option d)
 <details><summary> <b>Explanation</b> </summary> 
   
-> The above code will throw an AttributeError because Car class object is trying to call the method present inside Vehicle class which is not possible, as there is now relationship between Car and Vehicle class.
+> The above code will throw an AttributeError because Car class object is trying to call the method present inside Vehicle class which is not possible, as there is no relationship between Car and Vehicle class.
   </details>
 </details>
 
