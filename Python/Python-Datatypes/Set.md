@@ -2,26 +2,34 @@
 
 1.What is the difference between list and set?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
+<blockquote>
 	
-> List:[]
-   > - List is Mutable and ordered/indexed.
-   > - List allows duplicate values.
-   > - It can stroe any data type str,list,set,tuple,int and dictionary.
+ `List:[]`
+    - List is Mutable and ordered/indexed.
+    - List allows duplicate values.
+    - It can stroe any data type str,list,set,tuple,int and dictionary.
 	
-> Set:{}
-   > - Set is Mutable and unordered.
-   > - Set not allow duplicate values.
-   > - Inside of dictionary key can be int,str,and tuple only values can be of any data type int,str,list,tuple,set and dictionary.
+ `Set:{}`
+    - Set is Mutable and unordered.
+    - Set not allow duplicate values.
+    - Inside of dictionary key can be int,str,and tuple only values can be of any data type int,str,list,tuple,set and dictionary.
+		
+</blockquote>
 </details>
 
 ---
 
 2.How will you add list of items into a Set?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
+	<blockquote>
 	
-> In python we can use the update() method of a set, to add list of items into a set.
+- In python we can use the `update()` method of a set, to add list of items into a set.
 	
 **Example**:
 
@@ -36,7 +44,8 @@ print(sample_set)
 	
 > {'Green', 'Yellow', 'Red', 'Black', 'Orange', 'Blue'}
 	
-</details>	
+</blockquote>
+		</details>	
 
 ---
 
@@ -47,9 +56,11 @@ set1 = {10, 20, 30, 40, 50}
 set2 = {30, 40, 50, 60, 70}
 ```
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 	
-> For that we have Intersction() method of a set.
+> For that we have `Intersction()` method of a set.
 	
 ```python
 set1 = {10, 20, 30, 40, 50}
@@ -60,6 +71,7 @@ print(set1.intersection(set2))
 **Output**:
 	
 {40,50,60}
+	
 </details>
 
 ---
@@ -80,6 +92,8 @@ for i in set1:
 print(set3)
 ```
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 	
 > {(9, 5), (9, 6), (10, 6), (8, 5)}
@@ -92,9 +106,11 @@ print(set3)
 
 > set1 = {10, 20, 30, 40, 50}
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 	
-> In python we use difference_update() method of a set.
+> In python we use `difference_update()` method of a set.
 
 ```python	
 s1 = {10, 20, 30, 40, 50}
@@ -111,6 +127,8 @@ print(1)
 ---
 
 6.Write a program to Check if two sets have any elements in common. If yes, display the common elements.
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -136,46 +154,53 @@ else:
 
 7.What are the methods you frequently used when dealing with set in python?
 
-<details><summary> <b>Show Answer</b> </summary>
-	
-> - Set provides different kinds of built-in methods that anyone can use for Set manipulations. Some of these methods are mentioned below:
-	
-> i) add(): it is used to adds an element to the set
-	
-> ii) clear(): it removes all the elements from the set
-	
-> iii) copy(): it returns a copy of the set
-	
-> iv) difference(): it returns a set containing the difference between two or more sets
-	
-> v) difference_update(): it removes the items in this set that are also included in another, specified set
-	
-> vi) discard(): it remove the specified item
-	
-> vii)intersection(): it returns a set, that is the intersection of two other sets
-	
-> viii)issubset():it returns whether another set contains this set or not
-	
-> ix)issuperset():it returns whether this set contains another set or not
-	
-> x)pop():it removes an element from the set
-	
-> xi)remove(): it removes the specified element
-	
-> xii)union():it return a set containing the union of sets
-	
-> xiii)update(): Update the set with the union of this set and others
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
+<details><summary> <b>Show Answer</b> </summary>
+	<blockquote>
+	
+ - Set provides different kinds of built-in methods that anyone can use for Set manipulations. Some of these methods are mentioned below:
+	
+ i) `add()`: it is used to adds an element to the set
+	
+ ii) `clear()`: it removes all the elements from the set
+	
+ iii) `copy()`: it returns a copy of the set
+	
+ iv) `difference()`: it returns a set containing the difference between two or more sets
+	
+ v) `difference_update()`: it removes the items in this set that are also included in another, specified set
+	
+ vi) `discard()`: it remove the specified item
+	
+ vii)`intersection()`: it returns a set, that is the intersection of two other sets
+	
+ viii)`issubset()`:it returns whether another set contains this set or not
+	
+ ix)`issuperset()`:it returns whether this set contains another set or not
+	
+ x)`pop()`:it removes an element from the set
+	
+xi)`remove()`: it removes the specified element
+	
+xii)`union()`:it return a set containing the union of sets
+	
+xiii)`update()`: Update the set with the union of this set and others
+
+</blockquote>
 </details>
 
 ---
 	
-8.What is the difference between pop() and remove()?
+8.What is the difference between `pop()` and `remove()`?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
+	<blockquote>
 	
-> pop():
-  > - it is used to removes an element from the set.
+- `pop()`:
+   - it is used to removes an element from the set.
 	
 **Example**:
 	
@@ -189,8 +214,8 @@ print(x)
 	
 apple(it removes random element from set)
 	
-> remove():
-  > - it is used to removes the specified element.
+ `remove()`:
+   - it is used to removes the specified element.
 	
 **example**:
 	
@@ -203,16 +228,20 @@ print(fruits)
 **Output**:
 	
 {"apple","banana"}
-	
+		
+		</blockquote>
 </details>
 
 ---
 
 9.How to iterate over the set of elements?Write a code for that.
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
+	<blockquote>
 	
-> To iterate over set in python we can use any loop.
+- To iterate over set in python we can use any loop.
 	
 i)using for loop
 
@@ -230,15 +259,18 @@ c
 	
 a
 
-</details>
+</blockquote>
+		</details>
 
 ---
 	
-10.What is the use of copy() method? 
+10.What is the use of `copy()` method? 
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 	
-> The copy() method used to copies the set.
+> The `copy()` method used to copies the set.
 	
 **Example**:
 	
@@ -257,6 +289,8 @@ print(x)
 ---
 
 11.How will you zip 2 sets together?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 	
@@ -279,9 +313,11 @@ print(list(z))
 
 12.Can a set be accessed by index?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 	
-> No.Set can't be accessed by index,if your trying to access a set by index will throw an error.
+> `No`.Set can't be accessed by index,if your trying to access a set by index will throw an error.
 	
 **example**:
 
@@ -300,9 +336,11 @@ TypeError: 'set' object is not subscriptable
 
 13.Can you Update a set to equal the intersection of it and another set.
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 	
-> In python intersection_update() updates the first set to be equal to the intersection.
+> In python `intersection_update()` updates the first set to be equal to the intersection.
 	
 **Example**:
 	
@@ -317,7 +355,7 @@ print(s1)
 	
 > {4,5}
 
-> This can also be done with the &= operator.
+> This can also be done with the `&=` operator.
 
 ```python	
 s1 = {1,2,3,4,5}
@@ -336,9 +374,11 @@ print(s1)
 
 14.Can you remove the intersection of a 2nd set from the 1st set.
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 	
-> In python difference_update() removes the intersection from the first set.
+> In python `difference_update()` removes the intersection from the first set.
 	
 **Example**:
 	
@@ -370,11 +410,13 @@ print(s1)
 
 ---
 
-15.Write a Python program to create a shallow copy of sets.
+15.Write a Python program to create a `shallow copy` of sets.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 	
-> Note : Shallow copy is a bit-wise copy of an object. A new object is created that has an exact copy of the values in the original object.
+> Note : `Shallow copy` is a bit-wise copy of an object. A new object is created that has an exact copy of the values in the original object.
 
 ```python
 s1 = set(["Red", "Green"])
