@@ -2,6 +2,8 @@
 
 1.How would you create a file in python?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > - In python, we use `open()` built-in function to create a file.
@@ -19,6 +21,8 @@ open("myfile.txt","W+")
 
 2.What is the procedure to open the file in python?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > We can use the same code that we use to create a file.
@@ -32,6 +36,8 @@ open("myfile.txt","r") as fObj6.
 ---
 
 3.Write a python program to read an entire text file?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -49,6 +55,8 @@ file_read('test.txt')
 ---
 
 4.How many types of modes are available to open a file? Also, explain what are the uses of those modes?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -68,6 +76,8 @@ file_read('test.txt')
 
 5.Write a python program to read a file line-by-line into list?
 
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 ```python
@@ -85,6 +95,8 @@ with open("myFile.txt") as fObj:
 
 6.What are the file methods used to read the data from a file?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > There are three methods in python to read data from file,
@@ -101,6 +113,8 @@ with open("myFile.txt") as fObj:
 
 7.Name two types of data files in python.
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > In python, we have two types of data files,
@@ -114,6 +128,8 @@ with open("myFile.txt") as fObj:
 ---
 
 8.Write a python program to read all the lines from a file?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -149,6 +165,8 @@ Line4: world
 
 9.What is return type of open ()?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > open() method returns a bool value indicating whether the file is opened or some error has occurred. 
@@ -162,6 +180,8 @@ Line4: world
 ```python   
 f = open(r, "d:\Python\test.txt")
 ```
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -177,6 +197,8 @@ f = open(r, "d:\Python\test.txt")
 
 11.What is the difference between the read() and readlines() methods in python?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > - The read() method returns the file's entire contents as a single string value.
@@ -187,6 +209,8 @@ f = open(r, "d:\Python\test.txt")
 ---
 
 12.Is there any way to read file without opening? Which funtion used to open a file?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -205,6 +229,8 @@ f = open(r, "d:\Python\test.txt")
 
 **C**.File reading and writing are faster using the with statement.
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > Option A and B are the correct statements.
@@ -222,6 +248,8 @@ f = open(r, "d:\Python\test.txt")
 
 14.What are the 3 "mode" arguments that may be passed to the open() function?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > - 'r','w' and 'a' are the three mode arguments that can be passed to the open() function.
@@ -238,6 +266,8 @@ f = open(r, "d:\Python\test.txt")
 
 15.What type mode is used to Read a Binary file in python?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > In python, we can use **rb** mode in the *open()* function to read a binary file.
@@ -247,6 +277,8 @@ f = open(r, "d:\Python\test.txt")
 ---
 
 16.Write a python program to read the binary file?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -273,6 +305,8 @@ f.close()
 
 **D**.wb+
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > Option c .rw+
@@ -292,6 +326,8 @@ f.close()
 
 18.How to get the list of files from the directory ?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > **os.listdir()** - This method is used to get all the files from the particular directory.
@@ -302,6 +338,8 @@ f.close()
 
 19.How to check the given file is exists or not?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > Use the **os.path.isfile('file_path')** function to see whether a file exists. Pass the file name or file path to the current perform as associate degree argument. This returns True if a file is present in the given path. Otherwise, it returns False.
@@ -311,6 +349,8 @@ f.close()
 ---
 
 20.Write a python program to display only unique words from the file "sales.txt".
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
