@@ -43,7 +43,7 @@
 
 <blockquote> 
 
-- Maven stores all the project jar files or dependencies, by default the folder name is .m2. Which refers to developer mchine. All the materials related to project will be stored in this repository.
+- Maven stores all the project jar files or dependencies, by default the folder name is .m2. Which refers to developer machine. All the materials related to project will be stored in this repository.
 
 </blockquote> 
 	
