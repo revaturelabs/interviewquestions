@@ -390,9 +390,9 @@ d) Training Department
 18. Predict the output of the below mentioned code.
 ```python3
 class Company():
-    name = "nirosha"
+    name = "Jack"
     def __init__(self):
-        self.__name="akshay"
+        self.__name="James"
     
 class Department(Company):
     def show(self):
@@ -402,8 +402,8 @@ obj1 = Company()
 obj2 = Department()
 obj2.show()
 ```
-a) akshay  
-b) nirosha  
+a) James  
+b) Jack  
 c) Error, no use of obj1 object   
 d) Error, accessing private class member in subclass can't possible   
 <details><summary> <b>Show Answer</b> </summary>
@@ -419,9 +419,9 @@ d) Error, accessing private class member in subclass can't possible
 19. What will be the output of the following code?
 ```python3
 class Company():
-    _name = "nirosha"
+    _name = "Jack"
     def __init__(self):
-        self._name = "akshay"
+        self._name = "James"
     
 class Department(Company):
     def show(self):
@@ -431,8 +431,8 @@ obj1 = Company()
 obj2 = Department()
 obj2.show()
 ```
-a) akshay  
-b) nirosha  
+a) James  
+b) Jack  
 c) Error, no use of obj1 object   
 d) Error, accessing private class member in subclass can't possible   
 <details><summary> <b>Show Answer</b> </summary>
@@ -454,7 +454,7 @@ For example:
 ```
 class School():
     def __init__(self):
-        self.name = "akshay"
+        self.name = "Jack"
     
     def show(self):
         print(self.name)
@@ -464,7 +464,7 @@ class Student(School):
         super().show()        # use of super()
     
 obj2 = Student()
-obj2.show()             # output: akshay
+obj2.show()             # output: Jack
 ```
 </details>
 
