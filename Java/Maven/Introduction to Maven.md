@@ -1,5 +1,5 @@
 ## Technical 
-1.What is maven?
+1.What is Maven?
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -31,7 +31,7 @@ Yes
 <details> <summary> <b> Explanation </b> </summary>
 
 - We need compatible version of jdk to execute maven. jdk should be installed & JAVA_HOME environment variable should be set properly. 
--  We need Java to execute maven. Java should be installed to set <code> JAVA_HOME environment varaiable </code> to point to a valid Java SDK(Like Java 8)
+- We need Java to execute maven. Java should be installed to set <code> JAVA_HOME environment varaiable </code> to point to a valid Java SDK(Like Java 8)
 
 </details>
 
@@ -42,7 +42,7 @@ Yes
 
 <details> <summary> <b> Show Answer </b> </summary>
 
-- POM (Project Object Model)- which is an XML file having the details of project  structure and contents termed as pom.xml file.
+POM (Project Object Model)- which is an XML file having the details of project  structure and contents termed as pom.xml file.
 
 </details>
 
