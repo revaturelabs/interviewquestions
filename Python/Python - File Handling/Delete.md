@@ -5,9 +5,10 @@
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
+    <blockquote>
 
-> - Many a times you need to delete the file instead of closing it.
-> - If you try to delete the file which is not present, it will throw an Input Output error.
+ - Many a times you need to delete the file instead of closing it.
+ - If you try to delete the file which is not present, it will `throw` an Input Output error.
 
 ```python
 import os
@@ -16,6 +17,8 @@ os.remove("File.txt")
 ```
 
 > The remove objects and path are described in the os module and hence it is to be imported.
+        
+</blockquote>
 
 </details>
 
@@ -39,7 +42,7 @@ os.remove("File.txt")
 
 <details><summary><b>Show Answer</b></summary>
     
-> If we want to check whether the given file exists, we could use .exists("file_name")
+> If we want to check whether the given file exists, we could use `.exists("file_name")`
 
 ```python
 import os
@@ -58,6 +61,7 @@ else:
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
+    <blockquote>
 
 ```python
 open("myFile.txt", "r") as fObj
@@ -65,10 +69,10 @@ open("myFile.txt", "r") as fObj
 fObj.close()
 ```
 
-> - It is always a good practice to close the file after using it.
+ - It is always a good practice to close the file after using it.
 
 Or else,
-> - We can use "with" statement while opening the file. We don’t have to explicitly close the file object. As soon as the pointer goes out of the 'with' statement block, the file object is closed.
+ - We can use "with" statement while opening the file. We don’t have to explicitly close the file object. As soon as the pointer goes out of the 'with' statement block, the file object is closed.
   
 ```python
 with open("myFile.txt", "r") as fObj:
@@ -76,6 +80,7 @@ with open("myFile.txt", "r") as fObj:
 #file is closed automatically
 ```
 
+</blockquote>        
 </details>
 
 ---
@@ -86,8 +91,8 @@ with open("myFile.txt", "r") as fObj:
 
 <details><summary><b>Show Answer</b></summary>
 
-> - In python, to delete a folder, we can use os.rmdir() method.
-> - This os.rmdir() methos is used delete only the empty folders.  
+> - In python, to delete a folder, we can use `os.rmdir()` method.
+> - This `os.rmdir()` methos is used delete only the empty folders.  
   
 ```python
 import os
@@ -117,7 +122,7 @@ os.rmdir("folder_name")
 
 <details><summary><b>Show Answer</b></summary>
 
-> To list all the files or directories from a particular path, we can use os.listdir() method.
+> To list all the files or directories from a particular path, we can use `os.listdir()` method.
 
 ```python
 import os
@@ -129,7 +134,7 @@ for x in os.listdir('_'):
 
 ---
 
-8.Write a program to read the file "rename.txt" and display the entire content after removing the leading and trailing spaces.
+8.Write a program to read the file `rename.txt` and display the entire content after removing the leading and trailing spaces.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -174,14 +179,14 @@ D.Error
 
 <details><summary><b>Explanation</b></summary>
 
-> The 'WITH' statement which is used to open file, guarantees that the file object is closed once the 'with' block exits.
+> The `WITH` statement which is used to open file, guarantees that the file object is closed once the `with` block exits.
 
 </details>
 </details>
 
 ---
 
-10.What would the readlines() method return?
+10.What would the `readlines()` method return?
 
 A.str
 
@@ -206,7 +211,7 @@ D.a list of integers
 
 ---
 
-11.Write a python program to count the number of lines from "data.txt" which does not start from 'M'.
+11.Write a python program to count the number of lines from `data.txt` which does not start from `M`.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -237,11 +242,11 @@ a=f.read()
 
 <details><summary><b>Show Answer</b></summary>
 
-> It will read the content from the file.txt until the end of file.
+> It will read the content from the `file.txt` until the end of file.
 
 <details><summary><b>Explanation</b></summary>
 
-> The read() method reads all the contents from the file.
+> The `read()` method reads all the contents from the file.
 
 </details>
 </details>
@@ -262,7 +267,7 @@ D.outfile = open(file = "c:\\scores.txt", "w")
 
 <details><summary><b>Show Answer</b></summary>
 
-> Option A.outfile = open("c:\\scores.txt", "a")
+> Option A. `outfile = open("c:\\scores.txt", "a")`
 
 <details><summary><b>Explanation</b></summary>
 
@@ -273,7 +278,7 @@ D.outfile = open(file = "c:\\scores.txt", "w")
 
 ---
 
-14.Write a python program to read the content from "file.txt" and display all numbers.
+14.Write a python program to read the content from `file.txt` and display all numbers.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -317,16 +322,19 @@ f.close()
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
+<blockquote>
 
-> 1.r+
+ 1.r+
 
-> 2.w+
+ 2.w+
 
-> 3.wb+
+ 3.wb+
+   
+  </blockquote>
 
 <details><summary><b>Explanation</b></summary>
 
-> To open the files in read-write operations, + is used to append to file mode.
+> To open the files in read-write operations, `+` is used to append to file mode.
 
 </details>
 </details>
@@ -347,11 +355,11 @@ D.fp.pos
 
 <details><summary><b>Show Answer</b></summary>
 
-> Option B.fp.tell()
+> Option B.`fp.tell()`
 
 <details><summary><b>Explanation</b></summary>
 
-> fp.tell() method is used to get the current position within the file.
+> `fp.tell()` method is used to get the current position within the file.
 
 </details>
 </details>
@@ -381,22 +389,24 @@ print("Received input",str)
 
 ---
 
-19.What is the difference between r+ and w+ modes in python?
+19.What is the difference between `r+` and `w+` modes in python?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
+    <blockquote>
 
-> **r+**:
+ **r+**:
 
-> - It will not create a file if it does not exist.
-> - If the file already exists, opening it with r+ does not destroys the contents.
+ - It will not create a file if it does not exist.
+ - If the file already exists, opening it with r+ does not destroys the contents.
   
-> **w+**:
+ **w+**:
 
-> - If the file does not exist,it will be created.
-> - If the file already exists, opening it with r+ will destroys the contents.
-
+ - If the file does not exist,it will be created.
+ - If the file already exists, opening it with r+ will destroys the contents.
+        
+        </blockquote>
 </details>
 
 ---
@@ -407,7 +417,7 @@ print("Received input",str)
 
 <details><summary><b>Show Answer</b></summary>
 
-> - To delete multiple files, we can use loop over the list of files and use the higher than os. rmdir() operate. 
+> - To delete multiple files, we can use loop over the list of files and use the higher than `os. rmdir()` operate. 
 > - To delete a folder that contains all files, you want to remove got to import shutil package. Then you can take away the folder as follows.
   
 </details>
