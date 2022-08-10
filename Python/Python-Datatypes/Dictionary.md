@@ -593,7 +593,7 @@ print(dict1 .keys( ))
   
  <details><summary> <b>Explanation</b> </summary>
    
-> The above code is printing keys.Because in the above code we used  `dict1.key()` methods.
+> The above code is printing keys.Because in the above code we used  `dict1.key()` method so that we get key values.
   
   </details>
   </details>
