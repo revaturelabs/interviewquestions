@@ -594,7 +594,12 @@ obj.show()
 ```
 <details><summary> <b>Show Answer</b> </summary>
   
-> We will get the "TypeError: Cannot create a consistent method resolution order (MRO) for bases A, B" while inheriting the A and B classes in class C. The reason of this error is that, we are trying to inherit the class A before the class B in C class. And as A class is the parent of B class we should inherit the B class first than A class in class C. This will resolve the Error of the above code. Just change the line ```class C(A,B) to class C(B,A)```. 
+> TypeError: Cannot create a consistent method resolution order (MRO) for bases A, B. 
+
+<details><summary> <b>Explanation</b> </summary>
+  
+> The reason for the above error is that, we are trying to inherit the class A before the class B in C class. And as A class is the parent of B class we should inherit the B class first than A class in class C. This will resolve the Error of the above code. Just change the line ```class C(A,B) to class C(B,A)```. 
+  </details>
 </details>
 
 ---
@@ -605,6 +610,10 @@ b) False
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option a) 
+<details><summary> <b>Explanation</b> </summary>
+  
+> We can use the super() fucntion in child classes to inherit all the members of parent class.
+  </details>
 </details>
 
 ---
@@ -677,7 +686,7 @@ d) Nothing is printed
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option b)
-<details><summary> <b>Show Answer</b> </summary>
+<details><summary> <b>Explanation</b> </summary>
   
 > Simply the object of Test1 class is printing the values of num1 and num2.
   </details>
