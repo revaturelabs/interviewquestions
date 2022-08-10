@@ -84,15 +84,15 @@ mvn archetype:generate -DgroupId=groupid -DartifactId=artifactid -DarchetypeArti
 <details> <summary> <b> Show Answer </b> </summary>
 
 
- - To compile go to the project directory.(like: C:\Users\IT\SQUARECALCULATOR) and write the follwoing command 
+ - To compile go to the project directory.(like: C:\Users\IT\SQUARECALCULATOR) and write the following command 
 
-<code>
+```
 
 mvn clean compile  
 
-</code>
+```
 
-- When you check your project directory, target directory will be craeted.
+- When you check your project directory, target directory will be created.
 
 </details>
 
@@ -102,7 +102,7 @@ mvn clean compile
 
 <details> <summary> <b> Show Answer </b> </summary>
 
- - To run the project, go to the project directory\target\classes.(like: C:\Users\IT\SQUARECALCULATOR\target\classes) and write the follwoing command 
+ - To run the project, go to the project directory\target\classes.(like: C:\Users\IT\SQUARECALCULATOR\target\classes) and write the following command 
 
 <code>
 
@@ -136,7 +136,7 @@ Various build tools available(Naming only few):
 <details> <summary> <b> Show Answer </b> </summary>
 
 
-- Jar file will be created inside the project/target directory, When you execute the command <code> mvn package </code> in the command prompt to package the maven project.
+Jar file will be created inside the project/target directory, When you execute the command <code> mvn package </code> in the command prompt to package the maven project.
 
 </details>
 
@@ -146,7 +146,7 @@ Various build tools available(Naming only few):
 
 <details> <summary> <b> Show Answer </b> </summary>
 
-- If the project needs to have quick documentation, compiling and packaging of source coide into JAR/ZIP files.
+- If the project needs to have quick documentation,compiling and packaging of source coide into JAR/ZIP files.
 - If the project requires a huge amount of dependencies.
 - If the version of dependecies requires a frequent up-gradation.
 
@@ -158,7 +158,7 @@ Various build tools available(Naming only few):
 
 <details> <summary> <b> Show Answer </b> </summary>
 
-- The dependencies will be loaded in  the Local repository
+The dependencies will be loaded in  the Local repository
 
 </details>
 
