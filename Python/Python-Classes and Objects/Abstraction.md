@@ -78,17 +78,17 @@ class Abstract(ABC):
         pass
     
     def show(self):
-        print("Reached Delhi")
+        print("Reached NY")
         
 class Derived(Abstract):
     def path(self):
-        print("60 km away from Delhi")
+        print("60 km away from NY")
 
 obj = Derived()
 obj.path()
 ```
-a) Reached Delhi  
-b) 60 km away from Delhi  
+a) Reached NY  
+b) 60 km away from NY  
 c) Error  
 d) Nothing is printed   
 <details><summary> <b>Show Answer</b> </summary>
@@ -96,7 +96,7 @@ d) Nothing is printed
 > option b) 
 <details><summary> <b>Explanation</b> </summary>
   
-> Derived class called its own method path() so, statement inside path() method is executed and hence we got the output as "60 km away from Delhi".
+> Derived class called its own method path() so, statement inside path() method is executed and hence we got the output as "60 km away from NY".
   </details>
 </details>
 
@@ -111,17 +111,17 @@ class Abstract(ABC):
         pass
     
     def show(self):
-        print("Reached Delhi")
+        print("Reached NY")
         
 class Derived(Abstract):
     def path(self):
-        print("60 km away from Delhi")
+        print("60 km away from NY")
 
 obj = Derived()
 obj.show()
 ```
-a) Reached Delhi  
-b) 60 km away from Delhi  
+a) Reached NY  
+b) 60 km away from NY  
 c) Error  
 d) Nothing is printed   
 <details><summary> <b>Show Answer</b> </summary>
@@ -144,17 +144,17 @@ class Abstract(ABC):
         pass
     
     def show(self):
-        print("Reached Delhi")
+        print("Reached NY")
         
 class Derived(Abstract):
     def path(self):
-        print("60 km away from Delhi")
+        print("60 km away from NY")
 
 obj = Abstract()
 obj.show()
 ```
-a) Reached Delhi  
-b) 60 km away from Delhi  
+a) Reached NY  
+b) 60 km away from NY  
 c) Error  
 d) Nothing is printed  
 <details><summary> <b>Show Answer</b> </summary>
@@ -177,7 +177,7 @@ class Abstract(ABC):
         pass
     
     def show(self):
-        print("Reached Delhi")
+        print("Reached NY")
         
 class Derived(Abstract):
     pass
@@ -185,7 +185,7 @@ class Derived(Abstract):
 obj = Derived()
 obj.path()
 ```
-a) Reached Delhi   
+a) Reached NY   
 b) pass  
 c) Error, because Derived class is an abstract class.  
 d) Nothing is printed   
@@ -209,7 +209,7 @@ class Abstract(ABC):
         pass
     
     def show(self):
-        print("Reached Delhi")
+        print("Reached NY")
         
 class Derived(Abstract):
     
@@ -219,7 +219,7 @@ class Derived(Abstract):
 obj = Derived()
 obj.path()
 ```
-a) Reached Delhi   
+a) Reached NY   
 b) pass  
 c) Error, because Derived class is an abstract class.  
 d) Nothing is printed   
