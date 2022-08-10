@@ -145,7 +145,7 @@ d) Student obj;
 9. What will be the output of the following code?
 ```python3
 class Student:
-    name= "akshay"
+    name= "Henry"
     age =22
     def __init__(self, name, age):
         self.name= name
@@ -155,16 +155,16 @@ class Student:
         print(current.name, end =" ")
         print(current.age)
 
-obj = Student("rohit", 23)
+obj = Student("James", 23)
 obj.show()
 ```
-a) akshay 22    
-b) rohit 23    
+a) Henry 22    
+b) James 23    
 c) Error, because self is not used as a parameter in show().    
 d) None    
 <details><summary> <b>Show Answer</b> </summary>
   
-> option b) rohit 23 
+> option b) James 23 
 <details><summary> <b>Explanation</b> </summary>
   
 > option b) is corrent because both the print statements inside show() method is pointing to the current instance of a class, using current parameter. 
@@ -175,7 +175,7 @@ d) None
 10. What will be the output of the following code?
 ```python3
 class Student:
-    name= "akshay"
+    name= "Henry"
     age =22
     def __init__(self, name, age):
         self.name= name
@@ -185,16 +185,16 @@ class Student:
         print(Student.name, end =" ")
         print(current.age)
 
-obj = Student("rohit", 23)
+obj = Student("James", 23)
 obj.show()
 ```
-a) akshay 22  
-b) rohit 23  
+a) Henry 22  
+b) James 23  
 c) Error, because self is not used as a parameter in show().  
-d) akshay 23   
+d) Henry 23   
 <details><summary> <b>Show Answer</b> </summary>
   
-> option d) akshay 23 
+> option d) Henry 23 
 <details><summary> <b>Explanation</b> </summary>
   
 > In show() method, the 1st print statement is referring the class variable using the class name 'Student'. And in 2nd print statement it is referring to instance variable through current parameter. Hence option d) is correct. 
@@ -205,7 +205,7 @@ d) akshay 23
 11. Predict the output of the given code.
 ```python3
 class Student:
-    name = "akshay"
+    name = "Henry"
     age = 22
     def __init__(self, name, age):
         self.name= name
@@ -214,11 +214,11 @@ class Student:
     def show():
         print(self.name, end =" ")
         print(Student.age)
-obj = Student("rohit", 23)
+obj = Student("James", 23)
 obj.show()
 ```
-a) akshay 22  
-b) rohit 23  
+a) Henry 22  
+b) James 23  
 c) Error   
 d) No output  
 <details><summary> <b>Show Answer</b> </summary>
@@ -235,19 +235,19 @@ d) No output
 12. What are the different access modifiers present in python?
 <details><summary> <b>Show Answer</b> </summary>
   
-In python, There are 3 types of access modifiers:
-- public access modifier
-- private access modifier
-- protected access modifier 
-
-- i) public access modifier: In python, anything by default inside a class is public whether it is a data member or member function. These members of a class can be easily accessible from any part of the program.
-For example: name = "akshay" 
-
-- ii) protected access modifier: In python, if you want to declare any member of a class as protected then you have to use single underscore '_' symbol before the members of that class. These members of a class can only be accessible to the same class as well to the derived class.
-For example: _name = "akshay"
-
-- iii) private access modifier:  In python, if you want to declare any member of a class as private then you have to use double underscore '__' symbol before the members of that class. These members of a class can only be accessible within a class.
-For example: __name = "akshay"
+> In python, There are 3 types of access modifiers:  
+- public access modifier  
+- private access modifier  
+- protected access modifier   
+  
+- i) public access modifier: In python, anything by default inside a class is public whether it is a data member or member function. These members of a class can be easily accessible from any part of the program.  
+For example: name = "akshay"   
+  
+- ii) protected access modifier: In python, if you want to declare any member of a class as protected then you have to use single underscore '_' symbol before the members of that class. These members of a class can only be accessible to the same class as well to the derived class.  
+For example: _name = "akshay"  
+  
+- iii) private access modifier:  In python, if you want to declare any member of a class as private then you have to use double underscore '__' symbol before the members of that class. These members of a class can only be accessible within a class.  
+For example: __name = "akshay"  
 </details>
 
 --- 
@@ -289,7 +289,7 @@ class Student:
     def show(self):
         print(self.name, end =" ")
         print(self.age)
-obj = Student("rohit", 23)
+obj = Student("James", 23)
 obj.show()
 del obj      # this will delete obj object of Student class
 obj.show()   # this will throw "NameError: name 'obj' is not defined"
@@ -317,23 +317,23 @@ d) Block variable
 16. What is the difference between instance variable and class variable?
 <details><summary> <b>Show Answer</b> </summary>
   
-> Instance variables are declared inside the method or a constructor of a class. They are not shared by any objects. Every object has its own copy of the instance variable.
-
-- Class variables are declared inside the class but outside any method. These variables are shared accross all the objects of a class. Any change to the class variable will reflect to all the objects of that class. 
-
+> Instance variables are declared inside the method or a constructor of a class. They are not shared by any objects. Every object has its own copy of the instance variable.  
+  
+- Class variables are declared inside the class but outside any method. These variables are shared accross all the objects of a class. Any change to the class variable will reflect to all the objects of that class.   
+  
 For example: 
 ```python3
 class Student:
-    name ="akshay"      # class variable
+    name ="Henry"      # class variable
     def __init__(self, name):
         self.name= name    # instance variable
         
     def show(self):
         print(self.name)
 
-obj = Student("rohit")
-print(Student.name)     # output: akshay
-obj.show()         # output: rohit
+obj = Student("James")
+print(Student.name)     # output: Henry
+obj.show()         # output: James
 ```
 </details>
 
@@ -341,7 +341,7 @@ obj.show()         # output: rohit
 17. Predict the output of the following code. 
 ```python3
 class Student:
-    name ="akshay"
+    name ="James"
     def __init__(self, name):
         self.name = name
         
@@ -351,7 +351,7 @@ class Student:
 obj = Student()
 obj.show()
 ```
-a) It prints output as akshay  
+a) It prints output as James  
 b) It prints the garbage value  
 c) Error as one argument is required while creating the object  
 d) Error as show() function requires additional argument   
@@ -379,7 +379,7 @@ b) False
 </details>
 
 ---
-19. Rohit is creating a class named "Dog", which has __init__() method that has one parameter as "name". He forgets how to create a "getName()" method that returns the name when the method is called and a "setName()" method which sets the value for 'name' parameter. Given below is an incomplete piece of code, help rohit to make his code working. Provide your logic in the given spaces.
+19. John is creating a class named "Dog", which has __init__() method that has one parameter as "name". He forgets how to create a "getName()" method that returns the name when the method is called and a "setName()" method which sets the value for 'name' parameter. Given below is an incomplete piece of code, help john to make his code working. Provide your logic in the given spaces.
 ```python3
 class Dog:
     def __init__(self, name=None):
@@ -421,21 +421,21 @@ class Girl():
     def namePrint(self):
       print(self.name)
 
-girl1 = Girl("Shalini")
-girl2 = Girl("Aakriti")
+girl1 = Girl("Emma")
+girl2 = Girl("Ava")
 girl1.namePrint()
 ```
-a) Shalini  
-b) Aakriti  
-c) Shalini     
-&emsp;Aakriti     
+a) Emma  
+b) Ava  
+c) Emma     
+&emsp;Ava     
 d) Error     
 <details><summary> <b>Show Answer</b> </summary>
   
-> option a) Shalini
+> option a) Emma
 <details><summary> <b>Explanation</b> </summary>
   
-> Only the girl1 object is calling the namePrint() method, so only the value stored in girl1 object is printed, that is Shalini.
+> Only the girl1 object is calling the namePrint() method, so only the value stored in girl1 object is printed, that is "Emma".
   </details>
 </details>
 
@@ -450,8 +450,8 @@ class Girl():
     def namePrint(self):
       print(self.name)
 
-girl1 = Girl("Shalini")
-girl2 = Girl("Aakriti")
+girl1 = Girl("Emma")
+girl2 = Girl("Ava")
 girl1.namePrint()
 ```
 a) The __init__ method is used to set initial values for attributes. 
