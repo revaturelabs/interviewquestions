@@ -2,6 +2,8 @@
 
 1.What is Type casting?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > In python type casting is a method to change the variables/values declared in a certain data type into a different data type to match the operation required to be performed by the code snippet.
@@ -13,17 +15,21 @@ The type casting process's excecution can be performed by using two different ty
   
   ---
 
-2.What is the difference between Implicit type casting and explicit type casting?
+2.What is the difference between `Implicit type casting` and `explicit type casting`?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Implicit casting doesn't require a casting operator.Implicit Type Conversion is automatically performed by the Python interpreter. Python avoids the loss of data in Implicit Type Conversion. Explicit type casting is performed by the programmer.Explicit Type Conversion is also called Type Casting, the data types of objects are converted using predefined functions by the user.
+> `Implicit casting` doesn't require a casting operator.Implicit Type Conversion is automatically performed by the Python interpreter. Python avoids the loss of data in Implicit Type Conversion. Explicit type casting is performed by the programmer.`Explicit Type Conversion` is also called Type Casting, the data types of objects are converted using predefined functions by the user.
 
 </details>
 
 ---
 
 3.What are all the advantages of type casting?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -37,20 +43,24 @@ The type casting process's excecution can be performed by using two different ty
 
 4.Can we convert complext into int datatype?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
-  > ** No** we can't
+  > `No`, we can't
   > We can convert any type to int type, but we cannot perform complex to int type.
   
   </details>
   
   ---
   
-5.What is the use of int() function?
+5.What is the use of `int()` function?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
->  The int() function converts a string,hexadecimal,binary,octal and float to int.If the argument is a floating point, the conversion truncates the number. If the argument is outside the integer range, It converts the number into long type.
+>  The `int()` function converts a string,hexadecimal,binary,octal and float to int.If the argument is a floating point, the conversion truncates the number. If the argument is outside the integer range, It converts the number into long type.
 
   </details>
   
@@ -59,6 +69,8 @@ The type casting process's excecution can be performed by using two different ty
 6.After executing the following line of code, what would be the data type of data ?
 
 > d = 7,
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -70,9 +82,11 @@ The type casting process's excecution can be performed by using two different ty
 
 7.How will you convert float value 12.6 to integer value?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
->  Float value can be converted to an integer value by calling  int() funtion.
+>  Float value can be converted to an integer value by calling  `int()` funtion.
   
 **Example**:
   
@@ -89,7 +103,7 @@ print(type(a1))
   
 <details><summary> <b>Explanation</b> </summary> 
   
-> In python int() function used to convert a float value into integer.
+> In python `int()` function used to convert a float value into integer.
   
 </details>
 </details>
@@ -97,10 +111,13 @@ print(type(a1))
   ---
 
 8.How do you remove a reference to a variable?
+  
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
+  <blockquote>
   
- - You can delete a reference to an object using the del keyword.
+ - You can delete a reference to an object using the `del` keyword.
   
 **Example**:
   
@@ -120,16 +137,19 @@ Traceback (most recent call last):
 File "<string>", line 21, in <module>
   
 NameError: name 'a' is not defined
-
+    
+    </blockquote>
   </details>
   
   ---
   
-9.How will you convert integer value 18 to float value?
+9.How will you convert integer value (18) to float value?
+    
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Integer value can be converted to an Float value by calling  float() funtion.
+> Integer value can be converted to an Float value by calling  `float()` funtion.
   
 **Example**:
 
@@ -155,13 +175,15 @@ print(type(a1))
 type(range(5))
 ```
 
+  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
 <details><summary> <b>Show Answer</b> </summary>
   
-  > The above program it will return the data type is range(). 
+> The above program it will return the data type is `range()`. 
   
 <details><summary> <b>Explanation</b> </summary>
   
-- In Python 3, the range()  function returns range object, not list.
+> In Python 3, the `range()`  function returns range object, not list.
   
   </details>
   </details>
@@ -177,7 +199,10 @@ func1()
 print(x)
 ```
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
 <details><summary> <b>Show Answer</b> </summary>
+  <blockquote>
   
 **Output**:
   
@@ -189,7 +214,8 @@ print(x)
   
 > A variable declared outside of all functions has a GLOBAL SCOPE. Thus, it is accessible throughout the file. And variable declared inside a function is a local variable whose scope is limited to its function.
   
-  </details>
+  </blockquote>
+    </details>
   </details>
   
   ---
@@ -211,14 +237,16 @@ print(y)
  C.None
   
  D.0
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> NameError
+> `NameError`
   
 <details><summary> <b>Explanation</b> </summary>
   
-> You will get a NameError: name 'y' is not defined. To access the function’s return value we must accept it using an assignment operator like this.
+> You will get a `NameError: name 'y' is not defined`. To access the function’s return value we must accept it using an assignment operator like this.
   
 ```python
 def myfunc():
@@ -239,6 +267,8 @@ print(y)
 print(bool(0), bool(3.14159), bool(-3), bool(1.0+1j))
 ```
   
+ ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg) 
+  
 <details><summary> <b>Show Answer</b> </summary>
   
 > False True True True
@@ -253,10 +283,13 @@ print(bool(0), bool(3.14159), bool(-3), bool(1.0+1j))
   
   ---
 
-14.How do you remove a reference to a variable?
+14.What is `del` keyword in python and explain with an example?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
   
+> `del` keyword is used to delete a objects in python.
 > You can delete a reference to an object using the del keyword.
   
 **Example**:
@@ -289,8 +322,11 @@ x2=7+1j
 print(type(x2))
 x3=int(x2)
 ```
+ 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
+  <blockquote>
   
 <class 'float'>
 <class 'int'>
@@ -299,10 +335,11 @@ TypeError: can't convert complex to int
   
 <details><summary> <b>Explanation</b> </summary>
   
- > - It will printing the type of x variable.
- > - It will converting float to integer.
- > - In line 6 it's converting complex to interger.But,it will throw an type error because we can't able to convert complex into integer.
+  - It will printing the type of x variable.
+  - It will converting float to integer.
+  - In line 6 it's converting complex to interger.But,it will throw an type error because we can't able to convert complex into integer.
   
+  </blockquote>
   </details>
   </details>
   
