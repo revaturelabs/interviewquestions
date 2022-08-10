@@ -316,8 +316,8 @@ System.out.println(ad.pop());
 
 <summary><b>Show Answer</b></summary>
 
-> 4
-> ArrayDeque acts like a stack , so `push(element)` and `pop()` can be implemented.
+> - 4
+> - ArrayDeque acts like a stack , so `push(element)` and `pop()` can be implemented.
 
 </details>
 
@@ -336,8 +336,8 @@ System.out.println(ad.poll());
 
 <summary><b>Show Answer</b></summary>
 
-> 4
-> ArrayDeque acts like a queue , so `offer(element)` and `poll()` can be implemented.
+> -  4
+> -  ArrayDeque acts like a queue , so `offer(element)` and `poll()` can be implemented.
 
 </details>
 
@@ -356,8 +356,8 @@ System.out.println(ad.remove());
 
 <summary><b>Show Answer</b></summary>
 
-> 1
-> ArrayDeque acts like a List , so `add(element)` and `remove()` can be implemented.
+> - 1
+> - ArrayDeque acts like a List , so `add(element)` and `remove()` can be implemented.
 </details>
 
 
