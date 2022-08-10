@@ -1,6 +1,6 @@
 ## Array
 
-1.What are dynamic Arrays and how is it different from basics Arrays?
+1.What is dynamic Arrays and how is it different from basics Arrays?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
@@ -13,7 +13,7 @@
   
 ---
   
-2.What are the differences between an `array` and a `dictionary`?
+2.What is the difference between an `array` and a `dictionary`?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -66,7 +66,7 @@ print(x)
   
 ---
   
-4.Write a python program to find the largest and smallest numbers in an array?
+4.Write a python program to find the largest and smallest numbers in an array.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -109,7 +109,7 @@ Smallest element in array is 304
 	
 ---
   
-5.Can a particular value changed using index in python?
+5.How can a particular value be changed using index in python?
 	
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
@@ -154,7 +154,7 @@ print(Juice)
 	
 ---	
   
-7.Write a python Program to remove duplicates from Array?
+7.Write a python Program to remove duplicates from Array.
 	
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -259,7 +259,7 @@ print(fruits)
 	
 ---
   
-11.Write a python Program to find a missing number in array?
+11.Write a python Program to find a missing number in array.
 	
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -342,7 +342,7 @@ Enter element of array : 2
 	
 ---
   
-14.Write a Program to check if two arrays are equal in Python?
+14.Write a Program to check if two arrays are equal in Python.
 	
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -460,7 +460,7 @@ After removing 78 = [24, 2456, 567, 3467]
 	
 ---
   
-18.What would be the output of the following code?
+18.What is the output of the following code?
   
 ```python
 arr=[1,2,3,4,5]
@@ -511,7 +511,7 @@ for i in my_array:
 	
 ---
   
-20.What will be the output for the following code?
+20.What is the output for the following code?
   
 > names.append("May")
 
