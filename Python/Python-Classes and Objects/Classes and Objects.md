@@ -2,6 +2,9 @@
 
 
 1. What do you understand by Object-Oriented Programming? What are its main features?
+   
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
    
 > Object-Oriented Programming refers to the programming style related with classes and objects. Here the object is a real world entity and a class is a blueprint to that object. For example, we can consider a 'car' as a class and maruti suzuki or honda as an object.   
@@ -11,6 +14,9 @@
 
 ---
 2. Why OOPs concepts important in programming?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > There are many reasons why one should go for programming languages that supports OOPs concepts like Python. Some of the reasons are: 
@@ -22,6 +28,9 @@
 
 ---
 3. What do u mean by class and object in python?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > A class, in python, is a user defined datatype and also a blueprint of an object. Class provides a way of binding data and member functions together. An object is an instance of a class and a real world entity. For example, A gender can be considered as a class and male and female as an object of that class. 
@@ -42,6 +51,9 @@ male.fun1()
 
 ---
 4. What is a constructor in python? Give example.
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Constructor is a method that is used to initialize the variable and are called when an object of a class is created. In python we can use the __init__() method that is a constructor, unlike in other programming language where both class name and constructor name should be same. The statements present inside the constructor are executed at the time of object creation. 
@@ -90,6 +102,9 @@ print(obj1.getname())          # output: ('akshay', 'rohit', None)
 
 --- 
 6. What is a self in class and python?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > The self is a first parameter of every method in a class, and is used to refer the current class instance. There is no restriction in python to name it as self, it can be named whatever we like, but it has to be the first parameter of a method.   
@@ -131,7 +146,10 @@ b) False
 a) Student obj = new Student();  
 b) obj Student = new Student();  
 c) obj = Student()  
-d) Student obj;   
+d) Student obj;  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option c) obj =Student()
@@ -233,6 +251,9 @@ d) No output
 
 ---
 12. What are the different access modifiers present in python?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > In python, There are 3 types of access modifiers:  
@@ -257,6 +278,9 @@ a) __inti__()
 b) __init__()  
 c) init  
 d) __int__()  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option b) __init__()
@@ -273,6 +297,9 @@ a) delete
 b) remove   
 c) pop   
 d) del   
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option d)
@@ -304,6 +331,9 @@ a) Instance variable
 b) Class variable   
 c) Method variable  
 d) Block variable   
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option a) 
@@ -315,12 +345,15 @@ d) Block variable
 
 ---
 16. What is the difference between instance variable and class variable?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
-> Instance variables are declared inside the method or a constructor of a class. They are not shared by any objects. Every object has its own copy of the instance variable.  
-  
-- Class variables are declared inside the class but outside any method. These variables are shared accross all the objects of a class. Any change to the class variable will reflect to all the objects of that class.   
-  
+> Instance variables are declared inside the method or a constructor of a class. They are not shared by any objects. Every object has its own copy of the instance variable.    
+    
+> Class variables are declared inside the class but outside any method. These variables are shared accross all the objects of a class. Any change to the class variable will reflect to all the objects of that class.     
+    
 For example: 
 ```python3
 class Student:
@@ -429,7 +462,10 @@ a) Emma
 b) Ava  
 c) Emma     
 &emsp;Ava     
-d) Error     
+d) Error  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option a) Emma
@@ -473,7 +509,10 @@ d) girl2 has a different value for 'name' than girl1.
 a) OOPs can hide complexity.  
 b) Class can contain functions as well as data  
 c) Constructor methods are required to initialize an object   
-d) Ability to create a new class by extending an existing class.   
+d) Ability to create a new class by extending an existing class. 
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option c).
@@ -489,7 +528,10 @@ d) Ability to create a new class by extending an existing class.
 a) method    
 b) class    
 c) object    
-d) instance     
+d) instance    
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option b) class
@@ -502,6 +544,9 @@ a) this
 b) super  
 c) init  
 d) self   
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option d) self.
@@ -528,6 +573,9 @@ a) Objects are real world enitites.
 b) Object is an instance of a class.  
 c) We can create objects based on the number of methods present inside a class  
 d) Python treats everything as objects including variables, functions, list, tuple, ect.  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
  
 > option c) 
@@ -556,7 +604,7 @@ d) 3 and 3
 > Option a) 
 <details><summary> <b>Explanation</b> </summary>
   
-> In the above code, 3 objects are present, two without reference variable and 1 with reference variable, Obj = student(). 
+> In the above code, 3 objects are present, two without reference variable and 1 with reference variable, `Obj = student()`. 
   </details>
 </details>
 
@@ -567,6 +615,9 @@ a) Encapsulation
 b) Instantiation  
 c) Inheritance   
 d) Polymorphism   
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option b) Instantiation.
@@ -591,6 +642,9 @@ a) 50
 b) 60  
 c) Error  
 d) None of the above  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option b) 60. 
