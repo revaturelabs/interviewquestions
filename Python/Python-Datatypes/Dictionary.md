@@ -20,19 +20,19 @@ print(user_info['name'])
 **Output**:
   
 > Variable user_info is a <class 'dict'>.
-  
+> 
 > {'name': 'Naveen', 'education': 'B.Tech', 'age': 23}
-  
+>  
 > Naveen
 
   </details>
 
 ---
-2.How will you get keys and values of dictionary?
+2.How will you get the keys and values of dictionary?
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> In dictionary comes with keys() method that will provides all list of the keys in dictionary.
+> In dictionary, keys() method will provide all list of the keys in dictionary.
   
 **Example**:
 
@@ -45,7 +45,7 @@ print(user_info.keys())
   
 ```dict_keys(['name','education','age'])```
 
-> In dictionary comes with values() method that will provides all list of the keys in dictionary.
+> In dictionary, values() method will provide all list of the keys in dictionary.
   
 **Example**:
   
@@ -58,7 +58,7 @@ print(user_info.values())
   
 ```dict_values(['Naveen', 'B.Tech', 23])```
 
-> In Dictionary using items() method that returns list consisting of key and value pair.
+> In Dictionary, using items() method returns the list consisting of key and value pair.
   
 **Example**:
   
@@ -78,7 +78,7 @@ print(user_info.items())
   
 <details><summary> <b>Show Answer</b> </summary>
 
-> Yes,the python dictionary is a mutalbe object.  
+> Yes,the python dictionary is a mutable object.  
     
 > Mutable means we can change,add or remove key-value pairs after assigning.  
   
@@ -93,7 +93,7 @@ print("Student info after corrections: ", student_info)
   
 **Output**:
 ```  
-Student info original:  {'id': 12, 'nationality': 'China', 'data_enrolled': 2015, 'gender': 'Male'}
+Original Student info:  {'id': 12, 'nationality': 'China', 'data_enrolled': 2015, 'gender': 'Male'}
   
 Student info after corrections:  {'id': 12, 'nationality': 'China', 'data_enrolled': 2015, 'gender': 'Female'}
 ```  
@@ -128,7 +128,7 @@ After popping:  {'current_location': 'Bangaluru', 'job': 'sofware engineer'}
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> In python dictionary can be merger as {**dict_1, **dict_2, …,**dict_n}.In python 3.9 its can be merged using "|" operator.
+> In python, dictionary can be merged as {**dict_1, **dict_2, …,**dict_n}.In python 3.9, it can be merged using "|" operator.
   
 **Example**:
   
@@ -156,7 +156,7 @@ using | operator : {'name': 'Harini', 'age': 27, 'location': 'kerala', 'job': 's
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> In python as you know dictionary has key and value pair but the list does not. So, some cases of converting lists into dictionaries are.  
+> In python, dictionary has key and value pair but the list does not. So, some cases of converting lists into dictionaries are,  
     
 i) For loop and Zip with two lists  
     
@@ -196,11 +196,11 @@ print(pet_number_dict_2)
   </details>
 
 ---
-7.What is the difference between duplicating dictionary with and without copy()?
+7.What is the difference between duplicating dictionary with and without `copy()`?
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> It means is dict_2 = dict_1 vs. dict_2 = dict_1.copy(). When you are duplicating a dictionary object without a copy() method, you are not creating a new dictionary but pointing to the same dictionary object. So, when you make changes in the duplicate list it changes the original one too.
+> It means is dict_2 = dict_1 vs. dict_2 = dict_1.copy(). When you are duplicating a dictionary object without a copy() method, you are not creating a new dictionary but pointing to the same dictionary object. So, when you make changes in the duplicate list, it changes the original one too.
   
 **Example**:
 
@@ -220,13 +220,13 @@ print("Are the memory address of two dicts same? {}".format(id(list) == id(list_
   
 **Output**:
  
-> Original List before {'eggs': '1 karton', 'banana': '1 kg', 'milk': '1 ltr', 'sugar': '1 kg'}
+> Before Original List {'eggs': '1 karton', 'banana': '1 kg', 'milk': '1 ltr', 'sugar': '1 kg'}
   
 > Original List after duplication {'eggs': '1 karton', 'banana': '1 kg', 'milk': '1 ltr', 'sugar': '1 kg', 'salt': '1 kg'}
   
 > Are the memory address of two dicts same? True
   
-- Now we can do with copy() method.
+- Now, we can do with copy() method.
 
 ```python
 to_buy_list = {
@@ -247,15 +247,15 @@ print("Are the memory address of two dicts same? {}".format(
 **Output**:
   
 > Original List before {'eggs': '1 karton', 'banana': '1 kg', 'milk': '1 ltr', 'sugar': '1 kg'}
-  
+>  
 > Original List after duplication {'eggs': '1 karton', 'banana': '1 kg', 'milk': '1 ltr', 'sugar': '1 kg'}
-  
+>  
 > Are the memory address of two dicts same? False
   
 </details>
   
 ---
-8.What will be output of following program?
+8.What is the output of following program?
   
 ```python
 d={(3,4,8):4,(5,6,9):3}
@@ -305,7 +305,7 @@ pprint.pprint(dictionary)
  </details>
   
 ---
-10.What will be the output of the following code?
+10.What is the output of the following code?
   
 ```python  
 dictlang = {'To': 6, 'GO': 89, 'Python': 4,'Rules':10}
@@ -326,7 +326,7 @@ print(id(cpydict) == id(dictlang))
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> In python for that we can use del keyword to delete a key from dictionary.
+> In python, we can use del keyword to delete a key from dictionary.
   
 **Example**:
   
@@ -358,7 +358,7 @@ print('max value key:',max(FruitsDict,key=FruitsDict.get))
   
 **Output**: 
   
-> max and min values it's depends upon the user values
+> max and min values depends upon the user values
 
   </details>
 
@@ -367,7 +367,7 @@ print('max value key:',max(FruitsDict,key=FruitsDict.get))
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> In python using sum() method we can sum the dictionaries elements.
+> In python, using sum() method, we can sum the dictionary elements.
   
 **Example**:
   
@@ -383,7 +383,7 @@ print('sum of dict elements = ',sum(Fruit.values()))
   </details>
 
 ---
-14.What will be the output of the following program?
+14.What is the output of the following program?
 
 ```python  
 from heapq import nlargest
@@ -441,7 +441,7 @@ print(sorted_dict)
   </details>
 
 ---
-17.Look at the code carefully and tell me what will be the output of the following code?
+17. What is the output of the following code?
 
 ```python
 students = {'kanika':{'class':'V',
@@ -493,7 +493,7 @@ print(x.most_common())
   </details>
  
 ---
-19.What will be the output of the following code?
+19.What is the output of the following code?
   
 ```python  
 dict =  {'Alex': ['subj1', 'subj2', 'subj3'], 'David': ['subj1', 'subj2']}
@@ -510,7 +510,7 @@ print(dict_len)
   </details>
 
 ---
-20.What will be the output of the following code?
+20.What is the output of the following code?
 
 ```python  
 dict1 ={'English':'67%','Maths':'78%','Social_Science':'87%','EVS':'97%'}
