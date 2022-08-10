@@ -58,7 +58,7 @@ D. error
   </details>
 
 ---
-4.Predict the output of the following code?
+4.Predict the output of the following code.
 
 ```python  
 class myclass():
@@ -80,7 +80,7 @@ print(bool(myobj))
   </details>
  
 ---
-5.Predict the output of the code?
+5.Predict the output of the code.
 
 ```python  
 print(['hello','morning'][bool('')])
@@ -118,7 +118,7 @@ print(l2)
   </details>
 
 ---
-7.Write a program to check whether the given number is even or odd?(take input from user)
+7.Write a program to check whether the given number is even or odd.(Take input from user)
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -179,7 +179,7 @@ D. False
   </details>
 
 ---
-10.Predict the output of the following code and give the correct code?
+10.Predict the output of the following code and give the correct code.
   
 ```python  
 def myFunction() :
@@ -202,7 +202,7 @@ print(myFunction())
   </details>
  
 ---
-11.Mention some advantages of boolean() data type?
+11.Mention some advantages of boolean() data type.
   
 <details><summary> <b>Show Answer</b> </summary>
   
