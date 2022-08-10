@@ -68,12 +68,11 @@ We can have any number of default and static methods but can contain only one ab
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
  <details><summary><b>Show Answer</b></summary>
+<blockquote>	
+Yes
+</blockquote>
 	
-	<blockquote>
-		
-	Yes
-	</blockquote>
-	<details><summary><b>Explanation</b></summary>
+<details><summary><b>Explanation</b></summary>
 <blockquote>
 		The functional interface has been introduced in Java 8 to support the lambda expression, lambda expression is the instance of a functional interface.
 </blockquote>
