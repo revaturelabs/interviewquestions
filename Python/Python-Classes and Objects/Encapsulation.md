@@ -3,6 +3,9 @@
 
 
 1. What do you mean by encapsulation in python? How to achieve it? Give example. 
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Binding up of data members and member functions together into a single unit is known as encapsulation. A class is an example of encapsulation as it binds the variables and methods together. We can achieve encapsulation by declaring the data members of a class either as private or protected.   
@@ -38,6 +41,9 @@ a) It gives ability to a child class to access properties from parent class.
 b) It has the ability to hide the unwanted complex implementation from the user  
 c) It wraps up the data members and member functions of a class in a single unit.  
 d) It gives different meaning to same function in different classes.  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > option c) 
@@ -65,6 +71,9 @@ a) 5 is printed
 b) 10 is printed  
 c) Error, because num1 is not retured by display() method.  
 d) Error, because __num2 is a private data member.  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > option is a).
@@ -155,6 +164,9 @@ a) 10
 b) 20  
 c) 30   
 d) Error   
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option b)
@@ -191,7 +203,7 @@ d) Error
 > option is d) Error
 <details><summary> <b>Explanation</b> </summary> 
   
-> In the above code, we will get "NameError: name '_Test__num2' which is not defined". To resolve this error, we have to use either 'class_name' or 'self' before the __num2 variable in print statement, according to our need. For example, "self.__num2". 
+> In the above code, we will get "NameError: name '_Test__num2' which is not defined". To resolve this error, we have to use either 'class_name' or 'self' before the __num2 variable in print statement, according to our need. For example, `self.__num2`. 
   </details>
 </details>
 
@@ -202,6 +214,9 @@ a) __init__ / __del__
 b) getters / setters  
 c) __iter__ / __eq__  
 d) __repr__ / __str__  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option b) 
@@ -257,6 +272,9 @@ a) __num1
 b) _num2  
 c) __num3__  
 d) __num4__  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option b) 
