@@ -101,7 +101,7 @@
   
 <details><summary><b> Show Answer </b></summary>
 
-- By running the command ` mvn help:effective-pom ` we can view the default configuration of super POM.
+By running the command ` mvn help:effective-pom ` we can view the default configuration of super POM.
 
 </blockquote>
   
@@ -158,7 +158,7 @@
 
 <details><summary><b> Show Answer </b></summary>
 
-- to run a pom.xml file `right-click the pom. xml file and select Run As Maven build`.
+To run a pom.xml file `right-click the pom. xml file and select Run As Maven build`.
   
 
 </blockquote>
@@ -175,7 +175,7 @@
   
 <blockquote>
 
-- A project should have dependency to compile, build, test and run , which is collectively present in pom.xml file.
+A project should have dependency to compile, build, test and run , which is collectively present in pom.xml file.
   
 
 </blockquote>
