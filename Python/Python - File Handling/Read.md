@@ -25,7 +25,7 @@ open("myfile.txt","W+")
 
 <details><summary><b>Show Answer</b></summary>
 
-> We can use the same code that we use to create a file.
+> We can use the same code that we used  to create a file and use `open()` built-in function to create a file.
 	
 ```python	
 open("myfile.txt","r") as fObj6.
@@ -41,7 +41,7 @@ open("myfile.txt","r") as fObj6.
 
 <details><summary><b>Show Answer</b></summary>
 
-> Consider you have some **.txt file**, the following code is used to read that text file.
+> Consider you have some `.txt file`, the following code is used to read that text file.
 
 ```python
 def file_read(fname):
@@ -59,16 +59,19 @@ file_read('test.txt')
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
+<blockquote>
 
-> - There are four different methods(modes) to open a file,
+ - There are four different methods(modes) to open a file,
   
-> i)"r" - Read - Default value. Opens a file for reading, ans shows error if the file does not exist.
+ i)`r` - Read - Default value. Opens a file for reading, ans shows error if the file does not exist.
 
-> ii)"a" - Append - Opens a file for appending, and creates the file if it does not exist.
+ ii)`a` - Append - Opens a file for appending, and creates the file if it does not exist.
 
-> iii)"w" - Write - Opens a file for writing, and creates the file if it does not exist.
+ iii)`w` - Write - Opens a file for writing, and creates the file if it does not exist.
 
-> iv)"x" - Create - Creates the specified file, and returns an error if the file exists.
+ iv)`x` - Create - Creates the specified file, and returns an error if the file exists.
+
+</blockquote>
 
 </details>
 
@@ -98,14 +101,17 @@ with open("myFile.txt") as fObj:
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
+<blockquote>
 
-> There are three methods in python to read data from file,
+ There are three methods in python to read data from file,
 
-> 1.read(chars): In python, read() method is used to read the specified number of characters from the current position.
+ 1.`read(chars)`: In python, `read()` method is used to read the specified number of characters from the current position.
 
-> 2.readline(): This method reads the characters starting from the current reading position to a newline character.
+ 2.`readline()`: This method reads the characters starting from the current reading position to a newline character.
 
-> 3.readlines(): This method reads all lines until the end of file and returns a list object.
+ 3.`readlines()`: This method reads all lines until the end of file and returns a list object.
+
+	</blockquote>
 
 </details>
 
@@ -116,12 +122,15 @@ with open("myFile.txt") as fObj:
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
+<blockquote>
 
-> In python, we have two types of data files,
+In python, we have two types of data files,
 
-> i)Text File-A document that consists of human readable characters, which might be opened by any text editor. 
+ i)Text File-A document that consists of human readable characters, which might be opened by any text editor. 
 
-> ii)Binary File- contains non-human readable characters and symbols, that requires specific programs to access its contents.
+ ii)Binary File- contains non-human readable characters and symbols, that requires specific programs to access its contents.
+
+	</blockquote>
 
 </details>
 
@@ -169,7 +178,7 @@ Line4: world
 
 <details><summary><b>Show Answer</b></summary>
 
-> open() method returns a bool value indicating whether the file is opened or some error has occurred. 
+> `Open()` method returns a bool value indicating whether the file is opened or some error has occurred. 
 
 </details>
 
@@ -195,14 +204,14 @@ f = open(r, "d:\Python\test.txt")
 
 ---
 
-11.What is the difference between the read() and readlines() methods in python?
+11.What is the difference between the `read()` and `readlines()` methods in python?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
-> - The read() method returns the file's entire contents as a single string value.
-> - The readlines() method returns a list of strings, where each string is a line from the file contents.
+> - The `read()` method returns the file's entire contents as a single string value.
+> - The `readlines()` method returns a list of strings, where each string is a line from the file contents.
 
 </details>
 
@@ -215,19 +224,19 @@ f = open(r, "d:\Python\test.txt")
 <details><summary><b>Show Answer</b></summary>
 
 > - No,we can't able to read file without opening.
-> - If you want to read a file, open the file first then, use open() function to open a file.
+> - If you want to read a file, open the file first then, use `open()` function to open a file.
   
 </details>
 
 ---
 
-13.Which of the following is/are correct when a file is opened using 'with' statement.
+13.Which of the following is/are correct when a file is opened using `with` statement.
 
-**A**.The with statement simplifies exception handling
+A.The with statement simplifies exception handling
 
-**B**.The file is automatically closed after leaving the block, and all the resources that are tied up with the file are released.
+B.The file is automatically closed after leaving the block, and all the resources that are tied up with the file are released.
 
-**C**.File reading and writing are faster using the with statement.
+C.File reading and writing are faster using the with statement.
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -236,30 +245,35 @@ f = open(r, "d:\Python\test.txt")
 > Option A and B are the correct statements.
 
 <details><summary><b>Explanation</b></summary>
+	<blockquote>
 
-> - The with statement simplifies exception handling by encapsulating common preparation and cleanup tasks.
-> - This additionally ensures that a file is automatically closed when leaving the block.
-> - As the file is closed automatically, it ensures that each one the resources that are bound with the file are released.
+ - The with statement simplifies exception handling by encapsulating common preparation and cleanup tasks.
+ - This additionally ensures that a file is automatically closed when leaving the block.
+ - As the file is closed automatically, it ensures that each one the resources that are bound with the file are released.
 
+</blockquote>
 </details>
 </details>
 
 ---
 
-14.What are the 3 "mode" arguments that may be passed to the open() function?
+14.What are the 3 "mode" arguments that may be passed to the `open()` function?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
+	<blockquote>
 
-> - 'r','w' and 'a' are the three mode arguments that can be passed to the open() function.
+ - `r`,`w` and `a` are the three mode arguments that can be passed to the `open()` function.
 
-> i) 'r'-it's used for read mode.
+ i) `r`-it's used for read mode.
 
-> ii) 'w'-it's used for write mode.
+ ii) `w`-it's used for write mode.
 
-> iii) 'a'-this is used for an append mode.
-
+ iii) `a`-this is used for an append mode.
+		
+		
+</blockquote>
 </details>
 
 ---
@@ -270,7 +284,7 @@ f = open(r, "d:\Python\test.txt")
 
 <details><summary><b>Show Answer</b></summary>
 
-> In python, we can use **rb** mode in the *open()* function to read a binary file.
+> In python, we can use `rb` mode in the `open()` function to read a binary file.
 
 </details>
 
@@ -289,7 +303,7 @@ print(content)
 f.close()
 ```
 
-> Using 'rb' mode, we can read the binary file in python.
+> Using `rb` mode, we can read the binary file in python.
 
 </details>
 
@@ -297,27 +311,30 @@ f.close()
 
 17.which of the below is incorrect with respect to file access mode?
 
-**A**.r
+A.`r`
 
-**B**.ab+
+B.`ab+`
 
-**C**.rw+
+C.`rw+`
 
-**D**.wb+
+D.`wb+`
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
+	<blockquote>
 
-> Option c .rw+
+- Option C .`rw+`
 
 <details><summary><b>Explanation</b></summary>
 
-> r: This mode opens an existing file as read-only mode. The file pointer exists at the beginning.
+- r: This mode opens an existing file as read-only mode. The file pointer exists at the beginning.
 
-> ab+:This mode is used to open a file to append and read, both in binary format.
+- ab+:This mode is used to open a file to append and read, both in binary format.
 
-> wb+: This is used to open the file to write and read, both in binary format.
+- wb+: This is used to open the file to write and read, both in binary format.
+	
+	</blockquote>
 
 </details>
 </details>
@@ -326,11 +343,11 @@ f.close()
 
 18.How to get the list of files from the directory ?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
-> **os.listdir()** - This method is used to get all the files from the particular directory.
+> `os.listdir()` - This method is used to get all the files from the particular directory.
 
 </details>
 
@@ -342,13 +359,13 @@ f.close()
 
 <details><summary><b>Show Answer</b></summary>
 
-> Use the **os.path.isfile('file_path')** function to see whether a file exists. Pass the file name or file path to the current perform as associate degree argument. This returns True if a file is present in the given path. Otherwise, it returns False.
+> Use the `os.path.isfile('file_path')` function to see whether a file exists. Pass the file name or file path to the current perform as associate degree argument. This returns True if a file is present in the given path. Otherwise, it returns False.
 
 </details>
 
 ---
 
-20.Write a python program to display only unique words from the file "sales.txt".
+20.Write a python program to display only unique words from the file `sales.txt`.
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
