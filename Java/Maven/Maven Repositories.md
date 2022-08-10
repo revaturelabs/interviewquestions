@@ -77,7 +77,7 @@
 <blockquote> 
 
 - It was used to downlaod the dependencies, When there is a need and which was not there in local repository.  
-- It is the default location for maven to download all the project dependency libraries.
+- It is the default location for Maven to download all the project dependency libraries.
 	
 </blockquote> 
 
@@ -106,7 +106,7 @@
 
 --- 
 
-7. How can we change the location of maven local repository?
+7. How can we change the location of Maven local repository?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -114,7 +114,7 @@
 	
 <blockquote> 
 
-We can change the location of maven local repository by changing the settings.xml file.
+We can change the location of Maven local repository by changing the settings.xml file.
 
 </details>
 
@@ -122,7 +122,7 @@ We can change the location of maven local repository by changing the settings.xm
 
 ---
 
-8. In which order does maven searches for the dependencies?
+8. In which order does Maven searches for the dependencies?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
