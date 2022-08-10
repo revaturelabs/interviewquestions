@@ -8,7 +8,7 @@
 
  <blockquote>
     
-- Project Object Model -Which is a fundamental unit of work in maven.
+- Project Object Model -Which is a fundamental unit of work in Maven.
 - Which resides in the base directory of the project as pom.xml file.
 
  </blockquote>
@@ -25,9 +25,9 @@
   
  <blockquote>
 
-- pom.xml file will store the project structure and instructtions for maven to build the project such as dependencies, source code,plugins, goals 
+- pom.xml file will store the project structure and instructtions for Maven to build the project such as dependencies, source code,plugins, goals 
   etc.
-- It contains the information about the project and to instruct the maven too build the project.
+- It contains the information about the project and to instruct the Maven too build the project.
 
  </blockquote>
    
@@ -211,7 +211,7 @@
   
  <blockquote>
   
-  - A mojo is a Maven plain Old Java Object. Each mojo is an executable goal in Maven, and a plugin is a distribution of one or more related mojos.
+ - A mojo is a Maven plain Old Java Object. Each mojo is an executable goal in Maven, and a plugin is a distribution of one or more related mojos.
  - It is a goal in Maven, a plug-in can have any number of goals.
  - Which specifies the metadata about the goal. The goal name, which phase of lifecycle it fits in and parameters its excepcting.
    
