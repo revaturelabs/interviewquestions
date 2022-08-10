@@ -612,7 +612,7 @@ b) False
 > Option a) 
 <details><summary> <b>Explanation</b> </summary>
   
-> We can use the super() fucntion in child classes to inherit all the members of parent class.
+> We can use the super() function in child classes to inherit all the members of parent class.
   </details>
 </details>
 
