@@ -26,7 +26,7 @@
 <blockquote> 
 
 - Local repository - present in developer's machine.
-- Remote repository - hosted on intranet web server to be used by companies in their own primies.
+- Remote repository - hosted on intranet web server to be used by companies in their own premises.
 - Central repository - present in Maven community.
 
 </details>
