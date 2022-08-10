@@ -2,7 +2,7 @@
 
 1.Which operator in python can be used to combine two or more string values together?
 
-![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 a) ==
 
@@ -27,7 +27,7 @@ d) in
 
 2.Why local variable names beginning with an underscore discouraged in python?
 
-![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 a) They are used to indicate a private/ protected variables of a class
 
@@ -52,10 +52,11 @@ d) They slow down execution of the program
 
 3.What do you mean by keywords?
 
-![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
-> Keywords are the reserved words that have a special meaning in python. We cannot use keywords as identifier, function or variable name. All the keywords are in lower case except "True" and "False". Python 3.7 have 33 keywords in total. 
+> Keywords are the reserved words that have a special meaning in python. We cannot use keywords as identifier, function or variable name. All the keywords are in lower case except `True` and `False`. Python 3.7 have 33 keywords in total. 
   
 **For Example**: and, or, if, elif,True, etc. 
   
@@ -64,7 +65,7 @@ d) They slow down execution of the program
 ---
 4.What are identifiers? 
 
-![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -104,7 +105,7 @@ d) No special characters(@,!,#,$,%,&) are allowed other than underscore.
 ---
 6.Which of the following is not a feature of Python?
 
-![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 a) Easy to learn
 
@@ -129,7 +130,7 @@ d) mid-level language
 
 7.Which of the following is the correct extension of python file?
 
-![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 a) .py
 
@@ -149,7 +150,7 @@ d) none of the above
 
 8.What are the advantages of using python over other programming languages?
 
-![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -207,7 +208,7 @@ d) None of the above.
 
 <details><summary> <b>Explanation</b> </summary> 
     
-> True is a keyword, whereas true with first letter as lower case is an Identifier. 
+> `True` is a keyword, whereas 'true' with first letter as lower case is an Identifier. 
   
 </details>
 </details>
@@ -230,7 +231,7 @@ d) None of the above.
 
 13.Predict the output of the following code.
 
-![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 ```python
 print("9/2")
@@ -356,7 +357,7 @@ output: rohit
   
 18.Which of the following is not a comparison operator?
   
-![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 a) ==
   
@@ -381,7 +382,7 @@ d) <=
   
 19.Which of the following is an assignment operator?
   
-![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 a) =
   
@@ -479,7 +480,7 @@ d) 9
   
 23.Which of the following code shows the correct representation of taking integer values as user input in Python3?
   
-![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 a) n = int(input())
   
@@ -504,7 +505,7 @@ d) n = int(raw_input())
   
 24.Which of the following is the correct way to single line comment in python?
   
-![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 a) //
   
@@ -524,7 +525,7 @@ d) <!...>
   
 25.Which of the following is the correct way to multi-line comments in python?
   
-![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
   
 a) // hi  
 &emsp; this is abc //
@@ -547,8 +548,8 @@ d) ''' hi
   
 26.State True or False: "Comments are always required in the code. Without comments the code will not run". 
   
-![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
-  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 a) True
   
 b) False
@@ -643,8 +644,8 @@ d) 'and' is a logical operator.
   
 30.Which of the following is not a logical operator?
   
-![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
-  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 a) and
   
 b) or
@@ -667,6 +668,7 @@ d) not
 ---
   
 31.Select the correct expression to reassign a global variable “y” to 30 inside a function reassign(). 
+  
 ![Medium](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Project%203%20(2).jpg)
   
 ```python
@@ -702,7 +704,7 @@ d) global y
   
 32.What is the data type of print(type(5))?
   
-![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
   
 a) float
   
@@ -799,7 +801,7 @@ d) 76
   
 35.Which of the following is not a datatype in Python?
   
-![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
   
 a) int
   
@@ -824,7 +826,7 @@ d) bool
   
 36.Which is not a datatype in python?
   
-![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
   
 a) bool
   
@@ -956,7 +958,7 @@ print(x)
   
 41. Which of the following is not a keyword in python?
   
-![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
   
  a) assertion
   
@@ -1073,7 +1075,7 @@ if x ** 2 > 16 and y+1 < 10:
 
 45.What is the output of below print statement?
 
-![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 ```python
 print(-22//4)
@@ -1236,7 +1238,7 @@ print(str1 or str2)
 
 51.State True or False: "the result of a division operator(/), is always float value".
 
-![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
  a) True
  
@@ -1244,7 +1246,7 @@ print(str1 or str2)
  
 <details><summary> <b>Show Answer</b> </summary>
   
->Option a) True is correct. 
+> Option a) True is correct. 
 
 <details><summary> <b>Explanation</b> </summary> 
   
@@ -1349,7 +1351,7 @@ if (a = b):  # line 2
 
 55.What is the output of below print statement?
 
-![EASY](https://github.com/revaturelabs/JavaFSQuestions/blob/main/Java/JavaIntro/JavaFeatures/Easy%20(2).jpg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 ```python
 print(3%6) 
