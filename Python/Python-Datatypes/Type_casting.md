@@ -15,13 +15,13 @@ The type casting process's execution can be performed by using two different typ
   
   ---
 
-2. What is the difference between `Implicit type casting` and `explicit type casting`?
+2. What is the difference between Implicit type casting and explicit type casting ?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> `Implicit casting` doesn't require a casting operator. Implicit Type Conversion is automatically performed by the Python interpreter. Python avoids the loss of data in Implicit Type Conversion. Explicit type casting is performed by the programmer.`Explicit Type Conversion` is also called Type Casting, the data types of objects are converted using predefined functions by the user.
+> Implicit casting doesn't require a casting operator. Implicit Type Conversion is automatically performed by the Python interpreter. Python avoids the loss of data in Implicit Type Conversion. Explicit type casting is performed by the programmer. Explicit Type Conversion is also called Type Casting, the data types of objects are converted using predefined functions by the user.
 
 </details>
 
@@ -47,7 +47,7 @@ The type casting process's execution can be performed by using two different typ
 
 <details><summary> <b>Show Answer</b> </summary>
   
-  > `No`, we can't
+  > No, we can't
   > We can convert any type to int type, but we cannot perform complex to int type.
   
   </details>
@@ -60,7 +60,7 @@ The type casting process's execution can be performed by using two different typ
 
 <details><summary> <b>Show Answer</b> </summary>
   
->  The `int()` function converts a string,hexadecimal,binary,octal and float to int.If the argument is a floating point, the conversion truncates the number. If the argument is outside the integer range, It converts the number into a long type.
+>  The `int()` function converts a string, hexadecimal, binary,octal and float to int. If the argument is a floating point, the conversion truncates the number. If the argument is outside the integer range, It converts the number into a long type.
 
   </details>
   
@@ -74,7 +74,7 @@ The type casting process's execution can be performed by using two different typ
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> The data type of the d is a tuple. Because python tuple does not need brackets/parentheses, if there are more than one element tuples need a comma to distinguish from a numeric data element.
+> The data type of d is tuple. Because python tuple does not need brackets/parentheses, if there is more than one element, tuples need a comma to distinguish from a numeric data element.
 
 </details>
 
@@ -103,7 +103,7 @@ print(type(a1))
   
 <details><summary> <b>Explanation</b> </summary> 
   
-> In python `int()` function used to convert a float value into integer.
+> In python `int()` function is used to convert a float value into integer.
   
 </details>
 </details>
@@ -169,7 +169,7 @@ print(type(a1))
   
   ---
 
-10. What will be the output of the following code? (What data type it will return).
+10. What will be the output of the following code?
 
 ```python  
 type(range(5))
@@ -246,7 +246,7 @@ print(y)
   
 <details><summary> <b>Explanation</b> </summary>
   
-> You will get a `NameError: name 'y' is not defined. To access the function’s return value we must accept it using an assignment operator like this.
+> You will get an error as `NameError: name 'y' is not defined`. To access the function’s return value we must accept it using an assignment operator like this.
   
 ```python
 def myfunc():
@@ -275,7 +275,7 @@ print(bool(0), bool(3.14159), bool(-3), bool(1.0+1j))
   
 <details><summary> <b>Explanation</b> </summary>
   
-> - If we pass zero values to bool() constructor,it will treat as a zero.
+> - If we pass zero values to bool() constructor, it will treat it as zero.
 > - Any non-zero value is boolean True.
   
   </details>
