@@ -486,7 +486,7 @@ d) Ability to create a new class by extending an existing class.
 ---
 23. The ______ is used to store the data members and functions together in python.
 
-a) Class    
+a) method    
 b) class    
 c) object    
 d) instance     
