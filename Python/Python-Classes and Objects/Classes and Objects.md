@@ -7,7 +7,7 @@
 
 <details><summary> <b>Show Answer</b> </summary> 
    
-> Object-Oriented Programming refers to the programming style related with classes and objects. Here the object is a real world entity and a class is a blueprint to that object. For example, we can consider a 'car' as a class and maruti suzuki or honda as an object.   
+> Object-Oriented Programming refers to the programming style related with classes and objects. Here the object is a real world entity and a class is a blueprint to that object. For example, we can consider a 'Car' as a class and maruti suzuki or honda as an object.   
   
 > Python is a OOP language, so it supports all OOPs concepts such as Polymorphism, Inheritance, Encapsulation and Abstraction. Polymorphism in python defines method in child class have same name as method in parent class. Inheritance means the child class can inherits the properties from its parent class. Encapsulation is wrapping up of data and member functions together in same unit. And finally abstraction means hiding the irrelevent data from user showing only the important part or functionality. 
 </details>
@@ -56,7 +56,7 @@ male.fun1()
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Constructor is a method that is used to initialize the variable and are called when an object of a class is created. In python we can use the __init__() method that is a constructor, unlike in other programming language where both class name and constructor name should be same. The statements present inside the constructor are executed at the time of object creation. 
+> Constructor is a method that is used to initialize the variable and are called when an object of a class is created. In python we can use the `__init__()` method that is a constructor, unlike in other programming language where both class name and constructor name should be same. The statements present inside the constructor are executed at the time of object creation. 
 
 For Example:
 ```python3
@@ -82,7 +82,7 @@ obj.show()   # output: rohit 23
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Python doesn't support constructor overloading, means we can not create two constructor, within same class, with different arguments. But there is a way in python through which we can make a constructor that can work in different way when we pass different number of arguments at the time of object creation. We can pass number of default arguments to __init__() method to make it as constructor overloading. 
+> Python doesn't support constructor overloading, means we can not create two constructor, within same class, with different arguments. But there is a way in python through which we can make a constructor that can work in different way when we pass different number of arguments at the time of object creation. We can pass number of default arguments to `__init__()` method to make it as constructor overloading. 
 
 For example: 
 ```python3
@@ -147,7 +147,7 @@ b) False
 </details>
 
 ---
-8. Which of the following is the correct way of creating an object of a class "Student" in python?
+8. Which of the following is the correct way of creating an object of a class `Student` in python?
 
 a) Student obj = new Student();  
 b) obj Student = new Student();  
@@ -227,7 +227,7 @@ d) Henry 23
 > option d) Henry 23 
 <details><summary> <b>Explanation</b> </summary>
   
-> In show() method, the 1st print statement is referring the class variable using the class name 'Student'. And in 2nd print statement it is referring to instance variable through current parameter. Hence option d) is correct. 
+> In show() method, the 1st print statement is referring the class variable using the class name `Student`. And in 2nd print statement it is referring to instance variable through current parameter. Hence option d) is correct. 
   </details>
 </details>
 
@@ -278,22 +278,22 @@ d) No output
 - protected access modifier   
   
 - i) public access modifier: In python, anything by default inside a class is public whether it is a data member or member function. These members of a class can be easily accessible from any part of the program.  
-For example: name = "akshay"   
+For example: name = "Henry"   
   
 - ii) protected access modifier: In python, if you want to declare any member of a class as protected then you have to use single underscore '_' symbol before the members of that class. These members of a class can only be accessible to the same class as well to the derived class.  
-For example: _name = "akshay"  
+For example: _name = "Henry"  
   
 - iii) private access modifier:  In python, if you want to declare any member of a class as private then you have to use double underscore '__' symbol before the members of that class. These members of a class can only be accessible within a class.  
-For example: __name = "akshay"  
+For example: __name = "Henry"  
 </details>
 
 --- 
 13. In Python, all classes have a function known as?
 
-a) __inti__()  
-b) __init__()  
-c) init  
-d) __int__()  
+a) `__inti__()`  
+b) `__init__()`  
+c) `init`  
+d) `__int__()`  
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -302,7 +302,7 @@ d) __int__()
 > Option b) __init__()
 <details><summary> <b>Explanation</b> </summary>
   
->  __init__() is a constructor in python, rest all are wrong. 
+>  `__init__()` is a constructor in python, rest all are wrong. 
   </details>
 </details>
   
@@ -321,7 +321,7 @@ d) del
 > Option d)
 <details><summary> <b>Explanation</b> </summary>
   
-> Through del we can delete objects created for a class. 
+> Through `del` we can delete objects created for a class. 
 For example:
 ```python3
 class Student:
@@ -366,9 +366,9 @@ d) Block variable
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Instance variables are declared inside the method or a constructor of a class. They are not shared by any objects. Every object has its own copy of the instance variable.    
+> **Instance variables** are declared inside the method or a constructor of a class. They are not shared by any objects. Every object has its own copy of the instance variable.    
     
-> Class variables are declared inside the class but outside any method. These variables are shared accross all the objects of a class. Any change to the class variable will reflect to all the objects of that class.     
+> **Class variables** are declared inside the class but outside any method. These variables are shared accross all the objects of a class. Any change to the class variable will reflect to all the objects of that class.     
     
 For example: 
 ```python3
@@ -412,12 +412,12 @@ d) Error as show() function requires additional argument
 > Option c) 
 <details><summary> <b>Explanation</b> </summary>
   
-> During object creation, 1 argument is requried because __init__() method has another argument name other than self. For example obj= Student("rohit")
+> During object creation, 1 argument is requried because `__init__()` method has another argument name other than self. For example `obj= Student("Henry")`
   </details>
 </details>
 
 ---
-18. State True and False: "__init__() is a constructor and public method in python".  
+18. State True and False: "`__init__()` is a constructor and public method in python".  
 
 a) True  
 b) False  
@@ -429,12 +429,12 @@ b) False
 > Option b) False. 
 <details><summary> <b>Explanation</b> </summary>
   
->  __init__() is a private method and a constructor in python. 
+>  `__init__()` is a private method and a constructor in python. 
   </details>
 </details>
 
 ---
-19. John is creating a class named "Dog", which has __init__() method that has one parameter as "name". He forgets how to create a "getName()" method that returns the name when the method is called and a "setName()" method which sets the value for 'name' parameter. Given below is an incomplete piece of code, help john to make his code working. Provide your logic in the given spaces.
+19. John is creating a class named `Dog`, which has `__init__()` method that has one parameter as "name". He forgets how to create a "getName()" method that returns the name when the method is called and a "setName()" method which sets the value for 'name' parameter. Given below is an incomplete piece of code, help john to make his code working. Provide your logic in the given spaces.
 ```python3
 class Dog:
     def __init__(self, name=None):
@@ -515,7 +515,7 @@ girl1 = Girl("Emma")
 girl2 = Girl("Ava")
 girl1.namePrint()
 ```
-a) The __init__ method is used to set initial values for attributes. 
+a) The `__init__` method is used to set initial values for attributes. 
 b) 'self' is not needed in namePrint() method
 c) girl1 and girl2 are two different instances of the Girl class.
 d) girl2 has a different value for 'name' than girl1.
