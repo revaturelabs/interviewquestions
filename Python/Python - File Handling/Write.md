@@ -2,6 +2,8 @@
 
 1.What are the Access modes to write a file?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > Whenever a text has to be written to a file, we've to open to get in to one of the specified access modes. We will open the file to browse, write or append and sometimes to do multiple operations on a file.
@@ -22,6 +24,8 @@
 
 2.What are the steps needed to write data into a file?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > 1.Find the path of the file.
@@ -39,6 +43,8 @@
 ---
 
 3.How will you open a file in write mode?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -60,6 +66,8 @@ f.close()
 
 4.What are the similarities and differences between a+ and w+?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > - **Similarity**: In both the modes, we can do read and write operations.
@@ -71,6 +79,8 @@ f.close()
 
 5.What is the difference between  **.** and **..** folders?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > - In python, the **.** folder is the current folder.
@@ -81,6 +91,8 @@ f.close()
 ---
 
 6.What are the methods to write something to a file?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -95,6 +107,8 @@ f.close()
 ---
 
 7.What are the modes used to append the content to an existing file?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -119,6 +133,8 @@ f.close()
 
 8.Write a function program in python to count the number of lowerercase alphabets in a text file "text.tx".
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > Consider an "text.txt" file.
@@ -141,6 +157,8 @@ countlower()
 
 9.Write a python program to write mutiple lines at a time?
 
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > In python, we have writelines() method to save the contents of a list object in a file.
@@ -158,6 +176,8 @@ f.close()
 
 10.Which method is used to set the position of a file pointer?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > - seek() method is used to set the position of file pointer.
@@ -169,6 +189,8 @@ f.close()
 ---
 
 11.How will you write a single line in a text file in python?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -186,6 +208,7 @@ file.close()
 
 12.How to write binary data to a file ?
 
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 <details><summary><b>Show Answer</b></summary>
 
 > "Binary" files are any files for which the format is not created for readable characters. Binary files will range from image files like JPEGs or GIFs, audio files like MP3s or binary document formats like Word or PDF. In python, by default files are opened in text mode. To open files in binary mode, after specifying a mode, add 'b' to that.
@@ -211,6 +234,8 @@ file.close()
 
 13.What are the various methods to copy the source file content into destination file?
 
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > - shutil.copyfileobj():Used to copy the file object from source code to destination code.
@@ -223,6 +248,8 @@ file.close()
 ---
 
 14.What are the steps to write text file in python?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -237,6 +264,8 @@ There are four steps to write text file in python,
 ---
 
 15.Write a python program to open a file named as "mark.txt" and store in a folder "class.txt" in C drive.
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -256,6 +285,8 @@ file=open("C:\class\mark.txt")
 
 16.Write a python program to read first 20 characters from a file named "data.txt?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 ```python
@@ -268,6 +299,8 @@ print(data)
 ---
 
 17.Write a python program to get five names from the user as input and write into a file "file.txt".
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -283,6 +316,8 @@ f.close()
 ---
 
 18.Write a python program to count the frequency of every vowels in a file "text.txt".
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -314,6 +349,8 @@ print("Freq of vowel \"u\" is", vu)
 
 19.Write a python program to count the words that starts as 'T' or 'M' in "sample.txt" file.
 
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 ```python
@@ -332,6 +369,8 @@ print("Total lines are :", c)
 ---
 
 20.Write a python program to copy the entire content file "sample.txt" to "file.txt".
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
   
