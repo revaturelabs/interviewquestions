@@ -156,7 +156,7 @@ public class test {
 <details><summary><b>Show Answer</b></summary>
 	<blockquote>
 	
-No.
+No
 </blockquote>
 <details><summary><b>Explanation</b></summary>
 	
@@ -282,9 +282,7 @@ This is a functional interface, since there is only one abstract method
 <blockquote>
 
 ``` java
-
-Consumer<Integer> consumer = (value) -> System.out.println(value);
-	
+Consumer<Integer> consumer = (value) -> System.out.println(value);	
 ```
 </blockquote>
 
@@ -293,7 +291,7 @@ Consumer<Integer> consumer = (value) -> System.out.println(value);
 
 <blockquote>
 	
--  which accepts only one argument and has no return value. 
+Which accepts only one argument and has no return value. 
 	
 </blockquote>
 
@@ -354,7 +352,7 @@ public interface Supplier<T>{
 <details><summary><b>Explanation</b></summary>
 <blockquote>
 
-- which does not take any input or argument and yet returns a single output. 
+Which does not take any input or argument and yet returns a single output. 
 </blockquote>
 
 </details>
@@ -370,13 +368,13 @@ public interface Supplier<T>{
 
 <details><summary><b>Show Answer</b></summary>
 
-- No.
+- No
 	
 	
 <details><summary><b>Explanation</b></summary>
 <blockquote>
 	
-- We can add any number of static and default methods in the functional interface in java 8.
+We can add any number of static and default methods in the functional interface in java 8.
 </blockquote>
 
 </details>
@@ -423,7 +421,7 @@ It will throw a compile time error that Arithmetic is not a functional interface
 import java.util.Scanner;  
 public class Addition {
     public static void main(String[] args) {
-    int x, y, sum;  
+    	int x, y, sum;  
         Scanner sc = new Scanner(System.in);  
         System.out.print("Enter the first number: ");  
         x = sc.nextInt();  
@@ -463,7 +461,7 @@ interface Sum{
 <blockquote>
 
 
--  A lambda expression is a short block of code that takes in parameters and returns a value. Which is similar to methods, but they do not need a name(Function name) and they can be implemented right in the body of a method.
+A lambda expression is a short block of code that takes in parameters and returns a value. Which is similar to methods, but they do not need a name(Function name) and they can be implemented right in the body of a method.
 	
 </blockquote>
 
@@ -540,10 +538,8 @@ interface Double extends Single{
 
 <details><summary><b>Show Answer</b></summary>
 <blockquote>
-
-
+	
 - It will throw a compile time error
-
 - When a functional interface extends another interface it should not contain any abstract methods.
 	
 </blockquote>
