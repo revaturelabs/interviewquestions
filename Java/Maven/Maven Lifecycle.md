@@ -90,10 +90,10 @@ Here are some of the most important phases in the default build lifecycle:
 
 <details><summary><b> Show Answer</b></summary>
 
->- Pre site:process before generating the actual project site;
->- Site: generate the site document of the project;
->- Post site:the process required to complete site generation;
->- Site deploy :deploy the generated site documents to the specified web server.
+>- `Pre site`:process before generating the actual project site;
+>- `Site`: generate the site document of the project;
+>- `Post site`:the process required to complete site generation;
+>- `Site deploy` :deploy the generated site documents to the specified web server.
 
 </details>
 
