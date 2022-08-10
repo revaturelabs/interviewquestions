@@ -223,8 +223,8 @@ class Student:
     def __init__(self, name):
         self.__name = name    # __name is private
   
-obj = Student("Akshay")
-print(obj._Student__name)    # using name mangling we get output as Akshay. 
+obj = Student("Jack")
+print(obj._Student__name)    # using name mangling we get output as Jack. 
 ```
 </details>
 
