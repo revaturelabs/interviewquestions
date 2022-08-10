@@ -1,6 +1,5 @@
 1:Explain default exception handling? 
 <details><summary><b> Show Answer</b></summary>
-default exception handling
 <details><summary><b> Explanation</b></summary>
 Whenever an exception has occurred, the method creates an Object known as an Exception Object and hands it off to the run-time system(JVM). The exception object contains the name and description of the exception and the current state of the program where the exception has occurred. Creating the Exception Object and handling it in the run-time system is called throwing an Exception. There might be a list of the methods that had been called to get to the method where an exception occurred. This ordered list of the methods is called Call Stack. The run-time system searches the call stack to find the method that contains a block of code that can handle the occurred exception. The block of the code is called an Exception handler.The run-time system starts searching from the method in which the exception occurred, and proceeds through the call stack in the reverse order in which methods were called.If it finds an appropriate handler, then it passes the occurred exception to it. An appropriate handler means the type of the exception object thrown matches the type of the exception object it can handle.
 If the run-time system searches all the methods on the call stack and couldn’t have found the appropriate handler, then the run-time system handover the Exception Object to the default exception handler, which is part of the run-time system. 
@@ -44,12 +43,14 @@ reverse the order of the catch statements.
 <details><summary><b> Explanation</b></summary>
 
 ```java
+	
 catch(ArithmeticException e) { 
 System.out.println("This is never reached.");
 }
 catch(Exception e) {
 System.out.println("Generic Exception catch.");
 }
+	
 ```
 	
 </details>
@@ -102,7 +103,6 @@ java.lang.ArrayIndexOutOfBoundsException
 
 5:Explain Chained Exception? 
 <details><summary><b> Show Answer</b></summary>
-Chained exceptions
 <details><summary><b> Explanation</b></summary>
 The chained exception feature allows you to associate another exception with an exception.This second exception describes the cause of the first exception. For example,In a situation where a method throws an ArithmeticException because of an attempt to divide by zero. However, the actual cause of the problem was that an I/O error occurred, which caused the divisor to be set improperly. Although the method must certainly throw
 an ArithmeticException, since that is the error that occurred, you might also want to let the calling code know that the underlying cause was an I/O error. Chained exceptions let you handle this, and any other situation in which layers of exceptions exist.
@@ -196,9 +196,9 @@ The call stack is the ordered list of methods that had been called to get to a s
 
 ---
 
-10:Explain the types of exceptions? 
+10:Explain the types of RunTime exceptions? 
 <details><summary><b> Show Answer</b></summary>
-Types of exceptions
+Types of RunTime exceptions
 <details><summary><b> Explanation</b></summary>
 	
 - ArithmeticException is thrown when an exceptional condition has occurred in an arithmetic operation.
