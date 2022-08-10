@@ -1,19 +1,32 @@
 1:Explain `throw` statement?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
 <details><summary><b> Explanation</b></summary>
-The `throw` statement is used to throw an exception explicitly. We specify the exception object which is to be thrown. The Exception has some message with it that provides the error description. These exceptions may be related to user inputs, server, etc.We can throw either checked or unchecked exceptions in Java by throw keyword. 
+	
+>The `throw` statement is used to throw an exception explicitly. We specify the exception object which is to be thrown. The Exception has some message with it that provides the error description. These exceptions may be related to user inputs, server, etc.We can throw either checked or unchecked exceptions in Java by throw keyword. 
+	
 </details></details>
 	
 ---
 	
 2:Show me the syntax of `throw` statement?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
-throw new exceptionclass("error message");  
+	
+> `throw new exceptionclass("error message");`
+	
 </details>
 	
 ---
 	
 3: Predict the output of the following code.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
  ``` java   
 public class throw1 {   
     public static void verify(int age) {  
@@ -30,12 +43,17 @@ public class throw1 {
 }    
 ```
 <details><summary><b> Show Answer</b></summary>
-An individual is not eligible to vote
+	
+>An individual is not eligible to vote
+	
 </details>
 
 ---
 
 4: Predict the output of the following code.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
  ``` java   
 import java.io.*;   
 public class throw2 {   
@@ -57,28 +75,45 @@ public class throw2 {
 }    
 ```
 <details><summary><b> Show Answer</b></summary>
-java.io.FileNotFoundException
+	
+>`java.io.FileNotFoundException`
+	
 </details>
 
 ---
 
 5:What is a `throws` statement?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b> Show Answer</b></summary>
-`Throws` keyword is used to declare an exception. It gives an information to the programmer that there may occur an exception.It provides information to the caller of the method about the exception.  
+	
+>`Throws` keyword is used to declare an exception. It gives an information to the programmer that there may occur an exception.It provides information to the caller of the method about the exception.  
+	
 </details>
 
 ---
 
 6:Show me the syntax of `throws` statement?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b> Show Answer</b></summary>
+
+```java
 return_type method_name() throws exception_class_name{  
 //method code  
 }   
+```
+	
 </details>
 
 ---
 
 7:Predict the output of the following code.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
  ``` java   
 import java.io.*;  
 class throws1{  
@@ -99,12 +134,17 @@ System.out.println("exception handled");
 }  
 ```
 <details><summary><b> Show Answer</b></summary>
-exception handled
+	
+>exception handled
 </details>
+
 
 ---
 
 8:Predict the output of the following code.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
  ``` java   
 import java.io.*;  
 class throws3{  
@@ -120,25 +160,35 @@ class throws3{
 }  
 ```
 <details><summary><b> Show Answer</b></summary>
-device operation performed
+	
+>device operation performed
+	
 </details>
 
 ---
 
 9:Differentiate `throw` Vs `throws` statement?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
-`throw` Vs `throws`
+	
+>`throw` Vs `throws`
+	
 <details><summary><b> Explanation</b></summary>
 	
-- Throw keyword is used to throw an exception explicitly in the code, inside the function or the block of code.we can only propagate unchecked exception i.e., the checked exception cannot be propagated using throw only.The throw keyword is followed by an instance of Exception to be thrown.It is used within the method.We are allowed to throw only one exception at a time i.e. we cannot throw multiple exceptions.
+>- Throw keyword is used to throw an exception explicitly in the code, inside the function or the block of code.we can only propagate unchecked exception i.e., the checked exception cannot be propagated using throw only.The throw keyword is followed by an instance of Exception to be thrown.It is used within the method.We are allowed to throw only one exception at a time i.e. we cannot throw multiple exceptions.
+>- Throws keyword is used in the method signature to declare an exception which might be thrown by the function while the execution of the code.we can declare both checked and unchecked exceptions. However, the throws keyword can be used to propagate checked exceptions only.It is followed by class names of Exceptions to be thrown.Throws is used with the method signature. We can declare multiple exceptions using throws keyword that can be thrown by the method. For example, main() throws IOException, SQLException.
 	
-- Throws keyword is used in the method signature to declare an exception which might be thrown by the function while the execution of the code.we can declare both checked and unchecked exceptions. However, the throws keyword can be used to propagate checked exceptions only.It is followed by class names of Exceptions to be thrown.Throws is used with the method signature. We can declare multiple exceptions using throws keyword that can be thrown by the method. For example, main() throws IOException, SQLException.
 </details>
 </details>
 
 ---
 
 10:Predict the output of the following code.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
  ``` java   
 public class Throw1{  
     public static void calsquare(int n) {  
@@ -156,12 +206,18 @@ public class Throw1{
 }  
 ```
 <details><summary><b> Show Answer</b></summary>
-Number is negative, cannot calculate square
+	
+>Number is negative, cannot calculate square
+	
 </details>
+
 
 ---
 
 11:Predict the output of the following code.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
  ``` java   
 public class Throws2 {   
     public static int divide(int x, int y) throws ArithmeticException {  
@@ -181,27 +237,36 @@ public class Throws2 {
 }  
 ```
 <details><summary><b> Show Answer</b></summary>
-Number cannot be divided by 0
+	
+>Number cannot be divided by 0
+	
 </details>
 
 ---
 
 12:Differentiate final,finally,finalize statements?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
-final Vs finally Vs finalize 
+	
+>final Vs finally Vs finalize 
+	
 </details>
 <details><summary><b> Explanation</b></summary>
 	
-- final is the keyword and it is an access modifier which is used to apply restrictions on a class, method or variable.final variable becomes constant and cannot be modified once it is declared.It cannot be overridden by sub class.final class cannot be inherited.It is executed only when we call it.
-
-- finally is the block in Exception Handling to execute the important code whether the exception occurs or not.It is always related to the try and catch block in exception handling.finally block cleans up all the resources used in try block.It is executed as soon as the try-catch block is executed.It's execution is not dependant on the exception.
-
-- finalize is the method in Java which is used to perform clean up processing for the object which is garbage collected.finalize() method is used with the objects.It performs the cleaning activities with respect to the object before its destruction.It is executed just before the object is destroyed.
+>- final is the keyword and it is an access modifier which is used to apply restrictions on a class, method or variable.final variable becomes constant and cannot be modified once it is declared.It cannot be overridden by sub class.final class cannot be inherited.It is executed only when we call it.
+>- finally is the block in Exception Handling to execute the important code whether the exception occurs or not.It is always related to the try and catch block in exception handling.finally block cleans up all the resources used in try block.It is executed as soon as the try-catch block is executed.It's execution is not dependant on the exception.
+>- finalize is the method in Java which is used to perform clean up processing for the object which is garbage collected.finalize() method is used with the objects.It performs the cleaning activities with respect to the object before its destruction.It is executed just before the object is destroyed.
+	
 </details>
 
 ---
 
 13:Predict the output of the following code.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
  ``` java   
 public class finalvariable {   
     final int age = 10;  
@@ -215,12 +280,17 @@ public class finalvariable {
 }  
 ```
 <details><summary><b> Show Answer</b></summary>
-Cannot assign a value to the final variable age=15
+	
+>`Cannot assign a value to the final variable age=15`
+	
 </details>
 
 ---
 
 14:Predict the output of the following code.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
   ``` java   
  public class finally1{    
       public static void main(String args[]){   
@@ -240,12 +310,17 @@ Cannot assign a value to the final variable age=15
     }  
  ```   
 <details><summary><b> Show Answer</b></summary>
-Inside try block Exception handled / by zero finally block is executed
+	
+>Inside try block Exception handled / by zero finally block is executed
+	
 </details>
 
 ---
 
 15:Predict the output of the following code.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
  ``` java 
  public class finalize1 {    
      public static void main(String[] args){     
@@ -262,24 +337,38 @@ Inside try block Exception handled / by zero finally block is executed
 }    
  ``` 
 <details><summary><b> Show Answer</b></summary>
+
+```java
 Hashcode is:3456787673
 garbage collection ended
 The finalize() method called
+```
+	
 </details>
 
 ---
 
 16:Explain Exception Propagation?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
-Exception Propagation
+	
+>Exception Propagation
+	
 <details><summary><b> Explanation</b></summary>
-An exception is first thrown from the top of the stack and if it is not caught, it drops down the call stack to the previous method. If not caught there, the exception again drops down to the previous method, and so on until they are caught or until they reach the very bottom of the call stack. This is called exception propagation.
+	
+>An exception is first thrown from the top of the stack and if it is not caught, it drops down the call stack to the previous method. If not caught there, the exception again drops down to the previous method, and so on until they are caught or until they reach the very bottom of the call stack. This is called exception propagation.
+	
 </details>
 </details>
 
 ---
 
 17:Predict the output of the following code.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
  ``` java 
  class Propagation1{  
   void method1(){  
@@ -302,23 +391,32 @@ An exception is first thrown from the top of the stack and if it is not caught, 
 }  
 ```
 <details><summary><b> Show Answer</b></summary>
-exception handled normal flow
+	
+>exception handled normal flow
+	
 </details>
 
 ---
 
 18:Explain Exception Handling with Method Overriding?
-<details><summary><b> Show Answer</b></summary>
-Exception Handling with Method Overriding
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>	
 <details><summary><b> Explanation</b></summary>
-If the superclass method does not declare an exception, subclass overridden method cannot declare the checked exception but it can declare unchecked exception.
-If the superclass method declares an exception, subclass overridden method can declare same, subclass exception or no exception but cannot declare parent exception.
+	
+>- If the superclass method does not declare an exception, subclass overridden method cannot declare the checked exception but it can declare unchecked exception.
+>- If the superclass method declares an exception, subclass overridden method can declare same, subclass exception or no exception but cannot declare parent exception.
+	
 </details>
 </details>
 
 ---
 
 19:Predict the output of the following code.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
  ``` java 
 import java.io.*;    
 class Message{   
@@ -338,12 +436,19 @@ public class ExceptionChild extends Message{
 }   
 ```
 <details><summary><b> Show Answer</b></summary>
+	
+```java
 msg() in ExceptionChild cannot override msg() in Message
+```
+	
 </details>
 
 ---
 
 20:Predict the output of the following code.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 ``` java 
 import java.io.*;    
 class Parent{    
@@ -364,7 +469,9 @@ class Child1 extends Parent{
 }   
 ```
 <details><summary><b> Show Answer</b></summary>
-child method
+	
+>child method
+	
 </details>
 
 ---
