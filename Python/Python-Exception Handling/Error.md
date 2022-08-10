@@ -8,19 +8,19 @@ file_open = open('file1.txt', 'r')
 
 What Error he will get after executing this line in python interpreter?
 
-A.FileFoundError
+A.`FileFoundError`
  
-B.NoFileFoundError
+B.`NoFileFoundError`
 
-C.FileNotFoundError
+C.`FileNotFoundError`
 
-D.FileNotExistError 
+D.`FileNotExistError`
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
-> Option C.FileNotFoundError 
+> Option C.`FileNotFoundError`
 
 <details><summary><b>Explanation</b></summary>
 
@@ -66,52 +66,50 @@ D.It will result in error because list index is out of range.
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
-
-> There can be muliple reasons of getting errors in your python code, some of the common reasons are:
-
->- Not proper indentation 
-  
->- Using the variables before defining 
-  
->- Writing wrong variable name in some places. for example, you have declared a variable as "num1= 4" and in some other places you are writing "print(num)". 
-  
->- Missing colon or comma.
-  
->- putting keywords in wrong places in the program.
-
+<blockquote>
+ 
+ There can be muliple reasons of getting errors in your python code, some of the common reasons are:
+- Not proper indentation   
+- Using the variables before defining 
+- Misspelling variable names or keywords. for example, you have declared a variable as `num1= 4`, When you want to print that number if you use`print(num)` it would give error. 
+- Missing colon or comma at the end of the functions
+ </blockquote>
 </details>
 
 ---
 
-4.What are the types of Error in python? 
+4.What are the types of `Error` in python? 
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
+<blockquote>
+ 
+Generally there are two types of errors, when is **Syntax error** and another is **Logical error**. 
 
-> Generally there are two types of errors, when is `syntax error` and another is `logical error`. 
-
--
- **Syntax error**: 
-  > These types of error will occur at compile time. When we write something wrong in the program with respect to structure or syntax of the language these errors were thrown in the program. 
+- **Syntax error**: 
+  - These types of error will occur at compile time. When we write something wrong in the program with respect to structure or syntax of the language these errors were thrown in the program. 
   
 **Example**: 
 
 ```python
 print("hello")
- print("hi")
+print("hi")
 ```
 
 - **Logical error**: 
-  > These types of error will occur at run time. When there is no mistake in writing code according to the structure and syntax of the language and still we are getting errors than that is because of the logic that we have provided in the code. 
+  - These types of error will occur at run time. When there is no mistake in writing code according to the structure and syntax of the language and still we are getting errors than that is because of the logic that we have provided in the code. 
   
 **Example**: 
 
 ```python
 print(10/0)
 ``` 
+ </blockquote>
 
 </details>
+
+---
 
 5.What will happen when we run the below code? 
 
@@ -131,13 +129,16 @@ D.we get the indentation error
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary> 
+ 
+<blockquote>
 
-> Option D.we get the indentation error
+- Option D.we get the indentation error
 
 <details><summary><b>Explanation</b></summary>
 
-> After running the above code, the program will throw the `IndentationError` because 2nd print statement is not correctly indented. To resolve this error, remove the spaces before 2nd print statement. 
+- After running the above code, the program will throw the `IndentationError` because 2nd print statement is not correctly indented. To resolve this error, remove the spaces before 2nd print statement. 
 
+ </blockquote>
 </details>
 </details>
 
@@ -152,9 +153,11 @@ prnt(num1 + num)
 ```
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details><summary><b>Show Answer</b></summary>
 
-> In the above code there were two errors, one is spelling of print keyword and another one is using num inside print which is undefined. So after changing `prnt` to `print` and `num` to `num2`, we will get the correct output.
+<details><summary><b>Show Answer</b></summary>
+ <blockquote>
+
+- In the above code there were two errors, one is spelling of print keyword and another one is using num inside print which is undefined. So after changing `prnt` to `print` and `num` to `num2`, we will get the correct output.
 
 ```python
 num1 = 12
@@ -162,6 +165,7 @@ num2 = 14
 print(num1 + num2)  # output: 26 
 ```
 
+ </blockquote>
 </details>
 
 ---
@@ -198,15 +202,17 @@ print(c)
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
+<blockquote>
 
 **Exceptions**:
-  > - Errors detected during execution are called `exceptions`.
-  > - It is not possible to recover.
+   - Errors detected during execution are called `exceptions`.
+   - It is not possible to recover.
 
 **Error**:
-  > - Errors are the problems which stop the program execution.
-  > - It is possible to recover the `error`.
+   - Errors are the problems which stop the program execution.
+   - It is possible to recover the `error`.
 
+ </blockquote>
 </details>
 
 ---
@@ -339,20 +345,25 @@ print cwd
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
  
 <details><summary><b>Show Answer</b></summary>
+ 
+<blockquote>
 
-> **Basic types of errors**
+**Basic types of errors**
 
-> **Syntax Error**: 
-Raised by the parser when a syntax error is encountered.
+**Syntax Error**: 
+  
+ - Raised by the parser when a syntax error is encountered.
 
-> **Semantic Error**:
-Raised by the parser when there is logical error in the program. 
+**Semantic Error**:
+ 
+  - Raised by the parser when there is logical error in the program. 
 
-Here in the above given program, Syntax error occurs in the third line (print cwd).
+  - Here in the above given program, Syntax error occurs in the third line (print cwd).
 
 **SyntaxError**: Missing parentheses in call to `print`. 
 
-</details>
+ </blockquote>
+ </details>
 
 ---
 
@@ -493,10 +504,12 @@ print(x)
  ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
 <details><summary><b>Show Answer</b></summary>
+ <blockquote>
 
-> - This expression `x=100/0` throws `ZeroDivisionError: division by zero` error.
-> - The `ZeroDivisionError` is thrown whenever we are trying to divide a number by zero.
+ - This expression `x=100/0` throws `ZeroDivisionError: division by zero` error.
+ - The `ZeroDivisionError` is thrown whenever we are trying to divide a number by zero.
 
+ </blockquote>  
 </details>
 
 ---
