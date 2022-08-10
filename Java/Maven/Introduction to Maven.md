@@ -62,7 +62,7 @@ POM (Project Object Model)- which is an XML file having the details of project  
 
 ---
 
-6. What is the command used to create a simple projet using Maven?
+6. What is the command used to create a simple project using Maven?
 
 <details> <summary> <b> Show Answer </b> </summary>
 
