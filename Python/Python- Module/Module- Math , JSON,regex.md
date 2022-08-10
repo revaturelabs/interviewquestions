@@ -2,6 +2,7 @@
 
 1.Explain python modules?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details><summary><b>Show Answer</b></summary>
   
 > - A file containing Python definitions and statements is known as a module. In python Variables, classes, and functions can all be defined in a module. 
@@ -36,6 +37,8 @@ example.add()
 
 2.Which one of these are used to storing and exchanging the data?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > - In python **JSON** is a syntax to storing and exchanging data.
@@ -51,6 +54,8 @@ example.add()
 ---
 
 3.How can we import modules in python?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
   
@@ -77,7 +82,9 @@ print(math.sqrt(5))
   
 ---  
   
-4.Can we import multiple modules in python?
+4.Can we import multiple modules in python and give an example?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)  
   
 <details><summary><b>Show Answer</b></summary>
   
@@ -106,6 +113,8 @@ print(random.randint(10, 20))
 
 5.How will you import with renaming a module?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
   
 > If we want to use the module with a different name, we can use from import_as statement. It is possible to import a particular method and use that method with a different name. 
@@ -128,6 +137,8 @@ print(number(100, 500))
   ---
   
 6.How will you import all the modules in python?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary> 
   
@@ -155,6 +166,8 @@ print(pow(5,2))
 
 7.Write a regex program in python to extract that the full email addresses from the sentance?
 
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary> 
 
 ```python
@@ -176,6 +189,8 @@ print(emails)
 ---
 
 8.Write a python program to shuffle the given elements.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary> 
   
@@ -199,6 +214,8 @@ print("after shuffling",String)
 
 9.Write a python program to find the words with exactly 8 letters using regular expression.
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary> 
 
 ```python
@@ -220,6 +237,8 @@ print(output)
 ---
 
 10.What is dir() function in modules?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary> 
   
@@ -247,6 +266,8 @@ print(dir(re))
 
 11.Write a python program to sort JSON keys and write them into a file.
 
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
   
 > - In python, to sort JSON keys first we need to import the JSON.
@@ -273,6 +294,8 @@ print("writing JSON data into a file is done")
 
 12.What is Short Labels in python module?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary> 
   
 > 1. \w - This is an Word class (alphanumeric).
@@ -287,6 +310,8 @@ print("writing JSON data into a file is done")
 ---
 
 13.Write a python program to check whether the given function is a user-defined function or not.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -313,6 +338,8 @@ print(isinstance(abs, types.LambdaType))
 
 14.How can we use re.split() function in module?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary> 
   
 > - In python re.split() is used to define a how many splits you want to perform.
@@ -338,6 +365,8 @@ print(isinstance(abs, types.LambdaType))
 ---
 
 15.What is the difference between string split() method and regex split()?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary> 
 
@@ -386,6 +415,8 @@ print(output)
 
 16.How can we replace one or more occurrences of a regex pattern in given string?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > - In python we can use sub() and subn() methods are used to search and replace a string.
@@ -404,6 +435,8 @@ used to find and replaces the **first n** occurrences of pattern.
 ---
 
 17.What are the difference between Built-in modules and User-defined modules?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -431,6 +464,8 @@ used to find and replaces the **first n** occurrences of pattern.
 ---
 
 18.How can we convert python object to JSON?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -483,6 +518,8 @@ Json_data=re.findall('>\w+', string)
 print(Json_data)
 ```
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > ['>Belarus', '>China', '>2000']
@@ -505,6 +542,8 @@ print(Json_data)
  C.re.regex(str)
  
  D.re.create(str)
+ 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
