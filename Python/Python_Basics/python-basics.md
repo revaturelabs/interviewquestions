@@ -343,14 +343,14 @@ output: rohit
 
   ---
   
-17.What is the difference between "is" and "==" in python?
+17.What is the difference between `is` and `==` in python?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> 'is' operator is an Identity operator, whereas '==' is a comparison operator. 
-'is' operator is used to check whether both operands belongs to same location in the memory. On the other hand, '==' is used to check whether both the operands have same value. 
+> `is` operator is an Identity operator, whereas `==` is a comparison operator. 
+`is` operator is used to check whether both operands belongs to same location in the memory. On the other hand, `==` is used to check whether both the operands have same value. 
   </details>
 
  ---
@@ -429,13 +429,13 @@ d) is not
   
 ---
   
-21.What is the difference between 'and' and 'or' operators?
+21.What is the difference between `and` and `or` operators?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
  
-> Both "and" and "or" are logical operators which requires two operands and both returns True and False values after evaluation. The "and" operator returns True when both the operands are True, else returns False, whereas "or" operator returns True if either operand is True and returns False when both operands are False. 
+> Both `and` and `or` are logical operators which requires two operands and both returns True and False values after evaluation. The "and" operator returns True when both the operands are True, else returns False, whereas "or" operator returns True if either operand is True and returns False when both operands are False. 
   </details>
 
 ---
@@ -792,7 +792,7 @@ d) 76
 
 <details><summary> <b>Explanation</b> </summary>
   
-> UnboundLocalError: local variable 'x' is referenced before assignment.
+> `UnboundLocalError: local variable 'x' is referenced before assignment`.
   
   </details>
   </details>
@@ -924,7 +924,7 @@ print(x)
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> option a) is correct because, in python, it will give a NameError that name "x" is not defined.
+> option a) is correct because, in python, it will give a `NameError` that name "x" is not defined.
   
   </details>
   </details>
