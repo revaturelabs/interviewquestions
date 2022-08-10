@@ -21,10 +21,15 @@ It is to refer the method of functional interface. While using a lambda expressi
 
 <details><summary><b> Show Answer </b></summary>
  <blockquote>
+  
 - Reference to a static method.
+  
 - Reference to an instance method.
+  
 - Reference to an instance method of an arbitrary object of a particular type
+  
 - Reference to a constructor.
+  
  </blockquote>
 </details>
 
@@ -35,11 +40,15 @@ It is to refer the method of functional interface. While using a lambda expressi
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer </b></summary>
+ 
  <blockquote>
+  
 - ContainingClass::staticMethodName
 - We can refer to the static method by calling its name with the class where it resides.
+  
  </blockquote>
-</details>/
+ 
+</details>
  
  ---
 
@@ -48,10 +57,14 @@ It is to refer the method of functional interface. While using a lambda expressi
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer </b></summary>
+ 
  <blockquote>
+  
 - containingObject::instanceMethodName
 - use the instance method name of the particular object name.
+  
  </blockquote>
+ 
 </details>
 
  ---
@@ -61,10 +74,14 @@ It is to refer the method of functional interface. While using a lambda expressi
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer </b></summary>
+ 
  <blockquote>
+  
 - We can mention the type with the instance method name of the object.
 - ContainingType::methodName
+  
  </blockquote>
+ 
 </details>
  
  ---
@@ -74,9 +91,12 @@ It is to refer the method of functional interface. While using a lambda expressi
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer </b></summary>
+ 
  <blockquote>
+  
 - ClassName::new
 - new is the keyword to refer to the constructor with the class name.
+  
  </blockquote>
 </details>
 
@@ -87,11 +107,15 @@ It is to refer the method of functional interface. While using a lambda expressi
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
 <details><summary><b> Show Answer </b></summary>
+ 
  <blockquote>
+  
 - It has 2 parts. class/object and method/constructor.
 - Separated by :: (double colons)
 - No additional parameters are passed in method reference.
+  
  </blockquote>
+ 
 </details>
  
  ---
@@ -139,16 +163,24 @@ public class MethodReference{
 ``` 
 
 <details><summary><b> Show Answer </b></summary>
+ 
  <blockquote>
+  
    Data Structures and Alogrithms<br>
    Java Programming<br>
    Python Programming
+  
   </blockquote>
+ 
  <details><summary><b>Explanation</b></summary>
+  
    <blockquote>
+    
    -  This is an example of Reference to an instance method of an arbitrary object of a particular type.
    -  First, it will sort the list and apply compareToIgnoreCase to return the result.
+    
  </blockquote>
+  
 </details>
  
  </details>
@@ -182,9 +214,13 @@ public class MethodReference {
  ```
  
  <details><summary><b>Explanation</b></summary>
+  
    <blockquote>
+    
  - Here the static method reference printhello() refers to its functional method print() in the interface Sample.
+    
  </blockquote>
+  
  </details>
  
  </details>
