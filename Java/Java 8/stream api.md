@@ -1,6 +1,6 @@
  ## Technical 
  
- 1: Which package should be imported to use Stream API in Java 8?
+ 1. Which package should be imported to use Stream API in Java 8?
  
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -16,7 +16,7 @@
 
  ---
  
- 2: Why do we need to import java.util.stream even after importing java.util.* in the code to use stream API?
+ 2. Why do we need to import java.util.stream even after importing java.util.* in the code to use stream API?
 
    <details><summary><b> Show Answer</b></summary>
  
@@ -31,7 +31,7 @@
 
   ---
     
-  3: Explain Stream API.
+  3. Explain Stream API.
   
   ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
     
@@ -55,7 +55,7 @@
 
   ---
   
-  4: How many operations are performed in stream API to get the result?
+  4. How many operations are performed in stream API to get the result?
   
   ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -73,7 +73,7 @@
 
 ---
    
-5:List some intermediate operations in Stream API.
+5.List some intermediate operations in Stream API.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -91,7 +91,7 @@
 
   ---
   
-6: List some terminal operations in Stream API.
+6. List some terminal operations in Stream API.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -109,7 +109,7 @@
   
   ---
 
-7: Will the values of elements in the stream change when you process it?
+7. Will the values of elements in the stream change when you process it?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -132,7 +132,7 @@ Because stream API processes the elements as per pipelined operations without ch
   
  ---
 
-8: Explain pipeline operations.
+8. Explain pipeline operations.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -149,7 +149,7 @@ Because stream API processes the elements as per pipelined operations without ch
   
  ---
 
-9: List the ways of creating a stream in java8.
+9. List the ways of creating a stream in java8.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -171,7 +171,7 @@ Because stream API processes the elements as per pipelined operations without ch
 
  ---
   
-10: When should we use filter operation in streams?
+10. When should we use filter operation in streams?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -188,7 +188,7 @@ Because stream API processes the elements as per pipelined operations without ch
   
  ---
 
-11: Differentiate between map() and flatMap().
+11. Differentiate between map() and flatMap().
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -210,7 +210,7 @@ Because stream API processes the elements as per pipelined operations without ch
 
   ---
   
-12: When do we need a sorted intermediate operation to be performed?
+12. When do we need a sorted intermediate operation to be performed?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -227,7 +227,7 @@ Because stream API processes the elements as per pipelined operations without ch
   
 ---
 
-13: What is the use of count() terminal operations in stream API?
+13. What is the use of count() terminal operations in stream API?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -245,7 +245,7 @@ Because stream API processes the elements as per pipelined operations without ch
   
 ---
 
-14: What are the uses of forEach() terminal operation?
+14. What are the uses of forEach() terminal operation?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -263,7 +263,7 @@ Because stream API processes the elements as per pipelined operations without ch
 
  ---
   
-15: What is the use of collect() terminal operation?
+15. What is the use of collect() terminal operation?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -280,7 +280,7 @@ Because stream API processes the elements as per pipelined operations without ch
  
  ---
 
- 16: Can we add or delete elements from streams?
+ 16. Can we add or delete elements from streams?
  
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -304,7 +304,7 @@ Because stream API processes the elements as per pipelined operations without ch
     
  ---
  
- 17: Explain about Lazy Invocation.
+ 17. Explain about Lazy Invocation.
  
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -323,7 +323,7 @@ Because stream API processes the elements as per pipelined operations without ch
 
 ## Problem Solving
 
-18: Predict the output for the following operation.
+18. Predict the output for the following operation.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -343,7 +343,7 @@ Stream<String> s = Stream.of("java", "SQL", "python",  "JDBC");
    
    <blockquote>
    
- - Here we are using the filter to return the result of the element starting with "S".
+ Here we are using the filter to return the result of the element starting with "S".
     
     </blockquote>
 
@@ -353,7 +353,7 @@ Stream<String> s = Stream.of("java", "SQL", "python",  "JDBC");
    
   ---
 
- 19: Predict the output of the following intermediate operation.
+ 19. Predict the output of the following intermediate operation.
  
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
  
@@ -371,7 +371,7 @@ s.distinct().forEach(System.out::print);
   
   <blockquote>
   
-- `distinct()`- will return a stream from the source stream removing the duplicate elements.
+`distinct()`- will return a stream from the source stream removing the duplicate elements.
    
    </blockquote>
   
@@ -382,7 +382,7 @@ s.distinct().forEach(System.out::print);
   ---
 
 
- 20: Predict the output of the following code.
+ 20. Predict the output of the following code.
  
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
