@@ -1,5 +1,5 @@
 ## Technical
-1: In which package does the Date Time API reside in Java 8?
+1. In which package does the Date Time API reside in Java 8?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -12,7 +12,7 @@
 --- 
 
 
-2: List the classes in Date and Time API in java 8.
+2. List the classes in Date and Time API in java 8.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -29,7 +29,7 @@
 
 --- 
 
-3: When do you use Local DateTime API and Zoned DateTime API in Java 8?
+3. When do you use Local DateTime API and Zoned DateTime API in Java 8?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -47,7 +47,7 @@
 --- 
 
 
-4: List the drawbacks of existing date and time API before Java 8.
+4. List the drawbacks of existing date and time API before Java 8.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -65,7 +65,7 @@
 
 --- 
 
-5: Write the pattern of DateTime using DateTimeFormatter class.
+5. Write the pattern of DateTime using DateTimeFormatter class.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
@@ -83,7 +83,7 @@ DateTimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
 
 --- 
 
-6: Explain about Period and Duration classes.
+6. Explain about Period and Duration classes.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -102,7 +102,7 @@ DateTimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
 
 --- 
 
-7: Write the syntax for LocalTime class to find the current time in java 8?
+7. Write the syntax for LocalTime class to find the current time in java 8?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -121,7 +121,7 @@ LocalTime time = LocalTime.now();
  --- 
 
  
-8: Explain about time-zone offset?
+8. Explain about time-zone offset?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -138,7 +138,7 @@ LocalTime time = LocalTime.now();
 
 --- 
 
-9: Write the syntax to print the current date and time in Java 8?
+9. Write the syntax to print the current date and time in Java 8?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -162,7 +162,7 @@ LocalDateTime currentDateTime = LocalDateTime.now();
 
 ## Predict the output
 
-10: Predict the output of the following code.
+10. Predict the output of the following code.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
