@@ -244,7 +244,7 @@ one abstract method is allowed in functional interface
 
 ---
 
-14. Is this a functional interface code snippet?
+14. Is this Circle interface is a functional interface code snippet?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -550,7 +550,7 @@ It will throw a compile time error
 
 <details><summary><b>Explanation</b></summary>
 	
- When a functional interface extends another interface it should not contain any abstract methods.
+ >When a functional interface extends another interface it should not contain any abstract methods.
 	
 </blockquote>
 
