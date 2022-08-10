@@ -44,7 +44,7 @@
 
 3.How will you open a file in write mode?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -66,7 +66,7 @@ f.close()
 
 4.What are the similarities and differences between a+ and w+?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -79,8 +79,7 @@ f.close()
 
 5.What is the difference between  **.** and **..** folders?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details><summary><b>Show Answer</b></summary>
 
 > - In python, the **.** folder is the current folder.
