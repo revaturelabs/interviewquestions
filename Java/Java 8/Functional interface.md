@@ -404,10 +404,13 @@ interface Arithmetic {
 	
 <details><summary><b>Show Answer</b></summary>
 <blockquote>
-	
-It will throw a compile time error that Arithmetic is not a functional interface, since it has 2 abstract methods.
+	It will throw a compile time error
+</blockquote>	
+<details><summary><b>Explanation</b></summary>	
+<blockquote>	
+ that Arithmetic is not a functional interface, since it has 2 abstract methods.
 </blockquote>
-	
+	</details>
 </details>
 
 ---
@@ -541,12 +544,17 @@ interface Double extends Single{
 <details><summary><b>Show Answer</b></summary>
 <blockquote>
 	
-- It will throw a compile time error
-- When a functional interface extends another interface it should not contain any abstract methods.
+It will throw a compile time error
+</blockquote>	
+	
+
+<details><summary><b>Explanation</b></summary>
+	
+ When a functional interface extends another interface it should not contain any abstract methods.
 	
 </blockquote>
 
-
+</details>
 </details>
 	
 ---
