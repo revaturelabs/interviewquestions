@@ -2,6 +2,9 @@
 
 
 1. Explain Abstraction? How to achieve abstraction concept in python? Give example. 
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Abstraction refers to hiding of unnecessary data from the user and showing only the relevant part in order to reduce complexity and increasing the efficiency of program. For example let's take a social media platforms where we share photos, chat, etc., with friends without knowing how all these operations are happening in background.     
@@ -30,6 +33,9 @@ c.sound()  # output: Zoom-Zoom...!!
 
 ---
 2. Does python have a interface concept?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > In python, there is no thing called interface. Python doesn't have any interface keyword like it has for class. So, we can only use the abstract base class that let us define abstract methods inside it and those methods should be implemented by derived classes.
@@ -62,6 +68,9 @@ d) Abstract classes can have both abstract methods and non-abstract methods.
 
 ---
 5. Can we create abstract class by just passing 'pass' inside method definition in python?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > We can create classes which have some methods without definition directly in python but, these classes are not called as abstract base class because python doesn't have default implementation of abstract classes. And there is no such keyword as abstract through which we can create a abstract class or method. To create a abstract class in python, we have to import "abc" module which provides the way to create abstract class which can have abstract and non abstract methods both. 
@@ -91,6 +100,8 @@ a) Reached NY
 b) 60 km away from NY  
 c) Error  
 d) Nothing is printed   
+
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option b) 
@@ -157,6 +168,9 @@ a) Reached NY
 b) 60 km away from NY  
 c) Error  
 d) Nothing is printed  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option c)
@@ -189,6 +203,9 @@ a) Reached NY
 b) pass  
 c) Error, because Derived class is an abstract class.  
 d) Nothing is printed   
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option c)
@@ -223,6 +240,9 @@ a) Reached NY
 b) pass  
 c) Error, because Derived class is an abstract class.  
 d) Nothing is printed   
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option d)
