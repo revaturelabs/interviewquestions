@@ -17,7 +17,7 @@
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> In Python, there is no do-while loop present. But we can use while loop in it.
+> In Python, there is no do-while loop. But we can use while loop in it.
 </details>
 
 ---
