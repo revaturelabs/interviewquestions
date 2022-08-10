@@ -71,7 +71,7 @@ b) False
 </details>
 
 ---
-6. What is the output of below code?  
+6. What will be the output of below code?  
 ```python3
 age = 16
 if age >=18
@@ -128,6 +128,8 @@ a) Yes
 b) Not possible    
 c) we can write it but have to import the module first.    
 d) None of the above      
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -202,6 +204,9 @@ b) Hello-World
 c) Hi-World  
 &emsp;Hello-World   
 d) Error  
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option is a) Hi-World
@@ -227,6 +232,9 @@ else:
   c) Hi-World  
 &emsp;Hello-World   
   d) Error  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option is b) Hello-World
@@ -252,6 +260,9 @@ else:
   c) Hi-World  
 &emsp;Hello-World   
   d) Error  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option is a) Hi-World
@@ -277,6 +288,9 @@ b) Hello-World
 c) Hi-World  
 &emsp;Hello-World   
 d) Error  
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option is d) Error
@@ -299,11 +313,14 @@ if a | b:
 else:
     print("Hello-World")
 ```
-  a) Hi-World  
-  b) Hello-World  
-  c) Hi-World  
+a) Hi-World  
+b) Hello-World  
+c) Hi-World  
 &emsp;Hello-World   
-  d) Error  
+d) Error  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option is a) Hi-world 
@@ -316,21 +333,24 @@ else:
 ---
 16. What is the output of the following for loop?
 ```python3
-for i in 'Akshay':
-   if i == 'h':
+for i in 'Jerry':
+    if i == 'r':
       break
-   print(i, end=", ")
+    print(i, end=", ")
 ```
-a) A, k, s, h, a, y  
-b) A, k, s, h  
-c) A, k, s,  
-d) A, k, s   
+a) J, e, r, r, y,   
+b) J, e, r, r, y  
+c) J, e,  
+d) J, e, y,  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option is c) A, k, s, 
+> Option is c) J, e, 
 <details><summary> <b>Explanation</b> </summary>
 
-> The break statement jumps out of loop when the if condition becomes true i.e when the i value becomes equal to 'h'. So it prints from A till s with comma after each character and comes out of loop and will not print " h, a, y, " of "Akshay" string.
+> The break statement jumps out of loop when the if condition becomes true i.e when the i value becomes equal to 'r'. So it prints from J till e with comma after each character and comes out of loop and will not print " r, r, y, " of "Jerry" string.
   </details>
   </details>
   
@@ -338,39 +358,47 @@ d) A, k, s
 17. What is the output of the following for loop?
   
 ```python3 
-for i in 'akshay':
-   if i == 'a':
-      continue
-   print(i, end=", ")
+for i in 'Jerry':
+    if i == 'r':
+        continue
+    
+    print(i, end=", ")
 ```
-a) k, s, h, a, y  
-b) a, k, s, h, a, y,  
-c) , k, s, h, y  
-d) k, s, h, y,  
+a) J, e, r, r, y,   
+b) J, e, r, r, y  
+c) J, e,  
+d) J, e, y,  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option is d) k, s, h, y,
+> Option is d) J, e, y,
 <details><summary> <b>Explanation</b> </summary>
   
-> The continue statement skips the current iteration and moves to next iteration when the condition inside if becomes true. Here whenever the value of i becomes equal to a, it will not print the ith value for that iteration and iterates from next iteration. Hence 'a' is not printed anytime in output screen and we get the output as "k, s, h, y,".
+> The continue statement skips the current iteration and moves to next iteration when the condition inside if becomes true. Here whenever the value of i becomes equal to r, it will not print the ith value for that iteration and iterates from next iteration. Hence 'r' is not printed anytime in output screen and we get the output as "J, e, y,".
   </details>
   </details>
   
 ---
 18. What is the output of the following for loop?
 ```python3
-for i in 'akshay':
-   if i == 'a':
-      pass
-   print(i, end=", ")
+for i in 'Jerry':
+    if i == 'r':
+        pass
+      
+    print(i, end=", ")
 ```
-  a) k, s, h, a, y  
-  b) a, k, s, h, a, y,  
-  c) , k, s, h, y  
-  d) k, s, h, y,  
+a) J, e, r, r, y   
+b) J, e, r, r, y,  
+c) J, e,  
+d) J, e, y,  
+ 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option is b) a, k, s, h, a, y,
+> Option is b)
 <details><summary> <b>Explanation</b> </summary>
   
 > The pass statement in python does not do anything and therefore all the characters of string is printed with comma(,) at last of each character.
@@ -390,6 +418,9 @@ a) 8 9 10 11
 b) 8 9 10   
 c) 9 11  
 d) None  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option is a)
@@ -413,6 +444,9 @@ a) 8 9 10 11
 b) 8 9 10   
 c) 9 11  
 d) None  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > Option is b)
@@ -545,7 +579,10 @@ c) 2
 &emsp;3   
 &emsp;4  
 &emsp;5   
-d) Error     
+d) Error    
+ 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option is d)
@@ -614,6 +651,9 @@ c) 6
 &emsp;18  
 d) 4     
 &emsp;20   
+ 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
  
 > Option is b) 
@@ -668,6 +708,9 @@ a) 2
 b) 3  
 c) 4  
 d) 5  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > option is d) 5
@@ -694,6 +737,9 @@ a) 3
 b) 1      
 c) 2      
 d) 4    
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 
 Option is b) 1 
@@ -796,6 +842,7 @@ b) Hi
 c) No output  
 d) Error  
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -921,6 +968,9 @@ a) 1 2 3
 b) 123  
 c) Error  
 d) None of the above  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option c) Error  
@@ -982,6 +1032,9 @@ a) []
 b) list  
 c) list()  
 d) None of the above  
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option is d)
@@ -1028,6 +1081,9 @@ a) while 1:
 b) while True:    
 c) while 0:    
 d) while -1:    
+ 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > options a), b) and d) are correct 
@@ -1097,6 +1153,9 @@ a) 8 12
 b) 8 17    
 c) 12 8    
 d) 8  8    
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > option b) 
@@ -1125,6 +1184,9 @@ a) 8 12
 b) 8 17  
 c) 12 8  
 d) 8  8  
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > option d) 
@@ -1153,6 +1215,9 @@ print(sum2)
   b) 12 4  
   c) 3 12  
   d) 8  8  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option c) 
@@ -1181,6 +1246,9 @@ print(sum2)
   b) 8 17  
   d) 8 18  
   c) 9 17  
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > option is a) 9 18
@@ -1235,6 +1303,9 @@ b) True
 c) False  
 &emsp;True
 d) None of the above  
+            
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option d)
@@ -1264,6 +1335,9 @@ c) True
 d) True  
 &emsp;False  
 &emsp;True   
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option is b).
@@ -1291,6 +1365,9 @@ b) False
 &emsp;True   
 c) True  
 d) None of the above  
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
  
 > option is d)
@@ -1341,7 +1418,9 @@ a) 8
 b) 6  
 c) 4  
 d) 3 
-           
+ 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option is c) 4.
@@ -1379,7 +1458,7 @@ b) ABC
 c) abc  
 d) xyz  
 
-
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -1452,6 +1531,9 @@ a) 5 3 8 2 7 8 2
 b) 3 1 6 4 7 8 2  
 c) 4 2 6 2 8 8 2  
 d) 3 1 7 3 9 9 1  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option is b) 
@@ -1475,6 +1557,9 @@ a) 5 3 8 2 7 8 2
 b) 3 1 6 4 7 8 2    
 c) 4 2 6 2 8 8 2    
 d) Error     
+ 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option d) 
@@ -1498,6 +1583,9 @@ a) 5 3 8 2 7 8 2
 b) 5 1 6 4 7 8 0  
 c) 5 3 6 2 7 8 0  
 d) 4 2 6 2 8 8 2   
+     
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option c) is correct
@@ -1514,6 +1602,9 @@ list1 = [4, 2, 7, 3, 8, 9, 1]
 for i in list1:  
     # write your logic here
 ```
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 ```python3
@@ -1533,6 +1624,9 @@ list1 = [4, 2, 7, 3, 8, 9, 1]
 for i in list1:  
     # write your logic here
 ```
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 ```python3
@@ -1552,6 +1646,9 @@ list1 = [4, 2, 7, 3, 8, 9, 1]
 for i in list1:  
     # write your logic here
 ```
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 ```python3
@@ -1571,6 +1668,9 @@ list1 = [4, 2, 7, 3, 8, 9, 1]
 for i in list1:  
     # write your logic here
 ```
+ 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 ```python3
@@ -1665,7 +1765,10 @@ else :
 a) Error  
 b) Hello  
 c) Hi  
-d) Nothing will be printed  
+d) Nothing will be printed 
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
  
 > option a)
@@ -1699,6 +1802,9 @@ d) None
 n = 6
 ___#write the logic here___
 ```
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
    
 ```python3
@@ -1791,6 +1897,9 @@ a) 0 1 2
 b) 0 1 2 4  
 c) 0 1 2 3 4  
 d) 1 2 3 4  
+ 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option is b) 
@@ -1812,6 +1921,9 @@ a) 5 6 7 8
 b) 5 6 7    
 c) i i i i    
 d) i i i    
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option is c) 
@@ -1876,6 +1988,9 @@ number = int(input("Enter any number"))
 
 # write your logic here 
 ```
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 ```python3
@@ -1911,6 +2026,9 @@ a) 2 4 6 8 10
 b) 3 5 7 9    
 c) 2 4 6 8    
 d) Nothing is printed     
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 Option d) is correct.
@@ -1933,6 +2051,9 @@ a) 1
 b) 2  
 c) 1 3 5  
 d) 2 4   
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option is a) 1 
@@ -1955,6 +2076,9 @@ a) 1
 b) 2    
 c) 1 3 5    
 d) 2 4     
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option is b) 2 
@@ -1974,6 +2098,9 @@ a) 10, 18, 4
 b) 11, 19, 4  
 c) 10, 19, 4  
 d) 10, 18, -4   
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option is c) 
@@ -1994,7 +2121,10 @@ for i in range(4):
 a) It prints "Hello" three times.    
 b) It prints "Hello" four times.    
 c) It gives an error.    
-d) it prints nothing.    
+d) it prints nothing.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option is d) 
@@ -2018,6 +2148,9 @@ a) 1 4 8 12
 b) 1 5 10 15    
 c) 2 5 9 13    
 d) 2 5 10 14     
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option is c) 
@@ -2041,6 +2174,9 @@ a) 1 4 8 12
 b) 1 5 10 15  
 c) 2 5 9 13  
 d) 2 5 10 14   
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option is b) 
@@ -2063,7 +2199,10 @@ for i in range(0, 4, 2):
 a) 1 4 8 12  
 b) 1 5 10   
 c) 2 10  
-d) 1 10    
+d) 1 10  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option is d)
@@ -2085,6 +2224,9 @@ a) hello
 b) hi  
 c) hello hi  
 d) Error   
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option is a) hello
@@ -2106,6 +2248,9 @@ a) [1, 2]
 b) [1, 2, 2, 1]  
 c) [1, 2, 1, 2]  
 d) None of the mentioned  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option is d) 
@@ -2153,6 +2298,8 @@ a) [1, 2, 1, 2]
 b) [1, 2, 2, 3]  
 c) [1, 2, 3, 2]   
 d) Error
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
