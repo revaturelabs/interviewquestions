@@ -3,6 +3,8 @@
 
 1. Does python have a Switch-Case statement?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Python doesn't have a switch case statement, we can use the normal if else statements in it.
@@ -10,6 +12,8 @@
 
 ---
 2. Does python have a while and do-while loop?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -22,6 +26,9 @@ a) for
 b) while  
 c) if   
 d) None of the above  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option is c) if 
@@ -33,6 +40,8 @@ d) None of the above
 
 ---
 4. Write the syntax for if-else statement.
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -53,6 +62,9 @@ d) None of the above
 
 a) True  
 b) False   
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
  
 > Option is b) False.
@@ -72,6 +84,9 @@ b) Eligible for voting
 c) Eligible for voting   
 &ensp; Not eligible for voting   
 d) SyntaxError   
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option is d) SyntaxError
@@ -93,7 +108,10 @@ else:
 a) Number is Even  
 b) Number is Odd  
 c) "Number is Odd"  
-d) "Number is Even"   
+d) "Number is Even" 
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option is b) Number is Odd 
@@ -110,6 +128,7 @@ a) Yes
 b) Not possible    
 c) we can write it but have to import the module first.    
 d) None of the above      
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option is a) Yes 
@@ -126,6 +145,9 @@ a) if (x>4)
 b) if (x=>4)  
 c) if (x<4):  
 d) if x>4   
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
  
 > Option c) is correct
@@ -152,6 +174,9 @@ else:
   c) Hello-World  
   d) Hi  
   &emsp;Hello  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option is d) 
@@ -404,6 +429,9 @@ a) Python’s for loop used to iterates over the items of list, tuple, dictionar
 b) else clause of for loop is executed when the loop terminates abruptly.    
 c) else clause of for loop is executed when the loop terminates naturally.  
 d) We use for loop when we want to perform a task indefinitely until a particular condition is met.  
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > Option are a) and c). 
@@ -419,6 +447,9 @@ a) 4, 3, 2, 1, 0
 b) 4, 3, 2, 1, 0, 1, 2,  
 c) 4, 3, 2, 1, 0, -1,  
 d) 4, 1, -1, -3,  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option is c) 
@@ -451,7 +482,10 @@ for x in numbers:
   d) 5 Apple  
 &emsp;6 Orange    
 &emsp;5 Apple    
-&emsp;6 Orange     
+&emsp;6 Orange  
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
  
 > Option a)
@@ -468,6 +502,9 @@ a) for loop
 b) while loop  
 c) do-while loop  
 d) None of the above  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 Option is c) do-while loop
@@ -480,6 +517,9 @@ a) Loops should be ended with keyword "end".
 b) "break" can be used to bring control out of the current loop.  
 c) No loop can be used to iterate through the elements of strings.  
 d) "continue" is used to continue with the remaining statements inside the loop.  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option is b).
@@ -511,7 +551,7 @@ d) Error
 > Option is d)
 <details><summary> <b>Explanation</b> </summary>
   
-> There should be no space between + and = in last line of code.
+> There should be no space between `+` and `=` in last line of code.
   </details>
 </details> 
 
@@ -536,6 +576,9 @@ c) 2
 &emsp;4    
 &emsp;5     
 d) Error     
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option is a)
@@ -583,7 +626,7 @@ d) 4
 ---
 29) Predict the output of the below code
 ```python3
-str1="akshay"
+str1="abbey"
 c=0
 for i in str1:
    if(i!="a"):
@@ -596,6 +639,9 @@ a) 2
 b) 3  
 c) 4  
 d) 5  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > Option is c) 4
@@ -608,7 +654,7 @@ d) 5
 ---
 30. Predict the output of the below code
 ```python3
-str1="akshay"
+str1="adonis"
 c=0
 for i in str1:
    if(i!="a"):
@@ -661,6 +707,9 @@ Option is b) 1
 32. State True or False: "We can use else condition only 1 time in the program".  
 a) True  
 b) False   
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option b) False
@@ -677,6 +726,9 @@ c) for i in range(0,5):
 &emsp;&emsp;print(i)  
 d) for i in range(0,5,1):  
 &emsp;&emsp;print(i)  
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > option is a)
@@ -697,6 +749,9 @@ a) 1
 b) 2  
 c) 0  
 d) infinite   
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > option b) 
@@ -717,6 +772,9 @@ a) 1
 b) 2    
 c) 0   
 d) infinite     
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > option d) 
@@ -737,6 +795,8 @@ b) Hi
 &emsp;Hi  
 c) No output  
 d) Error  
+
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > Option c) 
@@ -752,6 +812,9 @@ a) for i in range(len(a)):
 b) for(i=0;i<len(a);i++)  
 c) for i in a:  
 d) for i in range(len(a),2,-1):  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > Option b) 
@@ -763,7 +826,10 @@ d) for i in range(len(a),2,-1):
   a) When loop condition becomes true  
   b) when loop condition becomes false   
   c) Else statement is always executed  
-  d) We cannot write else part without if part.   
+  d) We cannot write else part without if part. 
+ 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > Option b)
@@ -782,6 +848,9 @@ a) Hello-World
 b) H e l l o - W o r l d  
 c) No output  
 d) Error  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option is c) No output
@@ -804,6 +873,9 @@ a) 1 2 3 4
 b) a p p l e   
 c) 0 1 2 3 4   
 d) 0 2 4  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option is d)
@@ -826,6 +898,9 @@ a) a p e
 b) a p p l e  
 c) 0 2 4  
 d) p l  
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > option is a) 
@@ -848,7 +923,7 @@ c) Error
 d) None of the above  
 <details><summary> <b>Show Answer</b> </summary>
   
-> option c) Error is correct 
+> option c) Error  
 <details><summary> <b>Explanation</b> </summary>
   
 > It will give "TypeError: 'int' object is not iterable". 
@@ -866,6 +941,9 @@ a) 1 2 3
 b) 123  
 c) Error  
 d) None of the above  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option a) 
@@ -881,6 +959,9 @@ a) for loop
 b) do while loop    
 c) while loop    
 d) None of the above    
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option is c) while loop
@@ -917,6 +998,9 @@ d) None of the above
   b) break  
   c) continue  
   d) pass  
+ 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option is b) break
@@ -929,6 +1013,9 @@ d) None of the above
   b) Nothing to put  
   c) colon :  
   d) comma ,  
+ 
+ ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > option c) colon :
@@ -946,7 +1033,7 @@ d) while -1:
 > options a), b) and d) are correct 
 <details><summary> <b>Explanation</b> </summary>
   
-While 0: in python means false.
+`While 0:` in python means false.
   </details>
 </details>
   
@@ -955,6 +1042,9 @@ While 0: in python means false.
 
 a) True  
 b) False  
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option a) True
@@ -965,6 +1055,9 @@ b) False
 
 a) True  
 b) False  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > option a)  
@@ -977,6 +1070,9 @@ a) if-elif
 b) if-else  
 c) for  
 d) if  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > option is c) for.
@@ -1111,6 +1207,9 @@ c) False
 &emsp;False
 d) False
 &emsp;True
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > option a)
@@ -1215,6 +1314,9 @@ a) True
 b) False  
 c) No Output  
 d) Error   
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option is b) False.
@@ -1238,7 +1340,8 @@ print(j)
 a) 8  
 b) 6  
 c) 4  
-d) 3  
+d) 3 
+           
 <details><summary> <b>Show Answer</b> </summary>
   
 > option is c) 4.
@@ -1255,6 +1358,9 @@ a) While something equals something
 b) While something is greater than something    
 c) While something is True    
 d) All of these    
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option d)
@@ -1272,6 +1378,9 @@ a) XYZ
 b) ABC  
 c) abc  
 d) xyz  
+
+
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > correct option is a) XYZ
@@ -1293,6 +1402,9 @@ a) XYZ
 b) ABC  
 c) abc  
 d) xyz  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option is d) xyz
@@ -1314,6 +1426,9 @@ a) ['abc','xyz']
 b) ['ABC', 'XYZ']  
 c) ['abc']  
 d) ['XYZ']  
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option is b)
@@ -1475,6 +1590,9 @@ a) central flow
 b) selection    
 c) flow of control    
 d) iteration    
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option is c) flow of control.
@@ -1487,6 +1605,9 @@ a) for
 b) while    
 c) do-while    
 d) both a) and b)    
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option is b) while loop.
@@ -1499,6 +1620,9 @@ a) if condition inside for loop.
 b) if condition inside another if condition  
 c) if condition with elif and else block  
 d) None of the above  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option b)
@@ -1517,12 +1641,15 @@ a) Error
 b) Hello  
 c) Hi  
 d) Nothing will be printed  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option c)
 <details><summary> <b>Explanation</b> </summary>
   
-> The if condition becomes false as 5!= var is false. Hence Hi is printed.
+> The if condition becomes false as `5!= var` is false. Hence Hi is printed.
   </details>
   </details>
   
@@ -1544,7 +1671,7 @@ d) Nothing will be printed
 > option a)
 <details><summary> <b>Explanation</b> </summary>
   
-> The above code will result in syntax error as 'for' is a keyword in python and we cannot use keywords as variable or a class. 
+> The above code will result in syntax error as `for` is a keyword in python and we cannot use keywords as variable or a class. 
   </details>
   </details>
   
@@ -1555,6 +1682,9 @@ a) var = 5
 b) var += 5  
 c) var *=5  
 d) None  
+ 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option is c) var *=5
@@ -1591,6 +1721,9 @@ a) 6, 3, 0, -3
 b) 6 3 0 -3  
 c) 6, 4, 2, 0, -2  
 d) error  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option is c)
@@ -1616,6 +1749,9 @@ a) old
 b) middle  
 c) young  
 d) None  
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option b) is correct
@@ -1632,6 +1768,9 @@ a) not
 b) or  
 c) and  
 d) Both b) and c)  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option d)
@@ -1687,13 +1826,16 @@ d) i i i
 ```python3 
 i=5
 while(i<=8):
-  print("i", end=" ")
+  print(i, end=" ")
   i+=1 
 ```
 a) 5 6 7 8  
 b) 5 6 7  
 c) i i i i  
 d) i i i  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option is a) 
@@ -1715,6 +1857,9 @@ a) 6
 b) 7  
 c) 8  
 d) 10  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option b)
@@ -1746,6 +1891,9 @@ a) if(number == 0)
 b) while(number!=0)      
 c) elif( number==0)      
 d) None      
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option is b) 
@@ -1980,6 +2128,9 @@ a) [1, 2]
 b) [1, 2, 2, 1]  
 c) [1, 2, 1, 2]  
 d) None of the mentioned  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option is c) 
@@ -2002,6 +2153,7 @@ a) [1, 2, 1, 2]
 b) [1, 2, 2, 3]  
 c) [1, 2, 3, 2]   
 d) Error
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option is d) Error.
