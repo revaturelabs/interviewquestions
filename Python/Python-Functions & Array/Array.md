@@ -1,6 +1,8 @@
 ## Array
 
 1.What are dynamic Arrays and how is it different from basics Arrays?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -11,29 +13,35 @@
   
 ---
   
-2.What are the differences between an array and a dictionary?
+2.What are the differences between an `array` and a `dictionary`?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
+<blockquote>
   
 **Arrays**:
 
-> - An Array is a sorted list of homogeneous elements.
-> - You have to set the size of an array before using it.
-> - Arrays can be dynamic in size.
-> - If you want to increase the array size, you have to use the ReDim statement.
+ - An `Array` is a sorted list of homogeneous elements.
+ - You have to set the size of an array before using it.
+ - Arrays can be dynamic in size.
+ - If you want to increase the array size, you have to use the ReDim statement.
   
 **Dictionary**:
   
-> - A dictionary holds key-value pairs.
-> - You don't have to set the size for dictionaries.
-> - There is no dynamic concept for dictionaries.
-> - You can add an element in dictionary without the need for any statement.
+ - A `dictionary` holds key-value pairs.
+ - You don't have to set the size for dictionaries.
+ - There is no dynamic concept for dictionaries.
+ - You can add an element in dictionary without the need for any statement.
   
-</details>
+ </blockquote>
+	</details>
   
 ---
   
 3.How will you access individual elements in an Array? State an Example.
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -51,7 +59,7 @@ print(x)
 
 <details><summary> <b>Explanation</b> </summary>
   
-> In the above program, index numbers are used and the index numbers starts from 0 and ends with n-1
+> In the above program, index numbers are used and the index numbers starts from 0 and ends with n-1.
   
 </details>
 </details>
@@ -59,6 +67,8 @@ print(x)
 ---
   
 4.Write a python program to find the largest and smallest numbers in an array?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -99,11 +109,13 @@ Smallest element in array is 304
 	
 ---
   
-5.Can a particular index value be used in python?
+5.Can a particular value changed using index in python?
+	
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
      
-> Yes, the values can be changed using index numbers.
+> `Yes`, the values can be changed using index numbers.
 
 <details><summary> <b>Example</b> </summary>   
    
@@ -123,24 +135,28 @@ print(Juice)
 ---	
   
 6.Mention some advantages and disadvantages of Arrays.
+	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
   
 **Advantages**:
 
 > - Multiple elements of Array can be sorted at the same time.
-> - Using the index, we can access any element in O(1) time.
+> - Using the index, we can access any element in `O(1)` time.
   
 **Disadvantages**:
 
 > - You need to specify how many elements are you going to store in your array ahead of time and we can not increase or decrease the size of the Array after creation.
-> - You have to shift the other elements to fill in or close gaps, which takes worst-case O(n) time.
+> - You have to shift the other elements to fill in or close gaps, which takes worst-case `O(n)` time.
   
 </details>
 	
 ---	
   
 7.Write a python Program to remove duplicates from Array?
+	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -162,7 +178,7 @@ print(Remove(duplicate))
 <details><summary> <b>Explanation</b> </summary> 
    
 > - We have a numbers of ways to solve these types of problems. We have opted for only one approach.  
-> - We can use 'not in' in the list to find out the duplicate items. We create a result list and insert only those that are not already 'not in'. 
+> - We can use `not in` in the list to find out the duplicate items. We create a result list and insert only those that are not already 'not in'. 
   
 </details>
 </details>
@@ -170,30 +186,36 @@ print(Remove(duplicate))
 ---
   
 8.Mention some of the built-in methods that you can use on lists/arrays.  
+	
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
+ <blockquote>
   
-> - 1.append()	Adds an element at the end of the list
+ - 1.`append()` Adds an element at the end of the list
   
-> - 2.clear()	Removes all the elements from the list
+ - 2.`clear()` Removes all the elements from the list
   
-> - 3.copy()	Returns a copy of the list
+ - 3.`copy()` Returns a copy of the list
   
-> - 4.count()	Returns the number of elements with the specified value
+ - 4.`count()` Returns the number of elements with the specified value
   
-> - 5.extend()	Add the elements of a list (or any iterable), to the end of the current list
+ - 5.`extend()` Add the elements of a list (or any iterable), to the end of the current list
   
-> - 6.index()	Returns the index of the first element with the specified value
+ - 6.`index()` Returns the index of the first element with the specified value
   
-> - 7.insert()	Adds an element at the specified position
+ - 7.`insert()` Adds an element at the specified position
   
-> - 8.pop()	Removes the element at the specified position  
+ - 8.`pop()` Removes the element at the specified position  
   
+ </blockquote>
 </details>
 	
 ---
   
-9.Write a python code to add an element at the end of array(list).
+9.Write a python code to add an element at the end of `array`(list).
+	
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -215,11 +237,14 @@ Array after inserting 56 at end [1, 2, 3, 4, 5, 56]
 ---
   
 10.Does python have built-in support for Arrays?
+	
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)	
 
 <details><summary> <b>Show Answer</b> </summary>
+	 <blockquote>
 
-> - Python does not have built-in support for Arrays.
-> - But in python, Lists can be used instead of Arrays.
+ - Python does `not have built-in` support for Arrays.
+ - But in python, `Lists` can be used instead of Arrays.
 
 **Example**:
 
@@ -229,11 +254,14 @@ fruits.pop(1)
 print(fruits)
 ```
 	
+ </blockquote>
 </details>
 	
 ---
   
 11.Write a python Program to find a missing number in array?
+	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -264,7 +292,7 @@ Enter element of array : 2
 	
 ---
   
-12.Which of the following must be used to declare an array?
+12.Which of the following must be used to declare an `array`?
   
  A.brackets[]
 	
@@ -273,14 +301,16 @@ Enter element of array : 2
  C.curly braces{}
 	
  D.pipes ||
+	
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option A.brackets[]
+> Option A.`brackets[]`
 	
 <details><summary> <b>Explanation</b> </summary>
 
-> For declaring an array we can use brackets[].
+> For `declaring an array we can use brackets[]`.
   
 </details>
 </details>
@@ -289,17 +319,19 @@ Enter element of array : 2
   
 13.Elements in an array are accessed _____________
   
- A.randomly
+ A.`randomly`
 	
- B.sequentially
+ B.`sequentially`
 	
- C.exponentially
+ C.`exponentially`
 	
- D.logarithmically
+ D.`logarithmically`
+	
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
    
-> Option A.randomly
+> Option A.`randomly`
    
 <details><summary> <b>Explanation</b> </summary>  
    
@@ -311,6 +343,8 @@ Enter element of array : 2
 ---
   
 14.Write a Program to check if two arrays are equal in Python?
+	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -331,7 +365,7 @@ else:
 	
 ---
     
-15.Write a python program to find the sum of array (list) elements.
+15.Write a python program to find the sum of `array` (list) elements.
   
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -365,6 +399,8 @@ Sum of array elements =  1571
 ---
   
 16. Write a Python program to get the number of occurrences of a specified element in an array.
+	
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -386,6 +422,8 @@ print("Number of occurrences: "+str(array_num.count(3)))
 ---
   
 17.Write a python program to delete any	given element of an array(list).
+	
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>  
 
@@ -430,17 +468,23 @@ arr2 = [i for i in arr1]
 print(arr2)
 ```
   
-<details><summary> <b>Show Answer</b> </summary>  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)	
+	
+<details><summary> <b>Show Answer</b> </summary> 
+<blockquote>
   
 arr2 = [i for i in arr1]
 
-NameError: name 'arr1' is not defined
-  
+NameError: name `arr1` is not defined
+	
+</blockquote>
 </details>
 	
 ----
   
-19.Write a Python program to create an array that contains six integers ans also to print all the members of the array.
+19.Write a Python program to create an array that contains only six integers and also to print all the members of the array.
+	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>    
   
@@ -478,6 +522,8 @@ for i in my_array:
  C.Would add "May" to the list called "names"
 	
  D.Would add "May" to the list called "append"
+	
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>   
   
