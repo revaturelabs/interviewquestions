@@ -1,6 +1,6 @@
 ## List
 
-1.What is a list in python? Is list and Array both are same? If not, then tell how they both are different?
+1.What is a list in python? Is list and Array both are same? If not, how list and array are different?
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -14,7 +14,7 @@ No, list and array both are not same in python. Although, list and array both ar
 </details>
 
 ---
-2.What are the methods you frequently used when dealing with list in python?
+2.What are the methods frequently used when dealing with list in python?
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -45,7 +45,7 @@ x) reverse() : it reverses the order of elements present in a list.
 </details>  
 
 ---
-3.How do you differentiate pop(), remove() and del in list in python?
+3.How can you differentiate pop(), remove() and del in list in python?
 
 <details><summary> <b>Show Answer</b> </summary>  
   
@@ -80,7 +80,7 @@ print(l)
 </details>
 
 ---
-4.How do you differentiate append(), insert() and extend() methods of a list in python?
+4.How can you differentiate append(), insert() and extend() methods of a list in python?
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -124,7 +124,7 @@ print(l)
 </details>
 
 ---
-6.How to iterate over the list of elements?Give code.
+6.How to iterate over the list of elements? Give code.
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -161,7 +161,7 @@ l = [1, 3, 3, 2]
 </details>
 
 ---
-7.What will be the output of the following code?
+7.What is the output of the following code?
   
 ```python  
 lst=[11, 100, 101, 999, 1001]
@@ -411,7 +411,7 @@ print(lst)
   </details>
  
 ---
-18.What is the output of the following list operation
+18.What is the output of the following list operation?
 
 ```python
 sampleList = [10, 20, 30, 40, 50]
@@ -453,7 +453,7 @@ print("Max number = :", max(listlang), "\nMin number :", min(listlang))
   </details>
  
 ---
-20.What will be the output of the following list operation
+20.What is the output of the following list operation?
 
 ```python  
 aList = [10, 20, 30, 40, 50, 60, 70, 80]
@@ -486,7 +486,7 @@ D. None of the above
   </details>
   
 ---
-21.Predict the output of the following code?(Removing the last item of a list)
+21.Predict the output of the following code.(Removing the last item of a list)
 
 ```python  
 lst=[55, 777, 54, 6, 76, 101, 1, 2, 8679, 123, 99]
@@ -518,7 +518,7 @@ print(lst)
   </details>
   
 ---
-22.Write a python program to generate a number list between two ranges?
+22.Write a python program to generate a number list between two ranges
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -554,7 +554,7 @@ print (list)
   </details>
 
 --- 
-24.Can you write a piece of code for to intersect two list?
+24.Can you write a piece of code for intersecting two list?
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -571,7 +571,7 @@ print('intersect of two list =',intersect_res)
   </details>
 
 ---
-25.What is the output of the following code
+25.What is the output of the following code?
 
 ```python
 my_list = ["Hello", "Python"]
