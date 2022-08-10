@@ -1,12 +1,15 @@
 ## Dictionary
 
-1.What do you mean by python dictionary? How does it work?
+1.What do you mean by python `dictionary` ? How does it work?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
+  <blockquote>
   
-> Python dictionary objects are data types that are enclosed in curly braces '{}' and havkey and value pairs and each pair is seperated by a comma(,).  
+- Python `dictionary` objects are data types that are enclosed in curly braces '{}' and havkey and value pairs and each pair is seperated by a `comma(,)`.  
     
-> Dictionary is mapped. Meaning since it has key and value pair, a meaningful key can save a lot of trouble for coders, like using an address key to save all the addresses, an id key for all id’s and so on.
+- Dictionary is mapped. Meaning since it has key and value pair, a meaningful key can save a lot of trouble for coders, like using an address key to save all the addresses, an id key for all id’s and so on.
   
 **Example**:
   
@@ -19,20 +22,24 @@ print(user_info['name'])
   
 **Output**:
   
-> Variable user_info is a <class 'dict'>.
-> 
-> {'name': 'Naveen', 'education': 'B.Tech', 'age': 23}
->  
-> Naveen
+ Variable user_info is a <class 'dict'>.
+ 
+ {'name': 'Naveen', 'education': 'B.Tech', 'age': 23}
+  
+ Naveen
 
-  </details>
+ </blockquote>
+    </details>    
 
 ---
+  
 2.How will you get the keys and values of dictionary?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> In dictionary, keys() method will provide all list of the keys in dictionary.
+> In `dictionary`, `keys()` method will provide all list of the keys in `dictionary`.
   
 **Example**:
 
@@ -45,7 +52,7 @@ print(user_info.keys())
   
 ```dict_keys(['name','education','age'])```
 
-> In dictionary, values() method will provide all list of the keys in dictionary.
+- In dictionary, `values()` method will provide all list of the keys in dictionary.
   
 **Example**:
   
@@ -58,7 +65,7 @@ print(user_info.values())
   
 ```dict_values(['Naveen', 'B.Tech', 23])```
 
-> In Dictionary, using items() method returns the list consisting of key and value pair.
+- In Dictionary, using `items()` method returns the list consisting of key and value pair.
   
 **Example**:
   
@@ -71,16 +78,20 @@ print(user_info.items())
   
 ```dict_items([('name', 'Naveen'), ('education', 'B.Tech'), ('age', 23)])```
   
+  </blockquote>
   </details>
   
 ---
+  
 3.Are dictionaries mutable?What do you mean by mutable?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
 
-> Yes,the python dictionary is a mutable object.  
+> `Yes`,the python dictionary is a mutable object.  
     
-> Mutable means we can change,add or remove key-value pairs after assigning.  
+> Mutable means we `can change,add or remove` key-value pairs after assigning.  
   
 **Example**:
   
@@ -97,14 +108,16 @@ Original Student info:  {'id': 12, 'nationality': 'China', 'data_enrolled': 2015
   
 Student info after corrections:  {'id': 12, 'nationality': 'China', 'data_enrolled': 2015, 'gender': 'Female'}
 ```  
+  
 </details>
 
 ---
-4.What is the difference between list.pop() and dictionary.pop()?
+
+4.What is the difference between `list.pop()` and `dictionary.pop()`?
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> The pop() method in list the last item in the list, however, the pop() method in the dictionary can remove a specified item. The dict.popitem() would be the equivalent of list.pop(). 
+> The `pop()` method in list the last item in the list, however, the `pop()` method in the dictionary can remove a specified item. The `dict.popitem()` would be the equivalent of `list.pop()`. 
   
 **Example**:
   
@@ -124,11 +137,14 @@ After popping:  {'current_location': 'Bangaluru', 'job': 'sofware engineer'}
 </details>
 
 ---
+
 5.How will you merge more than one dictionary?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> In python, dictionary can be merged as {**dict_1, **dict_2, …,**dict_n}.In python 3.9, it can be merged using "|" operator.
+> In python, dictionary can be merged as {**dict_1, **dict_2, …,**dict_n}.In python 3.9, it can be merged using `|` operator.
   
 **Example**:
   
@@ -152,7 +168,10 @@ using | operator : {'name': 'Harini', 'age': 27, 'location': 'kerala', 'job': 's
   </details>
  
 ---
-6.How will you convert list to a dictionary?
+
+6.How will you convert `list` to a `dictionary`?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -196,11 +215,14 @@ print(pet_number_dict_2)
   </details>
 
 ---
+
 7.What is the difference between duplicating dictionary with and without `copy()`?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> It means is dict_2 = dict_1 vs. dict_2 = dict_1.copy(). When you are duplicating a dictionary object without a copy() method, you are not creating a new dictionary but pointing to the same dictionary object. So, when you make changes in the duplicate list, it changes the original one too.
+> It means is `dict_2 = dict_1 vs. dict_2 = dict_1.copy()`. When you are duplicating a dictionary object without a `copy()` method, you are not creating a new dictionary but pointing to the same dictionary object. So, when you make changes in the duplicate list, it changes the original one too.
   
 **Example**:
 
@@ -226,7 +248,7 @@ print("Are the memory address of two dicts same? {}".format(id(list) == id(list_
   
 > Are the memory address of two dicts same? True
   
-- Now, we can do with copy() method.
+- Now, we can do with `copy()` method.
 
 ```python
 to_buy_list = {
@@ -246,15 +268,16 @@ print("Are the memory address of two dicts same? {}".format(
   
 **Output**:
   
-> Original List before {'eggs': '1 karton', 'banana': '1 kg', 'milk': '1 ltr', 'sugar': '1 kg'}
->  
-> Original List after duplication {'eggs': '1 karton', 'banana': '1 kg', 'milk': '1 ltr', 'sugar': '1 kg'}
->  
-> Are the memory address of two dicts same? False
+ Original List before {'eggs': '1 karton', 'banana': '1 kg', 'milk': '1 ltr', 'sugar': '1 kg'}
+  
+ Original List after duplication {'eggs': '1 karton', 'banana': '1 kg', 'milk': '1 ltr', 'sugar': '1 kg'}
+  
+ Are the memory address of two dicts same? False
   
 </details>
   
 ---
+
 8.What is the output of following program?
   
 ```python
@@ -263,22 +286,29 @@ print('dictionary output:' ,d[3,4,9])
 ```
   
 <details><summary> <b>Show Answer</b> </summary>
+<blockquote>
   
-**Output**:
-  
-> print('dictionary output:',d[3,4,9])
+print('dictionary output:',d[3,4,9])
   
 KeyError: (3, 4,9)
-
+  
+<details><summary> <b>Explanation</b> </summary>
+  
+- It will throwing an `key error` because, keys are not found in the dictionary.
+  
+  </details>
   </details>
   
 --- 
-9.What module and function can be used to "pretty print" dictionary values?
+  
+9.What module and function can be used to `pretty print` dictionary values?
+  
+  ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> pprint is a python module that provides the capability to pretty print python data types.  
-> First, declare an array of dictionaries. After, pretty print it using the function pprint.pprint().  
+> `pprint` is a python module that provides the capability to pretty print python data types.  
+> First, declare an array of dictionaries. After, pretty print it using the function `pprint.pprint()`.  
   
 **Example**:
   
@@ -305,6 +335,7 @@ pprint.pprint(dictionary)
  </details>
   
 ---
+  
 10.What is the output of the following code?
   
 ```python  
@@ -312,6 +343,8 @@ dictlang = {'To': 6, 'GO': 89, 'Python': 4,'Rules':10}
 cpydict = dictlang.copy()
 print(id(cpydict) == id(dictlang))
 ```
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -322,11 +355,14 @@ print(id(cpydict) == id(dictlang))
   </details>
   
 ---
+  
 11.How will you delete a key from Dictionary?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> In python, we can use del keyword to delete a key from dictionary.
+> In python, we can use `del` keyword to delete a key from dictionary.
   
 **Example**:
   
@@ -344,7 +380,10 @@ print('Dictionary after deleting key =',fruitsDict)
 </details>
  
 ---
+  
 12.Write a program to get min and max keys corresponding to min and max value in dictionary?
+  
+  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -363,11 +402,14 @@ print('max value key:',max(FruitsDict,key=FruitsDict.get))
   </details>
 
 ---
+  
 13.How to sum all elements of Dictionary?
+  
+  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> In python, using sum() method, we can sum the dictionary elements.
+> In python, using `sum()` method, we can sum the dictionary elements.
   
 **Example**:
   
@@ -383,6 +425,7 @@ print('sum of dict elements = ',sum(Fruit.values()))
   </details>
 
 ---
+  
 14.What is the output of the following program?
 
 ```python  
@@ -391,6 +434,8 @@ FruitDict = {'Apple': 600, 'Banana': 515,'Orange':214,'Guava':1116}
 two_highest_values = nlargest(2, FruitDict, key=FruitDict.get)
 print(two_highest_values) 
 ```
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
   
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -401,8 +446,11 @@ print(two_highest_values)
   </details>
 
 ---
-15.How will you print dictionary as table?
+  
+15.How will you print `dictionary` as table?
 
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)  
+  
 <details><summary> <b>Show Answer</b> </summary>
   
 ```python  
@@ -424,7 +472,10 @@ Orange John English
   </details>
  
 ---
-16.Write a Python program to sort a list alphabetically in a dictionary?
+  
+16.Write a Python program to sort a `list` alphabetically in a `dictionary`?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -441,6 +492,7 @@ print(sorted_dict)
   </details>
 
 ---
+  
 17. What is the output of the following code?
 
 ```python
@@ -453,6 +505,8 @@ for a in students:
     for b in students[a]:
         print (b,':',students[a][b])
 ```
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -477,6 +531,8 @@ roll_id : 3
 Sample data : {'Math':81, 'Physics':83, 'Chemistry':87}
   
 Expected data: [('Chemistry', 87), ('Physics', 83), ('Math', 81)]
+  
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -493,6 +549,7 @@ print(x.most_common())
   </details>
  
 ---
+  
 19.What is the output of the following code?
   
 ```python  
@@ -500,16 +557,25 @@ dict =  {'Alex': ['subj1', 'subj2', 'subj3'], 'David': ['subj1', 'subj2']}
 dict_len = sum(map(len, dict.value()))
 print(dict_len)
 ```
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)  
   
 <details><summary> <b>Show Answer</b> </summary>
   
 **Output**:
   
 > AttributeError: 'dict' object has no attribute 'value'
+  
+<details><summary> <b>Explanation</b> </summary>
+  
+ > The above code throwing an attribute error.Because,attribute reference is missing.
+  
+  </details>
 
   </details>
 
 ---
+  
 20.What is the output of the following code?
 
 ```python  
@@ -517,12 +583,19 @@ dict1 ={'English':'67%','Maths':'78%','Social_Science':'87%','EVS':'97%'}
 print(dict1 .keys( ))
 ```
   
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)  
+  
 <details><summary> <b>Show Answer</b> </summary>
   
 **Output**:
   
 > dict_keys(['English', 'Maths', 'Social_Science', 'EVS'])
   
+ <details><summary> <b>Explanation</b> </summary>
+   
+> The above code is printing keys.Because in the above code we used  `dict1.key()` methods.
+  
+  </details>
   </details>
   
 ---
