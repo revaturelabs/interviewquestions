@@ -10,7 +10,7 @@
 </details>
 
 ---
-2.What will be the output of the following code?
+2.What is the output of the following code?
 
 ```python  
 class truth:
@@ -45,15 +45,15 @@ D. error
 **Syntax**: 
   
 > bool([x])
-
-These are the few cases, in which Python’s bool() method returns false.Except these all other values return True. 
-
-- If a False value is passed.
-- If None is passed.
-- If an empty sequence is passed, such as (), [], ”, etc
-- If Zero is passed in any numeric type, such as 0, 0.0 etc
-- If an empty mapping is passed, such as {}.
-- If Objects of Classes having __bool__() or __len()__ method, returning 0 or False
+>
+> These are the few cases, in which Python’s bool() method returns false.Except these all other values return True. 
+>
+> - If a False value is passed.
+> - If None is passed.
+> - If an empty sequence is passed, such as (), [], ”, etc
+> - If Zero is passed in any numeric type, such as 0, 0.0 etc
+> - If an empty mapping is passed, such as {}.
+> - If Objects of Classes having __bool__() or __len()__ method, returning 0 or False
   
   </details>
 
@@ -98,7 +98,7 @@ print(['hello','morning'][bool('')])
   </details>
 
 ---
-6.What will be the output of the following code?
+6.What is the output of the following code?
   
 ```python  
 l=[1,0,2,0,'hello','',[]]
@@ -138,7 +138,7 @@ else:
   </details>
 
 ---
-8.What will be output of the following code snippet?
+8.What is the output of the following code snippet?
   
 ```python  
 print(not(10>20) and not(10<0))
@@ -160,7 +160,7 @@ D. No output
   </details>
 
 ---
-9.What will be the output of the following code?
+9.What is the output of the following code?
   
 ```python  
 x = 200.60
@@ -179,7 +179,7 @@ D. False
   </details>
 
 ---
-10.Predict the output of the following code and give me the correct code?
+10.Predict the output of the following code and give the correct code?
   
 ```python  
 def myFunction() :
@@ -197,12 +197,12 @@ print(myFunction())
   
 **Output**:
  
-True
+> True
   
   </details>
  
 ---
-11.Can you tell me some advantages of boolean() data type?
+11.Mention some advantages of boolean() data type?
   
 <details><summary> <b>Show Answer</b> </summary>
   
