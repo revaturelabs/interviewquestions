@@ -146,7 +146,7 @@ local repository  ->  central repository -> remote repository
 	
 <blockquote> 
 
-- If the dependencies are not found, Maven stops processing and thrwos an error. 
+- If the dependencies are not found, Maven stops processing and throws an error. 
 	
 </blockquote> 
 
