@@ -417,8 +417,7 @@ interface Arithmetic {
 	
 ## Problem-Solving
 	
-20. Write lambda expression for the method sum.
-	
+20. Below code gets two numbers form the user and prints the sum of it. Here we are using `sum` method to calculate the sum of two number. Achieve the same goal using lambda expression. 
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 	
@@ -477,7 +476,7 @@ A lambda expression is a short block of code that takes in parameters and return
 	
 ---
 	
-21. Convert the follwing Anonymous class code into Lambda expresssion.
+21. Convert the following Anonymous class code into Lambda expresssion.
  
 
  ``` java
