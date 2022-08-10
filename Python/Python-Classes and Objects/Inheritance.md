@@ -2,6 +2,9 @@
 
 
 1. What do you mean by inheritance? Give example.
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Deriving the properties of one class to another is known as inheritance. In python, the class which takes the functionality of another class is known as child class or derived class and the class from which child class inherits is known as base class or parent class. For example, lets say human is a parent class and we inherit certain properties from it like ability to eat, think, drink, speak, etc.   
@@ -38,7 +41,10 @@ america.eat()
 </details>
 
 ---
-2. Why inheritance an important concept of OOPs in python? 
+2. Why inheritance an important concept of OOPs in python?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > The key feature of inheritance is that it provides code re-usability. Means we don't have to create the same code again and again instead we can simply inherit the properties of one class into another and use the functionality of base class to derive own functionlity in child class. 
@@ -46,6 +52,9 @@ america.eat()
 
 ---
 3. What are the types of inheritance present in python?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > There are 5 types of inheritance in python:  
@@ -59,6 +68,9 @@ america.eat()
 
 ---
 4. Explain single inheritance with an example.
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
  
 > When one class inherits the property of another class is known as single inheritance. Here only two classes are present, one is a child class and another one is a base class.     
@@ -80,6 +92,9 @@ obj.fun()
 
 ---
 5. Explain multilevel inheritance with an example.
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > When one derived class inherit the properties of another derived class is known as multilevel inheritance. For example, suppose there are three classes A, B and C. Class B inherits from class A and class C inherits from class B. Here A is a parent class of B and B is a parent class of C.  
@@ -106,6 +121,9 @@ obj.fun1()    # output: hello i am from middle
 
 ---
 6. Explain multiple inheritance with an example.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > When a class inherit properties of more then 1 class then it is known as multiple inheritance. Here, there is only one derived class is present and base class can be two or more in number.   
@@ -132,6 +150,9 @@ obj.fun2()  # output: I'm the Child
 
 ---
 7. Explain hierarchical inheritance with an example.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > When more then 1 derived class inherits from a single base class then it is known as hierarchical inheritance. There can be any number of derived class but only single base class is present.   
@@ -159,6 +180,9 @@ obj2.fun2()     # output: I'm the younger child
 
 ---
 8. Explain hybrid inheritance with an example.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > When in a program there are more then 1 type of inheritance is applied then that is called hybrid inheritance.  
@@ -197,6 +221,9 @@ a) class Company : public Department
 b) class Department : protected Company  
 c) class Department(Company)  
 d) class Department extends Company   
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > option c) 
@@ -215,6 +242,9 @@ b) class B(A):
 c) class B(A):  
 &emsp;class C(A):  
 d) class C(A,B):  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > option b)
@@ -233,6 +263,9 @@ b) class B(A):
 c) class B(A):  
 &emsp;class C(A):  
 d) class C(A,B):  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > option d)
@@ -251,6 +284,9 @@ b) class B(A):
 c) class B(A):  
 &emsp;class C(A):  
 d) class C(A,B):  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > option c)
@@ -261,7 +297,7 @@ d) class C(A,B):
 </details>
 
 ---
-13. Suppose class Department is a child of Company class, to invoke the __init__() in Company from Department, what line of code you will write?
+13. Suppose class Department is a child of Company class, to invoke the `__init__()` in Company from Department, what line of code you will write?
 
 a) Company.__init__(self)  
 b) Company.__init__(Department)  
@@ -272,7 +308,7 @@ d) Department.__init__(Company)
 > Option a)
 <details><summary> <b>Explanation</b> </summary>
   
-> To invoke the __init__() method of parent class from child class, we have to write "Parent_ClassName.__init__(self)" inside child class. 
+> To invoke the `__init__()` method of parent class from child class, we have to write `Parent_ClassName.__init__(self)` inside child class. 
   </details>
 </details>
 
@@ -283,6 +319,9 @@ a) Hybrid
 b) Single-level  
 c) Double-level  
 d) Multiple   
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option c) 
@@ -313,6 +352,9 @@ b) Revature Company
 &emsp;Training Department  
 c) Revature Company  
 d) Training Department  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option b)
@@ -349,7 +391,7 @@ d) Nothing is printed
 > option c) 
 <details><summary> <b>Explanation</b> </summary>
   
-> The above code Throws the AttributeError while calling obj1.show() because there is show method present inside Company class. 
+> The above code Throws the AttributeError while calling obj1.show() because there is no show method present inside Company class. 
   </details>
 </details>
 
@@ -435,6 +477,9 @@ a) James
 b) Jack  
 c) Error, no use of obj1 object   
 d) Error, accessing private class member in subclass can't possible   
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option a) 
@@ -446,6 +491,8 @@ d) Error, accessing private class member in subclass can't possible
 
 ---
 20. What super() do in python? give example.
+
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > super() in python is a method, used in child class to access the functions defined in parent class. This helps in code reuseability as we don't have to implement the function of parent class again in child class.   
@@ -475,6 +522,9 @@ a) A class cannot inherits more then two classes in python
 b) protected members of a parent class can be accessed by child class.  
 c) public members of a parent class can be used in child class and other classes also.  
 d) In single inheritance one class inherits the other class.   
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option a)
@@ -530,6 +580,7 @@ a) 4
 b) 6  
 c) 4 6  
 d) Error, no attribute named "a" present in Test2 class.  
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option d)
@@ -546,6 +597,9 @@ a) It is a part of Object Oriented Programming
 b) It gives the concept of accessing properties of one class to other.  
 c) It reduces code repetition.  
 d) All of the above.   
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option d)  
@@ -607,6 +661,9 @@ obj.show()
 
 a) True   
 b) False  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option a) 
