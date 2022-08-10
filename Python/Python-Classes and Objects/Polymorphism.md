@@ -50,7 +50,7 @@ print(add(2,4))
 print(add(2,4,6))
 ```
 
-> After writing and calling the above two methods together, we are getting "TypeError: add() missing 1 required positional argument: 'c'". But if we commented the first calling function i.e add() with two arguments and call only the last function, it will execute and gives the output as 12. 
+> After writing and calling the above two methods together, we are getting `"TypeError: add() missing 1 required positional argument: 'c'"`. But if we commented the first calling function i.e add() with two arguments and call only the last function, it will execute and gives the output as 12. 
 ```python3
 def add(a,b):
     return a+b 
@@ -171,7 +171,7 @@ d) Error
 > Option d)
 <details><summary> <b>Explanation</b> </summary> 
   
-> The above code will throw an AttributeError because Car class object is trying to call the method present inside Vehicle class which is not possible, as there is no relationship between Car and Vehicle class.
+> The above code will throw an `AttributeError` because Car class object is trying to call the method present inside Vehicle class which is not possible, as there is no relationship between Car and Vehicle class.
   </details>
 </details>
 
@@ -277,7 +277,7 @@ d) Error
 > Option d) 
 <details><summary> <b>Explanation</b> </summary> 
   
-> The above code on execution will throw the NameError, as there is no 'a' variable defined in class Test1. 
+> The above code on execution will throw the `NameError`, as there is no 'a' variable defined in class Test1. 
   </details>
 </details>
 
@@ -372,7 +372,7 @@ d) Error
 > Option d)
 <details><summary> <b>Explanation</b> </summary> 
   
-> The above code will throw a TypeError because the default way of method overloading is not possible in python. Here, the later function overrides the previous function at the run time and so, three arguments are required to pass to multiply() method and not two at the time of calling. 
+> The above code will throw a `TypeError` because the default way of method overloading is not possible in python. Here, the later function overrides the previous function at the run time and so, three arguments are required to pass to multiply() method and not two at the time of calling. 
   </details>
 </details>
 
@@ -515,7 +515,7 @@ print(obj.add("Akshay"," Bhadauria"))
 </details>
 
 ---
-19. Can len() function be used in polymorphism in python? 
+19. Can `len()` function be used in polymorphism in python? 
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -550,7 +550,7 @@ d) It allows the methods to have different implementation according to the class
 </details>
 
 ---
-21. Which of the following operator overloads the __add__() function?
+21. Which of the following operator overloads the `__add__()` function?
 
 a) +  
 b) +=  
@@ -565,7 +565,7 @@ d) -=
 </details>
 
 ---
-22. Which operator is overloaded by the __or__() function?
+22. Which operator is overloaded by the `__or__()` function?
 
 a) ||  
 b) |  
