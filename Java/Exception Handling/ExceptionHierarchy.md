@@ -143,7 +143,7 @@ Original cause: java.lang.ArithmeticException: cause
 
 ---
 
-7:What are the methods of Throwable class? 
+7:What are the methods of `Throwable` class? 
 <details><summary><b> Show Answer</b></summary>
 methods of Throwable class
 <details><summary><b> Explanation</b></summary>
