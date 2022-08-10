@@ -21,7 +21,7 @@
 </details>
 
 ---
-3. Which keyword in python helps in including condition in code?  
+3. Which keyword in python helps in including condition in the code?  
 a) for  
 b) while  
 c) if   
@@ -71,7 +71,7 @@ b) False
 </details>
 
 ---
-6. What will be the output of below code?  
+6. What is the output of below code?  
 ```python3
 age = 16
 if age >=18
@@ -155,12 +155,12 @@ d) if x>4
 > Option c) is correct
 <details><summary> <b>Explanation</b> </summary>
   
-> All the other options except c) missed semicolon at last.
+> All the other options except c) misses semicolon at last.
   </details>
 </details>
   
  ---
-10. What will be the output of following Python code?
+10. What is the output of following Python code?
 
 ```python3
 a = 15
@@ -184,12 +184,12 @@ else:
 > Option is d) 
 <details><summary> <b>Explanation/b> </summary>
   
-> Both if statements result in true, so 'Hi' and 'Hello' will gets printed.
+> Both if statements results in true, so 'Hi' and 'Hello' will get printed.
  </details>
 </details>
   
 ---
-11. Predict the output.
+11. Predict the output of the following code.
 ```python3
 a = 1
 b = 0
@@ -268,7 +268,7 @@ else:
 > Option is a) Hi-World
 <details><summary> <b>Explanation</b> </summary>
   
-> In if condition Bitwise xor ^ operator is used which returns 1 if either of the bits are 1 else return 0 if both the bits are 0 or 1. Therefore in the above code, 0 and 1 results in 1 which is true in python. Hence 1st print statement executes.
+> In if condition, Bitwise xor ^ operator is used which returns 1 if either of the bits are 1 else return 0 if both the bits are 0 or 1. Therefore, in the above code, 0 and 1 results in 1 which is true in python. Hence 1st print statement gets executed.
   </details>
 </details>
   
@@ -296,7 +296,7 @@ d) Error
 > Option is d) Error
 <details><summary> <b>Explanation</b> </summary>
   
-> There is no || operator present in python. 
+> There is no || operator in python. 
   </details>
   </details> 
   
@@ -376,7 +376,7 @@ d) J, e, y,
 > Option is d) J, e, y,
 <details><summary> <b>Explanation</b> </summary>
   
-> The continue statement skips the current iteration and moves to next iteration when the condition inside if becomes true. Here whenever the value of i becomes equal to r, it will not print the ith value for that iteration and iterates from next iteration. Hence 'r' is not printed anytime in output screen and we get the output as "J, e, y,".
+> The continue statement skips the current iteration and moves to next iteration when the condition inside if becomes true. Here whenever the value of i is equal to r, it will not print the ith value for that iteration and iterates from next iteration. Hence, 'r' is not printed anytime in output screen and we get the output as "J, e, y,".
   </details>
   </details>
   
