@@ -131,6 +131,9 @@ obj.show()
 
 a) True  
 b) False  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option b) False.
@@ -180,6 +183,9 @@ a) Henry 22
 b) James 23    
 c) Error, because self is not used as a parameter in show().    
 d) None    
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option b) James 23 
@@ -210,6 +216,9 @@ a) Henry 22
 b) James 23  
 c) Error, because self is not used as a parameter in show().  
 d) Henry 23   
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option d) Henry 23 
@@ -239,6 +248,10 @@ a) Henry 22
 b) James 23  
 c) Error   
 d) No output  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option c)
@@ -388,6 +401,9 @@ a) It prints output as James
 b) It prints the garbage value  
 c) Error as one argument is required while creating the object  
 d) Error as show() function requires additional argument   
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option c) 
@@ -402,6 +418,9 @@ d) Error as show() function requires additional argument
 
 a) True  
 b) False  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option b) False. 
@@ -424,6 +443,9 @@ obj = Dog()
 obj.setName("puppy")
 print(obj.getName())
 ```
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 ``` python3
@@ -494,6 +516,9 @@ a) The __init__ method is used to set initial values for attributes.
 b) 'self' is not needed in namePrint() method
 c) girl1 and girl2 are two different instances of the Girl class.
 d) girl2 has a different value for 'name' than girl1.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option b)
@@ -557,6 +582,9 @@ d) self
 
 a) True  
 b) False   
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option b) False
@@ -599,6 +627,9 @@ a) 3 and 1
 b) 2 and 1  
 c) 1 and 3  
 d) 3 and 3  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option a) 
@@ -671,7 +702,10 @@ print(obj1.assign(12))
 a) 10    
 b) 11    
 c) 12    
-d) Error, too many 'a' variable used     
+d) Error, too many 'a' variable used   
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option b) 11
@@ -699,6 +733,9 @@ a) 10
 b) 11  
 c) 12  
 d) Error, too many 'a' variable used 
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option a) 10
@@ -726,6 +763,9 @@ a) 10
 b) 11  
 c) 12  
 d) Error, too many 'a' variable used   
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > option c) 12
@@ -740,6 +780,9 @@ d) Error, too many 'a' variable used
 
 a) True  
 b) False  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option b) 
@@ -766,6 +809,9 @@ a) body moves started
 b) body moves stoped    
 c) Error    
 d) Nothing will print     
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option c) 
