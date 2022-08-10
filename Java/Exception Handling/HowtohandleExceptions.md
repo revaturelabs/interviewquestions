@@ -10,7 +10,7 @@
 
 ---
 
-2:Why the rest of the code in the try block will not execute.
+2.Why the rest of the code in the try block will not execute.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -22,7 +22,7 @@
 
 ---
 
-3:What is the syntax for the try-catch block? 	
+3.What is the syntax for the try-catch block? 	
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -40,7 +40,7 @@
 
 ---	
 
-4:Can we have multiple catch blocks with the single try block.	
+4.Can we have multiple catch blocks with the single try block.	
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -53,7 +53,7 @@
 
 ---
 
-5:Who handles the exception if the exception is not handled by the programmer itself.
+5.Who handles the exception if the exception is not handled by the programmer itself.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -65,7 +65,7 @@
 
 ---
 
-6:What is the role of JVM in default Exception Handling mechanism.
+6.What is the role of JVM in default Exception Handling mechanism.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -77,7 +77,7 @@
 
 ---
 
-7:How the normal flow of the program is maintained in the exception handling mechanism.
+7.How the normal flow of the program is maintained in the exception handling mechanism.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -89,7 +89,7 @@
 
 ---
 
-8:Predict the output of the following code.
+8.Predict the output of the following code.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -107,7 +107,7 @@ public class Example1 {
 
 ---
 
-9:Predict the output of the following code.
+9.Predict the output of the following code.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -138,7 +138,7 @@ Exception Occurred
 
 ---
 
-10:Predict the output of the following code.
+10.Predict the output of the following code.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -166,7 +166,7 @@ public class TryCatchExample3 {
 
 ---
 
-11:Predict the output of the following code.
+11.Predict the output of the following code.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -194,7 +194,7 @@ public class TryCatchExample4 {
 
 ---
 
-12:Predict the output of the following code.
+12.Predict the output of the following code.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -221,7 +221,7 @@ public class TryCatchExample5 {
 
 ---
 
-13:How catch block is executed in multiple catch blocks?
+13.How catch block is executed in multiple catch blocks?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -233,7 +233,7 @@ public class TryCatchExample5 {
 
 ---
 
-14:What is a nested try  block?
+14.What is a nested try  block?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -245,7 +245,7 @@ public class TryCatchExample5 {
 
 ---
 
-15:When should we use nested try  block?
+15.When should we use nested try  block?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -257,7 +257,7 @@ public class TryCatchExample5 {
 
 ---
 
-16: Predict the output of the following code.
+16.Predict the output of the following code.
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -302,7 +302,7 @@ Index 10 out of bounds for length 10
 
 ---
 
-17:What is a finally  block?
+17.What is a finally  block?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -314,7 +314,7 @@ Index 10 out of bounds for length 10
 
 ---
 
-18:When a finally block gets executed?
+18.When a finally block gets executed?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -326,7 +326,7 @@ Index 10 out of bounds for length 10
 
 ---
 
-19: Predict the output of the following code.
+19.Predict the output of the following code.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -357,7 +357,7 @@ finally block is executed
 
 ---
 
-20: Predict the output of the following code.
+20.Predict the output of the following code.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
