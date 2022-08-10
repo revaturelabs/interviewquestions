@@ -1342,7 +1342,7 @@ if (a = b):  # line 2
 > Option is b).
 <details><summary> <b>Explanation</b> </summary>
 
-> Option b) is correct because if we don't change the line 1 of the above code to a= b=1, it will result into "TypeError: cannot unpack non-iterable int object". If we don't change the line 2 to if(a==b):, it will result into "SyntaxError". 
+> Option b) is correct because if we don't change the line 1 of the above code to a= b=1, it will result into "TypeError: cannot unpack non-iterable int object". If we don't change the line 2 to if(a==b):, it will result into "SyntaxError". Therefore, we have to change both the lines to get rid of an error. 
  
   </details>
 </details>
