@@ -1,25 +1,32 @@
 ## String
 
-1.What is String literals?
+1.What is `String literals`?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
+  <blockquote>
   
-> A string literal is a sequence of zero or more characters enclosed in single quotes.
+- A `string` literal is a sequence of zero or more characters enclosed in single quotes.
   
 **Examples**:
   
 "Hello,World"
+    
 'Revature'
   
- </details>
+</blockquote>
+    </details>
 
 ---
 
 2.How do you know if every word in a string starts with a capital letter?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
-> The istitle() function checks if each word is capitalized or not.
+> The `istitle()` function checks if each word is capitalized or not.
   
 **Example**:
   
@@ -28,7 +35,7 @@ print( 'The Dog'.istitle() ) #=> True
 ```
 <details><summary> <b>Explanation</b> </summary>  
   
-> In python istitle() function used to check whether the given string is starts with a capital letter or not.
+> In python `istitle()` function used to check whether the given string is starts with a capital letter or not.
   
 </details>
 </details>
@@ -37,9 +44,11 @@ print( 'The Dog'.istitle() ) #=> True
   
 3.How will you combine two or more strings in python?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
  
-> In Python, you can concatenate two strings  by simply using the `+' operator between them. You can use the + operator to concatenate three or more strings.
+> In Python, you can concatenate two strings  by simply using the `+` operator between them. You can use the + operator to `concatenate` three or more strings.
 
 **Example**:
   
@@ -57,7 +66,7 @@ print(string)
   
 <details><summary> <b>Explanation</b> </summary>
   
-> In the above program we used '+' operator for combining two or more strings into a single string.
+> In the above program we used `+` operator for combining two or more strings into a single string.
   
 </details>
 </details>
@@ -76,19 +85,30 @@ for x in s1:
 print(s2,end=" ")
 print(s3)
 ```
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > nnnpp
+  
+<details><summary> <b>Explanation</b> </summary>
+  
+> In the above program it will checking s,n and p characters are in the string or not.If it's having it will print those characters.
+  
+  </details>
   
 </details>
 
 ---
 
-5.How will you count total number of characters in a string?
+5.How will you count total number of characters in a string and give an example?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> In python len() function will return the length of a string.
+> In python `len()` function will return the length of a string.
   
 **Example**:
   
@@ -112,13 +132,16 @@ string1 = "HAPPY "
 string2 = "LEARNING!!!"
 print((string1 + string2)*3)
 ```
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > HAPPY LEARNING!!!HAPPY LEARNING!!!HAPPY LEARNING!!!
 
 <details><summary> <b>Explanation</b> </summary>
   
-> In the case of a string, the * operator is used to repeat a string.
+> In the case of a string, the `*` operator is used to repeat a string.
   
 </details>
 </details>
@@ -127,9 +150,11 @@ print((string1 + string2)*3)
 
 7.How will you check if a string contains only string or not?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
-> In python isnumeric() function returns True if all characters are numeric.
+> In python `isnumeric()` function returns True if all characters are numeric.
   
 **Example**:
 
@@ -147,6 +172,8 @@ False
 ---
 
 8.Write a program to find the characters at an odd position in string input by user?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -168,7 +195,7 @@ String after odd charcater : PtoSrn
   
 <details><summary> <b>Explanation</b> </summary>
   
-> In above program first we used len() function to find the size of the string. Then we want to find the odd position in string for that we used if statements inside the for loop.
+> In above program first we used `len()` function to find the size of the string. Then we want to find the odd position in string for that we used if statements inside the for loop.
 > If the position/index is not equal to 0 , those characters are stored into the single variable and then it will printing the values.
 
 </details>
@@ -177,6 +204,8 @@ String after odd charcater : PtoSrn
 ---
 
 9.Write a program  to replace all occurrence of sub-string in string?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -193,7 +222,7 @@ print(modifiedStr)
   
 <details><summary> <b>Explanation</b> </summary>
     
-> In python we used **.replace()** function to replace one character with another character.
+> In python we used `.replace()` function to replace one character with another character.
     
 </details>
 </details>
@@ -202,9 +231,12 @@ print(modifiedStr)
 
 10.How will you Count Total numbers of upper case and lower case characters in input string?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
+  <blockquote>
   
-> In python, we are using isupper() to find upper case characters and islower() to find the lower case characters.
+- In python, we are using `isupper()` to find upper case characters and `islower()` to find the lower case characters.
   
 **Example**:
   
@@ -223,9 +255,9 @@ print (" Total Upper case characters  : ", upper_case)
 print ("Total Lower case Characters : ", lower_case)
 ```
 
- <details><summary> <b>Explanation</b> </summary>
+<details><summary> <b>Explanation</b> </summary>
    
- > If we want to count total number of upper case and lower case in the given string we can use isupper() and islower() method.
+- If we want to count total number of upper case and lower case in the given string we can use `isupper()` and `islower()` method.
    
 </details>
 </details>
@@ -239,13 +271,16 @@ input_string ="Consultancy"
 reversed_str =''.join(reversed(input_string))
 print('reversed string =',reversed_str)
 ```
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
 <details><summary> <b>Show Answer</b> </summary>
 
 > reversed string = ycnatlusnoC
 
 <details><summary> <b>Explanation</b> </summary>
 
-> In python to reverse a string  we can use built-in function reversed orelse we can use negative index ([::-1]).
+> In python to reverse a string  we can use built-in function reversed orelse we can use `negative index ([::-1])`.
   
 </details>
 </details>
@@ -253,6 +288,8 @@ print('reversed string =',reversed_str)
 ---
 
 12.Write a program to Extract URL From A String In Python?
+  
+  ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -271,11 +308,19 @@ print("Urls found: ", URLsearch(textcontent))
   
 > Urls found:  ['https://devenum.com', 'https://google.com,http://devenum.com']
   
+<details><summary> <b>Explanation</b> </summary>
+  
+> If we want extract the url form string we can use `regex`.
+  
+  </details>
+  
 </details>
   
 ---
 
 13.Does creating a string twice (with two distinct variable names) result in one or two objects being stored in memory?
+  
+  ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -297,10 +342,12 @@ print( id(pet) )
 ---
   
 14.How will you remove whitespace from the left, right or both sides of a string?
+  
+  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> In python we can use lstrip(), rstrip() and strip() remove whitespace from the ends of a string.
+> In python we can use `lstrip()`, `rstrip()` and `strip()` remove whitespace from the ends of a string.
   
 **Example**,
  
@@ -319,9 +366,9 @@ Whitespace of strings
 
 <details><summary> <b>Explanation</b> </summary>
   
-> For removing whitespace from the ends of the string, we can use .strip() functions.
-> .lstrip() -used to remove whitespace from left side of the string.
-> .rstrip() -used to remove whitespace from right side of the string.
+> For removing whitespace from the ends of the string, we can use `.strip()` functions.
+> `.lstrip()` -used to remove whitespace from left side of the string.
+> `.rstrip()` -used to remove whitespace from right side of the string.
   
   </details>
   </details>
@@ -349,29 +396,33 @@ print(str1 is str2)
  D. True
     True
   
+  ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
 <details><summary> <b>Show Answer</b> </summary>
   
 > Option B is the correct one
   
 <details><summary> <b>Explanation</b> </summary>
   
-> In the case of a string, == and is operators are used to check whether the given strings are equal or not.
+> In the case of a string, `==` and `is` operators are used to check whether the given strings are equal or not.
   
   </details>
   </details>
   
   ---
 
-16.What is slicing and what is the use of that?
+16.What is `slicing` and what is the use of that?
+  
+  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Slicing in Python is a feature that enables accessing parts of sequences like strings, tuples, and lists. 
-> You can also use them to modify or delete the items of mutable sequences such as lists. Slicing enables writing clean, concise, and readable code.
+> `Slicing` in Python is a feature that enables accessing parts of sequences like `strings, tuples, and lists`. 
+> You can also use them to modify or delete the items of mutable sequences such as lists. `Slicing` enables writing `clean, concise, and readable code`.
   
 **Syntax**: 
   
-> slice(stop) slice(start, stop, step)
+`slice(stop) slice(start, stop, step)`
   
 </details>
   
@@ -379,12 +430,15 @@ print(str1 is str2)
 
 17.What are the difference between **==** and **is** operator in python?
 
+  ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
 <details><summary> <b>Show Answer</b> </summary>
+  <blockquote>
   
 ** == **:
   
-> - In python this operator is equality operator.
-> - The == operator is used when the values of two operands are equal, then the condition becomes true.
+ - In python this operator is equality operator.
+ - The == operator is used when the values of two operands are equal, then the condition becomes `true`.
   
 **Example**:
 
@@ -396,12 +450,12 @@ print(s1 == s2)
  
 **Output**:
   
-> It returns True.
+ It returns True.
   
 **is** :
   
-> - In python this operator is Identity operator.
-> - The is operator evaluates to true if the variables on either side of the operator point to the same object and false otherwise.
+ - In python this operator is Identity operator.
+ - The is operator evaluates to true if the variables on either side of the operator point to the same object and false otherwise.
   
 **Example**:
   
@@ -423,8 +477,9 @@ print(list_1 is list_3)
   
 <details><summary> <b>Explanation</b> </summary>
   
-> Here you can see (list_1 is list_3) is False because list_1 and list_3 are pointing to two different objects , even though their contents might be the same. So, we can say "is" will return True if two variables point to the same object and "==" if the objects referred to by the variables are equal.
+- Here you can see (list_1 is list_3) is `False` because list_1 and list_3 are pointing to two different objects , even though their contents might be the same. So, we can say `is` will return True if two variables point to the same object and `==` if the objects referred to by the variables are equal.
 
+ <blockquote> 
 </details>
 </details>
   
@@ -437,12 +492,14 @@ str="Software engineer"
 print(str[2 : 10 : 2])
 ```
   
+  ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
 <details><summary> <b>Show Answer</b> </summary>
   
 > fw
   
 <details><summary> <b>Explanation</b> </summary>
-  > In the above program we used slicing operator  and this is used to cut the strings based on the values.
+  > In the above program we used `slicing` operator  and this is used to cut the strings based on the values.
   
   </details>
 </details>
@@ -455,6 +512,9 @@ print(str[2 : 10 : 2])
 str1 = "Revature"
 print(str1[1:4], str1[:5], str1[4:], str1[0:-1], str1[:-1])
 ```
+   
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+   
 <details><summary> <b>Show Answer</b> </summary>
   
 > eva Revat ture Revatur Revatur
@@ -472,32 +532,37 @@ print(str1[1:4], str1[:5], str1[4:], str1[0:-1], str1[:-1])
   
   ---
   
-20.What is the difference between indexing and slicing?
+20.What is the difference between `indexing` and `slicing`?
 
 <details><summary> <b>Show Answer</b> </summary>
+  <blockquote>
   
-> - **Indexing**: Indexing is used to obtain individual elements.
-          > - Indexing returns one item.
-          > - Indexing starts from 0.Negative Indexing starts from -1.
-> - **Slicing**: Slicing is used to obtain a sequence of elements.
-          > - Slicing returns new list.
-          > - We can specify range of indxes.
+ - **Indexing**: Indexing is used to obtain individual elements.
+           - Indexing returns one item.
+           - Indexing starts from `0`.Negative Indexing starts from `-1`.
+ - **Slicing**: Slicing is used to obtain a sequence of elements.
+           - Slicing returns new list.
+           - We can specify range of indxes.
 
-> - Indexing and Slicing can be be done in Python Sequences types like list, string, tuple, range objects.
+ - Indexing and Slicing can be be done in Python Sequences types like `list, string, tuple, range` objects.
+    
+   </blockquote>
 
   </details>
   
   ---
   
 21.Can you tell me some different String methods in Python?
+    
+    ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-   > - endswith()	Returns true if the string ends with the specified value
-   > - format()	Formats specified values in a string
-   > - isalpha()	Returns True if all characters in the string are in the alphabet
-   > - isidentifier()	Returns True if the string is an identifier
-   > - partition()	Returns a tuple where the string is parted into three parts
+   > - `endswith()`	Returns true if the string ends with the specified value
+   > - `format()`	Formats specified values in a string
+   > - `isalpha()`	Returns True if all characters in the string are in the alphabet
+   > - `isidentifier()`	Returns True if the string is an identifier
+   > - `partition()`	Returns a tuple where the string is parted into three parts
   
   </details>
   
@@ -511,29 +576,38 @@ print(str[: :-1])
 print(str[-7: -1: 2])
 print(str[3 : 14 : 3])
 ```
+    
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
+  <blockquote>
 
-> ssecorPgninraeLerutaveR
+ ssecorPgninraeLerutaveR
   
-> Poe
+ Poe
   
-> aren
+ aren
+  
+<details><summary> <b>Explanation</b> </summary>
+> In the above program we will get some part of string characters,because we used `slicing()` method.    
 
 </details>
+    </details>
   
 ---
   
 23.Which method should I use to convert String "welcome to the beautiful world of python" to "Welcome To The Beautiful World Of Python".
+  
+  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
- > - title()-method
- > - For this in python we can use title() method.
+ > - `title()`-method
+ > - For this in python we can use `title()` method.
   
 <details><summary> <b>Show Explanation</b> </summary>
   
-> The title() function capitalize() the first letter of every word of the String.
+> The `title()` function `capitalize()` the first letter of every word of the String.
   
   </details>
   </details>
@@ -541,6 +615,8 @@ print(str[3 : 14 : 3])
   ---
   
 24.Can you name some Escape Characters in python?
+  
+  ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -566,10 +642,13 @@ str="Hello World!"
 lst=
 print(lst)
 ```
-
-<details><summary> <b>Hint</b> </summary>
   
-> .split() method can be used to split strings based on a given character. It returns a list of split substrings.
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary> <b>Hint</b> </summary>
+  <blockquote>
+  
+- `.split()` method can be used to split strings based on a given character. It returns a list of split substrings.
   
  </details>  
   
@@ -586,7 +665,7 @@ str="Hello World!"
 lst=str.split(" ")
 print(lst)
 ```
-  
+ </blockquote> 
   </details>
   
   ---
@@ -598,13 +677,15 @@ str1='Welcome'
 print(str1[:6] + ' to India')
 ```
   
+ ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
 <details><summary> <b>Show Answer</b> </summary>
    
 > Welcom to India
    
 <details><summary> <b>Explanation</b> </summary>
   
-> Here we are used slicing for getting some part of string and then we used + operator for string combining.
+> Here we are used slicing for getting some part of string and then we used `+` operator for string combining.
 
   </details>
   </details>
@@ -620,6 +701,8 @@ print(str1.isdigit())
 print(str2.isdigit())
  ```
   
+  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
 <details><summary> <b>Show Answer</b> </summary>
   
 > False
@@ -627,7 +710,7 @@ print(str2.isdigit())
   
 <details><summary> <b>Explanation</b> </summary>
   
-> isdigit() method is checking it contains only the characters or not,if it is contains it will return True orelse it will return False.
+> `isdigit()` method is checking it contains only the characters or not,if it is contains it will return True orelse it will return False.
   
   </details>
   </details>
