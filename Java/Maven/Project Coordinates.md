@@ -32,7 +32,7 @@
 
 <details><summary> <b> Show Answer </b></summary>
 
-- `groupId`- Is the way of grouping different maven artifacts.
+- `groupId`- Is the way of grouping different Maven artifacts.
 - `artifactId` - Is the way of identifying the artifact.(Like JAR, WAR)
 - `version` - Particular release of the project, denotes different versions in same artifacts and same repository.
 - <b>Example</b> for the coordinates explained above	
@@ -44,7 +44,7 @@
 
 ---
 
-3. What does a valid POM file should have?
+3. What will a valid POM file have?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -68,7 +68,7 @@
 	
 <blockquote>
 
-- There are two additional coordinates used in maven but not to uniquely identify the project.
+- There are two additional coordinates used in Maven but not to uniquely identify the project.
 	- **Packaging** - Which defines the project type (WAR,JAR).
 	- **Classifiers** - Which is used to distinguish between the artifacts created for two versions.
 - **Example** for these coordinates.
@@ -97,11 +97,11 @@
 <blockquote>
 	
 - JAR is a file format, used for java archive files.
-	- JAR files are the only archive format that works across several platforms, which means that any JAR file on your 
+- JAR files are the only archive format that works across several platforms, which means that any JAR file on your 
 	desktop will be atomatically executed with the Java JAR. 
 	
 - WAR is a file format, used for web application archive files. 
-	- The benefit of utilizing a WAR file is to consolidate all of the files into a single unit, to reduces the amount of time it takes for the ser to move a file from one client to another client.
+- The benefit of utilizing a WAR file is to consolidate all of the files into a single unit, to reduces the amount of time it takes for the ser to move a file from one client to another client.
 
 
 </blockquote>
