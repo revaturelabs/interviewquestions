@@ -2,15 +2,19 @@
 
 1.What is boolean data type in python?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> The Python Boolean type is one of Python's built-in data types.  Boolean is a primitive data type that takes either "true" or "false" values. So anything that returns the value "true" or "false" can be considered as a boolean example. Checking some conditions such as `a==b` or `a<b` or `a>b` can be considered as boolean examples.
+> The Python Boolean type is one of Python's built-in data types.  Boolean is a primitive data type that takes either `true` or `false` values. So anything that returns the value `true` or `false` can be considered as a boolean example. Checking some conditions such as `a==b` or `a<b` or `a>b` can be considered as boolean examples.
+  
 </details>
 
 ---
+  
 2.What is the output of the following code?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 ```python  
 class truth:
@@ -26,7 +30,7 @@ D. error
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> B. True
+> Option B. True
   
 <details><summary> <b>Explanation</b> </summary>
   
@@ -36,29 +40,35 @@ D. error
   </details>
 
 ---
-3.What is the use of bool() function?
+  
+3.What is the use of `bool()` function?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
+ <blockquote>
   
-> Python bool() function is used to return or convert a value to a Boolean value i.e., True or False, using the standard truth testing procedure. 
+> Python `bool()` function is used to return or convert a value to a Boolean value that is `True` or `False`, using the standard truth testing procedure. 
 
 **Syntax**: 
+
+`bool([x])`
+   
+- These are the few cases, in which Python’s `bool()` method returns `false`.Except these all other values return `True`. 
+
+ - If a False value is passed it will print false.
+ - If None is passed it will print false.
+ - If an empty sequence is passed, such as (), [], ”, etc
+ - If Zero is passed in any numeric type, such as 0, 0.0 etc
+ - If an empty mapping is passed, such as {}.
+ - If Objects of Classes having `__bool__()` or `__len()__` method, returning `0` or `False`
   
-> bool([x])
->
-> These are the few cases, in which Python’s bool() method returns false.Except these all other values return True. 
->
-> - If a False value is passed.
-> - If None is passed.
-> - If an empty sequence is passed, such as (), [], ”, etc
-> - If Zero is passed in any numeric type, such as 0, 0.0 etc
-> - If an empty mapping is passed, such as {}.
-> - If Objects of Classes having __bool__() or __len()__ method, returning 0 or False
-  
-  </details>
+  </blockquote>
+   </details>
 
 ---
-4.Predict the output of the following code.
+  
+4.Predict the output of the following code?
 
 ```python  
 class myclass():
@@ -67,6 +77,8 @@ class myclass():
 myobj = myclass()
 print(bool(myobj))
 ```
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)  
   
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -80,11 +92,14 @@ print(bool(myobj))
   </details>
  
 ---
-5.Predict the output of the code.
+  
+5.Predict the output of the code?
 
 ```python  
 print(['hello','morning'][bool('')])
 ```
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)  
   
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -106,19 +121,24 @@ l2=list(filter(bool,l))
 print(l2)
 ```
   
+  ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
 <details><summary> <b>Show Answer</b> </summary>
    
 > [1,2,'hello']
   
 <details><summary> <b>Explanation</b> </summary>
   
-> The code shown above returns a new list containing only those elements of the list l which do not amount to zero.Hence the output is:[1,2,'hello']
+> The code shown above `returns` a new list containing only those elements of the list l which do not amount to zero.Then the output is:[1,2,'hello']
   
   </details>
   </details>
 
 ---
-7.Write a program to check whether the given number is even or odd.(Take input from user)
+  
+7.Write a program to check whether the given number is even or odd?(take input from user)
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -138,6 +158,7 @@ else:
   </details>
 
 ---
+  
 8.What is the output of the following code snippet?
   
 ```python  
@@ -147,10 +168,12 @@ A. True
 B. False   
 C. Error    
 D. No output    
+                                
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)                                
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> A.True
+> Option A.True
   
 <details><summary> <b>Explanation</b> </summary>
   
@@ -160,6 +183,7 @@ D. No output
   </details>
 
 ---
+  
 9.What is the output of the following code?
   
 ```python  
@@ -171,21 +195,26 @@ A. 200
 B. True   
 C. 200.60    
 D. False    
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> D.False
+> Option D.False
   
   </details>
 
 ---
-10.Predict the output of the following code and give the correct code.
+  
+10.Predict the output of the following code and give the correct code?
   
 ```python  
 def myFunction() :
   return True
 myFunction()
 ```
+  
+  ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -199,17 +228,24 @@ print(myFunction())
  
 > True
   
-  </details>
+</details>
  
 ---
-11.Mention some advantages of boolean() data type.
+  
+11.Mention some advantages of `boolean()` data type?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
+  <blockquote>
   
-> i) A boolean can be set to one of only two predefined values, which maps perfectly to what it is used for. You could use an integer as a boolean, but there are many more than two possible integer values. So you'd have to define which integer values should be considered “true” and which should be considered “false”.   
- ii) Advantages of the boolean retrieval model It is easy to implement.   
- iii) It is easy to understand why the document is retrieved or not. Users can determine whether the query is too specific or too broad.    
+i) A `boolean` can be set to one of only two predefined values, which maps perfectly to what it is used for. You could use an integer as a boolean, but there are many more than two possible integer values. So you'd have to define which integer values should be considered `true` and which should be considered `false`.
   
+ii) Advantage of the boolean retrieval model It is easy to implement.   
+  
+iii) It is easy to understand why the document is retrieved or not. Users can determine whether the query is too specific or too broad.    
+
+    </blockquote>
   </details>  
 
  ---
