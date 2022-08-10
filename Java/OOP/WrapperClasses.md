@@ -18,6 +18,8 @@
 </details>
 </details>
 
+---
+
 2. What is boxing?
 
 
@@ -28,6 +30,8 @@
   
 </details>
 
+---
+
 3. What is unboxing?
 
 <details><summary> <b>Show Answer</b> </summary>
@@ -35,6 +39,8 @@
 > The conversion of Object to primitive datatype is called Unboxing.
   
 </details>
+
+---
 
 
 
@@ -53,6 +59,8 @@
   
 </details>
 
+---
+
 5. How to convert wrapper objects to a primitive data type?
 
 
@@ -70,6 +78,8 @@
 
 </details>
 
+---
+
 6. Are wrapper classes immutable? justify the answer.
 
 <details>
@@ -81,7 +91,7 @@
  
   
   
-  
+ ---
   
 </details>
 
