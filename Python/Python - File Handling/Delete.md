@@ -2,6 +2,8 @@
 
 1.How will you delete a file in python?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > - Many a times you need to delete the file instead of closing it.
@@ -21,6 +23,8 @@ os.remove("File.txt")
 
 2.What is the use of checking whether a file exists or not?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > To avoid obtaining an error, we would possibly need to check if the file exists before trying to delete it.
@@ -30,6 +34,8 @@ os.remove("File.txt")
 ---
 
 3.Write a program to check if a file exist or not?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
     
@@ -48,6 +54,8 @@ else:
 ---
 
 4.How do we close a file in python?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -74,6 +82,8 @@ with open("myFile.txt", "r") as fObj:
 
 5.How do we delete a folder?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > - In python, to delete a folder, we can use os.rmdir() method.
@@ -90,6 +100,8 @@ os.rmdir("folder_name")
 
 6.Can we delete a folder?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > Yes,we can delete/remove a folder.But,you can remove only empty folders.
@@ -100,6 +112,8 @@ os.rmdir("folder_name")
 ---
 
 7.How do we list the files in a directory?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -116,6 +130,8 @@ for x in os.listdir('_'):
 ---
 
 8.Write a program to read the file "rename.txt" and display the entire content after removing the leading and trailing spaces.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -150,6 +166,8 @@ C.None
 
 D.Error
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > Option A.True
@@ -173,6 +191,8 @@ C.return a list of single characters
 
 D.a list of integers
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > Option B.return a list of lines
@@ -187,6 +207,8 @@ D.a list of integers
 ---
 
 11.Write a python program to count the number of lines from "data.txt" which does not start from 'M'.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -211,6 +233,8 @@ f=open('C:\file.txt')
 a=f.read()
 ```
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > It will read the content from the file.txt until the end of file.
@@ -234,6 +258,8 @@ C.outfile = open(file = "c:\scores.txt", "w")
 
 D.outfile = open(file = "c:\\scores.txt", "w")
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > Option A.outfile = open("c:\\scores.txt", "a")
@@ -248,6 +274,8 @@ D.outfile = open(file = "c:\\scores.txt", "w")
 ---
 
 14.Write a python program to read the content from "file.txt" and display all numbers.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -266,6 +294,8 @@ file.close()
 
 15.Write a program to replace all the 'a' by '@' in a file "select.txt".
 
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 ```python
@@ -283,6 +313,8 @@ f.close()
 ---
 
 16.What modes are valid to open a file to read and write?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -303,17 +335,19 @@ f.close()
 
 17.How would you get the current position within the files?
 
-A. fp.seek()
+A.fp.seek()
 
-B. fp.tell()
+B.fp.tell()
 
-C. fp.loc
+C.fp.loc
 
-D. fp.pos
+D.fp.pos
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
-> Option B. fp.tell()
+> Option B.fp.tell()
 
 <details><summary><b>Explanation</b></summary>
 
@@ -331,6 +365,8 @@ str=input("enter the input")
 print("Received input",str)
 ```
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 > enter the input:[x*5 for x in range(2,10,2)]
@@ -346,6 +382,8 @@ print("Received input",str)
 ---
 
 19.What is the difference between r+ and w+ modes in python?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -364,6 +402,8 @@ print("Received input",str)
 ---
 
 20.How will you delete multiple files in python?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
