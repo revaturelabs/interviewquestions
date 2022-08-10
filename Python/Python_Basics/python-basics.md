@@ -97,7 +97,7 @@ d) No special characters(@,!,#,$,%,&) are allowed other than underscore.
 
 <details><summary> <b>Explanation</b> </summary>  
   
-> Identifier can start with character or underscore, but not with a number.
+> Identifier can start with a character or an underscore, but not with a number. It is invalid in python to name the first letter of an identifier as number. 
   
   </details>  
 </details>
@@ -121,7 +121,7 @@ d) mid-level language
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> Python is a High- level language.
+> Python is a High- level language not mid-level because, the final output that we received from the code after execution is more readable and easy to understand to a human. 
   
   </details> 
 </details>
