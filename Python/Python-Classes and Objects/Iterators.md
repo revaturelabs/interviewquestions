@@ -2,9 +2,12 @@
 
 
 1. What is an iterator in python?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary> 
   
-> Iterator allows to iterate or traverse through all the values of collection in python. It has two methods, __iter__() and __next__(). iter() method is similar to init() method, as it is used to initialize the objects but, it is returned an iterator. next() method is used to get the next element of the iteration.   
+> Iterator allows to iterate or traverse through all the values of collection in python. It has two methods, __iter__() and __next__(). iter() method is similar to init() method, as it is used to initialize the objects but, it returns an iterator. next() method is used to get the next element of the iteration.   
 
 For example:
 ```python3
@@ -29,6 +32,9 @@ for i in m:
 
 ---
 2. How to create an iterator in python?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > To create a custom iterator in python, we can use __iter__() and __next__() method inside a class.
@@ -57,6 +63,9 @@ for x in itr:
 
 ---
 3. What is a StopIteration exception?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
 <details><summary> <b>Show Answer</b> </summary> 
   
 > In python, it is raised by next() method when there is no element to be present for iteration. 
@@ -69,6 +78,9 @@ a) RuntimeError
 b) SystemExit    
 c) StopIteration     
 d) IndexError    
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+  
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option c)
@@ -100,6 +112,9 @@ a) 5 6 7 8
 b) 8 7 6 5  
 c) Error  
 d) Nothing is printed  
+                      
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+                      
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option d)
@@ -135,6 +150,9 @@ a) 3 4 5
 b) 5 4 3  
 c) Error  
 d) Nothing is printed   
+                      
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+                      
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option a)
@@ -151,6 +169,9 @@ a) It is used to initialize an object.
 b) It is used to throw an error.  
 c) It is used to return an iterator.  
 d) None of the above.  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option c)
@@ -167,6 +188,9 @@ a) It is used to initialize an object.
 b) It is used to give next element from the iteration through iterator.  
 c) It is used to return an iterator.  
 d) It is used to throw StopIteration exception.  
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Option b)
