@@ -1,6 +1,6 @@
 ## Custom Exceptions
 
-1:What is use of Custom Exceptions?
+1.What is use of Custom Exceptions?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
