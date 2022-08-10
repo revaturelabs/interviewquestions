@@ -3,7 +3,7 @@
 
 ## Technical
 
-1. Can java be considered as absolute Object Orineted language? Explain the reason ?
+1. Can java be considered an absolute Object Oriented language? Explain the reason.
 
 
 
@@ -13,12 +13,12 @@
   
 <details> <summary><b>Explanation</b></summary>
   
-> Java is not perfectly object oriented beacuse Primitive datatypes are included in java for fast execution. Wraper classes are used to convert primitives to objects.
+> Java is not perfectly object-oriented because Primitive datatypes are included in java for fast execution. Wrapper classes are used to convert primitives to objects.
   
 </details>
 </details>
 
-2. What is boxing ?
+2. What is boxing?
 
 
     
@@ -38,7 +38,7 @@
 
 
 
-4. How to covert a primitive datatype to an Object wrapper class ?
+4. How to convert a primitive datatype to an Object wrapper class?
 
 
 <details><summary> <b>Show Answer</b> </summary>
@@ -47,13 +47,13 @@
   ``` java
   // primitive int i
   int i =1;
-  // Wraping primitive datatype int to Wrapper object Integer
+  // Wrapping primitive datatype int to Wrapper object Integer
   Integer k = new  Integer(i);
   ```
   
 </details>
 
-5. How to convert wrapper object to a primitive data type?
+5. How to convert wrapper objects to a primitive data type?
 
 
 
@@ -77,7 +77,7 @@
 <summary><b>Show Answer</b></summary>
   
  > Yes, wrapper classes are immutable.
- > wrapper classses are used to store data i collections and as a developer one doesnt wish that all the values in collection are changed just because a primitive value is changed. 
+ > wrapper classes are used to store data in collections and as a developer one doesn't wish that all the values in a collection are changed just because a primitive value is changed. 
  
   
   
@@ -91,7 +91,7 @@
   
 <summary><b>Show Answer</b></summary>
   
-> when a wrapper class is created the primitive data type is stored as a field in the  wrapper class and an object reference is created.
+> when a wrapper class is created the primitive data type is stored as a field in the wrapper class and an object reference is created.
 </details>
 
 
