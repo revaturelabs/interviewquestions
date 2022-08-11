@@ -10,6 +10,8 @@
   
 </details>
 
+---
+
 2. What are the benefits of the collection framework? 
 
 <details>
@@ -23,6 +25,8 @@
   
 </details>
 
+---
+
 3. What is Iterable Interface?
 
 <details>
@@ -32,6 +36,8 @@
 > - Any class that implements an Iterable interface can be traversed using for each Construct. 
 
 </details>
+
+---
 
 ## Problem Solving
 
@@ -79,6 +85,8 @@ public class Main {
 
 
 </details>
+ 
+ ---
 
 5. Write a program to traverse any collection using an iterator.
 
@@ -122,6 +130,8 @@ public class Main {
 
 
 </details>
+ 
+ ---
 
 6. Write a program to traverse any collection using aggregate operations.
 
@@ -157,6 +167,8 @@ public class Main {
 
 </details>
 </details>
+ 
+ ---
 
 
 7. What is the difference between the Comparable and Comparator interface?
@@ -180,6 +192,8 @@ Comparable and Comparator both are interfaces and can be used to sort collection
  
 
 </details>
+ 
+ ---
 
 8. What are concurrent collection classes?
 
@@ -208,6 +222,8 @@ The concurrent collection APIs of Java provides a range of classes that are spec
 </blockquote>
 
 </details>
+ 
+ ---
 
 9. What is the difference between the Enumeration and Iterator interface?
 
