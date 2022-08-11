@@ -14,7 +14,7 @@ d) in
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option c) + correct
+> Option c) + 
   
 <details><summary> <b>Explanation</b> </summary> 
   
@@ -50,7 +50,7 @@ d) They slow down execution of the program
 
 ---
 
-3.What is keywords?
+3.What do you mean by keywords?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -63,7 +63,7 @@ d) They slow down execution of the program
 </details>
 
 ---
-4.What is identifiers? 
+4.What do you mean by identifiers? 
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -121,7 +121,7 @@ d) mid-level language
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> Python is a High- level language not mid-level because, the final output that we received from the code after execution is more readable and easy to understand to a human. 
+> Python is a High- level language not mid-level because, the final output that we received from the code after execution is more readable and easy to understand for a human. 
   
   </details> 
 </details>
