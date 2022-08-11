@@ -25,26 +25,26 @@
   - Set
   - Dictionary
   
-- `Numbers`, `strings`, `lists`, `dictionaries`, `tuples`, `files`, and `sets` are generally considered the main types of data. Types, None, and Booleans are sometimes also classified this way. The integer, floating-point, complex, fraction and decimal are numerical data types and simple strings and Unicode strings in Python 2 and text strings and byte strings in Python 3 are the types of string data types.
+- `Numbers`, `strings`, `lists`, `dictionaries`, `tuples`, `files`, and `sets` are generally considered as the main types of data. Types, None, and Booleans are sometimes classified this way. The integer, floating-point, complex, fraction and decimal are numerical data types, simple strings and Unicode strings in Python 2, text strings and byte strings in Python 3 are the types of string data types.
   
 </blockquote>
     </details>
 
 ---
 
-3.Why are these data types called Python's core data types?
+3.Why are the data types called Python's core data types?
   
   ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> They are known as the core data types because they are part of the Python language itself and are always available to create other objects, you usually need to call functions in imported modules.
+> They are known as the core data types because they are part of the Python language itself and are always available to create other objects, and you usually need to call functions in imported modules.
   
 </details>
 
 ---
 
-4.How will you find type of the data?
+4.How will you find the type of the data?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -67,7 +67,7 @@ print("type of data",type(a))
  
  ---
  
-5.What does sequence mean and which three types of data fall into this category
+5.What does sequence mean and which three types of data fall into this category?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -81,7 +81,7 @@ print("type of data",type(a))
 
 ---
 
-6.What does immutable mean that the three types of Python core data types are considered immutable? 
+6.What does immutable and what are the three types of Python core data types that are considered immutable? 
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -100,14 +100,14 @@ print("type of data",type(a))
 
 ---
 
-7.How will you get inupt from user?
+7.How will you get input from user?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   <blockquote>
   
-- In python we can use `input()` function to take input from user.But,it will differs when it comes to another data type like String. In that case we can use `int(input())` to take input as a integer from user.
+- In python, we can use `input()` function to take input from user. But,it will differ when it comes to another data type like String. In that case, we can use `int(input())` to take input as a integer from user.
   
 1.integer input - `int(input())`
   
@@ -131,7 +131,7 @@ x=int(input("Enter a integer value"))
 <details><summary> <b>Show Answer</b> </summary>
   <blockquote>
   
-- Number data types store numeric values. They are immutable data types, which means that changing the value of a number data type results in a newly allocated object.In python we have three numeric data types,
+- Number data types store numeric values. They are immutable data types, which means that changing the value of a number data type results in a newly allocated object. In python, we have three numeric data types,
   
  1.int
   
@@ -141,7 +141,7 @@ x=int(input("Enter a integer value"))
   
  1.int:
   
-   - This datatype we can hold only the whole number,including negative numbers but not fractions. In Python, there is no limit to how long an integer value can be.
+   - This datatype can hold only the whole number,including negative numbers but not fractions. In Python, there is no limit to how long an integer value can be stored.
   
 **Example** :
  
@@ -151,7 +151,7 @@ x=int(input("Enter a integer value"))
  
  2.float:
   
- - Using this data type we can store decimal values.
+ - Using this data type, we can store decimal values.
   
 **Example** :
 
@@ -161,7 +161,7 @@ x=10.4  #float
   
  3.complex:
   
- - In this data type we can store complex values.
+ - In this data type, we can store complex values.
   
 **Example** :
 
@@ -181,7 +181,7 @@ x=2j  #complex
   
   <blockquote>
   
-- In python we can use the `type()` function
+- In python, we can use the `type()` function
   
 **Example**:
   
@@ -243,14 +243,14 @@ Exponent 81
 
 <details><summary> <b>Explanation</b> </summary>
   
-- In this program to perform an arithmetic operations, first we declared a two variables to store an values and then we performed arithmetic operations like +,-,*,%,etc...
+- In this program, to perform an arithmetic operation, we declared two variables to store a value and then perform arithmetic operations like +,-,*,%,etc...
   
   </details>
   </details>
   
   ---
   
-11.What will be the output of the following code?
+11.What is the output of the following code?
   
 ```python
 a=50
@@ -272,7 +272,7 @@ type(a)
 
   ---
   
-12.What will be the output of the following code?
+12.What is the output of the following code?
 
 ```python
 print( (1.1 + 2.2) == 3.3 )
@@ -309,7 +309,7 @@ print(round(1.1 + 2.2, 10) == round(3.3, 10))
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> The `int()` function converts a string,hexadecimal,binary,octal and float to int.If the argument is a floating point, the conversion truncates the number. If the argument is outside the integer range, It converts the number into long type.
+> The `int()` function converts a string,hexadecimal,binary,octal and float to int.If the argument is a floating point, the conversion truncates the number. If the argument is outside the integer range, it converts the number into long type.
   
   </details>
   
@@ -344,7 +344,7 @@ print(x)
   
 <details><summary> <b>Explanation</b> </summary>
   
-> global x  x=20  is the correct answer,because other declarations are not correct syntax for global variable declarations.
+> global x  x=20  is the correct answer,because other declarations are not the correct syntax for global variable declarations.
   
 <details><summary> <b>Correct Code</b> </summary>
 
@@ -373,7 +373,7 @@ print(x)
   
 <details><summary> <b>Explanation</b> </summary>
   
-> We can't able to convert complex numbers to any other number type.Python will give you TypeError.This function converts other numeric values into floating values.
+> We can't convert complex numbers to any other number type as python will give you TypeError.This function converts other numeric values into floating values.
 
 **Example**:
   
@@ -395,7 +395,7 @@ TypeError: can't convert complex to int
   
   ---
 
-16.What will be output of the following program?
+16.What is the output of the following program?
   
 ```python
 print(type(0xFF))
@@ -418,7 +418,7 @@ print(type(0xFF))
   
 <details><summary> <b>Explanation</b> </summary>
   
-- We can represent a integers in binary,octal and hexadecimal formats.
+- We can represent an integer in binary,octal and hexadecimal formats.
   
  - 0b or 0B for Binary and base is 2
  - 0o or 0O for Octal and base is 8
@@ -429,7 +429,7 @@ print(type(0xFF))
 
   ---
   
-17.Predict the output of the following code?
+17.Predict the output of the following code.
   
 ```python
 a=0b101
@@ -456,7 +456,7 @@ The data type of the variable <class 'int'>
    
  --- 
   
-18.In Python 3, what is the output of `type(range(5))`. (What data type it will return).
+18.In Python 3, what is the output of `type(range(5))`? (What data type it will return).
    
  A.int
   
@@ -502,7 +502,7 @@ print(type(a1))
   
  --- 
   
-20.How will you convert real numbers to complex numbers and give an example?
+20.How will you convert real numbers to complex numbers. Give an example?
   
   ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -532,7 +532,7 @@ print(complex(a))
   
   ---
 
-21.What will be the output of the following code?
+21.What is the output of the following code?
 
 ```python
 a = 7
@@ -580,8 +580,8 @@ print(x.imag)
   
    - int: These are whole numbers of unlimited range. 
    - long: These are long integers in Python 2. 
-   - float: These are floating point numbers represented as 64-bits    double precision numbers. 
-   - complex: Are unsigned numbers with real and imaginary components.
+   - float: These are floating point numbers represented as 64-bits double precision numbers. 
+   - complex: unsigned numbers with real and imaginary components.
   
    </blockquote>
     </details>
