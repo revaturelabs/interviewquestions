@@ -1,17 +1,17 @@
 ## List
 
-1.What is a list in python? Is list and Array both are same? If not, how `list` and `array` are different?
+1.What is a list in python? Is list and Array both are same? If not, how list and array are different?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   <blockquote>
   
-- List is a part of Collections in python. it has been used to store mulitple items in a single variable. An empty List is created by `square brackets []`, we can place the elements inside that `[]` separated by commas.     
+- List is a part of Collections in python. it has been used to store mulitple items in a single variable. An empty List is created by square brackets [], we can place the elements inside that `[]` separated by commas.     
 - No, list and array both are not same in python. Although, list and array both are used to store elements in it, but still some differences are there:   
     
 - i) List can consist of elements of different types, for eg. [1, 2, "a", 4.5], whereas Array can store elements of same type only. 
-- ii) List is a built-in data type in python so anyone can directly use it, whereas for using Array we have to import the array module. 
+- ii) List is a built-in data type in python so anyone can directly use it, whereas for using Array we have to `import` the array module. 
 - iii) List are preferred for shorter sequence of data items, on the other hand arrays are preferred for data items of longer sequence. 
 - iv) We can print List without any loop, but for printing elements of an array a loop is required.
     
@@ -229,7 +229,7 @@ l2 = l1.copy()
 print(l2)   # output: [1, 2, 3, 4]
 ```
   
-- If we use the `=` operator instead of `copy()` to copy 1st list elements to 2nd list, the output will be same when we print 2nd list. But the actual difference occurs when we try to add, delete or change a value in original list, the new list that we have created using `copy()` method will not changed and vise-versa. Whereas the changes will reflect to new list also if we used '=' operator there for coping the elements. Let's see one example to understand easily. 
+- If we use the `=` operator instead of `copy()` to copy 1st list elements to 2nd list, the output will be same when we print 2nd list. But the actual difference occurs when we try to `add, delete or change` a value in original list, the new list that we have created using `copy()` method will not changed and vise-versa. Whereas the changes will reflect to new list also if we used '=' operator there for coping the elements. Let's see one example to understand easily. 
 
 ```python  
 original = [1, 3, 3, 2]
