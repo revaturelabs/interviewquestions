@@ -177,7 +177,7 @@ D. No output
   
 <details><summary> <b>Explanation</b> </summary>
   
-> The expression not(10>20) returns `False`.The expression not(10<0) returns False.The and operation between false and false returns `True`.Hence the output is `True`.
+> The expression not(10>20) returns `False`.The expression not(10<0) returns `False`.The and operation between `false` and false returns `True`.Hence the output is `True`.
 
   </details>
   </details>
@@ -252,11 +252,11 @@ print(myFunction())
   
 i) A `boolean` can be set to one of only two predefined values, which maps perfectly to what it is used for. You could use an integer as a boolean, but there are many more than two possible integer values. So you'd have to define which integer values should be considered `true` and which should be considered `false`.
   
-ii) Advantage of the boolean retrieval model It is easy to implement.   
+ii) Advantage of the `boolean` retrieval model It is easy to implement.   
   
 iii) It is easy to understand why the document is retrieved or not. Users can determine whether the query is too specific or too broad.    
-
-    </blockquote>
+    
+ </blockquote>
   </details>  
 
  ---
