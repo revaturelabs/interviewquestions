@@ -1,6 +1,6 @@
 ## String
 
-1.What is `String literals`?
+1.What are `String literals`?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -20,7 +20,7 @@
 
 ---
 
-2.How do you know if every word in a string starts with a capital letter?
+2.How do you know if every word in a string that starts with a capital letter?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -35,7 +35,7 @@ print( 'The Dog'.istitle() ) #=> True
 ```
 <details><summary> <b>Explanation</b> </summary>  
   
-> In python `istitle()` function used to check whether the given string is starts with a capital letter or not.
+> In python, `istitle()` function is used to check whether the given string starts with a capital letter or not.
   
 </details>
 </details>
@@ -48,7 +48,7 @@ print( 'The Dog'.istitle() ) #=> True
 
 <details><summary> <b>Show Answer</b> </summary>
  
-> In Python, you can concatenate two strings  by simply using the `+` operator between them. You can use the + operator to `concatenate` three or more strings.
+> In Python, you can concatenate two strings by simply using the `+` operator in between them. You can use the + operator to `concatenate` three or more strings as well.
 
 **Example**:
   
@@ -66,14 +66,14 @@ print(string)
   
 <details><summary> <b>Explanation</b> </summary>
   
-> In the above program we used `+` operator for combining two or more strings into a single string.
+> In the above program, we use `+` operator for combining two or more strings into a single string.
   
 </details>
 </details>
 
 ---
 
-4.What will be the output of the following code?
+4.What is the output of the following code?
 
 ```python
 s1="IndiaTraining people"
@@ -94,7 +94,7 @@ print(s3)
   
 <details><summary> <b>Explanation</b> </summary>
   
-> In the above program it will checking s,n and p characters are in the string or not.If it's having it will print those characters.
+> In the above program, it will check whether s,n and p characters are in the string or not.If it is there, it will print those characters.
   
   </details>
   
@@ -102,13 +102,13 @@ print(s3)
 
 ---
 
-5.How will you count total number of characters in a string and give an example?
+5.How will you count total number of characters in a string. Give an example?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> In python `len()` function will return the length of a string.
+> In python, `len()` function will return the length of a string.
   
 **Example**:
   
@@ -154,7 +154,7 @@ print((string1 + string2)*3)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> In python `isnumeric()` function returns True if all characters are numeric.
+> In python, `isnumeric()` function returns True if all characters are numeric.
   
 **Example**:
 
@@ -171,7 +171,7 @@ False
 
 ---
 
-8.Write a program to find the characters at an odd position in string input by user?
+8.Write a program to find the characters at an odd position in a string input by the user?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -195,8 +195,8 @@ String after odd charcater : PtoSrn
   
 <details><summary> <b>Explanation</b> </summary>
   
-> In above program first we used `len()` function to find the size of the string. Then we want to find the odd position in string for that we used if statements inside the for loop.
-> If the position/index is not equal to 0 , those characters are stored into the single variable and then it will printing the values.
+> In the above program, we initially used `len()` function to find the size of the string. Then, we want to find the odd position in string and we used `if` statements inside the `for` loop.
+> If the position/index is not equal to 0 , those characters are stored into the single variable and then it will print the values.
 
 </details>
 </details>
@@ -222,7 +222,7 @@ print(modifiedStr)
   
 <details><summary> <b>Explanation</b> </summary>
     
-> In python we used `.replace()` function to replace one character with another character.
+> In python, we use `.replace()` function to replace one character with another character.
     
 </details>
 </details>
@@ -257,14 +257,14 @@ print ("Total Lower case Characters : ", lower_case)
 
 <details><summary> <b>Explanation</b> </summary>
    
-- If we want to count total number of upper case and lower case in the given string we can use `isupper()` and `islower()` method.
+- If we want to count total number of upper case and lower case in the given string, we can use `isupper()` and `islower()` method.
    
 </details>
 </details>
 
 ---
 
-11.What will be the output of the following code?
+11.What is the output of the following code?
 
 ```python
 input_string ="Consultancy"
@@ -280,7 +280,7 @@ print('reversed string =',reversed_str)
 
 <details><summary> <b>Explanation</b> </summary>
 
-> In python to reverse a string  we can use built-in function reversed orelse we can use `negative index ([::-1])`.
+> In python, to reverse a string, we can use built-in function reversed or else we can use `negative index ([::-1])`.
   
 </details>
 </details>
@@ -310,7 +310,7 @@ print("Urls found: ", URLsearch(textcontent))
   
 <details><summary> <b>Explanation</b> </summary>
   
-> If we want extract the url form string we can use `regex`.
+> If we want to extract the url from string, we can use `regex`.
   
   </details>
   
@@ -347,7 +347,7 @@ print( id(pet) )
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> In python we can use `lstrip()`, `rstrip()` and `strip()` remove whitespace from the ends of a string.
+> In python, we can use `lstrip()`, `rstrip()` and `strip()` to remove whitespace from the ends of a string.
   
 **Example**,
  
@@ -404,7 +404,7 @@ print(str1 is str2)
   
 <details><summary> <b>Explanation</b> </summary>
   
-> In the case of a string, `==` and `is` operators are used to check whether the given strings are equal or not.
+> In case of a string, `==` and `is` operators are used to check whether the given strings are equal or not.
   
   </details>
   </details>
@@ -428,7 +428,7 @@ print(str1 is str2)
   
 ---
 
-17.What are the difference between **==** and **is** operator in python?
+17.What are the difference between **==** and **is** operators in python?
 
   ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
@@ -437,8 +437,8 @@ print(str1 is str2)
   
 ** == **:
   
- - In python this operator is equality operator.
- - The == operator is used when the values of two operands are equal, then the condition becomes `true`.
+ - In python, this operator is equality operator.
+ - The == operator is used when the values of two operands are equal, and then the condition becomes `True`.
   
 **Example**:
 
@@ -454,8 +454,8 @@ print(s1 == s2)
   
 **is** :
   
- - In python this operator is Identity operator.
- - The is operator evaluates to true if the variables on either side of the operator point to the same object and false otherwise.
+ - In python, this operator is Identity operator.
+ - The `is` operator evaluates to true if the variables on either side of the operator point to the same object and false otherwise.
   
 **Example**:
   
@@ -477,7 +477,7 @@ print(list_1 is list_3)
   
 <details><summary> <b>Explanation</b> </summary>
   
-- Here you can see (list_1 is list_3) is `False` because list_1 and list_3 are pointing to two different objects , even though their contents might be the same. So, we can say `is` will return True if two variables point to the same object and `==` if the objects referred to by the variables are equal.
+- Here you can see (list_1 is list_3) is `False` because list_1 and list_3 are pointing to two different objects , even though their contents might be the same. So, we can say `is` will return True if two variables point to the same object and `==` ,if the objects referred by the variables are equal.
 
  <blockquote> 
 </details>
@@ -485,7 +485,7 @@ print(list_1 is list_3)
   
 ---
   
-18.Predict the output of the following code?
+18.Predict the output of the following code.
   
 ```python  
 str="Software engineer"
@@ -499,14 +499,14 @@ print(str[2 : 10 : 2])
 > fw
   
 <details><summary> <b>Explanation</b> </summary>
-  > In the above program we used `slicing` operator  and this is used to cut the strings based on the values.
+  > In the above program, we use `slicing` operator and this is used to cut the strings based on the values.
   
   </details>
 </details>
   
   ---
 
-19.What will be the output of the following code?
+19.What is the output of the following code?
 
 ```python
 str1 = "Revature"
@@ -539,12 +539,12 @@ print(str1[1:4], str1[:5], str1[4:], str1[0:-1], str1[:-1])
   
  - **Indexing**: Indexing is used to obtain individual elements.
            - Indexing returns one item.
-           - Indexing starts from `0`.Negative Indexing starts from `-1`.
+           - Indexing starts from `0`. Negative Indexing starts from `-1`.
  - **Slicing**: Slicing is used to obtain a sequence of elements.
            - Slicing returns new list.
-           - We can specify range of indxes.
+           - We can specify range of indexes.
 
- - Indexing and Slicing can be be done in Python Sequences types like `list, string, tuple, range` objects.
+ - Indexing and Slicing can be done in Python Sequence types like `list, string, tuple, range objects.
     
    </blockquote>
 
@@ -552,7 +552,7 @@ print(str1[1:4], str1[:5], str1[4:], str1[0:-1], str1[:-1])
   
   ---
   
-21.Can you tell me some different String methods in Python?
+21. Mention few String methods in Python?
     
     ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -568,7 +568,7 @@ print(str1[1:4], str1[:5], str1[4:], str1[0:-1], str1[:-1])
   
   ---
   
-22.What will be the output of the following code?
+22.What is the output of the following code?
 
 ```python  
 str = "RevatureLearningProcess"
@@ -589,21 +589,21 @@ print(str[3 : 14 : 3])
  aren
   
 <details><summary> <b>Explanation</b> </summary>
-> In the above program we will get some part of string characters,because we used `slicing()` method.    
+> In the above program, we will get some part of string characters as we use `slicing()` method.    
 
 </details>
     </details>
   
 ---
   
-23.Which method should I use to convert String "welcome to the beautiful world of python" to "Welcome To The Beautiful World Of Python".
+23.Which method should we use to convert the String "welcome to the beautiful world of python" to "Welcome To The Beautiful World Of Python".
   
   ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
  > - `title()`-method
- > - For this in python we can use `title()` method.
+ > - For this, we can use `title()` method.
   
 <details><summary> <b>Show Explanation</b> </summary>
   
@@ -614,7 +614,7 @@ print(str[3 : 14 : 3])
 
   ---
   
-24.Can you name some Escape Characters in python?
+24. Mention few Escape Characters in python?
   
   ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -634,7 +634,7 @@ print(str[3 : 14 : 3])
   
 ---
 
-25.Debug the code and give correct answer for that code.
+25.Debug the code and give the correct output for that code.
 
 ```python  
 str="Hello World!"
@@ -670,7 +670,7 @@ print(lst)
   
   ---
   
-26.Find the correct output of the following String operations
+26.Find the correct output of the following String operations.
   
 ```python  
 str1='Welcome'
@@ -685,14 +685,14 @@ print(str1[:6] + ' to India')
    
 <details><summary> <b>Explanation</b> </summary>
   
-> Here we are used slicing for getting some part of string and then we used `+` operator for string combining.
+> Here, we use slicing to get some part of string and then we use `+` operator for string combining.
 
   </details>
   </details>
   
   ---
   
-27.What will be the output of the following code?
+27.What is the output of the following code?
   
  ```python 
 str1 = "My salary is 7000";
@@ -710,7 +710,7 @@ print(str2.isdigit())
   
 <details><summary> <b>Explanation</b> </summary>
   
-> `isdigit()` method is checking it contains only the characters or not,if it is contains it will return True orelse it will return False.
+> `isdigit()` method checks if it contains the characters or not. If it has, it will return True or else it will return False.
   
   </details>
   </details>
