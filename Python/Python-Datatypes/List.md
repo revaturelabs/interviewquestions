@@ -15,7 +15,8 @@
 - iii) List are preferred for shorter sequence of data items, on the other hand arrays are preferred for data items of longer sequence. 
 - iv) We can print List without any loop, but for printing elements of an array a loop is required.
     
-    </blockquote>
+</blockquote>
+  
 </details>
 
 ---
@@ -25,8 +26,8 @@
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
-  <blockquote>
-  
+ <blockquote>
+
 - [For this type of question, only tell the methods that you have used while working with List because the interviewer might ask the next question based on your response.]   
    
 - List provides different kinds of built-in methods that anyone can use for list manipulations. Some of these methods are mentioned below:  
@@ -51,7 +52,7 @@ ix) `sort()` : it will sort the list in ascending or descending order.
     
 x) `reverse()` : it reverses the order of elements present in a list.  
    
-    </blockquote>
+</blockquote>
 </details>  
 
 ---
@@ -92,7 +93,8 @@ print(l)
 > [3, 2, 4]
 
 </blockquote>
-    </details>
+  
+ </details>
 
 ---
 
@@ -182,9 +184,8 @@ while i<len(l):
 # Code using list comprehension
 l = [1, 3, 3, 2]
 [ print(i) for i in l]
-```
-
-                </blockquote>
+```        
+ </blockquote>
                 </details>
 
 ---
@@ -216,7 +217,8 @@ print(answer_1)
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>  
+<details><summary> <b>Show Answer</b> </summary> 
+  
   <blockquote>
   
 - `copy()` is a built-in method present in the list. Using `copy()` we can shallow copy a list. 
@@ -247,8 +249,7 @@ new_list.append(5)
 print(new_list)    # output: [1, 3, 3, 2, 5]
 print(original)    # output: [1, 3, 3, 2, 4]
 ```
-  
-    </blockquote>
+ 
   </details>
 
 ---
@@ -258,6 +259,7 @@ print(original)    # output: [1, 3, 3, 2, 4]
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
+  <blockquote>
   
 - Sometimes when we try to get the element by index which is not valid i.e the element that we want to access doesn't have index position in the list, then we get the `Indexerror: list index out of range` error. 
   
@@ -284,19 +286,22 @@ print (max(list1))
 ```
   
 A.saran  
-B.shan 
+  
+B.shalini
+  
 C.sandy  
+  
 D.error 
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option b) shan. 
+> Option B.shalini. 
   
 <details><summary> <b>Explanation</b> </summary>
   
-> `max()` function in python returns the element with the highest value from an iterable. But if the elements of iterable[list, tuple, etc] are strings then it compares alphabetically and returns the maximum from them. In this code, the first letter of each word is 's', so it checks the 2nd letter of each word and as 'h' is greater in value then 'a' therefore it returns shan as output.
+> `max()` function in python returns the element with the highest value from an iterable. But if the elements of iterable[list, tuple, etc] are strings then it compares alphabetically and returns the maximum from them. In this code, the first letter of each word is 's', so it checks the 2nd letter of each word and as 'h' is greater in value then 'a' therefore it returns shalini as output.
 
   </details>
   </details>
@@ -312,19 +317,23 @@ print(list1[1][2])
 ```
  
 A. e    
-&emsp;7   
+   &emsp;7  
+  
 B. H   
-&emsp;5  
+   &emsp;5 
+  
 C. l   
-&emsp;5  
+   &emsp;5 
+  
 D. l  
-&emsp;7   
+   &emsp;7   
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option d) l and 7 
+> Option D. l  
+            &emsp;7  
   
 <details><summary> <b>Explanation</b> </summary>
   
@@ -342,20 +351,20 @@ list1 = [2, 5, 7, 9, 3]
 list2 = [1, 4, 6, 8] 
 ```
 
-A. new = list1 + list2    
-B. new = extend(list1, list2)    
-C. new = list1.extend(list2)    
-D. new.extend(list1, list2)    
+A. new = `list1 + list2`    
+B. new = `extend(list1, list2)`    
+C. new = `list1.extend(list2)`    
+D. `new.extend(list1, list2)`   
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Options are (a) and (c). 
+> Options A. new = `list1 + list2`  and C. new = `list1.extend(list2)` . 
   
 <details><summary> <b>Explanation</b> </summary>
   
-> `extend()` method takes 1 argument as parameter not 2, so options b) and d) are eliminated there. The '+' operator can also be used to join two list in python.
+> `extend()` method takes 1 argument as parameter not 2, so options b) and d) are eliminated there. The `+` operator can also be used to join two list in python.
   
   </details>
   </details>
@@ -364,7 +373,7 @@ D. new.extend(list1, list2)
 
 13.Write a program to return duplicate/ repeated items from the List. 
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -448,8 +457,9 @@ print(freq)
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
+  <blockquote>
 
-> There are many ways through which one can take input from user in list:
+- There are many ways through which one can take input from user in list:
 
 **Example 1**:  
     
@@ -492,14 +502,14 @@ print(sampleList[-4:-1])
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 A. 40  
-&emsp;[20,30,40]  
+  &emsp;[20,30,40]  
 B. error  
-C. lst index out of range  
+C. list index out of range  
 D. No output  
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> option A.  40  
+> Option A.  40  
   
 <details><summary> <b>Explanation</b> </summary>
   
@@ -552,13 +562,13 @@ D. None of the above
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> option B
+> Option B
   
 <details><summary> <b>Explanation</b> </summary>
   
 > Python list collection is ordered and changeable. The list also allows duplicate members. To get a sublist out of the list, we need to specify the range of indexes.  To get a sublist, we need to specify where to start and where to end the range.
 
-> Syntax: list[start:end] If start is missing it takes 0 as the starting index
+> Syntax: `list[start:end]` If start is missing it takes `0` as the starting index
 
   </details>
   </details>
@@ -674,11 +684,11 @@ C. -HelloPython
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> option b
+> Option B. Hello-Python  
   
 <details><summary> <b>Explanation</b> </summary>
 
-> The join() method will join all items in a list into a string, using a hyphen character as a separator.
+> The `join()` method will join all items in a list into a string, using a hyphen character as a separator.
   
   </details>
   </details>
