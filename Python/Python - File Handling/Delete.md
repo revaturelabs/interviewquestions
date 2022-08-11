@@ -418,7 +418,7 @@ print("Received input",str)
 <details><summary><b>Show Answer</b></summary>
 
 > - To delete multiple files, we can use loop over the list of files and use the higher than `os. rmdir()` operate. 
-> - To delete a folder that contains all files, you want to remove got to import shutil package. Then you can take away the folder as follows.
+> - To delete a folder that contains all files, you want to remove got to `import shutil` package. 
   
 </details>
 
