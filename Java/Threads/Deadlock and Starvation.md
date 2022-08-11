@@ -73,7 +73,7 @@ Deadlock situations can be detected by running the executable code on `cmd` and 
 
 ---
 
-5. Write a program to illustrate deadlock condition?
+5. How does Java handles starvation? 
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -81,57 +81,16 @@ Deadlock situations can be detected by running the executable code on `cmd` and 
 
 <blockquote>
 
+- Using the below methods we can remove the starvation.
 
-``` java
+`Thread.yield()`-when the thread in the process after releasing the lock gets a fair chance to occupy the C.P.U. and can get time to complete its execution till the original thread again gets the control over the C.P.U.
+`Thread.sleep()` -method to given chance to other Threads for execution.
 
-class DeadlockSample extends Thread {
-    static Thread mainThread;
-    public void run()
-    {
-        System.out.println("Thread2 waiting for" +
-                          " Thread1 completion");
-        try {
-            mainThread.join();
-        }
-        catch (InterruptedException e) {
-            System.out.println("Thread2 execution" +
-                                           " completes");
-        }
-    }
-    public static void main(String[] args)
-                   throws InterruptedException
-    {
-        DeadlockSample.mainThread = Thread.currentThread();
-        DeadlockSample thread = new DeadlockSample();
- 
-        thread.start();
-        System.out.println("Thread1 waiting for " +
-                            "Thread2 completion");
-        thread.join();
- 
-        System.out.println("Thread1execution" +
-                                      " completes");
-    }
-}
-
-```
+ </details>
 
 </blockquote>
 
-<details><summary> Explanation </summary>
-
-<blockquote>
-
-Here the thread1 will wait for thread2 to complete and thread2 will wait for thread1 to complete, thus the deadlock condition occurs.
-
-</details>
-
-</details>
-
-</blockquote>
-
----
-
+--- 
 6. What may be the reason of deadlock situation?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -210,7 +169,9 @@ Which allows one thread to wait until another thread completes its execution. wh
 
 ---
 
-10. How does Java handles starvation? 
+## Problem Solving
+
+10. Write a program to illustrate deadlock condition?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -218,16 +179,57 @@ Which allows one thread to wait until another thread completes its execution. wh
 
 <blockquote>
 
-- Using the below methods we can remove the starvation.
 
-`Thread.yield()`-when the thread in the process after releasing the lock gets a fair chance to occupy the C.P.U. and can get time to complete its execution till the original thread again gets the control over the C.P.U.
-`Thread.sleep()` -method to given chance to other Threads for execution.
+``` java
 
- </details>
+class DeadlockSample extends Thread {
+    static Thread mainThread;
+    public void run()
+    {
+        System.out.println("Thread2 waiting for" +
+                          " Thread1 completion");
+        try {
+            mainThread.join();
+        }
+        catch (InterruptedException e) {
+            System.out.println("Thread2 execution" +
+                                           " completes");
+        }
+    }
+    public static void main(String[] args)
+                   throws InterruptedException
+    {
+        DeadlockSample.mainThread = Thread.currentThread();
+        DeadlockSample thread = new DeadlockSample();
+ 
+        thread.start();
+        System.out.println("Thread1 waiting for " +
+                            "Thread2 completion");
+        thread.join();
+ 
+        System.out.println("Thread1execution" +
+                                      " completes");
+    }
+}
+
+```
+
+</blockquote>
+
+<details><summary> Explanation </summary>
+
+<blockquote>
+
+Here the thread1 will wait for thread2 to complete and thread2 will wait for thread1 to complete, thus the deadlock condition occurs.
+
+</details>
+
+</details>
 
 </blockquote>
 
 ---
+
 
 
 
