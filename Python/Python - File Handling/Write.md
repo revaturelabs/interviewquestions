@@ -101,7 +101,7 @@ f.close()
 <details><summary><b>Show Answer</b></summary>
   <blockquote>
 
- - In python, we have two types of methods to write to a file.
+ In python, we have two types of methods to write to a file:
 
  1.`Write(s)`: This method is used to write a string 's' to the stream and it will return the number of characters written.
 
@@ -138,7 +138,7 @@ f.close()
 
 ---
 
-8.Write a function program in python to count the number of lowerercase alphabets in a text file `text.tx`.
+8.Write a function program in python to count the number of lowercase alphabets in a text file `text.tx`.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
