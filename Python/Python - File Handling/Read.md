@@ -1,6 +1,6 @@
 ## Read
 
-1.would you create a file in python?
+1. How would you create a file in python?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
