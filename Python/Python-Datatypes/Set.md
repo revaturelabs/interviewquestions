@@ -10,12 +10,12 @@
  `List:[]`
     - List is Mutable and ordered/indexed.
     - List allows duplicate values.
-    - It can stroe any data type str,list,set,tuple,int and dictionary.
+    - It can store any data type like str,list,set,tuple,int and dictionary.
 	
  `Set:{}`
     - Set is Mutable and unordered.
-    - Set not allow duplicate values.
-    - Inside of dictionary key can be int,str,and tuple only values can be of any data type int,str,list,tuple,set and dictionary.
+    - Set does not allow duplicate values.
+    - Dictionary key can be int,str,and tuple, only values can be of any data type int,str,list,tuple,set and dictionary.
 		
 </blockquote>
 </details>
@@ -29,7 +29,7 @@
 <details><summary> <b>Show Answer</b> </summary>
 	<blockquote>
 	
-- In python we can use the `update()` method of a set, to add list of items into a set.
+- In python, we can use the `update()` method of a set, to add list of items into a set.
 	
 **Example**:
 
@@ -60,7 +60,7 @@ set2 = {30, 40, 50, 60, 70}
 
 <details><summary> <b>Show Answer</b> </summary>
 	
-> For that we have `Intersction()` method of a set.
+> For that, we have `Intersction()` method of a set.
 	
 ```python
 set1 = {10, 20, 30, 40, 50}
@@ -76,7 +76,7 @@ print(set1.intersection(set2))
 
 ---
 
-4.What will be the output of the following code?
+4.What is the output of the following code?
 
 ```python
 set1={8,9}
@@ -110,7 +110,7 @@ print(set3)
 
 <details><summary> <b>Show Answer</b> </summary>
 	
-> In python we use `difference_update()` method of a set.
+> In python, we use `difference_update()` method of a set.
 
 ```python	
 s1 = {10, 20, 30, 40, 50}
@@ -159,9 +159,9 @@ else:
 <details><summary> <b>Show Answer</b> </summary>
 	<blockquote>
 	
- - Set provides different kinds of built-in methods that anyone can use for Set manipulations. Some of these methods are mentioned below:
+ - Set provides different kinds of built-in methods that anyone can use for set manipulations. Some of these methods are mentioned below:
 	
- i) `add()`: it is used to adds an element to the set
+ i) `add()`: it is used to add an element to the set
 	
  ii) `clear()`: it removes all the elements from the set
 	
@@ -171,7 +171,7 @@ else:
 	
  v) `difference_update()`: it removes the items in this set that are also included in another, specified set
 	
- vi) `discard()`: it remove the specified item
+ vi) `discard()`: it removes the specified item
 	
  vii)`intersection()`: it returns a set, that is the intersection of two other sets
 	
@@ -200,7 +200,7 @@ xiii)`update()`: Update the set with the union of this set and others
 	<blockquote>
 	
 - `pop()`:
-   - it is used to removes an element from the set.
+   - it is used to remove an element from the set.
 	
 **Example**:
 	
@@ -215,7 +215,7 @@ print(x)
 apple(it removes random element from set)
 	
  `remove()`:
-   - it is used to removes the specified element.
+   - it is used to remove the specified element.
 	
 **example**:
 	
@@ -234,14 +234,14 @@ print(fruits)
 
 ---
 
-9.How to iterate over the set of elements?Write a code for that.
+9.How to iterate over the set of elements? Write a code for that.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 	<blockquote>
 	
-- To iterate over set in python we can use any loop.
+- In python, to iterate over set, we can use any loop.
 	
 i)using for loop
 
@@ -270,7 +270,7 @@ a
 
 <details><summary> <b>Show Answer</b> </summary>
 	
-> The `copy()` method used to copies the set.
+> The `copy()` method is used to copies the set.
 	
 **Example**:
 	
@@ -294,7 +294,7 @@ print(x)
 
 <details><summary> <b>Show Answer</b> </summary>
 	
-> We can zip also,but the values from each set may not be joined in order.
+> We can zip, but the values from each set may not be joined in order.
 	
 **Example**:
 	
@@ -317,7 +317,7 @@ print(list(z))
 
 <details><summary> <b>Show Answer</b> </summary>
 	
-> `No`.Set can't be accessed by index,if your trying to access a set by index will throw an error.
+> `No`. Set can't be accessed by index, and if your trying to access a set by index, it will throw an error.
 	
 **example**:
 
@@ -340,7 +340,7 @@ TypeError: 'set' object is not subscriptable
 
 <details><summary> <b>Show Answer</b> </summary>
 	
-> In python `intersection_update()` updates the first set to be equal to the intersection.
+> In python, `intersection_update()` updates the first set to be equal to the intersection.
 	
 **Example**:
 	
@@ -378,7 +378,7 @@ print(s1)
 
 <details><summary> <b>Show Answer</b> </summary>
 	
-> In python `difference_update()` removes the intersection from the first set.
+> In python, `difference_update()` removes the intersection from the first set.
 	
 **Example**:
 	
@@ -431,7 +431,7 @@ print(setr)
 > {'Green','Red'}
 	
 
-Pictorial Representation  of the above code:
+Pictorial Representation of the above code:
 	
 s1     s2
     |
