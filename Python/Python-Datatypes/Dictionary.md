@@ -294,7 +294,7 @@ KeyError: (3, 4,9)
   
 <details><summary> <b>Explanation</b> </summary>
   
-- It will throw an `key error` because, keys are not found in the dictionary.
+- It will throw a `key error` because, keys are not found in the dictionary.
   
   </details>
   </details>
@@ -568,7 +568,7 @@ print(dict_len)
   
 <details><summary> <b>Explanation</b> </summary>
   
- > The above code throwing an attribute error.Because,attribute reference is missing.
+ > The above code throws an attribute error. Because, attribute reference is missing.
   
   </details>
 
@@ -593,7 +593,7 @@ print(dict1 .keys( ))
   
  <details><summary> <b>Explanation</b> </summary>
    
-> The above code is printing keys.Because in the above code we used  `dict1.key()` method so that we get key values.
+> The above code prints keys, because in the above code we used `dict1.key()` method so that we get key values.
   
   </details>
   </details>
