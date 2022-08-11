@@ -7,7 +7,7 @@
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Python doesn't have a switch case statement, we can use the normal if else statements in it.
+> Python doesn't have a switch case statement, we can use the normal `if-else` statements in it.
 </details>
 
 ---
@@ -17,7 +17,7 @@
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> In Python, there is no do-while loop. But we can use while loop in it.
+> In Python, there is no do-while loop. But we can use `while` loop in it.
 </details>
 
 ---
@@ -34,12 +34,12 @@ d) None of the above
 > Option is c) if 
 <details><summary> <b>Explanation</b> </summary>
   
-> for and while are the looping statements in python.
+> `for` and `while` are the looping statements in python.
   </details>
 </details>
 
 ---
-4. Write the syntax for if-else statement.
+4. Write the syntax for `if-else` statement.
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
@@ -58,7 +58,7 @@ d) None of the above
 </details>
 
 ---
-5. State True or False: We can write only 1 print statement inside if and else block respectively.  
+5. State True or False: We can write only 1 print statement inside `if` and `else` block respectively.  
 
 a) True  
 b) False   
@@ -92,7 +92,7 @@ d) SyntaxError
 > Option is d) SyntaxError
 <details><summary> <b>Explanation</b> </summary>
   
-> if statements should end with semicolon(:) in python.
+> `if` statements should end with `semicolon(:)` in python.
   </details>
 </details>
 
@@ -117,12 +117,12 @@ d) "Number is Even"
 > Option is b) Number is Odd 
 <details><summary> <b>Explanation</b> </summary>
   
-> if condition becomes false as 43%2 is not equal to 0. Therefore else part executed.
+> `if` condition becomes false as 43%2 is not equal to 0. Therefore `else` part executed.
   </details>
 </details>
 
 ---
-8. Can we write if-else in a single line in python?
+8. Can we write `if-else` in a single line in python?
 
 a) Yes    
 b) Not possible    
@@ -136,12 +136,12 @@ d) None of the above
 > Option is a) Yes 
 <details><summary> <b>Explanation</b> </summary>
   
-> Yes, it is possible to write if-else in single line. For example: print("hi") if 10<8 else print("hello")
+> Yes, it is possible to write `if-else` in single line. For example: ```print("hi") if 10<8 else print("hello")```
   </details>
 </details>
 
  ---
-9. Which one of the following is correct way of writing if statement in python?
+9. Which one of the following is correct way of writing `if` statement in python?
 
 a) if (x>4)    
 b) if (x=>4)  
@@ -184,7 +184,7 @@ else:
 > Option is d) 
 <details><summary> <b>Explanation/b> </summary>
   
-> Both if statements results in true, so 'Hi' and 'Hello' will get printed.
+> Both `if` statements results in true, so 'Hi' and 'Hello' will get printed.
  </details>
 </details>
   
@@ -212,7 +212,7 @@ d) Error
 > Option is a) Hi-World
 <details><summary> <b>Explanation</b> </summary>
   
-> "Hi-world" is printed as if condition becomes true.
+> "Hi-world" is printed as `if` condition becomes `True`.
   </details>
 </details>
   
@@ -240,7 +240,7 @@ else:
 > Option is b) Hello-World
 <details><summary> <b>Explanation</b> </summary>
   
-> "Hello-World" is printed as if conditon becomes false.
+> "Hello-World" is printed as `if` conditon becomes `False`.
   </details>
 </details>
   
@@ -268,7 +268,7 @@ else:
 > Option is a) Hi-World
 <details><summary> <b>Explanation</b> </summary>
   
-> In if condition, Bitwise xor ^ operator is used which returns 1 if either of the bits are 1 else return 0 if both the bits are 0 or 1. Therefore, in the above code, 0 and 1 results in 1 which is true in python. Hence 1st print statement gets executed.
+> In `if` condition, Bitwise `xor ^` operator is used which returns 1 if either of the bits are 1 else return 0 if both the bits are 0 or 1. Therefore, in the above code, 0 and 1 results in 1 which is `True` in python. Hence 1st print statement gets executed.
   </details>
 </details>
   
@@ -326,7 +326,7 @@ d) Error
 > Option is a) Hi-world 
 <details><summary> <b>Explanation</b> </summary>
   
-> "Hi-world" is executed because all the if conditions becomes true for the values of 'a' and 'b'. 
+> "Hi-world" is executed because all the `if` conditions becomes true for the values of 'a' and 'b'. 
   </details>
 </details> 
   
@@ -350,7 +350,7 @@ d) J, e, y,
 > Option is c) J, e, 
 <details><summary> <b>Explanation</b> </summary>
 
-> The break statement jumps out of loop when the if condition becomes true i.e when the i value becomes equal to 'r'. So it prints from J till e with comma after each character and comes out of loop and will not print " r, r, y, " of "Jerry" string.
+> The `break` statement jumps out of loop when the if condition becomes true i.e when the i value becomes equal to 'r'. So it prints from J till e with comma after each character and comes out of loop and will not print " r, r, y, " of "Jerry" string.
   </details>
   </details>
   
@@ -376,7 +376,7 @@ d) J, e, y,
 > Option is d) J, e, y,
 <details><summary> <b>Explanation</b> </summary>
   
-> The continue statement skips the current iteration and moves to next iteration when the condition inside if becomes true. Here whenever the value of i is equal to r, it will not print the ith value for that iteration and iterates from next iteration. Hence, 'r' is not printed anytime in output screen and we get the output as "J, e, y,".
+> The `continue` statement skips the current iteration and moves to next iteration when the condition inside `if` becomes true. Here whenever the value of i is equal to r, it will not print the ith value for that iteration and iterates from next iteration. Hence, 'r' is not printed anytime in output screen and we get the output as "J, e, y,".
   </details>
   </details>
   
@@ -401,7 +401,7 @@ d) J, e, y,
 > Option is b)
 <details><summary> <b>Explanation</b> </summary>
   
-> The pass statement in python does not do anything and therefore all the characters of string is printed with comma(,) at last of each character.
+> The `pass` statement in python does not do anything and therefore all the characters of string is printed with comma(,) at last of each character.
   </details>
 </details>
   
@@ -426,7 +426,7 @@ d) None
 > Option is a)
 <details><summary> <b>Explanation</b> </summary>
   
-> Here in the above code, for each iteration, if the num%i == 1 condition gets true then only it prints the num value and breaks the inner loop and jumps to the outer loop otherwise the i value of inner loop keeps on changing untill i<n or if condition becomes true, whichever comes first. It prints 8 when the value of num and i are 8 and 7 respectively. It prints 9 when the value of num and i are 9 and 2 respectively. It prints 10 when the value of num and i are 10 and 3 respectively. It prints 11 when the value of num and i are 11 and 2 respectively. Hence the correct option is a).   
+> Here in the above code, `for` each iteration, `if` the `num%i == 1` condition gets true then only it prints the num value and breaks the inner loop and jumps to the outer loop otherwise the i value of inner loop keeps on changing untill i<n or `if` condition becomes true, whichever comes first. It prints 8 when the value of num and i are 8 and 7 respectively. It prints 9 when the value of num and i are 9 and 2 respectively. It prints 10 when the value of num and i are 10 and 3 respectively. It prints 11 when the value of num and i are 11 and 2 respectively. Hence the correct option is a).   
   </details>
 </details>
   
@@ -452,12 +452,12 @@ d) None
 > Option is b)
 <details><summary> <b>Explanation</b> </summary>
   
-> Here in the above code, for each iteration, if the num%i == 0 condition gets true then only it prints the num value and breaks the inner loop and jumps to the outer loop otherwise the i value of inner loop keeps on changing untill i<n or if condition becomes true, whichever comes first. It prints 8 when the value of num and i are 8 and 2 respectively. It prints 9 when the value of num and i are 9 and 3 respectively. It prints 10 when the value of num and i are 10 and 2 respectively. For num =11, there is no i value that satisfy the if condition therfore it is not printed. Hence the correct option is b).
+> Here in the above code, `for` each iteration, `if` the `num%i == 0` condition gets true then only it prints the num value and breaks the inner loop and jumps to the outer loop otherwise the i value of inner loop keeps on changing untill i<n or `if` condition becomes true, whichever comes first. It prints 8 when the value of num and i are 8 and 2 respectively. It prints 9 when the value of num and i are 9 and 3 respectively. It prints 10 when the value of num and i are 10 and 2 respectively. For num =11, there is no i value that satisfy the if condition therfore it is not printed. Hence the correct option is b).
  </details>
 </details>
   
 ---
-21. Select which is/are true for "for Loop".  
+21. Select which is/are true for `for` Loop.  
 
 a) Python’s for loop used to iterates over the items of list, tuple, dictionary, set, or string.    
 b) else clause of for loop is executed when the loop terminates abruptly.    
@@ -489,7 +489,7 @@ d) 4, 1, -1, -3,
 > Option is c) 
 <details><summary> <b>Explanation</b> </summary>
   
-> The range() function prints the i value from 4 and decrement by 1 at each iteration till i>-2.
+> The `range()` function prints the i value from 4 and decrement by 1 at each iteration till `i > -2`.
  </details>
 </details>
   
@@ -621,7 +621,7 @@ d) Error
 > Option is a)
 <details><summary> <b>Explanation</b> </summary>
   
-> It will print 2 3 4 only not 5 because when the i value becomes 5 it satisfies the if condition and therefore the iteration comes out of loop. 
+> It will print 2 3 4 only not 5 because when the i value becomes 5 it satisfies the `if` condition and therefore the iteration comes out of loop. 
   </details>
 </details>
   
@@ -659,7 +659,7 @@ d) 4
 > Option is b) 
 <details><summary> <b>Explanation</b> </summary>
   
-> It executes the statements present inside if untill the if condition becomes false and it breaks the loop and jumps out of it, having the final value of n as 5 and c as 20.
+> It executes the statements present inside if untill the `if` condition becomes false and it breaks the loop and jumps out of it, having the final value of n as 5 and c as 20.
   </details>
 </details>
   
@@ -687,7 +687,7 @@ d) 5
 > Option is c) 4
 <details><summary> <b>Explanation</b> </summary>
   
-> Here the value of c is incremented by 1 whenever the if condition satisfy. 
+> Here the value of c is incremented by 1 whenever the `if` condition satisfy. 
   </details>
 </details>
   
@@ -716,7 +716,7 @@ d) 5
 > option is d) 5
 <details><summary> <b>Explanation</b> </summary>
   
-> Here the value of c is incremented by 1 when both outer and inner if condition becomes true or when outer if condition becomes false. The c value is not incremented when outer if becomes true but inner if becomes false. Hence the output is 5 in this case. 
+> Here the value of c is incremented by 1 when both outer and inner `if` condition becomes true or when outer `if` condition becomes false. The c value is not incremented when outer `if` becomes true but inner `if` becomes false. Hence the output is 5 in this case. 
   </details>
 </details>
   
@@ -745,12 +745,12 @@ d) 4
 Option is b) 1 
 <details><summary> <b>Explanation</b> </summary>
   
-> Here the value of c is incremented by 1 when both outer and inner if condition becomes true and decremented by 1 when outer if condition becomes false. The c value doesn't change when the outer if condition satisfy but not inner. Hence the output is 1 in this case.
+> Here the value of c is incremented by 1 when both outer and inner `if` condition becomes true and decremented by 1 when outer `if` condition becomes false. The c value doesn't change when the outer `if` condition satisfy but not inner. Hence the output is 1 in this case.
   </details>
 </details>
   
 ---
-32. State True or False: "We can use else condition only 1 time in the program".  
+32. State True or False: "We can use `else` condition only 1 time in the program".  
 a) True  
 b) False   
   
@@ -826,7 +826,7 @@ d) infinite
 > option d) 
 <details><summary> <b>Explanation</b> </summary>
   
-> As in the above code the while loop condition is True always, so it will run infinite times.
+> As in the above code the `while` loop condition is `True` always, so it will run infinite times.
   </details>
   </details>
   
@@ -851,6 +851,7 @@ d) Error
   
 > The i value never falls in the range of values given, Therefore no output is printed.
   </details>
+ </details> 
   
 ---
 37. Which of the following is not valid for loop in Python?    
@@ -868,7 +869,7 @@ d) for i in range(len(a),2,-1):
   </details>
 
 ---
-38. When does the statement in else part written after loop executes?  
+38. When does the statement in `else` part written after loop executes?  
 
   a) When loop condition becomes true  
   b) when loop condition becomes false   
@@ -903,7 +904,7 @@ d) Error
 > Option is c) No output
 <details><summary> <b>Explanation</b> </summary>
   
-> In while loop, the value of i never matches with the value of x. Therefore no output is printed in console.
+> In `while` loop, the value of i never matches with the value of x. Therefore no output is printed in console.
   </details>
   </details>
   
@@ -928,7 +929,7 @@ d) 0 2 4
 > option is d)
 <details><summary> <b>Explanation</b> </summary>
   
-> The for loop runs till the value of string length, that is till 4 starting from 0. And for each value of i which is divisible by 2 and gives remainder as 0 will gets printed in output screen. Therefore option d) is correct.
+> The `for` loop runs till the value of string length, that is till 4 starting from 0. And for each value of i which is divisible by 2 and gives remainder as 0 will gets printed in output screen. Therefore option d) is correct.
   </details>
 </details>
   
@@ -976,7 +977,7 @@ d) None of the above
 > option c) Error  
 <details><summary> <b>Explanation</b> </summary>
   
-> It will give "TypeError: 'int' object is not iterable". 
+> It will give `"TypeError: 'int' object is not iterable"`. 
   </details>
   </details>
   
@@ -998,7 +999,7 @@ d) None of the above
   
 > option a) 
 
-> In the above code, num is a string. So, "123" string will be printed character by character having space in between because of end keyword. 
+> In the above code, num is a string. So, "123" string will be printed character by character having space in between because of `end` keyword. 
   </details>
 </details>
   
@@ -1014,10 +1015,10 @@ d) None of the above
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> option is c) while loop
+> option is c) `while` loop
 <details><summary> <b>Explanation</b> </summary>
   
-> In for loop we cannot check the condition, whereas do while loop is not present in python.
+> In `for` loop we cannot check the condition, whereas do while loop is not present in python.
 </details>
   </details>
   
@@ -1056,7 +1057,7 @@ d) None of the above
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> option is b) break
+> option is b) `break`
   </details>
 
 ---
@@ -1094,7 +1095,7 @@ d) while -1:
 </details>
   
 ---
-49. State True and False: " In python while(0): and while False: both are same."   
+49. State True and False: " In python `while(0):` and `while False:` both are same."   
 
 a) True  
 b) False  
@@ -1107,7 +1108,7 @@ b) False
   </details>
 
 ---
-50. State True and False: " range() function in python creates iterable elements."
+50. State True and False: " `range()` function in python creates iterable elements."
 
 a) True  
 b) False  
@@ -1131,7 +1132,7 @@ d) if
 
 <details><summary> <b>Show Answer</b> </summary>
 
-> option is c) for.
+> option is c) `for`.
   </details>
 
 ---
@@ -1161,7 +1162,7 @@ d) 8  8
 > option b) 
 <details><summary> <b>Explanation</b> </summary>
   
-> When the elements that are present in a list is divisible by 2 ,the statement present inside first if is exceuted. When the elements that are present in a list is divisible by 3 ,the statement present inside 2nd if is exceuted.  
+> When the elements that are present in a list is divisible by 2 ,the statement present inside first `if` is exceuted. When the elements that are present in a list is divisible by 3 ,the statement present inside 2nd `if` is exceuted.  
   </details>
   </details>
   
@@ -1192,7 +1193,7 @@ d) 8  8
 > option d) 
 <details><summary> <b>Explanation</b> </summary>
   
-> When the elements that are present in a list is divisible by 2 ,the statement present inside first if is exceuted. When the elements that are present in a list is divisible by 3 ,the statement present inside 2nd if is exceuted.  
+> When the elements that are present in a list is divisible by 2 ,the statement present inside first `if` is exceuted. When the elements that are present in a list is divisible by 3 ,the statement present inside 2nd `if` is exceuted.  
   </details>
   </details> 
   
@@ -1223,7 +1224,7 @@ print(sum2)
 > option c) 
 <details><summary> <b>Explanation</b> </summary>
   
-> When the elements that are present in a list is divisible by 2 ,the statement present inside first if is exceuted. When the elements that are present in a list is divisible by 3 ,the statement present inside 2nd if is exceuted.  
+> When the elements that are present in a list is divisible by 2 ,the statement present inside first `if` is exceuted. When the elements that are present in a list is divisible by 3 ,the statement present inside 2nd `if` is exceuted.  
 </details>
   </details>
   
@@ -1254,7 +1255,7 @@ print(sum2)
 > option is a) 9 18
 <details><summary> <b>Explanation</b> </summary>
   
-> When the elements that are present in a list is divisible by 2 ,the statement present inside first if is exceuted. When the elements that are present in a list is divisible by 3 ,the statement present inside 2nd if is exceuted.  
+> When the elements that are present in a list is divisible by 2 ,the statement present inside first `if` is exceuted. When the elements that are present in a list is divisible by 3 ,the statement present inside 2nd `if` is exceuted.  
   </details>
   </details>
   
@@ -1283,7 +1284,7 @@ d) False
 > option a)
 <details><summary> <b>Explanation</b> </summary>
   
-> The first if condition becomes true, as 9<10, in the above code, so 'True' is printed. Also last 'True' is always printed as it is not a part of if-else statements.
+> The first `if` condition becomes true, as `9<10`, in the above code, so `True` is printed. Also last `True` is always printed as it is not a part of if-else statements.
 </details>
   </details> 
   
@@ -1311,7 +1312,7 @@ d) None of the above
 > option d)
 <details><summary> <b>Explanation</b> </summary>
   
-> The first if condition becomes true, as 9<10, in the above code, so 'True' is printed. Last print statement is not executed because it is started with # which makes it as comment in the code.
+> The first `if` condition becomes true, as `9<10`, in the above code, so `True` is printed. Last print statement is not executed because it is started with # which makes it as comment in the code.
 </details>
   </details>
   
@@ -1343,7 +1344,7 @@ d) True
 > option is b).
 <details><summary> <b>Explanation</b> </summary>
   
-> The first and thrid print statements are not executed as if condition becames false. The second print statement is executed as 8!=4 condition becomes true. Also last 'True' is always printed as it is not a part of if-else statements. Hence option b) is correct.
+> The first and thrid print statements are not executed as `if` condition becames false. The second print statement is executed as `8!=4` condition becomes true. Also last `True` is always printed as it is not a part of `if-else` statements. Hence option b) is correct.
 </details>
   </details>
   
@@ -1373,7 +1374,7 @@ d) None of the above
 > option is d)
 <details><summary> <b>Explanation</b> </summary>
   
-> The first print statement is not executed as if condition becames false. The 2nd and 3rd print statements are executed as if condition for both becomes true. Also last 'True' is always printed as it is not a part of if-else statements. Therefore, it will print "False", "True", "True" each in new line. Hence option d) is correct.
+> The first print statement is not executed as `if` condition becames false. The 2nd and 3rd print statements are executed as `if` condition for both becomes true. Also last `True` is always printed as it is not a part of `if-else` statements. Therefore, it will print `False`, `True`, `True` each in new line. Hence option d) is correct.
   </details>
   </details>
   
@@ -1399,7 +1400,7 @@ d) Error
 > option is b) False.
 <details><summary> <b>Explanation</b> </summary>
   
-> The first if condition becomes false as 10<10 is false. Therfore the else part is executed and printed 'False' in console. 
+> The first `if` condition becomes false as `10<10` is false. Therfore the `else` part is executed and printed `False` in console. 
   </details>
   </details>
   
@@ -1426,7 +1427,7 @@ d) 3
 > option is c) 4.
 <details><summary> <b>Explanation</b> </summary>
   
-> The while loop will run until i becomes equal to or greater then 0. Whenever the while loop condition becomes true it will first add the values of i and j and stores it in i variable. then it will increment the value of j by 1. When the while condition becomes false it will print the final value of j in the console. 
+> The `while` loop will run until i becomes equal to or greater then 0. Whenever the `while` loop condition becomes true it will first add the values of i and j and stores it in i variable. then it will increment the value of j by 1. When the `while` condition becomes false it will print the final value of j in the console. 
   </details>
   </details>
   
@@ -1465,7 +1466,7 @@ d) xyz
 > correct option is a) XYZ
 <details><summary> <b>Explanation</b> </summary>
   
-> The print statement is outside the for loop therefore only the last value of i is printed. 
+> The print statement is outside the `for` loop therefore only the last value of i is printed. 
   </details>
   </details>
   
@@ -1489,7 +1490,7 @@ d) xyz
 > option is d) xyz
 <details><summary> <b>Explanation</b> </summary>
   
-> Here, 's' is storing the lowercase values of list 'a'. The print statement is outside the for loop therefore only the last value of 's' is printed. 
+> Here, 's' is storing the lowercase values of list 'a'. The print statement is outside the `for` loop therefore only the last value of 's' is printed. 
   </details>
   </details>
   
@@ -1539,7 +1540,7 @@ d) 3 1 7 3 9 9 1
 > option is b) 
 <details><summary> <b>Explanation</b> </summary>
   
-> The if conditon becomes true for the values 3 and 1 and false for the rest of the values present in list1. Therefore when if becomes true it increments the value of i by 1 and decrements the value of i by 1 when if becomes false.
+> The `if` conditon becomes true for the values 3 and 1 and false for the rest of the values present in list1. Therefore when `if` becomes true it increments the value of i by 1 and decrements the value of i by 1 when `if` becomes false.
  </details>
   </details>
   
@@ -1565,7 +1566,7 @@ d) Error
 > Option d) 
 <details><summary> <b>Explanation</b> </summary>
   
-> The above code will result in syntax error because of the if condition i%2=0, as here = is an assignment operator not comparison which is not allowed in if condition.
+> The above code will result in syntax error because of the `if` condition `i%2=0` , as here `=` is an assignment operator not comparison which is not allowed in `if` condition.
   </details>
   </details>
   
@@ -1591,12 +1592,12 @@ d) 4 2 6 2 8 8 2
 > option c) is correct
 <details><summary> <b>Explanation</b> </summary>
   
-> The if conditon becomes true for the values 4 and 2 and false for the rest of the values present in list1. Therefore when if becomes true it increments the value of i by 1 and decrements the value of i by 1 when if becomes false.
+> The `if` conditon becomes true for the values 4 and 2 and false for the rest of the values present in list1. Therefore when `if` becomes true it increments the value of i by 1 and decrements the value of i by 1 when `if` becomes false.
   </details>
   </details>
   
 ---
-69. Write your own logic inside the for loop to print the values 4, 2 and 8 in the output screen.
+69. Write your own logic inside the `for` loop to print the values 4, 2 and 8 in the output screen.
 ```python3
 list1 = [4, 2, 7, 3, 8, 9, 1]  
 for i in list1:  
@@ -1613,12 +1614,12 @@ if(i%2==0):
 ```    
 <details><summary> <b>Explanation</b> </summary>
   
-> i%2==0 is the condition for printing even numbers. Therefore it will print 4, 2 and 8 in console.
+> `i%2==0` is the condition for printing even numbers. Therefore it will print 4, 2 and 8 in console.
   </details>
   </details>
   
 ---
-70. Write your own logic inside the for loop to print the values 7, 3, 9 and 1 in the output screen.
+70. Write your own logic inside the `for` loop to print the values 7, 3, 9 and 1 in the output screen.
 ```python3
 list1 = [4, 2, 7, 3, 8, 9, 1]  
 for i in list1:  
@@ -1635,12 +1636,12 @@ if(i%2!=0):
 ```     
 <details><summary> <b>Explanation</b> </summary>
   
-> i%2!=0 is the condition for printing odd numbers. Therefore it will print 7, 3, 9 and 1 in console.
+> `i%2!=0` is the condition for printing odd numbers. Therefore it will print 7, 3, 9 and 1 in console.
   </details>
   </details>
   
 ---
-71. Write your own logic inside the for loop to print the values 7 and 9 in the output screen.
+71. Write your own logic inside the `for` loop to print the values 7 and 9 in the output screen.
 ```python3
 list1 = [4, 2, 7, 3, 8, 9, 1]  
 for i in list1:  
@@ -1657,12 +1658,12 @@ if i%2!=0 and i>3:
 ```    
 <details><summary> <b>Explanation</b> </summary>
   
-> i%2!=0 is the condition for printing odd numbers and i> 3 will take the value of i which is greater then 3 and there is a logical 'and' operator between both the if conditions. Therefore when both the conditions becomes true only then the print statement inside if will executes. Hence, we get the final result as 7 and 9. 
+> `i%2!=0` is the condition for printing odd numbers and `i> 3` will take the value of i which is greater then 3 and there is a logical `and` operator between both the `if` conditions. Therefore when both the conditions becomes true only than the print statement inside `if` will executes. Hence, we get the final result as 7 and 9. 
   </details>
   </details>
   
 --- 
-72. Write your own logic inside the for loop to print the values 4, 2, 7, 8 and 9 in the output screen.
+72. Write your own logic inside the `for` loop to print the values 4, 2, 7, 8 and 9 in the output screen.
 ```python3
 list1 = [4, 2, 7, 3, 8, 9, 1]  
 for i in list1:  
@@ -1679,7 +1680,7 @@ if i%2==0 or i>3:
 ```
 <details><summary> <b>Explanation</b> </summary>
   
-> i%2==0 is the condition for printing even numbers and i> 3 will take the value of i which is greater then 3 and there is a logical 'or' operator between both the if conditions. Therefore when either of the conditions becomes true only then the print statement inside if will executes. Hence, we get the final result as 4, 2, 7, 8, and 9. 
+> `i%2==0` is the condition for printing even numbers and `i> 3` will take the value of i which is greater then 3 and there is a logical `or` operator between both the `if` conditions. Therefore when either of the conditions becomes true only than the print statement inside if will executes. Hence, we get the final result as 4, 2, 7, 8, and 9. 
   </details>
   </details>
   
@@ -1710,11 +1711,11 @@ d) both a) and b)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> option is b) while loop.
+> option is b) `while` loop.
   </details>
 
 --- 
-75. What is a nested if in python?
+75. What is a nested `if` in python?
 
 a) if condition inside for loop.  
 b) if condition inside another if condition  
@@ -1749,7 +1750,7 @@ d) Nothing will be printed
 > option c)
 <details><summary> <b>Explanation</b> </summary>
   
-> The if condition becomes false as `5!= var` is false. Hence Hi is printed.
+> The `if` condition becomes false as `5!= var` is false. Hence Hi is printed.
   </details>
   </details>
   
@@ -1813,7 +1814,7 @@ for i in range(0,n):
 ```
 <details><summary> <b>Explanation</b> </summary>
   
-> The for loop in python helps in running the loop for the range given. The above code will print the values from 0 till 5, not including 6.
+> The `for` loop in python helps in running the loop for the range given. The above code will print the values from 0 till 5, not including 6.
   </details>
   </details>
   
@@ -1835,7 +1836,7 @@ d) error
 > option is c)
 <details><summary> <b>Explanation</b> </summary>
   
-> The for loop in the above code will first take 6 as intial value and for each iteration it decrements the value by -2. Therefore it will print the values in reverse order untill -3. 
+> The `for` loop in the above code will first take 6 as intial value and for each iteration it decrements the value by -2. Therefore it will print the values in reverse order untill -3. 
   </details>
   </details>
   
@@ -1863,7 +1864,7 @@ d) None
 > option b) is correct
 <details><summary> <b>Explanation</b> </summary>
   
-> For age=50, the first if condition becomes true, but nested if becomes false resulting in executing the nested else statement.
+> For `age=50`, the first `if` condition becomes true, but nested `if` becomes false resulting in executing the nested `else` statement.
   </details>
   </details> 
   
@@ -1905,7 +1906,7 @@ d) 1 2 3 4
 > Option is b) 
 <details><summary> <b>Explanation</b> </summary>
   
-> In python, we can write else part with for and while loop. So first while loop while executes untill it becomes false that is when i value becomes 3. After that else statement gets executed. 
+> In python, we can write `else` part with `for` and `while` loop. So first `while` loop while executes untill it becomes false that is when i value becomes 3. After that `else` statement gets executed. 
 </details>
 </details>
 
@@ -1929,7 +1930,7 @@ d) i i i
 > Option is c) 
 <details><summary> <b>Explanation</b> </summary>
   
-> Here in the print statement in while loop, 'i' is printed 4 times as it is of string type not int type.
+> Here in the print statement in `while` loop, 'i' is printed 4 times as it is of string type not int type.
 </details>
 </details>
 
@@ -1953,7 +1954,7 @@ d) i i i
 > option is a) 
 <details><summary> <b>Explanation</b> </summary>
   
-> Here in the print statement in while loop, the value of 'i' is printed 4 times starting from 5 till 8.
+> Here in the print statement in `while` loop, the value of 'i' is printed 4 times starting from 5 till 8.
 </details>
 </details>
 
@@ -1977,7 +1978,7 @@ d) 10
 > option b)
 <details><summary> <b>Explanation</b> </summary>
   
-> The only value of n that makes the if condition true is 7. 
+> The only value of n that makes the `if` condition true is 7. 
 </details>
 </details>
 
@@ -2034,7 +2035,7 @@ d) Nothing is printed
 Option d) is correct.
 <details><summary> <b>Explanation</b> </summary>
   
-> Whenever the if condition becomes true, it skips the below print statement because of continue. As there is no else part in the above code, the execution will again goes to for loop whenever if becomes false.
+> Whenever the `if` condition becomes true, it skips the below print statement because of `continue`. As there is no `else` part in the above code, the execution will again goes to `for` loop whenever `if` becomes false.
 </details>
 </details>
 
@@ -2059,7 +2060,7 @@ d) 2 4
 > Option is a) 1 
 <details><summary> <b>Explanation</b> </summary>
   
-> The for loop will starts from 1 and goes till 5. In if block break statement is used which break the flow and jumps out of it whenever the if condition becomes true. So for i = 1, it prints the value as it is outside if block, then for i=2 the if condition becames true resulting in executing the break statement. 
+> The `for` loop will starts from 1 and goes till 5. In `if` block `break` statement is used which break the flow and jumps out of it whenever the `if` condition becomes true. So for `i = 1`, it prints the value as it is outside `if` block, then for `i=2` the `if` condition becames true resulting in executing the `break` statement. 
 </details>
 </details>
 
@@ -2084,12 +2085,12 @@ d) 2 4
 > option is b) 2 
 <details><summary> <b>Explanation</b> </summary>
   
-> The for loop will starts from 1 and goes till 5. In if block break statement is used which break the flow and jumps out of it whenever the if condition becomes true. So for i = 1 it does not print anything as there is no print statement inside for loop after if block, then for i=2 the if condition becames true resulting in executing the break statement. Therefore the current value of i that is 2 is printed by print statement outside for loop.
+> The `for` loop will starts from 1 and goes till 5. In `if` block `break` statement is used which break the flow and jumps out of it whenever the `if` condition becomes true. So for `i = 1` it does not print anything as there is no print statement inside `for` loop after `if` block, then for `i=2` the `if` condition becames true resulting in executing the `break` statement. Therefore the current value of i that is 2 is printed by print statement outside `for` loop.
 </details>
 </details>
 
 ---
-92. What should be the arguments of a range() function that will print the values 10, 14 and 18 for the below code given?
+92. What should be the arguments of a `range()` function that will print the values 10, 14 and 18 for the below code given?
 ```python3
 for i in range(_,_,_):
     print(i)
@@ -2130,7 +2131,7 @@ d) it prints nothing.
 > option is d) 
 <details><summary> <b>Explanation</b> </summary>
   
-> The 'i' value in the for loop never goes beyond 3 so if condition will never becomes true. Hence no output is printed in console.
+> The 'i' value in the `for` loop never goes beyond 3 so `if` condition will never becomes true. Hence no output is printed in console.
 </details>
 </details>
 
@@ -2208,7 +2209,7 @@ d) 1 10
 > option is d)
 <details><summary> <b>Explanation</b> </summary>
   
-> The print statement prints the ith value from 1st and 3rd list because in for loop the interval given is 2.
+> The print statement prints the ith value from 1st and 3rd list because in `for` loop the interval given is 2.
 </details>
 </details>
 
@@ -2232,7 +2233,7 @@ d) Error
 > option is a) hello
 <details><summary> <b>Explanation</b> </summary>
   
-> The if condition becomes true as the following expression 10//2**2 is equal to 2 satisfied. Hence 'hello' is printed.
+> The `if` condition becomes true as the following expression `10//2**2` is equal to 2 satisfied. Hence 'hello' is printed.
 </details>
 </details>
 
@@ -2256,7 +2257,7 @@ d) None of the mentioned
 > option is d) 
 <details><summary> <b>Explanation</b> </summary>
   
-> The for loop does not terminate as new element is being added to the list in each iteration. 
+> The `for` loop does not terminate as new element is being added to the list in each iteration. 
 </details>
 </details>
 
@@ -2281,7 +2282,7 @@ d) None of the mentioned
 > option is c) 
 <details><summary> <b>Explanation</b> </summary>
   
-> The append() function will add all the values of list1 to an empty list list2. Then both list gets concatenate together through + operator. 
+> The `append()` function will add all the values of list1 to an empty list list2. Then both list gets concatenate together through `+` operator. 
 </details>
 </details>
 
@@ -2306,7 +2307,7 @@ d) Error
 > option is d) Error.
 <details><summary> <b>Explanation</b> </summary>
   
-> The above code throws the "TypeError: can only concatenate list (not "int") to list". 
+> The above code throws the `"TypeError: can only concatenate list (not "int") to list"`. 
 </details>
 </details>
 
