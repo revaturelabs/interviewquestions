@@ -404,7 +404,7 @@ option a) =
   </details>
 
 ---
-20.Which is/are not membership operators?
+20.Which are not membership operators?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
