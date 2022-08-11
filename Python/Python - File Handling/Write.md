@@ -42,7 +42,6 @@
 
  5.Append the content at the end of the file.
     
-    <blockquote>
 
 </details>
 
