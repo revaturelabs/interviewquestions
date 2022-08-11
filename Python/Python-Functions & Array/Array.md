@@ -243,7 +243,7 @@ Array after inserting 56 at end [1, 2, 3, 4, 5, 56]
 <details><summary> <b>Show Answer</b> </summary>
 	 <blockquote>
 
- - Python does `not have built-in` support for Arrays.
+ - Python does not have `built-in` support for Arrays.
  - But in python, `Lists` can be used instead of Arrays.
 
 **Example**:
