@@ -9,7 +9,7 @@
    
 > Object-Oriented Programming refers to the programming style related with classes and objects. Here the object is a real world entity and a class is a blueprint to that object. For example, we can consider a 'Car' as a class and maruti suzuki or honda as an object.   
   
-> Python is a OOP language, so it supports all OOPs concepts such as Polymorphism, Inheritance, Encapsulation and Abstraction. Polymorphism in python defines method in child class have same name as method in parent class. Inheritance means the child class can inherits the properties from its parent class. Encapsulation is wrapping up of data and member functions together in same unit. And finally abstraction means hiding the irrelevent data from user showing only the important part or functionality. 
+> Python is a OOP language.So,it supports all OOPs concepts such as Polymorphism, Inheritance, Encapsulation and Abstraction. Polymorphism in python defines method in child class have same name as method in parent class. Inheritance means the child class can inherits the properties from its parent class. Encapsulation is wrapping up of data and member functions together in same unit. And finally abstraction means hiding the irrelevent data from user showing only the important part or functionality. 
 </details>
 
 ---
@@ -82,7 +82,7 @@ obj.show()   # output: rohit 23
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Python doesn't support constructor overloading, means we can not create two constructor, within same class, with different arguments. But there is a way in python through which we can make a constructor that can work in different way when we pass different number of arguments at the time of object creation. We can pass number of default arguments to `__init__()` method to make it as constructor overloading. 
+> Python doesn't support constructor overloading i.e., we can not create two constructor, within same class, with different arguments. But there is a way in python through which we can make a constructor that can work in different way when we pass different number of arguments at the time of object creation. We can pass number of default arguments to `__init__()` method to make it as constructor overloading. 
 
 For example: 
 ```python3
@@ -166,7 +166,7 @@ d) Student obj;
 </details>
 
 ---
-9. What will be the output of the following code?
+9. What is the output of the following code?
 ```python3
 class Student:
     name= "Henry"
@@ -199,7 +199,7 @@ d) None
 </details>
 
 ---
-10. What will be the output of the following code?
+10. What is the output of the following code?
 ```python3
 class Student:
     name= "Henry"
@@ -277,18 +277,18 @@ d) No output
 - private access modifier  
 - protected access modifier   
   
-- i) public access modifier: In python, anything by default inside a class is public whether it is a data member or member function. These members of a class can be easily accessible from any part of the program.  
+- i) Public access modifier: In python, anything by default inside a class is public whether it is a data member or member function. These members of a class can be easily accessible from any part of the program.  
 For example: name = "Henry"   
   
-- ii) protected access modifier: In python, if you want to declare any member of a class as protected then you have to use single underscore '_' symbol before the members of that class. These members of a class can only be accessible to the same class as well to the derived class.  
+- ii) Protected access modifier: In python, if you want to declare any member of a class as protected then you have to use single underscore '_' symbol before the members of that class. These members of a class can only be accessible to the same class as well to the derived class.  
 For example: _name = "Henry"  
   
-- iii) private access modifier:  In python, if you want to declare any member of a class as private then you have to use double underscore '__' symbol before the members of that class. These members of a class can only be accessible within a class.  
+- iii) Private access modifier:  In python, if you want to declare any member of a class as private then you have to use double underscore '__' symbol before the members of that class. These members of a class can only be accessible within a class.  
 For example: __name = "Henry"  
 </details>
 
 --- 
-13. In Python, all classes have a function known as?
+13. In Python, all classes have a function known as____.
 
 a) `__inti__()`  
 b) `__init__()`  
