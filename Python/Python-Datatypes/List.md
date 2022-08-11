@@ -86,11 +86,11 @@ print(l)
     
 **Output**:
   
-> [3, 3, 2, 4, 7]
+ [3, 3, 2, 4, 7]
   
-> [3, 3, 2, 4]
+ [3, 3, 2, 4]
   
-> [3, 2, 4]
+ [3, 2, 4]
 
 </blockquote>
   
@@ -103,12 +103,13 @@ print(l)
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
+  <blockquote>
   
-> `append()` can be used when we have to add or insert single element in the end of list.  
+- `append()` can be used when we have to add or insert single element in the end of list.  
     
-> `insert()` can be used to add an element at desired postion in a list by passing index value along with element as a parameter.  
+- `insert()` can be used to add an element at desired postion in a list by passing index value along with element as a parameter.  
     
-> `extend()` can be used when we have to add more then 1 element at the end of a list. It appends each element of an iterable such as list and tuple.  
+- `extend()` can be used when we have to add more then 1 element at the end of a list. It appends each element of an iterable such as list and tuple.  
   
 For example: 
 
@@ -124,11 +125,11 @@ print(l)
   
 **Output**: 
   
-> [1, 3, 3, 2, 4]
+ [1, 3, 3, 2, 4]
   
-> [1, 3, 7, 3, 2, 4]
+ [1, 3, 7, 3, 2, 4]
   
-> [1, 3, 7, 3, 2, 4, 6, 9, 5]
+ [1, 3, 7, 3, 2, 4, 6, 9, 5]
 
   </details>
 
@@ -139,10 +140,11 @@ print(l)
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
+  <blockquote>
   
-> Mutable means we can change the values of an object and it will directly reflects back to original object. 
-> Immutable means we can't change the values of an object and it will directly reflects back to original object. 
-> In python, Str (character/string), Tuple, Int, Float, Bool are of immutable type, whereas List, Set and Dict are of Mutable type.
+- Mutable means we can change the values of an object and it will directly reflects back to original object. 
+- Immutable means we can't change the values of an object and it will directly reflects back to original object. 
+- In python, Str (character/string), Tuple, Int, Float, Bool are of immutable type, whereas List, Set and Dict are of Mutable type.
   
 </details>
 
@@ -585,10 +587,11 @@ print(lst)
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
+  <blockquote>
   
 <details><summary> <b>Hint</b> </summary>
   
-> Use the `.remove()` method. Inside parenthesis you can type the value you’d like to remove.
+- Use the `.remove()` method. Inside parenthesis you can type the value you’d like to remove.
  
   </details>
   
@@ -637,12 +640,13 @@ print (list)
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
+  <blockquote>
   
-> [87, 56, 14, 12, 67, 45]
+- [87, 56, 14, 12, 67, 45]
   
 <details><summary> <b>Explanation</b> </summary>
   
-> Here,we are using negative inexing to reverse a list.
+- Here,we are using negative inexing to reverse a list.
   
   </details>
   </details>
