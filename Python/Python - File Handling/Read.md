@@ -103,7 +103,7 @@ with open("myFile.txt") as fObj:
 <details><summary><b>Show Answer</b></summary>
 <blockquote>
 
- There are three methods in python to read data from file,
+ There are three methods in python to read data from file:
 
  1.`read(chars)`: In python, `read()` method is used to read the specified number of characters from the current position.
 
@@ -124,7 +124,7 @@ with open("myFile.txt") as fObj:
 <details><summary><b>Show Answer</b></summary>
 <blockquote>
 
-In python, we have two types of data files,
+In python, we have two types of data files:
 
  i)Text File-A document that consists of human readable characters, which might be opened by any text editor. 
 
@@ -198,7 +198,7 @@ f = open(r, "d:\Python\test.txt")
 f = open(r, "d:\Python\test.txt")
 ```
 
-> In the above program, 'r' makes the string as raw string, which means, there is no special character in the string.
+> In the above program,'r' makes the string as raw string, which means, there is no special character in the string.
 
 </details>
 
@@ -230,9 +230,9 @@ f = open(r, "d:\Python\test.txt")
 
 ---
 
-13.Which of the following is/are correct when a file is opened using `with` statement.
+13.Which of the following are correct when a file is opened using `with` statement?
 
-A.The with statement simplifies exception handling
+A.The with statement simplifies exception handling.
 
 B.The file is automatically closed after leaving the block, and all the resources that are tied up with the file are released.
 
@@ -353,7 +353,7 @@ D.`wb+`
 
 ---
 
-19.How to check the given file is exists or not?
+19.How to check the given file exists or not?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
