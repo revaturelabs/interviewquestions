@@ -139,6 +139,7 @@ for x in os.listdir('_'):
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
+    <blockquote>
 
 ```python
 f = open("star.txt", "r")
@@ -147,8 +148,13 @@ for i in d:
     print(i.strip())
 f.close()
 ```
-
+    
+<details><summary> <b>Explanation</b> </summary>
+    
+- In the above program first we need to read the file.After removing spaces, diplay the entire content in the file `rename.txt`.
+    
 </details>
+    </details>
 
 ---
 
@@ -163,11 +169,11 @@ for i in range (5):
 print(f.closed)
 ```
 
-A.True
+A.`True`
 
-B.False
+B.`False`
 
-C.None
+C.`None`
 
 D.Error
 
@@ -175,7 +181,7 @@ D.Error
 
 <details><summary><b>Show Answer</b></summary>
 
-> Option A.True
+> Option A.`True`
 
 <details><summary><b>Explanation</b></summary>
 
@@ -216,6 +222,7 @@ D.a list of integers
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
+    <blockquote>
 
 ```python
 file=open("data.txt")
@@ -227,6 +234,11 @@ for i in d:
 print("Total lines are :", count)
 ```
 
+<details><summary> <b>Explanation</b> </summary>
+    
+- To count number of lines from `data.txt`. We can use `readlines()` method and then count the number of lines which doesn't start from M.
+    
+    </details>
 </details>
 
 ---
@@ -283,6 +295,7 @@ D.outfile = open(file = "c:\\scores.txt", "w")
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
+    <blockquote>
 
 ```python
 file = open("file.txt", "r")
@@ -292,7 +305,11 @@ for i in d:
     print(i)
 file.close()
 ```
-
+<details><summary> <b>Explanation</b> </summary>
+    
+- To read the content from file `file.txt` use `read()` method and to display all the numbers from the file use `isdigit()` method.
+    
+</details>       
 </details>
 
 ---
@@ -302,6 +319,7 @@ file.close()
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
+    <blockquote>
 
 ```python
 f = open("select.txt", "r")
@@ -312,7 +330,12 @@ f=open("select.txt", "w")
 f.write(d)
 f.close()
 ```
-
+    
+<details><summary> <b>Explanation</b> </summary>
+    
+- To replace one character with another character use `.replace()` method.
+    
+</details>       
 </details>
 
 ---
