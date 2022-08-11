@@ -36,32 +36,40 @@ print(new_list)
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
+  <blockquote>
   
 new_list = list(filter(lambda x: (x%2 == 0) ,list))
   
 `TypeError: 'list' object is not callable`
   
-</details>
+<details><summary> <b>Explanation</b> </summary>
+  
+- The above program output is `TypeError` because, when we try to call a list as a function using parenthesis () .
+   
+    </details>
+    
+    </details>
 
 ---
 
-3.Debug and correct the following code and predict the output?
+3.Debug and correct the following code and predict the output?(Use `lambda function`)
 
 ```python
 #Type your answer here.
 i=6
-L=
+L=lambda
 print(L(i))
 ```
 
 <details><summary> <b>Hint</b> </summary>
   
-> You can start your function as following: `lambda x:`
-> And, write your statement after the `colon (:)`
+- You can start your function as following: `lambda x:`
+- And, write your statement after the `colon (:)`
   
   </details> 
 
 <details><summary> <b>Show Answer</b> </summary>
+  <blockquote>
   
 ```python
 i=6
@@ -72,6 +80,12 @@ print(L(i))
 **Output**:
   
   8
+  
+<details><summary> <b>Explanation</b> </summary>
+  
+- We should use lambda function.Then sum of with 2 so, the final output is 8.
+  
+  </details>
 </details>
 
 ---
