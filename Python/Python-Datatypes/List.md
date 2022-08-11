@@ -1,22 +1,21 @@
 ## List
 
-1.What is a list in python? Is list and Array both are same? If not, how list and array are different?
+1.What is a list in python? Are list and Array same? If not, how list and array are different?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   <blockquote>
   
-- List is a part of Collections in python. it has been used to store mulitple items in a single variable. An empty List is created by square brackets [], we can place the elements inside that `[]` separated by commas.     
+- List is a part of Collections in python. It has been used to store mulitple items in a single variable. An empty List is created by square brackets [], we can place the elements inside that `[]` separated by commas.     
 - No, list and array both are not same in python. Although, list and array both are used to store elements in it, but still some differences are there:   
     
-- i) List can consist of elements of different types, for eg. [1, 2, "a", 4.5], whereas Array can store elements of same type only. 
-- ii) List is a built-in data type in python so anyone can directly use it, whereas for using Array we have to `import` the array module. 
-- iii) List are preferred for shorter sequence of data items, on the other hand arrays are preferred for data items of longer sequence. 
+- i) List consists of elements of different types, for eg. [1, 2, "a", 4.5], whereas Array can store elements of same type only. 
+- ii) List is a built-in data type in python and so anyone can directly use it, whereas for using Array we have to `import` the array module. 
+- iii) List is preferred for shorter sequence of data items, and on the other hand, arrays are preferred for data items of longer sequence. 
 - iv) We can print List without any loop, but for printing elements of an array a loop is required.
     
-</blockquote>
-  
+    </blockquote>
 </details>
 
 ---
@@ -26,11 +25,11 @@
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
- <blockquote>
-
+  <blockquote>
+  
 - [For this type of question, only tell the methods that you have used while working with List because the interviewer might ask the next question based on your response.]   
    
-- List provides different kinds of built-in methods that anyone can use for list manipulations. Some of these methods are mentioned below:  
+- List provides different kinds of built-in methods that anyone can use for list manipulations. Some of the methods are mentioned below:  
     
 i) `append()` : it is used to add element to the end of a list.  
     
@@ -42,7 +41,7 @@ iv) `count()` : this will return the number of times an item appears in a list.
     
 v) `clear()` : it is used to remove all elements from a list.  
     
-vi) `index()` : it will returns the lowest index of mentioned item.  
+vi) `index()` : it will return the lowest index of mentioned item.  
     
 vii) `pop()` : by default,it removes and return the last element from the list. If index is specified, it removes the item present in that index.  
   
@@ -52,12 +51,12 @@ ix) `sort()` : it will sort the list in ascending or descending order.
     
 x) `reverse()` : it reverses the order of elements present in a list.  
    
-</blockquote>
+    </blockquote>
 </details>  
 
 ---
 
-3.How can you differentiate `pop()`, `remove()` and `del` in list in python?
+3. In pyhton, how can you differentiate `pop()`, `remove()` and `del` in list?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -66,7 +65,7 @@ x) `reverse()` : it reverses the order of elements present in a list.
   
 i) `del` is a keyword, whereas `remove()` and `pop()` is a method of a list.  
     
-ii) For deleting element `del` and `pop()` uses the index, whereas `remove()` uses value as parameter.  
+ii) For deleting element, `del` and `pop()` uses the index, whereas `remove()` uses value as parameter.  
    
 iii) `del` and `remove()` does not return any value, whereas `pop()` returns the removed value.   
     
@@ -86,15 +85,14 @@ print(l)
     
 **Output**:
   
- [3, 3, 2, 4, 7]
+> [3, 3, 2, 4, 7]
   
- [3, 3, 2, 4]
+> [3, 3, 2, 4]
   
- [3, 2, 4]
+> [3, 2, 4]
 
 </blockquote>
-  
- </details>
+    </details>
 
 ---
 
@@ -103,13 +101,12 @@ print(l)
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
-  <blockquote>
   
-- `append()` can be used when we have to add or insert single element in the end of list.  
+> `append()` can be used when we have to add or insert single element in the end of list.  
     
-- `insert()` can be used to add an element at desired postion in a list by passing index value along with element as a parameter.  
+> `insert()` can be used to add an element at desired postion in a list by passing index value along with element as a parameter.  
     
-- `extend()` can be used when we have to add more then 1 element at the end of a list. It appends each element of an iterable such as list and tuple.  
+> `extend()` can be used when we have to add more then one element at the end of a list. It appends each element of an iterable such as list and tuple.  
   
 For example: 
 
@@ -125,11 +122,11 @@ print(l)
   
 **Output**: 
   
- [1, 3, 3, 2, 4]
+> [1, 3, 3, 2, 4]
   
- [1, 3, 7, 3, 2, 4]
+> [1, 3, 7, 3, 2, 4]
   
- [1, 3, 7, 3, 2, 4, 6, 9, 5]
+> [1, 3, 7, 3, 2, 4, 6, 9, 5]
 
   </details>
 
@@ -140,24 +137,23 @@ print(l)
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
-  <blockquote>
   
-- Mutable means we can change the values of an object and it will directly reflects back to original object. 
-- Immutable means we can't change the values of an object and it will directly reflects back to original object. 
-- In python, Str (character/string), Tuple, Int, Float, Bool are of immutable type, whereas List, Set and Dict are of Mutable type.
+> Mutable means we can change the values of an object and it will directly reflect back to original object. 
+> Immutable means we can't change the values of an object and it will directly reflect back to original object. 
+> In python, Str (character/string), Tuple, Int, Float, Bool are of immutable type, whereas List, Set and Dict are of Mutable type.
   
 </details>
 
 ---
 
-6.How to iterate over the list of elements? Give code.
+6.How to iterate over the list of elements? Give a code.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   <blockquote>
   
-- To iterate over list in python we can use any loop.
+- To iterate over list in python, we can use any loop.
   
 ```python  
 # Code using for loop
@@ -186,8 +182,9 @@ while i<len(l):
 # Code using list comprehension
 l = [1, 3, 3, 2]
 [ print(i) for i in l]
-```        
- </blockquote>
+```
+
+                </blockquote>
                 </details>
 
 ---
@@ -208,22 +205,21 @@ print(answer_1)
   
 <details><summary> <b>Explanation</b> </summary>
   
-> In this code we are using negative indexing,so we are getting last element from that list.
+> In this code, we are using negative indexing, and so we are getting last element from that list.
   
   </details>
   </details>
 
 ---
   
-8.What is the use of `copy()` method? what happens if we directly assigned one list to another using `=` operator?
+8.What is the use of `copy()` method? What happens if we directly assign one list to another using `=` operator?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary> 
-  
+<details><summary> <b>Show Answer</b> </summary>  
   <blockquote>
   
-- `copy()` is a built-in method present in the list. Using `copy()` we can shallow copy a list. 
+- `copy()` is a built-in method present in the list. Using `copy()`, we can shallow copy a list.  
   
 **Example**: 
 
@@ -233,7 +229,7 @@ l2 = l1.copy()
 print(l2)   # output: [1, 2, 3, 4]
 ```
   
-- If we use the `=` operator instead of `copy()` to copy 1st list elements to 2nd list, the output will be same when we print 2nd list. But the actual difference occurs when we try to `add, delete or change` a value in original list, the new list that we have created using `copy()` method will not changed and vise-versa. Whereas the changes will reflect to new list also if we used '=' operator there for coping the elements. Let's see one example to understand easily. 
+- If we use the `=` operator instead of `copy()` to copy 1st list elements to 2nd list, the output will be same when we print 2nd list. But the actual difference occurs when we try to `add, delete or change` a value in original list, and the new list that we have created using `copy()` method will not change and vise-versa. Whereas the changes will reflect to new list if we used '=' operator for copying the elements. Let's see one example to understand easily. 
 
 ```python  
 original = [1, 3, 3, 2]
@@ -251,17 +247,17 @@ new_list.append(5)
 print(new_list)    # output: [1, 3, 3, 2, 5]
 print(original)    # output: [1, 3, 3, 2, 4]
 ```
- 
+  
+    </blockquote>
   </details>
 
 ---
   
-9.Why we get `Indexerror: list index out of range` error in python?
+9.Why do we get `Indexerror: list index out of range` error in python?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
-  <blockquote>
   
 - Sometimes when we try to get the element by index which is not valid i.e the element that we want to access doesn't have index position in the list, then we get the `Indexerror: list index out of range` error. 
   
@@ -273,14 +269,14 @@ for i in range(len(l)+1)
     print(l[i])  
 ``` 
   
-- Here we are trying to get the 3rd element from the list whose index value doesn't exists. So we will get index out of range error in this code after printing 2, 4 in new line. 
+- Here, we are trying to get the 3rd element from the list whose index value doesn't exist. So, we will get index out of range error in this code after printing 2, 4 in new line. 
 
   </blockquote>
   </details>
 
 --- 
 
-10.Predict the output of following code:
+10.Predict the output of following code.
 
 ```python  
 list1 = ['saran', 'shalini', 'sandy']
@@ -288,29 +284,26 @@ print (max(list1))
 ```
   
 A.saran  
-  
-B.shalini
-  
+B.shan 
 C.sandy  
-  
 D.error 
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option B.shalini. 
+> Option b) shan. 
   
 <details><summary> <b>Explanation</b> </summary>
   
-> `max()` function in python returns the element with the highest value from an iterable. But if the elements of iterable[list, tuple, etc] are strings then it compares alphabetically and returns the maximum from them. In this code, the first letter of each word is 's', so it checks the 2nd letter of each word and as 'h' is greater in value then 'a' therefore it returns shalini as output.
+> `max()` function in python returns the element with the highest value from an iterable. But if the elements of iterable[list, tuple, etc] are strings, then it compares alphabetically and returns the maximum from them. In this code, the first letter of each word is 's', so it checks the 2nd letter of each word and as 'h' is a greater value then 'a', it returns shan as output.
 
   </details>
   </details>
 
 ---
 
-11.Predict the output of following code:
+11.Predict the output of following code.
 
 ```python  
 list1 = ["Hello", [2, 5, 7, 9, 3]]
@@ -319,27 +312,23 @@ print(list1[1][2])
 ```
  
 A. e    
-   &emsp;7  
-  
+&emsp;7   
 B. H   
-   &emsp;5 
-  
+&emsp;5  
 C. l   
-   &emsp;5 
-  
+&emsp;5  
 D. l  
-   &emsp;7   
+&emsp;7   
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option D. l  
-            &emsp;7  
+> Option d) l and 7 
   
 <details><summary> <b>Explanation</b> </summary>
   
-> First print statement picks the 0th index value which is "Hello", after that for -3 index it iterates over hello from last and prints the 'l' letter from "Hello". The 2nd print statement picks the 1st index value from the list which itself is a list of [2, 5, 7, 9, 3] values, after that it finds the element at index 2 from that list and print its value which is 7. Hence l and 7 will be printed.
+> First, print statement picks the 0th index value which is "Hello", after that for -3 index iterates over hello from the last and prints the 'l' letter from "Hello". The 2nd print statement picks the 1st index value from the list which itself is a list of [2, 5, 7, 9, 3] values, after that it finds the element at index 2 from that list and print its value which is 7. Hence, l and 7 will be printed.
   
   </details>
   </details>
@@ -353,20 +342,20 @@ list1 = [2, 5, 7, 9, 3]
 list2 = [1, 4, 6, 8] 
 ```
 
-A. new = `list1 + list2`    
-B. new = `extend(list1, list2)`    
-C. new = `list1.extend(list2)`    
-D. `new.extend(list1, list2)`   
+A. new = list1 + list2    
+B. new = extend(list1, list2)    
+C. new = list1.extend(list2)    
+D. new.extend(list1, list2)    
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Options A. new = `list1 + list2`  and C. new = `list1.extend(list2)` . 
+> Options are (a) and (c). 
   
 <details><summary> <b>Explanation</b> </summary>
   
-> `extend()` method takes 1 argument as parameter not 2, so options b) and d) are eliminated there. The `+` operator can also be used to join two list in python.
+> `extend()` method takes 1 argument as parameter and not 2, so options b) and d) are eliminated there. The '+' operator can also be used to join two list in python.
   
   </details>
   </details>
@@ -375,7 +364,7 @@ D. `new.extend(list1, list2)`
 
 13.Write a program to return duplicate/ repeated items from the List. 
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -434,7 +423,7 @@ print(solve(list1))
   
 ---
 
-16.Write a program to find frequency of elements in a list.
+16.Write a program to find the frequency of elements in a list.
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -454,14 +443,13 @@ print(freq)
 
 ---
 
-17.How to take user input in List in Python?
+17.How to take user input in the List in Python?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
-  <blockquote>
 
-- There are many ways through which one can take input from user in list:
+> There are many ways through which one can take input from user in list:
 
 **Example 1**:  
     
@@ -504,14 +492,14 @@ print(sampleList[-4:-1])
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 A. 40  
-  &emsp;[20,30,40]  
+&emsp;[20,30,40]  
 B. error  
-C. list index out of range  
+C. lst index out of range  
 D. No output  
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option A.  40  
+> option A.  40  
   
 <details><summary> <b>Explanation</b> </summary>
   
@@ -564,13 +552,13 @@ D. None of the above
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option B
+> option B
   
 <details><summary> <b>Explanation</b> </summary>
   
 > Python list collection is ordered and changeable. The list also allows duplicate members. To get a sublist out of the list, we need to specify the range of indexes.  To get a sublist, we need to specify where to start and where to end the range.
 
-> Syntax: `list[start:end]` If start is missing it takes `0` as the starting index
+> Syntax: list[start:end] If start is missing it takes 0 as the starting index
 
   </details>
   </details>
@@ -587,11 +575,10 @@ print(lst)
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
-  <blockquote>
   
 <details><summary> <b>Hint</b> </summary>
   
-- Use the `.remove()` method. Inside parenthesis you can type the value you’d like to remove.
+> Use the `.remove()` method and inside parenthesis, we can type the value you’d like to remove.
  
   </details>
   
@@ -640,13 +627,12 @@ print (list)
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
-  <blockquote>
   
-- [87, 56, 14, 12, 67, 45]
+> [87, 56, 14, 12, 67, 45]
   
 <details><summary> <b>Explanation</b> </summary>
   
-- Here,we are using negative inexing to reverse a list.
+> Here,we are using negative indexing to reverse a list.
   
   </details>
   </details>
@@ -688,11 +674,11 @@ C. -HelloPython
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option B. Hello-Python  
+> option b
   
 <details><summary> <b>Explanation</b> </summary>
 
-> The `join()` method will join all items in a list into a string, using a hyphen character as a separator.
+> The join() method will join all items in a list into a string, using a hyphen character as a separator.
   
   </details>
   </details>
