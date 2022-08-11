@@ -1,12 +1,12 @@
 ## Boolean
 
-1.What is boolean data type in python?
+1.What is `boolean` data type in python?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> The Python Boolean type is one of Python's built-in data types.  Boolean is a primitive data type that takes either `true` or `false` values. So anything that returns the value `true` or `false` can be considered as a boolean example. Checking some conditions such as `a==b` or `a<b` or `a>b` can be considered as boolean examples.
+> The Python `Boolean` type is one of Python's built-in data types.  Boolean is a primitive data type that takes either `true` or `false` values. So anything that returns the value `true` or `false` can be considered as a boolean example. Checking some conditions such as `a==b` or `a<b` or `a>b` can be considered as boolean examples.
   
 </details>
 
@@ -23,18 +23,18 @@ x=truth()
 print(bool(x))
 ```
   
-A. False    
-B. True    
-C. pass    
-D. error    
+A. `False`    
+B. `True`    
+C. `pass`    
+D. `error`    
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option B. True
+> Option B. `True`
   
 <details><summary> <b>Explanation</b> </summary>
   
-> If the truth method is not defined,the object is considered true.Hence the output of the code is true.
+> If the `truth` method is not defined,the object is considered true.Hence the output of the code is true.
   
   </details>
   </details>
@@ -82,11 +82,11 @@ print(bool(myobj))
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> False
+> `False`
   
 <details><summary> <b>Explanation</b> </summary>
   
-> One more value, or object in this case, evaluates to False, and that is if you have an object that is made from a class with a __len__ function that returns 0 or False.
+> One more value, or object in this case, evaluates to False, and that is if you have an object that is made from a class with a `__len__` function that returns `0` or `False`.
   
   </details>
   </details>
@@ -107,7 +107,7 @@ print(['hello','morning'][bool('')])
   
 <details><summary> <b>Explanation</b> </summary>
   
-> The line of code shown above can be simplified to state that 'hello' should be printed if the argument passed to the boolean function amounts to zero, else 'morning' will be printed.
+> The line of code shown above can be simplified to state that 'hello' should be printed if the argument passed to the `boolean` function amounts to zero, else 'morning' will be printed.
   
   </details>
   </details>
@@ -164,20 +164,20 @@ else:
 ```python  
 print(not(10>20) and not(10<0))
 ```                                
-A. True    
-B. False   
-C. Error    
+A. `True`    
+B. `False`   
+C. `Error`    
 D. No output    
                                 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)                                
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option A.True
+> Option A.`True`
   
 <details><summary> <b>Explanation</b> </summary>
   
-> The expression not(10>20) returns False.The expression not(10<0) returns False.The and operation between false and false returns True.Hence the output is True.
+> The expression not(10>20) returns `False`.The expression not(10<0) returns False.The and operation between false and false returns `True`.Hence the output is `True`.
 
   </details>
   </details>
@@ -200,8 +200,13 @@ D. False
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option D.False
+> Option D.`False`
   
+<details><summary> <b>Explanation</b> </summary>
+  
+> In the above program `isinstance()` funtions returns `true`.Because , the specified object is of the specified type, otherwise it returns `False`.
+  
+  </details>
   </details>
 
 ---
@@ -227,6 +232,12 @@ print(myFunction())
 **Output**:
  
 > True
+  
+<details><summary> <b>Explanation</b> </summary>
+  
+> This functions return `True` because we called the function `myfunction()`.
+  
+  </details>
   
 </details>
  
