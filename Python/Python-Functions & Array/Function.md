@@ -318,7 +318,7 @@ print("Value of x outside a function :", x)
  <blockquote>
  
 - `Yes, bytes()` is a Built-in function.
-- The functions which are come along with python itself are called a `Bulit-in function` or `predefined function`.
+- The functions which along with python itself are called a `Bulit-in function` or `predefined function`.
 	
 - `range()`
   
