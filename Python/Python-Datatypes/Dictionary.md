@@ -7,9 +7,9 @@
 <details><summary> <b>Show Answer</b> </summary>
   <blockquote>
   
-- Python `dictionary` objects are data types that are enclosed in curly braces '{}' and havkey and value pairs and each pair is seperated by a `comma(,)`.  
+- Python `dictionary` objects are data types that are enclosed in curly braces '{}' and have key value pairs and each pair is seperated by a `comma(,)`.  
     
-- Dictionary is mapped. Meaning since it has key and value pair, a meaningful key can save a lot of trouble for coders, like using an address key to save all the addresses, an id key for all id’s and so on.
+- Dictionary is mapped, since it has key and value pair. A meaningful key can save a lot of trouble for coders, like using an address key to save all the addresses, an id key for all id’s and so on.
   
 **Example**:
   
@@ -33,7 +33,7 @@ print(user_info['name'])
 
 ---
   
-2.How will you get the keys and values of dictionary?
+2.How will you get the keys and values in dictionary?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -83,7 +83,7 @@ print(user_info.items())
   
 ---
   
-3.Are dictionaries mutable?What do you mean by mutable?
+3.Are dictionaries mutable? What do you mean by mutable?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
@@ -91,7 +91,7 @@ print(user_info.items())
 
 > `Yes`,the python dictionary is a mutable object.  
     
-> Mutable means we `can change,add or remove` key-value pairs after assigning.  
+> Mutable means we can `change,add or remove` key-value pairs after assigning.  
   
 **Example**:
   
@@ -117,7 +117,7 @@ Student info after corrections:  {'id': 12, 'nationality': 'China', 'data_enroll
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> The `pop()` method in list the last item in the list, however, the `pop()` method in the dictionary can remove a specified item. The `dict.popitem()` would be the equivalent of `list.pop()`. 
+> The `pop()` method is the last item in the list. However, the `pop()` method in the dictionary can remove a specified item. The `dict.popitem()` would be the equivalent of `list.pop()`. 
   
 **Example**:
   
@@ -144,7 +144,7 @@ After popping:  {'current_location': 'Bangaluru', 'job': 'sofware engineer'}
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> In python, dictionary can be merged as {**dict_1, **dict_2, …,**dict_n}.In python 3.9, it can be merged using `|` operator.
+> In python, dictionary can be merged as {**dict_1, **dict_2, …,**dict_n}. In python 3.9, it can be merged using `|` operator.
   
 **Example**:
   
@@ -216,13 +216,13 @@ print(pet_number_dict_2)
 
 ---
 
-7.What is the difference between duplicating dictionary with and without `copy()`?
+7.What is the difference between duplicating dictionary using with and without `copy()`?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> It means is `dict_2 = dict_1 vs. dict_2 = dict_1.copy()`. When you are duplicating a dictionary object without a `copy()` method, you are not creating a new dictionary but pointing to the same dictionary object. So, when you make changes in the duplicate list, it changes the original one too.
+> It means `dict_2 = dict_1 vs. dict_2 = dict_1.copy()`. When you are duplicating a dictionary object without a `copy()` method, you are not creating a new dictionary but pointing to the same dictionary object. So, when you make changes in the duplicate list, it changes the original as well.
   
 **Example**:
 
@@ -294,7 +294,7 @@ KeyError: (3, 4,9)
   
 <details><summary> <b>Explanation</b> </summary>
   
-- It will throwing an `key error` because, keys are not found in the dictionary.
+- It will throw an `key error` because, keys are not found in the dictionary.
   
   </details>
   </details>
