@@ -14,7 +14,7 @@ d) in
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option c) + 
+> Option c) + correct
   
 <details><summary> <b>Explanation</b> </summary> 
   
@@ -50,7 +50,7 @@ d) They slow down execution of the program
 
 ---
 
-3.What do you mean by keywords?
+3.What is keywords?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -63,7 +63,7 @@ d) They slow down execution of the program
 </details>
 
 ---
-4.What do you mean by identifiers? 
+4.What is identifiers? 
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -121,7 +121,7 @@ d) mid-level language
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> Python is a High- level language not mid-level because, the final output that we received from the code after execution is more readable and easy to understand for a human. 
+> Python is a High- level language not mid-level because, the final output that we received from the code after execution is more readable and easy to understand to a human. 
   
   </details> 
 </details>
@@ -287,7 +287,7 @@ d) 5
 
 <details><summary> <b>Explanation</b> </summary>
   
->'++' and '--' symbols are not present in python. To increment or decrement a value, we can use assignment operators like `+=` and `-=` respectively.
+>'++' and '--' symbols are not present in python. To increment or decrement a value, we can use assignment operators like += and -= respectively.
   
 </details>
 </details>
@@ -301,13 +301,12 @@ d) 5
 <details><summary> <b>Show Answer</b> </summary>
   
 > A namespace is a way to provide unique name for each and every object in python. An object can be a variable or a method. There are three types of namespace present in python:  
-    
-> i) **Local Namespace:** the variable names defined in a class, function, loop or in any block of code comes under local namespace. These variables cannot be accessed by outer Namespace in python. Local namespace can access the global namespace objects and built-in namespace.  
-  
-> ii) **Global Namespace:** the object name that are defined in a main program or in a module comes under global namespace. These are outside any function or block of code. It can access the builtin namespace objects.   
-  
-> iii) **Built-in Namespace:** it contains the names of built-in methods and variables. It can be a datatype, exceptions or methods like print() & input().   
-  
+> i) **Local Namespace:** the variable names defined in a class, function, loop or in any block of code comes under local namespace. These variables cannot be accessed by outer Namespace in python. Local namespace can access the global namespace objects and built-in namespace.
+
+> ii) **Global Namespace:** the object name that are defined in a main program or in a module comes under global namespace. These are outside any function or block of code. It can access the builtin namespace objects. 
+
+> iii) **Built-in Namespace:** it contains the names of built-in methods and variables. It can be a datatype, exceptions or methods like print() & input(). 
+
 **Example**: 
   
 ```python
@@ -370,7 +369,7 @@ d) <=
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> correct option is c) `>>`
+> correct option is c) >>
 
 <details><summary> <b>Explanation</b> </summary> 
     
@@ -395,7 +394,7 @@ d) !=
   
 <details><summary> <b>Show Answer</b> </summary>
   
-option a) `=` 
+option a) = 
 
 <details><summary> <b>Explanation</b> </summary> 
   
@@ -423,7 +422,7 @@ d) is not
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> `is` and `is not` are identity operators.
+> is and is not are identity operators.
   
   </details>
   </details>
@@ -436,7 +435,7 @@ d) is not
   
 <details><summary> <b>Show Answer</b> </summary>
  
-> Both `and` and `or` are logical operators which requires two operands and both returns `True` and `False` values after evaluation. The `and` operator returns True when both the operands are True, else returns False, whereas `or` operator returns True if either operand is True and returns False when both operands are False. 
+> Both `and` and `or` are logical operators which requires two operands and both returns True and False values after evaluation. The "and" operator returns True when both the operands are True, else returns False, whereas "or" operator returns True if either operand is True and returns False when both operands are False. 
   </details>
 
 ---
@@ -472,7 +471,7 @@ d) 9
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> In the first print statement, logical `and` operator is used, which checks if both operand values are non- zero and it will return the value of operand mentioned in the last i.e `b=5`. In the second print statement, bitwise operator `&` is used, which converts the operand values to binary[ in terms of 0 and 1] and compares and returns 1 if both the bits are 1 otherwise, it returns 0. So, `a=9` in binary is `1001` and `b=5` in binary is `0101`. Therefore after comparing both operand values bit by bit, we get final result as `0001` in binary which is equal to `1` in decimal format. Hence, the output (b).
+> In the first print statement, logical "and" operator is used, which checks if both operand values are non- zero and it will return the value of operand mentioned in the last i.e 'b=5'. In the second print statement, bitwise operator '&' is used, which converts the operand values to binary[ in terms of 0 and 1] and compares and returns 1 if both the bits are 1 otherwise, it returns 0. So, a=9 in binary is 1001 and b=5 in binary is 0101. Therefore after comparing both operand values bit by bit, we get final result as 0001 in binary which is equal to 1 in decimal format. Hence, the output (b).
   
   </details>
   </details>
@@ -483,17 +482,17 @@ d) 9
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
-a) `n = int(input())`
+a) n = int(input())
   
-b) `n = input()` 
+b) n = input() 
   
-c) `n = raw_input()`
+c) n = raw_input()
   
-d) `n = int(raw_input())`
+d) n = int(raw_input())
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option a) `n = int(input())`
+> Option a) n = int(input())
 
 <details><summary> <b>Explanation</b> </summary> 
   
@@ -574,7 +573,7 @@ b) False
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> Ternary operators are like `if-else` statements but the difference is, it allows checking a condition in a single line replacing the multiline `if-else` block in python. 
+> Ternary operators are like if-else statements but the difference is, it allows checking a condition in a single line replacing the multiline if-else block in python. 
 
 For example: 
   
@@ -611,14 +610,14 @@ d) 2
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> According to precedence of operators, `Exponent(**)` has the highest precedence in this expression. After that `Multiplication(*)`, `Division(/)`, `Floor division(//)` all three have same precedence so, it is evaluated from left to right order in an expression, finally ending with `Addition(+)`. So 2**3 will get evaluated first which gives,'8'. Then 10//8 gives 1 because of floor division, 1*3 gives '3' and 4/2 gives '2.0'. Hence, the final result will come out as 3+2.0 = 5.0
+> According to precedence of operators, Exponent(**) has the highest precedence in this expression. After that Multiplication(*), Division(/), Floor division(//) all three have same precedence so, it is evaluated from left to right order in an expression, finally ending with Addition(+). So 2**3 will get evaluated first which gives,'8'. Then 10//8 gives 1 because of floor division, 1*3 gives '3' and 4/2 gives '2.0'. Hence, the final result will come out as 3+2.0 = 5.0
   
   </details>
   </details>
 
 ---
   
-29.Odd one out: Which of the following statement is incorrect?
+29.Which of the following statement is incorrect?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -636,7 +635,7 @@ d) 'and' is a logical operator.
 
 <details><summary> <b>Explanation</b> </summary> 
   
-  > `+=` is an assignment operator
+  > += is an assignment operator
   
   </details>
   </details>
@@ -661,7 +660,7 @@ d) not
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> `not in` is a membership operator in python.
+> 'not in' is a membership operator in python.
   
   </details>
   </details>
@@ -703,7 +702,7 @@ d) global y
 
 ---
   
-32.What is the data type of `print(type(5))`?
+32.What is the data type of print(type(5))?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
   
@@ -756,14 +755,14 @@ option is b)
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> fun1() is called first, so the statements that are in the fun1() will execute first and prints the value of x as 25 in first line of console and then prints 50 in the new line after wxiting of fun1() function. 
+> fun1() is called first.so, the statements that are in the fun1() will execute first and prints the value of x as 25 in first line of console and then prints 50 in the new line after wxiting of fun1() function. 
   
 </details>
 </details>
 
 ---
   
-34.What will be the output of following code?
+34.What is the output of the following code?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -793,7 +792,7 @@ d) 76
 
 <details><summary> <b>Explanation</b> </summary>
   
-> `"UnboundLocalError: local variable 'x' is referenced before assignment"`.
+> `UnboundLocalError: local variable 'x' is referenced before assignment`.
   
   </details>
   </details>
@@ -843,7 +842,7 @@ d) str
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> In python, every number with decimal values will comes under `float` class.
+> In python, every number with decimal values will come under float class.
   
   </details>
   </details>
@@ -868,7 +867,7 @@ d) str
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> we can create complex numbers by using `complex` datatype.
+> we can create complex numbers by using complex datatype.
   
   </details>
   </details>
@@ -893,7 +892,7 @@ d) str1 = '"hi"
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> option d) will lead to an `SyntaxError`.
+> option d) will lead to an SyntaxError.
   
   </details>
   </details>
@@ -925,7 +924,7 @@ print(x)
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> option a) is correct because, in python, it will give a `"NameError` that name "x" is not defined"`.
+> option a) is correct because, in python, it will give a `NameError` that name "x" is not defined.
   
   </details>
   </details>
@@ -982,7 +981,7 @@ print(x)
 
 ---
   
-42.Which of the following is/are a built-in function in python?
+42.Which of the following is a built-in function in python?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
@@ -996,7 +995,7 @@ print(x)
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option is d) `max()`  
+> Option is d) max()  
 
 <details><summary> <b>Explanation</b> </summary> 
   
@@ -1067,7 +1066,7 @@ if x ** 2 > 16 and y+1 < 10:
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> In `if` statement, first condition is false as 16 greater then 16 is false and 2nd condition is true as 6 less then 10 is true. `and` operator is used between first and second condition therefore the resultant of true and false is false. Hence the print statement inside `if` block will not executes.
+> In if statement, first condition is false as 16 greater than 16 is false and 2nd condition is true as 6 is less than 10 is true. `and` operator is used between first and second condition.Therefore, the resultant of `True` and `False` is false. Hence the print statement inside if block will not executes.
   
 </details>
 </details>
@@ -1095,7 +1094,7 @@ print(-22//4)
  
 <details><summary> <b>Explanation</b> </summary> 
   
-> `//` is a floor division operator, it returns the integer value after division.
+> // is a floor division operator, it returns the integer value after division.
   
   </details>
 </details>
@@ -1130,9 +1129,8 @@ In python, there are 6 Bitwise operators:
 For example:    
 x = 4 = 0100 (binary)         
 x << 1 = 1000 = 8   # Here it shifts the bit by 1 on the left side.
-<br />  
-    
-> - *Bitwise right shift* operator shifts the bits of integer number to the right and put 0 on voids left as a result.    
+<br />
+ *Bitwise right shift* operator shifts the bits of integer number to the right and put 0 on voids left as a result.    
 For example:      
 x = 4 = 0100 (binary)       
 x >> 1 = 0010 = 2  # Here it shifts the bit by 1 on the right side.     
@@ -1169,7 +1167,7 @@ option is b)
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> In both the print statements Bitwise operators are used. In first print statement, bitwise `or` operator is used which converts values of a and b in binary and returns 1 if either of the bit is 1 else 0. Binary value of 5 is 0101 and binary value of 10 is 1010 so the resultant will be 1111 in binary which is equivalent to 15 in decimal. Therefore 1st print statement prints 15 as output. In 2nd print statement Bitwise `right shift` operator is used which shifts the bits of a number to the right and fills 0 on voids left. So 1010 is shifted twice to the right as mentioned in print statement and we got the result as 0010 in binary which is equivalent to 2 in decimal. Hence the output 15 and 2.    
+> In both the print statements Bitwise operators are used. In first print statement, bitwise or operator is used which converts values of a and b in binary and returns 1 if either of the bit is 1 else 0. Binary value of 5 is 0101 and binary value of 10 is 1010 so the resultant will be 1111 in binary which is equivalent to 15 in decimal. Therefore 1st print statement prints 15 as output. In 2nd print statement Bitwise right shift operator is used which shifts the bits of a number to the right and fills 0 on voids left. So 1010 is shifted twice to the right as mentioned in print statement and we got the result as 0010 in binary which is equivalent to 2 in decimal. Hence the output 15 and 2.    
   
   </details>
 </details> 
@@ -1200,7 +1198,7 @@ print(str1 and str2)
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> Because both the values are true and the `and` operator is used in `print()`, therefore it prints the value of last variable in output screen that is 'or'.
+> Because both the values are `True` and the `and` operator is used in print(). Therefore, it prints the value of last variable in output screen that is 'or'.
   
   </details>
   </details>
@@ -1231,7 +1229,7 @@ print(str1 or str2)
 
 <details><summary> <b>Explanation</b> </summary> 
 
-> Because both the values are true and the `or` operator is used in `print()`, therefore it prints the value of first variable in output screen that is 'and'.
+> Because both the values are `True` and the `or` operator is used in print().Therefore, it prints the value of first variable in output screen that is `and`.
   
   </details>
   </details>
@@ -1252,14 +1250,14 @@ print(str1 or str2)
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> In python, division `(/)` operator returns the float value whereas, floor division `(//)` operator returns the int value.
+> In python, division (/) operator returns the float value whereas, floor division (//) operator returns the int value.
   
   </details>
   </details>
 
 ---
 
-52.Predict the output.
+52.Predict the output of the following code.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1282,7 +1280,7 @@ print(x)
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> The operations will be performed based on the precedence of operators. Exponent `(**)` operator has the highest precedence in this expression, so it evaluates first resulting in 16. After that Multiplication `(*)`, Division `(/)`, Floor division `(//)` all three have same precedence so, it is evaluated from left to right order in an expression. And at last subtraction `(-)`. So, 20//16 gives 1 and 10*2/3 gives 6.67. At last 1 - 6.67 results in -5.67, hence the answer.
+> The operations will be performed based on the precedence of operators. Exponent (**) operator has the highest precedence in this expression.It evaluates first resulting in 16. After that Multiplication(*), Division(/), Floor division(//) all three have same precedence. so, it is evaluated from left to right order in an expression. And at last subtraction(-). Therefore, 20//16 gives 1 and 10*2/3 gives 6.67. At last 1 - 6.67 results in -5.67, hence the answer.
   
   </details>
 </details>
@@ -1313,14 +1311,14 @@ print(y ^ x)
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> Bitwise `xor` operator is used in the print statement that returns 0 if both the bit is 0 or 1 and returns 1 if either of the bit is 1. 6 in binary is 110 and 4 in binary is 100, therefore after doing `xor` operation the resultant will be 010, which is 2 in decimal. Hence the option b) is correct.
+> Bitwise xor operator is used in the print statement that returns 0 if both the bit is 0 or 1 and returns 1 if either of the bit is 1. 6 in binary is 110 and 4 in binary is 100.Therefore, after doing xor operation the resultant will be 010, which is 2 in decimal. Hence the option b) is correct.
   
   </details>
 </details>
 
 ---
 
-54.Choose the correct option, for the below code, that will not lead to any error.
+54.Choose the correct option for the below code that will not lead to any error.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1373,7 +1371,7 @@ print(3%6)
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> Modules `(%)` operator gives the remainder of two numbers after division. 
+> Modules (%) operator gives the remainder of two numbers after division. 
   
   </details>
   </details>
@@ -1398,14 +1396,14 @@ print(3%6)
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> From the given options, multiplication `(*)` has the highest precedence and `not` has the lowest precedence. 
+> From the given options, multiplication (*) has the highest precedence and not has the lowest precedence. 
  
   </details>
   </details>
 
 ---
 
-57.State True or False: "Bitwise shift operators `(<<, >>)` has lower precedence than Bitwise `And(&)` operator".
+57.State True or False: "Bitwise shift operators (<<, >>) has lower precedence than Bitwise And(&) operator".
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1445,7 +1443,7 @@ print(a)
 
 <details><summary> <b>Explanation</b> </summary> 
   
-> It is invalid to assign and increment the value at the same line in python. Therefore, it will throw `SyntaxError` in line 2. 
+> It is invalid to assign and increment the value at the same line in python. Therefore, it will throw SyntaxError in line 2. 
   
   </details>
   </details>
@@ -1477,7 +1475,7 @@ print(a)
 
 ---
 
-60. Which of the following code will not lead to `SyntaxError` in python?
+60. Which of the following code will not lead to SyntaxError in python?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
