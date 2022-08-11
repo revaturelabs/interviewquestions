@@ -1,12 +1,12 @@
 ## Boolean
 
-1.What is `boolean` data type in python?
+1.What is boolean data type in python?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> The Python `Boolean` type is one of Python's built-in data types.  Boolean is a primitive data type that takes either `true` or `false` values. So anything that returns the value `true` or `false` can be considered as a boolean example. Checking some conditions such as `a==b` or `a<b` or `a>b` can be considered as boolean examples.
+> The Python Boolean type is one of Python's built-in data types.  Boolean is a primitive data type that takes either `true` or `false` values. So anything that returns the value `true` or `false` can be considered as a boolean example. Checking some conditions such as `a==b` or `a<b` or `a>b` can be considered as boolean examples.
   
 </details>
 
@@ -23,18 +23,18 @@ x=truth()
 print(bool(x))
 ```
   
-A. `False`    
-B. `True`    
-C. `pass`    
-D. `error`    
+A. False    
+B. True    
+C. pass    
+D. error    
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option B. `True`
+> Option B. True
   
 <details><summary> <b>Explanation</b> </summary>
   
-> If the `truth` method is not defined,the object is considered true.Hence the output of the code is true.
+> If the truth method is not defined,the object is considered true. Hence, the output of the code is true.
   
   </details>
   </details>
@@ -54,7 +54,7 @@ D. `error`
 
 `bool([x])`
    
-- These are the few cases, in which Python’s `bool()` method returns `false`.Except these all other values return `True`. 
+- These are the few cases, in which Python’s `bool()` method returns `false`. Except these, all other values return `True`. 
 
  - If a False value is passed it will print false.
  - If None is passed it will print false.
@@ -68,7 +68,7 @@ D. `error`
 
 ---
   
-4.Predict the output of the following code?
+4.Predict the output of the following code.
 
 ```python  
 class myclass():
@@ -82,18 +82,18 @@ print(bool(myobj))
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> `False`
+> False
   
 <details><summary> <b>Explanation</b> </summary>
   
-> One more value, or object in this case, evaluates to False, and that is if you have an object that is made from a class with a `__len__` function that returns `0` or `False`.
+> One or more values or objects in this case evaluates to False, that is if you have an object that is made from a class with a __len__ function, it returns 0 or False.
   
   </details>
   </details>
  
 ---
   
-5.Predict the output of the code?
+5.Predict the output of the code.
 
 ```python  
 print(['hello','morning'][bool('')])
@@ -107,7 +107,7 @@ print(['hello','morning'][bool('')])
   
 <details><summary> <b>Explanation</b> </summary>
   
-> The line of code shown above can be simplified to state that 'hello' should be printed if the argument passed to the `boolean` function amounts to zero, else 'morning' will be printed.
+> The line of codes shown above can be simplified that 'hello' should be printed if the argument is passed to the boolean function that amounts to zero. Else 'morning' will be printed.
   
   </details>
   </details>
@@ -129,7 +129,7 @@ print(l2)
   
 <details><summary> <b>Explanation</b> </summary>
   
-> The code shown above `returns` a new list containing only those elements of the list l which do not amount to zero.Then the output is:[1,2,'hello']
+> The code shown above `returns` a new list that contains the elements of the list l which do not amount to zero. And, the output is:[1,2,'hello']
   
   </details>
   </details>
@@ -152,7 +152,7 @@ else:
   
 <details><summary> <b>Explanation</b> </summary>
   
-> If the given number(user input) is divisible by 2 it will print the given number is even number. if it's not it will print the given number is odd.
+> If the given number(user input) is divisible by 2, it will print the given number as even number. Else, it will print the given number as odd.
   
   </details>
   </details>
@@ -164,20 +164,20 @@ else:
 ```python  
 print(not(10>20) and not(10<0))
 ```                                
-A. `True`    
-B. `False`   
-C. `Error`    
+A. True    
+B. False   
+C. Error    
 D. No output    
                                 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)                                
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option A.`True`
+> Option A.True
   
 <details><summary> <b>Explanation</b> </summary>
   
-> The expression not(10>20) returns `False`.The expression not(10<0) returns `False`.The and operation between `false` and false returns `True`.Hence the output is `True`.
+> The expression `not(10>20)` returns `False`. And, the expression `not(10<0`) returns `False`. The `and` operation between `False` and `False` returns `True`. Hence, the output is `True`.
 
   </details>
   </details>
@@ -200,18 +200,13 @@ D. False
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option D.`False`
+> Option D.False
   
-<details><summary> <b>Explanation</b> </summary>
-  
-> In the above program `isinstance()` funtions returns `true`.Because , the specified object is of the specified type, otherwise it returns `False`.
-  
-  </details>
   </details>
 
 ---
   
-10.Predict the output of the following code and give the correct code?
+10.Predict the output of the following code and give the correct code.
   
 ```python  
 def myFunction() :
@@ -233,12 +228,6 @@ print(myFunction())
  
 > True
   
-<details><summary> <b>Explanation</b> </summary>
-  
-> This functions return `True` because we called the function `myfunction()`.
-  
-  </details>
-  
 </details>
  
 ---
@@ -250,13 +239,13 @@ print(myFunction())
 <details><summary> <b>Show Answer</b> </summary>
   <blockquote>
   
-i) A `boolean` can be set to one of only two predefined values, which maps perfectly to what it is used for. You could use an integer as a boolean, but there are many more than two possible integer values. So you'd have to define which integer values should be considered `true` and which should be considered `false`.
+i) A `boolean` can be a set to one of the two predefined values, which maps perfectly to what it is used for. You could use an integer as a boolean, but there are many more than two possible integer values. So you'd have to define which integer values should be considered `True` and which should be considered `False`.
   
-ii) Advantage of the `boolean` retrieval model It is easy to implement.   
+ii) Advantage of the boolean retrieval model is, it is easy to implement.   
   
-iii) It is easy to understand why the document is retrieved or not. Users can determine whether the query is too specific or too broad.    
-    
- </blockquote>
+iii) It is easy to understand whether the document can be retrieved or not. Users can determine whether the query is too specific or too broad.    
+
+    </blockquote>
   </details>  
 
  ---
