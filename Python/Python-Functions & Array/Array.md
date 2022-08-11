@@ -7,7 +7,7 @@
 <details><summary> <b>Show Answer</b> </summary>
   
 > - Dynamic arrays (also known as a growable array, resizable array or mutable array ) offer a big improvement, i.e., automatic resizing. 
-> - An array has a fixed size, so you always have to specify the number of elements your array will hold ahead of time. However, a dynamic array expands as you add more elements to it and you need not determine the size ahead of time.
+> - An array has a fixed size.So,you always have to specify the number of elements your array will hold ahead of time. However, a dynamic array expands as you add more elements to it and you need not determine the size ahead of time.
   
 </details>
   
@@ -192,21 +192,21 @@ print(Remove(duplicate))
 <details><summary> <b>Show Answer</b> </summary>
  <blockquote>
   
- - 1.`append()` Adds an element at the end of the list
+ 1.`append()` Adds an element at the end of the list
   
- - 2.`clear()` Removes all the elements from the list
+ 2.`clear()` Removes all the elements from the list
   
- - 3.`copy()` Returns a copy of the list
+ 3.`copy()` Returns a copy of the list
   
- - 4.`count()` Returns the number of elements with the specified value
+ 4.`count()` Returns the number of elements with the specified value
   
- - 5.`extend()` Add the elements of a list (or any iterable), to the end of the current list
+ 5.`extend()` Add the elements of a list (or any iterable), to the end of the current list
   
- - 6.`index()` Returns the index of the first element with the specified value
+ 6.`index()` Returns the index of the first element with the specified value
   
- - 7.`insert()` Adds an element at the specified position
+ 7.`insert()` Adds an element at the specified position
   
- - 8.`pop()` Removes the element at the specified position  
+ 8.`pop()` Removes the element at the specified position  
   
  </blockquote>
 </details>
