@@ -41,13 +41,13 @@ america.eat()
 </details>
 
 ---
-2. Why inheritance an important concept of OOPs in python?
+2. Why inheritance is an important concept of OOPs in python?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary> 
   
-> The key feature of inheritance is that it provides code re-usability. Means we don't have to create the same code again and again instead we can simply inherit the properties of one class into another and use the functionality of base class to derive own functionlity in child class. 
+> The key feature of inheritance is that it provides code re-usability. Means, we don't have to create the same code again and again instead we can simply inherit the properties of one class into another and use the functionality of base class to derive own functionlity in child class. 
 </details>
 
 ---
@@ -60,7 +60,7 @@ america.eat()
 > There are 5 types of inheritance in python:  
   
 - Single inheritance 
-- Muliple inheritance
+- Multiple inheritance
 - Multilevel inheritance
 - Hierarchical inheritance
 - Hybrid inheritance 
@@ -316,7 +316,7 @@ d) `Department.__init__(Company)`
 </details>
 
 ---
-14.Pick the Odd one out: Which is not a type of inheritance?
+14.Which is not a type of inheritance?
 
 a) Hybrid  
 b) Single-level  
@@ -368,7 +368,7 @@ d) Training Department
 </details>
 
 ---
-16. Predict the output of the following code 
+16. Predict the output of the following code.
 ```python3
 class Company():
     def showName(self):
@@ -470,7 +470,7 @@ d) Error, accessing private class member in subclass can't possible
 </details>
 
 ---
-19. What will be the output of the following code?
+19. What is the output of the following code?
 ```python3
 class Company():
     _name = "Jack"
@@ -502,7 +502,7 @@ d) Error, accessing private class member in subclass can't possible
 </details>
 
 ---
-20. What `super()` do in python? give example.
+20. What `super()` do in python? ive example.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -654,7 +654,7 @@ d) Single Inheritance
 </details>
 
 ---
-26. What error you will get in the below code and how to resolve that error?
+26. What error will be shown if you run the below code and how to resolve that error?
 ```python3
 class A:
     pass
