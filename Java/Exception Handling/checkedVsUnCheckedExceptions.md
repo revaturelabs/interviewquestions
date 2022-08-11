@@ -159,33 +159,8 @@ System.out.println("exception handled");
 
 ---
 
-8:Predict the output of the following code.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
- ``` java   
-import java.io.*;  
-class throws3{  
- void method2()throws IOException{  
-  System.out.println("device operation performed");  
- }  
-}  
-class throws3{  
-   public static void main(String args[])throws IOException{
-     throws3 t=new throws3();  
-     t.method2();  
-  }  
-}  
-```
-<details><summary><b> Show Answer</b></summary>
-	
->device operation performed
-	
-</details>
-
----
-
-9:Differentiate `throw` Vs `throws` statement?
+8:Differentiate `throw` Vs `throws` statement?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -203,7 +178,7 @@ class throws3{
 
 ---
 
-10:Predict the output of the following code.
+9:Predict the output of the following code.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -238,7 +213,7 @@ public class Throw1{
 
 ---
 
-11:Predict the output of the following code.
+10:Predict the output of the following code.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -273,16 +248,11 @@ public class Throws2 {
 
 ---
 
-12:Differentiate final,finally,finalize statements?
+11:Differentiate final,finally,finalize statements?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
-	
->final Vs finally Vs finalize 
-	
-</details>
-<details><summary><b> Explanation</b></summary>
 	
 >- final is the keyword and it is an access modifier which is used to apply restrictions on a class, method or variable.final variable becomes constant and cannot be modified once it is declared.It cannot be overridden by sub class.final class cannot be inherited.It is executed only when we call it.
 >- finally is the block in Exception Handling to execute the important code whether the exception occurs or not.It is always related to the try and catch block in exception handling.finally block cleans up all the resources used in try block.It is executed as soon as the try-catch block is executed.It's execution is not dependant on the exception.
@@ -292,7 +262,7 @@ public class Throws2 {
 
 ---
 
-13:Predict the output of the following code.
+12:Predict the output of the following code.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -322,7 +292,7 @@ public class finalvariable {
 
 ---
 
-14:Predict the output of the following code.
+13:Predict the output of the following code.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -347,12 +317,17 @@ public class finalvariable {
 <details><summary><b> Show Answer</b></summary>
 	
 >Inside try block Exception handled / by zero finally block is executed
-	
+
+<details><summary><b> Explanation</b></summary>
+
+>The finally block gets executed if the exception is occurred or not 
+
+</details>
 </details>
 
 ---
 
-15:Predict the output of the following code.
+14:Predict the output of the following code.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -378,20 +353,20 @@ Hashcode is:3456787673
 garbage collection ended
 The finalize() method called
 ```
-	
+<details><summary><b> Explanation</b></summary>
+
+>finalize method is executed just before the object obj is destroyed.
+
+</details>
 </details>
 
 ---
 
-16:Explain Exception Propagation?
+15:Explain Exception Propagation?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
-	
->Exception Propagation
-	
-<details><summary><b> Explanation</b></summary>
 	
 >An exception is first thrown from the top of the stack and if it is not caught, it drops down the call stack to the previous method. If not caught there, the exception again drops down to the previous method, and so on until they are caught or until they reach the very bottom of the call stack. This is called exception propagation.
 	
@@ -400,7 +375,7 @@ The finalize() method called
 
 ---
 
-17:Predict the output of the following code.
+16:Predict the output of the following code.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -428,17 +403,21 @@ The finalize() method called
 <details><summary><b> Show Answer</b></summary>
 	
 >exception handled normal flow
+
+<details><summary><b> Explanation</b></summary>
+
+>exception occurs in the method1() method where it is not handled, so it is propagated to the previous method2() method where it is not handled, again it is propagated to the method3() method where exception is handled.
 	
+</details>
 </details>
 
 ---
 
-18:Explain Exception Handling with Method Overriding?
+17:Explain Exception Handling with Method Overriding?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>	
-<details><summary><b> Explanation</b></summary>
 	
 >- If the superclass method does not declare an exception, subclass overridden method cannot declare the checked exception but it can declare unchecked exception.
 >- If the superclass method declares an exception, subclass overridden method can declare same, subclass exception or no exception but cannot declare parent exception.
@@ -448,7 +427,7 @@ The finalize() method called
 
 ---
 
-19:Predict the output of the following code.
+18:Predict the output of the following code.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -475,12 +454,16 @@ public class ExceptionChild extends Message{
 ```java
 msg() in ExceptionChild cannot override msg() in Message
 ```
-	
+<details><summary><b> Explanation</b></summary>
+
+>method overriding is not done by the derived class method msg() to the parent class method msg() when it throws a checked exception i.e IOException in exception handling.
+
+</details>
 </details>
 
 ---
 
-20:Predict the output of the following code.
+19:Predict the output of the following code.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -506,7 +489,12 @@ class Child1 extends Parent{
 <details><summary><b> Show Answer</b></summary>
 	
 >child method
-	
+
+<details><summary><b> Explanation</b></summary>
+
+>method overriding can be  done by the derived class method msg() to the parent class method msg() when it throws a unchecked exception i.e ArithmeticException in exception handling.
+
+</details>
 </details>
 
 ---
