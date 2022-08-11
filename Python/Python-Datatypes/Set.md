@@ -152,7 +152,7 @@ else:
 
 ---
 
-7.What are the methods you frequently used when dealing with set in python?
+7.What are the methods you frequently use when dealing with set in python?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
