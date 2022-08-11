@@ -218,7 +218,7 @@ Which allows one thread to wait until another thread completes its execution. wh
 
 <blockquote>
 
--Using the below methods we can remove the starvation.
+- Using the below methods we can remove the starvation.
 
 `Thread.yield()`-when the thread in the process after releasing the lock gets a fair chance to occupy the C.P.U. and can get time to complete its execution till the original thread again gets the control over the C.P.U.
 `Thread.sleep()` -method to given chance to other Threads for execution.
