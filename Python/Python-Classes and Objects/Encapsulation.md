@@ -22,7 +22,7 @@ stu = Student('Rohan', 76)
 print('Marks:', stu.__marks)
 ```
   
-> In the above code, we will get the `"AttributError: 'Student' object as no attribute '__marks'"` because __marks is a private variable and we cannot access private variables directly outside the class. 
+> In the above code, we will get the `"AttributeError: 'Student' object as no attribute __marks,because _marks is a private variable and we cannot access private variables directly outside the class. 
 </details>
 
 ---
@@ -33,7 +33,7 @@ print('Marks:', stu.__marks)
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Consider there are two companies that makes motercycles, one is `Hero` and other one is `Honda`. 
-  Hero company has its own production unit and team, and Honda company also has its own production unit and team. They both are doing well in the market. Now there's a situation arises, where Honda company wants to work with Hero company and wants to access the info of how Hero company production unit works. 
+  Hero company has its own production unit and team, and Honda company also has its own production unit and team. They both are doing well in the market. If there's a situation, where Honda company wants to work with Hero company and wants to access the info of how Hero company production unit works. 
   As Honda company doesn't have the direct access of Hero company, they have to contact some of the higher officials to get the work done. This is what we can say encapsulation in real world is. Here all the datas related to Hero company can be wrapped into a single unit. Hero company will not give permission to anyone outside to access the data, the data has been hiden and secure from the outside world. 
 </details>
 
@@ -41,7 +41,7 @@ print('Marks:', stu.__marks)
 3. Which statement out of the following is best for encapsulation?  
 
 a) It gives ability to a child class to access properties from parent class.  
-b) It has the ability to hide the unwanted complex implementation from the user  
+b) It has the ability to hide the unwanted complex implementation from the user.
 c) It wraps up the data members and member functions of a class in a single unit.  
 d) It gives different meaning to same function in different classes.  
 
@@ -186,7 +186,7 @@ d) Error
 </details>
 
 ---
-8. What is the output of the following code.
+8. What is the output of the following code?
 ```python3
 class Test:
     __num2=30
@@ -234,7 +234,7 @@ d) __repr__ / __str__
 > Option b) 
 <details><summary> <b>Explanation</b> </summary> 
   
-> The motive of using getters and setters functions in a class is to get[return] and set[assign] the private variables of a class. 
+> The motive of using `getters` and `setters`functions in a class is to get[return] and set[assign] the private variables of a class. 
   </details>
 </details>
 
@@ -303,7 +303,7 @@ d) __num4__
 </details>
 
 ---
-13. Predict the output of the following code?
+13. Predict the output of the following code.
 ```python3
 class Apple: 
     def __init__(self):
