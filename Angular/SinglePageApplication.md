@@ -1,2 +1,0 @@
-# Conceputal Quiz
-
