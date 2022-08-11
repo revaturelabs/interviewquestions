@@ -1,11 +1,11 @@
-1. What is the Set Interface and list put the classes that implement it?
+1. What is the `Set` Interface and list out the classes that implements it?
 
 <details>
 
 <summary><b>Show Answer</b></summary>
 
  > Set Interface is used to store unique elements of the same type.
- > Classes that implement Set interface.
+ > Classes that implements `Set` interface.
  > 1. `HashSet`
  > 2. `LinkedHashSet`
  > 3. `TreeSet`
@@ -15,7 +15,7 @@
 
 ---
 
-2. List out basic operations of the set Interface.
+2. List out basic operations of the `Set` Interface.
 
 <details>
 
@@ -148,13 +148,13 @@ D. O(n <sup>2</sup>)
 
 ---
 
-9.  What is EnumSet?
+9.  What is `EnumSet`?
 
 <details>
 <summary><b>Show Answer</b></summary>
 
 <blockquote>
-Java EnumSet class is the special Set implementation for enum types. It inherits AbstractSet class and implements the Set interface.
+Java `EnumSet` class is the special `Set` implementation for enum types. It inherits `AbstractSet` class and implements the `Set` interface.
 
 Features
 
