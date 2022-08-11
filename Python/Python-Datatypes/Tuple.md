@@ -1,13 +1,13 @@
 ## Tuple
 
-1.What is a Tuple? How tuple different from list in python?
+1.What is a Tuple? How tuple is different from list in python?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
  <blockquote>
  
-- `Tuple` is a immutable datatype in python which is used to store elements separated by comma inside parentheses (). To create an empty `tuple` we can use `()` in python. 
+- `Tuple` is an immutable datatype in python which is used to store elements and is separated by comma inside parentheses (). To create an empty `tuple`, we can use `()` in python. 
  
 **Example**: 
  
@@ -15,24 +15,24 @@
  
   ii) `tuple1 = (1, 2, 3)`
 
-- In python, both `list` and `tuple` looks similar as they both can store any type of data in it but there are some difference that makes both of them distinct. Some of the following differences are:
+- In python, both `list` and `tuple` looks similar as they both store any type of data in it but there are some difference that makes both of them distinct. Some of the following differences are:
 
  i) `Lists` in python are mutable, whereas tuples are immutable.
   
- ii) We can use `append()` or `insert()` to add elements to a list, but in `tuple` `append` and `insert` are not present.
+ ii) We can use `append()` or `insert()` to add elements to a list, but in `tuple`, `append` and `insert` are not present.
   
  iii) We can use `pop()` or `remove()` to delete an element from the `list`, but in `tuple` we cannot delete elements.
   
- iv) Use `list` when you have to perform manipulation operations on data such as insertion or deletion. Use tuple when you have frequently access the elements without changing. 
+ iv) Use `list` when you have to perform manipulation operations on data such as insertion or deletion. Use tuple when you have frequent access to the elements without changing. 
   
- v) Using [] brackets we can create `list`. Using `()`, we can create `tuple` in python. 
+ v) Using [] brackets, we can create `list`. Using `()`, we can create `tuple` in python. 
 
 </blockquote>
   </details>
 
 ---
 
-2.What are the built-in methods present in `tuple`?
+2.What are the built-in methods in `tuple`?
  
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -44,20 +44,20 @@
  
  i) `count()` - it returns the count of specified element in tuple.
  
- ii) `index()` - it searches the specified value in a `tuple` and returns the position of that element where it found. 
+ ii) `index()` - it searches the specified value in a `tuple` and returns the position of that element to where it is found. 
 
 </blockquote>
   </details>
 
 ---
 
-3.How to add element to a `Tuple`?
+3.How to add an element to a `Tuple`?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
  
-> We cannot add elements to a `tuple` directly since it is immutable but if we convert the `tuple` to a `list` then we can add element to that list using `append()` or `extend()` method and after adding we can convert that list back to `tuple`. 
+> We cannot add elements to a `tuple` directly since it is immutable. But if we convert the `tuple` to a `list`, we can add element to that list using `append()` or `extend()` method. After adding, we can convert that list back to `tuple`. 
  
 **Example**:
  
@@ -74,14 +74,14 @@ print(type(tuple1))  # output: <class 'tuple'>
  
  ---
  
-4.`Tuple` does not have sort method to sort the elements compared to `List`, then how will you sort the elements of a `tuple` in python?
+4. If `Tuple` does not have sort method to sort the elements compared to `List`, then how will you sort the elements of a `tuple` in python?
  
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
  
 <details><summary> <b>Show Answer</b> </summary>
  <blockquote>
   
-- There are few ways by which we can sort the elements of `tuple`, let's see them 1 by 1. 
+- There are few ways by which we can sort the elements of `tuple`,
 
  ```python
 # Using sorted() method and type conversion 
@@ -109,7 +109,7 @@ print(tuple(lst))  # output: (2, 4, 7, 12, 16, 21, 34)
  
 <details><summary> <b>Show Answer</b> </summary>
   
-> By passing `reverse = True` as argument of `sort()` method, we can sort the elements of a `list`. After that using type conversion we can convert the `list` to `tuple`. 
+> By passing `reverse = True` as argument of `sort()` method, we can sort the elements of a `list`. After that, using type conversion, we can convert the `list` to `tuple`. 
 
 ```python 
 # Code 
@@ -149,7 +149,7 @@ print(t1 + t2)  # output: (12, 4, 7, 21, 34, 2, 16)
  
 <details><summary> <b>Show Answer</b> </summary>
  
-> Using `reverse()` method of `list` and type conversion we can achieve our task. 
+> Using `reverse()` method of `list` and type conversion, we can achieve our task. 
  
 **Example**:
  
@@ -188,14 +188,14 @@ print(tuple1)
  
 <details><summary> <b>Explanation</b> </summary>
   
-> The reason for it is that `Tuple` is immutable in python i.e we cannot change the values of a `tuple`.
+> The reason is `Tuple` is immutable in python i.e we cannot change the values of a `tuple`.
 
  </details>
  </details>
  
  ---
 
-9.Select the correct statements out of following regarding `Tuple`. 
+9.Select the correct statements out of the following regarding `Tuple`. 
  
  A.We can delete the element from a `tuple` but we cannot update elements of the tuple.
  
@@ -243,7 +243,7 @@ print(tuple1)
  
  ---
 
-11.What will be the output of following code?
+11.What is the output of following code?
  
 ```python 
 tuple1 = (10,)
@@ -267,7 +267,7 @@ print(tuple1 * 3)
 
 <details><summary> <b>Explanation</b> </summary>
   
-- We can use `*` operator to repeat the values of `tuple` n number of times.
+- We can use `*` operator to repeat the values of `tuple` as n number of times.
 
  </blockquote>
  </details>
@@ -275,7 +275,7 @@ print(tuple1 * 3)
  
  ---
  
-12.What is the type of follwing code?
+12.What is the type of the following code?
  
  ```python
 tuple1 = ("andro")
@@ -298,7 +298,7 @@ print(type(tuple1))
  
 <details><summary> <b>Explanation</b> </summary>
  
-> The answer of above code is not `tuple` because in python if you have to create a `tuple` of single item only, then you need to add a comma after the item. 
+> The answer of above code is not `tuple` because in python if you have to create a `tuple` of single item, you need to add a comma after the item. 
 > If you missed the comma, the python will treat it as a string type (str class). 
 
  </details>
@@ -337,7 +337,7 @@ print(b)
  
  ---
  
-14.Debug the code and give me a correct code.(To print the third element of the tuple.)
+14.Debug the code and give the correct code.(To print the third element of the tuple.)
 
 ```python 
 tuple=(11, 100, 101, 999, 1001)
