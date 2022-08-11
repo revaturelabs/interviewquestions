@@ -1,5 +1,3 @@
-# Scenario Based Questions
-
 1. How do you pass data between components? or How components can communicate with each other?
 2. How do you transfer data from frontend to backend? 
 3. How do you pass data between template and the business logic?
