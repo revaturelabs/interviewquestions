@@ -31,7 +31,7 @@ d) None of the above
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option is c) if 
+> Option is c) `if` 
 <details><summary> <b>Explanation</b> </summary>
   
 > `for` and `while` are the looping statements in python.
