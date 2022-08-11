@@ -7,7 +7,7 @@
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Abstraction refers to hiding of unnecessary data from the user and showing only the relevant part in order to reduce complexity and increasing the efficiency of program. For example let's take a social media platforms where we share photos, chat, etc., with friends without knowing how all these operations are happening in background.    
+> Abstraction refers to hiding of unnecessary data from the user and showing only the relevant part in order to reduce complexity and increasing the efficiency of program. For example,let's take a social media platforms where we share photos, chat, etc., with friends without knowing how all these operations are happening in background.    
   
 > We can achieve abstraction in python by creating abstract classes in our program. 
   
@@ -80,7 +80,7 @@ d) Abstract classes can have both abstract methods and non-abstract methods.
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> We can create classes which have some methods without definition directly in python but, these classes are not called as abstract base class because python doesn't have default implementation of abstract classes. And there is no such keyword as abstract through which we can create a abstract class or method. To create a abstract class in python, we have to import `abc` module which provides the way to create abstract class which can have abstract and non abstract methods both. 
+> We can create classes which have some methods without definition directly in python but, these classes are not called as abstract base class because python doesn't have default implementation of abstract classes. And there is no such keyword as abstract through which we can create a abstract class or method. To create a abstract class in python, we have to import `abc` module which provides the way to create abstract class which can have abstract and non abstract methods. 
 </details>
 
 ---
@@ -115,7 +115,7 @@ d) Nothing is printed
 > option b) 
 <details><summary> <b>Explanation</b> </summary>
   
-> Derived class called its own method path() so, statement inside path() method is executed and hence we got the output as "60 km away from NY".
+> Derived class called its own method path() so, statement inside path() method is executed.Hence, we got the output as "60 km away from NY".
   </details>
 </details>
 
@@ -222,7 +222,7 @@ d) Nothing is printed
 > Option c)
 <details><summary> <b>Explanation</b> </summary>
   
-> We will get the ```TypeError: Can't instantiate abstract class Derived with abstract methods path```. This is because we have not provided any implementation to path() method of Abstract class in Derived class, therefore Derived class also becomes abstract class. 
+> We will get the ```TypeError: Can't instantiate abstract class Derived with abstract methods path```. This is because we have not provided any implementation to path() method of Abstract class in Derived class.Therefore, derived class also becomes abstract class. 
   </details>
 </details>
 
@@ -259,7 +259,7 @@ d) Nothing is printed
 > Option d)
 <details><summary> <b>Explanation</b> </summary>
   
-> The path() method of Derived class has implemented the path() method of Abstract class by just providing it `pass` statement in the method definition. `pass` is a null statement is python so, nothing is printed in the console [output screen].
+> The path() method of Derived class has implemented the path() method of Abstract class by just providing it `pass` statement in the method definition. `pass` is a null statement in python so, nothing is printed in the console [output screen].
   </details>
 </details>
 
