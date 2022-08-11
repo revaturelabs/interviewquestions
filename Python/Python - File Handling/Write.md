@@ -214,7 +214,7 @@ file.write('Hello World!\n')
 file.close()
 ```
 
-    </blockquote>
+ 
 </details>
 
 ---
