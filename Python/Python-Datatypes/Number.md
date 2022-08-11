@@ -102,17 +102,16 @@ print("type of data",type(a))
 
 7.How will you get inupt from user?
 
-<blockquote>
-
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
+  <blockquote>
   
 - In python we can use `input()` function to take input from user.But,it will differs when it comes to another data type like String. In that case we can use `int(input())` to take input as a integer from user.
   
-1.integer input - int(input())
+1.integer input - `int(input())`
   
-2.String input - input()
+2.String input - `input()`
   
 **Example**:
   
@@ -169,8 +168,7 @@ x=10.4  #float
 ```python  
 x=2j  #complex
 ```
-  
- </blockquote>   
+    
 </details>
 
 ---
@@ -206,6 +204,7 @@ print(type(x))
   ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
+  <blockquote>
   
 ```python
 a=int(input())
@@ -244,7 +243,7 @@ Exponent 81
 
 <details><summary> <b>Explanation</b> </summary>
   
-> In this program to perform an arithmetic operations, first we declared a two variables to store an values and then we performed arithmetic operations like +,-,*,%,etc...
+- In this program to perform an arithmetic operations, first we declared a two variables to store an values and then we performed arithmetic operations like +,-,*,%,etc...
   
   </details>
   </details>
@@ -279,19 +278,19 @@ type(a)
 print( (1.1 + 2.2) == 3.3 )
 ```
   
-A.True
+A.`True`
   
-B.False
+B.`False`
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option B.False
+> Option B.`False`
   
 <details><summary> <b>Explanation</b> </summary>
   
-> (1.1 + 2.2) it is not equal to 3.3, it is 3.3000000000000003.Use the round() function to compare exact values.
+> (1.1 + 2.2) it is not equal to 3.3, it is 3.3000000000000003.Use the `round()` function to compare exact values.
   
 **Example**:
 
@@ -413,16 +412,17 @@ print(type(0xFF))
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)  
   
 <details><summary> <b>Show Answer</b> </summary>
+  <blockquote>
   
-> Option D.int
+- Option D.int
   
 <details><summary> <b>Explanation</b> </summary>
   
-> We can represent a integers in binary,octal and hexadecimal formats.
+- We can represent a integers in binary,octal and hexadecimal formats.
   
-> - 0b or 0B for Binary and base is 2
-> - 0o or 0O for Octal and base is 8
-> - 0x or 0X for Hexadecimal and base is 16
+ - 0b or 0B for Binary and base is 2
+ - 0o or 0O for Octal and base is 8
+ - 0x or 0X for Hexadecimal and base is 16
   
   </details>
   </details>
@@ -470,7 +470,7 @@ The data type of the variable <class 'int'>
   
 <details><summary> <b>Show Answer</b> </summary>
   
-> Option C.range
+> Option C.`range`
   
 <details><summary> <b>Explanation</b> </summary>
   
@@ -487,7 +487,7 @@ The data type of the variable <class 'int'>
    
 <details><summary> <b>Show Answer</b> </summary>
   
-> Float value can be converted to an integer value by calling  int() funtion.
+> Float value can be converted to an integer value by calling  `int()` funtion.
   
 **Example**:
   
@@ -508,7 +508,7 @@ print(type(a1))
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Numeric values can be converted into complex numbers with **complex()** function. 
+> Numeric values can be converted into complex numbers with `complex()` function. 
   
 **Example**:
   
@@ -525,7 +525,7 @@ print(complex(a))
   
 <details><summary> <b>Explanation</b> </summary>
 
-> To convert real numbers into complex numbers we can use **complex()** method.
+> To convert real numbers into complex numbers we can use `complex()` method.
   
 </details>
  </details>
