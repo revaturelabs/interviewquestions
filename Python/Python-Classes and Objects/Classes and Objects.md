@@ -20,10 +20,10 @@
 <details><summary> <b>Show Answer</b> </summary>
   
 > There are many reasons why one should go for programming languages that supports OOPs concepts like Python. Some of the reasons are: 
-- Problems can be divided into different parts making it simple to solve. 
-- Code reusibility increases thereby reducing redundancy.
-- Functions implementations will be hidden by user, making it more simpler to understand. For example, we can directly use the append() method of a list to add an item without knowing how append() method works internally. 
-- OOPs ensures Data Safety as well. 
+> - Problems can be divided into different parts making it simple to solve. 
+> - Code reusibility increases thereby reducing redundancy.
+> - Functions implementations will be hidden by user, making it more simpler to understand. For example, we can directly use the append() method of a list to add an item without knowing how append() method works internally. 
+> - OOPs ensures Data Safety as well. 
 </details> 
 
 ---
