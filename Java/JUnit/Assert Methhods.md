@@ -8,7 +8,8 @@
 
 >- It is to compare the actual result and excepcted result to evaluate whether the executed testcase is 
   pass or fail.
-  ![Capture 3.PNG]
+  <img width="708" alt="Capture2" src="https://user-images.githubusercontent.com/92523245/184349147-a2fcf3a9-99c8-4e43-b247-f8f968f307fe.PNG">
+
 >- All assertion methods are avaialable in JUnit `assert` class.So we need to import assert class in 
   JUnit as below. 
 
