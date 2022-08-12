@@ -77,10 +77,7 @@
 | Private                                              |Protected                                             |
 |------------------------------------------------------|------------------------------------------------------|
 |The visibility is only within the class               |The visibility is only within the class and subcalsses|
-|                                                      |                                                      |  
-|We can use public method to access private variable   |We can use public method to access protected variable |
-|and private method out side of class                  |and proctected variable out side of class and subclass|
-
+|We can use public method to access private variable and private method out side of class   |We can use public method to access protected variable and proctected variable out side of class and subclass |
 </details>
 
 ---
