@@ -4,7 +4,8 @@
 
 <details><summary><b> Show Answer</b></summary>
 
-Design Pattern are used to create a class for which only a single instance or object should be created and that single object can be used by all other classes.It promotes reusability that leads to more robust and highly maintainable code. It makes our code easy to understand and debug. It leads to faster development and can be easily understandable.
+Design patterns are a toolkit of tried and tested solutions to common problems in software design. Even if you never encounter these problems, knowing patterns is still useful because it teaches you how to solve all sorts of problems using principles of object-oriented design.
+
 
 </details>
 
