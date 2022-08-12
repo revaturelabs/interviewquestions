@@ -185,7 +185,7 @@ d) none of the above
 
 <details><summary> <b>Show Answer</b> </summary>
   
-> Python is an Interpreted language because it checks the code line by line and not all together. For example, suppose there are 2 errors in the code, one in line 3 and other in line 4. When you execute the code, it will throw error in line 3 of console( output screen) but not in line 4,beacause it checks the code one line at a time. 
+> Python is an Interpreted language because it checks the code line by line and not all together. For example, suppose there are 2 errors in the code, one in line 3 and other in line 4. When you execute the code, it will throw error in line 3 of console( output screen) but not in line 4,because it checks the code one line at a time. 
 </details>
 
 ---
