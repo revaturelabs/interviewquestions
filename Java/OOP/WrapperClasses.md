@@ -74,7 +74,12 @@
   // Unboxing
   int j = i;
   ``` 
+<blockquote>
+  
+ - This is only possible from jdk 1.5 onwards not before that.
+The automatic conversion of primitive data types into its equivalent Wrapper type is known as boxing and opposite operation is known as unboxing. This is the new feature of Java5. So java programmer doesn't need to write the conversion code.
 
+</blockquote>
 
 </details>
 
@@ -87,6 +92,7 @@
 <summary><b>Show Answer</b></summary>
   
  > Yes, wrapper classes are immutable.
+ > Immutable class in java means that once an object is created, we cannot change its content. In Java, primitive wrapper classes (Integer, Byte, Long, Float, Double, Character, Boolean, Short) and String class is immutable, so operations like addition and subtraction create a new object and not modify the old. 
  > wrapper classes are used to store data in collections and as a developer one doesn't wish that all the values in a collection are changed just because a primitive value is changed. 
  
   
@@ -103,7 +109,7 @@
   
 <summary><b>Show Answer</b></summary>
   
-> when a wrapper class is created the primitive data type is stored as a field in the wrapper class and an object reference is created.
+> Primitive data type is stored as a field in the wrapper class and an object reference is created, there are multiple methods provided by wrapper classs 
 </details>
 
 
