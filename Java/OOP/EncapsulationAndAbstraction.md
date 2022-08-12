@@ -61,10 +61,14 @@ public class ATM {
 
 <details> <summary><b>Show Answer</b></summary>
     
-> Abstraction is hiding the fields and methods of a class or interface by extending or implementing them using a different class.
+> Data abstraction is the process of hiding certain details and showing only essential information to the user.
 > In java Abstraction can be achieved in two ways   
-> 1. By creating an abstract class with abstract methods.
-> 2. By creating an interface with abstract methods.
+> 1. By creating an abstract class with abstract methods. (0 to 100%)
+> 2. By creating an interface with abstract methods.(100%)
+> The abstract keyword is a non-access modifier, used for classes and methods.
+> Abstraction lets you focus on what the object does instead of how it does it.
+
+
 
 </details>
 
@@ -94,15 +98,20 @@ public class ATM {
 
 <details> <summary><b>Show Answer</b></summary>
     
-> 1. Encapsulation is used to implement data binding and data hiding.
-> 2. Encapsulation allows code reusability.
-> 3. It is used to maintain data security by restricting access to only the non-private members of the class.
+| **#** | ** Abstract Class**                                                                          | ** Interface**                                                                     |
+| ----- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| 1     |  An abstract class can extend only one class or one abstract class at a time                 |  An interface can extend any number of interfaces at a time                        |
+| 2     |   An abstract class can extend another concrete (regular) class or abstract class            |  An interface can only extend another interface                                    |
+| 3     |  An abstract class can have both abstract and concrete methods                               |  An interface can have only abstract methods                                       |
+| 4     |  In abstract class keyword “abstract” is mandatory to declare a method as an abstract        |  In an interface keyword “abstract” is optional to declare a method as an abstract |
+| 5     |  An abstract class can have protected and public abstract methods                            |  An interface can have only have public abstract methods                           |
+| 6     |  An abstract class can have static, final or static final variable with any access specifier |  interface can only have public static final (constant) variable                   |
 
 </details>
 
 ---
 
-5. What are the members of an abstract class?
+5. What members are allowed in an abstract class?
 
 <details> <summary><b>Show Answer</b></summary>
     
@@ -164,7 +173,7 @@ C
     
 <details><summary><b>Explanation</b></summary>
 
-> Vending machine is a class with items as fields and functions as methods combined into a single unit.
+> We can consider vending machine as class with dispensable items as fields and dispense operation as methods combined as a single unit.
     
 </details>
 
@@ -206,7 +215,7 @@ abstract public class Audi implements Car{
 
 <details><summary><b>Explanation</b></summary>
 
-> an abstract class can have a main method.
+
 > it is not mandatory for an abstract class to implement all the methods of an interface.
     
 </details>
