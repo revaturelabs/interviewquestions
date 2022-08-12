@@ -11,6 +11,8 @@
 
 </details>
 
+---
+
 2. What is the difference between HashMap and Hashtable?
 
 <details>
@@ -31,7 +33,7 @@ HashMap and Hashtable both are used to store data in key and value form. Both ar
 | 08. |HashMap inherits AbstractMap class.  |Hashtable inherits Dictionary class.              |
 </details>
 
-
+---
 3. What is the difference between `HashMap` and `TreeMap`?
 
 <details>
@@ -55,7 +57,7 @@ Java `HashMap` and `TreeMap` both are classes of the Java Collections framework.
 |The HashMap should be used when we do not require key-value pair in sorted order.| The TreeMap should be used when we require key-value pair in sorted (ascending) order.|
 
 </details>
-
+---
 4. What happens when you try to add a key-value pair to an existing key in `HasMap`?
 
 <details>
@@ -88,7 +90,8 @@ public class ExistingKey {
 
 
 </details>
-
+    
+---
 5. How to avoid overriding the existing value of a key by adding the key-value pair to the HashMap?
 
 <details>
@@ -136,7 +139,8 @@ public class ExistingKey {
 </blockquote>
 </details>
 
-
+---
+    
 ## Problem Solving
 
 1. Create a map in which each key has multiple values(Multimap).
@@ -173,6 +177,8 @@ public class MultiMap {
 
 </details>
 
+ ---
+
 2. How to convert a `Map` of random order into a sorted  `Map`.
 
 <details>
@@ -208,6 +214,8 @@ public class OrderedMap {
 
 
 </details>
+    
+  ---
 
 3. Write a program to order the `HashMap` below code based on the value?
 
@@ -247,6 +255,8 @@ public class ValueOrder {
 
 </details>
 </details>
+    
+---
 
 4. Given a String print the frequency of each word in the list using a HashMap.
 
@@ -294,6 +304,8 @@ public class DistinctWords {
 </blockquote>
 </details>
 </details>
+    
+---
 
 5. Write a program to check if a `Map` is a sub-map of another `Map`.
 <details>
@@ -333,6 +345,8 @@ public class SubMap {
 
 
 </details>
+    
+---
 
 6. Write a program to get the common keys of two Maps.
 
@@ -374,6 +388,8 @@ public class CommonKeys {
 </details>
 
 </details>
+    
+ ---
 
 7. Consider that a company stores the details of the employee as a key-value pair of employee names and managers, and writes a program to get only the details of non-managers.
 
@@ -415,6 +431,9 @@ public class Employee {
 </blockquote>
 </details>
 </details>
+    
+    
+---
 
 8. Write a program to print all the keys of a `Map`.
 
@@ -448,6 +467,8 @@ public class Employee {
 </blockquote>
 </details>
 </details>
+    
+---
 
 9. Write a program to print all the values of a `Map`.
 
@@ -481,6 +502,8 @@ public class Employee {
 </blockquote>
 </details>
 </details>
+    
+ ---
 
 10. Write a program to print all the key-value pairs of a `Map`.
 
