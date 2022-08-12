@@ -57,6 +57,7 @@ Java `HashMap` and `TreeMap` both are classes of the Java Collections framework.
 |The HashMap should be used when we do not require key-value pair in sorted order.| The TreeMap should be used when we require key-value pair in sorted (ascending) order.|
 
 </details>
+
 ---
 4. What happens when you try to add a key-value pair to an existing key in `HasMap`?
 
