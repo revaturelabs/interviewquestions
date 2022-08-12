@@ -1,7 +1,5 @@
 # Angular Topics
 
-# Angular Topics
-
 - Single Page Application
 - Angular CLI
 - Webpack
