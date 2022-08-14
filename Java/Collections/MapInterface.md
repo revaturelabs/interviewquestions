@@ -4,8 +4,8 @@
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-- Map is an object that stores key and value pairs.
-- Map doesn't store duplicate values and one key can have at most one value
+- `Map` is an object that stores key and value pairs.
+- `Map` doesn't store duplicate values and one key can have at most one value
 
 </blockquote>
 
@@ -27,10 +27,9 @@ HashMap and Hashtable both are used to store data in key and value form. Both ar
 | 02. |HashMap allows one null key and multiple null values.|Hashtable doesn't allow any null key or value.|
 | 03. |HashMap is a new class introduced in JDK 1.2.|Hashtable is a legacy class.|
 | 04. |HashMap is fast.       |Hashtable is slow.|
-| 05. |We can make the HashMap synchronized by calling this code Map m = Collections.synchronizedMap(hashMap);|Hashtable is internally synchronized and can't be unsynchronized.|
-| 06. |HashMap is traversed by Iterator.    |Hashtable is traversed by Enumerator and Iterator.|
-| 07. |Iterator in HashMap is fail-fast.    |Enumerator in Hashtable is not fail-fast.         |
-| 08. |HashMap inherits AbstractMap class.  |Hashtable inherits Dictionary class.              |
+| 05. |HashMap is traversed by Iterator.    |Hashtable is traversed by Enumerator and Iterator.|
+| 06. |HashMap<K, V> hm = new HashMap<K, V>() |Hashtable<K, V> ht = new Hashtable<K, V>()|
+
 </details>
 
 ---
@@ -45,21 +44,21 @@ Java `HashMap` and `TreeMap` both are classes of the Java Collections framework.
 
 |HashMap                           |TreeMap                           |
 |----------------------------------|----------------------------------|
-|Java HashMap is a hashtable-based implementation of Map interface.|Java TreeMap is a Tree structure-based implementation of Map interface.|
-|HashMap implements Map, Cloneable, and Serializable interface.|TreeMap implements NavigableMap, Cloneable, and Serializable interface.|
-|HashMap allows a single null key and multiple null values.|TreeMap does not allow null keys but can have multiple null values.|
-|HashMap allows heterogeneous elements because it does not perform sorting on keys.|TreeMap allows homogeneous values as a key because of sorting.|
-|HashMap is faster than TreeMap because it provides constant-time performance that is O(1) for the basic operations like get() and put().|TreeMap is slow in comparison to HashMap because it provides the performance of O(log(n)) for most operations like add(), remove() and contains().|
-|The HashMap class uses the `HashTable`.    |`TreeMap` internally uses a Red-Black tree, which is a self-balancing Binary Search Tree.|
-|It uses the equals() method of the Object class to compare keys. The equals() method of the Map class overrides it.|It uses the compareTo() method to compare keys.|
-|HashMap class contains only basic functions like get(), put(), KeySet(), etc. .|TreeMap class is rich in functionality, because it contains functions like: tailMap(), firstKey(), lastKey(), pollFirstEntry(), pollLastEntry().|
+|Java `HashMap` is a hashtable-based implementation of Map interface.|Java `TreeMap` is a Tree structure-based implementation of `Map` interface.|
+|`HashMap` implements `Map`, Cloneable, and Serializable interface.|`TreeMap` implements NavigableMap, Cloneable, and Serializable interface.|
+|`HashMap` allows a single null key and multiple null values.|`TreeMap` does not allow null keys but can have multiple null values.|
+|`HashMap` allows heterogeneous elements because it does not perform sorting on keys.|`TreeMap` allows homogeneous values as a key because of sorting.|
+|`HashMap` is faster than TreeMap because it provides constant-time performance that is O(1) for the basic operations like `get()` and `put()`.|`TreeMap` is slow in comparison to `HashMap` because it provides the performance of O(log(n)) for most operations like `add()`, `remove()` and `contains()`.|
+|The `HashMap` class uses the `HashTable`.    |`TreeMap` internally uses a Red-Black tree, which is a self-balancing Binary Search Tree.|
+|It uses the `equals()` method of the Object class to compare keys. The `equals()` method of the Map class overrides it.|It uses the `compareTo()` method to compare keys.|
+|`HashMap` class contains only basic functions like `get()`, `put()`, `KeySet()`, etc. .|`TreeMap class` is rich in functionality, because it contains functions like: `tailMap()`, `firstKey()`, `lastKey()`, `pollFirstEntry()`,`pollLastEntry()`.|
 |Order of elements  HashMap does not maintain any order.|The elements are sorted in natural order (ascending).|
 |The HashMap should be used when we do not require key-value pair in sorted order.| The TreeMap should be used when we require key-value pair in sorted (ascending) order.|
 
 </details>
 
 ---
-4. What happens when you try to add a key-value pair to an existing key in `HasMap`?
+4. What happens when you try to add a key-value pair to an existing key in `HashMap`?
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -93,7 +92,7 @@ public class ExistingKey {
 </details>
     
 ---
-5. How to avoid overriding the existing value of a key by adding the key-value pair to the HashMap?
+5. How to avoid overriding the existing value of a key by adding the key-value pair to the `HashMap`?
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -126,7 +125,7 @@ public class ExistingKey {
     
   ---
 
-6. List out the different Collection views.
+6. List out the different methods to iterate over a `Map`.
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -146,7 +145,7 @@ public class ExistingKey {
     
 ## Problem Solving
 
-1. Create a map in which each key has multiple values(Multimap).
+1. Create a map in which each key has multiple values.
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -261,7 +260,7 @@ public class ValueOrder {
     
 ---
 
-4. Given a String print the frequency of each word in the list using a HashMap.
+4. Given a Sentence, print the frequency of each word in the list using a `HashMap`.
 
 <details>
 
@@ -424,7 +423,7 @@ public class Employee {
 <summary><b>Explanation</b></summary>
 <blockquote>
 
-- Employees contain employees as key and managers as value
+- Employees contain employee name as key and manager name as value
 - a `HashSet` is created with all the employee names
 - from the hash set all the manager names are removed by get the manager names from `Employee.values()`.
 - `removeAll()` method deletes all the values from the list that are present in a specific collection.
@@ -553,14 +552,13 @@ B. `HashMap` with Aadhar number key and age as value .<br>
 C. `TreeMap` with age as key and Aadhar number as value but ordered by key.<br>
 B. `HashMap` with age as key and Aadhar number as value.<br>
 
-
 <details>
-
-<summary><br> Show Answer</br></summary>
+<summary><b>Show Answer</b></summary>
 
 > A
+    
 <details>
-<summary><br> Explanation </br></summary>
+<summary><b>Explanation</b></summary>
 
 > `TreeMap` orders elements in a certain order and many people can be of the same age but everyone has a unique Aadhar number and by ordering them in descending order the people with high age will come first in the list.
 
