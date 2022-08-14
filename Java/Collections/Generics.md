@@ -220,11 +220,12 @@ class Main {
     }
 }
 ```
+ </blockquote>
 <details><summary> Explanation </summary>
 
 <blockquote>
 
- used `< >` to specify Parameter type and an object of type `T` is declared. By creating an instance of String type to display the mentioned message.
+ - used `< >` to specify Parameter type and an object of type `T` is declared. By creating an instance of String type to display the mentioned message.
 
 </blockquote>
 
@@ -258,6 +259,8 @@ class Test {
     }
 }
 ```
+
+ </blockquote>
 <details><summary> Explanation </summary>
 
 <blockquote>
