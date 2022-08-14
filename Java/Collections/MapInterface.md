@@ -1,5 +1,7 @@
 1. What is Map Interface?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details>
 <summary><b>Show Answer</b></summary>
 <blockquote>
@@ -14,6 +16,8 @@
 ---
 
 2. What is the difference between HashMap and Hashtable?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
 
@@ -34,6 +38,8 @@ HashMap and Hashtable both are used to store data in key and value form. Both ar
 
 ---
 3. What is the difference between `HashMap` and `TreeMap`?
+    
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
 
@@ -59,6 +65,8 @@ Java `HashMap` and `TreeMap` both are classes of the Java Collections framework.
 
 ---
 4. What happens when you try to add a key-value pair to an existing key in `HashMap`?
+    
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -93,6 +101,10 @@ public class ExistingKey {
     
 ---
 5. How to avoid overriding the existing value of a key by adding the key-value pair to the `HashMap`?
+    
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -126,6 +138,10 @@ public class ExistingKey {
   ---
 
 6. List out the different methods to iterate over a `Map`.
+    
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -146,6 +162,10 @@ public class ExistingKey {
 ## Problem Solving
 
 1. Create a map in which each key has multiple values.
+    
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -182,6 +202,10 @@ public class MultiMap {
  ---
 
 2. How to convert a `Map` of random order into a sorted  `Map`.
+    
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -219,7 +243,10 @@ public class OrderedMap {
     
   ---
 
-3. Write a program to order the `HashMap` below code based on the value?
+3. Write a program to order the `HashMap`based on the value?
+    
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -261,6 +288,8 @@ public class ValueOrder {
 ---
 
 4. Given a Sentence, print the frequency of each word in the list using a `HashMap`.
+    
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details>
 
@@ -310,6 +339,10 @@ public class DistinctWords {
 ---
 
 5. Write a program to check if a `Map` is a sub-map of another `Map`.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
 <details>
 
 <summary><b>Show Answer</b></summary>
@@ -351,6 +384,10 @@ public class SubMap {
 ---
 
 6. Write a program to get the common keys of two Maps.
+    
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -394,6 +431,9 @@ public class CommonKeys {
  ---
 
 7. Consider that a company stores the details of the employee as a key-value pair of employee names and managers, and writes a program to get only the details of non-managers.
+    
+    
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -438,6 +478,8 @@ public class Employee {
 ---
 
 8. Write a program to print all the keys of a `Map`.
+    
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -473,6 +515,8 @@ public class Employee {
 ---
 
 9. Write a program to print all the values of a `Map`.
+    
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -508,6 +552,8 @@ public class Employee {
  ---
 
 10. Write a program to print all the key-value pairs of a `Map`.
+    
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -546,6 +592,8 @@ public class Employee {
 ## Scenario Based
 
 1. Consider that a country stores its citizen's data in a form of Aadhar number and age, a deadly virus outbreak led to a global shutdown and the country wants to vaccinate the older people first as they get easily infected by the virus. Which of the following best represents the scenario?
+    
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 A. `TreeMap` with Aadhar number as key and age as value but ordered by value in descending order.<br>
 B. `HashMap` with Aadhar number key and age as value .<br>
