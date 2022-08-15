@@ -2,13 +2,23 @@
 
 1. Do inner classes have access to private members of the outer class?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
+
 <details><summary>Show Answer</summary>
 
 > Yes, inner classes have access to all the members of the outer class including private members of the class.
 	
 </details>
 
+---
+ 
 2. What are the uses of nested classes?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
 
 - A. grouping interrelated classes.
 - B. achieving encapsulation
@@ -21,7 +31,13 @@
 > D		
 </details>
 
+---
+
 3. What is Anonymous Inner class?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -29,7 +45,13 @@
 
 </details>
 
+---
+
 4. What is Lambda?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -37,9 +59,13 @@
 </details>
 
 
-
+---
 
 5. When do we use Anonymous Inner class?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -47,7 +73,13 @@
 
 </details>
 
+---
+
 6. Differentiate static nested class and Inner class?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -57,15 +89,22 @@
 | A static nested class can’t access the members of the enclosing class directly, an object reference is used to access the members of the enclosing class. | An inner class can directly access all the fields and methods of the enclosed class even if they are private |
 </details>
 
+---
+
 7. What is the internal working of the anonymous inner class and how is it different from the normal inner class?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 <details><summary><b>Show Answer</b></summary>
 
 > Anonymous inner class is an inner class with a single instance so an inner class is created by JVM with the name "outerclass$number". 
 
 </details>
 
+---
 
 8. What is the Internal working of lambda?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 <details><summary><b>Show Answer</b></summary>
 
 > lambda is not an inner class, when the lambda expression is used a private static class with an object return type and Object parameter is created to implement the functional interface.
@@ -75,6 +114,10 @@
 
 # problem-Solving
  1. What is the output of the following code?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
 
  ``` java
  public class Main {
@@ -124,7 +167,13 @@
 
 </details>
 
+---
+
 2. What is the error in the following code?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
 
 ``` java 
 interface Shape{
@@ -152,7 +201,13 @@ public class Circle{
 
 </details>
 
+---
+
 3. What is the output of the following code?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
 
 ``` java
 
@@ -198,8 +253,12 @@ public class Circle{
 </details>
 
 
-
+---
 4. what is the output of the following code?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
 
 ``` java 
 interface Shape{
@@ -242,7 +301,13 @@ public class Circle{
 
 </details>
 
+---
+
 5. What is the output of the following code?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
 
 ``` java
 public class Circle{
@@ -285,6 +350,10 @@ I am a circle
 
 1. Apple launched a new iPhone named iPhone 14 with new features, and it has 3 models, iPhone 14 basic, iPhone 14 pro and iPhone 14 pro max and iPhone 14 mini, which implementation is better for this scenario?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
+
 - A. an interface iPhone with class iPhone 14 and 4 classes for four models that inherit iPhone 14.
 - B. a class iPhone 14 and inner class for each model.
 - C. individual classes for every model.
@@ -299,8 +368,13 @@ since all the iPhone models are part of iphone14 they can be nested under the cl
 </details>
 </details>
 
+---
 
 2. A DigitalThermometer needs to be configured only once and after that initial configuration, it'll detect the temperature perfectly. Which implementation is better for this scenario?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
 
 - A. DigitalThermometer class which inherits and overrides the methods of Configuration Class.
 - B. DigitalThermometer class which inherits and overrides the methods of the Configuration interface.
