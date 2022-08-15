@@ -14,6 +14,13 @@
 - C. create code that is easy to read and maintain
 - D. All of the above.
 
+<details>
+<summary><b>Show Answer</b><summary>
+> D
+	
+	
+</details>
+
 3. What is Anonymous Inner class?
 
 <details><summary><b>Show Answer</b></summary>
