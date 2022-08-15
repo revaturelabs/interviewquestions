@@ -19,8 +19,12 @@ public class Game {
 ```
 
 <details><summary><b>Show Answer</b></summary>
+	
+<blockquote>
 
  The above code creates a compile-time error, The object "g" is declared but not initialized, and It is not possible to use an object of a class without Initializing it.
+	
+</blockquote>
 
 </details>
 
@@ -34,8 +38,10 @@ public class Child extends Parent, Grandparent{
 }
 ```
 <details><summary><b>Show Answer</b></summary>
+<blockquote>
 
  compilation error is caused because a class can extend only one parent class.
+</blockquote>
 
 </details>
 
@@ -53,8 +59,12 @@ private class Main{
 
 <details><summary><b>Show Answer</b></summary>
 
+<blockquote>
+
 compilation error is caused because a class can be public, abstract and final but not private unless it's a nested class.
 
+</blockquote>
+	
 </details>
 
 
@@ -70,9 +80,13 @@ compilation error is caused because a class can be public, abstract and final bu
 
 <details><summary><b>Show Answer</b></summary>
 
- C
+ > C
 	
-<details><summary><b>Explanation:</b></summary> classes and interfces can not be declared private, nested classes can be declared private.
+<details><summary><b>Explanation</b></summary>
+	
+<blockquote>
+classes and interfces can not be declared private, nested classes can be declared private.
+</blockquote>
 
 </details>
 </details>
@@ -86,8 +100,9 @@ compilation error is caused because a class can be public, abstract and final bu
 - B. parameters: list of variables in the method declaration.
      Arguments:  Values that are passed when a method is invoked.
      
-<details><summary><b>Show Answer</b></summary>    
- A 
+<details><summary><b>Show Answer</b></summary> 
+	
+ > A 
 </details>
 
 ---
@@ -101,9 +116,13 @@ compilation error is caused because a class can be public, abstract and final bu
 
 <details><summary><b>Show Answer</b></summary>
 
-C
+> C
 	
-<details><summary><b>Explanation:</b></summary> The default constructor of any class calls the no-arg constructor of the superclass, So, java provides an implicit super class "Object" which has a default constructor.
+<details><summary><b>Explanation</b></summary> 
+	
+<blockquote>
+The default constructor of any class calls the no-arg constructor of the superclass, So, java provides an implicit super class "Object" which has a default constructor.
+	</blockquote>
 
 </details>
 </details>
@@ -114,13 +133,14 @@ C
 
 <details><summary><b>Show Answer</b></summary>
 	
-
+<blockquote>
 	
 - Modularity: the source code for every object can be maintained independently and once an object is created it can be easily propagated inside the system.
 - Information hiding: since an object is used to implement methods, the internal working of the class can be hidden using an object.
 - Code - reusability:  once an object is created, it can be reused anywhere in the program.
 - Pluggability and debugging: if an existing object fails to satisfy the requirements of the developer or causes any abnormality in the code, it can be 
 	  deleted.
+</blockquote>
 	
 </details>
 
@@ -136,16 +156,18 @@ C
 
 <details> <summary><b>Show answer</b></summary>
 
- A
+ > A
 	
-<details><summary><b>Explanation:</b></summary>
+<details><summary><b>Explanation</b></summary>
+
+<blockquote>
 	
 - final: variables in an interface are accessed by many classes and its not ideal, if any of the classes appends the value of the variable. to avoid this
 	 variables are declared final.
 - public: interfaces are accessed by any class present in any package, so to support this all variables are declared public.
 - static: interface itself can't be initialized, so objects of a class are used to access variables, but if a class is imcomplete, an object cant be created.
 	   All variables are static so that they can be accessed without an object.
-	
+</blockquote>
 
 </details>
 </details>
@@ -174,7 +196,8 @@ d. Used to create more than one instance of a class, and to add new fields and m
 
 <details>
 	<summary><b>Show Answer</b></summary>
-	C
+	
+> C
 
 </details>
 
@@ -202,8 +225,10 @@ s=null;
 ```
 
 <details><summary><b>Show Answer</b></summary>
+<blockquote>
 	
 one reference will be left after executing the code snippet(arr[0]--> s).
+</blockquote>
 
 </details>
 
@@ -234,12 +259,15 @@ D. Object for Class Audi is created and it's refrence is assigned to the Interfa
 
 <details><summary><b>Show Answer</b></summary>
 
-D
+> D
 
 <details><summary><b>Explanation</b></summary>
-
-> It is not possible to create an object for interface, an Object can be created only for classes and the reference can be assigned to an interface.
 	
+<blockquote>
+
+It is not possible to create an object for interface, an Object can be created only for classes and the reference can be assigned to an interface.
+
+</blockquote>
 </details>
 
 
@@ -252,7 +280,9 @@ D
 
 <details><summary><b>Show Answer</b></summary>
 	
-> Interfaces and Abstract classes cant be initialized because they have abstract methods, so its not possibel to create an object for an Interface. but while creating an anonymous class an object can be created for interface and abstract method.
+<blockquote>
+	
+- Interfaces and Abstract classes cant be initialized because they have abstract methods, so its not possibel to create an object for an Interface. but while creating an anonymous class an object can be created for interface and abstract method.
 	
 ``` java
 	
@@ -304,7 +334,8 @@ public class Circle {
 	
 	
 ```
-> In the above code, obejcts c and d are created for interface Shape and abstract class Dimension.
+In the above code, obejcts c and d are created for interface Shape and abstract class Dimension.
+</blockquote>
 	
 </details>
 
@@ -313,17 +344,18 @@ public class Circle {
 11. How to create an immutable class in java?
 
 <details><summary><b> Show Answer </b></summary>
+<blockquote>
 	
-> A class is considered as imputable if once an object is created, then its contents cant be modified.
+A class is considered as imputable if once an object is created, then its contents cant be modified.
 	
-> An immutable class can be created by
-> 1. Declaring all the feilds as private to avoid access. 
-> 2. Declaring the class as final to avoid overriding of methods.
-> 3. Declare class as final to avoid ineritance.
-> 4. intializing data using a parameterized constructor 
-> 5. retriving data using a getter method to avoid getting direct access to the object reference.
+An immutable class can be created by
+1. Declaring all the feilds as private to avoid access. 
+2. Declaring the class as final to avoid overriding of methods.
+3. Declare class as final to avoid ineritance.
+4. intializing data using a parameterized constructor 
+5. retriving data using a getter method to avoid getting direct access to the object reference.
 
-
+</blockquote>
 </details>
 
 
@@ -339,9 +371,13 @@ public class Circle {
 <details>
 <summary><b>Show Answer</b></summary>
 	
-D
-<details><summary><b>Explanation:</b></summary> a code with a single purpose translates to a class/ interface with a single method, functional interface is the best way to implement this scenario and lambda implementation in each device, makes the code concise, easily readable and maintainable.
+> D
+<details><summary><b>Explanation</b></summary>
 	
+<blockquote>
+A code with a single purpose translates to a class/ interface with a single method, functional interface is the best way to implement this scenario and lambda implementation in each device, makes the code concise, easily readable and maintainable.
+
+</blockquote>
 </details>
 </details>
 
