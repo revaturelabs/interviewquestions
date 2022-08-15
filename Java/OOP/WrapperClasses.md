@@ -5,7 +5,7 @@
 
 1. Can java be considered an absolute Object Oriented language? Explain the reason.
 
-
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -22,6 +22,8 @@
 
 2. What is boxing?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 
     
 <details><summary> <b>Show Answer</b> </summary>
@@ -34,6 +36,8 @@
 
 3. What is unboxing?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
   
 > The conversion of Object to primitive datatype is called Unboxing.
@@ -45,6 +49,8 @@
 
 
 4. How to convert a primitive datatype to an Object wrapper class?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
 <details><summary> <b>Show Answer</b> </summary>
@@ -62,6 +68,8 @@
 ---
 
 5. How to convert wrapper objects to a primitive data type?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
 
@@ -87,6 +95,8 @@ The automatic conversion of primitive data types into its equivalent Wrapper typ
 
 6. Are wrapper classes immutable? justify the answer.
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details>
   
 <summary><b>Show Answer</b></summary>
@@ -104,6 +114,8 @@ The automatic conversion of primitive data types into its equivalent Wrapper typ
  ---
 
 7. How does wrapper class work Internally?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
   
