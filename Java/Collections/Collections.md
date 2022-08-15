@@ -2,6 +2,8 @@
  
  1. What is the collection framework? 
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details>
   <summary><b>Show answer</b></summary>
   <blockquote>
@@ -15,6 +17,8 @@
 ---
 
 2. What are the benefits of the collection framework? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
   <summary><b>Show answer</b></summary>
@@ -32,6 +36,8 @@
 
 3. What is Iterable Interface?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details>
 <summary><b>Show Answer</b></summary>
 
@@ -46,6 +52,8 @@
 
 
 4. Write a program to traverse any collection using for each Construct.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
 <details>
@@ -93,6 +101,8 @@ public class Main {
  ---
 
 5. Write a program to traverse any collection using an iterator.
+   
+ ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
 <details>
@@ -119,7 +129,7 @@ public class Main {
 }
 
 ```
-    </blockquote>
+ </blockquote>
 
 <details>
 <summary><b>Explanation</b></summary>
@@ -140,6 +150,8 @@ public class Main {
  ---
 
 6. Write a program to traverse any collection using aggregate operations.
+   
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -180,6 +192,8 @@ public class Main {
 
 
 7. What is the difference between the Comparable and Comparator interface?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -207,6 +221,8 @@ Comparable and Comparator both are interfaces and can be used to sort collection
  ---
 
 8. What are concurrent collection classes?
+   
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -237,6 +253,8 @@ The concurrent collection APIs of Java provides a range of classes that are spec
  ---
 
 9. What is the difference between the Enumeration and Iterator interface?
+   
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -268,6 +286,8 @@ Enumeration and Iterator are two interfaces in java.util package which is used t
 ## Problem Solving
 
 1. What are AA, BB, and CC in the following code that satisfies the following conditions?
+ 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 - AA: to sort the elements of the list
 - BB: to arrange elements in random order.
