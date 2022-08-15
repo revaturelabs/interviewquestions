@@ -2,6 +2,8 @@
 
 1. Find the error in the following code?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 ``` java
 public class Game {
 	public static void main(String[] args) {
@@ -32,6 +34,8 @@ public class Game {
 
 2. What is the error in the following code snippet?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 ``` java
 public class Child extends Parent, Grandparent{
 	// code
@@ -48,6 +52,8 @@ public class Child extends Parent, Grandparent{
 ---
 
 3.  What is the error in the following code snippet?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 ``` java
 
@@ -73,6 +79,8 @@ compilation error is caused because a class can be public, abstract and final bu
 
 1. Which of the following can be declared private?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 - A. Class
 - B. Interface
 - C. Nested Class
@@ -95,6 +103,8 @@ classes and interfces can not be declared private, nested classes can be declare
 
 2. What are the parameters and arguments?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 - A. parameters: list of variables in the method declaration.
      Arguments:  Values that are passed when a method is invoked.
 - B. parameters: list of variables in the method declaration.
@@ -108,6 +118,8 @@ classes and interfces can not be declared private, nested classes can be declare
 ---
 
 3. What is the implicit superclass for all java classes?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 - A. Arrays
 - B. Collections
@@ -131,6 +143,8 @@ The default constructor of any class calls the no-arg constructor of the supercl
 
 4. What are the benefits of using Objects?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 	
 <blockquote>
@@ -147,6 +161,8 @@ The default constructor of any class calls the no-arg constructor of the supercl
 ---
 
 5. Variables declared in an interface are?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 - A. public, static and final
 - B. private and final
@@ -175,6 +191,8 @@ The default constructor of any class calls the no-arg constructor of the supercl
 ---
 
 6. choose the right answer.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 1.local class   <br>                               
 2.Anonymous class  <br>                           
@@ -205,6 +223,8 @@ d. Used to create more than one instance of a class, and to add new fields and m
 
 7. How to destroy an object in java?
 
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
 >  An object can not be directly destroid in java. by setting all the references to object as null, the object is eligible for garbage collection.
@@ -214,6 +234,8 @@ d. Used to create more than one instance of a class, and to add new fields and m
 ---
 
 8. How many object references are present after executing the following code?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 ``` java
 
@@ -235,6 +257,8 @@ one reference will be left after executing the code snippet(arr[0]--> s).
 ---
 
 9. Which of the following options best explains the folowing code snippet?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 ``` java
 interface Car{
@@ -277,6 +301,8 @@ It is not possible to create an object for interface, an Object can be created o
 
 
 10.  Write a code where an object is created for an Interface or abstract class.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 	
@@ -343,6 +369,8 @@ In the above code, obejcts c and d are created for interface Shape and abstract 
 
 11. How to create an immutable class in java?
 
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
 <details><summary><b> Show Answer </b></summary>
 <blockquote>
 	
@@ -362,6 +390,8 @@ An immutable class can be created by
 ## Real-time Application
 
 1. Consider that a code is created for the sole purpose of notifying the user that the battery is fully charged, this can be used by any device like a mobile, pc, AirPods etc. Which of the following implementations suits the best?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 - A. abstract class with a single abstract method and an anonymous class
 - B. abstract class with a single abstract method and a local class.
