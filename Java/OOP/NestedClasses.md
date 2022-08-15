@@ -341,14 +341,18 @@ public class Circle{
 <details><summary><b>Show Answer</b></summary>
 
 <blockquote>
-
+Output: <br>
 I am a Semi Circle<br>
-I am a circle
-
+I am a circle<br>
 </blockquote>
-
-> The above code is an example of the static inner class. The `Circle` is the outer class and `SemiCircle` is a static nested class. the method `printShape()` is present in both Circle and SemiCircle and based on the method call the method is implemented.
-
+<details><summary><b>Explanation</b></summary>
+	
+<blockquote>
+	
+- The above code is an example of the static inner class. The `Circle` is the outer class and `SemiCircle` is a static nested class. the method `printShape()` is present in both Circle and SemiCircle and based on the method call the method is implemented.
+	
+</blockquote>
+</details>
 </details>
 
 
@@ -368,10 +372,10 @@ I am a circle
 
 <details><summary><b>Show Answer</b></summary>
 
-B
+> B
 <details><summary><b>Explanation</b></summary>
 
-since all the iPhone models are part of iphone14 they can be nested under the class iPhone 14.
+> since all the iPhone models are part of iphone14 they can be nested under the class iPhone 14.
 </details>
 </details>
 
@@ -391,10 +395,11 @@ since all the iPhone models are part of iphone14 they can be nested under the cl
 
 <details><summary><b>Show Answer</b></summary>
 
-C
+> C
 
 <details><summary><b>Explanation</b></summary>
-DigitalThermometer(Class), like any other machine, should be configured before being used. Configuration(Interface ) has some procedures ( methods) to configure a machine. any machine is configured only once so we can use an anonymous class to configure DigitalThermometer.
+	
+> DigitalThermometer(Class), like any other machine, should be configured before being used. Configuration(Interface ) has some procedures ( methods) to configure a machine. any machine is configured only once so we can use an anonymous class to configure DigitalThermometer.
 
 </details>
 </details>
