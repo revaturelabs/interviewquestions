@@ -107,8 +107,8 @@
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 <details><summary><b>Show Answer</b></summary>
 
-> lambda is not an inner class, when the lambda expression is used a private static class with an object return type and Object parameter is created to implement the functional interface.
-> This is the reason why an anonymous class "Outer$1" is not created in the case of the lambda expression.
+> - lambda is not an inner class, when the lambda expression is used a private static class with an object return type and Object parameter is created to implement the functional interface.
+> - This is the reason why an anonymous class "Outer$1" is not created in the case of the lambda expression.
 
 </details>
 
@@ -197,7 +197,8 @@ public class Circle{
 
 <details><summary><b>Show Answer</b></summary>
 
->A compile time error is caused because the anonymous inner class doesn't Implement all the methods of the interface Shape. The method `circuference` is not implemented. 
+> - A compile time error.
+> - It is caused because the anonymous inner class doesn't Implement all the methods of the interface Shape. The method `circuference` is not implemented. 
 
 </details>
 
@@ -248,7 +249,8 @@ public class Circle{
 
 <details><summary><b>Show Answer</b></summary>
 
->The code gets executed successfully, the anonymous inner class executes all the methods of the interface and the method `printShape()` is a new method created in the anonymous class. Since the anonymous inner class is a class it can implement its own methods.
+> - No output
+> - The code gets executed successfully, the anonymous inner class executes all the methods of the interface and the method `printShape()` is a new method created in the anonymous class. Since the anonymous inner class is a class it can implement its own methods.
 
 </details>
 
@@ -297,7 +299,8 @@ public class Circle{
 
 <details><summary><b>Show Answer</b></summary>
 
->A compile time error is caused because the anonymous inner class implements a new method called `printShape()`. and the method call is outside the scope of the anonymous inner class.
+> - A compile time error 
+> - It is caused because the anonymous inner class implements a new method called `printShape()`. and the method call is outside the scope of the anonymous inner class.
 
 </details>
 
@@ -337,8 +340,12 @@ public class Circle{
 
 <details><summary><b>Show Answer</b></summary>
 
-I am a Semi Circle
+<blockquote>
+
+I am a Semi Circle<br>
 I am a circle
+
+</blockquote>
 
 > The above code is an example of the static inner class. The `Circle` is the outer class and `SemiCircle` is a static nested class. the method `printShape()` is present in both Circle and SemiCircle and based on the method call the method is implemented.
 
