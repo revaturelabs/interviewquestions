@@ -5,6 +5,7 @@
 <details><summary>Show Answer</summary>
 
 > Yes, inner classes have access to all the members of the outer class including private members of the class.
+	
 </details>
 
 2. What are the uses of nested classes?
@@ -14,12 +15,10 @@
 - C. create code that is easy to read and maintain
 - D. All of the above.
 
-<details>
-<summary><b>Show Answer</b><summary>
+<details>	
+<summary><b>Show Answer</b></summary>	
 	
-> D
-	
-	
+> D		
 </details>
 
 3. What is Anonymous Inner class?
