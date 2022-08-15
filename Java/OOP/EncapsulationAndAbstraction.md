@@ -2,6 +2,8 @@
 
 1. Explain and Implement Encapsulation.
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details>
 
 <summary><b>Show Answer</b> </summary>
@@ -59,6 +61,8 @@ public class ATM {
    
 2. What is Abstraction?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary><b>Show Answer</b></summary>
     
 > Data abstraction is the process of hiding certain details and showing only essential information to the user.
@@ -75,6 +79,8 @@ public class ATM {
 ---
 
 3. When to use abstract class and interface?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
     
@@ -96,6 +102,8 @@ public class ATM {
 
 4. What are the advantages of encapsulation?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary><b>Show Answer</b></summary>
     
 | **#** | ** Abstract Class**                                                                          | ** Interface**                                                                     |
@@ -113,6 +121,8 @@ public class ATM {
 
 5. What members are allowed in an abstract class?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details> <summary><b>Show Answer</b></summary>
     
 > 1. fields
@@ -126,6 +136,8 @@ public class ATM {
 ---
 
 6. Which of the following is true when an abstract class implements an Interface?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 - A. Abstract class must override all the methods of an interface
 - B. Abstract class must override all the abstract methods of an Interface.
@@ -146,6 +158,8 @@ C
 
 7. Is it possible to create an object for an abstract class?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details> <summary><b>Show Answer</b></summary>
     
 > No, the abstract class can not be initialized as it contains incomplete methods( abstract methods or methods with no implementation).
@@ -161,6 +175,8 @@ C
 ## Real-Time Application.
 
 1. A vending machine has different items and functions to take the cash and dispense the item, but all these occur internally and as an external user one can only access it using selection buttons. this is an example for?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 - A. Polymorphism
 - B. Inheritance
@@ -183,6 +199,8 @@ C
 ## Error Detection
 
 1. What is the output of the following code?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 ``` java
 interface Car{
