@@ -47,7 +47,7 @@
 --- 
 
 
-4. List the drawbacks of existing date and time API before Java 8.
+4. List the drawbacks of existing date and time API before the use of Java 8.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
