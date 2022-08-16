@@ -43,7 +43,7 @@
 44. How do you find which version of angular installed in our system? How do you updated to latest version?
 45. Match the commands with its appropriate details
 
-![image](https://user-images.githubusercontent.com/70228962/184805351-6e8cbddc-f31b-4d8b-ad80-591ed93514ae.png)
+![image](https://user-images.githubusercontent.com/70228962/184809083-a973816f-8468-4a0a-be4e-8ff7bec30861.png)
 
 46. What kind of files we can find on `e2e` folder and `node_modules` folder?
 47. What are files we can find under `src` folder?
@@ -57,4 +57,29 @@
 55. What are the files created or updated when we create a component?
 56. How many files are generated when we create a component?
 57. I have to create component `User` as a parent. Then, I want to 2 child components for `User` component. Let's say 2 child components are `User-Login` and `User-Register`. What are the steps I needed to do?
-58. 
+58. Below is the code in `user.component.ts`. If I want to insert user component to the `index.html` file.
+```ts
+import { Component } from '@angular/core';
+@Component ({
+  selector: 'user'
+  templateUrl: './user.component.html' ,
+  styleUrls: ['./user.component.css']
+export class UserComponent {
+} 
+```
+60. Can we have `html` content attached to the component without having `.html` file. If so, how?
+61. Can we have `css` styles attached to the component without having `.css` file. If so, how?
+62. What is the difference between `templateUrl` and `template` in `@Component` decorator?
+63. What is the difference between `styleUrls` and `styles` in `@Component` decorator?
+64. Complete the missing metadata in `@Component` decorator with following criteria.
+    -  This component should be identified by `user`
+    -  Template of this component, should say "Hello User!!"
+    -  Template should have atleast one heading tag
+    -  Also, text inside that heading tag, should be in red color
+```ts
+import { Component } from '@angular/core';
+@Component ({
+  // add here
+export class UserComponent {
+} 
+```
