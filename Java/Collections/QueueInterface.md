@@ -116,7 +116,6 @@
 <summary><b>Show Answer</b></summary>
 
 > `PriorityQueue` is a queue that stores the elements in general order(ascending) or uses a comparator to sort the elements.
-
 > Internally ` PriorityQueue` is a heap.
 > By default elements are stored in the form of a min heap.
 
