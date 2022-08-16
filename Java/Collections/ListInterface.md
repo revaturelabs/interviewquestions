@@ -1,10 +1,5 @@
 ## Technical
 
-> How we cna store collections of elements
-> Which allows to store collections of elements without size restruction
-> Which alllows to store collection of elements with duplicates
-> 
-
 
 1. What is List Interface?
 
@@ -29,24 +24,30 @@ List <E> l ;
 <details>
 
 <summary><b>Show Answer</b></summary>
+ <blockquote>
 
-> Along with the operations inherited from the collection interface, the list has the following operations
-> 1. Positional Access: accessing an element by its index.
-> get, set, add,  addAll and remove are positional access methods.
+Along with the operations inherited from the collection interface, the list has the following operations
+1. Positional Access: accessing an element by its index.
+   
+- Insertion: `add` and `addAll` methods are used to insert elements into the collection.
+- Update: to update an existing element `set` is used.
+- deletion: `remove` is used to delete elements.
 
-> 2. Search: used to search the specific element and get the index of the element
-> indexOf and lastIndexOf are Search methods.
 
-> 3. Iteration: used to iterate over a list as it is a sequential data structure.
-> listIterator is an Iteration method.
+2. Search: used to search the specific element and get the index of the element
+indexOf and lastIndexOf are Search methods.
 
-> 4. Range-view: is used to get the subList of the list of a specific range.
-> subList method is a range-view method.
+3. Iteration: used to iterate over a list as it is a sequential data structure.
+listIterator is an Iteration method.
 
----
+4. Range-view: is used to get the subList of the list of a specific range.
+subList method is a range-view method.
 
+
+ </blockquote>
 </details>
 
+ ---
 3. what are the different classes that come under the list interface?
 
 <details>
