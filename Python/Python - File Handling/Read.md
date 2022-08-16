@@ -63,7 +63,7 @@ file_read('test.txt')
 
  - There are four different methods(modes) to open a file,
   
- i)`r` - Read - Default value. Opens a file for reading, ans shows error if the file does not exist.
+ i)`r` - Read - Default value. Opens a file for reading, and shows error if the file does not exist.
 
  ii)`a` - Append - Opens a file for appending, and creates the file if it does not exist.
 
@@ -172,7 +172,7 @@ Line4: world
 
 ---
 
-9.What is return type of open ()?
+9.What is the return type of open ()?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -217,13 +217,13 @@ f = open(r, "d:\Python\test.txt")
 
 ---
 
-12.Is there any way to read file without opening? Which funtion used to open a file?
+12.Is there any way to read file without opening? Which function is used to open a file?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
-> - No,we can't able to read file without opening.
+> - No,we can't read file without opening.
 > - If you want to read a file, open the file first then, use `open()` function to open a file.
   
 </details>
@@ -249,7 +249,7 @@ C.File reading and writing are faster using the with statement.
 
  - The with statement simplifies exception handling by encapsulating common preparation and cleanup tasks.
  - This additionally ensures that a file is automatically closed when leaving the block.
- - As the file is closed automatically, it ensures that each one the resources that are bound with the file are released.
+ - As the file is closed automatically, it ensures that each one of the resources that are bound with the file are released.
 
 </blockquote>
 </details>
@@ -309,7 +309,7 @@ f.close()
 
 ---
 
-17.which of the below is incorrect with respect to file access mode?
+17.Which of the below is incorrect with respect to file access mode?
 
 A.`r`
 
@@ -353,13 +353,13 @@ D.`wb+`
 
 ---
 
-19.How to check the given file exists or not?
+19.How to check whether the given file exists or not?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
-> Use the `os.path.isfile('file_path')` function to see whether a file exists. Pass the file name or file path to the current perform as associate degree argument. This returns True if a file is present in the given path. Otherwise, it returns False.
+> Use the `os.path.isfile('file_path')` function to see whether a file exists. Pass the file name or file path to the current to perform as associate degree argument. This returns True if a file is present in the given path. Otherwise, it returns False.
 
 </details>
 
