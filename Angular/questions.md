@@ -136,4 +136,23 @@ export class UserComponent {
 104. In which file, I need to mention I'm going to use `FormsModule`
 105. What are ways to pass data from component class to the View?
 106. What are ways to pass data from the view to the component class?
-107. 
+107. Every frontend application needs to communicate with the backend microservices to share the data over the HTTP protocol. How this communication established in angular?
+108. The `HttpClient` service is available in the ___________ package in the angular framework
+109. Why do we need `HttpClient`?
+110. List some `HttpClient` methods provided by the angular framework
+111. What is benefits of `HttpClient` in Angular
+112. How to use `HttpClient` in Angular?
+113. What is an observable? How is related with `HttpClient`?
+114. How do you handle errors with `HttpClient`?
+115. What is Subject?
+116. What is the difference between Subjects and Observables?
+117. What is Pipe?
+118. How we can create a custom pipe in angular?
+119. List some of the built-in pipe.
+120. What is service?
+121. What is the difference between using reactive and template-driven forms? How would you setup each?
+122. How does dependency injection work in Angular?
+123. How do we inject a service to the root module?
+124. How do you generate service using Angular CLI?
+125. Which mechanism mechanism in Angular provides a way to navigate from one view to another view in the application.
+126. What is use of `RoutingModule` in Angular?
