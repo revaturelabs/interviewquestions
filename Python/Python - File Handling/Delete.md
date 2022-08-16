@@ -92,7 +92,7 @@ with open("myFile.txt", "r") as fObj:
 <details><summary><b>Show Answer</b></summary>
 
 > - In python, to delete a folder, we can use `os.rmdir()` method.
-> - This `os.rmdir()` methos is used delete only the empty folders.  
+> - This `os.rmdir()` methos is used to delete only the empty folders.  
   
 ```python
 import os
@@ -151,7 +151,7 @@ f.close()
     
 <details><summary> <b>Explanation</b> </summary>
     
-- In the above program first we need to read the file.After removing spaces, diplay the entire content in the file `rename.txt`.
+> In the above program, we need to first read the file. After removing spaces, diplay the entire content in the file `rename.txt`.
     
 </details>
     </details>
@@ -236,7 +236,7 @@ print("Total lines are :", count)
 
 <details><summary> <b>Explanation</b> </summary>
     
-- To count number of lines from `data.txt`. We can use `readlines()` method and then count the number of lines which doesn't start from M.
+- To count number of lines from `data.txt`, we can use `readlines()` method and then count the number of lines which doesn't start from M.
     
     </details>
 </details>
@@ -254,7 +254,7 @@ a=f.read()
 
 <details><summary><b>Show Answer</b></summary>
 
-> It will read the content from the `file.txt` until the end of file.
+> It will read the content from the `file.txt` until the end of the file.
 
 <details><summary><b>Explanation</b></summary>
 
@@ -265,7 +265,7 @@ a=f.read()
 
 ---
 
-13.To open a file c:\scores.txt for appending the information, we have the tendency to use,
+13.To open a file `c:\scores.txt` for appending the information, we have the tendency to use,
 
 A.outfile = open("c:\\scores.txt", "a")
 
@@ -307,7 +307,7 @@ file.close()
 ```
 <details><summary> <b>Explanation</b> </summary>
     
-- To read the content from file `file.txt` use `read()` method and to display all the numbers from the file use `isdigit()` method.
+- To read the content from file `file.txt`, use `read()` method and to display all the numbers from the file, use `isdigit()` method.
     
 </details>       
 </details>
@@ -333,7 +333,7 @@ f.close()
     
 <details><summary> <b>Explanation</b> </summary>
     
-- To replace one character with another character use `.replace()` method.
+- To replace one character with another character, we use `.replace()` method.
     
 </details>       
 </details>
@@ -422,12 +422,12 @@ print("Received input",str)
  **r+**:
 
  - It will not create a file if it does not exist.
- - If the file already exists, opening it with r+ does not destroys the contents.
+ - If the file already exists, opening it with r+ does not destroy the contents.
   
  **w+**:
 
  - If the file does not exist,it will be created.
- - If the file already exists, opening it with r+ will destroys the contents.
+ - If the file already exists, opening it with r+ will destroy the contents.
         
         </blockquote>
 </details>
@@ -441,7 +441,7 @@ print("Received input",str)
 <details><summary><b>Show Answer</b></summary>
 
 > - To delete multiple files, we can use loop over the list of files and use the higher than `os. rmdir()` operate. 
-> - To delete a folder that contains all files, you want to remove got to `import shutil` package. 
+> - To delete a folder that contains all files, you want to remove `import shutil` package. 
   
 </details>
 
