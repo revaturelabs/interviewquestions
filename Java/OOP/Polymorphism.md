@@ -12,9 +12,10 @@
 </details>
 <details><summary> <b>Show Answer</b> </summary>
   
-  **Ans**: A
+> A
   
-  **Explanation**: <i>printing using a 3D printer is a method in the Caltech Physics department</i>, which is a class. Sheldon used the method for research and Howard used the same method for fun.
+  <details><summary><b>Explanation</b></summary> <i>printing using a 3D printer is a method in the Caltech Physics department</i>, which is a class. Sheldon used the method for research and Howard used the same method for fun.
+ </details>
 </details>
 
 2. John got a recipe for cookies from his mother, but john likes choco chips, so he altered the original cookie recipe, 
