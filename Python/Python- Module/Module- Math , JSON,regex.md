@@ -56,7 +56,7 @@ example.add()
 
 ---
 
-3.How can we `import` modules in python?
+3.How can we import modules in python?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
