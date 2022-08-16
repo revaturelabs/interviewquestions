@@ -45,7 +45,7 @@
    - A stream is not a data structure instead it takes input from the Collections, Arrays or I/O channels.
    - Streams don’t change the original data structure, they only provide the result as per the pipelined methods.
    - Each intermediate operation is lazily executed and returns a stream as a result, hence various intermediate operations can be pipelined.   
-     Terminal operations mark the end of the stream and return the result.
+   - Terminal operations mark the end of the stream and return the result.
  
  **Example:**  If we want to filter the movies released in 2022 from the movie database.
   
@@ -179,7 +179,7 @@ Because stream API processes the elements as per pipelined operations without ch
  
  <blockquote>
 
-- When we need to process and return a stream from another stream that satisfies a given condition we use filters in intermediate operations.
+- When we need to process and return a stream from another stream that satisfies a given condition, we use filters in intermediate operations.
 - Example: Return the movie list released in 2022 from the movie database.
   
  </blockquote>
