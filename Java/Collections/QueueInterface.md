@@ -8,6 +8,8 @@
 > - Queue stores elements before processing and normally queue follows the First in First out principle.
 > Consider that there are two states "Ready for processing"(RFP) and " On Hold " (OH), the head is in the "RFP" state and all the elements behind the head are in the "OH" state. so elements in the queue are in pre processing state.
 > - Queue Interface is used to implement a queue in java.
+  
+  
 
 
 </details>
@@ -92,14 +94,14 @@
 <details>
 <summary><b>Show Answer</b></summary>
 
-> 1. `offerFirst(element)`
-> 2. `offerLast(element)` similar to `offer(element)`.
-> 3. `pollFirst()`
-> 4. `pollLast()` similar to `poll()`.
-> 5. `getFirst()` similar to `element()`
-> 6. `getLast()`
-> 7. `peekFirst()` similar to `peek()`
-> 8. `peekLast()`
+> 1. `offerFirst(element)` is used to insert elemnts from the head
+> 2. `offerLast(element)` similar to `offer(element)`, is used to add elements in the rear end.
+> 3. `pollFirst()` is used to get an element from the head.
+> 4. `pollLast()` similar to `poll()`, is used to get an element from the rear end.
+> 5. `getFirst()` similar to `element()` ,is used to retrive an element from the head.
+> 6. `getLast()` is used to retrive  an element from the rear end.
+> 7. `peekFirst()` similar to `peek()`, is used to get but not remove the first element from the head.
+> 8. `peekLast()` is used to but not remove the elemnt from the rear end.
 
 
 
@@ -276,15 +278,15 @@ D. O(n <sup>2</sup>)
 
 ## Problem Solving
 
-1.  What are AA, BB, CC and DD?
+16.  What are AA, BB, CC and DD?
 
 ``` java
 ArrayDeque<Integer> ad = new ArrayDeque<>();
 ```
-a. ad.AA(e): to insert an element at the front end
-b. ad.BB(e): to get an element from the rear end
-c. ad.CC(e): to insert an element at the rear end.
-d. ad.DD(e): to get an element from the front end
+a. ad.AA(e): to insert an element at the front end.<br>
+b. ad.BB(e): to get an element from the rear end.<br>
+c. ad.CC(e): to insert an element at the rear end.<br>
+d. ad.DD(e): to get an element from the front end.
 
 <details>
 
@@ -304,7 +306,7 @@ d. ad.DD(e): to get an element from the front end
 
 ---
 
-2. Predict the output of the following code snippet.
+17. Predict the output of the following code snippet.
 
 ``` java
 
@@ -325,7 +327,7 @@ System.out.println(ad.pop());
 
 ---
 
-3. Predict the output of the following code snippet. 
+18. Predict the output of the following code snippet. 
 
 ``` java
 ArrayDeque<Integer> ad = new ArrayDeque<>();
@@ -345,7 +347,7 @@ System.out.println(ad.poll());
 
 ---
 
-4. Predict the output of the following code snippet. 
+19. Predict the output of the following code snippet. 
 
 ``` java
 ArrayDeque<Integer> ad = new ArrayDeque<>();
@@ -366,7 +368,7 @@ System.out.println(ad.remove());
 
 ## Real-time Application
 
-1. There is a movie premiere and people should walk through the red carpet before they are allowed into the movie theatre. people walk on the carpet based on their importance, The order goes like, Produce, Director, lead Actors, supporting actors and the list continues. Which of the following best represents the following scenario?
+20. There is a movie premiere and people should walk through the red carpet before they are allowed into the movie theatre. people walk on the carpet based on their importance, The order goes like, Produce, Director, lead Actors, supporting actors and the list continues. Which of the following best represents the following scenario?
 
 A. `ArrayDeque` <br>
 B. `PriorityQueue` <br>
