@@ -360,7 +360,7 @@ The Bank class is a wrapper class which implements the setter and getter methods
 
 ---
 
-13:what are the elements  of Composite Pattern? 
+13:What are the elements  of Composite Pattern? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -512,7 +512,7 @@ If you see the same value, then singleton was reused and If you see different va
 
 ---
 
-16:what are the steps to create a Factory Design Pattern? 
+16:What are the steps to create a Factory Design Pattern? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
