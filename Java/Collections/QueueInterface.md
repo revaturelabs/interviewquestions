@@ -224,7 +224,7 @@ D. O(n <sup>2</sup>)
 <details>
 <summary><b>Explanation</b></summary>
 
-> elements are sorted and stored in the form of a heap in `PriorityQueue`. The time complexity to insert an element using `offer(element)` is O(log n).
+> Elements are sorted and stored in the form of a heap in `PriorityQueue`. The time complexity to insert an element using `offer(element)` is O(log n).
 
 </details>
 </details>
@@ -275,12 +275,14 @@ D. O(n <sup>2</sup>)
 </details>
 
 ---
-16. What is the Difference between Queue and ArrayDeque?
+16. What is the Difference between `Queue` and `Deque`?
 
 <details>
   <summary><b>Show Answer</b></summary>
   
 <blockquote>
+  
+  
   
   
   
