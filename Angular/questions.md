@@ -45,4 +45,16 @@
 
 ![image](https://user-images.githubusercontent.com/70228962/184805351-6e8cbddc-f31b-4d8b-ad80-591ed93514ae.png)
 
-46. 
+46. What kind of files we can find on `e2e` folder and `node_modules` folder?
+47. What are files we can find under `src` folder?
+48. What is the difference between `angular.json` and `package.json` file?
+49. What is the difference between `package.json` and `package-lock.json` files?
+50. In Angular app, where I can define or specify the target browser?
+51. What is a component?
+52. In which file, I can find `@Component` and `@NgModule` decorator?
+53. What are the metadata does `@Component` decorator>
+54. How do you create a component?
+55. What are the files created or updated when we create a component?
+56. How many files are generated when we create a component?
+57. I have to create component `User` as a parent. Then, I want to 2 child components for `User` component. Let's say 2 child components are `User-Login` and `User-Register`. What are the steps I needed to do?
+58. 
