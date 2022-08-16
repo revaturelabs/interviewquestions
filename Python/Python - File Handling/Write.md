@@ -36,7 +36,7 @@
 
  2.Open file in write mode.
 
- 3.Write a content into a file.
+ 3.Write the content into a file.
 
  4.Close file after completing the write operation.
 
@@ -54,7 +54,7 @@
 <details><summary><b>Show Answer</b></summary>
 
 > - First open the `.txt` file.
-> - Enter he data into the file(.txt)
+> - Enter the data into the file(.txt)
 > - Close the file.
 
 ```python
@@ -63,7 +63,7 @@ f.write('Python is interpreted language')
 f.close()
 ```
 
-> - The above code opens a file in write mode and then rewrites the file ans it contains "Python is interpreted language".
+> - The above code opens a file in write mode, rewrites the file and then it contains "Python is interpreted language".
 
 </details>
 
@@ -190,7 +190,7 @@ f.close()
   <blockquote>
 
  - `seek()` method is used to set the position of file pointer.
- - A file pointer denotes the position of file contents to be read or written.The file handler is called as a file pointer.
+ - A file pointer denotes the position of the file contents to be read or written.The file handler is called as a file pointer.
  - `tell()` method is used to return the current position of a file pointer.
     
     </blockquote>
@@ -225,7 +225,7 @@ file.close()
 <details><summary><b>Show Answer</b></summary>
   <blockquote>
 
-- "Binary" files are any files for which the format is not created for readable characters. Binary files will range from image files like JPEGs or GIFs, audio files like MP3s or binary document formats like Word or PDF. In python, by default files are opened in text mode. To open files in binary mode, after specifying a mode, add `b` to that.
+- "Binary" files are any files for which the format is not created for readable characters. Binary files will range from image files like JPEGs or GIFs, audio files like MP3s or binary document formats like Word or PDF. In python, default files are opened in text mode. To open files in binary mode, after specifying a mode, add `b` to that.
 
 **Example**:
 
