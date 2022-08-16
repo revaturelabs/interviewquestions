@@ -1,8 +1,11 @@
 ## Access Modifiers
 
-1: Explain about Access modifier.
+1.Explain about Access modifier.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
     <summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - Access modifiers are used to limit the accessibility or visibility of class, method, variable, and constructor.
 - There are four type of access modifier.
@@ -10,81 +13,101 @@
   - Public
   - Private
   - Protected
-
+</blockquote>
 </details>
 
 ---
 
-2: Explain about Default Access modifier.
+2.Explain about Default Access modifier.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
     <summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - If we do not specify the access modifier, the default will be the access modifier.
 - When we declare default access modifier, the visibility will be only within the package.
 - If we declare class as default, we can't access the class outside the package and we can't import in another class.
-
+</blockquote>
 </details>
 
 ---
 
-3: Explain about Public Access modifier.
+3.Explain about Public Access modifier.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
     <summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - If we specify with public the access modifier, the accessibility will be anywhere within or outside the package
 - We can import the class from any package when it is declared as public.
-
+</blockquote>
 </details>
 
 ---
 
-4: Explain about Private Access modifier.
+4.Explain about Private Access modifier.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
     <summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - If we specify with private the access modifier, the accessibility will be within the class.
-
+</blockquote>
 </details>
 
 ---
 
-5: Can we use private variables outside the class?
+5.Can we use private variables outside the class?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
     <summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - No, we can't access the private variables outside the class.
 - If we want to use the private variable outside the class, we will have to create public methods to access it.
 - In general, we will create getter and setter method to access private variables.
 
+</blockquote>
 </details>
 
 ---
 
-6: Explain about Protected Access modifier.
+6.Explain about Protected Access modifier.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
     <summary><b> Show Answer </b></summary> 
-
+</blockquote>
+	
 - If we specify with protected the access modifier, the accessibility will be within the class and subclasses which are extended from it.
-
+</blockquote>
 </details>
 
 ---
 
-7: Explain the difference between private and protected.
+7.Explain the difference between private and protected.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
     <summary><b> Show Answer </b></summary> 
+<blockquote>
 
 | Private                                              |Protected                                             |
 |------------------------------------------------------|------------------------------------------------------|
 |The visibility is only within the class               |The visibility is only within the class and subcalsses|
 |We can use public method to access private variable and private method out side of class   |We can use public method to access protected variable and proctected variable out side of class and subclass |
+</blockquote>
 </details>
 
 ---
 
 ## Debugg the program
 
-8: Find the error in the program
+8.Find the error in the program
 ``` java
 package com.example.model;
 
@@ -112,14 +135,20 @@ public class Main {
 	}
 }
 ```
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
     <summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - We can't use private variable outside the class. If we want to access the variable outside the class, we have to use public method such as getter method from the class.
 
+</blockquote>
 </details>
 
-9: Find the error in the program
+---
+
+9.Find the error in the program
 ``` java
 package com.example.model;
 
@@ -146,14 +175,20 @@ public class Main {
 	}
 }
 ```
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
     <summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - We can't use protected variable outside the class. If we want to access the variable outside the class, we have to use public method such as getter method from the class.
 
 </details>
+</blockquote>
 
-10: Debugg the code and find the output for the program
+---
+
+10.Predict the output
 ``` java
 package com.example.model;
 
@@ -167,17 +202,23 @@ public class Employee {
 	}
 	public Employee() {
 	}
+	public String getName() {
+		return name;
+	}
+	public String getAddress() {
+		return address;
+	}
 }
 ```
 ``` java
 package com.example.model;
 
 public class Department extends Employee {
-	public String getName() {
-		return name;
+	public Department() {
+		super();
 	}
-	public String getAddress() {
-		return address;
+	public Department(String name, String address) {
+		super(name, address);
 	}
 }
 
@@ -196,13 +237,18 @@ public class Main {
 	}
 }
 ```
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 <details>
     <summary><b> Show Answer </b></summary> 
+<blockquote>
 
-- There is no error in the program. We can access the protected fields from the sub classess. 
-- The output of the program is `null`. The object `dep` for `Department` isn't initialized with any value. Only `emp` object for `Employee` is initialized. 
+- The output of the program is `null`. The object `dep` for `Department` isn't initialized with any value. Only `emp` object for `Employee` is initialized.
+- The subclass methods can access `default`, `public`, and `protected` fields.
 - If the value for instance variable is not initialized, the default value will be assigned to it.For string, the value is `null`.
+</blockquote>
 </details>
+
+---
 
 11: Find the error in the program
 
@@ -245,10 +291,14 @@ public class Main {
 }
 ```
 
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 <details>
-    <summary><b> Show Answer </b></summary>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
 
 -  The class `Department` is not a public class. We can't import the `default` class.
 -  Also, we can't create two public classes in the same file. We have to create a seperate file and add the department class as public.
-  
-  ---
+  </blockquote>
+</details>
+
+---
