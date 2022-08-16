@@ -1,31 +1,42 @@
 ## Control Flow Statements
 
-1: What are control flow statements?
- <details>
-      <summary><b> Show Answer </b></summary> 
+1.What are control flow statements?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - The program flow goes from top to bottom. The control flow statetments are used to change the program flow.
-- The control flow ststements are classified by following
+- The control flow statements are classified by following
     -   Conditional Statements
     -   Uncoditional Statements
     -   Looping Statements
-  </details>
+</blockqoute>  
+</details>
 
 ---
 
-2: What are Conditional Statements?
- <details>
-      <summary><b> Show Answer </b></summary> 
+2.What are Conditional Statements?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
   
   - The control flow goes to the block based on the condition called as Conditional Statement.
 
-  </details>
+</blockqoute>  
+</details>
 
 ---
 
-3: What will happen when if condition don't has else block?
- <details>
-      <summary><b> Show Answer </b></summary> 
+3.What will happen when if condition don't has else block?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
 
 > When the condition is true, it will execute the block. Otherwise it skips the code.
 **Example**
@@ -39,41 +50,50 @@
 	}
   ```
     The above code is used to change the negative value into positive value. If it is positive value, it will not do anything.
-  </details>
-
----
-
-4: What will happen when if condition has else if block?
- <details>
-      <summary><b> Show Answer </b></summary> 
-
-> While checking the condition, it fails and we want to check the other condition then we will use if else.
-  ```java
-  public static int findPrice(int value) {
-		int price ;
-		if(value<100) {
-			price = value;
-		}
-		else if(value<300) {
-			price = value*2;
-		}
-		else {
-			price = value*5;
-		}
-		return price;
-	}
-	```	
-> The above code is used to find the price based the range of value.
-
+</blockqoute>  
 </details>
 
 ---
 
-5: How will you define nested if and give one example for it?
- <details>
-      <summary><b> Show Answer </b></summary> 
+4.What will happen when if condition has else if block?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
+
+While checking the condition, if it fails and we want to check the other condition then we will use if else.
+  ```java
+  public static int findPrice(int value) {
+	int price ;
+	if(value<100) {
+		price = value;
+	}
+	else if(value<300) {
+		price = value*2;
+	}
+	else {
+		price = value*5;
+	}
+	return price;
+	}
+```
+	
+The above code is used to find the price based the range of value.
+</blockqoute>  
+</details>
+
+---
+
+5.How will you define nested if and give one example for it?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
+
     
-> When we want to check the condition inside another condition, we can use nested if.
+When we want to check the condition inside another condition, we can use nested if.
 
 ```java
 
@@ -92,16 +112,17 @@
 		return result;
 	}
 ```
- > The above code is the example for finding the result. If any one condition fails, the else block will be executed.
+The above code is the example for finding the result. If any one condition fails, the else block will be executed.
+</blockqoute>  
 </details>
-
+	
 ---
 
-6: Where can we use switch statement?
+6.Where can we use switch statement?
  <details>
       <summary><b> Show Answer </b></summary> 
 
-  >Switch statement is used to select one of code from many blocks of code. It selects the code based on the expression.
+ Switch statement is used to select one of code from many blocks of code. It selects the code based on the expression.
 ``` java
 	public static String findDay(int n) {
 		String day = null;
