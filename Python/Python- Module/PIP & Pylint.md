@@ -1,14 +1,14 @@
 ## PIP & Pylint
 
-1.What is the full from of `pip`? What is the use of `pip` in python?
+1.What is the full form of `pip`? What is the use of `pip` in python?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer </b></summary>
   <blockquote>
 
- - `pip` full form is-python package installler.
- - Python PIP is a python package manager that basically helps the users install,review and use various packages/modules in python programming.
+ - `pip` is abbreviated as python package installler.
+ - Python PIP is a python package manager that basically helps the users to install,review and use various packages/modules in python programming.
 
 **Syntax**:
 
@@ -26,11 +26,11 @@
 <details><summary><b>Show Answer </b></summary>
    <blockquote>
 
- - In python for that we can use `pip` command to install the particular package.
+ - In python, we can use `pip` command to install the particular package.
   
 **Example**:
 
- - Install pandas package for this installation we can use `pip install` command.
+ - Install pandas package for this installation and we can use `pip install` command.
 
 ```python  
 pip install pandas
@@ -47,7 +47,7 @@ pip install pandas
 
 <details><summary><b>Show Answer </b></summary>
 
-> - In python we can use uninstall command to remove s package.
+> - In python, we can use uninstall command to remove a package.
   
 - **Example**:
   
@@ -55,7 +55,7 @@ Consider the package name as studentclass.
 
 `pip unistall studentclass`
 
->  After running this command, The pip package manager will to confirm that we want to remove the package sudentclass.
+>  After running this command, the pip package manager will confirm that we want to remove the package studentclass.
 
 </details>
 
@@ -68,7 +68,7 @@ Consider the package name as studentclass.
 <details><summary><b>Show Answer </b></summary>
   <blockquote>
 
- - `list` command used to list all the packages installed on your system.
+ - `list` command is used to list all the packages installed on your system.
 
  - **Example**
   
@@ -87,7 +87,7 @@ pip list
 
 <details> <summary> <b> Show Answer </b> </summary>
 
-> One of the easist ways in which to transfer Pylint is by using **pip**. **Pip** may be a package management system used to install and manage software system packages written in Python. it's enclosed with recent versions of Python. If you have already got a 64-bit version of Python put in, the "Installing Python" section will be skipped.
+> One of the easiest ways to transfer Pylint is by using **pip**. **Pip** may be a package management system used to install and manage software system packages written in Python. It's enclosed with recent versions of Python. If you have already got a 64-bit version of Python, the "Installing Python" section will be skipped.
 
 </details>
 
@@ -136,9 +136,9 @@ pip list
 
 - Pylint may be a tool that,
 
-- Lists Errors that comes when execution of that Python code
+- Lists Errors during the execution of the Python code
 - Enforces a coding standard and appears for code smells
-- Suggest however specific blocks will be updated
+- Suggest and specific blocks will be updated
 - Offer details regarding the code’s complexness.
 - Pylint is similar to pychecker, pyflakes, flake8, and mypy.
 
@@ -172,7 +172,6 @@ pip list
 <details><summary><b>Show Answer </b></summary>
 
 > - Yes,we can use other tools other than `pip` installer.
-> - The tools are,
 > - npm, Homebrew, Yarn, RequireJS, and Bower are the most common alternatives and competitors to pip.
 
 </details>
@@ -197,7 +196,7 @@ pip list
 
 <details><summary><b>Show Answer </b></summary>
 
-> `Lint` or a linter, may be a static code analysis tool wont to flag programming errors, bugs, rhetorical errors and suspicious constructs. The term originates from a UNIX utility that examined C language source code.
+> `Lint` or a linter, may be a static code analysis tool to flag programming errors, bugs, rhetorical errors and suspicious constructs. The term originates from a UNIX utility that examined C language source code.
 
 </details>
 
