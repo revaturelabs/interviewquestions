@@ -119,8 +119,11 @@ The above code is the example for finding the result. If any one condition fails
 ---
 
 6.Where can we use switch statement?
- <details>
-      <summary><b> Show Answer </b></summary> 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
 
  Switch statement is used to select one of code from many blocks of code. It selects the code based on the expression.
 ``` java
@@ -156,37 +159,50 @@ The above code is the example for finding the result. If any one condition fails
 	}
 ```
 >The default is used when the input is wrong. The code is used to find the day in a week.
-
+</blockquote>
 </details>
 
 ---
 
-7: Why do we use break after each cases in switch?
- <details>
-      <summary><b> Show Answer </b></summary> 
+7.Why do we use break after each cases in switch?
 
->If we didn't use break or return, each cases of the switch will be executed which are present after that case.
-  </details>
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
+
+If we didn't use break or return, each cases of the switch will be executed which are present after that case.
+</blockquote> 
+</details>
 
  ---
 
-8: How will you define looping statement?
- <details>
-      <summary><b> Show Answer </b></summary> 
+8.How will you define looping statement?
 
->Looping statements are used to do repeatative tasks. If one process has to done more than one, we will use looping statement. The three types of looping statements are,
-  -	for
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
+
+Looping statements are used to do repeatative tasks. If one process has to done more than one, we will use looping statement. The three types of looping statements are,
+  - for
   - while
   - do
+</blockquote>
   </details>
 
   ---
 
-9: Where will we use for loop?
- <details>
-      <summary><b> Show Answer </b></summary> 
+9.Where will we use for loop?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
 
->When we know the initialization of iteration value and the number of iterations, we can use for loop.
+- It is an entry check loop ie., the condition checked first.
+
+</blockquote>
 </details>
  
  ---
