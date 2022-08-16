@@ -403,7 +403,7 @@ D. `Queue`
 
 <blockquote>
 
-people are allowed into the theatre based on their priority so the list of people can be stored using a PriorityQueue.
+People are allowed into the theatre based on their priority so the list of people can be stored using a PriorityQueue.
 
 </blockquote>
 
