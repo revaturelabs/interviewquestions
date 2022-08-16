@@ -91,4 +91,49 @@ export class UserComponent {
 70. Which lifecycle called only one?
 71. Which angular module has hook interfaces?
 72. What is module in angular?
-73. 
+73. What is the root module of every application?
+74. If I decorate a typescript class with `@NgModule`, what does it mean?
+75. What are metadata in `@NgModule` decorator
+76. What is meant by bootstrapping?
+77. How angular application bootstrapped? _or_ List the steps in bootstrapping the angular. _or_ How agular lauches the application
+78. Which file loaded in the browser after launced the application?
+79. What is a directive in angular?
+80. What are different types of directives in angular?
+81. Can we able to create our own directive? If so, how? If not, why?
+82. Which directive alter layout by adding, removing, and replacing elements in DOM?
+83. Explain about structural directive
+84. How can I print the list of users in the include?
+85. Design the angular app with the following criteria
+    - Get the `name` and `age` from the user
+    - If entered `age`is greater than 60, print their `name` then say "is a senior citizen"
+    - Else, their `name` then say "is not a senior citizen"
+86. Design the angular app with the following criteria
+    - Get a character/letter from the user
+    - If entered character is vowel(s), print the a word starting with vowel
+        - For example, if user entered `a`, you can print `apple`
+    - Else, print "It is not vowel"
+87. Explain about attribute directive
+88. What is the difference between structural and attribute directive
+89. What is the use of `<ng-template>`
+90. What is databinding in angular?
+91. List the types of databinding in angular?
+92. What is the difference between 1 way and 2 way databinding?
+93. What is the difference between property and event binding?
+94. How do you achieve two way data binding in angular?
+95. Consider there is a variable `name = "Angular"` in `app.component.ts`, how can I print this value in template.
+96. What is meant by String Interpolation?
+97. Explain about event binding.
+98. Explain about property binding.
+99. Design the angular app with the following criteria
+    - Template should have button named `Click Me`
+    - When user clicked on the button, you should greet the user with a message "Welcome to my angular app"
+100. Design the angular app
+    - Get the `name` from the user
+    - Print the `name` with a message " Hi `name`!! Welcome to my angular app"
+101. What is the purpose `ngModel` directive
+102. The `ngModel` directive from the Angular ________, set up the two way data binding on form elements.
+103. What is use of `BrowserModule`?
+104. In which file, I need to mention I'm going to use `FormsModule`
+105. What are ways to pass data from component class to the View?
+106. What are ways to pass data from the view to the component class?
+107. 
