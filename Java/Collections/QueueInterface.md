@@ -138,6 +138,8 @@
 
 </details>
 
+---
+
 10. What is the time complexity of <code>offer(element)</code> method for `ArrayDeque`?
 
 A. O(n)<br>
