@@ -42,3 +42,7 @@
 43. What is the difference between `npm start` and `ng serve`
 44. How do you find which version of angular installed in our system? How do you updated to latest version?
 45. Match the commands with its appropriate details
+
+![image](https://user-images.githubusercontent.com/70228962/184805351-6e8cbddc-f31b-4d8b-ad80-591ed93514ae.png)
+
+46. 
