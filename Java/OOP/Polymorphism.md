@@ -27,9 +27,10 @@
 - D.Abstraction
 
 <details><summary> Show Answer </summary>
-  Ans: A
-  explanation: John inherited The original recipe(a method) is  from his mother(parent class) and he altered the recipe.
+> A
+  <details><summary><b>Explanation</b><summary> John inherited The original recipe(a method) is  from his mother(parent class) and he altered the recipe.
    </details>
+    </details>
 
 ## Technical
 
@@ -62,12 +63,16 @@ public class Languages {
 
 
 <details><summary> <b>Show Answer</b> </summary>
+
+  > D
   
-  **Ans**: D
-  
-  **Explanation**: <i>"speakGerman()" method is written twice with different signatures in the same class, So it can not be considered as method overloading. it is just a duplicate method.</i>
-  
+  <details><summary><b>Explanation</b></summary>
+  <blockquote>
+    `speakGerman()` is written twice with different signatures in the same class, So it can not be considered as method overloading. it is just a duplicate method.
+
+  </blockquote>
 </details>
+ </details>
 
 2. What is static polymorphism?
 
