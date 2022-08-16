@@ -28,7 +28,8 @@
 
 <details><summary> Show Answer </summary>
 > A
-  <details><summary><b>Explanation</b><summary> John inherited The original recipe(a method) is  from his mother(parent class) and he altered the recipe.
+  <details><summary><b>Explanation</b><summary>
+> John inherited The original recipe(a method) is  from his mother(parent class) and he altered the recipe.
    </details>
     </details>
 
@@ -82,7 +83,7 @@ public class Languages {
 
 <details><summary> <b>Show Answer</b> </summary>
   
-  **Ans**: Static Polymorphism is also called Compile time Polymorphism or Method overloading. The method behavior is decided during compile-time in static polymorphism.
+> Static Polymorphism is also called Compile time Polymorphism or Method overloading. The method behavior is decided during compile-time in static polymorphism.
   
 </details>
 
@@ -91,7 +92,7 @@ public class Languages {
 
 <details><summary> <b>Show Answer</b> </summary>
   
-  **Ans**: Dynamic Polymorphism is also called Run-time Polymorphism or Method overriding. The method behavior is decided during runtime in static polymorphism.
+> Dynamic Polymorphism is also called Run-time Polymorphism or Method overriding. The method behavior is decided during runtime in static polymorphism.
   
 </details>
 
@@ -106,12 +107,16 @@ public class Languages {
 
 <details><summary> <b>Show Answer</b> </summary>
   
-  **Ans**: B
+> B
 
-  **Explanation**: static binding is linking method call with method definition during compile-time. compile-time polymorphism is
+  <details>
+  <summary>Explanation</summary> 
+    
+> static binding is linking method call with method definition during compile-time. compile-time polymorphism is
   also called method overloading. 
 
 </details>
+  </details>
 
 
 ## Problem solving
@@ -139,11 +144,13 @@ public class Languages {
 
 <details><summary> <b>Show Answer</b> </summary>
   
-  **Ans**: Barking!
-
-  **Explanation**: the concept of method overloading is implemented here, In the main method we are calling barkingDog() with a
+ Barking!
+  
+<details>
+ <summary><b>Explanation</b></summary> the concept of method overloading is implemented here, In the main method we are calling barkingDog() with a
   parameter "Barking!". So bakringDog(String a) is implemented.
 
+</details>
 </details>
 
 
@@ -182,12 +189,15 @@ class BusinessTrip extends Vacation{
   
   <details>
   <summary> <b>Show Answer</b> </summary>
-  
-  **Ans**: A
-  
-  **Explanation**: the outcome of the program is the compile-time error and it's caused because the method signature for visitLondoon(), which is being overloaded is different in the parent class(Vacation) and Child class(BusinessTrip).
+>  A
+    
+<details>
+<summary> <b>Explanation</b> </summary>
+
+The outcome of the program is the compile-time error and it's caused because the method signature for visitLondoon(), which is being overloaded is different in the parent class(Vacation) and Child class(BusinessTrip).
   
   </details>
+   </details>
 
 
   2. Find the error in the following program.  
@@ -225,12 +235,14 @@ public class Area{
   
   <details>
   <summary> <b>Show Answer</b> </summary>
-  
-  **Ans**: C
-  
-  **Explanation**: calculateTriangleArea(double base, double height) is implemented when 1.0 and 2.0 are passed as method parameters.
+    
+  > C
+ <details>
+    <summary><b>Explanation</b></summary>
+   > calculateTriangleArea(double base, double height) is implemented when 1.0 and 2.0 are passed as method parameters.
   
   </details>
+     </details>
 
 
 
