@@ -39,4 +39,6 @@
 40. Angular by default will serve application on port ________
 41. How do you serve the angular application?
 42. What is the difference between `ng serve -o` and `ng serve`
-43. 
+43. What is the difference between `npm start` and `ng serve`
+44. How do you find which version of angular installed in our system? How do you updated to latest version?
+45. Match the commands with its appropriate details
