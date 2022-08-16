@@ -63,7 +63,6 @@
 ``` java
 
 import java.util.*;
-
 public class Main {
     public static void main(String[] args) {
         ArrayList<Integer> al = new ArrayList<>();
@@ -88,7 +87,7 @@ public class Main {
 <blockquote>
 
 - for each loop uses list iterator internally
-- for each loop can be used to only iterate over a loop but not modify the Collection.
+- for each loop can be used  only to iterate over a loop but not to modify the Collection.
 
 </blockquote>
 
@@ -112,7 +111,6 @@ public class Main {
 ``` java
 
 import java.util.*;
-
 public class Main {
     public static void main(String[] args) {
         ArrayList<Integer> al = new ArrayList<>();
@@ -137,7 +135,7 @@ public class Main {
 <blockquote>
 
 - An Iterator is an object that is used to traverse through a collection and to remove elements from the collection based on a condition.
-- `hasNext()` returns true if collection has the next element and false if empty. `next()` returns the next elemnent int the iteration.
+- `hasNext()` returns true if collection has the next element and false if empty. `next()` returns the next element in the iteration.
 
 </blockquote>
 
@@ -155,12 +153,12 @@ public class Main {
 
 <details>
 <summary><b>Show Answer</b></summary>
-  <blockquote>
+ 
+<blockquote>
 
 ``` java
 
 import java.util.*;
-
 public class Main {
     public static void main(String[] args) {
         ArrayList<Integer> al = new ArrayList<>();
@@ -169,12 +167,11 @@ public class Main {
         al.add(2);
         al.add(0);
         al.stream().forEach(e-> System.out.println(e));
-
     }
 }
 
 ```
-    </blockquote>
+</blockquote>
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -202,7 +199,7 @@ public class Main {
 
 **Comparable**: A comparable object is capable of comparing itself with another object. The class itself must implement the `java.lang.Comparable` interface to be able to compare its instances.
 
-**Comparator**: A comparator object is capable of comparing two different objects. The class is not comparing its instances, but some other classes' instances. This comparator class must implement the `java.util.Comparator` interface.
+**Comparator**: A comparator object is capable of comparing two different objects. The class is not comparing its instances, but some other class instances. This comparator class must implement the `java.util.Comparator` interface.
 
 Comparable and Comparator both are interfaces and can be used to sort collection elements.
 
@@ -210,9 +207,9 @@ Comparable and Comparator both are interfaces and can be used to sort collection
 |------|-----------------------|----------------------------------------------------------|
 | 01.|Comparable provides a single sorting sequence. In other words, we can sort the collection based on a single element such as id, name, and price.|The Comparator provides multiple sorting sequences. In other words, we can sort the collection based on multiple elements such as id, name, price etc.|
 | 02.|Comparable affects the original class, i.e., the actual class is modified.|Comparator doesn't affect the original class, i.e., the actual class is not modified.|
-| 03.|Comparable provides compareTo() method to sort elements.| Comparator provides compare() method to sort elements.|
-| 04.|Comparable is present in java.lang package.|A Comparator is present in java.util package.|
-| 05.|We can sort the list elements of Comparable type by Collections.sort(List) method.|We can sort the list elements of Comparator type by Collections.sort(List, Comparator) method.|
+| 03.|Comparable provides `compareTo()` method to sort elements.| Comparator provides `compare()` method to sort elements.|
+| 04.|Comparable is present in `java.lang package`.|A Comparator is present in `java.util package`.|
+| 05.|We can sort the list elements of Comparable type by `Collections.sort(List)` method.|We can sort the list elements of Comparator type by `Collections.sort(List, Comparator)` method.|
     </blockquote>
  
 
@@ -231,20 +228,20 @@ The concurrent collection APIs of Java provides a range of classes that are spec
 
 **Java Concurrent Collection Classes**  
 
-* BlockingQueue  
-* ArrayBlockingQueue 
-* SynchronousQueue 
-* PriorityBlockingQueue 
-* LinkedBlockingQueue 
-* DelayQueue 
-* BlockingDeque 
-* LinkedBlockingDeque 
-* TransferQueue 
-* LinkedTransferQueue 
-* ConcurrentMap 
-* ConcurrentHashMap 
-* ConcurrentNavigableMap 
-* ConcurrentSkipListMap
+* `BlockingQueue`  
+* `ArrayBlockingQueue` 
+* `SynchronousQueue` 
+* `PriorityBlockingQueue` 
+* `LinkedBlockingQueue`
+* `DelayQueue`
+* `BlockingDeque` 
+* `LinkedBlockingDeque` 
+* `TransferQueue` 
+* `LinkedTransferQueue` 
+* `ConcurrentMap` 
+* `ConcurrentHashMap` 
+* `ConcurrentNavigableMap` 
+* `ConcurrentSkipListMap`
 
 </blockquote>
 
@@ -260,7 +257,7 @@ The concurrent collection APIs of Java provides a range of classes that are spec
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-Enumeration and Iterator are two interfaces in java.util package which is used to traverse over the elements of a Collection object.
+Enumeration and Iterator are two interfaces in `java.util` package which is used to traverse over the elements of a Collection object.
 
 **Differences**  
 
@@ -271,7 +268,7 @@ Enumeration and Iterator are two interfaces in java.util package which is used t
 |`remove()` |(Not Available)     |
 
 
-| Sl.No |Enumeration               |Iterator                          |
+| S.No |Enumeration               |Iterator                          |
 |-------|----------------------------|----------------------------------|
 | 01.  |Using Enumeration, you can only traverse the collection. You can’t do any modifications to the collection while traversing it.    |Using an Iterator, you can remove an element of the collection while traversing it.|
 | 02.  |Enumeration is introduced in JDK 1.0| Iterator is introduced from JDK 1.2     |
@@ -295,7 +292,6 @@ Enumeration and Iterator are two interfaces in java.util package which is used t
 
 ```  java
 import java.util.*;
-
 public class Main {
     public static void main(String[] args) {
         ArrayList<Integer> al = new ArrayList<>();
@@ -307,7 +303,6 @@ public class Main {
         Collections.AA(al);
         Collections.BB(al);
         Collections.CC(al);
-
     }
 }
 
@@ -328,10 +323,13 @@ public class Main {
     <summary><b>Explanation</b></summary>
     
   <blockquote>
+   
    - `sort()` is used to sort elements in ascending order.
    - `shuffle()` is used to arrange elements in random order.
-   - `reverse()` is used to inverse the preexisting order of elements in a collection.
-    </blockquote>
+   - `reverse()` is used to inverse the pre-existing order of elements in a collection.
+   
+   </blockquote>
+    
    </details>
 
 
