@@ -83,3 +83,12 @@ import { Component } from '@angular/core';
 export class UserComponent {
 } 
 ```
+65. In the case of a Multi-line template, you need to use ______________ to enclose the template string.
+66. What is Lifecycle Hooks? List them.
+67. Which lifecycle hook executed first?
+68. Which lifecycle hook used to inject any dependencies into the component?
+69. Tell the order in wich lifecycle hooks get exceuted?
+70. Which lifecycle called only one?
+71. Which angular module has hook interfaces?
+72. What is module in angular?
+73. 
