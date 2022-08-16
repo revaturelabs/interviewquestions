@@ -7,7 +7,7 @@
 	
 <blockquote>
 	
-If an interface annotated with <code>@FunctionalInterface</code>, Java complier ensures that interface has only one abstract method.
+If an interface is annotated with <code>@FunctionalInterface</code>, Java complier ensures that interface has only one abstract method.
 	
 </blockquote>
 	
@@ -74,7 +74,7 @@ Yes
 	
 <details><summary><b>Explanation</b></summary>
 <blockquote>
-		The functional interface has been introduced in Java 8 to support the lambda expression, lambda expression is the instance of a functional interface.
+		The functional interface has been introduced in Java 8 to support the lambda expression. lambda expression is the instance of a functional interface.
 </blockquote>
 	</details>
 </details>
@@ -143,7 +143,7 @@ public class test {
 <blockquote>
 
 - The Anonymous classes should have only one abstract method so that it can be converted into lambda expression.
-- Functional interface is implemented using lambda expression. which is also called as SAM(Single Abstract Method)
+- Functional interface is implemented using lambda expression which is also called as SAM(Single Abstract Method)
 	
 </blockquote>
 </details>
@@ -194,7 +194,7 @@ It is used to implement a method defined by a functional interface.
 
 ---
 
-11. When does a functional interface can extend another interface?
+11. When does a functional interface extend another interface?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -227,7 +227,7 @@ It is used to implement a method defined by a functional interface.
 
 ---
 
-13. Does the functional interface allows static methods?
+13. Does the functional interface allow static methods?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -235,7 +235,7 @@ It is used to implement a method defined by a functional interface.
 	
 <blockquote>
 	
-JDK 8 allows static methods in the interface, before this only
+JDK 8 allows static methods in the interface, prior to this, only
 one abstract method is allowed in functional interface 
 
 </blockquote>
@@ -244,7 +244,7 @@ one abstract method is allowed in functional interface
 
 ---
 
-14. Is this Circle interface is a functional interface code snippet?
+14. Is Circle interface a functional interface code snippet?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -417,7 +417,7 @@ interface Arithmetic {
 	
 ## Problem-Solving
 	
-20. Below code gets two numbers form the user and prints the sum of it. Here we are using `sum` method to calculate the sum of two number. Achieve the same goal using lambda expression. 
+20. Below code gets two numbers from the user and prints the sum of it. Here we are using `sum` method to calculate the sum of two number. Achieve the same goal using lambda expression. 
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 	
@@ -465,7 +465,7 @@ interface Sum{
 <blockquote>
 
 
-A lambda expression is a short block of code that takes in parameters and returns a value. Which is similar to methods, but they do not need a name(Function name) and they can be implemented right in the body of a method.
+A lambda expression is a short block of code that takes in parameters and returns a value which is similar to methods, but they do not need a name(Function name) and they can be implemented right in the body of a method.
 	
 </blockquote>
 
@@ -549,7 +549,7 @@ It will throw a compile time error
 
 <details><summary><b>Explanation</b></summary>
 	
- >When a functional interface extends another interface it should not contain any abstract methods.
+ >When a functional interface extends another interface, it should not contain any abstract methods.
 	
 </blockquote>
 
