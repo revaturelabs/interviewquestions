@@ -50,7 +50,7 @@ The `HashMap` and `TreeMap` both are classes of the Java Collections framework. 
 
 |HashMap                           |TreeMap                           |
 |----------------------------------|----------------------------------|
-|Java `HashMap` is a hashtable-based implementation of Map interface.|Java `TreeMap` is a Tree structure-based implementation of `Map` interface.|
+| `HashMap` is a hashtable-based implementation of Map interface.|`TreeMap` is a Tree structure-based implementation of `Map` interface.|
 |`HashMap` implements `Map`, Cloneable, and Serializable interface.|`TreeMap` implements NavigableMap, Cloneable, and Serializable interface.|
 |`HashMap` allows a single null key and multiple null values.|`TreeMap` does not allow null keys but can have multiple null values.|
 |`HashMap` allows heterogeneous elements because it does not perform sorting on keys.|`TreeMap` allows homogeneous values as a key because of sorting.|
@@ -78,22 +78,21 @@ import java.util.*;
 
 public class ExistingKey {
     public static void main(String[] args) {
-        
         HashMap<String,Integer> hm = new HashMap<>();
-        hm.put("Krishna",1);
-        System.out.println(hm.get("Krishna"));
-        hm.put("Krishna",4);
-        System.out.println(hm.get("Krishna"));
+        hm.put("Java",1.5);
+        System.out.println(hm.get("Java"));
+        hm.put("Java",1.8);
+        System.out.println(hm.get("Java"));
         
     }
 }
 
 
 ```
-> the output of the program is :
-> 1<br>
-> 4 <br>
-> the value for Krishna is overridden from 1 to 4.
+> the output of the program is :<br>
+> 1.5<br>
+> 1.8 <br>
+> The value for Java is overridden from 1.5 to 1.8.
 
 
 
@@ -111,16 +110,13 @@ public class ExistingKey {
 
 ``` java
 import java.util.*;
-
 public class ExistingKey {
     public static void main(String[] args) {
-
         HashMap<String,Integer> hm = new HashMap<>();
-        hm.put("Krishna",1);
-        System.out.println(hm.get("Krishna"));
-        hm.putIfAbsent("Krishna",4);
-        System.out.println(hm.get("Krishna"));
-
+        hm.put("Java",1.5);
+        System.out.println(hm.get("Java"));
+        hm.putIfAbsent("Java",1.8);
+        System.out.println(hm.get("Java"));
     }
 }
 
@@ -128,12 +124,16 @@ public class ExistingKey {
 
 ```
 
-> the output of the program is :
->1
->1
-> the value for Krishna is not overridden as `putIfAbsent` adds key and value, only if it doesn't exist previously.
+> The output of the program is :<br>
+>1.5<br>
+>1.5<br>
+<details>
+<summary><b>Explanation</b></summary>
+    
+> The value for Java is not overridden because `putIfAbsent()` adds key and value, only if it doesn't exist previously.
 
 </details>
+    </details>
     
   ---
 
@@ -148,8 +148,7 @@ public class ExistingKey {
 <blockquote>
 
 - Collection view methods are used to view a `Map` as a Collection.
-- they are the only means to iterate over a `Map`.
-
+- They are the only means to iterate over a `Map`.
 - `keySet`:  the set of keys in the `Map`.
 - `values`: the Collection of values obtained from the `Map`.
 - `entrySet`: the set of key-value pairs from a `Map`. 
@@ -161,7 +160,7 @@ public class ExistingKey {
     
 ## Problem Solving
 
-1. Create a map in which each key has multiple values.
+7. Create a map in which each key has multiple values.
     
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -179,9 +178,7 @@ public class MultiMap {
         al.add("Sheldon Cooper");
         al.add("Leslie Winkle");
         al.add("Barry Kripkie");
-
-        Multimap.put("Theoreticl Physists",al );
-
+        Multimap.put("Theoretical Physists",al );
     }
 }
 
@@ -201,7 +198,7 @@ public class MultiMap {
 
  ---
 
-2. How to convert a `Map` of random order into a sorted  `Map`.
+8. How to convert a `Map` of random order into a sorted  `Map`.
     
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -219,7 +216,6 @@ public class OrderedMap {
         hm.put(2,"Albert Einsten");
         hm.put(3,"Michel Faraday");
         hm.put(4,"Issac Newton");
-
         TreeMap<Integer,String > tm = new TreeMap<>(hm);
     }
 }
@@ -243,7 +239,7 @@ public class OrderedMap {
     
   ---
 
-3. Write a program to order the `HashMap`based on the value?
+9. Write a program to order the `HashMap`based on the value?
     
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -259,7 +255,6 @@ public class ValueOrder {
         hm.put(2,"Albert Einsten");
         hm.put(3,"Michel Faraday");
         hm.put(4,"Issac Newton");
-
         hm.entrySet().stream().sorted(Map.Entry.comparingByValue()).forEach(System.out::println);
     }
 }
@@ -287,7 +282,7 @@ public class ValueOrder {
     
 ---
 
-4. Given a Sentence, print the frequency of each word in the list using a `HashMap`.
+10. Given a Sentence, print the frequency of each word in the list using a `HashMap`.
     
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -297,14 +292,11 @@ public class ValueOrder {
 
 ``` java
 import java.util.*;
-
 public class DistinctWords {
     public static void main(String[] args) {
-
         String sentence= "The world is full of obvious things, which nobody by any chance ever observes, I repeat nobody";
         String[] s = sentence.split(" ");
         HashMap<String,Integer> hm = new HashMap<>();
-
         for(String w: s)
         {
             Integer frequency = hm.get(w);
@@ -318,8 +310,6 @@ public class DistinctWords {
         }
         System.out.println(hm.size()+ " Distinct Words");
         System.out.println(hm);
-
-
     }
 }
 
@@ -338,7 +328,7 @@ public class DistinctWords {
     
 ---
 
-5. Write a program to check if a `Map` is a sub-map of another `Map`.
+11. Write a program to check if a `Map` is a sub-map of another `Map`.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -349,10 +339,8 @@ public class DistinctWords {
 
 ``` java
 import java.util.*;
-
 public class SubMap {
     public static void main(String[] args) {
-
         HashMap<String,Integer> Map1 = new HashMap<>();
         Map1.put("Jupiter",1);
         Map1.put("Saturn",2);
@@ -361,8 +349,6 @@ public class SubMap {
         Map2.put("Jupiter",1);
         Map2.put("Saturn",2);
         System.out.println(Map1.entrySet().containsAll(Map2.entrySet()));
-
-
     }
 }
 
@@ -383,7 +369,7 @@ public class SubMap {
     
 ---
 
-6. Write a program to get the common keys of two Maps.
+12. Write a program to get the common keys of two Maps.
     
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -395,10 +381,8 @@ public class SubMap {
 ``` java
 
 import java.util.*;
-
 public class CommonKeys {
     public static void main(String[] args) {
-
         HashMap<String,Integer> Map1 = new HashMap<>();
         Map1.put("Jupiter",1);
         Map1.put("Saturn",2);
@@ -409,8 +393,6 @@ public class CommonKeys {
         HashMap<String ,Integer> CommonKeys = new HashMap<>(Map1);
         CommonKeys.entrySet().retainAll(Map2.entrySet());
         System.out.println(CommonKeys.keySet());
-
-
     }
 }
 
@@ -421,7 +403,7 @@ public class CommonKeys {
 <details>
 <summary><b>Explanation</b></summary>
 
-- A new `HashMap` CommonKeys` is created to avoid changing the existing HashMaps and `retainAll()` methods to give the intersection of two Maps. 
+- A new `HashMap` CommonKeys is created to avoid changing the existing HashMaps and `retainAll()` methods to give the intersection of two Maps. 
 
 
 </details>
@@ -430,7 +412,7 @@ public class CommonKeys {
     
  ---
 
-7. Consider that a company stores the details of the employee as a key-value pair of employee names and managers, and writes a program to get only the details of non-managers.
+13. Consider that a company stores the details of the employee as a key-value pair of employee names and managers, and writes a program to get only the details of non-managers.
     
     
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
@@ -440,10 +422,8 @@ public class CommonKeys {
 
 ``` java
 import java.util.*;
-
 public class Employee {
     public static void main(String[] args) {
-
         HashMap<String,String> Employees = new HashMap<>();
         Employees.put("Dwight", "Michel");
         Employees.put("Jim","Michel");
@@ -451,7 +431,6 @@ public class Employee {
         HashSet<String> NonManagers = new HashSet<>(Employees.keySet());
         NonManagers.removeAll(Employees.values());
         System.out.println(NonManagers);
-
     }
 }
 
@@ -464,8 +443,8 @@ public class Employee {
 <blockquote>
 
 - Employees contain employee name as key and manager name as value
-- a `HashSet` is created with all the employee names
-- from the hash set all the manager names are removed by get the manager names from `Employee.values()`.
+- A `HashSet` is created with all the employee names
+- From the hash set all the manager names are removed by get the manager names from `Employee.values()`.
 - `removeAll()` method deletes all the values from the list that are present in a specific collection.
 
 
@@ -477,7 +456,7 @@ public class Employee {
     
 ---
 
-8. Write a program to print all the keys of a `Map`.
+14. Write a program to print all the keys of a `Map`.
     
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -486,10 +465,8 @@ public class Employee {
 
 ``` java
 import java.util.*;
-
 public class Employee {
     public static void main(String[] args) {
-
         HashMap<String,String> Employees = new HashMap<>();
         Employees.put("Dwight", "Michel");
         Employees.put("Jim","Michel");
@@ -497,7 +474,6 @@ public class Employee {
         for( String s: Employees.keySet()){
             System.out.println(s);
         }
-
     }
 }
 
@@ -514,7 +490,7 @@ public class Employee {
     
 ---
 
-9. Write a program to print all the values of a `Map`.
+15. Write a program to print all the values of a `Map`.
     
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -523,10 +499,8 @@ public class Employee {
 
 ``` java
 import java.util.*;
-
 public class Employee {
     public static void main(String[] args) {
-
         HashMap<String,String> Employees = new HashMap<>();
         Employees.put("Dwight", "Michel");
         Employees.put("Jim","Michel");
@@ -534,7 +508,6 @@ public class Employee {
         for( String s: Employees.values()){
             System.out.println(s);
         }
-
     }
 }
 
@@ -551,7 +524,7 @@ public class Employee {
     
  ---
 
-10. Write a program to print all the key-value pairs of a `Map`.
+16. Write a program to print all the key-value pairs of a `Map`.
     
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -560,19 +533,15 @@ public class Employee {
 
 ``` java
 import java.util.*;
-
 public class Employee {
     public static void main(String[] args) {
-
         HashMap<String,String> Employees = new HashMap<>();
         Employees.put("Dwight", "Michel");
         Employees.put("Jim","Michel");
         Employees.put("Michel","Jan");
-
         for( Map.Entry<String,String> emp : Employees.entrySet()){
             System.out.println(emp.getKey()+": "+emp.getValue());
         }
-
     }
 }
 
@@ -591,7 +560,7 @@ public class Employee {
 
 ## Scenario Based
 
-1. Consider that a country stores its citizen's data in a form of Aadhar number and age, a deadly virus outbreak led to a global shutdown and the country wants to vaccinate the older people first as they get easily infected by the virus. Which of the following best represents the scenario?
+17. Consider that a country stores its citizen's data in a form of Aadhar number and age, a deadly virus outbreak led to a global shutdown and the country wants to vaccinate the older people first as they get easily infected by the virus. Which of the following best represents the scenario?
     
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
