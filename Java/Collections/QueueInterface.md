@@ -9,6 +9,7 @@
 > Consider that there are two states "Ready for processing"(RFP) and " On Hold " (OH), the head is in the "RFP" state and all the elements behind the head are in the "OH" state. so elements in the queue are in pre processing state.
 > - Queue Interface is used to implement a queue in java.
   
+![Queue Interface](https://user-images.githubusercontent.com/103101208/184882415-4ff432b0-e6ae-4e92-a5f2-ba15675458b6.jpg)
   
 
 
@@ -134,7 +135,7 @@
 
 - `BlockingQueue` is similar to queue but it supports some operations like waiting for the queue to be non-empty to retrieve an element and waiting till the space is available to insert the elements.
 
-- BlockingQueue doesn't accept null elements.
+- `BlockingQueue` doesn't accept null elements.
 </blockquote>
 
 
@@ -275,10 +276,25 @@ D. O(n <sup>2</sup>)
 </details>
 
 ---
+16. What is the Difference between Queue and ArrayDeque?
+
+<details>
+  <summary><b>Show Answer</b></summary>
+  
+<blockquote>
+  
+  
+  
+  </blockquote>
+  
+  
+</details>
+
+
 
 ## Problem Solving
 
-16.  What are AA, BB, CC and DD?
+17.  What are AA, BB, CC and DD?
 
 ``` java
 ArrayDeque<Integer> ad = new ArrayDeque<>();
@@ -295,10 +311,10 @@ d. ad.DD(e): to get an element from the front end.
 <blockquote>
 
 
-- AA is offerFirst() or addFirst().
-- BB is pollLast() or removeLast().
-- CC is offer() or add().
-- DD is poll() or remove().
+- AA is `offerFirst()` or `addFirst()`.
+- BB is `pollLast()` or `removeLast()`.
+- CC is `offer()` or `add()`.
+- DD is `poll()` or `remove()`.
 
 </blockquote>
 
@@ -306,7 +322,7 @@ d. ad.DD(e): to get an element from the front end.
 
 ---
 
-17. Predict the output of the following code snippet.
+18. Predict the output of the following code snippet.
 
 ``` java
 
@@ -321,13 +337,13 @@ System.out.println(ad.pop());
 <summary><b>Show Answer</b></summary>
 
 > - 4
-> - ArrayDeque acts like a stack , so `push(element)` and `pop()` can be implemented.
+> - `ArrayDeque` acts like a stack , so `push(element)` and `pop()` can be implemented.
 
 </details>
 
 ---
 
-18. Predict the output of the following code snippet. 
+19. Predict the output of the following code snippet. 
 
 ``` java
 ArrayDeque<Integer> ad = new ArrayDeque<>();
@@ -341,13 +357,13 @@ System.out.println(ad.poll());
 <summary><b>Show Answer</b></summary>
 
 > -  4
-> -  ArrayDeque acts like a queue , so `offer(element)` and `poll()` can be implemented.
+> -  `ArrayDeque` acts like a queue , so `offer(element)` and `poll()` can be implemented.
 
 </details>
 
 ---
 
-19. Predict the output of the following code snippet. 
+20. Predict the output of the following code snippet. 
 
 ``` java
 ArrayDeque<Integer> ad = new ArrayDeque<>();
@@ -361,14 +377,14 @@ System.out.println(ad.remove());
 <summary><b>Show Answer</b></summary>
 
 > - 1
-> - ArrayDeque acts like a List , so `add(element)` and `remove()` can be implemented.
+> - `ArrayDeque` acts like a `List` , so `add(element)` and `remove()` can be implemented.
 </details>
 
 
 
 ## Real-time Application
 
-20. There is a movie premiere and people should walk through the red carpet before they are allowed into the movie theatre. people walk on the carpet based on their importance, The order goes like, Produce, Director, lead Actors, supporting actors and the list continues. Which of the following best represents the following scenario?
+21. There is a movie premiere and people should walk through the red carpet before they are allowed into the movie theatre. people walk on the carpet based on their importance, The order goes like, Produce, Director, lead Actors, supporting actors and the list continues. Which of the following best represents the following scenario?
 
 A. `ArrayDeque` <br>
 B. `PriorityQueue` <br>
