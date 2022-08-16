@@ -79,7 +79,8 @@ import java.time.format.DateTimeFormatter;
 
 public class test3 {
  public static void main(String[] args) {    
-        DateTimeFormatter pattern = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");         System.out.println(LocalDateTime.now().format(pattern));
+        DateTimeFormatter pattern = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");         
+        System.out.println(LocalDateTime.now().format(pattern));
  }
 }
 ```
