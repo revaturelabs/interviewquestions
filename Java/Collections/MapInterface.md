@@ -46,7 +46,7 @@ HashMap and Hashtable both are used to store data in key and value form. Both ar
 <summary><b>Show Answer</b></summary>
 
 
-Java `HashMap` and `TreeMap` both are classes of the Java Collections framework. Java Map implementation usually acts as a bucketed hash table. When buckets get too large, they get transformed into nodes of TreeNodes, each structured similarly to those in java.util.TreeMap.
+The `HashMap` and `TreeMap` both are classes of the Java Collections framework. Java Map implementation usually acts as a bucketed hash table. When buckets get too large, they get transformed into nodes of TreeNodes, each structured similarly to those in java.util.TreeMap.
 
 |HashMap                           |TreeMap                           |
 |----------------------------------|----------------------------------|
