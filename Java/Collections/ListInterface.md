@@ -155,7 +155,7 @@ al2.addAll(0,al2);
 
 ---
 
-8. How to get an element from a specific position in a list?
+8. How to retrieve an element from a specific position in a list?
 
 <details>
 
