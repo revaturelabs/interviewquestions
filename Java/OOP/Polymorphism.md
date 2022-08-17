@@ -18,6 +18,8 @@
  </details>
 </details>
 
+---
+
 2. John got a recipe for cookies from his mother, but john likes choco chips, so he altered the original cookie recipe, 
    this is an example for?
 
@@ -32,6 +34,8 @@
 > John inherited The original recipe(a method) is  from his mother(parent class) and he altered the recipe.
    </details>
     </details>
+    
+---
 
 ## Technical
 
@@ -74,6 +78,8 @@ public class Languages {
   </blockquote>
 </details>
  </details>
+   
+ ---
 
 2. What is static polymorphism?
 
@@ -86,6 +92,8 @@ public class Languages {
 > Static Polymorphism is also called Compile time Polymorphism or Method overloading. The method behavior is decided during compile-time in static polymorphism.
   
 </details>
+    
+ ---
 
 3. What is Dynamic polymorphism?
 
@@ -95,6 +103,8 @@ public class Languages {
 > Dynamic Polymorphism is also called Run-time Polymorphism or Method overriding. The method behavior is decided during runtime in static polymorphism.
   
 </details>
+    
+ ---
 
 4. Which of the following is an example of static binding?
 
@@ -117,6 +127,8 @@ public class Languages {
 
 </details>
   </details>
+    
+ ---
 
 
 ## Problem solving
@@ -152,6 +164,8 @@ public class Languages {
 
 </details>
 </details>
+    
+ ---
 
 
 
@@ -198,6 +212,8 @@ The outcome of the program is the compile-time error and it's caused because the
   
   </details>
    </details>
+    
+ ---
 
 
   2. Find the error in the following program.  
@@ -243,6 +259,8 @@ public class Area{
   
   </details>
      </details>
+    
+ ---
 
 
 
