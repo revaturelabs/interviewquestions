@@ -2,7 +2,7 @@
 2. What is SPA?
 3. How SPA is different from tradtional web application?
 4. List some of the features of Angular application.
-5. Angular Framework written using  ____________
+5. In which language Angular is written?
 6. What is use of npm?
 7. What is use of Node.js ?
 8. Can we run the javascript file using Node.js?
@@ -16,13 +16,13 @@
 17. What is the difference between `npm update` and `npm update -g` command
 18. What happens if I run `npm init` in the terminal
 19. Can I run angular application using `npm start` command
-20. `npm build` used to ____________
-21. Node.js is  ______________ built on ____________
+20. What is use of `npm build` command?
+21. What is Node.js used for?
 22. How can I convert `.ts` file to `.js` file?
-23. All npm packages are in ___________
+23. Where all npm packages are in?
 24. What is difference between AngularJS and Angular?
 25. How JavaScript is different from TypeScript
-26. TypeScript using ________ typing and JavaScript using ______ typing
+26. What kind of typing used in JavaScript and TypeScript?
 27. What is the latest version of Angular?
 28. Does Angular support mobiles?
 29. Does refreshing a whole pade needed in SPA?
@@ -36,7 +36,7 @@
 37. What does Angular CLI do?
 38. How do you install Angular CLI?
 39. How do you create any angular application?
-40. Angular by default will serve application on port ________
+40. What is the default port will serve angular application?
 41. How do you serve the angular application?
 42. What is the difference between `ng serve -o` and `ng serve`
 43. What is the difference between `npm start` and `ng serve`
