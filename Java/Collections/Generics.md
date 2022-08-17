@@ -8,7 +8,7 @@
 
 <blockquote>
 
-It force the Java programmer to store a specific type of objects to make it type-safe.Which makes the code stable by detecting the bugs at compile time.
+It forces the Java programmer to store specific type of objects to make it type-safe which makes the code stable by detecting the bugs at compile time.
 
 Before generics, we can store any type of objects in the collection, i.e., non-generic. 
 
@@ -28,7 +28,7 @@ Before generics, we can store any type of objects in the collection, i.e., non-g
 
 <blockquote>
 
-The Object is the superclass of all other classes, and Object reference can refer to any object . Which leads to lack type safety.So we should use Generic toi make it  type safe. 
+The Object is the superclass of all other classes, and Object reference can refer to any object which leads to lack of type safety. So, we should use Generic to make it type safe. 
 
 <b>Example</b>: The  `HashSet`, `ArrayList`, `HashMap` classes in collections  will use generics.
 
@@ -87,7 +87,7 @@ The common type parameters used are:
 
 ---
 
-5. How to invoke and instantiate a genric type?
+5. How to invoke and instantiate a generic type?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -95,7 +95,7 @@ The common type parameters used are:
 
 <blockquote>
 
-- For `generic type invocation`, we should replaces `T` with some concrete value, such as `Integer`.Like a normal invocation instead of passing an argument to a method, you are passing a `type argument — Integer`.The `integerBox` will hold the reference.An invocation of a generic type is generally known as a <b>parameterized type</b>.
+- For `generic type invocation`, we should replace `T` with some concrete value, such as `Integer`. Like a normal invocation instead of passing an argument to a method, you are passing a `type argument — Integer`. The `integerBox` will hold the reference. An invocation of a generic type is generally known as a <b>parameterized type</b>.
 
     `Draw<Integer> integerBox;`
 
@@ -116,7 +116,7 @@ The common type parameters used are:
 
 <blockquote>
 
-- Wildcard element means any type represented by the `? (question mark)` symbol.It can be used as a type 
+- Wildcard element means any type represented by the `? (question mark)` symbol. It can be used as a type 
   of a parameter, field, return type, or local variable.
 - If we write `<? extends Number>`, it means any child class of Number, e.g., Integer, Float, and 
   double. Now we can call the method of Number class through any child class object.
@@ -149,7 +149,7 @@ The common type parameters used are:
 
 ---
 
-8. How to decide which type of wildcard best suits the condition?
+8. How to decide on which type of wildcard best suits the condition?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -158,9 +158,9 @@ The common type parameters used are:
 <blockquote>
 
 - It is based on the type of parameters passed to a method as <b>in</b> and <b>out</b> parameter.
-    - <b>in variable</b> −which provides data to the code. For example, copy(src, dest). Here src acts as <b>in variable</b>  being data to be copied.
+    - <b>in variable</b> −which provides data to the code. For example, copy(src, dest). Here, src acts as <b>in variable</b> data to be copied.
 
-    - <b>out variable</b> −which holds data updated by the code. For example, copy(src, dest). Here dest acts as <b>out variable</b> having copied data.
+    - <b>out variable</b> −which holds data updated by the code. For example, copy(src, dest). Here, dest acts as <b>out variable</b> having copied data.
 
  </blockquote>
  
@@ -184,7 +184,7 @@ No
 
 <blockquote>
 
-Java generics cannot be applied to primitive types, because the parameters in generics of non-primitive data types.
+Java generics cannot be applied to primitive types, because the parameters in generics are of non-primitive data types.
  
 </blockquote>
  
@@ -196,7 +196,7 @@ Java generics cannot be applied to primitive types, because the parameters in ge
 
 ## Problem Solving
 
-10. Write a Java program to show working of user defined Generic class to display the message <b>"Generic methods will have own type parameters"</b>?
+10. Write a Java program to show the working of user defined Generic class to display the message <b>"Generic methods will have own type parameters"</b>?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -236,7 +236,7 @@ class Main {
 
 ---
 
-11. Write a Java program to show working of user defined Generic functions to display the message <b>"Generic methods"</b> and value <b>1.0</b>?
+11. Write a Java program to show the working of user defined Generic functions to display the message <b>"Generic methods"</b> and value <b>1.0</b>?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -274,7 +274,7 @@ class Test {
 </details>
 
 ---
-12. How will write the below class into a class using generics?
+12. How would you write the below class into a class using generics?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
