@@ -522,7 +522,7 @@ D. None of the Above
 
 ---
 
-2. Indiana Jones is going for a treasure hunt and he needs a backpack to store the valuable items throughout his journey, if he finds out that an item he stored in the backpack is fake he takes it throws it away, and he never takes any item out of his back till the journey ends. which of the following is the best option?
+2. Indiana Jones is going for a treasure hunt and he needs a backpack to store the valuable items throughout his journey, if he finds out that an item he stored in the backpack is fake, he takes it throws it away, and he never takes any item out of his backpack till the journey ends. which of the following is the best option?
  
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
