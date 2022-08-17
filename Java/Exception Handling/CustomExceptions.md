@@ -1,6 +1,6 @@
 ## Custom Exceptions
 
-1.What is use of Custom Exceptions?
+1.What is the use of Custom Exceptions?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -80,7 +80,7 @@ Exception occured:InvalidAgeException:An individual age is not eligible to vote
 
 ---
 
-4.Predict the output of  the following code.
+4.Predict the output of the following code.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -122,13 +122,8 @@ Caught MyException[101]
 
 <details><summary><b> Explanation</b></summary>
   
->A subclass of Exception called CustomException is defined. This subclass
-is quite simple: it has only a constructor plus an overloaded `toString( )` method that
-displays the value of the exception. The CustomDemo class defines a method
-named `validate( )` that throws a CustomException object. The exception is thrown when
-`validate( )` integer parameter is greater than 100. The `main( )` method sets up an
-exception handler for CustomException, then calls `validate( )`  with a legal value (less
-than 100) and an illegal one to show both paths through the code.
+>A subclass of Exception called CustomException is defined. This subclass is quite simple: it has only a constructor plus an overloaded `toString( )` method that
+displays the value of the exception. The CustomDemo class defines a method named `validate( )` that throws a CustomException object. The exception is thrown when`validate( )` integer parameter is greater than 100. The `main( )` method sets up an exception handler for CustomException, then calls `validate( )`  with a legal value (less than 100) and an illegal one to show both paths through the code.
   
 </details>
 </details>
