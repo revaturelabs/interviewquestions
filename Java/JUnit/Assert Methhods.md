@@ -109,7 +109,7 @@ void groupedAssertions() {
 
 <blockquote>
 
-- The two assertEquals method will exceute even if a assert fails , because of assertAll method in the testcase.
+The two assertEquals method will exceute even if a assert fails , because of assertAll method in the testcase.
 
 </blockquote>
 
@@ -175,7 +175,7 @@ By declaring the assertion statement in the try block with the message to be dis
 <blockquote>
 
 - An exception is an abnormal event that occurs during the execution of the program and disrupts the normal flow of the program. 
-- Assertion enables you to test your assumptions about the program logic, contains a boolean expression  will be true when the program executes. If it is not true, the JVM will throw an `AssertionError`.
+- Assertion enables you to test your assumptions about the program logic, contains a boolean expression  will be true when the program executes. If it is not true,   the JVM will throw an `AssertionError`.
 
 </blockquote>
 
