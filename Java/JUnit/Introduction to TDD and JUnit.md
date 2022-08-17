@@ -5,8 +5,7 @@
 <details><summary><b> Show Answer </b></summary>
 
 - A method validates a small piece of code.
-- It takes the initial data, passes it to the code under test, and asserts if the execution result is   
-  the same as the expected result.
+- It takes the initial data, passes it to the code under test, and asserts if the execution result is the same as the expected result.
 
 </details>
 
@@ -16,10 +15,8 @@
 
 <details><summary><b> Show Answer </b></summary>
 
-- It is a software development approach, where test cases are developed to specify and validate the 
-  purpose of code.
-- Which will create a test and functionality first and if the code fails then new code will be created  
-  to make the code pass. To make code bug-free.
+- It is a software development approach, where test cases are developed to specify and validate the purpose of code.
+- Which will create a test and functionality first and if the code fails then new code will be created 0to make the code pass and to make code bug-free.
 
 </details>
 
@@ -29,7 +26,7 @@
 
 <details><summary><b> Show Answer </b></summary>
 
-- It has the following phases to go through.
+- It has the following phases to go through:
     -Write a test
     -Make it run.
     -Change the code to make it right i.e. Refactor.
@@ -68,7 +65,7 @@
 <details><summary><b> Show Answer </b></summary>
 
 - TDD focuses on understanding the problem domain and fulfilling the requirements.Whcih must be written before the feature that they cover.
-- whereas, unit tests are to validate the written source code and avoiding bugs and regression. <b>In fact,unit tests are part of the TDD cycle.</b>.Where unit tests can be written at any time, e.g., during or after the feature development.
+- Whereas, unit tests are to validate the written source code and avoiding bugs and regression. <b>In fact,unit tests are part of the TDD cycle.</b>.Where unit tests can be written at any time, e.g., during or after the feature development.
 
 </details>
 
@@ -89,11 +86,9 @@
 
 <details><summary><b> Show Answer </b></summary>
 
-- Which is the testing framework for Java programming language. It is important in test-driven       
-  development. 
+- Which is the testing framework for Java programming language. It is important in test-driven development. 
 - Unit testing is used to test/verify a small piece of code by craeting methods. 
-- JUnit is to create a set of unit tests that can be run automaticcaly when changes are done in the   
-  software.
+- JUnit is to create a set of unit tests that can be run automaticcaly when changes are done in the software.
 
 </details>
 
