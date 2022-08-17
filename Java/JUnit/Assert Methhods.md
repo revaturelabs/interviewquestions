@@ -6,12 +6,10 @@
 
 <details><summary> Show Answer </summary>
 
->- It is to compare the actual result and excepcted result to evaluate whether the executed testcase is 
-  pass or fail.
+>- It is to compare the actual result and excepcted result to evaluate whether the executed testcase is pass or fail.
   <img width="708" alt="Capture2" src="https://user-images.githubusercontent.com/92523245/184349147-a2fcf3a9-99c8-4e43-b247-f8f968f307fe.PNG">
 
->- All assertion methods are avaialable in JUnit `assert` class.So we need to import assert class in 
-  JUnit as below. 
+>- All assertion methods are available in JUnit `assert` class.So,we need to import assert class in JUnit as below. 
 
 `@import static org.junit.Assert.*;`
 
@@ -38,7 +36,7 @@
 
 ---
 
-3. What will happen if assertion fails when it is execute?
+3. What happens if assertion fails when it is execute?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -50,7 +48,7 @@
 
 ---
 
-4. Write the syntax for declaring the assert methods?
+4. Write the syntax for declaring the assert methods.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -58,7 +56,7 @@
 
 <blockquote>
 
-Assert methods should be with boolean expression in two different ways
+Assert methods should be with boolean expression in two different ways:
 
 - `assert expression;`
 - `assert expression1 : expression2;`
@@ -69,7 +67,7 @@ Assert methods should be with boolean expression in two different ways
 
 ---
 
-5. Write the syntax for enabling assertion statement in Java source code?
+5. Write the syntax for enabling assertion statement in Java source code.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -77,7 +75,7 @@ Assert methods should be with boolean expression in two different ways
 
 <blockquote>
 
-- By default assertions methods are disbled. To make it enabled need to run the below code
+By default assertions methods are disbled. To make it enabled need to run the below code
  `java –ea Test` or `java –enableassertions Test`
 
 </blockquote>
@@ -86,7 +84,7 @@ Assert methods should be with boolean expression in two different ways
 
 ---
 
-6. What should we do,if we want to check all the asserts in a testcase even if a asserts fails in execution?
+6. What should we do,if we want to check all the asserts in a testcase even if asserts fails in execution?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
