@@ -10,13 +10,13 @@
 
 ---
 
-2.Why the rest of the code in the try block will not execute.
+2.Why the rest of the code in the try block will not be execute?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 	
->whenever an exception is occurred in the try block the rest of the code will not execute.
+Whenever an exception is occurred in the try block the rest of the code will not execute.
 	
 </details>
 
@@ -40,7 +40,7 @@
 
 ---	
 
-4.Can we have multiple catch blocks with the single try block.	
+4.Can we have multiple catch blocks with the single try block?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
