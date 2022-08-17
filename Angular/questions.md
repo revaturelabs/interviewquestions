@@ -5,7 +5,7 @@
 5. Angular Framework written using  ____________
 6. What is use of npm?
 7. What is use of Node.js ?
-8. Why we need Node.js for Angular?
+8. Can we run the javascript file using Node.js?
 9. What are the main components in the npm?
 10. How do you check Node.js installed successfully in your system?
 11. Why do we need Node.js for Angular?
