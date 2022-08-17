@@ -23,7 +23,7 @@
 	
 ---
 	
-3Predict the output of the following code.
+3.Predict the output of the following code.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -106,7 +106,7 @@ public class throw2 {
 
 ---
 
-6.Whatis the syntax of `throws` statement?
+6.What is the syntax of `throws` statement?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -122,7 +122,7 @@ return_type method_name() throws exception_class_name{
 
 ---
 
-7:Predict the output of the following code.
+7.Predict the output of the following code.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -160,7 +160,7 @@ System.out.println("exception handled");
 ---
 
 
-8:Differentiate `throw` Vs `throws` statement?
+8.Differentiate `throw` Vs `throws` statement.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -178,7 +178,7 @@ System.out.println("exception handled");
 
 ---
 
-9:Predict the output of the following code.
+9.Predict the output of the following code.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -213,7 +213,7 @@ public class Throw1{
 
 ---
 
-10:Predict the output of the following code.
+10.Predict the output of the following code.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -248,21 +248,21 @@ public class Throws2 {
 
 ---
 
-11:Differentiate final,finally,finalize statements?
+11.Differentiate `final`,`finally` and `finalize` statements.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 	
->- final is the keyword and it is an access modifier which is used to apply restrictions on a class, method or variable.final variable becomes constant and cannot be modified once it is declared.It cannot be overridden by sub class.final class cannot be inherited.It is executed only when we call it.
->- finally is the block in Exception Handling to execute the important code whether the exception occurs or not.It is always related to the try and catch block in exception handling.finally block cleans up all the resources used in try block.It is executed as soon as the try-catch block is executed.It's execution is not dependant on the exception.
->- finalize is the method in Java which is used to perform clean up processing for the object which is garbage collected.finalize() method is used with the objects.It performs the cleaning activities with respect to the object before its destruction.It is executed just before the object is destroyed.
+>- `final` is the keyword and it is an access modifier which is used to apply restrictions on a class, method or variable.final variable becomes constant and cannot be modified once it is declared.It cannot be overridden by sub class.final class cannot be inherited.It is executed only when we call it.
+>- `finally` is the block in Exception Handling to execute the important code whether the exception occurs or not.It is always related to the try and catch block in exception handling.finally block cleans up all the resources used in try block.It is executed as soon as the try-catch block is executed.It's execution is not dependant on the exception.
+>- `finalize` is the method in Java which is used to perform clean up processing for the object which is garbage collected.finalize() method is used with the objects.It performs the cleaning activities with respect to the object before its destruction.It is executed just before the object is destroyed.
 	
 </details>
 
 ---
 
-12:Predict the output of the following code.
+12.Predict the output of the following code.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -292,7 +292,7 @@ public class finalvariable {
 
 ---
 
-13:Predict the output of the following code.
+13.Predict the output of the following code.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -316,18 +316,18 @@ public class finalvariable {
  ```   
 <details><summary><b> Show Answer</b></summary>
 	
->Inside try block Exception handled / by zero finally block is executed
+>Inside try block Exception handled / by zero finally block is executed.
 
 <details><summary><b> Explanation</b></summary>
 
->The finally block gets executed if the exception is occurred or not 
+>The finally block gets executed if the exception is occurred or not.
 
 </details>
 </details>
 
 ---
 
-14:Predict the output of the following code.
+14.Predict the output of the following code.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -355,14 +355,14 @@ The finalize() method called
 ```
 <details><summary><b> Explanation</b></summary>
 
->finalize method is executed just before the object obj is destroyed.
+>`finalize` method is executed just before the object obj is destroyed.
 
 </details>
 </details>
 
 ---
 
-15:Explain Exception Propagation?
+15.Explain Exception Propagation.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -375,7 +375,7 @@ The finalize() method called
 
 ---
 
-16:Predict the output of the following code.
+16.Predict the output of the following code.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -413,7 +413,7 @@ The finalize() method called
 
 ---
 
-17:Explain Exception Handling with Method Overriding?
+17.Explain Exception Handling with Method Overriding.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -427,7 +427,7 @@ The finalize() method called
 
 ---
 
-18:Predict the output of the following code.
+18.Predict the output of the following code.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -463,7 +463,7 @@ msg() in ExceptionChild cannot override msg() in Message
 
 ---
 
-19:Predict the output of the following code.
+19.Predict the output of the following code.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
