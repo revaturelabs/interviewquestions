@@ -16,7 +16,7 @@
 </details>
 
 
-
+---
 
 2. English language vocabulary is comprised of old germanic, French, and Latin words, this is an example for? 
 
@@ -32,7 +32,7 @@
 </details>
 
 
-
+---
 
 
 ## Technical
@@ -45,6 +45,7 @@
 Ans: In java, a class can not extend more than one class. To achieve multiple Inheritance, one can create multiple interfaces and create a class that implements multiple Interfaces.
 </details>
 
+---
 2. What is Hybrid Inheritance?
 <details>
 <summary><b> Show Answer</b></summary>
@@ -52,6 +53,7 @@ Ans: In java, a class can not extend more than one class. To achieve multiple In
 Ans: Simple inheritance, multilevel inheritance, and multiple inheritances are the different types of Inheritance in java, combining two or many of these is considered Hybrid Inheritance.
 </details>
 
+---
 3. What is Multilevel Inheritance?
 <details>
 <summary><b> Show Answer</b></summary>
@@ -59,6 +61,7 @@ Ans: Simple inheritance, multilevel inheritance, and multiple inheritances are t
 <b>Ans</b>:  A superclass is extended by a subclass and the subclass is extended by another subclass. The US government provides funds to Texas and the Texas government provides funds to Austin, here funds are an object, and the US, Texas, and Austin are classes.
 </details>
 
+---
 4. What is simple Inheritance?
 <details>
 <summary><b> Show Answer</b></summary>
@@ -66,6 +69,7 @@ Ans: Simple inheritance, multilevel inheritance, and multiple inheritances are t
 <b>Ans</b>: the relation between a superclass which gets extended by a single subclass is called Simple Inheritance.
 </details>
 
+---
 5. Differentiate Aggregation and Inheritance.
 <details>
 <summary><b> Show Answer</b></summary>
@@ -75,6 +79,7 @@ Aggregation: Has-a Relationship is implemented in aggregation.
 Inheritance: Is- a Relationship is implemented in Inheritance.
 </details>
 
+---
 6. How can a subclass use the private fields of a superclass?
 
 <details>
@@ -88,6 +93,7 @@ Inheritance: Is- a Relationship is implemented in Inheritance.
   
 </details>
 
+---
 7. Which of the following is invalid in java?
 
 - A.Multiple Inheritance of state
@@ -103,6 +109,7 @@ Inheritance: Is- a Relationship is implemented in Inheritance.
 
 </details>
 
+---
 8. Why is a class restricted to extend a single class in java?
 
 <details><summary>Show Answer</summary>
@@ -111,6 +118,7 @@ Inheritance: Is- a Relationship is implemented in Inheritance.
 
 </details>
 
+---
 9. What is Multiple Inheritance of state and why is it not possible to implement it in java?
 
 <details><summary>Show Answer</summary>
@@ -121,6 +129,7 @@ Exteding more than one class leads to multiple inheritance of state in java.
 
 </details>
 
+---
 10. What is Upcasting?
 
 <details>
@@ -136,6 +145,7 @@ Parent p = new Child();
 	
 </details>
 
+---
 11. What is Downcasting?
 
 <details>
@@ -151,7 +161,7 @@ Child c= (Child) new Parent();
 </details>
 
 
-
+---
 
 
 ## Problem solving
@@ -211,7 +221,7 @@ class Japan extends Olympics{
 </details>
 
 
-
+---
 
 
 ## Error Detection
@@ -250,6 +260,7 @@ public final class Car{
   <b>Explanation</b>: Class KIA is trying to inherit the final class Car. It's not possible to inherit a final class.
 </details>
 
+---
 2. What is the output of the following code?
 ``` java
 public final class Car{
@@ -283,6 +294,7 @@ public final class Car{
   <b>Explanation</b>: final class can not be inherited but no object is created for the subclass and no subclass methods are implemented, So there is no error in the code.
 </details>
 
+---
 3. What is the error in the following code snippet? correct the error.
 
 ``` java
@@ -310,6 +322,7 @@ Main m = o;
 
 </details>
 
+---
 4. The object declared in the below code snippet is type casted but it may or may not be of type Main, How does a programmer avoid runtime error?
 
 ``` java
