@@ -1,4 +1,4 @@
-1:Explain default exception handling? 
+1.Explain default exception handling? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
