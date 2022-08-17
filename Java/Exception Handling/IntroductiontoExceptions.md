@@ -1,4 +1,4 @@
-1.Explain the  mechanism which is used to handle the runtime errors.
+1.Explain the mechanism which is used to handle the runtime errors.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -10,7 +10,7 @@
 
 ---
 
-2.Which is the root class of  all the Exception classes.
+2.Which is the root class of all the Exception classes?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -21,7 +21,7 @@
 
 ---
 
-3.What are the derived classes of the Exception class.
+3.What are the derived classes of the Exception class?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -33,7 +33,7 @@
 
 ---
 
-4.What is the event that disrupts the normal flow of the program.
+4.What is the event that disrupts the normal flow of the program?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -57,7 +57,7 @@
 
 ---
 
-6.What are the derived classes of the IndexOutOfBoundsException class
+6.What are the derived classes of the IndexOutOfBoundsException class?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -69,7 +69,7 @@
 
 ---
 
-7.Which is the base class of StackOverflowError and  VirtualMachineError class.
+7.Which is the base class of StackOverflowError and  VirtualMachineError class?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -81,7 +81,7 @@
 
 ---
 
-8.What are the keywords that is used to handle exceptions.
+8.What are the keywords that is used to handle exceptions?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
