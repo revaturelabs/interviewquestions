@@ -238,10 +238,7 @@ Original cause: java.lang.ArithmeticException: cause
 
 <details><summary><b> Show Answer</b></summary>
 	
->Types of RunTime exceptions
-	
-<details><summary><b> Explanation</b></summary>
-	
+>Types of RunTime exceptions		
 >- ArithmeticException is thrown when an exceptional condition has occurred in an arithmetic operation.
 >- ArrayIndexOutOfBoundsException is thrown to indicate that an array has been accessed with an illegal index. The index is either negative or greater than or equal to the size of the array.	
 >- ClassNotFoundException is raised when we try to access a class whose definition is not found.
@@ -280,7 +277,7 @@ Original cause: java.lang.ArithmeticException: cause
 
 ---
 
-13:Predict the output of  the following code.
+13.Predict the output of the following code.
  ``` java 
 class ExceptionNumber
 {
@@ -308,7 +305,7 @@ class ExceptionNumber
 
 ---
 
-14:Predict the output of  the following code.
+14.Predict the output of  the following code.
  ``` java 
 public class ExceptionString
 {
@@ -339,7 +336,7 @@ public class ExceptionString
 
 ---
 
-15:Predict the output of  the following code.
+15.Predict the output of the following code.
  ``` java 
 class ExceptionString1
 {
