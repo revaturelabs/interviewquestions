@@ -53,7 +53,7 @@
 >- Flyweight pattern is used when we need to create a lot of Objects of a class. Since, every object consumes memory space the flyweight design pattern can be applied to reduce the load on memory by sharing objects. String Pool implementation in java is one of the best examples of Flyweight pattern implementation. 
 >- Facade pattern is used to help client applications to easily interact with the system. 
 >- Bridge patterns have interface hierarchies in both interfaces as well as implementations, then the bridge design pattern is used to decouple the interfaces from implementation and hiding the implementation details from the client programs. 
->- Decorator pattern is used to modify the functionality of an object at runtime. At the same time, other instances of the same class will not be affected by this, so,individual object gets the modified behavior. 
+>- Decorator pattern is used to modify the functionality of an object at runtime. At the same time, other instances of the same class will not be affected by this. So,individual object gets the modified behavior. 
 
 </details>
 
@@ -70,7 +70,7 @@
 >- Chain of responsibility pattern is used to achieve loose coupling in software design where a request from the client is passed to a chain of objects to process them. Then the object in the chain will decide who will be processing the request and whether the request is required to be sent to the next object in the chain or not. We know that we can have multiple catch blocks in a try-catch block code. Here every catch block is kind of a processor to process that particular exception. So,when an exception occurs in the try block, it’s sent to the first catch block to process. If the catch block is not able to process it, it forwards the request to the next object in chain i.e next catch block. If even the last catch block is not able to process it, the exception is thrown outside of the chain to the calling program. 
 >- Observer  pattern is useful when you are interested in the state of an object and want to get notified whenever there is any change. In observer pattern, the object that watches on the state of another object is called Observer and the object that is being watched is called Subject. Java provides an inbuilt platform for implementing Observer pattern through java.util.Observable class and java.util.Observer interface. 
 >- Strategy pattern is used when we have multiple algorithms for a specific task and the client decides the actual implementation be used at runtime. A strategy pattern is also known as Policy Pattern. We define multiple algorithms and let client applications pass the algorithm to be used as a parameter. One of the best examples of this pattern is the Collections.sort() method that takes the Comparator parameter. Based on the different implementations of Comparator interfaces, the Objects are getting sorted in different ways. 
->- Command pattern is used to implement loose coupling in a request-response model. In command pattern, the request is send to the invoker and invoker pass it to the encapsulated command object. Command object passes the request to the appropriate method of receiver to perform the specific action. Let’s say we want to provide a File System utility with methods to open, write, and close the file and it should support multiple operating systems such as Windows and Unix. To implement our File System utility, first of all, we need to create the receiver classes that will actually do all the work. Since we code in terms of Java interfaces, we can have FileSystemReceiver interface and it’s implementation classes for different operating system flavors such as Windows, Unix, Solaris, etc. 
+>- Command pattern is used to implement loose coupling in a request-response model. In command pattern, the request is send to the invoker and invoker pass it to the encapsulated command object. Command object passes the request to the appropriate method of receiver to perform the specific action. Let’s say we want to provide a File System utility with methods to open, write, and close the file and it should support multiple operating systems such as Windows and Unix. To implement our File System utility, first of all, we need to create the receiver classes that will actually do all the work. Since, we code in terms of Java interfaces, we can have FileSystemReceiver interface and it’s implementation classes for different operating system flavors such as Windows, Unix, Solaris, etc. 
 >- State pattern is used when an Object changes its behavior based on its internal state. If we have to change the behavior of an object based on its state, we can have a state variable in the Object and use if-else condition block to perform different actions based on the state. The state pattern is used to provide a systematic and loosely coupled way to achieve this through Context and State implementations. 
 >- Visitor pattern is used when we have to perform an operation on a group of similar kinds of Objects. With the help of a visitor pattern, we can move the operational logic from the objects to another class. For example, think of a Shopping cart where we can add a different type of items (Elements), when we click on the checkout button, it calculates the total amount to be paid. Now we can have the calculation logic in item classes or we can move out this logic to another class using the visitor pattern. 
 >- Interpreter pattern is used to defines a grammatical representation for a language and provides an interpreter to deal with this grammar. The best example of this pattern is a java compiler that interprets the java source code into byte code that is understandable by JVM. 
@@ -81,7 +81,7 @@
 
 ---
 
-6:Write the missing code in  the following program.
+6.Write the missing code in  the following program.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -176,7 +176,7 @@ Bill amount for Domestic Plan of  100 units is:150
 
 ___
 
-7:Write some code to create a early  instantiation  in  Singleton design pattern? 
+7.Write some code to create a early instantiation in Singleton design pattern. 
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -199,14 +199,14 @@ class Singleton1{
 
 <details><summary><b> Explanation</b></summary>
 
-we create the instance of the class at the time of declaring the static data member, so instance of the class is created at the time of classloading.
+we create the instance of the class at the time of declaring the static data member.So,instance of the class is created at the time of classloading.
 
 </details>
 </details>
 
 ---
 
-8:what are the advantages and usages  of Abstract Factory Pattern? 
+8.what are the advantages and usages of Abstract Factory Pattern? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -220,7 +220,7 @@ It promotes consistency among objects.
 
 ---
 
-9:Write some code to create a lazy  instantiation  in  Singleton design pattern? 
+9.Write some code to create a lazy  instantiation  in  Singleton design pattern.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -256,7 +256,7 @@ we create the instance at the request time.
 
 ---
 
-10:Write some code to create a concrete classes and abstract class for abstract factory design pattern? 
+10.Write some code to create a concrete classes and abstract class for abstract factory design pattern.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -305,7 +305,7 @@ we create a concrete classes DiffBank and abstract classes  for Loan and Bank1 a
  
  ---
 
-11:what are the advantages and usages  of Prototype Pattern? 
+11.what are the advantages and usages  of Prototype Pattern? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -318,7 +318,7 @@ we create a concrete classes DiffBank and abstract classes  for Loan and Bank1 a
 
 ---
 
-12:Write some code to create an adapter class for adapter factory design pattern? 
+12.Write some code to create an adapter class for adapter factory design pattern.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
