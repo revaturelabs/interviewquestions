@@ -83,7 +83,7 @@ import { Component } from '@angular/core';
 export class UserComponent {
 } 
 ```
-65. In the case of a Multi-line template, you need to use ______________ to enclose the template string.
+65. Can we have multiline template? If so, how?
 66. What is Lifecycle Hooks? List them.
 67. Which lifecycle hook executed first?
 68. Which lifecycle hook used to inject any dependencies into the component?
@@ -193,7 +193,7 @@ interface PipeTransform {
 154. Why Guards in angular?
 155. What is the use of routing guards?
 156. How do you build Angular Route Guards?
-157. In which order routing guards execution>
+157. In which order routing guards execution?
 158. How do to create an angular, when I need to navigate between components?
 159. What is use of `routerLink` attributes?
 160. What is use of `<routeroutlet>`?
