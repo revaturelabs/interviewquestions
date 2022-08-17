@@ -38,6 +38,7 @@
 
  - `HashSet` stores, elements without retaining the order of elements.
  - Internally `HashSet` works as a `HashTable`.
+ - `HashTable`: A class that has key and values, it coverts the keys into hashcode and stores them as the idexes of an array.
 </blockquote>
 
 
@@ -54,6 +55,8 @@
 
 - `LinkedHashSet` stores, unique elements by retaining the order of elements.
 - Internally ` LinkedHashSet ` is a `HashTable` and `LinkedList`.
+ - `HashTable`: A class that has key and values, it coverts the keys into hashcode and stores them as the idexes of an array.
+ - `LinkedList`: Linked list is a class which stores data in the form of node( data+ addresss of consecutive element) and its a part of List Interface. 
 
 
 </blockquote>
@@ -73,6 +76,7 @@
 
 - `TreeSet` stores, unique elements by retaining the order of elements.
 - Internally ` TreeSet ` implements red-black tree.
+- Red-Black tree: Red Black tree is a self balancing tree that uses recoloring and rotation to balance itself.
 
 
 </blockquote>
@@ -161,6 +165,20 @@ Features
 - It contains enum values that belong to the same enum.
 - Null values are not allowed and "NullPointException" is thrown if it's violated.
 - It is not Synchronized
+ 
+ Enum:
+ ``` java
+ public enum Seasons{
+        Summer,Winter,Spring,Autum;
+    }
+ 
+ ```
+ `EnumSet`:
+  
+ ``` java
+  EnumSet<Seasons> s = EnumSet.allOf(Seasons.class);
+ 
+ ```
 
 
 </blockquote>
