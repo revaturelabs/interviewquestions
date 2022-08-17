@@ -1,4 +1,4 @@
-1:What is Design Pattern? 
+1.What is Design Pattern? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -11,13 +11,13 @@
 
 ---
 
-2:Explain the types of Design Pattern? 
+2.Explain the types of Design Pattern? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
->- Creational design patterns provide solution to instantiate an object in the best possible way for specific situations.These design patterns are used when a decision must be made at the time of creating an object of a class.
+>- Creational design patterns provide solution to instantiate an object in the best possible way for specific situations.These design patterns are used when decision must be made at the time of creating an object of a class.
 >- Structural design patterns provide different ways to create a class structure by using inheritance and composition to create a large object from small objects.
 >- Behavioral design patterns provide solution for the better interaction between objects and how to provide loose coupling and flexibility to extend easily.
 
@@ -25,7 +25,7 @@
 
 ---
 
-3:Explain the types of Creational Design Pattern? 
+3.Explain the types of Creational Design Pattern? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -35,31 +35,31 @@
 >- Factory pattern is used when we have a superclass with multiple sub-classes and based on input, we need to return one of the sub-class. This pattern takes out the responsibility of the instantiation of a class from the client program to the factory class. We can apply a Singleton pattern on the Factory class or make the factory method static. 
 >- Abstract Factory Pattern is used create an interface or abstract class for creating families of related or dependent objects but without specifying their concrete sub-classes.
 >- Builder pattern solves the issue with a large number of optional parameters and inconsistent state by providing a way to build the object step-by-step and provide a method that will actually return the final Object. 
->- Prototype Pattern is used when the Object creation is a costly affair and requires a lot of time and resources and you have a similar object already existing. So this pattern provides a mechanism to copy the original object to a new object and then modify it according to our needs. This pattern uses java cloning to copy the object. Prototype design pattern mandates that the Object which you are copying should provide the copying feature. It should not be done by any other class. However whether to use the shallow or deep copy of the Object properties depends on the requirements and it’s a design decision. 
+>- Prototype Pattern is used when the Object creation is a costly affair and requires a lot of time and resources and you have a similar object already existing. So, this pattern provides a mechanism to copy the original object to a new object and then modify it according to our needs. This pattern uses java cloning to copy the object. Prototype design pattern mandates that the Object which you are copying should provide the copying feature. It should not be done by any other class. However, whether to use the shallow or deep copy of the Object properties depends on the requirements and it’s a design decision. 
 
 </details>
 
 ---
 
-4:Explain the types of Structural Design Pattern? 
+4.Explain the types of Structural Design Pattern? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
->- Adapter pattern is one of the structural design patterns and it’s used so that two unrelated interfaces can work together. The object that joins these unrelated interfaces is called an Adapter. 
+>- Adapter pattern is one of the structural design patterns and it’s used so,that two unrelated interfaces can work together. The object that joins these unrelated interfaces is called an Adapter. 
 >- Composite pattern is one of the Structural design patterns and is used when we have to represent a part-whole hierarchy. When we need to create a structure in a way that the objects in the structure have to be treated the same way, we can apply the composite design pattern. 
 >- Proxy pattern is to provide a surrogate or placeholder for another object to control access to it. The definition itself is very clear and proxy pattern is used when we want to provide controlled access of a functionality.
->- Flyweight pattern is used when we need to create a lot of Objects of a class. Since every object consumes memory space the flyweight design pattern can be applied to reduce the load on memory by sharing objects. String Pool implementation in java is one of the best examples of Flyweight pattern implementation. 
+>- Flyweight pattern is used when we need to create a lot of Objects of a class. Since, every object consumes memory space the flyweight design pattern can be applied to reduce the load on memory by sharing objects. String Pool implementation in java is one of the best examples of Flyweight pattern implementation. 
 >- Facade pattern is used to help client applications to easily interact with the system. 
 >- Bridge patterns have interface hierarchies in both interfaces as well as implementations, then the bridge design pattern is used to decouple the interfaces from implementation and hiding the implementation details from the client programs. 
->- Decorator pattern is used to modify the functionality of an object at runtime. At the same time, other instances of the same class will not be affected by this, so individual object gets the modified behavior. 
+>- Decorator pattern is used to modify the functionality of an object at runtime. At the same time, other instances of the same class will not be affected by this, so,individual object gets the modified behavior. 
 
 </details>
 
 ---
 
-5:Explain the types of Behavioral Design Pattern? 
+5.Explain the types of Behavioral Design Pattern? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -67,7 +67,7 @@
 
 >- Template method pattern is a behavioral design pattern and it’s used to create a method stub and deferring some of the steps of implementation to the subclasses. The template method defines the steps to execute an algorithm and it can provide a default implementation that might be common for all or some of the subclasses. 
 >- Mediator pattern is used to provide a centralized communication medium between different objects in a system. The mediator design pattern is very helpful in an enterprise application where multiple objects are interacting with each other. If the objects interact with each other directly, the system components are tightly coupled with each other which makes maintainability cost higher and not flexible to extend easily. The mediator pattern focuses on to provide a mediator between objects for communication and help in implementing loose-coupling between objects. 
->- Chain of responsibility pattern is used to achieve loose coupling in software design where a request from the client is passed to a chain of objects to process them. Then the object in the chain will decide who will be processing the request and whether the request is required to be sent to the next object in the chain or not. We know that we can have multiple catch blocks in a try-catch block code. Here every catch block is kind of a processor to process that particular exception. So when an exception occurs in the try block, it’s sent to the first catch block to process. If the catch block is not able to process it, it forwards the request to the next object in chain i.e next catch block. If even the last catch block is not able to process it, the exception is thrown outside of the chain to the calling program. 
+>- Chain of responsibility pattern is used to achieve loose coupling in software design where a request from the client is passed to a chain of objects to process them. Then the object in the chain will decide who will be processing the request and whether the request is required to be sent to the next object in the chain or not. We know that we can have multiple catch blocks in a try-catch block code. Here every catch block is kind of a processor to process that particular exception. So,when an exception occurs in the try block, it’s sent to the first catch block to process. If the catch block is not able to process it, it forwards the request to the next object in chain i.e next catch block. If even the last catch block is not able to process it, the exception is thrown outside of the chain to the calling program. 
 >- Observer  pattern is useful when you are interested in the state of an object and want to get notified whenever there is any change. In observer pattern, the object that watches on the state of another object is called Observer and the object that is being watched is called Subject. Java provides an inbuilt platform for implementing Observer pattern through java.util.Observable class and java.util.Observer interface. 
 >- Strategy pattern is used when we have multiple algorithms for a specific task and the client decides the actual implementation be used at runtime. A strategy pattern is also known as Policy Pattern. We define multiple algorithms and let client applications pass the algorithm to be used as a parameter. One of the best examples of this pattern is the Collections.sort() method that takes the Comparator parameter. Based on the different implementations of Comparator interfaces, the Objects are getting sorted in different ways. 
 >- Command pattern is used to implement loose coupling in a request-response model. In command pattern, the request is send to the invoker and invoker pass it to the encapsulated command object. Command object passes the request to the appropriate method of receiver to perform the specific action. Let’s say we want to provide a File System utility with methods to open, write, and close the file and it should support multiple operating systems such as Windows and Unix. To implement our File System utility, first of all, we need to create the receiver classes that will actually do all the work. Since we code in terms of Java interfaces, we can have FileSystemReceiver interface and it’s implementation classes for different operating system flavors such as Windows, Unix, Solaris, etc. 
