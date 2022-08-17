@@ -456,10 +456,10 @@ D. O(n <sup>2</sup>)
 ``` java
 
 import java.util.*;
-public class Collections {
+public class Main {
   public static void main(String[] args) {
     
-    Collections c = new Collections();
+    Main c = new Main();
     Scanner sc = new Scanner(System.in);
     ArrayList<Integer> al = new ArrayList<>();
     int size = sc.nextInt();
