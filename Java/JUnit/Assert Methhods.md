@@ -185,7 +185,7 @@ By declaring the assertion statement in the try block with the message to be dis
 
 ## Problem Solving
 
-10. What will be the output of the program?
+10. What is the output of the program?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
