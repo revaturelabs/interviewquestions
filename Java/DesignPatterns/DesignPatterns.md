@@ -360,7 +360,7 @@ The Bank class is a wrapper class which implements the setter and getter methods
 
 ---
 
-13:What are the elements  of Composite Pattern? 
+13.What are the elements of Composite Pattern? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
