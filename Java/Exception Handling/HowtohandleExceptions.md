@@ -53,7 +53,7 @@ Whenever an exception is occurred in the try block the rest of the code will not
 
 ---
 
-5.Who handles the exception if the exception is not handled by the programmer itself.
+5.Who handles the exception if the exception is not handled by the programmer itself?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -65,7 +65,7 @@ Whenever an exception is occurred in the try block the rest of the code will not
 
 ---
 
-6.What is the role of JVM in default Exception Handling mechanism.
+6.What is the role of JVM in default Exception Handling mechanism?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -77,13 +77,13 @@ Whenever an exception is occurred in the try block the rest of the code will not
 
 ---
 
-7.How the normal flow of the program is maintained in the exception handling mechanism.
+7.How the normal flow of the program is maintained in the exception handling mechanism?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 	
->if the programmer handles the exception.
+>If the programmer handles the exception.
 
 </details>
 
@@ -233,25 +233,25 @@ public class TryCatchExample5 {
 
 ---
 
-14.What is a nested try  block?
+14.What is a nested try block?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 	
->the try block inside another try block is called as nested try block.
+>The try block inside another try block is called as nested try block.
 	
 </details>
 
 ---
 
-15.When should we use nested try  block?
+15.When should we use nested try block?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b> Show Answer</b></summary>
 	
->A situation may arise where a part of  block of code may cause one error and the entire block of code itself may cause another error. In such cases, exception handlers have to be nested.
+>A situation may arise where a part of block of code may cause one error and the entire block of code itself may cause another error. In such cases, exception handlers have to be nested.
 	
 </details>
 
@@ -302,13 +302,13 @@ Index 10 out of bounds for length 10
 
 ---
 
-17.What is a finally  block?
+17.What is a finally block?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 	
->Java finally block is always executed whether an exception is handled or not. Therefore, it contains all the necessary statements that need to be printed regardless of the exception occurs or not.The finally block follows the try-catch block.
+>In Java finally block is always executed whether an exception is handled or not. Therefore, it contains all the necessary statements that need to be printed regardless of the exception occurs or not.The finally block follows the try-catch block.
 	
 </details>
 
@@ -320,7 +320,7 @@ Index 10 out of bounds for length 10
 
 <details><summary><b> Show Answer</b></summary>
 	
->When a Java program does not throw any exception a finally block gets  executed.
+>When a Java program does not throw any exception a finally block gets executed.
 	
 </details>
 
