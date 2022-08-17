@@ -52,7 +52,7 @@ Along with the operations inherited from the collection interface, the list has 
 </details>
 
  ---
-3. what are the different classes that come under the list interface?
+3. What are the different classes that comes under the list interface?
  
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -91,7 +91,7 @@ Along with the operations inherited from the collection interface, the list has 
 - internal working of `ArrayList`:
 
 - 1. Initially, an array of capacity 10 is created
-- 2. when elements beyond the capacity i.e. 10 are added to the `ArrayList` a new array of size 
+- 2. when elements are beyond the capacity i.e. 10 are added to the `ArrayList` ,there is a new array of size 
 
   $ n + n/2 + 1$
 
@@ -139,7 +139,7 @@ al.add(1);
 
 ```
 
-> - In the above code an array list "al" is created and it stores Integer elements and element 1 is added to the ArrayList.
+> - In the above code, an array list "al" is created and it stores Integer elements and element 1 is added to the ArrayList.
 
 
 </details>
@@ -170,7 +170,7 @@ al2.addAll(0,al2);
 
 ```
 
->- In the above code an array list "al1" and "al2" are created and some elements are added to al1, all the elements in al1 are added to al2 using `addAll()`.
+>- In the above code, an array list "al1" and "al2" are created and some elements are added to al1, all the elements in al1 are added to al2 using `addAll()`.
 >-  <code>addAll(collection)</code> adds elements at the end of the list and <code>addAll(int index, collection)</code> adds elements from a specific position.
 
 
@@ -186,7 +186,7 @@ al2.addAll(0,al2);
 
 <summary><b>Show Answer</b></summary>
 
-> 1. <code>get(int index)</code> method is used to get a  single element from the list.
+> 1. <code>get(int index)</code> method is used to get a single element from the list.
 
 </details>
 
@@ -239,7 +239,7 @@ al2.addAll(0,al2);
 <summary><b>Show Answer</b></summary>
 
 > - `ArrayList` and linked list are two general purpose list classes.
-> -  mostly `ArrayList` is preferred over a `LinkedList` because in `ArrayList` elements can be accessed at a constant time. In a linked list as elements are stored in the form of nodes, it gives linear positional access
+> -  Mostly `ArrayList` is preferred over a `LinkedList` because in `ArrayList` elements can be accessed at a constant time. In a linked list as elements are stored in the form of nodes, it gives linear positional access
 
 > <i><b>Note:</b> 
 > - constant access: The time complexity is directly proportional to a constant value and is in no way related to the size of the data structure.
@@ -277,7 +277,7 @@ D. `ArrayDeque`
 
 <summary><b>Explanation</b></summary>
 
-> `ArrayList` like vector is a dynamic array and is non-synchronized
+> `ArrayList` like vector is a dynamic array and is non-synchronized. 
 > `ArrayList` is prefered over `Vector` as it's fast because it is not synchronized.
 
 </details>
@@ -302,8 +302,8 @@ D. O(n <sup>2</sup>)
 <details>
 <summary><b>Explanation</b></summary>
 
-> as elements are added to the end of the `ArrayList` the time complexity is O(1)
-> but in the worst case, i.e. when the capacity of `ArrayList` is exceeded, a new array is created and all the elements are copied to the new Array and the new element is added, here the time complexity is O(n).
+> As elements are added to the end of the `ArrayList`, the time complexity is O(1)
+> But in the worst case, i.e. when the capacity of `ArrayList` is exceeded, a new array is created and all the elements are copied to the new Array and the new element is added, hence the time complexity is O(n).
 
 </details>
 </details>
@@ -327,7 +327,7 @@ D. O(n <sup>2</sup>)
 <details>
 <summary><b>Explanation</b></summary>
 
-> Since the element can be added at any specific index, most of the elements in the list are shifted to insert the new element. on average the time complexity is O(n).
+> Since the element can be added at any specific index, most of the elements in the list are shifted to insert the new element. On average, the time complexity is O(n).
 
 </details>
 </details>
@@ -351,7 +351,7 @@ D. O(n <sup>2</sup>)
 <details>
 <summary><b>Explanation</b></summary>
 
-> In an `ArrayList` the elements can be accessed directly by their position, So the time complexity is O(1).
+> In an `ArrayList` the elements can be accessed directly by their position. So, the time complexity is O(1).
 
 </details>
 </details>
@@ -375,7 +375,7 @@ D. O(n <sup>2</sup>)
 <details>
 <summary><b>Explanation</b></summary>
 
-> to remove an element the entire array is traversed and after finding the element the element is deleted. So the time complexity is O(n).
+> To remove an element, the entire array is traversed and after finding the element, the element is deleted. So, the time complexity is O(n).
 
 </details>
 </details>
@@ -399,7 +399,7 @@ D. O(n <sup>2</sup>)
 <details>
 <summary><b>Explanation</b></summary>
 
-> In the worst-case scenario the element is the last element and the entire `ArrayList` should be traversed to get the position of the element, So the time complexity is O(n).
+> In the worst-case scenario, the element is the last element and the entire `ArrayList` should be traversed to get the position of the element. So, the time complexity is O(n).
 
 </details>
 </details>
@@ -423,7 +423,7 @@ D. O(n <sup>2</sup>)
 <details>
 <summary><b>Explanation</b></summary>
 
-> <code>contains(element)</code> implementation is similar to <code>indexOf(element)</code>. so the time complexity is O(n).
+> <code>contains(element)</code> implementation is similar to <code>indexOf(element)</code>. So, the time complexity is O(n).
 
 </details>
 </details>
@@ -456,10 +456,10 @@ D. O(n <sup>2</sup>)
 ``` java
 
 import java.util.*;
-public class Main {
+public class Collections {
   public static void main(String[] args) {
     
-    Main c = new Main();
+    Collections c = new Collections();
     Scanner sc = new Scanner(System.in);
     ArrayList<Integer> al = new ArrayList<>();
     int size = sc.nextInt();
@@ -495,7 +495,7 @@ public class Main {
 
 ## Scenario Based
 
-1. Dora is going for an adventure and she needs a backpack to carry all her items (more than one copy of the item may exist) and she might buy some items on the way and store it in her backpack. and she wants to get items immediately from her backpack when she needs them. So the backpack should be resizable and elements can be accessed in constant time. which of the following is the best option?
+1. Dora is going for an adventure and she needs a backpack to carry all her items (more than one copy of the item may exist) and she might buy some items on the way and store it in her backpack. She wants to get items immediately from her backpack when she needs them. So, the backpack should be resizable and elements can be accessed in constant time. which of the following is the best option?
  
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -514,7 +514,7 @@ D. None of the Above
 
 <summary><b>Explanation</b></summary>
 
-> `ArrayList` is a dynamic array, so Dora can store any number of items in the backpack, `ArrayList` allows duplicate elements, and elements can be accessed with a time complexity of O(1) using the index, So Dora can get her items from her backpack immediately. 
+> `ArrayList` is a dynamic array, so Dora can store any number of items in the backpack. `ArrayList` allows duplicate elements, and elements can be accessed with a time complexity of O(1) using the index. Hence, Dora can get her items from her backpack immediately. 
 
 
 </details>
@@ -522,7 +522,7 @@ D. None of the Above
 
 ---
 
-2. Indiana Jones is going for a treasure hunt and he needs a backpack to store the valuable items throughout his journey, if he finds out that an item he stored in the backpack is fake, he takes it throws it away, and he never takes any item out of his backpack till the journey ends. which of the following is the best option?
+2. Indiana Jones is going for a treasure hunt and he needs a backpack to store the valuable items throughout his journey. If he finds out that an item he stored in the backpack is fake, he takes it and throws it away, and he never takes any item out of his back till the journey ends. Which of the following is the best option?
  
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -541,7 +541,7 @@ D. None of the Above
 
 <summary><b>Explanation</b></summary>
 
-> `LinkedList` varies in size dynamically and insertion and deletion operations in the `linkedList` have constant time. So Indiana Jones can store and remove elements from his backpack easily using a `LinkedList`.
+> `LinkedList` varies in size dynamically and insertion and deletion operations in the `linkedList` have constant time. So, Indiana Jones can store and remove elements from his backpack easily using a `LinkedList`.
 
 
 </details>
