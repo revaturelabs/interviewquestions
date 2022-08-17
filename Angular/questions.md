@@ -156,3 +156,34 @@ export class UserComponent {
 124. How do you generate service using Angular CLI?
 125. Which mechanism mechanism in Angular provides a way to navigate from one view to another view in the application.
 126. What is use of `RoutingModule` in Angular?
+127. Design the angular application to print current date in this format "MM/dd/yy".
+128. Design the angular application with following criteria
+    - Get the `name` as an input
+    - Print the `name` in the reverse (Use Pipe)
+129. Suggest a way to share some data with all the components in my angular application
+130. How do you create a service?
+131. Can we inject a service to a component instead of root module?
+132. How can I access data stored in the service in a component?
+133. Can we create our own pipe in angular? If so, how? If so, why?
+134. What happens if I decorate class with `@Pipe`
+135. Detail the use of below code:
+```ts
+interface PipeTransform {
+  transform(value: any, ...args: any[]): any
+}
+```
+136. How do you establish communication between components?
+137. Explain about EventEmitters in Angular
+138. How data flow between parent to the child component and viceversa?
+139. What is purpose of `@Input` and `@Output`?
+140. Why do we need `emit()` method to achieve event emitter?
+141. Which type of databinding used in EventEmitter?
+142. What is the template in Angular?
+143. What is the difference between AOT and JIT compiler?
+144. Why prioritize TypeScript over JavaScript in Angular?
+145. What are the advantages and disadvantages of Angular>
+146. What is Ng in Angular?
+147. What is AOT compilation in Angular?
+148. What is a root component, and what role does the component play in Angular?
+149. How do you implement unit testing in Angular?
+150. What is a root component, and what role does the component play in Angular?
