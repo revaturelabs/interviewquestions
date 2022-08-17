@@ -9,8 +9,8 @@
 - C.Simple Inheritance
 - D.Multiple Inheritance
 
-<details><summary> Show Answer </summary>
-  <b>Ans</b>: B
+<details><summary> <b>Show Answer</b> </summary>
+> B
   
   <b>Explanation</b>: Invisibility cloak is a family heirloom for potters, A property is passed down from one class(generation) to another, this is a clear example of multilevel inheritance
 </details>
@@ -25,8 +25,9 @@
 - C.Simple Inheritance
 - D.Multiple Inheritance
 
-<details><summary> Show Answer </summary>
-  <b>Ans</b>: D
+<details><summary><b>Show Answer</b> </summary>
+	
+> D
   
   <b>Explanation</b>: English vocabulary is inherited from germanic, French, and Latin, one class inherits the properties of multiple classes, and this is an example of multiple inheritances.
 </details>
@@ -42,7 +43,7 @@
 <details>
 <summary><b> Show Answer</b></summary>
 
-Ans: In java, a class can not extend more than one class. To achieve multiple Inheritance, one can create multiple interfaces and create a class that implements multiple Interfaces.
+In java, a class can not extend more than one class. To achieve multiple Inheritance, one can create multiple interfaces and create a class that implements multiple Interfaces.
 </details>
 
 ---
@@ -50,7 +51,7 @@ Ans: In java, a class can not extend more than one class. To achieve multiple In
 <details>
 <summary><b> Show Answer</b></summary>
 
-Ans: Simple inheritance, multilevel inheritance, and multiple inheritances are the different types of Inheritance in java, combining two or many of these is considered Hybrid Inheritance.
+Simple inheritance, multilevel inheritance, and multiple inheritances are the different types of Inheritance in java, combining two or many of these is considered Hybrid Inheritance.
 </details>
 
 ---
@@ -58,7 +59,7 @@ Ans: Simple inheritance, multilevel inheritance, and multiple inheritances are t
 <details>
 <summary><b> Show Answer</b></summary>
 
-<b>Ans</b>:  A superclass is extended by a subclass and the subclass is extended by another subclass. The US government provides funds to Texas and the Texas government provides funds to Austin, here funds are an object, and the US, Texas, and Austin are classes.
+> A superclass is extended by a subclass and the subclass is extended by another subclass. The US government provides funds to Texas and the Texas government provides funds to Austin, here funds are an object, and the US, Texas, and Austin are classes.
 </details>
 
 ---
@@ -66,7 +67,7 @@ Ans: Simple inheritance, multilevel inheritance, and multiple inheritances are t
 <details>
 <summary><b> Show Answer</b></summary>
 
-<b>Ans</b>: the relation between a superclass which gets extended by a single subclass is called Simple Inheritance.
+> the relation between a superclass which gets extended by a single subclass is called Simple Inheritance.
 </details>
 
 ---
@@ -74,21 +75,20 @@ Ans: Simple inheritance, multilevel inheritance, and multiple inheritances are t
 <details>
 <summary><b> Show Answer</b></summary>
 
-<b>Ans</b>: 
-Aggregation: Has-a Relationship is implemented in aggregation.
-Inheritance: Is- a Relationship is implemented in Inheritance.
+> - Aggregation: Has-a Relationship is implemented in aggregation.
+> - Inheritance: Is- a Relationship is implemented in Inheritance.
 </details>
 
 ---
 6. How can a subclass use the private fields of a superclass?
 
 <details>
-  <summary> Show Answer </summary>
+  <summary> <b>Show Answer</b> </summary>
+
+- A subclass can access the private members of the superclass in two possible ways:<br>
   
-  <b>Ans: </b> A subclass can access the private members of the superclass in two possible ways:<br>
-  
-  1. If public or protected methods of the superclass have access to the private fields, then the subclass can have access to the private fields.
-  2. If the superclass has a public or protected nested class then the subclass can access all the private members of the superclass using the nested class.
+ 1. If public or protected methods of the superclass have access to the private fields, then the subclass can have access to the private fields.
+ 2. If the superclass has a public or protected nested class then the subclass can access all the private members of the superclass using the nested class.
   
   
 </details>
@@ -101,8 +101,8 @@ Inheritance: Is- a Relationship is implemented in Inheritance.
 - C.Simple Inheritance 
 - D.Multilevel Inheritance
 
-<details><summary>Show Answer</summary>
-<b>Ans: </b> A
+<details><summary><b>Show Answer</b></summary>
+> A
 
 <b>Explanantion: </b> Multiple Inheritance of state is invalid in java because a class cant extend more than one class but it can implement multiple interfaces.
 
@@ -112,7 +112,7 @@ Inheritance: Is- a Relationship is implemented in Inheritance.
 ---
 8. Why is a class restricted to extend a single class in java?
 
-<details><summary>Show Answer</summary>
+<details><summary><b>Show Answer</b></summary>
 
 <b>Ans:</b> If a class extends multiple classes the object of the class inherits all the fields of all the inherited classes, and inherited classes might have the same fields which are instantiated by different methods or constructors, it's not possible to set the precedence for all the methods and constructors, so the instantiation of the field is ambiguous. A class extend a single class, to avoid Multiple inheritances of state.
 
@@ -121,11 +121,11 @@ Inheritance: Is- a Relationship is implemented in Inheritance.
 ---
 9. What is Multiple Inheritance of state and why is it not possible to implement it in java?
 
-<details><summary>Show Answer</summary>
+<details><summary><b>Show Answer</b></summary>
 
-<b>Ans:</b>
 
-Exteding more than one class leads to multiple inheritance of state in java.
+
+> Exteding more than one class leads to multiple inheritance of state in java.
 
 </details>
 
@@ -215,7 +215,7 @@ class Japan extends Olympics{
 - D. We will host the summer Olympics in 2036
 
 <details><summary> Show Answer </summary>
-  <b>Ans</b>: A
+> A
   
   <b>Explanation</b>:  
 </details>
@@ -254,14 +254,15 @@ public final class Car{
 - C. Compile-time error
 - D. Runtime error
 
-<details><summary> Show Answer </summary>
-  <b>Ans</b>: C
+<details><summary> <b>Show Answer</b> </summary>
+ > C
   
   <b>Explanation</b>: Class KIA is trying to inherit the final class Car. It's not possible to inherit a final class.
 </details>
 
 ---
 2. What is the output of the following code?
+
 ``` java
 public final class Car{
     public static void main(String args[]){
@@ -288,8 +289,8 @@ public final class Car{
 - C. Compile-time error
 - D. Runtime error
 
-<details><summary> Show Answer </summary>
-  <b>Ans</b>: A
+<details><summary><b>Show Answer</b> </summary>
+ A
   
   <b>Explanation</b>: final class can not be inherited but no object is created for the subclass and no subclass methods are implemented, So there is no error in the code.
 </details>
@@ -305,9 +306,9 @@ Main m = o;
 
 ``` 
 
-<details><summary> Show Answer</summary>
+<details><summary> <b>Show Answer</b></summary>
   
-<b>Ans:</b> 
+
   - the above code is an example for object casting and line 2 creates an error, even if object o is of type Main, JVM can not recognize it and an explicit type cast should be added to avoid compile time error.
   
  ``` java
@@ -331,9 +332,9 @@ Main m = (Main) o;
 
 ```
 
-<details><summary>Show Answer</summary>
-
-  <b>Ans: </b> To avoid any runtime error the declaration can be enclosed in a simple condition which checks the instance of object o.
+<details><summary><b>Show Answer</b></summary>
+	
+> To avoid any runtime error the declaration can be enclosed in a simple condition which checks the instance of object o.
   
   ``` java
   if( o instanceof Main)
