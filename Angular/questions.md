@@ -131,13 +131,13 @@ export class UserComponent {
     - Get the `name` from the user
     - Print the `name` with a message " Hi `name`!! Welcome to my angular app"
 101. What is the purpose `ngModel` directive
-102. The `ngModel` directive from the Angular ________, set up the two way data binding on form elements.
+102. Which is used to set up the two way data binding on form elements?
 103. What is use of `BrowserModule`?
 104. In which file, I need to mention I'm going to use `FormsModule`
 105. What are ways to pass data from component class to the View?
 106. What are ways to pass data from the view to the component class?
 107. Every frontend application needs to communicate with the backend microservices to share the data over the HTTP protocol. How this communication established in angular?
-108. The `HttpClient` service is available in the ___________ package in the angular framework
+108. Which angular package `HttpClient` service is available?
 109. Why do we need `HttpClient`?
 110. List some `HttpClient` methods provided by the angular framework
 111. What is benefits of `HttpClient` in Angular
@@ -181,12 +181,12 @@ interface PipeTransform {
 142. What is the template in Angular?
 143. What is the difference between AOT and JIT compiler?
 144. Why prioritize TypeScript over JavaScript in Angular?
-145. What are the advantages and disadvantages of Angular>
-146. What is Ng in Angular?
+145. What are the advantages and disadvantages of Angular?
+146. What is `ng` in Angular?
 147. What is AOT compilation in Angular?
 148. What is a root component, and what role does the component play in Angular?
 149. How do you implement unit testing in Angular?
-150. What is a root component, and what role does the component play in Angular?
+150. What is a root module, and what role does the module play in Angular?
 151. What is the used of router guards?
 152. List some of the interfaces used in routing guards?
 153. How do you create routing guard?
@@ -196,5 +196,5 @@ interface PipeTransform {
 157. In which order routing guards execution>
 158. How do to create an angular, when I need to navigate between components?
 159. What is use of `routerLink` attributes?
-160. What is used of `<routeroutlet>`?
+160. What is use of `<routeroutlet>`?
 161. Where you define the routes in the Angular application?
