@@ -2,7 +2,7 @@
 
 1. Physics Department in Caltech got a new 3D printer, Sheldon used the printer for printing prototypes for his hadron collider. Howard used the printer to print his mini action figure. this is an example for?
 
-  
+  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 - A.Polymorphism
 - B.Inheritance
@@ -22,6 +22,8 @@
 
 2. John got a recipe for cookies from his mother, but john likes choco chips, so he altered the original cookie recipe, 
    this is an example for?
+ 
+ ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 - A.Method Overriding
 - B.Method Overloading
@@ -42,7 +44,7 @@
 1. The following code snippet is an example for?
 
   
-
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 ``` java
 public class Languages {
@@ -84,7 +86,7 @@ public class Languages {
 2. What is static polymorphism?
 
 
-
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
 <details><summary> <b>Show Answer</b> </summary>
@@ -96,6 +98,8 @@ public class Languages {
  ---
 
 3. What is Dynamic polymorphism?
+    
+    ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
 <details><summary> <b>Show Answer</b> </summary>
@@ -108,7 +112,7 @@ public class Languages {
 
 4. Which of the following is an example of static binding?
 
-
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 - A.method overriding
 - B.method overloading
@@ -135,6 +139,7 @@ public class Languages {
 
 1. What is the output of the following java code?
 
+    ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 ``` java
   class Animal {
@@ -173,7 +178,7 @@ public class Languages {
 
 1. Predict the output of the program and debug the program.  
 
-        
+  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)      
 
 ``` java
 public class Vacation{
@@ -219,7 +224,7 @@ The outcome of the program is the compile-time error and it's caused because the
   2. Find the error in the following program.  
 
   
-
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 ``` java
 public class Area{
