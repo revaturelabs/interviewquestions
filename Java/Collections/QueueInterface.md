@@ -314,6 +314,13 @@ D. O(n <sup>2</sup>)
   
 <blockquote>
   
+  | Queue                                                                               | Deque                                                                                                                                                                                               |
+| ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Elements are inserted from the rear end in Queue                                    | Elements can be inserted at both front and rear end in a Deque                                                                                                                                      |
+| Elements are deleted from the front end                                             | Elements can be deleted from either end of the deque                                                                                                                                                |
+| A queue interface inherits the properties of the Collection Interface.              | The Deque Interface Inherits the properties of Collection Interface, Queue Interface, and List Interface.                                                                                           |
+| \`offer()\`, \`poll()\`, \`element()\` are few basic operations in Queue Interface. | \`offerFirst()\`, \`offerLast()\`, \`pollFirst()\`, \`pollLast()\`, \`addFirst()\`, \`addLast()\`, \`removeFirst()\`, removeLast()\`, \`push()\` and \`popl()\`  are few basic operations in Deque. |
+  
   
   
   
