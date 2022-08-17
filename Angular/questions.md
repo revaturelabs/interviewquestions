@@ -187,3 +187,14 @@ interface PipeTransform {
 148. What is a root component, and what role does the component play in Angular?
 149. How do you implement unit testing in Angular?
 150. What is a root component, and what role does the component play in Angular?
+151. What is the used of router guards?
+152. List some of the interfaces used in routing guards?
+153. How do you create routing guard?
+154. Why Guards in angular?
+155. What is the use of routing guards?
+156. How do you build Angular Route Guards?
+157. In which order routing guards execution>
+158. How do to create an angular, when I need to navigate between components?
+159. What is use of `routerLink` attributes?
+160. What is used of `<routeroutlet>`?
+161. Where you define the routes in the Angular application?
