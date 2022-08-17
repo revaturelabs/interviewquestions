@@ -1,4 +1,4 @@
-1:What is `try`with resources? 
+1.What is `try`with resources? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -14,15 +14,11 @@
 
 ---
 
-2:How to use `try`with resources? 
+2.How to use `try`with resources? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
- 
-> `try`with resources usage
- 
-<details><summary><b> Explanation</b></summary>
  
 >- To use a class with try-with-resources statement it should implement AutoCloseable interface and the close() method of it gets invoked automatically at runtime.
 >- Declaration of more than one class in try-with-resources statement and declaring multiple classes in the try block of try-with-resources statement should be closed in reverse order.
@@ -34,7 +30,7 @@
 
 ---
 
-3:What is the syntax for `try`with resources? 
+3.What is the syntax for `try`with resources? 
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -57,7 +53,7 @@ try(FileReader f = new FileReader("file path")) {
 
 ---
 
-4:Predict the output of  the following code.
+4.Predict the output of  the following code.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
