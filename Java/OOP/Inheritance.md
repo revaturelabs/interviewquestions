@@ -255,6 +255,7 @@ public final class Car{
 - D. Runtime error
 
 <details><summary> <b>Show Answer</b> </summary>
+	
  > C
   
   <b>Explanation</b>: Class KIA is trying to inherit the final class Car. It's not possible to inherit a final class.
@@ -290,7 +291,8 @@ public final class Car{
 - D. Runtime error
 
 <details><summary><b>Show Answer</b> </summary>
- A
+ 
+> A
   
   <b>Explanation</b>: final class can not be inherited but no object is created for the subclass and no subclass methods are implemented, So there is no error in the code.
 </details>
