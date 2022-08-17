@@ -4,10 +4,8 @@
 
 <details><summary><b> Show Answer </b></summary>
 
-- Which refers to syntactic meta-data added to the Java source code for better structure and 
-  readability. 
-- Where Syntactic meta-data refers to the type of data representing the structure of a file with 
-  references to bytes, data types, and data structures.
+- JUnit Annotations refers to syntactic meta-data added to the Java source code for better structure and readability. 
+- Where Syntactic meta-data refers to the type of data representing the structure of a file with references to bytes, data types, and data structures.
 
 </details>
 
@@ -30,7 +28,7 @@
 
 ---
 
-3. Which annotation is the replacement for the pacakge org.junit.TestCase.
+3. Which annotation is the replacement for the pacakge org.junit.TestCase?
 
 <details><summary><b> Show Answer </b></summary>
 
@@ -55,8 +53,8 @@
 
 <details><summary><b> Show Answer </b></summary>
 
-- `@Before` is used to execute some statements before each test case, whereas`@BeforeClass` is used to 
-   execute some statements before all the test case.
+- `@Before` is used to execute some statements before each test case
+-  Whereas`@BeforeClass` is used to execute some statements before all the test case.
 
 </details>
 
@@ -66,7 +64,7 @@
 
 <details><summary><b> Show Answer </b></summary>
 
-- It is to be used when some exceptions occured during the test execution.
+It is to be used when some exceptions are occured during the test execution.
 
 </details>
 
@@ -76,8 +74,8 @@
 
 <details><summary><b> Show Answer </b></summary>
 
-- `@Test(timeout=500)`- used if you want to set some timeout during test execution.
-- <b>Example</b> : we can use this annotation, when we are working under some projects, and tests need to be completed within some specified time.	
+- `@Test(timeout=500)`- Used if you want to set some timeout during test execution.
+- <b>Example</b> : We can use this annotation, when we are working under some projects, and tests need to be completed within some specified time.	
 
 </details>
 
@@ -86,8 +84,7 @@
 
 <details><summary><b> Show Answer </b></summary>
 
-- We caanot test the private method directly, so manual testing is to be performed, or the method should 
-  be changed to "protected" method in the class.
+We will not be able test the private method directly.So,manual testing is to be performed, or the method should be changed to "protected" method in the class.
 
 </details>
 
@@ -97,7 +94,7 @@
 
 <details><summary><b> Show Answer </b></summary>
 
-- The execution will fail because the JUnit test methods are designed to return 'void'. 
+The execution will fail because the JUnit test methods are designed to return 'void'. 
 
 </details>
 
