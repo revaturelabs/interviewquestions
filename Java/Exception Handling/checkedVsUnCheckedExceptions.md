@@ -1,4 +1,4 @@
-1:Explain `throw` statement?
+1.Explain `throw` statement?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -11,7 +11,7 @@
 	
 ---
 	
-2:Show me the syntax of `throw` statement?
+2.What is the syntax of `throw` statement?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -48,7 +48,7 @@ public class throw1 {
 
 <details><summary><b> Explanation</b></summary>
 
->The age passed is less than 18 in the verify method that is why it throws an arithmetic exception
+>The age passed is less than 18 in the verify method that is why it throws an arithmetic exception.
 
 </details>
 	
@@ -56,7 +56,7 @@ public class throw1 {
 
 ---
 
-4: Predict the output of the following code.
+4.Predict the output of the following code.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -94,7 +94,7 @@ public class throw2 {
 
 ---
 
-5:What is a `throws` statement?
+5.What is a `throws` statement?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -106,7 +106,7 @@ public class throw2 {
 
 ---
 
-6:Show me the syntax of `throws` statement?
+6.Whatis the syntax of `throws` statement?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
