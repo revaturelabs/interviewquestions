@@ -99,7 +99,7 @@ public class Languages {
 
 3. What is Dynamic polymorphism?
     
-    ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
 <details><summary> <b>Show Answer</b> </summary>
@@ -139,7 +139,7 @@ public class Languages {
 
 1. What is the output of the following java code?
 
-    ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 ``` java
   class Animal {
@@ -178,7 +178,7 @@ public class Languages {
 
 1. Predict the output of the program and debug the program.  
 
-  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)      
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)      
 
 ``` java
 public class Vacation{
