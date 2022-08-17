@@ -200,8 +200,8 @@ Looping statements are used to do repeatative tasks. If one process has to done 
     <summary><b> Show Answer </b></summary> 
 <blockquote>
 
-- It is an entry check loop ie., the condition checked first.
-
+- It is an entry controlled loop ie., the condition checked first.
+- 
 </blockquote>
 </details>
  
@@ -224,47 +224,64 @@ Looping statements are used to do repeatative tasks. If one process has to done 
 </details>
 
 12: Explain the difference between while and do while.
- <details>
-      <summary><b> Show Answer </b></summary> 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
 
 **while**
->The condition is checked at the begining. If the condition is failed, the loop will not be executed.
+The condition is checked at the begining. If the condition is failed, the loop will not be executed.
 
 **do while**
->The condition is checked at the end. If the condition is failed, the loop will be executed one time.
+The condition is checked at the end. If the condition is failed, the loop will be executed one time.
+</blockquote>
 </details>
 
 ---
 
-13: Explain the difference between break and continue.
- <details>
-      <summary><b> Show Answer </b></summary> 
+13.Explain the difference between break and continue.
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
 
 **break**
->It stops the current loop. It stops the loop irrespective of how many loops are remaining.
+A break statement results in the termination of the statement to which it applies for `switch`, `for`, `do`, or `while`.
 
 **continue**
->It skips the iteration loop. It skips the code which presents after continue.
+A continue statement is used to end the current loop iteration and return control to the loop statement.
+</blockquote>
 </details>
 
 ---
 
 14: What will happen when we use return in a method?
- <details>
-      <summary><b> Show Answer </b></summary> 
-
->It exits the current method. There are two types of return statements they are return with value and return without value.
-</details>	
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
+	
+It exits the current method. There are two types of return statements they are return with value when method has void return type and return without value.
+</blockquote>
+</details>
 
 ---
 
 15: What will happen when we use return instead of break in loop?
- <details>
-      <summary><b> Show Answer </b></summary> 
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
 
 **Using break**
 >If we use break in loop, it will break the current loop. The other statements inside the method will be executed.
 **Using return**
 >If we use return in loop, it exits from the loop as well as the method.
 </details>	  
+</blockquote>
+	
 ---
