@@ -1,84 +1,113 @@
 ## Java Setup
 
-1: Why do we need to set the path for java? 
+1.Why do we need to set the path for java? 
+
 `set path = C:\Program Files\Java\jdk1.8.0_91\bin`
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
-      <summary> <b> Show Answer </b> </summary> 
+<summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - We need tools like javac, java, etc., which are located in the JDK/bin directory to compile and run java programs.
 - Before compiling and running a java program, we need to set the path. This informs where JDK packages are installed.
 - **Note:** We don't need to set the path if we save the java source file inside the JDK\bin directory
-</details>
-
+</blockquote>
+ </details>
+      
 ---
 
-2: Why do we need to set environment variable for java?
-<details> 
-      <summary> <b> Show Answer </b></summary>     
+2.Why do we need to set environment variable for java?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+<details>
+<summary><b> Show Answer </b></summary> 
+<blockquote>
       
 - Whenever we run any command in the terminal, the prompt will check for the relevant executable file present in the current directory or in system environment variables.
 - When we compile a java program by running `javac MyPrg.java` command in the terminal, it will look for the `javac.exe` file to compile.
 - If current directory is not  `C:\Program Files\Java\jdk1.8.0_91\bin` (where `javac.exe` present), we'll get **javac is not recognized** error. 
 - One of the way to avoid this error is by setting the java path `C:\ProgramFiles\Java\jdk1.8.0_05\bin` in environment variables. 
-
+</blockquote>
 </details>
 
 ---
 
-3: What is `classpath`?
- <details>
-      <summary> <b> Show Answer </b></summary> 
+3.What is `classpath`?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+<details>
+<summary><b> Show Answer </b></summary> 
+<blockquote>
       
->`classpath` is just a set of paths where the java compiler and the JVM must find needed classes to compile or execute other classes.
- </details>
+`classpath` is just a set of paths where the java compiler and the JVM must find needed classes to compile or execute other classes.
+<blockquote> 
+</details>
 
 ---    
 
-4: What is JDK?
- <details>
-      <summary> <b> Show Answer </b></summary> 
+4.What is JDK?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+<summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - JDK stands for **J**ava **D**evelopment **K**it that contains JRE and developments tools like compilers and debuggers which are useful for developing java applications.
 - For instance, JDK contains `javac` i.e., java compiler helps us to compiles java source file `MyPrg.java` and generates the class file `MyPrg.class`.
-  
+ 
+ </blockquote>
  </details>
 
 ---
 
-5: What is JRE?
- <details>
-      <summary> <b> Show Answer </b></summary> 
+5.What is JRE?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+<summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - JRE stands for **J**ava **R**untime **E**nvironment that contains JVM and provides the libraries and libraries to run java applications. 
- </details>
+</blockquote>
+      </details>
 
  ---
 
- 6: What is JVM?
- <details>
-      <summary><b> Show Answer </b></summary> 
+ 6.What is JVM?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+<summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - JVM stands for **J**ava **V**irtual **M**achine that uses to run java application in different platforms.
 - It converts .class into java bytecode which depends up the paltform ie, the native language code.
- </details>
+      </blockquote>
+</details>
 
 ---
 
- 7: why java is platform independent?
- <details>
-      <summary><b> Show Answer </b></summary> 
+ 7.why java is platform independent?
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+<summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - By use of compiler, .java file is converted into .class.
 - Java Runtime Environment is supported by many platforms which contains JVM.
 - Java Virtual Machine is responsible to convert .class into native bytecode.
- </details>
+ </blockquote>
+      </details>
 
  ---
 
- 8: What is the entry point of java program?
+ 8.What is the entry point of java program?
 
- <details>
-      <summary><b> Show Answer </b></summary> 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+<summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - When Java Virtual Machine runs, it will find the main method which is in the form of
 ``` java
@@ -86,74 +115,97 @@ public static void main(String[] args)
 ```
 - It is not found in the java application, the java application will not be executed.
 - If the method signature this main method is changed, it will not be consider as staring point.
-
+</blockquote>
  </details>
 
 ---
 
-9: How will you define an API?
- <details>
-      <summary><b> Show Answer </b></summary> 
+9.How will you define an API?
+      
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+<summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - API means Application Programming Interface, which acts as intermediate between two application to communicate between each other.
 - One application may be developed in one language and other application may be developed in another application where api acts as intermediatry thats allows to communicate each other.
-  
+      </blockquote>
 </details>
 
 ---
 
-10: Why java is not a pure Object Oriented programming language?
- <details>
-      <summary><b> Show Answer </b></summary> 
+10.Why java is not a pure Object Oriented programming language?
+      
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+<summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - Java supports primitive data types such as int, float, long, double, byte, char, short, boolean which are not objects.
 - While using static key, their is no need to create objects to access the value or method.
-  
+      </blockquote>
 </details>
 
 ---
 
-11: If you are a user of java application, which tool do you need in JDK, JRE and JVM?
- <details>
-      <summary><b> Show Answer </b></summary> 
+11.If you are a user of java application, which tool do you need in JDK, JRE and JVM?
+      
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+<details>
+<summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - For a user, JRE is needed.
 - JDK contains Debugger and compiler which are not requiered for a user.
-    </details>
+    </blockquote>
+      </details>
 
 ---
 
-12: Can we have two public classes in the same file?
- <details>
-      <summary><b> Show Answer </b></summary> 
+12.Can we have two public classes in the same file?
+      
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+<details>
+<summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - No, We can have more classes in a file but only one class should be public.
 - It makes the compilation faster by efficient lookup of code.
 - If you have more than one public class, the error will be generated on compilation time.
-    </details>
+    </blockquote>
+      </details>
 
 ---
 
-13: What does left side class and right side class denotes while creating an object?
- <details>
-      <summary><b> Show Answer </b></summary> 
+13.What does left side class and right side class denotes while creating an object?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+<details>
+<summary><b> Show Answer </b></summary> 
+<blockquote> 
 
 - The left side class of denotes reference of the object and right side denotes object of which to be created.
     Eg. B b = new A()
 - B(Reference) can be respected class, abstract class or interface.
-    </details>
+     </blockquote>
+      </details>
 
 ---
 
 14: Explain the difference between Heap memory and Stack memory.
- <details>
-      <summary><b> Show Answer </b></summary> 
+ 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+<summary><b> Show Answer </b></summary> 
+<blockquote>  
 
 - Heap memory is used through out the application.
 - Objects, arrays, static variables and instance variables are the examples which are stored in heap memory
 - Stack memory is used only in method or currently running methods.
-- Function calls, primitive, local and reference variables are stored in this memory.    </details>
-
+- Function calls, primitive, local and reference variables are stored in this memory.    
+   </blockquote>
+      </details>
+      
 ---
 
 15: What is Architecture Neutral?
