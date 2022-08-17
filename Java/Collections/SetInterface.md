@@ -1,5 +1,9 @@
 1. What is the `Set` Interface and list out the classes that implements it?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
+
 <details>
 
 <summary><b>Show Answer</b></summary>
@@ -17,6 +21,10 @@
 
 2. List out basic operations of the `Set` Interface.
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
+
 <details>
 
 <summary><b>Show Answer</b></summary>
@@ -29,6 +37,10 @@
 ---
 
 3. What is `HashSet`? Explain the internal working of `HashSet`.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
 
 <details>
 
@@ -46,6 +58,10 @@
 
 ---
 4. What is `LinkedHashSet`? Explain the internal working of `LinkedHashSet`.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
 
 <details>
 
@@ -68,6 +84,10 @@
 
 5. What is `TreeSet`? Explain the internal working of `TreeSet`.
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
+
 <details>
 
 <summary><b>Show Answer</b></summary>
@@ -87,6 +107,10 @@
 ---
 
 6. What is the time complexity of <code>add()</code> method for a `HashSet`?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
 
 A. O(n)<br>
 B. O(1)<br>
@@ -110,6 +134,10 @@ D. O(n <sup>2</sup>)
 
 7. What is the time complexity of <code>remove(element)</code> method for a `HashSet`?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
+
 A. O(n)<br>
 B. O(1)<br>
 C. O(log n)<br>
@@ -131,6 +159,10 @@ D. O(n <sup>2</sup>)
 ---
 
 8. What is the time complexity of <code>conatins()</code> method for a `HashSet`?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
 
 A. O(n)<br>
 B. O(1)<br>
@@ -154,6 +186,8 @@ D. O(n <sup>2</sup>)
 
 9.  What is `EnumSet`?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details>
 <summary><b>Show Answer</b></summary>
 
@@ -167,12 +201,14 @@ Features
 - It is not Synchronized
  
  Enum:
+ 
  ``` java
  public enum Seasons{
         Summer,Winter,Spring,Autum;
     }
  
  ```
+ 
  `EnumSet`:
   
  ``` java
@@ -187,6 +223,10 @@ Features
 ---
 
 10. What is `hashCode()`?
+ 
+ ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
 
 <details>
 
@@ -199,6 +239,10 @@ Features
 ---
 
 11. What happens if `hashCode()` method is not overridden?
+ 
+ ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -218,6 +262,10 @@ Features
 ---
 
 12. What are the differences between `HashSet` and `TreeSet`.
+ 
+ ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
 
 <details>
 
@@ -231,6 +279,10 @@ Features
 </details>
 
 13. What is the output of the following program?
+ 
+ ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
 
 ``` java
 import java.util.*;
@@ -304,6 +356,10 @@ D. <br>
 ## Problem Solving
 
 1. Consider there are two hash sets a and b with some elements in each, How to get the intersection of a and b?
+ 
+ ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
 
 <details>
 
@@ -319,6 +375,10 @@ D. <br>
 ---
 
 2. Consider there are two hash sets a and b with some elements in each, How to get the union of a and b?
+ 
+ ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
 
 <details>
 
@@ -334,6 +394,10 @@ D. <br>
 ---
 
 3. Consider there are two hash sets a and b with some elements in each, How to check if a is a subset of b?
+ 
+ ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
 
 <details>
 
@@ -349,6 +413,10 @@ D. <br>
 ---
 
 4. Consider there are two hash sets a and b with some elements in each, How to get the separate the unique elements present in a but not b?
+ 
+ ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
 
 <details>
 
@@ -362,6 +430,10 @@ D. <br>
 </details>
 
 5. Write a program to get the union, intersection and difference of two sets without altering the existing sets.
+ 
+ ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -406,6 +478,10 @@ public class SetOperations {
 ## Real-Time Application
 
 1. Local elections are planned to occur one month from now, and there is a list with all the names of people who live in the city but some names are repeated. so prepare a unique list of people who are eligible to vote from the existing list. 
+ 
+ ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
 
 <details>
 
@@ -424,6 +500,10 @@ HashSet<String> voterList = new HashSet<>(names);
 ##  Error detection
 
 1. Which of the following is true for the code snippet mentioned below?
+ 
+ ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+
 
 ``` java
 HashSet<Integer> a = new HashSet<>();
