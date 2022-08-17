@@ -1,6 +1,6 @@
  ## Technical
  
- 1. What is the collection framework? 
+ 1. What is a collection framework? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -8,7 +8,7 @@
   <summary><b>Show answer</b></summary>
   <blockquote>
  
- Collection is a container or object that combines multiple elements into a single unit. Collections are used to store retrieve and manipulate data.
+ Collection is a container or object that combines multiple elements into a single unit. Collections are used to store, retrieve and manipulate data.
  Collection framework is an architecture for collections and every collection framework has Interface, implementation for the interface and the algorithms( searching and sorting etc.)
   </blockquote>
   
