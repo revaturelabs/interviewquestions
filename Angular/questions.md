@@ -41,23 +41,24 @@
 42. What is the difference between `ng serve -o` and `ng serve`
 43. What is the difference between `npm start` and `ng serve`
 44. How do you find which version of angular installed in our system? How do you updated to latest version?
-45. Match the commands with its appropriate details
-
-![image](https://user-images.githubusercontent.com/70228962/184809083-a973816f-8468-4a0a-be4e-8ff7bec30861.png)
-
-46. What kind of files we can find on `e2e` folder and `node_modules` folder?
-47. What are files we can find under `src` folder?
-48. What is the difference between `angular.json` and `package.json` file?
-49. What is the difference between `package.json` and `package-lock.json` files?
-50. In Angular app, where I can define or specify the target browser?
-51. What is a component?
-52. In which file, I can find `@Component` and `@NgModule` decorator?
-53. What are the metadata does `@Component` decorator>
-54. How do you create a component?
-55. What are the files created or updated when we create a component?
-56. How many files are generated when we create a component?
-57. I have to create component `User` as a parent. Then, I want to 2 child components for `User` component. Let's say 2 child components are `User-Login` and `User-Register`. What are the steps I needed to do?
-58. Below is the code in `user.component.ts`. If I want to insert user component to the `index.html` file.
+45. How we can run unit test in angular project?
+46. How we can compile an Angular app into an output directory?
+47. How we can build and serve your application, rebuilding on file changes?
+48. How to generate or modifie files based on a schematic?
+49. Which command allows to build and serve an Angular application, then runs end-to-end tests?
+50. What kind of files we can find on `e2e` folder and `node_modules` folder?
+51. What are files we can find under `src` folder?
+52. What is the difference between `angular.json` and `package.json` file?
+53. What is the difference between `package.json` and `package-lock.json` files?
+54. In Angular app, where I can define or specify the target browser?
+55. What is a component?
+56. In which file, I can find `@Component` and `@NgModule` decorator?
+57. What are the metadata does `@Component` decorator>
+58. How do you create a component?
+59. What are the files created or updated when we create a component?
+60. How many files are generated when we create a component?
+61. I have to create component `User` as a parent. Then, I want to 2 child components for `User` component. Let's say 2 child components are `User-Login` and `User-Register`. What are the steps I needed to do?
+62. Below is the code in `user.component.ts`. If I want to insert user component to the `index.html` file.
 ```ts
 import { Component } from '@angular/core';
 @Component ({
