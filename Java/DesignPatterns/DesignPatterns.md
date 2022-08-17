@@ -305,7 +305,7 @@ we create a concrete classes DiffBank and abstract classes  for Loan and Bank1 a
  
  ---
 
-11.what are the advantages and usages  of Prototype Pattern? 
+11.what are the advantages and usages  of Prototype Pattern?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -376,7 +376,7 @@ It declares an interface for accessing and managing its child components.
 
 ---
 
-14:Write some code to create a class for Composite design pattern? 
+14.Write some code to create a class for Composite design pattern.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -456,7 +456,7 @@ The Bank class is a Composite class which implements the setter and getter metho
  
 ---
 
-15:Write the missing  code in the main method for implementing the singleton? 
+15.Write the missing code in the main method for implementing the singleton.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -512,7 +512,7 @@ If you see the same value, then singleton was reused and If you see different va
 
 ---
 
-16:What are the steps to create a Factory Design Pattern? 
+1.:What are the steps to create a Factory Design Pattern? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -522,7 +522,8 @@ If you see the same value, then singleton was reused and If you see different va
 
 - Define an interface or abstract class for creating an object, but let the subclass decide which class to instantiate.
 - Promotes loose-coupling by eliminating the need to directly interact with the subclass.
-- Steps to implement Factory pattern:
+	
+- Steps to implement Factory pattern are:
 - Define an abstract class or interface
 - Define multiple child classes
 - Define a Factory class that creates the child class and returns the parent class reference.
@@ -533,7 +534,7 @@ If you see the same value, then singleton was reused and If you see different va
 
 ---
 
-17:Write the missing  code in the main method for implementing the Factory Design Pattern? 
+17.Write the missing  code in the main method for implementing the Factory Design Pattern.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -604,7 +605,7 @@ This code implements a PersonFactory. This class has a static method named getPe
 
 ---
 
-18:Explain with a conceptual example for Chain of Responsibility Pattern? 
+18.Explain with a conceptual example for Chain of Responsibility Pattern.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -619,7 +620,7 @@ This code implements a PersonFactory. This class has a static method named getPe
 
 ---
 
-19:Write the missing  code for implementing the State Pattern? 
+19.Write the missing code for implementing the State Pattern.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -689,7 +690,7 @@ The fan wall control controls the speed with a fan rotates. It has speed levels 
 
 ---
 
-20:What are the benefits of State Pattern? 
+20.What are the benefits of State Pattern? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
