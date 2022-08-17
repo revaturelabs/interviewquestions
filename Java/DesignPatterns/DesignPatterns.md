@@ -206,7 +206,7 @@ we create the instance of the class at the time of declaring the static data mem
 
 ---
 
-8.what are the advantages and usages of Abstract Factory Pattern? 
+8.What are the advantages and usages of Abstract Factory Pattern? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
