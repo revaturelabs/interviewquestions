@@ -23,7 +23,7 @@
 	
 ---
 	
-3: Predict the output of the following code.
+3Predict the output of the following code.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
