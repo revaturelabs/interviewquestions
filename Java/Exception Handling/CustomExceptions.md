@@ -73,7 +73,7 @@ Exception occured:InvalidAgeException:An individual age is not eligible to vote
 
 <details><summary><b> Explanation</b></summary>
   
->constructor of InvalidAgeException takes a string as an argument. This string is passed to constructor of parent class Exception using the super() method. Also the constructor of Exception class can be called without using a parameter and calling super() method is not mandatory.
+>Constructor of InvalidAgeException takes a string as an argument. This string is passed to constructor of parent class Exception using the super() method. Also the constructor of Exception class can be called without using a parameter and calling super() method is not mandatory.
   
 </details
 </details>
