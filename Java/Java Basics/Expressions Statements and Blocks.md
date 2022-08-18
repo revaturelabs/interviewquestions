@@ -1,6 +1,6 @@
 ## Expressions, Statements and Blocks
 
-1: How will you explain about expression?
+1.How will you explain about expression?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
@@ -8,11 +8,12 @@
 <blockquote>
 
 - An expression is madeup of variable, constants and operators.
-**Example**
+
+	**Example**
     ```java
     System.out.println(variable1==variable2);
     ```
-- The above statement will return boolean value based wheather they equal or not.
+- The above statement will return boolean value based whether they are equal or not.
 
 	**Example**
 
@@ -24,7 +25,7 @@
 
 ---
 
-2: How will you explain about Statement?
+2. How will you explain about Statement?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
@@ -33,11 +34,11 @@
 	
 - Statements are like sentences in a language.
 - We can use semicolon to seperate the statements(;).
-- There are for four types of statements.
-    -   Assignment statement : to Assign the values to varaible
-    -   Increment or decreament statement : `++` or `--`
-    -   Method invocations statement - calling the method
-    -   Object creation statement - object created with reference
+- There are for four types of statements.	
+   - Assignment statement : to Assign the values to varaible
+   - Increment or decreament statement : `++` or `--`
+   - Method invocations statement - calling the method
+   - Object creation statement - object created with reference
 </details>
 </blockquote>
 
