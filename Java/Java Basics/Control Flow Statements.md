@@ -31,7 +31,7 @@
 
 ---
 
-3.What will happen when if condition don't has else block?
+3.What will happen when `if` condition don't has `else` block?
 	
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
