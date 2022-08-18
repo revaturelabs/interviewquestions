@@ -6,7 +6,7 @@
 
 
 
-<details><summary>Show Answer</summary>
+<details><summary><b>Show Answer</b></summary>
 
 > Yes, inner classes have access to all the members of the outer class including private members of the class.
 	
@@ -82,11 +82,14 @@
 
 
 <details><summary><b>Show Answer</b></summary>
+<blockquote>
 
 | **Static Nested Class**                                                                                                                                   | **Inner Class**                                                                                              |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | A nested class which is declared static is called a static nested class                                                                                   | A nested class which is non-static is called an Inner class.                                                 |
 | A static nested class can’t access the members of the enclosing class directly, an object reference is used to access the members of the enclosing class. | An inner class can directly access all the fields and methods of the enclosed class even if they are private |
+
+</blockquote>
 </details>
 
 ---
