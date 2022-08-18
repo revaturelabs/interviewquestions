@@ -386,10 +386,13 @@ An immutable class can be created by
 </blockquote>
 </details>
 
+---
+
 12. How to represent an object as a string?
 
 <details>
 	<summary><b>Show Answer</b></summary>
+	
 > an object can be represneted as string using `toString()` method.
 
 </details>
