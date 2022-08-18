@@ -34,7 +34,7 @@ There are four type of access modifier:
 
 ---
 
-3.Explain about Public Access Modifier.
+3.Explain about `public` Access Modifier.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
@@ -48,14 +48,16 @@ There are four type of access modifier:
 
 ---
 
-4.Explain about Private Access modifier.
+4.Explain about `private` Access modifier.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
     <summary><b> Show Answer </b></summary> 
 <blockquote>
 
-If we specify with private access modifier,the accessibility will be within the class.
+- If we specify with private access modifier to any field,the accessibility will be within the class.
+- It is the most retrictive access modifier
+- It can't be used for class and interface.
 </blockquote>
 </details>
 
@@ -239,10 +241,18 @@ public class Main {
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 <details>
     <summary><b> Show Answer </b></summary> 
+**Output**
+```
+null
+```
+</details>
+<details>
+    <summary><b> Explanation </b></summary> 
 <blockquote>
 
-- The output of the program is `null`. The object `dep` for `Department` isn't initialized with any value. Only `emp` object for `Employee` is initialized.
+- The output of the program is `null`. The object `dep` for `Department` isn't initialized with any value. Only `emp` object for `Employee` class is initialized.
 - The subclass methods can access `default`, `public`, and `protected` fields.
+- Therefore, `dep` object can access the `getName()` method from `Employee` class.
 - If the value for instance variable is not initialized, the default value will be assigned to it.For string, the value is `null`.
 </blockquote>
 </details>
