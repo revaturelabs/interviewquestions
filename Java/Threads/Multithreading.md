@@ -5,9 +5,9 @@
 <summary><b> Show Answer </b></summary>
 <blockquote>
 
-- Thread is termed as a lightweight process. A process will be divided into parts called Thread.
-- Multithreading is the process of executing one or more threads simultaneously. Where the threads will share a common memory and the execution will also be faster.
-- We can also perform multiple operations together.
+- Thread is termed as a lightweight process. A process is divided into parts, each part called Thread.
+- Multithreading is the process of executing one or more threads simultaneously. 
+- In multithreading, threads will share a common memory and the execution will also be faster.
 </blockquote>
 </details>
 
@@ -22,13 +22,13 @@ D)Run<br>
 <summary><b> Show Answer </b></summary>
 <blockquote>
 
-- A)Main
+A)Main
 </blockquote>
 <details>
 <summary><b> Explanation </b></summary>
 <blockquote>
 
-- If there is no thread is created, the main thread will execute the process by defualt.
+- If there is no thread is created, the main thread will execute the process by default.
 </blockquote>
 </details>
 </details>
@@ -37,7 +37,7 @@ D)Run<br>
 
 3. How can we create threads in Java?
 <details>
-<summary><b> Show Answer /<b></summary>
+<summary><b> Show Answer </b></summary>
 <blockquote>
 
 - We can create threads in two ways.
@@ -48,12 +48,12 @@ D)Run<br>
 
 ---
 
-4. How can we create thread by extending `Thread` class?
+4.Is there any class in java which help us to create a thread? Explain how?
 <details>
 <summary><b> Show Answer </b></summary>
 <blockquote>
-
-- The class which we want to make as thread should extend the class `Thread`.
+- Yes, there is a `Thread` class in java helps us to create a thread.
+- Create a class and extend that class by Thread class. Then, the created class will act as thread in java. 
 - After extending `Thread` class, the class should override the `run` method.
 - After creating object for the class, we can use `start()` method to run the method.
 </blockquote>
