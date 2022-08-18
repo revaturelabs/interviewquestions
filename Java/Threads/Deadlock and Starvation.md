@@ -14,7 +14,6 @@
 - For example, let us assume, we have two processes A1 and A2. Now, process A1 is holding the resource R1 and is waiting for the resource R2. At the same time, the process A2 is having the resource R2 and is waiting for the resource R1. So, no one is releasing any resource, both are waiting for each other to release the resource. This is called deadlock condition.
 
 </blockquote>
-
 </details>
 
 ---
@@ -123,7 +122,6 @@ Synchronized keyword is the only reason for deadlock situation, which allows onl
 
 ---
 
-## Problem Solving
 
 10. Write a program to illustrate deadlock condition?
 
@@ -184,6 +182,14 @@ Here the thread1 will wait for thread2 to complete and thread2 will wait for thr
 
 ---
 
+11. What is the difference between deadlock and starvation?
 
-
-
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+<details><summary> Show Answer </summary>
+<blockquote>
+    
+- Deadlock and starvation occurs when the processes requesting a resource have been waiting for a long time. 
+- Deadlock occurs when each process holds a resource and waits for another resource which is in hold by other process. 
+- In contrast, in starvation, the processes with high priorities continuously consume resources, holding low priority processes from using the resources.
+    
+---
