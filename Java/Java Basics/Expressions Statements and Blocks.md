@@ -1,6 +1,6 @@
 ## Expressions, Statements and Blocks
 
-1.How will you explain about expression?
+1.How would you explain about expression?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
@@ -25,7 +25,7 @@
 
 ---
 
-2. How will you explain about Statement?
+2. How would you explain about Statement?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
@@ -35,16 +35,16 @@
 - Statements are like sentences in a language.
 - We can use semicolon to seperate the statements(;).
 - There are for four types of statements.	
-   - Assignment statement : to Assign the values to varaible
-   - Increment or decreament statement : `++` or `--`
-   - Method invocations statement - calling the method
-   - Object creation statement - object created with reference
+  - Assignment statement : to Assign the values to varaible
+  - Increment or decreament statement : `++` or `--`
+  - Method invocations statement - calling the method
+  - Object creation statement - object created with reference
 </details>
 </blockquote>
 
 ---
 
-3.How will you explain about blocks?
+3.How would you explain about blocks?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
