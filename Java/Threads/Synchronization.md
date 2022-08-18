@@ -79,22 +79,21 @@ public class Main {
 <summary><b> Show Answer </b></summary>
 <blockquote>
 
+- All the methods by default is asynchronized.
 - There is no keyword to make method as asynchronized.
-- All the methods by default, it is Asynchronized
 </details>
 
 ---
 
-3. How will you make a thread to waiting state?
+3. How will you move a thread to the waiting state?
 	
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
 <summary><b> Show Answer </b></summary>
 <blockquote>
 
-- The method `wait()` will make the current thread to be in wait state untill another thread calls the `notify()` or `notifyAll()`.
-- It is a method from `java.lang` package.
-- This method is called only from sychronized method.
+- The method `wait()` will move the current thread to the waiting state.
+- `wait()` method is in `java.lang` package and called only from sychronized method.
 </blockquote>
 </details>
 
@@ -107,9 +106,8 @@ public class Main {
 <summary><b> Show Answer </b></summary>
 <blockquote>
 
-- We can wake a thread using the `notify()`  method. 
-- It is a method from `java.lang` package.
-- This method is called only from sychronized method.
+- We can wake a thread using the `notify()` method. 
+- `notify()` method from `java.lang` package and called only from sychronized method.
 - The waiting state will be released only by `notify()` or `notifyAll()` method which is object's monitor.
 </blockquote>
 </details>
