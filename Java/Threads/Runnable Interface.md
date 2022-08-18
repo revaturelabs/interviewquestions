@@ -2,7 +2,7 @@
 
 1. How `Runnable` interface is used to create threads?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
 <summary><b> Show Answer </b></summary>
 <blockquote>
@@ -36,10 +36,12 @@ public class Main {
 
 >When the method gets started by calling `start()` method, a new thread is created and starts executed it. On the time, the main thread will continue the remaining part. The thread will give the message `Hello` 10 times.
 </details>
+	
+---
 
 2. Is there way to create thread without implementing `Runnable` interface?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
 <summary><b> Show Answer </b></summary>
 <blockquote>
@@ -64,6 +66,8 @@ public class Main {
 Above code, creates the thread and start printing "Hello" for 10 times in 1000ms interval.					   
 </details>
 
+---
+	
 3. Can we pass lambda expression while creating object of `Thread` class?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -89,3 +93,5 @@ public class Main {
 ```
 Above code, creates the thread and start printing "Hello" for 10 times in 1000ms interval.
 </details>
+
+---
