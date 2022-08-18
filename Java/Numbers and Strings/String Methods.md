@@ -135,10 +135,14 @@ public class Main {
 ```
 </blockqoute> 
 </details>
+	
+---
 
 8: Name some methods which are used for the string operations.
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
-<summary><b> Show Answer </b></summary>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
 
 | **Method**         | **Details**                                                                               |
 |--------------------|-------------------------------------------------------------------------------------------|
@@ -155,6 +159,7 @@ public class Main {
 | length()           | It returns **int** that shows the size of the string.                                         |
 | replace()          | It returns **String** where specified values with specified values.                           |
 | split()            | It returns Array of String (**String[]**) that splits a string into an array of substrings.   |
+</blockqoute> 
 </details>
 
 ---
