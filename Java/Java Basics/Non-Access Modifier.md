@@ -7,7 +7,7 @@
     <summary><b> Show Answer </b></summary> 
 <blockquote>
 
- - Non-Access Modifiers will not change the scope but it will add some functionality. There are three types of Non-Access Modifires:
+ - Non-Access Modifiers will not change the scope but, it will add some functionality. There are three types of Non-Access Modifires:
     - `final`
     - `static`
     - `abstract`
@@ -130,7 +130,7 @@ Hi Good Morning
 
 ---
 
-8: Debugg below the code.
+8: Debugg the below code.
 
 ``` java 
 
