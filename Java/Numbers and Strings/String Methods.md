@@ -175,6 +175,8 @@ public class Main {
 }
 ```
 </details>
+	
+---
 
 10: How will you convert int to String?
 <details>
@@ -241,4 +243,5 @@ public class Main {
 >In the above code, we are specifying that how many digits should be there after decimal point.
 </blockqoute> 
 </details>
+	
 ---
