@@ -1,8 +1,11 @@
 ## Variables, Datatypes and Operators
 
-1: Explain the difference between primitive datatype and non-primitive datatype.
+1.Explain about the difference between primitive datatype and non-primitive datatype.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
-  <summary> Show Answer </summary>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - Primitive datatypes are prefined datatype. They are int, short, boolean, char, byte, long, float, and double.
 - Non-primitive datatype are also called as object defined datatypes. Some examples are Strings and Array etc.
@@ -10,9 +13,12 @@
 
 ---
 
-2: How will you define variables in java?
+2.How will you define variables in java?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
-  <summary> Show Answer </summary>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - Variables are the name of the memory location in specified data type.
 - There are three types of variable. They are,
@@ -29,13 +35,18 @@
         - Static variables are accessed without object creating by using class name.
         - If the static variables are accessed using object name, the object name will be converted into class name while compiling.
         - There are only one copy of static variables. If any change is done any part of program, it will affect thought out the program.
+</blockqoute> 
 </details>
 
 ---
 
-3: How many type of operators are there in java?
+3.How many type of operators are there in java?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
-  <summary> Show Answer </summary>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
+	
   - Operators are the symbols used in java for specifired operation.
       - Unary Operator
       - Arithmetic Operator
@@ -45,11 +56,12 @@
       - Assignment Operator
       - Logical Operator
       - Ternary Operator
+</blockqoute> 
 </details>
 
 ---
 
-4: Find the output for the following code.
+4.Find the output for the following code.
 ``` java 
 class Main{
  public static void main(String[] args){
@@ -59,12 +71,17 @@ class Main{
 }
 }
 ```
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
-<summary> Show Answer </summary>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
+	
 9
 11
 
-**Explanation**
+<details>
+    <summary><b> Explanation </b></summary> 
 In postincreament the value is holded then it will be increamented. 
 In preincrement the value is increamented on code flow itself.
 
@@ -74,11 +91,13 @@ The value of a is 1 and then increamented to 2
 In second line of output
 2+4+5 = 11
 Initially the value of a is 2 and then increamented to 3, in pre increament the value will be 4 and 5.
+</blockqoute> 
+</details>
 </details>
 
 ---
 
-5: Explain about Ternary operator.
+5.Explain about Ternary operator.
 <details>
 <summary> Show Answer </summary>
   - The ternary operator(?:) is also called conditional operator used to evalute boolean expression.
@@ -93,6 +112,7 @@ Initially the value of a is 2 and then increamented to 3, in pre increament the 
   int max = a>b?a:b;
 
   - It is the code of finding maximum of two numbers.
+</blockqoute> 
 </details>
 
 ---
@@ -121,7 +141,7 @@ Initially the value of a is 2 and then increamented to 3, in pre increament the 
   ```
   - 111 is coverted into integer ie 3.
   - Therefore the output is 3.
-
+</blockqoute> 
 </details>
 
 ---
@@ -137,6 +157,8 @@ Initially the value of a is 2 and then increamented to 3, in pre increament the 
 - The variable consisting one word should be in lower case.**Example:** `address`, `email`. 
 - If it consists two words or more, it should have name first letter of first word in lower case and  first letter of upcoming words should be in upper case **Example:** `phoneNumber`.
 - If the variable is constant, the letters of the variable should be in capital and words seperated by uderscore`_`.**Example:** `static final int DEPARTMENT_ID = 230`.
+</blockqoute> 
+</details>
 
 ---
 
