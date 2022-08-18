@@ -1,6 +1,8 @@
 ## Runnable Interface
 
 1. Explain about lifecycle of thread.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
 <summary><b> Show Answer </b></summary>
 <blockquote>
@@ -17,6 +19,8 @@
 ---
 
 2. How can we check whether the thread terminated or not?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
 <summary><b> Show Answer </b></summary>
 
@@ -46,6 +50,8 @@ public class Main {
 ---
 
 3. What will do `join()` method when we use in  thr program?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
 <summary><b> Show Answer </b></summary>
 <blockquote>
@@ -88,6 +94,8 @@ The main thread
 </details>
 
 4. Can we find the name of thread?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
 <summary><b> Show Answer </b></summary>
 <blockquote>
@@ -111,8 +119,10 @@ public class Main {
 </details>
 
 5. Can we name the threads?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
-<summary><b> Show Answer </b></summary>
+    <summary><b> Show Answer </b></summary> 
 
 >Yes, we can give the name for thread in two ways.
   >1. We can use this `setName()` method to give name to thread.
@@ -149,6 +159,8 @@ public class Main {
 ----
 
 6. How will you check a thread is in which state?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
 <summary><b> Show Answer <b></summary>
 <blockquote>
