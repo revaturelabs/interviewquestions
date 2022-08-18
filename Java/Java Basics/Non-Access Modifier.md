@@ -69,7 +69,7 @@
     <summary><b> Show Answer </b></summary> 
 <blockquote>
 
->No, we can't use instance variable in static method because instance variable belongs to the property of object where static method belongs to the property of class. So, we can use static variable in static method.
+No, we can't use instance variable in static method because instance variable belongs to the property of object where static method belongs to the property of class. So, we can use static variable in static method.
 </blockqoute>  
 </details>
 
