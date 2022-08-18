@@ -1,13 +1,13 @@
 ## Access Modifiers
 
-1.Explain about Access modifier.
+1.Explain about Access Modifier.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
     <summary><b> Show Answer </b></summary> 
 <blockquote>
 
-- Access modifiers are used to limit the accessibility or visibility of class, method, variable, and constructor.
+- Access Modifiers are used to limit the accessibility or visibility of class, method, variable, and constructor.
 
 There are four type of access modifier:
  - Default
@@ -19,7 +19,7 @@ There are four type of access modifier:
 
 ---
 
-2.Explain about Default Access modifier.
+2.Explain about Default Access Modifier.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
@@ -34,7 +34,7 @@ There are four type of access modifier:
 
 ---
 
-3.Explain about Public Access modifier.
+3.Explain about Public Access Modifier.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
@@ -105,8 +105,6 @@ If we specify with protected the access modifier, the accessibility will be with
 </details>
 
 ---
-
-## Debugg the program
 
 8.Find the error in the program.
 ``` java
