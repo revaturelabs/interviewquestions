@@ -234,6 +234,8 @@ Looping statements are used to do repeatative tasks. If one process has to done 
 Yes, we can use while loop instead of for loop where we have to initialize outside of the loop and increament or decreament inside the loop.
 </blockqoute> 
 </details>
+	
+---
 
 12.Explain the difference between while and do while.
 
