@@ -330,6 +330,7 @@ D)`.src`<br>
   
    A) `.java`
  </blockqoute> 
+ 
  <details>
  <summary><b> Explanation </b></summary> 
   <blockquote>
@@ -354,7 +355,8 @@ D)`.src`<br>
  
    B) `.class`
  </blockqoute> 
-   <details>
+ 
+ <details>
  <summary><b> Explanation </b></summary> 
   <blockquote>
    
