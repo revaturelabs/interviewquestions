@@ -24,7 +24,7 @@
     <summary><b> Show Answer </b></summary> 
 <blockquote>
   
-  - The control flow goes to the block based on the condition called as Conditional Statement.
+ The control flow goes to the block based on the condition called as Conditional Statement.
 
 </blockqoute>  
 </details>
@@ -79,7 +79,7 @@ While checking the condition, if it fails and we want to check the other conditi
 	}
 ```
 	
-The above code is used to find the price based the range of value.
+The above code is used to find the price based range of value.
 </blockqoute>  
 </details>
 
@@ -184,7 +184,7 @@ If we didn't use break or return, each cases of the switch will be executed whic
     <summary><b> Show Answer </b></summary> 
 <blockquote>
 
-Looping statements are used to do repeatative tasks. If one process has to done more than one, we will use looping statement. The three types of looping statements are,
+Looping statements are used to do repeatative tasks. If one process has to be done more than onece, we will use looping statement. The three types of looping statements are,
   - for
   - while
   - do
@@ -271,7 +271,7 @@ A continue statement is used to end the current loop iteration and return contro
 
 ---
 
-14: What will happen when we use `return` in a method?
+14. What will happen when we use `return` in a method?
 	
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
@@ -284,7 +284,7 @@ It exits the current method. There are two types of return statements they are r
 
 ---
 
-15: What will happen when we use `return` instead of `break` in loop?
+15.What will happen when we use `return` instead of `break` in loop?
 	
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
