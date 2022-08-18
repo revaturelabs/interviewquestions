@@ -188,16 +188,20 @@ Original cause: java.lang.ArithmeticException: cause
 >methods of Throwable class
 	
 <details><summary><b> Explanation</b></summary>
+
+<blockquote>
 	
->`public String getMessage()` – This method returns the message String of Throwable and the message can be provided while creating the exception through its constructor.
+- `public String getMessage()` – This method returns the message String of Throwable and the message can be provided while creating the exception through its constructor.	
 	
->`public String getLocalizedMessage() ` – This method is provided so that subclasses can override it to provide a locale-specific message to the calling program. Throwable class implementation of this method use getMessage() method to return the exception message.
+- `public String getLocalizedMessage() ` – This method is provided so that subclasses can override it to provide a locale-specific message to the calling program. Throwable class implementation of this method use getMessage() method to return the exception message.	
 	
->`public synchronized Throwable getCause() ` – This method returns the cause of the exception or null if the cause is unknown.
+- `public synchronized Throwable getCause() ` – This method returns the cause of the exception or null if the cause is unknown.
 	
->`public String toString()` – This method returns the information about Throwable in String format, the returned String contains the name of Throwable class and localized message.
+- `public String toString()` – This method returns the information about Throwable in String format, the returned String contains the name of Throwable class and localized message.	
 	
->`public void printStackTrace()` – This method prints the stack trace information to the standard error stream, this method is overloaded and we can pass PrintStream or PrintWriter as an argument to write the stack trace information to the file or stream.
+- `public void printStackTrace()` – This method prints the stack trace information to the standard error stream, this method is overloaded and we can pass PrintStream or PrintWriter as an argument to write the stack trace information to the file or stream.
+
+</blockquote>
 	
 </details>
 </details>
@@ -213,20 +217,24 @@ Original cause: java.lang.ArithmeticException: cause
 > best practices  of Exception Handling
 	
 <details><summary><b> Explanation</b></summary>
-	
->– Base classes of Exception hierarchy don’t provide any useful information, that’s why Java has so many exception classes, such as IOException with further sub-classes as FileNotFoundException, EOFException, etc. We should always throw and catch specific exception classes so that caller will know the root cause of the exception easily and process them. This makes debugging easy and helps client applications handle exceptions appropriately.
-	
->– Since java enforces to either handle the checked exception or to declare it in the method signature, sometimes developers tend to catch the exception and log the error. But this practice is harmful because the caller program doesn’t get any notification for the exception. We should catch exceptions only when we can handle them appropriately.While implementing any feature, we should always throw exceptions back to the caller and let them decide how to handle it.
-	
->– Since exceptions halt the processing of the program, we should close all the resources in finally block.
-	
->– We should always log exception messages and while throwing exceptions provide a clear message so that caller will know easily why the exception occurred. We should always avoid an empty catch block that just consumes the exception and doesn’t provide any meaningful details of the exception for debugging.
 
->– It’s always better to define an exception handling strategy at the design time and rather than throwing and catching multiple exceptions, we can create a custom exception with an error code and the caller program can handle these error codes. It’s also a good idea to create a utility method to process different error codes and use them.
+<blockquote>
 	
->– When you create your custom exception, make sure it ends with Exception so that it will be clear from the name itself that it’s an exception class. 
+- Base classes of Exception hierarchy don’t provide any useful information, that’s why Java has so many exception classes, such as IOException with further sub-classes as FileNotFoundException, EOFException, etc. We should always throw and catch specific exception classes so that caller will know the root cause of the exception easily and process them. This makes debugging easy and helps client applications handle exceptions appropriately.
 	
->– Exceptions are costly and sometimes it’s not required to throw exceptions at all and we can return a boolean variable to the caller program to indicate whether an operation was successful or not. This is helpful where the operation is optional and you don’t want your program to get stuck because it fails. 
+- Since java enforces to either handle the checked exception or to declare it in the method signature, sometimes developers tend to catch the exception and log the error. But this practice is harmful because the caller program doesn’t get any notification for the exception. We should catch exceptions only when we can handle them appropriately.While implementing any feature, we should always throw exceptions back to the caller and let them decide how to handle it.
+	
+- Since exceptions halt the processing of the program, we should close all the resources in finally block.
+	
+- We should always log exception messages and while throwing exceptions provide a clear message so that caller will know easily why the exception occurred. We should always avoid an empty catch block that just consumes the exception and doesn’t provide any meaningful details of the exception for debugging.
+	
+- It’s always better to define an exception handling strategy at the design time and rather than throwing and catching multiple exceptions, we can create a custom exception with an error code and the caller program can handle these error codes. It’s also a good idea to create a utility method to process different error codes and use them.	
+	
+- When you create your custom exception, make sure it ends with Exception so that it will be clear from the name itself that it’s an exception class. 
+	
+- Exceptions are costly and sometimes it’s not required to throw exceptions at all and we can return a boolean variable to the caller program to indicate whether an operation was successful or not. This is helpful where the operation is optional and you don’t want your program to get stuck because it fails. 
+
+</blockquote>
 	
 </details>
 </details>
