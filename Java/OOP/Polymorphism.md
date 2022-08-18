@@ -14,7 +14,9 @@
   
 > A
   
-  <details><summary><b>Explanation</b></summary> <i>printing using a 3D printer is a method in the Caltech Physics department</i>, which is a class. Sheldon used the method for research and Howard used the same method for fun.
+  <details><summary><b>Explanation</b></summary> 
+    
+  > Printing using a 3D printer is a method in the Caltech class. Sheldon used the method for research and Howard used the same method for fun.
  </details>
 </details>
 
@@ -31,9 +33,12 @@
 - D.Abstraction
 
 <details><summary> Show Answer </summary>
+  
 > A
-  <details><summary><b>Explanation</b><summary>
+  <details><summary><b>Explanation</b></summary>
+    
 > John inherited The original recipe(a method) is  from his mother(parent class) and he altered the recipe.
+    
    </details>
     </details>
     
@@ -161,10 +166,12 @@ public class Languages {
 
 <details><summary> <b>Show Answer</b> </summary>
   
- Barking!
+ > Barking!
   
 <details>
- <summary><b>Explanation</b></summary> the concept of method overloading is implemented here, In the main method we are calling barkingDog() with a
+ <summary><b>Explanation</b></summary> 
+  
+ > the concept of method overloading is implemented here, In the main method we are calling barkingDog() with a
   parameter "Barking!". So bakringDog(String a) is implemented.
 
 </details>
@@ -208,12 +215,13 @@ class BusinessTrip extends Vacation{
   
   <details>
   <summary> <b>Show Answer</b> </summary>
+    
 >  A
     
 <details>
 <summary> <b>Explanation</b> </summary>
 
-The outcome of the program is the compile-time error and it's caused because the method signature for visitLondoon(), which is being overloaded is different in the parent class(Vacation) and Child class(BusinessTrip).
+> The outcome of the program is the compile-time error and it's caused because the method signature for visitLondoon(), which is being overloaded is different in the parent class(Vacation) and Child class(BusinessTrip).
   
   </details>
    </details>
@@ -260,7 +268,8 @@ public class Area{
   > C
  <details>
     <summary><b>Explanation</b></summary>
-   > calculateTriangleArea(double base, double height) is implemented when 1.0 and 2.0 are passed as method parameters.
+   
+  > calculateTriangleArea(double base, double height) is implemented when 1.0 and 2.0 are passed as method parameters.
   
   </details>
      </details>
