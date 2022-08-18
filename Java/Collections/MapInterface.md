@@ -25,11 +25,11 @@
  
 <blockquote>
 
-HashMap and Hashtable both are used to store data in key and value form. Both are using hashing technique to store unique keys.
+Both HashMap and Hashtable are used to store data in key and value form. Both are using hashing technique to store unique keys.
 
 |Sl.No|HashMap                |Hashtable                                         |
 |-----|-----------------------|--------------------------------------------------|
-| 01. |HashMap is **non synchronized**. It is not-thread safe and can't be shared between many threads without proper synchronization code.|Hashtable is **synchronized**. It is thread-safe and can be shared with many threads.|
+| 01. |HashMap is **non synchronized**. It is not thread safe and can't be shared between many threads without proper synchronization code.|Hashtable is **synchronized**. It is thread-safe and can be shared with many threads.|
 | 02. |HashMap allows one null key and multiple null values.|Hashtable doesn't allow any null key or value.|
 | 03. |HashMap is a new class introduced in JDK 1.2.|Hashtable is a legacy class.|
 | 04. |HashMap is fast.       |Hashtable is slow.|
@@ -249,7 +249,7 @@ public class OrderedMap {
 <blockquote>
 
 - `HashMap` stores keys and values in random order, whereas `TreeMap` stores all the elements in sorted order.
-- By creating a `TreeMap` and adding all the values of `HashMap` to `TreeMap` a sorted `Map` is created.
+- By creating a `TreeMap` and adding all the values of `HashMap` to `TreeMap`, a sorted `Map` is created.
 
 </blockquote>
 </details>
@@ -304,7 +304,7 @@ public class ValueOrder {
     
 ---
 
-10. Given a Sentence, print the frequency of each word in the list using a `HashMap`.
+10. Given a sentence, print the frequency of each word in the list using a `HashMap`.
     
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -345,7 +345,7 @@ public class DistinctWords {
 <summary><b>Explanation</b></summary>
 <blockquote>
 
-- A `String` array of the given string is created, if the words are new then a new key-value pair with word and frequency is added to the map and if the word already exists, then the frequency is increased by 1.
+- A `String` array of the given string is created, if the words are new, then a new key-value pair with word and frequency is added to the map and if the word already exists, then the frequency is increased by 1.
 
 </blockquote>
 </details>
@@ -481,7 +481,7 @@ public class Employee {
 
 - Employees contain employee name as key and manager name as value
 - A `HashSet` is created with all the employee names
-- From the hash set all the manager names are removed by get the manager names from `Employee.values()`.
+- From the hash set, all the manager names are removed by getting the manager names from `Employee.values()`.
 - `removeAll()` method deletes all the values from the list that are present in a specific collection.
 
 
@@ -618,7 +618,7 @@ public class Employee {
 
 ## Scenario Based
 
-17. Consider that a country stores its citizen's data in a form of Aadhar number and age, a deadly virus outbreak led to a global shutdown and the country wants to vaccinate the older people first as they get easily infected by the virus. Which of the following best represents the scenario?
+17. Consider that a country stores its citizen's data in a form of Aadhar number and age. A deadly virus outbreak led to a global shutdown and the country wants to vaccinate the older people first as they get easily infected by the virus. Which of the following best represents the scenario?
     
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
