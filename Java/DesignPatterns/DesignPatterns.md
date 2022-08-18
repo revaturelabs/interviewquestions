@@ -140,6 +140,8 @@ class BillDemo{
 ```
 <details><summary><b> Show Answer</b></summary>
 
+<blockquote>
+	
 ```java
 class Plan{  
        public EBPlan getPlan(String planType){  
@@ -160,17 +162,22 @@ class Plan{
 }
 ```
 
-<details><summary><b> Explanation</b></summary>
-<blockquote>
-Enter the name of plan for which the bill will be generated:Domestic Plan
-Enter the number of units for bill will be calculated: 100
-Bill amount for Domestic Plan of  100 units is:150
 </blockquote>
+	
+<details><summary><b> Explanation</b></summary>
+	
+<blockquote>
+	
+- Enter the name of plan for which the bill will be generated:Domestic Plan
+- Enter the number of units for bill will be calculated: 100
+- Bill amount for Domestic Plan of  100 units is:150
+- Create an EBPlan abstract class and create the concrete classes that extends EBPlan abstract class. 
+- Create a Plan class to generate object of concrete classes based on given information and use getPlan method to get object of type Plan class.  
+- Create a  BillDemo by using the Plan class to get the object of concrete classes by passing an information such as type of plan Domesticplan or Commercialplan or Insitutional Plan.
+- call getRate() method and calculateBill()method of DomesticPlan.  
 
->- Create an EBPlan abstract class and create the concrete classes that extends EBPlan abstract class. >- Create a Plan class to generate object of concrete classes based on given information and use getPlan method to get object of type Plan class.  
->- Create a  BillDemo by using the Plan class to get the object of concrete classes by passing an information such as type of plan Domesticplan or Commercialplan or INSTITUTIONALPLAN.
->- call getRate() method and calculateBill()method of DomesticPaln.  
-
+</blockquote>
+	
 </details>
 </details>
 
@@ -199,7 +206,7 @@ class Singleton1{
 
 <details><summary><b> Explanation</b></summary>
 
-we create the instance of the class at the time of declaring the static data member.So,instance of the class is created at the time of classloading.
+>we create the instance of the class at the time of declaring the static data member.So,instance of the class is created at the time of classloading.
 
 </details>
 </details>
@@ -250,7 +257,8 @@ class Lazy{
 
 <details><summary><b> Explanation</b></summary>
 
-we create the instance at the request time.
+>we create the instance at the request time.
+	
 </details>
 </details>
 
@@ -262,6 +270,8 @@ we create the instance at the request time.
 
 <details><summary><b> Show Answer</b></summary>
 
+<blockquote>
+	
 ``` java 
 
 import java.io.*;     
@@ -297,9 +307,12 @@ class DiffBank extends Bank1{
 }
 ```
 
+</blockquote>
+	
 <details><summary><b> Explanation</b></summary>
 
-we create a concrete classes DiffBank and abstract classes  for Loan and Bank1 and inherited the classes.
+>we create a concrete classes DiffBank and abstract classes  for Loan and Bank1 and inherited the classes.
+	
 </details>
 </details>
  
@@ -324,6 +337,8 @@ we create a concrete classes DiffBank and abstract classes  for Loan and Bank1 a
 
 <details><summary><b> Show Answer</b></summary>
 
+<blockquote>
+	
 ``` java 
 public class Bank{  
     private String BankName;  
@@ -351,9 +366,11 @@ public class Bank{
 } 
 ```
 
+<blockquote>
+
 <details><summary><b> Explanation</b></summary>
 
-The Bank class is a wrapper class which implements the setter and getter methods and modifies the specific request available from the Adapter class.
+>The Bank class is a wrapper class which implements the setter and getter methods and modifies the specific request available from the Adapter class.
 
 </details>
 </details>
@@ -382,6 +399,8 @@ It declares an interface for accessing and managing its child components.
 
 <details><summary><b> Show Answer</b></summary>
 
+<blockquote>
+	
 ``` java 
 import java.util.*;  
 public interface Employee {  
@@ -448,9 +467,12 @@ public class Bank implements Employee {
 }
 ```
 
+</blockquote>
+	
 <details><summary><b> Explanation</b></summary>
 
-The Bank class is a Composite class which implements the setter and getter methods and implements the methods which are declared in the employee interface.
+>The Bank class is a Composite class which implements the setter and getter methods and implements the methods which are declared in the employee interface.
+	
 </details>
 </details>
  
@@ -494,6 +516,8 @@ public class DemoSingleThread {
 ```
 <details><summary><b> Show Answer</b></summary>
 
+<blockquote>
+	
 ``` java 
 public class DemoSingletonThread {
     public static void main(String[] args) {
@@ -505,14 +529,19 @@ public class DemoSingletonThread {
     }
 }
 ```
+	
+</blockquote>
+	
 <details><summary><b> Explanation</b></summary>
-If you see the same value, then singleton was reused and If you see different values, then 2 singletons were created.
+	
+>If you see the same value, then singleton was reused and If you see different values, then 2 singletons were created.
+	
 </details>
 </details>
 
 ---
 
-1.:What are the steps to create a Factory Design Pattern? 
+16.What are the steps to create a Factory Design Pattern? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -588,6 +617,8 @@ public class FactoryPattern {
 ```
 <details><summary><b> Show Answer</b></summary>
 
+<blockquote>
+	
 ``` java 
  public static void main(String[] args) {
         Person male = PersonFactory.getPerson("Socrates", "M");
@@ -596,9 +627,15 @@ public class FactoryPattern {
         System.out.println(female.getNameAndSalutation);
     }
 ```
+</blockquote>
+	
 <details><summary><b> Explanation</b></summary>
 
+<blockquote>
+	
 This code implements a PersonFactory. This class has a static method named getPerson() that accepts a person’s name and gender as parameters. Depending on the gender String passed in, it either returns a Male or a Female object.If somebody wants to create a male person, they invoke the getPerson() method on the PersonFactory with a gender argument of "M". Similarly, you can create a female person by invoking the getPerson() method on the PersonFactory with a gender argument of "F".We are passing in an identifier of the type of object we need, at the time of creation, while still referring to the generic type, Person.The Male and Female classes are hidden behind the PersonFactory implementation.
+	
+</blockquote>
 
 </details>
 </details>
@@ -656,6 +693,8 @@ This code implements a PersonFactory. This class has a static method named getPe
 ```
 <details><summary><b> Show Answer</b></summary>
 
+<blockquote>
+	
 ``` java 
         static class Off implements SpeedLevel {
             public void rotate(FanWallControl fanWallControl) {
@@ -679,7 +718,11 @@ This code implements a PersonFactory. This class has a static method named getPe
             }
         }
 ```
+	
+</blockquote>
+	
 <details><summary><b> Explanation</b></summary>
+	
 <blockquote>
 
 The fan wall control controls the speed with a fan rotates. It has speed levels ranging from 0 to 5. When it is at level 0, the fan does not rotate, and it rotates the fastest at level 5.When you rotate the knob of the fan control, the level changes, and this causes the speed of the fan to change as well. This is a classic case of a change in state (level) causing a change in behavior (speed).A FanwallControl object is composed of a SpeedLevel object. SpeedLevel is an interface that has four different implementations. Initially, the level is at Off, and when you click rotate at that time, the new speed is at SpeedLevel1. The happens successively, and if you rotate at SpeedLevel3, the level returns to Off.In case you need to define an additional speed level, just add in a new class that implements the SpeedLevel interface and implement its rotate method.
