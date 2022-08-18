@@ -365,3 +365,20 @@ D)`.src`<br>
    </details> </details>
 
 ---
+ 
+ 24.Explain the difference between compiler and interpreter
+ 
+ ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ <details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
+ | Interpreter                                                                                                               | Compiler                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| The interpreter translates the program one line at a time; if an error occurs in a certain line, the process stops there. | The compiler compiles the entire code at once.                              |
+| The interpreter is faster than the compiler                                                                               | The compiler is slow when compared to the interpreter                       |
+| The interpreter uses less memory as there is no object conversion process involved                                        | The compiler converts the program to object code. So, memory usage is more. |
+| Python and JavaScript are a few interpreter languages                                                                     | C, Ruby, and Java are a few compiler languages                              |
+</blockqoute> 
+</details>
+ 
+ ---
