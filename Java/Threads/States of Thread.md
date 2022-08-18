@@ -2,15 +2,15 @@
 
 1. Explain about lifecycle of thread.
 <details>
-<summary><b> Show Answer <b></summary>
+<summary><b> Show Answer </b></summary>
 <blockquote>
 
-- There are 5 states that thread has
-  - **New** – When a thread begins the lifecycle and at the time of creating object for thread class. (Newly born thread)
-  - **Runnable** – When a thread starts its execution in JVM. Waiting for resource allocation.
-  - **Running** – When the thread is scheduled for executing.
-  - **Blocked** – thread will be alive but blocked for monitor lock.
-  - **Terminated** – when the thread stops its execution. (Either by completing the execution or by terminated abruptly).
+- We have 5 states in the lifecycle of the thread. There are,
+  - **New** – Thread begins the lifecycle, at the time of creating object for `Thread` class. (Newly born thread)
+  - **Runnable** – Thread starts its execution in JVM but waiting for resource allocation.
+  - **Running** –  Thread is running in JVM
+  - **Blocked** –  Thread will be alive but blocked for monitor lock.
+  - **Terminated** – Thread stops its execution. (Either by completing the execution or by terminated abruptly).
 </blockquote>
 </details>
 
@@ -18,7 +18,7 @@
 
 2. How can we check whether the thread terminated or not?
 <details>
-<summary><b> Show Answer <b></summary>
+<summary><b> Show Answer </b></summary>
 
 >We can use `isAlive()` method that returns a boolean value whether the thread is on process or not.
 
