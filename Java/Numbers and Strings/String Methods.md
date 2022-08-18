@@ -1,26 +1,37 @@
-1: What are strings?
-<details>
-<summary><b> Show Answer </b></summary>
+1.What is String in Java?
 
-- Strings are sequence of characters in java.
-- StringBuffers are in `java.lang package`.
-- Strings are immutable and are stored inside the string constant pool. 
-- If we try to change the value of string, the string is rewritten and the reference changes.
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
+
+
+- String are sequence of characters in java.
+- String is in `java.lang package`.
+- String is immutable and are stored inside the string constant pool. 
+- If we try to alter the value of String variable, new String object is created and assigned to same reference variable
+</blockqoute> 
 </details>
 
 ---
 
-2:What are the different ways to create a string in Java?
-<details>
-<summary><b> Show Answer </b></summary>
+2.What are the different ways to create a string in Java?
 
-- There are two ways to create strings in java.
-Using literal string, we can assign the value to a string with double quotes. The value is stored in a string constant pool.
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
+
+There are two ways to create strings in java.
+  - Using literal string, we can assign the value to a string with double quotes. The value is stored in a string constant pool.
+	
 **Example**
 ``` java
 	String string = "Hello";
 ```
-Using new keyword – It will create the new object in the heap memory
+	
+    - Using new keyword – It will create the new object in the heap memory
+	
 **Example**
 ``` java
 	String string = new String("Hello");
@@ -29,27 +40,33 @@ Using new keyword – It will create the new object in the heap memory
 
 ---
 
-3: What's the difference between == and .equals in Java? 
+3.What's the difference between == and `.equals()` in Java? 
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
-<summary><b> Show Answer </b></summary>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
 
->Double equals (==) is an operator that compares the value and reference. Dot equals (.equals) is a method that checks the value only.
+Double equals (==) is an operator that compares the value and reference. Dot equals (.equals) is a method that checks the value only.
+
 **Example**
-	public class Main {
-	    public static void main(String[] args) {
-	        String str1 = "Hello";
-	        String str2 = new String("Hello");
-	        System.out.println(str1==str2);//false
-	        System.out.println(str1.equals(str2));//true
-	    }
-	}
-The first output statement will give output as false where the values are the same but the reference differs.
-The second output statement will give output as true where the values are the same even after the reference differs.
+``` java
+public class Main {
+    public static void main(String[] args) {
+        String str1 = "Hello";
+        String str2 = new String("Hello");
+        System.out.println(str1==str2);//false
+        System.out.println(str1.equals(str2));//true
+    }
+}
+```
+- The first output statement will give output as false where the values are the same but the reference differs.
+- The second output statement will give output as true where the values are the same even after the reference differs.
 </details>
 
 ---
 
-4: Why Strings are immutable in java?
+4.why String is immutable in Java?
 <details>
 <summary><b> Show Answer </b></summary>
 
