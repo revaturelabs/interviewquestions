@@ -173,12 +173,10 @@ class DeadlockSample extends Thread {
 <blockquote>
 
 Here the thread1 will wait for thread2 to complete and thread2 will wait for thread1 to complete, thus the deadlock condition occurs.
-
-</details>
-
-</details>
-
 </blockquote>
+</details>
+
+</details>
 
 ---
 
@@ -191,5 +189,7 @@ Here the thread1 will wait for thread2 to complete and thread2 will wait for thr
 - Deadlock and starvation occurs when the processes requesting a resource have been waiting for a long time. 
 - Deadlock occurs when each process holds a resource and waits for another resource which is in hold by other process. 
 - In contrast, in starvation, the processes with high priorities continuously consume resources, holding low priority processes from using the resources.
+</blockquote>
+</details>
     
 ---
