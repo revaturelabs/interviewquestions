@@ -96,7 +96,30 @@ public class Main {
 
 ---
 
-5.Why don't we create object to use `Character.getNumericValue()`?
+5.Can we convert `char` to `int` with exact numeric value of `char`?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
+
+Yes, we can convert `char` to `int` with exact numeric value using wrapper class.
+``` java
+public class Main {
+	public static void main(String[] args) {
+		char c = '9'; 
+		int i = Character.getNumericValue(c);
+		System.out.println(i); //9
+	}
+}
+```
+In the above code, the method `Character.getNumericValue(c)` gets the numeric value.
+</blockqoute> 
+</details>
+
+---
+
+6.Why don't we create object to use `Character.getNumericValue()`?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
@@ -109,7 +132,7 @@ public class Main {
 
 ---
 
-6.How will you assign the number from `char` to `int` without using wrapper classes in java?
+7.How will you assign the number from `char` to `int` without using wrapper classes in java?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
