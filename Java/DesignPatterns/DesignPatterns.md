@@ -189,6 +189,8 @@ ___
 
 <details><summary><b> Show Answer</b></summary>
 
+<blockquote>
+	
 ``` java 
 class Singleton1{  
  private static Singleton1 obj=new Singleton1(); 
@@ -204,6 +206,8 @@ class Singleton1{
 }  
 ```
 
+</blockquote>
+	
 <details><summary><b> Explanation</b></summary>
 
 >we create the instance of the class at the time of declaring the static data member.So,instance of the class is created at the time of classloading.
@@ -233,6 +237,8 @@ It promotes consistency among objects.
 
 <details><summary><b> Show Answer</b></summary>
 
+<blockquote>
+	
 ``` java 
 class Lazy{  
  private static Lazy obj;  
@@ -255,6 +261,8 @@ class Lazy{
 }  
 ```
 
+</blockquote>
+	
 <details><summary><b> Explanation</b></summary>
 
 >we create the instance at the request time.
@@ -366,7 +374,7 @@ public class Bank{
 } 
 ```
 
-<blockquote>
+</blockquote>
 
 <details><summary><b> Explanation</b></summary>
 
