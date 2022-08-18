@@ -55,7 +55,7 @@
 
 ---
 
-4.What will happen when if condition has else if block?
+4.What will happen when `if` condition has `else if` block?
 	
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
@@ -118,7 +118,7 @@ The above code is the example for finding the result. If any one condition fails
 	
 ---
 
-6.Where can we use switch statement?
+6.Where can we use `switch` statement?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
@@ -164,7 +164,7 @@ The above code is the example for finding the result. If any one condition fails
 
 ---
 
-7.Why do we use break after each cases in switch?
+7.Why do we use `break` after each cases in switch?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
@@ -254,7 +254,7 @@ The condition is checked at the end. If the condition is failed, the loop will b
 
 ---
 
-13.Explain the difference between break and continue.
+13.Explain the difference between `break` and `continue`.
 	
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
@@ -271,7 +271,7 @@ A continue statement is used to end the current loop iteration and return contro
 
 ---
 
-14: What will happen when we use return in a method?
+14: What will happen when we use `return` in a method?
 	
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
@@ -284,7 +284,7 @@ It exits the current method. There are two types of return statements they are r
 
 ---
 
-15: What will happen when we use return instead of break in loop?
+15: What will happen when we use `return` instead of `break` in loop?
 	
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
