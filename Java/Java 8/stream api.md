@@ -16,14 +16,14 @@
 
  ---
  
- 2. Why do we need to import java.util.stream even after importing java.util.* in the code to use stream API?
+ 2. Why do we need to import java.util.stream even after importing `java.util.*` in the code to use stream API?
 
    <details><summary><b> Show Answer</b></summary>
  
  <blockquote>
 
   - `java.util.*` will import all the direct classes and interfaces but not sub-classes/sub-packages.
-  - stream class resides in the sub package java.util.stream package so it will not be included in java.util.*.
+  - stream class resides in the sub package `java.util.stream` package so it will not be included in `java.util.*`.
   
 </blockquote>
  
