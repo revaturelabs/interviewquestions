@@ -75,7 +75,12 @@ public class TryResources {
 <details><summary><b> Show Answer</b></summary>
  
 >prints the characters from the file abc.txt 
+
+<details><summary><b> Explanation </b></summary>
  
+>It reads the file and prints the characters from the file and if the file does not exist then it throws an IOException.
+ 
+</details>
 </details>
 
 ---
