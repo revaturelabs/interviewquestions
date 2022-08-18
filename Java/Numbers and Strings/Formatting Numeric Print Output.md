@@ -1,6 +1,6 @@
 ## Formatting Numeric Print Output
 
-1: Find the output the code
+1.Find the output the code
 ``` java
 
 public class Main {
@@ -11,24 +11,31 @@ public class Main {
 	}
 }
 ```
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 <details>
 <summary><b> Show Answer </b></summary>
 
 `false`
 <details>
 <summary><b> Explanation </b></summary>
-
+<blockquote>
+	
 - If we add zero before a number, the value will become octal number. 
 - The octal number is converted into decimal value and assigned to `int` variable.
 - The value of `num1` is `11` and value of `num2` is `9` that are not equal. The output is `false`.
+</blockqoute> 
 </details>
 </details>
 
 ---
 
-2: How decimal, octal, hexa decimal and binary value are assigned to `int` varaible?
+2.How decimal, octal, hexa decimal and binary value are assigned to `int` varaible?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
-<summary><b> Show Answer </b></summary>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
 
 ``` java
 public class Main {
@@ -41,13 +48,17 @@ public class Main {
 }
 ```
 >All the above int values represent `100` in different forms.
+</blockqoute> 
 </details>
 
 ---
 
-3: Why is `f` added after the `float` value while using precision?
+3.Why is `f` added after the `float` value while using precision?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 <details>
-<summary><b> Show Answer </b></summary>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - When we have decimal value with precision that we will double by default. To specify that the value is `float` then we need to post-fix the value with `f`.
 ``` java
@@ -60,4 +71,5 @@ public class Main {
 	}
 }
 ```
+</blockqoute> 
 </details>
