@@ -117,8 +117,10 @@ public class Main {
     <summary><b> Show Answer </b></summary> 
 <blockquote>
 
-- In java string has method `split` that returns array of strings which seperates the strings respected to the regex.
-- It deletes the regex where regex can be letter, number or special character. The other substrings are stored in the string array.
+- In String class we have `split()` method ( String regex)  that returns array of strings(String[]) separated by the provided delimiting regular expression.
+- A regular expression is a sequence of characters that forms a search pattern (usually letter, number and/or special character).
+- When you search for data in a text, you can use this search pattern to describe what you are searching for.
+The method returns array of String post delimiting it.
 - We can also give limit to the string.
 ``` java
 public class Main {
@@ -131,6 +133,7 @@ public class Main {
 	}
 }
 ```
+</blockqoute> 
 </details>
 
 8: Name some methods which are used for the string operations.
@@ -156,7 +159,7 @@ public class Main {
 
 ---
 
-9: How will you convert String to int?
+9: How will you convert `String` to `int`?
 <details>
 <summary><b> Show Answer </b></summary>
 
@@ -190,32 +193,17 @@ public class Main {
 ```
 </details>
 
-11: How will you add trailing zero to a number?
-<details>
-<summary><b> Show Answer </b></summary>
-
-- If we add trailing zeros in the left side of `int` type, it will become octal number.
-- We convert the number into String  and add trailing zeros.
-``` java
-public class Main {
-	public static void main(String[] args) {
-		int i = 1234;
-		String s = String.format("%08d",i );
-		System.out.println(s);  //00001234
-	}
-}
-```
->In the above code, we are specifying that how many digits that the number should have.
-</details>
-
 ---
 
-11: How will you add trailing zero to a number?
-<details>
-<summary><b> Show Answer </b></summary>
+11.How will you convert number into String of length 8 with leading zero?
 
-- If we add trailing zeros in the left side of `int` type, it will become octal number.
-- We convert the number into String and add trailing zeros.
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
+
+- If we add leading zeros in the left side of `int` type, it will become octal number.
+- We convert the number into String and add leading zeros.
 - We can use `format()` static method from `String`.
 ``` java
 public class Main {
@@ -226,16 +214,21 @@ public class Main {
 	}
 }
 ```
->In the above code, we are specifying that how many digits that the number should have.
+In the above code, we are specifying that how many digits that the number should have.
+</blockqoute> 
 </details>
 
 ---
 
-12: How will you limit decimal precision point?
+12.How will you limit decimal precision point?
+	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
-<summary><b> Show Answer </b></summary>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
 
-> We can limit the precision point using `format()` static method from `String`.
+We can limit the precision point using `format()` static method from `String`.
+	
 ``` java
 public class Main {
 	public static void main(String[] args) {
@@ -246,6 +239,6 @@ public class Main {
 }
 ```
 >In the above code, we are specifying that how many digits should be there after decimal point.
+</blockqoute> 
 </details>
-
 ---
