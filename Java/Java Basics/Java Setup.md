@@ -81,14 +81,14 @@ JRE stands for **J**ava **R**untime **E**nvironment that contains JVM and provid
 <summary><b> Show Answer </b></summary> 
 <blockquote>
 
-- JVM stands for **J**ava **V**irtual **M**achine that uses to run java application in different platforms.
-- It converts .class into java bytecode which depends up the paltform ie, the native language code.
+- JVM stands for **J**ava **V**irtual **M**achine that uses to run Java application in different platforms.
+- It converts class into Java bytecode which depends up the paltform ie, the native language code.
       </blockquote>
 </details>
 
 ---
 
- 7.Why java is platform independent?
+ 7.Why Java is platform independent?
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
 <summary><b> Show Answer </b></summary> 
@@ -102,7 +102,7 @@ JRE stands for **J**ava **R**untime **E**nvironment that contains JVM and provid
 
  ---
 
- 8.What is the entry point of java program?
+ 8.What is the entry point of Java program?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
@@ -113,8 +113,8 @@ JRE stands for **J**ava **R**untime **E**nvironment that contains JVM and provid
 ``` java
 public static void main(String[] args)
 ```
-- It is not found in the java application, the java application will not be executed.
-- If the method signature this main method is changed, it will not be consider as staring point.
+- It is not found in the Java application, the Java application will not be executed.
+- If the method signature or passing parameter of main method is changed, it will not be consider as staring point.
 </blockquote>
  </details>
 
@@ -128,7 +128,7 @@ public static void main(String[] args)
 <blockquote>
 
 - API means Application Programming Interface, which acts as intermediate between two application to communicate between each other.
-- One application may be developed in one language and other application may be developed in another application where api acts as intermediatry thats allows to communicate each other.
+- One application may be developed in one language and other application may be developed in another application where API acts as intermediatry thats allows to communicate each other.
       </blockquote>
 </details>
 
@@ -142,13 +142,13 @@ public static void main(String[] args)
 <blockquote>
 
 - Java supports primitive data types such as int, float, long, double, byte, char, short, boolean which are not objects.
-- While using static key, their is no need to create objects to access the value or method.
+- While using static key, there is no need to create objects to access the value or method.
       </blockquote>
 </details>
 
 ---
 
-11.If you are a user of java application, which tool do you need in JDK, JRE and JVM?
+11.If you are a user of Java application, which tool do you need in JDK, JRE and JVM?
       
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
@@ -184,7 +184,7 @@ public static void main(String[] args)
 <summary><b> Show Answer </b></summary> 
 <blockquote> 
 
-- The left side class of denotes reference of the object and right side denotes object of which to be created.
+- The left side class denotes reference of the object and right side denotes object of which to be created.
     Eg. B b = new A()
 - B(Reference) can be respected class, abstract class or interface.
  </blockquote>
@@ -200,7 +200,7 @@ public static void main(String[] args)
 <blockquote>  
 
 - Heap memory is used through out the application.
-- Objects, arrays, static variables and instance variables are the examples which are stored in heap memory
+- Objects, arrays, static variables and instance variables are the examples which are stored in heap memory.
 - Stack memory is used only in method or currently running methods.
 - Function calls, primitive, local and reference variables are stored in this memory.    
    </blockquote>
@@ -216,12 +216,12 @@ public static void main(String[] args)
 <blockquote> 
 
 - Software that is designed without regard to the target platform. 
-- <span style="color:blue"> Software</span> is often written to maximize the performance of a specific hardware platform, but such     software must be modified to make it run on other hardware.
+- <span style="color:blue"> Software</span> is often written to maximize the performance of a specific hardware platform, but such software must be modified to make it run on other hardware.
 
 **Example**
 
 - Size of int in C is 2 bytes for 32 bit architecture and 4 bytes for 64 bit architecture.
-- Size of int in Java is the same 4 bytes for both 32 bit and 64 bit architecture
+- Size of int in Java is the same 4 bytes for both 32 bit and 64 bit architecture.
 </blockqoute>  
 </details>
 
@@ -234,8 +234,8 @@ public static void main(String[] args)
     <summary><b> Show Answer </b></summary> 
 <blockquote>
 
-- In **Just In Time** compilation, the source code is coverted into byte code. Where the bytecode is platform independant. It is runnable in different architecture system when it is coverted in machine code in that system. Here some of the frequently used codes are stored as code cache and used when it's required.
-- In **Ahead Of Time** compilation, the souce code is directly converted into machine, So it is platform dependant. AOT is used for to manual machine code convertion.
+- In **Just In Time** compilation, the source code is coverted into byte code. Where the bytecode is platform independant. It is runnable in different architecture system when it is coverted in machine code in that system. Here,some of the frequently used codes are stored as code cache and used when it's required.
+- In **Ahead Of Time** compilation, the souce code is directly converted into machine.So,it is platform dependant. AOT is used for to manual machine code convertion.
 </blockqoute>  
 </details>
 
@@ -250,8 +250,8 @@ public static void main(String[] args)
 
 - A language that is generated from programming source code but, it cannot be directly executed by the CPU. 
 - It is platform independent. 
-- It can be run in any computer environment that has a runtime engine for the language. 
-- Java is an example for Inermediate language.
+- It can run in any computer environment that has a runtime engine for the language. 
+- Java is an example for Intermediate language.
 </blockqoute>  
 </details>
 
