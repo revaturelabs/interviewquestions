@@ -32,7 +32,7 @@
 - C.Inheritance
 - D.Abstraction
 
-<details><summary> Show Answer </summary>
+<details><summary><b>Show Answer</b></summary>
   
 > A
   <details><summary><b>Explanation</b></summary>
@@ -129,7 +129,7 @@ public class Languages {
 > B
 
   <details>
-  <summary>Explanation</summary> 
+    <summary><b>Explanation</b></summary> 
     
 > static binding is linking method call with method definition during compile-time. compile-time polymorphism is
   also called method overloading. 
