@@ -82,13 +82,18 @@
 
  We can create a simple project in Maven using <code> archetype:generate </code> in command promt using Maven.
  Syntax to generate a project architecture
+  
+ </blockquote>
+  
+<blockquote>
+  
 <code>
 
 mvn archetype:generate -DgroupId=groupid -DartifactId=artifactid -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=booleanValue
 
 </code>
   
-  </blockquote>
+</blockquote>
 
 </details>
 
@@ -179,16 +184,26 @@ mvn archetype:generate -DgroupId=groupid -DartifactId=artifactid -DarchetypeArti
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
-
->- Build tools are programs that automate the creation of executable applications from source code (e.g., .apk for an Android app, jar war for java apps). Building incorporates compiling,linking and packaging the code into a usable or executable form.
  
->- Basically build automation is the act of scripting or automating a wide variety of tasks that software developers do in their day-to-day activities like:
-  >1. Downloading dependencies.
-  >2. Compiling source code into binary code.
-  >3. Packaging that binary code.
-  >4. Running tests.
-  >5. Deployment to production systems.
+ <blockquote>
 
+- Build tools are programs that automate the creation of executable applications from source code (e.g., .apk for an Android app, jar war for java apps). Building incorporates compiling,linking and packaging the code into a usable or executable form.
+  
+  
+ </blockquote>
+ 
+ <blockquote>
+ 
+- Basically build automation is the act of scripting or automating a wide variety of tasks that software developers do in their day-to-day activities like:
+  1. Downloading dependencies.
+  2. Compiling source code into binary code.
+  3. Packaging that binary code.
+  4. Running tests.
+  5. Deployment to production systems.
+
+  
+ </blockquote>
+ 
  </details>
 
 ---
