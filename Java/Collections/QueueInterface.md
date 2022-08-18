@@ -8,7 +8,7 @@
 <summary><b>Show Answer</b></summary>
 
 > - Queue stores elements before processing and normally queue follows the First in First out principle.
-> Consider that there are two states "Ready for processing"(RFP) and " On Hold " (OH), the head is in the "RFP" state and all the elements behind the head are in the "OH" state. so elements in the queue are in pre processing state.
+> Consider that there are two states "Ready for processing"(RFP) and " On Hold " (OH), the head is in the "RFP" state and all the elements behind the head are in the "OH" state. So elements in the queue are in pre processing state.
 > - Queue Interface is used to implement a queue in java.
 >   
 > ![Queue Interface](https://user-images.githubusercontent.com/103101208/184882415-4ff432b0-e6ae-4e92-a5f2-ba15675458b6.jpg)
@@ -26,7 +26,7 @@
 <details>
 <summary><b>Show Answer</b></summary>
 
-> Along with operations in collections queue has some special operations like
+> Along with operations in collections, queue has some special operations like,
 > 
 > 1. `offer(element)`: used to add elements to the queue.
 > 2. `poll()`: used to get the head element of the queue.
@@ -46,7 +46,7 @@
 
 > - `offer(element)` is used to insert elements into queue
 > - `offer(element)` returns a boolean value, true if the element is added to the queue and false if otherwise.
-> - `add(element)` is also used to insert elements but add returns the element and creates an exception if elements cant be added to the collections.
+> - `add(element)` is also used to insert elements but `add` returns the element and creates an exception if elements cant be added to the collections.
 > - `offer(element)` is prefered over `add(element)` to avoid exceptions in the program. 
 
 
@@ -62,7 +62,7 @@
 <summary><b>Show Answer</b></summary>
 
 > - `poll()` is used to get head element from the queue.
-> - `poll()` returns a the element, returns null if queue is empty.
+> - `poll()` returns the element, returns null if queue is empty.
 > - `remove()` is used to delete elements from the queue.
 > - `remove()` returns the element and throws an exception when the queue is empty.
 > - `poll()` is prefered over `remove()` to avoid exceptions in the program.
@@ -72,16 +72,16 @@
 
 ---
 
-5. What is  `element()` and how is different from `peek()`?
+5. What is `element()` and how is it different from `peek()`?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
 
-> - `element()` is used to get the head element from the queue, unlike the poll element doesn't remove elements from the queue. returns element or throws an exception if the queue is empty. 
-> - `peek()` is used to get the head from the queue.  returns element or returns null if the queue is empty.
-> -  `peek()` is prefered over `element()` to avoid excpetions in the program.
+> - `element()` is used to get the head element from the queue, unlike the poll element doesn't remove elements from the queue. Returns element or throws an exception if the queue is empty. 
+> - `peek()` is used to get the head from the queue.  Returns element or returns null if the queue is empty.
+> -  `peek()` is prefered over `element()` to avoid exceptions in the program.
 
 
 </details>
