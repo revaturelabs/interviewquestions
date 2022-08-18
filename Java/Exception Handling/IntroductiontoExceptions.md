@@ -63,7 +63,8 @@
 
 <details><summary><b> Show Answer</b></summary>
   
->ArrayIndexOutOfBoundsException,StringIndexOutOfBoundsException.
+>ArrayIndexOutOfBoundsException occurs when we access an array, or a Collection, that is backed by an array with an invalid index. This means that the index is either less than zero or greater than or equal to the size of the array.
+>StringIndexOutOfBoundsException occurs when an attempt is made to access the character of a string at an index which is either negative or greater than the length of the string.
   
 </details>
 
@@ -75,7 +76,7 @@
 
 <details><summary><b> Show Answer</b></summary>
   
->Error class.
+>Error class is the base class of StackOverflowError and  VirtualMachineError class
 
 </details>
 
