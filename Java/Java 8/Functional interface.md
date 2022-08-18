@@ -369,14 +369,19 @@ Which does not take any input or argument and yet returns a single output.
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
-
+	
+<blockquote>
+	
 No
 	
+</blockquote>
 	
 <details><summary><b>Explanation</b></summary>
+	
 <blockquote>
 	
 We can add any number of static and default methods in the functional interface in java 8.
+	
 </blockquote>
 
 </details>
@@ -541,15 +546,17 @@ interface Double extends Single{
 ```
 
 <details><summary><b>Show Answer</b></summary>
+	
 <blockquote>
 	
 It will throw a compile time error
+	
 </blockquote>	
 	
 
 <details><summary><b>Explanation</b></summary>
 	
- >When a functional interface extends another interface, it should not contain any abstract methods.
+ When a functional interface extends another interface, it should not contain any abstract methods.
 	
 </blockquote>
 
