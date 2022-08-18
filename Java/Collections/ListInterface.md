@@ -285,7 +285,7 @@ D. `ArrayDeque`
 
 ---
 
-13. What is the best case time complexity of <code>add(element)</code> method?
+13. What is the best case time complexity of <code>add(element)</code> method for `ArrayList`?
  
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -310,7 +310,7 @@ D. O(n <sup>2</sup>)
 
 ---
 
-14. What is the complexity of <code>add(index,element)</code> method?
+14. What is the complexity of <code>add(index,element)</code> method for `ArrayList`?
  
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -334,7 +334,7 @@ D. O(n <sup>2</sup>)
 
 ---
 
-15. What is the time complexity of <code>get(index)</code> method?
+15. What is the time complexity of <code>get(index)</code> method for `ArrayList`?
  
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -358,7 +358,7 @@ D. O(n <sup>2</sup>)
 
 ---
 
-16. What is the time complexity of <code>remove()</code> method?
+16. What is the time complexity of <code>remove()</code> method for `ArrayList`?
  
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -382,7 +382,7 @@ D. O(n <sup>2</sup>)
 
 ---
 
-17. What is the time complexity of <code>indexOf(element)</code> method?
+17. What is the time complexity of <code>indexOf(element)</code> method for `ArrayList`?
  
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -406,7 +406,7 @@ D. O(n <sup>2</sup>)
 
 ---
 
-18. What is the time complexity of <code>contains(element)</code> method?
+18. What is the time complexity of <code>contains(element)</code> method for `ArrayList`?
  
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
