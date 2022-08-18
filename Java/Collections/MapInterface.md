@@ -116,7 +116,7 @@ public class ExistingKey {
 <details>
 <summary><b>Show Answer</b></summary>
 
-    <blockquote>
+<blockquote>
         
 ``` java
 import java.util.*;
@@ -407,7 +407,7 @@ public class SubMap {
 <details>
 <summary><b>Show Answer</b></summary>
 
-    <blockquote>
+<blockquote>
         
 ``` java
 
@@ -436,7 +436,7 @@ public class CommonKeys {
 <details>
 <summary><b>Explanation</b></summary>
 
-- A new `HashMap` CommonKeys is created to avoid changing the existing HashMaps and `retainAll()` methods to give the intersection of two Maps. 
+> - A new `HashMap` CommonKeys is created to avoid changing the existing HashMaps and `retainAll()` methods to give the intersection of two Maps. 
 
 
 </details>
@@ -476,6 +476,7 @@ public class Employee {
     
 <details>
 <summary><b>Explanation</b></summary>
+ 
 <blockquote>
 
 - Employees contain employee name as key and manager name as value
@@ -486,6 +487,7 @@ public class Employee {
 
 
 </blockquote>
+ 
 </details>
 </details>
     
@@ -500,6 +502,7 @@ public class Employee {
 <summary><b>Show Answer</b></summary>
 
 <blockquote>
+ 
 ``` java
 import java.util.*;
 public class Employee {
@@ -520,10 +523,12 @@ public class Employee {
 
 <details>
 <summary><b>Explanation</b></summary>
+ 
 <blockquote>
 
 - `keySet()` returns all the keys of a `Map`. 
 </blockquote>
+ 
 </details>
 </details>
     
@@ -555,12 +560,16 @@ public class Employee {
 ```
     
 </blockquote>
+ 
 <details>
 <summary><b>Explanation</b></summary>
+ 
 <blockquote>
 
 - `values(?)` returns all the values of a `Map`. 
+ 
 </blockquote>
+ 
 </details>
 </details>
     
@@ -595,10 +604,13 @@ public class Employee {
 
 <details>
 <summary><b>Explanation</b></summary>
+ 
 <blockquote>
 
 - `entrySet()` returns all the key and value pairs of a `Map` and `get key` and `getValue` are used to get keys and values individually from an `entrySet`. 
+ 
 </blockquote>
+ 
 </details>
 </details>
 
