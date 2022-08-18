@@ -159,7 +159,9 @@ public class Main {
 
 ---
 
-9: How will you convert `String` to `int`?
+9.How will you convert `String` to `int`?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
 <summary><b> Show Answer </b></summary>
 
@@ -174,13 +176,17 @@ public class Main {
 	}
 }
 ```
+</blockqoute> 
 </details>
 	
 ---
 
-10: How will you convert int to String?
+10.How will you convert `int` to `String`?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
-<summary><b> Show Answer </b></summary>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - `toString()` is the static method in java from `Integer` class.
 - It takes `int` and convert into `String`.
@@ -193,6 +199,7 @@ public class Main {
 	}
 }
 ```
+</blockqoute> 
 </details>
 
 ---
