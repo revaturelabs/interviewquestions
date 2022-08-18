@@ -201,29 +201,41 @@ Looping statements are used to do repeatative tasks. If one process has to done 
 <blockquote>
 
 - It is an entry controlled loop ie., the condition checked first.
-- 
+- It contains three parts, initialization, condition, and increament or decreament.
+- We can also use without any of these part.
+- It is commonly used for arrays and collections.
 </blockquote>
 </details>
  
  ---
 
-10: Where will we use while loop?
- <details>
-      <summary><b> Show Answer </b></summary> 
+10.Where will we use while loop?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
 
->When we don't know the initialization of iteration value and numberof iterations, we will use while loop.
+- It is an entry controlled loop ie., the condition checked first.
+- It has only condition part.
+- It will execute the block code untill the condition fails
+</blockquote>
 </details>
 
 ---
 
-11: Can we use while loop instead of for loop
- <details>
-      <summary><b> Show Answer </b></summary> 
+11.Can we use while loop instead of for loop?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
 
->Yes, we can use while loop instead of for loop where we have to initialize outside of the loop.
+Yes, we can use while loop instead of for loop where we have to initialize outside of the loop and increament or decreament inside the loop.
+</blockqoute> 
 </details>
 
-12: Explain the difference between while and do while.
+12.Explain the difference between while and do while.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
