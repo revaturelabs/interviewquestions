@@ -174,7 +174,7 @@ public class Main {
 </blockquote>
 
 <details>
-<summary><b>Show Answer</b></summary>
+<summary><b>Explanation</b></summary>
 
 <blockquote>
 
@@ -194,6 +194,7 @@ public class Main {
 
 <details>
 <summary><b>Show Answer</b></summary>
+ 
   <blockquote>
    
 
@@ -210,7 +211,9 @@ Comparable and Comparator both are interfaces and can be used to sort collection
 | 03.|Comparable provides `compareTo()` method to sort elements.| Comparator provides `compare()` method to sort elements.|
 | 04.|Comparable is present in `java.lang package`.|A Comparator is present in `java.util package`.|
 | 05.|We can sort the list elements of Comparable type by `Collections.sort(List)` method.|We can sort the list elements of Comparator type by `Collections.sort(List, Comparator)` method.|
-    </blockquote>
+   
+   
+ </blockquote>
  
 
 </details>
@@ -276,6 +279,23 @@ Enumeration and Iterator are two interfaces in `java.util` package which is used
 | 04.  |Methods : `hasMoreElements()` and `nextElement()`|  Methods : `hasNext()`, `next()` and `remove()`|
 | 05.  |Enumeration is fail-safe in nature. |Iterator is fail-fast in nature.|
 | 06.  |Enumeration is not safe and secured due to its fail-safe nature.|  Iterator is safer and secured than Enumeration.|
+ 
+ - Iterator
+ ``` java
+ ArrayList<String> al = new ArrayList<String>()
+ Iterator<String> it = al.iterator();
+ while(it.hasNext())
+ {
+       System.out.println(it.next());
+ }
+ 
+ ```
+ - Enumerator
+ ``` java
+ Set<String> set = new HashSet<String>(); 
+ Enumeration<String> x = new IteratorEnumeration<String>(set.iterator());
+ 
+ ```
 
 </blockquote>
 </details>
