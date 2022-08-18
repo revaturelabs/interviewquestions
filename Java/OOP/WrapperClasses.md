@@ -55,14 +55,15 @@
 
 <details><summary> <b>Show Answer</b> </summary>
   
-  
+ <blockquote>
+   
   ``` java
   // primitive int i
   int i =1;
   // Wrapping primitive datatype int to Wrapper object Integer
   Integer k = new  Integer(i);
   ```
-  
+ </blockquote>  
 </details>
 
 ---
@@ -75,14 +76,16 @@
 
 
 <details><summary> <b>Show Answer</b> </summary>
- 
+  
+  <blockquote>
+    
   ``` java
   // wrapper object of type Integer
   Integer i =1;
   // Unboxing
   int j = i;
   ``` 
-<blockquote>
+
   
  - This is only possible from jdk 1.5 onwards not before that.
 The automatic conversion of primitive data types into its equivalent Wrapper type is known as boxing and opposite operation is known as unboxing. This is the new feature of Java5. So java programmer doesn't need to write the conversion code.
