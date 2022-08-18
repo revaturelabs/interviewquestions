@@ -1,6 +1,9 @@
-1: How can we generate random numbers in java?
+## Random Numbers
+
+1.How can we generate random numbers in java?
 <details>
-<summary><b> Show answer <b></summary>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - We generate random numbers using `Random` class that presents in `java.util` package.
 - `Random` class has the methods to generate random number in int, double, float, long etc.
@@ -19,15 +22,19 @@ public class Main {
 }
 ```
 > The value differs each time when we run it.
+</blockqoute> 
 </details>
 
 ---
 
-2: Which is the best inbetween `Math.random()` and `Random` class method `nextDouble()`?
+2.What is differnce between `Math.random()` and `new Random().nextDouble()` method in java?
 <details>
-<summary><b> Show answer <b></summary>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
 
->`Math.random()` will give the random number in `double` datatype which uses `nextDouble()` from `Random` class. So, both the methods will give the same value.
+`Math.random()` will give the random number in `double` datatype which uses `nextDouble()` from `Random` class. So, both the methods will give the same value.
+</blockqoute> 
+</details>
 
 ---
 
