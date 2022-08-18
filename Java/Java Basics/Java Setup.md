@@ -1,6 +1,6 @@
 ## Java Setup
 
-1.Why do we need to set the path for java? 
+1.Why do we need to set the path for Java? 
 
 `set path = C:\Program Files\Java\jdk1.8.0_91\bin`
 
@@ -9,15 +9,15 @@
 <summary><b> Show Answer </b></summary> 
 <blockquote>
 
-- We need tools like javac, java, etc., which are located in the JDK/bin directory to compile and run java programs.
-- Before compiling and running a java program, we need to set the path. This informs where JDK packages are installed.
-- **Note:** We don't need to set the path if we save the java source file inside the JDK\bin directory
+- We need tools like javac, java, etc., which are located in the JDK/bin directory to compile and run Java programs.
+- Before compiling and running a Java program, we need to set the path. This informs where JDK packages are installed.
+- **Note:** We don't need to set the path if we save the Java source file inside the JDK\bin directory
 </blockquote>
  </details>
       
 ---
 
-2.Why do we need to set environment variable for java?
+2.Why do we need to set environment variable for Java?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
@@ -25,9 +25,9 @@
 <blockquote>
       
 - Whenever we run any command in the terminal, the prompt will check for the relevant executable file present in the current directory or in system environment variables.
-- When we compile a java program by running `javac MyPrg.java` command in the terminal, it will look for the `javac.exe` file to compile.
+- When we compile a Java program by running `javac MyPrg.java` command in the terminal, it will look for the `javac.exe` file to compile.
 - If current directory is not  `C:\Program Files\Java\jdk1.8.0_91\bin` (where `javac.exe` present), we'll get **javac is not recognized** error. 
-- One of the way to avoid this error is by setting the java path `C:\ProgramFiles\Java\jdk1.8.0_05\bin` in environment variables. 
+- One of the way to avoid this error is by setting the Java path `C:\ProgramFiles\Java\jdk1.8.0_05\bin` in environment variables. 
 </blockquote>
 </details>
 
@@ -40,7 +40,7 @@
 <summary><b> Show Answer </b></summary> 
 <blockquote>
       
-`classpath` is just a set of paths where the java compiler and the JVM must find needed classes to compile or execute other classes.
+`classpath` is just a set of paths where the Java compiler and the JVM must find needed classes to compile or execute other classes.
 <blockquote> 
 </details>
 
@@ -53,8 +53,8 @@
 <summary><b> Show Answer </b></summary> 
 <blockquote>
 
-- JDK stands for **J**ava **D**evelopment **K**it that contains JRE and developments tools like compilers and debuggers which are useful for developing java applications.
-- For instance, JDK contains `javac` i.e., java compiler helps us to compiles java source file `MyPrg.java` and generates the class file `MyPrg.class`.
+- JDK stands for **J**ava **D**evelopment **K**it that contains JRE and developments tools like compilers and debuggers which are useful for developing Java applications.
+- For instance, JDK contains `javac` i.e., Java compiler helps us to compiles Java source file `MyPrg.java` and generates the class file `MyPrg.class`.
  
  </blockquote>
  </details>
@@ -68,7 +68,7 @@
 <summary><b> Show Answer </b></summary> 
 <blockquote>
 
-- JRE stands for **J**ava **R**untime **E**nvironment that contains JVM and provides the libraries and libraries to run java applications. 
+JRE stands for **J**ava **R**untime **E**nvironment that contains JVM and provides the libraries and libraries to run java applications. 
 </blockquote>
       </details>
 
@@ -88,7 +88,7 @@
 
 ---
 
- 7.why java is platform independent?
+ 7.Why java is platform independent?
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
 <summary><b> Show Answer </b></summary> 
@@ -192,7 +192,7 @@ public static void main(String[] args)
 
 ---
 
-14: Explain the difference between Heap memory and Stack memory.
+14.Explain the difference between Heap memory and Stack memory.
  
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
@@ -208,7 +208,7 @@ public static void main(String[] args)
       
 ---
 
-15: What is Architecture Neutral?
+15.What is Architecture Neutral?
  
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
@@ -227,7 +227,7 @@ public static void main(String[] args)
 
 ---
 
-16: What is Just In Time Compiler and Ahead of time Compiler?
+16.What is Just In Time Compiler and Ahead of time Compiler?
  
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
  <details>
@@ -241,14 +241,14 @@ public static void main(String[] args)
 
 ---
 
-17: What is Intermediate Language?
+17.What is Intermediate Language?
  
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
     <summary><b> Show Answer </b></summary> 
 <blockquote>
 
-- A language that is generated from programming source code but it cannot be directly executed by the CPU. 
+- A language that is generated from programming source code but, it cannot be directly executed by the CPU. 
 - It is platform independent. 
 - It can be run in any computer environment that has a runtime engine for the language. 
 - Java is an example for Inermediate language.
@@ -257,7 +257,7 @@ public static void main(String[] args)
 
 ---
 
-18: Explain features of java.
+18.Explain features of java.
  
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
@@ -276,7 +276,7 @@ public static void main(String[] args)
 
 ---
 
-19: What is `javac`?
+19.What is `javac`?
  
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
@@ -290,7 +290,7 @@ public static void main(String[] args)
 
 ---
 
-20: What is `javadoc`?
+20.What is `javadoc`?
  
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
@@ -304,7 +304,7 @@ public static void main(String[] args)
 
 ----
 
-21: If we use wrapper class instead of primitive data type, can we call the java programing as pure object oriented?
+21.If we use wrapper class instead of primitive data type, can we call the java programing as pure object oriented?
 <details>
     <summary><b> Show Answer </b></summary> 
 <blockquote>
@@ -317,7 +317,7 @@ public static void main(String[] args)
 
 ---
 
-22: What is java source file extention?<br>
+22.What is Java source file extention?<br>
 A)`.java`<br>
 B)`.class`<br>
 C)`.exe`<br>
@@ -342,7 +342,7 @@ D)`.src`<br>
 
 ---
 
-23: What is extention of file which is generated by java compiler?<br>
+23.What is extention of file which is generated by Java compiler?<br>
 A)`.java`<br>
 B)`.class`<br>
 C)`.exe`<br>
