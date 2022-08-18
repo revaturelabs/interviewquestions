@@ -210,6 +210,8 @@ Child c= (Child) new Parent();
 > - Using constructor all the private members of superclass can be accesed by the subclass. So, encapsulation can not be achived in java.
 </details>
 
+---
+
 14. Is it possible to override a static method? justify your answer.
 
 <details>
