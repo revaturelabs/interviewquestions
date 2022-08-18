@@ -19,13 +19,13 @@ B)Default<br>
 C)Runnable<br>
 D)Run<br>
 <details>
-<summary><b> Show Answer <b></summary>
+<summary><b> Show Answer </b></summary>
 <blockquote>
 
 - A)Main
 </blockquote>
 <details>
-<summary><b> Explanation <b></summary>
+<summary><b> Explanation </b></summary>
 <blockquote>
 
 - If there is no thread is created, the main thread will execute the process by defualt.
@@ -37,7 +37,7 @@ D)Run<br>
 
 3. How can we create threads in Java?
 <details>
-<summary><b> Show Answer <b></summary>
+<summary><b> Show Answer /<b></summary>
 <blockquote>
 
 - We can create threads in two ways.
@@ -50,7 +50,7 @@ D)Run<br>
 
 4. How can we create thread by extending `Thread` class?
 <details>
-<summary><b> Show Answer <b></summary>
+<summary><b> Show Answer </b></summary>
 <blockquote>
 
 - The class which we want to make as thread should extend the class `Thread`.
@@ -80,7 +80,7 @@ public class Main {
 
 5. Explain the use of `sleep()` method in Thread.
 <details>
-<summary><b> Show Answer <b></summary>
+<summary><b> Show Answer </b></summary>
 <blockquote>
 
 - The sleep method is `static` method from `Thread` class.
@@ -114,7 +114,7 @@ public class Main {
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary> Show Answer </summary>
+	<details><summary> <b>Show Answer</b> </summary>
 
 <blockquote>
 
