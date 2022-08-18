@@ -93,6 +93,8 @@ The main thread
 </blockquote>
 </details>
 
+---
+
 4. Can we find the name of thread?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -118,6 +120,8 @@ public class Main {
 ```
 </details>
 
+---
+	
 5. Can we name the threads?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -170,3 +174,5 @@ public class Main {
 - It will give the state of the thread.
 </blockquote>
 </details>
+
+---
