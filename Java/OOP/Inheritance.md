@@ -179,6 +179,23 @@ Child c= (Child) new Parent();
 
 
 ---
+12. Is it possible to override `main()` method?
+
+<details>
+	<summary><b>Show Answer</b></summary>
+	
+> No, `main()`  method is a static method and static methods can't be overriden.
+</details>
+
+12. Is it possible to inherit a constructor? justify your answer.
+
+<details>
+	<summary><b>Show Answer</b></summary>
+	
+> No
+> - Constructors should have the same name as the class, if a constructor is inherited it can't be named as the class and it will be considered as a method.
+> - Using constructor all the private members of superclass can be accesed by the subclass. So, encapsulation can not be achived in java.
+</details>
 
 
 ## Problem solving
