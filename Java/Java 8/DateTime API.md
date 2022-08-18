@@ -87,13 +87,16 @@ public class test3 {
  </blockquote>
  
  <details><summary><b> Explanation </b></summary>
+  
+  <blockquote>
  
  - `LocalDateTime.now()` -this gives the current date and time in this format `2022-08-10T17:27:20.016675200`
  -  To convert the date and time in the given format we use `DateTimeFormatter` class.
  -  `ofPattern` is to define the pattern
  -  `format`- to format the date and time in the pattern mentioned.
  
- 
+ </blockquote>
+  
 </details>
  
  </details>
@@ -202,10 +205,10 @@ public class LocalDateExample1 {
    Current date will be displayed
    
   </blockquote>
- 
- <blockquote>
    
 <details><summary><b> Explanation </b></summary>
+ 
+ <blockquote>
  
 <code>LocalDate</code> class resides in <code>java.time</code> package and the factory method <code>now()</code> will display the current date. 
    
