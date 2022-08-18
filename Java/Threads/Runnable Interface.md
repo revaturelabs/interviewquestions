@@ -1,8 +1,10 @@
 ## Runnable Interface
 
 1. How `Runnable` interface is used to create threads?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
-<summary><b> Show Answer <b></summary>
+<summary><b> Show Answer </b></summary>
 <blockquote>
 
 - The class which we want to make as thread should implement the interface `Runnable`.
@@ -36,8 +38,10 @@ public class Main {
 </details>
 
 2. Is there way to create thread without implementing `Runnable` interface?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
-<summary><b> Show Answer <b></summary>
+<summary><b> Show Answer </b></summary>
 <blockquote>
 
 - `Runnable` interface is a Functional Interface which has only one abstract method - `run()`
@@ -61,8 +65,10 @@ Above code, creates the thread and start printing "Hello" for 10 times in 1000ms
 </details>
 
 3. Can we pass lambda expression while creating object of `Thread` class?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
-<summary><b> Show Answer <b></summary>
+<summary><b> Show Answer </b></summary>
 <blockquote>
 
 - Yes, We can pass lamba expression while creating the object of `Thread` class itself instead of creating lambda expression of `Runnable` interface.
