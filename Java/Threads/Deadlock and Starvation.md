@@ -123,7 +123,7 @@ Synchronized keyword is the only reason for deadlock situation, which allows onl
 ---
 
 
-10. Write a program to illustrate deadlock condition?
+8. Write a program to illustrate deadlock condition?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -180,7 +180,7 @@ Here the thread1 will wait for thread2 to complete and thread2 will wait for thr
 
 ---
 
-11. What is the difference between deadlock and starvation?
+9. What is the difference between deadlock and starvation?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details><summary> Show Answer </summary>
