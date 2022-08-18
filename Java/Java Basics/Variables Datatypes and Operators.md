@@ -71,17 +71,18 @@ class Main{
 }
 }
 ```
-	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
     <summary><b> Show Answer </b></summary> 
-<blockquote>
-	
+```	
 9
 11
-
+```
 <details>
     <summary><b> Explanation </b></summary> 
+<blockquote>	
+	
 In postincreament the value is holded then it will be increamented. 
 In preincrement the value is increamented on code flow itself.
 
@@ -98,8 +99,11 @@ Initially the value of a is 2 and then increamented to 3, in pre increament the 
 ---
 
 5.Explain about Ternary operator.
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
-<summary> Show Answer </summary>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
   - The ternary operator(?:) is also called conditional operator used to evalute boolean expression.
   - It needs three operands.
 
@@ -117,9 +121,12 @@ Initially the value of a is 2 and then increamented to 3, in pre increament the 
 
 ---
 
-6: Explain about bitwise operators.
+6.Explain about bitwise operators.
+	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
-<summary> Show Answer </summary>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
   - Bitwise operators works with binary value of given integer value.
   - Integer type values are used for this operation which are long, int, short, char, and byte.
   - First the given interger is converted into equivalent binary value then the operation is performed
@@ -146,9 +153,13 @@ Initially the value of a is 2 and then increamented to 3, in pre increament the 
 
 ---
 
-7: Explain about the naming convention of variable.
+7.Explain about the naming convention of variable.
+
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
-<summary> Show Answer </summary>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - Variables are case-sentive
 - The variable name should start from letter, the dollar sign `$` or underscore `_` but conventionally starts with letter.
