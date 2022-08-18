@@ -54,8 +54,8 @@
     <summary><b> Show Answer </b></summary> 
 <blockquote>
 
-- If we add abstract keyword with method, we can't add method definition to the method and abstract method presents in abstract class.
-- If we add abstract keyword with class, we can't make the class extended from another class. It can be extended from only another abstract class.
+- If we add `abstract` keyword with method, we can't add method definition to the method and abstract method presents in abstract class.
+- If we add `abstract` keyword with class, we can't make the class extended from another class. It can be extended from only another abstract class.
 - we can't create object for abstract class.
 </blockqoute>  
 </details>
