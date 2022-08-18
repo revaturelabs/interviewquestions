@@ -21,7 +21,7 @@ public class Main {
 	}
 }
 ```
-> The value differs each time when we run it.
+The value differs each time when we run it.
 </blockqoute> 
 </details>
 
