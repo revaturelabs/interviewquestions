@@ -1,52 +1,53 @@
 ## Non-Access Modifier
 
-1.What are non-access modifiers?
+1.What are Non-Access Modifiers?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
     <summary><b> Show Answer </b></summary> 
 <blockquote>
 
- - It will not change the scope but it will add some functionality. There are three types of non-access modifires. They are,
-    - Final
-    - Static
-    - Abstract
+ - Non-Access Modifiers will not change the scope but it will add some functionality. There are three types of Non-Access Modifires:
+    - `final`
+    - `static`
+    - `abstract`
 </blockqoute>  
 </details>
 
 ---
 
-2.What is final non-access modifier?
+2.What is `final` non-access modifier?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
     <summary><b> Show Answer </b></summary> 
 <blockquote>
-- Final is the keyword that can be used with class, variable, and method.
-    1.	Final variable – The value can’t be changed
-    2.	Final method – The method can’t be overridden
-    3.	Final class – No subclasses can be created
+	
+`final` is the keyword that can be used with class, variable, and method.
+  1.	Final variable – The value can’t be changed
+  2.	Final method – The method can’t be overridden
+  3.	Final class – No subclasses can be created
 </blockqoute>  
 </details>
 
 ---
 
-3.What is static non-access modifier?
+3.What is `static` non-access modifier?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
     <summary><b> Show Answer </b></summary> 
 <blockquote> 
   
-- When we use static before variable or method that will not belong to any object. It belongs to the class. 
-- There is no need to create an object for the class to access the static variable or static method. We can use the class name to call them with respect to the access modifier.
+- When we use static before variable or method that will not belong to any object,it belongs to the class. 
+- There is no need to create an object for the class to access the static variable or static method. We can use the class name to call them with respect to the       access modifier.
 - If we use the object name to call the static method or variable, the compiler will replace the name of the object with class.
 </blockqoute>
 </details>
 
 ---
 
-4.What is abstract non-access modifier?
+4.What is `abstract` non-access modifier?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
