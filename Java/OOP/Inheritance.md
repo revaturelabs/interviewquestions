@@ -95,6 +95,8 @@
 
 ---
 5. Differentiate Aggregation and Inheritance.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
 <summary><b> Show Answer</b></summary>
 
@@ -104,6 +106,8 @@
 
 ---
 6. How can a subclass use the private fields of a superclass?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
   <summary> <b>Show Answer</b> </summary>
@@ -119,6 +123,8 @@
 
 ---
 7. Which of the following is invalid in java?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 - A.Multiple Inheritance of state
 - B.Multiple inheritance of type
@@ -139,6 +145,8 @@
 ---
 8. Why is a class restricted to extend a single class in java?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary><b>Show Answer</b></summary>
 
  
@@ -148,6 +156,8 @@
 
 ---
 9. What is Multiple Inheritance of state and why is it not possible to implement it in java?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -159,6 +169,8 @@
 
 ---
 10. What is Upcasting?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -176,6 +188,8 @@ Parent p = new Child();
 ---
 11. What is Downcasting?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details>
 <summary><b>Show Answer</b></summary>
 	
@@ -192,6 +206,8 @@ Child c= (Child) new Parent();
 ---
 12. Is it possible to override `main()` method?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details>
 	<summary><b>Show Answer</b></summary>
 	
@@ -201,6 +217,8 @@ Child c= (Child) new Parent();
 ---
 
 13. Is it possible to inherit a constructor? justify your answer.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 	<summary><b>Show Answer</b></summary>
@@ -214,6 +232,8 @@ Child c= (Child) new Parent();
 
 14. Is it possible to override a static method? justify your answer.
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details>
 	<summary><b>Show Answer</b></summary>
 	
@@ -226,6 +246,8 @@ Child c= (Child) new Parent();
 ## Problem solving
 
 1. What is the output of the following code?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 ``` java
 package web;
@@ -290,6 +312,8 @@ class Japan extends Olympics{
 
 1. What is the output of the following code?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 ``` java
 public final class Car{
     public static void main(String args[]){
@@ -325,6 +349,8 @@ public final class Car{
 
 ---
 2. What is the output of the following code?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 ``` java
 public final class Car{
@@ -365,6 +391,8 @@ public final class Car{
 ---
 3. What is the error in the following code snippet? correct the error.
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 ``` java
 
 Object o = new Main();
@@ -392,6 +420,8 @@ Main m = o;
 
 ---
 4. The object declared in the below code snippet is type casted but it may or may not be of type Main, How does a programmer avoid runtime error?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 ``` java
 
