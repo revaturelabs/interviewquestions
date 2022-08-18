@@ -4,7 +4,7 @@
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details><summary><b>Show Answer</b></summary>
 
 <blockquote>
 
@@ -24,7 +24,7 @@ Before generics, we can store any type of objects in the collection, i.e., non-g
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details><summary><b>Show Answer</b></summary>
 
 <blockquote>
 
@@ -44,7 +44,7 @@ The Object is the superclass of all other classes, and Object reference can refe
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details><summary><b>Show Answer</b></summary>
 
 <blockquote>
 
@@ -71,7 +71,7 @@ The common type parameters used are:
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details><summary><b>Show Answer</b></summary>
 
 <blockquote>
 
@@ -91,7 +91,7 @@ The common type parameters used are:
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details><summary><b>Show Answer</b></summary>
 
 <blockquote>
 
@@ -112,7 +112,7 @@ The common type parameters used are:
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details><summary><b>Show Answer</b></summary>
 
 <blockquote>
 
@@ -131,7 +131,7 @@ The common type parameters used are:
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details><summary><b>Show Answer</b></summary>
 
 <blockquote>
 
@@ -153,7 +153,7 @@ The common type parameters used are:
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details><summary><b>Show Answer</b></summary>
 
 <blockquote>
 
@@ -172,7 +172,7 @@ The common type parameters used are:
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details><summary><b>Show Answer</b></summary>
 
 <blockquote>
 
@@ -180,7 +180,7 @@ No
 
  </blockquote>
 
-<details><summary> Explanation </summary>
+<details><summary><b>Explanation</b></summary>
 
 <blockquote>
 
@@ -200,7 +200,7 @@ Java generics cannot be applied to primitive types, because the parameters in ge
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details><summary><b>Show Answer</b></summary>
 
 <blockquote>
 
@@ -221,7 +221,7 @@ class Main {
 }
 ```
  </blockquote>
-<details><summary> Explanation </summary>
+<details><summary><b>Explanation</b></summary>
 
 <blockquote>
 
@@ -240,7 +240,7 @@ class Main {
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details><summary><b>Show Answer</b></summary>
 
 <blockquote>
 
@@ -261,7 +261,7 @@ class Test {
 ```
 
  </blockquote>
-<details><summary> Explanation </summary>
+<details><summary><b>Explanation</b></summary>
 
 <blockquote>
 
@@ -290,7 +290,7 @@ class Test {
 ```
 </blockquote>
 
-<details><summary> Show Answer </summary>
+<details><summary><b>Show Answer</b></summary>
 
 <blockquote>
 
@@ -306,7 +306,7 @@ public class Draw<T> {
 ```
 </blockquote>
 
-<details><summary> Explanation </summary>
+<details><summary><b>Explanation</b></summary>
 
 <blockquote>
 
