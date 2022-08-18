@@ -43,7 +43,7 @@ It is to refer the method of functional interface. While using a lambda expressi
  
  <blockquote>
   
-- ContainingClass::staticMethodName
+- `ContainingClass::staticMethodName`
 - We can refer to the static method by calling its name with the class where it resides.
   
  </blockquote>
@@ -60,7 +60,7 @@ It is to refer the method of functional interface. While using a lambda expressi
  
  <blockquote>
   
-- containingObject::instanceMethodName
+- `containingObject::instanceMethodName`
 - use the instance method name of the particular object name.
   
  </blockquote>
@@ -78,7 +78,7 @@ It is to refer the method of functional interface. While using a lambda expressi
  <blockquote>
   
 - We can mention the type with the instance method name of the object.
-- ContainingType::methodName
+- `ContainingType::methodName`
   
  </blockquote>
  
@@ -94,7 +94,7 @@ It is to refer the method of functional interface. While using a lambda expressi
  
  <blockquote>
   
-- ClassName::new
+- `ClassName::new`
 - new is the keyword to refer to the constructor with the class name.
   
  </blockquote>
@@ -206,11 +206,14 @@ public class MethodReference {
 ```
 <details><summary><b> Show Answer </b></summary>
  
+ <blockquote>
+ 
  ``` java
 
  Sample sample = MethodReference::printhello; 
  
  ```
+ </blockquote>
  
  <details><summary><b>Explanation</b></summary>
   
