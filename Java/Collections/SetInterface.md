@@ -232,7 +232,7 @@ Features
 
 <summary><b>Show Answer</b></summary>
 
-- `hashCode()` method generates the hashCode of two objects, if two objects are equal then the hash Code generated for two objects is the same, while the inverse may or may not be true.
+> - `hashCode()` method generates the hashCode of two objects, if two objects are equal then the hash Code generated for two objects is the same, while the inverse may or may not be true.
 
 </details>
 
@@ -270,14 +270,19 @@ Features
 <details>
 
 <summary><b>Show Answer</b></summary>
+ 
+ <blockquote>
 
 | HashSet                                                                                              | TreeSet                                                                       |
 | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
 | HashSet maintains constant time complexity (O(1)) for insertion, retrieval and searching of elements | TreeSet maintains O(log n) for insertion, retrieval and searching of elements |
 | HashSet doesn’t maintain an ordered collection of elements.                                          | TreeSet maintains sorted order of elements.                                   |
-
+ </blockquote>
+ 
 </details>
 
+ ---
+ 
 13. What is the output of the following program?
  
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -439,6 +444,9 @@ D. <br>
 
 <details>
 <summary><b>Show Answer</b></summary>
+ 
+ 
+ <blockquote>
 
 ``` java
 
@@ -473,6 +481,7 @@ public class SetOperations {
 
 - a new set is created for union, intersection and difference and all the elements of a are added to them, all the operations are performed on union, difference and intersection. So, a and b remain unchanged.
 
+ </blockquote>
 </details>
 
 
@@ -495,6 +504,7 @@ public class SetOperations {
 HashSet<String> voterList = new HashSet<>(names);
 ```
 - names holds the details of all people who live in the city and the names might be repeated and voterList holds the unique list of Citizens.
+ 
 </blockquote>
 
 </details>
@@ -531,7 +541,7 @@ D. both `a.get(0)` and `a.set(0,1)` throw exceptions.
 <details>
 <summary><b>Explanation</b></summary>
 
-- `HashSet` stores elements in a random order without positional access, so get and set methods are not applicable for `HashSet`.
+> - `HashSet` stores elements in a random order without positional access, so get and set methods are not applicable for `HashSet`.
 
 </details>
 
