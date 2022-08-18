@@ -89,7 +89,7 @@
 
 ---
 
-7.Can we write a method inside another method in java?
+7.Can we write a method inside another method in Java?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 <details>
