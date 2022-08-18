@@ -1,8 +1,10 @@
 ## Synchronization
 
 1. What will happen when we use `synchronized` keyword before a method?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
-<summary><b> Show Answer <b></summary>
+<summary><b> Show Answer </b></summary>
 <blockquote>
 
 - When synchronized keyword is used before the method, the method becomes thread safe.
@@ -69,8 +71,10 @@ public class Main {
 </details>
 
 2. How will we make a method as `asynchronized`?
+	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
-<summary><b> Show Answer <b></summary>
+<summary><b> Show Answer </b></summary>
 <blockquote>
 
 - There is no keyword to make method as asynchronized.
@@ -80,8 +84,10 @@ public class Main {
 ---
 
 3. How will you make a thread to waiting state?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
-<summary><b> Show Answer <b></summary>
+<summary><b> Show Answer </b></summary>
 <blockquote>
 
 - The method `wait()` will make the current thread to be in wait state untill another thread calls the `notify()` or `notifyAll()`.
@@ -93,8 +99,10 @@ public class Main {
 ---
 
 4. How will you wake a thread from waiting state?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
-<summary><b> Show Answer <b></summary>
+<summary><b> Show Answer </b></summary>
 <blockquote>
 
 - We can wake a thread using the `notify()`  method. 
@@ -107,8 +115,10 @@ public class Main {
 ---
 
 5. How will we wake all thread from waiting state?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
-<summary><b> Show Answer <b></summary>
+<summary><b> Show Answer </b></summary>
 <blockquote>
 
 - We can wake all threads using the `notifyAll()`  method. 
@@ -121,8 +131,10 @@ public class Main {
 ---
 
 6. What is the use of `yield()` method?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
-<summary><b> Show Answer <b></summary>
+<summary><b> Show Answer </b></summary>
 <blockquote>
 
 - The `yield()` method is a static method of Thread class.
@@ -133,8 +145,10 @@ public class Main {
 ---
 
 7. What is the difference between `yield()` and `wait()` method?
+	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
-<summary><b> Show Answer <b></summary>
+<summary><b> Show Answer </b></summary>
 <blockquote>
 
 - The `wait()` method is used for inter communication between the threads.
@@ -143,8 +157,10 @@ public class Main {
 </details>
 
 8. What is the difference between `sleep()` and `wait()` method?
+	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
-<summary><b> Show Answer <b></summary>
+<summary><b> Show Answer </b></summary>
 <blockquote>
 
 - The `sleep()` method is used to pause the thread for require time.
