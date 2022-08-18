@@ -10,8 +10,8 @@
 > - Queue stores elements before processing and normally queue follows the First in First out principle.
 > Consider that there are two states "Ready for processing"(RFP) and " On Hold " (OH), the head is in the "RFP" state and all the elements behind the head are in the "OH" state. so elements in the queue are in pre processing state.
 > - Queue Interface is used to implement a queue in java.
-  
-![Queue Interface](https://user-images.githubusercontent.com/103101208/184882415-4ff432b0-e6ae-4e92-a5f2-ba15675458b6.jpg)
+>   
+> ![Queue Interface](https://user-images.githubusercontent.com/103101208/184882415-4ff432b0-e6ae-4e92-a5f2-ba15675458b6.jpg)
   
 
 
@@ -27,7 +27,7 @@
 <summary><b>Show Answer</b></summary>
 
 > Along with operations in collections queue has some special operations like
-
+> 
 > 1. `offer(element)`: used to add elements to the queue.
 > 2. `poll()`: used to get the head element of the queue.
 > 3. `element()`: returns head element of the queue.
