@@ -22,7 +22,7 @@
  
  <blockquote>
 
-  - java.util.* will import all the direct classes and interfaces but not sub-classes/sub-packages.
+  - `java.util.*` will import all the direct classes and interfaces but not sub-classes/sub-packages.
   - stream class resides in the sub package java.util.stream package so it will not be included in java.util.*.
   
 </blockquote>
@@ -336,20 +336,24 @@ Stream<String> s = Stream.of("java", "SQL", "python",  "JDBC");
   
  ```
   <details><summary><b> Show Answer</b></summary>
+ 
+  <blockquote>
 
   returns SQL
    
+   </blockquote>
+ 
   <details><summary><b> Explanation </b></summary>
    
-   <blockquote>
+ <blockquote>
    
  Here we are using the filter to return the result of the element starting with "S".
     
-    </blockquote>
+ </blockquote>
 
  </details>
    
-   </details>
+ </details>
    
   ---
 
@@ -398,12 +402,16 @@ public class JavaStreamExample {
 }
 ```
  <details><summary><b> Show Answer</b></summary>
+ 
+ <blockquote>
   
    2<br>
    4<br>
    6<br>
    8<br>
   
+   </blockquote>
+ 
   <details><summary><b> Explanation </b></summary>
    
    <blockquote>
