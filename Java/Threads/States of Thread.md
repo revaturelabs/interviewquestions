@@ -47,7 +47,7 @@ public class Main {
 
 3. What will do `join()` method when we use in  thr program?
 <details>
-<summary><b> Show Answer <b></summary>
+<summary><b> Show Answer </b></summary>
 <blockquote>
 
 - The method `join()` from Thread that is used to allow the thread to complete its execution  where another thread is waiting.
@@ -89,7 +89,7 @@ The main thread
 
 4. Can we find the name of thread?
 <details>
-<summary><b> Show Answer <b></summary>
+<summary><b> Show Answer </b></summary>
 <blockquote>
 
   Yes, we find the name of thread Using `getName()` method that returns a string which shows the name of the thread.
@@ -110,9 +110,9 @@ public class Main {
 ```
 </details>
 
-5. Can we our own name to threads?
+5. Can we name the threads?
 <details>
-<summary><b> Show Answer <b></summary>
+<summary><b> Show Answer </b></summary>
 
 >Yes, we can give the name for thread in two ways.
   >1. We can use this `setName()` method to give name to thread.
