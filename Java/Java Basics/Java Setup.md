@@ -11,7 +11,7 @@
 
 - We need tools like javac, java, etc., which are located in the JDK/bin directory to compile and run Java programs.
 - Before compiling and running a Java program, we need to set the path. This informs where JDK packages are installed.
-- **Note:** We don't need to set the path if we save the Java source file inside the JDK\bin directory
+- **Note:** We don't need to set the path if we save the Java source file inside the JDK\bin directory.
 </blockquote>
  </details>
       
@@ -128,7 +128,7 @@ public static void main(String[] args)
 <blockquote>
 
 - API means Application Programming Interface, which acts as intermediate between two application to communicate between each other.
-- One application may be developed in one language and other application may be developed in another application where API acts as intermediatry thats allows to communicate each other.
+- One application may be developed in one language and other application may be developed in another application,where API acts as intermediatry thats allows to communicate each other.
       </blockquote>
 </details>
 
@@ -227,7 +227,7 @@ public static void main(String[] args)
 
 ---
 
-16.What is Just In Time Compiler and Ahead of time Compiler?
+16.What is Just In Time Compiler and Ahead of Time Compiler?
  
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
  <details>
@@ -257,7 +257,7 @@ public static void main(String[] args)
 
 ---
 
-18.Explain features of java.
+18.Explain features of Java.
  
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
