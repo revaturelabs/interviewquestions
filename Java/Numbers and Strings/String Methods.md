@@ -138,7 +138,8 @@ public class Main {
 	
 ---
 
-8: Name some methods which are used for the string operations.
+8.Name some methods which are used for the string operations.
+	
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
     <summary><b> Show Answer </b></summary> 
