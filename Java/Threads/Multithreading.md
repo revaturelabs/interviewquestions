@@ -2,7 +2,7 @@
 
 1. What is multithreading?
 <details>
-<summary><b> Show Answer <b></summary>
+<summary><b> Show Answer </b></summary>
 <blockquote>
 
 - Thread is termed as a lightweight process. A process will be divided into parts called Thread.
