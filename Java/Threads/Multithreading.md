@@ -52,6 +52,7 @@ A)Main
 <details>
 <summary><b> Show Answer </b></summary>
 <blockquote>
+	
 - Yes, there is a `Thread` class in java helps us to create a thread.
 - Create a class and extend that class by Thread class. Then, the created class will act as thread in java. 
 - After extending `Thread` class, the class should override the `run` method.
@@ -78,15 +79,19 @@ public class Main {
 >When the method gets started by calling `start()` method, a new thread is created and starts executed it. On the time, the main thread will continue the remaining part. The thread will give the message `Hello` 10 times.
 </details>
 
-5. Explain the use of `sleep()` method in Thread.
+---
+
+5. Explain the use of `sleep()` method in `Thread` class.
 <details>
 <summary><b> Show Answer </b></summary>
 <blockquote>
 
-- The sleep method is `static` method from `Thread` class.
-- It takes `long` value datatype in milliseconds.
-- After calling the `sleep()` method, The thread is hold for given time.
-- This method will throw `InterruptedException`.
+- The `sleep()` method definition: 
+```java
+public static void sleep(long millis) throws InterruptedException
+```
+- sleep()` method takes milliseconds as parameter, makes the current running thread to hold for that given milliseconds.
+- This method will throw `InterruptedException`. So, we need to handle the exception, either by adding `throws` statement or by enclosing that within `try-catch` block.
 - </blockquote>
 ``` java
 class Greeting extends Thread{
@@ -110,23 +115,21 @@ public class Main {
 
 ---
 
-6. Explain about thread prioity.
+6. Explain about thread priority.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-	<details><summary> <b>Show Answer</b> </summary>
-
+<details><summary> <b>Show Answer</b> </summary>
 <blockquote>
 
- - Priorities are represented by a number between 1 and 10. Each thread has a priority. 
- - Whaere the thread scheduler schedules the threads according to their priority known as <b> preemptive scheduling</b>.
+ - Each thread has a priority. Priorities are represented by a number between 1 and 10.  
+ - Where the thread scheduler schedules the threads according to their priority known as <b> preemptive scheduling</b>.
 
  </blockquote>
 
  </details>
 
  ---
- 7. List the methods in thread priority.
+ 7. List the methods related to the thread priority.
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -144,7 +147,7 @@ public class Main {
 
  ---
 
- 8. What are the 3 constants defined in Thread class?
+ 8. What are the 3 priority constants defined in `Thread` class?
 
   ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -276,7 +279,7 @@ public static void main(String argvs[])
  </details>
  ---
 
-13. What is Daemon Thread thread and how it differs from normal thread?
+13. What is Daemon Thread and how it differs from normal thread?
 <details><summary> Show Answer </summary>
 
 <blockquote>
