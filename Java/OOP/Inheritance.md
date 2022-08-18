@@ -10,10 +10,12 @@
 - D.Multiple Inheritance
 
 <details><summary> <b>Show Answer</b> </summary>
+	
 > B
  
 <details>
-  <summary><b>Explanation</b></summry> 
+  <summary><b>Explanation</b></summary> 
+	
 > - Invisibility cloak is a family heirloom for potters, A property is passed down from one class(generation) to another, this is a clear example of multilevel inheritance
 </details>
 </details>
@@ -34,7 +36,7 @@
 > D
   
 <details>
-  <summary><b>Explanation</b></summry> 
+  <summary><b>Explanation</b></summary> 
 	
 >  English vocabulary is inherited from germanic, French, and Latin, one class inherits the properties of multiple classes, and this is an example of multiple inheritances.
 </details>
@@ -52,7 +54,7 @@
 <details>
 <summary><b> Show Answer</b></summary>
 
-In java, a class can not extend more than one class. To achieve multiple Inheritance, one can create multiple interfaces and create a class that implements multiple Interfaces.
+> In java, a class can not extend more than one class. To achieve multiple Inheritance, one can create multiple interfaces and create a class that implements multiple Interfaces.
 </details>
 
 ---
@@ -62,7 +64,7 @@ In java, a class can not extend more than one class. To achieve multiple Inherit
 <details>
 <summary><b> Show Answer</b></summary>
 
-Simple inheritance, multilevel inheritance, and multiple inheritances are the different types of Inheritance in java, combining two or many of these is considered Hybrid Inheritance.
+> Simple inheritance, multilevel inheritance, and multiple inheritances are the different types of Inheritance in java, combining two or many of these is considered Hybrid Inheritance.
 </details>
 
 ---
@@ -73,6 +75,9 @@ Simple inheritance, multilevel inheritance, and multiple inheritances are the di
 <summary><b> Show Answer</b></summary>
 
 > A superclass is extended by a subclass and the subclass is extended by another subclass. The US government provides funds to Texas and the Texas government provides funds to Austin, here funds are an object, and the US, Texas, and Austin are classes.
+	
+<img width="155" alt="Multilevel" src="https://user-images.githubusercontent.com/103101208/185297803-40ec0caf-43c1-4ec5-8345-a3d21f171b28.PNG">
+
 </details>
 
 ---
@@ -83,6 +88,9 @@ Simple inheritance, multilevel inheritance, and multiple inheritances are the di
 <summary><b> Show Answer</b></summary>
 
 > the relation between a superclass which gets extended by a single subclass is called single Inheritance.
+	
+<img width="173" alt="Single" src="https://user-images.githubusercontent.com/103101208/185297546-71804b70-cd2f-4bae-930a-6a61d4da839f.PNG">
+
 </details>
 
 ---
@@ -99,13 +107,14 @@ Simple inheritance, multilevel inheritance, and multiple inheritances are the di
 
 <details>
   <summary> <b>Show Answer</b> </summary>
+<blockquote>
 
 - A subclass can access the private members of the superclass in two possible ways:<br>
   
  1. If public or protected methods of the superclass have access to the private fields, then the subclass can have access to the private fields.
  2. If the superclass has a public or protected nested class then the subclass can access all the private members of the superclass using the nested class.
   
-  
+ </blockquote> 
 </details>
 
 ---
@@ -120,7 +129,8 @@ Simple inheritance, multilevel inheritance, and multiple inheritances are the di
 > A
 
 <details>
-  <summary><b>Explanation</b></summry> Multiple Inheritance of state is invalid in java because a class cant extend more than one class but it can implement multiple interfaces.
+  <summary><b>Explanation</b></summry> 
+> Multiple Inheritance of state is invalid in java because a class cant extend more than one class but it can implement multiple interfaces.
 
 
 </details>
@@ -131,7 +141,8 @@ Simple inheritance, multilevel inheritance, and multiple inheritances are the di
 
 <details><summary><b>Show Answer</b></summary>
 
-<b>Ans:</b> If a class extends multiple classes the object of the class inherits all the fields of all the inherited classes, and inherited classes might have the same fields which are instantiated by different methods or constructors, it's not possible to set the precedence for all the methods and constructors, so the instantiation of the field is ambiguous. A class extend a single class, to avoid Multiple inheritances of state.
+ 
+> If a class extends multiple classes the object of the class inherits all the fields of all the inherited classes, and inherited classes might have the same fields which are instantiated by different methods or constructors, it's not possible to set the precedence for all the methods and constructors, so the instantiation of the field is ambiguous. A class extend a single class, to avoid Multiple inheritances of state.
 
 </details>
 
@@ -343,7 +354,10 @@ public final class Car{
  
 > A
   
-  <b>Explanation</b>: final class can not be inherited but no object is created for the subclass and no subclass methods are implemented, So there is no error in the code.
+ 
+<details><summary><b>Explanation</b> </summary>
+> Final class can not be inherited but no object is created for the subclass and no subclass methods are implemented, So there is no error in the code.
+</details>
 </details>
 
 ---
