@@ -556,6 +556,8 @@ It will throw a compile time error
 
 <details><summary><b>Explanation</b></summary>
 	
+	<blockquote>
+	
  When a functional interface extends another interface, it should not contain any abstract methods.
 	
 </blockquote>
