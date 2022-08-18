@@ -2,7 +2,7 @@
 
 1. Harry potter's Invisibility cloak was passed down to him by his father James and James potter got it from his father Henry potter, this is a clear example for?  
 
-
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 - A.Hybrid Inheritance
 - B.Multilevel Inheritance
@@ -11,14 +11,18 @@
 
 <details><summary> <b>Show Answer</b> </summary>
 > B
-  
-  <b>Explanation</b>: Invisibility cloak is a family heirloom for potters, A property is passed down from one class(generation) to another, this is a clear example of multilevel inheritance
+ 
+<details>
+  <summary><b>Explanation</b></summry> 
+> - Invisibility cloak is a family heirloom for potters, A property is passed down from one class(generation) to another, this is a clear example of multilevel inheritance
 </details>
-
+</details>
 
 ---
 
 2. English language vocabulary is comprised of old germanic, French, and Latin words, this is an example for? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 - A.Hybrid Inheritance
 - B.Multilevel Inheritance
@@ -29,9 +33,12 @@
 	
 > D
   
-  <b>Explanation</b>: English vocabulary is inherited from germanic, French, and Latin, one class inherits the properties of multiple classes, and this is an example of multiple inheritances.
+<details>
+  <summary><b>Explanation</b></summry> 
+	
+>  English vocabulary is inherited from germanic, French, and Latin, one class inherits the properties of multiple classes, and this is an example of multiple inheritances.
 </details>
-
+</details>
 
 ---
 
@@ -39,6 +46,8 @@
 ## Technical
 
 1. How is Multiple Inheritance implemented in java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b> Show Answer</b></summary>
@@ -48,6 +57,8 @@ In java, a class can not extend more than one class. To achieve multiple Inherit
 
 ---
 2. What is Hybrid Inheritance?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
 <summary><b> Show Answer</b></summary>
 
@@ -56,6 +67,8 @@ Simple inheritance, multilevel inheritance, and multiple inheritances are the di
 
 ---
 3. What is Multilevel Inheritance?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
 <summary><b> Show Answer</b></summary>
 
@@ -63,11 +76,13 @@ Simple inheritance, multilevel inheritance, and multiple inheritances are the di
 </details>
 
 ---
-4. What is simple Inheritance?
+4. What is single Inheritance?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
 <summary><b> Show Answer</b></summary>
 
-> the relation between a superclass which gets extended by a single subclass is called Simple Inheritance.
+> the relation between a superclass which gets extended by a single subclass is called single Inheritance.
 </details>
 
 ---
@@ -104,9 +119,11 @@ Simple inheritance, multilevel inheritance, and multiple inheritances are the di
 <details><summary><b>Show Answer</b></summary>
 > A
 
-<b>Explanantion: </b> Multiple Inheritance of state is invalid in java because a class cant extend more than one class but it can implement multiple interfaces.
+<details>
+  <summary><b>Explanation</b></summry> Multiple Inheritance of state is invalid in java because a class cant extend more than one class but it can implement multiple interfaces.
 
 
+</details>
 </details>
 
 ---
@@ -125,7 +142,7 @@ Simple inheritance, multilevel inheritance, and multiple inheritances are the di
 
 
 
-> Exteding more than one class leads to multiple inheritance of state in java.
+> Exteding more than one class leads to multiple inheritance of state in java. If a class extends more than a single class, it inherits all the fields of superclasses, and if two classes have same fields and they are intialized by different constructors or methods of different classes, JVM can not give precidence to an Intilization. So, Multiple Inheritance of state is not possible in java.
 
 </details>
 
@@ -173,7 +190,7 @@ package web;
 
 import java.util.*;
 
-public class Main{
+public class Olympics{
   
   public static void main(String[] args) {
     India i = new India();
@@ -217,7 +234,10 @@ class Japan extends Olympics{
 <details><summary> Show Answer </summary>
 > A
   
-  <b>Explanation</b>:  
+<details>
+	<summary><b>Explanation</b></summary>
+> ` i.hostOlympics()` invokes the method in India class. So, "We will host the summer Olympics in 2036" will be printed first and `o.hostOlympics()` invokes meythod in Olympics class. So, "  Summer Olympics and Winter Olympics" will be printed.
+</details>
 </details>
 
 
