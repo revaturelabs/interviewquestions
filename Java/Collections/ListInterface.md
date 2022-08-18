@@ -9,14 +9,19 @@
 
 <summary><b>Show Answer</b></summary>
 
-> - A list is an ordered collection of elements. 
-> - Duplicate elements are allowed in the list. 
+<blockquote>
+ 
+- A list is an ordered collection of elements. 
+- Duplicate elements are allowed in the list. 
+
+
+ 
 ``` java 
 List <E> l ;
 ```
 
-> the above code represents List declaration, where E is an element ( type parameter).
-
+- the above code represents List declaration, where E is an element ( type parameter).
+</blockquote>
 </details>
 
 ---
@@ -130,7 +135,9 @@ Along with the operations inherited from the collection interface, the list has 
 
 <summary><b>Show Answer</b></summary>
 
-> 1. <code>add(element)</code> method is used to add single element at the end of the list.
+<blockquote>
+
+1. <code>add(element)</code> method is used to add single element at the end of the list.
 
 ``` java
 
@@ -139,8 +146,8 @@ al.add(1);
 
 ```
 
-> - In the above code, an array list "al" is created and it stores Integer elements and element 1 is added to the ArrayList.
-
+- In the above code, an array list "al" is created and it stores Integer elements and element 1 is added to the ArrayList.
+</blockquote>
 
 </details>
 
@@ -154,7 +161,8 @@ al.add(1);
 
 <summary><b>Show Answer</b></summary>
 
-> 1. addAll method is used to add bulk elements to the list.
+ <blockquote>
+1. addAll method is used to add bulk elements to the list.
 
 ``` java
 
@@ -170,9 +178,10 @@ al2.addAll(0,al2);
 
 ```
 
->- In the above code, an array list "al1" and "al2" are created and some elements are added to al1, all the elements in al1 are added to al2 using `addAll()`.
->-  <code>addAll(collection)</code> adds elements at the end of the list and <code>addAll(int index, collection)</code> adds elements from a specific position.
-
+- In the above code, an array list "al1" and "al2" are created and some elements are added to al1, all the elements in al1 are added to al2 using `addAll()`.
+-  <code>addAll(collection)</code> adds elements at the end of the list and <code>addAll(int index, collection)</code> adds elements from a specific position.
+  
+</blockquote>
 
 </details>
 
@@ -218,7 +227,7 @@ al2.addAll(0,al2);
 
 > -  `Stack` follows the Last in First out principle
 >-  `Stack` extends Vector and it has five additional operations, which are:
-
+> 
 > 1. `push(element)`: adds elements to the top of the stack and returns the element.
 > 2. `pop()`: deletes the top element of the stack and returns that element, throws EmptyStackException if the stack is empty.
 > 3. `peek()`: returns the topmost element of the stack, and throws EmptyStackException if the stack is empty. 
@@ -240,19 +249,21 @@ al2.addAll(0,al2);
 
 > - `ArrayList` and linked list are two general purpose list classes.
 > -  Mostly `ArrayList` is preferred over a `LinkedList` because in `ArrayList` elements can be accessed at a constant time. In a linked list as elements are stored in the form of nodes, it gives linear positional access
-
+> 
 > <i><b>Note:</b> 
 > - constant access: The time complexity is directly proportional to a constant value and is in no way related to the size of the data structure.
 > - linear access: the time complexity is proportional to the size of the data structure.
 
 </i> 
+<blockquote>
 
 | `ArrayList`                                                                            | `LinkedList`                                                                                                                                                                 |
 | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Used when deletion and insertion operations are minimal.                             | Used when insertion operations and deletion operations are more frequent                                                                                                   |
 | `ArrayList` has a tuning point to set the initial capacity                             | Linked list has no tuning point but has seven operations, clone, `addFirst`, `addLast`, `reomveFirst`, `removeLast`, `getFirst` and `getLast`. It also implements the queue interface. |
 | `ArrayList` is fast and constant time complexity is achieved in most of the operations | `LinkedList` is comparatively slow and linear time complexity is achieved in most of the cases                                                                               |
-
+ 
+</blockquote>
 
 </details>
 
@@ -435,24 +446,26 @@ D. O(n <sup>2</sup>)
  
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
-> <b>Sample Input:</b>
-> 7
-> 1 2 2 2 3 4 5
-> 2
+<b>Sample Input:</b>
+- 7
+- 1 2 2 2 3 4 5
+- 2
 
-> <b>Sample Output</b>
-> 1 2 3
+<b>Sample Output</b>
+- 1 2 3
 
-> <b>Explanation</b>
-> - line 1 is the size = 7
-> - line 2 is the list of elements.
-> - line 3 is the key element which is 2.
-> - Output is the indices of all the occurrences of 2(key).
+<b>Explanation</b>
+- line 1 is the size = 7
+- line 2 is the list of elements.
+- line 3 is the key element which is 2.
+- Output is the indices of all the occurrences of 2(key).
 
 <details>
 
 <summary><b>Show Answer</b></summary>
 
+ <blockquote>
+  
 ``` java
 
 import java.util.*;
@@ -490,7 +503,8 @@ public class Collections {
 
 
 ```
-
+                                   
+</blockquote>
 </details>
 
 ## Scenario Based
