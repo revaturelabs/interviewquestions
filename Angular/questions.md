@@ -199,3 +199,6 @@ interface PipeTransform {
 159. What is use of `routerLink` attributes?
 160. What is use of `<routeroutlet>`?
 161. Where you define the routes in the Angular application?
+162. Design an angular application with following criteria.
+    - `/login` need to the login page or template
+    - '/register` need to the register page or template
