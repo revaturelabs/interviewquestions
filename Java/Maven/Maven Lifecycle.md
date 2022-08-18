@@ -55,12 +55,16 @@ Here are some of the most important phases in the default build lifecycle:
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
+ 
+ <blockquote>
 
->- Clean lifecycle can be executed by running the command `mvn post-clean`.
->- Which can be of following phases
-    >- `pre - clean`
-    >- `clean`
-    >- `post - clean`
+- Clean lifecycle can be executed by running the command `mvn post-clean`.
+- Which can be of following phases
+    - `pre - clean`
+    - `clean`
+    - `post - clean`
+  
+ </blockquote>
 
 </details>
 
