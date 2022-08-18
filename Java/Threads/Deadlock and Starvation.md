@@ -107,7 +107,7 @@ Synchronized keyword is the only reason for deadlock situation, which allows onl
 
 ---
 
-7. Explain about join method in Java.
+7. Difference between deadlock and starvation 
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -115,55 +115,9 @@ Synchronized keyword is the only reason for deadlock situation, which allows onl
 
 <blockquote>
 
-Which allows one thread to wait until another thread completes its execution. which has a void type and throws `InterruptedException`.
+
 
 </details>
-
-</blockquote>
-
----
-
-8. List the functions used in join method.
-
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-
-<details><summary> Show Answer </summary>
-
-<blockquote>
-
-`join()`- Waits for the thread to die.
-
-`join(long millis)`- Waits at most millis milliseconds for the thread to die.
-
-`join(long millis, int nanos)`- Waits at most millis milliseconds plus nano nanoseconds for the thread 
- to die.
-
- Which can be declared as
-
-`public final void join()`
-
-`public final void join(long millis, int nanos)`
-
-`public final void join(long millis)`
-
- </details>
-
-</blockquote>
-
----
-
-9. Explain about thread dump
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details><summary> Show Answer </summary>
-
-<blockquote>
-
-- It is a snapshot of the state of all threads in the process. The state of each thread is presented `stack trace`, which shows the contents of a thread’s stack.
-- Thread dumps automatically show the occurrence of a deadlock.
-
- </details>
 
 </blockquote>
 
