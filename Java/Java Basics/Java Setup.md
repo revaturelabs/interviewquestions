@@ -187,8 +187,8 @@ public static void main(String[] args)
 - The left side class of denotes reference of the object and right side denotes object of which to be created.
     Eg. B b = new A()
 - B(Reference) can be respected class, abstract class or interface.
-     </blockquote>
-      </details>
+ </blockquote>
+</details>
 
 ---
 
@@ -204,13 +204,16 @@ public static void main(String[] args)
 - Stack memory is used only in method or currently running methods.
 - Function calls, primitive, local and reference variables are stored in this memory.    
    </blockquote>
-      </details>
+</details>
       
 ---
 
 15: What is Architecture Neutral?
- <details>
-      <summary><b> Show Answer </b></summary> 
+ 
+ ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote> 
 
 - Software that is designed without regard to the target platform. 
 - <span style="color:blue"> Software</span> is often written to maximize the performance of a specific hardware platform, but such     software must be modified to make it run on other hardware.
@@ -219,17 +222,20 @@ public static void main(String[] args)
 
 - Size of int in C is 2 bytes for 32 bit architecture and 4 bytes for 64 bit architecture.
 - Size of int in Java is the same 4 bytes for both 32 bit and 64 bit architecture
- </details>
+</blockqoute>  
+</details>
 
 ---
 
-16: What is Just In time Compiler and Ahead of time Compiler?
- <details>
-      <summary><b> Show Answer </b></summary> 
+16: What is Just In Time Compiler and Ahead of time Compiler?
+<details>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
 
-- <span style="color:blue">In Just in time compilation</span>, the source code is coverted into byte code. Where the bytecode is platform independant. It is runnable in different architecture system when it is coverted in machine code in that system. Here some of the frequently used codes are stored as code cache and used when it's required.
-- <span style="color:blue">In Ahead of time compilation</span>, the souce code is directly converted into machine, So it is platform dependant. AOT is used for to manual machine code convertion.
-  </details>
+- In **Just In Time** compilation, the source code is coverted into byte code. Where the bytecode is platform independant. It is runnable in different architecture system when it is coverted in machine code in that system. Here some of the frequently used codes are stored as code cache and used when it's required.
+- In **Ahead Of Time** compilation, the souce code is directly converted into machine, So it is platform dependant. AOT is used for to manual machine code convertion.
+</blockqoute>  
+</details>
 
 ---
 
