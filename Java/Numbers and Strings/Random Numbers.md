@@ -1,6 +1,8 @@
 ## Random Numbers
 
 1.How can we generate random numbers in java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
     <summary><b> Show Answer </b></summary> 
 <blockquote>
@@ -28,6 +30,8 @@ The value differs each time when we run it.
 ---
 
 2.What is differnce between `Math.random()` and `new Random().nextDouble()` method in java?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
     <summary><b> Show Answer </b></summary> 
 <blockquote>
