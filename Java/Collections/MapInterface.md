@@ -22,6 +22,8 @@
 <details>
 
 <summary><b>Show Answer</b></summary>
+ 
+<blockquote>
 
 HashMap and Hashtable both are used to store data in key and value form. Both are using hashing technique to store unique keys.
 
@@ -33,6 +35,8 @@ HashMap and Hashtable both are used to store data in key and value form. Both ar
 | 04. |HashMap is fast.       |Hashtable is slow.|
 | 05. |HashMap is traversed by Iterator.    |Hashtable is traversed by Enumerator and Iterator.|
 | 06. |HashMap<K, V> hm = new HashMap<K, V>() |Hashtable<K, V> ht = new Hashtable<K, V>()|
+    
+ </blockquote>
 
 </details>
 
@@ -45,7 +49,8 @@ HashMap and Hashtable both are used to store data in key and value form. Both ar
 
 <summary><b>Show Answer</b></summary>
 
-
+<blockquote>
+    
 The `HashMap` and `TreeMap` both are classes of the Java Collections framework. Java Map implementation usually acts as a bucketed hash table. When buckets get too large, they get transformed into nodes of TreeNodes, each structured similarly to those in java.util.TreeMap.
 
 |HashMap                           |TreeMap                           |
@@ -61,6 +66,7 @@ The `HashMap` and `TreeMap` both are classes of the Java Collections framework. 
 |Order of elements  HashMap does not maintain any order.|The elements are sorted in natural order (ascending).|
 |The HashMap should be used when we do not require key-value pair in sorted order.| The TreeMap should be used when we require key-value pair in sorted (ascending) order.|
 
+   </blockquote>
 </details>
 
 ---
@@ -70,8 +76,10 @@ The `HashMap` and `TreeMap` both are classes of the Java Collections framework. 
 
 <details>
 <summary><b>Show Answer</b></summary>
+ 
+<blockquote>
 
-> When you try to add a key-value pair to `HashMap` and the key already exists, it overrides the value.
+- When you try to add a key-value pair to `HashMap` and the key already exists, it overrides the value.
 
 ``` java
 import java.util.*;
@@ -89,10 +97,10 @@ public class ExistingKey {
 
 
 ```
-> the output of the program is :<br>
-> 1.5<br>
-> 1.8 <br>
-> The value for Java is overridden from 1.5 to 1.8.
+- the output of the program is :
+- 1.5
+- 1.8 
+- The value for Java is overridden from 1.5 to 1.8.
 
 
 
@@ -108,6 +116,8 @@ public class ExistingKey {
 <details>
 <summary><b>Show Answer</b></summary>
 
+    <blockquote>
+        
 ``` java
 import java.util.*;
 public class ExistingKey {
@@ -124,9 +134,12 @@ public class ExistingKey {
 
 ```
 
-> The output of the program is :<br>
->1.5<br>
->1.5<br>
+- The output of the program is :
+- 1.5
+- 1.5
+        
+</blockquote>
+        
 <details>
 <summary><b>Explanation</b></summary>
     
@@ -169,6 +182,8 @@ public class ExistingKey {
 <details>
 <summary><b>Show Answer</b></summary>
 
+<blockquote>
+    
 ``` java
 
 public class MultiMap {
@@ -184,6 +199,8 @@ public class MultiMap {
 
 
 ```
+</blockquote>
+    
 <details>
 <summary><b>Explanation</b></summary>
 <blockquote>
@@ -207,6 +224,8 @@ public class MultiMap {
 <details>
 <summary><b>Show Answer</b></summary>
 
+<blockquote>
+    
 ``` java
 
 public class OrderedMap {
@@ -222,7 +241,8 @@ public class OrderedMap {
 
 
 ```
-
+    
+</blockquote>
 <details>
 <summary><b>Explanation</b></summary>
 
@@ -247,6 +267,8 @@ public class OrderedMap {
 <details>
 <summary><b>Show Answer</b></summary>
 
+   <blockquote>
+       
 ``` java
 public class ValueOrder {
     public static void main(String[] args) {
@@ -263,7 +285,7 @@ public class ValueOrder {
 
 ```
 
-
+</blockquote>
 
 <details>
 
@@ -290,6 +312,8 @@ public class ValueOrder {
 
 <summary><b>Show Answer</b></summary>
 
+ <blockquote>
+     
 ``` java
 import java.util.*;
 public class DistinctWords {
@@ -315,6 +339,7 @@ public class DistinctWords {
 
 
 ```
+</blockquote>
 
 <details>
 <summary><b>Explanation</b></summary>
@@ -337,6 +362,8 @@ public class DistinctWords {
 
 <summary><b>Show Answer</b></summary>
 
+<blockquote>
+    
 ``` java
 import java.util.*;
 public class SubMap {
@@ -355,6 +382,8 @@ public class SubMap {
 
 ```
 
+ </blockquote>
+    
 <details>
 <summary><b>Explanation</b></summary>
 <blockquote>
@@ -378,6 +407,8 @@ public class SubMap {
 <details>
 <summary><b>Show Answer</b></summary>
 
+    <blockquote>
+        
 ``` java
 
 import java.util.*;
@@ -399,7 +430,9 @@ public class CommonKeys {
 
 
 ``` 
-
+    
+</blockquote>
+    
 <details>
 <summary><b>Explanation</b></summary>
 
@@ -420,6 +453,8 @@ public class CommonKeys {
 <details>
 <summary><b>Show Answer</b></summary>
 
+<blockquote>
+    
 ``` java
 import java.util.*;
 public class Employee {
@@ -437,7 +472,8 @@ public class Employee {
 
 
 ```
-
+</blockquote>
+    
 <details>
 <summary><b>Explanation</b></summary>
 <blockquote>
@@ -463,6 +499,7 @@ public class Employee {
 <details>
 <summary><b>Show Answer</b></summary>
 
+<blockquote>
 ``` java
 import java.util.*;
 public class Employee {
@@ -478,6 +515,8 @@ public class Employee {
 }
 
 ```
+    
+</blockquote>
 
 <details>
 <summary><b>Explanation</b></summary>
@@ -497,6 +536,8 @@ public class Employee {
 <details>
 <summary><b>Show Answer</b></summary>
 
+<blockquote>
+    
 ``` java
 import java.util.*;
 public class Employee {
@@ -512,7 +553,8 @@ public class Employee {
 }
 
 ```
-
+    
+</blockquote>
 <details>
 <summary><b>Explanation</b></summary>
 <blockquote>
@@ -531,6 +573,8 @@ public class Employee {
 <details>
 <summary><b>Show Answer</b></summary>
 
+ <blockquote>
+     
 ``` java
 import java.util.*;
 public class Employee {
@@ -546,6 +590,8 @@ public class Employee {
 }
 
 ```
+     
+</blockquote>
 
 <details>
 <summary><b>Explanation</b></summary>
