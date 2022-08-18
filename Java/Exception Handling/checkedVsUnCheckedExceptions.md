@@ -348,11 +348,16 @@ public class finalvariable {
  ``` 
 <details><summary><b> Show Answer</b></summary>
 
+<blockquote>
+	
 ```java
 Hashcode is:3456787673
 garbage collection ended
 The finalize() method called
 ```
+
+</blockquote>
+	
 <details><summary><b> Explanation</b></summary>
 
 >`finalize` method is executed just before the object obj is destroyed.
