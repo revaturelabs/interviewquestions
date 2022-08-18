@@ -16,7 +16,7 @@
 
 <details><summary><b> Show Answer</b></summary>
 	
-Whenever an exception is occurred in the try block the rest of the code will not execute.
+> Whenever an exception is occurred in the try block the rest of the code will not execute.
 	
 </details>
 
@@ -46,7 +46,7 @@ Whenever an exception is occurred in the try block the rest of the code will not
 
 <details><summary> <b> Show Answer</b></summary>	
 	
->yes
+> yes, we can have multiple catch blocks with the single try block
 	
 </details>
 
@@ -59,7 +59,7 @@ Whenever an exception is occurred in the try block the rest of the code will not
 
 <details><summary> <b> Show Answer</b></summary>
 	
->Java Virtual Machine(JVM).
+> Java Virtual Machine(JVM), handles the exception if the exception is not handled by the programmer itself
 	
 </details>
 
@@ -83,7 +83,7 @@ Whenever an exception is occurred in the try block the rest of the code will not
 
 <details><summary><b> Show Answer</b></summary>
 	
->If the programmer handles the exception.
+> If the programmer handles the exception, the normal flow of the program is maintained in the exception handling mechanism.
 
 </details>
 
