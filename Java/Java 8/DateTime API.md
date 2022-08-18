@@ -180,8 +180,6 @@ LocalDateTime currentDateTime = LocalDateTime.now();
 
 --- 
 
-## Predict the output
-
 10. Predict the output of the following code.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
