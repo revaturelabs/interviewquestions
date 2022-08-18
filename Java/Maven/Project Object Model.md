@@ -9,7 +9,7 @@
  <blockquote>
     
 - Project Object Model -Which is a fundamental unit of work in Maven.
-- Which resides in the base directory of the project as pom.xml file.
+- Which resides in the base directory of the project as `pom.xml` file.
 
  </blockquote>
 
