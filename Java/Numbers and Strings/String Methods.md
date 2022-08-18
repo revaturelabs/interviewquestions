@@ -67,8 +67,11 @@ public class Main {
 ---
 
 4.why String is immutable in Java?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
-<summary><b> Show Answer </b></summary>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - When create a string using string literal, a memory allocated at the string constant pool a reference assign to variable. 
 - If we create a string with the same value, the same reference will be stored to the variable instead of creating new memory.
@@ -77,9 +80,13 @@ public class Main {
 </details>
 
 ---
-5: What will happen if we use `new` keyword while craeting a string?
+	
+5.What will happen if we use `new` keyword while craeting a string?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
-<summary><b> Show Answer </b></summary>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - When we `new` keyword while creating, the memory is allocated at heap. 
 - If we again create a variable with the same value, a new memory is created in heap
@@ -90,9 +97,12 @@ public class Main {
 
 ---
 
-6: What is the difference between `next()` and `nextLine()`?
+6.What's the difference between next() and nextLine() methods from Java `Scanner` class?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
-<summary><b> Show Answer </b></summary>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - `next()` will consider the spaces as seperation between each inputs.
 - `nextLine()` will consider the line itself as a input with spaces.
@@ -100,9 +110,12 @@ public class Main {
 
 ---
 
-7: How will you convert a sentence into words of String array?
+7.How will you convert each word in the sentence as String array?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
-<summary><b> Show Answer </b></summary>
+    <summary><b> Show Answer </b></summary> 
+<blockquote>
 
 - In java string has method `split` that returns array of strings which seperates the strings respected to the regex.
 - It deletes the regex where regex can be letter, number or special character. The other substrings are stored in the string array.
