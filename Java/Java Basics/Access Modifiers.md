@@ -8,11 +8,12 @@
 <blockquote>
 
 - Access modifiers are used to limit the accessibility or visibility of class, method, variable, and constructor.
-- There are four type of access modifier.
-  - Default
-  - Public
-  - Private
-  - Protected
+
+There are four type of access modifier:
+ - Default
+ - Public
+ - Private
+ - Protected
 </blockquote>
 </details>
 
@@ -40,7 +41,7 @@
     <summary><b> Show Answer </b></summary> 
 <blockquote>
 
-- If we specify with public the access modifier, the accessibility will be anywhere within or outside the package
+- If we specify with public the access modifier, the accessibility will be anywhere within or outside the package.
 - We can import the class from any package when it is declared as public.
 </blockquote>
 </details>
@@ -54,7 +55,7 @@
     <summary><b> Show Answer </b></summary> 
 <blockquote>
 
-- If we specify with private the access modifier, the accessibility will be within the class.
+If we specify with private access modifier,the accessibility will be within the class.
 </blockquote>
 </details>
 
@@ -81,15 +82,15 @@
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
     <summary><b> Show Answer </b></summary> 
-</blockquote>
+<blockquote>
 	
-- If we specify with protected the access modifier, the accessibility will be within the class and subclasses which are extended from it.
+If we specify with protected the access modifier, the accessibility will be within the class and subclasses which are extended from it.
 </blockquote>
 </details>
 
 ---
 
-7.Explain the difference between private and protected.
+7.Explain the difference between Private and Protected.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
@@ -107,7 +108,7 @@
 
 ## Debugg the program
 
-8.Find the error in the program
+8.Find the error in the program.
 ``` java
 package com.example.model;
 
@@ -141,14 +142,14 @@ public class Main {
     <summary><b> Show Answer </b></summary> 
 <blockquote>
 
-- We can't use private variable outside the class. If we want to access the variable outside the class, we have to use public method such as getter method from the class.
+We can't use private variable outside the class. If we want to access the variable outside the class, we have to use public method such as getter method from the class.
 
 </blockquote>
 </details>
 
 ---
 
-9.Find the error in the program
+9.Find the error in the program.
 ``` java
 package com.example.model;
 
@@ -181,14 +182,14 @@ public class Main {
     <summary><b> Show Answer </b></summary> 
 <blockquote>
 
-- We can't use protected variable outside the class. If we want to access the variable outside the class, we have to use public method such as getter method from the class.
+We can't use protected variable outside the class. If we want to access the variable outside the class, we have to use public method such as getter method from the class.
 
 </details>
 </blockquote>
 
 ---
 
-10.Predict the output
+10.Predict the output.
 ``` java
 package com.example.model;
 
@@ -250,7 +251,7 @@ public class Main {
 
 ---
 
-11: Find the error in the program
+11. Find the error in the program.
 
 ``` java
 package com.example.model;
