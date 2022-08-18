@@ -154,6 +154,8 @@ public class Main {
 }
 
 ```
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
     <summary><b> Show Answer </b></summary> 
 <blockquote>
