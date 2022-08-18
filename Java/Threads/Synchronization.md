@@ -70,6 +70,8 @@ public class Main {
 
 </details>
 
+---
+
 2. How will we make a method as `asynchronized`?
 	
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -156,6 +158,8 @@ public class Main {
 </blockquote>
 </details>
 
+---
+	
 8. What is the difference between `sleep()` and `wait()` method?
 	
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -167,3 +171,5 @@ public class Main {
 - The `wait()` method is used to make the thread in waiting state until the `notify()` or `notifyAll()` called.
 </blockquote>
 </details>
+	
+---
