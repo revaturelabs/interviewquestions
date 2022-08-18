@@ -74,9 +74,9 @@
 <details>
 <summary><b> Show Answer</b></summary>
 
-> A superclass is extended by a subclass and the subclass is extended by another subclass. The US government provides funds to Texas and the Texas government provides funds to Austin, here funds are an object, and the US, Texas, and Austin are classes.
-	
-<img width="155" alt="Multilevel" src="https://user-images.githubusercontent.com/103101208/185297803-40ec0caf-43c1-4ec5-8345-a3d21f171b28.PNG">
+> A superclass is extended by a subclass and the subclass is extended by another subclass. The US government provides funds to Texas and the Texas government provides funds to Austin, here funds are an object, and the US, Texas, and Austin are classes.	
+>
+> <img width="155" alt="Multilevel" src="https://user-images.githubusercontent.com/103101208/185297803-40ec0caf-43c1-4ec5-8345-a3d21f171b28.PNG">
 
 </details>
 
@@ -88,8 +88,8 @@
 <summary><b> Show Answer</b></summary>
 
 > the relation between a superclass which gets extended by a single subclass is called single Inheritance.
-	
-<img width="173" alt="Single" src="https://user-images.githubusercontent.com/103101208/185297546-71804b70-cd2f-4bae-930a-6a61d4da839f.PNG">
+> 
+> <img width="173" alt="Single" src="https://user-images.githubusercontent.com/103101208/185297546-71804b70-cd2f-4bae-930a-6a61d4da839f.PNG">
 
 </details>
 
@@ -132,10 +132,12 @@
 - D.Multilevel Inheritance
 
 <details><summary><b>Show Answer</b></summary>
+	
 > A
 
 <details>
-  <summary><b>Explanation</b></summry> 
+  <summary><b>Explanation</b></summary> 
+	
 > Multiple Inheritance of state is invalid in java because a class cant extend more than one class but it can implement multiple interfaces.
 
 
@@ -175,14 +177,16 @@
 <details>
 <summary><b>Show Answer</b></summary>
 	
-> A child class inherits all the properties of parent class so the child class can be implicitly upcasted to parent.
+<blockquote>
+	
+- A child class inherits all the properties of parent class so the child class can be implicitly upcasted to parent.
 	
 ``` java
 	
 Parent p = new Child();
 	
 ```
-	
+</blockquote>	
 </details>
 
 ---
@@ -192,13 +196,15 @@ Parent p = new Child();
 
 <details>
 <summary><b>Show Answer</b></summary>
+<blockquote>
 	
-> A parent class may or may not have all the properties of Child class, so parent class can be ecplicily downcasted to Child class
+- A parent class may or may not have all the properties of Child class, so parent class can be ecplicily downcasted to Child class
 
 ``` java
 Child c= (Child) new Parent();
 	
 ``` 
+</blockquote>
 	
 </details>
 
@@ -209,9 +215,10 @@ Child c= (Child) new Parent();
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
-	<summary><b>Show Answer</b></summary>
+<summary><b>Show Answer</b></summary>
 	
 > No, `main()`  method is a static method and static methods can't be overriden.
+	
 </details>
 
 ---
@@ -295,12 +302,15 @@ class Japan extends Olympics{
 
 - D. We will host the summer Olympics in 2036
 
-<details><summary> Show Answer </summary>
+<details><summary><b>Show Answer</b></summary>
+	
 > A
   
 <details>
-	<summary><b>Explanation</b></summary>
+<summary><b>Explanation</b></summary>
+	
 > ` i.hostOlympics()` invokes the method in India class. So, "We will host the summer Olympics in 2036" will be printed first and `o.hostOlympics()` invokes meythod in Olympics class. So, "  Summer Olympics and Winter Olympics" will be printed.
+	
 </details>
 </details>
 
@@ -344,8 +354,12 @@ public final class Car{
 	
  > C
   
-  <b>Explanation</b>: Class KIA is trying to inherit the final class Car. It's not possible to inherit a final class.
+<details><summary> <b>Explanation</b> </summary>
+	
+> Class KIA is trying to inherit the final class Car. It's not possible to inherit a final class.
 </details>
+</details>
+	
 
 ---
 2. What is the output of the following code?
@@ -384,6 +398,7 @@ public final class Car{
   
  
 <details><summary><b>Explanation</b> </summary>
+	
 > Final class can not be inherited but no object is created for the subclass and no subclass methods are implemented, So there is no error in the code.
 </details>
 </details>
@@ -403,7 +418,7 @@ Main m = o;
 
 <details><summary> <b>Show Answer</b></summary>
   
-
+<blockquote>
   - the above code is an example for object casting and line 2 creates an error, even if object o is of type Main, JVM can not recognize it and an explicit type cast should be added to avoid compile time error.
   
  ``` java
@@ -412,9 +427,9 @@ Main m = o;
   
   ```
   
-  - After adding the type cast, if the object o is not of type main, a runtime error occurs.
+- After adding the type cast, if the object o is not of type main, a runtime error occurs.
   
-  
+</blockquote>
 
 </details>
 
@@ -430,8 +445,10 @@ Main m = (Main) o;
 ```
 
 <details><summary><b>Show Answer</b></summary>
+
+<blockquote>
 	
-> To avoid any runtime error the declaration can be enclosed in a simple condition which checks the instance of object o.
+- To avoid any runtime error the declaration can be enclosed in a simple condition which checks the instance of object o.
   
   ``` java
   if( o instanceof Main)
@@ -440,6 +457,7 @@ Main m = (Main) o;
 	}
   
   ```
+</blockquote>
 
 </details>
 
