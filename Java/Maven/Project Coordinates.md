@@ -120,7 +120,7 @@
 
 `groupId:artifactId:packaging:version` - through which will express the dependencies of a project in POM file.
 	
-<b>Example</b> `MySQL:MYSQL-Connector:jar: 6.0'
+<b>Example</b> `MySQL:MYSQL-Connector:jar: 6.0`
 
 </blockquote>
 
