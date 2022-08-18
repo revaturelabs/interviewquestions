@@ -27,6 +27,8 @@
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
+
+<blockquote>
 	
 ``` java
  try{
@@ -36,6 +38,8 @@
 
  }
 ```
+	
+</blockquote>
 </details>
 
 ---	
@@ -102,7 +106,14 @@ public class Example1 {
 }
 ```
 <details><summary><b> Show Answer</b></summary>
-/by zero
+	
+> /by zero
+	
+<details><summary><b> Explanation </b></summary>
+
+> A number is divided by zero
+	
+</details>
 </details>
 
 ---
@@ -129,11 +140,21 @@ public class TryCatchExample1 {
 }  
 ```
 <details><summary> <b> Show Answer</b></summary>
+
+<blockquote>
 	
 ```java
 /by zero
 Exception Occurred
 ```
+
+</blockquote>
+	
+<details><summary><b> Explanation </b></summary>
+
+> A number is divided by zero which throws an ArithmeticException.
+	
+</details>
 </details>
 
 ---
@@ -143,16 +164,21 @@ Exception Occurred
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
  ``` java   
+import java.util.*;
 public class TryCatchExample3 {  
   
     public static void main(String[] args) {  
+    Scanner sc = new Scanner(System.in);
+    int number;
         try  
-        {  
-        int c=25/0;  
+        {  	  
+		System.out.println("Enter a number : ");
+		number = Integer.parseInt(sc.next());
+		System.out.println("You entered: "+number);
         }  
-        catch(ArithmeticException e)  
+        catch(NumberFormatException e)  
         {  
-            System.out.println("A number cannot be divided  by zero");  
+            System.out.println(" NumberFormatException occurred");  
         }    
     }  
       
@@ -160,8 +186,13 @@ public class TryCatchExample3 {
 ```
 <details><summary><b> Show Answer</b></summary>
 	
->A number cannot be divided  by zero
+> NumberFormatException occurred
+
+<details><summary><b> Explanation </b></summary>
+
+> If the input is not a number or if the input is string then NumberFormatException will be occurred otherwise it will print the number.
 	
+</details>
 </details>
 
 ---
@@ -188,8 +219,13 @@ public class TryCatchExample4 {
 ```
 <details><summary><b> Show Answer</b></summary>
 	
->Array index error
-	
+> Array index error
+
+<details><summary><b> Explanation </b></summary>
+
+>If the element is stored in unspecified array index then ArrayIndexOutOfBoundsException will be occurred
+
+</details>
 </details>
 
 ---
@@ -217,6 +253,11 @@ public class TryCatchExample5 {
 	
 >The File location is not found
 	
+<details><summary><b> Explanation </b></summary>
+
+>If the file does not exist then FileNotFoundException will be thrown.
+	
+</details>
 </details>
 
 ---
@@ -239,7 +280,7 @@ public class TryCatchExample5 {
 
 <details><summary><b> Show Answer</b></summary>
 	
->The try block inside another try block is called as nested try block.
+>The try block inside another try block is called as nested try block.When any try block does not have a catch block for a particular exception, then the catch block of the outer or parent  try block are checked for that exception, and if it matches, the catch block of outer try block is executed.
 	
 </details>
 
@@ -293,11 +334,20 @@ public class NestedTryBlock1{
 ```
 <details><summary><b> Show Answer</b></summary>
 
+<blockquote>
+	
 ```java
 Divide by zero error
 /by zero
 Index 10 out of bounds for length 10
 ```
+
+</blockquote>
+<details><summary><b> Explanation </b></summary>
+
+> When any try block does not have a catch block for a particular exception, then the catch block of the outer (parent) try block are checked for that exception, and if it matches, the catch block of outer try block is executed.
+
+</details>
 </details>
 
 ---
@@ -348,11 +398,21 @@ public class Finallyblock1 {
                 }    
 ```
 <details><summary><b> Show Answer</b></summary>
-
+	
+<blockquote>
+	
 ```java
 5
 finally block is executed
 ```
+
+</blockquote>
+
+<details><summary><b> Explanation </b></summary>
+
+> Even if the Exception is occurred or not,the finally block gets executed.
+	
+</details>
 </details>
 
 ---
@@ -379,6 +439,8 @@ public class FinallyBlock2{
     }  
 ```
 <details><summary><b> Show Answer</b></summary>
+
+<blockquote>
 	
  ``` java  
 Inside try block
@@ -386,6 +448,14 @@ Exception handled
 / by zero
 finally block is executed
  ```
+	
+</blockquote>
+
+<details><summary><b> Explantion </b></summary>
+	
+> Here the exception is occurred then also finally block gets executed.
+	
+</details>
 </details>
 
 ---
