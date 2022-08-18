@@ -8,11 +8,13 @@
 
 <summary><b>Show Answer</b> </summary>
     
-> Encapsulation is creating a class with related fields and methods and hiding the fields and methods from the rest of the world, this can be achieved by creating fields and methods and private and accessing the fields and methods using objects.
+ <blockquote>
+    
+- Encapsulation is creating a class with related fields and methods and hiding the fields and methods from the rest of the world, this can be achieved by creating fields and methods and private and accessing the fields and methods using objects.
   
-  ``` java
+``` java
   
-  import java.util.Random;
+import java.util.Random;
 
 public class ATM {
     
@@ -52,7 +54,9 @@ public class ATM {
   
   ```
   
-  > In the above code, the class ATM contains fields and methods, and they are encapsulated into the class, all the fields and methods can be accessed by an object 'a'.
+ - In the above code, the class ATM contains fields and methods, and they are encapsulated into the class, all the fields and methods can be accessed by an object 'a'.
+     
+  </blockquote>
     
   </details>
    </details>
@@ -84,14 +88,14 @@ public class ATM {
 
 <details><summary><b>Show Answer</b></summary>
     
-<b>Abstract Class: </b>
-
+> <b>Abstract Class: </b>
+> 
 > 1. When classes are closely related and share the implementation an abstract class can be used. 
 > 2. To create unrelated classes with the same methods and fields but with access modifiers other than public, i.e. private and protected.
 > 3. to declare non-static and non-final methods, which can be altered by creating methods and using an object of the class.
-    
-<b>Interface: </b>
-
+>    
+> <b>Interface: </b>
+> 
 > 1. When classes are not related, they have the same methods but different implementations an interface is used.
 > 2. when behaviour is specified but the implementation of the behaviour can be altered.
 > 3. To implement Multiple Inheritance of value.
@@ -106,6 +110,8 @@ public class ATM {
 
 <details> <summary><b>Show Answer</b></summary>
     
+ <blockquote>
+    
 | **#** | ** Abstract Class**                                                                          | ** Interface**                                                                     |
 | ----- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
 | 1     |  An abstract class can extend only one class or one abstract class at a time                 |  An interface can extend any number of interfaces at a time                        |
@@ -114,6 +120,8 @@ public class ATM {
 | 4     |  In abstract class keyword “abstract” is mandatory to declare a method as an abstract        |  In an interface keyword “abstract” is optional to declare a method as an abstract |
 | 5     |  An abstract class can have protected and public abstract methods                            |  An interface can have only have public abstract methods                           |
 | 6     |  An abstract class can have static, final or static final variable with any access specifier |  interface can only have public static final (constant) variable                   |
+     
+ </blockquote>
 
 </details>
 
@@ -129,7 +137,7 @@ public class ATM {
 > 2. Abstract Method
 > 3. Non-Abstract Method.
 > 4. Constructor 
-> 5. main() method.
+> 5. `main()` method.
 
 </details>
 
@@ -145,7 +153,8 @@ public class ATM {
 - D. None of the above.
 
 <details> <summary><b>Show Answer</b></summary>
-C
+    
+> C
 <details><summary><b>Explanation</b></summary>
 
 > normally when a class doesn't implement all the abstract methods of an interface it leads to a compilation error, this can be avoided by declaring the class abstract because an abstract method can have unimplemented methods. 
@@ -185,7 +194,7 @@ C
 
 <details><summary><b>Show Answer</b></summary>
 
-C
+> C
     
 <details><summary><b>Explanation</b></summary>
 
