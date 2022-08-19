@@ -146,9 +146,9 @@ Components are the basic building blocks in the Angular application. Components 
   
   <blockquote>
     
- - Component Directives - Component directives alter the details of how the component should be processed, instantiated, and used at runtime.
-- Structural Directives Structural directives are used for adding, removing, or manipulating DOM elements.
-- Attribute Directives - Attribute directives are used to change the look and behavior of the DOM elements.
+ - **Component Directives** - Component directives alter the details of how the component should be processed, instantiated, and used at runtime.
+- **Structural Directives** -  Structural directives are used for adding, removing, or manipulating DOM elements.
+- **Attribute Directives** - Attribute directives are used to change the look and behavior of the DOM elements.
     
 <i>Custom Directive: Custom directive can also be created if any of the above directives does not solve our purpose for the requirement
     </i>
@@ -167,7 +167,7 @@ Components are the basic building blocks in the Angular application. Components 
   
   <blockquote>
     
- - Structural directives are used for adding, removing, or manipulating DOM elements
+- Structural directives are used for adding, removing, or manipulating DOM elements
 - Structural directives start with an asterisk (*) followed by a directive name. 
 - There are three built-in structural directives - `ngIf`, `ngFor` and `ngSwitch`.
 - The `ngFor` directive is used to repeat a part of the HTML template once per each item from an iterable list.
@@ -593,8 +593,8 @@ Here,
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 
-- @Input decorator used to pass the data from a parent to a child component
-- @Output decorator used to pass the data from a child to a parent component
+- `@Input` decorator used to pass the data from a parent to a child component
+- `@Output` decorator used to pass the data from a child to a parent component
 	
 ![image](https://user-images.githubusercontent.com/103101208/185594174-ec042de2-81dd-425b-bc8e-8c26ae214f1b.png)
 
