@@ -12,6 +12,8 @@
 </blockquote>
 </details>
 
+--- 
+
 2. What is meant by SPA?
 
 <details>
@@ -25,6 +27,8 @@
 
 </blockquote>
 </details>
+
+--- 
 
 3. Angular workflow or How does Angular work or bootstrapping your angular app?
 
@@ -41,25 +45,32 @@
 - Inside the build section, the main property of the options object defines the entry point of the application which in this case is `main.ts`.
 - `main.ts` is the entry point of the angular application. 
 - The `main.ts` file creates a browser environment for the application to run, and, along with this, it also calls a function called bootstrapModule, which bootstraps the application. These two steps are performed in the following order inside the `main.ts` file:
- ![image](https://user-images.githubusercontent.com/103101208/185569651-35a2ba9f-73fc-43c6-8548-0a24daac640b.png)
+	
+![image](https://user-images.githubusercontent.com/103101208/185569651-35a2ba9f-73fc-43c6-8548-0a24daac640b.png)
 - In the above line of code, `AppModule` is getting bootstrapped.
 - The `AppModule` is declared in the `app.module.ts` file. This module contains declarations of all the components.
 - Below is an example of `app.module.ts` file:
+	
 ![image](https://user-images.githubusercontent.com/103101208/185569778-9ff0d34a-b0e2-4701-a1db-21919ebd3ad7.png)
+	
 - As one can see in the above file, `AppComponent` is getting bootstrapped.
 - This component is defined in `app.component.ts` file. This file interacts with the webpage and serves data to it.
 - Below is an example of `app.component.ts` file:
   
-  ![image](https://user-images.githubusercontent.com/103101208/185569886-8ca076a7-6633-4d61-beb5-0d673014b347.png)
+ ![image](https://user-images.githubusercontent.com/103101208/185569886-8ca076a7-6633-4d61-beb5-0d673014b347.png)
 
 - After this, Angular calls the `index.html` file. This file consequently calls the root component that is `app-root`. 
 - This is how the `index.html` file looks:
+	
 ![image](https://user-images.githubusercontent.com/103101208/185569990-6c67e5b0-d9a6-4340-b2f0-dcd9a9f738c5.png)
+	
 - The HTML template of the root component is displayed inside the `<app-root>` tags.
 - This is how every angular application works. Or This is how angular application get bootstrapped
 
   </blockquote>
 </details>
+	
+--- 
 
 4. What is a component in angular?
 <details>
@@ -69,12 +80,14 @@
     
 - Components are the basic building blocks in the Angular application. Components contain the data & UI logic that defines the view and behavior of the web application.
     
- ![image](https://user-images.githubusercontent.com/103101208/185570645-2ab168d8-9c3d-4447-a403-703222cf7814.png)
+![image](https://user-images.githubusercontent.com/103101208/185570645-2ab168d8-9c3d-4447-a403-703222cf7814.png)
 
   </blockquote>
 
 </details>
 
+--- 
+	
 5.	Angular Components Lifecycle or Lifecycle Hooks or LifeCycle Methods
   
 <details>
@@ -94,15 +107,16 @@
 - `ngAfterViewInit()` - Invoked after Angular initializes the component's views and its child views.
 - `ngAfterViewChecked()` - Invoked after each time Angular checks for the content projected into the component. It called after `ngAfterViewInit()` and every subsequent `ngAfterContentChecked()`
 - `ngOnDestroy()` - Invoked before Angular destroys the directive or component.
+	
 ![image](https://user-images.githubusercontent.com/103101208/185571059-270e2558-e7f9-48e9-8023-3cb594a8d780.png)
 
-  ![image](https://user-images.githubusercontent.com/103101208/185581357-0f6f857b-7e47-4acc-98f4-b992a5b02f55.png)
 
-![image](https://user-images.githubusercontent.com/103101208/185581380-9958f808-b37a-4cad-87c9-67ebb163a03c.png)
 
 </blockquote>  
 
 </details>
+	
+--- 
 
 6.	What are some advantages of Angular?
   
@@ -120,6 +134,8 @@
 </blockquote> 
 
 </details>
+	
+--- 
   
 7.	What are the different types of directives in Angular?
   
@@ -138,6 +154,8 @@
 </blockquote> 
 
 </details>
+	
+--- 
   
   
 8. Structural Directives in Angular?
@@ -175,16 +193,18 @@
 	    <div *ngSwitchCase="'o'"> Entered o!! Word: Orange</div>
 	    <div *ngSwitchCase="'u'"> Entered u!! Word: Umberalla</div>
 	    <div *ngSwitchDefault> You Entered Constant </div>
-	</div>
+</div>
 
 
     
 ```
     
-    
+   
 </blockquote> 
 
 </details>
+	
+--- 
   
 9. Attribute Directives in Angular?
   
@@ -216,6 +236,8 @@ Enter the username: <input type='text' [(ngModel)]='name'>
 </blockquote> 
 
 </details>
+	
+--- 
   
 10.	Decorators in Angular?
   
@@ -234,6 +256,8 @@ Enter the username: <input type='text' [(ngModel)]='name'>
 </blockquote> 
 
 </details>
+	
+--- 
   
 11.	Class Decorators in Angular?
   
@@ -249,6 +273,8 @@ Enter the username: <input type='text' [(ngModel)]='name'>
 </blockquote> 
 
 </details>
+	
+--- 
   
 12. @Component Decorator.
 
@@ -270,6 +296,8 @@ Enter the username: <input type='text' [(ngModel)]='name'>
 
 </blockquote>
 </details>
+	
+--- 
 
 13. @NgModule Decorator
 
@@ -291,6 +319,8 @@ Enter the username: <input type='text' [(ngModel)]='name'>
 
 </blockquote>
 </details>
+	
+--- 
 
 14.	How to consume API using Angular?
 
@@ -299,6 +329,7 @@ Enter the username: <input type='text' [(ngModel)]='name'>
 <details>
 <summary> <b>Show Answer</b></summary>
 <blockquote>
+	
 - We are required to import and setup `HttpClient` service in Angular project to consume REST APIs.
 - To work with `HttpClient` service in Angular, you need to import the `HttpClientModule` in app.module.ts file. 
 - Then inject `HttpClient` service in constructor method after that you can hit the remote server via HTTP’s POST, GET, PUT and DELETE methods.
@@ -309,6 +340,8 @@ Enter the username: <input type='text' [(ngModel)]='name'>
 
 
 </details>
+	
+--- 
 
 15.	How do you do routing?
 
@@ -361,6 +394,8 @@ Here,
 </blockquote>
 
 </details>
+	
+--- 
 
 16. How do you handle dependency injection in angular?
 
@@ -381,6 +416,8 @@ Here,
 </blockquote>
 
 </details>
+	
+--- 
 
 17. What are the ways of databinding in angular?
 
@@ -392,6 +429,7 @@ Here,
 - They are 1 way databinding and 2-way databinding
 
 ![image](https://user-images.githubusercontent.com/103101208/185592479-3570b8c1-3fc1-4d06-8328-9c266186a2d3.png)
+	
 ![image](https://user-images.githubusercontent.com/103101208/185592494-637eb0ae-7610-40e8-874d-bd179e2ab16f.png)
 
 
@@ -400,6 +438,8 @@ Here,
 </blockquote>
 
 </details>
+	
+--- 
 
 18. Property Binding 
 
@@ -417,6 +457,8 @@ Here,
 
 </blockquote>
 </details>
+	
+--- 
 
 19. Event Binding
 
@@ -435,6 +477,8 @@ Here,
 </blockquote>
 
 </details>
+	
+--- 
 
 20. String Interpolation
 
@@ -451,6 +495,8 @@ Here,
 </blockquote>
 
 </details>
+	
+--- 
 
 
 21. What is two-way databinding in angular
@@ -472,6 +518,8 @@ Here,
 </blockquote>
 
 </details>
+	
+--- 
 
 22. Difference between Angular JS and Angular 4 +
 
@@ -489,6 +537,8 @@ Here,
 </blockquote>
 
 </details>
+	
+--- 
 
 23. Difference between Angular 2 and Angular 4
 
@@ -506,6 +556,8 @@ Here,
 </blockquote>
 
 </details>
+	
+--- 
 
 24. How would you protect routes?
 
@@ -530,6 +582,8 @@ Here,
 </blockquote>
 
 </details>
+	
+--- 
 
 25. How would you pass data from a parent to a child component or a child to a parent component?
 
@@ -539,6 +593,7 @@ Here,
 
 - @Input decorator used to pass the data from a parent to a child component
 - @Output decorator used to pass the data from a child to a parent component
+	
 ![image](https://user-images.githubusercontent.com/103101208/185594174-ec042de2-81dd-425b-bc8e-8c26ae214f1b.png)
 
 - Consider we have `AppComponent` as Parent. Let’s create a child component using `ng g c child` command. We’ll pass the data from `AppComponent` to `ChildComponent` and vice versa.
@@ -601,6 +656,8 @@ import { Component } from '@angular/core';
 </blockquote>
 
 </details>
+	
+--- 
 
 26. What are some common Angular CLI commands?
 
@@ -621,6 +678,8 @@ import { Component } from '@angular/core';
 </blockquote>
 
 </details>
+	
+--- 
 
 27. How components communicate with each other in Angular?
 
@@ -637,6 +696,8 @@ import { Component } from '@angular/core';
 
 </details>
 
+--- 
+	
 28. What are Services in angular?
 
 <details>
@@ -671,6 +732,8 @@ export class UserserviceService {
 
 </details>
 
+--- 
+
 29. What are Pipes in angular?
 
 <details>
@@ -686,8 +749,9 @@ export class UserserviceService {
    * **Lowercase pipe** - Used for converting strings into lowercase.
    * **Uppercase pipe** - Used for converting strings into uppercase.
 	
-  ```html
-   <h2>Built-in Pipes</h2>
+```html
+	
+<h2>Built-in Pipes</h2>
 <li>{{"Pipes"}} </li>
 <li>{{"Pipes" | uppercase}}</li>
 <li>{{"Pipes" | lowercase}} </li>
@@ -709,7 +773,26 @@ export class UserserviceService {
 - We can create custom pipes using the `ng g pipe <pipe-name>` command in the terminal with the Angular CLI.
 - **For example**, we create a custom pipe to count words by running the `ng g pipe` firstChar command in the terminal. The CLI creates 2 files - `firstChar.pipe.spec.ts` and `firstChar.pipe.ts` under `src/app` folder and updates `the app.module.ts` file.
 - In `firstChar.pipe.ts`,
+
+```ts
 	
+import { Pipe, PipeTransform } from '@angular/core';
+ 
+@Pipe({
+  name: 'firstChar'
+})
+export class FirstCharPipe implements PipeTransform {
+  transform(value: string): string {
+    return value[0];
+  }}
+
+
+```
+
+- Output:
+
+![image](https://user-images.githubusercontent.com/103101208/185601696-16d193f7-3912-4acb-b237-117173331d03.png)
+
 
 
 
@@ -717,6 +800,45 @@ export class UserserviceService {
 </blockquote>
 
 </details>
+	
+--- 
+	
+30. What is the difference between a promise and an observable?
+
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+	
+- A Promise emits a single value while Observable can emit multiple values. 
+- So, while handling a HTTP request, a Promise can manage a single response for the same request, but if there are multiple responses to the same request, then we have to use an Observable.
+	
+```ts
+const promise = new Promise((data) =>{ 
+    data(1);
+    data(2);
+    data(3);    }).then(element => console.log('Promise '+ element));
+// Logs:
+// Promise 1
+ 
+const observable = new Observable((data) => {
+    data.next(1);
+    data.next(2);
+    data.next(3);   }).subscribe(element => console.log('Observable ' + element));
+ 
+// Logs:
+//Observable 1
+//Observable 2
+//Observable 3
+	
+```
+
+	
+	
+</blockquote>
+
+</details>
+	
+
 
 
 
