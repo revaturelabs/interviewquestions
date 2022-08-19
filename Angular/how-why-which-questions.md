@@ -24,7 +24,7 @@
 24. How do you find which version of angular installed in our system? 
 25. How do you update angular to  the latest version?
 26. How we can run unit test in angular project?
-27. In which file, I can find @Component and @NgModule decorator?
+27. In which file, I can find `@Component` and `@NgModule` decorator?
 28. In Angular app, where I can define or specify the target browser?
 29. Tell me the difference between `angular.json` and `package.json` file?
 30. Tell me the difference between `package.json` and `package-lock.json` files?
