@@ -78,7 +78,7 @@
   
   <blockquote>
     
-- Components are the basic building blocks in the Angular application. Components contain the data & UI logic that defines the view and behavior of the web application.
+Components are the basic building blocks in the Angular application. Components contain the data & UI logic that defines the view and behavior of the web application.
     
 ![image](https://user-images.githubusercontent.com/103101208/185570645-2ab168d8-9c3d-4447-a403-703222cf7814.png)
 
@@ -216,7 +216,7 @@
 - Attribute directives are used to change the look and behavior of the DOM elements.
 - Attribute directives are enclosed with the [] square brackets
 - There are two built-in attribute directives - `ngClass` and `ngStyle`
-= The `ngClass` directive is used for adding or removing the CSS classes on an HTML element. It allows us to apply CSS classes dynamically based on expression evaluation.
+- The `ngClass` directive is used for adding or removing the CSS classes on an HTML element. It allows us to apply CSS classes dynamically based on expression evaluation.
     
 ```html
     
@@ -276,13 +276,13 @@ Enter the username: <input type='text' [(ngModel)]='name'>
 	
 --- 
   
-12. @Component Decorator.
+12. `@Component` Decorator.
 
 <details>
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 
-- In `app.component.ts` file, we export the `AppComponent` class, and we decorate it with the `@Component` decorator, imported from the `@angular/core package`, which takes a few metadata, such as: `selector`, `templateUrl` and `styleUrls`.
+In `app.component.ts` file, we export the `AppComponent` class, and we decorate it with the `@Component` decorator, imported from the `@angular/core package`, which takes a few metadata, such as: `selector`, `templateUrl` and `styleUrls`.
 
 ![image](https://user-images.githubusercontent.com/103101208/185589415-67f2a93c-98cd-44e9-b427-17d082620a8a.png)
 
@@ -299,14 +299,14 @@ Enter the username: <input type='text' [(ngModel)]='name'>
 	
 --- 
 
-13. @NgModule Decorator
+13. `@NgModule` Decorator
 
 <details>
 <summary> <b>Show Answer</b></summary>
 
 <blockquote>
 
-- `@NgModule` takes the below metadata to launch the application:
+`@NgModule` takes the below metadata to launch the application:
 - `declarations` — contains a list of components, directives, and pipes, which belong to this module.
 - `imports` — contains a list of modules, which are used by the component templates in this module reference.  For example, we import `BrowserModule` to have browser-specific services such as DOM rendering, sanitization, and location.
 - `providers` — the list of service providers that the application needs.
