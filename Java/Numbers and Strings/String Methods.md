@@ -66,7 +66,7 @@ public class Main {
 
 ---
 
-4.why String is immutable in Java?
+4.Why String is immutable in Java?
 	
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
