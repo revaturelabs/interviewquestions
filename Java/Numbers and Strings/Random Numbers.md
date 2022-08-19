@@ -1,13 +1,13 @@
 ## Random Numbers
 
-1.How can we generate random numbers in java?
+1.How can we generate random numbers in Java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
     <summary><b> Show Answer </b></summary> 
 <blockquote>
 
-- We generate random numbers using `Random` class that presents in `java.util` package.
+- We can generate random numbers using `Random` class that presents in `java.util` package.
 - `Random` class has the methods to generate random number in int, double, float, long etc.
 -  We can give range to random number or we can give the upper bound number.
 -  We didn't give the boundry, it will generate the random number between its maximum value and minimum value of the datatype.
@@ -29,7 +29,7 @@ The value differs each time when we run it.
 
 ---
 
-2.What is differnce between `Math.random()` and `new Random().nextDouble()` method in java?
+2.What is differnce between `Math.random()` and `new Random().nextDouble()` method in Java?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
