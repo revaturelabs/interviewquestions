@@ -60,7 +60,7 @@ public class Main {
     <summary><b> Show Answer </b></summary> 
 <blockquote>
 
-- When we have decimal value with precision that we will double by default. To specify that the value is `float` then we need to post-fix the value with `f`.
+When we have decimal value with precision that we will double by default. To specify that the value is `float` then we need to post-fix the value with `f`.
 ``` java
 public class Main {
 	public static void main(String[] args) {
