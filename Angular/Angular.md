@@ -352,7 +352,9 @@ In `app.component.ts` file, we export the `AppComponent` class, and we decorate 
 <blockquote>
 
 - First, we need to run `ng new routing-app –routing` command to create an angular application with routing module
+	
 - Make sure `AppRoutingModule` is in the `imports` of `@NgModule` in the `app.module.ts` file
+	
 - Add routes in the `routing.module.ts` file 
 
 ```js
@@ -405,7 +407,7 @@ Here,
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 
-- In Angular, dependencies are typically services.
+- In Angular, dependencies are typically services.	
 - The `@Injectable()` decorator marks a class as a service class that can be injected.
 - The `@Injectable()` decorator has a `providedIn` property where we specify the provider of the decorated service class.
 - By default, providedIn property has values ‘root’, that means services is injected to the AppModule.
@@ -445,6 +447,7 @@ Here,
 <details>
 <summary> <b>Show Answer</b></summary>
 <blockquote>
+	
 - From Component Class to the HTML Template
 - Bind values to the attributes of HTML elements.
 - Uses [], square brackets in the html file
