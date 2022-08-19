@@ -1,6 +1,6 @@
 ## Variables, Datatypes and Operators
 
-1.Explain about the difference between primitive datatype and non-primitive datatype.
+1.Explain about the difference between Primitive datatype and Non-Primitive datatype.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
@@ -13,7 +13,7 @@
 
 ---
 
-2.How will you define variables in java?
+2. Define variables in Java?
 	
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
@@ -40,7 +40,7 @@
 
 ---
 
-3.How many type of operators are there in java?
+3.How many types of operators are there in Java?
 	
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
