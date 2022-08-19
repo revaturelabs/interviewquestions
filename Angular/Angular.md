@@ -431,9 +431,6 @@ Here,
 - They are 1 way databinding and 2-way databinding
 
 ![image](https://user-images.githubusercontent.com/103101208/185592479-3570b8c1-3fc1-4d06-8328-9c266186a2d3.png)
-	
-![image](https://user-images.githubusercontent.com/103101208/185592494-637eb0ae-7610-40e8-874d-bd179e2ab16f.png)
-
 
 
 
