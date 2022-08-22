@@ -1086,4 +1086,254 @@ In this code compiler will complain on sub class where start() method gets overr
 
 </details>
 
+---
+
+41. Predict the output for the given below code:
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+```java
+
+public class Exception1 {
+  public static void main(String[] args) {
+   System.out.println(exceptionTest());
+  }
+  public static int exceptionTest()
+  {
+   int a=15;
+   try{
+    return i;
+   }
+   catch(Exception e){
+    a=20;
+   }
+   finally{
+ System.out.println("In finally block");
+   }
+   return a;
+  }
+}
+
+```
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+```java
+
+In finally block
+6
+
+```
+
+If you notice we have return statement in try block, so before returning from exceptionTest() method, finally block will be executed. When you have return statement in try block, JVM will take note of value of i and this value will be returned by exceptionTest method.
+
+</blockquote>
+
+</details>
+
+---
+
+42. Debug the error in the given below code:
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+```java
+
+public class Trycatch1{
+public static void start(){
+   System.out.println("Revature ");
+}
+
+public static void main(String args[]) {
+   try{
+      start();
+   }catch(IOException ioe){
+      ioe.printStackTrace();
+   }
+}
+}
+
+
+```
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The compiler will complain about the line where we are handling IOException, since IOException is a checked Exception and start() method doesn't throw IOException, so the compiler will flag error as "exception java.io.IOException is never thrown in body of corresponding try statement", but if you change IOException to Exception compiler error will disappear because Exception can be used to catch all RuntimeException which doesn't require a declaration in a throws clause.
+
+</blockquote>
+
+</details>
 	
+---
+
+43. What happens when JVM faces an exception in a program?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+When JVM faces an exception in a program, it creates an exception object and throws it to inform us that an error has occurred. If the exception object is not caught and handled properly, JVM will display an error message and will terminate the rest of the program abnormally.
+
+</blockquote>
+
+</details>
+	
+---
+
+44. What will happen to exception object after the exception handling is done?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Once exception handling is done, the exception object will be garbage collected.
+
+</blockquote>
+
+</details>
+	
+---
+
+45. Whether compile-time errors are exceptions?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Compile-time errors are not exceptions. They come under errors. In Java, only runtime errors come under exceptions.
+
+</blockquote>
+
+</details>
+	
+---
+	
+46. Whether the java compiler check Runtime exceptions at compilation?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Java compiler does not check runtime exception at compile time, the programmer has to handle it.
+
+</blockquote>
+
+</details>
+	
+---
+	
+47. What happens when runtime exception occurs in a program?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+When a runtime exception occurs in a method and the programmer does not handle it, JVM terminates program without the execution of the rest of the code.
+
+</blockquote>
+
+</details>
+	
+---
+	
+48.Predict the output in the given code:Assume that statement 2 arises an exception in the following statements. The exception object created is matched with argument of the catch block.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+```java
+
+try { 
+  statement 1; 
+  statement 2; 
+  statement 3; 
+} 
+catch(exception_class var) { 
+  statement 4; 
+} 
+statement 5;
+
+```
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+statement 1 will be executed normally.statement 4 inside catch block will be executed.
+
+</blockquote>
+
+</details>
+
+---
+
+49. Predict the output in the following code?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+```java
+
+public class Test {
+public static void main(String[] args) {
+ try {
+   int[ ] list = new int[10];
+   System.out.println("list[20] is " + list[20]);
+ }
+ catch (ArithmeticException ex) {
+    System.out.println("ArithmeticException");
+ }
+ catch (ArrayIndexOutOfBoundsException ae) {
+    System.out.println("ArrayIndexOutOfBoundsException");
+  }
+ catch (RuntimeException ex) {
+    System.out.println("RuntimeException");
+   }
+  }
+}
+
+```
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+ArrayIndexOutOfBoundsException.
+
+</blockquote>
+
+</details>
+
+---
+
+50. In what scenarios or conditions, a finally block will not be executed?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+When System.exit() method is invoked before executing finally block.When an exception happens in the finally block.
+
+</blockquote>
+
+</details>
+	
+----
+	
+
+
+
