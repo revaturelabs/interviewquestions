@@ -105,7 +105,8 @@
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-
+On a SPA, after the initial page load, no more HTML gets sent over the network. Instead, only data gets requested from the server (or sent to the server).
+	
 </blockquote>
 </details>
   
@@ -117,7 +118,8 @@
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 
-
+In a SPA, a page refresh never occurs; instead, all necessary HTML, JavaScript, and CSS code is either retrieved by the browser with a single page load,or the appropriate resources are dynamically loaded and added to the page as necessary, usually in response to user actions.
+	
 </blockquote>
 </details>
   
@@ -142,7 +144,8 @@
 	
 --- 
 	
-10. What do you choose between Traditional Web Apps and Single Page Apps
+10. What do you choose between Traditional Web Apps and Single Page Apps _or_ What do you choose between Multiple Page Apps and Single Page Apps
+	
 <details>
 <summary> <b>Show Answer</b></summary>
 <blockquote>
@@ -151,17 +154,19 @@ Choose based on the explanation given
 <details>
 <summary><b>Explanation</b></summary>
 	
-Use traditional web applications when:
+Use traditional web applications or MPA when:
 - Your application's client-side requirements are simple or even read-only.
 - Your application needs to function in browsers without JavaScript support.
 
 Use a SPA when:
 
 - Your application must expose a rich user interface with many features.
-- Your team is familiar with JavaScript, TypeScript, or Blazor WebAssembly development.
+- Your team is familiar with JavaScript, or TypeScript.
 - Your application must already expose an API for other (internal or public) clients.
 
-Additionally, SPA frameworks require greater architectural and security expertise.
+Both SPA and MPA are not flawless as they obviously have their pros and cons. SPA is the best choice if you care about** speed and code reusability** that can be applied to develop a **mobile app**. However, it has deficiencies in SEO optimization. MPAs win in case you strive to be **ranked higher in Google**, and it is more scalable but much slower than single-page applications.
+
+Choosing the best option, you should always have your business goals and requirements in mind.
 
 </blockquote> 
 </details>
@@ -245,11 +250,25 @@ On the other hand, a MPA (multiple page application) is considered a more tradit
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 	
-	
+- `ng` stands for A**ng**ular
 	
 </blockquote>
 </details>
 	
 --- 
 	
-17. 
+16. Can SPA have multiple pages?
+
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+	
+
+	
+</blockquote>
+</details>
+	
+--- 
+	
+18.
+
