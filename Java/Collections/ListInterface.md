@@ -20,7 +20,7 @@
 List <E> l ;
 ```
 
-- the above code represents List declaration, where E is an element ( type parameter).
+- The above code represents List declaration, where E is an element ( type parameter).
 </blockquote>
 </details>
 
@@ -35,21 +35,21 @@ List <E> l ;
 <summary><b>Show Answer</b></summary>
  <blockquote>
 
-Along with the operations inherited from the collection interface, the list has the following operations
-1. Positional Access: accessing an element by its index.
+Along with the operations inherited from the collection interface, the list has the following operations:
+1. Positional Access: Accessing an element by its index.
    
 - Insertion: `add` and `addAll` methods are used to insert elements into the collection.
 - Update: to update an existing element `set` is used.
 - deletion: `remove` is used to delete elements.
 
 
-2. Search: used to search the specific element and get the index of the element
+2. Search: Used to search the specific element and get the index of the element
 `indexOf` and `lastIndexOf` are Search methods.
 
-3. Iteration: used to iterate over a list as it is a sequential data structure.
+3. Iteration: Used to iterate over a list as it is a sequential data structure.
 `listIterator` is an Iteration method.
 
-4. Range-view: is used to get the subList of the list of a specific range.
+4. Range-view: Used to get the subList of the list of a specific range.
 `subList` method is a range-view method.
 
 
@@ -57,7 +57,7 @@ Along with the operations inherited from the collection interface, the list has 
 </details>
 
  ---
-3. What are the different classes that comes under the list interface?
+3. What are the different classes that comes under the list Interface?
  
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -71,7 +71,7 @@ Along with the operations inherited from the collection interface, the list has 
 
 
 
--  The following are the classes that implement List Interface.
+-  The following are the classes that implement List Interface:
 1. `ArrayList`
 2. `LinkedList`
 3. `Vector`
@@ -93,7 +93,7 @@ Along with the operations inherited from the collection interface, the list has 
 
 - `ArrayList` is a dynamic array and it implements the list interface.
 
-- internal working of `ArrayList`:
+- Internal working of `ArrayList`:
 
 - 1. Initially, an array of capacity 10 is created
 - 2. when elements are beyond the capacity i.e. 10 are added to the `ArrayList` ,there is a new array of size 
@@ -162,7 +162,7 @@ al.add(1);
 <summary><b>Show Answer</b></summary>
 
  <blockquote>
-1. addAll method is used to add bulk elements to the list.
+1. addall method is used to add bulk elements to the list.
 
 ``` java
 
@@ -228,11 +228,11 @@ al2.addAll(0,al2);
 > -  `Stack` follows the Last in First out principle
 >-  `Stack` extends Vector and it has five additional operations, which are:
 > 
-> 1. `push(element)`: adds elements to the top of the stack and returns the element.
-> 2. `pop()`: deletes the top element of the stack and returns that element, throws EmptyStackException if the stack is empty.
-> 3. `peek()`: returns the topmost element of the stack, and throws EmptyStackException if the stack is empty. 
-> 4. `empty()`: returns a boolean value. returns true if the stack is empty and false if the stack is not empty.
-> 5. `Search(element)`: this method returns the distance of the element from the top of the stack, the distance for the top element is 1. is the element is not present it returns -1.
+> 1. `push(element)`: Adds elements to the top of the stack and returns the element.
+> 2. `pop()`: Deletes the top element of the stack and returns that element, throws EmptyStackException if the stack is empty.
+> 3. `peek()`: Returns the topmost element of the stack, and throws EmptyStackException if the stack is empty. 
+> 4. `empty()`: Returns a boolean value. returns true if the stack is empty and false if the stack is not empty.
+> 5. `Search(element)`: This method returns the distance of the element from the top of the stack, the distance for the top element is 1. is the element is not present it returns -1.
 
 </details>
 
@@ -252,7 +252,7 @@ al2.addAll(0,al2);
 > 
 > <i><b>Note:</b> 
 > - constant access: The time complexity is directly proportional to a constant value and is in no way related to the size of the data structure.
-> - linear access: the time complexity is proportional to the size of the data structure.
+> - linear access: The time complexity is proportional to the size of the data structure.
 
 </i> 
 <blockquote>
