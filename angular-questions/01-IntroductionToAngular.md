@@ -410,7 +410,7 @@ Before installing Angular CLI, make sure the development environment includes No
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 
-The `ng serve` command launches the server on HTTP port 4200, which watches our files and rebuilds the app as we make changes to those files. The --open (or just -o) option automatically opens the browser to [http://localhost:4200] (http://localhost:4200).
+The `ng serve` command launches the server on HTTP port 4200, which watches our files and rebuilds the app as we make changes to those files. The --open (or just -o) option automatically opens the browser to [http://localhost:4200](http://localhost:4200).
 	
 </blockquote>
 </details>
@@ -483,7 +483,55 @@ Then `npm start` will run `ng serve`.
 --- 
 	
 30. What kind of files we can find on _e2e_ folder and node_modules folder?
-31. What are files we can find under src folder?
-What is the difference between angular.json and package.json file?
-What is the difference between package.json and package-lock.json files?
+
+
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+
+The _e2e_ folder at the top level contains source files for a set of end-to-end tests and test-specific configuration files. The _node_modules_ folder provides npm packages to the entire workspace.
 	
+</blockquote>
+</details>
+	
+--- 
+	
+31. What are files we can find under _src_ folder?
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+	
+The _src_ folder contains the source files which give information about application logic, data, and assets. It has
+
+</blockquote>
+</details>
+	
+--- 
+32. What is the difference between `angular.json` and `package.json` file?
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+
+angular.json - holds CLI configuration defaults for all projects in the workspace. It includes configuration options for the build, serve, and test tools.
+	
+package.json - used to configure npm package dependencies that are available to all projects in the workspace.
+
+</blockquote>
+</details>
+	
+--- 
+33. What is the difference between `package.json` and `package-lock.json` files?
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+
+package.json - used to configure npm package dependencies that are available to all projects in the workspace.
+
+package-lock.json - this provides version information for all packages installed into node_modules by the npm client.
+	
+</blockquote>
+</details>
+	
+--- 
+	
+34. 
