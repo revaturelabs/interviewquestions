@@ -263,5 +263,308 @@ System.out.println("Division by zero.");
 
 ---
 
+16.Define try-with resource. How can you say that it differs from an ordinary try?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The try-with-resources statement is a try statement that declares one or more resources. The resource is as an object that must be closed after finishing the program. The try-with-resources statement ensures that each resource is closed at the end of the statement execution.You can pass any object that implements java.lang.AutoCloseable, which includes all objects which implement java.io.Closeable.The following example writes a string into a file. It uses an instance of FileOutputStream to write data into the file. FileOutputStream is a resource that must be closed after the program is finished with it. So, in this example, closing of resource is done by itself try.
+
+```java 
+
+import java.io.*;    
+
+public class TryWithResources {    
+
+public static void main(String args[]){    
+  
+try(FileOutputStream fileOutputStream =newFileOutputStream("/Textfiles/abc.txt")){    
+  
+String msg = "REVATURE!";      
+
+byte byteArray[] = msg.getBytes(); 
+
+fileOutputStream.write(byteArray);  
+
+System.out.println("Message written to file successfuly!");  
+    
+}catch(Exception exception){  
+
+       System.out.println(exception);  
+}      
+}      
+}    
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+17.Can we throw an exception explicitly or manually?explain with an example?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+we can throw a user defined exception or, a predefined exception explicitly using the throw keyword.There are two types of exceptions user defined and predefined each exception is represented by a class and which inherits the Throwable class.To throw an exception explicitly you need to instantiate the class of it and throw its object using the throw keyword.
+
+```java
+
+public class ExceptionExample {
+   public static void main(String[] args) {
+      System.out.println("Hello");
+      NullPointerException nullPointer = new NullPointerException();
+      throw nullPointer;
+   }
+}
+Output
+Hello
+Exception in thread "main" java.lang.NullPointerException
+   at MyPackage.ExceptionExample.main(ExceptionExample.java:6)
+
+```
+
+Whenever you throw an exception explicitly you need to make sure that the line with throw keyword is the last line of the program. This is because any code written after it is unreachable code and if you still have code snippets below this line a compile time error will be generated.
+
+```java
+
+Example
+public class ExceptionExample {
+   public static void main(String[] args) {
+      System.out.println("Hello");
+      NullPointerException nullPointer = new NullPointerException();
+      throw nullPointer;
+      System.out.println("How are you");
+   }
+}
+Compile time error
+D:\>javac ExceptionExample.java
+ExceptionExample.java:6: error: unreachable statement
+   System.out.println("How are you");
+   ^
+1 error
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+18.Describe OutofMemoryError in exception handling?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The OutofMemoryError  is thrown when there is insufficient space to allocate an object in the Java heap. In this case, The garbage collector cannot make space available to accommodate a new object, and the heap cannot be expanded further. Also, this error may be thrown when there is insufficient native memory to support the loading of a Java class. In a rare instance, a java.lang.OutOfMemoryError may be thrown when an excessive amount of time is being spent doing garbage collection and little memory is being freed.
+
+</blockquote>
+
+</details>
+
+---
+
+19.Explain with an example for  unchecked exception.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+```java
+
+class Example {  
+   public static void main(String args[]) {
+	try{
+	   int arr[] ={1,2,3,4,5};
+	   System.out.println(arr[7]);
+	}
+        catch(ArrayIndexOutOfBoundsException e){
+System.out.println("The specified index does not exist " +"in array. Please correct the error.");
+	}
+   }
+}
+
+```
+</blockquote>
+
+</details>
+
+---
+
+20.Is it illegal to keep an empty catch?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Yes, we can have an empty catch block. But this is a bad practice to implement in Java.The try block has the code which is capable of producing exceptions, if anything wrong in the try block, for instance, divide by zero, file not found, etc. It will generate an exception that is caught by the catch block. The catch block catches and handles the exception. If the catch block is empty then we will have no idea what went wrong within our code.
+</blockquote>
+
+</details>
+
+---
+
+21.Can checked exceptions occur at compiled time?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+A checked exception is an exception that occurs at the compile time, these are also called as compile time exceptions. These exceptions cannot simply be ignored at the time of compilation, the programmer should take care of (handle) these exceptions. For example, if you use FileReader class in your program to read data from a file, if the file specified in its constructor doesn't exist, then a FileNotFoundException occurs, and the compiler prompts the programmer to handle the exception.
+
+</blockquote>
+
+</details>
+
+---
+
+22.In which situation will you not be able to execute the finally block?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+We cannot say the finally block is always executes because sometimes if any statement like 
+System.exit() or some similar code is written into try block then program will automatically terminate and the finally block will not be executed in this case.A finally block will not execute due to other conditions like when JVM runs out of memory when our java process is killed forcefully from task manager or console when our machine shuts down due to power failure and deadlock condition in our try block.
+
+</blockquote>
+
+</details>
+
+---
+
+23.Is it possible to throw a statement inside a static block?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+We cannot use throws keyword with a static block, and more over a static block is invoked at compile time (at the time of class loading) no method invokes it. If you throw an exception using the throw keyword in a static block you must wrap it within try-catch blocks else a compile time error will be generated.
+
+</blockquote>
+
+</details>
+
+---
+
+24.How rethrowing is done in exception handling?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+If a catch block cannot handle the particular exception it has caught, we can rethrow the exception. The rethrow expression causes the originally thrown object to be rethrown.Because the exception has already been caught at the scope in which the rethrow expression occurs, it is rethrown out to the next enclosing try block. Therefore, it cannot be handled by catch blocks at the scope in which the rethrow expression occurred. Any catch blocks for the enclosing try block have an opportunity to catch the exception.
+
+```java
+
+public class RethrowException {
+   public static void test1() throws Exception {
+      System.out.println("The Exception in test1() method");
+      throw new Exception("thrown from test1() method");
+   }
+   public static void test2() throws Throwable {
+      try {
+         test1();
+      } catch(Exception e) {
+         System.out.println("Inside test2() method");
+         throw e;
+      }
+   }
+   public static void main(String[] args) throws Throwable {
+      try {
+         test2();
+      } catch(Exception e) {
+         System.out.println("Caught in main");
+      }
+   }
+}
+
+Output
+The Exception in test1() method
+Inside test2() method
+Caught in main
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+25.How can you handle a chained exception?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The chained exception feature allows you to associate another exception with an exception. This second exception describes the cause of the first exception. For example,imagine a situation in which a method throws an ArithmeticException because of an attempt to divide by zero. However, the actual cause of the problem was that an I/O error occurred,which caused the divisor to be set improperly. Although the method must certainly throw an ArithmeticException, since that is the error that occurred, you might also want to let the calling code know that the underlying cause was an I/O error.
+
+</blockquote>
+
+</details>
+
+---
+
+26.Explain the methods in the throwable class.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+  `Throwable fillInStackTrace ()`- Fills in the execution stack trace.
+	
+  `Throwable getCause ()` - Returns the cause of this throwable or null if the cause is nonexistent or unknown.
+	
+  `String getLocalizedMessage ()` - Creates a localized description of this throwable.
+	
+  `String getMessage ()` - Returns the detail message string of this throwable.
+	
+  `StackTraceElement []	getStackTrace ()` - Provides programmatic access to the stack trace information printed by printStackTrace() .
+	
+  `Throwable initCause ( Throwable  cause)` - Initializes the cause of this throwable to the specified value.
+	
+ `void printStackTrace ()` - Prints this throwable and its backtrace to the standard error stream.
+	
+ `void printStackTrace ( PrintStream  s)` - Prints this throwable and its backtrace to the specified print stream.
+	
+ `void printStackTrace ( PrintWriter  s)` - Prints this throwable and its backtrace to the specified print writer.
+	
+ `void setStackTrace ( StackTraceElement [] stackTrace)` - Sets the stack trace elements that will be returned by getStackTrace() and printed by printStackTrace() and related methods.
+	
+ `String toString ()` - Returns a short description of this throwable.
+
+</blockquote>
+
+</details>
+
 
 
