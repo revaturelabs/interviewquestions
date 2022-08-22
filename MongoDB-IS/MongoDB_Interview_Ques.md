@@ -5,7 +5,7 @@
 
 <details><summary> <b>Show Answer</b> </summary> 
   
-`MongoDB`,  by-default, does not support primary and foreign key relationship. But we can achieve it by embedding one document inside another one. For example, embedding 'city' document inside 'address' document. 
+> `MongoDB`,  by-default, does not support primary and foreign key relationship. But we can achieve it by embedding one document inside another one. For example, embedding 'city' document inside 'address' document. 
 </details>
 
 ---
@@ -13,7 +13,7 @@
 2. Using the Aggregate function ‘$avg’ write a MongoDB query.
 <details><summary> <b>Show Answer</b> </summary> 
  
-`db.student.aggregate([{$group : {_id:null, Average_marks : {$avg : "marks"}}}])`. Here we are getting average of the marks field in student collection.
+> `db.student.aggregate([{$group : {_id:null, Average_marks : {$avg : "marks"}}}])`. Here we are getting average of the marks field in student collection.
 </details>
 
 ---
@@ -22,7 +22,7 @@
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-`db.student.aggregate([{$group : {_id:null, Average_marks : {$sum : "marks"}}}])`. Here we are getting sum of the marks field in student collection.
+> `db.student.aggregate([{$group : {_id:null, Average_marks : {$sum : "marks"}}}])`. Here we are getting sum of the marks field in student collection.
   </details>
  
  ---
@@ -31,7 +31,7 @@
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-In `db.collection_name.find({ "school.student": "Jack"})` query, "school" is a outer document field and "student" is a inner document field.  
+> In `db.collection_name.find({ "school.student": "Jack"})` query, "school" is a outer document field and "student" is a inner document field.  
 
 </details>
 
@@ -40,11 +40,11 @@ In `db.collection_name.find({ "school.student": "Jack"})` query, "school" is a o
 5. When creating a database in MongoDB, if you are getting "could not connect to the server" error, then what steps you will follow to resolve that error. 
 <details><summary> <b>Show Answer</b> </summary> 
 
-To resolve the "could not connect to the server" error, we can take few measures like:
-1. We must ensure that we put correct hostname and port number. 
-2. If any firewall is blocking your port connection, uninstall that firewall or try to connect from different server.
-3. Must ensure that your MongoDB instance is running in the background.
-4. If server is shutdown then i will start the server again.
+> To resolve the "could not connect to the server" error, we can take few measures like:
+> 1. We must ensure that we put correct hostname and port number. 
+> 2. If any firewall is blocking your port connection, uninstall that firewall or try to connect from different server.
+> 3. Must ensure that your MongoDB instance is running in the background.
+> 4. If server is shutdown then i will start the server again.
 </details>
  
 ---
@@ -52,7 +52,8 @@ To resolve the "could not connect to the server" error, we can take few measures
 6. Suppose you are collaborating with your team on “ABC” database which have some data inside it. How can you make sure that if someone by mistake deletes the “ABC” database, you can still have a backup of that database. 
 <details><summary> <b>Show Answer</b> </summary> 
 
-To make sure that we have a backup of our database, we can use the `mongodump` command that will store our data in a backup file. For that, we just have to write `mongodump --db database_name -- collection collection_name`.    
+> To make sure that we have a backup of our database, we can use the `mongodump` command that will store our data in a backup file. For that, we just have to write `mongodump --db database_name -- collection collection_name`.  
+   
 To import again the backup file in Mongodb we can use the mongorestore command:     
 `mongorestore --db database_name path_of_file`  
 
@@ -61,11 +62,11 @@ To import again the backup file in Mongodb we can use the mongorestore command:
 
 ---
 
-7.  What insert() method returns after successfully inserting a document into a collection.
+7.  What `insert()` method returns after successfully inserting a document into a collection.
 
 <details><summary> <b>Show Answer</b> </summary> 
   
-It returns an object that contains the information about the operation. It returns a `WriteResult` object when we insert a single document and `BulkWriteResult` object when we insert more than one document in a single insert query.
+> It returns an object that contains the information about the operation. It returns a `WriteResult` object when we insert a single document and `BulkWriteResult` object when we insert more than one document in a single insert query.
 </details>
 
 ---
@@ -73,7 +74,7 @@ It returns an object that contains the information about the operation. It retur
 8.  When a person inserts a document into collection, MongoDB automatically creates an `_id` field which acts as a primary key for that data, then how can we set one of our fields as primary key in MongoDB if we want? 
 <details><summary> <b>Show Answer</b> </summary> 
 
-The `_id` field is the default primary key in `MongoDB` and it is reserved , we cannot create any other primary key but, we can put the data that we want to be unique into the `_id` field of the document. 
+> The `_id` field is the default primary key in `MongoDB` and it is reserved , we cannot create any other primary key but, we can put the data that we want to be unique into the `_id` field of the document. 
 </details>
 
 --- 
@@ -97,6 +98,7 @@ db.createCollection("Department");
 ```
 use employee;
 db.emp.update({"name": "Jack"}, {$inc: {"salary": 1000}});
+```
 </details>
 
 --- 
@@ -105,7 +107,7 @@ db.emp.update({"name": "Jack"}, {$inc: {"salary": 1000}});
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-The `update()` method is used to update the existing document values in MongoDB without creating a new document. Whereas, `save()` method is used to replace the existing document with the document passed in the `save()` method. 
+> The `update()` method is used to update the existing document values in MongoDB without creating a new document. Whereas, `save()` method is used to replace the existing document with the document passed in the `save()` method. 
 </details>
 
 ---
