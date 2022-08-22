@@ -161,7 +161,7 @@ db.emp.find({name: /A/});
   
 > The update() method can update the multiple documents at a time, whereas the findAndModify() method, by default, can update the single document at a time.   
   
-> The update() method doesnot return any document after updation, whereas the findAndModify() method returns the pre-modified document.
+> The update() method does not return any document after updation, whereas the findAndModify() method returns the pre-modified document.
 </details>
 
 ---
@@ -192,34 +192,44 @@ db.collection_name.find({ $and: [{"age": {$gt: 25}}, {"experience": {$gte: 3}}]}
 19. What is the difference between findOneAndReplace() and findOneAndUpdate() in MongoDB?
 <details><summary> <b>Show Answer</b> </summary> 
 
-> The `findOneAndUpdate()` will update the fields of the document that are passed in the query. whereas the `findOneAndReplace()` will update the fields of the document that are passed in the query but also replaces the fields of the documents that are not passed to it in query.
+> The `findOneAndUpdate()` will update the fields of the document that are passed in the query. whereas the `findOneAndReplace()` will not only update the fields of the document that are passed in the query but also replaces or deletes the fields of the documents that are not passed to it in query.
  
 </details>
 
 ---
-20. Differentiate between findOneAndReplace() and replaceOne() in MongoDB?
+20. Differentiate between `findOneAndReplace()` and `replaceOne() in MongoDB?
 
 <details><summary> <b>Show Answer</b> </summary> 
-  
+
+> Both `findOneAndReplace()` and `replaceOne()` in MongoDB is used to replace the document's fields based on filter criteria, but the main difference between both is that `findOneAndReplace()` returns a pre-modified document by default whereas `replaceOne()` doesn't return any document. 
 </details>
 
 ---
 
 21. Imagine you are working on “Company” database having “Dept” as collection and inside your collection there are millions of documents and your boss is asking for some data from it, then what sort of practice you will do to increase the query performance and fast retrieval of data. 
 <details><summary> <b>Show Answer</b> </summary> 
-  
+
+> There are few practices that one can follow to increase the query performance and fast retrieval of data:  
+> 1. We can create and use the indexes on the fields that are frequently being a part of query.   
+> 2. While doing the find(), we can use projection to select only those fields that are required in the result.   
+> 3. We can also use the limit() method to limit the data that we want in our result.   
+
 </details>
 
 ---
 22. Consider your documents have some array fields and you want to create an index on it. Is it possible in MongoDB? 
 <details><summary> <b>Show Answer</b> </summary> 
-  
+ 
+> Yes, it is possible to create index on an array field. MongoDB automatically creates the multikey index for each value of an array.  For example, let’s take an array field which holds the values as address : [ "NY", "MIAMI","TEXAS"], we can create an index on that like:    
+`db.collection_name.createIndex({“address” : 1})`
+
 </details>
 
 ---
 23. What sort of practice you will take as a developer to increase the availability of data in MongoDB when there is a routine maintenance check or system failure?
 <details><summary> <b>Show Answer</b> </summary> 
 
+> 
 </details>
 
 ---
@@ -227,20 +237,27 @@ db.collection_name.find({ $and: [{"age": {$gt: 25}}, {"experience": {$gte: 3}}]}
 24. What query do you write to get employee details in “emp” collection where “job_role” matches “Technical Specialist” and  “emp_age” is between 22 and 28? 
 
 <details><summary> <b>Show Answer</b> </summary> 
-  
+
+> 
+```
+db.emp.find({$and: [{"job_role":"Technical Specialist"}, {"emp_age": {$gte: 22 , $lte: 28}}]});
+```
 </details>
 
 ---
 
-25. An intern in your company is asking for your help to fetch the records of “department” that belongs to “product”, but “type” should not equal to “A” and whenever the “type” is equal to “A”, the “department” should not equal to “product”. Here is the collection he is using to fetch the data:
-{ "department" : "product", "type" : "A" }
-{ "department " : "training", "type" : "A" }
-{ “department " : "product", "type" : "B" }
-{ "department " : "finance", "type" : "C" }	
-Help him to write a query that will produce the output as: 
-{ "department " : "training", "type" : "A" }
-{ “department " : "product", "type" : "B" } 
-
+25. An intern in your company is asking for your help to fetch the records of “department” that belongs to “product”, but “type” should not equal to “A” and whenever the “type” is equal to “A”, the “department” should not equal to “product”. Here is the collection he is using to fetch the data:  
+```
+{ "department" : "product", "type" : "A" }  
+{ "department " : "training", "type" : "A" }  
+{ “department " : "product", "type" : "B" }  
+{ "department " : "finance", "type" : "C" }  
+```
+Help him to write a query that will produce the output as:   
+```
+{ "department " : "training", "type" : "A" }  
+{ “department " : "product", "type" : "B" }   
+```
 <details><summary> <b>Show Answer</b> </summary> 
  
 </details>
