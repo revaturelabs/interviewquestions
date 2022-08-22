@@ -78,4 +78,10 @@
 132. How do you build angular routing guards?
 133. What is the purpose `routerLink` attributes and `<routeroutlet>`?
 134. Where you define the routes in the Angular application?
+135. List some of the interfaces used in routing guards?
+136. How do you create routing guard?
+137. Why Guards in angular?
+138. What is the use of routing guards?
+139. How do you build Angular Route Guards?
+140. In which order routing guards execution?
 
