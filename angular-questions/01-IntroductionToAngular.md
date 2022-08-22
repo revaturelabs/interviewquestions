@@ -176,13 +176,80 @@ Additionally, SPA frameworks require greater architectural and security expertis
 	
 A SPA is an app that works inside a browser and does not require page reloading during use.
 
-On the other hand, a MPA (multiple page application) is considered a more classical approach to app development. The multi-page design pattern requires a page reload every time the content changes. It’s a preferred option for large companies with extensive product portfolios, such as e-commerce businesses.	
+On the other hand, a MPA (multiple page application) is considered a more traditional approach to app development. The multi-page design pattern requires a page reload every time the content changes. It’s a preferred option for large companies with extensive product portfolios, such as e-commerce businesses.	
 	
 </blockquote> 
 </details>
 
 ---
 
-12. 
+12. Difference between Angular JS and Angular 4 +
+
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+
+| **Angular JS**                                                                                     | **Angular 4**                                                                                                                    |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Uses MVC architecture to build the applications.                                                   | Uses component-based UI to build the applications.                                                                               |
+| AngularJS is written in JavaScript.                                                                | Angular is compatible with the most recent versions of TypeScript that have powerful type checking and object-oriented features. |
+| To bind an image/property or an event with AngularJS, you have to remember the right ng directive. | Angular focuses on “()” for event binding and “\[ \]” for property binding.                                                      |
+| AngularJS doesn't support mobiles.                                                                 | Angular support mobiles.                                                                                                         |
+
+</blockquote>
+
+</details>
+	
+--- 
+
+13. Difference between Angular 2 and Angular 4
+
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+
+| **Angular 2**                                                                      | **Angular 4**                                                                                       |
+| ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| Angular v2.0 uses Typescript, superset of JavaScript, for writing the application. | Angular v4.0 serves to be compatible with the new version of TypeScript 2.1 as well TypeScript 2.2. |
+| Code is not Reduced much                                                           | Reduce the size of the generated bundled code up to 60%                                             |
+
+
+
+</blockquote>
+
+</details>
+	
+--- 
+
+14. What are some common Angular CLI commands?
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+	
+- `ng  new MyApp` – used to create an angular application named ‘MyApp’
+- `ng new MyApp  --routing`  - used to create an angular application named ‘MyApp’ with the routing module
+- `ng g c first` – used to create component named ‘first’
+- `ng g p changePipe` – used to create pipe named `changePipe’
+- `ng g s user` -  used to create service named ‘user’
+- `ng serve` – used to build, run and launch application on HTTP port 4200
+- `ng serve -o` -  used to build, run and launch application on HTTP port 4200, -o option automatically opens the browser to [ http://localhost:4200]( http://localhost:4200)
+	
+</blockquote>
+</details>
+	
+--- 
+	
+15. What `ng` means?
+
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
 	
 	
+	
+</blockquote>
+</details>
+	
+--- 
+	
+17. 
