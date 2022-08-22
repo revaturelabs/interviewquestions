@@ -155,9 +155,10 @@ In a SPA, a page refresh never occurs; instead, all necessary HTML, JavaScript, 
 <blockquote>
 Choose based on the explanation given
 </blockquote> 
+	
 <details>
 <summary><b>Explanation</b></summary>
-	
+<blockquote>	
 Use traditional web applications or MPA when:
 - Your application's client-side requirements are simple or even read-only.
 - Your application needs to function in browsers without JavaScript support.
