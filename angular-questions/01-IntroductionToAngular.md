@@ -168,7 +168,7 @@ Use a SPA when:
 - Your team is familiar with JavaScript, or TypeScript.
 - Your application must already expose an API for other (internal or public) clients.
 
-Both SPA and MPA are not flawless as they obviously have their pros and cons. SPA is the best choice if you care about** speed and code reusability** that can be applied to develop a **mobile app**. However, it has deficiencies in SEO optimization. MPAs win in case you strive to be **ranked higher in Google**, and it is more scalable but much slower than single-page applications.
+Both SPA and MPA are not flawless as they obviously have their pros and cons. SPA is the best choice if you care about **speed and code reusability** that can be applied to develop a **mobile app**. However, it has deficiencies in SEO optimization. MPAs win in case you strive to be **ranked higher in Google**, and it is more scalable but much slower than single-page applications.
 
 Choosing the best option, you should always have your business goals and requirements in mind.
 
