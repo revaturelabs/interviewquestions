@@ -139,7 +139,7 @@ db.collection_name.update({name:"Henry"}, {$set: {dept: "HR"}},{upsert:true})
 
 > 
 ```
-db.emp.update({}, {$unset: {"age": 1}}, {multi: true})
+db.emp.update({}, {$unset: {"age": 1}}, {multi: true});
 ```
 </details>
 
@@ -150,7 +150,7 @@ db.emp.update({}, {$unset: {"age": 1}}, {multi: true})
  
 >
 ```
-db.emp.find({name: /A/})
+db.emp.find({name: /A/});
 ```
 </details>
 
@@ -159,27 +159,41 @@ db.emp.find({name: /A/})
 16. State the difference between update() and findAndModify() method in MongoDB.
 <details><summary> <b>Show Answer</b> </summary> 
   
-> 
+> The update() method can update the multiple documents at a time, whereas the findAndModify() method, by default, can update the single document at a time.   
+  
+> The update() method doesnot return any document after updation, whereas the findAndModify() method returns the pre-modified document.
 </details>
 
 ---
 
 17. Suppose you have a “Company” database and “emp” collection inside that database then how do you find the records of top 5 employees based on salary field?
 <details><summary> <b>Show Answer</b> </summary> 
-  
+
+> To find the top 5 records, we can use the sort() and limit() method along with find().  
+   
+```
+db.emp.find({}).sort({"salary":-1}).limit(5)
+```
+
 </details>
 
 ---
 
-18. Write a query to get all the records of employee whose “age” is greater than 25 and “experience” greater or equal to 3 years. [collection name is “emp”]. 
+18. Write a query to get all the records of employee whose “age” is greater than 25 and “experience” greater or equal to 3 years. 
 <details><summary> <b>Show Answer</b> </summary> 
   
+> 
+```
+db.collection_name.find({ $and: [{"age": {$gt: 25}}, {"experience": {$gte: 3}}]})
+```
 </details>
 
 ---
 19. What is the difference between findOneAndReplace() and findOneAndUpdate() in MongoDB?
 <details><summary> <b>Show Answer</b> </summary> 
 
+> The `findOneAndUpdate()` will update the fields of the document that are passed in the query. whereas the `findOneAndReplace()` will update the fields of the document that are passed in the query but also replaces the fields of the documents that are not passed to it in query.
+ 
 </details>
 
 ---
