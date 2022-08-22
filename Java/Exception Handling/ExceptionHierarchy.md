@@ -131,7 +131,7 @@ java.lang.ArrayIndexOutOfBoundsException
 
 <details><summary><b> Show Answer</b></summary>
 	
->The chained exception feature allows you to associate another exception with an exception.This second exception describes the cause of the first exception. For example,In a situation where a method throws an ArithmeticException because of an attempt to divide by zero. However, the actual cause of the problem was that an I/O error occurred, which caused the divisor to be set improperly. Although the method must certainly throw an ArithmeticException, since that is the error that occurred, you might also want to let the calling code know that the underlying cause was an I/O error. Chained exceptions let you handle this, and any other situation in which layers of exceptions exist.
+>The chained exception feature allows you to associate another exception with an exception.This second exception describes the cause of the first exception. For example,In a situation where a method throws an Arithmetic Exception because of an attempt to divide by zero. However, the actual cause of the problem was that an I/O error occurred, which caused the divisor to be set improperly. Although the method must certainly throw an ArithmeticException, since that is the error that occurred, you might also want to let the calling code know that the underlying cause was an I/O error. Chained exceptions let you handle this, and any other situation in which layers of exceptions exist.
 	
 </details>
 
