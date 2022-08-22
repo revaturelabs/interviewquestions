@@ -773,4 +773,152 @@ finally
 ---
 
 
+32.Can we throw any Exception inside a Lambda Expression’s Body?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+When using a standard functional interface already provided by Java, you can only throw unchecked exceptions because standard functional interfaces do not have a "throws" clause in its method signatures.
+
+```java
+
+List<Integer> i1= Arrays.asList(5, 10, 15, 0, 25, 20);
+
+integers.forEach(i -> {
+	 if (i == 0) {
+			 throw new IllegalArgumentException("Zero not allowed");
+			}
+				System.out.println(Math.PI / i);});
+
+```
+
+</blockquote>
+
+</details>
+	
+---
+	
+33.Suppose if there is a catch block corresponding to a try block with three statements – statement1, statement2, and statement3. Assume that exception is thrown in statement2. Does statement3 get executed?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Statement3 will not get executed because once a try block throws an exception, remaining statements will not be executed.
+
+</blockquote>
+
+</details>
+
+---
+	
+34.Why do you use the ‘throws’ keyword in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+If it is possible for a method to throw an exception if it could not be handled, it should specify that exception using the 'throws' keyword. It will be helpful to the caller functions of that method in handling that exception. The syntax for using the 'throws' keyword is,
+
+```java
+
+return_type method_name(parameter_list) throws exception_list{
+
+     //code
+
+}
+
+```
+Here, exception_list is the list of exceptions which may be thrown by the method. These exceptions should be separated by commas. An example of the code : 
+
+```java
+
+public class ExceptionHandling{
+    public static void main(String[] args){
+        try{
+            methodWithThrows();
+        }
+        catch(NullPointerException ex){
+
+    System.out.println("NullPointerException thrown by methodWithThrows() method will be caught here ");
+        }
+
+    }
+    static void methodWithThrows() throws NullPointerException{
+        String s = null;
+        System.out.println(s.length()); //This statement throws NullPointerException
+    }
+}
+
+```
+
+</blockquote>
+
+</details>
+	
+---
+	
+35.Debug the error in the below code:
+	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+```java
+
+import java.io.*;
+public class ExceptionExample {
+	public static void main(String[] args) {
+		try {
+			test();
+		} catch (FileNotFoundException | IOException e) {
+			e.printStackTrace();
+		}
+	}
+public static void test() throws IOException, FileNotFoundException{
+	}
+}
+
+```
+
+
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The above program won’t compile and you will get an error message as “The exception FileNotFoundException is already caught by the alternative IOException. This is because FileNotFoundException is a subclass of IOException, there are two ways to solve this problem. 
+The first way is to use a single catch block for both the exceptions.
+
+```java
+
+		try {
+			test();
+		}catch(FileNotFoundException e){
+			e.printStackTrace();
+		}catch (IOException  e) {
+			e.printStackTrace();
+		}
+```
+
+Another way is to remove the FileNotFoundException from the multi-catch block.
+
+```java
+
+		try {
+			test();
+		}catch (IOException  e) {
+			e.printStackTrace();
+		}
+
+```
+
+</blockquote>
+
+</details>
+	
