@@ -99,7 +99,7 @@ public class Main {
  
  ---
 
-5. Write a program to traverse any collection using an iterator.
+5. Write a program to traverse any collection using an Iterator.
    
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
