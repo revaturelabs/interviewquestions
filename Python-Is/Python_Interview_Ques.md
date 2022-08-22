@@ -416,7 +416,7 @@ print ("Reverse is", x[ :: -1] )
 - In Python a generator is a special type of function which does not return a single value, instead it returns an iterator object with a sequence of values.In a generator function, a yield statement is used rather than a return statement.
 - The difference is that while a return statement terminates a function entirely, yield statement pauses the function saving all its states and later continues from there on successive calls.
   
-<deatails>
+</details>
   
   ---
   
