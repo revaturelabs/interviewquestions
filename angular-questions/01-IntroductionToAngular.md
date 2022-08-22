@@ -343,11 +343,27 @@ Drawbacks:
 - In our web application, we use many javascript files that are added into the HTML pages via `<script>` tags.  For each user request, the browser loads these bunch of script files inside the HTML page. This is inefficient as it reduces the page speed since the browser requests each script file separately.
 - This can be solved by **bundling** several files together into one file to be downloaded by the browser in one single request.
 - **Module bundlers** are used to bundle a group of JavaScript modules with their dependencies and merge them into a single file in the correct order, which can be executed by the browser.
-- **Webpack** is a powerful static module bundler for JavaScript applications that packages all modules in our application into a bundle and serves it to the browser.
+- **Webpack** is a powerful static module bundler for JavaScript applications that packages all modules in our application into a bundle and serves it to the browser. Webpack builds a dependency graph when it processes the application. 
 		
 </blockquote>
 </details>
 	
 --- 
 	
-21. 
+21. Webpack builds a dependency graph. What does that mean?
+
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+
+- Any time one file depends on another, webpack treats this as a dependency. This allows webpack to take images or web fonts, and also provide them as dependencies for your application.
+
+- When webpack processes your application, it starts from a list of modules defined on the command line or in its configuration file. Starting from these entry points, webpack recursively builds a dependency graph that includes every module your application needs, then bundles all of those modules into a small number of bundles - often, only one - to be loaded by the browser.
+		
+</blockquote>
+</details>
+	
+--- 
+
+22. 
+	
