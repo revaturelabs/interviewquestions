@@ -7,7 +7,7 @@
 <blockquote>
 
 - `Map` is an object that stores key and value pairs.
-- `Map` doesn't store duplicate values and one key can have at most one value
+- `Map` doesn't store duplicate values and one key can have at most one value.
 
 </blockquote>
 
