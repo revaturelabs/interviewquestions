@@ -317,7 +317,7 @@ Drawbacks:
 [Angular versioning and releases](https://angular.io/guide/releases)
 	
 </blockquote>
-</details>
+</details> </details>
 	
 --- 
 	
