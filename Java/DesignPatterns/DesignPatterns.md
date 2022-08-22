@@ -210,7 +210,7 @@ class Singleton1{
 	
 <details><summary><b> Explanation</b></summary>
 
->we create the instance of the class at the time of declaring the static data member.So,instance of the class is created at the time of classloading.
+>We create the instance of the class at the time of declaring the static data member.So,instance of the class is created at the time of classloading.
 
 </details>
 </details>
@@ -265,7 +265,7 @@ class Lazy{
 	
 <details><summary><b> Explanation</b></summary>
 
->we create the instance at the request time.
+>We create the instance at the request time.
 	
 </details>
 </details>
@@ -319,7 +319,7 @@ class DiffBank extends Bank1{
 	
 <details><summary><b> Explanation</b></summary>
 
->we create a concrete classes DiffBank and abstract classes  for Loan and Bank1 and inherited the classes.
+>We create a concrete classes DiffBank and abstract classes  for Loan and Bank1 and inherited the classes.
 	
 </details>
 </details>
