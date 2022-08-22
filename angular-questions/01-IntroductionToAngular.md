@@ -93,7 +93,11 @@
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-  
+Yes, used Angular.
+	
+- Angular written using TypeScript
+- Angular uses Databinding and Routing
+- Angular uses Jasmine testing framework
 
 </blockquote>
 </details>
@@ -218,8 +222,6 @@ On the other hand, a MPA (multiple page application) is considered a more tradit
 | Angular v2.0 uses Typescript, superset of JavaScript, for writing the application. | Angular v4.0 serves to be compatible with the new version of TypeScript 2.1 as well TypeScript 2.2. |
 | Code is not Reduced much                                                           | Reduce the size of the generated bundled code up to 60%                                             |
 
-
-
 </blockquote>
 
 </details>
@@ -257,18 +259,64 @@ On the other hand, a MPA (multiple page application) is considered a more tradit
 	
 --- 
 	
-16. Can SPA have multiple pages?
+16. List drawbacks and benfits of MPA _or_ List the advantages and disadvantages of MPA
 
 <details>
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 	
+Benefits:
+- Performs well on the search engine.
+- Provides a visual map of the web app to the user.
 
+Drawbacks:
+- Comparatively complex development
+- Coupled backend and frontend
 	
 </blockquote>
 </details>
 	
 --- 
 	
-18.
+17. List drawbacks and benfits of SPA _or_ List the advantages and disadvantages of SPA
 
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+	
+Benefits:
+- Single Page Apps are smooth and fast.
+- They are easy to develop and deploy.
+- SPAs are easier to debug.
+- Can be transited to mobile apps by reusing the same backend code.
+
+Drawbacks:
+	
+- SPAs perform poor on the search engine. But now, with isomorphic rendering/server-side rendering even SPAs can be optimized for search engine too.
+- Single page applications provide single sharing link.
+- They are less secure compared to traditional multi-page apps because of its cross-site scripting.
+	
+</blockquote>
+</details>
+	
+--- 
+
+18. What is the latest version of Angular?
+
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+- Angular 14 (as per August 2022)
+</blockquote>
+	
+<details>
+<summary> <b>Reference</b></summary>
+<blockquote>
+
+[Angular versioning and releases](https://angular.io/guide/releases)
+	
+</blockquote>
+</details>
+	
+--- 
+	
