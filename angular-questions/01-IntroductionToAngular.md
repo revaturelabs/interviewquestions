@@ -147,7 +147,8 @@
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 Choose based on the explanation given
-
+</blockquote> 
+<details>
 <summary><b>Explanation</b></summary>
 Use traditional web applications when:
 - Your application's client-side requirements are simple or even read-only.
@@ -162,7 +163,7 @@ Use a SPA when:
 Additionally, SPA frameworks require greater architectural and security expertise.
 
 </blockquote> 
-
+</details>
 </details>
 
 ---
