@@ -116,7 +116,11 @@ db.emp.update({"name": "Jack"}, {$inc: {"salary": 1000}});
 
 <details><summary> <b>Show Answer</b> </summary> 
 
+> To perform both update and insert operations in a single query by making "upsert" option to "true" inside the `update()` method.  
   
+```
+db.collection_name.update({name:"Henry"}, {$set: {dept: "HR"}},{upsert:true})
+```
 </details>
 
 ---
@@ -124,79 +128,62 @@ db.emp.update({"name": "Jack"}, {$inc: {"salary": 1000}});
 13. Imagine you have added 5 documents into a collection named as “emp” and suddenly there is a need to add one common field into all the five documents then what query you will write for the same purpose? 
 <details><summary> <b>Show Answer</b> </summary> 
 
+> `db.emp.update({}, {$set: {address: 1}}, {multi: true})`. Here address is the field that has to be added in all the documents.
 </details>
   
 --- 
 
-24. Suppose a document have five fields as “name”, “age”, “salary”, “dept”, “address” and if you want to remove the “age” field from the document of “emp” collection, then what query you will provide to remove only “age” field?
+14. Suppose a document have five fields as “name”, “age”, “salary”, “dept”, “address” and if you want to remove the “age” field from the document of “emp” collection, then what query you will provide to remove only “age” field?
 
 <details><summary> <b>Show Answer</b> </summary> 
 
+> 
+```
+db.emp.update({}, {$unset: {"age": 1}}, {multi: true})
+```
 </details>
 
 ---
 
-26. How do you find the employees, from “emp” collection, whose name starts with ‘A’. 
+15. How do you fetch the employees, from “emp” collection, whose name starts with ‘A’. 
+<details><summary> <b>Show Answer</b> </summary> 
+ 
+>
+```
+db.emp.find({name: /A/})
+```
+</details>
+
+---
+
+16. State the difference between update() and findAndModify() method in MongoDB.
+<details><summary> <b>Show Answer</b> </summary> 
+  
+> 
+</details>
+
+---
+
+17. Suppose you have a “Company” database and “emp” collection inside that database then how do you find the records of top 5 employees based on salary field?
 <details><summary> <b>Show Answer</b> </summary> 
   
 </details>
 
 ---
 
-28. State the difference between update() and findAndModify() method in MongoDB.
-<details><summary> <b>Show Answer</b> </summary> 
-  
-  </details>
-
----
-
-30. Suppose you have a “Company” database and “emp” collection inside that database then how do you find the records of top 5 employees based on salary field?
+18. Write a query to get all the records of employee whose “age” is greater than 25 and “experience” greater or equal to 3 years. [collection name is “emp”]. 
 <details><summary> <b>Show Answer</b> </summary> 
   
 </details>
 
 ---
-
-32. Write a query to get all the records of employee whose “age” is greater than 25 and “experience” greater or equal to 3 years. [collection name is “emp”]. 
-<details><summary> <b>Show Answer</b> </summary> 
-  
-</details>
-
----
-34. What is the difference between findOneAndReplace() and findOneAndUpdate() in MongoDB?
+19. What is the difference between findOneAndReplace() and findOneAndUpdate() in MongoDB?
 <details><summary> <b>Show Answer</b> </summary> 
 
 </details>
 
 ---
-36. Differentiate between findOneAndReplace() and replaceOne() in MongoDB?
-
-<details><summary> <b>Show Answer</b> </summary> 
-  
-</details>
-
----
-
-38. Imagine you are working on “Company” database having “Dept” as collection and inside your collection there are millions of documents and your boss is asking for some data from it, then what sort of practice you will do to increase the query performance and fast retrieval of data. 
-<details><summary> <b>Show Answer</b> </summary> 
-  
-</details>
-
----
-40. Consider your documents have some array fields and you want to create an index on it. Is it possible in MongoDB? 
-<details><summary> <b>Show Answer</b> </summary> 
-  
-</details>
-
----
-42. What sort of practice you will take as a developer to increase the availability of data in MongoDB when there is a routine maintenance check or system failure?
-<details><summary> <b>Show Answer</b> </summary> 
-
-</details>
-
----
-
-44. What query do you write to get employee details in “emp” collection where “job_role” matches “Technical Specialist” and  “emp_age” is between 22 and 28? 
+20. Differentiate between findOneAndReplace() and replaceOne() in MongoDB?
 
 <details><summary> <b>Show Answer</b> </summary> 
   
@@ -204,7 +191,34 @@ db.emp.update({"name": "Jack"}, {$inc: {"salary": 1000}});
 
 ---
 
-46. An intern in your company is asking for your help to fetch the records of “department” that belongs to “product”, but “type” should not equal to “A” and whenever the “type” is equal to “A”, the “department” should not equal to “product”. Here is the collection he is using to fetch the data:
+21. Imagine you are working on “Company” database having “Dept” as collection and inside your collection there are millions of documents and your boss is asking for some data from it, then what sort of practice you will do to increase the query performance and fast retrieval of data. 
+<details><summary> <b>Show Answer</b> </summary> 
+  
+</details>
+
+---
+22. Consider your documents have some array fields and you want to create an index on it. Is it possible in MongoDB? 
+<details><summary> <b>Show Answer</b> </summary> 
+  
+</details>
+
+---
+23. What sort of practice you will take as a developer to increase the availability of data in MongoDB when there is a routine maintenance check or system failure?
+<details><summary> <b>Show Answer</b> </summary> 
+
+</details>
+
+---
+
+24. What query do you write to get employee details in “emp” collection where “job_role” matches “Technical Specialist” and  “emp_age” is between 22 and 28? 
+
+<details><summary> <b>Show Answer</b> </summary> 
+  
+</details>
+
+---
+
+25. An intern in your company is asking for your help to fetch the records of “department” that belongs to “product”, but “type” should not equal to “A” and whenever the “type” is equal to “A”, the “department” should not equal to “product”. Here is the collection he is using to fetch the data:
 { "department" : "product", "type" : "A" }
 { "department " : "training", "type" : "A" }
 { “department " : "product", "type" : "B" }
@@ -227,7 +241,7 @@ Help him to write a query that will produce the output as:
   
 ---
 
-28. Write the single query that will give the sorted result based on “dob” field that satisfies the following condition:
+27. Write the single query that will give the sorted result based on “dob” field that satisfies the following condition:
 i) Where “name” starts with “s” alphabet and “salary” in between 40k to 70k 
 ii) Where “department” not equal to “product”. 
 
@@ -244,56 +258,56 @@ ii) Where “department” not equal to “product”.
 
 ---
 
-30.  Write a query that will fetch the top 20 records from “student” collection of those students who are from 8th, 9th and 10th “class” having “marks” greater or equal to 70 in science and math “subject”.
+29.  Write a query that will fetch the top 20 records from “student” collection of those students who are from 8th, 9th and 10th “class” having “marks” greater or equal to 70 in science and math “subject”.
 <details><summary> <b>Show Answer</b> </summary> 
   
 </details>
 
 ---
 
-32. A developer doesn’t want to see the first 10 documents of “dept” collection and doesn’t have the permission to delete any document from the collection as well, so what query he must write to see the rest of the documents after 10 documents without deleting any. 
+30. A developer doesn’t want to see the first 10 documents of “dept” collection and doesn’t have the permission to delete any document from the collection as well, so what query he must write to see the rest of the documents after 10 documents without deleting any. 
 <details><summary> <b>Show Answer</b> </summary> 
   
 </details>
 
 ---
 
-34. Write a query to get the number of employees whose “address” is “New York” having “age” less than equal to 40  and earning salary greater than 50K. 
+31. Write a query to get the number of employees whose “address” is “New York” having “age” less than equal to 40  and earning salary greater than 50K. 
 <details><summary> <b>Show Answer</b> </summary> 
 
 </details>
 
 ---
 
-36. As 1 and -1 are used to represent  ascending and descending order respectively in sort() method, then what will happen if we use -2 or 2 instead in sort(). 
-<details><summary> <b>Show Answer</b> </summary> 
-  
-</details>
-
----
-
-38. In a document having 5 fields “name”, “age”, “score”, “subject” and “address”, when your friend is trying to fetch only “name” and “address” field using the following query “db.collection.find({}, {_id: 0, name: 1, age: 0, score: 0, subject: 0, address: 1})” , he is getting an error message in output screen. What need to be changed in the above query to make it run and produce the desired output. 
+32. As 1 and -1 are used to represent  ascending and descending order respectively in sort() method, then what will happen if we use -2 or 2 instead in sort(). 
 <details><summary> <b>Show Answer</b> </summary> 
   
 </details>
 
 ---
 
-40. How to check if the field is present or not in a collection in MongoDB. 
+33. In a document having 5 fields “name”, “age”, “score”, “subject” and “address”, when your friend is trying to fetch only “name” and “address” field using the following query “db.collection.find({}, {_id: 0, name: 1, age: 0, score: 0, subject: 0, address: 1})” , he is getting an error message in output screen. What need to be changed in the above query to make it run and produce the desired output. 
 <details><summary> <b>Show Answer</b> </summary> 
   
 </details>
 
 ---
 
-42. A boss has given a task to you to give the “name” and “department” of those employees who do not work on Monday and Tuesday of every “week” and having “experience” less than 5. What sort of query you will write for the same purpose. 
+34. How to check if the field is present or not in a collection in MongoDB. 
 <details><summary> <b>Show Answer</b> </summary> 
   
 </details>
 
 ---
 
-44. As we know MongoDB is a Document oriented Database. What are the benefits document database gives over others?
+35. A boss has given a task to you to give the “name” and “department” of those employees who do not work on Monday and Tuesday of every “week” and having “experience” less than 5. What sort of query you will write for the same purpose. 
+<details><summary> <b>Show Answer</b> </summary> 
+  
+</details>
+
+---
+
+36. As we know MongoDB is a Document oriented Database. What are the benefits document database gives over others?
 
 <details><summary> <b>Show Answer</b> </summary> 
   
@@ -301,41 +315,41 @@ ii) Where “department” not equal to “product”.
 
 ---
 
-46. Does MongoDB writes the data to the disk immediately or not?
+37. Does MongoDB writes the data to the disk immediately or not?
 <details><summary> <b>Show Answer</b> </summary> 
 
 </details>
 
 ---
 
-48. What are your thoughts, when anyone says durability is one of the best features of MongoDB?
+38. What are your thoughts, when anyone says durability is one of the best features of MongoDB?
 <details><summary> <b>Show Answer</b> </summary> 
 
 </details>
 
 ---
-50. Is creating Indexes in MongoDB always helpful?
+39. Is creating Indexes in MongoDB always helpful?
 <details><summary> <b>Show Answer</b> </summary> 
   
 </details>
 
 ---
 
-52. A primary key also known as object-id in MongoDB contains what?
+40. A primary key also known as object-id in MongoDB contains what?
 <details><summary> <b>Show Answer</b> </summary> 
 
 </details>
 
 ---
 
-54. Suppose I have an “address” field in “student” collection and if I removes it from the database, will it also remove it from the disk too?
+41. Suppose I have an “address” field in “student” collection and if I removes it from the database, will it also remove it from the disk too?
 <details><summary> <b>Show Answer</b> </summary> 
 
 </details>
 
 ---
 
-56. Does MongoDB creates any Index by default, when we create any new collection?
+42. Does MongoDB creates any Index by default, when we create any new collection?
 <details><summary> <b>Show Answer</b> </summary> 
   
 </details>
