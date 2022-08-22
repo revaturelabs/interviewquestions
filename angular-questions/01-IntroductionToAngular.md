@@ -181,6 +181,8 @@ On the other hand, a MPA (multiple page application) is considered a more classi
 </blockquote> 
 </details>
 
+---
+
 12. 
 	
 	
