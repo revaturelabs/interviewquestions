@@ -922,3 +922,168 @@ Another way is to remove the FileNotFoundException from the multi-catch block.
 
 </details>
 	
+---
+	
+36.Predict the output for the given code:
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+```java
+public class Try1{
+    public static void main(String[] args) {
+        try {
+            int a=10/0;
+            System.out.println(a);
+            return;
+        } catch (Exception e) {
+            System.out.println("exception caught");
+            return;
+        } 
+    } 
+}
+
+```
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+There is a return in try block so it makes the last line as unreachable code. So compile time error.If we remove return from try then below output will come.
+exception caught.
+	
+</blockquote>
+
+</details>
+
+---
+
+37.Predict the output for the given code:
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+```java
+
+public class  Try2{
+ 
+    public static void main(String[] args) {
+        String val = method1();
+        System.out.println(val);
+    }
+    public static String method1() {
+        try {
+            int b = 25;
+            System.out.println(b);
+            return "from try";
+        } catch (Exception e) {
+            System.out.println("exception caught");
+            return "from catch";
+        } finally {
+            System.out.println("finally block executing");
+        }
+    }
+}
+
+```
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+```java
+
+25
+finally block executing
+from try
+
+```
+
+try block started it’s execution and no exception so it goes to finally and then return back to caller.
+
+</blockquote>
+
+</details>
+
+---
+	
+38.Can we keep the statements after finally block If the control is returning from the finally block itself?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+No, it gives unreachable code error. Because, control is returning from the finally block itself. Compiler will not see the statements after it. That’s why it shows unreachable code error.
+
+</blockquote>
+
+</details>
+	
+---
+
+39.Predict the output in the below code:
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+```java
+
+public class Throws1{
+public static void start() throws IOException, RuntimeException{
+    throw new RuntimeException("Not able to execute");
+ }
+ public static void main(String args[]) {
+    try {
+          start();
+    } catch (Exception ex) {
+            ex.printStackTrace();
+    } catch (RuntimeException re) {
+            re.printStackTrace();
+    }
+ }
+}
+
+```
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+This code will throw compiler error on line where RuntimeException  variable “re” is written on catch block. since Exception is super class of RuntimeException, all RuntimeException thrown by start() method will be captured by first catch block and code will never reach second catch block and that's the reason compiler will flag error as "exception java.lang.RuntimeException has already been caught".
+
+</blockquote>
+
+</details>
+
+---
+
+40. Debug the error in the below code
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+```java
+
+public class SuperClass {  
+    public void start() throws IOException{
+        throw new IOException("Not able to open the file");
+    }
+}
+
+public class SubClass extends SuperClass{  
+    public void start() throws Exception{
+        throw new Exception("Not able to start");
+    }
+}
+
+
+```
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+In this code compiler will complain on sub class where start() method gets overridden. As per rules of method overriding in Java, an overridden method can not throw Checked Exception which is higher in hierarchy than original method. Since here start() is throwing IOException in super class, start() in sub class can only throw either IOException or any sub class of IOException but not super class of IOException for ex: Exception.
+
+</blockquote>
+
+</details>
+
+	
