@@ -350,7 +350,7 @@ Drawbacks:
 	
 --- 
 	
-21. Webpack builds a dependency graph. What does that mean?
+21. Webpack builds a dependency graph. What does that mean? _or_ What is dependency graph? How is it related to Webpack?
 
 <details>
 <summary> <b>Show Answer</b></summary>
@@ -365,5 +365,125 @@ Drawbacks:
 	
 --- 
 
-22. 
+22. How do you install Angular CLI?
+
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+
+Before installing Angular CLI, make sure the development environment includes Node.js and an npm package manager. Then, run the command `npm install -g @angular/cli` on the terminal to install the Angular CLI using npm.
+		
+</blockquote>
+</details>
+	
+--- 
+	
+23. How do you create any angular application?
+
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+
+	Run the CLI command `ng new my-app` to create a new angular app with the `my-app` name.
+
+</blockquote>
+</details>
+	
+--- 
+
+24. Which port angular application will be launced?
+
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+
+4200
+
+</blockquote>
+</details>
+	
+--- 
+
+25. How `ng serve -o` different form `ng serve` command?
+
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+
+The `ng serve` command launches the server on HTTP port 4200, which watches our files and rebuilds the app as we make changes to those files. The --open (or just -o) option automatically opens the browser to [http://localhost:4200] (http://localhost:4200).
+	
+</blockquote>
+</details>
+	
+--- 
+
+26. How do you find the version of angular installed in our system?
+
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+
+To check version of angular installed by running `ng --version` or `ng v` command
+	
+</blockquote>
+</details>
+	
+--- 
+
+27. How do you update angular to the latest version?
+
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+	
+Run `npm install -g @angular/cli@latest` command to update angular to the latest version?
+
+</blockquote>
+</details>
+	
+--- 
+
+28. What is the difference between npm start and ng serve
+
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+
+`npm start` will run whatever you have defined for the start command of the scripts object in your `package.json` file.
+
+So if it looks like this:
+```ts
+"scripts": {
+  "start": "ng serve"
+}
+```
+
+Then `npm start` will run `ng serve`.
+
+`ng serve` command used when developing your application locally. It starts up a local development server, which will serve your application while you are developing it.
+
+</blockquote>
+</details>
+	
+--- 
+	
+29. How to deploy angular app to production?
+
+
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+
+- `ng build` command used to build your application and deploy it. 
+- `ng serve --prod` command to run when building your application for a production environment
+
+</blockquote>
+</details>
+	
+--- 
+	
+30. What kind of files we can find on _e2e_ folder and node_modules folder?
+31. What are files we can find under src folder?
+What is the difference between angular.json and package.json file?
+What is the difference between package.json and package-lock.json files?
 	
