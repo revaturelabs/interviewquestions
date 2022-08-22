@@ -50,7 +50,7 @@
 
  - `HashSet` stores, elements without retaining the order of elements.
  - Internally `HashSet` works as a `HashTable`.
- - `HashTable`: A class that has key and values, it coverts the keys into hashcode and stores them as the idexes of an array.
+ - `HashTable`: A class that has key and values, it coverts the keys into hashcode and stores them as the indexes of an array.
 </blockquote>
 
 
