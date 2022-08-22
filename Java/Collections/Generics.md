@@ -119,7 +119,7 @@ The common type parameters used are:
 - Wildcard element means any type represented by the `? (question mark)` symbol. It can be used as a type 
   of a parameter, field, return type, or local variable.
 - If we write `<? extends Number>`, it means any child class of Number, e.g., Integer, Float, and 
-  double. Now we can call the method of Number class through any child class object.
+  double. Now,we can call the method of Number class through any child class object.
 
  </blockquote>
  
