@@ -113,13 +113,57 @@
   
 8. Does refreshing a whole page needed in SPA?
 
-<details><b>Show Answer</b>
-<summary>
+<details>
+<summary> <b>Show Answer</b></summary>
 <blockquote>
 
 
 </blockquote>
 </details>
   
- ---
+---
   
+9. What are some advantages of Angular?
+  
+<details>
+<summary> <b>Show Answer</b></summary>
+  
+  <blockquote>
+    
+- Effective cross platform development
+- Two-way data binding in Angular will help users to exchange data from the component to view and from view to the component.  It will help users to establish communication bi-directionally. 
+- The Angular command-line interface (CLI) makes the developer’s job easier because it offers a set of helpful tools for coding. 
+- Angular offers powerful DI (dependency injection) instrument and services to resolve various productivity issues and speed up the development process.
+- Modularity of angular application makes our code readable and testable
+
+</blockquote> 
+
+</details>
+	
+--- 
+	
+10. What do you choose between Traditional Web Apps and Single Page Apps
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+Choose based on the explanation given
+
+<summary><b>Explanation</b></summary>
+Use traditional web applications when:
+- Your application's client-side requirements are simple or even read-only.
+- Your application needs to function in browsers without JavaScript support.
+
+Use a SPA when:
+
+- Your application must expose a rich user interface with many features.
+- Your team is familiar with JavaScript, TypeScript, or Blazor WebAssembly development.
+- Your application must already expose an API for other (internal or public) clients.
+
+Additionally, SPA frameworks require greater architectural and security expertise.
+
+</blockquote> 
+
+</details>
+
+	 
+	
