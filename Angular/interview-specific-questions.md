@@ -15,5 +15,4 @@ export class UserComponent {
 6. Can we have css styles attached to the component without having `.css` file. If so, how?
 7. Can we have multiline template? If so, how?
 8. If I decorate a typescript class with `@NgModule`, what does it mean?
-9. How do you 
-10. 
+9.
