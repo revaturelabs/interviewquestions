@@ -165,5 +165,7 @@ Additionally, SPA frameworks require greater architectural and security expertis
 
 </details>
 
-	 
+---
+
+	
 	
