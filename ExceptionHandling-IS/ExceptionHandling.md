@@ -566,5 +566,211 @@ The chained exception feature allows you to associate another exception with an 
 
 </details>
 
+---
+
+27.When the unreachable catch block error is shown by the compiler?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+When you are keeping multiple catch blocks, the order of catch blocks must be from most specific to most general ones. i.e sub classes of Exception must come first and super classes later. If you keep super classes first and sub classes later, compiler will show unreachable catch block error.
+
+
+public class ExceptionHandling
+{
+    public static void main(String[] args)
+    {
+        try
+        {
+            int i = Integer.parseInt("pqr");   //This statement throws NumberFormatException
+        }
+ 
+        catch(Exception e)
+        {
+            System.out.println("This block handles all exception types");
+        }
+ 
+        catch(NumberFormatException e)
+        {
+            //Compile time error
+            //This block becomes unreachable as
+            //exception is already caught by above catch block
+        }
+    }
+}
+
+
+
+</blockquote>
+
+</details>
+
+28.Why it is always recommended that clean up operations like closing the DB resources to keep inside a finally block?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Because finally block is always executed whether exceptions are raised in the try block or not and raised exceptions are caught in the catch block or not. By keeping the clean up operations in finally block, you will ensure that those operations will be always executed irrespective of whether exception is occurred or not.
+
+</blockquote>
+
+</details>
+
+---
+
+29.Explain the difference between throw, throws and Throwable in java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+throw :
+throw is a keyword in java which is used to throw an exception manually. Using throw keyword, you can throw an exception from any method or block. But, that exception must be of type java.lang.Throwable class or it’s sub classes. 
+
+```java
+
+class ThrowExample
+{
+    void method() throws Exception
+    {
+        Exception e = new Exception();
+ 
+        throw e;            //throwing an exception using 'throw'
+    }
+}
+
+```
+
+throws:
+throws is also a keyword in java which is used in the method signature to indicate that this method may throw mentioned exceptions. The caller to such methods must handle the mentioned exceptions either using try-catch blocks or using throws keyword. 
+
+```java
+
+return_type method_name(parameter_list) throws exception_list
+{
+     //some statements
+}
+
+class ThrowsExample
+{
+    void methodOne() throws SQLException
+    {
+        //This method may throw SQLException
+    }
+ 
+    void methodTwo() throws IOException
+    {
+        //This method may throw IOException
+    }
+ 
+    void methodThree() throws ClassNotFoundException
+    {
+        //This method may throw ClassNotFoundException
+    }
+}
+
+```
+
+Throwable In Java :
+Throwable is a super class for all types of errors and exceptions in java. This class is a member of java.lang package. Only instances of this class or it’s sub classes are thrown by the java virtual machine or by the throw statement. The only argument of catch block must be of this type or it’s sub classes. If you want to create your own customized exceptions, then your class must extend this class. 
+
+```java
+
+class MyException extends Throwable
+{
+           //Customized Exception class
+}
+ 
+class ThrowableExample
+{
+    void method() throws MyException
+    {
+        MyException e = new MyException();
+ 
+        throw e;
+    }
+}
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+30.Can we override a super class method which is throwing an unchecked exception with checked exception in the sub class?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+No. If a super class method is throwing an unchecked exception, then it can be overridden in the sub class with same exception or any other unchecked exceptions but can not be overridden with checked exceptions.
+
+</blockquote>
+
+</details>
+
+---
+
+31.What are the allowed combinations of try, catch and finally blocks in java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+```java
+
+try
+{
+    //try block
+}
+catch(Exception e)
+{
+    //catch block
+}
+
+try
+{
+    //try block
+}
+finally
+{
+    //finally block
+}
+
+try
+{
+    //try block
+}
+catch(Exception e)
+{
+    //catch block
+}
+finally
+{
+    //finally block
+}
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
 
 
