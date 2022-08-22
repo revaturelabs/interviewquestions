@@ -321,3 +321,33 @@ Drawbacks:
 	
 --- 
 	
+19. Does Angular support in mobiles?
+
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+
+ Yes, we can create a mobile application using Angular Framework. 
+	
+</blockquote>
+</details>
+	
+--- 
+	
+20. Why do we need Webpack?
+
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+
+- In our web application, we use many javascript files that are added into the HTML pages via `<script>` tags.  For each user request, the browser loads these bunch of script files inside the HTML page. This is inefficient as it reduces the page speed since the browser requests each script file separately.
+- This can be solved by **bundling** several files together into one file to be downloaded by the browser in one single request.
+- **Module bundlers** are used to bundle a group of JavaScript modules with their dependencies and merge them into a single file in the correct order, which can be executed by the browser.
+- **Webpack** is a powerful static module bundler for JavaScript applications that packages all modules in our application into a bundle and serves it to the browser.
+		
+</blockquote>
+</details>
+	
+--- 
+	
+21. 
