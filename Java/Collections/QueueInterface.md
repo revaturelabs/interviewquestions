@@ -26,7 +26,7 @@
 <details>
 <summary><b>Show Answer</b></summary>
 
-> Along with operations in collections, queue has some special operations like,
+> Along with operations in collections, queue has some special operations like:
 > 
 > 1. `offer(element)`: used to add elements to the queue.
 > 2. `poll()`: used to get the head element of the queue.
