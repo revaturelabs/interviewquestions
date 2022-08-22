@@ -119,7 +119,7 @@ db.emp.update({"name": "Jack"}, {$inc: {"salary": 1000}});
 > To perform both update and insert operations in a single query by making "upsert" option to "true" inside the `update()` method.  
   
 ```
-db.collection_name.update({name:"Henry"}, {$set: {dept: "HR"}},{upsert:true})
+db.collection_name.update({name:"Henry"}, {$set: {dept: "HR"}},{upsert:true});
 ```
 </details>
 
@@ -128,7 +128,14 @@ db.collection_name.update({name:"Henry"}, {$set: {dept: "HR"}},{upsert:true})
 13. Imagine you have added 5 documents into a collection named as “emp” and suddenly there is a need to add one common field into all the five documents then what query you will write for the same purpose? 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> `db.emp.update({}, {$set: {address: 1}}, {multi: true})`. Here address is the field that has to be added in all the documents.
+> 
+```
+  db.emp.update({}, 
+  {$set: 
+  {address: 1}}, 
+  {multi: true});
+```
+Here address is the field that has to be added in all the documents.  
 </details>
   
 --- 
@@ -139,7 +146,10 @@ db.collection_name.update({name:"Henry"}, {$set: {dept: "HR"}},{upsert:true})
 
 > 
 ```
-db.emp.update({}, {$unset: {"age": 1}}, {multi: true});
+db.emp.update({}, 
+  {$unset: 
+  {"age": 1}}, 
+  {multi: true});
 ```
 </details>
 
@@ -172,7 +182,9 @@ db.emp.find({name: /A/});
 > To find the top 5 records, we can use the sort() and limit() method along with find().  
    
 ```
-db.emp.find({}).sort({"salary":-1}).limit(5)
+db.emp.find({})
+  .sort({"salary":-1})
+  .limit(5)
 ```
 
 </details>
@@ -184,7 +196,12 @@ db.emp.find({}).sort({"salary":-1}).limit(5)
   
 > 
 ```
-db.collection_name.find({ $and: [{"age": {$gt: 25}}, {"experience": {$gte: 3}}]})
+db.collection_name.find({ 
+  $and: [
+  {"age": {$gt: 25}}, 
+  {"experience": {$gte: 3}}
+  ]
+  });
 ```
 </details>
 
@@ -240,7 +257,12 @@ db.collection_name.find({ $and: [{"age": {$gt: 25}}, {"experience": {$gte: 3}}]}
 
 > 
 ```
-db.emp.find({$and: [{"job_role":"Technical Specialist"}, {"emp_age": {$gte: 22 , $lte: 28}}]});
+db.emp.find({
+  $and: [
+  {"job_role":"Technical Specialist"}, 
+  {"emp_age": {$gte: 22 , $lte: 28}}
+  ]
+  });
 ```
 </details>
 
@@ -256,10 +278,20 @@ db.emp.find({$and: [{"job_role":"Technical Specialist"}, {"emp_age": {$gte: 22 ,
 Help him to write a query that will produce the output as:   
 ```
 { "department " : "training", "type" : "A" }  
-{ “department " : "product", "type" : "B" }   
+{ “department " : "product", "type" : "B" }
+{ "department " : "finance", "type" : "C" }
 ```
 <details><summary> <b>Show Answer</b> </summary> 
- 
+
+> 
+```
+db.collection_name.find({
+    "$or": [
+    {"department": {"$ne": "product"}},
+    {"type": {"$ne": "A"}}
+  ]
+})
+```
 </details>
 
 ---
@@ -268,7 +300,17 @@ Help him to write a query that will produce the output as:
 
 <details><summary> <b>Show Answer</b> </summary> 
   
-  </details>
+> 
+```
+db.emp.find({
+  "$and: [
+  {"DOB":{$gte: ISODate("1990-03-01"), $lte: ISODate("1999-12-31")}},
+  {"salary":{$gt: 50000}}
+  ]},
+  {_id:0, name:1, age: 1}
+  );
+```
+</details>
   
 ---
 
@@ -277,14 +319,25 @@ i) Where “name” starts with “s” alphabet and “salary” in between 40k
 ii) Where “department” not equal to “product”. 
 
 <details><summary> <b>Show Answer</b> </summary> 
-  
+ 
+> 
+```
+db.collection_name.find({
+  $and: [
+  {"name": /s/},
+  {"salary": { $gte: 40000, $lte: 70000}},
+  {"department": { $ne: product}}
+  ]})
+  .sort({"dob": 1}); 
+```
 </details>
 
 ---
 
-28. Jack is trying to fetch all the records, from a collection called “people”, without including the “_id” field. When he wrote the query as “db.people.find({} { _id: 0})”, he was getting syntax error message stating “unexpected { ”. What he needs to change in his query to get the desired output. 
+28. Jack is trying to fetch all the records, from a collection called “people”, without including the `_id` field. When he wrote the query as `db.people.find({} { _id: 0})`, he was getting syntax error message stating “unexpected { ”. What he needs to change in his query to get the desired output. 
 <details><summary> <b>Show Answer</b> </summary> 
 
+> The only problem in the `db.people.find({} { _id: 0})` is missing comma after empty {} inside find() method. To resolve this error,jack has to write the query like this `db.people.find({}, { _id: 0});`. 
 </details>
 
 ---
