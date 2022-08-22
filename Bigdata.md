@@ -318,6 +318,13 @@ Yarn application -list
 
 nosql db.
 
+</details>
+</blockquote>
+
+---
+
+
+
 16. There are 5000000 Records in one hive table and you have loaded it in spark -shell for development purposes. What would be the best practice to write code.Would you be processing 5000000 records in each line of code?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -572,4 +579,256 @@ yes you can do it - but it may be a pretty bad idea.
 </blockquote>
 
 ---
+
+28. Suppose a NameNode is failed , How do we bring it up ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Suppose this situation happen , as NameNode gets fail the whole Hadoop cluster will not work. There will be no data loss only the cluster work will be shut down, because the NameNode is only point of contact to all the DataNodes and if the NameNode fails all communication will stop.
+
+</details>
+</blockquote>
+
+---
+
+29. How will you decide whether you need to use the Capacity Scheduler or the Fair Scheduler?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Suppose , we wants the jobs to make Equal progress ,whereas following the FIFO principle , then we need to use Fair Scheduling. 
+
+</details>
+</blockquote>
+
+---
+
+30. What are the daemons required to run a Hadoop cluster?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Hadoop cluster has 5 daemons. 
+- NameNode
+- DataNode
+- Secondary NameNode
+- JobTracker
+- TaskTracker
+
+</details>
+</blockquote>
+
+---
+
+31. How will you restart a NameNode?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+- We can stop the NameNode individually using Command like :
+/sbin/hadoop-daemon.sh
+After that start the NameNode using command like :
+/sbin/hadoop-daemon.sh
+
+</details>
+</blockquote>
+
+---
+
+32. What is jps command used for?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+It is used to check if a specific daemon is up or not as well as It is processes that are based on the  particular user.
+
+</details>
+</blockquote>
+
+---
+
+33.  Is it possible to copy files across multiple clusters? If yes, how can you accomplish this?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Yes!
+It is possible to the copy files across the multiple Hadoop clusters and this can be achieved using distributed copy.
+
+</details>
+</blockquote>
+
+---
+
+34. Can HDFS blocks be broken?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Yes!
+
+HDFS blocks be brokento this is input split. As HDFS does not know the content of the file.While storing the data into multiple blocks, last record of each block might be broken.
+
+</details>
+</blockquote>
+
+---
+
+35. Does Hadoop replace data warehousing systems?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+No , Hadoop never replace any datawarehouse system. 
+
+<details><summary> Explanation </summary>
+
+Hadoop will not replace a data warehouse because the data and its platform are two non-equivalent layers in Data warehouse architecture. 
+
+</details>
+</details>
+</blockquote>
+
+---
+
+36. Propose a design to develop a system that can handle ingestion of both periodic data and real-time data.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Data can be streamed in the real-time or ingested in batches. When Big Data is ingested in real-time, then it is ingested immediately as soon as data arrives. When data is ingested in batches using the Data ingestion pipeline, data items are ingested in some chunks at a periodic time interval.
+
+</details>
+</blockquote>
+
+---
+
+37. File could be replicated to 0 Nodes, instead of 1. Have you ever come across this message? What does it mean?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+When a file is written to the HDFS, it is replicated to multiple core nodes. When you see this error, it means that the NameNode daemon does not have any available DataNode instances to write the data to in HDFS. In other words, block replication is not taking place.
+
+</details>
+</blockquote>
+
+---
+
+38. How Avro Serialization work in Hadoop Platform? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+It is used to Provide AvroMapper and AvroReducer class for running the Mapreduce program in hadoop. Which helps Avro Serialization work smothly in Hadoop platform. 
+Basically Avro Serialization is a process of translating objects or data structures state into binary or textual data. 
+
+</details>
+</blockquote>
+
+---
+
+39. How can you skip the bad records in Hadoop?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+With the help of <b> SkipBadRecords class </b> , we can skip the bad records in hadoop.
+
+</details>
+</blockquote>
+
+---
+
+40. What is the purpose of using DistCp is hadoop?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+It is a tool which is used to copy large amounts of data to and from hadoop file system in parallel.
+
+</details>
+</blockquote>
+
+---
+
+41. Which command is used to format the NameNode?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+    $ hdfs namenode -format
+
+</details>
+</blockquote>
+
+---
+
+
+42. Can the default “Hive Metastore” be used by multiple users (processes) at the same time?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+    Yes. 
+    Hive Metastore allow multiple users at the same time.
+
+</details>
+</blockquote>
+
+---
+
+
+
+
+
+
+
+
 
