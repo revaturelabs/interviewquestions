@@ -150,6 +150,7 @@ Choose based on the explanation given
 </blockquote> 
 <details>
 <summary><b>Explanation</b></summary>
+	
 Use traditional web applications when:
 - Your application's client-side requirements are simple or even read-only.
 - Your application needs to function in browsers without JavaScript support.
@@ -168,5 +169,18 @@ Additionally, SPA frameworks require greater architectural and security expertis
 
 ---
 
+11. How SPA different from MPA?
+<details>
+<summary> <b>Show Answer</b></summary>
+<blockquote>
+	
+A SPA is an app that works inside a browser and does not require page reloading during use.
+
+On the other hand, a MPA (multiple page application) is considered a more classical approach to app development. The multi-page design pattern requires a page reload every time the content changes. It’s a preferred option for large companies with extensive product portfolios, such as e-commerce businesses.	
+	
+</blockquote> 
+</details>
+
+12. 
 	
 	
