@@ -19,7 +19,7 @@
 
 <details><summary><b> Show Answer</b></summary>
   
-> - Custom Exception are used to catch and provide specific treatment to a subset of existing java exceptions.
+> - Custom Exception are used to catch and provide specific treatment to a subset of existing Java exceptions.
 > - We also have exceptions related to business logic and workflow. 
 > - It is useful for the application users or the developers to understand the exact problem.
 > - In order to create custom exception, we need to extend `Exception` class that belongs to <code>java.lang</code> package.
