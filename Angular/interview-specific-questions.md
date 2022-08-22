@@ -68,5 +68,5 @@ interface PipeTransform {
 ```
 26. Design an angular application with following criteria.
     - `/login` need to the login page or template
-    - '/register` need to the register page or template
+    - `/register` need to the register page or template
 27. How do to create an angular, when I need to navigate between components?
