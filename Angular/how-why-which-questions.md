@@ -85,4 +85,5 @@
 139. How do you build Angular Route Guards?
 140. In which order routing guards execution?
 141. How do you implement unit testing in Angular?
-
+142. What is purpose of `@Input` and `@Output`?
+143. Why do we need `emit()` method to achieve event emitter?
