@@ -337,21 +337,36 @@ db.collection_name.find({
 28. Jack is trying to fetch all the records, from a collection called “people”, without including the `_id` field. When he wrote the query as `db.people.find({} { _id: 0})`, he was getting syntax error message stating “unexpected { ”. What he needs to change in his query to get the desired output. 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> The only problem in the `db.people.find({} { _id: 0})` is missing comma after empty {} inside find() method. To resolve this error,jack has to write the query like this `db.people.find({}, { _id: 0});`. 
+> The only problem in the `db.people.find({} { _id: 0})` is missing comma after empty {} inside find() method. To resolve this error,jack has to write the query as `db.people.find({}, { _id: 0});`. 
 </details>
 
 ---
 
-29.  Write a query that will fetch the top 20 records from “student” collection of those students who are from 8th, 9th and 10th “class” having “marks” greater or equal to 70 in science and math “subject”.
+29.  Write a query that will fetch the top 20 records from “student” collection of those students who are from 8th, 9th and 10th “class” having “marks” greater or equal to 70 in science and math subject.
 <details><summary> <b>Show Answer</b> </summary> 
-  
+
+> 
+```
+db.student.find({
+      $and: [
+      {"class": {$in: ["8th", "9th", "10th"]}},
+      {"marks.science": {$gte: 70}},
+      {"marks.math": {$gte: 70}}
+      ]})
+      .limit(20);
+
+```
 </details>
 
 ---
 
-30. A developer doesn’t want to see the first 10 documents of “dept” collection and doesn’t have the permission to delete any document from the collection as well, so what query he must write to see the rest of the documents after 10 documents without deleting any. 
+30. A developer doesn’t want to see the first 10 documents of “dept” collection and doesn’t have the permission to delete any document from the collection as well, so what query he must write to see the rest of the documents after 10 documents without deleting any document?
 <details><summary> <b>Show Answer</b> </summary> 
-  
+
+> Using skip() method, we can skips the number of documents based on our need.
+```
+db.dept.find({}).skip(10);
+```
 </details>
 
 ---
@@ -359,6 +374,17 @@ db.collection_name.find({
 31. Write a query to get the number of employees whose “address” is “New York” having “age” less than equal to 40  and earning salary greater than 50K. 
 <details><summary> <b>Show Answer</b> </summary> 
 
+> 
+```
+db.collection_name.find({
+      "$and: [
+      {"address": "New York"},
+      {"age": {$lt: 40}},
+      {"salary": {$gt: 50000}}
+      ]})
+      .count();
+      
+```
 </details>
 
 ---
