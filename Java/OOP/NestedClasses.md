@@ -20,9 +20,9 @@
 
 
 
-- A. grouping interrelated classes.
-- B. achieving encapsulation
-- C. create code that is easy to read and maintain
+- A. Grouping interrelated classes.
+- B. Achieving encapsulation
+- C. Create code that is easy to read and maintain
 - D. All of the above.
 
 <details>	
@@ -55,7 +55,7 @@
 
 <details><summary><b>Show Answer</b></summary>
 
-> lambda is used to implement a functional Interface( an interface with a single abstract method), before lambda was introduced, one has to use an anonymous inner class to implement the functional interface. lambda expressions made it simple, concise and readable.
+> Lambda is used to implement a functional Interface( an interface with a single abstract method), before lambda was introduced, one has to use an anonymous inner class to implement the functional interface. lambda expressions made it simple, concise and readable.
 </details>
 
 
@@ -110,7 +110,7 @@
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 <details><summary><b>Show Answer</b></summary>
 
-> - lambda is not an inner class, when the lambda expression is used a private static class with an object return type and Object parameter is created to implement the functional interface.
+> - Lambda is not an inner class, when the lambda expression is used a private static class with an object return type and Object parameter is created to implement the functional interface.
 > - This is the reason why an anonymous class "Outer$1" is not created in the case of the lambda expression.
 
 </details>
