@@ -140,7 +140,7 @@ Because stream API processes the elements as per pipelined operations without ch
  
  <blockquote>
 
-- Stream API will take the stream of elements as the source, performs a pipeline of operations, and returns the  result 
+- Stream API will take the stream of elements as the source, performs a pipeline of operations, and returns the  result.
 - A pipeline of operations consists of a source, zero or more intermediate operations(filter, sort, map), and a terminal operation.
 
 </blockquote>  
@@ -417,7 +417,7 @@ public class JavaStreamExample {
    <blockquote>
    
    - `iterate ()` is used to iterate through the elements in the stream.
-   - `filter()` used to apply the condition on the stream 
+   - `filter()` used to apply the condition on the stream.
    - `forEach()` is used to return the result from the stream after iteration. <blockquote>
     
     </blockquote>
