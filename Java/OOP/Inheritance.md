@@ -16,7 +16,7 @@
 <details>
   <summary><b>Explanation</b></summary> 
 	
-> - Invisibility cloak is a family heirloom for potters, A property is passed down from one class(generation) to another, this is a clear example of multilevel inheritance
+> - Invisibility cloak is a family heirloom for potters, A property is passed down from one class(generation) to another, this is a clear example of multilevel inheritance.
 </details>
 </details>
 
@@ -87,7 +87,7 @@
 <details>
 <summary><b> Show Answer</b></summary>
 
-> the relation between a superclass which gets extended by a single subclass is called single Inheritance.
+> The relation between a superclass which gets extended by a single subclass is called single Inheritance.
 > 
 > <img width="173" alt="Single" src="https://user-images.githubusercontent.com/103101208/185297546-71804b70-cd2f-4bae-930a-6a61d4da839f.PNG">
 
@@ -246,7 +246,7 @@ Child c= (Child) new Parent();
 	
 > No
 > - A static method can not be overriden if a sub class has a method with the same name as the static method in super class, its considered as hiding.
-> - unlike overloading, if static method is called in superclass, the superclass static method is invoked and if static method is called in subclass, the subclass static method is invoked.
+> - Unlike overloading, if static method is called in superclass, the superclass static method is invoked and if static method is called in subclass, the subclass static method is invoked.
 </details>
 
 
