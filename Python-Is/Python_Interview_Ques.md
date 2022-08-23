@@ -788,4 +788,26 @@ df = pd.DataFrame(diction)
   </details>
   
   ---
+  
+41.James trying to check the python version in CMD? how will you help him to list out what are the steps needed?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+  
+- In python we have more there are more methods to check the python version in cmd.
+    - Using `sys.version` method
+    - Using `python_version()` function
+    - Using `python -V` command
+- Here this is one of the simplest way to check the python current version
+
+  1.
+
+  
+  
+42.Jacks wants to know how to process the file in python. How will you explain the file processing modes that Python supports.
+43.How are you going to get rid of duplicate elements from a list?
+44.Harry wants to combine his code and data together. He is searching for methods to merge both code and data into a single object. Which concepts will be useful for him?
+45.Jhon have string as ‘hello world’ he wants to cut some part of the string. How will you help him to cut part as ‘wo’ in string?
 
