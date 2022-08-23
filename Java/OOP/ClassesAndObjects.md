@@ -44,7 +44,7 @@ public class Child extends Parent, Grandparent{
 <details><summary><b>Show Answer</b></summary>
 <blockquote>
 
- compilation error is caused because a class can extend only one parent class.
+ Compilation error is caused because a class can extend only one parent class.
 </blockquote>
 
 </details>
@@ -67,7 +67,7 @@ private class Main{
 
 <blockquote>
 
-compilation error is caused because a class can be public, abstract and final but not private unless it's a nested class.
+Compilation error is caused because a class can be public, abstract and final but not private unless it's a nested class.
 
 </blockquote>
 	
@@ -93,7 +93,7 @@ compilation error is caused because a class can be public, abstract and final bu
 <details><summary><b>Explanation</b></summary>
 	
 <blockquote>
-classes and interfces can not be declared private, nested classes can be declared private.
+Classes and interfces can not be declared private, nested classes can be declared private.
 </blockquote>
 
 </details>
@@ -308,7 +308,7 @@ It is not possible to create an object for interface, an Object can be created o
 	
 <blockquote>
 	
-- Interfaces and Abstract classes cant be initialized because they have abstract methods, so its not possibel to create an object for an Interface. but while creating an anonymous class an object can be created for interface and abstract method.
+- Interfaces and Abstract classes cant be initialized because they have abstract methods, so its not possibel to create an object for an Interface,but while creating an anonymous class an object can be created for interface and abstract method.
 	
 ``` java
 	
@@ -380,7 +380,7 @@ An immutable class can be created by
 1. Declaring all the feilds as private to avoid access. 
 2. Declaring the class as final to avoid overriding of methods.
 3. Declare class as final to avoid ineritance.
-4. intializing data using a parameterized constructor 
+4. intializing data using a parameterized constructor.
 5. retriving data using a getter method to avoid getting direct access to the object reference.
 
 </blockquote>
