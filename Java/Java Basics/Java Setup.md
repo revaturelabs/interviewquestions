@@ -310,7 +310,7 @@ public static void main(String[] args)
 <blockquote>
 
 - When we use wrapper class while using arithmatic operations between two values there will be unboxing and auto boxing.
-- Unboxing means converting object into primitive datatype and auto boxing means converting primitive into object which also deals with primitives.
+- Unboxing means converting object into primitive datatype and auto boxing means,converting primitive into object which also deals with primitives.
 - So, Java is not pure object oriented when we use wrapper class also.
 </blockqoute> 
 </details>
