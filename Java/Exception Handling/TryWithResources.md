@@ -74,7 +74,7 @@ public class TryResources {
 ```
 <details><summary><b> Show Answer</b></summary>
  
->prints the characters from the file abc.txt 
+>Prints the characters from the file abc.txt 
 
 <details><summary><b> Explanation </b></summary>
  
