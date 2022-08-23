@@ -131,7 +131,7 @@ public class Languages {
   <details>
     <summary><b>Explanation</b></summary> 
     
-> static binding is linking method call with method definition during compile-time. compile-time polymorphism is
+> Static binding is linking method call with method definition during compile-time. compile-time polymorphism is
   also called method overloading. 
 
 </details>
@@ -269,7 +269,7 @@ public class Area{
  <details>
     <summary><b>Explanation</b></summary>
    
-  > calculateTriangleArea(double base, double height) is implemented when 1.0 and 2.0 are passed as method parameters.
+  > CalculateTriangleArea(double base, double height) is implemented when 1.0 and 2.0 are passed as method parameters.
   
   </details>
      </details>
