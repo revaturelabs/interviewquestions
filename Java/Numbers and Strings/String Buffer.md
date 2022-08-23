@@ -7,7 +7,7 @@
 
 - StringBuffer is in `java.lang package`.
 - StringBuffer is mutable strings that are stored in heap memory.
-- StringBuffer is synchronized methods 
+- StringBuffer is synchronized methods.
 - StringBuffer is not thread safe, so the performance is less than the string buffer.
 </blockqoute> 
 </details>
