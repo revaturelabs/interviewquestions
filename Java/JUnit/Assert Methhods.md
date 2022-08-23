@@ -36,7 +36,7 @@
 
 ---
 
-3. What happens if assertion fails when it is execute?
+3. What happens if assertion fails when it is executed?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
