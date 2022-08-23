@@ -42,13 +42,28 @@
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> 
-
+> For renaming file and folder we can use two commands in Unix, one is `mv` and other one is `rename`.  
+  
+> With `mv` command  
+  `mv ABC Finance_Data` 
+    
+> With `rename` command  
+  `rename 's/ABC/Finance_Data/'* `  
+  
 </details>
+
 ---
 6. Other than `touch` command, what command would you use to create an empty file in Unix?
 
 <details><summary> <b>Show Answer</b> </summary> 
+
+> Other than `touch` command, we can use `echo` and `cat` command to create an empty file.      
+      
+> With `echo` command     
+  `echo > file1.txt`    
+    
+> With `cat` command  
+  `cat > file1.txt`  
 
 </details>
 
@@ -57,20 +72,28 @@
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-</details>
-
----
-8. How to see which file is modifies recently and at what time in unix?
-
-<details><summary> <b>Show Answer</b> </summary> 
+> To see the permission on the files we can use the simple `ls` command with `-l` option. For example, `ls -l`. It will give the read write execute permission information in the long format for all the files and directories.
 
 </details>
 
 ---
-9. Imagine you have two files "example.txt" and " example2.txt" and you wanted to add the content of both the files in another file named as "combine.txt". Which command you will use to do that task and what will happen if the "combine.txt" file doesn't exist in your system.  
+8. How to see which file is modified recently and at what time in unix?
 
 <details><summary> <b>Show Answer</b> </summary> 
 
+> To see what are all the files that are modified recently, we can use the `ls -l` command. 
+</details>
+
+---
+9. Imagine you have two files "example1.txt" and " example2.txt" and you wanted to add the content of both the files in another file named as "combine.txt". Which command you will use to do that task and what will happen if the "combine.txt" file doesn't exist in your system.  
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> To add the content of example1.txt and example2.txt file in the combine.txt file we can use the `cat` command.     
+```
+cat example1.txt example2.txt > combine.txt
+```
+Here if the combine.txt file doesn't exists in the system, it will create a combine.txt file and add the content of both the files to it. 
 </details>
 
 ---
@@ -78,6 +101,7 @@
 
 <details><summary> <b>Show Answer</b> </summary> 
 
+> The root directory is the main directory of the system and it contains the home directory in it. Everyone can access the root directory but home directory can be access by the owner of that directory only. There can be multiple home directories inside one root directory. 
 </details>
 
 ---
