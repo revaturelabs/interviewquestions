@@ -1003,10 +1003,485 @@ print(list(Squre(5)))
 <blockquote>
 
 - In python `re` module provides the regular expression matching operations.Both patterns and strings to be searched can Unicode strings as well as 8-bit strings.
-- `split()` uses a regex pattern to 
+- `split()` uses a regex pattern to split the given string to a list.
+  
+```python
+import re
+str = "Python porgramming test"
+print(re.split(" +", str))
+```
+
+**Output:**
+  
+['Python', 'porgramming', 'test']
 
 </details>
 
 ---
   
+51.Charles wants to print any one of the numbers between 1 to 1000. How will you teach him to print the number with a piece of code?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- To generate random number first import the module called `random` and `randint()` function is used to get the random number.
+
+```python
+import random
+print(random.randint(1,1000))
+```
+
+**Output:**
+  
+669
+  
+</details>
+
+---
+  
+52.Can you explain what are accessor and mutator methods in python?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- The method defined within a class can either be an Accessor or a mutator method in python. The  accessor method is a function that returns a copy of an internal variable or computed value. Some Examples of Accessor method is,
+    - `index()`
+    - `count()`
+- A mutator method is a function that modifies the value of an internal data variable. 
+    - `append()`
+
+</details>
+
+---
+  
+53.How will you determine the type of instance and inheritance in python?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- The `isinstance()` method checks whether the object is and instance of a class or not.
+- The `issubclass()` method asks whether one class is a subclass of another class or not.
+  
+```python
+class MyClass1(object):
+  pass
+class MySubClass1(MyClass1):
+  pass
+print(isinstance(MySubClass1, object))
+print(issubclass(MySubClass1, MyClass1))
+print(isinstance(MySubClass1, MyClass1))
+  
+```
+
+</details>
+
+---
+  
+54.Fyodor is trying to get a copy of one object in python. How will you help him to get a copy of an object?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python we can use the deepcopy to copy an object.The `=` use to assign another reference to the same object in memory .
+- The deepcopy used to creates a new object in memory with the values of A and B will reference it. 
+
+```python
+from copy inport deepcopy
+x= deepcopy(y)
+```
+  
+```python
+y = x
+print( id(A), id(B))
+```
+  
+- Above progran Output is same ids.  
+  
+```python
+y = deepcopy(x)
+print( id(y), id(x)
+```
+  
+- Above program Output is different ids.
+  
+</details>
+
+---
  
+55.Can you explain static variables in python?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python static variables are allocated statically,The scope the variable is entire run of the program.
+- Variables are declared inside the class definition but not inside a method are class or static variables.
+  
+```python
+class My_class:
+    static_var = 2
+print (My_class.static_var) #2
+My_class.static_var = 5
+print ( My_class.static_var ) #5
+```
+
+</details>
+
+---
+  
+56.Difference between @static method and @classmethod in python.
+ 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- `@static method`
+     - Doesn't need self parameter
+     - Deosen't need self or cls as parameter
+     - Need decorator @staticmethod
+     - Can only access variables passed as argument.
+- `@classmethod`
+     - Doesn't need self parameter
+     - Need cls as parameter
+     - Need decorator @classmethod
+     - Can be accessed directly through the class.Don't need instance class.
+
+</details>
+
+---
+  
+57.John wants to get a list of class attributes in python. How will you help him to get it?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python the **inspect module** provides several useful functions to help get information about live objects such as modules, classes, methods, functions, tracebacks, frame objects, and code objects. 
+- The **getmembers(object)** method return all the members of an object in a list of (name, value) pairs sorted by name.
+
+</details>
+
+---
+  
+58.Does python support interfaces like other languages in java or c?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- No, python doesn't support interfaces.
+- Python does not support multiple inheritance.But,you can easily emulate the equivalence of interfaces.
+
+</details>
+
+---
+  
+59.Can you explain how would you achieve web scraping in python?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- Webscraping is a computer software technique of extracting information from the websites.This technique is mostly focuses of unstructured data on the web into structured data.
+- Python has some options for HTML scraping,These are,
+     - Mechanize
+     - Scrapemark
+     - Scrapy
+     - BeautifulSoup
+  
+</details>
+
+---
+  
+60.Franz wants to protect his python source code for that he is asking for some help from the jack, How will be going to help to do it?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- Python, is a byte-code-compiled interpreted language, it is very difficult to protect. Even if you use an exe-packager like py2exe, the layout of the executable is well-known, and the Python byte-codes are well understood. 
+- To protect the only way is to license it because if you compile your code, let us say machine code if your work is not protected by a license, it can still be commercialized against your will.
+
+</details>
+
+---
+  
+61.How will you install pip on windows can you list out some steps to do it?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- `pip` is a package managements system.It is used to install and manage  software packages in python.If you have python 3.4 pip is included with Python and it should be already be working on your system.
+- To install pip, first download `get-pip.py`.
+    - Open your command prompt window and run
+        `python get-pip.py`
+    - To verify the installation in your command prompt 
+         `pip --version`
+    - Upgrade pip on windows
+         `python -m pip install --upgrade pip`
+
+</details>
+
+---
+  
+62.What do *args and **kwargs mean?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- The parameter with ** and * allow for functions to be defined to accept and for users to pass any number of arguments, positional (*) and keyword (**). The single * form is used to pass a non-keyworded when we aren't sure how many arguments are going to be passed to a function, or if we want to pass a stored list or tuple of arguments to a function. The double **  form is used to pass keywords when we don't know how many keyword arguments will be passed to a function, which will be in a dict named kwargs.
+ 
+***args example**
+  
+```python
+def print_colours(*args):
+    print(args)
+print_colours('red','blue','gray','yellow')
+```
+
+** **kwargs example **
+  
+```python
+def print_num(**kwargs):
+  for key in kwargs:
+      print (key, kwargs[key])
+print_numb(one=1, two="two",three=3,four="four")
+```
+
+</details>
+
+---
+  
+63.Ken wants to know about exception handling in python how will you teach him to do it in object-oriented programming?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- An exception is a type of notification that interrupts the usual program execution. Exceptions help you to detect and react to unexpected events. The program’s state is saved when an exception arises, and control is passed to an exception handler. The exceptions are thrown or raised by programming code that must send a signal to the executing program about an error or an unusual situation.
+
+**For example**, when you want to open a file that doesn’t exist, the code responsible for opening the file will detect this and throw an exception with a proper error message. Exceptions are of two types in OOPs, such as checked exceptions and unchecked exceptions. 
+
+ - **Checked exception** - The classes which inherit compile-time exceptions are known as checked exceptions.
+ - **Unchecked exception** - The classes which inherit Runtime exceptions are known as unchecked exceptions.
+
+</details>
+
+---
+  
+64.How many except statements can a try-except block have in python?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python we can have more than zero except statements.
+- There has to be at least only one except statement.
+  
+**Syntax:**
+  
+```python
+try:
+   You do your operations here;
+except Exception1:
+   if the exception1 then excecute this block
+except Exception2:
+   if the exception2 then excecute this block
+else:
+   If there is no exception then execute this block.
+```
+
+</details>
+
+---
+  
+65.James asking to his junior want to run this piece of code
+  
+  ```python
+  print([1, 2, 3] + 4, 5, 6)
+  ```
+  
+He is asking to print the output for the code but he got some error in this how will you help him to correct the error and get the output?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- If he run the above code he will get an TypeError as can only concatenate list (not "int") to list
+  
+**Correct code:**
+  
+ ```python 
+ print([1, 2, 3] + [4, 5, 6])
+ ```
+
+**Output:**
+  
+[1, 2, 3, 4, 5, 6]
+  
+- We can add only the two list not an integer values.
+  
+</details>
+
+---
+  
+66.Charles wants to move the python shell to the home directory using `~` in python how will you guide him to move the home directory through the piece of code?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ 
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- On Unix and Windows, return the argument with an initial component of ~ or ~user replaced by that user's home directory.
+  
+```python
+import os
+home = str(os.path.expanduser('~'))
+print(home)
+```
+
+</details>
+
+---
+  
+67.Ryan asking to you test on variables against multiple values how will you explain this to him?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- We can use the `in` operator to test on variables against multiple values .
+  
+```python
+x=5
+if x in (1,2,3,4,5):
+  print("found")
+else:
+  print("Not found")
+```
+  
+- The above program validate x=1 or x=2 or x=3 or x=4 or x=5.
+
+</details>
+
+---
+  
+68.How to call an external command in Python.
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- The subprocess module allows you to spawn new processes, connect to their input/output/error pipes, and obtain their return codes. The subprocess.call() method run the command described by args. Wait for command to complete, then return the returncode attribute.
+  
+```python
+from subprocess import call
+call(["dir"])
+```
+
+</details>
+
+---
+  
+69.Kein is asking about the meaning of a single and double underscore before an object name to his senior coworker and how he will explain it to him. 
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- _fun: weak "internal use" indicator. E.g. from X import * does not import objects whose name starts with a single underscore.
+- __fun: the interpreter replaces this name with _classname__fun as a way to ensure that the name will not overlap with a similar name in another class.
+
+</details>
+
+---
+  
+70.Can you write a piece of code to read a single character from the user?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+```python
+while True:
+  Input = input('>>')
+  if len(Input) == 1:
+      break
+  print ("enter only one character")
+```
+
+</details>
+
+---
+  
+71.Fyodor asked doubt to his coworker to explain the difference between `raw_input()` and `input()` in python.
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python 2, `raw_input()` takes only the what exactly user enter by themself and passes it back as a string.
+- In python 3, `raw_input()` was taken as `input()`.So it will return exact what the user enter and old input() was removed.
+
+</details>
+
+---
+  
+72.Can you explain Why is Python not fully object-oriented?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+In Python is an object-oriented programming language but not pure. Because, Python doesn't support strong encapsulation , which is only one of many features associated with the term 'object-oriented'.
+
+</details>
+
+---
+  
+73.Is monkey patching considered good programming practice?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+  
+
+</details>
+
+---
+
+  
+  
+  
+  
+  
+  
