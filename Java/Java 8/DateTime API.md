@@ -92,7 +92,7 @@ public class test3 {
  
  - `LocalDateTime.now()` -this gives the current date and time in this format `2022-08-10T17:27:20.016675200`
  -  To convert the date and time in the given format we use `DateTimeFormatter` class.
- -  `ofPattern` is to define the pattern
+ -  `ofPattern` is to define the pattern.
  -  `format`- to format the date and time in the pattern mentioned.
  
  </blockquote>
@@ -200,7 +200,7 @@ public class LocalDateExample1 {
  
   <blockquote>
    
-   Current date will be displayed
+   Current date will be displayed.
    
   </blockquote>
    
