@@ -74,7 +74,7 @@ Yes
 	
 <details><summary><b>Explanation</b></summary>
 <blockquote>
-		The functional interface has been introduced in Java 8 to support the lambda expression. lambda expression is the instance of a functional interface.
+		The functional interface has been introduced in Java 8 to support the lambda expression. Lambda expression is the instance of a functional interface.
 </blockquote>
 	</details>
 </details>
@@ -183,10 +183,10 @@ It is used to implement a method defined by a functional interface.
 
 <blockquote>
 
-- `Consumer` - which takes only one argument
-- `Predicate` - which takes one argument and returns the result as a boolean value
+- `Consumer` - which takes only one argument.
+- `Predicate` - which takes one argument and returns the result as a boolean value.
 - `Supplier` - which does not take any arguments and returns a single result.
-- `Function` - which receives an argument and returns the result based on the processing
+- `Function` - which receives an argument and returns the result based on the processing.
 	
 </blockquote>
 
@@ -235,8 +235,7 @@ It is used to implement a method defined by a functional interface.
 	
 <blockquote>
 	
-JDK 8 allows static methods in the interface, prior to this, only
-one abstract method is allowed in functional interface 
+JDK 8 allows static methods in the interface, prior to this, only one abstract method is allowed in functional interface.
 
 </blockquote>
 	
@@ -263,7 +262,7 @@ Yes
 	
 <blockquote>
 	
-This is a functional interface, since there is only one abstract method
+This is a functional interface, since there is only one abstract method.
 	
 </blockquote>
 	
@@ -322,7 +321,7 @@ public interface Predicate<T> {
 	
 <blockquote>
 	
-A function that accepts an argument and returns a boolean value as an answer
+A function that accepts an argument and returns a boolean value as an answer.
 
 </blockquote>
 
