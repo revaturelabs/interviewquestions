@@ -1634,6 +1634,256 @@ When an exception is thrown by a main() method, Java Runtime terminates the prog
 	
 ---
 	
+60. Why an exception occurs in the program?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+There can be many reasons that might generate an exception in a Java program.
+
+- Opening a non-existing file in your program.
+- Reading a file from a disk but the file does exist there.
+- Writing data to a disk but the disk is full or unformatted.
+- When the program asks for user input and the user enters invalid data.
+- When a user attempts to divide an integer value by zero, an exception occurs.
+- When a data stream is in an invalid format, etc.
+
+</blockquote>
+
+</details>
+	
+---
+	
+61.Explain the Java exception hierarchy.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Throwable class is the parent class of all exception types. It is an immediate subclass of the Object class. Below Throwable class, there are two subclasses (two child objects) Error and Exception.
+
+Error: Error class is the subclass of Throwable class and a superclass of all the runtime error classes. It terminates the program if there is a problem related to a system or resources (JVM).
+
+Exception: An exception is an abnormal condition that is caused by runtime error in the program. It is the superclass of all exceptions in Java. It is further divided into checked and unchecked (runtime) exceptions.
+
+Checked exceptions are those exceptions that are checked by Java compiler at compilation. A list of some important checked exceptions are given below:
+
+ClassNotFoundException
+InterruptedException
+InstantiationException
+IOException
+SQLException
+IllegalAccessException
+FileNotFoundException, etc
+
+Runtime exceptions are those exceptions that are checked by JVM at runtime. Some important examples of runtime exceptions are given below:
+
+ArithmeticException
+ClassCastException
+NullPointerException
+ArrayIndexOutOfBoundsException
+NegativeArraySizeException
+ArrayStoreException
+IllegalThreadStateException
+SecurityException, etc.
+
+</blockquote>
+
+</details>
+
+---
+	
+62.Assume that statement 2 arises an exception in the following try-catch block:Will statement3 be executed?If the exception is not handled in catch block, will statement 4 be executed?If the exception is handled in the catch block, will statement 4 be executed?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+```java
+
+try {
+  statement 1;
+  statement 2;
+  statement 3;
+}
+catch (Exception1 e1) {
+}
+catch (Exception2 e2) {
+}
+statement 4;
+
+```
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+
+- No
+
+- No, program will be terminated abnormally if the exception is not caught in catch block.
+
+- Yes.
+
+</blockquote>
+
+</details>
+	
+---
+	
+63.Predict the output for the below code?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+```java
+
+public class Test {
+public static void main(String[] args){		
+try {
+ int value = 25;
+ if (value < 100)
+    throw new RuntimeException("Value is less than 100");
+ }
+catch (RuntimeException re) {
+   System.out.println(re.getMessage());
+  }
+System.out.println("Outside try-catch block");	
+  }
+}
+
+```
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+
+Value is less than 100, Outside try-catch block
+
+</blockquote>
+
+</details>
+
+---
+	
+64.Predict the output for the below code?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+```java
+
+public class Test1{
+public static void main(String[] args)
+{
+for (int i = 1; i <= 5; i++) {
+ System.out.print(i + " ");
+try {
+ int a = 10;
+ int b = 0;
+ int c = a/b;
+ System.out.println(c);
+ }
+catch (ArithmeticException ae) {
+}
+ }
+}}
+
+```
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+1 2 3 4 5
+
+</blockquote>
+
+</details>
+
+---
+
+65.Predict the output for the below code?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+```java
+
+class Test2 {
+public static void main(String[] args)
+{
+ System.out.println("101010"); 
+try 
+{ 
+ int x = 15/0; 
+ System.out.println("Result of x: " +x);  
+ System.out.println("555"); 
+ } 
+catch(ArithmeticException ae) 
+{ 
+  System.out.println("Arithmetic Exception"+ae); 
+ } 
+ }
+}
+
+```
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+101010
+Arithmetic Exceptionjava.lang.ArithmeticException: / by zero
+
+</blockquote>
+
+</details>
+
+---
+
+66.Predict the output for the below code?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+```java
+
+class Test {
+public static void main(String[] args)
+{
+System.out.println("abc"); 
+try 
+{ 
+ System.out.println("xyz"); 
+ double a = 5.0/0; 
+ } 
+catch(ArithmeticException e) 
+{ 
+try 
+{ 
+ System.out.println("Java"); 
+  int b = 20/0; 
+ } 
+catch(NullPointerException e) 
+{ 
+ System.out.println("123"); 
+ } 
+} 
+System.out.println("456");  
+ }
+}
+```
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+abc xyz 456
+
+</blockquote>
+
+</details>
 
 
 
