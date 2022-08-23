@@ -1885,6 +1885,110 @@ abc xyz 456
 
 </details>
 
+---
+
+67.Predict the output for the below code?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+```java
+
+class Test3 {
+public static void main(String[] args){ 
+try {
+  method();
+  System.out.println("After the method call");
+ }
+catch (StringIndexOutOfBoundsException se) {
+  System.out.println("StringIndexOutOfBoundsException");
+}
+catch (RuntimeException ex) {
+  System.out.println("RuntimeException");
+}
+catch (Exception e) {
+  System.out.println("Exception");
+ }
+}
+static void method() throws Exception {
+String str = "Universe";
+char ch = str.charAt(9);
+System.out.println(ch);
+ }
+}
+
+```
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+StringIndexOutOfBoundsException
+
+</blockquote>
+
+</details>
+
+---
+
+68.Predict the output for the below code?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+```java
+
+class Test4 {
+public static void main(String[] args){ 
+try {
+  method4();
+ System.out.println("I am in try block");
+ }
+catch(Exception e){
+ System.out.println("I am in catch block");	
+}
+finally {
+  System.out.println("I am in finally block");	
+ }
+}
+static void method4() throws Exception {
+try {
+  int x[] = {10, 20, 30, 40};
+  x[4] = 25;
+  System.out.println(x[4]);
+ 
+try {
+   int y = 1/0;
+   System.out.println(y);
+  }
+catch(ArithmeticException ae){
+   System.out.println("I am in inner catch block");  
+  }
+}
+catch (ArrayIndexOutOfBoundsException ae) {
+ System.out.println("I am in outer catch block");
+}
+ }
+}
+
+
+```
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+```java
+
+Output:
+I am in outer catch block, I am in try block, I am in finally block
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
 
 
 
