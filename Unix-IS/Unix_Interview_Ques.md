@@ -114,5 +114,90 @@ Here if the combine.txt file doesn't exists in the system, it will create a comb
 </details>
 
 ---
-12. 
+12. A 'test.txt' file has some old content and 'test1.txt' file has some newly added content then how would you add the content of test1 file in the end of test file so that it has both old and new content together?
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> we can use the `cat` command with two redirection operator `>>` to append the content of one file to another. In this case, we can write, `cat test1.txt >>test.txt`.
+
+</details>
+
+---
+13. 
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+>
+
+</details>
+
+---
+14. 
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+>
+
+</details>
+
+---
+15. 
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+>
+
+</details>
+
+---
+16. 
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+>
+
+</details>
+
+---
+17. 
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+>
+
+</details>
+
+---
+
+18. 
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+>
+
+</details>
+
+---
+
+19. 
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+>
+
+</details>
+
+---
+20. 
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+>
+
+</details>
+
+---
+21. 
+
+<details><summary> <b>Show Answer</b> </summary> 
 
