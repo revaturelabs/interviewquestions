@@ -111,14 +111,15 @@ Synchronized keyword is the only reason for deadlock situation, which allows onl
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> Show Answer </summary>
-
 <blockquote>
-
-
-
-</details>
+    
+| **Deadlock** | **Starvation** |
+|---|---|
+| There are two threads waiting for each other to complete the task and none get executed | Due to high priority process, less priority process gets blocked |
+| Processes block the resources | High priority processes are utilizing resources |
 
 </blockquote>
+</details>
 
 ---
 
