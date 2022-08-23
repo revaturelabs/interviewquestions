@@ -46,7 +46,7 @@
 
 - `groupId` - which is a domain ID, identifies the project uniquely.
 - `artifactId` - It is the name of the jar without version.
-- `version` - It creates a version of the project
+- `version` - It creates a version of the project.
 - `Local repository` - downloads all required dependencies and stores in this repository.
    
 </blockquote>
