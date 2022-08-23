@@ -63,7 +63,14 @@
   // Wrapping primitive datatype int to Wrapper object Integer
   Integer k = new  Integer(i);
   ```
+   
+- This process is called boxing, from JDK 1.5 autoboxing is available(implicit conversion), and the primitive data type is converted to an object in the following conditions
+
+- The primitive is passed as a parameter to a method that accepts that corresponding wrapper class.
+- The primitive is assigned to a variable of the corresponding warper class.
  </blockquote>  
+  
+
 </details>
 
 ---
