@@ -3,6 +3,8 @@
 
 1. Does `MongoDB` support primary-key and foreign-key relationship? If yes, then how?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > `MongoDB`,  by-default, does not support primary and foreign key relationship. But we can achieve it by embedding one document inside another one. For example, embedding 'city' document inside 'address' document. 
@@ -10,24 +12,31 @@
 
 ---
 
-2. Using the Aggregate function ‘$avg’ write a MongoDB query.
+2. Using the Aggregate function `$avg` write a MongoDB query.
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
- 
+
 > `db.student.aggregate([{$group : {_id:null, Average_marks : {$avg : "marks"}}}])`. Here we are getting average of the marks field in student collection.
 </details>
 
 ---
 
-3. Use the Aggregate function ‘$sum’ to write a MongoDB query. 
+3. Use the Aggregate function `$sum` to write a MongoDB query. 
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> `db.student.aggregate([{$group : {_id:null, Average_marks : {$sum : "marks"}}}])`. Here we are getting sum of the marks field in student collection.
+> `db.student.aggregate([{$group : {_id:null, Total_marks : {$sum : "marks"}}}])`. Here we are getting sum of the marks field in student collection.
   </details>
  
  ---
  
 4. In a find() query like `db.collection_name.find({ "school.student": "Jack"})` , what could be school and what could be a student?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -38,6 +47,8 @@
 ---
 
 5. When creating a database in MongoDB, if you are getting "could not connect to the server" error, then what steps you will follow to resolve that error. 
+
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > To resolve the "could not connect to the server" error, we can take few measures like:
@@ -74,12 +85,14 @@ To import again the backup file in Mongodb we can use the mongorestore command:
 8.  When a person inserts a document into collection, MongoDB automatically creates an `_id` field which acts as a primary key for that data, then how can we set one of our fields as primary key in MongoDB if we want? 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> The `_id` field is the default primary key in `MongoDB` and it is reserved , we cannot create any other primary key but, we can put the data that we want to be unique into the `_id` field of the document. 
+> The `_id` field is the default primary key in `MongoDB` and it is reserved , we cannot create any other primary key but, we can put the data that we want to be unique into the `_id` field of the document like `{"_id" : 01}`. 
 </details>
 
 --- 
 
 9. Create a “Company” database and make a collection as “Department” in it. 
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary>
   
@@ -91,7 +104,9 @@ db.createCollection("Department");
 
 ---
 
-10. Imagine you have an “employee” database and “emp” collection. Write a query to update salary of an employee by 1000 where name =”Jack”.
+10. Imagine you have an “employee” database and “emp” collection. Write a query to update salary of an employee by 1000 where name ="Jack".
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary> 
  
@@ -104,6 +119,8 @@ db.emp.update({"name": "Jack"}, {$inc: {"salary": 1000}});
 --- 
 
 11. Tell the difference between `update()` and `save()` method in MongoDB.
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -126,6 +143,9 @@ db.collection_name.update({name:"Henry"}, {$set: {dept: "HR"}},{upsert:true});
 ---
 
 13. Imagine you have added 5 documents into a collection named as “emp” and suddenly there is a need to add one common field into all the five documents then what query you will write for the same purpose? 
+
+
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > 
@@ -142,6 +162,8 @@ Here address is the field that has to be added in all the documents.
 
 14. Suppose a document have five fields as “name”, “age”, “salary”, “dept”, “address” and if you want to remove the “age” field from the document of “emp” collection, then what query you will provide to remove only “age” field?
 
+  
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > 
@@ -156,6 +178,9 @@ db.emp.update({},
 ---
 
 15. How do you fetch the employees, from “emp” collection, whose name starts with ‘A’. 
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
  
 >
@@ -169,14 +194,17 @@ db.emp.find({name: /A/});
 16. State the difference between update() and findAndModify() method in MongoDB.
 <details><summary> <b>Show Answer</b> </summary> 
   
-> The update() method can update the multiple documents at a time, whereas the findAndModify() method, by default, can update the single document at a time.   
+> - The update() method can update the multiple documents at a time, whereas the findAndModify() method, by default, can update the single document at a time.   
   
-> The update() method does not return any document after updation, whereas the findAndModify() method returns the pre-modified document.
+> - The update() method does not return any document after updation, whereas the findAndModify() method returns the pre-modified document.
 </details>
 
 ---
 
 17. Suppose you have a “Company” database and “emp” collection inside that database then how do you find the records of top 5 employees based on salary field?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > To find the top 5 records, we can use the sort() and limit() method along with find().  
@@ -192,6 +220,9 @@ db.emp.find({})
 ---
 
 18. Write a query to get all the records of employee whose “age” is greater than 25 and “experience” greater or equal to 3 years. 
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > 
@@ -207,6 +238,9 @@ db.collection_name.find({
 
 ---
 19. What is the difference between findOneAndReplace() and findOneAndUpdate() in MongoDB?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > The `findOneAndUpdate()` will update the fields of the document that are passed in the query. whereas the `findOneAndReplace()` will not only update the fields of the document that are passed in the query but also replaces or deletes the fields of the documents that are not passed to it in query.
@@ -215,6 +249,8 @@ db.collection_name.find({
 
 ---
 20. Differentiate between `findOneAndReplace()` and `replaceOne() in MongoDB?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -237,13 +273,16 @@ db.collection_name.find({
 22. Consider your documents have some array fields and you want to create an index on it. Is it possible in MongoDB? 
 <details><summary> <b>Show Answer</b> </summary> 
  
-> Yes, it is possible to create index on an array field. MongoDB automatically creates the multikey index for each value of an array.  For example, let’s take an array field which holds the values as address : [ "NY", "MIAMI","TEXAS"], we can create an index on that like:    
+> Yes, it is possible to create index on an array field. MongoDB automatically creates the multikey index for each value of an array.  For example, let’s take an array field which holds the values as address : [ "NY", "MIAMI","TEXAS"], we can create an index on that field by writing:    
 `db.collection_name.createIndex({“address” : 1})`
 
 </details>
 
 ---
 23. What sort of practice you will take as a developer to increase the availability of data in MongoDB when there is a routine maintenance check or system failure?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > As a developer we must make sure that all the data are not present in one single server or machine.   
@@ -338,6 +377,9 @@ db.collection_name.find({
 ---
 
 28. Jack is trying to fetch all the records, from a collection called “people”, without including the `_id` field. When he wrote the query as `db.people.find({} { _id: 0})`, he was getting syntax error message stating “unexpected { ”. What he needs to change in his query to get the desired output. 
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > The only problem in the `db.people.find({} { _id: 0})` is missing comma after empty {} inside find() method. To resolve this error,jack has to write the query as `db.people.find({}, { _id: 0});`. 
@@ -364,6 +406,9 @@ db.student.find({
 ---
 
 30. A developer doesn’t want to see the first 10 documents of “dept” collection and doesn’t have the permission to delete any document from the collection as well, so what query he must write to see the rest of the documents after 10 documents without deleting any document?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > Using skip() method, we can skips the number of documents based on our need.
@@ -393,9 +438,12 @@ db.collection_name.find({
 ---
 
 32. As 1 and -1 are used to represent  ascending and descending order respectively in sort() method, then what will happen if we use -2 or 2 instead in sort(). 
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
 
-> If we use -2 or 2 with the fields inside sort method instead of using -1 or 1, MongoDB will throw an error for that.
+> If we use -2 or 2 with the fields inside sort() method instead of using -1 or 1, MongoDB will throw an error for that. Only 1 can be used with the fields that we want to sort in ascending order and -1 can be used with the fields that we want to sort in descending order. 
 </details>
 
 ---
@@ -411,9 +459,10 @@ Here we are selecting only name and address fields from the data.
 ---
 
 34. How to check if the field is present or not in a collection in MongoDB. 
+
 <details><summary> <b>Show Answer</b> </summary> 
  
-> To check if the field is present or not in the mongodb we can use $ne operator in find query.  
+> To check if the field is present or not in the mongodb we can use $ne operator in the `find()` method query.  
 ```
 db.collection.find({
           "Field_value": {
@@ -443,6 +492,8 @@ db.collection_name.find({
 
 36. As we know MongoDB is a Document oriented Database. What are the benefits document database gives over others?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > There are many advantages document database gives over Relational or other databases:    
@@ -455,6 +506,8 @@ db.collection_name.find({
 ---
 
 37. Does MongoDB writes the data to the disk immediately or not?
+
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > No, MongoDB doesn't write the data to the disk immediately. Firstly, it pushes the write to the journals and from journal it pushes the data to the disk. Therefore it is not an immediate action. 
@@ -462,7 +515,10 @@ db.collection_name.find({
 
 ---
 
-38. What are your thoughts, when anyone says durability is one of the best features of MongoDB?
+38. What are your thoughts, when anyone says durability is one of the best features of MongoDB? 
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > Yes, it is correct that durablity is one of the best features of MongoDB.  
@@ -492,6 +548,9 @@ Whenever there is a server failure or system crashes, we can still recover the d
 ---
 
 41. Suppose I have an “address” field in “student” collection and if I removes it from the database, will it also remove it from the disk too?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > Yes, one we remove any field or fields from the document or a whole document, it will also be removed from the disk too.
@@ -500,6 +559,9 @@ Whenever there is a server failure or system crashes, we can still recover the d
 ---
 
 42. Does MongoDB creates any Index by default, when we create any new collection?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > Yes, MongoDB creates an Object-Id that is `_id`, which also works as an Index by default. 
