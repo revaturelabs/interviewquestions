@@ -62,7 +62,7 @@
   - The naming should be in reverse form of the domain.
   - If the domain is `example.com`, the package name should be `com.example` which is reverse form of domain.
   - We can add subpackages along with `com.example` like `com.example.packagename`.
-  - The special characters are not allowed for naming a  packages
+  - The special characters are not allowed for naming a  packages.
   - If the domain contains number, we have to use underscore. `12example.com` domain can be coverted as package name as `com._12example`.
  
 </blockqoute> 
