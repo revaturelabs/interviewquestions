@@ -2070,7 +2070,328 @@ Compile Time error
 
 ---
 
+71. How would you explain a ClassCastException in Java?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+When the JVM is unable to cast an object of one type to another type, this exception is raised. It is a RunTimeException.
+
+</blockquote>
+
+</details>
+
+---
+
+72. Explain chained exceptions in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+In a program, one exception can throw many exceptions by inducing a domino effect. This causes a chain of exceptions. It is beneficial to know the location of the actual cause of the exception. This is possible with the chained exceptions feature in Java. For implementation of chained exceptions in Java, two new constructors and two new methods are included in the Throwable class. These are,
+
+Constructors Of Throwable class:
+
+`Throwable(Throwable cause)` - The cause is the exception that raises the current exception.
+`Throwable(String msg, Throwable cause)` -  The msg string is the exception message. The exception that raises the current exception is the cause here.
+
+Methods Of Throwable class:
+
+`getCause()` -  The real cause of a raised exception is returned by this method.
+`initCause(Throwable cause)` - The cause of the calling exception is set by this method.  
+
+</blockquote>
+
+</details>
+
+---
+
+73. What is try-with-resources statement in Java?
+
+![Easy](htts://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+A try statement that declares one or more resources is called a try-with-resources statement. Examples of resources are input and output stream, a database connection, etc. All such resources need to be closed at the end of the program execution. This statement ensures that the code closes the resources that were opened by the try keyword.
+
+The below example reads the first line of a file via an instance of BufferedReader.  BufferedReader is the resource here that needs to be closed after its usage in the program.  
+
+```java
+
+static String readFirstLineFromFile(String path) throws IOException { 
+    try (BufferedReader br =  new BufferedReader(new FileReader(path))) { 
+        return br.readLine(); 
+    } 
+} 
+ 
+
+```
+
+The try-with-resources is declared by declaring the resource object in parentheses immediately after the try keyword. As a BufferedReader instance is declared inside the try-with-resource statement, it will be closed even if the try statement terminates abruptly. 
+
+</blockquote>
+
+</details>
+
+---
+
+74. How to use exception handling with method overriding?
+
+![Easy](htts://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- When exception handling is used with method overriding, it causes ambiguity. The compiler gets confused as to which method definition it should follow, the one in the superclass or the subclass. Certain rules can help prevent this ambiguity while using exceptions with inheritance.
+- If the parent class method does not throw exceptions, the overriding class method should throw only unchecked exceptions. A checked exception will result in a compilation error.
+- In the case of the parent class method throws checked exceptions, the child class method may throw any unchecked exception as well as any or all of the checked exceptions thrown by the superclass.
+- The child class can also declare a few checked exceptions that the parent class does not throw, but it needs to ensure that the scope of such checked exceptions in the child class is narrower as compared to the parent class.
+- When the superclass throws an unchecked exception, the subclass method can throw either none or any number of unrelated unchecked exceptions.
+
+</blockquote>
+
+</details>
+
+---
+
+75.  Is It Necessary That Each Try Block Must Be Followed By A Catch Block?
+
+![Easy](htts://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+No it is not mandatory that there should be a catch block after a try block. try block can have only a matching finally block. So there are these valid combnations try-catch-finally, try-catch, try-finally.
+
+</blockquote>
+
+</details>
+
+---
+
+76.What Is Exception Propagation?
+
+![Easy](htts://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+When an exceptional condition occurs within a method, the method (where the exception occurred) creates an Exception Object and throws it. The created exception object contains information about the error, its type and the state of the program when the error occurred. 
+
+The method where the exception is thrown may handle that exception itself or pass it on. In case it passes it on, run time system goes through the method hierarchy that had been called to get to the current method to search for a method that can handle the exception.
+
+If your program is not able to catch any particular exception, that will ultimately be processed by the default handler. This process of going through the method stack is known as Exception propagation.
+
+</blockquote>
+
+</details>
+
+---
+
+77.Debug the error in the below code?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+```java
+
+class Superclass{
+ public void displayMsg() throws IOException{
+    System.out.println("In Superclass displayMsg()");
+   throw new IOException("Problem in method - displayMsg - Superclass");
+ 	}
+ 	}
+ public class ExceptionDemo extends Superclass{
+ public void displayMsg() throws Exception{  
+  System.out.println("In ExceptionDemo displayMsg()"); 
+ throw new Exception("Problem in method - displayMsg - ExceptionDemo");
+	 }  
+	} 
+
+```
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Here parent class had declared IOException where as subclass has declared Exception. Exception is the super class of IOException thus it is wrong according to the rules of method overriding and exception handling. Thus the code will give compiler error.
+
+</blockquote>
+
+</details>
+
+---
+
+78.Predict the output  in the below code?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+```java
+
+public class ExceptionTest
+{
+        public static void main(String[] args)
+        {
+                try{
+                        Exception ae = new Exception("Exception");
+                        ae.initCause(new ArithmeticException("Cause of the ArithmeticException"));
+                        throw ae;
+                }
+                catch (Exception ae){
+                        System.out.println(ae);
+                        System.out.println(ae.getCause());
+                }
+                try {
+                        NumberFormatException ex = new NumberFormatException("NumberFormatException");
+                        ex.initCause(new NullPointerException("Cause of the NullPointerException"));
+                        throw ex;
+                }
+                catch(NumberFormatException ex){
+                        System.out.println(ex);
+                        System.out.println(ex.getCause());
+                }
+        }
+}
+
+```
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+```java
+
+Output:
+java.lang.Exception:Exception
+java.lang.ArithmeticException:Cause of the ArithmeticException
+java.lang.NumberFormatException:NumberFormatException
+java.lang.NullPointerException:Cause of the NullPointerException
+
+```
+	
+</blockquote>
+
+</details>
+
+---
+
+79.Predict the output  in the below code?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+```java
+
+public class ThrowsDemo
+{
+     static void throwMethod1() throws NullPointerException
+     {
+          System.out.println ("Inside throwMethod1");
+          throw new NullPointerException ("ThrowsDemo1");
+     }
+     static void throwMethod2() throws ArithmeticException
+     {
+          System.out.println("Inside throwsMethod2");
+          throw new ArithmeticException("ThrowsDemo2");
+     }
+     public static void main(String args[])
+     {
+          try
+          {
+               throwMethod1();
+          }
+          catch (NullPointerException exp)
+          {
+               System.out.println ("Exception is: " +exp);
+          }
+          try
+          {
+               throwMethod2();
+          }
+          catch(ArithmeticException ae)
+          {
+               System.out.println("Exception is: "+ae);
+          }
+     }
+}
+
+```
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+```java
+
+Output:
+Inside throwMethod1
+Exception is:java.lang.NullPointerException:ThrowsDemo1
+Inside throwsMethod2
+Exception is:java.lang.ArithmeticException:ThrowsDemo2
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+80.Predict the output  in the below code?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+```java
+
+public class CustomException extends Exception{
+     public CustomException(String msg){
+          super(msg);
+     }
+}
+
+public class CustomDemo{
+      public static void main(String args[]) throws Exception{
+           CustomDemo custom = new CustomDemo();
+           custom.display();
+      }
+      public void display() throws CustomException{
+           for(int i=2;i<20;i=i+2){
+                 System.out.println("i= "+i);
+                 if(i==8) {
+                       throw new CustomException("My Exception Occurred");
+                 }
+           }
+      }
+}
+```
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+```java
+
+Output:
+i=2
+i=4
+i=6
+i=8
+Exception in thread "main" CustomException:MyExceptionOccurred
+
+```
+
+</blockquote>
+
+</details>
 
 
 
