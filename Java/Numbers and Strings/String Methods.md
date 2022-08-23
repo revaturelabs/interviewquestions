@@ -9,7 +9,7 @@
 - String are sequence of characters in java.
 - String is in `java.lang package`.
 - String is immutable and are stored inside the string constant pool. 
-- If we try to alter the value of String variable, new String object is created and assigned to same reference variable
+- If we try to alter the value of String variable, new String object is created and assigned to same reference variable.
 </blockqoute> 
 </details>
 
@@ -89,7 +89,7 @@ public class Main {
 <blockquote>
 
 - When we `new` keyword while creating, the memory is allocated at heap. 
-- If we again create a variable with the same value, a new memory is created in heap
+- If we again create a variable with the same value, a new memory is created in heap.
 - If we create without `new` keyword, it will be stored in String Constant Pool.
 - If we create a string with the same value without `new`, the same reference will be stored to the variable instead of creating new memory. 
 
