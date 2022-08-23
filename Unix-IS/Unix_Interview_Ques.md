@@ -123,20 +123,26 @@ Here if the combine.txt file doesn't exists in the system, it will create a comb
 </details>
 
 ---
-13. 
+13. Suppose using `mkdir` command you have created one directory as "program" and that is an empty directory and now you want to delete the directory from your system, then which command can be used to delete that directory?
 
 <details><summary> <b>Show Answer</b> </summary> 
 
->
+> Using `rmdir` command we can delete an empty directory. Just we have to write the directory name after `rmdir` command.  
+```
+rmdir program
+```
 
 </details>
 
 ---
-14. 
+14. While working on a project you have created one directory as "program" and added some files and folders in it which contains some data related to the project. Now the project has been deployed in the working environment and there is no need of that directory in the system now. So, for deleting that directory what command you can write?
 
 <details><summary> <b>Show Answer</b> </summary> 
 
->
+> To delete a directory that contains some files and folders, we can use the `rm` command with `-r` option.  
+```
+rm -r program
+```
 
 </details>
 
