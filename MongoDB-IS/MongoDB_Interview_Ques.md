@@ -391,28 +391,49 @@ db.collection_name.find({
 
 32. As 1 and -1 are used to represent  ascending and descending order respectively in sort() method, then what will happen if we use -2 or 2 instead in sort(). 
 <details><summary> <b>Show Answer</b> </summary> 
-  
+
+> If we use -2 or 2 with the fields inside sort method instead of using -1 or 1, MongoDB will throw an error for that.
 </details>
 
 ---
 
 33. In a document having 5 fields “name”, “age”, “score”, “subject” and “address”, when your friend is trying to fetch only “name” and “address” field using the following query “db.collection.find({}, {_id: 0, name: 1, age: 0, score: 0, subject: 0, address: 1})” , he is getting an error message in output screen. What need to be changed in the above query to make it run and produce the desired output. 
 <details><summary> <b>Show Answer</b> </summary> 
-  
+
+> In the projection query, we cannot use combination of 0 and 1. It should be either all 1 or all 0, except _id field value. So to get rid of that error we can re-write the query as:  
+`db.collection.find({}, {_id: 0, name: 1, address: 1});`   
+Here we are selecting only name and address fields from the data.
 </details>
 
 ---
 
 34. How to check if the field is present or not in a collection in MongoDB. 
 <details><summary> <b>Show Answer</b> </summary> 
-  
+ 
+> To check if the field is present or not in the mongodb we can use $ne operator in find query.  
+```
+db.collection.find({
+          "Field_value": {
+           $ne: null}
+           });
+```
 </details>
 
 ---
 
 35. A boss has given a task to you to give the “name” and “department” of those employees who do not work on Monday and Tuesday of every “week” and having “experience” less than 5. What sort of query you will write for the same purpose. 
 <details><summary> <b>Show Answer</b> </summary> 
-  
+
+> 
+```
+db.collection_name.find({
+       $and : [
+       {"week": {$nin : [ "Monday", "Tuesday"]}},
+       {"experience" : {%lt : 5}}
+       ]},
+       {"_id": 0, "name" : 1, "department" : 1}
+       );
+```
 </details>
 
 ---
@@ -420,7 +441,12 @@ db.collection_name.find({
 36. As we know MongoDB is a Document oriented Database. What are the benefits document database gives over others?
 
 <details><summary> <b>Show Answer</b> </summary> 
-  
+
+> There are many advantages document database gives over Relational or other databases:    
+> 1. They are schema less. They doesn't have any structure.  
+> 2. No need to have same number of fields in all the documents. Some may have > 4 fields while others may have 3 or 5 fields.
+> 3. They have replica set that contains duplicate data in it. So if one server fails we can still recover the data from other servers.   
+> 4. All the documents can be independent of one another as they don't have foreign keys concept.  
 </details>
 
 ---
@@ -428,6 +454,7 @@ db.collection_name.find({
 37. Does MongoDB writes the data to the disk immediately or not?
 <details><summary> <b>Show Answer</b> </summary> 
 
+> No, MongoDB doesn't write the data to the disk immediately. Firstly, it pushes the write to the journals and from journal it pushes the data to the disk. Therefore it is not an immediate action. 
 </details>
 
 ---
@@ -435,12 +462,17 @@ db.collection_name.find({
 38. What are your thoughts, when anyone says durability is one of the best features of MongoDB?
 <details><summary> <b>Show Answer</b> </summary> 
 
+> Yes, it is correct that durablity is one of the best features of MongoDB.  
+Whenever there is a server failure or system crashes, we can still recover the data from the journal nodes as well as we can get the data from different replica sets.   
 </details>
 
 ---
 39. Is creating Indexes in MongoDB always helpful?
 <details><summary> <b>Show Answer</b> </summary> 
-  
+
+> We cannot deny the fact that using indexes efficiently in MongoDB can increase query performance, But there are some disadvantages of indexes as well like:  
+> - Each index that we create takes around 8 kB of space in memory. So, if we have many indexes that are not in use frequently will drain our resources. 
+> - Whenever we update or delete the documents, the indexes that are associated with that document also be updated. And these indexe updates hinder the write performance badly.
 </details>
 
 ---
@@ -448,6 +480,10 @@ db.collection_name.find({
 40. A primary key also known as object-id in MongoDB contains what?
 <details><summary> <b>Show Answer</b> </summary> 
 
+> An object-id in MongoDB also refers as primary key consists of 12-byte BSON type. Out of those 12 bytes:  
+> - 4 byte represents the time in seconds, when it is created.
+> - 5 byte represents the Unique-id of the system and that is unique to the machine and process. 
+> - 3 byte increment represents the increment counter generated randomly. 
 </details>
 
 ---
@@ -455,13 +491,15 @@ db.collection_name.find({
 41. Suppose I have an “address” field in “student” collection and if I removes it from the database, will it also remove it from the disk too?
 <details><summary> <b>Show Answer</b> </summary> 
 
+> Yes, one we remove any field or fields from the document or a whole document, it will also be removed from the disk too.
 </details>
 
 ---
 
 42. Does MongoDB creates any Index by default, when we create any new collection?
 <details><summary> <b>Show Answer</b> </summary> 
-  
+
+> Yes, MongoDB creates an Object-Id that is `_id`, which also works as an Index by default. 
 </details>
 
 ---
