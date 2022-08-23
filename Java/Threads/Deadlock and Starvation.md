@@ -72,7 +72,7 @@ Deadlock situations can be detected by running the executable code on `cmd` and 
 
 ---
 
-5. How does Java handles starvation? 
+5. How does Java handle starvation? 
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -80,10 +80,10 @@ Deadlock situations can be detected by running the executable code on `cmd` and 
 
 <blockquote>
 
-- Using the below methods we can remove the starvation.
+ -  Using the below methods we can remove the starvation.
 
-`Thread.yield()`-when the thread in the process after releasing the lock gets a fair chance to occupy the C.P.U. and can get time to complete its execution till the original thread again gets the control over the C.P.U.
-`Thread.sleep()` -method to given chance to other Threads for execution.
+`Thread.yield()`-When the thread in the process after releasing the lock gets a fair chance to occupy the C.P.U. and can get time to complete its execution till the original thread again gets the control over the C.P.U.
+`Thread.sleep()` -Method to given chance to other Threads for execution.
 
  </details>
 
@@ -172,7 +172,7 @@ class DeadlockSample extends Thread {
 
 <blockquote>
 
-Here the thread1 will wait for thread2 to complete and thread2 will wait for thread1 to complete, thus the deadlock condition occurs.
+Here the thread1 will wait for thread2 to complete and thread2 will wait for thread1 to complete. Thus, the deadlock condition occurs.
 </blockquote>
 </details>
 
