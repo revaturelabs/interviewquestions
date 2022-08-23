@@ -35,10 +35,10 @@
 - Statements are like sentences in a language.
 - We can use semicolon to seperate the statements(;).
 - There are for four types of statements.	
-  - Assignment statement : to Assign the values to varaible
+  - Assignment statement : To Assign the values to varaible
   - Increment or decreament statement : `++` or `--`
-  - Method invocations statement - calling the method
-  - Object creation statement - object created with reference
+  - Method invocations statement - Calling the method
+  - Object creation statement - Object created with reference
 </details>
 </blockquote>
 
