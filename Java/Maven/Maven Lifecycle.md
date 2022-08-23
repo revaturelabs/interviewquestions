@@ -8,14 +8,14 @@
 
 Here are some of the most important phases in the default build lifecycle:
  
-  >- `validate`: check if all information necessary for the build is available
-  >- `compile`: compile the source code
-  >- `test-compile`: compile the test source code
-  >- `test`: run unit tests
-  >- `package`: package compiled source code into the distributable format (jar, war, …)
-  >- `integration-test`: process and deploy the package if needed to run integration tests
-  >- `install`: install the package to a local repository
-  >- `deploy`: copy the package to the remote repository
+  >- `validate`: check if all information necessary for the build is available.
+  >- `compile`: compile the source code.
+  >- `test-compile`: compile the test source code.
+  >- `test`: run unit tests.
+  >- `package`: package compiled source code into the distributable format (jar, war, …).
+  >- `integration-test`: process and deploy the package if needed to run integration tests.
+  >- `install`: install the package to a local repository.
+  >- `deploy`: copy the package to the remote repository.
 
 </details>
 
