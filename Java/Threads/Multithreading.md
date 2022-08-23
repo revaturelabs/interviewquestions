@@ -1,6 +1,8 @@
 ## Multithreading
 
 1. What is multithreading?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
 <summary><b> Show Answer </b></summary>
 <blockquote>
@@ -18,6 +20,8 @@ A)Main<br>
 B)Default<br>
 C)Runnable<br>
 D)Run<br>
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
 <summary><b> Show Answer </b></summary>
 <blockquote>
@@ -36,6 +40,8 @@ If there is no thread is created, the main thread will execute the process by de
 ---
 
 3. How can we create threads in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
 <summary><b> Show Answer </b></summary>
 <blockquote>
@@ -49,6 +55,8 @@ If there is no thread is created, the main thread will execute the process by de
 ---
 
 4.Is there any class in java which help us to create a thread? Explain how?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
 <summary><b> Show Answer </b></summary>
 <blockquote>
@@ -57,7 +65,6 @@ If there is no thread is created, the main thread will execute the process by de
 - Create a class and extend that class by Thread class. Then, the created class will act as thread in java. 
 - After extending `Thread` class, the class should override the `run` method.
 - After creating object for the class, we can use `start()` method to run the method.
-</blockquote>
 
 ``` java
 class Greeting extends Thread{
@@ -76,12 +83,17 @@ public class Main {
 }
 ```
 
->When the method gets started by calling `start()` method, a new thread is created and starts executed it. On the time, the main thread will continue the remaining part. The thread will give the message `Hello` 10 times.
+- When the method gets started by calling `start()` method, a new thread is created and starts executed it. 
+- On the time, the main thread will continue the remaining part. The thread will give the message `Hello` 10 times.
+	
+</blockquote>
 </details>
 
 ---
 
 5. Explain the use of `sleep()` method in `Thread` class.
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
 <summary><b> Show Answer </b></summary>
 <blockquote>
@@ -92,7 +104,7 @@ public static void sleep(long millis) throws InterruptedException
 ```
 - sleep()` method takes milliseconds as parameter, makes the current running thread to hold for that given milliseconds.
 - This method will throw `InterruptedException`. So, we need to handle the exception, either by adding `throws` statement or by enclosing that within `try-catch` block.
-- </blockquote>
+
 ``` java
 class Greeting extends Thread{
 	public void run() {
@@ -110,7 +122,9 @@ public class Main {
 	}
 }
 ```
->When the `sleep()` method is called, the thread is hold by 1000 millisecond that is 1 second. So, The thread will give the message `Hello` 10 times for every second.
+- When the `sleep()` method is called, the thread is hold by 1000 millisecond that is 1 second. 
+- So, The thread will give the message `Hello` 10 times for every second.
+</blockquote>
 </details>
 
 ---
@@ -280,6 +294,9 @@ public static void main(String argvs[])
  ---
 
 13. What is Daemon Thread and how it differs from normal thread?
+
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)	
 <details><summary> Show Answer </summary>
 
 <blockquote>
@@ -290,6 +307,9 @@ public static void main(String argvs[])
 
  ---
  14. How will you make the thread as Daemon thread?
+	
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details><summary> Show Answer </summary>
 <blockquote>
 
