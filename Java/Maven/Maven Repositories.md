@@ -51,7 +51,7 @@
 
 ---
 
-4. Explain about Remote repository.
+4. Explain about Remote Repository.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
