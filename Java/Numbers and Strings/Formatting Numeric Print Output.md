@@ -1,6 +1,6 @@
 ## Formatting Numeric Print Output
 
-1.Find the output the code
+1.Find the output of the code.
 ``` java
 
 public class Main {
