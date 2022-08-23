@@ -44,7 +44,7 @@ public class throw1 {
 ```
 <details><summary><b> Show Answer</b></summary>
 	
->An individual is not eligible to vote
+>An individual is not eligible to vote.
 
 <details><summary><b> Explanation</b></summary>
 
@@ -200,7 +200,7 @@ public class Throw1{
 ```
 <details><summary><b> Show Answer</b></summary>
 	
->Number is negative, cannot calculate square
+>Number is negative, cannot calculate square.
 	
 <details><summary><b> Explanation</b></summary>
 
@@ -237,7 +237,7 @@ public class Throws2 {
 ```
 <details><summary><b> Show Answer</b></summary>
 	
->Number cannot be divided by 0
+>Number cannot be divided by 0.
 
 <details><summary><b> Explanation</b></summary>
 
@@ -411,7 +411,7 @@ The finalize() method called
 
 <details><summary><b> Explanation</b></summary>
 
->exception occurs in the method1() method where it is not handled, so it is propagated to the previous method2() method where it is not handled, again it is propagated to the method3() method where exception is handled.
+>Exception occurs in the method1() method where it is not handled, so it is propagated to the previous method2() method where it is not handled, again it is propagated to the method3() method where exception is handled.
 	
 </details>
 </details>
@@ -461,7 +461,7 @@ msg() in ExceptionChild cannot override msg() in Message
 ```
 <details><summary><b> Explanation</b></summary>
 
->method overriding is not done by the derived class method msg() to the parent class method msg() when it throws a checked exception i.e IOException in exception handling.
+>Method overriding is not done by the derived class method msg() to the parent class method msg() when it throws a checked exception i.e IOException in exception handling.
 
 </details>
 </details>
@@ -497,7 +497,7 @@ class Child1 extends Parent{
 
 <details><summary><b> Explanation</b></summary>
 
->method overriding can be  done by the derived class method msg() to the parent class method msg() when it throws a unchecked exception i.e ArithmeticException in exception handling.
+>Method overriding can be  done by the derived class method msg() to the parent class method msg() when it throws a unchecked exception i.e ArithmeticException in exception handling.
 
 </details>
 </details>
