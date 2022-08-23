@@ -140,6 +140,7 @@ In the above code, the method `Character.getNumericValue(c)` gets the numeric va
 <blockquote>
 
   -  If we directly assign the value of `char` to `int`, it will assign the ASCII value. Therefore we have subract `48` to get the integer value.
+	
     **Example**
     ``` java
     public class Main {
@@ -151,6 +152,7 @@ In the above code, the method `Character.getNumericValue(c)` gets the numeric va
     }
     ```
     -  In the above code, the value of c is automatcally converted into `57` integer value that is ascii value.
+	
     -  Then the subtraction is done to get `9`.
   
 </blockqoute> 
