@@ -802,12 +802,211 @@ df = pd.DataFrame(diction)
     - Using `python -V` command
 - Here this is one of the simplest way to check the python current version
 
-  1.
-
+  1.Open cmd/terminal
+  2.Write python -V and press enter,it will return the current python interpreter version in the form of string.
   
+```python
+python -V
+```
+
+</details>
+  
+---
   
 42.Jacks wants to know how to process the file in python. How will you explain the file processing modes that Python supports.
-43.How are you going to get rid of duplicate elements from a list?
-44.Harry wants to combine his code and data together. He is searching for methods to merge both code and data into a single object. Which concepts will be useful for him?
-45.Jhon have string as ‘hello world’ he wants to cut some part of the string. How will you help him to cut part as ‘wo’ in string?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg) 
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
 
+- A file is some information which is stored in the computer storage devices. Python provides basic functions and methods necessary to manipulate files by default. You can do most of the file manipulation using a file object. Python language supports two types of files. 
+1.Text dile 
+2.Binary file
+
+- Different modes to opening a file
+     - `r` - open a file for reading.
+     - `w` - open a file for reading.If the file exists new file will be created.
+     - `x` - open for exclusive creation,fail if the file is already exists.
+     - `a` - open for rading,appending to the end of the file it exists.
+     - `b` - binary mode
+     - `t` - text mode
+     - `+r` - open a file for reading and writing.
+
+</details>
+
+---
+ 
+43.Franz is asking to her junior to remove the duplicate values froma list.How she will be going to get rid of duplicate elements from a list?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- To remove duplicate elements/values from a list ,we can use the buitl-in function `set()`.The specify of `set()` method is it will return only the distinct elements.
+  
+```python
+duplicate_values = [1,1,2,3,2,2,4,5,6,2,1]
+distinct_values = set(duplicate_values)
+print("Before removing duplicate values:",duplicate_values)
+print("After removing duplicate values",list(distinct_values))
+```
+  
+**Output:**
+  
+Before removing duplicate values: [1, 1, 2, 3, 2, 2, 4, 5, 6, 2, 1]
+After removing duplicate values [1, 2, 3, 4, 5, 6]
+
+</details>
+
+---
+  
+
+44.Harry wants to know What is python's parameter psssing mechanism? How will you explain this to him?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In Python parameter passing mechanism is a call by value.
+- The call by value method is arguments are passed by assignment in Python. The actual parameters to a function call are introduced in the local symbol table of the called function when it is called,arguments are passed using call by value.If you change the value of the parameter within a function, the change is reflected in the calling function .
+ 
+  
+```python
+def func(a, b):
+    a = 'new-value'        
+    b = b + 1              
+    return a, b            
+x, y = 'old-value', 88     # assign values to a and b
+x, y = func(x, y)         # function calling
+print (x, y )              
+```
+
+</details>
+
+---
+  
+45.Jhon has a string as `hello world` he wants to cut some part of the string. How will you help him to write a piece of code to cut part as `wo` in the string?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- To cut or access some part of the string, We can use slicing method in python.
+  
+```python
+x='hello world'
+y=x[6:8]
+print(y)
+```
+
+**Output:**
+
+wo
+  
+- He can use the above code to access 'wo' from 'hello world'.
+
+</details>
+
+---
+  
+46.Ernest is searching for **conditional expressions** in python how will you help him to get to know about conditional expressions?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python **conditional expressions** are known as **Ternary operators**.Ternary operators are used to evaluate something based on the condition is true or not.
+- Ternary operator allows to test a condtion quickly instead of multiline if satatement.
+
+**Syntax:**
+
+```python
+[true] if [expression] else [false]
+```
+ 
+```python
+x=25
+y=10
+result='x greater' if x>y else 'y greater'
+print(result)
+```
+  
+</details>
+
+---
+  
+47.Can you explain what will be the process of compilation and loading in python?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python first compiles a source code (.py file) into a byte code. Compiling is a simple translation step, and byte code is a lower-level and platform-independent source code.
+- After compilation is usually stored in `.pyc` files.
+- The bytecode (.pyc file) is loaded into the Python runtime and interpreted by a Python Virtual Machine, a piece of code that reads each instruction in the bytecode and executes whatever operation is indicated. The byte code compilation is automatic, and the PVM is just part of the Python system that you have installed on your machine.The PVM is always present as part of the Python system and is the component that truly runs your scripts.
+- Each time an interpreted program is run, the interpreter must convert source code into machine code and also pull in the runtime libraries. This conversion process makes the program run slower than a comparable program written in a compiled language. 
+- Python has something clever to improve the performance. It compiles to bytecode (.pyc files) the first time it executes a file. This substantially improves the execution of the code the next time the module is imported or executed.
+
+</details>
+
+---
+  
+48.Henry is asking about What does the `yield` keyword do in python to his senior and how he will explain it to him?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python `yield` keyword can be use like the return statement in a function. When done so, the function instead of returning the output, it returns a generator that can be iterated upon. 
+- You can iterate through the generator to extract items. Iterating is done using a for loop or using the `next()` function.
+
+```python
+def Squre(n):
+  i = 1
+  while i < n:
+      yield i * i
+      i += 1
+print(list(Squre(5)))
+```
+</details>
+
+---
+  
+49.when you are doing a presentation, one of your coworkers is asking Is all the memory freed when python exists how will you explain this to this coworker?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python Garbage collector to release unreferenced memory with `gc.collect()`. 
+- Python will definitely leak memory is when you declare circular references in your object declarations and implement a custom __del__ destructor method in one these classes. 
+- Python modules are not always deallocated when Python exits.Python's garbage collector does this. So, Python doesn't detect and free circular memory references before making use of the garbage collector.
+- So, Python does not detect and free circular memory references before making use of the garbage collector.
+
+</details>
+
+---
+  
+50.Can you explain how will you use the `split()` methods of the `re` module in python to one of your coworkers?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python `re` module provides the regular expression matching operations.Both patterns and strings to be searched can Unicode strings as well as 8-bit strings.
+- `split()` uses a regex pattern to 
+
+</details>
+
+---
+  
+ 
