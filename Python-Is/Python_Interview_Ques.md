@@ -42,15 +42,28 @@ print("after reversing",list1[::-1])
   
 ---
   
-3.Jacks want to enter these multiple line values  1 2 3 4 5
-into a single line as [1,2,3,4,5], which method is help him to get the values in python?
+3.Jack want to enter these multiple line values  5 2 3 4 1 
+into a single line and he is trying to order the list as [1,2,3,4,5] , which method is help him to get the values in python?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-If We wants to enter mutiple line values into a single line we can use 'list' method.
+- If he wants to enter mutiple line values into a single line we can use 'list' and separated by commas.
+- If he want to order the list means use `sort()` method in python.
+  
+```python
+values = [5,2,3,4,1 ]
+print("list of values",values)
+values.sort()
+print("sorted values",values)
+```
+
+**Output:**
+  
+list of values [5, 2, 3, 4, 1]
+sorted values [1, 2, 3, 4, 5]
   
   </details>
   
@@ -392,7 +405,7 @@ print ("Reverse is", x[ :: -1] )
   
   ---
   
-20.Is the Xrange () method occupies only the least memory? What would be the reason?
+20.Is the `Xrange()` method occupies only the least memory? What would be the reason?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -427,7 +440,7 @@ print ("Reverse is", x[ :: -1] )
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- In python Try and except statements are used to catch and handle exceptions. Statements that can raise exceptions are kept inside the try clause and the statements that handle the exception are written inside except clause.
+- In python `Try` and `except` statements are used to `catch` and handle exceptions. Statements that can raise exceptions are kept inside the try clause and the statements that handle the exception are written inside except clause.
   
 ```python
 while True:
@@ -475,7 +488,7 @@ import re
   
 ---
   
-25.How will you explain the function re.match do to junior developer?
+25.How will you explain the function `re.match` do to junior developer?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -488,15 +501,15 @@ import re
   
   ---
   
-26.Can we use the + operator to add elements to a set? If not, then how to add elements into a set?
+26.Can we use the `+` operator to add elements to a set? If not, then how to add elements into a set?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
  
-- No,We can't use the '+' operator to add elements.
-- We can use set.add() function to add elements.
+- No,We can't use the `+` operator to add elements.
+- We can use `set.add()` function to add elements.
   
 ```python
 languages = {'Python', 'C++', 'Java', 'C'}
@@ -517,7 +530,7 @@ print(languages)
 <blockquote>
   
 - In python `String.isupper()` method used to check if all letters are in Uppercase.
-- The isupper() method returns True if all the characters are in upper case, otherwise False. 
+- The `isupper()` method/function returns True if all the characters are in upper case, otherwise False. 
 
 ```python
 a = "Hello World!"
@@ -530,15 +543,15 @@ print(b.isupper())
   
   ---
  
-28.Can you list some differences between single ‘/’ and double ‘//’ in python?
+28.Can you list some differences between single `/` and double `//` in python?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- / returns float value,It is Float Division        
-- // floor division rounds the result down to the nearest whole number.It is Integer Division
+- `/` returns float value,It is Float Division        
+- `//` floor division rounds the result down to the nearest whole number.It is Integer Division
 
 ```python
 num1 = 5
@@ -580,7 +593,7 @@ print(list[7:3])
   
   ---
 
-30.Which data types of support slicing?
+30.Henry wants to learn slicing but he don't know Which data types of support slicing,How you help him to learn the different data types supported for slicing?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
@@ -588,6 +601,12 @@ print(list[7:3])
 <blockquote>
   
 Python supports slice for any sequential data type like lists, strings, tuples, bytes, bytearrays, and ranges.
+  
+```python
+a = ("a", "b", "c", "d", "e", "f", "g", "h")
+x = slice(3, 5)
+print(a[x])
+```
 
   </details>
   
