@@ -135,27 +135,29 @@ In the above code, the method `Character.getNumericValue(c)` gets the numeric va
 7.How will you assign the number from `char` to `int` without using wrapper classes in java?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details>
     <summary><b> Show Answer </b></summary> 
 <blockquote>
 
   -  If we directly assign the value of `char` to `int`, it will assign the ASCII value. Therefore we have subract `48` to get the integer value.
 	
-    **Example**
-    ``` java
-    public class Main {
+   **Example**
+
+``` java
+public class Main {
 	public static void main(String[] args) {
 		char c = '9'; 
 		int i = c - 48; // ascii value of 9 is 57.
 		System.out.println(i); // 9
 	}
-    }
-    ```
-    -  In the above code, the value of c is automatcally converted into `57` integer value that is ascii value.
+}
+```	
+
+- In the above code, the value of c is automatcally converted into `57` integer value that is ascii value.
+- Then the subtraction is done to get `9`.
 	
-    -  Then the subtraction is done to get `9`.
-  
-</blockqoute> 
+</blockqoute>   
 </details>
 
 ---
