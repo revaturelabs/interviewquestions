@@ -288,9 +288,8 @@ public static void main(String argvs[])
 </blockquote>
 
  </details>
-
- 
  </details>
+	
  ---
 
 13. What is Daemon Thread and how it differs from normal thread?
@@ -306,6 +305,7 @@ public static void main(String argvs[])
  </details>
 
  ---
+	
  14. How will you make the thread as Daemon thread?
 	
 
@@ -329,3 +329,5 @@ public class Main {
 }
 ```
  </details>
+	
+---
