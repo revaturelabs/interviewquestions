@@ -1989,6 +1989,88 @@ I am in outer catch block, I am in try block, I am in finally block
 
 ---
 
+69.Predict the output for the below code?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+```java
+
+class TestException {
+public static void main(String[] args) throws Exception
+{ 
+try {
+ System.out.println("Exception");	
+ int x  = 5, y = 10, z = 5;
+ x += 5;
+ y -= x + z;
+ int a = (x + y)/(y + z);
+ System.out.println(a);
+System.exit(0);
+}
+catch(ArithmeticException ae){
+ System.out.println("ArithmeticException"+ae);	
+}
+finally{
+ System.out.println("Finally block");	
+}
+ }
+}
+
+```
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Exception
+Arithmetic Exceptionjava.lang.ArithmeticException: / by zero 
+Finally block
+
+</blockquote>
+
+</details>
+
+---
+
+70.Predict the output for the below code?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+```java
+
+class Test6 {
+int m1(){
+try {
+  System.out.println("InterviewQuestions");
+  return 10;
+ }
+catch(Exception e)
+{
+  System.out.println("I am in catch block");
+ }
+}	
+public static void main(String[] args)
+{ 
+Test6 t = new Test6();
+t.m1();
+ }
+}
+
+```
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Compile Time error
+
+</blockquote>
+
+</details>
+
+---
+
+
 
 
 
