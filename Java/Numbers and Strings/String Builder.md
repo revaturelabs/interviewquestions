@@ -7,7 +7,7 @@
 
 - StringBuilder is in `java.lang package`.
 - StringBuilder is mutable strings that are stored in heap memory.
-- StringBuilder is non-synchronized methods
+- StringBuilder is non-synchronized methods.
 - StringBuilder is not thread-safe, so the performance is more than StringBuffer.
 </blockquote>
 </details>
