@@ -1333,7 +1333,309 @@ When System.exit() method is invoked before executing finally block.When an exce
 </details>
 	
 ----
+
+51. Can we throw multiple exceptions in one throw statement?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+No, we cannot throw multiple exceptions in one throw statement. Only one object of exception type can be thrown by using throw statement at a time.
+
+</blockquote>
+
+</details>
+
+---
+
+52. What is error in Java? What are the types of errors in Java programming?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Error in Java occurs when a programmer violates the rules of Java programming language. It might be due to programmer’s typing mistakes while developing a program.
+There are three types of errors in Java. They are:
+a. Compile-time errors (Syntax errors)
+b. Runtime errors
+c. Logical errors
+
+</blockquote>
+
+</details>
 	
+---
+	
+53.How can you differentiate runtime error and syntax error.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Syntax Error:	
+1. A syntax error occurs when we violate any grammatical rule in a programming language.	
+2. Syntax error can be found at compile time.
+3. Syntax errors are those errors that are caused by incorrect usage of programming language.
+
+Runtime Error:
+1. A runtime error occurs when a program terminates abnormally.	
+2. Runtime error can be found only when we execute the program.	
+3. Runtime errors are those errors that are caused by incorrect usage of programming logic.
+
+</blockquote>
+
+</details>
+
+---
+
+54. How to create your own user-defined exception in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The programmer wants to create his own customized exception as per the requirements of the application which is called user-defined exception or custom exception.
+
+Custom exceptions in Java are those exceptions that are created by a programmer to meet the specific requirements of the application. That’s why it is also known as user-defined exception in Java.
+
+For example:
+
+1. A banking application, a customer whose age is lower than 18 years, the program throws a custom exception indicating “needs to open joint account”.
+
+2. Voting age in India: If a person’s age entered is less than 18 years, the program throws "invalid age" as a custom exception.
+
+</blockquote>
+
+</details>
+
+---
+	
+55. Explain the steps to create a user-defined exception?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+These are the following steps that are followed in creating user-defined exception or custom exception in Java. They are as follows:
+
+Step 1: User-defined exceptions can be created simply by extending Exception class. This is done as:
+
+class OwnException extends Exception
+Step 2: If you do not want to store any exception details, define a default constructor in your own exception class. This can be done as follows:
+
+```java
+
+OwnException()
+{
+
+ }
+
+```
+Step 3: If you want to store exception details, define a parameterized constructor with string as a parameter, call superclass (Exception) constructor from this, and store variable “str”. This can be done as follows:
+
+```java
+
+OwnException(String str)
+{
+  super(str); // Call super class exception constructor and store variable "str" in it.
+}
+
+```
+Step 4: In the last step, we need to create an object of user-defined exception class and throw it using throw clause.
+
+```java
+
+OwnException obj = new OwnException("Exception details");
+  throw obj;
+(or)
+ throw new OwnException("Exception details");
+
+```
+
+</blockquote>
+
+</details>
+	
+---
+	
+56.Explain with an example for creating a custom exception?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+	
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+```java
+
+public class Exception1 extends Exception{
+Exception1(){
+  
+ }
+}
+public class MyClass {
+public static void main(String[] args)
+{
+try{ 
+   Exception1 obj = new Exception1();
+   throw obj; 
+ } 
+catch (Exception1 ex) { 
+  System.out.println("Caught a user defined exception"); 
+ } 	
+ }
+}
+
+
+
+```
+
+
+</blockquote>
+
+<details><summary><b> Explanation </b></summary>
+
+<blockquote>
+
+```java
+
+Output:
+       Caught a user defined exception
+
+```
+
+</blockquote>
+
+</details>
+</details>
+
+---
+	
+57.Write the code  to  evaluate candidate’s age to vote. If the candidate’s age is less than 18 years, the program will throw a custom exception "Invalid age".
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+```java
+
+import java.util.Scanner;
+public class InvalidAgeException extends Exception{
+  InvalidAgeException(String str){
+	super(str);
+  }
+}
+
+public class TestClass {
+private static int age;
+static void validate() throws InvalidAgeException{ 
+ Scanner sc = new Scanner(System.in);
+ System.out.println("Enter your age");
+ age = sc.nextInt();
+
+ if(age < 18)  
+ throw new InvalidAgeException("Invalid Age, You are not eligible to vote");  
+ else  
+ System.out.println("Welcome to vote");  
+}  
+public static void main(String[] args){
+try{  
+ validate();  
+}
+catch(Exception e){
+  System.out.println("Caught an Exception: \n "+e);
+ }   
+ }  
+}
+
+```
+
+</blockquote>
+
+<details><summary><b> Explanation </b></summary>
+
+<blockquote>
+
+```java
+
+Output:
+First Execution:
+      Enter your age
+      7
+      Caught an Exception: 
+      customExceptionProgram.InvalidAgeException: Invalid Age, You are not eligible to vote
+Second Execution:
+      Enter your age
+      40
+      Welcome to vote
+
+
+
+```
+
+</blockquote>
+
+</details>
+</details>
+
+---
+
+58. Explain the important methods of Java Exception Class?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Exception and all of its subclasses don’t provide any specific methods and all of the methods are defined in the base class Throwable.
+
+`String getMessage()` - This method returns the message String of Throwable and the message can be provided while creating the exception through its constructor.
+
+`String getLocalizedMessage()` - This method is provided so that subclasses can override it to provide the local specific messages to the calling program. Throwable class implementation of this method simply use getMessage() method to return the exception message.
+
+`synchronized Throwable getCause()` - This method returns the cause of the exception or null if the cause is unknown.
+
+`String toString()` - This method returns the information about Throwable in String format, the returned String contains the name of Throwable class and localized message.
+
+`void printStackTrace()` - This method prints the stack trace information to the standard error stream, this method is overloaded and we can pass PrintStream or PrintWriter as an argument to write the stack trace information to the file or stream.
+
+
+</blockquote>
+
+</details>
+	
+---
+	
+59. What happens when an exception is thrown by the main method?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+When an exception is thrown by a main() method, Java Runtime terminates the program and prints the exception message and stack trace in the system console.
+
+</blockquote>
+
+</details>
+	
+---
+	
+
+
 
 
 
