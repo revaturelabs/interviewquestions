@@ -28,7 +28,7 @@ A)Main
 <summary><b> Explanation </b></summary>
 <blockquote>
 
-- If there is no thread is created, the main thread will execute the process by default.
+If there is no thread is created, the main thread will execute the process by default.
 </blockquote>
 </details>
 </details>
