@@ -184,7 +184,7 @@ If we didn't use break or return, each cases of the switch will be executed whic
     <summary><b> Show Answer </b></summary> 
 <blockquote>
 
-Looping statements are used to do repeatative tasks. If one process has to be done more than onece, we will use looping statement. The three types of looping statements are,
+Looping statements are used to do repeatative tasks. If one process has to be done more than onece, we will use looping statement. The three types of looping statements are:
   - for
   - while
   - do
