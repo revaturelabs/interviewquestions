@@ -45,7 +45,7 @@
 
 ---
 
-5.What are the derived classes of RunTimeException class.
+5.What are the derived classes of RunTimeException class?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
