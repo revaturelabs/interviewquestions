@@ -563,5 +563,20 @@ management:
 </details>
 
 ---
+11. Can we achieve DI with Core Java without using Spring framework?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+- Yes, Dependency Injection is a concept rather and then a framework. 
+- When the application under question is small, we can always meet the needs by injecting dependencies manually, without using any framework like Spring.
+- We can use Factory Design Pattern and create dependencies which will then be passed to required classes.
+- Though such code cannot replace the DI framework like Spring which provide much more extensive set of features.
+</blockquote> 
+
+</details>
+
+---
