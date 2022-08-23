@@ -169,18 +169,18 @@ rm -r program
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> The `printf` can be used to print the string, numbers and other format specifiers also whereas `echo` can only be used to print the string values.
+> The `printf` can be used to print the string, numbers and other format specifiers whereas `echo` can only be used to print the string values.
 Performance wise also `printf` is faster in execution than `echo` command.
 
 </details>
 
 ---
 
-18. 
+18. How to check the disk usage information on a filesystem?
 
 <details><summary> <b>Show Answer</b> </summary> 
 
->
+> Using `df` command we can check the information related to disk usage, that is how much space is used by filesystem and what is the available space. 
 
 </details>
 
