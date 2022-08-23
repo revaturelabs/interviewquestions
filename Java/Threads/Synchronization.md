@@ -7,7 +7,7 @@
 <summary><b> Show Answer </b></summary>
 <blockquote>
 
-- When synchronized keyword is used before the method, the method becomes thread safe.
+- When synchronized keyword is used before the method,the method becomes thread safe.
 - One thread can utilize the memory at the time.
 </blockquote>
 
