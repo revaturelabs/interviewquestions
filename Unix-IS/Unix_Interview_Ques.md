@@ -186,20 +186,20 @@ Performance wise also `printf` is faster in execution than `echo` command.
 
 ---
 
-19. 
+19. How to view all the partitions of a hard drive in Linux. 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
->
+> Using `fdsik` command along with `-l` option, we can see all the partitions in the system. For example, ` sudo fdisk -l`. 
 
 </details>
 
 ---
-20. 
+20. Explain about fdisk, sfdisk and cfdisk commands?
 
 <details><summary> <b>Show Answer</b> </summary> 
 
->
+> 
 
 </details>
 
