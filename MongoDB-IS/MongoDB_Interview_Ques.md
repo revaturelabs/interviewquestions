@@ -48,6 +48,7 @@
 
 5. When creating a database in MongoDB, if you are getting "could not connect to the server" error, then what steps you will follow to resolve that error. 
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -61,6 +62,9 @@
 ---
 
 6. Suppose you are collaborating with your team on “ABC” database which have some data inside it. How can you make sure that if someone by mistake deletes the “ABC” database, you can still have a backup of that database. 
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > To make sure that we have a backup of our database, we can use the `mongodump` command that will store our data in a backup file. For that, we just have to write `mongodump --db database_name -- collection collection_name`.  
@@ -75,6 +79,8 @@ To import again the backup file in Mongodb we can use the mongorestore command:
 
 7.  What `insert()` method returns after successfully inserting a document into a collection.
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > It returns an object that contains the information about the operation. It returns a `WriteResult` object when we insert a single document and `BulkWriteResult` object when we insert more than one document in a single insert query.
@@ -83,6 +89,9 @@ To import again the backup file in Mongodb we can use the mongorestore command:
 ---
 
 8.  When a person inserts a document into collection, MongoDB automatically creates an `_id` field which acts as a primary key for that data, then how can we set one of our fields as primary key in MongoDB if we want? 
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > The `_id` field is the default primary key in `MongoDB` and it is reserved , we cannot create any other primary key but, we can put the data that we want to be unique into the `_id` field of the document like `{"_id" : 01}`. 
@@ -131,6 +140,8 @@ db.emp.update({"name": "Jack"}, {$inc: {"salary": 1000}});
 
 12.  Write a single query that will perform update operation if document is present in the collection and if not, then it performs insert operation. 
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > To perform both update and insert operations in a single query by making "upsert" option to "true" inside the `update()` method.  
@@ -144,7 +155,7 @@ db.collection_name.update({name:"Henry"}, {$set: {dept: "HR"}},{upsert:true});
 
 13. Imagine you have added 5 documents into a collection named as “emp” and suddenly there is a need to add one common field into all the five documents then what query you will write for the same purpose? 
 
-
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -162,7 +173,7 @@ Here address is the field that has to be added in all the documents.
 
 14. Suppose a document have five fields as “name”, “age”, “salary”, “dept”, “address” and if you want to remove the “age” field from the document of “emp” collection, then what query you will provide to remove only “age” field?
 
-  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -192,6 +203,9 @@ db.emp.find({name: /A/});
 ---
 
 16. State the difference between update() and findAndModify() method in MongoDB.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > - The update() method can update the multiple documents at a time, whereas the findAndModify() method, by default, can update the single document at a time.   
@@ -260,6 +274,9 @@ db.collection_name.find({
 ---
 
 21. Imagine you are working on “Company” database having “Dept” as collection and inside your collection there are millions of documents and your boss is asking for some data from it, then what sort of practice you will do to increase the query performance and fast retrieval of data. 
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > There are few practices that one can follow to increase the query performance and fast retrieval of data:  
@@ -271,6 +288,9 @@ db.collection_name.find({
 
 ---
 22. Consider your documents have some array fields and you want to create an index on it. Is it possible in MongoDB? 
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
  
 > Yes, it is possible to create index on an array field. MongoDB automatically creates the multikey index for each value of an array.  For example, let’s take an array field which holds the values as address : [ "NY", "MIAMI","TEXAS"], we can create an index on that field by writing:    
@@ -294,6 +314,8 @@ db.collection_name.find({
 ---
 
 24. What query do you write to get employee details in “emp” collection where “job_role” matches “Technical Specialist” and  “emp_age” is between 22 and 28? 
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -388,6 +410,9 @@ db.collection_name.find({
 ---
 
 29.  Write a query that will fetch the top 20 records from “student” collection of those students who are from 8th, 9th and 10th “class” having “marks” greater or equal to 70 in science and math subject.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > 
@@ -420,6 +445,9 @@ db.dept.find({}).skip(10);
 ---
 
 31. Write a query to get the number of employees whose “address” is “New York” having “age” less than equal to 40  and earning salary greater than 50K. 
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > 
@@ -449,6 +477,9 @@ db.collection_name.find({
 ---
 
 33. In a document having 5 fields “name”, “age”, “score”, “subject” and “address”, when your friend is trying to fetch only “name” and “address” field using the following query “db.collection.find({}, {_id: 0, name: 1, age: 0, score: 0, subject: 0, address: 1})” , he is getting an error message in output screen. What need to be changed in the above query to make it run and produce the desired output. 
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > In the projection query, we cannot use combination of 0 and 1. It should be either all 1 or all 0, except _id field value. So to get rid of that error we can re-write the query as:  
@@ -458,7 +489,9 @@ Here we are selecting only name and address fields from the data.
 
 ---
 
-34. How to check if the field is present or not in a collection in MongoDB. 
+34. How to check if the field is present or not in a collection in MongoDB.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
  
@@ -474,6 +507,9 @@ db.collection.find({
 ---
 
 35. A boss has given a task to you to give the “name” and “department” of those employees who do not work on Monday and Tuesday of every “week” and having “experience” less than 5. What sort of query you will write for the same purpose. 
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > 
@@ -507,6 +543,7 @@ db.collection_name.find({
 
 37. Does MongoDB writes the data to the disk immediately or not?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -527,6 +564,9 @@ Whenever there is a server failure or system crashes, we can still recover the d
 
 ---
 39. Is creating Indexes in MongoDB always helpful?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > We cannot deny the fact that using indexes efficiently in MongoDB can increase query performance, But there are some disadvantages of indexes as well like:  
@@ -537,6 +577,9 @@ Whenever there is a server failure or system crashes, we can still recover the d
 ---
 
 40. A primary key also known as object-id in MongoDB contains what?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > An object-id in MongoDB also refers as primary key consists of 12-byte BSON type. Out of those 12 bytes:  
