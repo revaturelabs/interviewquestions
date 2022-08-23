@@ -56,7 +56,7 @@ There are four type of access modifier:
 <blockquote>
 
 - If we specify with private access modifier to any field,the accessibility will be within the class.
-- It is the most retrictive access modifier
+- It is the most retrictive access modifier.
 - It can't be used for class and interface.
 </blockquote>
 </details>
