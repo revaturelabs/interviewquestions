@@ -246,7 +246,10 @@ db.collection_name.find({
 23. What sort of practice you will take as a developer to increase the availability of data in MongoDB when there is a routine maintenance check or system failure?
 <details><summary> <b>Show Answer</b> </summary> 
 
-> 
+> As a developer we must make sure that all the data are not present in one single server or machine.   
+> -	We can distribute the data into different systems , so that if one system fails, we can get the data from other systems.   
+> -	We can also distribute the data into multiple servers of one system, so that we can get the easily use the other server in case of downtime of one server.   
+
 </details>
 
 ---
