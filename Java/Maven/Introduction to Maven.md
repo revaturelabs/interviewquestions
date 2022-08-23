@@ -37,7 +37,7 @@
 <details> <summary> <b> Explanation </b> </summary>
 
 >- We need compatible version of jdk to execute Maven. jdk should be installed & JAVA_HOME environment variable should be set properly. 
->- We need Java to execute Maven. Java should be installed to set <code> JAVA_HOME environment varaiable </code> to point to a valid Java SDK(Like Java 8)
+>- We need Java to execute Maven. Java should be installed to set <code> JAVA_HOME environment varaiable </code> to point to a valid Java SDK(Like Java 8).
 
 </details>
 
@@ -62,9 +62,9 @@
 
 <details> <summary> <b> Show Answer </b> </summary>
 
->- Generate source code
+>- Generate source code.
 >- Create documentation from the source code generated.
->- Compiles the source code
+>- Compiles the source code.
 >- Packages the compiled code into JAR, WAR, EAR file.
 >- Install the packaged code into Local, Remote repository.
  
@@ -81,7 +81,7 @@
  <blockquote>
 
  We can create a simple project in Maven using <code> archetype:generate </code> in command promt using Maven.
- Syntax to generate a project architecture
+ Syntax to generate a project architecture.
   
  </blockquote>
   
@@ -173,7 +173,7 @@ mvn archetype:generate -DgroupId=groupid -DartifactId=artifactid -DarchetypeArti
 
 <details> <summary> <b> Show Answer </b> </summary>
 
->- The dependencies will be loaded in  the Local repository
+>- The dependencies will be loaded in  the Local repository.
 
 </details>
 
