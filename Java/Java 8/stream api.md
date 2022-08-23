@@ -420,7 +420,6 @@ public class JavaStreamExample {
    - `filter()` used to apply the condition on the stream.
    - `forEach()` is used to return the result from the stream after iteration. <blockquote>
     
-    </blockquote>
  
 </details>
    
