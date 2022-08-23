@@ -59,7 +59,7 @@
   
   <summary>Explanation</summary> 
     
-> Interfaces contain abstract methods, Which means only method declarations are present but not implementation, so there is no purpose of an Object, But one can create an Object for a class that implements Interface and reference it to the Interface. 
+> Interfaces contain abstract methods, Which means only method declarations are present but not implementation.so,there is no purpose of an Object, But one can create an Object for a class that implements Interface and reference it to the Interface. 
 
   </details>
 </details>
@@ -85,7 +85,7 @@
     
 > Interface is used to implement abstraction, so abstract methods are allowed in an Interface.
 > Default methods are allowed to avoid the issue of mandatory implementation of all methods in an Interface.
-> static methods are generally used to create helper methods, static methods are referenced to the interface, rather than the class that implements the interface.
+> static methods are generally used to create helper methods,static methods are referenced to the interface, rather than the class that implements the interface.
 
   </details>
 </details>
@@ -100,7 +100,7 @@
 
   <summary><b>Show Answer</b> </summary>  
   
-> Consider that there is an interface implemented by 4 classes and a new method should be added to the interface, but all the previous classes should implement the new method, which creates trouble for the developer. So, the new method can be added as a default method. a default method in the interface can be overridden by a class based on the requirement. 
+> Consider that there is an interface implemented by 4 classes and a new method should be added to the interface, but all the previous classes should implement the new method, which creates trouble for the developer. So, the new method can be added as a default method. A default method in the interface can be overridden by a class based on the requirement. 
     
 
    </details>
@@ -165,7 +165,7 @@ interface Elevator extends Electrical, Mechnical{
 
 <summary><b>Explanation</b></summary>
 	
-> if a class implements an Elevator, all the methods of Elevator, Mechanical and  Electrical are inherited by the class, all the methods other than default and static should be overridden in the class.
+> If a class implements an Elevator, all the methods of Elevator, Mechanical and  Electrical are inherited by the class, all the methods other than default and static should be overridden in the class.
 
 </details>
 </details>
@@ -264,8 +264,8 @@ interface Elevator{
 	
 <details><summary><b>Explanation</b></summary>
 	
-> methods in the interface can be abstract or default or static.
-> methods in the interface can not be final, because final methods can not be overridden. Interfaces are created so they can be implemented by a class and the methods of an interface should have the possibility to be overridden.
+> Methods in the interface can be abstract or default or static.
+> Methods in the interface can not be final, because final methods can not be overridden. Interfaces are created so they can be implemented by a class and the methods of an interface should have the possibility to be overridden.
 
 </details>
 
