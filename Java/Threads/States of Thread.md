@@ -7,7 +7,7 @@
 <summary><b> Show Answer </b></summary>
 <blockquote>
 
-- We have 5 states in the lifecycle of the thread. There are,
+- We have 5 states in the lifecycle of the thread. There are:
   - **New** – Thread begins the lifecycle, at the time of creating object for `Thread` class. (Newly born thread)
   - **Runnable** – Thread starts its execution in JVM but waiting for resource allocation.
   - **Running** –  Thread is running in JVM
