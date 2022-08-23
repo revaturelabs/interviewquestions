@@ -96,7 +96,7 @@ The automatic conversion of primitive data types into its equivalent Wrapper typ
 
 ---
 
-6. Are wrapper classes immutable? justify the answer.
+6. Are wrapper classes immutable? Justify the answer.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -106,7 +106,7 @@ The automatic conversion of primitive data types into its equivalent Wrapper typ
   
  > Yes, wrapper classes are immutable.
  > Immutable class in java means that once an object is created, we cannot change its content. In Java, primitive wrapper classes (Integer, Byte, Long, Float, Double, Character, Boolean, Short) and String class is immutable, so operations like addition and subtraction create a new object and not modify the old. 
- > wrapper classes are used to store data in collections and as a developer one doesn't wish that all the values in a collection are changed just because a primitive value is changed. 
+ > Wrapper classes are used to store data in collections and as a developer one doesn't wish that all the values in a collection are changed just because a primitive value is changed. 
  
   
   
