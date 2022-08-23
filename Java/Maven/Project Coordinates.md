@@ -101,7 +101,7 @@
 	desktop will be atomatically executed with the Java JAR. 
 	
 - WAR is a file format, used for web application archive files. 
-- The benefit of utilizing a WAR file is to consolidate all of the files into a single unit, to reduces the amount of time it takes for the ser to move a file from one client to another client.
+- The benefit of utilizing a WAR file is to consolidate all of the files into a single unit, to reduces the amount of time it takes for the serve to move a file from one client to another client.
 
 
 </blockquote>
