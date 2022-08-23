@@ -24,9 +24,9 @@
 <blockquote>
 	
 `final` is the keyword that can be used with class, variable, and method.
-  1.	Final variable – The value can’t be changed
-  2.	Final method – The method can’t be overridden
-  3.	Final class – No subclasses can be created
+  1.	Final variable – The value can’t be changed.
+  2.	Final method – The method can’t be overridden.
+  3.	Final class – No subclasses can be created.
 </blockqoute>  
 </details>
 
@@ -130,7 +130,7 @@ Hi Good Morning
 
 ---
 
-8: Debugg the below code.
+8. Debugg the below code.
 
 ``` java 
 
