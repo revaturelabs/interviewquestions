@@ -345,6 +345,9 @@ Help him to write a query that will produce the output as:
 { “department " : "product", "type" : "B" }
 { "department " : "finance", "type" : "C" }
 ```
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > 
@@ -361,6 +364,8 @@ db.collection_name.find({
 ---
 
 26. Give me the query that will fetch only “name” and “age” field from the collection “emp”, that having the “DOB” between 01/03/1990 to 31/12/1999 and “salary”  greater than “50k”. 
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
   
@@ -381,6 +386,8 @@ db.emp.find({
 27. Write the single query that will give the sorted result based on “dob” field that satisfies the following condition:
 i) Where “name” starts with “s” alphabet and “salary” in between 40k to 70k 
 ii) Where “department” not equal to “product”. 
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
  
