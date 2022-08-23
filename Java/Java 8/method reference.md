@@ -26,7 +26,7 @@ It is to refer the method of functional interface. While using a lambda expressi
   
 - Reference to an instance method.
   
-- Reference to an instance method of an arbitrary object of a particular type
+- Reference to an instance method of an arbitrary object of a particular type.
   
 - Reference to a constructor.
   
@@ -35,7 +35,7 @@ It is to refer the method of functional interface. While using a lambda expressi
 
  ---
  
-3. Write the syntax for referring to a static method?
+3. Write the syntax for referring to a static method.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -52,7 +52,7 @@ It is to refer the method of functional interface. While using a lambda expressi
  
  ---
 
-4. Write the syntax for Reference to an instance method of a particular object?
+4. Write the syntax for Reference to an instance method of a particular object.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -69,7 +69,7 @@ It is to refer the method of functional interface. While using a lambda expressi
 
  ---
  
-5. Write the syntax for Reference to an instance method of an arbitrary object of a particular type?
+5. Write the syntax for Reference to an instance method of an arbitrary object of a particular type.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -86,7 +86,7 @@ It is to refer the method of functional interface. While using a lambda expressi
  
  ---
 
-6. Write the syntax for Reference to a constructor?
+6. Write the syntax for Reference to a constructor.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -95,7 +95,7 @@ It is to refer the method of functional interface. While using a lambda expressi
  <blockquote>
   
 - `ClassName::new`
-- new is the keyword to refer to the constructor with the class name.
+- New is the keyword to refer to the constructor with the class name.
   
  </blockquote>
 </details>
