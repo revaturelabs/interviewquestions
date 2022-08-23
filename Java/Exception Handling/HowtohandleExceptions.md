@@ -50,7 +50,7 @@
 
 <details><summary> <b> Show Answer</b></summary>	
 	
-> yes, we can have multiple catch blocks with the single try block
+> yes, we can have multiple catch blocks with the single try block.
 	
 </details>
 
@@ -63,7 +63,7 @@
 
 <details><summary> <b> Show Answer</b></summary>
 	
-> Java Virtual Machine(JVM), handles the exception if the exception is not handled by the programmer itself
+> Java Virtual Machine(JVM), handles the exception if the exception is not handled by the programmer itself.
 	
 </details>
 
@@ -111,7 +111,7 @@ public class Example1 {
 	
 <details><summary><b> Explanation </b></summary>
 
-> A number is divided by zero
+> A number is divided by zero.
 	
 </details>
 </details>
@@ -223,7 +223,7 @@ public class TryCatchExample4 {
 
 <details><summary><b> Explanation </b></summary>
 
->If the element is stored in unspecified array index then ArrayIndexOutOfBoundsException will be occurred
+>If the element is stored in unspecified array index then ArrayIndexOutOfBoundsException will be occurred.
 
 </details>
 </details>
