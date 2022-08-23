@@ -83,8 +83,8 @@ class Main{
     <summary><b> Explanation </b></summary> 
 <blockquote>	
 	
-In postincreament the value is holded then it will be increamented. 
-In preincrement the value is increamented on code flow itself.
+- In postincreament the value is holded then it will be increamented. 
+- In preincrement the value is increamented on code flow itself.
 
 In first line of output
 (2*1)+5+2=9
@@ -104,13 +104,14 @@ Initially the value of a is 2 and then increamented to 3, in pre increament the 
 <details>
     <summary><b> Show Answer </b></summary> 
 <blockquote>
+	
   - The ternary operator(?:) is also called conditional operator used to evalute boolean expression.
   - It needs three operands.
 
   **Syntax**
   variable=condition?expression1:expression2
 
-  - If the condition is true, first expression will be executed else second expression executed
+  - If the condition is true, first expression will be executed else second expression executed.
 
   **Example**
   int max = a>b?a:b;
@@ -127,6 +128,7 @@ Initially the value of a is 2 and then increamented to 3, in pre increament the 
 <details>
     <summary><b> Show Answer </b></summary> 
 <blockquote>
+	
   - Bitwise operators works with binary value of given integer value.
   - Integer type values are used for this operation which are long, int, short, char, and byte.
   - First the given interger is converted into equivalent binary value then the operation is performed
