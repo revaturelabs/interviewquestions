@@ -75,7 +75,7 @@ Above code, creates the thread and start printing "Hello" for 10 times in 1000ms
 <summary><b> Show Answer </b></summary>
 <blockquote>
 
-- Yes, We can pass lamba expression while creating the object of `Thread` class itself instead of creating lambda expression of `Runnable` interface.
+- Yes,We can pass lamba expression while creating the object of `Thread` class itself instead of creating lambda expression of `Runnable` interface.
 - Becauase the passing parameter while creating object of `Thread` class will take only `Runnable` interface implementation.
 
 ``` java
