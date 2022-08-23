@@ -147,29 +147,30 @@ rm -r program
 </details>
 
 ---
-15. 
+15. How you can change the current directory in linux?
 
 <details><summary> <b>Show Answer</b> </summary> 
 
->
+> Using `cd` command we can change the current directory in which we are working. For example, `cd program/user`.
 
 </details>
 
 ---
-16. 
+16. Which command can be used to search as tring in a file based on pattern in linux.
 
 <details><summary> <b>Show Answer</b> </summary> 
 
->
+> `grep` command can be used in pattern searching in a string. For example, `grep -i "Hello" test1.txt`, here it will search the 'hello' word in the test1.txt file and returns the whole sentance where it is present. `-i` option in `grep` is used to do the case insensitive search.
 
 </details>
 
 ---
-17. 
+17. Tell me the difference between `echo` and `printf` command.
 
 <details><summary> <b>Show Answer</b> </summary> 
 
->
+> The `printf` can be used to print the string, numbers and other format specifiers also whereas `echo` can only be used to print the string values.
+Performance wise also `printf` is faster in execution than `echo` command.
 
 </details>
 
