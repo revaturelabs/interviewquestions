@@ -564,7 +564,7 @@ Whenever there is a server failure or system crashes, we can still recover the d
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> Yes, MongoDB creates an Object-Id that is `_id`, which also works as an Index by default. 
+> Yes, MongoDB creates an Object-Id that is `_id`, which also works as an Index by default.   
 </details>
 
 ---
