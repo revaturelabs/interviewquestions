@@ -105,5 +105,14 @@ Here if the combine.txt file doesn't exists in the system, it will create a comb
 </details>
 
 ---
-11. 
+11. Which command can we use to view content of multiple files in the terminal?
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> `cat` command can be used to view multiple files in the terminal at the same time. For example, `cat file1.txt file2.txt file3.txt`. 
+
+</details>
+
+---
+12. 
 
