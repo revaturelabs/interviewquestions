@@ -55,8 +55,8 @@
  
   <blockquote>
  
-- It is not thread safe 
-- It was poorly designed with less number of features
+- It is not thread safe.
+- It was poorly designed with less number of features.
 - Need to write a seperate code for handling time zone logic in older version. 
 
     </blockquote>
