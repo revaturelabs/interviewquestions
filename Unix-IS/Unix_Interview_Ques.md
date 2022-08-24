@@ -348,30 +348,40 @@ chmod u-w file_name
 ```
 chmod 664 example
 ```
+Here, the first 6 represents read and write permission to a user, the next 6 represent read and write permission to group, and last 4 represents only the read permission to others.
 
 </details>
 
 ---
 
-34.
+34. How will you differentiate between `df`, `blkid` and `lsblk` command?
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> 
+> The `df` command give the details of mounted file system, on the other hand `blkid' gives the details of block devices that are not mounted and `lsblk` command is used to get the details of both mounted and unmounted file system.
 
 </details>
 
 ---
 
-35.
+35. As a devloper, if you wanted to check how many block devices are available in your system that are not mounted, then which command you will use for that in UNIX?
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> 
+> To check what are all the available block devices in the system we can use the `blkid` command.
 
 </details>
 
 ---
 
+36. In Linux, How will you display the number of times a substring is present in a line?
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> Using `grep` command with `-c` option will give the count of number of matches of a string or pattern in a line. For example, `grep -c "hello" example.txt`. Here we are finding how many times "hello" is present in a line in example.txt file.
+
+</details>
+
+---
 
 
