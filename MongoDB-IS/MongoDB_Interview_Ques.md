@@ -829,8 +829,81 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 ---
 
-61. 
+61. Give the query that will find the count of number of resturants that are present in texas, florida and alaska state.
 
+<details><summary> <b>Show Answer</b> </summary>
 
+> 
+```
+db.resturants.find(
+        {"state": { 
+        $in : [ "texas", "florida", "alaska"]}
+        }).count();
+```
+
+</details>
+
+---
+
+62. From "revature" company collection fetch the name and experience of those employees who are not woking in night shift.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```
+db.revature.find({"shift": {
+                 $ne: "night"}},
+                 {_id:0, name:1, experience: 1});
+```
+
+</details>
+
+---
+
+63. Give a query in MongoDB that will tell whether all the "address" contain "NY" or not in "emp" collection. 
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```
+db.emp.find({
+             "address.NY":
+             { $exists : true}
+             });
+```
+
+</details>
+
+---
+
+64.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
+
+65.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
+
+66.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
 
 
