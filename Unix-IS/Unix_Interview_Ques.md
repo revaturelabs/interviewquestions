@@ -271,7 +271,7 @@ command_name (-n_arguments) (filename)
 
 ---
 
-27. How to change ownership of a file in Linux?
+27. Assume you have to change ownership of a file in Linux, how will you do that?
 
 <details><summary> <b>Show Answer</b> </summary> 
   
@@ -280,5 +280,16 @@ command_name (-n_arguments) (filename)
 </details>
 
 ---
+
+28. Is there any difference between vi and vim editors in Linux?
+
+<details><summary> <b>Show Answer</b> </summary> 
+  
+> - `vi` is a standard text editor in Linux, whereas `vim` is an enhanced version of vi text editor. 
+> - With `vi` we can undo the last command only, whereas `vim` can be used to undo multi-level undo. 
+> - While working with `vi` we cannot highlight any syntax or code, but with `vim` we can do.
+> - `vi` doesn't have GUI, but `vim` have. 
+  
+</details>
 
 
