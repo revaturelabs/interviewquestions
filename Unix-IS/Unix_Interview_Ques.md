@@ -281,7 +281,7 @@ command_name (-n_arguments) (filename)
 
 ---
 
-28. Is there any difference between vi and vim editors in Linux?
+28. Is there any difference between `vi` and `vim` editors in Linux?
 
 <details><summary> <b>Show Answer</b> </summary> 
   
@@ -291,5 +291,84 @@ command_name (-n_arguments) (filename)
 > - `vi` doesn't have GUI, but `vim` have. 
   
 </details>
+
+---
+
+29. Tell me the use of `chmod` command in UNIX?
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> The `chmod` command is used to change the permission set of a file, it can give read, write and execute permission to a user, group of users, to all etc. In Numeric 0 means no permission, 1 means execute, 2 means write and 4 means read. For example, if we are giving all the three permission to a file then we have to write, `chmod 777 file_name`, where '777' represents 'rwx'. 
+
+</details>
+
+---
+
+30. Tell me how will you give only read and write permission to all the users of a file named as "test1"?
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> we can use the `chmod` command to do so, just we have to write `chmod ugo+rw test1` .
+
+</details>
+
+---
+
+31. Imagine Henry wants to be the owner of the two files, "test1" and "test2" in Linux then what he has to do?
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> To change ownerhip of a file he can use `chown` command:    
+```
+chmod Henry test1 test2
+```
+
+</details>
+
+---
+
+32. Suppose you have a file which has read and write permission and now you want to remove the write permission from it, then what you will do to remove the write permission from a file?
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> For removing the write permission from a file, we can write  
+```
+chmod u-w file_name
+```
+
+</details>
+
+---
+
+33.
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> 
+
+</details>
+
+---
+
+34.
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> 
+
+</details>
+
+---
+
+35.
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> 
+
+</details>
+
+---
+
 
 
