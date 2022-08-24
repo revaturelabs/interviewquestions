@@ -835,8 +835,169 @@ But the disadvantage of this way is that the initialization cannot be done lazil
 
 ---
 
+21.Explain the benefits of design patterns in Java?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+ 
+Design patterns provide a template for developers which they can use in multiple projects. Design patterns in Java help the programmer design flexible and smart code and easily identify unwanted code. It benefits me as I can be faster at my job because of the ability to customise the architecture of multiple systems instead of repeatedly coding everything by hand.
+
+</blockquote>
+
+</details>
+
+---
+
+22. How is the bridge pattern different from the adapter pattern?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+ 
+The adapter and bridge patterns are very similar. They are both considered a form of encapsulation and facilitate more control over code changes without impacting the class structure. However, the main difference between the two is that using a bridge pattern separates the essential data from its implementation. In contrast, an adapter pattern allows incompatible classes to an interface without changing the source code.
+
+</blockquote>
+
+</details>
+
+---
+
+23. Which design pattern is used to get a way to access the elements of a collection object in sequential manner?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+ 
+Iterator pattern is used to get a way to access the elements of a collection object in sequential manner.
+
+</blockquote>
+
+</details>
+
+---
+
+24. What is the difference between Strategy and State design Patterns in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The state design pattern is used to define and manage the state of an object, while the Strategy pattern is used to define a set of interchangeable algorithms, and let's client choose one of them. So Strategy pattern is a client-driven pattern while Object can manage their state itself.
+
+</blockquote>
+
+</details>
+
+---
+
+25. When to use the Composite design pattern in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The Composite pattern is also a core Java design pattern, which allows you to treat both whole and part object to treat similarly. Client code, which deals with a Composite or individual object, doesn't differentiate between them, it is possible because the Composite class also implements the same interface as their individual part. One of the good examples of the Composite pattern from java is the JPanel class, which is both Component and Container.  When the paint() method is called on JPanel, it is internally called the paint() method of individual components and let them draw themselves.
+
+</blockquote>
+
+</details>
+
+---
+
+26.When to use the Template method design pattern in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+ 
+The template pattern outlines an algorithm in the form of a template method and lets the subclass implement individual steps.The template method should be final so that the subclass can not override and change the steps of the algorithm. Still, the same time individual steps should be abstract, so that child classes can implement them.
+
+</blockquote>
+
+</details>
+
+---
+
+27.When to use Setter and Constructor Injection in the Dependency Injection pattern?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+ 
+We can use setter injection to provide optional dependencies of an object and use Constructor injection to provide a mandatory dependency of an object, without which it can not work. Since Spring provides an IOC container, it also gives you a way to specify dependencies either by using setter methods or constructors.
+
+</blockquote>
+
+</details>
+
+---
+
+28.Explain Structural Patterns in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+ 
+Structural patterns are used to provide solutions and efficient standards regarding class compositions and object structures. They depend on the concept of inheritance and interfaces to allow multiple objects or classes to work together and form a single working whole.Structural design patterns are responsible for how classes and objects can be composed to form larger structures.
+
+</blockquote>
+
+</details>
+
+---
+
+29.Describe in how many ways can you create a singleton pattern?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+ 
+There are two ways of creating a Singleton pattern.
+
+- Early Instantiation: It is responsible for the creation of instance at load time.
+
+- Lazy Instantiation: It is responsible for the creation of instance when required.
+
+</blockquote>
+
+</details>
+
+---
+
+30.What is the proxy pattern, and what does it do?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+ 
+The term Proxy stands for an object representing another object. The proxy pattern provides a substitute or placeholder for another purpose to control access to it.According to Gangs of four, a Proxy Pattern "provides control for accessing the original object."We can perform many security operations like hiding the information of the original object, on-demand loading, etc.It is also called as placeholder or surrogates.
+
+</blockquote>
+
+</details>
+
+---
 
 
 
