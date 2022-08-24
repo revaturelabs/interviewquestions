@@ -340,11 +340,14 @@ chmod u-w file_name
 
 ---
 
-33.
+33. How will you give read and write permission to a user and group and only the read permission to others on a file named as "example"?
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> 
+> we can write     
+```
+chmod 664 example
+```
 
 </details>
 
