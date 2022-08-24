@@ -713,3 +713,65 @@ db.collection_name.remove({"name" : "Tom"},1);
 </details>
 
 ---
+
+51. Explain the work of primary and secondary replica sets in MongoDB?
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> - The primary replica set is a master replica that receives the write operations, on the other hand secondary replica set is used only for read operations. 
+> -  The primary replica set will always be one in the count, whereas secondary replica sets can be one or more than one. 
+> - Both primary and secondary replica sets provides the redundancy of data and at the time of failure of primary replica, one of the nearest secondary replica becomes the primary replica set and process remains uneffected. 
+> - After the write operation by primary replica node, the secondary replicas will replicate the data from primary through log files.
+
+</details>
+
+---
+
+52. How will you say MongoDB doesn't have schema?
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> In MongoDB, one document can have 4 fields while other documents can have same or more or less fields. There is no restriction of having same number of fields in all the documents inside collection, which makes it schemaless. 
+
+</details>
+
+---
+
+53. Is MongoDB stores it data to RAM or Disk?
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> MongoDB stores it data to RAM first but later on all the RAM data has been stored into Disk, so that at the time of failure the MongoDB will gets it data from disk without any loss. 
+
+</details>
+
+---
+
+54. Stating MongoDB as one of the best NoSQL database is always true, but at what times it is not prefered?
+
+<details><summary> <b>Show Answer</b> </summary> 
+> There are few limitations that MongoDB have such as:  
+> - There are no joins that we can use with MongoDB.
+> - Document size is limited to only 16mb.
+> - MongoDB doesn't have support of transaction by default.
+> - One MongoDB collection cannot have more than 64 indexes. 
+
+</details>
+
+---
+
+55. Does MongoDB stores data in JSON format or BSON format? And what is the difference between both, if any?
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> MongoDB stores the data in BSON format. Although both JSON and BSON looks same still there is one difference between them:     
+> JSON is a text based format which stores the data in key-value pairs, on the other hand BSON is a binary format of JSON that provides efficient space in memory to store large data as well as it optimizes the speed to fetch the data from Memory. Because of this only it becomes the ideal choice to store the data in BSON format.
+
+</details>
+
+---
+
+56. 
+
+
+
