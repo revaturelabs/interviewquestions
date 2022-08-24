@@ -765,13 +765,72 @@ db.collection_name.remove({"name" : "Tom"},1);
 <details><summary> <b>Show Answer</b> </summary> 
 
 > MongoDB stores the data in BSON format. Although both JSON and BSON looks same still there is one difference between them:     
-> JSON is a text based format which stores the data in key-value pairs, on the other hand BSON is a binary format of JSON that provides efficient space in memory to store large data as well as it optimizes the speed to fetch the data from Memory. Because of this only it becomes the ideal choice to store the data in BSON format.
+> - JSON is a text based format which stores the data in key-value pairs, on the other hand BSON is a binary format of JSON that provides efficient space in memory to store large data as well as it optimizes the speed to fetch the data from Memory.   
+> Because of this only it becomes the ideal choice to store the data in BSON format.
 
 </details>
 
 ---
 
-56. 
+56. Tell me the types of indexes in MongoDB?
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> - We have deafult index in MongoDB as '_id'
+> - Single field indexes are also there, which uses single fields.
+> - Compound Indexes are used to combine multiple fields of a document.
+> - Multi-key indexes are used for array fields.
+
+</details>
+
+---
+
+57. After starting the MongoDB daemon how can we see the number of connected devices?
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> Using `db.serverStatus()` method we can see the information about number of connections as well as the available connections. For that we have to write ` db.serverStatus().connections`.
+
+</details>
+
+---
+
+58. At a time, how many connections a MongoDB can handle?
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> By default MongoDB can handle 64k connections. But it can be changed by going into the configuration file of MongoDB.
+
+</details>
+
+---
+
+59. In MongoDB, how do we see the connections utilized?
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> Using `db_adminCommand("connPoolStats")` we can see the connections utilized by MongoDB.
+
+</details>
+
+---
+
+60. Tell me the basic CRUD operations of MongoDB?
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> To perform the basic CRUD opertions we can use the following methods:
+> - `insert()` method for entering documents into collections.
+> - `find()` method for reading documents values.
+> - `update()` method to change the values of a document.
+> - `remove()` method to delete any document from the collection.
+
+</details>
+
+---
+
+61. 
+
 
 
 
