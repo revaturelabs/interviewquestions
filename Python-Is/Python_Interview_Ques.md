@@ -1851,11 +1851,117 @@ print(random.choice(x))
   
 97.Can you explain me it is necessary for every if block to be accompained with an else block.comment on this statements wth the help of an example.
   
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- No, It's not required to write the else part for the if statement.
+
+-In fact most of the developers prefer and recommend to avoid the else block.
+
+Instead of writing
+
+```python
+if (number >= 19) {
+    allow_user = true;
+} else {
+    allow_user = false;
+}
+```
   
+Most of the developers prefer:
+
+```python
+allow_user = false;
+if (number >= 18) {
+    allow_user = true;
+}
+```
+
+</details>
+
+---
   
+98.Does Charles want to combine different pandas data frames how will you help him to combine data frames?
   
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- `append()` method: This is used to stack the dataframes horizontally. 
   
+Syntax:
   
+`df1.append(df2)`
   
+- `concat()` method: This is used to stack dataframes vertically. This is best used when the dataframes have the same columns and similar fields. 
+  
+Syntax:
+  
+`pd.concat([df1, df2])`
+  
+- `join()` method: This is used for extracting data from various dataframes having one or more common columns.
+  
+`df1.join(df2)`
+
+</details>
+
+---
+  
+99.How will you set a python logging format to explain with an example?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+```python
+import logging
+logging.basicConfig(format='%(asctime)s %(message)s', level=logging.DEBUG,datefmt='%m/%d/%Y %I:%M:%S %p')
+logging.warning('Does this work')
+```
+
+</details>
+
+---
+  
+100.James wants to display the date/time for python logging he wants to write a piece of code for that how will you help him to write a code?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python to enable the time of logging in Python, you can use the following piece of Python code-
+  
+**logging.basicConfig(format=’%(asctime)s %(message)s’)**
+  
+```python
+import logging
+logging.basicConfig(format='%(asctime)s %(message)s', level=logging.DEBUG)
+logging.info('Began to log')
+```
+
+</details>
+
+---
+  
+101.Can you list out python logging functions?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- **logging.info()**  for the detailed output of events that occur during normal operation of a program.
+- **warnings.warn()** issues a warning for a runtime event if the issue is avoidable.
+- **logging.warning()** issues a warning for a runtime event if we need to note the event even when the client can do nothing about it.
+- **logging.error()**, **logging.exception()** report the suppression of an error without raising an exception
+
+</details>
+
+---
+  
+102.
