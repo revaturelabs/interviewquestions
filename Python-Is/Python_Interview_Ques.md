@@ -1805,9 +1805,51 @@ print(random.choice(x))
 
 ---
   
-94.
+94.Can you tell me which python libraries are used for Machine Learning ?
   
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python we have two python libraries are used for Machine Learning.
+- NumPy and SciPy and has become the most popular Python machine learning library for developing machine learning algorithms.
+
+</details>
+
+---
+  
+95.Can you list the ways we add view functions to urls.py?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- To tell the existence of index() view function in urls.py you need to do two,
+  - Add from blog import views towards the end of the import list.
+  - Create a new URL pattern by adding the following line at the beginning of the urlpatterns list. url(r'^$', views. index)
+
+</details>
+
+---
+
+96. What is functional programming? Does Python follow a functional programming style? If yes, list a few methods to implement functionally oriented programming in Python.
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python Functional programming is a coding style where the main source of logic in a program comes from functions.
+- Incorporating functional programming in our codes means writing pure functions.
+- Pure functions are functions that cause little or no changes outside the scope of the function. These changes are referred to as side effects. To reduce side effects, pure functions are used, which makes the code easy-to-follow, test, or debug.
+
+</details>
+
+---
+  
+97.Can you explain me it is necessary for every if block to be accompained with an else block.comment on this statements wth the help of an example.
   
   
   
