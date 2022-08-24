@@ -384,4 +384,48 @@ Here, the first 6 represents read and write permission to a user, the next 6 rep
 
 ---
 
+37. If you have to show in which line number a given string or pattern is present in a file then which command you will use for that?
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> We can use the `grep` command with `-n` argument to get the line number where the word is present along with the whole line. For that we have to write ` grep -n "Pattern" File_name`.  
+
+</details>
+
+---
+
+38. To view the content of a small file we can use the `cat` command, but what will happen if we use the same `cat` command to view the content of a large file?  Also tell which command can be used to see the content of a large file in more convenient way?
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> When we use the `cat` command to see the content of a large file that will not be fixed in a single terminal screen, then it will move the cursor to the end of the file and to view the content from the start of the file we have to scroll it up. Therefore it is not a convenient way to see the content of a large file. But, for that there is a command called as `more` through which we can see the content of a file in convenient way. It will not moved directly to the end of the file, instead it stops at the end of the terminal with a prompt message in the bottom of terminal showing how much content is present in the terminal at that moment in terms of  percentage. We can press enter key to move down line by line and for scrolling down we can use the space key.
+
+</details>
+
+---
+
+39. Both `more` and `less` command in Linux, is used to view the content of a large file then what is the difference between both of them.
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> The `more` command, when used to see the content of a big file, allows the user to scroll down only with limited or no scroll up. Whereas, the `less` command is used for both forward and backward navigation in a file. 
+
+</details>
+
+---
+
+40. How will you terminate a process that is running on the background with the process id of 3007?
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> To terminate or end a process, we can use the `kill` command in Linux.  
+```
+kill -15 3007
+
+```
+Here, -15 represents a termination signal.
+
+</details>
+
+---
 
