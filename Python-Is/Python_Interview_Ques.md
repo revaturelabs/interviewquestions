@@ -1964,4 +1964,256 @@ logging.info('Began to log')
 
 ---
   
-102.
+102.William raised a question to his colleague can a function call another function? justify your answer with an example of how is his colleague going to answer this question.
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- Yes,it is possible a function call another function in python.
+
+```python
+def add(x):
+    return x+1
+def Function(One, x):
+    return addOne(x)**2
+```
+  
+- Whenever we call Function(One,x) we will get the output.
+
+</details>
+
+---
+  
+103.Jane asked his colleague when is python decorator used and how will explain this to him.
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+-  In python, a decorator is a design pattern that allows a user to add new functionality to an existing object without modifying its structure. These decorators are usually called before the definition of a function you want to decorate.
+  
+```python
+def my_decorator_function(func):
+    def wrapper_func():
+        func()
+    return wrapper_function
+``` 
+
+</details>
+
+---
+  
+104.Can you explain to me how NumPy is better than the list in python?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- Numpy is the core library in Python. It provides a high-performance multidimensional array object, and tools are working with that arrays. 
+- A numpy array is a grid of values, all of the esame type, and is indexed by a tuple of non negative integers.
+  
+- List is the core library in Python. A list is the Python equivalent of an array, but is resizeable and can contain elements of different types
+
+</details>
+
+---
+  
+105.Can you draw a comparision between recursive and iterative technique for problem solving.
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+**Recursive:**
+  - It is a technique of defining anything in terms of itself.
+  - There must be an exclusive if the statement inside the recusive function specifiying stopping condition.
+  - Not all problems has recursive solution.
+  
+**Iteration:**
+  - It is a process of executing statements repeatedly,until some specific condition is specified.
+  - Iteration involves four clear cut steps,initialization,condition,execution and updating.
+  - Any recursive problem can be solved iteratively.
+
+</details>
+
+---
+  
+106.Can you tell me how long identifier can be in python?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python an identifier of infinite length. The PEP-8 standard sets a rule that you should limit all lines to a maximum of 79 characters.
+
+</details>
+
+---
+  
+107.Ernest asked his senior to explain what are docstrings for python modules. How he will explain this to him?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In Python docstring is a string used to document a Python module, class, function or method, so programmers can understand what it does without having to read the details of the implementation. Also, it is a common practice to generate online documentation automatically from docstrings.
+
+</details>
+
+---
+  
+108.Does Brian want to create a new test suite with Python unittest how he will be going to create the test?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- You can create a new test suite with Python unittest by subclassing unittest.TestSuite and add your test cases.
+
+</details>
+
+---
+  
+109.How does one use multiple assertions to verify that all conditions have been met in Python unittest?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python by using the `assertTrue()` and `assertFalse()` methods, it is possible to check multiple conditions in a single test. 
+  For example, to check that a list is not empty and that its first element is greater than 5, one could use the following code:
+
+```python
+assertTrue(len(mylist) > 0)
+assertTrue(mylist[0] > 5)
+```
+
+</details>
+
+---
+  
+110.Can you explain me What do you understand about the Assert keyword in python unittest?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python `Assert` is a keyword used in the Python unittest module to make assertions about the code being tested. Assertions are checks that the code is doing what it is supposed to be doing, and they will throw an error if the check fails. This is useful for finding bugs in code, and for making sure that the code behaves as expected.
+
+</details>
+
+---
+  
+111.Ernest wants to find some tools for unit tests Which tools do you suggest to use for automating unit tests?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- We can use the Python `unittest` module for automating unit tests. This module is part of the standard library, so it is always available, and it is relatively easy to use.
+
+</details>
+
+---
+  
+112.One of your colleagues is asking How will you create your own package in Python can you explain to him how will you do it?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- It overrides the any initialization from an inherited class and is called when the class is instantiated.
+- We know that a package may contain sub-packages and modules. A module is nothing but Python code.
+To create a package of our own, we create a directory and create a file __init__.py in it. We leave it empty. Then, in that package, we create a module(s) with whatever code we want. For a detailed explanation with pictures, refer to Python Packages.
+
+</details>
+
+---
+  
+113.What is Monkey patching in python? Can you Give an example?  
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- We can dynamically modifying a class or module at run-time in python.
+  
+```python
+class A:
+    def func(self):
+        print("Hi")
+    def monkey(self):
+        print "Hi, monkey"
+    m.A.func = monkey
+    a = m.A()
+    a.func()
+```
+
+</details>
+
+---
+  
+114.Keith asked his employee What is the purpose of PYTHONSTARTUP, PYTHONCASEOK, PYTHONHOME & PYTHONPATH environment variables, How he will be answering him?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- PYTHONSTARTUP − It contains the path of an initialization file containing Python source code. It is executed every time you start the interpreter. It is named as .pythonrc.py in Unix and it contains commands that load utilities or modify PYTHONPATH.
+
+- PYTHONCASEOK − It is used in Windows to instruct Python to find the first case-insensitive match in an import statement. Set this variable to any value to activate it.
+
+- PYTHONHOME − It is an alternative module search path. It is usually embedded in the PYTHONSTARTUP or PYTHONPATH directories to make switching module libraries easy.
+
+- PYTHONPATH − It has a role similar to PATH. This variable tells the Python interpreter where to locate the module files imported into a program. It should include the Python source library directory and the directories containing Python source code. PYTHONPATH is sometimes preset by the Python installer.
+
+</details>
+
+---
+  
+115.Suppose class C inherits from classes A and B as class C(A,B).Classes A and B both have their own versions of method `func()`. If we call `func()` from an object of class C, which version gets invoked?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+In python Multiple Inheritance, Method Resolution Order (MRO) we already know. C does not contain its own version of `func()`. Since the interpreter searches in a left-to-right fashion, it finds the method in A, and does not go to look for it in B.
+
+</details>
+
+---
+ 
+116.The manager is asking Stacie can you Name a few Python modules for Statistical, Numerical and scientific computations in python, What will be the answer she will give to him?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+```python
+`numPy` – this module provides an array/matrix type, and it is useful for doing computations on arrays.   
+`scipy` – this module provides methods for doing numeric integrals, solving differential equations, etc     
+`pylab` – is a module for generating and saving plots
+```
+
+</details>
+
+---
+  
+117.What is the difference between the assertTrue() and assertFalse() methods?
+  
