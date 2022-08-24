@@ -1476,7 +1476,7 @@ In Python is an object-oriented programming language but not pure. Because, Pyth
 - In python, we can able to kill a thread. To kill a thread we have many methods in these are,
     - Create an **Exit_Request** flag.
     - Using the `multiprocessing` module.
-    - Using the `trace module.
+    - Using the `trace` module.
     - Use the `ctypes` to raise Exceptions in a thread.
 - We can use any one of the methods and we can kill the thread.
   
@@ -1606,13 +1606,209 @@ def funcy(a, b, c, **kwargs):
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- A higher-order function accepts one or more functions as input and returns a new function. Sometimes it is required to use function as data. - To make high order function , we need to import functools module.
+- A higher-order function accepts one or additional functions as input and returns a new function. sometimes it's needed to use function as data. - to form high order function , we need to import functools module.
 
 </details>
 
 ---
   
-81.
+81.Franz asked what are new and override modifiers in python and how will explain this to him.
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- **New Modifiers** - In python state the compiler to run a new function and not use the one from the base class.
+- **Override Modifier** - Instructs to run the base class version of a class and it will not create a new one. This reduces redundant repetitions of writing codes.
+
+</details>
+
+---
+  
+82.Can you explain something about the `new` method in python?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python the `new` method creates the instane of a class.It will allocate a memory fo r th eobject.The instance variable of an object need memory to hold it.This new will be call at the time of object creation.
+- This `new` method will be used to control the creation of new instance. 
+
+</details>
+
+---
+  
+83.Wiliam is asking what is strong typing in python how will you clarify it?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python when the object is passed in the strong typing, it is checking whether the method is present or not in the object. Using the python `hasattr()` function, using we can check whether the method is present in the passed object.
+
+</details>
+
+---
+  
+84.James want to write a piece of code to pick a random item from a list or tuple.How will you help him to write to do it?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python we can use `random` keyword to get random item from a list.
+ 
+```python
+import random
+x=['a','b','c','d']
+print(random.choice(x))
+```
+
+</details>
+
+---
+  
+85.How do we make forms in python?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python cgi module to make forms.It has some attributes:form.name:name of field
+  - **form.filename**: Client-side filename for FTP transactions.
+  - **form.value**: Value of field as a string.
+  - **form.file**: File object from which to read data.
+  - **form.type**: Content type.
+  - **form.type_options**: Options of 'content-type' line of HTTP request, returned as dictionary.
+  - **form.disposition**: The field 'content-disposition'.
+  - **form.disposition_options**: Options for 'content-disposition'.
+  - **form.headers**: All HTTP headers are returned as a dictionary.
+
+</details>
+
+---
+  
+86.Ernest is asking you why the identifier names with a leading underscore are disparaged how will you explain him to?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- Python doesn't have a concept of the private variables, use the leading underscores to declare a variable as private.
+
+</details>
+
+---
+  
+87.Can you tell me is it possible to call parent class without its instance creation in python?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- Yes, it is possible if other child classes instantiate the base class or if the base class is a static method.
+
+</details>
+
+---
+  
+88.Ken is asking to explain that are methods and constructors the same thing in python.
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- **No**, In python there are some differences between both methods and constructors.
+- **Method**: It is a function that is the member of a class. Methods consist of statements that may or may not return an output. 
+- **Constructor**:  It is a special type of method that has the same name as the class name. These methods are used to initialize an object's state.
+
+</details>
+
+---
+  
+89.What do file-related modules in Python do? Can you name some file-related modules in Python?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- Python arrives with some file-related modules that have functions to manipulate text files and binary files in a file system. These modules can be used to create text or binary files, update their content, copy, delete, and more.
+- Some file-related modules are `os, os. path, and shutil.os`. The `os.path` module has functions to access the file system, while the shutil.os module can be used to copy or delete files.
+
+</details>
+
+---
+  
+90.Kein is asking what is exec() and eval() in python how will you explain this to him?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python the `exec()` function executes the specified Python code. The `exec()` function accepts large blocks of code.
+- In python the `eval()` function which only accepts a single expression.
+
+</details>
+
+---
+  
+91.Can you explain to me what is the Metaclassess in python?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- A metaclass in Python is a class of a class that defines how a class behaves. a class is itself AN instance of a metaclass. a class in Python defines how the instance of the class can behave. To grasp metaclasses well, one has to have prior experience working with Python classes.
+
+</details>
+
+---
+  
+92.The senior developer is asking his junior developer to explain what is `swapcase()` function in python how he will explain this to him?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python `swapcase()` is a string’s function
+- It converts all the uppercase characters into lowercase and vice versa.
+
+</details>
+
+---
+  
+93.Can you explain to your junior Why would you use `NumPy` arrays instead of lists in Python?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+-NumPy arrays are providing users with three main advantages as  below:
+   - It consumes a lot less memory, thereby making the code more efficient.
+   - It executes faster and does not add heavy processing to the runtime.
+   - NumPy has a highly readable syntax, making it easy and convenient for programmers.
+
+</details>
+
+---
+  
+94.
+  
+  
+  
   
   
   
