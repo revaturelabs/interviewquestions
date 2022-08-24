@@ -265,7 +265,7 @@ command_name (-n_arguments) (filename)
 
 <details><summary> <b>Show Answer</b> </summary> 
   
-> To change a permission of read, write and execute of a file, we can use the `chmod` command. For example, `chmod g+w` will change the file permission to write for the group owner.
+> To change a permission of read, write and execute of a file, we can use the `chmod` command. For example, `chmod g+w test_file` will change the file permission to write for the group owner.
 
 </details>
 
