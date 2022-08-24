@@ -1359,7 +1359,7 @@ Three ways to create a DataFrame in Spark:
 
 ---
 
-74. In Kafka, have you dealt with subscriber programs or consumer programs?
+74. In Kafka, have you deal with subscriber programs or consumer programs?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1525,9 +1525,751 @@ Apache Hadoop is a big old package that comes to rescue for various problems lik
 
 <details><summary> Show Answer </summary>
 
+
 - Open source: Spark original code is made public and freely available for the people to access and contribute as well
 - Unified analytics engine: Common processing engine to combine data across different channels and convert it into a consumable manner that is ready for analysis.
 - Large scale data processing: Used in distributed computing space to handle and process huge volumes of data.
+
+</details>
+</blockquote>
+
+---
+
+86. Why rack awareness is necessary ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+It is used to chooses closer Datanodes based on the rack information. Which helps to improve the network traffic while reading/writing HDFS files in large clusters of Hadoop.Rack-Awareness is to prevent data loss if the entire rack fails. It also improves network bandwidth.
+
+</details>
+</blockquote>
+
+---
+
+87. What is the default block size and how is it defined?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+In the Hadoop the default block size is 128 MB.
+
+<details><summary> Explanation </summary>
+
+In HDFS data is stored in the terms of Block. It is the size of the file that get divided into when the file is store in any node. In the Hadoop the default block size is 128 MB.
+
+</details>
+</details>
+</blockquote>
+
+---
+
+88. How do you get the report of hdfs file system? About disk availability and no.of active nodes?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+- Run the fsck command on namenode as $HDFS_USER: su - hdfs -c "hdfs fsck / -files -blocks -locations > dfs-new-fsck-1.log" .
+- Run hdfs namespace and report.
+- Compare the namespace report before the upgrade and after the upgrade.
+- Verify that read and write to hdfs works successfully.
+
+</details>
+</blockquote>
+
+---
+
+
+89. What is Hadoop balancer and why is it necessary?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+The HDFS balancer re-balances data across the DataNodes, moving blocks from the overutilized to underutilized nodes. As the system administrator, we can run the balancer from the command-line as necessary .for example, after adding the new DataNodes to the cluster.
+
+</details>
+</blockquote>
+
+---
+
+90. What are the main actions performed by the Hadoop admin?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+The responsibilities of a Hadoop admin include deploying a hadoop cluster, maintaining a hadoop cluster, adding and the removing nodes using cluster monitoring tools like Ganglia Nagios or Cloudera Manager, configuring the NameNode high availability and keeping a track of all the running hadoop jobs.
+
+</details>
+</blockquote>
+
+---
+
+91. What is the purpose to use Kerberos?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+Kerberos was designed to the provide secure authentication to services over an insecure network. Kerberos uses tickets to authenticate a user and the completely avoids sending passwords across the network.
+
+</details>
+</blockquote>
+
+---
+
+92. How to check the logs of a Hadoop job submitted in the cluster and how to terminate already running process?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+Click on HDFS ----> Configs -------> type log in filter box. The picture below shows how to locate log directory for Apache Oozie using grep command of Unix. log directories will have three types of files . Logs of running daemons will be available here in this .
+
+We can configure the maximum number of times a particular map or reduce the task can fail before the entire job fails through the following properties:
+- mapred. map. max. attempts - The maximum number of attempts per map task.
+- mapred. reduce. max. attempts - Same as above, but for reduce tasks.
+
+
+</details>
+</blockquote>
+
+---
+
+93. What details are in the “fsimage” file?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+FsImage is a file stored on the OS filesystem that contains the complete directory structure namespace of the HDFS with details about the location of the data on the Data Blocks and the which blocks are stored on the which node. This file is used by the NameNode when it is started.
+
+</details>
+</blockquote>
+
+---
+
+94. What log file loaders did you use in Pig?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+Pig, is a repository of user-submitted UDF, contains a custom loader function CommonLogLoader to load Apache's Common Log Format files into pig.
+
+</details>
+</blockquote>
+
+---
+
+95.  Filter – What did you filter out?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+Use filters to temporarily hide some of the data in a table, so you can focus on the data you want to see.
+
+
+</details>
+</blockquote>
+
+---
+
+96. What do you mean by Flume?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+Flume is an open-source, powerful, reliable and flexible system used to collect, aggregate and move large amounts of unstructured data from multiple data sources into HDFS/Hbase (for example) in a distributed fashion via it's strong coupling with the Hadoop cluster.
+
+</details>
+</blockquote>
+
+---
+
+97. Tell me the process of Configure slots in Hadoop 2.0 and Hadoop 1.0.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+- Each Map Reduce Jobs are split into task and Task tracker runs each task on a fixed number of map and reduce slots inside a data node based on a static configuration.
+- In Hadoop 1.0 we need to specify in mapred-site.xml the following parameter to Configure the number of map slots and reduce slots.
+- Hadoop 2 now supports Automatic Failover of the YARN ResourceManager. Because of many such enterprise ready features, Hadoop is making news and the positive predictions.
+
+
+</details>
+</blockquote>
+
+---
+
+98. In case of high availability, if the connectivity between Standby and Active NameNode is lost. How will this impact the Hadoop cluster?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+Active Name Node and standby Name Node is not directly connected. They are connected through a medium, journal. Read and write operation is through journal only. If the network is down then only connectivity between the NameNode and Standby Name Node will be lost. There is no impact on hadoop cluster till then your Name Node is Up and running.
+
+</details>
+</blockquote>
+
+---
+
+99. What is the minimum number of ZooKeeper services required in Hadoop 2.0 and Hadoop 1.0?
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+Group of ZooKeeper servers. The minimum number of the nodes that is required to form an ensemble is 3.
+
+
+</details>
+</blockquote>
+
+---
+
+100.  If the hardware quality of few machines in a Hadoop Cluster is very low. How will it affect the performance of the job and the overall performance of the cluster?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+Installing Hadoop cluster in production is just half the battle won. It is extremely important for a Hadoop admin to tune the Hadoop cluster setup to gain maximum performance. During the Hadoop installation, the cluster is configured with default configuration settings which are on par with the minimal hardware configuration. 
+
+</details>
+</blockquote>
+
+---
+
+101. Explain the difference between blacklist node and dead node.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+When the JobTracker submits jobs to the TaskTracker and the tasks on that the node have failed too many times, the JobTracker will blacklisted a TaskTracker.Dead Node , which are not in the cluster or configure but not showing into the cluster.
+
+</details>
+</blockquote>
+
+---
+
+102. How can you increase the NameNode heap memory?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+- Blocksize=128 MB, Replication=1.
+- Cluster capacity in MB: 200 * 24,000,000 MB = 4,800,000,000 MB (4800 TB).
+- Disk space needed per block: 128 MB per block * 1 = 128 MB storage per block.
+- Cluster capacity in blocks: 4,800,000,000 MB / 128 MB = 36,000,000 blocks.
+
+</details>
+</blockquote>
+
+---
+
+103. After restarting the cluster, if the MapReduce jobs that were working earlier are failing now, what could have gone wrong while restarting?
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+The cluster could be in a safe mode after the restart of a namenode. The administrator needs to wait for the namenode to exit the safe mode before restarting the jobs again.
+
+
+</details>
+</blockquote>
+
+---
+
+104. Explain the steps to add and remove a DataNode from the Hadoop cluster.
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+- Decommission the DataNode role. When asked to select the role instance to decommission, select the DataNode role instance.
+- Stop the DataNode role.
+- Verify the integrity of the HDFS service.
+- After all errors are resolved, perform the following steps.
+
+</details>
+</blockquote>
+
+---
+
+105. When NameNode is down, what does the JobTracker do?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+if Namenode is down then data requested by the client and gives the block information.JobTracker is responsible for the job to be completed and the allocation of resources to the job.
+
+</details>
+</blockquote>
+
+---
+
+106.  When configuring Hadoop manually, which property file should be modified to configure slots?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+There could be a separate configuration file for configuring the properties of these and job ACLs are checked for authorizing view and the modification of jobs.
+
+</details>
+</blockquote>
+
+---
+
+107. How will you add a new user to the cluster?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+To create the HDFS home directory[ie. /user/] on edge node.
+
+</details>
+</blockquote>
+
+---
+
+108. What is the advantage of speculative execution? Under what situations, Speculative Execution might not be beneficial?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+It will reduce the job execution time; however, the clustering efficiency is affected due to duplicate tasks. 
+
+</details>
+</blockquote>
+
+---
+
+109. How Serialization used in Hadoop?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+Serialization is the process of the0 converting an object into a stream of bytes to store the object or transmit it to memory, a database, or a file.
+
+</details>
+</blockquote>
+
+---
+
+110. How to remove the duplicate records from a hive table?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+- Use Insert Overwrite and DISTINCT Keyword.
+- GROUP BY Clause to Remove Duplicate.
+- Use Insert Overwrite with row_number() analytics functions.
+
+</details>
+</blockquote>
+
+---
+
+
+111. How to find the number of delimiter from a file?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+We need to read a lines , count the number of commas and the number of tabs and compare them. If there's 20 commas and no tabs, it's in the CSV. If there's 20 tabs and 2 commas , it's in TSV.
+
+</details>
+</blockquote>
+
+---
+
+112. What is cogroup in pig?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+The COGROUP operator works more or less in the same way as the GROUP operator. The only difference between the two operators is that the group operator is normally used with one relation, while the cogroup operator is used in the statements involving two or more relations.
+
+</details>
+</blockquote>
+
+---
+
+113. How we can join two big tables in Hive?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+We will use a Inner Join to join a two big table in Hive. 
+
+</details>
+</blockquote>
+
+---
+
+114.  Which language you use in flume configuration
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+Flume agent configuration is stored in a local configuration file. Configurations for that the one or more agents can be specified in the same configuration file.
+
+</details>
+</blockquote>
+
+---
+
+115.  Write a command to import customer table in Hadoop
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+The following syntax is used to import data into HDFS.
+
+- $ sqoop import (generic-args) (import-args)
+
+- $ sqoop-import (generic-args) (import-args)
+
+</details>
+</blockquote>
+
+---
+
+116. What is the mapper in Sqoop and how you decide the number of mapper in Sqoop?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+Number of mappers indicates how parallel our Sqoop job is running .
+
+</details>
+</blockquote>
+
+---
+
+117. Where we can specify the input and output location in MapReduce program.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+No, it is not mandatory to set the input and output type/format in MapReduce.
+
+</details>
+</blockquote>
+
+---
+
+118. What type of data we should store in Fact table and dimension table?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+Fact table is defined by their grain or its most atomic level whereas Dimension table should be wordy, descriptive, complete, and quality assured. Fact table helps to store report labels whereas Dimension table contains the detailed data.
+
+</details>
+</blockquote>
+
+---
+
+119. How bucketing is different from Partition and why we use it?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+Bucketing decomposes data into more manageable or equal parts. With partitioning, there is a possibility that you can create the multiple small partitions based on column values. If we go for bucketing,we are restricting the number of buckets to store the data. This number is defined during the table creation scripts.
+
+</details>
+</blockquote>
+
+---
+
+
+120. What is Fact Table and Dimension Table?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+Dimension table Dimension table is a table which contain attributes of measurements stored in the fact tables. Fact table contains the measurement of business processes, and it contains foreign keys for the dimension tables.
+
+
+</details>
+</blockquote>
+
+---
+
+
+121. What are sinks and sources in Apache Flume when working with Twitter data?
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+Our Source is the Twitter, from where we are streaming the data and our Sink is HDFS, where we are writing the data. In source configuration, we are passing the Twitter source type as org. apache. flume.
+
+
+</details>
+</blockquote>
+
+---
+
+122. What is heap error and how can you fix it?
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+Heap errors can occur when your code inadvertently overwrites control information that the memory management functions use to the control heap usage. The application that you are debugging must have been built with the heap check capability.
+
+
+</details>
+</blockquote>
+
+---
+
+
+123. How many joins does MapReduce have and when will you use each type of join?
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+There are two types of join operations in MapReduce are: Map Side Join: As the name implies, the join operation is performed in the map phase itself. 
+
+</details>
+</blockquote>
+
+---
+
+124. If you have configured Java version 8 for Hadoop and Java version 7 for Apache Spark, how will you set the environment variables in the basic configuration file?
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+The environment variables store data that is used by the operating system and the other programs. For example, the WINDIR environment variable contains the location of the Windows installation directory. 
+
+</details>
+</blockquote>
+
+---
+
+125. Differentiate between bash and basic profile.
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+Basic profile is read and executed when Bash is invoked as an interactive login shell, while . bash is executed for an interactive non-login shell. Basic profile to run commands that should run only once, such as customizing the $PATH environment variable .
+
+
+</details>
+</blockquote>
+
+---
+
+126.  How is Hadoop different from other parallel computing systems?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+Hadoop is a distributed file system, which lets you store and the handle massive amount of data on a cloud of machines, handling data redundancy. Each node can process the data stored on it instead of spending time in moving it over the network.
+
+
+</details>
+</blockquote>
+
+---
+
+127. How can you debug Hadoop code?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+- Add hadoop-mapreduce-client-jobclient maven dependency. The very first step to debug Hadoop map reduce code locally is to add the hadoop-mapreduce-client-jobclient maven dependency.
+- Set the local file system. Set either local or file:/// in fs.
+- Set the Number of mappers and reducers.
+
+</details>
+</blockquote>
+
+---
+
+128. How is security achieved in Hadoop?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+- First step in securing an Hadoop cluster is to enable the encryption in transit and at rest. 
+
+- Authentication and Kerberos rely on secure communications, so before you even go down the road of enabling authentication and the Kerberos you must enable encryption of data-in-transit.
+
+</details>
+</blockquote>
+
+---
+
+129. Why does one remove or add nodes in a Hadoop cluster frequently?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+In a Hadoop cluster a Manager node will be deployed on a reliable hardware with the high configurations, the Slave node's will be deployed on commodity hardware. So chance's of data node crashing is more . So more frequently you will see admin's remove and add new data node's in a cluster.
+
+
+</details>
+</blockquote>
+
+---
+
+130. What is Hadoop Streaming?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+It is a utility which comes under Hadoop distribution. It allows to create and run the mapreduce job easily. 
+
+
+</details>
+</blockquote>
+
+---
+
+
+131. Does Hadoop support Streaming data?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+Yes, its support the streamming data easily . 
+
+<details><summary> Explanation </summary>
+
+With streaming data integration for Hadoop, we can easily feed your Hadoop and NoSQL solutions continuously with real-time, pre-processed data from enterprise databases, log files, messaging systems too. 
+
+</details>
+</details>
+</blockquote>
+
+---
+
+132. Can you give a detailed overview about the Big Data being generated by Facebook?
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+Every day, we feed Facebook's data beast with mounds of information. Every 60 seconds, 136,000(approx.) photos are uploaded, 510,000 (approx.) comments are posted, and 293,000 (approx.) status updates are posted. Facebook generates 4 petabytes of data per day — that's a million gigabytes.
+
+
+</details>
+</blockquote>
+
+---
+
+
+133. Give examples of some companies that are using Hadoop structure?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+Aprrox. 361 companies reportedly use Hadoop in their tech stacks, including Uber, Airbnb, and Shopify.
+
+<details><summary> Explanation </summary>
+
+Here are five businesses successfully using Hadoop:
+
+- Marks and Spencer. In 2015, Marks and Spencer adopted Cloudera Enterprise to analyze its data from multiple sources. ...
+- Royal Mail. ...
+- Royal Bank of Scotland. ...
+- British Airways. ...
+- Expedia.
+
+</details>
+</details>
+</blockquote>
+
+---
+
+
+134. Since the data is replicated thrice in HDFS, does it mean that any calculation done on one node will also be replicated on the other two?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+No, calculations will be done only on the original data.
+
 
 </details>
 </blockquote>
