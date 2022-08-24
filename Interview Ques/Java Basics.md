@@ -1628,3 +1628,79 @@ Compilation error will occur stating that Main method must return a value of typ
 
 ---
 
+78. Predict the output of the following code snippet.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+```java
+
+public class Main{  
+   int data=30;  
+  static class Innerclass{  
+   static void msg(){System.out.println("data is "+data);}  
+  }  
+  public static void main(String args[]){  
+  Main.Innerclass.msg();
+  }  
+} 
+```
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+It will throw compilation error
+
+</blockquote>
+
+<details><summary> Explanation </summary>
+
+<blockquote>
+
+non-static variable cannot be used in a static class
+
+</blockquote>
+
+</details>
+
+</details>
+
+---
+
+79. Predict the order of execution in the following program.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+```java
+
+class Main {
+    Main()
+    {
+        System.out.println("No  argument constructor");
+    }
+    static
+    {
+        System.out.println("1st static init");
+    }
+    {
+        System.out.println("1st instance init");
+    }
+    public static void main(String[] args)
+    {
+        new Main();
+    }
+} 
+```
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+1st static init <br>
+1st instance init <br>
+No  argument constructor <br>
+
+</blockquote>
+
+</details>
+
+---
+
