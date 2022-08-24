@@ -1466,19 +1466,155 @@ In Python is an object-oriented programming language but not pure. Because, Pyth
 
 ---
   
-73.Is monkey patching considered good programming practice?
+73.Henry was checking Is there any way to kill a thread in python how will you help him to find it and explain it?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
+- In python, we can able to kill a thread. To kill a thread we have many methods in these are,
+    - Create an **Exit_Request** flag.
+    - Using the `multiprocessing` module.
+    - Using the `trace module.
+    - Use the `ctypes` to raise Exceptions in a thread.
+- We can use any one of the methods and we can kill the thread.
   
-
 </details>
 
 ---
 
+74.Can you explain is it necessary to put a space between operators and operand in python?
+ 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- Yes,it is it necessary to put a space between operators and operand in python.
+- If we are use sapce in between both operator and operands it will help readability.
+  
+```python
+x + y
+(sum ** 2) + 3 * val - 1
+x * (3 + 8)
+b + math.sqrt(3 * max_val)
+```
+
+</details>
+
+---
+  
+75.Can you explain to me why I can't use assignment operators in an expression?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- The error is a simple typo: x = 0, which assigns 0 to the variable x, was written while the comparison x == 0 is certainly what was intended.
+- The reason for it is not allowing assignment in Python expressions could be a common, hard-to-find bug in those different languages, caused by this construct:
+
+```python
+if (x = 0) {
+...error handling...
+}
+else {
+...code that only works for nonzero x...
+}
+```
+
+</details>
+
+---
+  
+76.Charles asked what are the rules for local and global variables in Python, how will you explain this to him?  
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python, the variables referenced within a function are global.
+- When a variable is assigned  new value anyplace within the body of a function then it's assumed as local.
+- In a function, if a variable ever assigned  new value then the variable is implicitly local and explicitly it should be declared as global.
+
+</details>
+
+---
+ 
+77.Tell me how will you create an empty class in python?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- If you want to write an empty class in python we can use the pass statement. Pass is a special statement in python but it does nothing.
+- Pass works as a dummy statement.
+- Regardless, objects of an empty class can also be created.
+
+</details>
+
+---
+  
+78.Can you train your coworker on how will you pass optional or keyword parameters from one function to another function in python?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+To pass the keywords from one function to another function we can use the keyword arguments.
+
+```python
+def func (**kwargs):
+ print('func kwargs:', kwargs)
+def funcy (a, b, c, **kwargs):
+  print('other args:', a, b, c)
+  print('keyword args:', kwargs)
+def funcy(a, b, c, **kwargs):
+    print('other args:', a, b, c)
+    print('keyword args:', kwargs)
+    func(**kwargs)
+```
+
+</details>
+
+---
+  
+79.Can you tell me how will you find methods or attributes of an object in python?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python attributes of a class can even be accessed using the following built-in methods and functions:
+   - `getattr()` – This function is used to access the attribute of an object.
+   - `hasattr()` – This function is used to check if an attribute exists or not.
+   - `setattr()` – This function is used to set an attribute.
+
+</details>
+
+---
+  
+80.How will you make a higher order function in python?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- A higher-order function accepts one or more functions as input and returns a new function. Sometimes it is required to use function as data. - To make high order function , we need to import functools module.
+
+</details>
+
+---
+  
+81.
+  
+  
   
   
   
