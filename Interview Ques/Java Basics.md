@@ -1704,3 +1704,29 @@ No  argument constructor <br>
 
 ---
 
+80. How can we make the below code to work perfectly to print numbers from 0 to 9?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        for(int i=0; i<10; i++) {
+            System.out.println(i);
+        }
+        continue;
+    }
+}
+```
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Continue cannot be declared outside the loop. so it should be moved from line 7  to line 5. 
+
+</blockquote>
+
+</details>
+
+---
+
