@@ -199,12 +199,52 @@ Performance wise also `printf` is faster in execution than `echo` command.
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> 
+> All these 3 are used to create, view, update, delete the partitions of a disk, but the fdisk and cfdisk provides fancy interface to do all these task, a sysadmin can easily do all these just by going into the menu interface without remembering all the commands. Whereas, sfdisk doesn't provide the user interface, instead it is command driven and used in documentations. it can read input from file or stdin and writes into partiton table.
 
 </details>
 
 ---
-21. 
+21. which command is used to give information about block devices like hard drive, flash drives, CD-ROM?
 
 <details><summary> <b>Show Answer</b> </summary> 
 
+> To view the details of all available block devices we can use the `lsblk` command. For example, `lsblk -a`, lists all the block devices including empty devices.
+
+</details>
+
+---
+
+22. How do you manage and monitor software RAID devices in Linux?
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> Using `mdadm` command we can create software RAID and help manage RAID on devices.
+
+</details>
+
+---
+
+23. Give the general format of UNIX command?
+
+<details><summary> <b>Show Answer</b> </summary> 
+  
+> When writing a UNIX command in shell,we can follow one pattern:  
+```
+command_name (-n_arguments) (filename)
+```
+  
+</details>
+
+---
+
+24. Is kernel and Operating System both same?
+
+<details><summary> <b>Show Answer</b> </summary> 
+  
+> No both are not same, OS is a system software, whereas kernal is a part of OS. OS acts as an interface between user and hardware, wherease kernal is a core of OS and is used to interact between applications and hardware. 
+  
+</details>
+
+---
+
+25. 
