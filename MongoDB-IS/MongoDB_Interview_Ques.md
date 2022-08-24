@@ -618,3 +618,98 @@ Whenever there is a server failure or system crashes, we can still recover the d
 </details>
 
 ---
+
+43. Give the steps to connect MongoDB with Python?
+
+<details><summary> <b>Show Answer</b> </summary> 
+  
+> - To connect MongoDB with Python application we first have to install and import the `pymongo` Module. 
+> - Then from pymongo import the MongoClient, that will help in putting the connection string.
+> - Then we have to pass the hostname and port number as an parameter to MongoClient instance and our connect will be ready.
+> - At last, after doing all the opertions, close the connection using close() method.
+  
+</details>
+
+---
+
+44. How will you insert more than one document at a time without using default `insert()` method?
+
+<details><summary> <b>Show Answer</b> </summary> 
+  
+> To insert multiple documents thorugh a single query we can use the insertMany() command. for example,   
+``` 
+db.collection.insertMany([{name: "Jack", dept: "training"},
+                          {name: "Henry", dept: "finance"},
+                          {name: "Tom", dept: "product"}]);
+```
+> It will inserts 3 documents at a time.
+  
+</details>
+
+---
+
+45. How will you delete only first document having "name" equal to "Tom"?
+
+<details><summary> <b>Show Answer</b> </summary> 
+  
+> To remove only one document without effecting any other document, we can use the `remove()` method with 'justOne' parameter set as 1.      
+```
+db.collection_name.remove({"name" : "Tom"},1);
+```
+  
+</details>
+
+---
+
+46. Is `remove()` and `deleteMany()` methods in MongoDB are same?
+
+<details><summary> <b>Show Answer</b> </summary> 
+  
+> Both the methods in MongoDB is used to delete documents. The only difference between both is the value return after deletion operation.  
+> - The `remove()` method return a WriteResult object.
+> - The `deleteMany()` method returns a document conatining acknowledged value and deleted count. 
+  
+</details>
+
+---
+
+47. What is the use of `pretty()` method in MongoDB?
+
+<details><summary> <b>Show Answer</b> </summary> 
+  
+> `pretty()` when applied with the `find()` method, it will display output documents in an easy to read format. Without `pretty()` if the documents have so many fields and we fetched all the documents fields through `find()` then it is very difficult to read values from each document as it will show one document in one line only.
+  
+</details>
+
+---
+
+48. Tell me what do you understand by vertical scaling and horizontal scaling?
+
+<details><summary> <b>Show Answer</b> </summary> 
+  
+> - Vertical scaling refers to adding additional resouces in a single system to increase it performace such as ram, cpu, etc. 
+> - Horizontal scaling refers to adding multiple servers to a single server and partitioning the dataset over those server.
+  
+</details>
+
+---
+
+49. Which method can be used to see the results in a formatted way?
+
+<details><summary> <b>Show Answer</b> </summary> 
+  
+> We can use the `pretty()` method to format the resulted documents.
+  
+</details>
+
+---
+
+50. Explain about sharding in MongoDB?
+
+<details><summary> <b>Show Answer</b> </summary> 
+  
+> It is the process of adding data across multiple servers so that if one server is down we can still utilize the data from other servers. MongoDB supports sharding by breaking the larger datasets into smaller data sets and sending it to other servers. It increases the redundancy of data and provides durability in times of failure.
+  
+</details>
+
+---
