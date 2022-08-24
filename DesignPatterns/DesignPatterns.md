@@ -727,6 +727,115 @@ This pattern is used in EJB (Enterprise Java Beans) persistence mechanism. A com
 
 ---
 
+19.Explain the main advantage of using a prototype design pattern over object creation using a new keyword?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+ 
+Prototype design pattern is used for creating duplicate objects based on the prototype of the already existing object using cloning. Doing this has a positive impact on the performance of object creation. Creating objects using the new keyword requires a lot of resources and is a heavyweight process that impacts performance. Hence, the prototype design pattern is more advantageous than the object created using a new keyword.
+
+</blockquote>
+
+</details>
+
+---
+
+20.How can you achieve thread-safe singleton patterns in Java?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+ 
+A thread-safe singleton class is created which helps in object initialization in the presence of multiple threads. It can be done using multiple ways:
+
+- Using Enums: Enums are the simplest means of creating a thread-safe singleton class in Java because the synchronization support is inherently done by Java itself. Enums are by default final and this also helps in preventing multiple initializations at the time of serialization.
+
+```java
+
+   public enum ThreadSafeSingleton{
+      SINGLETON_INSTANCE;
+      public void display(){
+          System.out.println("Thread-safe singleton Display");
+      }
+   }
+   ThreadSafeSingleton.SINGLETON_INSTANCE.show();
+
+```
+
+- Using Static Field Initialization: Thread-safe singleton can also be created by creating the instance at the time of class loading. This is achieved by making use of static fields as the Classloader guarantees that the instances are initialized during class loading and the instance is not visible until that has been fully created.
+
+```java
+
+   public class ThreadSafeSingleton{
+      private static final ThreadSafeSingleton INSTANCE = new ThreadSafeSingleton();
+      private ThreadSafeSingleton(){ }
+      public static ThreadSafeSingleton getInstance(){
+          return INSTANCE;
+      }
+      public void display(){
+          System.out.println("Thread-safe Singleon");
+      }
+   }
+   ThreadSafeSingleton.getInstance().display();
+
+```
+
+But the disadvantage of this way is that the initialization cannot be done lazily and the `getInstance()` method is called even before any client can call.
+
+- Using synchronized keyword: We can make use of the synchronized keyword upon the getInstance method as shown below.In this method, we can achieve lazy initialization, and also since we use synchronized keywords, the object initialization is thread-safe.The only problem is that since the whole method is synchronized, the performance is impacted in the presence of multiple threads.
+
+```java
+
+   public class ThreadSafeSingleton{
+    private static ThreadSafeSingleton instance;
+    private ThreadSafeSingleton(){
+      
+    }
+    synchronized public static ThreadSafeSingleton getInstance(){
+      if (this.instance == null){
+        this.instance = new ThreadSafeSingleton();
+      }
+      return this.instance;
+    }
+   }
+
+```
+
+- Double-check locking: Here, we will be using a synchronized block of code within the getInstance method instead of making the whole method synchronized. This ensures that only a handful of threads have to wait only for the first time thereby not impacting the performance.
+
+```java
+
+   public class ThreadSafeSingleton {
+    private static ThreadSafeSingleton instance;
+    private ThreadSafeSingleton(){
+    
+    }
+    public static ThreadSafeSingleton getInstance(){
+      if (instance == null){
+        synchronized (ThreadSafeSingleton.class){
+          if(instance==null){
+            instance = new ThreadSafeSingleton();
+          }
+        }
+      }
+      return instance;
+    }
+   }
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+
 
 
 
