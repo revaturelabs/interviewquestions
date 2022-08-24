@@ -247,4 +247,38 @@ command_name (-n_arguments) (filename)
 
 ---
 
-25. 
+25. Name some of the file editors used in unix/linux?
+
+<details><summary> <b>Show Answer</b> </summary> 
+  
+> There are many file editors that can be used to write down the commands like:  
+> - Vi/VIM editor
+> - Nano editor
+> - Gedit editor
+> - VS Code
+
+</details>
+
+---
+
+26. How to change the permission set of a file in UNIX?
+
+<details><summary> <b>Show Answer</b> </summary> 
+  
+> To change a permission of read, write and execute of a file, we can use the `chmod` command. For example, `chmod g+w` will change the file permission to write for the group owner.
+
+</details>
+
+---
+
+27. How to change ownership of a file in Linux?
+
+<details><summary> <b>Show Answer</b> </summary> 
+  
+> To change ownership of a file, we can use `chown` command. For example, `chown Henry work_file`. Here the new owner name is Henry and file name is work_file.
+
+</details>
+
+---
+
+
