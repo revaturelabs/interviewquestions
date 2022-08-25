@@ -891,7 +891,11 @@ Iterator pattern is used to get a way to access the elements of a collection obj
 
 <blockquote>
 
-The state design pattern is used to define and manage the state of an object, while the Strategy pattern is used to define a set of interchangeable algorithms, and let's client choose one of them. So Strategy pattern is a client-driven pattern while Object can manage their state itself.
+- The strategy design pattern defines a set of algorithms to carry out a specific behavior, whereas the State design pattern allows an object to alter its behavior when its internal state changes.
+- The strategy design pattern does not allow us to store a reference to the context object, whereas the state design pattern stores the reference to the context object which contains them.
+- In the strategy design pattern, the client is aware of the strategy which is chosen for implementation, whereas in the state design pattern, the client does not decide which state to be chosen for implementation.
+- Strategy pattern deals with HOW an object performs a certain task, whereas the state design pattern deals with what an object is.
+- There is no successor/predecessor relationship present in strategy design pattern, whereas states are related to one/another as successor & predecessor in state design pattern states.
 
 </blockquote>
 
@@ -999,5 +1003,395 @@ The term Proxy stands for an object representing another object. The proxy patte
 
 ---
 
+31. How can you differentiate Dependency Injection and Service Locator patterns?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+ 
+The service locator is used to create class dependencies. The Class is still responsible for creating its dependencies no matter whether if it is using service locator or not.Service locators are also used to hide dependencies. We can't say by looking at an object whether it connects with a database or not when it obtains connections from a locator.
+
+With Dependency injection, the class which contains its dependencies neither knows nor cares where they came from.One significant difference is that Dependency injection is much easier to unit test because we can pass in it mock implementations of its dependent objects. We could combine the two objects and apply the service locator.
+
+</blockquote>
+
+</details>
+
+---
+
+32. Explain the Intercepting Filter Design Pattern and also mention its benefits?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+ 
+
+The intercepting filter design pattern is used to intercept and manipulate a request and response before and after the request processing. Filters perform the authentication/ authorization/ logging or tracking of request and then forward the requests to corresponding handlers. The basic entities of Intercepting design pattern.
+
+- Filter:It performs a certain task before or after the execution of request by request handler.
+
+- Filter Chain:It contains multiple filters and helps to execute them in defined order on target.
+
+- Target:The target object is the request handler
+
+- Filter Manager:It manages the filters and Filter Chain.
+
+- Client:The client object is one who sends a request to the Target object.
+
+- The Benefits of Intercepting Filter Design Pattern are Filter pattern provides central control with loosely coupled handlers.It expands reusability.The new filter can be added at any time without affecting the client's code.Filters can be selected dynamically during program execution.
+
+</blockquote>
+
+</details>
+
+---
+
+33. Explain Data Access Object (DAO) pattern?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+ 
+Data Access Object Pattern is used to isolate low-level data accessing API or actions from high-level business services. Following are the components in the DAO Pattern.
+
+- Data Access Object Interface:DAO interface describes the standard actions to be performed on a model objects.
+
+- Data Access Object concrete class:This class implements a DAO interface. This class is accountable to get data from a data source which can be Xml/database or any other storage mechanism.
+
+- Model Object or Value Object:This object is a plain old java object containing get/set methods to store data retrieved using DAO class.
+
+</blockquote>
+
+</details>
+
+---
+
+34. Explain how can you create a Singleton class in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+We have to make the constructor private so that new operator cannot be used to instantiate the class and return an object if not null otherwise create the object and return the same via a method.
+
+</blockquote>
+
+</details>
+
+---
+
+35. Which pattern is useful when one has to pass data with multiple attributes in one shot from client to server?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Transfer Object Pattern is useful when one has to pass data with multiple attributes in one shot from client to the server. Transfer object is also known as Value Object. Transfer Object is a simple POJO class having getter/setter methods and is serializable so that it can be transferred over the network. It does not have any behavior. Server Side business class normally fetches data from the database and fills the POJO and send it to the client or pass it by value. For client, transfer object is read-only. Client can create its own transfer object and pass it to server to update values in database in one shot. Following are the entities of this type of design pattern.
+
+</blockquote>
+
+</details>
+
+---
+
+36. Explain in singleton pattern whether it is better to make the whole getinstance() method synchronized or just critical section is enough? Which one is preferable?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Synchronization of whole getinstance() method is costly and is only needed during the initialization on singleton instance, to stop creating another instance of Singleton. Therefore it is better to only synchronize critical section and not the whole method.
+
+</blockquote>
+
+</details>
+
+---
+
+37. Explain how can you prevent creating another instance of singleton using clone() method?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The preferred way to prevent creating another instance of a singleton is by not implementing Cloneable interface and if you do just throw an exception from clone() method "not to create a clone of singleton class".
+
+</blockquote>
+
+</details>
+
+---
+
+38. What is the limitation of using singleton pattern?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The singleton pattern ensures that a class has only one instance and to provide a global point of access to it. But at the same time this becomes its limitation as most classes in an application will need to create multiple instances.
+
+</blockquote>
+
+</details>
+
+---
+
+39. What are the drawbacks of using a singleton design pattern?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- Singleton causes code to be tightly coupled. The singleton object is exposed globally and is available to a whole application. Thus, classes using this object become tightly coupled; any change in the global object will impact all other classes using it.
+- They hide dependencies instead of exposing them.
+- Singleton Pattern does not support inheritance.
+- Singleton principle can be violated by techniques such as cloning. If an application is running on multiple JVM’s, then, in this case, Singleton might be broken.
+
+</blockquote>
+
+</details>
+
+---
+
+40. Explain DAO design pattern with an example?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Data Access Object Pattern or DAO pattern is used to separate low level data accessing API or operations from high level business services. Following are the participants in Data Access Object Pattern.
+
+- Data Access Object Interface:This interface defines the standard operations to be performed on a model objects.
+
+- Data Access Object concrete class:This class implements above interface. This class is responsible to get data from a data source which can be database / xml or any other storage mechanism.
+
+- Model Object or Value Object:This object is simple POJO containing get/set methods to store data retrieved using DAO class.
+
+```java
+
+public class Student {
+   private String name;
+   private int rollNo;
+
+   Student(String name, int rollNo){
+      this.name = name;
+      this.rollNo = rollNo;
+   }
+
+   public String getName() {
+      return name;
+   }
+
+   public void setName(String name) {
+      this.name = name;
+   }
+
+   public int getRollNo() {
+      return rollNo;
+   }
+
+   public void setRollNo(int rollNo) {
+      this.rollNo = rollNo;
+   }
+}
+
+
+import java.util.List;
+
+public interface StudentDao {
+   public List<Student> getAllStudents();
+   public Student getStudent(int rollNo);
+   public void updateStudent(Student student);
+   public void deleteStudent(Student student);
+}
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class StudentDaoImpl implements StudentDao {
+	
+   
+   List<Student> students;
+
+   public StudentDaoImpl(){
+      students = new ArrayList<Student>();
+      Student student1 = new Student("Alice",0);
+      Student student2 = new Student("Ben",1);
+      students.add(student1);
+      students.add(student2);		
+   }
+   @Override
+   public void deleteStudent(Student student) {
+      students.remove(student.getRollNo());
+      System.out.println("Student: Roll No " + student.getRollNo() + ", deleted from database");
+   }
+
+  
+   @Override
+   public List<Student> getAllStudents() {
+      return students;
+   }
+
+   @Override
+   public Student getStudent(int rollNo) {
+      return students.get(rollNo);
+   }
+
+   @Override
+   public void updateStudent(Student student) {
+      students.get(student.getRollNo()).setName(student.getName());
+      System.out.println("Student: Roll No " + student.getRollNo() + ", updated in the database");
+   }
+}
+
+public class DaoPatternDemo {
+   public static void main(String[] args) {
+      StudentDao studentDao = new StudentDaoImpl();
+      for (Student student : studentDao.getAllStudents()) {
+         System.out.println("Student: [RollNo : " + student.getRollNo() + ", Name : " + student.getName() + " ]");
+      }
+
+      Student student =studentDao.getAllStudents().get(0);
+      student.setName("Michael");
+      studentDao.updateStudent(student);
+      studentDao.getStudent(0);
+      System.out.println("Student: [RollNo : " + student.getRollNo() + ", Name : " + student.getName() + " ]");		
+   }
+}
+
+Output:
+
+Student: [RollNo : 0, Name : Alice ]
+Student: [RollNo : 1, Name : Ben ]
+Student: Roll No 0, updated in the database
+Student: [RollNo : 0, Name : Michael ]
+
+```
+
+</blockquote>
+
+</details>
+	
+---
+
+41. Explain front controller design pattern with an example?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The front controller design pattern is used to provide a centralized request handling mechanism so that all requests will be handled by a single handler. This handler can do the authentication/ authorization/ logging or tracking of request and then pass the requests to corresponding handlers. Following are the entities of this type of design pattern.
+
+- Front Controller:Single handler for all kinds of requests coming to the application (either web based/ desktop based).
+
+- Dispatcher:Front Controller may use a dispatcher object which can dispatch the request to corresponding specific handler.
+
+- View:Views are the object for which the requests are made.
+
+```java
+
+public class HomeView {
+   public void show(){
+      System.out.println("Displaying Home Page");
+   }
+}
+
+public class StudentView {
+   public void show(){
+      System.out.println("Displaying Student Page");
+   }
+}
+
+public class Dispatcher {
+   private StudentView studentView;
+   private HomeView homeView;
+   
+   public Dispatcher(){
+      studentView = new StudentView();
+      homeView = new HomeView();
+   }
+
+   public void dispatch(String request){
+      if(request.equalsIgnoreCase("STUDENT")){
+         studentView.show();
+      }
+      else{
+         homeView.show();
+      }	
+   }
+}
+
+public class FrontController {
+	
+   private Dispatcher dispatcher;
+
+   public FrontController(){
+      dispatcher = new Dispatcher();
+   }
+
+   private boolean isAuthenticUser(){
+      System.out.println("User is authenticated successfully.");
+      return true;
+   }
+
+   private void trackRequest(String request){
+      System.out.println("Page requested: " + request);
+   }
+
+   public void dispatchRequest(String request){
+      trackRequest(request);
+      if(isAuthenticUser()){
+         dispatcher.dispatch(request);
+      }	
+   }
+}
+
+public class FrontControllerPatternDemo {
+   public static void main(String[] args) {
+      FrontController frontController = new FrontController();
+      frontController.dispatchRequest("Home");
+      frontController.dispatchRequest("Student");
+   }
+}
+
+Output:
+
+Page requested: Home
+User is authenticated successfully.
+Displaying Home Page
+Page requested: Student
+User is authenticated successfully.
+Displaying Student Page
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+	
 
