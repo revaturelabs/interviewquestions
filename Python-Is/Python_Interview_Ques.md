@@ -2215,5 +2215,42 @@ In python Multiple Inheritance, Method Resolution Order (MRO) we already know. C
 
 ---
   
-117.What is the difference between the assertTrue() and assertFalse() methods?
+117.Joe was asking What is the difference between the assertTrue() and assertFalse() methods in python how will you explain this to her?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python the `assertTrue()` method checks the given condition is True.While the `assertFalse()` method checks the given condition is False.These methods are used to check the return value of a given function.
+
+</details>
+
+---
+  
+118.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
