@@ -410,7 +410,10 @@ drop index author_id;
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> BLOB is a sub-type of string datatype in SQL and is stands for binary large object. It is used to large amount of data like documents, images, etc.  
+> BLOB is a sub-type of string datatype in SQL and is stands for binary large object. It is used to large amount of data like documents, images, etc. They are of three types:  
+> - TINYBLOB
+> - MEDIUMBLOB
+> - LONGBLOB
 
 </details>
 
