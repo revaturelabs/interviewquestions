@@ -2321,12 +2321,12 @@ os.getcwd()
 
 - Some pdp comments are given below,
   
-- <b> — Add breakpoint
-- <c> — Resume execution
-- <s> — Debug step by step
-- <n> — Move to next line
-- <l> — List source code
-- <p> — Print an expression`
+- `<b>` — Add breakpoint
+- `<c>` — Resume execution
+- `<s>` — Debug step by step
+- `<n>` — Move to next line
+- `<l>` — List source code
+- `<p>` — Print an expression`
   
 </details>
 
@@ -2693,7 +2693,279 @@ We can do this by using the `float()` and `int()` statements. The `int()` functi
 
 ---
   
-140.  
+140.Which one is the built-in function used in Python to iterate over a sequence of numbers?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- To iterate over a sequence of numbers we can use `range()`,`for` loop built-in functions.
+  
+Syntax: `range(start,end,step count)`
+  
+```python
+a = range(1,10,2)
+print (a)
+```
+
+If using to iterate 
+  
+```python
+for i in range(1,10):
+    print (i)
+```
+  
+</details>
+
+---
+  
+141.What is used to represent Strings in Python. Is double quotes used for String representation or single quotes used for String representation in Python?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+In python double quotes used for String representation and single quotes used for String representation. This both work in Python. Most usable way by PEP 8 is in double quotes.
+
+</details>
+
+---
+  
+142.Why is this 'raw_input' detected as an error in Python?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+It's depends upon python version.If you are using in python 2.5 it's used to take a input from user.
+
+```python
+name = raw_input("enter your name please")
+print(name)
+```
+  
+Now Input is used to take from user-input in python.
+
+```python
+name = input("enter your name please:")
+print(name)
+```
+
+</details>
+
+---
+  
+143.Does Carmella want to upgrade all Python packages at one time how will you help him to upgrade all the packages?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+If yuo want to  upgrade all Python packages at one time with pip.We have so many ways this is the one way to do.
+  
+To upgrade all local packages, you can install `pip-review`:
+
+` pip install pip-review`
+  
+After that, you can either upgrade the packages interactively:
+
+` pip-review --local --interactive`
+  
+Or automatically:
+
+` pip-review --local --auto`
+
+</details>
+
+---
+  
+144.Consider I have a custom class,
+  
+```python
+class A:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+```  
+  
+The class is not iterable or indexable or anything like that. If at all possible, I would like to keep it that way.Can you tell me Is there a way to return a custom value for min and max in Python?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- Yes, it is possible. When min takes one arguments it assumes it to be an iterable, iterates over it and takes the minimum value. So,
+  
+```python
+class A:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+    def __iter__(self):
+        yield self.a
+        yield self.b
+```  
+  
+- If you don't want to use `__iter__`. You  want to create your own min function, that calls some _min_ method if there is one in the argument it is passed to and calls the mini else.
+
+```  
+mini = min
+def min(*args):
+    if len(args) == 1 and hasattr(args[0], '_min_'):
+        return args[0]._min_()
+    else:
+        return mini(*args)  
+```  
+
+</details>
+
+---
+  
+145.Does Henry want to know the parameter-passing mechanism in python how will you explain this to him?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- To pass its parameters to a function, in Python we can use pass-by-reference. If you want to change a parameter within a function, the change reflects in the calling function. This is its default behavior.
+- However, when we pass literal arguments like strings, numbers, or tuples, they pass by value. Because they are immutable.
+
+</details>
+
+---
+  
+146.In python I want to add created date, created user details(some basic details) in starting of each log file in python How will you help him to add some basic details in string of each log file?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+  
+- We can use this to add some basic details in string of each log file.
+- Then change your handler class to this custom one.
+
+```python
+from datetime import date
+import os
+
+class HeaderFileHandler(logging.FileHandler):
+    def _open(self):
+        open_func = self._builtin_open
+        new_log = not os.path.exists(self.baseFilename)
+        f = open_func(self.baseFilename, self.mode,
+                         encoding=self.encoding, errors=self.errors)
+        if new_log:
+            f.write(f"Log created on {date.today()}\n")
+        return f
+ ```
+
+</details>
+
+---
+  
+147.How can you declare multiple assignments in one statement?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python we have two more ways to assign mutiple values in single statement.
+  
+```python
+a,b,c=3,4,5     #This assigns 3, 4, and 5 to a, b, and c.
+a = b = c =3         #This assigns 3 to a, b, and c
+```
+</details>
+
+---
+  
+148.Consider i have a req.txt file,Then i tried to install the packages according to my text from my local directory.How can i install packages using pip according to the req.txt file from a local directory in python?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python we can use the below command
+  
+```python
+pip install -r /path/to/req.txt
+```
+  
+**Explanation:**
+  
+ -r, --req < filename >
+
+</details>
+
+---
+  
+149.Can you explain me What is a closure in Python?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+In python a closure is said to occur when a nested function references a value in its enclosing scope. The whole point here is that it remembers the value.
+  
+```python
+def A(x):
+    def B():
+        print(x)
+    return B
+
+A(7)()
+```
+  
+7  
+
+</details>
+
+---
+  
+150.can you tell me How do you handle configuration settings and databases when running automated unit tests?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python when we are running automated unit tests, you will need to take into account how your configuration settings and databases are set up. You will need to make sure that your tests are able to run without affecting the live data in your databases. One way to do this is to create a separate testing database that your tests can run against. This way, your tests can be run without affecting the data in your production database.
+
+</details>
+
+---
+
+151.Paul is working on some content work by mistake he added some unnecessary files into the folder he wants to remove or delete files from folder how will you help him to remove or delete files or folders in python?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python we have three or more commands are there to remove or delete a files or folder from the directory.
+  
+ - `os.remove() - removes a file
+ - `os.rmdir()` - it will remove a empty directory
+ - `shutill.rmtree()` - deletes a directory and all its contents.
+
+</details>
+
+---
+  
+152.
+  
+  
+  
+  
   
   
   
