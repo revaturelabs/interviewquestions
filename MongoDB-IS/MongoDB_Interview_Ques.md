@@ -920,9 +920,95 @@ db.collection_name.find()
                    .sort(
                    {"DOJ" : 1,"salary" : -1}
                    );
+```
 
 </details>
 
 ---
+
+67. Imagine you are a Food Investigator Specialist and you are checking the database of a company having collection as "food" that is used by the company to store the food items details. Your task is to fetch the details of those food "items" that having a "grade" as "A+" and having "MD" (manufacturing date) on those items as "2022-08-25".
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+```
+db.food.find(
+            { "items.grade" : "A+" ,
+             "MD" : ISODate("2022-08-25")
+            });
+```     
+             
+
+</details>
+
+---
+
+68. As a food investigation specialist your task is to fetch the details of those restaurants "name" and "address" who are using "palm oil"  as a "food_oil" in making of their dishes. You have to send the report to the higher authorities, so that they can take actions on those resturants.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```
+db.resturants.find(
+                  { "food_oil" : "palm oil"},
+                  {"_id": 0, "name" : 1, "address" : 1}
+                  );
+```  
+
+</details>
+
+---
+
+69. For storing documents and doing opertaions on those data requires MongoDB to use lot of RAM?
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> No, MongoDB doesn't requires lot of RAM to store those documents and doing operations on those documents because it automatically allocates and deallocates the ram based on the operations requirements.  
+
+</details>
+
+--- 
+
+70. In MongoDB, what do you understand by covered query?
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> A covered query is the one whose fields in the query are the part of indexes as well as the returned output fields also contains those same index.
+
+</details>
+
+---
+71. 
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
+
+72.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
+
+73.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
+
+
+
 
 
