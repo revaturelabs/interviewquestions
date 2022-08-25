@@ -74,4 +74,170 @@ create table school(
 
 </details>
 
+--- 
+
+6. In SQL, what are the statements through which we can create a primary key in a table.
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> By using `create table` and `alter table` statements we can create a primary key in a table in SQL. 
+
+</details>
+
 ---
+
+7. In SQL, What are the commands that are the part of Data Definition Language?
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> Data Definition language or DDL commands are used to describe or define the structure of the database objects. In DDL, following are the commands:  
+> - create
+> - alter
+> - drop
+> - truncate
+> - comment
+> - rename 
+
+</details>
+
+---
+
+8. Is `drop` and `truncate` commands have the same usage in SQL?
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> Both `drop` and `truncate` are the part of DDL commands and also looks similar while deleting records of the table in database. But one major difference between both is that, `drop` deletes all the records from the table as well as the table structure, whereas `truncate` will only deletes all the records from the table but not the table structure. Also drop command can be used to delete the database, whereas truncate cannot be used to delete database.
+
+</details>
+
+---
+
+9. Suppose you have created a table called as "student" with column fields as id, name, age, address and class. But now you want to rename the "id" column to "student_id", then how will you do that in SQL?
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> Using `alter` command, we can rename the column name.  
+```
+alter table student 
+rename column id to student_id;
+```
+> Here "id" column name is changed to "student_id" name.
+</details>
+
+---
+
+10. How `rename` and `alter` command different from each other while renaming a table in SQL? 
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> `rename` command and `alter` both have similar working when renaming a table name in SQL except for the syntax. The only difference between both of them are that `rename` cannot be used to rename temporary table, whereas `alter` command can rename a temporary table in SQL.
+
+</details>
+
+---
+
+11. How normalization affects the performance in SQL?
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> The main point to use the normalization forms in table data is to eliminate repetition of data from it. So one thing we can say that it will guarantees the duplicate free data in the table. But achiving full normalization can affects negitively in the performance. 
+
+</details>
+
+---
+
+12. Tell me the difference in 1nf, 2nf and 3nf forms of normalization
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> - In 1nf or 1st normal form, the composite attribute are converted into single value attribute. Each column must only have one single data entry in each row. 
+> - In 2nf or 2nd normal form, the table should not have any partial dependency means the proper subset of primary key shouldn't determines any non-prime attribute. 
+> - In 3nf or 3rd normal form, there should not be any transitive dependency, that means non- prime attribute of the table should not dependent on other non- prime attribute. 
+
+</details>
+
+---
+
+13. 
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+>
+
+</details>
+
+---
+
+14.
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+>
+
+</details>
+
+---
+
+15. 
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+>
+
+</details>
+
+---
+
+16.
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+>
+
+</details>
+
+---
+
+17.
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+>
+
+</details>
+
+---
+
+18.
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+>
+
+</details>
+
+---
+
+19.
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+>
+
+</details>
+
+---
+
+20.
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+>
+
+</details>
+
+---
+
+
+
+
