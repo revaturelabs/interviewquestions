@@ -2228,23 +2228,231 @@ In python Multiple Inheritance, Method Resolution Order (MRO) we already know. C
 
 ---
   
-118.
+118.If you're ever stuck in an infinite loop, however can you break out of it?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python for this, we can press Ctrl+C. This interrupts the execution. Let's create an infinite loop for an example.
+  
+```python
+def c_func(n):
+    while(n==7):
+        print(n)
+c_func(7)
+```
+  
+**Output:**
+7
+7
+7
+7
+7
+.
+.
+.
+
+- Whenever we press ctrl+c we will get the below 
+  
+Traceback (most recent call last):
+File "<pyshell#332>", line 1, in counterfunc(7)
+File "<pyshell#331>", line 2, in counterfunc
+while(n==7):print(n)
+KeyboardInterrupt
+
+</details>
+
+---
+ 
+119.Jack wants to share his global variable with his friend across modules but he doesn't know how to do can you help him to share?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- To share global variables across modules, we need to create a special module, then import the config module into all modules of our application. This lets the module be global to all modules.
+
+</details>
+
+---  
+  
+120.Brian is asking his student Which directory are currently in he/she won't know where they are in How will you help them to find the current directory?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- To find current direcoty, we use the function/method `getcwd()`. We need to import it from the module os.
+
+```python
+import os
+os.getcwd()
+```
+ 
+'C:\Users\lifei\AppData\Local\Programs\Python\Python36-32'
+
+`type(os.getcwd)`
+  
+<class 'builtin_function_or_method'>
+
+- We can also change the current working directory with `chdir()`.
+
+```python
+os.chdir('C:\\Users\\lifei\\Desktop')
+os.getcwd()
+```
+  
+'C:\Users\lifei\Desktop'
+
+</details>
+
+---
+  
+121.Can you list out some pdb commands in python?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- Some pdp comments are given below,
+  
+- <b> — Add breakpoint
+- <c> — Resume execution
+- <s> — Debug step by step
+- <n> — Move to next line
+- <l> — List source code
+- <p> — Print an expression`
+  
+</details>
+
+---
+  
+122.What is JSON? Describe in brief how you'd convert JSON data into Python data?
+Ans. JSON stands for JavaScript Object Notation. It is a highly popular data format, and it stores data into NoSQL databases. JSON is generally built on the following two structures:
+
+A collection of <name,value> pairs
+An ordered list of values.
+Python supports JSON parsers. In fact, JSON-based data is internally represented as a dictionary in Python. To convert JSON data into Python data, we use the load() function from the JSON module.
   
   
+123.Optionally, what statements can you put under a try-except block?
+
+We have two of those:
+
+else- To run a piece of code when the try-block doesn’t create an exception.
+
+finally- To execute some piece of code regardless of whether there is an exception.
+
+```python
+try:
+    print("Hello")
+except:
+    print("Sorry")
+else:
+    print("Oh then")
+finally:
+    print("Bye")
+```
+  
+Hello
+Oh then
+Bye
   
   
+124.How to use GUI that comes with Python to test your code?
+  
+That is just an editor and a graphical version of the interactive shell. You write or load code and run it, or type it into the shell. There is no automated testing.  
   
   
+125.Why is that none of my threads are not running? How can I make it work?
+As soon as the main thread exits, all threads are killed. Your main thread is running too quickly, giving the threads no time to do any work. A simple fix is to add a sleep to the end of the program that's long enough for all the threads to finish:
+
+import threading, time
+def thread_task(name, n):
+for i in range(n): print name, i
+for i in range(10)
   
+126.Write a regular expression that will accept an email id. Use the re module.
+
+import re
+e=re.search(r'[0-9a-zA-Z.]+@[a-zA-Z]+\.(com|co\.in)$','abc@gmail.com')
+e.group()
   
+‘abc@gmail.com’
   
+127.Why is that none of my threads are not running? How can I make it work?
+As soon as the main thread exits, all threads are killed. Your main thread is running too quickly, giving the threads no time to do any work. A simple fix is to add a sleep to the end of the program that's long enough for all the threads to finish:
+
+import threading, time
+def thread_task(name, n):
+for i in range(n): print name, i
+for i in range(10)
   
+128.Under what circumstances would one use a while statement rather than for?
   
+The while statement is used for simple repetitive looping and the for statement is used when one wishes to iterate through a list of items, such as database records, characters in a string, etc.
   
+129.What will be printed out by the last statement below?
+flist = []
+for i in range(3):
+    flist.append(lambda: i)
+
+[f() for f in flist]   # what will this print out?
+In any closure in Python, variables are bound by name. Thus, the above line of code will print out the following:
+[2, 2, 2]
+Presumably not what the author of the above code intended?
+
+A workaround is to either create a separate function or to pass the args by name; e.g.
+
+flist = []
+for i in range(3):  
+    flist.append(lambda i = i : i)
+
+[f() for f in flist]
+[0, 1, 2]
   
+130.How would you count the lines in a file? How would you do it if the file was too big to hold in memory?
   
+131.Why python instead of scala on spark when scala has better performance?
   
+132.Does python support switch or case statement in Python? If not what is the reason for the same?
   
+Dictionary can be used as case/switch. Actually there is no switch statement in the Python programming language but the is a similar construct that can do justice
+to switch that is the exception handling using try and except1,except2,except3.... and so on.
+  
+133.What is the statement that can be used in Python if a statement is required syntactically but the program requires no action?
+  
+pass keyword is used to do nothing but it fulfill the syntactical requirements.
+
+try x[10]:
+    print(x)
+except:
+    pass
+Use pass keyword over there like:
+
+if a > 0:
+    print("Hello")
+else:
+    pass
+  
+134.How do you perform pattern matching in Python? Explain.
+  
+Regular Expressions/REs/ regexes enable us to specify expressions that can match specific "parts" of a given string. For instance, we can define a regular expression to match a single character or a digit, a telephone number, or an email address, etc. The Python's "re" module provides regular expression patterns and was introduce from later versions of Python 2.5. "re" module is providing methods for search text strings, or replacing text strings along with methods for splitting text strings based on the pattern defined.
+
+135.Name few methods that are used to implement Functionally Oriented Programming in Python?
+  
+Python supports methods (called iterators in Python3), such as filter(), map(), and reduce(), that are very useful when you need to iterate over the items in a list, create a dictionary, or extract a subset of a list.
+
+filter() – enables you to extract a subset of values based on conditional logic.
+map() – it is a built-in function that applies the function to each item in an iterable.
+reduce() – repeatedly performs a pair-wise reduction on a sequence until a single value is computed.
+  
+136.  
   
   
   
