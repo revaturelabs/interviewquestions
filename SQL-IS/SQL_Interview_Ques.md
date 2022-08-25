@@ -158,77 +158,212 @@ rename column id to student_id;
 
 ---
 
-13. 
+13. Tell me about some of the benifits of normalization in SQL?
 
 <details><summary> <b>Show Answer</b> </summary> 
 
->
+> - It is used to reduce or remove the duplicates from the data.
+> - To optimize storage space.
+> - To prevent unwanted deletion of data.
+> - To prevent data inconsistency.
 
 </details>
 
 ---
 
-14.
+14. explain the different subsets of SQL?
 
 <details><summary> <b>Show Answer</b> </summary> 
 
->
+> In SQL, Most common subsets are DDL, DML, DQL, DCL and TCL. 
+
+> - DDL allows user to `create`, `alter` and `drop` objects of the database.
+> - DML allows user to manipulate the data in database using  `insert`, `update` and `delete` commands.
+> - DQL allows user to fetch the data from the database using `select` command.
+> - DCL commands like `grant` and `revoke` gives or removes permission to the user on the database elements.
+> - TCL commands are used to control the data transaction using `commit`, `rollback` and `savepoint`. 
 
 </details>
 
 ---
 
-15. 
+15. Create an "employee" table and make one primary key and one foreign key in it. 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
->
+> 
+```
+create table employee(
+       emp_id int,
+       emp_name varchar(20),
+       dept_id int,
+       primary key (emp_id),
+       foreign key (dept_id) references department(dept_id)
+       );
+```
 
 </details>
 
 ---
 
-16.
+16. Can a primary key and foreign key contains null? 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
->
+> A primary key field in the table cannot contains null as a value. But that is not the case with foreign key. A foreign key is used to stablize a relation between two tables and it can contain null value.
 
 </details>
 
 ---
 
-17.
-
+17. Explain about the anomalies and its types?
+ 
 <details><summary> <b>Show Answer</b> </summary> 
 
->
+> Anomaly generally happens when the database is not constructed well and when the normalization concepts were not applied. There are 3 types of anomalies that causes problem:  
+> 1. insertion anomaly: This can happen when we are trying to insert the data into the table and it is not allowed because some data is not present.
+> 2. update anomaly: This will happen when we have duplicate data into the table and updating one of those data will not reflects to the other data and the end user has no idea which data is the correct one.
+> 3. deletion anomaly: This will happen when deletion of one data will cause other data to be deleted from the table as well.
+
 
 </details>
 
 ---
 
-18.
+18. Assume you have created one table as "emp" and now you want to change that table name to "employee" then what are the ways, in SQL, through which we can chnage the table name? 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
->
+> For changinf the table name in SQL, we can go for `rename` command or `alter` command:    
+With `rename`
+```
+rename table emp to employee;
+```
+With `alter`
+```
+alter table emp
+rename to employee; 
+```
 
 </details>
 
 ---
 
-19.
+19. Suppose Jack has created a table as "Food" with id and food_name field as varchar datatype. But now he wanted to change the datatype of id from varchar to int. What query he should write that will do his task?
 
 <details><summary> <b>Show Answer</b> </summary> 
 
->
+> 
+```
+alter table Food 
+modify column id int;
+```
 
 </details>
 
 ---
 
 20.
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+>
+
+</details>
+
+---
+
+21. 
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+>
+
+</details>
+
+---
+
+22.
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+>
+
+</details>
+
+---
+
+23.
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+>
+
+</details>
+
+---
+
+24.
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+>
+
+</details>
+
+---
+
+25.
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+>
+
+</details>
+
+---
+
+26.
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+>
+
+</details>
+
+---
+
+27.
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+>
+
+</details>
+
+---
+
+28.
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+>
+
+</details>
+
+---
+
+29.
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+>
+
+</details>
+
+---
+
+30.
 
 <details><summary> <b>Show Answer</b> </summary> 
 
