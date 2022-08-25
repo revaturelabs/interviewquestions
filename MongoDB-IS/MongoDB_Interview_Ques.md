@@ -1011,6 +1011,99 @@ db.school.getIndexes()
 
 ---
 
+74. Can we say that MongoDB reads and writes data from both primary and secondary replica set? 
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> No, In MongoDB, only primary replica set has the right to do the write operations but not secondary replica set. 
+  
+</details>
+
+---
+
+75. Is embedding one document inside another document gives some benifit in MongoDB?
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> We can consider embedding documents when:  
+> - We need to attain primary-forign key relationship.
+> - We want to do atmoic transaction opertaions on the document.
+> - We need to attain one-to-many relationship between fields.
+  
+</details>
+
+---
+
+76. Why the newer versions of MongoDB are not preferred for 32-bit systems?
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> While storing Data and indexes in MongoDB we cannot predict how much total space the server will requries for storing all these things. And as the total storage space in 32-bit systems are fixed to 2 gigabytes only, which is not suitable for production scenarios. therefore, 64-bit systems are preferred over 32-bit systems, that have unlimited server space for storage virtually.
+  
+</details>
+
+---
+
+77. While working on a system how will you check whether you are working on the master server?
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> We can check by using `db.isMaster()` command, that returns a document containing the status of a replica set. and also tells whether it is a part of primary replica or secondary replica set.
+  
+</details>
+
+---
+
+78. Give the query that will display the number of employees from "emp" collection who have achieved "H1" reward in january and feburary month.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```
+db.emp.find({
+             "award" : "H1" ,
+             "month" : {$in : ["january", "feburary"]}
+             })
+             .count();
+```
+  
+</details>
+
+---
+
+79. You are a headmaster of a school and you want to check the details of those students who have got marks less than 33 in chemistry and physics subjects and are from 11th and 12th class. Your school is maintaining one school database having students as a collection in MongoDB.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```
+db.students.find({
+                 $and : [
+                 {"marks" : {$lt : 33}},
+                 {"subjects" : {$in : ["chemistry", "physics"]}},
+                 {"class" : {$in : [ "11th" , "12th"]}}
+                 ]});
+```
+
+</details>
+
+---
+
+80. As a flying investigating officer you are managing a Database in MongoDB about the flights. And now you are trying to get the details of those flights who are flying over texas, florida and alaska states based on their "departure" time in ascending order.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```
+db.flights.find({
+                "states" : { $in : [ "texax", "florida", "alaska"]}
+                })
+                .sort( "departure" : 1);
+```
+                
+</details>
+
+---
 
 
 
