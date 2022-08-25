@@ -40,21 +40,37 @@ alter table table_name add primary key(column_name);
 
 ---
 
-4.
+4. Suppose you want to create a student table having id, name, age and class as columns in it. Write down the query that will create that table in "school" database.
 
 <details><summary> <b>Show Answer</b> </summary> 
 
->
+> 
+```
+create database school;
+
+use school;
+
+create table school( 
+       id int, 
+       name varchar(30), 
+       age int, 
+       class varchar(10)
+       );
+```
 
 </details>
 
 ---
 
-5.
+5. While creating a table how will you decide which column can be converted into primary key?
 
 <details><summary> <b>Show Answer</b> </summary> 
 
->
+> There are set of rules that we can follow while creating a primary key:  
+> 1. A column must have unique values.
+> 2. A column shouldn't contain any null value.
+> 3. Only one primary key can be created for one table.
+> 4. Columns that are of type number is recommended for primary key column.
 
 </details>
 
