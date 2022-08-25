@@ -65,8 +65,8 @@ Yes, the program will execute successfully .  Because, in Java, there is no spec
 
 <blockquote>
 
-
-When the main method is not declared as static, then the program may be compiled correctly but throws a run time error that reads `NoSuchMethodError`. 
+When the main method is not declared as static, then the program may be compiled correctly but throws a run time error that reads 
+`Error:Main method is not static in class classname,please defined the main method as public static void main(String args[])`. 
 
 </blockquote>
 
@@ -140,8 +140,10 @@ yes, Java is designed to adapt to an evolving environment. Java programs include
 
 <blockquote>
 
-- `System.out` and `System.err` represent the monitor by default and can be used to send data or results to the monitor. `System.out` is used to display normal messages and results. 
-- `System.err` is used to display error messages. `System.in` represents InputStream object which by default represents standard input device, i.e., keyboard.
+- `System.out` and `System.err` represent the monitor by default and can be used to send data or results to the monitor. 
+- `System.out` is used to display normal messages and results. 
+- `System.err` is used to display error messages. 
+- `System.in` represents InputStream object which by default represents standard input device, i.e., keyboard.
 
 </blockquote>
 
@@ -167,7 +169,7 @@ yes, Java is designed to adapt to an evolving environment. Java programs include
 
 ---
 
-10. How will you differentiate between a=a+b and a+=b?
+10. How will you differentiate between `a=a+b` and `a+=b`?
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -175,13 +177,13 @@ yes, Java is designed to adapt to an evolving environment. Java programs include
 
 <blockquote>
 
-- The a=a+b statement has an assignment operator = and a arithmetic operator + , while a+=b has a arithmetic assignment operator +=. 
+- The `a=a+b` statement has an assignment operator `=` and a arithmetic operator ` + ` , while `a+=b` has a arithmetic assignment operator `+=`. 
 
 - For similar integer or byte or float data types both the expressions would compile.
 
-- But if one value(a) is byte and the other(b) is int, a=a+b will not compile as byte+int is not byte
+- But if one value(a) is byte and the other(b) is int, `a=a+b` will not compile as ` byte+int ` is not byte
 
-- Whereas a+=b will compile as the arithmetic assignment operator will do an implicit type casting.
+- Whereas `a+=b` will compile as the arithmetic assignment operator will do an implicit type casting.
 
 </blockquote>
 
@@ -190,7 +192,7 @@ yes, Java is designed to adapt to an evolving environment. Java programs include
 
 ---
 
-11. Does `system. exit()` in try block executes code in finally block?
+11. Does `System.exit()` in try block executes code in finally block?
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -216,7 +218,7 @@ It will not execute finally block. The program will be terminated after `System.
 
 <blockquote>
 
-Throws an compiler error, that the method has been already defined inside the class.
+Throws a compiler error, that the method has been already defined inside the class.
 
 
 </blockquote>
@@ -345,9 +347,9 @@ Yes. main method is an entry point of Java class and is required for execution o
 
 In Java, when a package is imported, its sub-packages aren’t imported and developer needs to import them separately if required.
 
-For example, if a developer imports a package Company.*, all classes in the package named Company are loaded but no classes from the sub-package are loaded. To load the classes from its sub-package ( say team), developer has to import it explicitly as follows:
+For example, if a developer imports a package `Company.*,` all classes in the package named Company are loaded but no classes from the sub-package are loaded. To load the classes from its sub-package ( say team), developer has to import it explicitly as follows:
 
-`Import Company.team.*`
+`import Company.team.*`
 
 </blockquote>
 
@@ -428,7 +430,7 @@ All code assigned to JVM is executed by an execution engine. The execution engin
 
 ---
 
-24.	How to convert byte-code instruction to corresponding native instruction?
+24.How to convert byte-code instruction to corresponding native instruction?
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -510,6 +512,7 @@ JDK = JRE + tools to develop Java Application.
 <blockquote>
 
 Pointer is a reference handle to a memory location. Java doesn't support pointers beacuse improper handling of pointers leads to memory leaks and reliability.
+Java has references.A reference is a variable that refers to something else and can be used as an alias for that something else.
 
 </blockquote>
 
@@ -697,7 +700,7 @@ Garbage collector is a program which runs on the JVM which gets rid of unused ob
 
 ---
 
-39. Assume there are 2 variables declared as Int in a program and in later part of the program we need to use the same variables to hold in Char. How can we achieve this.
+39. Assume there are 2 variables declared as `int` in a program and in later part of the program we need to use the same variables to hold in `Char`. How can we achieve this.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -722,7 +725,7 @@ Using Type-casting we can achieve this, it is a way to cast a variable into anot
 
 <blockquote>
 
-To craete a condition in looping statements we can use Relational operators in Java , that are used to perform the comparison between two numeric values or two quantities. 
+To create a condition in looping statements we can use Relational operators in Java , that are used to perform the comparison between two numeric values or two quantities. 
 
 </blockquote>
 
