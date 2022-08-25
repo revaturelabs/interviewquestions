@@ -1656,4 +1656,239 @@ Student: [RollNo : 0, Name : Michael ]
 
 ---
 
+44. How do you create a  Singleton Design pattern?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- Define a private static attribute in the "single instance" class.
+- Define a public static accessor function in the class.
+- Do "lazy initialization" (creation on first use) in the accessor function.
+- Define all constructors to be protected or private.
+- Clients may only use the accessor function to manipulate the Singleton.
+
+```java
+
+public class Singleton {
+   private static Singleton singletonInstance = new Singleton()
+
+   private Singleton(){}
+
+   public static Singleton getInstance(){
+      return instance;
+   }
+
+   public void showMessage(){
+      System.out.println("Hello");
+   }
+}
+
+public class SingletonDemo {
+   public static void main(String[] args) {
+	
+	Singleton object = Singleton.getInstance();
+	object.showMessage();
+   }
+}
+
+
+```
+
+</blockquote>
+
+</details>
+	
+---
+
+45. Explain  eager initialization in singleton?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+In eager initialization, the instance of Singleton Class is created at the time of class loading.This is the easiest method but it has a drawback that instance is created even though it might not be using it by any client.If singleton class is not using a lot of resources, this is the approach to use.
+But in most of the scenarios, Singleton classes are created for resources such as Database connections etc and we should avoid the instantiation until client calls the getInstance method.
+
+```java
+
+public class EagerInitialized{
+    
+    private static final EagerInitialized instance = new EagerInitialized();
+    
+    private EagerInitialized(){}
+
+    public static EagerInitialized getInstance(){
+        return instance;
+    }
+}
+
+
+```
+
+</blockquote>
+
+</details>
+	
+---
+
+46. Explain Lazy Initialization in Singleton?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Lazy initialization method to implement Singleton pattern creates the instance in the global access method. Here is the sample code for creating Singleton class with this approach.The below implementation works fine incase of single threaded environment but when it comes to multithreaded systems. It can cause issues if multiple threads are inside the if loop at the same time. It will destroy the singleton pattern and both threads will get the different instances of singleton class.
+
+```java
+
+public class LazyInitialized {
+
+    private static LazyInitialized instance;
+    
+    private LazyInitialized(){}
+    
+    public static LazyInitialized getInstance(){
+        if(instance == null){
+            instance = new LazyInitialized();
+        }
+        return instance;
+    }
+}
+
+```
+
+</blockquote>
+
+</details>
+	
+---
+	
+47. How to implement singleton class with Serialization in Java?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Lazy initialization method to implement Singleton pattern creates the instance in the global access method. Here is the sample code for creating Singleton class with this approach.The below implementation works fine incase of single threaded environment but when it comes to multithreaded systems. It can cause issues if multiple threads are inside the if loop at the same time. It will destroy the singleton pattern and both threads will get the different instances of singleton class.Sometimes in distributed systems, we need to implement Serializable interface in Singleton class.So that we can store it’s state in file system and retrieve it at later point of time. Here is a small singleton class that implements Serializable interface also.The problem with this serialized singleton class is that whenever we deserialize it, it will create a new instance of the class. 
+
+```java
+
+import java.io.Serializable;
+
+public class SerializedSingleton implements Serializable{
+
+    private static final long serialVersionUID = -1;
+
+    private SerializedSingleton(){}
+    
+    private static class SingletonHelper{
+        private static final SerializedSingleton instance = new SerializedSingleton();
+    }
+    
+    public static SerializedSingleton getInstance(){
+        return SingletonHelper.instance;
+    }
+    
+}
+
+import java.io.*;
+
+public class SingletonSerializedTest {
+
+    public static void main(String[] args) throws FileNotFoundException, IOException, ClassNotFoundException {
+        SerializedSingleton instanceOne = SerializedSingleton.getInstance();
+        ObjectOutput out = new ObjectOutputStream(new FileOutputStream("abc.ser"));
+        out.writeObject(instanceOne);
+        out.close();
+        ObjectInput in = new ObjectInputStream(new FileInputStream( "abc.ser"));
+        SerializedSingleton instanceTwo = (SerializedSingleton) in.readObject();
+        in.close();
+        System.out.println("instanceOne hashCode="+instanceOne.hashCode());
+        System.out.println("instanceTwo hashCode="+instanceTwo.hashCode());
+        
+    }
+
+}
+
+So it destroys the singleton pattern, to overcome this scenario all we need to do it provide the implementation of readResolve() method.
+
+protected Object readResolve() {
+    return getInstance();
+}
+
+Output:
+instanceOne hashCode=4011113421
+instanceTwo hashCode=209678522
+
+```
+
+</blockquote>
+
+</details>
+	
+---
+	
+48. When will you prefer to use a Factory Pattern?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- A class does not know which class of objects it must create.
+- Factory pattern can be used where we need to create an object of any one of sub-classes depending on the data provided.
+
+</blockquote>
+
+</details>
+
+---
+
+49. Differentiate Factory Vs Builder Design Pattern Vs Strategy Design Pattern ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- Factory Pattern deals with creation of objects delegated to a separate factory class whereas Builder pattern is the extension of Factory pattern wherein the Builder class builds a complex object in multiple steps.  
+
+- Factory is a creational design pattern whereas Strategy is behavioral design pattern. Factory revolves around the creation of object at runtime whereas Strategy or Policy revolves around the decision at runtime.  
+
+</blockquote>
+
+</details>
+
+<details><summary><b> Explanation </b></summary>
+
+<blockquote>
+	
+---
+
+50. What specific problems builder pattern solves?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+This pattern was introduced to solve some of the problems with Factory and Abstract Factory design patterns.When the Object contains a lot of attributes. Builder pattern solves the issue with large number of optional parameters and inconsistent state by providing a way to build the object step-by-step and provide a method that will actually return the final Object. 
+
+</blockquote>
+
+</details>
+	
+----
+	
