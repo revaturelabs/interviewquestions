@@ -876,31 +876,50 @@ db.emp.find({
 
 ---
 
-64.
+64. Your boss is asking you to give the emp_id, name and dept of those employees who works from everywhere except Florida and NY. What query you will write to complete that task?  
 
 <details><summary> <b>Show Answer</b> </summary>
 
->
+> 
+```
+db.collection_name.find({
+                   $and : [
+                   {"state" : {$ne : "Florida"}},
+                   {"state" : {$ne : "NY"}}
+                   ]},
+                   {"empid" : 1, "name" : 1, "dept" : 1}
+                   );
+```
 
 </details>
 
 ---
 
-65.
+65. Suppose you are having a collection as "company" and you want to fetch the deatils of those employees whose are from "training" department based on their experience in the industry. What query you will write to get what you want.
 
 <details><summary> <b>Show Answer</b> </summary>
 
->
-
+> 
+```
+db.company.find({
+               "department" : "training"}
+               )
+               .sort("experience" : -1);
+```
 </details>
 
 ---
 
-66.
+66. In MongoDB, write a query that will give details of all the employees based on their "DOJ"(data of joining) in ascending order and  "salary" in descending order.
 
 <details><summary> <b>Show Answer</b> </summary>
 
 >
+```
+db.collection_name.find()
+                   .sort(
+                   {"DOJ" : 1,"salary" : -1}
+                   );
 
 </details>
 
