@@ -978,18 +978,18 @@ db.resturants.find(
 </details>
 
 ---
-71. 
+71. If an index is not fitting into the RAM then what will happen in MongoDB at that point?
 
 <details><summary> <b>Show Answer</b> </summary>
 
->
+> If RAM has no space to fit the indexes in it, then MongoDB takes the data from the disk which is relatively slow compared to taking data from the RAM.
 
 </details>
 
 ---
 
 72.
-
+ 
 <details><summary> <b>Show Answer</b> </summary>
 
 >
