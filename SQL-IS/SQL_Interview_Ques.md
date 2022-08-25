@@ -263,57 +263,82 @@ modify column id int;
 
 ---
 
-20.
+20. Tell the difference between `alter` and `update` in SQL 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
->
+> - The `alter` command is a DDL command, whereas `update` is a DML command
+> - The `alter` command is used to perform the operation on the structure level. On the other hand, `update` is used to perform operation on the data level.
+> - The `alter` command is used to modify the attribute of table. The `update` command is used to modify the rows of the table.
 
 </details>
 
 ---
 
-21. 
+21. Is `truncate` and `delete` both are same command? 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
->
+> No, `truncate` is a DDL command, used to delete all the records from the table. Whereas `delete` is a DML command, used to delete the records based on the some condition as well as it can delete all the data from the table as well.
 
 </details>
 
 ---
 
-22.
+22. Give the syntax of `delete`, `truncate` and `drop` command in SQL.
 
 <details><summary> <b>Show Answer</b> </summary> 
 
->
+> Syntax of `delete` 
+```
+delete from table_name where condition;
+```
+> Syntax of `truncate`
+```
+truncate table table_name;
+```
+> Syntax of `drop` 
+```
+drop table table_name;
+```
 
 </details>
 
 ---
 
-23.
+23. Henry has created a table as "school" with id and name field and now he wants to insert 5 records to it. What query he has to use to insert the data into a table? 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
->
+> He has to use the `insert` command for inserting the data:  
+```
+insert into school(id, name) values(01, "Jack");
+insert into school(id, name) values(02, "Henry");
+insert into school(id, name) values(03, "Tom");
+insert into school(id, name) values(04, "Tim");
+insert into school(id, name) values(05, "EVE");
+```
 
 </details>
 
 ---
 
-24.
+24. After inserting some of the documents into the "school" table, Tom wants to update the name of one student to EVA where id is 05. Write the query for it.
 
 <details><summary> <b>Show Answer</b> </summary> 
 
->
+> 
+```
+update school
+set name = "EVA" 
+where id = 05;
+```
 
 </details>
 
 ---
 
-25.
+25. 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
