@@ -338,61 +338,79 @@ where id = 05;
 
 ---
 
-25. 
+25. A user has to remove all of the data from the "order" table without removing the structure of the table. What query he has to write for this? 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
->
+> He can use `delete from` statement or `truncate table` statement to delete all the records form the table.
+```
+delete from order;
+truncate table order;
+```
+
 
 </details>
 
 ---
 
-26.
+26. Let's imagine The Amazone Prime no longer wishes to renting out the "Blue" movie and its movie id is 20. As a intern of Amazone company what query you will write to remove that movie from the "movies" table?
 
 <details><summary> <b>Show Answer</b> </summary> 
 
 >
+```
+delete from movies where id =20; 
+```
 
 </details>
 
 ---
 
-27.
+27. Is command line the only way to interact with SQL?
 
 <details><summary> <b>Show Answer</b> </summary> 
 
->
+> No, Command line is one of the ways through which we can interact with SQl, but there are 2 main ways also apart from command line:  
+> - using web interface.
+> - Through a programming language.
 
 </details>
 
 ---
 
-28.
+28. From someone you have heard about creating indexes in SQL will be more good in terms of fast retrival of data. Then how will you create a index into a table? 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
->
+> 
+```
+alter table Table_name
+add index(column_name);
+```
 
 </details>
 
 ---
 
-29.
+29. You have 4 indexes into your table "order" but now you wants to remove one index named as "author_id" from it. For the same task what will be your query for it?
 
 <details><summary> <b>Show Answer</b> </summary> 
 
->
+> 
+```
+alter table order
+drop index author_id;
+```
 
 </details>
 
 ---
 
-30.
+30. Have you heared about BLOB in SQL?
 
 <details><summary> <b>Show Answer</b> </summary> 
 
->
+> BLOB is a sub-type of string datatype in SQL and is stands for binary large object. It is used to large amount of data like documents, images, etc.  
 
 </details>
 
