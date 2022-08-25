@@ -2332,21 +2332,34 @@ os.getcwd()
 
 ---
   
-122.What is JSON? Describe in brief how you'd convert JSON data into Python data?
-Ans. JSON stands for JavaScript Object Notation. It is a highly popular data format, and it stores data into NoSQL databases. JSON is generally built on the following two structures:
-
-A collection of <name,value> pairs
-An ordered list of values.
-Python supports JSON parsers. In fact, JSON-based data is internally represented as a dictionary in Python. To convert JSON data into Python data, we use the load() function from the JSON module.
+122.Can you explain What is JSON? Describe in brief how you'd convert JSON data into Python data?
   
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ 
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- JSON stands for JavaScript Object Notation. It is a highly popular data format, and it stores data into NoSQL databases.
+    - 1.A collection of <name,value> pairs
+    - 2.An ordered list values.
+- Python supports JSON parsers. In fact, JSON-based data is internally represented as a dictionary in Python. it will  convert JSON data into Python data, for that we use the `load()` function from the JSON module.
   
-123.Optionally, what statements can you put under a try-except block?
+</details>
 
-We have two of those:
+---
+  
+123.In python optionally, what statements can you put under a try-except block can you explain this with an example?
 
-else- To run a piece of code when the try-block doesn’t create an exception.
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
 
-finally- To execute some piece of code regardless of whether there is an exception.
+- To put under a try-except block We have two of these blocks,
+
+     - `else`- To run a piece of code when the try-block doesn't create an exception.
+
+     - `finally`- To execute some piece of code regardless of whether there is an exception.
 
 ```python
 try:
@@ -2358,104 +2371,329 @@ else:
 finally:
     print("Bye")
 ```
+ 
+**Output:  **
   
 Hello
 Oh then
-Bye
-  
-  
-124.How to use GUI that comes with Python to test your code?
-  
-That is just an editor and a graphical version of the interactive shell. You write or load code and run it, or type it into the shell. There is no automated testing.  
-  
-  
-125.Why is that none of my threads are not running? How can I make it work?
-As soon as the main thread exits, all threads are killed. Your main thread is running too quickly, giving the threads no time to do any work. A simple fix is to add a sleep to the end of the program that's long enough for all the threads to finish:
+Bye 
 
+</details>
+
+---
+
+124.Does Paul want to know how to use GUI that comes with Python to test your code How will you explain this to him?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+For that is just an editor and a graphical version of the interactive shell. You can write your code or load code and run it, or type it into the shell. There is no automated testing.
+
+</details>
+
+---    
+  
+125.Why is that none of my threads are not running? How can I make it work explain with an example?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- As soon as the main thread exits, all threads are killed. Your main thread is running too quickly, giving the threads no time to do any work. A simple fix is to add a sleep to the end of the program that's long enough for all the threads to finish,
+  
+```python
 import threading, time
 def thread_task(name, n):
-for i in range(n): print name, i
+    for i in range(n):
+        print (name, i)
 for i in range(10)
-  
-126.Write a regular expression that will accept an email id. Use the re module.
+```
 
+</details>
+
+---
+
+  
+126.The brain wants to Write a program that will accept an email id. Using the regular expressions and the re module. He is asking his coworker how he will help him to write a code.
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- First we need to import `re` module first and write regular expressions conditions to search the email.
+  
+```python
 import re
-e=re.search(r'[0-9a-zA-Z.]+@[a-zA-Z]+\.(com|co\.in)$','abc@gmail.com')
+e=re.search(r'[0-9a-zA-Z.]+@[a-zA-Z]+\.(com|co\.in)$','brian@gmail.com')
 e.group()
-  
-‘abc@gmail.com’
-  
-127.Why is that none of my threads are not running? How can I make it work?
-As soon as the main thread exits, all threads are killed. Your main thread is running too quickly, giving the threads no time to do any work. A simple fix is to add a sleep to the end of the program that's long enough for all the threads to finish:
+```
 
-import threading, time
-def thread_task(name, n):
-for i in range(n): print name, i
-for i in range(10)
+**Output:**
+brian@gmail.com 
+ 
+</details>
+
+---
+  
+127.Wiliam is asking how will you skip a particular test method or class using the decorator @unittest.skip in python. How will you explain this to him?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python you can use the @unittest.skip decorator to skip a particular test method or class. This is useful when you want to temporarily disable a test or if you know that a particular test will not work on your system.
+
+</details>
+
+---
   
 128.Under what circumstances would one use a while statement rather than for?
   
-The while statement is used for simple repetitive looping and the for statement is used when one wishes to iterate through a list of items, such as database records, characters in a string, etc.
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python the while statement is used for simple repetitive looping.
+- The for statement is used when one wishes to iterate through a list of items, such as database records, characters in a string, etc.
+
+</details>
+
+---
   
 129.What will be printed out by the last statement below?
+  
+```python
 flist = []
 for i in range(3):
     flist.append(lambda: i)
 
 [f() for f in flist]   # what will this print out?
+```
+  
 In any closure in Python, variables are bound by name. Thus, the above line of code will print out the following:
 [2, 2, 2]
 Presumably not what the author of the above code intended?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+ <details><summary><b>Show Answer </b></summary>
+<blockquote>
 
-A workaround is to either create a separate function or to pass the args by name; e.g.
-
+-  For that we can use either create a separate function or to pass the args by name.
+  
+```python
 flist = []
 for i in range(3):  
     flist.append(lambda i = i : i)
 
 [f() for f in flist]
 [0, 1, 2]
+  ```
   
-130.How would you count the lines in a file? How would you do it if the file was too big to hold in memory?
+</details>
+
+---
+
+130.Can you tell me How will you count the lines in a file? How would you do it if the file was too big to hold in memory?
+   
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+   
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- We ca use `readlines()` or A loop solution if the file size is small.
+- Use Generator and Raw interface to get line count if you are working with large files.
+- We can use a loop and `enumerate()` for large files because we don’t need to load the entire file in memory.
   
-131.Why python instead of scala on spark when scala has better performance?
+```python
+f = open(file_name, 'rt')
+line = f.readline()
+while line:
+    line = f.readline()
+f.close()
+```
+
+</details>
+
+---
+  
+131.Can you explain Why python instead of scala on spark when scala has better performance?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- Scala is faster than Python due to its static type language. If faster performance is a requirement, Scala is a good. Spark is native in Scala, hence making writing Spark jobs in Scala the native way.
+
+</details>
+
+---
   
 132.Does python support switch or case statement in Python? If not what is the reason for the same?
   
-Dictionary can be used as case/switch. Actually there is no switch statement in the Python programming language but the is a similar construct that can do justice
-to switch that is the exception handling using try and except1,except2,except3.... and so on.
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+  
+- Python Doesn’t have a switch/case statement because of some unsatisfactory proposals.
+- Most of the programming languages have switch/case because they don't have proper mapping constructs. You cannot map a value to a function, that's why they have it.
+- But in Python, you can easily have a mapping table(dict) where a certain value maps to a certain function. Python functions are first class values, you can use the functions as the values of the dictionary get(key[, default]) method. Performance-wise, the Python dictionary lookup will almost certainly be more efficient than any solution you can rig yourself.
+
+</details>
+
+---
   
 133.What is the statement that can be used in Python if a statement is required syntactically but the program requires no action?
   
-pass keyword is used to do nothing but it fulfill the syntactical requirements.
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
 
+- In python `pass` keyword is used to do nothing but it fulfill the syntactical requirements.
+  
+```python
 try x[10]:
     print(x)
 except:
     pass
-Use pass keyword over there like:
-
+```
+  
+- Use the `pass` keyword here like,
+  
+```python
 if a > 0:
     print("Hello")
 else:
     pass
-  
-134.How do you perform pattern matching in Python? Explain.
-  
-Regular Expressions/REs/ regexes enable us to specify expressions that can match specific "parts" of a given string. For instance, we can define a regular expression to match a single character or a digit, a telephone number, or an email address, etc. The Python's "re" module provides regular expression patterns and was introduce from later versions of Python 2.5. "re" module is providing methods for search text strings, or replacing text strings along with methods for splitting text strings based on the pattern defined.
+```
 
-135.Name few methods that are used to implement Functionally Oriented Programming in Python?
-  
-Python supports methods (called iterators in Python3), such as filter(), map(), and reduce(), that are very useful when you need to iterate over the items in a list, create a dictionary, or extract a subset of a list.
+</details>
 
-filter() – enables you to extract a subset of values based on conditional logic.
-map() – it is a built-in function that applies the function to each item in an iterable.
-reduce() – repeatedly performs a pair-wise reduction on a sequence until a single value is computed.
+---
   
-136.  
+134.James wants to perform some pattern matching in python How will you help him to perform pattern matching? Can you Explain this to him?
   
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python Regular Expressions/REs/ regexes enable you to specify expressions that can match specific "parts" of a given string. 
+- For instance, we can use a regular expression to match a single character or a digit, a telephone number, or an email address, etc. 
+- The Python `re` module provides regular expression patterns. 
+- This module is providing methods for search text strings, or replacing text strings along with methods for splitting text strings based on the pattern defined.
+
+</details>
+
+---
+
+135.Can you Name few methods that are used to implement Functionally Oriented Programming in Python?
   
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In Python supports methods, such as `filter()`, `map()`, and `reduce()`, that are very useful when you need to iterate over the items in a list, create a dictionary, or extract a subset of a list.
+
+`filter()` – enables you to extract a subset of values based on conditional logic.
+`map()` – it is a built-in function that applies the function to each item in an iterable.
+`reduce()` – repeatedly performs a pair-wise reduction on a sequence until a single value is computed.
+
+</details>
+
+---
+  
+136.How do I call a method defined in a base class from a derived class that overrides it?
+ 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python if you're using new-style classes, use the built-in `super()` function:
+
+```python
+class Derived(Base):
+    def math (self):
+        super(Derived, self).math() 
+```
+ 
+If you're using classic classes: For a class definition such as class Derived(Base): you can call method `math()` defined in Base as Base.`math(self,arguments)`. Here, Base.meth is an unbound method, so you need to provide the self argument.
+
+</details>
+
+---
+  
+137.Todd wants to know some membership, operators in python how will you explain him?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python With the operators `in` and `not in`, we can confirm if a value is a member in another.
+  
+```python
+'me' in 'x'
+```
+ 
+True
+  
+```python
+'us' not in 'y'
+```
+
+</details>
+
+---
+
+138.Why is the `:` on an if statement invalid syntax suddenly (Python, Python 3.x, if statement)?
+ 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+In Python "SyntaxError: invalid syntax" it will occur when we use a single equals operator instead of the double equals operator in an if statement. To resolve the error, we can use the double equals == if comparing values and the line of the if statement ends with a colon.
+ 
+```python 
+if a=b:
+    print("equal")
+else:
+    print("not equal")
+```
+
+</details>
+
+---
+  
+139.Stacie got some error while running a piece of code in python that error is "valueerror: "invalid literal for int() with base 10" How will you help her to resolve this error?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+  
+- This error is occu because we try to convert "7.4: to an integer. The value "7.4" is formatted as a string. Python cannot convert a floating-point number in a string to an integer.
+- To overcome this issue, we need to convert the value a user inserts to a floating point number.Then, we can convert it to an integer.
+We can do this by using the `float()` and `int()` statements. The `int()` function returns an integer. The `float()` function returns a floating-point representation of a float.
+- Finally the code first converts the value of variable to a float. Next, it will convert the value to an integer.
+
+</details>
+
+---
+  
+140.  
   
   
   
