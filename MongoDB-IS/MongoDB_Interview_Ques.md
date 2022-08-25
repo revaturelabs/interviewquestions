@@ -988,11 +988,14 @@ db.resturants.find(
 
 ---
 
-72.
+72. How you will check how many indexes your teammate created on the "school" collection?
  
 <details><summary> <b>Show Answer</b> </summary>
 
->
+> By using `getIndexes()` method, we can check the list of indexes in MongoDB.  
+```
+db.school.getIndexes()
+```
 
 </details>
 
