@@ -2961,12 +2961,196 @@ A(7)()
 
 ---
   
-152.
+152.Cornner is trying  to convert an integer to a Unicode character in python but he can't able to do that how will you help him to that conversion?
   
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python `chr()` returns the string `str` representing a character whose Unicode code point is the specified integer `int`.
   
+```python
+print(chr(65))
+# A
+print(type(chr(65)))
+# <class 'str'>
+```
+
+</details>
+
+---
   
+153.Brian is asking In Python, what happens when a global variable and a local variable share the same name ho will you explain this to him?
   
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+In python when a local variable is given the same name as a global variable, the global variable is shadowed in the scope of the local variable and cannot be accessed. 
+
+</details>
+  
+---
+  
+154.Can you tell me Is it possible to call parent class without its instance creation in python?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- Yes, it is possible in python.
+- If the base class is instantiated by other child classes or if the base class is a static method.
+
+</details>
+
+---
+  
+155.Consider If you are already installed a module with pip but it doesn’t import in your IDLE, what could it possibly be?  
+ 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- Well, for one, it could be that I installed two versions of Python on my system- possibly, both 32-bit and 64-bit.
+- The Path variable in my system’s environment variables is probably set to both, but one of them prior to the other- say, the 32-bit.
+- This made the command prompt use the 32-bit version of pip to install the module I chose.
+- When I run the IDLE, I run the 64-bit version.
+
+</details>
+
+---  
+
+156.Jack while installing a package with pip, got the error No matching installation found, he asked his manager to help him how he will help him to do this. 
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+In that type of a situation, one thing we can do is to download the libraries for that package from the following location:
+
+**https://www.lfd.uci.edu/~gohlke/pythonlibs/**
+
+Then, you can install the wheel using `pip` command.
+
+</details>
+
+---
+  
+157.Can you explain me what are the differences between a package and a module in python?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python the module is a single file. A module can be `import` other modules as objects. A package is the folder/directory where different sub-packages and the modules reside.
+
+- A python module is created by saving a file with the extension of .py. This file will have classes and functions that are reusable in the code as well as across modules.
+
+- A python package can be created using the below steps,
+
+   - Create a directory and give a valid name that represents its operation.
+   - Place modules of one kind in this directory.
+   - Create a `__init__.py` file in this directory. This python is know the directory we created is a package. The content of this package can be imported across different modules in other packages to reuse the functionality
+
+</details>
+
+---
+  
+158.Ken is asking his senior if Can I dynamically load a module in Python? What will be the answer he will give him? 
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+Dynamic loading is where we do not load a module till we need it. This is slow, but lets us utilize the memory more efficiently. In Python, you can use the importlib module
+ 
+```python
+import importlib
+module = importlib.import_module('my_package.my_module')
+```
+
+</details>
+
+---
+  
+159. How would you make a Python script executable on Unix?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- If you want to make a python script executable on unix it will met two conditons
+   - The script file’s mode must be executable
+   - The first line must begin with a hash(#). An example of this will be: #!/usr/local/bin/python
+
+</details>
+
+---
+  
+160.What is wrong with my Python code? The PWD should be more than 6 and less than 12 letters. It is working fine, but the real problem starts if we enter exactly 4 letters. We aren't getting the required output.
+  
+```python
+pwd=raw_input("Register Your Passowrd Now:- ") 
+pwd = pwd.strip() 
+num1=len(pwd) 
+print("Number of Characters Entered=", num1) 
+num2=num3=num4=0 
+if(num1>=6 and num1<=12): 
+ num1 = 0  
+ for z in pwd: 
+ if z.isupper(): 
+ num1=1 
+ if z.islower(): 
+ num2=1 
+ if z.isdigit(): 
+ num3=1 
+ if z in ['#','$','@'] : 
+ num4=1 
+ if num1 + num2 + num3 + num4 == 4: 
+ print("Your PWD is:", pwd) 
+ print("PWD Registered Successfully. Thank You!") 
+ else: 
+ print("Not the Proper Password. Please Register Again:") 
+ ```
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- Minimum no of characters in the password is 6 and maximum no of characters is 12.
+- It should have at least one uppercase, lowercase and special character.
+find below code. This will meet the above requirements. It is working fine for 4 characters.
+  
+  ```python
+import re  
+password = input('Enter your password: ') 
+    digit_regex = re.compile(r'[0-9]') 
+    lower_regex = re.compile(r'[a-z]') 
+    upper_regex = re.compile(r'[A-Z]') 
+    special_regex = re.compile(r'[#, $, @]') 
+ 
+    if len(password) >= 6 and len(password) <= 12 and digit_regex.search(password) and lower_regex.search(password) and upper_regex.search(password) and special_regex.search(password): 
+        print('Password Registered Successfully. Thank You.') 
+ 
+    else: 
+        print('Not the proper password. Please register again.')
+```  
+
+
+</details>
+
+---
+  
+161.
   
   
   
