@@ -1001,11 +1001,11 @@ db.school.getIndexes()
 
 ---
 
-73.
+73. In MongoDB, by-default locking and transcations are not suppoted, then is there any way to achieve those concepts?
 
 <details><summary> <b>Show Answer</b> </summary>
 
->
+> yes, we can achieve the concepts of locking and transcations by putting one document inside another document also called as nested documents. By this way, MongoDB supports atomic operations.
 
 </details>
 
