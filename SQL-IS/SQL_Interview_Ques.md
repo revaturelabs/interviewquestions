@@ -825,41 +825,59 @@ on orders.customer_number = customer_number;
 
 ---
 
-57. 
+57. Assume, you have two tables "customers" and "orders". So tell me how will you execute the right join between both the tables?
 
 <details><summary> <b>Show Answer</b> </summary>
 
-> 
+>  
+```
+select customers.* , orders.* 
+from customers
+right join orders 
+on customers.id = orders.id;
+```
 
 </details>
 
 ---
 
-58.
+58. In SQL, suppose you are handling have two tables "customers" and "orders" then how will you execute the outer join join between both the tables?
 
 <details><summary> <b>Show Answer</b> </summary>
 
-> 
+> Suppose we are taking customer names and order_id from both the tables while doing the full join.    
+```
+select customers.name, orders.order_id
+from customers
+full join orders
+on customers.id = orders.order_id;
+```
 
 </details>
 
 ---
 
-59.
+59. Give the query in SQL that will replace the space with '-' in full name from employee table
 
 <details><summary> <b>Show Answer</b> </summary>
 
-> 
+> For replacing something in SQL select query we can use the `replace` function.  
+```
+select replace(full_name, " ", "-")
+from employee;
+```
 
 </details>
 
 ---
 
-60.
+60. Tell the difference between union and full join in SQL?
 
 <details><summary> <b>Show Answer</b> </summary>
 
-> 
+> - Union joins the two table data vertically, whereas full join joins the two table data horizontally.
+> - There are more restrictions when using union between two tables than using full join. 
+> - Union will take only distinct values from both the tables, whereas full join combines all the data from both the table. 
 
 </details>
 
