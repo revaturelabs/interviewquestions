@@ -550,18 +550,27 @@ and department = "HR";
 
 <details><summary> <b>Show Answer</b> </summary>
 
-> select * from department where year(JOINING_DATE) = 2022 and month(JOINING_DATE) = 1;
+> 
+```
+select * from department 
+where year(joined) = 2022 and month(joined) = 2;
 ```
 </details>
 
 ---
 
 
-40.
+40. In a company there are 5 departments and in each department there is one manager and you have to get the employee id "emp_id" and "name" of those employees who are working for Manager having "Manager_id" as 432.[ take the table name as Employee]
 
 <details><summary> <b>Show Answer</b> </summary>
 
->
+> 
+```
+select emp_id, name
+from Employee
+where Manager_id = 432;
+```
+
 
 </details>
 
