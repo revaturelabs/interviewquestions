@@ -3144,14 +3144,56 @@ password = input('Enter your password: ')
     else: 
         print('Not the proper password. Please register again.')
 ```  
+                                                
+</details>
 
+---
+  
+161.The Junior developer is trying to get an output of the following piece of code but after running this code what will be the output of the code?
+  
+```python
+x = "code practice"
+i = "e"
+while i in x:
+    print(i, end=" ")
+```
+  
+As a senior developer, how will you help him?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- If we run the above vode we will get inifinite number of e.
+- If you want to exit from the infinite loop,
+Press ctrl+c you will exit from the loop and you will get the `KeyboardInterrupt` error.
 
 </details>
 
 ---
   
-161.
+162.Charles needs to calculate exponential power calculation using the operator but he doesn't know which operator can use and he is asking for help from his friend How will you help him to find the operators?
   
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- we want to perform power calculation in python can use the `**`.
+- This operator is known as the exponent operator.
+
+```python
+a=4
+b=3
+print(a**b)
+```
+
+</details>
+
+---
+  
+163.
   
   
   
