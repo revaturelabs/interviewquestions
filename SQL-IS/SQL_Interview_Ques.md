@@ -419,6 +419,147 @@ drop index author_id;
 
 ---
 
+31. Tim is asking you to add him as a user in SQL so that he can access and manage the database. So, how will you add them?
 
+<details><summary> <b>Show Answer</b> </summary>
+
+> To add a user in SQL, we can use the `create user` statement.  
+```
+create user 'Tim' identified by 'password';
+```
+
+
+</details>
+
+---
+
+32. In SQL, how will you see how many databases and tables you have in that database?
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> - To list the databases we can use the `show databases;` 
+> - To list the tables in a particular database, write:
+```
+use database_name;
+
+show tables;
+``` 
+
+</details>
+
+---
+
+33. Assume you are handling a "student" table in the database having id, name, age, state, class fields. Your task is to fetch the records of those students who are from "Texas" state.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```
+select * from student 
+where state = "Texas";
+```
+
+</details>
+
+---
+
+34. Tell me the way how to give a different name to a field while executing a select query?
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> We can use the `as` as an alias name for the column, for example:  
+```
+select Name as "First_name" from table_name;
+```
+
+</details>
+
+---
+
+35. Give one query to me which includes, select, from, where, order by, group by, having clauses.  
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> The required query can be this:  
+```
+select id, name, class, marks from student 
+where marks>= 33 and marks <=100 
+order by id 
+group by class 
+having count(id);
+```
+
+</details>
+
+---
+
+36. In SQL, how will you give the count of those  students from student table whose name starts with 'H'.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```
+select count(name) as Name_H_students from student
+where name like 'H%';
+```
+
+</details>
+
+---
+
+37. Tell me the ways through which we can search for a "string" pattern in SQL?
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> To search "string" pattern, we can use the `like` operator with `where` class.  
+> - To search only for fixed number of characters we can use '_' with like. For example, we have to find name of those students having 4 characters only. for that use four underscore.
+```
+select name from student where name like '____'; 
+```
+   
+> - To search string starting with a particular character or substring we can write like this:   
+```
+select name from student where name like 'AK%';
+```
+   
+> - To search string ending with a particular character or substring we can write like this: 
+```
+select name from student where name like '%SK';
+```
+  
+</details>
+
+---
+
+38. 
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
+
+39.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
+
+
+40.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
 
 
