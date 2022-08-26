@@ -531,22 +531,27 @@ select name from student where name like '%SK';
 
 ---
 
-38. 
+38. Your boss have given you a work to find the details of those workers from the "Company" table whose salary lies between 10000 and 50000 and department is 'HR'
 
 <details><summary> <b>Show Answer</b> </summary>
 
->
+> 
+```
+select * from company
+where salary between 10000 and 50000 
+and department = "HR";
+```
 
 </details>
 
 ---
 
-39.
+39. Imagine you are handling a "company" database which has one table as "department" and your manager is asking you to give the details of those employees who joined in januaray month of 2022.
 
 <details><summary> <b>Show Answer</b> </summary>
 
->
-
+> select * from department where year(JOINING_DATE) = 2022 and month(JOINING_DATE) = 1;
+```
 </details>
 
 ---
