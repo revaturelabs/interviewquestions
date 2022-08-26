@@ -763,7 +763,69 @@ where table1.id = table2.id;
 
 ---
 
-53. 
+53. How will you execute a self join SQL?
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> A self join can be executed by joining the table to itself. for example: 
+```
+select t1.name, t1.id
+from table1 t1
+join table1 t2 
+on t1.id = t2.emp_id;
+```
+
+</details>
+
+---
+
+54. Tell me about the joins in SQL and its types.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> Joins, in SQL, are useful to combine records of two or more different tables. 
+> We have various types of join like:  
+> - Inner Join: After join, it returns matching rows of both the tables only.
+> - Outer Join: After join, it returns matching rows of both the tables plus leftout rows of left table and right table.
+> - left Join: It returns matching rows of both the tables plus leftout rows from left table.
+> - right Join: It returns matching rows of both the tables plus leftout rows from right table.
+
+</details>
+
+---
+
+55. Give the query that will display the total marks of all the students by adding mid-term and final_term marks. return name and roll_no also.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```
+select name, roll_no,
+mid_term + final_term as Total_marks
+from student;
+```
+
+</details>
+
+---
+
+56. Imagine you have two tables, "customers" and "orders" and you have to find all customers who placed 0 or more orders. How will you do that in SQL?
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> Using `left join` we can find the details of all the customers who placed 0 or more orders.  
+```
+select customer_number, name
+from customers
+left join orders 
+on orders.customer_number = customer_number;
+```
+
+</details>
+
+---
+
+57. 
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -773,7 +835,7 @@ where table1.id = table2.id;
 
 ---
 
-54.
+58.
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -783,7 +845,7 @@ where table1.id = table2.id;
 
 ---
 
-55.
+59.
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -793,4 +855,13 @@ where table1.id = table2.id;
 
 ---
 
+60.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+
+</details>
+
+---
 
