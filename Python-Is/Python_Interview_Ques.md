@@ -3130,7 +3130,7 @@ if(num1>=6 and num1<=12):
 - It should have at least one uppercase, lowercase and special character.
 find below code. This will meet the above requirements. It is working fine for 4 characters.
   
-  ```python
+```python
 import re  
 password = input('Enter your password: ') 
     digit_regex = re.compile(r'[0-9]') 
@@ -3142,7 +3142,7 @@ password = input('Enter your password: ')
         print('Password Registered Successfully. Thank You.') 
  
     else: 
-        print('Not the proper password. Please register again.')
+        print('Not the proper password. Please register again.')                                                
 ```  
                                                 
 </details>
@@ -3193,7 +3193,349 @@ print(a**b)
 
 ---
   
-163.
+163.Consider now i am in this `/home/user/work/project` What is the correct way to fix this ImportError error? Now if I type this `python ./programs/my_python_program.py` I will get import error as `ImportError` How will you help me to fix this `Importerror`?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+In Python does not add the current directory to `sys.path`, but rather than the directory that the script is in. Add the /home/user/work/project to either `sys.path` or `$PYTHONPATH.`
+
+</details>
+
+---
+  
+164.Can you tell me What is Zoneinfo in python and what is does it?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python Zoneinfo is a python module. Zoneinfo that provides a time zone.By default, t uses the systems time zone data but if not available it will use data in PyPI.
+
+from zoneinfo import ZoneInfo
+from datetime import datetime, timedelta
+  
+```python
+dt = datetime(2020, 1, 31, 12, tzinfo=ZoneInfo("India/Los_Angeles"))
+print(dt) 
+```
+
+</details>
+
+---
+  
+165.In python local and global variables have the same name can you tell me Which will be preferred if local and global variables have the same name?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python, if the local ad global variable has the same name in the scope. Which means accessible at the same time.
+- In python, the code can access only the local variable.
+
+</details>
+
+---
+  
+166.Joe is asking What mapping means and what kind of data type is based on mapping in python What will be your answer to this question?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python mapping refers to an object that maps keys to associated with the values. 
+- The Python `dictionary` is the only one type of mapping in the base typeset. 
+- In python Mappings does not maintain any left-to-right position order,it will support access to stored data by key, as well as type-specific method calls.
+
+</details>
+
+---
+  
+167.Jhon is having python program named "first.py" and Brian is having the same file but a different name as "first.pyc". Their manager is asking what are the differences between both the files in python.
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- The difference between both the `.py` files are python files having the source code but `.pyc` has the bytecode of your program.
+
+</details>
+
+---
+  
+168.Can you tell me what is Cython?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- Cython is a programming language for c and python.
+- Compiling both python and C language to create a harmonious environment for both.
+
+</details>
+
+---
+  
+169.State about logical operators available in python lanugage with an example.
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- We have some of the different type of logical operators these are,
+
+     - `==`	Equal to
+     - `!=`	Not equal to
+     - `<`	Less than
+     - `>`	Greater than
+     - `<=`	Less than or equal to
+     - `>=`	Greater than or equal to
+These operators are used to compare the two values.
+
+</details>
+
+---
+  
+170.Can you categorise the different types of errors arises during porgramming.Interpret the following python
+  code
+
+```python
+import os
+cwd=os.getcwd()
+print cwd
+```
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- If i run the above program i got the syntax error in line 3.
+- Because in line 3 missing parentheses in call to 'print'.
+
+```python
+import os
+cwd=os.getcwd()
+print(cwd)
+```
+
+</details>
+
+---
+  
+171.Can you tell me should all developers use a Python debugger?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+Multiple junior-level programmers manage to care debugging, having a debugging process is important for all developers. Whether you are a savvy developer or just starting, understanding how to discover and fix bugs is important.
+
+</details>
+
+---
+  
+172.Can you list out What skills you need for efficient debugging in Python?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- For efficient debugging we can have the following skills,
+   - Problem-solving skills
+   - python skills
+   - Unit testing skills
+   - Time management
+
+</details>
+
+---
+  
+173.Can you tell me the difference between a logical error and compile error.
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+**Logical Error:**
+   - Logical errors are not detected by computer.
+   - Logical errors are Cause your results to be wrong.
+**Compile Error/Syntax Error:**
+   - Syntax errors are "grammatical errors" and are this will be detected when you compile the program.
+   - Syntax errors prevent your program from executing.
+
+</details>
+
+---
+  
+174.Paul is asking his junior can you tell me what background debug mode is what will be the answer he will give to him?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python background debug mode is an interface that enables a developers to debug the embedded systems. This mode facilitates debugging in microcontrollers.
+
+</details>
+
+---
+  
+175.Can you explain the main steps to involved in debugging Python code in Visual Studio Code? 
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- First begin with the Debug > Start Debugging command to launch the startup file
+- Right-click a particular code line and choose Breakpoint > Insert Breakpoint
+- Then run code blocks or stop at certain points 
+- Finally Inspect and modify the variables values
+
+</details>
+
+---
+  
+176.Consider Jane have this following piece of code
+  
+```python
+class samp:
+    def add(a,b):
+        return a+b
+ob=samp()
+print(ob.add())
+```
+  
+The above code results in an error, what can be done to resolve this error?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+  
+- In the above code values are not passed the parameter values.It will throwing an TypeError: add() missing 1 required positional argument: 'b'.
+  
+```python
+class samp:
+    def __init__(self,a,b):
+        self.a=a
+        self.b=b
+
+    def add(self,a,b):
+        return a+b
+
+ob=samp(5,3)
+print(ob.add(5,3))
+```
+
+</details>
+
+---
+  
+177.The Junior developer is having one doubt and he is asking If a class has one class variable then how many copies will be created for that variable to a senior ho will you help him to get an answer?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+ <details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+Only one copy of static variables is created when a class is loaded. Each object instantiated has its own copy of instance variables.Only one copy of static variables is created when a class is loaded. Each object instantiated has its own copy of instance variables.
+
+</details>
+
+---
+   
+178.Consider you have this piece of code,
+   
+```python
+print(0.2+0.4==0.6)
+```
+After running this code what will be the output and explain how you got that?
+   
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+   
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- After run the above code i will ge toutput as `False`.
+- The round-off errors from 0.2 and 0.4 add Therefore there is a difference between (0.2 + 0.4) and 0.6. This is because you can't compare floating point values, it cannot be considered exact.
+
+</details>
+
+---
+  
+179.Can you tell me what type of inheritance is illustrated in the following Python code? 
+  
+```python
+class A():
+    pass 
+class B(A): 
+    pass 
+class C(B): 
+    pass
+```
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+In multi-level inheritance, a subclass derives from another class which itself is derived from another class.n multi-level inheritance, a subclass derives from another class which itself is derived from another class.
+
+</details>
+
+---
+  
+180.Jane What will be the output of the following code snippet? 
+  
+```python
+a = 3 
+b = 1 
+print(a, b) 
+a, b = b, a 
+print(a, b)
+```
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+The given python snippet is, a = 3 b = 1 print(a, b) a, b = b, a print(a, b) Here "a" and "b" values are assigned. a=3 b=1 The print function prints 3 and 1. a, b = b, a It is evaluated by pushing both the values to the stack and the top two values will be rotated (so that the values will be swapped) and the values are assigned back to "a" and "b". So it swapped values become, a=1 b=3 The print function prints 1 and 3. Hence the correct answer is 3 1 1 3.
+
+</details>
+
+---
+  
+  
+   
+  
+   
+  
+
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
   
   
   
