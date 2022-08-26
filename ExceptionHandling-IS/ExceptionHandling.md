@@ -1181,7 +1181,7 @@ public static void main(String args[]) {
 
 <blockquote>
 
-The compiler will complain about the line where we are handling IOException, since IOException is a checked Exception and start() method doesn't throw IOException, so the compiler will flag error as "exception java.io.IOException is never thrown in body of corresponding try statement", but if you change IOException to Exception compiler error will disappear because Exception can be used to catch all RuntimeException which doesn't require a declaration in a throws clause.
+The compiler will complain about the line where we are handling IOException, since IOException is a checked Exception and start() method doesn't throw IOException, so the compiler will flag error as "exception `java.io.IOException` is never thrown in body of corresponding try statement", but if you change IOException to Exception compiler error will disappear because Exception can be used to catch all RuntimeException which doesn't require a declaration in a throws clause.
 
 </blockquote>
 
@@ -1213,7 +1213,7 @@ When JVM faces an exception in a program, it creates an exception object and thr
 
 <blockquote>
 
-Once exception handling is done, the exception object will be garbage collected.
+The exception object will be garbage collected,Once exception handling is done, 
 
 </blockquote>
 
@@ -1237,7 +1237,7 @@ Compile-time errors are not exceptions. They come under errors. In Java, only ru
 	
 ---
 	
-46. Whether the java compiler check Runtime exceptions at compilation?
+46. Whether the java compiler check Runtime exceptions at compile time?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1684,14 +1684,16 @@ There can be many reasons that might generate an exception in a Java program.
 
 <blockquote>
 
-Throwable class is the parent class of all exception types. It is an immediate subclass of the Object class. Below Throwable class, there are two subclasses (two child objects) Error and Exception.
+`Throwable` class is the parent class of all exception types. It is an immediate subclass of the `Object` class. Below `Throwable` class, there are two subclasses (two child objects) `Error` and `Exception`.
 
-Error: Error class is the subclass of Throwable class and a superclass of all the runtime error classes. It terminates the program if there is a problem related to a system or resources (JVM).
+`Error` class is the subclass of `Throwable` class and a superclass of all the runtime error classes. It terminates the program if there is a problem related to a system or resources (JVM).
 
-Exception: An exception is an abnormal condition that is caused by runtime error in the program. It is the superclass of all exceptions in Java. It is further divided into checked and unchecked (runtime) exceptions.
+An exception is an abnormal condition that is caused by runtime error in the program. It is the superclass of all exceptions in Java. It is further divided into checked and unchecked (runtime) exceptions.
 
 Checked exceptions are those exceptions that are checked by Java compiler at compilation. A list of some important checked exceptions are given below:
 
+```java
+	
 ClassNotFoundException
 InterruptedException
 InstantiationException
@@ -1700,8 +1702,12 @@ SQLException
 IllegalAccessException
 FileNotFoundException, etc
 
+```
+	
 Runtime exceptions are those exceptions that are checked by JVM at runtime. Some important examples of runtime exceptions are given below:
 
+```java
+	
 ArithmeticException
 ClassCastException
 NullPointerException
@@ -1711,6 +1717,8 @@ ArrayStoreException
 IllegalThreadStateException
 SecurityException, etc.
 
+```
+	
 </blockquote>
 
 </details>
@@ -1853,9 +1861,13 @@ catch(ArithmeticException ae)
 
 <blockquote>
 
+```java
+	
 101010
 Arithmetic Exceptionjava.lang.ArithmeticException: / by zero
 
+```
+	
 </blockquote>
 
 </details>
@@ -2139,9 +2151,9 @@ Methods Of Throwable class:
 
 <blockquote>
 
-A try statement that declares one or more resources is called a try-with-resources statement. Examples of resources are input and output stream, a database connection, etc. All such resources need to be closed at the end of the program execution. This statement ensures that the code closes the resources that were opened by the try keyword.
+- A try statement that declares one or more resources is called a try-with-resources statement. Examples of resources are input and output stream, a database connection, etc. All such resources need to be closed at the end of the program execution. This statement ensures that the code closes the resources that were opened by the try keyword.
 
-The below example reads the first line of a file via an instance of BufferedReader.  BufferedReader is the resource here that needs to be closed after its usage in the program.  
+- The below example reads the first line of a file via an instance of BufferedReader.  BufferedReader is the resource here that needs to be closed after its usage in the program.  
 
 ```java
 
@@ -2154,7 +2166,7 @@ static String readFirstLineFromFile(String path) throws IOException {
 
 ```
 
-The try-with-resources is declared by declaring the resource object in parentheses immediately after the try keyword. As a BufferedReader instance is declared inside the try-with-resource statement, it will be closed even if the try statement terminates abruptly. 
+- The try-with-resources is declared by declaring the resource object in parentheses immediately after the try keyword. As a BufferedReader instance is declared inside the try-with-resource statement, it will be closed even if the try statement terminates abruptly. 
 
 </blockquote>
 
@@ -2182,7 +2194,7 @@ The try-with-resources is declared by declaring the resource object in parenthes
 
 ---
 
-75.  Is It Necessary That Each Try Block Must Be Followed By A Catch Block?
+75.  Is it necessary that each try block must be followed by a  catch block?
 
 ![Easy](htts://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -2198,7 +2210,7 @@ No it is not mandatory that there should be a catch block after a try block. try
 
 ---
 
-76.What Is Exception Propagation?
+76.What is Exception Propagation?
 
 ![Easy](htts://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -2206,11 +2218,7 @@ No it is not mandatory that there should be a catch block after a try block. try
 
 <blockquote>
 
-When an exceptional condition occurs within a method, the method (where the exception occurred) creates an Exception Object and throws it. The created exception object contains information about the error, its type and the state of the program when the error occurred. 
-
-The method where the exception is thrown may handle that exception itself or pass it on. In case it passes it on, run time system goes through the method hierarchy that had been called to get to the current method to search for a method that can handle the exception.
-
-If your program is not able to catch any particular exception, that will ultimately be processed by the default handler. This process of going through the method stack is known as Exception propagation.
+When an exceptional condition occurs within a method, the method (where the exception occurred) creates an Exception Object and throws it. The created exception object contains information about the error, its type and the state of the program when the error occurred. The method where the exception is thrown may handle that exception itself or pass it on. In case it passes it on, run time system goes through the method hierarchy that had been called to get to the current method to search for a method that can handle the exception.If your program is not able to catch any particular exception, that will ultimately be processed by the default handler. This process of going through the method stack is known as Exception propagation.
 
 </blockquote>
 
