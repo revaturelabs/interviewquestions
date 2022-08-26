@@ -576,4 +576,221 @@ where Manager_id = 432;
 
 ---
 
+41. From "employee" table give the "names" and "emp_id" of those employees who receives higher salary than the employee with "emp_id" = 101.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```
+select emp_id, name from employees 
+where salary > 
+( select salary from employee
+where emp_id = 101
+);
+
+```
+
+</details>
+
+---
+
+42. Suppose you are having a "employee" table, in which you are trying to find out those employees details having the same department as the employee whose id is 121.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```
+select * from employee
+where department = 
+( select department 
+from employee
+where id = 121
+);
+```
+
+</details>
+
+---
+
+43. In an employee table, how will you find those employees name and emp_id whose salary matches the lowest salary of any of the departments in SQL.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```
+select name, emp_id from employee
+where salary IN 
+( select min(salary)
+from employee
+group by department
+);
+```
+
+</details>
+
+---
+
+44. In SQL, give the count of those employees who are getting salary more than the average salary from "employee" table.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```
+select count(*) from employee
+where salary >
+(select avg(salary)
+from employee
+);
+
+```
+</details>
+
+---
+
+45. Suppose you are handling two tables, one is employee table and another one is department table and there is a primary-foreign key relationship between both. Assume your boss asked you to give the emp_id and name of those employees who works in product department. 
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```
+select e.name , e.id from employee e , department d
+where e.id = d.id
+and d.department = "product"
+```
+
+</details>
+
+---
+
+46. In an "employee" table , give me the query that will fetch the employee detail of those employees who are getting second highest salary in the company. 
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```
+select * from employee
+where salary in 
+( select max(salary) from employee
+where salary not in 
+( select max(salary) from employee
+);
+```
+</details>
+
+---
+
+47. Write a SQL query that will give the details of those students, from student table, who comes from NY, Florida and Alaska state and who are from 9th, 10th, 11th and 12th class. 
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```
+select * from student
+where state in ["NY", "Florida", "Alaska"] 
+and class in [ "9th", "10th", "11th", "12th"];
+```
+
+</details>
+
+---
+
+48. Tell me about Denormalization and when can we go for it in SQL?
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> - Denormalization can be described as the process to get back from all the normalized forms in the table to add some redundant data in it.   
+> - It is a good idea to denormalize the tables to do the fast retrieval
+> - When their are multiple small tables and applying joins on those tables will be costly operation.
+
+</details>
+
+---
+
+49. Where SQL language is used and what are its applications?
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> SQL is used to interact with the data that are present in tabular form.  
+> The applications of SQL are:
+> - It is used as a backend of a front-end system to store its data in database.
+> - It permits user or group of users to access the database.
+> - It is used in web sites where a need of storing the data is required.
+> - It is used in maintaing old data or historical data.
+
+
+</details>
+
+---
+
+50. In SQL, what is a cross-join? Give syntax also.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> `cross join` also known as `cartesian join`, is used to join each tuple of the 1st table with each tuple of 2nd table. 
+> Syntax of cross join:  
+```
+select column_names from table1 
+cross join table2 ;
+```
+
+</details>
+
+---
+
+51. Can we use `inner join` without `on` condition?
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> Yes, we can use the `inner join` without `on` condition in SQL as it is optional condition in inner join or join. If used without on condition it will generate the same output as `cross join`.
+
+</details>
+
+---
+
+52. Is it possible to make a `cross join` works as an `inner join` in SQL
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> Yes, it is possible to use `cross join` as an `inner join` in SQL by using `where` clause with it. For example:    
+> 
+```
+select * from table1 
+cross join table2
+where table1.id = table2.id;
+```
+
+</details>
+
+---
+
+53. 
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+
+</details>
+
+---
+
+54.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+
+</details>
+
+---
+
+55.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+
+</details>
+
+---
+
 
