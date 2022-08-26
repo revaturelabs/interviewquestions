@@ -185,7 +185,7 @@ All exception types are subclasses of the built-in class Throwable. Thus, Throwa
 
 <blockquote>
 
-finally is useful for more than just exception handling — it allows the programmer to avoid having cleanup code accidentally bypassed by a return, continue, or break. Putting cleanup code in a finally block is always a good practice, even when no exceptions are anticipated.
+Finally is useful for more than just exception handling — it allows the programmer to avoid having cleanup code accidentally bypassed by a return, continue, or break. Putting cleanup code in a finally block is always a good practice, even when no exceptions are anticipated.
 
 </blockquote>
 
@@ -403,6 +403,14 @@ class Example {
 
 ```
 </blockquote>
+	
+<details><summary><b> Explanation </b></summary>
+
+<blockquote>
+
+The unchecked exception thrown is ArrayIndexOutOFBoundsException for the specified index which does not exist.
+
+</details>
 
 </details>
 
@@ -472,7 +480,7 @@ We cannot use throws keyword with a static block, and more over a static block i
 
 ---
 
-24.How rethrowing is done in exception handling?
+24.How rethrowing is done in exception handling?Explain with an example?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -581,7 +589,8 @@ The chained exception feature allows you to associate another exception with an 
 
 When you are keeping multiple catch blocks, the order of catch blocks must be from most specific to most general ones. i.e sub classes of Exception must come first and super classes later. If you keep super classes first and sub classes later, compiler will show unreachable catch block error.
 
-
+```java
+	
 public class ExceptionHandling
 {
     public static void main(String[] args)
@@ -604,8 +613,8 @@ public class ExceptionHandling
         }
     }
 }
-
-
+	
+```
 
 </blockquote>
 
@@ -636,7 +645,7 @@ Because finally block is always executed whether exceptions are raised in the tr
 <blockquote>
 
 throw :
-throw is a keyword in java which is used to throw an exception manually. Using throw keyword, you can throw an exception from any method or block. But, that exception must be of type java.lang.Throwable class or it’s sub classes. 
+throw is a keyword in java which is used to throw an exception manually. Using throw keyword, you can throw an exception from any method or block. But, that exception must be of type `java.lang.Throwable` class or it’s sub classes. 
 
 ```java
 
@@ -820,7 +829,7 @@ Statement3 will not get executed because once a try block throws an exception, r
 
 ---
 	
-34.Why do you use the ‘throws’ keyword in Java?
+34.Why do you use the ‘throws’ keyword in Java?Explain with an example?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -870,7 +879,7 @@ public class ExceptionHandling{
 	
 35.Debug the error in the below code:
 	
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 ```java
 
@@ -998,10 +1007,17 @@ finally block executing
 from try
 
 ```
+</blockquote>
+	
+<details><summary><b> Explanation </b></summary>
 
+<blockquote>
+	
 try block started it’s execution and no exception so it goes to finally and then return back to caller.
 
 </blockquote>
+
+</details>
 
 </details>
 
@@ -1050,7 +1066,7 @@ public static void start() throws IOException, RuntimeException{
 
 <blockquote>
 
-This code will throw compiler error on line where RuntimeException  variable “re” is written on catch block. since Exception is super class of RuntimeException, all RuntimeException thrown by start() method will be captured by first catch block and code will never reach second catch block and that's the reason compiler will flag error as "exception java.lang.RuntimeException has already been caught".
+This code will throw compiler error on line where RuntimeException  variable “re” is written on catch block. since Exception is super class of RuntimeException, all RuntimeException thrown by start() method will be captured by first catch block and code will never reach second catch block and that's the reason compiler will flag error as "exception `java.lang.RuntimeException` has already been caught".
 
 </blockquote>
 
