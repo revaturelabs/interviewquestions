@@ -986,7 +986,7 @@ If you declare a class as static, that class will be executed first. Static modi
 
 <blockquote>
 
-When we declare the class or method as abstract, whcih is used for further modification and it cannot be instantiated.
+When we declare the class or method as abstract, which is used for further modification and it cannot be instantiated.
 
   </blockquote>
 
@@ -1051,7 +1051,7 @@ private , public , final , abstract etc are keywords as well as modifiers.
 
 ---
 
-59. Can we change the return type Of `Main()` method? what will be the output if we change if we change the type?
+59. Can we change the return type Of `main()` method? what will be the output if we change if we change the type?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1094,7 +1094,7 @@ No, JVM invokes main method even before the instantiation of the class. As non-s
 
 ---
 
-61. Can we declare `Main()` method as private or protected or with no access specifier?
+61. Can we declare `main()` method as private or protected or with no access specifier?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1174,7 +1174,7 @@ abstract final class Syllabus{
  }
 public class Main{
 	public static void main(String[] args) {
-	 	    Syllabus sy = new SQLSyllabus();
+	    Syllabus sy = new SQLSyllabus();
  	    sy.printMessage();
 	}
 }
@@ -1534,7 +1534,7 @@ public class MainClass extends A
 
 <blockquote>
 
-Here Private inner Class B can not be instantiated outside the Class A.
+Here private inner class B cannot be instantiated outside the class A.
 
 </blockquote>
 
