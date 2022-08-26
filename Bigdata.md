@@ -2276,3 +2276,662 @@ No, calculations will be done only on the original data.
 
 ---
 
+135. If we want to copy 10 blocks from one machine to another, but another machine can copy only 8.5 blocks, can the blocks be broken at the time of replication?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+In HDFS, blocks cannot be broken down.
+
+
+</details>
+</blockquote>
+
+---
+
+136. You have a directory ProjectPro that has the following files – HadoopTraining.txt, _SparkTraining.txt, #DataScienceTraining.txt, .SalesforceTraining.txt. If you pass the ProjectPro directory to the Hadoop MapReduce jobs, how many files are likely to be processed?
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+- Only HadoopTraining.txt and #DataScienceTraining.txt will be processed for Mapreduce jobs because when we process a file (either in a directory or individual) in Hadoop using any FileInputFormat such as TextInputFormat, KeyValueInputFormat or SequenceFileInputFormat, we must confirm that none of files must have a hidden file prefix such as “_” or “.” because mapreduce FileInputFormat will by default uses hiddenFileFilter class to ignore all those files with these prefix in their name.
+
+- However, we can set our own custom filter such as FileInputFormat.setInputPathFilter to eliminate such criteria but remember, hiddenFileFilter is always active.
+
+
+</details>
+</blockquote>
+
+---
+
+
+137. When decommissioning the nodes in a Hadoop Cluster, why should you stop all the task trackers?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+We are aware about a complete process on how to decommission a datanode and there are loads of material available on internet to do so but what about the task tracker running a MapReduce job on a datanode which is likely to be decommissioned. Unlike the datanode, there is no graceful way to decommission a tasktracker. It is always assumed that when we want to move the same task to other node then we need to rely on making the task process to stop for failure and let it be rescheduled elsewhere on the cluster. It is possible that a task on its final attempt is running on the tasktracker and that a final failure may result in the entire job failing. Unfortunately, it’s not always possible to prevent this case from occurring. So, the idea behind decommissioning that it will stop your datanode but to move the current task to another node, we need to manually stop the task tracker running on the decommissioned node.
+
+</details>
+</blockquote>
+
+---
+
+
+138. If a NameNode enter the safe mode, what will happen? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+Namenode is responsible for managing the meta storage of the cluster and if something is missing from the cluster then Namenode will be held. This makes Namenode checking all the necessary information during the safe mode before making cluster writable to the users. There are couple of reasons for Namenode to enter the safe mode during startup such as;
+
+-  Namenode loads the filesystem state from fsimage and edits log file, it then waits for datanodes to report their blocks, so it does not start replicating the blocks which already exist in the cluster another.
+
+-  Heartbeats from all the datanodes and also if any corrupt blocks exist in the cluster. Once Namenode verify all these information, it will leave the safe mode and make cluster accessible. Sometime, we need to manually enter/leave the safe mode for Namenode which can be done using command line “hdfs dfsadmin -safemode enter/leave”.
+
+
+
+</details>
+</blockquote>
+
+---
+
+139. What ensures load balancing of the server in Kafka?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+Leader is to perform the task of all read and write requests for the partition, whereas Followers passively replicate the leader.
+
+Hence, at the time of Leader failing, one of the Followers takeover the role of the Leader.
+
+</details>
+</blockquote>
+
+---
+
+140. What roles do Replicas and the ISR play?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+- Basically, a list of nodes that replicate the log is Replicas. Especially, for a particular partition. However, they are irrespective of whether they play the role of the Leader.
+
+- In addition, ISR refers to In-Sync Replicas. On defining ISR, it is a set of message replicas that are synced to the leaders
+
+
+</details>
+</blockquote>
+
+---
+
+141. Why are Replications critical in Kafka?
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+Replication, we can be sure that published messages are not lost and can be consumed in the event of any machine error, program error or frequent software upgrades.
+
+</details>
+</blockquote>
+
+---
+
+142. If a Replica stays out of the ISR for a long time, what does it signify?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+Simply, it implies that the Follower cannot fetch data as fast as data accumulated by the Leader.
+
+</details>
+</blockquote>
+
+---
+
+
+143. In the Producer, when does QueueFullException occur?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+whenever the Kafka Producer attempts to send messages at a pace that the Broker cannot handle at that time QueueFullException typically occurs. 
+
+</details>
+</blockquote>
+
+---
+
+144. Tell me the difference between Kafka and Flume?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+- Kafka is a  general-purpose tool for both multiple producers and consumers. Whereas, Flume is considered as a special-purpose tool for specific applications.
+
+- Kafka can replicate the events.
+whereas, Flume does not replicate the events.
+
+</details>
+</blockquote>
+
+---
+
+
+145. Is Apache Kafka is a distributed streaming platform? if yes, what you can do with it?
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+Yes, Kafka is a streaming platform.
+
+</details>
+</blockquote>
+
+---
+
+146. Explain the maximum size of a message that can be received by the Kafka?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+The maximum size of a message that can be received by the Kafka is approx. 1000000 bytes.
+
+</details>
+</blockquote>
+
+---
+
+147. Compare Spark Streaming to Kafka Streams and Flink.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+- That Kafka Streams is just a library (no additional infrastructure component, but it has the responsibility to deploy and scale the streaming application).
+- That Flink is currently the most superior/feature-rich framework when it comes to low-latency stream processing (which is important when streams are used as the core communication between services in real-time).
+- That Spark’s main benefit is the whole existing eco-system including the MLlib/GraphX abstractions and that parts of the code can be reused for both batch- and stream-processing functionality.
+
+</details>
+</blockquote>
+
+---
+
+148. What are the elements the GraphX library works with, and how are they created from an RDD? Complete the following code to calculate the page ranks.
+```Input```
+```python
+def calculate(sparkSession: SparkSession): Unit = {
+
+ val pageRdd: RDD[(???, Page)] =
+   readPageData(sparkSession)
+     .map(e => (e.pageId, e))
+     .cache()
+ val pageReferenceRdd: RDD[???[PageReference]] = readPageReferenceData(sparkSession)
+
+ val graph = Graph(pageRdd, pageReferenceRdd)
+ val PageRankTolerance = 0.005
+ val ranks = graph.???
+
+ ranks.take(1000)
+   .foreach(println)
+}
+```
+
+```OutPut``` The result will be a list of tuples that looks like this:
+
+```python
+(1,1.4537951595091907)
+(2,0.7731024202454048)
+(3,0.7731024202454048)
+```
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+```python
+def calculate(sparkSession: SparkSession): Unit = {
+
+ val pageRdd: RDD[(VertexId, Page)] =
+   readPageData(sparkSession)
+     .map(e => (e.pageId, e))
+     .cache()
+ val pageReferenceRdd: RDD[Edge[PageReference]] = readPageReferenceData(sparkSession)
+
+ val graph = Graph(pageRdd, pageReferenceRdd)
+ val PageRankTollerance = 0.005
+ val ranks = graph.pageRank(PageRankTollerance).vertices
+
+ ranks.take(1000)
+   .foreach(println)
+}
+```
+
+</details>
+</blockquote>
+
+---
+
+149. You have a cluster of 10 nodes with 24 CPU cores available on each node.
+
+The following code works but might crash on large data sets, or at least will not leverage the full processing power of the cluster. Which is the problematic part and how would you adapt it?
+
+```python
+def calculate(sparkSession: SparkSession): Unit = {
+ val NumNodes = 10
+ val userActivityRdd: RDD[UserActivity] =
+   readUserActivityData(sparkSession)
+     .repartition(NumNodes)
+
+ val result = userActivityRdd
+   .map(e => (e.userId, 1L))
+   .reduceByKey(_ + _)
+
+ result
+   .take(1000)
+}
+```
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+- The ```repartition``` statement generates 10 partitions (no matter if it were more or less when they were loaded from wherever). These might become quite large on huge datasets and probably won’t fit into the allocated memory for one executor.
+
+- Also, only one partition can be allocated per executor. This means, only 10 out of the 240 executors are used (10 nodes with 24 cores, each running one executor).
+
+- If the number is chosen too high, the overhead of managing the partition by the scheduler adds up and decreases performance. In some cases, for very small partitions, it might even exceed the execution time itself.
+
+- The recommended number of partitions is between two to three times the number of executors. In our case, 600 = 10 x 24 x 2.5 would be an appropriate number of partitions.
+
+</details>
+</blockquote>
+
+---
+
+
+150. What are receivers in Apache Spark Streaming?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+It is used to consume the data from different data sources and then move them to spark for processing.
+
+</details>
+</blockquote>
+
+---
+
+
+151. What are the data formats supported by Spark?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+Paraquet, JSON, XML, CSV, RC, Avro, TSV.
+
+</details>
+</blockquote>
+
+---
+
+152. What is the purpose to use DAG in Spark?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+It is a finite directed graph with no directed cycles.here are finite numbers of vertices and edges, where each edge is directed from one vertex to another. 
+
+</details>
+</blockquote>
+
+---
+
+153. Is it necessary to install spark on all the nodes of a YARN cluster when running Apache Spark on YARN?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+Spark need not be installed when running a job under YARN or Mesos because Spark can execute on top of YARN or Mesos clusters without affecting any change to the cluster.
+
+</details>
+</blockquote>
+
+---
+
+154. On which port the Spark UI is Available?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+The Spark UI is available on port 4040 of the driver node. If you are running in local mode, this will be http://localhost:4040. The Spark UI displays information on the state of your Spark jobs, its environment, and cluster state. 
+
+</details>
+</blockquote>
+
+---
+
+155. What is the significance of Sliding Window operation?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+Sliding Window controls transmission of data packets between various computer networks. Spark Streaming library provides windowed computations where the transformations on RDDs are applied over a sliding window of data. Whenever the window slides, the RDDs that fall within the particular window are combined and operated upon to produce new RDDs of the windowed DStream.
+
+</details>
+</blockquote>
+
+---
+
+156. How does Spark achieve full tolerance as compared to Hadoop?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+Spark stores data in-memory whereas Hadoop stores data on disk. Hadoop uses replication to achieve fault tolerance whereas Spark uses different data storage model, RDD. RDDs achieve fault tolerance through a notion of lineage: if a partition of an RDD is lost, the RDD has enough information to rebuild just that partition.
+
+</details>
+</blockquote>
+
+---
+
+157. What do you mean by CB Optimization in Spark SQL?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+Cost-Based Optimization (aka Cost-Based Query Optimization or CBO Optimizer) is an optimization technique in Spark SQL that uses table statistics to determine the most efficient query execution plan of a structured query (given the logical query plan). The Cost-based optimization is disabled by default. Spark SQL uses spark.sql.cbo.enabled configuration property to control whether the CBO should be enabled and used for query optimization or not. Cost-Based Optimization uses logical optimization rules (e.g. CostBasedJoinReorder) to optimize the logical plan of a structured query based on statistics.
+
+</details>
+</blockquote>
+
+---
+
+158. How Hive utilize the task as a mapreduce ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+Hive is a tool which is used to work on MapReduce Tasks. If we think Writing a MapReduce job is very long process and time taken, well, with Hadoop Hive, we can used and Submit SQL queries as well as we can perform MapReduce Jobs. So, if we are comfortable with SQL Queries then Hive is a best tool for us to perform a Basic Queries which known as HQL (Hive Query Language. Working on HQL, we use Pig Latin as a Language.
+Basically, Hive runs on our system, which helps to convert the SQL queries to set of jobs in Hadoop Cluster. 
+Components of Hive:
+1.	Driver
+2.	Meta store
+3.	Compiler
+4.	Optimizer
+5.	Executor
+
+
+</details>
+</blockquote>
+
+---
+
+159. Given that Spark is 100 times faster than Hadoop, what is the business use case for Hadoop?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+- Spark runs a workload up to 100 times faster than Hadoop. 
+- Now, days in Internet has huge amount of data being generated daily, in a simple word its known as Bigdata. As we know data in both formats structured and Unstructured, is generated from business, organizations mainly social network. 
+- Distributed computing is used as a storing of huge data or large volume. To maintain it uses mainly Hadoop and Spark.
+- Spark is 100 times faster in memory and 10 times faster on disk. Spark is faster than Hadoop because it does the processing in RAM , which helps to reduce the read – write operation in system. But Spark never replace Hadoop, both are having their own way of handling data, only regarding fast processing speed we prefer spark more than Hadoop.
+
+</details>
+</blockquote>
+
+---
+
+160. What is the fundamental abstraction in Spark? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+Abstraction is spark is known as DStream or Discretized Stream, which is used to handle the streaming of data in real time. DStreams are built on method called RDDs which stands for Resilient Distributed Dataset, Spark’s core Data Abstraction. 
+
+</details>
+</blockquote>
+
+---
+
+161. Tell me how dataframe differ from dataset?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+1.	Data frame is used as a table in a RDBMS whereas Dataset is used similar as Data Frame but an extension of Data frame API. It provides additional feature like oop’s interface API.
+2.	Data Frame is immutable which means when we create and transforming the data, we cannot change the nature whereas Dataset can retain that data using RDD data Frame.
+3.	Data Frame helps to reduce the usage of memory whereas dataset perform operation on serialized data to increase the usage of memory.
+
+
+</details>
+</blockquote>
+
+---
+
+
+162. For Hive, how are partitions stored? Are they files or directories?
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+Hive used to organize the table into partitions. Partitions work with creating a folder for each partition, which means for each column value of the partitioned column, there will be a folder under the HDFS (Hadoop distributed file system). Data, which chosen for partition will not be used or part of files.
+
+</details>
+</blockquote>
+
+---
+
+163.  What do you mean by data node in Hadoop?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+- Data nodes is used as a slave node in HDFS. It is a block server that stores the data in the local file.
+- The Data Nodes store blocks, delete blocks and replicate those blocks upon instructions from the Name Node.
+- Data Nodes in a Hadoop cluster periodically send a block report to the Name Node too. A block report contains a list of all blocks on a Data Node.
+
+
+![Example](Data%20Node.JPG)
+
+</details>
+</blockquote>
+
+---
+
+164. What do you know about map reduce and explain how it works?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+It is a programming model as well as implementation for processing and generating the bigdata sets with a parallel, distributed algorithm on a cluster. Map reduce, functions used to performs the filtering and sorting and reduce method, which performs a summary operation.
+
+- Job Tracker is a master Node.
+- Responsible to assign and track Task execution Progress.
+- Task Tracker are Slave Nodes.
+- They run on systems where data nodes reside.
+- Responsible to a child JVM to execute Map, Reduce and Intermediate. Task
+
+</details>
+</blockquote>
+
+---
+
+165. Explain about the different complex data types in Pig.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+- Maps- These are key, value stores joined together using #.
+- Tuples- Just similar to the row in a table, where different items are separated by a comma. Tuples can have multiple attributes.
+- Bags- Unordered collection of tuples. Bag allows multiple duplicate tuples.
+
+</details>
+</blockquote>
+
+---
+
+166. What does Flatten do in Pig?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+Flatten is used as a modifier in Pig.  It is a  un-nests bags and tuples whereas un-nesting bags is a little complex because it requires creating new tuples.
+
+</details>
+</blockquote>
+
+---
+
+
+167. How do users interact with the shell in Apache Pig?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+“pig –x local” will result in the prompt -
+
+grunt >
+
+</details>
+</blockquote>
+
+---
+
+168. What are the debugging tools used for Apache Pig scripts?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+PigLatin scripts can be used in differnt way to use as a debugging tool.
+
+
+</details>
+</blockquote>
+
+---
+
+169. How execution plans works of a Pig Script ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+With the help of Logical and physical plans we can created during the execution of a pig script.
+Pig scripts are based on interpreter checking. 
+
+- Logical plan is produced after semantic checking and basic parsing and no data processing takes place during the creation of a logical plan.
+
+-  A physical plan is more or less like a series of MapReduce jobs but then the plan does not have any reference on how it will be executed in MapReduce. 
+
+</details>
+</blockquote>
+
+---
+
+
+170. Tell me the Differentiate between the logical and physical plan of an Apache Pig script?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+- Logical plan is produced after semantic checking and basic parsing and no data processing takes place during the creation of a logical plan.
+
+-  A physical plan is more or less like a series of MapReduce jobs but then the plan does not have any reference on how it will be executed in MapReduce. 
+
+</details>
+</blockquote>
+
+---
+
+171. Tell me the difference between PigLatin and HiveQL ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+
+- It is necessary to specify the schema in HiveQL, whereas it is optional in PigLatin.
+- HiveQL is a declarative language, whereas PigLatin is procedural.
+- HiveQL follows a flat relational data model, whereas PigLatin has nested relational data model.
+
+</details>
+</blockquote>
+
+---
+
+
+172. Is PigLatin a strongly typed language? If yes, then how did you come to the conclusion?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+Yes , It is a stringly typed language, here user has to declare the type of all variables upfront..
+Pig, when we describe the schema of the data, it expects the data to come in the same format what we mentioned.
+
+</details>
+</blockquote>
+
+---
+
+
