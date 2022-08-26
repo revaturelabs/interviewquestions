@@ -3498,7 +3498,7 @@ In multi-level inheritance, a subclass derives from another class which itself i
 
 ---
   
-180.Jane What will be the output of the following code snippet? 
+180.Jane have this piece code he want to find the output of the following code how will you help him to find the output of the code?
   
 ```python
 a = 3 
@@ -3519,6 +3519,24 @@ The given python snippet is, a = 3 b = 1 print(a, b) a, b = b, a print(a, b) Her
 
 ---
   
+181.What will be output of the following command in python? 
+
+```python
+print (r"\nhello")
+```
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+In python language, when 'r' or 'R' is used before the string, it converts the string into a raw string and the escape sequence like \n are not converted. Hence the answer is \nhello.In python language, when 'r' or 'R' is used before the string, it converts the string into a raw string and the escape sequence like \n are not converted. Hence the answer is \nhello.
+
+</details>
+
+---
+  
+182.
   
    
   
