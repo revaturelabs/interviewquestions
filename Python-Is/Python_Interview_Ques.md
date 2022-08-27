@@ -3519,40 +3519,633 @@ The given python snippet is, a = 3 b = 1 print(a, b) a, b = b, a print(a, b) Her
 
 ---
   
-181.What will be output of the following command in python? 
+181.Considering you are the lead of junior sources you asking your junior What will be the output of the following command in python? 
 
 ```python
 print (r"\nhello")
 ```
+
+What they will answer this question?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-In python language, when 'r' or 'R' is used before the string, it converts the string into a raw string and the escape sequence like \n are not converted. Hence the answer is \nhello.In python language, when 'r' or 'R' is used before the string, it converts the string into a raw string and the escape sequence like \n are not converted. Hence the answer is \nhello.
+In python language, when 'r' or 'R' is used before the string, it converts the string into a raw string and the escape sequence like \n is not converted. Therefore the answer is \nhello.
 
 </details>
 
 ---
   
-182.
+182.Your manager is giving the following piece of code
   
+```python
+str1="Hello Friends"
+c=0
+for x in str1:
+   if(x!="l"):
+       c=c
+   else:
+       pass
+print(c) 
+  
+He is asking what is the output of the code and if is it correct or not if it's not suggest the correct code and output.
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+ <details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- If I run the above code the output is 0.
+- The output of the code should be some numbers because inside the loop it's checking whether the values are equal to l or not if not it should count how many the number of characters is not equal to l.
+- So, increase the count to 1. The correct code is mentioned below
+  
+```python
+str1="Hello Friends"
+c=0
+for x in str1:
+   if(x!="l"):
+       c=c+1
+   else:
+       pass
+print(c) 
+```
+  
+- Finally, the output will be 11 because characters are not equal to l.
+
+</details>
+
+---
+  
+183.Can you clarify/tell me what is Python path?
    
-  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
    
-  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
 
+The **PYTHONPATH** environment variable is used by Python to define a list of directories that modules can be imported from on Windows. For most installations, you should not set these variables since they are not needed for Python to run. Python understands where to see its standard library.
+  
+</details>
 
+--- 
+  
+184.Considering you the manager of your team needs to show emum implementation in python to some other team associates how will you train this to your team members can you explain me?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
 
+- In python, an enumeration is a set of symbolic names bound to an individual, with unchanging values. Within an enumeration, the values can be compared by identity, and the enumeration itself can be iterated over. In Python 3.4 you can create Enum the base class.
   
+```python
+from enum import Enum
+```
+  
+- Enum creation in python
+  
+```python
+from enum import Enum
+class directions(Enum):
+    East, West,North,South = range(4)
+print(directions.North.value)
+```
 
+</details>
+
+---
+
+185.Consider you are accessing the value both inside and outside of the function, which is fine, but what happens if you try to modify the `global` scope variable value inside a function?   
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- The below example is accessing the value both inside and outside of the functions
+  
+```python
+x="my first global variable"
+def myfunc():
+    print("accessing inside a function :",x)
+myfunc()
+print("Accessing outside a function :",x)
+```
+ 
+- If I am trying to modify the global scope variable value inside a function below code is the example of this 
+  
+```python
+x=5
+def myfunc():
+    x=x*2 #Modifying global variable value inside a function
+    print("accessing inside a function :",x)
+myfunc()
+print("Accessing outside a function :",x)
+```
+  
+- After running this code this throws an error as `UnboundLocalError`: local variable 'x' referenced before assignment. Because while modifying the values Python treats x as a local variable, but x is also not defined inside the function `(myfunc())`.
+
+</details>
+
+---
+   
+ 
+186.Does Charles want to know What will happen if a local variable exists with the exact name as the global variable you want to access how will you help him to know about it?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+If the local variable exists with the exact name as the global variable that you want to access then the global variable is shadowed is variable that is, preference is given to the local variable.
+
+</details>
+
+---
+
+187.Considering you are attending the python developer interview the interviewer is asking what do you mean by identifier and What is the permitted length of the identifier? What will be the explanation you will provide for this query?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- A Python identifier is a term used to determine a variable, function, class, module, or object.Identifiers can be a mix of letters in lowercase (a to z) or uppercase (A to Z) or digits (0 to 9) or an underscore _. 
+- In python the length of the identifier in Python can be of any size. The most extended identifier will be from PEP – 8 and PEP – 20.
+
+</details>
+
+---
   
   
+188.Joe and William are presenting a python project to their team in between the project presentation they got some errors for the following piece of code
+  
+```python
+x=9
+y=5
+if x>y:
+print(x)
+else:
+print(y)
+```
+
+One of the coworkers is asking what is this error and how will you resolve this error and whether is it mandatory in python or not.
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- After running the above code got the `IndentationError`: expected an indented block, because indentation is missing at line 4 and line 6.
+- Yes, In python indentation is mandatory. if not done properly the code is not executed properly and might throw errors. Indentation is usually done using four space characters.
+- Correct code is mentioned here,
+  
+```python
+x=9
+y=5
+if x>y:
+    print(x)
+else:
+    print(y)
+```
+
+</details>
+
+---
+  
+189. Do runtime errors exist in Python?Explain with an example.
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- Yes, runtime errors exist in Python. 
+- Example, 
+    - if you are duck typing and things look like a duck, then it is assumed a duck even if that is just a flag or stamp. The code, in this case, would be a run-time error. 
+- For example, Print "Hello world" would result in the runtime error of the missing parenthesis that is needed by print ( ).
+
+</details>
+
+---
+  
+190.Justin Ward wants to Create Variables Using Global Scope in Python Can you list out all the steps to create variables With Examples?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- You can create a variable with global scope by initializing outside all the functions in a python program. And you can access the variable from anywhere in the python program. 
+- Steps 
+   - Define the global variable
+   - Declaring a function
+   - Accessing the global variable 
+   - Finally, call the function
+  
+**Example:**
+  
+```python
+x = "Powerful"
+def func():
+    print("Python is " + x)
+func()
+```
+
+</details>
+
+---
+  
+191.Can we use a break and continue together in Python? How?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python we can use both break and continue together.The break will stop the current loop from execution, while the jump will take it to another loop.
+- The break will stop the current loop from execution, while the jump will take it to another loop.
+  
+```python
+n=["a","b","c","d"]
+for n in n:
+    if len(n)!=4:
+        continue
+    print("continue statement")
+    if n=="c":
+        break
+print("Break statement")
+```
+
+</details>
+
+---
+  
+192.Consider you want to extract all the behaviors from one class to another class which concept will be useful for this and explain with an example? 
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- For that We can use the inheritance concepts.
+- A class can inherit attributes and behavior methods from another class, called the superclass. A class that inherits from a superclass is called a subclass, also called heir class or child class. Inheritance allows us to define a class that takes all the functionality from the parent class and allows us to add more.
+  
+```python
+class Animals(object):
+  def makeSound(self):
+      raise NotImplementedError()
+class Dog(Animals):
+  def makeSound(self):
+      print ("woff!")
+class Cat(Animals):
+  def makeSound(self):
+      print ("meow")
+```
+
+</details>
+
+---
+  
+193.John is creating a class named Don, which has __init__() method that has one parameter as "name". He forgets how to create a "getName()" method that returns the name when the method is called and a "setName()" method which sets the value for 'name' parameter. Given below is an incomplete piece of code, help john to make his code working. Provide your logic in the given spaces.
+  
+```python
+class Don:
+    def __init__(self, name=None):
+        self.name = name
+        
+    # write your logic here
+
+obj = Don()
+obj.setName("pup")
+print(obj.getName())
+```
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+```python
+class Don:
+    def __init__(self, name=None):
+        self.name = name
+        
+    def getName(self):
+        return self.name
+    
+    def setName(self, name):
+        self.name =name
+
+obj = Don()
+obj.setName("pup")
+print(obj.getName())
+```
+
+</details>
+
+---
+  
+194.Jack is trying the polymorphism concept in his code for the first time, he remembered something about method overriding and is able to create one method, in Parent class Animal, named as "leg()" and has given the implementation of leg() method. He also created one more class named as Human which inherited the Base class Animal. But he forgets what to write in Human class to complete the concept of method overriding and how to create an object of that class. Help Jack in solving his problem, and you have to create a leg() method in Human class which prints "Humans have legs" and create an object for the Human class to call leg() method. Given below has some code written, and write your logic in the spaces provided.
+  
+```python
+class Animal:
+    
+    def leg(self):
+        print("Not all Animals have legs")
+        
+class Human(Animal):
+___________________
   
   
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ 
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+```python
+class Animal:
+    
+    def leg(self):
+        print("Not all Animals have legs")
+        
+class Human(Animal):
+    
+    def leg(self):
+        print("Humans have legs")
+        
+obj1 = Human()
+obj1.leg()
+```
+
+</details>
+
+---
   
+195.Create a class that shows the concept of method overloading in python?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- Default implementation of method overloading is not possible in python, but we can implement and show overloading by passing default arguments to methods. Let's see how to do it.
+  
+```python
+class Overloading:
+    
+    def add(self, x, y, z = 0):
+        return x + y + z
+
+obj = Overloading()
+print(obj.add(10, 20))        # output: 30
+print(obj.add(10, 20, 30))    # output: 60
+```
+  
+Here, we have passed different number of arguments at the time of calling, and we are getting different output as well for that.
+
+</details>
+
+---
+  
+196.Suppose there are three classes, Animal, Dog, and Cat. Class Dog inherits properties from Animal class and class Cat also inherits properties from Animal class, than which type of inheritance can be depicted from the above scenario?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+In the above scenario, class Animal is a parent class of both Dog and Cat class. Also Dog and Cat both classes inherits from the same base class that is Animal class. So, Dog and Cat are derived classes of same base class, which is the definition of Hierarchical inheritance.
+
+</details>
+
+---
+  
+197.Does python support method overloading and method overriding?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- Python doesn't support method overloading but it supports method overriding. That is, we can define the same function in child and parent class with same signature and child's function overrides the parent class function. But when we define multiple functions with same name with different signatures and trying to call both with different number of argument passing, it executes the later one but gives error for trying to call the other functions as in namespace there will always be a single entry against each function name. let's see this with an example.
+  
+**Example**:
+  
+```python
+def add(a,b):
+    return a+b 
+
+def add(a,b,c):
+    return a+b+c
+
+print(add(2,4))
+print(add(2,4,6))
+```
+  
+ - After writing and calling the above two methods together, we are getting "TypeError: add() missing 1 required positional argument: 'c'". But if we commented the first calling function i.e add() with two arguments and call only the last function, it will execute and gives the output as 12.
+  
+```python
+def add(a,b):
+    return a+b 
+
+def add(a,b,c):
+    return a+b+c
+# print(add(2,4))
+print(add(2,4,6))   # output: 12 
+```
+
+</details>
+
+---
+  
+198.Suppose there are three classes, Father, Mother and Child. The Child class inherits properties from two classes, Father and Mother class, than which type of inheritance can be depicted from the above scenario?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+By the definition, Multiple inheritance states that one derived class can inherits properties from more than 1 base class. In the above scenario also, we can see that Child class is a derived class which inherits all the properties from the 2 base classes, that is Father and Mother class.
+
+</details>
+
+---
+  
+199.William is asking "Polymorphism provides a default implementation of function overloading in python" to his junior, it is true or false and give me the explanation why.
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- False
+- Suppose, if we define two functions with same name and different argument list in python, and when we try to call the first function, it will give error in the program. But, when we try to call the second function, it doesn't give the error and overrides the prior function and generates the output.
+
+</details>
+
+---
+
+200.
+Franz has a piece of code
+  
+```python
+class Vehicle:
+    def wheel(self):
+        print("It can have 2 or more wheels")
+        
+class Car(Vehicle):
+    def wheel(self):
+        print("It has 4 wheels")
+
+obj = Car()
+obj
+````
+  
+He is trying to run that but he got some error can you help him to resolve the error and give the output of the code?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- Correct code is mention the below
+  
+```python
+class Vehicle:
+    def wheel(self):
+        print("It can have 2 or more wheels")
+        
+class Car(Vehicle):
+    def wheel(self):
+        print("It has 4 wheels")
+
+obj = Car()
+obj.wheel()
+```
+
+- Output fo the above code is `It can have 2 or more wheels`.
+- Car class overrides the wheel() method of Vehicle class and therefore when calling the wheel() method of Car using object of Car class, it prints the statement present inside it.
+  
+</details>
+
+---
+  
+201.John is asking his friend Can the len() function be used in polymorphism in python what will be the answer he will give to this?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- In python, len() is used to find the length of different datatypes like string, list, tuple, etc. The below code will show how we can use len() function with different types of data.
+  
+```python
+print(len("William"))           #Output: 6
+print(len([1, 2, 3, 4]))       #Output: 4
+print(len((1.5, 2.8, 3.3)))    #Output: 3 
+```
+  
+- Different types of values are present in different print statements. First it is a string, then it is a list, and at last it is a tuple. The len() function is returing the length of these values.
+
+</details>
+
+---
+  
+202.Ken is asking his friend to run the following code and tell me the output of the code and explain to me how he got that.
+  
+```python
+x = 40
+class Test:
+    x =20 
+    def show(self):
+        print(x)
+    
+obj = Test()
+print(x)
+obj.show()
+```
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- If i run the above code i got output as 40
+                                          40
+-Before method calling, the first print statement prints the value of global variable i.e 40. And when the show() method is called, the print statement present inside will also print the value of x as 40 not 20, because x= 20 is a class variable which must be accessed by using classname before variable name. Therefore, it will also take the global variable value i.e 40 in this case.
+
+</details>
+
+---
+  
+203.How do you differentiate between Interpreter and Compiler?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- Compiler translates our program in a single run, whereas Interpreter translates our program line by line.
+- In terms of CPU utilization, Compiler utilizes more CPU than Interpreter.
+- During compilation, all the errors in the program are displayed in the end together, whereas in Interpreter errors of the code are displayed line by line.
+- As the code size increases, complier takes more time to scan a code compared to Interpreters.
+- Example: C, C++, java, etc are based on Compiler whereas Python, Ruby, MATLAB, etc are interpreted language.
+
+</details>
+
+---
+  
+204.Franz is asking his senior developer/lead if can you help me to find out whether these identifiers are valid or not. How he will help him. 
+[Last_Name, student@id, 4_id, var, for].  
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- Last_Name and var are the only valid identifiers from the above list.
+- student@id is not a valid identifier because it has a special character "@" in it.
+- 4_id is not a valid identifier because the identifier should not start with a digit.
+- for is invaild because it is a reserved word in python.
+
+</details>
+
+---
+  
+205.Consider your manager giving the following piece of code.
+  
+```python
+list1 = [4, 2, 7, 3, 8, 9, 1]  
+for i in list1:  
+    # write your logic here
+```
+  
+he is asking you to Write your own logic inside the for loop to print the values 4, 2, 7, 8, and 9 on the output screen. how will you do this?
+  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+
+- The correct code is,
+  
+```python
+list1 = [4, 2, 7, 3, 8, 9, 1]  
+for i in list1:  
+    if i%2==0 or i>3:
+     print(i)
+```
+  
+- i%2==0 is the condition for printing even numbers and i> 3 will take the value of i which is greater then 3 and there is a logical or operator between both the if conditions. Therefore when either of the conditions becomes true only than the print statement inside if will executes. Hence, we get the final result as 4, 2, 7, 8, and 9.
+
+</details>
+
+---
+  
+ 
   
   
   
