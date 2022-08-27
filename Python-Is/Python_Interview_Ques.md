@@ -3549,6 +3549,7 @@ for x in str1:
    else:
        pass
 print(c) 
+```
   
 He is asking what is the output of the code and if is it correct or not if it's not suggest the correct code and output.
   
@@ -3859,6 +3860,7 @@ class Animal:
 class Human(Animal):
 ___________________
   
+```
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
  
