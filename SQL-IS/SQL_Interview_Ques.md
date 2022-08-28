@@ -1081,31 +1081,47 @@ order by duplicate;
 
 ---
 
-74.
+74. In SQL, give a generalize query that will fetch top N records from the table
 
 <details><summary> <b>Show Answer</b> </summary>
 
 >
+```
+select *
+from table_name
+order by column_name desc 
+limit N;
+```
 
 </details>
 
 ---
 
-75.
+75. Andrew wants to create an empty table as new_students having the same structure as of students table. What query he need to execute in order to create an empty table from old table?
 
 <details><summary> <b>Show Answer</b> </summary>
 
->
+> 
+```
+create table new_students
+like students;
+```
 
 </details>
 
 ---
 
-76.
+76. How to fetch only records that are present in even position in SQL?
 
 <details><summary> <b>Show Answer</b> </summary>
 
->
+> 
+```
+select * from table_name
+where id in
+(select id from table_name 
+where id % 2 = 0);
+```
 
 </details>
 
