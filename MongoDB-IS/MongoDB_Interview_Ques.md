@@ -720,6 +720,8 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 50. Explain about sharding in MongoDB?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > It is the process of adding data across multiple servers so that if one server is down we can still utilize the data from other servers. MongoDB supports sharding by breaking the larger datasets into smaller data sets and sending it to other servers. It increases the redundancy of data and provides durability in times of failure.
@@ -729,6 +731,8 @@ db.collection_name.remove({"name" : "Tom"},1);
 ---
 
 51. Explain the work of primary and secondary replica sets in MongoDB?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -782,6 +786,8 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 55. Does MongoDB stores data in JSON format or BSON format? And what is the difference between both, if any?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > MongoDB stores the data in BSON format. Although both JSON and BSON looks same still there is one difference between them:     
@@ -809,6 +815,8 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 57. After starting the MongoDB daemon how can we see the number of connected devices?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > Using `db.serverStatus()` method we can see the information about number of connections as well as the available connections. For that we have to write ` db.serverStatus().connections`.
@@ -819,6 +827,8 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 58. At a time, how many connections a MongoDB can handle?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > By default MongoDB can handle 64k connections. But it can be changed by going into the configuration file of MongoDB.
@@ -828,6 +838,8 @@ db.collection_name.remove({"name" : "Tom"},1);
 ---
 
 59. In MongoDB, how do we see the connections utilized?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -890,6 +902,8 @@ db.revature.find({"shift": {
 
 63. Give a query in MongoDB that will tell whether all the "address" contain "NY" or not in "emp" collection. 
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
@@ -905,6 +919,8 @@ db.emp.find({
 ---
 
 64. Your boss is asking you to give the emp_id, name and dept of those employees who works from everywhere except Florida and NY. What query you will write to complete that task?  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -960,7 +976,7 @@ db.collection_name.find()
 
 67. Imagine you are a Food Investigator Specialist and you are checking the database of a company having collection as "food" that is used by the company to store the food items details. Your task is to fetch the details of those food "items" that having a "grade" as "A+" and having "MD" (manufacturing date) on those items as "2022-08-25".
 
-
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -1009,6 +1025,8 @@ db.resturants.find(
 
 70. In MongoDB, what do you understand by covered query?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > A covered query is the one whose fields in the query are the part of indexes as well as the returned output fields also contains those same index.
@@ -1017,6 +1035,8 @@ db.resturants.find(
 
 ---
 71. If an index is not fit into the RAM then what will happen in MongoDB at that point?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -1043,6 +1063,8 @@ db.school.getIndexes()
 
 73. In MongoDB, by-default locking and transcations are not suppoted, then is there any way to achieve those concepts?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > yes, we can achieve the concepts of locking and transcations by putting one document inside another document also called as nested documents. By this way, MongoDB supports atomic operations.
@@ -1053,6 +1075,8 @@ db.school.getIndexes()
 
 74. Can we say that MongoDB reads and writes data from both primary and secondary replica set? 
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > No, In MongoDB, only primary replica set has the right to do the write operations but not secondary replica set. 
@@ -1062,6 +1086,8 @@ db.school.getIndexes()
 ---
 
 75. Is embedding one document inside another document gives some benifit in MongoDB?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -1076,6 +1102,7 @@ db.school.getIndexes()
 
 76. Why the newer versions of MongoDB are not preferred for 32-bit systems?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -1086,6 +1113,8 @@ db.school.getIndexes()
 ---
 
 77. While working on a system how will you check whether you are working on the master server?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -1115,6 +1144,8 @@ db.emp.find({
 ---
 
 79. You are a headmaster of a school and you want to check the details of those students who have got marks less than 33 in chemistry and physics subjects and are from 11th and 12th class. Your school is maintaining one school database having students as a collection in MongoDB.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 
