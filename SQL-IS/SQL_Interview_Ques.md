@@ -883,3 +883,223 @@ from employee;
 
 ---
 
+61. Imagine there are two tables Workers and Managers, where Workers table have all the employee names along with employee id who are working for the company and Managers table have all the managers names along with manager id of that company. Give one SQL query that will print the names of Workers who are also Managers.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```
+select Workers.name from Workers
+inner join Managers
+on Workers.empID = Managers.managerID;
+```
+
+</details>
+
+---
+
+62. Assume you have a Worker table having columns like name, id, department, salary, address, etc. How will you find the number of workers in each department in descending order?
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```
+select department, count(id) as number_of_emp 
+from Worker
+group by department
+order by number_of_emp desc;
+```
+
+</details>
+
+---
+
+63.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
+
+64.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
+
+65.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
+
+66.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
+
+67.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
+
+68.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
+
+69.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
+
+70.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
+
+71.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
+
+72.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
+
+73.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
+
+74.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
+
+75.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
+
+76.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
+
+77.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
+
+78.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
+
+79.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
+
+80.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
+
+81.
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+
+</details>
+
+---
