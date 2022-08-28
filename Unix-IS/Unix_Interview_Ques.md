@@ -3,6 +3,8 @@
 
 1. Which command can be used in `Unix` to get the current working directory?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > We can use the `pwd` command to see the current working directory. For that we just have to write pwd in the unix shell.
@@ -12,6 +14,8 @@
 ---
 2. With the help of which command you can create a new directory in Unix?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > We can use the `mkdir` command to create a new directory. For example, `mkdir directory_name`. To create multiple directories we can write like this `mkdir {directory1, directory2, directory3}`.
@@ -20,6 +24,8 @@
 
 ---
 3. How can you copy a file from "ABC" directory to "XYZ" directory in Unix?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -31,6 +37,8 @@
 ---
 4. Give the syntax of the command which can be used to move the file from one directory to another.
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > For moving files from one directory to another we can use the `mv` command. For example, `mv example.txt /documents` , here we are moving example.txt file of current directory to documents directory.
@@ -39,6 +47,8 @@
 
 ---
 5. Your friend created a folder as "ABC" while working on an important project and dump the finance related data in that folder. Now he wanted to rename the folder as "Finance_Data", what command he has to use to rename that folder in Unix?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -55,6 +65,8 @@
 ---
 6. Other than `touch` command, what command would you use to create an empty file in Unix?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > Other than `touch` command, we can use `echo` and `cat` command to create an empty file.      
@@ -69,6 +81,8 @@
 
 ---
 7. Suppose you have created 6 to 7 directories and files that are holding some sorts of data and your boss wanted to see the permissions of all those file and folders then which command can be used to view the permissions on the file. 
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -87,6 +101,8 @@
 ---
 9. Imagine you have two files "example1.txt" and " example2.txt" and you wanted to add the content of both the files in another file named as "combine.txt". Which command you will use to do that task and what will happen if the "combine.txt" file doesn't exist in your system.  
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > To add the content of example1.txt and example2.txt file in the combine.txt file we can use the `cat` command.     
@@ -99,6 +115,8 @@ Here if the combine.txt file doesn't exists in the system, it will create a comb
 ---
 10. How do you differentiate between root and home directory in Linux?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > The root directory is the main directory of the system and it contains the home directory in it. Everyone can access the root directory but home directory can be access by the owner of that directory only. There can be multiple home directories inside one root directory. 
@@ -106,6 +124,8 @@ Here if the combine.txt file doesn't exists in the system, it will create a comb
 
 ---
 11. Which command can we use to view content of multiple files in the terminal?
+
+
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -116,6 +136,8 @@ Here if the combine.txt file doesn't exists in the system, it will create a comb
 ---
 12. A 'test.txt' file has some old content and 'test1.txt' file has some newly added content then how would you add the content of test1 file in the end of test file so that it has both old and new content together?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > we can use the `cat` command with two redirection operator `>>` to append the content of one file to another. In this case, we can write, `cat test1.txt >>test.txt`.
@@ -124,6 +146,8 @@ Here if the combine.txt file doesn't exists in the system, it will create a comb
 
 ---
 13. Suppose using `mkdir` command you have created one directory as "program" and that is an empty directory and now you want to delete the directory from your system, then which command can be used to delete that directory?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -149,6 +173,8 @@ rm -r program
 ---
 15. How you can change the current directory in linux?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > Using `cd` command we can change the current directory in which we are working. For example, `cd program/user`.
@@ -156,7 +182,9 @@ rm -r program
 </details>
 
 ---
-16. Which command can be used to search as tring in a file based on pattern in linux.
+16. Which command can be used to search as string in a file based on pattern in linux.
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -178,6 +206,8 @@ Performance wise also `printf` is faster in execution than `echo` command.
 
 18. How to check the disk usage information on a filesystem?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > Using `df` command we can check the information related to disk usage, that is how much space is used by filesystem and what is the available space. 
@@ -187,6 +217,8 @@ Performance wise also `printf` is faster in execution than `echo` command.
 ---
 
 19. How to view all the partitions of a hard drive in Linux. 
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -226,6 +258,8 @@ Performance wise also `printf` is faster in execution than `echo` command.
 
 23. Give the general format of UNIX command?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > When writing a UNIX command in shell,we can follow one pattern:  
@@ -239,6 +273,8 @@ command_name (-n_arguments) (filename)
 
 24. Is kernel and Operating System both same?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > No both are not same, OS is a system software, whereas kernal is a part of OS. OS acts as an interface between user and hardware, wherease kernal is a core of OS and is used to interact between applications and hardware. 
@@ -248,6 +284,8 @@ command_name (-n_arguments) (filename)
 ---
 
 25. Name some of the file editors used in unix/linux?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
   
@@ -263,6 +301,8 @@ command_name (-n_arguments) (filename)
 
 26. How to change the permission set of a file in UNIX?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > To change a permission of read, write and execute of a file, we can use the `chmod` command. For example, `chmod g+w test_file` will change the file permission to write for the group owner.
@@ -273,6 +313,8 @@ command_name (-n_arguments) (filename)
 
 27. Assume you have to change ownership of a file in Linux, how will you do that?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > To change ownership of a file, we can use `chown` command. For example, `chown Henry work_file`. Here the new owner name is Henry and file name is work_file.
@@ -282,6 +324,8 @@ command_name (-n_arguments) (filename)
 ---
 
 28. Is there any difference between `vi` and `vim` editors in Linux?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
   
@@ -315,6 +359,8 @@ command_name (-n_arguments) (filename)
 ---
 
 31. Imagine Henry wants to be the owner of the two files, "test1" and "test2" in Linux then what he has to do?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -385,6 +431,8 @@ Here, the first 6 represents read and write permission to a user, the next 6 rep
 ---
 
 37. If you have to show in which line number a given string or pattern is present in a file then which command you will use for that?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
