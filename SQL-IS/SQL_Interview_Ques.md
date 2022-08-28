@@ -3,6 +3,8 @@
 
 1. What are the constraints SQL follows in all their databases tool?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > In all the SQL databases there are some constraints like: 
@@ -19,6 +21,8 @@
 
 2. How primary key contraint and unique key contraint both are different? 
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > In a table in SQL, there can be many columns that can be a unique key but only one primary key is allowed on one table. Primary key is a combination of unique key plus null constraint, whereas unique key has only unique constraint and it can be null.
@@ -28,6 +32,8 @@
 ---
 
 3. When creating a table in SQL, you forget to make a column as primary key, then is there any possibility to create a primary key on that column or we have to delete the table from the database so that we can create a primary key while creating table?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -41,6 +47,8 @@ alter table table_name add primary key(column_name);
 ---
 
 4. Suppose you want to create a student table having id, name, age and class as columns in it. Write down the query that will create that table in "school" database.
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -64,6 +72,8 @@ create table school(
 
 5. While creating a table how will you decide which column can be converted into primary key?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > There are set of rules that we can follow while creating a primary key:  
@@ -78,6 +88,8 @@ create table school(
 
 6. In SQL, what are the statements through which we can create a primary key in a table.
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > By using `create table` and `alter table` statements we can create a primary key in a table in SQL. 
@@ -87,6 +99,8 @@ create table school(
 ---
 
 7. In SQL, What are the commands that are the part of Data Definition Language?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -104,6 +118,8 @@ create table school(
 
 8. Is `drop` and `truncate` commands have the same usage in SQL?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > Both `drop` and `truncate` are the part of DDL commands and also looks similar while deleting records of the table in database. But one major difference between both is that, `drop` deletes all the records from the table as well as the table structure, whereas `truncate` will only deletes all the records from the table but not the table structure. Also drop command can be used to delete the database, whereas truncate cannot be used to delete database.
@@ -113,6 +129,8 @@ create table school(
 ---
 
 9. Suppose you have created a table called as "student" with column fields as id, name, age, address and class. But now you want to rename the "id" column to "student_id", then how will you do that in SQL?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -138,6 +156,8 @@ rename column id to student_id;
 
 11. How normalization affects the performance in SQL?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > The main point to use the normalization forms in table data is to eliminate repetition of data from it. So one thing we can say that it will guarantees the duplicate free data in the table. But achiving full normalization can affects negitively in the performance. 
@@ -160,6 +180,8 @@ rename column id to student_id;
 
 13. Tell me about some of the benifits of normalization in SQL?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > - It is used to reduce or remove the duplicates from the data.
@@ -171,7 +193,9 @@ rename column id to student_id;
 
 ---
 
-14. explain the different subsets of SQL?
+14. Explain the different subsets of SQL?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -188,6 +212,8 @@ rename column id to student_id;
 ---
 
 15. Create an "employee" table and make one primary key and one foreign key in it. 
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -207,6 +233,8 @@ create table employee(
 ---
 
 16. Can a primary key and foreign key contains null? 
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -232,6 +260,8 @@ create table employee(
 
 18. Assume you have created one table as "emp" and now you want to change that table name to "employee" then what are the ways, in SQL, through which we can chnage the table name? 
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > For changinf the table name in SQL, we can go for `rename` command or `alter` command:    
@@ -251,6 +281,8 @@ rename to employee;
 
 19. Suppose Jack has created a table as "Food" with id and food_name field as varchar datatype. But now he wanted to change the datatype of id from varchar to int. What query he should write that will do his task?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > 
@@ -265,6 +297,8 @@ modify column id int;
 
 20. Tell the difference between `alter` and `update` in SQL 
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > - The `alter` command is a DDL command, whereas `update` is a DML command
@@ -277,6 +311,8 @@ modify column id int;
 
 21. Is `truncate` and `delete` both are same command? 
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > No, `truncate` is a DDL command, used to delete all the records from the table. Whereas `delete` is a DML command, used to delete the records based on the some condition as well as it can delete all the data from the table as well.
@@ -286,6 +322,8 @@ modify column id int;
 ---
 
 22. Give the syntax of `delete`, `truncate` and `drop` command in SQL.
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -308,6 +346,8 @@ drop table table_name;
 
 23. Henry has created a table as "school" with id and name field and now he wants to insert 5 records to it. What query he has to use to insert the data into a table? 
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > He has to use the `insert` command for inserting the data:  
@@ -325,6 +365,8 @@ insert into school(id, name) values(05, "EVE");
 
 24. After inserting some of the documents into the "school" table, Tom wants to update the name of one student to EVA where id is 05. Write the query for it.
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > 
@@ -339,6 +381,8 @@ where id = 05;
 ---
 
 25. A user has to remove all of the data from the "order" table without removing the structure of the table. What query he has to write for this? 
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -355,6 +399,8 @@ truncate table order;
 
 26. Let's imagine The Amazone Prime no longer wishes to renting out the "Blue" movie and its movie id is 20. As a intern of Amazone company what query you will write to remove that movie from the "movies" table?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 >
@@ -368,6 +414,8 @@ delete from movies where id =20;
 
 27. Is command line the only way to interact with SQL?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > No, Command line is one of the ways through which we can interact with SQl, but there are 2 main ways also apart from command line:  
@@ -379,6 +427,8 @@ delete from movies where id =20;
 ---
 
 28. From someone you have heard about creating indexes in SQL will be more good in terms of fast retrival of data. Then how will you create a index into a table? 
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -393,6 +443,8 @@ add index(column_name);
 ---
 
 29. You have 4 indexes into your table "order" but now you wants to remove one index named as "author_id" from it. For the same task what will be your query for it?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -435,6 +487,8 @@ create user 'Tim' identified by 'password';
 
 32. In SQL, how will you see how many databases and tables you have in that database?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > - To list the databases we can use the `show databases;` 
@@ -451,6 +505,8 @@ show tables;
 
 33. Assume you are handling a "student" table in the database having id, name, age, state, class fields. Your task is to fetch the records of those students who are from "Texas" state.
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
@@ -464,6 +520,8 @@ where state = "Texas";
 ---
 
 34. Tell me the way how to give a different name to a field while executing a select query?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -495,6 +553,8 @@ having count(id);
 
 36. In SQL, how will you give the count of those  students from student table whose name starts with 'H'.
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
@@ -508,6 +568,8 @@ where name like 'H%';
 ---
 
 37. Tell me the ways through which we can search for a "string" pattern in SQL?
+
+
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -533,6 +595,8 @@ select name from student where name like '%SK';
 
 38. Your boss have given you a work to find the details of those workers from the "Company" table whose salary lies between 10000 and 50000 and department is 'HR'
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
@@ -548,6 +612,7 @@ and department = "HR";
 
 39. Imagine you are handling a "company" database which has one table as "department" and your manager is asking you to give the details of those employees who joined in januaray month of 2022.
 
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
@@ -561,6 +626,8 @@ where year(joined) = 2022 and month(joined) = 2;
 
 
 40. In a company there are 5 departments and in each department there is one manager and you have to get the employee id "emp_id" and "name" of those employees who are working for Manager having "Manager_id" as 432.[ take the table name as Employee]
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -681,6 +748,8 @@ where salary not in
 
 47. Write a SQL query that will give the details of those students, from student table, who comes from NY, Florida and Alaska state and who are from 9th, 10th, 11th and 12th class. 
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
@@ -708,6 +777,8 @@ and class in [ "9th", "10th", "11th", "12th"];
 
 49. Where SQL language is used and what are its applications?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > SQL is used to interact with the data that are present in tabular form.  
@@ -724,6 +795,8 @@ and class in [ "9th", "10th", "11th", "12th"];
 
 50. In SQL, what is a cross-join? Give syntax also.
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+  
 <details><summary> <b>Show Answer</b> </summary>
 
 > `cross join` also known as `cartesian join`, is used to join each tuple of the 1st table with each tuple of 2nd table. 
@@ -765,6 +838,8 @@ where table1.id = table2.id;
 
 53. How will you execute a self join SQL?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > A self join can be executed by joining the table to itself. for example: 
@@ -780,6 +855,8 @@ on t1.id = t2.emp_id;
 ---
 
 54. Tell me about the joins in SQL and its types.
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -827,6 +904,8 @@ on orders.customer_number = customer_number;
 
 57. Assume, you have two tables "customers" and "orders". So tell me how will you execute the right join between both the tables?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary> <b>Show Answer</b> </summary>
 
 >  
@@ -842,6 +921,8 @@ on customers.id = orders.id;
 ---
 
 58. In SQL, suppose you are handling have two tables "customers" and "orders" then how will you execute the outer join join between both the tables?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -884,6 +965,8 @@ from employee;
 ---
 
 61. Imagine there are two tables Workers and Managers, where Workers table have all the employee names along with employee id who are working for the company and Managers table have all the managers names along with manager id of that company. Give one SQL query that will print the names of Workers who are also Managers.
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -961,7 +1044,9 @@ from employee;
 
 ---
 
-66. In SQL, how will you get the last 3 records of the table worker having one unique column id.
+66. In SQL, how will you get the last 3 records from the table "worker" having one unique column id.
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -1036,6 +1121,8 @@ This will group the table records by id and name and gives us distinct records o
  
 71. In SQL, what are the points anyone have to kept in mind when using `group by` clause in SQL?
 
+
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > Points to remember when using `group by` clause:  
@@ -1049,6 +1136,8 @@ This will group the table records by id and name and gives us distinct records o
 ---
 
 72. Display the name and id of those employees from employee table whose salary is greater than 40000 and DOJ in 2019.
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -1082,6 +1171,8 @@ order by duplicate;
 ---
 
 74. In SQL, give a generalize query that will fetch top N records from the table
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary>
 
