@@ -1019,17 +1019,22 @@ select dept_id from department);
 
 ---
 
-70.
+70. Without using the distinct keyword how will you the distinct records from the table in SQL?
 
 <details><summary> <b>Show Answer</b> </summary>
 
->
-
+> let's say we have an employee table having id and name as columns. We can use the `group by` clause to get the distinct records from the table.  
+```
+select id, name 
+from employee
+group by id, name;
+```
+This will group the table records by id and name and gives us distinct records only.
 </details>
 
 ---
-
-71.
+ 
+71.  
 
 <details><summary> <b>Show Answer</b> </summary>
 
