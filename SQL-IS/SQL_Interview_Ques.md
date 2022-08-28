@@ -1034,17 +1034,20 @@ This will group the table records by id and name and gives us distinct records o
 
 ---
  
-71.  
+71. In SQL, what are the points anyone have to kept in mind when using `group by` clause in SQL?
 
 <details><summary> <b>Show Answer</b> </summary>
 
->
+> Points to remember when using `group by` clause:  
+> - Use `group by` clause with select query
+> - If `where` clause is used in the query, `group by` clause must be placed after it.
+> - If `order by` clause is used in the query, `group by` clause must be placed before it.
 
 </details>
 
 ---
 
-72.
+72. 
 
 <details><summary> <b>Show Answer</b> </summary>
 
