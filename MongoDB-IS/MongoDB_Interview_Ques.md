@@ -621,6 +621,8 @@ Whenever there is a server failure or system crashes, we can still recover the d
 
 43. Give the steps to connect MongoDB with Python?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > - To connect MongoDB with Python application we first have to install and import the `pymongo` Module. 
@@ -633,6 +635,8 @@ Whenever there is a server failure or system crashes, we can still recover the d
 ---
 
 44. How will you insert more than one document at a time without using default `insert()` method?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
   
@@ -650,6 +654,8 @@ db.collection.insertMany([{name: "Jack", dept: "training"},
 
 45. How will you delete only first document having "name" equal to "Tom"?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > To remove only one document without effecting any other document, we can use the `remove()` method with 'justOne' parameter set as 1.      
@@ -663,6 +669,8 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 46. Is `remove()` and `deleteMany()` methods in MongoDB are same?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > Both the methods in MongoDB is used to delete documents. The only difference between both is the value return after deletion operation.  
@@ -675,6 +683,8 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 47. What is the use of `pretty()` method in MongoDB?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary> 
   
 > `pretty()` when applied with the `find()` method, it will display output documents in an easy to read format. Without `pretty()` if the documents have so many fields and we fetched all the documents fields through `find()` then it is very difficult to read values from each document as it will show one document in one line only.
@@ -684,6 +694,8 @@ db.collection_name.remove({"name" : "Tom"},1);
 ---
 
 48. Tell me what do you understand by vertical scaling and horizontal scaling?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
   
@@ -695,6 +707,8 @@ db.collection_name.remove({"name" : "Tom"},1);
 ---
 
 49. Which method can be used to see the results in a formatted way?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
   
@@ -729,6 +743,8 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 52. How will you say MongoDB doesn't have schema?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > In MongoDB, one document can have 4 fields while other documents can have same or more or less fields. There is no restriction of having same number of fields in all the documents inside collection, which makes it schemaless. 
@@ -737,7 +753,9 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 ---
 
-53. Is MongoDB stores it data to RAM or Disk?
+53. Does MongoDB stores it data to RAM or Disk?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -747,7 +765,9 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 ---
 
-54. Stating MongoDB as one of the best NoSQL database is always true, but at what times it is not prefered?
+54. Stating MongoDB as one of the best NoSQL database is always true, but at what time it is not prefered?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 > There are few limitations that MongoDB have such as:  
@@ -773,6 +793,8 @@ db.collection_name.remove({"name" : "Tom"},1);
 ---
 
 56. Tell me the types of indexes in MongoDB?
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -817,6 +839,8 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 60. Tell me the basic CRUD operations of MongoDB?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > To perform the basic CRUD opertions we can use the following methods:
@@ -830,6 +854,8 @@ db.collection_name.remove({"name" : "Tom"},1);
 ---
 
 61. Give the query that will find the count of number of resturants that are present in texas, florida and alaska state.
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -845,7 +871,9 @@ db.resturants.find(
 
 ---
 
-62. From "revature" company collection fetch the name and experience of those employees who are not woking in night shift.
+62. From "revature" company collection fetch the name and experience of those employees who are not working in night shift.
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -897,6 +925,8 @@ db.collection_name.find({
 
 65. Suppose you are having a collection as "company" and you want to fetch the deatils of those employees whose are from "training" department based on their experience in the industry. What query you will write to get what you want.
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
@@ -911,6 +941,8 @@ db.company.find({
 ---
 
 66. In MongoDB, write a query that will give details of all the employees based on their "DOJ"(data of joining) in ascending order and  "salary" in descending order.
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -927,6 +959,8 @@ db.collection_name.find()
 ---
 
 67. Imagine you are a Food Investigator Specialist and you are checking the database of a company having collection as "food" that is used by the company to store the food items details. Your task is to fetch the details of those food "items" that having a "grade" as "A+" and having "MD" (manufacturing date) on those items as "2022-08-25".
+
+
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -945,6 +979,8 @@ db.food.find(
 
 68. As a food investigation specialist your task is to fetch the details of those restaurants "name" and "address" who are using "palm oil"  as a "food_oil" in making of their dishes. You have to send the report to the higher authorities, so that they can take actions on those resturants.
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
@@ -961,9 +997,11 @@ db.resturants.find(
 
 69. For storing documents and doing opertaions on those data requires MongoDB to use lot of RAM?
 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary>
 
-> No, MongoDB doesn't requires lot of RAM to store those documents and doing operations on those documents because it automatically allocates and deallocates the ram based on the operations requirements.  
+> No, MongoDB doesn't requires lot of RAM to store those documents and doing operations on those documents because it automatically allocates and deallocates the RAM based on the operations requirements.  
 
 </details>
 
@@ -978,7 +1016,7 @@ db.resturants.find(
 </details>
 
 ---
-71. If an index is not fitting into the RAM then what will happen in MongoDB at that point?
+71. If an index is not fit into the RAM then what will happen in MongoDB at that point?
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -989,7 +1027,9 @@ db.resturants.find(
 ---
 
 72. How you will check how many indexes your teammate created on the "school" collection?
- 
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > By using `getIndexes()` method, we can check the list of indexes in MongoDB.  
@@ -1036,6 +1076,7 @@ db.school.getIndexes()
 
 76. Why the newer versions of MongoDB are not preferred for 32-bit systems?
 
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > While storing Data and indexes in MongoDB we cannot predict how much total space the server will requries for storing all these things. And as the total storage space in 32-bit systems are fixed to 2 gigabytes only, which is not suitable for production scenarios. therefore, 64-bit systems are preferred over 32-bit systems, that have unlimited server space for storage virtually.
@@ -1055,6 +1096,8 @@ db.school.getIndexes()
 ---
 
 78. Give the query that will display the number of employees from "emp" collection who have achieved "H1" reward in january and feburary month.
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -1090,6 +1133,8 @@ db.students.find({
 ---
 
 80. As a flying investigating officer you are managing a Database in MongoDB about the flights. And now you are trying to get the details of those flights who are flying over texas, florida and alaska states based on their "departure" time in ascending order.
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary>
 
