@@ -976,17 +976,21 @@ limit 3;
 
 ---
 
-67.
+67. I have a table called employee in SQL and now i want to create another table as employee_2 that has the same structure and data of employee table. How can I do this?
 
 <details><summary> <b>Show Answer</b> </summary>
 
 >
+```
+create table employee_2 
+select * from employee;
+```
 
 </details>
 
 ---
 
-68.
+68. 
 
 <details><summary> <b>Show Answer</b> </summary>
 
