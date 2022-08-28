@@ -961,11 +961,16 @@ from employee;
 
 ---
 
-66.
+66. In SQL, how will you get the last 3 records of the table worker having one unique column id.
 
 <details><summary> <b>Show Answer</b> </summary>
 
 >
+```
+select * from worker
+order by id desc
+limit 3;
+```
 
 </details>
 
