@@ -914,11 +914,17 @@ order by number_of_emp desc;
 
 ---
 
-63.
+63. When managing a contact_details table in SQL, you found out that some of the records are duplicates and now you want to see the duplicates records only in your result set. What select query you will write for this that will fetch you the duplicates records? In contact_details table columns are phoneNo, name, etc. 
 
 <details><summary> <b>Show Answer</b> </summary>
 
 >
+```
+select phoneNo, name 
+from contact_details
+group by phoneNo
+having count(phoneNo) > 1;
+```
 
 </details>
 
