@@ -1004,11 +1004,16 @@ limit (select count(*)/2 from table_name);
 
 ---
 
-69. 
+69. Assume you have an employee table which stores the details of all employees and one department table which stores the department information and both these tables have primary-foreign key relationship, where emp_id of employee table is a primary key and dept_id of department table is a foreign key. Your boss has given you a task of fetching the details of those employee who have not assigned any department yet. How will you do that?
 
 <details><summary> <b>Show Answer</b> </summary>
 
->
+> 
+```
+select * from employee
+where emp_id not in (
+select dept_id from department);
+```
 
 </details>
 
