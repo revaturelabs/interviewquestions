@@ -146,6 +146,8 @@ rename column id to student_id;
 
 10. How `rename` and `alter` command different from each other while renaming a table in SQL? 
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > `rename` command and `alter` both have similar working when renaming a table name in SQL except for the syntax. The only difference between both of them are that `rename` cannot be used to rename temporary table, whereas `alter` command can rename a temporary table in SQL.
@@ -167,6 +169,8 @@ rename column id to student_id;
 ---
 
 12. Tell me the difference in 1nf, 2nf and 3nf forms of normalization
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -245,7 +249,9 @@ create table employee(
 ---
 
 17. Explain about the anomalies and its types?
- 
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > Anomaly generally happens when the database is not constructed well and when the normalization concepts were not applied. There are 3 types of anomalies that causes problem:  
@@ -460,6 +466,8 @@ drop index author_id;
 
 30. Have you heared about BLOB in SQL?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > BLOB is a sub-type of string datatype in SQL and is stands for binary large object. It is used to large amount of data like documents, images, etc. They are of three types:  
@@ -472,6 +480,8 @@ drop index author_id;
 ---
 
 31. Tim is asking you to add him as a user in SQL so that he can access and manage the database. So, how will you add them?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -536,6 +546,8 @@ select Name as "First_name" from table_name;
 
 35. Give one query to me which includes, select, from, where, order by, group by, having clauses.  
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > The required query can be this:  
@@ -569,7 +581,7 @@ where name like 'H%';
 
 37. Tell me the ways through which we can search for a "string" pattern in SQL?
 
-
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -612,7 +624,8 @@ and department = "HR";
 
 39. Imagine you are handling a "company" database which has one table as "department" and your manager is asking you to give the details of those employees who joined in januaray month of 2022.
 
-
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
@@ -645,6 +658,8 @@ where Manager_id = 432;
 
 41. From "employee" table give the "names" and "emp_id" of those employees who receives higher salary than the employee with "emp_id" = 101.
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
@@ -663,6 +678,8 @@ where emp_id = 101
 
 42. Suppose you are having a "employee" table, in which you are trying to find out those employees details having the same department as the employee whose id is 121.
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
@@ -681,6 +698,8 @@ where id = 121
 
 43. In an employee table, how will you find those employees name and emp_id whose salary matches the lowest salary of any of the departments in SQL.
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
@@ -699,6 +718,8 @@ group by department
 
 44. In SQL, give the count of those employees who are getting salary more than the average salary from "employee" table.
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
@@ -716,6 +737,8 @@ from employee
 
 45. Suppose you are handling two tables, one is employee table and another one is department table and there is a primary-foreign key relationship between both. Assume your boss asked you to give the emp_id and name of those employees who works in product department. 
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
@@ -730,6 +753,7 @@ and d.department = "product"
 ---
 
 46. In an "employee" table , give me the query that will fetch the employee detail of those employees who are getting second highest salary in the company. 
+
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -765,6 +789,8 @@ and class in [ "9th", "10th", "11th", "12th"];
 
 48. Tell me about Denormalization and when can we go for it in SQL?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
 <details><summary> <b>Show Answer</b> </summary>
 
 > - Denormalization can be described as the process to get back from all the normalized forms in the table to add some redundant data in it.   
@@ -812,6 +838,8 @@ cross join table2 ;
 
 51. Can we use `inner join` without `on` condition?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
 <details><summary> <b>Show Answer</b> </summary>
 
 > Yes, we can use the `inner join` without `on` condition in SQL as it is optional condition in inner join or join. If used without on condition it will generate the same output as `cross join`.
@@ -821,6 +849,8 @@ cross join table2 ;
 ---
 
 52. Is it possible to make a `cross join` works as an `inner join` in SQL
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -873,6 +903,8 @@ on t1.id = t2.emp_id;
 
 55. Give the query that will display the total marks of all the students by adding mid-term and final_term marks. return name and roll_no also.
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
@@ -887,6 +919,8 @@ from student;
 ---
 
 56. Imagine you have two tables, "customers" and "orders" and you have to find all customers who placed 0 or more orders. How will you do that in SQL?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -940,6 +974,8 @@ on customers.id = orders.order_id;
 
 59. Give the query in SQL that will replace the space with '-' in full name from employee table
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > For replacing something in SQL select query we can use the `replace` function.  
@@ -954,6 +990,8 @@ from employee;
 
 60. Tell the difference between union and full join in SQL?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
 <details><summary> <b>Show Answer</b> </summary>
 
 > - Union joins the two table data vertically, whereas full join joins the two table data horizontally.
@@ -983,6 +1021,8 @@ on Workers.empID = Managers.managerID;
 
 62. Assume you have a Worker table having columns like name, id, department, salary, address, etc. How will you find the number of workers in each department in descending order?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
@@ -999,6 +1039,8 @@ order by number_of_emp desc;
 
 63. When managing a contact_details table in SQL, you found out that some of the records are duplicates and now you want to see the duplicates records only in your result set. What select query you will write for this that will fetch you the duplicates records? In contact_details table columns are phoneNo, name, etc. 
 
+
+  
 <details><summary> <b>Show Answer</b> </summary>
 
 >
@@ -1030,6 +1072,8 @@ and d1.phoneNo = d2.phoneNo;
 ---
 
 65. In an employee table, monthly salary is given for each employee. Your task is to find the fetch the annual salary of employees with their names.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -1063,6 +1107,8 @@ limit 3;
 
 67. I have a table called employee in SQL and now i want to create another table as employee_2 that has the same structure and data of employee table. How can I do this?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
 <details><summary> <b>Show Answer</b> </summary>
 
 >
@@ -1076,6 +1122,8 @@ select * from employee;
 ---
 
 68. In SQL, how will you display first 50% of the records of any table.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -1091,6 +1139,7 @@ limit (select count(*)/2 from table_name);
 
 69. Assume you have an employee table which stores the details of all employees and one department table which stores the department information and both these tables have primary-foreign key relationship, where emp_id of employee table is a primary key and dept_id of department table is a foreign key. Your boss has given you a task of fetching the details of those employee who have not assigned any department yet. How will you do that?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
@@ -1104,8 +1153,10 @@ select dept_id from department);
 
 ---
 
-70. Without using the distinct keyword how will you the distinct records from the table in SQL?
+70. Without using the distinct keyword how will you get the distinct records from the table in SQL?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
 <details><summary> <b>Show Answer</b> </summary>
 
 > let's say we have an employee table having id and name as columns. We can use the `group by` clause to get the distinct records from the table.  
@@ -1121,7 +1172,7 @@ This will group the table records by id and name and gives us distinct records o
  
 71. In SQL, what are the points anyone have to kept in mind when using `group by` clause in SQL?
 
-
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -1190,6 +1241,8 @@ limit N;
 
 75. Andrew wants to create an empty table as new_students having the same structure as of students table. What query he need to execute in order to create an empty table from old table?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
@@ -1204,6 +1257,8 @@ like students;
 
 76. How to fetch only records that are present in even position in SQL?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
@@ -1220,6 +1275,8 @@ where id % 2 = 0);
 
 77. Can we use `join` to join more than 2 tables in SQL? If yes, then give an query for it as an example.
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ 
 <details><summary> <b>Show Answer</b> </summary>
 
 > Yes, we can join more than 2 tables with `join`.  
@@ -1238,6 +1295,8 @@ on table1.column3 = table3.column3;
 
 78. Let's say you have two tables, one is employee which has employee details like id, name, etc and another one is salary table having columns like id, salary, etc. Give the query in SQL which will return employee name, id and salary of those employees. Also display the name and id of those employees even if salary details is not present.
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ 
 <details><summary> <b>Show Answer</b> </summary>
 
 >
@@ -1255,6 +1314,8 @@ on e.id = s.id;
 
 79. In SQL, give the query that will fetch the records of those employees  who are from product department and assigned with one project.[Consider two tables employee and project, which has same column as id] 
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 
 >
@@ -1270,6 +1331,8 @@ select id from project);
 ---
 
 80. Explain about referential integrity constraint in SQL.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 
