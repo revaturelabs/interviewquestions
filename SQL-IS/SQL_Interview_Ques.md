@@ -1162,21 +1162,30 @@ on e.id = s.id;
 
 ---
 
-79.
+79. In SQL, give the query that will fetch the records of those employees  who are from product department and assigned with one project.[Consider two tables employee and project, which has same column as id] 
 
 <details><summary> <b>Show Answer</b> </summary>
 
 >
+```
+select * from employee
+where department = "product" 
+and employee.id in ( 
+select id from project);
+```
 
 </details>
 
 ---
 
-80.
+80. Explain about referential integrity constraint in SQL.
 
 <details><summary> <b>Show Answer</b> </summary>
 
->
+> The relationship between two table is established by primary key- foreign key. This foreign key constraint is also called as referentail integrity constraint. The value of foreign key is derived from the primary key of another table.     
+> In SQL there are two referntial integrity constraint present:  
+> - Insert Constraint: That say's, we cannot insert values in a foreign key table if the value is not present in primary key table. 
+> - Delete Constraint: That say's, we cannot delete any value from primary key table if value is being present in foreign key table. 
 
 </details>
 
