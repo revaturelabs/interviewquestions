@@ -1064,11 +1064,18 @@ and DOJ like "2019%";
 
 ---
 
-73.
+73. In a student table, how you will find the count of repeated rows in SQL?
 
 <details><summary> <b>Show Answer</b> </summary>
 
->
+> 
+```
+select id, count(id) as duplicate 
+from student
+group by id
+having duplicate>1
+order by duplicate;
+```
 
 </details>
 
