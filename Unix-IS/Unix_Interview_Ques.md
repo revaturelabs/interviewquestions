@@ -93,6 +93,8 @@
 ---
 8. How to see which file is modified recently and at what time in unix?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > To see what are all the files that are modified recently, we can use the `ls -l` command. 
@@ -125,7 +127,7 @@ Here if the combine.txt file doesn't exists in the system, it will create a comb
 ---
 11. Which command can we use to view content of multiple files in the terminal?
 
-
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -161,6 +163,8 @@ rmdir program
 ---
 14. While working on a project you have created one directory as "program" and added some files and folders in it which contains some data related to the project. Now the project has been deployed in the working environment and there is no need of that directory in the system now. So, for deleting that directory what command you can write?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > To delete a directory that contains some files and folders, we can use the `rm` command with `-r` option.  
@@ -194,6 +198,8 @@ rm -r program
 
 ---
 17. Tell me the difference between `echo` and `printf` command.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -229,6 +235,8 @@ Performance wise also `printf` is faster in execution than `echo` command.
 ---
 20. Explain about fdisk, sfdisk and cfdisk commands?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > All these 3 are used to create, view, update, delete the partitions of a disk, but the fdisk and cfdisk provides fancy interface to do all these task, a sysadmin can easily do all these just by going into the menu interface without remembering all the commands. Whereas, sfdisk doesn't provide the user interface, instead it is command driven and used in documentations. it can read input from file or stdin and writes into partiton table.
@@ -237,6 +245,8 @@ Performance wise also `printf` is faster in execution than `echo` command.
 
 ---
 21. which command is used to give information about block devices like hard drive, flash drives, CD-ROM?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -247,6 +257,8 @@ Performance wise also `printf` is faster in execution than `echo` command.
 ---
 
 22. How do you manage and monitor software RAID devices in Linux?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -340,6 +352,8 @@ command_name (-n_arguments) (filename)
 
 29. Tell me the use of `chmod` command in UNIX?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > The `chmod` command is used to change the permission set of a file, it can give read, write and execute permission to a user, group of users, to all etc. In Numeric 0 means no permission, 1 means execute, 2 means write and 4 means read. For example, if we are giving all the three permission to a file then we have to write, `chmod 777 file_name`, where '777' represents 'rwx'. 
@@ -349,6 +363,8 @@ command_name (-n_arguments) (filename)
 ---
 
 30. Tell me how will you give only read and write permission to all the users of a file named as "test1"?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -375,6 +391,8 @@ chmod Henry test1 test2
 
 32. Suppose you have a file which has read and write permission and now you want to remove the write permission from it, then what you will do to remove the write permission from a file?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > For removing the write permission from a file, we can write  
@@ -387,6 +405,8 @@ chmod u-w file_name
 ---
 
 33. How will you give read and write permission to a user and group and only the read permission to others on a file named as "example"?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -402,6 +422,8 @@ Here, the first 6 represents read and write permission to a user, the next 6 rep
 
 34. How will you differentiate between `df`, `blkid` and `lsblk` command?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > The `df` command give the details of mounted file system, on the other hand `blkid' gives the details of block devices that are not mounted and `lsblk` command is used to get the details of both mounted and unmounted file system.
@@ -412,6 +434,8 @@ Here, the first 6 represents read and write permission to a user, the next 6 rep
 
 35. As a devloper, if you wanted to check how many block devices are available in your system that are not mounted, then which command you will use for that in UNIX?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > To check what are all the available block devices in the system we can use the `blkid` command.
@@ -421,6 +445,8 @@ Here, the first 6 represents read and write permission to a user, the next 6 rep
 ---
 
 36. In Linux, How will you display the number of times a substring is present in a line?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -444,6 +470,8 @@ Here, the first 6 represents read and write permission to a user, the next 6 rep
 
 38. To view the content of a small file we can use the `cat` command, but what will happen if we use the same `cat` command to view the content of a large file?  Also tell which command can be used to see the content of a large file in more convenient way?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > When we use the `cat` command to see the content of a large file that will not be fixed in a single terminal screen, then it will move the cursor to the end of the file and to view the content from the start of the file we have to scroll it up. Therefore it is not a convenient way to see the content of a large file. But, for that there is a command called as `more` through which we can see the content of a file in convenient way. It will not moved directly to the end of the file, instead it stops at the end of the terminal with a prompt message in the bottom of terminal showing how much content is present in the terminal at that moment in terms of  percentage. We can press enter key to move down line by line and for scrolling down we can use the space key.
@@ -454,6 +482,8 @@ Here, the first 6 represents read and write permission to a user, the next 6 rep
 
 39. Both `more` and `less` command in Linux, is used to view the content of a large file then what is the difference between both of them.
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary> 
 
 > The `more` command, when used to see the content of a big file, allows the user to scroll down only with limited or no scroll up. Whereas, the `less` command is used for both forward and backward navigation in a file. 
@@ -463,6 +493,8 @@ Here, the first 6 represents read and write permission to a user, the next 6 rep
 ---
 
 40. How will you terminate a process that is running on the background with the process id of 3007?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
