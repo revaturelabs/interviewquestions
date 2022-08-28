@@ -930,21 +930,32 @@ having count(phoneNo) > 1;
 
 ---
 
-64.
+64. When managing a contact_details table in SQL, you found out that some of the records are duplicates and now you want to delete those duplicates records only so that only distinct records are leftout in your table. Give the query for this that will delete the duplicates records. In contact_details table columns are phoneNo, name, id etc. 
 
 <details><summary> <b>Show Answer</b> </summary>
 
->
+> 
+```
+delete d1 from contact_details d1
+inner join contact_details d2
+where d1.id > d2.id
+and d1.phoneNo = d2.phoneNo;
+```
 
 </details>
 
 ---
 
-65.
+65. In an employee table, monthly salary is given for each employee. Your task is to find the fetch the annual salary of employees with their names.
 
 <details><summary> <b>Show Answer</b> </summary>
 
->
+> 
+```
+select name, 
+monthly_salary * 12 as "annual_salary"
+from employee;
+```
 
 </details>
 
