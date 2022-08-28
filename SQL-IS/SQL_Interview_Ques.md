@@ -990,17 +990,21 @@ select * from employee;
 
 ---
 
-68. 
+68. In SQL, how will you display first 50% of the records of any table.
 
 <details><summary> <b>Show Answer</b> </summary>
 
 >
+```
+select * from table_name
+limit (select count(*)/2 from table_name);
+```
 
 </details>
 
 ---
 
-69.
+69. 
 
 <details><summary> <b>Show Answer</b> </summary>
 
