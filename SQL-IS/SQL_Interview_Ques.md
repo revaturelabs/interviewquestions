@@ -754,7 +754,8 @@ and d.department = "product"
 
 46. In an "employee" table , give me the query that will fetch the employee detail of those employees who are getting second highest salary in the company. 
 
-
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+  
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
@@ -1039,7 +1040,7 @@ order by number_of_emp desc;
 
 63. When managing a contact_details table in SQL, you found out that some of the records are duplicates and now you want to see the duplicates records only in your result set. What select query you will write for this that will fetch you the duplicates records? In contact_details table columns are phoneNo, name, etc. 
 
-
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -1056,6 +1057,8 @@ having count(phoneNo) > 1;
 ---
 
 64. When managing a contact_details table in SQL, you found out that some of the records are duplicates and now you want to delete those duplicates records only so that only distinct records are leftout in your table. Give the query for this that will delete the duplicates records. In contact_details table columns are phoneNo, name, id etc. 
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 
@@ -1206,6 +1209,8 @@ and DOJ like "2019%";
 
 73. In a student table, how you will find the count of repeated rows in SQL?
 
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
@@ -1346,6 +1351,8 @@ select id from project);
 ---
 
 81. Consider you have a company table in SQL. Give the details of those employee who are from Florida, NY and Texas state and earning salary more than 50000 and department is either Finance or Training.
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 
