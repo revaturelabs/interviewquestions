@@ -1127,21 +1127,36 @@ where id % 2 = 0);
 
 ---
 
-77.
+77. Can we use `join` to join more than 2 tables in SQL? If yes, then give an query for it as an example.
 
 <details><summary> <b>Show Answer</b> </summary>
 
->
+> Yes, we can join more than 2 tables with `join`.  
+```
+select column1 
+from table1
+join table2
+on table1.column2 = table2.column2
+join table3
+on table1.column3 = table3.column3;
+```
 
 </details>
 
 ---
 
-78.
+78. Let's say you have two tables, one is employee which has employee details like id, name, etc and another one is salary table having columns like id, salary, etc. Give the query in SQL which will return employee name, id and salary of those employees. Also display the name and id of those employees even if salary details is not present.
 
 <details><summary> <b>Show Answer</b> </summary>
 
 >
+```
+select e.id, e.name, s.salary
+from employee e 
+left join salary s
+on e.id = s.id;
+```
+
 
 </details>
 
