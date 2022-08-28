@@ -1042,16 +1042,23 @@ This will group the table records by id and name and gives us distinct records o
 > - Use `group by` clause with select query
 > - If `where` clause is used in the query, `group by` clause must be placed after it.
 > - If `order by` clause is used in the query, `group by` clause must be placed before it.
+> - Columns mentioned in the select query should either be the part of group by clause or aggregation function is applied to those columns. 
 
 </details>
 
 ---
 
-72. 
+72. Display the name and id of those employees from employee table whose salary is greater than 40000 and DOJ in 2019.
 
 <details><summary> <b>Show Answer</b> </summary>
 
->
+> 
+```
+select id, name 
+from employee
+where salary > 40000
+and DOJ like "2019%";
+```
 
 </details>
 
