@@ -532,5 +532,391 @@ No, it's not at all possible to restart a thread once a thread gets started and 
 
 </details>
 
+---
 
+21. Explain context switching.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Context switching is referred to as switching of CPU from one thread or process to another one. It allows multiple processes to share the same CPU. In context switching, the state of thread or process is stored so that the execution of the thread can be resumed later if required. 
+
+</blockquote>
+
+</details>
+
+---
+
+22. Explain CyclicBarrier and CountDownLatch?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- CyclicBarrier: It is a tool to synchronize threads processing using some algorithm. It enables a set of threads to wait for each other till they reach a common execution point or common barrier points, and then let them further continue execution. One can reuse the same CyclicBarrier even if the barrier is broken by setting it. 
+
+- CountDownLatch: It is a tool that enables main threads to wait until mandatory operations are performed and completed by other threads. In simple words, it makes sure that a thread waits until the execution in another thread completes before it starts its execution. One cannot reuse the same CountDownLatch once the count reaches 0. 
+
+</blockquote>
+
+</details>
+
+23. What do you mean by inter-thread communication?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Inter-thread communication is a process or mechanism using which multiple threads can communicate with each other. It is especially used to avoid thread polling in java and can be obtained using wait(), notify(), and notifyAll() methods. 
+
+</blockquote>
+
+</details>
+
+---
+
+24. Explain Thread Scheduler and Time Slicing?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- Thread Scheduler: It is a component of JVM that is used to decide which thread will execute next if multiple threads are waiting to get the chance of execution. By looking at the priority assigned to each thread that is READY, the thread scheduler selects the next run to execute. To schedule the threads, it mainly uses two mechanisms: Preemptive Scheduling and Time slicing scheduling.  
+
+- Time Slicing: It is especially used to divide CPU time and allocate them to active threads. In this, each thread will get a predefined slice of time to execute. When the time expires, a particular thread has to wait till other threads get their chances to use their time in a round-robin fashion. Every running thread will get executed for a fixed time period
+
+</blockquote>
+
+</details>
+
+25. Explain shutdown hook?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+A shutdown hook is simply a thread that is invoked implicitly before JVM shuts down. It is one of the most important features of JVM because it provides the capacity to do resource cleanup or save application state JVM shuts down.  By calling the halt(int) method of the Runtime class, the shutdown hook can be stopped. Using the following method, one can add a shutdown hook. 
+
+```java
+
+public void addShutdownHook(Thread hook){}     
+Runtime a=Runtime.getRuntime();   
+a.addShutdownHook(new MyThread());
+
+```
+
+</blockquote>
+
+</details>
+
+26. What do you mean by busy spinning?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+
+Busy Spinning, also known as Busy-waiting, is a technique in which one thread waits for some condition to happen, without calling wait or sleep methods and releasing the CPU. In this condition, one can pause a thread by making it run an empty loop for a certain time period, and it does not even give CPY control. Therefore, it is used to preserve CPU caches and avoid the cost of rebuilding cache
+
+</blockquote>
+
+</details>
+
+27. What is ConcurrentHashMap and Hashtable? In java, why is ConcurrentHashMap considered faster than Hashtable?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- ConcurrentHashMap: It was introduced in Java 1.5 to store data using multiple buckets. As the name suggests, it allows concurrent read and writes operations to the map. It only locks a certain portion of the map while doing iteration to provide thread safety so that other readers can still have access to the map without waiting for iteration to complete.  
+
+- Hashtable: It is a thread-safe legacy class that was introduced in old versions of java to store key or value pairs using a hash table.  It does not provide any lock-free read, unlike ConcurrentHashMap. It just locks the entire map while doing iteration. 
+
+- ConcurrentHashMap and Hashtable, both are thread-safe but ConcurrentHashMap generally avoids read locks and improves performance, unlike Hashtable. ConcurrentHashMap also provides lock-free reads, unlike Hashtable. Therefore, ConcurrentHashMap is considered faster than Hashtable especially when the number of readers is more as compared to the number of writers. 
+
+</blockquote>
+
+</details>
+
+---
+
+28. Explain thread priority.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Thread priority simply means that threads with the highest priority will get a chance for execution prior to low-priority threads. One can specify the priority but it's not necessary that the highest priority thread will get executed before the lower-priority thread. Thread scheduler assigns processor to thread on the basis of thread priority. The range of priority changes between 1-10 from lowest priority to highest priority. 
+
+</blockquote>
+
+</details>
+
+---
+
+29.What do you mean by the ThreadLocal variable in Java?Explain with an example?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+ThreadLocal variables are special kinds of variables created and provided by the Java ThreadLocal class. These variables are only allowed to be read and written by the same thread. Two threads cannot be able to see each other’s ThreadLocal variable, so even if they will execute the same code, then there won't be any race condition and the code will be thread-safe.  
+
+```java
+
+public class ThreadLocal {   
+     public static class MyRunnable implements Runnable {   
+       private ThreadLocal<Integer> threadLocal = new ThreadLocal<Integer>();   
+       
+       public void run() {   
+           threadLocal.set( (int) (Math.random() * 50D) );   
+           try{   
+               Thread.sleep(1000);   
+           } catch (InterruptedException e) {   
+           }   
+           System.out.println(threadLocal.get());   
+       }   
+   }   
+   public static void main(String[] args){   
+       MyRunnable Instance = new MyRunnable();    
+       Thread t1 = new Thread(Instance);   
+       Thread t2 = new Thread(Instance);   
+       t1.start();   
+       t2.start();   
+   }   
+} 
+Output: 
+
+10 
+33 
+10 33
+
+
+```
+
+</blockquote>
+
+</details>
+
+---
+	
+30. What is semaphore?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Semaphore is regarded as a thread synchronization construct that is usually required to control and manage the access to the shared resource using counters. It simply sets the limit of the thread. The semaphore class is defined within the package java.util.concurrent and can be used to send signals between threads to avoid missed signals or to guard critical sections. It can also be used to implement resource pools or bounded collection
+
+</blockquote>
+
+</details>
+	
+---
+	
+31.Explain Thread Group. Why we should not use it?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+
+ThreadGroup is a class that is used to create multiple groups of threads in a single object. This group of threads is present in the form of three structures in which every thread group has a parent except the initial thread. Thread groups can contain other thread groups also. A thread is only allowed to have access to information about its own thread group, not other thread groups. 
+
+Previously in the old version of Java, the only functionality that did not work without a thread group was `uncaughtException( Thread t, Throwable e)`. But  now in  latest versions of Java , there is `Thread.setUncaughtExceptionHandler(UncaughtExceptionHandler)`. So now even that works without thread groups and therefore, there is no need to use thread groups.  
+
+```java
+
+t1.setUncaughtExceptionHandler(new UncaughtExceptionHandler() { 
+public void uncaughtException(Thread t, Throwable e)  {  
+System.out.println("exception occured:"+e.getMessage()); 
+}  
+}; 
+
+```
+
+</blockquote>
+
+</details>
+	
+---
+
+32.What is the ExecutorService interface?Explain with an example.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+ExecutorService interface is basically a sub-interface of Executor interface with some additional methods or features that help in managing and controlling the execution of threads. It enables us to execute tasks asynchronously on threads.
+
+```java
+
+import java.util.concurrent.ExecutorService;   
+import java.util.concurrent.Executors;   
+import java.util.concurrent.TimeUnit;   
+  
+public class TestThread {   
+public static void main(final String[] arguments) throws InterruptedException {   
+ExecutorService e = Executors.newSingleThreadExecutor();   
+ 
+     try {   
+       e.submit(new Thread());   
+        System.out.println("Shutdown executor");   
+        e.shutdown();   
+        e.awaitTermination(5, TimeUnit.SECONDS);   
+  } catch (InterruptedException ex) {   
+       System.err.println("tasks interrupted");   
+  } finally {   
+  
+        if (!e.isTerminated()) {   
+           System.err.println("cancel non-finished tasks");   
+     }   
+        e.shutdownNow();   
+        System.out.println("shutdown finished");   
+  }   
+  }   
+  
+  static class Task implements Runnable {   
+        
+     public void run() {   
+          
+        try {   
+        Long duration = (long) (Math.random() * 20);   
+           System.out.println("Running Task!");   
+           TimeUnit.SECONDS.sleep(duration);   
+     } catch (InterruptedException ex) {   
+           ex.printStackTrace();   
+     }   
+  }   
+ }          
+}   
+Output:
+
+Shutdown executor 
+shutdown finished
+
+```
+
+</blockquote>
+
+</details>
+
+---
+	
+33.What will happen if we don’t override the thread class run() method?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Nothing will happen as such if we don’t override the `run() method. The compiler will not show any error. It will execute the `run()` method of thread class and we will just don’t get any output because the `run()` method is with an empty implementation. 
+
+Example:  
+
+```java
+
+class MyThread extends Thread { 
+ 
+} 
+public class DontOverrideRun { 
+  public static void main(String[] args) { 
+         System.out.println("Started Main."); 
+         MyThread thread1=new MyThread(); 
+      thread1.start(); 
+         System.out.println("Ended Main."); 
+  } 
+} 
+
+Output: 
+
+Started Main. 
+Ended Main.  
+
+```
+
+</blockquote>
+
+</details>
+
+---
+	
+34. What is the lock interface? Why is it better to use a lock interface rather than a synchronized block.?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- Lock interface  is generally used as a synchronization mechanism to provide important operations for blocking.  
+
+
+- Advantages of using Lock interface over Synchronization block: 
+Methods of Lock interface i.e., `Lock()` and `Unlock()` can be called in different methods. It is the main advantage of a lock interface over a synchronized block because the synchronized block is fully contained in a single method.  
+Lock interface is more flexible and makes sure that the longest waiting thread gets a fair chance for execution, unlike the synchronization block.
+
+</blockquote>
+
+</details>
+	
+---
+
+35. Is it possible to call the `run()` method directly to start a new thread?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+No, it's not possible at all. You need to call the start method to create a new thread otherwise run method won't create a new thread. Instead, it will execute in the current thread
+
+</blockquote>
+
+</details>
+	
+---
+	
+36. Is it possible that each thread can have its stack in multithreaded programming?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Of course, it is possible. In multithreaded programming, each thread maintains its own separate stack area in memory because of which every thread is independent of each other rather than dependent.
+
+</blockquote>
+
+</details>
+	
+---
 
