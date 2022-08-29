@@ -426,7 +426,7 @@ Here, the first 6 represents read and write permission to a user, the next 6 rep
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> The `df` command give the details of mounted file system, on the other hand `blkid' gives the details of block devices that are not mounted and `lsblk` command is used to get the details of both mounted and unmounted file system.
+> The `df` command give the details of mounted file system, on the other hand `blkid` gives the details of block devices that are not mounted and `lsblk` command is used to get the details of both mounted and unmounted file system.
 
 </details>
 
