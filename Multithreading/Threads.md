@@ -281,7 +281,7 @@ Check if its DaemonThread: false
 
 ---
 
-8.How can we differentiate wait() and sleep() methods?
+8.How can we differentiate `wait()` and `sleep()` methods?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -290,7 +290,7 @@ Check if its DaemonThread: false
 <blockquote>
 
 
-wait(): As the name suggests, it is a non-static method that causes the current thread to wait and go to sleep until some other threads call the `notify ()` or `notifyAll()` method for the object’s monitor (lock). It simply releases the lock and is mostly used for inter-thread communication. It is defined in the object class, and should only be called from a synchronized context. 
+`wait()` :It is a non-static method that causes the current thread to wait and go to sleep until some other threads call the `notify ()` or `notifyAll()` method for the object’s monitor (lock). It simply releases the lock and is mostly used for inter-thread communication. It is defined in the object class, and should only be called from a synchronized context. 
 
 Example:  
 
@@ -566,6 +566,8 @@ Context switching is referred to as switching of CPU from one thread or process 
 
 </details>
 
+---
+
 23. What do you mean by inter-thread communication?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -598,6 +600,8 @@ Inter-thread communication is a process or mechanism using which multiple thread
 
 </details>
 
+---
+
 25. Explain shutdown hook?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -620,6 +624,8 @@ a.addShutdownHook(new MyThread());
 
 </details>
 
+---
+
 26. What do you mean by busy spinning?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -634,6 +640,8 @@ Busy Spinning, also known as Busy-waiting, is a technique in which one thread wa
 </blockquote>
 
 </details>
+
+---
 
 27. What is ConcurrentHashMap and Hashtable? In java, why is ConcurrentHashMap considered faster than Hashtable?
 
@@ -878,8 +886,7 @@ Ended Main.
 - Lock interface  is generally used as a synchronization mechanism to provide important operations for blocking.  
 
 
-- Advantages of using Lock interface over Synchronization block: 
-Methods of Lock interface i.e., `Lock()` and `Unlock()` can be called in different methods. It is the main advantage of a lock interface over a synchronized block because the synchronized block is fully contained in a single method.  
+- Advantages of using Lock interface over Synchronization block: Methods of Lock interface i.e., `Lock()` and `Unlock()` can be called in different methods. It is the main advantage of a lock interface over a synchronized block because the synchronized block is fully contained in a single method.  
 Lock interface is more flexible and makes sure that the longest waiting thread gets a fair chance for execution, unlike the synchronization block.
 
 </blockquote>
@@ -919,4 +926,336 @@ Of course, it is possible. In multithreaded programming, each thread maintains i
 </details>
 	
 ---
+
+37. What are different states in lifecycle of Thread?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+When we create a Thread in java program, its state is New. Then we start the thread that change it's state to Runnable. Thread Scheduler is responsible to allocate CPU to threads in Runnable thread pool and change their state to Running. Other Thread states are Waiting, Blocked and Dead. .
+
+
+</blockquote>
+
+</details>
+	
+---
+	
+38. Can we call `run()` method of a Thread class?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+
+Yes, we can call `run()` method of a Thread class but then it will behave like a normal method. To actually execute it in a Thread, we need to start it using `Thread.start()` method.
+
+</blockquote>
+
+</details>
+	
+---
+
+39. How can we pause the execution of a Thread for specific time?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+We can use Thread class `sleep()` method to pause the execution of Thread for certain time. Note that this will not stop the processing of thread for specific time, once the thread awake from sleep, it's state gets changed to runnable and based on thread scheduling, it gets executed.
+
+</blockquote>
+
+</details>
+	
+---
+
+40. What do you understand about Thread Priority?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Every thread has a priority, usually higher priority thread gets precedence in execution but it depends on Thread Scheduler implementation that is OS dependent. We can specify the priority of thread but it doesn't guarantee that higher priority thread will get executed before lower priority thread. Thread priority is an _int_ whose value varies from 1 to 10 where 1 is the lowest priority thread and 10 is the highest priority thread.
+
+</blockquote>
+
+</details>
+	
+---
+
+41. How can we make sure `main()` is the last thread to finish in Java Program?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+We can use Thread `join()` method to make sure all the threads created by the program is dead before finishing the main function. 
+
+</blockquote>
+
+</details>
+	
+---
+
+42. Why `wait()`, `notify()` and `notifyAll()` methods have to be called from synchronized method or block?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+When a Thread calls `wait()` on any Object, it must have the monitor on the Object that it will leave and goes in wait state until any other thread call `notify()` on this Object. Similarly when a thread calls `notify()` on any Object, it leaves the monitor on the Object and other waiting threads can get the monitor on the Object. Since all these methods require Thread to have the Object monitor, that can be achieved only by synchronization, they need to be called from synchronized method or block.
+ 
+
+</blockquote>
+
+</details>
+	
+---
+	
+43. Why Thread `sleep()` and `yield()` methods are static?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Thread `sleep()` and `yield()` methods work on the currently executing thread. So there is no point in invoking these methods on some other threads that are in wait state. That’s why these methods are made static so that when this method is called statically, it works on the current executing thread and avoid confusion to the programmers who might think that they can invoke these methods on some non-running threads.
+
+</blockquote>
+
+</details>
+	
+---
+	
+44. How can we achieve thread safety in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+There are several ways to achieve thread safety in java - synchronization, atomic concurrent classes, implementing concurrent Lock interface, using volatile keyword, using immutable classes and Thread safe classes. 
+
+</blockquote>
+
+</details>
+
+---
+	
+45. What is Deadlock? How to analyze and avoid deadlock situation?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Deadlock is a programming situation where two or more threads are blocked forever, this situation arises with at least two threads and two or more resources. To analyze a deadlock, we need to look at the java thread dump of the application, we need to look out for the threads with state as BLOCKED and then the resources it’s waiting to lock, every resource has a unique ID using which we can find which thread is already holding the lock on the object. Avoid Nested Locks, Lock Only What is required and avoid waiting indefinitely are common ways to avoid deadlock situation. 
+
+</blockquote>
+
+</details>
+	
+---
+	
+46. What is an atomic operation? What are the atomic classes in Java Concurrency API?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Atomic operations are performed in a single unit of task without interference from other operations. Atomic operations are necessity in multi-threaded environment to avoid data inconsistency. int++ is not an atomic operation. So by the time one thread read its value and increment it by one, another thread has read the older value leading to the wrong result. To solve this issue, we will have to make sure that increment operation on count is atomic, we can do that using synchronization but `java.util.concurrent.atomic` provides wrapper classes for int and long that can be used to achieve this atomically without the usage of Synchronization.
+
+</blockquote>
+
+</details>
+	
+---
+
+47. What is Lock interface in Java Concurrency API? What are its benefits over synchronization?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Lock interface provides more extensive locking operations than can be obtained using synchronized methods and statements. They allow more flexible structuring, may have quite different properties and may support multiple associated Condition objects. The advantages of a lock are:
+- it’s possible to make them fair.
+- it’s possible to make a thread responsive to interruption while waiting on a Lock object.
+- it’s possible to try to acquire the lock, but return immediately or after a timeout if the lock can’t be acquired.
+- it’s possible to acquire and release locks in different scopes, and in different orders.
+
+</blockquote>
+
+</details>
+	
+---
+	
+48. What are Executors Framework?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The Executor framework is a framework for standardizing invocation, scheduling, execution, and control of asynchronous tasks according to a set of execution policies. Creating a lot many threads with no bounds to the maximum threshold can cause the application to run out of heap memory. So, creating a ThreadPool is a better solution as a finite number of threads can be pooled and reused. Executors framework facilitate the process of creating Thread pools in java.
+
+</blockquote>
+
+</details>
+	
+---
+	
+49. What is BlockingQueue? How can we implement Producer-Consumer problem using Blocking Queue?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+`java.util.concurrent.BlockingQueue` is a Queue that supports operations that wait for the queue to become non-empty when retrieving and removing an element, and wait for space to become available in the queue when adding an element. BlockingQueue doesn’t accept null values and throw NullPointerException if you try to store null value in the queue. BlockingQueue implementations are thread-safe. All queuing methods are atomic in nature and use internal locks or other forms of concurrency control. BlockingQueue interface is part of the Java collections framework and it’s primarily used for implementing the producer-consumer problem.
+
+</blockquote>
+
+</details>
+	
+---
+
+50.How java provides ways to create a thread programmatically?Explain with an example?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Java provides ways to create a thread programmatically by the following ways:
+
+- Implementing the `java.lang.Runnable` interface.
+- Extending the `java.lang.Thread` class.
+
+- Java Thread Example - implementing Runnable interface:To make a class runnable, we can implement `java.lang.Runnable` interface and provide implementation in `public void run()` method. To use this class as Thread, we need to create a Thread object by passing object of this runnable class and then call `start()` method to execute the `run()` method in a separate thread. 
+
+```java
+
+public class Work implements Runnable {
+
+    public void run() {
+        System.out.println("Doing processing - START "+Thread.currentThread().getName());
+        try {
+            Thread.sleep(1000);
+            doDBProcessing();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("Doing processing - END "+Thread.currentThread().getName());
+    }
+
+    private void doDBProcessing() throws InterruptedException {
+        Thread.sleep(5000);
+    }
+
+}
+
+```
+
+- Java Thread Example - extending Thread class:We can extend `java.lang.Thread` class to create our own java thread class and override `run()` method. Then we can create it’s object and call `start()` method to execute our custom java thread class run method. Here is a simple java thread example showing how to extend Thread class.
+
+```java
+
+public class MyThread extends Thread {
+
+    public MyThread(String name) {
+        super(name);
+    }
+
+    @Override
+    public void run() {
+        System.out.println("MyThread - START "+Thread.currentThread().getName());
+        try {
+            Thread.sleep(1000);
+            doDBProcessing();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("MyThread - END "+Thread.currentThread().getName());
+    }
+
+    private void doDBProcessing() throws InterruptedException {
+        Thread.sleep(5000);
+    }
+    
+}
+
+public class ThreadRunExample {
+
+    public static void main(String[] args){
+        Thread t1 = new Thread(new Work(), "t1");
+        Thread t2 = new Thread(new Work(), "t2");
+        System.out.println("Starting Runnable threads");
+        t1.start();
+        t2.start();
+        System.out.println("Runnable Threads has been started");
+        Thread t3 = new MyThread("t3");
+        Thread t4 = new MyThread("t4");
+        System.out.println("Starting MyThreads");
+        t3.start();
+        t4.start();
+        System.out.println("MyThreads has been started");
+        
+    }
+}
+
+Output of the above java thread example program is:
+
+Starting Runnable threads
+Runnable Threads has been started
+Doing heavy processing - START t1
+Doing heavy processing - START t2
+Starting MyThreads
+MyThread - START Thread-0
+MyThreads has been started
+MyThread - START Thread-1
+Doing processing - END t2
+MyThread - END Thread-1
+MyThread - END Thread-0
+Doing processing - END t1
+
+```
+
+Once we start any thread, it’s execution depends on the OS implementation of time slicing and we can’t control their execution. However we can set threads priority but even then it doesn’t guarantee that higher priority thread will be executed first. Run the above program multiple times and you will see that there is no pattern of threads start and end.
+
+</blockquote>
+
+</details>
+
+---
+
+
+	
+
+	
+
+
 
