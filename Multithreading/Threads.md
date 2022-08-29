@@ -1252,6 +1252,326 @@ Once we start any thread, it’s execution depends on the OS implementation of t
 
 ---
 
+51.Explain Blocking Queue with producer - consumer example?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+A normal java object that will be produced by Producer and added to the queue. You can also call it as payload or queue message.
+
+```java
+
+public class Message {
+    private String msg;
+    
+    public Message(String str){
+        this.msg=str;
+    }
+
+    public String getMsg() {
+        return msg;
+    }
+
+}
+
+```
+
+- Java BlockingQueue Example - Producer:Producer class that will create messages and put it in the queue.
+
+```java
+
+import java.util.concurrent.BlockingQueue;
+
+public class Producer implements Runnable {
+
+    private BlockingQueue<Message> queue;
+    
+    public Producer(BlockingQueue<Message> q){
+        this.queue=q;
+    }
+    public void run() {
+        for(int i=0; i<100; i++){
+            Message msg = new Message(""+i);
+            try {
+                Thread.sleep(i);
+                queue.put(msg);
+                System.out.println("Produced "+msg.getMsg());
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+        Message msg = new Message("exit");
+        try {
+            queue.put(msg);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+}
+
+```
+
+- Java BlockingQueue Example - Consumer: Consumer class that will process on the messages from the queue and terminates when exit message is received.
+
+```java
+
+import java.util.concurrent.BlockingQueue;
+
+public class Consumer implements Runnable{
+
+private BlockingQueue<Message> queue;
+    
+    public Consumer(BlockingQueue<Message> q){
+        this.queue=q;
+    }
+
+    @Override
+    public void run() {
+        try{
+            Message msg;
+            while((msg = queue.take()).getMsg() !="exit"){
+            Thread.sleep(10);
+            System.out.println("Consumed "+msg.getMsg());
+            }
+        }catch(InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+```
+
+- Java BlockingQueue Example - Service:we have to create BlockingQueue service for producer and consumer. This producer consumer service will create the BlockingQueue with fixed size and share with both producers and consumers. This service will start producer and consumer threads and exit.
+
+```java
+
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.BlockingQueue;
+
+public class ProducerConsumerService {
+
+    public static void main(String[] args) {
+        BlockingQueue<Message> queue = new ArrayBlockingQueue<>(10);
+        Producer producer = new Producer(queue);
+        Consumer consumer = new Consumer(queue);
+        new Thread(producer).start();
+        new Thread(consumer).start();
+        System.out.println("Producer and Consumer has been started");
+    }
+
+}
+
+Output:
+Producer and Consumer has been started
+Produced 0
+Produced 1
+Produced 2
+Produced 3
+Produced 4
+Consumed 0
+Produced 5
+Consumed 1
+Produced 6
+Produced 7
+Consumed 2
+Produced 8
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+52. When is it appropriate to create multiple streams?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Multi-threaded applications are used in cases where the program can be divided into several relatively independent parts. In this case, so that one code does not wait for the other, they are placed in different threads.
+
+As an example, a program with a graphical interface can be given – as long as any lengthy computations are performed in one thread, the interface can be accessible to the user and not hang if it is running in another thread.
+
+</blockquote>
+
+</details>
+	
+---
+
+53.Explain the ways to create and run streams?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+There are several ways to create and launch streams.
+
+- Using a class that implements Runnable.Create an object of class Thread.Create a class object that implements the Runnable interface.
+
+- Call the start () method on the created Thread object (after that, the run () method of the passed object that implements Runnable will start )using a class that extends Thread
+
+- Create an object of class ClassName extends Thread .Override run () in this class,using a class that implements `java.util.concurrent.Callable`
+
+- Create a class object that implements the Callable interface.
+
+- Create an ExecutorService object with an indication of the thread pool.
+
+- Create a future object. The launch takes place through the `submit()` method ,`Signature:  <T> Future <T> submit (Callable <T> task)`.
+
+```java
+
+public static void howToRunThreads() {
+       ThreadClass threadClass = new ThreadClass(“First”);
+
+       threadClass.start(); 
+
+       Thread thread = new Thread(new RunnableClass(“Second”));
+
+       Thread thread2 = new Thread(new RunnableClass(“Third”));
+
+       Thread thread3 = new Thread(new RunnableClass(“Fourth”));
+
+       thread.start(); 
+
+       thread2.start(); 
+
+       thread3.start(); 
+
+   }
+
+public class RunnableClass implements Runnable {
+
+   private String localName;
+
+   public RunnableClass() {
+
+   }
+
+   public RunnableClass(String localName) {
+
+       this.localName = localName;
+
+   }
+
+ 
+   public void run() {
+
+       System.out.println(“run() ” + localName + ” running”);
+
+   }
+
+   public String getLocalName() {return localName;}
+
+   public void setLocalName(String localName) {this.localName = localName;}
+
+}
+
+public class ThreadClass extends Thread {
+
+   public ThreadClass() {
+
+   }
+
+   public ThreadClass(String name) {
+
+       super(name);
+
+   }
+
+   public ThreadClass(Runnable target) {
+
+       super(target);
+
+       System.out.println(target + ” will running”);
+
+   }
+
+   public void run() {
+
+     System.out.println(“ThreadClass run() method ” + “Thread name is: ” + this.getName());
+
+   }
+
+}
+
+
+ThreadClass run() method Thread name is: First
+
+run() Third running
+
+run() Fourth running
+
+run() Second running 
+
+
+public class CallableExample {
+ public static class WordLengthCallable implements Callable {
+
+   private String word;
+
+   public WordLengthCallable(String word) {
+
+     this.word = word;
+
+   }
+
+   public Integer call() {
+
+     return Integer.valueOf(word.length());
+
+   }
+
+ }
+
+ public static void main(String args[]) throws Exception {
+
+   ExecutorService pool = Executors.newFixedThreadPool(3);
+
+   Set<Future<Integer>> set = new HashSet<Future<Integer>>();
+
+   for (String word: args) {
+
+     Callable<Integer> callable = new WordLengthCallable(word);
+
+     Future<Integer> future = pool.submit(callable);
+
+     set.add(future);
+
+   }
+
+   int sum = 0;
+
+   for (Future<Integer> future : set) {
+
+     sum += future.get();
+
+   }
+
+   System.out.printf(“The sum of lengths is %s%n”, sum);
+
+   System.exit(sum);
+
+ }
+
+}
+
+```
+
+</blockquote>
+
+</details>
+
+
 
 	
 
