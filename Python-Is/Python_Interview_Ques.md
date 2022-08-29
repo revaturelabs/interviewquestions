@@ -152,7 +152,7 @@ frozenset([iterable])
   
 ---
   
-8.Consider that I have a text that is "The Apple a Day Keeps the Doctor Away." We want to replace one string with another for the one/first two occurrences of "An Apple a Day Keeps the Doctor Away." Which method is used to do this?
+8.Assume that I have a text that is "The Apple a Day Keeps the Doctor Away." We want to replace one string with another for the one/first two occurrences of "An Apple a Day Keeps the Doctor Away." Which technique is used to do this?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -182,7 +182,7 @@ After replacing the string is : An Apple a Day Keeps the Doctor Away.
   
 ---
 
-9.Which delimiter is used to combine multiple lines of text into a single line in Python?
+9.Fyodor combined multiple lines of text into a single line in python, His senior is asking  Which delimiter is used to do that?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
