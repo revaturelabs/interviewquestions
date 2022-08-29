@@ -79,7 +79,7 @@
 
 7.  What `insert()` method returns after successfully inserting a document into a collection.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary> 
   
