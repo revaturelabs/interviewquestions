@@ -38,7 +38,7 @@
 <details><summary> <b>Show Answer</b> </summary> 
 
 > We can add the primary key after the creation of table also, for that we can use the `alter` command that will add the primary key column to an existing table. There is no need to delete the table and recreate again in the database. Just we have to pass a query as:  
-```
+```sql
 alter table table_name add primary key(column_name);
 ```
   
@@ -53,7 +53,7 @@ alter table table_name add primary key(column_name);
 <details><summary> <b>Show Answer</b> </summary> 
 
 > 
-```
+```sql
 create database school;
 
 use school;
@@ -135,7 +135,7 @@ create table school(
 <details><summary> <b>Show Answer</b> </summary> 
 
 > Using `alter` command, we can rename the column name.  
-```
+```sql
 alter table student 
 rename column id to student_id;
 ```
@@ -222,7 +222,7 @@ rename column id to student_id;
 <details><summary> <b>Show Answer</b> </summary> 
 
 > 
-```
+```sql
 create table employee(
        emp_id int,
        emp_name varchar(20),
@@ -272,11 +272,11 @@ create table employee(
 
 > For changinf the table name in SQL, we can go for `rename` command or `alter` command:    
 With `rename`
-```
+```sql
 rename table emp to employee;
 ```
 With `alter`
-```
+```sql
 alter table emp
 rename to employee; 
 ```
@@ -292,7 +292,7 @@ rename to employee;
 <details><summary> <b>Show Answer</b> </summary> 
 
 > 
-```
+```sql
 alter table Food 
 modify column id int;
 ```
@@ -334,15 +334,15 @@ modify column id int;
 <details><summary> <b>Show Answer</b> </summary> 
 
 > Syntax of `delete` 
-```
+```sql
 delete from table_name where condition;
 ```
 > Syntax of `truncate`
-```
+```sql
 truncate table table_name;
 ```
 > Syntax of `drop` 
-```
+```sql
 drop table table_name;
 ```
 
@@ -357,7 +357,7 @@ drop table table_name;
 <details><summary> <b>Show Answer</b> </summary> 
 
 > He has to use the `insert` command for inserting the data:  
-```
+```sql
 insert into school(id, name) values(01, "Jack");
 insert into school(id, name) values(02, "Henry");
 insert into school(id, name) values(03, "Tom");
@@ -376,7 +376,7 @@ insert into school(id, name) values(05, "EVE");
 <details><summary> <b>Show Answer</b> </summary> 
 
 > 
-```
+```sql
 update school
 set name = "EVA" 
 where id = 05;
@@ -393,7 +393,7 @@ where id = 05;
 <details><summary> <b>Show Answer</b> </summary> 
 
 > He can use `delete from` statement or `truncate table` statement to delete all the records form the table.
-```
+```sql
 delete from order;
 truncate table order;
 ```
@@ -410,7 +410,7 @@ truncate table order;
 <details><summary> <b>Show Answer</b> </summary> 
 
 >
-```
+```sql
 delete from movies where id =20; 
 ```
 
@@ -439,7 +439,7 @@ delete from movies where id =20;
 <details><summary> <b>Show Answer</b> </summary> 
 
 > 
-```
+```sql
 alter table Table_name
 add index(column_name);
 ```
@@ -455,7 +455,7 @@ add index(column_name);
 <details><summary> <b>Show Answer</b> </summary> 
 
 > 
-```
+```sql
 alter table order
 drop index author_id;
 ```
@@ -486,7 +486,7 @@ drop index author_id;
 <details><summary> <b>Show Answer</b> </summary>
 
 > To add a user in SQL, we can use the `create user` statement.  
-```
+```sql
 create user 'Tim' identified by 'password';
 ```
 
@@ -503,7 +503,7 @@ create user 'Tim' identified by 'password';
 
 > - To list the databases we can use the `show databases;` 
 > - To list the tables in a particular database, write:
-```
+```sql
 use database_name;
 
 show tables;
@@ -520,7 +520,7 @@ show tables;
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
-```
+```sql
 select * from student 
 where state = "Texas";
 ```
@@ -536,7 +536,7 @@ where state = "Texas";
 <details><summary> <b>Show Answer</b> </summary>
 
 > We can use the `as` as an alias name for the column, for example:  
-```
+```sql
 select Name as "First_name" from table_name;
 ```
 
@@ -551,7 +551,7 @@ select Name as "First_name" from table_name;
 <details><summary> <b>Show Answer</b> </summary>
 
 > The required query can be this:  
-```
+```sql
 select id, name, class, marks from student 
 where marks>= 33 and marks <=100 
 order by id 
@@ -570,7 +570,7 @@ having count(id);
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
-```
+```sql
 select count(name) as Name_H_students from student
 where name like 'H%';
 ```
@@ -587,17 +587,17 @@ where name like 'H%';
 
 > To search "string" pattern, we can use the `like` operator with `where` class.  
 > - To search only for fixed number of characters we can use '_' with like. For example, we have to find name of those students having 4 characters only. for that use four underscore.
-```
+```sql
 select name from student where name like '____'; 
 ```
    
 > - To search string starting with a particular character or substring we can write like this:   
-```
+```sql
 select name from student where name like 'AK%';
 ```
    
 > - To search string ending with a particular character or substring we can write like this: 
-```
+```sql
 select name from student where name like '%SK';
 ```
   
@@ -612,7 +612,7 @@ select name from student where name like '%SK';
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
-```
+```sql
 select * from company
 where salary between 10000 and 50000 
 and department = "HR";
@@ -629,7 +629,7 @@ and department = "HR";
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
-```
+```sql
 select * from department 
 where year(joined) = 2022 and month(joined) = 2;
 ```
@@ -645,7 +645,7 @@ where year(joined) = 2022 and month(joined) = 2;
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
-```
+```sql
 select emp_id, name
 from Employee
 where Manager_id = 432;
@@ -663,7 +663,7 @@ where Manager_id = 432;
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
-```
+```sql
 select emp_id, name from employees 
 where salary > 
 ( select salary from employee
@@ -683,7 +683,7 @@ where emp_id = 101
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
-```
+```sql
 select * from employee
 where department = 
 ( select department 
@@ -703,7 +703,7 @@ where id = 121
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
-```
+```sql
 select name, emp_id from employee
 where salary IN 
 ( select min(salary)
@@ -723,7 +723,7 @@ group by department
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
-```
+```sql
 select count(*) from employee
 where salary >
 (select avg(salary)
@@ -742,7 +742,7 @@ from employee
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
-```
+```sql
 select e.name , e.id from employee e , department d
 where e.id = d.id
 and d.department = "product"
@@ -759,7 +759,7 @@ and d.department = "product"
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
-```
+```sql
 select * from employee
 where salary in 
 ( select max(salary) from employee
@@ -778,7 +778,7 @@ where salary not in
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
-```
+```sql
 select * from student
 where state in ["NY", "Florida", "Alaska"] 
 and class in [ "9th", "10th", "11th", "12th"];
@@ -828,7 +828,7 @@ and class in [ "9th", "10th", "11th", "12th"];
 
 > `cross join` also known as `cartesian join`, is used to join each tuple of the 1st table with each tuple of 2nd table. 
 > Syntax of cross join:  
-```
+```sql
 select column_names from table1 
 cross join table2 ;
 ```
@@ -857,7 +857,7 @@ cross join table2 ;
 
 > Yes, it is possible to use `cross join` as an `inner join` in SQL by using `where` clause with it. For example:    
 > 
-```
+```sql
 select * from table1 
 cross join table2
 where table1.id = table2.id;
@@ -874,7 +874,7 @@ where table1.id = table2.id;
 <details><summary> <b>Show Answer</b> </summary>
 
 > A self join can be executed by joining the table to itself. for example: 
-```
+```sql
 select t1.name, t1.id
 from table1 t1
 join table1 t2 
@@ -909,7 +909,7 @@ on t1.id = t2.emp_id;
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
-```
+```sql
 select name, roll_no,
 mid_term + final_term as Total_marks
 from student;
@@ -926,7 +926,7 @@ from student;
 <details><summary> <b>Show Answer</b> </summary>
 
 > Using `left join` we can find the details of all the customers who placed 0 or more orders.  
-```
+```sql
 select customer_number, name
 from customers
 left join orders 
@@ -944,7 +944,7 @@ on orders.customer_number = customer_number;
 <details><summary> <b>Show Answer</b> </summary>
 
 >  
-```
+```sql
 select customers.* , orders.* 
 from customers
 right join orders 
@@ -962,7 +962,7 @@ on customers.id = orders.id;
 <details><summary> <b>Show Answer</b> </summary>
 
 > Suppose we are taking customer names and order_id from both the tables while doing the full join.    
-```
+```sql
 select customers.name, orders.order_id
 from customers
 full join orders
@@ -980,7 +980,7 @@ on customers.id = orders.order_id;
 <details><summary> <b>Show Answer</b> </summary>
 
 > For replacing something in SQL select query we can use the `replace` function.  
-```
+```sql
 select replace(full_name, " ", "-")
 from employee;
 ```
@@ -1010,7 +1010,7 @@ from employee;
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
-```
+```sql
 select Workers.name from Workers
 inner join Managers
 on Workers.empID = Managers.managerID;
@@ -1027,7 +1027,7 @@ on Workers.empID = Managers.managerID;
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
-```
+```sql
 select department, count(id) as number_of_emp 
 from Worker
 group by department
@@ -1045,7 +1045,7 @@ order by number_of_emp desc;
 <details><summary> <b>Show Answer</b> </summary>
 
 >
-```
+```sql
 select phoneNo, name 
 from contact_details
 group by phoneNo
@@ -1063,7 +1063,7 @@ having count(phoneNo) > 1;
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
-```
+```sql
 delete d1 from contact_details d1
 inner join contact_details d2
 where d1.id > d2.id
@@ -1081,7 +1081,7 @@ and d1.phoneNo = d2.phoneNo;
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
-```
+```sql
 select name, 
 monthly_salary * 12 as "annual_salary"
 from employee;
@@ -1098,7 +1098,7 @@ from employee;
 <details><summary> <b>Show Answer</b> </summary>
 
 >
-```
+```sql
 select * from worker
 order by id desc
 limit 3;
@@ -1115,7 +1115,7 @@ limit 3;
 <details><summary> <b>Show Answer</b> </summary>
 
 >
-```
+```sql
 create table employee_2 
 select * from employee;
 ```
@@ -1131,7 +1131,7 @@ select * from employee;
 <details><summary> <b>Show Answer</b> </summary>
 
 >
-```
+```sql
 select * from table_name
 limit (select count(*)/2 from table_name);
 ```
@@ -1146,7 +1146,7 @@ limit (select count(*)/2 from table_name);
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
-```
+```sql
 select * from employee
 where emp_id not in (
 select dept_id from department);
@@ -1163,7 +1163,7 @@ select dept_id from department);
 <details><summary> <b>Show Answer</b> </summary>
 
 > let's say we have an employee table having id and name as columns. We can use the `group by` clause to get the distinct records from the table.  
-```
+```sql
 select id, name 
 from employee
 group by id, name;
@@ -1196,7 +1196,7 @@ This will group the table records by id and name and gives us distinct records o
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
-```
+```sql
 select id, name 
 from employee
 where salary > 40000
@@ -1214,7 +1214,7 @@ and DOJ like "2019%";
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
-```
+```sql
 select id, count(id) as duplicate 
 from student
 group by id
@@ -1233,7 +1233,7 @@ order by duplicate;
 <details><summary> <b>Show Answer</b> </summary>
 
 >
-```
+```sql
 select *
 from table_name
 order by column_name desc 
@@ -1251,7 +1251,7 @@ limit N;
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
-```
+```sql
 create table new_students
 like students;
 ```
@@ -1267,7 +1267,7 @@ like students;
 <details><summary> <b>Show Answer</b> </summary>
 
 > 
-```
+```sql
 select * from table_name
 where id in
 (select id from table_name 
@@ -1285,7 +1285,7 @@ where id % 2 = 0);
 <details><summary> <b>Show Answer</b> </summary>
 
 > Yes, we can join more than 2 tables with `join`.  
-```
+```sql
 select column1 
 from table1
 join table2
@@ -1305,7 +1305,7 @@ on table1.column3 = table3.column3;
 <details><summary> <b>Show Answer</b> </summary>
 
 >
-```
+```sql
 select e.id, e.name, s.salary
 from employee e 
 left join salary s
@@ -1324,7 +1324,7 @@ on e.id = s.id;
 <details><summary> <b>Show Answer</b> </summary>
 
 >
-```
+```sql
 select * from employee
 where department = "product" 
 and employee.id in ( 
@@ -1357,7 +1357,7 @@ select id from project);
 <details><summary> <b>Show Answer</b> </summary>
 
 >
-```
+```sql
 select * from company
 where state in [ "Florida", "NY", "Texas"]
 and salary > 50000
