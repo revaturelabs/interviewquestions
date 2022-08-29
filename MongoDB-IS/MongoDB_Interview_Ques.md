@@ -69,7 +69,7 @@
 
 > To make sure that we have a backup of our database, we can use the `mongodump` command that will store our data in a backup file. For that, we just have to write `mongodump --db database_name -- collection collection_name`.  
    
-> To import again the backup file in Mongodb we can use the mongorestore command:     
+> To import again the backup file in Mongodb we can use the `mongorestore` command:     
 `mongorestore --db database_name path_of_file`  
 
 
@@ -215,7 +215,7 @@ db.emp.find({name: /A/});
 
 ---
 
-17. Suppose you have a “Company” database and “emp” collection inside that database then how do you find the records of top 5 employees based on salary field?
+17. Suppose you have a “Company” database and “emp” collection inside that database, then how do you find the records of top 5 employees based on salary field?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
