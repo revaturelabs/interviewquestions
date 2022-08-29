@@ -69,7 +69,7 @@
 
 > To make sure that we have a backup of our database, we can use the `mongodump` command that will store our data in a backup file. For that, we just have to write `mongodump --db database_name -- collection collection_name`.  
    
-To import again the backup file in Mongodb we can use the mongorestore command:     
+> To import again the backup file in Mongodb we can use the mongorestore command:     
 `mongorestore --db database_name path_of_file`  
 
 
