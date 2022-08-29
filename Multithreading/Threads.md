@@ -1406,7 +1406,7 @@ As an example, a program with a graphical interface can be given – as long as 
 	
 ---
 
-53.Explain the ways to create and run streams?
+53.Explain the ways to create and run streams with examples?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
