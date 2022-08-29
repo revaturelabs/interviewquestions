@@ -256,6 +256,7 @@ for i in range(len(C)):
   
 - In python global variables are created outside of a function.
 - Global variables are can be used by everyone, both inside and outside of function.
+- The scope of the variable means a lifetime of the variable. The scope of the Global variable is inside and outside of the function.
 
 ```python
 x = "global"
@@ -267,7 +268,7 @@ print("x outside:", x)
   
 </details>
   
-  ---
+ ---
   
 13.Which one is used to provide a unique name for every object in python? What are the different types available in python?
   
@@ -332,10 +333,9 @@ print dir(some_module)
   
   </details>
   
-  ---
- 
+ ---
   
-17.One of the junior developer was working on strings, he don't know how to remove whitespaces from a string in python.How is senior developer helped him to remove whitespaces?
+17.One of the coworkers was working on strings, he don't know how to remove whitespaces from a string in python. How is a friend helped him to remove whitespaces?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -380,14 +380,14 @@ for line in reversed(list(open(filename))):
   
 ---
   
-19.Junior developer is trying to run the following piece of code but after running this code it’s throwing a Syntax error,
+19.One of the developer is trying to run the following piece of code but after running this code it’s throwing a Syntax error,
   
 ```python
 x = "CorporateWorld"
-print (“Reverse is”, [x : -1] )
+print ("Reverse is", [x : -1] ) 
 ```
   
-As a senior developer how do you resolve that, Error.
+As a Manager how do you resolve that, Error.
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
@@ -401,9 +401,9 @@ x = "CorporateWorld"
 print ("Reverse is", x[ :: -1] )
 ```
   
-  </details>
+</details>
   
-  ---
+---
   
 20.Is the `Xrange()` method occupies only the least memory? What would be the reason?
   
@@ -433,7 +433,7 @@ print ("Reverse is", x[ :: -1] )
   
   ---
   
-22.Consider your senior is asking how will you handle errors ,How will you describe the correct usage of error handling in Python?
+22.Consider your Team lead is asking how will you handle errors ,How will you describe the correct usage of error handling in Python?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -451,9 +451,9 @@ while True:
          print("Please Enter an integer number....")
 ```
   
-  </details>
+</details>
   
-  ---
+---
   
 23.Junior was having some issues in their code, How will help him to detect Python bugs and statistical issues?
   
@@ -488,14 +488,14 @@ import re
   
 ---
   
-25.How will you explain the function `re.match` do to junior developer?
+25.How will you explain the function `re.match` do to your junior developer?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- `re.match()` function of re in Python will search the regular expression pattern and return the first occurrence.
+- `re.match()` function of `re` in Python will search the regular expression pattern and return the first occurrence.
   
   </details>
   
@@ -543,7 +543,7 @@ print(b.isupper())
   
   ---
  
-28.Can you list some differences between single `/` and double `//` in python?
+28.Can you list some differences between single `/` slash and double `//` slash in python?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
@@ -714,9 +714,9 @@ y = ["a","b","c"]
 print(x is y)
 ```
   
-  </details>
+</details>
    
-   ---
+---
   
 37.How can you initialize a 5*5 NumPy array with only zeroes?
    
@@ -757,6 +757,7 @@ df = pd.DataFrame(diction)
   </details>
    
    ---
+   
 39.Ken wants to perform static analysis in Python. How will you help him to find the tools to perform static analysis?
    
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -957,7 +958,7 @@ print(result)
 
 ---
   
-48.Henry is asking about What does the `yield` keyword do in python to his senior and how he will explain it to him?
+48.Henry is asking about What does the `yield` keyword do in python to his senior and how he will explain this to him?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -979,7 +980,7 @@ print(list(Squre(5)))
 
 ---
   
-49.when you are doing a presentation, one of your coworkers is asking Is all the memory freed when python exists how will you explain this to this coworker?
+49.When you are doing a presentation, one of your coworkers is asking Is all the memory freed when python exists how will you explain this to this coworker?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -1734,7 +1735,7 @@ print(random.choice(x))
 
 ---
   
-89.What do file-related modules in Python do? Can you name some file-related modules in Python?
+89.What do you mean by file-related modules in Python? Can you name some of the file-related modules in Python?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
