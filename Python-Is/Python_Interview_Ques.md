@@ -1867,7 +1867,7 @@ For example, if maxsplit=3, then it will do 3 splits.
 
 ---
 
-96. What is functional programming? Does Python follow a functional programming style? If yes, list a few methods to implement functionally oriented programming in Python.
+96.What is functional programming? Does Python follow a functional programming style? If yes, list a few methods to implement functionally oriented programming in Python.
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
