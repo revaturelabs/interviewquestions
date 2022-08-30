@@ -1571,9 +1571,619 @@ public class CallableExample {
 
 </details>
 
+---
+	
+54. Which method starts a thread for execution?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+`Thread.start ()` starts a child thread. For the Callable interface, the thread is launched using the 
+`submit()`method.
+
+</blockquote>
+
+</details>
+
+---
+
+55. When does the thread finish its execution?Explain with an example?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The thread finishes execution when its `run()` or `call()` method completes. For the main thread, this is the `main()` method.
+
+</blockquote>56.How to forcibly stop the flow of a thread?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The Thread class contains a hidden boolean field called the interrupt flag. You can set this flag by calling the threads `interrupt()` method. There are two ways to check if this flag is set. The first way is to call the bool `isInterrupted()` method of the thread object, the second is to call the static method bool `Thread.interrupted()`.
+
+The first method returns the state of the interrupt flag and leaves this flag intact. The second method returns the state of the flag and resets it. Notice that `Thread.interrupted()` is a static method of the Thread class, and calling it returns the value of the interrupt flag of the thread from which it was called. Therefore, this method is called only from within the thread and allows the thread to check its interrupt state.
+
+Methods that suspend the execution of a thread, such as `sleep()`, `wait()` and `join()`, have one feature – if the `interrupt()` method of this thread is called during their execution, they will wait for the end of the wait time to throw an InterruptedException exception.
+
+```java
+
+public class JoinThread implements Runnable {
+   public void run() {
+       for (int i=0; i<100; i++) {
+           if(!Thread.interrupted()) {
+               System.out.println(i);
+               try {
+                   Thread.sleep(100);
+               } catch (InterruptedException e) {
+                   System.out.println(“InterruptedException!”);
+                   System.err.println(“Exception msg: ” + e.getMessage());
+                   return;
+               }
+
+           } else {
+               System.out.println(“Interrupted!”);
+               return;
+           }
+       }
+   }
+}
+public class TestThread {
+   public static void main(String[] args) {
+       Thread thread = new Thread(new JoinClass());
+       thread.start();
+       try {
+           Thread.sleep(1000); 
+       } catch (InterruptedException e) {
+           e.printStackTrace();
+       }
+       thread.interrupt();
+   }
+}
+
+Output:
+
+0
+
+1
+
+…
+
+8
+
+9 // counter was up to 100
+
+InterruptedException!
+
+Exception msg: sleep interrupted
+
+```
+
+In the `main()` method, we create an object of the JoinThread class and run it with the `run()` method  . First, it is checked whether this stream is already completed, and then the counter value is output every 100 ms.
+He orders the main method to wait 1000ms so that the meter has time to count a little.Call the interrupt method on an object of the class JoinClass . After that, an exception is immediately caught in the loop and the return is raised in the catch block .
+
+
+</blockquote>
+
+</details>
+
+
+
+</details>
+
+---
+	
+56. How to use monitor in threads?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+
+- Multiple threads can interfere with each other when accessing the same data. To solve this problem, a mutex was created (a monitor). It has two states – the object is busy and the object is free. Monitor (mutex) is a high-level mechanism for interaction and synchronization of threads, providing access to unshared resources.
+
+- When a thread needs an object common to all threads, it checks the mutex associated with this object. If the mutex is free, the thread locks it (marks as busy) and starts using the shared resource. After she has done her work, the mutex is unlocked (marked as free).
+
+- If the thread wants to use the object, and the mutex is blocked, then the thread falls asleep while waiting. When the mutex is finally released by a busy thread, our thread will immediately block it and start work. The mutex is built into the Object class and therefore every object has it.
+
+- When one thread goes inside a block of code marked with the word synchronized, the Java machine immediately blocks the mutex of the object, which is indicated in parentheses after the word synchronized.
+
+- No other thread can enter this block until our thread leaves it. As soon as our thread comes out of the block marked synchronized, the mutex will immediately unlock automatically and be free to be captured by another thread. If the mutex was busy, then our thread will stand still and wait for it to be released.
+
+</blockquote>
+
+</details>
+	
+---
+	
+57. How to suspend the flow of a thread?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+`Thread.sleep ()` is a static method of class Thread, which suspends the execution of the thread in which it was called. During the execution of the `sleep()` method, the system stops allocating CPU time to the thread, distributing it among other threads.The `sleep()` method can run either for a specified amount of time (milliseconds or nanoseconds) or until it is stopped by an interrupt 
+
+</blockquote>
+
+</details>
+
+---
+	
+58. Explain the functionality of the notify and notifyAll methods with examples?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The notify method awakens one of the threads that called the `wait()` method on this monitor. The notifyAll method wakes up all threads. The order of execution in this case will be determined by the priority of the thread.
+
+```java
+
+public class NotifyClass {
+   private List synchedList;
+   public NotifyClass() {
+       synchedList = Collections.synchronizedList(new LinkedList());
+   }
+   public String removeElement() throws InterruptedException {
+       synchronized (synchedList) {
+           while (synchedList.isEmpty()) {
+               System.out.println("List is empty");
+               synchedList.wait();
+               System.out.println("Waiting");
+           }
+           String element = (String) synchedList.remove(0);
+           return element;
+       }
+   }
+   public void addElement(String element) {
+       System.out.println("Opening");
+       synchronized (synchedList) {
+           synchedList.add(element);
+           System.out.println("New Element:'" + element + "'");
+           synchedList.notifyAll();
+           System.out.println(“notifyAll called”);
+       }
+       System.out.println(“Closing”);
+   }
+
+   public static void main(String[] args) {
+       final NotifyClass demo = new NotifyClass();
+       Runnable runA = new Runnable() {
+        public void run() {
+               try {
+                   String item = demo.removeElement();
+                   System.out.println(“” + item);
+               } catch (InterruptedException ix) {
+                   System.out.println(“Interrupted Exception”);
+               } catch (Exception x) {
+                   System.out.println(“Exception thrown.”);
+               }
+           }
+       };
+       Runnable runB = new Runnable() {
+           public void run() {
+               demo.addElement(“Hello”);
+           }
+       };
+
+       try {
+           Thread threadA1 = new Thread(runA, “A”);
+           threadA1.start();
+           Thread.sleep(500);
+           Thread threadA2 = new Thread(runA, “B”);
+           threadA2.start();
+           Thread.sleep(500);
+           Thread threadB = new Thread(runB, “C”);
+           threadB.start();
+           Thread.sleep(1000);
+           threadA1.interrupt();
+           threadA2.interrupt();
+
+       } catch (InterruptedException x) {
+       }
+   }
+}
+
+Output:
+List is empty
+List is empty
+Opening
+New Element:Hello
+notifyAll called
+Closing
+Waiting
+Waiting
+List is empty
+Hello
+Interrupted Exception
+
+```
+
+
+</blockquote>
+
+</details>
+
+59. Explain the implementation of `join()` method?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+One thread can call the `join()` method on another thread. As a result, the first thread (which called the method) suspends its work and waits for the second thread to finish (the object whose `call()` method was called).
+
+```java
+
+public class Testthread {
+   public static void main(String[] args) {
+       Thread threadExample = new Thread(new JoinClass());
+       threadExample.start();
+       try {
+           threadExample.join(); 
+       } catch (InterruptedException e) {
+           e.printStackTrace();
+       }
+       System.out.println(“END: ” + Calendar.getInstance().getTime());
+   }
+}
+public class Jointhread implements Runnable {
+   public void run() {
+             System.out.println(“Jointhread.run() ” + Calendar.getInstance().getTime());
+       try {
+           Thread.sleep(1000);
+       } catch (InterruptedException e) {
+           e.printStackTrace();
+       }
+       System.out.println(“aftersleep ” + Calendar.getInstance().getTime());
+   }
+}
+
+Output:
+
+JoinClass.run() Tue Jan 19 00:00:37 MSK 2022
+
+afterSleep Tue Jan 19 00:00:42 MSK 2022
+
+END: Tue Jan 19 00:00:42 MSK 2022
+
+```
+
+After launching the main method , the main thread of the TestClass class is created .
+Then we create a thread test threadExample and run it. We set the thread to stupit 5 seconds inside the `Jointhread.run()` method .Then we call the `join()` method on the second thread. At this point, the main thread connects to our second thread and waits for it to complete.We look at what time has passed – 1 second. Those. the main thread waited for threadExample to complete before going to the `System.out.println()` method . Otherwise, `System.out.println("END:")` was  executed immediately without waiting for threadExample to go.
+
+</blockquote>
+
+</details>
+
+---
+	
+60.Explain the concept of "interlocking" with examples?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Interlocking,  is also called as deadlock, a phenomenon in which all threads are in standby mode. To reduce the chance of a deadlock, it is not recommended to use the `wait()` and `notify()` methods.
+
+```java
+
+final Object lock1 = new Object();
+final Object lock2 = new Object();
+
+// There will be deadlock
+
+   void method01() {
+       synchronized(lock1) {
+           synchronized(lock2) {
+           //doSomething()
+           }
+       }
+   }
+   void method1() {
+       synchronized(lock2) {
+           synchronized(lock1) {
+           //doSomething()
+           }
+       }
+   }
+
+To avoid deadlock, you can use only one synchronized block, refuse from wait-notify, or use the following construction:
+
+//To avoid deadlock
+//If you can’t use only one lock, then use this scheme
+   void method2() {
+       if (identityHashCode(lock1)>=identityHashCode(lock2)) {
+           synchronized(lock1) {
+               synchronized(lock2) {
+                 //doSomething()
+               }
+           }
+       }
+       else {
+           synchronized(lock2) {
+               synchronized(lock1) {
+               //doSomething()
+               }
+           }
+       }
+   }
+
+```
+
+</blockquote>
+
+</details>
+	
+---
+	
+61.What is a ThreadGroup and why is it needed?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+ThreadGroup is a set of threads that can also contain other groups of threads. A group of threads forms a tree in which every other group of threads has a parent (except the original one). A thread has the right to access data from its thread group, but does not have such access to other groups or to the parent group of threads.
+
+</blockquote>
+
+</details>
+
+
+---
+	
+62.Why Thread Pool is needed?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Thread pools (threads) are a managed collection of threads that are available for various tasks. Thread pools usually provide increased productivity when performing a large number of tasks due to the reduction of overhead costs for the challenge of each task.It is a means of limiting the expenditure of resources when performing a set of tasks.Eliminate the need for thread life cycle management.
+
+</blockquote>
+
+</details>
+	
+---
+	
+63.How race condition is occurred in threads.Explain with an example?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+A condition in which the critical section or a part of the program where shared memory is accessed and  is concurrently executed by two or more threads. It leads to incorrect behavior of a program.A race condition is a  condition in which two or more threads compete together to get certain shared resources.For example, if thread A is reading data from the linked list and another thread B is trying to delete the same data. This process leads to a race condition that may result in run time error.
+
+There are two types of race conditions:
+
+- Read-modify-write
+- Check-then-act
+
+The read-modify-write patterns signify that more than one thread first read the variable, then alter the given value and write it back to that variable. 
+
+```java
+
+
+public class number  
+{  
+protected long number = 0;  
+public void add(long value)  
+{  
+this.number = this.number + value;  
+}  
+}  
+
+```
+
+It occurs when two or more threads operate on the same object without proper synchronization and their operation incorporates each other.Suppose, there are two processes A and B that are executing on different processors. Both processes are trying to call the function bankAccount() concurrently. The value of the shared variable that we are going to pass in the function is 1000.
+
+Consider, A call the function bankAccount() and passing a value 200 as a parameter. In the same way, process B is also calling the function bankAccount() and passing a value of 100 as a parameter.
+
+```java
+
+class Counter implements Runnable{  
+private int c = 0;  
+public void increment(){  
+try{  
+Thread.sleep(10);  
+}   
+catch (InterruptedException e){   
+e.printStackTrace();  
+}  
+c++;  
+}  
+public void decrement(){      
+c--;  
+}  
+public int getValue(){  
+return c;  
+}  
+public void run(){   
+this.increment();  
+System.out.println("Value for Thread After increment " + Thread.currentThread().getName() + " " + this.getValue());  
+this.decrement();  
+System.out.println("Value for Thread at last " + Thread.currentThread().getName() + " " + this.getValue());        
+}  
+}  
+public class RaceDemo  
+{  
+public static void main(String args[])   
+{  
+Counter counter = new Counter();  
+Thread t1 = new Thread(counter, "Thread-1");  
+Thread t2 = new Thread(counter, "Thread-2");  
+Thread t3 = new Thread(counter, "Thread-3");  
+t1.start();  
+t2.start();  
+t3.start();  
+}      
+}  
+
+Output:
+Value for Thread After increment Thread-1 2
+Value for Thread at last Thread-1 2
+Value for Thread After increment Thread-3 3
+Value for Thread at last Thread-3 1
+Value for Thread After increment Thread-2 2
+Value for Thread at last Thread-2 0
+
+```
+
+</blockquote>
+
+</details>
 
 	
+---
+	
+64.How Race condition can be avoided.Explain with an example?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+There are the following two solutions to avoid race conditions.
+
+- Mutual exclusion:The solution to avoid race condition is mutual exclusion. In mutual exclusion, if a thread is using a shared variable or thread, another thread will exclude itself from doing the same thing.
+
+- Synchronize the process:In order to prevent the race conditions, one should ensure that only one process can access the shared data at a time. It is the main reason why we need to synchronize the processes.
+
+```java
+
+class Counter implements Runnable{  
+private int c = 0;  
+public void increment(){  
+try{  
+Thread.sleep(10);  
+}   
+catch (InterruptedException e){  
+e.printStackTrace();  
+}  
+c++;  
+}  
+public void decrement(){      
+c--;          
+}  
+public int getValue(){  
+return c;  
+}    
+public void run() {  
+synchronized(this) {   
+this.increment();  
+System.out.println("Value for Thread After increment " + Thread.currentThread().getName() + " " + this.getValue());  
+this.decrement();  
+System.out.println("Value for Thread at last " + Thread.currentThread().getName() + " " + this.getValue());  
+}          
+}  
+}  
+public class RaceAvoidDemo  
+{  
+public static void main(String args[])   
+{  
+Counter counter = new Counter();  
+Thread t1 = new Thread(counter, "Thread-1");  
+Thread t2 = new Thread(counter, "Thread-2");  
+Thread t3 = new Thread(counter, "Thread-3");  
+t1.start();  
+t2.start();  
+t3.start();  
+}      
+}  
+
+Output:
+
+Value for Thread After increment Thread-1 1
+Value for Thread at last Thread-1 0
+Value for Thread After increment Thread-3 1
+Value for Thread at last Thread-3 0
+Value for Thread After increment Thread-2 1
+Value for Thread at last Thread-2 0
+
+It can be seen from the output how threads are accessing the shared resource one at a time now. Synchronizing the access within the `run()` method made it happen.
+
+</blockquote>
+
+</details>
+
+---
+	
+65.Describe the functionality of  yield method in a Thread-class?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The `yield()` method of thread class causes the currently executing thread object to temporarily pause and allow other threads to execute.
+
+```java
+
+public class YieldThread extends Thread{  
+    public void run(){  
+        for (int i=0; i<3 ; i++)  
+            System.out.println(Thread.currentThread().getName() + " in control");  
+    }  
+    public static void main(String[]args){  
+        YieldThread t1 = new YieldThread();  
+        YieldThread t2 = new YieldThread();   
+        t1.start();  
+        t2.start();  
+        for (int i=0; i<3; i++)  
+        {  
+            t1.yield();  
+            System.out.println(Thread.currentThread().getName() + " in control");  
+        }  
+    }  
+} 
+
+Output:
+
+main in control
+main in control
+main in control
+Thread-0 in control
+Thread-0 in control
+Thread-0 in control
+Thread-1 in control
+Thread-1 in control
+Thread-1 in control
+
+```
+
+</blockquote>
+
+</details>
+
+
+
+
 
 	
 
