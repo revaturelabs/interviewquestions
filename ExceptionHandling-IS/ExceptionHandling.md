@@ -57,7 +57,7 @@ An object representing the exception is created and thrown in the method that ca
 
 <blockquote>
 
-Program statements that you want to monitor for exceptions are contained within a try block. If an exception occurs within the try block, it is thrown. The code can catch this exception using catch and handle it in some manner.System-generated exceptions are automatically thrown by the Java run-time system. To manually throw an exception, use the keyword throw. Any exception that is thrown out of a method must be specified as such by a throws clause. Any code that absolutely must be executed after a try block completes is put in a finally block.
+Program statements that you want to monitor for exceptions are contained within a try block. If an exception occurs within the try block, it is thrown. The code can catch this exception using catch and handle it in some manner. System-generated exceptions are automatically thrown by the Java run-time system. To manually throw an exception, use the keyword `throw`. Any exception that is thrown out of a method must be specified as such by a throws clause. Any code that must be executed after the execution of a try block is included in the finally block.
 
 </blockquote>
 
@@ -65,7 +65,7 @@ Program statements that you want to monitor for exceptions are contained within 
 
 ---
 
-5.How the StackOverflow occurred?
+5.How does the StackOverflow occur?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -73,7 +73,7 @@ Program statements that you want to monitor for exceptions are contained within 
 
 <blockquote>
 
-Error, which defines exceptions that are not expected to be caught under normal circumstances by your program. Exceptions of type Error are used by the Java run-time system to indicate errors having to do with the run-time environment,itself. Stack overflow is an example of such an error
+Error, which defines exceptions are not expected to be caught under normal circumstances by your program. Exceptions of type Error are used by the Java run-time system to indicate the errors with the run-time environment,itself. Stack overflow is an example of such an error
 
 </blockquote>
 
@@ -97,7 +97,7 @@ It is not necessary to include any statements between the  ‘try’, ‘catch�
 
 ---
 
-7.Can we  include only a ‘try’ block without the ‘catch’ and ‘finally’ blocks?
+7.Can we use only a ‘try’ block without the ‘catch’ and ‘finally’ blocks included?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -105,7 +105,7 @@ It is not necessary to include any statements between the  ‘try’, ‘catch�
 
 <blockquote>
 
-This would result in compilation error. It is necessary for the ‘try’ block to be followed with either a ‘catch’ block or a ‘finally’ block, if not both. Either one of ‘catch’ or ‘finally’ blocks is needed so that the flow of exception handling is undisrupted.
+This would result in compilation error. It is necessary for the ‘try’ block to be followed with either a ‘catch’ block or a ‘finally’ block, if not both. Either 'catch’ or ‘finally’ blocks is needed so that the flow of exception handling is undisrupted.
 
 </blockquote>
 
@@ -121,7 +121,7 @@ This would result in compilation error. It is necessary for the ‘try’ block 
 
 <blockquote>
 
-When the Java run-time system detects a runtime-error, it constructs a new exception object and then throws the exception because once an exception has been thrown, it must be caught by an exception handler and dealt with immediately. If we didn't supplied any exception handlers of our own, the exception is caught by the default handler provided by the Java run-time system. Any exception that is not caught by your program will ultimately be processed bythe default handler. The default handler describes the exception and prints a stack trace from the point at which the exception occurred, and terminates the program.
+When the Java run-time system detects a runtime-error, it constructs a new exception object and then throws the exception because once an exception has been thrown, it must be caught by an exception handler and dealt with immediately. If we didn't supply any exception handlers of our own, the exception is caught by the default handler provided by the Java run-time system. Any exception that is not caught by your program will ultimately be processed by the default handler. The default handler describes the exception and prints a stack trace from the point at which the exception occurs, and then terminates the program.
 
 
 </blockquote>
@@ -130,7 +130,7 @@ When the Java run-time system detects a runtime-error, it constructs a new excep
 
 ---
 
-9.Can we keep the statements after the ‘finally’ block?
+9.Is it allowed to use any statements after the ‘finally’ block?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -138,7 +138,7 @@ When the Java run-time system detects a runtime-error, it constructs a new excep
 
 <blockquote>
 
-This will result in an unreachable catch block error. This is because the control will be returning from the 'finally' block itself. The compiler will fail to execute the code after the line with the exception. That is why the execution will show an unreachable code error.
+No, this will result in an unreachable catch block error. This is because the control will be returning from the 'finally' block itself. The compiler will fail to execute the code after the line with the exception. That is why the execution will show an unreachable code error.
 
 </blockquote>
 
@@ -146,7 +146,7 @@ This will result in an unreachable catch block error. This is because the contro
 
 ---
 
-10.How can you differentiate NoClassDefFoundError and ClassNotFoundException in Java?
+10.How can you differentiate between NoClassDefFoundError and ClassNotFoundException in Java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -154,7 +154,7 @@ This will result in an unreachable catch block error. This is because the contro
 
 <blockquote>
 
-ClassNotFoundException and NoClassDefFoundError are the errors when JVM or ClassLoader not able to find appropriate class while loading at run-time. ClassNotFoundException is a checked exception and NoClassDefFoundError is an Error which comes under unchecked.
+ClassNotFoundException and NoClassDefFoundError are the errors that occurs when JVM or ClassLoader is not able to find appropriate class while loading during the run-time. ClassNotFoundException is a checked exception and NoClassDefFoundError is an Error of unchecked.
 
 </blockquote>
 
@@ -181,14 +181,14 @@ All exception types are subclasses of the built-in class Throwable. Thus, Throwa
 
 
 12.Why should we clean up activities such as i/o resources in the finally block?
-
+`
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
 <blockquote>
 
-Finally is useful for more than just exception handling — it allows the programmer to avoid having cleanup code accidentally bypassed by a return, continue, or break. Putting cleanup code in a finally block is always a good practice, even when no exceptions are anticipated.
+Finally is useful for more than just exception handling — it allows the programmer to avoid having cleanup code accidentally bypassed by a return, continue, or break. Including a cleanup code in a finally block is always a good practice, even when no exceptions are anticipated.
 
 </blockquote>
 
@@ -221,7 +221,7 @@ Statement3 will not be executed. If an exception is thrown by the ‘try’ bloc
 
 <blockquote>
 
-`printStackTrace()` is very useful in diagnosing exceptions. For example, if one out of three methods in your code cause an exception, printStackTrace() will pinpoint the exact line in which the method raised the exception.
+`printStackTrace()` is useful in diagnosing exceptions. For example, if one out of three methods in your code causes an exception, printStackTrace() will pinpoint the exact line in which the method raised the exception.
 
 </blockquote>
 
@@ -229,7 +229,7 @@ Statement3 will not be executed. If an exception is thrown by the ‘try’ bloc
 
 ---
 
-15.Write the missing code in the given code block ?
+15.Complete the missing code in the given code block ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -312,7 +312,7 @@ System.out.println("Message written to file successfuly!");
 
 ---
 
-17.Can we throw an exception explicitly or manually?explain with an example?
+17.Can we throw an exception, explicitly or manually? Explain with an example?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -320,7 +320,7 @@ System.out.println("Message written to file successfuly!");
 
 <blockquote>
 
-we can throw a user defined exception or, a predefined exception explicitly using the throw keyword.There are two types of exceptions user defined and predefined each exception is represented by a class and which inherits the Throwable class.To throw an exception explicitly you need to instantiate the class of it and throw its object using the throw keyword.
+We can throw a user defined exception or, a predefined exception explicitly using the `throw` keyword.There are two types of exceptions, user defined and predefined and each exception is represented by a class which inherits the Throwable class. To throw an exception explicitly, you need to instantiate the class of it and throw its object using the throw keyword.
 
 ```java
 
@@ -338,7 +338,7 @@ Exception in thread "main" java.lang.NullPointerException
 
 ```
 
-Whenever you throw an exception explicitly you need to make sure that the line with throw keyword is the last line of the program. This is because any code written after it is unreachable code and if you still have code snippets below this line a compile time error will be generated.
+Whenever you throw an exception explicitly you need to make sure that the line with throw keyword is the last line of the program. This is because any code written after it is unreachable code and if you still have code snippets below this line, a compile time error will be generated.
 
 ```java
 
@@ -366,7 +366,7 @@ ExceptionExample.java:6: error: unreachable statement
 
 ---
 
-18.Describe OutofMemoryError in exception handling?
+18.What is the purpose of OutofMemoryError in exception handling?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -374,7 +374,7 @@ ExceptionExample.java:6: error: unreachable statement
 
 <blockquote>
 
-The OutofMemoryError  is thrown when there is insufficient space to allocate an object in the Java heap. In this case, the garbage collector cannot make space available to accommodate a new object, and the heap cannot be expanded further. Also, this error may be thrown when there is insufficient native memory to support the loading of a Java class. In a rare instance, a `java.lang.OutOfMemoryError` may be thrown when an excessive amount of time is being spent doing garbage collection and little memory is being freed.
+The OutofMemoryError is thrown when there is insufficient space to allocate an object in the Java heap. In this case, the garbage collector cannot make space to accommodate a new object, and the heap cannot be expanded further. Also, this error may be thrown when there is insufficient native memory to support the loading of a Java class. In a rare instance, a `java.lang.OutOfMemoryError` may be thrown when an excessive amount of time is being spent doing garbage collection and little memory is being freed.
 
 </blockquote>
 
@@ -382,7 +382,7 @@ The OutofMemoryError  is thrown when there is insufficient space to allocate an 
 
 ---
 
-19.Explain with an example for unchecked exception.
+19.Explain unchecked exception with an example.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -419,7 +419,7 @@ The unchecked exception thrown is ArrayIndexOutOFBoundsException for the specifi
 
 ---
 
-20.Is it illegal to keep an empty catch?
+20.Is it allowed to have an empty catch block in a code?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -427,7 +427,7 @@ The unchecked exception thrown is ArrayIndexOutOFBoundsException for the specifi
 
 <blockquote>
 
-Yes, we can have an empty catch block. But this is a bad practice to implement in Java.The try block has the code which is capable of producing exceptions, if anything wrong in the try block, for instance, divide by zero, file not found, etc. It will generate an exception that is caught by the catch block. The catch block catches and handles the exception. If the catch block is empty then we will have no idea what went wrong within our code.
+Yes, we can have an empty catch block. But this is a bad practice to implement in Java. The try block has the code which is capable of producing exceptions, if anything wrong in the try block, for instance, divide by zero, file not found, etc. It will generate an exception that is caught by the catch block. The catch block catches and handles the exception. If the catch block is empty then we will have no idea what went wrong within our code.
 	
 </blockquote>
 
@@ -435,7 +435,7 @@ Yes, we can have an empty catch block. But this is a bad practice to implement i
 
 ---
 
-21.Can checked exceptions occur at compiled time?
+21.Can checked exception occur at compile time?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -443,7 +443,7 @@ Yes, we can have an empty catch block. But this is a bad practice to implement i
 
 <blockquote>
 
-A checked exception is an exception that occurs at the compile time, these are also called as compile time exceptions. These exceptions cannot simply be ignored at the time of compilation, the programmer should take care of (handle) these exceptions. For example, if you use FileReader class in your program to read data from a file, if the file specified in its constructor doesn't exist, then a FileNotFoundException occurs, and the compiler prompts the programmer to handle the exception.
+A checked exception is an exception that occurs at the compile time which are also called as compile time exceptions. These exceptions cannot simply be ignored at the time of compilation, and the programmer should handle these exceptions. For example, if you use FileReader class in your program to read data from a file, if the file specified in its constructor doesn't exist, then a FileNotFoundException occurs, and the compiler prompts the programmer to handle the exception.
 
 </blockquote>
 
@@ -459,7 +459,7 @@ A checked exception is an exception that occurs at the compile time, these are a
 
 <blockquote>
 
-We cannot say the finally block is always executes because sometimes if any statement like `System.exit()` or some similar code is written into try block then program will automatically terminate and the finally block will not be executed in this case. A finally block will not execute due to other conditions like when JVM runs out of memory when our java process is killed forcefully from task manager or console when our machine shuts down due to power failure and deadlock condition in our try block.
+We cannot say the finally block always executes because sometimes statement like `System.exit()` or some similar code is written into try block, then program will automatically terminate and the finally block will not be executed in this case. A finally block will not execute due to conditions like when JVM runs out of memory, when our java process is killed forcefully from task manager or console, when our machine shuts down due to power failure and deadlock condition in our try block.
 
 </blockquote>
 
@@ -475,7 +475,7 @@ We cannot say the finally block is always executes because sometimes if any stat
 
 <blockquote>
 
-We cannot use throws keyword with a static block, and more over a static block is invoked at compile time (at the time of class loading) no method invokes it. If you throw an exception using the throw keyword in a static block you must wrap it within try-catch blocks else a compile time error will be generated.
+We cannot use throws keyword with a static block, and more over a static block is invoked at compile time (at the time of class loading) and no method invokes it. If you throw an exception using the throw keyword in a static block, you must wrap it within try-catch blocks, else a compile time error will be generated.
 
 </blockquote>
 
@@ -483,7 +483,7 @@ We cannot use throws keyword with a static block, and more over a static block i
 
 ---
 
-24.How rethrowing is done in exception handling?Explain with an example?
+24.How rethrowing is done in exception handling? Explain with an example?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -491,7 +491,7 @@ We cannot use throws keyword with a static block, and more over a static block i
 
 <blockquote>
 
-If a catch block cannot handle the particular exception it has caught, we can rethrow the exception. The rethrow expression causes the originally thrown object to be rethrown.Because the exception has already been caught at the scope in which the rethrow expression occurs, it is rethrown out to the next enclosing try block. Therefore, it cannot be handled by catch blocks at the scope in which the rethrow expression occurred. Any catch blocks for the enclosing try block have an opportunity to catch the exception.
+If a catch block cannot handle a particular exception it has caught, we can rethrow the exception. The rethrow expression causes the originally thrown object to be rethrown. Because the exception has already been caught at the scope in which the rethrow expression occurs, and it is rethrown out to the next enclosing try block. Therefore, it cannot be handled by catch blocks at the scope in which the rethrow expression occurred. Any catch blocks for the enclosing try block have an opportunity to catch the exception.
 
 ```java
 
@@ -556,7 +556,7 @@ The chained exception feature allows you to associate another exception with an 
 
   `Throwable fillInStackTrace ()`- Fills in the execution stack trace.
 	
-  `Throwable getCause ()` - Returns the cause of this throwable or null if the cause is nonexistent or unknown.
+  `Throwable getCause ()` - Returns the cause of this throwable or null if the cause is non-existent or unknown.
 	
   `String getLocalizedMessage ()` - Creates a localized description of this throwable.
 	
@@ -582,7 +582,7 @@ The chained exception feature allows you to associate another exception with an 
 
 ---
 
-27.When the unreachable catch block error is shown by the compiler?
+27.When is the unreachable catch block error displayed by the compiler?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -623,7 +623,7 @@ public class ExceptionHandling
 
 </details>
 
-28.Why it is always recommended that clean up operations like closing the DB resources to keep inside a finally block?
+28.Why is it always recommended to include clean up operations like closing the DB resources inside a finally block?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -631,7 +631,7 @@ public class ExceptionHandling
 
 <blockquote>
 
-Because finally block is always executed whether exceptions are raised in the try block or not and raised exceptions are caught in the catch block or not. By keeping the clean up operations in finally block, you will ensure that those operations will be always executed irrespective of whether exception is occurred or not.
+Finally block is always executed whether or not the exceptions are raised in the try block or raised exceptions are caught in the catch block. By including the clean up operations in finally block, you will ensure that those operations will always be executed irrespective of whether exception occurs or not.
 
 </blockquote>
 
