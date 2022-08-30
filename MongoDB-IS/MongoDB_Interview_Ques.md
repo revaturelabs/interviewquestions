@@ -1075,7 +1075,7 @@ db.school.getIndexes()
 
 74. Can we say that MongoDB reads and writes data from both primary and secondary replica set? 
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary>
 
