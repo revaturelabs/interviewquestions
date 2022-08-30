@@ -844,9 +844,7 @@ shutdown finished
 
 <blockquote>
 
-Nothing will happen as such if we don’t override the `run() method. The compiler will not show any error. It will execute the `run()` method of thread class and we will just don’t get any output because the `run()` method is with an empty implementation. 
-
-Example:  
+Nothing will happen as such if we don’t override the `run()` method. The compiler will not show any error. It will execute the `run()` method of thread class and we will just don’t get any output because the `run()` method is with an empty implementation. 
 
 ```java
 
@@ -2126,6 +2124,8 @@ Value for Thread After increment Thread-2 1
 Value for Thread at last Thread-2 0
 
 It can be seen from the output how threads are accessing the shared resource one at a time now. Synchronizing the access within the `run()` method made it happen.
+
+```
 
 </blockquote>
 
