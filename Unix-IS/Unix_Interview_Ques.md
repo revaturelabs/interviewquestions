@@ -147,7 +147,7 @@ Here if the combine.txt file doesn't exists in the system, it will create a comb
 </details>
 
 ---
-13. Suppose using `mkdir` command you have created one directory as "program" and that is an empty directory and now you want to delete the directory from your system, then which command can be used to delete that directory?
+13. Suppose using `mkdir` command you have created one directory as "program" which is empty and now you want to delete that directory from your system, then which command you will use for it?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
