@@ -718,45 +718,50 @@ print(x is y)
    
 ---
   
-37.How can you initialize a 5*5 NumPy array with only zeroes?
+37.How can we install particular package using command?
    
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
    
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- For that we need to import numpy first
+- In python, we can use `pip` command to install the particular package.
+  
+**Syntax:**
+  `pip install package_name`
+  
+**Example:**
+
+- Install pandas package for this installation and we can use pip install command.
   
 ```python
-import numpy
-z=numpy.zeros((5,5),int)
-print(z)
+pip install pandas
 ```
   
   </details>
   
   ---
  
-38.How to create a data frame from a dictionary?
+38.Does Joe want to know the python checkers for Debugging how will you help him to find them?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
- <details><summary><b>Show Answer </b></summary>
+<details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-```python
-  import pandas as pd
-diction={'Name' : ['Rohit','Brad']
-    'Age' : [23, 21],
-    'College choices' : ['MIT','Stanford','Caltech']}
-df = pd.DataFrame(diction)
-```
+There are many debugging tools,some of them are:
   
-- Using the above code we can create data frame in python.
+i)Pychecker – A tool for locating bugs in python ASCII text file(source code).
+
+ii)pudb – PuDB could be a full-screen, console-based visual debugger for Python.
+
+iii)pdb – The module pdb defines associate degree interactive ASCII text file(source code) debugger for Python programs.
+
+iv)pylint – Analyzes Python ASCII text file(source code) trying to find bugs and signs of poor quality.
   
-  </details>
+</details>
    
-   ---
+---
    
 39.Ken wants to perform static analysis in Python. How will you help him to find the tools to perform static analysis?
    
@@ -1735,7 +1740,7 @@ print(random.choice(x))
 
 ---
   
-89.What do you mean by file-related modules in Python? Can you name some of the file-related modules in Python?
+89.What do you mean by file-related modules in Python? Can you list out some of the file-related modules in Python?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -1749,7 +1754,7 @@ print(random.choice(x))
 
 ---
   
-90.Kein is asking what is exec() and eval() in python how will you explain this to him?
+90.Kein is asking what is `exec()` and `eval()` in python how will you explain this to him?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
@@ -1790,7 +1795,7 @@ print(random.choice(x))
 
 ---
   
-93.Can you explain to your junior Why would you use `NumPy` arrays instead of lists in Python?
+93.Can you explain to your junior Why would you use NumPy arrays instead of lists in Python?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -1806,31 +1811,58 @@ print(random.choice(x))
 
 ---
   
-94.Can you tell me which python libraries are used for Machine Learning ?
+94.Can we import multiple modules in python. Give an example?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python we have two python libraries are used for Machine Learning.
-- NumPy and SciPy and has become the most popular Python machine learning library for developing machine learning algorithms.
-
+- Yes, we can import multiple modules in python.
+- If we want to use more than one module, then we can import multiple modules. This is the simplest form to import a statement.
+**Syntax:**
+  `import module1[,module2[,.. moduleN]`
+  
+```python
+# Importing two modules
+import math, random
+print(math.fact(5))
+print(random.randint(10, 20))
+```
+  
 </details>
 
 ---
   
-95.Can you list the ways we add view functions to urls.py?
+95.How can we use `re.split()` function in module?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- To tell the existence of index() view function in urls.py you need to do two,
-  - Add from blog import views towards the end of the import list.
-  - Create a new URL pattern by adding the following line at the beginning of the urlpatterns list. url(r'^$', views. index)
+- In python, re.split() is used to define how many splits you want to perform.
+For example, if maxsplit=3, then it will do 3 splits.
 
+**Syntax:**
+`re.split(pattern,string,maxsplit=0,flags=0)`
+  
+  - In regular expression, pattern and strings are the mandatory ones.
+  - maxsplit and flag functions are not mandatory.
+  
+1.pattern: In regular expression pattern, function is used for splitting the string.
+
+2.string: The string we want to perform split.
+
+3.maxsplit: The number of splits you want to perform.It's based upon the split size.
+
+4.flags: There are no flages applied, by default.
+
+
+  
+ 
+  
+  
 </details>
 
 ---
