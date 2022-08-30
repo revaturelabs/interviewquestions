@@ -1,6 +1,6 @@
 ## Technical Questions
 
- 1.	What do you have in Java download file?
+ 1. What do you have in Java download file?
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -8,11 +8,7 @@
 
 <blockquote>
 
-There are two major things along with the Java Download file. 
-
-- JDK - Java Development Kit
-
-- JRE - Java Runtime Environment
+If the user downloads Java setup file, it contains `JRE` (Java Runtime Environment)which provides the class libraries and other resources that a specific Java program needs to run.
 
 </blockquote>
 
@@ -97,7 +93,7 @@ The left operand value is moved right by the number of bits specified by the rig
 
 ---
 
-6.	Is Java Static or Dynamic?
+6.	Why is Java considered as dynamic?
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -105,7 +101,7 @@ The left operand value is moved right by the number of bits specified by the rig
 
 <blockquote>
 
-yes, Java is designed to adapt to an evolving environment. Java programs include a large amount of runtime information that is used to resolve access to objects in real-time. 
+Because it is designed to adapt to an evolving environment. Java programs include a large amount of runtime information that is used to resolve access to objects in real-time. 
 
 </blockquote>
 
@@ -114,7 +110,7 @@ yes, Java is designed to adapt to an evolving environment. Java programs include
 
 ---
 
-7.	Whether we can run a code before executing the main method or not?
+7.	Can we run a block of code before executing the main method?
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
