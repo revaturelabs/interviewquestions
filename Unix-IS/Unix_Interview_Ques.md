@@ -93,7 +93,7 @@
 ---
 8. How to see which file is modified recently and at what time in unix?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
