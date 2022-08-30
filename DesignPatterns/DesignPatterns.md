@@ -104,7 +104,7 @@ The Open close principle states that any class, component or entity should be op
 - Decorator pattern are used by the Wrapper classes.
 - Singleton pattern is used in classes like Calendar and Runtime.
 - Factory pattern is used for methods like Integer.valueOf methods in wrapper classes.
-- Observer pattern is used for handling event frameworks like awt, swing etc
+- Observer pattern is used for handling event frameworks like `AWT`, `SWING` etc
 
 </blockquote>
 
@@ -234,13 +234,13 @@ For example, Let’s consider 3 classes Square, Rectangle and Triangle. We will 
       }
    }
 
-```
-
-- Output
+Output:
   Triangle Drawn
   Rectangle Drawn
   Square Drawn
-
+	
+```
+	
 </blockquote>
 
 </details>
@@ -378,7 +378,7 @@ Proxy design pattern falls under the category of structural design that represen
 
 ---
 
-11.Explain Bridge Design Pattern?
+11.Explain Bridge Pattern?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -528,9 +528,9 @@ Output:
 
 <blockquote>
  
-The Command pattern is a type of behavioural design pattern that transforms a request into a stand-alone object containing all the details about the request. This pattern is a data-driven pattern because we make use of the information about the request by wrapping it as an object and is passed to the invoker object checks for the object that can handle the command and passes it to that object to execute the command.
+- The Command pattern is a type of behavioural design pattern that transforms a request into a stand-alone object containing all the details about the request. This pattern is a data-driven pattern because we make use of the information about the request by wrapping it as an object and is passed to the invoker object checks for the object that can handle the command and passes it to that object to execute the command.
 
-We have a client that calls the invoker to run a command. We have a Command interface that acts as an abstraction to the underlying concrete classes.For example, A remote control that has only one button. Using this button, we will be controlling the behaviour of two objects tubelight and a radio. The command to control the objects will be implemented using the command design pattern.
+- We have a client that calls the invoker to run a command. We have a Command interface that acts as an abstraction to the underlying concrete classes.For example, A remote control that has only one button. Using this button, we will be controlling the behaviour of two objects tubelight and a radio. The command to control the objects will be implemented using the command design pattern.
 
 
 ```java
@@ -633,7 +633,6 @@ We have a client that calls the invoker to run a command. We have a Command inte
    }
 
 Output:
-
 TubeLight on
    Radio on 
    Radio volume set to 4
@@ -647,7 +646,7 @@ TubeLight on
 
 ---
 
-15.Explain Observer Design Pattern with an example?
+15.Explain Observer Design Pattern?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -661,8 +660,7 @@ This design pattern has 3 main components:
 
 - Subject - This can be an interface or an abstract class that defines operations for attaching and detaching the observers to the subject.
 - Concrete Subject - This is a concrete class of the Subject. This maintains the object state and whenever any change occurs in that state, the observers are notified about it using notifyObservers() method.
-- Observer - This is an interface or an abstract class that defines the operations for notifying the object. One real work example of this pattern is Facebook or Twitter. Whenever a person updates the status, all the followers would get a notification about his update. An observer can get the notification of the subject as long as it is subscribed or keeping track of it
-
+- Observer - This is an interface or an abstract class that defines the operations for notifying the object. One real work example of this pattern is Facebook or Twitter. Whenever a person updates the status, all the followers would get a notification about his update. An observer can get the notification of the subject as long as it is subscribed or keeping track of it.
 
 </blockquote>
 
@@ -911,7 +909,7 @@ Iterator pattern is used to get a way to access the elements of a collection obj
 
 <blockquote>
 
-The Composite pattern is also a core Java design pattern, which allows you to treat both whole and part object to treat similarly. Client code, which deals with a Composite or individual object, doesn't differentiate between them, it is possible because the Composite class also implements the same interface as their individual part. One of the good examples of the Composite pattern from java is the JPanel class, which is both Component and Container.  When the paint() method is called on JPanel, it is internally called the paint() method of individual components and let them draw themselves.
+The Composite pattern is also a core Java design pattern, which allows you to treat both whole and part object to treat similarly. Client code, which deals with a Composite or individual object, doesn't differentiate between them, it is possible because the Composite class also implements the same interface as their individual part. One of the good examples of the Composite pattern from java is the `JPanel` class, which is both `Component` and `Container`.  When the `paint()` method is called on `JPanel`, it is internally called the `paint()` method of individual components and let them draw themselves.
 
 </blockquote>
 
@@ -1080,7 +1078,8 @@ Data Access Object Pattern is used to isolate low-level data accessing API or ac
 
 <blockquote>
 
-We have to make the constructor private so that new operator cannot be used to instantiate the class and return an object if not null otherwise create the object and return the same via a method.
+- We have to make the constructor private so that new operator cannot be used 
+- To instantiate the class and return an object if not null otherwise create the object and return the same via a method.
 
 </blockquote>
 
@@ -1112,7 +1111,7 @@ Transfer Object Pattern is useful when one has to pass data with multiple attrib
 
 <blockquote>
 
-Synchronization of whole getinstance() method is costly and is only needed during the initialization on singleton instance, to stop creating another instance of Singleton. Therefore it is better to only synchronize critical section and not the whole method.
+Synchronization of whole `getinstance()` method is costly and is only needed during the initialization on singleton instance, to stop creating another instance of Singleton. Therefore it is better to only synchronize critical section and not the whole method.
 
 </blockquote>
 
@@ -1869,10 +1868,6 @@ instanceTwo hashCode=209678522
 </blockquote>
 
 </details>
-
-<details><summary><b> Explanation </b></summary>
-
-<blockquote>
 	
 ---
 
