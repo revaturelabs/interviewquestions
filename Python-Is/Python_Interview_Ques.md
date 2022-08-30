@@ -1916,66 +1916,59 @@ if (number >= 18) {
 
 ---
   
-98.Does Charles want to combine different pandas data frames how will you help him to combine data frames?
+98.Can you tell me What approaches would you use for module importation in Python?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
-
-- `append()` method: This is used to stack the dataframes horizontally. 
   
-Syntax:
+- If you need to import some particular module use the import keyword, such as: `import array` or `from array import *.`There are some other ways, these are
+  - Import the whole module using its original name: pycon import random
+  - Import specific things from the module: pycon from random import choice, randint
+  - Import the whole module and rename it, usually using a shorter variable name: pycon import pandas as pd
+  - Import specific things from the module and rename them as you're importing them: pycon from os. path import join as join_path
   
-`df1.append(df2)`
-  
-- `concat()` method: This is used to stack dataframes vertically. This is best used when the dataframes have the same columns and similar fields. 
-  
-Syntax:
-  
-`pd.concat([df1, df2])`
-  
-- `join()` method: This is used for extracting data from various dataframes having one or more common columns.
-  
-`df1.join(df2)`
-
 </details>
 
 ---
   
-99.How will you set a python logging format to explain with an example?
-  
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-  
-<details><summary><b>Show Answer </b></summary>
-<blockquote>
-
-```python
-import logging
-logging.basicConfig(format='%(asctime)s %(message)s', level=logging.DEBUG,datefmt='%m/%d/%Y %I:%M:%S %p')
-logging.warning('Does this work')
-```
-
-</details>
-
----
-  
-100.James wants to display the date/time for python logging he wants to write a piece of code for that how will you help him to write a code?
+99.Show the polymorphism concept by using `+` operator inside a class.
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python to enable the time of logging in Python, you can use the following piece of Python code-
-  
-**logging.basicConfig(format=’%(asctime)s %(message)s’)**
+In python `+` operator is not only used to add values together but, it can also be used to concatenate two or more string values. Let's understand this better through a code.
   
 ```python
-import logging
-logging.basicConfig(format='%(asctime)s %(message)s', level=logging.DEBUG)
-logging.info('Began to log')
+class Operator:
+    
+    def add(self, x, y):
+        return x + y
+    
+    def concatenate(self, a, b):
+        return a + b
+
+obj = Operator()
+print(obj.add(10, 20))
+print(obj.add("Jack","ken"))
 ```
+  
+</details>
+
+---
+  
+100.Is there any way to read file without opening? Which function is used to open a file?
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary><b>Show Answer </b></summary>
+<blockquote>
+  
+- No,we can't read file without opening.
+- If you want to read a file, open the file first then, use open() function to open a file.
 
 </details>
 
