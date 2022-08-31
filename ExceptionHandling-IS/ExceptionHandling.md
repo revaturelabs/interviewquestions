@@ -722,7 +722,7 @@ class ThrowableExample
 
 ---
 
-30.Can we override a super class method which is throwing an unchecked exception with checked exception in the sub class?
+30.Can we override a super class method with checked exception which is throwing an unchecked exception in the sub class?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -788,7 +788,7 @@ finally
 ---
 
 
-32.Can we throw any Exception inside a Lambda Expression’s Body?
+32.Can we throw an Exception inside the body of a Lambda Expression’s?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -832,7 +832,7 @@ Statement3 will not get executed because once a try block throws an exception, r
 
 ---
 	
-34.Why do you use the ‘throws’ keyword in Java?Explain with an example?
+34.Why do you use the ‘throws’ keyword in Java? Explain with an example?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -907,7 +907,7 @@ public static void test() throws IOException, FileNotFoundException{
 
 <blockquote>
 
-The above program won’t compile and you will get an error message as “The exception FileNotFoundException is already caught by the alternative IOException. This is because FileNotFoundException is a subclass of IOException, there are two ways to solve this problem. 
+The above program won’t compile and you will get an error message as “The exception FileNotFoundException is already caught by the alternative IOException". This is because FileNotFoundException is a subclass of IOException. There are two ways to solve this problem. 
 The first way is to use a single catch block for both the exceptions.
 
 ```java
@@ -1026,7 +1026,7 @@ try block started it’s execution and no exception so it goes to finally and th
 
 ---
 	
-38.Can we keep the statements after finally block If the control is returning from the finally block itself?
+38.Can we keep the statements after finally block if the control is returning from the finally block itself?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1216,7 +1216,7 @@ When JVM faces an exception in a program, it creates an exception object and thr
 
 <blockquote>
 
-The exception object will be garbage collected,Once exception handling is done, 
+The exception object will be garbage collected once exception handling is done. 
 
 </blockquote>
 
