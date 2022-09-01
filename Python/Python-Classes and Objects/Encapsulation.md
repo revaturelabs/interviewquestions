@@ -40,10 +40,10 @@ print('Marks:', stu.__marks)
 ---
 3. Which statement out of the following is best for encapsulation?  
 
-a) It gives ability to a child class to access properties from parent class.  
-b) It has the ability to hide the unwanted complex implementation from the user.
-c) It wraps up the data members and member functions of a class in a single unit.  
-d) It gives different meaning to same function in different classes.  
+a) It gives ability to a child class to access properties from parent class.    
+b) It has the ability to hide the unwanted complex implementation from the user.  
+c) It wraps up the data members and member functions of a class in a single unit.    
+d) It gives different meaning to same function in different classes.    
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
