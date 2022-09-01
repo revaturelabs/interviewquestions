@@ -1990,7 +1990,7 @@ print(obj.add("Jack","ken"))
 
 ---
   
-102.William raised a question to his colleague can a function call another function? justify your answer with an example of how is his colleague going to answer this question.
+102.William raised a question to his colleague can a function call another function? What should be his colleague answer to William's question?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
@@ -2759,14 +2759,14 @@ In python double quotes used for String representation and single quotes used fo
 
 ---
   
-142.Why is this 'raw_input' detected as an error in Python?
+142.Why is this 'raw_input' detected as an error in Python-v3.0?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-It's depends upon python version.If you are using in python 2.5 it's used to take a input from user.
+It's depends upon python version.If you are using in python 2.5 and above we can use `input()` instead of `raw_input()` to take input from user.
 
 ```python
 name = raw_input("enter your name please")
