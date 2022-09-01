@@ -515,10 +515,10 @@ girl1 = Girl("Emma")
 girl2 = Girl("Ava")
 girl1.namePrint()
 ```
-a) The `__init__` method is used to set initial values for attributes. 
-b) 'self' is not needed in namePrint() method
-c) girl1 and girl2 are two different instances of the Girl class.
-d) girl2 has a different value for 'name' than girl1.
+a) The `__init__` method is used to set initial values for attributes.   
+b) 'self' is not needed in namePrint() method  
+c) girl1 and girl2 are two different instances of the Girl class.  
+d) girl2 has a different value for 'name' than girl1.  
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
