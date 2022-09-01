@@ -213,6 +213,301 @@ There are four types of JDBC drivers in Java. They are:
 
 </details>
 
+---
+  
+11.Explain the different types of statements in Jdbc? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+There are 3 types of JDBC Statements which are discussed below:
+
+- `java.sql.Statement`:Statement object compiles and executes no matter whether there is a change in the query syntax or not. for example:if you are inserting 100 employees your insert query will remain same but Statement object will compile your insert query again and again for 100 times and runs.
+  
+```java
+Statement st = conn.createStatement( );
+ResultSet rs = st.executeQuery();
+  
+```
+- `java.sql.PreparedStatement`: This type of statement is designed in such a way that it compiles only when there is a syntatical change in your query. for example:this will compile the insert statement once and executes it 100 times.
+
+```java
+String s1 = "Update emp SET salary = ? WHERE designation = ?";
+PreparedStatement  ps = conn.prepareStatement(s1);
+ResultSet rs = ps.executeQuery();
+  
+ ```
+  
+- `java.sql.CallableStatement`: This is sub interface of PreparedStatement and has been designed to call up PLSQL stored procedures and functions.
+
+```java
+CallableStatement cs = con.prepareCall("{call STUDENT_DETAILS}");
+ResultSet rs = cs.executeQuery();
+
+```
+</blockquote>
+
+</details>
+  
+---
+  
+12.What are the interfaces and classes in Jdbc?Explain it?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The java.sql package contains different interfaces and classes for JDBC API. They are:
+
+- Connection object is an interface which is created by using getConnection() method of DriverManager class. DriverManager is the factory for connection.
+- Statement object is an interface which  is created by using createStatement() method of the Connection class. The Connection interface is the factory for Statement.
+- PreparedStatement object is an interface which is created by using prepareStatement() method of Connection class. It is used for executing the parameterized query.
+- ResultSet object maintains a cursor pointing to a table row,the cursor points before the first row. The executeQuery() method of the Statement interface returns the object of ResultSet.
+- ResultSetMetaData interface object contains the details about the data of the table such as number of columns, name of the column, column type etc. The getMetaData() method of ResultSet returns the ResultSetMetaData object.
+- DatabaseMetaData is an interface that has methods to get metadata of a database, like name of the database product, version of database product, driver name, name of the total number of views, name of the total number of tables, etc. The getMetaData() method that belongs to Connection interface returns the DatabaseMetaData object.
+- CallableStatement interface is useful for calling the stored procedures and functions. We can have business logic on the database through the usage of stored procedures and functions, which will be helpful for the improvement in the performance as these are pre-compiled. The prepareCall() method that belongs to the Connection interface returns the object of CallableStatement.
+- DriverManager has available drivers which handles establishing a connection between a database and the relevant driver. It contains various methods to keep the interaction between the user and drivers.
+- BLOB stands for Binary Large Object. It represents a collection of binary data such as images, audio, and video files, etc., which is stored as a single entity in the DBMS(Database Management System).
+- CLOB stands for Character Large Object. This data type is used by multiple database management systems to store character files. It is the same as BLOB except for the difference, instead of binary data, CLOB represents character stream data such as character files, etc.
+
+
+</blockquote>
+
+</details>
+
+---
+
+13.What is Batch processing in Jdbc?How to perform it?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Batch processing is the process of executing multiple SQL statements in one transaction. For example, consider the case of loading data from CSV(Comma-Separated Values) files to relational database tables. Instead of using Statement or PreparedStatement, we can use batch processing which executes the bulk of queries as a single transcation for a database.It reduces the communication time and improves performance.It is easier to process a huge amount of data and consistency of data is also maintained.It is much faster than executing a single statement at a time because of the fewer number of database calls.To perform batch processing, `addBatch()` and `executeBatch()` methods are used,which are available in the Statement and PreparedStatement classes of Jdbc
+
+</blockquote>
+
+</details>
+  
+---
+  
+14.How can you differentiate Statement and PreparedStatement?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- Statement:	
+The query is compiled every time when we  run the program.It is used in the situation where we need to run the SQL query without providing parameters at runtime.It's performance is less compared to PreparedStatement.It is suitable for executing DDL statements such as Create, Alter, Drop and Truncate.	It cannot be used for storing/retrieving images and files in the database.It executes static SQL statements.It is less secured because it enforces SQL injection.	
+	
+
+- PreparedStatement:
+The query is compiled only once.It is used when we want to give input parameters to the query at runtime.It provides better performance than Statement, as it executes the pre-compiled SQL statements.It is suitable for executing DML statements such as Insert, Update and Delete.It can be used for storing/retrieving images and files in the database.It executes pre-compiled SQL statements.It is more secured as they use to bind variables, which can prevent SQL injection.
+
+</blockquote>
+
+</details>
+  
+---
+  
+15.What is `execute()`,`executeQuery()` and `executeUpdate()` methods in Jdbc?Explain it?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- `execute()`:It can be used for any SQL statements.It returns the boolean value TRUE if the result is a ResultSet object and FALSE when there is no ResultSet object.Used for executing both Select and non-Select queries.	
+
+- `executeQuery()`:It is used to execute SQL Select queries.It returns the ResultSet object which contains the data retrieved by the SELECT statement.Used for executing only the Select Query.
+
+- `executeUpdate()`:It is used to execute the SQL statements such as Insert or Update or Delete which will update or modify the database data.It returns an integer value which represents the number of affected rows where 0 indicates that the query returns null.It is used for executing only a non-Select query.
+		
+
+</blockquote>
+
+</details>
+  
+---
+  
+16.How getter and setter methods used in ResultSet?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- Getter methods: These are used for retrieving the particular column values of the table from ResultSet. As a parameter, either the column index value or column name should be passed and the getter method is represented as getXXX() methods,for example: `int getInt(string Column_Name)` statement is used to retrieve the value of the specified column index and the return type is an int data type.
+
+- Setter Methods: These methods are used to set the value in the database. It is almost similar to getter methods, but here it requires to pass the data/values for the particular column to insert into the database and the column name or index value of that column and setter method is represented as setXXX() methods,for example: `void setInt(int Column_Index, int Data_Value)` statement is used to insert the value of the specified column index with an int value.
+		
+</blockquote>
+
+</details>
+  
+---
+  
+17.What do you mean by "Dirty read" in terms of database?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Dirty read implies the meaning "read the value which may or may not be correct". In the database, when a transaction is executing and changing some field value, at the same time another transaction comes and reads the changed field value before the first transaction could commit or rollback the value, which may cause an invalid value for that particular field. This situation is known as a dirty read. For ex: where Transaction 2 changes a row but does not commit the changes made. Then Transaction 1 reads the uncommitted data. Now, if Transaction 2 goes for roll backing its changes (which is already read by Transaction 1) or updates any changes to the database, then the view of the data may be wrong in the records related to Transaction 1. 
+		
+</blockquote>
+
+</details>
+
+  
+---
+  
+18.Describe the steps for establishing a Jdbc connection in java?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- Loading the Driver:When we need to load or register the driver before using it in the program. Registration must be done once in your program. You can register a driver by using any one of the two methods mentioned below:
+
+`Class.forName()`:We load the driver’s class file into memory during runtime.`Class.forName("com.mysql.jdbc.Driver")` is used to load the MySQL driver.However, this statement is no longer needed, because as you place the MySQL Jdbc driver JAR file into the classpath of your program, the driver manager can find and load the driver.
+
+`DriverManager.registerDriver()`: DriverManager is a built-in Java class with a static member register. Here we will be calling the constructor of the driver class during compile time.For registering the MySQL driver, use the below-given code:
+
+`DriverManager.registerDriver((new com.mysql.jdbc.Driver());`
+
+
+- Connection:After loading the driver into the program, establish connections using the code given below:
+
+`Connection con = DriverManager.getConnection(url,user,password);`
+
+`con`: Reference to a Connection interface.
+`url`: Uniform Resource Locator.
+`user`: Username from which SQL command prompt is accessed.
+`password`: Password from which SQL command prompt is accessed.
+
+url in MySQL can be created as follows:
+`String url = "jdbc:mysql://localhost:3306/demo1";`
+Where localhost represents hostname or IP address of the MySQL server, 3306 port number of the server and by default, it is 3306, test1 is the name of the database on the server.
+
+- Create a statement:Once a connection establishment is done, you can interact with the database. The `Statement`, `PreparedStatement`, and `CallableStatement` Jdbc interfaces will define the methods that permit you to send SQL commands and receive data from the database.We can use JDBC Statement as follows:
+
+`Statement st = con.createStatement();`
+
+Here, con is a reference to the Connection interface used in the earlier step.
+
+- Execute the query: query means an SQL query. We can have various types of queries.for ex:Query for updating,  inserting and data retrieval a table in a database. The `executeQuery()` method that belongs to the Statement interface is used for executing queries related to values retrieval from the database. This method returns the ResultSet object which can be used to get all the table records.The `executeUpdate(sql_query)` method of the Statement interface is used for executing queries related to the update/insert operation.For Example:
+
+```java
+
+   int s = st.executeUpdate(sql);
+   if (s==1)
+       System.out.println("Data inserted successfully : "+sql);
+   else
+       System.out.println("Data insertion failed");
+Here SQL is the SQL query of string type.
+
+```
+
+- Close the connection:We have to sent the data to the location specified and now we are at the end of our task completion.Closing the connection, objects of Statement and ResultSet will be automatically closed. The `close()` method of the Connection interface is used for closing the connection. 
+
+```java
+
+con.close();
+
+```
+		
+</blockquote>
+
+</details>
+
+---
+  
+19.Explain the implementation of Jdbc MySQL database connection with an example?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+```java
+
+import java.sql.*;  
+class JdbcMySql{  
+   public static void main(String args[]){      
+       String url = "jdbc:mysql://localhost:3306/demo1";
+       String user = "root";
+       String password = "root";
+       try{  
+           Class.forName("com.mysql.jdbc.Driver");
+           Connection con=DriverManager.getConnection(url,user,password);
+           Statement st = con.createStatement();
+           ResultSet rs = st.executeQuery("select * from student");  
+           while(rs.next())  
+               System.out.println(rs.getInt(1)+" "+rs.getString(2)+" "+rs.getString(3));  
+           con.close();  
+       }
+       catch(Exception e)
+       { 
+           System.out.println(e);
+       }  
+   }  
+}  
+
+```
+		
+</blockquote>
+
+</details>
+  
+---
+  
+20.Explain the implementation to call Stored procedures in Jdbc?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Stored procedures are a set of SQL queries that are compiled in the database and will be executed from Jdbc API. For executing Stored procedures in the database, Jdbc CallableStatement can be used. The syntax for initializing a CallableStatement is given below:
+
+```java
+
+CallableStatement cs = con.prepareCall("{call insertStudent(?,?,?,?,?)}");
+stmt.setInt(1, studentid);
+stmt.setString(2, studentname);
+stmt.setString(3, studentphone);
+stmt.setString(4, studentaddress);
+stmt.setString(5, studentfees);
+cs.registerOutParameter(5, java.sql.Types.VARCHAR);
+cs.executeUpdate();
+
+```
+
+We must register the OUT parameters before executing the CallableStatement.
+		
+</blockquote>
+
+</details>
+  
+  
 
 
 
