@@ -6,7 +6,7 @@
 
 <blockquote>
 
-JDBC(Java Database Connectivity) is a Java API, which is helpful in interaction with the database to retrieve, manipulate and process the data using SQL. It will make use of JDBC drivers for connecting with the database. By using JDBC, we can access tabular data stored in various types of relational databases such as Oracle, MySQL, MS Access, etc.
+JDBC(Java Database Connectivity) is a Java API, which is helpful in interacting with the database to retrieve, manipulate and process the data using SQL. It will make use of JDBC drivers for connecting to the database. JDBC can access tabular data stored in various types of relational databases such as Oracle, MySQL, MS Access, etc.
 
 </blockquote>
 
@@ -22,9 +22,7 @@ JDBC(Java Database Connectivity) is a Java API, which is helpful in interaction 
 
 <blockquote>
 
-The `java.sql.ResultSet` interface represents the database result set, which is obtained after the execution of SQL query using Statement objects.Object of ResultSet maintains a cursor pointing to the current row of data in the result set. Initially, the cursor is located before the first row. Then the cursor is moved to the next row by using the `next()` method. The `next()` method can be used to iterate through the result set with the help of a while loop. If there are no further rows, the `next()` method will return false.
-
-Example for the creation of ResultSet is given below:
+The `java.sql.ResultSet` interface represents the database result set, which is obtained after the execution of SQL query using Statement objects. ResultSet objects maintains a cursor pointing to the current row of data in the result set. Initially, the cursor is located before the first row. Then the cursor is moved to the next row by using the `next()` method. The `next()` method can be used to iterate through the result set with the help of a while loop. If there are no further rows, the `next()` method will return false.for example:
 
 ```java
 
@@ -38,7 +36,7 @@ ResultSet rs = con.executeQuery(sqlQuery);
 
 ---
 
-3.Why we need JDBC driver in Jdbc?
+3.Why we need Jdbc driver in Jdbc?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -47,14 +45,14 @@ ResultSet rs = con.executeQuery(sqlQuery);
 <blockquote>
 
 
-JDBC driver is a software component having various classes and interfaces, that enables the Java application to interact with a database.To connect with individual databases, JDBC requires particular drivers for each specific database. These drivers are provided by the database vendor in addition to the database. 
+Jdbc driver is a software component having various classes and interfaces, that enables the Java application to interact with a database.To connect with individual databases, It requires particular drivers for each specific database. These drivers are provided by the database vendor in addition to the database. 
 
 For example:
 
-- MySQL Connector/J is the official JDBC driver for MySQL and we can locate the `mysql-connector-java-<version>-bin.jar` file among the installed files. 
+- MySQL Connector/J is the official Jdbc driver for MySQL and we can locate the `mysql-connector-java-<version>-bin.jar` file among the installed files. 
 - On windows, this file can be obtained at `C:\Program Files (x86)\MySQL\MySQL` `Connector J\mysql-connector-java-5.1.30-bin.jar`.
-- JDBC driver of Oracle 10G is `ojdbc14.jar` and it can be obtained in the installation directory of an Oracle at `…/Oracle/app/oracle/product/10.2.0/server/jdbc/lib` .
-- JDBC driver provides the connection to the database. Also, it implements the protocol for sending the query and result between client and database.
+- Jdbc driver of Oracle10G is `ojdbc14.jar` and it can be obtained in the installation directory of an Oracle at `…/Oracle/app/oracle/product/10.2.0/server/jdbc/lib` .
+- Jdbc driver provides the connection to the database. Also, it implements the protocol for sending the query and result between client and database.
 
 </blockquote>
 
@@ -70,7 +68,7 @@ For example:
 
 <blockquote>
 
-Jdbc DriverManager is a static class in Java, through which we manage the set of Jdbc drivers that are available for an application to use.Multiple JDBC drivers can be used concurrently by an application, if necessary. By using a Uniform Resource Locator(URL), each application specifies a JDBC driver.When we load the JDBC Driver class into an application, it registers itself to the DriverManager by using `Class.forName()` or `DriverManager.registerDriver()`. After this, when we call `DriverManager.getConnection()` method by passing the details regarding database configuration, DriverManager will make use of registered drivers to obtain the connection and return it to the caller program.
+Jdbc DriverManager is a static class in Java, through which we manage the set of Jdbc drivers that are available for an application to use.Multiple JDBC drivers can be used concurrently by an application. By using a Uniform Resource Locator(URL), each application specifies a Jdbc driver.When we load the JDBC Driver class into an application, it registers itself to the DriverManager by using `Class.forName()` or `DriverManager.registerDriver()`. when we call `DriverManager.getConnection()` method by passing the details regarding database configuration, DriverManager will make use of registered drivers to obtain the connection and return it to the caller program.
 
 </blockquote>
 
@@ -110,7 +108,7 @@ BLOB data type is used to store the image in the database. We can also store vid
 
  ---
   
- 7.Why we need stored procedure? What are the parameter types in stored procedure?
+ 7.Why we need stored procedure?Explain it?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -118,18 +116,18 @@ BLOB data type is used to store the image in the database. We can also store vid
 
 <blockquote>
 
-Stored procedure is a group of SQL queries that are executed as a single logical unit to perform a specific task. Name of the procedure should be unique since each procedure is represented by its name.For example, operations on an employee database like obtaining information about an employee could be coded as stored procedures that will be executed by an application. Code for creating a stored procedure named `GET_EMP_DETAILS`  is given below:
+Stored procedure is a group of SQL queries that are executed as a single logical unit to perform a specific task. Name of the procedure should be unique since each procedure is represented by its name.For example, operations on an employee database like obtaining information about an employee could be coded as stored procedures that will be executed by an application. Code for creating a stored procedure named `STUDENT_DETAILS`  is given below:
 
 ```java
 
 DELIMITER $$
-DROP PROCEDURE IF EXISTS `EMP`.`GET_EMP_DETAILS` $$
-CREATE PROCEDURE `EMP`.`GET_EMP_DETAILS` 
-  (IN EMP_ID INT, OUT EMP_DETAILS VARCHAR(255))
+DROP PROCEDURE IF EXISTS `STUDENT`.`STUDENT_DETAILS`  $$
+CREATE PROCEDURE `STUDENT`.`STUDENT_DETAILS`
+  (IN STUDENT_ID INT, OUT STUDENT_DETAILS VARCHAR(255))
 BEGIN
-  SELECT first INTO EMP_DETAILS
-  FROM Employees
-  WHERE ID = EMP_ID;
+  SELECT first INTO STUDENT_DETAILS
+  FROM Students
+  WHERE ID = STUDENT_ID;
 END $$
 DELIMITER ;
 
@@ -138,16 +136,10 @@ Stored procedures are called using CallableStatement class available in JDBC API
 
 ```java
 
-CallableStatement cs = con.prepareCall("{call GET_EMP_DETAILS(?,?)}");
+CallableStatement cs = con.prepareCall("{call STUDENT_DETAILS(?,?)}");
 ResultSet rs = cs.executeQuery();
 
 ```
-
-Three types of parameters are provided in the stored procedures. They are:
-IN: It is used for passing the input values to the procedure. With the help of `setXXX()` methods, you can bind values to IN parameters.
-OUT: It is used for getting the value from the procedure. With the help of `getXXX()` methods, you can obtain values from OUT parameters.
-IN/OUT: It is used for passing the input values and obtaining the value to/from the procedure. You bind variable values with the `setXXX()` methods and obtain values with the `getXXX()` methods
-
 </blockquote>
 
 </details>
@@ -209,16 +201,13 @@ A RowSet is an object that encapsulates a row set from either Jdbc result sets o
 
 There are four types of JDBC drivers in Java. They are:
 
-- Type I: Jdbc - Odbc bridge driver:The Jdbc–Odbc bridge acts as an interface between the client and database server. When a user uses a Java application to send requests to the database using Jdbc–Odbc bridge, it converts the Jdbc API into Odbc API and then sends it to the database. When the result is received from the database, it is sent to Odbc API and then to Jdbc API.It is platform-dependent because it uses Odbc which depends on the native library of the operating system. In this, Jdbc–Odbc driver should be installed in every client system and database must support for Odbc driver.It is easier to use but it gives low performance because it involves the conversion of Jdbc method calls to the Odbc method calls.
+- Type I: Jdbc - Odbc bridge driver:It acts as an interface between the client and database server. When a user uses a Java application to send requests to the database using Jdbc–Odbc bridge, it converts the Jdbc API into Odbc API and then sends it to the database. When the result is received from the database, it is sent to Odbc API and then to Jdbc API.It is platform-dependent because it uses Odbc which depends on the native library of the operating system. In this, Jdbc–Odbc driver should be installed in every client system and database must support for Odbc driver.It is easier to use but it gives low performance because it involves the conversion of Jdbc method calls to the Odbc method calls.
 
-- Type II: Native API – Partially Java Driver:It is almost similar to a Type I driver. Here, native code replaces the Odbc part. This native code part is targeted at a particular database product. It uses libraries of the client-side of the database. This Type II Driver converts the Jdbc method calls to native calls of the database native API.When the database gets the requests from the user, the requests are processed and sends the results back in the native format which is then converted into Jdbc format and pass it to the Java application.
-It was instantly adopted by the database vendors because it was quick and cheaper to implement. This driver gives faster response and performance compared to the Type I driver.
+- Type II: Native API – Partially Java Driver:It uses libraries of the client-side of the database. This Type II Driver converts the Jdbc method calls to native calls of the database native API.When the database gets the requests from the user, the requests are processed and sends the results back in the native format which is then converted into Jdbc format and pass it to the Java application.It was instantly adopted by the database vendors because it was quick and cheaper to implement. 
 
-- Type III: Network Protocol - Fully Java Driver:The type III driver is completely written in Java. It is similar to the 3-tier approach to access the database. It helps to send the Jdbc method calls to an intermediate server. The intermediate server communicates with the database on behalf of Jdbc. The application server converts the Jdbc calls either directly or indirectly to the database protocol which is vendor-specific.This approach does not increase the efficiency of architecture and it is costlier, due to this most of the database vendors don’t choose this driver. You need to have good knowledge about the application server for using this approach since the application server is used here.
+- Type III: Network Protocol - Fully Java Driver: It uses to send the Jdbc method calls to an intermediate server. The intermediate server communicates with the database on behalf of Jdbc. The application server converts the Jdbc calls either directly or indirectly to the database protocol which is vendor-specific.
 
-- Type IV: Thin Driver - Fully Java Driver:Type IV driver is directly implemented and it directly converts JDBC calls into vendor-specific database protocol. Most of the Jdbc Drivers used today are type IV drivers.
-It is platform-independent since it is written fully in Java. It can be installed inside the Java Virtual Machine(JVM) of the client, so there is no need of installing any software on the client or server side. This drive architecture is having all the logic to communicate directly with the database in a single driver.
-It provides better performance compared to other driver types. It permits easy deployment. Nowadays, this driver is developed by the database vendor itself so that programmers can use it directly without any dependencies on other sources.
+- Type IV: Thin Driver - Fully Java Driver: It is platform-independent since it is written fully in Java. It can be installed inside the Java Virtual Machine(JVM) of the client, so there is no need of installing any software on the client or server side. This drive architecture is having all the logic to communicate directly with the database in a single driver.It provides better performance compared to other driver types. It permits easy deployment. It is developed by the database vendor itself so that programmers can use it directly without any dependencies on other sources.Type IV driver is directly implemented and it directly converts JDBC calls into vendor-specific database protocol. Most of the Jdbc Drivers used today are type IV drivers.
 
 </blockquote>
 
