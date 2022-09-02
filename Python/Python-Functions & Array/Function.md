@@ -362,7 +362,7 @@ print(Output)
 	
 <details><summary> <b>Show Answer</b> </summary>
 	
-> Option B.55
+> Option A.55
 	
 <details><summary> <b>Explanation</b> </summary>
 
@@ -396,7 +396,7 @@ print(func(999))
 	
 def func(x):
     return 100
-print(func())
+print(func(999))
 ```
 	
 </details>
