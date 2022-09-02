@@ -173,7 +173,7 @@ else:
 ```
   a) Hi   
   b) Hello  
-  c) Hello-World  
+  c) Hello-World   
   d) Hi  
   &emsp;Hello  
 
@@ -1268,14 +1268,14 @@ else:
     print("False")
 print ("True")
 ```
-a) True  
-&emsp;True
-b) True  
-&emsp;False
-c) False
-&emsp;False
-d) False
-&emsp;True
+a) True   
+&emsp;True  
+b) True   
+&emsp;False  
+c) False  
+&emsp;False  
+d) False  
+&emsp;True  
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
@@ -1297,13 +1297,13 @@ else:
     print("False")
 # print ("True")
 ```
-a) True  
-&emsp;True
-b) True  
-&emsp;False
-c) False  
-&emsp;True
-d) None of the above  
+a) True   
+&emsp;True  
+b) True    
+&emsp;False  
+c) False    
+&emsp;True  
+d) None of the above    
             
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
