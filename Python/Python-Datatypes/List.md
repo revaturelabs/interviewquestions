@@ -15,7 +15,7 @@
 - iii) List is preferred for shorter sequence of data items, and on the other hand, arrays are preferred for data items of longer sequence. 
 - iv) We can print List without any loop, but for printing elements of an array a loop is required.
     
-    </blockquote>
+   
 </details>
 
 ---
@@ -51,12 +51,12 @@ ix) `sort()` : it will sort the list in ascending or descending order.
     
 x) `reverse()` : it reverses the order of elements present in a list.  
    
-    </blockquote>
+  
 </details>  
 
 ---
 
-3. In pyhton, how can you differentiate `pop()`, `remove()` and `del` in list?
+3.In python, how can you differentiate `pop()`, `remove()` and `del` in list?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -91,8 +91,9 @@ print(l)
   
 > [3, 2, 4]
 
-</blockquote>
-    </details>
+ </blockquote>
+  
+ </details>
 
 ---
 
@@ -183,9 +184,8 @@ while i<len(l):
 l = [1, 3, 3, 2]
 [ print(i) for i in l]
 ```
-
-                </blockquote>
-                </details>
+ 
+</details>
 
 ---
   
@@ -247,8 +247,7 @@ new_list.append(5)
 print(new_list)    # output: [1, 3, 3, 2, 5]
 print(original)    # output: [1, 3, 3, 2, 4]
 ```
-  
-    </blockquote>
+
   </details>
 
 ---
@@ -258,6 +257,8 @@ print(original)    # output: [1, 3, 3, 2, 4]
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
+  
+<blockquote>
   
 - Sometimes when we try to get the element by index which is not valid i.e the element that we want to access doesn't have index position in the list, then we get the `Indexerror: list index out of range` error. 
   
@@ -284,7 +285,7 @@ print (max(list1))
 ```
   
 A.saran  
-B.shan 
+B.shan   
 C.sandy  
 D.error 
 
@@ -669,6 +670,7 @@ print("-".join(my_list))
 A. HelloPython-  
 B. Hello-Python  
 C. -HelloPython  
+D. None of the above
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
