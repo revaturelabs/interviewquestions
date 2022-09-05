@@ -1,27 +1,33 @@
+#P1
+##EASY
+###BC
+1. If an interface annotated with @FunctionalInterface, java complier ensures that interface has ________ method.
 
-1: If an interface annotated with @FunctionalInterface, java complier ensures that interface has ________ method.
-
-    A. only one abstract
-    B. default 
-    C. final
-    D. static
+A. only one abstract
+B. default 
+C. final
+D. static
 
 Answer: A 
 
+#P1
+##EASY
+###TF
+2. Is @FunctionalInterface annotation is mandatory for every interface with a single abstract method?
 
- 2: Is `@FunctionalInterface` annotation is mandatory for every interface with a single abstract method?
-
-    A. Yes
-    B. No
+A. Yes
+B. No
 
 Answer: B
 Explanation: Not necessarily because the compiler will consider it as a functional interface when it has only one abstract method. 
 
-
+#P1
+##EASY
+###TF
 3: Is it possible to have default and static methods in the functional interface?
 
-    A. Yes
-    B. No
+A. Yes
+B. No
 
 Answer: A 
 Explanation: We can have any number of default and static methods but can contain only one abstract method. 
