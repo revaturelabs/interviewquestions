@@ -2,6 +2,7 @@
 ##EASY
 ###BC
 1.Choose the correct statements about the access modiferes in Java?
+
 i.It limits the accessiblility or visibility of the class, method, variable, and constructor.
 ii.There are four access modifiers Default, Public, Private and Protected.
 iii.The data members, class or methods which are not declared using any access modifier will be considered as Public. 
@@ -11,6 +12,7 @@ A.i and ii
 B.i and iii
 C.ii and iii
 D.i, ii and iii
+
 Answer:A
 Explanation:Access Modifiers are used to limit the accessibility or visibility of class, method, variable, and constructor. Default,Public,Private,Protected are the four data modifiers.
 
@@ -19,7 +21,7 @@ Explanation:Access Modifiers are used to limit the accessibility or visibility o
 ##EASY
 ###BC
 
-2.If we declare the class as default, then
+2.If we declare the class as default,then___
 
 A.We can't access the class outside the package and we can't import in another class.
 B.We can access the class outside the package but we can't import in another class.
@@ -33,7 +35,7 @@ Explanation:If we do not specify the access modifier, the default will be the ac
 ##EASY
 ###TF
 
-3.If we specify with the public access modifier then the accessibility will be within the package.
+3.State True or False: If we specify with the public access modifier then the accessibility will be within the package.
 
 A.True
 B.False
@@ -59,7 +61,7 @@ Explanation: If we specify with private access modifier to any field,the accessi
 ##EASY
 ###TF
 
-5.We can use private variable outside the class.
+5.State True or False: We can use private variable outside the class.
 
 A.True
 B.False
@@ -71,7 +73,7 @@ Explanation:No, we can't access the private variables outside the class.If we wa
 ##EASY
 ###BC
 
-6.If we specify with protected access modifier then the accessiblility will be
+6.If we specify with protected access modifier then the accessiblility will be___
 
 A.within the same class.
 B.within the same package or the subclass in the different package.
@@ -126,7 +128,7 @@ C.No error in this code , it will work fine and the output will be Arnold.
 D.There will not be any compilation error if we try to print name instead of emp.name.
 
 Answer:B
-Explanation:If we declare the data member to be private it can't be accessed outside the class.
+Explanation:If we declare the data member to be private, it can't be accessed outside the class.
 
 #P2
 ##MEDIUM
