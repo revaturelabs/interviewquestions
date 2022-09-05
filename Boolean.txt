@@ -1,0 +1,140 @@
+Boolean
+
+#P1
+##EASY
+###BC
+1.What is the output of the following code?
+
+class truth:
+    pass
+x=truth()
+print(bool(x))
+
+A.False    
+B.True    
+C.pass    
+D.error
+
+Answer:B 
+Explanation:If the truth method is not defined,the object is considered true. Hence, the output of the code is true.
+
+#P2
+##EASY
+###BC
+2.What is the boolean data type?
+
+A.Non-primitive data type
+B.Built-in data type
+C.True
+D.Both A and B
+
+Answer:B
+#P1
+##EASY
+###BC
+3.Predict the output of the following code.
+
+class myclass():
+  def __len__(self):
+    return 0
+myobj = myclass()
+print(bool(myobj))
+
+A.True
+B.False
+
+Answer:B.False
+
+#P1
+##EASY
+###BC
+4.Predict the output of the code.
+
+print(['hello','morning'][bool('')])
+
+A.Hello  
+B.morning
+C.hello
+D.hello morning
+
+Answer:C
+Explanation: if the argument is passed to the boolean function that amounts to zero. Else 'morning' will be printed.
+
+#P1
+##EASY
+###BC
+5.What is the output of the following code?
+
+l=[1,0,2,0,'hello','',[]]
+l2=list(filter(bool,l))
+print(l2)
+
+A.[[1,0,2,0,'hello']]
+B.[1,0,2,0,'hello','',[]]
+C.[1,2,'hello']
+D.Both
+
+Answer:C
+
+#P1
+##EASY
+###BC
+6.What is the output of the following code snippet?
+
+print(not(10>20) and not(10<0))
+                    
+A.True    
+B.False   
+C.Error    
+D.No output    
+
+Answer:A
+
+#P1
+##EASY
+###BC
+7.What is the output of the following code?
+ 
+x = 200.60
+print(isinstance(x, int))     
+
+A.200    
+B.True   
+C.200.60    
+D.False  
+
+Answer:D
+
+#P1
+##EASY
+###BC
+8.Predict the output of the following code and give the correct code. 
+def myFunction() :
+  return True
+myFunction()
+
+A.False  
+B.Error  
+C.True  
+D.None of the above  
+
+Answer:C
+
+#P1
+##EASY
+###BC
+9.What will to following code to print?
+
+if (10 < 0) and (0 < -10):
+    print("A")
+elif (10 > 0) or False:
+    print("B")
+else:
+    print("C")
+
+A.A  
+B.B  
+C.C  
+D.B and C  
+
+Answer:B

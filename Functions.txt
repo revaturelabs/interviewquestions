@@ -1,0 +1,255 @@
+// Functions Questions
+
+#P1
+##EASY
+###BC
+1. What is the output of the following code?
+```
+def my_func()
+   x = 10
+   print("Value :",x)
+x = 20
+my_func()
+print("Value :",x)
+```
+
+a) 10
+b) 20
+c) Syntax Error
+d) Runtime Error
+
+> c) Syntax Error
+
+>>> Here, we get Syntax error because the correct syntax is def function_name(): 
+
+
+
+#P1
+##EASY
+###BC
+2. What is the output of the following code?
+```
+def outer_function(a, b):
+    def inner_function(c, d):
+        return c + d
+    return inner_function(a, b)
+    return a
+Output = outer_function(45, 10)
+print(Output)
+```
+
+a) 55
+b) (45,10)
+c) 45
+d) Syntax Error
+
+> Option a) 55
+
+>>> Adding multiple return statements doesn’t perform any task. Once function execution is encountered with the return statement, it stops the execution by returning whatever is specified by the return statement.
+
+
+#P1
+##EASY
+###BC
+3. Predict the output of the following code.
+```
+def func(x):
+    return 100
+print(func(999))
+```
+
+a) 999
+b) 100
+c) 1
+d) Error
+
+> Option b) 100
+
+
+#P1
+##EASY
+###BC
+4. What is the output of the following code?
+```
+def salary(**kwargs):
+    for i in kwargs:
+        print(i)
+salary(emp="Anto", salary=10000)
+```
+
+a) Anto
+b) Anto
+   10000
+c) emp 
+   salary
+d) 10000
+   Anto
+
+> Option c) is correct
+
+>>> To accept Variable Length of Keyword Arguments, i.e., To create functions that take 'n' number of Keyword arguments, we use **kwargs (prefix a parameter name with a double asterisk ** ).
+
+keyword arguments: display(emp="Anto", salary=10000)
+
+This **kwargs collects all passed arguments into a new dictionary, where the argument names are the keys, and their values are the key’s values. So, to get the values, we need to iterate the kwargs dictionary.
+
+
+#P1
+##EASY
+###BC
+5. What is the output of the following code?
+```
+def func():
+    name = "jack"
+    name = "henry"
+    print("Hello!", name)
+func()
+```
+
+a) Hello! jack
+b) Hello! henry
+c) Hello! jack
+   Hello! henry
+d) Error
+
+> option b) is correct
+
+
+#P1
+##EASY
+###BC
+6. What is the output of following code snippet?
+```
+def func(val1, val2=2, val3=7, val4=1):
+    return val1**val2**val3
+print(func(val2=2, val1=2, val3=4))
+```
+a) 65536
+b) 32768
+c) Type Error
+d) Name Error   
+
+> option a) 65536
+
+
+#P1
+##EASY
+###BC
+7. What is the output of following code snippet?
+```
+l=[1, -2, -3, 4, 5]
+def f1(x):
+    return x<2
+m1=filter(f1, l)
+print(list(m1))
+```
+a) [1, 4, 5 ]
+b) Error
+c) [-2, -3]
+d) [1, -2, -3]
+
+> option d)
+
+>>> The code shown above returns only those elements from the list, which are less than 2. The functional programming tool used to achieve this operation is filter. Hence the output of the code is:[1, -2, -3].
+
+
+#P1
+##EASY
+###BC
+8. Choose the correct function declaration of fun1() so that we can execute the following function call successfully.
+```
+fun1(25, 75, 55)
+fun1(10, 20)
+```
+a) def func1(**kwargs)
+b) No,it is not possible
+c) def fun1(args*)
+d) def fun1(*data)
+
+> option d) def fun1(*data)
+
+>>> To accept multiple values or if the number of arguments is unknown, we can add the * before the parameter name to accept arbitrary arguments. i.e., To accept Variable Length of Positional Arguments. To create functions that take 'n' number of Positional arguments, we use *args(prefix a parameter name with an asterisk *).
+
+
+#P1
+##EASY
+###BC
+9. What is the output of following code snippet?
+```
+l=[1, -2, -3, 4, 5]
+def f1(x):
+    return x<-1
+m1=map(f1, l)
+print(list(m1))
+```
+a) [False, False, False, False, False]
+b) [False, True, True, False, False]
+c) [True, False, False, True, True]
+d) [True, True, True, True, True]
+
+> option b)
+
+>>> This code shown returns a list which contains True if the corresponding element of the list is less than -1, and false if the corresponding element is greater than -1. Hence the output of the code shown above: [False, True, True, False, False].
+
+
+#P2
+##EASY
+###BC
+10. Which of the following statement holds true about call by value?
+
+a) A variable itself is passed.
+b) Change in the copy of variable modify the original value of variable.
+c) Default calling-primitive type are passed using the call_by_value.
+d) all the above
+
+> option c)
+
+
+#P2
+##EASY
+###BC
+11. Which of the following statement holds true about call by reference?
+
+a) A variable itself is passed.
+b) Change in the copy of variable doesn't modify the original value of variable.
+c) Default calling-Objects are implicitly passed using call_by_reference.
+d) Both a) and c)
+
+> option d)
+
+
+12. What abs() function returns in python?
+
+a) returns true when all elements in iterable is true
+b) deletes attribute from the object
+c) returns absolute value of a number
+d) runs code within program
+
+> option c) 
+
+
+#P2
+##EASY
+###BC
+13. What all() function returns in python?
+
+a) returns true when all elements in iterable is true
+b) deletes attribute from the object
+c) returns absolute value of a number
+d) runs code within program
+
+> option b) 
+
+
+#P2
+##EASY
+###TF
+14. bytes() is a Built-in function in python 
+
+a) True
+c) False
+
+> option a) True
+
+
+

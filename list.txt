@@ -1,0 +1,277 @@
+List
+
+#P1
+##EASY
+###BC
+1.Predict the output of following code.
+
+list1 = ['saran', 'shalini', 'sandy']
+print (max(list1))
+
+A.saran
+B.shan 
+C.sandy
+D.error
+
+Answer:B.shan
+Explanation:max() function in python returns the element with the highest value from an iterable. But if the elements of iterable[list, tuple, etc] are strings, then it compares alphabetically and returns the maximum from them. In this code, the first letter of each word is 's', so it checks the 2nd letter of each word and as 'h' is a greater value then 'a', it returns shan as output.
+
+#P1
+##EASY
+###BC
+2.Predict the output of following code.
+
+list1 = ["Hello", [2, 5, 7, 9, 3]]
+print(list1[0][-3])
+print(list1[1][2])
+
+A.e
+  7
+B.H
+  5
+C.l
+  5
+D.l
+  7
+
+Answer:D.l
+         7
+Explanation:First, print statement picks the 0th index value which is "Hello", after that for -3 index iterates over hello from the last and prints the 'l' letter from "Hello". The 2nd print statement picks the 1st index value from the list which itself is a list of [2, 5, 7, 9, 3] values, after that it finds the element at index 2 from that list and print its value which is 7. Hence, l and 7 will be printed.
+
+
+#P1
+##EASY
+###BC
+3.Select all the correct options to join two Lists in Python.
+
+list1 = [2, 5, 7, 9, 3]
+list2 = [1, 4, 6, 8] 
+
+A.new = list1 + list2
+B.new = extend(list1, list2)
+C.new = list1.extend(list2)
+D.new.extend(list1, list2)
+
+Answer:Options are (a) and (c).
+Explanation:extend() method takes 1 argument as parameter and not 2, so options b) and d) are eliminated there. The '+' operator can also be used to join two list in python.
+
+
+#P1
+##EASY
+###BC
+4.What is the output of the following list operation?
+
+sampleList = [10, 20, 30, 40, 50]
+print(sampleList[-2])
+print(sampleList[-4:-1])
+
+A.40
+ [20,30,40]
+B.\error
+C.lst index out of range
+D.No output
+
+Answer:A.40
+      [20,30,40]
+Explanation:Use the range of negative indexes to search from the end of the list.
+
+
+#P1
+##MEDIUM
+###BC
+5.What is the output of the following list operation?
+
+aList = [10, 20, 30, 40, 50, 60, 70, 80]
+print(aList[2:5])
+print(aList[:4])
+print(aList[3:])
+
+A.[20, 30, 40, 50]
+  [10, 20, 30, 40]
+  [30, 40, 50, 60, 70, 80]
+B.[30, 40, 50]
+  [10, 20, 30, 40]
+  [40, 50, 60, 70, 80]
+C.[10, 20, 30, 40]
+  [50, 60, 70, 80]
+D.None of the above
+
+Answer:[30, 40, 50]
+       [10, 20, 30, 40]
+       [40, 50, 60, 70, 80]
+Explanation:Python list collection is ordered and changeable. The list also allows duplicate members. To get a sublist out of the list, we need to specify the range of indexes. To get a sublist, we need to specify where to start and where to end the range.
+
+
+#P1
+##EASY
+###BC
+6.What is the output of the following code?
+
+my_list = ["Hello", "Python"]
+print("-".join(my_list))
+
+A.HelloPython-
+B.Hello-Python
+C.-HelloPython
+D.None of the above
+
+Answer:B.Hello-Python
+Explanation: The join() method will join all items in a list into a string, using a hyphen character as a separator.
+
+
+#P1
+##EASY
+###BC
+7.What is the output of following code snippet?
+
+Data = ['Sudip','Shubham','Priya','Aman']
+print(Data[-1][-1])
+
+A.A
+B.Aman
+C.Error
+D.n
+
+Answer:D.n
+
+#P1
+##EASY
+###BC
+8.What is the output of following code snippet?
+
+list1=[1,4,2,6,10,2,28,16,2,15,10]
+x=list1.pop(2)
+print(set([x]))
+
+A.[2]
+B.{2}
+C.2
+D.Value Error
+
+Answer:B.{2}
+Explanation:It will printing the pop out values.
+
+#P1
+##EASY
+###BC
+9.What is the output of following code snippet?
+
+l1 = [1, 2, 3]
+l2 = l1
+l3 = l1.copy()
+l4 = list(l1)
+l1[0] = [7]
+print(l1, l2, l3, l4)
+
+A.[7, 2, 3] [7, 2, 3] [1, 2, 3] [1, 2, 3]
+B.[[7], 2, 3] [[7], 2, 3] [[7], 2, 3] [1, 2, 3]
+C.[7, 2, 3] [7, 2, 3] [7, 2, 3] [1, 2, 3]
+D.[[7], 2, 3] [[7], 2, 3] [1, 2, 3] [1, 2, 3]
+
+Answer:D.[[7], 2, 3] [[7], 2, 3] [1, 2, 3] [1, 2, 3]
+
+#P1
+##EASY
+###BC
+10.What is the output of following code snippet?
+
+sampleList = [10, 20, 30, 40, 50]
+sampleList.append(60)
+print(sampleList)
+sampleList.append(60)
+print(sampleList)
+
+A.[10, 20, 30, 40, 50, 60] [10, 20, 30, 40, 50, 60]
+B.[10, 20, 30, 40, 50, 60] [10, 20, 30, 40, 50, 60, 60]
+C.[10, 20, 30, 40, 50] [10, 20, 30, 40, 50, 60]
+D.Error
+
+Answer:B.[10, 20, 30, 40, 50, 60] [10, 20, 30, 40, 50, 60, 60]
+
+
+#P1
+##EASY
+###BC
+11.What is the output of the following code?
+
+lst=[11, 100, 101, 999, 1001]
+answer_1=lst[-1]
+print(answer_1)
+
+A.[1001,999,101,100,11]
+B.[1001]
+C.1001
+D.[11, 100, 101, 999, 1001]
+
+Answer:C.1001
+Explanation:In this code, we are using negative indexing, and so we are getting last element from that list.
+
+
+#P1
+##EASY
+###BC
+12.Predict the output of the following code.(Removing the last item of a list)
+
+lst=[55, 777, 54, 6, 76, 101, 1, 2, 8679, 123, 99]
+lst.remove(99)
+print(lst)
+
+A.99
+B.[55, 777, 54, 6, 76, 101, 1, 2, 8679, 123, 99]
+C.[55, 777, 54, 6, 76, 101, 1, 2, 8679, 123]
+D.Both B and C
+
+Answer:C.[55, 777, 54, 6, 76, 101, 1, 2, 8679, 123]
+Explanation: Using the .remove() method and inside parenthesis, we can type the value you’d like to remove.
+
+
+#P1
+##EASY
+###BC
+13.What will be the correct output for the following code?
+
+listnum = [45,67,12,14,56,87]
+list =listnum[::-1]
+print (list)
+
+A.[87, 56, 14, 12, 67, 45]
+B.SyntaxError
+C.[45,67,12,14,56,87]
+D.None of the above
+
+Answer:A.[87, 56, 14, 12, 67, 45]
+Explanation: Here,we are using negative indexing to reverse a list.
+
+
+#P1
+##EASY
+###BC
+14.Write the output of the following code :
+L=[1,2,3,4,5]
+for i in L:
+     print(i,end=” “)
+     i=i+1
+
+A.1, 2, 3, 4, 5
+B.1, 3, 5
+C.Error
+D.None of the above
+
+Answer:A.1, 2, 3, 4, 5
+
+
+#P1
+##EASY
+###BC
+15.del statement can delete the following from the List?
+
+A.Single Element
+B.Multiple Elements
+C.All elements along with List object
+D.All of the above
+
+Answer:D.All of the above
+Explanation:Because all the options can delete from the List
+
+
+
