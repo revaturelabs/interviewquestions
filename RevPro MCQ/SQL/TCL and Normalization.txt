@@ -1,65 +1,36 @@
 1. Which of the following is/are transaction control commands in SQL?
 
-- a) Commit
-- b) Rollback
-- c) Both A. and B.
-- d) None of the above
+A. Commit
+B. Rollback
+C. Both A. and B.
+D. None of the above
 
-<details>
+Answer: C
 
-<summary> Show Answer </summary>
-
-Answer:
-
-C) Both A. and B.
-
-Explanation:
-
-Commit and Rollback are transaction control commands in SQL.
-
-</details>
+Explanation: Commit and Rollback are transaction control commands in SQL.
 
 2. What is the Command used to Store some data's Permanently in a database.
 
-- a) SavePoint
-- b) Grant
-- c) Commit
-- d) All of The Above.
+A. SavePoint
+B. Grant
+C. Commit
+D. All of The Above.
 
-<details>
+Answer: C
 
-<summary> Show Answer </summary>
-
-Answer:
-
-c) Commit
-
-Explanation:
-
-Commit is the command used in mySQL to store data permanently in a table.
-
-</details>
+Explanation: Commit is the command used in mySQL to store data permanently in a table.
 
 3. Larry was updating a SQL table during his practical exam during which he mistakenly added few mismatched data's his examination time is about to end
    Suggest a quick solution through which he can score full marks.
 
-- a)Revoke
-- b)Grant
-- c)Alter
-- d)Rollback
+A. Revoke
+B. Grant
+C. Alter
+D. Rollback
 
-<details>
+Answer: D
 
-<summary> Show Answer </summary>
-
-Answer:
-
-d) Rollback
-
-Explanation:
-Rollback is the command used in mySQL to restore any unsaved data in a table.
-
-</details>
+Explanation: Rollback is the command used in mySQL to restore any unsaved data in a table.
 
 4. Few Students Mark has been uploaded in a database , to prevent the data loss from the database which command can be used
 
@@ -71,66 +42,48 @@ Rollback is the command used in mySQL to restore any unsaved data in a table.
 | Chester       | 88    |
 | Duke          | 99    |
 
-- a) Grant
-- b) Select
-- c) Commit
-- d) Rollback
+A. Grant
+B. Select
+C. Commit
+D. Rollback
 
-<details>
+Answer: C
 
-<summary> Show Answer </summary>
+Explanation: Commit is the command used in mySQL to store data permanently in a table.
 
-c) Commit
+5. True or False
 
-Explanation:
-Commit is the command used in mySQL to store data permanently in a table.
-
-</details>
-
-5. Find the Error in the Following Command:
    Insert into TableExample( col1 [datatype],col2 [datatype],col3[datatype])
    values(val1,val2,val3);
    commit;
    rollback;
+Here,
+     rollback command is not applicable if a Commit is used, it is used to store data permanently in a table.
 
-<details>
+A. True
 
-<summary> Show Answer </summary>
+B. False
 
-Answer:
+Answer: A
 
-rollback command is not applicable if a Commit is used, it is used to store data permanently in a table.
-
-Explanation:
-
-Commit command is used to store a data in the table permanently, therefore once the Commit command is being executed there is no way for Rollback.
-
-</details>
+Explanation: Commit command is used to store a data in the table permanently, therefore once the Commit command is being executed there is no way for Rollback.
 
 6. Larry and Weasly was assigned a project in SQL they both worked seperatly hence they had some duplicate data , both are confused in finding a way to get rid of the duplicate data,Luckily Larry used a savepoint command during data insertion.
    Suggest them a solution.
 
-- a) By using just Rollback command.
-- b) By Using Only Savepoint Command
-- c) Duplicate datas cant be stored in a database
-- d) By Combining Savepoint and Rollback command
+A. By using just Rollback command.
+B. By Using Only Savepoint Command
+C. Duplicate datas cant be stored in a database
+D. By Combining Savepoint and Rollback command
 
-<details>
- 
-<summary> show Answer </summary>
+Answer: D
 
-Show Answer:
-
-d) By Combining Savepoint and Rollback command
-
-Explanation:
-
-Savepoint is a command in MySQL that is like a Restore Point in Windows i.e., If an error occurs it rollbacks to the point where the restore point was created, Likewise in MySQL if we want to go to a point we will be using the
+Explanation: Savepoint is a command in MySQL that is like a Restore Point in Windows i.e., If an error occurs it rollbacks to the point where the restore point was created, Likewise in MySQL if we want to go to a point we will be using the
 ROLLBACK TO [SAVEPOINT NAME];
 
-</details>
+7.
 
-7. INSERT INTO class VALUES(2, 'Rashid');
+INSERT INTO class VALUES(2, 'Rashid');
 
 COMMIT;
 
@@ -148,13 +101,7 @@ SAVEPOINT C;
 
 SELECT \* FROM class;
 
-What will be the Output for the following command?
-
-<details>
-
-<summary> Show Answer </summary>
-
-Answer:
+The Output for the following command:
 
 | id  | name    |
 | --- | ------- |
@@ -162,14 +109,17 @@ Answer:
 | 3   | Charlie |
 | 4   | Brandon |
 
-Explanation:
-The Above commands is inserting values into a table class.
+A. True
+
+B. False
+
+Answer: A
+
+Explanation: The Above commands is inserting values into a table class.
 and commit command is used to make sure that the data is stored permanently.
 Then the is being modified using Update Command.
 Savepoint is used to save that data at the certain point of time.
 and the select command is used to view the data in the table.
-
-</details>
 
 8. What does the following code snippet do?
 
@@ -177,45 +127,28 @@ DELETE FROM STUDENTS
 WHERE AGE = 16;
 ROLLBACK;
 
-- a) Performs an undo operation on the delete operation.
-- b) Deletes the rows from the table where AGE = 16.
-- c) Deletes the entire table.
-- d) none of the Above.
+A. Performs an undo operation on the delete operation.
+B. Deletes the rows from the table where AGE = 16.
+C. Deletes the entire table.
+D. none of the Above.
 
-<details>
+Answer: A
 
-<summary> Show Answer </summary>
-
-Answer:
-a) Performs an undo operation on the delete operation.
-
-Explanation:
-Delete Command is used to delete data from the table where age =16.
+Explanation:Delete Command is used to delete data from the table where age =16.
 Then the data is beinged rollbacked using rollback command.
-
-</details>
 
 9. During transaction before commit which of the following statements is done automatically in case of shutdown?
 
-- a) Rollback
-- b) Commit
-- c) View
-- d) Flashback
+A. Rollback
+B. Commit
+C. View
+D. Flashback
 
-<details>
+Answer: A
 
-<summary> Show Answer </summary>
- Answer:
+Explanation: In case of a shutdown, before committing, Rollback is done.
 
-a) Rollback
-
-Explanation:
-
-In case of a shutdown, before committing, Rollback is done.
-
-</details>
-
-10. We want to update the location of Amritha to "Gujarat" in the table “EMPLOYEE” an make sure to save the chages permanently. EMPLOYEE table is as follows:
+10. We updated the location of Amritha to "Gujarat" in the table “EMPLOYEE” an make sure to save the chages permanently. EMPLOYEE table is as follows:
 
 | EMP_ID | EMP_NAME | EMP_LOC |
 | ------ | -------- | ------- |
@@ -223,19 +156,20 @@ In case of a shutdown, before committing, Rollback is done.
 | 200    | Rajesh   | Mumbai  |
 | 300    | Rashmika | Chennai |
 
-<details>
-<summary> Show Answer </summary>
-
-Answer:
 UPDATE EMPLOYEE SET EMP_LOC = 'Gujarat' WHERE EMP_NAME= 'Amritha';
 COMMIT;
 
-Explanation:
-Update Command is used to alter the data in the table, Commit command is used to save the changes permanently.
+Will this Command achieve the desired output?
 
-</details>
+A. False
 
-11. Fill in the missing command based on the output,
+B. True
+
+Answer: B
+
+Explanation: Update Command is used to alter the data in the table, Commit command is used to save the changes permanently.
+
+11.
 
 CREATE TABLE Players(
 ID INT,
@@ -250,186 +184,129 @@ PRIMARY KEY (ID)
 insert into Players values(1, 'Jonathan', 'Swift', DATE('1981-04-22'), 'CapeTown', 'SouthAfrica');<br>
 insert into Players values(2, 'Kumara', 'Sangakkara', DATE('1977-10-27'), 'Matale', 'Srilanka'); <br>
 insert into Players values(1, 'Mahendra Singh', 'Dhoni', DATE('1981-07-07'), 'Ranchi', 'India');<br>
+________;
 
+The Commmand to be used to get the below output is Rollback. True or False?
 O/P:
 
 | ID  | First_Name     | Last_Name | Date_Of_Birth | Place_Of_Birth | Country |
 | --- | -------------- | --------- | ------------- | -------------- | ------- |
 | 1   | Mahendra Singh | Dhoni     | 1981-07-07    | Ranchi         | India   |
 
-<details>
-<summary> Show Answer </summary>
-Answer:
+A. True
 
-Rollback
+B. False
 
-Explanation:
+Answer: A
 
-Based on the output we can see that the insertion of the first 2 columns has been removed, Only the insertion below the missing command hence the missing command is Rollback.
-
-</details>
+Explanation: Based on the output we can see that the insertion of the first 2 columns has been removed, Only the insertion below the missing command hence the missing command is Rollback.
 
 12. When Working with a huge data sets, which is a smarter way to define commit command?
 
-- a) Define commit after each insertion / Updation in the table.
-- b) Defining Set Autocommit=1 at the beginning of the file.
-- c) It is Not possible to save changes permanently in MySQL.
-- d) The Changes are saved Permanently by Default.
+A. Define commit after each insertion / Updation in the table.
+B. Defining Set Autocommit=1 at the beginning of the file.
+C. It is Not possible to save changes permanently in MySQL.
+D. The Changes are saved Permanently by Default.
 
-<details>
-<summary>Show Answer</summary>
-Answer:
+Answer: B
 
-b)Defining Set Autocommit=1 at the beginning of the file.
-
-Explanation:
-
-Set Autocommit=1 is a command in MySQL that is used to enable autocommit therefore each changes stored permanently by default.
-
-</details>
+Explanation: Set Autocommit=1 is a command in MySQL that is used to enable autocommit therefore each changes stored permanently by default.
 
 13. What is the use of SAVEPOINT command from Transition Control Language.
 
-- a) Used to Load a file.
-- b) Used to update the file in the databsase.
-- c) Used to save the changes till a certain point in time.
-- d) None of the Above.
+A. Used to Load a file.
+B. Used to update the file in the databsase.
+C. Used to save the changes till a certain point in time.
+D. None of the Above.
 
-<details>
-<summary>Show Answer</summary>
-Answer:
+Answer: C
 
-c) Used to save the changes till a certain point in time.
-
-Explanation:
-
-it is a point in a transaction when you can roll the transaction back to a certain point without rolling back the entire transaction.
-
-</details>
+Explanation: it is a point in a transaction when you can roll the transaction back to a certain point without rolling back the entire transaction.
 
 14. In order to start the transaction, the command used is –
 
-- a. Mysql > START COMMIT;
-- b. Mysql > START TRANSACTION;
-- c. Mysql > START ROLLBACK;
-- d. None of the above
-<details>
-<summary>Show Answer</summary>
+A. Mysql > START COMMIT;
+B. Mysql > START TRANSACTION;
+C. Mysql > START ROLLBACK;
+D. None of the above
 
-Answer:
+Answer: B
 
-b) Mysql > START TRANSACTION;
-
-Explanation:
-
-To start the transaction, Mysql > START TRANSACTION; command is used.
-
-</details>
+Explanation: To start the transaction, Mysql > START TRANSACTION; command is used.
 
 15. What type of join is needed when you wish to include rows that do not have matching values?
 
-- A. Equi-join
-- B. Natural join
-- C. Outer join
-- D. All of the above
-
-<details>
-
-<summary>Show Answer</summary>
-
-Answer:
-
+A. Equi-join
+B. Natural join
 C. Outer join
+D). All of the above
 
-Explanation:
+Answer: C
 
-Outer joins are joins that return matched values and unmatched values from either or both tables
-
-</details>
+Explanation: Outer joins are joins that return matched values and unmatched values from either or both tables
 
 16. Which is the best way to reduce the data redundancy in a database.?
 
-- a. De-Normalization
+A. De-Normalization
+B. Normalization
+C. Abnormalization
+D. None of these Option
 
-- b. Normalization
+Answer: B
 
-- c. Abnormalization
-
-- d. None of these Option
-
-<details>
-
-<summary>Show Answer</summary>
-
-Answer
-
-b. Normalization
-
-Explanation
-
-Normalization is the process of organizing data in a database.
-
-</details>
+Explanation: Normalization is the process of organizing data in a database.
 
 17. Which one is based on multi-valued dependency:
 
-a) First
-
-b) Second
-
-c) Third
-
-=d) Fourth
+A. First
+B. Second
+C. Third
+D. Fourth
 
 18. If a relation is in BCNF, then it is also in
 
-a) 1 NF
+A. 1 NF
+B. 2 NF
+C. 3 NF
+D. All of the mentioned
 
-b) 2 NF
-
-c) 3 NF
-
-=d) All of the mentioned
+Answer: D
 
 19. If every non-key attribute is functionally dependent primary key, then the relation will be in
 
-a) First normal form
+A. First normal form
+B. Second normal form
+C. Third form
+D. Fourth normal form
 
-=b) Second normal form
-
-c) Third form
-
-d) Fourth normal form
+Answer: B
 
 20. If an attribute of a composite key is dependent on an attribute of the other composite key, a normalization called \_\_\_\_\_ is needed.
 
-a) DKNF
+A. DKNF
+B. Boyce-Codd Normal Form
+C. Fourth
+D. Third
 
-=b) Boyce-Codd Normal Form
-
-c) Fourth
-
-d) Third
+Answer: B
 
 21. The term for information that describes what type of data is available in a database is:
 
-a) Data dictionary
+A. Data dictionary
+B. Data repository
+C. Index data
+D. Metadata
 
-b) data repository
-
-c) Index data
-
-=d) Metadata
+Answer:D
 
 22. A data type that creates unique numbers for key columns in Microsoft Access is:
 
-=a) Autonumber
+A. Autonumber
+B. Boolean
+C. Sequential key
+D. Sequential number
 
-b) Boolean
-
-c) Sequential key
-
-d) Sequential number
+Answer: A
 
 23. A dependency exist between two columns when
 
@@ -443,241 +320,295 @@ d) Together they constitute a foreign key
 
 24. In the ___________ normal form, a composite attribute is converted to individual attributes.
 
-=a) First
-
-b) Second
-
-c) Third
-
-d) Fourth
+A. First
+B. Second
+C. Third
+D. Fourth
 
 25. Tables in second normal form (2NF):
 
-=a) Eliminate all hidden dependencies
+A. Eliminate all hidden dependencies
+B. Eliminate the possibility of a insertion anomalies
+C. Have a composite key
+D. Have all non key fields depend on the whole primary key
 
-b) Eliminate the possibility of a insertion anomalies
-
-c) Have a composite key
-
-d) Have all non key fields depend on the whole primary key
+Answer: A
 
 26. Key to represent relationship between tables is called
 
-a) Primary key
+A. Primary key
+B. Secondary Key
+C. Foreign Key
+D. None of the mentioned
 
-b) Secondary Key
-
-= c) Foreign Key
-
-d) None of the mentioned
+Answer: C
 
 27. A functional dependence is a link between:
 
 A. Tables
 B. Rows
 C. Relations
-= D. Attributes
+D. Attributes
+
+Answer: D
 
 28. Altering the data might have unfavourable effects on some relationships, these are called:
 
 A. Referential integrity constraints
-= B. Modification anomalies
+B. Modification anomalies
 C. Normal forms
 D. Transitive dependencies
+
+Answer: B
 
 29. This form of a connection eliminates any modification abnormalities:
 
 A. First normal form
 B. Second normal form
 C. Third normal form
-= D. Domain/key normal form
+D. Domain/key normal form
+
+Answer: D
 
 30. It follows that characteristic C must be determined by attributes A and B, which is know as:
 
 A. A → C.
 B. B → C.
-=C. (A,B) is a composite determinant.
+C. (A,B) is a composite determinant.
 D. C is a determinant.
- 
+
+Answer: C 
+
 31. If characteristic A influences both qualities B and C, then:
 
-= A. A → B.
+A. A → B.
 B. B → A.
 C. C → A.
 D. (B,C) → A.
 
+Answer: A
+
 32. The multivalued dependence constraint problem has a number of solutions, including:
 
-= A. Spliting the relation into two relations, each with a single theme.
+A. Spliting the relation into two relations, each with a single theme.
 B. Change the theme.
 C. Create a new theme.
 D. Add a composite key.
 
+Answer: A
+
 33. A function is in ______ form if it has no partial functional dependencies
 
 A.3NF
-=B.2NF
+B.2NF
 C.4NF
 D.BCNF
+
+Answer: B
 
 34. 4NF is designed in a way such that there are no : 
 
 A. Transitive dependency
 B. Join dependency
-=C. Multi valued dependency
+C. Multi valued dependency
 D. None of these
+
+Answer: C
 
 35. 5NF is designed in a way such that there are no :
 
 A. Transitive dependency
-=B. Join dependency
+B. Join dependency
 C. Multi valued dependency
 D. All of the above
+
+Answer: B
 
 36. A Boyce-Codd Normal Form is:
 
 A. Loss less join and dependency preserving
-=B. Loss less join but not dependency preserving
+B. Loss less join but not dependency preserving
 C. Not loss less join but dependency preserving
 D. None of these 
+
+Answer: B
 
 37. Every Boyce-Codd normal form is in:
 
 A. First normal form
 B. Second normal form
 C. Third normal form
-=D. All of the above
+D. All of the above
+
+Answer: D
 
 38. The requirement to use increasingly complex SQL in database systems is _____________ of normalization.
 
 A.Advantage
-=B.Disadvantage
+B.Disadvantage
 C.Either an advantage or disadvantage
 D.Neither an advantage nor disadvantage
 
+Answer: B
+
 39. _______ of normalisation is the elimination of modification anomalies.
 
-=A. Advantage
+A. Advantage
 B. Disadvantage
 C. Either an advantage or disadvantage
 D. Neither an advantage nor disadvantage  
 
+Answer: A
+
 40. Dependencies with several values should be _______ removed.
 
-=A. Always
+A. Always
 B. Commonly
 C. Seldom
 D. Never
+
+Answer: A
 
 41. When assessing the table structure of an acquired set of tables with data, accessing the validity of possible referential integrity constraints on foreign keys is (part of) the:
 
 A. First step.
 B. Second step.
-=C. Third step.
+C. Third step.
 D. Fourth step.
+
+Answer: C
 
 42. When assessing the table structure of an acquired set of tables with data, determining foreign keys is (part of) the:
 
 A. First step.
-=B. Second step.
+B. Second step.
 C. Third step.
 D. Fourth step.
+
+Answer: B
 
 43. The task of Creating a read-only database is ________ assigned to beginners of the database profession.
 
 A. Always
-=B. Commonly
+B. Commonly
 C. Seldom
 D. Never
+
+Answer: B
 
 44. Each of the answers below includes an example table with data. Which of the following solutions is an example of a general-purpose notes column problem?
 
 A. Three columns have the values 534-2435, 534-7867, and 546-2356 in the same row.
 B. Three rows have the values Brown Small Chair, Small Chair Brown, and Small Brown Chair in the same column.
 C. Three rows have the values Brown, NULL, and Blue in the same column.
-=D. One row has the value "He is interested in a Silver Porsche from the years 1978-1988" in a column.
+D. One row has the value "He is interested in a Silver Porsche from the years 1978-1988" in a column.
+
+Answer: D
 
 45. Normalizations are not always advantageous for a __________ database .
 
-=A. Read-only
+A. Read-only
 B. Updateable
 C. Either a read-only or an updateable
 D. None of the above is correct.
+
+Answer: A
 
 46. Modification anomalies are frequently severe enough that tables need to be normalised into:
 
 A. 1NF.
 B. 2NF.
 C. 3NF.
-=D. Boyce-Codd Normal Form.
+D. Boyce-Codd Normal Form.
+
+Answer: D
 
 47. Each of the answers below includes an example table with data. Which response exemplifies the missing values issue?
 
 A. Three columns have the values 534-2435, 534-7867, and 546-2356 in the same row.
 B. Three rows have the values Brown Small Chair, Small Chair Brown, and Small Brown Chair in the same column.
-=C. Three rows have the values Brown, NULL, and Blue in the same column.
+C. Three rows have the values Brown, NULL, and Blue in the same column.
 D. One row has the value "He is interested in a Silver Porsche from the years 1978-1988" in a column.
+
+Answer: C
 
 48. When assessing the table structure of an acquired set of tables with data, determining functional dependencies is (part of) the:
 
 A. First step.
-=B. Second step.
-C. Third step.
-D. Fourth step.
-
-49. Each answer below shows example data from a table. Which answer is an example of the multivalue, multicolumn problem?
-
-=A. Three columns have the values 534-2435, 534-7867, and 546-2356 in the same row.
-B. Three rows have the values Brown Small Chair, Small Chair Brown, and Small Brown Chair in the same column.
-C. Three rows have the values Brown, NULL, and Blue in the same column.
-D. One row has the value "He is interested in a Silver Porsche from the years 1978-1988" in a column.
- 
-50. When assessing the table structure of an acquired set of tables with data, counting the number of table rows is (part of) the:
-
-=A. First step.
 B. Second step.
 C. Third step.
 D. Fourth step.
+
+Answer: B
+
+49. Each answer below shows example data from a table. Which answer is an example of the multivalue, multicolumn problem?
+
+A. Three columns have the values 534-2435, 534-7867, and 546-2356 in the same row.
+B. Three rows have the values Brown Small Chair, Small Chair Brown, and Small Brown Chair in the same column.
+C. Three rows have the values Brown, NULL, and Blue in the same column.
+D. One row has the value "He is interested in a Silver Porsche from the years 1978-1988" in a column.
+
+Answer: A 
+
+50. When assessing the table structure of an acquired set of tables with data, counting the number of table rows is (part of) the:
+
+A. First step.
+B. Second step.
+C. Third step.
+D. Fourth step.
+
+Answer: A
 
 51. A table is in the following state if all determinants have been converted to candidate keys by normalisation:
 
 A. 1NF.
 B. 2NF.
 C. 3NF.
-=D. Boyce-Codd Normal Form.
+D. Boyce-Codd Normal Form.
+
+Answer: D
 
 52. Read-only databases are ________ updated.
 
 A.Always
 B.Commonly
 C.Seldom
-= D.Never
+D.Never
+
+Answer: D
 
 53. The need to evaluate the veracity of posited referential integrity restrictions on foreign keys is ______________ of normalisation.
 
 A. Advantage
 B. Disadvantage
 C. Either an advantage or disadvantage
-=D. Neither an advantage nor disadvantage
+D. Neither an advantage nor disadvantage
+
+Answer: D
 
 54. When assessing the table structure of an acquired set of tables with data, determining primary keys is (part of) the:
 
 A. First step.
-=B. Second step. 
+B. Second step. 
 C. Third step.
 D. Fourth step.
 
+Answer: B
+
 55. Normalization ________ data duplication.
 
-=A. Eliminates
+A. Eliminates
 B. Reduces
 C. Increases
 D. Maximizes
 
+Answer: A
+
 56. Each answer below shows example data from a table. Which answer is an example of the inconsistent values problem?
 
 A. Three columns have the values 534-2435, 534-7867, and 546-2356 in the same row.
-=B. Three rows have the values Brown Small Chair, Small Chair Brown, and Small Brown Chair in the same column.
+B. Three rows have the values Brown Small Chair, Small Chair Brown, and Small Brown Chair in the same column.
 C. Three rows have the values Brown, NULL, and Blue in the same column.
 D. One row has the value "He is interested in a Silver Porsche from the years 1978-1988" in a column.
 
+Answer: B
