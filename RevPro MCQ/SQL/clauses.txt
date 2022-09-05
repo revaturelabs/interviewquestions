@@ -1,4 +1,7 @@
-1.) Which statement is TRUE about the WHERE Clause?
+#P1
+##EASY
+###BC
+1. Which statement is TRUE about the WHERE Clause?
 
 A.In order to retrieve rows, WHERE Clause is used.
 B.In order to group the rows, WHERE Clause is used.
@@ -7,17 +10,23 @@ D.In order to return the rows, WHERE Clause is used.
 Answer: A
 Explanation: In order to retrieve rows, WHERE Clause is used.
 
-2) Which statement is TRUE about the GROUP BY Clause?
+#P1
+##MEDIUM
+###BC
+2. Which statement is TRUE about the GROUP BY Clause?
 
 A.In order to retrieve rows, GROUP BY Clause is used.
-B.In order to group the rows that share the same property, GROUP BY Clause is used.
+B.In order to group the rows based on same common value, GROUP BY Clause is used.
 C.In order to select the defined groups, GROUP BY Clause is used.
 D.In order to return the rows, GROUP BY Clause is used.
 
 Answer: B.
 Explanation:In order to group the rows that share the same property, GROUP BY Clause is used.
 
-3)Which statement is TRUE about the HAVING Clause?
+#P1
+##MEDIUM
+###BC
+3. Which statement is TRUE about the HAVING Clause?
 
 A.In order to group the rows, HAVING Clause is used.
 B.In order to return the rows, HAVING Clause is used.
@@ -25,10 +34,12 @@ C.In order to select the defined groups by the GROUP BY Clause, HAVING Clause is
 D.None of the above
 
 Answer: C. 
-Explanation:
-In order to select the defined groups by the GROUP BY Clause, HAVING Clause is used.
+Explanation: In order to select the defined groups by the GROUP BY Clause, HAVING Clause is used.
 
-4)Which statement is TRUE about the ORDER BY Clause?
+#P1
+##EASY
+###BC
+4. Which statement is TRUE about the ORDER BY Clause?
 
 A.In order to return the rows in a specific order, ORDER BY Clause is used.
 B.In order to group the rows, ORDER BY Clause is used.
@@ -37,7 +48,10 @@ D.None of the above
 
 Answer: A
 
-5.Which of the following clause cannot be optional in SQL SELECT Statement?
+#P1
+##EASY
+###BC
+5. Which of the following clause cannot be optional in SQL SELECT Statement?
 
 A.WHERE
 B.GROUP BY
@@ -46,36 +60,20 @@ D.None of the above
 
 Answer: D. 
 
-Explanation:WHERE, GROUP BY and ORDER BY all are optional clauses in SQL SELECT Statement.
+#P1
+##MEDIUM
+###TF
+6. State true or false. HAVING clause filters the groups whereas WHERE clauses filter the single record of the table.
 
-6) Which of the following clause cannot be optional in SQL SELECT Statement?
+A. True
+B. False
 
-A.WHERE
-B.GROUP BY
-C.ORDER BY
-D.None of the above
+Answer: A
 
-Answer: D. 
-
-Explanation:WHERE, GROUP BY and ORDER BY all are optional clauses in SQL SELECT Statement.
-
-7)What is the difference between HAVING and WHERE clause?
-
-A.HAVING clause is used in column operation whereas WHERE clause is used in row operation.
-B.HAVING clause is post-filter whereas WHERE clause is pre-filter.
-C.HAVING clause filters the groups whereas WHERE clauses filter the single record of the table.
-D.All of the above
-
-Answer: D.
-
-Explanation:
-The differences between HAVING and WHERE clauses are:
-
-HAVING clause is used in column operation whereas WHERE clause is used in row operation.
-HAVING clause is post-filter whereas WHERE clause is pre-filter.
-HAVING clause filters the groups whereas WHERE clauses filter the single record of the table.
-
-8)In order to sort the records according to the columns, which clause is used?
+#P1
+##EASY
+###BC
+8. In order to sort the records according to the columns, which clause is used?
 
 A.HAVING
 B.GROUP BY
@@ -83,18 +81,22 @@ C.ORDER BY
 D.None of the above
 
 Answer: C.
+Explanation: ORDER BY clause is used to sort the records according to the desired columns
 
-Explanation:ORDER BY clause is used to sort the records according to the columns
-
-9)By default, sorting by ORDER BY clause is done in which order?
+#P1
+##EASY
+###BC
+9. By default, sorting by ORDER BY clause is done in which order?
 
 A.Ascending
 B.Descending
 C.None of the above
-Answer: A. 
-Explanation: By default, sorting by ORDER BY clause is done in ascending order.
+Answer: A
 
-10) GROUP BY clause is placed before which clause in SQL?
+#P1
+##MEDIUM
+###BC
+10. GROUP BY clause is placed before which clause in SQL?
 
 A.HAVING
 B.WHERE
@@ -102,10 +104,10 @@ C.ORDER BY
 D.FROM
 
 Answer: C.
-
 Explanation:GROUP BY clause is placed before ORDER BY clause in SQL.
 
-11)Which one if these is used to put the same value in all the rows?
+#IGNORE
+11. Which one of these is used to put the same value in all the rows?
 
 A.Group by unique column
 B.Group by single column
@@ -113,30 +115,34 @@ C.Group by one column
 D.Group by same value
 
 Answer: B.
-
 Explanation:Group by single column is used to put the same value in all the rows.
 
-12)Which of the following clause cannot be used in SQL sub queries?
+#P1
+##MEDIUM
+###BC
+12. Which of the following clause cannot be used in SQL sub queries?
 
 A.GROUP BY
 B.ORDER BY
 C.DELETE
 D.FROM
-Answer: B.
+Answer: B
 
 Explanation:ORDER BY clause cannot be used in SQL sub queries.
 
-13). In order to prevent multiple records from being returned by the sub query, _______ must be used before the sub query.
+#IGNORE
+13. In order to prevent multiple records from being returned by the sub query, _______ must be used before the sub query.
 
 A.Many Value Operators
 B.Multiple Value Operators
 C.Single Value Operator
 D.Unique Value Operator
 
-Answer: B.
+Answer: B
 Explanation:In order to prevent multiple records from being returned by the sub query, multiple value operators must be used before the sub query.
 
-14)Using a WHERE clause in a SQL query is used to specify SQL reserved words and characters, known as ____?
+#IGNORE
+14. Using a WHERE clause in a SQL query is used to specify SQL reserved words and characters, known as ____?
 A.Operators
 B.Data Types
 C.Numbers
@@ -146,6 +152,7 @@ Answer: A.
 
 Explanation:Using a WHERE clause in a SQL query is used to specify SQL reserved words and characters, known as Operators.
 
+#IGNORE
 15) Which SQL keyword is used to sort the result-set?
 
 A. ORDER BY
@@ -155,6 +162,7 @@ D. SORT BY
 Answer: A.
 Explanation: The ORDER BY keyword sorts the records in ascending order by default.
 
+#IGNORE
 16.1.How many types of function in SQL?
 A.1
 B.2
@@ -163,24 +171,33 @@ D.4
 
 Answer: B
 
-17).Which operator combines the result of two or more queries with duplication?
+#P1
+##MEDIUM
+###BC
+17. Which operator combines the result of two or more queries with duplication?
 A.Union
 B.Union All
 C.Intersect
 D.Minus
 
-Answer: B.
+Answer: B
 
-18)Which operator in SQL retrive information patternwise?
+#P1
+##MEDIUM
+###BC
+18. Which operator in SQL retrive information patternwise?
 
 A.IN
 B.BETWEEN
-C.NOTIN
+C.NOT IN
 D.LIKE
 
-Answer:D.
+Answer:D
 
-19). Which of the following statement is true?
+#P1
+##MEDIUM
+###BC
+19. Which of the following statement is true?
 
 A. DELETE does not free the space containing the table and TRUNCATE free the space containing the table
 
@@ -190,40 +207,42 @@ C. Both DELETE and TRUNCATE does not free the space containing the table
 
 D. DELETE free the space containing the table and TRUNCATE does not free the space containing the table
 
-Answer:A. 
+Answer:A 
 
-20).What is information of data called?
+#P1
+##MEDIUM
+###TF
+20. State true or false. Metadata is defined as the data providing information about one or more aspects of the data.
+A.True
+B.False
 
-A.Relations
-B.Tera Data
-C.Meta Data
-D.Hyper Data
+Answer: A
 
-Answer: C.
+#P1
+##MEDIUM
+###TF
+21.  State true or false. Correlated subquery uses the result of an inner query to determine the processing of an outer query
+A.True
+B.False
 
+Answer: A
 
-21). Which of the following is a correlated subquery?
-
-A. Uses the result of an inner query to determine the processing of an outer query
-
-B. Uses the result of an outer query to determine the processing of an inner query
-
-C. Uses the result of an inner query to determine the processing of an inner query
-
-D. Uses the result of an outer query to determine the processing of an outer query
-
-Answer:A. 
-
-22).Which clause is used to determine"which column to include in the query sets?
+#P1
+##MEDIUM
+###BC
+22. Which clause is used to determine"which column to include in the query sets?
 
 A.SELECT
 B.FROM
 C.WHERE
 D.ORDER BY
 
-Answer:A.
+Answer:A
 
-23).Which clause is used to "Indentifies,table from which draw table and the table to be joined?
+#P1
+##MEDIUM
+###BC
+23. Which clause is used to list the tables and any joins required for the SQL statement?
 
 A.FROM
 B.SELECT
@@ -231,7 +250,10 @@ C.ORDERBY
 D.WHERE
 Answer:A
 
-24).Which clause is used to "Filter out unwanted data"?
+#P1
+##MEDIUM
+###BC
+24. Which clause is used to filter out unwanted tuple?
 
 A.FROM
 B.WHERE
@@ -240,16 +262,22 @@ D.ORDER BY
 
 Answer:B
 
-24).Which clause is used to "group row together by common column values?
+#P1
+##MEDIUM
+###BC
+24. Which clause is used to group rows together by common column values?
 
 A.SELECT
 B.GROUP BY
 C.FROM
 D.WHERE
 
-Answer:B.
+Answer:B
 
-25)Which clause is used to "Filter out unwanted groups"?
+#P1
+##MEDIUM
+###BC
+25. Which clause is used to filter out unwanted groups?
 
 A.HAVING
 B.FROM
@@ -257,7 +285,10 @@ C.WHERE
 D.SELECT
 Answer:A
 
-26).Which clause is used to"sort the result set by one or more columns"?
+#P1
+##MEDIUM
+###BC
+26.Which clause is used to sort the result set by one or more columns?
 
 A.HAVING
 B.ORDER BY
@@ -266,7 +297,10 @@ D.FROM
 
 Answer:B
 
-27).Which clause is used to"Modify the existing feild of the table"?
+#P1
+##MEDIUM
+###BC
+27.Which clause is used to Modify the existing feild of the table?
 
 A.ALTER
 B.FROM
@@ -275,24 +309,31 @@ D.MODIFY
 
 Answer:A
 
-28).Which among the following is not a"Query clause"?
+#P1
+##MEDIUM
+###BC
+28.Which among the following is not a query clause?
 
 A.WHERE
 B.MODIFY
 C.ALTER
 D.FROM
 
-Answer:B.
+Answer:B
 
-29)."MODIFY" Iis used withwhich "Query clause"?
+#P1
+##MEDIUM
+###BC
+29. "MODIFY" Iis used with which query clause?
 
 A.ALTER
 B.FROM
 C.WHERE
 D.ORDER BY
 
-Answer:A.
+Answer:A
 
+#IGNORE
 30).Find ODD one out
 
 A.GROUP BY
@@ -301,36 +342,41 @@ C.ASC
 D.ORDER BY
 
 Answer:A.
-
 Explanation:`DESC`,`ASC`,`ORDER` BY are related to sorting whereas `GROUP BY` is not related to sorting.
 
+#P1
+##COMPLEX
+###BC
 31) Which of the following statements are TRUE about an SQL query?
 P: An SQL query can contain a HAVING clause even 
     if it does not have a GROUP BY clause
 Q: An SQL query can contain a HAVING clause only
     if it has a GROUP BY clause
-R: All attributes used in the GROUP BY clause must
+R: All attributes used in the GROUP BY clause can
     appear in the SELECT clause
-S : Not all attributes used in the GROUP BY clause
-    need to appear in the SELECT clause 
+S : All attributes not used in the GROUP BY clause
+    must appear in the SELECT clause.
 A.P and R
 B.P and S
 C.Q and R
 D.Q and S
 
-Answer:C.
+Answer:C
 
-32)How many where clauses can be used with single statement?
+#P1
+##MEDIUM
+###BC
+32)How many where clauses can be used in single query statement?
 
-A.One
+A. One
 B. Two
 C. Four
 D. Multiple
 
 Answer:D
+Explanation:We can use multiple where clauses with each single query statement
 
-Explanation:We can use multiple where clauses with each single DML statement
-
+#IGNORE
 33) Which of the following commands use combination of where clause ?
 
 A. DML
@@ -342,6 +388,7 @@ Answer:D
 
 Explanation:Where clause is used with statements of DML (Data Manipulation Language)
 
+#IGNORE
 34) Which of the following expression is used with where clause?
 
 A. Relational
