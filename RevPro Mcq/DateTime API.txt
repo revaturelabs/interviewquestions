@@ -107,10 +107,10 @@ Answer: C
 
 11. Time-zone offset is measured in fixed number of ____ and ______.
 
-   A. hours and minutes 
-   B. minutes and seconds 
-   C. days and hours
-   D. None of the above
+A. hours and minutes 
+B. minutes and seconds 
+C. days and hours
+D. None of the above
 
 Answer:A 
 
