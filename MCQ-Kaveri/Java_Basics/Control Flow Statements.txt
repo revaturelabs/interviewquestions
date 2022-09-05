@@ -1,0 +1,239 @@
+#P2
+##EASY
+###TF
+
+1.Control flow statements used to change the flow of the program.
+
+A.True
+B.False
+
+Answer:A
+Explantion:The program flow goes from top to bottom. The control flow statetments are used to change the program flow.The control flow statements are classified by following:Conditional Statements,Uncoditional Statements,Looping Statements.
+
+#P2
+##EASY
+###TF
+
+2.for, while, do-while are the statements that comes under conditional statements.
+
+A.True
+B.False
+
+Answer:B
+Explanation:The statements under the conditional statements are if, if-else and swiech. The code block will get executed according to the condition given.
+
+#P1
+##EASY
+###BC
+
+3.Predict the output if the value = 10.
+
+public static int toPositive(int value) {
+  	if(value<0) {
+  		return -value;
+  	}
+  	return value;
+  }
+A.null.
+B.-10.
+C.No output.
+D.10.
+
+Answer:D
+Explanation:since the value is 10 it will not enter the if block and return the value as it is. 
+
+#P1
+##EASY
+###BC
+
+4.Predict the output of the code below if value=200.
+
+public static int findPrice(int value) {
+  int price ;
+  if(value<100) {
+  	price = value;
+  }
+  else if(value<300) {
+  	price = value*2;
+  }
+  else {
+  	price = value*5;
+  }
+  return price;
+}
+
+A.200
+B.400
+C.1000
+D.Compilation Error
+
+Answer:B
+Explanation:Since the given value is 200 which is not lesser than 100 so it will skip the first if block and enters the else block and it is lesser than 200. so price will be doubled.
+
+#P1
+##EASY
+###BC
+
+5. When we will get the output 'pass' according to the code snippet given below.
+
+public static String findMonth(int english,int math,int science) {
+		String result = null;
+		if(english>=35) {
+			if(math>=35) {
+				if(science>=35) {
+					result="Pass";
+				}
+			}
+		}
+		else {
+			result="Fail";
+		}
+		return result;
+	}
+A.english>=35 && math>=35 && science<=35
+B.english<=35 && math>=35 && science>=35
+C.english<=35 && math>=35 && science<=35
+D.english>=35 && math>=35 && science>=35
+
+Answer:D
+Explanation:all the three if conditions should be true then only the result will be true.This code is an example of nested if else statement.
+
+#P1
+##EASY
+###BC
+
+6.If you want to select one of many code blocks to be executed, which conditional statement will you prefer?
+
+A.if..else 
+B.Nested if..else
+C.Switch
+D.else if ladder
+
+Answer:C
+Explanation: Switch statement is used to select one of code from many blocks of code. It selects the code based on the expression.
+
+#P1
+##EASY
+###TF
+
+7.If we didn't use break or return, each cases of the switch will be executed which are present after that case.
+
+A.True
+B.False
+
+Answer:A
+
+#P1
+##EASY
+###BC
+
+8.Which of the following do we use if set of statements have to be done for more number of times ?
+
+A.Conditional statements.
+B.Jumping statements.
+C.Iteration statements.
+D.None of the above.
+
+Answer:C
+Explanation:Looping statements are otherwise called as Iteration statements. The code block will executed until the condition gets failed.
+
+#P1
+##EASY
+###TF
+
+9.It is compulsory to have initialization, condition,increment/decrement in for loop.
+
+A.False
+B.True
+
+Answer:A
+Explanation:It is an entry controlled loop ie., the condition checked first.It contains three parts, initialization, condition, and increament or decreament.We can also use without any of these part.
+
+#P1
+##EASY
+###TF
+
+10.while loop is exit controlled loop.
+
+A.True
+B.False
+
+Answer:B
+Explanation:It is an entry controlled loop ie., the condition checked first.It has only condition part.It will execute the block code untill the condition fails.
+
+#P1
+##EASY
+###TF
+
+11.for loop can't be replace by while loop.
+
+A.False
+B.True
+
+Answer:A
+Explanation:we can use while loop instead of for loop where we have to initialize outside of the loop and increament or decreament inside the loop.
+
+#P1
+##EASY
+###BC
+
+12.Consider the following statements.
+
+i.while loop gets executed atleast once even if the condition is true.
+ii.do..while loop gets executed atleast once even if the condition is true.
+
+A.only i true
+B.only ii true
+C.Both are true
+D.Both are false
+
+Answer:B
+Explanation:do..while is exit controlled loop which means the code block will gets executed for atleast once even if the condition is false.
+
+#P1
+##EASY
+###TF
+
+13. Break statement will skip the current iteration and continues with the next iteration.
+
+A.True
+B.False
+
+Answer:B
+Explanation:A break statement results in the termination of the statement to which it applies for switch, for, do, or while.A continue statement is used to end the current loop iteration and return control to the loop statement.
+
+#P1
+##EASY
+###BC
+
+14.return statement always
+
+A.skip the loop.
+B.continue with the next statement.
+C.come out of the method with or without a value.
+D.None of the above.
+
+Answer:C
+Explanation:It exits the current method. There are two types of return statements they are return with value when method has void return type and return without value.
+
+#P1
+##EASY
+###BC
+
+15.Predict the output if value=10
+
+public static int findPrice(int value) {    
+    while(value>5)
+    {
+        value=value-1;
+        return value;
+    }
+}
+
+A.10
+B.5
+C.15
+D.9
+
+Answer:9
+Explanation:If we use return in loop, it exits from the loop as well as the method.
