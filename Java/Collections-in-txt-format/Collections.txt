@@ -1,3 +1,6 @@
+#P1
+##EASY
+###BC
 1. What is a container or object that combines multiple elements into a single unit and is used to store, retrieve and manipulate data.
     A. Collection
     B. Abstract
@@ -6,12 +9,18 @@
 
 Answer: A
 
+#P1
+##EASY
+###TF
 2. Collection framework contains implementations for all the data structures?
     A. True
     B. False
 
 Answer: A
  
+#P1
+##EASY
+###BC
 3. The methods used by an iterator to traverse the collection are
     A. hasNext()
     B. next()
@@ -20,6 +29,9 @@ Answer: A
 
 Answer: D
 
+#P1
+##EASY
+###BC
 4. Fill in the code from given choices. 
 
 import java.util.*;
@@ -44,7 +56,10 @@ public class Main {
     D. foreach(Integer i:al)
 
 Answer: A
- 
+
+#P1
+##EASY
+###BC
 5. Fill in the code from given choices. 
 
 import java.util.*;
@@ -69,7 +84,10 @@ public class Main {
     D. Iterator i = al.iterator();
 
 Answer: D
- 
+
+#P1
+##EASY
+###BC
 6. Fill in the code from given choices. 
 
 import java.util.*;
@@ -92,24 +110,36 @@ public class Main {
 
 Answer: B
 
+#P1
+##EASY
+###TF
 7. A comparable object is capable of comparing itself with another object.
     A. True
     B. False
 
 Answer: A
 
+#P1
+##EASY
+###TF
 8. The concurrent collection APIs of Java provides a range of classes that are specifically designed to deal with concurrent operations. 
     A. True
     B. False
 
 Answer: A
 
+#P1
+##EASY
+###TF
 9 Using Enumeration, you can traverse the collection and also do any modifications to the collection while traversing it. 
     A. True
     B. False
 
 Answer: B
 
+#P1
+##EASY
+###BC
 10. Which method is used to arrange elements in random order.
 
     A. sort()
