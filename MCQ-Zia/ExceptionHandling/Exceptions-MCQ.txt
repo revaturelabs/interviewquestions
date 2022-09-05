@@ -1,0 +1,1212 @@
+::Exception Handling::
+//Question 1
+What is the root class of  all the Exception classes?{
+    ~java.lang.Exceptions
+    ~java.lang.Throws
+    ~java.lang.RuntimeExceptions
+    =java.lang.Throwable
+}
+
+::Exception Handling::
+//Question 2
+What is the mechanism which is used to handle the runtime errors?{
+    =Exception handling
+    ~Interfaces
+    ~Inheritance
+    ~Abstractions
+}
+
+::Exception Handling::
+//Question 3
+What are the  derived classes of the Exception class?{
+    ~FinallyException
+    =ClassNotFoundException,IOException,SQLException,RunTimeException,
+    ~TryExceptions,CatchException
+    ~ThrowableException
+}
+
+::Exception Handling::
+//Question 4
+What is the event that disrupts the normal flow of the program?{
+    =Exception
+    ~Compile-time error
+    ~Error
+    ~None of the above
+}
+
+::Exception Handling::
+//Question 5
+What are the derived classes of RunTimeException class{
+    ~ClassNotFoundException,IOException,SQLException,RunTimeException,
+    ~ThrowableException
+    =ArithmeticException,NumberFormatException,NullPointerException,IndexOutOfBoundsException
+    ~Compiletime Exception
+}
+
+::Exception Handling::
+//Question 6
+Which is the base class of StackOverflowError and  VirtualMachineError class?{
+    ~ClassNotFoundException
+    =Error
+    ~ArithmeticException
+    ~RunTimeException,
+}
+
+::Exception Handling::
+//Question 7
+What are the keywords that is used to handle exceptions.?{
+    ~public,private,protected
+    =try,catch,finally,throw and throws.
+    ~static,final,finalize
+    ~Runnable,Thread
+}
+#### try,catch,finally,throw and throws used to handle exceptions in exception handling mechanism.
+
+::Exception Handling::
+//Question 8
+Which block has to be followed after the try block?{
+    =catch or finally block.
+    ~throw.
+    ~static.
+    ~throws.
+}
+####Try block needs to be followed with catch or finally block
+
+::Exception Handling::
+//Question 9
+Why the rest of the code in the try block will not execute?{
+    ~whenever an exception is occurred in the try block the rest of the code will give the output.
+    ~whenever an exception is occurred in the try block the rest of the code will execute.
+    =whenever an exception is occurred in the try block the rest of the code will not execute. 
+    ~whenever an exception is occurred in the try block the throws clause get executed.
+}
+
+::Exception Handling::
+//Question 10
+Can we have multiple catch blocks with the single try block?{
+    =yes.
+    ~no.
+    ~not recommended.
+    ~none of the above.
+}
+####we can have multiple catch blocks with the single try block
+
+::Exception Handling::
+//Question 11
+Who handles the exception if the exception is not handled by the programmer itself?{
+    =Java Virtual Machine(JVM).
+    ~Java compiler
+    ~JRE.
+    ~Constructor.
+}
+
+::Exception Handling::
+//Question 12
+What is the role of JVM in default Exception Handling mechanism?{
+    ~shows a compile time error
+    =Prints out the exception description,Prints the StackTrace,Causes the program to terminate.
+    ~Shows a runtime error
+    ~Garbage collection
+}
+
+::Exception Handling::
+//Question 13
+How the normal flow of the program is maintained in the exception handling mechanism?
+    =if the programmer handles the exception.
+    ~Prints the StackTrace.
+    ~Causes the program to terminate.
+    ~Garbage collection.
+}
+
+::Exception Handling::
+//Question 14
+How catch block is executed in multiple catch blocks?
+    ~if the programmer handles the specific exception.
+    =All the catch blocks must be ordered from most specific to most generic 
+    ~All the try blocks must be ordered.
+    ~using a garbage collector.
+}
+
+::Exception Handling::
+//Question 15
+What is a nested try  block?
+    =the try block inside another try block is called as nested try block.
+    ~catch inside try block
+    ~try inside catch block
+    ~try after catch block.
+}
+
+::Exception Handling::
+//Question 16
+When should we use nested try  block?{
+    ~in the catch block.
+    ~catch inside try block
+    =A situation may arise where a part of  block of code may cause one error and the entire block of      code itself may cause another error. In such cases,       exception handlers have to be nested.
+    ~after catch block.
+}
+
+::Exception Handling::
+//Question 17
+When should we use nested try  block?{
+    ~in the catch block.
+    ~catch inside try block
+    =A situation may arise where a part of  block of code may cause one error and the entire block of      code itself may cause another error. In such cases,exception handlers have to be nested.
+    ~after catch block.
+}
+
+::Exception Handling::
+//Question 18
+What is a finally  block?{
+    ~before the catch block.
+    =finally block is always executed whether an exception is handled or not. Therefore, it contains      all the necessary statements that need to be printed regardless of the exception occurs or not.The      finally block follows the try-catch block.
+    ~a part of  block of code may cause one error and the entire block of code itself may cause another      error. In such cases,finally block has to be      used
+    ~after catch block.
+}
+
+::Exception Handling::
+//Question 19
+Predict the output of the following code.
+<pre> 
+public class trycatchexample1 {  
+  
+    public static void main(String[] args) {  
+        try  
+        {  
+        int b=5/0;  
+        }  
+        catch(ArithmeticException e)  
+        {  
+            System.out.println(e);  
+        }  
+        System.out.println("Exception Occurred");  
+    }  
+      
+}  
+</pre>{
+    ~ 0
+    = Divide by zero, Exception Occurred
+    ~ 5
+    ~ 10
+}
+#### Divide by zero error occurred caught by ArithmeticException object e.
+
+
+
+::Exception Handling::
+//Question 20
+Predict the output of the following code.
+<pre>
+public class trycatchexample3 {  
+    public static void main(String[] args) {  
+        try  
+        {  
+        int c=25/0;  
+        }  
+        catch(ArithmeticException e)  
+        {  
+            System.out.println("A number cannot be divided  by zero");  
+        }    
+    }  
+      
+}  
+</pre>{
+    ~25
+    =A number cannot be divided  by zero
+    ~Exception occurred
+    ~0.
+}
+
+::Exception Handling::
+//Question 21
+Predict the output of the following code.
+<pre>
+public class trycatchexample4 {  
+    public static void main(String[] args) {  
+        try  
+        {  
+        int c[]=new int[10];  
+        c[22]=50;
+        }  
+        catch(ArrayIndexOutOfBoundsException e)  
+        {  
+            System.out.println("Array index error");  
+        }    
+    }  
+      
+}  
+</pre>{
+    =Array index error
+    ~50
+    ~10
+    ~0.
+}
+
+::Exception Handling::
+//Question 22
+Predict the output of the following code.
+<pre>
+import java.io.*;
+public class trycatchexample5 {  
+    public static void main(String[] args) {  
+        PrintWriter p;  
+        try {  
+            p = new PrintWriter("abc.txt");  
+            p.println("Exception Occurred");  
+            }  
+        catch (FileNotFoundException e) {  
+              
+            System.out.println("The File location is not found");  
+        }         
+     
+    }  
+}  
+</pre>{
+    =The File location is not found
+    ~abc
+    ~Exception Occurred
+    ~Compile time error
+}
+
+::Exception Handling::
+//Question 23
+Predict the output of the following code.
+<pre>
+public class nestedtryblock1{    
+ public static void main(String args[]){    
+  try{    
+    try{    
+     System.out.println("Divide by zero error");    
+     int b =50/0;    
+   }    
+    catch(ArithmeticException e){  
+      System.out.println(e);  
+    }    
+    try{    
+    int b[]=new int[10];    
+     b[20]=40;    
+     }  
+    catch(ArrayIndexOutOfBoundsException e){  
+       System.out.println(e);  
+    }      
+    System.out.println("other statement");    
+  }  
+  catch(Exception e){  
+    System.out.println("handled the exception (outer catch)");  
+  }    
+    
+  System.out.println("normal flow..");    
+ }    
+}  
+</pre>{
+    ~other statement.
+    ~normal flow
+    =Divide by zero error,Index 10 out of bounds for length 10
+    ~40.
+}
+
+::Exception Handling::
+//Question 24
+Predict the output of the following code.
+<pre>
+class finallyblock1 {    
+        public static void main(String args[]){    
+             try{    
+                     int data=50/10;    
+                     System.out.println(data);    
+                 }    
+                 catch(ArithmeticException e){  
+	                        System.out.println(e);  
+	                }    
+                    finally {  
+                                	System.out.println("finally block is executed");  
+	                        }     
+                        }    
+                }      
+</pre>{
+    =5
+    ~Exception occurred
+    =finally block is executed
+    ~none of the above.
+}
+
+::Exception Handling::
+//Question 25
+Predict the output of the following code.
+<pre>
+public class finallyblock2{    
+      public static void main(String args[]){   
+      try {    
+        System.out.println("Inside try block");  
+       int data=10/0;      
+      }   
+      catch(ArithmeticException e){  
+        System.out.println("Exception handled");  
+        System.out.println(e);  
+      }   
+      finally {  
+        System.out.println("finally block is  executed");  
+      }      
+      }    
+    }   
+</pre>{
+    =Inside try block,Exception handled
+    ~Exception occurred
+    =finally block is executed
+    ~none of the above.
+}
+
+
+::Exception Handling::
+//Question 26
+throw statement can be defined as {
+    ~catch block.
+    =throw statement is used to throw an exception explicitly
+    ~a part of  block of code may cause one error and the entire block of code itself may cause another      error. 
+    ~in the finally block.
+}
+####We specify the exception object which is to be thrown. The Exception has some message with it that provides the error description. These exceptions may be related to user inputs, server, etc.We can throw either checked or unchecked exceptions in Java by throw keyword. 
+
+::Exception Handling::
+//Question 27
+Show me the syntax of throw statement{
+    ~block throw.
+    ~throw block
+    =throw new exceptionclass("error message"); 
+    ~throw message.
+}
+
+::Exception Handling::
+//Question 28
+Predict the output of the following code.
+<pre>
+public class throw1 {   
+    public static void verify(int age) {  
+        if(age<18) {  
+            throw new ArithmeticException("An individual is not eligible to vote");    
+        }  
+        else {  
+            System.out.println("An individual is eligible to vote!!");  
+        }  
+    }  
+    public static void main(String args[]){  
+        verify(10);  
+  }    
+}    
+</pre>{
+    ~Exception occurred
+    ~An individual is eligible to vote
+    =An individual is not eligible to vote
+    ~10.
+}
+
+::Exception Handling::
+//Question 28
+Predict the output of the following code.
+<pre>
+import java.io.*;   
+public class throw2 {   
+    public static void method1() throws FileNotFoundException {  
+        FileReader f = new FileReader("C:\Users\Revature\Desktop\xyz.txt");  
+        BufferedReader br = new BufferedReader(f);  
+  	 throw new FileNotFoundException();    
+    }  
+    public static void main(String args[]){  
+        try  
+        {  
+            method1();  
+        }   
+        catch (FileNotFoundException e)   
+        {  
+            e.printStackTrace();  
+        }  
+  }    
+}  
+</pre>{
+    ~stacktraces found
+    =java.io.FileNotFoundException
+    =reads the contents of the file if the file xyz.txt exists
+    ~end of file.
+}
+
+::Exception Handling::
+//Question 28
+What is a throws statement?{
+    ~stacktraces found
+    =Throws keyword is used to declare an exception. It gives an information to the programmer that      there may occur an exception.
+    =reads the contents of the blocka
+    ~end of file.
+}
+#### It provides information to the caller of the method about the exception.
+
+::Exception Handling::
+//Question 29
+Show me the syntax of throw statement?{
+    ~throws exception_class_name
+    =<pre>
+        return_type method_name() throws exception_class_name{  
+	//method code  
+	} 
+     </pre>  
+    =throws class_name
+    ~throws exception.
+}
+
+::Exception Handling::
+//Question 30
+Predict the output of the following code.
+<pre> 
+import java.io.*;  
+class throws1{  
+ void method1()throws IOException{  
+  throw new IOException("IO Error");  
+ }  
+}  
+public class throws2{  
+   public static void main(String args[]){  
+    try{  
+    throws1 t=new throws1();  
+     t.method1();  
+    }
+catch(Exception e){
+System.out.println("exception handled");
+	}     
+  }  
+}  
+</pre>{  
+    =exception handled
+    ~IO Error
+    ~throw IO Error
+    ~throws IO Error
+}
+
+
+::Exception Handling::
+//Question 31
+Predict the output of the following code.
+<pre> 
+public class Throw1{  
+    public static void calsquare(int n) {  
+        if (num < 1) {  
+            throw new ArithmeticException("\n Number is negative, cannot calculate square");  
+        }  
+        else {  
+            System.out.println("Square of " + n + " is " + (n*n));  
+        }  
+    }    
+    public static void main(String[] args) {  
+            Throw1 obj = new Throw1();  
+            obj.calsquare(-2);  
+    }  
+}  
+</pre>{  
+    ~Square of 5 is 25
+    ~Square of -2 is -4
+    =Number is negative, cannot calculate square
+    ~Square of 5 is 0
+}
+
+::Exception Handling::
+//Question 32
+Predict the output of the following code.
+<pre> 
+public class Throws2 {   
+    public static int divide(int x, int y) throws ArithmeticException { 
+        int z = x / y;  
+        return z;  
+    }  
+    public static void main(String[] args) {  
+        Throws2 t = new Throws2();  
+        try {  
+            System.out.println(t.divide(50, 0));  
+        }  
+        catch (ArithmeticException e){  
+            System.out.println("\n Number cannot be divided by 0");  
+        }  
+ 
+    }  
+}  
+</pre>{  
+    ~Exception occurred
+    =Number cannot be divided by 0
+    ~Number is negative
+    ~Number is positive
+}
+
+::Exception Handling::
+//Question 33
+final statement can be defined as{ 
+    ~final block.
+    ~final statement is used to throw an exception explicitly
+    =final is the keyword and it is an access modifier which is used to apply restrictions on a class, method or variable.
+    ~in the finally block.
+}
+####final variable becomes constant and cannot be modified once it is declared.It cannot be overridden by sub class.final class cannot be inherited.It is executed only when we call it.
+
+::Exception Handling::
+//Question 34
+finalize statement can be defined as{ 
+    ~final block.
+    ~final statement is used to throw an exception explicitly
+    =finalize is the method in Java which is used to perform clean up processing for the object which is garbage collected.
+    ~in the finally block.
+}
+####finalize() method is used with the objects.It performs the cleaning activities with respect to the object before its destruction.It is executed just before the object is destroyed.
+
+::Exception Handling::
+//Question 35
+Predict the output of the following code
+<pre>
+ public class finally1{    
+      public static void main(String args[]){   
+      try {    
+        System.out.println("Inside try block");  
+       int data=5/0;    
+       System.out.println(data);    
+      }   
+      catch (ArithmeticException e){  
+        System.out.println("Exception handled");  
+        System.out.println(e);  
+      }   
+      finally {  
+        System.out.println("finally block is executed");  
+      }     
+      }    
+    }  
+</pre>{ 
+    ~final block.
+    ~final statement is used to throw an exception explicitly
+    =Inside try block Exception handled / by zero finally block is 	executed
+    ~in the finally block.
+}
+
+::Exception Handling::
+//Question 36
+Predict the output of the following code
+<pre>
+public class finalize1 {    
+     public static void main(String[] args){     
+        finalize1 obj = new finalize1();         
+        System.out.println("Hashcode is: " + obj.hashCode());           
+        obj = null;      
+        System.gc();     
+        System.out.println("garbage collection ended");     
+    }     
+    protected void finalize()     
+    {     
+        System.out.println("The finalize() method called");     
+    }     
+}    
+</pre>{  
+    =Hashcode is:3456787673 garbage collection ended The finalize() 	method called
+    ~final statement is used to throw an exception explicitly
+    ~Inside try block Exception handled / by zero finally block is 		executed
+    ~in the finally block.
+}
+
+::Exception Handling::
+//Question 37
+Exception Propagation can be defined as ?{
+ =An exception is first thrown from the top of the stack and if it is not caught, it drops down the call stack to the previous method. If not caught there, the exception again drops down to the previous method, and so on until they are caught or until they reach the very bottom of the call stack. This is called exception propagation.
+    ~final statement is used to throw an exception explicitly
+    ~Inside try block Exception handled / by zero finally block is 		executed
+    ~in the finally block.
+}
+
+::Exception Handling::
+//Question 38
+Predict the output of the following code
+<pre>
+class Propagation1{  
+  void method1(){  
+    int data=20/0;  
+  }  
+  void method2(){  
+    method1();  
+  }  
+  void method3(){  
+   try{  
+    method2();  
+   }catch(Exception e){
+	System.out.println("exception handled");}  
+  }  
+  public static void main(String args[]){  
+   Propagation1 obj=new Propagation1();  
+   obj.method3();  
+   System.out.println("normal flow...");  
+  }  
+}  
+
+</pre> { 
+    ~garbage collection ended
+    ~final statement is used to throw an exception explicitly
+    ~Inside try block Exception handled / by zero finally block is 		executed
+    =exception handled normal flow
+}
+
+::Exception Handling::
+//Question 39
+Exception Handling with Method Overriding can be explained as{
+    ~garbage collection ended
+    ~final statement is used to throw an exception explicitly
+    ~Inside try block Exception handled / by zero finally block is 		executed
+    =If the superclass method does not declare an exception, subclass overridden method cannot declare the checked exception but it can declare unchecked exception.
+}
+####If the superclass method declares an exception, subclass overridden method can declare same, subclass exception or no exception but cannot declare parent exception.
+
+
+::Exception Handling::
+//Question 40
+Predict the output of the following code
+<pre>
+import java.io.*;    
+class Message{   
+  void msg() {  
+    System.out.println("Exception in parent method");  
+    }    
+}    
+    
+public class ExceptionChild extends Message{     
+  void msg() throws IOException {    
+    System.out.println("Exception in Child method");    
+  }  
+  public static void main(String args[]) {    
+   Message m = new ExceptionChild();    
+   m.msg();    
+  }    
+}    
+</pre>{ 
+    ~Exception in parent method
+    ~Exception handled
+    =msg() in ExceptionChild cannot override msg() in Message
+    ~Exception in Child method
+}
+
+::Exception Handling::
+//Question 41
+Predict the output of the following code
+<pre>
+import java.io.*;    
+class Parent{    
+  void msg() {  
+    System.out.println("parent method");  
+  }    
+}    
+    
+class Child1 extends Parent{    
+  void msg()throws ArithmeticException {    
+    System.out.println("child method");    
+  }    
+  
+  public static void main(String args[]) {    
+   Parent p =  new Child1();    
+   p.msg();    
+  }    
+}   
+</pre> { 
+    =child method
+    ~parent method
+    ~msg() in ExceptionChild cannot override msg() in Message
+    ~Exception in Child method
+}
+
+::Exception Handling::
+//Question 41
+What are Custom Exceptions?{  
+    =When we create our own exceptions that are derived classes of the Exception class is known as custom exception or user-defined exception.
+    ~Exception class
+    ~predefined exceptions
+    ~Exception in try statement
+}
+####Custom exceptions are used to customize the exception according to the user needs.
+
+::Exception Handling::
+//Question 42
+Why use custom exceptions?{  
+    =Custom Exception are used to catch and provide specific treatment to a subset of existing java exceptions.We also have exceptions related to business logic and workflow.
+    ~Exception class
+    ~predefined exceptions
+    ~Exception in try statement
+}
+####It is useful for the application users or the developers to understand the exact problem.In order to create custom exception, we need to extend Exception class that belongs to java.lang package.
+
+::Exception Handling::
+//Question 42
+Predict the output of the following code.
+<pre>
+class InvalidAgeException  extends Exception  
+{  
+    public InvalidAgeException (String str)  
+    {  
+        super(str);  
+    }  
+}  
+public class CustomException1  
+{  
+    static void valid(int age) throws InvalidAgeException{    
+       if(age < 18){  
+        throw new InvalidAgeException("An individual age is not eligible to vote");    
+    }  
+       else {   
+        System.out.println("An individual is eligible to vote ");   
+        }   
+     }    
+    public static void main(String args[])  
+    {  
+        try  
+        {    
+            valid(16);  
+        }  
+        catch (InvalidAgeException e)  
+        {   
+            System.out.println("Exception occured: " + e);  
+        }   
+    }  
+}   
+</pre>{
+    ~An individual is eligible to vote
+    =Exception occured:InvalidAgeException:An individual age is not 	eligible to vote
+    ~An individual age is not eligible to vote
+    ~Exception in try statement
+}
+
+::Exception Handling::
+//Question 43
+Default exception handling can be defined as?{
+    =The exception object contains the name and description of the exception and the current state of the program where the exception has occurred. Creating the Exception Object and handling it in the run-time system is called throwing an Exception.
+    ~The object contains the name and description of the current state of the program where the exception has occurred.
+    ~In the try catch statement
+    ~In the throws statement
+}
+####The run-time system searches the call stack to find the method that contains a block of code that can handle the occurred exception. The block of the code is called an Exception handler.The run-time system starts searching from the method in which the exception occurred, and proceeds through the call stack in the reverse order in which methods were called.If it finds an appropriate handler, then it passes the occurred exception to it. An appropriate handler means the type of the exception object thrown matches the type of the exception object it can handle.
+If the run-time system searches all the methods on the call stack and couldn’t have found the appropriate handler, then the run-time system handover the Exception Object to the default exception handler, which is part of the run-time system. This handler prints the exception information in the following format and terminates the program abnormally.
+
+::Exception Handling::
+//Question 44
+Debug the error for the following code.
+<pre>
+class Catch {
+public static void main(String args[]) {
+try {
+int a = 0;
+int b = 42 / a;
+} catch(Exception e) {
+System.out.println("Generic Exception catch.");
+}
+catch(ArithmeticException e) { 
+System.out.println("This is never reached.");
+}
+}
+}</pre>{
+    ~This is never reached
+    ~Generic Exception catch
+    =reverse the order of the catch statements.
+     <pre>
+	catch(ArithmeticException e) { 
+		System.out.println("This is never reached.");
+	}
+	catch(Exception e) {
+		System.out.println("Generic Exception catch.");
+	}
+      </pre>
+    ~42
+}
+
+::Exception Handling::
+//Question 45
+Predict the output of  the following code.
+<pre>
+class CustomException extends Exception {
+private int number;
+CustomException(int x) {
+number = x;
+}
+public String toString() {
+return "CustomException[" + number + "]";
+}
+}
+class CustomDemo {
+static void validate(int x) throws CustomException {
+System.out.println("Called validate(" + x + ")");
+if(x > 100)
+throw new CustomException(x);
+System.out.println("Normal exit");
+}
+public static void main(String args[]) {
+try {
+validate(55);
+validate(101);
+} catch (CustomException e) {
+System.out.println("Caught " + e);
+}
+}
+}
+</pre>{
+    ~55
+    ~101
+    = <pre>
+	Called compute(55)
+	Normal exit
+	Called compute(101)
+	Caught MyException[101]
+      </pre>
+    ~Called validate 55
+}
+
+::Exception Handling::
+//Question 46
+Predict the output of  the following code.
+<pre>
+class TryCatch {
+public static void main(String args[]) {
+try {
+int x = args.length;
+int y = 42 / x;
+System.out.println("x = " + x);
+try { 
+if(x==1) x = x/(x-x); 
+if(x==2) {
+int z[] = { 1 };
+z[10] = 25; 
+}
+} catch(ArrayIndexOutOfBoundsException e) {
+System.out.println("Array index out-of-bounds: " + e);
+}
+} catch(ArithmeticException e) {
+System.out.println("Divide by 0: " + e);
+}
+}
+}
+</pre>{
+    =<pre>
+	C:\>java TryCatch
+	Divide by 0: java.lang.ArithmeticException: / by zero
+	C:\>java TryCatch One
+	a = 1
+	Divide by 0: java.lang.ArithmeticException: / by zero
+	C:\>java TryCatch One Two
+	a = 2
+	Array index out-of-bounds:
+	java.lang.ArrayIndexOutOfBoundsException
+     </pre>
+    ~1
+    ~2
+    ~25
+}
+
+
+::Exception Handling::
+//Question 47
+Chained Exception can be explained as?{
+    ~The exception object contains the name and description of the      exception and the current state of the program where the 	     exception has occurred. 
+    =It allows you to associate another exception with an      exception.This second exception describes the cause of the first      exception. 
+    ~It allows you to perform custom exception.
+    ~It allows you to perform runtime exception.
+}
+
+::Exception Handling::
+//Question 48
+Predict the output of  the following code.
+<pre>
+class ChainDemo {
+static void proc() {
+NullPointerException e = new NullPointerException("top layer");
+e.initCause(new ArithmeticException("cause"));
+throw e;
+}
+public static void main(String args[]) {
+try {
+proc();
+} catch(NullPointerException e) {
+System.out.println("Caught: " + e);
+System.out.println("Original cause: " +e.getCause());
+}
+}
+}
+</pre>{
+    =<pre>
+	Caught: java.lang.NullPointerException: top layer
+	Original cause: java.lang.ArithmeticException: cause
+     </pre>
+    ~Caught:0
+    ~Original cause:10
+    ~Original cause: java.lang.Exception:Divide by zero 
+}
+
+::Exception Handling::
+//Question 49
+How the given method `public String getMessage()` performs?{
+    =This method returns the message String of Throwable and the message can be provided while creating the exception through its constructor.
+    ~This method returns the exception
+    ~This method returns the custom exception.
+    ~This method returns the runtime exception.
+}
+
+::Exception Handling::
+//Question 50
+How the given method `public String getLocalizedMessage()` performs?{
+    ~This method returns the message String of Throwable and the message can be provided while creating the exception through its constructor.
+    ~This method returns the exception
+    ~This method returns the custom exception.
+    =This method is provided so that subclasses can override it to      provide a locale-specific message to the calling program. 	     Throwable class implementation of this method use getMessage() 	     method to return the exception message.
+}
+
+::Exception Handling::
+//Question 51
+What this method `public synchronized Throwable getCause()` will do?{
+    ~This method returns the message String of Throwable and the             message can be provided while creating the exception through its        constructor.
+    ~This method returns the exception
+    ~Throwable class implementation of this method use getMessage()      method to return the exception message.
+    =This method returns the cause of the exception or null if the           cause is unknown.
+}
+
+::Exception Handling::
+//Question 52
+What this method `public String toString()` will do?{
+    ~This method returns the message String of Throwable and the             message can be provided while creating the exception through its        constructor.
+    =This method returns the information about Throwable in String         format, the returned String contains the name of Throwable class      and localized message
+    ~Throwable class implementation of this method use getMessage()      method to return the exception message.
+    ~This method returns the cause of the exception or null if the           cause is unknown.
+}
+
+::Exception Handling::
+//Question 53
+When this method `public void printStackTrace()` perform some action?{
+    ~This method returns the message String of Throwable and the             message can be provided while creating the exception through its        constructor.
+    ~This method returns the information about Throwable in String           format, the returned String contains the name of Throwable class        and localized message
+    =This method prints the stack trace information to the standard      error stream, this method is overloaded and we can pass      PrintStream or PrintWriter as an argument to write the stack trace      information to the file or stream.
+    ~This method returns the cause of the exception or null if the           cause is unknown.
+}
+
+
+::Exception Handling::
+//Question 54
+What is a Call Stack in exceptions? {
+    ~This call stack returns the message while creating the exception      through its constructor.
+    ~This call stack returns the information about Throwable in String       format
+    =The call stack is the ordered list of methods that had been called      to get to a specific method.These are the methods which were      called to get to the method in which the error occurred.
+    ~This call stack returns the cause of the exception or null if the       cause is unknown.
+}
+
+::Exception Handling::
+//Question 55
+ArithmeticException can be defined as ? {
+    =ArithmeticException is thrown when an exceptional condition has      occurred in an arithmetic operation.
+    ~ArithmeticException is thrown when an arithmetic operator has           found in an arithmetic operation.
+    ~ArithmeticException is thrown when an exceptional condition has      not occurred.
+    ~ArithmeticException is thrown when a number is not found in an       arithmetic operation.
+}
+
+::Exception Handling::
+//Question 56
+ArrayIndexOutOfBoundsException can be defined as ? {
+    ~ArrayIndexOutOfBoundsException is thrown to indicate that an array has been accessed with an legal index. 
+    =ArrayIndexOutOfBoundsException is thrown to indicate that an array has been accessed with an illegal index. The index is either negative or greater than or equal to the size of the array.
+    ~ArrayIndexOutOfBoundsException is thrown to indicate that an array has been accessed  greater than to the size of the array.
+    ~ArrayIndexOutOfBoundsException is thrown to indicate the index is       negative to the size of the array.
+}
+
+::Exception Handling::
+//Question 57
+ClassNotFoundException can be defined as ? {
+    ~ClassNotFoundException is raised when there is no try block in a      class definition
+    =ClassNotFoundException is raised when we try to access a class          whose definition is not found
+    ~ClassNotFoundException is raised when we try to access a class          whose definition is found
+    ~ClassNotFoundException is raised when we try to access a class          which should  be an abstract class.
+}
+
+::Exception Handling::
+//Question 58
+ClassNotFoundException can be defined as ? {
+    ~ClassNotFoundException is raised when there is no try block in a      class definition
+    =ClassNotFoundException is raised when we try to access a class          whose definition is not found
+    ~ClassNotFoundException is raised when we try to access a class          whose definition is found
+    ~ClassNotFoundException is raised when we try to access a class          which should  be an abstract class.
+}
+
+::Exception Handling::
+//Question 59
+When will FileNotFoundException is occurred? {
+    =FileNotFoundException is raised when a file is not accessible or      does not open.
+    ~FileNotFoundException is raised when a file is in open mode.
+    ~FileNotFoundException is raised when a file is in read only mode.
+    ~FileNotFoundException is raised when a file is accessible but in      view mode.
+}
+
+::Exception Handling::
+//Question 60
+When will IOException is occurred? {
+    =IOException is thrown when an input-output operation is failed or      interrupted.
+    ~IOException is thrown when an input operation is not in failure.
+    ~IOException is thrown when an output operation is not in failure.
+    ~IOException is thrown when an arithmetic error is occurred.
+}
+
+
+::Exception Handling::
+//Question 61
+What is an Error class in exceptions? {
+    ~Error class is a compile time error class in java.
+    ~Error class in exception handling is a subclass of Throwable which represents a serious problem that a reasonable application should not try to catch. 
+    ~Error class in exception handling is a subclass of Runtime exception class which can be handled by try catch statement. 
+    =Error class in exception handling is used to handle array index  error.
+}
+
+::Exception Handling::
+//Question 62
+SocketException can be defined as ? {
+    ~SocketException occurs in  the socket class.
+    ~SocketException occurs on the client-side when the server closed the socket connection before the response could be returned over the socket. 
+    ~SocketException occurs on the server-side and the client-side.
+    =SocketException occurs on the server-side when the client closed the socket connection before the response could be returned over the socket.
+}
+
+::Exception Handling::
+//Question 63
+Predict the output of  the following code. 
+<pre>
+class ExceptionNumber
+{
+   public static void main(String args[])
+   {
+      try{
+	 int n=Integer.parseInt ("ABC") ;
+	 System.out.println(n);
+      }catch(NumberFormatException e){
+	  System.out.println("Number format exception occurred");
+       }
+   }
+}
+</pre>{
+    =Number format exception occurred.
+    ~ABC
+    ~0.
+    ~Arithmetic exception occurred.
+}
+
+::Exception Handling::
+//Question 64
+Predict the output of  the following code. 
+<pre>
+public class ExceptionString
+{
+   public static void main(String args[])
+   {
+      try{
+	 String s="Revature";
+	 System.out.println(s.length());;
+	 char t = s.charAt(0);
+	 t = str.charAt(15);
+	 System.out.println(t);
+      }catch(StringIndexOutOfBoundsException e){
+	  System.out.println("StringIndexOutOfBoundsException!!");
+       }
+   }
+}
+</pre>{
+    =StringIndexOutOfBoundsException
+    ~"Revature"
+    ~Revature
+    ~Reva
+}
+
+::Exception Handling::
+//Question 65
+Predict the output of  the following code. 
+<pre>
+class ExceptionString1
+{
+   public static void main(String args[])
+   {
+	try{
+		String s=null;
+		System.out.println (s.length());
+	}
+        catch(NullPointerException e){
+		System.out.println("NullPointerException");
+	}
+   }
+}
+</pre>{
+    ~-1
+    ~null
+    ~0
+    =NullPointerException
+}
+
+::Exception Handling::
+//Question 66
+`try`with resources can be defined as ? {
+    ~you simply need to declare the required resources within the parenthesis, and the resource will be deleted 
+    =Automatic resource management,which automatically closes the resources used within the try catch block.To use this statement, you simply need to declare the required resources within the parenthesis, and the created resource will be closed 
+    ~creating the resources.
+    =which automatically opens the resources used within the try catch block.
+}
+
+::Exception Handling::
+//Question 67
+What is the syntax for `try`with resources?{
+    =<pre>
+	try(FileReader f = new FileReader("file path")) {
+	// use the resource
+	} catch () {
+	// body of the catch block
+	}
+	}
+     </pre>
+    ~<pre>
+	try resource{
+	// try code
+	} catch () {
+	// body of the catch block
+	}
+	}
+     </pre>
+    ~<pre>
+	try(Resource f = new Resource("file path")) {
+	// use the resource
+	} catch () {
+	// body of the catch block
+	}
+	}
+     </pre>
+    ~<pre>
+	try( f("file path")) {
+	// use the resource
+	} catch () {
+	// body of the catch block
+	}
+	}
+     </pre>
+}
+
+::Exception Handling::
+//Question 68
+Predict the output of  the following code. 
+<pre>
+import java.io.*;
+public class TryResources {
+   public static void main(String args[]) {
+      try(FileReader f = new FileReader("C://abc.txt")) {
+         char [] a = new char[100];
+         f.read(a);   
+         for(char c : a)
+         System.out.print(c);   
+      } catch (IOException e) {
+         e.printStackTrace();
+      }
+   }
+}
+{
+    ~deletes the characters from the file abc.txt
+    ~null
+    ~0
+    =prints the characters from the file abc.txt 
+}
+
+
+
+
+
+
+
+
