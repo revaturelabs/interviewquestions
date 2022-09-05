@@ -59,7 +59,7 @@ D. DateTimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss")
 
 Answer: D
 
-
+#IGNORE
 6. Which is not the drawback of existing date and time API before Java 8.
  
 A. It is thread safe 
@@ -71,37 +71,37 @@ Answer: A
 
 7. _______ class handles date based amount of time .
 
-   A. Duration
-   B. Period
-   C. Seconds
-   D. Days
+A. Duration
+B. Period
+C. Seconds
+D. Days
 
 Answer: B 
 
 8. Which class handles time based amount of time (measured in terms of time).
 
-   A. Duration
-   B. Period
-   C. Seconds
-   D. Days
+A. Duration
+B. Period
+C. Seconds
+D. Days
 
 Answer: A 
 
 9. Which is the correct syntax for LocalTime class to find the current time in java 8?
 
-   A. LocalDate time = LocalTime.now();  
-   B. ZonedTime time = ZonedTime.now();  
-   C. ZonedTime time = ZonedTime.now();  
-   D. LocalTime time = LocalTime.now();  
+A. LocalDate time = LocalTime.now();  
+B. ZonedTime time = ZonedTime.now();  
+C. ZonedTime time = ZonedTime.now();  
+D. LocalTime time = LocalTime.now();  
 
 Answer: D
 
 10. ______ is an amount of time that a time-zone varies from Greenwich/UTC. 
 
-   A. local-zone offset 
-   B. datetime-zone offset  
-   C. time-zone offset 
-   D. date-zone offset
+A. local-zone offset 
+B. datetime-zone offset  
+C. time-zone offset 
+D. date-zone offset
 
 Answer: C 
 
