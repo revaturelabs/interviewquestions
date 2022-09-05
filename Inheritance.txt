@@ -1,0 +1,494 @@
+// Inheritance Questions
+
+#P2
+##EASY
+###BC
+1. Which of the following is the correct way of inheriting the Company class from Department class in python?
+A. class Company : public Department
+B. class Department : protected Company
+C. class Department(Company)
+D. class Department extends Company
+
+Answer: C
+
+Explanation: option A. and B. are used in C++ and option D. is used in Java to inherit one class from another. Hence option C. is correct.
+
+
+#P1
+##EASY
+###BC
+2. Which of the following correctly depicts the multi-level inheritance in Python?
+A. class B(A):
+B. class B(A):
+   class C(B):
+C. class B(A):
+   class C(A0:
+D. class C(A,B): 
+
+Answer: B
+
+Explanation: Option A. depicts single inheritance, option C. depicts hierarchical inheritance, and option D. multiple inheritance.
+
+
+#P1
+##EASY
+###BC
+3. Which of the following correctly depicts the multiple inheritance in Python?
+
+A. class B(A):
+B. class B(A):
+   class C(B):
+C. class B(A):
+   class C(A):
+D. class C(A,B):
+
+Answer: D
+
+Explanation: Option A. depicts single inheritance, option C. depicts hierarchical inheritance, and option B. multi-level inheritance.
+
+
+#P1
+##EASY
+###BC
+4. Which of the following correctly depicts the hierarchical inheritance in Python?
+A. class B(A):
+B. class B(A):
+ class C(B):
+C. class B(A):
+ class C(A):
+D. class C(A,B):
+
+
+Answer: C
+
+Explanation: Option A. depicts single inheritance, option D. depicts multiple inheritance, and option B. multi-level inheritance.
+
+
+#P1
+##EASY
+###BC
+5. Suppose class Department is a child of Company class, to invoke the __init__() in Company from Department, what line of code you will write?
+A. Company.__init__(self) 
+B. Company.__init__(Department)
+C. Department.__init__(self)
+D. Department.__init__(Company)
+
+Answer: A
+
+Explanation: To invoke the __init__() method of parent class from child class, we have to write Parent_ClassName.__init__(self) inside child class.
+
+
+#P2
+##EASY
+###BC
+6. Which is not a type of inheritance?
+
+A. Hybrid
+B. Single-level
+C. Double-level
+D. Multiple
+
+Answer: C
+
+Explanation: There is no double level inheritance present in python.
+
+
+#P1
+##MEDIUM
+###BC
+7. Predict the output of the following code.
+
+class Company():
+    def show(self):
+        print("Revature Company")
+    
+class Department(Company):
+    def show(self):
+        print("Training Department")
+    
+obj1 = Company()
+obj2 = Department()
+obj1.show() 
+obj2.show()
+
+
+A. Error
+B. Revature Company
+ Training Department
+C. Revature Company
+D. Training Department
+
+Answer: B
+
+Explanation: obj1 and obj2 are referring to different classes and they are calling the show() method of different classes.
+
+
+#P1
+##MEDIUM
+###BC
+8. Predict the output of the following code.
+
+class Company():
+    def showName(self):
+        print("Revature Company")
+    
+class Department(Company):
+    def show(self):
+        print("Training Department")
+    
+obj1 = Company()
+obj2 = Department()
+obj1.show()
+obj2.showName() 
+
+
+A. Revature Company
+ Training Department
+B. Training Department
+ Revature Company
+C. Error
+D. Nothing is printed
+
+Answer: C
+
+Explanation: The above code Throws the AttributeError while calling obj1.show() because there is no show method present inside Company class.
+
+
+
+#P1
+##EASY
+###BC
+9. Predict the output of the following code.
+
+class Company():
+    def showName(self):
+        print("Revature Company")
+    
+class Department(Company):
+    def show(self):
+        print("Training Department")
+    
+obj1 = Company()
+obj2 = Department()
+obj2.showName() 
+obj1.showName()
+
+A. Revature Company
+ Training Department
+B. Revature Company
+ Revature Company
+C. Training Department
+ Revature Company
+D. Training Department
+ Training Department
+
+Answer: B
+
+Explanation: Both obj1 and obj2 are referring to the same class method. And obj2 of Department class can refer to method of Company class because Department class inherits the Company in above code.
+
+
+#P1
+##EASY
+###BC
+10. Predict the output of the below mentioned code.
+
+class Company():
+    name = "Jack"
+    def __init__(self):
+        self.__name="James"
+    
+class Department(Company):
+    def show(self):
+        print(self.__name)
+    
+obj1 = Company()
+obj2 = Department()
+obj2.show()
+
+A. James
+B. Jack
+C. Error, no use of obj1 object
+D. Error, accessing private class member in subclass can't possible
+
+Answer: D
+
+Explanation: '__name' is a private data member of Company class and private members of one class cannot be accessed in another class in python.
+
+
+#P1
+##EASY
+###BC
+11. What is the output of the following code?
+
+class Company():
+    _name = "Jack"
+    def __init__(self):
+        self._name = "James"
+    
+class Department(Company):
+    def show(self):
+        print(self._name)
+    
+obj1 = Company()
+obj2 = Department()
+obj2.show()
+
+A. James
+B. Jack
+C. Error, no use of obj1 object
+D. Error, accessing private class member in subclass can't possible
+
+Answer: A
+
+Explanation: '_name'is a protected data member of Company class and protected members of one class can be accessed by another class through inheritance.
+
+
+
+#P2
+##EASY
+###BC
+12. Which is a wrong statement regarding inheritance?
+A. A class cannot inherits more then two classes in python
+B. protected members of a parent class can be accessed by child class.
+C. public members of a parent class can be used in child class and other classes also.
+D. In single inheritance one class inherits the other class.
+
+Answer: A
+
+Explanation: A class can inherits any number of classes in python.
+
+
+#P1
+##MEDIUM
+###BC
+13. Predict the output of the below code.
+
+class Test:
+    def __init__(self):
+        self.a = 4
+        
+class Test2(Test):
+    def __init__(self):
+        super().__init__()
+        self.b = 6
+
+obj= Test2()
+print(obj.a,obj.b)
+
+A. 4
+B. 6
+C. 4 6
+D. Error, no attribute named "a" present in Test2 class.
+
+Answer: C
+
+Explanation: super() is used to access the members of parent class in child class.
+
+
+#P1
+##EASY
+###BC
+14. Predict the output of the below code.
+
+class Test:
+    def __init__(self):
+        self.a = 4
+        
+class Test2(Test):
+    def __init__(self):
+        self.b = 6
+
+obj= Test2()
+print(obj.a,obj.b)
+
+A. 4
+B. 6
+C. 4 6
+D. Error, no attribute named "a" present in Test2 class.
+
+Answer: D
+
+Explanation: The above code throws "AttributeError: 'Test2' object has no attribute 'a'".
+
+
+#P2
+##EASY
+###BC
+15. Which of the following is true regarding inheritance?
+A. It is a part of Object Oriented Programming
+B. It gives the concept of accessing properties of one class to other.
+C. It reduces code repetition.
+D. All of the above.
+
+Answer: D
+
+
+#P1
+##EASY
+###BC
+16. Which type of inheritance is shown in the below code?
+
+class A:
+    pass
+class B(A):
+    pass
+class C(B,A):
+    def show(self):
+        print("hello")
+
+obj =C()
+obj.show()
+
+A. Multiple Inheritance
+B. Hybrid Inheritance
+C. Multilevel Inheritance
+D. Single Inheritance
+
+Answer: B
+
+Explanation: In the above code more than two types of inheritance is used, that is Single and Multiple. That is why it is a type of hybrid inheritance.
+
+
+#P2
+##EASY
+###TF
+17. State True and False: "super() function makes the child class to inherit all the data members and member functions from its parent class in python".
+
+A. True
+B. False
+
+
+Answer: A
+
+Explanation: We can use the super() function in child classes to inherit all the members of parent class.
+
+
+
+#P2
+##EASY
+###BC
+18. Suppose there are three classes, Animal, Dog, and Cat. Class Dog inherits properties from Animal class and class Cat also inherits properties from Animal class, than which type of inheritance can be depicted from the above scenario?
+
+A. Multilevel Inheritance
+B. Multiple Inheritance
+C. Hierarchical Inheritance
+D. Hybrid Inheritance
+
+Answer: C
+
+Explanation: In the above scenario, class Animal is a parent class of both Dog and Cat class. Also Dog and Cat both classes inherits from the same base class that is Animal class. So, Dog and Cat are derived classes of same base class, which is the definition of Hierarchical inheritance.
+
+
+#P2
+##EASY
+###BC
+19. Suppose there are three classes, Father, Mother and Child. The Child class inherits properties from two classes, Father and Mother class, than which type of inheritance can be depicted from the above scenario?
+
+A. Multilevel Inheritance
+B. Multiple Inheritance
+C. Hierarchical Inheritance
+D. Hybrid Inheritance
+
+Answer: B
+
+Explanation: By the definition, Multiple inheritance states that one derived class can inherits properties from more than 1 base class. In the above scenario also, we can see that Child class is a derived class which inherits all the properties from the 2 base classes, that is Father and Mother class.
+
+
+#P2
+##EASY
+###BC
+20. Suppose there are three classes, Car, Maruti_Alto and Maruti_Arena. Maruti_Alto inherit the Car class and Maruti_Arena inherit the Maruti_Alto class, than which type of inheritance can be depicted from the above scenario?
+
+A. Multilevel Inheritance
+B. Multiple Inheritance
+C. Hierarchical Inheritance
+D. Hybrid Inheritance
+
+Answer: A
+
+Explanation: As we can see in the above scenario, when Maruti_Alto inherit the Car class, the Car class becomes the parent class and Maruti_Alto becomes the child class. But when Maruti_Arena inherit the Maruti_Alto class, the Maruti_Arena becomes the child class of Maruti_Alto, which was already a derived class of Car class. Therefore, the relation is of type multilevel inheritance. 
+
+
+#P1
+##EASY
+###BC
+21. Predict the output of the following code.
+
+class Test:
+    def __init__(self, num1= 1):
+        self.num1 = num1
+        
+class Test1(Test):
+    def __init__(self,num2 = 2):
+        super().__init__()
+        self.num2 = num2+2
+
+obj = Test1()
+print(obj.num1, obj.num2)
+
+A. 1 2
+B. 1 4
+C. 1 Error
+D. Nothing is printed
+
+Answer: B
+
+Explanation: Simply the object of Test1 class is printing the values of num1 and num2.
+
+
+#P1
+##EASY
+###BC
+22. Predict the output of the below code.
+
+class Test:
+    def __init__(self, num1= 1):
+        self.num1 = num1
+        
+class Test1:
+    def __init__(self,num2 = 2):
+        super().__init__()
+        self.num2 = num2+2
+
+obj = Test1()
+print(obj.num1, obj.num2)
+
+A. 1 2
+B. 1 4
+C. Error
+D. None of the above.
+
+Answer: C
+
+Explanation: The above code will throw "AttributeError: 'Test1' object has no attribute 'num1'" because Test1 class is not a child of Test class and cannot inherit the things of Test class directly.
+
+
+#P1
+##EASY
+###BC
+23. Predict the output of the following code.
+
+class Sample:
+    
+    @staticmethod
+    def sample(): 
+        print("This sample will run first")
+    
+class Sample1(Sample):
+    
+    @staticmethod
+    def sample(): 
+        print("This sample will run second") 
+    
+Sample1.sample()
+
+A. This sample will run first
+B. This sample will run second
+C. Error, because object is not created.
+D. None of the above
+
+Answer: B
+
+Explanation: In the above code, @staticmethod decorater is used which makes the function inside the class as Static and that can be accessed outside the class with the help of Class_Name.
+
+

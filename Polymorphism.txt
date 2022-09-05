@@ -1,0 +1,376 @@
+// Polymorphism Questions
+
+
+#P2
+##EASY
+###BC
+1. Which of the following holds true for polymorphism in python?
+A. Ability to hide the complexity of code.
+B. Ability to inherit properties from base to subclass.
+C. Ability to restrict the access of data members from one class to another.
+D. Ability to override the functionality of parent class in child class.
+
+Answer: D
+
+Explanation: In python, Polymorphism allows the child class to make changes in the functions present in parent class.
+
+
+#P2
+##EASY
+###TF
+2. State True of False: "Polymorphism provides a default implementation of function overloading in python".
+A. True
+B. False
+
+Answer: B
+
+Explanation: Suppose, if we define two functions with same name and different argument list in python, and when we try to call the first function, it will give error in the program. But, when we try to call the second function, it doesn't give the error and overrides the prior function and generates the output.
+
+
+#P1
+##EASY
+###BC
+3. Predict the output of the following Code.
+
+class Vehicle:
+    def wheel(self):
+        print("It can have 2 or more wheels")
+        
+class Car(Vehicle):
+    def wheel(self):
+        print("It has 4 wheels")
+
+obj = Car()
+obj.wheel()
+
+A. It can have 2 or more wheels
+B. It has 4 wheels
+C. It has 4 wheels
+   It can have 2 or more wheels
+D. None of the above
+
+Answer: B
+
+Explanation: Car class overrides the wheel() method of Vehicle class and therefore when calling the wheel() method of Car using object of Car class, it prints the statement present inside it.
+
+
+#P1
+##EASY
+###BC
+4. Predict the output of the below code.
+
+class Vehicle:
+    def intro(self):
+        print("It is a part of Vehicle class")
+        
+    def wheel(self):
+        print("It can have 2 or more wheels")
+    
+class Car():
+    def wheel(self):
+        print("It has 4 wheels")
+
+obj = Car()
+obj.intro()
+obj.wheel()
+
+A. It has 4 wheels
+B. It is a part of Vehicle class
+   It can have 2 or more wheels
+C. It is a part of Vehicle class
+   It has 4 wheels
+D. Error
+
+Answer: D
+
+Explanation: The above code will throw an AttributeError because Car class object is trying to call the method present inside Vehicle class which is not possible, as there is no relationship between Car and Vehicle class.
+
+
+#P1
+##EASY
+###BC
+5. Predict the output of the below code.
+
+class Vehicle:
+    def intro(self):
+        print("It is a part of Vehicle class")
+        
+    def wheel(self):
+        print("It can have 2 or more wheels")
+    
+class Car(Vehicle):
+    def wheel(self):
+        print("It has 4 wheels")
+
+obj = Car()
+obj.intro()
+obj.wheel()
+
+A. It has 4 wheels
+B. It is a part of Vehicle class
+   It can have 2 or more wheels
+C. It is a part of Vehicle class
+   It has 4 wheels
+D. Error
+
+Answer: C
+
+Explanation: The Car class is a child class of Vehicle class, so it can access the methods present inside that class. Because of that intro() method of Vehicle class got executed when using the object of Car class and wheel() of Car class is executed, not of Vehicle, because of method overriding.
+
+
+#P1
+##EASY
+###BC
+6. What will be the output of the following code?
+
+class Test:
+    def __init__(self, a):
+        self.a = a
+        
+    def add(self):
+        self.a = 20
+        return self.a
+        
+class Test1(Test):
+    def add(self):
+        self.a= self.a+10
+        return self.a
+        
+obj = Test1(11)
+print(obj.add()) 
+
+A. 11
+B. 21
+C. 30
+D. 31
+
+Answer: B
+
+Explanation: In the above code, the Test1 class method add() overrides the Test class method. Also while initalizing the value of a was 11 and after adding it with 10 in add(), it becomes 21 and hence the output.
+
+
+#P1
+##EASY
+###BC
+7. What is the output of the below code?
+
+class Test:
+    def __init__(self, a):
+        self.a = a
+        
+    def add(self):
+        self.a = 20
+        return self.a
+        
+class Test1(Test):
+    def add(self):
+        self.a= a+10
+        return self.a
+        
+obj = Test1(11)
+print(obj.add())
+
+A. 11
+B. 21
+C. 20
+D. Error
+
+Answer: D
+
+Explanation: The above code on execution will throw the NameError, as there is no 'a' variable defined in class Test1.
+
+
+#P1
+##EASY
+###BC
+8. Predict the output of the following code.
+
+class Test:
+    def __init__(self, a):
+        self.a = a
+        
+    def assign(self):
+        return self.a
+        
+class Test1(Test):
+    def __init__(self, a):
+        super().__init__(a)
+        
+    def assign(self):
+        return self.a
+
+class Test2(Test1):
+    def __init__(self, a):
+        super().__init__(a)
+        
+    def assign(self):
+        return self.a
+        
+obj1 = Test(11)
+obj2 = Test1(12)
+obj3 = Test2(13)
+for i in (obj1, obj2, obj3):
+    print(i.assign(), end=" ")
+
+
+A. 11 11 11
+B. 11 12 11
+C. 11 12 13
+D. Error
+
+Answer: C
+
+Explanation: obj1, obj2, obj3 all three objects belongs to different classes and when assign() method is called using these objects, the statement present inside these is executed and hence we get the values as 11, 12 and 13.
+
+
+#P2
+##EASY
+###BC
+9. Which of the following is true about method overriding in python?
+
+A. Private method in a parent class can be overridden in a child class.
+B. Public method in a parent class can be overridden in a child class.
+C. Method Overriding is not possible in python.
+D. Any method of parent class can be overridden in a child class.
+
+Answer: B
+
+Explanation: option A. , C. and D. are incorrect because method overriding is possible in python and private methods of a base class cannot be overridden in a child class.
+
+
+#P1
+##EASY
+###BC
+10. Predict the output of the below code?
+
+class Test:
+    
+    def multiply(self, a, b):
+        return a*b
+    
+    def multiply(self, a, b, c):
+        return a*b*c
+        
+obj1 = Test()
+print(obj1.multiply(10,20))
+
+
+A. 20
+B. 10
+C. 200
+D. Error
+
+Answer: D
+
+Explanation: The above code will throw a TypeError because the default way of method overloading is not possible in python. Here, the later function overrides the previous function at the run time and so, three arguments are required to pass to multiply() method and not two at the time of calling.
+
+
+#P1
+##EASY
+###BC
+11. Predict the output of the below code.
+
+class Test:
+    
+    def multiply(self, a, B.:
+        return a*b
+    
+    def multiply(self, a, b, C.:
+        return a*b*c
+        
+obj1 = Test()
+print(obj1.multiply(10,20,2))
+
+A. 20
+B. 400
+C. 200
+D. Error
+
+Answer: B
+
+Explanation: As three arguments are passed to multiply() method of Test class, last method implementation is executed and we will get the result as multiplication of 10, 20 and 2 , which is 400.
+
+
+#P1
+##EASY
+###BC
+12. Predict the output of the following code.
+
+class Test:
+    
+    def multiply(self, a, b):
+        return a*b
+        
+class Test1(Test):
+    
+    def multiply(self, a, b, c):
+        return a*b*c
+        
+obj1 = Test1()
+print(obj1.multiply(10,20))
+
+A. 10
+B. 30
+C. 200
+D. Error
+
+Answer: D
+
+Explanation: According to method overriding, parent class and child class method should have the same name with same number of arguments but, the multiply() method of Test class and multiply() method of Test1 class have different number of arguments, which leads to an error. While calling the mutliply() of Test1, 3 arguments are required but, only 2 passed.
+
+
+#P1
+##EASY
+###BC
+13. What is the use of polymorphism in python?
+A. It allows to use the same code again and again.
+B. Programs that uses the polymorphism concepts takes less space in memory.
+C. We can hide the complexity through polymorphism.
+D. It allows the methods to have different implementation according to the class.
+
+Answer: D
+
+Explanation: It provides the way to create same method in different classes with different implementation.
+
+
+#P2
+##EASY
+###BC
+14. Which of the following operator overloads the __add__() function?
+A. +
+B. +=
+C. -
+D. -=
+
+Answer: A
+
+
+#P2
+##EASY
+###BC
+15. Which operator is overloaded by the __or__() function?
+A. ||
+B. |
+C. //
+D. /
+
+Answer: B
+
+Explanation: The function or() overloads the bitwise OR operator '|'.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
