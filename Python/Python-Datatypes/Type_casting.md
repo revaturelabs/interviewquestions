@@ -47,7 +47,7 @@ The type casting process's execution can be performed by using two different typ
 
 <details><summary> <b>Show Answer</b> </summary>
   
-  > No, we can't
+  > No, we can't.  
   > We can convert any type to int type, but we cannot perform complex to int type.
   
   </details>
@@ -112,7 +112,7 @@ print(type(a1))
 
 8.How do you remove a reference to a variable?
   
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
   <blockquote>
@@ -138,7 +138,6 @@ File "<string>", line 21, in <module>
   
 NameError: name 'a' is not defined
     
-    </blockquote>
   </details>
   
   ---
