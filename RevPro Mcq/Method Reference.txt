@@ -1,50 +1,62 @@
-1. ____________ refers to the method of functional interface.
+#P1
+##EASY
+###BC
+1. A method of functional Interface is 
 
-    A. Abstarction
-    B. Lambda Expression
-    C. Method Reference
-    D. All the above
+A. Abstraction
+B. Lambda Expression
+C. Method Reference
+D. All the above
 
 Answer: C
 
-2. Can  we use a method reference instead of a lambda expressison.
+#P1
+##EASY
+###TF
+2. We use a method reference instead of a lambda expressison
 
-    A. True
-    B. False
+A. True
+B. False
     
 Answer: A 
 
+
+#P1
+##EASY
+###BC
 3. Which is not the type of Method References?
 
-    A. Reference to a static method.
-    B. Reference to an instance method.
-    C. Reference to an instance method of an arbitrary object of a particular type
-    D. Reference to a object.
+A. Reference to a static method.
+B. Reference to an instance method.
+C. Reference to a constructor
+D. Reference to a object.
 
 Answer: D
 
+#IGNORe
 4. Which is the syntax for referring to a static method?
 
-    A. ContainingClass::staticMethodName
-    B. ContainingObject::staticMethodName
-    C. ContainingClass::staticObjectName
-    D. ContainingClass::staticClassName
+A. ContainingClass::staticMethodName
+B. ContainingObject::staticMethodName
+C. ContainingClass::staticObjectName
+D. ContainingClass::staticClassName
 
 Answer: A 
-
+#
 5. Can we refer to the static method by calling its object?
-    A. Yes
-    B. NO 
+
+A. Yes
+B. No
 
 Answer: B 
 Explanation: we can only refer to the static method by calling its name with the class where it resides.
 
 6.  containingObject::instanceMethodName is the syntax for Reference to an ____ method of a particular object.
 
-    A. Static
-    B. Final
-    C. instance
-    D. None of the above
+A. Static
+B. Final
+C. instance
+D. None of the above
 
 Answer: C 
 
