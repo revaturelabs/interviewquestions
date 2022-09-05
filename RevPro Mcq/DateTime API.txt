@@ -69,7 +69,10 @@ D. None of the above
 
 Answer: A
 
-7. _______ class handles date based amount of time .
+#P2
+##EASY
+###BC
+7. To define an amount of time with date-based values (years, months, days), use the _____ class.
 
 A. Duration
 B. Period
@@ -78,7 +81,10 @@ D. Days
 
 Answer: B 
 
-8. Which class handles time based amount of time (measured in terms of time).
+#P2
+##EASY
+###BC
+8. Which class measures an amount of time using time-based values (seconds, nanoseconds)?
 
 A. Duration
 B. Period
@@ -87,15 +93,19 @@ D. Days
 
 Answer: A 
 
-9. Which is the correct syntax for LocalTime class to find the current time in java 8?
+#P1
+##EASY
+###BC
+9. Which is the following syntax helps to get the current time?
 
-A. LocalDate time = LocalTime.now();  
-B. ZonedTime time = ZonedTime.now();  
-C. ZonedTime time = ZonedTime.now();  
-D. LocalTime time = LocalTime.now();  
+A. LocalDate lt = LocalTime.now();  
+B. ZonedTime zt = ZonedTime.now();  
+C. ZonedDate zd = ZonedDate.now();  
+D. LocalDate ld = LocalDate.now();  
 
-Answer: D
+Answer: A
 
+#IGNORE
 10. ______ is an amount of time that a time-zone varies from Greenwich/UTC. 
 
 A. local-zone offset 
@@ -105,6 +115,9 @@ D. date-zone offset
 
 Answer: C 
 
+#P2
+##MEDIUM
+###BC
 11. Time-zone offset is measured in fixed number of ____ and ______.
 
 A. hours and minutes 
@@ -114,23 +127,29 @@ D. None of the above
 
 Answer:A 
 
+#P1
+##EASY
+###BC
 12. Which is the correct syntax to print the current date and time in Java 8?
 
-A. LocalTime currentTime = LocalTime.now(); <br>
-   LocalDate currentDate = LocalDate.now(); <br>
-   LocalDateTime currentDateTime = LocalDateTime.now(); <br>
-B. LocalTime Time = LocalTime.now(); <br>
-   LocalDate currentDate = LocalDate.now(); <br>
-   LocalDateTime currentDateTime = LocalDateTime.now(); <br>
-C. LocalTime currentTime = LocalTime.now(); <br>
-   LocalDate Date = LocalDate.now(); <br>
-   LocalDateTime currentDateTime = LocalDateTime.now(); <br>
-D. LocalTime currentTime = LocalDateTime.now(); <br>
-   LocalDate currentDate = LocalDateTime.now(); <br>
-   LocalDateTime currentDateTime = LocalDateTime.now(); <br>
+A. LocalTime currentTime = LocalTime.now(); 
+   LocalDate currentDate = LocalDate.now(); 
+   LocalDateTime currentDateTime = LocalDateTime.now(); 
+B. LocalTime Time = LocalTime.now(); 
+   LocalDate currentDate = LocalDate.now(); 
+   LocalDateTime currentDateTime = LocalDateTime.now();
+C. LocalTime currentTime = LocalTime.now(); 
+   LocalDate Date = LocalDate.now(); 
+   LocalDateTime currentDateTime = LocalDateTime.now(); 
+D. LocalTime currentTime = LocalDateTime.now(); 
+   LocalDate currentDate = LocalDateTime.now(); 
+   LocalDateTime currentDateTime = LocalDateTime.now(); 
 
 Answer:A 
 
+#P1
+##EASY
+###BC
 13. Choose the output of the following code.
 import java.time.*;    
 public class LocalDateExample1 {    
@@ -140,13 +159,9 @@ public class LocalDateExample1 {
   }    
 }
 
-A. Current Date
-B. Current Time
-C. Current DateTime
+A. It will print the current date
+B. It will print the current time
+C. It will print the current date and ime
 D. None of the above
 
 Answer:A 
-
-
-
-
