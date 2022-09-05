@@ -1,0 +1,89 @@
+1. _______ doesn't store duplicate values and one key can have at most one value.
+
+    A. Stack
+    B. Vector
+    C. HashSet
+    D. Map
+
+Answer: D
+
+2. _______ is synchronized. It is thread-safe and can be shared with many threads.
+
+    A. Queue
+    B. HashTable
+    C. HashSet
+    D. HashMap
+
+Answer: B
+
+3. _______ is slow in comparison to _______ because it provides the performance of O(log(n)) for most operations like add(), remove() and contains().
+
+    A. TreeMap, HashMap
+    B. HashSet, HashMap
+    C. HashMap, TreeMap
+    D. None of the above
+
+Answer: A
+
+4. What happens when you try to add a key-value pair to an existing key in HashMap?
+
+    A. It remains unchanged
+    B. It overrides the value
+    C. It overrides the Key
+    D. None of the above
+
+Answer: B
+
+5. The _______ should be used when we do not require key-value pair in sorted order.
+
+    A. HashSet
+    B. TreeSet
+    C. TreeMap
+    D. HashMap
+
+Answer: D
+
+6. _______ is the set of key-value pairs from a Map.
+
+    A. entrySet
+    B. keySet
+    C. values
+    D. None of the above
+
+Answer: A
+
+7. Consider that a country stores its citizen's data in a form of Aadhar number and age. A deadly virus outbreak led to a global shutdown and the country wants to vaccinate the older people first as they get easily infected by the virus. Which of the following best represents the scenario?
+
+    A. TreeMap with age as key and Aadhar number as value but ordered by key.
+    B. TreeMap with Aadhar number as key and age as value but ordered by value in descending order.
+    C. HashMap with age as key and Aadhar number as value.
+    D. HashMap with Aadhar number key and age as value .
+
+Answer: B
+
+8. Write a syntax to order the HashMap based on the value?
+
+    A. hm.entrySet().stream().sorted(Map.Entry.comparingByValue()).forEach(System.out::println)
+    B. hm.entrySet().stream().sorted(Map.Entry.comparingByKey()).forEach(System.out::println)
+    C. hm.entrySet().stream().sorted(Map.Entry.comparingByValueSet()).forEach(System.out::println)
+    D. None of the above
+
+Answer: A
+
+9. Given 2 HashMaps, what is the syntax to check if a Map is a sub-map of another Map.
+
+    A. System.out.println(Map1.entrySet().containsAll(Map2.keySet()))
+    B. System.out.println(Map1.entrySet().containsAll(Map2.entrySet()))
+    C. System.out.println(Map1.containsAll(Map2.keySet()))
+    D. None of the above
+
+Answer: B
+
+10. HashMap allows a _______ null key and _______ null values.
+
+    A. single, single
+    B. multple, single
+    C. single, multiple
+    D. zero, single
+
+Answer: C

@@ -1,0 +1,181 @@
+1. _______ stores elements before processing and normally queue follows the First in First out principle.
+
+    A. Stack
+    B. Queue
+    C. ArrayList
+    D. LinkedList
+
+Answer: B
+
+2. _______ returns the head element of the queue.
+
+    A. offer(element)
+    B. pop()
+    C. element()
+    D. None of the above
+
+Answer: C
+
+3. _______ is prefered over _______ to avoid exceptions in the program.
+
+    A. offer(element), add(element)
+    B. add(element), offer(element)
+    C. push(element), add(element)
+    D. None of the above
+
+Answer: A
+
+4. _______ is prefered over _______ to avoid exceptions in the program.
+
+    A. pull(), poll()
+    B. remove(), poll()
+    C. poll(), remove()
+    D. None of the above
+
+Answer: C
+
+5. _______ is used to get the head element from the queue, unlike the poll element doesn't remove elements from the queue. Returns element or throws an exception if the queue is empty.
+
+    A. peek()
+    B. element()
+    C. poll()
+    D. get()
+
+Answer: B
+
+6. _______ has some special methods to add and retrieve elements from both the front and rear end.
+
+    A. PriorityQueue
+    B. ArrayDeque
+    C. List
+    D. Vector
+
+Answer: B
+
+7. _______ is used to retrive an element from the rear end.
+
+    A. getLast()
+    B. getFirst()
+    C. offerFirst(element)
+    D. offerLast(element)
+
+Answer: A
+
+8. _______ is a queue that stores the elements in general order(ascending) or uses a comparator to sort the elements.
+
+    A. BlockingQueue
+    B. ArrayDeque
+    C. PriorityQueue
+    D. None of the above
+
+Answer: C
+
+9. _______ is similar to queue but it supports some operations like waiting for the queue to be non-empty to retrieve an element and waiting till the space is available to insert the elements.
+
+    A. BlockingQueue
+    B. ArrayDeque
+    C. PriorityQueue
+    D. None of the above
+
+Answer: A
+
+10. What is the time complexity of offer(element) method for ArrayDeque?
+
+    A. O(n)
+    B. O(1)
+    C. O(log n)
+    D. O(2n)
+
+Answer: B
+
+11. What is the time complexity of poll() method for ArrayDeque?
+{
+    A. O(1)
+    B. O(2n)
+    C. O(log n)
+    D. O(n)
+
+Answer: A
+
+12. What is the time complexity of element() method for ArrayDeque?
+
+    A. O(n)
+    B. O(2n)
+    C. O(log n)
+    D. O(1)
+
+Answer: D
+
+13. What is the time complexity of offer(element) method for a PriorityQueue?
+
+    A. O(n)
+    B. O(2n)
+    C. O(log n)
+    D. O(1)
+
+Answer: C
+
+14. What is the time complexity of poll() method for a PriorityQueue?
+
+    A. O(n)
+    B. O(2n)
+    C. O(log n)
+    D. O(1)
+
+Answer: D
+
+15. What is the time complexity of element() method for a PriorityQueue?
+
+    A. O(1)
+    B. O(n)
+    C. O(2n)
+    D. O(log n)
+
+Answer: A
+
+16. The _______ Interface Inherits the properties of Collection Interface, Queue Interface, and List Interface.
+
+    A. Set
+    B. Deque
+    C. List
+    D. HashMap
+
+Answer: B
+
+17. There is a movie premiere and people should walk through the red carpet before they are allowed into the movie theatre. people walk on the carpet based on their importance, The order goes like, Produce, Director, lead Actors, supporting actors and the list continues. Which of the following best represents the following scenario?
+
+    A. ArrayDeque
+    B. BlockingQueue
+    C. PriorityQueue
+    D. Queue
+
+Answer: C
+
+18. Predict the output of the following code snippet.
+
+ArrayDeque<Integer> ad = new ArrayDeque<>();
+ad.add(1);
+System.out.println(ad.remove());
+
+    A. 1
+    B. Compile-time Error
+    C. Run-Time error
+    D. Input Mismatch error
+
+Answer: A
+
+
+19. Predict the output of the following code snippet.
+
+ArrayDeque<Integer> ad = new ArrayDeque<>();
+ad.push(4);
+System.out.println(ad.pop());
+
+
+    A. 4
+    B. Compile-time Error
+    C. Run-Time error
+    D. Input Mismatch error
+
+Answer: A
+
