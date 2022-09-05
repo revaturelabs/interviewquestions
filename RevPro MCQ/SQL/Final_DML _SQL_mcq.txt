@@ -1,1973 +1,922 @@
-::MCQ::
 1.Which SQL Data is used to delete a data from a table?
 
-a.COLLAPSE
+A.COLLAPSE
 
-b.REMOVE
+B.REMOVE
 
-c.ALTER
+C.ALTER
 
-d.DELETE
+D.DELETE
 
-Correct Answer: DELETE
+Answer: D
 
-Explanation 
-
-`DELETE` command is used to delete the existing records from a table. by Using this command  you can either delete a specific record based on their condition or all the records from a table.
-
-----------
+Explanation: DELETE command is used to delete the existing records from a table. by Using this command  you can either delete a specific record based on their condition or all the records from a table.
 
 2.Which command is used for removing columns from a table?
 
-```sql
+A. MODIFY TABLE TableName DROP ColumnName
 
-a. MODIFY TABLE TableName DROP ColumnName
+B. MODIFY TABLE TableName DROP COLUMN ColumnName
 
-```
+C. ALTER TABLE TableName DROP ColumnName
 
-```sql
+D. ALTER TABLE TableName DROP COLUMN ColumnName
 
-b. MODIFY TABLE TableName DROP COLUMN ColumnName
+Answer: D
 
-```
-
-```sql
-
-c. ALTER TABLE TableName DROP ColumnName
-
-```
-
-```sql
-
-d. ALTER TABLE TableName DROP COLUMN ColumnName
-
-```
-
-Correct Answer:
-```sql
- 
-ALTER TABLE TableName DROP COLUMN ColumnName
- 
-```
-
- Explanation 
- 
-   Alter table is used to change the values and drop the particular column and  columnname.
-
-----------
+Explanation: Alter table is used to change the values and drop the particular column and  columnname.
 
 3.Which of the following command is excluded from DML? (Data Manipulation Language)
 
-a. INSERT
+A. INSERT
 
-b. UPDATE
+B. UPDATE
 
-c. DELETE
+C. DELETE
 
-d. CREATE
+D. CREATE
 
- Show Answer 
+Answer: C
 
-CREATE
-
- Explanation 
-
-CREATE Command is used to create a new table in the given database. 
-
-
-----------
+Explanation: CREATE Command is used to create a new table in the given database. 
 
 4.A table showing data redundancy produces _____________characteristics.
 
-a. Update
+A. Update
 
-b. Insertion
+B. Insertion
 
-c. Deletion
+C. Deletion
 
-d. All of the Above
+D. All of the Above
 
-Show Answer 
+Answer: D
 
-Update, Insertion, Deletion
-
- Explanation 
-
-Update, insertion, and deletion anomalies can be seen in the table that shows data redundancy.
-
-----------
+Explanation: Update, insertion, and deletion anomalies can be seen in the table that shows data redundancy.
 
 5.DML is Used to___________.
 
-a. Description of logical structure of database.
+A. Description of logical structure of database.
 
-b. Addition of new structure in the database system.
+B. Addition of new structure in the database system.
 
-c. Manipulation & processing datas in a database.
+C. Manipulation & processing datas in a database.
 
-d. Definition of physical structure of database system.
+D. Definition of physical structure of database system.
 
-Show Answer 
-     
-Manipulation & processing datas in a database.
+Answer: C
 
- Explanation
-
-A data manipulation language (DML) is used for adding (inserting), deleting, and modifying (updating) data in a database.
-
-
------------
+Explanation: A data manipulation language (DML) is used for adding (inserting), deleting, and modifying (updating) data in a database.
 
 6.The DDL, DCL, and DML language components that make up a database management system (DBMS).
 Users and practitioners, two diverse groups of individuals, are both interested in them. Which of them do DBMS users often work with?
 
-a. DDL
+A. DDL
 
-b. DML
+B. DML
 
-c. DDL and DCL
+C. DDL and DCL
 
-d. DCL and DML
+D. DCL and DML
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: B
 
+Explanation: Only the DBMS component for data manipulation language is of interest to users and practitioners.
 
-
-DML(Data Manipulation Language)
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
- Only the DBMS component for data manipulation language is of interest to users and practitioners.
-
-</blockquote>
-
-</details>
-</details>
-----------
 
 7.What are the following Commands that comes under DML?
 
-a. ROLLBACK
+A. ROLLBACK
 
-b. GRANT
+B. GRANT
 
-c. UPDATE
+C. UPDATE
 
-d. All of the above
+D. All of the above
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: C
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-UPDATE
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-Commands that comes under DML are INSERT, SELECT, UPDATE & DELETE.
-
-</blockquote>
-
-</details>
-</details>
-----------
+Explanation: Commands that comes under DML are INSERT, SELECT, UPDATE & DELETE.
 
 8.Which command will delete the records from the table while maintaining the table's structure?
 
-a. REMOVE
+A. REMOVE
 
-b. DELETE
+B. DELETE
 
-c. DROP
+C. DROP
 
-d. TRUNCATE
+D. TRUNCATE
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: B
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-DELETE
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-The DELETE command will delete the records from the table without changing the way of the table that is organised.
-
-</blockquote>
-
-</details>
-</details>
-----------
+Explanation: The DELETE command will delete the records from the table without changing the way of the table that is organised.
 
 9.Which of the following SQL commands should we execute if we wish to remove certain data from the database?
 
-a. DML
+A. DML
 
-b. TCL
+B. TCL
 
-c. DCL
+C. DCL
 
-d. DDL
+D. DDL
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: A
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-DML(Data Manipulation Language)
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-The DML command must be used whenever we need to make changes to the database, such as `INSERT`, `DELETE`, or `UPDATE`.
-
-</blockquote>
-
-</details>
-</details>
-----------
+Explanation: The DML command must be used whenever we need to make changes to the database, such as INSERT, DELETE, or UPDATE`.
 
 10.In which type of language is the database defined?
 
-a. DDL
+A. DDL
 
-b. DML
+B. DML
 
-c. DCL
+C. DCL
 
-d. TCL
+D. TCL
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: B
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-DML(Data Manipulation Language)
-
-</blockquote>
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-      Data is accessed and changed by using DML (Data Manipulating Language).
-
-</blockquote>
-
-</details>
-</details>
-
------------
+Explanation: Data is accessed and changed by using DML (Data Manipulating Language).
 
 11.The records from one or more tables that are combined by using which DML command?
 
-a. SELECT
+A. SELECT
 
-b. PROJECT
+B. PROJECT
 
-c. JOIN
+C. JOIN
 
-d. PRODUCT
+D. PRODUCT
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: C
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-JOIN
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-Records from one or more tables are combined using the SQL JOIN Command. Additionally, the JOIN command finds similar column values in the tables being joined.
-
-</blockquote>
-
-</details>
-</details>
-
------------
+Explanation: Records from one or more tables are combined using the SQL JOIN Command. Additionally, the JOIN command finds similar column values in the tables being joined.
 
 12.The ___________ Language provides the ability to insert, delete, and modify tuples as well as query a data.
 
-a. TCL (Transaction Control Language)
+A. TCL (Transaction Control Language)
 
-b. DCL (Data Control Language)
+B. DCL (Data Control Language)
 
-c. DDL (Data Definition Langauge)
+C. DDL (Data Definition Langauge)
 
-d. DML (Data Manipulation Langauge)
+D. DML (Data Manipulation Langauge)
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: D
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-DML(Data Manipulation Language)
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-The database is manipulated by using  DML. To manipulate data in a database that means to add, edit, delete, or run queries on it. It also  allows users to access or alter the data in the way that the right data model has arranged it.
-
-</blockquote>
-
-</details>
-</details>
-
------------
+Explanation: The database is manipulated by using  DML. To manipulate data in a database that means to add, edit, delete, or run queries on it. It also  allows users to access or alter the data in the way that the right data model has arranged it.
 
 13.INSERT command is used to insert a ____________.
 
-a. Single or Multiple database
+A. Single or Multiple database
 
-b. Single or Multiple record
+B. Single or Multiple record
 
-c. Single or Multiple table
+C. Single or Multiple table
 
-d.  None of the above
+D.  None of the above
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: B
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-Single or Multiple record
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-      SQL `INSERT` is used to insert a single or multiple records in the table.
-
-</blockquote>
-
-</details>
-</details>
-
------------
+Explanation: SQL INSERT is used to insert a single or multiple records in the table.
 
 14.which command is used to insert a row directly in the table?
 
-a. INSERT IN
+A. INSERT IN
 
-b. INSERT INTO
+B. INSERT INTO
 
-c. INSERT UNDER
+C. INSERT UNDER
 
-d. INSERT INSIDE
+D. INSERT INSIDE
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: B
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-INSERT INTO
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-`INSERT` INTO command is used to insert a row directly in the table.
-
-</blockquote>
-
-</details>
-</details>
-
------------
+Explanation: INSERT INTO command is used to insert a row directly in the table.
 
 15.DELETE command can be used to delete a ____________.
 
-a. Rows
+A. Rows
 
-b. Database
+B. Database
 
-c. View
+C. View
 
-d. All of the above
+D. All of the above
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: D
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-All of the above
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-     The DELETE command is used to delete a specified row(one or more). While this command is used to delete all the rows from a table.
-
-</blockquote>
-       
-</details>
-</details>
-
------------
+Explanation: The DELETE command is used to delete a specified row(one or more). While this command is used to delete all the rows from a table.
 
 16.Which clause is used to delete all rows from the table?
 
- ```sql
+A. SQL DELETE ALL ROWS Table_Name;
  
-a. SQL DELETE ALL ROWS Table_Name;
-
-```
-
-```sql
+B. SQL DELETE ROWS Table_Name;
  
-b. SQL DELETE ROWS Table_Name;
+C. DELETE FROM Table_Name;
  
-```
+D. DELETE FROM ALL ROWS Table_Name;
  
-```sql
+Answer: C
 
-c. DELETE FROM Table_Name;
- 
-```
-
-```sql
- 
-d. DELETE FROM ALL ROWS Table_Name;
- 
-```
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-DELETE FROM Table_Name;
-
-</blockquote>
-
-
-<details>
-<summary><b>  Explanation </b></summary>
-
-<blockquote>
-
-`DELETE` FROM Table_Name is used to delete all rows from the table.
-
-</blockquote>
-
-</details>
-</details>
-
------------
+Explanation: DELETE FROM Table_Name is used to delete all rows from the table.
 
 17.Which keyword is used In order to delete duplicate rows from the table?
 
-a. DISTINCT
+A. DISTINCT
 
-b. DELETE
+B. DELETE
 
-c. FROM
+C. FROM
 
-d. WHERE
+D. WHERE
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: A
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-DISTINCT
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-`DISTINCT` keyword is used to delete duplicate rows from the table.
-
-</blockquote>
-
-</details>
-</details>
-
------------
+Explanation: DISTINCT keyword is used to delete duplicate rows from the table.
 
 18.In order to delete the database, which keyword is used?
 
-a. DELETE
+A. DELETE
 
-b. ALTER
+B. ALTER
 
-c. DROP
+C. DROP
 
-d. None of the above
+D. None of the above
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: C
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-DROP
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-     `DROP` keyword is used to delete the database.
-
-</blockquote>
-
-</details>
-</details>
-
------------
-
+Explanation: DROP keyword is used to delete the database.
 
 19.Which of the following allows users to put tuples into the database, delete tuples from the database, and alter tuples already present there?
 
-a. DDL(Data Definition Language)
+A. DDL(Data Definition Language)
 
-b. Query
+B. Query
 
-c. Relational Schema
+C. Relational Schema
 
-d. DML(Data Manipulation Language)
+D. DML(Data Manipulation Language)
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: D
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-DML(Data Manipulation Language)
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
- The term "DML" stands for the Data Manipulation Language which is used to perform the required changes in the relation's values.
-
-</blockquote>
-
-</details>
-</details>
-
------------
+Explanation: The term "DML" stands for the Data Manipulation Language which is used to perform the required changes in the relation's values.
 
 20.The SQL used by front-end application programs to request data from the DBMS is called _______
 
-a. DDL
+A. DDL
 
-b. DML
+B. DML
 
-c. SDL
+C. SDL
 
-d. VDLD  
+D. VDLD  
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: B
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-DML(Data Manipulation Language)
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-      A database front end is the user interface or software programme that makes it possible to view tabular, structured, or unstructured data that is kept there.
-
-</blockquote>
-
-</details>
-</details>
-
------------
+Explanation: A database front end is the user interface or software programme that makes it possible to view tabular, structured, or unstructured data that is kept there.
 
 21.___________ command in SQL should be used to create a new table?
 
-a. Generate Table
+A. Generate Table
 
-b. Build Table
+B. Build Table
 
-c. Create Table
+C. Create Table
 
-d. All the Above
+D. All the Above
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: C
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-Create Table
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-    The `CREATE` TABLE statement is used to create a table in a database and the tables are organized into rows and columns and each table must have a name.
-
-</blockquote>
-
-</details>
-</details>
-
------------
+Explanation: The CREATE TABLE statement is used to create a table in a database and the tables are organized into rows and columns and each table must have a name.
 
 22.How can "Raju" in the "Name" column of the Users table be changed to "Sanjana"?
 
-```sql
+A. Update User Set Name = "Raju" INTO Name = "Sanjana"
+
+B. Modify Users SET Name = "Sanjana" WHERE Name = "Raju"
  
-a. Update User Set Name = "Raju" INTO Name = "Sanjana"
-
-```
+C. Update Users SET Name = "Sanjana" WHERE Name = "Raju"
  
-```sql
- 
-b. Modify Users SET Name = "Sanjana" WHERE Name = "Raju"
- 
-```
+D. Modify Users SET Name = "Raju" INTO Name = "Sanjana"
 
-```sql
- 
-c. Update Users SET Name = "Sanjana" WHERE Name = "Raju"
- 
-```
+Answer: C
 
-```sql
- 
-d. Modify Users SET Name = "Raju" INTO Name = "Sanjana"
-
-```
- 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-Update Users SET Name = "Sanjana" WHERE Name = "Raju"
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-     The `UPDATE` command and `WHERE` clause are used together to change the name as asked in the question.
-
-</blockquote>
-
-</details>
-</details>
-
------------
-
+Explanation: The UPDATE command and WHERE clause are used together to change the name as asked in the question.
 
 23.__________________Modifies existing database data.
 
-a. UPDATE
+A. UPDATE
  
-b. ALTER
+B. ALTER
 
-c. CREATE
+C. CREATE
 
-d. DELETE
+D. DELETE
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: A 
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-UPDATE
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
- 
- The `UPDATE` statement is used to update existing records. In order to achieve this, we must inform the database which table we wish to update, the values we wish to alter for any or all of the columns, and the circumstances under which we wish to do so.
-
-</blockquote>
-
-</details>
-</details>
-
------------
-
+Explanation: The UPDATE statement is used to update existing records. In order to achieve this, we must inform the database which table we wish to update, the values we wish to alter for any or all of the columns, and the circumstances under which we wish to do so.
 
 24.Which data manipulation command is used to combines the records from one or more tables?
 
- a. SELECT
+A. SELECT
  
- b. JOIN
+B. JOIN
  
- c. PROJECT
+C. PROJECT
  
- d. PRODUCT
+D. PRODUCT
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: B
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-JOIN
-
-</blockquote>
-
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-Records from one or more tables are combined using the SQL `JOIN` statement. Additionally, the `JOIN` command finds similar column values in the tables being joined.
-</blockquote>
-
-</details>
-</details>
-
------------
-
-
+Explanation: Records from one or more tables are combined using the SQL JOIN statement. Additionally, the JOIN command finds similar column values in the tables being joined.
 
 25.Which of the following commands can be used  to add data to a database table?
 
-a. ADD
+A. ADD
  
-b. UPDATE
+B. UPDATE
  
-c. APPEND
+C. APPEND
  
-d. INSERT
+D. INSERT
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: D
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-INSERT
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-The `INSERT` INTO statement is used to insert new records in a table.
-
-</blockquote>
-
-</details>
-</details>
-
------------
+Explanation: The INSERT INTO statement is used to insert new records in a table.
 
 26.When using the SQL INSERT statement:
  
-a. Rows can be inserted into a table one at a time or in groups.
+A. Rows can be inserted into a table one at a time or in groups.
  
-b. Rows can be modified according to criteria only.
+B. Rows can be modified according to criteria only.
  
-c. Rows cannot be copied in mass from one table to another only.
+C. Rows cannot be copied in mass from one table to another only.
  
-d. Rows can be inserted into a table one at a time only.
+D. Rows can be inserted into a table one at a time only.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: B
 
-<details>
-<summary><b> Show Answer </b></summary>
+Explanation: It is possible to write the INSERT INTO statement in two ways: 1. Specify both the column names and the values to be inserted: 
 
-<blockquote>
-
-Rows can be modified according to criteria only.
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-It is possible to write the `INSERT` INTO statement in two ways: 1. Specify both the column names and the values to be inserted: 
-```sql
 INSERT INTO table_name (column1, column2, column3, ...)
-```
-
-</blockquote>
-
-</details>
-</details>
-
------------
 
 27.An Operation that will increase the length of a list is:
 
-a. Insert
+A. Insert
  
-b. Look - Up
+B. Look - Up
  
-c. Modify
+C. Modify
  
-d. All of the above
+D. All of the above
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: A
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-INSERT
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
- 
-extend() method increases the length of the list by the number of elements that are provided to the strategy.
-
-</blockquote>
-
-</details>
-</details>
-
------------
+Explanation: extend() method increases the length of the list by the number of elements that are provided to the strategy.
 
 28.The DML's which require user to specify what data is needed and how  to get, it is called as____________.
 
-a. DDL DMLs.
+A. DDL DMLs.
  
-b. Procedural DMLs.
+B. Procedural DMLs.
  
-c. Non - Procedural DMLs.
+C. Non - Procedural DMLs.
  
-d. None of the above.
+D. None of the above.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: B
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-Procedural DMLs
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-Procedural DMLs ask the user to specify the data they need and how to obtain them. Declarative DMLs, also known as Non-procedural DMLs, ask the user to indicate what data are required but not how to obtain them.
-
-</blockquote>
-
-</details>
-</details>
-
------------
+Explanation: Procedural DMLs ask the user to specify the data they need and how to obtain them. Declarative DMLs, also known as Non-procedural DMLs, ask the user to indicate what data are required but not how to obtain them.
 
 29.Which of the following is a privilege in SQL standard?
 
-a. SELECT
+A. SELECT
  
-b. INSERT
+B. INSERT
  
-c. UPDATE
+C. UPDATE
  
-d. All of the above
+D. All of the above
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: D
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-All of the above
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-* Users with a permission can do a certain set of things with a specific database item. Privileges are divided into two categories.
-* System Privileges: This shows that the user can "DROP," "ALTER," or "CREATE" database components.
-* Object Privileges: The user is able to EXECUTE, SELECT, INSERT, or DELETE data from database objects that have access rights.
-
-</blockquote>
-
-</details>
-</details>
-
------------
+Explanation: * Users with a permission can do a certain set of things with a specific database item. Privileges are divided into two categories.
+             * System Privileges: This shows that the user can "DROP," "ALTER," or "CREATE" database components.
+             * Object Privileges: The user is able to EXECUTE, SELECT, INSERT, or DELETE data from database objects that have access rights.
 
 30.What command in SQL is used to add new rows to a table?
 
-a. Alter Table
+A. Alter Table
  
-b. Add row
+B. Add row
  
-c. Insert
+C. Insert
  
-d. Append
+D. Append
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: C
 
-<details>
-<summary><b> Show Answer </b></summary>
+Explanation: The INSERT statement is used to insert or add new rows in the table.
 
-<blockquote>
+31.To delete a table,  we use the ___________statement.
 
-Insert
+A. Remove Table
 
-</blockquote>
+B. Delete Table
 
-<details>
-<summary><b> Explanation </b></summary>
+C. Del Table
 
-<blockquote>
-
-The `INSERT` statement is used to insert or add new rows in the table.
-
-</blockquote>
-
-</details>
-</details>
-
------------
-
-31.What does the following code snippet do?
-
-```sql
-
-DELETE FROM STUDENTS
-WHERE AGE = 16;
-ROLLBACK;
-
-```
-
-a. Performs an undo operation on the delete operation.
+D. Drop Table
  
-b. Deletes the rows from the table where AGE = 16.
- 
-c. Deletes the entire table.
- 
-d. none of the Above.
+Answer: D
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
- Performs an undo operation on the delete operation
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-* Delete Command is used to delete data from the table where age =16.
-
-* Then the data is beinged rollbacked using rollback command.
-
-</blockquote>
-
-</details>
-</details>
-
------------
+Explanation: The SQL DROP TABLE command is used to remove an existing table from a database.
 
 32.Which of the following statement is true?
 
-a. DELETE does not free the space containing the table and TRUNCATE free the space containing the table.
+A. DELETE does not free the space containing the table and TRUNCATE free the space containing the table.
  
-b. Both DELETE and TRUNCATE free the space containing the table.
+B. Both DELETE and TRUNCATE free the space containing the table.
  
-c. Both DELETE and TRUNCATE does not free the space containing the table.
+C. Both DELETE and TRUNCATE does not free the space containing the table.
  
-d. DELETE free the space containing the table and TRUNCATE does not free the space containing the table.
+D. DELETE free the space containing the table and TRUNCATE does not free the space containing the table.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: A
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-`DELETE` does not free the space containing the table and `TRUNCATE` free the space containing the table.
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-Delete Command Deletes only the data and not the Table Schema while in other hand Truncate totally deletes the data as well as the table Schema, therefore it is true that Delete does not frees space while Truncate does.
-
-</blockquote>
-
-</details>
-</details>
-
------------
+Explanation: Delete Command Deletes only the data and not the Table Schema while in other hand Truncate totally deletes the data as well as the table Schema, therefore it is true that Delete does not frees space while Truncate does.
 
 33.Which of the following insert statements are correct:
  
-```sql
+A. Insert  into Persons ("xxx1", "yyy1");
+
+B. Insert  into [dbo].[Persons]([LastName],[FirstName]) VALUES ("xxx", "yyy");
  
-a. Insert  into Persons ("xxx1", "yyy1");
+C. Insert  into  Persons values ("xxx1", "yyy1");
  
-```
- 
-```sql
- 
-b. Insert  Ito [dbo].[Persons]([LastName],[FirstName]) VALUES ("xxx", "yyy");
- 
-```
- 
-```sql
- 
-c. Insert  into  Persons values ("xxx1", "yyy1");
- 
-```
- 
-```sql
- 
-d. Insert  into  Persons value ("xxx1", "yyy1");
- 
-```
+D. Insert  into  Persons value ("xxx1", "yyy1");
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: B and C
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-```sql
-
-Insert  Ito [dbo].[Persons]([LastName],[FirstName]) VALUES ("xxx", "yyy");
-
-```
-
-                           and 
-
-```sql
-
-Insert  into  Persons values ("xxx1", "yyy1");
-
-```
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-There are two ways of using `INSERT` INTO statement for inserting rows: Only values: First method is to specify only the value of data to be inserted without the column names. 
-
-```sql
+Explanation: There are two ways of using INSERT INTO statement for inserting rows: Only values: First method is to specify only the value of data to be inserted without the column names. 
 
 INSERT INTO table_name VALUES (value1, value2, value3,…); table_name: name of the table.
 
-```
+34.Data can be inserted into a database using the INSERT statement in ________________.
 
-</blockquote>
-
-</details>
-</details>
-
------------
-
-34.Data can be inserted into a database using the `INSERT` statement in ________________.
-
-a.all columns
+A.all columns
  
-b.IDENTITY column
+B.IDENTITY column
  
-c.particular column
+C.particular column
  
-d.All of above
+D.All of above
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: D
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-All of the above
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-Enter the key phrase insert into followed by the table name, an open parenthesis, a list of column names separated by commas, a closing parenthesis, the keyword values, and then the list of values wrapped in parentheses to add entries to a table.
-
-</blockquote>
-
-</details>
-</details>
-
------------
+Explanation: Enter the key phrase insert into followed by the table name, an open parenthesis, a list of column names separated by commas, a closing parenthesis, the keyword values, and then the list of values wrapped in parentheses to add entries to a table.
 
 35.Several techniques are supported by SQL Server for adding data to tables, including_______________.
 
-a.SELECT INTO
+A.SELECT INTO
  
-b.INSERT SELECT
+B.INSERT SELECT
  
-c.INSERT SELECT FROM OPENROWSET(BULK …)
+C.INSERT SELECT FROM OPENROWSET(BULK …)
  
-d.All of above
+D.All of above
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: C
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
- 
-```sql
- 
-INSERT SELECT FROM OPENROWSET(BULK …)
-
-```
- 
-</blockquote>
-
-<details>
-<summary><b>  Explanation  </b></summary>
-
-<blockquote>
-
-The basic purpose of the `INSERT` INTO T-SQL statement in SQL Server is to add one or more rows to the target table or view. To do this, either supply the source table or view from which we will copy the rows in the `INSERT` INTO statement or provide constant values in the query.
-
-</blockquote>
-
-</details>
-</details>
-
------------
+Explanation: The basic purpose of the INSERT INTO T-SQL statement in SQL Server is to add one or more rows to the target table or view. To do this, either supply the source table or view from which we will copy the rows in the INSERT INTO statement or provide constant values in the query.
 
 36.What statement or statements from the list below should we use if we need to insert many values using a single insert query?
 
-```sql
-
 i INSERT  INTO Persons VALUES ('xxx1','yyy1'), ('xxx2','yyy2'), ('xxx3','yyy3');
-
- ```
-
-```sql
 
 ii. INSERT  INTO Persons VALUES ('xxx1','yyy1'), VALUES ('xxx2','yyy2'), Values ('xxx3','yyy3');
 
-```
-
-a.only i is correct
+A.only i is correct
  
-b.only ii is correct
+B.only ii is correct
  
-c.Both are correct
+C.Both are correct
  
-d.None is correct
+D.None is correct
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: A
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-only i is correct
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
- 
-A DML (Data Manipulation Language) action in SQL is the act of inserting  the data into a table. Data must be inserted into the database when we want to store it. To enter the data into the database, we utilise the `INSERT`statement.
-
-</blockquote>
-
-</details>
-</details>
-
------------
+Explanation: A DML (Data Manipulation Language) action in SQL is the act of inserting  the data into a table. Data must be inserted into the database when we want to store it. To enter the data into the database, we utilise the INSERT statement.
 
 37.By Using the______________expression if you wish to specify the quantity or percentage of randomly selected rows that will be inserted during Insert.
 
-a.TYPE
+A.TYPE
  
-b.TOP
+B.TOP
  
-c.NUMBER
+C.NUMBER
  
-d.PERCENT
+D.PERCENT
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: B
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-TOP
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-Sets the quantity or percentage of randomly inserted rows. expression might be a percentage of the rows or a number.
-
-</blockquote>
-
-</details>
-</details>
-
------------
+Explanation: Sets the quantity or percentage of randomly inserted rows. expression might be a percentage of the rows or a number.
 
 38.Which cursor class technique is employed to add or update numerous rows with a single query?
 
-a. cursor.executeall(query, rows).
+A. cursor.executeall(query, rows).
  
-b. cursor.execute(query, rows).
+B. cursor.execute(query, rows).
  
-c. cursor.executemany(query, rows).
+C. cursor.executemany(query, rows).
  
-d. cursor.executemultiple(query, rows).
+D. cursor.executemultiple(query, rows).
  
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: C
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
- 
-cursor.executemany(query, rows)
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-The function cursor.executemultiple(query, rows) is used to insert or update multiple rows using a single query.
-
-</blockquote>
-
-</details>
-</details>
-
------------
+Explanation: The function cursor.executemultiple(query, rows) is used to insert or update multiple rows using a single query.
 
 39.With SQL, how can you return all the records from a table named "Persons" sorted descending by "First_Name"?
 
-```sql
-
-a. SELECT * from Persons  SORT "First_Name" desc
+A. SELECT * from Persons  SORT "First_Name" desc
  
-```
+B. SELECT * from Persons  ORDER "First_Name" desc
 
-```sql
+C. SELECT * from Persons  SORT BY "First_Name" desc
 
-b. SELECT * from Persons  ORDER "First_Name" desc
+D. SELECT * from Persons  ORDER BY "First_Name" desc
 
-```
+Answer: D
 
-```sql 
-
-c. SELECT * from Persons  SORT BY "First_Name" desc
-
-```
-
-```sql
-
-d. SELECT * from Persons  ORDER BY "First_Name" desc
-
-```
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-```sql
-
-SELECT * from Persons  ORDER BY "First_Name" desc
-
-```
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-The SQL `SELECT` Statement queries data from tables in the data base.
-
-</blockquote>
-
-</details>
-</details>
-
------------
-
-
+Explanation: The SQL SELECT Statement queries data from tables in the data base.
 
 40.The UPDATE SQL clause can _____________.
 
-a.Update only one row at a time.
+A.Update only one row at a time.
  
-b.delete only one row at a time.
+B.delete only one row at a time.
  
-c.delete more than one row at a time.
+C.delete more than one row at a time.
  
-d.Update more than one row at a time.
+D.Update more than one row at a time.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: D
 
-<details>
-<summary><b> Show Answer </b></summary>
+Explanation: The SQL UPDATE Query is used to modify the existing records `UPDATE` Query to update selected rows otherwise all the rows would be affected.
 
-<blockquote>
+41.If a table column is set to Identity and a user deletes a row from the table using the Delete command. Will this reset the table's Identity value?
 
-Update more than one row at a time
+A. Delete never retain Identity
 
-</blockquote>
+B. Delete retain identity value
 
-<details>
-<summary><b> Explanation </b></summary>
+C. Delete never recognizes identity
 
-<blockquote>
+D. None of the above
 
-The SQL `UPDATE` Query is used to modify the existing records `UPDATE` Query to update selected rows otherwise all the rows would be affected.
-
-</blockquote>
-
-</details>
-</details>
-
------------
-
-
-41.what are the programming languages that reprsents a  collection of programming languages explicitly used to make changes in the database?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-Data Manipulation Language or DML represents a collection of programming languages explicitly used to make changes in the database, such as:
-
-* CRUD operations to create, read, update, and delete data
-* Using the INSERT, SELECT, UPDATE and Delete commands.
-
-</blockquote>
-
-</details>
-
------------
+Answer: B
 
 42.The commands in data manipulation language can modify the structure of a database.
 
-a. True
+A. True
  
-b. False
+B. False
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: B
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-False
-
-</blockquote>
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-The commands in data manipulation language cannot modify the structure of a database.
-
-</blockquote>
-
-</details>
-</details>
-
------------
+Explanation: The commands in data manipulation language cannot modify the structure of a database.
 
 43.DML is a domain-specific language used in programming and designed for managing data and structures of databases.
 
-a. True
+A. True
  
-b. False
+B. False
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: B
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-False
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-SQL is a domain-specific language used in programming and designed for managing data and structures of databases.
-
-</blockquote>
-
-</details>
-</details>
-
------------
+Explanation: SQL is a domain-specific language used in programming and designed for managing data and structures of databases.
 
 44.One must match the field names before inserting a table, else the system will error out.
 
-a. True
+A. True
  
-b. False
+B. False
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: A
 
-<details>
-<summary><b> Show Answer </b></summary>
+45.INSERT and UPDATE commands in SQL and DML are basically the same.
 
-<blockquote>
-
-True
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-</blockquote>
-
-</details>
-</details>
-
------------
-
-45.`INSERT` and `UPDATE` commands in SQL and DML are basically the same.
-
-a. True
+A. True
  
-b. False
+B. False
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+Answer: B
 
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-False
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-`INSERT` and `UPDATE` commands in SQL and DML are basically not same.
-
-</blockquote>
-
-</details>
-</details>
-
------------
+Explanation: INSERT and UPDATE commands in SQL and DML are basically not same.
 
 46.Data changing commands include editing, inserting data, updating data, deleting data, and reversing transactions.
 
-a. True
+A. True
  
-b. False
+B. False
 
-Correct Answer :  False
+Answer : B
 
- Explanation :
+Explanation :
  
 The correct statement is, Data changing commands include querying, inserting data, updating data, deleting data, and reversing transactions.
 
-
------------
-
 47.Predict the output in the following code snippet?
    
-```sql
-
 SELECT ROUND (TRUNCATE (MOD (2500, 20), -1), 2) FROM dual;
 
-```
-
-a. Error
+A. Error
  
-b. 0
+B. 0
  
-c. 00
+C. 00
  
-d. 1
-Correct Answer: 0
+D. 1
 
-</blockquote>
+Answer: B
 
-<details>
-<summary><b> Explanation  </b></summary>
+Explanation: The MOD(2500, 20) expression will return 0, after which the rest of the functions will just be applied on the value 0.
 
-<blockquote>
+48.When is the WHERE clause used with a wildcard?
 
-The MOD(2500, 20) expression will return 0, after which the rest of the functions will just be applied on the value 0.
+A. An exact match is necessary for a CREATE statement.
 
-</blockquote>
+B. An exact match is necessary for a SELECT statement.
 
-</details>
-</details>
+C. An exact match is not possible for a SELECT statement.
 
------------
+D. None of the above.
 
+Answer: C
 
-48.When is the `WHERE` clause used with a wildcard?
-
-a. An exact match is necessary for a `CREATE` statement.
-
-b. An exact match is necessary for a `SELECT` statement.
-
-c. An exact match is not possible for a `SELECT` statement.
-
-d. None of the above.
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details>
-<summary><b> Show Answer </b></summary>
-
-<blockquote>
-
-An exact match is not possible for a `SELECT` statement.
-
-</blockquote>
-
-<details>
-<summary><b> Explanation </b></summary>
-
-<blockquote>
-
-When an exact match in a `SELECT` statement is not possible,  wildcard is used in the `WHERE` clause.
-
-</blockquote>
-
-</details>
-</details>
-
-----------
+Explanation: When an exact match in a SELECT statement is not possible,  wildcard is used in the WHERE clause.
 
 49.Data types in a database table specify the type of ______________ that can be stored there.
 
-Data
+A. Data
 
-Table
+B. Table
 
-Number
+C. Number
 
-None of the above
+D. None of the above
 
-Answer: Data
+Answer: A
 
-Explanation:
-
-Data is categorised into different types by a data type, which informs the compiler or interpreter of the programmer's intended usage of the data.
-
-
+Explanation: Data is categorised into different types by a data type, which informs the compiler or interpreter of the programmer's intended usage of the data.
 
 50.One row of data can be entered manually or several rows can be added as a result of a query using the ADD command.
 
-a. True
-b. False
+A. True
 
-Correct Answer: False
+B. False
 
-Explanation:
-To insert new data into a table, use the `INSERT` command. Following the execution of the command, Sql will create a new row. Single quotes should be used to encapsulate the date and string values.
+Answer: B
 
-
+Explanation: To insert new data into a table, use the INSERT command. Following the execution of the command, Sql will create a new row. Single quotes should be used to encapsulate the date and string values.
 
 51.A database is defined using data manipulation language (DML) commands, which can be used to add constraints and create, modify, and delete tables.
 
-a. True
-b. False
+A. True
 
-Correct Answer: False
+B. False
 
-Explanation:
-*DML commands consist of the following: SELECT, INSERT, UPDATE, and DELETE. 
+Answer: B
 
-*They can be used to perform record searches, add fresh entries to the database, edit already-existing records, or remove records entirely.
+Explanation: *DML commands consist of the following: SELECT, INSERT, UPDATE, and DELETE. 
+
+             *They can be used to perform record searches, add fresh entries to the database, edit already-existing records, or remove records entirely.
 
 
 
 52.In a table, which of the following columns cannot be updated?
 
-a. A primary key column which also serves as foreign key reference in another table
-b. Columns which allows NULL values in the table
-c. DATE type columns in the table
-d. All of the above
+A. A primary key column which also serves as foreign key reference in another table
 
-Correct Answer : A
+B. Columns which allows NULL values in the table
 
-Explanation:
+C. DATE type columns in the table
 
-The following columns in a table cannot be modified because they are primary key columns that are also used as foreign key references in other tables.
+D. All of the above
+
+Answer : A
+
+Explanation: The following columns in a table cannot be modified because they are primary key columns that are also used as foreign key references in other tables.
 
 53.An SQL INSERT statement inserts ______________records into any single table in a relational database.
 
-a. One
-b. two
-c. One or More
-d. None of Above
+A. One
 
-Correct Answer: One or More
+B. two
 
-Explanation:
+C. One or More
 
-The SQL INSERT INTO Statement is used to insert new rows of data into a database table.
+D. None of Above
+
+Answer: C
+
+Explanation: The SQL INSERT INTO Statement is used to insert new rows of data into a database table.
 
 54.An INSERT statement can also be used to retrieve data from another source, alter it as needed, and then insert it directly into the table.
 
-a. True
-b. False
+A. True
 
-Correct Answer: True
+B. False
 
-Explanation:
+Correct Answer: A
 
-* The INSERT INTO SELECT statement copies the information from one table and  then inserts it into another table. 
-* The data types in the source and target tables must match for the INSERT INTO SELECT statement to work.
+Explanation: * The INSERT INTO SELECT statement copies the information from one table and  then inserts it into another table. 
+             
+             * The data types in the source and target tables must match for the INSERT INTO SELECT statement to work.
 
 55.SQL Insert  statement does not allow us  to add data to specified columns.
 
-a. True
-b. False
+A. True
 
-Correct Answer: False
+B. False
 
-Explanation:
+Answer: B
 
-The INSERT INTO command can be written in two ways: 1. INSERT INTO table name specifies both the column names and the values to be inserted and the syntax is,  INSERT INTO table name (column1, column2, column3, ...)
+Explanation: The INSERT INTO command can be written in two ways: 1. INSERT INTO table name specifies both the column names and the values to be inserted and the syntax is,  INSERT INTO table name (column1, column2, column3, ...)
 
 56.If the table definition allows it, you can also omit columns from an INSERT operation.
 
-a. True
-b. False
+A. True
 
-Correct Answer: True
+B. False
 
-Explanation:
+Answer:  A
 
-* The INSERT command accepts up to three column names and values. 
-* We must provide three essential  bits of information when utilising an INSERT statement: The name of the table in which we want to store data. 
-* The names of the columns to which we are adding data.
+Explanation: * The INSERT command accepts up to three column names and values. 
+             * We must provide three essential  bits of information when utilising an INSERT statement: The name of the table in which we want to store data. 
+             * The names of the columns to which we are adding data.
 
 57.To filter the data to be inserted, the SELECT statement used in an INSERT SELECT can include a ___________________clause.
 
-a. Into
-b. From
-c. Where
-d. Both A & B
+A. Into
 
-Correct Answer: Where
+B. From
 
-Explanation:
+C. Where
 
-You can utilise a select-statement within an INSERT statement to insert zero, one, or more rows from the select-result statement's table into a table. 
+D. Both A & B
+
+Answer: C
+
+Explanation: You can utilise a select-statement within an INSERT statement to insert zero, one, or more rows from the select-result statement's table into a table. 
 The select-statement contained within the INSERT statement is identical to the select-statement used to obtain data.
 
 58.SELECT INTO inserts data into a____________table.
 
-a. Only System table
-b. Old        
-c. New
-d. Both A & B
+A. Only System table
 
-Correct Answer: New
+B. Old        
 
-Explanation:
+C. New
 
-* The SELECT INTO statement creates a new table and update it with rows from the query. 
-* we use the WHERE clause to define which rows to duplicate if you want to copy partial data from the source table.
+D. Both A & B
+
+Answer: C
+
+Explanation: * The SELECT INTO statement creates a new table and update it with rows from the query. 
+             
+             * we use the WHERE clause to define which rows to duplicate if you want to copy partial data from the source table.
 
 59.To create the backup copies of tables, we can  use the __________ statement.
 
-A) SELECT INTO
-B) SELECT IN 
-C) SELECT IO
-D) SELECT TO 
+A. SELECT INTO
+B. SELECT IN 
+C. SELECT IO
+D. SELECT TO 
 
-Correct Answer: SELECT INTO
-
-Explanation: 
+Answer: A
 
 60.Because of the SELECT_________INTO query does not specify a primary key for the new table, so we may need to do so manually.
 
-a. True
-b. False
+A. True
 
-Correct Answer: True
+B. False
 
-Explanation:
+Answer: A
 
-The INTO clause provides one or more variables that it will receive the values returned by the query and  If it returns some multiple values, and they are assigned to the list of variables in the order that they are specified.
+Explanation: The INTO clause provides one or more variables that it will receive the values returned by the query and  If it returns some multiple values, and they are assigned to the list of variables in the order that they are specified.
 
 61.A SELECT INTO statement must return only one row by default.
 
-a. True
-b. False
+A. True
 
-Correct Answer: True
+B. False
 
-Explanation:
+Answer: A
 
-The SELECT INTO statement transfers data from one table to another table.
+Explanation: The SELECT INTO statement transfers data from one table to another table.
 
 62.What is the purpose of the following query?
-
-```sql
 
 select distinct e1."FirstName"
 into NewTable
 from "employee" e1
 
-```
+A. The query returns all names from the field "FirstName" including duplicates and places it inside a new table giving it name "NewTable".
 
-a. The query returns all names from the field "FirstName" including duplicates and places it inside a new table giving it name "NewTable".
-b. The query returns all names from the field "FirstName" excluding duplicates and places it inside a new table giving it name "mynewtable"
-c. The query returns all names from the field "FirstName" excluding duplicates and places it inside a new table giving it name "NewTable".
-d. Both A & C
+B. The query returns all names from the field "FirstName" excluding duplicates and places it inside a new table giving it name "mynewtable"
 
-Correct Answer:
+C. The query returns all names from the field "FirstName" excluding duplicates and places it inside a new table giving it name "NewTable".
 
-The query returns all names from the field "FirstName" excluding duplicates and places it inside a new table giving it name "NewTable".
+D. Both A & C
+
+Answer: C
 
 63.What is the fundamental syntax for the Delete query?
 
-a. Delete * from tablename;
-b. Delete From table_name Where some_condition; 
-c. Delete from tablename;
-d. None of the above.
+A. Delete * from tablename;
 
-Correct Answer:  Delete From table_name Where some_condition; 
+B. Delete From table_name Where some_condition; 
 
-Explanation:
+C. Delete from tablename;
 
-table name: the table's name some condition: a condition for selecting a certain record.
+D. None of the above.
+
+Answer: B 
+
+Explanation: table name: the table's name some condition: a condition for selecting a certain record.
 Depending on the condition we specify inside the WHERE clause, we can delete a single record or more than a two records. 
 
 64.Which clause in the DELETE statement causes the delete to be performed within specific criteria?
 
-a. Where 
-b. Group
-c. Group By
-d. Having
+A. Where 
 
-Correct Answer: Where
+B. Group
 
-Explanation: 
+C. Group By
 
-To delete existing records from a table, we use the SQL DELETE Query.  can also use the WHERE clause in combination with a DELETE query to delete only the specified rows; otherwise, all records are deleted.
+D. Having
+
+Answer: A
+
+Explanation: To delete existing records from a table, we use the SQL DELETE Query.  can also use the WHERE clause in combination with a DELETE query to delete only the specified rows; otherwise, all records are deleted.
 
 65.Is TOP keyword is utilized in the Delete Query?
 
-a. True
-b. False
+A. True
 
-Correct Answer: True
+B. False
 
-Explanation:
+Answer: A
 
-TOP is used in combination with the DELETE statement to delete the specified top rows of a table.
+Explanation: TOP is used in combination with the DELETE statement to delete the specified top rows of a table.
 
 66.In Which category does the Delete query exits?
 
-a) DDL
-b) DQL
-c) TCL
-d) DML
+A. DDL
 
-Correct Answer: DML
+B. DQL
 
-Explanation:
+C. TCL
 
-DELETE is a DML (Data Manipulation Language) command that is used for removing or deleting a row (tuple) from a table or relation.
+D. DML
+
+Answer: D
+
+Explanation: DELETE is a DML (Data Manipulation Language) command that is used for removing or deleting a row (tuple) from a table or relation.
 
 67.Does the remove statement keep the lock?
 
-a. True
-b. False
+A. True
 
-Correct Answer: True
+B. False
 
-Explanation: 
+Answer: A
 
-During execution, the DELETE statement employs a row lock. Every row in the table is protected from deletion  and its  filters can be specified in the WHERE clause,  If the WHERE condition is true, the command deletes the specified data.
+Explanation: During execution, the DELETE statement employs a row lock. Every row in the table is protected from deletion  and its  filters can be specified in the WHERE clause,  If the WHERE condition is true, the command deletes the specified data.
 
 68.Delete statements either lock the entire table or a single row at a time?
 
-a. Delete never locks any table or row.
-b. Delete never locks any row while deleting.
-c. Delete locks both Row and table.
-d. Delete locks only Row.
+A. Delete never locks any table or row.
 
-Correct Answer: Delete locks only Row.
+B. Delete never locks any row while deleting.
 
-Explanation: 
+C. Delete locks both Row and table.
 
-During execution, the DELETE statement employs a row lock. Every row in the table is protected from deletion. Filters can be specified in the WHERE clause.
+D. Delete locks only Row.
 
-69.If a table column is set to Identity and a user deletes a row from the table using the Delete command. Will this reset the table's Identity value?
+Answer: D
 
-a) Delete never retain Identity
-b) Delete retain identity value
-c) Delete never recognizes identity
-d) None of the above
+Explanation: During execution, the DELETE statement employs a row lock. Every row in the table is protected from deletion. Filters can be specified in the WHERE clause.
 
-Correct Answer: Delete retain identity value
 
-70.To delete a table,  we use the ___________statement.
 
-a. Remove Table
-b. Delete Table
-c. Del Table
-d. Drop Table
- 
-Correct Answer: Drop Table
 
-Explanation: 
-
-The SQL DROP TABLE command is used to remove an existing table from a database.
 
 
