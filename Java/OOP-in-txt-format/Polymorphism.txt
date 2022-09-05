@@ -1,0 +1,128 @@
+1. Physics Department in Caltech got a new 3D printer, Sheldon used the printer for printing prototypes for his hadron collider. Howard used the printer to print his mini action figure. this is an example for?
+
+    A.Polymorphism
+    B.Inheritance
+    C.Abstarction
+    D.Encapsulation
+
+Answer: A
+
+2. John got a recipe for cookies from his mother, but john likes choco chips, so he altered the original cookie recipe, this is an example for?
+    A.Method Overriding
+    B.Method Overloading
+    C.Inheritance
+    D.Abstraction
+
+Answer: A
+
+3. The following code snippet is an example for?
+
+public class Languages {
+     public static void main(String[] args) {
+      Languages l= new Languages();
+      l.speakGerman();
+    
+  }
+  public void speakGerman() {
+    System.out.println("Guten Tag");
+  }
+  public String speakGerman() {
+    return "Wiedersehen";
+  }
+}
+
+    A.Method Overloading
+    B.Method Overriding
+    C.Inheritance
+    D.None of the above
+
+Answer: D
+
+4. _______ is also called Compile time Polymorphism or Method overloading. 
+    A. Static Polymorphism
+    B. Dynamic Polymorphism
+    C. Default Polymorphism
+    D. None of the above
+
+Answer: A
+
+5. Which of the following is an example of static binding?
+    A.method overriding
+    B.method overloading
+    C.abstraction
+    D.none of the above
+
+Answer: B
+
+6. What is the output of the following java code?
+
+class Animal {
+        
+    public void barkingDog() {
+    System.out.println("Wolf Wolf!");
+  }
+  public void barkingDog(String a) {
+    System.out.println(a);
+    
+  }
+  public static void main(String[] args) {
+    Animal a = new Animal();
+    a.barkingDog("Barking!");
+  }
+}
+
+    A. Barking!
+    B. Compile-time error
+    C. Run-time error
+    D. None of the above
+
+Answer: A
+
+7. Predict the output of the program and debug the program.
+
+public class Vacation{
+    public void visitLondon(){
+        System.out.println("I met the Queen of England");
+    }  
+     public static void main(String[] args) {
+      BusinessTrip b = new BusinessTrip();
+      b.visitLondon();
+  }
+} 
+class BusinessTrip extends Vacation{
+    public String visitLondon(){
+        return "The London branch is totally off the charts";
+    }
+}
+
+A.Compile time error
+B.Runtime error
+C.No output
+D.The London branch is totally off the charts
+
+Answer: A
+
+8. Find the error in the following program.
+
+public class Area{
+
+  public static void main(String[] args) {
+      Area a= new Area();
+      System.out.println(a.calculateTriangleArea(1.0,2.0));
+    
+  }
+    public double calculateTriangleArea(double d, double e)
+    {
+      return  0.5*d*e; 
+    }
+    public int calculateTriangleArea(int base, int height) {
+      return base*height; 
+    }
+} 
+
+A.Compile-time error
+B.Run-time error
+C.1.0
+D.2
+
+Answer: C

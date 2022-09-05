@@ -1,0 +1,186 @@
+1. Harry potter's Invisibility cloak was passed down to him by his father James and James potter got it from his father Henry potter, this is a clear example for?
+
+    A. Hybrid Inheritance
+    B. Multilevel Inheritance
+    C. Single Inheritance
+    D. Multiple Inheritance
+
+Answer: B
+
+2. English language vocabulary is comprised of old germanic, French, and Latin words, this is an example for?
+
+    A. Hybrid Inheritance
+    B. Multilevel Inheritance
+    C. Single Inheritance
+    D. Multiple Inheritance
+
+Answer: D
+
+3. In java, a class can not extend more than one class.
+
+    A. True
+    B. False
+
+Answer: A
+
+4. In java, combining two or many types of inheritance is considered as _______ Inheritance.
+
+    A. Hybrid Inheritance
+    B. Multilevel Inheritance
+    C. Single Inheritance
+    D. Multiple Inheritance
+
+Answer: A
+
+5. A superclass is extended by a subclass and the subclass is extended by another subclass. This is called as _______.
+
+    A. Hybrid Inheritance
+    B. Multilevel Inheritance
+    C. Single Inheritance
+    D. Multiple Inheritance
+
+Answer: B
+
+6. The relation between a superclass which gets extended by a single subclass is called _______ Inheritance.
+
+    A. Hybrid Inheritance
+    B. Multilevel Inheritance
+    C. Single Inheritance
+    D. Multiple Inheritance
+
+Answer: C
+
+7. A child class inherits all the properties of parent class so the child class can be implicitly upcasted to parent. This is called as _______.
+
+    A. Upcasting
+    B. Downcasting
+    C. Typecasting
+    D. None of the above
+
+Answer: A
+
+8. A parent class may or may not have all the properties of Child class, so parent class can be ecplicily downcasted to Child class. This is called as _______.
+
+    A. Upcasting
+    B. Downcasting
+    C. Typecasting
+    D. None of the above
+
+Answer: B
+
+9. main() method is a static method and static methods can't be overriden.
+    A. True
+    B. False
+
+Answer: A
+
+10. A static method can not be overriden if a sub class has a method with the same name as the static method in super class, its considered as _______.
+
+    A. Data Hiding
+    B. Overloading
+    C. Overriding
+    D. None of the above
+
+Answer: A
+
+11. What is the output of the following code?
+
+import java.util.*;
+
+public class Olympics{
+  
+  public static void main(String[] args) {
+    India i = new India();
+    i.hostOlympics();
+        
+  }
+  public void hostOlympics() {
+    System.out.println("Summer Olympics and Winter Olympics");
+  }
+
+}
+
+class India extends Olympics{
+
+  public void hostOlympics() {
+    
+    System.out.println("We will host summer olympics in 2036"); 
+    Olympics o = new Olympics();
+    o.hostOlympics();
+    
+  }
+}
+
+class Japan extends Olympics{
+  public void hostOlympics() {
+    System.out.println("We hosted Olympics on 2021");
+    
+  }
+}
+
+    A. We will host the summer Olympics in 2036 Summer Olympics and Winter Olympics
+    B. Summer Olympics and Winter Olympics We will host the summer Olympics in 2036
+    C. Summer Olympics and Winter Olympics
+    D. We will host the summer Olympics in 2036
+
+Answer: A
+
+12. What is the output of the following code?
+
+public final class Car{
+    public static void main(String args[]){
+        KIA k = new KIA();
+      k.engine();
+
+    }
+    public void engine(){
+        System.out.println(" I am  a Diesel engine");
+
+    }
+
+}
+ class KIA extends Car{
+    public void engine(){
+        System.out.println("I am a Petrol engine");
+    }
+
+ }
+
+
+    A. I am a Diesel engine
+    B. I am a petrol engine
+    C. Compile-time error  
+    D. Runtime error
+
+Answer: C
+
+13. What is the output of the following code?
+
+public final class Car{
+    public static void main(String args[]){
+        Car c = new Car();
+      c.engine();
+
+    }
+    public void engine(){
+        System.out.println(" I am  a Diesel engine");
+
+    }
+
+}
+ class KIA extends Car{
+    public void engine(){
+        System.out.println("I am a Petrol engine");
+    }
+
+ }
+
+
+    A. I am a Diesel engine
+    B. I am a Petrol engine
+    C. Compile-time error
+    D. Runtime error
+
+Answer: A
+
+

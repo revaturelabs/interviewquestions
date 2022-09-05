@@ -1,0 +1,73 @@
+1. Do inner classes have access to private members of the outer class?
+    A. True
+    B. False
+
+Answer: A
+
+2. What are the uses of nested classes?
+    A. Grouping interrelated classes.
+    B. Achieving encapsulation
+    C. Create code that is easy to read and maintain
+    D. All of the above.
+
+Answer: D
+
+3. Lambda is used to implement a functional Interface( an interface with a single abstract method)
+    A. True
+    B. False
+
+Answer: A
+
+4. An _______ class can directly access all the fields and methods of the enclosed class even if they are private.
+    A. Inner
+    B. Static
+    C. Default
+    D. None of the above
+
+Answer: A
+
+5. What is the output of the following code?
+
+public class Main {
+   public int i = 0;
+   public static void main(String[] args) {
+       Main m = new Main();
+       Main.Nested mn = m. new Nested();
+       mn.printVariable(10);   
+   }
+   class Nested{
+       public int i = 2;
+       void printVariable(int i)
+       {
+           System.out.print(i+" ");
+           System.out.print(this.i+" ");
+           System.out.print(Main.this.i+" ");
+       }
+   }   
+}
+
+    A. 0 2 10
+    B. 10 2 0
+    C. 0 10 2
+    D. Compile-time error
+
+Answer: B
+
+6. Apple launched a new iPhone named iPhone 14 with new features, and it has 3 models, iPhone 14 basic, iPhone 14 pro and iPhone 14 pro max and iPhone 14 mini, which implementation is better for this scenario?
+
+    A. An interface iPhone with class iPhone 14 and 4 classes for four models that inherit iPhone 14.
+    B. A class iPhone 14 and inner class for each model.
+    C. Individual classes for every model.
+    D. None of the above.
+
+Answer: B
+
+7. A DigitalThermometer needs to be configured only once and after that initial configuration, it'll detect the temperature perfectly. Which implementation is better for this scenario?
+
+    A. DigitalThermometer class which inherits and overrides the methods of Configuration Class.
+    B. DigitalThermometer class which inherits and overrides the methods of the Configuration interface.
+    C. DigitalThermometer class which inherits and overrides the methods of Configuration interface using an anonymous inner class.
+    D. none of the above.
+
+Answer: C
+
