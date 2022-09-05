@@ -1,0 +1,91 @@
+#1
+##MEDIUM
+###BC
+
+1.Which of the following is used to find the minimum value of an integer datatype?
+
+A.Integer.min_value
+B.Integer.MIN_VALUE
+C.int.minimum
+D.int.MIN_VALUE
+
+Answer:B
+Explanation:Integer.MIN_VALUE will return the value -2147483648.
+
+#P1
+##EASY
+###TF
+
+2.Can we do typecasting for both primitive and reference type?
+
+A.No.
+B.Yes.
+
+Answer:B.
+Explanation:Type casting is the process of changing variable from one datatype to another datatype. Type casting is possible for both primitive and reference type. For primitive types we have values being wither widen or narrow depdending upon source and destination data type. For refernce types, type casting make sense only when there is inheritance relationship exist between the source and destination type, in that case we say upcasting (child object casted to parent) or downcasting(parent object casted to child) casting.
+
+#P1
+##EASY
+###BC
+
+3.The process of changing from smaller datatype to larger datatype is called
+
+A.Narrowing casting.
+B.Widening casting.
+C.Explicit type casting.
+D.None of the above.
+
+Answer:B
+Explanation:Widening casting also called implicit type casting is the process changing from smaller datatype to larger datatype. The convertion is done automatically
+
+#P1
+##EASY
+###BC
+
+4.The process of changing from larger datatype to smaller datatype is called
+
+A.Narrowing casting.
+B.Widening casting.
+C.Implicit type casting.
+D.None of the above.
+
+Answer:A
+Explanation:Narrowing casting also called explicit type casting is the process changing from larger datatype to smaller datatype. The convertion is done manually. For e.g., int i = (int)f.
+
+#P1
+##EASY
+###TF
+
+5.Can we convert char to int with exact numeric value of char?
+
+A.Yes.
+B.No.
+Answer:A.
+Explanation:Yes, we can convert char to int with exact numeric value using wrapper class. For e.g., char c = '9'; int i = Character.getNumericValue(c);
+
+#P1
+##MEDIUM
+###TF
+
+6.Do we have to create object to use Character.getNumericValue()?
+
+A.Yes.
+B.No.
+
+Answer:B
+Explanation:getNumericValue() is a static method of Character wrapper class. For static methods, we don't need objects to access it.
+
+#P1
+##MEDIUM
+##BC
+
+7.What happen if we directly assign the value of char D to int result?What will be the vale of result?
+
+A.68.
+B.100.
+C.4.
+D.Complilation Error.
+
+Answer:A
+Explanation:If we directly assign the value of char to int, it will assign the ASCII value.
+
