@@ -1,20 +1,27 @@
-1. What is a container or object that combines multiple elements into a single unit and is used to store, retrieve and manipulate data.
-    A. Collection
-    B. Abstract
-    C. Container framework
-    D. Singleton
+#P1
+##EASY
+###BC
+1. What is a container or object that combines multiple elements into a single unit and is used to store, retrieve and manipulate data?
+
+A. Collections
+B. Groups 
+C. Containers
+D. Streams
 
 Answer: A
 
-2. Collection framework contains implementations for all the data structures?
-    A. True
-    B. False
+#P1
+##EASY
+###TF
+2. Collection framework contains implementations for all the data structures.
+A. True
+B. False
 
 Answer: A
  
 3. All the classes under the collection framework implement an _______ interface.
-    A. Comparator
-    B. Iterable
+A. Comparator
+B. Iterable
     C. Considerable
     D. Deliverable
 
