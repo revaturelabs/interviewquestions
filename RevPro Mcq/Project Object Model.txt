@@ -1,0 +1,131 @@
+
+1. Which is a fundamental unit of work in maven.
+
+A. POM
+B. Maven coordinates
+C. groupId
+D. None of the above 
+
+Answer: A 
+
+
+2. What will be stored in pom.xml file?
+
+A. project structure and instructions.
+B. project structure alone
+C. project instructions alone
+D. project description
+
+Answer: A 
+Explanation: whcih is required for maven to build the project such as dependencies, source code,plugins, goals etc.
+
+
+3. Which attribute is not used to uniquely identify the project in repository?
+
+A. The project group(groupId) 
+B. The project name(artifactId) 
+C. The project version
+D. None of the above
+
+Answer: D 
+Explanation:These attributes need to decided before creating a POM to identify the project.
+
+
+4. Which is not commanly used requirement of a POM?
+
+<details> <summary> <b> Show Answer </b> </summary> </deatils>
+
+A. Project root
+B. Model version
+C. groupId
+D. description ID
+
+Answer: D 
+
+
+5. Which is the Maven's deafult POM. 
+
+A. Maven coordinates
+B. Pom.xml
+C. Super POM
+D. None of the above
+
+Answer: C 
+Explanation: Which contains values inherited by default.
+
+
+6. Which command is used to view the default configuration of super POM?
+
+A. mvn help:effective-pom 
+B. cmd help:effective-pom 
+C. mvn cmd:effective-pom 
+D. cmd help:pom 
+
+Answer: A 
+Explanation: By running thos command, we can view the default configuration of super POM.
+
+
+
+7. Which is the correct format of a POM file?
+
+A. <project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.mycompany.app</groupId>
+    <artifactId>my-app</artifactId>
+    <version>1</version>
+   </project>
+B. <project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.mycompany.app</groupId>
+    <version>1</version>
+   </project>
+C. <project>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>my-app</artifactId>
+    <version>1</version>
+   </project>
+D. None of the above
+
+Answer: A 
+
+
+8. Where does pom.xml file resides?
+
+A. projects root-folder
+B. projects parent-folder
+C. projects main-folder
+D. None of the above
+
+Answer: A 
+
+9. Can we run a pom.xml file manually by right-clicking the pom. xml file and select Run As Maven build.
+
+A. Yes
+B. No
+
+Answer: A 
+
+10. A project should have ____ to compile, build, test and run , which is collectively present in pom.xml file.
+
+A. root-folder
+B. project code
+C. dependency
+D. All the above
+
+Answer: C 
+
+11. Which resides in the base directory of the project as pom.xml file.
+
+A. POM
+B. Maven coordinates
+C. groupId
+D. None of the above 
+
+Answer: A 
+
+12. Does all POMs inherited from Super POM.
+
+A. Yes
+B. No
+
+Answer: A 

@@ -1,0 +1,89 @@
+
+1. _____ identifies uniquely a project, a dependency or a plugin defined in POM.
+
+A. Maven Coordinates
+B. Maven ID
+C. pom.xml file
+D. None of the above
+
+Answer: A 
+
+
+2. Which of the follwoing is not the main coordinates used in maven?
+
+A. Group identifier- Is the way of grouping different maven artifacts.
+B. Artifact - Is the way of identifying the artifact.(Like JAR, WAR)
+C. Version - Particular release of the project, denotes different versions in same artifacts and same repository.
+D. Group Nmae - way of naming the different maven artifacts.
+
+Answer: D
+
+
+3. What does a valid POM file should have?
+
+A. group identifier, artifact and version
+B. group name, artifact and version
+C. group identifier and version
+D. None of the above
+
+
+Answer: A
+
+
+4. _____ coordinate defines the project type (WAR,JAR) in POM.
+
+A. Packaging
+B. Classifiers 
+C. Identifiers
+D. artifacts
+
+Answer: A
+
+
+5. Files with ____ produces a web application.
+
+A. JAR
+B. WAR
+C. XML
+D. None of the above
+
+Answer: B
+
+
+6. Which is the correct way of defining the maven coordinates?
+
+<details><summary> <b> Show Answer </b></summary>
+
+A. groupId:artifactId:packaging:version 
+B. artifactId:packaging:version:groupId:
+C. version:groupId:artifactId:packaging
+D. packaging:version:groupId:artifactId
+
+Answer: A
+Explanation: Through which will express the dependencies of a project in POM file.
+
+7. Can we inherit Group id and version from parent POM file?
+
+A. Yes
+B. No
+
+Answer: A 
+
+8. Classifiers is used to distinguish between the _____ created for two versions.
+
+A. Packaging
+B. Classifiers 
+C. Identifiers
+D. artifacts
+
+Answer: D 
+
+
+9. A project with packaging set to ____ will give Java file.
+
+A. JAR
+B. WAR
+C. XML
+D. None of the above
+
+Answer: A
