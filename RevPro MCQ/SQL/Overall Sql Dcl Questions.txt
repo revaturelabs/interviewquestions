@@ -1,695 +1,473 @@
-Overall Sql DCL Questions:
-
 
 1.Using SQL's ___________commands, you can restrict who has access to what data in a database.
 
-- a) Database
-- b) Data
-- c) Data control
-- d) All of the Mentioned
+A. Database
+B. Data
+C. Data control
+D. All of the Mentioned
 
-<details>
-
-<summary> Show Answer </summary>
-
-c.Data Control
+ANSWER:C
 
 Explanation:
 
 Data control is used for the controlling the access to database.Commands are Grant and Revoke.
 
-</details>
 
 2.Which of the following portions of a SQL query specifies the criteria for row selection?
 
-- a) Where
-- b) From
-- c) Order By
-- d) Group By
+A. Where
+B. From
+C. Order By
+D. Group By
 
-<details>
-
-<summary> Show Answer </summary>
-
-a.Where
+ANSWER:A
 
 Explanation:
 
 In an SQL statement where clause states the conditions for row selection.
 
-</details>
-
 3.When a transaction has completed, it is referred to as __________
 
-- a) Committed
-- b) Aborted
-- c) Rolled back
-- d) Failed
+A. Committed
+B. Aborted
+C. Rolled back
+D. Failed
 
-<details>
-
-<summary> Show Answer </summary>
-
-a.Committed
+ANSWER:A
 
 Explanation:
 
 A transaction that completes its execution is said to be Committed.
 
-</details>
-
 4.What keyword pairs with Data Control Language (DCL) statements?
 
-- a) SELECT
-- b) INSERT
-- c) DELETE
-- d) GRANT
+A. SELECT
+B. INSERT
+C. DELETE
+D. GRANT
 
-<details>
-
-<summary> Show Answer </summary>
-
-d.Grant
+ANSWER:D
 
 Explanation:GRANT is the keyword which is used with Data Control Language statements.
 
-</details>
-
 5.DCL Offers Commands To Complete Tasks Such As __________
 
-- a) Change The Structure Of Tables
-- b) Insert, Update Or Delete Records And Data Values
-- c) Authorizing Access And Other Control Over Database
-- d) None of the Mentioned
+A. Change The Structure Of Tables
+B. Insert, Update Or Delete Records And Data Values
+C. Authorizing Access And Other Control Over Database
+D. None of the Mentioned
 
-<details> 
-
-<summary> Show Answer </summary>
-
-c.Authorizing Access And Other Control Over Database
+ANSWER:C
 
 Explanation:DCL is used to perform the action like authorization, Access and other control over database.
-
-</details>
 
 
 6.The database language that enables access to or maintenance of database data
 
-- a) DCL
-- b) DML
-- c) DDL
-- d) All of the Mentioned
+A. DCL
+B. DML
+C. DDL
+D. All of the Mentioned
 
-<details>
-   
-<summary> Show Answer </summary>
-
-a.DCL
+ANSWER:A
 
 Explanation: DCL command like Grant and Revoke is used for to give access on the database.
-
-</details>
 
 
 7.What statement or claims about DCL is/are TRUE?
 
-- a.The DCL commands in SQL allow us to control which users have access to the data stored in SQL tables.
-- b.There will be certain privileges that each user has; consequently, the data can be accessed by them.
-- c.The DCL commands in SQL allow us to grant privileges to a user on the SQL database and its table(s), or revoke privileges that have  already been granted.
-- d.All of the above
+A. The DCL commands in SQL allow us to control which users have access to the data stored in SQL tables.
+B. There will be certain privileges that each user has; consequently, the data can be accessed by them.
+C. The DCL commands in SQL allow us to grant privileges to a user on the SQL database and its table(s), or revoke privileges that have  already been granted.
+D. All of the above
 
-<details>
-
-<summary> Show Answer </summary>
-
-d.All of the above
+ANSWER:D
 
 Explanation:
-
-About DCL Commands:
 
 The DCL commands in SQL allow us to control which users have access to the data stored in SQL tables.
 There will be certain privileges that each user has; consequently, the data can be accessed by them.
 The DCL commands in SQL allow us to grant privileges to a user on the SQL database and its table(s), or revoke privileges that have already been granted.
 
-</details>
-
-
-
 8.Commands that fall under DCL include:
 
-- a.GRANT
-- b.REVOKE
-- c.Both A. and B.
-- d.None of the above
+A.GRANT
+B.REVOKE
+C.Both A. and B.
+D.None of the above
 
-<details> 
- 
-<summary> Show Answer </summary>
-
-Answer: C) Both A. and B.
+ANSWER:C
 
 Explanation:
 
 Commands that comes under DCL are GRAND & REVOKE.
 
-</details>
-
 9.The distinction between the commands GRAND and REVOKE is _____________
 
-- a.The GRANT command can be used to grant a user access to databases and tables whereas The REVOKE command can be used to revoke all access privileges already assigned to the user.
-- b.The REVOKE command can be used to grant a user access to databases and tables whereas The GRANT command can be used to revoke all access privileges already assigned to the user.
-- c. A transaction can be rolled back to its last saved state.
-- d.None of the above
+A.The GRANT command can be used to grant a user access to databases and tables whereas The REVOKE command can be used to revoke all access privileges already assigned to the user.
+B.The REVOKE command can be used to grant a user access to databases and tables whereas The GRANT command can be used to revoke all access privileges already assigned to the user.
+C. A transaction can be rolled back to its last saved state.
+D.None of the above
 
-<details>
-
-<summary> Show Answer </summary>
-
-a.The GRANT command can be used to grant a user access to databases and tables whereas The REVOKE command can be used to revoke all access privileges already assigned to the user
+ANSWER:A
 
 Explanation:
 
 The GRANT command can be used to grant a user access to databases and tables whereas The REVOKE command can be used to revoke all access privileges already assigned to the user.
 
-</details>
-
 
 10.What command in SQL is used to add new rows to a table?
 
-- a) Alter Table
-- b) Add row
-- c) Insert
-- d) Append
+A. Alter Table
+B. Add row
+C. Insert
+D. Append
 
-<details>
 
-<summary> Show Answer </summary>
-
-c.Insert
+ANSWER:C
 
 Explanation: Alter Table will change the structure of the table.
 
-</details>
 
 11.DDL, DCL, and DML are three language elements that make up a database management system (DBMS). Users and practitioners, two diverse groups of individuals, are both interested in them. Which of them do DBMS users typically deal with?
 
-- a) DDL
-- b) DML
-- c) DDL and DCL
-- d) DCL and DML
+A. DDL
+B. DML
+C. DDL and DCL
+D. DCL and DML
 
-<details>
 
-<summary> Show Answer </summary>
-
-b. DDL and DCL
+ANSWER:B
 
 Explanation: The users and practitioners are concerned with only Data manipulation languagecomponent of DBMS
 
-</details>
 
 12.The log is a series of Entries that documents all database update actions.
 
-- a.Records
-- b.Log records
-- c.Entries
-- d.Redo
+A. Records
+B. Log records
+C. Entries
+D. Redo
 
-<details>
-
-<summary> Show Answer </summary>
-
-b.Log records
+ANSWER:B
 
 Explanation: Log records are the most commonly used recovery method.
-
-</details>
 
 
 13.Which type of failure loses its data when a head crashes or a transfer operation fails?
 
-- a.Disk failure
-- b.System crash
-- c.Transaction failure
-- d.All of the above
+A. Disk failure
+B. System crash
+C. Transaction failure
+D. All of the above
 
-<details>
 
-<summary> Show Answer </summary>
-
-a. Disk failure
+ANSWER:A
 
 Explanation:This kind of error occurs due to the formation of bad sectors, head crashes, and unreachability to the disk.
 
-</details>
 
 14.Which keyword is utilised in file organisation to access records?
 
-- a.Primary key
-- b.Foreign key
-- c.Candidate key
-- d.Super key
-
-<details>
-
-<summary> Show Answer </summary>
+A. Primary key
+B. Foreign key
+C. Candidate key
+D. Super key
 
 a.Primary key
 
 Explanation:The collection of records is known as a file.
 
-</details>
 
 15.Which of the following bottom-up strategies creates a high-level object by combining two or more low-level entities?
 
-- a.Generalization
-- b.Specialization
-- c.Aggregation
-- d.All of the above
+A. Generalization
+B. Specialization
+C. Aggregation
+D. All of the above
 
-<details>
-
-<summary> Show Answer </summary>
-
-a.Generalization
+ANSWER:A
 
 Explanation:Specialization is the opposite of generalization that break high-level entities into low-level entities.
 
-</details>
 
 16.Which of the subsequent statements is used to call the SQL function?
 
-- a.Connection statement
-- b.Callable statements
-- c.Prepared Statements
-- d.All of the above
+A.Connection statement
+B.Callable statements
+C.Prepared Statements
+D.All of the above
 
-<details>
-
-<summary> Show Answer </summary>
-
-b.Callable Statement
+ANSWER:B
 
 Explanation:This interface is provided by JDBC that allows invocation of SQL stored procedures and functions.
-
-</details>
 
 17.DriverManager.getConnection (....... , ....... , ........)
 Complete the blanks with appropriate answers.
 
-- a.URL or machine name where the server runs, Password, User ID
-- b.Password, URL or machine name where the server runs, User ID
-- c.URL or machine name where the server runs, User ID, Password
-- d.User ID, Password, URL or machine name where the server runs
+A.URL or machine name where the server runs, Password, User ID
+B.Password, URL or machine name where the server runs, User ID
+C.URL or machine name where the server runs, User ID, Password
+D.User ID, Password, URL or machine name where the server runs
 
-<details>
-
-<summary> Show Answer </summary>
-
-c.URL or machine name where the server runs, User ID, Password
+ANSWER:C
 
 Explanation:This connection method is used to open the database because a database must be opened first before performing any action.
 
-</details>
-
 18.Which of the following is employed for gaining access to huge items stored in a database?
 
-- a.setBlob()
-- b.getBlob()
-- c.getClob()
-- d.All of the above
+A.setBlob()
+B.getBlob()
+C.getClob()
+D.All of the above
 
-<details>
-
-<summary> Show Answer </summary>
-
-d.All of the above
+ANSWER:D
 
 Explanation:These are the predefined functions in SQL to access the large object from a database.
 
-</details>
-
 19.Which of the following headers must be present in the Java programme in order to connect to the database using JDBC?
 
-- Import java.sql.\_;
-- Import java.sql.odbc.jdbc.\_;
-- Import java.jdbc.\_;
-- Import java.sql.jdbc.\_;
+A. Import java.sql.\_;
+B. Import java.sql.odbc.jdbc.\_;
+C. Import java.jdbc.\_;
+D. Import java.sql.jdbc.\_;
 
-<details>
-
-<summary> Show Answer </summary>
-
-a.Import java.sql.\_;
+ANSWER:A
 
 Explanation:The Java program must import java.sql.\*, which contains the interface definitions for the functionality provided by JDBC.
 
-</details>
 
 20.Which of the following describes a bottom-up approach to database design where attributes are analysed in connection to one another?
 
-- Functional dependency
-- Database modeling
-- Normalization
-- Decomposition
+A. Functional dependency
+B. Database modeling
+C. Normalization
+D. Decomposition
 
-<details>
-
-<summary> Show Answer </summary>
-
-c. Normalization
+ANSWER:C
 
 Explanation:Normalisation is the process of removing redundancy and unwanted data.
-
-</details>
 
 
 21.On what forms does the idea of functional dependency rest?
 
-- 1NF
-- 2NF
-- 3NF
-- 4NF
+A. 1NF
+B. 2NF
+C. 3NF
+D. 4NF
 
-<details>
-
-<summary> Show Answer </summary>
-
-c.3NF
+ANSWER:C
 
 Explanation: A relation is in third normal form if it holds at least one of the following conditions for every non-trivial functional dependency X ? Y.
 X is a super key.
 Y is a prime attribute, i.e., each element of Y is part of some candidate key.
 
-</details>
-
 22.Which of the following claims regarding the third normal form (3NF) is untrue?
 
-- It is used to remove data duplication.
-- It contains transitive partial dependency.
-- It is used to achieve data integrity.
-- All of the above
+A. It is used to remove data duplication.
+B. It contains transitive partial dependency.
+C. It is used to achieve data integrity.
+D. All of the above
 
-<details>
-
-<summary> Show Answer </summary>
-
-b.It contains transitive partial dependency.
+ANSWER:B
 
 Explanation:A relation will be in 3NF if it is in 2NF, and there should not be a transitive dependency for non-prime attributes.
 
-</details>
-
 23.The table's properties in second normal form (2NF) are as follows:
 
-- Eliminates any hidden dependency
-- Have a composite key
-- Eliminate the possibility of insertion anomalies
-- None of the above
+A. Eliminates any hidden dependency
+B. Have a composite key
+C. Eliminate the possibility of insertion anomalies
+D. None of the above
 
-<details>
-
-<summary> Show Answer </summary>
-
-a.Eliminates any hidden dependency
+ANSWER:A
 
 Explanation: The first normal form is used to eliminate duplicate values, and an attribute of a table cannot hold multiple values. 41) The characteristics of the table in second normal form
-
-</details>
 
 
 24.All assertions made up until the commit will be ?
 
-- a.Rollback
-- b.Commit
-- c.Partially committed
-- d.Abort
+A.Rollback
+B.Commit
+C.Partially committed
+D.Abort
 
-<details>
-
-<summary> Show Answer </summary>
-
-a.Rollback
+ANSWER:A
 
 Explanation:The rollback operation is used to undo the work done.
 
-</details>
-
 25.Which of the following is utilised to maintain the operation's order?
 
-- a.Schedule
-- b.Atomicity
-- c.Active state
-- d.None of the above
+A.Schedule
+B.Atomicity
+C.Active state
+D.None of the above
 
-<details>
-
-<summary> Show Answer </summary>
-
-a.Schedule
+ANSWER:A
 
 Explanation: A series of operations from one transaction to another transaction is known as a schedule, which is used to preserve the order of the operation in each of the individual transactions.
 
-</details>
-
 26.The transaction becomes irreversible in the database if which of the following occurs.
 
-- a.Commit
-- b.Rollback
-- c.Flashback
-- d.View
+A.Commit
+B.Rollback
+C.Flashback
+D.View
 
-<details>
 
-<summary> Show Answer </summary>
-
-a.Commit
+ANSWER:D
 
 Explanation: Commit operation is used to save the work permanently in the database.
 
-</details>
 
 27.SELECT FROM employee JOIN uses (id); The preceding command is similar to:
 
-- a.SELECT \_ FROM employee LEFT JOIN takes USING (id);
-- b.SELECT \_ FROM employee RIGHT JOIN takes USING (id);
-- c.SELECT \_ FROM employee INNER JOIN takes USING (id);
-- d.All of the mentioned above
+A.SELECT \_ FROM employee LEFT JOIN takes USING (id);
+B.SELECT \_ FROM employee RIGHT JOIN takes USING (id);
+C.SELECT \_ FROM employee INNER JOIN takes USING (id);
+D.All of the mentioned above
 
-<details>
-
-<summary> Show Answer </summary>
-
-c.SELECT \_ FROM employee INNER JOIN takes USING (id);
+ANSWER:C
 
 Explanation:We can also write JOIN instead of INNER JOIN. JOIN is the same as INNER JOIN.
 
-</details>
-
 28.How many tables can be brought together using a join?
 
-- a.One
-- b.Two
-- c.Three
-- d.Many
+A.One
+B.Two
+C.Three
+D.Many
 
-<details>
-
-<summary> Show Answer </summary>
-
-d.Many
+ANSWER:D
 
 Explanation:Join operation can combine many tables at a time.
-
-</details>
 
 29.employee INSERT INTO (101, xyz, 5000);
 
 What keyword is absent from the preceding sentence?
 
--  a.table
--  b.values
--  c.column
--  d.field
+A.table
+B.values
+C.column
+D.field
 
-<details>
 
-<summary> Show Answer </summary>
-
-b.Values
+ANSWER:B
 
 Explanation: To insert value in the table, we have to use the INSERT keyword with the VALUES clause.
-
-</details>
 
 
 30.Pick the incorrect response to this question.
 
-- a.SELECT \* FROM table_name WHERE column_name;
-- b.SELECT column_name FROM table_name;
-- c.SELECT column_name FROM table_name WHERE condidtion;
-- d.SELECT column_name WHERE condition;
+A.SELECT \* FROM table_name WHERE column_name;
+B.SELECT column_name FROM table_name;
+C.SELECT column_name FROM table_name WHERE condidtion;
+D.SELECT column_name WHERE condition;
 
-<details>
 
-<summary> Show Answer </summary>
-
-d.SELECT column_name WHERE condition;
+ANSWER:D
 
 Explanation: The correct answer is option D because the SELECT command does not produce output without specifying the table name.
-
-</details>
 
 
 31.What should the outcome of the following query be? SELECT * FROM class WHERE marks>90 AND 
 roll no = 20;
 
-- a.Marks and roll_no
-- b.class
-- c.Marks
-- d.All the columns from the class table.
+A.Marks and roll_no
+B.class
+C.Marks
+D.All the columns from the class table.
 
-<details>
-
-<summary> Show Answer  </summary>
-
-d.All the columns from the class table.
+ANSWER:D
 
 Explanation: The "\*" character in SQL is used to show all columns of the table.
 
-</details>
-
-
 32.Only separate values from the table are returned by the ___________ statement.
 
-- a.Different
-- b.Distinct
-- c.None
-- d.All
+A.Different
+B.Distinct
+C.None
+D.All
 
-<details>
-
-<summary> Show Answer </summary>
-
-b.Distinct
+ANSWER:B
 
 Explanation: The table column may contain duplicate values. If we need the unique value from any column, we need to apply a distinct command. The syntax for the distinct command is:
-SELECT DISTINCT column name FROM TABLE;
 
-</details>
+SELECT DISTINCT column name FROM TABLE;
 
 
 33.The basic data type of SQL varchar(n) has ..... length Unicode characters, and char(n) has ...... length Unicode characters.
 
-- a.Fixed, Variable
-- b.Fixed, Fixed
-- c.Variable, Variable
-- d.Variable, Fixed
+A.Fixed, Variable
+B.Fixed, Fixed
+C.Variable, Variable
+D.Variable, Fixed
 
-<details>
-
-<summary> Show Answer </summary>
-
-d.Variable, Fixed
+ANSWER:D
 
 Explanation: The storage required for the char and varchar variable is different. Char() has a static allocation of space, whereas varchar() has a dynamic allocation of space. So the length of varchar() will vary according to the specified string.
-
-</details>
 
 
 34.DELETE FROM X
 What does the preceding statement mean?
 
-- a.Delete table
-- b.Delete row
-- c.Delete fields
-- d.Remove entry x
+A.Delete table
+B.Delete row
+C.Delete fields
+D.Remove entry x
 
-<details>
-
-<summary> Show Answer </summary>
-
-d.Remove entry x
+ANSWER:D
 
 Explanation:The DELETE command removes the table entries.
-
-</details>
 
 
 35.To remove all  rows from the table, you need to use the ... command.
 
-- a.Truncate
-- b.Remove
-- c.Drop table
-- d.Delete
+A.Truncate
+B.Remove
+C.Drop table
+D.Delete
 
-<details>
-
-<summary> Show Answer </summary>
-
-a.Truncate
+ANSWER:A
 
 Explanation:Truncate is used to delete complete data without removing the table structure.
 
-</details>
-
 36.Which of the following commands is the one you should use to remove the values from the relation?
 
-- a) Delete from teaches;
-- b) Delete from teaches where Id =’Null’;
-- c) Remove table teaches;
-- d) Drop table teaches;
+A. Delete from teaches;
+B. Delete from teaches where Id =’Null’;
+C. Remove table teaches;
+D. Drop table teaches;
 
-<details>
 
-<summary> Show Answer </summary>
-
-a. Delete from teaches;
+ANSWER:D
 
 Explanation: To delete the entries from the table Delete from table command should be used.
 
-</details>
-
-
 37.Which of the following fixed roles can be used to add or remove the user IDs?
 
-- a) db_sysadmin
-- b) db_accessadmin
-- c) db_securityadmin
-- d) db_setupadmin
+A. db_sysadmin
+B. db_accessadmin
+C. db_securityadmin
+D. db_setupadmin
 
-<details>
-
-<summary> Show Answer </summary>
-
-b. db_accessadmin
+ANSWER:B
 
 Explanation: Along with security, as the name suggests the db_accessadmin role also handles access. db_sysadmin refers to the system administrator. db_securityadmin as the name suggests it involves granting or declining permission to access the data ensuring security.
-
-</details>
-
 
 38.Why the following statement is erroneous?
 SELECT dept_name, ID, avg (salary)
 FROM instructor
 GROUP BY dept_name;
 
-- a. Dept_id should not be used in group by clause
-- b. Group by clause is not valid in this query
-- c. Avg(salary) should not be selected
-- d. None
+A. Dept_id should not be used in group by clause
+B. Group by clause is not valid in this query
+C. Avg(salary) should not be selected
+D. None
 
-<details>
-
-<summary> Show Answer </summary>
-
-a.Dept_id should not be used in group by clause
+ANSWER:A
 
 Explanation: Any property that does not occur in the group by clause must only appear in an aggregate function if it also appears in the select clause; otherwise, the query is considered incorrect.
-
-</details>
-
 
 39.If OE and SCOTT are the users and OE is the owner of the ORDERS table, evaluate the statements the DBA issued in the order supplied.
 
@@ -701,58 +479,44 @@ REVOKE SELECT ON oe.orders FROM scott;
 
 What would be the outcome after executing the statements?
 
-- a) The REVOKE statement would give an error because the SELECT privilege has been granted 
+A. The REVOKE statement would give an error because the SELECT privilege has been granted 
      to the role R1
-- b) The REVOKE statement would remove the SELECT privilege from SCOTT as well as from the role R1
-- c) SCOTT would be able to query the OE.ORDERS table
-- d) SCOTT would not be able to query the OE.ORDERS table
+B. The REVOKE statement would remove the SELECT privilege from SCOTT as well as from the role R1
+C. SCOTT would be able to query the OE.ORDERS table
+D. SCOTT would not be able to query the OE.ORDERS table
 
-<details>
-
-<summary> Show Answer </summary>
-
-b.The REVOKE statement would remove the SELECT privilege from SCOTT as well as from the role R1
+ANSWER:B
 
 Explanation: To perform operations on objects, the REVOKE statement is used to revoke rights from a single user or role, or from all users.
-
-</details>
 
 
 40.SELECT INTO statement-
 
-- a.Select the content from a table.
-- b.Rename the content in a table.
-- c.Copy the content from one table into another existing table.
-- d.None of the above
+A.Select the content from a table.
+B.Rename the content in a table.
+C.Copy the content from one table into another existing table.
+D.None of the above
 
-<details>
-
-<summary> Show Answer </summary>
-
-C.Copy the content from one table into another existing table
+ANSWER:C
 
 Explanation:
 
 SELECT INTO statement copy the content from one table into another existing table.
 
-</details>
 
 41. DCL offers commands to carry out tasks such as __________
 
-- a. Insert, Update or Delete Records and Values
-- b. Authorizing Access and other control over Database
-- c. Change the structure of Tables
-- d. None of Above
+A. Insert, Update or Delete Records and Values
+B. Authorizing Access and other control over Database
+C. Change the structure of Tables
+D. None of Above
 
-<details>
-<summary> Show Answer </summary>
-
-Correct Ans : B
+ANSWER: B
 
 Explanation: 
+
 The DCL Grant and Revoke commands are used to grant access to the database.
 
-</details>
 
 
 
