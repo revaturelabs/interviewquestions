@@ -6,13 +6,11 @@
 
 Answer: A
 
-2. Collection framework contains _______ for all the data structures?
-    A. Irohibition
-    B. Inhibition
-    C. Implementations
-    D. Interruption
+2. Collection framework contains implementations for all the data structures?
+    A. True
+    B. False
 
-Answer: C
+Answer: A
  
 3. All the classes under the collection framework implement an _______ interface.
     A. Comparator
