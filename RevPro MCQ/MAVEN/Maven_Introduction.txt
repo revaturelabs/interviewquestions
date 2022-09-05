@@ -1,7 +1,7 @@
 #P1
 ##EASY
 ###MA
-1. Select all the build tool?
+1. Select the build tool?
 A. Maven
 B. Gradle
 C. Apache Spark
@@ -12,7 +12,7 @@ Answer: A,B,D
 #P1
 ##EASY
 ###BC
-2. Select statements that are relevant to the Maven
+2. Select statements that are relevant to the Maven.
 
 I. For creating projects 
 II. Stores dependendency
@@ -29,7 +29,7 @@ Answer: B
 #P1
 ##EASY
 ###TF
-3. Does we need Java to execute Maven?
+3. Do we need Java to execute Maven?
 
 A. Yes
 B. No
@@ -51,7 +51,7 @@ Explanation: Which is an XML file having the details of project  strccture and c
 #P1
 ##EASY
 ###BC
-5. What does a build tool has to manage?
+5. What are the responsibilities of a build tool?
 
 I. Generate source code
 II. Create documentation from the source code generated.
@@ -69,7 +69,7 @@ Answer: D
 #P2
 ##EASY
 ###BC
-6. Which is the command used to create a simple projet using Maven?
+6. Which command is used to create a simple projet using Maven?
 
 A. archetype:generate 
 B. archeid:generate 
@@ -106,7 +106,7 @@ Answer: A
 #P1
 ##EASY
 ###BC
-9. Select the scenarios where the maven should be used in the project.
+9. Select the scenarios, where the maven should be used in the project.
 
 I. If the project needs to have quick documentation, compiling and packaging of source coide into JAR/ZIP files.
 II. If the project requires a huge amount of dependencies.
