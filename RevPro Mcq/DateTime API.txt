@@ -38,7 +38,7 @@ Answer: A
 #P1
 ##EASY
 ###BC
-4. ZonedDateTime API is used ___ ?
+4. ZonedDateTime API is used ___ .
 
 A. when we are not considering time zones
 B. when we are not considering date zones
@@ -60,7 +60,7 @@ D. DateTimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss")
 Answer: D
 
 #IGNORE
-6. Which is not the drawback of existing date and time API before Java 8.
+6. Which is not the drawback of existing date and time API before Java 8?
  
 A. It is thread safe 
 B. It was poorly designed with less number of features
