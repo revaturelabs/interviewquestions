@@ -1,245 +1,193 @@
 1.Character data can be stored in the form of ______________.
 
-a. Fixed length string
+A. Fixed length string
 
-b. Either Fixed or Variable length string
+B. Either Fixed or Variable length string
 
-c. Variable length string 
+C. Variable length string 
 
-d. None of the mentioned
+D. None of the mentioned
 
-Correct Answer:
+Answer: B
 
-Option B.Either Fixed or Variable length string
-
-Explanation: 
-
-To store a character data we can also use two definitions and they are,
+Explanation: To store a character data we can also use two definitions and they are,
 
 Char(20) ---> fixed length 
 
 Varchar(20) ---> variable length 
 
+2.The maximum length of the char columns is ____________.
 
+A. 255 bytes
 
-2.The maximum length of the char columns is ____________
+B. 256 bytes 
 
-a. 255 bytes
+C. 65, 535 bytes
 
-b. 256 bytes 
+D. None of the above
 
-c. 65, 535 bytes
+Answer : A
 
-d. None of the above
-
-Correct Answer :
-
-Option A. 255 bytes
-
-Explanation:
-
-The maximum size (m) parameter of a VARCHAR column can be between 1 and 255 bytes in size. The maximum size for an index on a VARCHAR column is 254 bytes.
+Explanation: The maximum size (m) parameter of a VARCHAR column can be between 1 and 255 bytes in size. The maximum size for an index on a VARCHAR column is 254 bytes.
 
 3.Which "text type" contains the most  maximum number of bytes?
 
-a. Text 
+A. Text 
 
-b. Tiny text
+B. Tiny text
 
-c. Long text
+C. Long text
 
-d. Medium text 
+D. Medium text 
 
-Correct Answer :
+Answer : C
 
-Option C. Long text
-
-Explanation:
-
-A string data type called `LONGTEXT` can contain up to '4,294,967,295' characters.
+Explanation: A string data type called `LONGTEXT` can contain up to '4,294,967,295' characters.
 
 4.Among the following, which contains the most maximum bytes?
 
-a. Varchar
+A. Varchar
 
-b. Char
+B. Char
 
-c. Both Varchar and Char
+C. Both Varchar and Char
 
-d. Text type
+D. Text type
 
-Correct Answer:
+Answer: D
 
-Option D. Text type
-
-Explanation:
-
-TEXT is a variable width character string data type that supports non-Unicode data in a SQL database and has a maximum string length of 2,147,483,647 characters. This data type is used to store long strings of data values.
+Explanation: TEXT is a variable width character string data type that supports non-Unicode data in a SQL database and has a maximum string length of 2,147,483,647 characters. This data type is used to store long strings of data values.
 
 5.Which of the following describe SQL's types for Unicode character strings?
 
-a. ntext
+A. ntext
 
-b. nchar
+B. nchar
 
-c. Both A and B
+C. Both A and B
 
-d. None of the above.
+D. None of the above.
 
-Correct Answer:
+Answer: C
 
-Option C. Both A and B
-
-Explanation:
-
-Unicode character strings datatypes in SQL includes 'nchar' and 'ntext'.
+Explanation: Unicode character strings datatypes in SQL includes 'nchar' and 'ntext'.
 
 6.which of the following is the best datatype to use and to store a string with up to 255 characters?
 
-a. BLOB
+A. BLOB
 
-b. Binary
+B. Binary
 
-c. Text
+C. Text
 
-d. Tiny Text
+D. Tiny Text
 
-Correct Answer:
+Answer: D
 
-Oprtion D. Tiny Text
+Explantion: A string in "TINY TEXT" can be up to 255 characters or 255 bytes long.
 
-Explantion:
+7.What is the difference between VARCHAR and VARCHAR2?
 
-A string in "TINY TEXT" can be up to 255 characters or 255 bytes long.
+A. VARCHAR can store upto 4000 bytes and VARCHAR2 can store upto 8000 bytes.
 
-7. What is the difference between VARCHAR and VARCHAR2?
+B. VARCHAR can store upto 2000 bytes and VARCHAR2 can store upto 4000 bytes.
 
-a. VARCHAR can store upto 4000 bytes and VARCHAR2 can store upto 8000 bytes.
+C. There is no similarity between VARCHAR and VARCHAR2.
 
-b. VARCHAR can store upto 2000 bytes and VARCHAR2 can store upto 4000 bytes.
+D. Both VARCHAR and VARCHAR2 are similar but use of VARCHAR2 is mostly recommended.
 
-c. There is no similarity between VARCHAR and VARCHAR2.
+Answer: D
 
-d. Both VARCHAR and VARCHAR2 are similar but use of VARCHAR2 is mostly recommended.
-
-Correct Answer: 
-
-Option D. Both VARCHAR and VARCHAR2 are similar but use of VARCHAR2 is mostly recommended
-
-Explanation:
-
-Both VARCHAR and VARCHAR2 are similar but use of VARCHAR2 is mostly recommended.
+Explanation: Both VARCHAR and VARCHAR2 are similar but use of VARCHAR2 is mostly recommended.
 
 8.Which of the above functions do we use to obtain a particular day of the month for a given date?
 
-a. DATEPART
+A. DATEPART
 
-b. DAY
+B. DAY
 
-c. GETDATE
+C. GETDATE
 
-d. None of the above
+D. None of the above
 
-Correct Answer: 
+Answer: B
 
-Option B. DAY
+Explanation: For a given date, DAY returns the day of the month that is specified.
 
-Explanation: 
+9.The user defined data type can be created  by using ______________.
 
-For a given date, DAY returns the day of the month that is specified.
+A. Create datatype
 
-9. The user defined data type can be created  by using ______________.
+B. Create data
 
-a. Create datatype
+C. Create definetype
 
-b. Create data
+D. Create type
 
-c. Create definetype
+Answer: D
 
-d. Create type
-
-Option D. Create type
-
-Explanation:
-
-*A brand-new, user-specified data type is defined using CREATE TYPE. 
+Explanation: *A brand-new, user-specified data type is defined using CREATE TYPE. 
 
 *An object type, nested table type, varray type, or composite type are the types that can be generated.
 
 10.SQL's COUNT function gives the count of_______________.
 
-a. Distinct values
+A. Distinct values
 
-b. Group By
+B. Group By
 
-c. Values
+C. Values
 
-d. Columns
+D. Columns
 
-Correct Answer: 
+Answer: C
 
-Option C. Values
+Explanation:  * The SQL count function returns the total number of values.
 
-Explanation: 
-
-* The SQL count function returns the total number of values.
-
-* The Count function totals up all the values in a given column that are not null.
+              * The Count function totals up all the values in a given column that are not null.
 
 11.INT datatype can store numbers from ____________.
 
-a. -2,147,483,648 to 2,147,483,647
+A. -2,147,483,648 to 2,147,483,647
 
-b. -8,388,608 to 8,388,607
+B. -8,388,608 to 8,388,607
 
-c. -32768 to 32767
+C. -32768 to 32767
 
-d. None of the above
+D. None of the above
 
-Correct Answer: 
+Answer: A
 
-Option A. -2,147,483,648 to 2,147,483,647
+Explanation: *SMALLINT datatype can store numbers from -32768 to 32767
 
-Explanation: 
-
-*SMALLINT datatype can store numbers from -32768 to 32767
-
-*MEDIUMINT datatype can store numbers from -8,388,608 to 8,388,607
+             *MEDIUMINT datatype can store numbers from -8,388,608 to 8,388,607
 
 12.________________ can store binary strings up to given length.
 
-a.VARCHAR(x)
+A.VARCHAR(x)
 
-b.BINARY(x)
+B.BINARY(x)
 
-c.VARBINARY(x)
+C.VARBINARY(x)
 
-d.CHAR(x)
+D.CHAR(x)
 
-Correct Answer: 
+Answer: C
 
-Option C. VARBINARY(x)
+Explanation: *[(n | max)] varbinary Binary data with variable length. 
 
-Explanation:
+             *n can range between 1 and 8,000.
 
-*[(n | max)] varbinary Binary data with variable length. 
+             *max denotes the maximum storage size of 231-1 bytes. 
 
-*n can range between 1 and 8,000.
-
-*max denotes the maximum storage size of 231-1 bytes. 
-
-*The storage size is equal to the length of the data entered plus 2 bytes.
+             *The storage size is equal to the length of the data entered plus 2 bytes.
 
 13.A data type attribute specifies the type of data that an object can hold.
 
-a. True
+A. True
 
-b. False
+B. False
 
-Correct Answer:
+Answer: A
 
-Option A. True
-
-Explanation:
-
-In programming, a data type is a categorized that it determines what type of value a variable has and what mathematical, relational, or logical operations can be performed on it without creating an error.
+Explanation: In programming, a data type is a categorized that it determines what type of value a variable has and what mathematical, relational, or logical operations can be performed on it without creating an error.
