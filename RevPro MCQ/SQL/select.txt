@@ -1,0 +1,371 @@
+1. In SQL the table records can be retrieved using which command?
+
+A.RETRIEVE
+B.SELECT
+C.UPDATE
+D.ALTER
+Answer: B.
+
+Explanation:The table records can be retrieved using the SELECT commanD.
+
+2. SELECT INTO statement-
+
+A.Select the content from a table.
+B.Rename the content in a table.
+C.Copy the content from one table into another existing table.
+D.None of the above
+
+Answer: C.
+
+Explanation:SELECT INTO statement copy the content from one table into another existin
+
+3.Which one is not the OPTIONAL Clause in SELECT statement?
+
+A.WHERE
+B.ORDER BY
+C.HAVE
+D.HAVING
+Answer: C.
+
+Explanation:WHERE, ORDER BY and HAVING are all OPTIONAL Clauses in SELECT statement.
+
+4)The SELECT TOP statement shows the limited number of:
+
+A.Rows
+B.Columns
+C.Tables
+D.None of the above
+Answer: A
+
+Explanation:The SELECT TOP statement shows the limited number of records or rows.
+
+5). Select the correct syntax of SELECT TOP clause?
+
+A.SELECT TOP name
+B.SELECT TOP column
+C.SELECT TOP FROM
+D.SELECT TOP Number
+Answer: D.
+
+Explanation:The correct syntax of SELECT TOP clause is SELECT TOP Number.
+
+6) In order to assign a random name to a column or table, which SQL SELECT Clause is used?
+
+A.FROM
+B.WHERE
+C.HAVING
+D.AS
+
+Answer: D.
+
+Explanation:In order to assign a random name to a column or table, SQL SELECT AS Clause is used.
+
+7)What is the work of SELECT command?
+
+A.Database objects such as tables, table views, and other objects can be deleted using this command.
+B.Database objects such as tables, table views, and other objects can be deleted using this command.
+C.One or more rows from one or more tables of the database can be accessed with this command. Using the WHERE clause with this command is also possible.
+D.It enables you to create new databases, tables, table views, and other objects using this Command.
+
+Answer: C.
+
+Explanation:Using the SELECT command, one or more rows from one or more tables of the database can be accessed. Using the WHERE clause with this command is also possible.
+
+8) What does the SELECT Statement do?
+
+A.Data is read from the SQL database by this statement and displayed to the database user.
+B.The stored data in the SQL database is changed or modified by this SQL statement.
+C.By deleting the stored data, this SQL statement deletes the database.
+D.A new table in SQL is created using this SQL statement.
+
+Answer: A.
+Explanation:Using SELECT Statement, Data is read from the SQL database and displayed to the database user.
+
+9)When SELECT statements used to create Views contain ______________ clauses, the views cannot be Updated.
+
+A.JOIN
+B.HAVING
+C.GROUP BY
+D.All of the above
+Answer: D.
+
+Explanation:When SELECT statements used to create Views contain JOIN, HAVING, or GROUP BY clauses, the views cannot be updateD.
+
+10)What is the work of SELECT command?
+
+A.Database objects such as tables, table views, and other objects can be deleted using this Command.
+B.Database objects such as tables, table views, and other objects can be deleted using this command.
+C.One or more rows from one or more tables of the database can be accessed with this command. Using the WHERE clause with this command is also possible.
+D.It enables you to create new databases, tables, table views, and other objects using this command.
+
+Answer: C.
+
+11)With SQL, how do you select all the records from a table named “Persons” where the value of the column “FirstName” ends with an “a”?
+A. SELECT * FROM Persons WHERE FirstName=’a’
+B. SELECT * FROM Persons WHERE FirstName LIKE ‘a%’
+C.SELECT * FROM Persons WHERE FirstName LIKE ‘%a’
+D. SELECT * FROM Persons WHERE FirstName=’%a%’
+
+Answer: C.
+Explanation: The SQL LIKE clause is used to compare a value to similar values using wildcard operators.
+
+12)SQL query to find all the cities whose humidity is 95.
+a) SELECT city WHERE humidity = 95
+b) SELECT city FROM weather WHERE humidity = 95
+c) SELECT humidity = 89 FROM weather
+d) SELECT city FROM weather
+
+Answer: B.
+Explanation: The SQL WHERE clause is used to filter the results and apply conditions in a SELECT, INSERT, UPDATE, or DELETE statement.
+
+13)Which of the following is a legal expression in SQL?
+A.SELECT NULL FROM SALES;
+B.SELECT NAME FROM SALES;
+C.SELECT * FROM SALES WHEN PRICE = NULL;
+D.SELECT # FROM SALES;
+Answer : B.
+
+14)	What is the meaning of “SELECT” clause in sql?
+A.	Show me all Columns and rows
+B.	Show me all columns
+C.	Show me all rows
+D.	None of the mentioned
+
+Answer: A.
+
+15)Which of the following clause is evaluated in the last by database server?
+A.	SELECT
+B.	WHERE
+C.	FROM
+D.	None of the mentioned
+
+Answer: A.
+
+16)What will be the output of the following SQL statement?
+SELECT *FROM person;
+A.	Show all rows and columns of table “person”
+B.	Show all rows of table “person”
+C.	Show all columns of table “person”
+D.	None of the mentioned
+
+Answer: A.
+
+17)What will be the output of of the following SQL statement?
+SELECT person_id, Fname, lname
+FROM person;
+A.	Show only columns (person_id, Fname, lname) and rows related to these columns
+B.	Show only columns (person_id, Fname, lname)
+C.	Show all rows
+D.	Show all columns except (person_id, Fname, lname)	
+
+Answer: A.
+
+18)Can “SELECT” clause be used without the clause “FROM”?
+
+A.	Yes
+B.	No
+C.	Depends
+D.	None of the mentioned
+
+Answer: B.
+
+19)Find the error in the following SQL statement?
+SELECT *;
+A.	No Error
+B.	No table mentioned
+C.	Depends
+D.	None of the mentioned
+
+Answer: B.
+
+20)What will be the output of the following SQL statement?
+SELECT  * FROM person
+WHERE person_id=1;
+A.	show all columns but only those rows which belongs to person_id=1
+B.	Show all columns and rows
+C.	Shows only columns person_id
+D.	None of the mentioned
+
+Answer: A..
+
+21)What will be the output of the following SQL statement?
+SELECT person_id, fname, lname
+FROM person
+WHERE person_id=1;
+A.	Show only columns(person_id, fname, lname) but only those rows which belongs to person_id=1
+B.	Show all columns and rows
+C.	Shows only columns person_id
+D.	None of the mentioned
+
+Answer: A.
+
+22)Which clause is mandatory with clause “SELECT” in sql?
+A.	FROM
+B.	WHERE
+C.	Both FROM and WHERE
+D.	None of the mentioned
+
+Answer: A.
+
+23)Which among the following can also be included with “SELECT” clause while writing query in sql?
+A.	Literals
+B.	Expressions
+C.	User defined functions
+D.	All of the mentioned
+
+Answer: D.
+
+24)Which is the sole base command of DQL
+
+    A.Choose
+    B.Select
+    C.Read
+    D.None of these
+    
+    Answer: B.
+
+
+25)Which clause is associated with data projection?
+
+    A.Select col1 [, col2] ...
+    B.Having having_condition
+    C.From table_ref
+    D.None of these
+
+Answer: A.
+
+26)Which clause is associated with filtering records before grouping?
+
+    A.Having having_condition
+    B.Where where_condition
+    C.Limit limit_condition
+    D.None of these
+Answer: B.
+
+27)Which clause is associated with filtering records after grouping?
+
+    A.Having having_condition
+    B.Where where_condition
+    C.Limit limit_condition
+    D.None of these
+Answer: A.
+
+28).Which of the following SQL statement is valid?
+
+
+A.SELECT * FROM Employees WHERE Gender = 'F';
+
+B.SELECT * FROM Employees;
+
+C.SELECT Gender= 'M' FROM Employees;
+
+D.SELECT Gender FROM Employees WHERE Last_Name = 'Gowda';
+
+Answer:D.
+
+29)In a SELECT statement querying a single table, according to the SQL-92 standard the Asterisk(*) means that
+
+A.All records meeting the full criteria are to be returneD.
+
+B.All columns of the table are to be returneD.
+
+C.All records with even partial criteria met are to be returneD.
+
+D.None of the above.
+
+ Answer:B.
+
+Explanation:By title, the outcome is arranged in ascending order. All columns from the Book table should be included in the result set, as shown by the asterisk (*) in the select list.
+
+30)Which of the SQL Statements is correct syntax for SELECT Command?
+
+A.SELECT Username, Password FROM Users.
+
+B.SELECT Username AND Password FROM Users.
+
+C.SELECT Username, Password WHERE Username = "User1".
+
+D.None of the above.
+
+Answer:A.
+
+Explanation:
+           The Correct order of SELECT Command is , FROM and WHERE clause:
+                         SELECT column_name1, column_name2, ....
+                          FROM table_name
+                          WHERE condition
+        So, only
+              SELECT Username, Password FROM Users
+
+31)A Subquery in an SELECT statement is enclosed in:
+
+A.CAPITAL LETTERS
+
+B.Square Brackets[]
+
+C.Parenthesis ()
+
+D.CURLY BRACES{}
+
+Answer:C.
+
+Explanation:Unless there are many columns in the main query so that the subquery can compare its selected columns, a subquery can only have one column in the SELECT clause.
+
+32)When two or more _______ statements are used, the UNION operator merges the results.
+
+A.INSERT
+
+B.UPDATE
+
+C.DELETE
+
+D.SELECT
+
+Answer:D.
+
+Explanation:With the Union operator, you may aggregate the output of two or more queries into a single result set that contains every row that was returned by every Union-related query. 
+In layman's terms, it combines the duplicate rows from two or more row sets.
+
+33).Following the completion of a transaction, it must be executed to save all the operations performed in the transaction. Here we are talking about which command?
+
+A.REVOKE
+
+B.COMMIT
+
+C.ROLLBACK
+
+D.SAVE
+
+Answer:B.
+
+Explanation:Following the completion of a transaction, the COMMIT command must be executed to save all the operations performed in the transaction.
+
+34)Table Employee has 10 Records. It has a non - NULL SALARY column which is also UNIQUE. The SQL statement sql SELECT COUNT(*) FROM Employee WHERE SALARY > ANY (SELECT SALARY FROM EMPLOYEE); Prints
+
+A.10
+
+B.5
+
+C.9
+
+D.0
+
+Answer:B.
+Explanation:Each non-NULL value in the SALARY column of the employee table's 10 records is distinct, i.e. different. 
+As a result, out of those ten records, one must be a minimum and cannot exceed any of the nine values in the pay column. 
+So, nine times will the condition WHERE SALARY > ANY (SELECT SALARY FROM employee) be true. The COUNT(*) returns 9.
+
+35)Which of the following query finds the names of the sailors who have reserved atleast one boat?
+
+A.SELECT DISTINCT s.name FROM sailors , reserves WHERE s.sid = r.sid;
+
+B.SELECT s.sname FROM sailors s ,reservers r WHERE s.sid = r.sid;
+
+C.SELECT DISTINCT s.name FROM sailors s, reserves r WHERE s.sid = r.sid;
+
+D.None of these
+
+ Answer:C.
+
+Explanation:DISTINCT keyword gives the unique recorD.
+
