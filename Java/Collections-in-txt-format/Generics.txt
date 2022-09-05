@@ -1,10 +1,10 @@
 
-1. It forces the Java programmer to store specific type of objects to make it type-safe which makes the code stable by detecting the bugs at ________.
+1. _______ forces the Java programmer to store specific type of objects to make it type-safe which makes the code stable by detecting the bugs at Compile time.
 
-    A. Compile time
-    B. Run time
-    C. Interrupt time
-    D. Debug time
+    A. Generics
+    B. Wrapper Class
+    C. Abstract Class
+    D. None of the above
 
 Answer: A
 
@@ -24,10 +24,10 @@ Answer: A
 Answer: D
 
 4. Which of the following is NOT an advantage of Generics?
-    A. Type-Safety
-    B. Type casting is not required
-    C. Type casting is required
-    D. Compile -Time Checking
+    A. Type-Safety: Should have single type of objects in generics.
+    B. Type casting is not required: No need to typecast the object.
+    C. Type casting is required: Need to typecast the object.
+    D. Compile-Time Checking: Since it checks at compile time, error will not occur at run time.
 
 Answer: C
 
@@ -46,16 +46,7 @@ Answer: A
 
 Answer: A
 
-7. Which of the following are NOT a way of declaring wildcards in Java generics.
-
-    A. Uper bound Wildcard
-    B. Middle bound Wildcard
-    C. Lower bound Wildcard
-    D. Unbounded Wildcard
-
-Answer: B
-
-8. Best suitable wildcard conditions are based on the type of parameters passed to a method as in and out parameter.
+8. Best suitable wildcard conditions are based on the type of parameters passed to a method as in variable and out variable.
     A. True
     B. False
 

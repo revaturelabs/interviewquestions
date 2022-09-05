@@ -1,31 +1,24 @@
-#P1
-##EASY
-###BC
-1. What is a container or object that combines multiple elements into a single unit and is used to store, retrieve and manipulate data?
-
-A. Collections
-B. Groups 
-C. Containers
-D. Streams
+1. What is a container or object that combines multiple elements into a single unit and is used to store, retrieve and manipulate data.
+    A. Collection
+    B. Abstract
+    C. Container framework
+    D. Singleton
 
 Answer: A
 
-#P1
-##EASY
-###TF
-2. Collection framework contains implementations for all the data structures.
-A. True
-B. False
+2. Collection framework contains implementations for all the data structures?
+    A. True
+    B. False
 
 Answer: A
  
-3. All the classes under the collection framework implement an _______ interface.
-A. Comparator
-B. Iterable
-    C. Considerable
-    D. Deliverable
+3. The methods used by an iterator to traverse the collection are
+    A. hasNext()
+    B. next()
+    C. remove()
+    D. All of the above
 
-Answer: B
+Answer: D
 
 4. Fill in the code from given choices. 
 
@@ -99,7 +92,7 @@ public class Main {
 
 Answer: B
 
-7. A comparable object is capable of comparing itself with another object and the comparator class must implement the java.util.Comparator interface. 
+7. A comparable object is capable of comparing itself with another object.
     A. True
     B. False
 
@@ -117,11 +110,11 @@ Answer: A
 
 Answer: B
 
-10. Which command is used to arrange elements in random order.
+10. Which method is used to arrange elements in random order.
 
-    A. sort(Collection)
-    B. random(Collection)
-    C. shuffle(Collection)
-    D. reverse(Collection)
+    A. sort()
+    B. random()
+    C. shuffle()
+    D. reverse()
 
 Answer: C
