@@ -1,0 +1,48 @@
+#P2
+##EASY
+###TF
+
+1.Expression is madeup of variables,constants and operators.
+
+A.False
+B.True
+
+Answer:B
+Explanation:An expression is madeup of variable, constants and operators.Example:System.out.println(variable1==variable2);
+The above statement will return boolean value based whether they are equal or not.
+
+#P2
+##EASY
+###BC
+
+2.How will you seperate the statements?
+
+A.','
+B.'.'
+C.';'
+D.None of the above.
+
+Answer:C
+Explanation:Statements are like sentences in a language.We can use semicolon to seperate the statements(;).There are for four types of statements.Assignment statement : To Assign the values to varaible,Increment or decreament statement : ++ or --, Method invocations statement - Calling the method, Object creation statement - Object created with reference.
+
+#P1
+##EASY
+###BC
+
+3.Predict the output of the following.
+
+public class Example {// opening class
+	public static void main(String[] args) {//opening method
+		{
+            System.out.println("Hello");
+        }
+	}// closing method
+}// closing class
+
+A.Hello.
+B.No output.
+C.Compilation error.
+D.None of the above.
+
+Answer:A
+Explanation:A block starts with braces open and end with braces close.All the open braces should be balanced by close braces
