@@ -1,0 +1,138 @@
+1. In _____ package does the Date Time API reside in Java 8?
+   A. java.time package
+   B. java.util package
+   C. java.date package
+   D. none of the above
+Answer: Option A.
+
+2. ______ and _______ are the classes used in Date and Time API in java 8.
+
+   A. Local DateTime API, Remote DateTime API  
+   B. Local DateTime API, Zoned DateTime API  
+   C. Remote DateTime API, Zoned DateTime API  
+   D. None of the above
+ 
+Answer: B  
+
+Explanation : Local DateTime API- Simplified form of date - time API without any complexities.
+              Zoned DateTime API - Special form of date - time API  with varaiations.
+
+3. _____ can be used when there is no need for time zones.
+
+   A. Local DateTime API 
+   B. Zoned DateTime API 
+   C. Remote DateTime API
+   D. All the above
+
+Answer: A 
+
+4. In which of the conditions Zoned DateTime API used?
+
+   A. when we no need to consider time zones
+   B. when we need to consider date zones
+   C. when we need to consider time zones
+   D. when we no need to consider date zones
+
+Answer: C 
+
+5. Which of the following is the pattern of DateTime using DateTimeFormatter class?
+
+   A. TimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");  
+   B. Date format = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");  
+   C. DateTimeFormatter format = DateTimeFormatter. date("dd-MM-yyyy HH:mm:ss");  
+   D. DateTimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");  
+
+Answer: D
+
+6. Which is not the drawback of existing date and time API before Java 8.
+
+<details><summary><b> Show Answer </b></summary>
+ 
+- It is thread safe 
+- It was poorly Designed with less number of features
+- Need to write a seperate code for handling time zone logic in older version. 
+- None of the above
+
+Answer: A
+
+7. _______ class handles date based amount of time .
+
+   A. Duration
+   B. Period
+   C. Seconds
+   D. Days
+
+Answer: B 
+
+8. Which class handles time based amount of time (measured in terms of time).
+
+   A. Duration
+   B. Period
+   C. Seconds
+   D. Days
+
+Answer: A 
+
+9. Which is the correct syntax for LocalTime class to find the current time in java 8?
+
+   A. LocalDate time = LocalTime.now();  
+   B. ZonedTime time = ZonedTime.now();  
+   C. ZonedTime time = ZonedTime.now();  
+   D. LocalTime time = LocalTime.now();  
+
+Answer: D
+
+10. ______ is an amount of time that a time-zone varies from Greenwich/UTC. 
+
+   A. local-zone offset 
+   B. datetime-zone offset  
+   C. time-zone offset 
+   D. date-zone offset
+
+Answer: C 
+
+11. Time-zone offset is measured in fixed number of ____ and ______.
+
+   A. hours and minutes 
+   B. minutes and seconds 
+   C. days and hours
+   D. None of the above
+
+Answer:A 
+
+12. Which is the correct syntax to print the current date and time in Java 8?
+
+A. LocalTime currentTime = LocalTime.now(); <br>
+   LocalDate currentDate = LocalDate.now(); <br>
+   LocalDateTime currentDateTime = LocalDateTime.now(); <br>
+B. LocalTime Time = LocalTime.now(); <br>
+   LocalDate currentDate = LocalDate.now(); <br>
+   LocalDateTime currentDateTime = LocalDateTime.now(); <br>
+C. LocalTime currentTime = LocalTime.now(); <br>
+   LocalDate Date = LocalDate.now(); <br>
+   LocalDateTime currentDateTime = LocalDateTime.now(); <br>
+D. LocalTime currentTime = LocalDateTime.now(); <br>
+   LocalDate currentDate = LocalDateTime.now(); <br>
+   LocalDateTime currentDateTime = LocalDateTime.now(); <br>
+
+Answer:A 
+
+13. Choose the output of the following code.
+import java.time.*;    
+public class LocalDateExample1 {    
+  public static void main(String[] args) {    
+    LocalDate date = LocalDate.now();   
+    System.out.println("Today date: "+date);    
+  }    
+}
+
+A. Current Date
+B. Current Time
+C. Current DateTime
+D. None of the above
+
+Answer:A 
+
+
+
+

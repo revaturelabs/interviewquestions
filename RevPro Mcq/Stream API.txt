@@ -1,0 +1,232 @@
+1. Which package should be imported to use Stream API in Java 8?
+
+    A. java.stream
+    B. java.util.*
+    C. java.util.stream
+    D. None the above
+
+Answer: C
+Explantion: java.util.stream includes all the classes and interfaces used for functional-type operations. 
+
+ 
+2: Do we need to import java.util.stream even after importing java.util.* in the code to use stream API?
+
+    A. True
+    B. False
+
+Answer: A 
+Explantion: java.util.* will import all the direct classes and interfaces but not sub-classes/sub-packages.Stream class resides in the sub package java.util.stream package so it will not be included in java.util.*.
+
+3: ________  is a collection of objects which can be processed to get the desired result.
+
+    A. Stream API
+    B. Stream 
+    C. String
+    D. String API
+
+Answer: A 
+
+4: How many operations are performed in stream API to get the result?
+
+    A. Three
+    B. Two 
+    C. Four
+    D. Five
+
+Answer: B
+Explanation: Two operations - Intermediate( will process the stream to get the result and terminal operations(it is the end of the stream to return the result). 
+
+   
+5:Which is not an intermediate operations in Stream API.
+
+    A. Filter - select elements based on the condition passed
+    B. Map - by applying the given function in the stream
+    C. Sorted - used to sort the stream
+    D. None of the above
+
+Answer: D
+  
+6: Which one is the terminal operations from the following in Stream API.
+
+    A. Filter - select elements based on the condition passed
+    B. Map - by applying the given function in the stream
+    C. Sorted - used to sort the stream
+    D. forEach- used to iterate through the elements of the stream
+
+Answer: D
+
+7: Will the values of elements in the stream change when you process it?
+
+    A. Yes
+    B. No
+
+Answer: B
+Explanation: Because stream API processes the elements as per pipelined operations without changing the values.
+
+
+8: Stream API will take the stream of elements as the source, performs a _____ of operations, and returns the  result.
+
+    A. arithmetic
+    B. Pipe
+    C. pipeline 
+    D. stream
+
+Answer: C 
+
+
+
+9: Which is not the way of creating a stream in java8?
+
+    A. By creating Stream.of() method 
+    B. Stream from a Collection using stream() & parallelStream() methods
+    C. Stream from an Array using Arrays.stream()
+    D. By an overflow Stream using Stream.overflow()
+
+Answer: D
+
+  
+10: When should we use filter operation in streams?
+
+    A. When we need to process and return a stream from another stream that satisfies a given condition.
+    B. When we need to process and return a single value that satisfies a given condition.
+    C. When we need to process and return a boolean valuethat satisfies a given condition.
+    D. When we need to process and return a multiple values that satisfies a given condition.
+
+
+11: _____ will work on the streams and transform the single input value into a single output.
+
+    A. map() 
+    B. flatMap() 
+    C. Stream API 
+    D. None of the above
+
+Answer: A
+
+  
+12: ______ can be used when we need to return the stream of elements in sorted order like sorting arrays.
+
+    A. map() 
+    B. flatMap() 
+    C. Sorted
+    D. Filter()
+
+Answer: C 
+
+
+13: ____ terminal operations in stream API is used to return the result of the stream in a finite numbers.
+
+    A. map() 
+    B. flatMap() 
+    C. count()
+    D. Filter()
+
+Answer: C 
+Explanation: For example, Which returns the number of employees working in a particular department.
+
+
+14: Which of the following is not a use of forEach() terminal operation?
+
+    A. When we need to iterate the elements in the stream.
+    B. This is the only operation that returns void.
+    C. It can directly call on collections or stream.
+    D. Which returns a boolean value as result.
+
+Answer: D 
+
+  
+15: _____ terminal operation is used to convert the source stream into collections by using intermediate operations. 
+
+    A. map() 
+    B. flatMap() 
+    C. count()
+    D. Collect()
+
+Answer: D 
+Explanation: Example - Result stream may be of the list, set, map, etc.
+
+
+ 16: Can we add or delete elements from streams?
+
+    A. Yes
+    B. No
+
+Answer: B
+
+Explanation: we cannot add/ delete elements in the stream, we can only perform the operations on the stream
+and streams does not store the data as well.
+
+ 
+ 17: ______ are lazy because they will be invoked if only required for the execution of terminal operations.
+
+    A. collections 
+    B. stream
+    C. source
+    D. Intermediate operations
+
+Answer: D 
+
+
+18: Predict the output for the below operation.
+ 
+Stream<String> s = Stream.of("java", "SQL", "python",  "JDBC");
+s.filter(x -> x.startsWith("S")).forEach(System.out::print);
+ 
+    A. returns SQL
+    B. returns Python
+    C. returns JDBC
+    D. Compile time error
+
+Answer: A 
+Explanation: Here we are using the filter to return the result of the element starting with "S".
+
+ 19: Predict the output of the following intermediate operation.
+
+Stream<String> s = Stream.of("apple", "orange", "apple", "banana", "banana");
+s.distinct().forEach(System.out::print);
+
+    A. returns bananaorangeapple
+    B. returns appleorangebanana
+    C. returns orangebananaapple
+    D. Compile time error
+
+Answer: B
+Explanation: distinct()- will return a stream from the source stream removing the duplicate elements.
+  
+
+ 20: Predict the output of the following code.
+import java.util.stream.*;  
+public class JavaStreamExample {  
+    public static void main(String[] args){  
+        Stream.iterate(1, element->element+1)  
+        .filter(element->element%2==0)  
+        .limit(4)  
+        .forEach(System.out::println);  
+    }  
+}
+    A. 2,4,6,8
+    B. 1,3,5,7
+    C. 2,4,6,8,10
+    D. Compile time error
+
+Answer: A 
+Explanation: iterate () is used to iterate through the elements in the stream, filter() used to apply the condition on the stream and forEach() is used to return the result from the stream after iteration.
+ 
+ 
+21. A pipeline of operations consists of a _________ ,zero or more intermediate operations(filter, sort, map), and a terminal operation.
+
+    A. source
+    B. stream
+    C. Initial
+    D. Arithmetic
+
+Answer: A 
+
+
+22. _____ will work on the streams and transform the single input value into multiple outputs by flattening it.
+
+    A. map() 
+    B. flatMap() 
+    C. Stream API 
+    D. None of the above
+
+Answer: B
