@@ -32,29 +32,34 @@ B. No
 Answer: A 
 Explanation: We can have any number of default and static methods but can contain only one abstract method. 
 
-
+#P1
+##EASY
+###BC
 4: How many default methods can we have in the functional interface?
 
-    A. only one 
-    B. two
-    C. many
-    D. four
+A. only one 
+B. two
+C. many
+D. four
 
 Answer: C 
-
 Explanation: A functional interface can have any number of default methods with only one abstract method.
 
-
+#P1
+##EASY
+###TF
 5: Is Functional Interface related to the Lambda Expression?
 
-    A. Yes
-    B. No
+A. Yes
+B. No
 
 Answer: A 
 Explanation:  The functional interface has been introduced in Java 8 to support the lambda expression, lambda expression is the instance of a functional interface.
 
-
-6: What should be in Line 7 to print "HelloWorld" using lambda expression and functional interface?
+#P1
+##MEDIUM
+###BC
+6: Which of the following should be in Line 7 to print "HelloWorld" using lambda expression and functional interface?
 
 @FunctionalInterface
 interface Greetings {
@@ -63,33 +68,34 @@ interface Greetings {
 
 public class test {
 	public static void main(String[] args) {
-		Line 7
-		g.greet(); // Output: HelloWorld
+		//Line 7
+		g.greet(); 
 
 	}
 } 
 
-    A. Greetings g = () -> System.out.println("HelloWorld"); 
-    B. Greet g = () -> System.out.println("HelloWorld");
-    C. Greetings g : System.out.println("HelloWorld");
-    D. Greet g : System.out.println("HelloWorld");
+A. Greetings g = () -> System.out.println("HelloWorld"); 
+B. Greet g = () -> System.out.println("HelloWorld");
+C. Greetings g : System.out.println("HelloWorld");
+D. Greet g : System.out.println("HelloWorld");
 
 Answer: A 
 
+#P1
+##MEDIUM
+###BC
+7: Which of the following is not a functional interface?.
 
-7: Which is not a java built-in examples for functional interfaces.
-
-
-    A. Runnable - Used in Multithreading , which has run() method    
-    B. Callable - Used to wrap a text and pass to a thread , which has call() method
-    C. Comparable - Used to compare between the objects in the class, which has compareTo() method
-    D. iterable -  Used to iterate by calling the Iterable iterator() method
+A. Runnable 
+B. Callable 
+C. Comparable 
+D. Iterable 
 
 Answer: D 
 
 8: The Anonymous classes should have _____ method so that it can be converted into lambda expression.
    
-    A. only one abstract
+A. only one abstract
     B. default 
     C. final
     D. static
