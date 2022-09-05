@@ -1,37 +1,46 @@
+#P1
+##EASY
+###BC
 1. In _____ package does the Date Time API reside in Java 8?
-   A. java.time package
-   B. java.util package
-   C. java.date package
-   D. none of the above
-Answer: Option A.
 
-2. ______ and _______ are the classes used in Date and Time API in java 8.
+A. java.time package
+B. java.util package
+C. java.date package
+D. none of the above
 
-   A. Local DateTime API, Remote DateTime API  
-   B. Local DateTime API, Zoned DateTime API  
-   C. Remote DateTime API, Zoned DateTime API  
-   D. None of the above
+Answer: A
+
+#P1
+##EASY
+###BC
+2. What are the classes used in Date and Time API in java 8?
+
+A. LocalDateTime, RemoteDateTime 
+B. LocalDateTime , ZonedDateTime 
+C. RemoteDateTime , ZonedDateTime  
+D. None of the above
  
 Answer: B  
+Explanation: LocalDateTime is the class in the date-time API when no complexity of timezone handling. ZonedDateTime is also class in the date-time API used to deal with various timezones.
 
-Explanation : Local DateTime API- Simplified form of date - time API without any complexities.
-              Zoned DateTime API - Special form of date - time API  with varaiations.
-
+#P1
+##EASY
+###BC
 3. _____ can be used when there is no need for time zones.
 
-   A. Local DateTime API 
-   B. Zoned DateTime API 
-   C. Remote DateTime API
-   D. All the above
+A. LocalDateTime  
+B. ZonedDateTime 
+C. RemoteDateTime
+D. All the above
 
 Answer: A 
 
 4. In which of the conditions Zoned DateTime API used?
 
-   A. when we no need to consider time zones
-   B. when we need to consider date zones
-   C. when we need to consider time zones
-   D. when we no need to consider date zones
+A. when we no need to consider time zones
+B. when we need to consider date zones
+C. when we need to consider time zones
+D. when we no need to consider date zones
 
 Answer: C 
 
