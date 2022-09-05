@@ -24,7 +24,7 @@ Explanation: Not necessarily because the compiler will consider it as a function
 #P1
 ##EASY
 ###TF
-3: Is it possible to have default and static methods in the functional interface?
+3. Is it possible to have default and static methods in the functional interface?
 
 A. Yes
 B. No
@@ -363,7 +363,7 @@ Explanation: Functional interface can be instantiated using lambda expression in
 #P1
 ##EASY
 ###BC	
-22: Predict the output of the below code snippet.
+22. Predict the output of the below code snippet.
 
 interface Single{  
     void say(String msg);   // abstract method  
