@@ -35,7 +35,7 @@ Explanation: We can have any number of default and static methods but can contai
 #P1
 ##EASY
 ###BC
-4: How many default methods can we have in the functional interface?
+4. How many default methods can we have in the functional interface?
 
 A. only one 
 B. two
@@ -48,7 +48,7 @@ Explanation: A functional interface can have any number of default methods with 
 #P1
 ##EASY
 ###TF
-5: Is Functional Interface related to the Lambda Expression?
+5. Is Functional Interface related to the Lambda Expression?
 
 A. Yes
 B. No
@@ -59,7 +59,7 @@ Explanation:  The functional interface has been introduced in Java 8 to support 
 #P1
 ##MEDIUM
 ###BC
-6: Which of the following should be in Line 7 to print "HelloWorld" using lambda expression and functional interface?
+6. Which of the following should be in Line 7 to print "HelloWorld" using lambda expression and functional interface?
 
 @FunctionalInterface
 interface Greetings {
@@ -84,7 +84,7 @@ Answer: A
 #P1
 ##MEDIUM
 ###BC
-7: Which of the following is not a functional interface?.
+7. Which of the following is not a functional interface?.
 
 A. Runnable 
 B. Callable 
@@ -96,7 +96,8 @@ Answer: D
 #P1
 ##MEDIUM
 ###BC
-8: The Anonymous classes should have _____ method so that it can be converted into lambda expression.
+
+8. The Anonymous classes should have _____ method so that it can be converted into lambda expression.
    
 A. only one abstract
 B. default 
@@ -108,7 +109,7 @@ Answer: A
 #P1
 ##EASY
 ###TF
-9: Does lambda expression execute on its own? 
+9. Does lambda expression execute on its own? 
 
 A. Yes
 B. No
@@ -119,7 +120,7 @@ Explanation : It is used to implement a method defined by a functional interface
 #P2
 ##MEDIUM
 ###BC
-10: _____ is a Functional Interface but not in java.util.function package
+10. _____ is a Functional Interface but not in java.util.function package
 
 A. Consumer 
 B. Predicate 
@@ -131,7 +132,7 @@ Answer: D
 #P1
 ##MEDIUM
 ###BC
-11: A functional interface can extend the interface only when there are _____ in it.
+11. A functional interface can extend the interface only when there are _____ in it.
 
 A. only one abstract
 B. no abstract methods
@@ -144,7 +145,7 @@ Explanation: If it has an abstract method then it will be an invalid functional 
 #P1
 ##MEDIUM
 ###BC
-12: _________ is also called functional interfaces, having only one abstract method and multiple default methods.
+12. _________ is also called functional interfaces, having only one abstract method and multiple default methods.
 
 A. Single Abstract Method.
 B. Lambda expression
@@ -156,7 +157,7 @@ Answer: A
 #P1
 ##EASY
 ###TF
-13: Does the functional interface allows static methods?
+13. Does the functional interface allows static methods?
 
 A. Yes
 B. No
@@ -167,7 +168,7 @@ Explanation:  JDK 8 allows static methods in the interface, before this only one
 #P1
 ##EASY
 ###TF
-14: Is Circle a Functional Interface?
+14. Is Circle a Functional Interface?
 public interface Circle {
     public abstract void draw();
 }
@@ -181,7 +182,7 @@ Explanation: This is a functional interface, since there is only one abstract me
 #P2
 ##EASY
 ###BC
-15: Select the syntax for the Consumer Functional Interface?
+15. Select the syntax for the Consumer Functional Interface?
 
 A. Consumer<Integer> consumer = (value) -> System.out.println(value);
 B. Consumer<Integer> consumer = () -> System.out.println(value);
@@ -195,7 +196,7 @@ Explanation:  which accepts only one argument and has no return value.
 #P2
 ##EASY
 ###BC
-16: Select the definition of the Predicate Functional Interface.
+16. Select the definition of the Predicate Functional Interface.
 
     A. public interface Predicate<> {
        boolean test(t);}
@@ -211,7 +212,7 @@ Explanation: A function that accepts an argument and returns a boolean value as 
 #P2
 ##EASY
 ###BC
-17: Select the definition of Supplier Functional Interface in Java8?
+17. Select the definition of Supplier Functional Interface in Java8?
 
     A. public interface Supplier<T>{
        T get(); }
@@ -231,7 +232,7 @@ Explanation: which does not take any input or argument and yet returns a single 
 #P1
 ##EASY
 ###TF	
-18: Is there any limit for static and default methods in the functional interface?
+18. Is there any limit for static and default methods in the functional interface?
 
 A. Yes
 B. No
@@ -261,7 +262,7 @@ Explanation: It will throw a compile time error that Arithmetic is not a functio
 #P1
 ##MEDIUM
 ###BC		
-20: Pick the correct option which converts below code snippet to the Lambda expression.
+20. Pick the correct option which converts below code snippet to the Lambda expression.
 
 import java.util.Scanner;  
 public class Addition {
@@ -317,7 +318,7 @@ Explanation: A lambda expression is a short block of code that takes in paramete
 #P1
 ##MEDIUM
 ###BC		
-21: Pick the correct option which converted the below Anonymous class to the lambda expression.
+21. Pick the correct option which converted the below Anonymous class to the lambda expression.
  
 public class AnonymousClassExample  {
  
