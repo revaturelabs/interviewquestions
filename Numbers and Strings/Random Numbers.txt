@@ -1,0 +1,24 @@
+#P1
+##EASY
+###TF
+
+1. Can we generate random numbers in Java?
+
+A.Yes.
+B.No.
+
+Answer:A
+Explanation:We can generate random numbers using Random class that presents in java.util package. Random class has the methods to generate random number in int, double, float, long etc. We can give range to random number or we can give the upper bound number. For e.g., int i = random.nextInt(100,10000);
+
+#P1
+##EASY
+###TF
+
+2.Does Math.random() and new Random().nextDouble() method gives the same result?
+
+A.Yes.
+B.No.
+
+Answer:A
+Explanation:Math.random() will give the random number in double datatype which uses nextDouble() from Random class. So, both the methods will give the same value.
+
