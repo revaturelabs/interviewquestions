@@ -1,0 +1,599 @@
+
+::MCQ::
+1.In which of the database object use to improve the performance of queries ?
+
+
+a. Table
+b. Synonym
+c. View
+d. Index
+
+Correct Answer: d. Index
+
+
+
+::MCQ::
+2.What is the range of number of letters in a table name?
+
+
+a. 1-30 characters 
+b. 1-20 characters 
+c. 1-10 characters 
+d. 1-40 characters 
+
+Correct Answer: a. 1-30 characters
+
+
+::MCQ::
+3.Which of the following special characters cannot be used in table name ?
+
+
+a. # 
+b. @ 
+c. $
+d.  _
+
+Correct Answer: b. @
+
+::MCQ::
+4.While creating a table which of the following option can be use with the `DEFAULT` option ?
+
+
+a. Strings
+b. SQL functions
+c. Expressions
+d. All of the above
+
+Correct Answer: d. All of the above
+
+::MCQ::
+5.What command is used to view a table's structure?
+
+
+a. UPDATE
+b. SHOW
+c. SPOOL
+d. DESCRIBE
+
+Correct Answer : d.DESCRIBE
+
+::MCQ::
+6.Which of the following statement refers to both table and index?
+
+
+a. A table and an index cannot be the same name in a schema.
+b. A table and an index can have the same name in a schema.
+c. Neither A nor B
+d. None of the above
+
+Correct Answer: b. A table and an index can have the same name in a schema.
+
+
+::MCQ::
+7.In which of the following query used to create a table with no rows?
+
+
+a. CREATE TABLE stu AS SELECT 0 from students;
+    
+b. CREATE TABLE stu AS SELECT * from students where 1=1;
+    
+c. CREATE TABLE stu AS SELECT * from students where 1=0;
+    
+d. CREATE TABLE stu AS SELECT 0 from students;
+    
+Correct Answer: c. CREATE TABLE stu AS SELECT * from students where 1=0;
+
+
+8.Which of the following query is used to add a column in a table which is already created?
+
+a. ALTER TABLE table_name add column (place varchar2(20));
+
+b. ALTER TABLE table_name add place varchar2(20);
+
+c. ALTER TABLE table_name add column (place);
+
+d. ALTER TABLE table_name add (place varchar2(20));
+
+
+Correct Answer: d. ALTER TABLE table_name add (place varchar2(20));
+
+Explanation:
+- `ALTER TABLE` command is used to add a new column to a table. New column should define by a column name and datatype. 
+
+
+9.What command is used to modify the datatype which already exists in a column?
+
+a. ALTER TABLE table_name MODIFY place varchar2(10);
+
+b. ALTER TABLE table_name MODIFY (place varchar2(10));
+
+c. ALTER TABLE table_name MODIFY column (place varchar2(10));
+
+d. ALTER TABLE table_name MODIFY (place varchar2(10));
+
+
+Correct Answer: d. ALTER TABLE table_name MODIFY (place varchar2(10));
+
+
+Explanation:
+- `ALTER TABLE` & `MODIFY` command used to modify the column in a table by changing the datatype.
+
+
+10.Which of the following is the valid query to delete the column from the table ?
+
+
+a. ALTER TABLE table_name DROP (place varchar2(20));
+
+b. ALTER TABLE table table_name DROP COLUMN (place);
+
+c. ALTER TABLE table table_name DROP COLUMN (place varchar2(20));
+
+d. ALTER TABLE table_name MODIFY (place varchar2(20));
+
+
+Correct Answer: b. ALTER TABLE table table_name DROP COLUMN (place);
+
+Explanation:
+- ALTER TABLE & DROP command is used to delete the column from the table.
+
+
+11.Let us consider the following schema below:
+
+STUDENTS(sub_code, dep_name, location_id, city);
+
+Which of the following code snippet will modify the STUDENTS table and add an address column with the data type VARCHAR2(100)?
+
+a. ALTER TABLE students ADD COLUMN (address varchar2(100));
+
+b. ALTER TABLE students ADD (address varchar2(100));
+
+c. MODIFY TABLE students ADD COLUMN (address varchar2(100));
+
+d. None of the above.
+
+
+Correct Answer: b. ALTER TABLE students ADD (address varchar2(100));
+
+Explanation:
+- `ALTER TABLE` & `ADD` command used to add the column address in the students table.
+
+
+12.Which of the following code snippet will delete a view named marks_maths?
+
+
+a. delete view marks_maths;
+
+b. delete marks_maths;
+
+c. drop view marks_maths;
+
+d. drop marks_maths;
+
+Correct Answer: c. drop view marks_maths;
+
+
+Explanation
+
+- `DROP` command is used to remove the column marks_maths in the  table.
+
+
+13.By constraining a SQL statement, we can restrict the _______ according to specific constraints.
+
+
+
+a.Row
+b.Database
+c.Column
+d.Table
+
+Correct Answer: b. Database
+
+
+14.How many types of SQL constraint ?
+
+a.5
+b.6
+c.2
+d.3
+
+
+Correct Answer:
+c. 2
+
+Explanation:
+- SQL constraints are of two types one is Table level and Column level Constraint.
+
+
+16. `NULL` refers to
+
+a.-1
+b.1
+c.Empty
+d.0
+
+Correct Answer:c. Empty
+
+Explanation:
+- `NULL` refers to empty only not even a zero.
+
+
+17.Which integrity is acheived by using a foreign key ?
+
+
+a.Domain Integrity
+b.User-defined Integrity
+c.Entity Integrity
+d.Referential Integrity
+
+Correct Answer: d. Referential Integrity
+
+Explanation:
+- Referential integrity means relationship between the tables. In each table must have a primary key in a database. In other words, the condition of a set of tables in which all references to another table from one table are valid.
+
+
+18.The UNIQUE constraint can be used to______the existing tables too.
+
+
+a. Modify
+b. Change
+c. Delete
+d. Drop
+
+Correct Answer: a. Modify
+
+19.Which of the following does not include a foreign key?
+
+a. SET NULL
+b. NO ACTION
+c. CASCADE
+d. None of the above
+
+Correct Answer: c. CASCADE
+
+
+20.Which SQL constraint must be used in order to add a value to a field that has not had one added explicitly?
+
+a.DEFAULT
+b.UNIQUE
+c.CHECK
+d.NOT NULL
+
+Correct Answer: DEFAULT
+
+Explanation:
+
+- DEFAULT is a used to set a default value for a column.
+
+
+21.A period of days, hours, minutes, and seconds should be maintained in a column.
+Which data type would be most helpful?
+a. TIMESTAMP
+b. INTERVAL DAY TO SECOND
+c. INTERVAL YEAR TO MONTH
+d. None of the above
+
+Correct Answer: b. INTERVAL YEAR TO SECOND
+
+
+22.You need compute the number of employees hired in June 2011 and June 2012.
+Which of the following data types will help?
+a. INTERVAL DAY TO SECOND
+b. TIMESTAMP
+c. INTERVAL YEAR TO MONTH
+d. DATE
+
+Correct Answer: c. INTERVAL YEAR TO MONTH
+
+
+23.What is the maximum number of variable-length binary strings which a RAW data type column can store?
+a. 10 GB
+b. 1 TB
+c. 4 GB
+d. 2 GB
+
+Correct Answer: d. 2 GB
+
+
+24.Where are constraints stored?
+
+a. In the SGA
+b. In data dictionary
+c. In a table
+d. None of the above
+
+Correct Answer: b. In data dictionary
+
+
+25.Rows of a relation refers to
+
+a.Entity
+b.Tuple
+c.Degree
+d.None of the above
+
+Correct Answer: b.Tuple
+
+
+26.Which of the following is used to identify the a tuple ?
+
+a. Attribute
+b. Schema
+c. Domain
+d. Super key
+
+Correct Answer: d.Super key
+
+
+27.How many operations are consider to be the basic SQL operations ?
+
+a. 3
+b. 4
+c. 2
+d. 1
+
+Correct Answer: b.4
+
+Explanation:
+ - The four basic SQL operations are CREATE, READ, UPDATE and DELETE (CRUD)
+
+28.Which of the following commands is used to delete a trigger in sql ?
+
+
+a. Delete
+b. Drop
+c. Alter
+d. None of the above.
+
+Correct Answer: b. Drop
+
+Explanation: 
+- DROP command is used to delete a trigger in sql.
+
+
+29.How can we access the database's current triggers?
+
+a.VIEW
+b.SHOW
+c.READ
+d.None of the above
+
+Correct Answer: b.SHOW
+
+Explanation:
+
+- SHOW command is used to display all the triggers that are currently present in the table.
+
+30.What among the following is referred to as the minimal foreign key?
+
+
+a. Candidate key
+b. Foreign key
+c. Primary key
+d. None of the above
+
+Correct Answer: a. Candidate key
+
+
+31.If a table already has the primary key, why do we need to create an index?
+
+a. improves the speed of data retrieval operations on a table.
+b. special lookup tables that will be used by the database search engine.
+c. synonyms of a column in a table.
+d. All of the above
+
+Correct Answer: a. improves the speed of data retrieval operations on a table.
+
+
+32.A constraint that can only be specified at the column level is.
+
+a. UNIQUE
+b. CHECK
+c. NOT NULL
+d. PRIMARY KEY
+
+Correct Answer: c.NOT NULL
+
+Explanation:
+
+- NOT NULL constraint prevent to insert the NULL values into the specified column. So that NOT NULL constraint
+specified at the column level only.
+
+
+33.Which of the following is valid SQL for an index ?
+
+a.	CHANGE INDEX ID;
+b.	CREATE INDEX ID;
+c.	ADD INDEX ID;
+d.	REMOVE INDEX ID;
+
+Correct Answer: b.	CREATE INDEX ID;
+
+
+34.What has to be enclosed in double quotes?
+
+a. Column Alias
+b. Dates
+c. Strings
+d. All of the above
+
+
+Correct Answer: a. Column Alias
+
+
+35. What are the different ways can a table to be present ?
+
+
+a. Design View
+b. Pivote TableView
+c. Datasheet View
+d. All Of Above
+
+Correct Answer:  d. All Of Above
+
+
+36. Which among the following one or more attributes taken collectively to unique identify a record ?
+
+
+a. Sub key
+b. Foreign key
+c. Super key
+d. Candidate key
+
+Correct Answer: c. Super key
+
+
+37. A top to bottom relationship in a database refer as 
+
+
+a. Network schema
+b. Hierarchical schema
+c. Relational Schema
+d. All of the above
+
+Correct Answer: b. Hierarchical schema
+
+
+38. Which of the following constraint is not a need for uniqueness?
+
+
+a. Primary key
+b. Foreign key
+c. Unique
+d. None of the above.
+
+
+Correct Answer: b. Foreign key
+
+
+39. Which of th following statements are correct one.
+
+
+a. CHECK constraints enforce domain integrity
+b. In a UNIQUE constraint, no two rows in the table can have the same value for the columns
+c. UNIQUE constraints enforce the uniqueness of the values in a set of columns
+d. All of the mentioned
+
+
+Correct Answer:  d. All of the mentioned
+
+
+40. How many types of Integrity constraints we have ?
+
+
+a. 3
+b. 2
+c. 1
+d. 4
+
+Correct Answer: d. 4
+
+
+41. What is not true about truncate?
+
+a. Truncate delete the record from the table
+b. Truncate fires trigger after deleting the record
+c. Truncate is used to delete a record
+d. It runs trigger after deletion
+
+Correct Answer: d. It runs trigger after deletion
+
+
+42. Which one is faster to delete a table?
+
+a. Truncate
+b. Delete
+c. Remove
+d. None of the above
+
+Correct Answer: a. Truncate
+
+
+43. What are the restrictions while using Truncate?
+
+a. Foreign Key only,
+b. No restrictions
+c. Foreign key, participation in indexed view
+d. None of the above
+
+Correct Answer: c. Foreign key, participation in indexed view
+
+
+44. Does truncate retain Identity?
+
+a. Never retains Identity
+b. Reset to the seed value
+c. No Change on Identity
+d. None of the above
+
+Correct Answer: b. Reset to the seed value  
+
+
+45. Truncate statement locks whole Table or a single Row at a time?
+
+a. Both
+b. Only Row
+c. Table
+d. None of the above
+
+Correct Answer: c. Table
+
+
+46. What is true about truncate with Foreign key?
+
+a. It will delete the rows from both the tables (child as well as parent)
+b. It will not delete even if CASCADE ON DELETE option is given with parent table
+c. It will delete even if CASCADE ON DELETE option is given with parent table
+d. All are true
+
+Correct Answer: b. It will not delete even if CASCADE ON DELETE option is given with parent table
+
+
+47. Out of the below constraints which one is applicable on Delete query?
+
+
+a. Row level constraints
+b. Page level constraints
+c. Table Level constraints
+d. None of the above.
+
+Correct Answer: a. Row level constraints
+
+
+47.The Command ______________ such tables are available only within the transaction executing the query, and are dropped when the transactions finishes.
+
+a.Create Table.
+b.Create View.
+c.Create temporary Table.
+d.Create Label view.
+
+Correct Answer  c. Create temporary Table
+
+Explanation:
+
+DDL Statement is used to alter structure of a table.
+
+
+49.How many Primary keys that a table have in SQL?
+
+a. Depends on DBA
+
+b. Only 1
+
+c. Only 2
+
+d. Depends on no of Columns
+
+Correct Answer : Only 1
+
+Explanation:
+
+ - The fields that uniquely identify the each entry in a database can be used as the primary key alone or in combination.
+
+It cannot be empty or null.
+
+Although a table may contain multiple columns, there can only be one primary key per table.
+
+
+
+
+

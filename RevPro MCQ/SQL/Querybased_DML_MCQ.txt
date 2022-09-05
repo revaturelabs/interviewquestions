@@ -1,0 +1,501 @@
+1.Predict the output for the following table.
+
+Let's take a Product table consisting of the following records and delete a single record from the given table below.
+
+Table_Name: Product 
+ 
+| Product_Id 	| Product_Name        	| Product_Price 	| Product_Quantity 	|
+|------------	|---------------------	|---------------	|------------------	|
+| P101       	| Chips               	| 20            	| 20               	|
+| P102       	| Chocolates          	| 60            	| 40               	|
+| P103       	| Maggi	               	| 12            	| 5                	|
+| P104       	| Biscuits            	| 80            	| 20               	|
+| P105       	| Namkeen             	| 40            	| 50               	|
+
+a. ```sql
+
+DELETE FROM Product WHERE Product_Id = P103 ; 
+
+```
+
+b. ```sql
+
+DROP TABLE Product;
+
+```
+
+c.```sql
+
+DELETE FROM Product WHERE  Product_Id = P103;  
+ROLLBACK;
+
+```
+
+d.```sql
+
+DELETE FROM  Product  USING Product  LEFT JOIN  Product_Id = P103 ON Product.col = Product_Id.col;
+
+```
+
+Correct Answer:
+ 
+ ```sql
+
+DELETE FROM Product WHERE Product_Id = P103 ; 
+
+```
+
+Explanation:
+For the above given table the output is,
+| Product_Id 	| Product_Name        	| Product_Price 	| Product_Quantity 	|
+|------------	|---------------------	|---------------	|------------------	|
+| P101       	| Chips               	| 20            	| 20               	|
+| P102       	| Chocolates          	| 60            	| 40               	|
+| P104       	| Biscuits            	| 80            	| 20               	|
+| P105       	| Namkeen             	| 40            	| 50               	|
+
+and the Syntax is, 
+
+ 
+ ```sql
+
+DELETE FROM Table_Name WHERE  condition ; 
+
+```
+
+2.Predict the output in the below table by using the employees table and increase the income of all employees by 5% in a table.
+
+Table Name: Employees
+           
+         |  Emp_Id   |   Emp_Name   |   Emp_Salary  |
+         |-----------|--------------|---------------|
+         |   2010    |    Ankitha   |     28000     |
+         |   2020    |    Kumar     |     23000     |
+         |   2030    |    Diya      |     31000     |
+         |   2040    |    Poornima  |     47000     |
+         |   2050    |    Abinaya   |     20000     |
+
+Increase Income of all employees by 5% in the above given table.
+
+a.```sql
+
+ALTER TABLE Employees
+ADD Emp_Salary = Emp_Salary+(Emp_Salary*5.0/100.0);
+
+```
+
+b.```sql
+
+ `UPDATE` Employees `SET` Emp_Salary = Emp_Salary+(Emp_Salary*5.0/100.0);
+
+```
+
+c. ```sql
+
+ALTER TABLE Employees
+ALTER COLUMN  Emp_Salary = Emp_Salary+(Emp_Salary*5.0/100.0);
+
+```
+d.None of the above
+
+Correct Answer:
+
+```sql
+
+ `UPDATE` Employees `SET` Emp_Salary = Emp_Salary+(Emp_Salary*5.0/100.0);
+
+```
+
+Explanation: 
+The output for the given above table is,
+
+| Emp_Id 	| Emp_Name 	| Emp_Salary 	|
+|--------	|----------	|------------	|
+| 2010   	| Ankitha  	| 29400      	|
+| 2020   	| Kumar    	| 24150      	|
+| 2030   	| Diya     	| 32550      	|
+| 2040   	| Poornima 	| 49350      	|
+| 2050   	| Abinaya  	| 21000      	|
+
+Here `UPDATE` command is used for updating the salary by 5% and it is also can be used for only 5% alone it can be used for updating even 10% also.
+and the syntax is,
+
+```sql
+UPDATE table_name  
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+
+```
+
+3.Predict the output for the following given table (Update single column)
+Update the column_Name and set the value to "Divya" in all the rows where Age is 20.
+
+a.```sql
+
+UPDATE Student WHERE Age = 20 SET NAME = "Divya" ;
+
+```
+
+b.```sql
+
+UPDATE Student SET NAME = "Divya" WHERE Age = 20;
+
+```
+
+
+c.Both A and B
+
+d.None of the above
+
+Correct Answer: Both A and B
+
+Explanation:
+
+The output for the above query is,
+
+| ROLL_NO 	| NAME   	| ADDRESS 	| PHONE       	| Age 	|
+|---------	|--------	|---------	|-------------	|-----	|
+| 1       	| Ram    	| Delhi   	| 987466321   	| 18  	|
+| 2       	| RAMESH 	| GURGAON 	| 7010234567  	| 18  	|
+| 3       	| Divya  	| Chennai 	| 6897543222  	| 20  	|
+| 4       	| SURESH 	| Delhi   	| 8756340034  	| 18  	|
+| 5       	| Divya  	| Rohit   	| 7786432668  	| 20  	|
+
+This is the correct syntax for updating the values in the given table.
+
+```sql
+
+  UPDATE table_name
+     SET column1 = value1, column2 = value2, ...
+     WHERE condition;
+
+```
+
+4.Predict the output of the following for the given below syntax for inserting a table.
+
+a.```sql
+
+`INSERT` INTO table_name(Column1,Column2,Column3,.......) VALUES (Value1, Value2,Value3,.....),
+
+                                                               (Value1, Value2,Value3,.....),
+
+                                                               (Value1, Value2,Value3,.....);
+
+``` 
+
+b.```sql
+
+`INSERT` INTO table_name VALUES (Value1, Value2,Value3,.....),
+                                (Value1, Value2,Value3,.....),
+                                (Value1, Value2,Value3,.....);
+
+``` 
+
+c.Both A and b
+
+d.None of the above
+
+Correct Answer: Both A and B
+
+Explanation:
+
+```sql
+
+create table Student(Stu_Id int, Stu_Name varchar(20), Age int, Grade Varchar(5), City varchar(20));
+
+```
+
+```sql
+
+INSERT INTO STUDENT(Stu_Id, Stu_Name,Age,Grade,City) VALUES(1,"Arthi",15,"B","Andhra"),
+                                                           (2,"Ganga",18,"D","Bangalore"),
+                                                           (3,"Madhumitha",17,"A","Delhi"),
+                                                           (4,"RIYA SREE",10,"C","Kerala"),
+                                                           (5,"PRIYA GANESH",20,"B","Chennai");
+
+```
+
+| Stu_Id 	| Stu_Name     	|  Age    	| Grade 	| City      	|
+|--------	|--------------	|---------	|-------	|-----------	|
+| 1      	| Arthi        	| 15      	| B     	| Andhra    	|
+| 2      	| Ganga        	| 18      	| D     	| Bangalore 	|
+| 3      	| Madhumitha   	| 17      	| A     	| Delhi     	|
+| 4      	| Riya Sree    	| 10      	| C     	| Kerala    	|
+| 5      	| Priya Ganesh 	| 20      	| B     	| Chennai   	|
+
+
+ 
+        Insert table is used for inserting the values in the given column name in the given table.
+you can insert how many of records you want by using the syntax.
+
+5.Predict the output of the following  for updating a single record in table?
+
+| EmpID 	| EmpName 	| EmpEmail       	| PhoneNumber 	| City      	|
+|-------	|---------	|----------------	|-------------	|-----------	|
+| 1     	| Mohan   	| mohan@xyz.com  	| 9966449966  	| Delhi     	|
+| 2     	| Sonia   	| sonia@abc.com  	| 9746964799  	| Mumbai    	|
+| 3     	| Sanjay  	| sanjay@pqr.com 	| 9654323456  	| Bengaluru 	|
+| 4     	| Avni    	| avni@xyz.com   	| 9876543678  	| Mumbai    	|
+| 5     	| Rahul   	| rahul@abc.com  	| 9542456786  	| Delhi     	|
+
+Update Single Record:
+a query to update the 3rd employee (Employee ID) with a new phone number and city.
+
+a.None of the below
+
+b.```sql
+
+ALTER TABLE Employees
+ADD EmpID = 2 ;
+
+```
+
+c.```sql
+
+UPDATE Employees  LEFT  JOIN Employees ON  EmpID = 2
+SET   PhoneNumber = "9646879876", City= "Kolkata"
+
+```
+
+d.```sql
+
+UPDATE Employees
+SET PhoneNumber = "9646879876", City= "Kolkata"
+WHERE EmpID = 2;
+
+```
+Correct Answer:
+```sql
+
+UPDATE Employees
+SET PhoneNumber = "9646879876", City= "Kolkata"
+WHERE EmpID = 2;
+
+```
+
+The Output for the above query Is:
+
+| EmpID 	| EmpName 	| EmpEmail       	| PhoneNumber 	| City      	|
+|-------	|---------	|----------------	|-------------	|-----------	|
+| 1     	| Mohan   	| mohan@xyz.com  	| 9966449966  	| Delhi     	|
+| 2     	| Sonia   	| sonia@abc.com  	| 9746964799  	| Kolakta    	|
+| 3     	| Sanjay  	| sanjay@pqr.com 	| 9654323456  	| Bengaluru 	|
+| 4     	| Avni    	| avni@xyz.com   	| 9876543678  	| Mumbai    	|
+| 5     	| Rahul   	| rahul@abc.com  	| 9542456786  	| Delhi     	|
+
+Step 1: Table is created and the values in the table is inserted.
+Step 2: To view the inserted values in the table use the `SELECT` Statement.
+Step 3: To Update the a single record use `UPDATE` Statement.
+Step 4: The Syntax for `UPDATE` Statement is 
+
+```sql
+                   
+  UPDATE table_name
+  SET column1 = value1, column2 = value2, ...
+  WHERE condition;
+
+```
+
+6.Predict the output of the following  for Updating the  data by omitting `WHERE` Clause?
+a query to update the employees emails to example@xyz.com.
+
+a.```sql
+
+update  student3_total,student3  SET mark= (math+social+science)
+WHERE 
+
+```
+b.
+
+c.```sql
+
+UPDATE Employees
+Set EmpEmail = 'example@xyz.com’;
+
+```
+d.None of the above
+
+Explanation:
+
+You will see the following table as output:
+
+| EmpID 	| EmpName 	| EmpEmail       	| PhoneNumber 	| City      	|
+|-------	|---------	|----------------	|-------------	|-----------	|
+| 1     	| Mohan   	| mohan@xyz.com  	| 9966449966  	| Delhi     	|
+| 2     	| Sonia   	| sonia@abc.com  	| 9746964799  	| Mumbai    	|
+| 3     	| Sanjay  	| sanjay@pqr.com 	| 9654323456  	| Bengaluru 	|
+| 4     	| Avni    	| avni@xyz.com   	| 9876543678  	| Mumbai    	|
+| 5     	| Rahul   	| rahul@abc.com  	| 9542456786  	| Delhi     	|
+
+When we omit the `WHERE` clause while using the `UPDATE` statement in SQL, then there is no limit set on the number of records that must be updated. So, all the records will be updated automatically.
+
+7.Write a syntax for Inserting a Specific column in a table.
+
+a.```sql
+
+INSERT INTO Student(ROLL_NO,NAME,Age) SELECT ROLL_NO, NAME, Age FROM  Lateral_Student;
+
+```
+
+b.```sql
+
+insert into Student(Roll_No, Name, Address, Ph_No, Age) values (1, Ram, Delhi, 6789043256, 18);
+
+```
+c.```sql
+
+insert into Student values(1, Ram, Delhi, 6789043256, 18);
+
+d.None of these
+
+Correct Answer: 
+
+```sql
+
+INSERT INTO Student(ROLL_NO,NAME,Age) SELECT ROLL_NO, NAME, Age FROM  Lateral_Student;
+
+```
+
+Explanation:
+
+| Roll_No 	| Name    	| Address   	| Ph_No      	| Age 	|
+|-----------|-----------|-----------------|-----------------|-----------|
+| 1       	| Ram     	| Delhi     	| 6789043256 	| 18  	|
+| 2       	| Ramesh  	| Chennai   	| 8765432165 	| 23  	|
+| 3       	| Suresh  	| Raipur    	| 9876543217 	| 20  	|
+| 4       	| Sneha   	| Pune      	| 9087453261 	| 17  	|
+| 5       	| Pooja   	| Kerala    	| 6754839201 	| 34  	|
+| 6       	| Revathi 	| Karnataka 	| 8976346229 	| 65  	|
+| 7       	| Krishna 	| Bangalore 	| 7854779326 	| 48  	|
+| 8       	| Divya   	| Hyderabad 	| 8734652705 	| 59  	|
+| 9       	| Keethi  	| Andhra    	| 9846883463 	| 63  	|
+
+
+This query will insert the data in the columns ROLL_NO, NAME and Age of the table Student in the 
+table Student and the remaining columns in the Student table will be filled by null which is the 
+default value of the remaining columns. 
+
+8.How will you Delete the multiple records from the following given table below: 
+
+| Roll_No 	| Name    	| Address   	| Ph_No      	| Age 	|
+|-----------|-----------|-----------------|-----------------|-----------|
+| 1       	| Ram     	| Delhi     	| 6789043256 	| 18  	|
+| 2       	| Ramesh  	| Chennai   	| 8765432165 	| 23  	|
+| 3       	| Suresh  	| Raipur    	| 9876543217 	| 20  	|
+| 4       	| Sneha   	| Pune      	| 9087453261 	| 17  	|
+| 5       	| Pooja   	| Kerala    	| 6754839201 	| 34  	|
+| 6       	| Revathi 	| Karnataka 	| 8976346229 	| 65  	|
+| 7       	| Krishna 	| Bangalore 	| 7854779326 	| 48  	|
+| 8       	| Divya   	| Hyderabad 	| 8734652705 	| 59  	|
+| 9       	| Keethi  	| Andhra    	| 9846883463 	| 63  	|
+
+Delete the rows from the table Student where Age is 20.
+
+a.```sql
+
+DELETE  * FROM Student ;
+
+```
+
+b.```sql
+
+DELETE FROM Student WHERE Age > 20;
+
+```
+
+c.```sql
+
+Delete Name , Age  from Student;
+
+```
+
+d.All are correct
+
+Correct Answer:
+
+```sql
+
+DELETE FROM Student WHERE Age > 20;
+
+```
+
+Explanation:
+
+The Output for the above given table is,
+
+| Roll_No 	| Name    	| Address   	| Ph_No      	| Age 	|
+|-----------|-----------|-----------------|-----------------|-----------|
+| 1       	| Ram     	| Delhi     	| 6789043256 	| 18  	|
+| 3       	| Suresh  	| Raipur    	| 9876543217 	| 20  	|
+| 4       	| Sneha   	| Pune      	| 9087453261 	| 17  	|
+
+The above query will delete where the age is above 20 from the given table and the syntax for Deleting the multiple records is,
+
+```sql
+
+`DELETE` FROM Table_Name `WHERE` Condition;
+
+```
+
+9.Which of the following is the correct syntax for inserting a record in the given table?
+| Emp_Id 	| Emp_Name 	| Emp_Salary 	|
+|--------	|----------	|------------	|
+| 201    	| Anusha   	| 25000      	|
+| 202    	| Vinoth   	| 45000      	|
+| 203    	| Divya    	| 30000      	|
+| 204    	| Priya    	| 29000      	|
+| 205    	| Abirami  	| 40000      	|
+
+```sql
+ 
+a.INSERT INTO TABLE_NAME ( column_Name1 , column_Name2 , column_Name3 , .... column_NameN )  VALUES (value_1, value_2, value_3, .... value_N );
+ 
+```
+
+```sql
+ 
+b.INSERT INTO TABLE_NAME  VALUES (value_1, value_2, value_3, .... value_N );    
+
+```
+c.Both A and B
+
+d.None of these
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+<summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+Both A and B
+
+</blockquote>
+
+<details>
+<summary><b> Explanation  </b></summary>
+
+<blockquote>
+
+Both A and B suites for the syntax for inserting a table 
+ 
+```sql
+ 
+insert into employee (Emp_Id, Emp_Name, Emp_Salary) values (201, "Anusha", 25000);
+ 
+```
+            (OR)
+ 
+```sql
+ 
+insert into employee values(201, "Anusha", 25000);
+
+```
+ 
+</blockquote>
+
+</details>
+</details>
+
+-----------
+  

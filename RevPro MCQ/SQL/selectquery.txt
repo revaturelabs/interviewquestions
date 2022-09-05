@@ -1,0 +1,653 @@
+1)Table A:
+Id   Name    Age
+----------------
+12   Arun    60
+15   Shreya  24
+99   Rohit   11
+
+Table B:
+Id   Name   Age
+----------------
+15   Shreya  24
+25   Hari    40
+98   Rohit   20
+99   Rohit   11
+
+Table C:
+Id   Phone  Area
+-----------------
+10   2200   02  
+99   2100   01
+
+Consider the above tables A, B and C. How many tuples does the result of the following SQL query contains?
+SELECT A.id 
+FROM   A 
+WHERE  A.age > ALL (SELECT B.age   FROM   B 
+                    WHERE  B. name = "arun")
+a.	4
+b.	3
+c.	0
+d.	1
+
+Answer: (b).
+
+3
+
+2)Consider a database table T containing two columns X and Y each of type integer. After the creation of the table, one record (X=1, Y=1) is inserted in the table. Let MX and My denote the respective maximum values of X and Y among all records in the table at any point in time. Using MX and MY, new records are inserted in the table 128 times with X and Y values being MX+1, 2*MY+1 respectively. It may be noted that each time after the insertion, values of MX and MY change. What will be the output of the following SQL query after the steps mentioned above are carried out?
+
+SELECT Y FROM T WHERE X=7;
+a.	127
+b.	255
+c.	129
+d.	257
+
+Answer: (a).
+127
+
+3)Database table by name Loan_Records is given below.
+
+Borrower    Bank_Manager   Loan_Amount
+ Ramesh      Sunderajan     10000.00
+ Suresh      Ramgopal       5000.00
+ Mahesh      Sunderajan     7000.00
+What is the output of the following SQL query?
+
+SELECT Count(*) 
+FROM  ( (SELECT Borrower, Bank_Manager 
+       FROM   Loan_Records) AS S 
+        NATURAL JOIN (SELECT Bank_Manager, 
+                             Loan_Amount 
+                      FROM   Loan_Records) AS T );
+a.	3
+b.	9
+c.	5
+d.	6
+
+Answer: (c).
+5
+
+4)A relational schema for a train reservation database is given below. Passenger (pid, pname, age) Reservation (pid, class, tid)
+
+Table: Passenger 
+pid   pname   age
+-----------------
+ 0    Sachin   65
+ 1    Rahul    66
+ 2    Sourav   67
+ 3    Anil     69
+
+Table : Reservation
+pid  class  tid
+---------------
+ 0    AC   8200
+ 1    AC   8201
+ 2    SC   8201
+ 5    AC   8203
+ 1    SC   8204
+ 3    AC   8202
+ 
+What pids are returned by the following SQL query for the above instance of the tables?
+ SELECT pid
+
+FROM Reservation ,
+
+WHERE class ‘AC’ AND
+
+    EXISTS (SELECT *
+
+       FROM Passenger
+
+       WHERE age > 65 AND
+
+       Passenger. pid = Reservation.pid)
+a.	1, 0
+b.	1, 2
+c.	1, 3
+d.	1, 5
+
+Answer: (c).
+1, 3
+
+5) Consider the following relational schema:
+
+Suppliers(sid:integer, sname:string, city:string, street:string)
+Parts(pid:integer, pname:string, color:string)
+Catalog(sid:integer, pid:integer, cost:real)
+
+Consider the following relational query on the above database:
+
+SELECT S.sname
+    FROM Suppliers S
+        WHERE S.sid NOT IN (SELECT C.sid
+                            FROM Catalog C
+                            WHERE C.pid NOT IN (SELECT P.pid  
+                                                FROM Parts P
+                                                WHERE P.color<> 'blue'))
+
+Assume that relations corresponding to the above schema are not empty. Which one of the following is the correct interpretation of the above query?
+a.	Find the names of all suppliers who have supplied a non-blue part.
+b.	Find the names of all suppliers who have not supplied a non-blue part.
+c.	Find the names of all suppliers who have supplied only blue parts.
+d.	Find the names of all suppliers who have not supplied only blue parts.
+
+Answer: (a).
+Find the names of all suppliers who have supplied a non-blue part.
+
+6) Consider the table employee(empId, name, department, salary) and the two queries Q1 ,Q2 below. Assuming that department 5 has more than one employee, and we want to find the employees who get higher salary than anyone in the department 5, which one of the statements is TRUE for any arbitrary employee table?
+
+Q1 : Select e.empId
+     From employee e
+     Where not exists
+        (Select * From employee s where s.department = “5” and 
+                                        s.salary >=e.salary)
+Q2 : Select e.empId
+     From employee e
+     Where e.salary > Any
+    (Select distinct salary From employee s Where s.department = “5”)
+    
+a.	Q1 is the correct query
+b.	Q2 is the correct query
+c.	Both Q1 and Q2 produce the same answer
+d.	Neither Q1 nor Q2 is the correct query
+
+Answer: (b).
+Q2 is the correct query
+
+7)Given the following statements:
+
+    S1: A foreign key declaration can always 
+        be replaced by an equivalent check
+        assertion in SQL.
+    S2: Given the table R(a,b,c) where a and
+        b together form the primary key, the 
+        following is a valid table definition.
+        CREATE TABLE S (
+            a INTEGER,
+            d INTEGER,
+            e INTEGER,
+            PRIMARY KEY (d),
+            FOREIGN KEY (a) references R) 
+Which one of the following statements is CORRECT?
+a.	S1 is TRUE and S2 is FALSE
+b.	Both S1 and S2 are TRUE
+c.	S1 is FALSE and S2 is TRUE
+d.	Both S1 and S2 are FALSE
+
+Answer: (d).
+Both S1 and S2 are FALSE
+
+8)Given the following schema:
+
+     employees(emp-id, first-name, last-name, hire-date, dept-id, salary)
+     departments(dept-id, dept-name, manager-id, location-id) 
+
+You want to display the last names and hire dates of all latest hires in their respective departments in the location ID 1700. You issue the following query:
+
+SQL> SELECT last-name, hire-date
+     FROM employees
+     WHERE (dept-id, hire-date) IN
+     (SELECT dept-id, MAX(hire-date)
+     FROM employees JOIN departments USING(dept-id)
+     WHERE location-id = 1700
+     GROUP BY dept-id); 
+
+What is the outcome?
+a.	It executes but does not give the correct result
+b.	It executes and gives the correct result
+c.	generates an error because of pairwise comparison
+d.	It generates an error because the GROUP BY clause cannot be used with table joins in a subquery
+
+Answer: (b).
+It executes and gives the correct result
+
+9)Given a data set data \= [-8, 1, 0, -2, -3, 7, 5, 4, -6, 6, -9, 10, -4, -10, 3]\n
+With a result set [1,2,3,4,5]\n
+Choose the select statement that best represents the query.
+{
+    ~Select * from data;
+    =Select * from data where x>0 and x<6;
+    ~Select * from data where x between 0 and 10;
+    ~None of these
+}
+
+10)Given a data set data \= [-8, 1, 0, -2, -3, 7, 5, 4, -6, 6, -9, 10, -4, -10, 3]\n
+With a result set [-10, -9, -8, -6, -3, -2]\n
+Choose the select statement that best represents the query.
+{
+    ~Select * from data;
+    ~Select * from data where x>-10 and x<0;
+    =Select * from data where x between 0 and -10 order by x;
+    ~None of these
+}
+
+11)Given the data set data \= ['Domino', 'Thomas', 'Crystal', 'John', 'Allison']
+With a statement select name from data where name like '%om%';
+Choose the best result set.
+{
+    =['Domino', 'Thomas']
+    ~['Thomas', 'John', 'Allison']
+    ~['Domino', 'Thomas', 'John', 'Allison']
+    ~None of these
+}
+
+12)Debug the SQL query?
+
+
+SELECT Id, name, YEAR(BillingDate) AS Year
+FROM Records
+WHERE Year >= 2010
+
+a.WHERE Year(BillingDate) >= 2010;
+b.WHERE (BillingDate)Year >= 2010;
+c.WHERE Year >= 2010
+d.None of the above.
+
+Show Answer
+
+    SELECT Id, name, YEAR(BillingDate) AS Year
+    FROM Records
+    WHERE Year(BillingDate) >= 2010;
+
+Explanation
+The expression BillingYear in the WHERE clause is invalid. Even though it is defined as an alias in the SELECT phrase,
+ which appears before the WHERE phrase, the logical processing order of the phrases of the statement is different from the written order.
+
+13)Write the sql query to get the employee details using last name ?
+
+|Table: Employees|
+|First_Name | Last_Name | Birth_Date | Gender | Joining_Date |
+|-----------|-----------|------------|--------|--------------|
+|Ajay       | Kumar     | Mar-15-1970| M      | Apr-05-2017  |
+| David     | Richard   | Feb-17-1985| M      | Mar-05-2017  |
+|Junaid     | M         | Sep-28-1987| M      | Mar-09-2016  |
+|Janvi      | Gowda     | Oct-22-1993| F      | Apr-09-2015  |
+|Shobika    | Kumar     | Aug-22-1996| F      | Apr-15-2014  |
+
+a.SELECT \* FROM Users WHERE Gender = 'F';
+
+b.SELECT \* WHERE Gender = 'M' FROM Employees;
+
+c.SELECT Gender= 'M' FROM Employees;
+
+d.SELECT Gender FROM Employees WHERE Last_Name = 'Kumar';
+
+Correct answer:
+
+d) SELECT Gender FROM Employees WHERE Last_Name = 'Kumar';
+
+Explanation:
+
+By using SELECT key in addition to WHERE clause to be used for Last_Name
+
+14). write a SQL query to find salespeople who receive commissions between 0.12 and 0.14 (begin and end values are included). Return salesman_id, name, city, and commission.
+
+|Sales|
+
+| salesman_id | name           | city       | commission |
+| ----------- | -------------- | ---------- | ---------- |
+| 5001        | James Goosling | Chennai    | 0.15       |
+| 5002        | Andrews        | Pallavaram | 0.13       |
+| 5005        | Pit Bull       | London     | 0.11       |
+| 5006        | Mc Donalds     | Porur      | 0.14       |
+| 5007        | Paul Walker    | Rome       | 0.13       |
+| 5003        | Lakshaya       | Saints Row | 0.12       |
+
+a.
+
+SELECT *
+FROM Sales
+WHERE commission = 0.12 AND 0.14;
+
+b.
+
+SELECT *
+FROM Sales;
+
+c.
+
+SELECT *
+FROM Sales
+WHERE commission LIKE 0.12 AND 0.14;
+
+= d.
+
+SELECT *
+FROM Sales
+WHERE commission BETWEEN 0.12 AND 0.14;
+
+
+
+15)Which is the correct syntax for UNION Operator?
+
+a.SELECT column_name(s) FROM TABLE table_name1
+UNION
+SELECT column_name(s) FROM TABLE table_name2
+
+= b.SELECT column_name(s) FROM table_name1
+UNION
+SELECT column_name(s) FROM table_name2
+
+c.SELECT column_name(s) FROM table_name1
+UNION table_name2
+
+d.SELECT column_name(s) FROM table_name1 UNION table_name2
+
+#### SELECT column_name(s) FROM table_name1 UNION SELECT column_name(s) FROM table_name2 correct syntax for applying UNION operator.
+
+16)15. Table Employee has 10 Records. It has a non - NULL SALARY column which is also UNIQUE. The SQL statement
+    `sql SELECT COUNT(*) FROM Employee WHERE SALARY > ANY (SELECT SALARY FROM EMPLOYEE); `Prints
+
+a.10
+
+= b.5
+
+c.9
+
+d.0
+
+#### Each non-NULL value in the SALARY column of the employee table's 10 records is distinct, i.e. different. As a result, out of those ten records, one must be a minimum and cannot exceed any of the nine values in the pay column. 
+So, nine times will the condition WHERE SALARY > ANY (SELECT SALARY FROM employee) be true. The COUNT(\*) returns 9.
+
+17)Predict the output for the given query.
+
+    | ID  | NAME      | AGE | ADDRESS        | SALARY |
+    | --- | --------- | --- | -------------- | ------ |
+    | 1   | Ramesh    | 43  | Chennai        | 25000  |
+    | 2   | Lokesh    | 25  | Delhi          | 15000  |
+    | 3   | Renuka    | 23  | Kota           | 20000  |
+    | 4   | Chaitanya | 25  | Mumbai         | 65000  |
+    | 5   | Harish    | 27  | Karnataka      | 85000  |
+    | 6   | Keerthana | 22  | Madhya Pradesh | 45000  |
+    | 7   | Manju     | 24  | Kerala         | 10000  |
+
+```SQL
+
+SELECT \* FROM CUSTOMERS
+ORDER BY NAME;
+
+```
+
+<details>
+<summary>Show Answer</summary>
+<blockquote>
+
+= a. The result in an ascending order by the NAME .
+b. No Output
+c. Displays Everything in The Table CUSTOMERS
+d. Displays Name from CUSTOMERS
+
+#### Whichever column you are using to sort that column should be in the column-list.
+
+</blockquote>
+</details>
+</details>
+
+18)Which is the correct sql query to get the employee details using Last_Name ?
+
+|Table: Employees|
+
+| First_Name | Last_Name | Birth_Date  | Gender | Joining_Date |
+| ---------- | --------- | ----------- | ------ | ------------ |
+| Ajay       | Kumar     | Mar-15-1970 | M      | Apr-05-2017  |
+| David      | Richard   | Feb-17-1985 | M      | Mar-05-2017  |
+| Junaid     | M         | Sep-28-1987 | M      | Mar-09-2016  |
+| Janvi      | Gowda     | Oct-22-1993 | F      | Apr-09-2015  |
+| Shobika    | Kumar     | Aug-22-1996 | F      | Apr-15-2014  |
+
+a.SELECT \* FROM Users WHERE Gender = 'F';
+
+b.SELECT \* WHERE Gender = 'M' FROM Employees;
+
+c.SELECT Gender= 'M' FROM Employees;
+
+= d.SELECT Gender FROM Employees WHERE Last_Name = 'Kumar';
+
+#### By using SELECT key in addition to WHERE clause to be used for Last_Name
+
+19)Predict the output for the given query.
+
+    | ID  | NAME      | AGE | ADDRESS        | SALARY |
+    | --- | --------- | --- | -------------- | ------ |
+    | 1   | Ramesh    | 43  | Chennai        | 25000  |
+    | 2   | Lokesh    | 25  | Delhi          | 15000  |
+    | 3   | Renuka    | 23  | Kota           | 20000  |
+    | 4   | Chaitanya | 25  | Mumbai         | 65000  |
+    | 5   | Harish    | 27  | Karnataka      | 85000  |
+    | 6   | Keerthana | 22  | Madhya Pradesh | 45000  |
+    | 7   | Manju     | 24  | Kerala         | 10000  |
+
+```SQL
+
+SELECT \* FROM CUSTOMERS
+ORDER BY NAME;
+
+```
+
+<details>
+<summary>Show Answer</summary>
+<blockquote>
+
+= a. The result in an ascending order by the NAME .
+b. No Output
+c. Displays Everything in The Table CUSTOMERS
+d. Displays Name from CUSTOMERS
+
+#### Whichever column you are using to sort that column should be in the column-list.
+
+</blockquote>
+</details>
+</details>
+
+---
+20)Table – Worker
+
+| WORKER_ID | FIRST_NAME | LAST_NAME | SALARY | JOINING_DATE        | DEPARTMENT |
+| --------- | ---------- | --------- | ------ | ------------------- | ---------- |
+| 001       | Monika     | Arora     | 100000 | 2014-02-20 09:00:00 | HR         |
+| 002       | Niharika   | Verma     | 80000  | 2014-06-11 09:00:00 | Admin      |
+| 003       | Vishal     | Singhal   | 300000 | 2014-02-20 09:00:00 | HR         |
+| 004       | Amitabh    | Singh     | 500000 | 2014-02-20 09:00:00 | Admin      |
+| 005       | Vivek      | Bhati     | 500000 | 2014-06-11 09:00:00 | Admin      |
+| 006       | Vipul      | Diwan     | 200000 | 2014-06-11 09:00:00 | Account    |
+| 007       | Satish     | Kumar     | 75000  | 2014-01-20 09:00:00 | Account    |
+| 008       | Gopika     | Chauhan   | 90000  | 2014-04-11 09:00:00 | Admin      |
+
+ What is the query to find the position of the alphabet (‘g’) in the first name column ‘Gopika’ from Worker table.
+
+= a. Select INSTR(FIRST_NAME, BINARY'g') from Worker where FIRST_NAME = 'Gopika';
+
+b. Select INSTR(FIRST_NAME,'g') from Worker where FIRST_NAME = 'Gopika';
+
+c. Select FIRST_NAME='g' from Worker ;
+
+d. Select FROM Worker WHERE FIRST_NAME LIKE"G%";
+
+21)Table – Worker
+
+| WORKER_ID | FIRST_NAME | LAST_NAME | SALARY | JOINING_DATE        | DEPARTMENT |
+| --------- | ---------- | --------- | ------ | ------------------- | ---------- |
+| 001       | Monika     | Arora     | 100000 | 2014-02-20 09:00:00 | HR         |
+| 002       | Niharika   | Verma     | 80000  | 2014-06-11 09:00:00 | Admin      |
+| 003       | Vishal     | Singhal   | 300000 | 2014-02-20 09:00:00 | HR         |
+| 004       | Amitabh    | Singh     | 500000 | 2014-02-20 09:00:00 | Admin      |
+| 005       | Vivek      | Bhati     | 500000 | 2014-06-11 09:00:00 | Admin      |
+| 006       | Vipul      | Diwan     | 200000 | 2014-06-11 09:00:00 | Account    |
+| 007       | Satish     | Kumar     | 75000  | 2014-01-20 09:00:00 | Account    |
+| 008       | Gopika     | Chauhan   | 90000  | 2014-04-11 09:00:00 | Admin      |
+
+ What is the way for fetching the unique values of DEPARTMENT from Worker table and printing its length.
+
+a. Select distinct length(DEPARTMENT);
+
+b. Select UNIQUE DEPARTMENT from Worker;
+
+=c. Select distinct length(DEPARTMENT) from Worker;
+
+d. Select DEPARTMENT from Worker;
+
+22)Table – Worker
+
+| WORKER_ID | FIRST_NAME | LAST_NAME | SALARY | JOINING_DATE        | DEPARTMENT |
+| --------- | ---------- | --------- | ------ | ------------------- | ---------- |
+| 001       | Monika     | Arora     | 100000 | 2014-02-20 09:00:00 | HR         |
+| 002       | Niharika   | Verma     | 80000  | 2014-06-11 09:00:00 | Admin      |
+| 003       | Vishal     | Singhal   | 300000 | 2014-02-20 09:00:00 | HR         |
+| 004       | Amitabh    | Singh     | 500000 | 2014-02-20 09:00:00 | Admin      |
+| 005       | Vivek      | Bhati     | 500000 | 2014-06-11 09:00:00 | Admin      |
+| 006       | Vipul      | Diwan     | 200000 | 2014-06-11 09:00:00 | Account    |
+| 007       | Satish     | Kumar     | 75000  | 2014-01-20 09:00:00 | Account    |
+| 008       | Gopika     | Chauhan   | 90000  | 2014-04-11 09:00:00 | Admin      |
+
+ Write an SQL query to print all Worker details from the Worker table order by FIRST_NAME in Ascending order and DEPARTMENT in Descending order.
+
+a. Select \* from Worker order by DEPARTMENT desc;
+
+b. Select \* from Worker order by FIRST_NAME asc,DEPARTMENT asc;
+
+c. Select \* from Worker;
+
+=d. Select \* from Worker order by FIRST_NAME asc,DEPARTMENT desc;
+
+23) Assume a table Records which holds the billing record for the past 2 decades, 
+Find the missing query to fetch the record from 2010.
+
+SELECT Id, name, YEAR(BillingDate) AS Year
+FROM Records \_\_\_\_\_\_\_\_;
+
+=a. WHERE Year(BillingDate) >= 2010;
+
+b. WHERE Year >= 2010;
+
+c. Year > 2010;
+
+d. No Querry required.
+
+#### The expression BillingYear in the WHERE clause is invalid. Even though it is defined as an alias in the SELECT phrase, which appears before the WHERE phrase, the logical processing order of the phrases of the statement is different from the written order.
+
+24)Given the following tables
+
+Table 1: worker
+
+| Id  | name             |
+| --- | ---------------- |
+| 1   | Guillermo Sparks |
+| 2   | Gene Roberts     |
+| 3   | Ally Jones       |
+| 4   | Bryant Summers   |
+| 5   | Candice Green    |
+
+Table 2: departments
+
+| id  | name      | manager_id |
+| --- | --------- | ---------- |
+| 1   | Financial | 3          |
+| 2   | Strategy  | 5          |
+| 3   | IT        | 1          |
+| 4   | Marketing | NULL       |
+
+What will be the result of the query below?
+
+SELECT name
+FROM worker
+WHERE id NOT IN (SELECT manager_id FROM departments)
+
+a.
+
+| name             |
+| ---------------- |
+| Guillermo Sparks |
+| Gene Roberts     |
+| Ally Jones       |
+| Bryant Summers   |
+| Candice Green    |
+
+=b.
+
+| name           |
+| -------------- |
+| Gene Roberts   |
+| Bryant Summers |
+
+c.
+
+| name      |
+| --------- |
+| Financial |
+| Strategy  |
+| IT        |
+| Marketing |
+
+d.
+
+| id  | name      | manager_id |
+| --- | --------- | ---------- |
+| 1   | Financial | 3          |
+| 2   | Strategy  | 5          |
+| 3   | IT        | 1          |
+| 4   | Marketing | NULL       |
+
+25)How to select UNIQUE records from a table using a SQL Query?
+
+Table: Employees
+
+| EMPLOYEE_ID | NAME     | SALARY |
+| ----------- | -------- | ------ |
+| 100         | Jennifer | 4400   |
+| 100         | Jennifer | 4400   |
+| 101         | Michael  | 13000  |
+| 101         | Michael  | 13000  |
+| 101         | Michael  | 13000  |
+| 102         | Pat      | 6000   |
+| 102         | Pat      | 6000   |
+| 103         | Den      | 11000  |
+
+a.
+
+SELECT EMPLOYEE_ID,
+NAME,
+SALARY
+FROM EMPLOYEE;
+
+b.
+
+SELECT EMPLOYEE_ID,
+NAME,
+SALARY
+FROM EMPLOYEE
+GROUP BY SALARY;
+
+= c.
+
+SELECT EMPLOYEE_ID,
+NAME,
+SALARY
+FROM EMPLOYEE
+GROUP BY EMPLOYEE_ID, NAME, SALARY;
+
+d.
+
+SELECT EMPLOYEE_ID,
+NAME,
+SALARY
+FROM EMPLOYEE
+GROUP BY EMPLOYEE_ID;
+
+26)Assume a table Student, now Write a Query in SQL to show the first 5 characters of the string.
+
+=a.
+
+SELECT SUBSTRING(First_Name, 1, 5) from Student;
+
+b.
+
+SELECT SUBSTRING(Column_Name, 1, N) from Student;
+
+c.
+
+SELECT First_Name like 'N%' from Table_Name;
+
+d.
+
+SELECT SUBSTRING(Column_Name, 1, N) from Table_Name;
+
+

@@ -1,0 +1,622 @@
+1. Database management system is a software used to create and manage database. True or False
+    True
+
+2. A Database Management System is a type of _________software.
+
+a. System Software
+b. Application Software
+c. General Software
+d. Both A and C
+
+Answer: a
+3. How many database Types are present in SQL?
+
+a. 1
+b. 2
+c. 3
+d. 8
+
+Answer: b
+
+4. How many types of Sub-Queries are there in SQL?
+
+a. 7
+b. 9
+c. 5
+d. 4
+
+Answer: c
+
+5. Which of the following is not true about field?
+
+a. Field is a column that maintains specific information about every Record in the  table.
+b. It can also refer as smaller entities.
+c. Field can have unique names.
+d. It is a vertical entity that contains a information associated with a specific field in a  table.
+Answer: d
+
+6.SQL is a standard language for ________.
+A.Creating Web Pages
+B.None of these
+C.Creating Front Ends
+D.Accessing databases
+
+Correct answer:D
+
+7.SQL to access and manipulate data in which of the following databases ?
+A.MySQL
+B.MS Access
+C.All of these
+D.Oracle
+
+Correct answer:c
+
+8.SQL stands for _________.
+A.None of these
+B.Structured Query Language
+C.Simple Query Language
+D.Standard Query Language
+
+Correct answer:b
+
+9)SELECT ____ FROM Employees; will return all the columns from the Employees table.
+
+a) @
+b) #
+c) *
+d) $
+
+Answer: c) *
+
+10.Which of the following function cannot be performed by SQL ?
+
+A.Setting permissions on tables
+B.Updating records
+C.Creating Complex UI
+D.Creating views in a database
+
+Correct answer:C
+
+11.SQL is a non-relational datatype?True or False
+
+Correct answer:False.
+
+12.JSON,XML datas are kept in key-value pairs for storage.?True or False
+
+Correct answer:True.
+
+13.Tables are used to arrange data in relational databases. Data are arranged in columns and rows in a table. 
+   Each row of the table is identified by a --------------?
+
+a.Distinct Key.
+b.Distinct value.
+c.values.
+d.keys.
+
+Correct answer:a
+
+14.SQL can also handle database administration duties including ?
+
+a.user management.
+b.database security. 
+c.backup.
+d.All the above.
+
+
+Correct answer:d.
+
+15.Which are not SQL Vendors?
+
+a.Microsoft SQL
+b.MYSql
+c.ORACLE Database 12c
+d.Postgre SQL
+e.None of the above.
+
+Correct answer:e.
+
+16.Datatypes present in SQL which can be used to represent both number and character  ?
+
+a.CHAR(n)
+b.VARCHAR(n)
+c.INT
+d.FLOAT
+
+Correct answer:b.
+
+17.Restrictions on the data values in SQL can be achieved by?
+
+A.Constraints
+b.Joins
+C.DDL
+D.Clauses
+
+Correct answer:A
+
+18.Semicolon at the end of each SQL query will terminate the SQL query?True Or False
+
+Correct answer:True
+
+19.SQL is NOT case insensitive.?True Or False
+
+Correct answer:True.
+
+20.The SELECT command, with its various clauses, allows users to query the data contained in the tables?True Or False
+
+Correct answer:True.
+
+21.The condition in a WHERE clause can refer to only one value?True Or False
+
+Correct answer:False.
+
+22.Semicolon is used to separate each SQL statement in database systems that allow more than one SQL statement.?True Or False
+
+Correct answer:True
+
+23. Which of the following is not a valid SQL type?
+
+a.FLOAT
+b.NUMERIC
+c.DECIMAL
+d.CHARACTER
+
+Correct answer:C
+
+Explanation:DECIMAL is not a valid SQL type because it is nothing but numeric only in SQL.
+
+24.How many Primary keys can we have in a table?
+
+a.Only 1
+b.Only 2
+c.Depends on no of Columns
+d.Depends on DBA
+
+Correct answer:a
+
+25.Which of the following is not Constraint in SQL?
+
+a.Primary Key
+b.Not Null
+c.Check
+d.Union
+
+
+Correct answer:d.
+
+Hint:UNION is an operator that combines two or more results from multiple SELECT queries into a single result set.
+
+26.A command that lets you change one or more field in a table is:
+
+a.INSERT
+b.MODIFY
+c.LOOK-UP
+d.All of the above
+
+Correct answer:B
+
+Explanation: The modify command is used to change one or more columns in the existing table. It is generally used with ALTER TABLE statement as follows.
+
+ALTER TABLE table_name MODIFY column_name column_type;
+
+27. Which of the following statement is TRUE?
+
+a.A DATABASE name can be renamed.
+b.A TABLE name can be renamed.
+c.Both A and B
+d.None of the above
+
+Answer: C) Both A and B
+
+Explanation:
+
+Both DATABASE and TABLE name can be renamed.
+
+28.Which statement is used to select the database in SQL?
+
+a.SELECT
+b.USE
+c.ALTER
+d.CREATE
+Answer: B) USE
+
+Explanation:
+
+USE statement is used to select the database in SQL.
+
+29 Which syntax is used to show all the databases?
+
+a.USE DATABASES;
+b.SELECT DATABASES;
+c.SHOW DATABASES;
+d.None of the above
+
+Answer: C) SHOW DATABASES;
+
+Explanation:
+
+SHOW DATABASES; syntax is used to show all the databases..
+
+30.In DBMS, table is known as _____ and row is known as _____.
+
+a.Relation, Tuple
+b.Tuple, Tuple
+c.Tuple, Relation
+d.Relation, Relation
+
+Answer: A) Relation, Tuple
+
+Explanation:
+
+In DBMS, table is known as Relation and row is known as Tuple.
+
+
+31.Select the statement which is TRUE?
+
+a.In a table, there could be any number of rows and any number of columns.
+b.In a table, there could be any number of rows and specified number of columns.
+c.In a table, there could be any number of columns and specified number of rows.
+d.In a table, there could be specified number of rows and specified number of columns.
+
+Answer: B) In a table, there could be any number of rows and specified number of columns
+
+Explanation:
+
+In a table, there could be any number of rows and specified number of columns
+
+32.Input and output parameters can be derived from table variables.
+
+a.True
+b.False
+
+Answer: B) False
+
+Explanation:
+
+Input and output parameters can’t be derived from table variables.
+
+33. What does SQL is used to perform operations on?
+
+a.Update Records
+b.Insert Records
+c.Both A and B
+d.None of the above
+
+Answer: C) Both A and B
+
+Explanation:
+
+SQL (Structured Query Language) is used to update, insert, delete, create, modify,
+
+34.What does SQL stand for?
+
+a.SQL stands for Sample Query Language
+b.SQL stands for Structured Query List
+c.SQL stands for Structured Query Language
+d.SQL stands for Sample Query List
+
+Answer: C) SQL stands for Structured Query Language
+
+Explanation:
+
+SQL is the short form of Structured Query Language.
+
+35.What does this SQL database language design to?
+
+a.Maintain the data in hierarchal database management systems.
+b.Maintain the data in relational database management systems.
+c.Maintain the data in network database management systems.
+d.Maintain the data in object-oriented database management systems.
+
+Answer: b.Maintain the data in relational database management systems
+
+Explanation:
+
+SQL database language is designed to maintain the data in relational database management systems.
+
+36. SQL became the standard of?
+
+a.ASCII
+b.ANSI
+c.ISO
+d.Both B and C
+
+Answer: D) Both B and C
+
+Explanation:
+
+SQL became the standard of ANSI and ISO in the year 1986 and 1987 respectively.
+
+
+37.Which statement is not true about SQL?
+
+a.Using SQL in relational databases is all about inserting, updating, and deleting data.
+b.Sample data can also be described with the aid of this tool.
+c.It helps develop relational database functions, events, and views.
+d.A SQL user can also set restrictions and permissions for a table column, a view, and a stored procedure.
+
+Answer: b. Sample data can also be described with the aid of this tool
+
+Explanation:
+
+Structured data can also be described with the aid of this tool.
+
+38.Which statement is not true?
+
+a.SQL is rational whereas No-SQL is non-rational.
+b.SQL follows BASE Model whereas No-SQL follows ACID Model.
+c.SQL database are vertically scalable whereas No-SQL database are horizontally scalable.
+d.No-SQL databases are preferable to store hierarchical data in comparison SQL databases.
+
+Answer: B) SQL follows BASE Model whereas No-SQL follows ACID Model
+
+Explanation:
+
+SQL follows ACID Model whereas No-SQL follows BASE Model.
+
+39)Which statement is true about the SQL?
+
+a.SQL databases are vertically scalable.
+b.SQL follows BASE Model.
+c.SQL database cannot handle complex queries.
+d.SQL database does not require object-relational mapping.
+
+Answer: a.SQL databases are vertically scalable
+
+Explanation:
+
+SQL is vertically scalable. SQL follows the ACID Model. SQL database can easily handle complex queries. SQL database does require object-relational mapping.
+
+
+40)SQL has the advantage of?
+
+a.SQL require a lot of programming.
+b.SQL provides High-Speed Query Processing.
+c.SQL follows the standard languages of ANSI and ISO.
+d.SQL is easily portable.
+
+Answer: A) SQL require a lot of programming
+
+Explanation:
+
+SQL does not required programming.
+
+41)SQL has the disadvantage of?
+
+a.SQL is cheap.
+b.SQL interface is simple.
+c.Both A and B.
+d.None of the above.
+
+Answer: D) None of the above
+
+Explanation:
+
+SQL has the disadvantage that it is costly and its interface is complex.
+
+42)Syntax of the Structured Query Language is ____?
+
+a.Case-sensitive
+b.Not case-sensitive
+
+Answer: b. Not case-sensitive
+
+Explanation:
+
+Syntax of the Structured Query Language is not case-sensitive.
+
+43)Foreign key is a field in a table that is _______ key in another table?
+
+a.Primary
+b.Unique
+c.Composite
+d.None of the above
+Answer: A) Primary
+
+Explanation:
+
+Foreign key is a field in a table that is Primary Key in another table.
+
+44)When two or more columns are combined to be used to uniquely identify each row in the table, it is known as -
+
+a.Primary Key
+b.Unique Key
+c.Composite Key
+d.Foreign Key
+Answer: C) Composite Key
+
+Explanation:
+
+When two or more columns are combined to be used to uniquely identify each row in the table, it is known as Composite Key
+
+
+45)For one table, there can be ____unique key constraint(s).
+
+a.1
+b.NULL
+c.Many
+d.None of the above
+Answer: C) Many
+
+Explanation:
+
+For one table, there can be many unique key constraints.
+
+46)All other columns other than the column which is termed as Primary Key, are known as –
+
+a.Unique Keys
+b.Alternate Keys
+c.Composite Keys
+d.None of the above
+
+Answer: B) Alternate Keys
+
+Explanation:
+
+All other columns other than the column which is termed as Primary Key, are known as Alternate Keys.
+
+
+47) In order to convert the expression from one to another data type, which SQL Function is used?
+
+a.CONVERT
+b.CHANGE
+c.CAST
+d.TRANSIT
+
+Answer: C) CAST
+
+Explanation:
+
+In order to convert the expression from one to another data type, SQL CAST Function is used.
+
+48)Select the correct type(s) of SQL Comments.
+
+a.Inline Comments
+b.Single Line Comments
+c.Multi-line Comments
+d.All of the above
+Answer: D) All of the above
+
+Explanation:
+
+Type of SQL Comments are Inline Comments, Single Line Comments and Multi-line Comments.
+
+49)Select the syntax of Single Line Comment.
+
+a..
+b.!
+c.--
+d.#
+Answer: C) --
+
+Explanation:
+
+"--" is the syntax of the Single Line Comment.
+
+50)Select the correct syntax for Multi-line Comments.
+
+a.//*Line1
+Line2*//
+b./*Line1
+Line2/*
+c.*/Line1
+Line2*/
+d./*Line1
+Line2*/
+
+Answer: D)
+
+/*Line1
+Line2*/
+Explanation:
+
+The multi-line comment starts with /* and ends with */
+
+51) A Sub query is an SQL expression that is placed ________ another SQL statement.
+
+a.Before
+b.After
+c.Inside
+d.Outside
+Answer: C) Inside
+
+Explanation:
+
+A Sub query is an SQL expression that is placed inside another SQL statement.
+
+52)With which of the following statement(s) can the SQL sub queries be used?
+
+a.SELECT
+b.UPDATE
+c.INSERT
+d.All of the above
+Answer: D) All of the above
+
+Explanation:
+
+SQL sub queries can be used with SELECT, UPDATE, INSERT and DELETE statements.
+
+53) Whenever a sub query appears in SQL, it is enclosed within ___________ and placed to the _____ of the SQL operators.
+
+a.Brackets, Left
+b.Brackets, Right
+c.Parenthesis, Left
+d.Parenthesis, Right
+Answer: D) Parenthesis, Right
+
+Explanation:
+
+Whenever a sub query appears in SQL, it is enclosed within parenthesis and placed to the right of the SQL operators.
+
+54)SQL has the disadvantage of?
+
+a.SQL is cheap.
+b.SQL interface is simple.
+c.Both A and B.
+d.None of the above.
+
+Show Answer
+d.None of the above
+
+Explanation: SQL has the disadvantage that it is costly and its interface is complex.
+
+55) SQL has the advantage of?
+
+a.SQL require a lot of programming.
+b.SQL provides High-Speed Query Processing.
+c.SQL follows the standard languages of ANSI and ISO.
+d.SQL is easily portable.
+
+Show Answer
+SQL require a lot of programming
+
+Explanation: SQL does not required programming.
+
+56)Which statement is true about the SQL?
+
+a.SQL databases are vertically scalable.
+b.SQL follows BASE Model.
+c.SQL database cannot handle complex queries.
+d.SQL database does not require object-relational mapping.
+
+Show Answer
+SQL databases are vertically scalable
+
+Explanation: SQL is vertically scalable. SQL follows the ACID Model. SQL database can easily handle complex queries. SQL database does require object-relational mapping.
+
+57)In the database table, data types describe the kind of ___ that it can contain.
+
+a.Table
+b.Data
+c.Number
+d.None of the above
+Answer:  Data
+
+Explanation:
+
+In the database table, data types describe the kind of Data that they can contain.
+
+58)SQL permits attribute names to be repeated in the same relation. (True or False)
+
+Answer : FALSE 
+
+59)A SQL query automatically eliminates duplicates (True / False) ?
+
+Answer : FALSE
+
+60)	
+A SQL query will not work if there are no indexes on the relations - Is it true ?
+
+Answer : False[Option : A]
+
+
+
+
+
+
+
+
+
+
+
+
+
