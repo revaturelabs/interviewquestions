@@ -35,32 +35,37 @@ D. All the above
 
 Answer: A 
 
-4. In which of the conditions Zoned DateTime API used?
+#P1
+##EASY
+###BC
+4. ZonedDateTime API is used ___ ?
 
-A. when we no need to consider time zones
-B. when we need to consider date zones
-C. when we need to consider time zones
-D. when we no need to consider date zones
+A. when we are not considering time zones
+B. when we are not considering date zones
+C. when we are considering time zones
+D. when we are considering date zones
 
 Answer: C 
 
-5. Which of the following is the pattern of DateTime using DateTimeFormatter class?
+#P1
+##EASY
+###BC
+5. Which of the following syntax helps to format the date and time in this "dd-MM-yyyy HH:mm:ss" format?
 
-   A. TimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");  
-   B. Date format = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");  
-   C. DateTimeFormatter format = DateTimeFormatter. date("dd-MM-yyyy HH:mm:ss");  
-   D. DateTimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");  
+A. TimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");  
+B. Date format = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");  
+C. DateTimeFormatter format = DateTimeFormatter. date("dd-MM-yyyy HH:mm:ss");  
+D. DateTimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");  
 
 Answer: D
 
-6. Which is not the drawback of existing date and time API before Java 8.
 
-<details><summary><b> Show Answer </b></summary>
+6. Which is not the drawback of existing date and time API before Java 8.
  
-- It is thread safe 
-- It was poorly Designed with less number of features
-- Need to write a seperate code for handling time zone logic in older version. 
-- None of the above
+A. It is thread safe 
+B. It was poorly designed with less number of features
+C. Need to write a seperate code for handling time zone logic in older version. 
+D. None of the above
 
 Answer: A
 
