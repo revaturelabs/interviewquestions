@@ -165,7 +165,7 @@ Explanation:It is an entry controlled loop ie., the condition checked first.It h
 ##EASY
 ###TF
 
-11.State True or False: for loop can't be replace by while loop.
+11.State True or False: for loop can't be replaced by while loop.
 
 A.False
 B.True
