@@ -1,4 +1,6 @@
-
+#P1
+##EASY
+###BC
 1. _______ forces the Java programmer to store specific type of objects to make it type-safe which makes the code stable by detecting the bugs at Compile time.
 
     A. Generics
@@ -8,13 +10,18 @@
 
 Answer: A
 
-
+#P1
+##EASY
+###TF
 2. We use Generic to make it type safe.
     A. True
     B. False
 
 Answer: A
 
+#P1
+##EASY
+###BC
 3. Which of the following are NOT common type parameters in Generics?
     A. Value
     B. Number
@@ -23,6 +30,9 @@ Answer: A
 
 Answer: D
 
+#P1
+##EASY
+###BC
 4. Which of the following is NOT an advantage of Generics?
     A. Type-Safety: Should have single type of objects in generics.
     B. Type casting is not required: No need to typecast the object.
@@ -31,12 +41,18 @@ Answer: D
 
 Answer: C
 
+#P2
+##EASY
+###TF
 5. An invocation of a generic type is generally known as a parameterized type.
     A. True
     B. False
 
 Answer: A
 
+#P1
+##EASY
+###BC
 6. The _______ is known as the wildcard in generic programming.
 
     A. Question mark(?)
@@ -46,12 +62,18 @@ Answer: A
 
 Answer: A
 
+#P2
+##EASY
+###BC
 8. Best suitable wildcard conditions are based on the type of parameters passed to a method as in variable and out variable.
     A. True
     B. False
 
 Answer: A
 
+#P1
+##EASY
+###TF
 9. Can java generics be applied to primitive types?
     A. True
     B. False
