@@ -1,7 +1,7 @@
 #P1
 ##EASY
 ###BC
-1. A method of functional Interface is 
+1. A method of functional Interface is ___
 
 A. Abstraction
 B. Lambda Expression
@@ -13,7 +13,7 @@ Answer: C
 #P1
 ##EASY
 ###TF
-2. We use a method reference instead of a lambda expressison
+2.State True or False: We use a method reference instead of a lambda expressison.
 
 A. True
 B. False
@@ -99,7 +99,7 @@ Answer: B
 #P2
 ##EASY
 ###TF
-10. Can we pass additional parameters in method reference.
+10. Can we pass additional parameters in method reference?
 
 A. Yes
 B. No
@@ -122,7 +122,7 @@ Explanation: Using the forEach method to display the elements one by one in the 
 #P1
 ##MEDIUM
 ###BC
-12. Which one will be the output of the following code.
+12. Which of the following is the output of the following code?
 import java.io.*;
 import java.util.*;
 public class MethodReference{
