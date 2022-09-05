@@ -1,6 +1,6 @@
 ## Type Casting
 
-1. What is Type casting?
+1.What is Type casting?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -15,7 +15,7 @@ The type casting process's execution can be performed by using two different typ
   
   ---
 
-2. What is the difference between Implicit type casting and explicit type casting ?
+2.What is the difference between Implicit type casting and explicit type casting ?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -27,7 +27,7 @@ The type casting process's execution can be performed by using two different typ
 
 ---
 
-3. What are all the advantages of typecasting?
+3.What are all the advantages of typecasting?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -41,7 +41,7 @@ The type casting process's execution can be performed by using two different typ
   
   ---
 
-4. Can we convert the complex into int datatype?
+4.Can we convert the complex into int datatype?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -54,7 +54,7 @@ The type casting process's execution can be performed by using two different typ
   
   ---
   
-5. What is the use of the `int()` function?
+5.What is the use of the `int()` function?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -66,7 +66,7 @@ The type casting process's execution can be performed by using two different typ
   
   ---
   
-6. After executing the following line of code, what would be the data type of data?
+6.After executing the following line of code, what would be the data type of data?
 
 > d = 7,
 
@@ -80,7 +80,7 @@ The type casting process's execution can be performed by using two different typ
 
 ---
 
-7. How will you convert float value 12.6 to integer value?
+7.How will you convert float value 12.6 to integer value?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -110,7 +110,7 @@ print(type(a1))
   
   ---
 
-8. How do you remove a reference to a variable?
+8.How do you remove a reference to a variable?
   
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -143,7 +143,7 @@ NameError: name 'a' is not defined
   
   ---
   
-9. How will you convert integer value (18) to float value?
+9.How will you convert integer value (18) to float value?
     
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -169,7 +169,7 @@ print(type(a1))
   
   ---
 
-10. What will be the output of the following code?
+10.What will be the output of the following code?
 
 ```python  
 type(range(5))
@@ -187,8 +187,10 @@ type(range(5))
   
   </details>
   </details>
+  
+  ---
 
-11. Predict the output of the following code?
+11.Predict the output of the following code?
 
 ```python  
 x = 80
@@ -202,7 +204,8 @@ print(x)
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
-  <blockquote>
+  
+<blockquote>
   
 **Output**:
   
@@ -212,15 +215,14 @@ print(x)
   
 <details><summary> <b>Explanation</b> </summary>
   
-> A variable declared outside of all functions has a GLOBAL SCOPE. Thus, it is accessible throughout the file. And variable declared inside a function is a local variable whose scope is limited to its function.
+A variable declared outside of all functions has a GLOBAL SCOPE. Thus, it is accessible throughout the file. And variable declared inside a function is a local variable whose scope is limited to its function.
   
-  </blockquote>
-    </details>
-  </details>
+</details>   
+</details>
   
   ---
 
-12. What will be the output of the following code?
+12.What will be the output of the following code?
   
   ```python
 def func1():
@@ -257,11 +259,12 @@ print(y)
 ```
   
   </details>
+  
   </details>
   
   ---
   
-13. What is the output of the following code?
+13.What is the output of the following code?
   
 ```python
 print(bool(0), bool(3.14159), bool(-3), bool(1.0+1j))
@@ -283,7 +286,7 @@ print(bool(0), bool(3.14159), bool(-3), bool(1.0+1j))
   
   ---
 
-14. What is the `del` keyword in python and explain with an example.
+14.What is the `del` keyword in python and explain with an example.
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -311,7 +314,7 @@ NameError: name 'a' is not defined
 
 ---
   
-15. Predict the output of the following code?
+15.Predict the output of the following code?
   
 ```python  
 x=56.9
@@ -321,6 +324,7 @@ print(type(x1))
 x2=7+1j
 print(type(x2))
 x3=int(x2)
+print(x3)
 ```
  
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
