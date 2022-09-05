@@ -93,19 +93,22 @@ D. Iterable
 
 Answer: D 
 
+#P1
+##MEDIUM
+###BC
 8: The Anonymous classes should have _____ method so that it can be converted into lambda expression.
    
 A. only one abstract
-    B. default 
-    C. final
-    D. static
+B. default 
+C. final
+D. static
 
 Answer: A 
 
 9: Does lambda expression execute on its own? 
 
-    A. Yes
-    B. No
+A. Yes
+B. No
 
 Answer: B 
 Explanation : It is used to implement a method defined by a functional interface.
