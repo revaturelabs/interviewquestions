@@ -1,19 +1,23 @@
-## Technical 
-1. ____ is a tool used in Java to build a project and to handle dependency and documentation.
-
+#P1
+##EASY
+###MA
+1. Select all the build tool?
 A. Maven
-B. POM
-C. JVM
-D. None of the above
+B. Gradle
+C. Apache Spark
+D. Apache Ant
 
-Answer: A 
+Answer: A,B,D
 
-2.List the uses of Maven.
+#P1
+##EASY
+###BC
+2. Select statements that are relevant to the Maven
 
-I. Maven is a building tool used for creating projects , build reports , integerating , deals with dependency and documentation.
-II. It has made the life of develeoper easier, by making the process of building projects simple.
-III. It increases the reusability.
-IV. Which is used for testing the project.
+I. For creating projects 
+II. Stores dependendency
+III. Increases the reusability.
+IV. For testing the project.
 
 A. I, II
 B. I, II, III
@@ -22,7 +26,10 @@ D. All of the above
 
 Answer: B
 
-3. Does maven need Java to be executed?
+#P1
+##EASY
+###TF
+3. Does we need Java to execute Maven?
 
 A. Yes
 B. No
@@ -30,7 +37,7 @@ B. No
 Answer: A
 Explanation: We need Java to execute maven. Java should be installed to set JAVA_HOME environment varaiable to point to a valid Java SDK(Like Java 8)
 
-
+#IGNORE
 4. Which is the most fundamental unit of maven system?
 
 A. Maven
@@ -41,7 +48,9 @@ D. None of the above
 Answer: B
 Explanation: Which is an XML file having the details of project  strccture and contents termed as pom.xml file.
 
-
+#P1
+##EASY
+###BC
 5. What does a build tool has to manage?
 
 I. Generate source code
@@ -57,6 +66,9 @@ D. All of the above
 
 Answer: D
 
+#P2
+##EASY
+###BC
 6. Which is the command used to create a simple projet using Maven?
 
 A. archetype:generate 
@@ -66,7 +78,9 @@ D. grouptype:generate
 
 Answer: A
 
-
+#P1
+##EASY
+###BC
 7. Which command is used to compile the maven project?
 
 A. mvn code compile 
@@ -77,7 +91,9 @@ D. mvn clean compile
 Answer: D 
 Explanation: The command isexecuted in project directory.(like: C:\Users\IT\SQUARECALCULATOR), which will create a target directory. 
 
-
+#P1
+##EASY
+###BC
 8. In which directory a jar file will be craeted in the project?
 
 A. project/target 
@@ -87,6 +103,9 @@ D. project/source
 
 Answer: A  
 
+#P1
+##EASY
+###BC
 9. Select the scenarios where the maven should be used in the project.
 
 I. If the project needs to have quick documentation, compiling and packaging of source coide into JAR/ZIP files.
@@ -100,6 +119,9 @@ D. None of the above
 
 Answer: C 
 
+#P1
+##EASY
+###BC
 10. In which repository does the dependencies will be loaded?
 
 A. Local repository
@@ -109,6 +131,7 @@ D. All the above
 
 Answer: A 
 
+#IGNORE
 11. ____ will contains the information about the project and to instruct the maven too build the project.
 
 A. Maven
@@ -118,6 +141,7 @@ D. None of the above
 
 Answer: B 
 
+#IGNORE
 12. ____ is used to set up all the requirements to run a java program independently. Which generates source code, compile and package the code into JAR file.
 
 A. Maven
@@ -127,13 +151,15 @@ D. None of the above
 
 Answer: C 
  
+#P1
+##EASY
+###BC
+13. Which contains information to project a configuration information to build the project.
 
-13. Which is an XML file, contains information to project a configuration information to build the project.
-
-A. Maven
-B. POM
-C. JVM
-D. None of the above
+A. maven.xml
+B. pom.xml
+C. mvn.xml
+D. pom.yaml
 
 Answer: B 
 
