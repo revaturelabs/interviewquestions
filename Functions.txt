@@ -1,8 +1,6 @@
 // Functions Questions
 
-#P1
-##EASY
-###BC
+
 1. What is the output of the following code?
 ```
 def my_func()
@@ -23,10 +21,6 @@ d) Runtime Error
 >>> Here, we get Syntax error because the correct syntax is def function_name(): 
 
 
-
-#P1
-##EASY
-###BC
 2. What is the output of the following code?
 ```
 def outer_function(a, b):
@@ -48,9 +42,6 @@ d) Syntax Error
 >>> Adding multiple return statements doesn’t perform any task. Once function execution is encountered with the return statement, it stops the execution by returning whatever is specified by the return statement.
 
 
-#P1
-##EASY
-###BC
 3. Predict the output of the following code.
 ```
 def func(x):
@@ -66,9 +57,6 @@ d) Error
 > Option b) 100
 
 
-#P1
-##EASY
-###BC
 4. What is the output of the following code?
 ```
 def salary(**kwargs):
@@ -94,9 +82,6 @@ keyword arguments: display(emp="Anto", salary=10000)
 This **kwargs collects all passed arguments into a new dictionary, where the argument names are the keys, and their values are the key’s values. So, to get the values, we need to iterate the kwargs dictionary.
 
 
-#P1
-##EASY
-###BC
 5. What is the output of the following code?
 ```
 def func():
@@ -115,9 +100,6 @@ d) Error
 > option b) is correct
 
 
-#P1
-##EASY
-###BC
 6. What is the output of following code snippet?
 ```
 def func(val1, val2=2, val3=7, val4=1):
@@ -132,9 +114,6 @@ d) Name Error
 > option a) 65536
 
 
-#P1
-##EASY
-###BC
 7. What is the output of following code snippet?
 ```
 l=[1, -2, -3, 4, 5]
@@ -153,9 +132,6 @@ d) [1, -2, -3]
 >>> The code shown above returns only those elements from the list, which are less than 2. The functional programming tool used to achieve this operation is filter. Hence the output of the code is:[1, -2, -3].
 
 
-#P1
-##EASY
-###BC
 8. Choose the correct function declaration of fun1() so that we can execute the following function call successfully.
 ```
 fun1(25, 75, 55)
@@ -171,9 +147,6 @@ d) def fun1(*data)
 >>> To accept multiple values or if the number of arguments is unknown, we can add the * before the parameter name to accept arbitrary arguments. i.e., To accept Variable Length of Positional Arguments. To create functions that take 'n' number of Positional arguments, we use *args(prefix a parameter name with an asterisk *).
 
 
-#P1
-##EASY
-###BC
 9. What is the output of following code snippet?
 ```
 l=[1, -2, -3, 4, 5]
@@ -192,9 +165,6 @@ d) [True, True, True, True, True]
 >>> This code shown returns a list which contains True if the corresponding element of the list is less than -1, and false if the corresponding element is greater than -1. Hence the output of the code shown above: [False, True, True, False, False].
 
 
-#P2
-##EASY
-###BC
 10. Which of the following statement holds true about call by value?
 
 a) A variable itself is passed.
@@ -205,9 +175,6 @@ d) all the above
 > option c)
 
 
-#P2
-##EASY
-###BC
 11. Which of the following statement holds true about call by reference?
 
 a) A variable itself is passed.
@@ -228,9 +195,6 @@ d) runs code within program
 > option c) 
 
 
-#P2
-##EASY
-###BC
 13. What all() function returns in python?
 
 a) returns true when all elements in iterable is true
@@ -241,9 +205,6 @@ d) runs code within program
 > option b) 
 
 
-#P2
-##EASY
-###TF
 14. bytes() is a Built-in function in python 
 
 a) True
@@ -252,4 +213,4 @@ c) False
 > option a) True
 
 
-
+15. 
