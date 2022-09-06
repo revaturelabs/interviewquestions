@@ -371,7 +371,7 @@ class Test:
     def __init__(self, a=0):
         self.a = a
         
-    def assign(self, A.:
+    def assign(self, a):
         return self.a
         
 obj1 = Test(11)
@@ -395,7 +395,7 @@ class Test:
     def __init__(self, a=0):
         self.a = a
         
-    def assign(self, A.:
+    def assign(self, a):
         return Test.a
         
 obj1 = Test(11)
@@ -421,7 +421,7 @@ class Test:
     def __init__(self, a=0):
         self.a = a
         
-    def assign(self, A.:
+    def assign(self, a):
         return Test.a
         
 obj1 = Test(11)
