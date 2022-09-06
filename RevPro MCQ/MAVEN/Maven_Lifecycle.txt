@@ -13,7 +13,7 @@ Answer: D
 #P1
 ##EASY
 ###BC
-2. Which will be the standard lifecycle followed in maven?
+2. Which is the standard lifecycle followed in maven?
 
 I. clean
 II. default(or build)
@@ -29,7 +29,7 @@ Answer: D
 #P1
 ##EASY
 ###BC
-3. How does the order of execution is decided in maven?
+3. How is the order of execution decided in maven?
 
 A. It depends on the order of which goals and phases invoked.
 B. It depends on the order of goals.
@@ -89,7 +89,7 @@ Answer: D
 #P1
 ##EASY
 ###BC
-8. Which command is used to deploy the packaged WAR/JAR files storing them as classes in the local repository.
+8. Which command is used to deploy the packaged WAR/JAR files storing them as classes in the local repository?
 
 A. mvn compile
 B. mvn clean
@@ -113,7 +113,7 @@ Answer: C
 #P1
 ##MEDIUM
 ###BC
-10. Which of the following will not come under the phases of clean lifecycle.
+10. Which of the following will not come under the phases of clean lifecycle?
 
 A. pre - clean
 B. clean
@@ -137,7 +137,7 @@ Answer: A
 #P1
 ##MEDIUM
 ###BC
-12. Which command is used to create a new project based on Archetype.
+12. Which command is used to create a new project based on Archetype?
 
 A. mvn archetype:generate 
 B. mvn archetype:execute
