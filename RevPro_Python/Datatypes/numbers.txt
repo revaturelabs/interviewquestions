@@ -1,7 +1,7 @@
 
 #P1
 ##EASY
-####BC
+###BC
 1.What is the output of the following code?
 
 a=50
@@ -18,7 +18,7 @@ Explanation: Because we didn't use the print() function to print the type of the
 
 #P1
 ##EASY
-####TF
+###TF
 2.What is the output of the following code?
 
 print( (1.1 + 2.2) == 3.3 )
@@ -32,7 +32,7 @@ Explanation:(1.1 + 2.2) it is not equal to 3.3, it is 3.3000000000000003.Use the
 
 #P1
 ##EASY
-####BC
+###BC
 3.Please select the correct expression to reassign a global variable "x" to 20 inside a function fun1().
 
 x = 50
@@ -54,7 +54,7 @@ Explanation: Option C is the correct answer,because other declarations are not t
 
 #P2
 ##EASY
-####TF
+###TF
 4.State True/False:"We can convert complex numbers to any other number type".
 
 A.True
@@ -66,7 +66,7 @@ Explanation:We can't convert complex numbers to any other number type as python 
 
 #P2
 ##EASY
-####BC
+###BC
 5.What is the output of the following program?
 
 print(type(0xFF))
@@ -85,7 +85,7 @@ Explanation:We can represent an integer in binary,octal and hexadecimal formats.
 
 #P1
 ##EASY
-####BC
+###BC
 6.Predict the output of the following code.
 
 a=0b101
@@ -103,7 +103,7 @@ Explanation: Integers can be binary, octal, and hexadecimal values.
 
 #P2
 ##EASY
-####BC
+###BC
 7.In Python 3, what is the output of type(range(5))? (What data type it will return).
 
 A.int
@@ -117,7 +117,7 @@ Explanation:In python 3, the range() function returns range object,not list.
 
 #P2
 ##EASY
-####BC
+###BC
 8.How will you convert float value 12.6 to integer value?
 
 A.Int()
@@ -131,7 +131,7 @@ Explanation:Float value can be converted to an integer value by calling int() fu
 
 #P1
 ##MEDIUM
-####BC
+###BC
 9.What is the output of the following code?
 
 a = 7
@@ -151,7 +151,7 @@ Answer: C
 
 #P1
 ##MEDIUM
-####BC
+###BC
 10.What is the output of Following code snippet?
 
 from numbers import Number
@@ -172,7 +172,7 @@ Answer:D
 
 #P2
 ##EASY
-####BC
+###BC
 11.What is the data type of print(type(0xFF))?
 
 A.number
@@ -185,7 +185,7 @@ Answer:D
 
 #P2
 ##EASY
-####TF
+###TF
 12.Is datatype is a classification or categorization of items?
 
 A.true
@@ -196,7 +196,7 @@ Answer:A
 
 #P1
 ##EASY
-####BC
+###BC
 13.What is the output of the expression?
 round(5.5676,2)?
 
@@ -211,7 +211,7 @@ Explanation:The function round() is used to round off the given decimal number t
 
 #P2
 ##EASY
-####BC
+###BC
 14.What is the output of the function shown below?
 hex(15)
 
@@ -226,7 +226,7 @@ Explanation:The function hex() is used to convert the given argument into its he
 
 #P1
 ##EASY
-####BC
+###BC
 15.How will you convert real numbers to complex numbers.
 
 A.Complex()
@@ -236,4 +236,3 @@ D.All of the above
 
 Answer:C
 Explanation:Numeric values can be converted into complex numbers with complex() function.
-
