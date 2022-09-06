@@ -93,7 +93,7 @@ Explantion:we can use del keyword to delete a key from dictionary.
 #P1
 ##EASY
 ###BC
-6.which one will you use to get the total of all the values of Dictionary?
+6.Which one will you use to get the total of all the values of Dictionary?
 
 A.add()
 B.get()
@@ -167,7 +167,7 @@ Explanation:The above code prints keys, because in the above code we used dict1.
 #P1
 ##EASY
 ###TF
-10.Is dictionaries are mutable?
+10.Are dictionaries mutable?
 
 A.True
 B.False
