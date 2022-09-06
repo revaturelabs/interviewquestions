@@ -338,7 +338,9 @@ D. Fourth normal form
 
 Answer: B
 
-
+#P1
+##EASY
+###BC
 20. If an attribute of a composite key is dependent on an attribute of the other composite key, a normalization called _______ is needed.
 
 A. DKNF
@@ -348,7 +350,9 @@ D. 3NF
 
 Answer: B
 
-
+#P2
+##EASY
+###BC
 21. Information about data in database is called ________.
 
 A. Data dictionary
