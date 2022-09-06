@@ -1,7 +1,7 @@
 #P1
 ##EASY
 ###BC
-1. Which is a fundamental unit of work in maven.
+1. Which is a fundamental unit of work in maven?
 
 A. POM
 B. Maven coordinates
@@ -47,7 +47,7 @@ D. description ID
 Answer: D 
 
 #IGNORE
-5. Which is the Maven's default POM. 
+5. Which is the Maven's default POM?
 
 A. Maven coordinates
 B. Pom.xml
@@ -98,7 +98,7 @@ Answer: A
 #P1
 ##EASY
 ###BC
-8. Where does pom.xml file resides?
+8. Where does pom.xml file reside?
 
 A. project's root-folder
 B. project's parent-folder
@@ -112,7 +112,7 @@ Answer: A
 ###TF
 9. We can run pom.xml file. To run the pom.xml file, on the pom.xml file right click and select Run as maven build.
 
-A. 
+A. Yes
 B. No
 
 Answer: A 
@@ -132,7 +132,7 @@ Answer: C
 #P1
 ##EASY
 ###BC
-11. Which resides in the base directory of the project as pom.xml file.
+11. Which resides in the base directory of the project as pom.xml file?
 
 A. POM
 B. Maven coordinates
@@ -144,7 +144,7 @@ Answer: A
 #P1
 ##EASY
 ###TF
-12. All POMs inherited from Super POM.
+12.State True or False: All POMs inherited from Super POM.
 
 A. True
 B. False
