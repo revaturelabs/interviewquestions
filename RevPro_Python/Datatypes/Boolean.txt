@@ -1,4 +1,4 @@
-Boolean
+##Python,DataTypes,Boolean
 
 #P1
 ##EASY
