@@ -1,4 +1,6 @@
-
+#P1
+##EASY
+###BC
 1. _______ is creating a class with related fields and methods and hiding the fields and methods from the rest of the world.
 
     A. Encapsulation
@@ -8,6 +10,9 @@
 
 Answer: A
 
+#P1
+##EASY
+###BC
 2. _______ is the process of hiding certain details and showing only essential information to the user.
 
     A. Inheritance
@@ -17,6 +22,9 @@ Answer: A
 
 Answer: D
 
+#P1
+##EASY
+###BC
 3. When do we use Interface?
 
     A. When classes are not related, they have the same methods but different implementations an interface is used.
@@ -26,6 +34,9 @@ Answer: D
 
 Answer: D
 
+#P1
+##EASY
+###BC
 4. Which of the following are NOT true?
 
     A. An interface can only extend another interface
@@ -35,6 +46,9 @@ Answer: D
 
 Answer: B
 
+#P1
+##EASY
+###BC
 5. What members are allowed in an abstract class?
 
     A. Abstract Method
@@ -44,6 +58,9 @@ Answer: B
 
 Answer: D
 
+#P1
+##EASY
+###BC
 6. Which of the following is true when an abstract class implements an Interface?
 
     A. Abstract class must override all the methods of an interface
@@ -53,13 +70,18 @@ Answer: D
 
 Answer: C
 
-7. Is it possible to create an object for an abstract class?
+#P1
+##EASY
+###TF
+7. It's possible to create an object for an abstract class?
     A. True
     B. False
 
 Answer: B
 
-
+#P1
+##EASY
+###BC
 8. A vending machine has different items and functions to take the cash and dispense the item, but all these occur internally and as an external user one can only access it using selection buttons. this is an example for?
 
     A. Polymorphism
@@ -69,6 +91,9 @@ Answer: B
 
 Answer: C
 
+#P1
+##EASY
+###BC
 9. What is the output of the following code?
 
 interface Car{
