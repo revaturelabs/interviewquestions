@@ -1,3 +1,7 @@
+#P1
+##EASY
+###BC
+
 1.What is Design Pattern?
 
 A.Design patterns is a solution design.
@@ -7,23 +11,35 @@ D.Design patterns are a toolkit of tried and tested solutions to common problems
 
 Answer: D
 
+#P1
+##EASY
+###BC
+
 2.Creational design pattern can be defined as?
 
-A.Creational design patterns provide solution to instantiate      an object in the best possible way for specific situations.
+A.Creational design patterns provide solution to instantiate an object in the best possible way for specific situations.
 B.Creational design patterns is used to create interfaces.
-C.Creational design patterns is used to create classes and      objects. 
+C.Creational design patterns is used to create classes and objects. 
 D.Creational design is used to instantiate an object
 
 Answer: A
 
+#P1
+##EASY
+###BC
+
 3.Structural design patterns can be defined as?
 
-A.Structural design patterns provide different ways to create    a class structure by using inheritance and composition to      create a large object from small objects.
-B.Structural design patterns is used to create an interface      object.
-C.Structural design patterns provide ways to create a class      structure by using polymorphism.
+A.Structural design patterns provide different ways to create a class structure by using inheritance and composition to create a large object from small objects.
+B.Structural design patterns is used to create an interface object.
+C.Structural design patterns provide ways to create a class structure by using polymorphism.
 D.Structural design patterns provide different ways to create a class structure by using aggregation and encapsulation to create a large object from small objects.
 
 Answer:A
+
+#P1
+##EASY
+###BC
 
 4.Behavioral design patterns can be defined as?
 
@@ -34,6 +50,9 @@ D.Behavioral design patterns provide solution for the better interaction between
 
 Answer:B
 
+#P1
+##EASY
+###BC
 
 5.Singleton pattern can be described as?
 A.Singleton pattern restricts the instantiation of a class and ensures that only one instance of the class exists in the Java virtual machine. 
@@ -42,6 +61,10 @@ C.Singleton pattern  ensures that only has no instance of the class.
 D.Singleton pattern is used to create class.
 
 Answer:A
+
+#P1
+##EASY
+###BC
 
 6.Factory pattern can be defined as?
 A.Factory pattern is used when we have a superclass with multiple sub-classes and based on output, we need to return one of the sub-class.
@@ -52,7 +75,12 @@ D.Factory pattern is used when we have a subclass with multiple super classes an
 Answer:B
 
 
+#P1
+##EASY
+###BC
+
 7.Adapter pattern is described as?
+
 A.Adapter pattern is one of the structural design patterns and it’s used so that two related classes can work together. 
 B.Adapter pattern is one of the structural design patterns and it’s used so that two related objects can work together. 
 C.Adapter pattern is one of the structural design patterns and it’s used so that two unrelated interfaces can work together. 
@@ -60,13 +88,24 @@ D.Adapter pattern is one of the structural design patterns and it’s used so th
 
 Answer:C
 
+
+#P1
+##EASY
+###BC
+
 8.Composite pattern is defined as?
+
 A.Composite pattern is one of the Structural design patterns and is used when we have to represent a no hierarchy.
 B.Composite pattern is one of the Structural design patterns and is used when we don't want to represent a part-whole hierarchy.
 C.Composite pattern is one of the Structural design patterns and is used when we have to represent a part-whole hierarchy.
 D.Composite pattern is one of the Structural design patterns and is used when we have to create objects.
 
 Answer:C
+
+
+#P1
+##EASY
+###BC
 
 9.What is Prototype Pattern?
 
@@ -77,6 +116,11 @@ D.Prototype Pattern reduces the need of creating super classes.It hides complexi
 
 Answer:B
 
+
+#P1
+##EASY
+###BC
+
 10.What is Composite pattern?
 
 A.Component declares the interface for objects in composition.It implements default behavior for the interface common to only one class.
@@ -86,6 +130,9 @@ D.Component declares the interface for objects in composition.It implements defa
 
 Answer:B
 
+#P1
+##MEDIUM
+###BC
 
 11.How would you create a lazy  instantiation  in  Singleton design pattern? 
 
@@ -157,6 +204,10 @@ D.class Lazy{
 } 
 
 Answer:A
+
+#P1
+##MEDIUM
+###BC
 
 12.How would you create an adapter class for adapter factory design pattern? 
 A.public class Bank{  
@@ -230,6 +281,9 @@ D.public class Bank{
 
 Answer:D
 
+#P1
+##MEDIUM
+###BC
 
 13.How would you create an interface for Composite design pattern? 
 A.public interface Employee {  
@@ -261,6 +315,10 @@ D.public interface Employee {
 
 Answer:B
 
+#P1
+##MEDIUM
+###BC
+
 14.What are the steps to create a Factory Design Pattern? 
 
 A.Define a class.Define single parent classes. Define a Factory class that creates the child class and returns the parent class reference.
@@ -270,8 +328,12 @@ D.Define an abstract class or interface.Define multiple child classes. Creation 
 
 Answer:C
 
+#P1
+##MEDIUM
+###BC
 
 15.What are the benefits of State Pattern? 
+
 A.State Pattern keeps the state-specific behavior.It makes any state transitions explicit.When the behavior of object depends on its state and it must be able to change its behavior at runtime according to the new state.
 B.State Pattern keeps the state-specific behavior.It makes any state transitions explicit.
 C.State Pattern keeps the state-specific behavior.It makes any state transitions explicit.When the behavior of class depends on its state and it must be able to change its behavior at compiletime according to the new state.
