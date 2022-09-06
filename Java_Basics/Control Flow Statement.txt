@@ -206,7 +206,7 @@ Explanation:A break statement results in the termination of the statement to whi
 ##EASY
 ###BC
 
-14.return statement always
+14.return statement always____
 
 A.skip the loop.
 B.continue with the next statement.
@@ -220,7 +220,7 @@ Explanation: It exits the current method. There are two types of return statemen
 ##EASY
 ###BC
 
-15.Predict the output if value=10
+15.Predict the output if value=10.
 
 public static int findPrice(int value) {    
     while(value>5)
