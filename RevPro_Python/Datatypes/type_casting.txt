@@ -1,3 +1,4 @@
+##Python,DataTypes,TypeCasting
 
 #P1
 ##Easy
@@ -123,7 +124,7 @@ Explanation:You can delete a reference to an object using the del keyword.
 #P1
 ##Easy
 ###TF
-8.We can convert the complex into int datatype.
+8.State True or False: We can convert the complex into int datatype.
 
 A.True
 B.False
