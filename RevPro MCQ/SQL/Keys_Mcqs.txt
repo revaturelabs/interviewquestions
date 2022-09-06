@@ -1,6 +1,6 @@
 1.What distinguishes a PRIMARY KEY from a UNIQUE KEY?
 
-A.Primary key can store null value, whereas a unique key cannot store null value.
+A.Primary key can store null value, whereas a unique key cannot store null value
 B.We can have only one primary key in a table while we can have multiple unique keys
 C.Primary key cannot be a date variable whereas unique key can be
 D.None of these
@@ -9,10 +9,10 @@ ANSWER:B
 
 2.When does a WHERE clause with a wildcard come in handy?
 
-A.When an exact match is required in a SELECT statement.
-B.When an exact match is not possible in a SELECT statement.
-C.When an exact match is required in a CREATE statement.
-D.When an exact match is not possible in a CREATE statement.
+A.When an exact match is required in a SELECT statement
+B.When an exact match is not possible in a SELECT statement
+C.When an exact match is required in a CREATE statement
+D.When an exact match is not possible in a CREATE statement
 
 ANSWER:B
 
@@ -27,10 +27,10 @@ ANSWER:A
 
 4.What are the benefits of using a clustered index?
 
-A.It is fast to update the records.
-B.It does not need extra work for SQL queries.
-C.It minimizes the page transfer and maximizes the cache hits.
-D.None of the above is correct.
+A.It is fast to update the records
+B.It does not need extra work for SQL queries
+C.It minimizes the page transfer and maximizes the cache hits
+D.None of the above is correct
 
 ANSWER:C
 
@@ -126,10 +126,10 @@ ANSWER:B
 
 15.Which of the statements below is correct?
 
-A.TRUNCATE free the table space while DELETE does not.
-B.Both TRUNCATE and DELETE statements free the table's space.
-C.Both TRUNCATE and DELETE statement does not free the table's space.
-D.DELETE free the table space while TRUNCATE does not.
+A.TRUNCATE free the table space while DELETE does not
+B.Both TRUNCATE and DELETE statements free the table's space
+C.Both TRUNCATE and DELETE statement does not free the table's space
+D.DELETE free the table space while TRUNCATE does not
 
 ANSWER:A
 
@@ -162,10 +162,10 @@ ANSWER:B
 
 19.Which of the following statements regarding the HAVING clause is correct?
 
-A.Similar to the WHERE clause but is used for columns rather than groups.
-B.Similar to WHERE clause but is used for rows rather than columns.
-C.Similar to WHERE clause but is used for groups rather than rows.
-D.Acts exactly like a WHERE clause.
+A.Similar to the WHERE clause but is used for columns rather than groups
+B.Similar to WHERE clause but is used for rows rather than columns
+C.Similar to WHERE clause but is used for groups rather than rows
+D.Acts exactly like a WHERE clause
 
 ANSWER:C
 
@@ -180,9 +180,9 @@ ANSWER:A
 
 21.Which of the following statements regarding the SQL AS clause is correct?
 
-A.The AS clause in SQL is used to change the column name in the output or assign a name to a derived column.
-B.The SQL AS clause can only be used with the JOIN clause.
-C.The AS clause in SQL is used to defines a search condition.
+A.The AS clause in SQL is used to change the column name in the output or assign a name to a derived column
+B.The SQL AS clause can only be used with the JOIN clause
+C.The AS clause in SQL is used to defines a search condition
 D.All of the mentioned
 
 ANSWER:A
@@ -252,10 +252,10 @@ ANSWER:C
 
 29.The WHERE clause in SQL:
 
-A.limits the column data that are returned.
-B.limits the row data are returned.
-C.Both A and B are correct.
-D.Neither A nor B are correct.
+A.limits the column data that are returned
+B.limits the row data are returned
+C.Both A and B are correct
+D.Neither A nor B are correct
 
 ANSWER:B
 
@@ -270,10 +270,10 @@ ANSWER:D
 
 31.When is a wildcard in a WHERE clause useful?
 
-A.An exact match is necessary in a SELECT statement.
-B.An exact match is not possible in a SELECT statement.
-C.An exact match is necessary in a CREATE statement.
-D.An exact match is not possible in a CREATE statement.
+A.An exact match is necessary in a SELECT statement
+B.An exact match is not possible in a SELECT statement
+C.An exact match is necessary in a CREATE statement
+D.An exact match is not possible in a CREATE statement
 
 ANSWER:B
 
