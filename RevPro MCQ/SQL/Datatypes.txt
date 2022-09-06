@@ -29,7 +29,7 @@ Explanation: The maximum size (m) parameter of a VARCHAR column can be between 1
 #P1
 ##MEDIUM
 ###BC
-3.Which "text type" contains the most  maximum number of bytes in MySQL?
+3.Which "text type" contains the maximum number of bytes in MySQL?
 
 A. TEXT 
 B. TINYTEXT
@@ -42,7 +42,7 @@ Explanation: A string data type called `LONGTEXT` can contain up to '4,294,967,2
 #P1
 ##MEDIUM
 ###BC
-4.Among the following, which contains the most maximum bytes in MySQL?
+4.Among the following, which contains the maximum bytes in MySQL?
 
 A. VARCHAR
 B. CHAR
