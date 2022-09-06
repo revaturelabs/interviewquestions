@@ -1,4 +1,6 @@
-
+#P1
+##EASY
+###BC
 1. _____ identifies uniquely a project, a dependency or a plugin defined in POM.
 
 A. Maven Coordinates
@@ -8,17 +10,21 @@ D. None of the above
 
 Answer: A 
 
-
+#P1
+##EASY
+###BC
 2. Which of the follwoing is not the main coordinates used in maven?
 
-A. Group identifier- Is the way of grouping different maven artifacts.
-B. Artifact - Is the way of identifying the artifact.(Like JAR, WAR)
-C. Version - Particular release of the project, denotes different versions in same artifacts and same repository.
-D. Group Nmae - way of naming the different maven artifacts.
+A. Group identifier
+B. Artifact
+C. Version 
+D. Group Name
 
 Answer: D
 
-
+#P1
+##EASY
+###BC
 3. What does a valid POM file should have?
 
 A. group identifier, artifact and version
@@ -29,7 +35,9 @@ D. None of the above
 
 Answer: A
 
-
+#P1
+##EASY
+###BC
 4. _____ coordinate defines the project type (WAR,JAR) in POM.
 
 A. Packaging
@@ -39,7 +47,9 @@ D. artifacts
 
 Answer: A
 
-
+#P1
+##EASY
+###BC
 5. Files with ____ produces a web application.
 
 A. JAR
@@ -49,10 +59,10 @@ D. None of the above
 
 Answer: B
 
-
+#P1
+##EASY
+###BC
 6. Which is the correct way of defining the maven coordinates?
-
-<details><summary> <b> Show Answer </b></summary>
 
 A. groupId:artifactId:packaging:version 
 B. artifactId:packaging:version:groupId:
@@ -62,6 +72,9 @@ D. packaging:version:groupId:artifactId
 Answer: A
 Explanation: Through which will express the dependencies of a project in POM file.
 
+#P1
+##EASY
+###TF
 7. Can we inherit Group id and version from parent POM file?
 
 A. Yes
@@ -69,6 +82,9 @@ B. No
 
 Answer: A 
 
+#P1
+##EASY
+###BC
 8. Classifiers is used to distinguish between the _____ created for two versions.
 
 A. Packaging
@@ -78,7 +94,9 @@ D. artifacts
 
 Answer: D 
 
-
+#P1
+##EASY
+###BC
 9. A project with packaging set to ____ will give Java file.
 
 A. JAR
