@@ -85,7 +85,7 @@ Answer: B
 #P1
 ##MEDIUM
 ###BC
-8. Write a syntax to order the HashMap based on the value?
+8. Write a syntax to order the HashMap based on the value.
 
     A. hm.entrySet().stream().sorted(Map.Entry.comparingByValue()).forEach(System.out::println)
     B. hm.entrySet().stream().sorted(Map.Entry.comparingByKey()).forEach(System.out::println)
