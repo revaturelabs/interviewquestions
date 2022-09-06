@@ -1,5 +1,4 @@
-#P1
-##EASY
+
 ###IGNORE
 1. Which of the following is/are transaction control commands in SQL?
 
@@ -199,8 +198,7 @@ Answer: B
 
 Explanation: Update Command is used to alter the data in the table, Commit command is used to save the changes permanently.
 
-#P2
-##EASY
+
 ###IGNORE
 11.
 
@@ -276,8 +274,7 @@ Answer: B
 
 Explanation: To start the transaction, Mysql > START TRANSACTION; command is used.
 
-#P2
-##EASY
+
 ###IGNORE
 15. What type of join is needed when you wish to include rows that do not have matching values?
 
@@ -306,7 +303,7 @@ Explanation: Normalization is the process of organizing data in a database.
 
 #P2
 ##EASY
-###IGNORE
+###BC
 17. Which one is based on multi-valued dependency:
 
 A. First
@@ -364,9 +361,8 @@ D. Metadata
 
 Answer:D
 
-#P2
-##IGNORE
-###BC
+
+###IGNORE
 22. A data type that creates unique numbers for key columns in Microsoft Access is:
 
 A. Autonumber
@@ -378,7 +374,7 @@ Answer: A
 
 #P2
 ##EASY
-###IGNORE
+###BC
 23. A dependency exists between two columns when
 
 A. Together they constitute a composite key for the table
@@ -389,7 +385,7 @@ D. Together they constitute a foreign key
 Answer: A
 #P2
 ##EASY
-###IGNORE
+###BC
 24. In the ___________ normal form, a composite attribute is converted to individual attributes.
 
 A. First
@@ -398,6 +394,7 @@ C. Third
 D. Fourth
 
 Answer: A
+
 #P2
 ##EASY
 ###BC
@@ -412,7 +409,7 @@ Answer: A
 
 #P2
 ##EASY
-###IGNORE
+###BC
 26. Key to represent relationship between tables is called _______
 
 A. Primary key
@@ -603,8 +600,7 @@ D. Fourth step.
 
 Answer: C
 
-#P1
-##EASY
+
 ###IGNORE
 42. When assessing the table structure of an acquired set of tables with data, determining foreign keys is (part of) the:
 
@@ -675,8 +671,6 @@ D. One row has the value "He is interested in a Silver Porsche from the years 19
 
 Answer: C
 
-#P2
-##EASY
 ###IGNORE
 48. When assessing the table structure of an acquired set of tables with data, determining functional dependencies is (part of) the:
 
@@ -735,8 +729,6 @@ D.Never
 
 Answer: D
 
-#P2
-##EASY
 ###IGNORE
 53. The need to evaluate the veracity of posited referential integrity restrictions on foreign keys is ______________ of normalisation.
 
