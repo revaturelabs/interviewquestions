@@ -15,7 +15,7 @@ Answer: D
 ##EASY
 ###BC
 
-2.Creational design pattern can be defined as?
+2.Creational design pattern can be defined as___
 
 A.Creational design patterns provide solution to instantiate an object in the best possible way for specific situations.
 B.Creational design patterns is used to create interfaces.
@@ -28,7 +28,7 @@ Answer: A
 ##EASY
 ###BC
 
-3.Structural design patterns can be defined as?
+3.Structural design patterns can be defined as___
 
 A.Structural design patterns provide different ways to create a class structure by using inheritance and composition to create a large object from small objects.
 B.Structural design patterns is used to create an interface object.
@@ -41,7 +41,7 @@ Answer:A
 ##EASY
 ###BC
 
-4.Behavioral design patterns can be defined as?
+4.Behavioral design patterns can be defined as___
 
 A.Behavioral design patterns provide solution for the better interaction between interfaces.
 B.Behavioral design patterns provide solution for the better interaction between objects and how to provide loose coupling and flexibility to extend easily.
@@ -54,7 +54,8 @@ Answer:B
 ##EASY
 ###BC
 
-5.Singleton pattern can be described as?
+5.Singleton pattern can be described as__
+
 A.Singleton pattern restricts the instantiation of a class and ensures that only one instance of the class exists in the Java virtual machine. 
 B.Singleton pattern used to create two instance of the class.
 C.Singleton pattern  ensures that only has no instance of the class.
@@ -66,7 +67,8 @@ Answer:A
 ##EASY
 ###BC
 
-6.Factory pattern can be defined as?
+6.Factory pattern can be defined as___
+
 A.Factory pattern is used when we have a superclass with multiple sub-classes and based on output, we need to return one of the sub-class.
 B.Factory pattern is used when we have a superclass with multiple sub-classes and based on input, we need to return one of the sub-class.
 C.Factory pattern is used when we have a subclass with multiple superclasses and based on input, we need to return one of the sub-class.
@@ -79,7 +81,7 @@ Answer:B
 ##EASY
 ###BC
 
-7.Adapter pattern is described as?
+7.Adapter pattern is described as___
 
 A.Adapter pattern is one of the structural design patterns and it’s used so that two related classes can work together. 
 B.Adapter pattern is one of the structural design patterns and it’s used so that two related objects can work together. 
@@ -93,7 +95,7 @@ Answer:C
 ##EASY
 ###BC
 
-8.Composite pattern is defined as?
+8.Composite pattern is defined as___
 
 A.Composite pattern is one of the Structural design patterns and is used when we have to represent a no hierarchy.
 B.Composite pattern is one of the Structural design patterns and is used when we don't want to represent a part-whole hierarchy.
@@ -134,7 +136,7 @@ Answer:B
 ##MEDIUM
 ###BC
 
-11.How would you create a lazy  instantiation  in  Singleton design pattern? 
+11.How would you create a lazy instantiation in Singleton design pattern? 
 
 A.class Lazy{  
  private static Lazy obj;  
