@@ -144,7 +144,7 @@ A.True
 B.False
 
 Answer:A
-Explanation:In Python, we use + operator for combining two or more strings into a single string.
+Explanation:In Python, we can use + operator for combining two or more strings into a single string.
 
 
 #P1
@@ -176,7 +176,7 @@ C.exchange()
 D.None of the above
 
 Answer:D
-Explanation:In python, we use .replace() function to replace one character with another character.
+Explanation:In python, we can use replace() function to replace one character with another character.
 
 
 #P1
@@ -194,7 +194,7 @@ C.ycnatlusnoC
 D.ycnatlusnoc
 
 Answer:C
-Explanation:In python, to reverse a string, we can use built-in function reversed or else we can use negative index ([::-1]).
+Explanation:In python, to reverse a string, we can use built-in function reversed() or else we can use negative indexing ([::-1]).
 
 
 #P1
@@ -230,7 +230,7 @@ C.fw
 D.ftw
 
 Answer:C
-Explanation:In the above program, we use `slicing` operator and this is used to cut the strings based on the values.
+Explanation:In the above program, we are using `slicing` operator and this is used to cut the strings based on the values.
 
 
 #P1
