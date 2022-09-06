@@ -1,4 +1,4 @@
-Exception Handling
+##Python,DataTypes,ExceptionHandling
 
 #P2
 ##EASY
@@ -118,7 +118,7 @@ Answer:B
 #P1
 ##EASY
 ###BC
-7.What is the output of Following code snippet?
+7.What is the output of following code snippet?
 
 import math
 num=int(input("Enter a number "))
@@ -221,7 +221,7 @@ Explanation:Each type of exception can be specified directly. There is no need t
 #P1
 ##EASY
 ###BC
-13.Predict the output of the following code?
+13.Predict the output of the following code.
 
 try:
     if '20' != 1:
@@ -256,7 +256,7 @@ Answer:C
 #P1
 ##EASY
 ###BC
-15.Predict the output of the following code?
+15.Predict the output of the following code.
 
 def getValue(m):
     if m<1 or m>12:
@@ -331,7 +331,7 @@ Explanation:The above code result is showing the output is NameError.Because thi
 #P1
 ##MEDIUM
 ###BC
-19.Predict the output of the folowing code?
+19.Predict the output of the folowing code.
 
 valid = False
 while not valid:
