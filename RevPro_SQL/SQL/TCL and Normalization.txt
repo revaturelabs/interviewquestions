@@ -85,7 +85,7 @@ Explanation: Commit command is used to store a data in the table permanently, th
 #P1
 ##MEDIUM
 ###BC
-6. Larry and Weasly was assigned a project in SQL they both worked seperatly hence they had some duplicate data , both are confused in finding a way to get rid of the duplicate data,Luckily Larry used a savepoint command during data insertion.
+6. Larry and Weasly was assigned a project in SQL they both worked seperately hence they had some duplicate data , both are confused in finding a way to get rid of the duplicate data,Luckily Larry used a savepoint command during data insertion.
    Suggest them a solution.
 
 A. By using just Rollback command.
@@ -249,7 +249,7 @@ Explanation: Set Autocommit=1 is a command in MySQL that is used to enable autoc
 #P2
 ##EASY
 ###BC
-13. What is the use of SAVEPOINT command from Transition Control Language.
+13. What is the use of SAVEPOINT command from Transition Control Language?
 
 A. Used to Load a file.
 B. Used to update the file in the databsase.
@@ -290,7 +290,7 @@ Explanation: Outer joins are joins that return matched values and unmatched valu
 #P2
 ##EASY
 ###BC
-16. Which is the best way to reduce the data redundancy in a database.?
+16. Which is the best way to reduce the data redundancy in a database?
 
 A. De-Normalization
 B. Normalization
