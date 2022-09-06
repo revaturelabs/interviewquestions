@@ -272,10 +272,10 @@ Explanation: The above code will throw a TypeError because the default way of me
 
 class Test:
     
-    def multiply(self, a, B.:
+    def multiply(self, a, b):
         return a*b
     
-    def multiply(self, a, b, C.:
+    def multiply(self, a, b, c):
         return a*b*c
         
 obj1 = Test()
