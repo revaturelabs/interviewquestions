@@ -1,0 +1,237 @@
+#P1
+##EASY
+###BC
+1. A _______ is an ordered collection of elements.
+
+    A. HashMap
+    B. Vector
+    C. HashSet
+    D. List
+
+Answer: D
+
+#P1
+##EASY
+###BC
+2. Which of the following are NOT an operation performed by a list.
+
+    A. Positional access
+    B. Search
+    C. Iteration
+    D. Truncate
+
+Answer: D
+
+#P1
+##EASY
+###BC
+3. Which of the following classes do NOT implement List interface.
+
+    A. PriorityQueue
+    B. LinkedList
+    C. Vector
+    D. Stack
+
+Answer: A
+
+#P1
+##EASY
+###BC
+4. _______ is a dynamic array and implements the List interface.
+
+    A. Arraydeque
+    B. ArrayList
+    C. Vector
+    D. Stack
+
+Answer: B
+
+#P1
+##EASY
+###BC
+5. _______ is used to store the elements in a sequential manner and implements both List and Deque interface?
+
+    A. Arraydeque
+    B. Queue
+    C. LinkedList
+    D. ArrayList
+
+Answer: C
+
+#P1
+##EASY
+###BC
+6. ________ method is used to add single element at the end of the list.
+
+    A. add(element)
+    B. remove(element)
+    C. insert(element)
+    D. new(element)
+
+Answer: A
+
+#P1
+##EASY
+###BC
+7. _______ adds elements at the end of the list and _______ adds elements from a specific position.
+
+    A. addAll(collection), addAll(int index, collection)
+    B. addAll(int index, collection), addAll(collection)
+    C. addAll(collection), addAll(int index)
+    D. new(int index), new(collection)
+
+Answer: A
+
+#P1
+##EASY
+###BC
+8. _______ method is used to get a single element from the list.
+
+    A. show(int index)
+    B. display(int index)
+    C. get(int index)
+    D. remove(int index)
+
+Answer: C
+
+#P1
+##EASY
+###BC
+9. _______ is a legacy class so it has some methods which are not part of the collection framework.
+
+    A. Stack
+    B. Vector
+    C. Queue
+    D. PriorityQueue
+
+Answer: B
+
+#P1
+##EASY
+###BC
+10. _______ follows the Last in First out principle and extends Vector.
+
+    A. Stack
+    B. Vector
+    C. Queue
+    D. PriorityQueue
+
+Answer: A
+
+#P1
+##MEDIUM
+###BC
+11. Why is ArrayList preferred over a LinkedList?
+
+    A. ArrayList is user-friendly
+    B. ArrayList is easier to manipulate data
+    C. ArrayList elements can be accessed at a constant time
+    D. None of the above
+
+Answer: C
+
+
+#P1
+##MEDIUM
+###BC
+12. Which of the following is the non-synchronized version of the vector?
+
+    A. ArrayList
+    B. LinkedList
+    C. Stack
+    D. ArrayDeque
+
+Answer: A
+
+#P1
+##MEDIUM
+###BC
+13. What is the best case time complexity of add(element) method for ArrayList?
+
+    A. O(n)
+    B. O(1)
+    C. O(log n)
+    D. O(2n)
+
+Answer: B
+
+14. What is the complexity of add(index,element) method for ArrayList?
+
+    A. O(n)
+    B. O(1)
+    C. O(log n)
+    D. O(2n)
+
+Answer: A
+
+#P1
+##MEDIUM
+###BC
+15. What is the time complexity of get(index) method for ArrayList?
+
+    A. O(n)
+    B. O(1)
+    C. O(log n)
+    D. O(2n)
+
+Answer: B
+
+#P1
+##MEDIUM
+###BC
+16. What is the time complexity of remove() method for ArrayList?
+
+    A. O(n)
+    B. O(1)
+    C. O(log n)
+    D. O(2n
+
+Answer: A
+
+#P1
+##MEDIUM
+###BC
+17. What is the time complexity of indexOf(element) method for ArrayList?
+
+    A. O(log n)
+    B. O(1)
+    C. O(n)
+    D. O(2n)
+
+Answer: C
+
+#P1
+##MEDIUM
+###BC
+18. What is the time complexity of contains(element) method for ArrayList?
+
+    A. O(n)
+    B. O(1)
+    C. O(log n)
+    D. O(2n
+
+Answer: A
+
+#P1
+##MEDIUM
+###BC
+19. Dora is going for an adventure and she needs a backpack to carry all her items (more than one copy of the item may exist) and she might buy some items on the way and store it in her backpack. She wants to get items immediately from her backpack when she needs them. So, the backpack should be resizable and elements can be accessed in constant time. which of the following is the best option?
+
+    A. LinkedList
+    B. ArrayList
+    C. HashSet
+    D. None of the above
+
+Answer: B
+
+#P1
+##MEDIUM
+###BC
+20. Indiana Jones is going for a treasure hunt and he needs a backpack to store the valuable items throughout his journey. If he finds out that an item he stored in the backpack is fake, he takes it and throws it away, and he never takes any item out of his back till the journey ends. Which of the following is the best option?
+
+    A. LinkedList
+    B. ArrayList
+    C. HashSet
+    D. None of the above
+
+Answer: A
