@@ -14,9 +14,9 @@ Explanation:The table records can be retrieved using the SELECT commanD.
 ###BC
 2. SELECT INTO statement-
 
-A.Select the content from a table.
-B.Rename the content in a table.
-C.Copy the content from one table into another existing table.
+A.Select the content from a table
+B.Rename the content in a table
+C.Copy the content from one table into another existing table
 D.None of the above
 
 Answer: C.
@@ -30,7 +30,7 @@ A.WHERE
 B.ORDER BY
 C.HAVE
 D.HAVING
-Answer: C.
+Answer: C
 
 Explanation:WHERE, ORDER BY and HAVING are all OPTIONAL Clauses in SELECT statement.
 
@@ -52,7 +52,7 @@ A.SELECT TOP name
 B.SELECT TOP column
 C.SELECT TOP FROM
 D.SELECT TOP Number
-Answer: D.
+Answer: D
 
 Explanation:The correct syntax of SELECT TOP clause is SELECT TOP Number.
 
@@ -78,7 +78,7 @@ B.Database objects such as tables, table views, and other objects can be deleted
 C.One or more rows from one or more tables of the database can be accessed with this command. Using the WHERE clause with this command is also possible.
 D.It enables you to create new databases, tables, table views, and other objects using this Command.
 
-Answer: C.
+Answer: C
 
 Explanation:Using the SELECT command, one or more rows from one or more tables of the database can be accessed. Using the WHERE clause with this command is also possible.
 
@@ -92,7 +92,7 @@ B.The stored data in the SQL database is changed or modified by this SQL stateme
 C.By deleting the stored data, this SQL statement deletes the database.
 D.A new table in SQL is created using this SQL statement.
 
-Answer: A.
+Answer: A
 Explanation:Using SELECT Statement, Data is read from the SQL database and displayed to the database user.
 
 #P1
@@ -115,7 +115,7 @@ B.Database objects such as tables, table views, and other objects can be deleted
 C.One or more rows from one or more tables of the database can be accessed with this command. Using the WHERE clause with this command is also possible.
 D.It enables you to create new databases, tables, table views, and other objects using this command.
 
-Answer: C.
+Answer: C
 
 #P1
 ##EASY
@@ -126,7 +126,7 @@ B. SELECT * FROM Persons WHERE FirstName LIKE 'a%'
 C. SELECT * FROM Persons WHERE FirstName LIKE '%a'
 D. SELECT * FROM Persons WHERE FirstName='%a%'
 
-Answer: C.
+Answer: C
 Explanation: The SQL LIKE clause is used to compare a value to similar values using wildcard operators.
 
 #P1
@@ -138,7 +138,7 @@ b) SELECT city FROM weather WHERE humidity = 95
 c) SELECT humidity = 89 FROM weather
 d) SELECT city FROM weather
 
-Answer: B.
+Answer: B
 Explanation: The SQL WHERE clause is used to filter the results and apply conditions in a SELECT, INSERT, UPDATE, or DELETE statement.
 
 #IGNORE
@@ -237,7 +237,7 @@ B.	Show all columns and rows
 C.	Shows only columns person_id
 D.	None of the mentioned
 
-Answer: A.
+Answer: A
 
 
 #IGNORE
@@ -268,7 +268,7 @@ Answer: D
     C.Read
     D.None of these
   
-    Answer: B.
+    Answer: B
 
 
 #P1
@@ -325,10 +325,10 @@ Answer:D
 ###BC
 29.In a SELECT statement querying a single table, according to the SQL-92 standard the Asterisk(*) means that
 
-A.All records meeting the full criteria are to be returned.
-B.All columns of the table are to be returned.
-C.All records with even partial criteria met are to be returned.
-D.None of the above.
+A.All records meeting the full criteria are to be returned
+B.All columns of the table are to be returned
+C.All records with even partial criteria met are to be returned
+D.None of the above
 
 Answer:B
 
@@ -337,10 +337,10 @@ Answer:B
 ###BC
 30.Which of the SQL Statements is correct syntax for SELECT Command?
 
-A.SELECT Username, Password FROM Users.
-B.SELECT Username AND Password FROM Users.
-C.SELECT Username, Password WHERE Username = "User1".
-D.None of the above.
+A.SELECT Username, Password FROM Users
+B.SELECT Username AND Password FROM Users
+C.SELECT Username, Password WHERE Username = "User1"
+D.None of the above
 
 Answer:A
 
