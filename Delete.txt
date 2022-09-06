@@ -41,7 +41,7 @@ Explanation: Every line is stored in a list and it will be returned.
 #P1
 ##EASY
 ###BC
-3. What this below code is doing?
+3. What does the following code do?
 
 f=open('C:\file.txt')
 a=f.read()
@@ -104,7 +104,7 @@ Explanation: fp.tell() method is used to get the current position within the fil
 #P2
 ##EASY
 ###BC
-7.How will you delete a empty folder in python?
+7.How will you delete an empty folder in python?
 
 A.using remove
 B.using rmDir()
@@ -150,4 +150,4 @@ A.True
 B.False
 
 Answer:B
-Explanation:In python we have only the 3 modes to open a file to read and write.
+Explanation:In python, we have only 3 modes to open a file to read and write.
