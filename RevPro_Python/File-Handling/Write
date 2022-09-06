@@ -111,7 +111,7 @@ C.Writelines()
 D.writelines()
 
 Answer:D
-Explanation:In python, we have writelines() method to save the contents of a list object in a file.
+Explanation:In python, we have writelines() method to write mutltiple line at a time in a file.
 
 
 
@@ -125,7 +125,7 @@ B.using seek()
 C.using tell()
 D.Both b and c
 
-Answer:C
+Answer:B
 Explanation:seek() method is used to set the position of file pointer.
 
 
@@ -134,15 +134,12 @@ Explanation:seek() method is used to set the position of file pointer.
 ###BC
 10.How to write binary data to a file ?
 
-A.using b
+A.using wb
 B.using b+
 C.using ab+
 D.All of the above
 
 Answer:A
-Explanation:In python, default files are opened in text mode. 
-To open files in binary mode, after specifying a mode, add b to that.
-
 
 
 #P2
