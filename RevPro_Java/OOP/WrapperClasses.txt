@@ -2,8 +2,8 @@
 ##EASY
 ###TF
 1. Can java be considered an absolute Object Oriented language? 
-    A. True
-    B. False
+    A. Yes
+    B. No
 
 Answer: B
 Explantion:An absolute Object Oriented language doesn't supports primitive data types.
