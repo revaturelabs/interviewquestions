@@ -11,7 +11,7 @@ Answer: A
 #P1
 ##EASY
 ###BC
-2. Which is not the type of repositories used in maven.
+2. Which is not the type of repositories used in maven?
 
 A. Local repository - present in developer's machine.
 B. Remote repository - present in web server.
@@ -23,7 +23,7 @@ Answer: D
 #P1
 ##EASY
 ###BC
-3. In which repository does all the materials related to your project will be stored.
+3. In which repository does all the materials related to your project will be stored?
 
 A. Local repository - present in developer's machine.
 B. Remote repository - present in web server.
@@ -96,7 +96,7 @@ Answer: A
 #P1
 ##MEDIUM
 ###BC
-8. In which order does maven searches for the dependencies?
+8. In which order does maven search for the dependencies?
 
 A. local repository  ->  central repository -> remote repository
 B. central repository -> remote repository -> local repository 
@@ -108,7 +108,7 @@ Answer: A
 #P1
 ##EASY
 ###TF
-9. Does maven will throw an error if dependency is not found in all three repositories?
+9. Does maven throw an error if dependency is not found in all three repositories?
 
 A. Yes
 B. No
@@ -143,7 +143,7 @@ Answer: B
 #P1
 ##EASY
 ###BC
-12. In which folder does maven stores all the project jar files or dependencies by default.
+12. In which folder does maven store all the project jar files or dependencies by default.
 
 A. .m1 
 B. .m2
