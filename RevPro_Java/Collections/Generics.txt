@@ -13,7 +13,7 @@ Answer: A
 #P1
 ##EASY
 ###TF
-2. We use Generic to make it type safe.
+2.State True or False. We use Generic to make it type safe.
     A. True
     B. False
 
@@ -44,7 +44,7 @@ Answer: C
 #P2
 ##EASY
 ###TF
-5. An invocation of a generic type is generally known as a parameterized type.
+5. State True or False: An invocation of a generic type is generally known as a parameterized type.
     A. True
     B. False
 
@@ -65,7 +65,7 @@ Answer: A
 #P2
 ##EASY
 ###BC
-8. Best suitable wildcard conditions are based on the type of parameters passed to a method as in variable and out variable.
+8.State True or False: Best suitable wildcard conditions are based on the type of parameters passed to a method as in variable and out variable.
     A. True
     B. False
 
@@ -74,7 +74,7 @@ Answer: A
 #P1
 ##EASY
 ###TF
-9. Can java generics be applied to primitive types?
+9.State True or False: Can java generics be applied to primitive types?
     A. True
     B. False
 
