@@ -19,7 +19,7 @@ B.Application Software
 C.General Software
 D.Both A and C
 
-Answer: A.
+Answer: A
 
 #P1
 ##EASY
@@ -45,7 +45,7 @@ B.9
 C.5
 D.4
 
-Answer:C.
+Answer:C
 
 #P1
 ##EASY
@@ -58,7 +58,7 @@ B.It can also refer as smaller entities
 C.Field can have unique names
 D.It is a vertical entity that contains a information associated with a specific field in a table
 
-Answer: D.
+Answer: D
 
 #P1
 ##EASY
@@ -71,7 +71,7 @@ B.Creating Frontends
 C.Accessing databases
 D.None of these
 
-Answer:C.
+Answer:C
 
 #P1
 ##EASY
@@ -97,7 +97,7 @@ B.Structured Query Language
 C.Simple Query Language
 D.None of these
 
-Answer:B.
+Answer:B
 
 #P1
 ##EASY
@@ -110,7 +110,7 @@ B.#
 C.*
 D.$
 
-Answer:C.
+Answer:C
 
 #P1
 ##EASY
@@ -216,7 +216,7 @@ Answer:A
 ###TF
 
 
-18.State True or False: Semicolon at the end of each SQL query will terminate the SQL query? True Or False.
+18.State True or False: Semicolon at the end of each SQL query will terminate the SQL query?
 
 A.True
 B.False
@@ -561,7 +561,7 @@ Explanation:Foreign key is a field in a table that is Primary Key in another tab
 ##EASY
 ###BC
 
-44.When two or more columns are combined to be used to uniquely identify each row in the table, it is known as-
+44.When two or more columns are combined to be used to uniquely identify each row in the table, it is known as____
 
 A.Primary Key
 B.Unique Key
