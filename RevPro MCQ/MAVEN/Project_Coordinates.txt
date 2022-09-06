@@ -25,7 +25,7 @@ Answer: D
 #P1
 ##EASY
 ###BC
-3. What does a valid POM file should have?
+3. What does a valid POM file have?
 
 A. group identifier, artifact and version
 B. group name, artifact and version
