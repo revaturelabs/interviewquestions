@@ -1,67 +1,99 @@
-1. When synchronized keyword is used before the method,the method becomes thread safe.
+#P1
+##EASY
+###TF
 
-A. True
-B. False
+1.When synchronized keyword is used before the method,the method becomes thread safe.
 
-Answer: A
+A.True
+B.False
 
-2. All the methods by default is synchronized.
+Answer:A
 
-A. True
-B. False
+#P1
+##EASY
+###TF
 
-Answer: B
+2.All the methods by default is synchronized.
 
-3. Which method is used to move the current thread to the waiting state.
+A.True
+B.False
 
-A. blocked()
-B. running()
-C. notify()
-D. wait()
+Answer:B
 
-Answer: D
+#P1
+##EASY
+###BC
 
-4. Which method is used to wake a thread from waiting state.
+3.Which method is used to move the current thread to the waiting state.
 
-A. wake()
-B. notifyAll()
-C. notify()
-D. wait()
+A.blocked()
+B.running()
+C.notify()
+D.wait()
 
-Answer: C
+Answer:D
 
-5. Which method is used to wake all threads from waiting state.
+#P1
+##EASY
+###BC
 
-A. wakeAll()
-B. notifyAll()
-C. notify()
-D. yield()
+4.Which method is used to wake a thread from waiting state.
 
-Answer: B
+A.wake()
+B.notifyAll()
+C.notify()
+D.wait()
 
-6. Which method is used to stop the cuurent thread that is executing and give the chance to other thread which is in the same priority.
+Answer:C
 
-A. wake()
-B. notifyAll()
-C. notify()
-D. yield()
+#P1
+##EASY
+###BC
 
-Answer: D
+5.Which method is used to wake all threads from waiting state.
 
-7. Which method is used to pause the thread for require time.
+A.wakeAll()
+B.notifyAll()
+C.notify()
+D.yield()
 
-A. sleep()
-B. rest()
-C. pause()
-D. block()
+Answer:B
 
-Answer: A
+#P1
+##EASY
+###BC
 
-8. Which method is used for inter communication between the threads.
+6.Which method is used to stop the cuurent thread that is executing and give the chance to other thread which is in the same priority.
 
-A. yield()
-B. pause()
-C. wait()
-D. notify()
+A.wake()
+B.notifyAll()
+C.notify()
+D.yield()
 
-Answer: C
+Answer:D
+
+#P1
+##EASY
+###BC
+
+7.Which method is used to pause the thread for require time.
+
+A.sleep()
+B.rest()
+C.pause()
+D.block()
+
+Answer:A
+
+#P1
+##EASY
+###BC
+
+8.Which method is used for inter communication between the threads.
+
+A.yield()
+B.pause()
+C.wait()
+D.notify()
+
+Answer:C
