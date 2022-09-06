@@ -8,7 +8,7 @@ B.In order to group the rows, WHERE Clause is used
 C.In order to select the defined groups, WHERE Clause is used
 D.In order to return the rows, WHERE Clause is used
 Answer: A
-Explanation: In order to retrieve rows, WHERE Clause is used.
+
 
 #P1
 ##MEDIUM
@@ -20,8 +20,8 @@ B.In order to group the rows based on same common value, GROUP BY Clause is used
 C.In order to select the defined groups, GROUP BY Clause is used
 D.In order to return the rows, GROUP BY Clause is used
 
-Answer: B.
-Explanation:In order to group the rows that share the same property, GROUP BY Clause is used.
+Answer: B
+
 
 #P1
 ##MEDIUM
@@ -33,8 +33,7 @@ B.In order to return the rows, HAVING Clause is used
 C.In order to select the defined groups by the GROUP BY Clause, HAVING Clause is used
 D.None of the above
 
-Answer: C. 
-Explanation: In order to select the defined groups by the GROUP BY Clause, HAVING Clause is used.
+Answer: C
 
 #P1
 ##EASY
@@ -58,7 +57,7 @@ B.GROUP BY
 C.ORDER BY
 D.None of the above
 
-Answer: D. 
+Answer: D
 
 #P1
 ##MEDIUM
@@ -104,7 +103,7 @@ C.ORDER BY
 D.FROM
 
 Answer: C.
-Explanation:GROUP BY clause is placed before ORDER BY clause in SQL.
+
 
 #IGNORE
 11. Which one of these is used to put the same value in all the rows?
@@ -128,7 +127,6 @@ C.DELETE
 D.FROM
 Answer: B
 
-Explanation:ORDER BY clause cannot be used in SQL sub queries.
 
 #IGNORE
 13. In order to prevent multiple records from being returned by the sub query, _______ must be used before the sub query.
@@ -324,7 +322,7 @@ Answer:B
 #P1
 ##MEDIUM
 ###BC
-29. "MODIFY" Iis used with which query clause?
+29. "MODIFY" is used with which query clause?
 
 A.ALTER
 B.FROM
@@ -385,8 +383,6 @@ C.DCL
 D. TCL
 
 Answer:D
-
-Explanation:Where clause is used with statements of DML (Data Manipulation Language)
 
 #IGNORE
 34) Which of the following expression is used with where clause?
