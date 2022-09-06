@@ -13,7 +13,7 @@ B.shan
 C.sandy
 D.error
 
-Answer:B.shan
+Answer:B
 Explanation:max() function in python returns the element with the highest value from an iterable. But if the elements of iterable[list, tuple, etc] are strings, then it compares alphabetically and returns the maximum from them. In this code, the first letter of each word is 's', so it checks the 2nd letter of each word and as 'h' is a greater value then 'a', it returns shan as output.
 
 #P1
@@ -34,8 +34,7 @@ C.l
 D.l
   7
 
-Answer:D.l
-         7
+Answer:D
 Explanation:First, print statement picks the 0th index value which is "Hello", after that for -3 index iterates over hello from the last and prints the 'l' letter from "Hello". The 2nd print statement picks the 1st index value from the list which itself is a list of [2, 5, 7, 9, 3] values, after that it finds the element at index 2 from that list and print its value which is 7. Hence, l and 7 will be printed.
 
 
@@ -52,7 +51,7 @@ B.new = extend(list1, list2)
 C.new = list1.extend(list2)
 D.new.extend(list1, list2)
 
-Answer:Options are (a) and (c).
+Answer:A & C
 Explanation:extend() method takes 1 argument as parameter and not 2, so options b) and d) are eliminated there. The '+' operator can also be used to join two list in python.
 
 
@@ -71,8 +70,7 @@ B.error
 C.lst index out of range
 D.No output
 
-Answer:A.40
-      [20,30,40]
+Answer:A
 Explanation:Use the range of negative indexes to search from the end of the list.
 
 
@@ -96,9 +94,7 @@ C.[10, 20, 30, 40]
   [50, 60, 70, 80]
 D.None of the above
 
-Answer:[30, 40, 50]
-       [10, 20, 30, 40]
-       [40, 50, 60, 70, 80]
+Answer:B
 Explanation:Python list collection is ordered and changeable. The list also allows duplicate members. To get a sublist out of the list, we need to specify the range of indexes. To get a sublist, we need to specify where to start and where to end the range.
 
 
@@ -115,7 +111,7 @@ B.Hello-Python
 C.-HelloPython
 D.None of the above
 
-Answer:B.Hello-Python
+Answer:B
 Explanation: The join() method will join all items in a list into a string, using a hyphen character as a separator.
 
 
@@ -132,7 +128,7 @@ B.Aman
 C.Error
 D.n
 
-Answer:D.n
+Answer:D
 
 #P1
 ##EASY
@@ -148,7 +144,7 @@ B.{2}
 C.2
 D.Value Error
 
-Answer:B.{2}
+Answer:B
 Explanation:It will printing the pop out values.
 
 #P1
@@ -168,7 +164,7 @@ B.[[7], 2, 3] [[7], 2, 3] [[7], 2, 3] [1, 2, 3]
 C.[7, 2, 3] [7, 2, 3] [7, 2, 3] [1, 2, 3]
 D.[[7], 2, 3] [[7], 2, 3] [1, 2, 3] [1, 2, 3]
 
-Answer:D.[[7], 2, 3] [[7], 2, 3] [1, 2, 3] [1, 2, 3]
+Answer:D
 
 #P1
 ##EASY
@@ -186,7 +182,7 @@ B.[10, 20, 30, 40, 50, 60] [10, 20, 30, 40, 50, 60, 60]
 C.[10, 20, 30, 40, 50] [10, 20, 30, 40, 50, 60]
 D.Error
 
-Answer:B.[10, 20, 30, 40, 50, 60] [10, 20, 30, 40, 50, 60, 60]
+Answer:B
 
 
 #P1
@@ -203,7 +199,7 @@ B.[1001]
 C.1001
 D.[11, 100, 101, 999, 1001]
 
-Answer:C.1001
+Answer:C
 Explanation:In this code, we are using negative indexing, and so we are getting last element from that list.
 
 
@@ -221,7 +217,7 @@ B.[55, 777, 54, 6, 76, 101, 1, 2, 8679, 123, 99]
 C.[55, 777, 54, 6, 76, 101, 1, 2, 8679, 123]
 D.Both B and C
 
-Answer:C.[55, 777, 54, 6, 76, 101, 1, 2, 8679, 123]
+Answer:C
 Explanation: Using the .remove() method and inside parenthesis, we can type the value you’d like to remove.
 
 
@@ -239,7 +235,7 @@ B.SyntaxError
 C.[45,67,12,14,56,87]
 D.None of the above
 
-Answer:A.[87, 56, 14, 12, 67, 45]
+Answer:A
 Explanation: Here,we are using negative indexing to reverse a list.
 
 
@@ -257,7 +253,7 @@ B.1, 3, 5
 C.Error
 D.None of the above
 
-Answer:A.1, 2, 3, 4, 5
+Answer:A
 
 
 #P1
@@ -270,7 +266,7 @@ B.Multiple Elements
 C.All elements along with List object
 D.All of the above
 
-Answer:D.All of the above
+Answer:D
 Explanation:Because all the options can delete from the List
 
 
