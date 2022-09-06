@@ -1,53 +1,77 @@
-1. Which of the following is the Lifecycle of thread in correct order.
+#P1
+##EASY
+###BC
 
-A. New - Running - Runnable - Blocked - Terminated
-B. New - Blocked - Runnable - Running - Terminated
-C. New - Runnable - Running - Blocked - Terminated
-D. Runnable - Running - Blocked - Terminated - New
+1.Which of the following is the Lifecycle of thread in correct order.
 
-Answer: C
+A.New - Running - Runnable - Blocked - Terminated
+B.New - Blocked - Runnable - Running - Terminated
+C.New - Runnable - Running - Blocked - Terminated
+D.Runnable - Running - Blocked - Terminated - New
 
-2. Which method is used to check whether the thread is terminated or not?
+Answer:C
 
-A. isAlive()
-B. isDead()
-C. isEmpty()
-D. isFull()
+#P1
+##EASY
+###BC
 
-Answer: A
+2.Which method is used to check whether the thread is terminated or not?
 
-3. Which method is used to allow the thread to complete its execution while another thread is waiting.
+A.isAlive()
+B.isDead()
+C.isEmpty()
+D.isFull()
 
-A. merge()
-B. join()
-C. concat()
-D. addthread()
+Answer:A
 
-Answer: B
+#P1
+##EASY
+###BC
 
-4. Which method is used to find the name of the thread.
+3.Which method is used to allow the thread to complete its execution while another thread is waiting.
 
-A. setName()
-B. displayName()
-C. getName()
-D. printName()
+A.merge()
+B.join()
+C.concat()
+D.addthread()
 
-Answer: C
+Answer:B
 
-5. Which method is used to name a thread.
+#P1
+##EASY
+###BC
 
-A. setName()
-B. displayName()
-C. getName()
-D. printName()
+4.Which method is used to find the name of the thread.
 
-Answer: A
+A.setName()
+B.displayName()
+C.getName()
+D.printName()
 
-6. Which method is used to find the state of the thread.
+Answer:C
 
-A. setState()
-B. getState()
-C. printState()
-D. None of the above
+#P1
+##EASY
+###BC
 
-Answer: B
+5.Which method is used to name a thread.
+
+A.setName()
+B.displayName()
+C.getName()
+D.printName()
+
+Answer:A
+
+#P1
+##EASY
+###BC
+
+6.Which method is used to find the state of the thread.
+
+A.setState()
+B.getState()
+C.printState()
+D.None of the above
+
+Answer:B
