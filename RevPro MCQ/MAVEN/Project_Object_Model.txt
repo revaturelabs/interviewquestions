@@ -1,14 +1,16 @@
-
+#P1
+##EASY
+###BC
 1. Which is a fundamental unit of work in maven.
 
 A. POM
 B. Maven coordinates
-C. groupId
-D. None of the above 
+C. Maven repositories
+D. Project coordinates
 
 Answer: A 
 
-
+#IGNORE
 2. What will be stored in pom.xml file?
 
 A. project structure and instructions.
@@ -19,21 +21,23 @@ D. project description
 Answer: A 
 Explanation: whcih is required for maven to build the project such as dependencies, source code,plugins, goals etc.
 
-
+#P1
+##EASY
+###BC
 3. Which attribute is not used to uniquely identify the project in repository?
 
-A. The project group(groupId) 
-B. The project name(artifactId) 
-C. The project version
+A. groupId 
+B. artifactId 
+C. version
 D. None of the above
 
 Answer: D 
 Explanation:These attributes need to decided before creating a POM to identify the project.
 
-
+#P2
+##EASY
+###BC
 4. Which is not commanly used requirement of a POM?
-
-<details> <summary> <b> Show Answer </b> </summary> </deatils>
 
 A. Project root
 B. Model version
@@ -42,8 +46,8 @@ D. description ID
 
 Answer: D 
 
-
-5. Which is the Maven's deafult POM. 
+#IGNORE
+5. Which is the Maven's default POM. 
 
 A. Maven coordinates
 B. Pom.xml
@@ -53,7 +57,9 @@ D. None of the above
 Answer: C 
 Explanation: Which contains values inherited by default.
 
-
+#P2
+##MEDIUM
+###BC
 6. Which command is used to view the default configuration of super POM?
 
 A. mvn help:effective-pom 
@@ -64,8 +70,9 @@ D. cmd help:pom
 Answer: A 
 Explanation: By running thos command, we can view the default configuration of super POM.
 
-
-
+#P1
+##EASY
+###BC
 7. Which is the correct format of a POM file?
 
 A. <project>
@@ -88,32 +95,43 @@ D. None of the above
 
 Answer: A 
 
-
+#P1
+##EASY
+###BC
 8. Where does pom.xml file resides?
 
-A. projects root-folder
-B. projects parent-folder
-C. projects main-folder
+A. project's root-folder
+B. project's parent-folder
+C. project's main-folder
 D. None of the above
 
 Answer: A 
 
-9. Can we run a pom.xml file manually by right-clicking the pom. xml file and select Run As Maven build.
+#P1
+##EASY
+###TF
+9. We can run pom.xml file. To run the pom.xml file, on the pom.xml file right click and select Run as maven build.
 
-A. Yes
+A. 
 B. No
 
 Answer: A 
 
+#P1
+##EASY
+###BC
 10. A project should have ____ to compile, build, test and run , which is collectively present in pom.xml file.
 
 A. root-folder
 B. project code
 C. dependency
-D. All the above
+D. jar packaging 
 
 Answer: C 
 
+#P1
+##EASY
+###BC
 11. Which resides in the base directory of the project as pom.xml file.
 
 A. POM
@@ -123,9 +141,12 @@ D. None of the above
 
 Answer: A 
 
-12. Does all POMs inherited from Super POM.
+#P1
+##EASY
+###TF
+12. All POMs inherited from Super POM.
 
-A. Yes
-B. No
+A. True
+B. False
 
 Answer: A 
