@@ -206,6 +206,7 @@ D.class Lazy{
 } 
 
 Answer:A
+Explanation: Define a class that has only one instance and provides a global point of access to it and instance should be created when required.
 
 #P1
 ##MEDIUM
@@ -282,6 +283,7 @@ D.public class Bank{
 } 
 
 Answer:D
+Explanation: Adapter Pattern which converts the interface of a class into another interface that a client wants.
 
 #P1
 ##MEDIUM
