@@ -53,7 +53,7 @@ D. None of the above
 
 Answer: C
 
-Explanation: The read() method reads all the contents from the file.
+Explanation: The read() method reads all the content from the file.
 
 
 #P2
@@ -68,7 +68,7 @@ D.outfile = open(file = "c:\scores.txt", "w")
 
 Answer: A
 
-Explanation: It is used to indicate the data to be appended.
+Explanation: "a" mode is used to indicate the data to be appended.
 
 
 #P2
