@@ -522,7 +522,7 @@ Answer: B,C
     
 A.stacktraces found
 B.Throws keyword is used to declare an exception. It gives an information to the programmer that there may occur an exception.
-C.reads the contents of the blocka
+C.reads the contents of the blocks
 D.end of file.
 
 Answer:B,C
@@ -533,7 +533,7 @@ Explanation:It provides information to the caller of the method about the except
 ##MEDIUM
 ###BC
 
-31.Show me the syntax of throws statement
+31.Show me the syntax of throws statement.
     
 A.throws exception_class_name
 B.return_type method_name() throws exception_class_name{  
@@ -1173,7 +1173,7 @@ Answer:B
 ##EASY
 ###BC
 
-62. When will FileNotFoundException is occurred? 
+62. When will FileNotFoundException occur? 
 
 A.FileNotFoundException is raised when a file is not accessible or does not open.
 B.FileNotFoundException is raised when a file is in open mode.
@@ -1186,7 +1186,7 @@ Answer:A
 ##EASY
 ###BC
 
-63 .When will IOException is occurred? 
+63. When will IOException occur? 
 
 A.IOException is thrown when an input-output operation is failed or interrupted.
 B.IOException is thrown when an input operation is not in failure.
