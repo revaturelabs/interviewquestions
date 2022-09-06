@@ -24,7 +24,7 @@ Explanation:You will get an error as NameError: name 'y' is not defined. To acce
 ###BC
 2.What is the output of the following code?
 
-print(bool(0), bool(3.14159), bool(-3)
+print(bool(0), bool(3.14159), bool(-3))
 
 A.False False True
 B.True True True
@@ -32,7 +32,7 @@ C.False True True
 D.False True False
 
 Answer:C
-Explanation:If we pass zero values to bool() constructor, it will treat it as zero.Any non-zero value is boolean True.
+Explanation:If we pass zero value to bool() constructor, it will treat it as False. Any non-zero value is boolean True.
 
 
 #P1
@@ -129,7 +129,7 @@ A.True
 B.False
 
 Answer:B
-Explanation:we can't We can convert any type to int type, but we cannot perform complex to int type.
+Explanation:We can convert any type to int type, but we cannot change complex to int type.
 
 
 #P1
