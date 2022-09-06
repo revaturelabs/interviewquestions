@@ -137,7 +137,7 @@ Answer:D
 
 #P2
 ##EASY
-####BC
+####TF
 10.You can use the + operator to concatenate three or more strings as well.
 
 A.True
