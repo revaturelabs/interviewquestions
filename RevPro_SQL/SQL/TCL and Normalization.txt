@@ -1,3 +1,5 @@
+##SQL,TCL&Normalization
+
 
 #IGNORE
 1. Which of the following is/are transaction control commands in SQL?
