@@ -1,3 +1,5 @@
+##Python,DataTypes,Set
+
 #P1
 ##EASY
 ###BC
@@ -210,7 +212,7 @@ Explanation:We can use difference_update() method to remove items at once.
 #P2
 ##EASY
 ###TF
-13.State True/False A set be accessed by index?
+13.State True or False: A set be accessed by index?
 
 A.True
 B.False
@@ -238,7 +240,7 @@ Explanation:it is possible to compare two sets and the order of elements in both
 #P1
 ##EASY
 ###BC
-15.What is the result of this statements
+15.What is the result of this statements?
 
 print({1,2,3,4,5}-{3,4}^{5,6,7})
 
