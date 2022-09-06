@@ -50,7 +50,7 @@ A.True
 B.False
 
 Answer:A
-Explanation:using pip list we can list all the packages on out system.
+Explanation:using pip list we can list all the packages on our system.
 
 
 #P2
@@ -75,7 +75,7 @@ C.pudb
 D.All of the above
 
 Answer:A
-Explantion:Except the Pcp all others are checkers and debugging tools.
+Explantion:Except the Pcp all other tools are checkers and debugging tools.
 
 
 #P2
