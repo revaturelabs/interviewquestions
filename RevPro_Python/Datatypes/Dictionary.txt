@@ -173,4 +173,4 @@ A.True
 B.False
 
 Answer:A
-Explanation:Yes,the python dictionary is a mutable object.
+Explanation:Yes,the python dictionary is a mutable object
