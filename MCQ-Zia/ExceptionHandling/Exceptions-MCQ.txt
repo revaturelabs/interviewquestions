@@ -1,6 +1,6 @@
 ::Exception Handling::
 //Question 1
-What is the root class of  all the Exception classes?{
+What is the root class of all the Exception classes?{
     ~java.lang.Exceptions
     ~java.lang.Throws
     ~java.lang.RuntimeExceptions
