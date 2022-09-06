@@ -155,7 +155,7 @@ Answer: C
 #P1
 ##EASY
 ###BC
-13.A data type attribute specifies the type of data that an object can hold.
+13.State True  or False: A data type attribute specifies the type of data that an object can hold.
 
 A. True
 B. False
