@@ -1,23 +1,35 @@
-1. The class which we want to make as thread should implement the _______ interface.
+#P1
+##EASY
+###BC
 
-A. Runnable
-B. Enum
-C. Dynamic Proxy
-D. Generic
+1.The class which we want to make as thread should implement the _______ interface.
+
+A.Runnable
+B.Enum
+C.Dynamic Proxy
+D.Generic
+
+Answer:A
+
+#P1
+##EASY
+###TF
+
+2.Runnable interface is a Functional Interface which has only one abstract method - run()
+
+A.True
+B.False
 
 Answer: A
 
-2. Runnable interface is a Functional Interface which has only one abstract method - run()
+#P1
+##EASY
+###TF
 
-A. True
-B. False
+3.We can pass lamba expression while creating the object of Thread class itself instead of creating lambda expression of Runnable interface.
 
-Answer: A
+A.True
+B.False
 
-3. We can pass lamba expression while creating the object of Thread class itself instead of creating lambda expression of Runnable interface.
-
-A. True
-B. False
-
-Answer: A
+Answer:A
 
