@@ -1,5 +1,5 @@
 
-###IGNORE
+#IGNORE
 1. Which of the following is/are transaction control commands in SQL?
 
 A. Commit
@@ -199,7 +199,7 @@ Answer: B
 Explanation: Update Command is used to alter the data in the table, Commit command is used to save the changes permanently.
 
 
-###IGNORE
+#IGNORE
 11.
 
 CREATE TABLE Players(
@@ -258,7 +258,7 @@ D. None of the Above.
 
 Answer: C
 
-Explanation: it is a point in a transaction when you can roll the transaction back to a certain point without rolling back the entire transaction.
+Explanation: it is a point in a transaction using which you can roll the transaction back to a certain point without rolling back the entire transaction.
 
 #P1
 ##EASY
@@ -275,7 +275,7 @@ Answer: B
 Explanation: To start the transaction, Mysql > START TRANSACTION; command is used.
 
 
-###IGNORE
+#IGNORE
 15. What type of join is needed when you wish to include rows that do not have matching values?
 
 A. Equi-join
@@ -362,7 +362,7 @@ D. Metadata
 Answer:D
 
 
-###IGNORE
+#IGNORE
 22. A data type that creates unique numbers for key columns in Microsoft Access is:
 
 A. Autonumber
@@ -383,6 +383,7 @@ C. The table is in 3NF
 D. Together they constitute a foreign key
 
 Answer: A
+
 #P2
 ##EASY
 ###BC
@@ -467,9 +468,8 @@ D. C is a determinant.
 
 Answer: C 
 
-#P1
-##MEDIUM
-###IGNORE
+
+#IGNORE
 31. If characteristic A influences both qualities B and C, then:
 
 A. A → B.
@@ -588,9 +588,8 @@ D. Never
 
 Answer: A
 
-#P2
-##EASY
-###IGNORE
+
+#IGNORE
 41. When assessing the table structure of an acquired set of tables with data, accessing the validity of possible referential integrity constraints on foreign keys is (part of) the:
 
 A. First step.
@@ -601,7 +600,7 @@ D. Fourth step.
 Answer: C
 
 
-###IGNORE
+#IGNORE
 42. When assessing the table structure of an acquired set of tables with data, determining foreign keys is (part of) the:
 
 A. First step.
@@ -671,7 +670,7 @@ D. One row has the value "He is interested in a Silver Porsche from the years 19
 
 Answer: C
 
-###IGNORE
+#IGNORE
 48. When assessing the table structure of an acquired set of tables with data, determining functional dependencies is (part of) the:
 
 A. First step.
@@ -729,7 +728,7 @@ D.Never
 
 Answer: D
 
-###IGNORE
+#IGNORE
 53. The need to evaluate the veracity of posited referential integrity restrictions on foreign keys is ______________ of normalisation.
 
 A. Advantage
@@ -751,9 +750,7 @@ D. Fourth step.
 
 Answer: B
 
-#P2
-##EASY
-###BC
+#IGNORE
 55. Normalization ________ data duplication.
 
 A. Eliminates
