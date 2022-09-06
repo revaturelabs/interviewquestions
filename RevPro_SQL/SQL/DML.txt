@@ -175,7 +175,7 @@ Answer: D
 #P1
 ##EASY
 ###BC
-16. DELETE ________ Table_Name; Fill in the blanks.
+16.Fill in the blanks. DELETE ________ Table_Name; 
 
 A. ALL ROWS 
 B. ALL ROWS FROM
@@ -377,7 +377,7 @@ Explanation:
 #P1
 ##EASY
 ###MA
-33.Which of the following insert statements are correct:
+33.Which of the following insert statements are correct?
  
 A. Insert  into Persons ("xxx1", "yyy1");
 B. Insert  into [dbo].[Persons]([LastName],[FirstName]) VALUES ("xxx", "yyy");
