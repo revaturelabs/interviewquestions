@@ -1,3 +1,4 @@
+##Python,DataTypes,Numbers
 
 #P1
 ##EASY
@@ -55,7 +56,7 @@ Explanation: Option C is the correct answer,because other declarations are not t
 #P2
 ##EASY
 ###TF
-4.State True/False:"We can convert complex numbers to any other number type".
+4.State True or False:"We can convert complex numbers to any other number type".
 
 A.True
 B.False
@@ -186,7 +187,7 @@ Answer:D
 #P2
 ##EASY
 ###TF
-12.Is datatype is a classification or categorization of items?
+12.State True or False: Datatype is a classification or categorization of items.
 
 A.true
 B.False
@@ -227,7 +228,7 @@ Explanation:The function hex() is used to convert the given argument into its he
 #P1
 ##EASY
 ###BC
-15.How will you convert real numbers to complex numbers.
+15.How will you convert real numbers to complex numbers?
 
 A.Complex()
 B.num()
