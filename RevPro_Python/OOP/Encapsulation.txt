@@ -15,7 +15,6 @@ Answer: C
 Explanation: Encapsulation is a way of binding all the members of a class together.
 
 
-
 #P1
 ##EASY
 ####BC
