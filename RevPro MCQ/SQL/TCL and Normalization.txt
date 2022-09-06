@@ -314,6 +314,8 @@ B. Second
 C. Third
 D. Fourth
 
+Answer: D
+
 #P2
 ##EASY
 ###BC
@@ -384,6 +386,7 @@ B. Knowing the value in one column determines the value stored in another column
 C. The table is in 3NF
 D. Together they constitute a foreign key
 
+Answer: A
 #P2
 ##EASY
 ###IGNORE
@@ -394,6 +397,7 @@ B. Second
 C. Third
 D. Fourth
 
+Answer: A
 #P2
 ##EASY
 ###BC
