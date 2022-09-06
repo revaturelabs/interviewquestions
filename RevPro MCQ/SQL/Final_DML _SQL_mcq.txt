@@ -1,481 +1,396 @@
-1.Which SQL Data is used to delete a data from a table?
+#P1
+##EASY
+###BC
+1.Which SQL command used to delete a data from a table?
 
 A.COLLAPSE
-
 B.REMOVE
-
 C.ALTER
-
 D.DELETE
 
 Answer: D
+Explanation: DELETE command is used to delete the existing records from a table. By using this command, you can either delete a specific record based on their condition or all the records from a table.
 
-Explanation: DELETE command is used to delete the existing records from a table. by Using this command  you can either delete a specific record based on their condition or all the records from a table.
-
-2.Which command is used for removing columns from a table?
+#P1
+##EASY
+###BC
+2. Which one of the following is used for removing columns from a table?
 
 A. MODIFY TABLE TableName DROP ColumnName
-
 B. MODIFY TABLE TableName DROP COLUMN ColumnName
-
 C. ALTER TABLE TableName DROP ColumnName
-
 D. ALTER TABLE TableName DROP COLUMN ColumnName
 
 Answer: D
 
-Explanation: Alter table is used to change the values and drop the particular column and  columnname.
-
-3.Which of the following command is excluded from DML? (Data Manipulation Language)
+#P1
+##EASY
+###BC
+3. Which is not a DML command?
 
 A. INSERT
-
 B. UPDATE
-
 C. DELETE
-
 D. CREATE
 
-Answer: C
-
+Answer: D
 Explanation: CREATE Command is used to create a new table in the given database. 
 
-4.A table showing data redundancy produces _____________characteristics.
+#IGNORE
+4. A table showing data redundancy produces _____________characteristics.
 
 A. Update
-
 B. Insertion
-
 C. Deletion
-
 D. All of the Above
 
 Answer: D
-
 Explanation: Update, insertion, and deletion anomalies can be seen in the table that shows data redundancy.
 
-5.DML is Used to___________.
+#IGNORE
+5.DML is used to___________.
 
 A. Description of logical structure of database.
-
 B. Addition of new structure in the database system.
-
-C. Manipulation & processing datas in a database.
-
+C. Manipulation & processing data in a database.
 D. Definition of physical structure of database system.
 
 Answer: C
-
 Explanation: A data manipulation language (DML) is used for adding (inserting), deleting, and modifying (updating) data in a database.
 
+#IGNORE
 6.The DDL, DCL, and DML language components that make up a database management system (DBMS).
 Users and practitioners, two diverse groups of individuals, are both interested in them. Which of them do DBMS users often work with?
 
 A. DDL
-
 B. DML
-
 C. DDL and DCL
-
 D. DCL and DML
 
 Answer: B
-
 Explanation: Only the DBMS component for data manipulation language is of interest to users and practitioners.
 
-
+#IGNORE
 7.What are the following Commands that comes under DML?
 
 A. ROLLBACK
-
 B. GRANT
-
 C. UPDATE
-
 D. All of the above
 
 Answer: C
-
 Explanation: Commands that comes under DML are INSERT, SELECT, UPDATE & DELETE.
 
+#IGNORE
 8.Which command will delete the records from the table while maintaining the table's structure?
 
 A. REMOVE
-
 B. DELETE
-
 C. DROP
-
 D. TRUNCATE
 
 Answer: B
-
 Explanation: The DELETE command will delete the records from the table without changing the way of the table that is organised.
 
-9.Which of the following SQL commands should we execute if we wish to remove certain data from the database?
+#IGNORE
+9. Which of the following SQL commands should we execute if we wish to remove certain data from the database?
 
 A. DML
-
 B. TCL
-
 C. DCL
-
 D. DDL
 
 Answer: A
-
 Explanation: The DML command must be used whenever we need to make changes to the database, such as INSERT, DELETE, or UPDATE`.
 
+#IGNORE
 10.In which type of language is the database defined?
 
 A. DDL
-
 B. DML
-
 C. DCL
-
 D. TCL
 
 Answer: B
-
 Explanation: Data is accessed and changed by using DML (Data Manipulating Language).
 
+#IGNORE
 11.The records from one or more tables that are combined by using which DML command?
 
 A. SELECT
-
 B. PROJECT
-
 C. JOIN
-
 D. PRODUCT
 
 Answer: C
 
-Explanation: Records from one or more tables are combined using the SQL JOIN Command. Additionally, the JOIN command finds similar column values in the tables being joined.
+#P1
+##EASY
+###BC
+12.The ___________ provides the ability to insert, delete, and modify tuples as well as query a data.
 
-12.The ___________ Language provides the ability to insert, delete, and modify tuples as well as query a data.
-
-A. TCL (Transaction Control Language)
-
-B. DCL (Data Control Language)
-
-C. DDL (Data Definition Langauge)
-
-D. DML (Data Manipulation Langauge)
+A. TCL 
+B. DCL 
+C. DDL 
+D. DML 
 
 Answer: D
 
-Explanation: The database is manipulated by using  DML. To manipulate data in a database that means to add, edit, delete, or run queries on it. It also  allows users to access or alter the data in the way that the right data model has arranged it.
+#P1
+##EASY
+###BC
+13.INSERT command is used to insert a ____________
 
-13.INSERT command is used to insert a ____________.
-
-A. Single or Multiple database
-
-B. Single or Multiple record
-
-C. Single or Multiple table
-
-D.  None of the above
+A. single or multiple databases
+B. single or multiple records
+C. single or multiple tables
+D. None of the above
 
 Answer: B
 
-Explanation: SQL INSERT is used to insert a single or multiple records in the table.
+#P1
+##EASY
+###BC
+14. INSERT _______ TABLE_NAME (column1, column2, column3,...columnN) VALUES (value1, value2, value3,...valueN); Fill in the blank.
 
-14.which command is used to insert a row directly in the table?
-
-A. INSERT IN
-
-B. INSERT INTO
-
-C. INSERT UNDER
-
-D. INSERT INSIDE
+A. IN
+B. INTO
+C. UNDER
+D. INSIDE
 
 Answer: B
 
-Explanation: INSERT INTO command is used to insert a row directly in the table.
-
+#P1
+##EASY
+###BC
 15.DELETE command can be used to delete a ____________.
 
-A. Rows
-
-B. Database
-
-C. View
-
+A. rows
+B. tables
+C. views
 D. All of the above
 
 Answer: D
 
-Explanation: The DELETE command is used to delete a specified row(one or more). While this command is used to delete all the rows from a table.
+#P1
+##EASY
+###BC
+16. DELETE ________ Table_Name; Fill in the blanks.
 
-16.Which clause is used to delete all rows from the table?
-
-A. SQL DELETE ALL ROWS Table_Name;
- 
-B. SQL DELETE ROWS Table_Name;
- 
-C. DELETE FROM Table_Name;
- 
-D. DELETE FROM ALL ROWS Table_Name;
+A. ALL ROWS 
+B. ALL ROWS FROM
+C. FROM
+D. FROM ALL ROWS
  
 Answer: C
 
-Explanation: DELETE FROM Table_Name is used to delete all rows from the table.
-
+#IGNORE
 17.Which keyword is used In order to delete duplicate rows from the table?
 
 A. DISTINCT
-
 B. DELETE
-
 C. FROM
-
 D. WHERE
 
 Answer: A
-
 Explanation: DISTINCT keyword is used to delete duplicate rows from the table.
 
+#IGNORE
 18.In order to delete the database, which keyword is used?
 
 A. DELETE
-
 B. ALTER
-
 C. DROP
-
 D. None of the above
 
 Answer: C
-
 Explanation: DROP keyword is used to delete the database.
 
+#P1
+##EASY
+###BC
 19.Which of the following allows users to put tuples into the database, delete tuples from the database, and alter tuples already present there?
 
-A. DDL(Data Definition Language)
-
-B. Query
-
-C. Relational Schema
-
-D. DML(Data Manipulation Language)
+A. DDL
+B. TCL
+C. DCL
+D. DML
 
 Answer: D
 
-Explanation: The term "DML" stands for the Data Manipulation Language which is used to perform the required changes in the relation's values.
-
+#IGNORE
 20.The SQL used by front-end application programs to request data from the DBMS is called _______
 
 A. DDL
-
 B. DML
-
 C. SDL
-
 D. VDLD  
 
 Answer: B
-
 Explanation: A database front end is the user interface or software programme that makes it possible to view tabular, structured, or unstructured data that is kept there.
 
-21.___________ command in SQL should be used to create a new table?
+#P1
+##EASY
+###BC
+21.___________ command in SQL should be used to create a table. 
 
 A. Generate Table
-
 B. Build Table
-
 C. Create Table
-
 D. All the Above
 
 Answer: C
-
 Explanation: The CREATE TABLE statement is used to create a table in a database and the tables are organized into rows and columns and each table must have a name.
 
+#P1
+##EASY
+###BC
 22.How can "Raju" in the "Name" column of the Users table be changed to "Sanjana"?
 
 A. Update User Set Name = "Raju" INTO Name = "Sanjana"
-
 B. Modify Users SET Name = "Sanjana" WHERE Name = "Raju"
- 
 C. Update Users SET Name = "Sanjana" WHERE Name = "Raju"
- 
 D. Modify Users SET Name = "Raju" INTO Name = "Sanjana"
 
 Answer: C
-
 Explanation: The UPDATE command and WHERE clause are used together to change the name as asked in the question.
 
-23.__________________Modifies existing database data.
+#P1
+##EASY
+###BC
+23. ________________ command helps to modify the existing data in the table.
 
 A. UPDATE
- 
 B. ALTER
-
 C. CREATE
-
 D. DELETE
 
 Answer: A 
 
-Explanation: The UPDATE statement is used to update existing records. In order to achieve this, we must inform the database which table we wish to update, the values we wish to alter for any or all of the columns, and the circumstances under which we wish to do so.
-
+#IGNORE
 24.Which data manipulation command is used to combines the records from one or more tables?
 
 A. SELECT
- 
-B. JOIN
- 
+B. JOIN 
 C. PROJECT
- 
 D. PRODUCT
 
 Answer: B
 
 Explanation: Records from one or more tables are combined using the SQL JOIN statement. Additionally, the JOIN command finds similar column values in the tables being joined.
 
-25.Which of the following commands can be used  to add data to a database table?
+#P1
+##EASY
+###BC
+25. Which of the following command can be used to add data to a table?
 
 A. ADD
- 
 B. UPDATE
- 
 C. APPEND
- 
 D. INSERT
 
 Answer: D
-
 Explanation: The INSERT INTO statement is used to insert new records in a table.
 
-26.When using the SQL INSERT statement:
- 
+#P1
+##EASY
+###BC
+26. Using INSERT command, ____
+
 A. Rows can be inserted into a table one at a time or in groups.
- 
 B. Rows can be modified according to criteria only.
- 
 C. Rows cannot be copied in mass from one table to another only.
- 
 D. Rows can be inserted into a table one at a time only.
 
 Answer: B
 
-Explanation: It is possible to write the INSERT INTO statement in two ways: 1. Specify both the column names and the values to be inserted: 
-
-INSERT INTO table_name (column1, column2, column3, ...)
-
+#IGNORE
 27.An Operation that will increase the length of a list is:
 
 A. Insert
- 
 B. Look - Up
- 
-C. Modify
- 
+C. Modify 
 D. All of the above
 
 Answer: A
-
 Explanation: extend() method increases the length of the list by the number of elements that are provided to the strategy.
 
-28.The DML's which require user to specify what data is needed and how  to get, it is called as____________.
+#P2
+##EASY
+###BC
+28.The DML's which require user to specify what data is needed and how to get, it is called as____________.
 
-A. DDL DMLs.
- 
-B. Procedural DMLs.
- 
-C. Non - Procedural DMLs.
- 
+A. DDL DMLs. 
+B. Procedural DMLs. 
+C. Non - Procedural DMLs. 
 D. None of the above.
 
 Answer: B
-
 Explanation: Procedural DMLs ask the user to specify the data they need and how to obtain them. Declarative DMLs, also known as Non-procedural DMLs, ask the user to indicate what data are required but not how to obtain them.
 
-29.Which of the following is a privilege in SQL standard?
+#P2
+##EASY
+###BC
+29. System and Object Privileges includes _____ commands
 
 A. SELECT
- 
 B. INSERT
- 
 C. UPDATE
- 
 D. All of the above
 
 Answer: D
 
-Explanation: * Users with a permission can do a certain set of things with a specific database item. Privileges are divided into two categories.
-             * System Privileges: This shows that the user can "DROP," "ALTER," or "CREATE" database components.
-             * Object Privileges: The user is able to EXECUTE, SELECT, INSERT, or DELETE data from database objects that have access rights.
-
+#IGNORE
 30.What command in SQL is used to add new rows to a table?
 
 A. Alter Table
- 
 B. Add row
- 
 C. Insert
- 
 D. Append
 
 Answer: C
 
 Explanation: The INSERT statement is used to insert or add new rows in the table.
 
+#IGNORE
 31.To delete a table,  we use the ___________statement.
 
 A. Remove Table
-
 B. Delete Table
-
 C. Del Table
-
 D. Drop Table
  
 Answer: D
-
 Explanation: The SQL DROP TABLE command is used to remove an existing table from a database.
 
-32.Which of the following statement is true?
+#IGNORE
+32. Which of the following statement is true?
 
 A. DELETE does not free the space containing the table and TRUNCATE free the space containing the table.
- 
 B. Both DELETE and TRUNCATE free the space containing the table.
- 
 C. Both DELETE and TRUNCATE does not free the space containing the table.
- 
 D. DELETE free the space containing the table and TRUNCATE does not free the space containing the table.
 
 Answer: A
+Explanation: 
 
-Explanation: Delete Command Deletes only the data and not the Table Schema while in other hand Truncate totally deletes the data as well as the table Schema, therefore it is true that Delete does not frees space while Truncate does.
-
+#P1
+##EASY
+###MA
 33.Which of the following insert statements are correct:
  
 A. Insert  into Persons ("xxx1", "yyy1");
-
 B. Insert  into [dbo].[Persons]([LastName],[FirstName]) VALUES ("xxx", "yyy");
- 
 C. Insert  into  Persons values ("xxx1", "yyy1");
- 
 D. Insert  into  Persons value ("xxx1", "yyy1");
 
-Answer: B and C
-
-Explanation: There are two ways of using INSERT INTO statement for inserting rows: Only values: First method is to specify only the value of data to be inserted without the column names. 
-
-INSERT INTO table_name VALUES (value1, value2, value3,…); table_name: name of the table.
+Answer: B,C
 
 34.Data can be inserted into a database using the INSERT statement in ________________.
 
 A.all columns
- 
 B.IDENTITY column
- 
 C.particular column
- 
 D.All of above
 
 Answer: D
