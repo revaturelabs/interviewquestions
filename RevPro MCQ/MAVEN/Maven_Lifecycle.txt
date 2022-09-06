@@ -1,4 +1,6 @@
-
+#P1
+##EASY
+###BC
 1. Which is not a valid lifecycle goals in maven?
  
 A. validate: check if all information necessary for the build is available
@@ -8,10 +10,13 @@ D. terminate: delete the whole repository
 
 Answer: D
 
+#P1
+##EASY
+###BC
 2. Which will be the standard lifecycle followed in maven?
 
 I. clean
-II.default(or build)
+II. default(or build)
 III. site
 
 A. Only I
@@ -21,6 +26,9 @@ D. All the above
 
 Answer: D
 
+#P1
+##EASY
+###BC
 3. How does the order of execution is decided in maven?
 
 A. It depends on the order of which goals and phases invoked.
@@ -30,7 +38,9 @@ D. None of the above.
 
 Answer: A
 
-
+#P1
+##EASY
+###BC
 4. Which command is used to invoke clean lifecycle?
 
 A. mvn post-clean
@@ -40,6 +50,9 @@ D. None of the above
 
 Answer: A 
 
+#P1
+##EASY
+###BC
 5. ____ command is used to compile the project’s source code.
 
 A. mvn compile
@@ -49,7 +62,9 @@ D. mvn install
 
 Answer: A 
 
-
+#P1
+##MEDIUM
+###BC
 6. ____ phase is used to deploy the generated site documents to the specified web server in lifecycle.
 
 A. pre - clean
@@ -59,6 +74,9 @@ D. site deploy
 
 Answer: D 
 
+#P1
+##MEDIUM
+###BC
 7. Which is not a type of maven build profiles?
 
 A. Per User:described in Maven settings.xml file.
@@ -68,6 +86,9 @@ D. Local:described in local pom.xml
 
 Answer: D 
 
+#P1
+##EASY
+###BC
 8. Which command is used to deploy the packaged WAR/JAR files storing them as classes in the local repository.
 
 A. mvn compile
@@ -77,6 +98,9 @@ D. mvn install
 
 Answer: D 
 
+#P1
+##EASY
+###BC
 9. ____ is a Maven plugin used to create a project structure as per its template.
 
 A. Artifact
@@ -86,7 +110,9 @@ D. Build tool
 
 Answer: C 
 
-
+#P1
+##MEDIUM
+###BC
 10. Which of the following will not come under the phases of clean lifecycle.
 
 A. pre - clean
@@ -96,6 +122,9 @@ D. in - clean
 
 Answer: D 
 
+#P1
+##MEDIUM
+###BC
 11. In which order does the file gets executed in maven?
 
 A. Clean-dependency-package 
@@ -105,6 +134,9 @@ D. None of the above
 
 Answer: A 
 
+#P1
+##MEDIUM
+###BC
 12. Which command is used to create a new project based on Archetype.
 
 A. mvn archetype:generate 
