@@ -31,7 +31,7 @@ Answer:A
 3.What are the derived classes of the Exception class?
 
 A.FinallyException
-B.ClassNotFoundException,IOException,SQLException,RunTimeException,
+B.ClassNotFoundException,IOException,SQLException, RuntimeException
 C.TryExceptions,CatchException
 D.ThrowableException
 
@@ -41,7 +41,7 @@ Answer:B
 ##EASY
 ###BC
 
-4.What is the event that disrupts the normal flow of the program?
+4. Event that disrupts the normal flow of the program is called as _________
 
 A.Exception
 B.Compile-time error
@@ -55,11 +55,11 @@ Answer:A
 ##EASY
 ###BC
 
-5.What are the derived classes of RunTimeException class?
+5. What are the derived classes of RuntimeException class?
 
-A.ClassNotFoundException,IOException,SQLException,RunTimeException,
+A.ClassNotFoundException, IOException, SQLException, RuntimeException
 B.ThrowableException
-C.ArithmeticException,NumberFormatException,NullPointerException,IndexOutOfBoundsException
+C.ArithmeticException, NumberFormatException, NullPointerException, IndexOutOfBoundsException
 D.Compiletime Exception
 
 Answer:C
@@ -84,7 +84,7 @@ Answer:B
 7.What are the keywords that are used to handle exceptions?
 
 A.public,private,protected
-B.try,catch,finally,throw and throws.
+B.try,catch,finally,throw and throws
 C.static,final,finalize
 D.Runnable,Thread
 
@@ -98,17 +98,14 @@ Explanation:try,catch,finally,throw and throws used to handle exceptions in exce
 8.Which block has to be followed after the try block?
 
 A.catch or finally block.
-B.throw.
-C.static.
-D.throws.
+B.throw
+C.static
+D.throws
 
 Answer:A
 Explanation:Try block needs to be followed with catch or finally block
 
-#P1
-##EASY
-###BC
-
+#IGNORE
 9.Why the rest of the code in the try block will not be executed?
 
 A.whenever an exception is occurred in the try block the rest of the code will give the output.
@@ -136,7 +133,7 @@ Explanation:We can have multiple catch blocks with the single try block.
 ##MEDIUM
 ###BC
 
-11.Who handles the exception if the exception is not handled by the programmer itself?
+11. Who handles the exception if it is not handled by the programmer?
 
 A.Java Virtual Machine(JVM).
 B.Java compiler
@@ -152,16 +149,13 @@ Answer:A
 12.What is the role of JVM in default Exception Handling mechanism?
 
 A.shows a compile time error
-B.Prints out the exception description,Prints the StackTrace,Causes the program to terminate.
+B.Prints out the exception description, Prints the StackTrace,Causes the program to terminate.
 C.Shows a runtime error
 D.Garbage collection
 
 Answer:B
 
-#P2
-##MEDIUM
-###BC
-
+#IGNORE
 13.How the normal flow of the program is maintained in the exception handling mechanism?
 
 A.If the programmer handles the exception.
@@ -171,10 +165,7 @@ D.Garbage collection.
 
 Answer:A
 
-#P1
-##EASY
-###BC
-
+#IGNORE
 14.How catch block is executed in multiple catch blocks?
 
 A.if the programmer handles the specific exception.
@@ -197,23 +188,18 @@ D.try after catch block.
 
 Answer:A
 
-#P2
-##MEDIUM
-###BC
 
+#IGNORE
 16.When should we use nested try block?
 
 A.in the catch block.
 B.catch inside try block
-C.A situation may arise where a part of  block of code may cause one error and the entire block of      code itself may cause another error. In such cases,       exception handlers have to be nested.
+C.A situation may arise where a part of  block of code may cause one error and the entire block of code itself may cause another error. In such cases, exception handlers have to be nested.
 D.after catch block.
 
 Answer:C
 
 #IGNORE
-##MEDIUM
-###BC
-
 17.When should we use nested try block?
 
 A.in the catch block.
@@ -226,7 +212,7 @@ Answer:C
 #P1
 ##EASY
 ###BC
-18.What is a finally block?
+18. Select true statement about finally block
 
 A.before the catch block.
 B.finally block is always executed whether an exception is handled or not. Therefore, it contains all the necessary statements that need to be printed regardless of the exception occurs or not.The finally block follows the try-catch block.
@@ -257,12 +243,13 @@ public class trycatchexample1 {
 }  
 
 A.0
-B.Divide by zero, Exception Occurred
+B.java.lang.ArithmeticException: / by zero
+Exception Occurred
 C.5
 D.10
 
 Answer:B
-Explanation:Divide by zero error occurred caught by ArithmeticException object e.
+
 
 #P1
 ##EASY
@@ -449,7 +436,7 @@ Answer: C
 ##EASY
 ###BC
 
-26.Throw statement can be defined as___
+26.Throw statement can be defined as ___
 
 A.catch block.
 B.throw statement is used to throw an exception explicitly
