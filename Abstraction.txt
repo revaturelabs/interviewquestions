@@ -203,7 +203,7 @@ Answer: B
 #P2
 ##EASY
 ###TF
-9. To achieve abstraction in python we can use
+9. In Python, to achieve abstraction we can use,
 
 A.interfaces
 B.abstract classes 
