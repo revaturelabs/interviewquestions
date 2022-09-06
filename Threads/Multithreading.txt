@@ -1,0 +1,223 @@
+#P1
+##EASY
+###BC
+
+1.Which of the following is the process of executing one or more threads simultaneously?
+
+A.Multithreading.
+B.Multiprocessing.
+C.Multitasking.
+D.None of the above.
+
+Answer:A.
+Explanation:Thread is termed as a lightweight process. A process is divided into parts, each part called Thread. Multithreading is the process of executing one or more threads simultaneously. In multithreading, threads will share a common memory and the execution will also be faster.
+
+#P1
+##EASY
+###BC
+
+2.Which is the default thread?
+A.Main
+B.Default
+C.Runnable
+D.Run
+
+Answer:A
+Explanation:If there is no thread is created, the main thread will execute the process by default.
+
+#P1
+##EASY
+###TF
+
+3.Can we create threads in Java?
+
+A.Yes.
+B.No.
+
+Answer:A.
+Explanation:We can create threads in two ways. By implementing Runnable interface By extending Thread class
+
+#P1
+##EASY
+###TF
+
+4.Is there any class in java which help us to create a thread?
+
+A.No.
+B.Yes.
+
+Answer:B.
+Explanation:Yes, there is a Thread class in java helps us to create a thread. Create a class and extend that class by Thread class. Then, the created class will act as thread in java. After extending Thread class, the class should override the run method. After creating object for the class, we can use start() method to run the method.When the method gets started by calling start() method, a new thread is created and starts executed it. On the time, the main thread will continue the remaining part.
+
+#P1
+##EASY
+###BC.
+
+5. Consider the following code.
+
+class Greeting extends Thread{
+	public void run() {
+		for(int i=0; i<10; i++) {
+			System.out.println("Hello");
+			try {Thread.sleep(1000);} catch(InterruptedException e){ };
+		}
+	}
+}
+
+public class Main {
+	public static void main(String[] args) {
+		Greeting greeting = new Greeting();
+		greeting.start();
+	}
+}
+
+A.When the sleep() method is called, the thread is hold by 1000 millisecond that is 1 second, and then print Hello message.
+B.When the sleep() method is called, the thread is hold by 1000 second and then print Hello.
+C.When the sleep() method is called, the thread is hold by 1000 millisecond that is 1 second and will not print Hello.
+D.None of the above.
+
+Answer:A
+Explanation:sleep() method takes milliseconds as parameter, makes the current running thread to hold for that given milliseconds.
+
+#P1
+##EASY
+###BC
+
+6. _______ enforces modularity in the sense that one thread cannot stop the progress of another thread, but if all threads share a single address space, then they can modify each other's memory accidentally.
+
+A.Fixed scheduling
+B.Preemptive scheduling
+C.Non-preemptive scheduling
+D.None of the above
+
+Answer:B
+
+#P1
+##MEDIUM
+###BC
+
+7.What are the methods related to the thread priority.
+
+A.public final int getPriority():Returns the priority of the given thread by using the java.lang.Thread.getPriority() method.
+B.public final void setPriority(int newPriority): Updates or assign the priority of the thread to newPriority using the java.lang.Thread.setPriority() method.
+C.Both A and B
+D.None of the above
+
+Answer:C
+
+#P1
+##EASY
+###BC
+
+8.What are the priority constants defined in Thread class?
+
+A.public static int MIN_PRIORITY-It holds the value 1.
+B.public static int NORM_PRIORITY-It holds the value 5 and it is the Deafult priority of a thread.
+C.public static int MAX_PRIORITY-It holds the value 10.
+D.All of the above
+
+Answer:D
+
+#P1
+##MEDIUM
+###BC
+
+9.If the value of the parameter "newPriority" of the method "getPriority()" goes out of the range (1 to 10), then the method throws _______.
+
+A.IllegalArgumentException
+B.InputMisMatchException
+C.NumberFormatException
+D.ArithmeticException
+
+Answer:A
+
+#P1
+##EASY
+###BC
+
+10.Which scheduling algorithm is supported by the JVM to serve the thread with the highest priority first, since all Java threads have a priority.
+
+A.Fixed-priority pre-emptive scheduling
+B.Preemptive scheduling
+C.Non-preemptive scheduling
+D.None of the above
+
+Answer:A
+
+#P1
+##EASY
+###BC
+
+11.A _______ is a low priority thread which always runs in the background.
+
+A.Metric tapered thread
+B.Daemon thread
+C.National Pipe thread
+D.None of the above
+
+Answer:B
+
+#P1
+##EASY
+###BC
+
+12.Which method is used to return a boolean value to check if daemon thread is present or not?
+
+A.isDaemonFull()
+B.isDaemonEmpty()
+C.isDaemon()
+D.isDaemonFree()
+
+Answer:C
+
+#P1
+##COMPLEX
+###BC
+
+13. Complete the field in the following code.
+
+import java.lang.*;  
+public class ThreadPriority extends Thread   
+{  
+public void run()  
+{  
+System.out.println("Inside the run() method");  
+}  
+public static void main(String argvs[])  
+{  
+_____________________.setPriority(6);  
+System.out.println("Priority of the main thread is : " + Thread.currentThread().getPriority());  
+ThreadPriority th1 = new ThreadPriority();  
+System.out.println("Priority of the thread th1 is : " + th1.getPriority());  
+}  
+} 
+
+A. Thread.currentThread()
+B. Thread.Priority()
+C. currentThread()
+D. ThreadPriority()
+
+Answer: A
+
+#P1
+##MEDIUM
+###BC
+
+14. Complete the field in the following code.
+
+import java.lang.*;  
+public class IllegalArgumentException extends Thread   
+{  
+public static void main(String argvs[])  
+    {  
+        Thread.currentThread().setPriority(17);  
+        System.out.println("Priority of the main thread is : " + Thread.currentThread()._______);  
+    }  
+} 
+
+A. value()
+B. currentThread()
+C. setPriority()
+D. getPriority()
+
+Answer: D

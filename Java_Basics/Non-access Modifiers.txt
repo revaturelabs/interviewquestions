@@ -1,0 +1,122 @@
+#P1
+##EASY
+###BC
+
+1.The three non-access modifiers are
+
+A.static,abstract,default.
+B.default,static,final.
+C.static,abstract,final.
+D.None of the above.
+
+Answer:C
+Explanation:Non-Access Modifiers will not change the scope but, it will add some functionality. There are three types of Non-Access Modifires: final,static,abstract.
+
+#P1
+##EASY
+###BC
+
+2.Consider the following statements.
+
+i.Final variable – The value can’t be changed.
+ii.Final method – The method can’t be overridden.
+
+A.i is true.
+B.ii is true.
+C.Nether i nor ii are true.
+D.Both are true.
+
+Answer:D
+Explanation:final is the keyword that can be used with class, variable, and method. Final variable – The value can’t be changed. Final method – The method can’t be overridden. Final class – No subclasses can be created.
+
+#P1
+##EASY
+###TF
+
+3.There is no need to create an object for the class to access the static variable or static method. 
+
+A.True
+B.False
+
+Answer:A
+Explanation:When we use static before variable or method that will not belong to any object,it belongs to the class. There is no need to create an object for the class to access the static variable or static method. We can use the class name to call them with respect to the access modifier. If we use the object name to call the static method or variable, the compiler will replace the name of the object with class.
+
+#P1
+##EASY
+###TF
+
+4.Can we create object for the abstract class?
+
+A.Yes 
+B.No
+
+Answer:B
+Explanation:If we add abstract keyword with method, we can't add method definition to the method and abstract method presents in abstract class.If we add abstract keyword with class, we can't make the class extended from another class. It can be extended from only another abstract class. We can't create object for abstract class.
+
+#P1
+##MEDIUM
+###TF
+
+5.Can we use instance variable in static method?
+
+A.Yes
+B.No
+
+Answer:B
+Explanation:No, we can't use instance variable in static method because instance variable belongs to the property of object where static method belongs to the property of class. So, we can use static variable in static method.
+
+#P1
+##MEDIUM
+###TF
+
+6.Non-static methods are called using class name.
+
+A.True
+B.False
+
+Answer:B
+Explanation:We need to create an object to call the non-static method from static method where both the methods presents in the same class. In general, non-static methods are called using objects and static methods are called using class name.
+
+#P1
+##COMPLEX
+###TF
+
+7.Can we write a method inside another method in Java?
+
+A.Yes
+B.No
+
+Answer:B
+Explanation:No, we can't directly write a method inside method in java. If we want to create a method inside method, we have to create a local class inside the method then we can add method inside it.
+
+#P1
+##MEDIUM
+###BC
+
+8.Predict the output.
+
+class Greeting {
+	abstract void hello();
+}
+
+class Hello extends Greeting{
+	@Override
+	void hello() {
+		System.out.println("Hello");
+	}
+}
+
+public class Main {
+	public static void main(String[] args) {
+		Greeting greeting = new Hello();
+		greeting.hello();
+	}
+}
+
+A.Compilation error: class Greeting should be declared as abstract.
+B.Hello 
+C.Compilation error: @Override should not be there in the class Hello that already extends Greeting class.
+D.None of the above.
+
+Answer:A
+Explanation:The method hello() is an abstract method that should be in abstract class. Therefore, the class Greeting should be abstract

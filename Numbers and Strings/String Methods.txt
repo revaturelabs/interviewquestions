@@ -1,0 +1,185 @@
+#P1
+##EASY
+###TF
+
+1.Does String is muatable in Java?
+
+A.Yes
+B.No
+
+Answer:B
+Explanation:String are sequence of characters in java. String is in java.lang package. String is immutable and are stored inside the string constant pool. If we try to alter the value of String variable, new String object is created and assigned to same reference variable.
+
+#P1
+##EASY
+###TF
+
+2.Can we create a string using new keyword?
+
+A.No
+B.Yes
+
+Answer:B
+Explanation:There are two ways to create strings in java. Using literal string, we can assign the value to a string with double quotes. The value is stored in a string constant pool. Example: String string = "Hello"; - Using new keyword – It will create the new object in the heap memory. Example: String string = new String("Hello");
+
+#P1
+##EASY
+###BC
+
+3.Comsider the following statements
+i.Double equals (==) is an operator that checks the value only. 
+ii.Dot equals (.equals) is a method that compares the value and reference.
+
+Which of the above statements are correct?
+
+A.i and ii.
+B.Only i.
+C.Only ii.
+D.i and ii are incorrect.
+
+Answer:D
+Explanation:Double equals (==) is an operator that compares the value and reference. Dot equals (.equals) is a method that checks the value only.
+
+#P1
+##EASY
+###BC
+
+4.Consider the following statements.
+i.If we create a string with the same value, the same reference will be stored to the variable instead of creating new memory.
+ii.If we change any the value of the string, the entire string is rewritten and new reference is created.
+
+Which of the above statements are correct?
+
+A.i and ii.
+B.Only i.
+C.Only ii.
+D.i and ii are incorrect.
+
+Answer:A
+Explanation:When create a string using string literal, a memory allocated at the string constant pool a reference assign to variable.If we create a string with the same value, the same reference will be stored to the variable instead of creating new memory.If we change any the value of the string, the entire string is rewritten and new reference is created.Hence, the strings are immutable.
+
+#P1
+##EASY
+###BC
+
+5.Consider the following statements.
+i.When we new keyword while creating, it will be stored in String Constant Pool.
+ii.If we create without new keyword, it will be stored in String Constant Pool.
+
+Which of the above statements are correct?
+
+A.i and ii.
+B.Only i.
+C.Only ii.
+D.i and ii are incorrect.
+
+Answer:C
+Explanation:When we new keyword while creating, the memory is allocated at heap. If we again create a variable with the same value, a new memory is created in heap. If we create without new keyword, it will be stored in String Constant Pool. If we create a string with the same value without new, the same reference will be stored to the variable instead of creating new memory.
+
+#P1
+##EASY
+###BC
+
+6.Which method will consider the spaces as seperation between each inputs?
+
+A.next()
+B.nextLine()
+C.nextSpace()
+D.None of the above.
+
+Answer:A
+Explanation:next() will consider the spaces as seperation between each inputs. nextLine() will consider the line itself as a input with spaces.
+
+#P1
+##EASY
+###TF
+
+7.Can we convert each word in the sentence as String array?
+
+A.Yes
+B.No
+
+Answer:A
+Explanation:In String class we have split() method ( String regex) that returns array of strings(String[]) separated by the provided delimiting regular expression. A regular expression is a sequence of characters that forms a search pattern (usually letter, number and/or special character). When you search for data in a text, you can use this search pattern to describe what you are searching for. The method returns array of String post delimiting it. We can also give limit to the string.
+
+#P1
+##EASY
+###BC
+
+8.Which of the following methods is used to compare the two strings?
+
+A.contains().
+B.length().
+C.equals().
+D.None of the above.
+
+Answer:C.
+Explanation:It returns boolean based on comparison of two strings.
+
+#P1
+##EASY
+###TF
+
+9.Can we convert String to int?
+
+A.Yes.
+B.No.
+
+Answer:A
+Explanation:parseInt() is the static method in java from Integer class. It takes String and convert into int.
+
+#P1
+##EASY
+###BC
+
+10.What will be the output of the following code?
+public class Main {
+	public static void main(String[] args) {
+		int i = 1234;
+		String s = Integer.toString(i);
+		System.out.println(s);
+	}
+}
+
+A."1234" //It will give string 1234
+B.1234   //It is an integer.
+C.Compilation Error.
+D.None of the above.
+
+Answer:A
+Explanation:toString() will convert the given integer to the String data type.
+
+#P1
+##MEDIUM
+###BC
+
+11.What will be the output for the below code?
+
+public class Main {
+	public static void main(String[] args) {
+		int i = 1234;
+		String s = String.format("%08d",i );
+		System.out.println(s); 
+	}
+}
+
+A.01234
+B.00001234
+C.000000001234
+D.Compilation Error.
+
+Answer:B
+Explanation:If we add leading zeros in the left side of int type, it will become octal number. We convert the number into String and add leading zeros. We can use format() static method from String
+
+#P1
+##MEDIUM
+###TF
+
+12.Can we limit decimal precision point?
+
+A.No.
+B.Yes.
+
+Answer:B
+Explanation:We can limit the precision point using format() static method from String.float f = 12.3456f; String s = String.format("%.2f",f ); System.out.println(s);  //12.35.
+
