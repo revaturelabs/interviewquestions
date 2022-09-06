@@ -1,3 +1,6 @@
+#P1
+##EASY
+###BC
 1. Set Interface is used to store unique elements of the same type. Classes that implements Set interface are
 
     A. HashTable
@@ -7,6 +10,9 @@
 
 Answer: D
 
+#P1
+##EASY
+###BC
 2. Set Inherits all the methods of Collection Interface like
 
     A. addAll()
@@ -16,6 +22,9 @@ Answer: D
 
 Answer: D
 
+#P1
+##EASY
+###BC
 3. A class that has key and values, it coverts the keys into hashcode and stores them as the indexes of an array.
 
     A. HashTable
@@ -25,6 +34,9 @@ Answer: D
 
 Answer: A
 
+#P1
+##EASY
+###BC
 4. A class which stores data in the form of node( data+ addresss of consecutive element) and its a part of List Interface.
 
     A. HashTable
@@ -34,6 +46,9 @@ Answer: A
 
 Answer: B
 
+#P1
+##EASY
+###BC
 5. _______ stores, unique elements by retaining the order of elements.
 
     A. HashTable
@@ -43,6 +58,9 @@ Answer: B
 
 Answer: C
 
+#P1
+##MEDIUM
+###BC
 6.What is the time complexity of add() method for a HashSet?
 
     A. O(n)
@@ -52,6 +70,9 @@ Answer: C
 
 Answer: B
 
+#P1
+##MEDIUM
+###BC
 7. What is the time complexity of remove(element) method for a HashSet?
 
     A. O(1)
@@ -61,6 +82,9 @@ Answer: B
 
 Answer: A
 
+#P1
+##MEDIUM
+###BC
 8. What is the time complexity of conatins() method for a HashSet?
 
     A. O(2n)
@@ -70,7 +94,10 @@ Answer: A
 
 Answer: D
 
-9. _______ class is the special `Set` implementation for enum types. It inherits `AbstractSet` class and implements the `Set` interface.
+#P1
+##EASY
+###BC
+9. _______ class is the special Set implementation for enum types. It inherits AbstractSet class and implements the Set interface.
 Features
 
     A. ValueSet
@@ -80,6 +107,9 @@ Features
 
 Answer: C
 
+#P1
+##EASY
+###BC
 10. _______ method generates the hashCode of two objects, if two objects are equal then the hash Code generated for two objects is the same, while the inverse may or may not be true.
 
     A. hashCode()
@@ -89,6 +119,9 @@ Answer: C
 
 Answer: A
 
+#P1
+##EASY
+###BC
 11. The default implementation of the Object class generates different hash codes for different objects, even if they are equal according to the _______ method.
 
     A. equal(element)
@@ -98,6 +131,9 @@ Answer: A
 
 Answer: D
 
+#P1
+##EASY
+###BC
 12. _______ doesn’t maintain an ordered collection of elements.
 
     A. TreeSet
@@ -107,6 +143,9 @@ Answer: D
 
 Answer: B
 
+#P1
+##EASY
+###BC
 13. What is the output of the following program?
 
     HashSet<Integer> hs= new HashSet<>();
@@ -129,6 +168,9 @@ Answer: B
 
 Answer: D
 
+#P1
+##EASY
+###BC
 14. Consider there are two hash sets a and b with some elements in each, How to get the intersection of a and b?
 
     A. a.retainAll(b)
@@ -138,6 +180,9 @@ Answer: D
 
 Answer: A
 
+#P1
+##EASY
+###BC
 15. Consider there are two hash sets a and b with some elements in each, How to get the union of a and b?
 
     A. a.containsAll(b)
@@ -147,6 +192,9 @@ Answer: A
 
 Answer: C
 
+#P1
+##EASY
+###BC
 16. Consider there are two hash sets a and b with some elements in each, How to check if a is a subset of b?
 
     A. b.containsAll(a)
@@ -156,6 +204,9 @@ Answer: C
 
 Answer: A
 
+#P1
+##EASY
+###BC
 17. Consider there are two hash sets a and b with some elements in each, How to get the separate the unique elements present in a but not b?
 
     A. a.remove(b)
@@ -164,7 +215,10 @@ Answer: A
     D. None of the above
 
 Answer: B
- 
+
+#P1
+##EASY
+###BC
 18. Which of the following is true for the code snippet mentioned below?
 
 HashSet<Integer> a = new HashSet<>();
