@@ -2,11 +2,11 @@
 ##EASY
 ###TF
 
-1.Database management system is a software used to create and manage database? True or False.
+1.State True or False: Database management system is a software used to create and manage database? True or False.
 
-A.True.
-B.False.
-Answer:A.
+A.True
+B.False
+Answer:A
 
 #P1
 ##EASY
@@ -14,10 +14,10 @@ Answer:A.
 
 2.A Database management system is a type of _________software.
 
-A.System Software.
-B.Application Software.
-C.General Software.
-D.Both A and C.
+A.System Software
+B.Application Software
+C.General Software
+D.Both A and C
 
 Answer: A.
 
@@ -53,10 +53,10 @@ Answer:C.
 
 5.Which of the following is not true about field?
 
-A.Field is a column that maintains specific information about every record in the table.
-B.It can also refer as smaller entities.
-C.Field can have unique names.
-D.It is a vertical entity that contains a information associated with a specific field in a table.
+A.Field is a column that maintains specific information about every record in the table
+B.It can also refer as smaller entities
+C.Field can have unique names
+D.It is a vertical entity that contains a information associated with a specific field in a table
 
 Answer: D.
 
@@ -66,10 +66,10 @@ Answer: D.
 
 6.SQL is a standard language for ________.
 
-A.Creating Web pages.
-B.Creating Frontends.
-C.Accessing databases.
-D.None of these.
+A.Creating Web pages
+B.Creating Frontends
+C.Accessing databases
+D.None of these
 
 Answer:C.
 
@@ -79,10 +79,10 @@ Answer:C.
 
 7.Which of the following databases can be accessed and manipulated using SQL? 
 
-A.MySQL.
-B.MS Access.
-C.Oracle.
-D.All of these.
+A.MySQL
+B.MS Access
+C.Oracle
+D.All of these
 
 Answer:D
 
@@ -92,10 +92,10 @@ Answer:D
 
 8.SQL stands for _________.
 
-A.Standard Query Language.
-B.Structured Query Language.
-C.Simple Query Language.
-D.None of these.
+A.Standard Query Language
+B.Structured Query Language
+C.Simple Query Language
+D.None of these
 
 Answer:B.
 
@@ -118,10 +118,10 @@ Answer:C.
 
 10.Which of the following function cannot be performed by SQL ?
 
-A.Setting permissions on tables.
-B.Updating records.
-C.Creating Complex UI.
-D.Creating views in a database.
+A.Setting permissions on tables
+B.Updating records
+C.Creating Complex UI
+D.Creating views in a database
 
 Answer:C
 
@@ -129,21 +129,21 @@ Answer:C
 ##EASY
 ###TF
 
-11.SQL is a non-relational datatype? True or False
-A.True.
-B.False.
+11.State True or False: SQL is a non-relational datatype? True or False
+A.True
+B.False
 
-Answer:B.
+Answer:B
 
 #P1
 ##EASY
 ###TF
 
-12.JSON,XML datas are kept in key-value pairs for storage? True or False
-A.True.
-B.False.
+12.State True or False: JSON,XML datas are kept in key-value pairs for storage? True or False
+A.True
+B.False
 
-Answer: A.
+Answer: A
 
 #P1
 ##EASY
@@ -151,12 +151,12 @@ Answer: A.
 
 13.Each row of the table is identified by a _______ ?
 
-A.Distinct Key.
-B.Distinct value.
-C.values.
-D.keys.
+A.Distinct Key
+B.Distinct value
+C.values
+D.keys
 
-Answer:A.
+Answer:A
 
 #P1
 ##EASY
@@ -164,12 +164,12 @@ Answer:A.
 
 14.SQL handles database administration duties including ?
 
-A.user management.
-B.database security. 
-C.backup.
-D.All the above.
+A.user management
+B.database security 
+C.backup
+D.All the above
 
-Answer:D.
+Answer:D
 
 #P1
 ##EASY
@@ -181,9 +181,9 @@ A.Microsoft SQL
 B.MYSql
 C.ORACLE Database 12c
 D.Postgre SQL
-E.None of the above.
+E.None of the above
 
-Answer:E.
+Answer:E
 
 #P1
 ##EASY
@@ -216,12 +216,12 @@ Answer:A
 ###TF
 
 
-18.Semicolon at the end of each SQL query will terminate the SQL query? True Or False.
+18.State True or False: Semicolon at the end of each SQL query will terminate the SQL query? True Or False.
 
-A.True.
-B.False.
+A.True
+B.False
 
-Answer:A.
+Answer:A
 
 #P1
 ##EASY
@@ -229,43 +229,43 @@ Answer:A.
 
 19.SQL is NOT case insensitive? True Or False.
 
-A.True.
-B.False.
+A.True
+B.False
 
-Answer: A.
-
-#P1
-##EASY
-###TF
-
-20.The SELECT command, with its various clauses, allows users to query the data contained in the tables. True Or False
-
-A.True.
-B.False.
-
-Answer:A.
+Answer: A
 
 #P1
 ##EASY
 ###TF
 
-21.The condition in a WHERE clause can refer to only one value.True Or False?
+20.State True or False: The SELECT command, with its various clauses, allows users to query the data contained in the tables. True Or False
 
-A.True.
-B.False.
+A.True
+B.False
 
-Answer:B.
+Answer:A
+
+#P1
+##EASY
+###TF
+
+21.State True or False: The condition in a WHERE clause can refer to only one value.True Or False?
+
+A.True
+B.False
+
+Answer:B
 
 #IGNORE
 ##EASY
 ###TF
 
-22.Semicolon is used to separate each SQL statement in database systems that allow more than one SQL statement. True Or False?
+22.State True or False: Semicolon is used to separate each SQL statement in database systems that allow more than one SQL statement. True Or False?
 
-A.True.
-B.False.
+A.True
+B.False
 
-Answer:A.
+Answer:A
 
 #P1
 ##EASY
@@ -319,7 +319,7 @@ B.MODIFY
 C.LOOK-UP
 D.All of the above
 
-Answer:B.
+Answer:B
 Explanation: The modify command is used to change one or more columns in the existing table. It is generally used with ALTER TABLE statement as follows. ALTER TABLE table_name MODIFY column_name column_type;
 
 #P1
@@ -328,8 +328,8 @@ Explanation: The modify command is used to change one or more columns in the exi
 
 27. Which of the following statement is TRUE?
 
-A.A DATABASE name can be renameD.
-B.A TABLE name can be renameD.
+A.A DATABASE name can be renameD
+B.A TABLE name can be renameD
 C.Both A and B
 D.None of the above
 
@@ -396,7 +396,7 @@ Explanation:In a table, there could be any number of rows and specified number o
 ##EASY
 ###TF
 
-32.Input and output parameters can be derived from table variables. True or False?
+32.State True or False: Input and output parameters can be derived from table variables. True or False?
 
 A.True
 B.False
@@ -540,7 +540,7 @@ Explanation:SQL has the disadvantage that it is costly and its interface is comp
 A.Case-sensitive
 B.Not case-sensitive
 
-Answer: B.
+Answer: B
 Explanation:Syntax of the Structured Query Language is not case-sensitive.
 
 #P1
@@ -554,7 +554,7 @@ B.Unique
 C.Composite
 D.None of the above
 
-Answer:A.
+Answer:A
 Explanation:Foreign key is a field in a table that is Primary Key in another table.
 
 #P1
@@ -568,7 +568,7 @@ B.Unique Key
 C.Composite Key
 D.Foreign Key
 
-Answer: C.
+Answer: C
 Explanation:When two or more columns are combined to be used to uniquely identify each row in the table, it is known as Composite Key
 
 #P1
@@ -581,7 +581,7 @@ A.one
 B.NULL
 C.Many
 D.None of the above
-Answer: C.
+Answer: C
 
 Explanation:For a table, there can be many unique key constraints.
 
@@ -596,7 +596,7 @@ B.Alternate keys
 C.Composite keys
 D.None of the above
 
-Answer: B.
+Answer: B
 Explanation:All other columns other than the column which is termed as Primary Key, are known as Alternate Keys.
 
 #P1
@@ -624,7 +624,7 @@ B.Single Line Comments
 C.Multi-line Comments
 D.All of the above
 
-Answer:D.
+Answer:D
 Explanation:Type of SQL Comments are Inline Comments, Single Line Comments and Multi-line Comments.
 
 #P1
@@ -638,7 +638,7 @@ B.!
 C.--
 D.#
 
-Answer: C.
+Answer: C
 Explanation:"--" is the syntax of the Single Line Comment.
 
 #P1
@@ -656,7 +656,7 @@ Line2*/
 D./*Line1
 Line2*/
 
-Answer: D.
+Answer: D
 Explanation:The multi-line comment starts with /* and ends with */
 
 #P1
@@ -726,7 +726,7 @@ B.SQL provides High-Speed Query Processing.
 C.SQL follows the standard languages of ANSI and ISO.
 D.SQL is easily portable.
 
-Answer: A.
+Answer: A
 
 #IGNORE
 ##EASY
@@ -739,7 +739,7 @@ B.SQL follows BASE Model.
 C.SQL database cannot handle complex queries.
 D.SQL database does not require object-relational mapping.
 
-Answer: A.
+Answer: A
 Explanation: SQL is vertically scalable. SQL follows the ACID Model. SQL database can easily handle complex queries. SQL database does require object-relational mapping.
 
 #P1
@@ -753,38 +753,38 @@ B.Data
 C.Number
 D.None of the above
 
-Answer:  B.
+Answer:  B
 Explanation:In the database table, data types describe the kind of Data that they can contain.
 
 #P1
 ##EASY
 ###TF
 
-58.SQL permits attribute names to be repeated in the same relation.True or False?
+58.State True or False: SQL permits attribute names to be repeated in the same relation.True or False?
 
-A.True.
-B.False.
+A.True
+B.False
 
-Answer:B.
-
-#P1
-##EASY
-###TF
-
-59.A SQL query automatically eliminates duplicates (True / False) ?
-
-A.True.
-B.False.
-
-Answer: B.
+Answer:B
 
 #P1
 ##EASY
 ###TF
 
-60.Is it true that a SQL query will not work if there are no indexes on the relations?
+59.State True or False: A SQL query automatically eliminates duplicates (True / False) ?
 
-A.True.
-B.False.
+A.True
+B.False
 
-Answer: B.
+Answer: B
+
+#P1
+##EASY
+###TF
+
+60.State True or False: Is it true that a SQL query will not work if there are no indexes on the relations?
+
+A.True
+B.False
+
+Answer: B
