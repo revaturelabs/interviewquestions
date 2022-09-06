@@ -1,0 +1,65 @@
+#P2
+##EASY
+###TF
+
+1.Does the methods of StringBuilder are non-synchronized?
+
+A.Yes
+B.No
+
+Answer:A
+Explanation:StringBuilder is in java.lang package. StringBuilder is mutable strings that are stored in heap memory. StringBuilder is non-synchronized methods.StringBuilder is not thread-safe, so the performance is more than StringBuffer.
+
+#P2
+##EASY
+###TF
+
+2.String is immutable in Java,whereas StringBuffer and StringBuilder are mutable.
+
+A.False
+B.True
+
+Answer:B
+Explanation:As StringBuilders are mutable, we can change the values inbetween the string. The manipulation of strings is better because the reference of StringBuilder is not changed on this process. For storing and accessing the strings are prefered.
+
+#P1
+##EASY
+###TF
+
+3.Can we create StringBuilder object of any existing String?
+
+A.Yes.
+B.No.
+
+Answer:A
+Explanation:StringBuilder constructor accepts String object.For e.g.,String s = "Hello";StringBuilder sb = new StringBuilder(s);
+
+#P1
+##EASY
+###TF
+
+4.Can we concatenate two String with StringBuilder?
+
+A.No
+B.Yes
+
+Answer:B
+Explanation:using append() of StringBuilder we can append the two strings.
+
+#P1
+##EASY
+###BC
+
+5.Consider the following statements.
+i.The append() method inserts the value at the last position.
+ii.The insert() method inserts the value at the last position.
+
+Which of the above statements are correct?
+
+A.i and ii.
+B.only i.
+C.only ii.
+D.Both are incorrect.
+
+Answer:B
+Explanation:The append() method inserts the value at the last position. The insert() method inserts the value at the specified position.
