@@ -1,0 +1,578 @@
+// Classes and Objects Questions
+
+#P1
+##EASY
+###TF
+1. State True and False: "self is a keyword in python".
+
+A. True
+B. False
+
+Answer: B
+
+Explanation: self is not a keyword in python, it is a parameter to a function and we can use any other name also in place of self, but it is advisable to use self as it increases the code readability.
+
+#P1
+##EASY
+###BC
+2. Which of the following is the correct way of creating an object of a class Student in python?
+
+A. Student obj = new Student();
+B. obj Student = new Student();
+C. obj = Student()
+D. Student obj;
+
+Answer: C 
+
+Explanation: Other options are used to create object in another programming language , which is not support by Python.
+
+#P1
+##MEDIUM
+###BC
+3. What is the output of the following code?
+
+class Student:
+    name= "Henry"
+    age =22
+    def __init__(self, name, age):
+        self.name= name
+        self.age =age
+        
+    def show(current):
+        print(current.name, end =" ")
+        print(current.age)
+
+obj = Student("James", 23)
+obj.show()
+
+A. Henry 22
+B. James 23
+C. Error, because self is not used as a parameter in show().
+D. None
+
+Answer: B
+
+Explanation: option B. is corrent because both the print statements inside show() method is pointing to the current instance of a class, using current parameter.
+
+#P1
+##EASY
+###BC
+4. What is the output of the following code?
+
+class Student:
+    name= "Henry"
+    age =22
+    def __init__(self, name, age):
+        self.name= name
+        self.age =age
+        
+    def show(current):
+        print(Student.name, end =" ")
+        print(current.age)
+
+obj = Student("James", 23)
+obj.show()
+
+
+A. Henry 22
+B. James 23
+C. Error, because self is not used as a parameter in show().
+D. Henry 23
+
+Answer: D
+
+Explanation: In show() method, the 1st print statement is referring the class variable using the class name Student. 
+And another print statement it is referring to instance variable through current parameter. Hence option D. is correct.
+
+#P1
+##EASY
+###BC
+5. Predict the output of the given code.
+
+class Student:
+    name = "Henry"
+    age = 22
+    def __init__(self, name, age):
+        self.name= name
+        self.age =age
+        
+    def show():
+        print(self.name, end =" ")
+        print(Student.age)
+obj = Student("James", 23)
+obj.show()
+
+A. Henry 22
+B. James 23
+C. Error
+D. No output
+
+Answer: C
+
+Explanation: The above code will generate TypeError as no parameter is being passed to show() method. 
+Adding self in the show() method definition should resolve the problem. 
+
+#P2
+##EASY
+###TF
+6. In Python, all classes have a function known as____.
+
+A. __inti__()
+B. __init__()
+C. init
+D. __int__()
+
+Answer: B
+
+Explanation: __init__() is a constructor in python.
+
+#P1
+##EASY
+###BC
+7. Which keyword can be used to delete the objects of a class in python?
+
+A. delete
+B. remove
+C. pop
+D. del
+
+Answer: D
+
+Explanation: Through del we can delete objects created for a class.
+
+#P1
+##MEDIUM
+###BC
+8. Variable that is defined inside a method of a class and its value varies from object to object is known as?
+
+A. Instance variable
+B. Class variable
+C. Method variable
+D. Block variable
+
+Answer: A
+
+Explanation: An instance variable is a variable whose value varies from object to object. These variables are not shared by objects.
+
+#P1
+##MEDIUM
+###BC
+9. Predict the output of the following code.
+
+class Student:
+    name ="James"
+    def __init__(self, name):
+        self.name = name
+        
+    def show(self):
+        print(self.name)
+        
+obj = Student()
+obj.show()
+
+A. It prints output as James
+B. It prints the garbage value
+C. Error as one argument is required while creating the object
+D. Error as show() function requires additional argument
+
+Answer: C
+
+Explanation: During object creation, 1 argument is requried because __init__() method has another argument name other than self. For example obj= Student("Henry")
+
+#P1
+##EASY
+###TF
+10. State True and False: "__init__() is a constructor and public method in python".
+A. True
+B. False
+
+Answer: B
+
+Explanation: __init__() is a private method as well as constructor in python.
+
+#P1
+##MEDIUM
+###BC
+11. Predict the output of the following code.
+
+class Girl():
+
+    def __init__(self, name):
+      self.name = name
+
+    def namePrint(self):
+      print(self.name)
+
+girl1 = Girl("Emma")
+girl2 = Girl("Ava")
+girl1.namePrint()
+
+A. Emma
+B. Ava
+C. Emma
+   Ava
+D. Error
+
+Answer: A
+
+Explanation: Only the girl1 object is calling the namePrint() method, so only the value stored in girl1 object is printed, that is "Emma".
+
+
+#P1
+##MEDIUM
+###BC
+12. Which of the following statements is incorrect about the below code?
+
+class Girl():
+
+    def __init__(self, name):
+      self.name = name
+
+    def namePrint(self):
+      print(self.name)
+
+girl1 = Girl("Emma")
+girl2 = Girl("Ava")
+girl1.namePrint()
+
+A. The __init__ method is used to set initial values for attributes.
+B. 'self' is not needed in namePrint() method
+C. girl1 and girl2 are two different instances of the Girl class.
+D. girl2 has a different value for 'name' than girl1.
+
+Answer: B
+
+Explanation: 'self' is used to represent the current instance of the class and is compulsory to have self for every method inside the class in python.
+
+#P1
+##EASY
+###BC
+13. Which of the following is wrong statement for OOPs in python?
+A. OOPs can hide complexity.
+B. Class can contain functions as well as data
+C. Constructor methods are required to initialize an object
+D. Ability to create a new class by extending an existing class.
+
+Answer: C
+
+Explanation: A constructor is optional and can be used to set initial values for an object in python.
+
+#P1
+##EASY
+###BC
+14. which is used to store the data members and functions together in python.
+A. method
+B. class
+C. object
+D. instance
+
+Answer: B
+
+#P1
+##EASY
+###BC
+15. Which is not a keyword, but by convention it is used to refer to the current instance of a class.
+A. this
+B. super
+C. init
+D. self
+
+Answer: D
+
+#P2
+##EASY
+###TF
+16. State True or False: In order to extend a class, the child class should have access to all the data and functions of the parent class.
+A. True
+B. False
+
+Answer: B
+
+Explanation: The child class does not need access to the all the functions in parent class.
+
+#P1
+##EASY
+###BC
+17. Which of the following is wrong with respect to objects in python?
+A. Objects are real world enitites.
+B. Object is an instance of a class.
+C. We can create objects based on the number of methods present inside a class
+D. Python treats everything as objects including variables, functions, list, tuple, ect.
+
+Answer: C
+
+Explanation: There is no restriction in the number of objects that can be created for a class in python, but by convention it should be meaningful.
+
+#P1
+##EASY
+###BC
+18. How many objects and reference variables are there for the given python program?
+
+class Student():
+    print("hello-world")
+    
+Student()
+Student()
+obj= Student()
+
+
+A. 3 and 1
+B. 2 and 1
+C. 1 and 3
+D. 3 and 3
+
+Answer: A
+
+Explanation: In the above code, 3 objects are present, two without reference variable and 1 with reference variable, Obj = student().
+
+#P1
+##EASY
+###BC
+19. Odd one out: Which is not comes under four pillers of OOPs in python?
+A. Encapsulation
+B. Instantiation
+C. Inheritance
+D. Polymorphism
+
+Answer: B
+
+Explanation: 4 pillers of OOPs are, Abstraction, Polymorphism, Encapsulation, Inheritance.
+
+#P1
+##MEDIUM
+###BC
+20. Predict the output of the following code.
+
+class Number():
+    def __init__(self, num):
+       self.num = num 
+       num = 50
+       
+n = Number(60)
+print(n.num)
+
+
+A. 50
+B. 60
+C. Error
+D. None of the above
+
+Answer: B
+
+Explanation: In the above code, self is pointing to the current instance of the class which has the value 60.
+
+#P1
+##MEDIUM
+###BC
+21. Predict the output of the following code.
+
+class Test:
+    a = 10
+    def __init__(self, a=0):
+        self.a = a
+        
+    def assign(self, A.:
+        return self.a
+        
+obj1 = Test(11)
+print(obj1.assign(12))
+
+A. 10
+B. 11
+C. 12
+D. Error, too many 'a' variable used
+
+Answer: B
+
+Explanation: assign() method returns the current instance variable's value, which is 11 at that time.
+#P2
+##MEDIUM
+###BC
+22. Predict the output of the following code.
+
+class Test:
+    a = 10
+    def __init__(self, a=0):
+        self.a = a
+        
+    def assign(self, A.:
+        return Test.a
+        
+obj1 = Test(11)
+print(obj1.assign(12))
+
+
+A. 10
+B. 11
+C. 12
+D. Error, too many 'a' variable used
+
+Answer: A
+
+Explanation: assign() method returns the class variable's value, which is 10 at that time. Hence the output.
+
+#P1
+##MEDIUM
+###BC
+23. Predict the output of the following code.
+
+class Test:
+    a = 10
+    def __init__(self, a=0):
+        self.a = a
+        
+    def assign(self, A.:
+        return Test.a
+        
+obj1 = Test(11)
+print(obj1.assign(12))
+
+
+A. 10
+B. 11
+C. 12
+D. Error, too many 'a' variable used
+
+Answer: C 
+
+Explanation: assign() method returns the parameter's value of assign(), that was assign to it as 12 at the time of calling. Hence the output.
+
+#P2
+##EASY
+###TF
+24. State True and False: "It is mandatory to create a class with Starting letter in capital in python".
+A. True
+B. False
+
+Answer: B 
+
+Explanation: It is not mandatory to have a class with starting letter in uppercase but, it is recommended to make a class with starting letter in capital in python.
+
+#P2
+##MEDIUM
+###BC
+25. Predict the output of the following code.
+
+class Dance:
+    @staticmethod
+    def moves():
+        print("body moves started")
+
+    def stop(self):
+        print("body moves stoped")
+
+Dance.stop()
+
+A. body moves started
+B. body moves stoped
+C. Error
+D. Nothing will print
+
+Answer: C
+
+Explanation: As stop() is not a Static method of Dance class, We can not access it without creating the object for it.
+
+#P2
+##EASY
+###BC
+26. Which of the following is not an advantage of OOPs in Python?
+
+A. Code reusability 
+B. Effective problem solving
+C. Clear and clean code
+D. None of the above
+
+Answer: D
+
+#P2
+##EASY
+###TF
+27. State True and False: "In Python, we can create a class without an object of it".
+
+A. True
+B. False
+
+Answer: A
+
+#P2
+##EASY
+###TF
+28. A constructor is a class name in python.
+
+A. True
+B. False
+
+Answer: B
+
+#P2
+##EASY
+###TF
+29. Python by-default supports constructor overloading.
+
+A. True
+B. False
+
+Answer: B
+
+#P1
+##EASY
+###BC
+30. Is creating a function inside a class can hold any other parameter than self?
+
+def show(current):
+
+
+A. Yes 
+B. Not possible
+C. Maybe
+D. It will throw an error
+
+Answer: A
+
+#P1
+##EASY
+###TF
+31. Using double underscore __ before any variable or method name will create private modifiers in python.
+
+A. True
+B. False
+
+Answer: A 
+
+#P2
+##EASY
+###TF
+32. Using single underscore _ before any variable or method name will create public modifiers in python.
+
+A. True
+B. False
+
+Answer: B
+
+#P1
+##EASY
+###BC
+33. Which of the following statement is wrong regarding instance varibale?
+
+A. They are declared inside the method or a constructor of a class.
+B. These variables are shared accross all the objects of a class.
+C. Any changes to the instance variable will reflect to all the objects of that class.
+D. Both B and C
+
+Answer: D
+
+#P2
+##EASY
+###TF
+34. A class variable is shared accross all the objects of the class 
+
+A. True
+B. False
+
+Answer: A
+
+
+
+
+
+
