@@ -1,3 +1,5 @@
+##Java,Java8,FunctionalInterface
+
 #P1
 ##EASY
 ###BC
