@@ -87,7 +87,7 @@ Explanation:If we specify with protected the access modifier, the accessibility 
 ##EASY
 ###BC
 
-7.Consider the following statements.
+7.Choose the right option/options based on the following statements.
 
 i.If we specify with protected access modifier then the accessibility will be within same package or subclasses different package
 ii.If we specify with private access modifier then it can be used with in a same package subclass.
