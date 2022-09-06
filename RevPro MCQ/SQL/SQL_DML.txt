@@ -320,10 +320,10 @@ Explanation: extend() method increases the length of the list by the number of e
 ###BC
 28.The DML's which require user to specify what data is needed and how to get, it is called as____________.
 
-A. DDL DMLs. 
-B. Procedural DMLs. 
-C. Non - Procedural DMLs. 
-D. None of the above.
+A. DDL DMLs
+B. Procedural DMLs
+C. Non - Procedural DMLs
+D. None of the above
 
 Answer: B
 Explanation: Procedural DMLs ask the user to specify the data they need and how to obtain them. Declarative DMLs, also known as Non-procedural DMLs, ask the user to indicate what data are required but not how to obtain them.
@@ -366,10 +366,10 @@ Explanation: The SQL DROP TABLE command is used to remove an existing table from
 #IGNORE
 32. Which of the following statement is true?
 
-A. DELETE does not free the space containing the table and TRUNCATE free the space containing the table.
-B. Both DELETE and TRUNCATE free the space containing the table.
-C. Both DELETE and TRUNCATE does not free the space containing the table.
-D. DELETE free the space containing the table and TRUNCATE does not free the space containing the table.
+A. DELETE does not free the space containing the table and TRUNCATE free the space containing the table
+B. Both DELETE and TRUNCATE free the space containing the table
+C. Both DELETE and TRUNCATE does not free the space containing the table
+D. DELETE free the space containing the table and TRUNCATE does not free the space containing the table
 
 Answer: A
 Explanation: 
