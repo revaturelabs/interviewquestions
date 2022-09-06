@@ -1,3 +1,6 @@
+#P1
+##EASY
+##BC
 1. Find the output in the following code?
 
 public class Game {
@@ -21,6 +24,9 @@ public class Game {
 
 Answer: A
 
+#P1
+##EASY
+##BC
 2. Find the output in the following code?
 
 public class Child extends Parent, Grandparent{
@@ -34,6 +40,9 @@ public class Child extends Parent, Grandparent{
 
 Answer: C
 
+#P1
+##EASY
+##BC
 3. Find the output in the following code?
 
 private class Main{
@@ -47,7 +56,9 @@ private class Main{
 
 Answer: B
 
-
+#P1
+##EASY
+##BC
 4. Which of the following can be declared private?
 
     A. Class
@@ -57,7 +68,9 @@ Answer: B
 
 Answer: C
 
-
+#P1
+##EASY
+##BC
 5. What is the implicit superclass for all java classes?
 
     A. Object
@@ -67,7 +80,9 @@ Answer: C
 
 Answer: A
 
-
+#P1
+##EASY
+##BC
 6. What are the benefits of using Objects?
 
     A. Modularity
@@ -77,7 +92,9 @@ Answer: A
 
 Answer: D
 
-
+#P1
+##EASY
+##BC
 7. Variables declared in an interface are?
 
     A. public, static and final
@@ -87,13 +104,15 @@ Answer: D
 
 Answer: A
 
-
+#P1
+##MEDIUM
+##BC
 8. choose the right answer.
 
-1.local class
-2.Anonymous class
-3.lambda expression
-4.Nested class
+1. Local class
+2. Anonymous class
+3. Lambda Expression
+4. Nested class
 
 
 a. Used to group classes that are reliable with each other, to increase encapsulation and to maintain cohesive, concise and readable code.
@@ -108,7 +127,9 @@ d. Used to create more than one instance of a class, and to add new fields and m
 
 Answer: C
 
-
+#P1
+##EASY
+##BC
 9. By setting all the references to object as null, the object is eligible for _______.
 
     A. Re-Assigning
@@ -118,7 +139,9 @@ Answer: C
 
 Answer: B
 
-
+#P1
+##EASY
+##BC
 10. Which of the following options best explains the folowing code snippet?
 
 interface Car{
@@ -140,7 +163,9 @@ public class Audi implements Car{
 
 Answer: D
 
-
+#P1
+##EASY
+##BC
 11. An immutable class can be created by
 
     A. Declare class as final to avoid ineritance.
@@ -150,6 +175,9 @@ Answer: D
 
 Answer: D
 
+#P1
+##EASY
+##BC
 12. An object can be represneted as string using _______ method.
 
     A. toChar()
@@ -159,7 +187,9 @@ Answer: D
 
 Answer: B
 
-
+#P1
+##MEDIUM
+##BC
 13. Consider that a code is created for the sole purpose of notifying the user that the battery is fully charged, this can be used by any device like a mobile, pc, AirPods etc. Which of the following implementations suits the best?
 
     A. abstract class with a single abstract method and an anonymous class
