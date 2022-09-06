@@ -1,4 +1,6 @@
-
+#P1
+##EASY
+###BC
 1. Using SQL's ___________commands, you can restrict who has access to what data in a database.
 
 A. Database
@@ -7,9 +9,9 @@ C. Data control
 D. All of the Mentioned
 
 ANSWER:C
+Explanation: Data control is used for the controlling the access to database.Commands are Grant and Revoke.
 
-Explanation:Data control is used for the controlling the access to database.Commands are Grant and Revoke.
-
+#IGNORE
 2. Which of the following portions of a SQL query specifies the criteria for row selection?
 
 A. Where
@@ -18,21 +20,25 @@ C. Order By
 D. Group By
 
 ANSWER:A
-
 Explanation: In an SQL statement where clause states the conditions for row selection.
 
-3.When a transaction has completed, it is referred to as __________
+#P1
+##EASY
+###BC
+3. When a transaction has completed, it is referred to as __________
 
 A. Committed
 B. Aborted
 C. Rolled back
 D. Failed
 
-ANSWER:A
-
+ANSWER: A
 Explanation: A transaction that completes its execution is said to be Committed.
 
-4.What keyword pairs with Data Control Language (DCL) statements?
+#P1
+##MEDIUM
+###BC
+4. What keyword pairs with Data Control Language (DCL) statements?
 
 A. SELECT
 B. INSERT
@@ -40,22 +46,25 @@ C. DELETE
 D. GRANT
 
 ANSWER:D
+Explanation:GRANT is the keyword which is used with Data Control Language statements.
 
-Explanation: GRANT is the keyword which is used with Data Control Language statements.
+#P1
+##MEDIUM
+###BC
+5. DCL offers commands to complete tasks such as __________
 
-5.DCL Offers Commands To Complete Tasks Such As __________
-
-A. Change The Structure Of Tables
+A. change the structure of tables
 B. Insert, Update Or Delete Records And Data Values
-C. Authorizing Access And Other Control Over Database
+C. authorizing access and other control over database
 D. None of the Mentioned
 
 ANSWER:C
+Explanation:DCL is used to perform the action like authorization, Access and other control over database.
 
-Explanation: DCL is used to perform the action like authorization, Access and other control over database.
-
-
-6.The database language that enables access to or maintenance of database data
+#P1
+##EASY
+###BC
+6. The database language that enables access to or maintenance of database data
 
 A. DCL
 B. DML
@@ -66,57 +75,58 @@ ANSWER:A
 
 Explanation: DCL command like Grant and Revoke is used for to give access on the database.
 
-7.What statement or claims about DCL is/are TRUE?
+#P1
+##MEDIUM
+###BC
+7. What statement claims about DCL is TRUE?
 
 A. The DCL commands in SQL allow us to control which users have access to the data stored in SQL tables.
 B. There will be certain privileges that each user has; consequently, the data can be accessed by them.
-C. The DCL commands in SQL allow us to grant privileges to a user on the SQL database and its table(s), or revoke privileges that have  already been granted.
+C. The DCL commands in SQL allow us to grant privileges to a user on the SQL database and its table(s), or revoke privileges that have already been granted.
 D. All of the above
 
 ANSWER:D
 
-Explanation:
+#P1
+##EASY
+###BC
+8. Commands that falls under DCL include:
 
-The DCL commands in SQL allow us to control which users have access to the data stored in SQL tables.
-There will be certain privileges that each user has; consequently, the data can be accessed by them.
-The DCL commands in SQL allow us to grant privileges to a user on the SQL database and its table(s), or revoke privileges that have already been granted.
-
-8.Commands that fall under DCL include:
-
-A.GRANT
-B.REVOKE
-C.Both A. and B.
-D.None of the above
+A. GRANT
+B. REVOKE
+C. Both A and B
+D. None of the above
 
 ANSWER:C
-
 Explanation: Commands that comes under DCL are GRAND & REVOKE.
 
-9.The distinction between the commands GRAND and REVOKE is _____________
+#P1
+##MEDIUM
+###BC
+9. The distinction between the commands GRAND and REVOKE is _____________
 
-A.The GRANT command can be used to grant a user access to databases and tables whereas The REVOKE command can be used to revoke all access privileges already assigned to the user.
-B.The REVOKE command can be used to grant a user access to databases and tables whereas The GRANT command can be used to revoke all access privileges already assigned to the user.
+A. The GRANT command can be used to grant a user access to databases and tables whereas The REVOKE command can be used to revoke all access privileges already assigned to the user.
+B. The REVOKE command can be used to grant a user access to databases and tables whereas The GRANT command can be used to revoke all access privileges already assigned to the user.
 C. A transaction can be rolled back to its last saved state.
-D.None of the above
+D. None of the above
 
 ANSWER:A
+Explanation: The GRANT command can be used to grant a user access to databases and tables whereas The REVOKE command can be used to revoke all access privileges already assigned to the user.
 
-Explanation:
+#IGNORE
+10. What command in SQL is used to add new rows to a table?
 
-The GRANT command can be used to grant a user access to databases and tables whereas The REVOKE command can be used to revoke all access privileges already assigned to the user.
-
-10.What command in SQL is used to add new rows to a table?
-
-A. Alter Table
+A. Alter table
 B. Add row
 C. Insert
 D. Append
 
-ANSWER:C
-
+ANSWER: C
 Explanation: Alter Table will change the structure of the table.
 
-11.DDL, DCL, and DML are three language elements that make up a database management system (DBMS). Users and practitioners, two diverse groups of individuals, are both interested in them. Which of them do DBMS users typically deal with?
+#IGNORE
+11.DDL, DCL, and DML are three language elements that make up a database management system (DBMS). 
+Users and practitioners, two diverse groups of individuals, are both interested in them. Which of them do DBMS users typically deal with?
 
 A. DDL
 B. DML
@@ -124,10 +134,10 @@ C. DDL and DCL
 D. DCL and DML
 
 ANSWER:B
-
 Explanation: The users and practitioners are concerned with only Data manipulation languagecomponent of DBMS
 
-12.The log is a series of Entries that documents all database update actions.
+#IGNORE
+12. The log is a series of entries that documents all database update actions.
 
 A. Records
 B. Log records
@@ -135,10 +145,11 @@ C. Entries
 D. Redo
 
 ANSWER:B
-
 Explanation: Log records are the most commonly used recovery method.
 
-13.Which type of failure loses its data when a head crashes or a transfer operation fails?
+
+#IGNORE
+13. Which type of failure loses its data when a head crashes or a transfer operation fails?
 
 A. Disk failure
 B. System crash
@@ -146,9 +157,9 @@ C. Transaction failure
 D. All of the above
 
 ANSWER:A
-
 Explanation:This kind of error occurs due to the formation of bad sectors, head crashes, and unreachability to the disk.
 
+#IGNORE
 14.Which keyword is utilised in file organisation to access records?
 
 A. Primary key
@@ -160,6 +171,9 @@ a.Primary key
 
 Explanation:The collection of records is known as a file.
 
+#P1
+##EASY
+###BC
 15.Which of the following bottom-up strategies creates a high-level object by combining two or more low-level entities?
 
 A. Generalization
@@ -168,20 +182,22 @@ C. Aggregation
 D. All of the above
 
 ANSWER:A
-
 Explanation:Specialization is the opposite of generalization that break high-level entities into low-level entities.
 
+#P1
+##MEDIUM
+###BC
 16.Which of the subsequent statements is used to call the SQL function?
 
-A.Connection statement
-B.Callable statements
-C.Prepared Statements
-D.All of the above
+A. Connection statement
+B. Callable statements
+C. Prepared Statements
+D. All of the above
 
 ANSWER:B
+Explanation: This interface is provided by JDBC that allows invocation of SQL stored procedures and functions.
 
-Explanation:This interface is provided by JDBC that allows invocation of SQL stored procedures and functions.
-
+#IGNORE
 17.DriverManager.getConnection (....... , ....... , ........)
 Complete the blanks with appropriate answers.
 
@@ -191,10 +207,10 @@ C.URL or machine name where the server runs, User ID, Password
 D.User ID, Password, URL or machine name where the server runs
 
 ANSWER:C
-
 Explanation:This connection method is used to open the database because a database must be opened first before performing any action.
 
-18.Which of the following is employed for gaining access to huge items stored in a database?
+#IGNORE
+18. Which of the following is employed for gaining access to huge items stored in a database?
 
 A.setBlob()
 B.getBlob()
@@ -202,21 +218,23 @@ C.getClob()
 D.All of the above
 
 ANSWER:D
-
 Explanation:These are the predefined functions in SQL to access the large object from a database.
 
-19.Which of the following headers must be present in the Java programme in order to connect to the database using JDBC?
+#IGNORE
+19. Which of the following headers must be present in the Java programme in order to connect to the database using JDBC?
 
-A. Import java.sql.\_;
-B. Import java.sql.odbc.jdbc.\_;
-C. Import java.jdbc.\_;
-D. Import java.sql.jdbc.\_;
+A. Import java.sql._;
+B. Import java.sql.odbc.jdbc._;
+C. Import java.jdbc._;
+D. Import java.sql.jdbc._;
 
 ANSWER:A
-
 Explanation:The Java program must import java.sql.\*, which contains the interface definitions for the functionality provided by JDBC.
 
-20.Which of the following describes a bottom-up approach to database design where attributes are analysed in connection to one another?
+#P1
+##EASY
+###BC
+20. Which of the following describes the process of removing redundancy and unwanted data?
 
 A. Functional dependency
 B. Database modeling
@@ -225,9 +243,10 @@ D. Decomposition
 
 ANSWER:C
 
-Explanation:Normalisation is the process of removing redundancy and unwanted data.
-
-21.On what forms does the idea of functional dependency rest?
+#P2
+##MEDIUM
+###BC
+21.On which normal forms does the idea of functional dependency rest?
 
 A. 1NF
 B. 2NF
@@ -235,11 +254,13 @@ C. 3NF
 D. 4NF
 
 ANSWER:C
-
 Explanation: A relation is in third normal form if it holds at least one of the following conditions for every non-trivial functional dependency X ? Y.
 X is a super key.
 Y is a prime attribute, i.e., each element of Y is part of some candidate key.
 
+#P1
+##MEDIUM
+###BC
 22.Which of the following claims regarding the third normal form (3NF) is untrue?
 
 A. It is used to remove data duplication.
@@ -248,9 +269,9 @@ C. It is used to achieve data integrity.
 D. All of the above
 
 ANSWER:B
-
 Explanation:A relation will be in 3NF if it is in 2NF, and there should not be a transitive dependency for non-prime attributes.
 
+#IGNORE
 23.The table's properties in second normal form (2NF) are as follows:
 
 A. Eliminates any hidden dependency
@@ -260,8 +281,7 @@ D. None of the above
 
 ANSWER:A
 
-Explanation: The first normal form is used to eliminate duplicate values, and an attribute of a table cannot hold multiple values. 41) The characteristics of the table in second normal form
-
+#IGNORE
 24.All assertions made up until the commit will be ?
 
 A.Rollback
@@ -273,17 +293,19 @@ ANSWER:A
 
 Explanation:The rollback operation is used to undo the work done.
 
-25.Which of the following is utilised to maintain the operation's order?
+#P1
+##MEDIUM
+###TF
+25. A series of operations from one transaction to another transaction is known as a schedule, which is used to preserve the order of the operation in each of the individual transactions.
 
-A.Schedule
-B.Atomicity
-C.Active state
-D.None of the above
+A. True
+B. False
 
 ANSWER:A
 
-Explanation: A series of operations from one transaction to another transaction is known as a schedule, which is used to preserve the order of the operation in each of the individual transactions.
-
+#P1
+##EASY
+###BC
 26.The transaction becomes irreversible in the database if which of the following occurs.
 
 A.Commit
@@ -291,11 +313,10 @@ B.Rollback
 C.Flashback
 D.View
 
-ANSWER:D
-
+ANSWER: A
 Explanation: Commit operation is used to save the work permanently in the database.
 
-
+#IGNORE
 27.SELECT FROM employee JOIN uses (id); The preceding command is similar to:
 
 A.SELECT \_ FROM employee LEFT JOIN takes USING (id);
@@ -307,18 +328,21 @@ ANSWER:C
 
 Explanation:We can also write JOIN instead of INNER JOIN. JOIN is the same as INNER JOIN.
 
+#P1
+##EASY
+###BC
 28.How many tables can be brought together using a join?
 
-A.One
-B.Two
-C.Three
-D.Many
+A. One
+B. Two
+C. Three
+D. Many
 
 ANSWER:D
-
 Explanation:Join operation can combine many tables at a time.
 
-29.employee INSERT INTO (101, xyz, 5000);
+#IGNORE
+29. employee INSERT INTO (101, xyz, 5000);
 
 What keyword is absent from the preceding sentence?
 
@@ -328,22 +352,24 @@ C.column
 D.field
 
 ANSWER:B
-
 Explanation: To insert value in the table, we have to use the INSERT keyword with the VALUES clause.
 
-30.Pick the incorrect response to this question.
+#P1
+##EASY
+###BC
+30. Pick the incorrect response to this question.
 
-A.SELECT \* FROM table_name WHERE column_name;
+A.SELECT  FROM table_name WHERE column_name;
 B.SELECT column_name FROM table_name;
 C.SELECT column_name FROM table_name WHERE condidtion;
 D.SELECT column_name WHERE condition;
 
 ANSWER:D
-
 Explanation: The correct answer is option D because the SELECT command does not produce output without specifying the table name.
 
-31.What should the outcome of the following query be? SELECT * FROM class WHERE marks>90 AND 
-roll no = 20;
+#IGNORE
+31.What should be the outcome of the following query? 
+SELECT * FROM class WHERE marks>90 AND roll no = 20;
 
 A.Marks and roll_no
 B.class
@@ -352,8 +378,11 @@ D.All the columns from the class table.
 
 ANSWER:D
 
-Explanation: The "\*" character in SQL is used to show all columns of the table.
+Explanation: The "*" character in SQL is used to show all columns of the table.
 
+#P1
+##EASY
+###BC
 32.Only separate values from the table are returned by the ___________ statement.
 
 A.Different
@@ -362,12 +391,12 @@ C.None
 D.All
 
 ANSWER:B
-
 Explanation: The table column may contain duplicate values. If we need the unique value from any column, we need to apply a distinct command. The syntax for the distinct command is:
-
 SELECT DISTINCT column name FROM TABLE;
 
-
+#P1
+##EASY
+###BC
 33.The basic data type of SQL varchar(n) has ..... length Unicode characters, and char(n) has ...... length Unicode characters.
 
 A.Fixed, Variable
@@ -376,9 +405,9 @@ C.Variable, Variable
 D.Variable, Fixed
 
 ANSWER:D
-
 Explanation: The storage required for the char and varchar variable is different. Char() has a static allocation of space, whereas varchar() has a dynamic allocation of space. So the length of varchar() will vary according to the specified string.
 
+#IGNORE
 34.DELETE FROM X
 What does the preceding statement mean?
 
@@ -388,10 +417,9 @@ C.Delete fields
 D.Remove entry x
 
 ANSWER:D
-
 Explanation:The DELETE command removes the table entries.
 
-
+#IGNORE
 35.To remove all  rows from the table, you need to use the ... command.
 
 A.Truncate
@@ -400,9 +428,9 @@ C.Drop table
 D.Delete
 
 ANSWER:A
+Explanation:Truncate is used to delete complete data without removing the table structure.
 
-Explanation: Truncate is used to delete complete data without removing the table structure.
-
+#IGNORE
 36.Which of the following commands is the one you should use to remove the values from the relation?
 
 A. Delete from teaches;
@@ -410,10 +438,12 @@ B. Delete from teaches where Id =’Null’;
 C. Remove table teaches;
 D. Drop table teaches;
 
-ANSWER:D
 
+ANSWER:D
 Explanation: To delete the entries from the table Delete from table command should be used.
 
+
+#IGNORE
 37.Which of the following fixed roles can be used to add or remove the user IDs?
 
 A. db_sysadmin
@@ -422,24 +452,25 @@ C. db_securityadmin
 D. db_setupadmin
 
 ANSWER:B
-
 Explanation: Along with security, as the name suggests the db_accessadmin role also handles access. db_sysadmin refers to the system administrator. db_securityadmin as the name suggests it involves granting or declining permission to access the data ensuring security.
 
+#P1
+##MEDIUM
+###BC
 38.Why the following statement is erroneous?
-
-SELECT dept_name, ID, avg (salary)
+SELECT dept_name, dept_id, avg (salary)
 FROM instructor
 GROUP BY dept_name;
 
-A. Dept_id should not be used in group by clause
+A. Dept_name should not be used in group by clause
 B. Group by clause is not valid in this query
 C. Avg(salary) should not be selected
 D. None
 
-ANSWER:A
+ANSWER: B
 
-Explanation: Any property that does not occur in the group by clause must only appear in an aggregate function if it also appears in the select clause; otherwise, the query is considered incorrect.
 
+#IGNORE
 39.If OE and SCOTT are the users and OE is the owner of the ORDERS table, evaluate the statements the DBA issued in the order supplied.
 
 CREATE ROLE r1;
@@ -450,15 +481,16 @@ REVOKE SELECT ON oe.orders FROM scott;
 
 What would be the outcome after executing the statements?
 
-A. The REVOKE statement would give an error because the SELECT privilege has been granted to the role R1
+A. The REVOKE statement would give an error because the SELECT privilege has been granted 
+     to the role R1
 B. The REVOKE statement would remove the SELECT privilege from SCOTT as well as from the role R1
 C. SCOTT would be able to query the OE.ORDERS table
 D. SCOTT would not be able to query the OE.ORDERS table
 
 ANSWER:B
-
 Explanation: To perform operations on objects, the REVOKE statement is used to revoke rights from a single user or role, or from all users.
 
+#IGNORE
 40.SELECT INTO statement-
 
 A.Select the content from a table.
@@ -468,8 +500,11 @@ D.None of the above
 
 ANSWER:C
 
-Explanation: SELECT INTO statement copy the content from one table into another existing table.
+Explanation:
+SELECT INTO statement copy the content from one table into another existing table.
 
+
+#IGNORE
 41. DCL offers commands to carry out tasks such as __________
 
 A. Insert, Update or Delete Records and Values
@@ -479,17 +514,5 @@ D. None of Above
 
 ANSWER: B
 
-Explanation: The DCL Grant and Revoke commands are used to grant access to the database.
-
-
-
-
-
-
-
-
-
-
-
-
-
+Explanation: 
+The DCL Grant and Revoke commands are used to grant access to the database.
