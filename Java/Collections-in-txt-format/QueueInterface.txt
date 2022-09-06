@@ -211,7 +211,7 @@ Answer: C
 
 
 #P1
-##MEDIUM
+##EASY
 ###BC
 18. Predict the output of the following code snippet.
 
@@ -228,7 +228,7 @@ Answer: A
 
 
 #P1
-##MEDIUM
+##EASY
 ###BC
 19. Predict the output of the following code snippet.
 
