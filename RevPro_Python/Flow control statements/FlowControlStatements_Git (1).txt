@@ -73,7 +73,7 @@ D. SyntaxError
 
 Answer: D
 
-Explanation: if statements should end with semicolon(:) in python.
+Explanation: if statements should end with colon(:) in python.
 
 
 
@@ -124,7 +124,7 @@ D. if x>4
 
 Answer: C
 
-Explanation: All the other options except C. misses semicolon at last.
+Explanation: All the other options except C. misses colon at last.
 
 
 
