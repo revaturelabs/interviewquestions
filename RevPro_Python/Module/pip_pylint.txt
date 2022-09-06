@@ -17,7 +17,7 @@ Answer:c
 #P2
 ##EASY
 ###BC
-2.How will you install this package 'name_package'?
+2.How will you install the package 'name_package'?
 
 A.pip installs name_package
 B.PIP install package
@@ -25,7 +25,7 @@ C.pip install name_package
 D.None of the above
 
 Answer:C
-Explanation:If you want to install particular package we can use pip command.
+Explanation:If you want to install particular package, we can use pip command.
 
 
 #P2
@@ -44,7 +44,7 @@ Answer:C
 #P2
 ##EASY
 ###TF
-4.State True or False:In python pip list is used to list all packages on your system.
+4.State True or False:In python, pip list is used to list all packages on your system.
 
 A.True
 B.False
@@ -108,7 +108,7 @@ Answer:C
 #P2
 ##EASY
 ###BC
-9.Which following is not a feature of pylint in python?
+9.Which of the following is not a feature of pylint in python?
 
 A.Pylint is a tool.
 B.Lists Errors during the execution of the Python code
