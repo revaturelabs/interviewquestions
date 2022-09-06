@@ -1,4 +1,4 @@
-List
+##Python,DataTypes,List
 
 #P1
 ##EASY
@@ -242,7 +242,7 @@ Explanation: Here,we are using negative indexing to reverse a list.
 #P1
 ##EASY
 ###BC
-14.Write the output of the following code :
+14.Write the output of the following code.
 L=[1,2,3,4,5]
 for i in L:
      print(i,end=” “)
