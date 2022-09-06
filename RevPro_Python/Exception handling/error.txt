@@ -1,10 +1,10 @@
-Error
+##Python,ExceptionHandling,Error
 
 
 #P1
 ##EASY
 ###BC
-1.Ron is trying to open a file that doesn't exist in his computer system with the following line of code:
+1.Ron is trying to open a file that doesn't exist in his computer system with the following line of code.
 
 file_open = open('file1.txt', 'r')
 What Error he will get after executing this line in python interpreter?
@@ -72,7 +72,7 @@ Explanation:Because name 'prnt' is not defined
 #P1
 ##EASY
 ###BC
-5.What type of error it will throw the below code
+5.What type of error it will throw the below code?
 
 while True print("Software engineer")
 
