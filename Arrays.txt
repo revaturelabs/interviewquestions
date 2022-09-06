@@ -12,12 +12,12 @@ D. pipes ||
 
 Answer: A
 
-Explanation: For declaring an array we can use brackets[].
+Explanation: For declaring an array, we can use brackets[].
 
 #P1
 ##EASY
 ###BC
-2. Elements in an array are accessed?
+2. Elements in an array are accessed as,
 
 A. randomly
 B. sequentially
