@@ -385,7 +385,7 @@ D.NEW
 ANSWER:B
 
 #IGNORE
-38.To alter the name of a column or the structure of a table, which command should you use?
+39.To alter the name of a column or the structure of a table, which command should you use?
 A.MODIFY
 B.ADD
 C.CHANGE
@@ -396,7 +396,7 @@ ANSWER:D
 #P1
 ##EASY
 ###BC
-39.To change data in a table, which command is used?
+40.To change data in a table, which command is used?
 A.CHANGE
 B.ALTER
 C.UPDATE
@@ -407,7 +407,7 @@ ANSWER:C
 #P1
 ##EASY
 ###BC
-40.To alter the value, which keyword is used with the UPDATE command?
+41.To alter the value, which keyword is used with the UPDATE command?
 A.CHANGE
 B.MODIFY
 C.ADD
@@ -418,7 +418,7 @@ ANSWER:D
 #P1
 ##MEDIUM
 ###BC
-41.To delete a column, which keyword is used with the ALTER command?
+42.To delete a column, which keyword is used with the ALTER command?
 A.DROP
 B.DELETE
 C.REMOVE
@@ -429,7 +429,7 @@ ANSWER:A
 #P1
 ##EASY
 ###BC
-42.To delete a record from a database table, what command should you use?
+43.To delete a record from a database table, what command should you use?
 A.DROP
 B.DELETE
 C.MODIFY
@@ -440,7 +440,7 @@ ANSWER:B
 #P1
 ##MEDIUM
 ###BC
-43.What happens if you use the DELETE command without specifying a WHERE clause?
+44.What happens if you use the DELETE command without specifying a WHERE clause?
 A.Table will be deleted
 B.Top 10 records will be deleted
 C.All records of table will be deleted
@@ -449,7 +449,7 @@ D.Only one record will be deleted
 ANSWER:C
 
 #IGNORE
-44.To delete a table, what command is used?
+45.To delete a table, what command is used?
 A. DROP TABLE
 B. CLEAR TABLE
 C. REMOVE TABLE
@@ -460,7 +460,7 @@ ANSWER:A
 #P1
 ##COMPLEX
 ###BC
-45.To delete a database, what command is used?
+46.To delete a database, what command is used?
 A.DELETE DATABASE
 B.REMOVE DATABASE
 C.DROP DB
@@ -471,7 +471,7 @@ ANSWER:D
 #P1
 ##EASY
 ###BC
-46.In a database, what command is used to create a new table?
+47.In a database, what command is used to create a new table?
 A.CREATE
 B.CREATE TABLE
 C.CREATE NEW TABLE
@@ -482,7 +482,7 @@ ANSWER:B
 #P1
 ##MEDIUM
 ###BC
-47.To build a new database, what command should you use?
+48.To build a new database, what command should you use?
 A.CREATE DB
 B.CREATE DATABASE
 C.CREATE NEW DATABASE
@@ -493,7 +493,7 @@ ANSWER:B
 #P1
 ##EASY
 ###BC
-48.To extract data from a database table, what command is used?
+49.To extract data from a database table, what command is used?
 A.EXTRACT
 B.GET
 C.SELECT
@@ -504,7 +504,7 @@ ANSWER:C
 #P1
 ##MEDIUM
 ###BC
-49. To undo all modifications, what command is used?
+50. To undo all modifications, what command is used?
 A.UNDO
 B.CANCEL
 C.REVOKE
@@ -515,7 +515,7 @@ ANSWER:D
 #P1
 ##EASY
 ###BC
-50.To submit (apply) all modifications, which command is used?
+51.To submit (apply) all modifications, which command is used?
 A.COMMIT
 B.DONE
 C.SUBMIT
@@ -526,7 +526,7 @@ ANSWER:A
 #P1
 ##EASY
 ###BC
-51.What command is used to give the database user permissions?
+52.What command is used to give the database user permissions?
 A.GIVE
 B.PROVIDE
 C.GRT
@@ -537,7 +537,7 @@ ANSWER:D
 #P1
 ##EASY
 ###BC
-52.Which operator(s) are utilised in the WHERE clause to check multiple conditions?
+53.Which operator(s) are utilised in the WHERE clause to check multiple conditions?
 A.AND
 B.OR
 C.BOTH AND, OR
@@ -548,7 +548,7 @@ ANSWER:C
 #P1
 ##EASY
 ###BC
-53.To extract distinct values from a table, which statement is used?
+54.To extract distinct values from a table, which statement is used?
 A.SELECT DISTINCT
 B.SELECT RANDOM
 C.SELECT DIFFERENT
@@ -559,7 +559,7 @@ ANSWER:A
 #P1
 ##EASY
 ###BC
-54.To display a record set in descending order, which keyword is used with the ORDER BY clause?
+55.To display a record set in descending order, which keyword is used with the ORDER BY clause?
 A.DESCENDING
 B.DESC
 C.REVERSE
@@ -568,7 +568,7 @@ D.REV
 ANSWER:B
 
 #IGNORE
-55.What happens if you don't use the ASC or DESC keywords in the ORDER BY clause?
+56.What happens if you don't use the ASC or DESC keywords in the ORDER BY clause?
 A.Records will be displayed in Descending Order.
 B.Records will be displayed in Random Order.
 C.Records will be displayed in Ascending Order.
@@ -579,7 +579,7 @@ ANSWER:C
 #P1
 ##EASY
 ###BC
-56. If you wish to publish all table names that begin with the letter 'A,' which operator should you use?
+57. If you wish to publish all table names that begin with the letter 'A,' which operator should you use?
 A. LIKE
 B. PATTERN
 C. SIMILAR
@@ -590,7 +590,7 @@ ANSWER:A
 #P1
 ##EASY
 ###BC
-57.To check a range, which operator should be used?
+58.To check a range, which operator should be used?
 A.RANGE
 B.FROM TO
 C.BETWEEN
@@ -599,7 +599,7 @@ D.All of the above
 ANSWER:C
 
 #IGNORE
-58.In the WHERE clause, which operator allows you to provide multiple values?
+59.In the WHERE clause, which operator allows you to provide multiple values?
 A.LIKE
 B.IN
 C.BETWEEN
@@ -610,7 +610,7 @@ ANSWER:B
 #P1
 ##EASY
 ###BC
-59.______ are used to rename a table or column header temporarily.
+60.______ are used to rename a table or column header temporarily.
 A.RENAME
 B.ALTER
 C.RENAME
@@ -621,7 +621,7 @@ ANSWER:D
 #P1
 ##EASY
 ###BC
-60. It is possible for a __________ key to be the Primary Key.
+61. It is possible for a __________ key to be the Primary Key.
 Choose the correct term to complete the sentence.
 A.Foreign
 B.Primary
@@ -633,7 +633,7 @@ ANSWER:C
 #P1
 ##EASY
 ###BC
-61. Which key is utilised when two tables are linked together?
+62. Which key is utilised when two tables are linked together?
 A. Foreign
 B. Primary
 C. Candidate
@@ -642,7 +642,7 @@ D. Composite
 ANSWER:A
 
 #IGNORE
-62. Which of the following forms is founded on the idea of functional dependency:
+63. Which of the following forms is founded on the idea of functional dependency:
 A. 1NF
 B. 2NF
 C. 3NF
@@ -653,7 +653,7 @@ ANSWER:C
 #P1
 ##EASY
 ###BC
-63.For any pincode, there is only one city and state. Also, for given street, city and state, there is just one pincode. In normalization terms, empdt1 is a relation in
+64.For any pincode, there is only one city and state. Also, for given street, city and state, there is just one pincode. In normalization terms, empdt1 is a relation in
 A. 1 NF only
 B. 2 NF and hence also in 1 NF
 C. 3NF and hence also in 2NF and 1NF
@@ -664,7 +664,7 @@ ANSWER:B
 #P1
 ##MEDIUM
 ###BC
-64.An attribute in a relation is a foreign key if the _______ key from one relation is used as an attribute in that relation.
+65.An attribute in a relation is a foreign key if the _______ key from one relation is used as an attribute in that relation.
 A. Candidate
 B. Primary
 C. Super
@@ -673,7 +673,7 @@ D. Sub
 ANSWER:B
 
 #IGNORE
-65.The ______ is the one in which the primary key of one relation is used as a normal attribute in another relation.
+66.The ______ is the one in which the primary key of one relation is used as a normal attribute in another relation.
 A. Referential relation
 B. Referencing relation
 C. Referenced relation
@@ -684,7 +684,7 @@ ANSWER:C
 #P1
 ##EASY
 ###BC
-66.A _________ integrity constraint requires that the values appearing in specified attributes of any tuple in the referencing relation also appear in specified attributes of at least one tuple in the referenced relation.
+67.A _________ integrity constraint requires that the values appearing in specified attributes of any tuple in the referencing relation also appear in specified attributes of at least one tuple in the referenced relation.
 A. Referential
 B. Referencing
 C. Specific
@@ -695,7 +695,7 @@ ANSWER:A
 #P1
 ##MEDIUM
 ###BC
-67.The _________ provides a set of operations that take one or more relations as input and return a relation as an output.
+68.The _________ provides a set of operations that take one or more relations as input and return a relation as an output.
 A. Schematic representation
 B. Relational algebra
 C. Scheme diagram
@@ -706,7 +706,7 @@ ANSWER:B
 #P1
 ##MEDIUM
 ###BC
-68.The _______ operator takes the results of two queries and returns only rows that appear in both result sets.
+69.The _______ operator takes the results of two queries and returns only rows that appear in both result sets.
 A. Union
 B.Intersect
 C. Difference
@@ -717,7 +717,7 @@ ANSWER:B
 #P1
 ##MEDIUM
 ###BC
-69.A ________ is a pictorial depiction of the schema of a database that shows the relations in the database, their attributes, and primary keys and foreign keys.
+70.A ________ is a pictorial depiction of the schema of a database that shows the relations in the database, their attributes, and primary keys and foreign keys.
 A. Schema diagram
 B. Relational algebra
 C. Database diagram
@@ -728,7 +728,7 @@ ANSWER:A
 #P1
 ##MEDIUM
 ###BC
-70.The _______operation performs a set union of two “similarly structured” tables
+71.The _______operation performs a set union of two “similarly structured” tables
 A. Union
 B. Join
 C. Product
@@ -739,7 +739,7 @@ ANSWER:A
 #P1
 ##EASY
 ###BC
-71.The most commonly used operation in relational algebra for projecting a set of tuple from a relation is
+72.The most commonly used operation in relational algebra for projecting a set of tuple from a relation is
 A. Join
 B. Projection
 C. Select
@@ -748,7 +748,7 @@ D. Union
 ANSWER:C
 
 #IGNORE
-72._________ joins are SQL server default
+73._________ joins are SQL server default
 A. Outer
 B. Inner
 C. Equi
@@ -759,7 +759,7 @@ ANSWER:B
 #P1
 ##EASY
 ###BC
-73.The _____________ is essentially used to search for patterns in target string.
+74.The _____________ is essentially used to search for patterns in target string.
 A. Like Predicate
 B. Null Predicate
 C. In Predicate
@@ -768,7 +768,7 @@ D. Out Predicate
 ANSWER:A
 
 #IGNORE
-74._____ clause is an additional filter that is applied to the result.
+75._____ clause is an additional filter that is applied to the result.
 A.Select
 B.Group-by
 C.Having
@@ -777,7 +777,7 @@ D.Order by
 ANSWER:C
 
 #IGNORE
-75.In SQL the cross-tabs are created using
+76.In SQL the cross-tabs are created using
 A. Slice
 B. Dice
 C. Pivot
@@ -786,7 +786,7 @@ D. All of the mentioned
 ANSWER:A
 
 #IGNORE
-76.How many grouping is possible in this rollup?
+77.How many grouping is possible in this rollup?
 A. 8
 B. 4
 C. 2
@@ -795,7 +795,7 @@ D. 1
 ANSWER:B
 
 #IGNORE
-77.The operation of moving from finer-granularity data to a coarser granularity (by means of aggregation) is called a ________
+78.The operation of moving from finer-granularity data to a coarser granularity (by means of aggregation) is called a ________
 A. Rollup
 B. Drill down
 C. Dicing
@@ -806,7 +806,7 @@ ANSWER:A
 #P1
 ##MEDIUM
 ###BC
-78.A search key containing more than one attribute is referred to as a _________ search key.
+79.A search key containing more than one attribute is referred to as a _________ search key.
 A. Simple
 B. Composite
 C. Compound
@@ -817,7 +817,7 @@ ANSWER:B
 #P2
 ##COMPLEX
 ###BC
-79.While inserting the record into the index, if the search-key value does not appear in the index.
+80.While inserting the record into the index, if the search-key value does not appear in the index.
 A. The system adds a pointer to the new record in the index entry
 B. The system places the record being inserted after the other records with the same search-key values
 C. The system inserts an index entry with the search-key value in the index at the appropriate position
@@ -826,7 +826,7 @@ D.  None of the mentioned
 ANSWER:C
 
 #IGNORE
-80.In B+ tree the node which points to another node is called
+81.In B+ tree the node which points to another node is called
 A. Leaf node
 B. External node
 C. Final node
@@ -835,7 +835,7 @@ D. Internal node
 ANSWER:D
 
 #IGNORE
-81.An ____________ consists of a search-key value and pointers to one or more records with that value as their search-key value.
+82.An ____________ consists of a search-key value and pointers to one or more records with that value as their search-key value.
 A. Index entry
 B. Index hash
 C. Index cluster
@@ -846,7 +846,7 @@ ANSWER:A
 #P1
 ##MEDIUM
 ###BC
-82. If we want to retain all duplicates, we must write ________ in place of union.
+83. If we want to retain all duplicates, we must write ________ in place of union.
 A. Union all
 B. Union some
 C. Intersect all
@@ -855,7 +855,7 @@ D. Intersect some
 ANSWER:A
 
 #IGNORE
-83.The _____________ is essentially used to search for patterns in target string.
+84.The _____________ is essentially used to search for patterns in target string.
 A. Like Predicate
 B. Null Predicate
 C. In Predicate
@@ -864,7 +864,7 @@ D. Out Predicate
 ANSWER:A
 
 #IGNORE
-84. Materialised views make sure that
+85. Materialised views make sure that
 A. View definition is kept stable
 B. View definition is kept up-to-date
 C. View definition is verified for error
@@ -875,7 +875,7 @@ ANSWER:B
 #P1
 ##COMPLEX
 ###BC
-85.SQL view is said to be updatable (that is, inserts, updates or deletes can be applied on the view) if which of the following conditions are satisfied by the query defining the view?
+86.SQL view is said to be updatable (that is, inserts, updates or deletes can be applied on the view) if which of the following conditions are satisfied by the query defining the view?
 A. The from clause has only one database relation
 B. The query does not have a group by or having clause
 C. The select clause contains only attribute names of the relation and does not have any expressions, aggregates, or distinct specification
@@ -884,7 +884,7 @@ D. All of the mentioned
 ANSWER:D
 
 #IGNORE
-86.Which of the following is used at the end of the view to reject the tuples which do not satisfy the condition in where clause?
+87.Which of the following is used at the end of the view to reject the tuples which do not satisfy the condition in where clause?
 A. With
 B. Check
 C. With check
@@ -893,7 +893,7 @@ D. All of the mentioned
 ANSWER:C
 
 #IGNORE
-87.While inserting the record into the index, if the search-key value does not appear in the index.
+88.While inserting the record into the index, if the search-key value does not appear in the index.
 A. The system adds a pointer to the new record in the index entry
 B. The system places the record being inserted after the other records with the same search-key values
 C. The system inserts an index entry with the search-key value in the index at the appropriate position
@@ -902,7 +902,7 @@ D. None of the mentioned
 ANSWER:C
 
 #IGNORE
-88.A search key containing more than one attribute is referred to as a _________ search key.
+89.A search key containing more than one attribute is referred to as a _________ search key.
 A. Simple
 B. Composite
 C. Compound
@@ -911,7 +911,7 @@ D. Secondary
 ANSWER:B
 
 #IGNORE
-89. In a _______ clustering index, the index record contains the search-key value and a pointer to the first data record with that search-key value and the rest of the records will be in the sequential pointers.
+90. In a _______ clustering index, the index record contains the search-key value and a pointer to the first data record with that search-key value and the rest of the records will be in the sequential pointers.
 A. Dense
 B. Sparse
 C. Straight
@@ -920,7 +920,7 @@ D. Continuous
 ANSWER:A
 
 #IGNORE
-90.employing a single index for conjunctive selection. Here is
+91.employing a single index for conjunctive selection. Here is
 A. A10
 B. A7
 C. A9
@@ -929,7 +929,7 @@ D. A6
 ANSWER:B
 
 #IGNORE
-91.The __ algorithm searches over each index for tuple pointers that satisfy a specific criterion.
+92.The __ algorithm searches over each index for tuple pointers that satisfy a specific criterion.
 A. A2
 B. A4
 C. A9
@@ -938,7 +938,7 @@ D. A6
 ANSWER:C
 
 #IGNORE
-92.Each index is searched for pointers to tuples that satisfy each criteria if access pathways are available on each of a disjunctive selection's conditions. This is accomplished by
+93.Each index is searched for pointers to tuples that satisfy each criteria if access pathways are available on each of a disjunctive selection's conditions. This is accomplished by
 A. A10
 B. A7
 C. A9
@@ -947,7 +947,7 @@ D. A6
 ANSWER:A
 
 #IGNORE
-93. Index structures are referred to as __________ since they provide a path through which data can be located and accessed.
+94. Index structures are referred to as __________ since they provide a path through which data can be located and accessed.
 A. Index Search
 B. Linear search
 C. File scan
@@ -958,7 +958,7 @@ ANSWER:D
 #P1
 ##EASY
 ###BC
-94.Which join types are there in a join condition:
+95.Which join types are there in a join condition:
 A. Cross join
 B. Natural join
 C. Join with USING clause
@@ -967,7 +967,7 @@ D. All of the mentioned
 ANSWER:D
 
 #IGNORE
-95.How many join types in join condition:
+96.How many join types in join condition:
 A. 2
 B. 3
 C. 4
@@ -976,7 +976,7 @@ D. 5
 ANSWER:D
 
 #IGNORE
-96.The operation which is not considered a basic operation of relational algebra is
+97.The operation which is not considered a basic operation of relational algebra is
 A. Join
 B. Selection
 C. Union
@@ -987,7 +987,7 @@ ANSWER:A
 #P1
 ##COMPLEX
 ###BC
-97.Which join refers to join records from the right table that have no matching key in the left table are include in the result set:
+98.Which join refers to join records from the right table that have no matching key in the left table are include in the result set:
 A. Left outer join
 B. Right outer join
 C. Full outer join
@@ -996,7 +996,7 @@ D. Half outer join
 ANSWER: A
 
 #IGNORE
-98.The _______operation performs a set union of two “similarly structured” tables
+99.The _______operation performs a set union of two “similarly structured” tables
 A. Union
 B. Join
 C. Product
@@ -1005,7 +1005,7 @@ D. Intersect
 ANSWER: A
 
 #IGNORE
-99.The most commonly used operation in relational algebra for projecting a set of tuple from a relation is
+100.The most commonly used operation in relational algebra for projecting a set of tuple from a relation is
 A. Join
 B. Projection
 C. Select
@@ -1014,7 +1014,7 @@ D. Union
 ANSWER:C
 
 #IGNORE
-100. The _________ provides a set of operations that take one or more relations as input and return a relation as an output.
+101. The _________ provides a set of operations that take one or more relations as input and return a relation as an output.
 A. Schematic representation
 B. Relational algebra
 C. Scheme diagram
@@ -1025,7 +1025,7 @@ ANSWER:B
 #P1
 ##COMPLEX
 ###BC
-101.Indices whose search key specifies an order different from the sequential order of the file are called ___________ indices.
+102.Indices whose search key specifies an order different from the sequential order of the file are called ___________ indices.
 A. Nonclustered
 B. Secondary
 C. All of the mentioned
@@ -1036,7 +1036,7 @@ ANSWER:C
 #P1
 ##COMPLEX
 ###BC
-102.In ordered indices the file containing the records is sequentially ordered, a ___________ is an index whose search key also defines the sequential order of the file.
+103.In ordered indices the file containing the records is sequentially ordered, a ___________ is an index whose search key also defines the sequential order of the file.
 A. Clustered index
 B. Structured index
 C. Unstructured index
@@ -1045,7 +1045,7 @@ D. Nonclustered index
 ANSWER:B
 
 #IGNORE
-103. In a B+-tree index ______ for each value, we would normally maintain a list of all records with that value for the indexed attribute.
+104. In a B+-tree index ______ for each value, we would normally maintain a list of all records with that value for the indexed attribute.
 A. Leaf
 B. Node
 C. Root
@@ -1054,7 +1054,7 @@ D. Link
 ANSWER:A
 
 #IGNORE
-104.A tablespace is further broken down into ________
+105.A tablespace is further broken down into ________
 A. Tablespace
 B. Segments
 C. Extents
@@ -1063,7 +1063,7 @@ D. Blocks
 ANSWER:B
 
 #IGNORE
-105.To identify the deleted records we use the ______________
+106.To identify the deleted records we use the ______________
 A. Existence bitmap
 B. Current bitmap
 C. Final bitmap
@@ -1074,7 +1074,7 @@ ANSWER:A
 #P1
 ##MEDIUM
 ###BC
-106.If every non-key attribute is functionally depedent primary key, then the relation will be in	
+107.If every non-key attribute is functionally depedent primary key, then the relation will be in	
 A.First normal form	
 B.Second normal form	
 C.Third form	
@@ -1083,7 +1083,7 @@ D.Fourth normal form
 ANSWER:B
 
 #IGNORE
-107.Which normal form is considered adequate for relational database design?	
+108.Which normal form is considered adequate for relational database design?	
 A.2NF	
 B.3NF	
 C.4NF	
