@@ -1,5 +1,5 @@
 #IGNORE
-1. ____ refers to dirctories of packaged jar files that contains metadata about the project.
+1. ____ refers to directories of packaged jar files that contains metadata about the project.
 
 A. Maven Repositories
 B. Project dependency
