@@ -1,3 +1,6 @@
+#P1
+##EASY
+###BC
 1. _______ doesn't store duplicate values and one key can have at most one value.
 
     A. Stack
@@ -7,6 +10,9 @@
 
 Answer: D
 
+#P1
+##EASY
+###BC
 2. _______ is synchronized. It is thread-safe and can be shared with many threads.
 
     A. Queue
@@ -16,15 +22,21 @@ Answer: D
 
 Answer: B
 
+#P1
+##EASY
+###BC
 3. _______ is slow in comparison to _______ because it provides the performance of O(log(n)) for most operations like add(), remove() and contains().
 
     A. TreeMap, HashMap
     B. HashSet, HashMap
     C. HashMap, TreeMap
-    D. None of the above
+    D. HashMap, HashSet
 
 Answer: A
 
+#P1
+##EASY
+###BC
 4. What happens when you try to add a key-value pair to an existing key in HashMap?
 
     A. It remains unchanged
@@ -34,6 +46,9 @@ Answer: A
 
 Answer: B
 
+#P1
+##EASY
+###BC
 5. The _______ should be used when we do not require key-value pair in sorted order.
 
     A. HashSet
@@ -43,6 +58,9 @@ Answer: B
 
 Answer: D
 
+#P1
+##EASY
+###BC
 6. _______ is the set of key-value pairs from a Map.
 
     A. entrySet
@@ -52,6 +70,9 @@ Answer: D
 
 Answer: A
 
+#P1
+##MEDIUM
+###BC
 7. Consider that a country stores its citizen's data in a form of Aadhar number and age. A deadly virus outbreak led to a global shutdown and the country wants to vaccinate the older people first as they get easily infected by the virus. Which of the following best represents the scenario?
 
     A. TreeMap with age as key and Aadhar number as value but ordered by key.
@@ -61,6 +82,9 @@ Answer: A
 
 Answer: B
 
+#P1
+##MEDIUM
+###BC
 8. Write a syntax to order the HashMap based on the value?
 
     A. hm.entrySet().stream().sorted(Map.Entry.comparingByValue()).forEach(System.out::println)
@@ -70,6 +94,9 @@ Answer: B
 
 Answer: A
 
+#P1
+##MEDIUM
+###BC
 9. Given 2 HashMaps, what is the syntax to check if a Map is a sub-map of another Map.
 
     A. System.out.println(Map1.entrySet().containsAll(Map2.keySet()))
@@ -79,6 +106,9 @@ Answer: A
 
 Answer: B
 
+#P1
+##EASY
+###BC
 10. HashMap allows a _______ null key and _______ null values.
 
     A. single, single
