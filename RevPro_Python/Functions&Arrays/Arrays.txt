@@ -1,4 +1,4 @@
-// Arrays Questions
+##Python,Functions&Arrays,Arrays
 
 #P1
 ##EASY
@@ -17,7 +17,7 @@ Explanation: For declaring an array, we can use brackets[].
 #P1
 ##EASY
 ###BC
-2. Elements in an array are accessed as,
+2. Elements in an array are accessed as:
 
 A. randomly
 B. sequentially
