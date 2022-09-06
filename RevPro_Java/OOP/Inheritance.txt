@@ -1,7 +1,7 @@
 #P1
 ##EASY
 ###BC
-1. Harry potter's Invisibility cloak was passed down to him by his father James and James potter got it from his father Henry potter, this is a clear example for?
+1. Harry potter's Invisibility clock was passed down to him by his father James and James potter got it from his father Henry potter, this is a clear example for?
 
     A. Hybrid Inheritance
     B. Multilevel Inheritance
@@ -83,7 +83,7 @@ Answer: A
 #P1
 ##EASY
 ###BC
-8. A parent class may or may not have all the properties of Child class, so parent class can be ecplicily downcasted to Child class. This is called as _______.
+8. A parent class may or may not have all the properties of Child class, so parent class can be explicitly downcasted to Child class. This is called as _______.
 
     A. Upcasting
     B. Downcasting
