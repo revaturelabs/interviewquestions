@@ -420,7 +420,7 @@ Explanation: DISTINCT keyword gives the unique record.
 ##MEDIUM
 ###BC
 
-1.Table A:
+36.Table A:
 Id   Name    Age
 ----------------
 12   Arun    60
@@ -456,7 +456,7 @@ Answer: B
 #P1
 ##COMPLEX
 ###BC
-2. Consider a database table T containing two columns X and Y each of type integer. 
+37. Consider a database table T containing two columns X and Y each of type integer. 
 After the creation of the table, one record (X=1, Y=1) is inserted in the table. 
 Let MX and MY denote the respective maximum values of X and Y among all records in the table at any point in time. 
 Using MX and MY, new records are inserted in the table 128 times with X and Y values being MX+1, 2*MY+1 respectively. 
@@ -472,7 +472,7 @@ D.	257
 Answer: A
 
 #IGNORE
-3. Database table by name Loan_Records is given below.
+38. Database table by name Loan_Records is given below.
 
 Borrower    Bank_Manager   Loan_Amount
  Ramesh      Sunderajan     10000.00
@@ -496,7 +496,7 @@ Answer: C
 #P1
 ##COMPLEX
 ###BC
-4. A relational schema for a train reservation database is given below. Passenger (pid, pname, age) Reservation (pid, class, tid)
+39. A relational schema for a train reservation database is given below. Passenger (pid, pname, age) Reservation (pid, class, tid)
 
 Table: Passenger 
 pid   pname   age
@@ -533,7 +533,7 @@ Answer: C
 
 
 #IGNORE
-5. Consider the following relational schema:
+40. Consider the following relational schema:
 
 Suppliers(sid:integer, sname:string, city:string, street:string)
 Parts(pid:integer, pname:string, color:string)
@@ -560,7 +560,7 @@ Answer: A
 #P1
 ##COMPLEX
 ###BC
-6. Consider the table employee(empId, name, department, salary) and the two queries Q1 ,Q2 below. 
+41. Consider the table employee(empId, name, department, salary) and the two queries Q1 ,Q2 below. 
 Assuming that department 5 has more than one employee, and we want to find the employees who get higher salary than anyone in the department 5, which one of the statements is TRUE for any arbitrary employee table?
 
 Q1 : Select e.empId
@@ -583,7 +583,7 @@ Answer: B
 #P1
 ##MEDIUM
 ###BC
-7. Given the following statements:
+42. Given the following statements:
 
     S1: A foreign key declaration can always 
         be replaced by an equivalent check
@@ -608,7 +608,7 @@ Answer: D
 #P1
 ##COMPLEX
 ###BC
-8. Given the following schema:
+43. Given the following schema:
 
      employees(emp-id, first-name, last-name, hire-date, dept-id, salary)
      departments(dept-id, dept-name, manager-id, location-id) 
@@ -634,7 +634,7 @@ Answer: B
 #P1
 ##EASY
 ###BC
-9. Given a data set of  x values [-8, 1, 0, -2, -3, 7, 5, 4, -6, 6, -9, 10, -4, -10, 3]
+44. Given a data set of  x values [-8, 1, 0, -2, -3, 7, 5, 4, -6, 6, -9, 10, -4, -10, 3]
 With a result set [1,2,3,4,5]
 Choose the select statement that best represents the query.
 
@@ -648,7 +648,7 @@ Answer:B
 #P1
 ##COMPLEX
 ###BC
-10. Given a data set of  x values [-8, 1, 0, -2, -3, 7, 5, 4, -6, 6, -9, 10, -4, -10, 3]
+45. Given a data set of  x values [-8, 1, 0, -2, -3, 7, 5, 4, -6, 6, -9, 10, -4, -10, 3]
 With a result set [-10, -9, -8, -6, -3, -2]
 Choose the select statement that best represents the query.
 
@@ -662,7 +662,7 @@ Answer:C
 #P1
 ##EASY
 ###BC
-11. Given a data set ['Domino', 'Thomas', 'Crystal', 'John', 'Allison']
+46. Given a data set ['Domino', 'Thomas', 'Crystal', 'John', 'Allison']
 When selected name from data set with LIKE '%om%' condition which will be correct result set?
 
     A.['Domino', 'Thomas']
@@ -676,7 +676,7 @@ Answer:A
 #P1
 ##COMPLEX
 ###BC
-12. Debug the SQL query?
+47. Debug the SQL query?
 
 SELECT Id, name, YEAR(BillingDate) AS Year
 FROM Records
@@ -693,7 +693,7 @@ Explanation:The expression BillingYear in the WHERE clause is invaliD. Even thou
 
 
 #IGNORE
-13. Write the sql query to get the employee details using last name ?
+48. Write the sql query to get the employee details using last name ?
 
 |Table: Employees|
 |First_Name | Last_Name | Birth_Date | Gender | Joining_Date |
@@ -719,7 +719,7 @@ Explanation:By using SELECT key in addition to WHERE clause to be used for Last_
 #P1
 ##COMPLEX
 ###BC
-14. Write a SQL query to find salespeople who receive commissions between 0.12 and 0.14 (begin and end values are included). Return salesman_id, name, city, and commission.
+49. Write a SQL query to find salespeople who receive commissions between 0.12 and 0.14 (begin and end values are included). Return salesman_id, name, city, and commission.
 
 |Sales|
 
@@ -757,7 +757,7 @@ Answer: D
 #P1
 ##MEDIUM
 ###BC
-15. Which is the correct syntax for UNION Operator?
+50. Which is the correct syntax for UNION Operator?
 
 A.
 SELECT column_name(s) TABLE table_name1
@@ -779,7 +779,7 @@ Answer: B
 Explanation:SELECT column_name(s) FROM table_name1 UNION SELECT column_name(s) FROM table_name2 correct syntax for applying UNION operator.
 
 #IGNORE
-16. Table Employee has 10 Records. It has a non - NULL SALARY column which is also UNIQUE. The SQL statement
+51. Table Employee has 10 Records. It has a non - NULL SALARY column which is also UNIQUE. The SQL statement
     `sql SELECT COUNT(*) FROM Employee WHERE SALARY > ANY (SELECT SALARY FROM EMPLOYEE); `Prints
 
 A.10
@@ -796,7 +796,7 @@ So, nine times will the condition WHERE SALARY > ANY (SELECT SALARY FROM employe
 #P1
 ##MEDIUM
 ###BC
-17. Predict the output for the given query.
+52. Predict the output for the given query.
 
 | ID  | NAME      | AGE | ADDRESS        | SALARY |
 | --- | --------- | --- | -------------- | ------ |
@@ -820,7 +820,7 @@ Answer:A
 Explanation: Whichever column you are using to sort that column should be in the column-list.
 
 #IGNORE
-18)Which is the correct sql query to get the employee details using Last_Name ?
+53. Which is the correct sql query to get the employee details using Last_Name ?
 
 |Table: Employees|
 
@@ -841,7 +841,7 @@ Answer:D.
 Explanation: By using SELECT key in addition to WHERE clause to be used for Last_Name
 
 #IGNORE
-19. Predict the output for the given query.
+54. Predict the output for the given query.
 
     | ID  | NAME      | AGE | ADDRESS        | SALARY |
     | --- | --------- | --- | -------------- | ------ |
@@ -865,7 +865,7 @@ Answer:A
 Explanation:Whichever column you are using to sort that column should be in the column-list.
 
 #IGNORE
-20. Table – Worker
+55. Table – Worker
 
 | WORKER_ID | FIRST_NAME | LAST_NAME | SALARY | JOINING_DATE        | DEPARTMENT |
 | --------- | ---------- | --------- | ------ | ------------------- | ---------- |
@@ -890,7 +890,7 @@ Answer:A
 #P1
 ##EASY
 ###BC
-21. Table – Worker
+56. Table – Worker
 
 | WORKER_ID | FIRST_NAME | LAST_NAME | SALARY | JOINING_DATE        | DEPARTMENT |
 | --------- | ---------- | --------- | ------ | ------------------- | ---------- |
@@ -915,7 +915,7 @@ Answer:C
 #P1
 ##MEDIUM
 ###BC
-22.Table – Worker
+57.Table – Worker
 
 | WORKER_ID | FIRST_NAME | LAST_NAME | SALARY | JOINING_DATE        | DEPARTMENT |
 | --------- | ---------- | --------- | ------ | ------------------- | ---------- |
@@ -940,7 +940,7 @@ Answer: D
 #P1
 ##MEDIUM
 ###BC
-23. Assume a table Records which holds the billing record for the past 2 decades, 
+58. Assume a table Records which holds the billing record for the past 2 decades, 
 Find the missing query to fetch the record from 2010.
 
 SELECT Id, name, YEAR(BillingDate) AS Year
@@ -957,7 +957,7 @@ Explanation: The expression BillingYear in the WHERE clause is invaliD. Even tho
 #P1
 ##MEDIUM
 ###BC
-24. Given the following tables
+59. Given the following tables
 
 Table 1: worker
 
@@ -1024,7 +1024,7 @@ Answer: B
 #P1
 ##COMPLEX
 ###BC
-25. How to select UNIQUE records from a table using a SQL Query?
+60. How to select UNIQUE records from a table using a SQL Query?
 
 Table: Employees
 
@@ -1075,7 +1075,7 @@ Answer: C
 #P1
 ##MEDIUM
 ###BC
-26)Assume a table Student with column First_Name, now Write a Query in SQL to show the first 5 characters of the string.
+61. Assume a table Student with column First_Name, now Write a Query in SQL to show the first 5 characters of the string.
 
 A.
 SELECT SUBSTRING(First_Name, 1, 5) from Student;
