@@ -14,7 +14,7 @@ Char(20) ---> fixed length
 Varchar(20) ---> variable length 
 
 #IGNORE
-2.In MySQL DB The maximum length of the char columns is ____________.
+2.In MySQL DB The maximum length of the char columns is ____
 
 A. 255 bytes
 B. 256 bytes 
