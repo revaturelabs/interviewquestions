@@ -13,7 +13,7 @@ Design patterns are the reusable solutions that solve common problems of softwar
 
 ---
 
-2. How Inversion of Control can be used as a design pattern ?
+2. How Inversion of Control can be used in design pattern ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -35,7 +35,7 @@ public class A{
 
 ```
 
-Here, we have a dependency between classes A and B. If we had the IoC pattern implemented, we would not have used the new operator to assign value to the dependent variable. It would have been something as shown below:
+We have a dependency between classes A and B. If we had the IoC pattern implemented, we would not have used the new operator to assign value to the dependent variable. It can be shown as:
 
 ```java
 
@@ -84,8 +84,7 @@ We have inverted the control of handing the dependency of instantiating the obje
 
 <blockquote>
 
-
-The Open close principle states that any class, component or entity should be open for extension but closed for modification. A class can be extended via Inheritance, Interfaces, Composition whenever required instead of modifying the code of the class. Consider an instance where we have a class that calculates the area of a square. Later, we get the requirement of calculating the area of a rectangle. Here, instead of modifying the original class, we can create one base class and this base class can be extended by the new class rectangle.
+The Open close principle states that any class, component or entity should be open for extension but closed for modification. A class can be extended via Inheritance, Interfaces, Composition whenever required instead of modifying the code of the class.For ex:We have a class that calculates the area of a square. we get the requirement of calculating the area of a rectangle.Instead of modifying the original class, we can create one base class and this base class can be extended by the new class rectangle.
 
 </blockquote>
 
@@ -175,33 +174,33 @@ For example, Let’s consider 3 classes Square, Rectangle and Triangle. We will 
    public class Rectangle implements Shape {
       @Override
       public void draw() {
-         System.out.println("Rectangle Drawn");
+         System.out.println("Showing Rectangle class");
       }
    }
    
    public class Square implements Shape {
       @Override
       public void draw() {
-         System.out.println("Square Drawn");
+         System.out.println("Showing Square class");
       }
    }
   
    public class Triangle implements Shape {
       @Override
       public void draw() {
-         System.out.println("Triangle Drawn");
+         System.out.println("Showing Triangle class");
       }
    }
 
 ```
 
-- Create ShapeFactory class and create a method called getShapeInstance() for generating objects of the concrete classes defined above.
+- Create ShapeFactory class and create a method called getShape() for generating objects of the concrete classes defined above.
 
 ```java
 
    public class ShapeFactory {
       //the method will be used to get object of required shape
-      public Shape getShapeInstance(String type){
+      public Shape getShape(String type){
          if(type == null){
             return null;
          } 
@@ -235,9 +234,9 @@ For example, Let’s consider 3 classes Square, Rectangle and Triangle. We will 
    }
 
 Output:
-  Triangle Drawn
-  Rectangle Drawn
-  Square Drawn
+  Showing Rectangle class
+  Showing Triangle class
+  Showing Squarue class
 	
 ```
 	
@@ -258,7 +257,7 @@ Output:
 
 The adapter design pattern falls under the category of a structural design pattern that lets incompatible objects collaborate. It acts as a wrapper between 2 different objects. The adapter catches the call for one object and transforms them to be recognizable by the second object.
 
-Let us understand this with the help of an example of a USB to Ethernet adapter that is used when we have an ethernet interface at one end and the USB interface on the other end. The USB and ethernet are incompatible with each other which is why we require an adapter. The adapter class has a Client class that expects some object type and it has an Adaptee class that offers the same feature but by exposing a different interface. Now to make these both communicate, we have an Adapter class. The client requests the Adapter by using the target interface. The Adapter class translates the request using the Adaptee Interface on the adaptee. The Client receives the results unaware of the adapter’s role. This has been described in the class diagram as shown below:
+For example:A USB to Ethernet adapter that is used when we have an ethernet interface at one end and the USB interface on the other end. The USB and ethernet are incompatible with each other which is why we require an adapter. The adapter class has a Client class that expects some object type and it has an Adaptee class that offers the same feature but by exposing a different interface. Now to make these both communicate, we have an Adapter class. The client requests the Adapter by using the target interface. The Adapter class translates the request using the Adaptee Interface on the adaptee. The Client receives the results unaware of the adapter’s role. This has been described in the class diagram as shown below:
 
 Let us consider that we have a MediaPlayer Interface which is implemented by the AudioPlayer class. The AudioPlayer can play mp3 format by default. Consider another interface AdvancedPlayer that is being implemented by MP4Player class that plays mp4 formats and WAVPlayer that plays wav formats. If we want to make AudioPlayer class play other formats, then we make use of the MediaAdapter class that implements the MediaPlayer Interface and uses the AdvancedPlayer objects for playing the required format. The code implementation of this scenario is as follows:
 
@@ -340,18 +339,18 @@ public class AudioPlayer implements MediaPlayer {
 public class Driver {
   public static void main(String[] args) {
      AudioPlayer audioPlayer = new AudioPlayer();
-     audioPlayer.play("mp3", "music1.mp3");
-     audioPlayer.play("wav", "music2.wav");
-     audioPlayer.play("mp4", "music3.mp4");
-     audioPlayer.play("avi", "music4.avi");
+     audioPlayer.play("mp3", "m1.mp3");
+     audioPlayer.play("wav", "m2.wav");
+     audioPlayer.play("mp4", "m3.mp4");
+     audioPlayer.play("avi", "m4.avi");
   }
 }
 
 Output:
 
-MP3 file music1.mp3 Playing...
-WAV File music2.wav Playing...
-MP4 File music3.mp4 Playing...
+MP3 file m1.mp3 Playing...
+WAV File m2.wav Playing...
+MP4 File m3.mp4 Playing...
 Format not supported
 
 ```
@@ -370,7 +369,7 @@ Format not supported
 
 <blockquote>
  
-Proxy design pattern falls under the category of structural design that represents the functionality of other classes. This pattern lets the developers provide a substitute for another object. This is called a proxy object. This helps to control the access to the original object and allows us to perform many tasks before or after the request reaches the original object. For ex, we have a ServiceInterface interface that has some operation. This interface is being implemented by a Service class and a Proxy class. The Service class has useful business logic and the Proxy class has a reference field pointing to the service object. Once the proxy finishes processing lazy initialization, logging, caching etc, the request will be passed to the service object. And finally, we have a client that works with the services and the proxies by using the interface. This helps to pass proxy objects to any piece of code
+Proxy design pattern lets the developers provide a substitute for another object. This is called a proxy object. This helps to control the access to the original object and allows us to perform many tasks before or after the request reaches the original object. For ex, we have a ServiceInterface interface that has some operation. This interface is being implemented by a Service class and a Proxy class. The Service class has useful business logic and the Proxy class has a reference field pointing to the service object. Once the proxy finishes processing lazy initialization, logging, caching etc, the request will be passed to the service object. And finally, we have a client that works with the services and the proxies by using the interface. This helps to pass proxy objects to any piece of code.
 
 </blockquote>
 
@@ -441,7 +440,7 @@ Create an interface and concrete classes that implement this interface.
 Create an abstract decorator class that implements the above interface.
 Create a concrete decorator class that extends the above abstract class.
 Use the concrete decorator class to decorate the interface objects and verify the output.
-Let us understand this with the help of an example. Here, we will be creating a Shape Interface and concrete classes- Rectangle and Triangle that implement this Shape interface. We will be creating an abstract decorator class "ShapeDecorator" that implements the Shape interface. We will create RedColorDecorator that extends ShapeDecorator. We will be then using this decorator to implement the functionalities.
+For example,We will be creating a Shape Interface and concrete classes- Rectangle and Triangle that implement this Shape interface. We will be creating an abstract decorator class "ShapeDecorator" that implements the Shape interface. We will create RedColorDecorator that extends ShapeDecorator. We will be then using this decorator to implement the functionalities.
 
 ```java
 
@@ -494,23 +493,17 @@ Let us understand this with the help of an example. Here, we will be creating a 
            Shape redTriangle = new RedColorDecorator(new Triangle());
            Shape redRectangle = new RedColorDecorator(new Rectangle());
            triangle.draw();
-           System.out.println(".........");
            redTriangle.draw();
-           System.out.println(".........");
            redRectangle.draw();
-           System.out.println(".........");
        }
    }
 
 Output:
    Triangle Drawn
-   .........
    Triangle Drawn
    Red color border added
-   .........
    Rectangle Drawn
    Red color border added
-   .........
 
 ```
 
@@ -612,7 +605,7 @@ Output:
 
 ```
 
-- Create a Driver class to implement the pattern. Here we will be first turning on the tubelight on the first click of the button, on next click, we will be turning on the radio, then we will be setting the volume of the radio to 4 and then we will be turning off the tubelight.
+- Create a Driver class to implement the pattern.we will be first turning on the tubelight on the first click of the button, on next click, we will be turning on the radio, then we will be setting the volume of the radio to 4 and then we will be turning off the tubelight.
  
 ```java
 
@@ -654,7 +647,7 @@ TubeLight on
 
 <blockquote>
  
-An observer design pattern is a type of behavioural design pattern that is used for defining the one to many dependencies between the objects. It is most useful when we want to get notified about any change in the state of an object. In this pattern, when the state of one object changes, all the dependent objects are notified automatically. The object whose state is monitored is called the Subject whereas the dependents are called the Observers. In Java, we can implement this pattern by making use of the java.util.Observable class and the java.util.Observer interface. 
+An observer design pattern is a type of behavioural design pattern that is used for defining the one to many dependencies between the objects. It is most useful when we want to get notified about any change in the state of an object. when the state of one object changes, all the dependent objects are notified automatically. The object whose state is monitored is called the Subject whereas the dependents are called the Observers. In Java, we can implement this pattern by making use of the `java.util.Observable` class and the `java.util.Observer` interface. 
 
 This design pattern has 3 main components:
 
@@ -804,7 +797,7 @@ But the disadvantage of this way is that the initialization cannot be done lazil
 
 ```
 
-- Double-check locking: Here, we will be using a synchronized block of code within the getInstance method instead of making the whole method synchronized. This ensures that only a handful of threads have to wait only for the first time thereby not impacting the performance.
+- Double-check locking:We will be using a synchronized block of code within the getInstance method instead of making the whole method synchronized. This ensures that only a handful of threads have to wait only for the first time thereby not impacting the performance.
 
 ```java
 
@@ -841,7 +834,7 @@ But the disadvantage of this way is that the initialization cannot be done lazil
 
 <blockquote>
  
-Design patterns provide a template for developers which they can use in multiple projects. Design patterns in Java help the programmer design flexible and smart code and easily identify unwanted code. It benefits me as I can be faster at my job because of the ability to customise the architecture of multiple systems instead of repeatedly coding everything by hand.
+Design patterns provide a template for developers which they can use in multiple projects. Design patterns in Java help the programmer design flexible and smart code and easily identify unwanted code. It has the ability to customise the architecture of multiple systems instead of repeatedly coding everything by hand.
 
 </blockquote>
 
@@ -937,7 +930,7 @@ The template pattern outlines an algorithm in the form of a template method and 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details><summary><b> Show Answ	er</b></summary>
 
 <blockquote>
  
@@ -993,7 +986,7 @@ There are two ways of creating a Singleton pattern.
 
 <blockquote>
  
-The term Proxy stands for an object representing another object. The proxy pattern provides a substitute or placeholder for another purpose to control access to it.According to Gangs of four, a Proxy Pattern "provides control for accessing the original object."We can perform many security operations like hiding the information of the original object, on-demand loading, etc.It is also called as placeholder or surrogates.
+The term Proxy stands for an object representing another object. The proxy pattern provides a substitute or placeholder for another purpose to control access to it. Proxy Pattern provides control for accessing the original object.We can perform many security operations like hiding the information of the original object, on-demand loading, etc.It is also called as placeholder or surrogates.
 
 </blockquote>
 
