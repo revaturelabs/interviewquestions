@@ -162,3 +162,4 @@ B. False
 
 Answer: A
 Explanation: In programming, a data type is a categorized that it determines what type of value a variable has and what mathematical, relational, or logical operations can be performed on it without creating an error.
+
