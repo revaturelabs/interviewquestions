@@ -414,5 +414,5 @@ D.None of these
 
 Answer: C
 
-Explanation:DISTINCT keyword gives the unique recorD.
+Explanation: DISTINCT keyword gives the unique record.
 
