@@ -436,15 +436,14 @@ Answer: C
 ##EASY
 ###BC
 
-26.Throw statement can be defined as ___
+26.Throw statement can be ___
 
-A.catch block.
-B.throw statement is used to throw an exception explicitly
-C.a part of  block of code may cause one error and the entire block of code itself may cause another      error. 
-D.in the finally block.
+A. defined inside catch block.
+B. used to throw an exception explicitly
+C. a part of  block of code may cause one error and the entire block of code itself may cause another      error. 
+D. inside finally block.
 
 Answer:B
-Explanation:We specify the exception object which is to be thrown. The Exception has some message with it that provides the error description. These exceptions may be related to user inputs, server, etc.We can throw either checked or unchecked exceptions in Java by throw keyword. 
 
 #P1
 ##EASY
@@ -518,10 +517,7 @@ D.end of file.
 
 Answer: B,C
 
-#P1
-##EASY
-###MA
-
+#IGNORE
 30.What is a throws statement?
     
 A.stacktraces found
@@ -537,14 +533,14 @@ Explanation:It provides information to the caller of the method about the except
 ##MEDIUM
 ###BC
 
-31.Show me the syntax of throws statement?
+31.Show me the syntax of throws statement
     
 A.throws exception_class_name
 B.return_type method_name() throws exception_class_name{  
 //method code  
 } 
 C.throws class_name
-D.throws exception.
+D.throws exception
 
 Answer:B
 
@@ -637,10 +633,7 @@ D.Number is positive
 
 Answer:B
 
-#P2
-##EASY
-###BC
-
+#IGNORE
 35.final statement can be defined as___
 
 A.final block.
@@ -651,10 +644,7 @@ D.in the finally block.
 Answer:C
 Explanation:final variable becomes constant and cannot be modified once it is declared.It cannot be overridden by sub class.final class cannot be inherited.It is executed only when we call it.
 
-#P1
-##EASY
-###BC
-
+#IGNORE
 36.finalize statement can be defined as
 
 A.final block.
@@ -722,11 +712,9 @@ D.in the finally block.
 
 Answer:B
 
-#P1
-##MEDIUM
-###BC
 
-39.Exception Propagation can be defined as___
+#IGNORE
+39.Exception Propagation can be defined as ___
 
 A.An exception is first thrown from the top of the stack and if it is not caught, it drops down the call stack to the previous method. If not caught there, the exception again drops down to the previous method, and so on until they are caught or until they reach the very bottom of the call stack. This is called exception propagation.
 B.final statement is used to throw an exception explicitly
@@ -768,14 +756,11 @@ D.exception handled normal flow
 
 Answer:D
 
-#P1
-##MEDIUM
-###BC
-
+#IGNORE
 41.Exception Handling with Method Overriding can be explained as___
 
 A.garbage collection ended
-B.final statement is used to throw an exception explicitly
+B.final statement used to throw an exception explicitly
 C.Inside try block Exception handled / by zero finally block is executed
 D.If the superclass method does not declare an exception, subclass overridden method cannot declare the checked exception but it can declare unchecked exception.
 
@@ -843,10 +828,7 @@ D.Exception in Child method
 
 Answer:A
 
-#P1
-##EASY
-###BC
-
+#IGNORE
 44.What are Custom Exceptions? 
 
 A.When we create our own exceptions that are derived classes of the Exception class is known as custom exception or user-defined exception.
@@ -857,10 +839,7 @@ D.Exception in try statement
 Answer:A
 Explanation:Custom exceptions are used to customize the exception according to the user needs.
 
-#P2
-##EASY
-###BC
-
+#IGNORE
 45.Why do we use custom exceptions?
 
 A.Custom Exception are used to catch and provide specific treatment to a subset of existing java exceptions.We also have exceptions related to business logic and workflow.
@@ -914,10 +893,8 @@ D.Exception in try statement
 
 Answer:B
 
-#P2
-##MEDIUM
-###BC
 
+#IGNORE
 47.Default exception handling can be defined as___
 
 A.The exception object contains the name and description of the exception and the current state of the program where the exception has occurred. Creating the Exception Object and handling it in the run-time system is called throwing an Exception.
@@ -1045,10 +1022,7 @@ D.25
 
 Answer:A
 
-#P1
-##EASY
-###BC
-
+#IGNORE
 51.Chained Exception can be explained as___
 
 A.The exception object contains the name and description of the exception and the current state of the program where the exception has occurred. 
