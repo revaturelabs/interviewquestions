@@ -6,6 +6,7 @@
     B. False
 
 Answer: B
+Explantion:An absolute Object Oriented language doesn't supports primitive data types.
 
 #P1
 ##EASY
