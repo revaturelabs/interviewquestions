@@ -397,12 +397,17 @@ Dirty read implies the meaning "read the value which may or may not be correct".
 `Connection con = DriverManager.getConnection(url,user,password);`
 
 `con`: Reference to a Connection interface.
+	
 `url`: Uniform Resource Locator.
+	
 `user`: Username from which SQL command prompt is accessed.
+	
 `password`: Password from which SQL command prompt is accessed.
 
 url in MySQL can be created as follows:
+	
 `String url = "jdbc:mysql://localhost:3306/demo1";`
+	
 Where localhost represents hostname or IP address of the MySQL server, 3306 port number of the server and by default, it is 3306, test1 is the name of the database on the server.
 
 - Create a statement:Once a connection establishment is done, you can interact with the database. The `Statement`, `PreparedStatement`, and `CallableStatement` Jdbc interfaces will define the methods that permit you to send SQL commands and receive data from the database.We can use JDBC Statement as follows:
