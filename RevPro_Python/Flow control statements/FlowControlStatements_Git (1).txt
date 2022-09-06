@@ -1,10 +1,10 @@
-// Python-Flow Control Statements 
+##Python,FlowControlStatements,FlowControlStatements
 
 
 #P2
 ##EASY
 ###TF
-1. Python has the Switch-Case statement.
+1.State True or False: Python has the Switch-Case statement.
 
 A. True
 B. False
@@ -565,7 +565,7 @@ Explanation:  It executes the statements present inside if untill the if conditi
 #P1
 ##EASY
 ###BC
-28) Predict the output of the below code
+28) Predict the output of the below code.
 python3
 str1="abbey"
 c=0
@@ -589,7 +589,7 @@ Explanation:  Here the value of c is incremented by 1 whenever the if condition 
 #P1
 ##EASY
 ###BC
-29. Predict the output of the below code
+29. Predict the output of the below code.
 python3
 str1="adonis"
 c=0
@@ -615,7 +615,7 @@ Explanation:  Here the value of c is incremented by 1 when both outer and inner 
 #P1
 ##EASY
 ###BC
-30. Predict the output of the below code
+30. Predict the output of the below code.
 
 str1="akshay"
 c=0
@@ -753,7 +753,7 @@ Answer: B
 #P1
 ##EASY
 ###BC
-38. Predict the output
+38. Predict the output of the code.
 
 x = "Hello-World"
 i = "0"
@@ -774,7 +774,7 @@ Explanation:  In while loop, the value of i never matches with the value of x. T
 #P1
 ##EASY
 ###BC
-39. Predict the output of below code
+39. Predict the output of below code.
 
 x = "apple"
 
@@ -795,7 +795,7 @@ Explanation:  The for loop runs till the value of string length, that is till 4 
 #P1
 ##EASY
 ###BC
-40.  Predict the output of below code
+40.  Predict the output of below code.
 python3
 x = "apple"
 
@@ -817,7 +817,7 @@ Explanation:  Here in the above code, for the index value of i =0, 2 and 4, the 
 #P1
 ##EASY
 ###BC
-41. Predict the output of below code
+41. Predict the output of below code.
 
 num = 123
 for i in num:
@@ -836,7 +836,7 @@ Explanation:  It will give "TypeError: 'int' object is not iterable".
 #P1
 ##EASY
 ###BC
-42. Predict the output of below code
+42. Predict the output of below code.
 
 num = '123'
 for i in num:
@@ -1184,7 +1184,7 @@ Explanation:  The first print statement is not executed as if condition becomes 
 #P1
 ##EASY
 ###BC
-59. What will be the output of the below code for a=5 and b=5
+59. What will be the output of the below code for a=5 and b=5?
 
 a= int(input())
 b= int(input())
