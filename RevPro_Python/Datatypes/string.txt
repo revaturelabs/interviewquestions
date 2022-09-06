@@ -1,3 +1,5 @@
+##Python,DataTypes,String
+
 #P1
 ##EASY
 ###BC
@@ -66,7 +68,7 @@ Explanation:In python, istitle() function is used to check whether the given str
 #P1
 ##EASY
 ###BC
-5.Which character will have same index value when you access elements from the beginning and from the end(ignore the negative sign) in the following string.
+5.Which character will have same index value when you access elements from the beginning and from the end(ignore the negative sign) in the following string?
 
 Data = "Welcome to my Dream World"
 
@@ -97,7 +99,7 @@ Answer:C
 #P1
 ##EASY
 ###BC
-7.Each individual character in a string can be accessed using a technique called ____________?
+7.Each individual character in a string can be accessed using a technique called ____________
 
 A.Indexing
 B.Replication
@@ -110,7 +112,7 @@ Answer:A
 #P1
 ##EASY
 ###BC
-8.The minsplit parameter to split() specifies the minimum number of splits to make to the input string?
+8.The minsplit parameter to split() specifies the minimum number of splits to make to the input string.
 
 A.True
 B.False
@@ -136,7 +138,7 @@ Answer:D
 #P2
 ##EASY
 ###TF
-10.You can use the + operator to concatenate three or more strings as well.
+10.State True or False: You can use the + operator to concatenate three or more strings as well.
 
 A.True
 B.False
@@ -198,7 +200,7 @@ Explanation:In python, to reverse a string, we can use built-in function reverse
 #P1
 ##EASY
 ###BC
-14.Select the correct output for the following code?
+14.Select the correct output for the following code.
 
 str1=str("Python_programming")
 str2="Python_programmIng"
@@ -283,7 +285,7 @@ Explanation:isdigit() method checks if it contains the characters or not. If it 
 #P2
 ##EASY
 ###TF
-19.String traversal can be done using 'for' loop only.
+19.State True or False: String traversal can be done using 'for' loop only.
 
 A.True
 B.False
