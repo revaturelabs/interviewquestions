@@ -77,7 +77,7 @@ D. None of the above
 
 Answer: C
 
-Explanation: Use the os.path.isfile('file_path') function to see whether a file exists. Pass the file name or file path to the current to perform as associate degree argument. This returns True if a file is present in the given path. Otherwise, it returns False.
+Explanation: Use the os.path.isfile('file_path') function to see whether a file exists. Just pass the file name or file path to isfile() funtion. This returns True if a file is present in the given path. Otherwise, it returns False.
 
 
 
@@ -93,7 +93,7 @@ D. All of the above
 
 Answer: A
 
-Explanation: This method is used to get all the files from the particular directory.
+Explanation: "os.listdir()" method is used to get all the files from the particular directory.
 
 
 #P1
