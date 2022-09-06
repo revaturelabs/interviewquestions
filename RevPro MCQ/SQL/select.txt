@@ -7,7 +7,7 @@ C.UPDATE
 D.ALTER
 Answer: B.
 
-Explanation:The table records can be retrieved using the SELECT commanD.
+Explanation:The table records can be retrieved using the SELECT command.
 
 #P1
 ##EASY
