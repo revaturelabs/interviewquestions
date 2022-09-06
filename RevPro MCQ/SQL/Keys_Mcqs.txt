@@ -1,5 +1,5 @@
-
 1.What distinguishes a PRIMARY KEY from a UNIQUE KEY?
+
 A.Primary key can store null value, whereas a unique key cannot store null value.
 B.We can have only one primary key in a table while we can have multiple unique keys
 C.Primary key cannot be a date variable whereas unique key can be
@@ -8,6 +8,7 @@ D.None of these
 ANSWER:B
 
 2.When does a WHERE clause with a wildcard come in handy?
+
 A.When an exact match is required in a SELECT statement.
 B.When an exact match is not possible in a SELECT statement.
 C.When an exact match is required in a CREATE statement.
@@ -16,6 +17,7 @@ D.When an exact match is not possible in a CREATE statement.
 ANSWER:B
 
 3._______ is a database programme that performs a common action on database data and saves the results in the database.
+
 A.Stored Procedure
 B.Trigger
 C.Stored Function
@@ -24,6 +26,7 @@ D.None of the above
 ANSWER:A
 
 4.What are the benefits of using a clustered index?
+
 A.It is fast to update the records.
 B.It does not need extra work for SQL queries.
 C.It minimizes the page transfer and maximizes the cache hits.
@@ -32,6 +35,7 @@ D.None of the above is correct.
 ANSWER:C
 
 5.Which data dictionary table should be used to display the user's object privileges on certain columns?
+
 A.USER_TAB_PRIVS_MADE
 B.USER_COL_PRIVS_MADE
 C.USER_TAB_PRIVS
@@ -40,6 +44,7 @@ D.USER_COL_PRIVS
 ANSWER:D
 
 6.A ______ constraint is one that can only be defined at the column level.
+
 A.UNIQUE
 B.NOT NULL
 C.CHECK
@@ -48,6 +53,7 @@ D.PRIMARY KEY
 ANSWER:B
 
 7. Which statement should be used to delete all rows from a table without logging the action?
+
 A.DELETE
 B.REMOVE
 C.DROP
@@ -55,7 +61,8 @@ D.TRUNCATE
 
 ANSWER:D
 
-8.Views in SQL are also called as
+8.Views in SQL are also called as ___________
+
 A.Simple tables
 B.Virtual tables
 C.Complex tables
@@ -64,6 +71,7 @@ D.Actual Tables
 ANSWER:B
 
 9.In a column, which datatype can store unstructured data?
+
 A.CHAR
 B.RAW
 C.NUMERIC
@@ -72,6 +80,7 @@ D.VARCHAR
 ANSWER:B
 
 10.In SQL, which of the following is not a constraint?
+
 A.Primary Key
 B.Not Null
 C.Check
@@ -80,6 +89,7 @@ D.char
 ANSWER:B
 
 11.Which of the following functions is not a proper aggregate?
+
 A.COUNT
 B.COMPUTE
 C.SUM
@@ -88,6 +98,7 @@ D.MAX
 ANSWER:B
 
 12.Which of the functions below is not a proper aggregate?
+
 A.ANY
 B.BETWEEN
 C.ALL
@@ -96,6 +107,7 @@ D.IN
 ANSWER:D
 
 13.A DML statement is not executed in which of the following scenarios?
+
 A.When existing rows are modified.
 B.When a table is deleted.
 C.When some rows are deleted.
@@ -104,6 +116,7 @@ D.All of the above
 ANSWER:B
 
 14.The following is utilised by default if we haven't supplied ASC or DESC after a SQL ORDER BY clause.
+
 A.DESC
 B.ASC
 C.There is no default value
@@ -112,6 +125,7 @@ D.None of the mentioned
 ANSWER:B
 
 15.Which of the statements below is correct?
+
 A.TRUNCATE free the table space while DELETE does not.
 B.Both TRUNCATE and DELETE statements free the table's space.
 C.Both TRUNCATE and DELETE statement does not free the table's space.
@@ -120,6 +134,7 @@ D.DELETE free the table space while TRUNCATE does not.
 ANSWER:A
 
 16.INSTR ('JAVAT POINT', 'P') returns the following.
+
 A.6
 B.7
 C.POINT
@@ -128,6 +143,7 @@ D.JAVAT
 ANSWER:B
 
 17.The following command allows you to change one or more fields in a table:
+
 A.INSERT
 B.MODIFY
 C.LOOK-UP
@@ -136,6 +152,7 @@ D.All of the above
 ANSWER:B
 
 18.An INNER JOIN is also known as which of the following?
+
 ~SELF JOIN
 =EQUI JOIN
 ~NON-EQUI JOIN
@@ -144,6 +161,7 @@ ANSWER:B
 ANSWER:B
 
 19.Which of the following statements regarding the HAVING clause is correct?
+
 A.Similar to the WHERE clause but is used for columns rather than groups.
 B.Similar to WHERE clause but is used for rows rather than columns.
 C.Similar to WHERE clause but is used for groups rather than rows.
@@ -152,6 +170,7 @@ D.Acts exactly like a WHERE clause.
 ANSWER:C
 
 20.For the query on which it is defined, the ______ clause creates a temporary relation.
+
 A.WITH
 B.FROM
 C.WHERE
@@ -160,6 +179,7 @@ D.SELECT
 ANSWER:A
 
 21.Which of the following statements regarding the SQL AS clause is correct?
+
 A.The AS clause in SQL is used to change the column name in the output or assign a name to a derived column.
 B.The SQL AS clause can only be used with the JOIN clause.
 C.The AS clause in SQL is used to defines a search condition.
@@ -168,6 +188,7 @@ D.All of the mentioned
 ANSWER:A
 
 22.The ________ command makes the transaction's alterations permanent in the database?
+
 A.ROLLBACK
 B.COMMIT
 C.TRUNCATE
@@ -176,6 +197,7 @@ D.DELETE
 ANSWER:B
 
 23.How do you replace "Thomas" to "Michel" in the Users table's "LastName" column?
+
 A.UPDATE User SET LastName = 'Thomas' INTO LastName = 'Michel'
 B.MODIFY Users SET LastName = 'Michel' WHERE LastName = 'Thomas'
 C.MODIFY Users SET LastName = 'Thomas' INTO LastName = 'Michel'
@@ -184,6 +206,7 @@ D.UPDATE Users SET LastName = 'Michel' WHERE LastName = 'Thomas'
 ANSWER:D
 
 24.In SQL, which command is used to alter a table's definition?
+
 ~CREATE
 ~UPDATE
 =ALTER
@@ -192,6 +215,7 @@ ANSWER:D
 ANSWER:C
 
 25.Which form of JOIN is used to return rows with values that do not match?
+
 A.Natural JOIN
 B.Outer JOIN
 C.EQUI JOIN
@@ -200,6 +224,7 @@ D.All of the above
 ANSWER:B
 
 26.What is a CASE SQL statement?
+
 A.A way to establish a loop in SQL.
 B.A way to establish an IF-THEN-ELSE in SQL
 C.A way to establish a data definition in SQL
@@ -208,6 +233,7 @@ D.All of the above.
 ANSWER:B
 
 27.Which of the following data types can be used in column definitions with DATETIME?
+
 A.TIMESTAMP
 B.INTERVAL MONTH TO DAY
 C.INTERVAL YEAR TO MONTH
@@ -216,6 +242,7 @@ D.TIMESTAMP WITH DATABASE TIMEZONE
 ANSWER:A AND C
 
 28.Which of the following SQL commands can be used to add a row to a database?
+
 A.add
 B.CREATE
 C.INSERT
@@ -225,14 +252,15 @@ ANSWER:C
 
 29.The WHERE clause in SQL:
 
-~limits the column data that are returned.
-=limits the row data are returned.
-~Both A and B are correct.
-~Neither A nor B are correct.
+A.limits the column data that are returned.
+B.limits the row data are returned.
+C.Both A and B are correct.
+D.Neither A nor B are correct.
 
 ANSWER:B
 
 30.The original objective of SQL was to do which of the following?
+
 A.To specify the syntax and semantics of SQL data definition language
 B.To specify the syntax and semantics of SQL manipulation language
 C.To define the data structures
@@ -241,6 +269,7 @@ D.All of the above.
 ANSWER:D
 
 31.When is a wildcard in a WHERE clause useful?
+
 A.An exact match is necessary in a SELECT statement.
 B.An exact match is not possible in a SELECT statement.
 C.An exact match is necessary in a CREATE statement.
@@ -249,6 +278,7 @@ D.An exact match is not possible in a CREATE statement.
 ANSWER:B
 
 32.Which of the following is a view?
+
 A.A virtual table that can be accessed via SQL commands
 B.A virtual table that cannot be accessed via SQL commands
 C.A base table that can be accessed via SQL commands
@@ -257,6 +287,7 @@ D.A base table that cannot be accessed via SQL commands
 ANSWER:A
 
 33.To remove a table from a database, use the following command:
+
 A.REMOVE TABLE CUSTOMER;
 B.DROP TABLE CUSTOMER;
 C.DELETE TABLE CUSTOMER;
@@ -265,6 +296,7 @@ D.UPDATE TABLE CUSTOMER;
 ANSWER:B
 
 34.Which of the following is ensured by ON UPDATE CASCADE?
+
 A.Normalization
 B.Data Integrity
 C.Materialized Views
@@ -273,6 +305,7 @@ D.All of the above.
 ANSWER:B
 
 35.A set of SQL data definition commands makes up a set of SQL data definition instructions (n).
+
 A.DDL
 B.DML
 C.HTML
@@ -281,6 +314,7 @@ D.XML
 ANSWER:A
 
 36.Which of the following SQL statements is correct for an index?
+
 A.CREATE INDEX ID;
 B.CHANGE INDEX ID;
 C.ADD INDEX ID;
@@ -289,6 +323,7 @@ D.REMOVE INDEX ID;
 ANSWER:A
 
 37. What exactly is SQL?
+
 A.high level programming language
 B.low level programming language
 C.A special purpose programming language to manage databases
@@ -297,6 +332,7 @@ D.markup language for websites
 ANSWER:C
 
 38.To add a new record to a table, what command should you use?
+
 A.ADD
 B.INSERT INTO
 C.INSERT
@@ -305,6 +341,7 @@ D.NEW
 ANSWER:B
 
 38.To alter the name of a column or the structure of a table, which command should you use?
+
 A.MODIFY
 B.ADD
 C.CHANGE
@@ -313,6 +350,7 @@ D.ALTER
 ANSWER:D
 
 39.To change data in a table, which command is used?
+
 A.CHANGE
 B.ALTER
 C.UPDATE
@@ -321,6 +359,7 @@ D.MODIFY
 ANSWER:C
 
 40.To alter the value, which keyword is used with the UPDATE command?
+
 A.CHANGE
 B.MODIFY
 C.ADD
@@ -329,6 +368,7 @@ D.SET
 ANSWER:D
 
 41.To delete a column, which keyword is used with the ALTER command?
+
 A.DROP
 B.DELETE
 C.REMOVE
@@ -337,6 +377,7 @@ D.CHANGE
 ANSWER:A
 
 42.To delete a record from a database table, what command should you use?
+
 A.DROP
 B.DELETE
 C.MODIFY
@@ -345,6 +386,7 @@ D.REMOVE
 ANSWER:B
 
 43.What happens if you use the DELETE command without specifying a WHERE clause?
+
 A.Table will be deleted
 B.Top 10 records will be deleted
 C.All records of table will be deleted
@@ -353,6 +395,7 @@ D.Only one record will be deleted
 ANSWER:C
 
 44.To delete a table, what command is used?
+
 A.DROP TABLE
 B.CLEAR TABLE
 C.REMOVE TABLE
@@ -361,6 +404,7 @@ D.DELETE TABLE
 ANSWER:A
 
 45.To delete a database, what command is used?
+
 A.DELETE DATABASE
 B.REMOVE DATABASE
 C.DROP DB
@@ -369,6 +413,7 @@ D.DROP DATABASE
 ANSWER:D
 
 46.In a database, what command is used to create a new table?
+
 A.CREATE
 B.CREATE TABLE
 C.CREATE NEW TABLE
@@ -377,6 +422,7 @@ D.ADD NEW TABLE
 ANSWER:B
 
 47.To build a new database, what command should you use?
+
 A.CREATE DB
 B.CREATE DATABASE
 C.CREATE NEW DATABASE
@@ -385,6 +431,7 @@ D.ADD NEW DATABASE
 ANSWER:B
 
 48.To extract data from a database table, what command is used?
+
 A.EXTRACT
 B.GET
 C.SELECT
@@ -393,6 +440,7 @@ D.POP
 ANSWER:C
 
 49. To undo all modifications, what command is used?
+
 A.UNDO
 B.CANCEL
 C.REVOKE
@@ -401,6 +449,7 @@ D.ROLLBACK
 ANSWER:D
 
 50.To submit (apply) all modifications, which command is used?
+
 A.COMMIT
 B.DONE
 C.SUBMIT
@@ -409,6 +458,7 @@ D.APPLY
 ANSWER:A
 
 51.What command is used to give the database user permissions?
+
 A.GIVE
 B.PROVIDE
 C.GRT
@@ -417,6 +467,7 @@ D.GRANT
 ANSWER:D
 
 52.Which operator(s) are utilised in the WHERE clause to check multiple conditions?
+
 A.AND
 B.OR
 C.BOTH AND, OR
@@ -425,6 +476,7 @@ D.None of these
 ANSWER:C
 
 53.To extract distinct values from a table, which statement is used?
+
 A.SELECT DISTINCT
 B.SELECT RANDOM
 C.SELECT DIFFERENT
@@ -433,6 +485,7 @@ D.SELECT DIFF
 ANSWER:A
 
 54.To display a record set in descending order, which keyword is used with the ORDER BY clause?
+
 A.DESCENDING
 B.DESC
 C.REVERSE
@@ -441,6 +494,7 @@ D.REV
 ANSWER:B
 
 55.What happens if you don't use the ASC or DESC keywords in the ORDER BY clause?
+
 A.Records will be displayed in Descending Order.
 B.Records will be displayed in Random Order.
 C.Records will be displayed in Ascending Order.
@@ -449,6 +503,7 @@ D.Command will not be executed
 ANSWER:C
 
 56.If you wish to publish all table names that begin with the letter 'A,' which operator should you use?
+
 A.LIKE
 B.PATTERN
 C.SIMILAR
@@ -457,6 +512,7 @@ D.=
 ANSWER:A
 
 57.To check a range, which operator should be used?
+
 A.RANGE
 B.FROM TO
 C.BETWEEN
@@ -465,6 +521,7 @@ D.All of the above
 ANSWER:C
 
 58.In the WHERE clause, which operator allows you to provide multiple values?
+
 A.LIKE
 B.IN
 C.BETWEEN
@@ -473,6 +530,7 @@ D.RANGE
 ANSWER:B
 
 59.______ are used to rename a table or column header temporarily.
+
 A.RENAME
 B.ALTER
 C.RENAME
@@ -482,6 +540,7 @@ ANSWER:D
 
 60.Is it possible for a —- key to be the primary key?
 Choose the correct term to complete the sentence.
+
 A.Foreign
 B.Primary
 C.Candidate
@@ -490,6 +549,7 @@ D.Composite
 ANSWER:C
 
 61.Which key is utilised when two tables are linked together?
+
 A.Foreign
 B.Primary
 C.Candidate
@@ -498,6 +558,7 @@ D.Composite
 ANSWER:A
 
 62.Which of the following forms is founded on the idea of functional dependency:
+
 A. 1NF
 B. 2NF
 C. 3NF
@@ -505,7 +566,8 @@ D. 4NF
 
 ANSWER:C
 
-63.For any pincode, there is only one city and state. Also, for given street, city and state, there is just one pincode. In normalization terms, empdt1 is a relation in
+63.For any pincode, there is only one city and state. Also, for given street, city and state, there is just one pincode. In normalization terms, empdt1 is a relation in ________
+
 A. 1 NF only
 B. 2 NF and hence also in 1 NF
 C. 3NF and hence also in 2NF and 1NF
@@ -514,6 +576,7 @@ D. BCNF and hence also in 3NF, 2NF and 1NF
 ANSWER:B
 
 64.An attribute in a relation is a foreign key if the _______ key from one relation is used as an attribute in that relation.
+
 A. Candidate
 B. Primary
 C. Super
@@ -522,6 +585,7 @@ D. Sub
 ANSWER:B
 
 65.The ______ is the one in which the primary key of one relation is used as a normal attribute in another relation.
+
 A. Referential relation
 B. Referencing relation
 C. Referenced relation
@@ -530,6 +594,7 @@ D. Referred relation
 ANSWER:C
 
 66.A _________ integrity constraint requires that the values appearing in specified attributes of any tuple in the referencing relation also appear in specified attributes of at least one tuple in the referenced relation.
+
 A. Referential
 B. Referencing
 C. Specific
@@ -538,6 +603,7 @@ D. Primary
 ANSWER:A
 
 67.The _________ provides a set of operations that take one or more relations as input and return a relation as an output.
+
 A. Schematic representation
 B. Relational algebra
 C. Scheme diagram
@@ -546,6 +612,7 @@ D. Relation flow
 ANSWER:B
 
 68.The _______ operator takes the results of two queries and returns only rows that appear in both result sets.
+
 A. Union
 B.Intersect
 C. Difference
@@ -554,6 +621,7 @@ D. Projection
 ANSWER:B
 
 69.A ________ is a pictorial depiction of the schema of a database that shows the relations in the database, their attributes, and primary keys and foreign keys.
+
 = Schema diagram
 ~ Relational algebra
 ~ Database diagram
@@ -562,6 +630,7 @@ ANSWER:B
 ANSWER:A
 
 70.The _______operation performs a set union of two “similarly structured” tables
+
 A. Union
 B. Join
 C. Product
@@ -569,7 +638,7 @@ D. Intersect
 
 ANSWER:A
 
-71.The most commonly used operation in relational algebra for projecting a set of tuple from a relation is
+71.The most commonly used operation in relational algebra for projecting a set of tuple from a relation is ________
 A. Join
 B. Projection
 C. Select
@@ -578,6 +647,7 @@ D. Union
 ANSWER:C
 
 72._________ joins are SQL server default
+
 A. Outer
 B. Inner
 C. Equi
@@ -586,6 +656,7 @@ D. None of the mentioned
 ANSWER:B
 
 73.The _____________ is essentially used to search for patterns in target string.
+
 A. Like Predicate
 B. Null Predicate
 C. In Predicate
@@ -594,6 +665,7 @@ D. Out Predicate
 ANSWER:A
 
 74._____ clause is an additional filter that is applied to the result.
+
 A.Select
 B.Group-by
 C.Having
@@ -601,7 +673,8 @@ D.Order by
 
 ANSWER:C
 
-75.In SQL the cross-tabs are created using
+75.In SQL the cross-tabs are created using ________
+
 A. Slice
 B. Dice
 C. Pivot
@@ -610,6 +683,7 @@ D. All of the mentioned
 ANSWER:A
 
 76.How many grouping is possible in this rollup?
+
 A. 8
 B. 4
 C. 2
@@ -618,6 +692,7 @@ D. 1
 ANSWER:B
 
 77.The operation of moving from finer-granularity data to a coarser granularity (by means of aggregation) is called a ________
+
 A. Rollup
 B. Drill down
 C. Dicing
@@ -626,6 +701,7 @@ D. Pivoting
 ANSWER:A
 
 78.A search key containing more than one attribute is referred to as a _________ search key.
+
 A. Simple
 B. Composite
 C. Compound
@@ -634,6 +710,7 @@ D. Secondary
 ANSWER:B
 
 79.While inserting the record into the index, if the search-key value does not appear in the index.
+
 A. The system adds a pointer to the new record in the index entry
 B. The system places the record being inserted after the other records with the same search-key values
 C. The system inserts an index entry with the search-key value in the index at the appropriate position
@@ -641,7 +718,8 @@ D.  None of the mentioned
 
 ANSWER:C
 
-80.In B+ tree the node which points to another node is called
+80.In B+ tree the node which points to another node is called _______
+
 A. Leaf node
 B. External node
 C. Final node
@@ -650,6 +728,7 @@ D. Internal node
 ANSWER:D
 
 81.An ____________ consists of a search-key value and pointers to one or more records with that value as their search-key value.
+
 A. Index entry
 B. Index hash
 C. Index cluster
@@ -658,6 +737,7 @@ D. Index map
 ANSWER:A
 
 82. If we want to retain all duplicates, we must write ________ in place of union.
+
 A. Union all
 B. Union some
 C.  Intersect all
@@ -666,6 +746,7 @@ D. Intersect some
 ANSWER:A
 
 83.The _____________ is essentially used to search for patterns in target string.
+
 A. Like Predicate
 B. Null Predicate
 C. In Predicate
@@ -673,7 +754,8 @@ D. Out Predicate
 
 ANSWER:A
 
-84. Materialised views make sure that
+84. Materialised views make sure that _______
+
 A. View definition is kept stable
 B. View definition is kept up-to-date
 C. View definition is verified for error
@@ -682,6 +764,7 @@ D. View is deleted after specified time
 ANSWER:B
 
 85.SQL view is said to be updatable (that is, inserts, updates or deletes can be applied on the view) if which of the following conditions are satisfied by the query defining the view?
+
 A. The from clause has only one database relation
 B. The query does not have a group by or having clause
 C. The select clause contains only attribute names of the relation and does not have any expressions, aggregates, or distinct specification
@@ -690,6 +773,7 @@ D. All of the mentioned
 ANSWER:D
 
 86.Which of the following is used at the end of the view to reject the tuples which do not satisfy the condition in where clause?
+
 A. With
 B. Check
 C. With check
@@ -698,6 +782,7 @@ D. All of the mentioned
 ANSWER:C
 
 87.While inserting the record into the index, if the search-key value does not appear in the index.
+
 A. The system adds a pointer to the new record in the index entry
 B. The system places the record being inserted after the other records with the same search-key values
 C. The system inserts an index entry with the search-key value in the index at the appropriate position
@@ -706,6 +791,7 @@ D. None of the mentioned
 ANSWER:C
 
 88.A search key containing more than one attribute is referred to as a _________ search key.
+
 A. Simple
 B. Composite
 C. Compound
@@ -714,6 +800,7 @@ D. Secondary
 ANSWER:B
 
 89. In a _______ clustering index, the index record contains the search-key value and a pointer to the first data record with that search-key value and the rest of the records will be in the sequential pointers.
+
 A. Dense
 B. Sparse
 C. Straight
@@ -721,7 +808,8 @@ D. Continuous
 
 ANSWER:A
 
-90.employing a single index for conjunctive selection. Here is
+90.employing a single index for conjunctive selection. Here is ______
+
 A. A10
 B. A7
 C. A9
@@ -730,6 +818,7 @@ D. A6
 ANSWER:B
 
 91.The __ algorithm searches over each index for tuple pointers that satisfy a specific criterion.
+
 A. A2
 B. A4
 C. A9
@@ -737,7 +826,8 @@ D. A6
 
 ANSWER:C
 
-92.Each index is searched for pointers to tuples that satisfy each criteria if access pathways are available on each of a disjunctive selection's conditions. This is accomplished by
+92.Each index is searched for pointers to tuples that satisfy each criteria if access pathways are available on each of a disjunctive selection's conditions. This is accomplished by ________
+
 A. A10
 B. A7
 C. A9
@@ -746,6 +836,7 @@ D. A6
 ANSWER:A
 
 93. Index structures are referred to as __________ since they provide a path through which data can be located and accessed.
+
 A. Index Search
 B. Linear search
 C. File scan
@@ -754,6 +845,7 @@ D. Access paths
 ANSWER:D
 
 94.Which join types are there in a join condition:
+
 A. Cross join
 B. Natural join
 C. Join with USING clause
@@ -761,7 +853,8 @@ D. All of the mentioned
 
 ANSWER:D
 
-95.How many join types in join condition:
+95.How many join types are there in a join condition?
+
 A. 2
 B. 3
 C. 4
@@ -769,7 +862,8 @@ D. 5
 
 ANSWER:D
 
-96.The operation which is not considered a basic operation of relational algebra is
+96.The operation which is not considered a basic operation of relational algebra is _________
+
 A. Join
 B. Selection
 C. Union
@@ -777,7 +871,8 @@ D. Cross product
 
 ANSWER:A
 
-97.Which join refers to join records from the right table that have no matching key in the left table are include in the result set:
+97.Which join refers to join records from the right table that have no matching key in the left table are include in the result set
+
 A. Left outer join
 B. Right outer join
 C. Full outer join
@@ -786,6 +881,7 @@ D. Half outer join
 ANSWER: A
 
 98.The _______operation performs a set union of two “similarly structured” tables
+
 A. Union
 B. Join
 C. Product
@@ -793,7 +889,8 @@ D. Intersect
 
 ANSWER: A
 
-99.The most commonly used operation in relational algebra for projecting a set of tuple from a relation is
+99.The most commonly used operation in relational algebra for projecting a set of tuple from a relation is ________
+
 A. Join
 B. Projection
 C. Select
@@ -802,6 +899,7 @@ D. Union
 ANSWER:C
 
 100. The _________ provides a set of operations that take one or more relations as input and return a relation as an output.
+
 A. Schematic representation
 B. Relational algebra
 C. Scheme diagram
@@ -810,6 +908,7 @@ D. Relation flow
 ANSWER:B
 
 101.Indices whose search key specifies an order different from the sequential order of the file are called ___________ indices.
+
 A. Nonclustered
 B. Secondary
 C. All of the mentioned
@@ -818,6 +917,7 @@ D. None of the mentioned
 ANSWER:C
 
 102.In ordered indices the file containing the records is sequentially ordered, a ___________ is an index whose search key also defines the sequential order of the file.
+
 A. Clustered index
 B. Structured index
 C. Unstructured index
@@ -825,7 +925,8 @@ D. Nonclustered index
 
 ANSWER:B
 
-103. In a B+-tree index ______ for each value, we would normally maintain a list of all records with that value for the indexed attribute.
+103. In a  B+-tree index ______ for each value, we would normally maintain a list of all records with that value for the indexed attribute.
+
 A. Leaf
 B. Node
 C. Root
@@ -834,6 +935,7 @@ D. Link
 ANSWER:A
 
 104.A tablespace is further broken down into ________
+
 A. Tablespace
 B. Segments
 C. Extents
@@ -841,7 +943,8 @@ D. Blocks
 
 ANSWER:B
 
-105.To identify the deleted records we use the ______________
+105.To identify the deleted records we use the ___________
+
 A. Existence bitmap
 B. Current bitmap
 C. Final bitmap
@@ -849,7 +952,8 @@ D. Deleted bitmap
 
 ANSWER:A
 
-106.If every non-key attribute is functionally depedent primary key, then the relation will be in	
+106.If every non-key attribute is functionally depedent primary key, then the relation will be in	_________
+
 A.First normal form	
 B.Second normal form	
 C.Third form	
@@ -858,6 +962,7 @@ D.Fourth normal form
 ANSWER:B
 
 107.Which normal form is considered adequate for relational database design?	
+
 A.2NF	
 B.3NF	
 C.4NF	
@@ -865,7 +970,8 @@ D.BCNF
 
 ANSWER:B
 
-109.The cannonical cover for this set is	
+109.The cannonical cover for this set is _________
+
 A. A —> BC and B ---->C	
 B. A ----> BC and AB —> C	
 C.A —> BC and A —> B
@@ -873,7 +979,8 @@ D.A —> B and B —> C
 
 ANSWER:A
 
-110. The DBMS language component which can be embedded in a program is	
+110. The DBMS language component which can be embedded in a program is	________
+
 A.The data definition language (DDL).	
 B.The data manipulation language (DML).	
 C.The database administrator (DBA).	
@@ -881,7 +988,8 @@ D.A query language.
 
 ANSWER:B
 
-111.It is possible to define a schema completely using	
+111.It is possible to define a schema completely using ________
+
 A.VDL and DDL
 B. DDL and DML	
 C.SDL and DDL
@@ -890,6 +998,7 @@ D.VDL and DML
 ANSWER:B
 
 112.A _______ is a set of column that identifies every row in a table.
+
 A. composite key
 B. candidate key
 C. foreign key
@@ -898,6 +1007,7 @@ D. super key
 ANSWER:D
 
 113.Which two files are used during operation of the DBMS
+
 A. Query languages and utilities
 B. DML and query language
 C. Data dictionary and transaction log
@@ -906,6 +1016,7 @@ D. Data dictionary and query language
 ANSWER:C
 
 114.To change column value in a table the ……… command can be used.
+
 A. create
 B. insert
 C. alter
@@ -913,7 +1024,8 @@ D. update
 
 ANSWER:D
 
-115.To pass on granted privileges to other user the …… clause is used
+115.To pass on granted privileges to other user the …… clause is used.
+
 A. create option
 B. grant option
 C. update option
@@ -921,7 +1033,8 @@ D. select
 
 ANSWER:B
 
-116.The full form of DDL in Database Management System is
+116.The full form of DDL in Database Management System is ________
+
 A. Dynamic Data Language
 B. Detailed Data Language
 C. Data Definition Language
@@ -929,7 +1042,8 @@ D. Data Derivation Language
 
 ANSWER:C
 
-117.The RDBMS terminology for a row is
+117.The RDBMS terminology for a row is _______
+
 A. tuple
 B. relation
 C. attribute
@@ -937,7 +1051,8 @@ D. degree
 
 ANSWER:A
 
-118.The SQL statement SELECT SUBSTR(‘123456789’, INSTR(‘abcabcabc’,’b’), 4) FROM EMP; prints
+118.The SQL statement SELECT SUBSTR(‘123456789’, INSTR(‘abcabcabc’,’b’), 4) FROM EMP; prints ________
+
 A. 6789
 B. 2345
 C. 1234
@@ -945,7 +1060,8 @@ D. 456789
 
 ANSWER:B
 
-119.When SQL statements are embedded inside 3GL, we call such a program as ……….
+119.When SQL statements are embedded inside 3GL, we call such a program as ______
+
 A. nested query
 B. nested programming
 C. distinct query
@@ -954,6 +1070,7 @@ D. embedded SQL
 ANSWER:D
 
 120.……………. provides option for entering SQL queries as execution time, rather than at the development stage.
+
 A. PL/SQL
 B. SQL*Plus
 C. SQL
@@ -961,7 +1078,8 @@ D. Dynamic SQL
 
 ANSWER:D
 
-121 A …………. represents the number of entities to which another entity can be associated
+121 A …………. represents the number of entities to which another entity can be associated _________
+
 A. mapping cardinality
 B. table
 C. schema
@@ -969,7 +1087,8 @@ D. information
 
 ANSWER:A
 
-122.……………. is a preferred method for enforcing data integrity
+122.……………. is a preferred method for enforcing data integrity.
+
 A. Constraints
 B. Stored procedure
 C.Triggers
@@ -977,7 +1096,8 @@ D. Cursors
 
 ANSWER:A
 
-123.The one guideline to be followed while designing the database is
+123.The one guideline to be followed while designing the database is __________
+
 A. A database design may be ambiguous.
 B. Unrelated data should be at the same table so that updating the data will be easy.
 C. It should avoid/reduce the redundancy.
@@ -985,7 +1105,8 @@ D. An entity should not have attributes
 
 ANSWER:C
 
-124.HSAM stands for ……….
+124.HSAM stands for __________
+
 A. Hierarchic Sequential Access Method
 B. Hierarchic Standard Access Method
 C. Hierarchic Sequential and Method
@@ -994,6 +1115,7 @@ D. Hierarchic Standard and Method
 ANSWER:A
 
 125.Which of the following is not a logical database structure?
+
 A. Chain
 B. Network
 C. Tree
@@ -1002,6 +1124,7 @@ D. Relational
 ANSWER:A
 
 126.………………… approach reduces time and effort required for design and lesser risk in database management.
+
 A. Single global database
 B. Top-down approach
 C. Multiple databases
@@ -1009,7 +1132,8 @@ D. None of the above
 
 ANSWER:C
 
-127.The COUNT function in SQL returns the number of ______________
+127.The COUNT function in SQL returns the number of __________
+
 A. values 
 B. distinct values
 C. group by 
