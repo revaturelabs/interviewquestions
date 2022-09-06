@@ -1,0 +1,219 @@
+
+
+#P2
+##EASY
+###BC
+1.Which of the following functions doesn't creates a python object?
+
+A.re.compile(str)
+B.regex(str)
+C.re(str)
+D.Both b and c
+
+Answer:D
+Explanation:In python re.compile(str) is the only function that creates an object.
+
+
+#P2
+##EASY
+###BC
+2.How can we replace one or more occurrences of a regex pattern in given string?
+
+A.sub()
+B.subn()
+C.replace()
+D.Both a and b
+
+Answer:D
+
+
+#P2
+##EASY
+###TF
+3.We can use string split() method is used to split the string into a list of substring with single fixed delimiter.
+
+A.True
+B.False
+
+Answer:A
+
+
+#P2
+##EASY
+###TF
+4.In regex split() method we can't include the seperator.
+
+A.True
+B.False
+
+Answer:B
+Explanation:In regex split() method we can include the seperator.
+
+
+#P2
+##EASY
+###TF
+5.We can import multiple modules in python.
+
+A.True
+B.False
+
+Answer:A
+Explanation:We can import multiple modules in python
+
+
+#P2
+##EASY
+###BC
+6.How will you import all the modules in python?
+
+A.Import *
+B.import all
+C.import *
+D.Import module_names
+
+Answer:C
+Explanation:If we want to import all the functions and attributes of a specific module, instead of writing all names and functions names ,we can import all using * .
+
+
+#P1
+##EASY
+###BC
+7.What is the output of following code snippet?
+
+import re
+re.ASCII
+
+A.8
+B.32
+C.64
+D.256
+
+Answer:D
+Explanation:The expression re.ASCII returns the total number of ASCII characters that are present, that is 256. 
+
+
+#P1
+##EASY
+###BC
+8.Which of the following creates a pattern object?
+
+A.re.create(str)
+B.re.regex
+C.re.compile(str)
+D.None of the above
+
+Answer:C
+Explanation:It converts a given string into a pattern object.
+
+
+#P1
+##EASY
+###BC
+9.Which one of these are used for storing and exchanging the data?
+
+A.File
+B.Excel
+C.Json
+D.None of the above
+
+Answer:C
+Explanation:In python, JSON is a syntax for storing and exchanging data.
+
+
+#P2
+##EASY
+###TF
+10.State True/False: In python dir() function in modules is not a built-in function
+
+A.True
+B.False
+
+Answer:B
+
+
+#P2
+##EASY
+###BC
+11.Which is not from short labels in python?
+
+A.\D
+B.\W
+C.\S
+D.None of the above
+
+Answer:D
+
+
+#P1
+##MEDIUM
+###BC
+12.What will be the output of the code?
+
+import types
+def function(): 
+    return 1
+print(isinstance(function, types.FunctionType))
+print(isinstance(max, types.LambdaType))
+print(isinstance(abs, types.LambdaType))
+
+A.True,False,True
+B.True,False,False
+C.True,True,True
+D.None of the above
+
+Answer:B
+Explanation:The above program it will check the function is user-defined or not.
+
+
+#P1
+##MEDIUM
+###BC
+13.Which one is used define how many splits you want to perform.
+
+A.string split()
+B.re.splits()
+C.re.split()
+D.regex split()
+
+Answer:C
+
+
+#P2
+##EASY
+###BC
+14.Odd one out:Which one is not from the Built-in modules?
+
+A.Regex
+B.sys
+C.os
+D.math
+
+Answer:A
+Explanation:Regex is not built-in modules in python.if you want to use the module use re module.
+
+
+#P2
+##EASY
+###TF
+15.State True/False:We can't convert python object into json.
+
+A.True
+B.False
+
+Answer:B
+Explanation:In python we can convert object into json format using json.dumps().
+
+
+#P2
+##EASY
+###BC
+16.Which module used to get current date?
+
+A.Calender module
+B.datetime module
+C.dateutill module
+D.None of the above
+
+Answer:B
+

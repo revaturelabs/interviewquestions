@@ -1,0 +1,325 @@
+Tuple
+
+
+
+#P1
+##EASY
+###BC
+1.Choose the correct way to access value 20 from the following tuple.
+
+Tuple = ("Software",[10, 20, 30], (5, 15, 25))
+
+A.Tuple[1:2][1]
+B.Tuple1:2
+C.Tuple[1:2][1]
+D.Tuple[1][1]
+
+Answer:C
+Explanation:If we want to access the value 20 from tuple we can use slicing.
+
+
+
+#P1
+##EASY
+###BC
+2.What is the type of the following variable?
+
+Tuple=("Engineer")
+print(type(Tuple))
+
+A.tuple
+B.str
+C.array
+D.list
+
+Answer:B
+Explanation:To create a tuple with a single item, you need to add a comma after the item. Otherwise, Python will not recognize the variable as a tuple, and it will treat it as a string type.
+
+
+
+#P2
+##EASY
+###TF
+3.A Python tuple can also be created without using parentheses.
+
+A.False
+B.True
+
+Answer:B
+Explanation:A tuple can also be created without using parentheses. It is called tuple packing.
+
+
+#P1
+##EASY
+###BC
+4.What is the output of the following tuple operation
+
+aTuple = (100, 200, 300, 400, 500)
+aTuple.pop(2)
+print(aTuple)
+
+A.(100,200,400,500)
+B.(100,300,400,500)
+C.AttributeError
+D.No output
+
+Answer:C
+
+Explanation:A tuple is immutable. Once a tuple is created, you cannot remove its items, but you can delete the tuple completely. If you try to remove the item from the tuple, you will receive an AttributeError: tuple object has no attribute pop.
+
+
+#P1
+##EASY
+###BC
+5.what is the Output of following code snippet?
+
+data = (5, 10)
+data[0] +=10
+
+A.5,5,10
+B.5
+C.Type Error
+D.Syntax Error
+
+Answer:C
+Explanation:TypeError − 'tuple' object does not support item assignment because a tuple is immutable.
+
+
+#P1
+##EASY
+###BC
+6.Which of the following two Python codes will give same output?
+(i) print(tupl[:-1])
+(ii) print(tupl[0:5])
+(iii) print(tupl[0:4])
+(iv) print(tupl[-4:])
+
+If tupl=(5,3,1,9,0) 
+
+A.i, ii
+B.ii, iv
+C.i, iv
+D.i, iii
+
+Answer:D
+
+
+#P1
+##EASY
+###BC
+7.What is the output of following code snippet?
+
+aTuple = (100, 200, 300, 400, 500)
+aTuple[1] = 800
+print(aTuple)
+
+A.TypeError
+B.Value Error
+C.(100, 800, 200, 300, 400, 500)
+D.(800, 100, 200, 300, 400, 500)
+
+Answer:A
+
+
+#P1
+##EASY
+###BC
+8.What is the output of following code snippet?
+
+aTuple = (100, 200, 300, 400, 500)
+print(aTuple[-2])
+print(aTuple[-4:-1])
+
+A.IndexError: tuple index out of range
+B.Value Error
+C.400 , (200, 300, 400)
+D.400
+
+Answer:C
+
+
+#P1
+##EASY
+###BC
+9.What is the output of following code snippet?
+
+aTuple = ("Mangoes")
+print(type(aTuple))
+
+A.list
+B.tuple
+C.array
+D.str
+
+Answer:D
+
+
+#P1
+##EASY
+###BC
+10.What will be the output of the following code?
+
+Tuple1="yellow",20,"Red"
+a,b,c=Tuple1
+print(b)
+
+A.('yellow',20,'red')
+B.TypeError
+C.yellow
+D.No output
+
+Answer:C
+Explanation:The tuple unpacking is also possible.
+
+
+
+#P1
+##EASY
+###BC
+11.Predict the output of the code.
+
+tuple1 = 25, 20, 15, 10, 5 
+a, b, c, d, e = tuple1
+print(b)
+
+A.25
+B.20
+C.15
+D.5
+
+Answer:B
+Explanation:In python, we can create a tuple without parentheses. Also tuple unpacking is possible.
+
+
+
+#P1
+##EASY
+###BC
+12.What is the type of the following code?
+
+tuple1 = ("andro")
+print(type(tuple1))
+
+A.list
+B.tuple
+C.array
+D.str
+
+Answer:D
+Explanation:The answer of above code is not tuple because in python if you have to create a tuple of single item, you need to add a comma after the item. If you missed the comma, the python will treat it as a string type (str class).
+
+
+#P1
+##EASY
+###BC
+13.What is the output of following code?
+
+tuple1 = (10,)
+print(tuple1 * 3)
+
+A.TypeError
+B.30)
+C.(10, 10, 10)
+D.(10, 20, 30)
+
+Answer:C
+Explanation:We can use * operator to repeat the values of tuple as n number of times.
+
+
+#P2
+##EASY
+###TF
+14.State True or False: A Python tuple can also be created without using parentheses.
+
+A.True
+B.False
+
+Answer:A
+Explanation:We can create a tuple without parentheses but we have to seperate each element of tuple by comma ','.
+
+
+#P1
+##EASY
+###BC
+15.Select the correct statements out of the following regarding Tuple.
+
+A.We can delete the element from a tuple but we cannot update elements of the tuple.
+B.We cannot delete the tuple.
+C.We cannot delete the items from the tuple.
+D.We cannot update items of the tuple.
+
+Answer:C and D
+Explanation:We can delete the whole tuple by using del keyword so option b) is incorrect. Option a) is incorrect because we cannot remove, add or update items of a tuple.
+
+
+#P1
+##EASY
+###BC
+16.What is the output of below code:
+
+tuple1 = (10, 20, 30, 40, 50)
+tuple1.pop(2)
+print(tuple1)
+ 
+A.(10, 20, 40, 50)
+B.(10, 30, 40, 50)
+C.30
+D.Error
+
+Answer:D
+Explanation:The reason is Tuple is immutable in python i.e we cannot change the values of a tuple.
+
+
+#P2
+##EASY
+###TF
+17.In python Tuples can contain elements of any data type.
+
+A.True
+B.False
+
+Answer:A
+
+
+#P2
+##EASY
+###BC
+18.Which one is not a function of the tuple?
+
+A.update( )
+B.min( )
+C.max( )
+D.count( )
+
+Answer:A
+
+
+#P2
+##EASY
+###BC
+19.How to add an element to a Tuple?
+
+A.append()
+B.extend()
+C.add()
+D.Both a and b
+
+Answer:D
+Explanation:if we convert the tuple to a list, we can add element to that list using append() or extend() method. After adding, we can convert that list back to tuple.
+
+
+#P1
+##EASY
+###BC
+20.What will be the output of the following code?
+
+tuple=(45,2,90,5,36,65)
+output=sum(tuple)
+print("sum of the tuple:",output)
+
+A.240
+B.233
+C.243
+D.244
+
+Answer:C
