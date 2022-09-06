@@ -124,7 +124,7 @@ Answer: B
 ##MEDIUM
 ###BC
 11. What is the time complexity of poll() method for ArrayDeque?
-      A. O(1)
+     A. O(1)
     B. O(2n)
     C. O(log n)
     D. O(n)
