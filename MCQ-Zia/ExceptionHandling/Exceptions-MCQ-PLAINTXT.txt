@@ -1,3 +1,7 @@
+#P1
+##EASY
+###BC
+
 1.What is the root class of  all the Exception classes?
 
 A.java.lang.Exceptions
@@ -5,7 +9,11 @@ B.java.lang.Throws
 C.java.lang.RuntimeExceptions
 D.java.lang.Throwable
 
-Answer: D
+Answer:D
+
+#P1
+##EASY
+###BC
 
 2.What is the mechanism which is used to handle the runtime errors?
 
@@ -14,66 +22,92 @@ B.Interfaces
 C.Inheritance
 D.Abstractions
 
-Answer: A
+Answer:A
 
-3.What are the  derived classes of the Exception class?{
+#P1
+##EASY
+###BC
+
+3.What are the  derived classes of the Exception class?
 
 A.FinallyException
 B.ClassNotFoundException,IOException,SQLException,RunTimeException,
 C.TryExceptions,CatchException
 D.ThrowableException
 
-Answer: B
+Answer:B
 
-4.What is the event that disrupts the normal flow of the program?{
+#P1
+##EASY
+###BC
+
+4.What is the event that disrupts the normal flow of the program?
 
 A.Exception
 B.Compile-time error
 C.Error
 D.None of the above
-}
 
-Answer: A
 
-5.What are the derived classes of RunTimeException class
+Answer:A
+
+#P1
+##EASY
+###BC
+
+5.What are the derived classes of RunTimeException class?
 
 A.ClassNotFoundException,IOException,SQLException,RunTimeException,
 B.ThrowableException
 C.ArithmeticException,NumberFormatException,NullPointerException,IndexOutOfBoundsException
 D.Compiletime Exception
 
-Answer: C
+Answer:C
 
-6.Which is the base class of StackOverflowError and  VirtualMachineError class?{
+#P1
+##EASY
+###BC
+
+6.Which is the base class for StackOverflowError and  VirtualMachineError classes?
 
 A.ClassNotFoundException
 B.Error
 C.ArithmeticException
 D.RunTimeException,
 
-Answer: B
+Answer:B
 
-7.What are the keywords that is used to handle exceptions.?{
+#P1
+##EASY
+###BC
+
+7.What are the keywords that are used to handle exceptions?
 
 A.public,private,protected
 B.try,catch,finally,throw and throws.
 C.static,final,finalize
 D.Runnable,Thread
 
-Answer: B
+Answer:B
+Explanation:try,catch,finally,throw and throws used to handle exceptions in exception handling mechanism.
 
-Explanation: try,catch,finally,throw and throws used to handle exceptions in exception handling mechanism.
+#P1
+##EASY
+###BC
 
-8.Which block has to be followed after the try block?{
+8.Which block has to be followed after the try block?
 
 A.catch or finally block.
 B.throw.
 C.static.
 D.throws.
 
-Answer: A
-
+Answer:A
 Explanation:Try block needs to be followed with catch or finally block
+
+#P1
+##EASY
+###BC
 
 9.Why the rest of the code in the try block will not execute?
 
@@ -82,7 +116,11 @@ B.whenever an exception is occurred in the try block the rest of the code will e
 C.whenever an exception is occurred in the try block the rest of the code will not execute. 
 D.whenever an exception is occurred in the try block the throws clause get executed.
 
-Answer: C
+Answer:C
+
+#P1
+##EASY
+###BC
 
 10.Can we have multiple catch blocks with the single try block?
 
@@ -91,10 +129,12 @@ B.no.
 C.not recommended.
 D.none of the above.
 
-Answer: A
+Answer:A
+Explanation:We can have multiple catch blocks with the single try block.
 
-Explanation: we can have multiple catch blocks with the single try block
-
+#P1
+##MEDIUM
+###BC
 
 11.Who handles the exception if the exception is not handled by the programmer itself?
 
@@ -103,8 +143,11 @@ B.Java compiler
 C.JRE.
 D.Constructor.
 
-Answer: A
+Answer:A
 
+#P2
+##MEDIUM
+###BC
 
 12.What is the role of JVM in default Exception Handling mechanism?
 
@@ -115,14 +158,22 @@ D.Garbage collection
 
 Answer:B
 
-13.How the normal flow of the program is maintained in the exception handling mechanism
+#P2
+##MEDIUM
+###BC
 
-A.if the programmer handles the exception.
+13.How the normal flow of the program is maintained in the exception handling mechanism?
+
+A.If the programmer handles the exception.
 B.Prints the StackTrace.
 C.Causes the program to terminate.
 D.Garbage collection.
 
 Answer:A
+
+#P1
+##EASY
+###BC
 
 14.How catch block is executed in multiple catch blocks?
 
@@ -133,6 +184,9 @@ D.using a garbage collector.
 
 Answer:B
 
+#P1
+##EASY
+###BC
 
 15.What is a nested try  block?
 
@@ -143,7 +197,11 @@ D.try after catch block.
 
 Answer:A
 
-16.When should we use nested try  block?{
+#P2
+##MEDIUM
+###BC
+
+16.When should we use nested try block?
 
 A.in the catch block.
 B.catch inside try block
@@ -151,6 +209,10 @@ C.A situation may arise where a part of  block of code may cause one error and t
 D.after catch block.
 
 Answer:C
+
+#IGNORE
+##MEDIUM
+###BC
 
 17.When should we use nested try  block?
 
@@ -161,15 +223,21 @@ D.after catch block.
 
 Answer:C
 
+#P1
+##EASY
+###BC
 18.What is a finally  block?
 
 A.before the catch block.
-B.finally block is always executed whether an exception is handled or not. Therefore, it contains      all the necessary statements that need to be printed regardless of the exception occurs or not.The      finally block follows the try-catch block.
-C.a part of  block of code may cause one error and the entire block of code itself may cause another      error. In such cases,finally block has to be used
+B.finally block is always executed whether an exception is handled or not. Therefore, it contains all the necessary statements that need to be printed regardless of the exception occurs or not.The finally block follows the try-catch block.
+C.a part of  block of code may cause one error and the entire block of code itself may cause another error. In such cases,finally block has to be used
 D.after catch block.
 
 Answer:B
 
+#P1
+##EASY
+###BC
 
 19.Predict the output of the following code.
 
@@ -194,8 +262,11 @@ C.5
 D.10
 
 Answer:B
-
 Explanation:Divide by zero error occurred caught by ArithmeticException object e.
+
+#P1
+##EASY
+###BC
 
 20.Predict the output of the following code.
 
@@ -213,13 +284,16 @@ public class trycatchexample3 {
       
 }  
 
-A.25
-B.A number cannot be divided  by zero
-C.Exception occurred
+A.25.
+B.A number cannot be divided  by zero.
+C.Exception occurred.
 D.0.
 
 Answer:B
 
+#P2
+##EASY
+###BC
 
 21.Predict the output of the following code.
 
@@ -245,6 +319,10 @@ D.0.
 
 Answer: A
 
+#P2
+##MEDIUM
+###BC
+
 22.Predict the output of the following code.
 
 import java.io.*;
@@ -269,6 +347,10 @@ C.Exception Occurred
 D.Compile time error
 
 Answer:A
+
+#P2
+##MEDIUM
+###BC
 
 23.Predict the output of the following code.
 
@@ -304,8 +386,11 @@ B.normal flow
 C.Divide by zero error,Index 10 out of bounds for length 10
 D.40.
 
-Answer: C
+Answer:C
 
+#P1
+##MEDIUM
+###BC
 
 24.Predict the output of the following code.
 
@@ -331,6 +416,9 @@ D.none of the above.
 
 Answer:A
 
+#P1
+##MEDIUM
+###BC
 
 25.Predict the output of the following code.
 
@@ -357,6 +445,10 @@ D.none of the above.
 
 Answer: C
 
+#P1
+##EASY
+###BC
+
 26.Throw statement can be defined as 
 
 A.catch block.
@@ -364,19 +456,25 @@ B.throw statement is used to throw an exception explicitly
 C.a part of  block of code may cause one error and the entire block of code itself may cause another      error. 
 D.in the finally block.
 
-Answer: B
-
+Answer:B
 Explanation:We specify the exception object which is to be thrown. The Exception has some message with it that provides the error description. These exceptions may be related to user inputs, server, etc.We can throw either checked or unchecked exceptions in Java by throw keyword. 
 
+#P1
+##EASY
+###BC
 
-27.Show me the syntax of throw statement
+27.Which of the following is the correct syntax of throw statement?
 
 A.block throw.
 B.throw block
 C.throw new exceptionclass("error message"); 
 D.throw message.
 
-Answer: C
+Answer:C
+
+#P2
+##MEDIUM
+###BC
 
 28.Predict the output of the following code.
 
@@ -401,6 +499,9 @@ D.10.
 
 Answer:C
 
+#P2
+##MEDIUM
+###MA
 
 29.Predict the output of the following code.
 
@@ -430,11 +531,14 @@ D.end of file.
 
 Answer: B,C
 
+#P1
+##EASY
+###MA
 
 30.What is a throws statement?
     
 A.stacktraces found
-B.Throws keyword is used to declare an exception. It gives an information to the programmer that      there may occur an exception.
+B.Throws keyword is used to declare an exception. It gives an information to the programmer that there may occur an exception.
 C.reads the contents of the blocka
 D.end of file.
 
@@ -442,6 +546,9 @@ Answer:B,C
 
 Explanation:It provides information to the caller of the method about the exception.
 
+#P2
+##MEDIUM
+###BC
 
 31.Show me the syntax of throws statement?
     
@@ -453,6 +560,10 @@ C.throws class_name
 D.throws exception.
 
 Answer:B
+
+#P1
+##MEDIUM
+###BC
 
 32.Predict the output of the following code.
 
@@ -481,6 +592,9 @@ D.throws IO Error
 
 Answer: A
 
+#P1
+##MEDIUM
+###BC
 
 33.Predict the output of the following code.
 
@@ -506,6 +620,9 @@ D.Square of 5 is 0
 
 Answer:C
 
+#P1
+##MEDIUM
+###BC
 
 34.Predict the output of the following code.
 
@@ -533,6 +650,9 @@ D.Number is positive
 
 Answer:B
 
+#P2
+##EASY
+###BC
 
 35.final statement can be defined as
 
@@ -542,9 +662,11 @@ C.final is the keyword and it is an access modifier which is used to apply restr
 D.in the finally block.
 
 Answer:C
-
-
 Explanation:final variable becomes constant and cannot be modified once it is declared.It cannot be overridden by sub class.final class cannot be inherited.It is executed only when we call it.
+
+#P1
+##EASY
+###BC
 
 36.finalize statement can be defined as
 
@@ -554,9 +676,11 @@ C.finalize is the method in Java which is used to perform clean up processing fo
 D.in the finally block.
 
 Answer:C
-
 Explanation:finalize() method is used with the objects.It performs the cleaning activities with respect to the object before its destruction.It is executed just before the object is destroyed.
 
+#P2
+##MEDIUM
+###BC
 
 37.Predict the output of the following code
 
@@ -584,6 +708,10 @@ D.in the finally block.
 
 Answer:C
 
+#P2
+##MEDIUM
+###BC
+
 38.Predict the output of the following code
 
 public class finalize1 {    
@@ -607,6 +735,9 @@ D.in the finally block.
 
 Answer:B
 
+#P1
+##MEDIUM
+###BC
 
 39.Exception Propagation can be defined as?
 
@@ -615,7 +746,11 @@ B.final statement is used to throw an exception explicitly
 C.Inside try block Exception handled / by zero finally block is executed
 D.in the finally block.
 
+Answer:A
 
+#P2
+##COMPLEX
+###BC
 
 40.Predict the output of the following code
 
@@ -646,6 +781,10 @@ D.exception handled normal flow
 
 Answer:D
 
+#P1
+##MEDIUM
+###BC
+
 41.Exception Handling with Method Overriding can be explained as
 
 A.garbage collection ended
@@ -654,9 +793,11 @@ C.Inside try block Exception handled / by zero finally block is executed
 D.If the superclass method does not declare an exception, subclass overridden method cannot declare the checked exception but it can declare unchecked exception.
 
 Answer:D
-
 Explanation:If the superclass method declares an exception, subclass overridden method can declare same, subclass exception or no exception but cannot declare parent exception.
 
+#P2
+##MEDIUM
+###BC
 
 42.Predict the output of the following code
 
@@ -684,6 +825,9 @@ D.Exception in Child method
 
 Answer:C
 
+#P1
+##MEDIUM
+###BC
 
 43.Predict the output of the following code
 
@@ -712,6 +856,9 @@ D.Exception in Child method
 
 Answer:A
 
+#P1
+##EASY
+###BC
 
 44.What are Custom Exceptions? 
 
@@ -721,9 +868,11 @@ C.predefined exceptions
 D.Exception in try statement
 
 Answer:A
-
 Explanation:Custom exceptions are used to customize the exception according to the user needs.
 
+#P2
+##EASY
+###BC
 
 45.Why use custom exceptions?
 
@@ -733,9 +882,11 @@ C.predefined exceptions
 D.Exception in try statement
 
 Answer:A
-
 Explanation:It is useful for the application users or the developers to understand the exact problem.In order to create custom exception, we need to extend Exception class that belongs to java.lang package.
 
+#P2
+##MEDIUM
+###BC
 
 46.Predict the output of the following code.
 
@@ -770,12 +921,15 @@ public class CustomException1
 }   
 
 A.An individual is eligible to vote
-B.Exception occured:InvalidAgeException:An individual age is not 	eligible to vote
+B.Exception occured:InvalidAgeException:An individual age is not eligible to vote
 C.An individual age is not eligible to vote
 D.Exception in try statement
 
 Answer:B
 
+#P2
+##MEDIUM
+###BC
 
 47.Default exception handling can be defined as?
 
@@ -785,10 +939,11 @@ C.In the try catch statement
 D.In the throws statement
 
 Answer:A
+Explanation:The run-time system searches the call stack to find the method that contains a block of code that can handle the occurred exception. The block of the code is called an Exception handler.The run-time system starts searching from the method in which the exception occurred, and proceeds through the call stack in the reverse order in which methods were called.If it finds an appropriate handler, then it passes the occurred exception to it. An appropriate handler means the type of the exception object thrown matches the type of the exception object it can handle. If the run-time system searches all the methods on the call stack and couldn’t have found the appropriate handler, then the run-time system handover the Exception Object to the default exception handler, which is part of the run-time system. This handler prints the exception information in the following format and terminates the program abnormally.
 
-Explanation:The run-time system searches the call stack to find the method that contains a block of code that can handle the occurred exception. The block of the code is called an Exception handler.The run-time system starts searching from the method in which the exception occurred, and proceeds through the call stack in the reverse order in which methods were called.If it finds an appropriate handler, then it passes the occurred exception to it. An appropriate handler means the type of the exception object thrown matches the type of the exception object it can handle.
-If the run-time system searches all the methods on the call stack and couldn’t have found the appropriate handler, then the run-time system handover the Exception Object to the default exception handler, which is part of the run-time system. This handler prints the exception information in the following format and terminates the program abnormally.
-
+#P2
+##MEDIUM
+###BC
 
 48.Debug the error for the following code.
 
@@ -819,6 +974,9 @@ D.42
 
 Answer:C
 
+#P2
+##MEDIUM
+###BC
 
 49.Predict the output of  the following code.
 
@@ -858,6 +1016,9 @@ D.Called validate 55
 
 Answer:C
 
+#P1
+##MEDIUM
+###BC
 
 50.Predict the output of  the following code.
 
@@ -897,7 +1058,9 @@ D.25
 
 Answer:A
 
-
+#P1
+##EASY
+###BC
 
 51.Chained Exception can be explained as?
 
@@ -908,23 +1071,27 @@ D.It allows you to perform runtime exception.
 
 Answer:B
 
+#P2
+##MEDIUM
+###BC
 
 52.Predict the output of  the following code.
 
 class ChainDemo {
 static void proc() {
-NullPointerException e = new NullPointerException("top layer");
-e.initCause(new ArithmeticException("cause"));
-throw e;
+	NullPointerException e = new NullPointerException("top layer");
+	e.initCause(new ArithmeticException("cause"));
+	throw e;
 }
 public static void main(String args[]) {
-try {
-proc();
-} catch(NullPointerException e) {
-System.out.println("Caught: " + e);
-System.out.println("Original cause: " +e.getCause());
-}
-}
+	try {
+	proc();
+	} 
+	catch(NullPointerException e) {
+		System.out.println("Caught: " + e);
+		System.out.println("Original cause: " +e.getCause());
+		}
+	}
 }
 
 A.Caught: java.lang.NullPointerException: top layer
@@ -935,6 +1102,10 @@ D.Original cause: java.lang.Exception:Divide by zero
 
 Answer: A
 
+#P2
+##MEDIUM
+###BC
+
 53.How the given method public String getMessage() performs?
 
 A.This method returns the message String of Throwable and the message can be provided while creating the exception through its constructor.
@@ -942,16 +1113,24 @@ B.This method returns the exception
 C.This method returns the custom exception.
 D.This method returns the runtime exception.
 
+Answer:A
+
+#P2
+##COMPLEX
+###BC
 
 54.How the given method public String getLocalizedMessage() performs?
 
 A.This method returns the message String of Throwable and the message can be provided while creating the exception through its constructor.
 B.This method returns the exception
 C.This method returns the custom exception.
-D.This method is provided so that subclasses can override it to provide a locale-specific message to the calling program. Throwable class implementation of this method use getMessage() 	     method to return the exception message.
+D.This method is provided so that subclasses can override it to provide a locale-specific message to the calling program. Throwable class implementation of this method use getMessage() method to return the exception message.
 
 Answer:D
 
+#P2
+##MEDIUM
+###BC
 
 55.What this method public synchronized Throwable getCause() will do?
 
@@ -962,6 +1141,9 @@ D.This method returns the cause of the exception or null if the cause is unknown
 
 Answer:D
 
+#P1
+##EASY
+###BC
 
 56.What this method public String toString() will do?
 
@@ -972,6 +1154,9 @@ D.This method returns the cause of the exception or null if the cause is unknown
 
 Answer:B
 
+#P1
+##MEDIUM
+###BC
 
 57.When this method public void printStackTrace() perform some action?
 
@@ -982,16 +1167,22 @@ D.This method returns the cause of the exception or null if the cause is unknown
 
 Answer:C
 
+#P2
+##MEDIUM
+###BC
 
 58.What is a Call Stack in exceptions? 
 
 A.This call stack returns the message while creating the exception through its constructor.
-B.This call stack returns the information about Throwable in String       format
-C.The call stack is the ordered list of methods that had been called      to get to a specific method.These are the methods which were      called to get to the method in which the error occurred.
-D.This call stack returns the cause of the exception or null if the       cause is unknown.
+B.This call stack returns the information about Throwable in String format
+C.The call stack is the ordered list of methods that had been called to get to a specific method.These are the methods which were called to get to the method in which the error occurred.
+D.This call stack returns the cause of the exception or null if the cause is unknown.
 
 Answer:C
 
+#P1
+##EASY
+###BC
 
 59.ArithmeticException can be defined as ? 
 
@@ -1002,6 +1193,9 @@ D.ArithmeticException is thrown when a number is not found in an       arithmeti
 
 Answer:A
 
+#P1
+##EASY
+###BC
 
 60.ArrayIndexOutOfBoundsException can be defined as ? 
 
@@ -1012,6 +1206,9 @@ D.ArrayIndexOutOfBoundsException is thrown to indicate the index is negative to 
 
 Answer:B
 
+#P1
+##EASY
+###BC
 
 61.ClassNotFoundException can be defined as ? 
 
@@ -1022,6 +1219,9 @@ D.ClassNotFoundException is raised when we try to access a class  which should  
 
 Answer:B
 
+#P1
+##EASY
+###BC
 
 62.When will FileNotFoundException is occurred? 
 
@@ -1032,6 +1232,9 @@ D.FileNotFoundException is raised when a file is accessible but in view mode.
 
 Answer:A
 
+#P1
+##EASY
+###BC
 
 63.When will IOException is occurred? 
 
@@ -1042,6 +1245,9 @@ D.IOException is thrown when an arithmetic error is occurred.
 
 Answer:A
 
+#P1
+##MEDIUM
+###BC
 
 64.What is an Error class in exceptions? 
 
@@ -1052,6 +1258,9 @@ D.Error class in exception handling is used to handle array index  error.
 
 Answer:D
 
+#P2
+##MEDIUM
+###BC
 
 65.SocketException can be defined as ? 
 
@@ -1061,6 +1270,10 @@ C.SocketException occurs on the server-side and the client-side.
 D.SocketException occurs on the server-side when the client closed the socket connection before the response could be returned over the socket.
 
 Answer:D
+
+#P1
+##EASY
+###BC
 
 66.Predict the output of  the following code. 
 
@@ -1084,6 +1297,9 @@ D.Arithmetic exception occurred.
 
 Answer:A
 
+#P1
+##EASY
+###BC
 
 67.Predict the output of  the following code. 
 
@@ -1110,6 +1326,9 @@ D.Reva
 
 Answer:A
 
+#P1
+##EASY
+###BC
 
 68.Predict the output of  the following code. 
 
@@ -1135,6 +1354,9 @@ D.NullPointerException
 Answer:D
 
 
+#P1
+##EASY
+###BC
 
 69.try with resources can be defined as ? 
 
@@ -1145,8 +1367,11 @@ D.which automatically opens the resources used within the try catch block.
 
 Answer:B
 
+#P2
+##MEDIUM
+###BC
 
-70.What is the syntax for try with resources?{
+70.What is the syntax for try with resources?
 
 A.try(FileReader f = new FileReader("file path")) {
 	// use the resource
@@ -1175,6 +1400,9 @@ D.try( f("file path")) {
 
 Answer:A
 
+#P1
+##MEDIUM
+###BC
 
 71.Predict the output of  the following code. 
 
@@ -1195,7 +1423,6 @@ A.deletes the characters from the file abc.txt
 B.null
 C.0
 D.prints the characters from the file abc.txt 
-
 
 Answer:D
 
