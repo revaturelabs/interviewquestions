@@ -46,7 +46,7 @@ print(bool(myobj))
 A.True
 B.False
 
-Answer:B.False
+Answer:B
 
 #P1
 ##EASY
@@ -111,7 +111,7 @@ Answer:D
 #P1
 ##EASY
 ###BC
-8.Predict the output of the following code and give the correct code. 
+8.Predict the output of the following code.
 def myFunction() :
   return True
 myFunction()
