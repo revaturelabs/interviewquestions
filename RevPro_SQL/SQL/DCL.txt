@@ -33,7 +33,6 @@ C. Rolled back
 D. Failed
 
 ANSWER: A
-Explanation: A transaction that completes its execution is said to be Committed.
 
 #P1
 ##MEDIUM
@@ -46,25 +45,25 @@ C. DELETE
 D. GRANT
 
 ANSWER:D
-Explanation:GRANT is the keyword which is used with Data Control Language statements.
+
 
 #P1
 ##MEDIUM
 ###BC
 5. DCL offers commands to complete tasks such as __________
 
-A. change the structure of tables
+A. Change the structure of tables
 B. Insert, Update Or Delete Records And Data Values
-C. authorizing access and other control over database
+C. Authorizing access and other control over database
 D. None of the Mentioned
 
 ANSWER:C
-Explanation:DCL is used to perform the action like authorization, Access and other control over database.
+
 
 #P1
 ##EASY
 ###BC
-6. The database language that enables access to or maintenance of database data
+6. The database language that enables access to or maintenance of database data.
 
 A. DCL
 B. DML
@@ -98,7 +97,7 @@ C. Both A and B
 D. None of the above
 
 ANSWER:C
-Explanation: Commands that comes under DCL are GRANT & REVOKE.
+
 
 #P1
 ##MEDIUM
@@ -111,7 +110,7 @@ C. A transaction can be rolled back to its last saved state.
 D. None of the above
 
 ANSWER:A
-Explanation: The GRANT command can be used to grant a user access to databases and tables whereas The REVOKE command can be used to revoke all access privileges already assigned to the user.
+
 
 #IGNORE
 10. What command in SQL is used to add new rows to a table?
