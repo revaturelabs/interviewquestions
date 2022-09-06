@@ -512,7 +512,7 @@ B. Authorizing Access and other control over Database
 C. Change the structure of Tables
 D. None of Above
 
-ANSWER: B
+ANSWER:B
 
 Explanation: 
 The DCL Grant and Revoke commands are used to grant access to the database.
