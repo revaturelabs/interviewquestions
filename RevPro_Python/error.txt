@@ -1,0 +1,181 @@
+Error
+
+
+#P1
+##EASY
+###BC
+1.Ron is trying to open a file that doesn't exist in his computer system with the following line of code:
+
+file_open = open('file1.txt', 'r')
+What Error he will get after executing this line in python interpreter?
+
+A.FileFoundError
+B.NoFileFoundError
+C.FileNotFoundError
+D.FileNotExistError
+
+Answer:C
+
+
+#P1
+##EASY
+###BC
+2.What will happen if a user writes the following code to get the list element?
+
+list1 = [1, 2, 3, 4]
+print(list1[6])
+
+A.It will print 4.
+B.It will print not iterable.
+C.It will print 3.
+D.index is out of range.
+
+Answer:D
+Explanation:The above code will result in IndexError becuase list indexing starts from 0, not 1, and goes till length of the list minus 1 that is len(list)-1. So we have to access the last element from the above list than we have to write print(list1[3]).
+
+
+#P1
+##EASY
+###BC
+3.What will happen when we run the below code?
+
+print("hello")
+ print("hi")
+
+A.hello
+B.hi
+C.hello and hi
+D.indentation error
+
+Answer:D.
+Explanation:After running the above code, the program will throw the IndentationError because 2nd print statement is not correctly indented. To resolve this error, remove the spaces before 2nd print statement.
+
+
+#P1
+##EASY
+###BC
+4.While running the below code, robsin is getting some error. As he is new to the python language he is not able to rectify what to do to get the correct output. Help him by resolving all the errors.
+
+num1 = 12
+num2 = 14
+prnt(num1 + num)
+
+A.Error
+B.Undefined
+C.NameError
+D.None of the above
+
+Answer:C
+Explanation:Because name 'prnt' is not defined
+
+
+#P1
+##EASY
+###BC
+5.What type of error it will throw the below code
+
+while True print("Software engineer")
+
+A.Error
+B.runtime error
+C.logical error
+D.syntax error
+
+Answer:D
+Explanation:In the above given program, colon is missing after the condition.
+
+
+
+#P1
+##EASY
+###BC
+6.What will be the output of the following code?
+
+int('76.98')
+
+A.TypeError
+B.NameError
+C.ValueError
+D.ImportError
+
+Answer:C
+Explanation:The above program result is valueError because there is an ivalid litreal for int().
+
+
+
+#P1
+##EASY
+###BC
+7.What will be the output of the following code?
+
+print("Good Evening")
+print(Good Day")
+
+A.Semantic,Syntax
+B.Syntax,Semantic
+C.Semantic,Syntax
+D.Syntax,Syntax
+
+Answer:A
+Explanation:The code shows an error detected during execution.The second line shows an syntax error. When there is an deviation form rules of a language, syntax error is occured.
+
+
+#P1
+##EASY
+###BC
+8.What will be the output of the following code?
+
+D1={'1':"aa", '2':"bb", '3':"cc"}
+print(D1['4'])
+
+A.syntaxError
+B.KeyError
+C.No output
+D.None of the above
+
+Answer:B
+Explanation:It will throw an key Error,Because key is not found.
+
+
+#P1
+##EASY
+###BC
+9.What is the output of following code Snippet?
+
+def Display(var):
+   try:
+      return int(var)
+   except (ValueError, Details):
+      print ("The Details does not contain any name and address\n",Details)
+Display("Successfully");
+
+A.Value Error
+B.Name Error
+C.The Details does not contain any name and address
+D.Successfully
+
+Answer:B
+Explanation:NameError, name 'Details' is not defined
+
+
+#P1
+##MEDIUM
+###BC
+10.What is the output od following code snippet?
+
+try:
+  print(x)
+except NameError:
+  print("Variable x is not defined")
+except ValueError:
+  print("Value Error")
+except :
+    print("Type Error")
+
+A.Name Error:variable x is not defined
+B.Value Error
+C.Type Error
+D.Variable x is not defined
+
+Answer:D
+

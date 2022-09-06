@@ -1,0 +1,311 @@
+
+
+#P1
+##EASY
+####BC
+1.What is the output of the following code?
+
+s1="IndiaTraining people"
+s2=""
+s3=""
+for x in s1:
+     if(x=="s" or x=="n" or x=="p"):
+           s2+=x
+print(s2,end=" ")
+print(s3)
+
+A.nnppp
+B.nnnpp
+C.nnpp
+D.None of the abovee
+
+Answer:B
+Explanation:In the above program, it will check whether s,n and p characters are in the string or not.If it is there, it will print those characters.
+
+
+#P1
+##EASY
+####BC
+2.How will you count total number of characters in a string?
+
+A.count()
+B.Len()
+C.length()
+D.len()
+
+Answer:D
+Explanation:In python, len() function will return the length of a string.
+
+
+#P1
+##EASY
+####BC
+3.If string1="Welcome to my Dream World"
+What does string1.find("m") return?
+
+A.Number of occurances of "m" in string string1.
+B.Index positions of "m" in the string string1.
+C.It returns the whole string string1 if it contains "m".
+D.It returns the index position of first occurance of "m" in the string string1.
+
+Answer:D
+
+
+#P1
+##EASY
+####BC
+4.How do you know if every word in a string that starts with a capital letter?
+
+A.Iscapital()
+B.Istitle()
+C.isuppercase()
+D.istitle()
+
+Answer:D
+Explanation:In python, istitle() function is used to check whether the given string starts with a capital letter or not.
+
+
+#P1
+##EASY
+####BC
+5.Which character will have same index value when you access elements from the beginning and from the end(ignore the negative sign) in the following string.
+
+Data = "Welcome to my Dream World"
+
+A.'t'
+B.' '
+C.'o'
+D.'t'
+
+Answer:C
+
+
+#P1
+##EASY
+####BC
+6.What is the output of following code snippet?
+
+str = "Learning"
+print(str[10])
+
+A.Error in Index
+B.Index out of range in string
+C.IndexError
+D.None of the above
+
+Answer:C
+
+
+#P1
+##EASY
+####BC
+7.Each individual character in a string can be accessed using a technique called ____________?
+
+A.Indexing
+B.Replication
+C.Concatenation
+D.None of the above
+
+Answer:A
+
+
+#P1
+##EASY
+####BC
+8.The minsplit parameter to split() specifies the minimum number of splits to make to the input string?
+
+A.True
+B.False
+C.Error
+D.None of the above
+
+Answer:B
+
+
+#P1
+##EASY
+####BC
+9.If you want to transform a list of strings input_list into a single string with a comma between each item, which of the following would you give as the input to join()?
+
+A.string
+B.','
+C.str
+D.input_list
+
+Answer:D
+
+
+#P2
+##EASY
+####BC
+10.You can use the + operator to concatenate three or more strings as well.
+
+A.True
+B.False
+
+Answer:A
+Explanation:In Python, we use + operator for combining two or more strings into a single string.
+
+
+#P1
+##EASY
+####BC
+11.What would be the output for the following code?
+
+string1 = "HAPPY "
+string2 = "LEARNING!!!"
+print((string1 + string2)*3)
+
+A.HAPPY LEARNING!!HAPPY LEARNING!!HAPPY LEARNING!!!
+B.HAPPY LEARNING!!HAPPY LEARNING!!!
+C.HAPPY LEARNING!!!HAPPY LEARNING!!!HAPPY LEARNING!!!
+D.HAPPY LEARNING!HAPPY LEARNING!!HAPPY LEARNING!
+
+Answer:C
+Explanation:In the case of a string, the * operator is used to repeat a string.
+
+
+#P1
+##EASY
+####BC
+12.Which method is used to exchange one string with another string?
+
+A.Replace()
+B.modifier()
+C.exchange()
+D.None of the above
+
+Answer:D
+Explanation:In python, we use .replace() function to replace one character with another character.
+
+
+#P1
+##EASY
+####BC
+13.What is the output of the following code?
+
+input_string ="Consultancy"
+reversed_str =''.join(reversed(input_string))
+print(reversed_str)
+
+A.Consultancy
+B.ycnaTlusnoC
+C.ycnatlusnoC
+D.ycnatlusnoc
+
+Answer:C
+Explanation:In python, to reverse a string, we can use built-in function reversed or else we can use negative index ([::-1]).
+
+
+#P1
+##EASY
+####BC
+14.Select the correct output for the following code?
+
+str1=str("Python_programming")
+str2="Python_programmIng"
+print(str1 == str2)
+print(str1 is str2)
+
+A.True False
+B.False False
+C.False True
+D.True True
+
+Answer:B
+Explanation:In case of a string, == and is operators are used to check whether the given strings are equal or not.
+
+
+#P1
+##EASY
+####BC
+15.Predict the output of the following code.
+
+str="Software engineer"
+print(str[2 : 10 : 2])
+
+A.fa
+B.ft
+C.fw
+D.ftw
+
+Answer:C
+Explanation:In the above program, we use `slicing` operator and this is used to cut the strings based on the values.
+
+
+#P1
+##EASY
+####BC
+16.What is the output of the following code?
+
+str1 = "Revature"
+print(str1[1:4], str1[:5], str1[4:], str1[0:-1], str1[:-1])
+
+A.eva Rvat tur Rvatur Rvatur
+B.eva Revt ture Revtur Revtur
+C.ea Reat ture Reatur Reatur
+D.eva Revat ture Revatur Revatur
+
+Answer:D
+Explanation:We can use a slice operator [] to get a substring.
+
+
+#P1
+##EASY
+####BC
+17.Find the correct output of the following String operations.
+
+str1='Welcome'
+print(str1[:6] + ' to India')
+
+A.Welcm t Indi
+B.Welcome to India
+C.Welcom to India
+D.None of the above
+
+Answer:C
+Explanation:Here, we use slicing to get some part of string and then we use + operator for string combining.
+
+
+#P1
+##EASY
+####TF
+18.What is the output of the following code?
+
+str1 = "My salary is 7000";
+print(str1.isdigit())
+
+A.True
+B.False
+
+Answer:B
+Explanation:isdigit() method checks if it contains the characters or not. If it has, it will return True or else it will return False.
+
+
+#P2
+##EASY
+####TF
+19.String traversal can be done using 'for' loop only.
+
+A.True
+B.False
+
+Answer:B
+
+
+#P2
+##EASY
+####BC
+20.Which operator is used with integers as well as with the strings?
+
+A.///
+B.//
+C.*
+D.**
+
+Answer:C
+
+
+
+
+

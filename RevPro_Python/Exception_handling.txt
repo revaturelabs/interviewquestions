@@ -1,0 +1,465 @@
+Exception Handling
+
+#P2
+##EASY
+###BC
+1.What will do if we enter into the try block?
+
+A.The block will be omitted
+B.All of this block will be executed
+C.Some of the instructions may not be executed
+D.None 
+
+Answer:C
+
+
+#P2
+##EASY
+###BC
+2.What do you mean by except,block?
+
+A.Must be the last one
+B.Cannot be used if any named block has been used
+C.Can be placed anywhere
+D.Must be the first one
+
+Answer:A
+
+
+#P1
+##EASY
+###BC
+3.What is the output of Following code snippet?
+
+ try:
+  print("Hello World")
+except:
+  print("Positive result")
+else:
+  print("Negative result")
+
+A.Hello World
+B.Positive result
+C.Negative result
+D.Hello world,Negative result
+ 
+Answer:D
+
+
+#P1
+##EASY
+###BC
+4.What is the output of following code snippet?
+ 
+  try:
+    if '1' != 1:
+        raise "someError"
+    else:
+        print("Error not occurred")
+except "someError":
+    print ("Error occurred")
+
+A.Error not occurred
+B.Error occurred
+C.invalid code
+D.None of the above
+
+Answer:C
+Explanation:A new exception class must inherit from a BaseException. There is no such inheritance here.
+
+
+#P1
+##EASY
+###BC
+5.What is the output of following code snippet?
+
+def a():
+    try:
+        f(x, 4)
+    finally:
+        print('after f')
+    print('after f?')
+a()
+
+A.No output
+B.after f?
+C.error
+D.after f
+
+Answer:C.error
+Explanation:This code shown above will result in an error simply because ‘f’ is not defined. ‘try’ and ‘finally’ are keywords used in exception handling.
+
+
+#P1
+##EASY
+###BC
+6.What is the output of following code snippet?
+
+import itertools
+l1=(1, 2, 3)
+l2=[4, 5, 6]
+l=itertools.chain(l1, l2)
+print(next(l1))
+
+import itertools
+list1=(1, 2, 3)
+list2=[4, 5, 6]
+list3=itertools.chain(list1, list2)
+print(next(list1))
+
+A.'list' object is not iterator
+B.'tuple' object is not iterator
+C.'list' object is iterator
+D.'tuple' object is iterator
+
+Answer:B
+
+
+#P1
+##EASY
+###BC
+7.What is the output of Following code snippet?
+
+import math
+num=int(input("Enter a number "))
+print(math.Sum(num))
+ 
+A.ValueError
+B.AttributeError
+C.NameError
+D.TypeError
+
+Answer:A
+Explanation:The above code results in a ValueError. This is because when we enter the input as -6, we are trying to find the factorial of a negative number, which is not possible.
+
+
+#P1
+##EASY
+###BC
+8.What will be the output of the following code?
+
+def excep():
+    try:
+        return 1
+    finally:
+        return 2
+s = excep()
+print(s)
+
+A.1
+B.2
+C.Both a and b
+D.None of the above
+
+Answer:B
+Explanation:The finally block is executed even there's a return statement within the try block.
+
+
+
+#P2
+##EASY
+###BC
+9.How exceptions are handled in Python?
+
+A.using try
+B.using try/except
+C.using catch
+D.All of the above
+
+Answer:B
+
+
+#P1
+##EASY
+###BC
+10.What will be the output of the following code?
+
+def Except():
+    try
+        print(10)
+    finally:
+        print(12)
+Except()
+
+A.10 
+B.10 12
+C.keyError
+D.None of the above
+
+Answer:D
+Explanation:It will throw an syntax error.In the above program we missed : in the 2 line.
+
+
+#P2
+##EASY
+###BC
+11.What happens once '1' == one is executed?
+
+A.we get a real
+B.we get a False
+C.associate TypeError happens
+D.a ValueError happens
+
+Answer:B.we get a False
+Explanation:It simply evaluates to False and does not raise any exception.
+
+
+
+#P2
+##EASY
+###BC
+12.Can we handle multiple exception with one block?
+
+A.Yes
+B.We can't ahndle
+C.No
+D.None of the mentioned
+
+Answer:A
+Explanation:Each type of exception can be specified directly. There is no need to put it in a list.
+
+#P1
+##EASY
+###BC
+13.Predict the output of the following code?
+
+try:
+    if '20' != 1:
+        raise "Error"
+    else:
+        print("Error not occurred")
+except "Error":
+    print ("Error occurred")
+
+A.Error not occurred
+B.It will throw an Error
+C.Invalid code
+D.None of the above
+
+Answer:C
+Explanation:A new exception class must inherit from a BaseException. There is no such inheritance here.
+
+
+#P2
+##EASY
+###BC
+14.Which of the following is not from the built-in error?
+
+A.EOFError
+B.KeyError
+C.LoopError
+D.None
+
+Answer:C
+
+
+#P1
+##EASY
+###BC
+15.Predict the output of the following code?
+
+def getValue(m):
+    if m<1 or m>12:
+        raise ValueError("Invalid input")
+    print(m)
+getValue(7)
+
+A.Invalid input
+B.7
+C.12
+D.No output
+
+Answer:B
+Explanation:In the code shown above, since the value passed as an argument to the perform is between one and twelve the output is that the value itself, that is 7. If the worth had been higher than twelve and less than one, a ValueError would are thrown.
+
+
+
+#P1
+##EASY
+###BC
+16.When will the finally block be executed?
+
+A.once there's no exception
+B.once there's an exception
+C.given that some condition that has been specified is satisfied
+D.always
+
+Answer:D
+Explanation:The finally block is always executed.
+
+
+#P1
+##EASY
+###BC
+17.What will happen if the file is not found in the following program?
+
+a=False
+while not a:
+    try:
+        f_n = input("Enter file name")
+        i_f = open(f_n, 'r')
+    except:
+        print("Input file not found")
+
+A.Invalid code
+B.Input file not found
+C.Error
+D.File name
+
+Answer:B
+Explanation:if the computer file in not found, then the statement: “Input file not found” is written on the screen. The user is then prompted to reenter the file name. Error isn't thrown.
+
+
+
+#P1
+##EASY
+###BC
+18.What is the output of the following code?
+
+r[5]
+
+A.IndexError
+B.NameError
+C.TypeError
+D.ValueError
+
+Answer:B
+Explanation:The above code result is showing the output is NameError.Because this file name r nis not defined.
+
+
+
+#P1
+##MEDIUM
+###BC
+19.Predict the output of the folowing code?
+
+valid = False
+while not valid:
+    try:
+        num=int(input("enter a number"))
+        while num%2==0:
+            print("Welcome")
+        valid = True
+    except ValueError:
+        print("invalid")
+
+A.Welcome(printed 10 times)
+B.Invalid
+C.Welcome(infinite number of times)
+D.No output
+
+Answer:C
+Explanation:The output of the above code is welcome(printed infinite number of times).Because an even number is given as input. If an odd number is given as input, then there is no output.
+
+
+
+#P1
+##EASY
+###BC
+20.What will be the output of the following code?
+
+print("Good evening")
+print("Good night)
+
+A.Syntax,Syntax
+B.Semantic,Syntax
+C.Semantic,Syntax
+D.Syntax,Semantic
+
+Answer:B
+Explanation:The first code shows an error detected throughout execution. This may occur often. In second line code represents a syntax error. once there's deviation from the principles of a language, a software error is thrown.
+
+
+
+#P1
+##EASY
+###BC
+21.What will be the output of the following code?
+
+a = [11, 33, 55]
+try:
+    a.get()
+except:
+    pass
+print(a)
+
+A.[11,33,55]
+B.pass
+C.Error
+D.None of the above
+
+Answer:A
+
+
+
+#P1
+##EASY
+###BC
+22.what will be the output for the following code?
+
+a="Hello World"
+try:
+    a + 10
+except Exception:
+    msg="can't add int to string"
+print(msg)
+
+A.Hello World 10
+B.Hello World
+C.Can't add int to string
+D.No output
+
+Answer:C
+
+
+
+#P1
+##EASY
+###BC
+23.Predict the output of the following code?
+
+try:
+    if '2' != 2:
+        raise "JavaTpoint"
+    else:
+       print("Java not exist")
+except "JavaTpoint":
+    print ("Java exist")
+
+What will be the output of this statement?
+A..invalid code
+B.Java not exist
+C.Java exist
+D.None of the above
+
+Answer:A
+Explanation:A new exception class must inherit from a BaseException, and there is no such inheritance here.
+
+
+
+#P2
+##EASY
+###BC
+24.Which of the following is not a keyword in Python language?
+
+A.val
+B.raise
+C.try
+D.with
+
+Answer:A
+Explanation: "val" is not a keyword in python language.
+
+
+
+#P2
+##EASY
+###BC
+25.What is the use of Exception Handling?
+
+A.Cleaner code
+B.Robust application
+C.Standardized error handling
+D.All of the above
+
+Answer:D
