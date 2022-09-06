@@ -497,7 +497,7 @@ D. None of the above
 
 Answer: B
 
-42.The commands in data manipulation language can modify the structure of a database.
+42.State True or False: The commands in data manipulation language can modify the structure of a database.
 
 A. True
  
@@ -507,7 +507,7 @@ Answer: B
 
 Explanation: The commands in data manipulation language cannot modify the structure of a database.
 
-43.DML is a domain-specific language used in programming and designed for managing data and structures of databases.
+43.State True or False: DML is a domain-specific language used in programming and designed for managing data and structures of databases.
 
 A. True
  
@@ -517,7 +517,7 @@ Answer: B
 
 Explanation: SQL is a domain-specific language used in programming and designed for managing data and structures of databases.
 
-44.One must match the field names before inserting a table, else the system will error out.
+44.State True or False: One must match the field names before inserting a table, else the system will error out.
 
 A. True
  
@@ -525,7 +525,7 @@ B. False
 
 Answer: A
 
-45.INSERT and UPDATE commands in SQL and DML are basically the same.
+45.State True or False: State True or False: INSERT and UPDATE commands in SQL and DML are basically the same.
 
 A. True
  
@@ -535,7 +535,7 @@ Answer: B
 
 Explanation: INSERT and UPDATE commands in SQL and DML are basically not same.
 
-46.Data changing commands include editing, inserting data, updating data, deleting data, and reversing transactions.
+46.State True or False: Data changing commands include editing, inserting data, updating data, deleting data, and reversing transactions.
 
 A. True
  
@@ -591,7 +591,7 @@ Answer: A
 
 Explanation: Data is categorised into different types by a data type, which informs the compiler or interpreter of the programmer's intended usage of the data.
 
-50.One row of data can be entered manually or several rows can be added as a result of a query using the ADD command.
+50.State True or False: One row of data can be entered manually or several rows can be added as a result of a query using the ADD command.
 
 A. True
 
@@ -601,7 +601,7 @@ Answer: B
 
 Explanation: To insert new data into a table, use the INSERT command. Following the execution of the command, Sql will create a new row. Single quotes should be used to encapsulate the date and string values.
 
-51.A database is defined using data manipulation language (DML) commands, which can be used to add constraints and create, modify, and delete tables.
+51.State True or False: A database is defined using data manipulation language (DML) commands, which can be used to add constraints and create, modify, and delete tables.
 
 A. True
 
@@ -665,7 +665,7 @@ Answer: B
 
 Explanation: The INSERT INTO command can be written in two ways: 1. INSERT INTO table name specifies both the column names and the values to be inserted and the syntax is,  INSERT INTO table name (column1, column2, column3, ...)
 
-56.If the table definition allows it, you can also omit columns from an INSERT operation.
+56.State True or False: If the table definition allows it, you can also omit columns from an INSERT operation.
 
 A. True
 
@@ -717,7 +717,7 @@ D. SELECT TO
 
 Answer: A
 
-60.Because of the SELECT_________INTO query does not specify a primary key for the new table, so we may need to do so manually.
+60.State True or False: Because of the SELECT_________INTO query does not specify a primary key for the new table, so we may need to do so manually.
 
 A. True
 
@@ -727,7 +727,7 @@ Answer: A
 
 Explanation: The INTO clause provides one or more variables that it will receive the values returned by the query and  If it returns some multiple values, and they are assigned to the list of variables in the order that they are specified.
 
-61.A SELECT INTO statement must return only one row by default.
+61.State True or False: A SELECT INTO statement must return only one row by default.
 
 A. True
 
@@ -782,7 +782,7 @@ Answer: A
 
 Explanation: To delete existing records from a table, we use the SQL DELETE Query.  can also use the WHERE clause in combination with a DELETE query to delete only the specified rows; otherwise, all records are deleted.
 
-65.Is TOP keyword is utilized in the Delete Query?
+65.State True or False: Is TOP keyword is utilized in the Delete Query?
 
 A. True
 
@@ -806,7 +806,7 @@ Answer: D
 
 Explanation: DELETE is a DML (Data Manipulation Language) command that is used for removing or deleting a row (tuple) from a table or relation.
 
-67.Does the remove statement keep the lock?
+67.State True or False: Does the remove statement keep the lock?
 
 A. True
 
