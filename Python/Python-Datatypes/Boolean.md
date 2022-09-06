@@ -34,7 +34,8 @@ D. error
   
 <details><summary> <b>Explanation</b> </summary>
   
-> If the truth method is not defined,the object is considered true. Hence, the output of the code is true.
+> The truth class does not have any methods and variable, the object is considered true. 
+Hence, the output of the code is true.
   
   </details>
   </details>
@@ -107,7 +108,7 @@ print(['hello','morning'][bool('')])
   
 <details><summary> <b>Explanation</b> </summary>
   
-> The line of codes shown above can be simplified that 'hello' should be printed if the argument is passed to the boolean function that amounts to zero. Else 'morning' will be printed.
+> In the above code, as nothing is passed to boolean function therefore it is printing "hello". If anything is passed to the boolean function it will print "morning".
   
   </details>
   </details>
