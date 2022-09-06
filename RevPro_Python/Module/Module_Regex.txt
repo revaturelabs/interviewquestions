@@ -1,4 +1,4 @@
-
+##Python,Module,ModuleRegex
 
 #P2
 ##EASY
@@ -124,7 +124,7 @@ Explanation:In python, JSON is a syntax for storing and exchanging data.
 #P2
 ##EASY
 ###TF
-10.State True/False: In python dir() function in modules is not a built-in function
+10.State True or False: In python dir() function in modules is not a built-in function
 
 A.True
 B.False
@@ -169,7 +169,7 @@ Explanation:The above program it will check the function is user-defined or not.
 #P1
 ##MEDIUM
 ###BC
-13.Which one is used define how many splits you want to perform.
+13.Which one is used define how many splits you want to perform?
 
 A.string split()
 B.re.splits()
@@ -196,7 +196,7 @@ Explanation:Regex is not built-in modules in python.if you want to use the modul
 #P2
 ##EASY
 ###TF
-15.State True/False:We can't convert python object into json.
+15.State True or False:We can't convert python object into json.
 
 A.True
 B.False
