@@ -3,7 +3,8 @@
 #P1
 ##EASY
 ###BC
-1. What is a container or object that combines multiple elements into a single unit and is used to store, retrieve and manipulate data.
+1. What is a container or object that combines multiple elements into a single unit and is used to store, retrieve and manipulate data?
+
     A. Collection
     B. Abstract
     C. Container framework
@@ -15,6 +16,7 @@ Answer: A
 ##EASY
 ###TF
 2. Collection framework contains implementations for all the data structures?
+
     A. True
     B. False
 
@@ -23,7 +25,8 @@ Answer: A
 #P1
 ##EASY
 ###BC
-3. The methods used by an iterator to traverse the collection are
+3. The methods used by an iterator to traverse the collection are_____
+
     A. hasNext()
     B. next()
     C. remove()
@@ -142,7 +145,7 @@ Answer: B
 #P1
 ##EASY
 ###BC
-10. Which method is used to arrange elements in random order.
+10. Which method is used to arrange elements in random order?
 
     A. sort()
     B. random()
