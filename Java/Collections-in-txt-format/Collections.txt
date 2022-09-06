@@ -113,7 +113,7 @@ Answer: B
 #P1
 ##EASY
 ###TF
-7. A comparable object is capable of comparing itself with another object.
+7.State True or False:  A comparable object is capable of comparing itself with another object.
     A. True
     B. False
 
@@ -122,7 +122,7 @@ Answer: A
 #P1
 ##EASY
 ###TF
-8. The concurrent collection APIs of Java provides a range of classes that are specifically designed to deal with concurrent operations. 
+8. State True or False: The concurrent collection APIs of Java provides a range of classes that are specifically designed to deal with concurrent operations. 
     A. True
     B. False
 
@@ -131,7 +131,7 @@ Answer: A
 #P1
 ##EASY
 ###TF
-9 Using Enumeration, you can traverse the collection and also do any modifications to the collection while traversing it. 
+9 State True or False: Using Enumeration, you can traverse the collection and also do any modifications to the collection while traversing it. 
     A. True
     B. False
 
