@@ -1,4 +1,4 @@
-
+##Python,FileHandling,Delete
 
 #P1
 ##EASY
@@ -41,7 +41,7 @@ Explanation: Every line is stored in a list and it will be returned.
 #P1
 ##EASY
 ###BC
-3. What this below code is doing?
+3. What is the purpose of the below code?
 
 f=open('C:\file.txt')
 a=f.read()
@@ -118,7 +118,7 @@ Explanation:In python, os.rmdir() method is used to delete only the empty folder
 #P2
 ##EASY
 ###TF
-8.State True/False:We can delete a empty folder or remove in python.
+8.State True or False: We can delete a empty folder or remove in python.
 
 A.True
 B.False
@@ -144,7 +144,7 @@ Explanation:To list all the files or directories from a particular path, we can 
 #P2
 ##EASY
 ###TF
-10.We can use four types of modes to open a file to read and write.
+10.State True or False: We can use four types of modes to open a file to read and write.
 
 A.True
 B.False
