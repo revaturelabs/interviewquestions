@@ -15,7 +15,7 @@ Answer:D
 ##EASY
 ###BC
 
-2.What is the mechanism which is used to handle the runtime errors?
+2. Which mechanism is used to handle the runtime errors?
 
 A.Exception handling
 B.Interfaces
