@@ -58,7 +58,7 @@ C.hello
 D.hello morning
 
 Answer:C
-Explanation: if the argument is passed to the boolean function that amounts to zero. Else 'morning' will be printed.
+Explanation: if the argument is passed to the boolean function, that amounts to zero. Else 'morning' will be printed.
 
 #P1
 ##EASY
@@ -123,7 +123,7 @@ Answer:C
 #P1
 ##EASY
 ###BC
-9.What will to following code to print?
+9.What will the following code print?
 
 if (10 < 0) and (0 < -10):
     print("A")
