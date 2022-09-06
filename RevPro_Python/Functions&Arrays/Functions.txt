@@ -1,4 +1,5 @@
-// Functions Questions
+##Python,Functions&Arrays,Functions
+
 
 #P1
 ##EASY
@@ -244,7 +245,7 @@ Answer: B
 #P2
 ##EASY
 ###TF
-14. bytes() is a Built-in function in python 
+14. State True or False: bytes() is a Built-in function in python.
 
 A. True
 C. False
