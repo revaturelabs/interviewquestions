@@ -13,9 +13,7 @@ Explanation: To store a character data we can also use two definitions and they 
 Char(20) ---> fixed length 
 Varchar(20) ---> variable length 
 
-#P1
-##EASY
-###BC
+#IGNORE
 2.In MySQL DB The maximum length of the char columns is ____________.
 
 A. 255 bytes
@@ -23,8 +21,8 @@ B. 256 bytes
 C. 65, 535 bytes
 D. None of the above
 
-Answer : A
-Explanation: The maximum size (m) parameter of a VARCHAR column can be between 1 and 255 bytes in size. The maximum size for an index on a VARCHAR column is 254 bytes.
+Answer : B
+Explanation: The maximum size (m) parameter of a VARCHAR column can be between 0 and 255 bytes in size. The maximum size for an index on a VARCHAR column is 256 bytes.
 
 #P1
 ##MEDIUM
