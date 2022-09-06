@@ -41,7 +41,7 @@ Explanation:First, print statement picks the 0th index value which is "Hello", a
 
 #P1
 ##EASY
-###BC
+###MA
 3.Select all the correct options to join two Lists in Python.
 
 list1 = [2, 5, 7, 9, 3]
@@ -67,7 +67,7 @@ print(sampleList[-4:-1])
 
 A.40
  [20,30,40]
-B.\error
+B.error
 C.lst index out of range
 D.No output
 
