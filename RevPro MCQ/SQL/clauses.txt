@@ -3,10 +3,10 @@
 ###BC
 1. Which statement is TRUE about the WHERE Clause?
 
-A.In order to retrieve rows, WHERE Clause is used.
-B.In order to group the rows, WHERE Clause is used.
-C.In order to select the defined groups, WHERE Clause is used.
-D.In order to return the rows, WHERE Clause is used.
+A.In order to retrieve rows, WHERE Clause is used
+B.In order to group the rows, WHERE Clause is used
+C.In order to select the defined groups, WHERE Clause is used
+D.In order to return the rows, WHERE Clause is used
 Answer: A
 Explanation: In order to retrieve rows, WHERE Clause is used.
 
@@ -15,10 +15,10 @@ Explanation: In order to retrieve rows, WHERE Clause is used.
 ###BC
 2. Which statement is TRUE about the GROUP BY Clause?
 
-A.In order to retrieve rows, GROUP BY Clause is used.
-B.In order to group the rows based on same common value, GROUP BY Clause is used.
-C.In order to select the defined groups, GROUP BY Clause is used.
-D.In order to return the rows, GROUP BY Clause is used.
+A.In order to retrieve rows, GROUP BY Clause is used
+B.In order to group the rows based on same common value, GROUP BY Clause is used
+C.In order to select the defined groups, GROUP BY Clause is used
+D.In order to return the rows, GROUP BY Clause is used
 
 Answer: B.
 Explanation:In order to group the rows that share the same property, GROUP BY Clause is used.
@@ -28,9 +28,9 @@ Explanation:In order to group the rows that share the same property, GROUP BY Cl
 ###BC
 3. Which statement is TRUE about the HAVING Clause?
 
-A.In order to group the rows, HAVING Clause is used.
-B.In order to return the rows, HAVING Clause is used.
-C.In order to select the defined groups by the GROUP BY Clause, HAVING Clause is used.
+A.In order to group the rows, HAVING Clause is used
+B.In order to return the rows, HAVING Clause is used
+C.In order to select the defined groups by the GROUP BY Clause, HAVING Clause is used
 D.None of the above
 
 Answer: C. 
@@ -41,9 +41,9 @@ Explanation: In order to select the defined groups by the GROUP BY Clause, HAVIN
 ###BC
 4. Which statement is TRUE about the ORDER BY Clause?
 
-A.In order to return the rows in a specific order, ORDER BY Clause is used.
-B.In order to group the rows, ORDER BY Clause is used.
-C.In order to select the defined groups, ORDER BY Clause is used.
+A.In order to return the rows in a specific order, ORDER BY Clause is used
+B.In order to group the rows, ORDER BY Clause is used
+C.In order to select the defined groups, ORDER BY Clause is used
 D.None of the above
 
 Answer: A
@@ -114,7 +114,7 @@ B.Group by single column
 C.Group by one column
 D.Group by same value
 
-Answer: B.
+Answer: B
 Explanation:Group by single column is used to put the same value in all the rows.
 
 #P1
@@ -148,7 +148,7 @@ B.Data Types
 C.Numbers
 D.Syntax
 
-Answer: A.
+Answer: A
 
 Explanation:Using a WHERE clause in a SQL query is used to specify SQL reserved words and characters, known as Operators.
 
@@ -159,7 +159,7 @@ A. ORDER BY
 B. SORT
 C.ORDER
 D. SORT BY
-Answer: A.
+Answer: A
 Explanation: The ORDER BY keyword sorts the records in ascending order by default.
 
 #IGNORE
