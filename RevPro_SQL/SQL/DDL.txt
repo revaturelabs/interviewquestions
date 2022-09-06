@@ -319,7 +319,6 @@ C.  Alter
 D.  None of the above.
 
 Answer: B
-Explanation: DROP command is used to delete a trigger in sql.
 
 #P1
 ##MEDIUM
