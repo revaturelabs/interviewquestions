@@ -2,7 +2,7 @@
 ##EASY
 ###TF
 
-1.When synchronized keyword is used before the method,the method becomes thread safe.
+1.When synchronized keyword is used before the method, the method becomes thread safe.
 
 A.True
 B.False
@@ -37,7 +37,7 @@ Answer:D
 ##EASY
 ###BC
 
-4.Which method is used to wake a thread from waiting state.
+4.Which method is used to wake a thread from waiting state?
 
 A.wake()
 B.notifyAll()
@@ -50,7 +50,7 @@ Answer:C
 ##EASY
 ###BC
 
-5.Which method is used to wake all threads from waiting state.
+5.Which method is used to wake all threads from waiting state?
 
 A.wakeAll()
 B.notifyAll()
@@ -63,7 +63,7 @@ Answer:B
 ##EASY
 ###BC
 
-6.Which method is used to stop the cuurent thread that is executing and give the chance to other thread which is in the same priority.
+6.Which method is used to stop the cuurent thread that is executing and give the chance to other thread which is in the same priority?
 
 A.wake()
 B.notifyAll()
@@ -76,7 +76,7 @@ Answer:D
 ##EASY
 ###BC
 
-7.Which method is used to pause the thread for require time.
+7.Which method is used to pause the thread for require time?
 
 A.sleep()
 B.rest()
@@ -89,7 +89,7 @@ Answer:A
 ##EASY
 ###BC
 
-8.Which method is used for inter communication between the threads.
+8.Which method is used for inter communication between the threads?
 
 A.yield()
 B.pause()

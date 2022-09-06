@@ -2,7 +2,7 @@
 
 #P2
 ##EASY
-####BC
+###BC
 1. Which statement out of the following is best for encapsulation?
 
 A. It gives ability to a child class to access properties from parent class.
@@ -15,10 +15,9 @@ Answer: C
 Explanation: Encapsulation is a way of binding all the members of a class together.
 
 
-
 #P1
 ##EASY
-####BC
+###BC
 2. Predict the output of the following code.
 
 class Test:
@@ -44,7 +43,7 @@ Explanation: num1 is a public variable of Test class. It can be accessed outside
 
 #P1
 ##EASY
-####BC
+###BC
 3. Predict the output of the following code.
 
 class Test:
@@ -70,7 +69,7 @@ Explanation: As __num2 is private variable of Test class, we cannot access the v
 
 #P1
 ##EASY
-####BC
+###BC
 4. Predict the output of the below code.
 
 class Test:
@@ -100,7 +99,7 @@ Explanation: Class variable's value is printed through getNumber() method using 
 
 #P1
 ##EASY
-####BC
+###BC
 5. What is the output of the following code?
 
 class Test:
@@ -130,7 +129,7 @@ Explanation: The current instance value, that is 20, is printed using self.varia
 
 #P1
 ##EASY
-####BC
+###BC
 6. What is the output of the following code?
 
 class Test:
@@ -160,7 +159,7 @@ Explanation: In the above code, we will get "NameError: name '_Test__num2' which
 
 #P2
 ##EASY
-####BC
+###BC
 7. What do we call the Private members of a class that can be accessed through methods of a class?
 A. init / del
 B. getters / setters
@@ -174,7 +173,7 @@ Explanation: The motive of using getters and settersfunctions in a class is to g
 
 #P2
 ##EASY
-####TF
+###TF
 8. State True and False: "Private variables of a class cannot be accessed outside the class".
 A. True
 B. False
@@ -186,7 +185,7 @@ Explanation: Using name mangling, we can access the private members of a class. 
 
 #P1
 ##EASY
-####BC
+###BC
 9. Which of these is a protected data member of a class in python?
 
 class Test:
@@ -208,7 +207,7 @@ Explanation: Variables with single underscore (_) are the protected variables of
 
 #P1
 ##EASY
-####BC
+###BC
 10. Predict the output of the following code.
 
 class Apple: 
@@ -234,7 +233,7 @@ Explanation: __quantity is a private variable of a class, and private variables 
 
 #P2
 ##EASY
-####TF
+###TF
 11. State True or False: " Private and Protected class variables can be accessed by name mangling".
 A. True
 B. False
@@ -246,7 +245,7 @@ Explanation: Private variables can be accessed by name mangling but protected va
 
 #P1
 ##EASY
-####BC
+###BC
 12. Predict the output of the following code.
 
 class Design:
@@ -272,7 +271,7 @@ Explanation: In the above code, we will get AttributeError: 'Design' object as n
 
 #P1
 ##EASY
-####TF
+###TF
 13. State True and False: "name mangling in python is used to access private variables outside the class."
 
 A. True
@@ -283,7 +282,7 @@ Answer: A
 
 #P1
 ##EASY
-####BC
+###BC
 14. We can achieve encapsulation in python by
 
 A. using abstract base class

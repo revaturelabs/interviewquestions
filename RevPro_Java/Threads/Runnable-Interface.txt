@@ -26,7 +26,7 @@ Answer: A
 ##EASY
 ###TF
 
-3.We can pass lamba expression while creating the object of Thread class itself instead of creating lambda expression of Runnable interface.
+3.We can pass lambda expression while creating the object of Thread class instead of creating lambda expression of Runnable interface.
 
 A.True
 B.False

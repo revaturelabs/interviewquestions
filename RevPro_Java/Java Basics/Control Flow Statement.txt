@@ -2,13 +2,13 @@
 ##EASY
 ###TF
 
-1.State True or False: Control flow statements used to change the flow of the program.
+1.State True or False: Control flow statements are used to change the flow of the program.
 
 A.True
 B.False
 
 Answer:A
-Explantion:The program flow goes from top to bottom. The control flow statetments are used to change the program flow.The control flow statements are classified by following:Conditional Statements,Uncoditional Statements,Looping Statements.
+Explantion:The program flow goes from top to bottom. The control flow statetments are used to change the program flow.The control flow statements are classified as Conditional Statements,Uncoditional Statements,Looping Statements.
 
 #P2
 ##EASY
@@ -40,7 +40,7 @@ C.No output.
 D.10.
 
 Answer:D
-Explanation: Since the value is 10, it will not enter the if block and return the value as it is. 
+Explanation: Since the value is 10, it will not enter the `if` block and return the value as it is. 
 
 #P1
 ##EASY
@@ -68,13 +68,13 @@ C.1000
 D.Compilation Error
 
 Answer:B
-Explanation: Since the given value is 200, which is not lesser than 100 so it will skip the first if block and enters the else block and it is lesser than 200. So, price will be doubled.
+Explanation: Since the given value is 200 which is not lesser than 100, it will skip the first `if` block and enters the `else` block and it is lesser than 200. So, price will be doubled.
 
 #P1
 ##EASY
 ###BC
 
-5. When we will get the output 'pass' according to the code snippet given below.
+5. When will we get the output 'pass' according to the code snippet given below.
 
 public static String findMonth(int english,int math,int science) {
 		String result = null;
@@ -96,7 +96,7 @@ C.english<=35 && math>=35 && science<=35
 D.english>=35 && math>=35 && science>=35
 
 Answer:D
-Explanation: All the three if conditions should be true then only the result will be true.This code is an example of nested if else statement.
+Explanation: All the three `if` conditions should be true and then only the result will be true.This code is an example of nested if else statement.
 
 #P1
 ##EASY
@@ -110,13 +110,13 @@ C.Switch
 D.else if ladder
 
 Answer:C
-Explanation: Switch statement is used to select one of code from many blocks of code. It selects the code based on the expression.
+Explanation: Switch statement is used to select one of the code from many blocks of code. It selects the code based on the expression.
 
 #P1
 ##EASY
 ###TF
 
-7.If we didn't use break or return, each cases of the switch will be executed which are present after that case.
+7.If we don't use break or return, each case of the switch will be executed that are present after that respective case.
 
 A.True
 B.False
@@ -135,13 +135,13 @@ C.Iteration statements.
 D.None of the above.
 
 Answer:C
-Explanation: Looping statements are otherwise called as Iteration statements. The code block will executed until the condition gets failed.
+Explanation: Looping statements are otherwise called as Iteration statements. The code block will be executed until the condition gets failed.
 
 #P1
 ##EASY
 ###TF
 
-9.State True or False: It is compulsory to have initialization, condition,increment/decrement in for loop.
+9.State True or False: It is compulsory to have initialization, condition,increment/decrement in `for` loop.
 
 A.False
 B.True
@@ -153,25 +153,25 @@ Explanation:It is an entry controlled loop ie., the condition checked first.It c
 ##EASY
 ###TF
 
-10.State True or False: while loop is exit controlled loop.
+10.State True or False: `while` loop is exit controlled loop.
 
 A.True
 B.False
 
 Answer:B
-Explanation:It is an entry controlled loop ie., the condition checked first.It has only condition part.It will execute the block code untill the condition fails.
+Explanation:It is an entry controlled loop ie., the condition is checked first. It has only condition part and it will execute the block code until the condition fails.
 
 #P1
 ##EASY
 ###TF
 
-11.State True or False: for loop can't be replaced by while loop.
+11.State True or False: `for` loop can't be replaced by `while` loop.
 
 A.False
 B.True
 
 Answer:A
-Explanation:we can use while loop instead of for loop where we have to initialize outside of the loop and increament or decreament inside the loop.
+Explanation:we can use `while` loop instead of `for` loop where we have to initialize outside of the loop and increament or decreament inside the loop.
 
 #P1
 ##EASY
@@ -179,8 +179,8 @@ Explanation:we can use while loop instead of for loop where we have to initializ
 
 12.Consider the following statements.
 
-i.while loop gets executed atleast once even if the condition is true.
-ii.do..while loop gets executed atleast once even if the condition is true.
+i.`while` loop gets executed atleast once even if the condition is true.
+ii.`do..whil`e loop gets executed atleast once even if the condition is true.
 
 A.only i is true
 B.only ii is true
@@ -200,7 +200,7 @@ A.True
 B.False
 
 Answer:B
-Explanation:A break statement results in the termination of the statement to which it applies for switch, for, do, or while.A continue statement is used to end the current loop iteration and return control to the loop statement.
+Explanation:A break statement results in the termination of the statement to which it applies for switch, for, do, or while. A continue statement is used to end the current loop iteration and return control to the loop statement.
 
 #P1
 ##EASY
@@ -214,7 +214,7 @@ C.come out of the method with or without a value.
 D.None of the above.
 
 Answer:C
-Explanation: It exits the current method. There are two types of return statements they are return with value when method has void return type and return without value.
+Explanation: It exits the current method. There are two types of return statements, return with value when method has void return type and return without value.
 
 #P1
 ##EASY
@@ -236,4 +236,4 @@ C.15
 D.9
 
 Answer:9
-Explanation:If we use return in loop, it exits from the loop as well as from the method.
+Explanation:If we use `return` in loop, it exits from the loop as well as from the method.

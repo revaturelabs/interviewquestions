@@ -21,7 +21,7 @@ C. RemoteDateTime , ZonedDateTime
 D. None of the above
  
 Answer: B  
-Explanation: LocalDateTime is the class in the date-time API when no complexity of timezone handling. ZonedDateTime is also class in the date-time API used to deal with various timezones.
+Explanation:LocalDateTime is the class in the date-time API when there is no complexity in timezone handling. ZonedDateTime is also a class in the date-time API used to deal with various timezones.
 
 #P1
 ##EASY

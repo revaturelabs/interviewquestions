@@ -16,7 +16,8 @@ C.pass
 D.error
 
 Answer:B 
-Explanation:If the truth method is not defined,the object is considered true. Hence, the output of the code is true.
+Explanation:The truth class does not have any methods and variable, the object is considered true. 
+Hence, the output of the code is true.
 
 #P2
 ##EASY
@@ -29,6 +30,8 @@ C.True
 D.Both A and B
 
 Answer:B
+
+
 #P1
 ##EASY
 ###BC
@@ -58,7 +61,7 @@ C.hello
 D.hello morning
 
 Answer:C
-Explanation: if the argument is passed to the boolean function, that amounts to zero. Else 'morning' will be printed.
+Explanation: In the above code, as nothing is passed to boolean function therefore it is printing "hello". If anything is passed to the boolean function it will print "morning".
 
 #P1
 ##EASY
@@ -72,7 +75,7 @@ print(l2)
 A.[[1,0,2,0,'hello']]
 B.[1,0,2,0,'hello','',[]]
 C.[1,2,'hello']
-D.Both
+D.Both A & B
 
 Answer:C
 
@@ -123,7 +126,7 @@ Answer:C
 #P1
 ##EASY
 ###BC
-9.What will the following code print?
+9.What will to following code to print?
 
 if (10 < 0) and (0 < -10):
     print("A")

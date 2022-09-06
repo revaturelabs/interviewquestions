@@ -16,14 +16,14 @@ Explanation:Thread is termed as a lightweight process. A process is divided into
 ##EASY
 ###BC
 
-2.Which is the default thread?
+2.Which is a default thread?
 A.Main
 B.Default
 C.Runnable
 D.Run
 
 Answer:A
-Explanation:If there is no thread is created, the main thread will execute the process by default.
+Explanation:If no thread is created, the main thread will execute the process by default.
 
 #P1
 ##EASY
@@ -35,19 +35,19 @@ A.Yes.
 B.No.
 
 Answer:A.
-Explanation:We can create threads in two ways. By implementing Runnable interface By extending Thread class
+Explanation:We can create threads in two ways. By implementing Runnable interface and By extending Thread class
 
 #P1
 ##EASY
 ###TF
 
-4.Is there any class in java which help us to create a thread?
+4.Is there any class in Java which helps us to create a thread?
 
 A.No.
 B.Yes.
 
 Answer:B.
-Explanation:Yes, there is a Thread class in java helps us to create a thread. Create a class and extend that class by Thread class. Then, the created class will act as thread in java. After extending Thread class, the class should override the run method. After creating object for the class, we can use start() method to run the method.When the method gets started by calling start() method, a new thread is created and starts executed it. On the time, the main thread will continue the remaining part.
+Explanation:Yes, there is a Thread class in java helps us to create a thread. Create a class and extend that class by Thread class. Then, the created class will act as thread in Java. After extending Thread class, the class should override the run method. After creating object for the class, we can use start() method to run the method. When the method gets started by calling start() method, a new thread is created and starts executing it. By this time, the main thread will continue the remaining part.
 
 #P1
 ##EASY
@@ -174,7 +174,7 @@ Answer:C
 ##COMPLEX
 ###BC
 
-13. Complete the field in the following code.
+13. Complete the missing field in the following code.
 
 import java.lang.*;  
 public class ThreadPriority extends Thread   

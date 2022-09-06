@@ -2,7 +2,7 @@
 ##EASY
 ###BC
 
-1.Which of the following is the Lifecycle of thread in correct order.
+1.Which of the following is the correct order of a Lifecycle of a thread.
 
 A.New - Running - Runnable - Blocked - Terminated
 B.New - Blocked - Runnable - Running - Terminated
@@ -28,7 +28,7 @@ Answer:A
 ##EASY
 ###BC
 
-3.Which method is used to allow the thread to complete its execution while another thread is waiting.
+3.Which method is used to allow the thread to complete its execution while another thread is waiting?
 
 A.merge()
 B.join()
@@ -41,7 +41,7 @@ Answer:B
 ##EASY
 ###BC
 
-4.Which method is used to find the name of the thread.
+4.Which method is used to find the name of the thread?
 
 A.setName()
 B.displayName()
@@ -54,7 +54,7 @@ Answer:C
 ##EASY
 ###BC
 
-5.Which method is used to name a thread.
+5.Which method is used to name a thread?
 
 A.setName()
 B.displayName()
@@ -67,7 +67,7 @@ Answer:A
 ##EASY
 ###BC
 
-6.Which method is used to find the state of the thread.
+6.Which method is used to find the state of the thread?
 
 A.setState()
 B.getState()

@@ -161,7 +161,7 @@ Answer:D
 
 Tuple1="yellow",20,"Red"
 a,b,c=Tuple1
-print(b)
+print(a)
 
 A.('yellow',20,'red')
 B.TypeError
@@ -223,7 +223,7 @@ C.(10, 10, 10)
 D.(10, 20, 30)
 
 Answer:C
-Explanation:We can use * operator to repeat the values of tuple as n number of times.
+Explanation:We can use * operator to repeat the values of tuple n number of times.
 
 
 #P2
@@ -240,7 +240,7 @@ Explanation:We can create a tuple without parentheses but we have to seperate ea
 
 #P1
 ##EASY
-###BC
+###MA
 15.Select the correct statements out of the following regarding Tuple.
 
 A.We can delete the element from a tuple but we cannot update elements of the tuple.
@@ -301,11 +301,11 @@ Answer:A
 
 A.append()
 B.extend()
-C.add()
-D.Both a and b
+C.Both a and b
+D.None of the above
 
 Answer:D
-Explanation:if we convert the tuple to a list, we can add element to that list using append() or extend() method. After adding, we can convert that list back to tuple.
+Explanation: Tuples are immutable in python we cannot change the values of items directly using append() or extend().
 
 
 #P1

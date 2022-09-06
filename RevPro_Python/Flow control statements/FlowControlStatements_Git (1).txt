@@ -67,13 +67,13 @@ else:
 
 A. Not eligible for voting  
 B. Eligible for voting   
-C. Eligible for voting</br>
+C. Eligible for voting
    Not eligible for voting   
 D. SyntaxError   
 
 Answer: D
 
-Explanation: if statements should end with semicolon(:) in python.
+Explanation: if statements should end with colon(:) in python.
 
 
 
@@ -104,7 +104,7 @@ Explanation: if condition becomes false as 43%2 is not equal to 0. Therefore els
 7. Can we write if-else in a single line in python?
 A. Yes    
 B. Not possible    
-C. we can write it but have to import the module first.    
+C. We can write it but have to import the module first.    
 D. None of the above      
 
 Answer: A
@@ -124,7 +124,7 @@ D. if x>4
 
 Answer: C
 
-Explanation: All the other options except C. misses semicolon at last.
+Explanation: All the other options except C. misses colon at last.
 
 
 
@@ -201,9 +201,11 @@ Answer: B
 
 Explanation: "Hello-World" is printed as if conditon becomes False.
 
-
+#P1
+##EASY
+###BC
 12. Which of the following is the correct output?
-python3
+
 a = 1
 b = 0
 c = 0
@@ -227,7 +229,7 @@ Explanation: In if condition, Bitwise xor ^ operator is used which returns 1 if 
 ##EASY
 ###BC
 13. Which of the following is the correct output?
-python3
+
 a = 10
 b = 4
 c = 0
@@ -251,7 +253,7 @@ Explanation:  There is no || operator in python.
 ##EASY
 ###BC
 14. Predict the output of the following code.
-python3
+
 a = 10
 b = 4
 c = 0
@@ -277,7 +279,7 @@ Explanation: "Hi-world" is executed because all the if conditions becomes true f
 ##EASY
 ###BC
 15. What is the output of the following for loop?
-python3
+
 for i in 'Jerry':
     if i == 'r':
       break
@@ -287,19 +289,16 @@ A. J, e, r, r, y,
 B. J, e, r, r, y  
 C. J, e,  
 D. J, e, y,  
-
   
 Answer: C
 
-Explanation:  The break statement jumps out of loop when the if condition becomes true i.e when the i value becomes equal to 'r'. So it prints from J till e with comma after each character and comes out of loop and will not print " r, r, y, " of "Jerry" string.
-
+Explanation:  The break statement jumps out of loop when the if condition becomes true i.e when the i value becomes equal to 'r'. So it prints from 'J' till 'e' with comma after each character and comes out of loop and will not print " r, r, y, " of "Jerry" string.
 
 #P1
 ##EASY
 ###BC
 16. What is the output of the following for loop?
   
-
 for i in 'Jerry':
     if i == 'r':
         continue
@@ -311,7 +310,6 @@ B. J, e, r, r, y
 C. J, e,  
 D. J, e, y,  
 
-
 Answer: D
 
 Explanation:  The continue statement skips the current iteration and moves to next iteration when the condition inside if becomes true. Here whenever the value of i is equal to r, it will not print the ith value for that iteration and iterates from next iteration. Hence, 'r' is not printed anytime in output screen and we get the output as "J, e, y,".
@@ -321,7 +319,7 @@ Explanation:  The continue statement skips the current iteration and moves to ne
 ##EASY
 ###BC
 17. What is the output of the following for loop?
-python3
+
 for i in 'Jerry':
     if i == 'r':
         pass
@@ -342,7 +340,7 @@ Explanation:  The pass statement in python does not do anything and therefore al
 ##EASY
 ###BC
 18. Predict the output of the below code.
-python3
+
 for num in range(8, 12):
    for i in range(2, num):
        if num%i == 1:
@@ -356,7 +354,7 @@ D. None
   
 Answer: A
 
-Explanation:  Here in the above code, for each iteration, if the num%i == 1 condition gets true then only it prints the num value and breaks the inner loop and jumps to the outer loop otherwise the i value of inner loop keeps on changing untill i<n or if condition becomes true, whichever comes first. It prints 8 when the value of num and i are 8 and 7 respectively. It prints 9 when the value of num and i are 9 and 2 respectively. It prints 10 when the value of num and i are 10 and 3 respectively. It prints 11 when the value of num and i are 11 and 2 respectively. Hence the correct option is A..
+Explanation:  Here in the above code, for each iteration, if the num%i == 1 condition gets true then only it prints the num value and breaks the inner loop and jumps to the outer loop otherwise the i value of inner loop keeps on changing untill i<n or if condition becomes true, whichever comes first. It prints 8 when the value of num and i are 8 and 7 respectively. It prints 9 when the value of num and i are 9 and 2 respectively. It prints 10 when the value of num and i are 10 and 3 respectively. It prints 11 when the value of num and i are 11 and 2 respectively. Hence the correct option is A.
 
 
 #P1
@@ -382,7 +380,7 @@ Explanation:  Here in the above code, for each iteration, if the num%i == 0 cond
 
 #P2
 ##EASY
-###BC
+###MA
 20. Select which is/are true for `for` Loop.  
 
 A. Python’s for loop used to iterates over the items of list, tuple, dictionary, set, or string.    
@@ -505,7 +503,7 @@ Explanation:  There should be no space between + and = in last line of code.
 ##EASY
 ###BC
 26. Predict the output of the following while loop code.
-python3
+
 i = 2
 while True:
     if i%5 == 0:
@@ -576,7 +574,7 @@ for i in str1:
        c=c+1
    else:
        pass
-print(C.
+print(c)
 
 A. 2  
 B. 3  
@@ -601,7 +599,7 @@ for i in str1:
             c=c+1
    else:
        c=c+1
-print(C. 
+print(c)
 
 A. 2  
 B. 3  
@@ -618,7 +616,7 @@ Explanation:  Here the value of c is incremented by 1 when both outer and inner 
 ##EASY
 ###BC
 30. Predict the output of the below code
-python3
+
 str1="akshay"
 c=0
 for i in str1:
@@ -627,7 +625,7 @@ for i in str1:
             c=c+1
    else:
        c=c-1
-print(C. 
+print(c)
 
 A. 3     
 B. 1      
@@ -642,7 +640,8 @@ Explanation:  Here the value of c is incremented by 1 when both outer and inner 
 #P2
 ##EASY
 ###TF
-31. State True or False: "We can use `else` condition only 1 time in the program".  
+31. State True or False: "We can use `else` condition only 1 time in the program". 
+
 A. True  
 B. False   
   
@@ -673,7 +672,7 @@ Explanation:  Every option except A. gives output as 0 1 2 3 4, but A. option co
 ##EASY
 ###BC
 33. How many times will the loop run?
-python3
+
 i=2
 while i:
     i=i-1 
@@ -692,7 +691,7 @@ Explanation:  For the value of i = 2 and i = 1, the loop runs. Hence 2 times.
 ##EASY
 ###BC
 34. How many times will the loop run?
-python3
+
 i=2
 while True:
     i=i-1 
@@ -711,7 +710,7 @@ Explanation:  As in the above code the while loop condition is True always, so i
 ##EASY
 ###BC
 35. What will be the output of the following code?
-python3
+
 for i in range(0,2,-1):
     print("Hi")
 
@@ -838,7 +837,7 @@ Explanation:  It will give "TypeError: 'int' object is not iterable".
 ##EASY
 ###BC
 42. Predict the output of below code
-python3
+
 num = '123'
 for i in num:
     print(i, end=" ")
@@ -874,7 +873,7 @@ Explanation:  In for loop we cannot check the condition, whereas do while loop i
 ##EASY
 ###BC
 44. What is the output of below code?
-python3
+
 l =[]
 for i in l:
     print(i)
@@ -920,7 +919,7 @@ Answer: C
 
 #P2
 ##EASY
-###BC
+###MA
 47. Which of the following is/are an infinite loop condition?    
 
 A. while 1:    
@@ -1083,7 +1082,7 @@ Explanation:  When the elements that are present in a list is divisible by 2 ,th
 ##EASY
 ###BC
 55. What will be the output of below code?
-python3
+
 if 4+5 < 10:
     print("True")
 else:
@@ -1108,7 +1107,7 @@ Explanation:  The first if condition becomes true, as 9<10, in the above code, s
 ##EASY
 ###BC
 56. What will be the output of below code?
-python3
+
 if 4+5 < 10:
     print("True")
 else:
@@ -1132,7 +1131,7 @@ Explanation:  The first if condition becomes true, as 9<10, in the above code, s
 ##EASY
 ###BC
 57. What will be the output of the following code?
-python3
+
 if 4+5 < 10 and 5+5>10:
     print("True")
 if 8//2*2!=4:
@@ -1179,14 +1178,14 @@ D. None of the above
  
 Answer: D
 
-Explanation:  The first print statement is not executed as if condition becames false. The 2nd and 3rd print statements are executed as if condition for both becomes true. Also last True is always printed as it is not a part of if-else statements. Therefore, it will print False, True, True each in new line. Hence option D. is correct.
+Explanation:  The first print statement is not executed as if condition becomes false. The 2nd and 3rd print statements are executed as if condition for both becomes true. Also last True is always printed as it is not a part of if-else statements. Therefore, it will print False, True, True each in new line. Hence option D. is correct.
 
 
 #P1
 ##EASY
 ###BC
-59. What will be the output of the below code for a=5 and b=5?
-python3
+59. What will be the output of the below code for a=5 and b=5
+
 a= int(input())
 b= int(input())
 if a*b > 10 and a+b<10:
@@ -1208,7 +1207,7 @@ Explanation:  The first if condition becomes false as 10<10 is false. Therfore t
 ##EASY
 ###BC
 60. What is the output of this while loop code?
-python3
+
 i = -5
 j = 1
 
@@ -1244,7 +1243,7 @@ Answer: D
 ##EASY
 ###BC
 62. What will be the output of the following code?
-python3
+
 a = ['ABC', 'XYZ']  
 for i in a:  
     i.lower() 
@@ -1305,7 +1304,7 @@ Explanation:  Print statement have 'a' which is a list, so the whole list is pri
 ##EASY
 ###BC
 65. Predict the output of the following code.
-python3
+
 list1 = [4, 2, 7, 3, 8, 9, 1]  
 for i in list1:  
     if(i < 6) and (i%2!=0):
@@ -1327,7 +1326,7 @@ Explanation:  The if conditon becomes true for the values 3 and 1 and false for 
 ##EASY
 ###BC
 66. Predict the output of the following code.
-python3
+
 list1 = [4, 2, 7, 3, 8, 9, 1]  
 for i in list1:  
     if(i < 6) and (i%2=0):
@@ -1349,7 +1348,7 @@ Explanation:  The above code will result in syntax error because of the if condi
 ##EASY
 ###BC
 67. Predict the output of the following code.
-python3
+
 list1 = [4, 2, 7, 3, 8, 9, 1]  
 for i in list1:  
     if(i < 6) and (i%2==0):
@@ -1545,7 +1544,7 @@ Explanation:  In python, we can write else part with for and while loop. So firs
 ##EASY
 ###BC
 78. Predict the output of the following code.
-python3
+
 i=5
 while(i<=8):
   print("i", end=" ")
@@ -1618,7 +1617,7 @@ Answer: B
 ##EASY
 ###BC
 82. Predict the output of the below code.
-python3
+
 for i in range(2,10):   
     if (i%2==0):
         continue
@@ -1679,7 +1678,7 @@ Explanation:  The for loop will starts from 1 and goes till 5. In if block break
 ##EASY
 ###BC
 85. What should be the arguments of a `range()` function that will print the values 10, 14 and 18 for the below code given?
-python3
+
 for i in range(_,_,_):
     print(i)
 
@@ -1741,7 +1740,7 @@ Explanation:  The print statement always chooses the 1st value of every list fro
 ##EASY
 ###BC
 88. What will be the output of the below code?
-python3
+
 matrix = [[1, 2, 3, 4],
 [4, 5, 6, 7],
 [8, 9, 10, 11],
@@ -1846,7 +1845,7 @@ Explanation:  The append() function will add all the values of list1 to an empty
 ##MEDIUM
 ###BC
 93. Predict the output of the following code. 
-python3
+
 list1 = [1, 2]
 list2 = []
 for i in list1:

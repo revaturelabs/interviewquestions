@@ -2,7 +2,7 @@
 ##EASY
 ###BC
 
-1.The three non-access modifiers are
+1.The three non-access modifiers are,
 
 A.static,abstract,default.
 B.default,static,final.
@@ -51,7 +51,7 @@ A.Yes
 B.No
 
 Answer:B
-Explanation:If we add abstract keyword with method, we can't add method definition to the method and abstract method presents in abstract class.If we add abstract keyword with class, we can't make the class extended from another class. It can be extended from only another abstract class. We can't create object for abstract class.
+Explanation:If we add abstract keyword with method, we can't add method definition to the method and abstract method presents in abstract class.If we add abstract keyword with class, we can't make the class extended from another class. It can be extended from another abstract class only. We can't create object for abstract class.
 
 #P1
 ##MEDIUM
@@ -75,7 +75,7 @@ A.True
 B.False
 
 Answer:B
-Explanation:We need to create an object to call the non-static method from static method where both the methods presents in the same class. In general, non-static methods are called using objects and static methods are called using class name.
+Explanation:We need to create an object to call the non-static method from static method where both the methods is present in the same class. In general, non-static methods are called using objects and static methods are called using class name.
 
 #P1
 ##COMPLEX

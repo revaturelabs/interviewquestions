@@ -292,7 +292,7 @@ public class Addition {
        interface Sum{
        int add(int a, int b);
        }
-	B. public class Main{ 
+   B. public class Main{ 
          public static void main(String args[]){ 
           Sum sum = a+b;
           System.out.print(sum.add(2,3));  
@@ -301,7 +301,7 @@ public class Addition {
        interface Sum{
        int add(int a, int b);
        }
-    C. public class Main{ 
+   C. public class Main{ 
          public static void main(String args[]){ 
           Sum sum = (a,b) : a+b;
           System.out.print(sum.add(2,3));  

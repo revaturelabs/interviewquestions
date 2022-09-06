@@ -20,7 +20,7 @@ A.False
 B.True
 
 Answer:B
-Explanation:As StringBuilders are mutable, we can change the values inbetween the string. The manipulation of strings is better because the reference of StringBuilder is not changed on this process. For storing and accessing the strings are prefered.
+Explanation:As StringBuilders are mutable, we can change the values in between the string. The manipulation of strings is better because the reference of StringBuilder is not changed on this process. For storing and accessing the strings are prefered.
 
 #P1
 ##EASY

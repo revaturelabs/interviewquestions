@@ -24,7 +24,7 @@ D. Student obj;
 
 Answer: C 
 
-Explanation: options A. and D. are incorrect because this is how we can create a object in java and c++ respectively, not in python.
+Explanation: Other options are used to create object in another programming language , which is not support by Python.
 
 #P1
 ##MEDIUM
@@ -81,7 +81,8 @@ D. Henry 23
 
 Answer: D
 
-Explanation: In show() method, the 1st print statement is referring the class variable using the class name Student. And in 2nd print statement, it is referring to instance variable through current parameter. Hence option D. is correct.
+Explanation: In show() method, the 1st print statement is referring the class variable using the class name Student. 
+And another print statement it is referring to instance variable through current parameter. Hence option D. is correct.
 
 #P1
 ##EASY
@@ -108,7 +109,8 @@ D. No output
 
 Answer: C
 
-Explanation: The above code will generate TypeError as no parameter is being passed to show() method. Adding self in the show() method definition should resolve the problem. 
+Explanation: The above code will generate TypeError as no parameter is being passed to show() method. 
+Adding self in the show() method definition should resolve the problem. 
 
 #P2
 ##EASY
@@ -122,7 +124,7 @@ D. __int__()
 
 Answer: B
 
-Explanation: __init__() is a constructor in python, rest all are wrong.
+Explanation: __init__() is a constructor in python.
 
 #P1
 ##EASY
@@ -136,7 +138,7 @@ D. del
 
 Answer: D
 
-Explanation: Through del, we can delete objects created for a class.
+Explanation: Through del we can delete objects created for a class.
 
 #P1
 ##MEDIUM
@@ -175,7 +177,7 @@ D. Error as show() function requires additional argument
 
 Answer: C
 
-Explanation: During object creation, 1 argument is required because __init__() method has another argument name other than self. For example obj= Student("Henry")
+Explanation: During object creation, 1 argument is requried because __init__() method has another argument name other than self. For example obj= Student("Henry")
 
 #P1
 ##EASY
@@ -186,7 +188,7 @@ B. False
 
 Answer: B
 
-Explanation: __init__() is a private method and a constructor in python.
+Explanation: __init__() is a private method as well as constructor in python.
 
 #P1
 ##MEDIUM
@@ -258,7 +260,7 @@ Explanation: A constructor is optional and can be used to set initial values for
 #P1
 ##EASY
 ###BC
-14. Which is used to store the data members and functions together in python?
+14. which is used to store the data members and functions together in python.
 A. method
 B. class
 C. object
@@ -286,7 +288,7 @@ B. False
 
 Answer: B
 
-Explanation: The child class does not need access to all the functions in parent class.
+Explanation: The child class does not need access to the all the functions in parent class.
 
 #P1
 ##EASY
@@ -299,7 +301,7 @@ D. Python treats everything as objects including variables, functions, list, tup
 
 Answer: C
 
-Explanation: There is no restriction in the number of objects that can be created for a class in python, but by convention, it should be meaningful.
+Explanation: There is no restriction in the number of objects that can be created for a class in python, but by convention it should be meaningful.
 
 #P1
 ##EASY
@@ -321,12 +323,12 @@ D. 3 and 3
 
 Answer: A
 
-Explanation: In the above code, 3 objects are present, two without reference variable and one with reference variable, Obj = student().
+Explanation: In the above code, 3 objects are present, two without reference variable and 1 with reference variable, Obj = student().
 
 #P1
 ##EASY
 ###BC
-19. Odd one out: Which does not come under four pillers of OOPs in python?
+19. Odd one out: Which is not comes under four pillers of OOPs in python?
 A. Encapsulation
 B. Instantiation
 C. Inheritance
@@ -369,7 +371,7 @@ class Test:
     def __init__(self, a=0):
         self.a = a
         
-    def assign(self, A.:
+    def assign(self, a):
         return self.a
         
 obj1 = Test(11)
@@ -382,8 +384,7 @@ D. Error, too many 'a' variable used
 
 Answer: B
 
-Explanation: assign() method returns the current instance variable's value, which is 11 at that time. Hence the output.
-
+Explanation: assign() method returns the current instance variable's value, which is 11 at that time.
 #P2
 ##MEDIUM
 ###BC
@@ -394,7 +395,7 @@ class Test:
     def __init__(self, a=0):
         self.a = a
         
-    def assign(self, A.:
+    def assign(self, a):
         return Test.a
         
 obj1 = Test(11)
@@ -420,7 +421,7 @@ class Test:
     def __init__(self, a=0):
         self.a = a
         
-    def assign(self, A.:
+    def assign(self, a):
         return Test.a
         
 obj1 = Test(11)
@@ -434,7 +435,7 @@ D. Error, too many 'a' variable used
 
 Answer: C 
 
-Explanation: assign() method returns the parameter's value of assign(), that was assigned to it as 12 at the time of calling. Hence the output.
+Explanation: assign() method returns the parameter's value of assign(), that was assign to it as 12 at the time of calling. Hence the output.
 
 #P2
 ##EASY
@@ -445,7 +446,7 @@ B. False
 
 Answer: B 
 
-Explanation: It is not mandatory to have a class with starting letter as uppercase but, it is recommended to make a class with starting letter as capital in python.
+Explanation: It is not mandatory to have a class with starting letter in uppercase but, it is recommended to make a class with starting letter in capital in python.
 
 #P2
 ##MEDIUM
@@ -531,7 +532,7 @@ Answer: A
 #P1
 ##EASY
 ###TF
-31. Using double underscore '__' before any variable or method name will create private modifiers in python.
+31. Using double underscore __ before any variable or method name will create private modifiers in python.
 
 A. True
 B. False
@@ -541,7 +542,7 @@ Answer: A
 #P2
 ##EASY
 ###TF
-32. Using single underscore '_' before any variable or method name will create public modifiers in python.
+32. Using single underscore _ before any variable or method name will create public modifiers in python.
 
 A. True
 B. False
@@ -551,7 +552,7 @@ Answer: B
 #P1
 ##EASY
 ###BC
-33. Which of the following statement is wrong regarding instance variable?
+33. Which of the following statement is wrong regarding instance varibale?
 
 A. They are declared inside the method or a constructor of a class.
 B. These variables are shared accross all the objects of a class.
@@ -563,7 +564,7 @@ Answer: D
 #P2
 ##EASY
 ###TF
-34. A class variable is shared accross all the objects of the class. 
+34. A class variable is shared accross all the objects of the class 
 
 A. True
 B. False

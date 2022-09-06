@@ -1,7 +1,7 @@
 
 #P1
 ##Easy
-####BC
+###BC
 1.What will be the output of the following code?
 
 def func1():
@@ -21,10 +21,10 @@ Explanation:You will get an error as NameError: name 'y' is not defined. To acce
 
 #P1
 ##Easy
-####BC
+###BC
 2.What is the output of the following code?
 
-print(bool(0), bool(3.14159), bool(-3)
+print(bool(0), bool(3.14159), bool(-3))
 
 A.False False True
 B.True True True
@@ -32,12 +32,12 @@ C.False True True
 D.False True False
 
 Answer:C
-Explanation:If we pass zero values to bool() constructor, it will treat it as zero.Any non-zero value is boolean True.
+Explanation:If we pass zero value to bool() constructor, it will treat it as False. Any non-zero value is boolean True.
 
 
 #P1
 ##Easy
-####TF
+###TF
 3.delete is a keyword in python ?
 
 A.True
@@ -49,7 +49,7 @@ Explanation:del is the keyword in python not delete.
 
 #P1
 ##Easy
-####BC
+###BC
 4.Predict the output of the following code?
 
 x=56.9
@@ -71,7 +71,7 @@ In line 5 it's converting complex to an integer. But, it will throw a type error
 
 #P1
 ##Easy
-####BC
+###BC
 5.Predict the output of the following code?
 
 x = 80
@@ -92,7 +92,7 @@ Explanation:A variable declared outside of all functions has a GLOBAL SCOPE. Thu
 
 #P1
 ##Easy
-####BC
+###BC
 6.what will be the output of the below code?
 
 type(range(5))
@@ -108,7 +108,7 @@ Explanation:In Python 3, the range() function returns range object, not list.
 
 #P1
 ##Easy
-####BC
+###BC
 7.How do you remove a reference to a variable?
 
 A.using del keyword
@@ -122,19 +122,19 @@ Explanation:You can delete a reference to an object using the del keyword.
 
 #P1
 ##Easy
-####TF
+###TF
 8.We can convert the complex into int datatype.
 
 A.True
 B.False
 
 Answer:B
-Explanation:we can't We can convert any type to int type, but we cannot perform complex to int type.
+Explanation:We can convert any type to int type, but we cannot change complex to int type.
 
 
 #P1
 ##Easy
-####BC
+###BC
 9.What is type casting?
 
 A.declaration of data type
@@ -147,7 +147,7 @@ Answer:C
 
 #P1
 ##Easy
-####BC
+###BC
 10.What error will occur when you execute the following code?
 MANGO = APPLE
 

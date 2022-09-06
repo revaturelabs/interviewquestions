@@ -55,6 +55,7 @@ private class Main{
     D. None of the above
 
 Answer: B
+Explanation:We can't have this Main class to be private.
 
 #P1
 ##EASY
