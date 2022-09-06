@@ -1,0 +1,82 @@
+#P1
+##EASY
+###BC
+
+1.Which of the following is the process of executing one or more threads simultaneously?
+
+A.Multithreading.
+B.Multiprocessing.
+C.Multitasking.
+D.None of the above.
+
+Answer:A.
+Explanation:Thread is termed as a lightweight process. A process is divided into parts, each part called Thread. Multithreading is the process of executing one or more threads simultaneously. In multithreading, threads will share a common memory and the execution will also be faster.
+
+#P1
+##EASY
+###BC
+
+2.Which is the default thread?
+A.Main
+B.Default
+C.Runnable
+D.Run
+
+Answer:A
+Explanation:If there is no thread is created, the main thread will execute the process by default.
+
+#P1
+##EASY
+###TF
+
+3.Can we create threads in Java?
+
+A.Yes.
+B.No.
+
+Answer:A.
+Explanation:We can create threads in two ways. By implementing Runnable interface By extending Thread class
+
+#P1
+##EASY
+###TF
+
+4.Is there any class in java which help us to create a thread?
+
+A.No.
+B.Yes.
+
+Answer:B.
+Explanation:Yes, there is a Thread class in java helps us to create a thread. Create a class and extend that class by Thread class. Then, the created class will act as thread in java. After extending Thread class, the class should override the run method. After creating object for the class, we can use start() method to run the method.When the method gets started by calling start() method, a new thread is created and starts executed it. On the time, the main thread will continue the remaining part.
+
+#P1
+##EASY
+###BC.
+
+5. Consider the following code.
+
+class Greeting extends Thread{
+	public void run() {
+		for(int i=0; i<10; i++) {
+			System.out.println("Hello");
+			try {Thread.sleep(1000);} catch(InterruptedException e){ };
+		}
+	}
+}
+
+public class Main {
+	public static void main(String[] args) {
+		Greeting greeting = new Greeting();
+		greeting.start();
+	}
+}
+
+A.When the sleep() method is called, the thread is hold by 1000 millisecond that is 1 second, and then print Hello message.
+B.When the sleep() method is called, the thread is hold by 1000 second and then print Hello.
+C.When the sleep() method is called, the thread is hold by 1000 millisecond that is 1 second and will not print Hello.
+D.None of the above.
+
+Answer:A
+Explanation:sleep()` method takes milliseconds as parameter, makes the current running thread to hold for that given milliseconds.
+
+
