@@ -1,3 +1,6 @@
+#P1
+##EASY
+###BC
 1. Harry potter's Invisibility cloak was passed down to him by his father James and James potter got it from his father Henry potter, this is a clear example for?
 
     A. Hybrid Inheritance
@@ -7,6 +10,9 @@
 
 Answer: B
 
+#P1
+##EASY
+###BC
 2. English language vocabulary is comprised of old germanic, French, and Latin words, this is an example for?
 
     A. Hybrid Inheritance
@@ -16,6 +22,9 @@ Answer: B
 
 Answer: D
 
+#P1
+##EASY
+###TF
 3. In java, a class can not extend more than one class.
 
     A. True
@@ -23,6 +32,9 @@ Answer: D
 
 Answer: A
 
+#P1
+##EASY
+###BC
 4. In java, combining two or many types of inheritance is considered as _______ Inheritance.
 
     A. Hybrid Inheritance
@@ -32,6 +44,9 @@ Answer: A
 
 Answer: A
 
+#P1
+##EASY
+###BC
 5. A superclass is extended by a subclass and the subclass is extended by another subclass. This is called as _______.
 
     A. Hybrid Inheritance
@@ -41,6 +56,9 @@ Answer: A
 
 Answer: B
 
+#P1
+##EASY
+###BC
 6. The relation between a superclass which gets extended by a single subclass is called _______ Inheritance.
 
     A. Hybrid Inheritance
@@ -50,6 +68,9 @@ Answer: B
 
 Answer: C
 
+#P1
+##EASY
+###BC
 7. A child class inherits all the properties of parent class so the child class can be implicitly upcasted to parent. This is called as _______.
 
     A. Upcasting
@@ -59,6 +80,9 @@ Answer: C
 
 Answer: A
 
+#P1
+##EASY
+###BC
 8. A parent class may or may not have all the properties of Child class, so parent class can be ecplicily downcasted to Child class. This is called as _______.
 
     A. Upcasting
@@ -68,12 +92,18 @@ Answer: A
 
 Answer: B
 
+#P1
+##EASY
+###TF
 9. main() method is a static method and static methods can't be overriden.
     A. True
     B. False
 
 Answer: A
 
+#P1
+##EASY
+###BC
 10. A static method can not be overriden if a sub class has a method with the same name as the static method in super class, its considered as _______.
 
     A. Data Hiding
@@ -83,6 +113,9 @@ Answer: A
 
 Answer: A
 
+#P1
+##MEDIUM
+###BC
 11. What is the output of the following code?
 
 import java.util.*;
@@ -125,6 +158,9 @@ class Japan extends Olympics{
 
 Answer: A
 
+#P1
+##EASY
+###BC
 12. What is the output of the following code?
 
 public final class Car{
@@ -154,6 +190,9 @@ public final class Car{
 
 Answer: C
 
+#P1
+##EASY
+###BC
 13. What is the output of the following code?
 
 public final class Car{
