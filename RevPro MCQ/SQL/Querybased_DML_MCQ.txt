@@ -87,7 +87,7 @@ WHERE condition;
 #P1
 ##MEDIUM
 ###BC
-3.Predict the output for the following given table (Update single column)
+3.Predict the output for the following given table (Update single column).
 
 Update the column_Name and set the value to "Divya" in all the rows where Age is 20.
 
@@ -167,7 +167,7 @@ you can insert how many of records you want by using the syntax.
 #P1
 ##EASY
 ###BC
-5.Predict the output of the following  for updating a single record in table?
+5.Predict the output of the following for updating a single record in table.
 
 | EmpID 	| EmpName 	| EmpEmail       	| PhoneNumber 	| City      	|
 |-------	|---------	|----------------	|-------------	|-----------	|
@@ -219,7 +219,7 @@ Step 4: The Syntax for UPDATE Statement is
 #P1
 ##EASY
 ###BC
-6.State true of false, below query updates the employees emails to example@xyz.com.
+6.State true of false:Below query updates the employees emails to example@xyz.com.
 UPDATE Employees email = 'example@xyz.com';
 
 A. False
@@ -260,7 +260,7 @@ default value of the remaining columns.
 #P1
 ##MEDIUM
 ###BC
-8.How will you Delete the multiple records from the following given table below: 
+8.How will you Delete the multiple records from the following given table below?
 
 | Roll_No 	| Name    	| Address   	| Ph_No      	| Age 	|
 |---------- |----------|------------|-------------|------|
