@@ -1,8 +1,6 @@
-
-
 #P1
 ##EASY
-####BC
+###BC
 1.Which of the following Python code will create a set?
 
 (i) set1=set((0,9,0))
@@ -20,7 +18,7 @@ Explanation: set1=set((0,9,0)), set1=set([0,2,9]) and set1={1} will create a set
 
 #P1
 ##EASY
-####BC
+###BC
 2.What is the output of following code snippet?
 
 set1={1,2,3,4,5,6,7,8,9}
@@ -40,7 +38,7 @@ Explanation: TypeError: unsupported operand type(s) for +: 'set' and 'set'
 
 #P1
 ##EASY
-####BC
+###BC
 3.What will set1|set2 do?
 
 A.Elements of set2 will get appended to set1
@@ -53,7 +51,7 @@ Answer:C.
 
 #P1
 ##EASY
-####BC
+###BC
 4.What is the output of following code snippet?
 
 S1={1,2,3}
@@ -80,7 +78,7 @@ Explanation: In the above code, all if conditions are true.
 
 #P1
 ##EASY
-####BC
+###BC
 5.Which of the following options will give an error if set1={1,2,3,4,5,6,7,8,9,10}?
 
 A.print(set1[0])
@@ -93,7 +91,7 @@ Answer:D
 
 #P1
 ##EASY
-####BC
+###BC
 6.Suppose there are two sets, set1 and set2 where set1 is the superset of set2. It is required to get only the unique elements of both the sets. Which of the following will serve the purpose?
 
 A.set1|set2
@@ -107,7 +105,7 @@ Explanation:set1-set2 it will use to get only the unique elements of both the se
 
 #P1
 ##EASY
-####BC
+###BC
 7.What is the output of following code snippet?
 
 set1={1,2,3,4,5,6,7,8,9,10}
@@ -124,7 +122,7 @@ Explanation:TypeError: 'set' object is not subscriptable
 
 #P1
 ##EASY
-####BC
+###BC
 8.Which of the following is used to create an empty set?
 
 A.[]
@@ -138,7 +136,7 @@ Explanation – {} is of class dictionary (print(type({})) try this code for mor
 
 #P1
 ##EASY
-####BC
+###BC
 9.How will you add list of items into a Set?
 
 A.append()
@@ -152,7 +150,7 @@ Explanation:In python, we can use the update() method of a set, to add list of i
 
 #P1
 ##EASY
-####BC
+###BC
 10.Predict the output of the following code?
 
 set1 = {10, 20, 30, 40, 50}
@@ -170,7 +168,7 @@ Explanation:AttributeError: 'set' object has no attribute 'intersect'.
 
 #P1
 ##EASY
-####BC
+###BC
 11.What is the output of the following code?
 
 set1={8,9}
@@ -195,7 +193,7 @@ Answer:C
 
 #P1
 ##EASY
-####BC
+###BC
 12.How will you remove items 10, 20, 30 from the set at once?
 
 set1 = {10, 20, 30, 40, 50}
@@ -211,7 +209,7 @@ Explanation:We can use difference_update() method to remove items at once.
 
 #P2
 ##EASY
-####TF
+###TF
 13.State True/False A set be accessed by index?
 
 A.True
@@ -223,7 +221,7 @@ Explanation:Set can't be accessed by index, and if your trying to access a set b
 
 #P2
 ##EASY
-####TF
+###TF
 14.What is the output of the following code?
 
 a={5,6,7,8}
@@ -239,7 +237,7 @@ Explanation:it is possible to compare two sets and the order of elements in both
 
 #P1
 ##EASY
-####BC
+###BC
 15.What is the result of this statements
 
 print({1,2,3,4,5}-{3,4}^{5,6,7})
@@ -250,9 +248,3 @@ C.{1,2}
 D.{1,2,6,7}
 
 Answer:D
-
-
-
-
-
-
