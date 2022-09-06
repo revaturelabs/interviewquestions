@@ -145,7 +145,7 @@ C.2
 D.Value Error
 
 Answer:B
-Explanation:It will printing the pop out values.
+Explanation: In the above, x variable is storing the removed value of 2nd index from the list which is 2 and last print statement is returning the removed item as a set.
 
 #P1
 ##EASY
@@ -218,7 +218,7 @@ C.[55, 777, 54, 6, 76, 101, 1, 2, 8679, 123]
 D.Both B and C
 
 Answer:C
-Explanation: Using the .remove() method and inside parenthesis, we can type the value you’d like to remove.
+Explanation: Using the remove() method we can give the value that we would like to remove.
 
 
 #P1
@@ -267,7 +267,7 @@ C.All elements along with List object
 D.All of the above
 
 Answer:D
-Explanation:Because all the options can delete from the List
+Explanation:Because all the options can be used for deleting items from the List.
 
 
 
