@@ -16,7 +16,7 @@ Explanation: Commit and Rollback are transaction control commands in SQL.
 #P1
 ##EASY
 ###BC
-2. What command  is used to Store data permanently in a database?
+2. What command is used to Store data permanently in a database?
 
 A. SavePoint
 B. Grant
@@ -25,7 +25,7 @@ D. All of The Above.
 
 Answer: C
 
-Explanation: Commit is the command used in mySQL to store data permanently in a table.
+Explanation: Commit is the command used in MySQL to store data permanently in a table.
 
 #P1
 ##EASY
@@ -179,7 +179,7 @@ Explanation: In case of a shutdown, before committing, Rollback is done.
 #P2
 ##EASY
 ###TF
-10. We updated the location of Amritha to "Gujarat" in the table “EMPLOYEE” an make sure to save the chages permanently. EMPLOYEE table is as follows:
+10. We updated the location of Amritha to "Gujarat" in the table “EMPLOYEE” and make sure to save the changes permanently. EMPLOYEE table is as follows:
 
 | EMP_ID | EMP_NAME | EMP_LOC |
 | ------ | -------- | ------- |
@@ -232,7 +232,7 @@ B. False
 
 Answer: A
 
-Explanation: Based on the output we can see that the insertion of the first 2 columns has been removed, Only the insertion below the missing command hence the missing command is Rollback.
+Explanation: Based on the output, we can see that the insertion of the first 2 columns has been removed and Only the insertion is below the missing command, hence the missing command is Rollback.
 
 #P1
 ##EASY
@@ -461,7 +461,7 @@ Answer: D
 #P2
 ##MEDIUM
 ###BC
-30. It follows that characteristic C must be determined by attributes A and B, which is know as________.
+30. It follows that characteristic C must be determined by attributes A and B, which is known as________.
 
 A. A → C.
 B. B → C.
@@ -484,7 +484,7 @@ Answer: A
 #P1
 ##EASY
 ###BC
-32. The multivalued dependence constraint problem has a many solutions, including:
+32. The multivalued dependence constraint problem has many solutions, including:
 
 A. Spliting the relation into two relations, each with a single theme.
 B. Change the theme.
