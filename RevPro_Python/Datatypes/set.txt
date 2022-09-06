@@ -7,7 +7,7 @@
 
 (i) set1=set((0,9,0))
 (ii) set1=set([0,2,9])
-(iii) set1={}
+(iii) set1={1}
 
 A.iii
 B.i and ii
@@ -15,7 +15,7 @@ C.ii, iii
 D.All of the above
 
 Answer:D
-Explanation:Set1=set((0,9,0)), set1=set([0,2,9]) and set1={} will create a set.
+Explanation: set1=set((0,9,0)), set1=set([0,2,9]) and set1={1} will create a set.
 
 
 #P1
@@ -75,7 +75,7 @@ C.Value Error
 D.Syntax Error
 
 Answer:A
-Explanation:The conditions are true
+Explanation: In the above code, all if conditions are true.
 
 
 #P1
@@ -206,7 +206,7 @@ C.Remove()
 D.Both A and B
 
 Answer:B
-Explanation:We can use this method to remove items at once
+Explanation:We can use difference_update() method to remove items at once.
 
 
 #P2
@@ -234,7 +234,7 @@ A.True
 B.False
 
 Answer:A
-Explanation:it is possible to compare two sets and the order of elements both in the set doesn't matter if the values of the elements are the same.
+Explanation:it is possible to compare two sets and the order of elements in both the sets doesn't matter if the values of the elements are the same.
 
 
 #P1
