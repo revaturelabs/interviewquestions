@@ -231,6 +231,7 @@ Explanation: DEFAULT is a used to set a default value for a column.
 #IGNORE
 20. A period of days, hours, minutes, and seconds should be maintained in a column.
 Which data type would be most helpful?
+
 A.  TIMESTAMP
 B.  INTERVAL DAY TO SECOND
 C.  INTERVAL YEAR TO MONTH
@@ -323,7 +324,7 @@ Explanation: DROP command is used to delete a trigger in sql.
 #P1
 ##MEDIUM
 ###TF
-29. SHOW TRIGGERS lists the triggers currently defined for tables in a database.
+29.State True or False:  SHOW TRIGGERS lists the triggers currently defined for tables in a database.
 
 A. TRUE
 B. FALSE
@@ -333,7 +334,7 @@ Answer: A
 #P1
 ##MEDIUM
 ###TF
-30. Candidate key can be a single column or combination of more than one column.
+30.State True or False:  Candidate key can be a single column or combination of more than one column.
 
 A. TRUE
 B. FALSE
