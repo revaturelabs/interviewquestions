@@ -98,12 +98,12 @@ C. Both A and B
 D. None of the above
 
 ANSWER:C
-Explanation: Commands that comes under DCL are GRAND & REVOKE.
+Explanation: Commands that comes under DCL are GRANT & REVOKE.
 
 #P1
 ##MEDIUM
 ###BC
-9. The distinction between the commands GRAND and REVOKE is _____________
+9. The distinction between the commands GRANT and REVOKE is _____________
 
 A. The GRANT command can be used to grant a user access to databases and tables whereas The REVOKE command can be used to revoke all access privileges already assigned to the user.
 B. The REVOKE command can be used to grant a user access to databases and tables whereas The GRANT command can be used to revoke all access privileges already assigned to the user.
@@ -167,7 +167,7 @@ B. Foreign key
 C. Candidate key
 D. Super key
 
-a.Primary key
+ANSWER: A
 
 Explanation:The collection of records is known as a file.
 
