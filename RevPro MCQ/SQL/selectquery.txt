@@ -241,7 +241,6 @@ Choose the select statement that best represents the query.
 
 Answer:C
 
-
 #P1
 ##EASY
 ###BC
@@ -295,7 +294,7 @@ C.SELECT Gender= 'M' FROM Employees;
 
 D.SELECT Gender FROM Employees WHERE Last_Name = 'Kumar';
 
-Answer:D.
+Answer:D
 
 Explanation:By using SELECT key in addition to WHERE clause to be used for Last_Name
 
