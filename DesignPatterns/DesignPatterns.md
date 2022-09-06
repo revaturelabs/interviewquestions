@@ -1120,7 +1120,7 @@ Synchronization of whole `getinstance()` method is costly and is only needed dur
 
 <blockquote>
 
-The preferred way to prevent creating another instance of a singleton is by not implementing Cloneable interface and if you do just throw an exception from clone() method "not to create a clone of singleton class".
+The preferred way to prevent creating another instance of a singleton is by not implementing Cloneable interface and if you do just throw an exception from clone() method and not to create a clone of singleton class.
 
 </blockquote>
 
@@ -1152,7 +1152,7 @@ The singleton pattern ensures that a class has only one instance and to provide 
 
 <blockquote>
 
-- Singleton causes code to be tightly coupled. The singleton object is exposed globally and is available to a whole application. Thus, classes using this object become tightly coupled; any change in the global object will impact all other classes using it.
+- Singleton causes code to be tightly coupled. The singleton object is exposed globally and is available to a whole application. Thus, classes using this object become tightly coupled and  any change in the global object will impact all other classes using it.
 - They hide dependencies instead of exposing them.
 - Singleton Pattern does not support inheritance.
 - Singleton principle can be violated by techniques such as cloning. If an application is running on multiple JVM’s, then, in this case, Singleton might be broken.
@@ -1385,7 +1385,7 @@ Displaying Student Page
 
 ---
 	
-42. Explain service locator design pattern with an example?
+42. How can you implement service locator design pattern with an example?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1558,7 +1558,7 @@ The Transfer Object pattern is used when we want to pass data with multiple attr
 
 ```java
 
-public class StudentVO {
+public class StudentVO{
    private String name;
    private int rollNo;
 
@@ -1658,7 +1658,7 @@ Student: [RollNo : 0, Name : Michael ]
 
 - Define a private static attribute in the "single instance" class.
 - Define a public static accessor function in the class.
-- Do "lazy initialization" (creation on first use) in the accessor function.
+- Do lazy initialization in the accessor function.
 - Define all constructors to be protected or private.
 - Clients may only use the accessor function to manipulate the Singleton.
 
@@ -1770,7 +1770,7 @@ public class LazyInitialized {
 
 <blockquote>
 
-Lazy initialization method to implement Singleton pattern creates the instance in the global access method. Here is the sample code for creating Singleton class with this approach.The below implementation works fine incase of single threaded environment but when it comes to multithreaded systems. It can cause issues if multiple threads are inside the if loop at the same time. It will destroy the singleton pattern and both threads will get the different instances of singleton class.Sometimes in distributed systems, we need to implement Serializable interface in Singleton class.So that we can store it’s state in file system and retrieve it at later point of time. Here is a small singleton class that implements Serializable interface also.The problem with this serialized singleton class is that whenever we deserialize it, it will create a new instance of the class. 
+Lazy initialization method to implement Singleton pattern creates the instance in the global access method. Here is the sample code for creating Singleton class with this approach.The below implementation works fine incase of single threaded environment but when it comes to multithreaded systems. It can cause issues if multiple threads are inside the if loop at the same time. It will destroy the singleton pattern and both threads will get the different instances of singleton class.Sometimes in distributed systems, we need to implement Serializable interface in Singleton class.So that we can store it’s state in file system and retrieve it at later point of time. It is a small singleton class that implements Serializable interface.The problem with this serialized singleton class is that whenever we deserialize it, it will create a new instance of the class. 
 
 ```java
 
@@ -1794,7 +1794,7 @@ public class SerializedSingleton implements Serializable{
 
 import java.io.*;
 
-public class SingletonSerializedTest {
+public class SingletonSerialized {
 
     public static void main(String[] args) throws FileNotFoundException, IOException, ClassNotFoundException {
         SerializedSingleton instanceOne = SerializedSingleton.getInstance();
