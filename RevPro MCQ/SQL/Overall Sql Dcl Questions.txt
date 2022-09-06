@@ -1,5 +1,5 @@
 
-1.Using SQL's ___________commands, you can restrict who has access to what data in a database.
+1. Using SQL's ___________commands, you can restrict who has access to what data in a database.
 
 A. Database
 B. Data
@@ -8,12 +8,9 @@ D. All of the Mentioned
 
 ANSWER:C
 
-Explanation:
+Explanation:Data control is used for the controlling the access to database.Commands are Grant and Revoke.
 
-Data control is used for the controlling the access to database.Commands are Grant and Revoke.
-
-
-2.Which of the following portions of a SQL query specifies the criteria for row selection?
+2. Which of the following portions of a SQL query specifies the criteria for row selection?
 
 A. Where
 B. From
@@ -22,9 +19,7 @@ D. Group By
 
 ANSWER:A
 
-Explanation:
-
-In an SQL statement where clause states the conditions for row selection.
+Explanation: In an SQL statement where clause states the conditions for row selection.
 
 3.When a transaction has completed, it is referred to as __________
 
@@ -35,9 +30,7 @@ D. Failed
 
 ANSWER:A
 
-Explanation:
-
-A transaction that completes its execution is said to be Committed.
+Explanation: A transaction that completes its execution is said to be Committed.
 
 4.What keyword pairs with Data Control Language (DCL) statements?
 
@@ -48,7 +41,7 @@ D. GRANT
 
 ANSWER:D
 
-Explanation:GRANT is the keyword which is used with Data Control Language statements.
+Explanation: GRANT is the keyword which is used with Data Control Language statements.
 
 5.DCL Offers Commands To Complete Tasks Such As __________
 
@@ -59,7 +52,7 @@ D. None of the Mentioned
 
 ANSWER:C
 
-Explanation:DCL is used to perform the action like authorization, Access and other control over database.
+Explanation: DCL is used to perform the action like authorization, Access and other control over database.
 
 
 6.The database language that enables access to or maintenance of database data
@@ -72,7 +65,6 @@ D. All of the Mentioned
 ANSWER:A
 
 Explanation: DCL command like Grant and Revoke is used for to give access on the database.
-
 
 7.What statement or claims about DCL is/are TRUE?
 
@@ -98,9 +90,7 @@ D.None of the above
 
 ANSWER:C
 
-Explanation:
-
-Commands that comes under DCL are GRAND & REVOKE.
+Explanation: Commands that comes under DCL are GRAND & REVOKE.
 
 9.The distinction between the commands GRAND and REVOKE is _____________
 
@@ -115,7 +105,6 @@ Explanation:
 
 The GRANT command can be used to grant a user access to databases and tables whereas The REVOKE command can be used to revoke all access privileges already assigned to the user.
 
-
 10.What command in SQL is used to add new rows to a table?
 
 A. Alter Table
@@ -123,11 +112,9 @@ B. Add row
 C. Insert
 D. Append
 
-
 ANSWER:C
 
 Explanation: Alter Table will change the structure of the table.
-
 
 11.DDL, DCL, and DML are three language elements that make up a database management system (DBMS). Users and practitioners, two diverse groups of individuals, are both interested in them. Which of them do DBMS users typically deal with?
 
@@ -136,11 +123,9 @@ B. DML
 C. DDL and DCL
 D. DCL and DML
 
-
 ANSWER:B
 
 Explanation: The users and practitioners are concerned with only Data manipulation languagecomponent of DBMS
-
 
 12.The log is a series of Entries that documents all database update actions.
 
@@ -153,7 +138,6 @@ ANSWER:B
 
 Explanation: Log records are the most commonly used recovery method.
 
-
 13.Which type of failure loses its data when a head crashes or a transfer operation fails?
 
 A. Disk failure
@@ -161,11 +145,9 @@ B. System crash
 C. Transaction failure
 D. All of the above
 
-
 ANSWER:A
 
 Explanation:This kind of error occurs due to the formation of bad sectors, head crashes, and unreachability to the disk.
-
 
 14.Which keyword is utilised in file organisation to access records?
 
@@ -178,7 +160,6 @@ a.Primary key
 
 Explanation:The collection of records is known as a file.
 
-
 15.Which of the following bottom-up strategies creates a high-level object by combining two or more low-level entities?
 
 A. Generalization
@@ -189,7 +170,6 @@ D. All of the above
 ANSWER:A
 
 Explanation:Specialization is the opposite of generalization that break high-level entities into low-level entities.
-
 
 16.Which of the subsequent statements is used to call the SQL function?
 
@@ -236,7 +216,6 @@ ANSWER:A
 
 Explanation:The Java program must import java.sql.\*, which contains the interface definitions for the functionality provided by JDBC.
 
-
 20.Which of the following describes a bottom-up approach to database design where attributes are analysed in connection to one another?
 
 A. Functional dependency
@@ -247,7 +226,6 @@ D. Decomposition
 ANSWER:C
 
 Explanation:Normalisation is the process of removing redundancy and unwanted data.
-
 
 21.On what forms does the idea of functional dependency rest?
 
@@ -284,7 +262,6 @@ ANSWER:A
 
 Explanation: The first normal form is used to eliminate duplicate values, and an attribute of a table cannot hold multiple values. 41) The characteristics of the table in second normal form
 
-
 24.All assertions made up until the commit will be ?
 
 A.Rollback
@@ -313,7 +290,6 @@ A.Commit
 B.Rollback
 C.Flashback
 D.View
-
 
 ANSWER:D
 
@@ -351,11 +327,9 @@ B.values
 C.column
 D.field
 
-
 ANSWER:B
 
 Explanation: To insert value in the table, we have to use the INSERT keyword with the VALUES clause.
-
 
 30.Pick the incorrect response to this question.
 
@@ -364,11 +338,9 @@ B.SELECT column_name FROM table_name;
 C.SELECT column_name FROM table_name WHERE condidtion;
 D.SELECT column_name WHERE condition;
 
-
 ANSWER:D
 
 Explanation: The correct answer is option D because the SELECT command does not produce output without specifying the table name.
-
 
 31.What should the outcome of the following query be? SELECT * FROM class WHERE marks>90 AND 
 roll no = 20;
@@ -407,7 +379,6 @@ ANSWER:D
 
 Explanation: The storage required for the char and varchar variable is different. Char() has a static allocation of space, whereas varchar() has a dynamic allocation of space. So the length of varchar() will vary according to the specified string.
 
-
 34.DELETE FROM X
 What does the preceding statement mean?
 
@@ -430,7 +401,7 @@ D.Delete
 
 ANSWER:A
 
-Explanation:Truncate is used to delete complete data without removing the table structure.
+Explanation: Truncate is used to delete complete data without removing the table structure.
 
 36.Which of the following commands is the one you should use to remove the values from the relation?
 
@@ -438,7 +409,6 @@ A. Delete from teaches;
 B. Delete from teaches where Id =’Null’;
 C. Remove table teaches;
 D. Drop table teaches;
-
 
 ANSWER:D
 
@@ -456,6 +426,7 @@ ANSWER:B
 Explanation: Along with security, as the name suggests the db_accessadmin role also handles access. db_sysadmin refers to the system administrator. db_securityadmin as the name suggests it involves granting or declining permission to access the data ensuring security.
 
 38.Why the following statement is erroneous?
+
 SELECT dept_name, ID, avg (salary)
 FROM instructor
 GROUP BY dept_name;
@@ -479,8 +450,7 @@ REVOKE SELECT ON oe.orders FROM scott;
 
 What would be the outcome after executing the statements?
 
-A. The REVOKE statement would give an error because the SELECT privilege has been granted 
-     to the role R1
+A. The REVOKE statement would give an error because the SELECT privilege has been granted to the role R1
 B. The REVOKE statement would remove the SELECT privilege from SCOTT as well as from the role R1
 C. SCOTT would be able to query the OE.ORDERS table
 D. SCOTT would not be able to query the OE.ORDERS table
@@ -488,7 +458,6 @@ D. SCOTT would not be able to query the OE.ORDERS table
 ANSWER:B
 
 Explanation: To perform operations on objects, the REVOKE statement is used to revoke rights from a single user or role, or from all users.
-
 
 40.SELECT INTO statement-
 
@@ -499,10 +468,7 @@ D.None of the above
 
 ANSWER:C
 
-Explanation:
-
-SELECT INTO statement copy the content from one table into another existing table.
-
+Explanation: SELECT INTO statement copy the content from one table into another existing table.
 
 41. DCL offers commands to carry out tasks such as __________
 
@@ -513,9 +479,7 @@ D. None of Above
 
 ANSWER: B
 
-Explanation: 
-
-The DCL Grant and Revoke commands are used to grant access to the database.
+Explanation: The DCL Grant and Revoke commands are used to grant access to the database.
 
 
 
