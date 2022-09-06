@@ -94,7 +94,7 @@ Explanation: The command isexecuted in project directory.(like: C:\Users\IT\SQUA
 #P1
 ##EASY
 ###BC
-8. In which directory a jar file will be craeted in the project?
+8. In which directory a jar file will be created in the project?
 
 A. project/target 
 B. project/root
