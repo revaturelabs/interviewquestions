@@ -79,6 +79,10 @@ D.None of the above.
 Answer:A
 Explanation:sleep()` method takes milliseconds as parameter, makes the current running thread to hold for that given milliseconds.
 
+#P1
+##EASY
+###BC
+
 6. _______ enforces modularity in the sense that one thread cannot stop the progress of another thread, but if all threads share a single address space, then they can modify each other's memory accidentally.
 
 A. Fixed scheduling
@@ -88,7 +92,11 @@ D. None of the above
 
 Answer: B
 
-7. What are the methods related to the thread priority.
+#P1
+##EASY
+###BC
+
+7. What are the methods related to the thread priority?
 
 A. public final int getPriority():Returns the priority of the given thread by using the java.lang.Thread.getPriority() method.
 B. public final void setPriority(int newPriority): Updates or assign the priority of the thread to newPriority using the java.lang.Thread.setPriority() method.
@@ -96,6 +104,10 @@ C. Both A and B
 D. None of the above
 
 Answer: C
+
+#P1
+##MEDIUM
+###BC
 
 8. What are the priority constants defined in Thread class?
 
@@ -106,6 +118,10 @@ D. All of the above
 
 Answer: D
 
+#P1
+##MEDIUM
+###BC
+
 9. If the value of the parameter "newPriority" of the method "getPriority()" goes out of the range (1 to 10), then the method throws _______.
 
 A. IllegalArgumentException
@@ -115,7 +131,11 @@ D. ArithmeticException
 
 Answer: A
 
-10. Which scheduling algorithm is supported by the JVM to serve the thread with the highest priority first, since all Java threads have a priority.
+#P1
+##MEDIUM
+###BC
+
+10. Which scheduling algorithm is supported by the JVM to serve the thread with the highest priority first, since all Java threads have a priority?
 
 A. Fixed-priority pre-emptive scheduling
 B. Preemptive scheduling
@@ -123,6 +143,10 @@ C. Non-preemptive scheduling
 D. None of the above
 
 Answer: A
+
+#P1
+##MEDIUM
+###BC
 
 11. A _______ is a low priority thread which always runs in the background.
 
@@ -132,6 +156,10 @@ C. National Pipe thread
 D. None of the above
 
 Answer: B
+
+#P1
+##EASY
+###BC
 
 12. Which method is used to return a boolean value to check if daemon thread is present or not.
 
