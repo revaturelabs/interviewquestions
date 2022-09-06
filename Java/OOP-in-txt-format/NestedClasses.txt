@@ -1,9 +1,15 @@
-1. Do inner classes have access to private members of the outer class?
+#P1
+##EASY
+###TF
+1. Inner classes have access to private members of the outer class.
     A. True
     B. False
 
 Answer: A
 
+#P1
+##EASY
+###BC
 2. What are the uses of nested classes?
     A. Grouping interrelated classes.
     B. Achieving encapsulation
@@ -12,12 +18,18 @@ Answer: A
 
 Answer: D
 
+#P1
+##EASY
+###TF
 3. Lambda is used to implement a functional Interface( an interface with a single abstract method)
     A. True
     B. False
 
 Answer: A
 
+#P1
+##EASY
+###BC
 4. An _______ class can directly access all the fields and methods of the enclosed class even if they are private.
     A. Inner
     B. Static
@@ -26,6 +38,9 @@ Answer: A
 
 Answer: A
 
+#P1
+##EASY
+###BC
 5. What is the output of the following code?
 
 public class Main {
@@ -53,6 +68,9 @@ public class Main {
 
 Answer: B
 
+#P1
+##MEDIUM
+###BC
 6. Apple launched a new iPhone named iPhone 14 with new features, and it has 3 models, iPhone 14 basic, iPhone 14 pro and iPhone 14 pro max and iPhone 14 mini, which implementation is better for this scenario?
 
     A. An interface iPhone with class iPhone 14 and 4 classes for four models that inherit iPhone 14.
@@ -62,6 +80,9 @@ Answer: B
 
 Answer: B
 
+#P1
+##MEDIUM
+###BC
 7. A DigitalThermometer needs to be configured only once and after that initial configuration, it'll detect the temperature perfectly. Which implementation is better for this scenario?
 
     A. DigitalThermometer class which inherits and overrides the methods of Configuration Class.
