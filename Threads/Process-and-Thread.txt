@@ -1,0 +1,27 @@
+1. Which of the following are TRUE.
+
+A. A process is a part of the program in execution.
+B. A core can have upto 2 threads and we can utilize the 2 threads based on the process.
+C. A thread is a lightweight process.
+D. All of the above.
+
+Answer: D
+
+2. Which of the following are NOT TRUE.
+
+A. Threads take more time than Process.
+B. Thread is part of the process.
+C. The process has its own memory.
+D. All of the above
+
+Answer: A
+
+3. Which of the following are correct statements.
+
+A. A processor is madeup of multiple cores.
+B. A core is physical component where threads are virtual component.
+C. Thread is a virtual division of cores.
+D. All of the above
+
+Answer: D
+
