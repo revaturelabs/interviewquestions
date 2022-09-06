@@ -1,7 +1,7 @@
 #P1
 ##EASY
 ###BC
-1. Set Interface is used to store unique elements of the same type. Classes that implements Set interface are
+1. Set Interface is used to store unique elements of the same type. Classes that implements Set interface are____
 
     A. HashTable
     B. LinkedHashSet
@@ -13,7 +13,7 @@ Answer: D
 #P1
 ##EASY
 ###BC
-2. Set Inherits all the methods of Collection Interface like
+2. Set Inherits all the methods of Collection Interface like____
 
     A. addAll()
     B. removeAll()
