@@ -1,4 +1,4 @@
-Pip and Pylint
+##Python,Module,PipandPylint
 
 
 #P2
@@ -44,7 +44,7 @@ Answer:C
 #P2
 ##EASY
 ###TF
-4.State True/False:In python pip list is used to list all packages on your system.
+4.State True or False:In python pip list is used to list all packages on your system.
 
 A.True
 B.False
@@ -56,7 +56,7 @@ Explanation:using pip list we can list all the packages on our system.
 #P2
 ##EASY
 ###TF
-5.State True/False:Is Pylint installed with recent python versions.
+5.State True or False:Is Pylint installed with recent python versions.
 
 A.True
 B.False
