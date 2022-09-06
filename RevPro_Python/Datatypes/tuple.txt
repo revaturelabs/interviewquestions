@@ -1,4 +1,4 @@
-Tuple
+##Python,DataTypes,Tuple
 
 
 
@@ -52,7 +52,7 @@ Explanation:A tuple can also be created without using parentheses. It is called 
 #P1
 ##EASY
 ###BC
-4.What is the output of the following tuple operation
+4.What is the output of the following tuple operation?
 
 aTuple = (100, 200, 300, 400, 500)
 aTuple.pop(2)
@@ -255,7 +255,7 @@ Explanation:We can delete the whole tuple by using del keyword so option b) is i
 #P1
 ##EASY
 ###BC
-16.What is the output of below code:
+16.What is the output of below code?
 
 tuple1 = (10, 20, 30, 40, 50)
 tuple1.pop(2)
@@ -273,7 +273,7 @@ Explanation:The reason is Tuple is immutable in python i.e we cannot change the 
 #P2
 ##EASY
 ###TF
-17.In python Tuples can contain elements of any data type.
+17.State True or False: In python Tuples can contain elements of any data type.
 
 A.True
 B.False
