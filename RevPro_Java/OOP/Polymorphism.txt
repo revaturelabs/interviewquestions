@@ -99,7 +99,7 @@ Answer: A
 #P1
 ##EASY
 ###BC
-7. Predict the output of the program and debug the program.
+7. Predict the output of the program.
 
 public class Vacation{
     public void visitLondon(){
