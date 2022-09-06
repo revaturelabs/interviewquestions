@@ -13,7 +13,7 @@ C.error
 D.No output
 
 Answer: D
-Explanation: Because we didn't use the print() function for type of the variable.
+Explanation: Because we didn't use the print() function to print the type of the variable.
 
 
 #P1
@@ -42,12 +42,14 @@ fun1()
 print(x)
 
 A.global x=20
-B.global var x x=20
-C.global x x=20
+B.global var x 
+  x=20
+C.global x 
+  x=20
 D.global.x=20
 
 Answer:C
-Explanation:global x x=20 is the correct answer,because other declarations are not the correct syntax for global variable declarations.
+Explanation: Option C is the correct answer,because other declarations are not the valid syntax for global variable declarations.
 
 
 #P2
@@ -59,7 +61,7 @@ A.True
 B.False
 
 Answer:B
-Explanation:We can't convert complex numbers to any other number type as python will give you TypeError.This function converts other numeric values into floating values.
+Explanation:We can't convert complex numbers to any other number type as python will give you TypeError.
 
 
 #P2
@@ -96,8 +98,7 @@ C.0b101,binary
 D.Both A and C
 
 Answer:B
-Explanation
-Integers can be binary, octal, and hexadecimal values.
+Explanation: Integers can be binary, octal, and hexadecimal values.
 
 
 #P2
@@ -205,7 +206,7 @@ C.5.57
 D.5.56
 
 Answer:C
-Explanation:The function round is used to round off the given decimal number to the specified decimal places. In this case the number should be rounded off to two decimal places. Hence the output will be 5.57.
+Explanation:The function round() is used to round off the given decimal number to the specified decimal places. In this case the number should be rounded off to two decimal places. Hence the output will be 5.57.
 
 
 #P2
