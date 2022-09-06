@@ -14,7 +14,7 @@ Explanation: Commit and Rollback are transaction control commands in SQL.
 #P1
 ##EASY
 ###BC
-2. What command  is used to Store data permanently in a database.
+2. What command  is used to Store data permanently in a database?
 
 A. SavePoint
 B. Grant
