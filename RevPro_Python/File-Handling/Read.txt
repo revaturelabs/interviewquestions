@@ -1,4 +1,4 @@
-
+##Python,FileHandling,Read
 
 #P2
 ##EASY
@@ -68,7 +68,7 @@ wb+ - This is used to open the file to write and read, both in binary format.
 #P1
 ##EASY
 ###BC
-5. To check whether the given file exists or not, we can write which of the below line?
+5. To check whether the given file exists or not, which of the below line can be given?
 
 A. os.isfile('file_path')
 B. os.path.exists('file_path')
@@ -84,7 +84,7 @@ Explanation: Use the os.path.isfile('file_path') function to see whether a file 
 #P1
 ##EASY
 ###BC
-6. How to get the list of files from the directory in python ?
+6. How to get the list of files from the directory in python?
 
 A. os.listdir()
 B. os
@@ -117,7 +117,7 @@ Answer:C
 #P1
 ##EASY
 ###BC
-8.How many types of mode available in python
+8.How many types of mode available in python?
 
 A.3
 B.1
@@ -144,7 +144,7 @@ Answer:C
 #P1
 ##EASY
 ###TF
-10.State True/False:In python we have two types of files.
+10.State True or False:In python we have two types of files.
 
 A.True
 B.False
