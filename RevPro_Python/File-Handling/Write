@@ -1,0 +1,156 @@
+Write
+
+
+
+
+#P2
+##EASY
+###BC
+1.Which are the  access modes to write a file?
+
+A.W+
+B.A
+C.a+
+D.All of the above
+
+Answer:C
+Explanation:a+ - Opens a file for both reading and appending.
+
+
+#P2
+##EASY
+###BC
+2.Which will you use to open a file in write mode?
+
+A.r
+B.w
+C.rw
+D.W+
+
+Answer:B
+Explanation:First open the .txt file.
+Enter the data into the file(.txt)
+Close the file.
+
+
+
+#P2
+##EASY
+###TF
+3.State True/False:In python we can do read and write operations in single file.
+
+A.True
+B.False
+
+Answer:B
+Explanation:In python we can do both the read and write operations using a+ and w+.
+
+
+#P2
+##EASY
+###BC
+4.How will you find current folder in python?
+
+A.using the dir()
+B.using the .
+C.using the *
+D.None of the above.
+
+Answer:B
+Explanation:In python, the . folder is the current folder.
+
+
+
+#P2
+##EASY
+###TF
+5.State True/False:In python we can use .. to find the parent folder
+
+A.True
+B.False
+
+Answer:A
+
+
+#P2
+##EASY
+###BC
+6.What is the use of writelines() in python?
+
+A.it will return number of character from the file
+B.it will return number of numberic values from the file
+C.this method writes a list of lines into the stream
+D.All of the above
+
+Answer:C
+
+
+#P2
+##EASY
+###BC
+7.Which mode used to append content to an existing file?
+
+A.ap+
+B.a+
+C.AP+
+D.None of the above
+
+Answer:B
+Explanation:a or a+ modes are used to append the content at the end of the existing file using the open() method.
+
+
+
+#P2
+##EASY
+###BC
+8.How will you write mutltiple line at a time in python?
+
+A.w
+B.Write(multiple line)
+C.Writelines()
+D.writelines()
+
+Answer:D
+Explanation:In python, we have writelines() method to save the contents of a list object in a file.
+
+
+
+#P2
+##EASY
+###BC
+9.Which method is used to set the position of a file pointer?
+
+A.using pointer()
+B.using seek()
+C.using tell()
+D.Both b and c
+
+Answer:C
+Explanation:seek() method is used to set the position of file pointer.
+
+
+#P2
+##EASY
+###BC
+10.How to write binary data to a file ?
+
+A.using b
+B.using b+
+C.using ab+
+D.All of the above
+
+Answer:A
+Explanation:In python, default files are opened in text mode. 
+To open files in binary mode, after specifying a mode, add b to that.
+
+
+
+#P2
+##EASY
+###TF
+11.State True/False:shutil.copy() this method is used to copy the content from th eone file to destination file.
+
+A.True
+B.False
+
+Answer:A
