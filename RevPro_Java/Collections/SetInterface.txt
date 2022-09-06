@@ -1,3 +1,5 @@
+##Java,Collections,SetInterface
+
 #P1
 ##EASY
 ###BC
@@ -25,7 +27,7 @@ Answer: D
 #P1
 ##EASY
 ###BC
-3. A class that has key and values, it coverts the keys into hashcode and stores them as the indexes of an array.
+3. A class that has key and values, it converts the keys into hashcode and stores them as the indexes of an array. What is that?
 
     A. HashTable
     B. LinkedHashSet
@@ -207,7 +209,7 @@ Answer: A
 #P1
 ##EASY
 ###BC
-17. Consider there are two hash sets a and b with some elements in each, How to get the separate the unique elements present in a but not b?
+17. Consider there are two hash sets a and b with some elements in each, How to get the separate and the unique elements present in a but not b?
 
     A. a.remove(b)
     B. a.removeAll(b)
