@@ -87,12 +87,197 @@ D.Component declares the interface for objects in composition.It implements defa
 Answer:B
 
 
+11.How would you create a lazy  instantiation  in  Singleton design pattern? 
+
+A.class Lazy{  
+ private static Lazy obj;  
+ private Lazy(){}  
+   
+ public static Lazy getA(){  
+   if (obj == null){  
+      synchronized(Singleton.class){  
+        if (obj == null){  
+            obj = new Singleton(); 
+        }  
+    }              
+    }  
+  return obj;  
+ }  
+  
+ public void doSomething(){  
+  
+ }  
+} 
+B.class Lazy{  
+ private static Lazy obj;  
+ private Lazy(){}  
+   
+
+  return obj;  
+ }  
+  
+ public void doSomething(){  
+  
+ }  
+} 
+C.class Lazy{  
+ private static Lazy obj;  
+   
+ public static Lazy getA(){  
+   if (obj == null){  
+      synchronized(Singleton.class){  
+        if (obj == null){  
+    
+        }  
+    }              
+    }  
+  return obj;  
+ }  
+  
+ public void doSomething(){  
+  
+ }  
+} 
+D.class Lazy{  
+   
+ public static Lazy getA(){  
+   if (obj == null){  
+      synchronized(Singleton.class){  
+        if (obj == null){  
+            obj = new Singleton(); 
+        }  
+    }              
+    }  
+  return obj;  
+ }  
+  
+ public void doSomething(){  
+  
+ }  
+} 
+
+Answer:A
+
+12.How would you create an adapter class for adapter factory design pattern? 
+A.public class Bank{  
+    private String BankName;  
+    private String AccountHolderName;  
+    private long AccountNumber;  
+} 
+B.public class Bank{ 
+      
+    public String getBankName() {  
+        return BankName;  
+    }  
+    public void setBankName(String bankName) {  
+        this.BankName = BankName;  
+    }  
+    public String getAccountHolderName() {  
+        return AccountHolderName;  
+    }  
+    public void setAccountHolderName(String AccountHolderName) {  
+        this.AccountHolderName= AccountHolderName;  
+    }  
+    public long getAccountNumber() {  
+        return AccountNumber;  
+    }  
+    public void setAccNumber(long AccountNumber) {  
+        this.AccountNumber = AccountNumber;  
+    }  
+} 
+C.public class Bank{  
+    private String BankName;  
+    private String AccountHolderName;  
+    private long AccountNumber;  
+      
+    public String getBankName() {  
+        return BankName;  
+    }  
+    public void setBankName(String bankName) {  
+        this.BankName = BankName;  
+    }  
+    public long getAccountNumber() {  
+        return AccountNumber;  
+    }  
+    public void setAccNumber(long AccountNumber) {  
+        this.AccountNumber = AccountNumber;  
+    }  
+} 
+D.public class Bank{  
+    private String BankName;  
+    private String AccountHolderName;  
+    private long AccountNumber;  
+      
+    public String getBankName() {  
+        return BankName;  
+    }  
+    public void setBankName(String bankName) {  
+        this.BankName = BankName;  
+    }  
+    public String getAccountHolderName() {  
+        return AccountHolderName;  
+    }  
+    public void setAccountHolderName(String AccountHolderName) {  
+        this.AccountHolderName= AccountHolderName;  
+    }  
+    public long getAccountNumber() {  
+        return AccountNumber;  
+    }  
+    public void setAccNumber(long AccountNumber) {  
+        this.AccountNumber = AccountNumber;  
+    }  
+} 
+
+Answer:D
 
 
+13.How would you create an interface for Composite design pattern? 
+A.public interface Employee {  
+    public  int getId();  
+    public String getName();  
+    public double getSalary();  
+       public void print();   
+        
+}
+B.public interface Employee {  
+    public  int getId();  
+    public String getName();  
+    public double getSalary();  
+       public void print();  
+    public void add(Employee employee);  
+       public void remove(Employee employee);  
+       public Employee getChild(int i);  
+}
+C.public interface Employee {  
+    public void add(Employee employee);  
+       public void remove(Employee employee);  
+       public Employee getChild(int i);  
+}
+D.public interface Employee {  
+    public void add(Employee employee);  
+       public void remove(Employee employee);  
+       public Employee getChild(int i);  
+}
+
+Answer:B
+
+14.What are the steps to create a Factory Design Pattern? 
+
+A.Define a class.Define single parent classes. Define a Factory class that creates the child class and returns the parent class reference.
+B.Define a final class.Define multiple child final classes. Define a Factory class that creates the child class and returns the parent class reference.Creation of parent classes should happen only through the factory method.
+C.Define an abstract class or interface.Define multiple child classes. Define a Factory class that creates the child class and returns the parent class reference.Creation of child classes should happen only through the factory method.
+D.Define an abstract class or interface.Define multiple child classes. Creation of parent classes should happen only through the factory method.
+
+Answer:C
 
 
+15.What are the benefits of State Pattern? 
+A.State Pattern keeps the state-specific behavior.It makes any state transitions explicit.When the behavior of object depends on its state and it must be able to change its behavior at runtime according to the new state.
+B.State Pattern keeps the state-specific behavior.It makes any state transitions explicit.
+C.State Pattern keeps the state-specific behavior.It makes any state transitions explicit.When the behavior of class depends on its state and it must be able to change its behavior at compiletime according to the new state.
+D.State Pattern keeps the state-specific behavior.It makes any state transitions implicit.When the behavior of class depends on its state and it must be able to change its behavior at runtime according to the new state.
 
-
+Answer:A
 
 
 
