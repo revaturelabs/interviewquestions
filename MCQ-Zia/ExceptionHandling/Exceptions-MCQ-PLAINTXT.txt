@@ -2,7 +2,7 @@
 ##EASY
 ###BC
 
-1.What is the root class of  all the Exception classes?
+1.What is the root class of all the Exception classes?
 
 A.java.lang.Exceptions
 B.java.lang.Throws
@@ -28,7 +28,7 @@ Answer:A
 ##EASY
 ###BC
 
-3.What are the  derived classes of the Exception class?
+3.What are the derived classes of the Exception class?
 
 A.FinallyException
 B.ClassNotFoundException,IOException,SQLException,RunTimeException,
@@ -109,7 +109,7 @@ Explanation:Try block needs to be followed with catch or finally block
 ##EASY
 ###BC
 
-9.Why the rest of the code in the try block will not execute?
+9.Why the rest of the code in the try block will not be executed?
 
 A.whenever an exception is occurred in the try block the rest of the code will give the output.
 B.whenever an exception is occurred in the try block the rest of the code will execute.
@@ -188,7 +188,7 @@ Answer:B
 ##EASY
 ###BC
 
-15.What is a nested try  block?
+15.What is a nested try block?
 
 A.the try block inside another try block is called as nested try block.
 B.catch inside try block
@@ -214,7 +214,7 @@ Answer:C
 ##MEDIUM
 ###BC
 
-17.When should we use nested try  block?
+17.When should we use nested try block?
 
 A.in the catch block.
 B.catch inside try block
@@ -226,7 +226,7 @@ Answer:C
 #P1
 ##EASY
 ###BC
-18.What is a finally  block?
+18.What is a finally block?
 
 A.before the catch block.
 B.finally block is always executed whether an exception is handled or not. Therefore, it contains all the necessary statements that need to be printed regardless of the exception occurs or not.The finally block follows the try-catch block.
@@ -449,7 +449,7 @@ Answer: C
 ##EASY
 ###BC
 
-26.Throw statement can be defined as 
+26.Throw statement can be defined as___
 
 A.catch block.
 B.throw statement is used to throw an exception explicitly
@@ -654,7 +654,7 @@ Answer:B
 ##EASY
 ###BC
 
-35.final statement can be defined as
+35.final statement can be defined as___
 
 A.final block.
 B.final statement is used to throw an exception explicitly
@@ -739,7 +739,7 @@ Answer:B
 ##MEDIUM
 ###BC
 
-39.Exception Propagation can be defined as?
+39.Exception Propagation can be defined as___
 
 A.An exception is first thrown from the top of the stack and if it is not caught, it drops down the call stack to the previous method. If not caught there, the exception again drops down to the previous method, and so on until they are caught or until they reach the very bottom of the call stack. This is called exception propagation.
 B.final statement is used to throw an exception explicitly
@@ -752,7 +752,7 @@ Answer:A
 ##COMPLEX
 ###BC
 
-40.Predict the output of the following code
+40.Predict the output of the following code.
 
 class Propagation1{  
   void method1(){  
@@ -785,7 +785,7 @@ Answer:D
 ##MEDIUM
 ###BC
 
-41.Exception Handling with Method Overriding can be explained as
+41.Exception Handling with Method Overriding can be explained as___
 
 A.garbage collection ended
 B.final statement is used to throw an exception explicitly
@@ -799,7 +799,7 @@ Explanation:If the superclass method declares an exception, subclass overridden 
 ##MEDIUM
 ###BC
 
-42.Predict the output of the following code
+42.Predict the output of the following code.
 
 import java.io.*;    
 class Message{   
@@ -829,7 +829,7 @@ Answer:C
 ##MEDIUM
 ###BC
 
-43.Predict the output of the following code
+43.Predict the output of the following code.
 
 import java.io.*;    
 class Parent{    
@@ -874,7 +874,7 @@ Explanation:Custom exceptions are used to customize the exception according to t
 ##EASY
 ###BC
 
-45.Why use custom exceptions?
+45.Why do we use custom exceptions?
 
 A.Custom Exception are used to catch and provide specific treatment to a subset of existing java exceptions.We also have exceptions related to business logic and workflow.
 B.Exception class
@@ -931,7 +931,7 @@ Answer:B
 ##MEDIUM
 ###BC
 
-47.Default exception handling can be defined as?
+47.Default exception handling can be defined as___
 
 A.The exception object contains the name and description of the exception and the current state of the program where the exception has occurred. Creating the Exception Object and handling it in the run-time system is called throwing an Exception.
 B.The object contains the name and description of the current state of the program where the exception has occurred.
@@ -1062,7 +1062,7 @@ Answer:A
 ##EASY
 ###BC
 
-51.Chained Exception can be explained as?
+51.Chained Exception can be explained as___
 
 A.The exception object contains the name and description of the exception and the current state of the program where the exception has occurred. 
 B.It allows you to associate another exception with an exception.This second exception describes the cause of the first  exception. 
@@ -1184,7 +1184,7 @@ Answer:C
 ##EASY
 ###BC
 
-59.ArithmeticException can be defined as ? 
+59.ArithmeticException can be defined as___ 
 
 A.ArithmeticException is thrown when an exceptional condition has      occurred in an arithmetic operation.
 B.ArithmeticException is thrown when an arithmetic operator has           found in an arithmetic operation.
@@ -1197,7 +1197,7 @@ Answer:A
 ##EASY
 ###BC
 
-60.ArrayIndexOutOfBoundsException can be defined as ? 
+60.ArrayIndexOutOfBoundsException can be defined as ___
 
 A.ArrayIndexOutOfBoundsException is thrown to indicate that an array has been accessed with an legal index. 
 B.ArrayIndexOutOfBoundsException is thrown to indicate that an array has been accessed with an illegal index. The index is either negative or greater than or equal to the size of the array.
@@ -1210,7 +1210,7 @@ Answer:B
 ##EASY
 ###BC
 
-61.ClassNotFoundException can be defined as ? 
+61.ClassNotFoundException can be defined as___
 
 A.ClassNotFoundException is raised when there is no try block in a class definition
 B.ClassNotFoundException is raised when we try to access a class whose definition is not found
@@ -1262,7 +1262,7 @@ Answer:D
 ##MEDIUM
 ###BC
 
-65.SocketException can be defined as ? 
+65.SocketException can be defined as___
 
 A.SocketException occurs in  the socket class.
 B.SocketException occurs on the client-side when the server closed the socket connection before the response could be returned over the socket. 
@@ -1358,7 +1358,7 @@ Answer:D
 ##EASY
 ###BC
 
-69.try with resources can be defined as ? 
+69.try with resources can be defined as___
 
 A.you simply need to declare the required resources within the parenthesis, and the resource will be deleted 
 B.Automatic resource management,which automatically closes the resources used within the try catch block.To use this statement, you simply need to declare the required resources within the parenthesis, and the created resource will be closed 
