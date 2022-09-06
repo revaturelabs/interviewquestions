@@ -126,7 +126,7 @@ Answer:C
 #P1
 ##EASY
 ###BC
-9.What will to following code to print?
+9.What will the following code print?
 
 if (10 < 0) and (0 < -10):
     print("A")
