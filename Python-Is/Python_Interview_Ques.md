@@ -2032,17 +2032,21 @@ def my_decorator_function(func):
 
 ---
   
-104.Can you explain to me how NumPy is better than the list in python?
+104.In python, list and array both are similar then how one should choose which data type to go for?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- Numpy is the core library in Python. It provides a high-performance multidimensional array object, and tools are working with that arrays. 
-- A numpy array is a grid of values, all of the esame type, and is indexed by a tuple of non negative integers.
-  
-- List is the core library in Python. A list is the Python equivalent of an array, but is resizeable and can contain elements of different types
+- list
+  - When you want to store multiple datatypes into single name we can use list.
+  - We can't handle arthimetic operators directly.
+  - It is a Small sequence
+- array
+  - Using array we can store single data types under a single name.
+  - We can handle arthimetic operators directly.
+  - It is a longer sequence.
 
 </details>
 
@@ -2224,19 +2228,21 @@ In python Multiple Inheritance, Method Resolution Order (MRO) we already know. C
 
 ---
  
-116.The manager is asking Stacie can you Name a few Python modules for Statistical, Numerical and scientific computations in python, What will be the answer she will give to him?
+116.The manager is asking Stacie can you tell me how will you convert string to a number?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
+If you want to convert String to a number using the built-in int() function. The int() function takes in any python data type and converts it into a integer
+  
 ```python
-`numPy` – this module provides an array/matrix type, and it is useful for doing computations on arrays.   
-`scipy` – this module provides methods for doing numeric integrals, solving differential equations, etc     
-`pylab` – is a module for generating and saving plots
+n="548"
+n1=int(n)
+print(type(n1),n1)
 ```
-
+  
 </details>
 
 ---
@@ -2549,14 +2555,27 @@ f.close()
 
 ---
   
-131.Can you explain Why python instead of scala on spark when scala has better performance?
+131.Wiliam asking his junior to predict the output of the following code?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+```python
+a = 10
+b = 4
+c = 0
+if a | b:
+    if a ^ b:
+        if a or b:
+            print("Hi-World")
+else:
+    print("Hello-World")
+```
+  
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- Scala is faster than Python due to its static type language. If faster performance is a requirement, Scala is a good. Spark is native in Scala, hence making writing Spark jobs in Scala the native way.
+- The output of the above code is Hi-world.
+- "Hi-world" is executed because all the if conditions becomes true for the values of 'a' and 'b'.
 
 </details>
 
@@ -3050,18 +3069,26 @@ In python when a local variable is given the same name as a global variable, the
 
 ---  
 
-156.Jack while installing a package with pip, got the error No matching installation found, he asked his manager to help him how he will help him to do this. 
+156.Jack is aksing to his friend How will you set environment variable in python?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-In that type of a situation, one thing we can do is to download the libraries for that package from the following location:
+In python `os.environ` consider a python dictionary, so all the common dictionary operations can be performed. In addition to the get and set operations mentioned in the other answers, we can also simply check if a key exists. The keys and values should be stored as strings.
 
-**https://www.lfd.uci.edu/~gohlke/pythonlibs/**
+Python 3
 
-Then, you can install the wheel using `pip` command.
+For python 3, dictionaries use the in keyword instead of has_key
+
+```python
+import os
+'HOME' in os.environ  # Check an existing env. variable
+```
+  
+True
+...
 
 </details>
 
@@ -3253,20 +3280,6 @@ print(dt)
 
 ---
   
-165.In python local and global variables have the same name can you tell me Which will be preferred if local and global variables have the same name?
-  
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-  
-<details><summary><b>Show Answer </b></summary>
-<blockquote>
-
-- In python, if the local ad global variable has the same name in the scope. Which means accessible at the same time.
-- In python, the code can access only the local variable.
-
-</details>
-
----
-  
 166.Joe is asking What mapping means and what kind of data type is based on mapping in python What will be your answer to this question?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -3295,15 +3308,23 @@ print(dt)
 
 ---
   
-168.Can you tell me what is Cython?
+168.Can you tell me How will you get environment variables in python ?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- Cython is a programming language for c and python.
-- Compiling both python and C language to create a harmonious environment for both.
+- `getenv()` method is used to get the value of the environment variable key if it exists.Else the default value will be returned. 
+  
+```python
+import os
+print(os.environ['HOME'])
+```
+  
+- We can see a list of all environment variables:
+
+`print(os.environ)`
 
 </details>
 
