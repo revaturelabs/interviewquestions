@@ -1063,10 +1063,7 @@ D.Original cause: java.lang.Exception:Divide by zero
 
 Answer: A
 
-#P2
-##MEDIUM
-###BC
-
+#IGNORE
 53.How the given method public String getMessage() performs?
 
 A.This method returns the message String of Throwable and the message can be provided while creating the exception through its constructor.
@@ -1076,10 +1073,7 @@ D.This method returns the runtime exception.
 
 Answer:A
 
-#P2
-##COMPLEX
-###BC
-
+#IGNORE
 54.How the given method public String getLocalizedMessage() performs?
 
 A.This method returns the message String of Throwable and the message can be provided while creating the exception through its constructor.
@@ -1103,10 +1097,9 @@ D.This method returns the cause of the exception or null if the cause is unknown
 Answer:D
 
 #P1
-##EASY
+##MEDIUM
 ###BC
-
-56.What this method public String toString() will do?
+56. What does toString() method in the Throwable class will do?
 
 A.This method returns the message String of Throwable and the message can be provided while creating the exception through its constructor.
 B.This method returns the information about Throwable in String format, the returned String contains the name of Throwable class and localized message
@@ -1128,9 +1121,7 @@ D.This method returns the cause of the exception or null if the cause is unknown
 
 Answer:C
 
-#P2
-##MEDIUM
-###BC
+#IGNORE
 
 58.What is a Call Stack in exceptions? 
 
@@ -1145,19 +1136,17 @@ Answer:C
 ##EASY
 ###BC
 
-59.ArithmeticException can be defined as___ 
+59.ArithmeticException is thrown when an  
 
-A.ArithmeticException is thrown when an exceptional condition has      occurred in an arithmetic operation.
-B.ArithmeticException is thrown when an arithmetic operator has           found in an arithmetic operation.
-C.ArithmeticException is thrown when an exceptional condition has      not occurred.
-D.ArithmeticException is thrown when a number is not found in an       arithmetic operation.
+A. exceptional condition has occurred in an arithmetic operation.
+B. an arithmetic operator has found in an arithmetic operation.
+C. exceptional condition has not occurred.
+D. a number is not found in an  arithmetic operation.
 
 Answer:A
 
-#P1
-##EASY
-###BC
 
+#IGNORE
 60.ArrayIndexOutOfBoundsException can be defined as ___
 
 A.ArrayIndexOutOfBoundsException is thrown to indicate that an array has been accessed with an legal index. 
@@ -1171,12 +1160,12 @@ Answer:B
 ##EASY
 ###BC
 
-61.ClassNotFoundException can be defined as___
+61.ClassNotFoundException is raised when ______
 
-A.ClassNotFoundException is raised when there is no try block in a class definition
-B.ClassNotFoundException is raised when we try to access a class whose definition is not found
-C.ClassNotFoundException is raised when we try to access a class  whose definition is found
-D.ClassNotFoundException is raised when we try to access a class  which should  be an abstract class.
+A. there is no try block in a class definition
+B. we try to access a class whose definition is not found
+C. we try to access a class  whose definition is found
+D. we try to access a class  which should  be an abstract class.
 
 Answer:B
 
@@ -1184,7 +1173,7 @@ Answer:B
 ##EASY
 ###BC
 
-62.When will FileNotFoundException is occurred? 
+62. When will FileNotFoundException is occurred? 
 
 A.FileNotFoundException is raised when a file is not accessible or does not open.
 B.FileNotFoundException is raised when a file is in open mode.
@@ -1197,7 +1186,7 @@ Answer:A
 ##EASY
 ###BC
 
-63.When will IOException is occurred? 
+63 .When will IOException is occurred? 
 
 A.IOException is thrown when an input-output operation is failed or interrupted.
 B.IOException is thrown when an input operation is not in failure.
@@ -1223,12 +1212,12 @@ Answer:D
 ##MEDIUM
 ###BC
 
-65.SocketException can be defined as___
+65.SocketException occurs _____
 
-A.SocketException occurs in  the socket class.
-B.SocketException occurs on the client-side when the server closed the socket connection before the response could be returned over the socket. 
-C.SocketException occurs on the server-side and the client-side.
-D.SocketException occurs on the server-side when the client closed the socket connection before the response could be returned over the socket.
+A. in  the socket class.
+B. on the client-side when the server closed the socket connection before the response could be returned over the socket. 
+C. on the server-side and the client-side.
+D. on the server-side when the client closed the socket connection before the response could be returned over the socket.
 
 Answer:D
 
@@ -1315,15 +1304,12 @@ D.NullPointerException
 Answer:D
 
 
-#P1
-##EASY
-###BC
+#IGNORE
+69. try with resources can be defined as___
 
-69.try with resources can be defined as___
-
-A.you simply need to declare the required resources within the parenthesis, and the resource will be deleted 
-B.Automatic resource management,which automatically closes the resources used within the try catch block.To use this statement, you simply need to declare the required resources within the parenthesis, and the created resource will be closed 
-C.creating the resources.
+A. you simply need to declare the required resources within the parenthesis, and the resource will be deleted 
+B. Automatic resource management,which automatically closes the resources used within the try catch block.To use this statement, you simply need to declare the required resources within the parenthesis, and the created resource will be closed 
+C. creating the resources.
 D.which automatically opens the resources used within the try catch block.
 
 Answer:B
