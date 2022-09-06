@@ -1,8 +1,6 @@
-
-
 #P1
 ##EASY
-####BC
+###BC
 1.What is the output of the following code?
 
 s1="IndiaTraining people"
@@ -25,7 +23,7 @@ Explanation:In the above program, it will check whether s,n and p characters are
 
 #P1
 ##EASY
-####BC
+###BC
 2.How will you count total number of characters in a string?
 
 A.count()
@@ -39,7 +37,7 @@ Explanation:In python, len() function will return the length of a string.
 
 #P1
 ##EASY
-####BC
+###BC
 3.If string1="Welcome to my Dream World"
 What does string1.find("m") return?
 
@@ -53,7 +51,7 @@ Answer:D
 
 #P1
 ##EASY
-####BC
+###BC
 4.How do you know if every word in a string that starts with a capital letter?
 
 A.Iscapital()
@@ -67,7 +65,7 @@ Explanation:In python, istitle() function is used to check whether the given str
 
 #P1
 ##EASY
-####BC
+###BC
 5.Which character will have same index value when you access elements from the beginning and from the end(ignore the negative sign) in the following string.
 
 Data = "Welcome to my Dream World"
@@ -82,7 +80,7 @@ Answer:C
 
 #P1
 ##EASY
-####BC
+###BC
 6.What is the output of following code snippet?
 
 str = "Learning"
@@ -98,7 +96,7 @@ Answer:C
 
 #P1
 ##EASY
-####BC
+###BC
 7.Each individual character in a string can be accessed using a technique called ____________?
 
 A.Indexing
@@ -111,7 +109,7 @@ Answer:A
 
 #P1
 ##EASY
-####BC
+###BC
 8.The minsplit parameter to split() specifies the minimum number of splits to make to the input string?
 
 A.True
@@ -124,7 +122,7 @@ Answer:B
 
 #P1
 ##EASY
-####BC
+###BC
 9.If you want to transform a list of strings input_list into a single string with a comma between each item, which of the following would you give as the input to join()?
 
 A.string
@@ -137,7 +135,7 @@ Answer:D
 
 #P2
 ##EASY
-####TF
+###TF
 10.You can use the + operator to concatenate three or more strings as well.
 
 A.True
@@ -149,7 +147,7 @@ Explanation:In Python, we can use + operator for combining two or more strings i
 
 #P1
 ##EASY
-####BC
+###BC
 11.What would be the output for the following code?
 
 string1 = "HAPPY "
@@ -167,7 +165,7 @@ Explanation:In the case of a string, the * operator is used to repeat a string.
 
 #P1
 ##EASY
-####BC
+###BC
 12.Which method is used to exchange one string with another string?
 
 A.Replace()
@@ -181,7 +179,7 @@ Explanation:In python, we can use replace() function to replace one character wi
 
 #P1
 ##EASY
-####BC
+###BC
 13.What is the output of the following code?
 
 input_string ="Consultancy"
@@ -199,7 +197,7 @@ Explanation:In python, to reverse a string, we can use built-in function reverse
 
 #P1
 ##EASY
-####BC
+###BC
 14.Select the correct output for the following code?
 
 str1=str("Python_programming")
@@ -218,7 +216,7 @@ Explanation:In case of a string, == and is operators are used to check whether t
 
 #P1
 ##EASY
-####BC
+###BC
 15.Predict the output of the following code.
 
 str="Software engineer"
@@ -235,7 +233,7 @@ Explanation:In the above program, we are using `slicing` operator and this is us
 
 #P1
 ##EASY
-####BC
+###BC
 16.What is the output of the following code?
 
 str1 = "Revature"
@@ -252,7 +250,7 @@ Explanation:We can use a slice operator [] to get a substring.
 
 #P1
 ##EASY
-####BC
+###BC
 17.Find the correct output of the following String operations.
 
 str1='Welcome'
@@ -269,7 +267,7 @@ Explanation:Here, we use slicing to get some part of string and then we use + op
 
 #P1
 ##EASY
-####TF
+###TF
 18.What is the output of the following code?
 
 str1 = "My salary is 7000";
@@ -284,7 +282,7 @@ Explanation:isdigit() method checks if it contains the characters or not. If it 
 
 #P2
 ##EASY
-####TF
+###TF
 19.String traversal can be done using 'for' loop only.
 
 A.True
@@ -295,7 +293,7 @@ Answer:B
 
 #P2
 ##EASY
-####BC
+###BC
 20.Which operator is used with integers as well as with the strings?
 
 A.///
@@ -304,8 +302,3 @@ C.*
 D.**
 
 Answer:C
-
-
-
-
-
