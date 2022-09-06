@@ -43,7 +43,7 @@ Explanation: Rollback is the command used in mySQL to restore any unsaved data i
 #P1
 ##EASY
 ###BC
-4. Few Students Marks has been uploaded in a database , to prevent the data loss from the database which command can be used
+4. Few Students Marks has been uploaded in a database , to prevent the data loss from the database which command can be used:
 
 | Name          | Marks |
 | ------------- | ----- |
@@ -65,7 +65,7 @@ Explanation: Commit is the command used in mySQL to store data permanently in a 
 #P1
 ##MEDIUM
 ###TF
-5. True or False
+5. State True or False:
 
    Insert into TableExample( col1 [datatype],col2 [datatype],col3[datatype])
    values(val1,val2,val3);
@@ -101,7 +101,7 @@ ROLLBACK TO [SAVEPOINT NAME];
 #P2
 ##EASY
 ###TF
-7. True or False
+7.State True or False:
 
 INSERT INTO class VALUES(2, 'Rashid');
 
@@ -188,7 +188,7 @@ Explanation: In case of a shutdown, before committing, Rollback is done.
 UPDATE EMPLOYEE SET EMP_LOC = 'Gujarat' WHERE EMP_NAME= 'Amritha';
 COMMIT;
 
-Will this Command achieve the desired output?
+State True or False: Will this Command achieve the desired output?
 
 A. False
 
@@ -304,7 +304,7 @@ Explanation: Normalization is the process of organizing data in a database.
 #P2
 ##EASY
 ###BC
-17. Which one is based on multi-valued dependency:
+17. Which one is based on multi-valued dependency?
 
 A. First
 B. Second
@@ -316,7 +316,7 @@ Answer: D
 #P2
 ##EASY
 ###BC
-18. If a relation is in BCNF, then it is also in
+18. If a relation is in BCNF, then it is also in___
 
 A. 1 NF
 B. 2 NF
@@ -328,7 +328,7 @@ Answer: D
 #P1
 ##EASY
 ###BC
-19. If every non-key attribute is functionally dependent primary key, then the relation will be in
+19. If every non-key attribute is functionally dependent primary key, then the relation will be in___
 
 A. First normal form
 B. Second normal form
@@ -375,7 +375,7 @@ Answer: A
 #P2
 ##EASY
 ###BC
-23. A dependency exists between two columns when
+23. A dependency exists between two columns when___
 
 A. Together they constitute a composite key for the table
 B. Knowing the value in one column determines the value stored in another column
@@ -399,7 +399,7 @@ Answer: A
 #P2
 ##EASY
 ###BC
-25. Tables in second normal form (2NF)
+25. Tables in second normal form (2NF)___
 
 A. Eliminate all hidden dependencies
 B. Eliminate the possibility of a insertion anomalies
@@ -494,7 +494,7 @@ Answer: A
 #P1
 ##MEDIUM
 ###BC
-33. A function is in ______ form if it has no partial functional dependencies
+33. A function is in ______ form if it has no partial functional dependencies.
 
 A.3NF
 B.2NF
