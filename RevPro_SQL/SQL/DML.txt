@@ -774,7 +774,7 @@ Explanation: During execution, the DELETE statement employs a row lock. Every ro
 #P1
 ##EASY
 ###BC
-1.Predict the output for the following table.
+69. Predict the output for the following table.
 Let's take a Product table consisting of the following records and delete a single record from the given table below.
 Table_Name: Product 
  
@@ -812,7 +812,7 @@ DELETE FROM Table_Name WHERE  condition ;
 #P1
 ##MEDIUM
 ###BC
-2.Predict the output in the below table by using the employees table and increase the income of all employees by 5% in a table.
+70.Predict the output in the below table by using the employees table and increase the income of all employees by 5% in a table.
 
 Table Name: Employees
            
@@ -860,7 +860,7 @@ WHERE condition;
 #P1
 ##MEDIUM
 ###BC
-3.Predict the output for the following given table (Update single column).
+71.Predict the output for the following given table (Update single column).
 
 Update the column_Name and set the value to "Divya" in all the rows where Age is 20.
 
@@ -895,7 +895,7 @@ This is the correct syntax for updating the values in the given table.
 #P1
 ##MEDIUM
 ###BC
-4.Predict the output of the following for the given below syntax for inserting a table.
+72.Predict the output of the following for the given below syntax for inserting a table.
 
 A. INSERT INTO table_name(Column1,Column2,Column3,.......) VALUES (Value1, Value2,Value3,.....),
 
@@ -940,7 +940,7 @@ you can insert how many of records you want by using the syntax.
 #P1
 ##EASY
 ###BC
-5.Predict the output of the following for updating a single record in table.
+73.Predict the output of the following for updating a single record in table.
 
 | EmpID 	| EmpName 	| EmpEmail       	| PhoneNumber 	| City      	|
 |-------	|---------	|----------------	|-------------	|-----------	|
@@ -992,7 +992,7 @@ Step 4: The Syntax for UPDATE Statement is
 #P1
 ##EASY
 ###BC
-6.State true of false:Below query updates the employees emails to example@xyz.com.
+74. State true of false:Below query updates the employees emails to example@xyz.com.
 UPDATE Employees email = 'example@xyz.com';
 
 A. False
@@ -1003,7 +1003,7 @@ Answer: A
 #P1
 ##MEDIUM
 ###BC
-7.Select the correct syntax for inserting a specific columns from one table into another.
+75. Select the correct syntax for inserting a specific columns from one table into another.
 
 A. INSERT INTO Student(ROLL_NO,NAME,Age) SELECT ROLL_NO, NAME, Age FROM  Lateral_Student;
 B. INSERT INTI Student(Roll_No, Name, Address, Ph_No, Age) VALUES (1, Ram, Delhi, 6789043256, 18);
@@ -1033,7 +1033,7 @@ default value of the remaining columns.
 #P1
 ##MEDIUM
 ###BC
-8.How will you Delete the multiple records from the following given table below?
+76.How will you Delete the multiple records from the following given table below?
 
 | Roll_No 	| Name    	| Address   	| Ph_No      	| Age 	|
 |---------- |----------|------------|-------------|------|
@@ -1073,7 +1073,7 @@ DELETE FROM Table_Name WHERE Condition;
 #P1
 ##EASY
 ###BC
-9.Which of the following is the correct syntax for inserting a record in the given table?
+77.Which of the following is the correct syntax for inserting a record in the given table?
 
 | Emp_Id 	| Emp_Name 	| Emp_Salary 	|
 |--------	|----------	|------------	|
