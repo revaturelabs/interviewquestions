@@ -1,7 +1,7 @@
 #P1
 ##EASY
 ##BC
-1. Find the output in the following code?
+1. Find the output of the following code?
 
 public class Game {
 	public static void main(String[] args) {
@@ -27,7 +27,7 @@ Answer: A
 #P1
 ##EASY
 ##BC
-2. Find the output in the following code?
+2. Find the output of the following code?
 
 public class Child extends Parent, Grandparent{
 	System.out.println("Success")
@@ -43,7 +43,7 @@ Answer: C
 #P1
 ##EASY
 ##BC
-3. Find the output in the following code?
+3. Find the output of the following code?
 
 private class Main{
 	// code	
@@ -108,7 +108,7 @@ Answer: A
 #P1
 ##MEDIUM
 ##BC
-8. choose the right answer.
+8. Choose the right answer.
 
 1. Local class
 2. Anonymous class
@@ -169,7 +169,7 @@ Answer: D
 ##BC
 11. An immutable class can be created by
 
-    A. Declare class as final to avoid ineritance.
+    A. Declaring class as final to avoid ineritance.
     B. Intializing data using a parameterized constructor.
     C. Retriving data using a getter method to avoid getting direct access to the object reference.
     D. All of the above
