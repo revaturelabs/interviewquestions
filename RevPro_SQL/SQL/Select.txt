@@ -14,7 +14,7 @@ Explanation:The table records can be retrieved using the SELECT command.
 #P1
 ##EASY
 ###BC
-2. SELECT INTO statement-
+2. What is the purpose of SELECT INTO statement?
 
 A.Select the content from a table
 B.Rename the content in a table
@@ -100,7 +100,7 @@ Explanation:Using SELECT Statement, Data is read from the SQL database and displ
 #P1
 ##MEDIUM
 ###BC
-9.When SELECT statements used to create Views contain ______________ clauses, the views cannot be Updated.
+9.When SELECT statements used to create Views, it contains ______________ clauses, the views cannot be Updated.
 
 A.JOIN
 B.HAVING
