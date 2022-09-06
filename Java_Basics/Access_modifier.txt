@@ -156,7 +156,7 @@ public class Main {
 }
 A.Compilation error: we can't have super() in the constructor
 B.Compilation error: we can't access name outside the class Employee since it is declared as protected.
-C.No error in this code , it will work fine and the output will be Arnold.
+C.No error in this code ,it will work fine and the output will be Arnold.
 D.There will not be any compilation error if we try to print name instead of emp.name.
 
 Answer:B
