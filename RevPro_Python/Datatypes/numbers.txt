@@ -13,7 +13,7 @@ C.error
 D.No output
 
 Answer: D
-Explanation: Because we didn't print the type of the variable.
+Explanation: Because we didn't use the print() function for type of the variable.
 
 
 #P1
