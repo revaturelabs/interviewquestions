@@ -21,7 +21,7 @@ Answer: A
 #P1
 ##EASY
 ###TF
-3. Is it possible to create an Object for the Interface?
+3. It is possible to create an Object for the Interface.
     A. True
     B. False
 
@@ -71,8 +71,8 @@ interface Elevator extends Electrical, Mechnical{
 
 }
 
-    A. The concreate class that implemnets Elevator, must override the methods of evelator, overriding methods of Electrical and Mechanical is optional.
-    B. The concreate class that implements Elevator, must override all the methdos of all the interface.
+    A. The concrete class that implemnets Elevator, must override the methods of evelator, overriding methods of Electrical and Mechanical is optional.
+    B. The concrete class that implements Elevator, must override all the methdos of all the interface.
     C. class can not implement Elevator because an interface can not extend more than one interface.
     D. It is not mandatory to override any method of any interface.
 
