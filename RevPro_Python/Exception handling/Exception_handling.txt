@@ -187,7 +187,7 @@ C.keyError
 D.None of the above
 
 Answer:D
-Explanation:It will throw an syntax error.In the above program we missed : in the 2 line.
+Explanation:It will throw an syntax error.In the above program we missed colon(:) in the 2 line.
 
 
 #P2
@@ -200,7 +200,7 @@ B.we get a False
 C.associate TypeError happens
 D.a ValueError happens
 
-Answer:B.we get a False
+Answer:B
 Explanation:It simply evaluates to False and does not raise any exception.
 
 
@@ -285,7 +285,7 @@ C.given that some condition that has been specified is satisfied
 D.always
 
 Answer:D
-Explanation:The finally block is always executed.
+Explanation:In python the finally block is always executed.
 
 
 #P1
@@ -307,7 +307,7 @@ C.Error
 D.File name
 
 Answer:B
-Explanation:if the computer file in not found, then the statement: “Input file not found” is written on the screen. The user is then prompted to reenter the file name. Error isn't thrown.
+Explanation:if the input file is not found, then the statement: “Input file not found” is written on the screen. The user is then prompted to re-enter the file name,Error isn't thrown.
 
 
 
