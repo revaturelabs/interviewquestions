@@ -2,7 +2,7 @@
 ##EASY
 ###BC
 
-1.Which of the following are TRUE.
+1.Which of the following is TRUE.
 
 A.A process is a part of the program in execution.
 B.A core can have upto 2 threads and we can utilize the 2 threads based on the process.
@@ -15,7 +15,7 @@ Answer:D
 ##EASY
 ###BC
 
-2.Which of the following are NOT TRUE.
+2.Which of the following is NOT TRUE.
 
 A.Threads take more time than Process.
 B.Thread is part of the process.
@@ -28,7 +28,7 @@ Answer:A
 ##EASY
 ###BC
 
-3.Which of the following are correct statements.
+3.Which of the following is/are correct statements.
 
 A.A processor is madeup of multiple cores.
 B.A core is physical component where threads are virtual component.
