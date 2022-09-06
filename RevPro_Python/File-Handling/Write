@@ -1,4 +1,4 @@
-Write
+##Python,FileHandling,Write
 
 
 
@@ -37,7 +37,7 @@ Close the file.
 #P2
 ##EASY
 ###TF
-3.State True/False:In python we can do read and write operations in single file.
+3.State True or False:In python we can do read and write operations in single file.
 
 A.True
 B.False
@@ -64,7 +64,7 @@ Explanation:In python, the . folder is the current folder.
 #P2
 ##EASY
 ###TF
-5.State True/False:In python we can use .. to find the parent folder
+5.State True or False:In python we can use .. to find the parent folder
 
 A.True
 B.False
@@ -145,7 +145,7 @@ Answer:A
 #P2
 ##EASY
 ###TF
-11.State True/False:shutil.copy() this method is used to copy the content from th eone file to destination file.
+11.State True or False:shutil.copy() this method is used to copy the content from th eone file to destination file.
 
 A.True
 B.False
