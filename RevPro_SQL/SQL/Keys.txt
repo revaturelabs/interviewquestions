@@ -2,6 +2,7 @@
 ##EASY
 ###BC
 1.What distinguishes a PRIMARY KEY from a UNIQUE KEY?
+
 A.Primary key can store null value, whereas a unique key cannot store null value.
 B.We can have only one primary key in a table while we can have multiple unique keys
 C.Primary key cannot be a date variable whereas unique key can be
@@ -60,6 +61,7 @@ ANSWER:B
 ##MEDIUM
 ###BC
 7. Which statement should be used to delete all rows from a table without logging the action?
+
 A.DELETE
 B.REMOVE
 C.DROP
@@ -91,6 +93,7 @@ ANSWER:B
 ##EASY
 ###BC
 10.In SQL, which of the following is not a constraint?
+
 A.Primary Key
 B.Not Null
 C.Check
@@ -129,6 +132,7 @@ ANSWER:B
 ##EASY
 ###BC
 14.The following is utilised by default if we haven't supplied ASC or DESC after a SQL ORDER BY clause.
+
 A.DESC
 B.ASC
 C.There is no default value
@@ -140,6 +144,7 @@ ANSWER:B
 ##EASY
 ###BC
 15.Which of the statements below is correct?
+
 A.TRUNCATE free the table space while DELETE does not.
 B.Both TRUNCATE and DELETE statements free the table's space.
 C.Both TRUNCATE and DELETE statement does not free the table's space.
@@ -313,6 +318,7 @@ ANSWER:B
 ##EASY
 ###BC
 32.Which of the following is a view?
+
 A. A virtual table that can be accessed via SQL commands
 B. A virtual table that cannot be accessed via SQL commands
 C. A base table that can be accessed via SQL commands
@@ -323,7 +329,8 @@ ANSWER:A
 #P1
 ##EASY
 ###BC
-33.To remove a table from a database, use the following command:
+33.To remove a table from a database, which of the following command can be used?
+
 A. REMOVE TABLE CUSTOMER;
 B. DROP TABLE CUSTOMER;
 C. DELETE TABLE CUSTOMER;
@@ -527,6 +534,7 @@ ANSWER:A
 ##EASY
 ###BC
 52.What command is used to give the database user permissions?
+
 A.GIVE
 B.PROVIDE
 C.GRT
@@ -653,7 +661,7 @@ ANSWER:C
 #P1
 ##EASY
 ###BC
-64.For any pincode, there is only one city and state. Also, for given street, city and state, there is just one pincode. In normalization terms, empdt1 is a relation in
+64.For any pincode, there is only one city and state. Also, for given street, city and state, there is just one pincode. In normalization terms, empdt1 is a relation in______.
 A. 1 NF only
 B. 2 NF and hence also in 1 NF
 C. 3NF and hence also in 2NF and 1NF
@@ -958,7 +966,7 @@ ANSWER:D
 #P1
 ##EASY
 ###BC
-95.Which join types are there in a join condition:
+95.Which join types are there in a join condition?
 A. Cross join
 B. Natural join
 C. Join with USING clause
@@ -987,7 +995,7 @@ ANSWER:A
 #P1
 ##COMPLEX
 ###BC
-98.Which join refers to join records from the right table that have no matching key in the left table are include in the result set:
+98.Which join refers to join records from the right table that have no matching key in the left table are include in the result set?
 A. Left outer join
 B. Right outer join
 C. Full outer join
