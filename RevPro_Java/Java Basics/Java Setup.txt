@@ -15,7 +15,7 @@ Note: We don't need to set the path if we save the Java source file inside the J
 ##EASY
 ###BC
 
-2.The set of paths where the Java compiler and the JVM must find needed classes to compile or execute other classes is
+2.The set of paths where the Java compiler and the JVM must find the essential classes to compile or execute other classes is,
 
 A.Classpath
 B.JVM
@@ -23,7 +23,6 @@ C.JRE
 D.JDK
 
 Answer:A
-Explanation:classpath is just a set of paths where the Java compiler and the JVM must find needed classes to compile or execute other classes.
 
 #P2
 ##EASY
@@ -35,7 +34,7 @@ A.Yes
 B.No
 
 Answer:A
-Explanation:Whenever we run any command in the terminal, the prompt will check for the relevant executable file present in the current directory or in system environment variables.When we compile a Java program by running Javac MyPrg.Java command in the terminal, it will look for the Javac.exe file to compile.If current directory is not C:\Program Files\Java\jdk1.8.0_91\bin (where Javac.exe present), we'll get Javac is not recognized error.One of the way to avoid this error is by setting the Java path C:\ProgramFiles\Java\jdk1.8.0_05\bin in environment variables.
+Explanation:Whenever we run any command in the terminal, the prompt will check for the relevant executable file present in the current directory or in system environment variables. When we compile a Java program by running Javac MyPrg.Java command in the terminal, it will look for the Javac.exe file to compile.If current directory is not C:\Program Files\Java\jdk1.8.0_91\bin (where Javac.exe present), we'll get Javac is not recognized error.One of the way to avoid this error is by setting the Java path C:\ProgramFiles\Java\jdk1.8.0_05\bin in environment variables.
 
 #P1
 ##EASY
@@ -49,7 +48,7 @@ C.Java Development Kit
 D.None of the above.
 
 Answer:C
-Explanation:DK stands for Java Development Kit that contains JRE and developments tools like compilers and debuggers which are useful for developing Java applications.For instance, JDK contains Javac i.e., Java compiler helps us to compiles Java source file MyPrg.Java and generates the class file MyPrg.class.
+Explanation:JDK stands for Java Development Kit that contains JRE and developments tools like compilers and debuggers which are useful for developing Java applications.For instance, JDK contains Javac i.e., Java compiler helps us to compile Java source file MyPrg.Java and generates the class file MyPrg.class.
 
 #P1
 ##EASY
@@ -63,7 +62,7 @@ C.JRE
 D.JIT
 
 Answer:C
-Explanation:JRE stands for Java Runtime Environment that contains JVM and provides the libraries and libraries to run Java applications.
+Explanation:JRE stands for Java Runtime Environment that contains JVM and provides the libraries to run Java applications.
 
 #P1
 ##EASY
@@ -77,7 +76,7 @@ C.JRE
 D.JDK
 
 Answer:A
-Explanation:JVM stands for Java Virtual Machine that uses to run Java application in different platforms.It converts class into Java bytecode which depends up the paltform ie, the native language code.
+Explanation:JVM stands for Java Virtual Machine that uses to run Java application in different platforms.It converts class into Java bytecode which depends on the platform ie, the native language code.
 
 
 #P1
@@ -90,19 +89,19 @@ A.True
 B.False
 
 Answer:B
-Explanation:Java is platform independent language.By use of compiler, .Java file is converted into .class. Java Runtime Environment is supported by many platforms which contains JVM. Java Virtual Machine is responsible to convert .class into native bytecode.
+Explanation:Java is platform independent language. By use of compiler, .Java file is converted into .class. Java Runtime Environment is supported by many platforms which contains JVM. Java Virtual Machine is responsible to convert .class into native bytecode.
 
 #P1
 ##EASY
 ###TF
 
-8.main() is the entry point of a Java program?
+8.main() is the entry point of a Java program.
 
 A.False
 B.True
 
 Answer:B
-Explanation:When Java Virtual Machine runs, it will find the main method which is in the form of public static void main(String[] args). It is not found in the Java application, the Java application will not be executed. If the method signature or passing parameter of main method is changed, it will not be consider as staring point.
+Explanation:When Java Virtual Machine runs, it will find the main method which is in the form of public static void main(String[] args). If it is not found in the Java application, the Java application will not be executed. If the method signature or passing parameter of main method is changed, it will not be considered as starting point.
 
 #P1
 ##EASY
@@ -154,7 +153,7 @@ A.Yes.
 B.No.
 
 Answer:B
-Explanation:No, We can have more classes in a file but only one class should be public.It makes the compilation faster by efficient lookup of code. If you have more than one public class, the error will be generated on compilation time.
+Explanation:No, We can have more classes in a file but only one class should be public.It makes the compilation faster by efficient lookup of code. If you have more than one public class, the error will be generated during compilation time.
 
 #P2
 ##MEDIUM
@@ -166,7 +165,7 @@ A.True
 B.False
 
 Answer:A
-Explanation:The left side class denotes reference of the object and right side denotes object of which to be created. Eg. B b = new A() . B(Reference) can be respected class, abstract class or interface.
+Explanation:The left side class denotes reference of the object and right side denotes object which is to be created. Eg. B b = new A() . B(Reference) can be respected class, abstract class or interface.
 
 #P1
 ##EASY
@@ -183,7 +182,7 @@ C.Both i and ii.
 D.Neither i nor ii.
 
 Answer:C
-Explanation:Heap memory is used through out the application.Objects, arrays, static variables and instance variables are the examples which are stored in heap memory.Stack memory is used only in method or currently running methods.Function calls, primitive, local and reference variables are stored in this memory.
+Explanation:Heap memory is used through out the application. Objects, arrays, static variables and instance variables are the examples which are stored in heap memory. Stack memory is used only in method or currently running methods.Function calls, primitive, local and reference variables are stored in this memory.
 
 #P1
 ##EASY
@@ -195,7 +194,7 @@ A.False
 B.True
 
 Answer:B
-Explanation:Software that is designed without regard to the target platform.  Software is often written to maximize the performance of a specific hardware platform, but such software must be modified to make it run on other hardware.Example: Size of int in C is 2 bytes for 32 bit architecture and 4 bytes for 64 bit architecture. Size of int in Java is the same 4 bytes for both 32 bit and 64 bit architecture.
+Explanation:Software that is designed without regard to the target platform. Software is often written to maximize the performance of a specific hardware platform, but such software must be modified to make it run on other hardware.Example: Size of int in C is 2 bytes for 32 bit architecture and 4 bytes for 64 bit architecture. Size of int in Java is the same 4 bytes for both 32 bit and 64 bit architecture.
 
 #P1
 ##EASY
@@ -209,7 +208,7 @@ C.Java in Time.
 D.Java in Thread.
 
 Answer:A
-Explanation:In Just In Time compilation, the source code is coverted into byte code. Where the bytecode is platform independant. It is runnable in different architecture system when it is coverted in machine code in that system. Here,some of the frequently used codes are stored as code cache and used when it's required.In Ahead Of Time compilation, the souce code is directly converted into machine.So,it is platform dependant. AOT is used for to manual machine code convertion.
+Explanation:In Just In Time compilation, the source code is coverted into byte code. Where the bytecode is platform independant. It is runnable in different architecture system when it is converted in machine code in that system. Here,some of the frequently used codes are stored as code cache and used when it's required.In Ahead Of Time compilation, the souce code is directly converted into machine. So,it is platform dependant. AOT is used for to manual machine code convertion.
 
 #P2
 ##MEDIUM
@@ -227,7 +226,7 @@ Explanation:A language that is generated from programming source code but, it ca
 ##EASY
 ###BC
 
-18.Java is 
+18.Java is, 
 
 A.Platform independent,secure.
 B.Robust,dynamic,simple.
