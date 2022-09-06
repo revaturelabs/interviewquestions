@@ -1,3 +1,5 @@
+##SQL,DQL,Select
+
 #IGNORE
 1. In SQL the table records can be retrieved using which command?
 
