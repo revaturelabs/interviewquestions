@@ -259,7 +259,7 @@ Answer:A
 #P1
 ##EASY
 ###BC
-15.del statement can delete the following from the List?
+15.del statement can delete which of the following from the List?
 
 A.Single Element
 B.Multiple Elements
