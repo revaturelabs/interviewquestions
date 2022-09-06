@@ -32,7 +32,7 @@ Explanation: In abstract classes, we can create abstract methods along with non-
 3. Predict the output of the following code.
 
 from abc import ABC, abstractmethod
-class Abstract(ABC.:
+class Abstract(ABC):
  
     @abstractmethod
     def path(self):
@@ -65,7 +65,7 @@ Explanation: Derived class called its own method path() and hence, statement ins
 
 
 from abc import ABC, abstractmethod
-class Abstract(ABC.:
+class Abstract(ABC):
  
     @abstractmethod
     def path(self):
@@ -98,7 +98,7 @@ Explanation: Object of Derived class called the show() method of Abstract class 
 5. Predict the output of the below code.
 
 from abc import ABC, abstractmethod
-class Abstract(ABC.:
+class Abstract(ABC):
  
     @abstractmethod
     def path(self):
@@ -130,7 +130,7 @@ Explanation: After executing the above code, we will get the Error stating that 
 6. What is the output of the following code?
 
 from abc import ABC, abstractmethod
-class Abstract(ABC.:
+class Abstract(ABC):
  
     @abstractmethod
     def path(self):
@@ -161,7 +161,7 @@ Explanation: We will get the TypeError: Can't instantiate abstract class Derived
 7. What is the output of the following?
 
 from abc import ABC, abstractmethod
-class Abstract(ABC.:
+class Abstract(ABC):
  
     @abstractmethod
     def path(self):
