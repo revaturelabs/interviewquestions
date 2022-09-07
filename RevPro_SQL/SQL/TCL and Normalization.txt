@@ -1,6 +1,7 @@
 ##SQL,TCL&Normalization
 
 
+
 #IGNORE
 1. Which of the following is/are transaction control commands in SQL?
 
@@ -16,7 +17,7 @@ Explanation: Commit and Rollback are transaction control commands in SQL.
 #P1
 ##EASY
 ###BC
-2. What command is used to Store data permanently in a database?
+2. What command  is used to Store data permanently in a database?
 
 A. SavePoint
 B. Grant
@@ -25,13 +26,13 @@ D. All of The Above.
 
 Answer: C
 
-Explanation: Commit is the command used in MySQL to store data permanently in a table.
+Explanation: Commit is the command used in mySQL to store data permanently in a table.
 
 #P1
 ##EASY
 ###BC
-3. Larry was updating a SQL table during his practical exam during which he mistakenly added few mismatched data's his examination time is about to end
-   Suggest a quick solution through which he can score full marks.
+3. Larry was updating a SQL table during his practical exam during which he mistakenly added few mismatched data. His examination time is about to end,
+   suggest a quick solution through which he can score full marks.
 
 A. Revoke
 B. Grant
@@ -87,7 +88,7 @@ Explanation: Commit command is used to store a data in the table permanently, th
 #P1
 ##MEDIUM
 ###BC
-6. Larry and Weasly was assigned a project in SQL they both worked seperately hence they had some duplicate data , both are confused in finding a way to get rid of the duplicate data,Luckily Larry used a savepoint command during data insertion.
+6. Larry and Weasly was assigned a project in SQL they both worked seperatly hence they had some duplicate data , both are confused in finding a way to get rid of the duplicate data,Luckily Larry used a savepoint command during data insertion.
    Suggest them a solution.
 
 A. By using just Rollback command.
@@ -97,8 +98,7 @@ D. By Combining Savepoint and Rollback command
 
 Answer: D
 
-Explanation: Savepoint is a command in MySQL that is like a Restore Point in Windows i.e., If an error occurs it rollbacks to the point where the restore point was created, Likewise in MySQL if we want to go to a point we will be using the
-ROLLBACK TO [SAVEPOINT NAME];
+Explanation: Savepoint is a command in MySQL that is like a Restore Point in Windows i.e., If an error occurs it rollbacks to the point where the restore point was created, Likewise in MySQL if we want to go to a point we will be using the ROLLBACK TO [SAVEPOINT NAME];
 
 #P2
 ##EASY
@@ -179,7 +179,7 @@ Explanation: In case of a shutdown, before committing, Rollback is done.
 #P2
 ##EASY
 ###TF
-10. We updated the location of Amritha to "Gujarat" in the table “EMPLOYEE” and make sure to save the changes permanently. EMPLOYEE table is as follows:
+10. We updated the location of Amritha to "Gujarat" in the table “EMPLOYEE” an make sure to save the chages permanently. EMPLOYEE table is as follows:
 
 | EMP_ID | EMP_NAME | EMP_LOC |
 | ------ | -------- | ------- |
@@ -232,7 +232,7 @@ B. False
 
 Answer: A
 
-Explanation: Based on the output, we can see that the insertion of the first 2 columns has been removed and Only the insertion is below the missing command, hence the missing command is Rollback.
+Explanation: Based on the output we can see that the insertion of the first 2 columns has been removed, Only the insertion below the missing command hence the missing command is Rollback.
 
 #P1
 ##EASY
@@ -251,7 +251,7 @@ Explanation: Set Autocommit=1 is a command in MySQL that is used to enable autoc
 #P2
 ##EASY
 ###BC
-13. What is the use of SAVEPOINT command from Transition Control Language?
+13. What is the use of SAVEPOINT command from Transition Control Language.
 
 A. Used to Load a file.
 B. Used to update the file in the databsase.
@@ -306,12 +306,12 @@ Explanation: Normalization is the process of organizing data in a database.
 #P2
 ##EASY
 ###BC
-17. Which one is based on multi-valued dependency?
+17. Which of the following deals with multi-valued dependency?
 
-A. First
-B. Second
-C. Third
-D. Fourth
+A. 1NF
+B. 2NF
+C. 3NF
+D. 4NF
 
 Answer: D
 
@@ -320,9 +320,9 @@ Answer: D
 ###BC
 18. If a relation is in BCNF, then it is also in___
 
-A. 1 NF
-B. 2 NF
-C. 3 NF
+A. 1NF
+B. 2NF
+C. 3NF
 D. All the above
 
 Answer: D
@@ -330,7 +330,7 @@ Answer: D
 #P1
 ##EASY
 ###BC
-19. If every non-key attribute is functionally dependent primary key, then the relation will be in___
+19. If every non-key attribute is functionally dependent primary key, then the relation will be in_______.
 
 A. First normal form
 B. Second normal form
@@ -339,9 +339,7 @@ D. Fourth normal form
 
 Answer: B
 
-#P1
-##EASY
-###BC
+#IGNORE
 20. If an attribute of a composite key is dependent on an attribute of the other composite key, a normalization called _______ is needed.
 
 A. DKNF
@@ -377,7 +375,7 @@ Answer: A
 #P2
 ##EASY
 ###BC
-23. A dependency exists between two columns when___
+23. A dependency exists between two columns, When___
 
 A. Together they constitute a composite key for the table
 B. Knowing the value in one column determines the value stored in another column
@@ -386,7 +384,7 @@ D. Together they constitute a foreign key
 
 Answer: A
 
-#P2
+#P1
 ##EASY
 ###BC
 24. In the ___________ normal form, a composite attribute is converted to individual attributes.
@@ -401,18 +399,16 @@ Answer: A
 #P2
 ##EASY
 ###BC
-25. Tables in second normal form (2NF)___
+25. Which of the following conditions are true for a table in second normal form (2NF)?
 
 A. Eliminate all hidden dependencies
 B. Eliminate the possibility of a insertion anomalies
 C. Have a composite key
-D. Have all non key fields depend on the whole primary key
+D. all non key fields depend on the primary key
 
-Answer: A
+Answer: D
 
-#P2
-##EASY
-###BC
+#IGNORE
 26. Key to represent relationship between tables is called _______
 
 A. Primary key
@@ -425,14 +421,14 @@ Answer: C
 #P2
 ##EASY
 ###BC
-27. A functional dependency is a link between:
+27. A functional dependency is a relationship between _______.
 
 A. Tables
 B. Rows
-C. Relations
-D. Attributes
+C. Attributes
+D. None of the above
 
-Answer: D
+Answer: C
 
 #P1
 ##EASY
@@ -449,7 +445,7 @@ Answer: B
 #P1
 ##MEDIUM
 ###BC
-29. This form of a connection eliminates any modification abnormalities:
+29. Which of the following eliminates any modification anomalies?
 
 A. First normal form
 B. Second normal form
@@ -458,10 +454,8 @@ D. Domain/key normal form
 
 Answer: D
 
-#P2
-##MEDIUM
-###BC
-30. It follows that characteristic C must be determined by attributes A and B, which is known as________.
+#IGNORE
+30. It follows that characteristic C must be determined by attributes A and B, which is know as________.
 
 A. A → C.
 B. B → C.
@@ -484,7 +478,7 @@ Answer: A
 #P1
 ##EASY
 ###BC
-32. The multivalued dependence constraint problem has many solutions, including:
+32. The multivalued dependence constraint problem has a many solutions, including:
 
 A. Spliting the relation into two relations, each with a single theme.
 B. Change the theme.
@@ -505,9 +499,7 @@ D.BCNF
 
 Answer: B
 
-#P1
-##EASY
-###BC
+#IGNORE
 34. 4NF is designed in a way such that there are no : 
 
 A. Transitive dependency
@@ -529,9 +521,7 @@ D. All of the above
 
 Answer: B
 
-#P1
-##EASY
-###BC
+#IGNORE
 36. A Boyce-Codd Normal Form is:
 
 A. Loss less join and dependency preserving
@@ -553,9 +543,7 @@ D. All of the above
 
 Answer: D
 
-#P2
-##EASY
-###BC
+#IGNORE
 38. The requirement to use increasingly complex SQL in database systems is _____________ of normalization.
 
 A.Advantage
@@ -566,9 +554,7 @@ D.Neither an advantage nor disadvantage
 Answer: B
 
 
-#P2
-##EASY
-###BC
+#IGNORE
 39. _______ of normalisation is the elimination of modification anomalies.
 
 A. Advantage
@@ -612,9 +598,7 @@ D. Fourth step.
 
 Answer: B
 
-#P2
-##EASY
-###BC
+#IGNORE
 43. The task of Creating a read-only database is ________ assigned to beginners of the database profession.
 
 A. Always
@@ -694,9 +678,7 @@ D. One row has the value "He is interested in a Silver Porsche from the years 19
 
 Answer: A 
 
-#P1
-##EASY
-###BC
+#IGNORE
 50. When assessing the table structure of an acquired set of tables with data, counting the number of table rows is (part of) the:
 
 A. First step.
@@ -706,9 +688,7 @@ D. Fourth step.
 
 Answer: A
 
-#P1
-##EASY
-###BC
+#IGNORE
 51. A table is in the _________ state, if all determinants have been converted to candidate keys by normalisation.
 
 A. 1NF.
@@ -740,9 +720,7 @@ D. Neither an advantage nor disadvantage
 
 Answer: D
 
-#P2
-##EASY
-###BC
+#IGNORE
 54. When assessing the table structure of an acquired set of tables with data, determining primary keys is (part of) the:
 
 A. First step.
