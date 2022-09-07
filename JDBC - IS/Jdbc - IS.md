@@ -605,12 +605,16 @@ The connection interface is having 5 methods for transaction management. They ar
 `setAutocommit()`:The value of AutoCommit is set to true by default.when the SQL statement executes, it will be committed automatically. By using this method we can set the value for AutoCommit.
 Syntax: `conn.setAutoCommit(boolean_value)`;
 boolean_value is set to true for enabling autocommit mode for the connection, false for disabling it.
+	
 `commit()`:The `commit()` method is used for committing the data. When the SQL statement executes, we can call the `commit()` method. It will commit the changes made by the SQL statement.
 Syntax: `conn.commit()`;
+	
 `rollback()`:The `rollback()` method is used to undo the changes made till the last commit has occurred. If we face any problem or exception in the SQL statements execution flow, we may roll back the transaction.
 Syntax: `conn.rollback()`;
+	
 `setSavepoint()`:If you have set a savepoint in the transaction i.e.,group of SQL statements, you can use the `rollback()` method to undo all the changes till the savepoint or after the `savepoint()`, if something goes wrong within the current transaction. The `setSavepoint()` method is used to create a new savepoint which refers to the current state of the database within the transaction.
 Syntax:`Savepoint sp= conn.setSavepoint("Mysavepoint");`
+	
 `releaseSavepoint()`:It is used for deleting or releasing the created savepoint.
 Syntax:`conn.releaseSavepoint("Mysavepoint");`
 
