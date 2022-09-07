@@ -511,7 +511,115 @@ We must register the OUT parameters before executing the CallableStatement.
 </blockquote>
 
 </details>
-  
+
+21.When "No suitable driver" error occurs in java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+
+"No suitable driver" error occurs during a call to the DriverManager.getConnection() method, when it is 
+unable to load the appropriate Jdbc drivers before calling the getConnection() method.
+It can specify an invalid or wrong Jdbc url, which cannot be recognized by the Jdbc driver.
+when one or more shared libraries required by the Jdbc bridge cannot be loaded.
+		
+</blockquote>
+
+</details>
+
+---
+	
+22.Explain the types of Jdbc architecture?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Jdbc has 2 types of architecture models  to access the database. They are:
+
+- Two-tier Architecture: This architecture connects java programs explicitly to  the database. It doesn’t require any mediator such as an application server for connecting with the database except the Jdbc driver. It is also called client-server architecture.	
+
+
+- Three-tier Architecture: This architecture has no explicit communication between the Jdbc driver or java application with the database. It will make use of an application server as a mediator between them. Java code will send the request to an application server, then the server will send it to the database and receive the response from the database.
+
+</blockquote>
+
+</details>
+
+---
+	
+23.Explain the ACID properties in Jdbc Transaction Management and why is it needed?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The sequence of SQL statements served as a single unit that is called a transaction. Transaction Management places an important role in RDBMS-oriented applications to maintain data consistency and integrity.Transaction Management can be described by using ACID properties. ACID stands for Atomicity, Consistency, Isolation, and Durability.
+- Atomicity:If all queries are successfully executed, then only data will be committed to the database.
+- Consistency:It ensures bringing the database into a consistent state after any transaction.
+- Isolation:It ensures that the transaction is isolated from other transactions.
+- Durability:If a transaction has been committed once, it will remain always committed, even in the situation of errors, power loss, etc.
+
+- Need for Transaction Management:When creating a connection to the database, the auto-commit mode will be selected by default. This implies that every time when the request is executed, it will be committed automatically upon completion.We might want to commit the transaction after the execution of few more SQL statements. In such a situation, we must set the auto-commit value to False. So that data will not be able to commit before executing all the queries. In case if we get an exception in the transaction, we can `rollback()` changes made and make it like before.
+
+</blockquote>
+
+</details>
+
+---
+	
+24:How can you differentiate between PreparedStatement and Statement? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+PreparedStatement performs faster compared to the Statement because the Statement needs to be compiled each time when we run the code whereas the PreparedStatement is compiled once and then executed only on runtime.It can execute parametrized queries. But Statement can only run static queries.
+The query used in PreparedStatement looks similar each time, so the database can reuse the previous access plan. Statement inline the parameters into the string, so the query doesn’t look to be the same every time which prevents reusage of cache.
+
+</blockquote>
+
+</details>
+
+---
+	
+25:Explain the  Transaction Management methods in Jdbc.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The connection interface is having 5 methods for transaction management. They are given below:
+
+`setAutocommit()`:The value of AutoCommit is set to true by default.when the SQL statement executes, it will be committed automatically. By using this method we can set the value for AutoCommit.
+Syntax: `conn.setAutoCommit(boolean_value)`;
+boolean_value is set to true for enabling autocommit mode for the connection, false for disabling it.
+`commit()`:The `commit()` method is used for committing the data. When the SQL statement executes, we can call the `commit()` method. It will commit the changes made by the SQL statement.
+Syntax: `conn.commit()`;
+`rollback()`:The `rollback()` method is used to undo the changes made till the last commit has occurred. If we face any problem or exception in the SQL statements execution flow, we may roll back the transaction.
+Syntax: `conn.rollback()`;
+`setSavepoint()`:If you have set a savepoint in the transaction i.e.,group of SQL statements, you can use the `rollback()` method to undo all the changes till the savepoint or after the `savepoint()`, if something goes wrong within the current transaction. The `setSavepoint()` method is used to create a new savepoint which refers to the current state of the database within the transaction.
+Syntax:`Savepoint sp= conn.setSavepoint("Mysavepoint");`
+`releaseSavepoint()`:It is used for deleting or releasing the created savepoint.
+Syntax:`conn.releaseSavepoint("Mysavepoint");`
+
+</blockquote>
+
+</details
+
+
+
   
 
 
