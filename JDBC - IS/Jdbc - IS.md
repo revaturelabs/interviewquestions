@@ -628,7 +628,125 @@ Syntax:`conn.releaseSavepoint("Mysavepoint");`
 </details
 
 
+26:Explain the common exceptions in Jdbc.
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- `java.sql.SQLException`:It is the base class for Jdbc exceptions.
+- `java.sql.BatchUpdateException`: It occurs during the batch update operation. It depends on the jdbc driver type that the base SQLException may throw instead.
+- `java.sql.SQLWarning`:It is displayed as a warning message of various SQL operations.
+- `java.sql.DataTruncation`:This exception occurs when data values are unexpectedly truncated due to exceeding MaxFieldSize.
+
+</blockquote>
+
+</details>
+
+---
+	
+27:How two-phase commit is performed in Jdbc?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Two-phase commit is useful for a distributed environment where numerous processes take part in the distributed transaction process.A transaction is executing and it is affecting multiple databases then a two-phase commit will be used to make sure that all databases are synchronized with each other.
+The main process or co-ordinator process take a vote of all other process that they have completed their process successfully and ready to commit, if all the votes are "yes" then they continue for the next phase. And if "No" then rollback will be performed. As per vote, if all the votes are "yes" then commit is done.when any transaction changes multiple databases after transaction execution, it will issue a pre-commit command on each database and all databases will send an acknowledgment. Based on acknowledgment, if all are positive transactions then it will issue the commit command otherwise rollback will be done
+
+</blockquote>
+
+</details>
+
+---
+	
+28:How to create a table dynamically from java using jdbc?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+```java
+
+import java.io.*;
+import java.sql.*;
+
+public class dynamicjdbctable{
+ public static void main(String[] args)throws SQLException,IOException{
+   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+   Class.forName("com.mysql.jdbc.Driver");
+   Connection con=DriverManager.getConnection(url,user,password);
+   Statement st = con.createStatement();
+   System.out.println(“Enter table name”);
+   String tablename = br.readLine();
+   st.executeUpdate("create table"+tablename+"(studentno number,studentname varchar2(10),studentphone number,studentaddress varchar2(20))");
+   System.out.println("Table created successfully");
+   con.close();
+ }
+}
+
+```
+
+</blockquote>
+
+</details>
+
+---
+	
+29:How is it possible to connect to multiple databases using single statement object?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+It is possible to connect to multiple databases, at the same time, but it depends on the specific driver.To update and extract data from the different database we can use the single statement. But we need middleware to deal with multiple databases or a single database.
+
+</blockquote>
+
+</details>
+
+---
+	
+30.How do you insert images into database using Jdbc?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Images in the database using the BLOB datatype wherein the image stored as a byte stream. Below code is showing how to insert the image into DB.
+
+```java
+
+Connection con = null;
+PreparedStatement ps = null;
+InputStream is = null;
+
+Class.forName("com.mysql.jdbc.Driver");
+Connection con=DriverManager.getConnection(url,user,password);
+ps = con.prepareCall("insert into student values (?,?)");
+ps.setInt(1,401);
+is = new FileInputStream(new File("student_img.jpg"));
+ps.setBinaryStream(2, is);
+int count = ps.executeUpdate();
+
+
+```
+
+</blockquote>
+
+</details>
+
+---
   
 
 
