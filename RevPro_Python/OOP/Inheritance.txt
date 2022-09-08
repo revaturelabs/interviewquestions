@@ -22,7 +22,7 @@ A. class B(A):
 B. class B(A):
    class C(B):
 C. class B(A):
-   class C(A0:
+   class C(A):
 D. class C(A,B): 
 
 Answer: B
