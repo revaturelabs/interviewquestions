@@ -282,19 +282,8 @@ Answer: A
 
 #P1
 ##EASY
-###BC
-14. We can achieve encapsulation in python by
-
-A. using abstract base class
-B. declaring the data members of a class either as private or protected.
-C. overriding the base class method in derived class
-D. all of the above
-
-
-#P1
-##EASY
 ####TF
-15. We can achieve encapsulation by declaring the data members of a class either as private or protected.
+14. We can achieve encapsulation by declaring the data members of a class either as private or protected.
 
 A. True
 B. False
