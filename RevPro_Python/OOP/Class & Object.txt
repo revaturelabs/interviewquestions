@@ -114,7 +114,7 @@ Adding self in the show() method definition should resolve the problem.
 
 #P2
 ##EASY
-###TF
+###BC
 6. In Python, all classes have a function known as____.
 
 A. __inti__()
