@@ -774,6 +774,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
+  
 > There are few limitations that MongoDB have such as:  
 > - There are no joins that we can use with MongoDB.
 > - Document size is limited to only 16mb.
