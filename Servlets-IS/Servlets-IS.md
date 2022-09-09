@@ -264,3 +264,66 @@ A server loading the SingleThreadModel servlet should guarantee, "that no two th
 </details>
   
 ---
+
+    
+14.How does Background Processing take place in servlets?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+A thread that has been started by a servlet can continue to execute even after the response has been sent. This ability proves most useful for the tasks that are long-running, and whose incremental results should be made available to multiple clients. A background thread that has been started in `init()` performs continuous work. It also performs request-handling threads displaying the current status with `doGet()` method.
+
+</blockquote>
+
+</details>
+  
+---
+  
+15.How does Servlet collaboration take place?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Servlets running together in the same server have many ways to communicate with one another. There are two main styles of servlet collaboration.
+
+- Sharing information: Sharing information involves two or more servlets sharing the state or even resources. A special case of sharing information is Session tracking.
+
+- Sharing control: Sharing control involves two or more servlets sharing control of the request. For example, one servlet could receive the request but let another servlet handle some or all of the request-handling responsibilities
+		
+
+</blockquote>
+
+</details>
+  
+---
+  
+16.Explain Request parameters in servlets?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Http servlet gets its request parameters as a part of its query string or as encoded post data. A servlet used as a server-side includes its parameters equipped with PARAM tags.Although a servlet will receive parameters in an exceeding variety of various ways, every servlet retrieves its parameters the same way, by using `getParameter()` and `getParameterValues()` which is given below.
+
+```java
+
+public String ServletRequest.getParameter(String name)
+public String[] ServletRequest.getParameterValues(String name)
+
+```
+		
+</blockquote>
+
+</details>
+  
+---
+
+  
