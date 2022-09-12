@@ -325,5 +325,531 @@ public String[] ServletRequest.getParameterValues(String name)
 </details>
   
 ---
+	
+17.Explain the stages of inter-servlet communication?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- Servlet manipulation:When a servlet directly invokes the methods of another servlet. These servlets can get references to other servlets using getServletNames() and getServlet(String name).
+
+- Servlet reuse:When one servlet uses another’s abilities for its own purposes.This requires forcing a servlet load using a manual HTTP request.
+
+- Servlet collaboration:When the cooperating servlets share information. Servlets can share information using the system properties list, using a shared object, or using inheritance
+		
+</blockquote>
+
+</details>
+
+  
+---
+  
+18.What is Servlet API?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Servlet API contains two packages which contains the classes and interfaces that are required to build servlets. These are
+javax.servlet and javax.servlet.http.The javax.servlet package contains a number of interfaces and classes that establish the
+framework in which servlets operate.The javax.servlet.http package contains a number of interfaces and classes that are commonly
+used by servlet developers and its functionality makes it easy to build servlets that work with http requests and responses.
+
+</blockquote>
+
+</details>
+
+---
+  
+19.Explain the Servlet Interface?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+All servlets must implement the Servlet interface. It declares the `init( )`, `service( )`, and `destroy( )`
+methods that are called by the server during the life cycle of a servlet. These are invoked by the server.The `getServletConfig( )` method is called by the servlet to obtain initialization parameters. A servlet developer overrides the `getServletInfo( )` method to provide a string with useful information.This method is also invoked by the server.
+		
+</blockquote>
+
+</details>
+  
+---
+  
+20.How can you differentiate ServletConfig and ServletContext Interface?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The ServletConfig interface allows a servlet to obtain configuration data when it is loaded.
+The methods declared by this interface are given below:
+
+- `ServletContext getServletContext( )`: It returns the context for this servlet.
+- `String getInitParameter(String param)`:It returns the value of the initialization parameter named param.
+- `String getServletName( )`:It returns the name of the invoking servlet.
+
+The ServletContext interface enables servlets to obtain information about their environment.
+
+- `void destroy( )`: It is Called when the servlet is unloaded.
+- `ServletConfig getServletConfig( )`: It returns a ServletConfig object that contains any initialization
+parameters.
+- `String getServletInfo( )`: It returns a string describing the servlet.
+- `void init(ServletConfig sc)throws ServletException`:It is invoked when the servlet is initialized. Initialization parameters for the servlet can be obtained from sc.An UnavailableException should be thrown if the servlet cannot be initialized.
+- `void service(ServletRequest req,ServletResponse res)throws ServletException,IOException`:It is used to process a request from a client. The request from the client can be read from req. The response to the clientcan be written to res. An exception is generated if a servlet or IO problem occurs.
+	
+</blockquote>
+
+</details>
+
+---
+
+21.What is ServletRequest and ServletResponse Interface?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The ServletRequest interface enables a servlet to obtain information about a client request.The ServletResponse interface enables a servlet to formulate a response for a client.
+		
+</blockquote>
+
+</details>
+
+---
+
+22.What is GenericServlet Class?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The GenericServlet class provides implementations of the basic life cycle methods for a servlet.It implements the Servlet and ServletConfig interfaces. In addition, a method to append a string to the server log file is available. The signatures of this method are `void log(String s)` and `void log(String s, Throwable e)` Where s is the string to be appended to the log, and e is an exception that occurred
+
+</blockquote>
+
+</details>
+
+---
+
+23.How can differentiate ServletInputStream and ServletOutputStream Class?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- ServletInputStream class extends InputStream. It is implemented by the servlet container
+and provides an input stream that a servlet developer can use to read the data from a client
+request. It defines the default constructor. In addition, a method is provided to read bytes
+from the stream as `int readLine(byte[ ] buffer, int offset, int size) throws IOException`
+Here, buffer is the array into which size bytes are placed starting at offset. The method returns
+the actual number of bytes read or –1 if an end-of-stream condition is encountered.
+
+- ServletOutputStream class extends OutputStream. It is implemented by the servlet container and provides an output stream that a servlet developer can use to write data to a client response. A default constructor is defined. It also defines the `print( )` and `println( )`methods, which output data to the stream.
+
+</blockquote>
+
+</details>
+
+---
+
+24:Explain how to read servlet parameters with an example?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The ServletRequest interface includes methods that allow you to read the names and values of parameters that are included in a client request.The example contains two files. A web page is defined in parameters.htm, and
+a servlet is defined in parametersservlet.java.
+
+The html source code for parameters.htm is shown in the following listing. It defines
+a table that contains two labels and two text fields. One of the labels is Employee and the
+other is Phone. There is also a submit button. Notice that the action parameter of the form
+tag specifies a url. The url identifies the servlet to process the http post request.
+
+```java
+
+<html>
+<body>
+<center>
+<form name="Form1"method="post" action="http://localhost:8080/servlets-examples/servlet/parametersservlet">
+<table>
+<tr>
+<td><B>Employee</td>
+<td><input type=textbox name="e" size="20" value=""></td>
+</tr>
+<tr>
+<td><B>Phone</td>
+<td><input type=textbox name="p" size="20" value=""></td>
+</tr>
+</table>
+<input type=submit value="Submit">
+</body>
+</html>
+
+```
+
+The source code for parametersservlet.java is shown in the following listing. The `service( )` method is overridden to process client requests. The `getParameterNames( )` method returns an enumeration of the parameter names. These are processed in a loop. You can see that the parameter name and value are output to the client. The parameter value is obtained via the `getParameter( )` method.
+
+```java
+
+import java.io.*;
+import java.util.*;
+import javax.servlet.*;
+public class ParametersServlet extends GenericServlet {
+public void service(ServletRequest request,ServletResponse response)throws ServletException, IOException {
+PrintWriter pw = response.getWriter();
+Enumeration e = request.getParameterNames();
+while(e.hasMoreElements()) {
+String pname = (String)e.nextElement();
+pw.print(pname + " = ");
+String pvalue = request.getParameter(pname);
+pw.println(pvalue);
+}
+pw.close();
+}
+}
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+25:What are HttpServlet request,response and session interfaces in servlets?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The HttpServletRequest interface enables a servlet to obtain information about a client request. The HttpServletResponse interface enables a servlet to formulate an HTTP response to a client. Several constants are defined. These correspond to the different status codes that can be assigned to an HTTP response. For example, SC_OK indicates that the HTTP request succeeded, and SC_NOT_FOUND indicates that the requested resource is not available.The HttpSession interface enables a servlet to read and write the state information that is associated with an HTTP session.
+
+</blockquote>
+
+</details
+
+---
+
+26:What is a Cookie Class?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The Cookie class encapsulates a cookie. A cookie is stored on a client and contains state information. Cookies are valuable for tracking user activities. For example, assume that a user visits an online store. A cookie can save the user’s name, address, and other information.The user does not need to enter this data each time he or she visits the store.
+
+</blockquote>
+
+</details>
+
+---
+
+27:How a servlet helps to create a cookie in user's machine?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+A servlet can write a cookie to a user’s machine by using `addCookie( )` method of the HttpServletResponse interface. The data for that cookie is then included in the header of the http response that is sent to the browser. The names and values of cookies are stored on the user’s machine. Some of the information that is saved for each cookie includes the following:
+
+- The name of the cookie
+- The value of the cookie
+- The expiration date of the cookie
+- The domain and path of the cookie
+
+The expiration date determines when this cookie is deleted from the user’s machine. If an expiration date is not explicitly assigned to a cookie, it is deleted when the current browser session ends. Otherwise, the cookie is saved in a file on the user’s machine.The domain and path of the cookie determine when it is included in the header of an HTTP request. If the user enters a URL whose domain and path match these values, the cookie is then supplied to the Web server. Otherwise, it is not.
+There is one constructor for Cookie. It has the signature shown here: `Cookie(String name, String value)`
+Here, the name and value of the cookie are supplied as arguments to the constructor
+
+</blockquote>
+
+</details>
+
+---
+
+28:What is HttpServlet and HttpSessionEvent Class?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The HttpServlet class extends GenericServlet. It is commonly used when developing servlets`that receive and process HTTP requests. HttpSessionEvent encapsulates session events. It extends EventObject and is generated when`a change occurs to the session. It defines this constructor:`HttpSessionEvent(HttpSession session)`Here, session is the source of the event.HttpSessionEvent defines one method, `getSession( )`, which is shown here:`HttpSession getSession( )`.It returns the session in which the event occurred.
+
+</blockquote>
+
+</details>
+
+---
+
+29:Explain how it is possible to handle HTTP Requests in a servlet with examples?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The HttpServlet class provides specialized methods that handle the various types of http requests. A servlet developer typically overrides one of these methods. These methods are `doDelete( )`, `doGet( )`, `doHead( )`, `doOptions( )`, `doPost( )`, `doPut( )`, and `doTrace( )`. However, the GET and POST requests are commonly used when handling form input. 
+
+- Handling HTTP GET Requests:We will develop a servlet that handles an HTTP GET request. The servlet is invoked when a form on a web page is submitted. The example contains two files. A web page is definedin ColorGet.htm, and a servlet is defined in ColorGetServlet.java. The HTML source code for ColorGet.htm is shown below. It defines a form that contains a select element and a submit button. Notice that the action parameter of the form tag specifies a URL. The URL identifies a servlet to process the HTTP GET request.
+
+```java
+
+<html>
+<body>
+<center>
+<form name="Form1"
+action="http://localhost:8080/servlets-examples/servlet/ColorGetServlet">
+<B>Color:</B>
+<select name="color" size="1">
+<option value="Red">Red</option>
+<option value="Green">Green</option>
+<option value="Blue">Blue</option>
+</select>
+<br><br>
+<input type=submit value="Submit">
+</form>
+</body>
+</html>
+
+```
+The source code for ColorGetServlet.java is shown in the following listing. The doGet( ) method is overridden to process any HTTP GET requests that are sent to this servlet. It uses the getParameter( ) method of HttpServletRequest to obtain the selection that was made by the user. A response is then formulated.
+
+```java
+
+import java.io.*;
+import javax.servlet.*;
+import javax.servlet.http.*;
+public class ColorGetServlet extends HttpServlet {
+public void doGet(HttpServletRequest request,HttpServletResponse response)throws ServletException, IOException {
+String color = request.getParameter("color");
+response.setContentType("text/html");
+PrintWriter pw = response.getWriter();
+pw.println("<B>The selected color is: ");
+pw.println(color);
+pw.close();
+}
+}
+
+```
+
+- Handling HTTP POST Requests:We will develop a servlet that handles an HTTP POST request. The servlet is invoked when a form on a web page is submitted. The example contains two files. A web page is defined in ColorPost.htm, and a servlet is defined in ColorPostServlet.java.The HTML source code for ColorPost.htm is shown below. It is identical to ColorGet.htm except that the method parameter for the form tag explicitly specifies that the POST method should be used, and the action parameter for the form tag specifies a
+different servlet.
+
+```java
+
+<html>
+<body>
+<center>
+<form name="Form1"
+method="post"
+action="http://localhost:8080/servlets-examples/servlet/ColorPostServlet">
+<B>Color:</B>
+<select name="color" size="1">
+<option value="Red">Red</option>
+<option value="Green">Green</option>
+<option value="Blue">Blue</option>
+</select>
+<br><br>
+<input type=submit value="Submit">
+</form>
+</body>
+</html>
+
+```
+The source code for ColorPostServlet.java is shown below. The `doPost( )` method is overridden to process any HTTP POST requests that are sent to this servlet. It uses the `getParameter( )` method of HttpServletRequest to obtain the selection that was made
+by the user. A response is then formulated.
+
+```java
+
+import java.io.*;
+import javax.servlet.*;
+import javax.servlet.http.*;
+public class ColorPostServlet extends HttpServlet {
+public void doPost(HttpServletRequest request,HttpServletResponse response)throws ServletException, IOException {
+String color = request.getParameter("color");
+response.setContentType("text/html");
+PrintWriter pw = response.getWriter();
+pw.println("<B>The selected color is: ");
+pw.println(color);
+pw.close();
+}
+}
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+30.Explain creating a cookie using a servlet with example?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The html source code for AddCookie.htm is shown below. This page contains a text field in which a value can be entered. There is also a submit button on the page. When this button is pressed, the value in the text field is sent to AddCookieServlet via an HTTP POST request.
+
+```java
+
+<html>
+<body>
+<center>
+<form name="Form1" method="post" action="http://localhost:8080/servlets-examples/servlet/AddCookieServlet">
+<B>Enter a value for MyCookie:</B>
+<input type=textbox name="data" size=25 value="">
+<input type=submit value="Submit">
+</form>
+</body>
+</html>
+
+```
+
+The source code for AddCookieServlet.java is shown below. It gets the value of the parameter named "data". It then creates a Cookie object that has the name "MyCookie" and contains the value of the "data" parameter. The cookie is then added to the header of the http response via the `addCookie( )` method.
+
+```java
+
+import java.io.*;
+import javax.servlet.*;
+import javax.servlet.http.*;
+public class AddCookieServlet extends HttpServlet {
+public void doPost(HttpServletRequest request,HttpServletResponse response)throws ServletException, IOException {
+String data = request.getParameter("data");
+Cookie cookie = new Cookie("MyCookie", data);
+response.addCookie(cookie);
+response.setContentType("text/html");
+PrintWriter pw = response.getWriter();
+pw.println("<B>MyCookie has been set to");
+pw.println(data);
+pw.close();
+}
+}
+
+```
+
+The source code for GetCookiesServlet.java is shown below. It invokes the `getCookies( )` method to read any cookies that are included in the HTTP GET request. The names and values of these cookies are then written to the HTTP response. Observe that the
+`getName( )` and `getValue( )` methods are called to obtain this information.
+
+```java
+
+import java.io.*;
+import javax.servlet.*;
+import javax.servlet.http.*;
+public class GetCookiesServlet extends HttpServlet {
+public void doGet(HttpServletRequest request,HttpServletResponse response)throws ServletException, IOException {
+Cookie[] cookies = request.getCookies();
+response.setContentType("text/html");
+PrintWriter pw = response.getWriter();
+pw.println("<B>");
+for(int i = 0; i < cookies.length; i++) {
+String name = cookies[i].getName();
+String value = cookies[i].getValue();
+pw.println("name = " + name +"; value = " + value);
+}
+pw.close();
+}
+}
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+31:What is Session Tracking?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+Http is a stateless protocol. Each request is independent of the previous one. However, in some applications, it is necessary to save state information so that information can be collected from several interactions between a browser and a server. Sessions provide such a mechanism.A session can be created via the `getSession( )` method of HttpServletRequest. An HttpSession object is returned. This object can store a set of bindings that associate names with objects. The `setAttribute( )`, `getAttribute( )`, `getAttributeNames( )`, and `removeAttribute( )` methods of HttpSession manage these bindings.
+
+<blockquote>
+
+
+</blockquote>
+
+</details>
+
+
+---
+
+32.How do you create session using session tracking in servlets?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+A new session is created if one does not already exist. The `getAttribute( )`method is called to obtain the object that is bound to the name "date". That object is a Date object that encapsulates the date and time when this page was last accessed. A Date object encapsulating the current date and time is then created. The `setAttribute( )` method is called to bind the name "date"
+to this object.
+
+```java
+
+import java.io.*;
+import java.util.*;
+import javax.servlet.*;
+import javax.servlet.http.*;
+public class DateServlet extends HttpServlet {
+public void doGet(HttpServletRequest request,HttpServletResponse response)throws ServletException, IOException {
+HttpSession hs = request.getSession(true);
+response.setContentType("text/html");
+PrintWriter pw = response.getWriter();
+pw.print("<B>");
+Date date = (Date)hs.getAttribute("date");
+if(date != null) {
+pw.print("Last access: " + date + "<br>");
+}
+date = new Date();
+hs.setAttribute("date", date);
+pw.println("Current date: " + date);
+}
+}
+
+```
+
+When you first request this servlet, the browser displays one line with the current date and time information. On subsequent invocations, two lines are displayed. The first line shows the date and time when the servlet was last accessed. The second line shows the current date and time.
+
+</blockquote>
+
+</details>
+
+
+
+
 
   
