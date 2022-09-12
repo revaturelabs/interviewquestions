@@ -56,7 +56,7 @@ To handle requests that are appropriate for the servlet, a typical servlet must 
 
 <blockquote>
 
-A Http servlet typically does not override the service() method. However, it actually overrides the doGet() to handle the GET requests and the doPost() to handle POST requests. Depending on the type of requests it needs to handle, an HTTP servlet can override either or both of these methods. 
+A Http servlet typically does not override the `service()` method. However, it actually overrides the `doGet()` to handle the GET requests and the `doPost()` to handle POST requests. Depending on the type of requests it needs to handle, an HTTP servlet can override either or both of these methods. 
 
 </blockquote>
 
@@ -73,6 +73,8 @@ A Http servlet typically does not override the service() method. However, it act
 <blockquote>
 
 Servlets can be added in HTML pages with the server-side include (SSI) functionality. A page can be preprocessed by the server to add the output from servlets at some points within the page, in the servers that support servlets.
+	
+```java
 
 <SERVLET CODE=ServletName CODEBASE=http://server:port/dir
            initParam1=initValue1 
@@ -81,6 +83,8 @@ Servlets can be added in HTML pages with the server-side include (SSI) functiona
 <PARAM NAME=param2 VALUE=val2>
    SERVER SIDE FUNCTIONALITIES
 </SERVLET>
+	
+```
 
 </blockquote>
 
@@ -97,7 +101,7 @@ Servlets can be added in HTML pages with the server-side include (SSI) functiona
 <blockquote>
 
 
-Servlets ​​init method is used to initialise a servlet.When the web container loads and instantiates the servlet class and before it delivers requests from clients, the web container initializes the servlet. To customize this process to allow the servlet to read persistent configuration data, initialize resources, and perform any other one-time activities, you override the init method of the Servlet interface.When a servlet container determines that a servlet should be removed from service (for example, when a container wants to reclaim memory resources or when it is being shut down), the container calls the destroy method of the Servlet interface.
+Servlets init method is used to initialise a servlet.When the web container loads and instantiates the servlet class and before it delivers requests from clients, the web container initializes the servlet. To customize this process to allow the servlet to read persistent configuration data, initialize resources, and perform any other one-time activities, you override the init method of the Servlet interface.When a servlet container determines that a servlet should be removed from service (for example, when a container wants to reclaim memory resources or when it is being shut down), the container calls the destroy method of the Servlet interface.
 
 </blockquote>
 
@@ -147,17 +151,14 @@ Servlet Chaining is a way where the output of one servlet is piped to the input 
 
 <blockquote>
 
-- The life cycle of a servlet can be implemented by init( ), service( ), and destroy( ) methods.
+- The life cycle of a servlet can be implemented by `init( )`, `service( )`, and `destroy( )` methods.
 When a user enters a Uniform Resource Locator (URL) to a web browser.The browser then generates an HTTP request for this URL. This request is then sent to the appropriate server.The Http request is received by the web server. The server maps this request to a particular servlet. 
 
-- The servlet is dynamically retrieved and loaded into the address space of the server.The server invokes the init( ) method of the servlet. This method is invoked only when the servlet is first loaded into memory. It is possible to pass initialization parameters to the servlet so it may configure itself.
+- The servlet is dynamically retrieved and loaded into the address space of the server.The server invokes the `init( )` method of the servlet. This method is invoked only when the servlet is first loaded into memory. It is possible to pass initialization parameters to the servlet so it may configure itself.
 
-- The server invokes the service( ) method of the servlet. This method is called to process the HTTP request. You will see that it is possible for the servlet to read data that has been provided in the HTTP request. It may also formulate an HTTP response for the client.The servlet remains in the server’s address space and is available to process any other HTTP requests received from clients. The service( ) method is called for each HTTP request.
+- The server invokes the `service( )` method of the servlet. This method is called to process the HTTP request. You will see that it is possible for the servlet to read data that has been provided in the HTTP request. It may also formulate an HTTP response for the client.The servlet remains in the server’s address space and is available to process any other HTTP requests received from clients. The `service( )` method is called for each HTTP request.
 
-- The server may decide to unload the servlet from its memory. The server calls the destroy( )
-method to relinquish any resources such as file handles that are allocated for the servlet.
-Important data may be saved to a persistent store. The memory allocated for the servlet and
-its objects can then be garbage collected.
+- The server may decide to unload the servlet from its memory. The server calls the` destroy( )`method to relinquish any resources such as file handles that are allocated for the servlet. Important data may be saved to a persistent store. The memory allocated for the servlet and its objects can then be garbage collected.
 
 </blockquote>
 
@@ -211,9 +212,9 @@ In servlet reloading, the objects in classloader are developed to load a class j
 
 <blockquote>
 
-- We can create and compile the servlet source code.Then, copy the servlet’s class file to the
-proper directory, and add the servlet’s name and mappings to the proper web.xml file.
-- Start Tomcat.Start a web browser and request the servlet.
+- We can create and compile the servlet source code.Then, copy the servlet’s class file to the proper directory, and add the servlet’s name and mappings to the proper web.xml file.
+- Start Tomcat.
+- Start a web browser and request the servlet.
 
 ```java
 
@@ -257,7 +258,7 @@ string Hello! in bold type.
 <blockquote>
 
 It is standard to have a single servlet instance for each registered name of the servlet. However, instead of this, it is also possible for a servlet to choose to have a pool of instances created for each of its names that all share the task of handling requests. These servlets indicate this action by implementing the `javax.servlet.SingleThreadModel` interface.
-A server loading the SingleThreadModel servlet should guarantee, "that no two threads will execute concurrently the service method of that servlet." Each thread uses a free servlet instance from the pool in order to achieve this. Therefore, any servlet using the SingleThreadModel isn’t needed to synchronize usage to its instance variables and is considered thread-safe.
+A server loading the SingleThreadModel servlet should guarantee, "that no two threads will execute concurrently the service method of that servlet". Each thread uses a free servlet instance from the pool in order to achieve this. Therefore, any servlet using the SingleThreadModel isn’t needed to synchronize usage to its instance variables and is considered thread-safe.
 
 </blockquote>
 
