@@ -849,6 +849,457 @@ When you first request this servlet, the browser displays one line with the curr
 
 </details>
 
+---
+
+33:What is the difference between web server and application server?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+A web server responsibility is to handle Http requests from client browsers and respond with Html response. A web server understands Http language and runs on Http protocol. Apache Web Server is kind of a web server and then we have specific containers that can execute servlets and JSPs known as the servlet container and Application Servers provide additional features such as Enterprise JavaBeans support, JMS Messaging support, Transaction Management, etc.application server is a web server with additional functionalities to help developers with enterprise applications.
+
+</blockquote>
+
+</details>
+
+---
+
+34:Define MIME Type?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+
+The "Content-Type" response header is known as MIME Type. Server sends MIME type to client to let them know the kind of data it’s sending. It helps client in rendering the data for user. Some of the mostly used mime types are `text/html`, `text/xml`, `application/xml` etc. We can use ServletContext `getMimeType()` method to get the correct `MIME` type of the file and use it to set the response content type. It’s very useful in downloading a file through servlet from the server.
+
+</blockquote>
+
+</details>
+
+---
+
+35:Explain Request Dispatcher?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+RequestDispatcher interface is used to forward the request to another resource that can be Html, Jsp or another servlet in the same application. We can also use this to include the content of another resource to the response. This interface is used for inter-servlet communication in the same context. There are two methods defined in this interface:
+- `void forward(ServletRequest request, ServletResponse response)`:It forwards the request from a servlet to another resource (servlet, Jsp file, or Html file) on the server.
+- `void include(ServletRequest request, ServletResponse response)`:It includes the content of a resource (servlet, Jsp page, Html file) in the response.
+- We can get RequestDispatcher in a servlet using ServletContext `getRequestDispatcher(String path)` method. The path must begin with a / and is interpreted as relative to the current context root.
+
+</blockquote>
+
+</details>
+
+---
+
+36:What is difference between PrintWriter and ServletOutputStream?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+PrintWriter is a character-stream class whereas ServletOutputStream is a byte-stream class. We can use PrintWriter to write character based information such as character array and String to the response whereas we can use ServletOutputStream to write byte array data to the response. We can use ServletResponse `getWriter()` to get the PrintWriter instance whereas we can use ServletResponse `getOutputStream()` method to get the ServletOutputStream object reference.
+
+</blockquote>
+
+</details>
+
+---
+
+37:How can we create deadlock situation in servlet?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+We can create deadlock in servlet by making a loop of method invocation, we have to invoke `doPost()` method from `doGet()` method and `doGet()` method to `doPost()` method to create deadlock situation in servlet. 
+
+</blockquote>
+
+</details>
+
+---
+
+38:What is the use of servlet wrapper classes?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Servlet Http API provides two wrapper classes - `HttpServletRequestWrapper` and `HttpServletResponseWrapper`. These wrapper classes are provided to help developers with custom implementation of servlet request and response types. We can extend these classes and override only specific methods we need to implement for custom request and response objects. 
+
+</blockquote>
+
+</details>
+
+---
+
+
+40:How can you differentiate GenericServlet and HttpServlet?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+GenericServlet is protocol independent implementation of Servlet interface whereas HttpServlet is Http protocol specific implementation.we use servlet for creating web application by extending HttpServlet class. HttpServlet class extends GenericServlet and also provide some other methods specific to Http protocol.
+
+</blockquote>
+
+</details>
+
+---
+
+41:How to achieve thread-safety in servlets?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+HttpServlet `init()` method and `destroy()` method are called only once in the servlet life cycle, so we don't need to worry about their synchronization. But service methods such as `doGet()` or `doPost()` are getting called in every client request and since servlet uses multithreading, we should provide thread safety in these methods. If there are any local variables in service methods, we don't need to worry about their thread-safety because they are specific to each thread but if we have a shared resource then we can use synchronization to achieve thread-safety in servlets when working with shared resources. The thread safety mechanisms are similar to thread safety in standalone java application.
+
+</blockquote>
+
+</details>
+
+---
+
+42:How to invoke one servlet from another servlet?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+We can use RequestDispatcher `forward()` method to forward the processing of a request to another servlet. If we want to include the another servlet output to the response, we can use RequestDispatcher `include()` method.
+
+</blockquote>
+
+</details>
+
+---
+
+43:What is difference between ServletResponse `sendRedirect()` and RequestDispatcher `forward()` method?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- RequestDispatcher `forward()` is used to forward the same request to another resource whereas ServletResponse `sendRedirect()` is a two step process. In `sendRedirect()`, web application returns the response to client with status code 302 (redirect) with URL to send the request. The request sent is a completely new request.
+- `forward()` is handled internally by the container whereas `sendRedirect()` is handled by browser.
+- We should use `forward()` when accessing resources in the same application because it's faster than `sendRedirect()` method.
+- In `forward()` method browser is unaware of the actual processing resource and the URL in address bar remains same whereas in `sendRedirect()` URL in address bar change to the forwarded resource.
+- `forward()` can't be used to invoke a servlet in another context, we can only use `sendRedirect()` in this case.
+
+</blockquote>
+
+</details>
+
+---
+
+44:Why HttpServlet class is declared abstract?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+HttpServlet class provide Http protocol implementation of servlet but it's left abstract because there is no implementation logic in service methods such as `doGet()` and `doPost()` and we should override at least one of the service methods. 
+
+</blockquote>
+
+</details>
+
+
+---
+
+
+45:What are different methods of session management in servlets?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The session is a conversational state between client and server and it can consist of multiple request and response between client and server. Since Http and Web Server both are stateless, the only way to maintain a session is when some unique information about the session (session-id) is passed between server and client in every request and response.The common ways of session management in servlets are:
+
+- User Authentication
+- HTML Hidden Field
+- Cookies
+- URL Rewriting
+- Session Management API
+
+</blockquote>
+
+</details>
+
+---
+
+
+46:What is URL Rewriting?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Servlet API provides support for URL rewriting that we can use to manage session and it’s very easy to use and involves encoding the URL. Servlet URL Encoding is that it’s a fallback approach and it kicks in only if browser cookies are disabled. We can encode URL with HttpServletResponse `encodeURL()` method and if we have to redirect the request to another resource and we want to provide session information, we can use `encodeRedirectURL()` method.
+
+</blockquote>
+
+</details>
+
+---
+
+47:How does Cookies work in Servlets?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Cookies are text data sent by server to the client and it gets saved at the client local machine. Servlet API provides cookies support through `javax.servlet.http.Cookie` class that implements Serializable and Cloneable interfaces. HttpServletRequest `getCookies()` method is provided to get the array of cookies from the request, since there is no point of adding Cookie to request, there are no methods to set or add a cookie to `request.HttpServletResponse addCookie(Cookie c)` method is provided to attach cookie in the response header, there are no getter methods for a cookie. 
+
+</blockquote>
+
+</details>
+
+---
+
+48:Why do we have servlet filters?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Servlet Filters are pluggable java components that we can use to intercept and process requests before they are sent to servlets and response after servlet code is finished and before container sends the response back to the client.The servlet filter task are given below:
+
+- Logging request parameters to log files.
+- Authentication and authorization of request for resources.
+- Formatting of request body or header before sending it to servlet.
+- Compressing the response data sent to the client.
+- Alter response by adding some cookies, header information etc.
+
+</blockquote>
+
+</details>
+
+---
+
+49:How to handle exceptions thrown by application with another servlet?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The `doGet()` and `doPost()` methods throw ServletException and IOException. Since browser understand only html, when our application throw exception, servlet container processes the exception and generate a html response. Servlet API provides support for custom Exception and Error Handler servlets that we can configure in the deployment descriptor, the whole purpose of these servlets are to handle the Exception or Error raised by application and send html response that is useful for the user. We can provide a link to the application home page or some details to let the user know what went wrong. We can configure them in web.xml like below:
+
+```java
+
+<error-page>
+	<error-code>404</error-code>
+    <location>/AppExceptionHandler</location>
+</error-page>
+   
+<error-page>
+  	<exception-type>javax.servlet.ServletException</exception-type>
+  	<location>/AppExceptionHandler</location>
+</error-page>
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+50:What is a deployment descriptor?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The deployment descriptor is a configuration file for the web application and its name is `web.xml` and it resides in WEB-INF directory. Servlet container uses this file to configure web application servlets, servlet config params, context init params, filters, listeners, welcome pages and error handlers.
+
+</blockquote>
+
+</details>
+
+---
+
+51:How to make sure a servlet is loaded at the application startup?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Servlet container loads a servlet on the first client request.The servlet is heavy and takes time to loads, we might want to load it on application startup. We can use a load-on-startup element with servlet configuration in the `web.xml` file or use WebServlet annotation loadOnStartup variable to tell the container to load the servlet on system startup.
+
+```
+<servlet>
+	<servlet-name>Revature</servlet-name>
+	<servlet-class>com.Revature.servlets.Rev</servlet-class>
+	<load-on-startup>4</load-on-startup>
+</servlet> 
+```
+
+The load-on-startup value should be int, if it's a negative integer then servlet container will load the servlet based on client requests and requirement but if it's 0 or positive, then the container will load it on application startup. If there are multiple servlets with load-on-startup value such as 0,1,2,3 then lower integer value servlet will be loaded first.
+
+
+</blockquote>
+
+</details>
+
+---
+
+52:What is a WAR file?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+
+The WAR(Web Application Resource) file specifies the web elements,Either a Servlet or JSP project can be converted into a war file. Moving one Servlet project from one place to another will be fast as it is combined into a single file.
+
+</blockquote>
+
+</details>
+
+---
+
+53:Explain MVC pattern.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Model-View-Controller (MVC) is a design pattern that divides a software application into three segments namely the Model, the View and the Controller.
+
+- Model deals with the behaviour of the application. It contains the data and business logic of the application. It notifies views and controllers when there is a change in its state.
+- View renders the information to the user so that it looks attractive and appealing. It takes information from the model using which it generates output.
+- Controller takes input from a user and sends the command to model or view. It controls the flow of the application.
+
+</blockquote>
+
+</details>
+
+---
+
+54:Explain the different methods involved in the process of session management in servlets?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The different methods involved in the session management in servlets are as follows:
+
+- User Authentication: A user tries to access a protected resource, such as a JSP page. If the user has been authenticated, the servlet container makes the resource available; otherwise, the user is asked for a username and password
+
+- HTML Hidden Field: The `<input type="hidden">` defines a hidden input field. A hidden field let web developers include data that cannot be seen or modified by users when a form is submitted. A hidden field often stores what database record that needs to be updated when the form is submitted
+
+- Cookies: A small text file created by a website that is stored in the user’s computer either temporarily for that session only or permanently on the hard disk. Cookies provide a way for the website to recognize you and keep track of your preferences
+
+- URL Rewriting: URL rewriting is an automatic process of altering a program written for manipulating the parameters in a URL (Uniform Resource Locator). URL manipulation is employed as a convenience by a Web server administrator. 
+
+- Session Management API: Session Management API is built on top of the Request-Response methods for session tracking. Session Tracking is a way to maintain state/data of a user. It is also known as session management in servlet.
+
+</blockquote>
+
+</details>
+
+---
+
+55:What is a  Web Container?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+A web container or a Servlet container is used to interact with the Servlet and includes all the Servlet, JSP, XML files inside it. Web Container’s responsibility is to manage the life cycle of a servlet and to help to map the URL of a specific servlet. A web container is also used creates the object of a servlet.
+
+</blockquote>
+
+</details>
+
+---
+
+56:How a servlet works without the `main()` method?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Servlets don’t have  a main() method. Because servlets are executed using web containers. When a client places request for a servlet, then the server hands the requests to the web container where the servlet is deployed.
+
+</blockquote>
+
+</details>
+
+---
+
+57:What is the difference between Context Parameter and Context Attribute?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Context Parameter is a value stored in the deployment descriptor, which is the `web.xml` and is loaded during the deployment process.Context Attribute is the value which is set dynamically and can be used throughout the application.
+
+</blockquote>
+
+</details>
+
+---
+
+
 
 
 
