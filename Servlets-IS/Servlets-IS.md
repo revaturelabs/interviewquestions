@@ -1300,6 +1300,77 @@ Context Parameter is a value stored in the deployment descriptor, which is the `
 ---
 
 
+58:How can you create a session in servlet?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+We can create HttpSession object by calling the public method `getSession()` of HttpServletRequest. The below code shows how to create a session.
+
+`HttpSession session = request.getSession();`
+
+
+</blockquote>
+
+</details>
+
+---
+
+59:Explain the working of `service()` method in a servlet.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The `service()` method is actually the main method that is expected to perform the actual task. The servlet container calls the `service()` method to handle requests coming from the client/browsers and to provide the response back to the client.Each time the server receives a request for a servlet, the server creates a new thread and calls for the service. The `service()` method checks the Http request type and calls the respective methods as required.
+
+```java
+
+public void service(ServletRequest request, ServletResponse response)throws ServletException, IOException{
+}
+
+```
+
+The container calls the `service()` method and service method invokes `doGet(), doPost(), doPut(), doDelete(),` methods as needed. So you have nothing to do with `service()` method but you override either `doGet()` or `doPost()` depending on the request you receive from the client-end.
+
+</blockquote>
+
+</details>
+
+---
+
+60:How do you get the IP address of the client in servlet?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+`request.getRemoteAddr()` is the code to get the client IP address in servlet.
+
+</blockquote>
+
+</details>
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
