@@ -452,7 +452,7 @@ When HTML documents are loaded in the browser(which creates DOM), it will become
 
 ---
 
-24. What do ypu mean by Event and Event handling?
+24. What do you mean by Event and Event handling?
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -768,8 +768,12 @@ Document Object Model(DOM) is a tree-like structure that represents the HTML doc
 
 Which can be done by accessing the element’s style property. To change a specific style, set the appropriate property of the style object to the new value.
 
+```java
+ 
 eg: element.style.color = “new color”;
 
+ ```
+ 
  </blockquote>
 
 </details>
@@ -819,9 +823,10 @@ Yes, it support automatic type conversion. It is the common way of type conversi
 
 <blockquote>
 
-Which assigns a number to a variable and then assigns a string to the same variable. For example is a is the varaiable typing here,
+Which assigns a number to a variable and then assigns a string to the same variable. For example is a is the variable typing here,
 
 a= 6;
+ 
 a= "JavaScript";
 
  </blockquote>
