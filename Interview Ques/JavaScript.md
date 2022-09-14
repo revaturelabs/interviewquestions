@@ -632,11 +632,10 @@ By using  method `Document.getElementsByclass name()`, we can get elements in cl
 
 <blockquote>
 
-There are 3 different ways in which a JavaScript code can be involved in an HTML file:
+Which can be done in two ways:
 
-- Inline
-- Internal
-- External
+- Writing the code in your HTML.
+- Through an external file by including it as a link.
 
  </blockquote>
 
