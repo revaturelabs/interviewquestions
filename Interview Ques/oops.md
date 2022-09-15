@@ -24,7 +24,7 @@ Java contains primitive data types like char, boolean, byte, short, int, long, f
 
 <blockquote>
 
-- An object is a basic unit of Object-Oriented Programming that represents real-life entities, which has has state and behavior.
+- An object is a basic unit of Object-Oriented Programming that represents real-life entities, which has its state and behavior.
 
 - Example - A dog is an object because it has states like color, name, breed, etc. as well as behaviors like barking, eating, etc.
 
@@ -137,7 +137,7 @@ Inheritance is the mechanism in Java by which one class is allowed to inherit th
 
 ---
 
-9. Assume that A is a class with 3 functions with samme name and different arguments , how do you call these feature in object-oriented programming languages ?
+9. Assume that A is a class with 3 functions with same name and different arguments , how do you call these feature in object-oriented programming languages ?
 
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -162,7 +162,7 @@ Overloading concept, which is a type of polymorphism . Accepts same method name 
 
 <blockquote>
 
-It can be done by method overriding , which is a type of polymorphism. Can Modify a super class method in the sub class.
+It can be done by method overriding , which is a type of polymorphism. It can modify a super class method in the sub class.
 
 </blockquote>
 
@@ -226,7 +226,7 @@ Using `super` keyword, we can refer super class version of overridden method in 
 
 <blockquote>
 
-The interface in Java is a mechanism to achieve abstraction. There can be only abstract methods in the Java interface without the method body.
+The interface in java is a mechanism to achieve abstraction. There can be only abstract methods in the java interface without the method body.
 
 </blockquote>
 
@@ -234,7 +234,7 @@ The interface in Java is a mechanism to achieve abstraction. There can be only a
 
 ---
 
-15. Which modifiers are allowed for methods in an Interface?
+15. Which modifiers are allowed for methods in an interface?
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -842,7 +842,7 @@ The main difference between static and non-static nested classes is that you nee
 
 ---
 
-51. How many.class files are created when you compile a file with inner classes in Java?
+51. How many .class files are created when you compile a file with inner classes in Java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -851,7 +851,7 @@ The main difference between static and non-static nested classes is that you nee
 <blockquote>
 
 
-When an inner class enclosed by with an outer class is compiled,then two.class files are created: one for each inner class and one for the outer class.
+When an inner class enclosed by with an outer class is compiled,then two .class files are created: one for each inner class and one for the outer class.
 
 </blockquote>
 
