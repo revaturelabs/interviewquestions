@@ -6,7 +6,7 @@
 
 <blockquote>
 
-Multithreading allows the program to run continuously even if a part of it is blocked. It improves performance as compared to traditional parallel programs that use multiple processes. It allows to write effective programs that utilize maximum CPU time.It improves the responsiveness of complex applications or programs. It increases use of CPU resources and reduce costs of maintenance. It saves time and parallelism tasks. If an exception occurs in a single thread, it will not affect other threads as threads are independent. It requires less resource-intensive than executing multiple processes at the same time.
+Multithreading allows the program to run continuously even if a part of it is blocked. It improves performance as compared to traditional parallel programs that use multiple processes. It allows to write effective programs that utilize maximum CPU time.It improves the responsiveness of complex applications or programs. It increases use of CPU resources and reduce costs of maintenance. It saves time and parallelism tasks. If an exception occurs in a single thread, it will not affect other threads, as threads are independent. It requires less resource-intensive than executing multiple processes at the same time.
 
 </blockquote>
 
@@ -37,7 +37,6 @@ Threads are basically the lightweight and smallest unit of processing that can b
 <details><summary><b> Show Answer</b></summary>
 
 <blockquote>
-
 
 There are basically two ways of implementing thread in java as given below: 
 
@@ -105,9 +104,10 @@ My thread is in running state.
 <blockquote>
 
 Threads:
-- It is a subset of a subunit of a process.	
-- In this, inter-thread communication is faster, less expensive, easy and efficient because threads share the same memory address of the process they belong to. 
-- These are easier to create, lightweight, and have less overhead. 
+- It is a subset of a process.	
+- In this, inter-thread communication is faster, less expensive, easy and efficient because threads share the same memory   
+  address of the process they belong to. 
+- Which is easier to create, lightweight, and have less overhead. 
 - It requires less time for creation, termination, and context switching.	
 - Processes with multiple threads use fewer resources.
 - Threads are parts of a process, so they are dependent on each other but each thread executes independently.
@@ -116,7 +116,8 @@ Threads:
 
 Process:	
 - It is a program in execution containing multiple threads.
-- In this, inter-process communication is slower, expensive, and complex because each process has different memory space or address.,
+- In this, inter-process communication is slower, expensive, and complex because each process has different memory space or 
+  address.
 - These are difficult to create, heavyweight, and have more overhead.
 - It requires more time for creation, termination, and context switching.
 - Processes without threads use more resources.
@@ -138,7 +139,7 @@ Process:
 
 <blockquote>
 
-- Class Lock: In java, each and every class has a unique lock usually referred to as a class level lock. These locks are achieved using the keyword 'static synchronized' and can be used to make static data thread-safe. It is generally used when one wants to prevent multiple threads from entering a synchronized block. 
+- Class Lock: In java, each and every class has a unique lock usually referred to as a class level lock. These locks are achieved using the keyword 'static synchronized' and can be used to make static data thread-safe. It is generally used to prevent multiple threads from entering a synchronized block. 
 
 Example:  
 
@@ -157,7 +158,7 @@ public class ClassLevelLockExample
 
 ```
 
-- Object Lock: In java, each and every object has a unique lock usually referred to as an object-level lock. These locks are achieved using the keyword 'synchronized' and can be used to protect non-static data. It is generally used when one wants to synchronize a non-static method or block so that only the thread will be able to execute the code block on a given instance of the class.  
+- Object Lock: In java, each and every object has a unique lock usually referred to as an object-level lock. These locks are achieved using the keyword 'synchronized' and can be used to protect non-static data. It is generally used to synchronize a non-static method or block so that only the thread will be able to execute the code block on a given instance of the class.  
 
 Example:  
 
@@ -196,7 +197,7 @@ User and Daemon are basically two types of thread used in Java by using a 'Threa
 - User Thread (Non-Daemon Thread): In Java, user threads have a specific life cycle and its life is independent of any other thread. JVM (Java Virtual Machine) waits for any of the user threads to complete its tasks before terminating it. When user threads are finished, JVM terminates the whole program along with associated daemon threads. JVM waits for user threads to finish their tasks before termination. These threads are normally created by the user for executing tasks concurrently. They are used for critical tasks or core work of an application. These threads are referred to as high-priority tasks, therefore are required for running in the foreground.
 
 
-- Daemon Thread: In Java, daemon threads are basically referred to as a service provider that provides services and support to user threads. There are basically two methods available in thread class for daemon thread: setDaemon() and isDaemon(). JVM does not wait for daemon threads to finish their tasks before termination.These threads are normally created by JVM.They are not used for any critical tasks but to do some supporting tasks.These threads are referred to as low priority threads, therefore are especially required for supporting background tasks like garbage collection, releasing memory of unused objects, etc. 
+- Daemon Thread: In Java, daemon threads are basically referred to as a service provider that provides services and support to user threads. There are basically two methods available in thread class for daemon thread: `setDaemon()` and `isDaemon()`. JVM does not wait for daemon threads to finish their tasks before termination, which is created by JVM.They are not used for any critical tasks but to do some supporting tasks.These threads are referred to as low priority threads, therefore especially required for supporting background tasks like garbage collection, releasing memory of unused objects, etc. 
 
 </blockquote>
 
@@ -204,7 +205,7 @@ User and Daemon are basically two types of thread used in Java by using a 'Threa
 
 ---
 
-7.How can we create daemon threads?Explain with an example?
+7.How can we create daemon threads? Explain with an example?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -212,7 +213,7 @@ User and Daemon are basically two types of thread used in Java by using a 'Threa
 
 <blockquote>
 
-We can create daemon threads in java using the thread class setDaemon(true). It is used to mark the current thread as daemon thread or user thread. isDaemon() method is generally used to check whether the current thread is daemon or not. If the thread is a daemon, it will return true otherwise it returns false. 
+We can create daemon threads in java using the thread class setDaemon(true). It is used to mark the current thread as daemon thread or user thread. `isDaemon()` method is generally used to check whether the current thread is daemon or not. If the thread is a daemon, it will return true otherwise it returns false. 
  
 Example:   
 
@@ -356,7 +357,7 @@ We know that every object has a monitor that allows the thread to hold a lock on
 
 ---
 
-11.Explain deadlock and when it can occurs?
+11.Explain deadlock and when it occurs?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -381,7 +382,7 @@ Deadlock situation arises where two threads are blocked forever.  Thread 1 is ho
 
 <blockquote>
 
-A volatile variable is basically a keyword that is used to ensure and address the visibility of changes to variables in multithreaded programming. This keyword cannot be used with classes and methods, instead can be used with variables. It is simply used to achieve thread-safety. If you mark any variable as volatile, then all the threads can read its value directly from the main memory rather than CPU cache, so that each thread can get an updated value of the variable.
+Which a keyword used to ensure and address the visibility of changes to variables in multithreaded programming. This keyword cannot be used with classes and methods, instead can be used with variables. It is simply used to achieve thread-safety. If you mark any variable as volatile, then all the threads can read its value directly from the main memory rather than CPU cache, so that each thread can get an updated value of the variable.
 
 </blockquote>
 
