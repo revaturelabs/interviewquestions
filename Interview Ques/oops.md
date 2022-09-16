@@ -505,7 +505,7 @@ It’s called only once for an object automatically at the time of object creati
 
 <blockquote>
 
- Private members of a class are not accessible outside the scope of that class and any other class even in the same package cannot access them in Java
+No, Private members of a class are not accessible outside the scope of that class and any other class even in the same package cannot access them in Java
 
  </blockquote>
 
