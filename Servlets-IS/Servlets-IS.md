@@ -537,6 +537,7 @@ The HttpServletRequest interface enables a servlet to obtain information about a
 </blockquote>
 
 </details>
+	
 ---
 
 26:What is a Cookie Class?
