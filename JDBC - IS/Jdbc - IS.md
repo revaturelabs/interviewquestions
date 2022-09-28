@@ -14,7 +14,7 @@ JDBC(Java Database Connectivity) is a Java API, which is helpful in interacting 
 
 ---
 
-2.What is the functionality of resultset in jdbc?
+2.What is the functionality of resultset in JDBC?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
