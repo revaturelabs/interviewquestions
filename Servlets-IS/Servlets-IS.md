@@ -461,7 +461,7 @@ The GenericServlet class provides implementations of the basic life cycle method
 
 ---
 
-24:Explain how to read servlet parameters with an example?
+24. Explain how to read servlet parameters with an example?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -524,7 +524,7 @@ pw.close();
 
 ---
 
-25:What are HttpServlet request,response and session interfaces in servlets?
+25. What are HttpServlet request,response and session interfaces in servlets?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -540,7 +540,7 @@ The HttpServletRequest interface enables a servlet to obtain information about a
 	
 ---
 
-26:What is a Cookie Class?
+26. What is a Cookie Class?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -556,7 +556,7 @@ The Cookie class encapsulates a cookie. A cookie is stored on a client and conta
 
 ---
 
-27:How a servlet helps to create a cookie in user's machine?
+27. How a servlet helps to create a cookie in user's machine?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -581,7 +581,7 @@ Here, the name and value of the cookie are supplied as arguments to the construc
 
 ---
 
-28:What is HttpServlet and HttpSessionEvent Class?
+28. What is HttpServlet and HttpSessionEvent Class?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -597,7 +597,7 @@ The HttpServlet class extends GenericServlet. It is commonly used when developin
 
 ---
 
-29:Explain how it is possible to handle HTTP Requests in a servlet with examples?
+29. Explain how it is possible to handle HTTP Requests in a servlet with examples?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -700,7 +700,7 @@ pw.close();
 
 ---
 
-30.Explain creating a cookie using a servlet with example?
+30. Explain creating a cookie using a servlet with example?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -778,7 +778,7 @@ pw.close();
 
 ---
 
-31:What is Session Tracking?
+31. What is Session Tracking?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -795,7 +795,7 @@ Http is a stateless protocol. Each request is independent of the previous one. H
 
 ---
 
-32.How do you create session using session tracking in servlets?
+32. How do you create session using session tracking in servlets?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -838,7 +838,7 @@ When you first request this servlet, the browser displays one line with the curr
 
 ---
 
-33:What is the difference between web server and application server?
+33. What is the difference between web server and application server?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -854,7 +854,7 @@ A web server responsibility is to handle Http requests from client browsers and 
 
 ---
 
-34:Define MIME Type?
+34. Define MIME Type?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -871,7 +871,7 @@ The "Content-Type" response header is known as MIME Type. Server sends MIME type
 
 ---
 
-35:Explain Request Dispatcher?
+35. Explain Request Dispatcher?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -890,7 +890,7 @@ RequestDispatcher interface is used to forward the request to another resource t
 
 ---
 
-36:What is difference between PrintWriter and ServletOutputStream?
+36. What is difference between PrintWriter and ServletOutputStream?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -906,7 +906,7 @@ PrintWriter is a character-stream class whereas ServletOutputStream is a byte-st
 
 ---
 
-37:How can we create deadlock situation in servlet?
+37. How can we create deadlock situation in servlet?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -922,7 +922,7 @@ We can create deadlock in servlet by making a loop of method invocation, we have
 
 ---
 
-38:What is the use of servlet wrapper classes?
+38. What is the use of servlet wrapper classes?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -939,7 +939,7 @@ Servlet Http API provides two wrapper classes - `HttpServletRequestWrapper` and 
 ---
 
 
-40:How can you differentiate GenericServlet and HttpServlet?
+40. How can you differentiate GenericServlet and HttpServlet?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -955,7 +955,7 @@ GenericServlet is protocol independent implementation of Servlet interface where
 
 ---
 
-41:How to achieve thread-safety in servlets?
+41. How to achieve thread-safety in servlets?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -971,7 +971,7 @@ HttpServlet `init()` method and `destroy()` method are called only once in the s
 
 ---
 
-42:How to invoke one servlet from another servlet?
+42. How to invoke one servlet from another servlet?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -987,7 +987,7 @@ We can use RequestDispatcher `forward()` method to forward the processing of a r
 
 ---
 
-43:What is difference between ServletResponse `sendRedirect()` and RequestDispatcher `forward()` method?
+43. What is difference between ServletResponse `sendRedirect()` and RequestDispatcher `forward()` method?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1007,7 +1007,7 @@ We can use RequestDispatcher `forward()` method to forward the processing of a r
 
 ---
 
-44:Why HttpServlet class is declared abstract?
+44. Why HttpServlet class is declared abstract?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1025,7 +1025,7 @@ HttpServlet class provide Http protocol implementation of servlet but it's left 
 ---
 
 
-45:What are different methods of session management in servlets?
+45. What are different methods of session management in servlets?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1048,7 +1048,7 @@ The session is a conversational state between client and server and it can consi
 ---
 
 
-46:What is URL Rewriting?
+46. What is URL Rewriting?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1064,7 +1064,7 @@ Servlet API provides support for URL rewriting that we can use to manage session
 
 ---
 
-47:How does Cookies work in Servlets?
+47. How does Cookies work in Servlets?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1080,7 +1080,7 @@ Cookies are text data sent by server to the client and it gets saved at the clie
 
 ---
 
-48:Why do we have servlet filters?
+48. Why do we have servlet filters?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1102,7 +1102,7 @@ Servlet Filters are pluggable java components that we can use to intercept and p
 
 ---
 
-49:How to handle exceptions thrown by application with another servlet?
+49. How to handle exceptions thrown by application with another servlet?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1132,7 +1132,7 @@ The `doGet()` and `doPost()` methods throw ServletException and IOException. Sin
 
 ---
 
-50:What is a deployment descriptor?
+50. What is a deployment descriptor?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1148,7 +1148,7 @@ The deployment descriptor is a configuration file for the web application and it
 
 ---
 
-51:How to make sure a servlet is loaded at the application startup?
+51. How to make sure a servlet is loaded at the application startup?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1175,7 +1175,7 @@ The load-on-startup value should be int, if it's a negative integer then servlet
 
 ---
 
-52:What is a WAR file?
+52. What is a WAR file?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1192,7 +1192,7 @@ The WAR(Web Application Resource) file specifies the web elements,Either a Servl
 
 ---
 
-53:Explain MVC pattern.
+53. Explain MVC pattern.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1212,7 +1212,7 @@ Model-View-Controller (MVC) is a design pattern that divides a software applicat
 
 ---
 
-54:Explain the different methods involved in the process of session management in servlets?
+54. Explain the different methods involved in the process of session management in servlets?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1238,7 +1238,7 @@ The different methods involved in the session management in servlets are as foll
 
 ---
 
-55:What is a  Web Container?
+55. What is a  Web Container?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1254,7 +1254,7 @@ A web container or a Servlet container is used to interact with the Servlet and 
 
 ---
 
-56:How a servlet works without the `main()` method?
+56. How a servlet works without the `main()` method?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1270,7 +1270,7 @@ Servlets don’t have  a `main()` method. Because servlets are executed using we
 
 ---
 
-57:What is the difference between Context Parameter and Context Attribute?
+57. What is the difference between Context Parameter and Context Attribute?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1287,7 +1287,7 @@ Context Parameter is a value stored in the deployment descriptor, which is the `
 ---
 
 
-58:How can you create a session in servlet?
+58. How can you create a session in servlet?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1306,7 +1306,7 @@ We can create HttpSession object by calling the public method `getSession()` of 
 
 ---
 
-59:Explain the working of `service()` method in a servlet.
+59. Explain the working of `service()` method in a servlet.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1331,7 +1331,7 @@ The container calls the `service()` method and service method invokes `doGet(), 
 
 ---
 
-60:How do you get the IP address of the client in servlet?
+60. How do you get the IP address of the client in servlet?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
