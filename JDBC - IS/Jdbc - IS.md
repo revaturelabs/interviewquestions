@@ -625,8 +625,9 @@ Syntax:`conn.releaseSavepoint("Mysavepoint");`
 
 </blockquote>
 
-</details
-
+</details>
+	
+---
 
 26:Explain the common exceptions in Jdbc.
 
