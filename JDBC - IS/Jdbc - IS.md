@@ -724,7 +724,7 @@ It is possible to connect to multiple databases, at the same time, but it depend
 
 <blockquote>
 
-Images in the database using the BLOB datatype wherein the image stored as a byte stream. Below code is showing how to insert the image into DB.
+Images in the database inserted using the BLOB datatype wherein the image stored as a byte stream. Below code is showing how to insert the image into DB.
 
 ```java
 
