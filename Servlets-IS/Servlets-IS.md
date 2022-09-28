@@ -938,6 +938,20 @@ Servlet Http API provides two wrapper classes - `HttpServletRequestWrapper` and 
 
 ---
 
+39. What is HTTP Tunneling ? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+HTTP Tunneling is a technique by which, communications performed using various network protocols are encapsulated using the HTTP or HTTPS protocols. The HTTP protocol therefore acts as a wrapper for a channel that the network protocol being tunneled uses to communicate. The masking of other protocol requests as HTTP requests is HTTP Tunneling.
+
+</blockquote>
+</details>
+	
+---
 
 40. How can you differentiate GenericServlet and HttpServlet?
 
