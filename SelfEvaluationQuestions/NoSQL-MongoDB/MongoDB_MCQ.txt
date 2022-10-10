@@ -1,0 +1,1791 @@
+// MongoDB MCQs Questions
+
+
+#P1
+##EASY
+###TF
+1. We can achieve primary-key and foreign-key relationship in MongoDB.
+
+A. True
+B. False
+
+Answer: A
+Explanation: MongoDB,  by-default, does not support primary and foreign key relationship. But we can achieve it by embedding one document inside another one. For example, embedding 'city' document inside 'address' document. 
+
+
+#P1
+##EASY
+###BC
+2. Which of the following query will display average of "marks" field from "student" colection in MongoDB? 
+
+A. db.student.aggregate(({$group : {_id:null, Average_marks : {$avg : "marks"}}}))
+B. db.student.aggregate([{$group : {_id:null, Average_marks : {$average : "marks"}}}])
+C. db.student.agg([{$group : {_id:null, Average_marks : {$avg : "marks"}}}])
+D. db.students.aggregate((($group : {_id:null, Average_marks : {$avg : "marks"}})))
+
+Answer: A
+
+
+#P1
+##EASY
+###BC
+3. Which of the following query will display total sum of "marks" field from "student" colection in MongoDB? 
+
+A. db.student.aggregate(({$group : {_id:null, Total_marks : {$sum : "marks"}}}))
+B. db.student.aggregate([{$group : {_id:null, Total_marks : {$sum : "marks"}}}])
+C. db.student.aggregate([{$group : {_id:null, Total_marks : {$add : "marks"}}}])
+D. db.student.aggregate([{$group : {_id:null, Total_marks : {$count : "marks"}}}])
+
+Answer: B
+
+
+#P1
+##EASY
+###BC
+4. In a find() query like db.collection_name.find({"school.student": "Jack"}) , what could be school and what could be a student?
+
+A. school is a collection name & student is a database name
+B. school is a database name & student is a collection name
+C. school is a outer document field and student is a inner document field
+D. school is a inner document field and student is a outer document field
+
+Answer: C
+Explanation:In db.collection_name.find({ "school.student": "Jack"}) query, "school" is a outer document field and "student" is a inner document field.
+
+
+#P1
+##EASY
+###BC
+5. When creating a database in MongoDB, if you are getting "could not connect to the server" error, then what could be the possible reason for it. 
+
+A. Incorrect hostname and port number
+B. Firewall is blocking the port connection
+C. MongoDB instance is not running in the background.
+D. All of the above.
+
+Answer: D
+
+
+#P1
+##EASY
+###BC
+6. Which command can be used to backup the database in MongoDB?
+
+A. mongostore
+B. mongodump
+C. mongobackup
+D. None of the above
+
+Answer: B
+Explanation: we can use the mongodump command that will store our data in a backup file. For that, we just have to write mongodump --db database_name -- collection collection_name.
+
+
+#P2
+##EASY
+###BC
+7. What insert() method returns after successfully inserting a document into a collection.
+
+A. It returns nothing
+B. It returns WriteResult object
+C. It returns BulkWriteResult object
+D. Both B and C 
+
+Answer: D
+Explanation: It returns an object that contains the information about the operation. It returns a WriteResult object when we insert a single document and BulkWriteResult object when we insert more than one document in a single insert query.
+
+
+#P2
+##EASY
+###TF
+8. By default in MongoDB, "id" field is represented as primary key.
+
+A. True
+B. False
+
+Answer: B
+Explanation: It is not "id" field, it is "_id" field. The _id field is the default primary key in MongoDB and it is reserved.
+
+
+#P1
+##EASY
+###BC
+9. Which of the following is the correct way of creating a database as "Company" and collection as "Department" in MongoDB?
+
+A. used Company;
+   db.createCollection("Department");
+B. Create Company;
+   db.createCollection("Department");
+C. use Company;
+   db.createCollection("Department");
+D. use Company;
+   db.collection("Department");
+
+Answer: C
+
+
+#P1
+##EASY
+###BC
+10. Imagine you have an “employee” database and “emp” collection. Which query you will write to update salary of an employee by 1000 where name ="Jack".
+
+A. use employee;
+   db.emp.update({"name": "Jack"}, {$inc: {"salary": 1000}});
+B. create employee;
+   db.emp.update({"name": "Jack"}, {$inc: {"salary": 1000}});
+C. use employee;
+   db.emp.update({"name": "Jack"}, {"salary": 1000});
+D. use employee;
+   db.emp.update(("name": "Jack"), ($inc: ("salary": 1000)));
+
+Answer: A
+
+
+#P2
+##EASY
+###BC
+11. Which method is used to replace the existing document with the document passed in it?
+
+A. insert()
+B. save()
+C. update()
+D. None of the above
+
+Answer: B
+
+
+#P1
+##MEDIUM
+###BC
+12. Which of the following query will perform update operation if document is present in the collection and if not, then it performs insert operation. 
+
+A. db.collection_name.update({name:"Henry"}, {$set: {dept: "HR"}},{upsert:false});
+B. db.collection_name.update({name:"Henry"}, {$set: {dept: "HR"}});
+C. Both A and B
+D. db.collection_name.update({name:"Henry"}, {$set: {dept: "HR"}},{upsert:true});
+
+Answer: D 
+
+
+#P1
+##EASY
+###BC
+13. Which method is used to update the existing document values in MongoDB without creating a new document?
+
+A. insert()
+B. save()
+C. updation()
+D. update()
+
+Answer: D
+
+
+#P1
+##EASY
+###BC
+14. Suppose you want to add an address field to all the documents of a collection named as "emp". Which of the following query you will write for the same perpose. 
+
+A. db.emp.update({}, 
+  {$set: 
+  {address: 1}}, 
+  {multi: true});
+
+B. db.emp.update({}, 
+  {$set: 
+  {address: 1}}, 
+  {multi: false});
+
+C. db.emp.update({}, 
+  {$set: 
+  {address: 0}}, 
+  {multi: true});
+
+D. db.emp.update({}, 
+  {$set: 
+  {address: 0}}, 
+  {multi: False});
+
+
+Answer: A
+
+
+#P1
+##EASY
+###BC
+15. Which query you will write to delete one "age" field from all the documents of "emp" collection.
+
+A. db.emp.update({}, 
+  {$set: 
+  {"age": 1}}, 
+  {multi: true});
+B. db.emp.update({}, 
+  {$unset: 
+  {"age": 1}}, 
+  {multi: true});
+C. db.emp.update({}, 
+  {$unset: 
+  {"age": 1}});
+D. db.emp.update({}, 
+  {$unset: 
+  {"age": 0}}, 
+  {multi: true});
+
+Answer: B
+
+
+#P2
+##EASY
+###BC
+16. How do you fetch the employees, from “emp” collection, whose name starts with ‘A’.
+
+A. db.emp.find({name: ^A^});
+B. db.emp.find({name: /A/});
+C. db.emp.find({name: A/});
+D. db.emp.find({name: A});
+
+Answer: B
+
+
+#P1
+##EASY
+###BC
+17. Which command in MongoDB returns the pre-modified document after updating the fields of that document?
+
+A. update()
+B. save()
+C. findAndModify()
+D. updateAndModify()
+
+Answer: C 
+
+
+#P1
+##EASY
+###BC
+18. Which query can be used to get the top 5 employees based on "salary" field from "emp" collection?
+
+A. db.emp.find({})
+  .sort({"salary":-1})
+  .limit(5)
+
+B. db.emp.find({})
+  .sort({"salary":1})
+  .limit(5)
+
+C. db.find({})
+  .sort({"salary":-1})
+  .limit(5)
+
+D. db.emp.find({})
+  .sort({"salary":-1})
+  .count(5)
+
+Answer: A
+
+
+#P1
+##EASY
+###BC
+19. Which of the below option will give the records of employee whose “age” is greater than 25 and “experience” greater or equal to 3 years.
+
+
+A. db.collection_name.find({ 
+  $and: [
+  {"age": {$gt: 25}}, 
+  {"experience": {$gt: 3}}]
+  });
+
+B. db.collection_name.find({ 
+  $and: [
+  {"age": {$gte: 25}}, 
+  {"experience": {$gte: 3}}]
+  });
+
+C. db.collection_name.find({ 
+  $and: [
+  {"age": {$gte: 25}}, 
+  {"experience": {$gt: 3}}]
+  });
+
+D. db.collection_name.find({ 
+  $and: [
+  {"age": {$gt: 25}}, 
+  {"experience": {$gte: 3}}]
+  });
+
+
+Answer: D
+
+
+#P1
+##EASY
+###BC
+20. Which command in MongoDB removes everything inside the document and set the entries of the given replacement document. 
+
+A. remove()
+B. findOneAndUpdate()
+C. findOneAndReplace()
+D. updateOne() 
+
+Answer: C 
+Explanation: findOneAndReplace() will not only update the fields of the document that are passed in the query but also replaces or deletes the fields of the documents that are not passed to it in query.
+
+
+#P1
+##EASY
+###BC
+21. Imagine you are working on “Company” database having “Dept” as collection and inside your collection there are millions of documents and your boss is asking for some data from it, then which option you will choose that increases the query performance and fast retrieval of data. 
+
+A. We can create and use the indexes on the fields that are frequently being a part of query.
+B. While doing the find(), we can use projection to select only those fields that are required in the result.
+C. We can use the limit() method to limit the data that we want in our result.
+D. All of the above 
+
+Answer: D
+
+
+#P1
+##EASY
+###TF
+22. In MongoDB we can create an index on some array fields. 
+
+A. True
+B. False
+
+Answer: A
+
+
+#P1
+##EASY
+###BC
+23. Which of the following is the write query for creating index in an array field "address"?
+
+A. db.collection_name.createIndex({“address” : 1})
+B. db.createIndex({“address” : 1})
+C. Both A and B
+D. None of the above
+
+Answer: A
+
+
+#P1
+##EASY
+###BC
+24. What sort of practice you will take as a developer to increase the availability of data in MongoDB when there is a routine maintenance check or system failure? 
+
+A. We can distribute the data into different systems , so that if one system fails, we can get the data from other systems.
+B. We can also distribute the data into multiple servers of one system, so that we can get the easily use the other server in case of downtime of one server.
+C. Both A and B
+D. None of the above 
+
+Answer: C
+
+
+#P1
+##EASY
+###BC
+25. What query do you write to get employee details in “emp” collection where “job_role” matches “Technical Specialist” and “emp_age” is between 22 and 28?
+
+A. db.emp.find({
+    $or: [
+    {"job_role":"Technical Specialist"}, 
+    {"emp_age": {$gte: 22 , $lte: 28}}
+    ]
+    });
+
+B. db.emp.find({
+    $and: [
+    {"job_role":"Technical Specialist"}, 
+    {"emp_age": {$gte: 22 , $lte: 28}}
+    ]
+    });
+
+C. db.emp.find({
+    $or: [
+    {"job_role":"Technical Specialist"}, 
+    {"emp_age": {$gt: 22 , $lt: 28}}
+    ]
+    });
+
+D. db.emp.find({
+    $and: [
+    {"job_role":"Technical Specialist"}, 
+    {"emp_age": {$gt: 22 , $lt: 28}}
+    ]
+    });
+
+Answer: B
+ 
+
+
+#P1
+##MEDIUM
+###BC
+26. Suppose you are having this collection: 
+
+{ "department" : "product", "type" : "A" }  
+{ "department " : "training", "type" : "A" }  
+{ “department " : "product", "type" : "B" }  
+{ "department " : "finance", "type" : "C" }   
+
+Which query you will write that will produce the output as:
+
+{ "department " : "training", "type" : "A" }  
+{ “department " : "product", "type" : "B" }
+{ "department " : "finance", "type" : "C" }
+
+
+A. db.collection_name.find({
+    "$or": [
+    {"department": "product"},
+    {"type": {"$ne": "A"}}
+    ]
+    })
+
+B. db.collection_name.find({
+    "$or": [
+    {"department": {"$ne": "product"}},
+    {"type": "A"}
+    ]
+    })
+
+C. db.collection_name.find({
+    "$and": [
+    {"department": {"$ne": "product"}},
+    {"type": {"$ne": "A"}}
+    ]
+    })
+
+D. db.collection_name.find({
+    "$or": [
+    {"department": {"$ne": "product"}},
+    {"type": {"$ne": "A"}}
+    ]
+    })
+
+
+Answer: D
+ 
+
+
+#P1
+##MEDIUM
+###BC
+27. Which query will fetch only “name” and “age” field from the collection “emp”, having the “DOB” between 01/03/1990 to 31/12/1999 and “salary” greater than “50k”. 
+
+
+A. db.emp.find({
+    "$and: [
+    {"DOB":{$gte: ISODate("1990-03-01"), $lte: ISODate("1999-12-31")}},
+    {"salary":{$gt: 50000}}
+    ]},
+    {_id:0, name:1, age: 1}
+    );
+
+B. db.emp.find({
+    "$or: [
+    {"DOB":{$gte: ISODate("1990-03-01"), $lte: ISODate("1999-12-31")}},
+    {"salary":{$gt: 50000}}
+    ]},
+    {_id:0, name:1, age: 1}
+    );
+
+C. db.emp.find({
+    "$nor: [
+    {"DOB":{$gte: ISODate("1990-03-01"), $lte: ISODate("1999-12-31")}},
+    {"salary":{$gt: 50000}}
+    ]},
+    {_id:0, name:1, age: 1}
+    );
+
+D. db.emp.find({
+    "$or: [
+    {"DOB":{$gte: ISODate("1990-03-01"), $lte: ISODate("1999-12-31")}},
+    {"salary":{$gt: 50000}}
+    ]},
+    {_id:1, name:0, age: 0}
+    );
+
+Answer: A
+
+
+#P1
+##MEDIUM
+###BC
+28. Which query will give the sorted result based on “dob” field that satisfies the following condition: i) Where “name” starts with “s” alphabet and “salary” in between 40k to 70k ii) Where “department” not equal to “product”.
+
+
+A. db.collection_name.find({
+    $and: [
+    {"name": /s/},
+    {"salary": { $gte: 40000, $lte: 70000}},
+    {"department": { $ne: "product"}}
+    ]})
+    .sort({"dob": 1}); 
+
+B. db.collection_name.find({
+    $or: [
+    {"name": /s/},
+    {"salary": { $gt: 40000, $lt: 70000}},
+    {"department": { $ne: "product"}}
+    ]})
+    .sort({"dob": 1}); 
+
+C. db.collection_name.find({
+    $nor: [
+    {"name": s^},
+    {"salary": { $gte: 40000, $lte: 70000}},
+    {"department": { $ne: "product"}}
+    ]})
+    .sort({"dob": 1}); 
+
+D. db.collection_name.find({
+    $and: [
+    {"name": /s/},
+    {"salary": { $gt: 40000, $lt: 70000}},
+    {"department": "product"}
+    ]})
+    .sort({"dob": -1}); 
+
+Answer: A
+
+
+#P2
+##EASY
+###BC
+29. Jack is trying to fetch all the records, from a collection called “people”, without including the _id field. When he wrote the query as db.people.find({} { _id: 0}), he was getting syntax error message stating “unexpected { ”. What he needs to change in his query to get the desired output.
+
+A. Remove curly braces '{' from the Query
+B. Add comma ',' after empty {} inside find() method. 
+C. Remove _id field from the query
+D. None of the above
+
+Answer: B
+
+
+#P1
+##EASY
+###BC
+30. What query you will write that will fetch the top 20 records from “student” collection of those students who are from 8th, 9th and 10th “class” having “marks” greater or equal to 70 in science and math subject. 
+
+A. db.student.find({
+      $or: [
+      {"class": {$in: ["8th", "9th", "10th"]}},
+      {"marks.science": {$gt: 70}},
+      {"marks.math": {$gt: 70}}
+      ]})
+      .limit(20);
+
+B. db.student.find({
+      $and: [
+      {"class": ["8th", "9th", "10th"]},
+      {"marks.science": {$gte: 70}},
+      {"marks.math": {$gte: 70}}
+      ]})
+      .limit(20);
+
+C. db.student.find({
+      $and: [
+      {"class": {$in: ["8th", "9th", "10th"]}},
+      {"marks.science": {$gte: 70}},
+      {"marks.math": {$gte: 70}}
+      ]})
+      .limit(20);
+
+D. db.student.find({
+      $or: [
+      {"class": {$in: ["8th", "9th", "10th"]}},
+      {"marks.science": {$gte: 70}},
+      {"marks.math": {$gte: 70}}
+      ]})
+      .limit(20);
+
+
+Answer: C 
+
+
+#P1
+##EASY
+###BC
+31.  A developer doesn’t want to see the first 10 documents of “dept” collection and doesn’t have the permission to delete any document from the collection as well, so what query he must write to see the rest of the documents after 10 documents without deleting any document?
+
+
+A. db.find({}).skip(10);
+B. db.dept.find({}).skip(10);
+C. db.dept.find({}).limit(10);
+D. db.dept.find({}).limit(10).skip(10);
+
+Answer: B
+
+
+#P1
+##EASY
+###BC
+32. Which query will get the number of employees whose “address” is “New York” having “age” less than equal to 40 and earning salary greater than 50K.
+
+A. db.collection_name.find({
+      "$or: [
+      {"address": "New York"},
+      {"age": {$lt: 40}},
+      {"salary": {$gt: 50000}}
+      ]});
+
+B. db.collection_name.find({
+      "$nor: [
+      {"address": "New York"},
+      {"age": {$lt: 40}},
+      {"salary": {$gt: 50000}}
+      ]})
+      .count();
+
+C. db.collection_name.find({
+      "$or: [
+      {"address": "New York"},
+      {"age": {$lt: 40}},
+      {"salary": {$gt: 50000}}
+      ]})
+      .count();
+
+D. db.collection_name.find({
+      "$and: [
+      {"address": "New York"},
+      {"age": {$lt: 40}},
+      {"salary": {$gt: 50000}}
+      ]})
+      .count();
+
+Answer: D
+
+
+#P2
+##EASY
+###BC
+33. As 1 and -1 are used to represent ascending and descending order respectively in sort() method, then what will happen if we use -2 or 2 instead in sort().
+
+A. It will sort the data in ascending and descending order respectively
+B. It will throw an error 
+C. It will sort the data in ascending order but not in descending order
+D. None of the above
+
+Answer: B
+
+
+#P2
+##EASY
+###TF
+34. 1 and 0 are used to represent ascending and descending order respectively in sort() method.
+
+A. True
+B. False
+
+Answer: B
+
+
+#P2
+##EASY
+###BC
+35. What is wrong with the following query “db.collection.find({}, {_id: 0, name: 1, age: 0, score: 0, subject: 0, address: 1})”?
+
+A. In the projection query, we cannot use combination of 0 and 1.
+B. Nothing is wrong, it will generate the desired result
+C. It should be either all 1 or all 0, except _id field value.
+D. Both A and C
+
+Answer: D
+
+
+#P1
+##EASY
+###BC
+36. Which of the following query will check whether the field is present or not in a collection in MongoDB?
+
+A. db.collection.find({
+          "Field_value": {
+           $ne: null}
+           });
+
+B. db.collection.find({
+          "Field_value": null}
+           });
+
+C. db.collection.exists({
+          "Field_value"
+           });
+
+D. All of the above
+
+Answer: A 
+
+
+#P1
+##MEDIUM
+###BC
+37. A boss has given a task to you to give the “name” and “department” of those employees who do not work on Monday and Tuesday of every “week” and having “experience” less than 5. Which of the following query you will write for the same purpose.
+
+A. db.collection_name.find({
+       $and : [
+       {"week": {$ne : [ "Monday", "Tuesday"]}},
+       {"experience" : {%lt : 5}}
+       ]},
+       {"_id": 0, "name" : 1, "department" : 1}
+       );
+
+B. db.collection_name.find({
+       $or : [
+       {"week": {$nin : [ "Monday", "Tuesday"]}},
+       {"experience" : {%lt : 5}}
+       ]},
+       {"_id": 0, "name" : 1, "department" : 1}
+       );
+
+C. db.collection_name.find({
+       $and : [
+       {"week": {$nin : [ "Monday", "Tuesday"]}},
+       {"experience" : {%lt : 5}}
+       ]},
+       {"_id": 0, "name" : 1, "department" : 1}
+       );
+
+D. db.collection_name.find({
+       $nor : [
+       {"week": {$ne : [ "Monday", "Tuesday"]}},
+       {"experience" : {%lt : 5}}
+       ]},
+       {"_id": 0, "name" : 1, "department" : 1}
+       );
+
+
+Answer: C
+
+
+#P1
+##EASY
+###MA
+38. which of the following are the benefits document oriented database gives over other?
+
+A. All the data are stored in structured format.
+B. They are schema less. They doesn't have any structure.
+C. No need to have same number of fields in all the documents.
+D. All the documents can be independent of one another as they don't have foreign keys concept.
+
+Answer: B, C and D
+
+
+#P1
+##EASY
+###TF
+39. State True or False: "MongoDB writes the data to the disk immediately".
+
+A. True
+B. False
+
+Answer: B
+Explanation: MongoDB doesn't write the data to the disk immediately. Firstly, it pushes the write to the journals and from journal it pushes the data to the disk. Therefore it is not an immediate action.
+
+
+#P1
+##EASY
+###MA
+40. Which of the following are the disadvantages of creating index in MongoDB?
+
+A. Each index we create will takes around 8kb of sapce in memory.
+B. Updates on the documents associated with indexes hinder the write performance.
+C. Increases the query performance.
+D. None of the above
+
+Answer: A and B
+
+
+#P1
+##EASY
+###BC
+41. A primary key also known as object-id in MongoDB contains what?
+
+A. An object-id in MongoDB consists of 12-byte BSON type
+B. An object-id in MongoDB consists of 12-byte JSON type
+C. An object-id in MongoDB consists of 10-byte BSON type
+D. An object-id in MongoDB consists of 10-byte JSON type
+
+Answer: A
+
+
+#P1
+##EASY
+###MA
+42. What a 12-byte object-id consists in MongoDB?
+
+A. 4 byte represents the time in seconds, when it is created.
+B. 2 byte increment represents the increment counter generated randomly.
+C. 5 byte represents the Unique-id of the system and that is unique to the machine and process.
+D. 3 byte increment represents the increment counter generated randomly.
+
+Answer: A, C and D 
+
+
+#P1
+##EASY
+###TF
+43. Suppose I have an “address” field in “student” collection and if I removes it from the database, it will also remove it from the disk too
+
+A. True
+B. False
+
+Answer: A
+Explanation: once we remove any field or fields from the document or a whole document, it will also be removed from the disk too.
+
+
+#P2
+##EASY
+###TF
+44. MongoDB creates an index by default, when we create any new collection 
+
+A. True
+B. False
+
+Answer: A 
+Explanation: MongoDB creates an Object-Id that is _id, which also works as an Index by default.
+
+
+#P1
+##EASY
+###BC
+45. Which of the following are the steps to connect MongoDB with Python?
+
+A. To connect MongoDB with Python application we first have to install and import the pymongo Module.
+B. Then from pymongo import the MongoClient, that will help in putting the connection string.
+C. Then we have to pass the hostname and port number as an parameter to MongoClient instance and our connect will be ready.
+D. All of the Above
+
+Answer: D
+
+
+#P1
+##EASY
+###BC
+46. Which of the following query will insert more than one document at a time without using default insert() method?
+
+A. db.collection.updateMany([{name: "Jack", dept: "training"},
+                          {name: "Henry", dept: "finance"},
+                          {name: "Tom", dept: "product"}]);
+
+B. db.collection.insertMany([{name: "Jack", dept: "training"},
+                          {name: "Henry", dept: "finance"},
+                          {name: "Tom", dept: "product"}]);
+
+C. db.collection.insertion([{name: "Jack", dept: "training"},
+                          {name: "Henry", dept: "finance"},
+                          {name: "Tom", dept: "product"}]);
+
+D. db.collection.insertOne([{name: "Jack", dept: "training"},
+                          {name: "Henry", dept: "finance"},
+                          {name: "Tom", dept: "product"}]);
+
+Answer: B 
+
+
+#P1
+##EASY
+###MA
+47. Which of the following option will delete only first document having "name" equal to "Tom"? 
+
+A. db.collection_name.remove({"name" : "Tom"},1);
+B. db.collection_name.remove({"name" : "Tom"});
+C. db.collection_name.deleteMany({"name" : "Tom"},1);
+D. db.collection_name.deleteOne({"name" : "Tom"});
+
+Answer: A and D 
+
+
+#P2
+##EASY
+###BC
+48. What a deleteMany() method returns in MongoDB?
+
+A. It returns a WriteResult object.
+B. It returns a BulkWriteResult object.
+C. returns a document conatining acknowledged value and deleted count.
+D. None of the Above
+
+Answer: C
+
+
+#P1
+##EASY
+###MA
+49. What will be the use of pretty() in MongoDB?
+
+A. When using pretty() method with find(), it displays the output in formatted way.
+B. It displays the output in easy to read format.
+C. It highlights the output result.
+D. All of the Above
+
+Answer: A and B
+
+
+#P1
+##EASY
+###TF
+50. State True and False: "Horizontal scaling refers to adding additional resouces in a single system to increase it performace such as ram, cpu, etc."
+
+A. True
+B. False
+
+Answer: B
+
+
+#P1
+##EASY
+###TF
+51. Horizontal scaling refers to adding multiple servers to a single server and partitioning the dataset over those server.
+
+A. True
+B. False
+
+Answer: A
+
+
+#P1
+##EASY
+###BC
+52. Which method can be used to see the result in a formatted way In MongoDB?
+
+A. beautiful()
+B. format()
+C. pretty()
+D. Mongo()
+
+Answer: C
+
+
+#P1
+##EASY
+###TF
+53. Sharding is the process of adding data across multiple servers so that if one server is down we can still utilize the data from other servers. 
+
+A. True
+B. False
+
+Answer: True
+
+
+#P1
+##EASY
+###MA
+54. Which of the following is the work of primary replica set in MongoDB?
+
+A. The primary replica set will always be one in the count
+B. The primary replica set is a master replica
+C. The primary replica set receives the write operations.
+D. The primary replica will replicate the data from secondary replica through log files.
+
+Answer: A, B and C
+
+
+#P1
+##EASY
+###BC
+55. Which of the following is not a work of secondary replica set in MongoDB?
+
+A. Secondary replica sets are used for read and write operations.
+B. Secondary replica sets can be one or more than one.
+C. Secondary replica sets provides the redundancy of data 
+D. The secondary replicas will replicate the data from primary through log files.
+
+Answer: A
+
+
+#P2
+##EASY
+###TF
+56. MongoDB is a schemaless document oriented database
+
+A. True
+B. False
+
+Answer: A
+
+
+#P1
+##EASY
+###BC
+57.  Where MongoDB stores it data?
+
+A. It stores the data in RAM only
+B. It stores the data in Disk only
+C. It stores the data in RAM first and then in Disk
+D. It stores the data in Disk first and then in RAM.
+
+Answer: C
+Explanation: MongoDB stores it data to RAM first but later on all the RAM data has been stored into Disk, so that at the time of failure the MongoDB will gets it data from disk without any loss.
+
+
+#P1
+##EASY
+###BC
+58. Which of the following is the limitation of MongoDB?
+
+A. There are no joins that we can use.
+B. Document size is limited to only 16mb.
+C. One MongoDB collection cannot have more than 64 indexes
+D. All of the Above
+
+Answer: D
+
+
+#P2
+##EASY
+###TF
+59. MongoDB stores the data in JSON format
+
+A. True
+B. False
+
+Answer: B
+Explanation: JSON is a text based format which stores the data in key-value pairs, on the other hand BSON is a binary format of JSON that provides efficient space in memory to store large data as well as it optimizes the speed to fetch the data from Memory.
+Because of this only it becomes the ideal choice to store the data in MongoDB.
+
+
+#P2
+##EASY
+###BC
+60. Which is not a type of index in MongoDB?
+
+A. Multi-Key Index
+B. Compound Index
+C. Single Field Index
+D. Double Field Index
+
+Answer: D
+
+
+#P1
+##EASY
+###BC
+61. Which MongoDB Command can be used to see the number of connected devices?
+
+A. db.connections()
+B. db.serverStatus()
+C. db.Admin()
+D. None of the Above
+
+Answer: B
+
+
+#P2
+##EASY
+###BC
+62. At a time how many connections a MongoDB can handle by-default?
+
+A. 32K
+B. 64K
+C. 16k
+D. 128k
+
+Answer: B
+Explanation: By default MongoDB can handle 64k connections. But it can be changed by going into the configuration file of MongoDB.
+
+
+#P1
+##EASY
+###BC
+63. Which of the following command is not a part of CRUD operation in MongoDB?
+
+A. insert()
+B. find()
+C. pretty()
+D. update()
+
+Answer: C
+Explanation: pretty() method is used for formatting the result of find() query.
+
+
+#P1
+##EASY
+###BC
+64. Which of the following query will help in finding the count of number of resturants that are present in texas, florida and alaska state.
+
+A. db.resturants.find(
+        {"state": { 
+        $in : [ "texas", "florida", "alaska"]}
+        }).count();
+
+B. db.resturants.find(
+        {"state": { 
+        $in : [ "texas", "florida", "alaska"]}
+        });
+
+C. db.resturants.find(
+        {"state": { 
+        $nin : [ "texas", "florida", "alaska"]}
+        }).count();
+
+D. db.resturants.find(
+        {"state": { 
+        $ne : [ "texas", "florida", "alaska"]}
+        }).count();
+
+Answer: A
+
+
+#P1
+##EASY
+###BC
+65. Which query will fetch the name and experience of those employees who are not working in night shift from "revature" collection?
+
+A. db.revature.find({"shift": {
+                 $ne: "night"}},
+                 {_id:0, name:1, experience: 1});
+
+B. db.revature.find({"shift": {
+                 $ne: "night"}},
+                 {_id:1, name:0, experience: 0});
+
+C. db.revature.find({"shift": {
+                 $in: "night"}},
+                 {_id:0, name:1, experience: 1});
+
+D. db.revature.find({"shift": {
+                 $eq: "night"}},
+                 {_id:0, name:1, experience: 1}); 
+
+Answer: A
+
+
+#P1
+##EASY
+###BC
+66. Which of the following query in MongoDB will tell whether all the "address" contain "NY" or not in "emp" collection?
+
+
+A. db.emp.find({
+             "NY":
+             { $exists : true}
+             });
+
+B. db.emp.find({
+             "address.NY": true}
+             });
+
+C. db.emp.find({
+             "address.NY":
+             { $exists : true}
+             });
+
+D. db.emp.find({
+             "address.NY":
+             { $eq : true}
+             });
+
+Answer: C
+
+
+#P1
+##EASY
+###BC
+67. Your boss is asking you to give the emp_id, name and dept of those employees who works from everywhere except Florida and NY. What query you will write to complete that task?
+
+A. db.collection_name.find({
+                   $or : [
+                   {"state" : {$ne : "Florida"}},
+                   {"state" : {$ne : "NY"}}
+                   ]},
+                   {"empid" : 1, "name" : 1, "dept" : 1}
+                   );
+
+B. db.collection_name.find({
+                   $and : [
+                   {"state" : {$ne : "Florida"}},
+                   {"state" : {$ne : "NY"}}
+                   ]},
+                   {"empid" : 0, "name" : 0, "dept" : 0}
+                   );
+
+C. db.collection_name.find({
+                   $and : [
+                   {"state" : {$ne : "Florida"}},
+                   {"state" : {$ne : "NY"}}
+                   ]},
+                   {"empid" : 1, "name" : 1, "dept" : 1}
+                   );
+
+D. db.collection_name.find({
+                   $nor : [
+                   {"state" : {$eq : "Florida"}},
+                   {"state" : {$eq : "NY"}}
+                   ]},
+                   {"empid" : 1, "name" : 0, "dept" : 1}
+                   );
+
+Answer: C 
+
+
+#P1
+##EASY
+###BC
+68. Suppose you are having a collection as "company" and you want to fetch the deatils of those employees whose are from "training" department based on their experience in the industry. Which of the following query you will write to get the desired output?
+
+A. db.company.find({
+               "department" : "training"}
+               )
+               .sort("experience" : 0);
+
+B. db.company.find({
+               "department" : "training"}
+               )
+               .sort("experience" : -1);
+
+C. db.company.find({
+               "department" : "training"}
+               )
+               .sort("experience" : 1);
+
+D. db.company.find({
+               "department" : "training"}
+               )
+               .sortby("experience" : -1);
+
+Answer: B
+
+
+#P1
+##EASY
+###BC
+69. Which of the following query will give details of all the employees based on their "DOJ"(data of joining) in ascending order and "salary" in descending order?
+
+A. db.collection_name.find()
+                   .sort(
+                   {"DOJ" : 1,"salary" : 1}
+                   );
+
+B. db.collection_name.find()
+                   .sort(
+                   {"DOJ" : -1,"salary" : -1}
+                   );
+
+C. db.collection_name.find()
+                   .sort(
+                   {"DOJ" : -1,"salary" : 1}
+                   );
+
+D. db.collection_name.find()
+                   .sort(
+                   {"DOJ" : 1,"salary" : -1}
+                   );
+
+Answer: D
+
+
+#P1
+##MEDIUM
+###BC
+70. Imagine you are a Food Investigator Specialist and you are checking the database of a company having collection as "food" that is used by the company to store the food items details. Which of the following query you will use to fetch the details of those food "items" that having a "grade" as "A+" and having "MD" (manufacturing date) on those items as "2022-08-25".
+
+A. db.food.find(
+            { "grade" : "A+" ,
+             "MD" : ISODate("2022-08-25")
+            });
+
+B. db.food.find(
+            { "items.grade" : "A+" ,
+             "MD" : ISODate("2022-08-25")
+            });
+
+C. db.find(
+            { "items.grade" : "A+" ,
+             "MD" : "2022-08-25"
+            });
+
+D. db.food.find(
+            { "items" : "A+" ,
+             "MD" : "2022-08-25"
+            });
+
+Answer: B 
+
+
+#P1
+##EASY
+###BC
+71. Which of the following query will fetch the "name" and "address" of those restaurants who are using "palm oil" as a "food_oil" in making of their dishes.
+
+A. db.resturants.find(
+                  { "food_oil" == "palm oil"},
+                  {"_id": 0, "name" : 1, "address" : 1}
+                  );
+
+B. db.resturants.find(
+                  { "food_oil" = "palm oil"},
+                  {"_id": 0, "name" : 1, "address" : 1}
+                  );
+
+C. db.resturants.find(
+                  { "food_oil" : "palm oil"},
+                  {"_id": 0, "name" : 1, "address" : 1}
+                  );
+
+D. db.resturants.find(
+                  { "food_oil" : "palm oil"},
+                  {"_id": 0, "name" : 0, "address" : 0}
+                  );
+
+Answer: C
+
+
+
+#P1
+##EASY
+###TF
+72. MongoDB requires a lot of RAM for storing documents and doing opertaions on those documents.
+
+A. True
+B. False
+
+Answer: B
+Explanation: MongoDB doesn't requires lot of RAM to store those documents and doing operations on those documents because it automatically allocates and deallocates the RAM based on the operations requirements.
+
+
+#P1
+##EASY
+###BC
+73. What is a covered query in MongoDB?
+
+A. It is the one whose fields in the query are the part of indexes.
+B. A query which involves array fields
+C. A query which doesn't involves _id field
+D. None of the above
+
+Answer: A
+
+
+#P1
+##EASY
+###BC
+74. If an index does not fit into the RAM then what will happen in MongoDB at that point?
+
+A. MongoDB then will make some space in the RAM memory for indexes
+B. MongoDB then deletes the data resides inside the RAM
+C. MongoDB then deletes the data from both RAM and Disk
+D. MongoDB then takes the data from the Disk.
+
+Answer: D
+Explanation: If RAM has no space to fit the indexes in it, then MongoDB takes the data from the disk which is relatively slow compared to taking data from the RAM.
+
+
+#P2
+##EASY
+###BC
+75. How you will check how many indexes your teammate created on the "school" collection?
+
+A. Using indexes()
+B. Using getIndexes() 
+C. Using indexesDetails()
+D. Using countIndexes()
+
+Answer: B
+Explanation: By using getIndexes() method, we can check the list of indexes in MongoDB.
+
+
+#P1
+##EASY
+###TF
+76. We can achieve the concepts of locking and transcations by putting one document inside another document in MongoDB. By this way, MongoDB supports atomic operations.
+
+A. True
+B. False
+
+Answer: A
+
+
+#P2
+##EASY
+###TF
+77. MongoDB reads and writes data from both primary and secondary replica set.
+
+A. True
+B. False
+
+Answer: B
+Explanation:  In MongoDB, only primary replica set has the right to do the write operations but not secondary replica set.
+
+
+#P1
+##EASY
+###BC
+78. When can we consider embedding one document inside another document in MongoDB?
+
+A. When we need to attain primary-forign key relationship.
+B. When we want to do atmoic transaction opertaions on the document.
+C. When we need to attain one-to-many relationship between fields.
+D. All of the above
+
+Answer: D
+
+
+#P1
+##EASY
+###BC
+79. Why the newer versions of MongoDB are not preferred for 32-bit systems?
+
+A. Because Ram is fixed to 500mb only in 32-bit systems.
+B. Because we cannot create any type of index in 32-bit system.
+C. Because total storage space in 32-bit systems are fixed to 2 gigabytes only.
+D. Both A and B
+
+Answer: C 
+
+
+#P1
+##EASY
+###BC
+80. While working on a system how will you check whether you are working on the master server?
+
+A. Using db.isMaster()
+B. Using db.isAdmin()
+C. Using db.isSysAdmin()
+D. Using db.isSystemAdmin()
+
+Answer: A
+Explanation: db.isMaster() returns a document containing the status of a replica set and also tells whether it is a part of primary replica set or secondary replica set. 
+
+
+#P1
+##EASY
+###BC
+81. Which of the following query will display the number of employees from "emp" collection who have achieved "H1" reward in january and feburary month.
+
+A. db.emp.count({
+             "award" : "H1" ,
+             "month" : {$in : ["january", "feburary"]}
+             });
+
+B. db.emp.find({
+             "award" : "H1" ,
+             "month" : ["january", "feburary"]
+             })
+             .count();
+
+C. db.emp.find({
+             "award" : "H1" ,
+             "month" : {$nin : ["january", "feburary"]}
+             })
+             .count();
+
+D. db.emp.find({
+             "award" : "H1" ,
+             "month" : {$in : ["january", "feburary"]}
+             })
+             .count();
+
+Answer: D 
+
+
+#P1
+##MEDIUM
+###BC
+82. As a headmaster of a school and you want to check the details of those students who got marks less than 33 in chemistry and physics subjects and are from 11th and 12th class. Your school is maintaining one school database having students as a collection in MongoDB. Which of the following query you will choose that gives the desired output?
+
+A. db.students.find({
+                 $or : [
+                 {"marks" : {$lt : 33}},
+                 {"subjects" : {$in : ["chemistry", "physics"]}},
+                 {"class" : {$in : [ "11th" , "12th"]}}
+                 ]});
+
+B. db.students.find({
+                 $and : [
+                 {"marks" : {$lt : 33}},
+                 {"subjects" : {$in : ["chemistry", "physics"]}},
+                 {"class" : {$in : [ "11th" , "12th"]}}
+                 ]});
+
+C. db.students.find({
+                 $xor : [
+                 {"marks" : {$lt : 33}},
+                 {"subjects" : {$in : ["chemistry", "physics"]}},
+                 {"class" : {$in : [ "11th" , "12th"]}}
+                 ]});
+
+D. db.students.find({
+                 $nor : [
+                 {"marks" : {$lt : 33}},
+                 {"subjects" : {$in : ["chemistry", "physics"]}},
+                 {"class" : {$in : [ "11th" , "12th"]}}
+                 ]});
+
+Answer: B
+
+
+#P1
+##EASY
+###BC
+83. As a flying investigating officer you are managing a Database in MongoDB about the flights. What query you will use out of the options given below to get the details of those flights who are flying over texas, florida and alaska states based on their "departure" time in ascending order? 
+
+A. db.flights.find({
+                "states" : { $in : [ "texax", "florida", "alaska"]}
+                })
+                .sort( "departure" : 1);
+
+B. db.flights.find({
+                "states" : { $nin : [ "texax", "florida", "alaska"]}
+                })
+                .sort( "departure" : 1);
+
+C. db.flights.find({
+                "states" : { $eq : [ "texax", "florida", "alaska"]}
+                })
+                .sort( "departure" : 1);
+
+D. db.flights.find({
+                "states" : { $in : [ "texax", "florida", "alaska"]}
+                })
+                .sort( "departure" : -1);
+
+Answer: A 
+
+
+#P1
+##Medium
+###BC
+84. Given the following code:
+
+    db.orders.aggregate( [
+       { $group: { _id: "$state", totalSalesAmt: { $sum: "$amt" } } },
+       { $match: { totalSalesAmt: { $gte: 20000 } } }
+    ] )
+
+What will be the result of the above query?
+
+
+A. It will return all documents for all States and that have sales amount greater than 20000.
+B. There is an error in the statement and it will not work.
+C.It will return data grouped by those States that have total sales amount greater than 20000.
+D. None of the above
+
+Answer: C 
+
+
+#P1
+##EASY
+###MA
+85. Which of the following can be used to get an object to a collection named "employees"?
+
+A. obj = db.list_collections["employees"]
+B. obj = db["employees"]
+C. obj = db.employees
+D. obj = db.collections["employees"]
+
+Answer: B and C
+
+
+#P2
+##EASY
+###MA
+86. Will this statement print the result in JSON format?
+  db.employee.find().foreach(printjson)
+
+A. It will give an error
+B. Yes, it will print the result in JSON format
+C. The function to be used is "forEach" with a capital "E".
+D. None of the above
+
+Answer: A and C
+
+
+#P1
+##EASY
+###BC
+87. Which of the following command is used to start the MongoDB daemon?
+
+A. mongodb
+B. mongo
+C. pymongo
+D. mongod
+
+Answer: D
+
+
+#P1
+##EASY
+###BC
+88. Which of the following command is used to connect to MongDB and start the shell?
+
+A. mongodb
+B. mongo
+C. pymongo
+D. mongod
+
+Answer: B
+
+
+#P1
+##EASY
+###MA
+89. How to list all the databases present in MongoDB?
+
+A. Using show databases
+B. Using list dbs 
+C. Using list databases
+D. Using show dbs
+
+Answer: A and D
+
+
+#P1
+##EASY
+###BC
+90. Which of the following command is used to create a collection in MongoDB?
+
+A. db.create("collection_name")
+B. db.createCollection("collection_name")
+C. db.createcollection("collection_name")
+D. db.collection.create("collection_name")
+
+Answer: B
+
+
+#P1
+##EASY
+###MA
+91. Which of the following command is used to list collections in MongoDB?
+
+A. db.getCollections()
+B. db.listCollections()
+C. db.collections.list()
+D. db.getCollectionNames()
+
+Answer:  B and D
+
+
+#P1
+##EASY
+###BC
+92. Which of the following command will update all records where city is equal to 'Dallas'?
+
+A. db.collection.update({ city: 'Dallas' }, {$set: { state: 'Texas'}})
+
+B. db.collection.Update({ city: 'Dallas' }, {$set: { state: 'Texas'}}, { multi: true })
+
+C. db.collection.update({ city: 'Dallas' }, {$set: { state: 'Texas'}}, { multi: true })
+
+D. db.collection.modify({ city: 'Dallas' }, {$set: { state: 'Texas'}})
+
+Answer: C
+
+
+#P1
+##EASY
+###BC
+93. Which of the following property to be used with the update function to insert a new document if it doesn't exist or update the document if it exists?
+
+A. { insertOrUpdate: true }
+B. { upsert: true }
+C. { update: true }
+D. { insert: true }
+
+Answer: B
+
+
+#P1
+##EASY
+###BC
+94. Which of the following property is to be used with the update function to update all the documents in a single run that satisfies the update condition?
+
+A. {multi: true}
+B. {insert: true}
+C. {upsert: true}
+D. None of the above.
+
+Answer: A 
+
+
+#P1
+##EASY
+###MA
+95. Which of the following libraries can be used to perform operations on MongoDB from Python?
+
+A. pymongodb
+B. pymongo
+C. mongoengine
+D. py-mongo
+
+Answer: B and C
+
+
+#P2
+##EASY
+###BC
+96. Which of these will give you an object of the MongoDB client?
+
+A. mongo()
+B. MongodbClient()
+C. mongoClient()
+D. MongoClient()
+
+Answer: D
+
+
+#P1
+##EASY
+###BC
+97. Which of the following MongoDB query is equivalent to the following SQL query?
+select * from employee;
+
+A. database.employee.find();
+B. db.find();
+C. employee.db.find();
+D. db.employee.find();
+
+Answer: D
+
+
+#P1
+##EASY
+###BC
+98. What is the equivalent query in MongoDB for the following SQL query?
+
+select * from book where city = "Houston" and author like "%john%";
+
+A. db.book.find({city: "Houston"},
+                {author: /john/ });
+
+B. db.book.find({city: "Houston"},
+                {author: {$like: /john/}});
+
+C. db.book.find({city: "Houston"},
+                {$like: {author: /john/}});
+
+D. None of the above.
+
+Answer: A
+
+
+#P1
+##EASY
+###TF
+99. State True or False: "There is no maximum size of a MongoDB document. It depends on the RAM."
+
+A. True
+B. False
+
+Answer: B
+Explanation: The maximum size of a MongoDB document is 16mb.
+
+
+#P2
+##EASY
+###BC
+100. Which of the following is not a command in MongoDB?
+
+A. mongodump
+B. mongodown
+C. mongostore
+D. None of the above
+
+Answer: B
+
+
+
+
+
+
+
+

@@ -1,0 +1,419 @@
+// Cloud Computing
+
+
+#P1
+##EASY
+###BC
+1. Who can be the consumer of cloud computing? 
+
+A. single user
+B. Group of users
+C. Company or organization
+D. All of the above
+
+Answer: D
+Explanation: Anyone can be a consumer for cloud computing, be it a single user or a group or an organisation. They just have to pay for the resouces and services that they are taking from cloud service provider.
+
+
+#P2
+##EASY
+###BC
+2. Which of the following is a stateless system?
+
+A. MySQL
+B. Cassandra
+C. MongoDB
+D. Cloud Computing
+
+Answer: D
+Explanation: MySQL, Cassandra and MongoDB are stateful applications.
+
+
+#P2
+##EASY
+###BC
+3. Which of the following cloud are managed by thrid-party service provider, which delivers their computing resources over the internet?
+
+A. Private Cloud
+B. Public Cloud
+C. Both A and B
+D. Hybrid Cloud
+
+Answer: B
+
+
+#P2
+##EASY
+###TF
+4. State True and False: "The Private cloud is offered by third-party providers over the internet for anyone."
+
+A. True
+B. False
+
+Answer: B
+Explanation: The Public cloud is offered by third-party providers over the internet for anyone, not private cloud
+
+
+#P2
+##EASY
+###BC
+5. Which one is not a type of cloud?
+
+A. Protected
+B. Private
+C. Public
+D. Hybrid
+
+Answer: A
+Explanation: There are only 3 types of cloud, private, public and hybrid.
+
+
+#P2
+##EASY
+###BC
+6. Which is not a part of Cloud Computing services?
+
+A. Infrastructure as a Service 
+B. Platform as a Service 
+C. Data as a Service
+D. Software as a Service 
+
+Answer: C
+Explanation: There is no "Data as a service" service that comes under Cloud Computing.
+
+
+#P1
+##EASY
+###BC
+7. At what cases Paas service cannot be used?
+
+A. For making applications
+B. For storing data
+C. For creating virtual machines 
+D. None of the Above
+
+Answer: C
+Explanation: For creating vitual machines Iaas can be used.
+
+
+#P2
+##EASY
+###BC
+8. Cisco Metacloud is an example of which cloud service?
+
+A. IaaS
+B. PaaS
+C. SaaS
+D. FaaS
+
+Answer: A
+
+
+#P2
+##EASY
+###TF
+9. Google App Engine is an example of Software as a service.
+
+A. True
+B. False
+
+Answer: B
+Explanation: It is an example of Platform as a service.
+
+
+#P1
+##EASY
+###BC
+10. Which Statement Doesn't holds True regarding IaaS?
+
+A. It is flexible cloud computing model
+B. It is Highly scalable
+C. Clients has complete control of their infrastructure
+D. Users are not responsible for any hardware or software updates.
+
+Answer: D
+Explanation: User can update hardware or software based on their needs.
+
+
+#P1
+##EASY
+###BC
+11. The ability to scale up and scale down in cloud computing is also refered as  
+
+A. Elasticity
+B. Flexibility
+C. Upgradation
+D. Parallel 
+
+Answer: A
+
+
+#P2
+##EASY
+###BC
+12. Which is not an example of PaaS cloud computing?
+
+A. Google App Engine
+B. Heroku
+C. AWS Elastic Beanstalk
+D. AWS EC2
+
+Answer: D
+Explanation: AWS EC2 is an example of Infrastructure as a service.
+
+#P1
+##EASY
+###TF
+13. State True or False: "SaaS model virtualized the hardware in the cloud."
+A. True
+B. False
+
+Answer: B
+
+
+#P1
+##EASY
+###BC
+14. Which technique is used for creating cloud computing?
+
+A. Insubordination
+B. Virtualization
+C. Cannibalization
+D. Transubstantion
+
+Answer: B
+
+
+#P1
+##EASY
+###BC
+15. Out of the given options which can be used to protect sensitive data from hackers?
+
+A. Encoding
+B. Encryption
+C. Firewalls
+D. All of the Above
+
+Answer: B
+Explanation: Firewalls can be used to protect from viruses and encoding can be used when transferring data over network. Only Encryption of your data will save it from hackers.
+
+
+#P1
+##EASY
+###TF
+16. MapReduce framework offered by google supports distributed computing on huge sets of data. 
+
+A. True
+B. False
+
+Answer: True
+
+
+#P1
+##EASY
+###BC
+17. Which cannot be managed by user in SaaS cloud computing?
+
+A. Applications
+B. Operating System
+C. Runtime Environment
+D. All of the above
+
+Answer: D
+Explanation: Everything is managed by cloud service provider in SaaS.
+
+
+#P1
+##EASY
+###BC
+18. When one should not go for cloud computing?
+
+A. When internet service is not stable in your location
+B. When you have huge amount of data
+C. When faster deployment is the need
+D. All of the above
+
+Answer: A
+
+
+#P2
+##EASY
+###BC
+19. Cloud Computing uses client-architecture as a backend.
+
+A. True
+B. False
+
+Answer: B
+Explanation: It uses cloud architecture as a backend.
+
+
+#P1
+##EASY
+###BC
+20. One organization is looking for a cloud service that will be totally dedicated for their business needs only. Which cloud can be best suited in this scenario?
+
+A. Hybrid
+B. Private
+C. Public
+D. Dedicated
+
+Answer: B
+
+
+#P1
+##EASY
+###BC
+21. Suppose A private organisation and government body is contributing together for same mission. What can be the best cloud that they can use for their work?
+
+A. Hybrid cloud
+B. Private cloud
+C. Public cloud
+D. Community cloud
+
+Answer: D
+Explanation: Community cloud provides the same environment for the users to connect from different locations.
+
+
+#P1
+##EASY
+###TF
+22. Cloud services can have one to many relationship with their clients.
+
+A. True
+B. False
+
+Answer: A
+
+
+#P2
+##EASY
+###TF
+23. "Cloud" in cloud computing represents as servers.
+
+A. True
+B. False
+
+Answer: B
+Explanation: cloud is represented as internet not servers.
+
+
+#P1
+##EASY
+###BC
+24. Which cloud can be used when someone has less budget?
+
+A. Community cloud
+B. Public cloud
+C. Private cloud
+D. Hybrid cloud
+
+Answer: B
+
+
+#P1
+##EASY
+###BC
+25. What are the four metrics used by cloud companies to judge the services of cloud?
+
+A. Performance, Volume, Value, Quality
+B. Responsiveness, Performance, Quality, Value
+C. Performance, Quality, Empathy, Volume
+D. None of the above
+
+Answer: A
+
+
+#P1
+##EASY
+###BC
+26. When cloud brusting is recommended?
+
+A. To achieve high performace
+B. When most resources are needed
+C. To free up local resouces for other applications
+D. All of the above
+
+Answer: A
+
+
+#P1
+##EASY
+###BC
+27. Which term is used to refer data storage on virtual servers in cloud computing?
+
+A. Cloud Hosting
+B. Cloud Bursting
+C. Cloud Storage
+D. Cloud Services
+
+Answer: C
+
+
+#P1
+##EASY
+###BC
+28. When SaaS can be best suited for client?
+
+A. When cost is the factor
+B. When high powered softwares are required
+C. When maintenance are maintained by vendor itself not by client
+D. All of the above
+
+Answer: D
+
+
+#P1
+##EASY
+###BC
+29. Which service develops the enivronment for applications that can be built on it.
+
+A. SaaS
+B. IaaS
+C. PaaS
+D. None of the above
+
+Answer: C 
+
+
+#P2
+##EASY
+###TF
+30. Client-architecture is used as a front end layer in cloud computing.
+
+A. True
+B. False
+
+Answer: A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
