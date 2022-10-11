@@ -149,7 +149,7 @@ A Wrapper class is a class whose object wraps or contains primitive data types. 
 </details>
 
 --- 
-9. What is autoboxing and unboxing?
+8. What is autoboxing and unboxing?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -167,7 +167,7 @@ The process ofconverting an object of a wrapper type to its corresponding primit
 
 --- 
 
-4. Differentiate between `str1 == str2` and `str1.equals(str2)`, where both str1 & str2 are String objects.
+9. Differentiate between `str1 == str2` and `str1.equals(str2)`, where both str1 & str2 are String objects.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -186,7 +186,7 @@ The process ofconverting an object of a wrapper type to its corresponding primit
 
 ---
 
-6. How can two strings be compared in Java?
+10. How can two strings be compared in Java?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -217,7 +217,7 @@ Note: == operator is avoided, since it checks for reference equality, i.e. if th
 
 ---
 
-9. How do you convert a string to an integer and vice versa in Java?
+11. How do you convert a string to an integer and vice versa in Java?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -233,7 +233,7 @@ Integer class in the Java lang package provides different methods for converting
 
 ---
 
-16. What is the use of `valueof()` method?
+12. What is the use of `valueof()` method?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -251,7 +251,7 @@ Integer class in the Java lang package provides different methods for converting
 
 ---
 
-20. Give the example for mutable and immutable objects in java?
+13. Give the example for mutable and immutable objects in java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -269,7 +269,7 @@ Integer class in the Java lang package provides different methods for converting
 
 ---
 
-2. What is the use of `split ()` method in Java?
+14. What is the use of `split ()` method in Java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -285,7 +285,7 @@ The method `split(String regex)` to split the String into String array based on 
 
 ---
 
-40. Which class should we use among String,StringBuffer and StringBuilder when there are lot of String concatenation and String modification operations with thread-safe code?
+15. Which class should we use among String,StringBuffer and StringBuilder when there are lot of String concatenation and String modification operations with thread-safe code?
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
