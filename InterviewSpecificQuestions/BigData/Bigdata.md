@@ -3597,3 +3597,188 @@ We can store the Hive Data with the ORC (Optimized Row Column) format as it help
 
 ---
 
+212. Difference between Local File System and HDFS. 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+The Local File System and the Hadoop Distributed File System (HDFS) mainly because of the block size. 
+
+The block size is 4 KB both in Windows and Unix local file systems.
+The block size in Hadoop HDFS is 64 MB in the initial version and in later versions, it is 128 MB which is configurable. This impacts the disk seek. For a large file, there will be multiple disk-seeks in local file system due to its 4KB block size. Since HDFS maintains higher block allocation, the data will be read sequentially after every individual seek. 
+
+</details>
+</blockquote>
+
+---
+
+213. What do you know about accumulators.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+It is a variables that are used for aggregating information across the executors. 
+Example:This information can pertain to data or API diagnosis like how many records are corrupted or how many times a particular library API was called.
+</details>
+</blockquote>
+
+---
+214. What is scheme? How would you print a schema in spark?
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+ It is a structure of the DataFrame which we can get by calling printSchema() method on the DataFrame object.
+ 
+printSchema() method:
+This method has two signatures one without arguments and another with integer argument. These two are used to print the schema of the DataFrame to console or log.
+
+// printSchema() Syntax
+printSchema(): Unit
+printSchema(level: Int): Unit
+</details>
+</blockquote>
+
+---
+
+215. How to use spark-submit
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+Spark home: a path to the Spark installation directory.
+Application: a path to the executable file. We can select .py file
+Main class: the name of the main class of the .py file. Select it from the list.
+</details>
+</blockquote>
+
+---
+
+216. How to create a Hive table using a Spark DF
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+        
+1. Start the Spark Shell. First, we have to start the Spark Shell.
+2. Create SQLContext Object.
+3. Create Table using HiveQL.
+4. Load Data into Table using HiveQL.
+5. Select Fields from the Table.
+
+</details>
+</blockquote>
+
+---
+
+217. What do you mean by Parquet file?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+  
+Parquet file is an open- Source file format, which is used for Hadoop ecosystem. It is designed for efficient storage format for data like CSV or TSV files. It allows lower storage costs for data files as well as maximizes the querying data with serverless technologies. It supports data types, file metadata etc. Parquet is a column storage file format, it is used by Hadoop systems, such as Pig, Spark, and Hive. 
+</details>
+</blockquote>
+
+---
+
+218. What is lazy evaluation?
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+        
+Strategy which holds the evaluation of an expression, is known as a Lazy evaluation. Spark will not start the execution of the process until an ACTION is called which known as a Lazy Evaluation. It is a Policy of only evaluating forms whose values, needed by a consumer, known as a print request. 
+If List supported Lazy evaluation, then 
+(FISRT(LIST1(+45) (*67) (/78)))
+Would not result in any arithmetic being performed, since only the element 1 needs to be returned.
+</details>
+</blockquote>
+
+---
+
+219. If your Kafka consumer stops running what would you do?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+If the consumer crashes or is shut down, its partitions will be re-assigned to another member, which will begin consumption from the last committed offset of each partition. If the consumer crashes before any offset has been committed, then the consumer which takes over its partitions will use the reset policy.
+</details>
+</blockquote>
+
+---
+
+220. Tell me the difference between map and flatmap .
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+        
+Spark map() transformation applies a function to each row in a DataFrame/Dataset and returns the new transformed Dataset
+Syntax:
+
+1) map[U](func : scala.Function1[T, U])(implicit evidence$6 : org.apache.spark.sql.Encoder[U]) 
+        : org.apache.spark.sql.Dataset[U]
+2) map[U](func : org.apache.spark.api.java.function.MapFunction[T, U], encoder : org.apache.spark.sql.Encoder[U]) 
+        : org.apache.spark.sql.Dataset[U]
+
+Spark flatMap() transformation flattens the DataFrame column after applying the function on every element and returns a new DataFrame respectively.
+Syntax:
+
+
+flatMap[U](f : scala.Function1[T, scala.TraversableOnce[U]])(implicit evidence$4 : scala.reflect.ClassTag[U]) : 
+          org.apache.spark.rdd.RDD[U]
+</details>
+</blockquote>
+
+---
+
+221.  How do you Rename column in spark 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+        
+Spark has a withColumnRenamed() function on DataFrame to change a column name.
+Syntax:
+
+def withColumnRenamed(existingName: String, newName: String): DataFrame
+</details>
+</blockquote>
+
+---
+
+222. What is S3?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+        
+ It is an object storage service that offers industry-leading scalability, data availability, security, and performance. We can use Amazon S3 to store and retrieve any amount of data at any time, from anywhere.
+        
+</details>
+</blockquote>
+
+---
+
