@@ -114,7 +114,7 @@ Private is more protective. When the methods or data members declared as private
 --- 
 
 
-8. Tell us about non-access modifiers
+7. Tell us about non-access modifiers
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -135,7 +135,7 @@ Non-access modifiers defines the behavior of the entities to the JVM, used with 
 
 --- 
 
-9. Brief us on Java Memory (or) How many memories are there in Java and what are they used for?
+8. Brief us on Java Memory (or) How many memories are there in Java and what are they used for?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -154,7 +154,7 @@ There are two kinds of memory used in Java:
 
 --- 
 
-10. What is garbage collection?
+9. What is garbage collection?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -170,7 +170,7 @@ There are two kinds of memory used in Java:
 
 --- 
 
-11. Where are objects stored? (or) When an object is instantiated where is it stored?
+10. Where are objects stored? (or) When an object is instantiated where is it stored?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -186,7 +186,7 @@ Whenever an object is created, it's always stored in the Heap memory and stack m
 
 --- 
 
-12. What is local scope?
+11. What is local scope?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -216,7 +216,7 @@ public class Test {
 
 --- 
 
-13. What is the difference between local scope and instance scope?
+12. What is the difference between local scope and instance scope?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -236,7 +236,7 @@ public class Test {
 
 --- 
 
-14. What are the different scopes in java?
+13. What are the different scopes in java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -256,7 +256,7 @@ Variables can be defined as having one of three types of scope:
 
 --- 
 
-15. What is static in Java?
+14. What is static in Java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -277,7 +277,7 @@ Variables can be defined as having one of three types of scope:
 
 --- 
 
-16. What does the Final keyword mean for Variables, Methods, and Classes?
+15. What does the Final keyword mean for Variables, Methods, and Classes?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -307,7 +307,7 @@ Final Class     ---> Prevents Inheritance
 --- 
 
 
-17. Explain each of the parts of `public static void main (String[] args)`
+16. Explain each of the parts of `public static void main (String[] args)`
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -329,7 +329,7 @@ Final Class     ---> Prevents Inheritance
 
 --- 
 
-18. What happens if you don’t make the main method static?
+17. What happens if you don’t make the main method static?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -345,7 +345,7 @@ If the main method won't be static, JVM would not be able to call it because the
 
 --- 
 
-19. What is the difference between a Heap and a Stack?
+18. What is the difference between a Heap and a Stack?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -366,7 +366,7 @@ If the main method won't be static, JVM would not be able to call it because the
 
 --- 
 
-3.	Does the program run if we give `static public void main`?
+19. Does the program run if we give `static public void main`?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -383,7 +383,7 @@ Yes, the program will execute successfully .  Because, in Java, there is no spec
 
 ---
 
-8.	Differentiate between `System. Out`, `System. Err`, and `System.in`?
+20. Differentiate between `System. Out`, `System. Err`, and `System.in`?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -405,7 +405,7 @@ keyboard.
 
 ---
 
-19. Can a static method access non-static variables or methods? 
+21. Can a static method access non-static variables or methods? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
