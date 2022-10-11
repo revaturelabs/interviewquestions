@@ -1,0 +1,194 @@
+1.Which of the following is the attribute that indicates the name of the data source object that supplies the data that is bound to this element?
+
+A.dataFormatAs
+B.datasrc
+C.disabled
+D.datafld
+
+Answer: B
+
+Explanation: dataSrc determines the identifier for the data source. When the dataSrc property is applied to a tabular data consumer, while  consuming the elements repeat the whole data set.
+
+2.Which of the following is the attribute that is used to add a name/value pair to a microdata item?
+
+A.itemscope
+B.itemref
+C.itemid
+D.itemprop
+
+Answer: D
+
+Explanation: itemprop - A value added to an item. In Every HTML element can have an itemprop attribute, which consists of a name and value pair.
+
+3.A much better approach to establish the base URL is to use the ______ element.
+
+A.BASE
+B.BODY
+C.HEAD
+D.None of the above
+
+Answer: A
+
+Explanation: The HTML element <base> defines the base URL for all relative URLs in a document.
+
+4.Which HTML element is used to define a multi-line input field?
+
+A.<text>
+B.<blocktext>
+C.<textarea>
+D.<textfields>
+
+Answer: C
+
+5.Which of the following is the tag used to implement form element?
+
+A.<frm>...</frm>
+B.<form>...</form>
+C.<form>...<form>
+D.</form>...</form>
+
+Answer: B
+
+6.The______tag is used to implement Input control element.
+
+A.<input>  … </input>
+B.<html>   … </html>
+C.<form>   … </form>
+D.<select> … </select>
+
+Answer: A
+
+Explanation: Within the <form> element, the input tag is used to declare input controls that allow users to enter data. Depending on the attribute type, an input field can be of many forms. The Input tag is a blank element with only characteristics.
+
+7.The tag ____ is used to implement textarea element or comment box or multiple line text box.
+
+A.<text>     … </text>
+B.<textarea> … </textarea>
+C.<input>    … </input>
+D.<select>   … </select>
+
+Answer: B
+
+Explanation: A multi-line text input control is defined by the <textarea> tag. <Textarea> elements are frequently used in forms to capture user inputs such as comments or reviews.
+
+8.Which elements are used to create a drop-down list?
+
+A.<ol> and <li>
+B.<select> and <option>
+C.<input type="dropdown"> and <li>
+D.<input type="select"> and <option>
+
+Answer: B
+
+Explanation: A drop-down list is created with the <select> element. The <select> element is most commonly used in forms to gather user input.
+
+9.Which of the following is an example of a text field?
+
+A.<textfield>
+B.<input type="input">
+C.<text type="input">
+D.<input type="text">
+
+Answer: D
+
+10.___________Specifies whether an <input> element should have autocomplete enabled.
+
+A.Placeholder
+B.Autocomplete
+C.Autofocus
+D.Multiple
+
+Answer: B
+
+11.This is the example for,
+
+<label for="fname">First name:</label>
+<input type="text" id="fname" name="fname">
+
+A.<select> Element
+B.<label> Element
+C.<input> Element
+D.<textarea> Element
+
+Answer: C
+
+12.The __________ element specifies a list of pre-defined options for an <input> element.
+
+A.<datalist> Element
+B.<output> Element
+C.<fieldset> Element
+D.<button> Element
+
+Answer: A
+
+Explanation: The <datalist> tag specifies a set of options for an <input> element. The <datalist> tag is used to provide "autocomplete" functionality to <input> components. As they enter data, users will see a drop-down list of pre-defined options.
+
+13.The input element's type is specified using the ____________ attribute and text is the default value. 
+
+A.Type
+B.Text
+C.Name
+D.Value
+
+Answer: A 
+
+Explanation: The type attribute defines the type of <input> element that will be displayed. The default type is "text" if the type parameter is not given.
+
+14.The <input> element's connection with one or more forms is indicated by the ______  attribute.
+
+A.Disabled
+B.Form 
+C.Required
+D.None of these
+
+Answer: B
+
+Explanation: * The form to which the <input> element belongs is indicated by the input form attribute.
+
+* This attribute's value needs to match the id attribute of the <form> element it's attached to.
+
+15.The _________ attribute is used to specify a character-based measure of an <input> element's width.
+
+A.src
+B.size
+C.pattern
+D.None of these
+
+Answer: B
+
+Explanation: The size parameter specifies the width and height of the <input> and <select> elements. If the type attribute is text or password, the amount of characters is used for the input.
+
+16.The _______ element specifies a set of choices for an <input> element.
+
+A.<fieldset>
+B.<textarea>
+C.<datalist>
+D.None
+
+Answer: C
+
+Explanation: The <datalist> element defines a set of predefined options for an <input> element. As they enter data, users will see a drop-down list of pre-defined alternatives. The list attribute of the <input> element must correspond to the <datalist> element's id attribute.
+
+17.The input _________ property specifies a name or a keyword that determines where the response received after submitting the form should be displayed.
+
+A.formnovalidate 
+B.novalidate
+C.formtarget
+D.formmethod 
+
+Answer: C
+
+Explanation:  The input formtarget attribute specifies a name or keyword that defines where the response received after submitting the form should be displayed. This attribute overrides the <form> element's target attribute. The submit and picture input types are supported through the formtarget attribute.
+
+18.When an <input> element is submitted, the input____________ attribute states that it should not be verified.
+
+A.formmethod 
+B.formnovalidate
+C.formtarget
+D.None
+
+Answer: B
+
+Explanation: The input formnovalidate attribute states that when an <input> element is submitted, it should not be verified. This attribute overrides the <form> element's novalidate attribute. The formnovalidate attribute accepts the following sorts of input: submit.
+
+

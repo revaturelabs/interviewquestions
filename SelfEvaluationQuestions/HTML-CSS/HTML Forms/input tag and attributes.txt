@@ -1,0 +1,530 @@
+1.The input ____________attribute specifies the visible width, in characters, of an input field.
+
+A.Disabled
+B.Readonly 
+C.Size
+D.Value
+
+Answer: C
+
+Explanation: The size attribute specifies the width and height of the both <input> and <select> elements. If the type attribute is text or password, then the amount of characters is used for the input.
+
+2.The input _____ attribute specifies the maximum number of characters allowed in an input field.
+
+A.size
+B.maxlength
+C.min and max
+D.multiple
+
+Answer: B
+
+Explanation: The max length attribute specifies the number of characters as (in UTF-16 code units) that a user can submit into an <input> or <text area>. This must be an integer value of zero or greater than that. The input or text area has no maximum length if no max length is given or an erroneous value is specified.
+
+3.The input _________ attributes specify the minimum and maximum values for an input field.
+
+A.disabled
+B.maxlength
+C.min and max
+D.size 
+
+Answer: C
+
+Explanation: The min and max attributes are used to define the <input> element's value range. The min attribute specifies the least value for the< input> element, while the max attribute specifies the maximum value for the <input> element.
+
+4.The min and max attributes work with the following input types: 
+
+A.number
+B.range
+C.date and datetime-local
+D.All of the above
+
+Answer: D
+
+5.We can use the max and min attributes together to create a range of legal values.
+
+A.True
+B.False
+
+Answer: A
+
+
+6.The input ________ attribute specifies that the user is allowed to enter more than one value in an input field.
+
+A.multiple
+B.pattern
+C.size
+D.min and max
+
+Answer: A
+
+Explanation: A boolean attribute must be the multiple attribute. When it is present, it indicates that the users may enter/select more than one value.
+
+7.The multiple attribute works with the following input types: 
+
+A.email
+B.file
+C.Both A and B
+D.None of the above
+
+Answer: C
+
+8.The input _____ attribute specifies a regular expression that the input field's value is checked against, when the form is submitted.
+
+A.pattern
+B.multiple
+C.size
+D.None of these
+
+Answer: A
+
+Explanation: Text, tel, email, url, password, and search input types all includes the pattern attribute. When it is supplied, the pattern attribute is a regular expression that the input's value must match in order for the value to pass constraint validation.
+
+9.What is placeholder in html?
+
+A.The input min and max attributes specify the minimum and maximum values for an input field.
+B.The placeholder attribute offers a brief description of the expected value of an input field.
+C.The max length attribute specifies the number of characters (in UTF-16 code units) that a user can submit into an <input> or <text area>.
+D.None of these
+
+Answer: B
+
+10.The placeholder attribute works with the following input types_________.
+
+A.text and search
+B.URL and tel
+C.email, and password
+D.All the above
+
+Answer: D
+
+11.The text inside the <TEXTAREA> tag works like
+
+A.<PRE> formatted text
+B.<T> formatted text        
+C.<P> formatted text
+D.none of these
+
+Answer: A
+
+Explanation: <Textarea> elements are frequently used in forms to capture user inputs such as comments or reviews. A text area can contain an infinite number of characters, and the text is shown in a fixed-width font (usually Courier). The cols and rows attributes define the size of a text area.
+
+12.The __________ attribute sets the text direction as related to the lang attribute.
+
+A.ds
+B.sub
+C.lang
+D.dir  
+
+Answer: D
+
+Explanation: The text direction of the element's content is specified by the dir attribute.
+
+13.What is the default type of 'type' attribute of <input> element?
+
+A.Numerals
+B.Password
+C.Special charcters
+D.Text
+
+Answer: D
+
+Explanation: The type attribute defines the type of input> element that will be displayed. The default type is "text" if the type attribute is not specified.
+
+14.In an HTML form, the< input type="text"> is used for______.
+
+A.One line text
+B.One paragraph
+C.Block of text 
+D.None of these
+
+Answer: A
+
+Explanation: The HTML element <input> is used to provide interactive controls for web-based forms that accept data from the user.
+
+15.Which of the following attributes defines the file-select field?
+
+A.Button
+B.Checkbox
+C.File
+D.Text
+
+Answer: C
+
+Explanation: The file input type specifies a file-selection field and provides a "Browse" button for file uploads.
+
+16.How more than one option can be selected in drop down?
+
+A.It is not possible to select more than one option in drop down.
+B.Use of multiple attribute inside <option> tag.
+C.Use of multiple attribute inside <select> tag.
+D.use of multiple attribute inside <text> tag.
+
+Answer: C
+
+Explanation: Multiple options in a dropdown can be selected by using multiple attributes inside the opening tag of <select>.
+
+17.<input type="datetime-local"> specifies date and time with________.
+
+A.Local time
+B.No time zone
+C.Local time zone
+D.International time
+
+Answer: B
+
+18.Which tag is used to create a checkbox in HTML?
+
+A.<checkbox>
+B.<Input type = "checkbox">
+C.<cb>
+D.None of these
+
+Answer: B
+
+Explanation: A checkbox is defined by the <input type="checkbox">. When active, the checkbox appears as a square box that is ticked (checked). Checkboxes are used to allow a user to select one or more selections from a limited set of options.
+
+19.Which of the following is not a type of attribute for input tag?
+
+A.month and week
+B.day 
+C.time
+D.None of these
+
+Answer: B
+
+Explanation: Day is not defined in the input tag's pre-defined attribute list. When used as an attribute in an input tag, the week attribute defines the week and year. When month is accessible in the input tag, it defines the month and year. In HTML, the time attribute displays the current time.
+
+20.The input _________ attribute specifies that an input field must be filled out before submitting the form.
+
+A.step 
+B.pattern
+C.required 
+D.placeholder
+
+Answer: C
+
+21.The HTML <input> tag also supports which of the following attributes __________.
+
+A.Autocomplete
+B.Disabled
+C.Both A and B
+D.None of the above
+
+Answer: C
+
+Explanation: In an HTML text, the <input> tag is used to represent a form input control. This form input control allows users to enter information and communicate with a website or application.
+
+22.____________Specifies a comma-separated list of content types that the server accepts.
+
+A.Align
+B.Accept
+C.Form
+D.None of these
+
+Answer: B
+
+Explanation: The accept property accepts a comma-separated list of one or more file types, or unique file type specifiers, that describe which file types to allow as its value. The accept property of a file is <input> type attribute. It used to be supported on the <form> element, but it was removed in favour of file.
+
+23.What is Alt attribute?
+
+A.Specifies whether autocomplete in the <input> element should be enabled or disabled.
+B.Specifies that the <input> element should be given focus when the page loads.
+C.When the form is submitted, the URL of the file that will handle the input control is specified.
+D.This specifies the text to be used incase if the browser/user agent is unable to render the input control.
+
+Answer: D
+
+24.The value of left, right, top, middle, bottom is___________.
+
+A.Formtarget
+B.Align
+C.Alt
+D.Type
+
+Answer: B
+
+Explanation: Deprecated Specifies the content alignment.
+
+25.The allowed number of intervals for an input field are specified in ___________.
+
+A.Size
+B.Required
+C.Step
+D.None of the above
+
+Answer: C
+
+26.____________specifies the URL of the file that will process the input control when the form is submitted (for type="submit" and type="image").
+
+A.Formaction
+B.Formmethod
+C.Src
+D.Width
+
+Answer: A
+
+27.The different input types are___________ in HTML.
+
+A.<input type="checkbox">
+B.<input type="color">
+C.<input type="datetime-local">
+D.All the above
+
+Answer: D
+
+28.The input________attribute specifies that an input field is read-only.
+
+A.value 
+B.multiple
+C.disabled
+d.readonly
+
+Answer: D
+
+Explanation: A boolean attribute is the readonly attribute. It indicates that an input field or textarea is read-only when it is present. A read-only field can't be changed.
+
+29.The below HTML code describes about_____________ Attribute.
+
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John" readonly><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe">
+</form>
+
+A.size
+B.value
+C.readonly
+D.maxlength
+
+Answer: C
+
+30.The HTML <input> tag also supports which of the following attributes __________.
+
+A.Autocomplete
+B.Disabled
+C.Both A and B
+D.None of the above
+
+Answer: C
+
+Explanation: In an HTML text, the <input> tag is used to represent a form input control. This form input control allows users to enter information and communicate with a website or application.
+
+31.The different input types are___________ in HTML.
+
+A.<input type="checkbox">
+B.<input type="color">
+C.<input type="datetime-local">
+D.All the above
+
+Answer: D
+
+32.button, image, number, color are the types of <input> tag attributes.
+
+A.True
+B.False
+
+Answer: A
+
+
+33.The _____________ attribute is used to specify a hint that defines an input field's expected value.
+
+A.Type
+B.Placeholder
+C.disabled
+D.None
+
+Answer:  B
+
+Explanation: The placeholder attribute offers a brief description of the intended value of an input field (e.g. a sample value or a short description of the expected format). Before the user inputs a value, the short suggestion is displayed in the input area.
+
+34.If the user is unable to view the image, the _________ attribute is used to offer alternate text.
+
+A.Value
+B.Form
+C.Alt 
+D.Required
+
+Answer: C
+
+Explanation: If the user is unable to view the image for some reason, the alt attribute gives an alternate text (because of slow connection, an error in the src attribute, or if the user uses a screen reader) the alt attribute can only be used with <input type="image">.
+
+35.The ______ attribute indicates that an element should be given focus when the page loads.
+
+A.Alt
+B.Disabled
+C.Required
+D.Autofocus
+
+Answer: D
+
+Explanation: The autofocus attribute is a boolean attribute. When it present, it indicates  an <input> element should be given importance when the page loads. 
+
+36.When the page loads, the checked attribute specifies that an element should be pre-selected (checked). The checked attribute can be used with <input types="checkbox"> and <input types= "radio">.
+
+A.True
+B.False
+
+Answer: A
+
+Explanation: * The square boxes are defined using the HTML <checkbox> tag. It is a form element that allows users to choose one or more alternatives from a list.
+* It is produced by the type attribute of the <input> element, as seen below:
+
+* name="field name" input type="checkbox" value="First value">
+
+37.A required input field must be filled up before submitting the form, according to the _______ attribute.
+
+A.Form
+B.Disabled
+C.Required
+D.Readonly
+
+Answer: C
+
+Explanation: * A boolean attribute is the required attribute. When present, it indicates that a field has to be completed before the form can be submitted.
+
+* The following input types are supported with the needed attribute and they are text, search, url, tel, email, password, date pickers, number, checkbox, radio, and file.
+
+38.A read-only input field is indicated by the read - only attribute. An input field that is read-only cannot be changed. An input field that is read-only will still be submitted by a form, but an input field that is disabled won't.
+
+A.True
+B.False
+
+Answer: A
+
+Explanation: Read-only is a file attribute that prevents writing to a file and only permits a user to see it. When a file is marked as "read-only," it can still be accessed and read but cannot be changed in any way, including deletions, overwrites, revisions, or name changes.
+
+39._______ attribute is used to specifies that a user can enter more than one value in an <input> element.
+
+A.min
+B.src
+C.multiple
+D.pattern
+
+Answer: C
+
+Explanation: * A boolean attribute is the multiple attribute. When present, it indicates that the user may enter more than one value into the <input> element.
+
+* The email and file input types are supported by the multiple attribute.
+
+40.The ___________ attribute specifies a regular expression against which the value of an <input> element is tested.
+
+A.multiple
+B.list
+C.size
+D.pattern 
+
+Answer: D
+
+Explanation: The pattern attribute specifies a regular expression against which the value of the <input> element is tested during form submission. Text, date, search, url, tel, email, and password are all supported by the pattern attribute.
+
+41.The __________ attribute defines the allowable number intervals for an input field.
+
+A.step 
+B.src
+C.pattern
+D.multiple
+
+Answer: A
+
+Explanation: * The step attribute in an <input> element sets the spacing between legal numbers.
+
+* The step attribute, in combination with the max and min properties, can be used to define a range of legal values.
+
+42.<!DOCTYPE html>
+   <html>
+   <body>
+   <h3> Welcome All </h3>
+   <form>
+   <label for="EMAIL ID">Email Id:</label><br>
+   <input type="text" name="Email id" id="Email id">
+   </form>
+   </body>
+   </html> 
+
+The above html code is the example for,
+
+A.Password Field
+B.Text area
+C.Text Field 
+D.None
+
+Answer: C
+
+43.<!DOCTYPE html>
+   <html>
+   <body>
+   <h3> Welcome To Revature </h3>   
+   <form>
+   <label for="user-password">Password:
+   </label><br>
+   <input type="password" name="user-pwd" id="user-password">
+   </form>
+   </body>
+   </html>
+
+The above html code is the example for,
+
+A.Text area
+B.Password Field
+C.Forms
+D.Text Field
+
+Answer: B
+
+44.<!DOCTYPE html>
+   <html>
+   <body>
+   <h3> Welcome All</h3>
+   <form>
+   <label for="Description">Description:</label>
+   <textarea rows="5" cols="50" name="Description" id="Description"></textarea>
+   </form>
+   </body>
+   </html>
+
+The above html code is the example for,
+
+A.Password Field
+B.Select Boxes
+C.Text Field
+D.Text area 
+
+Answer: D
+
+45.<!DOCTYPE html>
+   <html>
+   <body>
+   <h3> Welcome to the world of Countries </h3>
+   <form>
+   <label for="country">Country:</label>
+   <select name="country" id="country">
+   <option value="India"> India </option>
+   <option value="USA"> USA </option>
+   <option value="Australia"> Australia </option>
+   </select>
+   </form>
+   </body>
+   </html>
+
+The above html code is the example for,
+
+A.Select Boxes
+B.Check Boxes
+C.Radio Buttons
+D.None of these
+
+Answer: A
+
+Explanation: Select boxes are used to allow users to choose one or more options from a drop-down menu. Select boxes are made up of two elements: "select" and "option." The choose element defines the list items. 
+
+46.A hidden input field is defined by the __________ (not visible to a user).
+
+A.<input type="hidden"> 
+B.<input type="file">
+C.<input type="search">
+D.<input type="range">
+
+Answer: A
+
+Explanation: A hidden input field is defined with the input type="hidden"> (not visible to a user). When a form is submitted, a hidden field allows site developers to enter data that users cannot see or modify. When a form is submitted, a hidden field is frequently used to store which database record has to be modified.

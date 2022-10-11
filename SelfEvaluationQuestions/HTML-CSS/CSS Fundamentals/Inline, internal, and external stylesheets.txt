@@ -1,0 +1,130 @@
+#Approve already added
+1. Which tag is used to define a  inline stylesheet in HTML attribute ?
+
+A. style
+B. styles
+C. <style>
+D. <styles>
+
+ANSWER: C
+Explanation: <style> tag is used to define the inline styles in HTML attribute.
+
+#Approve
+2. By using which tag can we link an external style sheets to a HTML file ?
+
+A. <link>
+B. link
+C. <style>
+D. None of the above
+
+ANSWER: A
+
+#ignore already used
+3. Which is the correct syntax for refering the external style sheet ?
+
+A. <stylesheet> example.css </stylesheet>
+B. <link rel="stylesheet" href="example.css">
+C. <link> rel="stylesheet" href="example.css"</link>
+D. None of the above
+
+ANSWER: B
+Explanation: The syntax is to define the external style sheet are <link rel="stylesheet" href="example.css">
+
+
+#Approve
+4. What type of CSS is the following code snippet below?
+     <h1 style="color:red;">A Red Headings</h1>
+
+A. External
+B. Inline
+C. Internal 
+D. None of the above
+
+ANSWER: B 
+Explanation: Inline CSS is an example of the above code snippet. 
+
+#ignore already added this question
+5. Which type of CSS is used to designing the large web pages ?
+
+A. Inline
+B. Internal
+C. External
+D. None of the above
+
+ANSWER: C 
+Explanation: In general, external CSS is used for designing the large web pages.
+
+#Approve
+6. State True or False. Does Inline style has the lowest priority.
+
+A. True
+B. False
+
+ANSWER: B 
+Explanation: Inline style has the highest priority among inline, embed and external style ways. 
+
+#Approve
+7. Say True or False. When @import is used for external style sheets in some cases that the browser may cause a rendering problem.
+
+A. True
+B. False
+
+ANSWER: A 
+Explanation: If @import is used in external style sheets the browser may cause a rendering issues.
+
+#Approve
+8. By which tag did you write the style rules directly within the document found
+within the head of the document ?
+
+A. <script>
+B. <php>
+C. <style>
+D. <css>
+
+ANSWER: C 
+Explanation: <style> tag is used to write the style rules directly within the document in the head of the section of the document.
+
+#Approve
+9. What will be the output of the code snippet below ?
+
+ h1 {color: "blue";}
+
+A. heading becomes blue
+B. nothing happens
+C. error occors
+D. heading becomes dark-blue
+
+ANSWER: B 
+Explanation: The above declaration syntax is wrong. The correct syntax is h1 {color:blue;}
+
+#Approve
+10. What will be the output of following code snippet below ?
+
+ h1 {color: green text-decoration: overline; font-style: bold;}
+
+A. text-decoration: overline and font-style: bold works
+B. color: blue, text-decoration: overline and font-style: bold all works
+C. color: blue, text-decoration: overline works
+D. only font-style: bold works
+
+ANSWER: D 
+
+#Approve
+11. Which allows style sheets to be grouped and joined together ?
+
+A. <head>
+B. <style>
+C. @import
+D. <script>
+
+ANSWER: C 
+
+#approve
+12. What do you mean by HSL stands for ?
+
+A. Hue Specified Lightness
+B. Hue Saturation Lightness
+C. Hue Spot Lightness
+D. None of the above
+
+ANSWER: B 

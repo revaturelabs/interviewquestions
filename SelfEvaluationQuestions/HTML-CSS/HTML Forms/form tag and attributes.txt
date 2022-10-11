@@ -1,0 +1,561 @@
+1.<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John" disabled><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe">
+</form>
+
+The above HTML code is the example for,
+
+A.disabled 
+B.readonly
+C.maxlength
+D.pattern
+
+Answer: A
+
+2.<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" size="50"><br>
+  <label for="pin">PIN:</label><br>
+  <input type="text" id="pin" name="pin" size="4">
+  </form>
+
+The above HTML Code is the example for,
+
+A.maxlength
+B.disabled
+C.Size
+D.min and max
+
+Answer: C
+
+3.<form>
+  <label for="datemax">Enter a date before 1980-01-01:</label>
+  <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+
+  <label for="datemin">Enter a date after 2000-01-01:</label>
+  <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+
+  <label for="quantity">Quantity (between 1 and 5):</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5">
+</form>
+
+The above HTML Code is the example for,
+
+A.size 
+B.min and max
+C.multiple
+D.None of these
+
+Answer: B
+
+4.<form>
+  <label for="files">Select files:</label>
+  <input type="file" id="files" name="files" multiple>
+  </form>
+
+The above HTML Code is the example for,
+
+A.Min and Max
+B.Size
+C.Pattern
+D.Multiple
+
+Answer: D
+
+5.<form>
+  <label for="country_code">Country code:</label>
+  <input type="text" id="country_code" name="country_code"
+  pattern="[A-Za-z]{3}" title="Three letter country code">
+  </form>
+
+The above HTML Code is the example for,
+
+A.pattern
+B.min and max
+C.size
+D.None of these
+
+Answer: A
+
+6.The attribute of <form> tag is________.
+
+A.Method
+B.Action
+C.Both A and B
+D.None of these
+
+Answer: C
+
+Explanation: We should be familiar with two form tag attributes: The action attribute points to the back-end of our web page, which handles form submission. To upload the data, the method attribute is utilised. The GET and POST methods are the most typically utilised characteristics.
+
+7.Which of the following attributes of text box control allow to limit the maximum character?
+
+A.size
+B.len
+C.maxlength
+D.all of these
+
+Answer: C
+
+Explanation: To limit the number of characters that can be input in the Text Box control, we use the Max Length attribute.
+
+8.Character encoding is _____.
+
+A.method used to represent numbers in a character
+B.method used to represent character in a number
+C.a system that consists of a code which pairs each character with a pattern,sequence of natural numbers or electrical pulse in order to transmit the data
+D.none of these
+
+Answer: C
+
+Explanation: The method that converts bytes into characters is known as character encoding. To correctly validate or display an HTML document, a program must select the appropriate character encoding.
+
+9.Which of the following is incorrect?
+
+A.action attribute is used inside starting tag of form
+B.with the use of action, we can redirect to a page once submit button is clicked
+C.<form action:"home.php">redirects to the page home.php
+D.None of the above
+
+Answer: C
+
+10.Which attribute is used with <select> element?
+
+A.name
+B.multiple
+C.selected
+D.value
+
+Answer: B
+
+Explanation: You can use the <select> element's specific properties to regulate it, such as multiple to specify whether many options can be selected and size to specify how many alternatives should be displayed at once. It also takes most general form input properties like mandatory, disabled, autofocus, and so on.
+
+11.Which of the below following is not the form type for adding text?
+
+A.Submit button
+B.Text area
+C.Password input
+D.Text input
+
+Answer: A
+
+Explanation: The submit button is defined by the input type=<"submit">, which submits all form values to a form-handler. The form-handler is usually a server page that contains a script that processes the input data. The form's action element specifies the form's handler.
+
+12.When you are submitting a form, the default method is______.
+
+A.Post method
+B.Get method
+C.Put method
+D.Set method
+
+Answer: B
+
+Explanation: The GET METHOD is the default method for submitting form input. The GET method is used by the browser to request that the server return a specific resource.
+
+13.In HTML forms, the action attribute specifies that_____.
+
+A.Which HTTP method is used
+B.The auto completion of form
+C.Where to submit form
+D.Which action is going on
+
+Answer: C
+
+Explanation: When a form is submitted, the action element indicates where the form-data should be sent.
+
+14.The cols attribute specifies the________ in the forms text area.
+
+A.Size of a text field
+B.Visible number of lines in a text area
+C.Size of text area
+D.Visible width of a text area
+
+Answer: D  
+
+Explanation: The HTML <textarea> cols Attribute tells the browser how many average-width characters should fit on a single line, i.e. how many columns to display. It specifies the visible width of the< Textarea> Element.
+
+15.Choose the correct option.
+
+A.HTML form elements can be of different types.
+B.HTML form elements are defined inside <form> tag.
+C.HTML form elements are used for taking user input.
+D.All of these
+
+Answer: D
+
+16.Which of the following should never be used in the transmission of passwords or other sensitive information?
+
+A.NEXT
+B.GET
+C.POST
+D.REQUEST
+
+Answer: B
+
+Explanation: Everyone may see the information provided from a form using the  GET method, as all variable names and values are presented in the URL. As a result, it should not be used to transfer passwords or other sensitive information.
+
+17.Which method is used when form data contains sensitive or personal information?
+
+A.Get method
+B.Post method
+C.Host method
+D.Put method
+
+Answer: B
+
+Explanation: If your form contains any sensitive information, you should set the method attribute to POST. Because GET appends the form data to the current URL, it can only be used when the submission's contents (including the whole URL) result in a string of 2048 characters or less.
+
+18.Which one of the following does not hold true regarding GET method in HTML?
+
+A.GET has size limitation.
+B.Use of GET method in HTML is more secured. 
+C.Use of GET method enables us to bookmark the page.
+D.None of the above
+
+Answer : B 
+
+Explanation: The GET procedure is not easy since the data supplied is accessible in the URL.
+
+19.Which one of the following does not hold true regarding POST method in HTML?
+
+A.Use of POST method enables us to bookmark the page.
+B.Use of POST method in HTML is more secured.
+C.POST has no size limitation.
+D.None of these.
+
+Answer : A                 
+
+Explanation: When using the POST method for form submission, you cannot bookmark the page.
+
+20.Which of following is not an attribute of <form> tag
+
+A.Action
+B.Method
+C.name
+D.URL
+
+Answer: D
+
+Explanation: URL is an abbreviation for Uniform Resource Locator. A URL is nothing more than the address of a certain Web resource. Each valid URL, in principle, links to a distinct resource. These resources can include an HTML page, a CSS document, an image, and so on.
+
+21.Which of the following attribute of form specifies the HTTP method to be used when sending the data ?
+
+A.Action     
+B.Input
+C.Method
+D.Submit 
+
+Answer: C
+
+Explanation: The method attribute specifies the HTTP method that will be used to submit form data. Form data can be transmitted as URL variables with (method="get") or as an HTTP post transaction (method="post").
+
+22.Which attribute is not used on new forms?
+
+A.size
+B.maxlength
+C.name 
+D.text
+
+Answer: A
+
+Explanation: The size attribute indicates the breadth of the text input, as measured by the amount of characters entered.
+
+23.__________ allows the iframe to pull in content from elsewhere in the same domain.
+
+A.allow-forms
+B.allow-same-origin
+C.allow-pointer-lock
+D.allow-scripts
+
+Answer: B
+
+Explanation: Allow-scripts re-enables scripts. Allow-forms enables submission again. Allow-same-origin enables iframe content to be treated as having the same origin. Allow-pointer-lock re-enables APIs.
+
+
+24.Which of the following allows the sandboxed iframe to run scripts from the same domain?
+
+A.allow-forms
+B.allow-pointer-lock
+C.allow-scripts
+D.allow-same-origin
+
+Answer: C
+
+Explanation: Scripts are re-enabled by allow-scripts. The sandbox attribute enables an extra set of restrictions for the content in the iframe. Allow-forms re-enables from submission.
+
+
+25.How do you submit a form in HTML?
+
+A.<input type="files">
+B.<input type="date">
+C.<input type="submit">
+D.None of the above
+
+Answer: C
+
+Explanation: The submit button is defined by the input type="submit">, which submits all form values to a form-handler. The form-handler is usually a server page that contains a script that processes the input data. The form's action element specifies the form's handler.
+
+26.Form validation traditionally was performed by_______.
+
+A.CSS
+B.HTML
+C.Javascript
+D.None of these
+
+Answer: C
+
+Explanation: Form validation checks to see if the form has been accurately filled out and Traditionally, JavaScript performed this function, however HTML5 now includes validation.
+
+27.<form>
+   <label for="points">Points:</label>
+   <input type="number" id="points" name="points" step="3">
+   </form>
+
+the above code is the example for,
+
+A.Required 
+B.Type
+C.Autofocus
+D.Step
+
+Answer: D
+
+28.<form>
+   <label for="username">Username:</label>
+   <input type="text" id="username" name="username" required>
+   </form>
+
+The above code is the example for,
+
+A.placeholder
+B.autofocus 
+C.step
+D.Required
+
+Answer: D
+
+29.Which of the following codes would define a password field on a form?
+
+A.<password>
+B.<text type="password">
+C.<input type="password">
+D.None of these
+
+Answer: C
+
+Explanation: Instead of a string, a password field kept stored by its value as an array of characters. So a password field is defined by the <input type="password"> (characters are masked).
+
+30.<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="CSS" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label>
+</form>
+
+The above html code describes about _______ buttons.
+
+A.Checkbox button
+B.Radio button
+C.Both A and B
+D.None of these
+
+Answer: B
+
+Explanation: A radio button is used to select one of several options. Radio buttons are displayed in radio groups to display a number of linked alternatives, each of which can only be selected once. The <input> tag in HTML can be used to define a radio button.
+
+31.The ___________ defines a button for submitting the form data to a form-handler.
+
+A.<input type="submit"> 
+B.<input type="checkbox">
+C.<input type="datetime-local">
+D.None of the above.
+
+Answer: A
+
+Explanation: The submit button is defined by the <input type="submit">, which submits all form values to a form-handler. The form-handler is usually a server page that contains a script for  that processes the input data.
+
+
+32.The __________ attribute specifies where to display the response that is received after submitting the form.
+
+A.Autocomplete Attribute
+B.Novalidate Attribute
+C.Method Attribute
+D.Target Attribute
+
+Answer: D
+
+33.A target attribute with the value of ________  is displayed in a new window or tab.
+
+A._top
+B._blank
+C._parent
+D._self
+
+Answer: B
+
+Explanation: The linked page is opened in a new window or tab when the target property is set to "_blank." When a target attribute with the value "_self" is used, the linked page is opened in the same frame where it was clicked (this is the default and usually does not need to be specified).
+
+34.____________ Opens the linked document in the full body of the window.
+
+A._blank
+B._self
+C._top
+D.All the above
+
+Answer: C
+
+Explanation: A target attribute with the value "_top" opens the linked document in the window's full body. A target attribute with the value "framename" opens the linked page in the named frame supplied.
+
+35.______ is used to request data from a specified resource.
+
+A.GET 
+B.POST
+C.Both A and B
+D.None of these
+
+Answer: C
+
+
+36.GET requests can be bookmarked.
+
+A.True
+B.False
+
+Answer: A
+
+Explanation: The GET method is used to request data from a specific resource.  GET requests are cacheable.
+
+37.______is used to send data to a server to create/update a resource.
+
+A.GET
+B.POST
+C.PUT
+D.None of these
+
+Answer: B
+
+Explanation: POST is an HTTP request mechanism used by the World Wide Web. The POST request method, by definition, requests that a web server accept the data contained in the body of the request message, most often for storage. It is frequently used when submitting a completed web form or uploading a file.
+
+38.POST requests have no restrictions on data length.
+
+A.True
+B.False
+
+Answer: A
+
+39._____ is used to send data to a server to create/update a resource. 
+
+A.POST
+B.GET
+C.PUT
+D.All the above
+
+Answer: C
+
+Explanation: PUT is a command that sends  a data to a server in order to create or update a resource. PUT requests are constant, whereas POST requests are not. That is, repeating the same PUT request will always yield the same response.
+
+40.The______ method is used to ask only for information about a document, not for the document itself
+
+A.GET
+B.OPTIONS 
+C.PUT
+D.HEAD
+
+Answer: D
+
+Explanation: The HEAD method is used to request information about a document rather than the content itself. HEAD is substantially faster than GET since it transfers much less data.
+
+
+41.<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe">
+</form>
+
+This is the example for,
+
+A.value Attribute
+B.disabled Attribute
+C.readonly Attribute
+D.multiple Attribute
+
+Answer: A
+
+42.When submitting form data to a server, the ______ attribute specifies how the input should be encoded (for type="submit" and type="image").
+
+A.formaction
+B.formtarget
+C.Both A and B
+D.formenctype
+
+Answer: D
+
+Explanation: The formenctype parameter indicates how form-data should be encoded before being sent to a server. This attribute takes precedence over the form's enctype attribute. Only buttons with type="submit" use the formenctype attribute.
+
+43.In a drop-down list, ________ denotes a collection of related options.
+
+A.<output>
+B.<optgroup>
+C.<datalist>
+D.<option>
+
+Answer: B
+
+Explanation: The <optgroup> tag is used in a <select> element to group related options (drop-down list). When dealing with a big list of options, groups of related options are easier for a user to manage.
+
+44._______ Indicates the result of a calculation.
+
+A.<datalist>
+B.<textarea>
+C.<legend>
+D.<output>
+
+Answer: D
+
+Explanation: The HTML element <output> is a container element into which a site or app can inject the results of a calculation or the result of a user action.
+
+45.A <form> attribute is the _______ attribute.
+
+A.novalidate
+B.formnovalidate
+C.formmethod 
+D.None of the above
+
+Answer: A
+
+Explanation: * A form attribute is the novalidate attribute.
+
+* Novalidate indicates that all form-data should not be validated before submission when it is present.
+
+46.Find the correct answer for the below given statement:
+
+i.The "get" method appends the form-data as name/value pairs to the URL.
+ii.The "get" method is useful when a user wants to bookmark the result of a form submission.
+
+A.Both i and ii are Worng
+B.i is wrong and ii is correct
+C.i is correct and ii is wrong
+D.Both i and ii are Correct
+
+Answer: D
+
+47.Find the correct answer for the below given statement:
+
+i.The form data is sent as an HTTP post transaction using the "post" method.
+ii.Form submissions made using the "post" method can be bookmarked.
+
+A.Both i and ii are Worng
+B.i is wrong and ii is correct
+C.i is correct and ii is wrong
+D.Both i and ii are Correct
+
+Answer: C
+
+
+
+

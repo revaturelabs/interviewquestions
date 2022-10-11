@@ -1,0 +1,207 @@
+HTML FORMS:
+
+1.Which tag create a check box for a form in HTML?
+
+a) <checkbox>
+b) <select>
+c) <input type-“checkbox”>
+d) None of the above
+
+Answer : c
+
+2.To create a combo box which tag will you use?
+
+a) <select>
+b) <list>
+c) <input type=”dropdown”>
+d) None of the above
+
+Answer : a
+
+3. Text within <strong> tag is displayed as
+
+a) list
+b) italic
+c) underline
+d) bold
+
+Answer : d
+
+4.Which attribute is used to name an element uniquely?
+
+a) class
+b) id
+c) dot
+d) All of the above
+
+Answer : b
+
+5.Why should you specify a background color if you are using an image for the actual background of your page?
+
+a) So the text shows up better
+b) In case the image doesn’t fit right
+c) The background color will be shown until the image loads
+d) None of the above
+
+Answer : c
+
+6.HTML is simple than
+
+a) SGML
+b) CTML
+c) STML
+d) None of the above
+
+Answer : a
+
+7.Which of the following is italic tag
+
+a) <LI>
+b) <II>
+c) <IT>
+d) <I>
+
+Answer : d
+
+8.To create a numbered list, use
+
+a) <il>
+b) <ol>
+c) <ul>
+d) <li>
+
+9.To separate single list, use
+
+a) <ol> and </ol>
+b) <ul> and </ul>
+c) <li> and </li>
+d) All of the above
+
+10. The most basic element of any HTML page is
+
+a) ASCII text
+b) text
+c) BCD text
+d) None of the above
+
+11. The background image will scroll when the user scrolls down the page, you add which property to the <body> tag?
+
+a) bgproperties = “fixed”
+b) bgproperties = “move”
+c) bgproperties = “holdstill”
+d) None of the above
+
+Answer : c
+
+12.What is the correct HTML for adding a background color?
+
+a) <body style = “background-color : yellow”>
+b) <body background= “yellow”>
+c) <background>yellow</background>
+d) All of the above
+
+Answer : a
+
+13.To set the color for table borders, use ______
+
+a) bgcolor=#003300
+b) bgimage=#003300
+c) bordercolor=#003300
+d) tablecolor=#003300
+
+14.The default value of BORDER attribute is
+
+a) 1 pixel
+b) 2 pixel
+c) 3 pixel
+d) None of the above
+
+15.The tag used to create a hypertext relationship between the current document and an external resource is
+
+a) <ISINDEX>
+b) <LINK>
+c) <A>
+d) None of the above
+
+Answer : b
+
+16.The format of the <BASE> tag is
+
+a) <HREF=”absolute URL”>
+b) <BASE=”absolute URL”>
+c) <BASE URL=>
+d) <base href=”https://www.gkseries.com”>
+
+Answer : d
+
+17.The symbol used at the beginning of the HREF text is
+
+a) @
+b) &
+c) $
+d) #
+
+Answer : d
+
+18.How do you add a link which will allow the visitor to send an email from your page?
+
+a) Add <a href=”mailto:youraddress>
+b) Add <a href=”sendmailtoyouraddress”>
+c) Add <a=”mailto:youraddress>
+d) clour, alignment
+
+Answer : a
+
+19. The tag for title text for rows and columns is
+
+a) <TD>
+b) <TR>
+c) <TH>
+d) None of the above
+
+Answer : c
+
+20.To start a numbered list with regular numerals, use
+
+a) <ol type=”I”>
+b) <ol type=”a”>
+c) <ol type=”A”>
+d) <ol type=”1”>
+
+Answer : d
+
+21.One should never combine the “start” and “type” option.
+
+a) True
+b) False
+c) Sometimes True, Sometimes False
+d) None of the above
+
+Answer : b
+
+22.How many characters can be written with 1 kilobyte?
+
+a) 1000
+b) 1024
+c) 1048
+d) None of the above
+
+Answer : b
+
+23. The style element holds the document for setting
+
+a) colour, alignment and border
+b) font, colour and alignment
+c) font, colour, alignment and border
+d) colour, alignment
+
+Answer : c
+
+24. The tags which are required for every HTML page you create
+
+a) Document
+b) Comment
+c) Container
+d) None of the above
+
+Answer : a

@@ -1,0 +1,209 @@
+#color and background-color properties
+
+1. Which CSS property is used to change the color of the HTML elements?
+A. color
+B. background-color
+C. bgcolor
+D. All the above
+
+ANSWER: A
+Explanation: The color property is used to set the color of the HTML elements in CSS.
+
+
+
+4. Which property is used to change the background color of HTML attribute ?
+
+A. background color 
+B. bgcolor
+C. color
+D. None of the above
+
+ANSWER: A
+Explanation: background color is used to change the background color in HTML attribute.
+
+
+5. Which of the following CSS property is used to set the background image of an element in HTML ?
+
+A. background-color
+B. background-image
+C. background-attachment
+D. None of the above
+
+ANSWER: B
+Explanation: background-image is used to set the background image of an element.
+
+
+6. Which command is used to change the background-color of all paragraph elements to red ?
+
+A. p {background-color: red;}
+B. p {background-color: #red;}
+C. p {background-color; red:}
+D. p {background-color; #red;}
+
+ANSWER: A
+Explanation: The syntax to change the background-color for all elements to red is: p {background-color: red;}
+
+
+7. What is the CSS property to change the position of the background image to center ?
+
+A. background-position: #center;
+B. background-position: center;
+C. background-position; #center;
+D. background-position; center;
+
+ANSWER: B
+Explanation: To change the position of th background image to center is by using CSS property: background-position: center;
+
+
+8. What is the range value of opacity of an element ?
+
+A. 0.0 - 0.1
+B. 0.5 - 1.0
+C. 0.6 - 1.0
+D. 0.0 - 1.0
+
+ANSWER: D
+Explanation: The opacity property specifies the transparency of an element and the range varies from 0.0-1.0
+
+
+9. Which of the following list of colour representation in CSS is allowable?
+
+A. HEX values
+B. A valid color name
+C. RGB values
+D. All of the above 
+
+ANSWER: D 
+Explanation: HEX values, RGB values and A valid color name refers to colour representation in CSS
+
+
+
+
+11. Which property of CSS is used to set the blend mode for each background layer of an element ?
+
+A. background-origin
+B. background-transform
+C. background-collapse
+D. background-blend-mode
+
+ANSWER: D
+Explanation: background-blend-mmode property is used to define how the background image of an element blends with the background color of the element.
+
+
+12. In which CSS property used to specify the painting area of the background ?
+
+A. background-clip
+B. background-image
+C. background-size
+D. None of the above
+
+ANSWER: A 
+Explanation: background-clip property used to specify the painting the are of the background.
+
+
+13. List the type of color gradients in CSS 
+
+A. Linear
+B. Conic
+C. Radial 
+D. All of the above
+
+ANSWER: D
+Explanation: Linear, Conic and Radial are the type of color gradients in CSS
+
+
+14. How to create an image reflection in CSS ?
+
+A. image-reflect
+B. box-reflect
+C. reflect-img 
+D. None of the above
+
+ANSWER: B 
+Explanation: box reflect property in CSS is used to create an image reflection.
+
+
+15. Which of the Color Format in a CSS’s six-digit hexadecimal format is the same as color defined in HTML?
+
+A. RGBS
+B. RGBa
+C. 6-Hex Color
+D. 3-Hex Color
+
+ANSWER: C 
+Explanation: The format color specifies in hexadecimal value ranging from 00 to FF.
+
+
+16. Which of the filter property function is used to adjust the brightness of an element’s color ?
+
+A. brightness()
+B. dark()
+C. light()
+D. contrast()
+
+ANSWER: A 
+Explanation: brightness() function in filter property is used to adjust the brightness of an element's color.
+
+
+17. Which of the function in filter property is used to adjust the difference between light and dark values ?
+
+A. dark()
+B. light()
+C. contrast()
+D. brightness()
+
+ANSWER: C
+Explanation: A value of 100% or a decimal value of 1 leaves the image while 0 results in black.
+
+
+18. Which of the function in filter property to create the sophisticated effects on DOM elements ?
+
+A. create()
+B. custom()
+C. DOM()
+D. None of the above
+
+ANSWER: B 
+Explanation: custom() function in filter property to create the sophisticated  effects on DOM elements.
+
+
+19. In which of the function converts an element's color to shade of gray in filter property ?
+
+A. black()
+B. shade()
+C. grayscale()
+D. brightness()
+
+ANSWER: C
+Explanation: A decimal value between 0 to 1 is controls the extent of the gray effect.
+
+
+20. In which filter property function is used to flips an element's colors ?
+
+A. flip()
+B. image()
+C. contrast()
+D. invert()
+
+ANSWER: D 
+Explanation: A decimal value between 0 to 1 is to controls the extent of the color-negative effect.
+
+
+21. In which function applies the saturation effect to an element's color, making it appear more or less vivid in filter property ?
+
+A. saturation()
+B. saturate()
+C. color()
+D. None of the above
+
+ANSWER: A 
+
+
+22. In which of the function defines a linear gradient as a CSS image ?
+
+A. image()
+B. linear-gradient()
+C. gradient()
+D. grayscale()
+
+ANSWER: B

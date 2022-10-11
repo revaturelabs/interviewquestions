@@ -1,0 +1,29 @@
+
+1) Which of the following selectors selects direct descendents?
+
+A. E &gt; F 
+B. E F
+C. E + F
+D. E ~ F
+ 
+Answer: A
+
+
+2) Only <a> tags that are descendants of a tag located under the body element would be chosen by.....................
+
+A. body a {color:green;}
+B. body a * {color: green;}
+C. a body {color: green;}
+D. body * a {color: green;}     
+
+Answer: D
+
+
+3)___________Creates a rule to only match items that are completely encircled by another element.
+
+A. child selectors     
+B. element selectors
+C. class selectors
+D. contextual selectors
+
+Answer: A

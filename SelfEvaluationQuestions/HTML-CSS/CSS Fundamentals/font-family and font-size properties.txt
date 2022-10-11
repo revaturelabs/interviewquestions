@@ -1,0 +1,96 @@
+#font-family and font-size properties
+
+1. How to set the text wider or narrower compare to the default width of the font ?
+
+A. text-transform
+B. font-weight
+C. font-stretch
+D. font-variant
+
+ANSWER: C 
+Explanation: font-stretch property is used to set the text narrower or wider than the default width of the font.
+
+
+2. How to define the custom fonts using CSS ?
+
+A. custome fonts cannot be defined 
+B. @font-face rule
+C. src tags
+D. None of the above
+
+ANSWER: B 
+Explanation: We can define the custom fonts using @font-face rule in CSS
+
+
+5. Which of the following does not represent a value for font-style property?
+
+A. italic
+B. oblique
+C. normal
+D. none of the above
+
+ANSWER: D 
+Explanation: itlaic, oblique and normal are belongs to font-style property.
+
+
+6. Which value is allowed to synthesize bold or oblique font faces when a font family lacks bold or italic faces?
+
+A. font-weight
+B. font-kerning
+C. font-synthesis
+D. font-variant
+
+ANSWER: C 
+Explanation: font-synthesis allows to synthesize bold or oblique font faces when a font family lacks bold or italic faces.
+
+
+7. Which value selects a normal or small caps face from a font family ?
+
+A. font-variant
+B. font-kerning
+C. font-synthesis
+D. font-weight
+
+ANSWER: A 
+Explanation: font-variant selects a normal or small caps face from a font family.
+
+#re-work on answer
+8. Which allows you to expand or condense the widths for a normal, condensed, or expanded font face ?
+
+A. font-expand
+B. font-stretch
+C. font-style
+D. None of the above
+
+ANSWER: D
+
+
+9. Which of the following properties modifies the font-size of the fallback fonts specified by font-family such that the x-height is constant of the font used ?
+
+A. default
+B. font-size-adjust
+C. font-adjust
+D. font-size-fallback
+
+ANSWER: B
+Explanation: font-size-adjust property modifies the font-size of the fallback fonts specified by font-family.
+
+
+10. Which font-size-adjust is used in calculating the size of the fallback fonts ?
+
+A. number
+B. auto
+C. count 
+D. None of the above
+
+ANSWER: A 
+Explanation: 
+
+
+11. “font-variant comes first than font-weight in font attribute”.State true or false.
+
+A. True
+B. False
+
+ANSWER: B 
+Explanation: Syntax is font: font-weight font-style font-variant font-size/line-height font-family.

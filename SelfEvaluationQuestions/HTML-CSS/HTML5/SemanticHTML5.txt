@@ -1,0 +1,311 @@
+#semantic tags
+
+
+1 What does HTML5 Stack mean?
+
+       A. HTML5, CSS3, JavaScript
+
+       B. HTML5, PHP, MySQL
+
+       C. HTML5, CSS2, JavaScript
+
+       D. HTML5, PHP, JavaScript
+
+Ans : HTML5, CSS3, JavaScript
+
+
+2.Which of the following input controls corresponds to a date (year, month, and day) encoded in Web Form 2.0 using ISO 8601?
+
+       A. datetime
+
+       B. month
+
+       C. datetime-local
+
+       D. date
+
+Ans : date
+
+
+3. What is the suggested procedure for determining a feature's compatibility with a browser?
+
+       A. Use Modernizr
+
+       B. Application automatically detects
+
+       C. Use navigator.UserAgent method
+
+       D. None of the options
+
+Ans : Use Modernizr
+
+
+4.In an HTML5 page, which of the following tags best describes an independent piece of content?
+
+       A. section
+
+       B. article
+
+       C. footer
+
+       D. nav
+
+Ans : article
+
+
+5. How would you define a footer in HTML5?
+
+       A. foot
+
+       B. footer
+
+       C. body
+
+       D. bottom
+
+Ans : footer
+
+
+6.Which of the following properties causes events to be triggered when a form changes in HTML5?
+
+       A. onforminput
+
+       B. onformchange
+
+       C. onchange
+
+       D. onedit
+
+Ans : onformchange
+
+
+7.Which of the following tags best describes a document's navigational section in HTML5?
+       A. nav
+
+       B. section
+
+       C. footer
+
+       D. navigation
+
+Ans : nav
+
+
+8.What new form components are included in HTML5?
+
+       A. optgroup, button, keygen
+
+       B. datalist, keygen, output
+
+       C. optgroup, button, datalist
+
+       D. datalist, keygen, button
+
+Ans : datalist, keygen, output
+
+
+9. Which video tag attribute specifies the image that will be shown while the video downloads?
+
+       A. fig
+
+       B. src
+
+       C. img
+
+       D. poster
+
+Ans : poster
+
+
+10. Using _______, a video player may be embedded in HTML5.
+       A. src
+
+       B. source
+
+       C. vid
+
+       D. iframe
+
+Ans : D
+
+
+11. The controls property offers controls for audio and video, such as PLAY, PAUSE, and VOLUME.
+
+       A. True
+
+       B. False
+
+Ans : True
+
+
+12. In HTML5 Programmatic control of the audio element is possible from .
+
+       A. HTML or CSS or JavaScript
+
+       B. HTML
+
+       C. CSS
+
+       D. Javascript
+
+Ans : HTML
+
+
+13.SVG is mostly used for diagrams with vector elements, like .
+
+       A. PieCharts and 3D Graphs
+
+       B. PieCharts and 2D Graphs
+
+       C. 2D Graphs
+
+       D. 3D Graphs
+
+Ans : A
+
+
+14. How do you insert a canvas element with the ID canvas1 into a JavaScript variable?
+
+       A. var canvas1 = document.getElementById(‘canvas1’);
+
+       B. var canvas1 = document.get(‘#canvas1’);
+
+       C. var canvas1 = getElementById(‘canvas1’);
+
+       D. var canvas1 = document.getElement(‘canvas1’);
+
+Ans : var canvas1 = document.getElementById(‘canvas1’);
+
+
+15.Except for ___, the following statements regarding SVG graphics are true.
+
+       A. Graphics in SVG are defined in XML
+
+       B. SVGs do not lose quality when zoomed
+
+       C. SVG is mostly used for graphs
+
+       D. Graphics in SVG are defined using JavaScript
+
+
+Ans : Graphics in SVG are defined using JavaScript
+
+
+16.Which is most appropriate for programmes like Google Maps that require big rendering areas?
+
+       A. None of the options
+
+       B. Canvas and SVG
+
+       C. SVG
+
+       D. Canvas
+
+Ans : SVG
+
+
+17. Scalable Vector Graphics are defined in which markup language?
+
+       A. XML
+
+       B. Native HTML
+
+       C. HTML5
+
+       D. DHTML
+
+Ans : XML
+
+
+18. Which of the following APIs can be used to suggest nearby restaurants in a restaurant finder app?
+
+       A. Local Storage
+
+       B. Cache API
+
+       C. Web Workers
+
+       D. Geolocation API
+
+Ans : Geolocation API
+
+
+19. Which API can be used to display the thumbnail image of a file being uploaded in a HTML5 photo sharing website?
+
+       A. File API
+
+       B. Web Storage API
+
+       C. Device Access API
+
+       D. Cache API
+
+Ans : File API
+
+
+20. Which of the following attributes triggers event when an element is dragged?
+
+       A. ondragenter
+
+       B. ondragover
+
+       C. ondragevent
+
+       D. ondragdrop
+
+Ans : ondragover
+
+
+21. Which of the following attributes triggers event when the window loses focus?
+
+       A. onlastfocus
+
+       B. onblur
+
+       C. lostfocus
+
+       D. onbeforeload
+
+Ans : onblur
+
+22.Which of the following attributes specifies whether a user is allowed to drag an element or not?
+
+       A. drag
+
+       B. dragdrop
+
+       C. draggable
+
+       D. context
+
+Ans : draggable
+
+
+23. The following are suited for game applications, except ______.
+
+       A. SVG
+
+       B. Canvas and SVG
+
+       C. Canvas
+
+       D. None of the options
+
+Ans : Canvas and SVG
+
+
+24. A semantic element clearly describes its meaning to the ______.
+
+       A. Browser
+
+       B. Browser and Developer
+
+       C. None of the options
+
+       D. Developer
+
+Ans : Browser and Developer
+
+
+
+

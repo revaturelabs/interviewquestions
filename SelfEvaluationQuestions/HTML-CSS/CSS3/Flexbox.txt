@@ -1,0 +1,15 @@
+
+1. The main idea behind the flex layout is to give the container the ability to alter its items’ width/height.
+
+A. True 
+B. False
+
+Answer: A
+
+
+2.  Major disadvantage of Flexbox is it is Direction oriented.
+
+A. False  
+B. True
+
+Answer: A

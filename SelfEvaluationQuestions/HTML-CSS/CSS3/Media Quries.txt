@@ -1,0 +1,95 @@
+
+1. What does all media type is used for?
+
+A. For use with all devices 
+B. For use with speech synthesizers
+C. For use with handheld devices
+D. For use with tactile Braille devices
+
+Answer: A
+
+
+2. What does projection media type is used for?
+
+A. For use with projected media (direct computer-to-projector presentations), or printing transparencies for projection. 
+B. For use with color computer screens
+C. For use with handheld devices
+D. For use with television-type devices
+
+Answer: A
+
+
+3. What does tty media type is used for ?
+
+A. For use with low-resolution teletypes, terminals, or other devices with limited display capabilities. 
+B. For use with Braille printers.
+C. For use with speech synthesizers.
+D. For use with projected media (direct computer-to-projector presentations), or printing transparencies for projection.
+
+Answer: A
+
+
+4. What does aural media type is used for ?
+
+A. For use with low-resolution teletypes, terminals, or other devices with limited display capabilities
+B. For use with speech synthesizers
+C. For use with Braille printers
+D. For use with projected media (direct computer-to-projector presentations), or printing transparencies for projection 
+
+Answer: D
+
+
+5. What does braille media type is used for?
+
+A. For use with all devices
+B. For use with speech synthesizers 
+C. For use with handheld devices
+D. For use with tactile Braille devices
+
+Answer: B
+
+
+6. The __________ rule makes it possible to define different style rules for different media types in the same stylesheet.
+
+A. audio/video
+B. sink
+C. @media 
+D. @canvas
+
+Answer: C
+
+
+7. What is the way to specify media dependencies for style sheets ?
+
+A. Specify the target medium from a style sheet with the @media or @import at-rules
+B. Specify the target medium within the document language
+C. both Specify the target medium from a style sheet with the @media or @import at-rules and Specify the target medium within the document language. 
+D. none of the mentioned
+
+Answer: C
+
+
+8. ____________ types are mutually exclusive in the sense that a user agent can only support one media type when rendering a document.
+
+A. tv
+B. tty
+C. media 
+D. audio
+
+Answer: C
+
+
+9. If an @media/@import rule contains a malformed media type (not an identifier) then the statement is valid. State true or false.
+
+A. True
+B. False 
+
+Answer: B
+
+
+10. Media type names are case-insensitive. State true or false.
+
+A. True 
+B. False
+
+Answer: A

@@ -1,0 +1,9 @@
+#approve
+1) Since they were first used in........................., attribute selectors enable rules to match items with specific characteristics or attribute values.
+
+A. CSS1
+B. CSS2.1
+C. CSS3
+D. CSS2    
+
+Answer: D

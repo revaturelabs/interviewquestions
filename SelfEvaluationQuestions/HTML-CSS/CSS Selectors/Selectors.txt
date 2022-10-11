@@ -1,0 +1,93 @@
+ 
+1) In CSS "color:pink" is defined as a: 
+ 
+A.    Selector
+B.    Rule 
+C.    Declaration   
+D.    Value
+
+Answer: D
+
+
+2) How do you alter an element's text colour?
+
+ A. color:
+ B. test-color:
+ C. text:color
+ D. fgcolor:
+
+Answer: A
+
+
+3) In CSS "font:size" is defined as a: 
+
+A. Selector
+B. Rule
+C. Property
+D. Property-Name 
+
+Answer: D
+
+
+4) Which selectors are employed to define a collection of items
+
+A. name
+B. id
+C. class  
+D. tag
+
+Answer: C
+
+
+5)  In CSS, what attribute is used to alter the background colour?
+
+A. bgcolor: 
+B. background-color: 
+C. color:
+D. back-color:
+
+Answer: B
+
+
+6) What among the following chooses a regular or small-caps face from a font family?
+
+A. font-weight 
+B. font-synthesis
+C. font-variant 
+D. font-kerning
+
+Answer: C
+
+
+7) Which of the above properties defines a shortcut property for configuring the margin properties in a single declaration?
+
+A. border 
+B. border-top
+C. border-bottom
+D. border-left
+
+Answer: A
+
+
+8) What will happen in this case?
+
+h1 {
+    color:"green";
+}
+
+A. make the h1 tag green. 
+B. error
+C. nothing happens
+D. none of the mentioned.
+
+Answer: A
+
+ 
+9) Which of the following selectors selects the specified elements of type E with a particular class value?
+
+A. E.class
+B. E ~ F
+C. *
+D. E, F, G
+  
+Answer: A 
