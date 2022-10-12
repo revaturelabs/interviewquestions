@@ -34,7 +34,7 @@
 
 ---
 
-2. What are three types of implementations of `DataSource` in Java application?
+3. What are three types of implementations of `DataSource` in Java application?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -52,7 +52,7 @@
 </details>
 
 ---
-3. What is `Connection Pooling` in enterprise application?
+4. What is `Connection Pooling` in enterprise application?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -69,7 +69,7 @@
 </details>
 
 ---
-4. What default connection pool does spring boot use?
+5. What default connection pool does spring boot use?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -86,7 +86,7 @@
 
 ---
 
-5. What connection pool does spring boot supports?
+6. What connection pool does spring boot supports?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -109,7 +109,7 @@
 </details>
 
 ---
-6. What is the sequence of choosing various connection pools inside Spring application?
+7. What is the sequence of choosing various connection pools inside Spring application?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -128,7 +128,7 @@
 </details>
 
 ---
-7. What is `Programmatic & Declarative Trasnaction Management` in Spring application?
+8. What is `Programmatic & Declarative Trasnaction Management` in Spring application?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -149,7 +149,7 @@
 </details>
 
 ---
-8. What does isloation and propagation attributes denote in @Transactional annoation e.g. `@Transactional(isolation = xxx, propagation = xxx)`?
+9. What does isloation and propagation attributes denote in @Transactional annoation e.g. `@Transactional(isolation = xxx, propagation = xxx)`?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -166,7 +166,7 @@
 </details>
 
 ---
-9. What configurations does `Spring JDBC` & developer need to perform in application?
+10. What configurations does `Spring JDBC` & developer need to perform in application?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
