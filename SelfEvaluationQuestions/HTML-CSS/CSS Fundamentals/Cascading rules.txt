@@ -45,7 +45,7 @@ Explanation: By using /**/ to write comments in CSS.
 
 
 
-6. How do we specify the rule for binding a particular unique element? Which selector do we use?
+5. How do we specify the rule for binding a particular unique element? Which selector do we use?
 
 A. id 
 B. tag
@@ -56,7 +56,7 @@ ANSWER: A
 Explanation: id is used to specify the rule for binding a particular unique element.
 
 
-7. What tag should be used if you want to write the style guidelines in a document's head directly?
+6. What tag should be used if you want to write the style guidelines in a document's head directly?
 
 A. <style>
 B. <css>
