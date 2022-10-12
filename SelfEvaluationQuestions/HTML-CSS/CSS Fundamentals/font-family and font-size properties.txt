@@ -22,7 +22,7 @@ ANSWER: B
 Explanation: We can define the custom fonts using @font-face rule in CSS
 
 
-5. Which of the following does not represent a value for font-style property?
+3. Which of the following does not represent a value for font-style property?
 
 A. italic
 B. oblique
@@ -33,7 +33,7 @@ ANSWER: D
 Explanation: itlaic, oblique and normal are belongs to font-style property.
 
 
-6. Which value is allowed to synthesize bold or oblique font faces when a font family lacks bold or italic faces?
+4. Which value is allowed to synthesize bold or oblique font faces when a font family lacks bold or italic faces?
 
 A. font-weight
 B. font-kerning
@@ -44,7 +44,7 @@ ANSWER: C
 Explanation: font-synthesis allows to synthesize bold or oblique font faces when a font family lacks bold or italic faces.
 
 
-7. Which value selects a normal or small caps face from a font family ?
+5. Which value selects a normal or small caps face from a font family ?
 
 A. font-variant
 B. font-kerning
@@ -55,7 +55,7 @@ ANSWER: A
 Explanation: font-variant selects a normal or small caps face from a font family.
 
 #re-work on answer
-8. Which allows you to expand or condense the widths for a normal, condensed, or expanded font face ?
+6. Which allows you to expand or condense the widths for a normal, condensed, or expanded font face ?
 
 A. font-expand
 B. font-stretch
@@ -65,7 +65,7 @@ D. None of the above
 ANSWER: D
 
 
-9. Which of the following properties modifies the font-size of the fallback fonts specified by font-family such that the x-height is constant of the font used ?
+7. Which of the following properties modifies the font-size of the fallback fonts specified by font-family such that the x-height is constant of the font used ?
 
 A. default
 B. font-size-adjust
@@ -76,7 +76,7 @@ ANSWER: B
 Explanation: font-size-adjust property modifies the font-size of the fallback fonts specified by font-family.
 
 
-10. Which font-size-adjust is used in calculating the size of the fallback fonts ?
+8. Which font-size-adjust is used in calculating the size of the fallback fonts ?
 
 A. number
 B. auto
@@ -87,7 +87,7 @@ ANSWER: A
 Explanation: 
 
 
-11. “font-variant comes first than font-weight in font attribute”.State true or false.
+9. “font-variant comes first than font-weight in font attribute”.State true or false.
 
 A. True
 B. False
