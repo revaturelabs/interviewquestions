@@ -1,0 +1,102 @@
+#UnitofSize
+
+1. What are the different units for expressing the length ?
+
+A. padding
+B. margin
+C. font-size
+D. All the above 
+
+
+ANSWER: D 
+Explanation: CSS has several different units to expressing a length such as width, margin, padding, font-size etc.
+
+2. What is the unit of the length value in CSS properties ?
+
+A. px
+B. em
+C. Both A and B
+D. None of the above
+
+ANSWER: C 
+Explanation: The unit of the length such as 10px, 2em etc 
+
+
+3. State True or False. The CSS units are of two types of length units.
+
+ANSWER: True
+Explanation: Two types of length units are absolute and relative.
+
+
+4. Which is not an Absolute Unit mentioned below ?
+
+A. px
+B. mm
+C. pt
+D. em
+
+ANSWER: D
+Explanation: em refers to relative unit
+
+
+5. Which of the following unit refers to the viewport’s width?
+
+A. vw
+B. vmin
+C. vh
+D. ch
+
+ANSWER: A 
+
+
+6. Which of the following Color Format can also be defined by the keyword rgb, three numbers between 0 and 255 enclosed in parentheses, separated by commas, and separated by no spaces?
+
+A. RGBa Color
+B. RGB Color
+C. HSL Color
+D. HSLa Color
+
+ANSWER: B 
+Explanation: Example of RGB color is p {color:rgb(0%,25%,45%);}
+
+
+7. Which of the following is not refers to an attribute of the audio element ?
+
+A. src
+B. check 
+C. loop 
+D. controls 
+
+ANSWER: B 
+
+
+8. Which of the following is used to define the multiple media resources audio and video ?
+
+A. <script>
+B. <link>
+C. <source>
+D. <src>
+
+ANSWER: C 
+Explantion: <source> element is used to define the multiple media resources for media elements.
+
+
+9. By which protocol enables hyperlink and How to access the file on the local file on system ?
+
+A. telnet
+B. http
+C. ftp
+D. file
+
+ANSWER: D 
+Explanation: file protocol enables hyperlink and it access the file on the local file on system.
+
+
+10. The value ##ff0000 refers to which color ______________
+
+A. green
+B. red
+C. yellow
+D. blue
+
+ANSWER: B

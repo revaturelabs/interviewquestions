@@ -1,0 +1,144 @@
+#IntroductiontoCSS
+
+1. Expand CSS.
+A. Cascading style sheets
+B. Color and Style sheets
+C. Cascade style sheets
+D. None of the above.
+
+ANSWER: A 
+Explanation: CSS is used to design a HTML tags and it also widely used for web designing.
+
+
+2. Which tag is used to define the CSS property inside the HTML file ?
+
+A. <style>
+B. style
+C. styles
+D. None of the above
+
+ANSWER: B 
+Explanation: style tag is used to define the internal styles  in HTML attribute.
+
+
+3. How many categories of CSS selectors ?
+
+A. 6
+B. 5
+C. 4
+D. 7
+
+ANSWER: B
+Explanation: CSS selectors are of five categories namely Simple, Combinator, Pseudo-class, Pseudo-elements and attribute.
+
+
+4. What type of CSS is the following code snippet below?
+     <h1 style="color:red;">A Red Headings</h1>
+
+A. External
+B. Inline
+C. Internal 
+D. None of the above
+
+ANSWER: B 
+Explanation: Inline CSS is an example of the above code snippet. 
+
+
+5. Which type of CSS is used to designing the large web pages ?
+
+A. Inline
+B. Internal
+C. External
+D. None of the above
+
+ANSWER: C 
+Explanation: In general, external CSS is used for designing the large web pages.
+
+
+6. What does a property's inherit value do ?
+
+A. Invalid property name
+B. Changes the value of the parent's element
+C. Inherits the value of the parent element
+D. None of the above
+
+ANSWER: C 
+Explanation: Inherit property is used to inherit the value of the parent element.
+
+
+7. h1 can be refer to as ______ in CSS.
+
+A. Attribute
+B. Selector
+C. Value
+D. Tag
+
+ANSWER: B 
+Explanation: h1 element refers to selector in CSS and it is used for styling.
+
+
+8. In CSS, "color:yellow" refers to ______
+
+A. Attribute
+B. Selector
+C. Value
+D. Declaration
+
+ANSWER: D 
+Explanation: color:yellow is the declaration for an element that it applies a yellow color.
+
+
+9. Which of the following attributes is used to define the items which style rules should be apply to ?
+
+A. class
+B. id
+C. tag
+D. All the above
+
+ANSWER: D 
+Explanation: class, id and tag are the attributes is used to define the items for styling elements.
+
+
+10. In which selector is used to define the rule to bind a particular element ?
+
+A. class
+B. id
+C. tag
+D. both id and tag
+
+ANSWER: B 
+Explanation: id is the selector which is used to specify the rule to bind a particular element. 
+
+
+11. "font-size" is referred as ________ in CSS.
+
+A. rule
+B. class
+C. property-name
+D. property
+
+ANSWER: C
+Explanation: font-size is the property-name in CSS which is used to increase/decrease the size of the text.
+
+
+12. Which selector is used to specify the group of elements in CSS ?
+
+A. class
+B. tag
+C. id 
+D. both class and id
+
+ANSWER: A 
+Explanation: By using class selector is used to specify the group of elements in CSS.
+
+
+13. In which tag is used to embed css in html page ?
+
+A. <style>
+B. <script>
+C. <css>
+D. <!DOCTYPE html>
+
+ANSWER: A 
+Explanation: <style> tag is used to embed csss in html page.
+

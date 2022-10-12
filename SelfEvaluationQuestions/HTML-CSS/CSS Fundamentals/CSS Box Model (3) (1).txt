@@ -1,0 +1,177 @@
+#CSSBoxModel
+
+1. Which CSS property is used to specify the maximum width of an elements content box ?
+
+A. max-height property
+B. max-width property
+C. width property
+D. height property
+
+ANSWER: B
+Explanation: max-width property in CSS is used to specify the maximum width of an element.
+
+
+2. The CSS property is used to set the maximum height of the element's content box.
+
+A. height property
+B. max-height property
+C. max-width property
+D. None of the Above
+
+ANSWER: B 
+Explanation: max-height property is use to set the maximum height of the element's content box.
+
+
+3. Which of the CSS property is used to set the minimum width of the element's content box ?
+
+A. width property
+B. min-width property
+C. max-height property
+D. None of the above
+
+ANSWER: B 
+Explanation: min-width property is used to set the minimum width of an element's content box.
+
+
+4. How to set the horizontal alignment of a table-cell box or the block element in CSS ?
+
+A. text-transform
+B. text-align
+C. text-decoration
+D. text-shadow
+
+ANSWER: B
+Explanation: text-align is used to define the horizontal alignment of a table-cell box or the block element.
+
+
+5. How to define the order of the flex item in the grid container ?
+
+A. float 
+B. order
+C. overflow
+D. None of the above
+
+ANSWER: B 
+Explanation: order proeprty is used to define the order of the flex item in the grid container and it ordering the flex items.
+
+
+6. What are the components of the CSS box model ?
+
+A. borders
+B. margins
+C. padding
+D. All the above
+
+ANSWER: D
+Explanation: Borders, Margins and Padding are the parts of the CSS box model.
+
+7. Which of the following attributes enlarges an element's top padding ?
+
+A. top
+B. height
+C. padding-top
+D. padding-height
+
+ANSWER: C
+Explanation: padding-top is used to add padding to the top of the element.
+
+
+8. Which display property value perfectly describes the phrase treats the element as inline?
+
+A. list-item
+B. block
+C. inline
+D. inline-block
+
+ANSWER: C
+Explanation: inline property value describes the phrase treats the elements in CSS.
+
+
+9. In which property specifies the style for the bottom border of an element ?
+
+A. border-collapse
+B. border-bottom-style
+C. border-style-bottom
+D. None of the above
+
+AMSWER: B 
+Explanation:  border-bottom-style property specifies the style for the bottom border of an element.
+
+
+10. In which of the following property defines the style for the left border of an element ?
+
+A. border-left width
+B. border-left style
+C. border-style
+D. None of the above
+
+ANSWER: B 
+Explanation: border-left style property is used to specify the style for the left border of an element.
+
+
+11. In which of the following visibility property value is specified by the element is not visible ?
+
+A. hidden
+B. collapse
+C. visible
+D. None of the above
+
+ANSWER: A 
+
+
+12. Which of the display property value is specified by used internally by browsers to create list items ?
+
+A. inline-block
+B. group
+C. list-item
+D. None of the above
+
+ANSWER: C 
+Explanation: list-item is the display property value is specified by used internally by browsers to create list items
+
+
+13. In Which of the following property is used to controls the horizontal overflow of a block or inline block?
+
+A. overflow
+B. overflow-x
+C. overflow-y
+D. overflow-k 
+
+ANSWER: B 
+Explanation: overflow-x is the property used to controls the horizontal overflow of a block or inline block. 
+
+
+14. In which overflow property value is specified by scrollbars should be provided if content is too big ?
+
+A. visible
+B. auto
+C. scroll
+D. hidden
+
+ANSWER: B 
+Explanation: auto is the overflow property value is specified by scrollbars should be provided.
+
+
+15. Which of the following property used to sets a consistent margin on all four sides of the affected element ?
+
+A. margin
+B. border
+C. padding
+D. None of the above
+
+ANSWER: A 
+Explanation: margin is the property in CSS used to sets a consistent margin on all four sides.
+
+
+16. In which of the following box-sizing property value describes the height and width padding and borders ?
+
+A. content-box
+B. border
+C. border-box
+D. None of the above
+
+ANSWER: C 
+Explanation: border-box property of box-sizing value describes the height and width padding and borders.
+
+
+

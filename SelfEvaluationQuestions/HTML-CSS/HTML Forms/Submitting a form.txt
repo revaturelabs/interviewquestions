@@ -1,0 +1,37 @@
+1.For defining a submit button which tag is used?
+
+A.<button>
+B.<action submit>
+C.<submit>
+D.<submit button>
+
+Answer: C
+
+Explanation: The submit button is defined by the <input type="submit">, which submits all form values to a form-handler. The form-handler is usually a server page that contains a script that processes the input data. The form's action element specifies the form's handler.
+
+2.<form action="/action_page.html">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+The above html code is an example for,
+
+A.Lable Button
+B.Radio Button
+C.Submit Button
+D.None of these
+
+Answer: C
+
+3.The _________attribute specifies the HTTP method to be used when submitting the form data.
+
+A.Autocomplete 
+B.Action 
+C.Target 
+D.Method
+Answer: D
+
+Explanation: The method attribute determines how form-data should be submitted (the form-data is sent to the page specified in the action attribute). Form data can be transmitted as URL variables (method="get") or as an HTTP post transaction (method="post").
