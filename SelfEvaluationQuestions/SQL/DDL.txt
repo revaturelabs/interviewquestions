@@ -10,21 +10,11 @@ D.  Index
 
 Answer: D
 
-#IGNORE
-2. What is the range of number of letters in a table name?
-
-A.  1-30 characters 
-B.  1-20 characters 
-C.  1-10 characters 
-D.  1-40 characters 
-
-Answer: A.  1-30 characters
-
 
 #P1
 ##EASY
 ###BC
-3. Which of the following special characters cannot be used in table name?
+2. Which of the following special characters cannot be used in table name?
 
 A.  # 
 B.  @ 
@@ -36,7 +26,7 @@ Answer: B
 #P1
 ##MEDIUM
 ###BC
-4. While creating a table which of the following can be used with the DEFAULT column option?
+3. While creating a table which of the following can be used with the DEFAULT column option?
 
 A.  Strings
 B.  SQL functions
@@ -48,7 +38,7 @@ Answer: D
 #P1
 ##EASY
 ###BC
-5. What command is used to view table's structure?
+4. What command is used to view table's structure?
 
 A.  UPDATE
 B.  SHOW
@@ -60,7 +50,7 @@ Answer: D
 #P1
 ##MEDIUM
 ###BC
-6. Which of the following statement refers to both table and index?
+5. Which of the following statement refers to both table and index?
 
 A.  A table and an index cannot be the same name in a schemA. 
 B.  A table and an index can have the same name in a schemA. 
@@ -72,7 +62,7 @@ Answer: B
 #P1
 ##COMPLEX
 ###BC
-7. Which of the following query used to create a table with no rows?
+6. Which of the following query used to create a table with no rows?
 
 A.  CREATE TABLE stu AS SELECT 0 from students;
 B.  CREATE TABLE stu AS SELECT * from students where 1=1;
@@ -84,7 +74,7 @@ Answer: C
 #P1
 ##MEDIUM
 ###BC
-8. Which of the following query is used to add a column to an existing table?
+7. Which of the following query is used to add a column to an existing table?
 
 A.  ALTER TABLE table_name add column (place varchar2(20));
 B.  ALTER TABLE table_name add place varchar2(20);
@@ -94,20 +84,10 @@ D.  ALTER TABLE table_name add (place varchar2(20));
 Answer: D
 Explanation: ALTER TABLE command is used to add a new column to a table. New column should define by a column name and datatype. 
 
-#IGNORE
-9. What command is used to modify the datatype of an existing column?
-
-A.  ALTER TABLE table_name MODIFY place varchar2(10);
-B.  ALTER TABLE table_name MODIFY (place varchar2(10));
-C.  ALTER TABLE table_name MODIFY column (place varchar2(10));
-D.  ALTER TABLE table_name MODIFY (place varchar2(10));
-
-Answer: D
-
 #P1
 ##MEDIUM
 ###BC
-10. Which of the following is valid query to delete the column from the table ?
+8. Which of the following is valid query to delete the column from the table ?
 
 A. ALTER TABLE table_name DROP (place varchar2(20));
 B. ALTER TABLE table table_name DROP COLUMN (place);
@@ -119,7 +99,7 @@ Answer: B
 #P1
 ##MEDIUM
 ###BC
-11. Let us consider the following schema below:
+9. Let us consider the following schema below:
 
 STUDENTS(sub_code, dep_name, location_id, city);
 
@@ -135,7 +115,7 @@ Answer: B
 #P1
 ##MEDIUM
 ###BC
-12. Which of the following code snippet will delete a view named marks_maths?
+10. Which of the following code snippet will delete a view named marks_maths?
 
 A. DELETE VIEW marks_maths;
 B. DELETE marks_maths;
@@ -145,20 +125,10 @@ D. DROP marks_maths;
 Answer: C
 Explanation: DROP VIEW command is used to remove the column marks_maths in the  table.
 
-#IGNORE
-13. By constraining a SQL statement, we can restrict the _______ according to specific constraints.
-
-A. Row
-B. Database
-C. Column
-D. Table
-
-Answer: B
-
 #P1
 ##EASY
 ###BC
-14. How many ways to apply constraint in SQL?
+11. How many ways to apply constraint in SQL?
 
 A. 5
 B. 6
@@ -171,7 +141,7 @@ Explanation: SQL constraints can be applied in two ways - Table Level Constraint
 #P1
 ##EASY
 ###BC
-15. NULL refers to
+12. NULL refers to
 
 A. -1
 B. 1
@@ -184,7 +154,7 @@ Explanation: NULL refers to empty only not even a zero.
 #P1
 ##MEDIUM
 ###BC
-16. _______ is acheived by using a foreign key?
+13. _______ is acheived by using a foreign key?
 
 A. Domain Integrity
 B. User-defined Integrity
@@ -194,31 +164,10 @@ D. Referential Integrity
 Answer: D
 Explanation: Referential integrity means relationship between the tables. In each table must have a primary key in a database. In other words, the condition of a set of tables in which all references to another table from one table are valid. 
 
-
-#IGNORE
-17. The UNIQUE constraint can be used to______the existing tables too.
-
-A.  Modify
-B.  Change
-C.  Delete
-D.  Drop
-
-Answer: A
-
-#IGNORE
-18. Which of the following does not include a foreign key?
-
-A.  SET NULL
-B.  NO ACTION
-C.  CASCADE
-D.  None of the above
-
-Answer: C
-
 #P1
 ##MEDIUM
 ###BC
-19. Which SQL constraint must be used in order to add a value to a column that has not had one added explicitly?
+14. Which SQL constraint must be used in order to add a value to a column that has not had one added explicitly?
 
 A. DEFAULT
 B. UNIQUE
@@ -228,40 +177,10 @@ D. NOT NULL
 Answer: DEFAULT
 Explanation: DEFAULT is a used to set a default value for a column.
 
-#IGNORE
-20. A period of days, hours, minutes, and seconds should be maintained in a column.
-Which data type would be most helpful?
-
-A.  TIMESTAMP
-B.  INTERVAL DAY TO SECOND
-C.  INTERVAL YEAR TO MONTH
-D.  None of the above
-
-Answer: B
-
-#IGNORE
-21.You need compute the number of employees hired in June 2011 and June 2012.
-Which of the following data types will help?
-A.  INTERVAL DAY TO SECOND
-B.  TIMESTAMP
-C.  INTERVAL YEAR TO MONTH
-D.  DATE
-
-Answer: C
-
-#IGNORE
-22.What is the maximum number of variable-length binary strings which a RAW data type column can store?
-A.  10 GB
-B.  1 TB
-C.  4 GB
-D.  2 GB
-
-Answer: D
-
 #P1
 ##COMPLEX
 ###BC
-23. Where are constraints stored?
+15. Where are constraints stored?
 
 A.  In the info table
 B.  In data dictionary
@@ -270,11 +189,10 @@ D.  None of the above
 
 Answer: B
 
-
 #P1
 ##EASY
 ###BC
-24. Rows of a relation refers to
+16. Rows of a relation refers to
 
 A. Entity
 B. Tuple
@@ -283,11 +201,10 @@ D. None of the above
 
 Answer: B
 
-
 #P1
 ##MEDIUM
 ###BC
-25.Which of the following is used to identify the a tuple ?
+17.Which of the following is used to identify the a tuple ?
 
 A.  Attribute
 B.  Schema
@@ -297,21 +214,10 @@ D.  Super key
 Answer: D
 
 
-#IGNORE
-27.How many operations are consider to be the basic SQL operations?
-
-A.  3
-B.  4
-C.  2
-D.  1
-
-Answer: B
-Explanation: The four basic SQL operations are CREATE, READ, UPDATE and DELETE (CRUD)
-
 #P1
 ##MEDIUM
 ###BC
-28.Which of the following commands is used to delete a trigger in sql ?
+18.Which of the following commands is used to delete a trigger in sql ?
 
 A.  Delete
 B.  Drop
@@ -324,7 +230,7 @@ Explanation: DROP command is used to delete a trigger in sql.
 #P1
 ##MEDIUM
 ###TF
-29.State True or False:  SHOW TRIGGERS lists the triggers currently defined for tables in a database.
+19.State True or False:  SHOW TRIGGERS lists the triggers currently defined for tables in a database.
 
 A. TRUE
 B. FALSE
@@ -334,42 +240,17 @@ Answer: A
 #P1
 ##MEDIUM
 ###TF
-30.State True or False:  Candidate key can be a single column or combination of more than one column.
+20.State True or False:  Candidate key can be a single column or combination of more than one column.
 
 A. TRUE
 B. FALSE
 
 Answer: A
 
-#IGNORE
-31.If a table already has the primary key, why do we need to create an index?
-
-A.  improves the speed of data retrieval operations on a table.
-B.  special lookup tables that will be used by the database search engine.
-C.  synonyms of a column in a table.
-D.  All of the above
-
-Answer: A
-
-
-#IGNORE
-32.A constraint that can only be specified at the column level is.
-
-A.  UNIQUE
-B.  CHECK
-C.  NOT NULL
-D.  PRIMARY KEY
-
-Answer: C
-
-Explanation: NOT NULL constraint prevent to insert the NULL values into the specified column. So that NOT NULL constraint
-specified at the column level only.
-
-
 #P1
 ##EASY
 ###BC
-33.Which of the following is valid SQL for an index?
+21.Which of the following is valid SQL for an index?
 
 A. 	CHANGE INDEX...;
 B. 	CREATE INDEX...;
@@ -378,11 +259,10 @@ D. 	REMOVE INDEX...;
 
 Answer: B
 
-
 #P1
 ##MEDIUM
 ###BC
-34.What has to be enclosed in double quotes?
+22.What has to be enclosed in double quotes?
 
 A.  Column Alias
 B.  Dates
@@ -391,21 +271,10 @@ D.  All of the above
 
 Answer: A
 
-#IGNORE
-35. What are the different ways can a table to be present ?
-
-A.  Design View
-B.  Pivote TableView
-C.  Datasheet View
-D.  All Of Above
-
-Answer:  D
-
-
 #P1
 ##EASY
 ###BC
-36. Which among the following one or more attributes taken collectively to uniquly identify a record ?
+23. Which among the following one or more attributes taken collectively to uniquly identify a record ?
 
 A.  Sub key
 B.  Common key
@@ -417,7 +286,7 @@ Answer: C
 #P1
 ##MEDIUM
 ###BC
-37. A top to bottom relationship in a database refer as 
+24. A top to bottom relationship in a database refer as 
 
 A.  Network schema
 B.  Hierarchical schema
@@ -429,7 +298,7 @@ Answer: B
 #P1
 ##MEDIUM
 ###BC
-38. Which of the following constraint is not a need for uniqueness?
+25. Which of the following constraint is not a need for uniqueness?
 
 A.  Primary key
 B.  Foreign key
@@ -441,7 +310,7 @@ Answer: B.  Foreign key
 #P1
 ##MEDIUM
 ###BC
-39. Which of the following statements are correct one.
+26. Which of the following statements are correct one.
 
 A.  CHECK constraints enforce domain integrity
 B.  In a UNIQUE constraint, no two rows in the table can have the same value for the columns
@@ -450,31 +319,20 @@ D.  All of the mentioned
 
 Answer: D
 
-#IGNORE
-40. How many types of Integrity constraints we have ?
-
-A.  3
-B.  2
-C.  1
-D.  4
-
-Answer: D
-
 #P1
 ##MEDIUM
 ###TF
-41. TRUNCATE is the DDL statement whereas DELETE is a DML statement.
+27. TRUNCATE is the DDL statement whereas DELETE is a DML statement.
 
 A. TRUE
 B. FALSE
 
 Answer: A
 
-
 #P1
 ##EASY
 ###BC
-42. Which one is faster to delete a table?
+28. Which one is faster to delete a table?
 
 A.  Truncate
 B.  Delete
@@ -483,33 +341,10 @@ D.  None of the above
 
 Answer: A
 
-
-#IGNORE
-43. What are the restrictions while using Truncate?
-
-A.  Foreign Key only,
-B.  No restrictions
-C.  Foreign key, participation in indexed view
-D.  None of the above
-
-Answer: C.  Foreign key, participation in indexed view
-
-
-#IGNORE
-44. Does truncate retain Identity?
-
-A.  Never retains Identity
-B.  Reset to the seed value
-C.  No Change on Identity
-D.  None of the above
-
-Answer: B.  Reset to the seed value  
-
-
 #P1
 ##MEDIUM
 ###BC
-45. Truncate statement locks whole Table or a single Row at a time?
+29. Truncate statement locks whole Table or a single Row at a time?
 
 A.  Both
 B.  Only Row
@@ -518,11 +353,10 @@ D.  None of the above
 
 Answer: C
 
-
 #P1
 ##COMPLEX
 ###BC
-46. What is true about truncate with Foreign key?
+30. What is true about truncate with Foreign key?
 
 A.  It will delete the rows from both the tables (child as well as parent)
 B.  It will not delete even if CASCADE ON DELETE option is given with parent table
@@ -531,34 +365,10 @@ D.  All are true
 
 Answer: B
 
-
-#IGNORE
-47. Out of the below constraints which one is applicable on Delete query?
-
-A.  Row level constraints
-B.  Page level constraints
-C.  Table Level constraints
-D.  None of the above.
-
-Answer: A.  Row level constraints
-
-
-#IGNORE
-47.The Command ______________ such tables are available only within the transaction executing the query, and are dropped when the transactions finishes.
-
-A. Create Table.
-B. Create View.
-C. Create temporary Table.
-D. Create Label view.
-
-Answer: C
-Explanation: DDL Statement is used to alter structure of a table.
-
-
 #P1
 ##MEDIUM
 ###BC
-49.How many Primary keys that a table have in SQL?
+31.How many Primary keys that a table have in SQL?
 
 A.  Depends on DBA
 B.  Only 1
