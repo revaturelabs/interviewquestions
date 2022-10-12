@@ -170,7 +170,7 @@ ANSWER: B
 Explanation: outline property is used to draw a line around the elements outside the border.
 
 
-17. Choose the option that correctly specifies the output of the following CSS.
+16. Choose the option that correctly specifies the output of the following CSS.
 
 span {
 	border: 1px solid green;
@@ -187,7 +187,7 @@ ANSWER: D
 Explanation: Border property creates the inner border while the outline sets the outer border.
 
 
-18. Which property defines the color of an outline in CSS ?
+17. Which property defines the color of an outline in CSS ?
 
 A. outline-color
 B. color-outline
@@ -198,7 +198,7 @@ ANSWER: A
 Explanation: outline-color property defines the color of an outline in CSS.
 
 
-19. Which outline property that defines the amount of area extended beyond the border box ?
+18. Which outline property that defines the amount of area extended beyond the border box ?
 
 A. inset
 B. outset
@@ -209,7 +209,7 @@ ANSWER: B
 Explanation: outset property define the 3D border.
 
 
-20. In which of the value define the dashed outline ?
+19. In which of the value define the dashed outline ?
 
 A. dash
 B. double-dash
