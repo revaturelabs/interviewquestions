@@ -3008,7 +3008,7 @@ Basicallt TOP() function is used to returns the top N tuples from any specific b
 
 ---
 
-178.  What are the commonalities between Pig and Hive?
+177.  What are the commonalities between Pig and Hive?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3022,7 +3022,7 @@ Basicallt TOP() function is used to returns the top N tuples from any specific b
 
 ---
 
-179. You have a file employee.txt in the HDFS directory with 100 records. You want to see only the first 10 records from the employee.txt file. How will you do this?
+178. You have a file employee.txt in the HDFS directory with 100 records. You want to see only the first 10 records from the employee.txt file. How will you do this?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3039,7 +3039,7 @@ Result = Limit employee 10.
 ---
 
 
-180.  Explain about the scalar datatypes in Apache Pig.
+179.  Explain about the scalar datatypes in Apache Pig.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3058,7 +3058,7 @@ Result = Limit employee 10.
 ---
 
 
-181. How do users interact with HDFS in Apache Pig ?
+180. How do users interact with HDFS in Apache Pig ?
 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -3074,7 +3074,7 @@ Using the grunt shell.
 
 ---
 
-182. Suppose a NameNode is unavailable then what will happen to the Hadoop ?
+181. Suppose a NameNode is unavailable then what will happen to the Hadoop ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3098,7 +3098,7 @@ To get the Hadoop cluster up and running, the NameNode recovery method used the 
 ---
 
 
-183. How Spark differ from the Hadoop? 
+182. How Spark differ from the Hadoop? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3116,7 +3116,7 @@ To get the Hadoop cluster up and running, the NameNode recovery method used the 
 ---
 
 
-184. Tell us how will you implement SQL in Spark?
+183. Tell us how will you implement SQL in Spark?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3137,7 +3137,7 @@ HiveQL has similar Query performance.
 ---
 
 
-185. Explain the sparse vector in Spark.
+184. Explain the sparse vector in Spark.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3152,7 +3152,7 @@ It is used for storing the non-zero entries for saving the space. which includes
 
 ---
 
-186. Does Apache Spark provide checkpoints?
+185. Does Apache Spark provide checkpoints?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3170,7 +3170,7 @@ It provides the checkpoints , to allow for code to run all around the clock to m
 ---
 
 
-187. What are the main operations of RDD?
+186. What are the main operations of RDD?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3194,7 +3194,7 @@ It provides the checkpoints , to allow for code to run all around the clock to m
 
 ---
 
-188.  Can we run Apache Spark on the Apache Mesos?
+187.  Can we run Apache Spark on the Apache Mesos?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3211,7 +3211,7 @@ By using the hardware clusters that are managed by Mesos , we can  run Apache Sp
 
 ---
 
-189. Can we trigger automated clean-ups in Spark?
+188. Can we trigger automated clean-ups in Spark?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3229,7 +3229,7 @@ we can trigger automated clean-ups in Spark which is used to handle the accumula
 
 ---
 
-190. What is another method than “Spark.cleaner.ttl” to trigger automated clean-ups in Spark?
+189. What is another method than “Spark.cleaner.ttl” to trigger automated clean-ups in Spark?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3245,7 +3245,7 @@ We can divide the long-running jobs into different batches and writing the inter
 ---
 
 
-191. What is the role of Akka in Spark?
+190. What is the role of Akka in Spark?
 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -3261,7 +3261,7 @@ It helps in the scheduling a process.
 
 ---
 
-192. Why is SchemaRDD designed?
+191. Why is SchemaRDD designed?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3277,7 +3277,7 @@ It is designed to make it easier for code debugging and unit testing .
 
 ---
 
-193. Who is Intended Audience To Learn Avro?
+192. Who is Intended Audience To Learn Avro?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3292,7 +3292,7 @@ Who want to use data in serialization and deserialization wasy , those are the m
 
 ---
 
-194. Why we use AVRO in a System ?
+193. Why we use AVRO in a System ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3310,7 +3310,7 @@ Who want to use data in serialization and deserialization wasy , those are the m
 ---
 
 
-195. What is the purpose to use Avro Sasl Profile ?
+194. What is the purpose to use Avro Sasl Profile ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3327,7 +3327,7 @@ It offers a framework for authentication as well as protection of network protoc
 ---
 
 
-196. Can multiple users use one Metastore?
+195. Can multiple users use one Metastore?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3345,7 +3345,7 @@ It is not supported by Hive.
 ---
 
 
-197. Is there a Data Type in Hive to store data Information?
+196. Is there a Data Type in Hive to store data Information?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3361,7 +3361,7 @@ The ```TIMESTAMP``` data type in Hive stores all data information in the java.sq
 
 ---
 
-198. What are the Hive collection Data types?
+197. What are the Hive collection Data types?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3379,7 +3379,7 @@ The ```TIMESTAMP``` data type in Hive stores all data information in the java.sq
 ---
 
 
-199. Is it Possible to run unix shell commands In Hive?
+198. Is it Possible to run unix shell commands In Hive?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3397,7 +3397,7 @@ It can run shell commands in Hive by adding a ‘!’ before the command.
 
 ---
 
-200. Is it Possible to executue Hive Queries from a Script File?
+199. Is it Possible to executue Hive Queries from a Script File?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3414,7 +3414,7 @@ It can run shell commands in Hive by adding a ‘!’ before the command.
 
 ---
 
-201. If we had to List all database that began with the letter 'C', How would we Do it?
+200. If we had to List all database that began with the letter 'C', How would we Do it?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3429,7 +3429,7 @@ SHOW DATABASES LIKE ‘c.*’
 
 ---
 
-202. Is it Possible to Delete DBPROPERTY in Hive ?
+201. Is it Possible to Delete DBPROPERTY in Hive ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3446,7 +3446,7 @@ We cannot delete the DBPROPERTY.
 
 ---
 
-203. Do you save Space in the HDFS by archiving Hove Tables?
+202. Do you save Space in the HDFS by archiving Hove Tables?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3463,7 +3463,7 @@ Hive tables only helps reduce the number of files that make for easier managemen
 
 ---
 
-204. How can we stop a Partition From Being accessed in a query?
+203. How can we stop a Partition From Being accessed in a query?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3478,7 +3478,7 @@ We can use the ENABLE OFFLINE clause along with the ALTER TABLE command.
 
 ---
 
-205. can we Avoid Mapreduce on Hive ?
+204. can we Avoid Mapreduce on Hive ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3493,7 +3493,7 @@ We can make Hive avoid MapReduce to return query results by setting the hive.exe
 
 ---
 
-206. Can we use the Load or Insert to view?
+205. Can we use the Load or Insert to view?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3511,7 +3511,7 @@ It cannot be used with respect to a view in Hive.
 ---
 
 
-207.  How can we view the Indeses of a Hive Table?
+206.  How can we view the Indeses of a Hive Table?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3526,7 +3526,7 @@ SHOW INDEX ON table_name
 
 ---
 
-208. What is the purpose to use OBJECTINSPECTOR function?
+207. What is the purpose to use OBJECTINSPECTOR function?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3543,13 +3543,14 @@ SHOW INDEX ON table_name
 ---
 
 
-209. What Does 
+208. What Does 
 
 ```python
 
 STREAMTABLE(TABLE_NAME)
 
 ```
+
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
@@ -3563,7 +3564,7 @@ It allows for a table to be streamed into memory before a query is executed.
 
 ---
 
-210. How does hive distribute the rows into Buckets?
+209. How does hive distribute the rows into Buckets?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3582,7 +3583,7 @@ hash_function (int_type_column)= value of int_type_column
 
 ---
 
-211. How Do ORC format Tables help hive to enhance its performance?
+210. How Do ORC format Tables help hive to enhance its performance?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3597,7 +3598,7 @@ We can store the Hive Data with the ORC (Optimized Row Column) format as it help
 
 ---
 
-212. Difference between Local File System and HDFS. 
+211. Difference between Local File System and HDFS. 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3614,7 +3615,7 @@ The block size in Hadoop HDFS is 64 MB in the initial version and in later versi
 
 ---
 
-213. What do you know about accumulators.
+212. What do you know about accumulators.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3627,7 +3628,9 @@ Example:This information can pertain to data or API diagnosis like how many reco
 </blockquote>
 
 ---
-214. What is scheme? How would you print a schema in spark?
+
+213. What is scheme? How would you print a schema in spark?
+
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
@@ -3646,7 +3649,8 @@ printSchema(level: Int): Unit
 
 ---
 
-215. How to use spark-submit
+214. How to use spark-submit
+
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
@@ -3660,7 +3664,7 @@ Main class: the name of the main class of the .py file. Select it from the list.
 
 ---
 
-216. How to create a Hive table using a Spark DF
+215. How to create a Hive table using a Spark DF
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3679,7 +3683,7 @@ Main class: the name of the main class of the .py file. Select it from the list.
 
 ---
 
-217. What do you mean by Parquet file?
+216. What do you mean by Parquet file?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3693,7 +3697,8 @@ Parquet file is an open- Source file format, which is used for Hadoop ecosystem.
 
 ---
 
-218. What is lazy evaluation?
+217. What is lazy evaluation?
+
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
@@ -3709,7 +3714,7 @@ Would not result in any arithmetic being performed, since only the element 1 nee
 
 ---
 
-219. If your Kafka consumer stops running what would you do?
+218. If your Kafka consumer stops running what would you do?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3722,7 +3727,7 @@ If the consumer crashes or is shut down, its partitions will be re-assigned to a
 
 ---
 
-220. Tell me the difference between map and flatmap .
+219. Tell me the difference between map and flatmap .
 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -3750,7 +3755,7 @@ flatMap[U](f : scala.Function1[T, scala.TraversableOnce[U]])(implicit evidence$4
 
 ---
 
-221.  How do you Rename column in spark 
+220.  How do you Rename column in spark 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -3767,7 +3772,7 @@ def withColumnRenamed(existingName: String, newName: String): DataFrame
 
 ---
 
-222. What is S3?
+221. What is S3?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
