@@ -587,7 +587,7 @@ Normally we use inline template for small portion of code and external template 
 
 ---
 
-28. Complete the missing metadata in `@Component` decorator with following criteria.
+29. Complete the missing metadata in `@Component` decorator with following criteria.
     -  This component should be identified by `user`
     -  Template of this component, should say "Hello User!!"
     -  Template should have atleast one heading tag
@@ -622,7 +622,7 @@ export class UserComponent {
   
 ---
 	
-29. What happens if you use `<script>` tag inside template?
+30. What happens if you use `<script>` tag inside template?
 	
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 	
@@ -639,7 +639,7 @@ export class UserComponent {
   
 ---
 	
-30. What is the difference between `constructor()` and `ngOnInit()`?
+31. What is the difference between `constructor()` and `ngOnInit()`?
 	
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 	
@@ -656,7 +656,7 @@ The _ngOnInit_ function is specific to the Angular framework and is called when 
   
 ---
 
-31. What is dynamic component in Angular?
+32. What is dynamic component in Angular?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
