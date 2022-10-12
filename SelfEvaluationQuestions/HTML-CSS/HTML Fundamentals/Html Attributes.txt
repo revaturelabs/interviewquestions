@@ -16,24 +16,13 @@ d) Checks spelling of a given particular text only
 
 Answer:B
 
-3.How is the title attribute used?
-a) Displays text when hovering over the element
-b) Focus text when hovering over the element
-c) Highlight text when hovering over the element
-d) Zoom in and zoom out text when hovering over the element
-
-Answer:A
-
-Explanation:
-title attribute is used to display text when hovering over the element.
-
-4.The element's accesskey attribute designates a keyboard accelerator.
+3.The element's accesskey attribute designates a keyboard accelerator.
 a) True
 b) False
 
 Answer:A
 
-5.What attribute is utilised to define a microdata item's global identifier?
+4.What attribute is utilised to define a microdata item's global identifier?
 a) key
 b) itemid
 c) itemclass
@@ -44,7 +33,7 @@ Answer:B
 Explanation:
 itemid attribute is used to set a global identifier for a microdata item.
 
-6.In relation to the lang attribute, which attribute determines the text orientation?
+5.In relation to the lang attribute, which attribute determines the text orientation?
 a) lang
 b) sub
 c) dir
@@ -55,7 +44,7 @@ Answer:C
 Explanation:
 The dir attribute is used to specify the text direction for an element.
 
-7.The "a" tag is used to define hyperlinks, and the _______ tag specifies the address.
+6.The "a" tag is used to define hyperlinks, and the _______ tag specifies the address.
 a) href attribute
 b) hlink attribute
 c) src attribute
@@ -63,7 +52,7 @@ d) None of the above
 
 Answer:A
 
-8.Which doesn't belong to the <marquee> tag's attribute behaviour?
+7.Which doesn't belong to the <marquee> tag's attribute behaviour?
 a) scroll
 b) blur
 c) Alternate
@@ -71,7 +60,7 @@ d) slide
 
 Answer:C
 
-9.Which of the following is not a <form> tag attribute?
+8.Which of the following is not a <form> tag attribute?
 a) action
 b) method
 c) name
@@ -82,7 +71,7 @@ Answer:D
 Explanation:
 The url attribute is not an attribute of <form> tag.
 
-10.The HTML document's actual section was created using the following attribute
+9.The HTML document's actual section was created using the following attribute
 a) LINK
 b) HERF
 c) BASE
@@ -90,7 +79,7 @@ d) NAME
 
 Answer:D
 
-11.What does vlink mean?
+10.What does vlink mean?
 a) active link
 b) visible link
 c) visited link
@@ -101,7 +90,7 @@ Answer:C
 Explanation:
 vlink means visited link.
 
-12.In HTML, the attribute used to select the font type is ______
+11.In HTML, the attribute used to select the font type is ______
 
 a) Character
 b) Face
@@ -110,7 +99,7 @@ d) All of the above
 
 Answer:B
 
-13.What property determines how many rows a cell should span?
+12.What property determines how many rows a cell should span?
 a) colspan = n
 b) rowspan = n
 c) Both (a) & (b)
@@ -118,7 +107,7 @@ d) None of the above
 
 Answer:B
 
-14.If you add a property, Imagelink will display a text label.
+13.If you add a property, Imagelink will display a text label.
 a) alt
 b) str
 c) alternative
@@ -129,7 +118,7 @@ Answer:A
 Explanation:
 alt property is used to show a text label on imagelink.
 
-15.Which of the following attributes is used to give an element a distinctive name?
+14.Which of the following attributes is used to give an element a distinctive name?
 a) class
 b) id
 c) type
@@ -140,7 +129,7 @@ Answer:B
 Explanation:
 The id attribute is used to specify a unique id for an element.
 
-16.Which of the following best describes the tag's attributes?
+15.Which of the following best describes the tag's attributes?
 a) method
 b) action
 c) Both (a) & (b)
@@ -148,7 +137,7 @@ d) None of the above
 
 Answer:C
 
-17.When saving an HTML file, use the _______ extension.
+16.When saving an HTML file, use the _______ extension.
 a) .htm
 b) .ht
 c) .web
@@ -159,7 +148,7 @@ Answer:D
 Explanation:
 .html extension is used to save HTML files.We can also save our HTML file using .htm extension but it is preferred to use .html extension.
 
-18.Inline styles are defined by which of the following HTML attributes?
+17.Inline styles are defined by which of the following HTML attributes?
 a) style
 b) type
 c) class

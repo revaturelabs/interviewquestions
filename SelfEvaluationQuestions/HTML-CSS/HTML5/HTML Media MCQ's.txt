@@ -108,16 +108,7 @@ Explanation:  Preload is used to set or return whether the video/ audio has been
 A buffered range is a time-range of buffered audio/video.
 The user gets several buffered ranges if he/she skips in the audio/video. Media controller of current video/audio is given or returned by controller.
 
-10. Every browser is compatible with an audio format.
-
-a) True
-b) False
-
-Answer: B
-
-Explantion: There are 3 formats that are used in HTML5 Audio and are .mp3, .m4a AAC also known as H.264 format.
-
-11. Which of the subsequent tags does HTML5 employ for audio?
+10. Which of the subsequent tags does HTML5 employ for audio?
 
 a) <bgsound>
 b) <audio>
@@ -128,7 +119,7 @@ Answer: B
 
 Explanation: <video> tag is used for video clips in HTML5. <canvas> is for graphical user interface. The audio tag defines sound, such as music or other audio streams.
  
-12. For the audio and video media elements, what tag is used to identify various media resources?
+11. For the audio and video media elements, what tag is used to identify various media resources?
 
 a) <source>
 b) <canvas>
@@ -140,7 +131,7 @@ Answer: A
 Explanation: <video> tag is used for video clips in HTML5. <canvas> is for graphical user interface. 
 The audio tag defines sound, such as music or other audio streams.defines multiple media resources for media elements, such as <video> and <audio>.
 
-13.Which of the following web browsers is incompatible with the wav file format?
+12.Which of the following web browsers is incompatible with the wav file format?
 a) Opera
 b) Firefox
 c) Chrome
@@ -150,7 +141,7 @@ Answer: D
 
 Explanation: Opera, firefox, chrome and internet explorer are different kinds of browsers. Out of which audio file format named wav is not supported by internet explorer.
 
-14. The DOM for HTML Audio/Video _________ sets or returns the audio/volume. video's
+13. The DOM for HTML Audio/Video _________ sets or returns the audio/volume. video's
 
 a) src
 b) volume controls
@@ -161,7 +152,7 @@ Answer: C
 
 Explanation: Src attribute gives current source of audio/video element. The videoTrack list is returned representing available video tracks by video track attribute. Volume attribute sets the current volume of video/audio.
 
-15. Which of the following attributes adds play, stop, and volume controls for audio?
+14. Which of the following attributes adds play, stop, and volume controls for audio?
 a) audio
 b) controls
 c) source
@@ -173,7 +164,7 @@ Explanation: The audio attribute defines sound, such as music or other audio str
 Source attribute defines multiple media resources for media elements, such as <video> and <audio>. Src attribute gives current source of audio/video element.
  The controls attribute is a boolean attribute. When present, it specifies that audio controls should be displayed.
 
-16. If the music or video should begin playing as soon as it has loaded, the HTML Audio/Video DOM__________ sets or returns this value.
+15. If the music or video should begin playing as soon as it has loaded, the HTML Audio/Video DOM__________ sets or returns this value.
 a) controls
 b) audio Tracks
 c) autoplay
@@ -185,7 +176,7 @@ Explanation: Control attribute is used to set whether audio/video should display
 The autoplay attribute is a boolean attribute.
  When present, the audio will automatically start playing as soon as it can do so without stopping. A current src of audio/video is returned by currentSrc.
 
-17. If the audio or video should restart after it has stopped playing, the HTML Audio/Video DOM _________ sets or returns this value.
+16. If the audio or video should restart after it has stopped playing, the HTML Audio/Video DOM _________ sets or returns this value.
 a) loop
 b) autoplay
 c) seeking
@@ -197,7 +188,7 @@ Explanation: The loop attribute is a boolean attribute. When present, it specifi
 With autoplay, it ensures whether video/audio should play immediately after loading page. 
 Seeking returns whether user is currently seeking video/audio. Timeranges representing played parts of audio/video is set by played attribute.
 
-18. A MediaError object that represents the audio/error video's condition is returned by ___________ in HTML's DOM for audio/video.
+17. A MediaError object that represents the audio/error video's condition is returned by ___________ in HTML's DOM for audio/video.
 a) ended
 b) seeking
 c) error
@@ -209,7 +200,7 @@ Explanation: Seeking returns whether user is currently seeking video/audio. Ende
 The error property returns a MediaError object. The MediaError object has a code property containing the error state of the audio/video. 
 The group to which audio/video belongs is returned by mediaGroup.
 
-19. The TextTrackList object returned by the HTML Audio/Video DOM method _________ represents the available text tracks.
+18. The TextTrackList object returned by the HTML Audio/Video DOM method _________ represents the available text tracks.
 a) readyState
 b) startDate
 c) videoTracks
@@ -222,7 +213,7 @@ StartDate sets current date representing current time offsets. VideoTrack return
 The textTracks property returns a TextTrackList object. 
 The TextTrackList object represents the available text tracks for the audio/video. Each available text track is represented by an TextTrack Object.
 
-20. To optimise playback, the browser can be instructed to download media files in the background using .
+19. To optimise playback, the browser can be instructed to download media files in the background using .
 a) poster
 b) autobuffer
 c) buffer
@@ -235,7 +226,7 @@ If autobuffering attribute is used, then the video will automatically begin to b
 It suggests to the browser that it should load as much of the resource as possible.
 As long as the browser’s own media cache isn’t full, it will keep on downloading. URL of an image is given by poster attribute until the user seek for it.
 
-21. On the client side, simple graphics like line art, graphs, and other unique graphical features are rendered using the ________ element.
+20. On the client side, simple graphics like line art, graphs, and other unique graphical features are rendered using the ________ element.
 
 a) metadata
 b) css
@@ -248,7 +239,7 @@ Explanation:Metdata gives data or information of other data. CSS i.e. Cascading 
 Canvas is introduced in HTML5 for providing/drawing graphics. 
 The canvas element is part of HTML5 and allows for dynamic, scriptable rendering of 2D shapes and bitmap images. 
 
-22. Prior to HTML5, multimedia on the web was typically added using the idea of tag-based multimedia back.
+21. Prior to HTML5, multimedia on the web was typically added using the idea of tag-based multimedia back.
 
 a) True
 b) False
@@ -258,7 +249,7 @@ Answer: B
 Explanation: Multimedia has different formats, it can be anything that you can hear or see. 
 Traditionally, multimedia has been inserted with the embed and object elements, particularly when inserting Adobe Flash, Apple QuickTime, Windows Media, and other formats.
 
-23. Consider the following markup and answer the question that follow.
+22. Consider the following markup and answer the question that follow.
 
 <source src="sample.mp4" type="video/mp4">
 <source src="sample.ogv" type="video/ogg">
@@ -274,7 +265,7 @@ Answer: C
 
 Explanation: To address the media support problem, you need to add in alternative formats to use by including a number of source tags.
 
-24. Consider the markup and answer the question that follow.
+23. Consider the markup and answer the question that follow.
 
 <? controls autobuffer autoplay>
 </?>
@@ -288,7 +279,7 @@ Answer: D
 
 Explanation: Autobuffer is a attribute for both <audio> and <video>, so we can replace it with either <audio> or <video>. As with the video element, you also have autobuffer and autoplay attributes for the audio element. 
 
-25. Which plugins can support older browsers as a fallback?
+24. Which plugins can support older browsers as a fallback?
 a) Flash
 b) Quicktime
 c) Both Flash and Quicktime
@@ -298,7 +289,7 @@ Answer: C
 
 Explanation: An attribute of the format: type=”application/x-shockwave-flash” will justify the purpose.
 
-26. Which of the following statements about the open web platform is false?
+25. Which of the following statements about the open web platform is false?
 
 a) Security and Privacy
 b) Performance and Tuning
@@ -318,7 +309,7 @@ The different promises of the open web platform are –
 • Usability and Accessibility
 • Services
 
-27. Without requiring plugins, HTML5 adds audio and video to the Web.
+26. Without requiring plugins, HTML5 adds audio and video to the Web.
 a) True
 b) False
 

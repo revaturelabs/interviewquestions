@@ -144,22 +144,9 @@ D. Right,Left,Top,Bottom
 ANSWER: C 
 Explanation: By default the margins are added in the order(Top,Right,Bottom,Left)
 
-#re-work on answer 
-14. In what order the padding can be added in the below code snippet ?
-div {
-  padding: 20px 40px 60px;
-}
-
-A. Top,left,Bottom
-B. Top,Right,Bottom
-C. Top,Right,Left
-D. Top,Right and Left,Bottom
-
-ANSWER: D 
-Explanation: By using padding shorthand property are added in the order(Top,Right and Left,Bottom)
 
 
-15. In whih CSS property is used to draw a line around the elements outside the border ?
+14. In whih CSS property is used to draw a line around the elements outside the border ?
 
 A. padding
 B. outline
@@ -170,7 +157,7 @@ ANSWER: B
 Explanation: outline property is used to draw a line around the elements outside the border.
 
 
-17. Choose the option that correctly specifies the output of the following CSS.
+15. Choose the option that correctly specifies the output of the following CSS.
 
 span {
 	border: 1px solid green;
@@ -187,7 +174,7 @@ ANSWER: D
 Explanation: Border property creates the inner border while the outline sets the outer border.
 
 
-18. Which property defines the color of an outline in CSS ?
+16. Which property defines the color of an outline in CSS ?
 
 A. outline-color
 B. color-outline
@@ -198,7 +185,7 @@ ANSWER: A
 Explanation: outline-color property defines the color of an outline in CSS.
 
 
-19. Which outline property that defines the amount of area extended beyond the border box ?
+17. Which outline property that defines the amount of area extended beyond the border box ?
 
 A. inset
 B. outset
@@ -209,7 +196,7 @@ ANSWER: B
 Explanation: outset property define the 3D border.
 
 
-20. In which of the value define the dashed outline ?
+18. In which of the value define the dashed outline ?
 
 A. dash
 B. double-dash
@@ -220,7 +207,7 @@ ANSWER: C
 Explanation: dashed property value defines the dashed outline.
 
 
-21. In which of the property define the look and design of an outline ?
+19. In which of the property define the look and design of an outline ?
 
 A. outline-format
 B. outline-font
@@ -231,7 +218,7 @@ ANSWER: C
 Explanation: outline-style property in CSS is used to set the style of an outline of an element.
 
 
-22. Which property value define the 3D grooved outline ?
+20. Which property value define the 3D grooved outline ?
 
 A. ridge
 B. groove
@@ -242,7 +229,7 @@ ANSWER: B
 Explanation: groove property value define the groove 3d border.
 
 
-23. What is the output of the following code snippet ?
+21. What is the output of the following code snippet ?
 
 div {
     border-width:20px;	
@@ -258,7 +245,7 @@ D. Box having inset bottom outline, solid left outline, double top outline and d
 ANSWER: A 
 
 
-24. In which of the following defines the width of an outline ?
+22. In which of the following defines the width of an outline ?
 
 A. outline-height
 B. outline-size
@@ -269,7 +256,7 @@ ANSWER: C
 Explanation: outline-width property define the width of an outline.
 
 
-25. In which of the following property in CSS defines the solid outline ?
+23. In which of the following property in CSS defines the solid outline ?
 
 A. rock 
 B. solid
@@ -280,7 +267,7 @@ ANSWER: B
 Explanation: solid property in CSS defines the solid outline.
 
 
-26. In which of the property defines in shorthand form the width, color and style for the bottom border of an element ?
+24. In which of the property defines in shorthand form the width, color and style for the bottom border of an element ?
 
 A. border-bottom-color
 B. border-bottom-all
@@ -290,7 +277,7 @@ D. None of the above
 ANSWER: C 
 
 
-27. Which is used to set the width of an element's bottom border ?
+25. Which is used to set the width of an element's bottom border ?
 
 A. border
 B. border-bottom-width
@@ -301,7 +288,7 @@ ANSWER: B
 Explanation: border-bottom-width property is used to set the width of an element's bottom border in CSS.
 
 
-28. Which property in CSS is used to define whether table cell borders are connected or separate ?
+26. Which property in CSS is used to define whether table cell borders are connected or separate ?
 
 A. border
 B. border-collapse
@@ -312,7 +299,7 @@ ANSWER: B
 Explanation: border-collapse property in CSS is used to specify whether table cell borders are connected or separate.
 
 
-29. In which property is used to specifies the style for the right border of an element ?
+27. In which property is used to specifies the style for the right border of an element ?
 
 A. border-right
 B. border-style
@@ -322,7 +309,7 @@ D. border-spacing
 ANSWER: A 
 
 
-30. How to specify the color of an element's top border ?
+28. How to specify the color of an element's top border ?
 
 A. border-top
 B. border-color
@@ -332,7 +319,7 @@ D. border-top-color-webkit
 ANSWER: C 
 
 
-31. How to set the width of an element's complete border ?
+29. How to set the width of an element's complete border ?
 
 A. border-depth 
 B. border-width
@@ -342,7 +329,7 @@ D. None of the Above
 ANSWER: B 
 
 
-32. Which property specifies the visual style of up to four different sides of a border ?
+30. Which property specifies the visual style of up to four different sides of a border ?
 
 A. border-top
 B. border-style
@@ -352,7 +339,7 @@ D. None of the above
 ANSWER: B 
 
 
-33. Which of the following property specifies in a shorthand form the width, style, and color for the top border of an element?
+31. Which of the following property specifies in a shorthand form the width, style, and color for the top border of an element?
 
 A. border-style
 B. border-bottom
@@ -362,7 +349,7 @@ D. None of the above
 ANSWER: D 
 
 
-34. Which property describes the placement of an element in relation to floating objects ?
+32. Which property describes the placement of an element in relation to floating objects ?
 
 A. clear 
 B. space
@@ -372,7 +359,7 @@ D. None of the above
 ANSWER: clear
 
 
-35. Which property specifies the y (vertical) coordinate for a positioned element, relative to the bottom of the enclosing object or browser window ?
+33. Which property specifies the y (vertical) coordinate for a positioned element, relative to the bottom of the enclosing object or browser window ?
 
 A. position
 B. bottom

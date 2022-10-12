@@ -13,10 +13,10 @@ Explanation: HTML stands for HyperText Markup Language.
 
 2.How many different header sizes are offered by default in HTML?
 
-A.
-B.
-C.
-D.
+A.3
+B.5
+C.9
+D.6
 
 Answer:D
 
@@ -68,10 +68,10 @@ Explanation: HTML files are saved by the .html or .htm extension.
 
 7.We enclose HTML tags within?
 
-A.
+A.()
 B.<>
-C.
-D.
+C.{}
+D.[]
 
 Answer:B
 
@@ -190,17 +190,8 @@ Answer:A
 
 Explanation: The font-family property is used to change text font in HTML
 
-19.How are quotations defined in HTML?
-A.
-B.
-C.
-D.
 
-Answer:C
-
-Explanation: The <blockquote> tag is used to define a section that is quoted from another source.
-
-20.What tag is used to render an image on a webpage?
+19.What tag is used to render an image on a webpage?
 A.img
 B.src
 C.image
@@ -210,7 +201,7 @@ Answer: A
 
 Explanation: The img tag is used to display an image on a webpage.
 
-21.Apart from <i> tag ,which of the following tag is used to render a text in italics?
+20.Apart from <i> tag ,which of the following tag is used to render a text in italics?
 A.<em>
 B.<strong>
 C.<b>
@@ -220,7 +211,7 @@ Answer: A
 
 Explanation: The <em> tag is used to emphasize text,which puts same effect <i> tag.
 
-22.What is the correct syntax to write an HTML comment?
+21.What is the correct syntax to write an HTML comment?
 A.<!--Comment-->
 B.//Comment
 C.#Comment
@@ -230,7 +221,7 @@ Answer: A
 
 Explanation:The Correct syntax of writing an HTML comment is <!Comment>
  
-23.Colours are defined in HTML using?
+22.Colours are defined in HTML using?
 
 A.RGB values 
 B.HEX values
@@ -241,7 +232,7 @@ Answer: D
 
 Explanation: Colours are defined using RGB,HEX,RGBA,HSLA values or with predefined 
 
-24.Which property is used to set colours in HTML?
+23.Which property is used to set colours in HTML?
 
 A.color
 B.background-color
@@ -252,7 +243,7 @@ Answer:A
 
 Explanation: The color property is used to set and change colours in HTML.
 
-25.What are the types of unordered lists in HTML?
+24.What are the types of unordered lists in HTML?
 
 A.Circle,square,disc
 B.Triangle,square,disc

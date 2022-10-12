@@ -5,7 +5,7 @@ B.datasrc
 C.disabled
 D.datafld
 
-Answer: B
+Answer: D
 
 Explanation: dataSrc determines the identifier for the data source. When the dataSrc property is applied to a tabular data consumer, while  consuming the elements repeat the whole data set.
 

@@ -54,18 +54,8 @@ D. font-weight
 ANSWER: A 
 Explanation: font-variant selects a normal or small caps face from a font family.
 
-#re-work on answer
-8. Which allows you to expand or condense the widths for a normal, condensed, or expanded font face ?
 
-A. font-expand
-B. font-stretch
-C. font-style
-D. None of the above
-
-ANSWER: D
-
-
-9. Which of the following properties modifies the font-size of the fallback fonts specified by font-family such that the x-height is constant of the font used ?
+8. Which of the following properties modifies the font-size of the fallback fonts specified by font-family such that the x-height is constant of the font used ?
 
 A. default
 B. font-size-adjust
@@ -76,7 +66,7 @@ ANSWER: B
 Explanation: font-size-adjust property modifies the font-size of the fallback fonts specified by font-family.
 
 
-10. Which font-size-adjust is used in calculating the size of the fallback fonts ?
+9. Which font-size-adjust is used in calculating the size of the fallback fonts ?
 
 A. number
 B. auto
@@ -87,7 +77,7 @@ ANSWER: A
 Explanation: 
 
 
-11. “font-variant comes first than font-weight in font attribute”.State true or false.
+10. “font-variant comes first than font-weight in font attribute”.State true or false.
 
 A. True
 B. False

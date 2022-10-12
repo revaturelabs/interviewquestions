@@ -247,13 +247,13 @@ Ans : File API
 
        A. ondragenter
 
-       B. ondragover
+       B. ondrag
 
        C. ondragevent
 
        D. ondragdrop
 
-Ans : ondragover
+Ans : ondrag
 
 
 21. Which of the following attributes triggers event when the window loses focus?

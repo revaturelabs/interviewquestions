@@ -571,7 +571,7 @@ B. h3
 C. h5
 D. None
 
-Answer:B
+Answer:A
 
 55.HTML can tag headers at a maximum of __ levels in a document.
 A. 4
@@ -579,7 +579,7 @@ B. 6
 C. 8
 D. 10
 
-Answer:A
+Answer:B
 
 56._______ acts as Support for heading tags
 A. align attribute
@@ -627,7 +627,7 @@ B. 2
 C. 3
 D. Use as many times as there are main headings
 
-Answer:2
+Answer:1
 
 62.Which of the following tags will be used to a content to add a heading?
 A. <h1>
@@ -653,15 +653,7 @@ D. Interpreter
 
 Answer:C
 
-65.Which Style is automatically applied to the H1 heading?
-A. <h0>
-B. <h1>
-C. <h3>
-D. <h6>
-
-Answer:A
-
-66.When run in a browser, how will the following's content be displayed?
+65.When run in a browser, how will the following's content be displayed?
 
 <!DOCTYPE html>
 <html>
@@ -678,7 +670,7 @@ D. <p>LetsFindCourse</p> <p>Learning Made Easy!</p>
 
 Answer:C
 
-67.Which Style is automatically applied to the H1 heading?
+66.Which Style is automatically applied to the H1 heading?
 A. Italic
 B. Bold
 C. Underline
@@ -696,15 +688,8 @@ Answer:D
 
 HTML Iframe
 
-69.Which inline function incorporates an external HTML file into the current document?
-A. <div>
-B. <span>
-C. <form>
-D. <iframe>
 
-Answer:D
-
-70.Which frameset tag characteristic results in the creation of two horizontal frames?
+69.Which frameset tag characteristic results in the creation of two horizontal frames?
 A. Cols
 B. Rows
 C. Both
@@ -712,7 +697,7 @@ D. None
 
 Answer:B
 
-71.What does the <NOFRAMES> tag accomplish?
+70.What does the <NOFRAMES> tag accomplish?
 A. Specifies that no frames are included in the HTML file.
 B. Allows information after the tag to be displayed with browsers that cannot handle frames.
 C. Tells the browser to ignore the frame content.
@@ -720,7 +705,7 @@ D. None of these.
 
 Answer:B
 
-72.which of the subsequent uses a tag?
+71.which of the subsequent uses a tag?
 A. <FRAME>
 B. <NOFRAMES>
 C. <FRAMESET>
@@ -728,7 +713,7 @@ D. All of the above
 
 Answer:C
 
-73.Which tag does not appear on a page with frames?
+72.Which tag does not appear on a page with frames?
 A. div
 B. body
 C. title
@@ -736,7 +721,7 @@ D. head
 
 Answer:B
 
-74.The number of rows in a frameset is indicated by the _________ attribute.
+73.The number of rows in a frameset is indicated by the _________ attribute.
 A. TR
 B. TD
 C. ROWS
@@ -744,7 +729,7 @@ D. HORIZONTAL
 
 Answer:C
 
-75.What function does iframe provide in HTML?
+74.What function does iframe provide in HTML?
 A. to display a web page without browser.
 B. to display a web page within a web page.
 C. to display a web page with animation effect.
@@ -752,7 +737,7 @@ D. All of the Above.
 
 Answer:B
 
-76.which of the following is not an HTML screen frame type
+75.which of the following is not an HTML screen frame type
 A. uframe
 B. iframe
 C. noframe
@@ -760,7 +745,7 @@ D. frameset
 
 Answer:A
 
-77.Which inline function incorporates an external HTML file into the current document?
+76.Which inline function incorporates an external HTML file into the current document?
 A. <div>
 B. <span>
 C. <form>
@@ -768,7 +753,7 @@ D. <iframe>
 
 Answer:D
 
-78.You can disable scrolling in a frame with the _________ attribute.
+77.You can disable scrolling in a frame with the _________ attribute.
 A. SCROLLBAR
 B. SCROLLING
 C. OFFSCROLL
@@ -776,7 +761,7 @@ D. none of the above
 
 Answer:B
 
-79.What function does iframe provide in HTML?
+78.What function does iframe provide in HTML?
 A. to display a web page within a web page
 B. to display a web page without browser
 C. to display a web page with animation effect
@@ -784,7 +769,7 @@ D. All of the Above
 
 Answer:A
 
-80.The frameset's column count is indicated by the _________ property.
+79.The frameset's column count is indicated by the _________ property.
 A. COLS
 B. VERT
 C. TABLE
@@ -792,23 +777,23 @@ D. COLUMNS
 
 Answer:A
 
-81.The web page to load into that frame is specified by the frame tag's ___ attribute.
+80.The web page to load into that frame is specified by the frame tag's ___ attribute.
 A. id
 B. src
 C. href
 D. name
 
-Answer:C
+Answer:B
 
-82.Which tag allows for the inline framing of web pages?
+81.Which tag allows for the inline framing of web pages?
 A. Iframe
 B. Object
 C. Index
 D. Frame
 
-Answer:D
+Answer:A
 
-83.All of the links on a page can be made to load in a specific frame by using the __ tag and __ attribute.
+82.All of the links on a page can be made to load in a specific frame by using the __ tag and __ attribute.
 A. Base and Frame
 B. Base and Target
 C. Frame and iframe
@@ -816,7 +801,7 @@ D. Frame and Target
 
 Answer:B
 
-84.______ refers to a collection of frames.
+83.______ refers to a collection of frames.
 A. List
 B. Form
 C. Index
@@ -826,13 +811,15 @@ Answer:D
 
 HTML-Hyperlink
 
-85.<a> is an ______
+84.<a> is an ______
 A. Active Tag
 B. Action Tag
 C. Anchor Tag
 D. Additional Tag
 
-86.Pick the appropriate answer.
+Answer:C
+
+85.Pick the appropriate answer.
 A. address specified as value of href in HTML have to be relative.
 B. address specified as value of href in HTML have to be absolute.
 C. destination address is specified as value of href between and tag.
@@ -843,7 +830,7 @@ Answer:D
 Explanation:
 In the HTML <a> tag, the address is supplied as the value of the href attribute and can either be absolute or relative.
 
-87.In the HTML <a> tag, which attribute is used to specify the destination address?
+86.In the HTML <a> tag, which attribute is used to specify the destination address?
 A. link
 B. type
 C. href
@@ -854,7 +841,7 @@ Answer:C
 Explanation:
 href is used for defining destination address in <a> tag as <a href=”destination address”>
 
-88.In a web document, external style sheets are referenced by a _____
+87.In a web document, external style sheets are referenced by a _____
 A. page
 B. class
 C. Link/Url or path
@@ -862,7 +849,7 @@ D. none
 
 Answer:C
 
-89.Any browser's unvisited link has a default style and colour of ______
+88.Any browser's unvisited link has a default style and colour of ______
 A. Normal and Blue
 B. Underline and Pink
 C. Underlined and Blue
@@ -870,7 +857,7 @@ D. Underline and Magento
 
 Answer:C
 
-90.HTML links can be of the following types
+89.HTML links can be of the following types
 A. Active
 B. Visited
 C. Unvisited
@@ -878,7 +865,7 @@ D. All are the Types of Links
 
 Answer:D
 
-91.When a link is __, it is automatically underlined and coloured red.
+90.When a link is __, it is automatically underlined and coloured red.
 A. Active
 B. visited
 C. unvisited
@@ -888,7 +875,7 @@ Answer:A
 
 HTML Table
 
-92.Which tag in HTML allows for the definition of a row?
+91.Which tag in HTML allows for the definition of a row?
 A. <tr>
 B. <row>
 C. <table-row>
@@ -896,7 +883,7 @@ D. <tablerow>
 
 Answer:A
 
-93.With the help of which tag, is a row defined in HTML?
+92.With the help of which tag, is a row defined in HTML?
 A. <tr>
 B. <row>
 C. <table-row>
@@ -904,7 +891,7 @@ D. <tablerow>
 
 Answer:A
 
-94.The table's cells can be represented by _____
+93.The table's cells can be represented by _____
 A. <tr>
 B. <td>
 C. <th>
@@ -915,7 +902,7 @@ Answer:B
 Explanation:
 td stands for table data, we can represent each cell of the table by using <td>, at the end we used </td> tag. But some browsers by default draw the lines around table. <tr> is used to indicate start of every row i.e. it stands for table row. The header information is present in <th> tag. <thead> tag contains the group of header.
 
-95.Which of the following tags provides a table caption?
+94.Which of the following tags provides a table caption?
 A. <head>
 B. <caption>
 C. <heading>
@@ -923,7 +910,7 @@ D. None of these
 
 Answer:B
 
-96.What tags are associated with the table?
+95.What tags are associated with the table?
 A. <table>,<tr>,<tt>
 B. <table>,<tr>,<td>
 C. <table>,<head>,<tfoot>

@@ -36,8 +36,7 @@ B. For use with speech synthesizers
 C. For use with Braille printers
 D. For use with projected media (direct computer-to-projector presentations), or printing transparencies for projection 
 
-Answer: D
-
+Answer: B
 
 5. What does braille media type is used for?
 

@@ -61,10 +61,6 @@ B.False.
 Answer:True.
 
 
-Explanation:<HTML>,<Body> , and <Head> can be omitted while writing HTML5 code.
-
-Answer:D.
-
 7.Easy character encoding in HTML5?
 
 A.<meta charset="UTF-8">
@@ -126,30 +122,23 @@ D.progress
 
 Answer:A
 
-12. What new form components are there in HTML 5 ?
-A. 2
-B. 3
-C. 4
-D. 5
-
-Answer:B
-
-13. An article element contains ............
+12. An article element contains ............
 A. Audio
 B.Image
 C.Text or embedded content
 D.None of the above
 Answer:C
 
-14. All html5 tags must ..........
+13. All html5 tags must ..........
 A. Uppercase
 B.Lowercase
 C.Both Uppercase & Lowercase
 D.None of the above
 
 Answer:B
+While it's not a strict rule, writing HTML5 tags in all lowercase is a widely used convention. This is partly because many seasoned web developers, who lived through the days of strict XHTML, carried over those best practices to HTML5 and beyond. While a mix of uppercase and lowercase letters is valid, many web designers prefer to stick to all lowercase letters.
 
-15. Which function was available prior to HTML5 ?
+14. Which function was available prior to HTML5 ?
 A. Video
 B.Frames
 C.Canvas/SVG
@@ -157,7 +146,7 @@ D.Geolocation
 
 Answer:B
 
-16. Which tag is used with javascript?
+15. Which tag is used with javascript?
 A. <table>
 B.<footer>
 C.<article>
@@ -165,15 +154,15 @@ D.<canvas>
 
 Answer:D
 
-17. What element in the following is used for styling HTML5 layout ?
+16. What element in the following is used for styling HTML5 layout ?
 A. PHP
 B.CSS
 C.jQuery
 D.JavaScript
 
-Answer:D
+Answer:B
 
-18. What is the replacement for cookies in HTML5?
+17. What is the replacement for cookies in HTML5?
 A. Java scripts
 B.Local Storage
 C.Web beacons
@@ -181,7 +170,7 @@ D.All of the above
 
 Answer:B
 
-19. The html5 specification includes ...........
+18. The html5 specification includes ...........
 A. Data storage
 B.Graphics APIs
 C.Other APIs for web apps
@@ -189,7 +178,7 @@ D.All of the above
 
 Answer:D
 
-20. The html5 specification does not includes ............
+19. The html5 specification does not includes ............
 A. Data storage
 B.Graphics APIs
 C.Networking
@@ -197,7 +186,7 @@ D.Other APIs for web apps
 
 Answer:C
 
-21. What element doesn't support the autofocus attribute?
+20. What element doesn't support the autofocus attribute?
 
 A. <input>
 B.<base>
@@ -206,7 +195,7 @@ D.None of the above
 
 Answer:B
 
-22. Which of the following is one of the new input characteristics that HTML 5 introduced ?
+21. Which of the following is one of the new input characteristics that HTML 5 introduced ?
 A. text
 B.date
 C.submit buttons
@@ -214,7 +203,7 @@ D.checkbox controls
 
 Answer:B
 
-23. Which of the following is not a HTML5 tag ?
+22. Which of the following is not a HTML5 tag ?
 A. <track>
 B.<source>
 C.<slider>
@@ -222,7 +211,7 @@ D.<video>
 
 Answer:C
 
-24. Which of the following is not a HTML5 added form element ?
+23. Which of the following is not a HTML5 added form element ?
 A.<keygen>
 B.<output>
 C.<password>
@@ -231,7 +220,7 @@ D.<datalist>
 Answer:C
 
 
-25. Which of the following does not qualify as a semantic text element in HTML5 ?
+24. Which of the following does not qualify as a semantic text element in HTML5 ?
 A. <wbr>
 B.<time>
 C.<mark>
@@ -239,7 +228,7 @@ D.<article>
 
 Answer:D
 
-26. Which of the following is not a html 5 element.
+25. Which of the following is not a html 5 element.
 A. article
 B.wrapper
 C.footer
@@ -247,7 +236,7 @@ D.None of the above
 
 Answer:B
 
-27. What is accurate about the HTML5 "video" tag?
+26. What is accurate about the HTML5 "video" tag?
 
 A. Ogg files with Thedora video codec and Vorbis audio codec are supported.
 B.HTML5 supports video tag which is used to embed a video file in an HTML or XHTML document.
@@ -256,7 +245,7 @@ D.All of the above
 
 Answer:D
 
-28. Which element was not removed by HTML5?
+27. Which element was not removed by HTML5?
 A. <big>
 B.<small>
 C.<strike>
@@ -264,7 +253,7 @@ D.<center>
 
 Answer:B
 
-29. Which of the following is not a Boolean attribute?
+28. Which of the following is not a Boolean attribute?
 A. Novalidate
 B.Formtarget
 C.Formvalidate
@@ -272,7 +261,7 @@ D.None of the above
 
 Answer:B
 
-30. What are the most interesting new API's in HTML5?
+29. What are the most interesting new API's in HTML5?
 
 A. HTML Local Storage & HTML SSE
 B.HTML Drag and Drop & HTML Web Workers
@@ -281,7 +270,7 @@ D.All of the above
 
 Answer:D
 
-31. Which element is used to get highlighted text in HTML5?
+30. Which element is used to get highlighted text in HTML5?
 
 A. <u>
 B.<b>
@@ -290,7 +279,7 @@ D.<highlight>
 
 Answer:C
 
-32.Which of the following are table tags?
+31.Which of the following are table tags?
 A. table, thead, tr, td
 B. table, tt, tr, td
 C. colspan, table, tr
@@ -299,7 +288,7 @@ D. None of the Above
 Answer:A
 
 
-33.Without the manifest attribute, it is not possible to cache a web page."
+32.Without the manifest attribute, it is not possible to cache a web page.
 
 
 A.True.
@@ -311,16 +300,8 @@ Answer:A
 Explanation:A manifest attribute allows the data of the webpage to be stored in the cache of an application,
  which allows it to be accessible even in the absence of internet connectivity.
 
-34.Name the 3 different types of lists in HTML.
 
-A.Ordered List or Numbered List (ol)
-B.Unordered List or Bulleted List (ul)
-C.Description List or Definition List (dl)
-D.All the above.
-
-Answer:D.
-
-35.How Can we hyperlink a picture using HTML?
+33.How Can we hyperlink a picture using HTML?
 
 A.Using attribute <a>.
 B.Using attribute <g>.
@@ -335,7 +316,7 @@ It defines a hyperlink that is used to link from one page to another. If the <a>
 then it will be only a placeholder for a hyperlink.
 
 
-36.Which tag not used for font formatting in HTML5?
+34.Which tag not used for font formatting in HTML5?
 
 
 A.<strong> - Important text
@@ -349,7 +330,7 @@ D.<div> - division.
 Answer:D
 
 
-37.What is the syntax to set a background image on a webpage?
+35.What is the syntax to set a background image on a webpage?
 
 A. {
             background-image: url("/videotutorials/images/tutor_connect_home.jpg");
@@ -368,7 +349,7 @@ D.None of the above.
 Answer: A.
 
 
-38.What video formats are compatible with HTML5?
+36.What video formats are compatible with HTML5?
 
 A.WebM 
 B.Ogg
@@ -377,7 +358,7 @@ D.All the above.
 
 Answer:D.
 
-39.In how many different ways is it possible to specify the CSS styles for an HTML element?
+37.In how many different ways is it possible to specify the CSS styles for an HTML element?
 
 A.2 ways
 B.3 Ways
@@ -388,20 +369,7 @@ Answer: B
 
 Explanation: CSS is being used. CSS can be introduced to HTML texts in three different ways: Inline - when the style attribute is used within HTML elements. Internal - by incorporating a <style> element into the head> section.
 
-
-40.How many permissible values are applicable to the position attribute?
-
-A.3 Values
-B.5 Values
-C.7 Values
-D.10 Values
-
-Answer: C
-
-Explanation: There are primarily 7 position attribute values that can be used to position an HTML element: The default value is static. The element is positioned here in accordance with the document's regular flow. absolute: The element is positioned relative to its parent element in this case.
-
-
-41.How many minimum number of HTML tags which are essential for creation of an HTML page?
+38.How many minimum number of HTML tags which are essential for creation of an HTML page?
 
 A.2
 B.3
@@ -413,8 +381,7 @@ Answer: C
 Explanation: There are various HTML tags that can be used to assist you build your web page. In HTML, four tags are necessary. These are the html tags, title, head, and body.
 
 
-42.What is the usage of a novalidate attribute for the form tag that is introduced in HTML5?
-
+39.What is the usage of a novalidate attribute for the form tag that is introduced in HTML5?
 
 
 A. it specifies the form-data should not be validated when submitting the form.
@@ -423,11 +390,10 @@ C. both A and B
 D. None of the above
 
 
-
 ANSWER: A
 
 
-43.What do you mean by application cache refers in HTML5 ?
+40.What do you mean by application cache refers in HTML5 ?
 
 
 A. Offline browsing
@@ -438,7 +404,7 @@ D. All the above
 ANSWER: D
 
 
-44.Which of the following tag refers to migrated tags from HTML4 to HTML5 ?
+41.Which of the following tag refers to migrated tags from HTML4 to HTML5 ?
 
 A. <nav>
 B. <div id="post">
@@ -449,7 +415,7 @@ D. <div id="menu">
 
 ANSWER: A
 
-45.Which is not difference between the HTML and XHTML?
+42.Which is not difference between the HTML and XHTML?
 
 A. HTML is used to create webpages and XHTML is similar to HTML but it is stricter.
 B. HTML is case insensitive while XHTML is case sensitive.
@@ -458,7 +424,7 @@ D. None of the above.
 
 ANSWER: B
 
-46.In terms of HTML5 elements, what is the difference between the ‘id' attribute and the ‘class' attribute?
+43.In terms of HTML5 elements, what is the difference between the ‘id' attribute and the ‘class' attribute?
 
 A.Id is not unique whereas Class is unique
 B.No differences between them
@@ -468,7 +434,7 @@ D.None of the options above
 Answer:C
 
 
-47.What are the different types of browsers that HTML5 supports?
+44.What are the different types of browsers that HTML5 supports?
 
 A.Chrome
 B.Firefox
@@ -478,7 +444,7 @@ D.None of the Options above
 Answer:C
 
 
-48.Are there advantages of using HTML5 for web development? What are those advantages?
+45.Are there advantages of using HTML5 for web development? What are those advantages?
 
 A. More code means slower page speed
 b.HTML5 will enable web designers to use cleaner, neater code
@@ -487,7 +453,7 @@ D.None of the options above
 
 Answer:B
 
-49.Is there any advantage of collapsing white space in HTML5?
+46.Is there any advantage of collapsing white space in HTML5?
 
 A.White Space Improves Readability and Comprehension.
 B.Collapsing white spaces decreases the transmission time between the server and the client
@@ -496,7 +462,7 @@ D.None of the options
 
 Answer:C
 
-50..What is the importance of div tag for development of HTML5 web pages?
+47..What is the importance of div tag for development of HTML5 web pages?
 
 A.It is used to display all the information or data
 B.it helps us to separate out data in the web page
@@ -506,7 +472,7 @@ D.None of the options
 Answer:B
 
 
-51. What does SVG mean in context of HTML5?
+48. What does SVG mean in context of HTML5?
 
 A. SVG is used to define media files in HTML.
 
@@ -519,7 +485,7 @@ D. None of the Above.
 Answer: C
 
 
-52. Which of the follwing video formats are compatible with HTML5?
+49. Which of the follwing video formats are compatible with HTML5?
 
 A. .Mov
 
@@ -532,7 +498,7 @@ D. .WMV
 Answer: B
 
 
-53.What is the use of an article tag in HTML5?
+50.What is the use of an article tag in HTML5?
 
 A. Used to define a blank space for publishing article in a web page.
 
@@ -545,7 +511,7 @@ D. The <article> tag specifies independent, self-contained content.
 Answer: D
 
 
-54. What are Server-Sent Events in HTML5?
+51. What are Server-Sent Events in HTML5?
 
 A. A Server-Sent Event is when a web page automatically gets updates from a server.
 
@@ -558,7 +524,7 @@ D. None of the Above.
 Answer: A
 
 
-55. What is cell padding in relation to HTML5?
+52. What is cell padding in relation to HTML5?
 
 A. Cell padding is the space between cell borders and the content within a cell.
 
@@ -571,7 +537,7 @@ D. None of the Above.
 Answer: A
 
 
-56. What is the use of Geolocation API in HTML5?
+53. What is the use of Geolocation API in HTML5?
 
 A. Both B and C.
 
@@ -583,7 +549,7 @@ D. None of the Above.
 
 Answer: C
 
-57. What is a multipart form data in HTML5?
+54. What is a multipart form data in HTML5?
 
 A. 2 forms is known as multipart form.
 
