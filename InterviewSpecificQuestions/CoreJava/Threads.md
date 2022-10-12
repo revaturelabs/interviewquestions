@@ -14,7 +14,7 @@ A process is a program in execution. A thread is a subset of a process.
 
 --- 
 
-3. How do you make a thread in java? or How do you create thread?
+2. How do you make a thread in java? or How do you create thread?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -34,7 +34,7 @@ In Java, we can create a thread using
 
 --- 
 
-4. What is the life cycle of a thread?
+3. What is the life cycle of a thread?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -57,7 +57,7 @@ At any given time, a thread can be in one of these states:
 
 --- 
 
-9.How can we differentiate `notify()` and `notifyAll()` methods ?
+4.How can we differentiate `notify()` and `notifyAll()` methods ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -91,7 +91,7 @@ Synchronization in java is the capability to control the access of multiple thre
 
 ---
 
-18. Explain thread starvation?
+6. Explain thread starvation?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -107,7 +107,7 @@ Thread starvation is basically a situation or condition where a thread won’t b
 
 ---
 
-20. Can you start a thread twice?
+7. Can you start a thread twice?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 

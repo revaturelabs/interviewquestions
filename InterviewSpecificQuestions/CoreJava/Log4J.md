@@ -498,7 +498,7 @@ log4j.rootLogger = WARN, FILE
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Any other named Logger object instance is obtained through the second method by passing the name of the logger. The name of the logger can be any string you can pass, usually a class or a package name as we have used in the last chapter and it is mentioned below −
+Any other named Logger object instance is obtained through the second method by passing the name of the logger. The name of the logger can be any string you can pass, usually a class or a package name 
 
 ```Java
 static Logger log = Logger.getLogger(log4jExample.class.getName());
@@ -600,9 +600,9 @@ static Logger log = Logger.getLogger(log4jExample.class.getName());
 <blockquote>
 
 Some of the Appenders type include
-- ConsoleAppender logs to standard output
-- FileAppender prints logs to some file
-- Rolling file appender to a file with maximum size
+- `ConsoleAppender` logs to standard output
+- `FileAppender` prints logs to some file
+- `Rolling file` appender to a file with maximum size
 
 </blockquote>
 </details>

@@ -80,7 +80,7 @@ To fix ClassNotFoundException, firstly we must go through the exception stack tr
 --- 
 
 
-6. Brief us on Errors
+5. Brief us on Errors
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -98,7 +98,7 @@ To fix ClassNotFoundException, firstly we must go through the exception stack tr
 
 --- 
 
-7. What is the difference between final and finally?
+6. What is the difference between final and finally?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -116,7 +116,7 @@ Finally is a code block. It is used with try-catch block for handling exception.
 
 --- 
 
-8. Tell us about the different kinds of exceptions. What are some examples of checked and unchecked exceptions?
+7. Tell us about the different kinds of exceptions. What are some examples of checked and unchecked exceptions?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -136,7 +136,7 @@ Finally is a code block. It is used with try-catch block for handling exception.
 --- 
 
 
-1. Which block has to be followed after the try block?
+8. Which block has to be followed after the try block?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -148,7 +148,7 @@ Finally is a code block. It is used with try-catch block for handling exception.
 
 ---
 
-2. Does all the code inside try block will be executed?
+9. Does all the code inside try block will be executed?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -160,7 +160,7 @@ Finally is a code block. It is used with try-catch block for handling exception.
 
 ---
 
-5. Can we have multiple catch blocks with the single try block?
+10. Can we have multiple catch blocks with the single try block?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -176,7 +176,7 @@ Important Rule: Order of the catch block must be from most specific to most gene
 </details>
 ---
 
-6. When we can go for multiple catch block? 
+11. When we can go for multiple catch block? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -193,7 +193,7 @@ Important Rule: Order of the catch block must be from most specific to most gene
 
 --- 
 
-9. How can you handle exceptions in Java?
+12. How can you handle exceptions in Java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -212,7 +212,7 @@ Important Rule: Order of the catch block must be from most specific to most gene
 
 --- 
 
-10. What is the difference between exception and error in Java?
+13. What is the difference between exception and error in Java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -228,7 +228,7 @@ Important Rule: Order of the catch block must be from most specific to most gene
 
 --- 
 
-11. What is a custom exception?
+14. What is a custom exception?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -244,7 +244,7 @@ Java allow us to create our own exception based on our need is known as a custom
 
 --- 
 
-12. How do you create custom exception in java?
+15. How do you create custom exception in java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 

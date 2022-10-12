@@ -13,21 +13,10 @@ Explanation: To store a character data we can also use two definitions and they 
 Char(20) ---> fixed length 
 Varchar(20) ---> variable length 
 
-#IGNORE
-2.In MySQL DB The maximum length of the char columns is ____________.
-
-A. 255 bytes
-B. 256 bytes 
-C. 65, 535 bytes
-D. None of the above
-
-Answer : B
-Explanation: The maximum size (m) parameter of a VARCHAR column can be between 0 and 255 bytes in size. The maximum size for an index on a VARCHAR column is 256 bytes.
-
 #P1
 ##MEDIUM
 ###BC
-3.Which "text type" contains the maximum number of bytes in MySQL?
+2.Which "text type" contains the maximum number of bytes in MySQL?
 
 A. TEXT 
 B. TINYTEXT
@@ -40,7 +29,7 @@ Explanation: A string data type called `LONGTEXT` can contain up to '4,294,967,2
 #P1
 ##MEDIUM
 ###BC
-4.Among the following, which contains the maximum bytes in MySQL?
+3.Among the following, which contains the maximum bytes in MySQL?
 
 A. VARCHAR
 B. CHAR
@@ -53,7 +42,7 @@ Explanation: TEXT is a variable width character string data type that supports n
 #P1
 ##MEDIUM
 ###BC
-5.Which of the following describe SQL's types for Unicode character strings?
+4.Which of the following describe SQL's types for Unicode character strings?
 
 A. NTEXT
 B. NCHAR
@@ -66,7 +55,7 @@ Explanation: Unicode character strings datatypes in SQL includes 'NCHAR' and 'NT
 #P1
 ##COMPLEX
 ###BC
-6.which of the following is the best datatype to use and to store a string with up to 255 characters?
+5.which of the following is the best datatype to use and to store a string with up to 255 characters?
 
 A. BLOB
 B. BINARY
@@ -76,22 +65,10 @@ D. TINYTEXT
 Answer: D
 Explantion: A string in "TINYTEXT" can be up to 255 characters or 255 bytes long.
 
-
-#IGNORE
-7.What is the difference between VARCHAR and VARCHAR2?
-
-A. VARCHAR can store upto 4000 bytes and VARCHAR2 can store upto 8000 bytes.
-B. VARCHAR can store upto 2000 bytes and VARCHAR2 can store upto 4000 bytes.
-C. There is no similarity between VARCHAR and VARCHAR2.
-D. Both VARCHAR and VARCHAR2 are similar but use of VARCHAR2 is mostly recommended.
-
-Answer: D
-Explanation: Both VARCHAR and VARCHAR2 are similar but use of VARCHAR2 is mostly recommended.
-
 #P1
 ##COMPLEX
 ###BC
-8.Which of the above functions do we use to obtain a particular day of the month for a given date?
+6.Which of the above functions do we use to obtain a particular day of the month for a given date?
 
 A. DATEPART
 B. DAY
@@ -101,22 +78,10 @@ D. None of the above
 Answer: B
 Explanation: For a given date, DAY returns the day of the month that is specified.
 
-#IGNORE
-9.The user defined data type can be created  by using ______________.
-
-A. Create datatype
-B. Create data
-C. Create definetype
-D. Create type
-
-Answer: D
-Explanation: *A brand-new, user-specified data type is defined using CREATE TYPE. 
-*An object type, nested table type, varray type, or composite type are the types that can be generated.
-
 #P1
 ##EASY
 ###BC
-10.SQL's COUNT function gives the count of_______________.
+7.SQL's COUNT function gives the count of_______________.
 
 A. Distinct values
 B. Group By
@@ -129,7 +94,7 @@ Explanation: The SQL count function returns the total number of values. The Coun
 #P1
 ##COMPLEX
 ###BC
-11.Mysql INT datatype can store numbers from ____________.
+8.Mysql INT datatype can store numbers from ____________.
 
 A. -2,147,483,648 to 2,147,483,647
 B. -8,388,608 to 8,388,607
@@ -142,7 +107,7 @@ Explanation: SMALLINT datatype can store numbers from -32768 to 32767. MEDIUMINT
 #P1
 ##COMPLEX
 ###BC
-12.________________ can store binary strings up to given length.
+9.________________ can store binary strings up to given length.
 A.VARCHAR(x)
 B.BINARY(x)
 C.VARBINARY(x)
@@ -153,7 +118,7 @@ Answer: C
 #P1
 ##EASY
 ###BC
-13.State True  or False: A data type attribute specifies the type of data that an object can hold.
+10.State True  or False: A data type attribute specifies the type of data that an object can hold.
 
 A. True
 B. False

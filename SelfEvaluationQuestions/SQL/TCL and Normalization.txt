@@ -1,20 +1,8 @@
 
-#IGNORE
-1. Which of the following is/are transaction control commands in SQL?
-
-A. Commit
-B. Rollback
-C. Both A. and B.
-D. None of the above
-
-Answer: C
-
-Explanation: Commit and Rollback are transaction control commands in SQL.
-
 #P1
 ##EASY
 ###BC
-2. What command  is used to Store data permanently in a database?
+1. What command  is used to Store data permanently in a database?
 
 A. SavePoint
 B. Grant
@@ -28,7 +16,7 @@ Explanation: Commit is the command used in mySQL to store data permanently in a 
 #P1
 ##EASY
 ###BC
-3. Larry was updating a SQL table during his practical exam during which he mistakenly added few mismatched data. His examination time is about to end,
+2. Larry was updating a SQL table during his practical exam during which he mistakenly added few mismatched data. His examination time is about to end,
    suggest a quick solution through which he can score full marks.
 
 A. Revoke
@@ -43,7 +31,7 @@ Explanation: Rollback is the command used in mySQL to restore any unsaved data i
 #P1
 ##EASY
 ###BC
-4. Few Students Marks has been uploaded in a database , to prevent the data loss from the database which command can be used:
+3. Few Students Marks has been uploaded in a database , to prevent the data loss from the database which command can be used:
 
 | Name          | Marks |
 | ------------- | ----- |
@@ -65,7 +53,7 @@ Explanation: Commit is the command used in mySQL to store data permanently in a 
 #P1
 ##MEDIUM
 ###TF
-5. State True or False:
+4. State True or False:
 
    Insert into TableExample( col1 [datatype],col2 [datatype],col3[datatype])
    values(val1,val2,val3);
@@ -85,7 +73,7 @@ Explanation: Commit command is used to store a data in the table permanently, th
 #P1
 ##MEDIUM
 ###BC
-6. Larry and Weasly was assigned a project in SQL they both worked seperatly hence they had some duplicate data , both are confused in finding a way to get rid of the duplicate data,Luckily Larry used a savepoint command during data insertion.
+5. Larry and Weasly was assigned a project in SQL they both worked seperatly hence they had some duplicate data , both are confused in finding a way to get rid of the duplicate data,Luckily Larry used a savepoint command during data insertion.
    Suggest them a solution.
 
 A. By using just Rollback command.
@@ -100,7 +88,7 @@ Explanation: Savepoint is a command in MySQL that is like a Restore Point in Win
 #P2
 ##EASY
 ###TF
-7.State True or False:
+6.State True or False:
 
 INSERT INTO class VALUES(2, 'Rashid');
 
@@ -143,7 +131,7 @@ and the select command is used to view the data in the table.
 #P2
 ##EASY
 ###BC
-8. What does the following code snippet do?
+7. What does the following code snippet do?
 
 DELETE FROM STUDENTS
 WHERE AGE = 16;
@@ -162,7 +150,7 @@ Then the data is beinged rollbacked using rollback command.
 #P1
 ##MEDIUM
 ###BC
-9. Which of the following commands is executed automatically during a transaction before commit, in case of a shutdown?
+8. Which of the following commands is executed automatically during a transaction before commit, in case of a shutdown?
 
 A. Rollback
 B. Commit
@@ -176,7 +164,7 @@ Explanation: In case of a shutdown, before committing, Rollback is done.
 #P2
 ##EASY
 ###TF
-10. We updated the location of Amritha to "Gujarat" in the table “EMPLOYEE” an make sure to save the chages permanently. EMPLOYEE table is as follows:
+9. We updated the location of Amritha to "Gujarat" in the table “EMPLOYEE” an make sure to save the chages permanently. EMPLOYEE table is as follows:
 
 | EMP_ID | EMP_NAME | EMP_LOC |
 | ------ | -------- | ------- |
@@ -197,44 +185,10 @@ Answer: B
 
 Explanation: Update Command is used to alter the data in the table, Commit command is used to save the changes permanently.
 
-
-#IGNORE
-11.
-
-CREATE TABLE Players(
-ID INT,
-First_Name VARCHAR(255),
-Last_Name VARCHAR(255),
-Date_Of_Birth date,
-Place_Of_Birth VARCHAR(255),
-Country VARCHAR(255),
-PRIMARY KEY (ID)
-);
-
-insert into Players values(1, 'Jonathan', 'Swift', DATE('1981-04-22'), 'CapeTown', 'SouthAfrica');
-insert into Players values(2, 'Kumara', 'Sangakkara', DATE('1977-10-27'), 'Matale', 'Srilanka');
-insert into Players values(1, 'Mahendra Singh', 'Dhoni', DATE('1981-07-07'), 'Ranchi', 'India');
-________;
-
-The Commmand to be used to get the below output is Rollback. True or False?
-O/P:
-
-| ID  | First_Name     | Last_Name | Date_Of_Birth | Place_Of_Birth | Country |
-| --- | -------------- | --------- | ------------- | -------------- | ------- |
-| 1   | Mahendra Singh | Dhoni     | 1981-07-07    | Ranchi         | India   |
-
-A. True
-
-B. False
-
-Answer: A
-
-Explanation: Based on the output we can see that the insertion of the first 2 columns has been removed, Only the insertion below the missing command hence the missing command is Rollback.
-
 #P1
 ##EASY
 ###BC
-12. When Working with a huge data sets, which of the following is a smart way to define commit command?
+10. When Working with a huge data sets, which of the following is a smart way to define commit command?
 
 A. Define commit after each insertion / Updation in the table.
 B. Defining Set Autocommit=1 at the beginning of the file.
@@ -248,7 +202,7 @@ Explanation: Set Autocommit=1 is a command in MySQL that is used to enable autoc
 #P2
 ##EASY
 ###BC
-13. What is the use of SAVEPOINT command from Transition Control Language.
+11. What is the use of SAVEPOINT command from Transition Control Language.
 
 A. Used to Load a file.
 B. Used to update the file in the databsase.
@@ -262,7 +216,7 @@ Explanation: it is a point in a transaction using which you can roll the transac
 #P1
 ##EASY
 ###BC
-14. Which of the following commands is used to start the transaction?
+12. Which of the following commands is used to start the transaction?
 
 A. Mysql > START COMMIT;
 B. Mysql > START TRANSACTION;
@@ -273,23 +227,10 @@ Answer: B
 
 Explanation: To start the transaction, Mysql > START TRANSACTION; command is used.
 
-
-#IGNORE
-15. What type of join is needed when you wish to include rows that do not have matching values?
-
-A. Equi-join
-B. Natural join
-C. Outer join
-D). All of the above
-
-Answer: C
-
-Explanation: Outer joins are joins that return matched values and unmatched values from either or both tables
-
 #P2
 ##EASY
 ###BC
-16. Which is the best way to reduce the data redundancy in a database?
+13. Which is the best way to reduce the data redundancy in a database?
 
 A. De-Normalization
 B. Normalization
@@ -303,7 +244,7 @@ Explanation: Normalization is the process of organizing data in a database.
 #P2
 ##EASY
 ###BC
-17. Which of the following deals with multi-valued dependency?
+14. Which of the following deals with multi-valued dependency?
 
 A. 1NF
 B. 2NF
@@ -315,7 +256,7 @@ Answer: D
 #P2
 ##EASY
 ###BC
-18. If a relation is in BCNF, then it is also in___
+15. If a relation is in BCNF, then it is also in___
 
 A. 1NF
 B. 2NF
@@ -327,7 +268,7 @@ Answer: D
 #P1
 ##EASY
 ###BC
-19. If every non-key attribute is functionally dependent primary key, then the relation will be in_______.
+16. If every non-key attribute is functionally dependent primary key, then the relation will be in_______.
 
 A. First normal form
 B. Second normal form
@@ -336,20 +277,10 @@ D. Fourth normal form
 
 Answer: B
 
-#IGNORE
-20. If an attribute of a composite key is dependent on an attribute of the other composite key, a normalization called _______ is needed.
-
-A. DKNF
-B. Boyce-Codd Normal Form
-C. 4NF
-D. 3NF
-
-Answer: B
-
 #P2
 ##EASY
 ###BC
-21. Information about data in database is called ________.
+17. Information about data in database is called ________.
 
 A. Data dictionary
 B. Data repository
@@ -358,21 +289,10 @@ D. Metadata
 
 Answer:D
 
-
-#IGNORE
-22. A data type that creates unique numbers for key columns in Microsoft Access is:
-
-A. Autonumber
-B. Boolean
-C. Sequential key
-D. Sequential number
-
-Answer: A
-
 #P2
 ##EASY
 ###BC
-23. A dependency exists between two columns, When___
+18. A dependency exists between two columns, When___
 
 A. Together they constitute a composite key for the table
 B. Knowing the value in one column determines the value stored in another column
@@ -384,7 +304,7 @@ Answer: A
 #P1
 ##EASY
 ###BC
-24. In the ___________ normal form, a composite attribute is converted to individual attributes.
+19. In the ___________ normal form, a composite attribute is converted to individual attributes.
 
 A. First
 B. Second
@@ -396,7 +316,7 @@ Answer: A
 #P2
 ##EASY
 ###BC
-25. Which of the following conditions are true for a table in second normal form (2NF)?
+20. Which of the following conditions are true for a table in second normal form (2NF)?
 
 A. Eliminate all hidden dependencies
 B. Eliminate the possibility of a insertion anomalies
@@ -405,20 +325,10 @@ D. all non key fields depend on the primary key
 
 Answer: D
 
-#IGNORE
-26. Key to represent relationship between tables is called _______
-
-A. Primary key
-B. Secondary Key
-C. Foreign Key
-D. None of the mentioned
-
-Answer: C
-
 #P2
 ##EASY
 ###BC
-27. A functional dependency is a relationship between _______.
+21. A functional dependency is a relationship between _______.
 
 A. Tables
 B. Rows
@@ -430,7 +340,7 @@ Answer: C
 #P1
 ##EASY
 ###BC
-28. Altering the data might have unfavourable effects on some relationships, these are called:
+22. Altering the data might have unfavourable effects on some relationships, these are called:
 
 A. Referential integrity constraints
 B. Modification anomalies
@@ -442,7 +352,7 @@ Answer: B
 #P1
 ##MEDIUM
 ###BC
-29. Which of the following eliminates any modification anomalies?
+23. Which of the following eliminates any modification anomalies?
 
 A. First normal form
 B. Second normal form
@@ -451,31 +361,10 @@ D. Domain/key normal form
 
 Answer: D
 
-#IGNORE
-30. It follows that characteristic C must be determined by attributes A and B, which is know as________.
-
-A. A → C.
-B. B → C.
-C. (A,B) is a composite determinant.
-D. C is a determinant.
-
-Answer: C 
-
-
-#IGNORE
-31. If characteristic A influences both qualities B and C, then:
-
-A. A → B.
-B. B → A.
-C. C → A.
-D. (B,C) → A.
-
-Answer: A
-
 #P1
 ##EASY
 ###BC
-32. The multivalued dependence constraint problem has a many solutions, including:
+24. The multivalued dependence constraint problem has a many solutions, including:
 
 A. Spliting the relation into two relations, each with a single theme.
 B. Change the theme.
@@ -487,7 +376,8 @@ Answer: A
 #P1
 ##MEDIUM
 ###BC
-33. A function is in ______ form if it has no partial functional dependencies.
+
+25. A function is in ______ form if it has no partial functional dependencies.
 
 A.3NF
 B.2NF
@@ -496,20 +386,10 @@ D.BCNF
 
 Answer: B
 
-#IGNORE
-34. 4NF is designed in a way such that there are no : 
-
-A. Transitive dependency
-B. Join dependency
-C. Multi valued dependency
-D. None of these
-
-Answer: C
-
 #P1
 ##EASY
 ###BC
-35. 5NF is designed in a way such that there are no :
+26. 5NF is designed in a way such that there are no :
 
 A. Transitive dependency
 B. Join dependency
@@ -518,20 +398,10 @@ D. All of the above
 
 Answer: B
 
-#IGNORE
-36. A Boyce-Codd Normal Form is:
-
-A. Loss less join and dependency preserving
-B. Loss less join but not dependency preserving
-C. Not loss less join but dependency preserving
-D. None of these 
-
-Answer: B
-
 #P1
 ##EASY
 ###BC
-37. Every Boyce-Codd normal form is in:
+27. Every Boyce-Codd normal form is in:
 
 A. First normal form
 B. Second normal form
@@ -540,31 +410,10 @@ D. All of the above
 
 Answer: D
 
-#IGNORE
-38. The requirement to use increasingly complex SQL in database systems is _____________ of normalization.
-
-A.Advantage
-B.Disadvantage
-C.Either an advantage or disadvantage
-D.Neither an advantage nor disadvantage
-
-Answer: B
-
-
-#IGNORE
-39. _______ of normalisation is the elimination of modification anomalies.
-
-A. Advantage
-B. Disadvantage
-C. Either an advantage or disadvantage
-D. Neither an advantage nor disadvantage  
-
-Answer: A
-
 #P2
 ##EASY
 ###BC
-40. Dependencies with several values should  _______ be removed.
+28. Dependencies with several values should  _______ be removed.
 
 A. Always
 B. Commonly
@@ -572,43 +421,11 @@ C. Seldom
 D. Never
 
 Answer: A
-
-
-#IGNORE
-41. When assessing the table structure of an acquired set of tables with data, accessing the validity of possible referential integrity constraints on foreign keys is (part of) the:
-
-A. First step.
-B. Second step.
-C. Third step.
-D. Fourth step.
-
-Answer: C
-
-
-#IGNORE
-42. When assessing the table structure of an acquired set of tables with data, determining foreign keys is (part of) the:
-
-A. First step.
-B. Second step.
-C. Third step.
-D. Fourth step.
-
-Answer: B
-
-#IGNORE
-43. The task of Creating a read-only database is ________ assigned to beginners of the database profession.
-
-A. Always
-B. Commonly
-C. Seldom
-D. Never
-
-Answer: B
 
 #P1
 ##MEDIUM
 ###BC
-44. Each of the answers below includes an example table with data. Which of the following solutions is an example of a general-purpose notes column problem?
+29. Each of the answers below includes an example table with data. Which of the following solutions is an example of a general-purpose notes column problem?
 
 A. Three columns have the values 534-2435, 534-7867, and 546-2356 in the same row.
 B. Three rows have the values Brown Small Chair, Small Chair Brown, and Small Brown Chair in the same column.
@@ -620,7 +437,7 @@ Answer: D
 #P1
 ##EASY
 ###BC
-45. Normalizations are not always advantageous for a __________ database .
+30. Normalizations are not always advantageous for a __________ database .
 
 A. Read-only
 B. Updateable
@@ -632,7 +449,7 @@ Answer: A
 #P1
 ##EASY
 ###BC
-46. Modification anomalies are frequently severe enough that tables need to be normalised into:
+31. Modification anomalies are frequently severe enough that tables need to be normalised into:
 
 A. 1NF.
 B. 2NF.
@@ -644,7 +461,7 @@ Answer: D
 #P2
 ##EASY
 ###BC
-47. Each of the answers below includes an example table with data. Which response exemplifies the missing values issue?
+32. Each of the answers below includes an example table with data. Which response exemplifies the missing values issue?
 
 A. Three columns have the values 534-2435, 534-7867, and 546-2356 in the same row.
 B. Three rows have the values Brown Small Chair, Small Chair Brown, and Small Brown Chair in the same column.
@@ -653,20 +470,10 @@ D. One row has the value "He is interested in a Silver Porsche from the years 19
 
 Answer: C
 
-#IGNORE
-48. When assessing the table structure of an acquired set of tables with data, determining functional dependencies is (part of) the:
-
-A. First step.
-B. Second step.
-C. Third step.
-D. Fourth step.
-
-Answer: B
-
 #P1
 ##EASY
 ###BC
-49. Each answer below shows example data from a table. Which answer is an example of the multivalue, multicolumn problem?
+33. Each answer below shows example data from a table. Which answer is an example of the multivalue, multicolumn problem?
 
 A. Three columns have the values 534-2435, 534-7867, and 546-2356 in the same row.
 B. Three rows have the values Brown Small Chair, Small Chair Brown, and Small Brown Chair in the same column.
@@ -675,30 +482,10 @@ D. One row has the value "He is interested in a Silver Porsche from the years 19
 
 Answer: A 
 
-#IGNORE
-50. When assessing the table structure of an acquired set of tables with data, counting the number of table rows is (part of) the:
-
-A. First step.
-B. Second step.
-C. Third step.
-D. Fourth step.
-
-Answer: A
-
-#IGNORE
-51. A table is in the _________ state, if all determinants have been converted to candidate keys by normalisation.
-
-A. 1NF.
-B. 2NF.
-C. 3NF.
-D. Boyce-Codd Normal Form.
-
-Answer: D
-
 #P2
 ##EASY
 ###BC
-52. Read-only databases are ________ updated.
+34. Read-only databases are ________ updated.
 
 A.Always
 B.Commonly
@@ -707,40 +494,10 @@ D.Never
 
 Answer: D
 
-#IGNORE
-53. The need to evaluate the veracity of posited referential integrity restrictions on foreign keys is ______________ of normalisation.
-
-A. Advantage
-B. Disadvantage
-C. Either an advantage or disadvantage
-D. Neither an advantage nor disadvantage
-
-Answer: D
-
-#IGNORE
-54. When assessing the table structure of an acquired set of tables with data, determining primary keys is (part of) the:
-
-A. First step.
-B. Second step. 
-C. Third step.
-D. Fourth step.
-
-Answer: B
-
-#IGNORE
-55. Normalization ________ data duplication.
-
-A. Eliminates
-B. Reduces
-C. Increases
-D. Maximizes
-
-Answer: A
-
 #P2
 ##EASY
 ###BC
-56. Each answer below shows example data from a table. Which answer is an example of the inconsistent values problem?
+35. Each answer below shows example data from a table. Which answer is an example of the inconsistent values problem?
 
 A. Three columns have the values 534-2435, 534-7867, and 546-2356 in the same row.
 B. Three rows have the values Brown Small Chair, Small Chair Brown, and Small Brown Chair in the same column.

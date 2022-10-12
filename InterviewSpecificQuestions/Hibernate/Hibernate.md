@@ -81,7 +81,7 @@
 ------
 
 
-1. Can we use Hibernate in. standalone (or console based) applications?
+5. Can we use Hibernate in. standalone (or console based) applications?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -197,7 +197,7 @@ public class OrderDetail implements Serializable {
 
 ------
 
-1. Can you talk about dialect in the context of Hibernate?
+9. Can you talk about dialect in the context of Hibernate?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 

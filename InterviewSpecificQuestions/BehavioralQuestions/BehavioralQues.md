@@ -19,7 +19,7 @@ Sample answer 2: I am a Mathematics student. In my eyes, Mathematics is the tool
 <summary> Show Answer </summary>
 <blockquote>
  
-Sample Answer: Related to technical languages and choose an answer on why did you choose that programming language
+Sample Answer: Related to technical languages and choose an answer on why did you choose that programming language.
 
 Sample answer: I would learn German and Spanish. I choose German because the vocabulary is similar to English. I choose Spanish as its widely spoken. These 2 languages might help me in my career upliftment as well.
  
@@ -75,14 +75,14 @@ Sample answer: I was developing this utility in my available time and I couldn�
 <blockquote>
  
 Sample Answer: 
-Lack of clarity.
-Trust issues.
-Personality conflicts.
-Withholding information.
+Lack of clarity
+Trust issues
+Personality conflicts
+Withholding information
 Lack of communication
-Reduced engagement.
-Excessive staff numbers.
-Interior competition.
+Reduced engagement
+Excessive staff numbers
+Interior competition
 Sample scenario: When I was working with a team of 10 people on a project of content creation, everyone had multiple opinions about executing the task. At times, it led to personal conflicts as well. We, as a team, decided to talk about this and come up with a common strategy that everyone supports and we were successful in accomplishing that. Initially, we had struggles to come up with a common solution due to communication barriers but we figured out ways to resolve and the task is successfully executed.
  
 </details>
@@ -142,14 +142,14 @@ Sample Answer: To state my strength and weakness can be a little confusing becau
 <blockquote>
 
 Ways to manage conflict resolution:
-1. Talk with the other person.
-2. Focus on behavior and events, not on personalities.
-3. Listen carefully.
-4. Identify points of agreement and disagreement.
-5. Prioritize the areas of conflict.
-6. Develop a plan to work on each conflict.
-7. Follow through on your plan.
-8. Build on your success.
+1. Talk with the other person
+2. Focus on behavior and events, not on personalities
+3. Listen carefully
+4. Identify points of agreement and disagreement
+5. Prioritize the areas of conflict
+6. Develop a plan to work on each conflict
+7. Follow through on your plan
+8. Build on your success
 
 Sample answer: When I am assigned with a project, I would segregate the project modules based on the stages of development. I will make sure that the phase is streamlined with the execution along with the entire team. Also, regular one on one and proper communication would resolve most of the conflicts. 
 
@@ -171,7 +171,7 @@ Sample answer: When I am assigned with a project, I would segregate the project 
 
 -------------
 
-12.Explain your project
+12.Explain your project.
 
 <details>
 <summary> Show Answer </summary>
@@ -197,7 +197,7 @@ Sample Answer: When faced with a conflict, I like to ask questions and understan
 
 ---------------
 
-14.Tell me about a time when you had a person that was hampering your progress as a team for a project
+14.Tell me about a time when you had a person that was hampering your progress as a team for a project.
 
 <details>
 <summary> Show Answer </summary>
@@ -253,7 +253,7 @@ Sample Answer: “When I started my first internship, I was overly eager to go t
 
 ---------------
 
-18.Describe a time when you had to earn someone's respect/what did that take?
+18.Describe a time when you had to earn someone's respect/what did that take.
 
 <details>
 <summary> Show Answer </summary>
@@ -380,15 +380,15 @@ What are the 3 main characteristics of a leader?
 <blockquote>
  
 Sample answer 1: 
-•	Have clear goals and objectives.
-•	Motivate and support their team members and provide them with right direction.
-•	Be empathetic and accountable.
+•	Have clear goals and objectives
+•	Motivate and support their team members and provide them with right direction
+•	Be empathetic and accountable
 
 Sample answer 2:
-•	Inspire Trust.
-•	Create Vision.
-•	Execute Strategy.
-•	Coach Potential.
+•	Inspire Trust
+•	Create Vision
+•	Execute Strategy
+•	Coach Potential
  
 </details>
 </blockquote>
@@ -417,14 +417,14 @@ Sample answer 2: When stress does inevitably arise, planning helps me to tackle 
 <blockquote>
  
 •	Turn conflict into problem solving
-•	Determine if the problem is worth discussing.
-•	Use the right body language.
-•	Focus on the facts not on personal opinions.
-•	Allow everyone to speak.
-•	Be mindful about language.
-•	Refocus the client on the impact.
-•	Approach the problem with empathy.
-Sample answer: I actively readjust my attitude during a conflict situation. This means that I strive to listen to the other person’s point of view without becoming defensive. I also attempt to move the confrontation to a private space to avoid further complications.
+•	Determine if the problem is worth discussing
+•	Use the right body language
+•	Focus on the facts not on personal opinions
+•	Allow everyone to speak
+•	Be mindful about language
+•	Refocus the client on the impact
+•	Approach the problem with empathy
+Sample answer: I actively readjust my attitude during a conflict situation. This means that I strive to listen to the other person’s point of view without becoming defensive. I also attempt to move the confrontation to a private space to avoid further complications
 
 </details>
 </blockquote>
