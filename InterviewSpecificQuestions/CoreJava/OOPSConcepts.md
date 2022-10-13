@@ -596,22 +596,16 @@ While changing the accessibility of the method,
 <summary> <b>Show Answer</b></summary>
   
 <blockquote>
+	
  
- +---------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
 | Class                                                                     | Object                                                                                      |
-+---------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | Class is a blueprint or template from which objects are created.          | Object is an instance of a class.                                                           |
-+---------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
-| Class is a group of similar objects.                                      | Object is a real world entity such as pen, laptop, mobile, bed, keyboard, mouse, chair etc. |
-+---------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
-| When a class is created, no memory is allocated.                          | Objects are allocated memory space whenever they are created.                               |
-+---------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+|  Class is a group of similar objects.                                     | Object is a real world entity such as pen, laptop, mobile, bed, keyboard, mouse, chair etc. |
+|  When a class is created, no memory is allocated.                         | Objects are allocated memory space whenever they are created.                               |
 | The class has to be declared first and only once.                         | An object is created many times as per requirement.                                         |
-+---------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
-| It is declared with the class keyword                                     | It is created with a class name and a `new` keyword in Java.                                |
-+---------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| It is declared with the class keyword                                     | It is created with a class name and a \`new\` keyword in Java.                              |
 | Class does not contain any values which can be associated with the field. | Each object has its own values, which are associated with it.                               |
-+---------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
 
 </blockquote>
 </details>
