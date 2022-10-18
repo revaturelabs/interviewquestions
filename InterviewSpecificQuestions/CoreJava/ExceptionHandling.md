@@ -1,4 +1,4 @@
-1. Brief us on Exception Handling. (or) What is execption?
+1. Brief us on Exception Handling (or) What is exception?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -174,6 +174,7 @@ Important Rule: Order of the catch block must be from most specific to most gene
 	
 </blockquote>
 </details>
+
 ---
 
 11. When we can go for multiple catch block? 
