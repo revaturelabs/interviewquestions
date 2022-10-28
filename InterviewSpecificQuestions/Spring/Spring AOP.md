@@ -25,7 +25,7 @@
 
 <blockquote> 
     
-- Spring provides simple and powerful ways of writing custom aspects(a modularization of a concern that cuts across multiple classes) by using @AspectJ annotation style. 
+- Spring provides simple and powerful ways of writing custom aspects (a modularization of a concern that cuts across multiple classes) by using @AspectJ annotation style. 
 - @AspectJ refers to a style of declaring aspects as regular Java classes annotated with annotations. 
 - The @AspectJ style was introduced by the AspectJ project as part of the AspectJ 5 release. 
 - Spring interprets the same annotations as AspectJ 5, using a library supplied by AspectJ for pointcut parsing and matching. 
@@ -57,7 +57,7 @@
 </details>
 
 ---
-3. You have to capture all exceptions caused in repository, service & controller layer using Spring AOP, how you can do it?
+3. You must capture all exceptions caused in repository, service & controller layer using Spring AOP, how you can do it?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -104,14 +104,14 @@ public class LoggingAspect {
     }
 }
 ```
-- In above code we have defined pointcut expression for DAO, Service & Controller layer.
+- In above code, we have defined pointcut expression for DAO, Service & Controller layer.
 - The `..` notation means "any package or subpackage", whereas `*` at the end of the expression after `..` means "any method in any class".
 </blockquote>
 
 </details>
 
 ---
-4. You have to measure performance (or time taken by method execution) how can you achieve it with AOP?
+4. You have to measure performance (or time taken by method execution), how can you achieve it with AOP?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -119,8 +119,7 @@ public class LoggingAspect {
 
 <blockquote> 
     
-- Apart from standard cross cutting concerns like Auditing, Logging, Transaction Management, Security etc. there are occasions were
-we want to deal with custom cross cutting concerns.
+- Apart from standard cross cutting concerns like Auditing, Logging, Transaction Management, Security etc. there are occasions where we want to deal with custom cross cutting concerns.
 - Measuring performance of the method execution can be one of such example of cross cutting concerns.
 - Ensure the AspectJ dependencies are added in pom.xml file.
 - Define central logging class named `ExecutionTimeAspect.java` 
@@ -142,7 +141,7 @@ public class ExecutionTimeAspect {
     }
 }
 ```
-- In above code we have defined pointcut expression to measure performance of `public String com.revature.service.RefundService.process(Long)` method.
+- In above code, we have defined pointcut expression to measure performance of `public String com.revature.service.RefundService.process(Long)` method.
 </blockquote> 
 
 </details>
@@ -163,7 +162,7 @@ public class ExecutionTimeAspect {
 </details>
 
 ---
-6. Why we use @EnableAspectJAutoProxy?
+6. Why do we use @EnableAspectJAutoProxy?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -172,7 +171,7 @@ public class ExecutionTimeAspect {
 <blockquote> 
     
 - Enables support for handling components marked with AspectJ's @Aspect annotation. 
-- This annotaion is usually defind on class marked with @Configuration.
+- This annotation is usually defined on class marked with @Configuration.
 ```java
  @Configuration
  @EnableAspectJAutoProxy
@@ -192,3 +191,4 @@ public class ExecutionTimeAspect {
 </details>
 
 ---
+
