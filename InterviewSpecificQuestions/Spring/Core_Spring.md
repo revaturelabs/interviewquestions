@@ -46,9 +46,9 @@ Spring does not manage the complete lifecycle of a prototype bean.
 
 <blockquote> 
 
-- Both of the beans are used mainly in Web Application.
+- Both beans are used mainly in Web Application.
 - If the bean scope is `Request`, then on every request (from same user or different user) a new bean will be created.
-- If the bean scope is `Session` then on every request same bean would be returned as long as requests are within the same user session also made from a client which is capable of maintaining the session (`curl` command can't maintain the user session unless pass cookie/session identifier header).
+- If the bean scope is `Session` then on every request same bean would be returned if requests are within the same user session also made from a client which is capable of maintaining the session (`curl` command can't maintain the user session unless pass cookie/session identifier header).
 - `Session` beans are not destroyed until session timeout up or session destroyed.
 
 </details>
@@ -57,7 +57,7 @@ Spring does not manage the complete lifecycle of a prototype bean.
 
 ---
 
-4. How a IOC container is configured in a spring console based application?
+4. How an IOC container is configured in a spring console based application?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -211,7 +211,7 @@ public class App {
 
 ---
 
-5. How to decide upon choosing BeanFactory or ApplicationContext in Spring application?.
+5. How to decide upon choosing BeanFactory or ApplicationContext in Spring application?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -310,7 +310,7 @@ public class App {
 - Database connections are expensive operation.
 - A connection pool is like a collection of open connections. 
 - If a connection is established or created it should be added to the connection pool.
-- When a connection is released, it's actually returned back to the pool, so other clients can reuse it.
+- When a connection is released, it's returned back to the pool, so other clients can reuse it.
 - While the connection is open it can be used again and again.
 - Spring support connection pooling by supporting configuration of DataSource inside application.
 - Spring provides `DriverManagerDataSource` for testing application during development phase.
@@ -404,7 +404,7 @@ public class App {
 <blockquote> 
     
 - Exception thrown when a BeanFactory is asked for a bean instance for which multiple matching candidates have been found when only one matching bean was expected.
-- To understand problem consider below situation where we have three input interfaced namely `Keyboard`, `Mouse` and `Joystick` implementing `Usb` interface.
+- To understand problem, consider below situation where we have three input interfaced namely `Keyboard`, `Mouse` and `Joystick` implementing `Usb` interface.
 - The class `Counterstrike` has one dependency called `gameControl` of type `Usb`.
 - The Spring container while injecting dependency gameControl has confusion, as there are three qualifying beans for desired match, hence we will get `NoUniqueBeanDefinitionException` exception.
 
@@ -463,7 +463,7 @@ public class App {
     - When we annotate a Spring Bean method with PreDestroy annotation, it gets called when the bean instance is getting removed from the context.
     - Note: if your spring bean scope is `Prototype` then it’s not completely managed by the spring container and the PreDestroy method won’t get called. 
 - Both of the above annotation are part of Common Annotations API and it’s part of JDK module `javax.annotation-api`. 
-- Lets look at simple example below:
+- Let’s look at simple example below:
 - `MailService.java` file-
 ```java
 package com.revature;
@@ -527,7 +527,7 @@ public class MainApp {
 </details>
 
 ---
-10. How you decide as developer to choose among `.properties` or `.yaml` configuration file in Spring Boot application? 
+10. How do you decide as developer to choose among `.properties` or `.yaml` configuration file in Spring Boot application? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -535,7 +535,7 @@ public class MainApp {
 
 <blockquote> 
     
-- In Spring Boot we use an external configuration to define our properties.
+- In Spring Boot, we use an external configuration to define our properties.
 - This allows us to use the same application code in different environments.
 - We can use properties files, YAML files, environment variables and command-line arguments.
 - `application.properties` file, which uses a key-value format:
