@@ -751,3 +751,21 @@ C. Three rows have the values Brown, NULL, and Blue in the same column.
 D. One row has the value "He is interested in a Silver Porsche from the years 1978-1988" in a column.
 
 Answer: B
+
+#P1
+##EASY
+###BC
+57. State True or False:
+ Insert into TableExample( col1 [datatype],col2 [datatype],col3[datatype])
+   values(val1,val2,val3);
+   commit;
+   rollback;
+Here,
+     rollback command is not applicable if a Commit is used, it is used to store data permanently in a table.
+     
+A.True
+B.False
+
+Answer: A
+     
+
