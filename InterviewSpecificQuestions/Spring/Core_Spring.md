@@ -16,7 +16,7 @@
 </details>
 
 ---
-2. How you decide whether to create `Singleton` bean or `Prototype` bean in application??
+2. How do you decide whether to create `Singleton` bean or `Prototype` bean in application?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -38,7 +38,7 @@ Spring does not manage the complete lifecycle of a prototype bean.
 
 ---
 
-3. When do you used `Session` and `Request` bean in Spring?
+3. When do you use `Session` and `Request` bean in Spring?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -625,7 +625,7 @@ Dependency Injection (DI) is a design pattern that removes the dependency from t
 
 <blockquote> 
 
-There are 5 type of bean scope is in Spring :-
+There are 5 types of bean scope in Spring :-
 
 1)**Singleton:-** It return a single bean instance per spring IOC Container.
 2)**Prototype:-** It return a new bean instance each time when requested.
