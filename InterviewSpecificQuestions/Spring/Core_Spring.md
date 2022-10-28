@@ -627,11 +627,11 @@ Dependency Injection (DI) is a design pattern that removes the dependency from t
 
 There are 5 types of bean scope in Spring :-
 
-1)**Singleton:-** It return a single bean instance per spring IOC Container.
-2)**Prototype:-** It return a new bean instance each time when requested.
-3)**Request:-** It return a single instance for every HTTP request call.
-4)**Session:-** It returns a single instance for every HTTP request call.
-5)**Global session:-** Global session scope is equal as session scope on portlet-based web applications.
+1. **Singleton:-** It return a single bean instance per spring IOC Container.
+2. **Prototype:-** It return a new bean instance each time when requested.
+3. **Request:-** It return a single instance for every HTTP request call.
+4. **Session:-** It returns a single instance for every HTTP request call.
+5. **Global session:-** Global session scope is equal as session scope on portlet-based web applications.
 
 </blockquote>
 
