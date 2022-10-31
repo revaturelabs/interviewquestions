@@ -1,4 +1,4 @@
-1. What is Eager and Lazy loading?
+1. What are Eager and Lazy loading?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -21,7 +21,7 @@
   
 ---
 
-2. Does Angular lazy loads the modules?
+2. Does Angular lazy load the modules?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -29,14 +29,14 @@
 <summary><b>Show Answer</b></summary>
 <blockquote>
  
-No. By default, Angular loads the NgModules eagerly which means that as soon as the application loads, all the NgModules & components loaded, whether or not they are immediately necessary.
+No. By default, Angular loads the NgModules eagerly which means that as soon as the application loads, all the NgModules & components are loaded, whether or not they are immediately necessary.
 
 </blockquote>
 </details>
   
 ---
 
-3. Which do you thinks its best eagerly loaded or lazy loaded?
+3. Which do you think is best eagerly loaded or lazily loaded?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -44,16 +44,16 @@ No. By default, Angular loads the NgModules eagerly which means that as soon as 
 <summary><b>Show Answer</b></summary>
 <blockquote>
  
-For small scale application, eagerly loading modules would be good. But as the application grows the load time will increase if everything is loaded at once. Lazy loading allows Angular to load components and modules as and when they're needed.
+For small-scale applications, eagerly loading modules would be good. But as the application grows the load time will increase if everything is loaded at once. Lazy loading allows Angular to load components and modules as and when they're needed.
   
-For large scale application, lazy loading modules would be good.
+For large-scale applications, lazy-loading modules would be good.
   
 </blockquote>
 </details>
   
 ---
 
-4. What are NgModules?
+4. What are modules?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -72,7 +72,7 @@ For large scale application, lazy loading modules would be good.
   
 ---
 
-5. List benefits of lazy loading.
+5. List the benefits of lazy loading.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -81,16 +81,16 @@ For large scale application, lazy loading modules would be good.
 <blockquote>
  
 Benefits of lazy loading module:
-- **Reduces initial load time** – Lazy loading a webpage reduces page weight, allowing for a quicker page load time.
+- **Reduces initial load time** – Lazy loading of a webpage reduces page weight, allowing for a quicker page load time.
 - **Bandwidth conservation** – Lazy loading conserves bandwidth by delivering content to users only if it’s requested.
-- **System resource conservation** – Lazy loading conserves both server and client resources, because only some of the images, JavaScript and other code actually needs to be rendered or executed.
+- **System resource conservation** – Lazy loading conserves both server and client resources, because only some of the images, JavaScript and other code need to be rendered or executed.
    
 </blockquote>
 </details>
   
 ---
 
-6. Explain the use of `@NgModule` Decorator
+6. Explain the use of the `@NgModule` Decorator
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -167,7 +167,7 @@ Module in Angular refers to a place where you can group the components, directiv
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-After creating the angular application, in the `app.module.ts` file , we able to see `BrowserModule` is imported by default.
+After creating the angular application, in the `app.module.ts` file , we can see `BrowserModule` is imported by default.
 
 ```ts
 import { BrowserModule } from '@angular/platform-browser';
@@ -201,7 +201,7 @@ export class AppModule { }
 
 We have to make that pipe class public, through the `export` keyword, so that external components can use them. 
 	
-For example: `export class FirstCharPipe implements PipeTransform {}` and in that `app.module.ts`, we have imported the pipe class and added under the `declarations` property of `@NgModule`
+For example: `export class FirstCharPipe implements PipeTransform {}` and in that `app.module.ts`, we have imported the pipe class and added it under the `declarations` property of `@NgModule`
 
 ```ts
 import { BrowserModule } from '@angular/platform-browser';
@@ -232,7 +232,7 @@ export class AppModule { }
 ---
  
 
-11. Have you heard below angular modules? If so, explain a bit about each.
+11. Have you heard of angular modules? If so, explain a bit about each.
 	- `BrowserModule`
 	- `FormsModule`
 	- `RouterModule`
@@ -245,10 +245,10 @@ export class AppModule { }
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-- `BrowserModule` is imported from `@angular/platform-browser` (by default) provides support to run Angular apps on different supported browsers.
-- `FormsModule` is imported from `@angular/forms` and it is used when you build template driven forms.
-- `RouterModule` is imported from `@angular/router` and  it is used when you want to naviagate between views defined in an application.
-- `HttpClientModule` is imported from `@angular/common/http` and it used to initiate HTTP request and responses in angular apps. 
+- `BrowserModule` is imported from `@angular/platform-browser` (by default) and provides support to run Angular apps on different supported browsers.
+- `FormsModule` is imported from `@angular/forms` and it is used when you build template-driven forms.
+- `RouterModule` is imported from `@angular/router` and  it is used when you want to navigate between views defined in an application.
+- `HttpClientModule` is imported from `@angular/common/http` and it is used to initiate HTTP requests and responses in angular apps. 
 
 </blockquote>
 </details>
@@ -263,7 +263,7 @@ export class AppModule { }
 <summary><b>Show Answer</b></summary>
 <blockquote>
  
-For large scale/ complex application, lazy loading would be good.
+For large-scale/ complex applications, lazy loading would be good.
 </blockquote>
 	
 <details>
