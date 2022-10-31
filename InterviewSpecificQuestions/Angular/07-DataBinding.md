@@ -6,7 +6,7 @@
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-Using String Interpolation, we can print the `name` in template. In `app.component.html`, 
+Using String Interpolation, we can print the `name` in the template. In `app.component.html`, 
 ```html
 {{ name }}
 ```
@@ -17,8 +17,8 @@ Using String Interpolation, we can print the `name` in template. In `app.compone
 ---
  
 2. Design the angular app with the following criteria
-	- Template should have button named `Click Me`
-	- When user clicked on the button, you should greet the user with a message "Welcome to my angular app"
+	- Template should have a button named `Click Me`
+	- When the user clicked on the button, you should greet the user with the message "Welcome to my angular app"
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -26,7 +26,7 @@ Using String Interpolation, we can print the `name` in template. In `app.compone
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-In `app.component.html`, create a button and have `Click Me` enclosed with `<button>` tag. When user clicked on the button, we should greet the user with a message "Welcome to my angular app". We need data binding. 
+In `app.component.html`, create a button and have `Click Me` enclosed with the `<button>` tag. When the user clicked on the button, we should greet the user with the message "Welcome to my angular app". We need data binding. 
 	
 ```html
 <button (click)="onClick()"> Click Me</button>	
@@ -37,7 +37,7 @@ In `app.component.html`, create a button and have `Click Me` enclosed with `<but
 	
 --- 
 	
-3. What are the ways of databinding in angular?
+3. What are the ways of data binding in angular?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 	
@@ -45,8 +45,8 @@ In `app.component.html`, create a button and have `Click Me` enclosed with `<but
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 
-- Databinding is a technique used to bind the data from an view to a component or from a component to view.
-- They are 1 way databinding and 2-way databinding
+- Databinding is a technique used to bind the data from a view to a component or from a component to a view.
+- They are 1-way data binding and 2-way data binding
 
 ![image](https://user-images.githubusercontent.com/70228962/186710327-e17f9bca-c65d-4957-a43a-ddecbd339ee6.png)
 
@@ -65,8 +65,8 @@ In `app.component.html`, create a button and have `Click Me` enclosed with `<but
 	
 - From Component to the view
 - Bind values to the attributes of HTML elements.
-- Uses [], square brackets in the html file
-- Create a variable in the class, and the bind that value to an attribute for HTML tag
+- Uses [], square brackets in the HTML file
+- Create a variable in the class and bind that value to an attribute for the HTML tag
 
 ![image](https://user-images.githubusercontent.com/103101208/185592858-66cc92f3-feca-436e-87cf-766c692a8a8c.png)
 
@@ -84,8 +84,8 @@ In `app.component.html`, create a button and have `Click Me` enclosed with `<but
 <blockquote>
 
 - From view to component
-- Bind DOM events such as keystrokes, button clicks, mouse overs, touches, etc. to a function in the component.
-- Uses (), parentheses in the html file
+- Bind DOM events such as keystrokes, button clicks, mouseovers, touches, etc. to a function in the component.
+- Uses (), parentheses in the HTML file
 - Here, we were calling the `OnClick()` function, when the ‘Click Here’ button is clicked.
 
 ![image](https://user-images.githubusercontent.com/103101208/185593164-aa23c1a2-497c-4906-8b32-15af3231d0a6.png)
@@ -104,7 +104,7 @@ In `app.component.html`, create a button and have `Click Me` enclosed with `<but
 <blockquote>
 
 - From the component class to the HTML template
-- Uses {{}}, double curly braces in the html
+- Uses {{}}, double curly braces in the HTML
 
 ![image](https://user-images.githubusercontent.com/103101208/185593247-f546704d-d3ed-4a80-8ff3-01289401fe00.png)
 
@@ -114,7 +114,7 @@ In `app.component.html`, create a button and have `Click Me` enclosed with `<but
 --- 
 
 
-7. Do you know about two way databinding in angular? If so, explain.
+7. Do you know about two-way data binding in angular? If so, explain.
 	
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 	
@@ -122,11 +122,11 @@ In `app.component.html`, create a button and have `Click Me` enclosed with `<but
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 
-- Two-way data binding is achieved by combining property binding and event binding together.
+- Two-way data binding is achieved by combining property binding and event binding.
 - Mostly used in forms.
-- The Angular uses the `ngModel` directive to achieve two-way binding on HTML `<form>` elements.
+- Angular uses the `ngModel` directive to achieve two-way binding on HTML `<form>` elements.
 - To use the `ngModel` directive, we need to import the `FormsModule` package into our Angular module.
-- Here, we enclose `ngModel` directive within [()]
+- Here, we enclose the `ngModel` directive within [()]
 
 ![image](https://user-images.githubusercontent.com/103101208/185593434-3e70965a-c750-4bbd-aa3b-b3fea6fccba7.png)
 
@@ -148,14 +148,14 @@ For example, if we take below `<input>` tag:
 <input type="text" id="name" value="John">
 ```
 	
-Here we have an `<input>` tag sets value as "John". It's the initial value.  
+Here we have an `<input>` tag set value as "John". It's the initial value.  
 
-In console of a browser if we execute,
+In the console of a browser if we execute,
 	
 ```js	
 name.getAttribute('value') //attribute value gives John
 
-name.value  // property value also gives John
+name. value  // property value also gives John
 ```
 	
 Let's say the user enters/changes to  "Jim" in this input textbox.
@@ -165,7 +165,7 @@ name.getAttribute('value') // attribute value gives Jim
 
 name.value  // property value also gives Jim	
 ```
-**NOTE:** Attributes initialise DOM properties. Once initialisation complete attribute job is done. Properties value can change whereas attribute value cannot change
+**NOTE:** Attributes initialize DOM properties. Once initialization is complete attribute job is done. Properties value can change whereas attribute value cannot change
 	
 </blockquote>
 </details>
