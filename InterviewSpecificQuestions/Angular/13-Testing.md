@@ -1,4 +1,4 @@
-1. What does `ng test` do?
+1. What does the `ng test` do?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -6,7 +6,7 @@
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-The `ng test` command builds the application in watch mode, and launches the Karma test runner. 
+The `ng test` command builds the application in watch mode and launches the Karma test runner. 
 
 </blockquote>
 </details>
@@ -44,7 +44,7 @@ The test file extension **must be `.spec.ts`** so that tooling can identify it a
   
 ---
 
-4. What does Karma do for?
+4. What does Karma do?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -52,7 +52,7 @@ The test file extension **must be `.spec.ts`** so that tooling can identify it a
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-Karma is a task runner for our tests. It allows the users to execute their Jasmine test codes in multiple real-time browsers from the command line. This command-line also displays the result of the tests. It watches the files for changes and re-runs the tests automatically. By default, Angular runs on Karma.
+Karma is a task runner for our tests. It allows the users to execute their Jasmine test codes in multiple real-time browsers from the command line. This command line also displays the result of the tests. It watches the files for changes and re-runs the tests automatically. By default, Angular runs on Karma.
 
 </blockquote>
 </details>
