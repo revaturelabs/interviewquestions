@@ -8,7 +8,7 @@
   
 Let's consider, we have to make `UserService` available for a `UserComponent` in our angular application.
   
-In the `user.component.ts` file, add the `UserService` in the `providers` property of `@Component` decorator
+In the `user.component.ts` file, add the `UserService` in the `providers` property of the `@Component` decorator
 ```ts
 import { Component, OnInit } from '@angular/core';
 import { UserService } from '../user.service';
@@ -24,7 +24,7 @@ export class UserComponent implements OnInit  {
   constructor(private  user : UserService) {  }
   ngOnInit(): void {
     console.log("Form User Component")
-    this.user.display()
+    this. user.display()
   }
 }
 ```
@@ -34,7 +34,7 @@ export class UserComponent implements OnInit  {
   
 ---
 
-2. How do you make a service available at application level?
+2. How do you make a service available at the application level?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -44,7 +44,7 @@ export class UserComponent implements OnInit  {
 
 Let's consider, we want to make `UserService` available for all the components. 
 
-In the `user.service.ts` file, by default, AngularCLI sets the providedIn to `root` registers the service at the module level. So that is available for all compoenents.
+In the `user.service.ts` file, by default, AngularCLI sets the provided to `root` and registers the service at the module level. So that is available for all components.
   
 ```ts
 import { Injectable } from '@angular/core';
@@ -67,7 +67,7 @@ export class UserService {
 <summary><b>Show Answer</b></summary>
 <blockquote>
  
-At the NgModule level, using the `providers` field of the `@NgModule` decorator. In this scenario, the `UserService` is available to a**ll components, directives and pipes** declared in this NgModule.
+At the NgModule level, use the `providers` field of the `@NgModule` decorator. In this scenario, the `UserService` is available to a**ll components, directives and pipes** declared in this NgModule.
   
 For example:
 ```ts
