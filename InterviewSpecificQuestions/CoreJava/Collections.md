@@ -31,14 +31,14 @@ Java Collection framework provides many interfaces (Set, List, Queue, Deque) and
 
 ---
 
-3. Why is Map not inherited from the Collection interface, despite the fact that it is a component of the Java collection framework? 
+3. Why is Map not inherited from the Collection interface, even though it is a component of the Java collection framework? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Because they are of an incompatible type. List, Set and Queue are a collection of similar kind of objects but just values where a Map is a collection of key and value pairs.
+Because they are of an incompatible type. List, Set, and Queue are a collection of similar kind of objects but just values whereas a  Map is a collection of key and value pairs.
 
 </blockquote>
 </details>
@@ -52,7 +52,7 @@ Because they are of an incompatible type. List, Set and Queue are a collection o
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- Collection interface defines `remove(Object obj)` method to remove objects from `Collection.List` interface adds another method `remove(int index)`, which is used to remove objects at a specific index.
+- Collection interface defines `remove(Object obj)` method to remove objects from `Collection.List` interface and adds another method `remove(int index)`, which is used to remove objects at a specific index.
 - You can use any of these methods to remove an entry from Collection, while not iterating. 
 - Things change when you iterate. Suppose you are traversing a List and removing only certain elements based on logic, then you need to use Iterator's `remove()` method. 
 -This method removes the current element from Iterator's perspective. If you use Collection's or List's `remove()` method during iteration then your code will throw `ConcurrentModificationException`. 
@@ -84,7 +84,7 @@ HashSet extends `AbstractSet` and implements the Set interface. It creates a col
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-When we create an object of HashSet, it internally creates an instance of HashMap with default initial capacity 16. HashSet uses a constructor `HashSet(int capacity)` that represents how many elements can be stored in the HashSet. The capacity may increase automatically when more elements to be store.
+When we create an object of HashSet, it internally creates an instance of HashMap with default initial capacity 16. HashSet uses a constructor `HashSet(int capacity)` that represents how many elements can be stored in the HashSet. The capacity may increase automatically when more elements are to be stored
 
 </blockquote>
 </details>
@@ -113,30 +113,30 @@ Though ArrayList is also backed up by array, it offers some usability advantage 
 <blockquote>
 
 - Java LinkedList:
-    - It is an implementation of the List and Deque interfaces. Internally, it is an implemented using Doubly Linked List Data Structure. It supports duplicate elements. 
-    - It stores or maintains it's elements in Insertion order. 
+    - It is an implementation of the List and Deque interfaces. Internally, it is implemented using Doubly Linked List Data Structure. It supports duplicate elements. 
+    - It stores or maintains elements in Insertion order. 
 
 </blockquote>
 </details>
 
 ---
 
-9. Does Collection and Collections are same in Java.
+9. Does Collection and Collections are same in Java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- No, Collection is a top level interface of Java collection framework where as Collections is an utility class. Below table shows the difference between them.
+- No, Collection is a top-level interface of the Java collection framework whereas Collections is a utility class. The below table shows the difference between them.
 
 - Collection:	
-    - Collection is a root level interface of the Java Collection Framework. 
-    - Most of the classes in Java Collection Framework inherit from this interface.	
-    - List, Set and Queue are main sub interfaces of this interface.	
+    - Collection is a root-level interface of the Java Collection Framework. 
+    - Most of the classes in the Java Collection Framework inherit from this interface.	
+    - List, Set, and Queue are main sub-interfaces of this interface.	
 
 - Collections:
-    - Collections is an utility class in java.util package. 
+    - Collections is a utility class in java.util package. 
     - It consists of only static methods which are used to operate on objects of type Collection.
     -  `Collections.max()`, `Collections.min()`, `Collections.sort()` are some methods of Collections class.
 
@@ -159,7 +159,7 @@ We should prefer String, Integer, Long, Double, Float, Short and any other wrapp
 
 ---
 
-11.  Suppose there is an Student class. We add Student class objects to the ArrayList. Mention the steps that need to be taken if I want to sort the objects in ArrayList using the studentId attribute present in Student class. 
+11.  Suppose there is a Student class. We add Student class objects to the ArrayList. Mention the steps that need to be taken if I want to sort the objects in ArrayList using the studentId attribute present in the Student class. 
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -182,14 +182,14 @@ We should prefer String, Integer, Long, Double, Float, Short and any other wrapp
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-`Collections.sort()` uses Merge sort algorithm to sort the objects.
+`Collections.sort()` uses the Merge sort algorithm to sort the objects.
 
 </blockquote>
 </details>
 
 ---
 
-13. What will happen if we put two values ​​with the same key in Map?
+13. What will happen if we put two values with the same key in Map?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -203,14 +203,14 @@ If we try to insert two values for the same key, the second value will be stored
 
 ---
 
-14. Can an ArrayList contain mutiple references to the same object in Java?
+14. Can an ArrayList contain multiple references to the same object in Java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-The ArrayList in java does not provide the checks for duplicate references to the same object. Therefore, we can insert the same object or reference to a single object as many times as we want.
+The ArrayList in java does not provide checks for duplicate references to the same object. Therefore, we can insert the same object or reference to a single object as many times as we want.
 
 </blockquote>
 </details>
@@ -231,14 +231,14 @@ If the frequent operation is retrieval the ArrayList for the othercase LinkedLis
 
 ---
 
-16. How iterator and enumerator differs while iterating the elements in the collection?
+16. How iterator and enumerator differ while iterating the elements in the collection?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- Enumeration is twice as fast as Iterator and uses less memory. Iterator is thread-safe because does not allow other threads to modify the collection when iterating.
+- Enumeration is twice as fast as Iterator and uses less memory. The iterator is thread-safe because does not allow other threads to modify the collection when iterating.
 - Enumeration can only be used for read-only collections. It also has no `remove()` method ;
 - Enumeration:  `hasMoreElement()` ,  `nextElement ()`
 - Iterator:  `hasNext()` ,  `next()` ,  `remove()`
@@ -249,7 +249,7 @@ If the frequent operation is retrieval the ArrayList for the othercase LinkedLis
 ---
 
 
-17. Can we use null element in TreeSet? Give reason?
+17. Can we use a null element in TreeSet? Give reason?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -297,7 +297,7 @@ infinite times
 
 <details> <summary> <b> Explanation </b> </summary>
 
-ArrayList provides listIterator for traversing in forward and backward direction, so program will compile and run infinitely.
+ArrayList provides a listIterator for traversing in forward and backward directions, so the  program will compile and run infinitely.
 
 </details>
 
@@ -312,9 +312,9 @@ ArrayList provides listIterator for traversing in forward and backward direction
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- If you are using any custom object in Map as key, you need to override `equals()` and `hashCode()` method, 
-and make sure they follow their contract. On the other hand if you are storing a custom object in Sorted Collection 
-- e.g. SortedSet or SortedMap, you also need to make sure that your `equals()` method is consistent to `compareTo()` method, otherwise that collection will not follow there contacts e.g. Set may allow duplicates.
+- If you are using any custom object in Map as a key, you need to override `equals()` and `hashCode()` method, 
+and make sure they follow their contract. On the other hand, if you are storing a custom object in the  Sorted Collection 
+- e.g. SortedSet or SortedMap, you also need to make sure that your `equals()` method is consistent to `compareTo()` method, otherwise that collection will not follow their contacts e.g. Set may allow duplicates.
 
 </blockquote>
 </details>
@@ -343,15 +343,15 @@ and make sure they follow their contract. On the other hand if you are storing a
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- Fail-fast Iterators throw `ConcurrentModificationException` when one thread is iterating over collection object and other thread structurally modify Collection either by adding, removing, or modifying objects on the underlying collection. 
-- They are called fail-fast because they try to immediately throw Exception when they encounter failure. - On the other hand, fail-safe Iterators works on copy of collection instead of the original collection
+- Fail-fast Iterators throw `ConcurrentModificationException` when one thread is iterating over the collection object and another thread structurally modifies the Collection either by adding, removing, or modifying objects on the underlying collection. 
+- They are called fail-fast because they try to immediately throw Exceptions when they encounter failure. - On the other hand, fail-safe Iterators works on a copy of the collection instead of the original collection
 
 </blockquote>
 </details>
 
 ---
 
-22. Which Collection type do you suggest me If I want a sorted collection of objects with no duplicates?
+22. Which Collection type do you suggest to me If I want a sorted collection of objects with no duplicates?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -372,9 +372,9 @@ TreeSet is the best suitable for such scenarios where you want a collection of o
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Vector class is preferred over ArrayList class when you are developing a multi threaded application. 
+The Vector class is preferred over ArrayList class when you are developing a multi-threaded application. 
 But, precautions need to be taken because vector may reduce the performance of your application as it is 
-thread safe and only one thread is allowed to have object lock at any moment of time and remaining threads have to wait until a thread releases the object lock. So, it is always recommended that if you don’t need thread safe environment, it is better to use ArrayList class than the Vector class.And also Vector class is often considered as obsolete or “Due for Deprecation” by many experienced Java developers. They always recommend and advise not to use Vector class in your code. They prefer using ArrayList over Vector class.
+Thread-safe and only one thread is allowed to have an object lock at any moment of time and the remaining threads have to wait until a thread releases the object lock. So, it is always recommended that if you don’t need thread safe environment, it is better the to use ArrayList class than the Vector class.And also Vector class is often considered as obsolete or “Due for Deprecation” by many experienced Java developers. They always recommend and advise not to the use Vector class in your code. They prefer using ArrayList over Vector class.
 
 </blockquote>
 </details>
@@ -432,7 +432,7 @@ We can use `reverseorder()` like `Collections.sort(arraylist, Collections.revers
 <details> <summary> <b> Explanation </b> </summary>
 <blockquote>
 
-Priority queue always outputs the minimum element from the queue when `remove()` method is called, no matter what the sequence of input is.
+Priority queue always outputs the minimum element from the queue when the `remove()` method is called, no matter what the sequence of input is.
 
 </blockquote>
 </details>
@@ -447,7 +447,7 @@ Priority queue always outputs the minimum element from the queue when `remove()`
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- List(Object) can store any any thing including String, Integer etc but List(String) can only store Strings.
+- List(Object) can store any thing including String, Integer etc, but List(String) can only store Strings.
 - List(Object) objectList;
 - List(String) stringList;
 - objectList = stringList; **compilation error**
@@ -464,7 +464,7 @@ Priority queue always outputs the minimum element from the queue when `remove()`
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- The reason to use generics is,the Java compiler enforces tighter type checks on generic code at compile time.
+- The reason to use generics is, the Java compiler enforces tighter type checks on generic code at compile time.
 - Generics support programming types as parameters.
 - Generics enable us to implement generic algorithms
 
@@ -480,21 +480,21 @@ Priority queue always outputs the minimum element from the queue when `remove()`
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Since String is immutable, its hashcode is cached at the time of creation and it doesn’t need to be calculated again. This makes it a great candidate for key in a Map and it’s processing is fast than other HashMap key objects. This is why String is mostly used Object as HashMap keys.
+Since String is immutable, its hashcode is cached at the time of creation and it doesn’t need to be calculated again. This makes it a great candidate for keys in a Map and its processing is fast than other HashMap key objects. Therefore,String is mostly used Object as HashMap keys.
 
 </blockquote>
 </details>
 
 ---
 
-29. How will you create a Readonly List, Set, Map in Java?
+29. How will you create a Readonly List, Set, and Map in Java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-We can use `Collections.unModifiableList()` method to create read-only List,`Collections.unmodifiableSe()`for creating read-only Set like read-only HashSet and similarly creating a read-only Map in Java.
+We can use `Collections.unModifiableList()` method to create a read-only List,`Collections.unmodifiableSe()`for creating a read-only Set like a read-only HashSet and similarly creating a read-only Map in Java.
 
 </blockquote>
 </details>
@@ -508,30 +508,30 @@ We can use `Collections.unModifiableList()` method to create read-only List,`Col
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- Stack and Queue work on the principal of First in Last Out and First in First out. The best use case of Queue is in the messaging services, where we implement the messaging container, which allows one message to get input and another message get output from the queue.
-- The queue has the ability to also act as a buffer to store the elements for the temporary time.
-- Whereas Stack best use is to perform prefix, postfix and infix operation in the Tree.
+- Stack and Queue work on the principle of First in Last Out and First in First out. The best use case of Queue is in the messaging services, where we implement the messaging container, which allows one message to get input and another message to get output from the queue.
+- The queue has the ability to also act as a buffer to store the elements for a temporary time.
+- Whereas Stack’s best use is to perform prefix, postfix, and infix operations in the Tree.
 
 </blockquote>
 </details>
 
 ---
 
-30. What is collision problem ?
+30. What is a collision problem ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-The collision problem is, whenever the hash function returns the same index position for the different key, then a collision occurs. The collision detection technique is also called collision detection.
+The collision problem is, whenever the hash function returns the same index position for a different key, then a collision occurs. The collision detection technique is also called collision detection.
 
 </blockquote>
 </details>
 
 ---
 
-31. Can i add a null element to HashSet and TreeSet?
+31. Can I add a null element to HashSet and TreeSet?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -548,7 +548,7 @@ The collision problem is, whenever the hash function returns the same index posi
 
 ---
 
-32. How will you remove the duplicates from the ArrayList?
+32. How will you remove the duplicates from the Array List?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -749,14 +749,14 @@ k2==null : k1.equals(k2)).)
 
 ---
 
-38. Which methods you need to override to use any object as a key in HashMap?
+38. Which methods do you need to override to use any object as a key in HashMap?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-To use any object as a key in HashMap, it needs to implement `equals()` and `hashCode()` method.
+To use any object as a key in HashMap, it needs to implement `equals()` and `hashCode()` methods.
 
 
 </blockquote>
@@ -772,28 +772,28 @@ To use any object as a key in HashMap, it needs to implement `equals()` and `has
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-`Collections.emptySet()` returns the empty immutable Set ,not containing null  .
+`Collections.emptySet()` returns the empty immutable Set ,not containing null.
 
 </blockquote>
 </details>
 
 ---
 
-40. Why we call `emptySet()` method,as we can also create empty Set  using constructor ?
+40. Why do we call `emptySet()` method, as we can also create an empty Set using a constructor ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Advantages of using `emptySet()` method over creating object using constructor are :
+Advantages of using `emptySet()` method over creating an object using a constructor are :
 
-1. Immutable : You should prefer to use immutable collection against the mutable collections wherever possible . It becomes handy as multiple threads accessing the same instance of object will see the same values.
+1. Immutable: You should prefer to use immutable collections against mutable collections wherever possible. It becomes handy as multiple threads accessing the same instance of an object will see the same values.
 
-2. Concise :  You do not need to manually type out the generic type of the collection - normally it is inferred from the context of the method call.
+2. Concise:  You do not need to manually type out the generic type of the collection - normally it is inferred from the context of the method call.
 
 
-3. Efficient : As `emptySet()` method dont create new objects , so they just reuse the  existing empty and immutable object . Although ,practically,this trick is not that handy , and rarely improves the performance
+3. Efficient: As `emptySet()` method doesn’t create new objects, so they just reuse the existing empty and immutable object . Although, practically, this trick is not that handy, and rarely improves the performance
 
 </blockquote>
 </details>
@@ -807,7 +807,7 @@ Advantages of using `emptySet()` method over creating object using constructor a
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- There are two copy techniques in every object oriented programming lanuage , 
+- There are two copy techniques in every object oriented programming language , 
 deep copy and shallow copy.
 - To create a clone or copy of the Set object, HashSet  internally uses shallow copy 
 in `clone()` method , the elements themselves are not cloned . 
@@ -861,7 +861,7 @@ The Collection API is a set of classes and interfaces that support operation on 
 
 ---
 
-45. What is the difference between hashMap and hashSet in Java ?
+45. What is the difference between hashMap and hashSet in Java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -871,8 +871,8 @@ The Collection API is a set of classes and interfaces that support operation on 
 **HashSet:-**
 
 - HashSet class implements the Set interface
-- In HashSet, we store objects(elements or values) e.g. If we have a HashSet of string elements then it could depict a set of HashSet elements: {“Hello”, “Hi”, “Bye”, “Run”}
-- HashSet does not allow duplicate elements that mean you can not store duplicate values in HashSet.
+- In HashSet, we store objects (elements or values) e.g. If we have a HashSet of string elements then it could depict a set of HashSet elements: {“Hello”, “Hi”, “Bye”, “Run”}
+- HashSet does not allow duplicate elements that mean you cannot store duplicate values in HashSet.
 - HashSet permits to have a single null value.
 - HashSet is not synchronized which means they are not suitable for thread-safe operations until unless synchronized explicitly.
 
@@ -913,7 +913,7 @@ The Collection API is a set of classes and interfaces that support operation on 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-ArrayList and LinkedList both implements List interface and maintains insertion order. Both are non synchronized classes.
+ArrayList and LinkedList both implements List interface and maintains insertion order. Both are non-synchronized classes.
 
 |Sl.No |ArrayList               |LinkedList                                                                 |
 |------|------------------------|--------------------------------------------------------------------------|
