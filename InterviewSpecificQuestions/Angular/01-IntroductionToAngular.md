@@ -8,15 +8,15 @@
 <blockquote>
   
 - Angular is a typescript-based web application framework used to create & build web apps
-- It allows us to create Single Page Application (SPA)
-- Gmail, Youtube, PayPal apps are developed using Angular
+- It allows us to create Single Page Applications (SPA)
+- Gmail, Youtube, and PayPal apps are developed using Angular
 
 </blockquote>
 </details>
 
 --- 
 
-2. What is meant by SPA? _or_ Give some examples for single page applications.
+2. What is meant by SPA? _or_ Give some examples of single-page applications.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -50,18 +50,18 @@
   
 - Inside the build section, the main property of the options object defines the entry point of the application which in this case is `main.ts`.
 - `main.ts` is the entry point of the angular application. 
-- The `main.ts` file creates a browser environment for the application to run, and, along with this, it also calls a function called bootstrapModule, which bootstraps the application. These two steps are performed in the following order inside the `main.ts` file:
+- The `main.ts` file creates a browser environment for the application to run, and, along with this, it also calls a function called bootstrap module, which bootstraps the application. These two steps are performed in the following order inside the `main.ts` file:
 	
 ![image](https://user-images.githubusercontent.com/103101208/185569651-35a2ba9f-73fc-43c6-8548-0a24daac640b.png)
 - In the above line of code, `AppModule` is getting bootstrapped.
 - The `AppModule` is declared in the `app.module.ts` file. This module contains declarations of all the components.
-- Below is an example of `app.module.ts` file:
+- Below is an example of the `app.module.ts` file:
 	
 ![image](https://user-images.githubusercontent.com/103101208/185569778-9ff0d34a-b0e2-4701-a1db-21919ebd3ad7.png)
 	
 - As one can see in the above file, `AppComponent` is getting bootstrapped.
-- This component is defined in `app.component.ts` file. This file interacts with the webpage and serves data to it.
-- Below is an example of `app.component.ts` file:
+- This component is defined in the `app.component.ts` file. This file interacts with the webpage and serves data to it.
+- Below is an example of the `app.component.ts` file:
   
  ![image](https://user-images.githubusercontent.com/103101208/185569886-8ca076a7-6633-4d61-beb5-0d673014b347.png)
 
@@ -71,14 +71,14 @@
 ![image](https://user-images.githubusercontent.com/103101208/185569990-6c67e5b0-d9a6-4340-b2f0-dcd9a9f738c5.png)
 	
 - The HTML template of the root component is displayed inside the `<app-root>` tags.
-- This is how every angular application works. Or This is how angular application get bootstrapped
+- This is how every angular application works. Or This is how angular applications get bootstrapped
 
   </blockquote>
 </details>
 	
 --- 
   
-4. How SPA is different from tradtional web application?
+4. How SPA is different from traditional webapplicationsn?
 	
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 	
@@ -96,7 +96,7 @@
   
  ---
   
-5. Have you used Angular in your project. Can you list some of the features of Angular.
+5. Have you used Angular in your project? Can you list some of the features of Angular?
   
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 	
@@ -138,7 +138,7 @@ On a SPA, after the initial page load, no more HTML gets sent over the network. 
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 
-In a SPA, a page refresh never occurs; instead, all necessary HTML, JavaScript, and CSS code is either retrieved by the browser with a single page load,or the appropriate resources are dynamically loaded and added to the page as necessary, usually in response to user actions.
+In a SPA, a page refresh never occurs; instead, all necessary HTML, JavaScript, and CSS code are either retrieved by the browser with a single page load, or the appropriate resources are dynamically loaded and added to the page as necessary, usually in response to user actions.
 	
 </blockquote>
 </details>
@@ -154,10 +154,10 @@ In a SPA, a page refresh never occurs; instead, all necessary HTML, JavaScript, 
   
   <blockquote>
     
-- Effective cross platform development
-- Two-way data binding in Angular will help users to exchange data from the component to view and from view to the component.  It will help users to establish communication bi-directionally. 
+- Effective cross-platform development
+- Two-way data binding in Angular will help users to exchange data from the component to the view and the room view to the component.  It will help users to establish communication bi-directionally. 
 - The Angular command-line interface (CLI) makes the developer’s job easier because it offers a set of helpful tools for coding. 
-- Angular offers powerful DI (dependency injection) instrument and services to resolve various productivity issues and speed up the development process.
+- Angular offers powerful DI (dependency injection) instruments and services to resolve various productivity issues and speed up the development process.
 - Modularity of angular application makes our code readable and testable
 
 </blockquote> 
@@ -191,7 +191,7 @@ Use a SPA when:
 - Your team is familiar with JavaScript, or TypeScript.
 - Your application must already expose an API for other (internal or public) clients.
 
-Both SPA and MPA are not flawless as they obviously have their pros and cons. SPA is the best choice if you care about **speed and code reusability** that can be applied to develop a **mobile app**. However, it has deficiencies in SEO optimization. MPAs win in case you strive to be **ranked higher in Google**, and it is more scalable but much slower than single-page applications.
+Both SPA and MPA are not flawless as they have their pros and cons. SPA is the best choice if you care about **speed and code reusability** that can be applied to develop a **mobile app**. However, it has deficiencies in SEO optimization. MPAs win in case you strive to be **ranked higher in Google**, and it is more scalable but much slower than single-page applications.
 
 Choosing the best option, you should always have your business goals and requirements in mind.
 
@@ -201,7 +201,7 @@ Choosing the best option, you should always have your business goals and require
 
 ---
 
-10. How SPA different from MPA?
+10. How is SPA different from MPA?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 	
@@ -211,7 +211,7 @@ Choosing the best option, you should always have your business goals and require
 	
 A SPA is an app that works inside a browser and does not require page reloading during use.
 
-On the other hand, a MPA (multiple page application) is considered a more traditional approach to app development. The multi-page design pattern requires a page reload every time the content changes. It’s a preferred option for large companies with extensive product portfolios, such as e-commerce businesses.	
+On the other hand, an MPA multiple-page application) is considered a more traditional approach to app development. The multi-page design pattern requires a page reload every time the content changes. It’s a preferred option for large companies with extensive product portfolios, such as e-commerce businesses.	
 	
 </blockquote> 
 </details>
@@ -229,7 +229,7 @@ On the other hand, a MPA (multiple page application) is considered a more tradit
 | **Angular JS**                                                                                     | **Angular 4**                                                                                                                    |
 | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | Uses MVC architecture to build the applications.                                                   | Uses component-based UI to build the applications.                                                                               |
-| AngularJS is written in JavaScript.                                                                | Angular is compatible with the most recent versions of TypeScript that have powerful type checking and object-oriented features. |
+| AngularJS is written in JavaScript.                                                                | Angular is compatible with the most recent versions of TypeScript that have powerful type-checking and object-oriented features. |
 | To bind an image/property or an event with AngularJS, you have to remember the right ng directive. | Angular focuses on “()” for event binding and “\[ \]” for property binding.                                                      |
 | AngularJS doesn't support mobiles.                                                                 | Angular support mobiles.                                                                                                         |
 
@@ -249,7 +249,7 @@ On the other hand, a MPA (multiple page application) is considered a more tradit
 
 | **Angular 2**                                                                      | **Angular 4**                                                                                       |
 | ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| Angular v2.0 uses Typescript, superset of JavaScript, for writing the application. | Angular v4.0 serves to be compatible with the new version of TypeScript 2.1 as well TypeScript 2.2. |
+| Angular v2.0 uses Typescript, a superset of JavaScript, for writing the application. | Angular v4.0 serves to be compatible with the new version of TypeScript 2.1 as well as TypeScript 2.2. |
 | Code is not Reduced much                                                           | Reduce the size of the generated bundled code up to 60%                                             |
 
 </blockquote>
@@ -268,18 +268,18 @@ On the other hand, a MPA (multiple page application) is considered a more tradit
 	
 - `ng  new MyApp` – used to create an angular application named ‘MyApp’
 - `ng new MyApp  --routing`  - used to create an angular application named ‘MyApp’ with the routing module
-- `ng g c first` – used to create component named ‘first’
+- `ng g c first` – used to create a component named ‘first’
 - `ng g p changePipe` – used to create pipe named `changePipe’
-- `ng g s user` -  used to create service named ‘user’
-- `ng serve` – used to build, run and launch application on HTTP port 4200
-- `ng serve -o` -  used to build, run and launch application on HTTP port 4200, -o option automatically opens the browser to [ http://localhost:4200]( http://localhost:4200)
+- `ng g s user` -  used to create a service named ‘user’
+- `ng serve` – used to build, run and launch applications on HTTP port 4200
+- `ng serve -o` -  used to build, run and launch applications on HTTP port 4200, -o option automatically opens the browser to [ http://localhost:4200]( http://localhost:4200)
 	
 </blockquote>
 </details>
 	
 --- 
 	
-14. What `ng` means?
+14. What does `ng` means?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -294,7 +294,7 @@ On the other hand, a MPA (multiple page application) is considered a more tradit
 	
 --- 
 	
-15. List drawbacks and benfits of MPA _or_ List the advantages and disadvantages of MPA
+15. List drawbacks and benefits of MPA _or_ List the advantages and disadvantages of MPA
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -315,7 +315,7 @@ Drawbacks:
 	
 --- 
 	
-16. List drawbacks and benfits of SPA _or_ List the advantages and disadvantages of SPA
+16. List drawbacks and benefits of SPA _or_ List the advantages and disadvantages of SPA
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -331,9 +331,9 @@ Benefits:
 
 Drawbacks:
 	
-- SPAs perform poor on the search engine. But now, with isomorphic rendering/server-side rendering even SPAs can be optimized for search engine too.
-- Single page applications provide single sharing link.
-- They are less secure compared to traditional multi-page apps because of its cross-site scripting.
+- SPAs perform poorly on the search engine. But now, with isomorphic rendering/server-side rendering even SPAs can be optimized for search engines too.
+- Single-page applications provide single-sharing links.
+- They are less secure compared to traditional multi-page apps because of their cross-site scripting.
 	
 </blockquote>
 </details>
@@ -348,7 +348,7 @@ Drawbacks:
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 	
-- Angular 14 (as per August 2022)
+- Angular 14 (as of August 2022)
 	
 </blockquote>
 	
@@ -363,7 +363,7 @@ Drawbacks:
 	
 --- 
 	
-18. Does Angular support in mobiles?
+18. Does Angular support mobiles?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 	
@@ -386,7 +386,7 @@ Drawbacks:
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 
-- In our web application, we use many javascript files that are added into the HTML pages via `<script>` tags.  For each user request, the browser loads these bunch of script files inside the HTML page. This is inefficient as it reduces the page speed since the browser requests each script file separately.
+- In our web application, we use many javascript files that are added to the HTML pages via `<script>` tags.  For each user request, the browser loads these bunch of script files inside the HTML page. This is inefficient as it reduces the page speed since the browser requests each script file separately.
 - This can be solved by **bundling** several files together into one file to be downloaded by the browser in one single request.
 - **Module bundlers** are used to bundle a group of JavaScript modules with their dependencies and merge them into a single file in the correct order, which can be executed by the browser.
 - **Webpack** is a powerful static module bundler for JavaScript applications that packages all modules in our application into a bundle and serves it to the browser. Webpack builds a dependency graph when it processes the application. 
@@ -396,7 +396,7 @@ Drawbacks:
 	
 --- 
 	
-20. Webpack builds a dependency graph. What does that mean? _or_ What is dependency graph? How is it related to Webpack?
+20. Webpack builds a dependency graph. What does that mean? _or_ What is a dependency graph? How is it related to Webpack?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -421,7 +421,7 @@ Drawbacks:
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 
-Before installing Angular CLI, make sure the development environment includes Node.js and an npm package manager. Then, run the command `npm install -g @angular/cli` on the terminal to install the Angular CLI using npm.
+Before installing Angular CLI, make sure the development environment includes Node.js and an npm package manager. Then, run the command `npm install -g @angular/clip on the terminal to install the Angular CLI using npm.
 		
 </blockquote>
 </details>
@@ -436,14 +436,14 @@ Before installing Angular CLI, make sure the development environment includes No
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 
-Run the CLI command `ng new my-app` to create a new angular app with the `my-app` name.
+Run the CLI command `ng new my-app to create a new angular app with the `my-app` name.
 
 </blockquote>
 </details>
 	
 --- 
 
-23. Which port angular application will be launced?
+23. Which port angular application will be launched?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 	
@@ -481,7 +481,7 @@ The `ng serve` command launches the server on HTTP port 4200, which watches our 
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 
-To check version of angular installed by running `ng --version` or `ng v` command
+To check the version of angular installed by running the `ng --version` or `ng v` command
 	
 </blockquote>
 </details>
@@ -496,7 +496,7 @@ To check version of angular installed by running `ng --version` or `ng v` comman
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 	
-Run `npm install -g @angular/cli@latest` command to update angular to the latest version?
+Run the `npm install -g @angular/cli@latest` command to update angular to the latest version.
 
 </blockquote>
 </details>
@@ -520,16 +520,16 @@ So if it looks like this:
 }
 ```
 
-Then `npm start` will run `ng serve`.
+Then `npm start` will run `ng serve.
 
-`ng serve` command used when developing your application locally. It starts up a local development server, which will serve your application while you are developing it.
+The `ng serve` commis and used when developing your application locally. It starts up a local development server, which will serve your application while you are developing it.
 
 </blockquote>
 </details>
 	
 --- 
 	
-28. How to deploy angular app to production?
+28. How to deploy the angular app to production?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 	
@@ -537,7 +537,7 @@ Then `npm start` will run `ng serve`.
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 
-- `ng build` command used to build your application and deploy it. 
+- `ng build` command is used to build your application and deploy it. 
 - `ng serve --prod` command to run when building your application for a production environment
 
 </blockquote>
@@ -545,7 +545,7 @@ Then `npm start` will run `ng serve`.
 	
 --- 
 	
-29. What kind of files we can find on _e2e_ folder and node_modules folder?
+29. What kind of files we can find in the _e2e_ folder and node_modules folder?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 	
@@ -560,7 +560,7 @@ The _e2e_ folder at the top level contains source files for a set of end-to-end 
 	
 --- 
 	
-30. What are files we can find under _src_ folder?
+30. What are files we can find under the _src_ folder?
 	
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 	
@@ -574,7 +574,7 @@ The _src_ folder contains the source files which give information about applicat
 </details>
 	
 --- 
-31. What is the difference between `angular.json` and `package.json` file?
+31. What is the difference between the `angular.json` and `package.json` files?
 	
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -582,7 +582,7 @@ The _src_ folder contains the source files which give information about applicat
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 
-`angular.json` - holds CLI configuration defaults for all projects in the workspace. It includes configuration options for the build, serve, and test tools.
+`angular.json` - holds CLI configuration defaults for all projects in the workspace. It includes configuration options for the build, serves, and test tools.
 	
 `package.json` - used to configure npm package dependencies that are available to all projects in the workspace.
 
@@ -615,14 +615,14 @@ The _src_ folder contains the source files which give information about applicat
 <summary> <b>Show Answer</b></summary>
 <blockquote>	
 	
-Angular is written using TypeScript. But, browser only understand the JavaScript. We need to compile the Angular, so angular applications require a compilation process before they can run in a browser.
+Angular is written using TypeScript. But, the browser only understands JavaScript. We need to compile the Angular, so angular applications require a compilation process before they can run in a browser.
 	
 </blockquote>
 </details>
 	
 --- 
 
-34. Have you heard of AOT compiler? If so, can you explain about it?
+34. Have you heard of the AOT compiler? If so, can you explain it?
 		
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 	
@@ -637,7 +637,7 @@ The Angular ahead-of-time (AOT) compiler converts your Angular HTML and TypeScri
 	
 --- 
 	
-35. Do you recommend AOT compiler? If yes, Justify.
+35. Do you recommend an AOT compiler? If yes, Justify.
 		
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 	
@@ -645,10 +645,10 @@ The Angular ahead-of-time (AOT) compiler converts your Angular HTML and TypeScri
 <summary> <b>Show Answer</b></summary>
 <blockquote>	
 
-Yes, I recommend AOT compiler. Here is my reasons:
+Yes, I recommend the AOT compiler. Here are my reasons:
 
 - **Faster rendering**: With AOT, the browser downloads a pre-compiled version of the application. The browser loads executable code so it can render the application immediately, without waiting to compile the application first.
-- **Detect template errors earlier** : The AOT compiler detects and reports template binding errors during the build step before users can see them.
+- **Detect template errors earlier**: The AOT compiler detects and reports template binding errors during the build step before users can see them.
 - **Better Security**: AOT compiles HTML templates and components into JavaScript files long before they are served to the client. With no templates to read and no risky client-side HTML or JavaScript evaluation, there are fewer opportunities for injection attacks.
 		
 </blockquote>
@@ -656,7 +656,7 @@ Yes, I recommend AOT compiler. Here is my reasons:
 	
 --- 
 
-36. Can you tell me about JIT compiler?
+36. Can you tell me about the JIT compiler?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -664,7 +664,7 @@ Yes, I recommend AOT compiler. Here is my reasons:
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-Just in time (JIT) compiler provides compilation during the execution of the program at a run time before execution. In simple words, code get compiles when it’s needed, not at the build time.
+Just in time (JIT) compiler provides compilation during the execution of the program at a run time before execution. In simple words, code gets compiled when it’s needed, not at the build time.
 
 </blockquote>
 </details>
@@ -672,7 +672,7 @@ Just in time (JIT) compiler provides compilation during the execution of the pro
 ---
  	
 
-37. How JIT compiler differs from AOT compiler?
+37. How JIT compiler differs from the AOT compiler?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -682,12 +682,12 @@ Just in time (JIT) compiler provides compilation during the execution of the pro
 
 | JIT                                                                                            | AOT                                                                                                               |
 |------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| JIT downloads the compiler and compiles code exactly before Displaying in the browser.         | AOT has already complied with the code while building your application, so it doesn’t have to compile at runtime. |
+| JIT downloads the compiler and compiles code exactly before Displaying it in the browser.         | AOT has already complied with the code while building your application, so it doesn’t have to compile at runtime. |
 | Loading in JIT is slower than the AOT because it needs to compile your application at runtime. | Loading in AOT is much quicker than the JIT because it already has compiled your code at build time.              |
-| JIT is more suitable for development mode.                                                     | AOT is much suitable in the case of Production mode.                                                              |
-| Bundle size is higher compare to AOT.                                                          | Bundle size optimized in AOT, in results AOT bundle size is half the size of JIT bundles.                         |
-| You can run your app in JIT with this command: `ng build` OR `ng serve`                            | To run your app in AOT you have to provide –aot at the end like: `ng build --aot` OR `ng serve --aot`                 |
-| You can catch template binding error at display time.                                          | You can catch the template error at building your application.                                                    |
+| JIT is more suitable for development mode.                                                     | AOT is much more suitable in the case of Production mode.                                                              |
+| Bundle size is higher compared to AOT.                                                          | Bundle size optimized in AOT, in results AOT bundle size is half the size of JIT bundles.                         |
+| You can run your app in JIT with this command: `ng build` OR `ng serve`                            | To run your app in AOT you have to provide –aot at the end like: `ng build --at OR `ng serve --not                 |
+| You can catch template binding errors at display time.                                          | You can catch the template error at building your application.                                                    |
 
 </blockquote>
 </details>
@@ -720,19 +720,19 @@ Just in time (JIT) compiler provides compilation during the execution of the pro
 <blockquote>
   
 - Angular is a typescript-based web application framework used to create & build web apps
-- It allows us to create Single Page Application (SPA)
+- It allows us to create Single Page Applications (SPA)
 - Angular written using TypeScript
 - Angular uses Databinding and Routing
 - Angular uses Jasmine testing framework
 
-**NOTE** - The candidate must come up with the angular points that they see in the application. Depends on the candidate. This makes interviewer understand how far the candidate can relate a real time application with the topic
+**NOTE** - The candidate must come up with the angular points that they see in the application. Depends on the candidate. This makes the interviewer understand how far the candidate can relate a real-time application to the topic
 
 </blockquote>
 </details>
 
 --- 
 	
-40. Is Angular Javascript based or Typescript based?
+40. Is Angular Javascript-based or Typescript based?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -747,4 +747,4 @@ Just in time (JIT) compiler provides compilation during the execution of the pro
 </blockquote>
 </details>
 
---- 
+---
