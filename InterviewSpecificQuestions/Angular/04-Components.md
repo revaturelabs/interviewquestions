@@ -10,14 +10,14 @@ Components are the basic building blocks in the Angular application. Components 
 
 ![image](https://user-images.githubusercontent.com/70228962/186086415-c49cc203-e383-43c0-bc5b-15e2f101f159.png)
 
-Consider, we are building a page for an application. The features in the page include the header, footer and navigation and content area. Instead of building a single page with all these features, we can choose to split the page into components, which help us to manage our application. In the above scenario, we can say that the header, footer, content area, navigation and so on are separate components of the page; but when the user views it on the website through any device, it will show as a single page.
+Consider, we are building a page for an application. The features on the page include the header, footer and navigation, and content area. Instead of building a single page with all these features, we can choose to split the page into components, which helps us to manage our application. In the above scenario, we can say that the header, footer, content area, navigate, on, and so on are separate components of the page; but when the user views it on the website through any device, it will show as a single page.
 	
 </blockquote>
 </details>
   
 ---
 
-2. In which file, I can find `@Component` decorator?
+2. In which file, I can find the `@Component` decorator?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -69,10 +69,10 @@ When we run `ng g c server` in the terminal, CLI creates a component and registe
   
 <blockquote>
   
-Angular creates a component; renders it; creates and renders its children; checks it when it’s data-bound properties change; and destroys it before removing it from the DOM. These events are called "Lifecycle Hooks".
+Angular creates a component; renders it; creates and renders its children; checks it when its data-bound properties change; and destroys it before removing it from the DOM. These events are called "Lifecycle Hooks".
 	
 Lifecycle Hooks:	.
-- `ngOnChanges()` - Called whenever the input properties of the component change. It returns a SimpleChanges object which holds any current and previous property values.
+- `non changes()` - Called whenever the input properties of the component change. It returns a simple changes object which holds any current and previous property values.
 - `ngOnInit()` - Called once to initialize the component and set the input properties. It initializes the component after Angular first displays the data-bound properties.
 - `ngDoCheck()` - Called during all change-detection runs that Angular can't detect on its own. Also called immediately after the `ngOnChanges()` method.
 - `ngAfterContentInit()` - Invoked once after Angular performs any content projection into the component’s view.
@@ -89,7 +89,7 @@ NOTE - `constructor()` - The constructor of the component class gets executed fi
 	
 ---  
 
-6. What is use of `@Component` decorator?
+6. What is the use of the `@Component` decorator?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 	
@@ -112,7 +112,7 @@ NOTE - `constructor()` - The constructor of the component class gets executed fi
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-Angular applications can have multiple components. Each component handles a small part of UI. These components work together to produce the complete user interface of the application.
+Angular applications can have multiple components. Each component handles a small part of the UI. These components work together to produce the complete user interface of the application.
 
 </blockquote>
 </details>
@@ -167,7 +167,7 @@ export class AppModule { }
 	
 ---
 
-10. I have to create component `user` as a parent. Then, I want to 2 child components for `user` component. Let's say 2 child components are `user-login` and `user-register`. What are the steps I needed to do?
+10. I have to create the component `user` as a parent. Then, I want to 2 child components for the `user` component. Let's say 2 child components are `user-login` and `user-register`. What are the steps I needed to do?
 	
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -178,8 +178,8 @@ export class AppModule { }
 **Steps:**
 1. Run `ng g c user` in the terminal, CLI creates a component and registers this component in the AppModule.  Now, you're able to see a `user` folder inside `src/app`.
 2. Move to the `src/app/user` folder.
-3. Run `ng g c user-login` in the terminal, CLI creates `user-login` component
-4. Run `ng g c user-register` in the terminal, CLI creates `user-register` component
+3. Run `ng g c user-login` in the terminal, CLI creates the `user-login` component
+4. Run `ng g c user register in the terminal, CLI creates `the user register component
 
 ![image](https://user-images.githubusercontent.com/70228962/186089554-ec5c403b-dd95-4f13-83ce-2bd90e4b67c2.png)
 
@@ -188,7 +188,7 @@ export class AppModule { }
   
 ---
 	
-11. Below is the code in `user.component.ts`. If I want to insert user component to the `index.html` file.
+11. Below is the code in `user.component.ts`. If I want to insert a user component to the `index.html` file.
 ```ts
 import { Component } from '@angular/core';
 @Component ({
@@ -205,7 +205,7 @@ export class UserComponent {
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-Using `<user>` tag in the `index.html`
+Using the `<user>` tag in the `index.html`
 
 </blockquote>
 </details>
@@ -220,7 +220,7 @@ Using `<user>` tag in the `index.html`
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 
-In `app.component.ts` file, we export the `AppComponent` class, and we decorate it with the `@Component` decorator, imported from the `@angular/core package`, which takes a few metadata, such as: `selector`, `templateUrl` and `styleUrls`.
+In the `app.component.ts` file, we export the `AppComponent` class, and we decorate it with the `@Component` decorator, imported from the `@angular/core package`, which takes a few metadata, such as: `selector`, `templateUrl` and `styleUrls`.
 
 ```ts
 import { Component } from '@angular/core';
@@ -234,14 +234,14 @@ export class AppComponent {
   title = 'angularDemoProject';
 }
 ```
-- `selector` – just name given for the component. In the `index.html` file, `<app-root>` tag corresponds to component’s selector. By doing so, Angular will inject the corresponding template of the component. 
+- `selector` – just the name given for the component. In the `index.html` file, the `<app-root>` tag corresponds to the component’s selector. By doing so, Angular will inject the corresponding template of the component. 
 ```html
 <body>
   <app-root></app-root>
 </body>
 ```
 - `templateUrl` - points to an HTML file that defines what you see on your application. 
-- `styleUrls` - points to set of CSS file that defines styles or design for application
+- `styleUrls` - points to a set of CSS files that define styles or designs for the  application
 
 </blockquote>
 </details>
@@ -256,7 +256,7 @@ export class AppComponent {
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-A template just like regular HTML that renders a view, or user interface, in the browser.
+A template is just like regular HTML that renders a view, or user interface, in the browser.
 
 When you generate an Angular application with the Angular CLI, the `app.component.html` file is the default template containing placeholder HTML.
 
@@ -265,7 +265,7 @@ When you generate an Angular application with the Angular CLI, the `app.componen
   
 ---
  
- 14. What is the difference between `templateUrl` and `template` in `@Component` decorator?
+ 14. What is the difference between `templateUrl` and `template` in the `@Component` decorator?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -282,7 +282,7 @@ When you generate an Angular application with the Angular CLI, the `app.componen
 ---
  	
 	
-15. What is the difference between `styleUrls` and `styles` in `@Component` decorator?
+15. What is the difference between `styleUrls` and `styles` in the `@Component` decorator?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -290,7 +290,7 @@ When you generate an Angular application with the Angular CLI, the `app.componen
 <summary><b>Show Answer</b></summary>
 <blockquote>
 	
-- You can use `styles` property to keep the CSS code inline to style your component's HTML template.
+- You can use the `styles` property to keep the CSS code in line to style your component's HTML template.
 ```ts
 @Component({
   selector: 'app-root',
@@ -301,7 +301,7 @@ When you generate an Angular application with the Angular CLI, the `app.componen
         `]
 })
 ```
-- You can use `styleUrls` property Keep the CSS code separately in its own file to style your component's HTML template.
+- You can use the `styleUrls` property Keep the CSS code separately in your file to style your component's HTML template.
 	
 ```ts
 @Component({
@@ -347,7 +347,7 @@ When you generate an Angular application with the Angular CLI, the `app.componen
   
 ---
  
-18. In which order does lifecycle hooks gets exceuted?
+18. In which order do lifecycle hooks get executed?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -371,7 +371,7 @@ Angular calls these hook methods in the following order:
   
 ---
  
-19. Which lifecycle hook called only one?
+19. Which lifecycle hook is called only one?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -401,7 +401,7 @@ Angular calls these hook methods in the following order:
   
 ---
 	
-21. Can we have html content attached to the component without having `.html` file. If so, how?
+21. Can we have HTML content attached to the component without having a `.html` file? If so, how?
 	
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -409,9 +409,9 @@ Angular calls these hook methods in the following order:
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-Yes, by using inline template.
+Yes, by using an inline template.
 	
-Inline Template  - It is defined by placing the HTML code in back ticks _`_ and is linked to the component metadata using the `template` property of `@Component` decorator.
+Inline Template  - It is defined by placing the HTML code in backticks _`_ and is linked to the component metadata using the `template` property of `the @Component` decorator.
 ```ts
 @Component({
   selector: 'app-root',
@@ -425,7 +425,7 @@ Inline Template  - It is defined by placing the HTML code in back ticks _`_ and 
   
 ---
 	
-22. Can we have css styles attached to the component without having `.css` file. If so, how?
+22. Can we have CSS styles attached to the component without having a `.css` file? If so, how?
 	
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -433,9 +433,9 @@ Inline Template  - It is defined by placing the HTML code in back ticks _`_ and 
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-Yes, by using inline css. 
+Yes, by using inline CSS. 
 
-You can use `styles` property to keep the CSS code inline to style your component's HTML template.
+You can use the `styles` property to keep the CSS code inline to style your component's HTML template.
 ```ts
 @Component({
   selector: 'app-root',
@@ -452,7 +452,7 @@ You can use `styles` property to keep the CSS code inline to style your componen
   
 ---
 	
-23.  Can we have multiline template? If so, how?
+23.  Can we have a multiline template? If so, how?
 	
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -482,7 +482,7 @@ export class AppComponent{
   
 ---
 	
-24. What is a views in Angular?
+24. What are our views on Angular?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -497,7 +497,7 @@ Views are almost like their own virtual DOM.  Together, the component and its te
   
 ---
 	
-25. How view is different from template?
+25. How view is different from a template?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -505,9 +505,9 @@ Views are almost like their own virtual DOM.  Together, the component and its te
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-A template is an HTML snippet that tells Angular how to render the component in angular application.
+A template is an HTML snippet that tells Angular how to render the component in an angular application.
 
-The template is immediately associated with a component defines that component’s view.
+The template is immediately associated with a component that defines that component’s view.
 
 </blockquote>
 </details>
@@ -522,11 +522,11 @@ The template is immediately associated with a component defines that component�
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-There are two ways of defining template in an angular component.
+There are two ways of defining a template in an angular component.
 1. Inline Template
 2. External Template
 	
-Inline Template  - It is defined by placing the HTML code in back ticks _`_ and is linked to the component metadata using the `template` property of `@Component` decorator.
+Inline Template  - It is defined by placing the HTML code in backticks _`_ and is linked to the component metadata using the `template` property of `the @Component` decorator.
 ```ts
 @Component({
   selector: 'app-root',
@@ -549,7 +549,7 @@ External Template - It is defined in a separate HTML file and is linked to the c
   
 ---
  
-27. What would you choose between inline and external template file?
+27. What would you choose between the inline and external template files?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -564,7 +564,7 @@ Choose based on the explanation below
 <summary><b>Explanation</b></summary>
 <blockquote>
 
-Normally we use inline template for small portion of code and external template file for bigger views. By default, the Angular CLI generates components with a template file. But you can override that with using `ng g c hero -it` command.
+Normally we use inline templates for small portion of code and external template files for bigger views. By default, the Angular CLI generates components with a template file. But you can override that with using `ng g c hero -it` command.
 	
 </blockquote>
 </details>
@@ -590,8 +590,8 @@ Normally we use inline template for small portion of code and external template 
 29. Complete the missing metadata in `@Component` decorator with following criteria.
     -  This component should be identified by `user`
     -  Template of this component, should say "Hello User!!"
-    -  Template should have atleast one heading tag
-    -  Also, text inside that heading tag, should be in red color
+    -  Template should have at least one heading tag
+    -  Also, the text inside that heading tag, should be in red color
 ```ts
 import { Component } from '@angular/core';
 @Component ({
@@ -622,7 +622,7 @@ export class UserComponent {
   
 ---
 	
-30. What happens if you use `<script>` tag inside template?
+30. What happens if you use the `<script>` tag inside the template?
 	
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 	
@@ -647,7 +647,7 @@ export class UserComponent {
 <summary><b>Show Answer</b></summary>
 <blockquote>
 	
-The _constructor_ is a _Typescript_ feature used to instantiate the _Typescript_ class. In most Angular projects about the only thing that should ever be done in the constructor is to inject services.
+The _constructor_ is a _Typescript_ feature used to instantiate the _Typescript_ class. In most Angular projects the only thing that should ever be done in the constructor is to inject services.
 
 The _ngOnInit_ function is specific to the Angular framework and is called when Angular is done creating the component. It should be called with any custom finalization like loading data for your component to display.
 	
@@ -656,14 +656,14 @@ The _ngOnInit_ function is specific to the Angular framework and is called when 
   
 ---
 
-32. What is dynamic component in Angular?
+32. What is a dynamic component in Angular?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details>
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-Dynamic components are components location in the application is not defined at buildtime. That means, that it is not used in any angular template.
+Dynamic components are components’ location in the application that is not defined at build time. That means, that it is not used in any angular template.
 
 Instead, the component is instantiated and placed in the application at runtime.
 
@@ -680,7 +680,7 @@ Instead, the component is instantiated and placed in the application at runtime.
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-View Encapsulation in Angular defines how the styles defined in the template affects the other parts of the application. 
+View Encapsulation in Angular defines how the styles defined in the template affect the other parts of the application. 
 
 </blockquote>
 </details>
@@ -710,9 +710,9 @@ View Encapsulation in Angular defines how the styles defined in the template aff
 <summary><b>Show Answer</b></summary>
 <blockquote>	
 	
-The CSS Styles has global scope. CSS rules applies to the entire document. You cannot apply rules to the part of the document. Hence, we use class, id & CSS specificity rules to ensure that the styles do not interfere with each other
+The CSS Styles have global scope. CSS rules apply to the entire document. You cannot apply rules to the part of the document. Hence, we use class, id & CSS specificity rules to ensure that the styles do not interfere with each other
 
-In case of Angular apps the components co exists with the other components. Hence it become very important to ensure that the CSS Styles specified in one component does not override the rules in another component.
+In the case of Angular apps, the components co-exists with the other components. Hence it becomes very important to ensure that the CSS Styles specified in one component do not override the rules in another component.
 	
 That's why we need view encapsulation.
 	
@@ -735,7 +735,7 @@ The Encapsulation methods are added using the encapsulation metadata of the @Com
 @Component({
   template: `<p>Using Emulator</p>`,
   styles: ['p { color:red}'],
-  encapsulation: ViewEncapsulation.Emulated     //This is default
+  encapsulation: ViewEncapsulation.Emulated     //This is the default
 //encapsulation: ViewEncapsulation.None
 //encapsulation: ViewEncapsulation.ShadowDOM
 })
