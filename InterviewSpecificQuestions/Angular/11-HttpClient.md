@@ -36,8 +36,8 @@ The front-end of applications communicates with back-end services to get or send
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-- `HttpClient.get()` method is used to fetch data from a server
-- `HttpClient.post()` method is used to send the data to the server
+- `HttpClient.get()` method is used to fetch data from a server. 
+- `HttpClient.post()` method is used to send the data to the server.
 - `HttpClient.put()` method is used to update the data on the server
 - `HttpClient.delete()` method is used to delete the data in the server
 
@@ -73,9 +73,9 @@ We can consume RESTful APIs in Angular applications using HttpClient API.
 
 HttpClient API service is used to make communication between front-end web apps with backend services. This communication is done over HTTP protocol.
 
-To work with the HttpClient service in Angular, you need to import the `HttpClientModule` in the `app.module.ts` file. Then inject the HttpClient service in constructor method after that you can hit the remote server via HTTP’s POST, GET, PUT and DELETE methods.
+To work with the HttpClient service in Angular, you need to import the `HttpClientModule` in the `app.module.ts` file. Then inject the HttpClient service in the constructor method after that you can hit the remote server via HTTP’s POST, GET, PUT and DELETE methods.
 
-Then create a service (`employee.service.ts`) to handle all HTTP requests. We import the `HttpClient` and `HttpHeaders` services to make the HTTP request work. Here, we create CRUD operations using HttpClient methods (GET, POST, PUT, DELETE).
+Then create a service (`employee.service.ts`) to handle all HTTP requests. We import the `HttpClient` and `HttpHeaders` services to make the HTTP request work. Here, we create CRUD operations using HttpClient methods (GET, POST, PUT, DELETE) 
 	
 For example:
 ```ts
@@ -182,7 +182,7 @@ A Subject is a special type of Observable that allows values to be multicasted t
   
 ---
  
-9. How subjects differ from observable?
+9. How do subjects differ from observable?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -193,10 +193,12 @@ A Subject is a special type of Observable that allows values to be multicasted t
 Every Subject is an Observable. Given a Subject, you can subscribe to it, providing an Observer, which will start receiving values normally. From the perspective of the Observer, it cannot tell whether the Observable execution is coming from a plain unicast Observable or a Subject.
 
 </blockquote>
+	
 </details>
   
 ---
  
+	
 10. What is the difference between a promise and an observable?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -205,8 +207,8 @@ Every Subject is an Observable. Given a Subject, you can subscribe to it, provid
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 	
-- A Promise emits a single value while Observable can emit multiple values. 
-- So, while handling a HTTP request, a Promise can manage a single response for the same request, but if there are multiple responses to the same request, then we have to use an Observable.
+- A Promise emits a single value while an Observable can emit multiple values. 
+- So, while handling an HTTP request, a Promise can manage a single response for the same request, but if there are multiple responses to the same request, then we have to use an Observable.
 	
 ```ts
 const promise = new Promise((data) =>{ 
@@ -225,13 +227,14 @@ const observable = new Observable((data) => {
 //Observable 1
 //Observable 2
 //Observable 3
-	
 ```
+	
+
 </details>
 	
 ---
-	
-11. Every frontend application needs to communicate with the backend microservices to share the data over the HTTP protocol. How this communication established in angular? 
+
+11. Every front-end application needs to communicate with the backend microservices to share the data over the HTTP protocol. How is this communication established in angular? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -239,7 +242,7 @@ const observable = new Observable((data) => {
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-Using `HttpClient` Service
+Using the `HttpClient` Service
 
 </blockquote>
 </details>
