@@ -1,6 +1,6 @@
 ## Technical
 
-1. Why we need `Spring JDBC` when we already have Java JDBC?
+1. Why do we need `Spring JDBC` when we already have Java JDBC?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -8,9 +8,9 @@
 
 <blockquote> 
     
-- `JDBC` is core API to connect your java application with any database vendor.
-- When we uses Java `JDBC` there are multiple configuration steps, starting from loading driver till closing the DB connection developer has to manage.
-- When we use `Spring JDBC` module under Spring framework, it takes care of all low level common `JDBC` operation and allows developer to focus only on business logic.
+- `JDBC` is the core API to connect your java application with any database vendor.
+- When we use Java `JDBC` there are multiple configuration steps, starting from loading the river to closing the DB connection developer has to manage.
+- When we use the `Spring JDBC` module under the Spring framework, it takes care of all low-level common `JDBC` operations and allows the developer to focus only on business logic.
 </blockquote> 
 
 </details>
@@ -26,7 +26,7 @@
 <blockquote> 
     
 - `DataSource` is a factory for connections to the physical data source.
-- In enterprise application `DataSource` object is the preferred means of getting a connection to your database.
+- In enterprise applications, the `DataSource` object is the preferred means of getting a connection to your database.
   
 </blockquote> 
 
@@ -34,7 +34,7 @@
 
 ---
 
-3. What are three types of implementations of `DataSource` in Java application?
+3. What are the three types of implementations of `DataSource` in Java applications?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -52,7 +52,7 @@
 </details>
 
 ---
-4. What is `Connection Pooling` in enterprise application?
+4. What is `Connection Pooling` in an enterprise application?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -109,7 +109,7 @@
 </details>
 
 ---
-7. What is the sequence of choosing various connection pools inside Spring application?
+7. What is the sequence of choosing various connection pools inside the Spring application?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -128,7 +128,7 @@
 </details>
 
 ---
-8. What is `Programmatic & Declarative Trasnaction Management` in Spring application?
+8. What is `Programmatic & Declarative Transaction Management` in the Spring application?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -139,17 +139,17 @@
 - Spring provides both `Programmatic` and `Declarative` transaction management.
 - In Programmatic Transaction management we have transaction management code surrounding our business code. 
 - It gives extreme flexibility but is difficult to maintain.
-- Where as in Declarative Transaction management we separate transaction management code from the business code. 
-- We can configure Declarative Transaction management using both annotations and XML based configuration.
+- Whereas in Declarative Transaction management we separate the transaction management code from the business code. 
+- We can configure Declarative Transaction management using both annotations and XML-based configuration.
 - Most Spring Framework users choose declarative transaction management as this option has the least impact on application code.
-- To summarize, Programmatic Transaction management is more flexible during development time but less flexible during application life. whereas Declarative Transaction management is less flexible during development time but more flexible during application life
+- To summarize, Programmatic Transaction management is more flexible during development time but less flexible during application life. whereas Declarative Transaction management is less flexible during development time but more flexible during the application life
 
  </blockquote> 
 
 </details>
 
 ---
-9. What does isloation and propagation attributes denote in @Transactional annoation e.g. `@Transactional(isolation = xxx, propagation = xxx)`?
+9. What does isolation and propagation attributes denote in @Transactional annotation e.g. `@Transactional(isolation = xxx, propagation = xxx)`?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -157,16 +157,16 @@
 
 <blockquote> 
     
-- While using Declarative Transaction management we can provide isolation & propogation attributes which serves below purpose:
+- While using Declarative Transaction management we can provide isolation & propagation attributes which serve below purpose:
     - `Isolation`: The degree to which this transaction is isolated from the work of other transactions. For example, can this transaction see uncommitted writes from other transactions?
-    - `Propagation`: Typically, all code within a transaction scope runs in that transaction. However, you can specify the behavior if a transactional method is run when a transaction context already exists. For example, code can continue running in the existing transaction (the common case), or the existing transaction can be suspended and a new transaction created.
+    - `Propagation`: Typically, all code within a transaction scope runs in that transaction. However, you can specify the behaviour if a transactional method is run when a transaction context already exists. For example, code can continue running in the existing transaction (the common case), or the existing transaction can be suspended, and a new transaction created.
 
 </blockquote> 
 
 </details>
 
 ---
-10. What configurations does `Spring JDBC` & developer need to perform in application?
+10. What configurations do `Spring JDBC` & developer need to perform in the application?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -174,7 +174,7 @@
 
 <blockquote> 
     
-- The table shows which actions Spring takes care of and which are developers responsibilities.
+- The table shows which actions Spring takes care of and which are developers’ responsibilities.
   
 | **Steps** | **Action**                                               | **Spring** | **Developer** |
 | --------- | -------------------------------------------------------- | ---------- | ------------- |
@@ -187,7 +187,7 @@
 | 7         | Do the work for each iteration.                          |            | X             |
 | 8         | Process any exception.                                   | X          |               |
 | 9         | Handle transactions.                                     | X          |               |
-| 10        | Close the connection, the statement, and the resultset.  | X          |               |
+| 10        | Close the connection, the statement, and the result set. | X          |               |
 
 </blockquote> 
 
