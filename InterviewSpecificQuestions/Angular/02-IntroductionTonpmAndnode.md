@@ -1,4 +1,4 @@
-1. Why we need Node.js for Angular?
+1. Why do we need Node.js for Angular?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -92,7 +92,7 @@
   
 ---
 
-6. How do you check whether Node.js installed successfully in your system?
+6. How do you check whether Node.js is installed successfully in your system?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -100,14 +100,14 @@
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-To check the node.js is install, open power shell or command prompt (cmd) and type `node –v`. If the node.js is install properly in your system print something like that v4.4.3.
+To check that node.js is installed, open the power shell or command prompt (cmd) and type `node –v`. If the node is installed tall properly in your system print something like that v4.4.3.
 
 </blockquote>
 </details>
   
 ---
  
-7. What kind of information we can find in `package.json` file?
+7. What kind of information we can find in the `package.json` file?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -115,7 +115,7 @@ To check the node.js is install, open power shell or command prompt (cmd) and ty
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
- `package.json` file used to store the metadata related to the project such as a project description, the version of the project in a particular distribution, license information, as well as to store the list of dependency packages.
+ `package.json` file is used to store the metadata related to the project such as a project description, the version of the project in a particular distribution, and license information, as well as to store the list of dependency packages.
 
 </blockquote>
 </details>
@@ -146,7 +146,7 @@ In `package.json`, regular `dependencies` are packages that are required for you
 <details>
 <summary><b>Show Answer</b></summary>
 <blockquote>
-
+The 
 `npm install` command is used for installing JavaScript packages on your local computer.
 
 </blockquote>
@@ -160,7 +160,7 @@ In `package.json`, regular `dependencies` are packages that are required for you
 
 <details>
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote>The 
 
 `npm uninstall` command is used to remove installed npm packages on your computer.
 
@@ -169,7 +169,7 @@ In `package.json`, regular `dependencies` are packages that are required for you
   
 ---
  
-11. Differentiate between `npm update` and `npm update -g` command?
+11. Differentiate between the `npm update and `npm update -g` commands?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -177,7 +177,7 @@ In `package.json`, regular `dependencies` are packages that are required for you
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-`npm update` command is used to update the node package manager to the latest version.
+The `npm update command is used to update the node package manager to the latest version.
   
 It will also install missing packages.
 
@@ -198,28 +198,28 @@ If no package name is specified, all packages in the specified location (global 
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-The `npm init` command in the JSON language creates a package.json file for your project’s frontend. 
+The `npm init` command in the JSON language creates a package.json file for your project’s front end. 
 
 </blockquote>
 </details>
   
 ---
  
-13. Can I run angular application using `npm start` command?
+13. Can I run the angular application using the `npm start` command?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details>
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
- Yes, it can run angular application.
+ Yes, it can run an angular application.
 
 </blockquote>
 </details>
   
 ---
  
-14. Why do we need `package.json` file?
+14. Why do we need a `package.json` file?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -234,7 +234,7 @@ The `npm init` command in the JSON language creates a package.json file for your
   
 ---
 
-15. Where you can find `package.json` file?
+15. Where you can find the `package.json` file?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -242,7 +242,7 @@ The `npm init` command in the JSON language creates a package.json file for your
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-The `package.json` file is normally present at the root directory of a project folder structure.
+The `package.json` file is normally present in the root directory of a project folder structure.
 
 </blockquote>
 </details>
