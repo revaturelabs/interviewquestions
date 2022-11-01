@@ -5,7 +5,7 @@
 <details><summary><b> Show Answer</b></summary>
 <blockquote>
 
-- Design patterns are reusable solutions to general problems like including repetitive code, redundant functions, and logic that software developers faced during software development.
+- Design patterns are reusable solutions to general problems including repetitive code, redundant functions, and logic that software developers faced during software development.
 - Design patterns are commonly used in object-oriented software products by incorporating best practices and promoting reusability for developing robust code.
 
 </blockquote>
@@ -78,7 +78,7 @@ If your code has access to the Singleton class, then it’s able to call Singlet
 ---
 
 
-5.How are design principles different from design patterns?
+5. How are design principles different from design patterns?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -87,7 +87,7 @@ If your code has access to the Singleton class, then it’s able to call Singlet
 <blockquote>
 
 - Design principles are those principles that are followed while designing software systems for any platform by making use of any programming language. SOLID principles are the design principles that we follow as guidelines to develop robust, extensible, and scalable software systems. These apply to all aspects of programming.
-- Design Patterns are reusable template solutions for commonly occurring problems that can be customized as per the problem requirements. These are well-implemented solutions that are tested properly and safe to use. Factory Design Patterns, Singleton patterns, and Strategy patterns are a few the examples of design patterns
+- Design Patterns are reusable template solutions for commonly occurring problems that can be customized as per the problem requirements. These are well-implemented solutions that are tested properly and safe to use. Factory Design Patterns, Singleton patterns, and Strategy patterns are a few examples of design patterns
 
 </blockquote>
 
@@ -96,7 +96,7 @@ If your code has access to the Singleton class, then it’s able to call Singlet
 ---
 
 
-6.Explain  Factory Design Pattern with an example?
+6. Explain  Factory Design Pattern with an example?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -117,7 +117,7 @@ For example, Let’s consider 3 classes Square, Rectangle, and Triangle. We will
    }
 ```
 
-- Create concrete classes Rectangle, Square, Triangle that implements the Shape interface.
+- Create concrete classes Rectangle, Square, and Triangle that implements the Shape interface.
 
 ```java
  
@@ -147,7 +147,7 @@ For example, Let’s consider 3 classes Square, Rectangle, and Triangle. We will
 
 ```java
    public class ShapeFactory {
-      //the method will be used to get object of required shape
+      //the method will be used to get the object of the required shape
       public Shape getShape(String type){
          if(type == null){
             return null;
