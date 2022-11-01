@@ -1,4 +1,4 @@
-1. Tell us about Java
+1. What is Java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -6,7 +6,7 @@
   <summary> <b>Show Answer</b></summary>
 <blockquote>
 
-Java is one of the most popular high level programming language. For example, its used to create mobile application like Netflix, Twitter, Spotify, and many more. Also, used in the server applications.
+Java is one of the most popular high level programming languages. For example, its used to create mobile application like Netflix, Twitter, Spotify, and many more. Also, used in the server applications.
 
 </blockquote>
 </details>
@@ -100,7 +100,7 @@ Java is one of the most popular high level programming language. For example, it
   
 <blockquote>
 
-Access modifiers allow us to set the scope or accessibility or visibility of a data member be it a field, constructor, class, or method.  The four different types of access specifiers
+Access modifiers allow us to set the scope or accessibility, or visibility of a data member be it a field, constructor, class, or method.  The four different types of access specifiers
 - Public
 - Protected
 - Private
@@ -123,7 +123,7 @@ Private is more protective. When the methods or data members declared as private
   
 <blockquote>
 
-Non-access modifiers defines the behavior of the entities to the JVM, used with classes, variables, methods, constructors, etc. Some of the non access modifiers are
+Non-access modifiers define the behavior of the entities to the JVM, used with classes, variables, methods, constructors, etc. Some of the non-access modifiers are
 
 - static
 - final
@@ -196,7 +196,7 @@ Whenever an object is created, it's always stored in the Heap memory and stack m
 
 <blockquote>
  
-When we create a variable with in a method, it cannot be accessed outside that method. The scope of that variable is a local scope.
+When we create a variable within a method, it cannot be accessed outside that method. The scope of that variable is a local scope.
 
 **Example:** Here `age` is a variable declared inside the `printAge()` method. It can be accessed only inside the `printAge()`. So, we can say `age` variable has a local scope
 
@@ -265,8 +265,8 @@ Variables can be defined as having one of three types of scope:
   
 <blockquote>
 
-- Its a non access modifier
-- Its used to share the same variable or method of a given class
+- It’s a non-access modifier.
+- It’s used to share the same variable or method of a given class.
 - When we declare a variable or method as static that will not belong to any object, it belongs to the class. 
 - There is no need to create an object for the class to access the static variable or static method. 
 - We can use the class name to call them with respect to the access modifier.
@@ -318,8 +318,8 @@ Final Class     ---> Prevents Inheritance
  
  `public static void main(String[] args)` -  main method is the e**ntry point of any java program**
 
-- `public` is an access specifierof the main method. It has to be `public` so that java runtime can execute this method. 
-- `static` is non-access modifier. When java runtime starts, there is no object of the class present. That’s why the main method has to be static so that JVM can load the class into memory and call the main method.
+- `public` is an access specifier of the main method. It must be `public` so that java runtime can execute this method. 
+- `static` is non-access modifier. When java runtime starts, there is no object of the class present. That’s why the main method must be static so that JVM can load the class into memory and call the main method.
 - `void`is a return type, means main method not going to return anything. 
 - `main` is a method name  
 - `String[] args` - Java main method accepts a single argument of type String array. This is also called as java command line arguments.
@@ -374,7 +374,7 @@ If the main method won't be static, JVM would not be able to call it because the
 
 <blockquote>
 
-Yes, the program will execute successfully .  Because, in Java, there is no specific rule for the order of specifiers
+Yes, the program will execute successfully.  Because, in Java, there is no specific rule for the order of specifiers
 
 </blockquote>
 
@@ -413,7 +413,7 @@ keyboard.
 
 <blockquote>
 
-No,  A static method cannot access non-static variables or methods because static methods can be accessed without instantiating the class, so if the class is not instantiated the variables are not initialized and thus cannot be accessed from a static method.
+No, A static method cannot access non-static variables or methods because static methods can be accessed without instantiating the class, so if the class is not instantiated the variables are not initialized and thus cannot be accessed from a static method.
 
 </blockquote>
 
