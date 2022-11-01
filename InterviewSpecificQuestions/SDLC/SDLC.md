@@ -48,7 +48,7 @@
 </details>
 
 ---
-4. State True or False: In waterfall model the one-direction flow makes changes to previous stages impossible
+4. State True or False: In the waterfall model, the one-direction flow makes changes to previous stages impossible
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -63,7 +63,7 @@
 </details>
 
 ---
-5. What do you mean by Sprint in Agile framework?
+5. What do you mean by Sprint in the Agile framework?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -71,7 +71,7 @@
 
 <blockquote> 
 
-- Sprints refer to short (almost always less than four weeks, sometimes as short as one week), repeating period of development in which key parts of the project are completed.
+- Sprints refer to short (almost always less than four weeks, sometimes as short as one week), repeating periods of development in which key parts of the project are completed.
 
 </blockquote> 
 
@@ -86,8 +86,8 @@
 
 <blockquote> 
 
-- A level of difficulty assigned to a user story through the use of a sequence of numbers that increases with increasing difficulty. Story points are used to measure the complexity of a story. 
-- The overall goal of a story is to provide value to its user within a set timeframe.
+- A level of difficulty assigned to a user story using a sequence of numbers that increases with increasing difficulty. Story points are used to measure the complexity of a story. 
+- The overall goal of a story is to provide value to its use within a set timeframe.
 
 </blockquote> 
 
@@ -103,7 +103,7 @@
 <blockquote> 
   
 - The sum of story points of all user stories completed during a sprint. 
-- Velocity allows Agile teams to more accurately predict how many user stories can be completed in future sprints.
+- Velocity allows Agile teams to predict how many user stories more accurately can be completed in future sprints.
 
 </blockquote> 
 
@@ -118,7 +118,7 @@
 
 <blockquote> 
 
-- In agile development, a product backlog (or simply backlog) is a list of all deliverables such as new features, bug fixes, improvements, changes to existing features, and other product initiatives that product teams must prioritize and deliver in order for a product to strategically come to life.
+- In agile development, a product backlog (or simply backlog) is a list of all deliverables such as new features, bug fixes, improvements, changes to existing features, and other product initiatives that product teams must prioritize and deliver for a product to strategically come to life.
 
 </blockquote> 
 
@@ -140,7 +140,7 @@
 </details>
 
 ---
-10. What is the purpose of daily standup meeting?
+10. What is the purpose of a daily standup meeting?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -155,7 +155,7 @@
 </details>
 
 ---
-11. What are the three main questions in daily scrum meeting?
+11. What are the three main questions in daily scrum meetings?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -181,7 +181,7 @@
 
 <blockquote> 
 
-- An epic is a large body of work that can be broken down into a number of smaller stories. 
+- An epic is a large body of work that can be broken down into several smaller stories. 
 
 </blockquote> 
 
@@ -206,7 +206,7 @@
 </details>
 
 ---
-14. What is meaning of Sprint Backlog?
+14. What is the meaning of Sprint Backlog?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -214,7 +214,7 @@
 
 <blockquote> 
 
-- The list of items that are to be added from product backlog in a particular Sprint is called the Sprint Backlog.
+- The list of items that are to be added from the product backlog in a particular Sprint is called the Sprint Backlog.
 
 </blockquote> 
 
@@ -266,7 +266,7 @@
 </details>
 
 ---
-18. What is role of Scrum Master?
+18. What is the role of the Scrum Master?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -274,7 +274,7 @@
 
 <blockquote> 
 
-- The scrum master helps & facilitates scrum process to entire team.
+- The scrum master helps & facilitates the scrum process for the entire team.
 - He/She ensures that the scrum framework is followed.
 - A Scrum Master removes impediments and helps the team to become self-organizing and empowered to create, innovate, and make decisions for themselves as one team.
 
