@@ -1,4 +1,4 @@
-1. Brief us on Exception Handling (or) What is exception?
+1. Brief us on Exception Handling (or) What is an exception?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -17,7 +17,7 @@ Exceptions in Java can arise from different kinds of situations such as wrong da
 
 --- 
 
-2. What is the difference between Throw and Throws?
+2. What is the difference between Throws and Throws?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -29,7 +29,7 @@ Exceptions in Java can arise from different kinds of situations such as wrong da
 |                                       throw                                       |                                                                          throws                                                                         |
 |:---------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | Used inside a method when it is required to throw an Exception logically.         | Used in the method signature when the method has some statements that can lead to exceptions                                                            |
-| Used to throw an exception explicitly. It can throw only one exception at a time. | Used to declare multiple exceptions, separated by a comma. When exception occurs, it matches with the declared ones, then throw exception automatically |
+| Used to throw an exception explicitly. It can throw only one exception at a time. | Used to declare multiple exceptions, separated by a comma. When an exception occurs, it matches with the declared ones, and throws an exception automatically |
 | Syntax: throw new Exception()                                                     | Syntax: public static void writeToFile() throws Exception {}                                                                                            |
 
  
@@ -38,7 +38,7 @@ Exceptions in Java can arise from different kinds of situations such as wrong da
 
 --- 
 
-3. How to handle class not found exception?
+3. How to handle class not found exceptions?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -49,9 +49,9 @@ Exceptions in Java can arise from different kinds of situations such as wrong da
 
 Java ClassNotFoundException occurs when the application tries to load a class but Classloader is not able to find it in the classpath. It is a checked exception, so it needed to be handled.
 
-To fix ClassNotFoundException, firstly we must go through the exception stack trace clearly. Then,
-- Make sure, you've specficed the exact class path.
-- Check for classpath settings and make sure class it’s present at runtime.
+To fix ClassNotFoundException, firstly we must go through the exception stack trace. Then,
+- Make sure, you've specified the exact classpath.
+- Check for classpath settings and make sure the class it’s present at runtime.
 - Verify the requesting Class name is correct.
  
 </blockquote>
@@ -68,11 +68,11 @@ To fix ClassNotFoundException, firstly we must go through the exception stack tr
   
 <blockquote>
 
- - final is the keyword and access modifier which is used to apply restrictions on a class, method or variable.
+ - final is the keyword and access modifier which is used to apply restrictions on a class, method, or variable.
 
- - finally is the block in Java Exception Handling to execute the important code whether the exception occurs or not.
+ - finally, the block in Java Exception Handling executes important code whether the exception occurs or not.
 
- - static keyword is used to create a class level variable in java. static variables and methods are part of the class, not the instances of the class.
+ - static keyword is used to create a class-level variable in java. static variables and methods are part of the class, not the instances of the class.
  
 </blockquote>
 </details>
@@ -98,7 +98,7 @@ To fix ClassNotFoundException, firstly we must go through the exception stack tr
 
 --- 
 
-6. What is the difference between final and finally?
+6. What is the difference between final and final?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -107,16 +107,16 @@ To fix ClassNotFoundException, firstly we must go through the exception stack tr
   
 <blockquote>
  
-final is a keyword and it can be used to mark a variable "unchangeable" . Actually, it is used to apply restrictions on class, method and variable. Final class can't be inherited, final method can't be overridden and final variable value can't be changed.
+final is a keyword and it can be used to mark a variable "unchangeable". It is used to apply restrictions on class, method and variable. A final class can't be inherited, the final method can't be overridden and the final variable value can't be changed.
 
-Finally is a code block. It is used with try-catch block for handling exception. finally code block will be executed whether exception is handled or not
+Finally is a code block. It is used with a try-catch block for handling exceptions. Finally, a code block will be executed whether an exception is handled or not
  
 </blockquote>
 </details>
 
 --- 
 
-7. Tell us about the different kinds of exceptions. What are some examples of checked and unchecked exceptions?
+7. Tell us about the various kinds of exceptions. What are some examples of checked and unchecked exceptions?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -126,9 +126,9 @@ Finally is a code block. It is used with try-catch block for handling exception.
 <blockquote>
  There are 2 types of exceptions
 
-- **Checked Exception(java.lang.Exception)** -> This exception forces the progarmmer to handle it at the compile time itself, until the programmer handles it, compiler wont allow to run. Some of Checked exceptions are FileNotFoundException, ClassNotFoundException,MethodNotFoundException, SQLException, etc.,
+- **Checked Exception(java.lang.Exception)** -> This exception forces the programmer to handle it at the compile time itself, until the programmer handles it, the compiler won’t allow it to run. Some of the Checked exceptions are FileNotFoundException, ClassNotFoundException,MethodNotFoundException, SQLException, etc.,
 
-- **Unchecked Exceptions(java.lang.RuntimeException)** -> These exceptions occurs at a run time, it is upto programmer whether he wants to handle this or not, if he doesnt handle it, it will lead to abnormal termination. Some of unchecked exceptions are ArithmeticException, NullPointerException,ArrayIndexOutOfBoundException, etc.,
+- **Unchecked Exceptions(java.lang.RuntimeException)** -> These exceptions occur at a run time, it is up to the programmer whether he wants to handle this or not, if he doesn’t handle it, it will lead to abnormal termination. Some of the unchecked exceptions are ArithmeticException, NullPointerException,ArrayIndexOutOfBoundException, etc.,
  
 </blockquote>
 </details>
@@ -148,13 +148,13 @@ Finally is a code block. It is used with try-catch block for handling exception.
 
 ---
 
-9. Does all the code inside try block will be executed?
+9. Does all the code inside the try block will be executed?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 	
-> Whenever an exception is occurred in the try block, the rest of the code after the exception occured line will not be executed.
+> Whenever an exception is occurred in the try block, the rest of the code after the exception occurs line will not be executed.
 	
 </details>
 
@@ -170,14 +170,14 @@ Finally is a code block. It is used with try-catch block for handling exception.
 yes, we can have multiple catch blocks with the single try block. 
 
 
-Important Rule: Order of the catch block must be from most specific to most general one i.e. catch for ArithmeticException must come before catch for Exception.
+Important Rule: The order of the catch block must be from most specific to most general one i.e. catch for ArithmeticException must come before catching for Exception.
 	
 </blockquote>
 </details>
 
 ---
 
-11. When we can go for multiple catch block? 
+11. When we can go for multiple catch blocks? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -186,8 +186,8 @@ Important Rule: Order of the catch block must be from most specific to most gene
   
 <blockquote>
  
-- When our program use various concepts like array, file handling, database, etc. at the same time and each of them may throw exception due one reason or other. 
-- To catch the generic exception we simply use 'Exception' in the catch block parameter and it can catch every exceptions like ArrayIndexOutOfBound, FileNotFound, etc. But problem with this is we are not catching the specific exception.
+- When our program uses various concepts like an array, file handling, database, etc. at the same time and each of them may throw exceptions due to one reason or another. 
+- To catch the generic exception we simply use 'Exception' in the catch block parameter and it can catch every exception like ArrayIndexOutOfBound, FileNotFound, etc. But the problem with this is we are not catching the specific exception.
 
 </blockquote>
 </details>
@@ -205,7 +205,7 @@ Important Rule: Order of the catch block must be from most specific to most gene
  
  We can handle exceptions using
 
- 1. try, catch, finally block
+ 1. try, catch, and finally block
  2. throw, throws
  
 </blockquote>
@@ -222,7 +222,7 @@ Important Rule: Order of the catch block must be from most specific to most gene
   
 <blockquote>
  
- Errors happen while an application is running. For instance, Out of Memory Error occurs in case the JVM runs out of memory. On the other hand, exceptions are mainly caused by the application. For instance, Null Pointer Exception happens when an app tries to get through a null object.
+ Errors happen while an application is running. For instance, an Out of Memory Error occurs in case the JVM runs out of memory. On the other hand, exceptions are mainly caused by the application. For instance, Null Pointer Exception happens when an app tries to get through a null object.
  
 </blockquote>
 </details>
@@ -238,14 +238,14 @@ Important Rule: Order of the catch block must be from most specific to most gene
   
 <blockquote>
  
-Java allow us to create our own exception based on our need is known as a custom exception or user-defined exception.
+Java allows us to create our exception based on our needs known as a custom exception or user-defined exception.
  
 </blockquote>
 </details>
 
 --- 
 
-15. How do you create custom exception in java?
+15. How do you create custom exceptions in java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -269,4 +269,4 @@ public class IncorrectUserNameException extends Exception {
 </blockquote>
 </details>
 
---- 
+---
