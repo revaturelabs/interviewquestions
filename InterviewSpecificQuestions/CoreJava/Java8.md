@@ -1,5 +1,5 @@
 ## Technical
-1. In Java 8 how can i filter a collection using the stream?
+1. In Java 8 how can I filter a collection using the stream?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -30,7 +30,7 @@
 
 <blockquote>
     
-- It provides a method `filter()` to filter stream elements on the basis of given predicate. 
+- It provides a method `filter ()` to filter stream elements on the basis of given predicate. 
 - This method take predicate as an argument and returns a stream of consisting of resulted elements.
     
 </blockquote>
@@ -60,7 +60,7 @@
 
 ---
 
-3. What actual advantage does Java 8 brings ?
+3. What actual advantage does Java 8 brings?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -76,14 +76,14 @@
 
 ---
 
-4. Tell us about Functional interfaces.
+4. Explain us about Functional interfaces.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-An Interface that contains exactly one abstract method is known as functional interface. It can have any number of default, static methods but can contain only one abstract method. It can also declare methods of object class. Functional Interface is also known as Single Abstract Method Interfaces or SAM Interfaces.
+An Interface that contains exactly one abstract method is known as functional interface. It can have any number of defaults, static methods but can contain only one abstract method. It can also declare methods of object class. Functional Interface is also known as Single Abstract Method Interfaces or SAM Interfaces.
     
 </blockquote>
 </details>
@@ -113,7 +113,7 @@ An Interface that contains exactly one abstract method is known as functional in
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-It is the process of chaining different operations together. It accomplishes this function by dividing stream operations into two categories, intermediate operation and terminal operations.
+It is the process of chaining different operations together. It accomplishes this function by dividing stream operations into two categories, intermediate operation, and terminal operations.
 
 </blockquote>
 </details>
@@ -128,7 +128,7 @@ It is the process of chaining different operations together. It accomplishes thi
 <blockquote>
 
 - Yes, we can create our own functional interface.
-- We have to do these two things:
+- We must do these two things:
     - Annotate the interface with `@FunctionalInterface`, which is the Java 8 convention for custom functional interfaces.
     - Ensure that the interface has just one abstract method.
 
@@ -165,7 +165,7 @@ Inside Functional Interface we can take only one abstract method, if we take mor
 
 ---
 
-10. What is the behaviour of `findFirst()` method in Java 8  streams?
+10. What is the behavior of `findFirst()` method in Java 8  streams?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -209,7 +209,7 @@ one
 
 ---
 
-11. What is the behaviour of `findAny()` method in Java 8  streams?
+11. What is the behavior of `findAny()` method in Java 8  streams?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -229,14 +229,14 @@ Stream `findAny()` returns an Optional (a container object which may or may not 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-There are instances where you have a stream, but you only want to select a random element; as long as it meets certain conditions and the operation itself takes the shortest time possible.
+There are instances where you have a stream, but you only want to select a random element as long as it meets certain conditions and the operation itself takes the shortest time possible.
 
 </blockquote>
 </details>
 
 ---
 
-13. What do you mean by stream ?
+13. What do you mean by stream?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -246,7 +246,7 @@ There are instances where you have a stream, but you only want to select a rando
 - Streams are just sequence of data from a source.
 - With Java 8, we can do manipulation on data using stream API.
 - Example: Youtube
-    - If we are watching a video all the content of the video will not be loaded at once. As the time elapses we will get the content.
+    - If we are watching a video all the content of the video will not be loaded at once. As the time elapses, we will get the content.
 
 </blockquote>
 </details>
@@ -367,8 +367,8 @@ In this example, we have used RetentionPolicy.RUNTIME because we want to demonst
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- Java 8 provides concept of Optionals
-- Optionals can be used to avoid `NullPointer Exception`
+- Java 8 provides concept of Optional
+- Optional can be used to avoid `NullPointer Exception`
 
 Example:
 
@@ -398,14 +398,14 @@ Example:
 
 ---
 
-20. How would you convert object of type Iterable to Stream ?
+20. How would you convert object of type Iterable to Stream?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Lets have an example:
+Let’s have an example:
 ```Java
 import java.util.*;
 import java.util.stream.*;
@@ -446,7 +446,7 @@ class Main{
 
 ---
 
-21.  How to overcome, multiple inheritance problem in Java 8 ?
+21.  How to overcome, multiple inheritance problem in Java 8?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -461,7 +461,7 @@ For example, `\<interfaceName\>.super.\<defaultMethodName\>`
 
 ---
 
-22. What happens, if a class implements two interfaces having exactly same method with same signature (consider one as default and another abstract) ?
+22. What happens, if a class implements two interfaces having exactly same method with same signature (consider one as default and another abstract)?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -478,20 +478,20 @@ For example, `\<interfaceName\>.super.\<defaultMethodName\>`
 ---
 
 
-23. What is the purpose of `joining()` method introduced in Java 8 ?
+23. What is the purpose of `joining ()` method introduced in Java 8 ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-The `joining()` method of the Collectors class in Java 8 returns a Collector that concatenates the input elements into a String.
+The `joining ()` method of the Collectors class in Java 8 returns a Collector that concatenates the input elements into a String.
     
 ``` java
     public class Example {
-        public static void main(String[] args) {
+        public static void main (String[] args) {
             List<Character> list = Arrays.asList('D', 'e', 'm', 'o');
-            String str = list.stream().map(String::valueOf).collect(Collectors.joining());
+            String str = list. stream().map(String::valueOf).collect(Collectors.joining());
             System.out.println("Concatenated = "+str);
         }
     }
@@ -506,7 +506,7 @@ Concatenated = Demo
 
 ---
 
-24. What is the use of the `String::ValueOf` expression in Java 8?
+24. What is the use of the `String::Value of` expression in Java 8?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -528,7 +528,7 @@ Concatenated = Demo
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-It refer to methods of functional interfaces. It can be considered as a short-code version of using a lambda expression.
+It refers to methods of functional interfaces. It can be considered as a short-code version of using a lambda expression.
 
 The following is the expression for a method reference:
 
@@ -621,7 +621,7 @@ Yes, the code can compile and execute without any errors. It uses functional int
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-The below piece of code sorts strings using the lambda expression:
+The below piece of code sorts of strings using the lambda expression:
 
 //Sorting using Java 8 lambda expression
 
@@ -675,7 +675,7 @@ Yes, it is possible to call a static method in a class by making use of the name
 
 The `random` keyword, as the name suggests, is used to generate random values for computations and operations in Java 8.
 
-The following piece of code is used to print out 20 random numbers using the forEach loop:
+The following piece of code is used to print out 20 random numbers using the for each loop:
 
 ```java
 
@@ -695,14 +695,14 @@ random.ints().limit(20).forEach(System.out::println);
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Collectors are mainly used to combine the final result after the processing of elements in a stream. They are used to return lists or strings.
+Collectors are mainly used to combine the result after the processing of elements in a stream. They are used to return lists or strings.
 
 </blockquote>
 </details>
 
 ---
 
-33. What is the easiest way to print the sum of all of the numbers present in a list using Java 8?
+33. What is the easiest way to print the sum of all the numbers present in a list using Java 8?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -827,14 +827,14 @@ Both `map` and `flatMap` operations are a form of intermediate stream operations
 
 ---
 
-40.How  to find and remove duplicate elements from a list using Java 8?
+40.How to find and remove duplicate elements from a list using Java 8?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Duplicate elements can be listed and removed easily by applying stream operations and performing a collection, later using the `Collections.toSet()` method. This should remove all of the duplicate elements present in the list.
+Duplicate elements can be listed and removed easily by applying stream operations and performing a collection, later using the `Collections.toSet()` method. This should remove all the duplicate elements present in the list.
 
 </blockquote>
 </details>
@@ -912,7 +912,7 @@ Spliterator is a newly introduced iterator interface for Java 8. It is very effi
 
 ---
 
-45. In Java, how do you convert a String to a LocalDate or a LocalDateTime? ?
+45. In Java, how do you convert a String to a LocalDate or a LocalDateTime? ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -933,7 +933,7 @@ System.out.println("Parsed date : " + newDate);
 
 ---
 
-46. What is the difference between a predicate and a function ?
+46. What is the difference between a predicate and a function?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
