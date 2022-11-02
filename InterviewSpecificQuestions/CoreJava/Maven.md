@@ -36,7 +36,7 @@
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- It actually helps the developer to create the Java project in a easy way.
+- It actually helps the developer to create the Java project in an easy way.
 -  Accessibility of new feature created or added in Maven can be easily added to a project in Maven configuration that will increases the performance of project and building process.
 - Apart from all these the main feature of Maven is that it can download the project dependency libraries automatically.
 
@@ -82,7 +82,7 @@
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- Maven uses Convention over Configuration which means developers are not required to create build process themselves. and they dont have to mention each and every configuration details.
+- Maven uses Convention over Configuration which means developers are not required to create build process themselves. and they don’t have to mention each and every configuration details.
 
 </blockquote>
 </details>
@@ -147,7 +147,7 @@ A Build lifecycle is a well-defined sequence of phases that outline the order in
 - compile :  compile the source code of the project.
 - test : test the compiled source code with a suitable unit testing framework. These tests should not require the code be packaged or deployed.
 - package : take the compiled code and package it in its distributable format, such as a JAR.
-- integration-test : process and deploy the package if necessary into an environment where integration tests can be run.
+- integration-test : process and deploy the package if necessary, into an environment where integration tests can be run.
 - verify :  run any checks to verify whether the package is valid and meets quality criteria.
 - install : install the package into the local repository, for use as a dependency in other projects locally.
 - deploy : done in an integration or release environment, copies the final package to the remote repository for sharing with other developers and projects.
@@ -247,7 +247,7 @@ The maven’s order of inheritance is
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-To run test classes in Maven, we need surefire plugin and we need to check and configure our settings in setting.xml and pom.xml for a property named `test.`
+To run test classes in Maven, we need surefire plugin, and we need to check and configure our settings in setting.xml and pom.xml for a property named `test.`
 
 </blockquote>
 </details>
@@ -262,7 +262,7 @@ To run test classes in Maven, we need surefire plugin and we need to check and c
 <blockquote>
 
 Make sure JDK is installed, and `JAVA_HOME`  the variable is added as a Windows environment variable.
-Add both `M2_HOME` and `MAVEN_HOME` variable in the Windows environment, and point it to your Maven folder.
+Add both `M2_HOME` and `MAVEN_HOME` variable in the Windows environment and point it to your Maven folder.
 
 </blockquote>
 </details>
@@ -279,7 +279,7 @@ Add both `M2_HOME` and `MAVEN_HOME` variable in the Windows environment, and poi
 Four goals associated with archetype plugin:
    - Create : creates using a quick-start template.
    - Generate : provide a menu of templates.
-   - Create-from-project : creates an archetype from an existing project.
+   - Create-from-project creates an archetype from an existing project.
    - Crawl : searches the repository for archetype and updates catalog.
 
 </blockquote>
@@ -294,7 +294,7 @@ Four goals associated with archetype plugin:
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- Basically, these are parent projects without code used by companies to define the set of libraries/versions, plugins they want their teams using.It can have dependencies, build plugins, variables definitions, and even their own parent POM, forming a chain.
+- Basically, these are parent projects without code used by companies to define the set of libraries/versions, plugins they want their teams using. It can have dependencies, build plugins, variables definitions, and even their own parent POM, forming a chain.
 - A great example is Spring Boot. You can extract it to create production-grade web services crazily fast. 
 
 </blockquote>
@@ -323,7 +323,7 @@ Dependency with reach system is always accessible and is not looked up in the re
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-It refers to the settings.xml to look for the repositories to look for the resource. It first looks into the configured local repository, then it looks into the configured remote repositories. If the resource is still not found , it looks it within maven repository central i.e repo1.maven.org. If its still not found, it throws the exception saying `Unable to find resource in repository central`.
+It refers to the settings.xml to look for the repositories to look for the resource. It first looks into the configured local repository, then it looks into the configured remote repositories. If the resource is still not found , it looks it within maven repository central i.e., repo1.maven.org. If it’s still not found, it throws the exception saying `Unable to find resource in repository central`.
 
 </blockquote>
 </details>
@@ -352,10 +352,10 @@ Using mvn dependency:tree
 There are three types of Maven repositories:
 
 1. Local Repository: 
-    - Local repository refers to the machine of the developer where all the project material is saved.The local repository contains all the dependency jars.
+    - Local repository refers to the machine of the developer where all the project material is saved. The local repository contains all the dependency jars.
 2. Remote Repository:
     - The remote repository refers to the repository present on a server usually in company intranet to download dependencies.
-    - The advantage of remote repository is that it can have all publically available depdendencies as well as private dependencies used only in intranet by employees of the enterprise.
+    - The advantage of remote repository is that it can have all publicly available dependencies as well as private dependencies used only in intranet by employees of the enterprise.
 3. Central Repository:
     - Central repository refers to the Maven community that comes into action when there is a need for dependencies, and those dependencies cannot be found in the local repository.
     - Maven downloads the dependencies from here in the local repository whenever needed.
@@ -397,7 +397,7 @@ If the dependencies are not present in your local repository; then Maven downloa
 
 ---
 
-26. Why do we need **Optional dependecies**?
+26. Why do we need **Optional dependencies**?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -468,7 +468,7 @@ Creating a project from an archetype consists of four steps:
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Snapshot refers to the version available in the Maven remote repository. It signals the latest development copy. Maven inspects for a new version of Snapshot in the remote repository, for every new build.The snapshot is updated by the data service team with an updated source code every time to the repository for each Maven build.
+Snapshot refers to the version available in the Maven remote repository. It signals the latest development copy. Maven inspects for a new version of Snapshot in the remote repository, for every new build. The snapshot is updated by the data service team with an updated source code every time to the repository for each Maven build.
 
 </blockquote>
 </details>
