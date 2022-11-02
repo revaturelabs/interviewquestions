@@ -5,7 +5,7 @@
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Containerization is a process of packaging an application code along with its required libraries, frameworks and configuration files so that it can be run efficiently and seamlessly in any environment.
+Containerization is a process of packaging an application code along with its required libraries, frameworks, and configuration files so that it can be run efficiently and seamlessly in any environment.
 
 </blockquote>
 </details>
@@ -34,22 +34,22 @@ Containerization is a process of packaging an application code along with its re
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Docker is a very popular containerization platform which packages our application along with its dependencies in the form of containers so that our application can work seamlessly in any environment, be it development , test or production.
+Docker is a very popular containerization platform which packages our application along with its dependencies in the form of containers so that our application can work seamlessly in any environment, be it development , test, or production.
 
 </blockquote>
 </details>
 
 ---
 
-4. Can u tell me about Docker Registry?
+4. Explain ab Docker Registry?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
--It's a remote repository where docker images can be stored.
--Two types of registry are there: public e.g.,Docker hub , private
+- It's a remote repository where docker images can be stored.
+- Two types of registry are there: public e.g., Docker hub , private
 
 </blockquote>
 </details>
@@ -78,7 +78,7 @@ Docker is a very popular containerization platform which packages our applicatio
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-No,we can pull the images from the Docker hub without login. But to push the images to Docker hub then login is needed.
+No, we can pull the images from the Docker hub without login. But to push the images to Docker hub then login is needed.
 
 </blockquote>
 </details>
@@ -106,7 +106,7 @@ No,we can pull the images from the Docker hub without login. But to push the ima
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- A Docker image is a read-only template that contains source code, libraries, dependencies and a set of instructions for creating a container.
+- A Docker image is a read-only template that contains source code, libraries, dependencies, and a set of instructions for creating a container.
 - Also Docker image is an immutable.
 
 
@@ -138,7 +138,7 @@ No,we can pull the images from the Docker hub without login. But to push the ima
 <blockquote>
 
 - Docker image has no dependency on Docker container. Because we can install Docker image and it is okay if we do not run a container from it.
-- On the other hand, Docker container has depency on Docker image. Let's suppose we need to run Tomcat Docker container , for that we need to pull Tomcat Docker image without that image we cannot run the container.
+- On the other hand, Docker container has dependency on Docker image. Let's suppose we need to run Tomcat Docker container , for that we need to pull Tomcat Docker image without that image we cannot run the container.
 
 </blockquote>
 </details>
@@ -208,7 +208,7 @@ In two ways we can do it.
 
 ---
 
-15. Suppose i want to pull a **alpine-git** image and **alpine** image is already installed then will Docker download a full or partial **alpine-git** image?
+15. Suppose I want to pull a **alpine-git** image and **alpine** image is already installed then will Docker download a full or partial **alpine-git** image?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -244,7 +244,7 @@ The command to get the required details about each layer is `docker history <Ima
 <blockquote>
 
 - Dangling images are those unused images which are not associated with any of the container.
-- Frequent clean up of these images is very important to keep our disk space free.
+- Frequent cleanup of these images is very important to keep our disk space free.
 - command to remove the dangling image is `docker image prune -a`.
 
 </blockquote>
@@ -385,7 +385,7 @@ No, restart and rm cannot be used together. restart will try to start the contai
 
 ---
 
-27. I want to clone a github repo but i don't have git utility installed in my system, although docker is running in my system and git image is also available. So considering the scenario, how can i clone the repo now?
+27. I want to clone a GitHub repo, but I don't have git utility installed in my system, although docker is running in my system and git image is also available. So, considering the scenario, how can I clone the repo now?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -406,7 +406,7 @@ We can make use of available git image along with bind mount to mount host direc
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Docker shares resources from out host for running a container.So whatever changes are happening inside our Docker container are actually written somewhere on a host machine.So we have to find that folder location and copy the content over there.Then it will automatically gets visible in the Docker container.
+Docker shares resources from out host for running a container. So whatever changes are happening inside our Docker container are actually written somewhere on a host machine. So, we have to find that folder location and copy the content over there. Then it will automatically get visible in the Docker container.
 
 </blockquote>
 </details>
@@ -509,7 +509,7 @@ Yes, active monitoring ensures higher productivity and better outcomes. Docker m
 
 ---
 
-35. Differentiate Virtalization and Containerization?
+35. Differentiate Virtualization and Containerization?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
