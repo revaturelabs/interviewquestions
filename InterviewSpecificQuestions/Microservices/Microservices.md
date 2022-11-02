@@ -188,7 +188,7 @@
 </details>
 
 ---
-11. Can you name few Netflix component you used in Spring Cloud project?
+11. Can you name few Netflix component that can be used in Spring Cloud project?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -311,7 +311,7 @@ server.port=8761
 
 #Indicates whether or not this instance should register its information with eureka server for discovery by others.
 #In some cases, you do not want your instances to be discovered whereas you just want do discover other instances.
-#Since current app is actual Eureka server hence we must keep this value as false
+#Since current app is actual Eureka server hence, we must keep this value as false
 eureka.client.register-with-eureka=false
 
 #Indicates whether this client should fetch eureka registry information from eureka server.
@@ -324,7 +324,7 @@ eureka.client.fetch-registry=false
 
 eureka.server.max-threads-for-peer-replication=0
 
-#When the registry starts, it will complain (with a stacktrace) that there 
+#When the registry starts, it will complain (with a stack trace) that there 
 #are no replica nodes to which the registry can connect. In a production environment,
 #you will want more than one instance of the registry. For our simple purposes, 
 #however, it suffices to disable the relevant logging.
@@ -405,7 +405,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 //@EnableDiscoveryClient will register discovery service using the jar available in class path like Consul, Eureka, Kubernetes.
 //@EnableDiscoveryClient lives in spring-cloud-commons and picks the implementation on the class path. 
-//@EnableEurekaClient lives in spring-cloud-netflix and only works for Eureka. If eureka is on your class path, they are effectively the same.
+//@EnableEurekaClient lives in spring-cloud-Netflix and only works for Eureka. If eureka is on your class path, they are effectively the same.
 
 @SpringBootApplication
 @EnableDiscoveryClient
@@ -435,7 +435,7 @@ public class ProducerEureka2 {
 - There are multiple implementations of "Discovery Service" (Eureka, Consul, Zookeeper). 
 - `@EnableDiscoveryClient` will register discovery service using the jar available in class path like Consul, Eureka, Kubernetes.
 - `@EnableDiscoveryClient` lives in `spring-cloud-commons` and picks the implementation on the class path. 
-- `@EnableEurekaClient` lives in `spring-cloud-netflix` and only works for Eureka. 
+- `@EnableEurekaClient` lives in `spring-cloud-Netflix` and only works for Eureka. 
 - If eureka is on your class path, they are effectively the same.
 </blockquote> 
 
@@ -443,7 +443,7 @@ public class ProducerEureka2 {
 
 ---
 
-19. How to fetch service url from `Service Discovery` server using `DiscoveryClient`?
+19. How to fetch service URL from `Service Discovery` server using `DiscoveryClient`?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -451,10 +451,10 @@ public class ProducerEureka2 {
 
 <blockquote> 
     
-- To fetch service url from Service Discovery server we will inject `org.springframework.cloud.client.discovery.DiscoveryClient` in our service/controller layer.
+- To fetch service URL from Service Discovery server we will inject `org.springframework.cloud.client.discovery.DiscoveryClient` in our service/controller layer.
 - `DiscoveryClient` represents operations commonly available to Discovery service such as Netflix Eureka or Consul.
 - One service might be registered with same name on multiple ports hence we first need to get list of its all instances using `getInstances(String)` method of `DiscoveryClient`.
-- We can then choose any of the retrieved instances and invoke get the service's base url using getUri() method as shown below-
+- We can then choose any of the retrieved instances and invoke get the service's base URL using getUri() method as shown below-
   
 ```java
 	StringBuilder responseText = new StringBuilder();
@@ -492,7 +492,7 @@ public class ProducerEureka2 {
 
 ---
 
-21. Do you know what the two types of load balancing techniques are?
+21. Do you know what are the two types of load balancing techniques?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -502,14 +502,14 @@ public class ProducerEureka2 {
     
 - Yes, there is client and server-side load balancing.
 - In server-side load balancing, the clients call an intermediate reverse proxy server, which then decides which instance of the actual server or microservice) will get call.
-- In client-side load balancing, the clients call an intermediate server (the API gateway - e.g., Zuul, configured with a load-balancer - e.g. Ribbon and a discovery server - e.g. Eureka), which then decides which instance of the microservice to call.
+- In client-side load balancing, the clients call an intermediate server (the API gateway - e.g., Zuul, configured with a load-balancer - e.g., Ribbon and a discovery server - e.g. Eureka), which then decides which instance of the microservice to call.
  
 </blockquote> 
 
 </details>
 
 ---
-22. What is use of Netflix Ribbon?
+22. What is the use of Netflix Ribbon?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -567,7 +567,7 @@ public class ProducerEureka2 {
 		String baseUrl = serviceInstance.getUri().toString();
 		baseUrl = baseUrl + "/employee";
 ```
-- Once the service url is retrieved we will invoke service normally (e.g., using RestTemplate)
+- Once the service URL is retrieved, we will invoke service normally (e.g., using RestTemplate)
 
 </blockquote> 
 
@@ -655,7 +655,7 @@ public class ProducerEureka2 {
 </dependencies>
 ```
 - In the service provider side, we need to mark the target method as `@HystrixCommand` where circuit breaker will be enabled.
-- We also need to mention fallbackMethod attribute which is our handler method invoked in case the target method execution fails.
+- We also need to mention fallback Method attribute which is our handler method invoked in case the target method execution fails.
   
 ```java
 import org.springframework.web.bind.annotation.GetMapping;
@@ -721,7 +721,7 @@ public class ProducerEurekaHystrix {
     
 - In simple term, the API Gateway is responsible to take requests and redirects them to the right service.
 - We can expose multiple services (REST, SOAP, etc.) through a single API Gateway. 
-- We can create micro-services to implement our business logic and expose them to external users/system by publishing those service as an API in a API Gateway. 
+- We can create micro-services to implement our business logic and expose them to external users/system by publishing those service as an API in an API Gateway. 
 - Apart from simple routing API Gateway, also provide various other features like-
   - Security (User authentication & authorization)
   - Throttling management
@@ -871,7 +871,7 @@ public class EmployeeZuulGatwayApplication {
 <blockquote> 
     
 - A blue/green deployment is an application deployment strategy.
-- First we create two separate, but identical environments. 
+- First, we create two separate, but identical environments. 
 - One environment (blue) is running the current application version and one environment (green) is running the new application version. 
 - Using a blue/green deployment strategy increases application availability and reduces deployment risk by simplifying the rollback process if a deployment fails. 
 - Once testing has been completed on the green environment, live application traffic is directed to the green environment and the blue environment is deprecated.
