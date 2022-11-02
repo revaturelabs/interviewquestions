@@ -98,7 +98,7 @@ To fix ClassNotFoundException, firstly we must go through the exception stack tr
 
 --- 
 
-6. What is the difference between final and final?
+6. What is the difference between final and finally?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
