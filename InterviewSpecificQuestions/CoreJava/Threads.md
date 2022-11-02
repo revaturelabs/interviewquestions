@@ -14,7 +14,7 @@ A process is a program in execution. A thread is a subset of a process.
 
 --- 
 
-2. How do you make a thread in java? or How do you create thread?
+2. How do you make a thread in java? or how do you create thread?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
