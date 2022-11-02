@@ -123,7 +123,7 @@ CSS3 has the elements as syntax rules; they are
 
 - Internal or Embedded stands second in the priority list and overrides the styles in the external style sheet.
 
-- External style sheets have the least priority. If there are no styles defined either in the inline or internal style sheet then external style sheet rules are applied for the HTML tags.
+- External style sheets have the least priority. If there are no styles defined either in the inline or internal style sheet, then external style sheet rules are applied for the HTML tags.
 
 </blockquote>
 </details>
@@ -174,7 +174,7 @@ P {
 text-align: left;
 Color: blue
 ```
-In the output element P will be left aligned with the Blue text color.
+In the output element P will be left aligned with the blue text color.
 
 </blockquote>
 </details>
@@ -245,9 +245,9 @@ When a browser displays a document, it must combine the document's content with 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- Contextual selector addresses specific occurrence of an element. It is a string of individual selectors separated by white space (search pattern), where only the last element in the pattern is addressed providing it matches the specified contex.
+- Contextual selector addresses specific occurrence of an element. It is a string of individual selectors separated by white space (search pattern), where only the last element in the pattern is addressed providing it matches the specified context.
 
-- It also check the context of the class in the html tree, assigning the style to the element through a specific route, taking into account the order of depth in the tree.
+- It also checks the context of the class in the html tree, assigning the style to the element through a specific route, taking into account the order of depth in the tree.
 
 **Example**:
 
@@ -411,7 +411,7 @@ background-color: coral;
   <div>Five</div>
 </div>
 
-​​.wrapper {
+.wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -472,7 +472,7 @@ It depends on what we are trying to do.
 
 ---
 
-22. How do absolute, relative, fixed and static position differ?
+22. How do absolute, relative, fixed, and static position differ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -499,25 +499,25 @@ It depends on what we are trying to do.
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-`display`: none removes the element from the normal layout flow and allow other elements to fill in. `visibility`: hidden tag is rendered, it takes space in the normal flow but doesn't show it.
+`display`: none removes the element from the normal layout flow and allow other elements to fill in. `visibility`: hidden tag is rendered; it takes space in the normal flow but doesn't show it.
 
 </blockquote>
 </details>
 
 ---
 
-24. What are the differences between inline, block and inline-block?
+24. What are the differences between inline, block and inline block?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-`inline`, elements do not break the flow. think of span it fits in the line. Important points about inline elements, margin/ padding will push other elements horizontally not vertically. Moreover, inline elements ignores height and width.
+`inline`, elements do not break the flow. think of span it fits in the line. Important points about inline elements, margin/ padding will push other elements horizontally not vertically. Moreover, inline elements ignore height and width.
 
-`block`, breaks the flow and dont sits inline. they are usually container like div, section, ul and also text p, h1, etc.
+`block`, breaks the flow and don’t sit inline. they are usually container like div, section, ul and also text p, h1, etc.
 
-`inline-block`, will be similar to inline and will go with the flow of the page. Only differences is this this will take height and width.
+`inline block`, will be similar to inline and will go with the flow of the page. Only differences are, this will take height and width.
 
 </blockquote>
 </details>
@@ -531,8 +531,8 @@ It depends on what we are trying to do.
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- Technically, height, width, padding and border are part of box model and margin is related to it.
-- Everything in a web page is a box where we can control size, position, background, etc. Each box/ content area is optionally surrounded by padding, border and margin. When we set height and width of an element, we set content height and width.
+- Technically, height, width, padding, and border are part of box model and margin is related to it.
+- Everything in a web page is a box where we can control size, position, background, etc. Each box/ content area is optionally surrounded by padding, border, and margin. When we set height and width of an element, we set content height and width.
 
 </blockquote>
 </details>
@@ -551,7 +551,7 @@ yes, overflow property deals with the content if content size exceeds the alloca
 
 ---
 
-27. What are the some pseudo classes you have used?
+27. What are some pseudo classes you have used?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -560,7 +560,7 @@ yes, overflow property deals with the content if content size exceeds the alloca
 
 - pseudo class tells us specific state of an element. allow to style element dynamically. The most popular one is `:hover`. Besides i have used `:visited`, `:focus`, `:nth-child`,` nth-of-type`, `:link`, etc.
 
-- pseudo classes is better if we don't want to mess up with javaScript however, pseudo-classes is slow to process and apply rules.
+- pseudo classes is better if we don't want to mess up with JavaScript however, pseudo-classes is slow to process and apply rules.
 
 </blockquote>
 </details>
@@ -606,28 +606,28 @@ yes, overflow property deals with the content if content size exceeds the alloca
 
 ---
 
-29. How do you optimize css selectors?
+29. How do you optimize CSS selectors?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-This is very open and depend on what we are trying to achieve. If we order selectors in terms of render speed it would be like id, class, tag, siblings, child, descendant, universal, attribute, pseudo. Speed of ID and class is very close. However your code should be readable, maintainable and DRY along with highly performant.
+This is very open and depend on what we are trying to achieve. If we order selectors in terms of render speed it would be like id, class, tag, siblings, child, descendant, universal, attribute, pseudo. Speed of ID and class is very close. However, your code should be readable, maintainable and DRY along with highly performant.
 
 </blockquote>
 </details>
 
 ---
 
-30. How can you load css resources conditionally?
+30. How can you load CSS resources conditionally?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-`@import` allows us to load/ import stylesheet by using a path (uri) representing the location of the file. We can define one or more media by comma separation for which we want to load the stylesheet. If browser dont support the media stylesheet will not be loaded.
+`@import` allows us to load/ import stylesheet by using a path (uri) representing the location of the file. We can define one or more media by comma separation for which we want to load the stylesheet. If browser don’t support the media stylesheet will not be loaded.
 
 
 
@@ -636,14 +636,14 @@ This is very open and depend on what we are trying to achieve. If we order selec
 
 ---
 
-31. What are the different css filter you can use?
+31. What are the different CSS filter you can use?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-css filter allows us to render DOM element, image, or video. We can choose from: grayscale, blur, opacity, brightness, contrast.
+CSS filter allows us to render DOM element, image, or video. We can choose from: grayscale, blur, opacity, brightness, contrast.
 
 </blockquote>
 </details>
@@ -671,7 +671,7 @@ Transition allows to add an effect while changing from one style to another. we 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-We write css in high level with some special syntax (declaring variable, nested syntax, mathematical operations, etc.) and that is compiled to css. Preprocessor helps us to speed up develop, maintain, ensure best practices and also confirms concatenation, compression, etc.
+We write CSS in high level with some special syntax (declaring variable, nested syntax, mathematical operations, etc.) and that is compiled to CSS. Preprocessor helps us to speed up develop, maintain, ensure best practices, and also confirms concatenation, compression, etc.
 
 </blockquote>
 </details>
@@ -687,7 +687,7 @@ We write css in high level with some special syntax (declaring variable, nested 
 
 The table-layout property defines the algorithm used to layout table cells, rows, and columns.
 
-`table-layout`: auto|fixed|initial|inherit;
+`table-layout`: auto|fixed|initial|inherit.
 `auto` - Browsers use an automatic table layout algorithm. The column width is set by the widest unbreakable content in the cells. The content will dictate the layout.
 `fixed` - The layout is fixed based on the first row. Set the width of those, and the rest of the table follows. If no widths are present on the first row, the column widths are divided equally across the table, regardless of content inside the cells.
 `initial` - Sets this property to its default value.
@@ -709,7 +709,7 @@ Both responsive and adaptive design attempt to optimize the user experience acro
 
 Responsive design works on the principle of flexibility — a single fluid website that can look good on any device. Responsive websites use media queries, flexible grids, and responsive images to create a user experience that flexes and changes based on a multitude of factors. Like a single ball growing or shrinking to fit through several different hoops.
 
-Adaptive design is more like the modern definition of progressive enhancement. Instead of one flexible design, adaptive design detects the device and other features, and then provides the appropriate feature and layout based on a predefined set of viewport sizes and other characteristics. The site detects the type of device used, and delivers the pre-set layout for that device. Instead of a single ball going through several different-sized hoops, we’d have several different balls to use depending on the hoop size.
+Adaptive design is more like the modern definition of progressive enhancement. Instead of one flexible design, adaptive design detects the device and other features, and then provides the appropriate feature and layout based on a predefined set of viewport sizes and other characteristics. The site detects the type of device used and delivers the pre-set layout for that device. Instead of a single ball going through several different-sized hoops, we’d have several different balls to use depending on the hoop size.
 
 </blockquote>
 </details>
@@ -739,7 +739,7 @@ Accessibility is also known as assistive technology.
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-**Resetting** — is meant to strip all default browser styling on elements. For e.g. margins, paddings, font-sizes of all elements are reset to be the same. You will have to redeclare styling for common typographic elements.
+**Resetting** — is meant to strip all default browser styling on elements. For e.g., margins, paddings, font-sizes of all elements are reset to be the same. You will have to redeclare styling for common typographic elements.
 **Normalizing**— preserves useful default styles rather than “unstyling” everything. It also corrects bugs for common browser dependencies.
 It's a good idea to choose resetting when we have very a customized or unconventional site design such that we need to do a lot of our own styling do not need any default styling to be preserved.
 
@@ -911,7 +911,7 @@ At-rules are `CSS statements` that instructs CSS how to behave. They begin with 
 /* General structure */
 @IDENTIFIER (RULE);
 
-/* Example: tells browser to use UTF-8 character set */
+/* Example: tells browser to use UTF-8-character set */
 @charset "utf-8";
 ```
 
@@ -931,7 +931,7 @@ At-rules are `CSS statements` that instructs CSS how to behave. They begin with 
 
 ---
 
-43. How do i restore the default value of a property?
+43. How do I restore the default value of a property?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -952,7 +952,7 @@ The keyword `initial` can be used to resets it to its default value, which is de
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-**1) Margin** is applied to the outside of you element hence effecting how far your element is away from other elements.  
+**1) Margin** is applied to the outside of your element hence effecting how far your element is away from other elements.  
 **2) Padding** is applied to the inside of your element hence effecting how far your element\'s content is away from the border.
 
 Also, using margin will not affect your element\'s dimensions whereas padding will make your elements dimensions (set height + padding) so for example if you have a 100x100px div with a 5 px padding, your div will actually be 105x105px
