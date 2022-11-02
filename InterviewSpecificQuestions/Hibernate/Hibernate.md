@@ -1,4 +1,4 @@
-1. What is an ORM? Explain a bit about it.
+1. What is an ORM? Explain.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -55,7 +55,7 @@
 ------
 
 
-4. Any idea about O-R (Object relational) impedance mismatch? Talk about it if you have an idea.
+4. What is O-R (Object relational) impedance mismatch? What problems may occur due to the impedance mismatch? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -69,10 +69,10 @@
   - Attributes and their data types
   - Tuples
   - Tables
-- Problems:Following problems may occur due to the impedance mismatch:
-  - The first problem that may occur is that is data type mismatch means the programming language attribute data type may differ from the attribute data type in the data model.Hence it is quite necessary to have a binding for each host programming language that specifies for each attribute type the compatible programming language types. It is necessary to have different data types, for example, we have different data types available in different programming languages such as data types in C are different from Java and both differ from SQL data types.
-  - The second problem that may occur is because the results of most queries are sets or multisets of tuples and each tuple is formed of a sequence of attribute values. In the program, it is necessary to access the individual data values within individual tuples for printing or processing.Hence there is a need for binding to map the query result data structure which is a table to an appropriate data structure in the programming language. A mechanism is needed to loop over the tuples in a query result in order to access a single tuple at a time and to extract individual values from the tuple.The extracted values are typically copied to appropriate program variables for further processing by the program.A cursor or iterator is a variable which is used for looping over the tuples in a query result. Individual values within each 	tuple are extracted into different or unique program variables of the appropriate datatype.
-  - Impedance mismatch is less of a problem when a special database programming language is designed that uses the same data model and data type as a database model for example Oracles’sPL/SQL.
+- Following problems may occur due to the impedance mismatch:
+  - The first problem that may occur is that is data type mismatch means the programming language attribute data type may differ from the attribute data type in the data model. Hence it is quite necessary to have a binding for each host programming language that specifies for each attribute type the compatible programming language types. It is necessary to have different data types, for example, we have different data types available in different programming languages such as data types in C are different from Java and both differ from SQL data types.
+  - The second problem that may occur is because the results of most queries are sets or multisets of tuples and each tuple is formed of a sequence of attribute values. In the program, it is necessary to access the individual data values within individual tuples for printing or processing. Hence, there is a need for binding to map the query result data structure which is a table to an appropriate data structure in the programming language. A mechanism is needed to loop over the tuples in a query result in order to access a single tuple at a time and to extract individual values from the tuple. The extracted values are typically copied to appropriate program variables for further processing by the program. A cursor or iterator is a variable which is used for looping over the tuples in a query result. Individual values within each 	tuple are extracted into different or unique program variables of the appropriate datatype.
+  - Impedance mismatch is less of a problem when a special database programming language is designed that uses the same data model and data type as a database model for example Oracle’s/SQL.
 
 </blockquote>
 
@@ -165,7 +165,7 @@ public class OrderDetail implements Serializable {
 
 <blockquote>
 
-- I will opt hibernate because using this we can persist entity class object into database and can retrieve data from database in form of entity object. So performance of project will increase . 
+- I will choose hibernate because using this we can persist entity class object into database and can retrieve data from database in form of entity object. So, performance of project will increase . 
 
 </blockquote>
 
@@ -183,7 +183,7 @@ public class OrderDetail implements Serializable {
 
 <blockquote>
 
-- Yes we can use using native query as below:
+- Yes, we can use using native query as below:
   
 ```sql
 	
@@ -197,7 +197,7 @@ public class OrderDetail implements Serializable {
 
 ------
 
-9. Can you talk about dialect in the context of Hibernate?
+9.	Explain dialect in the context of Hibernate?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -206,7 +206,7 @@ public class OrderDetail implements Serializable {
 
 <blockquote>
 
-- A database dialect is a configuration setting for platform independent software (JPA, Hibernate, etc) which allows such software to translate its generic SQL statements into vendor specific DDL, DML.
+- A database dialect is a configuration setting for platform independent software (JPA, Hibernate, etc.) which allows such software to translate its generic SQL statements into vendor specific DDL, DML.
 
 </blockquote>
 
@@ -215,25 +215,7 @@ public class OrderDetail implements Serializable {
 ------
 
 
-10.	Can you talk about dialect in the context of Hibernate?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details>
-<summary> <b>Show Answer</b> </summary>
-
-<blockquote>
-
-- A database dialect is a configuration setting for platform independent software (JPA, Hibernate, etc) which allows such software to translate its generic SQL statements into vendor specific DDL, DML.
-
-</blockquote>
-
-</details>
-
-------
-
-
-11.	What are all the JDBC information that you need to configure in the hibernate configuration file?
+10.	What are all the JDBC information that you need to configure in the hibernate configuration file?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -272,7 +254,7 @@ public class OrderDetail implements Serializable {
 ------
 
 
-12.	Can you change the hibernate configuration file name to a different file name from its default name? If so, how your application knows the non-default file name?
+11.	Can you change the hibernate configuration file name to a different file name from its default name? If so, how your application knows the non-default file name?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -281,7 +263,7 @@ public class OrderDetail implements Serializable {
 
 <blockquote>
 
-- Yes we can change suppose my file name is revature.cfg.xml then our application will load it as 
+- Yes, we can change suppose my file name is revature.cfg.xml then our application will load it as 
 SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSessionFactory().
 
 </blockquote>
@@ -291,7 +273,7 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 ------
 
 
-13.	What should I do to automatically create the database schemas from configuration file or annotation information in Hibernate?
+12.	What should I do to automatically create the database schemas from configuration file or annotation information in Hibernate?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -300,7 +282,7 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 
 <blockquote>
 
-- We have to set following properties
+- We have to set following properties:
 
 ```xml
     <property name="hibernate.hbm2ddl.auto">update</property>
@@ -313,7 +295,7 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 ------
 
 
-14.	Can we have an entity bean in Hibernate without default or no-argument constructor?
+13.	Can we have an entity bean in Hibernate without default or no-argument constructor?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -331,7 +313,7 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 ------
 
 
-15. Can you talk about the .hbm file?
+14. Explain the .hbm file?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -349,7 +331,7 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 ------
 
 
-16.	In the hibernate mapping file, can we skip the column property of <property> element?
+15.	In the hibernate mapping file, can we skip the column property of <property> element?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -358,7 +340,7 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 
 <blockquote>
 
-- No we can skip because it map entity class variable to database table column.
+- No, we can skip because it maps entity class variable to database table column.
 
 </blockquote>
 
@@ -367,7 +349,7 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 ------
 
 
-17.	What are all the hibernate mapping types? Why they exist?
+16.	What are all the hibernate mapping types? Why they exist?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -376,12 +358,12 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 
 <blockquote>
 
-- It is class and file. Using class we can map entity class as below:
+- It is class and file. Using class, we can map entity class as below:
 ``` xml
    <mapping class=”entity class qualified name” />
 ```
 
-- Using file we can map .hbm file as below
+- Using file, we can map .hbm file as below
 
 ```xml    
   <mapping file=”a.hbm.xml” />
@@ -394,7 +376,7 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 ------
 
 
-18.	How Java reflection is used in hibernate mapping?
+17.	How is Java reflection used in hibernate mapping?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -419,7 +401,7 @@ cls.getField("xyz").getAnnotation(ManyToMany.class).mappedBy
 ------
 
 
-19.	If we want to increase the hibernate start-up performance
+18.	How can we increase the hibernate start-up performance?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -439,7 +421,7 @@ cls.getField("xyz").getAnnotation(ManyToMany.class).mappedBy
 ------
 
 
-20.	How SessionFactory gets the hibernate metadata?
+19.	How SessionFactory gets the hibernate metadata?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -459,7 +441,7 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 ------
 
 
-21.	SessionFactory is a thread-safe object? Can you explain what it is?
+20.	SessionFactory is a thread-safe object? Can you explain what it is?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -468,7 +450,7 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 
 <blockquote>
 
-Yes because all the methods of SessionFactory is synchronized so at a time it will allow only one task.
+Yes, because all the methods of SessionFactory is synchronized so at a time it will allow only one task.
 
 </blockquote>
 
@@ -477,7 +459,7 @@ Yes because all the methods of SessionFactory is synchronized so at a time it wi
 ------
 
 
-22.	What is session in hibernate and how it is created?
+21.	What is session in hibernate and how it is created?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -497,7 +479,7 @@ Yes because all the methods of SessionFactory is synchronized so at a time it wi
 ------
 
 
-23.	Write the code snippet that creates a hibernate session and stores an object to the database. Assume that the SessionFactory object is available with the variable sessionFactory.
+22.	Write the code snippet that creates a hibernate session and stores an object to the database. Assume that the SessionFactory object is available with the variable sessionFactory.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -522,7 +504,7 @@ session.save(entity class object);
 ------
 
 
-24.	Do you see any advantage of using annotations in hibernate rather than mapping file? Brief about it.
+23.	Do you see any advantage of using annotations in hibernate rather than mapping file? Brief about it.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -544,7 +526,7 @@ What advantages I see in using @Annotations:
 ------
 
 
-25.	Can we use JPA syntax / annotation in hibernate? If not why and if so why?
+24.	Can we use JPA syntax / annotation in hibernate? If not, why and if so, why?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -553,7 +535,7 @@ What advantages I see in using @Annotations:
 
 <blockquote>
 
-Yes we can use because JPA is a specification. So we can use all its annotation with hibernate.
+Yes, we can use because JPA is a specification. So, we can use all its annotation with hibernate.
 
 </blockquote>
 
@@ -562,7 +544,7 @@ Yes we can use because JPA is a specification. So we can use all its annotation 
 ------
 
 
-26.	Its advised to create only one SessionFactory object for a database in hibernate, why?
+25.	Its advised to create only one SessionFactory object for a database in hibernate, why?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -590,7 +572,7 @@ SessionFactory sc=cfg.buildSessionFactory();
 
 ------
 
-27.	What are first-level cache and second-level cache in hibernate?
+26.	What are first-level cache and second-level cache in hibernate?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -599,8 +581,8 @@ SessionFactory sc=cfg.buildSessionFactory();
 
 <blockquote>
 
-- First level cache is a session level cache and it is always associated with session level object. 
-- Second level cache is session factory level cache and it is available across all sessions.
+- First level cache is a session level cache, and it is always associated with session level object. 
+- Second level cache is session factory level cache, and it is available across all sessions.
 
 </blockquote>
 
@@ -609,7 +591,7 @@ SessionFactory sc=cfg.buildSessionFactory();
 ------
 
 
-28.	Why hibernate class or attributes are recommended to be non-final members or class? 
+27.	Why hibernate class or attributes are recommended to be non-final members or class? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -637,7 +619,7 @@ Being only accesible through accessor or business methods allow interception in 
 ------
 
 
-29.	What is field based access and property based access of table fields?
+28.	What is field based access and property-based access of table fields?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -647,7 +629,7 @@ Being only accesible through accessor or business methods allow interception in 
 <blockquote>
 
 - Access strategies
-    As a JPA provider, Hibernate can introspect both the entity attributes (instance fields) or the accessors (instance properties). By default, the placement of the @Id annotation gives the default access strategy. When placed on a field, Hibernate will assume field-based access. Place on the identifier getter, Hibernate will use property-based access.
+    As a JPA provider, hibernate can introspect both the entity attributes (instance fields) or the accessors (instance properties). By default, the placement of the @Id annotation gives the default access strategy. When placed on a field, Hibernate will assume field-based access. Place on the identifier getter, Hibernate will use property-based access.
 
 - Field-based access
 Example 1. Field-based access
@@ -668,7 +650,7 @@ Example 1. Field-based access
 
 - When using field-based access, adding other entity-level methods is much more flexible because Hibernate won’t consider those part of the persistence state. To exclude a field from being part of the entity persistent state, the field must be marked with the @Transient annotation.
 
-- Another advantage of using field-based access is that some entity attributes can be hidden from outside the entity. An example of such attribute is the entity @Version field, which must not be manipulated by the data access layer. With field-based access, we can simply omit the getter and the setter for this version field, and Hibernate can still leverage the optimistic concurrency control mechanism.
+- Another advantage of using field-based access is that some entity attributes can be hidden from outside the entity. An example of such attribute is the entity @Version field, which must not be manipulated by the data access layer. With field-based access, we can simply omit the getter and the setter for this version field and hibernate can still leverage the optimistic concurrency control mechanism.
 
 Property-based access
 
@@ -697,7 +679,7 @@ When using property-based access, Hibernate uses the accessors for both reading 
 ------
 
 
-30.	Which relationship annotation is direct equivalent to foreign key relationship in tables?
+29.	Which relationship annotation is direct equivalent to foreign key relationship in tables?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -715,7 +697,7 @@ When using property-based access, Hibernate uses the accessors for both reading 
 ------
 
 
-31.	Give an example of unidirectional @OneToMany relationship
+30.	Give an example of unidirectional @OneToMany relationship.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -757,7 +739,7 @@ Text.java
 ------
 
 
-32.	How to map collection of values to an entity, in hibernate?
+31.	How to map collection of values to an entity, in hibernate?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -825,7 +807,7 @@ public class Task {
 ------
 
 
-33.	Can you elaborate the states of persistent context?
+32.	Can you elaborate the states of persistent context?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -843,7 +825,7 @@ public class Task {
 ------
 
 
-34.	HQL vs SQL – brief about them.
+33.	Explain HQL vs SQL.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -871,7 +853,7 @@ can be changed.
 ------
 
 
-35.	What is transaction and how it is achieved in hibernate?
+34.	What is transaction and how it is achieved in hibernate?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -895,12 +877,12 @@ can be changed.
     4.	void setTimeout(int seconds) it sets a transaction timeout for any transaction started by a subsequent call to begin on this instance.
     5.	boolean isAlive() checks if the transaction is still alive.
     6.	void registerSynchronization(Synchronization s) registers a user synchronization callback for this transaction.
-    7.	boolean wasCommited() checks if the transaction is commited successfully.
-    8.	boolean wasRolledBack() checks if the transaction is rolledback successfully.
+    7.	boolean was Committed() checks if the transaction is committed successfully.
+    8.	boolean was RolledBack() checks if the transaction is rolledback successfully.
 
 - Example of Transaction Management in Hibernate:
 
-    In hibernate, it is better to rollback the transaction if any exception occurs, so that resources can be free. Let's see the example of transaction management in hibernate.
+    In hibernate, it is better to roll back the transaction if any exception occurs, so that resources can be free. Let's see the example of transaction management in hibernate.
 
 ```java
     	Session session = null;  
@@ -926,7 +908,7 @@ can be changed.
 ------
 
 
-36.	Hibernate Criteria query, have you used it? If so, explain about it.
+35.	Hibernate Criteria query, have you used it? If so, explain about it.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
