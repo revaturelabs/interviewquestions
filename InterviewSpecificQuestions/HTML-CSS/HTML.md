@@ -64,7 +64,7 @@ An iframe is an HTML document which can be embedded inside another HTML page
 
 There are multiple ways to set language in HTML
   - By setting content-language in headers for language of the page.
-  - By setting accept-language in headers for list of language that a page accept.
+  - By setting accept-language in headers for list of language that a page accepts.
   - Setting lang attribute in html tag.
 
 **Example:**
@@ -97,7 +97,7 @@ There are multiple ways to set language in HTML
 
 A **DOCTYPE** is always associated to a DTD ( Document Type Definition ). A DTD defines how documents of a certain type should be structured (i.e. a button can contain a span but not a div), whereas a **DOCTYPE** declares what DTD a document supposedly respects (i.e. this document respects the HTML DTD). For webpages, the **DOCTYPE** declaration is required. It is used to tell user agents what version of the HTML specifications your document respects.
 
-Once a user agent has recognized a correct **DOCTYPE**, it will trigger the no-quirks mode matching this **DOCTYPE** forreading the document. If a user agent doesn't recognize a correct **DOCTYPE**, it will trigger the quirks mode.
+Once a user agent has recognized a correct **DOCTYPE**, it will trigger the no-quirks mode matching this **DOCTYPE** for reading the document. If a user agent doesn't recognize a correct **DOCTYPE**, it will trigger the quirks mode.
 
 </blockquote>
 </details>
@@ -113,8 +113,8 @@ Once a user agent has recognized a correct **DOCTYPE**, it will trigger the no-q
 
 The primary difference between div and span tag is their default behavior. By default, a `<div>` is a block-level-element and a `<span>` is an inline element.
 
-`<div>` is a block level element which means it will render it on it's own line with a width of a 100% of the parent element.
-`<span>` is an inline element which means it will render on the same line as the previous element, if it is also an inline element, and it's width will be determined by it's content.
+`<div>` is a block level element which means it will render it on its own line with a width of a 100% of the parent element.
+`<span>` is an inline element which means it will render on the same line as the previous element, if it is also an inline element, and it's width will be determined by its content.
 
 ```HTML
 <div>Demo Text, with <span>some other</span> text.</div>
@@ -171,7 +171,7 @@ If the content within the element is not semantically related, then use a `<div>
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Yes both of these elements can be added multiple times in a webpages. And both of these tags are designed to serve a crucial purpose in relation to their parent section. In **HTML5** not only Page body but section and article elements also contains header and footer elements, although the use of multiple footers is always not required.
+Yes, both of these elements can be added multiple times in a webpage. And both of these tags are designed to serve a crucial purpose in relation to their parent section. In **HTML5** not only Page body but section and article elements also contains header and footer elements, although the use of multiple footers is always not required.
 
 </blockquote>
 </details>
@@ -415,7 +415,7 @@ Elements can be block-level elements or inline elements. The difference between 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- An HTML element is an individual component of an HTML document. It represents semantics, or meaning. For example, the title element represents the title of the document.
+- An HTML element is an individual component of an HTML document. It represents semantics or meaning. For example, the title element represents the title of the document.
 
 - Most HTML elements are written with a start tag (or opening tag) and an end tag (or closing tag), with content in between. Elements can also contain attributes that defines its additional properties.
 
@@ -432,7 +432,7 @@ Elements can be block-level elements or inline elements. The difference between 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-All elements don't require the end tag or closing tag to be present. These are referred as empty elements, self-closing elements or void elements.
+All elements don't require the end tag or closing tag to be present. These are referred as empty elements, self-closing elements, or void elements.
 
 </blockquote>
 </details>
@@ -495,4 +495,4 @@ HTML5 drag-and-drop uses the DOM event model and drag events inherited from mous
 </blockquote>
 </details>
 
---- 
+---
