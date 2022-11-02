@@ -96,7 +96,7 @@
 
 - Development principle which focuses on the automation of the DevOps pipeline to the extent that human intervention is not required. 
 - Generally, source code control, building and testing, and deployment to staging are automated.
-- While acceptance testing and if necessary deployment to production environment may be handled by a Human or requires manual approval.
+- While acceptance testing and if necessary, deployment to production environment may be handled by a Human or requires manual approval.
 
 </blockquote> 
 
@@ -242,7 +242,7 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 - SonarLint is a free, open-source linting tool. 
 - A linting tool/linter is a software tool which, when integrated with an IDE, can provide increased code quality feedback to the developer.
 - SonarLint is an IDE extension that helps detect and fix quality issues as we write code. 
-- For Eclipse, you can get it directly from the Eclipse Marketplace, and it will then detect new bugs and quality issues as we code (in Java, JavaScript, PHP, SQL and Python).
+- For Eclipse, you can get it directly from the Eclipse Marketplace, and it will then detect new bugs and quality issues as we code (in Java, JavaScript, PHP, SQL, and Python).
 
 </blockquote> 
 
