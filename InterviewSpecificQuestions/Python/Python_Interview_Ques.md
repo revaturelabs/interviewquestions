@@ -1,15 +1,18 @@
 
 ## Python Interview Questions
 
-1.How can you say that python is a dynamically typed programming language.
+
+## Python Interview Questions
+
+1.	How can you say that python is a dynamically typed programming language?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- Python is a dynamically-typed programming language.It means that the type of the variable can be changed dynamically by the program at the run time, without re-declaration of the variable.
-- In Python,We first define a variable a to hold an integer literal and later in the below program, without re-declaring it, we make it hold a string literal or 
+- Python is a dynamically typed programming language. It means that the type of the variable can be changed dynamically by the program at the run time, without re-declaration of the variable.
+- In Python, we first define a variable a to hold an integer literal and later in the below program, without re-declaring it, we make it hold a string literal or 
   
 ```python
 a = 43 # Integer literal 
@@ -23,14 +26,14 @@ print(f"{a} => {type(a)}")
   
 --- 
   
-2.Consider John have a list1 =[1,2,3,4,5].He want to get an output as list1=[5,4,3,2,1],How will you help him get that output?
+2.	Consider John has a list1 =[1,2,3,4,5]. He wants to get an output as list1=[5,4,3,2,1]. How will you help him get that output?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-He want to get list1=[1,2,3,4,5] as [5,4,3,2,1], he can use `slicing` or `reverse` method to get that output.
+He wants to get list1=[1,2,3,4,5] as [5,4,3,2,1], he can use `slicing` or `reverse` method to get that output.
 
 ```python
 list1 =[1,2,3,4,5]
@@ -42,16 +45,15 @@ print("after reversing",list1[::-1])
   
 ---
   
-3.Jack want to enter these multiple line values  5 2 3 4 1 
-into a single line and he is trying to order the list as [1,2,3,4,5] , which method is help him to get the values in python?
+3.	Jack wants to enter these multiple line values 5 2 3 4 1 into a single line and he is trying to order the list as [1,2,3,4,5]. Which method helps him to get the values in python?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- If he wants to enter mutiple line values into a single line we can use 'list' and separated by commas.
-- If he want to order the list means use `sort()` method in python.
+- If he wants to enter multiple line values into a single line, we can use 'list' separated by commas.
+- If he wants to order the list means, we use the `sort()` method in python.
   
 ```python
 values = [5,2,3,4,1 ]
@@ -69,15 +71,15 @@ sorted values [1, 2, 3, 4, 5]
   
   ---
   
-4.Consider you have a list which holds values of multiple datatypes how do you extract only the numbers from that list.
+4.	Consider you have a list which holds values of multiple datatypes how do you extract only the numbers from that lis?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- In list in Python can contain different types of data,  item in the list is separated by a comma and the entire list is enclosed in square brackets [].
-- If we want to Extract only the numbers from list we can use `isinstance()` method through the loop `isinstance(int,float)` checking list contains numbers or not if in the list it contains int and float it will store into the another list and we will print the list.
+- In a list, Python can contain different types of data, and an item in the list is separated by a comma and the entire list is enclosed in square brackets [].
+- If we want to Extract only the numbers from the list, we can use `isinstance()` method through the loop `isinstance(int,float)`. Checking list contains numbers. If not, it contains int and float and it will store in another list, and we will print the list.
 
 **Example**:
   
@@ -95,30 +97,30 @@ print(list2)
   
 ---
   
-5.If a function doesn’t have a return statement at the end of the function, is it valid in python?
+5.	If a function doesn’t have a return statement at the end of the function, is it valid in python?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- If there is no return statement appears in a function definition, control automatically returns to the calling function after the last statement of the called function is executed.
-- It will returns `None` if the function doesn't have a return statement.
+- If there is no return statement that appears in a function definition, the control automatically returns to the calling function after the last statement of the called function is executed.
+- It will return `None` if the function doesn't have a return statement.
 
 </details>
   
 ---
   
-6.Consider we have list is A= [1,4,6,7,9,66,4,94], you want to get output for A[3]. How will you help to get the output of the above list.
+6.	Consider we have a list A= [1,4,6,7,9,66,4,94], and you want to get output for A[3]. How will you get the output of the above list?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- We have this list A= [1,4,6,7,9,66,4,94] and want to get the output for A[3]. For that we can use indexing.
-- In python using indexing we can get particular value.
-- To get the output of particular index use the below code,
+- We have this list A= [1,4,6,7,9,66,4,94] and want to get the output for A[3]. For that, we can use indexing.
+- In python, using indexing, we can get a particular value.
+- To get the output of a particular index, use the below code,
  
 ```python
 A= [1,4,6,7,9,66,4,94]
@@ -133,14 +135,14 @@ using index A[3] value is: 7
  
 ---
   
-7.Can you tell me the reason why this Datatype `set` is called **the frozen set** in python?
+7.	Can you tell me the reason why this Datatype `set` is called **the frozen set** in python?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-Frozen set is an immutable version of a Python set object in python.While elements of a set can be modified at any time.But the forzen set remain the same after the creation.
+A frozen set is an immutable version of a Python set object in python. While elements of a set can be modified at any time, the frozen set remains the same after the creation.
 
 Syntax of `frozenset()` function is:
  
@@ -152,14 +154,14 @@ frozenset([iterable])
   
 ---
   
-8.Assume that I have a text that is "The Apple a Day Keeps the Doctor Away." We want to replace one string with another for the one/first two occurrences of "An Apple a Day Keeps the Doctor Away." Which technique is used to do this?
+8.	Assume that I have a text, "The Apple a Day Keeps the Doctor Away." We want to replace one string with another for the one/first two occurrences of "An Apple a Day Keeps the Doctor Away." Which technique is used to do this?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- If you want to replace one string with an another string use `.replace()` method.
+- If you want to replace one string with another string, use `.replace()` method.
 - Syntax for String `replace()`
 
 ```python
@@ -175,28 +177,28 @@ print("After replacing the string is :",x)
   
 **Output:**
   
-Before replacing the string is : The Apple a Day Keeps the Doctor Away.
-After replacing the string is : An Apple a Day Keeps the Doctor Away.
+Before replacing the string: The Apple a Day Keeps the Doctor Away.
+After replacing the string: An Apple a Day Keeps the Doctor Away.
   
 </details>
   
 ---
 
-9.Fyodor combined multiple lines of text into a single line in python, His senior is asking  Which delimiter is used to do that?
+9.	Fyodor combined multiple lines of text into a single line in python. Which delimiter is used to do that?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>  
   
-- we can use the triple quotes to print the multiple lines into a singe line in a python.
-- Triple quotes ''" or '" are string delimiters that can span multiple lines in Python. Triple quotes are used when combine multiple lines, or enclosing a string that has a mix of single and double quotes.
+- we can use triple quotes to print multiple lines into a single line in python.
+- Triple quotes ''" or '" are string delimiters that can span multiple lines in Python. Triple quotes are used when combining multiple lines or enclosing a string that has a mix of single and double quotes.
 
 </details>
   
 ---
    
-10.Consider the string "Python Online Training" as an example. How do I get output that as ['Python', 'Online', 'Training']. Which process produces that result?
+10.	Consider the string "Python Online Training" as an example. How do I get output as ['Python', 'Online', 'Training'?. Which process produces this result?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
@@ -204,7 +206,7 @@ After replacing the string is : An Apple a Day Keeps the Doctor Away.
 <blockquote>
   
 - We can use the `split()` method.
-- In python you can specify the separator, default separator is any whitespace.
+- In python, you can specify the separator, default separator as any whitespace.
   
 Syntax:
  
@@ -226,14 +228,14 @@ print(x)
  
 ---  
   
-11.Shan want to iterate the for loop for a fixed number of times in Python,Which method is used to iterate the loop?
+11.	Shan wants to iterate the for loop for a fixed number of times in Python. Which method is used to iterate the loop?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- In python `range()` function is used to create a series of sequential numbers and to iterate through a loop for a fixed number of times. This loop will be executed until the specified number in the `range()` function.
+- In python, `range()` function is used to create a series of sequential numbers and to iterate through a loop for a fixed number of times. This loop will be executed until the specified number is in the `range()` function.
  
 **Example:**
   
@@ -247,16 +249,16 @@ for i in range(len(C)):
   
 ---
 
-12.Which variables are created globally in a class? Tell me the scope of the variables?
+12.	Which variables are created globally in a class? Tell me the scope of the variables.
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- In python global variables are created outside of a function.
-- Global variables are can be used by everyone, both inside and outside of function.
-- The scope of the variable means a lifetime of the variable. The scope of the Global variable is inside and outside of the function.
+- In python, global variables are created outside of a function.
+- Global variables be used by everyone, both inside and outside of function.
+- The scope of the variable means the lifetime of the variable. The scope of the Global variable is inside and outside of the function.
 
 ```python
 x = "global"
@@ -270,14 +272,14 @@ print("x outside:", x)
   
  ---
   
-13.Which one is used to provide a unique name for every object in python? What are the different types available in python?
+13.	Which one is used to provide a unique name for every object in python? What are the different types available in python?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- In python namespace use to defined as a system that is designed to provide a unique name for every object in python. Types of namespaces that are present in Python are:
+- In python, namespace is use to define as a system that is designed to provide a unique name for every object in python. Types of namespaces that are present in Python are:
    - Local namespace
    - Global namespace
    - Built-in namespace
@@ -286,29 +288,29 @@ print("x outside:", x)
   
  ---
   
-14.Can you teach to James, how will you run the interactive Python interpreter?
+14.	Can you teach James, how to run the interactive Python interpreter?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
  
-- In python open a command-prompt and then type in python , or python3 it's depending upon your Python installation, and then Enter .
-- After enter that we will get this >>>>,
-so now you can write and run Python code , with the only the drawback is that when you close the session, your code will be gone.
+- In python, open a command prompt and then type as python or python3, depending upon the Python installation, and then click Enter.
+- After entering, we will get as >>>>,
+Now you can write and run the Python code. The only drawback is when you close the session, your code will be gone.
   
   </details>
   
  ---
   
-15.James want to know list out all the function in a module. Which method is help him to get all the function in a module?	
+15.	James want to know list all the function in a module. Which method helps him to get all the functions in a module?	
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-If you want to get all the function in a module in python use `dir()` method.
+In Python, if you want to get all the functions in a module, use `dir()` method.
   
 **Example:**
 
@@ -321,28 +323,28 @@ print dir(some_module)
   
 ---
   
-16.Junior developer want to repeat the particular part of the task for a finite number of times in python,How his senior is going to help him to repeat the code ?
-  
+16.	Junior developers want to repeat a particular part of the task a finite number of times in python. How is his senior going to help him to repeat the code?
+
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- If you want to repeat the particular part of the task for a finite number of times in python use Enumerate loops.
-- you can provide the number of iterations to be performed: As an integer value.
+- If you want to repeat the part of the task for a finite number of times in python, use Enumerate loops.
+- you can provide the number of iterations to be performed, as an integer value.
   
   </details>
   
  ---
   
-17.One of the coworkers was working on strings, he don't know how to remove whitespaces from a string in python. How is a friend helped him to remove whitespaces?
+17.	One of the coworkers was working on strings, he doesn't know how to remove whitespaces from a string in python. How would you help him to remove whitespaces?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
  
-- In python to remove whitespaces from a string we can use `strip()` function.
+- In python, to remove whitespaces from a string, we can use `strip()` function.
 
 ```python
 s.strip()
@@ -350,13 +352,13 @@ s.strip()
   
 - If you want to remove only right or left spaces, use `lstrip()` or `rstrip()` functions.
 
-- We can use `replace()` also to remove all the whitespaces from the string. This function will remove whitespaces between words.
+- We can use `replace()`  to remove all the whitespaces from the string. This function will remove whitespaces between words.
   
   </details>
   
   ---
 
-18.Ron asked Ken to show the reversed order of the contents of a file in python,How he will do that?
+18.	Ron asked Ken to show the reversed order of the contents of a file in python. How would he do that?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -365,7 +367,7 @@ s.strip()
   
 - Get the file name from the user.
 - Read each line from the file using for loop and store it in a list.
-- Print the elements of list in reverse order.
+- Print the elements of a list in reverse order.
 - Print the lines finally.
 
 Here is the Python Program to read the contents of the file in reverse order. The program output is also shown below.
@@ -380,14 +382,14 @@ for line in reversed(list(open(filename))):
   
 ---
   
-19.One of the developer is trying to run the following piece of code but after running this code it’s throwing a Syntax error,
+19.	One of the developers is trying to run the following piece of code but after running the code, it throws a Syntax error,
   
 ```python
 x = "CorporateWorld"
 print ("Reverse is", [x : -1] ) 
 ```
   
-As a Manager how do you resolve that, Error.
+How do you resolve the above Error?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
@@ -405,42 +407,42 @@ print ("Reverse is", x[ :: -1] )
   
 ---
   
-20.Is the `Xrange()` method occupies only the least memory? What would be the reason?
+20.	Is the `Xrange()` method occupy only the least memory? What would be the reason?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- Yes,the `xrange()` method occupies only the less memeory comparing than the `range()`.
+- Yes, the `xrange()` method occupies only less memory comparing the `range()`.
 - Because it only stores one number at a time in the memory.
   
   </details>
   
 ---
   
-21.Can you tell something about generators in python and explain where we can use the generators?
+21.	Can you tell us something about generators in python and explain where can we use the generators?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- In Python a generator is a special type of function which does not return a single value, instead it returns an iterator object with a sequence of values.In a generator function, a yield statement is used rather than a return statement.
-- The difference is that while a return statement terminates a function entirely, yield statement pauses the function saving all its states and later continues from there on successive calls.
+- In Python, a generator is a special type of function which does not return a single value, instead, it returns an iterator object with a sequence of values. In a generator function, a yield statement is used rather than a return statement.
+- The difference is that while a return statement terminates a function entirely, the yield statement pauses the function saving all its states and later continues from there on successive calls.
   
 </details>
   
   ---
   
-22.Consider your Team lead is asking how will you handle errors ,How will you describe the correct usage of error handling in Python?
+22.	Consider your Team lead asks how you will handle errors. How will you describe the correct usage of error handling in Python?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- In python `Try` and `except` statements are used to `catch` and handle exceptions. Statements that can raise exceptions are kept inside the try clause and the statements that handle the exception are written inside except clause.
+- In python, `Try` and `except` statements are used to `catch` and handle exceptions. Statements that can raise exceptions are kept inside the try clause and the statements that handle the exception are written inside except clause.
   
 ```python
 while True:
@@ -455,7 +457,7 @@ while True:
   
 ---
   
-23.Junior was having some issues in their code, How will help him to detect Python bugs and statistical issues?
+23.	Junior was having some issues with their code. How would you help him to detect Python bugs and statistical issues?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -463,20 +465,20 @@ while True:
 <blockquote>
   
 - We can detect bugs in a python source code using a static analysis tool named `PyChecker`.
-- Another tool called `PyLint` that checks whether the Python modules meet their coding standards or not.
+- Another tool called `PyLint` checks whether the Python modules meet their coding standards.
   
   </details>
   
   ---
   
-24.Which module in Python supports regular expressions?
+24.	Which module in Python supports regular expressions?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In Python `re` module  is supports regular expressions.
+- In Python, `re` module supports regular expressions.
 
 ```python  
 import re
@@ -488,27 +490,27 @@ import re
   
 ---
   
-25.How will you explain the function `re.match` do to your junior developer?
+25.	How will you explain the function `re.match` to your junior developer?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- `re.match()` function of `re` in Python will search the regular expression pattern and return the first occurrence.
+- `re` in `re.match()` function in Python will search the regular expression pattern and return the first occurrence.
   
   </details>
   
   ---
   
-26.Can we use the `+` operator to add elements to a set? If not, then how to add elements into a set?
+26.Can we use the `+` operator to add elements to a set? If not, then how to add elements to a set?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
  
-- No,We can't use the `+` operator to add elements.
+- No, we can't use the `+` operator to add elements.
 - We can use `set.add()` function to add elements.
   
 ```python
@@ -522,14 +524,14 @@ print(languages)
   
  ---
 
-27.John wants to check in a string that all characters are in uppercase or not Joe helped him to check the all the characters are in uppercase or not, which method she said to him?
+26.	John wants to check a string whether all characters are in uppercase. Joe helped him to check whether all the characters are in uppercase. Which method did she suggest to him?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- In python `String.isupper()` method used to check if all letters are in Uppercase.
+- In python, `String.isupper()` method is  used to check if all letters are in Uppercase.
 - The `isupper()` method/function returns True if all the characters are in upper case, otherwise False. 
 
 ```python
@@ -543,15 +545,15 @@ print(b.isupper())
   
   ---
  
-28.Can you list some differences between single `/` slash and double `//` slash in python?
+27.	Can you list some differences between single `/` slash and double `//` slash in python?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- `/` returns float value,It is Float Division        
-- `//` floor division rounds the result down to the nearest whole number.It is Integer Division
+- `/` returns float value. It is a Float Division        
+- `//` floor division rounds the result down to the nearest whole number. It is Integer Division
 
 ```python
 num1 = 5
@@ -566,7 +568,7 @@ print("The type of the result", type(result))
 
 ---
   
-29.Amie has the following code and is trying to get the output, but she keeps receiving NameError warnings. 
+28.	Amie has the following code and is trying to get the output, but she keeps receiving NameError warnings. 
  
 ```python
 list = [John, 70.2, 'abcd', 786, 2.23] 
@@ -580,8 +582,8 @@ Joe was asked to assist their leader. How is she going to fix this issue?
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
  
-- We are getting NameError because strings should be enclosed with an single or double quotes.
-- We will get output as empty list [] because we don't have index value is 7.
+- We are getting NameError because strings should be enclosed with single or double quotes.
+- We will get output as an empty list [] because we don't have an index value is 7.
 - Correct code is given below
   
 ```python
@@ -593,14 +595,14 @@ print(list[7:3])
   
   ---
 
-30.Henry wants to learn slicing but he don't know Which data types of support slicing,How you help him to learn the different data types supported for slicing?
+29.	Henry wants to learn slicing, but he doesn’t know which data types of support slicing. How would you help him to learn the different data types supported for slicing?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-Python supports slice for any sequential data type like lists, strings, tuples, bytes, bytearrays, and ranges.
+Python supports slices for any sequential data type like lists, strings, tuples, bytes, byte arrays, and ranges.
   
 ```python
 a = ("a", "b", "c", "d", "e", "f", "g", "h")
@@ -612,14 +614,14 @@ print(a[x])
   
   ---
   
-31.John wants to print a single string 10 times using only one print statement. How can he do that?
+30.	John wants to print a single string 10 times using only one print statement. How can he do that?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- If we wants to print a single string 10 times using only one print statement,we can use `*` operator.
+- If we want to print a single string 10 times using only one print statement, we can use the `*` operator.
  
 ```python
 x="Hi"
@@ -630,19 +632,19 @@ print(X*10)
   
   ---
   
-32.Consider Jack have this list [1,2,3,4,5,]. He wants to convert list into set as (1,2,3,4,5) and john wants to know does it maintains same order or not?
+31.	Consider Jack has this list [1,2,3,4,5,]. He wants to convert the list into the set as (1,2,3,4,5) and John wants to know if it maintains the same order?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- If your converting a list to set the order of elements is changed.
+- If you’re converting a list to set the order, elements is changed.
  
 ```python
 x=[1,2,20,6,210]
 print(x,type(x))
-# [1, 2, 20, 6, 210] # the order is same as initial order
+# [1, 2, 20, 6, 210] # the order is the same as the initial order
 x1=set(x)
 print(x1,type(x1))
 # set([1, 2, 20, 210, 6]) # in the set(x) output order is sorted
@@ -652,7 +654,7 @@ print(x1,type(x1))
   
  ---
  
-33.How do you find the type and identification number of an object in Python?
+32.	How do you find the type and identification number of an object in Python?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
@@ -660,7 +662,7 @@ print(x1,type(x1))
 <blockquote>
 
 - Using `type()` for returning datatype.
-- Using `id()` for returning identification number.
+- Using `id()` for returning the identification number.
 
   </details>
   
@@ -673,21 +675,21 @@ print(x1,type(x1))
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-The key difference between Python 2.x and Python 3.x is the behaviour of the print function.
-in 2.x print is treatted as a statement whereas in 3.x it is treated as a function print().
+The key difference between Python 2.x and Python 3.x is the behavior of the print function.
+2.x print is treated as a statement whereas in 3.x, it is treated as a function print().
   
   </details>
   
   ---
   
-35.James have set of names, roll number and date. He wants to store these values into a single name. which data type can we use to store all the values into a single name?
+35. James have set of names, roll number and date. He wants to store these values into a single name. Which data type can we use to store all the values into a single name?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- To Store differenct data types into a single value we can use the list.
+- To store different data types into a single value, we can use the list.
 
  ```python
 list1=["Jhon",123,06-09-1999,"jack",78,09-12-2000)
@@ -698,14 +700,14 @@ print(list1)
   
   ---
   
-36.How to check whether the two variables are pointing to the same object in Python?
+36. How to check whether the two variables are pointing to the same object in Python?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
  <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- To check the two variables are pointing to the same object in Python use `is` keyword.
+- To check the two variables are pointing to the same object in Python, we use `is` keyword.
 - The test returns True if the two objects are the same object.
 
 ```python
@@ -718,14 +720,14 @@ print(x is y)
    
 ---
   
-37.How can we install particular package using command?
+37. How can we install the particular package using command?
    
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
    
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- In python, we can use `pip` command to install the particular package.
+- In python, we can use `pip` command to install a particular package.
   
 **Syntax:**
   `pip install package_name`
@@ -742,35 +744,35 @@ pip install pandas
   
   ---
  
-38.Does Joe want to know the python checkers for Debugging how will you help him to find them?
+38. If Joe want to know the python checkers for Debugging, how will you help him to find them?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-There are many debugging tools,some of them are:
+There are many debugging tools, some of them are:
   
-i)Pychecker – A tool for locating bugs in python ASCII text file(source code).
+i)Pychecker – A tool for locating bugs in python ASCII text file (source code).
 
 ii)pudb – PuDB could be a full-screen, console-based visual debugger for Python.
 
-iii)pdb – The module pdb defines associate degree interactive ASCII text file(source code) debugger for Python programs.
+iii)pdb – The module PDB defines associate degree interactive ASCII text file(source code) debugger for Python programs.
 
-iv)pylint – Analyzes Python ASCII text file(source code) trying to find bugs and signs of poor quality.
+iv)pylint – Analyzes Python ASCII text file (source code) trying to find bugs and signs of poor quality.
   
 </details>
    
 ---
    
-39.Ken wants to perform static analysis in Python. How will you help him to find the tools to perform static analysis?
+39. Ken wants to perform static analysis in Python. How will you help him to find the tools to perform static analysis?
    
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
    
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
  
-- For Static Analysis
+- For Static Analysis,
    -pylint - performs style checking against PEP-8 but also shows errors & potential issues.
    - PyFlakes - Error detection.
    - Bandit - Security Checks.
@@ -780,7 +782,7 @@ iv)pylint – Analyzes Python ASCII text file(source code) trying to find bugs a
   
   ---
 
-40.James is working with identifiers in python. His coworker is asking, is python case sensitive or not when dealing with identifiers. What explanation did James give his coworker?
+40. James is working with identifiers in python. His coworker is asking if python is case sensitive when dealing with identifiers. What explanation did James give his coworker?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -788,28 +790,28 @@ iv)pylint – Analyzes Python ASCII text file(source code) trying to find bugs a
 <blockquote>
 
 - Yes
-- As you might be knowing that Python is a case-sensitive programming language. So, Python is case sensitive when dealing with Identifiers. 
+- Since Python is a case-sensitive programming language, it is case-sensitive when dealing with Identifiers. 
 - Case is always significant.
  
   </details>
   
   ---
   
-41.James trying to check the python version in CMD? how will you help him to list out what are the steps needed?
+41.James is trying to check the python version in CMD. How will you help him to list out the steps needed?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- In python we have more there are more methods to check the python version in cmd.
+- In python, we have more methods to check the version in cmd.
     - Using `sys.version` method
     - Using `python_version()` function
     - Using `python -V` command
-- Here this is one of the simplest way to check the python current version
+- Here, this is one of the simplest ways to check the python current version.
 
   1.Open cmd/terminal
-  2.Write python -V and press enter,it will return the current python interpreter version in the form of string.
+  2.Write python -V and press enter, it will return the current python interpreter version in the form of string.
   
 ```python
 python -V
@@ -819,7 +821,7 @@ python -V
   
 ---
   
-42.Jacks wants to know how to process the file in python. How will you explain the file processing modes that Python supports.
+42. Jack wants to know how to process the file in python. How will you explain the file processing modes that Python supports?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg) 
   
@@ -827,14 +829,14 @@ python -V
 <blockquote>
 
 - A file is some information which is stored in the computer storage devices. Python provides basic functions and methods necessary to manipulate files by default. You can do most of the file manipulation using a file object. Python language supports two types of files. 
-1.Text dile 
+1.Text file 
 2.Binary file
 
-- Different modes to opening a file
+- Different modes for opening a file
      - `r` - open a file for reading.
-     - `w` - open a file for reading.If the file exists new file will be created.
-     - `x` - open for exclusive creation,fail if the file is already exists.
-     - `a` - open for rading,appending to the end of the file it exists.
+     - `w` - open a file for reading. If the file exists, new file will be created.
+     - `x` - open for exclusive creation, fail if the file already exists.
+     - `a` - open for reading, appending to the end of the file that exists.
      - `b` - binary mode
      - `t` - text mode
      - `+r` - open a file for reading and writing.
@@ -843,14 +845,14 @@ python -V
 
 ---
  
-43.Franz is asking to her junior to remove the duplicate values froma list.How she will be going to get rid of duplicate elements from a list?
+43. Franz is asking to her junior to remove the duplicate values from a list. How is she going to get rid of duplicate elements from a list?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- To remove duplicate elements/values from a list ,we can use the buitl-in function `set()`.The specify of `set()` method is it will return only the distinct elements.
+- To remove duplicate elements/values from a list, we can use the built-in function `set()`.The specification of `set()` method is, it will return only the distinct elements.
   
 ```python
 duplicate_values = [1,1,2,3,2,2,4,5,6,2,1]
@@ -869,15 +871,15 @@ After removing duplicate values [1, 2, 3, 4, 5, 6]
 ---
   
 
-44.Harry wants to know What is python's parameter psssing mechanism? How will you explain this to him?
+44.Harry wants to know python's parameter passing mechanism. How will you explain this to him?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In Python parameter passing mechanism is a call by value.
-- The call by value method is arguments are passed by assignment in Python. The actual parameters to a function call are introduced in the local symbol table of the called function when it is called,arguments are passed using call by value.If you change the value of the parameter within a function, the change is reflected in the calling function .
+- In Python, parameter passing mechanism is a call by value.
+- The call-by-value method arguments that are passed by assignment in Python. The actual parameters to a function call are introduced in the local symbol table of the called function when it is called, arguments are passed using call by value. If you change the value of the parameter within a function, the change is reflected in the calling function.
  
   
 ```python
@@ -894,14 +896,14 @@ print (x, y )
 
 ---
   
-45.Jhon has a string as `hello world` he wants to cut some part of the string. How will you help him to write a piece of code to cut part as `wo` in the string?
+45. Jhon has a string as `hello world` and he wants to cut some part of the string. How will you help him to write a piece of code to cut part as `wo` in the string?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- To cut or access some part of the string, We can use slicing method in python.
+- To cut or access some part of the string, we can use the slicing method in python.
   
 ```python
 x='hello world'
@@ -919,15 +921,15 @@ wo
 
 ---
   
-46.Ernest is searching for **conditional expressions** in python how will you help him to get to know about conditional expressions?
+46.Ernest is searching for **conditional expressions** in python. How will you help him to get to know about conditional expressions?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python **conditional expressions** are known as **Ternary operators**.Ternary operators are used to evaluate something based on the condition is true or not.
-- Ternary operator allows to test a condtion quickly instead of multiline if satatement.
+- In python, **conditional expressions** are known as **Ternary operators**.Ternary operators are used to evaluate something based on whether the condition is true or not.
+- Ternary operator allows testing a condition quickly instead of multiline if statement.
 
 **Syntax:**
 
@@ -946,69 +948,69 @@ print(result)
 
 ---
   
-47.Can you explain what will be the process of compilation and loading in python?
+47. Can you explain the process of compilation and loading in python?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python first compiles a source code (.py file) into a byte code. Compiling is a simple translation step, and byte code is a lower-level and platform-independent source code.
-- After compilation is usually stored in `.pyc` files.
-- The bytecode (.pyc file) is loaded into the Python runtime and interpreted by a Python Virtual Machine, a piece of code that reads each instruction in the bytecode and executes whatever operation is indicated. The byte code compilation is automatic, and the PVM is just part of the Python system that you have installed on your machine.The PVM is always present as part of the Python system and is the component that truly runs your scripts.
-- Each time an interpreted program is run, the interpreter must convert source code into machine code and also pull in the runtime libraries. This conversion process makes the program run slower than a comparable program written in a compiled language. 
+- In python, first it compiles a source code (.py file) into a byte code. Compiling is a simple translation step, and byte code is a lower-level and platform-independent source code.
+- After compilation, it is usually stored in `.pyc` files.
+- The bytecode (.pyc file) is loaded into the Python runtime and interpreted by a Python Virtual Machine, a piece of code that reads each instruction in the bytecode and executes whatever operation is indicated. The byte code compilation is automatic, and the PVM is just part of the Python system that you have installed on your machine. The PVM is always present as part of the Python system and is the component that truly runs your scripts.
+- Each time an interpreted program is run, the interpreter must convert source code into machine code and pull in the runtime libraries. This conversion process makes the program run slower than a comparable program written in a compiled language. 
 - Python has something clever to improve the performance. It compiles to bytecode (.pyc files) the first time it executes a file. This substantially improves the execution of the code the next time the module is imported or executed.
 
 </details>
 
 ---
   
-48.Henry is asking about What does the `yield` keyword do in python to his senior and how he will explain this to him?
+48. Henry is asking about the `yield` keyword in python to his senior. How will he explain this to him?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python `yield` keyword can be use like the return statement in a function. When done so, the function instead of returning the output, it returns a generator that can be iterated upon. 
+- In python, `yield` keyword can be used like the return statement in a function. When done so, the function instead of returning the output, returns a generator that can be iterated upon. 
 - You can iterate through the generator to extract items. Iterating is done using a for loop or using the `next()` function.
 
 ```python
-def Squre(n):
+def Square(n):
   i = 1
   while i < n:
       yield i * i
       i += 1
-print(list(Squre(5)))
+print(list(Square(5)))
 ```
 </details>
 
 ---
   
-49.When you are doing a presentation, one of your coworkers is asking Is all the memory freed when python exists how will you explain this to this coworker?
+49. When you are doing a presentation, one of your coworkers is asking if all the memory is freed when python exits. How will you explain this to this coworker?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python Garbage collector to release unreferenced memory with `gc.collect()`. 
-- Python will definitely leak memory is when you declare circular references in your object declarations and implement a custom __del__ destructor method in one these classes. 
-- Python modules are not always deallocated when Python exits.Python's garbage collector does this. So, Python doesn't detect and free circular memory references before making use of the garbage collector.
+- In python, Garbage collector releases unreferenced memory with `gc.collect()`. 
+- Python will leak memory when you declare circular references in your object declarations and implement a custom __del__ destructor method in one of these classes. 
+- Python modules are not always deallocated when Python exits. Python's garbage collector does this. So, Python doesn't detect and frees circular memory references before making use of the garbage collector.
 - So, Python does not detect and free circular memory references before making use of the garbage collector.
 
 </details>
 
 ---
   
-50.Can you explain how will you use the `split()` methods of the `re` module in python to one of your coworkers?
+50. How will you use the `split()` methods of the `re` module in python to one of your coworkers?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python `re` module provides the regular expression matching operations.Both patterns and strings to be searched can Unicode strings as well as 8-bit strings.
+- In python, `re` module provides the regular expression matching operations. Both patterns and strings to be searched can be Unicode strings as well as 8-bit strings.
 - `split()` uses a regex pattern to split the given string to a list.
   
 ```python
@@ -1032,7 +1034,7 @@ print(re.split(" +", str))
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- To generate random number first import the module called `random` and `randint()` function is used to get the random number.
+- To generate a random number, first import the module called `random` and `randint()` function is used to get the random number.
 
 ```python
 import random
@@ -1047,14 +1049,14 @@ print(random.randint(1,1000))
 
 ---
   
-52.Can you explain what are accessor and mutator methods in python?
+52. What are accessor and mutator methods in python?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- The method defined within a class can either be an Accessor or a mutator method in python. The  accessor method is a function that returns a copy of an internal variable or computed value. Some Examples of Accessor method is,
+- The method defined within a class can either be an Accessor or a mutator method in python. The  accessor method is a function that returns a copy of an internal variable or computed value. Some examples of Accessor method is,
     - `index()`
     - `count()`
 - A mutator method is a function that modifies the value of an internal data variable. 
@@ -1071,7 +1073,7 @@ print(random.randint(1,1000))
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- The `isinstance()` method checks whether the object is and instance of a class or not.
+- The `isinstance()` method checks whether the object is an instance of a class or not.
 - The `issubclass()` method asks whether one class is a subclass of another class or not.
   
 ```python
@@ -1089,15 +1091,15 @@ print(isinstance(MySubClass1, MyClass1))
 
 ---
   
-54.Fyodor is trying to get a copy of one object in python. How will you help him to get a copy of an object?
+54. Fyodor is trying to get a copy of one object in python. How will you help him to get a copy of an object?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python we can use the deepcopy to copy an object.The `=` use to assign another reference to the same object in memory .
-- The deepcopy used to creates a new object in memory with the values of A and B will reference it. 
+- In python, we can use the deepcopy to copy an object. The `=` use to assign another reference to the same object in memory.
+- The deepcopy used to create a new object in memory with the values of A and B will reference it. 
 
 ```python
 from copy inport deepcopy
@@ -1122,15 +1124,15 @@ print( id(y), id(x)
 
 ---
  
-55.Can you explain static variables in python?
+55. Can you explain static variables in python?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python static variables are allocated statically,The scope the variable is entire run of the program.
-- Variables are declared inside the class definition but not inside a method are class or static variables.
+- In python, static variables are allocated statically. The scope of the variable is the entire run of the program.
+- Variables declared inside the class definition but not inside a method are class or static variables.
   
 ```python
 class My_class:
@@ -1152,35 +1154,35 @@ print ( My_class.static_var ) #5
 <blockquote>
 
 - `@static method`
-     - Doesn't need self parameter
-     - Deosen't need self or cls as parameter
+     - Doesn't need self-parameter
+     - Don’t need self or cls as a parameter
      - Need decorator @staticmethod
-     - Can only access variables passed as argument.
+     - Can only access variables have passed as argument.
 - `@classmethod`
      - Doesn't need self parameter
-     - Need cls as parameter
+     - Need cls as a parameter
      - Need decorator @classmethod
-     - Can be accessed directly through the class.Don't need instance class.
+     - Can be accessed directly through the class. Don't need an instance class.
 
 </details>
 
 ---
   
-57.John wants to get a list of class attributes in python. How will you help him to get it?
+57. John wants to get a list of class attributes in python. How will you help him to get it?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python the **inspect module** provides several useful functions to help get information about live objects such as modules, classes, methods, functions, tracebacks, frame objects, and code objects. 
+- In python, the **inspect module** provides several useful functions to help get information about live objects such as modules, classes, methods, functions, tracebacks, frame objects, and code objects. 
 - The **getmembers(object)** method return all the members of an object in a list of (name, value) pairs sorted by name.
 
 </details>
 
 ---
   
-58.Does python support interfaces like other languages in java or c?
+58. Does python support interfaces like other languages in java or c?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -1188,21 +1190,21 @@ print ( My_class.static_var ) #5
 <blockquote>
 
 - No, python doesn't support interfaces.
-- Python does not support multiple inheritance.But,you can easily emulate the equivalence of interfaces.
+- Python does not support multiple inheritances. But ,you can easily emulate the equivalence of interfaces.
 
 </details>
 
 ---
   
-59.Can you explain how would you achieve web scraping in python?
+59. Can you explain how to achieve web scraping in python?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- Webscraping is a computer software technique of extracting information from the websites.This technique is mostly focuses of unstructured data on the web into structured data.
-- Python has some options for HTML scraping,These are,
+- Webscraping is a computer software technique for extracting information from websites. This technique mostly focuses on unstructured data on the web into structured data.
+- Python has some options for HTML scraping. They are,
      - Mechanize
      - Scrapemark
      - Scrapy
@@ -1212,28 +1214,28 @@ print ( My_class.static_var ) #5
 
 ---
   
-60.Franz wants to protect his python source code for that he is asking for some help from the jack, How will be going to help to do it?
+60. Franz wants to protect his python source code for which he asks help from Jack. How is he going to help it?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- Python, is a byte-code-compiled interpreted language, it is very difficult to protect. Even if you use an exe-packager like py2exe, the layout of the executable is well-known, and the Python byte-codes are well understood. 
-- To protect the only way is to license it because if you compile your code, let us say machine code if your work is not protected by a license, it can still be commercialized against your will.
+- Python is a byte-code-compiled interpreted language, it is very difficult to protect. Even if you use an exe-packager like py2exe, the layout of the executable is well-known, and the Python byte codes are well-understood. 
+- To protect the only way is to license it because if you compile your code, let us say machine code, if your work is not protected by a license, it can still be commercialized against your will.
 
 </details>
 
 ---
   
-61.How will you install pip on windows can you list out some steps to do it?
+61. How will you install pip on windows and can you list out some steps to do it?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- `pip` is a package managements system.It is used to install and manage  software packages in python.If you have python 3.4 pip is included with Python and it should be already be working on your system.
+- `pip` is a package management system. It is used to install and manage software packages in python. If you have python 3.4 pip included with Python, it should already be working on your system.
 - To install pip, first download `get-pip.py`.
     - Open your command prompt window and run
         `python get-pip.py`
@@ -1276,7 +1278,7 @@ print_numb(one=1, two="two",three=3,four="four")
 
 ---
   
-63.Ken wants to know about exception handling in python how will you teach him to do it in object-oriented programming?
+63. Ken wants to know about exception handling in python how will you teach him to do it in object-oriented programming?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -1294,14 +1296,14 @@ print_numb(one=1, two="two",three=3,four="four")
 
 ---
   
-64.How many except statements can a try-except block have in python?
+64. How many except statements can a try-except block have in python?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python we can have more than zero except statements.
+- In python, we can have more than zero except statements.
 - There has to be at least only one except statement.
   
 **Syntax:**
@@ -1310,31 +1312,31 @@ print_numb(one=1, two="two",three=3,four="four")
 try:
    You do your operations here;
 except Exception1:
-   if the exception1 then excecute this block
+   if the exception1 then execute this block
 except Exception2:
-   if the exception2 then excecute this block
+   if the exception2 then execute this block
 else:
-   If there is no exception then execute this block.
+   If there is no exception, then execute this block.
 ```
 
 </details>
 
 ---
   
-65.James asking to his junior want to run this piece of code
+65. James asks his junior to run the following piece of code.
   
   ```python
   print([1, 2, 3] + 4, 5, 6)
   ```
   
-He is asking to print the output for the code but he got some error in this how will you help him to correct the error and get the output?
+He is asking to print the output for the code, but he got some error. How will you help him to correct the error and get the output?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- If he run the above code he will get an TypeError as can only concatenate list (not "int") to list
+- If he runs the above code, he will get a TypeError as it can only concatenate list (not "int") to list
   
 **Correct code:**
   
@@ -1346,13 +1348,13 @@ He is asking to print the output for the code but he got some error in this how 
   
 [1, 2, 3, 4, 5, 6]
   
-- We can add only the two list not an integer values.
+- We can add only the two list, not an integer value.
   
 </details>
 
 ---
   
-66.Charles wants to move the python shell to the home directory using `~` in python how will you guide him to move the home directory through the piece of code?
+66. Charles wants to move the python shell to the home directory using `~` in python. How will you guide him to move to the home directory through a piece of code?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
  
@@ -1371,14 +1373,14 @@ print(home)
 
 ---
   
-67.Ryan asking to you test on variables against multiple values how will you explain this to him?
+67. Ryan asks you to test on variables against multiple values. How will you explain this to him?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- We can use the `in` operator to test on variables against multiple values .
+- We can use the `in` operator to test variables against multiple values.
   
 ```python
 x=5
@@ -1388,20 +1390,20 @@ else:
   print("Not found")
 ```
   
-- The above program validate x=1 or x=2 or x=3 or x=4 or x=5.
+- The above program validates x=1 or x=2 or x=3 or x=4 or x=5.
 
 </details>
 
 ---
   
-68.How to call an external command in Python.
+68. How to call an external command in Python.
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- The subprocess module allows you to spawn new processes, connect to their input/output/error pipes, and obtain their return codes. The subprocess.call() method run the command described by args. Wait for command to complete, then return the returncode attribute.
+- The subprocess module allows you to spawn new processes, connect to their input/output/error pipes, and obtain their return codes. The subprocess.call() method runs the command described by args. Wait for the command to complete, then return the returncode attribute.
   
 ```python
 from subprocess import call
@@ -1412,21 +1414,21 @@ call(["dir"])
 
 ---
   
-69.Kein is asking about the meaning of a single and double underscore before an object name to his senior coworker and how he will explain it to him. 
+69. Kein is asking about the meaning of a single and double underscore before an object name to his senior coworker. How will he explain it to him?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- _fun: weak "internal use" indicator. E.g. from X import * does not import objects whose name starts with a single underscore.
-- __fun: the interpreter replaces this name with _classname__fun as a way to ensure that the name will not overlap with a similar name in another class.
+- _fun: weak "internal use" indicator. E.g., from X import * does not import objects whose name starts with a single underscore.
+- __fun: the interpreter replaces this name with _classname__fun to ensure that the name will not overlap with a similar name in another class.
 
 </details>
 
 ---
   
-70.Can you write a piece of code to read a single character from the user?
+70. Can you write a piece of code to read a single character from the user?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
@@ -1445,41 +1447,41 @@ while True:
 
 ---
   
-71.Fyodor asked doubt to his coworker to explain the difference between `raw_input()` and `input()` in python.
+71. Fyodor asked a doubt to his coworker to explain the difference between `raw_input()` and `input()` in python.
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python 2, `raw_input()` takes only the what exactly user enter by themself and passes it back as a string.
-- In python 3, `raw_input()` was taken as `input()`.So it will return exact what the user enter and old input() was removed.
+- In python 2, `raw_input()` takes only what exactly user the enter by themself and passes it back as a string.
+- In python 3, `raw_input()` was taken as `input()`. So it will return exactly what the user entered and the old input() was removed.
 
 </details>
 
 ---
   
-72.Can you explain Why is Python not fully object-oriented?
+72. Can you explain why Python is not fully object-oriented?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-In Python is an object-oriented programming language but not pure. Because, Python doesn't support strong encapsulation , which is only one of many features associated with the term 'object-oriented'.
+Python is an object-oriented programming language but not completely. Because, Python doesn't support strong encapsulation, which is one of many features associated with the term 'object-oriented'.
 
 </details>
 
 ---
   
-73.Henry was checking Is there any way to kill a thread in python how will you help him to find it and explain it?
+73. Henry was checking if there is any way to kill a thread in python. How will you help him to find it and explain it?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python, we can able to kill a thread. To kill a thread we have many methods in these are,
+- In python, we can kill a thread. To kill a thread, we have many methods which are,
     - Create an **Exit_Request** flag.
     - Using the `multiprocessing` module.
     - Using the `trace` module.
@@ -1490,15 +1492,15 @@ In Python is an object-oriented programming language but not pure. Because, Pyth
 
 ---
 
-74.Can you explain is it necessary to put a space between operators and operand in python?
+74. Can you explain if it is necessary to put a space between operators and operands in python?
  
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- Yes,it is it necessary to put a space between operators and operand in python.
-- If we are use sapce in between both operator and operands it will help readability.
+- Yes, it is necessary to put a space between operators and ooperandsin python.
+- If we use space in between both operator and operands, it will help readability.
   
 ```python
 x + y
@@ -1511,15 +1513,15 @@ b + math.sqrt(3 * max_val)
 
 ---
   
-75.Can you explain to me why I can't use assignment operators in an expression?
+75. Can you explain why assignment operators cannot be used in an expression?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- The error is a simple typo: x = 0, which assigns 0 to the variable x, was written while the comparison x == 0 is certainly what was intended.
-- The reason for it is not allowing assignment in Python expressions could be a common, hard-to-find bug in those different languages, caused by this construct:
+- The error is a simple typo: x = 0, which assigns 0 to the variable x, and was written while the comparison x == 0 is certainly what was intended.
+- The reason that it is not allowing assignment in Python expressions could be a common, hard-to-find bug in those different languages, caused by this construct:
 
 ```python
 if (x = 0) {
@@ -1534,7 +1536,7 @@ else {
 
 ---
   
-76.Charles asked what are the rules for local and global variables in Python, how will you explain this to him?  
+76. Charles asked what are the rules for local and global variables in Python. How will you explain this to him?  
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
@@ -1542,21 +1544,21 @@ else {
 <blockquote>
 
 - In python, the variables referenced within a function are global.
-- When a variable is assigned  new value anyplace within the body of a function then it's assumed as local.
-- In a function, if a variable ever assigned  new value then the variable is implicitly local and explicitly it should be declared as global.
+- When a variable is assigned a new value anyplace within the body of a function then it's assumed as local.
+- In a function, if a variable is ever assigned a new value, then the variable is implicitly local and explicitly it should be declared as global.
 
 </details>
 
 ---
  
-77.Tell me how will you create an empty class in python?
+77. How will you create an empty class in python?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- If you want to write an empty class in python we can use the pass statement. Pass is a special statement in python but it does nothing.
+- If you want to write an empty class in python, we can use the pass statement. Pass is a special statement in python, but it does nothing.
 - Pass works as a dummy statement.
 - Regardless, objects of an empty class can also be created.
 
@@ -1564,14 +1566,14 @@ else {
 
 ---
   
-78.Can you train your coworker on how will you pass optional or keyword parameters from one function to another function in python?
+78. Can you train your coworker on how will you pass optional or keyword parameters from one function to another function in python?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-To pass the keywords from one function to another function we can use the keyword arguments.
+To pass the keywords from one function to another function, we can use the keyword arguments.
 
 ```python
 def func (**kwargs):
@@ -1589,14 +1591,14 @@ def funcy(a, b, c, **kwargs):
 
 ---
   
-79.Can you tell me how will you find methods or attributes of an object in python?
+79. How will you find methods or attributes of an object in python?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python attributes of a class can even be accessed using the following built-in methods and functions:
+- In python, attributes of a class can even be accessed using the following built-in methods and functions:
    - `getattr()` – This function is used to access the attribute of an object.
    - `hasattr()` – This function is used to check if an attribute exists or not.
    - `setattr()` – This function is used to set an attribute.
@@ -1605,68 +1607,68 @@ def funcy(a, b, c, **kwargs):
 
 ---
   
-80.How will you make a higher order function in python?
+80. How will you make a higher-order function in python?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- A higher-order function accepts one or additional functions as input and returns a new function. sometimes it's needed to use function as data. - to form high order function , we need to import functools module.
+- A higher-order function accepts one or additional functions as input and returns a new function. Sometimes it's needed to use function as data. To form a higher-order function, we need to import the functools module.
 
 </details>
 
 ---
   
-81.Franz asked what are new and override modifiers in python and how will explain this to him.
+81. Franz asked about the new and override modifiers in python. How will explain this to him.
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- **New Modifiers** - In python state the compiler to run a new function and not use the one from the base class.
+- **New Modifiers** - In python, state the compiler to run a new function and not use the one from the base class.
 - **Override Modifier** - Instructs to run the base class version of a class and it will not create a new one. This reduces redundant repetitions of writing codes.
 
 </details>
 
 ---
   
-82.Can you explain something about the `new` method in python?
+82. Can you explain something about the `new` method in python?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python the `new` method creates the instane of a class.It will allocate a memory fo r th eobject.The instance variable of an object need memory to hold it.This new will be call at the time of object creation.
-- This `new` method will be used to control the creation of new instance. 
+- In python, the `new` method creates the instance of a class. It will allocate memory for the object. The instance variable of an object needs memory to hold it. This new will be called at the time of object creation.
+- This `new` method will be used to control the creation of a new instance. 
 
 </details>
 
 ---
   
-83.Wiliam is asking what is strong typing in python how will you clarify it?
+83. William is asking about the strong typing in python. How will you clarify it?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python when the object is passed in the strong typing, it is checking whether the method is present or not in the object. Using the python `hasattr()` function, using we can check whether the method is present in the passed object.
+- In python, when the object is passed in the strong typing, it checks whether the method is present in the object. Using the python `hasattr()` function, using we can check whether the method is present in the past object.
 
 </details>
 
 ---
   
-84.James want to write a piece of code to pick a random item from a list or tuple.How will you help him to write to do it?
+84. James wants to write a piece of code to pick a random item from a list or tuple. How will you help him to do it?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python we can use `random` keyword to get random item from a list.
+- In python, we can use the `random` keyword to get a random item from a list.
  
 ```python
 import random
@@ -1678,19 +1680,19 @@ print(random.choice(x))
 
 ---
   
-85.How do we make forms in python?
+85. How do we make forms in python?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python cgi module to make forms.It has some attributes:form.name:name of field
+- In python, cgi module make forms. It has some attributes: form.name:name of field
   - **form.filename**: Client-side filename for FTP transactions.
-  - **form.value**: Value of field as a string.
+  - **form.value**: Value of field as a string.  
   - **form.file**: File object from which to read data.
   - **form.type**: Content type.
-  - **form.type_options**: Options of 'content-type' line of HTTP request, returned as dictionary.
+  - **form.type_options**: Options of 'content-type' line of HTTP request, returned as a dictionary.
   - **form.disposition**: The field 'content-disposition'.
   - **form.disposition_options**: Options for 'content-disposition'.
   - **form.headers**: All HTTP headers are returned as a dictionary.
@@ -1699,20 +1701,20 @@ print(random.choice(x))
 
 ---
   
-86.Ernest is asking you why the identifier names with a leading underscore are disparaged how will you explain him to?
+86. Ernest asks why the identifier names with a leading underscore are disparaged. How will you explain this to him?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- Python doesn't have a concept of the private variables, use the leading underscores to declare a variable as private.
+- Python doesn't have a concept of private variables, use the leading underscores to declare a variable as private.
 
 </details>
 
 ---
   
-87.Can you tell me is it possible to call parent class without its instance creation in python?
+87. Is it possible to call the parent class without its instance creation in python?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
@@ -1725,7 +1727,7 @@ print(random.choice(x))
 
 ---
   
-88.Ken is asking to explain that are methods and constructors the same thing in python.
+88. Ken asks if the methods and constructors are the same things in python.
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -1733,14 +1735,14 @@ print(random.choice(x))
 <blockquote>
 
 - **No**, In python there are some differences between both methods and constructors.
-- **Method**: It is a function that is the member of a class. Methods consist of statements that may or may not return an output. 
+- **Method**: It is a function that is a member of a class. Methods consist of statements that may or may not return an output. 
 - **Constructor**:  It is a special type of method that has the same name as the class name. These methods are used to initialize an object's state.
 
 </details>
 
 ---
   
-89.What do you mean by file-related modules in Python? Can you list out some of the file-related modules in Python?
+89. What do you mean by file-related modules in Python? Can you list some of the file-related modules in Python?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -1754,55 +1756,55 @@ print(random.choice(x))
 
 ---
   
-90.Kein is asking what is `exec()` and `eval()` in python how will you explain this to him?
+90. Kein asks about `exec()` and `eval()` in python. How will you explain this to him?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python the `exec()` function executes the specified Python code. The `exec()` function accepts large blocks of code.
-- In python the `eval()` function which only accepts a single expression.
+- In python, the `exec()` function executes the specified Python code. The `exec()` function accepts large blocks of code.
+- In python, the `eval()` function only accepts a single expression.
 
 </details>
 
 ---
   
-91.Can you explain to me what is the Metaclassess in python?
+91. Can you explain to me what is the Metaclasses in python?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- A metaclass in Python is a class of a class that defines how a class behaves. a class is itself AN instance of a metaclass. a class in Python defines how the instance of the class can behave. To grasp metaclasses well, one has to have prior experience working with Python classes.
+- A metaclass in Python is a class of a class that defines how a class behaves. A class in itself is an instance of a metaclass. A class in Python defines how the instance of the class can behave. To grasp metaclasses well, one has to have prior experience working with Python classes.
 
 </details>
 
 ---
   
-92.The senior developer is asking his junior developer to explain what is `swapcase()` function in python how he will explain this to him?
+92. The senior developer asks his junior developer to explain the `swapcase()` function in python. How would he explain this to him?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python `swapcase()` is a string’s function
+- In python, `swapcase()` is a string’s function
 - It converts all the uppercase characters into lowercase and vice versa.
 
 </details>
 
 ---
   
-93.Can you explain to your junior Why would you use NumPy arrays instead of lists in Python?
+93. Can you explain to your junior why would you use NumPy arrays instead of lists in Python?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
--NumPy arrays are providing users with three main advantages as  below:
+-NumPy arrays are providing users with three main advantages as below:
    - It consumes a lot less memory, thereby making the code more efficient.
    - It executes faster and does not add heavy processing to the runtime.
    - NumPy has a highly readable syntax, making it easy and convenient for programmers.
@@ -1834,7 +1836,7 @@ print(random.randint(10, 20))
 
 ---
   
-95.How can we use `re.split()` function in module?
+95. How can we use `re.split()` function in a module?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
@@ -1847,16 +1849,16 @@ For example, if maxsplit=3, then it will do 3 splits.
 **Syntax:**
 `re.split(pattern,string,maxsplit=0,flags=0)`
   
-  - In regular expression, pattern and strings are the mandatory ones.
+  - In a regular expression, patterns and strings are the mandatory ones.
   - maxsplit and flag functions are not mandatory.
   
-1.pattern: In regular expression pattern, function is used for splitting the string.
+1.pattern: In a regular expression pattern, a function is used for splitting the string.
 
-2.string: The string we want to perform split.
+2.string: The string we want to perform the split.
 
-3.maxsplit: The number of splits you want to perform.It's based upon the split size.
+3.maxsplit: The number of splits you want to perform. It's based on the split size.
 
-4.flags: There are no flages applied, by default.
+4.flags: There are no flags applied, by default.
 
 
   
@@ -1867,14 +1869,14 @@ For example, if maxsplit=3, then it will do 3 splits.
 
 ---
 
-96.What is functional programming? Does Python follow a functional programming style? If yes, list a few methods to implement functionally oriented programming in Python.
+96. What is functional programming? Does Python follow a functional programming style? If yes, list a few methods to implement functionally oriented programming in Python.
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python Functional programming is a coding style where the main source of logic in a program comes from functions.
+- In python, Functional programming is a coding style where the main source of logic in a program comes from functions.
 - Incorporating functional programming in our codes means writing pure functions.
 - Pure functions are functions that cause little or no changes outside the scope of the function. These changes are referred to as side effects. To reduce side effects, pure functions are used, which makes the code easy-to-follow, test, or debug.
 
@@ -1882,16 +1884,16 @@ For example, if maxsplit=3, then it will do 3 splits.
 
 ---
   
-97.Can you explain me it is necessary for every if block to be accompained with an else block.comment on this statements wth the help of an example.
+97. Can you explain if it is necessary for every `if` block to be accompanied with an else block. Comment on this statements with the help of an example.
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- No, It's not required to write the else part for the if statement.
+- No, it’s not required to write the else part for the if statement.
 
--In fact most of the developers prefer and recommend to avoid the else block.
+-In fact, most of the developers prefer and recommend avoiding the else block.
 
 Instead of writing
 
@@ -1916,31 +1918,31 @@ if (number >= 18) {
 
 ---
   
-98.Can you tell me What approaches would you use for module importation in Python?
+98. Can you tell me the approaches you would use for module importation in Python?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- If you need to import some particular module use the import keyword, such as: `import array` or `from array import *.`There are some other ways, these are
+- If you need to import some particular module, use the import keyword, such as: `import array` or `from array import *.`There are some other ways, they are,
   - Import the whole module using its original name: pycon import random
   - Import specific things from the module: pycon from random import choice, randint
   - Import the whole module and rename it, usually using a shorter variable name: pycon import pandas as pd
-  - Import specific things from the module and rename them as you're importing them: pycon from os. path import join as join_path
+  - Import specific things from the module and rename them as you're importing them: pycon from os. path import joins as join_path
   
 </details>
 
 ---
   
-99.Show the polymorphism concept by using `+` operator inside a class.
+99. Show the polymorphism concept by using `+` operator inside a class.
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-In python `+` operator is not only used to add values together but, it can also be used to concatenate two or more string values. Let's understand this better through a code.
+In python, `+` operator is not only used to add values together but, it can also be used to concatenate two or more string values. Let's understand this better through a code.
   
 ```python
 class Operator:
@@ -1960,19 +1962,20 @@ print(obj.add("Jack","ken"))
 
 ---
   
-100.Is there any way to read file without opening? Which function is used to open a file?
+100. Is there any way to read files without opening them? Which function is used to open a file?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- No,we can't read file without opening.
+- No, we can't read files without opening.
 - If you want to read a file, open the file first then, use open() function to open a file.
 
 </details>
 
 ---
+  
   
 101.Can you list out python logging functions?
   
