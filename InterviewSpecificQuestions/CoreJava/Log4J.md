@@ -5,7 +5,7 @@
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- log4j is a reliable, fast and flexible logging framework (APIs) written in Java, which is distributed under the Apache Software License.
+- Log4j is a reliable, fast, and flexible logging framework (APIs) written in Java, which is distributed under the Apache Software License.
 - Log4j has been ported to the C, C++, C#, Perl, Python, Ruby, and Eiffel languages.
 - Log4j is highly configurable through external configuration files at runtime. It views the logging process in terms of levels of priorities and offers mechanisms to direct logging information to a great variety of destinations, such as a database, file, console, UNIX Syslog, etc.
 
@@ -76,7 +76,7 @@ Following are features of log4j −
 <blockquote>
 
 - A well-written logging code offers quick debugging, easy maintenance, and structured storage of an application’s runtime information.
-- Logging does have its drawbacks also. It can slow down an application. If too verbose, it can cause scrolling blindness. To alleviate these concerns, log4j is designed to be reliable, fast and extensible.
+- Logging does have its drawbacks also. It can slow down an application. If too verbose, it can cause scrolling blindness. To alleviate these concerns, log4j is designed to be reliable, fast, and extensible.
 - Since logging is rarely the main focus of an application, the log4j API strives to be simple to understand and to use.
 
 </blockcode>
@@ -121,7 +121,7 @@ The top-level layer of log4j architecture is the Logger which provides the Logge
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- The layout  of log4j architecture provides objects which are used to format logging information in different styles. It provides support to appender objects before publishing logging information.
+- The layout of log4j architecture provides objects which are used to format logging information in different styles. It provides support to appender objects before publishing logging information.
 - Layout objects play an important role in publishing logging information in a way that is human-readable and reusable.
 
 </blockquote>
@@ -738,7 +738,7 @@ We may have each process log to a socket Appender. The receiving socket server c
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Both Threshold and LevelRangeFilter does the same thing. However threshold should be faster. Filters enable you to implement your own logic, and you can also link them together if required. If you need a basic threshold functionality, then **threshold** function will be enough.
+Both Threshold and LevelRangeFilter does the same thing. However, threshold should be faster. Filters enable you to implement your own logic, and you can also link them together if required. If you need a basic threshold functionality, then **threshold** function will be enough.
 
 </blockquote>
 </details>
@@ -856,7 +856,7 @@ There could be two reasons why this may happen:
 
 ---
 
-57. How can we change the Log level for the application ?
+57. How can we change the Log level for the application?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -899,7 +899,7 @@ We should change the root level from DEBUG to WARN.
 
 ---
 
-59. Can you organize following Log4j levels in hierarchy ?
+59. Can you organize following Log4j levels in hierarchy?
 WARN, DEBUG,INFO, ERROR	Log4j
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -922,7 +922,7 @@ WARN, DEBUG,INFO, ERROR	Log4j
 
 ---
 
-60. What should be the logging level while logging exceptions ?	
+60. What should be the logging level while logging exceptions?	
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
