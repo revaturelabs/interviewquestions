@@ -44,7 +44,8 @@ Hence, not only the page `<body>` must have the `<header>` and `<footer>` tags, 
 <blockquote>
 
 An iframe is an HTML document which can be embedded inside another HTML page 
-**Example:**
+
+   **Example:**
 
 ```HTML
 <iframe src="https://github.com" height="300px" width="300px"></iframe>
@@ -62,7 +63,7 @@ An iframe is an HTML document which can be embedded inside another HTML page
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-There are multiple ways to set language in HTML
+There are multiple ways to set language in HTML:
   - By setting content-language in headers for language of the page.
   - By setting accept-language in headers for list of language that a page accepts.
   - Setting lang attribute in html tag.
