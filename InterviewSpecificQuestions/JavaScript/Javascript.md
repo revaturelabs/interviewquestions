@@ -8,7 +8,7 @@
 
 <blockquote>
 
- JavaScript is a scripting language which is not only used for client-side validation in web application but also evolved and helps to build end to end web applications. It has significant contribution in bulding diversified platform mobile applications today. 
+ JavaScript is a scripting language which is not only used for client-side validation in web application but also evolved and helps to build end to end web applications. It has significant contribution in building diversified platform mobile applications today. 
 
  </blockquote>
 
@@ -16,7 +16,7 @@
 
 ---
 
-2. What browser can use JavaScript??
+2. What browser can you use for JavaScript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -33,7 +33,7 @@ All the modern browsers come with built-in support for JavaScript. Uses have pro
 
 ---
 
-3. Mention the different data types present in javascript.
+3. Mention the different data types present in JavaScript.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -83,7 +83,7 @@ The scope of a variable represents where the variable has been declared or defin
 
 `Global Scope` -Global variables, having global scope are available everywhere in a JavaScript code.
 
-`Local Scope` -The Local Scope has divided into the Function scope, the Block scope and the Lexical scope.
+`Local Scope` -The Local Scope has divided into the Function scope, the Block scope, and the Lexical scope.
   - `Function Scope` -The variable declared in a function is only visible inside that function.
   - `Block Scope` -Block scope is the scope of the variables declared inside the {} (curly brackets).
   - `Lexical Scope` -Lexical scope is that a variable defined outside a function can access the inside another function defined after the variable declaration. The inner functions are lexically bound to the execution context of their outer functions.
@@ -108,7 +108,7 @@ var x;
 console.log(x);
 ```
 
-Here in the example we will get a message x is `undefined` which means the variable x is declared and memory is created but the value is not assigned to it.
+Here in the example, we will get a message x is `undefined` which means the variable x is declared and memory is created but the value is not assigned to it.
 
 <code> console.log(y) </code>
 
@@ -153,7 +153,7 @@ From the above code if the `typeof` y is a number, so from the expression it wil
 
 ---
 
-8. Explain Hoisting in Javascript.
+8. Explain Hoisting in JavaScript.
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -161,7 +161,7 @@ From the above code if the `typeof` y is a number, so from the expression it wil
 
 <blockquote>
 
-Hoisting is the default behaviour of javascript where all the variable and function declarations are moved on top, irrespective of where the variables and functions are declared, they are moved on top of the scope. The scope can be both local and global.
+Hoisting is the default behavior of JavaScript where all the variable and function declarations are moved on top, irrespective of where the variables and functions are declared, they are moved on top of the scope. The scope can be both local and global.
 
  </blockquote>
 
@@ -170,7 +170,7 @@ Hoisting is the default behaviour of javascript where all the variable and funct
 
 ---
 
-9. When does for loop should be used in JavaScript?
+9. When ‘for loop’ should be used in JavaScript?
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -178,7 +178,7 @@ Hoisting is the default behaviour of javascript where all the variable and funct
 
 <blockquote>
 
-It iterates the elements for the fixed number of times. It should be used if the number of iteration is known. 
+It iterates the elements for the fixed number of times. It should be used if the number of iterations is known. 
 
  </blockquote>
 
@@ -187,7 +187,7 @@ It iterates the elements for the fixed number of times. It should be used if the
 
 ---
 
-10. What loop should be used if number of iteration is not known?
+10. What loop should be used if number of iterations is not known?
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -251,7 +251,7 @@ Which refers to the currently calling object. It is commonly used in constructor
 <blockquote>
 
 
-It is generally a small data that is sent from a website and stored on the user’s machine by a web browser that was used to access the website. Cookies are used to remember information (e.g. user preferences, settings, passwords) for later use and also to record the browsing activity on a website.
+It is generally a small data that is sent from a website and stored on the user’s machine by a web browser that was used to access the website. Cookies are used to remember information (e.g., user preferences, settings, passwords) for later use and also to record the browsing activity on a website.
 
  </blockquote>
 
@@ -385,7 +385,7 @@ var user2 = new User('Alice', 27);
 
 ---
 
-20. Explain about the use of `Promise` in JavaScript.
+20. Explain the use of `Promise` in JavaScript.
 
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -467,7 +467,7 @@ When HTML documents are loaded in the browser(which creates DOM), it will become
 
 <blockquote>
 
-The change in the state of an object is known as an `Event`. In html, there are various events which represents that some activity is performed by the user or by the browser. When javascript code is included in HTML, JS react over these events and allow the execution. This process of reacting over the events is called `Event Handling`. 
+The change in the state of an object is known as an `Event`. In html, there are various events which represents that some activity is performed by the user or by the browser. When JavaScript code is included in HTML, JS react over these events and allow the execution. This process of reacting over the events is called `Event Handling`. 
 
  </blockquote>
 
@@ -545,8 +545,8 @@ Syntax:
 
 - JavaScript is a loosely typed scripting language. 
 - JavaScript allows strictness of code by using "use strict"; statement at the top of JavaScript code or in a function.
-- For example, When we expect the compiler to give an error if we have used a variable before defining it, then we apply "strict mode" to the javascript code.
-- The strict mode in JavaScript does not allow us to use undefined variables, reserved keywords as variable or function name, duplicate properties of an object, duplicate parameters of the function, assign values to read-only properties, Modifying arguments object, and Deleting an undeletable property.
+- For example, when we expect the compiler to give an error if we have used a variable before defining it, then we apply "strict mode" to the JavaScript code.
+- The strict mode in JavaScript does not allow us to use undefined variables, reserved keywords as variable or function name, duplicate properties of an object, duplicate parameters of the function, assign values to read-only properties, modifying arguments object, and Deleting an undeletable property.
 - Strict mode can be applied to function level in order to implement strictness only in that particular function.
 
  </blockquote>
@@ -696,7 +696,7 @@ It is the reverse of the event bubbling and here the event starts from the paren
 
 - fulfilled: Action related to the promise succeeded
 - rejected: Action related to the promise failed
-- pending: Promise is still pending i.e. not fulfilled or rejected yet
+- pending: Promise is still pending i.e., not fulfilled or rejected yet
 - settled: Promise has fulfilled or rejected
 
 
@@ -805,7 +805,7 @@ Yes, it support automatic type conversion. It is the common way of type conversi
 
 ---
 
-42.  What do you understand by loosely-typed in JavaScript?
+42.  What do you understand by loosely typed in JavaScript?
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -813,7 +813,7 @@ Yes, it support automatic type conversion. It is the common way of type conversi
 
 <blockquote>
 
-JavaScript is a loosely-typed language, so a variable can store any type value.
+JavaScript is a loosely typed language, so a variable can store any type of value.
 ```javascript
 a= 6;
 a= "JavaScript";
@@ -854,7 +854,7 @@ a= "JavaScript";
 
 - JavaScript is a general-purpose scripting language that conforms to the ECMAScript specification. 
 - ECMAScript is a JavaScript standard intended to ensure the interoperability of web pages across different browsers.
-- It is standardized by Ecma International in the document ECMA-262.
+- It is standardized by ECMA International in the document ECMA-262.
 - The ECMAScript specification is a blueprint for creating a scripting language. 
 - JavaScript is an implementation of that blueprint. 
 - JavaScript implements the ECMAScript specification as described in ECMA-262.
