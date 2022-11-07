@@ -19,25 +19,25 @@
 
 ---
 
-2. How primary key contraint and unique key contraint both are different? 
+2. How are primary key constraints and unique key constraints different? 
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> In a table in SQL, there can be many columns that can be a unique key but only one primary key is allowed on one table. Primary key is a combination of unique key plus null constraint, whereas unique key has only unique constraint and it can be null.
+> In a table in SQL, there can be many columns that can be a unique key but only one primary key is allowed on one table. The primary key is a combination of unique key plus null constraint, whereas unique key has only unique constraint and it can be null.
 
 </details>
 
 ---
 
-3. When creating a table in SQL, you forget to make a column as primary key, then is there any possibility to create a primary key on that column or we have to delete the table from the database so that we can create a primary key while creating table?
+3. When creating a table in SQL, you forget to make a column as the primary key, then is there any possibility to create a primary key on that column or do we have to delete the table from the database so that we can create a primary key while creating a table?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> We can add the primary key after the creation of table also, for that we can use the `alter` command that will add the primary key column to an existing table. There is no need to delete the table and recreate again in the database. Just we have to pass a query as:  
+> We can add the primary key after the creation of the table also, for that we can use the `alter` command that will add the primary key column to an existing table. There is no need to delete the table and recreate it again in the database. Just we have to pass a query as:  
 ```sql
 alter table table_name add primary key(column_name);
 ```
@@ -46,7 +46,7 @@ alter table table_name add primary key(column_name);
 
 ---
 
-4. Suppose you want to create a student table having id, name, age and class as columns in it. Write down the query that will create that table in "school" database.
+4. Suppose you want to create a student table having id, name, age and class as columns in it. Write down the query that will create that table in the "school" database.
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
@@ -70,7 +70,7 @@ create table school(
 
 ---
 
-5. While creating a table how will you decide which column can be converted into primary key?
+5. While creating a table, how will you decide on the column that can be converted into primary key?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
@@ -80,13 +80,13 @@ create table school(
 > 1. A column must have unique values.
 > 2. A column shouldn't contain any null value.
 > 3. Only one primary key can be created for one table.
-> 4. Columns that are of type number is recommended for primary key column.
+> 4. Columns that are of type number are recommended for the primary key columns.
 
 </details>
 
 --- 
 
-6. In SQL, what are the statements through which we can create a primary key in a table.
+6. In SQL, what are the statements through which we can create a primary key in a table?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
@@ -98,13 +98,13 @@ create table school(
 
 ---
 
-7. In SQL, What are the commands that are the part of Data Definition Language?
+7. In SQL, what are the commands that are the part of Data Definition Language?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> Data Definition language or DDL commands are used to describe or define the structure of the database objects. In DDL, following are the commands:  
+> Data Definition language or DDL commands are used to describe or define the structure of the database objects. In DDL, the following are the commands:  
 > - create
 > - alter
 > - drop
@@ -122,13 +122,13 @@ create table school(
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> Both `drop` and `truncate` are the part of DDL commands and also looks similar while deleting records of the table in database. But one major difference between both is that, `drop` deletes all the records from the table as well as the table structure, whereas `truncate` will only deletes all the records from the table but not the table structure. Also drop command can be used to delete the database, whereas truncate cannot be used to delete database.
+> Both `drop` and `truncate` are part of DDL commands and also look similar while deleting records of the table in the database. But one major difference between both is that `drop` deletes all the records from the table as well as the table structure, whereas `truncate` will only delete all the records from the table but not the table structure. Also, the drop command can be used to delete the database, whereas truncate cannot be used to delete the database.
 
 </details>
 
 ---
 
-9. Suppose you have created a table called as "student" with column fields as id, name, age, address and class. But now you want to rename the "id" column to "student_id", then how will you do that in SQL?
+9. Suppose you have created a table called "student" with column fields as id, name, age, address and class. But now you want to rename the "id" column to "student_id", then how will you do that in SQL?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
@@ -150,7 +150,7 @@ rename column id to student_id;
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> `rename` command and `alter` both have similar working when renaming a table name in SQL except for the syntax. The only difference between both of them are that `rename` cannot be used to rename temporary table, whereas `alter` command can rename a temporary table in SQL.
+> `rename` command and `alter` both have similar working when renaming a table name in SQL except for the syntax. The only difference between both is that `rename` cannot be used to rename the temporary table, whereas `alter` command can rename a temporary table in SQL.
 
 </details>
 
@@ -162,7 +162,7 @@ rename column id to student_id;
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> The main point to use the normalization forms in table data is to eliminate repetition of data from it. So one thing we can say that it will guarantees the duplicate free data in the table. But achiving full normalization can affects negitively in the performance. 
+> The main point to use the normalization forms in table data is to eliminate the repetition of data from it. So one thing we can do is say that it will guarantees the duplicate free data in the table. But achieving full normalization, it negatively affects the performance. 
 
 </details>
 
@@ -174,21 +174,21 @@ rename column id to student_id;
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> - In 1nf or 1st normal form, the composite attribute are converted into single value attribute. Each column must only have one single data entry in each row. 
-> - In 2nf or 2nd normal form, the table should not have any partial dependency means the proper subset of primary key shouldn't determines any non-prime attribute. 
-> - In 3nf or 3rd normal form, there should not be any transitive dependency, that means non- prime attribute of the table should not dependent on other non- prime attribute. 
+> - In 1nf or 1st normal form, the composite attribute is converted into a single-value attribute. Each column must only have one single data entry in each row. 
+> - In 2nf or 2nd normal form, the table should not have any partial dependency means the proper subset of the primary key shouldn't determine any non-prime attribute. 
+> - In 3nf or 3rd normal form, there should not be any transitive dependency, which means non-prime attribute of the table should not be dependent on another non- prime attribute. 
 
 </details>
 
 ---
 
-13. Tell me about some of the benifits of normalization in SQL?
+13. Tell me about some of the benefits of normalization in SQL?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> - It is used to reduce or remove the duplicates from the data.
+> - It is used to reduce or remove duplicates from the data.
 > - To optimize storage space.
 > - To prevent unwanted deletion of data.
 > - To prevent data inconsistency.
@@ -203,12 +203,12 @@ rename column id to student_id;
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> In SQL, Most common subsets are DDL, DML, DQL, DCL and TCL. 
+> In SQL, the Most common subsets are DDL, DML, DQL, DCL and TCL. 
 
-> - DDL allows user to `create`, `alter` and `drop` objects of the database.
-> - DML allows user to manipulate the data in database using  `insert`, `update` and `delete` commands.
-> - DQL allows user to fetch the data from the database using `select` command.
-> - DCL commands like `grant` and `revoke` gives or removes permission to the user on the database elements.
+> - DDL allows the user to `create`, `alter` and `drop` objects of the database.
+> - DML allows the user to manipulate the data in the database using  `insert`, `update` and `delete` commands.
+> - DQL allows the user to fetch the data from the database using `select` command.
+> - DCL commands like `grant` and `revoke` gives or remove permission to the user on the database elements.
 > - TCL commands are used to control the data transaction using `commit`, `rollback` and `savepoint`. 
 
 </details>
@@ -236,41 +236,41 @@ create table employee(
 
 ---
 
-16. Can a primary key and foreign key contains null? 
+16. Can a primary key and foreign key contain null? 
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> A primary key field in the table cannot contains null as a value. But that is not the case with foreign key. A foreign key is used to stablize a relation between two tables and it can contain null value.
+> A primary key field in the table cannot contain null as a value. But that is not the case with a foreign key. A foreign key is used to stabilize a relation between two tables and it can contain a  null value.
 
 </details>
 
 ---
 
-17. Explain about the anomalies and its types?
+17. Explain the anomalies and their types?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> Anomaly generally happens when the database is not constructed well and when the normalization concepts were not applied. There are 3 types of anomalies that causes problem:  
-> 1. insertion anomaly: This can happen when we are trying to insert the data into the table and it is not allowed because some data is not present.
-> 2. update anomaly: This will happen when we have duplicate data into the table and updating one of those data will not reflects to the other data and the end user has no idea which data is the correct one.
-> 3. deletion anomaly: This will happen when deletion of one data will cause other data to be deleted from the table as well.
+> Anomaly generally happens when the database is not constructed well and when the normalization concepts were not applied. There are 3 types of anomalies that cause a problem:  
+> 1. insertion anomaly: This can happen when we are trying to insert the data into the table, and it is not allowed because some data is not present.
+> 2. update anomaly: This will happen when we have duplicate data in the table and updating one of those data will not reflects toe other data and the end user has no idea which data is the correct one.
+> 3. deletion anomaly: This will happen when the deletion of one data will cause other data to be deleted from the table as well.
 
 
 </details>
 
 ---
 
-18. Assume you have created one table as "emp" and now you want to change that table name to "employee" then what are the ways, in SQL, through which we can chnage the table name? 
+18. Assume you have created one table as "emp" and now you want to change that table name to "employee" then what are the ways, in SQL, through which we can change the table name? 
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> For changinf the table name in SQL, we can go for `rename` command or `alter` command:    
+> For changing the table name in SQL, we can go for `rename` command or `alter` command:    
 With `rename`
 ```sql
 rename table emp to employee;
@@ -308,26 +308,26 @@ modify column id int;
 <details><summary> <b>Show Answer</b> </summary> 
 
 > - The `alter` command is a DDL command, whereas `update` is a DML command
-> - The `alter` command is used to perform the operation on the structure level. On the other hand, `update` is used to perform operation on the data level.
-> - The `alter` command is used to modify the attribute of table. The `update` command is used to modify the rows of the table.
+> - The `alter` command is used to perform the operation on the structure level. On the other hand, `update` is used to perform an operation on the data level.
+> - The `alter` command is used to modify the attribute of the table. The `update` command is used to modify the rows of the table.
 
 </details>
 
 ---
 
-21. Is `truncate` and `delete` both are same command? 
+21. Is `truncate` and `delete` both are the same command? 
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> No, `truncate` is a DDL command, used to delete all the records from the table. Whereas `delete` is a DML command, used to delete the records based on the some condition as well as it can delete all the data from the table as well.
+> No, `truncate` is a DDL command, used to delete all the records from the table. Whereas `delete` is a DML command, used to delete the records based on some condition as well as it can delete all the data from the table as well.
 
 </details>
 
 ---
 
-22. Give the syntax of `delete`, `truncate` and `drop` command in SQL.
+22. Give the syntax of `delete`, `truncate` and `drop` commands in SQL.
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
@@ -350,7 +350,7 @@ drop table table_name;
 
 ---
 
-23. Henry has created a table as "school" with id and name field and now he wants to insert 5 records to it. What query he has to use to insert the data into a table? 
+23. Henry has created a table as "school" with id and name field and now he wants to insert 5 records into it. What query he has to use to insert the data into a table? 
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
@@ -392,7 +392,7 @@ where id = 05;
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> He can use `delete from` statement or `truncate table` statement to delete all the records form the table.
+> He can use `delete from` statement or `truncate table` statement to delete all the records from the table.
 ```sql
 delete from order;
 truncate table order;
@@ -403,7 +403,7 @@ truncate table order;
 
 ---
 
-26. Let's imagine The Amazone Prime no longer wishes to renting out the "Blue" movie and its movie id is 20. As a intern of Amazone company what query you will write to remove that movie from the "movies" table?
+26. Let's imagine Amazon Prime no longer wishes to rent out the "Blue" movie and its movie id is 20. As an intern of Amazon company, what query you will write to remove that movie from the "movies" table?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
@@ -418,21 +418,21 @@ delete from movies where id =20;
 
 ---
 
-27. Is command line the only way to interact with SQL?
+27. Is the command line the only way to interact with SQL?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> No, Command line is one of the ways through which we can interact with SQl, but there are 2 main ways also apart from command line:  
-> - using web interface.
+> No, the Command line is one of the ways through which we can interact with SQl, but there are 2 main ways also apart from the command line:  
+> - using the web interface.
 > - Through a programming language.
 
 </details>
 
 ---
 
-28. From someone you have heard about creating indexes in SQL will be more good in terms of fast retrival of data. Then how will you create a index into a table? 
+28. From someone you have heard about creating indexes in SQL will be better in terms of fast retrieval of data. Then, how will you create an index in a table? 
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
@@ -448,7 +448,7 @@ add index(column_name);
 
 ---
 
-29. You have 4 indexes into your table "order" but now you wants to remove one index named as "author_id" from it. For the same task what will be your query for it?
+29. You have 4 indexes in your table "order" but now you want to remove one index named "author_id" from it. For the same task what will be your query for it?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
@@ -464,13 +464,13 @@ drop index author_id;
 
 ---
 
-30. Have you heared about BLOB in SQL?
+30. Have you heard about BLOB in SQL?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> BLOB is a sub-type of string datatype in SQL and is stands for binary large object. It is used to large amount of data like documents, images, etc. They are of three types:  
+> BLOB is a sub-type of string datatype in SQL and stands for a binary large object. It is used for a large amount of data like documents, images, etc. They are three types:  
 > - TINYBLOB
 > - MEDIUMBLOB
 > - LONGBLOB
@@ -495,7 +495,7 @@ create user 'Tim' identified by 'password';
 
 ---
 
-32. In SQL, how will you see how many databases and tables you have in that database?
+32. In SQL, how will you see the databases and tables that you have in that database?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
@@ -513,7 +513,7 @@ show tables;
 
 ---
 
-33. Assume you are handling a "student" table in the database having id, name, age, state, class fields. Your task is to fetch the records of those students who are from "Texas" state.
+33. Assume you are handling a "student" table in the database having id, name, age, state, and class fields. Your task is to fetch the records of those students who are from "Texas" state.
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
@@ -529,7 +529,7 @@ where state = "Texas";
 
 ---
 
-34. Tell me the way how to give a different name to a field while executing a select query?
+34. Tell me the way about how to give a different name to a field while executing a select query?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
@@ -544,7 +544,7 @@ select Name as "First_name" from table_name;
 
 ---
 
-35. Give one query to me which includes, select, from, where, order by, group by, having clauses.  
+35. Give one query to me which includes, select, from, where, order by, group by, and having clauses.  
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -563,7 +563,7 @@ having count(id);
 
 ---
 
-36. In SQL, how will you give the count of those  students from student table whose name starts with 'H'.
+36. In SQL, how will you give the count of those students from the student table whose name starts with 'H'.
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
@@ -579,14 +579,14 @@ where name like 'H%';
 
 ---
 
-37. Tell me the ways through which we can search for a "string" pattern in SQL?
+37. Tell me about the ways through which we can search for a "string" pattern in SQL?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 
 > To search "string" pattern, we can use the `like` operator with `where` class.  
-> - To search only for fixed number of characters we can use '_' with like. For example, we have to find name of those students having 4 characters only. for that use four underscore.
+> - To search only for a fixed number of characters we can use '_' with like. For example, we have to find the name of those students having 4 characters only. for that use four underscores.
 ```sql
 select name from student where name like '____'; 
 ```
@@ -605,7 +605,7 @@ select name from student where name like '%SK';
 
 ---
 
-38. Your boss have given you a work to find the details of those workers from the "Company" table whose salary lies between 10000 and 50000 and department is 'HR'
+38. Your boss has given you a work to find the details of those workers from the "Company" table whose salary lies between 10000 and 50000 and the department is 'HR'
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
@@ -622,7 +622,7 @@ and department = "HR";
 
 ---
 
-39. Imagine you are handling a "company" database which has one table as "department" and your manager is asking you to give the details of those employees who joined in januaray month of 2022.
+39. Imagine you are handling a "company" database which has one table as "department" and your manager is asking you to give the details of those employees who joined in January of 2022.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -638,7 +638,7 @@ where year(joined) = 2022 and month(joined) = 2;
 ---
 
 
-40. In a company there are 5 departments and in each department there is one manager and you have to get the employee id "emp_id" and "name" of those employees who are working for Manager having "Manager_id" as 432.[ take the table name as Employee]
+40. In a company there are 5 departments and in each department, there is one manager you have to get the employee id "emp_id" and "name" of those employees who are working for the Manager having "Manager_id" as 432.[ take the table name as Employee]
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
@@ -656,7 +656,7 @@ where Manager_id = 432;
 
 ---
 
-41. From "employee" table give the "names" and "emp_id" of those employees who receives higher salary than the employee with "emp_id" = 101.
+41. From "employee" table give the "names" and "emp_id" of those employees who receive a higher salary than the employee with "emp_id" = 101.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -676,7 +676,7 @@ where emp_id = 101
 
 ---
 
-42. Suppose you are having a "employee" table, in which you are trying to find out those employees details having the same department as the employee whose id is 121.
+42. Suppose you are having a "employee" table, in which you are trying to find out those employee’s details having the same department as the employee whose id is 121.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -696,7 +696,7 @@ where id = 121
 
 ---
 
-43. In an employee table, how will you find those employees name and emp_id whose salary matches the lowest salary of any of the departments in SQL.
+43. In an employee table, how will you find those employee’s name and emp_id whose salary matches the lowest salary of any of the departments in SQL?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -716,7 +716,7 @@ group by department
 
 ---
 
-44. In SQL, give the count of those employees who are getting salary more than the average salary from "employee" table.
+44. In SQL, give the count of those employees who is getting a salary more than the average salary from "employee" table.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -735,7 +735,7 @@ from employee
 
 ---
 
-45. Suppose you are handling two tables, one is employee table and another one is department table and there is a primary-foreign key relationship between both. Assume your boss asked you to give the emp_id and name of those employees who works in product department. 
+45. Suppose you are handling two tables, one is an employee table and another one is a department table and there is a primary-foreign key relationship between both. Assume your boss asked you to give the emp_id and name of those employees who works in the product department. 
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -752,7 +752,7 @@ and d.department = "product"
 
 ---
 
-46. In an "employee" table , give me the query that will fetch the employee detail of those employees who are getting second highest salary in the company. 
+46. In an "employee" table , give me the query that will fetch the employee detail of those employees who are getting the second highest salary in the company. 
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -771,7 +771,7 @@ where salary not in
 
 ---
 
-47. Write a SQL query that will give the details of those students, from student table, who comes from NY, Florida and Alaska state and who are from 9th, 10th, 11th and 12th class. 
+47. Write a SQL query that will give the details of those students, from the student table, who comes from NY, Florida and Alaska state and who are from 9th, 10th, 11th and 12th class. 
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
@@ -788,15 +788,15 @@ and class in [ "9th", "10th", "11th", "12th"];
 
 ---
 
-48. Tell me about Denormalization and when can we go for it in SQL?
+48. Tell me about Denormalization and when can we go for it in SQL.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
 
-> - Denormalization can be described as the process to get back from all the normalized forms in the table to add some redundant data in it.   
+> - Denormalization can be described as the process to get back from all the normalized forms in the table to add some redundant data to it.   
 > - It is a good idea to denormalize the tables to do the fast retrieval
-> - When their are multiple small tables and applying joins on those tables will be costly operation.
+> - When there are multiple small tables and applying joins on those tables will be a costly operation.
 
 </details>
 
@@ -810,17 +810,17 @@ and class in [ "9th", "10th", "11th", "12th"];
 
 > SQL is used to interact with the data that are present in tabular form.  
 > The applications of SQL are:
-> - It is used as a backend of a front-end system to store its data in database.
-> - It permits user or group of users to access the database.
-> - It is used in web sites where a need of storing the data is required.
-> - It is used in maintaing old data or historical data.
+> - It is used as a backend of a front-end system to store its data in the database.
+> - It permits a user or group of users to access the database.
+> - It is used on web sites where a need for storing the data is required.
+> - It is used in maintaining old data or historical data.
 
 
 </details>
 
 ---
 
-50. In SQL, what is a cross-join? Give syntax also.
+50. In SQL, what is a cross-join? Give syntax.
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
   
@@ -837,19 +837,19 @@ cross join table2 ;
 
 ---
 
-51. Can we use `inner join` without `on` condition?
+51. Can we use `inner join` without the `on` condition?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
 
-> Yes, we can use the `inner join` without `on` condition in SQL as it is optional condition in inner join or join. If used without on condition it will generate the same output as `cross join`.
+> Yes, we can use the `inner join` without `on` condition in SQL as it is an optional condition in the inner join or joins. If used without one condition, it will generate the same output as `cross join`.
 
 </details>
 
 ---
 
-52. Is it possible to make a `cross join` works as an `inner join` in SQL
+52. Is it possible to make a `cross join` work as an `inner join` in SQL.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)  
 
@@ -867,14 +867,14 @@ where table1.id = table2.id;
 
 ---
 
-53. How will you execute a self join SQL?
+53. How will you execute a self-join SQL?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary>
 
-> A self join can be executed by joining the table to itself. for example: 
-```sql
+> A self-join can be executed by joining the table to itself. for example: 
+```SQL
 select t1.name, t1.id
 from table1 t1
 join table1 t2 
@@ -885,18 +885,18 @@ on t1.id = t2.emp_id;
 
 ---
 
-54. Tell me about the joins in SQL and its types.
+54. Tell me about the joins in SQL and their types.
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary>
 
 > Joins, in SQL, are useful to combine records of two or more different tables. 
-> We have various types of join like:  
-> - Inner Join: After join, it returns matching rows of both the tables only.
-> - Outer Join: After join, it returns matching rows of both the tables plus leftout rows of left table and right table.
-> - left Join: It returns matching rows of both the tables plus leftout rows from left table.
-> - right Join: It returns matching rows of both the tables plus leftout rows from right table.
+> We have various types of joins like:  
+> - Inner Join: After join, it returns matching rows of both tables only.
+> - Outer Join: After join, it returns matching rows of both the tables plus left out rows of left table and right table.
+> - left Join: It returns matching rows of both the tables plus left out rows from the left table.
+> - right Join: It returns matching rows of both the tables plus left out rows from the right table.
 
 </details>
 
@@ -926,7 +926,7 @@ from student;
 <details><summary> <b>Show Answer</b> </summary>
 
 > Using `left join` we can find the details of all the customers who placed 0 or more orders.  
-```sql
+```SQL
 select customer_number, name
 from customers
 left join orders 
@@ -937,11 +937,11 @@ on orders.customer_number = customer_number;
 
 ---
 
-57. Assume, you have two tables "customers" and "orders". So tell me how will you execute the right join between both the tables?
+57. Assume, you have two tables’ "customers" and "orders". So, tell me how will you execute the right join between both tables?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details><summary> <b>Show Answer</b> </summary> 
 
 >  
 ```sql
@@ -955,14 +955,14 @@ on customers.id = orders.id;
 
 ---
 
-58. In SQL, suppose you are handling have two tables "customers" and "orders" then how will you execute the outer join join between both the tables?
+58. In SQL, suppose you are handling two tables, "customers" and "orders", how would you execute the outer join between both tables?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary> <b>Show Answer</b> </summary>
 
-> Suppose we are taking customer names and order_id from both the tables while doing the full join.    
-```sql
+> Suppose we are taking customer names and order_id from both tables while doing the full join.    
+```SQL
 select customers.name, orders.order_id
 from customers
 full join orders
@@ -973,7 +973,7 @@ on customers.id = orders.order_id;
 
 ---
 
-59. Give the query in SQL that will replace the space with '-' in full name from employee table
+59. Give the query in SQL that will replace the space with '-' in full name from the employee table.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -995,15 +995,15 @@ from employee;
   
 <details><summary> <b>Show Answer</b> </summary>
 
-> - Union joins the two table data vertically, whereas full join joins the two table data horizontally.
-> - There are more restrictions when using union between two tables than using full join. 
-> - Union will take only distinct values from both the tables, whereas full join combines all the data from both the table. 
+> - Union joins the two-table data vertically, whereas full join joins the two table data horizontally.
+> - There are more restrictions when using a union between two tables than using full join. 
+> - Union will take only distinct values from both tables, whereas full join combines all the data from both tables. 
 
 </details>
 
 ---
 
-61. Imagine there are two tables Workers and Managers, where Workers table have all the employee names along with employee id who are working for the company and Managers table have all the managers names along with manager id of that company. Give one SQL query that will print the names of Workers who are also Managers.
+61. Imagine there are two tables’ Workers and Managers, where the Workers table has all the employee names along with the employee id who are working for the company and the Managers table has all the manager’s names along with the manager id of that company. Give one SQL query that will print the names of Workers who are also Managers.
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
@@ -1038,8 +1038,8 @@ order by number_of_emp desc;
 
 ---
 
-63. When managing a contact_details table in SQL, you found out that some of the records are duplicates and now you want to see the duplicates records only in your result set. What select query you will write for this that will fetch you the duplicates records? In contact_details table columns are phoneNo, name, etc. 
-
+63. When managing a contact_details table in SQL, you found out that some of the records are duplicates and now you want to see the duplicate records only in your result set. What select query you will write for this that will fetch you the duplicate records? In contact_details table, columns are phoneNo, name, etc. 
+ 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary> <b>Show Answer</b> </summary>
@@ -1056,7 +1056,7 @@ having count(phoneNo) > 1;
 
 ---
 
-64. When managing a contact_details table in SQL, you found out that some of the records are duplicates and now you want to delete those duplicates records only so that only distinct records are leftout in your table. Give the query for this that will delete the duplicates records. In contact_details table columns are phoneNo, name, id etc. 
+64. When managing a contact_details table in SQL, you found out that some of the records are duplicates and now you want to delete those duplicate records only so that only distinct records are leftout in your table. Give the query for this that will delete the duplicate records. In contact_details table, columns are phoneNo, name, id etc. 
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1074,7 +1074,7 @@ and d1.phoneNo = d2.phoneNo;
 
 ---
 
-65. In an employee table, monthly salary is given for each employee. Your task is to find the fetch the annual salary of employees with their names.
+65. In an employee table, the monthly salary is given to each employee. Your task is to find and fetch the annual salary of employees with their names.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1108,7 +1108,7 @@ limit 3;
 
 ---
 
-67. I have a table called employee in SQL and now i want to create another table as employee_2 that has the same structure and data of employee table. How can I do this?
+67. I have a table called employee in SQL and now I want to create another table as employee_2 that has the same structure and data as the employee table. How can I do this?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -1124,7 +1124,7 @@ select * from employee;
 
 ---
 
-68. In SQL, how will you display first 50% of the records of any table.
+68. In SQL, how will you display the first 50% of the records of any table?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1140,7 +1140,7 @@ limit (select count(*)/2 from table_name);
 
 ---
 
-69. Assume you have an employee table which stores the details of all employees and one department table which stores the department information and both these tables have primary-foreign key relationship, where emp_id of employee table is a primary key and dept_id of department table is a foreign key. Your boss has given you a task of fetching the details of those employee who have not assigned any department yet. How will you do that?
+69. Assume you have an employee table which stores the details of all employees and one department table which stores the department information, and both these tables have a primary-foreign key relationship, where emp_id of the employee table is a primary key and dept_id of the department table is a foreign key. Your boss has given you the task of fetching the details of those employees who have not been assigned any department yet. How will you do that?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 <details><summary> <b>Show Answer</b> </summary>
@@ -1156,7 +1156,7 @@ select dept_id from department);
 
 ---
 
-70. Without using the distinct keyword how will you get the distinct records from the table in SQL?
+70. Without using the distinct keyword, how will you get the distinct records from the table in SQL?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -1173,23 +1173,23 @@ This will group the table records by id and name and gives us distinct records o
 
 ---
  
-71. In SQL, what are the points anyone have to kept in mind when using `group by` clause in SQL?
+71. In SQL, what are the points anyone has to keep in mind when using `group by` clause in SQL?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 
 > Points to remember when using `group by` clause:  
-> - Use `group by` clause with select query
+> - Use `group by` clause with a select query
 > - If `where` clause is used in the query, `group by` clause must be placed after it.
 > - If `order by` clause is used in the query, `group by` clause must be placed before it.
-> - Columns mentioned in the select query should either be the part of group by clause or aggregation function is applied to those columns. 
+> - Columns mentioned in the select query should either be part of the group by clause or an aggregation function is applied to those columns. 
 
 </details>
 
 ---
 
-72. Display the name and id of those employees from employee table whose salary is greater than 40000 and DOJ in 2019.
+72. Display the name and id of those employees from the employee table whose salary is greater than 40000 and DOJ in 2019.
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
@@ -1226,7 +1226,7 @@ order by duplicate;
 
 ---
 
-74. In SQL, give a generalize query that will fetch top N records from the table
+74. In SQL, give a generalized query that will fetch the top N records from the table
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
@@ -1244,7 +1244,7 @@ limit N;
 
 ---
 
-75. Andrew wants to create an empty table as new_students having the same structure as of students table. What query he need to execute in order to create an empty table from old table?
+75. Andrew wants to create an empty table as new_students that has the same structure as of students’ table. What query does he need to execute in order to create an empty table from the old table?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1260,7 +1260,7 @@ like students;
 
 ---
 
-76. How to fetch only records that are present in even position in SQL?
+76. How to fetch only records that are present in an even position in SQL?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -1278,7 +1278,7 @@ where id % 2 = 0);
 
 ---
 
-77. Can we use `join` to join more than 2 tables in SQL? If yes, then give an query for it as an example.
+77. Can we use `join` to join more than 2 tables in SQL? If yes, then give a query for it as an example.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
  
@@ -1298,7 +1298,7 @@ on table1.column3 = table3.column3;
 
 ---
 
-78. Let's say you have two tables, one is employee which has employee details like id, name, etc and another one is salary table having columns like id, salary, etc. Give the query in SQL which will return employee name, id and salary of those employees. Also display the name and id of those employees even if salary details is not present.
+78. Let's say you have two tables, one is an employee which has employee details like id, name, etc and another one is a salary table having columns like id, salary, etc. Give the query in SQL which will return the employee’s name, id and salary of those employees. Also, display the name and id of those employees even if salary details are not present.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
  
@@ -1317,7 +1317,7 @@ on e.id = s.id;
 
 ---
 
-79. In SQL, give the query that will fetch the records of those employees  who are from product department and assigned with one project.[Consider two tables employee and project, which has same column as id] 
+79. In SQL, give the query that will fetch the records of those employees who are from the product department and assigned to one project. [Consider two tables employee and project, which has the same column as id] 
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1335,16 +1335,16 @@ select id from project);
 
 ---
 
-80. Explain about referential integrity constraint in SQL.
+80. Explain referential integrity constraint in SQL.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 
-> The relationship between two table is established by primary key- foreign key. This foreign key constraint is also called as referentail integrity constraint. The value of foreign key is derived from the primary key of another table.     
-> In SQL there are two referntial integrity constraint present:  
-> - Insert Constraint: That say's, we cannot insert values in a foreign key table if the value is not present in primary key table. 
-> - Delete Constraint: That say's, we cannot delete any value from primary key table if value is being present in foreign key table. 
+> The relationship between the two tables is established by the primary key- the foreign key. This foreign key constraint is also called a referential integrity constraint. The value of the foreign key is derived from the primary key of another table.     
+> In SQL there is two referential integrity constraint presents:  
+> - Insert Constraint: That says, we cannot insert values in a foreign key table if the value is not present in the primary key table. 
+> - Delete Constraint: That says, we cannot delete any value from the primary key table if the value is present in the foreign key table. 
 
 </details>
 
