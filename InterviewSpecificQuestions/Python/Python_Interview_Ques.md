@@ -1977,14 +1977,14 @@ print(obj.add("Jack","ken"))
 ---
   
   
-101.Can you list out python logging functions?
+101. Can you list out python logging functions?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- **logging.info()**  for the detailed output of events that occur during normal operation of a program.
+- **logging.info()**  for the detailed output of events that occur during the normal operation of a program.
 - **warnings.warn()** issues a warning for a runtime event if the issue is avoidable.
 - **logging.warning()** issues a warning for a runtime event if we need to note the event even when the client can do nothing about it.
 - **logging.error()**, **logging.exception()** report the suppression of an error without raising an exception
@@ -1993,14 +1993,14 @@ print(obj.add("Jack","ken"))
 
 ---
   
-102.William raised a question to his colleague can a function call another function? What should be his colleague answer to William's question?
+102. William raised a question to his colleague whether a function can call another function. What should be his colleague’s answer to William's question?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- Yes,it is possible a function call another function in python.
+- Yes, it is possible for a function to call another function in python.
 
 ```python
 def add(x):
@@ -2009,13 +2009,13 @@ def Function(One, x):
     return addOne(x)**2
 ```
   
-- Whenever we call Function(One,x) we will get the output.
+- Whenever we call Function(One,x), we will get the output.
 
 </details>
 
 ---
   
-103.Jane asked his colleague when is python decorator used and how will explain this to him.
+103. Jane asked his colleague about when python decorator is used and how will explain this to him.
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -2035,7 +2035,7 @@ def my_decorator_function(func):
 
 ---
   
-104.In python, list and array both are similar then how one should choose which data type to go for?
+104. In python, list, and array both are similar. How one should choose which data type to go for?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
@@ -2043,19 +2043,19 @@ def my_decorator_function(func):
 <blockquote>
 
 - list
-  - When you want to store multiple datatypes into single name we can use list.
-  - We can't handle arthimetic operators directly.
-  - It is a Small sequence
+  - When you want to store multiple datatypes into a single name, we can use list.
+  - We can't handle arithmetic operators directly.
+  - It is a small sequence
 - array
-  - Using array we can store single data types under a single name.
-  - We can handle arthimetic operators directly.
+  - Using an array, we can store single data types under a single name.
+  - We can handle arithmetic operators directly.
   - It is a longer sequence.
 
 </details>
 
 ---
   
-105.Can you draw a comparision between recursive and iterative technique for problem solving.
+105. Can you draw a comparison between recursive and iterative techniques forproblem-solving.
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -2064,65 +2064,65 @@ def my_decorator_function(func):
 
 **Recursive:**
   - It is a technique of defining anything in terms of itself.
-  - There must be an exclusive if the statement inside the recusive function specifiying stopping condition.
-  - Not all problems has recursive solution.
+  - There must be an exclusive if statement inside the recursive function specifying stopping condition.
+  - Not all problems have the recursive solution.
   
 **Iteration:**
-  - It is a process of executing statements repeatedly,until some specific condition is specified.
-  - Iteration involves four clear cut steps,initialization,condition,execution and updating.
+  - It is a process of executing statements repeatedly until some specific condition is specified.
+  - Iteration involves four clear-cut steps, initialization,condition,execution and updating.
   - Any recursive problem can be solved iteratively.
 
 </details>
 
 ---
   
-106.Can you tell me how long identifier can be in python?
+106. Can you tell me how long an identifier can be in python?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python an identifier of infinite length. The PEP-8 standard sets a rule that you should limit all lines to a maximum of 79 characters.
+- In python, an identifier can be of infinite length. The PEP-8 standard sets a rule that you should limit all lines to a maximum of 79 characters.
 
 </details>
 
 ---
   
-107.Ernest asked his senior to explain what are docstrings for python modules. How he will explain this to him?
+107. Ernest asked his senior to explain the docstrings for python modules. How would he explain this to him?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In Python docstring is a string used to document a Python module, class, function or method, so programmers can understand what it does without having to read the details of the implementation. Also, it is a common practice to generate online documentation automatically from docstrings.
+- In Python, docstring is a string used to document a Python module, class, function or method, so that programmers can understand what it does without having to read the details of the implementation. Also, it is a common practice to generate online documentation automatically from docstrings.
 
 </details>
 
 ---
   
-108.Does Brian want to create a new test suite with Python unittest how he will be going to create the test?
+108. If Brian wants to create a new test suite with Python unit test, how would he create the test?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- You can create a new test suite with Python unittest by subclassing unittest.TestSuite and add your test cases.
+- You can create a new test suite with Python unittest by subclassing unittest, TestSuite and add your test cases.
 
 </details>
 
 ---
   
-109.How does one use multiple assertions to verify that all conditions have been met in Python unittest?
+109. How does one use multiple assertions to verify that all conditions have been met in Python unittest?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python by using the `assertTrue()` and `assertFalse()` methods, it is possible to check multiple conditions in a single test. 
+- In python, by using the `assertTrue()` and `assertFalse()` methods, it is possible to check multiple conditions in a single test. 
   For example, to check that a list is not empty and that its first element is greater than 5, one could use the following code:
 
 ```python
@@ -2134,20 +2134,20 @@ assertTrue(mylist[0] > 5)
 
 ---
   
-110.Can you explain me What do you understand about the Assert keyword in python unittest?
+110. What do you understand about the Assert keyword in python unittest?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python `Assert` is a keyword used in the Python unittest module to make assertions about the code being tested. Assertions are checks that the code is doing what it is supposed to be doing, and they will throw an error if the check fails. This is useful for finding bugs in code, and for making sure that the code behaves as expected.
+- In python, `Assert` is a keyword used in the Python unittest module to make assertions about the code being tested. Assertions are checks that the code does, and it is supposed to be doing, and they will throw an error if the check fails. This is useful for finding bugs in code, and for making sure that the code behaves as expected.
 
 </details>
 
 ---
   
-111.Ernest wants to find some tools for unit tests Which tools do you suggest to use for automating unit tests?
+111. Ernest wants to find some tools for unit tests. Which tools do you suggest using for automating unit tests?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
@@ -2160,14 +2160,14 @@ assertTrue(mylist[0] > 5)
 
 ---
   
-112.One of your colleagues is asking How will you create your own package in Python can you explain to him how will you do it?
+112. One of your colleagues is asking you to create your own package in Python. How would you do it?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- It overrides the any initialization from an inherited class and is called when the class is instantiated.
+- It overrides any initialization from an inherited class and is called when the class is instantiated.
 - We know that a package may contain sub-packages and modules. A module is nothing but Python code.
 To create a package of our own, we create a directory and create a file __init__.py in it. We leave it empty. Then, in that package, we create a module(s) with whatever code we want. For a detailed explanation with pictures, refer to Python Packages.
 
@@ -2175,14 +2175,14 @@ To create a package of our own, we create a directory and create a file __init__
 
 ---
   
-113.What is Monkey patching in python? Can you Give an example?  
+113. What is Monkey patching in python? Can you Give an example?  
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- We can dynamically modifying a class or module at run-time in python.
+- We can dynamically modify a class or module at run-time in python.
   
 ```python
 class A:
@@ -2199,7 +2199,7 @@ class A:
 
 ---
   
-114.Keith asked his employee What is the purpose of PYTHONSTARTUP, PYTHONCASEOK, PYTHONHOME & PYTHONPATH environment variables, How he will be answering him?
+114. Keith asked his employee the purpose of PYTHONSTARTUP, PYTHONCASEOK, PYTHONHOME & PYTHONPATH environment variables. How would he be answering him?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -2208,37 +2208,37 @@ class A:
 
 - PYTHONSTARTUP − It contains the path of an initialization file containing Python source code. It is executed every time you start the interpreter. It is named as .pythonrc.py in Unix and it contains commands that load utilities or modify PYTHONPATH.
 
-- PYTHONCASEOK − It is used in Windows to instruct Python to find the first case-insensitive match in an import statement. Set this variable to any value to activate it.
+- PYTHONCASEOK − It is used in Windows to instruct Python and to find the first case-insensitive match in an import statement. Set this variable to any value to activate it.
 
 - PYTHONHOME − It is an alternative module search path. It is usually embedded in the PYTHONSTARTUP or PYTHONPATH directories to make switching module libraries easy.
 
-- PYTHONPATH − It has a role similar to PATH. This variable tells the Python interpreter where to locate the module files imported into a program. It should include the Python source library directory and the directories containing Python source code. PYTHONPATH is sometimes preset by the Python installer.
+- PYTHONPATH − It has a role like PATH. This variable tells the Python interpreter where to locate the module files imported into a program. It should include the Python source library directory and the directories containing Python source code. PYTHONPATH is sometimes preset by the Python installer.
 
 </details>
 
 ---
   
-115.Suppose class C inherits from classes A and B as class C(A,B).Classes A and B both have their own versions of method `func()`. If we call `func()` from an object of class C, which version gets invoked?
+115. Suppose class C inherits from classes A and B as class C(A,B). Classes A and B both have their own versions of method `func()`. If we call `func()` from an object of class C, which version gets invoked?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-In python Multiple Inheritance, Method Resolution Order (MRO) we already know. C does not contain its own version of `func()`. Since the interpreter searches in a left-to-right fashion, it finds the method in A, and does not go to look for it in B.
+In python, we already know about Multiple Inheritance, Method Resolution Order (MRO). C does not contain its own version of `func()`. Since the interpreter searches in a left-to-right fashion, it finds the method in A, and does not look for it in B.
 
 </details>
 
 ---
  
-116.The manager is asking Stacie can you tell me how will you convert string to a number?
+116. The manager asks if Stacie can tell how to convert a string to a number?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+.[Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-If you want to convert String to a number using the built-in int() function. The int() function takes in any python data type and converts it into a integer
+If you want to convert String to a number using the built-in int() function, it takes in any python data type and converts it into a integer.
   
 ```python
 n="548"
@@ -2250,27 +2250,27 @@ print(type(n1),n1)
 
 ---
   
-117.Joe was asking What is the difference between the assertTrue() and assertFalse() methods in python how will you explain this to her?
+117. Joe was asking about the difference between the assertTrue() and assertFalse() methods in python. How will you explain this to her?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python the `assertTrue()` method checks the given condition is True.While the `assertFalse()` method checks the given condition is False.These methods are used to check the return value of a given function.
+- In python, the `assertTrue()` method checks whether the given condition is True. While the `assertFalse()` method checks the given condition is False, these methods are used to check the return value of a given function.
 
 </details>
 
 ---
   
-118.If you're ever stuck in an infinite loop, however can you break out of it?
+118. If you're ever stuck in an infinite loop, how could you break out of it?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python for this, we can press Ctrl+C. This interrupts the execution. Let's create an infinite loop for an example.
+- In python, we can press Ctrl+C to interrupt the execution. Let's create an infinite loop for an example.
   
 ```python
 def c_func(n):
@@ -2289,7 +2289,7 @@ c_func(7)
 .
 .
 
-- Whenever we press ctrl+c we will get the below 
+- Whenever we press ctrl+c, we will get the below 
   
 Traceback (most recent call last):
 File "<pyshell#332>", line 1, in counterfunc(7)
@@ -2301,27 +2301,27 @@ KeyboardInterrupt
 
 ---
  
-119.Jack wants to share his global variable with his friend across modules but he doesn't know how to do can you help him to share?
+119. Jack wants to share his global variable with his friend across modules, but he doesn't know how to do it. Can you help him to do this?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- To share global variables across modules, we need to create a special module, then import the config module into all modules of our application. This lets the module be global to all modules.
+- To share global variables across modules, we need to create a special module, and then import the config module into all modules of our application. This lets the module be global to all modules.
 
 </details>
 
 ---  
   
-120.Brian is asking his student Which directory are currently in he/she won't know where they are in How will you help them to find the current directory?
+120. Brian is asking his student about the directory that is currently used and he/she won't know where they are. How will you help them to find the current directory?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- To find current direcoty, we use the function/method `getcwd()`. We need to import it from the module os.
+- To find the current directory, we use the function/method `getcwd()`. We need to import it from the module os.
 
 ```python
 import os
@@ -2347,7 +2347,7 @@ os.getcwd()
 
 ---
   
-121.Can you list out some pdb commands in python?
+121. Can you list out some pdb commands in python?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
@@ -2367,30 +2367,30 @@ os.getcwd()
 
 ---
   
-122.Can you explain What is JSON? Describe in brief how you'd convert JSON data into Python data?
+122. Can you explain JSON? Describe in brief how you'd convert JSON data into Python data.
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
  
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- JSON stands for JavaScript Object Notation. It is a highly popular data format, and it stores data into NoSQL databases.
+- JSON stands for JavaScript Object Notation. It is a highly popular data format, and it stores data in NoSQL databases.
     - 1.A collection of <name,value> pairs
-    - 2.An ordered list values.
-- Python supports JSON parsers. In fact, JSON-based data is internally represented as a dictionary in Python. it will  convert JSON data into Python data, for that we use the `load()` function from the JSON module.
+    - 2. An ordered list values.
+- Python supports JSON parsers. In fact, JSON-based data is internally represented as a dictionary in Python. It will convert JSON data into Python data, and for that we use the `load()` function from the JSON module.
   
 </details>
 
 ---
   
-123.In python optionally, what statements can you put under a try-except block can you explain this with an example?
+123. In python optionally, what statements can you put under a try-except block and can you explain this with an example?
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- To put under a try-except block We have two of these blocks,
+- To put under a try-except block, we have two of these blocks,
 
      - `else`- To run a piece of code when the try-block doesn't create an exception.
 
@@ -2417,20 +2417,20 @@ Bye
 
 ---
 
-124.Does Paul want to know how to use GUI that comes with Python to test your code How will you explain this to him?
+124. Paul wants to know how to use GUI that comes with Python to test your code. How will you explain this to him?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-For that is just an editor and a graphical version of the interactive shell. You can write your code or load code and run it, or type it into the shell. There is no automated testing.
+That is just an editor and a graphical version of the interactive shell. You can write your code or load code and run it or type it into the shell. There is no automated testing.
 
 </details>
 
 ---    
   
-125.Why is that none of my threads are not running? How can I make it work explain with an example?
+125. Why is it that none of my threads is not running? How can I make it work and explain with an example?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -2452,14 +2452,14 @@ for i in range(10)
 ---
 
   
-126.The brain wants to Write a program that will accept an email id. Using the regular expressions and the re module. He is asking his coworker how he will help him to write a code.
+126. The brain wants to write a program that will accept an email id, using regular expressions and the re-module. He is asking his coworker how he will help him to write code.
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- First we need to import `re` module first and write regular expressions conditions to search the email.
+- First, we need to import `re` module first and write regular expressions conditions to search the email.
   
 ```python
 import re
@@ -2474,44 +2474,44 @@ brian@gmail.com
 
 ---
   
-127.Wiliam is asking how will you skip a particular test method or class using the decorator @unittest.skip in python. How will you explain this to him?
+127. Wiliam is asking the way to skip a particular test method or class using the decorator @unittest.skip in python. How will you explain this to him?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python you can use the @unittest.skip decorator to skip a particular test method or class. This is useful when you want to temporarily disable a test or if you know that a particular test will not work on your system.
+- In python, you can use the @unittest.skip decorator to skip a particular test method or class. This is useful when you want to temporarily disable a test or if you know that a particular test will not work on your system.
 
 </details>
 
 ---
   
-128.Under what circumstances would one use a while statement rather than for?
+128. Under what circumstances would one use a while statement rather than for?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python the while statement is used for simple repetitive looping.
-- The for statement is used when one wishes to iterate through a list of items, such as database records, characters in a string, etc.
+- In python, the while statement is used for simple repetitive looping.
+- The `for` statement is used when one wishes to iterate through a list of items, such as database records, characters in a string, etc.
 
 </details>
 
 ---
   
-129.What will be printed out by the last statement below?
+129. What will be printed by the below last statement?
   
 ```python
 flist = []
 for i in range(3):
     flist.append(lambda: i)
 
-[f() for f in flist]   # what will this print out?
+[f() for f in flist]   # what will this print?
 ```
   
-In any closure in Python, variables are bound by name. Thus, the above line of code will print out the following:
+In any closure in Python, variables are bound by name. Thus, the above line of code will print the following:
 [2, 2, 2]
 Presumably not what the author of the above code intended?
   
@@ -2520,7 +2520,7 @@ Presumably not what the author of the above code intended?
  <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
--  For that we can use either create a separate function or to pass the args by name.
+-  For that, we can use either create a separate function or pass the args by name.
   
 ```python
 flist = []
@@ -2535,14 +2535,14 @@ for i in range(3):
 
 ---
 
-130.Can you tell me How will you count the lines in a file? How would you do it if the file was too big to hold in memory?
+130. Can you discuss how to count the lines in a file? How would you do it if the file is too big to hold in memory?
    
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
    
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- We ca use `readlines()` or A loop solution if the file size is small.
+- We can use `readlines()` or a loop solution if the file size is small.
 - Use Generator and Raw interface to get line count if you are working with large files.
 - We can use a loop and `enumerate()` for large files because we don’t need to load the entire file in memory.
   
@@ -2558,7 +2558,7 @@ f.close()
 
 ---
   
-131.Wiliam asking his junior to predict the output of the following code?
+131. Wiliam asks his junior to predict the output of the following code.
   
 ```python
 a = 10
@@ -2578,35 +2578,35 @@ else:
 <blockquote>
 
 - The output of the above code is Hi-world.
-- "Hi-world" is executed because all the if conditions becomes true for the values of 'a' and 'b'.
+- "Hi-world" is executed because all the `if` conditions become true for the values of 'a' and 'b'.
 
 </details>
 
 ---
   
-132.Does python support switch or case statement in Python? If not what is the reason for the same?
+132. Does python support switch or case statement? If not, what is the reason for the same?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- Python Doesn’t have a switch/case statement because of some unsatisfactory proposals.
+- Python doesn’t have a switch/case statement because of some unsatisfactory proposals.
 - Most of the programming languages have switch/case because they don't have proper mapping constructs. You cannot map a value to a function, that's why they have it.
-- But in Python, you can easily have a mapping table(dict) where a certain value maps to a certain function. Python functions are first class values, you can use the functions as the values of the dictionary get(key[, default]) method. Performance-wise, the Python dictionary lookup will almost certainly be more efficient than any solution you can rig yourself.
+- But in Python, you can easily have a mapping table(dict) where a certain value maps to a certain function. Python functions are first-class values, you can use the functions as the values of the dictionary get(key[, default]) method. Performance-wise, the Python dictionary lookup will almost certainly be more efficient than any solution you can rig yourself.
 
 </details>
 
 ---
   
-133.What is the statement that can be used in Python if a statement is required syntactically but the program requires no action?
+133. What is the statement that can be used in Python if a statement is required syntactically but the program requires no action?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python `pass` keyword is used to do nothing but it fulfill the syntactical requirements.
+- In python, `pass` keyword is used to fulfil the syntactical requirements.
   
 ```python
 try x[10]:
@@ -2628,30 +2628,30 @@ else:
 
 ---
   
-134.James wants to perform some pattern matching in python How will you help him to perform pattern matching? Can you Explain this to him?
+134. James wants to perform some pattern matching in python. How will you help him to perform pattern matching and how would you explain this to him?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python Regular Expressions/REs/ regexes enable you to specify expressions that can match specific "parts" of a given string. 
-- For instance, we can use a regular expression to match a single character or a digit, a telephone number, or an email address, etc. 
+- In Python, Regular Expressions/REs/ regexes enable you to specify expressions that can match specific "parts" of a given string. 
+- For instance, we can use a regular expression to match a single character or a digit, a telephone number, an email address, etc. 
 - The Python `re` module provides regular expression patterns. 
-- This module is providing methods for search text strings, or replacing text strings along with methods for splitting text strings based on the pattern defined.
+- This module is providing methods for searching text strings or replacing text strings along with methods for splitting text strings based on the pattern defined.
 
 </details>
 
 ---
 
-135.Can you Name few methods that are used to implement Functionally Oriented Programming in Python?
+135. Can you name a few methods that are used to implement Functionally Oriented Programming in Python?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In Python supports methods, such as `filter()`, `map()`, and `reduce()`, that are very useful when you need to iterate over the items in a list, create a dictionary, or extract a subset of a list.
+- Python supports methods, such as `filter()`, `map()`, and `reduce()`, that are very useful when you need to iterate over the items in a list, create a dictionary, or extract a subset of a list.
 
 `filter()` – enables you to extract a subset of values based on conditional logic.
 `map()` – it is a built-in function that applies the function to each item in an iterable.
@@ -2661,14 +2661,14 @@ else:
 
 ---
   
-136.How do I call a method defined in a base class from a derived class that overrides it?
+136. How do I call a method defined in a base class from a derived class that overrides it?
  
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python if you're using new-style classes, use the built-in `super()` function:
+- In python, if you're using new-style classes, use the built-in `super()` function:
 
 ```python
 class Derived(Base):
@@ -2676,20 +2676,20 @@ class Derived(Base):
         super(Derived, self).math() 
 ```
  
-If you're using classic classes: For a class definition such as class Derived(Base): you can call method `math()` defined in Base as Base.`math(self,arguments)`. Here, Base.meth is an unbound method, so you need to provide the self argument.
+If you're using classic classes: For a class definition such as class Derived (Base): you can call method `math()` defined in Base as Base. `math(self,arguments)`. Here, Base.math is an unbound method, so you need to provide the self-argument.
 
 </details>
 
 ---
   
-137.Todd wants to know some membership, operators in python how will you explain him?
+137.Todd wants to know some membership operators in python. How will you explain him?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python With the operators `in` and `not in`, we can confirm if a value is a member in another.
+- In python, with the operators `in` and `not in`, we can confirm if a value is a member of another.
   
 ```python
 'me' in 'x'
@@ -2705,14 +2705,14 @@ True
 
 ---
 
-138.Why is the `:` on an if statement invalid syntax suddenly (Python, Python 3.x, if statement)?
+138. Why is the `:` `if` statement invalid syntax (Python, Python 3.x, if statement)?
  
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-In Python "SyntaxError: invalid syntax" it will occur when we use a single equals operator instead of the double equals operator in an if statement. To resolve the error, we can use the double equals == if comparing values and the line of the if statement ends with a colon.
+In Python, "SyntaxError: invalid syntax" will occur when we use a single equals operator instead of the double equals operator in an if statement. To resolve the error, we can use the double equals == if comparing values and the line of the if statement ends with a colon.
  
 ```python 
 if a=b:
@@ -2725,30 +2725,30 @@ else:
 
 ---
   
-139.Stacie got some error while running a piece of code in python that error is "valueerror: "invalid literal for int() with base 10" How will you help her to resolve this error?
+139. Stacie got some error while executing a piece of code in python and the error is "valueerror: invalid literal for int() with base 10". How will you help her to resolve this error?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- This error is occu because we try to convert "7.4: to an integer. The value "7.4" is formatted as a string. Python cannot convert a floating-point number in a string to an integer.
-- To overcome this issue, we need to convert the value a user inserts to a floating point number.Then, we can convert it to an integer.
+- This error occurs because we try to convert "7.4: to an integer. The value "7.4" is formatted as a string. Python cannot convert a floating-point number in a string to an integer.
+- To overcome this issue, we need to convert the value a user inserts to a floating-point number. Then, we can convert it to an integer.
 We can do this by using the `float()` and `int()` statements. The `int()` function returns an integer. The `float()` function returns a floating-point representation of a float.
-- Finally the code first converts the value of variable to a float. Next, it will convert the value to an integer.
+- Finally, the code first converts the value of the variable to a float. Next, it will convert the value to an integer.
 
 </details>
 
 ---
   
-140.Which one is the built-in function used in Python to iterate over a sequence of numbers?
+140. Which one is the built-in function used in Python to iterate over a sequence of numbers?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- To iterate over a sequence of numbers we can use `range()`,`for` loop built-in functions.
+- To iterate over a sequence of numbers, we can use `range()`,`for` loop built-in functions.
   
 Syntax: `range(start,end,step count)`
   
@@ -2757,7 +2757,7 @@ a = range(1,10,2)
 print (a)
 ```
 
-If using to iterate 
+To iterate, 
   
 ```python
 for i in range(1,10):
@@ -2768,14 +2768,14 @@ for i in range(1,10):
 
 ---
   
-141.What is used to represent Strings in Python. Is double quotes used for String representation or single quotes used for String representation in Python?
+141. What is used to represent Strings in Python? Are single or double quotes used for String representation in Python?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-In python double quotes used for String representation and single quotes used for String representation. This both work in Python. Most usable way by PEP 8 is in double quotes.
+In python, double quotes are used for String representation and single quotes are used for String representation. These work in Python. The most used way by PEP 8 is in double quotes.
 
 </details>
 
@@ -2788,14 +2788,14 @@ In python double quotes used for String representation and single quotes used fo
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-It's depends upon python version.If you are using in python 2.5 and above we can use `input()` instead of `raw_input()` to take input from user.
+It depends upon the python version. If you are using python 2.5, we can use `input()` instead of `raw_input()` to take input from user.
 
 ```python
 name = raw_input("enter your name please")
 print(name)
 ```
   
-Now Input is used to take from user-input in python.
+Now Input is used to take from user input in python.
 
 ```python
 name = input("enter your name please:")
@@ -2806,14 +2806,14 @@ print(name)
 
 ---
   
-143.Does Carmella want to upgrade all Python packages at one time how will you help him to upgrade all the packages?
+143. If Carmella wants to upgrade all Python packages at one time, how will you help him to upgrade all the packages?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-If yuo want to  upgrade all Python packages at one time with pip.We have so many ways this is the one way to do.
+If you want to upgrade all Python packages at one time with pip, we have so many ways and this is one way to do it.
   
 To upgrade all local packages, you can install `pip-review`:
 
@@ -2831,7 +2831,7 @@ Or automatically:
 
 ---
   
-144.Consider I have a custom class,
+144. Considering I have a custom class,
   
 ```python
 class A:
@@ -2840,15 +2840,15 @@ class A:
         self.b = b
 ```  
   
-The class is not iterable or indexable or anything like that. If at all possible, I would like to keep it that way.Can you tell me Is there a way to return a custom value for min and max in Python?
+The class is not iterable or indexable or anything like that. If possible, I would like to keep it that way. Can you tell me if there is a way to return a custom value for min and max in Python?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- Yes, it is possible. When min takes one arguments it assumes it to be an iterable, iterates over it and takes the minimum value. So,
-  
+- Yes, it is possible. When min takes one argument, it assumes it to be an iterable, iterates over it and takes the minimum value. So,
+  C  
 ```python
 class A:
     def __init__(self, a, b):
@@ -2859,7 +2859,7 @@ class A:
         yield self.b
 ```  
   
-- If you don't want to use `__iter__`. You  want to create your own min function, that calls some _min_ method if there is one in the argument it is passed to and calls the mini else.
+- If you don't want to use `__iter__`. You want to create your own min function, that calls some _min_ method if there is one in the argument, it is passed to and calls the mini else.
 
 ```  
 mini = min
@@ -2874,28 +2874,28 @@ def min(*args):
 
 ---
   
-145.Does Henry want to know the parameter-passing mechanism in python how will you explain this to him?
+145. If Henry wants to know the parameter-passing mechanism in python, how will you explain this to him?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- To pass its parameters to a function, in Python we can use pass-by-reference. If you want to change a parameter within a function, the change reflects in the calling function. This is its default behavior.
-- However, when we pass literal arguments like strings, numbers, or tuples, they pass by value. Because they are immutable.
+- To pass its parameters to a function in Python, we can use pass-by-reference. If you want to change a parameter within a function, the change reflects in the calling function. This is its default behaviour.
+- However, when we pass literal arguments like strings, numbers, or tuples, they it is pass by value. Because they are immutable.
 
 </details>
 
 ---
   
-146.In python I want to add created date, created user details(some basic details) in starting of each log file in python How will you help him to add some basic details in string of each log file?
+146. In python, I want to add created date, and created user details (some basic details) at the start of each log file. How will you help him to add some basic details in the string of each log file?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- We can use this to add some basic details in string of each log file.
+- We can use this to add some basic details in the string of each log file.
 - Then change your handler class to this custom one.
 
 ```python
@@ -2917,14 +2917,14 @@ class HeaderFileHandler(logging.FileHandler):
 
 ---
   
-147.How can you declare multiple assignments in one statement?
+147. How can you declare multiple assignments in one statement?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python we have two more ways to assign mutiple values in single statement.
+- In python, we have two more ways to assign multiple values in a single statement.
   
 ```python
 a,b,c=3,4,5     #This assigns 3, 4, and 5 to a, b, and c.
@@ -2934,14 +2934,14 @@ a = b = c =3         #This assigns 3 to a, b, and c
 
 ---
   
-148.Consider i have a req.txt file,Then i tried to install the packages according to my text from my local directory.How can i install packages using pip according to the req.txt file from a local directory in python?
+148. Consider I have a req.txt file, then tried to install the packages according to my text from my local directory. How can I install packages using pip according to the req.txt file from a local directory in python?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python we can use the below command
+- In python, we can use the below command
   
 ```python
 pip install -r /path/to/req.txt
@@ -2955,14 +2955,14 @@ pip install -r /path/to/req.txt
 
 ---
   
-149.Can you explain me What is a closure in Python?
+149. Can you explain the closure in Python?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-In python a closure is said to occur when a nested function references a value in its enclosing scope. The whole point here is that it remembers the value.
+In python, a closure is said to occur when a nested function references a value in its enclosing scope. The whole point here is that it remembers the value.
   
 ```python
 def A(x):
@@ -2979,44 +2979,44 @@ A(7)()
 
 ---
   
-150.can you tell me How do you handle configuration settings and databases when running automated unit tests?
+150. Can you tell me how to handle configuration settings and databases when running automated unit tests?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python when we are running automated unit tests, you will need to take into account how your configuration settings and databases are set up. You will need to make sure that your tests are able to run without affecting the live data in your databases. One way to do this is to create a separate testing database that your tests can run against. This way, your tests can be run without affecting the data in your production database.
+- In python, when we are running automated unit tests, you will need to consider how your configuration settings and databases are set up. You will need to make sure that your tests are able to run without affecting the live data in your databases. One way to do this is to create a separate testing database that your tests can run against. This way, your tests can be run without affecting the data in your production database.
 
 </details>
 
 ---
 
-151.Paul is working on some content work by mistake he added some unnecessary files into the folder he wants to remove or delete files from folder how will you help him to remove or delete files or folders in python?
+151. Paul is working on some content work. By mistake, he added some unnecessary files to the folder. He wants to remove or delete files from the folder. How will you help him to remove or delete files or folders in python?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python we have three or more commands are there to remove or delete a files or folder from the directory.
+- In python, we have three or more commands to remove or delete files or folders from the directory.
   
  - `os.remove() - removes a file
- - `os.rmdir()` - it will remove a empty directory
+ - `os.rmdir()` - it will remove an empty directory
  - `shutill.rmtree()` - deletes a directory and all its contents.
 
 </details>
 
 ---
   
-152.Cornner is trying  to convert an integer to a Unicode character in python but he can't able to do that how will you help him to that conversion?
+152. Corner is trying to convert an integer to a Unicode character in python, but he can’t do that. How will you help him with that conversion?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python `chr()` returns the string `str` representing a character whose Unicode code point is the specified integer `int`.
+- In python, `chr()` returns the string `str` representing a character whose Unicode code point is the specified integer `int`.
   
 ```python
 print(chr(65))
@@ -3029,20 +3029,20 @@ print(type(chr(65)))
 
 ---
   
-153.Brian is asking In Python, what happens when a global variable and a local variable share the same name ho will you explain this to him?
+153. Brian asks, what happens in Python when a global variable and a local variable share the same name? How will you explain this to him?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-In python when a local variable is given the same name as a global variable, the global variable is shadowed in the scope of the local variable and cannot be accessed. 
+In python, when a local variable is given the same name as a global variable, the global variable is shadowed in the scope of the local variable and cannot be accessed. 
 
 </details>
   
 ---
   
-154.Can you tell me Is it possible to call parent class without its instance creation in python?
+154. Can you tell me if it is possible to call the parent class without its instance creation in python?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
@@ -3056,7 +3056,7 @@ In python when a local variable is given the same name as a global variable, the
 
 ---
   
-155.Consider If you are already installed a module with pip but it doesn’t import in your IDLE, what could it possibly be?  
+155. Consider if you have already installed a module with pip but it doesn’t import in your IDLE, what could it possibly be?  
  
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
@@ -3072,14 +3072,14 @@ In python when a local variable is given the same name as a global variable, the
 
 ---  
 
-156.Jack is aksing to his friend How will you set environment variable in python?
+156. Jack asks his friend how will you set the environment variables in python.
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-In python `os.environ` consider a python dictionary, so all the common dictionary operations can be performed. In addition to the get and set operations mentioned in the other answers, we can also simply check if a key exists. The keys and values should be stored as strings.
+In python `os.environ`, consider a python dictionary, so all the common dictionary operations can be performed. In addition to the get and set operations mentioned in the other answers, we can also simply check if a key exists. The keys and values should be stored as strings.
 
 Python 3
 
@@ -3097,14 +3097,14 @@ True
 
 ---
   
-157.Can you explain me what are the differences between a package and a module in python?
+157. Can you explain the differences between a package and a module in python?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python the module is a single file. A module can be `import` other modules as objects. A package is the folder/directory where different sub-packages and the modules reside.
+- In python, the module is a single file. A module can `import` other modules as objects. A package is a folder/directory where different sub-packages and modules reside.
 
 - A python module is created by saving a file with the extension of .py. This file will have classes and functions that are reusable in the code as well as across modules.
 
@@ -3112,20 +3112,20 @@ True
 
    - Create a directory and give a valid name that represents its operation.
    - Place modules of one kind in this directory.
-   - Create a `__init__.py` file in this directory. This python is know the directory we created is a package. The content of this package can be imported across different modules in other packages to reuse the functionality
+   - Create a `__init__.py` file in this directory. This python knows the directory we created is a package. The content of this package can be imported across different modules in other packages to reuse the functionality.
 
 </details>
 
 ---
   
-158.Ken is asking his senior if Can I dynamically load a module in Python? What will be the answer he will give him? 
+158. Ken is asking his senior if I can dynamically load a module in Python. What will be the answer that he gives him? 
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-Dynamic loading is where we do not load a module till we need it. This is slow, but lets us utilize the memory more efficiently. In Python, you can use the importlib module
+Dynamic loading is where we do not load a module until we need it. This is slow but lets us utilize the memory more efficiently. In Python, you can use the importlib module.
  
 ```python
 import importlib
@@ -3143,7 +3143,7 @@ module = importlib.import_module('my_package.my_module')
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- If you want to make a python script executable on unix it will met two conditons
+- If you want to make a python script executable on Unix, it will meet two conditions.
    - The script file’s mode must be executable
    - The first line must begin with a hash(#). An example of this will be: #!/usr/local/bin/python
 
@@ -3151,7 +3151,7 @@ module = importlib.import_module('my_package.my_module')
 
 ---
   
-160.What is wrong with my Python code? The PWD should be more than 6 and less than 12 letters. It is working fine, but the real problem starts if we enter exactly 4 letters. We aren't getting the required output.
+160. What is wrong with my Python code? The PWD should be more than 6 and less than 12 letters. It is working fine, but the real problem starts if we enter exactly 4 letters. We aren't getting the required output.
   
 ```python
 pwd=raw_input("Register Your Passowrd Now:- ") 
@@ -3182,9 +3182,9 @@ if(num1>=6 and num1<=12):
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- Minimum no of characters in the password is 6 and maximum no of characters is 12.
-- It should have at least one uppercase, lowercase and special character.
-find below code. This will meet the above requirements. It is working fine for 4 characters.
+- Minimum no of characters in the password is 6 and the maximum no of characters is 12.
+- It should have at least one uppercase, lowercase, and special character.
+Find the below code. This will meet the above requirements. It is working fine for 4 characters.
   
 ```python
 import re  
@@ -3205,7 +3205,7 @@ password = input('Enter your password: ')
 
 ---
   
-161.The Junior developer is trying to get an output of the following piece of code but after running this code what will be the output of the code?
+161. The Junior developer is trying to get an output of the following piece of code but after running this code, what will be the output of the code?
   
 ```python
 x = "code practice"
@@ -3221,22 +3221,21 @@ As a senior developer, how will you help him?
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- If we run the above vode we will get inifinite number of e.
-- If you want to exit from the infinite loop,
-Press ctrl+c you will exit from the loop and you will get the `KeyboardInterrupt` error.
+- If we run the above code, we will get an infinite number of e.
+- If you want to exit from the infinite loop, Press ctrl+c you will exit from the loop and you will get the `KeyboardInterrupt` error.
 
 </details>
 
 ---
   
-162.Charles needs to calculate exponential power calculation using the operator but he doesn't know which operator can use and he is asking for help from his friend How will you help him to find the operators?
+162. Charles needs to calculate exponential power calculation using the operator, but he doesn't know which operator can be used and he is asking for help from his friend. How will you help him to find the operators?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- we want to perform power calculation in python can use the `**`.
+- If we want to perform power calculations in python, we can use the `**`.
 - This operator is known as the exponent operator.
 
 ```python
@@ -3249,27 +3248,27 @@ print(a**b)
 
 ---
   
-163.Consider now i am in this `/home/user/work/project` What is the correct way to fix this ImportError error? Now if I type this `python ./programs/my_python_program.py` I will get import error as `ImportError` How will you help me to fix this `Importerror`?
+163.Consider I am in this `/home/user/work/project`. What is the correct way to fix this ImportError error? Now if I type this `python ./programs/my_python_program.py` I will get an import error as `ImportError`. How will you help me to fix this `Importerror`?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-In Python does not add the current directory to `sys.path`, but rather than the directory that the script is in. Add the /home/user/work/project to either `sys.path` or `$PYTHONPATH.`
+Python does not add the current directory to `sys.path`, but rather the directory that the script is in. Add the /home/user/work/project to either `sys.path` or `$PYTHONPATH.`
 
 </details>
 
 ---
   
-164.Can you tell me What is Zoneinfo in python and what is does it?
+164. Can you tell me about Zoneinfo in python and what it does?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python Zoneinfo is a python module. Zoneinfo that provides a time zone.By default, t uses the systems time zone data but if not available it will use data in PyPI.
+- In python, Zoneinfo is a python module. Zoneinfo provides a time zone. By default, it uses thesystem’s time zone data but if not available, it will use data in PyPI.
 
 from zoneinfo import ZoneInfo
 from datetime import datetime, timedelta
@@ -3283,42 +3282,42 @@ print(dt)
 
 ---
   
-166.Joe is asking What mapping means and what kind of data type is based on mapping in python What will be your answer to this question?
+166. Joe is asking what mapping means and what kind of data type is based on mapping in python. What will be your answer to this question?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python mapping refers to an object that maps keys to associated with the values. 
-- The Python `dictionary` is the only one type of mapping in the base typeset. 
-- In python Mappings does not maintain any left-to-right position order,it will support access to stored data by key, as well as type-specific method calls.
+- In python, mapping refers to an object that maps keys to be associated with the values. 
+- The Python `dictionary` is the only type of mapping in the base typeset. 
+- In python, Mappings do not maintain any left-to-right position order, it will support access to stored data by key, as well as type-specific method calls.
 
 </details>
 
 ---
   
-167.Jhon is having python program named "first.py" and Brian is having the same file but a different name as "first.pyc". Their manager is asking what are the differences between both the files in python.
+167. Jhon is having python program named "first.py" and Brian is having the same file but a different name as "first.pyc". Their manager asks about the differences between the files in python.
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- The difference between both the `.py` files are python files having the source code but `.pyc` has the bytecode of your program.
+- The difference between the `.py` files is python files that have the source code but `.pyc` has the bytecode of your program.
 
 </details>
 
 ---
   
-168.Can you tell me How will you get environment variables in python ?
+168. Can you tell me how will you get environment variables in python?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- `getenv()` method is used to get the value of the environment variable key if it exists.Else the default value will be returned. 
+- `getenv()` method is used to get the value of the environment variable key if it exists. Else the default value will be returned. 
   
 ```python
 import os
@@ -3333,14 +3332,14 @@ print(os.environ['HOME'])
 
 ---
   
-169.State about logical operators available in python lanugage with an example.
+169.State logical operators available in python language with an example.
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- We have some of the different type of logical operators these are,
+- We have some different types of logical operators. They are,
 
      - `==`	Equal to
      - `!=`	Not equal to
@@ -3354,8 +3353,7 @@ These operators are used to compare the two values.
 
 ---
   
-170.Can you categorise the different types of errors arises during porgramming.Interpret the following python
-  code
+170. Can you categorize the different types of errors that arise during programming? Interpret the following python code.
 
 ```python
 import os
@@ -3368,8 +3366,8 @@ print cwd
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- If i run the above program i got the syntax error in line 3.
-- Because in line 3 missing parentheses in call to 'print'.
+- If I run the above program, I get the syntax error in line 3.
+- Because in line 3, missing parentheses in call to 'print'.
 
 ```python
 import os
@@ -3381,27 +3379,27 @@ print(cwd)
 
 ---
   
-171.Can you tell me should all developers use a Python debugger?
+171. Can you tell me if all the developers use a Python debugger?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-Multiple junior-level programmers manage to care debugging, having a debugging process is important for all developers. Whether you are a savvy developer or just starting, understanding how to discover and fix bugs is important.
+Multiple junior-level programmers manage to care debugging, so having a debugging process is important for all developers. Whether you are a savvy developer or just starting, understanding how to discover and fix bugs is important.
 
 </details>
 
 ---
   
-172.Can you list out What skills you need for efficient debugging in Python?
+172. Can you list out the skills you need for efficient debugging in Python?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- For efficient debugging we can have the following skills,
+- For efficient debugging, we can have the following skills,
    - Problem-solving skills
    - python skills
    - Unit testing skills
@@ -3411,7 +3409,7 @@ Multiple junior-level programmers manage to care debugging, having a debugging p
 
 ---
   
-173.Can you tell me the difference between a logical error and compile error.
+173. Can you tell me the difference between a logical error and compile error?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
@@ -3419,46 +3417,46 @@ Multiple junior-level programmers manage to care debugging, having a debugging p
 <blockquote>
 
 **Logical Error:**
-   - Logical errors are not detected by computer.
-   - Logical errors are Cause your results to be wrong.
+   - Logical errors are not detected by the computer.
+   - Logical errors cause your results to be wrong.
 **Compile Error/Syntax Error:**
-   - Syntax errors are "grammatical errors" and are this will be detected when you compile the program.
+   - Syntax errors are "grammatical errors" and this will be detected when you compile the program.
    - Syntax errors prevent your program from executing.
 
 </details>
 
 ---
   
-174.Paul is asking his junior can you tell me what background debug mode is what will be the answer he will give to him?
+174. Paul is asking his junior if he can tell what the background debug mode is. What will be the answer that he gives to him?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python background debug mode is an interface that enables a developers to debug the embedded systems. This mode facilitates debugging in microcontrollers.
+- In python, background debug mode is an interface that enables developers to debug the embedded systems. This mode facilitates debugging in microcontrollers.
 
 </details>
 
 ---
   
-175.Can you explain the main steps to involved in debugging Python code in Visual Studio Code? 
+175. Can you explain the main steps involved in debugging Python code in Visual Studio Code?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- First begin with the Debug > Start Debugging command to launch the startup file
+- First, begin with the Debug > Start Debugging command to launch the startup file
 - Right-click a particular code line and choose Breakpoint > Insert Breakpoint
 - Then run code blocks or stop at certain points 
-- Finally Inspect and modify the variables values
+- Finally, Inspect and modify the values of the variables
 
 </details>
 
 ---
   
-176.Consider Jane have this following piece of code
+176. Consider Jane has this following piece of code.
   
 ```python
 class samp:
@@ -3475,7 +3473,7 @@ The above code results in an error, what can be done to resolve this error?
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
   
-- In the above code values are not passed the parameter values.It will throwing an TypeError: add() missing 1 required positional argument: 'b'.
+- In the above code, values are not passed the parameter values. It will throw an TypeError: add() missing 1 required positional argument: 'b'.
   
 ```python
 class samp:
@@ -3494,20 +3492,20 @@ print(ob.add(5,3))
 
 ---
   
-177.The Junior developer is having one doubt and he is asking If a class has one class variable then how many copies will be created for that variable to a senior ho will you help him to get an answer?
+177. The Junior developer is having a doubt and he is asking if a class has one class variable, then how many copies will be created for that variable to the senior? How will you help him to get an answer?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
  <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-Only one copy of static variables is created when a class is loaded. Each object instantiated has its own copy of instance variables.Only one copy of static variables is created when a class is loaded. Each object instantiated has its own copy of instance variables.
+Only one copy of static variables is created when a class is loaded. Each object instantiated has its own copy of instance variables. Only one copy of static variables is created when a class is loaded. Each object instantiated has its own copy of instance variables.
 
 </details>
 
 ---
    
-178.Consider you have this piece of code,
+178.Consider you have the following piece of code,
    
 ```python
 print(0.2+0.4==0.6)
@@ -3519,8 +3517,8 @@ After running this code what will be the output and explain how you got that?
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- After run the above code i will ge toutput as `False`.
-- The round-off errors from 0.2 and 0.4 add Therefore there is a difference between (0.2 + 0.4) and 0.6. This is because you can't compare floating point values, it cannot be considered exact.
+- After running the above code, we will get the output as `False`.
+- The round-off errors from 0.2 and 0.4 add and therefore there is a difference between (0.2 + 0.4) and 0.6. This is because you can't compare floating point values, and it cannot be considered exact.
 
 </details>
 
@@ -3542,13 +3540,13 @@ class C(B):
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-In multi-level inheritance, a subclass derives from another class which itself is derived from another class.n multi-level inheritance, a subclass derives from another class which itself is derived from another class.
+In multi-level inheritance, a subclass derives from another class which itself is derived from another class. In multi-level inheritance, a subclass derives from another class which itself is derived from another class.
 
 </details>
 
 ---
   
-180.Jane have this piece code he want to find the output of the following code how will you help him to find the output of the code?
+180. Jane has this piece code and he wants to find the output of the following code. How will you help him to find the output of the code?
   
 ```python
 a = 3 
@@ -3563,32 +3561,32 @@ print(a, b)
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-The given python snippet is, a = 3 b = 1 print(a, b) a, b = b, a print(a, b) Here "a" and "b" values are assigned. a=3 b=1 The print function prints 3 and 1. a, b = b, a It is evaluated by pushing both the values to the stack and the top two values will be rotated (so that the values will be swapped) and the values are assigned back to "a" and "b". So it swapped values become, a=1 b=3 The print function prints 1 and 3. Hence the correct answer is 3 1 1 3.
+The given python snippet is, a = 3, b = 1, print(a, b) a, b = b, a print(a, b). Here "a" and "b" values are assigned. a=3 b=1. The print function prints 3 and 1. a, b = b, a. It is evaluated by pushing both the values to the stack and the top two values will be rotated (so that the values will be swapped) and the values are assigned back to "a" and "b". So, it swapped values become, a=1 b=3. The print function prints 1 and 3. Hence, the correct answer is 3 1 1 3.
 
 </details>
 
 ---
   
-181.Considering you are the lead of junior sources you asking your junior What will be the output of the following command in python? 
+181. Considering you are the lead of junior sources. Ask your juniors what the output of the following command in python will be.
 
 ```python
 print (r"\nhello")
 ```
 
-What they will answer this question?
+What will they answer to this question?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-In python language, when 'r' or 'R' is used before the string, it converts the string into a raw string and the escape sequence like \n is not converted. Therefore the answer is \nhello.
+In python language, when 'r' or 'R' is used before the string, it converts the string into a raw string and the escape sequence like \n is not converted. Therefore, the answer is \nhello.
 
 </details>
 
 ---
   
-182.Your manager is giving the following piece of code
+182. Your manager is giving the following piece of code.
   
 ```python
 str1="Hello Friends"
@@ -3601,15 +3599,15 @@ for x in str1:
 print(c) 
 ```
   
-He is asking what is the output of the code and if is it correct or not if it's not suggest the correct code and output.
+He is asking what the output of the code is and if is it correct. If it's not, suggest the correct code and output.
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
  <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- If I run the above code the output is 0.
-- The output of the code should be some numbers because inside the loop it's checking whether the values are equal to l or not if not it should count how many the number of characters is not equal to l.
+- If I run the above code, the output is 0.
+- The output of the code should be some numbers because inside the loop it's checking whether the values are equal to l. If not, it should count the number of characters that is not equal to l.
 - So, increase the count to 1. The correct code is mentioned below
   
 ```python
@@ -3636,20 +3634,20 @@ print(c)
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-The **PYTHONPATH** environment variable is used by Python to define a list of directories that modules can be imported from on Windows. For most installations, you should not set these variables since they are not needed for Python to run. Python understands where to see its standard library.
+The **PYTHONPATH** environment variable is used by Python to define a list of directories that modules can import from Windows. For most installations, you should not set these variables since they are not needed for Python to run. Python understands where to see its standard library.
   
 </details>
 
 --- 
   
-184.Considering you the manager of your team needs to show emum implementation in python to some other team associates how will you train this to your team members can you explain me?
+184. Considering you as the manager of your team, you need to show enum implementation in python to some other team associates. How will you train this to your team members and can you explain me?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python, an enumeration is a set of symbolic names bound to an individual, with unchanging values. Within an enumeration, the values can be compared by identity, and the enumeration itself can be iterated over. In Python 3.4 you can create Enum the base class.
+- In python, an enumeration is a set of symbolic names bound to an individual, with unchanging values. Within an enumeration, the values can be compared by identity, and the enumeration itself can be iterated over. In Python 3.4, you can create Enum the base class.
   
 ```python
 from enum import Enum
@@ -3668,7 +3666,7 @@ print(directions.North.value)
 
 ---
 
-185.Consider you are accessing the value both inside and outside of the function, which is fine, but what happens if you try to modify the `global` scope variable value inside a function?   
+185. Consider you are accessing the value both inside and outside of the function, which is fine, but what happens if you try to modify the `global` scope variable value inside a function?   
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
@@ -3685,7 +3683,7 @@ myfunc()
 print("Accessing outside a function :",x)
 ```
  
-- If I am trying to modify the global scope variable value inside a function below code is the example of this 
+- If I am trying to modify the global scope variable value inside a function, the below code is an example of this.
   
 ```python
 x=5
@@ -3696,42 +3694,42 @@ myfunc()
 print("Accessing outside a function :",x)
 ```
   
-- After running this code this throws an error as `UnboundLocalError`: local variable 'x' referenced before assignment. Because while modifying the values Python treats x as a local variable, but x is also not defined inside the function `(myfunc())`.
+- After running this code, this throws an error as `UnboundLocalError`: local variable 'x' referenced before assignment. Because, while modifying the values, Python treats x as a local variable, but x is also not defined inside the function `(myfunc())`.
 
 </details>
 
 ---
    
  
-186.Does Charles want to know What will happen if a local variable exists with the exact name as the global variable you want to access how will you help him to know about it?
+186. Does Charles want to know what will happen if a local variable exists with the exact name as the global variable you want to access, how will you help him to know about it?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-If the local variable exists with the exact name as the global variable that you want to access then the global variable is shadowed is variable that is, preference is given to the local variable.
+If the local variable exists with the exact name as the global variable that you want to access, then the global variable is shadowed as variable that is, preference is given to the local variable.
 
 </details>
 
 ---
 
-187.Considering you are attending the python developer interview the interviewer is asking what do you mean by identifier and What is the permitted length of the identifier? What will be the explanation you will provide for this query?
+187. Considering you are attending the python developer interview, the interviewer is asking what do you mean by identifier and what is the permitted length of the identifier. What will be the explanation you would provide for this query?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- A Python identifier is a term used to determine a variable, function, class, module, or object.Identifiers can be a mix of letters in lowercase (a to z) or uppercase (A to Z) or digits (0 to 9) or an underscore _. 
-- In python the length of the identifier in Python can be of any size. The most extended identifier will be from PEP – 8 and PEP – 20.
+- A Python identifier is a term used to determine a variable, function, class, module, or object. Identifiers can be a mix of letters in lowercase (a to z) or uppercase (A to Z) or digits (0 to 9) or an underscore _. 
+- In python, the length of the identifier can be of any size. The most extended identifier will be from PEP – 8 and PEP – 20.
 
 </details>
 
 ---
   
   
-188.Joe and William are presenting a python project to their team in between the project presentation they got some errors for the following piece of code
+188. Joe and William are presenting a python project to their team in between the project presentation. They got some errors for the following piece of code.
   
 ```python
 x=9
@@ -3742,15 +3740,15 @@ else:
 print(y)
 ```
 
-One of the coworkers is asking what is this error and how will you resolve this error and whether is it mandatory in python or not.
+One of the coworkers is asking what this error is and how will you resolve the error and whether it is mandatory in python or not.
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- After running the above code got the `IndentationError`: expected an indented block, because indentation is missing at line 4 and line 6.
-- Yes, In python indentation is mandatory. if not done properly the code is not executed properly and might throw errors. Indentation is usually done using four space characters.
+- After running the above code, we get the `IndentationError`: expected an indented block, because indentation is missing at line 4 and line 6.
+- Yes, in python, indentation is mandatory. If not done properly, the code is not executed properly and might throw errors. Indentation is usually done using four space characters.
 - Correct code is mentioned here,
   
 ```python
@@ -3766,7 +3764,7 @@ else:
 
 ---
   
-189. Do runtime errors exist in Python?Explain with an example.
+189. Do runtime errors exist in Python? Explain with an example.
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -3782,14 +3780,14 @@ else:
 
 ---
   
-190.Justin Ward wants to Create Variables Using Global Scope in Python Can you list out all the steps to create variables With Examples?
+190. Justin Ward wants to create variables using global scope in Python. Can you list out all the steps to create variables With Examples?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- You can create a variable with global scope by initializing outside all the functions in a python program. And you can access the variable from anywhere in the python program. 
+- You can create a variable with global scope by initializing outside all the functions in a python program. And you can access the variable from anywhere. 
 - Steps 
    - Define the global variable
    - Declaring a function
@@ -3809,14 +3807,14 @@ func()
 
 ---
   
-191.Can we use a break and continue together in Python? How?
+191. Can we use a break and continue together in Python? How?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- In python we can use both break and continue together.The break will stop the current loop from execution, while the jump will take it to another loop.
+- In python, we can use both break and continue together. The break will stop the current loop from execution, while the jump will take it to another loop.
 - The break will stop the current loop from execution, while the jump will take it to another loop.
   
 ```python
@@ -3834,15 +3832,15 @@ print("Break statement")
 
 ---
   
-192.Consider you want to extract all the behaviors from one class to another class which concept will be useful for this and explain with an example? 
+192. Consider you want to extract all the behaviours from one class to another class. Which concept will be useful for this and explain with an example? 
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- For that We can use the inheritance concepts.
-- A class can inherit attributes and behavior methods from another class, called the superclass. A class that inherits from a superclass is called a subclass, also called heir class or child class. Inheritance allows us to define a class that takes all the functionality from the parent class and allows us to add more.
+- For that, we can use the inheritance concepts.
+- A class can inherit attributes and behaviour methods from another class, called the superclass. A class that inherits from a superclass is called a subclass, also called heir class or child class. Inheritance allows us to define a class that takes all the functionality from the parent class and allows us to add more.
   
 ```python
 class Animals(object):
@@ -3860,7 +3858,7 @@ class Cat(Animals):
 
 ---
   
-193.John is creating a class named Don, which has __init__() method that has one parameter as "name". He forgets how to create a "getName()" method that returns the name when the method is called and a "setName()" method which sets the value for 'name' parameter. Given below is an incomplete piece of code, help john to make his code working. Provide your logic in the given spaces.
+193. John is creating a class named Don, which has __init__() method that has one parameter as "name". He forgets how to create a "getName()" method that returns the name when the method is called and a "setName()" method which sets the value for the 'name' parameter. Given below is an incomplete piece of code. Help john to make his code work. Provide your logic in the given spaces.
   
 ```python
 class Don:
@@ -3899,7 +3897,7 @@ print(obj.getName())
 
 ---
   
-194.Jack is trying the polymorphism concept in his code for the first time, he remembered something about method overriding and is able to create one method, in Parent class Animal, named as "leg()" and has given the implementation of leg() method. He also created one more class named as Human which inherited the Base class Animal. But he forgets what to write in Human class to complete the concept of method overriding and how to create an object of that class. Help Jack in solving his problem, and you have to create a leg() method in Human class which prints "Humans have legs" and create an object for the Human class to call leg() method. Given below has some code written, and write your logic in the spaces provided.
+194. Jack is trying the polymorphism concept in his code for the first time, he remembered something about method overriding and is able to create one method, in Parent class Animal, named "leg()" and has given the implementation of leg() method. He also created one more class named Human which inherited the Base class Animal. But he forgets what to write in the Human class to complete the concept of method overriding and how to create an object of that class. Help Jack in solving his problem, and you have to create a leg() method in the Human class which prints "Humans have legs" and create an object for the Human class to call leg() method. Given below has some code written and write your logic in the spaces provided.
   
 ```python
 class Animal:
@@ -3936,7 +3934,7 @@ obj1.leg()
 
 ---
   
-195.Create a class that shows the concept of method overloading in python?
+195. Create a class that shows the concept of method overloading in python.
 
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
@@ -3956,33 +3954,33 @@ print(obj.add(10, 20))        # output: 30
 print(obj.add(10, 20, 30))    # output: 60
 ```
   
-Here, we have passed different number of arguments at the time of calling, and we are getting different output as well for that.
+Here, we have passed a different number of arguments at the time of calling, and we are getting different outputs as well for that.
 
 </details>
 
 ---
   
-196.Suppose there are three classes, Animal, Dog, and Cat. Class Dog inherits properties from Animal class and class Cat also inherits properties from Animal class, than which type of inheritance can be depicted from the above scenario?
+196. Suppose there are three classes, Animal, Dog, and Cat. Class Dog inherits properties from the Animal class and class Cat also inherits properties from the Animal class, then which type of inheritance can be depicted from the above scenario?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-In the above scenario, class Animal is a parent class of both Dog and Cat class. Also Dog and Cat both classes inherits from the same base class that is Animal class. So, Dog and Cat are derived classes of same base class, which is the definition of Hierarchical inheritance.
+In the above scenario, class Animal is a parent class of both Dog and Cat classes. Also, Dog and Cat both classes inherit from the same base class which is the Animal class. So, Dog and Cat are derived classes of the same base class, which is the definition of Hierarchical inheritance.
 
 </details>
 
 ---
   
-197.Does python support method overloading and method overriding?
+197. Does python support method overloading and method override?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- Python doesn't support method overloading but it supports method overriding. That is, we can define the same function in child and parent class with same signature and child's function overrides the parent class function. But when we define multiple functions with same name with different signatures and trying to call both with different number of argument passing, it executes the later one but gives error for trying to call the other functions as in namespace there will always be a single entry against each function name. let's see this with an example.
+- Python doesn't support method overloading but it supports method overriding. That is, we can define the same function in the child and parent class with the same signature and the child's function overrides the parent class function. But when we define multiple functions with the same name with different signatures and try to call both with a different number of arguments passing, it executes the latter one but gives an error for trying to call the other functions as in namespace there will always be a single entry against each function name. let's see this with an example.
   
 **Example**:
   
@@ -4013,20 +4011,20 @@ print(add(2,4,6))   # output: 12
 
 ---
   
-198.Suppose there are three classes, Father, Mother and Child. The Child class inherits properties from two classes, Father and Mother class, than which type of inheritance can be depicted from the above scenario?
+198. Suppose there are three classes, Father, Mother and Child. The Child class inherits properties from two classes, Father and Mother class, then which type of inheritance can be depicted from the above scenario?
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-By the definition, Multiple inheritance states that one derived class can inherits properties from more than 1 base class. In the above scenario also, we can see that Child class is a derived class which inherits all the properties from the 2 base classes, that is Father and Mother class.
+By the definition, Multiple inheritances state that one derived class can inherit properties from more than 1 base class. In the above scenario also, we can see that the Child class is a derived class which inherits all the properties from the 2 base classes, that is Father and Mother classes.
 
 </details>
 
 ---
   
-199.William is asking "Polymorphism provides a default implementation of function overloading in python" to his junior, it is true or false and give me the explanation why.
+199. William asks "Polymorphism provides a default implementation of function overloading in python" to his junior. Is it true or false and give an explanation.
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -4034,14 +4032,13 @@ By the definition, Multiple inheritance states that one derived class can inheri
 <blockquote>
 
 - False
-- Suppose, if we define two functions with same name and different argument list in python, and when we try to call the first function, it will give error in the program. But, when we try to call the second function, it doesn't give the error and overrides the prior function and generates the output.
+- Suppose, if we define two functions with the same name and different argument lists in python, and when we try to call the first function, it will give an error in the program. But, when we try to call the second function, it doesn't give the error and overrides the prior function and generates the output.
 
 </details>
 
 ---
 
-200.
-Franz has a piece of code
+200. Franz has a piece of code
   
 ```python
 class Vehicle:
@@ -4056,14 +4053,14 @@ obj = Car()
 obj
 ````
   
-He is trying to run that but he got some error can you help him to resolve the error and give the output of the code?
+He is trying to run that, but he got some error can you help him to resolve the error and give the output of the code?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- Correct code is mention the below
+- Correct code is mentioned below,
   
 ```python
 class Vehicle:
@@ -4078,14 +4075,14 @@ obj = Car()
 obj.wheel()
 ```
 
-- Output fo the above code is `It can have 2 or more wheels`.
-- Car class overrides the wheel() method of Vehicle class and therefore when calling the wheel() method of Car using object of Car class, it prints the statement present inside it.
+- Output for the above code is, `It can have 2 or more wheels`.
+- Car class overrides the wheel() method of Vehicle class and therefore when calling the wheel() method of Car using the object of Car class, it prints the statement present inside it.
   
 </details>
 
 ---
   
-201.John is asking his friend Can the len() function be used in polymorphism in python what will be the answer he will give to this?
+201. John is asking his friend if the len() function can be used in polymorphism in python. What would be the answer that he gives?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -4100,13 +4097,13 @@ print(len([1, 2, 3, 4]))       #Output: 4
 print(len((1.5, 2.8, 3.3)))    #Output: 3 
 ```
   
-- Different types of values are present in different print statements. First it is a string, then it is a list, and at last it is a tuple. The len() function is returing the length of these values.
+- Different types of values are present in different print statements. First, it is a string, then it is a list, and at last, it is a tuple. The len() function returns the length of these values.
 
 </details>
 
 ---
   
-202.Ken is asking his friend to run the following code and tell me the output of the code and explain to me how he got that.
+202. Ken asks his friend to run the following code. Tell me the output of the code and explain how he got that.
   
 ```python
 x = 40
@@ -4125,32 +4122,32 @@ obj.show()
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- If i run the above code i got output as 40
+- If I run the above code, I get output as 40
                                           40
--Before method calling, the first print statement prints the value of global variable i.e 40. And when the show() method is called, the print statement present inside will also print the value of x as 40 not 20, because x= 20 is a class variable which must be accessed by using classname before variable name. Therefore, it will also take the global variable value i.e 40 in this case.
+-Before method calling, the first print statement prints the value of the global variable i.e 40. And when the show() method is called, the print statement present inside will also print the value of x as 40, not 20, because x= 20 is a class variable which must be accessed by using the class name before the variable name. Therefore, it will also take the global variable value i.e 40 in this case.
 
 </details>
 
 ---
   
-203.How do you differentiate between Interpreter and Compiler?
+203. How do you differentiate between Interpreter and Compiler?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
 
-- Compiler translates our program in a single run, whereas Interpreter translates our program line by line.
-- In terms of CPU utilization, Compiler utilizes more CPU than Interpreter.
-- During compilation, all the errors in the program are displayed in the end together, whereas in Interpreter errors of the code are displayed line by line.
-- As the code size increases, complier takes more time to scan a code compared to Interpreters.
-- Example: C, C++, java, etc are based on Compiler whereas Python, Ruby, MATLAB, etc are interpreted language.
+- The compiler translates our program in a single run, whereas the Interpreter translates our program line by line.
+- In terms of CPU utilization, the Compiler utilizes more CPU than the Interpreter.
+- During compilation, all the errors in the program are displayed in the end together, whereas in the Interpreter, errors of the code are displayed line by line.
+- As the code size increases, the compiler takes more time to scan a code compared to Interpreters.
+- Example: C, C++, java, etc are based on Compilers whereas Python, Ruby, MATLAB, etc. are interpreted languages.
 
 </details>
 
 ---
   
-204.Franz is asking his senior developer/lead if can you help me to find out whether these identifiers are valid or not. How he will help him. 
+204. Franz is asking his senior developer/lead if he/she can help him to find out whether these identifiers are valid or not. How would he help him? 
 [Last_Name, student@id, 4_id, var, for].  
   
 ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -4161,13 +4158,13 @@ obj.show()
 - Last_Name and var are the only valid identifiers from the above list.
 - student@id is not a valid identifier because it has a special character "@" in it.
 - 4_id is not a valid identifier because the identifier should not start with a digit.
-- for is invaild because it is a reserved word in python.
+- for is invalid because it is a reserved word in python.
 
 </details>
 
 ---
   
-205.Consider your manager giving the following piece of code.
+205. Consider your manager giving the following piece of code.
   
 ```python
 list1 = [4, 2, 7, 3, 8, 9, 1]  
@@ -4175,7 +4172,7 @@ for i in list1:
     # write your logic here
 ```
   
-he is asking you to Write your own logic inside the for loop to print the values 4, 2, 7, 8, and 9 on the output screen. how will you do this?
+He asks you to write your own logic inside the for loop to print the values 4, 2, 7, 8, and 9 on the output screen. How will you do this?
   
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
   
@@ -4191,7 +4188,7 @@ for i in list1:
      print(i)
 ```
   
-- i%2==0 is the condition for printing even numbers and i> 3 will take the value of i which is greater then 3 and there is a logical or operator between both the if conditions. Therefore when either of the conditions becomes true only than the print statement inside if will executes. Hence, we get the final result as 4, 2, 7, 8, and 9.
+- i%2==0 is the condition for printing even numbers and i> 3 will take the value of i which is greater than 3 and there is a logical or operator between both the if conditions. Therefore, when either of the conditions becomes true only then the print statement inside if will executes. Hence, we get the result as 4, 2, 7, 8, and 9.
 
 </details>
 
