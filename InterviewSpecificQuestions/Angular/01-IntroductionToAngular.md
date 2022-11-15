@@ -31,7 +31,7 @@
 
 </details>
 
---- 
+---
 
 3. Angular workflow _or_ How does Angular work or bootstrapping your angular app? _or_ How do you load an Angular application in the webserver? 
 
@@ -39,8 +39,6 @@
 
 <details>
 <summary> <b>Show Answer</b></summary>
-  
-<blockquote>
   
 - Flow: `angular.json`-> `main.ts` -> `AppModule` -> `AppModule` -> `index.html`.
 - Every Angular app consists of a file named `angular.json` . This file will contain all the configurations of the app. While building the app, the builder looks at this file to find the entry point of the application.
@@ -72,10 +70,8 @@
 - The HTML template of the root component is displayed inside the `<app-root>` tags.
 - This is how every angular application works. Or This is how angular applications get bootstrapped
 
-  </blockquote>
-</details>
-	
---- 
+</details>	
+---
 
 4. How SPA is different from traditional webapplicationsn?
 	
