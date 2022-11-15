@@ -264,6 +264,10 @@ Some of the built-in pipes are:
 <li>{{dob | date}}</li>
 <li>{{dob | date |uppercase }}</li>
 <li>{{17.81922 | number }}</li>
+<li>{{17.819227546354 | number: '3.4-6' }}</li>
+<li>{{17.81922 | number : '2.0-0'}}</li>
+<li>{{365778 | currency}}</li>
+<li>{{365778 | currency: 'INR'}}</li>
 ```
     
  Output:
