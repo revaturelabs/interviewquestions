@@ -23,13 +23,12 @@
 <details>
 <summary> <b>Show Answer</b></summary>
   
-<blockquote>
 
 - It is a single web page, website, or web application that works within a web browser and loads just a single document.
 - It does not need page reloading during its usage, and most of its content remains the same while only some of it needs updating.
 - **Gmail**, **Facebook**, **Trello**, **Google Maps**, etc., all are Single Page Applications that offer an outstanding user experience in the browser with no page reloading.
 
-</blockquote>
+
 </details>
 
 --- 
