@@ -77,7 +77,7 @@
 </details>
 	
 --- 
-  
+
 4. How SPA is different from traditional webapplicationsn?
 	
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
