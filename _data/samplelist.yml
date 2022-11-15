@@ -1,0 +1,9 @@
+docs_list_title: Interview Questions
+docs:
+
+- title: AWS
+  url: InterviewSpecificQuestions/AWS/AWS.html
+
+
+- title: Angular
+  url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
