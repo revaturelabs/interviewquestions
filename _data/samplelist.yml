@@ -4,6 +4,44 @@ docs:
 - title: AWS
   url: InterviewSpecificQuestions/AWS/AWS.html
 
-
 - title: Angular
   url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+
+- title: BigData
+  url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+  
+- title: BehavioralQuestions
+  url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+  
+- title: CoreJava
+  url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+  
+- title: DevOps
+  url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+  
+- title: Docker
+  url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+  
+- title: HTML-CSS
+  url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+  
+- title: Hibernate
+  url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+  
+- title: JavaScript
+  url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+  
+- title: Microservices
+  url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+  
+- title: Python
+  url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+  
+- title: SDLC
+url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+
+- title: Servlets
+url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+
+- title: Spring
+url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
