@@ -2,16 +2,10 @@
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details>
-  <summary> <b>Show Answer</b></summary>
-  
-  
 - First item
 - Second item
 - Third item
 - Fourth item
-
-</details>
 
 --- 
 
