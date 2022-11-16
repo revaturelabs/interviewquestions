@@ -4,12 +4,22 @@
 
 <details>
 
-<summary> Love**is**bold </summary>
-
 - First item
 - Second item
 - Third item
 - Fourth item
+
+</details>
+
+---
+#### Example
+
+<details>
+<summary>Shopping list</summary>
+
+* Vegetables
+* Fruits
+* Fish
 
 </details>
 
@@ -20,9 +30,6 @@
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
-<summary> 
-	Love**is**bold 
-</summary>
 
 + It is a single web page, website, or web application that works within a web browser and loads just a single document
 + It does not need page reloading during its usage, and most of its content remains the same while only some of it needs updating
