@@ -15,7 +15,9 @@
 #### Example
 
 <details>
-<summary>Shopping list</summary>
+<summary>
+	Shopping list
+</summary>
 
 * Vegetables
 * Fruits
