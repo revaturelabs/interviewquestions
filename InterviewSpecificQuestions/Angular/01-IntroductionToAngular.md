@@ -1,4 +1,7 @@
-1. Demonstrate a basic understanding of Angular or What is Angular?
+
+
+
+1.Demonstrate a basic understanding of Angular or What is Angular?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -16,7 +19,7 @@
 
 --- 
 
-2. What is meant by SPA? _or_ Give some examples of single-page applications.
+2.What is meant by SPA? _or_ Give some examples of single-page applications.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -34,7 +37,7 @@
 
 --- 
 
-3. Angular workflow _or_ How does Angular work or bootstrapping your angular app? _or_ How do you load an Angular application in the webserver? 
+3.Angular workflow _or_ How does Angular work or bootstrapping your angular app? _or_ How do you load an Angular application in the webserver? 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -44,41 +47,41 @@
 <blockquote markdown="1">
   
 - Flow: `angular.json`-> `main.ts` -> `AppModule` -> `AppModule` -> `index.html`.
-- Every Angular app consists of a file named `angular.json` . This file will contain all the configurations of the app. While building the app, the builder looks at this file to find the entry point of the application.
+- Every Angular app consists of a file named `angular.json` .This file will contain all the configurations of the app.While building the app, the builder looks at this file to find the entry point of the application.
 
 ![image](https://user-images.githubusercontent.com/103101208/185569359-55632ef6-971e-47d9-a7bf-96a1de37026e.png)
   
 - Inside the build section, the main property of the options object defines the entry point of the application which in this case is `main.ts`.
-- `main.ts` is the entry point of the angular application. 
-- The `main.ts` file creates a browser environment for the application to run, and, along with this, it also calls a function called bootstrap module, which bootstraps the application. These two steps are performed in the following order inside the `main.ts` file:
+- `main.ts` is the entry point of the angular application.
+- The `main.ts` file creates a browser environment for the application to run, and, along with this, it also calls a function called bootstrap module, which bootstraps the application.These two steps are performed in the following order inside the `main.ts` file:
 	
 ![image](https://user-images.githubusercontent.com/103101208/185569651-35a2ba9f-73fc-43c6-8548-0a24daac640b.png)
 - In the above line of code, `AppModule` is getting bootstrapped.
-- The `AppModule` is declared in the `app.module.ts` file. This module contains declarations of all the components.
+- The `AppModule` is declared in the `app.module.ts` file.This module contains declarations of all the components.
 - Below is an example of the `app.module.ts` file:
 	
 ![image](https://user-images.githubusercontent.com/103101208/185569778-9ff0d34a-b0e2-4701-a1db-21919ebd3ad7.png)
 	
 - As one can see in the above file, `AppComponent` is getting bootstrapped.
-- This component is defined in the `app.component.ts` file. This file interacts with the webpage and serves data to it.
+- This component is defined in the `app.component.ts` file.This file interacts with the webpage and serves data to it.
 - Below is an example of the `app.component.ts` file:
   
  ![image](https://user-images.githubusercontent.com/103101208/185569886-8ca076a7-6633-4d61-beb5-0d673014b347.png)
 
-- After this, Angular calls the `index.html` file. This file consequently calls the root component that is `app-root`. 
+- After this, Angular calls the `index.html` file.This file consequently calls the root component that is `app-root`.
 - This is how the `index.html` file looks:
 	
 ![image](https://user-images.githubusercontent.com/103101208/185569990-6c67e5b0-d9a6-4340-b2f0-dcd9a9f738c5.png)
 	
 - The HTML template of the root component is displayed inside the `<app-root>` tags.
-- This is how every angular application works. Or This is how angular applications get bootstrapped.
+- This is how every angular application works.Or This is how angular applications get bootstrapped.
 
 </blockquote>
 </details>
 	
 --- 
   
-4. How SPA is different from traditional webapplicationsn?
+4.How SPA is different from traditional webapplicationsn?
 	
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
@@ -86,16 +89,16 @@
 <summary><b>Show Answer</b></summary>
 <blockquote markdown="1">
   
-- In traditional web technology, the client requests for a web page (HTML/JSP) and the server sends the resource (or HTML page), and the client again requests for another page and the server responds with another resource. 
-- The problem here is a lot of time is consumed in the requesting/responding or due to a lot of reloading. 
-- Whereas, in the SPA technology, we maintain only one page (`index.html`) even though the URL keeps on changing. 
+- In traditional web technology, the client requests for a web page (HTML/JSP) and the server sends the resource (or HTML page), and the client again requests for another page and the server responds with another resource.
+- The problem here is a lot of time is consumed in the requesting/responding or due to a lot of reloading.
+- Whereas, in the SPA technology, we maintain only one page (`index.html`) even though the URL keeps on changing.
 
 </blockquote>
 </details>
   
  ---
   
-5. Have you used Angular in your project? Can you list some of the features of Angular?
+5.Have you used Angular in your project? Can you list some of the features of Angular?
   
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
@@ -114,7 +117,7 @@ Yes, used Angular.
   
  ---
   
-6. In SPA, after the initial page load, does the server send any more HTML to you?
+6.In SPA, after the initial page load, does the server send any more HTML to you?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -122,14 +125,14 @@ Yes, used Angular.
 <summary><b>Show Answer</b></summary>
 <blockquote markdown="1">
 
-On a SPA, after the initial page load, no more HTML gets sent over the network. Instead, only data gets requested from the server (or sent to the server).
+On a SPA, after the initial page load, no more HTML gets sent over the network.Instead, only data gets requested from the server (or sent to the server).
 	
 </blockquote>
 </details>
   
  ---
   
-7. Does refreshing a whole page needed in SPA?
+7.Does refreshing a whole page needed in SPA?
 	
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -144,7 +147,7 @@ In a SPA, a page refresh never occurs; instead, all necessary HTML, JavaScript, 
   
 ---
   
-8. What are some advantages of Angular?
+8.What are some advantages of Angular?
   
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
@@ -154,8 +157,8 @@ In a SPA, a page refresh never occurs; instead, all necessary HTML, JavaScript, 
   <blockquote markdown="1">
     
 - Effective cross-platform development
-- Two-way data binding in Angular will help users to exchange data from the component to the view and the room view to the component.  It will help users to establish communication bi-directionally. 
-- The Angular command-line interface (CLI) makes the developer’s job easier because it offers a set of helpful tools for coding. 
+- Two-way data binding in Angular will help users to exchange data from the component to the view and the room view to the component. It will help users to establish communication bi-directionally.
+- The Angular command-line interface (CLI) makes the developer’s job easier because it offers a set of helpful tools for coding.
 - Angular offers powerful DI (dependency injection) instruments and services to resolve various productivity issues and speed up the development process.
 - Modularity of angular application makes our code readable and testable
 
@@ -165,7 +168,7 @@ In a SPA, a page refresh never occurs; instead, all necessary HTML, JavaScript, 
 	
 --- 
 	
-9. What do you choose between Traditional Web Apps and Single Page Apps _or_ What do you choose between Multiple Page Apps and Single Page Apps
+9.What do you choose between Traditional Web Apps and Single Page Apps _or_ What do you choose between Multiple Page Apps and Single Page Apps
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 	
@@ -190,7 +193,7 @@ Use a SPA when:
 - Your team is familiar with JavaScript, or TypeScript.
 - Your application must already expose an API for other (internal or public) clients.
 
-Both SPA and MPA are not flawless as they have their pros and cons. SPA is the best choice if you care about **speed and code reusability** that can be applied to develop a **mobile app**. However, it has deficiencies in SEO optimization. MPAs win in case you strive to be **ranked higher in Google**, and it is more scalable but much slower than single-page applications.
+Both SPA and MPA are not flawless as they have their pros and cons.SPA is the best choice if you care about **speed and code reusability** that can be applied to develop a **mobile app**.However, it has deficiencies in SEO optimization.MPAs win in case you strive to be **ranked higher in Google**, and it is more scalable but much slower than single-page applications.
 
 Choosing the best option, you should always have your business goals and requirements in mind.
 
@@ -200,7 +203,7 @@ Choosing the best option, you should always have your business goals and require
 
 ---
 
-10. How is SPA different from MPA?
+10.How is SPA different from MPA?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
@@ -210,14 +213,14 @@ Choosing the best option, you should always have your business goals and require
 	
 A SPA is an app that works inside a browser and does not require page reloading during use.
 
-On the other hand, an MPA multiple-page application) is considered a more traditional approach to app development. The multi-page design pattern requires a page reload every time the content changes. It’s a preferred option for large companies with extensive product portfolios, such as e-commerce businesses.	
+On the other hand, an MPA multiple-page application) is considered a more traditional approach to app development.The multi-page design pattern requires a page reload every time the content changes.It’s a preferred option for large companies with extensive product portfolios, such as e-commerce businesses.	
 	
 </blockquote> 
 </details>
 
 ---
 
-11. Difference between Angular JS and Angular 4 +
+11.Difference between Angular JS and Angular 4 +
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -227,10 +230,10 @@ On the other hand, an MPA multiple-page application) is considered a more tradit
 
 | **Angular JS**                                                                                     | **Angular 4**                                                                                                                    |
 | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| Uses MVC architecture to build the applications.                                                   | Uses component-based UI to build the applications.                                                                               |
-| AngularJS is written in JavaScript.                                                                | Angular is compatible with the most recent versions of TypeScript that have powerful type-checking and object-oriented features. |
-| To bind an image/property or an event with AngularJS, you have to remember the right ng directive. | Angular focuses on “()” for event binding and “\[ \]” for property binding.                                                      |
-| AngularJS doesn't support mobiles.                                                                 | Angular support mobiles.                                                                                                         |
+| Uses MVC architecture to build the applications.                                                  | Uses component-based UI to build the applications.                                                                              |
+| AngularJS is written in JavaScript.                                                               | Angular is compatible with the most recent versions of TypeScript that have powerful type-checking and object-oriented features.|
+| To bind an image/property or an event with AngularJS, you have to remember the right ng directive.| Angular focuses on “()” for event binding and “\[ \]” for property binding.                                                     |
+| AngularJS doesn't support mobiles.                                                                | Angular support mobiles.                                                                                                        |
 
 </blockquote>
 
@@ -238,7 +241,7 @@ On the other hand, an MPA multiple-page application) is considered a more tradit
 	
 --- 
 
-12. Difference between Angular 2 and Angular 4
+12.Difference between Angular 2 and Angular 4
 	
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -248,7 +251,7 @@ On the other hand, an MPA multiple-page application) is considered a more tradit
 
 | **Angular 2**                                                                      | **Angular 4**                                                                                       |
 | ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| Angular v2.0 uses Typescript, a superset of JavaScript, for writing the application. | Angular v4.0 serves to be compatible with the new version of TypeScript 2.1 as well as TypeScript 2.2. |
+| Angular v2.0 uses Typescript, a superset of JavaScript, for writing the application.| Angular v4.0 serves to be compatible with the new version of TypeScript 2.1 as well as TypeScript 2.2.|
 | Code is not Reduced much                                                           | Reduce the size of the generated bundled code up to 60%                                             |
 
 </blockquote>
@@ -257,7 +260,7 @@ On the other hand, an MPA multiple-page application) is considered a more tradit
 	
 --- 
 
-13. What are some common Angular CLI commands?
+13.What are some common Angular CLI commands?
 	
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
@@ -278,7 +281,7 @@ On the other hand, an MPA multiple-page application) is considered a more tradit
 	
 --- 
 	
-14. What does `ng` means?
+14.What does `ng` means?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -293,7 +296,7 @@ On the other hand, an MPA multiple-page application) is considered a more tradit
 	
 --- 
 	
-15. List drawbacks and benefits of MPA _or_ List the advantages and disadvantages of MPA
+15.List drawbacks and benefits of MPA _or_ List the advantages and disadvantages of MPA
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -314,7 +317,7 @@ Drawbacks:
 	
 --- 
 	
-16. List drawbacks and benefits of SPA _or_ List the advantages and disadvantages of SPA
+16.List drawbacks and benefits of SPA _or_ List the advantages and disadvantages of SPA
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -330,7 +333,7 @@ Benefits:
 
 Drawbacks:
 	
-- SPAs perform poorly on the search engine. But now, with isomorphic rendering/server-side rendering even SPAs can be optimized for search engines too.
+- SPAs perform poorly on the search engine.But now, with isomorphic rendering/server-side rendering even SPAs can be optimized for search engines too.
 - Single-page applications provide single-sharing links.
 - They are less secure compared to traditional multi-page apps because of their cross-site scripting.
 	
@@ -339,7 +342,7 @@ Drawbacks:
 	
 --- 
 
-17. What is the latest version of Angular?
+17.What is the latest version of Angular?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
@@ -362,7 +365,7 @@ Drawbacks:
 	
 --- 
 	
-18. Does Angular support mobiles?
+18.Does Angular support mobiles?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
@@ -370,14 +373,14 @@ Drawbacks:
 <summary> <b>Show Answer</b></summary>
 <blockquote markdown="1">
 
- Yes, we can create a mobile application using Angular Framework. 
+ Yes, we can create a mobile application using Angular Framework.
 	
 </blockquote>
 </details>
 	
 --- 
 	
-19. Why do we need Webpack?
+19.Why do we need Webpack?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -385,17 +388,17 @@ Drawbacks:
 <summary> <b>Show Answer</b></summary>
 <blockquote markdown="1">
 
-- In our web application, we use many javascript files that are added to the HTML pages via `<script>` tags.  For each user request, the browser loads these bunch of script files inside the HTML page. This is inefficient as it reduces the page speed since the browser requests each script file separately.
+- In our web application, we use many javascript files that are added to the HTML pages via `<script>` tags. For each user request, the browser loads these bunch of script files inside the HTML page.This is inefficient as it reduces the page speed since the browser requests each script file separately.
 - This can be solved by **bundling** several files together into one file to be downloaded by the browser in one single request.
 - **Module bundlers** are used to bundle a group of JavaScript modules with their dependencies and merge them into a single file in the correct order, which can be executed by the browser.
-- **Webpack** is a powerful static module bundler for JavaScript applications that packages all modules in our application into a bundle and serves it to the browser. Webpack builds a dependency graph when it processes the application. 
+- **Webpack** is a powerful static module bundler for JavaScript applications that packages all modules in our application into a bundle and serves it to the browser.Webpack builds a dependency graph when it processes the application.
 		
 </blockquote>
 </details>
 	
 --- 
 	
-20. Webpack builds a dependency graph. What does that mean? _or_ What is a dependency graph? How is it related to Webpack?
+20.Webpack builds a dependency graph.What does that mean? _or_ What is a dependency graph? How is it related to Webpack?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -403,16 +406,16 @@ Drawbacks:
 <summary> <b>Show Answer</b></summary>
 <blockquote markdown="1">
 
-- Any time one file depends on another, webpack treats this as a dependency. This allows webpack to take images or web fonts, and also provide them as dependencies for your application.
+- Any time one file depends on another, webpack treats this as a dependency.This allows webpack to take images or web fonts, and also provide them as dependencies for your application.
 
-- When webpack processes your application, it starts from a list of modules defined on the command line or in its configuration file. Starting from these entry points, webpack recursively builds a dependency graph that includes every module your application needs, then bundles all of those modules into a small number of bundles - often, only one - to be loaded by the browser.
+- When webpack processes your application, it starts from a list of modules defined on the command line or in its configuration file.Starting from these entry points, webpack recursively builds a dependency graph that includes every module your application needs, then bundles all of those modules into a small number of bundles - often, only one - to be loaded by the browser.
 		
 </blockquote>
 </details>
 	
 --- 
 
-21. How do you install Angular CLI?
+21.How do you install Angular CLI?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
@@ -420,14 +423,14 @@ Drawbacks:
 <summary> <b>Show Answer</b></summary>
 <blockquote markdown="1">
 
-Before installing Angular CLI, make sure the development environment includes Node.js and an npm package manager. Then, run the command `npm install -g @angular/clip on the terminal to install the Angular CLI using npm.
+Before installing Angular CLI, make sure the development environment includes Node.js and an npm package manager.Then, run the command `npm install -g @angular/clip on the terminal to install the Angular CLI using npm.
 		
 </blockquote>
 </details>
 	
 --- 
 	
-22. How do you create any angular application?
+22.How do you create any angular application?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
@@ -442,7 +445,7 @@ Run the CLI command `ng new my-app to create a new angular app with the `my-app`
 	
 --- 
 
-23. Which port angular application will be launched?
+23.Which port angular application will be launched?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
@@ -457,7 +460,7 @@ Run the CLI command `ng new my-app to create a new angular app with the `my-app`
 	
 --- 
 
-24. How `ng serve -o` different form `ng serve` command?
+24.How `ng serve -o` different form `ng serve` command?
 	
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -465,14 +468,14 @@ Run the CLI command `ng new my-app to create a new angular app with the `my-app`
 <summary> <b>Show Answer</b></summary>
 <blockquote markdown="1">
 
-The `ng serve` command launches the server on HTTP port 4200, which watches our files and rebuilds the app as we make changes to those files. The --open (or just -o) option automatically opens the browser to [http://localhost:4200](http://localhost:4200).
+The `ng serve` command launches the server on HTTP port 4200, which watches our files and rebuilds the app as we make changes to those files.The --open (or just -o) option automatically opens the browser to [http://localhost:4200](http://localhost:4200).
 	
 </blockquote>
 </details>
 	
 --- 
 
-25. How do you find the version of angular installed in our system?
+25.How do you find the version of angular installed in our system?
 	
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -487,7 +490,7 @@ To check the version of angular installed by running the `ng --version` or `ng v
 	
 --- 
 
-26. How do you update angular to the latest version?
+26.How do you update angular to the latest version?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
@@ -502,7 +505,7 @@ Run the `npm install -g @angular/cli@latest` command to update angular to the la
 	
 --- 
 
-27. What is the difference between `npm start` and `ng serve`?
+27.What is the difference between `npm start` and `ng serve`?
 	
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -521,14 +524,14 @@ So if it looks like this:
 
 Then `npm start` will run `ng serve.
 
-The `ng serve` commis and used when developing your application locally. It starts up a local development server, which will serve your application while you are developing it.
+The `ng serve` commis and used when developing your application locally.It starts up a local development server, which will serve your application while you are developing it.
 
 </blockquote>
 </details>
 	
 --- 
 	
-28. How to deploy the angular app to production?
+28.How to deploy the angular app to production?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 	
@@ -536,7 +539,7 @@ The `ng serve` commis and used when developing your application locally. It star
 <summary> <b>Show Answer</b></summary>
 <blockquote markdown="1">
 
-- `ng build` command is used to build your application and deploy it. 
+- `ng build` command is used to build your application and deploy it.
 - `ng serve --prod` command to run when building your application for a production environment
 
 </blockquote>
@@ -544,7 +547,7 @@ The `ng serve` commis and used when developing your application locally. It star
 	
 --- 
 	
-29. What kind of files we can find in the _e2e_ folder and node_modules folder?
+29.What kind of files we can find in the _e2e_ folder and node_modules folder?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
@@ -552,14 +555,14 @@ The `ng serve` commis and used when developing your application locally. It star
 <summary> <b>Show Answer</b></summary>
 <blockquote markdown="1">
 
-The _e2e_ folder at the top level contains source files for a set of end-to-end tests and test-specific configuration files. The _node_modules_ folder provides npm packages to the entire workspace.
+The _e2e_ folder at the top level contains source files for a set of end-to-end tests and test-specific configuration files.The _node_modules_ folder provides npm packages to the entire workspace.
 	
 </blockquote>
 </details>
 	
 --- 
 	
-30. What are files we can find under the _src_ folder?
+30.What are files we can find under the _src_ folder?
 	
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
@@ -567,13 +570,13 @@ The _e2e_ folder at the top level contains source files for a set of end-to-end 
 <summary> <b>Show Answer</b></summary>
 <blockquote markdown="1">
 	
-The _src_ folder contains the source files which give information about application logic, data, and assets. It has
+The _src_ folder contains the source files which give information about application logic, data, and assets.It has
 
 </blockquote>
 </details>
 	
 --- 
-31. What is the difference between the `angular.json` and `package.json` files?
+31.What is the difference between the `angular.json` and `package.json` files?
 	
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -581,7 +584,7 @@ The _src_ folder contains the source files which give information about applicat
 <summary> <b>Show Answer</b></summary>
 <blockquote markdown="1">
 
-`angular.json` - holds CLI configuration defaults for all projects in the workspace. It includes configuration options for the build, serves, and test tools.
+`angular.json` - holds CLI configuration defaults for all projects in the workspace.It includes configuration options for the build, serves, and test tools.
 	
 `package.json` - used to configure npm package dependencies that are available to all projects in the workspace.
 
@@ -589,7 +592,7 @@ The _src_ folder contains the source files which give information about applicat
 </details>
 	
 --- 
-32. What is the difference between `package.json` and `package-lock.json` files?
+32.What is the difference between `package.json` and `package-lock.json` files?
 	
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
@@ -606,7 +609,7 @@ The _src_ folder contains the source files which give information about applicat
 	
 --- 
 	
-33. Why do need to compile the Angular? 
+33.Why do need to compile the Angular? 
 	
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
@@ -614,14 +617,14 @@ The _src_ folder contains the source files which give information about applicat
 <summary> <b>Show Answer</b></summary>
 <blockquote markdown="1">	
 	
-Angular is written using TypeScript. But, the browser only understands JavaScript. We need to compile the Angular, so angular applications require a compilation process before they can run in a browser.
+Angular is written using TypeScript.But, the browser only understands JavaScript.We need to compile the Angular, so angular applications require a compilation process before they can run in a browser.
 	
 </blockquote>
 </details>
 	
 --- 
 
-34. Have you heard of the AOT compiler? If so, can you explain it?
+34.Have you heard of the AOT compiler? If so, can you explain it?
 		
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
@@ -629,14 +632,14 @@ Angular is written using TypeScript. But, the browser only understands JavaScrip
 <summary> <b>Show Answer</b></summary>
 <blockquote markdown="1">	
 	
-The Angular ahead-of-time (AOT) compiler converts your Angular HTML and TypeScript code into efficient JavaScript code during the build phase before the browser downloads and runs that code. Compiling your application during the build process provides a faster rendering in the browser.
+The Angular ahead-of-time (AOT) compiler converts your Angular HTML and TypeScript code into efficient JavaScript code during the build phase before the browser downloads and runs that code.Compiling your application during the build process provides a faster rendering in the browser.
 	
 </blockquote>
 </details>
 	
 --- 
 	
-35. Do you recommend an AOT compiler? If yes, Justify.
+35.Do you recommend an AOT compiler? If yes, Justify.
 		
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
@@ -644,18 +647,18 @@ The Angular ahead-of-time (AOT) compiler converts your Angular HTML and TypeScri
 <summary> <b>Show Answer</b></summary>
 <blockquote markdown="1">	
 
-Yes, I recommend the AOT compiler. Here are my reasons:
+Yes, I recommend the AOT compiler.Here are my reasons:
 
-- **Faster rendering**: With AOT, the browser downloads a pre-compiled version of the application. The browser loads executable code so it can render the application immediately, without waiting to compile the application first.
+- **Faster rendering**: With AOT, the browser downloads a pre-compiled version of the application.The browser loads executable code so it can render the application immediately, without waiting to compile the application first.
 - **Detect template errors earlier**: The AOT compiler detects and reports template binding errors during the build step before users can see them.
-- **Better Security**: AOT compiles HTML templates and components into JavaScript files long before they are served to the client. With no templates to read and no risky client-side HTML or JavaScript evaluation, there are fewer opportunities for injection attacks.
+- **Better Security**: AOT compiles HTML templates and components into JavaScript files long before they are served to the client.With no templates to read and no risky client-side HTML or JavaScript evaluation, there are fewer opportunities for injection attacks.
 		
 </blockquote>
 </details>
 	
 --- 
 
-36. Can you tell me about the JIT compiler?
+36.Can you tell me about the JIT compiler?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -663,7 +666,7 @@ Yes, I recommend the AOT compiler. Here are my reasons:
 <summary><b>Show Answer</b></summary>
 <blockquote markdown="1">
 
-Just in time (JIT) compiler provides compilation during the execution of the program at a run time before execution. In simple words, code gets compiled when it’s needed, not at the build time.
+Just in time (JIT) compiler provides compilation during the execution of the program at a run time before execution.In simple words, code gets compiled when it’s needed, not at the build time.
 
 </blockquote>
 </details>
@@ -671,7 +674,7 @@ Just in time (JIT) compiler provides compilation during the execution of the pro
 ---
  	
 
-37. How JIT compiler differs from the AOT compiler?
+37.How JIT compiler differs from the AOT compiler?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -681,19 +684,19 @@ Just in time (JIT) compiler provides compilation during the execution of the pro
 
 | JIT                                                                                            | AOT                                                                                                               |
 |------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| JIT downloads the compiler and compiles code exactly before Displaying it in the browser.         | AOT has already complied with the code while building your application, so it doesn’t have to compile at runtime. |
-| Loading in JIT is slower than the AOT because it needs to compile your application at runtime. | Loading in AOT is much quicker than the JIT because it already has compiled your code at build time.              |
-| JIT is more suitable for development mode.                                                     | AOT is much more suitable in the case of Production mode.                                                              |
-| Bundle size is higher compared to AOT.                                                          | Bundle size optimized in AOT, in results AOT bundle size is half the size of JIT bundles.                         |
+| JIT downloads the compiler and compiles code exactly before Displaying it in the browser.        | AOT has already complied with the code while building your application, so it doesn’t have to compile at runtime.|
+| Loading in JIT is slower than the AOT because it needs to compile your application at runtime.| Loading in AOT is much quicker than the JIT because it already has compiled your code at build time.             |
+| JIT is more suitable for development mode.                                                    | AOT is much more suitable in the case of Production mode.                                                             |
+| Bundle size is higher compared to AOT.                                                         | Bundle size optimized in AOT, in results AOT bundle size is half the size of JIT bundles.                        |
 | You can run your app in JIT with this command: `ng build` OR `ng serve`                            | To run your app in AOT you have to provide –aot at the end like: `ng build --at OR `ng serve --not                 |
-| You can catch template binding errors at display time.                                          | You can catch the template error at building your application.                                                    |
+| You can catch template binding errors at display time.                                         | You can catch the template error at building your application.                                                   |
 
 </blockquote>
 </details>
   
 ---
 	
-38. When to use JIT Compiler?
+38.When to use JIT Compiler?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -709,7 +712,7 @@ Just in time (JIT) compiler provides compilation during the execution of the pro
   
 ---
 	
-39. Let us take a most commonly used application, youtube or E-mail. How do you see Angular in this application? 
+39.Let us take a most commonly used application, youtube or E-mail.How do you see Angular in this application? 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -724,14 +727,14 @@ Just in time (JIT) compiler provides compilation during the execution of the pro
 - Angular uses Databinding and Routing
 - Angular uses Jasmine testing framework
 
-**NOTE** - The candidate must come up with the angular points that they see in the application. Depends on the candidate. This makes the interviewer understand how far the candidate can relate a real-time application to the topic
+**NOTE** - The candidate must come up with the angular points that they see in the application.Depends on the candidate.This makes the interviewer understand how far the candidate can relate a real-time application to the topic
 
 </blockquote>
 </details>
 
 --- 
 	
-40. Is Angular Javascript-based or Typescript based?
+40.Is Angular Javascript-based or Typescript based?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
