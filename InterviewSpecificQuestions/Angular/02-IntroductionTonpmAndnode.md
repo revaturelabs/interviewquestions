@@ -1,14 +1,14 @@
-1. Why do we need Node.js for Angular?
+1.Why do we need Node.js for Angular?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
-- We use Node.js and npm as tools for building Angular or React apps. 
-- Angular is a front-end framework used to create a web application and is written in **Typescript**. 
-- The **browser only understands JavaScript code**, so we need to compile Typescript (.ts file) to plain JavaScript (.js file). 
+- We use Node.js and npm as tools for building Angular or React apps.
+- Angular is a front-end framework used to create a web application and is written in **Typescript**.
+- The **browser only understands JavaScript code**, so we need to compile Typescript (.ts file) to plain JavaScript (.js file).
 - We use Node.js and npm to perform this compilation, then we can deploy them in production.
 
 </blockquote>
@@ -16,17 +16,17 @@
   
 ---
 
-2. How do you install node and npm?
+2.How do you install node and npm?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
-- Download Node.js from nodejs.org and install it. 
-- The npm CLI gets installed with Node.js by default. 
-- To check that you have installed npm, run `npm -v` in a  terminal. 
+- Download Node.js from nodejs.org and install it.
+- The npm CLI gets installed with Node.js by default.
+- To check that you have installed npm, run `npm -v` in a  terminal.
 - **NOTE:** npm can install packages in a node_modules folder in angular working directory.
 
 </blockquote>
@@ -34,17 +34,17 @@
   
 ---
 
-3. What is the use of Node.js?
+3.What is the use of Node.js?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
   
 - Node.js is an open-source, cross-platform run-time environment built on Chrome's V8 JavaScript engine.
-- Node.js is used to execute JavaScript code outside of a web browser. It provides a library of various JavaScript modules, which simplifies the development of web applications.
-- Global companies like Netflix, Facebook, Walmart Linkedin, Uber, etc., use Node.js for building their applications. 
+- Node.js is used to execute JavaScript code outside of a web browser.It provides a library of various JavaScript modules, which simplifies the development of web applications.
+- Global companies like Netflix, Facebook, Walmart Linkedin, Uber, etc., use Node.js for building their applications.
   
 </blockquote>
 
@@ -52,13 +52,13 @@
   
 ---
 
-4. What is NPM?
+4.What is NPM?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
  
 - NPM stands for Node Package Manager, responsible for managing all the packages and modules for Node.js.
 
@@ -72,13 +72,13 @@
   
 ---
 
-5. What is the difference between Angular and Node.js?
+5.What is the difference between Angular and Node.js?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 |                           Angular                           |                                 Node.js                                 |
 |:-----------------------------------------------------------:|:-----------------------------------------------------------------------:|
@@ -92,28 +92,28 @@
   
 ---
 
-6. How do you check whether Node.js is installed successfully in your system?
+6.How do you check whether Node.js is installed successfully in your system?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
-To check that node.js is installed, open the power shell or command prompt (cmd) and type `node –v`. If the node is installed tall properly in your system print something like that v4.4.3.
+To check that node.js is installed, open the power shell or command prompt (cmd) and type `node –v`.If the node is installed tall properly in your system print something like that v4.4.3.
 
 </blockquote>
 </details>
   
 ---
  
-7. What kind of information we can find in the `package.json` file?
+7.What kind of information we can find in the `package.json` file?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
  `package.json` file is used to store the metadata related to the project such as a project description, the version of the project in a particular distribution, and license information, as well as to store the list of dependency packages.
 
@@ -122,15 +122,15 @@ To check that node.js is installed, open the power shell or command prompt (cmd)
   
 ---
  
-8. Differentiate `dependencies` and `devDependencies` in the `package.json` file?
+8.Differentiate `dependencies` and `devDependencies` in the `package.json` file?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
-In `package.json`, regular `dependencies` are packages that are required for your production-ready site or app to work. Production-ready means the online version of your website or app that the audience experiences.
+In `package.json`, regular `dependencies` are packages that are required for your production-ready site or app to work.Production-ready means the online version of your website or app that the audience experiences.
 
 `devDependencies` are packages used for development purposes, e.g for running tests or transpiling your code.
 
@@ -139,13 +139,13 @@ In `package.json`, regular `dependencies` are packages that are required for you
   
 ---
  
-9. What happens if I run `npm install` in the terminal?
+9.What happens if I run `npm install` in the terminal?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 The 
 `npm install` command is used for installing JavaScript packages on your local computer.
 
@@ -154,13 +154,13 @@ The
   
 ---
  
-10. What happens if I run `npm uninstall` in the terminal
+10.What happens if I run `npm uninstall` in the terminal
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>The 
+<blockquote markdown="1">The 
 
 `npm uninstall` command is used to remove installed npm packages on your computer.
 
@@ -169,13 +169,13 @@ The
   
 ---
  
-11. Differentiate between the `npm update and `npm update -g` commands?
+11.Differentiate between the `npm update and `npm update -g` commands?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 The `npm update command is used to update the node package manager to the latest version.
   
@@ -190,27 +190,27 @@ If no package name is specified, all packages in the specified location (global 
   
 ---
  
-12. What happens if I run `npm init` in the terminal?
+12.What happens if I run `npm init` in the terminal?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
-The `npm init` command in the JSON language creates a package.json file for your project’s front end. 
+The `npm init` command in the JSON language creates a package.json file for your project’s front end.
 
 </blockquote>
 </details>
   
 ---
  
-13. Can I run the angular application using the `npm start` command?
+13.Can I run the angular application using the `npm start` command?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
  Yes, it can run an angular application.
 
@@ -219,28 +219,28 @@ The `npm init` command in the JSON language creates a package.json file for your
   
 ---
  
-14. Why do we need a `package.json` file?
+14.Why do we need a `package.json` file?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
-`package.json` contains just JSON. The main purpose of this file is to hold various metadata related to the project. The file is used to provide the information to the node package manager (NPM) that allows identifying the project and its dependencies.
+`package.json` contains just JSON.The main purpose of this file is to hold various metadata related to the project.The file is used to provide the information to the node package manager (NPM) that allows identifying the project and its dependencies.
 
 </blockquote>
 </details>
   
 ---
 
-15. Where you can find the `package.json` file?
+15.Where you can find the `package.json` file?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 The `package.json` file is normally present in the root directory of a project folder structure.
 
@@ -248,4 +248,3 @@ The `package.json` file is normally present in the root directory of a project f
 </details>
   
 ---
-
