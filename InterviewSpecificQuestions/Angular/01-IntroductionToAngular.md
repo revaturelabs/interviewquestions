@@ -71,9 +71,9 @@
 ![image](https://user-images.githubusercontent.com/103101208/185569990-6c67e5b0-d9a6-4340-b2f0-dcd9a9f738c5.png)
 	
 - The HTML template of the root component is displayed inside the `<app-root>` tags.
-- This is how every angular application works. Or This is how angular applications get bootstrapped
+- This is how every angular application works. Or This is how angular applications get bootstrapped.
 
-  </blockquote>
+</blockquote>
 </details>
 	
 --- 
