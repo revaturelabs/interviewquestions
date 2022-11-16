@@ -2,18 +2,27 @@
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
+<details>
+
+<summary> Love**is**bold </summary>
+
 - First item
 - Second item
 - Third item
 - Fourth item
 
+</details>
+
 ---
+
 2. What is meant by SPA? _or_ Give some examples of single-page applications.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
-<summary> **Show Answer**</summary>
+<summary> 
+	Love**is**bold 
+</summary>
 
 + It is a single web page, website, or web application that works within a web browser and loads just a single document
 + It does not need page reloading during its usage, and most of its content remains the same while only some of it needs updating
