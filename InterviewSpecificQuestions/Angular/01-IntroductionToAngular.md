@@ -15,9 +15,7 @@
 #### Example
 
 <details>
-<summary>
-	Shopping list
-</summary>
+<summary markdown='span'/> Shopping list </summary>
 
 * Vegetables
 * Fruits
