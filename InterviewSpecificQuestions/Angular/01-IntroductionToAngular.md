@@ -43,7 +43,7 @@
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
   
 - Flow: `angular.json`-> `main.ts` -> `AppModule` -> `AppModule` -> `index.html`.
