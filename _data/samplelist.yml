@@ -1,43 +1,26 @@
 toc:
-  - title: AWS
+  - title: Group 1
     subfolderitems:
-      - page: Introduction
-        url: InterviewSpecificQuestions/AWS/AWS.html
+      - page: Thing 1
+        url: /thing1.html
       - page: Thing 2
         url: /thing2.html
-  - title: Angular
+      - page: Thing 3
+        url: /thing3.html
+  - title: Group 2
     subfolderitems:
-      - page: Introduction To Angular
-        url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
-      - page: Introduction To npm And node
-        url: InterviewSpecificQuestions/Angular/02-IntroductionTonpmAndnode.html
-  - title: Big Data
+      - page: Piece 1
+        url: /piece1.html
+      - page: Piece 2
+        url: /piece2.html
+      - page: Piece 3
+        url: /piece3.html
+  - title: Group 3
     subfolderitems:
-      - page: Introduction
-        url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
-      - page: Introduction Sample 2
-        url: InterviewSpecificQuestions/Angular/02-IntroductionTonpmAndnode.html
-  - title: BehavioralQuestions
-    subfolderitems:
-      - page: Introduction
-        url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
-      - page: Introduction Sample 2
-        url: InterviewSpecificQuestions/Angular/02-IntroductionTonpmAndnode.html
-  - title: CoreJava
-    subfolderitems:
-      - page: Introduction
-        url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
-      - page: Introduction Sample 2
-        url: InterviewSpecificQuestions/Angular/02-IntroductionTonpmAndnode.html
-  - title: DevOps
-    subfolderitems:
-      - page: Introduction
-        url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
-      - page: Introduction Sample 2
-        url: InterviewSpecificQuestions/Angular/02-IntroductionTonpmAndnode.html
-  - title: Docker
-    subfolderitems:
-      - page: Introduction
-        url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
-      - page: Introduction Sample 2
-        url: InterviewSpecificQuestions/Angular/02-IntroductionTonpmAndnode.html
+      - page: Widget 1
+        url: /widget1.html
+      - page: Widget 2
+        url: /widget2.html
+      - page: Widget 3
+        url: /widget3.html
+   
