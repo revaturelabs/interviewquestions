@@ -14,10 +14,13 @@
 
 <details>
 <summary> <b>Show Answer</b></summary>
+
 + It is a single web page, website, or web application that works within a web browser and loads just a single document
-+ It does not need page reloading during its usage, and most of its content remains the same while only some of it needs updating.
++ It does not need page reloading during its usage, and most of its content remains the same while only some of it needs updating
 + **Gmail**, **Facebook**, **Trello**, **Google Maps**, etc., all are Single Page Applications that offer an outstanding user experience in the browser with no page reloading.
+
 </details>
+
 ---
 
 3. Angular workflow _or_ How does Angular work or bootstrapping your angular app? _or_ How do you load an Angular application in the webserver? 
@@ -57,7 +60,8 @@
 - The HTML template of the root component is displayed inside the `<app-root>` tags.
 - This is how every angular application works. Or This is how angular applications get bootstrapped
 
-</details>	
+</details>
+
 ---
 
 4. How SPA is different from traditional webapplicationsn?
