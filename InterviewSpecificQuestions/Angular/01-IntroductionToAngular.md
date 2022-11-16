@@ -13,7 +13,7 @@
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
-<summary> <b>Show Answer</b></summary>
+<summary> **Show Answer**</summary>
 
 + It is a single web page, website, or web application that works within a web browser and loads just a single document
 + It does not need page reloading during its usage, and most of its content remains the same while only some of it needs updating
