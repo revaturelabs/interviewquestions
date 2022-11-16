@@ -1,3 +1,4 @@
+<ul>
 {% for item in site.data.newsamplelist.toc %}
     <h3>{{ item.title }}</h3>
       <ul>
@@ -6,3 +7,4 @@
         {% endfor %}
       </ul>
 {% endfor %}
+</ul>
