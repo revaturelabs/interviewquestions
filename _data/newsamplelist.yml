@@ -1,0 +1,43 @@
+toc:
+  - title: AWS
+    subfolderitems:
+      - page: Introduction
+        url: InterviewSpecificQuestions/AWS/AWS.html
+      - page: Thing 2
+        url: /thing2.html
+  - title: Angular
+    subfolderitems:
+      - page: Introduction To Angular
+        url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+      - page: Introduction To npm And node
+        url: InterviewSpecificQuestions/Angular/02-IntroductionTonpmAndnode.html
+  - title: Big Data
+    subfolderitems:
+      - page: Introduction
+        url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+      - page: Introduction Sample 2
+        url: InterviewSpecificQuestions/Angular/02-IntroductionTonpmAndnode.html
+  - title: BehavioralQuestions
+    subfolderitems:
+      - page: Introduction
+        url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+      - page: Introduction Sample 2
+        url: InterviewSpecificQuestions/Angular/02-IntroductionTonpmAndnode.html
+  - title: CoreJava
+    subfolderitems:
+      - page: Introduction
+        url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+      - page: Introduction Sample 2
+        url: InterviewSpecificQuestions/Angular/02-IntroductionTonpmAndnode.html
+  - title: DevOps
+    subfolderitems:
+      - page: Introduction
+        url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+      - page: Introduction Sample 2
+        url: InterviewSpecificQuestions/Angular/02-IntroductionTonpmAndnode.html
+  - title: Docker
+    subfolderitems:
+      - page: Introduction
+        url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+      - page: Introduction Sample 2
+        url: InterviewSpecificQuestions/Angular/02-IntroductionTonpmAndnode.html
