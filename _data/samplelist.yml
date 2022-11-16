@@ -1,26 +1,48 @@
-toc:
-  - title: Group 1
-    subfolderitems:
-      - page: Thing 1
-        url: /thing1.html
-      - page: Thing 2
-        url: /thing2.html
-      - page: Thing 3
-        url: /thing3.html
-  - title: Group 2
-    subfolderitems:
-      - page: Piece 1
-        url: /piece1.html
-      - page: Piece 2
-        url: /piece2.html
-      - page: Piece 3
-        url: /piece3.html
-  - title: Group 3
-    subfolderitems:
-      - page: Widget 1
-        url: /widget1.html
-      - page: Widget 2
-        url: /widget2.html
-      - page: Widget 3
-        url: /widget3.html
-   
+docs_list_title: Interview Questions
+docs:
+
+- title: AWS
+  url: InterviewSpecificQuestions/AWS/AWS.html
+
+- title: Angular
+  url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+
+- title: BigData
+  url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+  
+- title: BehavioralQuestions
+  url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+  
+- title: CoreJava
+  url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+  
+- title: DevOps
+  url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+  
+- title: Docker
+  url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+  
+- title: HTML-CSS
+  url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+  
+- title: Hibernate
+  url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+  
+- title: JavaScript
+  url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+  
+- title: Microservices
+  url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+  
+- title: Python
+  url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+  
+- title: SDLC
+url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+
+- title: Servlets
+url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+
+- title: Spring
+url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+
