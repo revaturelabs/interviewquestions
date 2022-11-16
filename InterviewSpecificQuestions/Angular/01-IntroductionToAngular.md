@@ -6,9 +6,10 @@
   <summary> <b>Show Answer</b></summary>
   
   
-- Angular is a typescript-based web application framework used to create & build web apps
-- It allows us to create Single Page Applications (SPA)
-- Gmail, Youtube, and PayPal apps are developed using Angular
+- First item
+- Second item
+- Third item
+- Fourth item
 
 </details>
 
