@@ -7,7 +7,7 @@
 - Third item
 - Fourth item
 
---- 
+---
 
 2. What is meant by SPA? _or_ Give some examples of single-page applications.
 
@@ -15,18 +15,10 @@
 
 <details>
 <summary> <b>Show Answer</b></summary>
-  
 + It is a single web page, website, or web application that works within a web browser and loads just a single document
 + It does not need page reloading during its usage, and most of its content remains the same while only some of it needs updating.
 + **Gmail**, **Facebook**, **Trello**, **Google Maps**, etc., all are Single Page Applications that offer an outstanding user experience in the browser with no page reloading.
-* First item
-* Second item
-* Third item
-* Fourth item
-
-
 </details>
-
 ---
 
 3. Angular workflow _or_ How does Angular work or bootstrapping your angular app? _or_ How do you load an Angular application in the webserver? 
