@@ -8,7 +8,6 @@
 - Fourth item
 
 ---
-
 2. What is meant by SPA? _or_ Give some examples of single-page applications.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
