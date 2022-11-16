@@ -2,11 +2,11 @@
  
  1. Which package should be imported to use Stream API in Java 8?
  
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
- <details><summary><b> Show Answer</b></summary>
+ <details markdown="1"><summary><b> Show Answer</b></summary>
  
- <blockquote>
+ <blockquote markdown="1">
 
  We should import java.util.stream, which includes all the classes and interfaces used for functional-type operations. 
   
@@ -18,9 +18,9 @@
  
  2. Why do we need to import java.util.stream even after importing `java.util.*` in the code to use stream API?
 
-   <details><summary><b> Show Answer</b></summary>
+   <details markdown="1"><summary><b> Show Answer</b></summary>
  
- <blockquote>
+ <blockquote markdown="1">
 
   - `java.util.*` will import all the direct classes and interfaces but not sub-classes/sub-packages.
   - stream class resides in the sub package `java.util.stream` package so it will not be included in `java.util.*`.
@@ -33,11 +33,11 @@
     
   3. Explain Stream API.
   
-  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
     
- <details><summary><b> Show Answer</b></summary>
+ <details markdown="1"><summary><b> Show Answer</b></summary>
  
- <blockquote>
+ <blockquote markdown="1">
 
  - Stream API is a collection of objects which can be processed to get the desired result. 
  - A stream is a sequence of objects that supports various methods which can be pipelined to produce the desired result.
@@ -57,11 +57,11 @@
   
   4. How many operations are performed in stream API to get the result?
   
-  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-  <details><summary><b> Show Answer</b></summary>
+  <details markdown="1"><summary><b> Show Answer</b></summary>
  
- <blockquote>
+ <blockquote markdown="1">
 
 - Two operations - Intermediate and terminal operations.
 - Intermediate - will process the stream to get the result (like a filter, or map).
@@ -75,11 +75,11 @@
    
 5.List some intermediate operations in Stream API.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
- <details><summary><b> Show Answer</b></summary>
+ <details markdown="1"><summary><b> Show Answer</b></summary>
  
- <blockquote> 
+ <blockquote markdown="1"> 
   
  These are some intermediate operations used in Stream API.
  
@@ -93,11 +93,11 @@
   
 6. List some terminal operations in Stream API.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
- <details><summary><b> Show Answer</b></summary>
+ <details markdown="1"><summary><b> Show Answer</b></summary>
  
- <blockquote>
+ <blockquote markdown="1">
  
  These are some terminal operations used in Stream API.
 
@@ -111,16 +111,16 @@
 
 7. Will the values of elements in the stream change when you process it?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 
- <details><summary><b> Show Answer</b></summary>
+ <details markdown="1"><summary><b> Show Answer</b></summary>
 
 No.
   
- <details><summary><b> Explanation </b></summary>
+ <details markdown="1"><summary><b> Explanation </b></summary>
   
- <blockquote>
+ <blockquote markdown="1">
   
 Because stream API processes the elements as per pipelined operations without changing the values.
   
@@ -134,11 +134,11 @@ Because stream API processes the elements as per pipelined operations without ch
 
 8. Explain pipeline operations.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
- <details><summary><b> Show Answer</b></summary>
+ <details markdown="1"><summary><b> Show Answer</b></summary>
  
- <blockquote>
+ <blockquote markdown="1">
 
 - Stream API will take the stream of elements as the source, performs a pipeline of operations, and returns the  result.
 - A pipeline of operations consists of a source, zero or more intermediate operations(filter, sort, map), and a terminal operation.
@@ -151,11 +151,11 @@ Because stream API processes the elements as per pipelined operations without ch
 
 9. List the ways of creating a stream in java8.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
- <details><summary><b> Show Answer</b></summary>
+ <details markdown="1"><summary><b> Show Answer</b></summary>
  
- <blockquote>
+ <blockquote markdown="1">
 
 - By creating `Stream.of()` method 
 - Stream from a Collection using `stream()` & `parallelStream()` methods
@@ -173,11 +173,11 @@ Because stream API processes the elements as per pipelined operations without ch
   
 10. When should we use filter operation in streams?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
- <details><summary><b> Show Answer</b></summary>
+ <details markdown="1"><summary><b> Show Answer</b></summary>
  
- <blockquote>
+ <blockquote markdown="1">
 
 - When we need to process and return a stream from another stream that satisfies a given condition, we use filters in intermediate operations.
 - Example: Return the movie list released in 2022 from the movie database.
@@ -190,11 +190,11 @@ Because stream API processes the elements as per pipelined operations without ch
 
 11. Differentiate between map() and flatMap().
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
- <details><summary><b> Show Answer</b></summary>
+ <details markdown="1"><summary><b> Show Answer</b></summary>
  
- <blockquote>
+ <blockquote markdown="1">
 
 - `map()` - will work on the streams and transform the single input value into a single output.
 - `flatMap()` - will work on the streams and transform the single input value into multiple outputs by flattening it.
@@ -212,11 +212,11 @@ Because stream API processes the elements as per pipelined operations without ch
   
 12. When do we need a sorted intermediate operation to be performed?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
- <details><summary><b> Show Answer</b></summary>
+ <details markdown="1"><summary><b> Show Answer</b></summary>
 
-  <blockquote>
+  <blockquote markdown="1">
  
 - sorted can be used when we need to return the stream of elements in sorted order like sorting arrays.
 - Example: return the student database sorted with their department id's.
@@ -229,11 +229,11 @@ Because stream API processes the elements as per pipelined operations without ch
 
 13. What is the use of count() terminal operations in stream API?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
- <details><summary><b> Show Answer</b></summary>
+ <details markdown="1"><summary><b> Show Answer</b></summary>
  
- <blockquote>
+ <blockquote markdown="1">
  
 - The `count()` method returns the count of elements in a stream
 - when we need the result of the stream to be finite numbers.
@@ -247,11 +247,11 @@ Because stream API processes the elements as per pipelined operations without ch
 
 14. What are the uses of forEach() terminal operation?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
- <details><summary><b> Show Answer</b></summary>
+ <details markdown="1"><summary><b> Show Answer</b></summary>
  
-  <blockquote>
+  <blockquote markdown="1">
 
 - When we need to iterate the elements in the stream.
 - This is the only operation that returns void.
@@ -265,11 +265,11 @@ Because stream API processes the elements as per pipelined operations without ch
   
 15. What is the use of collect() terminal operation?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
- <details><summary><b> Show Answer</b></summary>
+ <details markdown="1"><summary><b> Show Answer</b></summary>
  
-  <blockquote>
+  <blockquote markdown="1">
 
 - When we need to convert the source stream into collections by using intermediate operations. 
 - Result stream may be of the list, set, map, etc.
@@ -282,15 +282,15 @@ Because stream API processes the elements as per pipelined operations without ch
 
  16. Can we add or delete elements from streams?
  
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-  <details><summary><b> Show Answer</b></summary>
+  <details markdown="1"><summary><b> Show Answer</b></summary>
 
  No
   
-   <details><summary><b> Explanation </b></summary>
+   <details markdown="1"><summary><b> Explanation </b></summary>
     
-   <blockquote>
+   <blockquote markdown="1">
     
  - we cannot add/ delete elements in the stream
  - we can only perform the operations on the stream
@@ -306,11 +306,11 @@ Because stream API processes the elements as per pipelined operations without ch
  
  17. Explain about Lazy Invocation.
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
- <details><summary><b> Show Answer</b></summary>
+ <details markdown="1"><summary><b> Show Answer</b></summary>
  
- <blockquote>
+ <blockquote markdown="1">
 
 - Intermediate operations are lazy because they will be invoked if only required for the execution of terminal operations.
 - But it is optimized and it can process large numbers of data with high performance.
@@ -325,7 +325,7 @@ Because stream API processes the elements as per pipelined operations without ch
 
 18. Predict the output for the following operation.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
@@ -335,17 +335,17 @@ Stream<String> s = Stream.of("java", "SQL", "python",  "JDBC");
  s.filter(x -> x.startsWith("S")).forEach(System.out::print);
   
  ```
-  <details><summary><b> Show Answer</b></summary>
+  <details markdown="1"><summary><b> Show Answer</b></summary>
  
-  <blockquote>
+  <blockquote markdown="1">
 
   returns SQL
    
    </blockquote>
  
-  <details><summary><b> Explanation </b></summary>
+  <details markdown="1"><summary><b> Explanation </b></summary>
    
- <blockquote>
+ <blockquote markdown="1">
    
  Here we are using the filter to return the result of the element starting with "S".
     
@@ -359,7 +359,7 @@ Stream<String> s = Stream.of("java", "SQL", "python",  "JDBC");
 
  19. Predict the output of the following intermediate operation.
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
  
  ``` java
 
@@ -367,13 +367,13 @@ Stream<String> s = Stream.of("apple", "orange", "apple", "banana", "banana");
 s.distinct().forEach(System.out::print);
    
  ```
- <details><summary><b> Show Answer</b></summary>
+ <details markdown="1"><summary><b> Show Answer</b></summary>
 
    returns appleorangebanana
   
- <details><summary><b> Explanation </b></summary>
+ <details markdown="1"><summary><b> Explanation </b></summary>
   
-  <blockquote>
+  <blockquote markdown="1">
   
 `distinct()`- will return a stream from the source stream removing the duplicate elements.
    
@@ -388,7 +388,7 @@ s.distinct().forEach(System.out::print);
 
  20. Predict the output of the following code.
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 ``` java
 import java.util.stream.*;  
@@ -401,9 +401,9 @@ public class JavaStreamExample {
     }  
 }
 ```
- <details><summary><b> Show Answer</b></summary>
+ <details markdown="1"><summary><b> Show Answer</b></summary>
  
- <blockquote>
+ <blockquote markdown="1">
   
    2<br>
    4<br>
@@ -412,13 +412,13 @@ public class JavaStreamExample {
   
    </blockquote>
  
-  <details><summary><b> Explanation </b></summary>
+  <details markdown="1"><summary><b> Explanation </b></summary>
    
-   <blockquote>
+   <blockquote markdown="1">
    
    - `iterate ()` is used to iterate through the elements in the stream.
    - `filter()` used to apply the condition on the stream.
-   - `forEach()` is used to return the result from the stream after iteration. <blockquote>
+   - `forEach()` is used to return the result from the stream after iteration. <blockquote markdown="1">
     
  
 </details>

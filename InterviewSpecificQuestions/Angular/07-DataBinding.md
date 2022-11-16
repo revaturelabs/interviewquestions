@@ -1,10 +1,10 @@
 1. Consider there is a variable `name = "Angular"` in `app.component.ts, how can I print this value in template.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 Using String Interpolation, we can print the `name` in the template. In `app.component.html`, 
 ```html
@@ -20,11 +20,11 @@ Using String Interpolation, we can print the `name` in the template. In `app.com
 	- Template should have a button named `Click Me`
 	- When the user clicked on the button, you should greet the user with the message "Welcome to my angular app"
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 In `app.component.html`, create a button and have `Click Me` enclosed with the `<button>` tag. When the user clicked on the button, we should greet the user with the message "Welcome to my angular app". We need data binding. 
 	
@@ -39,11 +39,11 @@ In `app.component.html`, create a button and have `Click Me` enclosed with the `
 	
 3. What are the ways of data binding in angular?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - Databinding is a technique used to bind the data from a view to a component or from a component to a view.
 - They are 1-way data binding and 2-way data binding
@@ -57,11 +57,11 @@ In `app.component.html`, create a button and have `Click Me` enclosed with the `
 
 4. What is Property Binding? How do you achieve it in Angular?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 	
 - From Component to the view
 - Bind values to the attributes of HTML elements.
@@ -77,11 +77,11 @@ In `app.component.html`, create a button and have `Click Me` enclosed with the `
 
 5. How do you achieve event binding in Angular?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - From view to component
 - Bind DOM events such as keystrokes, button clicks, mouseovers, touches, etc. to a function in the component.
@@ -97,11 +97,11 @@ In `app.component.html`, create a button and have `Click Me` enclosed with the `
 
 6. What is meant by String Interpolation?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - From the component class to the HTML template
 - Uses {{}}, double curly braces in the HTML
@@ -116,11 +116,11 @@ In `app.component.html`, create a button and have `Click Me` enclosed with the `
 
 7. Do you know about two-way data binding in angular? If so, explain.
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - Two-way data binding is achieved by combining property binding and event binding.
 - Mostly used in forms.
@@ -137,11 +137,11 @@ In `app.component.html`, create a button and have `Click Me` enclosed with the `
 
 8. What is the difference between property and attribute in angular?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 For example, if we take below `<input>` tag:	
 	
 ```html

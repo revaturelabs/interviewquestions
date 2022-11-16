@@ -1,10 +1,10 @@
 1. What is the `Set` Interface and list out the classes that implements it?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 
@@ -21,11 +21,11 @@
 
 2. List out basic operations of the `Set` Interface.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 
@@ -38,15 +38,15 @@
 
 3. What is `HashSet`? Explain the internal working of `HashSet`.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
  - `HashSet` stores, elements without retaining the order of elements.
  - Internally `HashSet` works as a `HashTable`.
@@ -59,15 +59,15 @@
 ---
 4. What is `LinkedHashSet`? Explain the internal working of `LinkedHashSet`.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - `LinkedHashSet` stores, unique elements by retaining the order of elements.
 - Internally ` LinkedHashSet ` is a `HashTable` and `LinkedList`.
@@ -84,15 +84,15 @@
 
 5. What is `TreeSet`? Explain the internal working of `TreeSet`.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - `TreeSet` stores, unique elements by retaining the order of elements.
 - Internally ` TreeSet ` implements red-black tree.
@@ -108,7 +108,7 @@
 
 6. What is the time complexity of <code>add()</code> method for a `HashSet`?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
@@ -117,12 +117,12 @@ B. O(1)<br>
 C. O(log n)<br>
 D. O(n <sup>2</sup>) 
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 > B
 
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
 
 > HashSet Stores elements without maintaining the order, so the time complexity is constant.
@@ -134,7 +134,7 @@ D. O(n <sup>2</sup>)
 
 7. What is the time complexity of <code>remove(element)</code> method for a `HashSet`?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
@@ -143,12 +143,12 @@ B. O(1)<br>
 C. O(log n)<br>
 D. O(n <sup>2</sup>) 
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 > B
 
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
 
 > HashSet Stores elements in the form of hashcode so the elements can be directly retrieved and deleted, so the time complexity is constant.
@@ -160,7 +160,7 @@ D. O(n <sup>2</sup>)
 
 8. What is the time complexity of <code>conatins()</code> method for a `HashSet`?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
@@ -169,12 +169,12 @@ B. O(1)<br>
 C. O(log n)<br>
 D. O(n <sup>2</sup>) 
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 > B
 
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
 
 > HashSet Stores elements in the form of hashcode so the elements can be searched directly, so the time complexity is constant.
@@ -186,12 +186,12 @@ D. O(n <sup>2</sup>)
 
 9.  What is `EnumSet`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 Java `EnumSet` class is the special `Set` implementation for enum types. It inherits `AbstractSet` class and implements the `Set` interface.
 
 Features
@@ -224,11 +224,11 @@ Features
 
 10. What is `hashCode()`?
  
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 
@@ -240,14 +240,14 @@ Features
 
 11. What happens if `hashCode()` method is not overridden?
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - If `hashCode()` method is not overridden then the default implementation of the Object class is implemented.
 
@@ -263,15 +263,15 @@ Features
 
 12. What are the differences between `HashSet` and `TreeSet`.
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
  
- <blockquote>
+ <blockquote markdown="1">
 
 | HashSet                                                                                              | TreeSet                                                                       |
 | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
@@ -285,7 +285,7 @@ Features
  
 13. What is the output of the following program?
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
@@ -337,16 +337,16 @@ D. <br>
    [-1,1,2,3]
 
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 
 >D
 
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - `HashSet` doesn't maintain insertion order, so elements will be printed in random order.
 - `TreeSet ` maintains sorted order, so the elements will be in sorted order.
@@ -362,14 +362,14 @@ D. <br>
 
 1. Consider there are two hash sets a and b with some elements in each, How to get the intersection of a and b?
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - `a.retainAll(b)`, transforms a into the intersection of a and b.
 </blockquote>
@@ -381,14 +381,14 @@ D. <br>
 
 2. Consider there are two hash sets a and b with some elements in each, How to get the union of a and b?
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - `a.addAll(b)`, transforms a into the union of a and b.
 </blockquote>
@@ -400,14 +400,14 @@ D. <br>
 
 3. Consider there are two hash sets a and b with some elements in each, How to check if a is a subset of b?
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - `b.containsAll(a)` returns true, if b contains all the elements of a, i.e. a is a subset of b, returns false otherwise.
 </blockquote>
@@ -419,14 +419,14 @@ D. <br>
 
 4. Consider there are two hash sets a and b with some elements in each, How to get the separate the unique elements present in a but not b?
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - `a.removeAll(b)`, transforms an into the set difference of a and b. only elements in a that are not in b are stored in a.
 </blockquote>
@@ -438,15 +438,15 @@ D. <br>
 
 5. Write a program to get the union, intersection and difference of two sets without altering the existing sets.
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
  
  
- <blockquote>
+ <blockquote markdown="1">
 
 ``` java
 
@@ -490,15 +490,15 @@ public class SetOperations {
 
 1. Local elections are planned to occur one month from now, and there is a list with all the names of people who live in the city but some names are repeated. so prepare a unique list of people who are eligible to vote from the existing list. 
  
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 ``` java
 HashSet<String> voterList = new HashSet<>(names);
@@ -513,7 +513,7 @@ HashSet<String> voterList = new HashSet<>(names);
 
 1. Which of the following is true for the code snippet mentioned below?
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
@@ -533,12 +533,12 @@ C. `a.get(0)` throws exception and `a.set(0,1)` overrides 2 to 1;
 
 D. both `a.get(0)` and `a.set(0,1)` throw exceptions.
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 > D
 
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
 
 > - `HashSet` stores elements in a random order without positional access, so get and set methods are not applicable for `HashSet`.

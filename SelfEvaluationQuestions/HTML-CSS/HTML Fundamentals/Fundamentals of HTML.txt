@@ -168,13 +168,13 @@ The font-family property is used to change text font in HTML.
 16.How are quotations defined in HTML?
 A.<quote>
 B.<block>
-C.<blockquote>
+C.<blockquote markdown="1">
 D.None of the above
 
 Answer:C
 
 Explanation:
-The <blockquote> tag is used to define a section that is quoted from another source.
+The <blockquote markdown="1"> tag is used to define a section that is quoted from another source.
 
 17.Which of the following tags, in addition to the <i> tag , is needed to render a text in italics?
 A.<em>

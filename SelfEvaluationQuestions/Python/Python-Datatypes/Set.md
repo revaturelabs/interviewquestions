@@ -2,10 +2,10 @@
 
 1.What is the difference between list and set?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
-<blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+<blockquote markdown="1">
 	
  `List:[]`
     - List is Mutable and ordered/indexed.
@@ -24,10 +24,10 @@
 
 2.How will you add list of items into a Set?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
-	<blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+	<blockquote markdown="1">
 	
 - In python, we can use the `update()` method of a set, to add list of items into a set.
 	
@@ -56,9 +56,9 @@ set1 = {10, 20, 30, 40, 50}
 set2 = {30, 40, 50, 60, 70}
 ```
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 	
 > For that, we have `Intersction()` method of a set.
 	
@@ -92,9 +92,9 @@ for i in set1:
 print(set3)
 ```
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 	
 > {(9, 5), (9, 6), (10, 6), (8, 5)}
 
@@ -106,9 +106,9 @@ print(set3)
 
 > set1 = {10, 20, 30, 40, 50}
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 	
 > In python, we use `difference_update()` method of a set.
 
@@ -130,7 +130,7 @@ print(1)
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 ```python	
 set1 = {10, 20, 30, 40, 50}
@@ -154,10 +154,10 @@ else:
 
 7.What are the methods you frequently use when dealing with set in python?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
-	<blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+	<blockquote markdown="1">
 	
  - Set provides different kinds of built-in methods that anyone can use for set manipulations. Some of these methods are mentioned below:
 	
@@ -194,10 +194,10 @@ xiii)`update()`: Update the set with the union of this set and others
 	
 8.What is the difference between `pop()` and `remove()`?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
-	<blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+	<blockquote markdown="1">
 	
 - `pop()`:
    - it is used to remove an element from the set.
@@ -236,10 +236,10 @@ print(fruits)
 
 9.How to iterate over the set of elements? Write a code for that.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
-	<blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+	<blockquote markdown="1">
 	
 - In python, to iterate over set, we can use any loop.
 	
@@ -266,9 +266,9 @@ a
 	
 10.What is the use of `copy()` method? 
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 	
 > The `copy()` method is used to copies the set.
 	
@@ -290,9 +290,9 @@ print(x)
 
 11.How will you zip 2 sets together?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 	
 > We can zip, but the values from each set may not be joined in order.
 	
@@ -313,9 +313,9 @@ print(list(z))
 
 12.Can a set be accessed by index?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 	
 > `No`. Set can't be accessed by index, and if your trying to access a set by index, it will throw an error.
 	
@@ -336,9 +336,9 @@ TypeError: 'set' object is not subscriptable
 
 13.Can you Update a set to equal the intersection of it and another set.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 	
 > In python, `intersection_update()` updates the first set to be equal to the intersection.
 	
@@ -374,9 +374,9 @@ print(s1)
 
 14.Can you remove the intersection of a 2nd set from the 1st set.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 	
 > In python, `difference_update()` removes the intersection from the first set.
 	
@@ -412,9 +412,9 @@ print(s1)
 
 15.Write a Python program to create a `shallow copy` of sets.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 	
 > Note : `Shallow copy` is a bit-wise copy of an object. A new object is created that has an exact copy of the values in the original object.
 

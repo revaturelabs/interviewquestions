@@ -1,9 +1,9 @@
 1.	What is Design Pattern? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
-<blockquote>
+<details markdown="1"><summary><b> Show Answer</b></summary>
+<blockquote markdown="1">
 
 - Design patterns are reusable solutions to general problems including repetitive code, redundant functions, and logic that software developers faced during software development.
 - Design patterns are commonly used in object-oriented software products by incorporating best practices and promoting reusability for developing robust code.
@@ -15,12 +15,12 @@
 ---
 2. What is DAO?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
 
 DAO stands for Data Access Object. DAO Design Pattern is used to separate the data persistence logic in a separate layer. 
 
@@ -36,12 +36,12 @@ The following are the components of the DAO Pattern.
 
 3. What is a singleton pattern?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
 
 Singleton is a creational design pattern that lets you ensure that a class has only one instance while providing a global access point to this instance.
 
@@ -59,11 +59,11 @@ If your code has access to the Singleton class, then it’s able to call Singlet
 
 4. Describe the SOLID Principles.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - S - Single Responsibility Principle (SRP): The single responsibility principle ensures that every class or module should be accountable and responsible for only one functionality. There should be one and only one reason for changing any class.
 - O - Open Closed Principle (OCP): Every class is open for extension but closed for modification. Here, we are allowed to extend the entity’s behavior by not modifying anything in the existing source code.
@@ -80,11 +80,11 @@ If your code has access to the Singleton class, then it’s able to call Singlet
 
 5. How are design principles different from design patterns?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Design principles are those principles that are followed while designing software systems for any platform by making use of any programming language. SOLID principles are the design principles that we follow as guidelines to develop robust, extensible, and scalable software systems. These apply to all aspects of programming.
 - Design Patterns are reusable template solutions for commonly occurring problems that can be customized as per the problem requirements. These are well-implemented solutions that are tested properly and safe to use. Factory Design Patterns, Singleton patterns, and Strategy patterns are a few examples of design patterns
@@ -98,11 +98,11 @@ If your code has access to the Singleton class, then it’s able to call Singlet
 
 6. Explain  Factory Design Pattern with an example?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 Factory design pattern belongs to the category of Creational Design Patterns. Here, the objects are created without exposing the logic of creation to the client. The objects refer to the common interface. This pattern allows for hiding the creation logic of the application by using interfaces and factory classes. It lets to test the seamlessness of the application by using mock or stubs.
 Introduces loose coupling in the application by allowing flexibility in the implementation of methods when new classes are introduced
@@ -193,11 +193,11 @@ For example, Let’s consider 3 classes Square, Rectangle, and Triangle. We will
 
 7. Explain the MVC design pattern?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
  
 MVC stands for Model-View-Controller. This pattern is used for separating the application’s concerns as listed below:
 

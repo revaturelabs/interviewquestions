@@ -2,10 +2,10 @@
 
 1.What do you mean by python `dictionary` ? How does it work?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
-  <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+  <blockquote markdown="1">
   
 - Python `dictionary` objects are data types that are enclosed in curly braces '{}' and have key value pairs and each pair is seperated by a `comma(,)`.  
     
@@ -35,9 +35,9 @@ print(user_info['name'])
   
 2.How will you get the keys and values in dictionary?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > In `dictionary`, `keys()` method will provide all list of the keys in `dictionary`.
   
@@ -85,9 +85,9 @@ print(user_info.items())
   
 3.Are dictionaries mutable? What do you mean by mutable?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > `Yes`,the python dictionary is a mutable object.  
     
@@ -115,7 +115,7 @@ Student info after corrections:  {'id': 12, 'nationality': 'China', 'data_enroll
 
 4.What is the difference between `list.pop()` and `dictionary.pop()`?
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > The `pop()` method is the last item in the list. However, the `pop()` method in the dictionary can remove a specified item. The `dict.popitem()` would be the equivalent of `list.pop()`. 
   
@@ -140,9 +140,9 @@ After popping:  {'current_location': 'Bangaluru', 'job': 'sofware engineer'}
 
 5.How will you merge more than one dictionary?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > In python, dictionary can be merged as {**dict_1, **dict_2, …,**dict_n}. In python 3.9, it can be merged using `|` operator.
   
@@ -171,9 +171,9 @@ using | operator : {'name': 'Harini', 'age': 27, 'location': 'kerala', 'job': 's
 
 6.How will you convert `list` to a `dictionary`?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > In python, dictionary has key and value pair but the list does not. So, some cases of converting lists into dictionaries are,  
     
@@ -220,7 +220,7 @@ print(pet_number_dict_2)
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > It means `dict_2 = dict_1 vs. dict_2 = dict_1.copy()`. When you are duplicating a dictionary object without a `copy()` method, you are not creating a new dictionary but pointing to the same dictionary object. So, when you make changes in the duplicate list, it changes the original as well.
   
@@ -285,14 +285,14 @@ d={(3,4,8):4,(5,6,9):3}
 print('dictionary output:' ,d[3,4,9])
 ```
   
-<details><summary> <b>Show Answer</b> </summary>
-<blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+<blockquote markdown="1">
   
 print('dictionary output:',d[3,4,9])
   
 KeyError: (3, 4,9)
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 - It will throw a `key error` because, keys are not found in the dictionary.
   
@@ -305,7 +305,7 @@ KeyError: (3, 4,9)
   
   ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > `pprint` is a python module that provides the capability to pretty print python data types.  
 > First, declare an array of dictionaries. After, pretty print it using the function `pprint.pprint()`.  
@@ -344,9 +344,9 @@ cpydict = dictlang.copy()
 print(id(cpydict) == id(dictlang))
 ```
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 **Output**:
   
@@ -358,9 +358,9 @@ print(id(cpydict) == id(dictlang))
   
 11.How will you delete a key from Dictionary?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)  
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > In python, we can use `del` keyword to delete a key from dictionary.
   
@@ -383,9 +383,9 @@ print('Dictionary after deleting key =',fruitsDict)
   
 12.Write a program to get min and max keys corresponding to min and max value in dictionary?
   
-  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 ```python  
 n = int(input("enter the number of values"))
@@ -405,9 +405,9 @@ print('max value key:',max(FruitsDict,key=FruitsDict.get))
   
 13.How to sum all elements of Dictionary?
   
-  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > In python, using `sum()` method, we can sum the dictionary elements.
   
@@ -435,9 +435,9 @@ two_highest_values = nlargest(2, FruitDict, key=FruitDict.get)
 print(two_highest_values) 
 ```
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 **Output**:
   
@@ -451,7 +451,7 @@ print(two_highest_values)
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)  
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 ```python  
 Dict_tab = {'Students':['Rack','Jack','John'],'Fruit':['Apple','Banana','Orange'],'Subject':['Phy','Math','English']}
@@ -475,9 +475,9 @@ Orange John English
   
 16.Write a Python program to sort a `list` alphabetically in a `dictionary`?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 ```python  
 num = {'n1': [2, 3, 1], 'n2': [5, 1, 2], 'n3': [3, 2, 4]}
@@ -506,9 +506,9 @@ for a in students:
         print (b,':',students[a][b])
 ```
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 ``` 
 kanika
@@ -534,7 +534,7 @@ Expected data: [('Chemistry', 87), ('Physics', 83), ('Math', 81)]
   
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 ```python  
 from collections import Counter
@@ -558,15 +558,15 @@ dict_len = sum(map(len, dict.value()))
 print(dict_len)
 ```
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)  
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)  
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 **Output**:
   
 > AttributeError: 'dict' object has no attribute 'value'
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
  > The above code throws an attribute error. Because, attribute reference is missing.
   
@@ -583,15 +583,15 @@ dict1 ={'English':'67%','Maths':'78%','Social_Science':'87%','EVS':'97%'}
 print(dict1 .keys( ))
 ```
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)  
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)  
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 **Output**:
   
 > dict_keys(['English', 'Maths', 'Social_Science', 'EVS'])
   
- <details><summary> <b>Explanation</b> </summary>
+ <details markdown="1"><summary> <b>Explanation</b> </summary>
    
 > The above code prints keys, because in the above code we used `dict1.key()` method so that we get key values.
   

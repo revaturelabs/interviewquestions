@@ -2,9 +2,9 @@
 
 1.Explain python modules?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details><summary><b>Show Answer</b></summary>
-  <blockquote>
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1"><summary><b>Show Answer</b></summary>
+  <blockquote markdown="1">
   
  - A file containing Python definitions and statements is known as a module. In python, Variables, classes, and functions can all be defined in a module. 
  - Executable file may also be included in a module.
@@ -40,9 +40,9 @@ example.add()
 
 2.Which one of these are used for storing and exchanging the data?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > - In python, `JSON` is a syntax for storing and exchanging data.
 > - Python have an built-in package called json, which is used to work with `JSON` data.
@@ -58,10 +58,10 @@ example.add()
 
 3.How can we import modules in python?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-  <blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+  <blockquote markdown="1">
   
 - In Python, the `import` statement is used to import the whole module. Also, we can import specific categories and functions from a module.
   
@@ -89,9 +89,9 @@ print(math.sqrt(5))
   
 4.Can we import multiple modules in python. Give an example?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)  
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)  
   
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
   
 > - Yes, we can import multiple modules in python.
 > - If we want to use more than one module, then we can import multiple modules. This is the simplest form to import a statement.
@@ -118,9 +118,9 @@ print(random.randint(10, 20))
 
 5.How will you import with renaming a module?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
   
 > If we want to use the module with a different name, we can use import_as statement. It is possible to import a particular method and use that method with a different name. 
 Then, we can use that name in the entire program.
@@ -143,9 +143,9 @@ print(number(100, 500))
   
 6.How will you import all the modules in python?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary> 
+<details markdown="1"><summary><b>Show Answer</b></summary> 
   
 > If we want to `import` all the functions and attributes of a specific module, instead of writing all names and functions names ,we can import all using              <b> * </b>. 
  
@@ -172,7 +172,7 @@ print(pow(5,2))
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary> 
+<details markdown="1"><summary><b>Show Answer</b></summary> 
 
 ```python
 import re
@@ -194,9 +194,9 @@ print(emails)
 
 8.Write a python program to shuffle the given elements.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary> 
+<details markdown="1"><summary><b>Show Answer</b></summary> 
   
 ```python
 import random
@@ -218,9 +218,9 @@ print("after shuffling",String)
 
 9.Write a python program to find the words with exactly 8 letters using regular expression.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary> 
+<details markdown="1"><summary><b>Show Answer</b></summary> 
 
 ```python
 import re
@@ -242,9 +242,9 @@ print(output)
 
 10.What is `dir()` function in modules?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary> 
+<details markdown="1"><summary><b>Show Answer</b></summary> 
   
 > - In python,`dir()` is a built-in function. This function is used to list all the members in current modules.
 > - When we use this `dir()` function with any object(like list,tuple,set,...), it will return properties , attributes and methods.
@@ -272,7 +272,7 @@ print(dir(re))
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
   
 > - In python, to sort JSON keys, first we need to import the JSON.
 > - After importing the json data, we need to write into a file. Then, we should open a file and dump the data into a single file.
@@ -298,10 +298,10 @@ print("writing JSON data into a file is done")
 
 12.What is Short Label in python module?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary> 
-  <blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary> 
+  <blockquote markdown="1">
   
  1. `\w` - This is a Word class (alphanumeric).
  2. `\d` - This label is for Digits.
@@ -317,9 +317,9 @@ print("writing JSON data into a file is done")
 
 13.Write a python program to check whether the given function is user-defined or not.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 ```python
 import types
@@ -344,10 +344,10 @@ print(isinstance(abs, types.LambdaType))
 
 14.How can we use `re.split()` function in module?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary> 
-  <blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary> 
+  <blockquote markdown="1">
   
  - In python, `re.split()` is used to define how many splits you want to perform.
  - For example, if maxsplit=3, then it will do 3 splits.
@@ -374,10 +374,10 @@ print(isinstance(abs, types.LambdaType))
 
 15.What is the difference between `string split()` method and `regex split()`?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-  <blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+  <blockquote markdown="1">
 
 `string split()`:
 
@@ -425,10 +425,10 @@ print(output)
 
 16.How can we replace one or more occurrences of a regex pattern in given string?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-  <blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+  <blockquote markdown="1">
 
  - In python, we can use `sub()` and `subn()` methods to search and replace a string.
  - Using these methods, we can replace one or more occurrences of a regex pattern in the target string with the given string.
@@ -448,10 +448,10 @@ print(output)
 
 17.What are the differences between Built-in modules and User-defined modules?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-  <blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+  <blockquote markdown="1">
 
 **Built-in modules**:
 
@@ -483,9 +483,9 @@ print(output)
 
 18.How can we convert python object to JSON?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > In python, we have python object,which can convert object into a json by using `json.dumps()` method.
 
@@ -536,13 +536,13 @@ Json_data=re.findall('>\w+', string)
 print(Json_data)
 ```
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > ['>Belarus', '>China', '>2000']
 
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 
 > The Ouptut of the code is (['>Belarus', '>China', '>2000']) starts with > sign. It will return only those statements.
 
@@ -561,13 +561,13 @@ print(Json_data)
  
  D.re.create(str)
  
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > Option A.`re.compile(str)`
 
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 
 > The function `re.compile(srt)` compiles a pattern of regular expression into an object of regular `expression. `re.compile(str)` is the only function that creates an object.
 

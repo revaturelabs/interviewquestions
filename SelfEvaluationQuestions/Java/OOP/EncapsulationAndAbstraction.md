@@ -2,13 +2,13 @@
 
 1. Explain and Implement Encapsulation.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b> </summary>
     
- <blockquote>
+ <blockquote markdown="1">
     
 - Encapsulation is creating a class with related fields and methods and hiding the fields and methods from the rest of the world, this can be achieved by creating fields and methods and private and accessing the fields and methods using objects.
   
@@ -65,9 +65,9 @@ public class ATM {
    
 2. What is Abstraction?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary><b>Show Answer</b></summary>
+<details markdown="1"> <summary><b>Show Answer</b></summary>
     
 > Data abstraction is the process of hiding certain details and showing only essential information to the user.
 > In java Abstraction can be achieved in two ways:
@@ -84,9 +84,9 @@ public class ATM {
 
 3. When to use abstract class and interface?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
     
 > <b>Abstract Class: </b>
 > 
@@ -106,11 +106,11 @@ public class ATM {
 
 4. What are the advantages of encapsulation?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary><b>Show Answer</b></summary>
+<details markdown="1"> <summary><b>Show Answer</b></summary>
     
- <blockquote>
+ <blockquote markdown="1">
     
 | **#** | ** Abstract Class**                                                                          | ** Interface**                                                                     |
 | ----- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
@@ -129,9 +129,9 @@ public class ATM {
 
 5. What members are allowed in an abstract class?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary><b>Show Answer</b></summary>
+<details markdown="1"> <summary><b>Show Answer</b></summary>
     
 > 1. fields
 > 2. Abstract Method
@@ -145,17 +145,17 @@ public class ATM {
 
 6. Which of the following is true when an abstract class implements an Interface?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 - A. Abstract class must override all the methods of an interface
 - B. Abstract class must override all the abstract methods of an Interface.
 - C. The abstract class does not need to override all the methods of the interface.
 - D. None of the above.
 
-<details> <summary><b>Show Answer</b></summary>
+<details markdown="1"> <summary><b>Show Answer</b></summary>
     
 > C
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 
 > normally when a class doesn't implement all the abstract methods of an interface it leads to a compilation error, this can be avoided by declaring the class abstract because an abstract method can have unimplemented methods. 
     
@@ -167,9 +167,9 @@ public class ATM {
 
 7. Is it possible to create an object for an abstract class?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary><b>Show Answer</b></summary>
+<details markdown="1"> <summary><b>Show Answer</b></summary>
     
 > No, the abstract class can not be initialized as it contains incomplete methods( abstract methods or methods with no implementation).
 > One way to create an object for an abstract class is using an Anonymous inner class.
@@ -185,18 +185,18 @@ public class ATM {
 
 1. A vending machine has different items and functions to take the cash and dispense the item, but all these occur internally and as an external user one can only access it using selection buttons. this is an example for?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 - A. Polymorphism
 - B. Inheritance
 - C. Encapsulation
 - D. None of the above.
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > C
     
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 
 > We can consider vending machine as class with dispensable items as fields and dispense operation as methods combined as a single unit.
     
@@ -209,7 +209,7 @@ public class ATM {
 
 1. What is the output of the following code?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 ``` java
 interface Car{
@@ -236,11 +236,11 @@ abstract public class Audi implements Car{
 - C.Runtime error
 - D.No error
 
-<details> <summary><b>Show Answer</b></summary>
+<details markdown="1"> <summary><b>Show Answer</b></summary>
     
 > D
 
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 
 
 > it is not mandatory for an abstract class to implement all the methods of an interface.

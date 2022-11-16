@@ -1,8 +1,8 @@
 1.What is Design Pattern? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
 > Design patterns are a toolkit of tried and tested solutions to common problems in software design. Even if you never encounter these problems, knowing patterns is still useful because it teaches you how to solve all sorts of problems using principles of object-oriented design.
 
@@ -13,9 +13,9 @@
 
 2.Explain the types of Design Pattern? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
 >- Creational design patterns provide solution to instantiate an object in the best possible way for specific situations.These design patterns are used when decision must be made at the time of creating an object of a class.
 >- Structural design patterns provide different ways to create a class structure by using inheritance and composition to create a large object from small objects.
@@ -27,9 +27,9 @@
 
 3.Explain the types of Creational Design Pattern? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
 >- Singleton pattern restricts the instantiation of a class and ensures that only one instance of the class exists in the Java virtual machine. It seems to be a very simple design pattern but when it comes to implementation, it comes with a lot of implementation concerns. 
 >- Factory pattern is used when we have a superclass with multiple sub-classes and based on input, we need to return one of the sub-class. This pattern takes out the responsibility of the instantiation of a class from the client program to the factory class. We can apply a Singleton pattern on the Factory class or make the factory method static. 
@@ -43,9 +43,9 @@
 
 4.Explain the types of Structural Design Pattern? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
 >- Adapter pattern is one of the structural design patterns and it’s used so,that two unrelated interfaces can work together. The object that joins these unrelated interfaces is called an Adapter. 
 >- Composite pattern is one of the Structural design patterns and is used when we have to represent a part-whole hierarchy. When we need to create a structure in a way that the objects in the structure have to be treated the same way, we can apply the composite design pattern. 
@@ -61,9 +61,9 @@
 
 5.Explain the types of Behavioral Design Pattern? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
 >- Template method pattern is a behavioral design pattern and it’s used to create a method stub and deferring some of the steps of implementation to the subclasses. The template method defines the steps to execute an algorithm and it can provide a default implementation that might be common for all or some of the subclasses. 
 >- Mediator pattern is used to provide a centralized communication medium between different objects in a system. The mediator design pattern is very helpful in an enterprise application where multiple objects are interacting with each other. If the objects interact with each other directly, the system components are tightly coupled with each other which makes maintainability cost higher and not flexible to extend easily. The mediator pattern focuses on to provide a mediator between objects for communication and help in implementing loose-coupling between objects. 
@@ -83,7 +83,7 @@
 
 6.Write the missing code in  the following program.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
  ``` java 
 import java.io.*;      
@@ -138,9 +138,9 @@ class BillDemo{
             }  
     }
 ```
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 	
 ```java
 class Plan{  
@@ -164,9 +164,9 @@ class Plan{
 
 </blockquote>
 	
-<details><summary><b> Explanation</b></summary>
+<details markdown="1"><summary><b> Explanation</b></summary>
 	
-<blockquote>
+<blockquote markdown="1">
 	
 - Enter the name of plan for which the bill will be generated:Domestic Plan
 - Enter the number of units for bill will be calculated: 100
@@ -185,11 +185,11 @@ ___
 
 7.Write some code to create a early instantiation in Singleton design pattern. 
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 	
 ``` java 
 class Singleton1{  
@@ -208,7 +208,7 @@ class Singleton1{
 
 </blockquote>
 	
-<details><summary><b> Explanation</b></summary>
+<details markdown="1"><summary><b> Explanation</b></summary>
 
 >We create the instance of the class at the time of declaring the static data member.So,instance of the class is created at the time of classloading.
 
@@ -219,9 +219,9 @@ class Singleton1{
 
 8.What are the advantages and usages of Abstract Factory Pattern? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
 >- Abstract Factory Pattern isolates the client code from concrete (implementation) classes.It eases the exchanging of object families.
 It promotes consistency among objects.
@@ -233,11 +233,11 @@ It promotes consistency among objects.
 
 9.Write some code to create a lazy  instantiation  in  Singleton design pattern.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 	
 ``` java 
 class Lazy{  
@@ -263,7 +263,7 @@ class Lazy{
 
 </blockquote>
 	
-<details><summary><b> Explanation</b></summary>
+<details markdown="1"><summary><b> Explanation</b></summary>
 
 >We create the instance at the request time.
 	
@@ -274,11 +274,11 @@ class Lazy{
 
 10.Write some code to create a concrete classes and abstract class for abstract factory design pattern.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 	
 ``` java 
 
@@ -317,7 +317,7 @@ class DiffBank extends Bank1{
 
 </blockquote>
 	
-<details><summary><b> Explanation</b></summary>
+<details markdown="1"><summary><b> Explanation</b></summary>
 
 >We create a concrete classes DiffBank and abstract classes  for Loan and Bank1 and inherited the classes.
 	
@@ -328,9 +328,9 @@ class DiffBank extends Bank1{
 
 11.what are the advantages and usages  of Prototype Pattern?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
 >- Prototype Pattern reduces the need of sub-classing.It hides complexities of creating objects.The clients can get new objects without knowing which type of object it will be.It lets you add or remove objects at runtime.
 >- When the classes are instantiated at runtime.When the cost of creating an object is expensive or complicated.When you want to keep the number of classes in an application minimum.When the client application needs to be unaware of object creation and representation.
@@ -341,11 +341,11 @@ class DiffBank extends Bank1{
 
 12.Write some code to create an adapter class for adapter factory design pattern.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 	
 ``` java 
 public class Bank{  
@@ -376,7 +376,7 @@ public class Bank{
 
 </blockquote>
 
-<details><summary><b> Explanation</b></summary>
+<details markdown="1"><summary><b> Explanation</b></summary>
 
 >The Bank class is a wrapper class which implements the setter and getter methods and modifies the specific request available from the Adapter class.
 
@@ -387,9 +387,9 @@ public class Bank{
 
 13.What are the elements of Composite Pattern? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
 >- Component declares the interface for objects in composition.It implements default behavior for the interface common to all classes as appropriate.
 It declares an interface for accessing and managing its child components.
@@ -403,11 +403,11 @@ It declares an interface for accessing and managing its child components.
 
 14.Write some code to create a class for Composite design pattern.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 	
 ``` java 
 import java.util.*;  
@@ -477,7 +477,7 @@ public class Bank implements Employee {
 
 </blockquote>
 	
-<details><summary><b> Explanation</b></summary>
+<details markdown="1"><summary><b> Explanation</b></summary>
 
 >The Bank class is a Composite class which implements the setter and getter methods and implements the methods which are declared in the employee interface.
 	
@@ -488,7 +488,7 @@ public class Bank implements Employee {
 
 15.Write the missing code in the main method for implementing the singleton.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 ``` java 
@@ -522,9 +522,9 @@ public class DemoSingleThread {
 
 
 ```
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 	
 ``` java 
 public class DemoSingletonThread {
@@ -540,7 +540,7 @@ public class DemoSingletonThread {
 	
 </blockquote>
 	
-<details><summary><b> Explanation</b></summary>
+<details markdown="1"><summary><b> Explanation</b></summary>
 	
 >If you see the same value, then singleton was reused and If you see different values, then 2 singletons were created.
 	
@@ -551,11 +551,11 @@ public class DemoSingletonThread {
 
 16.What are the steps to create a Factory Design Pattern? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Define an interface or abstract class for creating an object, but let the subclass decide which class to instantiate.
 - Promotes loose-coupling by eliminating the need to directly interact with the subclass.
@@ -573,7 +573,7 @@ public class DemoSingletonThread {
 
 17.Write the missing  code in the main method for implementing the Factory Design Pattern.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 ``` java 
@@ -623,9 +623,9 @@ public class FactoryPattern {
     }
 
 ```
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 	
 ``` java 
  public static void main(String[] args) {
@@ -637,9 +637,9 @@ public class FactoryPattern {
 ```
 </blockquote>
 	
-<details><summary><b> Explanation</b></summary>
+<details markdown="1"><summary><b> Explanation</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 	
 This code implements a PersonFactory. This class has a static method named getPerson() that accepts a person’s name and gender as parameters. Depending on the gender String passed in, it either returns a Male or a Female object.If somebody wants to create a male person, they invoke the getPerson() method on the PersonFactory with a gender argument of "M". Similarly, you can create a female person by invoking the getPerson() method on the PersonFactory with a gender argument of "F".We are passing in an identifier of the type of object we need, at the time of creation, while still referring to the generic type, Person.The Male and Female classes are hidden behind the PersonFactory implementation.
 	
@@ -652,11 +652,11 @@ This code implements a PersonFactory. This class has a static method named getPe
 
 18.Explain with a conceptual example for Chain of Responsibility Pattern.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - The best example of this pattern can be seen in the exception handling mechanism of most programming languages.If you have a method1() calling method2(), and method2(), in turn, calls method3(). Assume that method3() throws an exception.If method3() has no exception handling, then the exception is passed on to method2()to handle it. If again method2() has no exception handling inside it, then the exception is passed on to method1(). If even method1() cannot handle it, it gets thrown out of method1() as well.
 - In Chain Of Responsibility pattern, we have a chain of objects that are ready and wait to process requests. When a new request enters the system, it goes to the first object in the chain to attempt processing. Depending on the processing condition, the request travels up the chain and gets fully processed at some level, or maybe not processed at all.
@@ -667,7 +667,7 @@ This code implements a PersonFactory. This class has a static method named getPe
 
 19.Write the missing code for implementing the State Pattern.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 ``` java 
@@ -699,9 +699,9 @@ This code implements a PersonFactory. This class has a static method named getPe
 
 
 ```
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 	
 ``` java 
         static class Off implements SpeedLevel {
@@ -729,9 +729,9 @@ This code implements a PersonFactory. This class has a static method named getPe
 	
 </blockquote>
 	
-<details><summary><b> Explanation</b></summary>
+<details markdown="1"><summary><b> Explanation</b></summary>
 	
-<blockquote>
+<blockquote markdown="1">
 
 The fan wall control controls the speed with a fan rotates. It has speed levels ranging from 0 to 5. When it is at level 0, the fan does not rotate, and it rotates the fastest at level 5.When you rotate the knob of the fan control, the level changes, and this causes the speed of the fan to change as well. This is a classic case of a change in state (level) causing a change in behavior (speed).A FanwallControl object is composed of a SpeedLevel object. SpeedLevel is an interface that has four different implementations. Initially, the level is at Off, and when you click rotate at that time, the new speed is at SpeedLevel1. The happens successively, and if you rotate at SpeedLevel3, the level returns to Off.In case you need to define an additional speed level, just add in a new class that implements the SpeedLevel interface and implement its rotate method.
 
@@ -743,11 +743,11 @@ The fan wall control controls the speed with a fan rotates. It has speed levels 
 
 20.What are the benefits of State Pattern? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 State Pattern keeps the state-specific behavior.It makes any state transitions explicit.When the behavior of object depends on its state and it must be able to change its behavior at runtime according to the new state.It is used when the operations have large, multipart conditional statements that depend on the state of an object.
 

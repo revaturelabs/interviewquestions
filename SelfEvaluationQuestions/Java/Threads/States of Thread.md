@@ -2,10 +2,10 @@
 
 1. Explain about lifecycle of thread.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - We have 5 states in the lifecycle of the thread. There are:
   - **New** – Thread begins the lifecycle, at the time of creating object for `Thread` class. (Newly born thread)
@@ -20,8 +20,8 @@
 
 2. How can we check whether the thread terminated or not?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary>
 
 >We can use `isAlive()` method that returns a boolean value whether the thread is on process or not.
@@ -51,10 +51,10 @@ public class Main {
 
 3. What will do `join()` method when we use in  thr program?
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - The method `join()` from Thread that is used to allow the thread to complete its execution  where another thread is waiting.
 - The method `join()` will throw `InterruptedException`.
@@ -85,7 +85,7 @@ Hello
 Hello
 The main thread
 ```
-<blockquote>
+<blockquote markdown="1">
 
 - Here the `The main thread` is printed at last. 
 - If the method `join` is not called, the main thread is executed and it will be in dead state.
@@ -97,10 +97,10 @@ The main thread
 
 4. Can we find the name of thread?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary>
-<blockquote>
+<blockquote markdown="1">
 
   Yes, we find the name of thread Using `getName()` method that returns a string which shows the name of the thread.
 </blockquote>
@@ -124,8 +124,8 @@ public class Main {
 	
 5. Can we name the threads?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
 
 >Yes, we can give the name for thread in two ways.
@@ -165,10 +165,10 @@ public class Main {
 
 6. How will you check a thread is in which state?
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer <b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - We can call `getState()` using the object of the thread.
 - It will give the state of the thread.

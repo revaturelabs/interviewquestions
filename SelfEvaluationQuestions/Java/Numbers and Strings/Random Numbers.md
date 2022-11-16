@@ -2,10 +2,10 @@
 
 1.How can we generate random numbers in Java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - We can generate random numbers using `Random` class that presents in `java.util` package.
 - `Random` class has the methods to generate random number in int, double, float, long etc.
@@ -31,10 +31,10 @@ public class Main {
 
 2.What is differnce between `Math.random()` and `new Random().nextDouble()` method in Java?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-<details>
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 `Math.random()` will give the random number in `double` datatype which uses `nextDouble()` from `Random` class. So, both the methods will give the same value.
 </blockqoute> 

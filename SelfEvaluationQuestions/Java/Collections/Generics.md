@@ -2,11 +2,11 @@
 
 1. What is Generics?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 It forces the Java programmer to store specific type of objects to make it type-safe which makes the code stable by detecting the bugs at compile time.
 
@@ -22,11 +22,11 @@ Before generics, we can store any type of objects in the collection, i.e., non-g
 
 2. Why should we use Generics?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 The Object is the superclass of all other classes, and Object reference can refer to any object which leads to lack of type safety. So, we should use Generic to make it type safe. 
 
@@ -42,11 +42,11 @@ The Object is the superclass of all other classes, and Object reference can refe
 
 3. List the type parameters Generics in Java.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 The common type parameters used are:
 
@@ -69,11 +69,11 @@ The common type parameters used are:
 
 4. List the main advantages of Generics.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - <b>Type-safety</b>-should have single type of objects in generics.
 - <b>Type casting is not required</b>-No need to typecast the object.
@@ -89,11 +89,11 @@ The common type parameters used are:
 
 5. How to invoke and instantiate a generic type?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - For `generic type invocation`, we should replace `T` with some concrete value, such as `Integer`. Like a normal invocation instead of passing an argument to a method, you are passing a `type argument — Integer`. The `integerBox` will hold the reference. An invocation of a generic type is generally known as a <b>parameterized type</b>.
 
@@ -110,11 +110,11 @@ The common type parameters used are:
 ---
 6. Explain about wildcards in Java generics.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Wildcard element means any type represented by the `? (question mark)` symbol. It can be used as a type 
   of a parameter, field, return type, or local variable.
@@ -129,11 +129,11 @@ The common type parameters used are:
 
 7. List the ways of declaring wildcards in Java generics.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - It can be used in three ways −
 
@@ -151,11 +151,11 @@ The common type parameters used are:
 
 8. How to decide on which type of wildcard best suits the condition?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - It is based on the type of parameters passed to a method as <b>in</b> and <b>out</b> parameter.
     - <b>in variable</b> −which provides data to the code. For example, copy(src, dest). Here, src acts as <b>in variable</b> data to be copied.
@@ -170,19 +170,19 @@ The common type parameters used are:
 
 9. Can Java generics be applied to primitive types?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 No 
 
  </blockquote>
 
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 Java generics cannot be applied to primitive types, because the parameters in generics are of non-primitive data types.
  
@@ -198,11 +198,11 @@ Java generics cannot be applied to primitive types, because the parameters in ge
 
 10. Write a Java program to show the working of user defined Generic class to display the message <b>"Generic methods will have own type parameters"</b>?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 ``` java
 
@@ -221,9 +221,9 @@ class Main {
 }
 ```
  </blockquote>
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
  - used `< >` to specify Parameter type and an object of type `T` is declared. By creating an instance of String type to display the mentioned message.
 
@@ -238,11 +238,11 @@ class Main {
 
 11. Write a Java program to show the working of user defined Generic functions to display the message <b>"Generic methods"</b> and value <b>1.0</b>?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 ``` java
 
@@ -261,9 +261,9 @@ class Test {
 ```
 
  </blockquote>
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
  `genericDisplay` is the generic method with parametrized type using string and double type to display the message.
 
@@ -276,9 +276,9 @@ class Test {
 ---
 12. How would you write the below class into a class using generics?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<blockquote>
+<blockquote markdown="1">
 
 ``` java
  public class Draw {
@@ -290,9 +290,9 @@ class Test {
 ```
 </blockquote>
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 ``` java
 
@@ -306,9 +306,9 @@ public class Draw<T> {
 ```
 </blockquote>
 
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - In the class Draw<T> introduces the type variable, T, that can be used anywhere inside the class.
 - All occurrences of `object` is changed with the type variable `<T>` which can be of any primitive type.

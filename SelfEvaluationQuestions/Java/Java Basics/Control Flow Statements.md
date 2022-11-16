@@ -2,10 +2,10 @@
 
 1.What are control flow statements?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - The program flow goes from top to bottom. The control flow statetments are used to change the program flow.
 - The control flow statements are classified by following
@@ -19,10 +19,10 @@
 
 2.What are Conditional Statements?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
   
  The control flow goes to the block based on the condition called as Conditional Statement.
 
@@ -33,10 +33,10 @@
 
 3.What will happen when `if` condition don't has `else` block?
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 > When the condition is true, it will execute the block. Otherwise it skips the code.
 **Example**
@@ -57,10 +57,10 @@
 
 4.What will happen when `if` condition has `else if` block?
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 While checking the condition, if it fails and we want to check the other condition then we will use if else.
   ```java
@@ -87,10 +87,10 @@ The above code is used to find the price based range of value.
 
 5.How will you define nested if and give one example for it?
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
     
 When we want to check the condition inside another condition, we can use nested if.
@@ -120,10 +120,10 @@ The above code is the example for finding the result. If any one condition fails
 
 6.Where can we use `switch` statement?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
  Switch statement is used to select one of code from many blocks of code. It selects the code based on the expression.
 ``` java
@@ -166,10 +166,10 @@ The above code is the example for finding the result. If any one condition fails
 
 7.Why do we use `break` after each cases in switch?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 If we didn't use break or return, each cases of the switch will be executed which are present after that case.
 </blockquote> 
@@ -179,10 +179,10 @@ If we didn't use break or return, each cases of the switch will be executed whic
 
 8.How will you define looping statement?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 Looping statements are used to do repeatative tasks. If one process has to be done more than onece, we will use looping statement. The three types of looping statements are:
   - for
@@ -195,10 +195,10 @@ Looping statements are used to do repeatative tasks. If one process has to be do
 
 9.Where will we use for loop?
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - It is an entry controlled loop ie., the condition checked first.
 - It contains three parts, initialization, condition, and increament or decreament.
@@ -211,10 +211,10 @@ Looping statements are used to do repeatative tasks. If one process has to be do
 
 10.Where will we use while loop?
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - It is an entry controlled loop ie., the condition checked first.
 - It has only condition part.
@@ -226,10 +226,10 @@ Looping statements are used to do repeatative tasks. If one process has to be do
 
 11.Can we use while loop instead of for loop?
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 Yes, we can use while loop instead of for loop where we have to initialize outside of the loop and increament or decreament inside the loop.
 </blockqoute> 
@@ -239,10 +239,10 @@ Yes, we can use while loop instead of for loop where we have to initialize outsi
 
 12.Explain the difference between while and do while.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 **while**
 The condition is checked at the begining. If the condition is failed, the loop will not be executed.
@@ -256,10 +256,10 @@ The condition is checked at the end. If the condition is failed, the loop will b
 
 13.Explain the difference between `break` and `continue`.
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 **break**
 A break statement results in the termination of the statement to which it applies for `switch`, `for`, `do`, or `while`.
@@ -273,10 +273,10 @@ A continue statement is used to end the current loop iteration and return contro
 
 14. What will happen when we use `return` in a method?
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 	
 It exits the current method. There are two types of return statements they are return with value when method has void return type and return without value.
 </blockquote>
@@ -286,10 +286,10 @@ It exits the current method. There are two types of return statements they are r
 
 15.What will happen when we use `return` instead of `break` in loop?
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 **Using break**
 >If we use break in loop, it will break the current loop. The other statements inside the method will be executed.

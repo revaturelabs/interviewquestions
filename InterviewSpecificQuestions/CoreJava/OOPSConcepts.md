@@ -1,11 +1,11 @@
 1. What is the difference between method and function?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
  
 - Method and a function are the **same, with different terms**.
 - A method is a **function that belongs to a class**.
@@ -18,12 +18,12 @@
 
 2. Explain OOPs.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
 
 - **O**bject **O**riented **P**rogramming is a programming paradigm/model which revolves around the concept of **Objects**. 
 - Objects can be considered as real-world instances of entities like class, that have **characteristics** and **behaviors**
@@ -44,12 +44,12 @@ Characteristics are also known as data, attributes, or properties, and Behaviors
 
 3. What are the pillars of OOPs?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
 
 The Four Pillars of Object-Oriented Programming are
 - Abstraction
@@ -64,12 +64,12 @@ The Four Pillars of Object-Oriented Programming are
 
 4. What is polymorphism?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
  
 - The word poly means many and morphs means forms, so polymorphism means many forms.
 - It's an ability of an object to exhibit more than one form
@@ -83,11 +83,11 @@ For example: A man at the same time is a father, a husband, an employee. So, the
 
 5. What is method overloading?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
  
 - Method Overloading is a feature that allows a class to have more than one method with the same name, but with different parameters.
 - It is also known as Compile-time Polymorphism or Static Polymorphism 
@@ -127,12 +127,12 @@ public class SquaringDemo {
 
 6. Explain Encapsulation.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
 
 Encapsulation is the way of binding the data (variables) and code acting on the data (methods) together as a single unit.  
 
@@ -147,11 +147,11 @@ In encapsulation, the variables of a class will be hidden from other classes and
 
 7. What is an abstract class?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 Abstract Class allows us to achieve 0 - 100 % of abstraction in java. 
 
@@ -198,12 +198,12 @@ class Main {
 
 8. Brief us on interfaces
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
  
 Interface allow us to achieve 100% abstraction in java. An interface is declared by using the `interface` keyword. All the methods in an interface are abstract (declared with the empty body), and all the fields are `public`, `static` and `final` by default.
 
@@ -240,12 +240,12 @@ class Main {
 
 9. Difference between abstract classes and interfaces
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
  
  | Abstract class                                                             | Interface                                                                                            |
 |----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
@@ -263,12 +263,12 @@ class Main {
 
 10. What is Abstraction? or Describe abstract in OOP (or) What does Abstraction do?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
  
 Abstraction is an important concept of object-oriented programming that allows us to hide unnecessary details and only show the needed information.
 
@@ -289,12 +289,12 @@ There are two ways to achieve abstraction in java
 
 11. What is inheritance? (or) Brief us on inheritance
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
  
 Inheritance in Java is a concept that acquires the properties from one class to other classes: for example, the relationship between father and son. Inheritance in Java is a process of acquiring all the behaviors of a parent object.
 
@@ -308,12 +308,12 @@ The parent-child relationship, also known as the **IS-A** relationship, is repre
 
 12. Brief us on encapsulation and access modifiers (or) How do you achieve encapsulation?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
  
 Encapsulation can be achieved by declaring all the variables in the class as private and writing public methods in the class to set and get the values of variables.
 
@@ -326,12 +326,12 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
 
 13. How many constructors you used in java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
  
  Yes, a class can have multiple constructors that assign the fields in different ways.
 
@@ -342,12 +342,12 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
 
 14. Can you do static overriding?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
 
  We can declare static methods with the same signature in the subclass, but it is not considered overriding as there won’t be any run-time polymorphism. Hence the answer is **No**. 
  
@@ -358,12 +358,12 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
 
 15. What are the types of Inheritance?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
 
 There are 5 types of Inheritance. They are
 
@@ -384,12 +384,12 @@ There are 5 types of Inheritance. They are
 
 16. When do you use Abstract Class and Interfaces?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
 
 When we have the requirement of a class that contains some common properties or methods with some common properties whose implementation is different for different classes, in that situation, it's better to use Abstract Class then Interface.
 
@@ -406,12 +406,12 @@ The JDBC API is an excellent example. It exists of almost only interfaces. The c
 
 17. Brief us on the types of Polymorphism
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
 
 There are two types of polymorphism as below: 
 1. Static Binding or Compile time Polymorphism or Method Overloading
@@ -424,12 +424,12 @@ There are two types of polymorphism as below:
 
 18. Can the main method be overridden?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
  
  No, we cannot override main method of java because a static method cannot be overridden.
  
@@ -440,12 +440,12 @@ There are two types of polymorphism as below:
 
 19. What are Constructors?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
 
  A constructor in Java is a special method that is used to initialize objects. The constructor is called when an object of a class is created.
  
@@ -456,12 +456,12 @@ There are two types of polymorphism as below:
 
 20. What is a class? What is an object?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
  
 A class is a blueprint for the object. Before we create an object, we first need to define the class.
 
@@ -476,12 +476,12 @@ Since many houses can be made from the same description, we can create many obje
 
 21. What is the benefit of inheritance?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
  
 - Inheritance helps in **code reuse**. The child class may use the code defined in the parent class without re-writing it.
 - Inheritance makes the code flexible to change, as you will adjust only in one place, and the rest of the code will work smoothly.
@@ -495,12 +495,12 @@ Since many houses can be made from the same description, we can create many obje
 
 22. Can we implement multiple inheritances in Java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
  
 Java does not support multiple inheritance using classes. It can be achieved or implemented using interfaces.
  
@@ -511,12 +511,12 @@ Java does not support multiple inheritance using classes. It can be achieved or 
 
 23. Can you change the scope of a method or class using inheritance?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
  
  Yes, we can change the scope of the overridden method in the subclass. However, we cannot decrease the accessibility of the method. 
 
@@ -533,12 +533,12 @@ While changing the accessibility of the method,
 
 24. What are the benefits of abstraction?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
 
 - Helps to increase the security of an application or program as only essential details are provided to the user.
 - Avoids code duplication and increases reusability. 
@@ -550,12 +550,12 @@ While changing the accessibility of the method,
 
 25. What is the difference between class and object?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
 	
  
 | Class                                                                     | Object                                                                                      |
@@ -574,11 +574,11 @@ While changing the accessibility of the method,
 
 26. How can we change the super class method according to the requirements of sub class in Java?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 It can be done by method overriding , which is a type of polymorphism. It can modify a super class method in the sub class.
 
@@ -590,9 +590,9 @@ It can be done by method overriding , which is a type of polymorphism. It can mo
 
 27. Can an interface extends another interface in Java?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
 
 <blockquote
 
@@ -606,12 +606,12 @@ It can be done by method overriding , which is a type of polymorphism. It can mo
 
 28. What happens if a class has implemented an interface but has not provided implementation for that method defined in Interface?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 The class has to be declared with an abstract modifier, which will be enforced by the Java compiler.
 
@@ -623,11 +623,11 @@ The class has to be declared with an abstract modifier, which will be enforced b
 
 29. Can we declare a class as Abstract without having any abstract method?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 Yes, we can create an abstract class by using abstract keyword before class name even if it doesn’t have any abstract method. If a class has even one abstract method, it must be declared as abstract otherwise it will give an error.
 
@@ -639,11 +639,11 @@ Yes, we can create an abstract class by using abstract keyword before class name
 
 30. Can we call the constructor of a class more than once for an object?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 It’s called only once for an object automatically at the time of object creation using new keyword. we can’t invoke the constructor again for an object after its creation.
 
@@ -655,11 +655,11 @@ It’s called only once for an object automatically at the time of object creati
 
 31. How can we stop inheriting a class from other class in Java?
 
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 If we want a class not to be extended further by any class, we can use the keyword `Final` with the class name.
 
@@ -679,11 +679,11 @@ public Final Class Stone {
 
 32. Can we use a default constructor of a class even if an explicit constructor is defined?
 
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 No. Java provides a default no argument constructor if no explicit constructor is defined in a class. But if an explicit constructor has been defined, default constructor can’t be invoked, and developer can use only those constructors which are defined in the class.
 
@@ -695,12 +695,12 @@ No. Java provides a default no argument constructor if no explicit constructor i
 
 33. Is it possible to change the value of any variable defined in the class implementing an interface?
 
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
  
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 No, we can’t change the value of any variable of an interface in the implementing class as all variables defined in the interface are by default public, static and Final. final variables are like constants which can’t be changed later
 
@@ -712,12 +712,12 @@ No, we can’t change the value of any variable of an interface in the implement
 
 34. What part of memory (Stack/Heap) is cleaned in garbage collection process?
 
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
  
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 Heap. Because when Java programs run on the JVM, objects are created on the heap,
 
@@ -729,11 +729,11 @@ Heap. Because when Java programs run on the JVM, objects are created on the heap
 
 35. Can we achieve method overloading by changing the return type?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
 
 No, we cannot achieve method overloading through return type in Java.
 
@@ -746,11 +746,11 @@ No, we cannot achieve method overloading through return type in Java.
 36. Can we extend a String class?
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 No, String is a final class, therefore we cannot extend or inherit it.
 
@@ -762,11 +762,11 @@ No, String is a final class, therefore we cannot extend or inherit it.
 
 37. Explain about inner class in Java.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 In Java, we can define a class inside a class, and they are called nested classes. Any nested class which is non-static are known as inner class. 
 

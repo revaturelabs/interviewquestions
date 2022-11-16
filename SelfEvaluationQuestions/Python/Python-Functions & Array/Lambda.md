@@ -1,9 +1,9 @@
 ## Lambda
 1.What is a `lambda function`?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Lambda function is an `anonymous function` that is defined without a name and it can have any number of arguments but only one expression. The expression is evaluated and returned. Lambda functions can be used wherever function objects are required.
 
@@ -33,16 +33,16 @@ new_list = list(filter(lambda x: (x%2 == 0) ,list))
 print(new_list)
 ```
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
-  <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+  <blockquote markdown="1">
   
 new_list = list(filter(lambda x: (x%2 == 0) ,list))
   
 `TypeError: 'list' object is not callable`
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 - The above program output is `TypeError` because, when we try to call a list as a function using parenthesis () .
    
@@ -61,15 +61,15 @@ L=lambda
 print(L(i))
 ```
 
-<details><summary> <b>Hint</b> </summary>
+<details markdown="1"><summary> <b>Hint</b> </summary>
   
 - You can start your function as following: `lambda x:`
 - And, write your statement after the `colon (:)`
   
   </details> 
 
-<details><summary> <b>Show Answer</b> </summary>
-  <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+  <blockquote markdown="1">
   
 ```python
 i=6
@@ -81,7 +81,7 @@ print(L(i))
   
   8
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 - We should use lambda function.Then sum of with 2 so, the final output is 8.
   
@@ -92,9 +92,9 @@ print(L(i))
 
 4.What is the difference between `function` and `lambda function?`
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > The functionality of `functions` and `lambda functions` are similar. 
 > But, we need to write some extra code in functions compared to lambda functions for the same functionality.
@@ -134,9 +134,9 @@ f = lambda z z*11
 print(f(i))
 ```
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
   `SyntaxError`: bad input on line 4
   
@@ -154,7 +154,7 @@ print(f(i))
   
   99
   
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
   
   > The above code it will throw an `Syntax error`.Because, `:` is missing in `lambda function` declaration.
    
@@ -177,13 +177,13 @@ print(min(101*70, 102*8))
  
  D.797
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option C.816
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The above code is printing the minimum value among the two values.
 
@@ -198,13 +198,13 @@ print(min(101*70, 102*8))
  
  B.No
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option B.`No`
 
-<details><summary> <b>Explanation</b> </summary>  
+<details markdown="1"><summary> <b>Explanation</b> </summary>  
   
 > `Lambda` definition it doesn't have  a return statement and it always contains an expression which is returned. 
 >  Also, we can put a lambda definition anywhere a function is expected. We don’t have to assign it to a variable.
@@ -216,9 +216,9 @@ print(min(101*70, 102*8))
   
 8.Write a lambda function which takes two arguments as a and b and returns the multiplication of them as a*b.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 ```python
 i=int(input())
@@ -243,7 +243,7 @@ print(f(i, j))
   
 9.Write a python program to sort a given list in ascending order with lambda function.(Get input from user)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
   ```python
 lst=list(map(int,input().strip().split()))
@@ -269,13 +269,13 @@ z = lambda x: x ** y
 print (z(7))
 ```
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > 117649
   
-<details><summary> <b>Explanation</b> </summary>  
+<details markdown="1"><summary> <b>Explanation</b> </summary>  
   
 > The `lambda` keyword creates an anonymous function. The x is a parameter that is passed to the lambda function and the parameter is followed by a colon character. The code next to the colon is the expression that is executed when the lambda function is called and, the lambda function is assigned to the z variable.
 > The lambda function is executed. The number 7 is passed to the anonymous function and it returns 117649 as the result. Note that z is not a name for this function and it is only a variable to which the anonymous function was assigned.
@@ -287,10 +287,10 @@ print (z(7))
   
 11.What is a `map` and a `filter` in Python?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
-   <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+   <blockquote markdown="1">
   
  1.The `map` function takes each item in the given iterable and includes all of them in a new lazy iterable, transforming each item along the way.
   
@@ -323,9 +323,9 @@ where,
 
 12.What is the use of `reduce()` function in python?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > In Python, the `reduce()` function is used to minimize sequence elements into a single value by applying the specified condition. The `reduce()` function is present in the functools module and hence, we need to import it using the import statement before using it.
 
@@ -341,10 +341,10 @@ where,
   
 13.What is the difference between `filter` and `reduce` in python?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
-   <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+   <blockquote markdown="1">
   
  **Filter**:
    - filter is used to split the data.
@@ -367,7 +367,7 @@ where,
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 ```python  
 lst1=list(map(int,input().strip().split()))
@@ -394,14 +394,14 @@ lst = list(filter(lambda x: True if x.lower() in "aeiou" else False, str1))
 print(lst)
 ```
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
-   <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+   <blockquote markdown="1">
   
 > ['e', 'o', 'e', 'o', 'e', 'o']
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
  
   - It could be used as `filter(f, list)`. Make sure your function is a logical statement to facilitate the filtering process.
   - Since `filter()` function will return an iterator, you can use `list()` function to convert it to a proper Python list.
@@ -418,15 +418,15 @@ print(lst)
   
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary> 
- <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
+ <blockquote markdown="1">
   
  ```python
 lst1=[1000, 50, 600, 700, 5000, 90000, 175]
 lst2 = list(map(lambda x: x+2000, filter(lambda x: x<800, lst1)))
 print(lst2)
 ```
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
  - We could use filter(f, list). Make sure your function is a logical statement to facilitate the filtering process.
  - Since filter() function will return an iterator, we can use list() function to convert it to a proper Python list.
@@ -452,14 +452,14 @@ lst2 = list(filter(lambda x: x%2 == 1, lst1))
 print(lst2)
 ```
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary> 
-  <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
+  <blockquote markdown="1">
   
 - [19, 13, 11, 1]
 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
   - We could use `filter(f, list)`. Make sure the function is a logical statement to facilitate the filtering process.
   - Since `filter()` function will return an iterator, you can use `list()` function to convert it to a proper Python list.
@@ -479,13 +479,13 @@ m=functools.reduce(lambda x, y:x if x>y else y, l)
 print(m)
 ```
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)  
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)  
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > 5 
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The code shown above can be used to find the maximum of the elements from the given list. In the above code, after all the operations completed it will given the output is 5.
   

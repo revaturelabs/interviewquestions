@@ -2,10 +2,10 @@
 
 1. How `Runnable` interface is used to create threads?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - The class which we want to make as thread should implement the interface `Runnable`.
 - After implementing `Runnable` interface, the class should override the `run` method.
@@ -41,10 +41,10 @@ public class Main {
 
 2. Is there way to create thread without implementing `Runnable` interface?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - `Runnable` interface is a Functional Interface which has only one abstract method - `run()`
 -  We can create lambda expression for `Runnable` interface and create a thread.
@@ -70,10 +70,10 @@ Above code, creates the thread and start printing "Hello" for 10 times in 1000ms
 	
 3. Can we pass lambda expression while creating object of `Thread` class?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-<details>
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - Yes,We can pass lamba expression while creating the object of `Thread` class itself instead of creating lambda expression of `Runnable` interface.
 - Becauase the passing parameter while creating object of `Thread` class will take only `Runnable` interface implementation.

@@ -1,10 +1,10 @@
 1.How JDBC plays a vital role in Java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - `JDBC(Java Database Connectivity)` is a Java API, which is helpful in interacting with the database to retrieve, manipulate and process the data using SQL. 
 - It will make use of JDBC drivers for connecting to the database. 
@@ -18,11 +18,11 @@
 
 2.What is the functionality of `ResultSet` in JDBC?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - The `java.sql.ResultSet` interface represents the database result set, which is obtained after the execution of SQL query using Statement objects. 
 - ResultSet objects maintains a cursor pointing to the current row of data in the result set. 
@@ -45,11 +45,11 @@ ResultSet rs = con.executeQuery(sqlQuery);
 
 3.Why we need `JDBC driver` in JDBC?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - JDBC driver is a software component having various classes and interfaces, that enables the Java application to interact with a database.
 - To connect with individual databases, It requires particular drivers for each specific database. 
@@ -68,11 +68,11 @@ For example:
   
  4.What is the need of `DriverManager` in JDBC?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - JDBC DriverManager is a static class in Java, through which we manage the set of JDBC drivers that are available for an application to use.
 - Multiple JDBC drivers can be used concurrently by an application. 
@@ -87,11 +87,11 @@ For example:
   
 5.Which JDBC driver is fastest and used more commonly?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - JDBC Net pure Java driver(Type 4 driver) is the fastest driver for localhost and remote connections because it directly interacts with the database by converting the JDBC calls into vendor-specific protocol calls.
 
@@ -103,11 +103,11 @@ For example:
   
 6.Which data types are used for storing the image and file in the database table?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - `BLOB` data type is used to store the image in the database. 
 - We can also store videos and audio by using the BLOB data type. 
@@ -122,11 +122,11 @@ For example:
   
  7.Why we need stored procedure? Explain it?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Stored procedure is a group of SQL queries that are executed as a single logical unit to perform a specific task.
 - Name of the procedure should be unique since each procedure is represented by its name. For example, operations on an employee database like obtaining information about an employee could be coded as stored procedures that will be executed by an application. 
@@ -162,11 +162,11 @@ ResultSet rs = cs.executeQuery();
   
 8.How can you differentiate ODBC and JDBC?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - ODBC(Open Database Connectivity):	
   - ODBC can be used for languages like C, C++, Java, etc.
@@ -189,11 +189,11 @@ ResultSet rs = cs.executeQuery();
   
 9.What is `Rowset` in a Resultset?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - A RowSet is an object that encapsulates a row set from either JDBC result sets or tabular data sources such as files or spreadsheets. 
 - It supports component-based development models like JavaBeans, with the help of a standard set of properties and event notifications. RowSet is easier and flexible to use. It is Scrollable and Updatable by default.
@@ -206,11 +206,11 @@ ResultSet rs = cs.executeQuery();
 
 10.Describe the different types of JDBC drivers in Java? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - There are four types of JDBC drivers in Java. 
 - They are:
@@ -231,11 +231,11 @@ ResultSet rs = cs.executeQuery();
   
 11.Explain the different types of statements in JDBC? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 There are 3 types of JDBC Statements which are discussed below:
 
@@ -270,11 +270,11 @@ ResultSet rs = cs.executeQuery();
   
 12.What are the interfaces and classes in JDBC? Explain it?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - The java.sql package contains different interfaces and classes for JDBC API. 
 - They are:
@@ -298,11 +298,11 @@ ResultSet rs = cs.executeQuery();
 
 13.What is Batch processing in JDBC? How to perform it?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Batch processing is the process of executing multiple SQL statements in one transaction. 
 - For example, consider the case of loading data from CSV(Comma-Separated Values) files to relational database tables. 
@@ -320,11 +320,11 @@ ResultSet rs = cs.executeQuery();
   
 14.How can you differentiate Statement and PreparedStatement?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Statement:	
   - The query is compiled every time when we run the program. It is used in the situation where we need to run the SQL query without providing parameters at runtime. Its performance is less compared to PreparedStatement.It is suitable for executing DDL statements such as Create, Alter, Drop and Truncate.	It cannot be used for storing/retrieving images and files in the database. It executes static SQL statements.It is less secured because it enforces SQL injection.	
@@ -339,11 +339,11 @@ ResultSet rs = cs.executeQuery();
   
 15.What is `execute()`,`executeQuery()` and `executeUpdate()` methods in JDBC?Explain it?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - `execute()`:It can be used for any SQL statements. It returns the boolean value TRUE if the result is a ResultSet object and FALSE when there is no ResultSet object. Used for executing both Select and non-Select queries.	
 - `executeQuery()`:It is used to execute SQL Select queries. It returns the ResultSet object which contains the data retrieved by the SELECT statement. Used for executing only the Select Query.
@@ -358,11 +358,11 @@ ResultSet rs = cs.executeQuery();
   
 16.How getter and setter methods used in ResultSet?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Getter methods: These are used for retrieving the particular column values of the table from ResultSet. As a parameter, either the column index value or column name should be passed and the getter method is represented as getXXX() methods,for example: `int getInt(string Column_Name)` statement is used to retrieve the value of the specified column index and the return type is an int data type.
 - Setter Methods: These methods are used to set the value in the database. It is almost similar to getter methods, but here it requires to pass the data/values for the particular column to insert into the database and the column name or index value of that column and setter method is represented as setXXX() methods,for example: `void setInt(int Column_Index, int Data_Value)` statement is used to insert the value of the specified column index with an int value.
@@ -375,11 +375,11 @@ ResultSet rs = cs.executeQuery();
   
 17.What do you mean by "Dirty read" in terms of database?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Dirty read implies the meaning "read the value which may or may not be correct". 
 - In the database, when a transaction is executing and changing some field value, at the same time another transaction comes and reads the changed field value before the first transaction could commit or rollback the value, which may cause an invalid value for that particular field. 
@@ -395,11 +395,11 @@ ResultSet rs = cs.executeQuery();
   
 18.Describe the steps for establishing a JDBC connection in java?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Loading the Driver:When we need to load or register the driver before using it in the program. Registration must be done once in your program. 
   - You can register a driver by using any one of the two methods mentioned below:
@@ -448,11 +448,11 @@ con.close();
   
 19.Explain the implementation of JDBC MySQL database connection with an example?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 ```java
 
@@ -488,11 +488,11 @@ class JDBCMySql{
   
 20.Explain the implementation to call Stored procedures in JDBC?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 Stored procedures are a set of SQL queries that are compiled in the database and will be executed from JDBC API. For executing Stored procedures in the database, JDBC CallableStatement can be used. The syntax for initializing a CallableStatement is given below:
 
@@ -517,11 +517,11 @@ We must register the OUT parameters before executing the CallableStatement.
 
 21.When "No suitable driver" error occurs in java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - "No suitable driver" error occurs during a call to the DriverManager.getConnection() method, when it is unable to load the appropriate JDBC drivers before calling the getConnection() method.
 - It can specify an invalid or wrong JDBC URL, which cannot be recognized by the JDBC driver.
@@ -535,11 +535,11 @@ We must register the OUT parameters before executing the CallableStatement.
 	
 22.Explain the types of JDBC architecture?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 JDBC has 2 types of architecture models to access the database. They are:
 - Two-tier Architecture: This architecture connects java programs explicitly to the database. It doesn’t require any mediator such as an application server for connecting with the database except the JDBC driver. It is also called client-server architecture.	
@@ -553,11 +553,11 @@ JDBC has 2 types of architecture models to access the database. They are:
 	
 23.Explain the ACID properties in JDBC Transaction Management and why is it needed?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 The sequence of SQL statements served as a single unit that is called a transaction. Transaction Management places an important role in RDBMS-oriented applications to maintain data consistency and integrity.Transaction Management can be described by using ACID properties. ACID stands for Atomicity, Consistency, Isolation, and Durability.
 - Atomicity: If all queries are successfully executed, then only data will be committed to the database.
@@ -575,11 +575,11 @@ The sequence of SQL statements served as a single unit that is called a transact
 	
 24:How can you differentiate between PreparedStatement and Statement? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 PreparedStatement performs faster compared to the Statement because the Statement needs to be compiled each time when we run the code whereas the PreparedStatement is compiled once and then executed only on runtime.It can execute parametrized queries. But Statement can only run static queries.
 The query used in PreparedStatement looks similar each time, so the database can reuse the previous access plan. Statement inline the parameters into the string, so the query doesn’t look to be the same every time which prevents reusage of cache.
@@ -592,11 +592,11 @@ The query used in PreparedStatement looks similar each time, so the database can
 	
 25: Explain the Transaction Management methods in JDBC.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 The connection interface is having 5 methods for transaction management. They are given below:
 
@@ -629,11 +629,11 @@ Syntax:`conn.releaseSavepoint("Mysavepoint");`
 
 26: Explain the common exceptions in JDBC.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - `java.sql.SQLException`:It is the base class for JDBC exceptions.
 - `java.sql.BatchUpdateException`: It occurs during the batch update operation. It depends on the JDBC driver type that the base SQLException may throw instead.
@@ -648,11 +648,11 @@ Syntax:`conn.releaseSavepoint("Mysavepoint");`
 	
 27: How two-phase commit is performed in JDBC?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 Two-phase commit is useful for a distributed environment where numerous processes take part in the distributed transaction process.A transaction is executing and it is affecting multiple databases then a two-phase commit will be used to make sure that all databases are synchronized with each other.
 The main process or co-ordinator process take a vote of all other process that they have completed their process successfully and ready to commit, if all the votes are "yes" then they continue for the next phase. And if "No" then rollback will be performed. As per vote, if all the votes are "yes" then commit is done.when any transaction changes multiple databases after transaction execution, it will issue a pre-commit command on each database and all databases will send an acknowledgment. Based on acknowledgment, if all are positive transactions then it will issue the commit command otherwise rollback will be done
@@ -665,11 +665,11 @@ The main process or co-ordinator process take a vote of all other process that t
 	
 28: How to create a table dynamically from java using JDBC?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 ```java
 
@@ -700,11 +700,11 @@ public class dynamicJDBCtable{
 	
 29: How is it possible to connect to multiple databases using single statement object?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 It is possible to connect to multiple databases, at the same time, but it depends on the specific driver.To update and extract data from the different database we can use the single statement. But we need middleware to deal with multiple databases or a single database.
 
@@ -716,11 +716,11 @@ It is possible to connect to multiple databases, at the same time, but it depend
 	
 30.How do you insert images into database using JDBC?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 Images in the database inserted using the BLOB datatype wherein the image stored as a byte stream. Below code is showing how to insert the image into DB.
 

@@ -2,19 +2,19 @@
 
 1. Which access modifier is used to override the method of an Interface?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 - A.public
 - B.private
 - C.protected
 - D.default
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 > A
   
-<details>
+<details markdown="1">
   
 <summary>Explanation</summary>
   
@@ -28,11 +28,11 @@
 
 2. What is Marker Interface?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
-<details>
+<details markdown="1">
   <summary><b>Show Answer</b></summary>
 
 
@@ -47,15 +47,15 @@
 
 3. Is it possible to create an Object for the Interface?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 	
 >  No 
-<details>
+<details markdown="1">
   
   <summary>Explanation</summary> 
     
@@ -68,18 +68,18 @@
 
 4. What methods can be created in an Interface?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 - A.abstract
 - B.static
 - C.Default
 - D. All the above
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary> 
 	
  > D
-<details>
+<details markdown="1">
   
   <summary>Explanation</summary> 
     
@@ -96,7 +96,7 @@
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details>
+<details markdown="1">
 
   <summary><b>Show Answer</b> </summary>  
   
@@ -112,7 +112,7 @@
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details>
+<details markdown="1">
 
   <summary><b>Show Answer</b> </summary>  
   
@@ -126,7 +126,7 @@
 
 7. Consider that a class extends the interface Elevator, Which of the following is true?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
@@ -155,13 +155,13 @@ interface Elevator extends Electrical, Mechnical{
 - C. class can not implement Elevator because an interface can not extend more than one interface.
 - D. It is not mandatory to override any method of any interface.
 
-<details>
+<details markdown="1">
 	
 <summary><b>Show Answer</b></summary>
 	
 > B
 	
-<details>
+<details markdown="1">
 
 <summary><b>Explanation</b></summary>
 	
@@ -174,11 +174,11 @@ interface Elevator extends Electrical, Mechnical{
 
 8. How can complete abstraction be achieved by interface but not by an abstract class?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 	
@@ -192,7 +192,7 @@ interface Elevator extends Electrical, Mechnical{
 9. Explain Multiple Inheritance of implementation using Interfaces.
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 	
@@ -208,7 +208,7 @@ interface Elevator extends Electrical, Mechnical{
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 	
@@ -222,11 +222,11 @@ interface Elevator extends Electrical, Mechnical{
 
 11. Is it possible to override the static method of an interface?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 	
@@ -243,7 +243,7 @@ interface Elevator extends Electrical, Mechnical{
 
 1. Identify the error in the following code snippet.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
@@ -257,12 +257,12 @@ interface Elevator{
 
 ```
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 	
 > Compile-time error
 
 	
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 	
 > Methods in the interface can be abstract or default or static.
 > Methods in the interface can not be final, because final methods can not be overridden. Interfaces are created so they can be implemented by a class and the methods of an interface should have the possibility to be overridden.
@@ -275,7 +275,7 @@ interface Elevator{
 
 2. Identify the error in the following code snippet.
 	
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
@@ -315,11 +315,11 @@ public class Circle implements Shape{
 
 ```
 
-<details>
+<details markdown="1">
 	<summary><b>Show Answer</b></summary>
 	
 > A compile-time error
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
 	
 > Even though the anonymous inner class overrides all the methods of the interface, The class Circle doesn't override them.
@@ -335,7 +335,7 @@ public class Circle implements Shape{
 
 1. KIA launched 4 car models named seltos, carnival, Carens and sonnet with features like Front and Side Airbags, Highline Tyre Pressure Monitor, Hill assist control etc. from the 5th model KIA wants to add a new feature of autopilot and self-driving. Which of the following implementations best represents the scenario?
 	
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
@@ -344,13 +344,13 @@ public class Circle implements Shape{
 - C. A KIA interface with all features as abstract methods except for the new feature( autopilot) which is a default method and all models as classes that implement Kia.
 - D. None of the above.
 
-<details>
+<details markdown="1">
 	
 <summary><b>Show Answer</b></summary>
 	
 > C
 	
-<details>
+<details markdown="1">
 	
 <summary><b>Explanation</b></summary>
 	
@@ -366,7 +366,7 @@ public class Circle implements Shape{
 ---
 2. ISRO invented many rockets from PSLV to GSLV with different features and purposes but one constant feature is the Vikas engine. which implementation best represents the scenario?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
@@ -375,13 +375,13 @@ public class Circle implements Shape{
 - C. An interface with features of the rocket, classes that implement the interface( rocket model), and a static method for the Vikas engine.
 - D. None of the above.
 
-<details>
+<details markdown="1">
 	
 <summary><b>Show Answer</b></summary>
 	
 > C
 	
-<details>
+<details markdown="1">
 	
 <summary><b>Explanation</b></summary>
 	

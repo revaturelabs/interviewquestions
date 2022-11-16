@@ -1,11 +1,11 @@
 ## Technical
 1. Explain Method Reference.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
  
- <blockquote>
+ <blockquote markdown="1">
 
 It is to refer the method of functional interface. While using a lambda expression to refer to a method, we can use a method reference instead of a lambda expressison.
   
@@ -17,10 +17,10 @@ It is to refer the method of functional interface. While using a lambda expressi
 
 2. List the types of Method References.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer </b></summary>
- <blockquote>
+<details markdown="1"><summary><b> Show Answer </b></summary>
+ <blockquote markdown="1">
   
 - Reference to a static method.
   
@@ -37,11 +37,11 @@ It is to refer the method of functional interface. While using a lambda expressi
  
 3. Write the syntax for referring to a static method.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
  
- <blockquote>
+ <blockquote markdown="1">
   
 - `ContainingClass::staticMethodName`
 - We can refer to the static method by calling its name with the class where it resides.
@@ -54,11 +54,11 @@ It is to refer the method of functional interface. While using a lambda expressi
 
 4. Write the syntax for Reference to an instance method of a particular object.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
  
- <blockquote>
+ <blockquote markdown="1">
   
 - `containingObject::instanceMethodName`
 - use the instance method name of the particular object name.
@@ -71,11 +71,11 @@ It is to refer the method of functional interface. While using a lambda expressi
  
 5. Write the syntax for Reference to an instance method of an arbitrary object of a particular type.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
  
- <blockquote>
+ <blockquote markdown="1">
   
 - We can mention the type with the instance method name of the object.
 - `ContainingType::methodName`
@@ -88,11 +88,11 @@ It is to refer the method of functional interface. While using a lambda expressi
 
 6. Write the syntax for Reference to a constructor.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
  
- <blockquote>
+ <blockquote markdown="1">
   
 - `ClassName::new`
 - New is the keyword to refer to the constructor with the class name.
@@ -104,11 +104,11 @@ It is to refer the method of functional interface. While using a lambda expressi
  
  7. Explain the parts of the method reference.
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
  
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
  
- <blockquote>
+ <blockquote markdown="1">
   
 - It has 2 parts. class/object and method/constructor.
 - Separated by :: (double colons)
@@ -122,15 +122,15 @@ It is to refer the method of functional interface. While using a lambda expressi
 
 8. How to print all the elements in the list using method reference?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
 
  ``` java 
  list.forEach(System.out::println);  
  ``` 
-<details><summary><b>Explanation</b></summary>
-  <blockquote>
+<details markdown="1"><summary><b>Explanation</b></summary>
+  <blockquote markdown="1">
    Here we are using the `forEach` method to display the elements one by one in the list.
  </blockquote>
 </details>
@@ -143,7 +143,7 @@ It is to refer the method of functional interface. While using a lambda expressi
 
 9. Predict the output of the following code.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 ``` java
 import java.io.*;
@@ -161,9 +161,9 @@ public class MethodReference{
 }
 ``` 
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
  
- <blockquote>
+ <blockquote markdown="1">
   
    - Data Structures and Alogrithms<br>
    - Java Programming<br>
@@ -171,9 +171,9 @@ public class MethodReference{
   
   </blockquote>
  
- <details><summary><b>Explanation</b></summary>
+ <details markdown="1"><summary><b>Explanation</b></summary>
   
-   <blockquote>
+   <blockquote markdown="1">
     
    -  This is an example of Reference to an instance method of an arbitrary object of a particular type.
    -  First, it will sort the list and apply compareToIgnoreCase to return the result.
@@ -188,7 +188,7 @@ public class MethodReference{
  
 10. What should be the code in line 9  to get the result "Hello, this is a static method." using a reference to the static methods?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 ``` java
 interface Sample{  
@@ -204,9 +204,9 @@ public class MethodReference {
     }  
 } 
 ```
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
  
- <blockquote>
+ <blockquote markdown="1">
  
  ``` java
 
@@ -215,9 +215,9 @@ public class MethodReference {
  ```
  </blockquote>
  
- <details><summary><b>Explanation</b></summary>
+ <details markdown="1"><summary><b>Explanation</b></summary>
   
-   <blockquote>
+   <blockquote markdown="1">
     
   Here the static method reference printhello() refers to its functional method print() in the interface Sample.
     

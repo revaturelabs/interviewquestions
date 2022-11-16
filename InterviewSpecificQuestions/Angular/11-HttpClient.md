@@ -1,10 +1,10 @@
 1. Which angular package `HttpClient` service is available?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 `@angular/common/http` 
 
@@ -15,11 +15,11 @@
  
 2. Why do we need `HttpClient`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 The front-end of applications communicates with back-end services to get or send the data over HTTP protocol using either XMLHttpRequest interface or fetch API . This communication is done in Angular with the help of `HttpClient`.
 
@@ -30,11 +30,11 @@ The front-end of applications communicates with back-end services to get or send
  
 3. List some `HttpClient` methods provided by the angular framework.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - `HttpClient.get()` method is used to fetch data from a server. 
 - `HttpClient.post()` method is used to send the data to the server.
@@ -50,11 +50,11 @@ All `HttpClient` methods return an **Observable** of something. In general, an o
  
 4. How we can consume RESTful APIs in Angular Projects?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 	
 We can consume RESTful APIs in Angular applications using HttpClient API.
 	
@@ -65,11 +65,11 @@ We can consume RESTful APIs in Angular applications using HttpClient API.
  
 5. How to use HttpClient in Angular? _or_ How do you consume REST API in Angular?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 HttpClient API service is used to make communication between front-end web apps with backend services. This communication is done over HTTP protocol.
 
@@ -128,11 +128,11 @@ export class EmployeeService {
  
 6. What is observable? How is related to HttpClient?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 
 Observable in Angular is a feature that provides support for delivering messages between different parts of your single-page application. This feature is frequently used in Angular because it is responsible for handling multiple values, asynchronous programming in Javascript, and also event-handling processes.
@@ -146,11 +146,11 @@ All `HttpClient` methods return an **Observable** of something.
  
 7. How do you handle errors with HttpClient?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 By using Angular's *HttpClient* along with `catch error` from RxJS, we can easily write a function to handle errors within each service. *HttpClient* will also conveniently parse JSON responses and returns an observable object. 
 
@@ -169,11 +169,11 @@ To catch errors, we "pipe" the observable result from `http.get()` (or any *Http
  
 8. Have you heard of Subjects? If so, tell me what it is.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 A Subject is a special type of Observable that allows values to be multicasted to many Observers. The subjects are also observers because they can subscribe to another observable and get value from it, which it will multicast to all its subscribers.
 
@@ -184,11 +184,11 @@ A Subject is a special type of Observable that allows values to be multicasted t
  
 9. How do subjects differ from observable?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 Every Subject is an Observable. Given a Subject, you can subscribe to it, providing an Observer, which will start receiving values normally. From the perspective of the Observer, it cannot tell whether the Observable execution is coming from a plain unicast Observable or a Subject.
 
@@ -201,11 +201,11 @@ Every Subject is an Observable. Given a Subject, you can subscribe to it, provid
 	
 10. What is the difference between a promise and an observable?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 	
 - A Promise emits a single value while an Observable can emit multiple values. 
 - So, while handling an HTTP request, a Promise can manage a single response for the same request, but if there are multiple responses to the same request, then we have to use an Observable.
@@ -236,11 +236,11 @@ const observable = new Observable((data) => {
 
 11. Every front-end application needs to communicate with the backend microservices to share the data over the HTTP protocol. How is this communication established in angular? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 Using the `HttpClient` Service
 

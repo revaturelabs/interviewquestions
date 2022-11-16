@@ -2,11 +2,11 @@
  
  1. What is a collection framework? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary><b>Show answer</b></summary>
-  <blockquote>
+  <blockquote markdown="1">
  
  Collection is a container or object that combines multiple elements into a single unit. Collections are used to store, retrieve and manipulate data.
  Collection framework is an architecture for collections and every collection framework has Interface, implementation for the interface and the algorithms( searching and sorting etc.)
@@ -18,11 +18,11 @@
 
 2. What are the benefits of the collection framework? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary><b>Show answer</b></summary>
- <blockquote>
+ <blockquote markdown="1">
   
  - Collection framework contains implementations for all the data structures, so the hectic task of creating and implementing everything is avoided.
 - All the classes in the Collection Framework are optimized. So the programmer utilizes the optimized data structure classes.
@@ -36,9 +36,9 @@
 
 3. What is Iterable Interface?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 >- All the classes under the collection framework implement an Iterable interface.
@@ -53,12 +53,12 @@
 
 4. Write a program to traverse any collection using for each Construct.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-  <blockquote>
+  <blockquote markdown="1">
 
 ``` java
 
@@ -81,10 +81,10 @@ public class Main {
 
  </blockquote>
 
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - for each loop uses list iterator internally
 - for each loop can be used  only to iterate over a loop but not to modify the Collection.
@@ -101,12 +101,12 @@ public class Main {
 
 5. Write a program to traverse any collection using an Iterator.
    
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-  <blockquote>
+  <blockquote markdown="1">
 
 ``` java
 
@@ -129,10 +129,10 @@ public class Main {
 ```
  </blockquote>
 
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - An Iterator is an object that is used to traverse through a collection and to remove elements from the collection based on a condition.
 - `hasNext()` returns true if collection has the next element and false if empty. `next()` returns the next element in the iteration.
@@ -151,10 +151,10 @@ public class Main {
    
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
  
-<blockquote>
+<blockquote markdown="1">
 
 ``` java
 
@@ -173,10 +173,10 @@ public class Main {
 ```
 </blockquote>
 
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - `ArrayList` is converted to a stream and `forEach()` method is used to iterate over the `ArrayList`
 
@@ -190,12 +190,12 @@ public class Main {
 
 7. What is the difference between the Comparable and Comparator interface?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
  
-  <blockquote>
+  <blockquote markdown="1">
    
 
 **Comparable**: A comparable object is capable of comparing itself with another object. The class itself must implement the `java.lang.Comparable` interface to be able to compare its instances.
@@ -222,11 +222,11 @@ Comparable and Comparator both are interfaces and can be used to sort collection
 
 8. What are concurrent collection classes?
    
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 The concurrent collection APIs of Java provides a range of classes that are specifically designed to deal with concurrent operations. These classes are alternatives to the Java Collection Framework and provide similar functionality except with the additional support of concurrency.
 
 **Java Concurrent Collection Classes**  
@@ -254,11 +254,11 @@ The concurrent collection APIs of Java provides a range of classes that are spec
 
 9. What is the difference between the Enumeration and Iterator interface?
    
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 Enumeration and Iterator are two interfaces in `java.util` package which is used to traverse over the elements of a Collection object.
 
@@ -304,7 +304,7 @@ Enumeration and Iterator are two interfaces in `java.util` package which is used
 
 1. What are AA, BB, and CC in the following code that satisfies the following conditions?
  
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 - AA: to sort the elements of the list
 - BB: to arrange elements in random order.
@@ -328,10 +328,10 @@ public class Main {
 
 ```
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - AA: `sort(Collection)`
 - BB: `shuffle(Collection)`
@@ -339,10 +339,10 @@ public class Main {
 
 </blockquote>
    
-   <details>
+   <details markdown="1">
     <summary><b>Explanation</b></summary>
     
-  <blockquote>
+  <blockquote markdown="1">
    
    - `sort()` is used to sort elements in ascending order.
    - `shuffle()` is used to arrange elements in random order.

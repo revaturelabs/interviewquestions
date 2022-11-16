@@ -2,10 +2,10 @@
 
 1. What is JUnit?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 JUnit helps to test individual pieces of code, or “units,” to ensure that they are functioning properly. By identifying and isolating units that are not working correctly, JUnit makes it easier to find and fix errors in code. In addition, JUnit can be used to automate the execution of unit tests, which can save time and effort.
 
@@ -16,10 +16,10 @@ JUnit helps to test individual pieces of code, or “units,” to ensure that th
 
 2. What are the important features of JUnit?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 **Important features of JUnit are:**
 - It is an open-source framework.
@@ -37,10 +37,10 @@ JUnit helps to test individual pieces of code, or “units,” to ensure that th
 
 3.  What do you understand by testing and unit testing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Testing is the process of checking whether the application fulfills the requirements and achieves the desired functionalities. Unit testing refers to assessing an individual functionality or a unit of the application.  
 
@@ -51,10 +51,10 @@ Testing is the process of checking whether the application fulfills the requirem
 
 4. What Is A JUnit Test Case?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 A JUnit test case is a test case written using the JUnit testing framework. JUnit is a popular Java testing framework that allows developers to write and run tests for their Java code. A JUnit test case is typically made up of several individual tests, each of which tests a specific aspect of the code being tested. 
 
@@ -65,10 +65,10 @@ A JUnit test case is a test case written using the JUnit testing framework. JUni
 
 5. Define automated testing in the context of JUnit?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Automated testing in JUnit is that type of testing where one has the option to take support from tools. These automation tools would display accurate results which are suitable for the process of Java application development.
 
@@ -79,10 +79,10 @@ Automated testing in JUnit is that type of testing where one has the option to t
 
 6. What do you mean by Unit Testing in JUnit?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Unit testing is also regarded as the assessment of a single entity or class. We should be well aware of the fact that the principle of unit testing carries the utmost importance. With the assistance of unit testing, companies can give quality products to their clients and stakeholders.
 
@@ -94,10 +94,10 @@ Unit testing is also regarded as the assessment of a single entity or class. We 
 
 7. Define JUnit in today’s context of evolving technologies?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 JUnit is extensively used by developers to carry out unit testing in Java. Moreover, it is also being used to speed up the application based on Java. It is important to note that by taking into account the source code, the application can efficiently be sped up. 
 
@@ -108,10 +108,10 @@ JUnit is extensively used by developers to carry out unit testing in Java. Moreo
 
 8. When are the unit tests about JUnit written in Developmental Cycle?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 The unit tests are written before the development of the application. It is so because writing the check before coding, assists the coders to write error-free codes which further boosts the viability of the form.
 
@@ -122,10 +122,10 @@ The unit tests are written before the development of the application. It is so b
 
 9. Shed light on the variety of JUnit classes and make a proper list of them?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 The JUnit classes are essential classes that are usually utilized in testing and writing the JUnits. Here is the list of the critical JUnit test classes.    
 
@@ -141,10 +141,10 @@ The JUnit classes are essential classes that are usually utilized in testing and
 
 10. What are the tools with the help of which JUnit can be easily integrated?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 There are mainly three types of tools that play a pivotal role in the integration of JUnit. We can use either of them to facilitate the process. They are as follows:
 
@@ -159,10 +159,10 @@ There are mainly three types of tools that play a pivotal role in the integratio
 
 11. Do you have to write a test case for every logic?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - In JUnit, it is unnecessary to write a test case for every logic but only for those that can be reasonably broken. 
 - A unit test case would comprise a collection of input data and expected output. The org.JUnit package contains several classes and interfaces to help you in unit testing, such as Assert, Test, Before, After, etc. 
@@ -174,10 +174,10 @@ There are mainly three types of tools that play a pivotal role in the integratio
 
 12. How do you write a JUnit test case?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 We have to
 
@@ -192,10 +192,10 @@ We have to
 
 13. How do you run a JUnit test case?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Assuming already we have a JUnit test case written, we can run it by opening it in our IDE and selecting the `run` option. If we are using Eclipse, for example, right-click on the file and select `Run As > JUnit Test`. This will launch the test and run it using the JUnit framework.
 
@@ -206,10 +206,10 @@ Assuming already we have a JUnit test case written, we can run it by opening it 
 
 14. What are the critical fixtures of JUnit?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 The JUnit test framework is associated with the providence of these critical features. They are as follows:
 
@@ -225,10 +225,10 @@ The JUnit test framework is associated with the providence of these critical fea
 
 15. What do you know about Test Suite?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Test suite means bundling a few unit test cases and running them together. In JUnit, both `@RunWith` and `@Suite` annotations are used to run the suite test.
 
@@ -239,10 +239,10 @@ Test suite means bundling a few unit test cases and running them together. In JU
 
 16. How do you test the `protected` and `private` methods?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 In the `protected` method, the test class and target class are declared in the same package. However, in the `private` method, there is no direct way of testing. Either we have to change your method to `protected` or do the testing manually. 
 
@@ -253,10 +253,10 @@ In the `protected` method, the test class and target class are declared in the s
 
 17. What do you understand by JUnit classes? List some of Junit’s classes.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 JUnit classes are those classes that are used in writing and testing JUnit programs. Some of the important JUnit classes are mentioned below –
 
@@ -272,10 +272,10 @@ JUnit classes are those classes that are used in writing and testing JUnit progr
 
 18.  What is JUnit Test Fixture?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 The fixture is a fixed state of a set of objects used as a baseline for running tests. The purpose of a test fixture is to ensure that there is a well-known and fixed environment in which tests are run so that results are repeatable. It includes the following methods −
 
@@ -289,10 +289,10 @@ The fixture is a fixed state of a set of objects used as a baseline for running 
 
 19. How do you install JUnit?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 The first step is to download JUnit 5, the latest version of JUnit ( it would be a file named JUnit.zip). We would be required to unzip the distribution file to a directory, `%JUnit_HOME%`. Then, we would add JUnit to the classpath. 
 
@@ -305,10 +305,10 @@ Next, we would test the installation. This would involve running sample tests (l
 
 20. Name some JUnit extensions?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Following are some of the JUnit extensions
 
@@ -324,10 +324,10 @@ Following are some of the JUnit extensions
 
 21. What are the methods in fixtures?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - `setup`
 - `tearDown`
@@ -339,10 +339,10 @@ Following are some of the JUnit extensions
 
 22. What is `@Test` and where it’s used?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 `@Test` annotation is used to mark a method as a test method, the result of which is then compared with the expected output to check whether the test is successful or not.
 
@@ -353,10 +353,10 @@ Following are some of the JUnit extensions
 
 23. Why JUnit only reports the first failure in a single attempt?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Reporting multiple failures in a single test is generally a sign that the test does too much and it is too big a unit test. JUnit is designed to work best with several small tests. It executes each test within a separate instance of the test class. It reports failure on each test.
 
@@ -367,10 +367,10 @@ Reporting multiple failures in a single test is generally a sign that the test d
 
 24. What is a JUnit parameterized test?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 The parameterized test is a new feature introduced in JUnit 4. It provides the facility to execute the same test case again and again with different values.
 
@@ -381,10 +381,10 @@ The parameterized test is a new feature introduced in JUnit 4. It provides the f
 
 25. What are Annotations and how are they are useful in JUnit?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Annotations are like meta-tags that you can add to your code and apply  to methods or in class. The annotation in JUnit gives us information about test methods, which methods are going to run before & after test methods, which methods run before & after all the methods, and which methods or classes will be ignored during execution.
 
@@ -395,10 +395,10 @@ Annotations are like meta-tags that you can add to your code and apply  to metho
 
 26. In Java, `Assert` is a keyword. Won't this conflict with JUnit's `Assert()` Method?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 JUnit 3.7 deprecated `assert()` and replaced it with `assertTrue()`, which works the same way. JUnit 4 is compatible with the assert keyword. If you run with the -ea JVM switch, assertions that fail will be reported by JUnit.
 
@@ -409,10 +409,10 @@ JUnit 3.7 deprecated `assert()` and replaced it with `assertTrue()`, which works
 
 27. Why not just use `System.out.println()` for testing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Debugging the code using `System.out.println()` will lead to manual scanning of the whole output every time the program is run to ensure the code is doing the expected operations. Moreover, in the long run, it takes lesser time to code JUnit methods and tests them on class files.
 
@@ -423,10 +423,10 @@ Debugging the code using `System.out.println()` will lead to manual scanning of 
 
 28. How will you run JUnit 5 test?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - We can run a JUnit 5 test case using JUnit's console launcher. The executable for this jar can be downloaded from Maven Central, under the `junit-platform-console-standalone` directory.
 - Also, we'll need a directory that will contain all our compiled classes:
@@ -439,10 +439,10 @@ Debugging the code using `System.out.println()` will lead to manual scanning of 
 
 29. What is the purpose of `org.JUnit.jupiter.api.Assertions` class?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 This class provides a set of assertion methods useful for writing tests. Only failed assertions are recorded.
 
@@ -453,10 +453,10 @@ This class provides a set of assertion methods useful for writing tests. Only fa
 
 30. What is the purpose of `org.JUnit.testresult` Class?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 A TestResult collects the results of executing a test case. It is an instance of the Collecting parameter pattern. The test framework distinguishes between failures and errors. A failure is anticipated and checked for with assertions. Errors are unanticipated problems like an `ArrayIndexOutOfBoundsException`.
 
@@ -467,10 +467,10 @@ A TestResult collects the results of executing a test case. It is an instance of
 
 31. What is the purpose of `org.JUnit.testsuite` Class?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 A TestSuite is a composite of tests. It runs a collection of test cases.
 
@@ -481,10 +481,10 @@ A TestSuite is a composite of tests. It runs a collection of test cases.
 
 32.  What is the purpose of `@BeforeEach` Annotation In JUnit?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Several tests need similar objects created before they can run. Annotating a public void method with `@BeforeEach` causes that method to be run before each Test method.
 
@@ -495,10 +495,10 @@ Several tests need similar objects created before they can run. Annotating a pub
 
 33.  What is the purpose of `@AfterAll` annotation in JUnit?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 If you allocate external resources in a Before method you need to release them after the test runs. Annotating a public void method with `@AfterAll` causes that method to be run after the Test method.
 ```Java
@@ -515,10 +515,10 @@ If you allocate external resources in a Before method you need to release them a
 
 34. What is the purpose of `@BeforeAll` annotation in JUnit?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Annotating a public static void method with `@BeforeAll` causes it to be run once before any of the test methods in the class.
 ```Java
@@ -535,10 +535,10 @@ Annotating a public static void method with `@BeforeAll` causes it to be run onc
 
 35. What is the purpose of `assertTrue()` and `assertFalse()` in JUnit?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 The `assertTrue()` asserts that the supplied condition is true or the boolean condition supplied by BooleanSupplier is true.
 Similarly, `assertFalse()` asserts that supplied condition is false.
@@ -550,10 +550,10 @@ Similarly, `assertFalse()` asserts that supplied condition is false.
 
 36. What is the `@Disable` annotation and how is this useful?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 
 To disable a test in JUnit 5, you will need to use the `@Disabled` annotation. It is equivalent to JUnit 4’s `@Ignored` annotation.
@@ -576,10 +576,10 @@ void testCalcTwo()
 
 37. Explain the execution procedure of the JUnit test API methods?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Following is how the JUnit execution procedure works −
 
@@ -599,10 +599,10 @@ Following is how the JUnit execution procedure works −
 
 38. What is the purpose of `org.JUnit.JUnitcore` Class?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 The test cases are executed using JUnitCore class. JUnitCore is a facade for running tests. It supports running JUnit 4 tests, JUnit 3.8.x tests, and mixtures.
 
@@ -613,10 +613,10 @@ The test cases are executed using JUnitCore class. JUnitCore is a facade for run
 
 39. How to simulate a timeout situation In JUnit?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 JUnit provides a handy option for Timeout. If a test case takes more time than the specified number of milliseconds then JUnit will automatically mark it as failed. The timeout parameter is used along the with `@Test` annotation.
 
@@ -627,10 +627,10 @@ JUnit provides a handy option for Timeout. If a test case takes more time than t
 
 40. How can you use JUnit to test that the code throws desired exception?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 JUnit provides an option for tracing the Exception handling of code. You can test if a code throws the desired exception or not. The expected parameter is used along with `@Test` annotation as follows − `@Test(expected)`
 
@@ -641,10 +641,10 @@ JUnit provides an option for tracing the Exception handling of code. You can tes
 
 41.  How to create parameterized tests?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Following are the steps to create parameterized tests in JUnit5:
 - Declare `@ParameterizedTest` to the test.
@@ -680,10 +680,10 @@ arg => 10<br>
 
 42. How to compile a JUnit Test Class?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Compiling a JUnit test class is like compiling any other Java class. The only thing we need to watch out for is that the JUnit JAR file must be included in the classpath.
 
@@ -694,10 +694,10 @@ Compiling a JUnit test class is like compiling any other Java class. The only th
 
 43. What happens if a JUnit test method is declared as "private"?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 If a JUnit test method is declared as "private", it compiles successfully. But the execution will fail. This is because JUnit requires that all test methods must be declared as "public".
 
@@ -708,10 +708,10 @@ If a JUnit test method is declared as "private", it compiles successfully. But t
 
 44. Can you use a `main()` method for Unit testing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Yes we can test using `main()` method. One obvious advantage seems to be that we can whitebox test the class. That is, we can test the internals of it (private methods for example). We can't do the unit testsit-tests. But primarily the test framework tests the interface and the behavior from the user's perspective.
 
@@ -722,10 +722,10 @@ Yes we can test using `main()` method. One obvious advantage seems to be that we
 
 45. Do you need to write a Test Class for every class that needs to be tested?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 No. We need not write an independent test class for every class that needs to be tested. If there is a small group of tests sharing a common test fixture, you may move those tests to a new test class.
 
@@ -737,10 +737,10 @@ No. We need not write an independent test class for every class that needs to be
 46. Can we change the return type of the JUnit test method from void to some other type?
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Ideally, we should not do that. All the JUnit test methods have a void return type. If we change the return type then the test method would not be considered a test method and would be ignored during the execution of tests.
 
@@ -751,10 +751,10 @@ Ideally, we should not do that. All the JUnit test methods have a void return ty
 
 47. When you should run the JUnit test, Is there any particular time interval between each run?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 No there is no time constraint. A JUnit test needs to run whenever there is a change in the source code. This ensures that the new change passes through all the tests.
 
@@ -765,10 +765,10 @@ No there is no time constraint. A JUnit test needs to run whenever there is a ch
 
 48. What is the annotation we have in JUnit 5 as a replacement for @Rule in JUnit 4?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - `@ExtendWith`	is replacement fro `@Rule`.
 - `@Rule` is extended from the class TestRule that helps apply certain rules on the test cases.
@@ -782,10 +782,10 @@ No there is no time constraint. A JUnit test needs to run whenever there is a ch
 
 49. What does the `@TestFactory` annotation do?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - This annotation is supported by JUnit 5 only and helps the creation of dynamic or runtime tests.
 - It returns a stream of data as collection and cannot use lifecycle callback annotations
@@ -797,10 +797,10 @@ No there is no time constraint. A JUnit test needs to run whenever there is a ch
 
 50. Mention different methods of exception handling in JUnit?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 There are different methods of exception handling in JUnit
 
@@ -817,10 +817,10 @@ There are different methods of exception handling in JUnit
 
 51. Explain who should use JUnit – a developer or a tester? Why do you use JUnit to test your code?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 
 JUnit is more often used by developers to implement unit tests in JAVA.  It is designed for unit testing that is more of a coding process and not a testing process. However, many testers and QA engineers use JUnit for unit testing.
@@ -839,10 +839,10 @@ JUnit is used because:
 
 52. What `assert()` does in JUnit?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 `assert()` is used to compare actual and expected results in JUnit. It has various implementations like `assertEquals()`,`assertArrayEquals()`,`assertFalse()`, `assertNotNull()`, etc.
 
@@ -853,10 +853,10 @@ JUnit is used because:
 
 53. Differentiate TDD and BDD?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 The key difference is the scope. TDD is a development practice while BDD is a team methodology. In TDD, the developers write the tests while in BDD the automated specifications are created by users or testers (with developers wiring them to the code under test.) 
 
@@ -867,10 +867,10 @@ The key difference is the scope. TDD is a development practice while BDD is a te
 
 54. Why do we need Unit testing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - Unit tests help to fix bugs early in the development cycle and save costs.
 - It helps the developers to understand the testing code base and enables them to make changes quickly.
@@ -884,10 +884,10 @@ The key difference is the scope. TDD is a development practice while BDD is a te
 
 55. What is the purpose of Assumptions in JUnit5? 
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Assumptions provide static methods to support conditional test execution based on assumptions. A failed assumption results in a test being aborted.
 
@@ -923,10 +923,10 @@ void testOnProd()
 
 56. Can we have Non-Public test methods in JUnit 5?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - JUnit 5 test classes and test methods are not required to be public. We can now make them package-protected.
 - JUnit internally uses reflection to find test classes and test methods. Reflection can discover them even if they have limited visibility, so there is no need for them to be public.
@@ -938,10 +938,10 @@ void testOnProd()
 
 57. What is the purpose of the `@RepeatedTest` annotation in JUnit 5?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 JUnit Jupiter provides the ability to repeat a test a specified number of times by annotating a method with `@RepeatedTest` and specifying the total number of repetitions desired. 
 

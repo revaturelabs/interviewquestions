@@ -2,10 +2,10 @@
 
 1.Explain about the difference between Primitive datatype and Non-Primitive datatype.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - Primitive datatypes are prefined datatype. They are int, short, boolean, char, byte, long, float, and double.
 - Non-primitive datatype are also called as object defined datatypes. Some examples are Strings and Array etc.
@@ -15,10 +15,10 @@
 
 2. Define variables in Java?
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - Variables are the name of the memory location in specified data type.
 - There are three types of variable. They are,
@@ -42,10 +42,10 @@
 
 3.How many types of operators are there in Java?
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 	
   - Operators are the symbols used in java for specifired operation.
       - Unary Operator
@@ -72,16 +72,16 @@ class Main{
 }
 ```
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-<details>
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
 ```	
 9
 11
 ```
-<details>
+<details markdown="1">
     <summary><b> Explanation </b></summary> 
-<blockquote>	
+<blockquote markdown="1">	
 	
 - In postincreament the value is holded then it will be increamented. 
 - In preincrement the value is increamented on code flow itself.
@@ -100,10 +100,10 @@ Initially the value of a is 2 and then increamented to 3, in pre increament the 
 
 5.Explain about Ternary operator.
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 	
   - The ternary operator(?:) is also called conditional operator used to evalute boolean expression.
   - It needs three operands.
@@ -124,10 +124,10 @@ Initially the value of a is 2 and then increamented to 3, in pre increament the 
 
 6.Explain about bitwise operators.
 	
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-<details>
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 	
   - Bitwise operators works with binary value of given integer value.
   - Integer type values are used for this operation which are long, int, short, char, and byte.
@@ -158,10 +158,10 @@ Initially the value of a is 2 and then increamented to 3, in pre increament the 
 7.Explain about the naming convention of variable.
 
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-<details>
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - Variables are case-sentive
 - The variable name should start from letter, the dollar sign `$` or underscore `_` but conventionally starts with letter.

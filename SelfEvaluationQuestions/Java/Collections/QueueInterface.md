@@ -2,9 +2,9 @@
 
 1. What is  Queue Interface?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 > - Queue stores elements before processing and normally queue follows the First in First out principle.
@@ -21,9 +21,9 @@
 
 2. List out basic queue operations?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 > Along with operations in collections, queue has some special operations like:
@@ -39,9 +39,9 @@
 
 3. What is `offer(element)` and how is it different from `add(element)`?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 > - `offer(element)` is used to insert elements into queue
@@ -56,9 +56,9 @@
 
 4. What is `poll()` and how is different from `remove()`?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 > - `poll()` is used to get head element from the queue.
@@ -74,9 +74,9 @@
 
 5. What is `element()` and how is it different from `peek()`?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 > - `element()` is used to get the head element from the queue, unlike the poll element doesn't remove elements from the queue. Returns element or throws an exception if the queue is empty. 
@@ -90,9 +90,9 @@
 
 6. What is ArrayDeque? Explain the internal working of ArrayDeque.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 > - ArrayDeque is a double-ended queue and it implements the Deque Interface.
@@ -104,9 +104,9 @@
 
 7. List out the operations of `ArrayDeque`.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 > 1. `offerFirst(element)` is used to insert elemnts from the head
@@ -126,9 +126,9 @@
 
 8. What is `PriorityQueue` and how does it work internally?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 > - `PriorityQueue` is a queue that stores the elements in general order(ascending) or uses a comparator to sort the elements.
@@ -143,12 +143,12 @@
 
 9. What is BlockingQueue?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - `BlockingQueue` is similar to queue but it supports some operations like waiting for the queue to be non-empty to retrieve an element and waiting till the space is available to insert the elements.
 
@@ -162,19 +162,19 @@
 
 10. What is the time complexity of <code>offer(element)</code> method for `ArrayDeque`?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 A. O(n)<br>
 B. O(1)<br>
 C. O(log n)<br>
 D. O(n <sup>2</sup>)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 > B
 
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
 
 > In `ArrayDeque` elements are added at the rear end when `offer(element)` is used so time complexity is O(1).
@@ -187,19 +187,19 @@ D. O(n <sup>2</sup>)
 
 11. What is the time complexity of <code>poll()</code> method for `ArrayDeque`?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 A. O(n)<br>
 B. O(1)<br>
 C. O(log n)<br>
 D. O(n <sup>2</sup>)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 > B
 
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
 
 > In `ArrayDeque` elements are retrieved from the front end when `poll()` is used so time complexity is O(1).
@@ -211,19 +211,19 @@ D. O(n <sup>2</sup>)
 
 12. What is the time complexity of <code>element()</code> method for `ArrayDeque`?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 A. O(n)<br>
 B. O(1)<br>
 C. O(log n)<br>
 D. O(n <sup>2</sup>)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 > B
 
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
 
 >  In `ArrayDeque` elements are retrieved but not removed from the front end. When `element()` is used so time complexity is O(1). 
@@ -235,19 +235,19 @@ D. O(n <sup>2</sup>)
 
 13. What is the time complexity of <code>offer(element)</code> method for a `PriorityQueue`?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 A. O(n)<br>
 B. O(1)<br>
 C. O(log n)<br>
 D. O(n <sup>2</sup>)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 > C
 
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
 
 > Elements are sorted and stored in the form of a heap in `PriorityQueue`. The time complexity to insert an element using `offer(element)` is O(log n).
@@ -260,19 +260,19 @@ D. O(n <sup>2</sup>)
 
 14. What is the time complexity of <code>poll()</code> method for a `PriorityQueue`?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 A. O(n)<br>
 B. O(1)<br>
 C. O(log n)<br>
 D. O(n <sup>2</sup>)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 > B
 
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
 
 > Elements are sorted in `PrirityQueue`, when ` poll()` is used the first element is retrieved.
@@ -284,19 +284,19 @@ D. O(n <sup>2</sup>)
 
 15. What is the time complexity of <code>element()</code> method for a `PriorityQueue`?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 A. O(n)<br>
 B. O(1)<br>
 C. O(log n)<br>
 D. O(n <sup>2</sup>)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 > B
 
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
 
 > Elements are sorted in `PrirityQueue`, when ` element()` is used the first element is retrieved but not removed.
@@ -307,12 +307,12 @@ D. O(n <sup>2</sup>)
 ---
 16. What is the Difference between `Queue` and `Deque`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary><b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
   
   | Queue                                                                               | Deque                                                                                                                                                                                               |
 | ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -336,7 +336,7 @@ D. O(n <sup>2</sup>)
 
 17.  What are AA, BB, CC and DD?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 ``` java
 ArrayDeque<Integer> ad = new ArrayDeque<>();
@@ -346,11 +346,11 @@ b. ad.BB(e): to get an element from the rear end.<br>
 c. ad.CC(e): to insert an element at the rear end.<br>
 d. ad.DD(e): to get an element from the front end.
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 
 - AA is `offerFirst()` or `addFirst()`.
@@ -366,7 +366,7 @@ d. ad.DD(e): to get an element from the front end.
 
 18. Predict the output of the following code snippet.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 ``` java
 
@@ -376,7 +376,7 @@ System.out.println(ad.pop());
 
 ``` 
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 
@@ -389,7 +389,7 @@ System.out.println(ad.pop());
 
 19. Predict the output of the following code snippet. 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 ``` java
 ArrayDeque<Integer> ad = new ArrayDeque<>();
@@ -398,7 +398,7 @@ System.out.println(ad.poll());
 
 ```
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 
@@ -411,7 +411,7 @@ System.out.println(ad.poll());
 
 20. Predict the output of the following code snippet. 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 ``` java
 ArrayDeque<Integer> ad = new ArrayDeque<>();
@@ -420,7 +420,7 @@ System.out.println(ad.remove());
 
 ```
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 
@@ -434,24 +434,24 @@ System.out.println(ad.remove());
 
 21. There is a movie premiere and people should walk through the red carpet before they are allowed into the movie theatre. people walk on the carpet based on their importance, The order goes like, Produce, Director, lead Actors, supporting actors and the list continues. Which of the following best represents the following scenario?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 A. `ArrayDeque` <br>
 B. `PriorityQueue` <br>
 C. `BlockingQueue` <br>
 D. `Queue` 
 
-<details>
+<details markdown="1">
 
 <summary><b> Show Answer </b></summary>
 
 > B
 
-<details>
+<details markdown="1">
 
 <summary><b> Explanation </b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 People are allowed into the theatre based on their priority so the list of people can be stored using a PriorityQueue.
 

@@ -2,10 +2,10 @@
 
 1.How would you explain about expression?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
   <summary> <b> Show Answer </b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - An expression is madeup of variable, constants and operators.
 
@@ -27,10 +27,10 @@
 
 2. How would you explain about Statement?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
   <summary> <b> Show Answer </b></summary>
-<blockquote>
+<blockquote markdown="1">
 	
 - Statements are like sentences in a language.
 - We can use semicolon to seperate the statements(;).
@@ -46,10 +46,10 @@
 
 3.How would you explain about blocks?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
   <summary> <b> Show Answer </b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - A block starts with braces open and end with braces close.
 - All the open braces should be balanced by close braces.

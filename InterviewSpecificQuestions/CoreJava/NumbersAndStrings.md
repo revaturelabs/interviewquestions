@@ -1,11 +1,11 @@
 1. How do Strings work? (or) Brief us on strings
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
  
  String is a sequence of characters. String objects are immutable which means a constant and cannot be changed once created. Also, it stored in a special memory area inside heap known as string constant pool.
  
@@ -24,12 +24,12 @@
 
 2. What is the difference between String Buffer and String Builder?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
  
  |                                                              StringBuffer                                                             |                                                            StringBuilder                                                           |
 |:-------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------:|
@@ -45,12 +45,12 @@
 
 3. What classes are mutable strings? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
  
  StringBuilder and StringBuffer 
 
@@ -61,12 +61,12 @@
 
 4. Why Strings in Java are immutable?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
  
  In the String constant pool, a String object is likely to have one or many references. If several references point to the same String without even knowing it, it would be bad if one of the references modified that String value. That's why String objects are immutable.
 
@@ -77,12 +77,12 @@
 
 5. How would you reverse a string of your name?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
 
 StringBuilder or StringBuffer class has an in-build method reverse() to reverse the characters in the string. 
 
@@ -106,12 +106,12 @@ public static void main(String[] args) {
 
 6. What are Wrapper classes?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
  
 A Wrapper class is a class whose object wraps or contains primitive data types. Each of the 8 primitive types has corresponding wrapper classes.
 
@@ -133,12 +133,12 @@ A Wrapper class is a class whose object wraps or contains primitive data types. 
 
 7. Why do we use wrapper classes? or What is the purpose of the Wrapper class in java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
  
  - Java need wrapper classes to be a pure Object-Oriented Programming language, so Java needs everything to look like an object.
  - Classes in Collection framework & java.util package, such as ArrayList and Vector, store only objects (reference types) and not primitive types
@@ -151,12 +151,12 @@ A Wrapper class is a class whose object wraps or contains primitive data types. 
 --- 
 8. What is autoboxing and unboxing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
  
 The process of converting a primitive value into an object of the corresponding wrapper class is called autoboxing.
 
@@ -169,11 +169,11 @@ The process of converting an object of a wrapper type to its corresponding primi
 
 9. Differentiate between `str1 == str2` and `str1.equals(str2)`, where both str1 & str2 are String objects.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - In Java both the `equals()` method and the `==` operator compares the objects.
 
@@ -188,11 +188,11 @@ The process of converting an object of a wrapper type to its corresponding primi
 
 10. How can two strings be compared in Java?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - `String Equals Method`: Compares this string to the specified object. The result is true if and only if the argument is not null and is a String object that represents the same sequence of characters as this object.
 Syntax: `public boolean equals(Object anObject)` 
@@ -219,11 +219,11 @@ Note: == operator is avoided, since it checks for reference equality, i.e. if th
 
 11. How do you convert a string to an integer and vice versa in Java?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 Integer class in the Java lang package provides different methods for converting strings to integers and vice versa. The `parseInt()` method allows you to convert a String into an integer and the `toString()` method allows you to convert an Integer into a String. 
 
@@ -235,11 +235,11 @@ Integer class in the Java lang package provides different methods for converting
 
 12. What is the use of `valueof()` method?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - It converts the value of an argument into the relevant Number Object. The argument can be any numeric primitive data type or String.
 
@@ -253,11 +253,11 @@ Integer class in the Java lang package provides different methods for converting
 
 13. Give the example for mutable and immutable objects in java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Mutable objects value can be changed. StringBuilder and StringBuffer are the examples of the mutable objects.
 
@@ -271,11 +271,11 @@ Integer class in the Java lang package provides different methods for converting
 
 14. What is the use of `split ()` method in Java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 The method `split(String regex)` to split the String into String array based on the provided regular expression
 
@@ -287,11 +287,11 @@ The method `split(String regex)` to split the String into String array based on 
 
 15. Which class should we use among String,StringBuffer and StringBuilder when there are lot of String concatenation and String modification operations with thread-safe code?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 **StringBuffer**
 

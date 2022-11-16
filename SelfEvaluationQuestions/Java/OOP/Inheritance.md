@@ -2,18 +2,18 @@
 
 1. Harry potter's Invisibility cloak was passed down to him by his father James and James potter got it from his father Henry potter, this is a clear example for?  
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 - A.Hybrid Inheritance
 - B.Multilevel Inheritance
 - C.Simple Inheritance
 - D.Multiple Inheritance
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 	
 > B
  
-<details>
+<details markdown="1">
   <summary><b>Explanation</b></summary> 
 	
 > - Invisibility cloak is a family heirloom for potters, A property is passed down from one class(generation) to another, this is a clear example of multilevel inheritance.
@@ -24,18 +24,18 @@
 
 2. English language vocabulary is comprised of old germanic, French, and Latin words, this is an example for? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 - A.Hybrid Inheritance
 - B.Multilevel Inheritance
 - C.Simple Inheritance
 - D.Multiple Inheritance
 
-<details><summary><b>Show Answer</b> </summary>
+<details markdown="1"><summary><b>Show Answer</b> </summary>
 	
 > D
   
-<details>
+<details markdown="1">
   <summary><b>Explanation</b></summary> 
 	
 >  English vocabulary is inherited from germanic, French, and Latin, one class inherits the properties of multiple classes, and this is an example of multiple inheritances.
@@ -49,9 +49,9 @@
 
 1. How is Multiple Inheritance implemented in java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b> Show Answer</b></summary>
 
 > In java, a class can not extend more than one class. To achieve multiple Inheritance, one can create multiple interfaces and create a class that implements multiple Interfaces.
@@ -60,8 +60,8 @@
 ---
 2. What is Hybrid Inheritance?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer</b></summary>
 
 > Simple inheritance, multilevel inheritance, and multiple inheritances are the different types of Inheritance in java, combining two or many of these is considered Hybrid Inheritance.
@@ -70,8 +70,8 @@
 ---
 3. What is Multilevel Inheritance?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer</b></summary>
 
 > A superclass is extended by a subclass and the subclass is extended by another subclass. The US government provides funds to Texas and the Texas government provides funds to Austin, here funds are an object, and the US, Texas, and Austin are classes.	
@@ -83,8 +83,8 @@
 ---
 4. What is single Inheritance?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer</b></summary>
 
 > The relation between a superclass which gets extended by a single subclass is called single Inheritance.
@@ -96,8 +96,8 @@
 ---
 5. Differentiate Aggregation and Inheritance.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-<details>
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer</b></summary>
 
 > - Aggregation: Has-a Relationship is implemented in aggregation.
@@ -107,11 +107,11 @@
 ---
 6. How can a subclass use the private fields of a superclass?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b> </summary>
-<blockquote>
+<blockquote markdown="1">
 
 - A subclass can access the private members of the superclass in two possible ways:<br>
   
@@ -131,11 +131,11 @@
 - C.Simple Inheritance 
 - D.Multilevel Inheritance
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 	
 > A
 
-<details>
+<details markdown="1">
   <summary><b>Explanation</b></summary> 
 	
 > Multiple Inheritance of state is invalid in java because a class cant extend more than one class but it can implement multiple interfaces.
@@ -147,9 +147,9 @@
 ---
 8. Why is a class restricted to extend a single class in java?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
  
 > If a class extends multiple classes the object of the class inherits all the fields of all the inherited classes, and inherited classes might have the same fields which are instantiated by different methods or constructors, it's not possible to set the precedence for all the methods and constructors, so the instantiation of the field is ambiguous. A class extend a single class, to avoid Multiple inheritances of state.
@@ -161,7 +161,7 @@
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 
 
@@ -172,12 +172,12 @@
 ---
 10. What is Upcasting?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 	
-<blockquote>
+<blockquote markdown="1">
 	
 - A child class inherits all the properties of parent class so the child class can be implicitly upcasted to parent.
 	
@@ -192,11 +192,11 @@ Parent p = new Child();
 ---
 11. What is Downcasting?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 	
 - A parent class may or may not have all the properties of Child class, so parent class can be ecplicily downcasted to Child class
 
@@ -212,9 +212,9 @@ Child c= (Child) new Parent();
 ---
 12. Is it possible to override `main()` method?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 	
 > No, `main()`  method is a static method and static methods can't be overriden.
@@ -225,9 +225,9 @@ Child c= (Child) new Parent();
 
 13. Is it possible to inherit a constructor? justify your answer.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 	<summary><b>Show Answer</b></summary>
 	
 > No
@@ -239,9 +239,9 @@ Child c= (Child) new Parent();
 
 14. Is it possible to override a static method? justify your answer.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 	<summary><b>Show Answer</b></summary>
 	
 > No
@@ -254,7 +254,7 @@ Child c= (Child) new Parent();
 
 1. What is the output of the following code?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 ``` java
 package web;
@@ -302,11 +302,11 @@ class Japan extends Olympics{
 
 - D. We will host the summer Olympics in 2036
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 	
 > A
   
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
 	
 > ` i.hostOlympics()` invokes the method in India class. So, "We will host the summer Olympics in 2036" will be printed first and `o.hostOlympics()` invokes meythod in Olympics class. So, "  Summer Olympics and Winter Olympics" will be printed.
@@ -322,7 +322,7 @@ class Japan extends Olympics{
 
 1. What is the output of the following code?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 ``` java
 public final class Car{
@@ -350,11 +350,11 @@ public final class Car{
 - C. Compile-time error
 - D. Runtime error
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 	
  > C
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
 	
 > Class KIA is trying to inherit the final class Car. It's not possible to inherit a final class.
 </details>
@@ -364,7 +364,7 @@ public final class Car{
 ---
 2. What is the output of the following code?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 ``` java
 public final class Car{
@@ -392,12 +392,12 @@ public final class Car{
 - C. Compile-time error
 - D. Runtime error
 
-<details><summary><b>Show Answer</b> </summary>
+<details markdown="1"><summary><b>Show Answer</b> </summary>
  
 > A
   
  
-<details><summary><b>Explanation</b> </summary>
+<details markdown="1"><summary><b>Explanation</b> </summary>
 	
 > Final class can not be inherited but no object is created for the subclass and no subclass methods are implemented, So there is no error in the code.
 </details>
@@ -406,7 +406,7 @@ public final class Car{
 ---
 3. What is the error in the following code snippet? correct the error.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 ``` java
 
@@ -416,9 +416,9 @@ Main m = o;
 
 ``` 
 
-<details><summary> <b>Show Answer</b></summary>
+<details markdown="1"><summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
   - the above code is an example for object casting and line 2 creates an error, even if object o is of type Main, JVM can not recognize it and an explicit type cast should be added to avoid compile time error.
   
  ``` java
@@ -436,7 +436,7 @@ Main m = o;
 ---
 4. The object declared in the below code snippet is type casted but it may or may not be of type Main, How does a programmer avoid runtime error?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 ``` java
 
@@ -444,9 +444,9 @@ Main m = (Main) o;
 
 ```
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 	
 - To avoid any runtime error the declaration can be enclosed in a simple condition which checks the instance of object o.
   

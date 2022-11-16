@@ -3,9 +3,9 @@
 
 1. Does python have a Switch-Case statement?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Python doesn't have a switch case statement, we can use the normal `if-else` statements in it.
 </details>
@@ -13,9 +13,9 @@
 ---
 2. Does python have a while and do-while loop?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > In Python, there is no do-while loop. But we can use `while` loop in it.
 </details>
@@ -27,12 +27,12 @@ b) while
 c) if   
 d) None of the above  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option is c) `if` 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > `for` and `while` are the looping statements in python.
   </details>
@@ -41,9 +41,9 @@ d) None of the above
 ---
 4. Write the syntax for `if-else` statement.
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
   ```python
   if(condition):
@@ -63,9 +63,9 @@ d) None of the above
 a) True  
 b) False   
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
  
 > Option is b) False.
 </details>
@@ -85,12 +85,12 @@ c) Eligible for voting
 &ensp; Not eligible for voting   
 d) SyntaxError   
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option is d) SyntaxError
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > `if` statements should end with `semicolon(:)` in python.
   </details>
@@ -110,12 +110,12 @@ b) Number is Odd
 c) "Number is Odd"  
 d) "Number is Even" 
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option is b) Number is Odd 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > `if` condition becomes false as 43%2 is not equal to 0. Therefore `else` part executed.
   </details>
@@ -129,12 +129,12 @@ b) Not possible
 c) we can write it but have to import the module first.    
 d) None of the above      
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option is a) Yes 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > Yes, it is possible to write `if-else` in single line. For example: ```print("hi") if 10<8 else print("hello")```
   </details>
@@ -148,12 +148,12 @@ b) if (x=>4)
 c) if (x<4):  
 d) if x>4   
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
  
 > Option c) is correct
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > All the other options except c) misses semicolon at last.
   </details>
@@ -177,12 +177,12 @@ else:
   d) Hi  
   &emsp;Hello  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option is d) 
-<details><summary> <b>Explanation/b> </summary>
+<details markdown="1"><summary> <b>Explanation/b> </summary>
   
 > Both `if` statements results in true, so 'Hi' and 'Hello' will get printed.
  </details>
@@ -205,12 +205,12 @@ c) Hi-World
 &emsp;Hello-World   
 d) Error  
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option is a) Hi-World
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > "Hi-world" is printed as `if` condition becomes `True`.
   </details>
@@ -233,12 +233,12 @@ else:
 &emsp;Hello-World   
   d) Error  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option is b) Hello-World
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > "Hello-World" is printed as `if` conditon becomes `False`.
   </details>
@@ -261,12 +261,12 @@ else:
 &emsp;Hello-World   
   d) Error  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option is a) Hi-World
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > In `if` condition, Bitwise `xor ^` operator is used which returns 1 if either of the bits are 1 else return 0 if both the bits are 0 or 1. Therefore, in the above code, 0 and 1 results in 1 which is `True` in python. Hence 1st print statement gets executed.
   </details>
@@ -289,12 +289,12 @@ c) Hi-World
 &emsp;Hello-World   
 d) Error  
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option is d) Error
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > There is no || operator in python. 
   </details>
@@ -319,12 +319,12 @@ c) Hi-World
 &emsp;Hello-World   
 d) Error  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option is a) Hi-world 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > "Hi-world" is executed because all the `if` conditions becomes true for the values of 'a' and 'b'. 
   </details>
@@ -343,12 +343,12 @@ b) J, e, r, r, y
 c) J, e,  
 d) J, e, y,  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option is c) J, e, 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
 
 > The `break` statement jumps out of loop when the if condition becomes true i.e when the i value becomes equal to 'r'. So it prints from J till e with comma after each character and comes out of loop and will not print " r, r, y, " of "Jerry" string.
   </details>
@@ -369,12 +369,12 @@ b) J, e, r, r, y
 c) J, e,  
 d) J, e, y,  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option is d) J, e, y,
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The `continue` statement skips the current iteration and moves to next iteration when the condition inside `if` becomes true. Here whenever the value of i is equal to r, it will not print the ith value for that iteration and iterates from next iteration. Hence, 'r' is not printed anytime in output screen and we get the output as "J, e, y,".
   </details>
@@ -394,12 +394,12 @@ b) J, e, r, r, y,
 c) J, e,  
 d) J, e, y,  
  
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option is b)
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The `pass` statement in python does not do anything and therefore all the characters of string is printed with comma(,) at last of each character.
   </details>
@@ -419,12 +419,12 @@ b) 8 9 10
 c) 9 11  
 d) None  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option is a)
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > Here in the above code, `for` each iteration, `if` the `num%i == 1` condition gets true then only it prints the num value and breaks the inner loop and jumps to the outer loop otherwise the i value of inner loop keeps on changing untill i<n or `if` condition becomes true, whichever comes first. It prints 8 when the value of num and i are 8 and 7 respectively. It prints 9 when the value of num and i are 9 and 2 respectively. It prints 10 when the value of num and i are 10 and 3 respectively. It prints 11 when the value of num and i are 11 and 2 respectively. Hence the correct option is a).   
   </details>
@@ -445,12 +445,12 @@ b) 8 9 10
 c) 9 11  
 d) None  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > Option is b)
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > Here in the above code, `for` each iteration, `if` the `num%i == 0` condition gets true then only it prints the num value and breaks the inner loop and jumps to the outer loop otherwise the i value of inner loop keeps on changing untill i<n or `if` condition becomes true, whichever comes first. It prints 8 when the value of num and i are 8 and 2 respectively. It prints 9 when the value of num and i are 9 and 3 respectively. It prints 10 when the value of num and i are 10 and 2 respectively. For num =11, there is no i value that satisfy the if condition therfore it is not printed. Hence the correct option is b).
  </details>
@@ -464,9 +464,9 @@ b) else clause of for loop is executed when the loop terminates abruptly.
 c) else clause of for loop is executed when the loop terminates naturally.  
 d) We use for loop when we want to perform a task indefinitely until a particular condition is met.  
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > Option are a) and c). 
   </details>
@@ -482,12 +482,12 @@ b) 4, 3, 2, 1, 0, 1, 2,
 c) 4, 3, 2, 1, 0, -1,  
 d) 4, 1, -1, -3,  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option is c) 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The `range()` function prints the i value from 4 and decrement by 1 at each iteration till `i > -2`.
  </details>
@@ -518,12 +518,12 @@ for x in numbers:
 &emsp;5 Apple    
 &emsp;6 Orange  
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
  
 > Option a)
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > In both the iteration, for each value of x+1 every value of y is printed. 
   </details>
@@ -537,9 +537,9 @@ b) while loop
 c) do-while loop  
 d) None of the above  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 Option is c) do-while loop
   </details>
@@ -552,9 +552,9 @@ b) "break" can be used to bring control out of the current loop.
 c) No loop can be used to iterate through the elements of strings.  
 d) "continue" is used to continue with the remaining statements inside the loop.  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option is b).
  </details>
@@ -581,12 +581,12 @@ c) 2
 &emsp;5   
 d) Error    
  
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option is d)
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > There should be no space between `+` and `=` in last line of code.
   </details>
@@ -614,12 +614,12 @@ c) 2
 &emsp;5     
 d) Error     
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option is a)
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > It will print 2 3 4 only not 5 because when the i value becomes 5 it satisfies the `if` condition and therefore the iteration comes out of loop. 
   </details>
@@ -652,12 +652,12 @@ c) 6
 d) 4     
 &emsp;20   
  
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
  
 > Option is b) 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > It executes the statements present inside if untill the `if` condition becomes false and it breaks the loop and jumps out of it, having the final value of n as 5 and c as 20.
   </details>
@@ -680,12 +680,12 @@ b) 3
 c) 4  
 d) 5  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > Option is c) 4
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > Here the value of c is incremented by 1 whenever the `if` condition satisfy. 
   </details>
@@ -709,12 +709,12 @@ b) 3
 c) 4  
 d) 5  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > option is d) 5
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > Here the value of c is incremented by 1 when both outer and inner `if` condition becomes true or when outer `if` condition becomes false. The c value is not incremented when outer `if` becomes true but inner `if` becomes false. Hence the output is 5 in this case. 
   </details>
@@ -738,12 +738,12 @@ b) 1
 c) 2      
 d) 4    
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 Option is b) 1 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > Here the value of c is incremented by 1 when both outer and inner `if` condition becomes true and decremented by 1 when outer `if` condition becomes false. The c value doesn't change when the outer `if` condition satisfy but not inner. Hence the output is 1 in this case.
   </details>
@@ -754,9 +754,9 @@ Option is b) 1
 a) True  
 b) False   
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option b) False
   </details>
@@ -773,12 +773,12 @@ c) for i in range(0,5):
 d) for i in range(0,5,1):  
 &emsp;&emsp;print(i)  
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > option is a)
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > Every option except a) gives output as 0 1 2 3 4, but a) option code gives output as 0 1 2 3 4 5.
   </details>
@@ -796,12 +796,12 @@ b) 2
 c) 0  
 d) infinite   
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > option b) 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > For the value of i = 2 and i = 1, the loop runs. Hence 2 times.
   </details>
@@ -819,12 +819,12 @@ b) 2
 c) 0   
 d) infinite     
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > option d) 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > As in the above code the `while` loop condition is `True` always, so it will run infinite times.
   </details>
@@ -842,12 +842,12 @@ b) Hi
 c) No output  
 d) Error  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > Option c) 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The i value never falls in the range of values given, Therefore no output is printed.
   </details>
@@ -861,9 +861,9 @@ b) for(i=0;i<len(a);i++)
 c) for i in a:  
 d) for i in range(len(a),2,-1):  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > Option b) 
   </details>
@@ -876,9 +876,9 @@ d) for i in range(len(a),2,-1):
   c) Else statement is always executed  
   d) We cannot write else part without if part. 
  
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > Option b)
   </details>
@@ -897,12 +897,12 @@ b) H e l l o - W o r l d
 c) No output  
 d) Error  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option is c) No output
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > In `while` loop, the value of i never matches with the value of x. Therefore no output is printed in console.
   </details>
@@ -922,12 +922,12 @@ b) a p p l e
 c) 0 1 2 3 4   
 d) 0 2 4  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option is d)
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The `for` loop runs till the value of string length, that is till 4 starting from 0. And for each value of i which is divisible by 2 and gives remainder as 0 will gets printed in output screen. Therefore option d) is correct.
   </details>
@@ -947,12 +947,12 @@ b) a p p l e
 c) 0 2 4  
 d) p l  
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > option is a) 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > Here in the above code, for the index value of i =0, 2 and 4, the character present in that position in string gets printed. Hence the option a) is correct. 
   </details>
@@ -970,12 +970,12 @@ b) 123
 c) Error  
 d) None of the above  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option c) Error  
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > It will give `"TypeError: 'int' object is not iterable"`. 
   </details>
@@ -993,9 +993,9 @@ b) 123
 c) Error  
 d) None of the above  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option a) 
 
@@ -1011,12 +1011,12 @@ b) do while loop
 c) while loop    
 d) None of the above    
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option is c) `while` loop
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > In `for` loop we cannot check the condition, whereas do while loop is not present in python.
 </details>
@@ -1034,12 +1034,12 @@ b) list
 c) list()  
 d) None of the above  
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option is d)
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > Because in the above code 'l' is an empty list, therefore it will print anything.
   </details>
@@ -1053,9 +1053,9 @@ d) None of the above
   c) continue  
   d) pass  
  
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option is b) `break`
   </details>
@@ -1068,9 +1068,9 @@ d) None of the above
   c) colon :  
   d) comma ,  
  
- ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+ ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > option c) colon :
   </details>
@@ -1083,12 +1083,12 @@ b) while True:
 c) while 0:    
 d) while -1:    
  
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > options a), b) and d) are correct 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 `While 0:` in python means false.
   </details>
@@ -1100,9 +1100,9 @@ d) while -1:
 a) True  
 b) False  
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option a) True
   </details>
@@ -1113,9 +1113,9 @@ b) False
 a) True  
 b) False  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > option a)  
   </details>
@@ -1128,9 +1128,9 @@ b) if-else
 c) for  
 d) if  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > option is c) `for`.
   </details>
@@ -1155,12 +1155,12 @@ b) 8 17
 c) 12 8    
 d) 8  8    
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > option b) 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > When the elements that are present in a list is divisible by 2 ,the statement present inside first `if` is exceuted. When the elements that are present in a list is divisible by 3 ,the statement present inside 2nd `if` is exceuted.  
   </details>
@@ -1186,12 +1186,12 @@ b) 8 17
 c) 12 8  
 d) 8  8  
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > option d) 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > When the elements that are present in a list is divisible by 2 ,the statement present inside first `if` is exceuted. When the elements that are present in a list is divisible by 3 ,the statement present inside 2nd `if` is exceuted.  
   </details>
@@ -1217,12 +1217,12 @@ print(sum2)
   c) 3 12  
   d) 8  8  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option c) 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > When the elements that are present in a list is divisible by 2 ,the statement present inside first `if` is exceuted. When the elements that are present in a list is divisible by 3 ,the statement present inside 2nd `if` is exceuted.  
 </details>
@@ -1248,12 +1248,12 @@ print(sum2)
   d) 8 18  
   c) 9 17  
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > option is a) 9 18
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > When the elements that are present in a list is divisible by 2 ,the statement present inside first `if` is exceuted. When the elements that are present in a list is divisible by 3 ,the statement present inside 2nd `if` is exceuted.  
   </details>
@@ -1277,12 +1277,12 @@ c) False
 d) False  
 &emsp;True  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > option a)
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The first `if` condition becomes true, as `9<10`, in the above code, so `True` is printed. Also last `True` is always printed as it is not a part of if-else statements.
 </details>
@@ -1305,12 +1305,12 @@ c) False
 &emsp;True  
 d) None of the above    
             
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option d)
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The first `if` condition becomes true, as `9<10`, in the above code, so `True` is printed. Last print statement is not executed because it is started with # which makes it as comment in the code.
 </details>
@@ -1337,12 +1337,12 @@ d) True
 &emsp;False  
 &emsp;True   
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option is b).
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The first and thrid print statements are not executed as `if` condition becames false. The second print statement is executed as `8!=4` condition becomes true. Also last `True` is always printed as it is not a part of `if-else` statements. Hence option b) is correct.
 </details>
@@ -1367,12 +1367,12 @@ b) False
 c) True  
 d) None of the above  
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
  
 > option is d)
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The first print statement is not executed as `if` condition becames false. The 2nd and 3rd print statements are executed as `if` condition for both becomes true. Also last `True` is always printed as it is not a part of `if-else` statements. Therefore, it will print `False`, `True`, `True` each in new line. Hence option d) is correct.
   </details>
@@ -1393,12 +1393,12 @@ b) False
 c) No Output  
 d) Error   
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option is b) False.
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The first `if` condition becomes false as `10<10` is false. Therfore the `else` part is executed and printed `False` in console. 
   </details>
@@ -1420,12 +1420,12 @@ b) 6
 c) 4  
 d) 3 
  
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option is c) 4.
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The `while` loop will run until i becomes equal to or greater then 0. Whenever the `while` loop condition becomes true it will first add the values of i and j and stores it in i variable. then it will increment the value of j by 1. When the `while` condition becomes false it will print the final value of j in the console. 
   </details>
@@ -1439,9 +1439,9 @@ b) While something is greater than something
 c) While something is True    
 d) All of these    
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option d)
   </details>
@@ -1459,12 +1459,12 @@ b) ABC
 c) abc  
 d) xyz  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > correct option is a) XYZ
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The print statement is outside the `for` loop therefore only the last value of i is printed. 
   </details>
@@ -1483,12 +1483,12 @@ b) ABC
 c) abc  
 d) xyz  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option is d) xyz
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > Here, 's' is storing the lowercase values of list 'a'. The print statement is outside the `for` loop therefore only the last value of 's' is printed. 
   </details>
@@ -1507,12 +1507,12 @@ b) ['ABC', 'XYZ']
 c) ['abc']  
 d) ['XYZ']  
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option is b)
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > Print statement have 'a' which is a list, so the whole list is printed in the console without modification. 
   </details>
@@ -1533,12 +1533,12 @@ b) 3 1 6 4 7 8 2
 c) 4 2 6 2 8 8 2  
 d) 3 1 7 3 9 9 1  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option is b) 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The `if` conditon becomes true for the values 3 and 1 and false for the rest of the values present in list1. Therefore when `if` becomes true it increments the value of i by 1 and decrements the value of i by 1 when `if` becomes false.
  </details>
@@ -1559,12 +1559,12 @@ b) 3 1 6 4 7 8 2
 c) 4 2 6 2 8 8 2    
 d) Error     
  
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option d) 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The above code will result in syntax error because of the `if` condition `i%2=0` , as here `=` is an assignment operator not comparison which is not allowed in `if` condition.
   </details>
@@ -1585,12 +1585,12 @@ b) 5 1 6 4 7 8 0
 c) 5 3 6 2 7 8 0  
 d) 4 2 6 2 8 8 2   
      
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option c) is correct
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The `if` conditon becomes true for the values 4 and 2 and false for the rest of the values present in list1. Therefore when `if` becomes true it increments the value of i by 1 and decrements the value of i by 1 when `if` becomes false.
   </details>
@@ -1604,15 +1604,15 @@ for i in list1:
     # write your logic here
 ```
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 ```python3
 if(i%2==0):
      print(i)
 ```    
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > `i%2==0` is the condition for printing even numbers. Therefore it will print 4, 2 and 8 in console.
   </details>
@@ -1626,15 +1626,15 @@ for i in list1:
     # write your logic here
 ```
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 ```python3
 if(i%2!=0):
      print(i)
 ```     
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > `i%2!=0` is the condition for printing odd numbers. Therefore it will print 7, 3, 9 and 1 in console.
   </details>
@@ -1648,15 +1648,15 @@ for i in list1:
     # write your logic here
 ```
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 ```python3
 if i%2!=0 and i>3:
      print(i)
 ```    
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > `i%2!=0` is the condition for printing odd numbers and `i> 3` will take the value of i which is greater then 3 and there is a logical `and` operator between both the `if` conditions. Therefore when both the conditions becomes true only than the print statement inside `if` will executes. Hence, we get the final result as 7 and 9. 
   </details>
@@ -1670,15 +1670,15 @@ for i in list1:
     # write your logic here
 ```
  
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 ```python3
 if i%2==0 or i>3:
      print(i)
 ```
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > `i%2==0` is the condition for printing even numbers and `i> 3` will take the value of i which is greater then 3 and there is a logical `or` operator between both the `if` conditions. Therefore when either of the conditions becomes true only than the print statement inside if will executes. Hence, we get the final result as 4, 2, 7, 8, and 9. 
   </details>
@@ -1692,9 +1692,9 @@ b) selection
 c) flow of control    
 d) iteration    
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option is c) flow of control.
   </details>
@@ -1707,9 +1707,9 @@ b) while
 c) do-while    
 d) both a) and b)    
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option is b) `while` loop.
   </details>
@@ -1722,9 +1722,9 @@ b) if condition inside another if condition
 c) if condition with elif and else block  
 d) None of the above  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option b)
   </details>
@@ -1743,12 +1743,12 @@ b) Hello
 c) Hi  
 d) Nothing will be printed  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option c)
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The `if` condition becomes false as `5!= var` is false. Hence Hi is printed.
   </details>
@@ -1768,12 +1768,12 @@ b) Hello
 c) Hi  
 d) Nothing will be printed 
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
  
 > option a)
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The above code will result in syntax error as `for` is a keyword in python and we cannot use keywords as variable or a class. 
   </details>
@@ -1787,9 +1787,9 @@ b) var += 5
 c) var *=5  
 d) None  
  
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option is c) var *=5
 
@@ -1804,15 +1804,15 @@ n = 6
 ___#write the logic here___
 ```
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
    
 ```python3
 for i in range(0,n):
     print(i)
 ```
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The `for` loop in python helps in running the loop for the range given. The above code will print the values from 0 till 5, not including 6.
   </details>
@@ -1829,12 +1829,12 @@ b) 6 3 0 -3
 c) 6, 4, 2, 0, -2  
 d) error  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option is c)
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The `for` loop in the above code will first take 6 as intial value and for each iteration it decrements the value by -2. Therefore it will print the values in reverse order untill -3. 
   </details>
@@ -1857,12 +1857,12 @@ b) middle
 c) young  
 d) None  
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option b) is correct
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > For `age=50`, the first `if` condition becomes true, but nested `if` becomes false resulting in executing the nested `else` statement.
   </details>
@@ -1876,9 +1876,9 @@ b) or
 c) and  
 d) Both b) and c)  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option d)
   </details>
@@ -1899,12 +1899,12 @@ b) 0 1 2 4
 c) 0 1 2 3 4  
 d) 1 2 3 4  
  
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option is b) 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > In python, we can write `else` part with `for` and `while` loop. So first `while` loop while executes untill it becomes false that is when i value becomes 3. After that `else` statement gets executed. 
 </details>
@@ -1923,12 +1923,12 @@ b) 5 6 7
 c) i i i i    
 d) i i i    
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option is c) 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > Here in the print statement in `while` loop, 'i' is printed 4 times as it is of string type not int type.
 </details>
@@ -1947,12 +1947,12 @@ b) 5 6 7
 c) i i i i  
 d) i i i  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option is a) 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > Here in the print statement in `while` loop, the value of 'i' is printed 4 times starting from 5 till 8.
 </details>
@@ -1971,12 +1971,12 @@ b) 7
 c) 8  
 d) 10  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option b)
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The only value of n that makes the `if` condition true is 7. 
 </details>
@@ -1990,9 +1990,9 @@ number = int(input("Enter any number"))
 # write your logic here 
 ```
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 ```python3
 for i in range(1,11):
@@ -2008,9 +2008,9 @@ b) while(number!=0)
 c) elif( number==0)      
 d) None      
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option is b) 
 </details>
@@ -2028,12 +2028,12 @@ b) 3 5 7 9
 c) 2 4 6 8    
 d) Nothing is printed     
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 Option d) is correct.
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > Whenever the `if` condition becomes true, it skips the below print statement because of `continue`. As there is no `else` part in the above code, the execution will again goes to `for` loop whenever `if` becomes false.
 </details>
@@ -2053,12 +2053,12 @@ b) 2
 c) 1 3 5  
 d) 2 4   
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option is a) 1 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The `for` loop will starts from 1 and goes till 5. In `if` block `break` statement is used which break the flow and jumps out of it whenever the `if` condition becomes true. So for `i = 1`, it prints the value as it is outside `if` block, then for `i=2` the `if` condition becames true resulting in executing the `break` statement. 
 </details>
@@ -2078,12 +2078,12 @@ b) 2
 c) 1 3 5    
 d) 2 4     
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option is b) 2 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The `for` loop will starts from 1 and goes till 5. In `if` block `break` statement is used which break the flow and jumps out of it whenever the `if` condition becomes true. So for `i = 1` it does not print anything as there is no print statement inside `for` loop after `if` block, then for `i=2` the `if` condition becames true resulting in executing the `break` statement. Therefore the current value of i that is 2 is printed by print statement outside `for` loop.
 </details>
@@ -2100,12 +2100,12 @@ b) 11, 19, 4
 c) 10, 19, 4  
 d) 10, 18, -4   
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option is c) 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > For printing 10, 14 and 18 the range should starts with 10 and goes till the number greater then 18, that is till 19 with steps having 4. 
 </details>
@@ -2124,12 +2124,12 @@ b) It prints "Hello" four times.
 c) It gives an error.    
 d) it prints nothing.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option is d) 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The 'i' value in the `for` loop never goes beyond 3 so `if` condition will never becomes true. Hence no output is printed in console.
 </details>
@@ -2150,12 +2150,12 @@ b) 1 5 10 15
 c) 2 5 9 13    
 d) 2 5 10 14     
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option is c) 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The print statement always chooses the 1st value of every list from the matrix. 
 </details>
@@ -2176,12 +2176,12 @@ b) 1 5 10 15
 c) 2 5 9 13  
 d) 2 5 10 14   
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option is b) 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The print statement prints the ith value from each list, one by one, starting from 0 till 3.
 </details>
@@ -2202,12 +2202,12 @@ b) 1 5 10
 c) 2 10  
 d) 1 10  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option is d)
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The print statement prints the ith value from 1st and 3rd list because in `for` loop the interval given is 2.
 </details>
@@ -2226,12 +2226,12 @@ b) hi
 c) hello hi  
 d) Error   
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option is a) hello
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The `if` condition becomes true as the following expression `10//2**2` is equal to 2 satisfied. Hence 'hello' is printed.
 </details>
@@ -2250,12 +2250,12 @@ b) [1, 2, 2, 1]
 c) [1, 2, 1, 2]  
 d) None of the mentioned  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option is d) 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The `for` loop does not terminate as new element is being added to the list in each iteration. 
 </details>
@@ -2275,12 +2275,12 @@ b) [1, 2, 2, 1]
 c) [1, 2, 1, 2]  
 d) None of the mentioned  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option is c) 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The `append()` function will add all the values of list1 to an empty list list2. Then both list gets concatenate together through `+` operator. 
 </details>
@@ -2300,12 +2300,12 @@ b) [1, 2, 2, 3]
 c) [1, 2, 3, 2]   
 d) Error
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option is d) Error.
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The above code throws the `"TypeError: can only concatenate list (not "int") to list"`. 
 </details>

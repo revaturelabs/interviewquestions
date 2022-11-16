@@ -2,9 +2,9 @@
 
 1. What is Unit testing?
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
     
-<blockquote>
+<blockquote markdown="1">
     
 - A method validates a small piece of code.
 - It takes the initial data, passes it to the code under test, and asserts if the execution result is the same as the expected result.
@@ -17,9 +17,9 @@
 
 2. What is TDD(Test-Driven Development)?
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
     
-<blockquote>
+<blockquote markdown="1">
 
 - It is a software development approach, where test cases are developed to specify and validate the purpose of code.
 - Which will create a test and functionality first and if the code fails then new code will be created 0to make the code pass and to make code bug-free.
@@ -32,9 +32,9 @@
 
 3. Explain the lifecycle of TDD.
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
     
-<blockquote>
+<blockquote markdown="1">
 
 - It has the following phases to go through:
     -Write a test
@@ -50,9 +50,9 @@
 
 4. Explain the stages in the lifecycle of TDD.
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
     
-<blockquote>
+<blockquote markdown="1">
 
 - Red – during this stage we write a test for functionality that is not yet implemented. 
 - Green – during this stage we write enough code to just cover the test. 
@@ -66,9 +66,9 @@
 
 5. Why unit tests are important?
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
     
- <blockquote>
+ <blockquote markdown="1">
 
 - It is the fast and easy way of testing, since manual checking will consume more time.
 - It reduces the total cost and time of software development. 
@@ -83,7 +83,7 @@
 
 6. Differentiate between TDD and Unit testing.
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
     
 </blockquote>
 
@@ -98,9 +98,9 @@
 
 7. List the types of Unit testing.
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
     
-<blockquote>
+<blockquote markdown="1">
 
 - <b>Manual Testing</b>-execute the test cases manually without any tool support.Which is time consuming and less relaible
 - <b>Automated Testing</b>-execute the test cases with the use of tool support.Which is fast and more relaible.
@@ -113,9 +113,9 @@
 
 8. Explain aboout JUnit.
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
     
-<blockquote>
+<blockquote markdown="1">
 
 - Which is the testing framework for Java programming language. It is important in test-driven development. 
 - Unit testing is used to test/verify a small piece of code by craeting methods. 
@@ -129,9 +129,9 @@
 
 9. Why we need JUnit testing?
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
     
- <blockquote>
+ <blockquote markdown="1">
 
 - Makes our code more reliable by finding bugs early in the code.
 - It is useful for developers, who work in a test-driven environment.
@@ -145,9 +145,9 @@
 
 10. List the features of JUnit.
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
 
- <blockquote>
+ <blockquote markdown="1">
 
 - Open Source Network
 - Provides Annotations,  Assertions and Test Runners

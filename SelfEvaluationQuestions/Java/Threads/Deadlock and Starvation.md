@@ -2,12 +2,12 @@
 
 1. What is Deadlock condition?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - When two or more threads are in block state waiting for one another to release the resource that they are having.
 
@@ -20,11 +20,11 @@
 
 2. Define about Starvation.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 In Starvation, Threads are waiting for each other. But waiting time is not infinite after some interval of time, waiting thread gets the resources whatever is required to execute thread `run()` method.
 
@@ -36,11 +36,11 @@ In Starvation, Threads are waiting for each other. But waiting time is not infin
 
 3. How to avoid deadlock in Java?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - We cannot completely avoid deadlock but can follow these measures to them
 
@@ -57,11 +57,11 @@ In Starvation, Threads are waiting for each other. But waiting time is not infin
 
 4. How to detect the deadlock condition?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 Deadlock situations can be detected by running the executable code on `cmd` and subsequently collecting the thread dump. If it occurs, the `cmd` will throw up a message. 
 
@@ -74,11 +74,11 @@ Deadlock situations can be detected by running the executable code on `cmd` and 
 
 5. How does Java handle starvation? 
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
  -  Using the below methods we can remove the starvation.
 
@@ -92,11 +92,11 @@ Deadlock situations can be detected by running the executable code on `cmd` and 
 --- 
 6. What may be the reason of deadlock situation?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 Synchronized keyword is the only reason for deadlock situation, which allows only one thread can access the resource at a given point in time. 
 
@@ -108,10 +108,10 @@ Synchronized keyword is the only reason for deadlock situation, which allows onl
 
 7. Difference between deadlock and starvation 
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> Show Answer </summary>
-<blockquote>
+<details markdown="1"><summary> Show Answer </summary>
+<blockquote markdown="1">
     
 | **Deadlock** | **Starvation** |
 |---|---|
@@ -126,11 +126,11 @@ Synchronized keyword is the only reason for deadlock situation, which allows onl
 
 8. Write a program to illustrate deadlock condition?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 
 ``` java
@@ -169,9 +169,9 @@ class DeadlockSample extends Thread {
 
 </blockquote>
 
-<details><summary> Explanation </summary>
+<details markdown="1"><summary> Explanation </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 Here the thread1 will wait for thread2 to complete and thread2 will wait for thread1 to complete. Thus, the deadlock condition occurs.
 </blockquote>
@@ -183,9 +183,9 @@ Here the thread1 will wait for thread2 to complete and thread2 will wait for thr
 
 9. What is the difference between deadlock and starvation?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-<details><summary> Show Answer </summary>
-<blockquote>
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
+<details markdown="1"><summary> Show Answer </summary>
+<blockquote markdown="1">
     
 - Deadlock and starvation occurs when the processes requesting a resource have been waiting for a long time. 
 - Deadlock occurs when each process holds a resource and waits for another resource which is in hold by other process. 

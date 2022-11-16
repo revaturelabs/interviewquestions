@@ -3,11 +3,11 @@
     - `/register` need to be the register page or template
  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
     
 1. Run the `ng new routing-app --routing ` command to generate a basic Angular app with an app routing module, where we can configure our routes.
 2. To use the Angular router, an app needs to have at least two components so that it can navigate from one to the other. Run these commands `ng g c login` and `ng g c register` to generate 2 components - *LoginComponent* and RegisterComponent*.
@@ -26,11 +26,11 @@ const routes: Routes = [
  
 2. How do to create an angular project, when I need to navigate between components?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
     
 Run the `ng new routing-app --routing ` command to generate a basic Angular app with an app routing module, where we can configure our routes.
 
@@ -41,11 +41,11 @@ Run the `ng new routing-app --routing ` command to generate a basic Angular app 
  
 3. Why do we need router guards?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 To prevent unauthorized access to certain parts of our navigation, we use route guards in Angular.
 
@@ -56,11 +56,11 @@ To prevent unauthorized access to certain parts of our navigation, we use route 
  
 4. What is the purpose of `routerLink` attributes and `<routeroutlet>`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 * `<router-outlet>` - works as a placeholder to load the different components dynamically based on the activated component.
 
@@ -74,11 +74,11 @@ To prevent unauthorized access to certain parts of our navigation, we use route 
  
 5. Where do you define the routes in the Angular application?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 In the `app.routing.ts` file, you can add the paths and components under the `routes` array.
 ```ts
@@ -95,11 +95,11 @@ In the `app.routing.ts` file, you can add the paths and components under the `ro
  
 6. List some of the interfaces used in routing guards?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 * `CanActivate` - decides if the route can be activated.
 * `CanActivateChild`- decides if children of a route can be activated.
@@ -114,11 +114,11 @@ In the `app.routing.ts` file, you can add the paths and components under the `ro
  
 7. How do you create a routing guard?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 Run the `ng g guard <guard-name>` command in your terminal to generate a guard service. When we run the `ng g guard admin` command, the CLI creates a service class that implements any one of the guard interfaces.
 
@@ -183,11 +183,11 @@ const routes: Routes = [
 
 8. Which mechanism in Angular provides a way to navigate from one view to another view in the application?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 The Router mechanism in Angular provides a way to navigate from one view to another view in the application.
 
@@ -199,11 +199,11 @@ The Router mechanism in Angular provides a way to navigate from one view to anot
 9. What is the use of `RoutingModule` in Angular?
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 Angular provides a `RouterModule` that has the necessary service providers and directives for navigating through application views. The router defines the navigation of views on a single page and interprets URL links to determine which views to create or destroy, and which components to load or unload.
     

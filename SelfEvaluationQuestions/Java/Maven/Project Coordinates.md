@@ -2,11 +2,11 @@
 
 1. Explain about Maven Coordinates.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b> Show Answer </b></summary>
+<details markdown="1"><summary> <b> Show Answer </b></summary>
 	
-<blockquote>
+<blockquote markdown="1">
 	
 -  Maven coordinates helps us to uniquely identify a project, a dependency or a plugin defined in `pom.xml` file. Based on the combination of a group identifier, an artifact and the version of project.
 -  **For example:** If you want to include any library dependency in `pom.xml` file, you have to define the _Maven coordinates_. i.e., - `groupId` , `artifactId` and `version` of that dependency. Below, we have `mysql-connector-java` dependency with Maven coordinates.
@@ -26,11 +26,11 @@
 
 2. List and explain the main coordinates used in Maven.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<blockquote>
+<blockquote markdown="1">
 
-<details><summary> <b> Show Answer </b></summary>
+<details markdown="1"><summary> <b> Show Answer </b></summary>
 
 - `groupId`- Is the way of grouping different Maven artifacts.
 - `artifactId` - Is the way of identifying the artifact.(Like JAR, WAR)
@@ -46,11 +46,11 @@
 
 3. What will a valid POM file have?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b> Show Answer </b></summary>
+<details markdown="1"><summary> <b> Show Answer </b></summary>
 	
-<blockquote>
+<blockquote markdown="1">
 
 - A valid POM file should have groupId, artifactId and version. groupId and version can also be inherited from parent POM file.
 
@@ -62,11 +62,11 @@
 
 4. What are the additional coordinates used in POM?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b> Show Answer </b></summary>
+<details markdown="1"><summary> <b> Show Answer </b></summary>
 	
-<blockquote>
+<blockquote markdown="1">
 
 - There are two additional coordinates used in Maven but not to uniquely identify the project.
 	- **Packaging** - Which defines the project type (WAR,JAR).
@@ -90,11 +90,11 @@
 
 5. What is the difference between JAR and WAR files?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b> Show Answer </b></summary>
+<details markdown="1"><summary> <b> Show Answer </b></summary>
 	
-<blockquote>
+<blockquote markdown="1">
 	
 - JAR is a file format, used for java archive files.
 - JAR files are the only archive format that works across several platforms, which means that any JAR file on your 
@@ -112,11 +112,11 @@
 
 6. How can we define Maven coordinates?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b> Show Answer </b></summary>
+<details markdown="1"><summary> <b> Show Answer </b></summary>
 	
-<blockquote>
+<blockquote markdown="1">
 
 `groupId:artifactId:packaging:version` - through which will express the dependencies of a project in POM file.
 	

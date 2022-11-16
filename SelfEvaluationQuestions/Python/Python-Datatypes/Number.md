@@ -2,9 +2,9 @@
 
 1.What do you mean by `datatype` in python?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
  > A data type is a classification or categorization of knowledge items. This represents a useful type of operation that is frequently performed on a particular piece of data. Since everything is an object in Python programming, the data type is a class and the variables are instances (objects) of those classes.
 
@@ -14,10 +14,10 @@
 
 2.Can you name four of the main data types in python?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
-  <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+  <blockquote markdown="1">
   
   - Numeric
   - Sequence Type
@@ -34,9 +34,9 @@
 
 3.Why are the data types called Python's core data types?
   
-  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > They are known as the core data types because they are part of the Python language itself and are always available to create other objects, and you usually need to call functions in imported modules.
   
@@ -46,9 +46,9 @@
 
 4.How will you find the type of the data?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > `type()` function is used to determine the type of data type.
   
@@ -58,7 +58,7 @@
 a= 5
 print("type of data",type(a))
 ```
-<details><summary> <b>Explanation</b> </summary>  
+<details markdown="1"><summary> <b>Explanation</b> </summary>  
   
 > In python, `type()` method is used to find the type of the data stored in a variable.
   
@@ -71,7 +71,7 @@ print("type of data",type(a))
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
  > - A sequence data type is a collection of objects ordered by a specific position. 
  > - In Python, `Strings`, `lists`, and `tuples` are the data types based on sequences. 
@@ -83,10 +83,10 @@ print("type of data",type(a))
 
 6.What does immutable and what are the three types of Python core data types that are considered immutable? 
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
-  <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+  <blockquote markdown="1">
   
  1. Immutable data types are object types that cannot be modified after they are created. 
     - Python numbers 
@@ -102,10 +102,10 @@ print("type of data",type(a))
 
 7.How will you get input from user?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
-  <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+  <blockquote markdown="1">
   
 - In python, we can use `input()` function to take input from user. But,it will differ when it comes to another data type like String. In that case, we can use `int(input())` to take input as a integer from user.
   
@@ -126,10 +126,10 @@ x=int(input("Enter a integer value"))
 
 8.What are the three numeric types in python?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
-  <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+  <blockquote markdown="1">
   
 - Number data types store numeric values. They are immutable data types, which means that changing the value of a number data type results in a newly allocated object. In python, we have three numeric data types,
   
@@ -175,11 +175,11 @@ x=2j  #complex
 
 9.How will you verify the type of variable or any object ?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
-  <blockquote>
+  <blockquote markdown="1">
   
 - In python, we can use the `type()` function
   
@@ -201,10 +201,10 @@ print(type(x))
 
 10.Write a python program to perform arithmetic operations.
   
-  ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
-  <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+  <blockquote markdown="1">
   
 ```python
 a=int(input())
@@ -241,7 +241,7 @@ Modulus 3
   
 Exponent 81
 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 - In this program, to perform an arithmetic operation, we declared two variables to store a value and then perform arithmetic operations like +,-,*,%,etc...
   
@@ -257,13 +257,13 @@ a=50
 type(a)
 ```
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > no output
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > Because we didn't print the type of the variable.
   
@@ -282,13 +282,13 @@ A.`True`
   
 B.`False`
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option B.`False`
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > (1.1 + 2.2) it is not equal to 3.3, it is 3.3000000000000003.Use the `round()` function to compare exact values.
   
@@ -305,9 +305,9 @@ print(round(1.1 + 2.2, 10) == round(3.3, 10))
   
 13.What is the use of `int()` function?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > The `int()` function converts a string,hexadecimal,binary,octal and float to int.If the argument is a floating point, the conversion truncates the number. If the argument is outside the integer range, it converts the number into long type.
   
@@ -335,18 +335,18 @@ print(x)
   
  D.global.x=20
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option C.global x
              x=20  
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > global x  x=20  is the correct answer,because other declarations are not the correct syntax for global variable declarations.
   
-<details><summary> <b>Correct Code</b> </summary>
+<details markdown="1"><summary> <b>Correct Code</b> </summary>
 
 ```python
 x = 50
@@ -365,13 +365,13 @@ print(x)
   
 15.Can we convert complex numbers to any other number type?
   
-  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
  
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > `No`  
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > We can't convert complex numbers to any other number type as python will give you TypeError.This function converts other numeric values into floating values.
 
@@ -409,14 +409,14 @@ print(type(0xFF))
   
  D.int
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)  
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)  
   
-<details><summary> <b>Show Answer</b> </summary>
-  <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+  <blockquote markdown="1">
   
 - Option D.int
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 - We can represent an integer in binary,octal and hexadecimal formats.
   
@@ -437,9 +437,9 @@ print(b)
 print("The data type of the variable",type(b))
 ``` 
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg) 
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg) 
   
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
    
 **Output**: 
   
@@ -447,7 +447,7 @@ print("The data type of the variable",type(b))
   
 The data type of the variable <class 'int'>
    
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
    
 > Integers can be binary, octal, and hexadecimal values.
    
@@ -466,13 +466,13 @@ The data type of the variable <class 'int'>
   
  D.None
 
- ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option C.`range`
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > In python 3, the `range()` function returns range object,not list.
 
@@ -483,9 +483,9 @@ The data type of the variable <class 'int'>
   
 19.How will you convert float value 12.6 to integer value?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
    
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Float value can be converted to an integer value by calling  `int()` funtion.
   
@@ -504,9 +504,9 @@ print(type(a1))
   
 20.How will you convert real numbers to complex numbers. Give an example?
   
-  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Numeric values can be converted into complex numbers with `complex()` function. 
   
@@ -523,7 +523,7 @@ print(complex(a))
 8
 (8+0j)
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
 
 > To convert real numbers into complex numbers we can use `complex()` method.
   
@@ -557,9 +557,9 @@ print(x.imag)
   
   D.None
 
-  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
  > Option c
      (7-8j)
@@ -572,11 +572,11 @@ print(x.imag)
   
 22.What are the 4 built-in numeric data types in python?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
    
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
-  <blockquote>
+  <blockquote markdown="1">
   
    - int: These are whole numbers of unlimited range. 
    - long: These are long integers in Python 2. 

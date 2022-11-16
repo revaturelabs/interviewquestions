@@ -1,9 +1,9 @@
 1.Explain about StringBuffer?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - StringBuffer is in `java.lang package`.
 - StringBuffer is mutable strings that are stored in heap memory.
@@ -16,10 +16,10 @@
 
 2.Explain the difference between StringBuffer and StringBuilder.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 |                                 **StringBuffer**                                 |                                  **StringBuilder**                                  |
 |:----------------------------------------------------------------------------:|:-------------------------------------------------------------------------------:|

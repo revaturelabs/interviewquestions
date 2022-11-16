@@ -2,10 +2,10 @@
 
 1.What are `String literals`?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
-  <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+  <blockquote markdown="1">
   
 - A `string` literal is a sequence of zero or more characters enclosed in single quotes.
   
@@ -22,9 +22,9 @@
 
 2.How do you know if every word in a string that starts with a capital letter?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > The `istitle()` function checks if each word is capitalized or not.
   
@@ -33,7 +33,7 @@
 ```python  
 print( 'The Dog'.istitle() ) #=> True
 ```
-<details><summary> <b>Explanation</b> </summary>  
+<details markdown="1"><summary> <b>Explanation</b> </summary>  
   
 > In python, `istitle()` function is used to check whether the given string starts with a capital letter or not.
   
@@ -44,9 +44,9 @@ print( 'The Dog'.istitle() ) #=> True
   
 3.How will you combine two or more strings in python?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
  
 > In Python, you can concatenate two strings by simply using the `+` operator in between them. You can use the + operator to `concatenate` three or more strings as well.
 
@@ -64,7 +64,7 @@ print(string)
   
 > helloworld
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > In the above program, we use `+` operator for combining two or more strings into a single string.
   
@@ -86,13 +86,13 @@ print(s2,end=" ")
 print(s3)
 ```
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > nnnpp
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > In the above program, it will check whether s,n and p characters are in the string or not.If it is there, it will print those characters.
   
@@ -104,9 +104,9 @@ print(s3)
 
 5.How will you count total number of characters in a string. Give an example?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > In python, `len()` function will return the length of a string.
   
@@ -133,13 +133,13 @@ string2 = "LEARNING!!!"
 print((string1 + string2)*3)
 ```
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > HAPPY LEARNING!!!HAPPY LEARNING!!!HAPPY LEARNING!!!
 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > In the case of a string, the `*` operator is used to repeat a string.
   
@@ -150,9 +150,9 @@ print((string1 + string2)*3)
 
 7.How will you check if a string contains only string or not?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > In python, `isnumeric()` function returns True if all characters are numeric.
   
@@ -173,9 +173,9 @@ False
 
 8.Write a program to find the characters at an odd position in a string input by the user?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 ```python  
 string = input("Enter the string : ")
@@ -193,7 +193,7 @@ Enter the string : PythonString
 Input string :   PythonString
 String after odd charcater : PtoSrn
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > In the above program, we initially used `len()` function to find the size of the string. Then, we want to find the odd position in string and we used `if` statements inside the `for` loop.
 > If the position/index is not equal to 0 , those characters are stored into the single variable and then it will print the values.
@@ -205,9 +205,9 @@ String after odd charcater : PtoSrn
 
 9.Write a program  to replace all occurrence of sub-string in string?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 ```python
   
@@ -220,7 +220,7 @@ print(modifiedStr)
   
 > the  Python  Program
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
     
 > In python, we use `.replace()` function to replace one character with another character.
     
@@ -231,10 +231,10 @@ print(modifiedStr)
 
 10.How will you Count Total numbers of upper case and lower case characters in input string?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
-  <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+  <blockquote markdown="1">
   
 - In python, we are using `isupper()` to find upper case characters and `islower()` to find the lower case characters.
   
@@ -255,7 +255,7 @@ print (" Total Upper case characters  : ", upper_case)
 print ("Total Lower case Characters : ", lower_case)
 ```
 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
    
 - If we want to count total number of upper case and lower case in the given string, we can use `isupper()` and `islower()` method.
    
@@ -272,13 +272,13 @@ reversed_str =''.join(reversed(input_string))
 print('reversed string =',reversed_str)
 ```
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > reversed string = ycnatlusnoC
 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
 
 > In python, to reverse a string, we can use built-in function reversed or else we can use `negative index ([::-1])`.
   
@@ -291,7 +291,7 @@ print('reversed string =',reversed_str)
   
   ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
  ```python
   
@@ -308,7 +308,7 @@ print("Urls found: ", URLsearch(textcontent))
   
 > Urls found:  ['https://devenum.com', 'https://google.com,http://devenum.com']
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > If we want to extract the url from string, we can use `regex`.
   
@@ -322,7 +322,7 @@ print("Urls found: ", URLsearch(textcontent))
   
   ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > For example, writing animal = 'dog' and pet = 'dog'.
 > It only creates one.
@@ -343,9 +343,9 @@ print( id(pet) )
   
 14.How will you remove whitespace from the left, right or both sides of a string?
   
-  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > In python, we can use `lstrip()`, `rstrip()` and `strip()` to remove whitespace from the ends of a string.
   
@@ -364,7 +364,7 @@ Whitespace of strings
   Whitespace of strings
 Whitespace of strings
 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > For removing whitespace from the ends of the string, we can use `.strip()` functions.
 > `.lstrip()` -used to remove whitespace from left side of the string.
@@ -396,13 +396,13 @@ print(str1 is str2)
  D. True
     True
   
-  ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option B is the correct one
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > In case of a string, `==` and `is` operators are used to check whether the given strings are equal or not.
   
@@ -413,9 +413,9 @@ print(str1 is str2)
 
 16.What is `slicing` and what is the use of that?
   
-  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > `Slicing` in Python is a feature that enables accessing parts of sequences like `strings, tuples, and lists`. 
 > You can also use them to modify or delete the items of mutable sequences such as lists. `Slicing` enables writing `clean, concise, and readable code`.
@@ -430,10 +430,10 @@ print(str1 is str2)
 
 17.What are the difference between **==** and **is** operators in python?
 
-  ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
-  <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+  <blockquote markdown="1">
   
 ** == **:
   
@@ -475,11 +475,11 @@ print(list_1 is list_3)
 > True
   False
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 - Here you can see (list_1 is list_3) is `False` because list_1 and list_3 are pointing to two different objects , even though their contents might be the same. So, we can say `is` will return True if two variables point to the same object and `==` ,if the objects referred by the variables are equal.
 
- <blockquote> 
+ <blockquote markdown="1"> 
 </details>
 </details>
   
@@ -492,13 +492,13 @@ str="Software engineer"
 print(str[2 : 10 : 2])
 ```
   
-  ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > fw
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   > In the above program, we use `slicing` operator and this is used to cut the strings based on the values.
   
   </details>
@@ -513,13 +513,13 @@ str1 = "Revature"
 print(str1[1:4], str1[:5], str1[4:], str1[0:-1], str1[:-1])
 ```
    
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
    
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > eva Revat ture Revatur Revatur
 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
  > We can use a slice operator [] to get a substring.
   
@@ -534,8 +534,8 @@ print(str1[1:4], str1[:5], str1[4:], str1[0:-1], str1[:-1])
   
 20.What is the difference between `indexing` and `slicing`?
 
-<details><summary> <b>Show Answer</b> </summary>
-  <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+  <blockquote markdown="1">
   
  - **Indexing**: Indexing is used to obtain individual elements.
            - Indexing returns one item.
@@ -554,9 +554,9 @@ print(str1[1:4], str1[:5], str1[4:], str1[0:-1], str1[:-1])
   
 21. Mention few String methods in Python?
     
-    ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+    ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
    > - `endswith()`	Returns true if the string ends with the specified value
    > - `format()`	Formats specified values in a string
@@ -577,10 +577,10 @@ print(str[-7: -1: 2])
 print(str[3 : 14 : 3])
 ```
     
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
-  <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+  <blockquote markdown="1">
 
  ssecorPgninraeLerutaveR
   
@@ -588,7 +588,7 @@ print(str[3 : 14 : 3])
   
  aren
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
 > In the above program, we will get some part of string characters as we use `slicing()` method.    
 
 </details>
@@ -598,14 +598,14 @@ print(str[3 : 14 : 3])
   
 23.Which method should we use to convert the String "welcome to the beautiful world of python" to "Welcome To The Beautiful World Of Python".
   
-  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
  > - `title()`-method
  > - For this, we can use `title()` method.
   
-<details><summary> <b>Show Explanation</b> </summary>
+<details markdown="1"><summary> <b>Show Explanation</b> </summary>
   
 > The `title()` function `capitalize()` the first letter of every word of the String.
   
@@ -618,7 +618,7 @@ print(str[3 : 14 : 3])
   
   ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > - \'	Single Quote	
 > - \\	Backslash	
@@ -643,16 +643,16 @@ lst=
 print(lst)
 ```
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
-<details><summary> <b>Hint</b> </summary>
-  <blockquote>
+<details markdown="1"><summary> <b>Hint</b> </summary>
+  <blockquote markdown="1">
   
 - `.split()` method can be used to split strings based on a given character. It returns a list of split substrings.
   
  </details>  
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 Expected output:
   
@@ -677,13 +677,13 @@ str1='Welcome'
 print(str1[:6] + ' to India')
 ```
   
- ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
    
 > Welcom to India
    
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > Here, we use slicing to get some part of string and then we use `+` operator for string combining.
 
@@ -701,14 +701,14 @@ print(str1.isdigit())
 print(str2.isdigit())
  ```
   
-  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > False
 > False
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > `isdigit()` method checks if it contains the characters or not. If it has, it will return True or else it will return False.
   

@@ -1,10 +1,10 @@
 1. What is Map Interface?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - `Map` is an object that stores key and value pairs.
 - `Map` doesn't store duplicate values and one key can have at most one value.
@@ -17,13 +17,13 @@
 
 2. What is the difference between HashMap and Hashtable?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
  
-<blockquote>
+<blockquote markdown="1">
 
 Both HashMap and Hashtable are used to store data in key and value form. Both are using hashing technique to store unique keys.
 
@@ -43,13 +43,13 @@ Both HashMap and Hashtable are used to store data in key and value form. Both ar
 ---
 3. What is the difference between `HashMap` and `TreeMap`?
     
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
     
 The `HashMap` and `TreeMap` both are classes of the Java Collections framework. Java Map implementation usually acts as a bucketed hash table. When buckets get too large, they get transformed into nodes of TreeNodes, each structured similarly to those in java.util.TreeMap.
 
@@ -72,12 +72,12 @@ The `HashMap` and `TreeMap` both are classes of the Java Collections framework. 
 ---
 4. What happens when you try to add a key-value pair to an existing key in `HashMap`?
     
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
  
-<blockquote>
+<blockquote markdown="1">
 
 - When you try to add a key-value pair to `HashMap` and the key already exists, it overrides the value.
 
@@ -109,14 +109,14 @@ public class ExistingKey {
 ---
 5. How to avoid overriding the existing value of a key by adding the key-value pair to the `HashMap`?
     
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
         
 ``` java
 import java.util.*;
@@ -140,7 +140,7 @@ public class ExistingKey {
         
 </blockquote>
         
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
     
 > The value for Java is not overridden because `putIfAbsent()` adds key and value, only if it doesn't exist previously.
@@ -152,13 +152,13 @@ public class ExistingKey {
 
 6. List out the different methods to iterate over a `Map`.
     
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - Collection view methods are used to view a `Map` as a Collection.
 - They are the only means to iterate over a `Map`.
@@ -175,14 +175,14 @@ public class ExistingKey {
 
 7. Create a map in which each key has multiple values.
     
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
     
 ``` java
 
@@ -201,9 +201,9 @@ public class MultiMap {
 ```
 </blockquote>
     
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - A Map is created with keys as Strings and Values as `ArrayList<String>`.
 - An `ArrayList` can store String objects.
@@ -217,14 +217,14 @@ public class MultiMap {
 
 8. How to convert a `Map` of random order into a sorted  `Map`.
     
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
     
 ``` java
 
@@ -243,10 +243,10 @@ public class OrderedMap {
 ```
     
 </blockquote>
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - `HashMap` stores keys and values in random order, whereas `TreeMap` stores all the elements in sorted order.
 - By creating a `TreeMap` and adding all the values of `HashMap` to `TreeMap`, a sorted `Map` is created.
@@ -264,10 +264,10 @@ public class OrderedMap {
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
-   <blockquote>
+   <blockquote markdown="1">
        
 ``` java
 public class ValueOrder {
@@ -287,11 +287,11 @@ public class ValueOrder {
 
 </blockquote>
 
-<details>
+<details markdown="1">
 
 <summary><b>Explanation</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - A HashMap is created and the elements are sorted by value using aggregate functions.
 
@@ -308,11 +308,11 @@ public class ValueOrder {
     
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 
- <blockquote>
+ <blockquote markdown="1">
      
 ``` java
 import java.util.*;
@@ -341,9 +341,9 @@ public class DistinctWords {
 ```
 </blockquote>
 
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - A `String` array of the given string is created, if the words are new, then a new key-value pair with word and frequency is added to the map and if the word already exists, then the frequency is increased by 1.
 
@@ -355,14 +355,14 @@ public class DistinctWords {
 
 11. Write a program to check if a `Map` is a sub-map of another `Map`.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
     
 ``` java
 import java.util.*;
@@ -384,9 +384,9 @@ public class SubMap {
 
  </blockquote>
     
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - `entrySet()` gets all the key and value pairs to form the `Map` and `containsAll(Collection)` returns true if Map1 contains all the key-value pairs of Map2.
 
@@ -400,14 +400,14 @@ public class SubMap {
 
 12. Write a program to get the common keys of two Maps.
     
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
         
 ``` java
 
@@ -433,7 +433,7 @@ public class CommonKeys {
     
 </blockquote>
     
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
 
 > - A new `HashMap` CommonKeys is created to avoid changing the existing HashMaps and `retainAll()` methods to give the intersection of two Maps. 
@@ -450,10 +450,10 @@ public class CommonKeys {
     
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
     
 ``` java
 import java.util.*;
@@ -474,10 +474,10 @@ public class Employee {
 ```
 </blockquote>
     
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
  
-<blockquote>
+<blockquote markdown="1">
 
 - Employees contain employee name as key and manager name as value
 - A `HashSet` is created with all the employee names
@@ -496,12 +496,12 @@ public class Employee {
 
 14. Write a program to print all the keys of a `Map`.
     
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
  
 ``` java
 import java.util.*;
@@ -521,10 +521,10 @@ public class Employee {
     
 </blockquote>
 
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
  
-<blockquote>
+<blockquote markdown="1">
 
 - `keySet()` returns all the keys of a `Map`. 
 </blockquote>
@@ -536,12 +536,12 @@ public class Employee {
 
 15. Write a program to print all the values of a `Map`.
     
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
     
 ``` java
 import java.util.*;
@@ -561,10 +561,10 @@ public class Employee {
     
 </blockquote>
  
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
  
-<blockquote>
+<blockquote markdown="1">
 
 - `values(?)` returns all the values of a `Map`. 
  
@@ -577,12 +577,12 @@ public class Employee {
 
 16. Write a program to print all the key-value pairs of a `Map`.
     
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
- <blockquote>
+ <blockquote markdown="1">
      
 ``` java
 import java.util.*;
@@ -602,10 +602,10 @@ public class Employee {
      
 </blockquote>
 
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
  
-<blockquote>
+<blockquote markdown="1">
 
 - `entrySet()` returns all the key and value pairs of a `Map` and `get key` and `getValue` are used to get keys and values individually from an `entrySet`. 
  
@@ -620,19 +620,19 @@ public class Employee {
 
 17. Consider that a country stores its citizen's data in a form of Aadhar number and age. A deadly virus outbreak led to a global shutdown and the country wants to vaccinate the older people first as they get easily infected by the virus. Which of the following best represents the scenario?
     
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 A. `TreeMap` with Aadhar number as key and age as value but ordered by value in descending order.<br>
 B. `HashMap` with Aadhar number key and age as value .<br>
 C. `TreeMap` with age as key and Aadhar number as value but ordered by key.<br>
 B. `HashMap` with age as key and Aadhar number as value.<br>
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 > A
     
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
 
 > `TreeMap` orders elements in a certain order and many people can be of the same age but everyone has a unique Aadhar number and by ordering them in descending order the people with high age will come first in the list.

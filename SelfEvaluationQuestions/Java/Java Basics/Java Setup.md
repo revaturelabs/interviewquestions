@@ -4,10 +4,10 @@
 
 `set path = C:\Program Files\Java\jdk1.8.0_91\bin`
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-<details>
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - We need tools like javac, java, etc., which are located in the JDK/bin directory to compile and run Java programs.
 - Before compiling and running a Java program, we need to set the path. This informs where JDK packages are installed.
@@ -19,10 +19,10 @@
 
 2.Why do we need to set environment variable for Java?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-<details>
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
       
 - Whenever we run any command in the terminal, the prompt will check for the relevant executable file present in the current directory or in system environment variables.
 - When we compile a Java program by running `javac MyPrg.java` command in the terminal, it will look for the `javac.exe` file to compile.
@@ -35,23 +35,23 @@
 
 3.What is `classpath`?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-<details>
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
       
 `classpath` is just a set of paths where the Java compiler and the JVM must find needed classes to compile or execute other classes.
-<blockquote> 
+<blockquote markdown="1"> 
 </details>
 
 ---    
 
 4.What is JDK?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - JDK stands for **J**ava **D**evelopment **K**it that contains JRE and developments tools like compilers and debuggers which are useful for developing Java applications.
 - For instance, JDK contains `javac` i.e., Java compiler helps us to compiles Java source file `MyPrg.java` and generates the class file `MyPrg.class`.
@@ -63,10 +63,10 @@
 
 5.What is JRE?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 JRE stands for **J**ava **R**untime **E**nvironment that contains JVM and provides the libraries and libraries to run java applications. 
 </blockquote>
@@ -76,10 +76,10 @@ JRE stands for **J**ava **R**untime **E**nvironment that contains JVM and provid
 
  6.What is JVM?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - JVM stands for **J**ava **V**irtual **M**achine that uses to run Java application in different platforms.
 - It converts class into Java bytecode which depends up the paltform ie, the native language code.
@@ -89,10 +89,10 @@ JRE stands for **J**ava **R**untime **E**nvironment that contains JVM and provid
 ---
 
  7.Why Java is platform independent?
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - By use of compiler, .java file is converted into .class.
 - Java Runtime Environment is supported by many platforms which contains JVM.
@@ -104,10 +104,10 @@ JRE stands for **J**ava **R**untime **E**nvironment that contains JVM and provid
 
  8.What is the entry point of Java program?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - When Java Virtual Machine runs, it will find the main method which is in the form of
 ``` java
@@ -122,10 +122,10 @@ public static void main(String[] args)
 
 9.How will you define an API?
       
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - API means Application Programming Interface, which acts as intermediate between two application to communicate between each other.
 - One application may be developed in one language and other application may be developed in another application,where API acts as intermediatry thats allows to communicate each other.
@@ -136,10 +136,10 @@ public static void main(String[] args)
 
 10.Why java is not a pure Object Oriented programming language?
       
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - Java supports primitive data types such as int, float, long, double, byte, char, short, boolean which are not objects.
 - While using static key, there is no need to create objects to access the value or method.
@@ -150,10 +150,10 @@ public static void main(String[] args)
 
 11.If you are a user of Java application, which tool do you need in JDK, JRE and JVM?
       
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-<details>
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - For a user, JRE is needed.
 - JDK contains Debugger and compiler which are not requiered for a user.
@@ -164,10 +164,10 @@ public static void main(String[] args)
 
 12.Can we have two public classes in the same file?
       
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-<details>
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - No, We can have more classes in a file but only one class should be public.
 - It makes the compilation faster by efficient lookup of code.
@@ -179,10 +179,10 @@ public static void main(String[] args)
 
 13.What does left side class and right side class denotes while creating an object?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-<details>
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary> 
-<blockquote> 
+<blockquote markdown="1"> 
 
 - The left side class denotes reference of the object and right side denotes object of which to be created.
     Eg. B b = new A()
@@ -194,10 +194,10 @@ public static void main(String[] args)
 
 14.Explain the difference between Heap memory and Stack memory.
  
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary> 
-<blockquote>  
+<blockquote markdown="1">  
 
 - Heap memory is used through out the application.
 - Objects, arrays, static variables and instance variables are the examples which are stored in heap memory.
@@ -210,10 +210,10 @@ public static void main(String[] args)
 
 15.What is Architecture Neutral?
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-<details>
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote> 
+<blockquote markdown="1"> 
 
 - Software that is designed without regard to the target platform. 
 - <span style="color:blue"> Software</span> is often written to maximize the performance of a specific hardware platform, but such software must be modified to make it run on other hardware.
@@ -229,10 +229,10 @@ public static void main(String[] args)
 
 16.What is Just In Time Compiler and Ahead of Time Compiler?
  
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
- <details>
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
+ <details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - In **Just In Time** compilation, the source code is coverted into byte code. Where the bytecode is platform independant. It is runnable in different architecture system when it is coverted in machine code in that system. Here,some of the frequently used codes are stored as code cache and used when it's required.
 - In **Ahead Of Time** compilation, the souce code is directly converted into machine.So,it is platform dependant. AOT is used for to manual machine code convertion.
@@ -243,10 +243,10 @@ public static void main(String[] args)
 
 17.What is Intermediate Language?
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-<details>
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - A language that is generated from programming source code but, it cannot be directly executed by the CPU. 
 - It is platform independent. 
@@ -259,10 +259,10 @@ public static void main(String[] args)
 
 18.Explain features of Java.
  
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote> 
+<blockquote markdown="1"> 
 
 - Platform Independent
 - Dynamic
@@ -278,10 +278,10 @@ public static void main(String[] args)
 
 19.What is `javac`?
  
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - A complementary tool that is a compiler used to read Java code and translates them into bytecode. 
 - The bytecode runs on JVM.
@@ -292,10 +292,10 @@ public static void main(String[] args)
 
 20.What is `javadoc`?
  
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - It converts API documentation from Java source code to HTML. 
 - This is useful when creating standard documentation in HTML.
@@ -305,9 +305,9 @@ public static void main(String[] args)
 ----
 
 21.If we use wrapper class instead of primitive data type, can we call the java programing as pure object oriented?
-<details>
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - When we use wrapper class while using arithmatic operations between two values there will be unboxing and auto boxing.
 - Unboxing means converting object into primitive datatype and auto boxing means,converting primitive into object which also deals with primitives.
@@ -323,17 +323,17 @@ B)`.class`<br>
 C)`.exe`<br>
 D)`.src`<br>
  
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
   
    A) `.java`
  </blockqoute> 
  
- <details>
+ <details markdown="1">
  <summary><b> Explanation </b></summary> 
-  <blockquote>
+  <blockquote markdown="1">
    
 - The source file is coded in `.java` extention before compiling.
    </blockqoute> 
@@ -348,17 +348,17 @@ B)`.class`<br>
 C)`.exe`<br>
 D)`.src`<br>
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
  
    B) `.class`
  </blockqoute> 
  
- <details>
+ <details markdown="1">
  <summary><b> Explanation </b></summary> 
-  <blockquote>
+  <blockquote markdown="1">
    
       - The generated file from the java compiler has the extention of `.class` .
   </blockqoute> 
@@ -368,10 +368,10 @@ D)`.src`<br>
  
  24.Explain the difference between compiler and interpreter
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
- <details>
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
+ <details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
  
  | **Interpreter**                                                                                                               | **Compiler**                                                                    |
 | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |

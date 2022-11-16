@@ -2,11 +2,11 @@
 
 1. What is `Git`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - `Git` is a very famous tool which facilitates source code management in software development.
 - We can track changes in computer files (versions) using `Git`.
@@ -18,11 +18,11 @@
 ---
 2. What is the difference between `Git` and `GitHub`?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - `Git` is a version control tool, used to manage the history of changes performed to source code.
 - Whereas `GitHub` is a web application that provides service to host source code, commonly referred to as Git repository.
@@ -35,11 +35,11 @@
 ---
 3. What do you understand by Git repository?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Git repository refers to a folder/location where all the Git files are stored.
 - These files can either be stored on the local repository or the remote repository.
@@ -53,11 +53,11 @@
 
 4. What do you mean by initializing a repository in Git? How do we do it?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Usually, when a new project is created, developers first initialize the local repository using `Git` on their system.
 - Initializing a repository in Git means creating a directory that will start tracking the changes to your files or source code.
@@ -76,11 +76,11 @@ git init
 
 5. Can we modify the `.git` hidden folder under any Git repository?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Ideally, the contents of the  .git folder are modified by the `git` command, we are not supposed to tamper with any files manually.
 - The .git folder contains all information that is necessary for the project and all information relating to commits, remote repository address, etc. 
@@ -93,11 +93,11 @@ git init
 
 6. How to view commit logs in git?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Git repository holds all of the commits (snapshots of all your files at a point in time) that have been made. 
 - We can access the commit history with the below command.
@@ -114,11 +114,11 @@ git log
 
 7. What is the working directory/tree in Git?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - The project files that we are currently working on are called working trees,or working directory
 - We can think of a working tree as a file system where you can view and modify files.
@@ -131,11 +131,11 @@ git log
 
 8. What is the staging area in Git?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - The staging area also called an index, is where commits are prepared. 
 - The index compares the files in the working tree to the files in the repo. 
@@ -149,11 +149,11 @@ git log
 
 9. How to copy the remote repository onto your local machine?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - We can copy a remote repository onto your local machine using the below command
 
@@ -172,9 +172,9 @@ git clone '<remote-repository-url>'
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - To clone lets say feature branch named `feature/audit` from the GitHub remote repository we can use the below command-
 
@@ -190,11 +190,11 @@ git clone -b feature/audit --single-branch 'https://<github-username>@github.com
 
 11. Which command adds a change from the working directory to the staging area.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - The `git add` command adds a change in the working directory to the staging area. 
 - We tell Git that we want to include updates to a particular file in the next commit. 
@@ -214,11 +214,11 @@ git add --all
 
 12. What is the Git command to save your changes to the local repository?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - The `git commit` command is used to save your changes to the local repository.
 - We need to ensure that we use the `git add` command to mark the desired changes for inclusion. 
@@ -236,11 +236,11 @@ git commit -m "Added first commit"
 
 13. What is the use of the `git push` command?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - The `git push` command is used to upload local repository content to a remote repository. 
 - Using this command we transfer commits from your local repository to a remote repo.
@@ -256,11 +256,11 @@ git push
 
 14. What are untracked files in git status?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Untracked files are files that have been created within your repo's working directory but have not yet been added to the repository's tracking index using the `git add command.
   
@@ -272,11 +272,11 @@ git push
 
 15. What is a source code repository?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
 
 A source-code repository is an archive with the code as well as the hosting facility for these software archives, where you can also have the project’s technical documentation, web pages, snippets, patches, etc. which can be accessed publicly (open-source) or privately.
 
@@ -288,11 +288,11 @@ A source-code repository is an archive with the code as well as the hosting faci
 
 16.  What are the benefits of the source code repository?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
 
 
 Using a source code repository has many potential benefits for an organization, including:
@@ -309,11 +309,11 @@ Using a source code repository has many potential benefits for an organization, 
 
 17. What are some basic Gitlab commands?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
 
 1. Git init
 2. Git add

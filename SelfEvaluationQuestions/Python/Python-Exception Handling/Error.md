@@ -16,13 +16,13 @@ C.`FileNotFoundError`
 
 D.`FileNotExistError`
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > Option C.`FileNotFoundError`
 
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 
 > When a user tries to open a file for reading purpose that does not exists than the program will throw the `FileNotFoundError`, `No such file` or directory: 'myfile.txt'. If you are sure that file is present in the system than, make sure that you are providing the correct path of the file in the program. 
 
@@ -46,13 +46,13 @@ C.It will print 3.
 
 D.It will result in error because list index is out of range. 
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > Option D.It will result in `error` because list index is out of range.
 
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 
 > The above code will result in IndexError becuase list indexing starts from 0, not 1, and goes till length of the list minus 1 that is len(list)-1. So we have to access the last element from the above list than we have to write print(list1[3]). 
 
@@ -63,10 +63,10 @@ D.It will result in error because list index is out of range.
 
 3.What are the common reasons of getting errors in python program?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+<blockquote markdown="1">
  
  There can be muliple reasons of getting errors in your python code, some of the common reasons are:
 - Not proper indentation   
@@ -80,10 +80,10 @@ D.It will result in error because list index is out of range.
 
 4.What are the types of `Error` in python? 
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+<blockquote markdown="1">
  
 Generally there are two types of errors, when is **Syntax error** and another is **Logical error**. 
 
@@ -126,15 +126,15 @@ C.hello and hi both will be printed
 
 D.we get the indentation error
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary> 
+<details markdown="1"><summary><b>Show Answer</b></summary> 
  
-<blockquote>
+<blockquote markdown="1">
 
 - Option D.we get the indentation error
 
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 
 - After running the above code, the program will throw the `IndentationError` because 2nd print statement is not correctly indented. To resolve this error, remove the spaces before 2nd print statement. 
 
@@ -152,10 +152,10 @@ num2 = 14
 prnt(num1 + num)
 ```
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
- <blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+ <blockquote markdown="1">
 
 - In the above code there were two errors, one is spelling of print keyword and another one is using num inside print which is undefined. So after changing `prnt` to `print` and `num` to `num2`, we will get the correct output.
 
@@ -179,9 +179,9 @@ c= a + b       #line 3
 print(C)       #line 4
 ```
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > In the above code, in line 1, one value is missing for b variable. In line 2, colon is missing after if condition. In line 3, the expression should be inside if block not outside. In line 4, we are printing capital C value which is not used throughout the program so it will result in name error.
 After removing all the errors from the code, the code will look like this:
@@ -199,10 +199,10 @@ print(c)
 
 8.What is the difference between `exceptions` and `error`?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+<blockquote markdown="1">
 
 **Exceptions**:
    - Errors detected during execution are called `exceptions`.
@@ -219,9 +219,9 @@ print(c)
 
 9.Write a sample program for an syntax errors?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 ```python
 a = 105
@@ -233,7 +233,7 @@ if (a>200)
 
 > Syntax error
 
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 
 > It will show an syntax error because, missed ":" in line2 .
 
@@ -244,9 +244,9 @@ if (a>200)
 
 10.What are the different types of logical errors?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > - `Index error`: When the wrong index of a list is retrived.
 > - `KeyError`: It will occur when the key is not defined.
@@ -260,9 +260,9 @@ if (a>200)
 
 11.What are the two parts in an error message? 
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > The `error` message has two parts: the type of error before the colon, and specification about the error after the colon.
 > **Example**: 
@@ -285,9 +285,9 @@ File "<stdin>", line 1, in ?
 
 12.What is `IndexError` and Explain with an Example?
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > **IndexError** is occur when the index is out of range.
 
@@ -318,9 +318,9 @@ print list[7]
 while True print("Software engineer")
 ```
  
- ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > In the above given program, colon is missing after the condition.
 > The Correct code for above program is,
@@ -342,11 +342,11 @@ cwd = os.getcwd()
 print cwd 
 ```
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
  
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
  
-<blockquote>
+<blockquote markdown="1">
 
 **Basic types of errors**
 
@@ -381,13 +381,13 @@ C.ValueError
 
 D.ImportError
  
- ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > `Option C.ValueError`
 
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 
 > The above program result is valueError because there is an ivalid litreal for `int()`.
 
@@ -411,13 +411,13 @@ C.Semantic,Syntax
 
 D.Syntax,Syntax
  
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > Option A.`Semantic,Syntax`
 
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 
 > The code shows an `error` detected during `execution`.The second line shows an `syntax error`. When there is an deviation form rules of a language, syntax error is occured.
 
@@ -433,14 +433,14 @@ D1={'1':"aa", '2':"bb", '3':"cc"}
 print(D1['4'])
 ```
 
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
  
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > Traceback (most recent call last):
 > File "<pyshell#15>", line 1, in <module>
 
-<details><summary><b>Explantion</b></summary>
+<details markdown="1"><summary><b>Explantion</b></summary>
 
 > It will throw an key `Error`,Because key is not found.
 
@@ -456,9 +456,9 @@ KeyError: '4'
 
 18.What is import error?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
  
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > This function is occur when the specified funcytion is not found.
 
@@ -475,9 +475,9 @@ ImportError: cannot import name 'cube'
 
 19.What is `NameError` give an example?
  
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > The `NameError` is thrown when an object could not be found.
 
@@ -501,10 +501,10 @@ x=100/0
 print(x)
 ```
 
- ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
  
-<details><summary><b>Show Answer</b></summary>
- <blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+ <blockquote markdown="1">
 
  - This expression `x=100/0` throws `ZeroDivisionError: division by zero` error.
  - The `ZeroDivisionError` is thrown whenever we are trying to divide a number by zero.

@@ -2,9 +2,9 @@
 
 1.  List the valid lifecycle goals in Maven?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
 
 Here are some of the most important phases in the default build lifecycle:
  
@@ -23,9 +23,9 @@ Here are some of the most important phases in the default build lifecycle:
 
 2. Mention the three standard lifecycle followed in Maven.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
 >- Clean
 >- Default(or build)
@@ -37,9 +37,9 @@ Here are some of the most important phases in the default build lifecycle:
 
 3. How does the order of execution is decided in Maven?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
 >- It depends on the order of which goals and phases invoked.
 >- Here clean and package are arguments of build phase , others are termed ad goals.
@@ -52,11 +52,11 @@ Here are some of the most important phases in the default build lifecycle:
 
 4. Which command is used to invoke clean lifecycle?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
  
- <blockquote>
+ <blockquote markdown="1">
 
 - Clean lifecycle can be executed by running the command `mvn post-clean`.
 - Which can be of following phases
@@ -72,9 +72,9 @@ Here are some of the most important phases in the default build lifecycle:
 
 5. Mention some commands used in Maven project.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
 >- `mvn compile`: used to compile the project’s source code.
 >- `mvn clean`: used to clean or remove all previous-build files generated.
@@ -90,9 +90,9 @@ Here are some of the most important phases in the default build lifecycle:
 
 6. List the phases used in site lifecycle.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
 >- `Pre site`:process before generating the actual project site;
 >- `Site`: generate the site document of the project;
@@ -105,11 +105,11 @@ Here are some of the most important phases in the default build lifecycle:
 
 7. List the type of Maven build profiles.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
  
- <blockquote>
+ <blockquote markdown="1">
 
 - `Per-User`:described in Maven settings.xml file.
 - `Per Project`:described in pom.xml of the project.
@@ -123,9 +123,9 @@ Here are some of the most important phases in the default build lifecycle:
 
 8. List the phases used in default lifecycle.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
 >- Setup 
 >- Compilation 
@@ -140,9 +140,9 @@ Here are some of the most important phases in the default build lifecycle:
 
 9. Explain Archetype.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
 >- It is a Maven plugin used to create a project structure as per its template.
 >- This command is used ` mvn archetype:generate ` to create a new project based on Archetype.
@@ -153,9 +153,9 @@ Here are some of the most important phases in the default build lifecycle:
 
 10. What command will be used to package the Maven project?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
  
 >- `mvn - package` is used to package the project.
 

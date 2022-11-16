@@ -1,9 +1,9 @@
 1.Explain about StringBuilder?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show answer </b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - StringBuilder is in `java.lang package`.
 - StringBuilder is mutable strings that are stored in heap memory.
@@ -16,10 +16,10 @@
 
 2.What are the advantages of using StringBuilder or StringBuffer over String?
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show answer </b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - As StringBuilders are mutable, we can change the values inbetween the string.
 - The manipulation of strings is better because the reference of StringBuilder is not changed on this process.
@@ -31,10 +31,10 @@
 
 3.How can we create StringBuilder object of any existing String?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show answer </b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 StringBuilder constructor accepts String object as shown bellow.
 
@@ -55,10 +55,10 @@ We can pass the String on creation itself.
 
 4.How can we concatenate two String with StringBuilder? 
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show answer </b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 We have to use the `append()` method to concatenate the value.
 
@@ -83,10 +83,10 @@ The StringBuilder don't has value initially. So, the output is `Hello`.
 
 5.What is the difference between `insert()` and `append()`?
 	
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-<details>
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
+<details markdown="1">
 <summary><b> Show answer </b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - The `append()` method inserts the value at the last position.
 - The `insert()` method inserts the value at the specified position.

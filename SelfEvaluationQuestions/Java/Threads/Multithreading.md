@@ -2,10 +2,10 @@
 
 1. What is multithreading?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - Thread is termed as a lightweight process. A process is divided into parts, each part called Thread.
 - Multithreading is the process of executing one or more threads simultaneously. 
@@ -21,16 +21,16 @@ B)Default<br>
 C)Runnable<br>
 D)Run<br>
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 A)Main
 </blockquote>
-<details>
+<details markdown="1">
 <summary><b> Explanation </b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 If there is no thread is created, the main thread will execute the process by default.
 </blockquote>
@@ -41,10 +41,10 @@ If there is no thread is created, the main thread will execute the process by de
 
 3. How can we create threads in Java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - We can create threads in two ways.
   - By implementing `Runnable` interface
@@ -56,10 +56,10 @@ If there is no thread is created, the main thread will execute the process by de
 
 4.Is there any class in java which help us to create a thread? Explain how?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary>
-<blockquote>
+<blockquote markdown="1">
 	
 - Yes, there is a `Thread` class in java helps us to create a thread.
 - Create a class and extend that class by Thread class. Then, the created class will act as thread in java. 
@@ -93,10 +93,10 @@ public class Main {
 
 5. Explain the use of `sleep()` method in `Thread` class.
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - The `sleep()` method definition: 
 ```java
@@ -131,9 +131,9 @@ public class Main {
 
 6. Explain about thread priority.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details><summary> <b>Show Answer</b> </summary>
-<blockquote>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+<blockquote markdown="1">
 
  - Each thread has a priority. Priorities are represented by a number between 1 and 10.  
  - Where the thread scheduler schedules the threads according to their priority known as <b> preemptive scheduling</b>.
@@ -145,11 +145,11 @@ public class Main {
  ---
  7. List the methods related to the thread priority.
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - There are two methods `setter` and `getter` in thread priority.
     - `public final int getPriority()`:Returns the priority of the given thread  by using the `java.lang.Thread.getPriority()` method.
@@ -163,11 +163,11 @@ public class Main {
 
  8. What are the 3 priority constants defined in `Thread` class?
 
-  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - `public static int MIN_PRIORITY`-It holds the value 1.
 - `public static int NORM_PRIORITY`-It holds the value 5 and it is the Deafult priority of a thread.
@@ -181,11 +181,11 @@ public class Main {
 
 9. What happens if the value of priority is not in between 1(minimum) and 10(maximum)?
 
-  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - If the value of the parameter `newPriority` of the method `getPriority()` goes out of the range (1 to 10), then the method throws `IllegalArgumentException`.
 
@@ -198,11 +198,11 @@ public class Main {
  
  10. Explain <b>fixed-priority pre-emptive scheduling</b> algorithm.
 
-  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
  This scheduling algorithm is supported by the JVM to serve the thread with the highest priority first, since all Java threads have a priority. 
 
@@ -216,11 +216,11 @@ public class Main {
 
 11. Write a program using methods `set priority` and `get priority` to display the priority of the thread?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
- <details><summary> Show Answer </summary>
+ <details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 ``` java
 import java.lang.*;  
@@ -241,9 +241,9 @@ System.out.println("Priority of the thread th1 is : " + th1.getPriority());
 ```
 </blockquote>
 
- <details><summary> Explanation </summary>
+ <details markdown="1"><summary> Explanation </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Using `currentThread()`,`getPriority())` and `setPriority(6)`methods, here the priority is displayed.
 If there are two threads that have the same priority. 
@@ -259,11 +259,11 @@ If there are two threads that have the same priority.
  ---
  12. Write a program to throw an ` IllegalArgumentException` exception in thread?
 
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
- <details><summary> Show Answer </summary>
+ <details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 ``` java
 import java.lang.*;  
@@ -279,9 +279,9 @@ public static void main(String argvs[])
 
 </blockquote>
 
- <details><summary> Explanation </summary>
+ <details markdown="1"><summary> Explanation </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 -  The priority of the main thread is set to 17, which is greater than 10 (not in the range between minimum and maximum value), so it throws `IllegalArgumentException` exception.
 
@@ -295,10 +295,10 @@ public static void main(String argvs[])
 13. What is Daemon Thread and how it differs from normal thread?
 
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)	
-<details><summary> Show Answer </summary>
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)	
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - A Daemon thread is a low priority thread which always runs in the background.
 - User is the high priority thread which runs in the foregground
@@ -309,9 +309,9 @@ public static void main(String argvs[])
  14. How will you make the thread as Daemon thread?
 	
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-<details><summary> Show Answer </summary>
-<blockquote>
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
+<details markdown="1"><summary> Show Answer </summary>
+<blockquote markdown="1">
 
 - We have to use `setDaemonthread()` pass the boolean value to make the thread as Daemon thread.
 - The `isDaemon()` returns a boolen value to check thread daemon or not.

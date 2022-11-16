@@ -3,9 +3,9 @@
 
 1. Explain polymorphism in Python? What are its type?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Polymorphism in python states that we can use the same function with same signature in both parent and child class. It allows the object to have multiple forms. Unlike other programming languages, python does not support compile time polymorphism, that is method overloading. If there are two functions with same name in a class, the last function specified will override the earlier one. It only supports the run time polymorphism, that is, method overriding.    
   
@@ -32,9 +32,9 @@ obj1.flight()   # it overrides the flight method of Bird class function.  #outpu
 ---
 2. Does python support method overloading and method overriding?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Python doesn't support method overloading but it supports method overriding. That is, we can define the same function in child and parent class with same signature and child's function overrides the parent class function. But when we define multiple functions with same name with different signatures and trying to call both with different number of argument passing, it executes the later one but gives error for trying to call the other functions as in namespace there will always be a single entry against each function name. let's see this with an example.   
 
@@ -65,9 +65,9 @@ print(add(2,4,6))   # output: 12
 ---
 3. What do you mean by method overriding?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Method overriding comes under runtime polymorphism and has the abilty by which a parent or base class functions can be redefined again in child or derived class. The method present in both parent and child should be same with same number of arguments.  
 </details>
@@ -80,12 +80,12 @@ b) Ability to inherit properties from base to subclass.
 c) Ability to restrict the access of data members from one class to another.   
 d) Ability to override the functionality of parent class in child class.   
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option d)
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > In python, Polymorphism allows the child class to make changes in the functions present in parent class. 
   </details>
@@ -97,12 +97,12 @@ d) Ability to override the functionality of parent class in child class.
 a) True    
 b) False    
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option b)
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > Suppose, if we define two functions with same name and different argument list in python, and when we try to call the first function, it will give error in the program. But, when we try to call the second function, it doesn't give the error and overrides the prior function and generates the output. 
   </details>
@@ -128,12 +128,12 @@ c) It has 4 wheels
 &emsp;It can have 2 or more wheels     
 d) None of the above     
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > option is b) 
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > Car class overrides the wheel() method of Vehicle class and therefore when calling the wheel() method of Car using object of Car class, it prints the statement present inside it. 
   </details>
@@ -164,12 +164,12 @@ c) It is a part of Vehicle class
 &emsp;It has 4 wheels  
 d) Error   
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option d)
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > The above code will throw an `AttributeError` because Car class object is trying to call the method present inside Vehicle class which is not possible, as there is no relationship between Car and Vehicle class.
   </details>
@@ -200,12 +200,12 @@ c) It is a part of Vehicle class
 &emsp;It has 4 wheels  
 d) Error    
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option c) 
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > The Car class is a child class of Vehicle class, so it can access the methods present inside that class. Because of that intro() method of Vehicle class got executed when using the object of Car class and wheel() of Car class is executed, not of Vehicle, because of method overriding.
   </details>
@@ -235,12 +235,12 @@ b) 21
 c) 30   
 d) 31   
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option b)
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > In the above code, the Test1 class method add() overrides the Test class method. Also while initalizing the value of a was 11 and after adding it with 10 in add(), it becomes 21 and hence the output.
   </details>
@@ -270,12 +270,12 @@ b) 21
 c) 20   
 d) Error  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option d) 
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > The above code on execution will throw the `NameError`, as there is no 'a' variable defined in class Test1. 
   </details>
@@ -318,10 +318,10 @@ d) Error
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option c)
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > obj1, obj2, obj3 all three objects belongs to different classes and when assign() method is called using these objects, the statement present inside these is executed and hence we get the values as 11, 12 and 13.
   </details>
@@ -335,12 +335,12 @@ b) Public method in a parent class can be overridden in a child class.
 c) Method Overriding is not possible in python.  
 d) Any method of parent class can be overridden in a child class.  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option b)
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > option a) , c) and d) are incorrect because method overriding is possible in python and private methods of a base class cannot be overridden in a child class. 
   </details>
@@ -365,12 +365,12 @@ b) 10
 c) 200  
 d) Error  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option d)
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > The above code will throw a `TypeError` because the default way of method overloading is not possible in python. Here, the later function overrides the previous function at the run time and so, three arguments are required to pass to multiply() method and not two at the time of calling. 
   </details>
@@ -395,12 +395,12 @@ b) 400
 c) 200  
 d) Error  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option b)
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > As three arguments are passed to multiply() method of Test class, last method implementation is executed and we will get the result as multiplication of 10, 20 and 2 , which is 400.   
   </details>
@@ -427,12 +427,12 @@ b) 30
 c) 200  
 d) Error  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option d)
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > According to method overriding, parent class and child class method should have the same name with same number of arguments but, the multiply() method of Test class and multiply() method of Test1 class have different number of arguments, which leads to an error. While calling the mutliply() of Test1, 3 arguments are required but, only 2 passed. 
   </details>
@@ -450,9 +450,9 @@ class Human(Animal):
 ___________________
 `````
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 ```python3
 class Animal:
@@ -475,7 +475,7 @@ obj1.leg()
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Default implementation of method overloading is not possible in python, but we can implement and show overloading by passing default arguments to methods. Let's see how to do it. 
 ```python3
@@ -494,9 +494,9 @@ print(obj.add(10, 20, 30))    # output: 60
 ---
 18. Show the polymorphism concept by using '+' operator inside a class. 
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > In python '+' operator is not only used to add values together but, it can also be used to concatenate two or more string values. Let's understand this better through a code.
 ```python3
@@ -517,9 +517,9 @@ print(obj.add("Akshay"," Bhadauria"))
 ---
 19. Can `len()` function be used in polymorphism in python? 
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > In python, len() is used to find the length of different datatypes like string, list, tuple, etc. The below code will show how we can use len() function with different types of data.
 ```python3
@@ -538,12 +538,12 @@ b) Programs that uses the polymorphism concepts takes less space in memory.
 c) We can hide the complexity through polymorphism.  
 d) It allows the methods to have different implementation according to the class.   
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option d)
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > It provides the way to create same method in different classes with different implementation. 
   </details>
@@ -557,9 +557,9 @@ b) +=
 c) -  
 d) -=  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option a)
 </details>
@@ -572,12 +572,12 @@ b) |
 c) //  
 d) /  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option b)
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > The function __or__() overloads the bitwise OR operator '|'.
   </details>

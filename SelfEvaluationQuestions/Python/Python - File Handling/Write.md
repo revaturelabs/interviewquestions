@@ -2,10 +2,10 @@
 
 1.What are the Access modes to write a file?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-  <blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+  <blockquote markdown="1">
 
 - Whenever a text has to be written to a file, we've to open to get in to one of the specified access modes. We will open the file to browse, write or append and sometimes to do multiple operations on a file.
 
@@ -27,10 +27,10 @@
 
 2.What are the steps needed to write data into a file?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-  <blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+  <blockquote markdown="1">
 
  1.Find the path of the file.
 
@@ -49,9 +49,9 @@
 
 3.How will you open a file in write mode?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > - First open the `.txt` file.
 > - Enter the data into the file(.txt)
@@ -71,9 +71,9 @@ f.close()
 
 4.What are the similarities and differences between `a+` and `w+`?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > - **Similarity**: In both the modes, we can do read and write operations.
 > - **Difference**: In `w+` mode, file will be truncated(previous data is lost) while in a+ mode,file's existing data will not be deleted and new data will be added at the end of the file.
@@ -84,8 +84,8 @@ f.close()
 
 5.What is the difference between  `.` and `..` folders?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-<details><summary><b>Show Answer</b></summary>
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > - In python, the `.` folder is the current folder.
 > - In python, the `..` is the parent folder.
@@ -96,10 +96,10 @@ f.close()
 
 6.What are the methods to write something to a file?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-  <blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+  <blockquote markdown="1">
 
  In python, we have two types of methods to write to a file:
 
@@ -115,9 +115,9 @@ f.close()
 
 7.What are the modes used to append the content to an existing file?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > `a` or `a+` modes are used to append the content at the end of the existing file using the `open()` method.
 
@@ -140,9 +140,9 @@ f.close()
 
 8.Write a function program in python to count the number of lowercase alphabets in a text file `text.tx`.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > Consider an `text.txt` file.
 
@@ -166,8 +166,8 @@ countlower()
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-  <blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+  <blockquote markdown="1">
 
 - In python, we have `writelines()` method to save the contents of a list object in a file.
 
@@ -184,10 +184,10 @@ f.close()
 
 10.Which method is used to set the position of a file pointer?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-  <blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+  <blockquote markdown="1">
 
  - `seek()` method is used to set the position of file pointer.
  - A file pointer denotes the position of the file contents to be read or written.The file handler is called as a file pointer.
@@ -201,10 +201,10 @@ f.close()
 
 11.How will you write a single line in a text file in python?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-  <blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+  <blockquote markdown="1">
 
 - We can use `write()` function to write a single line to a file.
 
@@ -222,8 +222,8 @@ file.close()
 12.How to write binary data to a file ?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
-<details><summary><b>Show Answer</b></summary>
-  <blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+  <blockquote markdown="1">
 
 - "Binary" files are any files for which the format is not created for readable characters. Binary files will range from image files like JPEGs or GIFs, audio files like MP3s or binary document formats like Word or PDF. In python, default files are opened in text mode. To open files in binary mode, after specifying a mode, add `b` to that.
 
@@ -251,8 +251,8 @@ file.close()
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-  <blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+  <blockquote markdown="1">
 
  - `shutil.copyfileobj()`:Used to copy the file object from source code to destination code.
  - `shutil.copyfile()`: Used to copy the contents from one file to another file.
@@ -267,10 +267,10 @@ file.close()
 
 14.What are the steps to write text file in python?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-  <blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+  <blockquote markdown="1">
 
 There are four steps to write text file in python,
  - Open the `text file("text.txt")`
@@ -285,9 +285,9 @@ There are four steps to write text file in python,
 
 15.Write a python program to open a file named as `mark.txt` and store in a folder `class.txt` in C drive.
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 ```python
 file=open("C:\\class\\mark.txt")
@@ -305,9 +305,9 @@ file=open("C:\class\mark.txt")
 
 16.Write a python program to read first 20 characters from a file named `data.txt`?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 ```python
 f=open("data.txt","r")
@@ -320,9 +320,9 @@ print(data)
 
 17.Write a python program to get five names from the user as input and write into a file `file.txt`.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 ```python
 f = open("file.txt","w")
@@ -339,7 +339,7 @@ f.close()
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 ```python
 f = open("text.txt", "r")
@@ -371,7 +371,7 @@ print("Freq of vowel \"u\" is", vu)
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 ```python
 file=open("sample.txt", "r")
@@ -390,9 +390,9 @@ print("Total lines are :", c)
 
 20.Write a python program to copy the entire content file `sample.txt` to `file.txt`.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
   
 > First, read the content from one file and write to another file.
 We want to copy the entire file content to another text file. 

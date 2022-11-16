@@ -1,8 +1,8 @@
 1.Which block has to be followed after the try block?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b> Show Answer</b></summary>
+<details markdown="1"><summary> <b> Show Answer</b></summary>
 	
 >catch or finally block.
 	
@@ -12,9 +12,9 @@
 
 2.Why the rest of the code in the try block will not be execute?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 	
 > Whenever an exception is occurred in the try block the rest of the code will not execute.
 	
@@ -24,11 +24,11 @@
 
 3.What is the syntax for the try-catch block? 	
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 	
 ``` java
  try{
@@ -46,9 +46,9 @@
 
 4.Can we have multiple catch blocks with the single try block?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b> Show Answer</b></summary>	
+<details markdown="1"><summary> <b> Show Answer</b></summary>	
 	
 > yes, we can have multiple catch blocks with the single try block.
 	
@@ -59,9 +59,9 @@
 
 5.Who handles the exception if the exception is not handled by the programmer itself?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b> Show Answer</b></summary>
+<details markdown="1"><summary> <b> Show Answer</b></summary>
 	
 > Java Virtual Machine(JVM), handles the exception if the exception is not handled by the programmer itself.
 	
@@ -71,9 +71,9 @@
 
 6.What is the role of JVM in default Exception Handling mechanism?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 	
 >JVM prints out the exception description,prints the stacktrace and causes the program to terminate.
 	
@@ -83,9 +83,9 @@
 
 7.How the normal flow of the program is maintained in the exception handling mechanism?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 	
 > If the programmer handles the exception, the normal flow of the program is maintained in the exception handling mechanism.
 
@@ -95,7 +95,7 @@
 
 8.Predict the output of the following code.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
  ``` java   
 public class Example1 {    
@@ -105,11 +105,11 @@ public class Example1 {
   }    
 }
 ```
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 	
 > /by zero
 	
-<details><summary><b> Explanation </b></summary>
+<details markdown="1"><summary><b> Explanation </b></summary>
 
 > A number is divided by zero.
 	
@@ -120,7 +120,7 @@ public class Example1 {
 
 9.Predict the output of the following code.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
  ``` java   
 public class TryCatchExample1 {  
@@ -139,9 +139,9 @@ public class TryCatchExample1 {
       
 }  
 ```
-<details><summary> <b> Show Answer</b></summary>
+<details markdown="1"><summary> <b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 	
 ```java
 /by zero
@@ -150,7 +150,7 @@ Exception Occurred
 
 </blockquote>
 	
-<details><summary><b> Explanation </b></summary>
+<details markdown="1"><summary><b> Explanation </b></summary>
 
 > A number is divided by zero which throws an ArithmeticException.
 	
@@ -161,7 +161,7 @@ Exception Occurred
 
 10.Predict the output of the following code.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
  ``` java   
 import java.util.*;
@@ -184,11 +184,11 @@ public class TryCatchExample3 {
       
 }  
 ```
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 	
 > NumberFormatException occurred
 
-<details><summary><b> Explanation </b></summary>
+<details markdown="1"><summary><b> Explanation </b></summary>
 
 > If the input is not a number or if the input is string then NumberFormatException will be occurred otherwise it will print the number.
 	
@@ -199,7 +199,7 @@ public class TryCatchExample3 {
 
 11.Predict the output of the following code.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
  ``` java   
 public class TryCatchExample4 {  
@@ -217,11 +217,11 @@ public class TryCatchExample4 {
       
 }  
 ```
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 	
 > Array index error
 
-<details><summary><b> Explanation </b></summary>
+<details markdown="1"><summary><b> Explanation </b></summary>
 
 >If the element is stored in unspecified array index then ArrayIndexOutOfBoundsException will be occurred.
 
@@ -232,7 +232,7 @@ public class TryCatchExample4 {
 
 12.Predict the output of the following code.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
  ``` java   
 import java.io.*;
@@ -249,11 +249,11 @@ public class TryCatchExample5 {
     }  
 }  
 ```
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 	
 >The File location is not found
 	
-<details><summary><b> Explanation </b></summary>
+<details markdown="1"><summary><b> Explanation </b></summary>
 
 >If the file does not exist then FileNotFoundException will be thrown.
 	
@@ -264,9 +264,9 @@ public class TryCatchExample5 {
 
 13.How catch block is executed in multiple catch blocks?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 	
 >All the catch blocks must be ordered from most specific to most generic i.e it should start from ArithmeticException class and then to the Exception class.
 	
@@ -276,9 +276,9 @@ public class TryCatchExample5 {
 
 14.What is a nested try block?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 	
 >The try block inside another try block is called as nested try block.When any try block does not have a catch block for a particular exception, then the catch block of the outer or parent  try block are checked for that exception, and if it matches, the catch block of outer try block is executed.
 	
@@ -288,9 +288,9 @@ public class TryCatchExample5 {
 
 15.When should we use nested try block?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b> Show Answer</b></summary>
+<details markdown="1"><summary> <b> Show Answer</b></summary>
 	
 >A situation may arise where a part of block of code may cause one error and the entire block of code itself may cause another error. In such cases, exception handlers have to be nested.
 	
@@ -332,9 +332,9 @@ public class NestedTryBlock1{
  }    
 }  
 ```
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 	
 ```java
 Divide by zero error
@@ -343,7 +343,7 @@ Index 10 out of bounds for length 10
 ```
 
 </blockquote>
-<details><summary><b> Explanation </b></summary>
+<details markdown="1"><summary><b> Explanation </b></summary>
 
 > When any try block does not have a catch block for a particular exception, then the catch block of the outer (parent) try block are checked for that exception, and if it matches, the catch block of outer try block is executed.
 
@@ -354,9 +354,9 @@ Index 10 out of bounds for length 10
 
 17.What is a finally block?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 	
 >In Java finally block is always executed whether an exception is handled or not. Therefore, it contains all the necessary statements that need to be printed regardless of the exception occurs or not.The finally block follows the try-catch block.
 	
@@ -366,9 +366,9 @@ Index 10 out of bounds for length 10
 
 18.When a finally block gets executed?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 	
 >When a Java program does not throw any exception a finally block gets executed.
 	
@@ -378,7 +378,7 @@ Index 10 out of bounds for length 10
 
 19.Predict the output of the following code.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
  ``` java   
@@ -397,9 +397,9 @@ public class Finallyblock1 {
                         }    
                 }    
 ```
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 	
-<blockquote>
+<blockquote markdown="1">
 	
 ```java
 5
@@ -408,7 +408,7 @@ finally block is executed
 
 </blockquote>
 
-<details><summary><b> Explanation </b></summary>
+<details markdown="1"><summary><b> Explanation </b></summary>
 
 > Even if the Exception is occurred or not,the finally block gets executed.
 	
@@ -419,7 +419,7 @@ finally block is executed
 
 20.Predict the output of the following code.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
  ``` java   
 public class FinallyBlock2{    
@@ -438,9 +438,9 @@ public class FinallyBlock2{
       }    
     }  
 ```
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 	
  ``` java  
 Inside try block
@@ -451,7 +451,7 @@ finally block is executed
 	
 </blockquote>
 
-<details><summary><b> Explantion </b></summary>
+<details markdown="1"><summary><b> Explantion </b></summary>
 	
 > Here the exception is occurred then also finally block gets executed.
 	

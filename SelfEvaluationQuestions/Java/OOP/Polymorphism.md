@@ -2,7 +2,7 @@
 
 1. Physics Department in Caltech got a new 3D printer, Sheldon used the printer for printing prototypes for his hadron collider. Howard used the printer to print his mini action figure. this is an example for?
 
-  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 - A.Polymorphism
 - B.Inheritance
@@ -10,11 +10,11 @@
 - D.Encapsulation
 
 </details>
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > A
   
-  <details><summary><b>Explanation</b></summary> 
+  <details markdown="1"><summary><b>Explanation</b></summary> 
     
   > Printing using a 3D printer is a method in the Caltech class. Sheldon used the method for research and Howard used the same method for fun.
  </details>
@@ -25,17 +25,17 @@
 2. John got a recipe for cookies from his mother, but john likes choco chips, so he altered the original cookie recipe, 
    this is an example for?
  
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 - A.Method Overriding
 - B.Method Overloading
 - C.Inheritance
 - D.Abstraction
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
   
 > A
-  <details><summary><b>Explanation</b></summary>
+  <details markdown="1"><summary><b>Explanation</b></summary>
     
 > John inherited The original recipe(a method) is  from his mother(parent class) and he altered the recipe.
     
@@ -49,7 +49,7 @@
 1. The following code snippet is an example for?
 
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 ``` java
 public class Languages {
@@ -74,12 +74,12 @@ public class Languages {
 
 
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
   > D
   
-  <details><summary><b>Explanation</b></summary>
-  <blockquote>
+  <details markdown="1"><summary><b>Explanation</b></summary>
+  <blockquote markdown="1">
     `speakGerman()` is written twice with different signatures in the same class, So it can not be considered as method overloading. it is just a duplicate method.
 
   </blockquote>
@@ -91,10 +91,10 @@ public class Languages {
 2. What is static polymorphism?
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Static Polymorphism is also called Compile time Polymorphism or Method overloading. The method behavior is decided during compile-time in static polymorphism.
   
@@ -104,10 +104,10 @@ public class Languages {
 
 3. What is Dynamic polymorphism?
     
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Dynamic Polymorphism is also called Run-time Polymorphism or Method overriding. The method behavior is decided during runtime in static polymorphism.
   
@@ -117,18 +117,18 @@ public class Languages {
 
 4. Which of the following is an example of static binding?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 - A.method overriding
 - B.method overloading
 - C.abstraction
 - D.none of the above
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > B
 
-  <details>
+  <details markdown="1">
     <summary><b>Explanation</b></summary> 
     
 > Static binding is linking method call with method definition during compile-time. compile-time polymorphism is
@@ -144,7 +144,7 @@ public class Languages {
 
 1. What is the output of the following java code?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 ``` java
   class Animal {
@@ -164,11 +164,11 @@ public class Languages {
         
    ```
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
  > Barking!
   
-<details>
+<details markdown="1">
  <summary><b>Explanation</b></summary> 
   
  > the concept of method overloading is implemented here, In the main method we are calling barkingDog() with a
@@ -185,7 +185,7 @@ public class Languages {
 
 1. Predict the output of the program and debug the program.  
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)      
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)      
 
 ``` java
 public class Vacation{
@@ -213,12 +213,12 @@ class BusinessTrip extends Vacation{
   - D.The London branch is totally off the charts
   
   
-  <details>
+  <details markdown="1">
   <summary> <b>Show Answer</b> </summary>
     
 >  A
     
-<details>
+<details markdown="1">
 <summary> <b>Explanation</b> </summary>
 
 > The outcome of the program is the compile-time error and it's caused because the method signature for visitLondoon(), which is being overloaded is different in the parent class(Vacation) and Child class(BusinessTrip).
@@ -232,7 +232,7 @@ class BusinessTrip extends Vacation{
   2. Find the error in the following program.  
 
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 ``` java
 public class Area{
@@ -262,11 +262,11 @@ public class Area{
   - D.2
   
   
-  <details>
+  <details markdown="1">
   <summary> <b>Show Answer</b> </summary>
     
   > C
- <details>
+ <details markdown="1">
     <summary><b>Explanation</b></summary>
    
   > CalculateTriangleArea(double base, double height) is implemented when 1.0 and 2.0 are passed as method parameters.

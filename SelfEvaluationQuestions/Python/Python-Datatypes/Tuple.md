@@ -2,10 +2,10 @@
 
 1.What is a Tuple? How tuple is different from list in python?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
- <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+ <blockquote markdown="1">
  
 - `Tuple` is an immutable datatype in python which is used to store elements and is separated by comma inside parentheses (). To create an empty `tuple`, we can use `()` in python. 
  
@@ -34,10 +34,10 @@
 
 2.What are the built-in methods in `tuple`?
  
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
- <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+ <blockquote markdown="1">
  
  
 - `Tuple` has 2 built-in methods in python:
@@ -53,9 +53,9 @@
 
 3.How to add an element to a `Tuple`?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
  
 > We cannot add elements to a `tuple` directly since it is immutable. But if we convert the `tuple` to a `list`, we can add element to that list using `append()` or `extend()` method. After adding, we can convert that list back to `tuple`. 
  
@@ -76,10 +76,10 @@ print(type(tuple1))  # output: <class 'tuple'>
  
 4. If `Tuple` does not have sort method to sort the elements compared to `List`, then how will you sort the elements of a `tuple` in python?
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
  
-<details><summary> <b>Show Answer</b> </summary>
- <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+ <blockquote markdown="1">
   
 - There are few ways by which we can sort the elements of `tuple`,
 
@@ -105,9 +105,9 @@ print(tuple(lst))  # output: (2, 4, 7, 12, 16, 21, 34)
 
 5.How to sort the elements of a `tuple` in descending order?
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
  
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > By passing `reverse = True` as argument of `sort()` method, we can sort the elements of a `list`. After that, using type conversion, we can convert the `list` to `tuple`. 
 
@@ -125,9 +125,9 @@ print(tuple(lst))
 
 6.How to join two `tuples` together in Python?
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
  
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > We can use the `+` operator to join two `tuples` together. 
   
@@ -145,9 +145,9 @@ print(t1 + t2)  # output: (12, 4, 7, 21, 34, 2, 16)
 
 7.How to print the reverse order of elements in a `tuple`? 
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
  
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
  
 > Using `reverse()` method of `list` and type conversion, we can achieve our task. 
  
@@ -180,13 +180,13 @@ print(tuple1)
  
  D.Error 
  
- ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
  
 > Option  d) Error. 
  
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The reason is `Tuple` is immutable in python i.e we cannot change the values of a `tuple`.
 
@@ -205,10 +205,10 @@ print(tuple1)
  
  D.We cannot update items of the `tuple`. 
  
- ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
- <details><summary> <b>Show Answer</b> </summary>
-  <blockquote>
+ <details markdown="1"><summary> <b>Show Answer</b> </summary>
+  <blockquote markdown="1">
   
 - Options c) and d) both are correct.
   
@@ -225,14 +225,14 @@ print(tuple1)
  
  B.False
  
- ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
- <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+ <blockquote markdown="1">
  
 - Option  A.`True`
  
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
  
 - We can create a `tuple` without parentheses but we have to seperate each element of tuple by comma ','. 
  
@@ -258,14 +258,14 @@ print(tuple1 * 3)
  
  D.(10, 20, 30) 
  
- ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
- <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+ <blockquote markdown="1">
   
 - Option C.(10, 10, 10) 
 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 - We can use `*` operator to repeat the values of `tuple` as n number of times.
 
@@ -290,13 +290,13 @@ print(type(tuple1))
  
  D.`str`
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
  
 > Option D.str
  
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
  
 > The answer of above code is not `tuple` because in python if you have to create a `tuple` of single item, you need to add a comma after the item. 
 > If you missed the comma, the python will treat it as a string type (str class). 
@@ -322,13 +322,13 @@ print(b)
  
  D.5 
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
  
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
  
 > Option B.20
  
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
  
 > In python, we can create a `tuple` without parentheses. Also `tuple` unpacking is possible.
  
@@ -346,9 +346,9 @@ answer_1=
 print(answer_1)
 ```
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
  
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
  
  ```python
 tuple=(11, 100, 101, 999, 1001)
@@ -356,7 +356,7 @@ answer_1=tuple[2]
 print(answer_1)
 ```
  
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
  
 > 0,1,2 … Third element is index 2: [2]
 
@@ -381,13 +381,13 @@ print(b)
  
  D.No output
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
  
 > Option C.yellow
  
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
  
 > The `tuple` unpacking is also possible.
  
@@ -398,10 +398,10 @@ print(b)
 
 16.Write a python program to sort list of `tuples` by second element.
  
- ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
- <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+ <blockquote markdown="1">
  
 ```python
  
@@ -419,7 +419,7 @@ original list of tuples =
 after sorting by second item=
  [('C#', 1), ('Go', 7), ('Basic', 8), ('Python', 60)]
 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
  
 - This is the one way of approach only, you can do in your way.
  
@@ -438,16 +438,16 @@ output=
 print("sum of the tuple:",output)
 ```
  
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
  
-<details><summary> <b>Hint</b> </summary>
+<details markdown="1"><summary> <b>Hint</b> </summary>
  
 > `sum()` function will calculate the total sum inside the numbers of your `tuple`.
  
 </details>
  
-<details><summary> <b>Show Answer</b> </summary>
- <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+ <blockquote markdown="1">
  
 ```python
 tuple=(45,2,90,5,36,65)
@@ -479,10 +479,10 @@ tuple1:(99,88)
  
 tuple2:(11,22)
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
- <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+ <blockquote markdown="1">
 
 ```python
 tuple1=(11,22)
@@ -519,13 +519,13 @@ print(aTuple)
  
  D.No output
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
  
 > Option C.`AttributeError`
 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
  
 > A `tuple` is immutable. Once a `tuple` is created, you cannot remove its items, but you can delete the tuple completely. If you try to remove the item from the tuple, you will receive an `AttributeError: tuple` object has no attribute `pop`.
 
@@ -540,13 +540,13 @@ print(aTuple)
  
  B.`True`
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
  
 > Option B.`True`
 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
  
 > A tuple can also be created without using parentheses. It is called tuple packing.
 
@@ -564,9 +564,9 @@ print(tuple)
  
 21.Write a program to convert two `list` to `dictionary` in python?
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
  
 ```python 
 Team=["Training","Dev","Sales","Finance"]
@@ -579,7 +579,7 @@ print(Office)
  
 {'Training': 38, 'Dev': 50, 'Sales': 33, 'Finance': 79}
  
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
  
 > To convert two `list` to `dictionary` in python we can use `zip()` method.
  
@@ -604,14 +604,14 @@ print(type(Tuple))
  
  D.`list`
  
- ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
- <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+ <blockquote markdown="1">
  
 - Option B.`str`
 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
  
 - To create a `tuple` with a single item, you need to add a comma after the item. Otherwise, Python will not recognize the variable as a `tuple`, and it will treat it as a string type.
  
@@ -639,10 +639,10 @@ print(type(Tuple1))
 
 23.How will you find the duplicate tuple in list of `tuple`.
   
-  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
- <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+ <blockquote markdown="1">
 
 ```python 
 Tuple= [('Python',5),('Java',3),('C#', 1), ('JS', 2), ('C#', 1), ('JS', 2),('React',1)] 
@@ -655,7 +655,7 @@ print(Output_tuple)
  
 [('JS', 2), ('C#', 1)]
   
- <details><summary> <b>Explanation</b> </summary>
+ <details markdown="1"><summary> <b>Explanation</b> </summary>
   
  >To find duplicate elements from `tuple`,convert the `tuple` into `set`.Because, `set` won't allows duplicates.
   
@@ -670,9 +670,9 @@ Sample tuple:
  
 `tuple = (50, 10, 60, 70, 50,67,89,160,145,67,50)`
   
-  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+  ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
  
 ```python
 tuple = (50, 10, 60, 70, 50,67,89,160,145,67,50)
@@ -683,7 +683,7 @@ print(tuple.count(50))
  
 3
  
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
  
 > To count the number of occurrences we used the `count()` method of a `tuple`.
 
@@ -704,11 +704,11 @@ print(tuple.count(50))
  
  D.Tuple[1][1]
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
  
 > Option C.Tuple[1:2][1]
  
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
  
  > If we want to access the value 20 from `tuple` we can use `slicing`.
 

@@ -2,10 +2,10 @@
 
 1.What is Exception?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer </b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer </b></summary>
+<blockquote markdown="1">
 
 - An exception is an occurrence that happens throughout the execution of programs that disrupt the normal flow of execution (e.g., KeyError Raised once a key's not found during a dictionary.) an exception could be a Python object that represents an error..
 - In Python, an exception is an object derives from the BaseException class that contains data concerning an error event that occurred inside a technique. Exception object contains:
@@ -20,10 +20,10 @@
 
 2.What are the different types of exceptions?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer </b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer </b></summary>
+<blockquote markdown="1">
 
 1.FileNotFoundException
 
@@ -43,10 +43,10 @@
 
 3.What is the use of `Exception` Handling?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer </b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer </b></summary>
+<blockquote markdown="1">
 
 1.**Standardized error handling**: using built-in exceptions or making a custom exception with a a lot of precise name and description, you can adequately define the error event, that helps you correct the error event.
 
@@ -65,10 +65,10 @@
 
 4.What is the difference between Built-in exception and User-defined exception?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer </b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer </b></summary>
+<blockquote markdown="1">
 
 **Built-in exception**:
 
@@ -91,10 +91,10 @@ print(10/0) ===>ZeroDivisionError
 
 5.What are the different types of Built-in Exceptions?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer </b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer </b></summary>
+<blockquote markdown="1">
 
 1.EOFError - Raised once the `input()` perform hits the end-of-file condition.
 
@@ -129,13 +129,13 @@ s = excep()
 print(s)
 ```
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer </b></summary>
+<details markdown="1"><summary><b>Show Answer </b></summary>
 	
 > 2
 
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 
 > The finally block is executed even there's a return statement within the try block.
 
@@ -146,10 +146,10 @@ print(s)
 
 7.How `exceptions` are handled in Python?  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer </b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer </b></summary>
+<blockquote markdown="1">
 
 - To handle exceptions or to call code when an exception occur, at the time we can use try/except statements in Python.
 
@@ -178,16 +178,16 @@ def Except():
 Except()
 ```
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer </b></summary>
+<details markdown="1"><summary><b>Show Answer </b></summary>
 
 try
        ^
 
 SyntaxError: invalid syntax
 
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 
 > In the above program we missed **:** in the 2 line.
 
@@ -206,13 +206,13 @@ SyntaxError: invalid syntax
  
  D.a ValueError happens
  
- ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer </b></summary>
+<details markdown="1"><summary><b>Show Answer </b></summary>
 
 > Option B.we get a `False`
 
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 
 > It simply evaluates to `False` and does not raise any exception.
 
@@ -231,13 +231,13 @@ SyntaxError: invalid syntax
  
  D.None of the mentioned
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer </b></summary>
+<details markdown="1"><summary><b>Show Answer </b></summary>
 
 > Option A.`Yes, like except TypeError, SyntaxError [,…]`
 
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 
 > Each type of exception can be specified directly. There is no need to put it in a list.
 
@@ -258,13 +258,13 @@ except "Error":
     print ("Error has occurred")
 ```
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > Invalid code
 
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 
 > A new exception class must inherit from a BaseException. There is no such inheritance here.
 
@@ -284,9 +284,9 @@ except ZeroDivisionError:
 print(result)
 ```
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 ```python
 a=5
@@ -308,10 +308,10 @@ print(result)
 
 13.How will try() block work?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+<blockquote markdown="1">
 
 - First, the try clause is executed i.e. the code between attempt to except clause.
 - If there's no exception, then solely the try clause can run, except the clause is finished.
@@ -338,10 +338,10 @@ divide(3, 2)
 
 14.What is else clause ?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+<blockquote markdown="1">
 
 In python, you'll also use the else clause on the try-except block that should be present in any case the except clauses. The code enters the else block as long as the try clause doesn't raise an exception.
 
@@ -363,10 +363,10 @@ else:
 
 15.What is the use of finally keyword in python?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+<blockquote markdown="1">
 
 - Python provides a keyword `finally`, that is often executed when the `try` to except blocks. the `final` block continuously executes when normal termination of strive block or when `try` block terminates due to some exception.
 
@@ -399,9 +399,9 @@ finally:
  
  D.None
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > Option C. LoopError
 
@@ -411,10 +411,10 @@ finally:
 
 17.Which keyword is used to raise an `error` in python?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+<blockquote markdown="1">
 
 - Python additionally provides the `raise` keyword to be utilized in the context of exception handling. It causes associate exception to be generated expressly. inbuilt errors are raised implicitly. However, a inbuilt or custom exception is forced throughout execution.
 
@@ -446,14 +446,14 @@ def getValue(m):
 getValue(7)
 ```
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+<blockquote markdown="1">
 
 - 7
 
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 
 - In the code shown above, since the value passed as an argument to the perform is between one and twelve (both included), thus the output is that the value itself, that is 7. If the worth had been higher than twelve and less than one, a ValueError would are thrown.
 
@@ -478,9 +478,9 @@ except ValueError as e:
     print(e)
 ```````
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
  
 > please add money in your account
 
@@ -498,14 +498,14 @@ except ValueError as e:
  
  D.always
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-	<blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+	<blockquote markdown="1">
 
 - Option D.always
 
-<details><summary><b>
+<details markdown="1"><summary><b>
 Explanation</b></summary>
 
 - The finally block is always executed.
@@ -528,14 +528,14 @@ while not a:
         print("Input file not found")
 ```
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+<blockquote markdown="1">
 
 `File not found`
 
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 
 - if the computer file in not found, then the statement: “Input file not found” is written on the screen. The user is then prompted to reenter the file name. Error isn't thrown.
 
@@ -557,14 +557,14 @@ r[5]
  
  D.ValueError
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+<blockquote markdown="1">
 
 - Option B.NameError
 
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 
 - The above code result is showing the output is NameError.Because this file name r nis not defined.
 
@@ -588,14 +588,14 @@ while not valid:
         print("invalid")
 ```
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+<blockquote markdown="1">
 
 - Welcome(printed infinite number of times)
 
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 
 - The output of the above code is welcome(printed infinite number of times).Because an even number is given as `input`. If an odd number is given as `input`, then there is no output.
 
@@ -620,14 +620,14 @@ print("Good night)
  
  D.Syntax,Semantic
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
-<details><summary><b>Show Answer</b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+<blockquote markdown="1">
 
 - Option B.Semantic,Syntax
 
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 
 - The first code shows an error detected throughout execution. This may occur often. In second line code represents a syntax error. once there's deviation from the principles of a language, a software error is thrown.
 
@@ -639,10 +639,10 @@ print("Good night)
 
 25.Why should we use else block with try?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+<blockquote markdown="1">
 
 - In python use else statements with try block to check whether the try block is executed without any exception or else if you want to run a specific code only if an exceptions is not raised.
   
@@ -677,14 +677,14 @@ except:
 print(a)
 ```
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+<blockquote markdown="1">
 
 - [1,3,5]
 
-<details><summary><b>Hint</b></summary>
+<details markdown="1"><summary><b>Hint</b></summary>
 
 - All you have got to try and do is kind pass away the proper line with the proper indentation.
 - Watch out for once you use except and pass statements like this as they're pretty generalist statements and may cause bother in more advanced programs.
@@ -706,8 +706,8 @@ except Exception:
 print(msg)
 ```
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details><summary><b>Show Answer</b></summary>
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > Can't add int to string
 
@@ -717,10 +717,10 @@ print(msg)
 
 28.Write a python code for exception handling?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+<blockquote markdown="1">
 
 ```python
 try:
@@ -743,10 +743,10 @@ except:
 
 29.What is the purpose of with/as statement in Python?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+<blockquote markdown="1">
 
 - with statement in Python is used in exception handling to make the code cleaner and much more readable. It simplifies the management of common resources like file streams.
 
@@ -759,8 +759,8 @@ except:
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+<blockquote markdown="1">
 
 - The exception chaining is accessible only in Python three. The raise statements permit North American country as ex gratia from statement, that permits chaining exceptions. thus we will implement exception chaining in python3 by exploitation raise…from clause to chain exception.
 

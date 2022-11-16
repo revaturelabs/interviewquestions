@@ -1,8 +1,8 @@
 1.Explain `throw` statement?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
 	
 >The `throw` statement is used to throw an exception explicitly. We specify the exception object which is to be thrown. The Exception has some message with it that provides the error description. These exceptions may be related to user inputs, server, etc.We can throw either checked or unchecked exceptions in Java by throw keyword. 
@@ -13,9 +13,9 @@
 	
 2.What is the syntax of `throw` statement?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 	
 > `throw new exceptionclass("error message");`
 	
@@ -25,7 +25,7 @@
 	
 3.Predict the output of the following code.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
  ``` java   
 public class throw1 {   
@@ -42,11 +42,11 @@ public class throw1 {
   }    
 }    
 ```
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 	
 >An individual is not eligible to vote.
 
-<details><summary><b> Explanation</b></summary>
+<details markdown="1"><summary><b> Explanation</b></summary>
 
 >The age passed is less than 18 in the verify method that is why it throws an arithmetic exception.
 
@@ -58,7 +58,7 @@ public class throw1 {
 
 4.Predict the output of the following code.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
  ``` java   
 import java.io.*;   
@@ -80,11 +80,11 @@ public class throw2 {
   }    
 }    
 ```
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 	
 >`java.io.FileNotFoundException`
 
-<details><summary><b> Explanation</b></summary>
+<details markdown="1"><summary><b> Explanation</b></summary>
 
 >The file doesn't exist in the location specified and it throws a FileNotFoundException.
 
@@ -96,9 +96,9 @@ public class throw2 {
 
 5.What is a `throws` statement?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b> Show Answer</b></summary>
+<details markdown="1"><summary> <b> Show Answer</b></summary>
 	
 >`Throws` keyword is used to declare an exception. It gives an information to the programmer that there may occur an exception.It provides information to the caller of the method about the exception.  
 	
@@ -108,9 +108,9 @@ public class throw2 {
 
 6.What is the syntax of `throws` statement?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b> Show Answer</b></summary>
+<details markdown="1"><summary> <b> Show Answer</b></summary>
 
 ```java
 return_type method_name() throws exception_class_name{  
@@ -124,7 +124,7 @@ return_type method_name() throws exception_class_name{
 
 7.Predict the output of the following code.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
  ``` java   
 import java.io.*;  
@@ -145,11 +145,11 @@ System.out.println("exception handled");
   }  
 }  
 ```
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 	
 >exception handled
 
-<details><summary><b> Explanation</b></summary>
+<details markdown="1"><summary><b> Explanation</b></summary>
 
 >The Input Output resource is not available it throws an IOException.
 
@@ -162,13 +162,13 @@ System.out.println("exception handled");
 
 8.Differentiate `throw` Vs `throws` statement.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 	
 >`throw` Vs `throws`
 	
-<details><summary><b> Explanation</b></summary>
+<details markdown="1"><summary><b> Explanation</b></summary>
 	
 >- Throw keyword is used to throw an exception explicitly in the code, inside the function or the block of code.we can only propagate unchecked exception i.e., the checked exception cannot be propagated using throw only.The throw keyword is followed by an instance of Exception to be thrown.It is used within the method.We are allowed to throw only one exception at a time i.e. we cannot throw multiple exceptions.
 >- Throws keyword is used in the method signature to declare an exception which might be thrown by the function while the execution of the code.we can declare both checked and unchecked exceptions. However, the throws keyword can be used to propagate checked exceptions only.It is followed by class names of Exceptions to be thrown.Throws is used with the method signature. We can declare multiple exceptions using throws keyword that can be thrown by the method. For example, main() throws IOException, SQLException.
@@ -180,7 +180,7 @@ System.out.println("exception handled");
 
 9.Predict the output of the following code.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
  ``` java   
 public class Throw1{  
@@ -198,11 +198,11 @@ public class Throw1{
     }  
 }  
 ```
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 	
 >Number is negative, cannot calculate square.
 	
-<details><summary><b> Explanation</b></summary>
+<details markdown="1"><summary><b> Explanation</b></summary>
 
 >The negative number has been passed to the calsquare method it throws an ArithmeticException.
 
@@ -215,7 +215,7 @@ public class Throw1{
 
 10.Predict the output of the following code.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
  ``` java   
 public class Throws2 {   
@@ -235,11 +235,11 @@ public class Throws2 {
     }  
 }  
 ```
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 	
 >Number cannot be divided by 0.
 
-<details><summary><b> Explanation</b></summary>
+<details markdown="1"><summary><b> Explanation</b></summary>
 
 >The number 0 has been passed to the divide method as a second argument it throws an ArithmeticException.
 
@@ -250,9 +250,9 @@ public class Throws2 {
 
 11.Differentiate `final`,`finally` and `finalize` statements.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 	
 >- `final` is the keyword and it is an access modifier which is used to apply restrictions on a class, method or variable.final variable becomes constant and cannot be modified once it is declared.It cannot be overridden by sub class.final class cannot be inherited.It is executed only when we call it.
 >- `finally` is the block in Exception Handling to execute the important code whether the exception occurs or not.It is always related to the try and catch block in exception handling.finally block cleans up all the resources used in try block.It is executed as soon as the try-catch block is executed.It's execution is not dependant on the exception.
@@ -264,7 +264,7 @@ public class Throws2 {
 
 12.Predict the output of the following code.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
  ``` java   
 public class finalvariable {   
@@ -278,11 +278,11 @@ public class finalvariable {
     }  
 }  
 ```
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 	
 >`Cannot assign a value to the final variable age=15`
 	
-<details><summary><b> Explanation</b></summary>
+<details markdown="1"><summary><b> Explanation</b></summary>
 
 >The final variable cannot be re-initialized again.
 
@@ -294,7 +294,7 @@ public class finalvariable {
 
 13.Predict the output of the following code.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
   ``` java   
  public class finally1{    
@@ -314,11 +314,11 @@ public class finalvariable {
       }    
     }  
  ```   
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 	
 >Inside try block Exception handled / by zero finally block is executed.
 
-<details><summary><b> Explanation</b></summary>
+<details markdown="1"><summary><b> Explanation</b></summary>
 
 >The finally block gets executed if the exception is occurred or not.
 
@@ -329,7 +329,7 @@ public class finalvariable {
 
 14.Predict the output of the following code.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
  ``` java 
  public class finalize1 {    
@@ -346,9 +346,9 @@ public class finalvariable {
     }     
 }    
  ``` 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 	
 ```java
 Hashcode is:3456787673
@@ -358,7 +358,7 @@ The finalize() method called
 
 </blockquote>
 	
-<details><summary><b> Explanation</b></summary>
+<details markdown="1"><summary><b> Explanation</b></summary>
 
 >`finalize` method is executed just before the object obj is destroyed.
 
@@ -369,9 +369,9 @@ The finalize() method called
 
 15.Explain Exception Propagation.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 	
 >An exception is first thrown from the top of the stack and if it is not caught, it drops down the call stack to the previous method. If not caught there, the exception again drops down to the previous method, and so on until they are caught or until they reach the very bottom of the call stack. This is called exception propagation.
 	
@@ -382,7 +382,7 @@ The finalize() method called
 
 16.Predict the output of the following code.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
  ``` java 
  class Propagation1{  
@@ -405,11 +405,11 @@ The finalize() method called
   }  
 }  
 ```
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 	
 >exception handled normal flow
 
-<details><summary><b> Explanation</b></summary>
+<details markdown="1"><summary><b> Explanation</b></summary>
 
 >Exception occurs in the method1() method where it is not handled, so it is propagated to the previous method2() method where it is not handled, again it is propagated to the method3() method where exception is handled.
 	
@@ -420,9 +420,9 @@ The finalize() method called
 
 17.Explain Exception Handling with Method Overriding.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>	
+<details markdown="1"><summary><b> Show Answer</b></summary>	
 	
 >- If the superclass method does not declare an exception, subclass overridden method cannot declare the checked exception but it can declare unchecked exception.
 >- If the superclass method declares an exception, subclass overridden method can declare same, subclass exception or no exception but cannot declare parent exception.
@@ -434,7 +434,7 @@ The finalize() method called
 
 18.Predict the output of the following code.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
  ``` java 
 import java.io.*;    
@@ -454,12 +454,12 @@ public class ExceptionChild extends Message{
   }    
 }   
 ```
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 	
 ```java
 msg() in ExceptionChild cannot override msg() in Message
 ```
-<details><summary><b> Explanation</b></summary>
+<details markdown="1"><summary><b> Explanation</b></summary>
 
 >Method overriding is not done by the derived class method msg() to the parent class method msg() when it throws a checked exception i.e IOException in exception handling.
 
@@ -470,7 +470,7 @@ msg() in ExceptionChild cannot override msg() in Message
 
 19.Predict the output of the following code.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 ``` java 
 import java.io.*;    
@@ -491,11 +491,11 @@ class Child1 extends Parent{
   }    
 }   
 ```
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 	
 >child method
 
-<details><summary><b> Explanation</b></summary>
+<details markdown="1"><summary><b> Explanation</b></summary>
 
 >Method overriding can be  done by the derived class method msg() to the parent class method msg() when it throws a unchecked exception i.e ArithmeticException in exception handling.
 

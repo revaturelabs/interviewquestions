@@ -3,9 +3,9 @@
 
 1. Explain Abstraction? How to achieve abstraction in python? Give an example. 
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Abstraction refers to hiding of unnecessary data from the user and showing only the relevant part in order to reduce complexity and increase the efficiency of program. For example,let's take social media platforms where we share photos, chat, etc., with friends without knowing how all these happens in background.    
   
@@ -36,9 +36,9 @@ c.sound()  # output: Zoom-Zoom...!!
 ---
 2. Does python have a interface concept?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > In python, there is no concept of interface. Python doesn't have any interface keyword like it has for class. So, we can only use the abstract base class that let us define abstract methods inside it and those methods should be implemented by derived classes.
 
@@ -47,9 +47,9 @@ c.sound()  # output: Zoom-Zoom...!!
 ---
 3. What is an abstract base class in python?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Abstract base class provides a way to declare methods without implementation, and these methods must be implemented by derived classes. It has an advantage of hiding irrelevant or complex implementation from user. We cannot create object for abstract base class in python. 
 </details>
@@ -62,12 +62,12 @@ b) Abstract classes can have only abstract methods.
 c) We can create abstract class using abstract keyword.    
 d) Abstract classes can have both abstract methods and non-abstract methods.    
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option d)
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > In abstract classes, we can create abstract methods along with non-abstract methods.
   </details>
@@ -76,9 +76,9 @@ d) Abstract classes can have both abstract methods and non-abstract methods.
 ---
 5. Can we create abstract class by just passing `pass` inside method definition in python?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > We can directly create classes in python which have some methods without definition but, these classes are not called as abstract base class because python doesn't have default implementation of abstract classes. And there is no such keyword as abstract through which we can create a abstract class or method. To create a abstract class in python, we have to import `abc` module which provides the way to create abstract class which can have abstract and non abstract methods. 
 </details>
@@ -108,12 +108,12 @@ b) 60 km away from NY
 c) Error  
 d) Nothing is printed   
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option b) 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > Derived class called its own method path() and hence, statement inside path() method is executed. Hence, we got the output as "60 km away from NY".
   </details>
@@ -144,12 +144,12 @@ b) 60 km away from NY
 c) Error  
 d) Nothing is printed   
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option a)
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > Object of Derived class called the show() method of Abstract class and as show() method is a non-abstract method of Abstract class, its inside statement gets executed.
   </details>
@@ -180,12 +180,12 @@ b) 60 km away from NY
 c) Error  
 d) Nothing is printed  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option c)
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > After executing the above code, we will get the Error stating that Abstract class cannot be instantiated as it is abstract base class in python.
   </details>
@@ -215,12 +215,12 @@ b) pass
 c) Error, because Derived class is an abstract class.  
 d) Nothing is printed   
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option c)
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > We will get the ```TypeError: Can't instantiate abstract class Derived with abstract methods path```. This is because we have not provided any implementation to path() method of Abstract class in Derived class. Therefore, derived class also becomes abstract class. 
   </details>
@@ -252,12 +252,12 @@ b) pass
 c) Error, because Derived class is an abstract class.  
 d) Nothing is printed   
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option d)
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The path() method of Derived class has implemented the path() method of Abstract class by just providing `pass` statement in the method definition. `pass` is a null statement in python and so, nothing is printed in the console [output screen].
   </details>
@@ -271,9 +271,9 @@ b) abc
 c) re  
 d) sys   
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option b) `abc` 
 </details>

@@ -2,10 +2,10 @@
 
 1.Explain about Access Modifier.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - Access Modifiers are used to limit the accessibility or visibility of class, method, variable, and constructor.
 
@@ -21,10 +21,10 @@ There are four type of access modifier:
 
 2.Explain about Default Access Modifier.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - If we do not specify the access modifier, the default will be the access modifier.
 - When we declare default access modifier, the visibility will be only within the package.
@@ -36,10 +36,10 @@ There are four type of access modifier:
 
 3.Explain about `public` Access Modifier.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - If we specify with public the access modifier, the accessibility will be anywhere within or outside the package.
 - We can import the class from any package when it is declared as public.
@@ -50,10 +50,10 @@ There are four type of access modifier:
 
 4.Explain about `private` Access modifier.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - If we specify with private access modifier to any field,the accessibility will be within the class.
 - It is the most retrictive access modifier.
@@ -65,10 +65,10 @@ There are four type of access modifier:
 
 5.Can we use private variables outside the class?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-<details>
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - No, we can't access the private variables outside the class.
 - If we want to use the private variable outside the class, we will have to create public methods to access it.
@@ -81,10 +81,10 @@ There are four type of access modifier:
 
 6.Explain about Protected Access modifier.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 	
 If we specify with protected the access modifier, the accessibility will be within the class and subclasses which are extended from it.
 </blockquote>
@@ -94,10 +94,10 @@ If we specify with protected the access modifier, the accessibility will be with
 
 7.Explain the difference between Private and Protected.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-<details>
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 | Private                                              |Protected                                             |
 |------------------------------------------------------|------------------------------------------------------|
@@ -137,10 +137,10 @@ public class Main {
 }
 ```
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-<details>
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 We can't use private variable outside the class. If we want to access the variable outside the class, we have to use public method such as getter method from the class.
 
@@ -177,10 +177,10 @@ public class Main {
 }
 ```
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-<details>
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 We can't use protected variable outside the class. If we want to access the variable outside the class, we have to use public method such as getter method from the class.
 
@@ -239,16 +239,16 @@ public class Main {
 }
 ```
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
-<details>
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
 **Output**
 ```
 null
 ```
 </details>
-<details>
+<details markdown="1">
     <summary><b> Explanation </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - The output of the program is `null`. The object `dep` for `Department` isn't initialized with any value. Only `emp` object for `Employee` class is initialized.
 - The subclass methods can access `default`, `public`, and `protected` fields.
@@ -301,9 +301,9 @@ public class Main {
 ```
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
-<details>
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 -  The class `Department` is not a public class. We can't import the `default` class.
 -  Also, we can't create two public classes in the same file. We have to create a seperate file and add the department class as public.

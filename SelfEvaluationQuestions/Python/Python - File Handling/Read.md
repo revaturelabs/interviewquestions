@@ -2,9 +2,9 @@
 
 1. How would you create a file in python?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > - In python, we use `open()` built-in function to create a file.
 	
@@ -21,9 +21,9 @@ open("myfile.txt","W+")
 
 2.What is the procedure to open the file in python?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > We can use the same code that we used  to create a file and use `open()` built-in function to create a file.
 	
@@ -37,9 +37,9 @@ open("myfile.txt","r") as fObj6.
 
 3.Write a python program to read an entire text file?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > Consider you have some `.txt file`, the following code is used to read that text file.
 
@@ -56,10 +56,10 @@ file_read('test.txt')
 
 4.How many types of modes are available to open a file? Also, explain what are the uses of those modes?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+<blockquote markdown="1">
 
  - There are four different methods(modes) to open a file,
   
@@ -81,7 +81,7 @@ file_read('test.txt')
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 ```python
 with open("myFile.txt") as fObj:
@@ -98,10 +98,10 @@ with open("myFile.txt") as fObj:
 
 6.What are the file methods used to read the data from a file?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+<blockquote markdown="1">
 
  There are three methods in python to read data from file:
 
@@ -119,10 +119,10 @@ with open("myFile.txt") as fObj:
 
 7.Name two types of data files in python.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+<blockquote markdown="1">
 
 In python, we have two types of data files:
 
@@ -140,7 +140,7 @@ In python, we have two types of data files:
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > To read all the lines from the file, we have so many methods. Following is one of the method.
 
@@ -174,9 +174,9 @@ Line4: world
 
 9.What is the return type of open ()?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > `Open()` method returns a bool value indicating whether the file is opened or some error has occurred. 
 
@@ -190,9 +190,9 @@ Line4: world
 f = open(r, "d:\Python\test.txt")
 ```
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 ```python
 f = open(r, "d:\Python\test.txt")
@@ -206,9 +206,9 @@ f = open(r, "d:\Python\test.txt")
 
 11.What is the difference between the `read()` and `readlines()` methods in python?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > - The `read()` method returns the file's entire contents as a single string value.
 > - The `readlines()` method returns a list of strings, where each string is a line from the file contents.
@@ -219,9 +219,9 @@ f = open(r, "d:\Python\test.txt")
 
 12.Is there any way to read file without opening? Which function is used to open a file?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > - No,we can't read file without opening.
 > - If you want to read a file, open the file first then, use `open()` function to open a file.
@@ -238,14 +238,14 @@ B.The file is automatically closed after leaving the block, and all the resource
 
 C.File reading and writing are faster using the with statement.
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > Option A and B are the correct statements.
 
-<details><summary><b>Explanation</b></summary>
-	<blockquote>
+<details markdown="1"><summary><b>Explanation</b></summary>
+	<blockquote markdown="1">
 
  - The with statement simplifies exception handling by encapsulating common preparation and cleanup tasks.
  - This additionally ensures that a file is automatically closed when leaving the block.
@@ -259,10 +259,10 @@ C.File reading and writing are faster using the with statement.
 
 14.What are the 3 "mode" arguments that may be passed to the `open()` function?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-	<blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+	<blockquote markdown="1">
 
  - `r`,`w` and `a` are the three mode arguments that can be passed to the `open()` function.
 
@@ -280,9 +280,9 @@ C.File reading and writing are faster using the with statement.
 
 15.What type mode is used to Read a Binary file in python?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > In python, we can use `rb` mode in the `open()` function to read a binary file.
 
@@ -294,7 +294,7 @@ C.File reading and writing are faster using the with statement.
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 ```python
 f = open('C:\img.png', 'rb') # opening a binary file
@@ -319,14 +319,14 @@ C.`rw+`
 
 D.`wb+`
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
-	<blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+	<blockquote markdown="1">
 
 - Option C .`rw+`
 
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 
 - r: This mode opens an existing file as read-only mode. The file pointer exists at the beginning.
 
@@ -343,9 +343,9 @@ D.`wb+`
 
 18.How to get the list of files from the directory ?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > `os.listdir()` - This method is used to get all the files from the particular directory.
 
@@ -355,9 +355,9 @@ D.`wb+`
 
 19.How to check whether the given file exists or not?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > Use the `os.path.isfile('file_path')` function to see whether a file exists. Pass the file name or file path to the current to perform as associate degree argument. This returns True if a file is present in the given path. Otherwise, it returns False.
 
@@ -369,7 +369,7 @@ D.`wb+`
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 ```python
 f = open("sales.txt", "r")

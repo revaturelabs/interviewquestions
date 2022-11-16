@@ -2,10 +2,10 @@
 
 1.What is a list in python? Are list and Array same? If not, how list and array are different?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
-  <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+  <blockquote markdown="1">
   
 - List is a part of Collections in python. It has been used to store mulitple items in a single variable. An empty List is created by square brackets [], we can place the elements inside that `[]` separated by commas.     
 - No, list and array both are not same in python. Although, list and array both are used to store elements in it, but still some differences are there:   
@@ -22,10 +22,10 @@
 
 2.What are the methods frequently used when dealing with list in python?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
-  <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+  <blockquote markdown="1">
   
 - [For this type of question, only tell the methods that you have used while working with List because the interviewer might ask the next question based on your response.]   
    
@@ -58,10 +58,10 @@ x) `reverse()` : it reverses the order of elements present in a list.
 
 3.In python, how can you differentiate `pop()`, `remove()` and `del` in list?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>  
-  <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>  
+  <blockquote markdown="1">
   
 i) `del` is a keyword, whereas `remove()` and `pop()` is a method of a list.  
     
@@ -99,9 +99,9 @@ print(l)
 
 4.How can you differentiate `append()`, `insert()` and `extend()` methods of a list in python?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > `append()` can be used when we have to add or insert single element in the end of list.  
     
@@ -135,9 +135,9 @@ print(l)
 
 5.What do you mean by mutable object? what are the mutable and immutable datatypes in python?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Mutable means we can change the values of an object and it will directly reflect back to original object. 
 > Immutable means we can't change the values of an object and it will directly reflect back to original object. 
@@ -149,10 +149,10 @@ print(l)
 
 6.How to iterate over the list of elements? Give a code.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
-  <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+  <blockquote markdown="1">
   
 - To iterate over list in python, we can use any loop.
   
@@ -197,13 +197,13 @@ answer_1=lst[-1]
 print(answer_1)
 ```
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)  
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)  
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > 1001
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > In this code, we are using negative indexing, and so we are getting last element from that list.
   
@@ -214,10 +214,10 @@ print(answer_1)
   
 8.What is the use of `copy()` method? What happens if we directly assign one list to another using `=` operator?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>  
-  <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>  
+  <blockquote markdown="1">
   
 - `copy()` is a built-in method present in the list. Using `copy()`, we can shallow copy a list.  
   
@@ -254,11 +254,11 @@ print(original)    # output: [1, 3, 3, 2, 4]
   
 9.Why do we get `Indexerror: list index out of range` error in python?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
-<blockquote>
+<blockquote markdown="1">
   
 - Sometimes when we try to get the element by index which is not valid i.e the element that we want to access doesn't have index position in the list, then we get the `Indexerror: list index out of range` error. 
   
@@ -289,13 +289,13 @@ B.shan
 C.sandy  
 D.error 
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option b) shan. 
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > `max()` function in python returns the element with the highest value from an iterable. But if the elements of iterable[list, tuple, etc] are strings, then it compares alphabetically and returns the maximum from them. In this code, the first letter of each word is 's', so it checks the 2nd letter of each word and as 'h' is a greater value then 'a', it returns shan as output.
 
@@ -321,13 +321,13 @@ C. l
 D. l  
 &emsp;7   
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option d) l and 7 
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > First, print statement picks the 0th index value which is "Hello", after that for -3 index iterates over hello from the last and prints the 'l' letter from "Hello". The 2nd print statement picks the 1st index value from the list which itself is a list of [2, 5, 7, 9, 3] values, after that it finds the element at index 2 from that list and print its value which is 7. Hence, l and 7 will be printed.
   
@@ -348,13 +348,13 @@ B. new = extend(list1, list2)
 C. new = list1.extend(list2)    
 D. new.extend(list1, list2)    
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Options are (a) and (c). 
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > `extend()` method takes 1 argument as parameter and not 2, so options b) and d) are eliminated there. The '+' operator can also be used to join two list in python.
   
@@ -365,9 +365,9 @@ D. new.extend(list1, list2)
 
 13.Write a program to return duplicate/ repeated items from the List. 
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 ```python  
 list1 = [2, 5, 2, 5, 3]
@@ -386,9 +386,9 @@ print(dup)   # output: [2, 5]
 
 14.Write a program to remove duplicate items from the List.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 ```python  
 list1 = [2, 5, 2, 5, 3]
@@ -404,9 +404,9 @@ print(new)   # output: [2, 5, 3]
 
 15.Write a program to remove all consecutive duplicates from the list.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 ```python
 def solve(l):
@@ -426,9 +426,9 @@ print(solve(list1))
 
 16.Write a program to find the frequency of elements in a list.
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
  
 ```python  
 list1 = ['apple', 'orange', 'apple', 'mango', 'apple', 'orange']
@@ -446,9 +446,9 @@ print(freq)
 
 17.How to take user input in the List in Python?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > There are many ways through which one can take input from user in list:
 
@@ -490,7 +490,7 @@ print(sampleList[-2])
 print(sampleList[-4:-1])
 ```
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 A. 40  
 &emsp;[20,30,40]  
@@ -498,11 +498,11 @@ B. error
 C. lst index out of range  
 D. No output  
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option A.  40  
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > Use the range of negative indexes to search from the end of the list.
   
@@ -513,9 +513,9 @@ D. No output
 
 19.Write a python program to find the max,min number from the list(take input from user).
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-  <details><summary> <b>Show Answer</b> </summary>
+  <details markdown="1"><summary> <b>Show Answer</b> </summary>
     
 ```python
 listlang = []
@@ -549,13 +549,13 @@ C. [10, 20, 30, 40]
 &emsp;[50, 60, 70, 80]  
 D. None of the above  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option B
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > Python list collection is ordered and changeable. The list also allows duplicate members. To get a sublist out of the list, we need to specify the range of indexes.  To get a sublist, we need to specify where to start and where to end the range.
 
@@ -573,11 +573,11 @@ lst=[55, 777, 54, 6, 76, 101, 1, 2, 8679, 123, 99]
 print(lst)
 ```
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
-<details><summary> <b>Hint</b> </summary>
+<details markdown="1"><summary> <b>Hint</b> </summary>
   
 > Use the `.remove()` method and inside parenthesis, we can type the value you’d like to remove.
  
@@ -602,9 +602,9 @@ print(lst)
 
 22.Write a python program to generate a number list between two ranges.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 ```python  
 listnum = list(range(1, 7))
@@ -625,13 +625,13 @@ listnum = [45,67,12,14,56,87]
 list =listnum[::-1]
 print (list)
 ```
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > [87, 56, 14, 12, 67, 45]
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > Here,we are using negative indexing to reverse a list.
   
@@ -642,9 +642,9 @@ print (list)
 
 24.Can you write a piece of code for intersecting two list?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 ```python  
 listnum = ['C++',2,3,6,7,5,'C#']
@@ -672,13 +672,13 @@ B. Hello-Python
 C. -HelloPython  
 D. None of the above
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > option b
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
 
 > The join() method will join all items in a list into a string, using a hyphen character as a separator.
   

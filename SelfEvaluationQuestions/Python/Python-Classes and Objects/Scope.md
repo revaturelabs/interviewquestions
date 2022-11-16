@@ -3,9 +3,9 @@
 
 1. What do you mean by global scope in python?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > The object name that is defined in a main program or in a module comes under global scope. They could be used outside any function or block of code. It can access the built-in namespace objects. 
 </details>
@@ -13,9 +13,9 @@
 ---
 2. What do you mean by local scope in python?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > The variable names defined in a class, function, loop or in any block of code comes under local scope. In python, these variables cannot be accessed by outer Namespace. Local namespace can access the global namespace objects and built-in namespace. 
 </details>
@@ -43,12 +43,12 @@ c) 40
 d) 40    
 &emsp;40   
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > option is d) 
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > Before method calling, the first print statement prints the value of global variable i.e 40. And when the show() method is called, the print statement present inside will also print the value of x as 40 not 20, because x= 20 is a class variable which must be accessed by using classname before variable name. Therefore, it will also take the global variable value i.e 40 in this case.
   </details>
@@ -77,12 +77,12 @@ c) 40
 d) 40    
 &emsp;10   
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option a)
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > When this code is executed, it will execute the print statement, which is outside the class. That print statement access the class variable using class name and hence 10 will be printed. When show() method is called, it prints the value of x as 40 because it is accessing the global variable. 
   </details>
@@ -111,12 +111,12 @@ c) 40
 d) 40    
 &emsp;10   
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option c)
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > When this code is executed, it will first print the value of global variable 'x' as 40. After that, when show() method is called, it will print the value of instance variable 'x' as 20.
   </details>
@@ -141,12 +141,12 @@ b) 10
 c) 20  
 d) 5  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option b)
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > The above code will print 10 as an output, because inside show() method, the print statement prints the value of current instance of the class, which is x=10. Here, x= 20 is a local variable of show() method, and therefore it is not printed.
   </details>
@@ -170,12 +170,12 @@ b) 10
 c) Error  
 d) Nothing is printed  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option c)
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > As self is not defined outside the class, we get the `NameError`. 
   </details>
@@ -187,12 +187,12 @@ d) Nothing is printed
 a) True  
 b) False  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option b)
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > When we assign a value to a variable inside the function, it becomes a local variable not global. 
   </details>
@@ -206,12 +206,12 @@ b) The local variable is shadowed
 c) The global variable is shadowed  
 d) None of the above  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option c)
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
  
 > In python, if both global and local variable having the same name and we have to access them at the same time, in that situtaion your code will access the local variable.  
 </details>

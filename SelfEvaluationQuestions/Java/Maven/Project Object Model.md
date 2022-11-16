@@ -2,11 +2,11 @@
 
 1. What is POM?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
 
- <blockquote>
+ <blockquote markdown="1">
     
 - Project Object Model -Which is a fundamental unit of work in Maven.
 - Which resides in the base directory of the project as `pom.xml` file.
@@ -19,11 +19,11 @@
 
 2. What will be stored in pom.xml file?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
   
- <blockquote>
+ <blockquote markdown="1">
 
 - pom.xml file will store the project structure and instructtions for Maven to build the project such as dependencies, source code,plugins, goals 
   etc.
@@ -38,11 +38,11 @@
 
 3. List the most common terms encountered while using Maven.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
  
- <blockquote>
+ <blockquote markdown="1">
 
 - `groupId` - which is a domain ID, identifies the project uniquely.
 - `artifactId` - It is the name of the jar without version.
@@ -57,11 +57,11 @@
 
 4. What is the commanly used requirement of a POM?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
   
-<blockquote>
+<blockquote markdown="1">
 
 - Project root
 - Model version
@@ -77,11 +77,11 @@
 
 5. Explain about super POM.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<blockquote>
+<blockquote markdown="1">
   
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
 
 - It is the Maven's default POM.All POMs inherited from base or parent POM called Super POM.
 - Which contains values inherited by default.
@@ -94,12 +94,12 @@
 
 6. How to view the default configuration of super POM?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
-<blockquote>
+<blockquote markdown="1">
   
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
 
 By running the command ` mvn help:effective-pom ` we can view the default configuration of super POM.
 
@@ -111,11 +111,11 @@ By running the command ` mvn help:effective-pom ` we can view the default config
 
 7. How does a basic POM look like?
   
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<blockquote>
+<blockquote markdown="1">
   
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
 
 
 ``` java
@@ -127,7 +127,7 @@ By running the command ` mvn help:effective-pom ` we can view the default config
 </project>
 ```
 
-<blockquote>
+<blockquote markdown="1">
   
 </details>
 
@@ -135,11 +135,11 @@ By running the command ` mvn help:effective-pom ` we can view the default config
 
 8. Where does pom.xml file resides?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
  
-<blockquote>
+<blockquote markdown="1">
 
 pom.xml file resides in `projects root-folder`.
   
@@ -152,11 +152,11 @@ pom.xml file resides in `projects root-folder`.
 
 9. How can you run a pom.xml file manually?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
-<blockquote>
+<blockquote markdown="1">
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
 
 To run a pom.xml file `right-click the pom. xml file and select Run As Maven build`.
   
@@ -169,11 +169,11 @@ To run a pom.xml file `right-click the pom. xml file and select Run As Maven bui
 
 10. What is Maven dependency?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
   
-<blockquote>
+<blockquote markdown="1">
 
 A project should have dependency to compile, build, test and run , which is collectively present in pom.xml file.
   
@@ -186,12 +186,12 @@ A project should have dependency to compile, build, test and run , which is coll
 
 11. Explain about Maven plugins.
   
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
   
 
-<blockquote>
+<blockquote markdown="1">
   
   - Any action performed on a project is implemented as a Maven plugin.
   - whcih is used to create jar files, create war files, compile code, unit test code, create project documentation etc.
@@ -207,9 +207,9 @@ A project should have dependency to compile, build, test and run , which is coll
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
   
- <blockquote>
+ <blockquote markdown="1">
   
  - A mojo is a Maven plain Old Java Object. Each mojo is an executable goal in Maven, and a plugin is a distribution of one or more related mojos.
  - It is a goal in Maven, a plug-in can have any number of goals.
@@ -223,11 +223,11 @@ A project should have dependency to compile, build, test and run , which is coll
 
 13. Explain about Snapshot.
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
   
- <blockquote>
+ <blockquote markdown="1">
 
 - It is a special version of a Maven package that refers to the latest production branch code. It is a development version that precedes the final release version. 
 - We can identify a snapshot version of a Maven package by the suffix SNAPSHOT that is appended to the package version.
@@ -240,11 +240,11 @@ A project should have dependency to compile, build, test and run , which is coll
 
 14. List the type of plug-ins used in Maven.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer </b></summary>
+<details markdown="1"><summary><b> Show Answer </b></summary>
   
-<blockquote>
+<blockquote markdown="1">
   
 - **Build plugins**-which is executed during the build and they should be configured in the <build/> elements from the POM.
 - **Reporting plugins**-which is executed during the site generation and they should be configured in the <reporting/> elements from the POM.

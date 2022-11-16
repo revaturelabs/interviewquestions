@@ -2,11 +2,11 @@
 
 1. What is DispatcherServlet in the Spring MVC application?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - In the case of Spring MVC, DispatcherServlet is the front controller. 
 - DispatcherServlet acts as an entry and exit point for any request received by the rom client. 
@@ -18,11 +18,11 @@
 
 2. How DispatcherServlet handle requests &responses in the Spring MVC application?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Whenever a request comes it first goes to the DispatcherServlet where it then tries to identify its handler method (the methods defined in the specific controller to handle the requests) using Handler mapping.
 - Once the handler mapping returns the controller the DispatcherServlet knows the controller which can handle the request and goes there for further request processing.
@@ -36,11 +36,11 @@
 
 3. How Spring MVC DispatcherServlet is registered in the web.xml file?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Since DispatcherServlet is one type of Servlet the web.xml file configuration is the same as normal servlet.
 - Additionally, as DispatcherServlet is our front controller we need to ensure that all the incoming requests should be routed to it using "/" url pattern.
@@ -64,11 +64,11 @@
 ---
 4. How to change the default context path URL pattern of DispatcherServlet in Spring MVC?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - It's very simple, we need to change two properties inside the application.properties file.
 ```
@@ -85,11 +85,11 @@ spring.mvc.servlet.path=/v2
 
 5. Can we have one `@RestController` class with multiple `@GetMapping` methods?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Yes, we can have one `@RestController` class with multiple `@GetMapping` methods.
 - Defining not only Get but any HTTP method-compliant mappings purely depend on the context of the application and its use cases.
@@ -119,11 +119,11 @@ public class UserRestController{
 ---
 6. How do you ensure both "/" and "/welcome" request mappings land in the "index" view in Spring MVC applications?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - `@RequestMapping` annotation in Spring MVC has a String[] value parameter, so we can specify multiple values like the below to return the index view of the rom controller class as below:
 ```java
@@ -139,11 +139,11 @@ public String homePage(){
 ---
 7. Can @Controller annotation be used for both Spring MVC and RESTful applications?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Yes, @RestController is a convenience annotation that does nothing more than the @Controller and @ResponseBody annotations.
 - Hence the following two controller definitions are the same:
@@ -167,11 +167,11 @@ public class RestControllerB {
 ---
 8. What does @Controller & @RestController returns?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - @Controller returns a view in the Spring MVC application.
 - @RestController returns an object as a response instead of a view.
@@ -182,11 +182,11 @@ public class RestControllerB {
 ---
 9. What is the use of @ResponseBody in Spring?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - @ResponseBody is a Spring annotation which binds a method return value to the web response body. 
 - It is not interpreted as a view name. 
@@ -198,11 +198,11 @@ public class RestControllerB {
 ---
 10. What are MIME Types?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - MIME stands for Multi-purpose Internet Mail Extensions. 
 - MIME types form a standard way of classifying file types on the Internet. 
@@ -218,11 +218,11 @@ public class RestControllerB {
 ---
 11. What is the use of `@RequestBody` in Spring?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - `@RequestBody` annotation request body to method parameters. 
 - We use the `@RequestBody` annotation to have the request body read and deserialized into an Object through an `HttpMessageConverter`. 
@@ -234,11 +234,11 @@ public class RestControllerB {
 ---
 12. What is the meaning of Content Negotiation?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Content negotiation is the process of selecting one of the multiple possible representations to return to a client, based on client or server preferences.
 - When a consumer sends a request, it can specify two HTTP Headers related to Content Negotiation `Accept` and `Content-Type`.
@@ -251,11 +251,11 @@ public class RestControllerB {
 ---
 13. What is RESTprotocol-dependentependent?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - REST is about resource state manipulation through their representations at the top of stateless communication between client and server. 
 - It's a protocol-independent architectural style but, in practice, it's commonly implemented on top of the HTTP protocol.
@@ -266,11 +266,11 @@ public class RestControllerB {
 ---
 14. What are “representation", "state" and "transfer" in Representational State Transfer (REST)?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
 
 - To understand REST let us first understand the-    
   - What is a `resource`- 
@@ -288,11 +288,11 @@ public class RestControllerB {
 ---
 15. What is REST API versioning? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - API versioning is the process of transparently managing changes to your API.
 - Versioning aims at effective communication around changes to API, so consumers/subscribers know what to expect from it. 
@@ -303,11 +303,11 @@ public class RestControllerB {
 ---
 16. How do we provide a version to RESTful APIs in Spring?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - APIs only need to be up-versioned when a breaking change is made. Breaking changes include:
   - Change in the format of the response data for one or more calls
@@ -341,11 +341,11 @@ public class ControllerV2 {
 ---
 17. Which object is used as a base context in the Spring MVC application? Why?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - `WebApplicationContext` object is used as the base object in the Spring MVC application.
 - WebApplictionContext is an extension of ApplicationContext `public interface WebApplicationContext extends ApplicationContext`.
@@ -361,11 +361,11 @@ public class ControllerV2 {
 ---
 18. What is the difference between `applicationContext.xml` and `*-servlet.xml` in Spring Framework?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - `applicationContext.xml` defines the beans that are shared among all the servlets. 
 - If our application has more than one servlet, then defining the common resources in the `applicationContext.xml` would make more sense.

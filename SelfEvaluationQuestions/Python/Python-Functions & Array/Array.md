@@ -2,9 +2,9 @@
 
 1.What is dynamic Arrays and how is it different from basics Arrays?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
  
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > - Dynamic arrays (also known as a growable array, resizable array or mutable array ) offer a big improvement, i.e., automatic resizing. 
 > - An array has a fixed size.So,you always have to specify the number of elements your array will hold ahead of time. However, a dynamic array expands as you add more elements to it and you need not determine the size ahead of time.
@@ -15,10 +15,10 @@
   
 2.What is the difference between an `array` and a `dictionary`?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
-<blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+<blockquote markdown="1">
   
 **Arrays**:
 
@@ -41,9 +41,9 @@
   
 3.How will you access individual elements in an Array? State an Example.
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > In python, index numbers are used for accessing individual elements in an array.
   
@@ -57,7 +57,7 @@ print(x)
 
 > Fan
 
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > In the above program, index numbers are used and the index numbers starts from 0 and ends with n-1.
   
@@ -68,9 +68,9 @@ print(x)
   
 4.Write a python program to find the largest and smallest numbers in an array.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 ```python
 arr = []
@@ -111,13 +111,13 @@ Smallest element in array is 304
   
 5.How can a particular value be changed using index in python?
 	
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
      
 > `Yes`, the values can be changed using index numbers.
 
-<details><summary> <b>Example</b> </summary>   
+<details markdown="1"><summary> <b>Example</b> </summary>   
    
 ```python    
 Juice = ["Fanta", "Vicks", "Bovento"]
@@ -136,9 +136,9 @@ print(Juice)
   
 6.Mention some advantages and disadvantages of Arrays.
 	
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 **Advantages**:
 
@@ -156,9 +156,9 @@ print(Juice)
   
 7.Write a python Program to remove duplicates from Array.
 	
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 ```python
 def Remove(duplicate):
@@ -175,7 +175,7 @@ print(Remove(duplicate))
   
 [2, 4, 10, 20, 5]  
   
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
    
 > - We have a numbers of ways to solve these types of problems. We have opted for only one approach.  
 > - We can use `not in` in the list to find out the duplicate items. We create a result list and insert only those that are not already 'not in'. 
@@ -187,10 +187,10 @@ print(Remove(duplicate))
   
 8.Mention some of the built-in methods that you can use on lists/arrays.  
 	
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
- <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+ <blockquote markdown="1">
   
  1.`append()` Adds an element at the end of the list
   
@@ -215,9 +215,9 @@ print(Remove(duplicate))
   
 9.Write a python code to add an element at the end of `array`(list).
 	
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 ```python
 arr = [1,2,3,4,5]
@@ -238,10 +238,10 @@ Array after inserting 56 at end [1, 2, 3, 4, 5, 56]
   
 10.Does python have built-in support for Arrays?
 	
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)	
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)	
 
-<details><summary> <b>Show Answer</b> </summary>
-	 <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+	 <blockquote markdown="1">
 
  - Python does not have `built-in` support for Arrays.
  - But in python, `Lists` can be used instead of Arrays.
@@ -261,9 +261,9 @@ print(fruits)
   
 11.Write a python Program to find a missing number in array.
 	
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 ```python
 arr = []
@@ -302,13 +302,13 @@ Enter element of array : 2
 	
  D.pipes ||
 	
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option A.`brackets[]`
 	
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
 
 > For `declaring an array we can use brackets[]`.
   
@@ -327,13 +327,13 @@ Enter element of array : 2
 	
  D.`logarithmically`
 	
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
    
 > Option A.`randomly`
    
-<details><summary> <b>Explanation</b> </summary>  
+<details markdown="1"><summary> <b>Explanation</b> </summary>  
    
 > Elements in an array are accessed randomly. In Linked lists, elements are accessed sequentially.
 
@@ -344,9 +344,9 @@ Enter element of array : 2
   
 14.Write a Program to check if two arrays are equal in Python.
 	
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 ```python  
 arr1=[1,2,3,4,5]
@@ -367,7 +367,7 @@ else:
     
 15.Write a python program to find the sum of `array` (list) elements.
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 ```python
 size=int(input("Enter the number of elements: "))
@@ -402,7 +402,7 @@ Sum of array elements =  1571
 	
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 ```python
 from array import *
@@ -410,7 +410,7 @@ array_num = array('i', [1, 3, 5, 3, 7, 9, 3])
 print("Array: "+str(array_num))
 print("Number of occurrences: "+str(array_num.count(3)))
 ```
-<details><summary> <b>Output</b> </summary>  
+<details markdown="1"><summary> <b>Output</b> </summary>  
   
 > Array: array('i', [1, 3, 5, 3, 7, 9, 3])
   
@@ -425,7 +425,7 @@ print("Number of occurrences: "+str(array_num.count(3)))
 	
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>  
+<details markdown="1"><summary> <b>Show Answer</b> </summary>  
 
 ```python
 size=int(input("Enter the number of elements: "))
@@ -468,10 +468,10 @@ arr2 = [i for i in arr1]
 print(arr2)
 ```
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)	
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)	
 	
-<details><summary> <b>Show Answer</b> </summary> 
-<blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
+<blockquote markdown="1">
   
 arr2 = [i for i in arr1]
 
@@ -484,9 +484,9 @@ NameError: name `arr1` is not defined
   
 19.Write a Python program to create an array that contains only six integers and also to print all the members of the array.
 	
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>    
+<details markdown="1"><summary> <b>Show Answer</b> </summary>    
   
 ```python
 from array import array
@@ -523,9 +523,9 @@ for i in my_array:
 	
  D.Would add "May" to the list called "append"
 	
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>   
+<details markdown="1"><summary> <b>Show Answer</b> </summary>   
   
 > Option C.Would add "May" to the list called "names"
   

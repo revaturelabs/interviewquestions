@@ -2,9 +2,9 @@
 
 1. What is Assertions?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
 >- It is to compare the actual result and excepcted result to evaluate whether the executed testcase is pass or fail.
   <img width="708" alt="Capture2" src="https://user-images.githubusercontent.com/92523245/184349147-a2fcf3a9-99c8-4e43-b247-f8f968f307fe.PNG">
@@ -19,9 +19,9 @@
 
 2. List all the default assert methods in JUnit.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
 >- `assertEquals`
 >- `assertArrayEquals`
@@ -38,9 +38,9 @@
 
 3. What happens if assertion fails when it is executed?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
 >JVM throws an error called <b>AssertionError</b> when the assertion fails while executing.
 
@@ -50,11 +50,11 @@
 
 4. Write the syntax for declaring the assert methods.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 Assert methods should be with boolean expression in two different ways:
 
@@ -69,11 +69,11 @@ Assert methods should be with boolean expression in two different ways:
 
 5. Write the syntax for enabling assertion statement in Java source code.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 By default assertions methods are disbled. To make it enabled need to run the below code
  `java –ea Test` or `java –enableassertions Test`
@@ -86,11 +86,11 @@ By default assertions methods are disbled. To make it enabled need to run the be
 
 6. What should we do,if we want to check all the asserts in a testcase even if asserts fails in execution?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - We can use `assertAll` method to ensure that all asserts are checked.
 - <b>Example:</b>
@@ -105,9 +105,9 @@ void groupedAssertions() {
 }
 ```
 </blockquote>
-<details><summary> Explanation </summary>
+<details markdown="1"><summary> Explanation </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 The two assertEquals method will exceute even if a assert fails , because of assertAll method in the testcase.
 
@@ -121,11 +121,11 @@ The two assertEquals method will exceute even if a assert fails , because of ass
 
 7. How to disable assertions using a command?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 Use the below command to disable assertions 
 
@@ -142,19 +142,19 @@ Or
 ---
 8. Can we catch an assertion error?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 Yes 
 
 </blockquote>
 
-<details><summary> Explanation </summary>
+<details markdown="1"><summary> Explanation </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 By declaring the assertion statement in the try block with the message to be displayed and catch the assertion error in the catch block.
 
@@ -168,11 +168,11 @@ By declaring the assertion statement in the try block with the message to be dis
 
 9. Differentiate between assertions and exception handling.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - An exception is an abnormal event that occurs during the execution of the program and disrupts the normal flow of the program. 
 - Assertion enables you to test your assumptions about the program logic, contains a boolean expression  will be true when the program executes. If it is not true,   the JVM will throw an `AssertionError`.
@@ -187,10 +187,10 @@ By declaring the assertion statement in the try block with the message to be dis
 
 10. What is the output of the program?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 
-<blockquote>
+<blockquote markdown="1">
 
 ``` java
 
@@ -206,17 +206,17 @@ public class Test
 ```
 </blockquote>
 
-<details><summary> Show Answer </summary>
+<details markdown="1"><summary> Show Answer </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 Compilation Fails
 
 </blockquote>
 
-<details><summary> Explanation </summary>
+<details markdown="1"><summary> Explanation </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 We can't use the Assert statement as like ternary operator.Returns `incompatible types: bad type in conditional expression`.
 

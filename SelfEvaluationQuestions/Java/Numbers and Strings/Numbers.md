@@ -2,10 +2,10 @@
 
 1.How to find the maximum and minimum value of a datatype?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - To find the maximum value of a data type, we have to use the corresponding wrapper class and their staic variable `MAX_VALUE`.
 - For minivalue, we can use `MIN_VALUE`.
@@ -31,10 +31,10 @@ public class Main {
 
 2.Explain about type casting.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - Type casting is the process of changing variable from one datatype to another datatype.
 - Type casting is possible for both primitive and reference type.
@@ -47,10 +47,10 @@ public class Main {
 
 3.Explain about Widening casting.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - Widening casting also called implicit type casting is the process changing from smaller datatype to larger datatype.
 - The convertion is done automatically.
@@ -73,10 +73,10 @@ public class Main {
 
 4.Explain about Narrowing casting.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 - Narrowing casting also called explicit type casting is the process changing from larger datatype to smaller datatype.
 - The convertion is done manually. We have specify the datatype.
@@ -98,10 +98,10 @@ public class Main {
 
 5.Can we convert `char` to `int` with exact numeric value of `char`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 Yes, we can convert `char` to `int` with exact numeric value using wrapper class.
 ``` java
@@ -121,10 +121,10 @@ In the above code, the method `Character.getNumericValue(c)` gets the numeric va
 
 6.Why don't we create object to use `Character.getNumericValue()`?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-<details>
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 `getNumericValue` is a static method of `Character` wrapper class. For static methods, we don't need objects to access it. 
 </blockqoute> 
@@ -134,11 +134,11 @@ In the above code, the method `Character.getNumericValue(c)` gets the numeric va
 
 7.How will you assign the number from `char` to `int` without using wrapper classes in java?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
   -  If we directly assign the value of `char` to `int`, it will assign the ASCII value. Therefore we have subract `48` to get the integer value.
 	

@@ -3,13 +3,13 @@
 
 1. What is List Interface?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
  
 - A list is an ordered collection of elements. 
 - Duplicate elements are allowed in the list. 
@@ -28,12 +28,12 @@ List <E> l ;
 
 2. List out basic List operations.
  
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
- <blockquote>
+ <blockquote markdown="1">
 
 Along with the operations inherited from the collection interface, the list has the following operations:
 1. Positional Access: Accessing an element by its index.
@@ -59,13 +59,13 @@ Along with the operations inherited from the collection interface, the list has 
  ---
 3. What are the different classes that comes under the list Interface?
  
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
  
- <blockquote>
+ <blockquote markdown="1">
 
 ![List](https://user-images.githubusercontent.com/103101208/184803641-121edcef-9b78-413a-9f3e-a90f15373eea.jpg)
 
@@ -84,12 +84,12 @@ Along with the operations inherited from the collection interface, the list has 
 
 4. What is `ArrayList` and explain the internal working of an `ArrayList`?
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
- <blockquote>
+ <blockquote markdown="1">
 
 - `ArrayList` is a dynamic array and it implements the list interface.
 
@@ -112,9 +112,9 @@ Along with the operations inherited from the collection interface, the list has 
 
 5. What is `LinkedList` and explain the internal working of LinkedList?
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 
@@ -129,13 +129,13 @@ Along with the operations inherited from the collection interface, the list has 
 
 6. How to add a single element at the end of the list?
  
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 1. <code>add(element)</code> method is used to add single element at the end of the list.
 
@@ -155,13 +155,13 @@ al.add(1);
 
 7. How to add bulk elements to the list?
  
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 
- <blockquote>
+ <blockquote markdown="1">
 1. addall method is used to add bulk elements to the list.
 
 ``` java
@@ -189,9 +189,9 @@ al2.addAll(0,al2);
 
 8. How to retrieve an element from a specific position in a list?
  
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 
@@ -203,9 +203,9 @@ al2.addAll(0,al2);
 
 9. What is a `Vector` and how does a `Vector` work internally?
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 
@@ -220,9 +220,9 @@ al2.addAll(0,al2);
 
 10. What is Stack and what are the different stack operations?
  
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 > -  `Stack` follows the Last in First out principle
@@ -241,9 +241,9 @@ al2.addAll(0,al2);
 
 11. When to use ArrayList and LinkedList?
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 
@@ -255,7 +255,7 @@ al2.addAll(0,al2);
 > - linear access: The time complexity is proportional to the size of the data structure.
 
 </i> 
-<blockquote>
+<blockquote markdown="1">
 
 | `ArrayList`                                                                            | `LinkedList`                                                                                                                                                                 |
 | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -271,20 +271,20 @@ al2.addAll(0,al2);
 
 12. Which of the following is the non-synchronized version of the vector?
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 A. `ArrayList`<br>
 B. `LinkedList`<br>
 C. `Stack`<br>
 D. `ArrayDeque`
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 
 > A
 
-<details>
+<details markdown="1">
 
 <summary><b>Explanation</b></summary>
 
@@ -298,19 +298,19 @@ D. `ArrayDeque`
 
 13. What is the best case time complexity of <code>add(element)</code> method for `ArrayList`?
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 A. O(n)<br>
 B. O(1)<br>
 C. O(log n)<br>
 D. O(n <sup>2</sup>)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 > B
 
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
 
 > As elements are added to the end of the `ArrayList`, the time complexity is O(1)
@@ -323,19 +323,19 @@ D. O(n <sup>2</sup>)
 
 14. What is the complexity of <code>add(index,element)</code> method for `ArrayList`?
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 A. O(n)<br>
 B. O(1)<br>
 C. O(log n)<br>
 D. O(n <sup>2</sup>)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 > A
 
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
 
 > Since the element can be added at any specific index, most of the elements in the list are shifted to insert the new element. On average, the time complexity is O(n).
@@ -347,19 +347,19 @@ D. O(n <sup>2</sup>)
 
 15. What is the time complexity of <code>get(index)</code> method for `ArrayList`?
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 A. O(n)<br>
 B. O(1)<br>
 C. O(log n)<br>
 D. O(n <sup>2</sup>)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 > B
 
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
 
 > In an `ArrayList` the elements can be accessed directly by their position. So, the time complexity is O(1).
@@ -371,19 +371,19 @@ D. O(n <sup>2</sup>)
 
 16. What is the time complexity of <code>remove()</code> method for `ArrayList`?
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 A. O(n)<br>
 B. O(1)<br>
 C. O(log n)<br>
 D. O(n <sup>2</sup>)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 > A
 
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
 
 > To remove an element, the entire array is traversed and after finding the element, the element is deleted. So, the time complexity is O(n).
@@ -395,19 +395,19 @@ D. O(n <sup>2</sup>)
 
 17. What is the time complexity of <code>indexOf(element)</code> method for `ArrayList`?
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 A. O(n)<br>
 B. O(1)<br>
 C. O(log n)<br>
 D. O(n <sup>2</sup>)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 > A
 
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
 
 > In the worst-case scenario, the element is the last element and the entire `ArrayList` should be traversed to get the position of the element. So, the time complexity is O(n).
@@ -419,19 +419,19 @@ D. O(n <sup>2</sup>)
 
 18. What is the time complexity of <code>contains(element)</code> method for `ArrayList`?
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 A. O(n)<br>
 B. O(1)<br>
 C. O(log n)<br>
 D. O(n <sup>2</sup>)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 
 > A
 
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
 
 > <code>contains(element)</code> implementation is similar to <code>indexOf(element)</code>. So, the time complexity is O(n).
@@ -444,7 +444,7 @@ D. O(n <sup>2</sup>)
 
 1. <b>Problem Statement:</b>size, list of sorted elements and a key are given as input. Write a program to print the indexes of all the occurrences of a key in the `List` with the time complexity of O(n). 
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 <b>Sample Input:</b>
 - 7
@@ -460,11 +460,11 @@ D. O(n <sup>2</sup>)
 - line 3 is the key element which is 2.
 - Output is the indices of all the occurrences of 2(key).
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 
- <blockquote>
+ <blockquote markdown="1">
   
 ``` java
 
@@ -511,20 +511,20 @@ public class Collections {
 
 1. Dora is going for an adventure and she needs a backpack to carry all her items (more than one copy of the item may exist) and she might buy some items on the way and store it in her backpack. She wants to get items immediately from her backpack when she needs them. So, the backpack should be resizable and elements can be accessed in constant time. which of the following is the best option?
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 A. `LinkedList` <br>
 B. `ArrayList` <br>
 C. `HashSet`<br>
 D. None of the Above
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 
 > B
 
-<details>
+<details markdown="1">
 
 <summary><b>Explanation</b></summary>
 
@@ -538,20 +538,20 @@ D. None of the Above
 
 2. Indiana Jones is going for a treasure hunt and he needs a backpack to store the valuable items throughout his journey. If he finds out that an item he stored in the backpack is fake, he takes it and throws it away, and he never takes any item out of his back till the journey ends. Which of the following is the best option?
  
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+ ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 A. `LinkedList` <br>
 B. `ArrayList` <br>
 C. `HashSet`<br>
 D. None of the Above
 
-<details>
+<details markdown="1">
 
 <summary><b>Show Answer</b></summary>
 
 > A
 
-<details>
+<details markdown="1">
 
 <summary><b>Explanation</b></summary>
 

@@ -2,9 +2,9 @@
 
 1.What is the use of Custom Exceptions?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
   
 >  - When we create our own exceptions that are derived classes of the `Exception` class is known as custom exception or user-defined exception. 
 >  - Custom exceptions are used to customize the exception according to the user needs.
@@ -15,9 +15,9 @@
 
 2.Why we use custom exceptions?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
   
 > - Custom Exception are used to catch and provide specific treatment to a subset of existing Java exceptions.
 > - We also have exceptions related to business logic and workflow. 
@@ -31,7 +31,7 @@
 
 3.Predict the output of the following code.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
  ``` java 
 class InvalidAgeException  extends Exception  
@@ -64,9 +64,9 @@ public class CustomException1
     }  
 }  
 ```
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
   
  ```java
 Exception occured:InvalidAgeException:An individual age is not eligible to vote
@@ -74,7 +74,7 @@ Exception occured:InvalidAgeException:An individual age is not eligible to vote
   
 </blockquote>
   
-<details><summary><b> Explanation</b></summary>
+<details markdown="1"><summary><b> Explanation</b></summary>
   
 >Constructor of InvalidAgeException takes a string as an argument. This string is passed to constructor of parent class Exception using the super() method. Also the constructor of Exception class can be called without using a parameter and calling super() method is not mandatory.
   
@@ -85,7 +85,7 @@ Exception occured:InvalidAgeException:An individual age is not eligible to vote
 
 4.Predict the output of the following code.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
  ``` java 
 class CustomException extends Exception {
@@ -114,9 +114,9 @@ public static void main(String args[]) {
  }
 }
 ```
-<details><summary><b> Show Answer</b></summary>
+<details markdown="1"><summary><b> Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
   
 ```java
 Called compute(55)
@@ -127,7 +127,7 @@ Caught MyException[101]
   
 </blockquote>
 
-<details><summary><b> Explanation</b></summary>
+<details markdown="1"><summary><b> Explanation</b></summary>
   
 >A subclass of Exception called CustomException is defined. This subclass is quite simple: it has only a constructor plus an overloaded `toString( )` method that
 displays the value of the exception. The CustomDemo class defines a method named `validate( )` that throws a CustomException object. The exception is thrown when`validate( )` integer parameter is greater than 100. The `main( )` method sets up an exception handler for CustomException, then calls `validate( )`  with a legal value (less than 100) and an illegal one to show both paths through the code.

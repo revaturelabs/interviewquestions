@@ -1,9 +1,9 @@
 1. What is containerization?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Containerization is a process of packaging an application code along with its required libraries, frameworks, and configuration files so that it can be run efficiently and seamlessly in any environment.
 
@@ -14,10 +14,10 @@ Containerization is a process of packaging an application code along with its re
 
 2. What are the advantages of containerization?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - Quick software development
 - Easy software delivery
@@ -29,10 +29,10 @@ Containerization is a process of packaging an application code along with its re
 
 3. What is Docker?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Docker is a very popular containerization platform which packages our application along with its dependencies in the form of containers so that our application can work seamlessly in any environment, be it development , test, or production.
 
@@ -43,10 +43,10 @@ Docker is a very popular containerization platform which packages our applicatio
 
 4. Explain ab Docker Registry?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - It's a remote repository where docker images can be stored.
 - Two types of registry are there: public e.g., Docker hub , private
@@ -58,10 +58,10 @@ Docker is a very popular containerization platform which packages our applicatio
 
 5. How to access public registry?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - Using the command `docker login`.
 - We need to use Docker login to access public registry. Before that we need to create an account at **http://hub.docker.com** so that we will get username and password. we can use that to access .
@@ -73,10 +73,10 @@ Docker is a very popular containerization platform which packages our applicatio
 
 6. Do you need to login to public registry to pull the images?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 No, we can pull the images from the Docker hub without login. But to push the images to Docker hub then login is needed.
 
@@ -87,10 +87,10 @@ No, we can pull the images from the Docker hub without login. But to push the im
 
 7. How to access private registry?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - Using the command `docker login <Private Registry URL>`.
 
@@ -101,10 +101,10 @@ No, we can pull the images from the Docker hub without login. But to push the im
 
 8. What is Docker image?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - A Docker image is a read-only template that contains source code, libraries, dependencies, and a set of instructions for creating a container.
 - Also Docker image is an immutable.
@@ -117,10 +117,10 @@ No, we can pull the images from the Docker hub without login. But to push the im
 
 9. What is Docker Container?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - Container is a running instance of the image.
 - Every time we start a new container an extra writeable layer is created for it.
@@ -132,10 +132,10 @@ No, we can pull the images from the Docker hub without login. But to push the im
 
 10. Is there any dependency between Docker image and container?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - Docker image has no dependency on Docker container. Because we can install Docker image and it is okay if we do not run a container from it.
 - On the other hand, Docker container has dependency on Docker image. Let's suppose we need to run Tomcat Docker container , for that we need to pull Tomcat Docker image without that image we cannot run the container.
@@ -147,10 +147,10 @@ No, we can pull the images from the Docker hub without login. But to push the im
 
 11. Suppose host server has 2 GB space and your image size is 500 MB, then is it possible to run more than 4 containers of this image on the host?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Yes, we can create multiple containers from the same image. As the image is made up of Read-only layers , none of the container can modify it. But each container has got the writable layer, where container specific changes can be stored.
 
@@ -161,10 +161,10 @@ Yes, we can create multiple containers from the same image. As the image is made
 
 12. In which language Docker is written and how to check Docker version?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - Docker is written in Golang.
 -Command to check Docker version is `docker -v`.
@@ -176,10 +176,10 @@ Yes, we can create multiple containers from the same image. As the image is made
 
 13. What are the different ways to create Docker images?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 There are two ways to create Docker images
 
@@ -193,10 +193,10 @@ There are two ways to create Docker images
 
 14. How to search and pull any Docker image in local system ?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 In two ways we can do it.
 
@@ -210,10 +210,10 @@ In two ways we can do it.
 
 15. Suppose I want to pull a **alpine-git** image and **alpine** image is already installed then will Docker download a full or partial **alpine-git** image?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Docker will not download any already available layer of **alpine-git**.
 
@@ -224,10 +224,10 @@ Docker will not download any already available layer of **alpine-git**.
 
 16. How to check details about each layer in a Docker image like size, task done, timestamp?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 The command to get the required details about each layer is `docker history <ImageName/Id>`.
 
@@ -238,10 +238,10 @@ The command to get the required details about each layer is `docker history <Ima
 
 17. How to remove dangling images and why is it useful ?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - Dangling images are those unused images which are not associated with any of the container.
 - Frequent cleanup of these images is very important to keep our disk space free.
@@ -254,10 +254,10 @@ The command to get the required details about each layer is `docker history <Ima
 
 18. How to run a container in interactive and daemon mode?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - The command is `docker run -itd --name test<ImageName>`.
   - -it for interactive mode.
@@ -270,10 +270,10 @@ The command to get the required details about each layer is `docker history <Ima
 
 19. How to check the details about a container ?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - The command is `docker inspect <ContainerName/Id>`.
 
@@ -284,10 +284,10 @@ The command to get the required details about each layer is `docker history <Ima
 
 20. Is it possible to create container's writable layer without running a docker container?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - Yes, using docker create command.
 - For e.g., **docker create -it --name test1 image**
@@ -300,10 +300,10 @@ The command to get the required details about each layer is `docker history <Ima
 
 21. How to find size of any container's writable layer?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 -Using the command is `docker ps -as`.
 
@@ -314,10 +314,10 @@ The command to get the required details about each layer is `docker history <Ima
 
 22. How to check logs of a container?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 -Using the command `docker logs<ContainerName/Id>`.
 
@@ -328,10 +328,10 @@ The command to get the required details about each layer is `docker history <Ima
 
 23. Are the container logs stored inside a container or in a host server? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Container logs are stored in host server. 
 
@@ -342,10 +342,10 @@ Container logs are stored in host server.
 
 24. 10+ containers are running on my host server. All these containers stop on server reboot or docker engine restart which requires a manually container start. Is there any way to auto restart the containers in this scenario?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 One should enable auto restart policy to handle above scenario. Restart supports the policies like 
    - on-failure.
@@ -359,10 +359,10 @@ One should enable auto restart policy to handle above scenario. Restart supports
 
 25. Developers create multiple test containers in dev server in a day which consumes lot of disk space and manual cleanup is required. Is there any way to automate this cleanup?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 we should use -rm flag while starting a container to auto remove the container on its exit.
 
@@ -373,10 +373,10 @@ we should use -rm flag while starting a container to auto remove the container o
 
 26. Is it possible to use restart policy and -rm flag together when starting a container?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 No, restart and rm cannot be used together. restart will try to start the container as soon as it stops and rm will try to remove the container as soon as it stops. 
 
@@ -389,8 +389,8 @@ No, restart and rm cannot be used together. restart will try to start the contai
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 We can make use of available git image along with bind mount to mount host directory inside a container and run `git clone` command on container start to clone the data in mounted directory.
 
@@ -401,10 +401,10 @@ We can make use of available git image along with bind mount to mount host direc
 
 28. I have a requirement to copy token/config file inside a container but can't use Docker command for that. Is there any alternate way to achieve it?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Docker shares resources from out host for running a container. So whatever changes are happening inside our Docker container are actually written somewhere on a host machine. So, we have to find that folder location and copy the content over there. Then it will automatically get visible in the Docker container.
 
@@ -417,8 +417,8 @@ Docker shares resources from out host for running a container. So whatever chang
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - Using link flag in case of default bridge.
 - user defined bridge.
@@ -430,10 +430,10 @@ Docker shares resources from out host for running a container. So whatever chang
 
 30. What are the most common instructions you used while writing a dockerfile?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - FROM
 - ARG
@@ -453,10 +453,10 @@ Docker shares resources from out host for running a container. So whatever chang
 
 31. Differentiate between COPY and ADD commands that are used in a DockerFile?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 **COPY** provides just the basic support of copying local files into the container whereas **ADD** provides additional features like remote URL and tar extraction support.
 
@@ -467,10 +467,10 @@ Docker shares resources from out host for running a container. So whatever chang
 
 32. What is the benefit of using a Docker over a Hypervisor?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 A hypervisor is required to host and maintain virtual machines; a system administrator needs to maintain the hypervisor itself. However, the Docker engine is a lightweight container virtualization technology that runs on the host operating system, and Docker containers can be started very quickly.
 
@@ -481,10 +481,10 @@ A hypervisor is required to host and maintain virtual machines; a system adminis
 
 33. Is it necessary to monitor a Docker?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Yes, active monitoring ensures higher productivity and better outcomes. Docker monitoring also notifies about any default in the system.
 
@@ -495,10 +495,10 @@ Yes, active monitoring ensures higher productivity and better outcomes. Docker m
 
 34. Name the three main Docker components?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 **Docker Client**. Performs Docker build pull and run operations to open up communication with the Docker Host. The Docker command then employs Docker API to call any queries to run.
 **Docker Host**. Contains Docker daemon, containers, and associated images. The Docker daemon establishes a connection with the Registry. The stored images are the type of metadata dedicated to containerized applications.
@@ -511,10 +511,10 @@ Yes, active monitoring ensures higher productivity and better outcomes. Docker m
 
 35. Differentiate Virtualization and Containerization?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Virtualization is an abstract version of a physical machine, while containerization is the abstract version of an application.
 
@@ -525,10 +525,10 @@ Virtualization is an abstract version of a physical machine, while containerizat
 
 36. What is Docker hub?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Docker Hub is a service provided by Docker for finding and sharing container images with your team. It provides two repositories: Push and pull container images.
 
@@ -539,10 +539,10 @@ Docker Hub is a service provided by Docker for finding and sharing container ima
 
 37. How Docker client and Docker daemon communicate with each other?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Docker client and Docker Daemon communication happen with the combination of Rest API, socket.IO, and TCP.
 
@@ -553,10 +553,10 @@ Docker client and Docker Daemon communication happen with the combination of Res
 
 38. What are Docker Namespaces?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - Docker uses a technology called namespaces to provide the isolated workspace called the container. When we run a container, Docker creates a set of namespaces for that container.
 - These namespaces provide a layer of isolation. Each aspect of a container runs in a separate namespace and its access is limited to that namespace.
@@ -568,10 +568,10 @@ Docker client and Docker Daemon communication happen with the combination of Res
 
 39.  What is Docker Swarm?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
  A Docker Swarm is a group of either physical or virtual machines that are running the Docker application and that have been configured to join together in a cluster. Once a group of machines have been clustered together, we can still run the Docker commands that we're used to, but they will now be carried out by the machines in our cluster. The activities of the cluster are controlled by a swarm manager, and machines that have joined the cluster are referred to as nodes.
 
@@ -582,10 +582,10 @@ Docker client and Docker Daemon communication happen with the combination of Res
 
 40. Can u tell me something about Docker compose?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Docker Compose is a tool that was developed to help define and share multi-container applications. With Compose, we can create a YAML file to define the services and with a single command, can spin everything up or tear it all down.
 
@@ -596,10 +596,10 @@ Docker Compose is a tool that was developed to help define and share multi-conta
 
 41. How to start, stop and kill a container?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 To start the following command is used:
 `$ docker start <container_id>`.

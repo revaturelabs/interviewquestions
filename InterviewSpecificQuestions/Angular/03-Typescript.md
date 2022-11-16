@@ -1,9 +1,9 @@
 1. What is TypeScript?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - TypeScript is an open-source object-oriented programming language developed and maintained by Microsoft. It is a superset of JavaScript.
 - TypeScript is designed for the development of large applications and transpiles to JavaScript.
@@ -15,10 +15,10 @@
 
 2. Why do we need TypeScript?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - TypeScript is an attempt to fix JavaScript problems.
 - Since we all know that JavaScript is the only language used in client-side scripting browsers can only understand JavaScript.
@@ -31,10 +31,10 @@
 
 3. What are the advantages of using TypeScript?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Advantages of using TypeScript:
 
@@ -51,10 +51,10 @@ Advantages of using TypeScript:
 
 4. How to install TypeScript?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 There are two ways to install typescript:
 
@@ -73,10 +73,10 @@ We can also install a typescript plugin available for our IDE. We can use the  I
 
 5. Explain the TypeScript program execution?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 TypeScript follows the OOPS (Object-Oriented Programming System) concept and with the help of TSC (TypeScript Compiler), we can convert Typescript code (.ts file) to JavaScript (.js file).
 
@@ -87,10 +87,10 @@ TypeScript follows the OOPS (Object-Oriented Programming System) concept and wit
 
 6. What OOPs does TypeScript support?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Typescript supports the four object-oriented programming concepts – Abstraction, Polymorphism, Inheritance, and Encapsulation.
 
@@ -101,10 +101,10 @@ Typescript supports the four object-oriented programming concepts – Abstractio
 
  07. Explain data types in TypeScript?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - Typescript supports Any, Built-in, and User-defined data types.
 - Any is the superset for all the data types available. It means that the variable could be of any type. It will override the type checking.
@@ -118,10 +118,10 @@ Typescript supports the four object-oriented programming concepts – Abstractio
 
 8. What are the modules in TypeScript?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - A module is a way to construct a local scope in a file. So that all the classes and variables declared in a module are not accessible outside the module.
 - We can create a module using the export keyword.
@@ -134,10 +134,10 @@ Typescript supports the four object-oriented programming concepts – Abstractio
 
 9. What is a namespace in TypeScript?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - Using a namespace we can group logically related code. A namespace can include classes, interfaces, functions, and variables.
 - We can create a namespace in typescript using the namespace keyword followed by any valid name.
@@ -157,10 +157,10 @@ namespace MyNamespace {
 
 10. What are typed functions in TypeScript?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 In Typescript, a function can be created as a named function or an anonymous function. We can further add types to each of the parameters of the function as well.
 
@@ -189,10 +189,10 @@ let funcAdd: (a: number, b: number) => number =
 
 11. What is **as** syntax in TypeScript?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 This is an additional Type of assertion syntax. The reason for including the **as** syntax in typescript was that `<type>` conflicted with JSX.
 
@@ -208,10 +208,10 @@ let strength: number= (someString as string).length;
 
 12. Difference between reading-only and const?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 const is used on a variable whereas read-only is used on properties of an object.
 
@@ -222,10 +222,10 @@ const is used on a variable whereas read-only is used on properties of an object
 
 13. What are static properties?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Static properties are those that are shared by all the instances of a class and they can be accessed via the class name and dot operator.
 
@@ -249,10 +249,10 @@ class Singleton {
 
 14. Explain access modifiers in Typescript?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 There are 3 types of access modifiers in TypeScript: public, private, and protected.
 
@@ -272,10 +272,10 @@ The protected members are similar to private access modifiers, except that they 
 
 15. Can you explain the Rest parameters in Typescript?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - Sometimes, we want to work with multiple parameters as a group, or we may not know how many parameters a function will ultimately take. In JavaScript, we have something known as arguments. Similarly, we have Rest parameters in typescript.
 
@@ -297,10 +297,10 @@ let players = getPlayersList("Virat", "MS", "Warner", "Kane", "Ben")
 
 16. What are Generics in TypeScript?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - Generics in Typescript is no different from generics in other programming languages like Java.
 - We can create a class, an interface, or a function that works with different types, without specifying the type upfront.
@@ -323,10 +323,10 @@ greet('DS'); //function call
 
 17. What are Modules in TypeScript?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - A module is a way to construct a local scope in a file. So that all the classes and variables declared in a module are not accessible outside the module.
 - We can create a module using the export keyword.
@@ -354,10 +354,10 @@ let Subject: string = "Computer Science";
 
 18. Can we use JSX in TypeScript?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - Yes, JSX is an embeddable XML-like syntax.
 - To use JSX, we must name our file with a .tsx extension and should enable the jsx option.
@@ -369,10 +369,10 @@ let Subject: string = "Computer Science";
 
 19. What are Decorators in TypeScript?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - Decorators are functions that modify a class, property, method, or method parameter. The syntax to define decorators is “@”.
 - In other words, Decorators are functions that take their target as the argument.
@@ -384,10 +384,10 @@ let Subject: string = "Computer Science";
 
 20. What is Triple-Slash Directive?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - Triple-slash directives are single-line comments containing a single XML tag. The contents of the comments are used as compiler directives.
 
@@ -404,10 +404,10 @@ let Subject: string = "Computer Science";
 
 21. What is the ts. config file in Typescript?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 The typescript project will have a ts. config file which provides an infinite number of ways to customize the behavior of the compiler.
 
@@ -418,10 +418,10 @@ The typescript project will have a ts. config file which provides an infinite nu
 
 22. Is it possible to compile a typescript file automatically?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Yes, it is possible to use -the watch option while compiling the typescript file for the first time.
 
@@ -438,10 +438,10 @@ tsc --watch filename.ts
 
 23. Explain the Declare keyword in Typescript?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - The **declare** keyword is used for ambient declarations and methods where we want to define a variable that may exist elsewhere.
 - If we want to use any library in our TypeScript code, we can use the following code:
@@ -459,10 +459,10 @@ declare var myAlexaLibrary;
 
 24. Explain the need for a TypeScript Definition Manager?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - TypeScript Definition Manager (TSD) is a package manager used to search and install typescript definition files directly from the community-driven DefinitelyTyped repository.
 - Now, if we want to use some jQuery code in your .ts file:
@@ -483,10 +483,10 @@ $(document).ready(function() { //Your jQuery code });
 
 25. How to debug a TypeScript file?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - To debug any TypeScript file, we need a .js source map file. So, we have to compile the .ts file with the –source map flag to generate a source map file.
 ```ts
@@ -508,10 +508,10 @@ $ tsc -source map filename.ts
 
 26.  How to call the base class constructor from the child class in TypeScript?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 We can call the base class constructor using `super()`.
 
@@ -522,10 +522,10 @@ We can call the base class constructor using `super()`.
 
 27. What is Interface in TypeScript?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - An `interface` is a virtual structure that only exists within the context of TypeScript. The TypeScript compiler uses interfaces only for type-checking purposes.
 - When we define your interface we’re saying that any object (not an instance of a class) given this contract must be an object containing interface properties.
@@ -537,10 +537,10 @@ We can call the base class constructor using `super()`.
 
 28. When to use interfaces and when to use classes in TypeScript? 
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - If we need/wish to create an instance of perhaps a custom object, whilst getting the benefits of type-checking things such as arguments, return types, or generics - a class makes sense. 
 - If we’re not creating instances - we have interfaces at our disposal, and their benefit comes from not generating any source code, yet allowing us to somewhat “virtually” type-check our code.
@@ -552,10 +552,10 @@ We can call the base class constructor using `super()`.
 
 29. How to declare a variable so that it can hold multiple values?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 **Tuples**:
 It represents a heterogeneous collection of values. In other words, tuples enable storing multiple fields of different types. Tuples can also be passed as parameters to functions.
@@ -579,10 +579,10 @@ console.log(employee[1]); // Output: Priya
 
 30. What are getters and setters in TypeScript?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - TypeScript supports getters/setters as a way of intercepting accesses to a member of an object. This gives a way of having finer-grained control over how a member is accessed on each object.
 ```typescript
@@ -606,10 +606,10 @@ class Employee {
 
 31.  When to use the interface in TypeScript?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - Interfaces help to achieve Polymorphism.
 - An interface is a contract to implement a shape of the data. 
@@ -628,10 +628,10 @@ class Bellbird implements Bird { ... }
 
 32. Can u explain a bit about Enum in TypeScript?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Enums or enumerations are a TypeScipt data type that allows us to define a set of named constants. Using enums can make it easier to document intent, or create a set of distinct cases. It is a collection of related values that can be numeric or string values.
 
@@ -654,10 +654,10 @@ console.log(Gender[1]); // Output: Female
 
 33. Define the Lambda function.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - For defining function expressions, TypeScript provides a shortcut syntax. A lambda function is an unnamed anonymous function. 
 - **Example**:
@@ -675,10 +675,10 @@ Here, `?=>?` is a lambda operator.
 
 34. What does Typescript do when you try to open it in a browser?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - TypeScript cannot be run or understood in any browser. 
 - TypeScript needs to be compiled (translated) to JavaScript which any browser can understand. 

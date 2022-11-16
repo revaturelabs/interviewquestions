@@ -3,9 +3,9 @@
 
 1. What is an iterator in python?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Iterator allows to iterate or traverse through all the values of collection in python. It has two methods, `__iter__()` and `__next__()`. `iter()` method is similar to `init()` method, as it is used to initialize the objects but, it returns an iterator. `next()` method is used to get the next element of the iteration.   
 
@@ -33,9 +33,9 @@ for i in m:
 ---
 2. How to create an iterator in python?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > To create a custom iterator in python, we can use `__iter__()` and `__next__()` method inside a class.
 
@@ -64,9 +64,9 @@ for x in itr:
 ---
 3. What is a StopIteration exception?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > In python, it is raised by `next()` method when there is no element to be present for iteration. 
   </details>
@@ -79,9 +79,9 @@ b) SystemExit
 c) StopIteration     
 d) IndexError    
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
   
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option c)
 </details>
@@ -113,12 +113,12 @@ b) 8 7 6 5
 c) Error  
 d) Nothing is printed  
                       
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
                       
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option d)
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > As the current value of a is more than 5, it will raise `StopIteration` exception and prints nothing in output screen.
   </details>
@@ -151,12 +151,12 @@ b) 5 4 3
 c) Error  
 d) Nothing is printed   
                       
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
                       
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option a)
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > The initial value of a is 3 and it will increment by 1 until it reaches 5 in `__next__()` method. Therefore, we will get 3, 4 and 5 as an output.  
   </details>
@@ -170,12 +170,12 @@ b) It is used to throw an error.
 c) It is used to return an iterator.  
 d) None of the above.  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option c)
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > It returns an iterator and converts an iterable to an iterator. 
   </details>
@@ -189,12 +189,12 @@ b) It is used to give next element from the iteration through iterator.
 c) It is used to return an iterator.  
 d) It is used to throw StopIteration exception.  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option b)
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > next() method, in python, returns the next element from iterator.
   </details>

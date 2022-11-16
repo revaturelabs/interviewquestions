@@ -13,13 +13,13 @@ public class Main {
 ```
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
-<details>
+<details markdown="1">
 <summary><b> Show Answer </b></summary>
 
 `false`
-<details>
+<details markdown="1">
 <summary><b> Explanation </b></summary>
-<blockquote>
+<blockquote markdown="1">
 	
 - If we add zero before a number, the value will become octal number. 
 - The octal number is converted into decimal value and assigned to `int` variable.
@@ -32,10 +32,10 @@ public class Main {
 
 2.How decimal, octal, hexa decimal and binary value are assigned to `int` varaible?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-<details>
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 ``` java
 public class Main {
@@ -56,9 +56,9 @@ public class Main {
 3.Why is `f` added after the `float` value while using precision?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
-<details>
+<details markdown="1">
     <summary><b> Show Answer </b></summary> 
-<blockquote>
+<blockquote markdown="1">
 
 When we have decimal value with precision that we will double by default. To specify that the value is `float` then we need to post-fix the value with `f`.
 ``` java

@@ -2,9 +2,9 @@
 
 1.What is boolean data type in python?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > The Python Boolean type is one of Python's built-in data types.  Boolean is a primitive data type that takes either `true` or `false` values. So anything that returns the value `true` or `false` can be considered as a boolean example. Checking some conditions such as `a==b` or `a<b` or `a>b` can be considered as boolean examples.
   
@@ -14,7 +14,7 @@
   
 2.What is the output of the following code?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 ```python  
 class truth:
@@ -28,11 +28,11 @@ B. True
 C. pass    
 D. error    
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option B. True
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The truth class does not have any methods and variable, the object is considered true. 
 Hence, the output of the code is true.
@@ -44,10 +44,10 @@ Hence, the output of the code is true.
   
 3.What is the use of `bool()` function?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
- <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+ <blockquote markdown="1">
   
 > Python `bool()` function is used to return or convert a value to a Boolean value that is `True` or `False`, using the standard truth testing procedure. 
 
@@ -79,13 +79,13 @@ myobj = myclass()
 print(bool(myobj))
 ```
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)  
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)  
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > False
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > One or more values or objects in this case evaluates to False, that is if you have an object that is made from a class with a __len__ function, it returns 0 or False.
   
@@ -100,13 +100,13 @@ print(bool(myobj))
 print(['hello','morning'][bool('')])
 ```
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)  
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)  
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > hello
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > In the above code, as nothing is passed to boolean function therefore it is printing "hello". If anything is passed to the boolean function it will print "morning".
   
@@ -122,13 +122,13 @@ l2=list(filter(bool,l))
 print(l2)
 ```
   
-  ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
    
 > [1,2,'hello']
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The code shown above `returns` a new list that contains the elements of the list l which do not amount to zero. And, the output is:[1,2,'hello']
   
@@ -139,9 +139,9 @@ print(l2)
   
 7.Write a program to check whether the given number is even or odd?(take input from user)
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 ```python  
 n=int(input())
@@ -151,7 +151,7 @@ else:
     print("odd number")
 ```
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > If the given number(user input) is divisible by 2, it will print the given number as even number. Else, it will print the given number as odd.
   
@@ -170,13 +170,13 @@ B. False
 C. Error    
 D. No output    
                                 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)                                
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)                                
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option A.True
   
-<details><summary> <b>Explanation</b> </summary>
+<details markdown="1"><summary> <b>Explanation</b> </summary>
   
 > The expression `not(10>20)` returns `False`. And, the expression `not(10<0`) returns `False`. The `and` operation between `False` and `False` returns `True`. Hence, the output is `True`.
 
@@ -197,9 +197,9 @@ B. True
 C. 200.60    
 D. False    
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 > Option D.False
   
@@ -215,9 +215,9 @@ def myFunction() :
 myFunction()
 ```
   
-  ![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 ```python
 def myFunction() :
@@ -235,10 +235,10 @@ print(myFunction())
   
 11.Mention some advantages of `boolean()` data type?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
-<details><summary> <b>Show Answer</b> </summary>
-  <blockquote>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
+  <blockquote markdown="1">
   
 i) A `boolean` can be a set to one of the two predefined values, which maps perfectly to what it is used for. You could use an integer as a boolean, but there are many more than two possible integer values. So you'd have to define which integer values should be considered `True` and which should be considered `False`.
   

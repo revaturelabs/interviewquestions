@@ -2,7 +2,7 @@
 
 1. Find the error in the following code?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 ``` java
 public class Game {
@@ -20,9 +20,9 @@ public class Game {
 
 ```
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 	
-<blockquote>
+<blockquote markdown="1">
 
  The above code creates a compile-time error, The object "g" is declared but not initialized, and It is not possible to use an object of a class without Initializing it.
 	
@@ -34,15 +34,15 @@ public class Game {
 
 2. What is the error in the following code snippet?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 ``` java
 public class Child extends Parent, Grandparent{
 	// code
 }
 ```
-<details><summary><b>Show Answer</b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+<blockquote markdown="1">
 
  Compilation error is caused because a class can extend only one parent class.
 </blockquote>
@@ -53,7 +53,7 @@ public class Child extends Parent, Grandparent{
 
 3.  What is the error in the following code snippet?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 ``` java
 
@@ -63,9 +63,9 @@ private class Main{
 
 ```
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 Compilation error is caused because a class can be public, abstract and final but not private unless it's a nested class.
 
@@ -79,20 +79,20 @@ Compilation error is caused because a class can be public, abstract and final bu
 
 1. Which of the following can be declared private?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 - A. Class
 - B. Interface
 - C. Nested Class
 - D. None of the above
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
  > C
 	
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 	
-<blockquote>
+<blockquote markdown="1">
 Classes and interfces can not be declared private, nested classes can be declared private.
 </blockquote>
 
@@ -103,14 +103,14 @@ Classes and interfces can not be declared private, nested classes can be declare
 
 2. What are the parameters and arguments?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 - A. parameters: list of variables in the method declaration.
      Arguments:  Values that are passed when a method is invoked.
 - B. parameters: list of variables in the method declaration.
      Arguments:  Values that are passed when a method is invoked.
      
-<details><summary><b>Show Answer</b></summary> 
+<details markdown="1"><summary><b>Show Answer</b></summary> 
 	
  > A 
 </details>
@@ -119,20 +119,20 @@ Classes and interfces can not be declared private, nested classes can be declare
 
 3. What is the implicit superclass for all java classes?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 - A. Arrays
 - B. Collections
 - C. Object
 - D. None of the above
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > C
 	
-<details><summary><b>Explanation</b></summary> 
+<details markdown="1"><summary><b>Explanation</b></summary> 
 	
-<blockquote>
+<blockquote markdown="1">
 The default constructor of any class calls the no-arg constructor of the superclass, So, java provides an implicit super class "Object" which has a default constructor.
 	</blockquote>
 
@@ -143,11 +143,11 @@ The default constructor of any class calls the no-arg constructor of the supercl
 
 4. What are the benefits of using Objects?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 	
-<blockquote>
+<blockquote markdown="1">
 	
 - Modularity: the source code for every object can be maintained independently and once an object is created it can be easily propagated inside the system.
 - Information hiding: since an object is used to implement methods, the internal working of the class can be hidden using an object.
@@ -162,7 +162,7 @@ The default constructor of any class calls the no-arg constructor of the supercl
 
 5. Variables declared in an interface are?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 - A. public, static and final
 - B. private and final
@@ -170,13 +170,13 @@ The default constructor of any class calls the no-arg constructor of the supercl
 - D. Default or public, static.
 
 
-<details> <summary><b>Show answer</b></summary>
+<details markdown="1"> <summary><b>Show answer</b></summary>
 
  > A
 	
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 
-<blockquote>
+<blockquote markdown="1">
 	
 - final: variables in an interface are accessed by many classes and its not ideal, if any of the classes appends the value of the variable. to avoid this
 	 variables are declared final.
@@ -192,7 +192,7 @@ The default constructor of any class calls the no-arg constructor of the supercl
 
 6. choose the right answer.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 1.local class   <br>                               
 2.Anonymous class  <br>                           
@@ -212,7 +212,7 @@ d. Used to create more than one instance of a class, and to add new fields and m
 - C. 1-d, 2-c, 3-b, 4-a
 - D. 1-b, 2-c, 3-d, 4-a
 
-<details>
+<details markdown="1">
 	<summary><b>Show Answer</b></summary>
 	
 > C
@@ -225,7 +225,7 @@ d. Used to create more than one instance of a class, and to add new fields and m
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 >  An object can not be directly destroid in java. by setting all the references to object as null, the object is eligible for garbage collection.
 
@@ -235,7 +235,7 @@ d. Used to create more than one instance of a class, and to add new fields and m
 
 8. How many object references are present after executing the following code?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 ``` java
 
@@ -246,8 +246,8 @@ s=null;
 
 ```
 
-<details><summary><b>Show Answer</b></summary>
-<blockquote>
+<details markdown="1"><summary><b>Show Answer</b></summary>
+<blockquote markdown="1">
 	
 one reference will be left after executing the code snippet(arr[0]--> s).
 </blockquote>
@@ -258,7 +258,7 @@ one reference will be left after executing the code snippet(arr[0]--> s).
 
 9. Which of the following options best explains the folowing code snippet?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 ``` java
 interface Car{
@@ -281,13 +281,13 @@ B. Object for interfcae Car is created and it's reference is assigned to itself.
 C. Object for Class Audi will be created and it's reference is assigned to itself.<br>
 D. Object for Class Audi is created and it's refrence is assigned to the Interface.
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 
 > D
 
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 	
-<blockquote>
+<blockquote markdown="1">
 
 It is not possible to create an object for interface, an Object can be created only for classes and the reference can be assigned to an interface.
 
@@ -302,11 +302,11 @@ It is not possible to create an object for interface, an Object can be created o
 
 10.  Write a code where an object is created for an Interface or abstract class.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary><b>Show Answer</b></summary>
+<details markdown="1"><summary><b>Show Answer</b></summary>
 	
-<blockquote>
+<blockquote markdown="1">
 	
 - Interfaces and Abstract classes cant be initialized because they have abstract methods, so its not possibel to create an object for an Interface,but while creating an anonymous class an object can be created for interface and abstract method.
 	
@@ -371,8 +371,8 @@ In the above code, obejcts c and d are created for interface Shape and abstract 
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
-<details><summary><b> Show Answer </b></summary>
-<blockquote>
+<details markdown="1"><summary><b> Show Answer </b></summary>
+<blockquote markdown="1">
 	
 A class is considered as imputable if once an object is created, then its contents cant be modified.
 	
@@ -390,7 +390,7 @@ An immutable class can be created by
 
 12. How to represent an object as a string?
 
-<details>
+<details markdown="1">
 	<summary><b>Show Answer</b></summary>
 	
 > an object can be represneted as string using `toString()` method.
@@ -402,20 +402,20 @@ An immutable class can be created by
 
 1. Consider that a code is created for the sole purpose of notifying the user that the battery is fully charged, this can be used by any device like a mobile, pc, AirPods etc. Which of the following implementations suits the best?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 - A. abstract class with a single abstract method and an anonymous class
 - B. abstract class with a single abstract method and a local class.
 - C. Interface with a single abstract method and an anonymous class.
 - D. Interface with a single abstract method and lambda.
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
 	
 > D
-<details><summary><b>Explanation</b></summary>
+<details markdown="1"><summary><b>Explanation</b></summary>
 	
-<blockquote>
+<blockquote markdown="1">
 A code with a single purpose translates to a class/ interface with a single method, functional interface is the best way to implement this scenario and lambda implementation in each device, makes the code concise, easily readable and maintainable.
 
 </blockquote>

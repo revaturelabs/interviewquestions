@@ -4,9 +4,9 @@
 
 1. What do you mean by encapsulation in python? How to achieve it? Give example. 
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Binding up of data members and member functions together into a single unit is known as encapsulation. A class is an example of encapsulation as it binds the variables and methods together. We can achieve encapsulation by declaring the data members of a class either as private or protected.   
   
@@ -28,9 +28,9 @@ print('Marks:', stu.__marks)
 ---
 2. Give a real-time example of encapsulation.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Consider there are two companies that makes motercycles, one is `Hero` and other one is `Honda`. 
   Hero company has its own production unit and team, and Honda company also has its own production unit and team. They both are doing well in the market. If there's a situation, where Honda company wants to work with Hero company and wants to access the info of how Hero company production unit works. 
@@ -45,12 +45,12 @@ b) It has the ability to hide the unwanted complex implementation from the user.
 c) It wraps up the data members and member functions of a class in a single unit.    
 d) It gives different meaning to same function in different classes.    
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > option c) 
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > Encapsulation is a way of binding all the members of a class together. 
   </details>
@@ -75,12 +75,12 @@ b) 10 is printed
 c) Error, because num1 is not retured by display() method.  
 d) Error, because __num2 is a private data member.  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > option is a).
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > num1 is a public variable of Test class. It can be accessed outside the class using objects of that class. 
   </details>
@@ -105,12 +105,12 @@ b) 10 is printed
 c) Error, because num1 is not retured by display() method.  
 d) Error, because __num2 is a private data member.  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > option is d).
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > As __num2 is private variable of Test class, we cannot access the variable through objects of that class. 
   </details>
@@ -139,13 +139,13 @@ b) 20
 c) 30  
 d) Error  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option c)
 
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > Class variable's value is printed through getNumber() method using `Class_Name.variable_name`. 
   </details>
@@ -174,12 +174,12 @@ b) 20
 c) 30   
 d) Error   
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option b)
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > The current instance value, that is 20, is printed using `self.variable_name` when calling getNumber() method.  
   </details>
@@ -208,12 +208,12 @@ b) 20
 c) 30   
 d) Error  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > option is d) Error
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > In the above code, we will get `"NameError: name '_Test__num2' which is not defined"`. To resolve this error, we have to use either `class_name` or `self` before the `__num2` variable in print statement, according to our need. For example, `self.__num2`. 
   </details>
@@ -227,12 +227,12 @@ b) getters / setters
 c) __iter__ / __eq__  
 d) __repr__ / __str__  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option b) 
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > The motive of using `getters` and `setters`functions in a class is to get[return] and set[assign] the private variables of a class. 
   </details>
@@ -241,9 +241,9 @@ d) __repr__ / __str__
 ---
 10. What is name mangling in python? Give example.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > In python, when we have some attributes in one class that we don't want to use in child classes, then we make them as private by adding two underscores('__') in prefix of variable name. So, to access those variables outside the class, we use name mangling concept. To access those private class variables, we have to add `_classname` with that variable.   
   
@@ -264,12 +264,12 @@ print(obj._Student__name)    # using name mangling we get output as Jack.
 a) True  
 b) False   
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option b)
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > Using name mangling, we can access the private members of a class. For that, we have to write `ObjectName._ClassName__VariableName`. 
   For example: `obj._Student__name`, where obj is object name, Student is a class name and __name is a private variable.
@@ -291,12 +291,12 @@ b) _num2
 c) __num3__  
 d) __num4__  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option b) 
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > Variables with single underscore (_) are the protected variables of a class. 
   </details>
@@ -321,12 +321,12 @@ b) 500 Error
 c) Error  
 d) Nothing is printed   
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option a)
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 >  __quantity is a private variable of a class, and private variables can be printed using class methods. 
   </details>
@@ -338,12 +338,12 @@ d) Nothing is printed
 a) True  
 b) False  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Option b) 
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
  
 > Private variables can be accessed by name mangling but protected variables cannot. 
   </details>
@@ -368,12 +368,12 @@ b) Rectangle
 c) Error  
 d) Nothing is printed   
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
  
 > Option c)
-<details><summary> <b>Explanation</b> </summary> 
+<details markdown="1"><summary> <b>Explanation</b> </summary> 
   
 > In the above code, we will get `AttributeError: 'Design' object as no attribute '_Design_shape'` because,  _shape is a protected member of Design class and we cannot access protected members outside the class using name mangling.  
   </details>

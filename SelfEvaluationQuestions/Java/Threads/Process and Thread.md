@@ -2,10 +2,10 @@
 
 1. What is proceess?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - A process is a part program or application.
 - A program can contain more than one process.
@@ -17,10 +17,10 @@
 
 2. What is thread?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - A thread is a lightweight proces.
 - A thread is a part of process.
@@ -33,9 +33,9 @@
 3. Explain the relation between core and thread.
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
-<details>
+<details markdown="1">
 <summary><b> Show Answer </b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - A processor is madeup of multiple cores.
 - A core is physical component wrhere threads are virtual component.
@@ -48,10 +48,10 @@
 
 4. Explain the difference between process and thread.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-<details>
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+<details markdown="1">
 <summary><b> Show Answer </b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 | **Process**                             | **Thread**                                         |
 |-----------------------------------------|----------------------------------------------------|
