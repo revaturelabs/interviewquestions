@@ -1,4 +1,4 @@
-1. In Angular, how can you interact between Parent and Child components?
+1.In Angular, how can you interact between Parent and Child components?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -6,13 +6,13 @@
 <summary> <b>Show Answer</b></summary>
 <blockquote markdown="1">
   
- When passing data from the Parent to Child component, you can use the `@Input` decorator in the Child component. When passing data from the Child to the Parent component, you can use the `@Output` decorator in the Child component.
+ When passing data from the Parent to Child component, you can use the `@Input` decorator in the Child component.When passing data from the Child to the Parent component, you can use the `@Output` decorator in the Child component.
   
 </blockquote>
 </details>
 	
 --- 
-2. How would you pass data from a parent to a child component or a child to a parent component?
+2.How would you pass data from a parent to a child component or a child to a parent component?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -25,7 +25,7 @@
 	
 ![image](https://user-images.githubusercontent.com/103101208/185594174-ec042de2-81dd-425b-bc8e-8c26ae214f1b.png)
 
-- Consider we have `AppComponent` as Parent. Let’s create a child component using the `ng g c child` command. We’ll pass the data from `AppComponent` to `ChildComponent` and vice versa.
+- Consider we have `AppComponent` as Parent.Let’s create a child component using the `ng g c child` command.We’ll pass the data from `AppComponent` to `ChildComponent` and vice versa.
 - In `child.component.ts`, we create a change property and decorate it with the `@Output()` and bound a new instance of `EventEmitter` to it.
 - Also, we have a method - `increment()` which updates the value of the count property based on the event (clicking on the increment count button) and emits the event changes to its parent component (`AppComponent`).
 - Here, the change property calls the `emit()` method that emits the count value which can be received by event object `$event`.

@@ -1,6 +1,6 @@
 ## Technical
 
-1. What is the difference between `Spring JDBC` and `Spring Data JDBC`?
+1.What is the difference between `Spring JDBC` and `Spring Data JDBC`?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -12,7 +12,7 @@
 - `Spring JDBC` nicely hooks support for `Transaction Management`, `Exception Handling`, `DB connection management`, `Connection pool configuration`, avoiding boilerplate code using `JdbcTemplate` etc.
 - `Spring Data JDBC`, a sub-module under the Spring Data project, makes it easy to implement JDBC-based repositories.
 - `Spring Data JDBC` is an Object Relational Mapper (ORM) based on the `Repository` abstraction.
-- `Spring Data JDBC` nicely hooks support for `CrudRepository`, `@Query`, `PagingAndSortingRepository`, `@Value` in persistence constructors etc. 
+- `Spring Data JDBC` nicely hooks support for `CrudRepository`, `@Query`, `PagingAndSortingRepository`, `@Value` in persistence constructors etc.
 
 </blockquote> 
 
@@ -20,7 +20,7 @@
 
 ---
 
-2. What do you mean by database dialect? 
+2.What do you mean by database dialect? 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -35,7 +35,7 @@
 
 ---
 
-3. Why does Spring Data JDBC need database dialect?
+3.Why does Spring Data JDBC need database dialect?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -51,7 +51,7 @@
 
 ---
 
-4. `Spring Data JDBC` includes direct support for which database dialects?
+4.`Spring Data JDBC` includes direct support for which database dialects?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -59,7 +59,7 @@
 
 <blockquote markdown="1"> 
     
-- In terms of databases, `Spring Data JDBC` requires a dialect to abstract common `SQL` functionality over vendor-specific flavors. 
+- In terms of databases, `Spring Data JDBC` requires a dialect to abstract common `SQL` functionality over vendor-specific flavors.
 - `Spring Data JDBC` includes direct support for the following databases:
     - `DB2`
     - `H2`
@@ -75,7 +75,7 @@
 
 ---
 
-5. Why do we use `PagingAndSortingRepository` in Spring?
+5.Why do we use `PagingAndSortingRepository` in Spring?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -90,7 +90,7 @@
 </details>
 
 ---
-6. The `CrudRepository` interface does not have an `update` method then how do we update the record in the database? 
+6.The `CrudRepository` interface does not have an `update` method then how do we update the record in the database? 
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -108,7 +108,7 @@
 </details>
 
 ---
-7. Is it mandatory to call the `save` method to update an object inside a transactional method for `CrudRepository`?
+7.Is it mandatory to call the `save` method to update an object inside a transactional method for `CrudRepository`?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -117,14 +117,14 @@
 <blockquote markdown="1"> 
     
 - Calling the `save` method to update an object inside a transactional method is not mandatory.
-- When we use the `findById` method to retrieve an entity within a transactional method, the returned entity is managed by the persistence provider. 
+- When we use the `findById` method to retrieve an entity within a transactional method, the returned entity is managed by the persistence provider.
 - Hence, any change to that entity will be automatically persisted in the database, regardless of whether we are invoking the save method inside a transactional method.
 </blockquote> 
 
 </details>
 
 ---
-8. What is the use of `@Query` annotation in Spring Data?
+8.What is the use of `@Query` annotation in Spring Data?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -141,7 +141,7 @@
 </details>
 
 ---
-9. Explain the query builder mechanism in the Spring Data repository?
+9.Explain the query builder mechanism in the Spring Data repository?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -182,7 +182,7 @@ interface PersonRepository extends Repository<Person, Long> {
 </details>
 
 ---
-10. How you will implement the `SQL` `LIKE` query in Spring Data using method names? Give an example.
+10.How you will implement the `SQL` `LIKE` query in Spring Data using method names? Give an example.
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -192,20 +192,20 @@ interface PersonRepository extends Repository<Person, Long> {
     
 - Let’s consider the Login entity comprising the userId attribute.
 - There can be four different variations of LIKE query formed using method names as follows:
-  - Exact Match `SELECT ... LIKE userId`
+  - Exact Match `SELECT ...LIKE userId`
     - `List<User> findByUserIdLike(String userId);`
-  - Starting With `SELECT ... LIKE userId%`
+  - Starting With `SELECT ...LIKE userId%`
     - `List<User> findByUserIdStartingWith(String userId);`
-  - Ending With `SELECT ... LIKE %userId`
+  - Ending With `SELECT ...LIKE %userId`
     - `List<User> findByUserIdEndingWith(String userId);`
-  - In Between `SELECT ... LIKE %userId%`
+  - In Between `SELECT ...LIKE %userId%`
     - `List<User> findByUserIdContaining(String userId);`
 </blockquote> 
 
 </details>
 
 ---
-11. What is `Spring Data JPA`?
+11.What is `Spring Data JPA`?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -214,15 +214,15 @@ interface PersonRepository extends Repository<Person, Long> {
 <blockquote markdown="1"> 
     
 - `Spring Data JPA`, a sub-module under the Spring Data project, makes it easy to implement `JPA` based repositories.
-- `Spring Data JPA` provides repository support for the `Java Persistence API (JPA)`. 
-- It eases the development of applications that need to access JPA data sources. 
+- `Spring Data JPA` provides repository support for the `Java Persistence API (JPA)`.
+- It eases the development of applications that need to access JPA data sources.
 - `Spring Data JPA` nicely hooks support for `JpaRepository`, `Hibernate`, `OpenJPA`, `EclipseLink`, `Querydsl`, `@Modifying`
 </blockquote> 
 
 </details>
 
 ---
-12.  What is the use of `@Modifying` in Spring Data JPA?
+12. What is the use of `@Modifying` in Spring Data JPA?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 

@@ -157,7 +157,7 @@ In a SPA, a page refresh never occurs; instead, all necessary HTML, JavaScript, 
   <blockquote markdown="1">
     
 - Effective cross-platform development
-- Two-way data binding in Angular will help users to exchange data from the component to the view and the room view to the component. It will help users to establish communication bi-directionally.
+- Two-way data binding in Angular will help users to exchange data from the component to the view and the room view to the component.It will help users to establish communication bi-directionally.
 - The Angular command-line interface (CLI) makes the developer’s job easier because it offers a set of helpful tools for coding.
 - Angular offers powerful DI (dependency injection) instruments and services to resolve various productivity issues and speed up the development process.
 - Modularity of angular application makes our code readable and testable
@@ -230,10 +230,10 @@ On the other hand, an MPA multiple-page application) is considered a more tradit
 
 | **Angular JS**                                                                                     | **Angular 4**                                                                                                                    |
 | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| Uses MVC architecture to build the applications.                                                  | Uses component-based UI to build the applications.                                                                              |
-| AngularJS is written in JavaScript.                                                               | Angular is compatible with the most recent versions of TypeScript that have powerful type-checking and object-oriented features.|
-| To bind an image/property or an event with AngularJS, you have to remember the right ng directive.| Angular focuses on “()” for event binding and “\[ \]” for property binding.                                                     |
-| AngularJS doesn't support mobiles.                                                                | Angular support mobiles.                                                                                                        |
+| Uses MVC architecture to build the applications.                                                 | Uses component-based UI to build the applications.                                                                             |
+| AngularJS is written in JavaScript.                                                              | Angular is compatible with the most recent versions of TypeScript that have powerful type-checking and object-oriented features.|
+| To bind an image/property or an event with AngularJS, you have to remember the right ng directive.| Angular focuses on “()” for event binding and “\[ \]” for property binding.                                                    |
+| AngularJS doesn't support mobiles.                                                               | Angular support mobiles.                                                                                                       |
 
 </blockquote>
 
@@ -388,7 +388,7 @@ Drawbacks:
 <summary> <b>Show Answer</b></summary>
 <blockquote markdown="1">
 
-- In our web application, we use many javascript files that are added to the HTML pages via `<script>` tags. For each user request, the browser loads these bunch of script files inside the HTML page.This is inefficient as it reduces the page speed since the browser requests each script file separately.
+- In our web application, we use many javascript files that are added to the HTML pages via `<script>` tags.For each user request, the browser loads these bunch of script files inside the HTML page.This is inefficient as it reduces the page speed since the browser requests each script file separately.
 - This can be solved by **bundling** several files together into one file to be downloaded by the browser in one single request.
 - **Module bundlers** are used to bundle a group of JavaScript modules with their dependencies and merge them into a single file in the correct order, which can be executed by the browser.
 - **Webpack** is a powerful static module bundler for JavaScript applications that packages all modules in our application into a bundle and serves it to the browser.Webpack builds a dependency graph when it processes the application.
@@ -684,12 +684,12 @@ Just in time (JIT) compiler provides compilation during the execution of the pro
 
 | JIT                                                                                            | AOT                                                                                                               |
 |------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| JIT downloads the compiler and compiles code exactly before Displaying it in the browser.        | AOT has already complied with the code while building your application, so it doesn’t have to compile at runtime.|
-| Loading in JIT is slower than the AOT because it needs to compile your application at runtime.| Loading in AOT is much quicker than the JIT because it already has compiled your code at build time.             |
-| JIT is more suitable for development mode.                                                    | AOT is much more suitable in the case of Production mode.                                                             |
-| Bundle size is higher compared to AOT.                                                         | Bundle size optimized in AOT, in results AOT bundle size is half the size of JIT bundles.                        |
+| JIT downloads the compiler and compiles code exactly before Displaying it in the browser.       | AOT has already complied with the code while building your application, so it doesn’t have to compile at runtime.|
+| Loading in JIT is slower than the AOT because it needs to compile your application at runtime.| Loading in AOT is much quicker than the JIT because it already has compiled your code at build time.            |
+| JIT is more suitable for development mode.                                                   | AOT is much more suitable in the case of Production mode.                                                            |
+| Bundle size is higher compared to AOT.                                                        | Bundle size optimized in AOT, in results AOT bundle size is half the size of JIT bundles.                       |
 | You can run your app in JIT with this command: `ng build` OR `ng serve`                            | To run your app in AOT you have to provide –aot at the end like: `ng build --at OR `ng serve --not                 |
-| You can catch template binding errors at display time.                                         | You can catch the template error at building your application.                                                   |
+| You can catch template binding errors at display time.                                        | You can catch the template error at building your application.                                                  |
 
 </blockquote>
 </details>

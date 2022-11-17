@@ -1,6 +1,6 @@
 ## Technical
 
-1. What are Spring Beans?
+1.What are Spring Beans?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -8,15 +8,15 @@
 
 <blockquote markdown="1"> 
     
-- Core business component defined insider Spring applications is termed as `Bean`. 
+- Core business component defined insider Spring applications is termed as `Bean`.
 - In simple terms `Bean` is an object that is instantiated, assembled, and managed by a Spring IoC container.
-- Each technology has branded their core business components by certain nomenclature. For example, Business component in `JavaEE` applications are termed as `Servlet`, in `Web Services` they are named as `Resource` in `Struts` framework they are called `ActionForm` etc.
+- Each technology has branded their core business components by certain nomenclature.For example, Business component in `JavaEE` applications are termed as `Servlet`, in `Web Services` they are named as `Resource` in `Struts` framework they are called `ActionForm` etc.
 </blockquote> 
 
 </details>
 
 ---
-2. How do you decide whether to create `Singleton` bean or `Prototype` bean in application?
+2.How do you decide whether to create `Singleton` bean or `Prototype` bean in application?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -27,9 +27,9 @@
 - Though Spring IOC container has excellent support to manage the lifecycle of different types of beans,
 Spring does not manage the complete lifecycle of a prototype bean.
 - The IOC container instantiates, configures, decorates, and otherwise assembles a prototype object, hands it to the client and then has no further knowledge of that `Prototype` instance.
-- For most of the simple to average applications `Singleton` bean are sufficient and serve the purpose at each layer e.g. DAO, Service, Controller etc.
+- For most of the simple to average applications `Singleton` bean are sufficient and serve the purpose at each layer e.g.DAO, Service, Controller etc.
 - Developer need to take smart decisions & identify which beans must be singleton, else multiple client requests using singleton bean can modify the state of common objects wrongly.
-- Some dependent objects need a bean that has private state so that they can conduct their processing separately from other objects that depend on the bean. In this case, singletons are clearly not suitable, and we consider prototypes.
+- Some dependent objects need a bean that has private state so that they can conduct their processing separately from other objects that depend on the bean.In this case, singletons are clearly not suitable, and we consider prototypes.
 - If you have a bean that has a lot of writable state, you may find that the cost of synchronization is greater than the cost of creating a new instance to handle each request from a dependent object that time you can use prototype bean.
 
 </blockquote> 
@@ -38,7 +38,7 @@ Spring does not manage the complete lifecycle of a prototype bean.
 
 ---
 
-3. When do you use `Session` and `Request` bean in Spring?
+3.When do you use `Session` and `Request` bean in Spring?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -57,7 +57,7 @@ Spring does not manage the complete lifecycle of a prototype bean.
 
 ---
 
-4. How an IOC container is configured in a spring console based application?
+4.How an IOC container is configured in a spring console based application?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -211,7 +211,7 @@ public class App {
 
 ---
 
-5. How to decide upon choosing BeanFactory or ApplicationContext in Spring application?
+5.How to decide upon choosing BeanFactory or ApplicationContext in Spring application?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -221,9 +221,9 @@ public class App {
 
 - The Spring IOC container can be programmatically accessed using two interfaces namely: `BeanFactory` & `ApplicationContext`
 - The BeanFactory is the root interface and the ApplicationContext extends the features of BeanFactory.
-- BeanFactory loads beans on-demand (`Lazy Loading`), while ApplicationContext loads all beans at startup(`Eager Loading`). 
+- BeanFactory loads beans on-demand (`Lazy Loading`), while ApplicationContext loads all beans at startup(`Eager Loading`).
 - BeanFactory is lightweight as compared to ApplicationContext.
-- BeanFactory only supports two scopes — Singleton and Prototype, but ApplicationContext supports all types of bean scopes. 
+- BeanFactory only supports two scopes — Singleton and Prototype, but ApplicationContext supports all types of bean scopes.
 - ApplicationContext enhances BeanFactory to provide several features that are suitable for enterprise applications.
 - ApplicationContext provides messaging (`i18n` or internationalization) functionality, event publication functionality, annotation-based dependency injection, and easy integration with Spring AOP features.
 - It's always advisable to use ApplicationContext.
@@ -235,7 +235,7 @@ public class App {
 
 ---
 
-6. What are the ways through which the Spring beans are configured?
+6.What are the ways through which the Spring beans are configured?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -299,7 +299,7 @@ public class App {
 </details>
 
 ---
-7. How Spring supports connection pooling? Elaborate what is connection pooling?
+7.How Spring supports connection pooling? Elaborate what is connection pooling?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -308,13 +308,13 @@ public class App {
 <blockquote markdown="1"> 
 
 - Database connections are expensive operation.
-- A connection pool is like a collection of open connections. 
+- A connection pool is like a collection of open connections.
 - If a connection is established or created it should be added to the connection pool.
 - When a connection is released, it's returned back to the pool, so other clients can reuse it.
 - While the connection is open it can be used again and again.
 - Spring support connection pooling by supporting configuration of DataSource inside application.
 - Spring provides `DriverManagerDataSource` for testing application during development phase.
-- There are third party DB connection pooling providers like `Apache DBCP`, `Hikari CP` etc. which can also be configured in application.
+- There are third party DB connection pooling providers like `Apache DBCP`, `Hikari CP` etc.which can also be configured in application.
 - `DriverManagerDataSource` sample -
 
     ```xml
@@ -395,7 +395,7 @@ public class App {
 
 ---
 
-8. What is usual cause of `org.springframework.beans.factory.NoUniqueBeanDefinitionException`?
+8.What is usual cause of `org.springframework.beans.factory.NoUniqueBeanDefinitionException`?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -444,7 +444,7 @@ public class App {
 </details>
 
 ---
-9. Have you configured Init & Destroy spring bean lifecycle hooks? 
+9.Have you configured Init & Destroy spring bean lifecycle hooks? 
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -452,17 +452,17 @@ public class App {
 
 <blockquote markdown="1"> 
     
-- Spring provides several ways through which you can tap into the bean lifecycle. 
-- For example, once a bean is instantiated, you might need to perform some initialization to get the bean into a usable state. 
+- Spring provides several ways through which you can tap into the bean lifecycle.
+- For example, once a bean is instantiated, you might need to perform some initialization to get the bean into a usable state.
 - Similarly, you might need to clean up resources before a bean is removed from the container.
 - These actions can be achieved by configuring Init and Destroy lifecycle hooks into Spring application.
 - `@PostConstruct` Annotation:
-    - Whenever we annotate a method in Spring Bean with `@PostConstruct` annotation, it gets executed after the spring bean is initialized. 
-    - We can have only one method annotated with `@PostConstruct` annotation. 
+    - Whenever we annotate a method in Spring Bean with `@PostConstruct` annotation, it gets executed after the spring bean is initialized.
+    - We can have only one method annotated with `@PostConstruct` annotation.
 - `@PreDestroy` Annotation: 
     - When we annotate a Spring Bean method with PreDestroy annotation, it gets called when the bean instance is getting removed from the context.
-    - Note: if your spring bean scope is `Prototype` then it’s not completely managed by the spring container and the PreDestroy method won’t get called. 
-- Both of the above annotation are part of Common Annotations API and it’s part of JDK module `javax.annotation-api`. 
+    - Note: if your spring bean scope is `Prototype` then it’s not completely managed by the spring container and the PreDestroy method won’t get called.
+- Both of the above annotation are part of Common Annotations API and it’s part of JDK module `javax.annotation-api`.
 - Let’s look at simple example below:
 - `MailService.java` file-
 ```java
@@ -527,7 +527,7 @@ public class MainApp {
 </details>
 
 ---
-10. How do you decide as developer to choose among `.properties` or `.yaml` configuration file in Spring Boot application? 
+10.How do you decide as developer to choose among `.properties` or `.yaml` configuration file in Spring Boot application? 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -539,14 +539,14 @@ public class MainApp {
 - This allows us to use the same application code in different environments.
 - We can use properties files, YAML files, environment variables and command-line arguments.
 - `application.properties` file, which uses a key-value format:
-    - Here each line is a single configuration, so we need to express hierarchical data by using the same prefixes for our keys. 
+    - Here each line is a single configuration, so we need to express hierarchical data by using the same prefixes for our keys.
 ```
 management.endpoint.health.group.custom.include=*
 management.endpoint.health.group.custom.show-components=always
 management.endpoint.health.group.custom.show-details=always
 ```
 - `application.yml` file, which uses a key-value format:
-    - YAML is a convenient format for specifying hierarchical configuration data. 
+    - YAML is a convenient format for specifying hierarchical configuration data.
     - The below code is more readable than .properties file alternative, due to lack of repeated prefixes.
 ```yml
 management:
@@ -567,7 +567,7 @@ management:
 </details>
 
 ---
-11. Can we achieve DI with Core Java without using Spring framework?
+11.Can we achieve DI with Core Java without using Spring framework?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -575,7 +575,7 @@ management:
 
 <blockquote markdown="1"> 
     
-- Yes, Dependency Injection is a concept rather and then a framework. 
+- Yes, Dependency Injection is a concept rather and then a framework.
 - When the application under question is small, we can always meet the needs by injecting dependencies manually, without using any framework like Spring.
 - We can use Factory Design Pattern and create dependencies which will then be passed to required classes.
 - Though such code cannot replace the DI framework like Spring which provide much more extensive set of features.
@@ -585,7 +585,7 @@ management:
 
 ---
 
-12. Brief us on Spring Framework.
+12.Brief us on Spring Framework.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -593,7 +593,7 @@ management:
 
 <blockquote markdown="1"> 
 
-The Spring Framework is a Java platform that provides comprehensive infrastructure support for developing Java applications. Spring handles the infrastructure so application developer can focus on your application.
+The Spring Framework is a Java platform that provides comprehensive infrastructure support for developing Java applications.Spring handles the infrastructure so application developer can focus on your application.
 
 </blockquote>
 
@@ -601,7 +601,7 @@ The Spring Framework is a Java platform that provides comprehensive infrastructu
 
 ---
 
-13. What is Dependency Injection? 
+13.What is Dependency Injection? 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -609,7 +609,7 @@ The Spring Framework is a Java platform that provides comprehensive infrastructu
 
 <blockquote markdown="1"> 
 
-Dependency Injection (DI) is a design pattern that removes the dependency from the programming code so that it can be easy to manage and test the application. Dependency Injection makes our programming code loosely coupled.
+Dependency Injection (DI) is a design pattern that removes the dependency from the programming code so that it can be easy to manage and test the application.Dependency Injection makes our programming code loosely coupled.
 
 </blockquote>
 
@@ -617,7 +617,7 @@ Dependency Injection (DI) is a design pattern that removes the dependency from t
 
 ---
 
-14. How many types of spring beans are there? 
+14.How many types of spring beans are there? 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -627,11 +627,11 @@ Dependency Injection (DI) is a design pattern that removes the dependency from t
 
 There are 5 types of bean scope in Spring :-
 
-1. **Singleton:-** It return a single bean instance per spring IOC Container.
-2. **Prototype:-** It return a new bean instance each time when requested.
-3. **Request:-** It return a single instance for every HTTP request call.
-4. **Session:-** It returns a single instance for every HTTP request call.
-5. **Global session:-** Global session scope is equal as session scope on portlet-based web applications.
+1.**Singleton:-** It return a single bean instance per spring IOC Container.
+2.**Prototype:-** It return a new bean instance each time when requested.
+3.**Request:-** It return a single instance for every HTTP request call.
+4.**Session:-** It returns a single instance for every HTTP request call.
+5.**Global session:-** Global session scope is equal as session scope on portlet-based web applications.
 
 </blockquote>
 

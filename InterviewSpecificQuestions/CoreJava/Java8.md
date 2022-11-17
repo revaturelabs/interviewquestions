@@ -1,5 +1,5 @@
 ## Technical
-1. In Java 8 how can I filter a collection using the stream?
+1.In Java 8 how can I filter a collection using the stream?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -30,7 +30,7 @@
 
 <blockquote markdown="1">
     
-- It provides a method `filter ()` to filter stream elements on the basis of given predicate. 
+- It provides a method `filter ()` to filter stream elements on the basis of given predicate.
 - This method take predicate as an argument and returns a stream of consisting of resulted elements.
     
 </blockquote>
@@ -41,7 +41,7 @@
 
 ---
 
-2. Can we define default method without using default keyword in Java8?
+2.Can we define default method without using default keyword in Java8?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -60,7 +60,7 @@
 
 ---
 
-3. What actual advantage does Java 8 brings?
+3.What actual advantage does Java 8 brings?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -76,14 +76,14 @@
 
 ---
 
-4. Explain us about Functional interfaces.
+4.Explain us about Functional interfaces.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
 
-An Interface that contains exactly one abstract method is known as functional interface. It can have any number of defaults, static methods but can contain only one abstract method. It can also declare methods of object class. Functional Interface is also known as Single Abstract Method Interfaces or SAM Interfaces.
+An Interface that contains exactly one abstract method is known as functional interface.It can have any number of defaults, static methods but can contain only one abstract method.It can also declare methods of object class.Functional Interface is also known as Single Abstract Method Interfaces or SAM Interfaces.
     
 </blockquote>
 </details>
@@ -91,14 +91,14 @@ An Interface that contains exactly one abstract method is known as functional in
 ---
 
 
-5. How lambda expressions and functional interface are related?
+5.How lambda expressions and functional interface are related?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
 
-- Lambda expressions express instances of functional interfaces (An interface with single abstract method is called functional interface. An example is `java.lang.Runnable`). 
+- Lambda expressions express instances of functional interfaces (An interface with single abstract method is called functional interface.An example is `java.lang.Runnable`).
 - Lambda expressions implement the only abstract function and therefore implement functional interfaces
 
 </blockquote>
@@ -106,21 +106,21 @@ An Interface that contains exactly one abstract method is known as functional in
 
 ---
 
-6. What is your understanding about stream pipelining?
+6.What is your understanding about stream pipelining?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
 
-It is the process of chaining different operations together. It accomplishes this function by dividing stream operations into two categories, intermediate operation, and terminal operations.
+It is the process of chaining different operations together.It accomplishes this function by dividing stream operations into two categories, intermediate operation, and terminal operations.
 
 </blockquote>
 </details>
 
 ---
 
-7. Can you create your own functional interface?
+7.Can you create your own functional interface?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -137,21 +137,21 @@ It is the process of chaining different operations together. It accomplishes thi
 
 ---
 
-8. What will happen if we define multiple abstract methods inside the Functional interface?
+8.What will happen if we define multiple abstract methods inside the Functional interface?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
 
-Inside Functional Interface we can take only one abstract method, if we take more than one abstract method then compiler raise an error. Interface can declares an abstract method overriding one of the public method from `java.lang.Object`, that still can be considered as functional interface.
+Inside Functional Interface we can take only one abstract method, if we take more than one abstract method then compiler raise an error.Interface can declares an abstract method overriding one of the public method from `java.lang.Object`, that still can be considered as functional interface.
 
 </blockquote>
 </details>
 
 ---
 
-9. Why default methods needed in the interface?
+9.Why default methods needed in the interface?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -165,7 +165,7 @@ Inside Functional Interface we can take only one abstract method, if we take mor
 
 ---
 
-10. What is the behavior of `findFirst()` method in Java 8  streams?
+10.What is the behavior of `findFirst()` method in Java 8  streams?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -209,7 +209,7 @@ one
 
 ---
 
-11. What is the behavior of `findAny()` method in Java 8  streams?
+11.What is the behavior of `findAny()` method in Java 8  streams?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -222,7 +222,7 @@ Stream `findAny()` returns an Optional (a container object which may or may not 
 
 ---
 
-12. When to use `findAny()` method in Java 8 streams?
+12.When to use `findAny()` method in Java 8 streams?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -236,7 +236,7 @@ There are instances where you have a stream, but you only want to select a rando
 
 ---
 
-13. What do you mean by stream?
+13.What do you mean by stream?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -246,14 +246,14 @@ There are instances where you have a stream, but you only want to select a rando
 - Streams are just sequence of data from a source.
 - With Java 8, we can do manipulation on data using stream API.
 - Example: Youtube
-    - If we are watching a video all the content of the video will not be loaded at once. As the time elapses, we will get the content.
+    - If we are watching a video all the content of the video will not be loaded at once.As the time elapses, we will get the content.
 
 </blockquote>
 </details>
 
 ---
 
-14. Can you tell me difference between Collection API and Stream API?
+14.Can you tell me difference between Collection API and Stream API?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -274,7 +274,7 @@ There are instances where you have a stream, but you only want to select a rando
 
 ---
 
-15. Do you know what are the various forms of writing lambda expressions?
+15.Do you know what are the various forms of writing lambda expressions?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -291,7 +291,7 @@ We can declare a lambda expression by-
 
 ---
 
-16. What do you understand by `@Functional Interface` annotation in Java 8?
+16.What do you understand by `@Functional Interface` annotation in Java 8?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -306,7 +306,7 @@ We can declare a lambda expression by-
 
 ---
 
-17. How do you create a custom annotation in Java?
+17.How do you create a custom annotation in Java?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -348,7 +348,7 @@ import java.lang.annotation.RetentionPolicy;
 <details markdown="1"> <summary> <b> Explanation </b> </summary>
 <blockquote markdown="1">
 
-In this example, we have used RetentionPolicy.RUNTIME because we want to demonstrate and read annotation at runtime. RetentionPolicy.RUNTIME indicates that annotations are to be recorded in the class file by the compiler and retained by the virtual machine at run time, so they may be read reflectively.
+In this example, we have used RetentionPolicy.RUNTIME because we want to demonstrate and read annotation at runtime.RetentionPolicy.RUNTIME indicates that annotations are to be recorded in the class file by the compiler and retained by the virtual machine at run time, so they may be read reflectively.
 
 **Output**
 
@@ -360,7 +360,7 @@ In this example, we have used RetentionPolicy.RUNTIME because we want to demonst
 
 ---
 
-18. How to avoid  `NullPointer exception ` in Java 8?
+18.How to avoid  `NullPointer exception ` in Java 8?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -381,7 +381,7 @@ Example:
 
 ---
 
-19. What are the different types of functional interfaces in Java 8?
+19.What are the different types of functional interfaces in Java 8?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -398,7 +398,7 @@ Example:
 
 ---
 
-20. How would you convert object of type Iterable to Stream?
+20.How would you convert object of type Iterable to Stream?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -446,14 +446,14 @@ class Main{
 
 ---
 
-21.  How to overcome, multiple inheritance problem in Java 8?
+21. How to overcome, multiple inheritance problem in Java 8?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
     
-we can do that by overriding the default method in the implementation class. Altogether provide new implementation or invoke either one of the `default()` method using `super` keyword
+we can do that by overriding the default method in the implementation class.Altogether provide new implementation or invoke either one of the `default()` method using `super` keyword
 For example, `\<interfaceName\>.super.\<defaultMethodName\>`
 
 </blockquote>
@@ -461,7 +461,7 @@ For example, `\<interfaceName\>.super.\<defaultMethodName\>`
 
 ---
 
-22. What happens, if a class implements two interfaces having exactly same method with same signature (consider one as default and another abstract)?
+22.What happens, if a class implements two interfaces having exactly same method with same signature (consider one as default and another abstract)?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -478,7 +478,7 @@ For example, `\<interfaceName\>.super.\<defaultMethodName\>`
 ---
 
 
-23. What is the purpose of `joining ()` method introduced in Java 8 ?
+23.What is the purpose of `joining ()` method introduced in Java 8 ?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -491,7 +491,7 @@ The `joining ()` method of the Collectors class in Java 8 returns a Collector th
     public class Example {
         public static void main (String[] args) {
             List<Character> list = Arrays.asList('D', 'e', 'm', 'o');
-            String str = list. stream().map(String::valueOf).collect(Collectors.joining());
+            String str = list.stream().map(String::valueOf).collect(Collectors.joining());
             System.out.println("Concatenated = "+str);
         }
     }
@@ -506,7 +506,7 @@ Concatenated = Demo
 
 ---
 
-24. What is the use of the `String::Value of` expression in Java 8?
+24.What is the use of the `String::Value of` expression in Java 8?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -521,14 +521,14 @@ Concatenated = Demo
 
 ---
 
-25. What do you mean by method reference in Java 8?
+25.What do you mean by method reference in Java 8?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
 
-It refers to methods of functional interfaces. It can be considered as a short-code version of using a lambda expression.
+It refers to methods of functional interfaces.It can be considered as a short-code version of using a lambda expression.
 
 The following is the expression for a method reference:
 
@@ -539,7 +539,7 @@ The following is the expression for a method reference:
 
 ---
 
-26. What is the easiest way to print the current date and time using the new APIs in Java 8?
+26.What is the easiest way to print the current date and time using the new APIs in Java 8?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -565,7 +565,7 @@ Similarly, it can also be used to get the current time:
 
 ---
 
-27. Differentiate between intermediate and terminal operations in Java 8.
+27.Differentiate between intermediate and terminal operations in Java 8.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -586,7 +586,7 @@ Similarly, it can also be used to get the current time:
 </details>
 
 ---
-28. Can the following piece of code compile successfully?
+28.Can the following piece of code compile successfully?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -607,14 +607,14 @@ default void count() {
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
 
-Yes, the code can compile and execute without any errors. It uses functional interface specifications when the single abstract method is being defined.
+Yes, the code can compile and execute without any errors.It uses functional interface specifications when the single abstract method is being defined.
 
 </blockquote>
 </details>
 
 ---
 
-29. What is the code to sort strings using the Java 8 lambda expression?
+29.What is the code to sort strings using the Java 8 lambda expression?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -638,7 +638,7 @@ Collections.sort(names, (s1, s2) -> s1.compareTo(s2));
 
 ---
 
-30. Is it possible to call a static method of any interface in a class using Java 8?
+30.Is it possible to call a static method of any interface in a class using Java 8?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -666,7 +666,7 @@ Yes, it is possible to call a static method in a class by making use of the name
 
 ---
 
-31. Do you know how the `random` keyword in Java 8 works?
+31.Do you know how the `random` keyword in Java 8 works?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -688,21 +688,21 @@ random.ints().limit(20).forEach(System.out::println);
 
 ---
 
-32. Explain about collectors in Java 8?
+32.Explain about collectors in Java 8?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
 
-Collectors are mainly used to combine the result after the processing of elements in a stream. They are used to return lists or strings.
+Collectors are mainly used to combine the result after the processing of elements in a stream.They are used to return lists or strings.
 
 </blockquote>
 </details>
 
 ---
 
-33. What is the easiest way to print the sum of all the numbers present in a list using Java 8?
+33.What is the easiest way to print the sum of all the numbers present in a list using Java 8?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -722,7 +722,7 @@ In Java 8, the following code is used to print the sum of all of the numbers tha
 
 ---
 
-34. When is an ideal situation to use the Stream API in Java 8?
+34.When is an ideal situation to use the Stream API in Java 8?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -743,21 +743,21 @@ The Stream API in Java 8 can be effectively used if the Java project calls for t
 
 ---
 
-35. Can you tell me about supplier in Java 8?
+35.Can you tell me about supplier in Java 8?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
 
-A supplier is a simple functional interface in Java 8 that does not take in any argument. It is used as an assignment target when making use of lambda expressions.
+A supplier is a simple functional interface in Java 8 that does not take in any argument.It is used as an assignment target when making use of lambda expressions.
 
 </blockquote>
 </details>
 
 ---
 
-36. Do you know about predicate in Java 8 ?
+36.Do you know about predicate in Java 8 ?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -765,14 +765,14 @@ A supplier is a simple functional interface in Java 8 that does not take in any 
 <blockquote markdown="1">
 
 - The Predicate is also a functional interface in Java and it is defined in the java.util.function package.
-- It improves the readability and manageability of our code. Also, it helps us in unit testing them separately.
+- It improves the readability and manageability of our code.Also, it helps us in unit testing them separately.
 - We can use Predicate anywhere where we need to evaluate a condition on a Collection of objects such that evaluation can result either in true or false.
 </blockquote>
 </details>
 
 ---
 
-37. Can you name the common types of functional interfaces in the standard library?
+37.Can you name the common types of functional interfaces in the standard library?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -793,7 +793,7 @@ There are many functional interface types in the standard library, and some of t
 
 ---
 
-38. Can you give examples of intermediate operations in Java 8?
+38.Can you give examples of intermediate operations in Java 8?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -813,7 +813,7 @@ The examples that are widely used in intermediate operations are:
 
 ---
 
-39. What are the similarities between `map` and `flatMap` stream operations in Java 8?
+39.What are the similarities between `map` and `flatMap` stream operations in Java 8?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -834,21 +834,21 @@ Both `map` and `flatMap` operations are a form of intermediate stream operations
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
 
-Duplicate elements can be listed and removed easily by applying stream operations and performing a collection, later using the `Collections.toSet()` method. This should remove all the duplicate elements present in the list.
+Duplicate elements can be listed and removed easily by applying stream operations and performing a collection, later using the `Collections.toSet()` method.This should remove all the duplicate elements present in the list.
 
 </blockquote>
 </details>
 
 ---
 
-41. What is the easiest way to convert an array into a stream in Java 8?
+41.What is the easiest way to convert an array into a stream in Java 8?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
 
-Any array in Java 8 can be converted into a stream easily using the stream class. The creation of a stream using a factory method is as shown below:
+Any array in Java 8 can be converted into a stream easily using the stream class.The creation of a stream using a factory method is as shown below:
 
 ```Java
     String[] testarray = {"Hello", "Intellipaat", "learners"};
@@ -860,14 +860,14 @@ Any array in Java 8 can be converted into a stream easily using the stream class
 
 ---
 
-42. What is the use of the `peek()` method in Java 8?
+42.What is the use of the `peek()` method in Java 8?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
 
-The `peek()` method is a part of the stream class in Java 8, which is used to see actions performed through a stream pipeline. Peeking can be done at every step to print messages about the code being executed onto the console.
+The `peek()` method is a part of the stream class in Java 8, which is used to see actions performed through a stream pipeline.Peeking can be done at every step to print messages about the code being executed onto the console.
 
 Peeking has a wide amount of usage when efficiency is a requirement, when debugging code with the lambda expression, or when performing stream processing.
 
@@ -876,21 +876,21 @@ Peeking has a wide amount of usage when efficiency is a requirement, when debugg
 
 ---
 
-43.  What is the meaning of a `Spliterator` in Java 8?
+43. What is the meaning of a `Spliterator` in Java 8?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
 
-Spliterator is a newly introduced iterator interface for Java 8. It is very efficient and handles API-related operations seamlessly across the runtime environment.
+Spliterator is a newly introduced iterator interface for Java 8.It is very efficient and handles API-related operations seamlessly across the runtime environment.
 
 </blockquote>
 </details>
 
 ---
 
-44. Explain the different time and date APIs and when you may use them.
+44.Explain the different time and date APIs and when you may use them.
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -902,17 +902,17 @@ Spliterator is a newly introduced iterator interface for Java 8. It is very effi
     - Zonal: It is a specialized date-time API to deal with various timezones.
 
 - Java LocalDate Time Class:
-    - It is an immutable date-time object that represents a date-time, with the default format as yyyy-MM-dd-HH-mm-ss.zzz. It is used when time zones are NOT required.
+    - It is an immutable date-time object that represents a date-time, with the default format as yyyy-MM-dd-HH-mm-ss.zzz.It is used when time zones are NOT required.
 
 - ZonedDate Time Class in Java:
-    - It is an immutable representation of a date-time with a time-zone. Use it when time zones are to be considered. It is used to store all date and time fields.
+    - It is an immutable representation of a date-time with a time-zone.Use it when time zones are to be considered.It is used to store all date and time fields.
     
 </blockquote>
 </details>
 
 ---
 
-45. In Java, how do you convert a String to a LocalDate or a LocalDateTime? ?
+45.In Java, how do you convert a String to a LocalDate or a LocalDateTime? ?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -933,7 +933,7 @@ System.out.println("Parsed date : " + newDate);
 
 ---
 
-46. What is the difference between a predicate and a function?
+46.What is the difference between a predicate and a function?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -949,14 +949,14 @@ System.out.println("Parsed date : " + newDate);
 
 ---
 
-47. Can a functional interface extend/inherit another interface?
+47.Can a functional interface extend/inherit another interface?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
 
-A functional interface cannot extend another interface with abstract methods as it will void the rule of one abstract method per functional interface. 
+A functional interface cannot extend another interface with abstract methods as it will void the rule of one abstract method per functional interface.
 
 Example:
 
@@ -979,7 +979,7 @@ It can extend other interfaces which do not have any abstract method and only ha
 
 ---
 
-48. What are the advantages of using the Optional class?
+48.What are the advantages of using the Optional class?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
