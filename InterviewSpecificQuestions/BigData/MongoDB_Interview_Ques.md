@@ -520,7 +520,7 @@ db.collection.find({
 <details><summary> <b>Show Answer</b> </summary> 
 
 > 
-```
+```mongodb-json-query
 db.collection_name.find({
        $and : [
        {"week": {$nin : [ "Monday", "Tuesday"]}},
