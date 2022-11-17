@@ -1,8 +1,0 @@
-
-1.In order to assign a value to each element on an HTML page, use the _________ method.
-A. # (hash)
-B. * (astrik)    
-C. . (dot)
-D. ^ (exponent)
-
-Answer: B
