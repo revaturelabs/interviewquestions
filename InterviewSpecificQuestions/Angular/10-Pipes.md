@@ -212,16 +212,6 @@ The output will be like
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-[//]: # ( For example,)
-
-[//]: # ( ```html)
-
-[//]: # (<p>{{ "abcdefghijk" | slice:3:7}}  </p>)
-
-[//]: # (<!-- output: 'defg' -->)
-
-[//]: # (```)
-
 We have a slice pipe in angular to slice the strings. Here, a number is given per character to our input string to understand the start and end index. The index starts from 0.
     
 ```
