@@ -524,7 +524,7 @@ db.collection.find({
 db.collection_name.find({
        $and : [
        {"week": {$nin : [ "Monday", "Tuesday"]}},
-       {"experience" : {%lt : 5}}
+       {"experience" : {< : 5}}
        ]},
        {"_id": 0, "name" : 1, "department" : 1}
        );
