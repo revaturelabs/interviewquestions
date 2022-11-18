@@ -16,7 +16,6 @@ The Hadoop cluster is  up and running, the NameNode recovery method used the fol
 
 - After the new NameNode has finished loading the last checkpoint Fuselage (for metadata information) and received enough block reports from the DataNodes, it will begin serving the client.
 
-
 </blockquote>
 
 </details>
