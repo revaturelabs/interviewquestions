@@ -91,11 +91,11 @@ toc:
   - title: Java Automation
     subfolderitems:
       - page: API Testing
-        url: InterviewSpecificQuestions/Java Automation/01-api-testing-IS.html
+        url: InterviewSpecificQuestions/Java Automation/01-APITesting.html
       - page: Testing Automation
-        url: InterviewSpecificQuestions/Java Automation/02-testing-automation.html
+        url: InterviewSpecificQuestions/Java Automation/02-TestingAutomation.html
       - page: Testing Fundamentals
-        url: InterviewSpecificQuestions/Java Automation/03-testing-fundamentals-IS.html
+        url: InterviewSpecificQuestions/Java Automation/03-TestingFundamentals.html
   - title: Java Script
     subfolderitems:
       - page: Java Script
