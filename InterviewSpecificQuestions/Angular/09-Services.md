@@ -1,6 +1,6 @@
 1. How do you make a service available for a component?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -36,7 +36,7 @@ export class UserComponent implements OnInit  {
 
 2. How do you make a service available at the application level?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -61,7 +61,7 @@ export class UserService {
 
 3.  How do you make service available at the NgModule level? _or_ How do you make service available for all components in a NgModule?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -87,7 +87,7 @@ When you register a provider with a specific NgModule, the same instance of a se
 
 4. How do you inject a dependency in angular?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
