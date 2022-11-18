@@ -1,6 +1,6 @@
 ## Technical
 
-1. What is `Agile`?
+1.What is `Agile`?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -8,7 +8,7 @@
 
 <blockquote markdown="1"> 
     
-- Agile is the ability to create and respond to change. 
+- Agile is the ability to create and respond to change.
 - Agile is a way of dealing with, and ultimately succeeding in, an uncertain environment.
   
 </blockquote> 
@@ -16,7 +16,7 @@
 </details>
 
 ---
-2. What is `Agile Development`?
+2.What is `Agile Development`?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -24,14 +24,14 @@
 
 <blockquote markdown="1"> 
     
-- Agile Development is a set of methods and practices where solutions evolve through collaboration between self-organizing, cross-functional teams. 
+- Agile Development is a set of methods and practices where solutions evolve through collaboration between self-organizing, cross-functional teams.
     
 </blockquote> 
 
 </details>
 
 ---
-3. Name any three `Agile Methodology Frameworks`.
+3.Name any three `Agile Methodology Frameworks`.
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -48,7 +48,7 @@
 </details>
 
 ---
-4. State True or False: In the waterfall model, the one-direction flow makes changes to previous stages impossible
+4.State True or False: In the waterfall model, the one-direction flow makes changes to previous stages impossible
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -63,7 +63,7 @@
 </details>
 
 ---
-5. What do you mean by Sprint in the Agile framework?
+5.What do you mean by Sprint in the Agile framework?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -78,7 +78,7 @@
 </details>
 
 ---
-6. What do you mean by Story Point in Agile?
+6.What do you mean by Story Point in Agile?
 
 ![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
@@ -86,7 +86,7 @@
 
 <blockquote markdown="1"> 
 
-- A level of difficulty assigned to a user story using a sequence of numbers that increases with increasing difficulty. Story points are used to measure the complexity of a story. 
+- A level of difficulty assigned to a user story using a sequence of numbers that increases with increasing difficulty.Story points are used to measure the complexity of a story.
 - The overall goal of a story is to provide value to its use within a set timeframe.
 
 </blockquote> 
@@ -94,7 +94,7 @@
 </details>
 
 ---
-7. What is Sprint velocity?
+7.What is Sprint velocity?
 
 ![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
@@ -102,7 +102,7 @@
 
 <blockquote markdown="1"> 
   
-- The sum of story points of all user stories completed during a sprint. 
+- The sum of story points of all user stories completed during a sprint.
 - Velocity allows Agile teams to predict how many user stories more accurately can be completed in future sprints.
 
 </blockquote> 
@@ -110,7 +110,7 @@
 </details>
 
 ---
-8. What do you understand by Product Backlog?
+8.What do you understand by Product Backlog?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -125,7 +125,7 @@
 </details>
 
 ---
-9. What is Sprint Planning Meeting?
+9.What is Sprint Planning Meeting?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -140,7 +140,7 @@
 </details>
 
 ---
-10. What is the purpose of a daily standup meeting?
+10.What is the purpose of a daily standup meeting?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -155,7 +155,7 @@
 </details>
 
 ---
-11. What are the three main questions in daily scrum meetings?
+11.What are the three main questions in daily scrum meetings?
 
 ![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
@@ -173,7 +173,7 @@
 </details>
 
 ---
-12. What is Epic in agile?
+12.What is Epic in agile?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -181,14 +181,14 @@
 
 <blockquote markdown="1"> 
 
-- An epic is a large body of work that can be broken down into several smaller stories. 
+- An epic is a large body of work that can be broken down into several smaller stories.
 
 </blockquote> 
 
 </details>
 
 ---
-13. What are scrum roles?
+13.What are scrum roles?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -206,7 +206,7 @@
 </details>
 
 ---
-14. What is the meaning of Sprint Backlog?
+14.What is the meaning of Sprint Backlog?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -221,7 +221,7 @@
 </details>
 
 ---
-15. What is Sprint Review?
+15.What is Sprint Review?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -229,14 +229,14 @@
 
 <blockquote markdown="1"> 
 
-- A sprint review is an informal meeting held at the end of a sprint, during which the team members show what was accomplished, while the stakeholders provide feedback. 
+- A sprint review is an informal meeting held at the end of a sprint, during which the team members show what was accomplished, while the stakeholders provide feedback.
 
 </blockquote> 
 
 </details>
 
 ---
-16. What is Sprint Retrospective?
+16.What is Sprint Retrospective?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -251,7 +251,7 @@
 </details>
 
 ---
-17. What is Sprint Burndown Chart in Agile?
+17.What is Sprint Burndown Chart in Agile?
 
 ![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
@@ -266,7 +266,7 @@
 </details>
 
 ---
-18. What is the role of the Scrum Master?
+18.What is the role of the Scrum Master?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 

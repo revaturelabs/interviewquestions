@@ -1,6 +1,6 @@
 ## Technical
 
-1. What is the meaning of Monolithic Application?
+1.What is the meaning of Monolithic Application?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -16,7 +16,7 @@
 
 ---
 
-2. What do you understand by Monolithic Architectural style?
+2.What do you understand by Monolithic Architectural style?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -26,9 +26,9 @@
     
 - `Monolithic Architectural Style` is traditional software development style.
 - It is built as a unified one code base unit that is self-contained and independent from other applications.
-- In Monolithic style code is tightly coupled and servers all of the business concerns together.  
-- To make a change to Monolithic of application requires update to entire stack by accessing the code base and building and deploying an updated version of the service-side interface. 
-- This leads to changes/updates restrictive and time-consuming. 
+- In Monolithic style code is tightly coupled and servers all of the business concerns together. 
+- To make a change to Monolithic of application requires update to entire stack by accessing the code base and building and deploying an updated version of the service-side interface.
+- This leads to changes/updates restrictive and time-consuming.
 	
 </blockquote> 
 
@@ -36,7 +36,7 @@
 
 ---
 
-3. Why we should avoid Monolithic Style? 
+3.Why we should avoid Monolithic Style? 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -58,7 +58,7 @@
 
 ---
 
-4. Though we prefer Microservices over Monolithic, still do you see any advantages of building Monolithic applications?
+4.Though we prefer Microservices over Monolithic, still do you see any advantages of building Monolithic applications?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -80,7 +80,7 @@
 
 ---
 
-5. How do you go about designing microservices?
+5.How do you go about designing microservices?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -91,15 +91,15 @@
 - Microservices is an architecture style to build large scale applications that can be scaled up independently.
 - In a microservice architecture design, we divide an application into suite of small services, each running in its own process and communicating with lightweight mechanisms, often an HTTP resource API.
 - These services are built around business capabilities and independently deployable by fully automated deployment process.
-- There is a bare minimum of centralized management of these services, which may be written in different programming languages and use different data storage technologies. 
-- Each service runs a unique process and manages its database. 
+- There is a bare minimum of centralized management of these services, which may be written in different programming languages and use different data storage technologies.
+- Each service runs a unique process and manages its database.
 - A service can generate alerts, log data, support user interfaces (UIs), handle user identification or authentication, and perform various other tasks.
 	
 </details>
 
 ---
 	
-6. What if there are already complex, huge legacy applications operational for decades? Can we convert them into microservices?
+6.What if there are already complex, huge legacy applications operational for decades? Can we convert them into microservices?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -107,10 +107,10 @@
 
 <blockquote markdown="1"> 
     
-- Top companies in the world for example Amazon, Netflix, Uber, etc., have adopted the microservices architecture(`MSA`) style for developing their applications. 
-- Over time, these enterprises dismantled their monolithic applications and refactored them into microservice-based architectures. 
+- Top companies in the world for example Amazon, Netflix, Uber, etc., have adopted the microservices architecture(`MSA`) style for developing their applications.
+- Over time, these enterprises dismantled their monolithic applications and refactored them into microservice-based architectures.
 - Usually, the legacy applications which involved huge capital and way complex at core takes time to slowly migrate to MSA.
-- Companies are trying to migrate first the UI or client facing layer to MSA followed by slowly moving towards the core complex layers. 
+- Companies are trying to migrate first the UI or client facing layer to MSA followed by slowly moving towards the core complex layers.
 - This has given them scaling advantages, greater business agility, and increased profits.
 	
 </blockquote> 
@@ -118,7 +118,7 @@
 </details>
 
 ---
-7. What is so special about Netflix and Microservices?
+7.What is so special about Netflix and Microservices?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -137,7 +137,7 @@
 
 ---
 	
-8. What is Netflix OSS?
+8.What is Netflix OSS?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -145,7 +145,7 @@
 
 <blockquote markdown="1"> 
     
-- Netflix has created `Open-Source Software (OSS)` for creating microservices application when it was transiting from monolithic application to microservices. 
+- Netflix has created `Open-Source Software (OSS)` for creating microservices application when it was transiting from monolithic application to microservices.
 - Netflix decided to contribute these libraries and frameworks to the broader open-source community.
 - These libraries and frameworks can be used by anyone who wants to create a microservices application for their business.
 
@@ -154,7 +154,7 @@
 </details>
 
 ---
-9. What is `Spring Cloud`?
+9.What is `Spring Cloud`?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -163,7 +163,7 @@
 <blockquote markdown="1"> 
     
 - Just like Spring Framework, Spring Data & Spring Boot, there is another project called Spring Cloud.
-- Spring Cloud project help build robust cloud applications and it provides a solution to the commonly encountered patterns when developing a distributed system. 
+- Spring Cloud project help build robust cloud applications and it provides a solution to the commonly encountered patterns when developing a distributed system.
 - Spring Cloud project provides tools for developers to quickly build both cloud and microservice-based applications.
 	
 </blockquote> 
@@ -171,7 +171,7 @@
 </details>
 
 ---
-10. What is `Spring Cloud Netflix`?
+10.What is `Spring Cloud Netflix`?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -179,16 +179,16 @@
 
 <blockquote markdown="1"> 
     
-- `Spring Cloud` is divided into a group of sub projects for managing the challenges of development of cloud-based systems. 
-- `Spring Cloud Netflix` provides Netflix OSS integrations for Spring Boot apps through autoconfiguration and binding to the Spring Environment. 
-- With a few simple annotations, we can quickly enable and configure the common patterns inside our application and build large distributed systems with various Netflix components. 
+- `Spring Cloud` is divided into a group of sub projects for managing the challenges of development of cloud-based systems.
+- `Spring Cloud Netflix` provides Netflix OSS integrations for Spring Boot apps through autoconfiguration and binding to the Spring Environment.
+- With a few simple annotations, we can quickly enable and configure the common patterns inside our application and build large distributed systems with various Netflix components.
 
 </blockquote> 
 
 </details>
 
 ---
-11. Can you name few Netflix component that can be used in Spring Cloud project?
+11.Can you name few Netflix component that can be used in Spring Cloud project?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -207,7 +207,7 @@
 </details>
 
 ---
-12. What do you know about Service Discovery in Microservices?
+12.What do you know about Service Discovery in Microservices?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -225,7 +225,7 @@
 
 ---
 	
-13. What are the Service Discovery providers you know?
+13.What are the Service Discovery providers you know?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -240,7 +240,7 @@
 </details>
 
 ---
-14.   What is use of Netflix Eureka? 
+14.  What is use of Netflix Eureka? 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -250,17 +250,17 @@
     
 - Netflix Eureka is used as Service Discovery Server.
 - Each client microservice need to first register with Eureka server.
-- Post registration Eureka server provides metadata such as host, post, and health indicators which allows other microservices to discover it. 
-- The discovery server expects a regular heartbeat message from each microservice instance. 
-- If any microservice instance consistently fail to send a heartbeat, then the discovery server will remove the instance from its registry. 
-- This way Eureka server maintains very stable ecosystem of microservices collaborating with each other. 
+- Post registration Eureka server provides metadata such as host, post, and health indicators which allows other microservices to discover it.
+- The discovery server expects a regular heartbeat message from each microservice instance.
+- If any microservice instance consistently fail to send a heartbeat, then the discovery server will remove the instance from its registry.
+- This way Eureka server maintains very stable ecosystem of microservices collaborating with each other.
 	
 </blockquote> 
 
 </details>
 
 ---
-15.  Can we manually maintain addresses of each service while building microservices based applications?
+15. Can we manually maintain addresses of each service while building microservices based applications?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -278,7 +278,7 @@
 </details>
 
 ---
-16. How do you configure Eureka Server in Spring Boot maven application?
+16.How do you configure Eureka Server in Spring Boot maven application?
 
 ![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
@@ -325,8 +325,8 @@ eureka.client.fetch-registry=false
 eureka.server.max-threads-for-peer-replication=0
 
 #When the registry starts, it will complain (with a stack trace) that there 
-#are no replica nodes to which the registry can connect. In a production environment,
-#you will want more than one instance of the registry. For our simple purposes, 
+#are no replica nodes to which the registry can connect.In a production environment,
+#you will want more than one instance of the registry.For our simple purposes, 
 #however, it suffices to disable the relevant logging.
 #logging.level.com.netflix.eureka=OFF
 #logging.level.com.netflix.discovery=OFF
@@ -355,7 +355,7 @@ public class EurekaServerApplication {
 </details>
 
 ---
-17. How do we register our service into Service Discovery server?
+17.How do we register our service into Service Discovery server?
 
 ![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
@@ -404,8 +404,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 //@EnableDiscoveryClient will register discovery service using the jar available in class path like Consul, Eureka, Kubernetes.
-//@EnableDiscoveryClient lives in spring-cloud-commons and picks the implementation on the class path. 
-//@EnableEurekaClient lives in spring-cloud-Netflix and only works for Eureka. If eureka is on your class path, they are effectively the same.
+//@EnableDiscoveryClient lives in spring-cloud-commons and picks the implementation on the class path.
+//@EnableEurekaClient lives in spring-cloud-Netflix and only works for Eureka.If eureka is on your class path, they are effectively the same.
 
 @SpringBootApplication
 @EnableDiscoveryClient
@@ -424,7 +424,7 @@ public class ProducerEureka2 {
 
 ---
 
-18. What is the difference between @EnableDiscoveryClient and @EnableEurekaClient?
+18.What is the difference between @EnableDiscoveryClient and @EnableEurekaClient?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -432,10 +432,10 @@ public class ProducerEureka2 {
 
 <blockquote markdown="1"> 
     
-- There are multiple implementations of "Discovery Service" (Eureka, Consul, Zookeeper). 
+- There are multiple implementations of "Discovery Service" (Eureka, Consul, Zookeeper).
 - `@EnableDiscoveryClient` will register discovery service using the jar available in class path like Consul, Eureka, Kubernetes.
-- `@EnableDiscoveryClient` lives in `spring-cloud-commons` and picks the implementation on the class path. 
-- `@EnableEurekaClient` lives in `spring-cloud-Netflix` and only works for Eureka. 
+- `@EnableDiscoveryClient` lives in `spring-cloud-commons` and picks the implementation on the class path.
+- `@EnableEurekaClient` lives in `spring-cloud-Netflix` and only works for Eureka.
 - If eureka is on your class path, they are effectively the same.
 </blockquote> 
 
@@ -443,7 +443,7 @@ public class ProducerEureka2 {
 
 ---
 
-19. How to fetch service URL from `Service Discovery` server using `DiscoveryClient`?
+19.How to fetch service URL from `Service Discovery` server using `DiscoveryClient`?
 
 ![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
@@ -476,7 +476,7 @@ public class ProducerEureka2 {
 
 ---
 
-20. What do you understand by load balancing?
+20.What do you understand by load balancing?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -492,7 +492,7 @@ public class ProducerEureka2 {
 
 ---
 
-21. Do you know what are the two types of load balancing techniques?
+21.Do you know what are the two types of load balancing techniques?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -502,14 +502,14 @@ public class ProducerEureka2 {
     
 - Yes, there is client and server-side load balancing.
 - In server-side load balancing, the clients call an intermediate reverse proxy server, which then decides which instance of the actual server or microservice) will get call.
-- In client-side load balancing, the clients call an intermediate server (the API gateway - e.g., Zuul, configured with a load-balancer - e.g., Ribbon and a discovery server - e.g. Eureka), which then decides which instance of the microservice to call.
+- In client-side load balancing, the clients call an intermediate server (the API gateway - e.g., Zuul, configured with a load-balancer - e.g., Ribbon and a discovery server - e.g.Eureka), which then decides which instance of the microservice to call.
  
 </blockquote> 
 
 </details>
 
 ---
-22. What is the use of Netflix Ribbon?
+22.What is the use of Netflix Ribbon?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -517,8 +517,8 @@ public class ProducerEureka2 {
 
 <blockquote markdown="1"> 
     
-- Netflix Ribbon is a Part of Netflix Open-Source Software (Netflix OSS). 
-- This library provides client-side load balancing. 
+- Netflix Ribbon is a Part of Netflix Open-Source Software (Netflix OSS).
+- This library provides client-side load balancing.
 - It automatically interacts with Netflix Service Discovery (Eureka) because it is a member of the Netflix family.
   
 </blockquote> 
@@ -526,7 +526,7 @@ public class ProducerEureka2 {
 </details>
 
 ---
-23. How to configure & use Netflix Ribbon in Spring application?
+23.How to configure & use Netflix Ribbon in Spring application?
 
 ![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
@@ -574,7 +574,7 @@ public class ProducerEureka2 {
 </details>
 
 ---
-24. What do you understand by Circuit Breaker?
+24.What do you understand by Circuit Breaker?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -582,7 +582,7 @@ public class ProducerEureka2 {
 
 <blockquote markdown="1"> 
     
-- Circuit Breaker is a design pattern used in software development. 
+- Circuit Breaker is a design pattern used in software development.
 - It is used to detect failures and encapsulates the logic of preventing a failure from constantly recurring, during maintenance, temporary external system failure or unexpected system difficulties.
 - The Circuit Breaker design pattern stops sending the request to the service which is not working or taking too long to respond.
 - Circuit Breaker aims in building fault-tolerant and resilient systems.
@@ -591,7 +591,7 @@ public class ProducerEureka2 {
 </details>
 
 ---
-25. How Spring Cloud supports Circuit Breaker?
+25.How Spring Cloud supports Circuit Breaker?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -601,7 +601,7 @@ public class ProducerEureka2 {
     
 - Spring Cloud’s Circuit Breaker library provides an implementation of the Circuit Breaker pattern.
 - When we wrap a method call in a circuit breaker, Spring Cloud Circuit Breaker watches for failing calls to that method.
-- In case failure occurs, Spring Cloud Circuit Breaker opens the circuit so that subsequent calls automatically fail. 
+- In case failure occurs, Spring Cloud Circuit Breaker opens the circuit so that subsequent calls automatically fail.
 - While the circuit is open, Spring Cloud Circuit Breaker redirects calls to our specified `fallback method`.
 	
 </blockquote> 
@@ -609,7 +609,7 @@ public class ProducerEureka2 {
 </details>
 
 ---
-26. Which circuit breaker implementations does Spring cloud supports?
+26.Which circuit breaker implementations does Spring cloud supports?
 
 ![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
@@ -617,14 +617,14 @@ public class ProducerEureka2 {
 
 <blockquote markdown="1"> 
     
-- Spring Cloud Circuit Breaker supports many different circuit breaker implementations including, Resilience4J, Netflix Hystrix, Sentinal, and Spring Retry etc. 
+- Spring Cloud Circuit Breaker supports many different circuit breaker implementations including, Resilience4J, Netflix Hystrix, Sentinal, and Spring Retry etc.
 </blockquote> 
 
 </details>
 
 ---
 
-27. How to configure and use Netflix Hystrix?
+27.How to configure and use Netflix Hystrix?
 
 ![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
@@ -711,7 +711,7 @@ public class ProducerEurekaHystrix {
 </details>
 
 ---
-28. What do you understand by `API Gateway`?
+28.What do you understand by `API Gateway`?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -720,8 +720,8 @@ public class ProducerEurekaHystrix {
 <blockquote markdown="1"> 
     
 - In simple term, the API Gateway is responsible to take requests and redirects them to the right service.
-- We can expose multiple services (REST, SOAP, etc.) through a single API Gateway. 
-- We can create micro-services to implement our business logic and expose them to external users/system by publishing those service as an API in an API Gateway. 
+- We can expose multiple services (REST, SOAP, etc.) through a single API Gateway.
+- We can create micro-services to implement our business logic and expose them to external users/system by publishing those service as an API in an API Gateway.
 - Apart from simple routing API Gateway, also provide various other features like-
   - Security (User authentication & authorization)
   - Throttling management
@@ -738,7 +738,7 @@ public class ProducerEurekaHystrix {
 </details>
 
 ---
-29. What is use of Netflix Zuul?
+29.What is use of Netflix Zuul?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -748,16 +748,16 @@ public class ProducerEurekaHystrix {
     
 - Netflix Zuul is an API Gateway server.
 - Zuul Server dynamically routes the requests to the respective backend microservice application.
-- For Example, all request starting with /api/account are mapped to account service and those starting with /api/sales are mapped to the sales service. 
-- It works as a front door for all the requests. 
-- Zuul is built to enable dynamic routing, monitoring, resiliency, and security. 
+- For Example, all request starting with /api/account are mapped to account service and those starting with /api/sales are mapped to the sales service.
+- It works as a front door for all the requests.
+- Zuul is built to enable dynamic routing, monitoring, resiliency, and security.
 - Zuul is a JVM-based router and server-side load balancer from Netflix.
 </blockquote> 
 
 </details>
 
 ---
-30. How to configure and use Netflix Zuul in Spring cloud application?
+30.How to configure and use Netflix Zuul in Spring cloud application?
 
 ![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
@@ -841,7 +841,7 @@ public class EmployeeZuulGatwayApplication {
 </details>
 
 ---
-31. What are Zuul Filter & its types?
+31.What are Zuul Filter & its types?
 
 ![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
@@ -850,7 +850,7 @@ public class EmployeeZuulGatwayApplication {
 <blockquote markdown="1"> 
     
 - Netflix Zuul mainly comprises of four types of filters.
-- Filter enable us to intercept the traffic in different timeline of the request processing. 
+- Filter enable us to intercept the traffic in different timeline of the request processing.
 - We can add any number of filters for a particular url pattern.
   - `Pre filters` – Invoked before the request is routed.
   - `Post filters` – Invoked after the request has been routed.
@@ -862,7 +862,7 @@ public class EmployeeZuulGatwayApplication {
 </details>
 
 ---
-32.  What is meaning of Blue/Green Deployments?
+32. What is meaning of Blue/Green Deployments?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -871,9 +871,9 @@ public class EmployeeZuulGatwayApplication {
 <blockquote markdown="1"> 
     
 - A blue/green deployment is an application deployment strategy.
-- First, we create two separate, but identical environments. 
-- One environment (blue) is running the current application version and one environment (green) is running the new application version. 
-- Using a blue/green deployment strategy increases application availability and reduces deployment risk by simplifying the rollback process if a deployment fails. 
+- First, we create two separate, but identical environments.
+- One environment (blue) is running the current application version and one environment (green) is running the new application version.
+- Using a blue/green deployment strategy increases application availability and reduces deployment risk by simplifying the rollback process if a deployment fails.
 - Once testing has been completed on the green environment, live application traffic is directed to the green environment and the blue environment is deprecated.
 	
 </blockquote> 

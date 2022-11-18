@@ -6,8 +6,8 @@
 
 <blockquote markdown="1">
 
-- `JDBC(Java Database Connectivity)` is a Java API, which is helpful in interacting with the database to retrieve, manipulate and process the data using SQL. 
-- It will make use of JDBC drivers for connecting to the database. 
+- `JDBC(Java Database Connectivity)` is a Java API, which is helpful in interacting with the database to retrieve, manipulate and process the data using SQL.
+- It will make use of JDBC drivers for connecting to the database.
 - JDBC can access tabular data stored in various types of relational databases such as Oracle, MySQL, MS Access, etc.
 
 </blockquote>
@@ -24,10 +24,10 @@
 
 <blockquote markdown="1">
 
-- The `java.sql.ResultSet` interface represents the database result set, which is obtained after the execution of SQL query using Statement objects. 
-- ResultSet objects maintains a cursor pointing to the current row of data in the result set. 
-- Initially, the cursor is located before the first row. 
-- Then the cursor is moved to the next row by using the `next()` method. The `next()` method can be used to iterate through the result set with the help of a while loop. 
+- The `java.sql.ResultSet` interface represents the database result set, which is obtained after the execution of SQL query using Statement objects.
+- ResultSet objects maintains a cursor pointing to the current row of data in the result set.
+- Initially, the cursor is located before the first row.
+- Then the cursor is moved to the next row by using the `next()` method.The `next()` method can be used to iterate through the result set with the help of a while loop.
 - If there are no further rows, the `next()` method will return false.
 - for example:
 
@@ -52,13 +52,13 @@ ResultSet rs = con.executeQuery(sqlQuery);
 <blockquote markdown="1">
 
 - JDBC driver is a software component having various classes and interfaces, that enables the Java application to interact with a database.
-- To connect with individual databases, It requires particular drivers for each specific database. 
-- These drivers are provided by the database vendor in addition to the database. 
+- To connect with individual databases, It requires particular drivers for each specific database.
+- These drivers are provided by the database vendor in addition to the database.
 For example:
-- MySQL Connector/J is the official JDBC driver for MySQL and we can locate the `mysql-connector-java-<version>-bin.jar` file among the installed files. 
+- MySQL Connector/J is the official JDBC driver for MySQL and we can locate the `mysql-connector-java-<version>-bin.jar` file among the installed files.
 - On windows, this file can be obtained at `C:\Program Files (x86)\MySQL\MySQL` `Connector J\mysql-connector-java-5.1.30-bin.jar`.
 - JDBC driver of Oracle10G is `oJDBC14.jar` and it can be obtained in the installation directory of an Oracle at `…/Oracle/app/oracle/product/10.2.0/server/JDBC/lib` .
-- JDBC driver provides the connection to the database. Also, it implements the protocol for sending the query and result between client and database.
+- JDBC driver provides the connection to the database.Also, it implements the protocol for sending the query and result between client and database.
 
 </blockquote>
 
@@ -75,8 +75,8 @@ For example:
 <blockquote markdown="1">
 
 - JDBC DriverManager is a static class in Java, through which we manage the set of JDBC drivers that are available for an application to use.
-- Multiple JDBC drivers can be used concurrently by an application. 
-- By using a Uniform Resource Locator (URL), each application specifies a JDBC driver. When we load the JDBC Driver class into an application, it registers itself to the DriverManager by using `Class.forName()` or `DriverManager.registerDriver()`. 
+- Multiple JDBC drivers can be used concurrently by an application.
+- By using a Uniform Resource Locator (URL), each application specifies a JDBC driver.When we load the JDBC Driver class into an application, it registers itself to the DriverManager by using `Class.forName()` or `DriverManager.registerDriver()`.
 - When we call `DriverManager.getConnection()` method by passing the details regarding database configuration, DriverManager will make use of registered drivers to obtain the connection and return it to the caller program.
 
 </blockquote>
@@ -109,9 +109,9 @@ For example:
 
 <blockquote markdown="1">
 
-- `BLOB` data type is used to store the image in the database. 
-- We can also store videos and audio by using the BLOB data type. 
-- It stores the binary type of data. CLOB data type is used to store the file in the database. 
+- `BLOB` data type is used to store the image in the database.
+- We can also store videos and audio by using the BLOB data type.
+- It stores the binary type of data.CLOB data type is used to store the file in the database.
 - It stores the character type of data.
 
 </blockquote>
@@ -129,7 +129,7 @@ For example:
 <blockquote markdown="1">
 
 - Stored procedure is a group of SQL queries that are executed as a single logical unit to perform a specific task.
-- Name of the procedure should be unique since each procedure is represented by its name. For example, operations on an employee database like obtaining information about an employee could be coded as stored procedures that will be executed by an application. 
+- Name of the procedure should be unique since each procedure is represented by its name.For example, operations on an employee database like obtaining information about an employee could be coded as stored procedures that will be executed by an application.
 - Code for creating a stored procedure named `STUDENT_DETAILS`  is given below:
 
 ```java
@@ -146,7 +146,7 @@ END $$
 DELIMITER ;
 
 ```
-- Stored procedures are called using CallableStatement class available in JDBC API. Below given code demonstrates this:
+- Stored procedures are called using CallableStatement class available in JDBC API.Below given code demonstrates this:
 
 ```java
 
@@ -195,8 +195,8 @@ ResultSet rs = cs.executeQuery();
 
 <blockquote markdown="1">
 
-- A RowSet is an object that encapsulates a row set from either JDBC result sets or tabular data sources such as files or spreadsheets. 
-- It supports component-based development models like JavaBeans, with the help of a standard set of properties and event notifications. RowSet is easier and flexible to use. It is Scrollable and Updatable by default.
+- A RowSet is an object that encapsulates a row set from either JDBC result sets or tabular data sources such as files or spreadsheets.
+- It supports component-based development models like JavaBeans, with the help of a standard set of properties and event notifications.RowSet is easier and flexible to use.It is Scrollable and Updatable by default.
 
 </blockquote>
 
@@ -212,16 +212,16 @@ ResultSet rs = cs.executeQuery();
 
 <blockquote markdown="1">
 
-- There are four types of JDBC drivers in Java. 
+- There are four types of JDBC drivers in Java.
 - They are:
   - `Type I`: 
-    - JDBC - ODBC bridge driver: It acts as an interface between the client and database server. When a user uses a Java application to send requests to the database using JDBC–ODBC bridge, it converts the JDBC API into ODBC API and then sends it to the database. When the result is received from the database, it is sent to ODBC API and then to JDBC API.It is platform-dependent because it uses ODBC which depends on the native library of the operating system. In this, JDBC–ODBC driver should be installed in every client system and database must support for ODBC driver. It is easier to use but it gives low performance because it involves the conversion of JDBC method calls to the ODBC method calls.
+    - JDBC - ODBC bridge driver: It acts as an interface between the client and database server.When a user uses a Java application to send requests to the database using JDBC–ODBC bridge, it converts the JDBC API into ODBC API and then sends it to the database.When the result is received from the database, it is sent to ODBC API and then to JDBC API.It is platform-dependent because it uses ODBC which depends on the native library of the operating system.In this, JDBC–ODBC driver should be installed in every client system and database must support for ODBC driver.It is easier to use but it gives low performance because it involves the conversion of JDBC method calls to the ODBC method calls.
   - `Type II`: 
-    - Native API – Partially Java Driver:It uses libraries of the client-side of the database. This Type II Driver converts the JDBC method calls to native calls of the database native API.When the database gets the requests from the user, the requests are processed and sends the results back in the native format which is then converted into JDBC format and pass it to the Java application.It was instantly adopted by the database vendors because it was quick and cheaper to implement. 
+    - Native API – Partially Java Driver:It uses libraries of the client-side of the database.This Type II Driver converts the JDBC method calls to native calls of the database native API.When the database gets the requests from the user, the requests are processed and sends the results back in the native format which is then converted into JDBC format and pass it to the Java application.It was instantly adopted by the database vendors because it was quick and cheaper to implement.
   - `Type III`: 
-    - Network Protocol - Fully Java Driver: It uses to send the JDBC method calls to an intermediate server. The intermediate server communicates with the database on behalf of JDBC. The application server converts the JDBC calls either directly or indirectly to the database protocol which is vendor-specific.
+    - Network Protocol - Fully Java Driver: It uses to send the JDBC method calls to an intermediate server.The intermediate server communicates with the database on behalf of JDBC.The application server converts the JDBC calls either directly or indirectly to the database protocol which is vendor-specific.
   - `Type IV`: 
-    - Thin Driver - Fully Java Driver: It is platform-independent since it is written fully in Java. It can be installed inside the Java Virtual Machine(JVM) of the client, so there is no need of installing any software on the client or server side. This drive architecture is having all the logic to communicate directly with the database in a single driver.It provides better performance compared to other driver types. It permits easy deployment. It is developed by the database vendor itself so that programmers can use it directly without any dependencies on other sources.Type IV driver is directly implemented and it directly converts JDBC calls into vendor-specific database protocol. Most of the JDBC Drivers used today are type IV drivers.
+    - Thin Driver - Fully Java Driver: It is platform-independent since it is written fully in Java.It can be installed inside the Java Virtual Machine(JVM) of the client, so there is no need of installing any software on the client or server side.This drive architecture is having all the logic to communicate directly with the database in a single driver.It provides better performance compared to other driver types.It permits easy deployment.It is developed by the database vendor itself so that programmers can use it directly without any dependencies on other sources.Type IV driver is directly implemented and it directly converts JDBC calls into vendor-specific database protocol.Most of the JDBC Drivers used today are type IV drivers.
 
 </blockquote>
 
@@ -239,14 +239,14 @@ ResultSet rs = cs.executeQuery();
 
 There are 3 types of JDBC Statements which are discussed below:
 
-- `java.sql.Statement`:Statement object compiles and executes no matter whether there is a change in the query syntax or not. for Example: if you are inserting 100 employees your insert query will remain same but Statement object will compile your insert query again and again for 100 times and runs.
+- `java.sql.Statement`:Statement object compiles and executes no matter whether there is a change in the query syntax or not.for Example: if you are inserting 100 employees your insert query will remain same but Statement object will compile your insert query again and again for 100 times and runs.
   
 ```java
 Statement st = conn.createStatement( );
 ResultSet rs = st.executeQuery();
   
 ```
-- `java.sql.PreparedStatement`: This type of statement is designed in such a way that it compiles only when there is a syntactic change in your query. For Example: This will compile the insert statement once and executes it 100 times.
+- `java.sql.PreparedStatement`: This type of statement is designed in such a way that it compiles only when there is a syntactic change in your query.For Example: This will compile the insert statement once and executes it 100 times.
 
 ```java
 String s1 = "Update emp SET salary = ? WHERE designation = ?";
@@ -276,18 +276,18 @@ ResultSet rs = cs.executeQuery();
 
 <blockquote markdown="1">
 
-- The java.sql package contains different interfaces and classes for JDBC API. 
+- The java.sql package contains different interfaces and classes for JDBC API.
 - They are:
-  - `Connection` object is an interface which is created by using getConnection() method of DriverManager class. DriverManager is the factory for connection.
-  - `Statement` object is an interface which is created by using createStatement() method of the Connection class. The Connection interface is the factory for Statement.
-  - `PreparedStatement` object is an interface which is created by using prepareStatement() method of Connection class. It is used for executing the parameterized query.
-  - `ResultSet` object maintains a cursor pointing to a table row,the cursor points before the first row. The executeQuery() method of the Statement interface returns the object of ResultSet.
-  - `ResultSetMetaData` interface object contains the details about the data of the table such as number of columns, name of the column, column type etc. The getMetaData() method of ResultSet returns the ResultSetMetaData object.
-  - `DatabaseMetaData` is an interface that has methods to get metadata of a database, like name of the database product, version of database product, driver name, name of the total number of views, name of the total number of tables, etc. The getMetaData() method that belongs to Connection interface returns the DatabaseMetaData object.
-  - `CallableStatement` interface is useful for calling the stored procedures and functions. We can have business logic on the database through the usage of stored procedures and functions, which will be helpful for the improvement in the performance as these are pre-compiled. The prepareCall() method that belongs to the Connection interface returns the object of CallableStatement.
-  - `DriverManager` has available drivers which handles establishing a connection between a database and the relevant driver. It contains various methods to keep the interaction between the user and drivers.
-  - `BLOB` stands for Binary Large Object. It represents a collection of binary data such as images, audio, and video files, etc., which is stored as a single entity in the DBMS (Database Management System).
-  - `CLOB` stands for Character Large Object. This data type is used by multiple database management systems to store character files. It is the same as BLOB except for the difference, instead of binary data, CLOB represents character stream data such as character files, etc.
+  - `Connection` object is an interface which is created by using getConnection() method of DriverManager class.DriverManager is the factory for connection.
+  - `Statement` object is an interface which is created by using createStatement() method of the Connection class.The Connection interface is the factory for Statement.
+  - `PreparedStatement` object is an interface which is created by using prepareStatement() method of Connection class.It is used for executing the parameterized query.
+  - `ResultSet` object maintains a cursor pointing to a table row,the cursor points before the first row.The executeQuery() method of the Statement interface returns the object of ResultSet.
+  - `ResultSetMetaData` interface object contains the details about the data of the table such as number of columns, name of the column, column type etc.The getMetaData() method of ResultSet returns the ResultSetMetaData object.
+  - `DatabaseMetaData` is an interface that has methods to get metadata of a database, like name of the database product, version of database product, driver name, name of the total number of views, name of the total number of tables, etc.The getMetaData() method that belongs to Connection interface returns the DatabaseMetaData object.
+  - `CallableStatement` interface is useful for calling the stored procedures and functions.We can have business logic on the database through the usage of stored procedures and functions, which will be helpful for the improvement in the performance as these are pre-compiled.The prepareCall() method that belongs to the Connection interface returns the object of CallableStatement.
+  - `DriverManager` has available drivers which handles establishing a connection between a database and the relevant driver.It contains various methods to keep the interaction between the user and drivers.
+  - `BLOB` stands for Binary Large Object.It represents a collection of binary data such as images, audio, and video files, etc., which is stored as a single entity in the DBMS (Database Management System).
+  - `CLOB` stands for Character Large Object.This data type is used by multiple database management systems to store character files.It is the same as BLOB except for the difference, instead of binary data, CLOB represents character stream data such as character files, etc.
 
 
 </blockquote>
@@ -304,8 +304,8 @@ ResultSet rs = cs.executeQuery();
 
 <blockquote markdown="1">
 
-- Batch processing is the process of executing multiple SQL statements in one transaction. 
-- For example, consider the case of loading data from CSV(Comma-Separated Values) files to relational database tables. 
+- Batch processing is the process of executing multiple SQL statements in one transaction.
+- For example, consider the case of loading data from CSV(Comma-Separated Values) files to relational database tables.
 - Instead of using Statement or PreparedStatement, we can use batch processing which executes the bulk of queries as a single transcation for a database.
 - It reduces the communication time and improves performance.
 - It is easier to process a huge amount of data and consistency of data is also maintained.
@@ -327,9 +327,9 @@ ResultSet rs = cs.executeQuery();
 <blockquote markdown="1">
 
 - Statement:	
-  - The query is compiled every time when we run the program. It is used in the situation where we need to run the SQL query without providing parameters at runtime. Its performance is less compared to PreparedStatement.It is suitable for executing DDL statements such as Create, Alter, Drop and Truncate.	It cannot be used for storing/retrieving images and files in the database. It executes static SQL statements.It is less secured because it enforces SQL injection.	
+  - The query is compiled every time when we run the program.It is used in the situation where we need to run the SQL query without providing parameters at runtime.Its performance is less compared to PreparedStatement.It is suitable for executing DDL statements such as Create, Alter, Drop and Truncate.	It cannot be used for storing/retrieving images and files in the database.It executes static SQL statements.It is less secured because it enforces SQL injection.	
 - PreparedStatement:
-  - The query is compiled only once. It is used when we want to give input parameters to the query at runtime. It provides better performance than Statement, as it executes the pre-compiled SQL statements. It is suitable for executing DML statements such as Insert, Update and Delete. It can be used for storing/retrieving images and files in the database. It executes pre-compiled SQL statements. It is more secured as they use to bind variables, which can prevent SQL injection.
+  - The query is compiled only once.It is used when we want to give input parameters to the query at runtime.It provides better performance than Statement, as it executes the pre-compiled SQL statements.It is suitable for executing DML statements such as Insert, Update and Delete.It can be used for storing/retrieving images and files in the database.It executes pre-compiled SQL statements.It is more secured as they use to bind variables, which can prevent SQL injection.
 
 </blockquote>
 
@@ -345,8 +345,8 @@ ResultSet rs = cs.executeQuery();
 
 <blockquote markdown="1">
 
-- `execute()`:It can be used for any SQL statements. It returns the boolean value TRUE if the result is a ResultSet object and FALSE when there is no ResultSet object. Used for executing both Select and non-Select queries.	
-- `executeQuery()`:It is used to execute SQL Select queries. It returns the ResultSet object which contains the data retrieved by the SELECT statement. Used for executing only the Select Query.
+- `execute()`:It can be used for any SQL statements.It returns the boolean value TRUE if the result is a ResultSet object and FALSE when there is no ResultSet object.Used for executing both Select and non-Select queries.	
+- `executeQuery()`:It is used to execute SQL Select queries.It returns the ResultSet object which contains the data retrieved by the SELECT statement.Used for executing only the Select Query.
 - `executeUpdate()`:It is used to execute the SQL statements such as Insert or Update or Delete which will update or modify the database data.It returns an integer value which represents the number of affected rows where 0 indicates that the query returns null.It is used for executing only a non-Select query.
 		
 
@@ -364,8 +364,8 @@ ResultSet rs = cs.executeQuery();
 
 <blockquote markdown="1">
 
-- Getter methods: These are used for retrieving the particular column values of the table from ResultSet. As a parameter, either the column index value or column name should be passed and the getter method is represented as getXXX() methods,for example: `int getInt(string Column_Name)` statement is used to retrieve the value of the specified column index and the return type is an int data type.
-- Setter Methods: These methods are used to set the value in the database. It is almost similar to getter methods, but here it requires to pass the data/values for the particular column to insert into the database and the column name or index value of that column and setter method is represented as setXXX() methods,for example: `void setInt(int Column_Index, int Data_Value)` statement is used to insert the value of the specified column index with an int value.
+- Getter methods: These are used for retrieving the particular column values of the table from ResultSet.As a parameter, either the column index value or column name should be passed and the getter method is represented as getXXX() methods,for example: `int getInt(string Column_Name)` statement is used to retrieve the value of the specified column index and the return type is an int data type.
+- Setter Methods: These methods are used to set the value in the database.It is almost similar to getter methods, but here it requires to pass the data/values for the particular column to insert into the database and the column name or index value of that column and setter method is represented as setXXX() methods,for example: `void setInt(int Column_Index, int Data_Value)` statement is used to insert the value of the specified column index with an int value.
 		
 </blockquote>
 
@@ -381,10 +381,10 @@ ResultSet rs = cs.executeQuery();
 
 <blockquote markdown="1">
 
-- Dirty read implies the meaning "read the value which may or may not be correct". 
-- In the database, when a transaction is executing and changing some field value, at the same time another transaction comes and reads the changed field value before the first transaction could commit or rollback the value, which may cause an invalid value for that particular field. 
-- This situation is known as a dirty read. For ex: where Transaction 2 changes a row but does not commit the changes made. Then Transaction 1 reads the uncommitted data. 
-- Now, if Transaction 2 goes for roll backing its changes (which is already read by Transaction 1) or updates any changes to the database, then the view of the data may be wrong in the records related to Transaction 1. 
+- Dirty read implies the meaning "read the value which may or may not be correct".
+- In the database, when a transaction is executing and changing some field value, at the same time another transaction comes and reads the changed field value before the first transaction could commit or rollback the value, which may cause an invalid value for that particular field.
+- This situation is known as a dirty read.For ex: where Transaction 2 changes a row but does not commit the changes made.Then Transaction 1 reads the uncommitted data.
+- Now, if Transaction 2 goes for roll backing its changes (which is already read by Transaction 1) or updates any changes to the database, then the view of the data may be wrong in the records related to Transaction 1.
 		
 </blockquote>
 
@@ -401,10 +401,10 @@ ResultSet rs = cs.executeQuery();
 
 <blockquote markdown="1">
 
-- Loading the Driver:When we need to load or register the driver before using it in the program. Registration must be done once in your program. 
+- Loading the Driver:When we need to load or register the driver before using it in the program.Registration must be done once in your program.
   - You can register a driver by using any one of the two methods mentioned below:
     - `Class.forName()`:We load the driver’s class file into memory during runtime.`Class.forName("com.mysql.JDBC.Driver")` is used to load the MySQL driver.However, this statement is no longer needed, because as you place the MySQL JDBC driver JAR file into the classpath of your program, the driver manager can find and load the driver.
-    - `DriverManager.registerDriver()`: DriverManager is a built-in Java class with a static member register. Here we will be calling the constructor of the driver class during compile time.For registering the MySQL driver, use the below-given code:
+    - `DriverManager.registerDriver()`: DriverManager is a built-in Java class with a static member register.Here we will be calling the constructor of the driver class during compile time.For registering the MySQL driver, use the below-given code:
     - `DriverManager.registerDriver((new com.mysql.JDBC.Driver());`
 - Connection:After loading the driver into the program, establish connections using the code given below:
   - `Connection con = DriverManager.getConnection(url,user,password);`
@@ -416,13 +416,13 @@ ResultSet rs = cs.executeQuery();
     - `String url = "JDBC:mysql://localhost:3306/demo1";`
   - Where localhost represents hostname or IP address of the MySQL server, 3306 port number of the server and by default, it is 3306, test1 is the name of the database on the server.
 
-- Create a statement:Once a connection establishment is done, you can interact with the database. 
+- Create a statement:Once a connection establishment is done, you can interact with the database.
   - The `Statement`, `PreparedStatement`, and `CallableStatement` JDBC interfaces will define the methods that permit you to send SQL commands and receive data from the database.We can use JDBC Statement as follows:
   - `Statement st = con.createStatement();`
   - Here, con is a reference to the Connection interface used in the earlier step.
 
-- Execute the query: query means an SQL query. We can have various types of queries.for ex:Query for updating,
-  inserting and data retrieval a table in a database. The `executeQuery()` method that belongs to the Statement interface is used for executing queries related to values retrieval from the database. This method returns the ResultSet object which can be used to get all the table records.The `executeUpdate(sql_query)` method of the Statement interface is used for executing queries related to the update/insert operation.For Example:
+- Execute the query: query means an SQL query.We can have various types of queries.for ex:Query for updating,
+  inserting and data retrieval a table in a database.The `executeQuery()` method that belongs to the Statement interface is used for executing queries related to values retrieval from the database.This method returns the ResultSet object which can be used to get all the table records.The `executeUpdate(sql_query)` method of the Statement interface is used for executing queries related to the update/insert operation.For Example:
 ```java
 
     int s = st.executeUpdate(sql);
@@ -432,7 +432,7 @@ ResultSet rs = cs.executeQuery();
         System.out.println("Data insertion failed");
     Here SQL is the SQL query of string type.
 ```
-- Close the connection:We have to send the data to the location specified and now we are at the end of our task completion.Closing the connection, objects of Statement and ResultSet will be automatically closed. The `close()` method of the Connection interface is used for closing the connection. 
+- Close the connection:We have to send the data to the location specified and now we are at the end of our task completion.Closing the connection, objects of Statement and ResultSet will be automatically closed.The `close()` method of the Connection interface is used for closing the connection.
 
 ```java
 
@@ -494,7 +494,7 @@ class JDBCMySql{
 
 <blockquote markdown="1">
 
-Stored procedures are a set of SQL queries that are compiled in the database and will be executed from JDBC API. For executing Stored procedures in the database, JDBC CallableStatement can be used. The syntax for initializing a CallableStatement is given below:
+Stored procedures are a set of SQL queries that are compiled in the database and will be executed from JDBC API.For executing Stored procedures in the database, JDBC CallableStatement can be used.The syntax for initializing a CallableStatement is given below:
 
 ```java
 
@@ -541,9 +541,9 @@ We must register the OUT parameters before executing the CallableStatement.
 
 <blockquote markdown="1">
 
-JDBC has 2 types of architecture models to access the database. They are:
-- Two-tier Architecture: This architecture connects java programs explicitly to the database. It doesn’t require any mediator such as an application server for connecting with the database except the JDBC driver. It is also called client-server architecture.	
-- Three-tier Architecture: This architecture has no explicit communication between the JDBC driver or java application with the database. It will make use of an application server as a mediator between them. Java code will send the request to an application server, then the server will send it to the database and receive the response from the database.
+JDBC has 2 types of architecture models to access the database.They are:
+- Two-tier Architecture: This architecture connects java programs explicitly to the database.It doesn’t require any mediator such as an application server for connecting with the database except the JDBC driver.It is also called client-server architecture.	
+- Three-tier Architecture: This architecture has no explicit communication between the JDBC driver or java application with the database.It will make use of an application server as a mediator between them.Java code will send the request to an application server, then the server will send it to the database and receive the response from the database.
 
 </blockquote>
 
@@ -559,13 +559,13 @@ JDBC has 2 types of architecture models to access the database. They are:
 
 <blockquote markdown="1">
 
-The sequence of SQL statements served as a single unit that is called a transaction. Transaction Management places an important role in RDBMS-oriented applications to maintain data consistency and integrity.Transaction Management can be described by using ACID properties. ACID stands for Atomicity, Consistency, Isolation, and Durability.
+The sequence of SQL statements served as a single unit that is called a transaction.Transaction Management places an important role in RDBMS-oriented applications to maintain data consistency and integrity.Transaction Management can be described by using ACID properties.ACID stands for Atomicity, Consistency, Isolation, and Durability.
 - Atomicity: If all queries are successfully executed, then only data will be committed to the database.
 - Consistency: It ensures bringing the database into a consistent state after any transaction.
 - Isolation:It ensures that the transaction is isolated from other transactions.
 - Durability:If a transaction has been committed once, it will remain always committed, even in the situation of errors, power loss, etc.
 
-- Need for Transaction Management: When creating a connection to the database, the auto-commit mode will be selected by default. This implies that every time when the request is executed, it will be committed automatically upon completion. We might want to commit the transaction after the execution of few more SQL statements. In such a situation, we must set the auto-commit value to False. So that data will not be able to commit before executing all the queries. In case if we get an exception in the transaction, we can `rollback()` changes made and make it like before.
+- Need for Transaction Management: When creating a connection to the database, the auto-commit mode will be selected by default.This implies that every time when the request is executed, it will be committed automatically upon completion.We might want to commit the transaction after the execution of few more SQL statements.In such a situation, we must set the auto-commit value to False.So that data will not be able to commit before executing all the queries.In case if we get an exception in the transaction, we can `rollback()` changes made and make it like before.
 
 </blockquote>
 
@@ -581,8 +581,8 @@ The sequence of SQL statements served as a single unit that is called a transact
 
 <blockquote markdown="1">
 
-PreparedStatement performs faster compared to the Statement because the Statement needs to be compiled each time when we run the code whereas the PreparedStatement is compiled once and then executed only on runtime.It can execute parametrized queries. But Statement can only run static queries.
-The query used in PreparedStatement looks similar each time, so the database can reuse the previous access plan. Statement inline the parameters into the string, so the query doesn’t look to be the same every time which prevents reusage of cache.
+PreparedStatement performs faster compared to the Statement because the Statement needs to be compiled each time when we run the code whereas the PreparedStatement is compiled once and then executed only on runtime.It can execute parametrized queries.But Statement can only run static queries.
+The query used in PreparedStatement looks similar each time, so the database can reuse the previous access plan.Statement inline the parameters into the string, so the query doesn’t look to be the same every time which prevents reusage of cache.
 
 </blockquote>
 
@@ -598,22 +598,22 @@ The query used in PreparedStatement looks similar each time, so the database can
 
 <blockquote markdown="1">
 
-The connection interface is having 5 methods for transaction management. They are given below:
+The connection interface is having 5 methods for transaction management.They are given below:
 
-`setAutocommit()`:The value of AutoCommit is set to true by default.when the SQL statement executes, it will be committed automatically. By using this method we can set the value for AutoCommit.
+`setAutocommit()`:The value of AutoCommit is set to true by default.when the SQL statement executes, it will be committed automatically.By using this method we can set the value for AutoCommit.
 	
 Syntax: `conn.setAutoCommit(boolean_value)`;
 boolean_value is set to true for enabling autocommit mode for the connection, false for disabling it.
 	
-`commit()`:The `commit()` method is used for committing the data. When the SQL statement executes, we can call the `commit()` method. It will commit the changes made by the SQL statement.
+`commit()`:The `commit()` method is used for committing the data.When the SQL statement executes, we can call the `commit()` method.It will commit the changes made by the SQL statement.
 	
 Syntax: `conn.commit()`;
 	
-`rollback()`:The `rollback()` method is used to undo the changes made till the last commit has occurred. If we face any problem or exception in the SQL statements execution flow, we may roll back the transaction.
+`rollback()`:The `rollback()` method is used to undo the changes made till the last commit has occurred.If we face any problem or exception in the SQL statements execution flow, we may roll back the transaction.
 	
 Syntax: `conn.rollback()`;
 	
-`setSavepoint()`:If you have set a savepoint in the transaction i.e.,group of SQL statements, you can use the `rollback()` method to undo all the changes till the savepoint or after the `savepoint()`, if something goes wrong within the current transaction. The `setSavepoint()` method is used to create a new savepoint which refers to the current state of the database within the transaction.
+`setSavepoint()`:If you have set a savepoint in the transaction i.e.,group of SQL statements, you can use the `rollback()` method to undo all the changes till the savepoint or after the `savepoint()`, if something goes wrong within the current transaction.The `setSavepoint()` method is used to create a new savepoint which refers to the current state of the database within the transaction.
 	
 Syntax:`Savepoint sp= conn.setSavepoint("Mysavepoint");`
 	
@@ -636,7 +636,7 @@ Syntax:`conn.releaseSavepoint("Mysavepoint");`
 <blockquote markdown="1">
 
 - `java.sql.SQLException`:It is the base class for JDBC exceptions.
-- `java.sql.BatchUpdateException`: It occurs during the batch update operation. It depends on the JDBC driver type that the base SQLException may throw instead.
+- `java.sql.BatchUpdateException`: It occurs during the batch update operation.It depends on the JDBC driver type that the base SQLException may throw instead.
 - `java.sql.SQLWarning`:It is displayed as a warning message of various SQL operations.
 - `java.sql.DataTruncation`:This exception occurs when data values are unexpectedly truncated due to exceeding MaxFieldSize.
 
@@ -655,7 +655,7 @@ Syntax:`conn.releaseSavepoint("Mysavepoint");`
 <blockquote markdown="1">
 
 Two-phase commit is useful for a distributed environment where numerous processes take part in the distributed transaction process.A transaction is executing and it is affecting multiple databases then a two-phase commit will be used to make sure that all databases are synchronized with each other.
-The main process or co-ordinator process take a vote of all other process that they have completed their process successfully and ready to commit, if all the votes are "yes" then they continue for the next phase. And if "No" then rollback will be performed. As per vote, if all the votes are "yes" then commit is done.when any transaction changes multiple databases after transaction execution, it will issue a pre-commit command on each database and all databases will send an acknowledgment. Based on acknowledgment, if all are positive transactions then it will issue the commit command otherwise rollback will be done
+The main process or co-ordinator process take a vote of all other process that they have completed their process successfully and ready to commit, if all the votes are "yes" then they continue for the next phase.And if "No" then rollback will be performed.As per vote, if all the votes are "yes" then commit is done.when any transaction changes multiple databases after transaction execution, it will issue a pre-commit command on each database and all databases will send an acknowledgment.Based on acknowledgment, if all are positive transactions then it will issue the commit command otherwise rollback will be done
 
 </blockquote>
 
@@ -706,7 +706,7 @@ public class dynamicJDBCtable{
 
 <blockquote markdown="1">
 
-It is possible to connect to multiple databases, at the same time, but it depends on the specific driver.To update and extract data from the different database we can use the single statement. But we need middleware to deal with multiple databases or a single database.
+It is possible to connect to multiple databases, at the same time, but it depends on the specific driver.To update and extract data from the different database we can use the single statement.But we need middleware to deal with multiple databases or a single database.
 
 </blockquote>
 
@@ -722,7 +722,7 @@ It is possible to connect to multiple databases, at the same time, but it depend
 
 <blockquote markdown="1">
 
-Images in the database inserted using the BLOB datatype wherein the image stored as a byte stream. Below code is showing how to insert the image into DB.
+Images in the database inserted using the BLOB datatype wherein the image stored as a byte stream.Below code is showing how to insert the image into DB.
 
 ```java
 

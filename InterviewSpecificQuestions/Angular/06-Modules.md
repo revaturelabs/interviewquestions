@@ -1,4 +1,4 @@
-1. What are Eager and Lazy loading?
+1.What are Eager and Lazy loading?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -7,13 +7,13 @@
 <blockquote markdown="1">
   
 **Eager Loading:** 
-- It is the default module-loading strategy. 
-- It loads the feature modules are loaded before the program begins. 
+- It is the default module-loading strategy.
+- It loads the feature modules are loaded before the program begins.
 - This is primarily utilized for small-scale applications.
 
 **Lazy Loading:** 
-- It loads the feature modules dynamically as needed. 
-- This speeds up the application. 
+- It loads the feature modules dynamically as needed.
+- This speeds up the application.
 - It is utilized for larger projects where all of the modules are not required at the start.
 
 </blockquote>
@@ -21,7 +21,7 @@
   
 ---
 
-2. Does Angular lazy load the modules?
+2.Does Angular lazy load the modules?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -29,14 +29,14 @@
 <summary><b>Show Answer</b></summary>
 <blockquote markdown="1">
  
-No. By default, Angular loads the NgModules eagerly which means that as soon as the application loads, all the NgModules & components are loaded, whether or not they are immediately necessary.
+No.By default, Angular loads the NgModules eagerly which means that as soon as the application loads, all the NgModules & components are loaded, whether or not they are immediately necessary.
 
 </blockquote>
 </details>
   
 ---
 
-3. Which do you think is best eagerly loaded or lazily loaded?
+3.Which do you think is best eagerly loaded or lazily loaded?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -44,7 +44,7 @@ No. By default, Angular loads the NgModules eagerly which means that as soon as 
 <summary><b>Show Answer</b></summary>
 <blockquote markdown="1">
  
-For small-scale applications, eagerly loading modules would be good. But as the application grows the load time will increase if everything is loaded at once. Lazy loading allows Angular to load components and modules as and when they're needed.
+For small-scale applications, eagerly loading modules would be good.But as the application grows the load time will increase if everything is loaded at once.Lazy loading allows Angular to load components and modules as and when they're needed.
   
 For large-scale applications, lazy-loading modules would be good.
   
@@ -53,7 +53,7 @@ For large-scale applications, lazy-loading modules would be good.
   
 ---
 
-4. What are modules?
+4.What are modules?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -62,9 +62,9 @@ For large-scale applications, lazy-loading modules would be good.
 <blockquote markdown="1">
   
 - NgModules consist of files and code related to a specific domain or that have a similar set of functionalities.
-- A typical NgModule file declares components, directives, pipes, and services. 
+- A typical NgModule file declares components, directives, pipes, and services.
 - It can also import other modules that are needed in the current module.
-- Angular libraries like `RouterModule`, `BrowserModule`, `HttpClientModule` and `FormsModule` are NgModules. 
+- Angular libraries like `RouterModule`, `BrowserModule`, `HttpClientModule` and `FormsModule` are NgModules.
 - One of the important advantages of NgModules is that **they can be lazy loaded**.
   
 </blockquote>
@@ -72,7 +72,7 @@ For large-scale applications, lazy-loading modules would be good.
   
 ---
 
-5. List the benefits of lazy loading.
+5.List the benefits of lazy loading.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -90,7 +90,7 @@ Benefits of lazy loading module:
   
 ---
 
-6. Explain the use of the `@NgModule` Decorator
+6.Explain the use of the `@NgModule` Decorator
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -100,7 +100,7 @@ Benefits of lazy loading module:
 
 `@NgModule` takes the below metadata to launch the application:
 - `declarations` — contains a list of components, directives, and pipes, which belong to this module.
-- `imports` — contains a list of modules, which are used by the component templates in this module reference.  For example, we import `BrowserModule` to have browser-specific services such as DOM rendering, sanitization, and location.
+- `imports` — contains a list of modules, which are used by the component templates in this module reference. For example, we import `BrowserModule` to have browser-specific services such as DOM rendering, sanitization, and location.
 - `providers` — the list of service providers that the application needs.
 - `bootstrap` — contains the root component of the application
 
@@ -126,7 +126,7 @@ export class AppModule { }
 	
 --- 
 
-7. What is the root module of angular?
+7.What is the root module of angular?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -141,7 +141,7 @@ export class AppModule { }
 	
 ---
 
-8. What is Angular Module?
+8.What is Angular Module?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -159,7 +159,7 @@ Module in Angular refers to a place where you can group the components, directiv
   
 ---
 
-9. What are the modules imported by default in an angular application?
+9.What are the modules imported by default in an angular application?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -191,7 +191,7 @@ export class AppModule { }
   
 ---
  
-10. If I want to use the pipe in two components, what I should do?
+10.If I want to use the pipe in two components, what I should do?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -199,7 +199,7 @@ export class AppModule { }
 <summary><b>Show Answer</b></summary>
 <blockquote markdown="1">
 
-We have to make that pipe class public, through the `export` keyword, so that external components can use them. 
+We have to make that pipe class public, through the `export` keyword, so that external components can use them.
 	
 For example: `export class FirstCharPipe implements PipeTransform {}` and in that `app.module.ts`, we have imported the pipe class and added it under the `declarations` property of `@NgModule`
 
@@ -232,7 +232,7 @@ export class AppModule { }
 ---
  
 
-11. Have you heard of angular modules? If so, explain a bit about each.
+11.Have you heard of angular modules? If so, explain a bit about each.
 	- `BrowserModule`
 	- `FormsModule`
 	- `RouterModule`
@@ -248,14 +248,14 @@ export class AppModule { }
 - `BrowserModule` is imported from `@angular/platform-browser` (by default) and provides support to run Angular apps on different supported browsers.
 - `FormsModule` is imported from `@angular/forms` and it is used when you build template-driven forms.
 - `RouterModule` is imported from `@angular/router` and  it is used when you want to navigate between views defined in an application.
-- `HttpClientModule` is imported from `@angular/common/http` and it is used to initiate HTTP requests and responses in angular apps. 
+- `HttpClientModule` is imported from `@angular/common/http` and it is used to initiate HTTP requests and responses in angular apps.
 
 </blockquote>
 </details>
   
 ---
  
-12. How do you manage the development of complex applications in Angular? 
+12.How do you manage the development of complex applications in Angular? 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 

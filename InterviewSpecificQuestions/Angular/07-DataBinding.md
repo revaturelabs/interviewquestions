@@ -1,4 +1,4 @@
-1. Consider there is a variable `name = "Angular"` in `app.component.ts, how can I print this value in template.
+1.Consider there is a variable `name = "Angular"` in `app.component.ts, how can I print this value in template.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -6,7 +6,7 @@
 <summary><b>Show Answer</b></summary>
 <blockquote markdown="1">
 
-Using String Interpolation, we can print the `name` in the template. In `app.component.html`, 
+Using String Interpolation, we can print the `name` in the template.In `app.component.html`, 
 ```html
 {{ name }}
 ```
@@ -16,7 +16,7 @@ Using String Interpolation, we can print the `name` in the template. In `app.com
   
 ---
  
-2. Design the angular app with the following criteria
+2.Design the angular app with the following criteria
 	- Template should have a button named `Click Me`
 	- When the user clicked on the button, you should greet the user with the message "Welcome to my angular app"
 
@@ -26,7 +26,7 @@ Using String Interpolation, we can print the `name` in the template. In `app.com
 <summary><b>Show Answer</b></summary>
 <blockquote markdown="1">
 
-In `app.component.html`, create a button and have `Click Me` enclosed with the `<button>` tag. When the user clicked on the button, we should greet the user with the message "Welcome to my angular app". We need data binding. 
+In `app.component.html`, create a button and have `Click Me` enclosed with the `<button>` tag.When the user clicked on the button, we should greet the user with the message "Welcome to my angular app".We need data binding.
 	
 ```html
 <button (click)="onClick()"> Click Me</button>	
@@ -37,7 +37,7 @@ In `app.component.html`, create a button and have `Click Me` enclosed with the `
 	
 --- 
 	
-3. What are the ways of data binding in angular?
+3.What are the ways of data binding in angular?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
@@ -55,7 +55,7 @@ In `app.component.html`, create a button and have `Click Me` enclosed with the `
 	
 --- 
 
-4. What is Property Binding? How do you achieve it in Angular?
+4.What is Property Binding? How do you achieve it in Angular?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
@@ -75,7 +75,7 @@ In `app.component.html`, create a button and have `Click Me` enclosed with the `
 	
 --- 
 
-5. How do you achieve event binding in Angular?
+5.How do you achieve event binding in Angular?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
@@ -84,7 +84,7 @@ In `app.component.html`, create a button and have `Click Me` enclosed with the `
 <blockquote markdown="1">
 
 - From view to component
-- Bind DOM events such as keystrokes, button clicks, mouseovers, touches, etc. to a function in the component.
+- Bind DOM events such as keystrokes, button clicks, mouseovers, touches, etc.to a function in the component.
 - Uses (), parentheses in the HTML file
 - Here, we were calling the `OnClick()` function, when the ‘Click Here’ button is clicked.
 
@@ -95,7 +95,7 @@ In `app.component.html`, create a button and have `Click Me` enclosed with the `
 	
 --- 
 
-6. What is meant by String Interpolation?
+6.What is meant by String Interpolation?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
@@ -114,7 +114,7 @@ In `app.component.html`, create a button and have `Click Me` enclosed with the `
 --- 
 
 
-7. Do you know about two-way data binding in angular? If so, explain.
+7.Do you know about two-way data binding in angular? If so, explain.
 	
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
@@ -135,7 +135,7 @@ In `app.component.html`, create a button and have `Click Me` enclosed with the `
 	
 --- 
 
-8. What is the difference between property and attribute in angular?
+8.What is the difference between property and attribute in angular?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -148,14 +148,14 @@ For example, if we take below `<input>` tag:
 <input type="text" id="name" value="John">
 ```
 	
-Here we have an `<input>` tag set value as "John". It's the initial value.  
+Here we have an `<input>` tag set value as "John".It's the initial value. 
 
 In the console of a browser if we execute,
 	
 ```js	
 name.getAttribute('value') //attribute value gives John
 
-name. value  // property value also gives John
+name.value  // property value also gives John
 ```
 	
 Let's say the user enters/changes to  "Jim" in this input textbox.
@@ -165,7 +165,7 @@ name.getAttribute('value') // attribute value gives Jim
 
 name.value  // property value also gives Jim	
 ```
-**NOTE:** Attributes initialize DOM properties. Once initialization is complete attribute job is done. Properties value can change whereas attribute value cannot change
+**NOTE:** Attributes initialize DOM properties.Once initialization is complete attribute job is done.Properties value can change whereas attribute value cannot change
 	
 </blockquote>
 </details>

@@ -1,6 +1,6 @@
 ## Technical
 
-1. Is there difference between Object Oriented Programming (OOP) and Aspect-Oriented Programming (AOP)?
+1.Is there difference between Object Oriented Programming (OOP) and Aspect-Oriented Programming (AOP)?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -17,7 +17,7 @@
 </details>
 
 ---
-2. Why we need to use AspectJ in Spring application?
+2.Why we need to use AspectJ in Spring application?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -25,13 +25,13 @@
 
 <blockquote markdown="1"> 
     
-- Spring provides simple and powerful ways of writing custom aspects (a modularization of a concern that cuts across multiple classes) by using @AspectJ annotation style. 
-- @AspectJ refers to a style of declaring aspects as regular Java classes annotated with annotations. 
-- The @AspectJ style was introduced by the AspectJ project as part of the AspectJ 5 release. 
-- Spring interprets the same annotations as AspectJ 5, using a library supplied by AspectJ for pointcut parsing and matching. 
+- Spring provides simple and powerful ways of writing custom aspects (a modularization of a concern that cuts across multiple classes) by using @AspectJ annotation style.
+- @AspectJ refers to a style of declaring aspects as regular Java classes annotated with annotations.
+- The @AspectJ style was introduced by the AspectJ project as part of the AspectJ 5 release.
+- Spring interprets the same annotations as AspectJ 5, using a library supplied by AspectJ for pointcut parsing and matching.
 - Spring seamlessly integrates Spring AOP and IoC with AspectJ, to enable all uses of AOP within a consistent Spring-based application architecture.
-- The @AspectJ support can be enabled with XML- or Java-style configuration. 
-- In either case, we also need to ensure that AspectJ’s `aspectjweaver.jar` library is on the class path of application (version 1.8 or later). 
+- The @AspectJ support can be enabled with XML- or Java-style configuration.
+- In either case, we also need to ensure that AspectJ’s `aspectjweaver.jar` library is on the class path of application (version 1.8 or later).
 - This library is available in the lib directory of an AspectJ distribution or from the Maven Central repository.
 - `pom.xml` sample-
 ```xml
@@ -57,7 +57,7 @@
 </details>
 
 ---
-3. You must capture all exceptions caused in repository, service & controller layer using Spring AOP, how you can do it?
+3.You must capture all exceptions caused in repository, service & controller layer using Spring AOP, how you can do it?
 
 ![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
@@ -111,7 +111,7 @@ public class LoggingAspect {
 </details>
 
 ---
-4. You have to measure performance (or time taken by method execution), how can you achieve it with AOP?
+4.You have to measure performance (or time taken by method execution), how can you achieve it with AOP?
 
 ![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
@@ -119,7 +119,7 @@ public class LoggingAspect {
 
 <blockquote markdown="1"> 
     
-- Apart from standard cross cutting concerns like Auditing, Logging, Transaction Management, Security etc. there are occasions where we want to deal with custom cross cutting concerns.
+- Apart from standard cross cutting concerns like Auditing, Logging, Transaction Management, Security etc.there are occasions where we want to deal with custom cross cutting concerns.
 - Measuring performance of the method execution can be one of such example of cross cutting concerns.
 - Ensure the AspectJ dependencies are added in pom.xml file.
 - Define central logging class named `ExecutionTimeAspect.java` 
@@ -148,7 +148,7 @@ public class ExecutionTimeAspect {
 
 ---
 
-5. Why we use pointcut expression in Spring application.
+5.Why we use pointcut expression in Spring application.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -162,7 +162,7 @@ public class ExecutionTimeAspect {
 </details>
 
 ---
-6. Why do we use @EnableAspectJAutoProxy?
+6.Why do we use @EnableAspectJAutoProxy?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -170,7 +170,7 @@ public class ExecutionTimeAspect {
 
 <blockquote markdown="1"> 
     
-- Enables support for handling components marked with AspectJ's @Aspect annotation. 
+- Enables support for handling components marked with AspectJ's @Aspect annotation.
 - This annotation is usually defined on class marked with @Configuration.
 ```java
  @Configuration

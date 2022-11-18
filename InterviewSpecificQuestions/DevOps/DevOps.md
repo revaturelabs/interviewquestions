@@ -1,6 +1,6 @@
 ## Technical
 
-1. What is `DevOps`?
+1.What is `DevOps`?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -8,7 +8,7 @@
 
 <blockquote markdown="1"> 
     
-- Software Development (Dev) Operations (Ops) are a set of practices and methodologies designed to combine the development (production/writing of code), deployment and maintenance of code into a streamlined process. 
+- Software Development (Dev) Operations (Ops) are a set of practices and methodologies designed to combine the development (production/writing of code), deployment and maintenance of code into a streamlined process.
 
 </blockquote> 
 
@@ -16,7 +16,7 @@
 
 ---
 
-2. What is goal of `DevOps`?
+2.What is goal of `DevOps`?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -32,7 +32,7 @@
 
 ---
 
-3. What do you understand by Continuous Integration?
+3.What do you understand by Continuous Integration?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -48,7 +48,7 @@
 
 ---
 
-4. What tools are used for Continuous Integration?
+4.What tools are used for Continuous Integration?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -65,7 +65,7 @@
 
 ---
 
-5. What are the common steps in DevOps?
+5.What are the common steps in DevOps?
 
 ![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
@@ -86,7 +86,7 @@
 
 ---
 
-6. What do you understand by Continuous Delivery?
+6.What do you understand by Continuous Delivery?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -94,7 +94,7 @@
 
 <blockquote markdown="1"> 
 
-- Development principle which focuses on the automation of the DevOps pipeline to the extent that human intervention is not required. 
+- Development principle which focuses on the automation of the DevOps pipeline to the extent that human intervention is not required.
 - Generally, source code control, building and testing, and deployment to staging are automated.
 - While acceptance testing and if necessary, deployment to production environment may be handled by a Human or requires manual approval.
 
@@ -104,7 +104,7 @@
 
 ---
 
-7. What do you understand by Continuous Deployment?
+7.What do you understand by Continuous Deployment?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -112,7 +112,7 @@
 
 <blockquote markdown="1"> 
 
-- Continuous deployment automates releasing an application to production. 
+- Continuous deployment automates releasing an application to production.
 - There is no manual gate at the stage of the pipeline before production (like Continuous Delivery).
 - Any code commit that passes the automated testing phase is automatically released into the production.
 
@@ -122,7 +122,7 @@
 
 ---
 
-8. State True or False. 
+8.State True or False.
 
 Due to Continuous Integration code can be tested easily by creating separate, test or development branches based on the mainline code.
 
@@ -140,7 +140,7 @@ Due to Continuous Integration code can be tested easily by creating separate, te
 
 ---
 
-9. State True or False. 
+9.State True or False.
 
 Continuous Integration establishes the foundation for an automated DevOps pipeline & ensures the entire team works on the most up to date code.
 
@@ -158,7 +158,7 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 
 ---
 
-10. What is Jenkins?
+10.What is Jenkins?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -174,7 +174,7 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 
 ---
 
-11. Why Jenkins pipeline is used?
+11.Why Jenkins pipeline is used?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -182,7 +182,7 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 
 <blockquote markdown="1"> 
 
-- Jenkins Pipeline (or simply Pipeline with a capital P) is a suite of plugins that supports implementing and integrating continuous delivery pipelines into Jenkins. 
+- Jenkins Pipeline (or simply Pipeline with a capital P) is a suite of plugins that supports implementing and integrating continuous delivery pipelines into Jenkins.
 - This allows us to automate the process of getting software from version control to our users and customers.
 
 </blockquote> 
@@ -191,7 +191,7 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 
 ---
 
-12. What are two types of Jenkins Pipeline syntax?
+12.What are two types of Jenkins Pipeline syntax?
 
 ![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
@@ -199,8 +199,8 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 
 <blockquote markdown="1"> 
 
-- A Jenkinsfile can be written using two types of syntax - Declarative and Scripted. 
-- Declarative and Scripted Pipelines are constructed fundamentally differently. 
+- A Jenkinsfile can be written using two types of syntax - Declarative and Scripted.
+- Declarative and Scripted Pipelines are constructed fundamentally differently.
 - Declarative Pipeline is a more recent feature of Jenkins Pipeline which:
     - provides richer syntactical features over Scripted Pipeline syntax, and
     - is designed to make writing and reading Pipeline code easier.
@@ -211,7 +211,7 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 
 ---
 
-13. What do you mean by environment variable in Jenkins?
+13.What do you mean by environment variable in Jenkins?
 
 ![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
@@ -219,7 +219,7 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 
 <blockquote markdown="1"> 
 
-- Jenkins Pipeline exposes environment variables via the global variable `env`, which is available from anywhere within a `Jenkinsfile`. 
+- Jenkins Pipeline exposes environment variables via the global variable `env`, which is available from anywhere within a `Jenkinsfile`.
 - Few variables listed below-
   - `BUILD_NUMBER`: The current build number, such as "153".
   - `JOB_NAME`: Name of the project of this build, such as "foo" or "foo/bar".
@@ -231,7 +231,7 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 
 ---
 
-14. What is the purpose of SonarLint?
+14.What is the purpose of SonarLint?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -239,9 +239,9 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 
 <blockquote markdown="1"> 
 
-- SonarLint is a free, open-source linting tool. 
+- SonarLint is a free, open-source linting tool.
 - A linting tool/linter is a software tool which, when integrated with an IDE, can provide increased code quality feedback to the developer.
-- SonarLint is an IDE extension that helps detect and fix quality issues as we write code. 
+- SonarLint is an IDE extension that helps detect and fix quality issues as we write code.
 - For Eclipse, you can get it directly from the Eclipse Marketplace, and it will then detect new bugs and quality issues as we code (in Java, JavaScript, PHP, SQL, and Python).
 
 </blockquote> 
@@ -250,7 +250,7 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 
 ---
 
-15. What is the use of Sonar Cloud?
+15.What is the use of Sonar Cloud?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -266,7 +266,7 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 
 ---
 
-16. What is Sonar Qube?
+16.What is Sonar Qube?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -274,7 +274,7 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 
 <blockquote markdown="1"> 
 
-- SonarQube is a Code Quality Assurance tool built to work on a centralized server or integrated into a development pipeline that collects and analyzes source code and provides reports for the code quality of our project. 
+- SonarQube is a Code Quality Assurance tool built to work on a centralized server or integrated into a development pipeline that collects and analyzes source code and provides reports for the code quality of our project.
 - SonarQube is an open-source platform developed by SonarSource for continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs, code smells on 29 programming languages and enables quality to be measured continually over time.
 
 </blockquote> 
@@ -283,7 +283,7 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 
 ---
 
-17. How is Jenkins installed?
+17.How is Jenkins installed?
 
 ![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
