@@ -2,7 +2,7 @@
 
 1.What is a Collection in C#?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -20,7 +20,7 @@
 
 2.Do you know the types of collections in C#?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -40,7 +40,7 @@ There are 3 ways to work with collections.The three namespaces are,
 
 3.Can you brief on Non-Generic Collection classes in C#?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -66,7 +66,7 @@ The Non-Generic collection classes in C# are defined under `System.Collections`c
 
 4.Can you elaborate on Generic Collection Classes in C#?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -100,7 +100,7 @@ It provides a generic implementation of standard data structures like linked lis
 
 5.Do you know about Concurrent Collection classes in C#?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -126,7 +126,7 @@ It provides various threads-safe collection classes that are used in place of th
 
 6.What is the difference between an Array and an Array List in C#?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -143,7 +143,7 @@ It provides various threads-safe collection classes that are used in place of th
 
 7.Do we face any problems with Array and ArrayList Collection in C#? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -161,7 +161,7 @@ In the case of Array and ArrayList in C#, we access the elements from the collec
 
 8.What is a HashTable in C#?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -179,7 +179,7 @@ The Hashtable computes a hash code for each key.Then it uses that hash code to l
 
 9.How the HashTable works in C#?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -197,7 +197,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 10.Can you differentiate ArrayList and Hashtable in C#?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -215,7 +215,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 11.Can you brief me on the Stack Collection class in C#?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -236,7 +236,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 12.Can you brief me on the Queue Collection class in C#?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -255,7 +255,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 13.When to Use Non-Generic SortedList Collection in C#?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -274,7 +274,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 14.What is Generics in C#? Why do we need Generics in C#?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -299,7 +299,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 15.Can you brief me on Generic Dictionary Collection Class?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -319,7 +319,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 16.Can you differentiate List and Dictionary in C#?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -338,7 +338,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 17.What is the ForEach loop in C#?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -365,7 +365,7 @@ foreach(datatype var_name in collection_variable)
 
 18.Can you brief us on BlockingCollection class in C#?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 

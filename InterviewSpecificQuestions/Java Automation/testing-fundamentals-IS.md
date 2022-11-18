@@ -1,6 +1,6 @@
 1.What is `Software Testing`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -15,7 +15,7 @@ Software testing is the process of evaluating and verifying that a software prod
 
 2.Why do we need to perform `Software Testing`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -34,7 +34,7 @@ Some reasons:
 
 3.What is the significance of Manual Testing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -51,7 +51,7 @@ Some reasons:
 
 4.What is Automated Testing?
    
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -68,7 +68,7 @@ Some reasons:
 
 5.How does `Manual Software Testing` differs from `Automated Software Testing`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -83,7 +83,7 @@ Some reasons:
 
 6.What is meant by `STLC`?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -110,7 +110,7 @@ Some reasons:
   
 7.What is `Functional Testing`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -128,7 +128,7 @@ Some reasons:
   
 8.What is `Non-functional Testing`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -147,7 +147,7 @@ Some reasons:
 
 9.What is meant by `Entry Criteria` and `Exit Criteria` in software testing? 
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -165,7 +165,7 @@ The entry and exit criteria for the test are closely related to the purpose and 
 
 10.What is the `Test Closure` and why it’s needed?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -187,7 +187,7 @@ It’s required because it provides the below functionalities
 
 11.What is the difference between `SDLC` and `STLC`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -217,7 +217,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 12.What is `White Box Testing`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -233,7 +233,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 13.What is `Black Box Testing`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -249,7 +249,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 14. Which is better – White or Black Box Testing?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -266,7 +266,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 15.Which one comes first White Box or Black Box Testing?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -282,7 +282,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 16.What are `Verification` and `Validation` in Software Testing?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -298,7 +298,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 17.What is the difference between a Feature and a Bug?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -314,7 +314,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 18.Difference between a Bug and a Defect?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -332,7 +332,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 19.Distinguish between `Error`, `Defect`, `Bug` and `Failure`?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -351,7 +351,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 20. What is Defect/Bug Life Cycle in Software Testing?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -368,7 +368,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 21.How can you use the `Test Pyramid Model` to reduce the number of bugs that make their way into production?
  
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -386,7 +386,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 22.What is `Code Coverage`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -401,7 +401,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 23.What are Automation Testing tools?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -418,7 +418,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 24.What is User Acceptance Testing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -435,7 +435,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 25.What is End to End (E2E) Testing? 
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -451,7 +451,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 26.What is the purpose of Integration Testing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -467,7 +467,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 27.Why Non-Functional Testing is essential?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -482,7 +482,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 28.What is `Unit Testing`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -498,7 +498,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 29.What is `Performance Testing`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -517,7 +517,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 30.What is `Regression Testing`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -532,7 +532,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 31.When do we do `Sanity Testing`?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -547,7 +547,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 32.What is the common sequence or order of Testing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -564,7 +564,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 33.What do you mean by `Positive and Negative Testing`?
     
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -580,7 +580,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 34. What is the `Requirements Traceability Matrix (RTM)`?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -599,7 +599,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 35.What is the `Severity` of Bug/Defects in Software Testing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -615,7 +615,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 36. What is the `Priority` of Bug/Defects in Software Testing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -631,7 +631,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 37. Provide the key difference between the Priority and Severity of Defects in Software Testing?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -652,7 +652,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 38.How do Priority and Severity Metrix help to decide the impact of defects in Software Testing?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -671,7 +671,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 39.What is `Alpha Testing`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -690,7 +690,7 @@ STLC defines a series of activities performed during testing to ensure the quali
   
 40.What is `Beta Testing`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -709,7 +709,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 41.What is `Incident`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -725,7 +725,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 42.What is `Incident Report`? How are they stored, and maintained?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -743,7 +743,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 43.What is `Incident Report Life Cycle`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -767,7 +767,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 44.What is `V-Model` in Software Testing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -786,7 +786,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 45.What do you understand by Tester Mindset?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -803,7 +803,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 46.What do you understand by Developer Mindset?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -821,7 +821,7 @@ with those solutions.
 
 47. What is the relation between Tester’s and Developer’s Mindsets?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -839,7 +839,7 @@ with those solutions.
 
 48.Developers can test their own code using TDD, then why Testers are needed?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -855,7 +855,7 @@ with those solutions.
 
 49.What is the significance of the Test Plan?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -879,7 +879,7 @@ with those solutions.
 
 50.What is the significance of the Test Strategy?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -903,7 +903,7 @@ with those solutions.
 
 51.What is the importance of Test Results in STLC?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -920,7 +920,7 @@ with those solutions.
 
 52.What is the meaning of a Test Case?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -936,7 +936,7 @@ with those solutions.
 
 53.What is the meaning of Test Suite?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -952,7 +952,7 @@ with those solutions.
 
 53.What are Defect Reports?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -970,7 +970,7 @@ with those solutions.
 
 53.What is Test Documentation? or What are Test Documents?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -992,7 +992,7 @@ with those solutions.
 
 53.What do you understand by Test Scenarios?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -1009,7 +1009,7 @@ with those solutions.
 
 54.Name a few parameters monitored during Performance Testing.
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -1036,7 +1036,7 @@ A few parameters which are monitored during Performance Testing are listed below
 
 55.What is a `Use Case Diagram`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -1052,7 +1052,7 @@ A few parameters which are monitored during Performance Testing are listed below
 
 56.What is `Use Case Testing`?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -1067,7 +1067,7 @@ A few parameters which are monitored during Performance Testing are listed below
 
 57.What is `Happy Path` in Use Case Analysis?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -1083,7 +1083,7 @@ A few parameters which are monitored during Performance Testing are listed below
 
 58.What is an `Alternate Path` in Use Case Analysis?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -1099,7 +1099,7 @@ A few parameters which are monitored during Performance Testing are listed below
 
 59.What is an `Exception Path` in Use Case Analysis?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -1116,7 +1116,7 @@ A few parameters which are monitored during Performance Testing are listed below
 
 60.What is `Data-Driven Testing (DDT)`?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -1135,7 +1135,7 @@ A few parameters which are monitored during Performance Testing are listed below
 
 61.Can we do Data-Driven Testing using JUnit?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 

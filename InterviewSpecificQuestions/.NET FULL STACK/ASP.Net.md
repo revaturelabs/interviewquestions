@@ -2,7 +2,7 @@
 
 1.What is ASP.NET?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -17,7 +17,7 @@ ASP.NET is a server-side technology used for developing dynamic websites and web
 
 2.Is it possible to deploy the application without deploying the server source code?
  
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -33,7 +33,7 @@ ASP.NET is a server-side technology used for developing dynamic websites and web
 
 3. What is the ASP.NET Life Cycle, and list the types of Life Cycle?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -53,7 +53,7 @@ ASP.NET is a server-side technology used for developing dynamic websites and web
 
 4. What is ASP.NET MVC framework?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -68,7 +68,7 @@ ASP.NET MVC is a web application framework for the .NET Platform used for buildi
 
 5.What is the web.config file and what is it used for?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -83,7 +83,7 @@ The web.config file is crucial because it contains the configuration settings fo
 
 6.What is an ASP.NET web API framework?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -98,7 +98,7 @@ ASP.NET Web API is used purely for building backend web APIs which can be used b
 
 7.Can you explain the request flow in the ASP.NET MVC framework?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -114,7 +114,7 @@ ASP.NET Web API is used purely for building backend web APIs which can be used b
 
 8.Could you explain the viewstate concept in ASP.NET?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -129,7 +129,7 @@ To make sure that the state between the postbacks is well maintained, ASP.NET of
 
 9.How can you detect if a viewstate has tampered with?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -144,7 +144,7 @@ By setting the EnableViewStateMac to true in the `@Page` directive.This attribut
 
 10. What is Server control?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -159,7 +159,7 @@ ASP.NET has Server Controls features, which provide facilities to manipulate the
 
 11. How many types of Server controls are supported by ASP.NET?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -179,7 +179,7 @@ There are mainly four different types of Server-side controls in ASP.NET :
 
 12.Can you differentiate Server.Transfer and Response.Redirect?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -196,7 +196,7 @@ There are mainly four different types of Server-side controls in ASP.NET :
 
 13.What is caching?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -211,7 +211,7 @@ Caching is a technique used to increase performance by keeping frequently access
 
 14.What are the different types of caching?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -230,7 +230,7 @@ ASP.NET has 3 kinds of caching:
 
 15.Can you list the events in the page life cycle?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -252,7 +252,7 @@ ASP.NET has 3 kinds of caching:
 
 16. Is it possible to create a web application with both webforms and MVC?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -273,7 +273,7 @@ Yes.We have to include the below MVC assembly references in the web forms applic
 
 17.What is Cross Page Posting?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -288,7 +288,7 @@ When we click submit button on a web page, the page posts the data to the same p
 
 18.What is Query String in ASP?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -303,7 +303,7 @@ A query string is a method of transporting data from page to page using the brow
 
 19.What is tracing in .NET?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -318,7 +318,7 @@ Tracing in .net enables one to follow the execution path of a page, debug the ap
 
 20.What are Master Pages?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -333,7 +333,7 @@ Master pages are a template that is used to create web pages with a consistent l
 
 21.What is Razor?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -348,7 +348,7 @@ Razor is a view engine.The view engine is responsible for rendering the HTML pag
 
 22.What is page processing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -363,7 +363,7 @@ Page processing allows ASP.NET to execute the web server on the server by a tech
 
 23.What is the use of the AutoEventWireup attribute in the Page directive?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -378,7 +378,7 @@ The AutoEventWireUp is a Boolean attribute that allows automatic wire-up of page
 
 24.What are the different Session state management options available in ASP.NET?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -396,7 +396,7 @@ In-Process and Out-of-Process are the two session state management options.
 
 25.What is the difference between a session and an application object?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>

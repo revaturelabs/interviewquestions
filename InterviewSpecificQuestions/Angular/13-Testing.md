@@ -1,6 +1,6 @@
 1.What does the `ng test` do?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -15,7 +15,7 @@ The `ng test` command builds the application in watch mode and launches the Karm
 
 2.What are the testing files in Angular?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -30,7 +30,7 @@ The test file extension **must be `.spec.ts`** so that tooling can identify it a
 
 3.Have you heard of Jasmine? Explain a bit.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -46,7 +46,7 @@ The test file extension **must be `.spec.ts`** so that tooling can identify it a
 
 4.What does Karma do?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -62,7 +62,7 @@ Karma is a task runner for our tests.It allows the users to execute their Jasmin
 5.How to write a unit test in Angular?
 
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>

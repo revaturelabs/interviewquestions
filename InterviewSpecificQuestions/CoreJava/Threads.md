@@ -1,6 +1,6 @@
 1.What are Threads?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -16,7 +16,7 @@ A process is a program in execution.A thread is a subset of a process.
 
 2.How do you make a thread in java? or how do you create thread?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -36,7 +36,7 @@ In Java, we can create a thread using
 
 3.What is the life cycle of a thread?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -59,7 +59,7 @@ At any given time, a thread can be in one of these states:
 
 4.How can we differentiate `notify()` and `notifyAll()` methods ?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -78,7 +78,7 @@ At any given time, a thread can be in one of these states:
 
 5.Explain synchronization process? Why we use it?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -93,7 +93,7 @@ Synchronization in java is the capability to control the access of multiple thre
 
 6.Explain thread starvation?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -109,7 +109,7 @@ Thread starvation is basically a situation or condition where a thread won’t b
 
 7.Can you start a thread twice?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 

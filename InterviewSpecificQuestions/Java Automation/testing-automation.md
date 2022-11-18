@@ -1,6 +1,6 @@
 1.What’s the difference between TDD and BDD? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -22,7 +22,7 @@
 2.What is meant by BDD testing?
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -39,7 +39,7 @@ In BDD, test cases are written in a natural language that even non-programmers c
 
 3.What is automation testing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -55,7 +55,7 @@ Automation testing is a software testing strategy in which a tester programmatic
 4.What is Selenium?
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -70,7 +70,7 @@ Selenium is an open-source automated testing framework for validating web applic
 
 5.How Selenium launches web browsers?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -85,7 +85,7 @@ Using Selenium WebDriver.
 
 6.Why do you need Selenium Automation Testing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -118,7 +118,7 @@ Therefore, we go for automation testing with Selenium.
 
 7.List the steps to perform a test through Selenium?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -141,7 +141,7 @@ Therefore, we go for automation testing with Selenium.
 
 8.How do you navigate to a particular webpage URL?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -168,7 +168,7 @@ driver.navigate().to("https://www.example.com/signup");
 
 9.How can I move to a page in the browser history in selenium?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -187,7 +187,7 @@ driver.navigate().forward();
 
 10.How can I go back to the previous page in selenium?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -206,7 +206,7 @@ driver.navigate().back();
 
 11.How can I reload a page using selenium?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -225,7 +225,7 @@ driver.navigate().refresh();
 
 12.What are Locators in Selenium? List the types of locators.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -257,7 +257,7 @@ A locator enables testers to select an HTML DOM element to act on.Some of the di
 </form>
 ```
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -283,7 +283,7 @@ name_input = driver.findElement(By.name("name"))
 </form>
 ```
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -307,7 +307,7 @@ last_name = driver.findElement(By.xpath ("//form[@id='loginForm']/input[2]"))
 
 15.How can I get all the elements in the HTML DOM?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -328,7 +328,7 @@ List<WebElement> inputs = driver.findElementsBy(By.id("loginForm"));
 
 16.What is HTML Source?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -343,7 +343,7 @@ HTML Source refers to the HTML code underlying a certain web element on a web pa
 
 17.What is a Web Element?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -359,7 +359,7 @@ HTML Source refers to the HTML code underlying a certain web element on a web pa
 
 18.`FindElement()` vs `FindElements()`
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -380,7 +380,7 @@ HTML Source refers to the HTML code underlying a certain web element on a web pa
 	
 19.What is XPath in Selenium?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -408,7 +408,7 @@ Here,
 	
 20.What are the types of XPath in Selenium?
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -432,7 +432,7 @@ There are two types of XPath in Selenium.
 	
 21.What is Cucumber?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -450,7 +450,7 @@ There are two types of XPath in Selenium.
 
 22.What language is used by the Cucumber tool?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -466,7 +466,7 @@ There are two types of XPath in Selenium.
 
 23.What is a Feature file?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -483,7 +483,7 @@ There are two types of XPath in Selenium.
 
 24.What do you mean by feature in Cucumber?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -509,7 +509,7 @@ Example: For an e-commerce website, we can have the following features: -
 
 25.What do you mean by Scenario in Cucumber?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -532,7 +532,7 @@ _Explanation_: When a user clicks on the My Orders option, he/ she should be tak
 
 26.What do you mean by Scenario Outline?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -567,7 +567,7 @@ Scenario Outline: A user wants to update the status of any potentially completed
 
 27.What are the two files required to execute a Cucumber test scenario?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -584,7 +584,7 @@ Scenario Outline: A user wants to update the status of any potentially completed
 
 28.What is the purpose of the Step Definition file in Cucumber?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -603,7 +603,7 @@ Scenario Outline: A user wants to update the status of any potentially completed
 
 29. Give an example of a feature file using the Cucumber framework.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -626,7 +626,7 @@ Scenario: Login to the application.
 
 30.List some common BDD keywords.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -661,7 +661,7 @@ Then expected outcome
 
 31.Difference between Selenium and Cucumber.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -682,7 +682,7 @@ Then expected outcome
 
 32.How we can implement BDD using cucumber?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -703,7 +703,7 @@ The general workflow for implementing BDD using Cucumber is as follows:
 
 33.What Is Glue Code?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -723,7 +723,7 @@ The general workflow for implementing BDD using Cucumber is as follows:
 
 34.What is the purpose of the Cucumber Options tag?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -749,7 +749,7 @@ Below is the syntax of the Cucumber Options tag:
 35.Is glue code enough to run the test?
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -778,7 +778,7 @@ public class CucumberTestRunner {
 36.What happens if we try to query for an element, but that element does not exist on the page?
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -796,7 +796,7 @@ Selenium will throw a `NoSuchElementException`.There is also a chance that we ha
 37.Suggest what we can do when we get `NoSuchElementException`.
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -817,7 +817,7 @@ In NoSuchElementException cases, we would like to wait for the element to appear
 38.What is the reason to go for the Page Object Model?
 
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -834,7 +834,7 @@ Imagine you are trying to automate a single-page application.There are multiple 
 
 39.What is a `Page Object Model` in Selenium?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -853,7 +853,7 @@ Imagine you are trying to automate a single-page application.There are multiple 
 
 40.What is `Page Factory` in Selenium?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -880,7 +880,7 @@ initElements(): initElements is a static method in Page Factory class.Using the 
 
 41.Difference Between Page Object Model and Page Factory in Selenium.
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -901,7 +901,7 @@ initElements(): initElements is a static method in Page Factory class.Using the 
 
 42.How do you handle alerts using Selenium?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -937,7 +937,7 @@ driver.switchTo().alert().sendKeys("Text");
 
 43.How I can select a value from the dropdown using Selenium?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -975,7 +975,7 @@ objSelect.selectByValue("Automation Testing");
 
 44.How I can get all the options listed in the dropdown?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -997,7 +997,7 @@ System.out.println(elementCount.size());
 
 45.How we can know whether we can select multiple items from the dropdown?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -1013,7 +1013,7 @@ isMultiple(): boolean – This method informs whether the Select element support
 
 46.What is used for the Select class?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -1029,7 +1029,7 @@ In Selenium, the Select class provides the implementation of the HTML SELECT tag
 
 47.Differences between Black Box Testing and White Box Testing.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -1049,7 +1049,7 @@ In Selenium, the Select class provides the implementation of the HTML SELECT tag
 
 48.What are the Selenium suite components?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>

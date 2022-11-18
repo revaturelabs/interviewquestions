@@ -3,7 +3,7 @@
     - `/register` need to be the register page or template
  
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -26,7 +26,7 @@ const routes: Routes = [
  
 2.How do to create an angular project, when I need to navigate between components?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -41,7 +41,7 @@ Run the `ng new routing-app --routing ` command to generate a basic Angular app 
  
 3.Why do we need router guards?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -56,7 +56,7 @@ To prevent unauthorized access to certain parts of our navigation, we use route 
  
 4.What is the purpose of `routerLink` attributes and `<routeroutlet>`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -74,7 +74,7 @@ To prevent unauthorized access to certain parts of our navigation, we use route 
  
 5.Where do you define the routes in the Angular application?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -95,7 +95,7 @@ In the `app.routing.ts` file, you can add the paths and components under the `ro
  
 6.List some of the interfaces used in routing guards?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -114,7 +114,7 @@ In the `app.routing.ts` file, you can add the paths and components under the `ro
  
 7.How do you create a routing guard?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -183,7 +183,7 @@ const routes: Routes = [
 
 8.Which mechanism in Angular provides a way to navigate from one view to another view in the application?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -199,7 +199,7 @@ The Router mechanism in Angular provides a way to navigate from one view to anot
 9.What is the use of `RoutingModule` in Angular?
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>

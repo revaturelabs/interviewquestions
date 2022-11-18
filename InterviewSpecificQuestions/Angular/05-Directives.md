@@ -1,6 +1,6 @@
 1.What are directives?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -14,7 +14,7 @@ Directives add behavior to an existing DOM element or an existing component inst
 
 2.What are the differences between Component and Directive?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -35,7 +35,7 @@ On a short note, A component(`@Component`) is a directive-with-a-template.Some o
 
 3.What are the different types of directives in Angular?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details>
 <summary> <b>Show Answer</b></summary>
@@ -54,7 +54,7 @@ On a short note, A component(`@Component`) is a directive-with-a-template.Some o
     
 4.Explain Structural Directives in Angular?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary> <b>Show Answer</b></summary>
@@ -96,7 +96,7 @@ On a short note, A component(`@Component`) is a directive-with-a-template.Some o
   
 5.Explain Attribute Directives in Angular?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary> <b>Show Answer</b></summary>
@@ -131,7 +131,7 @@ Enter the username: <input type='text' [(ngModel)]='name'>
     - If entered `age`is greater than 60, print their `name` then say "is a senior citizen"
     - Else, their `name` then say "is not a senior citizen"
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -190,7 +190,7 @@ export class AppComponent {
 	-  Get a number from the user.
 	-  Print it as an even number or an odd number
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -246,7 +246,7 @@ Enter a number: <input type="text" [(ngModel)]="num">
 
 8.How do you create a custom directive in Angular?
  
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -282,7 +282,7 @@ export class MyHighlightDirective {
 
 9.What's Angular `ElementRef`?
  
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -297,7 +297,7 @@ Angular `ElementRef`is simply a class that wraps native DOM elements in the brow
 
 10.How do you choose an element from a component template?
 	
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 	
 <details>
 <summary><b>Show Answer</b></summary>
@@ -324,7 +324,7 @@ ngAfterViewInit() {
 
 11.What is `ng-template` in Angular?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>
@@ -339,7 +339,7 @@ ngAfterViewInit() {
  
 12.Create a `myHighlight` attribute directive to set an element’s background color when you hover over that element.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary><b>Show Answer</b></summary>

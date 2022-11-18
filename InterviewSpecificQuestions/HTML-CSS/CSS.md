@@ -1,6 +1,6 @@
 1.What is CSS?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -14,7 +14,7 @@ CSS is a styling language that makes HTML web pages more presentable.It allows y
 
 2.What are the three main ways to apply CSS styles to a web page?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -57,7 +57,7 @@ CSS is a styling language that makes HTML web pages more presentable.It allows y
 
 3.Can you tell me briefly about  CSS “box model” and the layout components that it consists of?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -76,7 +76,7 @@ The CSS box model is a rectangular layout paradigm for HTML elements that consis
 
 4.What is a CSS rule?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -94,7 +94,7 @@ Web browsers apply CSS rules to a document to affect how they are displayed.A CS
 
 5.Can u tell me the three elements of CSS3?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -112,7 +112,7 @@ CSS3 has the elements as syntax rules; they are
 
 6.Which type of CSS holds the highest priority?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -132,7 +132,7 @@ CSS3 has the elements as syntax rules; they are
 
 7.What is a CSS selector?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -154,7 +154,7 @@ There are several different types of selectors in CSS.
 
 8.What do you know about the CSS3 element selector?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -183,7 +183,7 @@ In the output element P will be left aligned with the blue text color.
 
 9.Have you played around with the new CSS Flexbox or Grid specs?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -202,7 +202,7 @@ In the output element P will be left aligned with the blue text color.
 
 10.What is DOM (Document Object Model) and how is it linked to CSS?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -220,7 +220,7 @@ When a browser displays a document, it must combine the document's content with 
 
 11.What does the cascading portion of CSS mean?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -240,7 +240,7 @@ When a browser displays a document, it must combine the document's content with 
 
 12.What is contextual selector?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -259,9 +259,13 @@ table p { property: value; }
 
 ---
 
+<<<<<<< HEAD
 13.Describe floats and how they work
+=======
+13. Describe floats and how do they work?
+>>>>>>> e5cb7c9d3f67ef7050b89c8ef56a3901b910ab52
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -282,7 +286,7 @@ The CSS clear property can be used to be positioned below left/right/both floate
 
 14.What is the difference between classes and IDs in CSS?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -298,7 +302,7 @@ The CSS clear property can be used to be positioned below left/right/both floate
 
 15.What is the use of CSS Opacity?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -323,7 +327,7 @@ img.trans {
 
 16.What is the difference between CSS border and outline?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -338,7 +342,7 @@ img.trans {
 
 17.How can the background color of an element be changed?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -358,7 +362,7 @@ background-color: coral;
 
 18.Why do we use pseudo-class?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -395,7 +399,7 @@ background-color: coral;
 
 19.What is the difference between flex and grids?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -436,7 +440,7 @@ Flex Example :
 
 20.Give an example where we have to use grids and where you have to use flexbox?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -452,7 +456,7 @@ Use a grid when we already have the layout structure in mind, and flex when we j
 
 21.Which one of these units would you prefer: `px, em, % or pt` and why?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -474,7 +478,7 @@ It depends on what we are trying to do.
 
 22.How do absolute, relative, fixed, and static position differ?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -494,7 +498,7 @@ It depends on what we are trying to do.
 
 23.What are the differences between visibility hidden and display none?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -508,7 +512,7 @@ It depends on what we are trying to do.
 
 24.What are the differences between inline, block and inline block?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -526,7 +530,7 @@ It depends on what we are trying to do.
 
 25.What are the properties related to box model?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -539,7 +543,7 @@ It depends on what we are trying to do.
 
 26.Does overflow: hidden create a new block formatting context?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -553,7 +557,7 @@ yes, overflow property deals with the content if content size exceeds the alloca
 
 27.What are some pseudo classes you have used?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -569,7 +573,7 @@ yes, overflow property deals with the content if content size exceeds the alloca
 
 28.How do you align a p center-center inside a div?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -608,7 +612,7 @@ yes, overflow property deals with the content if content size exceeds the alloca
 
 29.How do you optimize CSS selectors?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -622,7 +626,7 @@ This is very open and depend on what we are trying to achieve.If we order select
 
 30.How can you load CSS resources conditionally?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -638,7 +642,7 @@ This is very open and depend on what we are trying to achieve.If we order select
 
 31.What are the different CSS filter you can use?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -652,7 +656,7 @@ CSS filter allows us to render DOM element, image, or video.We can choose from: 
 
 32.What do you know about transition?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -666,7 +670,7 @@ Transition allows to add an effect while changing from one style to another.we c
 
 33.What are the reasons to use preprocessor?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -680,7 +684,7 @@ We write CSS in high level with some special syntax (declaring variable, nested 
 
 34.Explain the usage of "table-layout" property
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -700,7 +704,7 @@ The table-layout property defines the algorithm used to layout table cells, rows
 
 35.How is responsive design different from adaptive design?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -718,7 +722,7 @@ Adaptive design is more like the modern definition of progressive enhancement.In
 
 36. What does Accessibility (a11y) mean?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -734,7 +738,7 @@ Accessibility is also known as assistive technology.
 
 37. What’s the difference between “resetting” and “normalizing” CSS? Which would you choose, and why?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -750,7 +754,7 @@ It's a good idea to choose resetting when we have very a customized or unconvent
 
 38.Describe pseudo-elements and discuss what they are used for.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -770,7 +774,7 @@ Example of usage:
 
 39.What is the difference between RGBa, HEX and HSLa?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -803,7 +807,7 @@ p {
 
 40.Explain the purpose of clearing floats in CSS?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -884,7 +888,7 @@ clear: none|left|right|both|inherit|inline-start|inline-end;
 
 41.How a browser determines what elements match a CSS selector?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -900,7 +904,7 @@ For example with this selector p span, browsers firstly find all the `<span>` el
 
 42.What is At-Rule?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -933,7 +937,7 @@ At-rules are `CSS statements` that instructs CSS how to behave.They begin with a
 
 43.How do I restore the default value of a property?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -947,7 +951,7 @@ The keyword `initial` can be used to resets it to its default value, which is de
 
 44. What is the difference between padding and margin?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -972,7 +976,7 @@ Also, using margin will not affect your element\'s dimensions whereas padding wi
 45.How is the concept of inheritance applied in CSS?
 
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -998,7 +1002,7 @@ span {
 
 46.How does Calc() work?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1030,7 +1034,7 @@ The `calc()` function can be used to perform addition, subtraction, multiplicati
 
 47.Can you add 3D transformations to our project using CSS?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1050,7 +1054,7 @@ There are three main transformation types that are mentioned below:
 
 48.What is responsive web design?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1064,7 +1068,7 @@ Responsive Design is a method of creating web pages that makes use of adaptable 
 
 49.How does the Z index function?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1078,7 +1082,7 @@ Sometimes, while positioning the elements of HTML using CSS, overlapping may occ
 
 50.Define Image sprites with context to CSS?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1092,7 +1096,7 @@ Image Sprites is the process of collaborating several images into one.It reduces
 
 51.State the difference between Style Sheet and HTML?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>

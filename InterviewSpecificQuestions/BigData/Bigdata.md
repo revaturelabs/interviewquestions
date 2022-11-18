@@ -2,7 +2,7 @@
 
 1.What will you do if NameNode is unavailable?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -25,7 +25,7 @@ The Hadoop cluster is  up and running, the NameNode recovery method used the fol
 
 2.Will Spark overtake Hadoop? Will Hadoop be replaced by Spark?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -42,7 +42,7 @@ The Hadoop cluster is  up and running, the NameNode recovery method used the fol
 
 3.How Spark is used as a data-distributed System?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -65,7 +65,7 @@ Component of Spark:
 
 4.How do you copy files from the local machine to HDFS?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -91,7 +91,7 @@ To copy a file from the local file system to HDFS, use Hadoop fs -put or hdfs df
 
 5.How does Map reduce (MR) is differ from Elastic Map reduce (EMR)?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -109,7 +109,7 @@ To copy a file from the local file system to HDFS, use Hadoop fs -put or hdfs df
 
 6.What ensures the load balancing of the server in Kafka?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -127,7 +127,7 @@ To copy a file from the local file system to HDFS, use Hadoop fs -put or hdfs df
 
 7.What roles do Replicas and the ISR play?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -145,7 +145,7 @@ In addition, ISR refers to In-Sync Replicas.On defining ISR, it is a set of mess
 
 8.How to erase all messages from a Kafka topic? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -163,7 +163,7 @@ In addition, ISR refers to In-Sync Replicas.On defining ISR, it is a set of mess
 
 9.Do you know how to work with aggregate functions? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -190,7 +190,7 @@ Yes.
 
 10.If 8TB is the available disk space per node (10 disks with 1 TB, 2 disks for operating system etc.were excluded.).Assuming the initial data size is 600 TB.How will you estimate the number of data nodes (n)?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -238,7 +238,7 @@ With these numbers, you can predict next year’s additional machines required f
 
 11.Imagine that you are uploading a file of 500MB into HDFS.100MB of data is successfully uploaded into HDFS and another client wants to read the uploaded data while the upload is still in progress.What will happen in such a scenario, will the 100 MB of data that is uploaded will be displayed?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -260,7 +260,7 @@ So, during this process if 1st block of 100 MB is written to HDFS and the next b
 
 12.When decommissioning the nodes in a Hadoop Cluster, why should you stop all the task trackers?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -275,7 +275,7 @@ We are aware of a complete process on how to decommission a datanode and there a
 
 13.Assume you want to generate a unique id for each record of data frame ,how would you achieve it?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -291,7 +291,7 @@ we can use monotonically_increasing_id() in withColumn
 
 14.How would you see the running application in yarn from the command line? And how will you kill the application.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -306,7 +306,7 @@ Yarn application -list
 
 15.Say you have data of a website contains information of logged in user, one user may have multiple fields.But the number of fields per user may vary based on his actions.In that case which component of hadoop you will use to store the data?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -323,7 +323,7 @@ nosql db.
 
 16.There are 5000000 Records in one hive table, and you have loaded it in spark -shell for development purposes.What would be the best practice to write code.Would you be processing 5000000 records in each line of code?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -338,7 +338,7 @@ In that case we can use limit function (say 1000 records ) ,cache it and then us
 
 17.In Kafka, have you dealt with subscriber programs or consumer programs?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -353,7 +353,7 @@ Kafka consumers is a part of a consumer group.When multiple consumers are subscr
 
 18.How do you create a dataframe in spark?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -372,7 +372,7 @@ Three ways to create a DataFrame in Spark:
 
 19.Can you perform all CRUD operations on HIVE? does HIVE allow update and delete?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -398,7 +398,7 @@ Following operations need to be enabled to used CRUD operation:
 
 20.Suppose Hadoop spawned 100 tasks for a job and one of the tasks failed.What will Hadoop do?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -417,7 +417,7 @@ Basically, it will restart the task again on some other TaskTracker and if the t
 - We have 3 files of size 64K, 65Mb and 127Mb
 How will we manage this Situation In HDFS?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -454,7 +454,7 @@ Note:  blocks-size does not mean the per file size on the disc, it means the uni
 
 22.Explain how is data partitioned before it is sent to the reducer if no custom partitioner is defined in Hadoop?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -469,7 +469,7 @@ Hash Partion is the default partitioner in hadoop which is handled by Hadoop int
 
 23.Is Spark is a replacement of Hadoop? If yes, do you want to suggest to use mapreduce to or just spark?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -495,7 +495,7 @@ At the same time for batch processing where huge sets of data is there and time 
 
 24.Is it possible to put  our data sets through the reduction phase twice in a map reduce?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -516,7 +516,7 @@ Yes it is possible.
 
 25.Where does the process of Shuffle and sort take place in map reduce framework?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -538,7 +538,7 @@ All of the work of the MapReduce program is performed on the DNs.That is where t
 
 26.Does creating checkpoints in various phases (map, combiner, shuffle, reduce) of a map reduce the chance to avoid phase level failures and improve fault tolerance?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -563,7 +563,7 @@ The reasons being -
 
 27.In Hadoop MapReduce, is it possible to support multiple reduce methods for the same Mapper input?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -578,7 +578,7 @@ yes you can do it - but it may be a pretty bad idea.
 
 28.Suppose a NameNode is failed, How do we bring it up ?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -593,7 +593,7 @@ Suppose this situation happen , as NameNode gets fail the whole Hadoop cluster w
 
 29.How will you decide whether you need to use the Capacity Scheduler or the Fair Scheduler?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -608,7 +608,7 @@ Suppose , we wants the jobs to make Equal progress ,whereas following the FIFO p
 
 30.What are the daemons required to run a Hadoop cluster?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -628,7 +628,7 @@ Hadoop cluster has 5 daemons.
 
 31.How will you restart a NameNode?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -646,7 +646,7 @@ After that start the NameNode using command like:
 
 32.For what is jps command used?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -661,7 +661,7 @@ It is used to check if a specific daemon is up or not as well as It is processes
 
 33. Is it possible to copy files across multiple clusters? If yes, how can you accomplish this?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -677,7 +677,7 @@ It is possible to the copy files across the multiple Hadoop clusters, and this c
 
 34.Can HDFS blocks be broken?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -694,7 +694,7 @@ HDFS blocks be broken to this is input split.As HDFS does not know the content o
 
 35.Does Hadoop replace data warehousing systems?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -714,7 +714,7 @@ Hadoop will not replace a data warehouse because the data and its platform are t
 
 36.Propose a design to develop a system that can handle ingestion of both periodic data and real-time data.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -731,7 +731,7 @@ Hadoop will not replace a data warehouse because the data and its platform are t
 
 37.File could be replicated to 0 Nodes, instead of 1.Have you ever come across this message? What does it mean?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -746,7 +746,7 @@ When a file is written to the HDFS, it is replicated to multiple core nodes.When
 
 38.How Avro Serialization work in Hadoop Platform? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -767,7 +767,7 @@ It is used to Provide AvroMapper and AvroReducer class for running the Mapreduce
 
 39.How can you skip the bad records in Hadoop?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -782,7 +782,7 @@ With the help of <b> SkipBadRecords class </b> , we can skip the bad records in 
 
 40.What is the purpose of using DistCp is hadoop?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -797,7 +797,7 @@ It is a tool which is used to copy large amounts of data to and from hadoop file
 
 41.Which command is used to format the NameNode?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -813,7 +813,7 @@ It is a tool which is used to copy large amounts of data to and from hadoop file
 
 42.Can the default “Hive Metastore” be used by multiple users (processes) at the same time?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -829,7 +829,7 @@ Hive Metastore allow multiple users at the same time.
 
 43.Why do we use HDFS for applications having large data sets and not when there are lot of small files?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -845,7 +845,7 @@ It is used to maintained single file as compared to the small chunks of data sto
 
 44.If we want to copy 10 blocks from one machine to another, but another machine can copy only 8.5 blocks, can the blocks be broken at the time of replication?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -865,7 +865,7 @@ Before copying the blocks from one machine to another, the Master node will figu
 
 45.If reducers do not start before all mappers finish, then why does the progress on MapReduce job shows something like Map (50%) Reduce (10%)? Why is reducers progress percentage displayed when mapper is not finished yet?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -880,7 +880,7 @@ The reducer phase will be started atleast 5% of total mappers have completed the
 
 46.What is Fact Table and Dimension Table (When I said that I am aware of Dataware house concept)
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -896,7 +896,7 @@ It holds the data , that data must be analyzed and dimension table stores data a
 
 47.What type of data we should store in Fact table and dimension table?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -913,7 +913,7 @@ It is stored the report labels whereas Dimension table contains detailed data.
 
 48.There is a string in a Hive column, how you will find the count of a character.For example, the string is “hdfstutorial”, then how to count number of ‘t’.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -928,7 +928,7 @@ Hive is used to helps in finding the position of a substring in a string.It will
 
 49.We have 10 tables, and there are certain join conditions you have to put and then the result needs to be updated in another table.How you will do it.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -943,7 +943,7 @@ It is possible to make relation between 10 tables.We can consider relation betwe
 
 50.Tell me some set of Analytical functions are used in Hive?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -963,7 +963,7 @@ It is possible to make relation between 10 tables.We can consider relation betwe
 
 51.Tell me something about bucketing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -980,7 +980,7 @@ It is possible to make relation between 10 tables.We can consider relation betwe
 
 52.what is actually happening in bucketing and when we apply?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -997,7 +997,7 @@ It is possible to make relation between 10 tables.We can consider relation betwe
 
 53.Why do use buckets?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1014,7 +1014,7 @@ It is possible to make relation between 10 tables.We can consider relation betwe
 
 54.How bucketing is different from Partition and why we use it
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1031,7 +1031,7 @@ It is possible to make relation between 10 tables.We can consider relation betwe
 
 55. If you have a bucketed table then can you take those records to Sqoop directly.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1046,7 +1046,7 @@ We would have to import the data to an intermediate table and then insert into t
 
 56.If we have 10GB and 10MB file, how do you load and process the 10 MB file in map-reduce.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1062,7 +1062,7 @@ Mapreduce used to process the task in a block of data at a time.Many small files
 
 57.Apart from Map-side and reduce side joins any other joins in map-reduce?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1077,7 +1077,7 @@ Map side join is usually used when one data set is large and the other data set 
 
 58.What does hadoop-metrics properties file do?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1092,7 +1092,7 @@ Hadoop-metrics properties file  is used to control the reporting for hadoop.
 
 59.How to erase all messages from a Kafka topic? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1109,7 +1109,7 @@ Hadoop-metrics properties file  is used to control the reporting for hadoop.
 
 60.What's the difference between a RDD and DataFrame?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1124,7 +1124,7 @@ RDD work as a distributed collection of data elements spread across many machine
 
 61.How to create a Rdd in Hadoop?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1146,7 +1146,7 @@ RDD work as a distributed collection of data elements spread across many machine
 
 62.How to create DataFrame using PySpark?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1172,7 +1172,7 @@ RDD work as a distributed collection of data elements spread across many machine
 
 63.Diverse types of memories in spark?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1196,7 +1196,7 @@ Storage memory is used for caching purposes and execution memory is acquired for
 
 64.Tell me something about the sparkContext, what is the purpose to used SparkContext in Hadoop.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1223,7 +1223,7 @@ use this to create Spark RDD.
 
 65.Tell me something about the sparkSession, what is the purpose to used SparkSession in Hadoop.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1248,7 +1248,7 @@ SparkSession in spark-shell:
 
 66.How Hadoop’s CLASSPATH plays a vital role in starting or stopping in Hadoop daemons?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1262,7 +1262,7 @@ Class path will contains the list of directories containing jar files required t
 
 67.What are the different commands used to startup and shutdown Hadoop daemons?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1284,7 +1284,7 @@ start-all.sh  - start the all hadoop daemons.
 
 68.What is configured in /etc/hosts and what is its role in setting Hadoop cluster?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1298,7 +1298,7 @@ we store all the hostnames with their IP addresses in /etc./hosts so, that we ca
 
 69.Is it possible to provide multiple input to Hadoop? If yes then how?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1317,7 +1317,7 @@ hadoop doesn’t read the directory recursively.Suppose , multiple input files l
 
 70.Have you worked with SQOOP?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1332,7 +1332,7 @@ Basically, Sqoop  is used as a tool to transfer data between Hadoop and Relation
 
 71.Have you worked with any cloud platform?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1347,7 +1347,7 @@ Amazon Web Services (AWS), Google Cloud Platform, Alibaba, Microsoft Azure, and 
 
 72.Tell me about Zookeeper role in Kafka ?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1360,7 +1360,7 @@ Kafka is a distributed system is built to use Zookeeper.Basically, it is main us
 
 73.How do you create a dataframe in spark?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1376,7 +1376,7 @@ Three ways to create a DataFrame in Spark:
 
 74.In Kafka, have you deal with subscriber programs or consumer programs?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1389,7 +1389,7 @@ Kafka consumers is a part of a consumer group.When multiple consumers are subscr
 
 75.Why is block size set to 128 MB in Hadoop HDFS?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1403,7 +1403,7 @@ Having 128MB(huge) block size is to minimize the cost of seek and reduce the dat
 
 76.How data or file is written into HDFS?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1419,7 +1419,7 @@ now datanode will create the data write pipeline.
 
 77.How data or file is read in HDFS?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1434,7 +1434,7 @@ Now it will interact directly with the respective datanodes to read the data blo
 
 78.What is a Heartbeat in HDFS?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1448,7 +1448,7 @@ It  is a signal from Datanode to Namenode to indicate that it is alive.
 
 79.Suppose you are running a spark job 3 to 4 times everyday.And it loads the data into hive table.what would be the best approach to distinguish the data on the basis of time when it is loaded.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1467,7 +1467,7 @@ df.withColumn(“batchtime”,lit(batchtime))
 
 80.Assume We want to generate a unique id to each record of data frame, how would we achieve it.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1480,7 +1480,7 @@ With the help of  monotonically_increasing_id()
 
 81.How will get a HDFS file into local directory.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1493,7 +1493,7 @@ Hadoop fs – get hdfsdir local dir
 
 82.How would we see the running application in yarn from the command line? And how we will kill the application.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1508,7 +1508,7 @@ Hadoop fs – get hdfsdir local dir
 
 83.How would we manage it efficiently so that it can be processed by other applications and also reduce the data storage?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1521,7 +1521,7 @@ Using Parquet file in hive.After that we can deleting the old HDFS data and then
 
 84.Will Spark overtake Hadoop? Will Spark replace Hadoop?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1534,7 +1534,7 @@ Hadoop comes to rescue for various problems like storage, NoSQL, Datawarehouse, 
 
 85.What exactly is Apache Spark and how does it work? What does a cluster computing system mean?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1550,7 +1550,7 @@ Hadoop comes to rescue for various problems like storage, NoSQL, Datawarehouse, 
 
 86.Why rack awareness is necessary?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1563,7 +1563,7 @@ It is used to chooses closer Datanodes based on the rack information.Which helps
 
 87.What is the default block size and how is it defined?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1581,7 +1581,7 @@ In HDFS data is stored in the terms of Block.It is the size of the file that get
 
 88.How do you get the report of HDFS file system? About disk availability and No.of active nodes?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1599,7 +1599,7 @@ In HDFS data is stored in the terms of Block.It is the size of the file that get
 
 89.What is Hadoop balancer and why is it necessary?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1612,7 +1612,7 @@ The HDFS balancer re-balances data across the DataNodes, moving blocks from the 
 
 90.What are the main actions performed by the Hadoop admin?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1625,7 +1625,7 @@ The responsibilities of a Hadoop admin include deploying a hadoop cluster, maint
 
 91.What is the purpose to use Kerberos?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1638,7 +1638,7 @@ Kerberos was designed to the provide secure authentication to services over an i
 
 92.How to check the logs of a Hadoop job submitted in the cluster and how to terminate already running process?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1654,7 +1654,7 @@ We can configure the maximum number of times a particular map or reduce the task
 
 93.What details are in the “fsimage” file?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1667,7 +1667,7 @@ FsImage is a file stored on the OS filesystem that contains the complete directo
 
 94.What log file loaders did you use in Pig?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1681,7 +1681,7 @@ Pig, is a repository of user-submitted UDF, contains a custom loader function Co
 
 95. Filter – What did you filter out?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1695,7 +1695,7 @@ Use filters to temporarily hide some of the data in a table, so you can focus on
 
 96.What do you mean by Flume?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1708,7 +1708,7 @@ Flume is an open-source, powerful, reliable, and flexible system used to collect
 
 97.Tell me the process of Configure slots in Hadoop 2.0 and Hadoop 1.0.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1728,7 +1728,7 @@ In Hadoop 1.0 we need to specify in mapred-site.xml the following parameter to C
 
 98.In case of high availability if the connectivity between Standby and Active NameNode is lost.How will this impact the Hadoop cluster?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1743,7 +1743,7 @@ We are used to connected through the  Read and write operation is through networ
 99.What is the minimum number of ZooKeeper services required in Hadoop 2.0 and Hadoop 1.0?
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1757,7 +1757,7 @@ The minimum number of the nodes that is required is 3.
 
 100. If the hardware quality of few machines in a Hadoop Cluster is exceptionally low.How will it affect the performance of the job and the overall performance of the cluster?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1770,7 +1770,7 @@ Install Hadoop cluster in a  production mode which help us to setup the cluster 
 
 101.Explain the difference between blacklist node and dead node.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1788,7 +1788,7 @@ Dead Node , which are not in the cluster or configure but not showing into the c
 
 102.How can you increase the NameNode heap memory?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1806,7 +1806,7 @@ Dead Node , which are not in the cluster or configure but not showing into the c
 103.After restarting the cluster, if the MapReduce jobs that were working earlier are failing now, what could have gone wrong while restarting?
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1822,7 +1822,7 @@ The cluster could be in a safe mode after the restart of a namenode.The administ
 104.Explain the steps to add and remove a DataNode from the Hadoop cluster.
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1839,7 +1839,7 @@ The cluster could be in a safe mode after the restart of a namenode.The administ
 
 105.When NameNode is down, what does the JobTracker do?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1852,7 +1852,7 @@ if Namenode is down then data requested by the client and gives the block inform
 
 106. When configuring Hadoop manually, which property file should be modified to configure slots?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1866,7 +1866,7 @@ There could be a separate configuration file for configuring the properties of t
 
 107.How will you add a new user to the cluster?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1879,7 +1879,7 @@ To create the HDFS home directory [i.e../user/] on edge node.
 
 108.What is the advantage of speculative execution? Under what situations, Speculative Execution might not be beneficial?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1893,7 +1893,7 @@ It will reduce the job execution time; however, the clustering efficiency is aff
 
 109.How Serialization used in Hadoop?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1907,7 +1907,7 @@ Serialization is the process of the converting an object into a stream of bytes 
 
 110.How to remove the duplicate records from a hive table?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1924,7 +1924,7 @@ Serialization is the process of the converting an object into a stream of bytes 
 
 111.How to find the number of delimiters from a file?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1938,7 +1938,7 @@ We need to read a lines, count the number of commas and the number of tabs and c
 
 112.What is cogroup in pig?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1952,7 +1952,7 @@ The COGROUP operator works more or less in the same way as the GROUP operator.Th
 
 113.How we can join two big tables in Hive?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1966,7 +1966,7 @@ We will use a Inner Join to join a two big table in Hive.
 
 114. Which language you use in flume configuration
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1980,7 +1980,7 @@ Flume agent configuration is stored in a local configuration file.Configurations
 
 115. Write a command to import customer table in Hadoop
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1998,7 +1998,7 @@ The following syntax is used to import data into HDFS.
 
 116.What is the mapper in Sqoop and how you decide the number of mappers in Sqoop?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2012,7 +2012,7 @@ Number of mappers indicates how parallel our Sqoop job is running .
 
 117.Where we can specify the input and output location in MapReduce program.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2025,7 +2025,7 @@ No, it is not mandatory to set the input and output type/format in MapReduce.
 
 118.What type of data we should store in Fact table and dimension table?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2039,7 +2039,7 @@ Fact table is defined by their grain or its most atomic level whereas Dimension 
 
 119.How bucketing is different from Partition and why we use it?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2054,7 +2054,7 @@ Bucketing decomposes data into more manageable or equal parts.With partitioning,
 
 120.What is Fact Table and Dimension Table?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2071,7 +2071,7 @@ Dimension table Dimension table is a table which contain attributes of measureme
 121.What are sinks and sources in Apache Flume when working with Twitter data?
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2086,7 +2086,7 @@ Our Source is the Twitter, from where we are streaming the data and our Sink is 
 122.What is heap error and how can you fix it?
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2102,7 +2102,7 @@ Heap errors can occur when your code inadvertently overwrites control informatio
 123.How many joins does MapReduce have and when will you use each type of join?
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2117,7 +2117,7 @@ There are two types of join operations in MapReduce are: Map Side Join: As the n
 124.If you have configured Java version 8 for Hadoop and Java version 7 for Apache Spark, how will you set the environment variables in the basic configuration file?
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2131,7 +2131,7 @@ Environment variables store data that is used by the operating system and the ot
 125.Differentiate between bash and basic profile.
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2147,7 +2147,7 @@ Environment variables store data that is used by the operating system and the ot
 
 126. How is Hadoop different from other parallel computing systems?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2162,7 +2162,7 @@ Hadoop is a distributed file system, which lets you store and the handle massive
 
 127.How can you debug Hadoop code?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2178,7 +2178,7 @@ Hadoop is a distributed file system, which lets you store and the handle massive
 
 128.How is security achieved in Hadoop?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2193,7 +2193,7 @@ Hadoop is a distributed file system, which lets you store and the handle massive
 
 129.Why does one remove or add nodes in a Hadoop cluster frequently?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2208,7 +2208,7 @@ In a Hadoop cluster a Manager node will be deployed on a reliable hardware with 
 
 130.What is Hadoop Streaming?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2224,7 +2224,7 @@ It is a utility which comes under Hadoop distribution.It allows to create and ru
 
 131.Does Hadoop support Streaming data?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2244,7 +2244,7 @@ With streaming data integration for Hadoop, we can easily feed your Hadoop and N
 132.Can you give a detailed overview about the Big Data being generated by Facebook?
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2259,7 +2259,7 @@ In fakebook’s data  with mounds of information.Every 60 seconds, 136,000(appro
 
 133.Give examples of some companies that are using Hadoop structure?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2285,7 +2285,7 @@ Here are five businesses successfully using Hadoop:
 
 134.Since the data is replicated thrice in HDFS, does it mean that any calculation done on one node will also be replicated on the other two?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2299,7 +2299,7 @@ No, calculations will be done only on the original data.
 
 135.If we want to copy 10 blocks from one machine to another, but another machine can copy only 8.5 blocks, can the blocks be broken at the time of replication?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2315,7 +2315,7 @@ In HDFS, blocks cannot be broken down.
 136.You have a directory ProjectPro that has the following files – HadoopTraining.txt, _SparkTraining.txt, #DataScienceTraining.txt, .SalesforceTraining.txt.If you pass the ProjectPro directory to the Hadoop MapReduce jobs, how many files are likely to be processed?
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2331,7 +2331,7 @@ In HDFS, blocks cannot be broken down.
 
 137.When decommissioning the nodes in a Hadoop Cluster, why should you stop all the task trackers?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2348,7 +2348,7 @@ In HDFS, blocks cannot be broken down.
 
 138.If a NameNode enter the safe mode, what will happen? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2363,7 +2363,7 @@ As we know , Namenode is responsible for managing the meta storage of the cluste
 
 139.What ensures load balancing of the server in Kafka?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2379,7 +2379,7 @@ Leader perform the task of all read and write requests for the partition, wherea
 
 140.What roles do Replicas and the ISR play?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2396,7 +2396,7 @@ Leader perform the task of all read and write requests for the partition, wherea
 141.Why are Replications critical in Kafka?
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2410,7 +2410,7 @@ Replication, we can be sure that published messages are not lost and can be cons
 
 142.If a Replica stays out of the ISR for a long time, what does it signify?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2425,7 +2425,7 @@ Simply, it implies that the Follower cannot fetch data as fast as data accumulat
 
 143.In the Producer, when does QueueFullException occur?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2438,7 +2438,7 @@ whenever the Kafka Producer attempts to send messages at a pace that the Broker 
 
 144.Tell me the difference between Kafka and Flume?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2455,7 +2455,7 @@ whenever the Kafka Producer attempts to send messages at a pace that the Broker 
 145.Is Apache Kafka is a distributed streaming platform? if yes, what you can do with it?
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2469,7 +2469,7 @@ Yes, Kafka is a streaming platform.
 
 146.Explain the maximum size of a message that can be received by the Kafka?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2482,7 +2482,7 @@ The maximum size of a message that can be received by the Kafka is approx.100000
 
 147.Compare Spark Streaming to Kafka Streams and Flink.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2522,7 +2522,7 @@ def calculate(sparkSession: SparkSession): Unit = {
 (3,0.7731024202454048)
 ```
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2569,7 +2569,7 @@ def calculate(sparkSession: SparkSession): Unit = {
 }
 ```
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2588,7 +2588,7 @@ def calculate(sparkSession: SparkSession): Unit = {
 
 150.What are receivers in Apache Spark Streaming?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2602,7 +2602,7 @@ It is used to consume the data from different data sources and then move them to
 
 151.What are the data formats supported by Spark?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2615,7 +2615,7 @@ Paraquet, JSON, XML, CSV, RC, Avro, TSV.
 
 152.What is the purpose to use DAG in Spark?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2629,7 +2629,7 @@ It is a finite directed graph with no directed cycles.Here are finite numbers of
 
 153.Is it necessary to install spark on all the nodes of a YARN cluster when running Apache Spark on YARN?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2643,7 +2643,7 @@ Spark need not be installed when running a job under YARN or Mesos because Spark
 
 154.On which port the Spark UI is Available?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2656,7 +2656,7 @@ The Spark UI is available on port 4040 of the driver node.If you are running in 
 
 155.What is the significance of Sliding Window operation?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2670,7 +2670,7 @@ Sliding Window controls transmission of data packets between various computer ne
 
 156.How does Spark achieve full tolerance as compared to Hadoop?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2683,7 +2683,7 @@ Spark stores the data in-memory whereas Hadoop stores data on disk.Hadoop uses r
 
 157.What do you mean by CB Optimization in Spark SQL?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2697,7 +2697,7 @@ Cost-Based Optimization is an optimization technique in Spark SQL that uses tabl
 
 158.How Hive utilize the task as a mapreduce ?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2718,7 +2718,7 @@ Components of Hive:
 
 159.Given that Spark is 100 times faster than Hadoop, what is the business use case for Hadoop?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2739,7 +2739,7 @@ So in this situation , Sprak will help to work as much as can.
 
 160.What is the fundamental abstraction in Spark? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2753,7 +2753,7 @@ Abstraction is spark is known as DStream or Discretized Stream, which is used to
 
 161.Tell me how dataframe differ from dataset?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2772,7 +2772,7 @@ Abstraction is spark is known as DStream or Discretized Stream, which is used to
 162.For Hive, how are partitions stored? Are they files or directories?
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2786,7 +2786,7 @@ Hive used to organize the table into partitions.Partitions work with creating a 
 
 163. What do you mean by data node in Hadoop?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2805,7 +2805,7 @@ Hive used to organize the table into partitions.Partitions work with creating a 
 
 164.What do you know about map reduce and explain how it works?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2825,7 +2825,7 @@ With the help pf Job Traker and Task Tracker.
 
 165.Explain about the different complex data types in Pig.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2840,7 +2840,7 @@ With the help pf Job Traker and Task Tracker.
 
 166.What does Flatten do in Pig?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2855,7 +2855,7 @@ Flatten is used as a modifier in Pig. It is a  un-nests bags and tuples whereas 
 
 167.How do users interact with the shell in Apache Pig?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2870,7 +2870,7 @@ grunt >
 
 168.What are the debugging tools used for Apache Pig scripts?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2885,7 +2885,7 @@ PigLatin scripts can be used in different way to use as a debugging tool.
 
 169.How execution plans works of a Pig Script ?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2905,7 +2905,7 @@ Pig scripts are based on interpreter checking.
 
 170.Tell me the Differentiate between the logical and physical plan of an Apache Pig script?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2921,7 +2921,7 @@ Pig scripts are based on interpreter checking.
 
 171.Tell me the difference between PigLatin and HiveQL ?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2938,7 +2938,7 @@ Pig scripts are based on interpreter checking.
 
 172.Is PigLatin a strongly typed language? If yes, then how did you come to the conclusion?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2953,7 +2953,7 @@ Pig, when we describe the schema of the data, it expects the data to come in the
 
 173.What do you understand by an inner bag and outer bag in Pig?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2967,7 +2967,7 @@ Pig, when we describe the schema of the data, it expects the data to come in the
 
 174.Explain the difference between COUNT_STAR and COUNT functions in Apache Pig?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2982,7 +2982,7 @@ COUNT_STAR is used as a function includes Null values while counting whereas COU
 175.How will you merge the contents of two or more relations and divide a single relation into two or more relations?
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -2996,7 +2996,7 @@ We can use UNION and SPLIT operation.
 
 176.I have a relation R.How can I get the top 10 tuples from the relation R.?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3010,7 +3010,7 @@ Basicallt TOP() function is used to returns the top N tuples from any specific b
 
 177. What are the commonalities between Pig and Hive?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3024,7 +3024,7 @@ Basicallt TOP() function is used to returns the top N tuples from any specific b
 
 178.You have a file employee.txt in the HDFS directory with 100 records.You want to see only the first 10 records from the employee.txt file.How will you do this?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3041,7 +3041,7 @@ Result = Limit employee 10.
 
 179. Explain about the scalar datatypes in Apache Pig.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3061,7 +3061,7 @@ Result = Limit employee 10.
 180.How do users interact with HDFS in Apache Pig ?
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3076,7 +3076,7 @@ Using the grunt shell.
 
 181.Suppose a NameNode is unavailable then what will happen to the Hadoop ?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3100,7 +3100,7 @@ To get the Hadoop cluster up and running, the NameNode recovery method used the 
 
 182.How Spark differ from the Hadoop? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3118,7 +3118,7 @@ To get the Hadoop cluster up and running, the NameNode recovery method used the 
 
 183.Tell us how will you implement SQL in Spark?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3139,7 +3139,7 @@ HiveQL has similar Query performance.
 
 184.Explain the sparse vector in Spark.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3154,7 +3154,7 @@ It is used for storing the non-zero entries for saving the space.which includes 
 
 185.Does Apache Spark provide checkpoints?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3172,7 +3172,7 @@ It provides the checkpoints , to allow for code to run all around the clock to m
 
 186.What are the main operations of RDD?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3196,7 +3196,7 @@ It provides the checkpoints , to allow for code to run all around the clock to m
 
 187. Can we run Apache Spark on the Apache Mesos?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3213,7 +3213,7 @@ By using the hardware clusters that are managed by Mesos , we can  run Apache Sp
 
 188.Can we trigger automated clean-ups in Spark?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3231,7 +3231,7 @@ we can trigger automated clean-ups in Spark which is used to handle the accumula
 
 189.What is another method than “Spark.cleaner.ttl” to trigger automated clean-ups in Spark?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3248,7 +3248,7 @@ We can divide the long-running jobs into different batches and writing the inter
 190.What is the role of Akka in Spark?
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3263,7 +3263,7 @@ It helps in the scheduling a process.
 
 191.Why is SchemaRDD designed?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3279,7 +3279,7 @@ It is designed to make it easier for code debugging and unit testing .
 
 192.Who is Intended Audience To Learn Avro?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3294,7 +3294,7 @@ Who want to use data in serialization and deserialization wasy , those are the m
 
 193.Why we use AVRO in a System ?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3312,7 +3312,7 @@ Who want to use data in serialization and deserialization wasy , those are the m
 
 194.What is the purpose to use Avro Sasl Profile ?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3329,7 +3329,7 @@ It offers a framework for authentication as well as protection of network protoc
 
 195.Can multiple users use one Metastore?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3347,7 +3347,7 @@ It is not supported by Hive.
 
 196.Is there a Data Type in Hive to store data Information?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3363,7 +3363,7 @@ The ```TIMESTAMP``` data type in Hive stores all data information in the java.sq
 
 197.What are the Hive collection Data types?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3381,7 +3381,7 @@ The ```TIMESTAMP``` data type in Hive stores all data information in the java.sq
 
 198.Is it Possible to run unix shell commands In Hive?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3399,7 +3399,7 @@ It can run shell commands in Hive by adding a ‘!’ before the command.
 
 199.Is it Possible to executue Hive Queries from a Script File?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3416,7 +3416,7 @@ It can run shell commands in Hive by adding a ‘!’ before the command.
 
 200.If we had to List all database that began with the letter 'C', How would we Do it?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3431,7 +3431,7 @@ SHOW DATABASES LIKE ‘c.*’
 
 201.Is it Possible to Delete DBPROPERTY in Hive ?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3448,7 +3448,7 @@ We cannot delete the DBPROPERTY.
 
 202.Do you save Space in the HDFS by archiving Hove Tables?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3465,7 +3465,7 @@ Hive tables only helps reduce the number of files that make for easier managemen
 
 203.How can we stop a Partition From Being accessed in a query?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3480,7 +3480,7 @@ We can use the ENABLE OFFLINE clause along with the ALTER TABLE command.
 
 204.can we Avoid Mapreduce on Hive ?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3495,7 +3495,7 @@ We can make Hive avoid MapReduce to return query results by setting the hive.exe
 
 205.Can we use the Load or Insert to view?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3513,7 +3513,7 @@ It cannot be used with respect to a view in Hive.
 
 206. How can we view the Indeses of a Hive Table?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3528,7 +3528,7 @@ SHOW INDEX ON table_name
 
 207.What is the purpose to use OBJECTINSPECTOR function?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3551,7 +3551,7 @@ STREAMTABLE(TABLE_NAME)
 
 ```
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3566,7 +3566,7 @@ It allows for a table to be streamed into memory before a query is executed.
 
 209.How does hive distribute the rows into Buckets?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3585,7 +3585,7 @@ hash_function (int_type_column)= value of int_type_column
 
 210.How Do ORC format Tables help hive to enhance its performance?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3600,7 +3600,7 @@ We can store the Hive Data with the ORC (Optimized Row Column) format as it help
 
 211.Difference between Local File System and HDFS.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3617,7 +3617,7 @@ The block size in Hadoop HDFS is 64 MB in the initial version and in later versi
 
 212.What do you know about accumulators.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3631,7 +3631,7 @@ Example: This information can pertain to data or API diagnosis like how many rec
 
 213.What is scheme? How would you print a schema in spark?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3651,7 +3651,7 @@ printSchema(level: Int): Unit
 
 214.How to use spark-submit
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3666,7 +3666,7 @@ Main class: the name of the main class of the .py file.Select it from the list.
 
 215.How to create a Hive table using a Spark DF
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3685,7 +3685,7 @@ Main class: the name of the main class of the .py file.Select it from the list.
 
 216.What do you mean by Parquet file?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3699,7 +3699,7 @@ Parquet file is an open- Source file format, which is used for Hadoop ecosystem.
 
 217.What is lazy evaluation?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3716,7 +3716,7 @@ Would not result in any arithmetic being performed, since only the element 1 nee
 
 218.If your Kafka consumer stops running what would you do?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3730,7 +3730,7 @@ If the consumer crashes or is shut down, its partitions will be re-assigned to a
 219.Tell me the difference between map and flatmap .
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3757,7 +3757,7 @@ flatMap[U](f : scala.Function1[T, scala.TraversableOnce[U]])(implicit evidence$4
 
 220. How do you Rename column in spark 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -3774,7 +3774,7 @@ def withColumnRenamed(existingName: String, newName: String): DataFrame
 
 221.What is S3?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 

@@ -6,7 +6,7 @@
 
 1.	How can you say that python is a dynamically typed programming language?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -28,7 +28,7 @@ print(f"{a} => {type(a)}")
   
 2.	Consider John has a list1 =[1,2,3,4,5].He wants to get an output as list1=[5,4,3,2,1].How will you help him get that output?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -47,7 +47,7 @@ print("after reversing",list1[::-1])
   
 3.	Jack wants to enter these multiple line values 5 2 3 4 1 into a single line and he is trying to order the list as [1,2,3,4,5].Which method helps him to get the values in python?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -73,7 +73,7 @@ sorted values [1, 2, 3, 4, 5]
   
 4.	Consider you have a list which holds values of multiple datatypes how do you extract only the numbers from that lis?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -99,7 +99,7 @@ print(list2)
   
 5.	If a function doesn’t have a return statement at the end of the function, is it valid in python?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -113,7 +113,7 @@ print(list2)
   
 6.	Consider we have a list A= [1,4,6,7,9,66,4,94], and you want to get output for A[3].How will you get the output of the above list?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -137,7 +137,7 @@ using index A[3] value is: 7
   
 7.	Can you tell me the reason why this Datatype `set` is called **the frozen set** in python?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -156,7 +156,7 @@ frozenset([iterable])
   
 8.	Assume that I have a text, "The Apple a Day Keeps the Doctor Away." We want to replace one string with another for the one/first two occurrences of "An Apple a Day Keeps the Doctor Away." Which technique is used to do this?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -186,7 +186,7 @@ After replacing the string: An Apple a Day Keeps the Doctor Away.
 
 9.	Fyodor combined multiple lines of text into a single line in python.Which delimiter is used to do that?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>  
@@ -200,7 +200,7 @@ After replacing the string: An Apple a Day Keeps the Doctor Away.
    
 10.	Consider the string "Python Online Training" as an example.How do I get output as ['Python', 'Online', 'Training'?.Which process produces this result?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -230,7 +230,7 @@ print(x)
   
 11.	Shan wants to iterate the for loop for a fixed number of times in Python.Which method is used to iterate the loop?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -251,7 +251,7 @@ for i in range(len(C)):
 
 12.	Which variables are created globally in a class? Tell me the scope of the variables.
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -274,7 +274,7 @@ print("x outside:", x)
   
 13.	Which one is used to provide a unique name for every object in python? What are the different types available in python?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -290,7 +290,7 @@ print("x outside:", x)
   
 14.	Can you teach James, how to run the interactive Python interpreter?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -305,7 +305,7 @@ Now you can write and run the Python code.The only drawback is when you close th
   
 15.	James want to know list all the function in a module.Which method helps him to get all the functions in a module?	
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -325,7 +325,7 @@ print dir(some_module)
   
 16.	Junior developers want to repeat a particular part of the task a finite number of times in python.How is his senior going to help him to repeat the code?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -339,7 +339,7 @@ print dir(some_module)
   
 17.	One of the coworkers was working on strings, he doesn't know how to remove whitespaces from a string in python.How would you help him to remove whitespaces?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -360,7 +360,7 @@ s.strip()
 
 18.	Ron asked Ken to show the reversed order of the contents of a file in python.How would he do that?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -391,7 +391,7 @@ print ("Reverse is", [x : -1] )
   
 How do you resolve the above Error?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -409,7 +409,7 @@ print ("Reverse is", x[ :: -1] )
   
 20.	Is the `Xrange()` method occupy only the least memory? What would be the reason?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -423,7 +423,7 @@ print ("Reverse is", x[ :: -1] )
   
 21.	Can you tell us something about generators in python and explain where can we use the generators?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -437,7 +437,7 @@ print ("Reverse is", x[ :: -1] )
   
 22.	Consider your Team lead asks how you will handle errors.How will you describe the correct usage of error handling in Python?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -459,7 +459,7 @@ while True:
   
 23.	Junior was having some issues with their code.How would you help him to detect Python bugs and statistical issues?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -473,7 +473,7 @@ while True:
   
 24.	Which module in Python supports regular expressions?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -492,7 +492,7 @@ import re
   
 25.	How will you explain the function `re.match` to your junior developer?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -505,7 +505,7 @@ import re
   
 26.Can we use the `+` operator to add elements to a set? If not, then how to add elements to a set?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -526,7 +526,7 @@ print(languages)
 
 26.	John wants to check a string whether all characters are in uppercase.Joe helped him to check whether all the characters are in uppercase.Which method did she suggest to him?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -547,7 +547,7 @@ print(b.isupper())
  
 27.	Can you list some differences between single `/` slash and double `//` slash in python?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -577,7 +577,7 @@ print(list[7:3])
   
 Joe was asked to assist their leader.How is she going to fix this issue?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -597,7 +597,7 @@ print(list[7:3])
 
 29.	Henry wants to learn slicing, but he doesn’t know which data types of support slicing.How would you help him to learn the different data types supported for slicing?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -616,7 +616,7 @@ print(a[x])
   
 30.	John wants to print a single string 10 times using only one print statement.How can he do that?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -634,7 +634,7 @@ print(X*10)
   
 31.	Consider Jack has this list [1,2,3,4,5,].He wants to convert the list into the set as (1,2,3,4,5) and John wants to know if it maintains the same order?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -656,7 +656,7 @@ print(x1,type(x1))
  
 32.	How do you find the type and identification number of an object in Python?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -670,7 +670,7 @@ print(x1,type(x1))
   
 34.State some differences between Python 2.x and Python 3.x?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -684,7 +684,7 @@ The key difference between Python 2.x and Python 3.x is the behavior of the prin
   
 35.James have set of names, roll number and date.He wants to store these values into a single name.Which data type can we use to store all the values into a single name?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -702,7 +702,7 @@ print(list1)
   
 36.How to check whether the two variables are pointing to the same object in Python?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
  <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -722,7 +722,7 @@ print(x is y)
   
 37.How can we install the particular package using command?
    
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
    
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -746,7 +746,7 @@ pip install pandas
  
 38.If Joe want to know the python checkers for Debugging, how will you help him to find them?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -767,7 +767,7 @@ iv)pylint – Analyzes Python ASCII text file (source code) trying to find bugs 
    
 39.Ken wants to perform static analysis in Python.How will you help him to find the tools to perform static analysis?
    
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
    
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -784,7 +784,7 @@ iv)pylint – Analyzes Python ASCII text file (source code) trying to find bugs 
 
 40.James is working with identifiers in python.His coworker is asking if python is case sensitive when dealing with identifiers.What explanation did James give his coworker?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -799,7 +799,7 @@ iv)pylint – Analyzes Python ASCII text file (source code) trying to find bugs 
   
 41.James is trying to check the python version in CMD.How will you help him to list out the steps needed?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -823,7 +823,7 @@ python -V
   
 42.Jack wants to know how to process the file in python.How will you explain the file processing modes that Python supports?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg) 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg) 
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -847,7 +847,7 @@ python -V
  
 43.Franz is asking to her junior to remove the duplicate values from a list.How is she going to get rid of duplicate elements from a list?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -873,7 +873,7 @@ After removing duplicate values [1, 2, 3, 4, 5, 6]
 
 44.Harry wants to know python's parameter passing mechanism.How will you explain this to him?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -898,7 +898,7 @@ print (x, y )
   
 45.Jhon has a string as `hello world` and he wants to cut some part of the string.How will you help him to write a piece of code to cut part as `wo` in the string?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -923,7 +923,7 @@ wo
   
 46.Ernest is searching for **conditional expressions** in python.How will you help him to get to know about conditional expressions?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -950,7 +950,7 @@ print(result)
   
 47.Can you explain the process of compilation and loading in python?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -967,7 +967,7 @@ print(result)
   
 48.Henry is asking about the `yield` keyword in python to his senior.How will he explain this to him?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -989,7 +989,7 @@ print(list(Square(5)))
   
 49.When you are doing a presentation, one of your coworkers is asking if all the memory is freed when python exits.How will you explain this to this coworker?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1005,7 +1005,7 @@ print(list(Square(5)))
   
 50.How will you use the `split()` methods of the `re` module in python to one of your coworkers?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1029,7 +1029,7 @@ print(re.split(" +", str))
   
 51.Charles wants to print any one of the numbers between 1 to 1000.How will you teach him to print the number with a piece of code?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1051,7 +1051,7 @@ print(random.randint(1,1000))
   
 52.What are accessor and mutator methods in python?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1068,7 +1068,7 @@ print(random.randint(1,1000))
   
 53.How will you determine the type of instance and inheritance in python?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1093,7 +1093,7 @@ print(isinstance(MySubClass1, MyClass1))
   
 54.Fyodor is trying to get a copy of one object in python.How will you help him to get a copy of an object?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1126,7 +1126,7 @@ print( id(y), id(x)
  
 55.Can you explain static variables in python?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1148,7 +1148,7 @@ print ( My_class.static_var ) #5
   
 56.Difference between @static method and @classmethod in python.
  
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1170,7 +1170,7 @@ print ( My_class.static_var ) #5
   
 57.John wants to get a list of class attributes in python.How will you help him to get it?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1184,7 +1184,7 @@ print ( My_class.static_var ) #5
   
 58.Does python support interfaces like other languages in java or c?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1198,7 +1198,7 @@ print ( My_class.static_var ) #5
   
 59.Can you explain how to achieve web scraping in python?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1216,7 +1216,7 @@ print ( My_class.static_var ) #5
   
 60.Franz wants to protect his python source code for which he asks help from Jack.How is he going to help it?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1230,7 +1230,7 @@ print ( My_class.static_var ) #5
   
 61.How will you install pip on windows and can you list out some steps to do it?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1250,7 +1250,7 @@ print ( My_class.static_var ) #5
   
 62.What do *args and **kwargs mean?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1280,7 +1280,7 @@ print_numb(one=1, two="two",three=3,four="four")
   
 63.Ken wants to know about exception handling in python how will you teach him to do it in object-oriented programming?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1298,7 +1298,7 @@ print_numb(one=1, two="two",three=3,four="four")
   
 64.How many except statements can a try-except block have in python?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1331,7 +1331,7 @@ else:
   
 He is asking to print the output for the code, but he got some error.How will you help him to correct the error and get the output?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1356,7 +1356,7 @@ He is asking to print the output for the code, but he got some error.How will yo
   
 66.Charles wants to move the python shell to the home directory using `~` in python.How will you guide him to move to the home directory through a piece of code?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
  
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1375,7 +1375,7 @@ print(home)
   
 67.Ryan asks you to test on variables against multiple values.How will you explain this to him?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1398,7 +1398,7 @@ else:
   
 68.How to call an external command in Python.
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1416,7 +1416,7 @@ call(["dir"])
   
 69.Kein is asking about the meaning of a single and double underscore before an object name to his senior coworker.How will he explain it to him?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1430,7 +1430,7 @@ call(["dir"])
   
 70.Can you write a piece of code to read a single character from the user?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1449,7 +1449,7 @@ while True:
   
 71.Fyodor asked a doubt to his coworker to explain the difference between `raw_input()` and `input()` in python.
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1463,7 +1463,7 @@ while True:
   
 72.Can you explain why Python is not fully object-oriented?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1476,7 +1476,7 @@ Python is an object-oriented programming language but not completely.Because, Py
   
 73.Henry was checking if there is any way to kill a thread in python.How will you help him to find it and explain it?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1494,7 +1494,7 @@ Python is an object-oriented programming language but not completely.Because, Py
 
 74.Can you explain if it is necessary to put a space between operators and operands in python?
  
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1515,7 +1515,7 @@ b + math.sqrt(3 * max_val)
   
 75.Can you explain why assignment operators cannot be used in an expression?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1538,7 +1538,7 @@ else {
   
 76.Charles asked what are the rules for local and global variables in Python.How will you explain this to him?  
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1553,7 +1553,7 @@ else {
  
 77.How will you create an empty class in python?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1568,7 +1568,7 @@ else {
   
 78.Can you train your coworker on how will you pass optional or keyword parameters from one function to another function in python?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1593,7 +1593,7 @@ def funcy(a, b, c, **kwargs):
   
 79.How will you find methods or attributes of an object in python?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1609,7 +1609,7 @@ def funcy(a, b, c, **kwargs):
   
 80.How will you make a higher-order function in python?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1622,7 +1622,7 @@ def funcy(a, b, c, **kwargs):
   
 81.Franz asked about the new and override modifiers in python.How will explain this to him.
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1636,7 +1636,7 @@ def funcy(a, b, c, **kwargs):
   
 82.Can you explain something about the `new` method in python?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1650,7 +1650,7 @@ def funcy(a, b, c, **kwargs):
   
 83.William is asking about the strong typing in python.How will you clarify it?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1663,7 +1663,7 @@ def funcy(a, b, c, **kwargs):
   
 84.James wants to write a piece of code to pick a random item from a list or tuple.How will you help him to do it?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1682,7 +1682,7 @@ print(random.choice(x))
   
 85.How do we make forms in python?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1703,7 +1703,7 @@ print(random.choice(x))
   
 86.Ernest asks why the identifier names with a leading underscore are disparaged.How will you explain this to him?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1716,7 +1716,7 @@ print(random.choice(x))
   
 87.Is it possible to call the parent class without its instance creation in python?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1729,7 +1729,7 @@ print(random.choice(x))
   
 88.Ken asks if the methods and constructors are the same things in python.
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1744,7 +1744,7 @@ print(random.choice(x))
   
 89.What do you mean by file-related modules in Python? Can you list some of the file-related modules in Python?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1758,7 +1758,7 @@ print(random.choice(x))
   
 90.Kein asks about `exec()` and `eval()` in python.How will you explain this to him?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1772,7 +1772,7 @@ print(random.choice(x))
   
 91.Can you explain to me what is the Metaclasses in python?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1785,7 +1785,7 @@ print(random.choice(x))
   
 92.The senior developer asks his junior developer to explain the `swapcase()` function in python.How would he explain this to him?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1799,7 +1799,7 @@ print(random.choice(x))
   
 93.Can you explain to your junior why would you use NumPy arrays instead of lists in Python?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1815,7 +1815,7 @@ print(random.choice(x))
   
 94.Can we import multiple modules in python.Give an example?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1838,7 +1838,7 @@ print(random.randint(10, 20))
   
 95.How can we use `re.split()` function in a module?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1871,7 +1871,7 @@ For example, if maxsplit=3, then it will do 3 splits.
 
 96.What is functional programming? Does Python follow a functional programming style? If yes, list a few methods to implement functionally oriented programming in Python.
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1886,7 +1886,7 @@ For example, if maxsplit=3, then it will do 3 splits.
   
 97.Can you explain if it is necessary for every `if` block to be accompanied with an else block.Comment on this statements with the help of an example.
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1920,7 +1920,7 @@ if (number >= 18) {
   
 98.Can you tell me the approaches you would use for module importation in Python?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1937,7 +1937,7 @@ if (number >= 18) {
   
 99.Show the polymorphism concept by using `+` operator inside a class.
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1964,7 +1964,7 @@ print(obj.add("Jack","ken"))
   
 100.Is there any way to read files without opening them? Which function is used to open a file?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1979,7 +1979,7 @@ print(obj.add("Jack","ken"))
   
 101.Can you list out python logging functions?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -1995,7 +1995,7 @@ print(obj.add("Jack","ken"))
   
 102.William raised a question to his colleague whether a function can call another function.What should be his colleague’s answer to William's question?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2017,7 +2017,7 @@ def Function(One, x):
   
 103.Jane asked his colleague about when python decorator is used and how will explain this to him.
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2037,7 +2037,7 @@ def my_decorator_function(func):
   
 104.In python, list, and array both are similar.How one should choose which data type to go for?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2057,7 +2057,7 @@ def my_decorator_function(func):
   
 105.Can you draw a comparison between recursive and iterative techniques forproblem-solving.
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2078,7 +2078,7 @@ def my_decorator_function(func):
   
 106.Can you tell me how long an identifier can be in python?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2091,7 +2091,7 @@ def my_decorator_function(func):
   
 107.Ernest asked his senior to explain the docstrings for python modules.How would he explain this to him?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2104,7 +2104,7 @@ def my_decorator_function(func):
   
 108.If Brian wants to create a new test suite with Python unit test, how would he create the test?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2117,7 +2117,7 @@ def my_decorator_function(func):
   
 109.How does one use multiple assertions to verify that all conditions have been met in Python unittest?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2136,7 +2136,7 @@ assertTrue(mylist[0] > 5)
   
 110.What do you understand about the Assert keyword in python unittest?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2149,7 +2149,7 @@ assertTrue(mylist[0] > 5)
   
 111.Ernest wants to find some tools for unit tests.Which tools do you suggest using for automating unit tests?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2162,7 +2162,7 @@ assertTrue(mylist[0] > 5)
   
 112.One of your colleagues is asking you to create your own package in Python.How would you do it?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2177,7 +2177,7 @@ To create a package of our own, we create a directory and create a file __init__
   
 113.What is Monkey patching in python? Can you Give an example?  
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2201,7 +2201,7 @@ class A:
   
 114.Keith asked his employee the purpose of PYTHONSTARTUP, PYTHONCASEOK, PYTHONHOME & PYTHONPATH environment variables.How would he be answering him?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2220,7 +2220,7 @@ class A:
   
 115.Suppose class C inherits from classes A and B as class C(A,B).Classes A and B both have their own versions of method `func()`.If we call `func()` from an object of class C, which version gets invoked?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2233,7 +2233,7 @@ In python, we already know about Multiple Inheritance, Method Resolution Order (
  
 116.The manager asks if Stacie can tell how to convert a string to a number?
   
-.[Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+.[Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2252,7 +2252,7 @@ print(type(n1),n1)
   
 117.Joe was asking about the difference between the assertTrue() and assertFalse() methods in python.How will you explain this to her?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2265,7 +2265,7 @@ print(type(n1),n1)
   
 118.If you're ever stuck in an infinite loop, how could you break out of it?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2303,7 +2303,7 @@ KeyboardInterrupt
  
 119.Jack wants to share his global variable with his friend across modules, but he doesn't know how to do it.Can you help him to do this?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2316,7 +2316,7 @@ KeyboardInterrupt
   
 120.Brian is asking his student about the directory that is currently used and he/she won't know where they are.How will you help them to find the current directory?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2349,7 +2349,7 @@ os.getcwd()
   
 121.Can you list out some pdb commands in python?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2369,7 +2369,7 @@ os.getcwd()
   
 122.Can you explain JSON? Describe in brief how you'd convert JSON data into Python data.
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
  
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2385,7 +2385,7 @@ os.getcwd()
   
 123.In python optionally, what statements can you put under a try-except block and can you explain this with an example?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2419,7 +2419,7 @@ Bye
 
 124.Paul wants to know how to use GUI that comes with Python to test your code.How will you explain this to him?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2432,7 +2432,7 @@ That is just an editor and a graphical version of the interactive shell.You can 
   
 125.Why is it that none of my threads is not running? How can I make it work and explain with an example?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2454,7 +2454,7 @@ for i in range(10)
   
 126.The brain wants to write a program that will accept an email id, using regular expressions and the re-module.He is asking his coworker how he will help him to write code.
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2476,7 +2476,7 @@ brian@gmail.com
   
 127.Wiliam is asking the way to skip a particular test method or class using the decorator @unittest.skip in python.How will you explain this to him?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2489,7 +2489,7 @@ brian@gmail.com
   
 128.Under what circumstances would one use a while statement rather than for?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2515,7 +2515,7 @@ In any closure in Python, variables are bound by name.Thus, the above line of co
 [2, 2, 2]
 Presumably not what the author of the above code intended?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
  <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2537,7 +2537,7 @@ for i in range(3):
 
 130.Can you discuss how to count the lines in a file? How would you do it if the file is too big to hold in memory?
    
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
    
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2572,7 +2572,7 @@ else:
     print("Hello-World")
 ```
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2586,7 +2586,7 @@ else:
   
 132.Does python support switch or case statement? If not, what is the reason for the same?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2601,7 +2601,7 @@ else:
   
 133.What is the statement that can be used in Python if a statement is required syntactically but the program requires no action?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2630,7 +2630,7 @@ else:
   
 134.James wants to perform some pattern matching in python.How will you help him to perform pattern matching and how would you explain this to him?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2646,7 +2646,7 @@ else:
 
 135.Can you name a few methods that are used to implement Functionally Oriented Programming in Python?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2663,7 +2663,7 @@ else:
   
 136.How do I call a method defined in a base class from a derived class that overrides it?
  
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2684,7 +2684,7 @@ If you're using classic classes: For a class definition such as class Derived (B
   
 137.Todd wants to know some membership operators in python.How will you explain him?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2707,7 +2707,7 @@ True
 
 138.Why is the `:` `if` statement invalid syntax (Python, Python 3.x, if statement)?
  
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2727,7 +2727,7 @@ else:
   
 139.Stacie got some error while executing a piece of code in python and the error is "valueerror: invalid literal for int() with base 10".How will you help her to resolve this error?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2743,7 +2743,7 @@ We can do this by using the `float()` and `int()` statements.The `int()` functio
   
 140.Which one is the built-in function used in Python to iterate over a sequence of numbers?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2770,7 +2770,7 @@ for i in range(1,10):
   
 141.What is used to represent Strings in Python? Are single or double quotes used for String representation in Python?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2783,7 +2783,7 @@ In python, double quotes are used for String representation and single quotes ar
   
 142.Why is this 'raw_input' detected as an error in Python-v3.0?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2808,7 +2808,7 @@ print(name)
   
 143.If Carmella wants to upgrade all Python packages at one time, how will you help him to upgrade all the packages?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2842,7 +2842,7 @@ class A:
   
 The class is not iterable or indexable or anything like that.If possible, I would like to keep it that way.Can you tell me if there is a way to return a custom value for min and max in Python?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2876,7 +2876,7 @@ def min(*args):
   
 145.If Henry wants to know the parameter-passing mechanism in python, how will you explain this to him?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2890,7 +2890,7 @@ def min(*args):
   
 146.In python, I want to add created date, and created user details (some basic details) at the start of each log file.How will you help him to add some basic details in the string of each log file?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2919,7 +2919,7 @@ class HeaderFileHandler(logging.FileHandler):
   
 147.How can you declare multiple assignments in one statement?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2936,7 +2936,7 @@ a = b = c =3         #This assigns 3 to a, b, and c
   
 148.Consider I have a req.txt file, then tried to install the packages according to my text from my local directory.How can I install packages using pip according to the req.txt file from a local directory in python?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2957,7 +2957,7 @@ pip install -r /path/to/req.txt
   
 149.Can you explain the closure in Python?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2981,7 +2981,7 @@ A(7)()
   
 150.Can you tell me how to handle configuration settings and databases when running automated unit tests?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -2994,7 +2994,7 @@ A(7)()
 
 151.Paul is working on some content work.By mistake, he added some unnecessary files to the folder.He wants to remove or delete files from the folder.How will you help him to remove or delete files or folders in python?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3011,7 +3011,7 @@ A(7)()
   
 152.Corner is trying to convert an integer to a Unicode character in python, but he can’t do that.How will you help him with that conversion?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3031,7 +3031,7 @@ print(type(chr(65)))
   
 153.Brian asks, what happens in Python when a global variable and a local variable share the same name? How will you explain this to him?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3044,7 +3044,7 @@ In python, when a local variable is given the same name as a global variable, th
   
 154.Can you tell me if it is possible to call the parent class without its instance creation in python?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3058,7 +3058,7 @@ In python, when a local variable is given the same name as a global variable, th
   
 155.Consider if you have already installed a module with pip but it doesn’t import in your IDLE, what could it possibly be?  
  
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3074,7 +3074,7 @@ In python, when a local variable is given the same name as a global variable, th
 
 156.Jack asks his friend how will you set the environment variables in python.
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3099,7 +3099,7 @@ True
   
 157.Can you explain the differences between a package and a module in python?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3120,7 +3120,7 @@ True
   
 158.Ken is asking his senior if I can dynamically load a module in Python.What will be the answer that he gives him? 
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3138,7 +3138,7 @@ module = importlib.import_module('my_package.my_module')
   
 159.How would you make a Python script executable on Unix?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3177,7 +3177,7 @@ if(num1>=6 and num1<=12):
  print("Not the Proper Password.Please Register Again:") 
  ```
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3216,7 +3216,7 @@ while i in x:
   
 As a senior developer, how will you help him?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3230,7 +3230,7 @@ As a senior developer, how will you help him?
   
 162.Charles needs to calculate exponential power calculation using the operator, but he doesn't know which operator can be used and he is asking for help from his friend.How will you help him to find the operators?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3250,7 +3250,7 @@ print(a**b)
   
 163.Consider I am in this `/home/user/work/project`.What is the correct way to fix this ImportError error? Now if I type this `python ./programs/my_python_program.py` I will get an import error as `ImportError`.How will you help me to fix this `Importerror`?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3263,7 +3263,7 @@ Python does not add the current directory to `sys.path`, but rather the director
   
 164.Can you tell me about Zoneinfo in python and what it does?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3284,7 +3284,7 @@ print(dt)
   
 166.Joe is asking what mapping means and what kind of data type is based on mapping in python.What will be your answer to this question?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3299,7 +3299,7 @@ print(dt)
   
 167.Jhon is having python program named "first.py" and Brian is having the same file but a different name as "first.pyc".Their manager asks about the differences between the files in python.
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3312,7 +3312,7 @@ print(dt)
   
 168.Can you tell me how will you get environment variables in python?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3334,7 +3334,7 @@ print(os.environ['HOME'])
   
 169.State logical operators available in python language with an example.
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3361,7 +3361,7 @@ cwd=os.getcwd()
 print cwd
 ```
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3381,7 +3381,7 @@ print(cwd)
   
 171.Can you tell me if all the developers use a Python debugger?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3394,7 +3394,7 @@ Multiple junior-level programmers manage to care debugging, so having a debuggin
   
 172.Can you list out the skills you need for efficient debugging in Python?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3411,7 +3411,7 @@ Multiple junior-level programmers manage to care debugging, so having a debuggin
   
 173.Can you tell me the difference between a logical error and compile error?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3429,7 +3429,7 @@ Multiple junior-level programmers manage to care debugging, so having a debuggin
   
 174.Paul is asking his junior if he can tell what the background debug mode is.What will be the answer that he gives to him?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3442,7 +3442,7 @@ Multiple junior-level programmers manage to care debugging, so having a debuggin
   
 175.Can you explain the main steps involved in debugging Python code in Visual Studio Code?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3468,7 +3468,7 @@ print(ob.add())
   
 The above code results in an error, what can be done to resolve this error?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3494,7 +3494,7 @@ print(ob.add(5,3))
   
 177.The Junior developer is having a doubt and he is asking if a class has one class variable, then how many copies will be created for that variable to the senior? How will you help him to get an answer?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
  <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3512,7 +3512,7 @@ print(0.2+0.4==0.6)
 ```
 After running this code what will be the output and explain how you got that?
    
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
    
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3535,7 +3535,7 @@ class C(B):
     pass
 ```
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3556,7 +3556,7 @@ a, b = b, a
 print(a, b)
 ```
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3575,7 +3575,7 @@ print (r"\nhello")
 
 What will they answer to this question?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3601,7 +3601,7 @@ print(c)
   
 He is asking what the output of the code is and if is it correct.If it's not, suggest the correct code and output.
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
  <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3629,7 +3629,7 @@ print(c)
   
 183.Can you clarify/tell me what is Python path?
    
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
    
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3642,7 +3642,7 @@ The **PYTHONPATH** environment variable is used by Python to define a list of di
   
 184.Considering you as the manager of your team, you need to show enum implementation in python to some other team associates.How will you train this to your team members and can you explain me?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3668,7 +3668,7 @@ print(directions.North.value)
 
 185.Consider you are accessing the value both inside and outside of the function, which is fine, but what happens if you try to modify the `global` scope variable value inside a function?   
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3703,7 +3703,7 @@ print("Accessing outside a function :",x)
  
 186.Does Charles want to know what will happen if a local variable exists with the exact name as the global variable you want to access, how will you help him to know about it?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3716,7 +3716,7 @@ If the local variable exists with the exact name as the global variable that you
 
 187.Considering you are attending the python developer interview, the interviewer is asking what do you mean by identifier and what is the permitted length of the identifier.What will be the explanation you would provide for this query?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3742,7 +3742,7 @@ print(y)
 
 One of the coworkers is asking what this error is and how will you resolve the error and whether it is mandatory in python or not.
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3766,7 +3766,7 @@ else:
   
 189.Do runtime errors exist in Python? Explain with an example.
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3782,7 +3782,7 @@ else:
   
 190.Justin Ward wants to create variables using global scope in Python.Can you list out all the steps to create variables With Examples?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3809,7 +3809,7 @@ func()
   
 191.Can we use a break and continue together in Python? How?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3834,7 +3834,7 @@ print("Break statement")
   
 192.Consider you want to extract all the behaviours from one class to another class.Which concept will be useful for this and explain with an example? 
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3872,7 +3872,7 @@ obj.setName("pup")
 print(obj.getName())
 ```
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3910,7 +3910,7 @@ ___________________
   
 ```
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
  
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3936,7 +3936,7 @@ obj1.leg()
   
 195.Create a class that shows the concept of method overloading in python.
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3962,7 +3962,7 @@ Here, we have passed a different number of arguments at the time of calling, and
   
 196.Suppose there are three classes, Animal, Dog, and Cat.Class Dog inherits properties from the Animal class and class Cat also inherits properties from the Animal class, then which type of inheritance can be depicted from the above scenario?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -3975,7 +3975,7 @@ In the above scenario, class Animal is a parent class of both Dog and Cat classe
   
 197.Does python support method overloading and method override?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -4013,7 +4013,7 @@ print(add(2,4,6))   # output: 12
   
 198.Suppose there are three classes, Father, Mother and Child.The Child class inherits properties from two classes, Father and Mother class, then which type of inheritance can be depicted from the above scenario?
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -4026,7 +4026,7 @@ By the definition, Multiple inheritances state that one derived class can inheri
   
 199.William asks "Polymorphism provides a default implementation of function overloading in python" to his junior.Is it true or false and give an explanation.
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -4055,7 +4055,7 @@ obj
   
 He is trying to run that, but he got some error can you help him to resolve the error and give the output of the code?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -4084,7 +4084,7 @@ obj.wheel()
   
 201.John is asking his friend if the len() function can be used in polymorphism in python.What would be the answer that he gives?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -4117,7 +4117,7 @@ print(x)
 obj.show()
 ```
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -4132,7 +4132,7 @@ obj.show()
   
 203.How do you differentiate between Interpreter and Compiler?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -4150,7 +4150,7 @@ obj.show()
 204.Franz is asking his senior developer/lead if he/she can help him to find out whether these identifiers are valid or not.How would he help him? 
 [Last_Name, student@id, 4_id, var, for]. 
   
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
@@ -4174,7 +4174,7 @@ for i in list1:
   
 He asks you to write your own logic inside the for loop to print the values 4, 2, 7, 8, and 9 on the output screen.How will you do this?
   
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
   
 <details><summary><b>Show Answer </b></summary>
 <blockquote>
