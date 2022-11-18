@@ -228,8 +228,8 @@ public class Test {
 | Local Scope                                                                | Instance Scope                                                        |
 |----------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | Its the scope of the local variables                                       | Its the scope of the instance variables                               |
-| Local variables are declared inside a method or a block.                | Instance variables are declared inside a class, but outside a method.|
-| Local variables are visible only in the method or block they are declared.| Instance variables can been seen by all methods in the class.      |
+| Local variables are declared inside a method or a block.               | Instance variables are declared inside a class, but outside a method.|
+| Local variables are visible only in the method or block they are declared.| Instance variables can been seen by all methods in the class.     |
  
 </blockquote>
 </details>
@@ -357,7 +357,7 @@ If the main method won't be static, JVM would not be able to call it because the
 | Stack Memory                                                                                                                                                                            | Heap Memory                                                                                                                                                                |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Stack memory is the space allocated for a process where all the function calls, primitive data types (int, double, etc.) and local and reference variables of the functions are stored.| Heap memory is used to store the objects that are created during the execution of a Java program.The reference to the objects that are created is stored in stack memory.|
-| Stack memory is always referenced in LIFO (Last-In-First-Out) order.                                                                                                                 | Heap follows dynamic memory allocation (memory is allocated during execution or runtime) and provides random access                                                     |
+| Stack memory is always referenced in LIFO (Last-In-First-Out) order.                                                                                                                | Heap follows dynamic memory allocation (memory is allocated during execution or runtime) and provides random access                                                     |
 
 
  

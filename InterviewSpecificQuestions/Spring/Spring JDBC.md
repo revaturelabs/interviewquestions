@@ -178,15 +178,15 @@
   
 | **Steps** | **Action**                                               | **Spring** | **Developer** |
 | --------- | -------------------------------------------------------- | ---------- | ------------- |
-| 1         | Define connection parameters.                         |            | X             |
-| 2         | Open the connection.                                  | X          |               |
-| 3         | Specify the SQL statement.                            |            | X             |
+| 1         | Define connection parameters.                        |            | X             |
+| 2         | Open the connection.                                 | X          |               |
+| 3         | Specify the SQL statement.                           |            | X             |
 | 4         | Declare parameters and provide parameter values          |            | X             |
-| 5         | Prepare and run the statement.                        | X          |               |
+| 5         | Prepare and run the statement.                       | X          |               |
 | 6         | Set up the loop to iterate through the results (if any).| X          |               |
-| 7         | Do the work for each iteration.                       |            | X             |
-| 8         | Process any exception.                                | X          |               |
-| 9         | Handle transactions.                                  | X          |               |
+| 7         | Do the work for each iteration.                      |            | X             |
+| 8         | Process any exception.                               | X          |               |
+| 9         | Handle transactions.                                 | X          |               |
 | 10        | Close the connection, the statement, and the result set.| X          |               |
 
 </blockquote> 

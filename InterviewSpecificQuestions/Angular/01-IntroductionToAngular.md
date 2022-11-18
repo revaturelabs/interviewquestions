@@ -227,10 +227,10 @@ On the other hand, an MPA multiple-page application) is considered a more tradit
 
 | **Angular JS**                                                                                     | **Angular 4**                                                                                                                    |
 | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| Uses MVC architecture to build the applications.                                                | Uses component-based UI to build the applications.                                                                            |
-| AngularJS is written in JavaScript.                                                             | Angular is compatible with the most recent versions of TypeScript that have powerful type-checking and object-oriented features.|
-| To bind an image/property or an event with AngularJS, you have to remember the right ng directive.| Angular focuses on “()” for event binding and “\[ \]” for property binding.                                                   |
-| AngularJS doesn't support mobiles.                                                              | Angular support mobiles.                                                                                                      |
+| Uses MVC architecture to build the applications.                                               | Uses component-based UI to build the applications.                                                                           |
+| AngularJS is written in JavaScript.                                                            | Angular is compatible with the most recent versions of TypeScript that have powerful type-checking and object-oriented features.|
+| To bind an image/property or an event with AngularJS, you have to remember the right ng directive.| Angular focuses on “()” for event binding and “\[ \]” for property binding.                                                  |
+| AngularJS doesn't support mobiles.                                                             | Angular support mobiles.                                                                                                     |
 
 </blockquote>
 
@@ -681,12 +681,12 @@ Just in time (JIT) compiler provides compilation during the execution of the pro
 
 | JIT                                                                                            | AOT                                                                                                               |
 |------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| JIT downloads the compiler and compiles code exactly before Displaying it in the browser.      | AOT has already complied with the code while building your application, so it doesn’t have to compile at runtime.|
-| Loading in JIT is slower than the AOT because it needs to compile your application at runtime.| Loading in AOT is much quicker than the JIT because it already has compiled your code at build time.           |
-| JIT is more suitable for development mode.                                                  | AOT is much more suitable in the case of Production mode.                                                           |
-| Bundle size is higher compared to AOT.                                                       | Bundle size optimized in AOT, in results AOT bundle size is half the size of JIT bundles.                      |
+| JIT downloads the compiler and compiles code exactly before Displaying it in the browser.     | AOT has already complied with the code while building your application, so it doesn’t have to compile at runtime.|
+| Loading in JIT is slower than the AOT because it needs to compile your application at runtime.| Loading in AOT is much quicker than the JIT because it already has compiled your code at build time.          |
+| JIT is more suitable for development mode.                                                 | AOT is much more suitable in the case of Production mode.                                                          |
+| Bundle size is higher compared to AOT.                                                      | Bundle size optimized in AOT, in results AOT bundle size is half the size of JIT bundles.                     |
 | You can run your app in JIT with this command: `ng build` OR `ng serve`                            | To run your app in AOT you have to provide –aot at the end like: `ng build --at OR `ng serve --not                 |
-| You can catch template binding errors at display time.                                       | You can catch the template error at building your application.                                                 |
+| You can catch template binding errors at display time.                                      | You can catch the template error at building your application.                                                |
 
 </blockquote>
 </details>

@@ -658,7 +658,7 @@ db.collection.insertMany([{name: "Jack", dept: "training"},
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
-> To remove only one document without effecting any other document, we can use the `remove()` method with 'justOne' parameter set as 1.   
+> To remove only one document without effecting any other document, we can use the `remove()` method with 'justOne' parameter set as 1.  
 ```
 db.collection_name.remove({"name" : "Tom"},1);
 ```

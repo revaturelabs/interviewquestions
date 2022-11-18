@@ -127,7 +127,7 @@ The unit tests are written before the development of the application.It is so be
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
 
-The JUnit classes are essential classes that are usually utilized in testing and writing the JUnits.Here is the list of the critical JUnit test classes. 
+The JUnit classes are essential classes that are usually utilized in testing and writing the JUnits.Here is the list of the critical JUnit test classes.
 
 - `Test Suite`: It is also known as a composition of various tests
 - `Assert`: It is a set of assertive procedures used to design an application

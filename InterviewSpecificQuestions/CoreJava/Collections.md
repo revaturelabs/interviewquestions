@@ -941,11 +941,11 @@ HashMap and Hashtable both are used to store data in key and value form.Both are
 | 01.|HashMap is **non synchronized**.It is not-thread safe and can't be shared between many threads without proper synchronization code.|Hashtable is **synchronized**.It is thread-safe and can be shared with many threads.|
 | 02.|HashMap allows one null key and multiple null values.|Hashtable doesn't allow any null key or value.|
 | 03.|HashMap is a new class introduced in JDK 1.2.|Hashtable is a legacy class.|
-| 04.|HashMap is fast.    |Hashtable is slow.|
+| 04.|HashMap is fast.   |Hashtable is slow.|
 | 05.|We can make the HashMap as synchronized by calling this code Map m = Collections.synchronizedMap(hashMap);|Hashtable is internally synchronized and can't be unsynchronized.|
 | 06.|HashMap is traversed by Iterator.	|Hashtable is traversed by Enumerator and Iterator.|
-| 07.|Iterator in HashMap is fail-fast.	|Enumerator in Hashtable is not fail-fast.      |
-| 08.|HashMap inherits AbstractMap class.	|Hashtable inherits Dictionary class.           |
+| 07.|Iterator in HashMap is fail-fast.	|Enumerator in Hashtable is not fail-fast.     |
+| 08.|HashMap inherits AbstractMap class.	|Hashtable inherits Dictionary class.          |
 
 </blockquote>
 </details>

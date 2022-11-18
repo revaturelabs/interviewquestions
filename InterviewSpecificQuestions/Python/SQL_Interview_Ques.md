@@ -961,7 +961,7 @@ on customers.id = orders.id;
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
-> Suppose we are taking customer names and order_id from both tables while doing the full join. 
+> Suppose we are taking customer names and order_id from both tables while doing the full join.
 ```SQL
 select customers.name, orders.order_id
 from customers
@@ -1341,7 +1341,7 @@ select id from project);
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
-> The relationship between the two tables is established by the primary key- the foreign key.This foreign key constraint is also called a referential integrity constraint.The value of the foreign key is derived from the primary key of another table.  
+> The relationship between the two tables is established by the primary key- the foreign key.This foreign key constraint is also called a referential integrity constraint.The value of the foreign key is derived from the primary key of another table. 
 > In SQL there is two referential integrity constraint presents:  
 > - Insert Constraint: That says, we cannot insert values in a foreign key table if the value is not present in the primary key table.
 > - Delete Constraint: That says, we cannot delete any value from the primary key table if the value is present in the foreign key table.

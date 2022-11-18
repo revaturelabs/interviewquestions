@@ -249,12 +249,12 @@ class Main {
  
  | Abstract class                                                             | Interface                                                                                            |
 |----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| Abstract class can have abstract and non-abstract methods.              | Interface can have only abstract methods.Since Java 8, it can have default and static methods also.|
-| Abstract class doesn't support multiple inheritance.                    | Interface supports multiple inheritance.                                                          |
-| Abstract class can have final, non-final, static, and non-static variables.| Interface has only static and final variables.                                                    |
-| The `abstract` keyword is used to declare abstract class.               | The `interface` keyword is used to declare interface.                                             |
-| n abstract class can be extended using keyword `extends`.               | An interface can be implemented using keyword `implements`.                                       |
-| Members can be private, protected, default or public.                   | Members of an interface are public by default.                                                     |
+| Abstract class can have abstract and non-abstract methods.             | Interface can have only abstract methods.Since Java 8, it can have default and static methods also.|
+| Abstract class doesn't support multiple inheritance.                   | Interface supports multiple inheritance.                                                         |
+| Abstract class can have final, non-final, static, and non-static variables.| Interface has only static and final variables.                                                   |
+| The `abstract` keyword is used to declare abstract class.              | The `interface` keyword is used to declare interface.                                            |
+| n abstract class can be extended using keyword `extends`.              | An interface can be implemented using keyword `implements`.                                      |
+| Members can be private, protected, default or public.                  | Members of an interface are public by default.                                                    |
  
 </blockquote>
 </details>
@@ -560,12 +560,12 @@ While changing the accessibility of the method,
  
 | Class                                                                     | Object                                                                                      |
 | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| Class is a blueprint or template from which objects are created.       | Object is an instance of a class.                                                        |
-|  Class is a group of similar objects.                                  | Object is a real-world entity such as pen, laptop, mobile, bed, keyboard, mouse, chair etc.|
-|  When a class is created, no memory is allocated.                      | Objects are allocated memory space whenever they are created.                            |
-| The class has to be declared first and only once.                      | An object is created many times as per requirement.                                      |
-| It is declared with the class keyword                                     | It is created with a class name and a \`new\` keyword in Java.                           |
-| Class does not contain any values which can be associated with the field.| Each object has its own values, which are associated with it.                            |
+| Class is a blueprint or template from which objects are created.      | Object is an instance of a class.                                                       |
+|  Class is a group of similar objects.                                 | Object is a real-world entity such as pen, laptop, mobile, bed, keyboard, mouse, chair etc.|
+|  When a class is created, no memory is allocated.                     | Objects are allocated memory space whenever they are created.                           |
+| The class has to be declared first and only once.                     | An object is created many times as per requirement.                                     |
+| It is declared with the class keyword                                     | It is created with a class name and a \`new\` keyword in Java.                          |
+| Class does not contain any values which can be associated with the field.| Each object has its own values, which are associated with it.                           |
 
 </blockquote>
 </details>
