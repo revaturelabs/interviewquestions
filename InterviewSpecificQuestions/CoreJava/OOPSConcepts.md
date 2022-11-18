@@ -1,4 +1,4 @@
-1. What is the difference between method and function?
+1.What is the difference between method and function?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -16,7 +16,7 @@
 
 --- 
 
-2. Explain OOPs.
+2.Explain OOPs.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -25,7 +25,7 @@
   
 <blockquote>
 
-- **O**bject **O**riented **P**rogramming is a programming paradigm/model which revolves around the concept of **Objects**. 
+- **O**bject **O**riented **P**rogramming is a programming paradigm/model which revolves around the concept of **Objects**.
 - Objects can be considered as real-world instances of entities like class, that have **characteristics** and **behaviors**
 
 **For example,**, if we consider a car, then based on the OOPs model:
@@ -42,7 +42,7 @@ Characteristics are also known as data, attributes, or properties, and Behaviors
 
 --- 
 
-3. What are the pillars of OOPs?
+3.What are the pillars of OOPs?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -62,7 +62,7 @@ The Four Pillars of Object-Oriented Programming are
 
 --- 
 
-4. What is polymorphism?
+4.What is polymorphism?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -74,14 +74,14 @@ The Four Pillars of Object-Oriented Programming are
 - The word poly means many and morphs means forms, so polymorphism means many forms.
 - It's an ability of an object to exhibit more than one form
 
-For example: A man at the same time is a father, a husband, an employee. So, the same person possesses different behavior in different situations. This is called polymorphism. 
+For example: A man at the same time is a father, a husband, an employee.So, the same person possesses different behavior in different situations.This is called polymorphism.
 
 </blockquote>
 </details>
 
 --- 
 
-5. What is method overloading?
+5.What is method overloading?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -125,7 +125,7 @@ public class SquaringDemo {
 
 --- 
 
-6. Explain Encapsulation.
+6.Explain Encapsulation.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -134,18 +134,18 @@ public class SquaringDemo {
   
 <blockquote>
 
-Encapsulation is the way of binding the data (variables) and code acting on the data (methods) together as a single unit.  
+Encapsulation is the way of binding the data (variables) and code acting on the data (methods) together as a single unit. 
 
-For example, in a company, they are different sections like the accounts section, finance section, sales section etc. Consider a situation, a person from finance section needs all the data about sales in a particular month. In this case, he is not allowed to directly access the data of sales section. He will first have to contact some other officer in the sales section and then request him to give the particular data. This is what encapsulation is. 
+For example, in a company, they are different sections like the accounts section, finance section, sales section etc.Consider a situation, a person from finance section needs all the data about sales in a particular month.In this case, he is not allowed to directly access the data of sales section.He will first have to contact some other officer in the sales section and then request him to give the particular data.This is what encapsulation is.
 
-In encapsulation, the variables of a class will be hidden from other classes and can be accessed only through the methods of their current class. Therefore, it is also known as data hiding.
+In encapsulation, the variables of a class will be hidden from other classes and can be accessed only through the methods of their current class.Therefore, it is also known as data hiding.
 
 </blockquote>
 </details>
 
 --- 
 
-7. What is an abstract class?
+7.What is an abstract class?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -153,13 +153,13 @@ In encapsulation, the variables of a class will be hidden from other classes and
   <summary> <b>Show Answer</b></summary>
 <blockquote>
 
-Abstract Class allows us to achieve 0 - 100 % of abstraction in java. 
+Abstract Class allows us to achieve 0 - 100 % of abstraction in java.
 
-A class which is declared with the abstract keyword is known as an abstract class. It can have abstract and non-abstract methods (method with the body).
+A class which is declared with the abstract keyword is known as an abstract class.It can have abstract and non-abstract methods (method with the body).
 
-A method that doesn't have its body is known as an abstract method. We use the same abstract keyword to create abstract methods.
+A method that doesn't have its body is known as an abstract method.We use the same abstract keyword to create abstract methods.
 
-We cannot create an object for abstract classes. Though abstract classes cannot be instantiated, we can create subclasses from it. We can then access members of the abstract class using the object of the subclass. 
+We cannot create an object for abstract classes.Though abstract classes cannot be instantiated, we can create subclasses from it.We can then access members of the abstract class using the object of the subclass.
 
 ```java
 abstract class Animal {
@@ -196,7 +196,7 @@ class Main {
 
 --- 
 
-8. Brief us on interfaces
+8.Brief us on interfaces
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -205,11 +205,11 @@ class Main {
   
 <blockquote>
  
-Interface allow us to achieve 100% abstraction in java. An interface is declared by using the `interface` keyword. All the methods in an interface are abstract (declared with the empty body), and all the fields are `public`, `static` and `final` by default.
+Interface allow us to achieve 100% abstraction in java.An interface is declared by using the `interface` keyword.All the methods in an interface are abstract (declared with the empty body), and all the fields are `public`, `static` and `final` by default.
 
 Like abstract classes, we cannot create objects of interfaces.
 
-To use an interface, other classes must implement it. We use the `implements` keyword to implement an interface. A class that implements an interface must implement all the methods declared in the interface.
+To use an interface, other classes must implement it.We use the `implements` keyword to implement an interface.A class that implements an interface must implement all the methods declared in the interface.
 
 ```java
 interface Polygon {
@@ -238,7 +238,7 @@ class Main {
 
 --- 
 
-9. Difference between abstract classes and interfaces
+9.Difference between abstract classes and interfaces
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -249,19 +249,19 @@ class Main {
  
  | Abstract class                                                             | Interface                                                                                            |
 |----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| Abstract class can have abstract and non-abstract methods.                 | Interface can have only abstract methods. Since Java 8, it can have default and static methods also. |
-| Abstract class doesn't support multiple inheritance.                       | Interface supports multiple inheritance.                                                             |
-| Abstract class can have final, non-final, static, and non-static variables. | Interface has only static and final variables.                                                       |
-| The `abstract` keyword is used to declare abstract class.                  | The `interface` keyword is used to declare interface.                                                |
-| n abstract class can be extended using keyword `extends`.                  | An interface can be implemented using keyword `implements`.                                          |
-| Members can be private, protected, default or public.                      | Members of an interface are public by default.                                                        |
+| Abstract class can have abstract and non-abstract methods.                | Interface can have only abstract methods.Since Java 8, it can have default and static methods also.|
+| Abstract class doesn't support multiple inheritance.                      | Interface supports multiple inheritance.                                                            |
+| Abstract class can have final, non-final, static, and non-static variables.| Interface has only static and final variables.                                                      |
+| The `abstract` keyword is used to declare abstract class.                 | The `interface` keyword is used to declare interface.                                               |
+| n abstract class can be extended using keyword `extends`.                 | An interface can be implemented using keyword `implements`.                                         |
+| Members can be private, protected, default or public.                     | Members of an interface are public by default.                                                       |
  
 </blockquote>
 </details>
 
 --- 
 
-10. What is Abstraction? or Describe abstract in OOP (or) What does Abstraction do?
+10.What is Abstraction? or Describe abstract in OOP (or) What does Abstraction do?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -272,22 +272,22 @@ class Main {
  
 Abstraction is an important concept of object-oriented programming that allows us to hide unnecessary details and only show the needed information.
 
-A practical example of abstraction can be motorbike brakes. We know what brake does. When we apply the brake, the motorbike will stop. However, the working of the brake is kept hidden from us.
+A practical example of abstraction can be motorbike brakes.We know what brake does.When we apply the brake, the motorbike will stop.However, the working of the brake is kept hidden from us.
 
 The major advantage of hiding the working of the brake is that now the manufacturer can implement brake differently for different motorbikes, however, what brake does will be the same.
 
 **Abstraction lets you focus on what the object does instead of how it does it.**
 
 There are two ways to achieve abstraction in java
-1. Abstract class (0 to 100% abstraction)
-2. Interface (100% abstraction)
+1.Abstract class (0 to 100% abstraction)
+2.Interface (100% abstraction)
 
 </blockquote>
 </details>
 
 --- 
 
-11. What is inheritance? (or) Brief us on inheritance
+11.What is inheritance? (or) Brief us on inheritance
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -296,7 +296,7 @@ There are two ways to achieve abstraction in java
   
 <blockquote>
  
-Inheritance in Java is a concept that acquires the properties from one class to other classes: for example, the relationship between father and son. Inheritance in Java is a process of acquiring all the behaviors of a parent object.
+Inheritance in Java is a concept that acquires the properties from one class to other classes: for example, the relationship between father and son.Inheritance in Java is a process of acquiring all the behaviors of a parent object.
 
 The parent-child relationship, also known as the **IS-A** relationship, is represented by inheritance.
  
@@ -306,7 +306,7 @@ The parent-child relationship, also known as the **IS-A** relationship, is repre
 --- 
 
 
-12. Brief us on encapsulation and access modifiers (or) How do you achieve encapsulation?
+12.Brief us on encapsulation and access modifiers (or) How do you achieve encapsulation?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -324,7 +324,7 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
 
 --- 
 
-13. How many constructors you used in java?
+13.How many constructors you used in java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -340,7 +340,7 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
 
 --- 
 
-14. Can you do static overriding?
+14.Can you do static overriding?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -349,14 +349,14 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
   
 <blockquote>
 
- We can declare static methods with the same signature in the subclass, but it is not considered overriding as there won’t be any run-time polymorphism. Hence the answer is **No**. 
+ We can declare static methods with the same signature in the subclass, but it is not considered overriding as there won’t be any run-time polymorphism.Hence the answer is **No**.
  
 </blockquote>
 </details>
 
 --- 
 
-15. What are the types of Inheritance?
+15.What are the types of Inheritance?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -365,13 +365,13 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
   
 <blockquote>
 
-There are 5 types of Inheritance. They are
+There are 5 types of Inheritance.They are
 
-1. Single Inheritance
-2. Multi-level Inheritance
-3. Hierarchical Inheritance
-4. Hybrid Inheritance
-5. Multiple inheritance 
+1.Single Inheritance
+2.Multi-level Inheritance
+3.Hierarchical Inheritance
+4.Hybrid Inheritance
+5.Multiple inheritance 
 
 **In java, multiple and hybrid inheritance is supported through interface only.**
  
@@ -382,7 +382,7 @@ There are 5 types of Inheritance. They are
 
 --- 
 
-16. When do you use Abstract Class and Interfaces?
+16.When do you use Abstract Class and Interfaces?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -396,7 +396,7 @@ When we have the requirement of a class that contains some common properties or 
 Interfaces are a good choice when we think that the API will not change for a while.
 Interfaces are also good when we want to have something similar to multiple inheritances since we can implement multiple interfaces.
 
-The JDBC API is an excellent example. It exists of almost only interfaces. The concrete implementations are provided as "JDBC drivers". This enables you to write all the JDBC code independent of the DB vendor. You can just change the JDBC driver without changing any line of Java code (except of any hardcoded DB-specific SQL code) whenever you'd like to switch of DB vendor.
+The JDBC API is an excellent example.It exists of almost only interfaces.The concrete implementations are provided as "JDBC drivers".This enables you to write all the JDBC code independent of the DB vendor.You can just change the JDBC driver without changing any line of Java code (except of any hardcoded DB-specific SQL code) whenever you'd like to switch of DB vendor.
  
  
 </blockquote>
@@ -404,7 +404,7 @@ The JDBC API is an excellent example. It exists of almost only interfaces. The c
 
 --- 
 
-17. Brief us on the types of Polymorphism
+17.Brief us on the types of Polymorphism
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -414,15 +414,15 @@ The JDBC API is an excellent example. It exists of almost only interfaces. The c
 <blockquote>
 
 There are two types of polymorphism as below: 
-1. Static Binding or Compile time Polymorphism or Method Overloading
-2. Dynamic Binding or Runtime Polymorphism or Method overriding.
+1.Static Binding or Compile time Polymorphism or Method Overloading
+2.Dynamic Binding or Runtime Polymorphism or Method overriding.
  
 </blockquote>
 </details>
 
 --- 
 
-18. Can the main method be overridden?
+18.Can the main method be overridden?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -438,7 +438,7 @@ There are two types of polymorphism as below:
 
 --- 
 
-19. What are Constructors?
+19.What are Constructors?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -447,14 +447,14 @@ There are two types of polymorphism as below:
   
 <blockquote>
 
- A constructor in Java is a special method that is used to initialize objects. The constructor is called when an object of a class is created.
+ A constructor in Java is a special method that is used to initialize objects.The constructor is called when an object of a class is created.
  
 </blockquote>
 </details>
 
 --- 
 
-20. What is a class? What is an object?
+20.What is a class? What is an object?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -463,9 +463,9 @@ There are two types of polymorphism as below:
   
 <blockquote>
  
-A class is a blueprint for the object. Before we create an object, we first need to define the class.
+A class is a blueprint for the object.Before we create an object, we first need to define the class.
 
-We can think of the class as a sketch (prototype) of a house. It contains all the details about the floors, doors, windows, etc. Based on these descriptions we build the house. House is the object.
+We can think of the class as a sketch (prototype) of a house.It contains all the details about the floors, doors, windows, etc.Based on these descriptions we build the house.House is the object.
 
 Since many houses can be made from the same description, we can create many objects from a class.
  
@@ -474,7 +474,7 @@ Since many houses can be made from the same description, we can create many obje
 
 --- 
 
-21. What is the benefit of inheritance?
+21.What is the benefit of inheritance?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -483,7 +483,7 @@ Since many houses can be made from the same description, we can create many obje
   
 <blockquote>
  
-- Inheritance helps in **code reuse**. The child class may use the code defined in the parent class without re-writing it.
+- Inheritance helps in **code reuse**.The child class may use the code defined in the parent class without re-writing it.
 - Inheritance makes the code flexible to change, as you will adjust only in one place, and the rest of the code will work smoothly.
 - With the help of Inheritance, you can override the methods of the base class.
 - The base class in Inheritance decides which data to be kept private, such that the derived class will not be able to alter it.
@@ -493,7 +493,7 @@ Since many houses can be made from the same description, we can create many obje
 
 --- 
 
-22. Can we implement multiple inheritances in Java?
+22.Can we implement multiple inheritances in Java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -502,14 +502,14 @@ Since many houses can be made from the same description, we can create many obje
   
 <blockquote>
  
-Java does not support multiple inheritance using classes. It can be achieved or implemented using interfaces.
+Java does not support multiple inheritance using classes.It can be achieved or implemented using interfaces.
  
 </blockquote>
 </details>
 
 --- 
 
-23. Can you change the scope of a method or class using inheritance?
+23.Can you change the scope of a method or class using inheritance?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -518,7 +518,7 @@ Java does not support multiple inheritance using classes. It can be achieved or 
   
 <blockquote>
  
- Yes, we can change the scope of the overridden method in the subclass. However, we cannot decrease the accessibility of the method. 
+ Yes, we can change the scope of the overridden method in the subclass.However, we cannot decrease the accessibility of the method.
 
 While changing the accessibility of the method,
   - private can be changed to protected, public, or default.
@@ -531,7 +531,7 @@ While changing the accessibility of the method,
 
 --- 
 
-24. What are the benefits of abstraction?
+24.What are the benefits of abstraction?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -541,14 +541,14 @@ While changing the accessibility of the method,
 <blockquote>
 
 - Helps to increase the security of an application or program as only essential details are provided to the user.
-- Avoids code duplication and increases reusability. 
-- It improves the maintainability of the application. It improves the modularity of the application.
+- Avoids code duplication and increases reusability.
+- It improves the maintainability of the application.It improves the modularity of the application.
 </blockquote>
 </details>
 
 --- 
 
-25. What is the difference between class and object?
+25.What is the difference between class and object?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -560,19 +560,19 @@ While changing the accessibility of the method,
  
 | Class                                                                     | Object                                                                                      |
 | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| Class is a blueprint or template from which objects are created.          | Object is an instance of a class.                                                           |
-|  Class is a group of similar objects.                                     | Object is a real-world entity such as pen, laptop, mobile, bed, keyboard, mouse, chair etc. |
-|  When a class is created, no memory is allocated.                         | Objects are allocated memory space whenever they are created.                               |
-| The class has to be declared first and only once.                         | An object is created many times as per requirement.                                         |
-| It is declared with the class keyword                                     | It is created with a class name and a \`new\` keyword in Java.                              |
-| Class does not contain any values which can be associated with the field. | Each object has its own values, which are associated with it.                               |
+| Class is a blueprint or template from which objects are created.         | Object is an instance of a class.                                                          |
+|  Class is a group of similar objects.                                    | Object is a real-world entity such as pen, laptop, mobile, bed, keyboard, mouse, chair etc.|
+|  When a class is created, no memory is allocated.                        | Objects are allocated memory space whenever they are created.                              |
+| The class has to be declared first and only once.                        | An object is created many times as per requirement.                                        |
+| It is declared with the class keyword                                     | It is created with a class name and a \`new\` keyword in Java.                             |
+| Class does not contain any values which can be associated with the field.| Each object has its own values, which are associated with it.                              |
 
 </blockquote>
 </details>
 
 --- 
 
-26. How can we change the super class method according to the requirements of sub class in Java?
+26.How can we change the super class method according to the requirements of sub class in Java?
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -580,7 +580,7 @@ While changing the accessibility of the method,
 
 <blockquote>
 
-It can be done by method overriding , which is a type of polymorphism. It can modify a super class method in the sub class.
+It can be done by method overriding , which is a type of polymorphism.It can modify a super class method in the sub class.
 
 </blockquote>
 
@@ -588,7 +588,7 @@ It can be done by method overriding , which is a type of polymorphism. It can mo
 
 ---
 
-27. Can an interface extends another interface in Java?
+27.Can an interface extends another interface in Java?
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -604,7 +604,7 @@ It can be done by method overriding , which is a type of polymorphism. It can mo
 
 ---
 
-28. What happens if a class has implemented an interface but has not provided implementation for that method defined in Interface?
+28.What happens if a class has implemented an interface but has not provided implementation for that method defined in Interface?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -621,7 +621,7 @@ The class has to be declared with an abstract modifier, which will be enforced b
 
 ---
 
-29. Can we declare a class as Abstract without having any abstract method?
+29.Can we declare a class as Abstract without having any abstract method?
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -629,7 +629,7 @@ The class has to be declared with an abstract modifier, which will be enforced b
 
 <blockquote>
 
-Yes, we can create an abstract class by using abstract keyword before class name even if it doesn’t have any abstract method. If a class has even one abstract method, it must be declared as abstract otherwise it will give an error.
+Yes, we can create an abstract class by using abstract keyword before class name even if it doesn’t have any abstract method.If a class has even one abstract method, it must be declared as abstract otherwise it will give an error.
 
 </blockquote>
 
@@ -637,7 +637,7 @@ Yes, we can create an abstract class by using abstract keyword before class name
 
 ---
 
-30. Can we call the constructor of a class more than once for an object?
+30.Can we call the constructor of a class more than once for an object?
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -645,7 +645,7 @@ Yes, we can create an abstract class by using abstract keyword before class name
 
 <blockquote>
 
-It’s called only once for an object automatically at the time of object creation using new keyword. we can’t invoke the constructor again for an object after its creation.
+It’s called only once for an object automatically at the time of object creation using new keyword.we can’t invoke the constructor again for an object after its creation.
 
 </blockquote>
 
@@ -653,7 +653,7 @@ It’s called only once for an object automatically at the time of object creati
 
 ---
 
-31. How can we stop inheriting a class from other class in Java?
+31.How can we stop inheriting a class from other class in Java?
 
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -677,7 +677,7 @@ public Final Class Stone {
 
 ---
 
-32. Can we use a default constructor of a class even if an explicit constructor is defined?
+32.Can we use a default constructor of a class even if an explicit constructor is defined?
 
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -685,7 +685,7 @@ public Final Class Stone {
 
 <blockquote>
 
-No. Java provides a default no argument constructor if no explicit constructor is defined in a class. But if an explicit constructor has been defined, default constructor can’t be invoked, and developer can use only those constructors which are defined in the class.
+No.Java provides a default no argument constructor if no explicit constructor is defined in a class.But if an explicit constructor has been defined, default constructor can’t be invoked, and developer can use only those constructors which are defined in the class.
 
  </blockquote>
 
@@ -693,7 +693,7 @@ No. Java provides a default no argument constructor if no explicit constructor i
 
 ---
 
-33. Is it possible to change the value of any variable defined in the class implementing an interface?
+33.Is it possible to change the value of any variable defined in the class implementing an interface?
 
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -702,7 +702,7 @@ No. Java provides a default no argument constructor if no explicit constructor i
 
 <blockquote>
 
-No, we can’t change the value of any variable of an interface in the implementing class as all variables defined in the interface are by default public, static and Final. final variables are like constants which can’t be changed later
+No, we can’t change the value of any variable of an interface in the implementing class as all variables defined in the interface are by default public, static and Final.final variables are like constants which can’t be changed later
 
   </blockquote>
 
@@ -710,7 +710,7 @@ No, we can’t change the value of any variable of an interface in the implement
 
 ---
 
-34. What part of memory (Stack/Heap) is cleaned in garbage collection process?
+34.What part of memory (Stack/Heap) is cleaned in garbage collection process?
 
  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -719,7 +719,7 @@ No, we can’t change the value of any variable of an interface in the implement
 
 <blockquote>
 
-Heap. Because when Java programs run on the JVM, objects are created on the heap,
+Heap.Because when Java programs run on the JVM, objects are created on the heap,
 
   </blockquote>
 
@@ -727,7 +727,7 @@ Heap. Because when Java programs run on the JVM, objects are created on the heap
 
 ---
 
-35. Can we achieve method overloading by changing the return type?
+35.Can we achieve method overloading by changing the return type?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -743,7 +743,7 @@ No, we cannot achieve method overloading through return type in Java.
 
 ---
 
-36. Can we extend a String class?
+36.Can we extend a String class?
 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -760,7 +760,7 @@ No, String is a final class, therefore we cannot extend or inherit it.
 
 ---
 
-37. Explain about inner class in Java.
+37.Explain about inner class in Java.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -768,7 +768,7 @@ No, String is a final class, therefore we cannot extend or inherit it.
 
 <blockquote>
 
-In Java, we can define a class inside a class, and they are called nested classes. Any nested class which is non-static are known as inner class. 
+In Java, we can define a class inside a class, and they are called nested classes.Any nested class which is non-static are known as inner class.
 
 </blockquote>
 

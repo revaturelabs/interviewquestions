@@ -1,20 +1,20 @@
 ## Technical
 
-1. What is JUnit?
+1.What is JUnit?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-JUnit helps to test individual pieces of code, or “units,” to ensure that they are functioning properly. By identifying and isolating units that are not working correctly, JUnit makes it easier to find and fix errors in code. In addition, JUnit can be used to automate the execution of unit tests, which can save time and effort.
+JUnit helps to test individual pieces of code, or “units,” to ensure that they are functioning properly.By identifying and isolating units that are not working correctly, JUnit makes it easier to find and fix errors in code.In addition, JUnit can be used to automate the execution of unit tests, which can save time and effort.
 
 </blockquote>
 </details>
 
 ---
 
-2. What are the important features of JUnit?
+2.What are the important features of JUnit?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -35,56 +35,56 @@ JUnit helps to test individual pieces of code, or “units,” to ensure that th
 
 ---
 
-3.  What do you understand by testing and unit testing?
+3. What do you understand by testing and unit testing?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Testing is the process of checking whether the application fulfills the requirements and achieves the desired functionalities. Unit testing refers to assessing an individual functionality or a unit of the application.  
+Testing is the process of checking whether the application fulfills the requirements and achieves the desired functionalities.Unit testing refers to assessing an individual functionality or a unit of the application. 
 
 </blockquote>
 </details>
 
 ---
 
-4. What Is A JUnit Test Case?
+4.What Is A JUnit Test Case?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-A JUnit test case is a test case written using the JUnit testing framework. JUnit is a popular Java testing framework that allows developers to write and run tests for their Java code. A JUnit test case is typically made up of several individual tests, each of which tests a specific aspect of the code being tested. 
+A JUnit test case is a test case written using the JUnit testing framework.JUnit is a popular Java testing framework that allows developers to write and run tests for their Java code.A JUnit test case is typically made up of several individual tests, each of which tests a specific aspect of the code being tested.
 
 </blockquote>
 </details>
 
 ---
 
-5. Define automated testing in the context of JUnit?
+5.Define automated testing in the context of JUnit?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Automated testing in JUnit is that type of testing where one has the option to take support from tools. These automation tools would display accurate results which are suitable for the process of Java application development.
+Automated testing in JUnit is that type of testing where one has the option to take support from tools.These automation tools would display accurate results which are suitable for the process of Java application development.
 
 </blockquote>
 </details>
 
 ---
 
-6. What do you mean by Unit Testing in JUnit?
+6.What do you mean by Unit Testing in JUnit?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Unit testing is also regarded as the assessment of a single entity or class. We should be well aware of the fact that the principle of unit testing carries the utmost importance. With the assistance of unit testing, companies can give quality products to their clients and stakeholders.
+Unit testing is also regarded as the assessment of a single entity or class.We should be well aware of the fact that the principle of unit testing carries the utmost importance.With the assistance of unit testing, companies can give quality products to their clients and stakeholders.
 
 </blockquote>
 </details>
@@ -92,64 +92,64 @@ Unit testing is also regarded as the assessment of a single entity or class. We 
 ---
 
 
-7. Define JUnit in today’s context of evolving technologies?
+7.Define JUnit in today’s context of evolving technologies?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-JUnit is extensively used by developers to carry out unit testing in Java. Moreover, it is also being used to speed up the application based on Java. It is important to note that by taking into account the source code, the application can efficiently be sped up. 
+JUnit is extensively used by developers to carry out unit testing in Java.Moreover, it is also being used to speed up the application based on Java.It is important to note that by taking into account the source code, the application can efficiently be sped up.
 
 </blockquote>
 </details>
 
 ---
 
-8. When are the unit tests about JUnit written in Developmental Cycle?
+8.When are the unit tests about JUnit written in Developmental Cycle?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-The unit tests are written before the development of the application. It is so because writing the check before coding, assists the coders to write error-free codes which further boosts the viability of the form.
+The unit tests are written before the development of the application.It is so because writing the check before coding, assists the coders to write error-free codes which further boosts the viability of the form.
 
 </blockquote>
 </details>
 
 ---
 
-9. Shed light on the variety of JUnit classes and make a proper list of them?
+9.Shed light on the variety of JUnit classes and make a proper list of them?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-The JUnit classes are essential classes that are usually utilized in testing and writing the JUnits. Here is the list of the critical JUnit test classes.    
+The JUnit classes are essential classes that are usually utilized in testing and writing the JUnits.Here is the list of the critical JUnit test classes.   
 
 - `Test Suite`: It is also known as a composition of various tests
 - `Assert`: It is a set of assertive procedures used to design an application
 - `Test Result`: It is associated with the collection of results while executing a test case
-- `Test Case`: It is that kind of a JUnit class that is related to various fixtures. It also can run on a variety of tests.
+- `Test Case`: It is that kind of a JUnit class that is related to various fixtures.It also can run on a variety of tests.
 
 </blockquote>
 </details>
 
 ---
 
-10. What are the tools with the help of which JUnit can be easily integrated?
+10.What are the tools with the help of which JUnit can be easily integrated?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-There are mainly three types of tools that play a pivotal role in the integration of JUnit. We can use either of them to facilitate the process. They are as follows:
+There are mainly three types of tools that play a pivotal role in the integration of JUnit.We can use either of them to facilitate the process.They are as follows:
 
 - Maven (One of the Build Tools)
-- IDE (e.g. Eclipse, STS, IntelliJ)
+- IDE (e.g.Eclipse, STS, IntelliJ)
 - Gradle (One of the Build Tools)
 
 </blockquote>
@@ -157,22 +157,22 @@ There are mainly three types of tools that play a pivotal role in the integratio
 
 ---
 
-11. Do you have to write a test case for every logic?
+11.Do you have to write a test case for every logic?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- In JUnit, it is unnecessary to write a test case for every logic but only for those that can be reasonably broken. 
-- A unit test case would comprise a collection of input data and expected output. The org.JUnit package contains several classes and interfaces to help you in unit testing, such as Assert, Test, Before, After, etc. 
+- In JUnit, it is unnecessary to write a test case for every logic but only for those that can be reasonably broken.
+- A unit test case would comprise a collection of input data and expected output.The org.JUnit package contains several classes and interfaces to help you in unit testing, such as Assert, Test, Before, After, etc.
 
 </blockquote>
 </details>
 
 ---
 
-12. How do you write a JUnit test case?
+12.How do you write a JUnit test case?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -190,28 +190,28 @@ We have to
 
 ---
 
-13. How do you run a JUnit test case?
+13.How do you run a JUnit test case?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Assuming already we have a JUnit test case written, we can run it by opening it in our IDE and selecting the `run` option. If we are using Eclipse, for example, right-click on the file and select `Run As > JUnit Test`. This will launch the test and run it using the JUnit framework.
+Assuming already we have a JUnit test case written, we can run it by opening it in our IDE and selecting the `run` option.If we are using Eclipse, for example, right-click on the file and select `Run As > JUnit Test`.This will launch the test and run it using the JUnit framework.
 
 </blockquote>
 </details>
 
 ---
 
-14. What are the critical fixtures of JUnit?
+14.What are the critical fixtures of JUnit?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-The JUnit test framework is associated with the providence of these critical features. They are as follows:
+The JUnit test framework is associated with the providence of these critical features.They are as follows:
 
   - Test Suites
   - JUnit Classes
@@ -223,42 +223,42 @@ The JUnit test framework is associated with the providence of these critical fea
 
 ---
 
-15. What do you know about Test Suite?
+15.What do you know about Test Suite?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Test suite means bundling a few unit test cases and running them together. In JUnit, both `@RunWith` and `@Suite` annotations are used to run the suite test.
+Test suite means bundling a few unit test cases and running them together.In JUnit, both `@RunWith` and `@Suite` annotations are used to run the suite test.
 
 </blockquote>
 </details>
 
 ---
 
-16. How do you test the `protected` and `private` methods?
+16.How do you test the `protected` and `private` methods?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-In the `protected` method, the test class and target class are declared in the same package. However, in the `private` method, there is no direct way of testing. Either we have to change your method to `protected` or do the testing manually. 
+In the `protected` method, the test class and target class are declared in the same package.However, in the `private` method, there is no direct way of testing.Either we have to change your method to `protected` or do the testing manually.
 
 </blockquote>
 </details>
 
 ---
 
-17. What do you understand by JUnit classes? List some of Junit’s classes.
+17.What do you understand by JUnit classes? List some of Junit’s classes.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-JUnit classes are those classes that are used in writing and testing JUnit programs. Some of the important JUnit classes are mentioned below –
+JUnit classes are those classes that are used in writing and testing JUnit programs.Some of the important JUnit classes are mentioned below –
 
 `Assert` – A set of assert methods.
 `TestCase` − A test case that defines the fixture to run multiple tests.
@@ -270,14 +270,14 @@ JUnit classes are those classes that are used in writing and testing JUnit progr
 
 ---
 
-18.  What is JUnit Test Fixture?
+18. What is JUnit Test Fixture?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-The fixture is a fixed state of a set of objects used as a baseline for running tests. The purpose of a test fixture is to ensure that there is a well-known and fixed environment in which tests are run so that results are repeatable. It includes the following methods −
+The fixture is a fixed state of a set of objects used as a baseline for running tests.The purpose of a test fixture is to ensure that there is a well-known and fixed environment in which tests are run so that results are repeatable.It includes the following methods −
 
 `setUp()` method which runs before every test invocation.
 `tearDown()` method which runs after every test method.
@@ -287,23 +287,23 @@ The fixture is a fixed state of a set of objects used as a baseline for running 
 
 ---
 
-19. How do you install JUnit?
+19.How do you install JUnit?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-The first step is to download JUnit 5, the latest version of JUnit ( it would be a file named JUnit.zip). We would be required to unzip the distribution file to a directory, `%JUnit_HOME%`. Then, we would add JUnit to the classpath. 
+The first step is to download JUnit 5, the latest version of JUnit ( it would be a file named JUnit.zip).We would be required to unzip the distribution file to a directory, `%JUnit_HOME%`.Then, we would add JUnit to the classpath.
 
-Next, we would test the installation. This would involve running sample tests (located not in the JUnit.jar file, but in the installation directory) distributed with JUnit. Lastly, we would confirm that all the tests pass with an “OK” message. If they don’t, we would go back and verify whether JUnit.jar is in the classpath.  
+Next, we would test the installation.This would involve running sample tests (located not in the JUnit.jar file, but in the installation directory) distributed with JUnit.Lastly, we would confirm that all the tests pass with an “OK” message.If they don’t, we would go back and verify whether JUnit.jar is in the classpath. 
 
 </blockquote>
 </details>
 
 ---
 
-20. Name some JUnit extensions?
+20.Name some JUnit extensions?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -322,7 +322,7 @@ Following are some of the JUnit extensions
 
 ---
 
-21. What are the methods in fixtures?
+21.What are the methods in fixtures?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -337,7 +337,7 @@ Following are some of the JUnit extensions
 
 ---
 
-22. What is `@Test` and where it’s used?
+22.What is `@Test` and where it’s used?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -351,84 +351,84 @@ Following are some of the JUnit extensions
 
 ---
 
-23. Why JUnit only reports the first failure in a single attempt?
+23.Why JUnit only reports the first failure in a single attempt?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Reporting multiple failures in a single test is generally a sign that the test does too much and it is too big a unit test. JUnit is designed to work best with several small tests. It executes each test within a separate instance of the test class. It reports failure on each test.
+Reporting multiple failures in a single test is generally a sign that the test does too much and it is too big a unit test.JUnit is designed to work best with several small tests.It executes each test within a separate instance of the test class.It reports failure on each test.
 
 </blockquote>
 </details>
 
 ---
 
-24. What is a JUnit parameterized test?
+24.What is a JUnit parameterized test?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-The parameterized test is a new feature introduced in JUnit 4. It provides the facility to execute the same test case again and again with different values.
+The parameterized test is a new feature introduced in JUnit 4.It provides the facility to execute the same test case again and again with different values.
 
 </blockquote>
 </details>
 
 ---
 
-25. What are Annotations and how are they are useful in JUnit?
+25.What are Annotations and how are they are useful in JUnit?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Annotations are like meta-tags that you can add to your code and apply  to methods or in class. The annotation in JUnit gives us information about test methods, which methods are going to run before & after test methods, which methods run before & after all the methods, and which methods or classes will be ignored during execution.
+Annotations are like meta-tags that you can add to your code and apply  to methods or in class.The annotation in JUnit gives us information about test methods, which methods are going to run before & after test methods, which methods run before & after all the methods, and which methods or classes will be ignored during execution.
 
 </blockquote>
 </details>
 
 ---
 
-26. In Java, `Assert` is a keyword. Won't this conflict with JUnit's `Assert()` Method?
+26.In Java, `Assert` is a keyword.Won't this conflict with JUnit's `Assert()` Method?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-JUnit 3.7 deprecated `assert()` and replaced it with `assertTrue()`, which works the same way. JUnit 4 is compatible with the assert keyword. If you run with the -ea JVM switch, assertions that fail will be reported by JUnit.
+JUnit 3.7 deprecated `assert()` and replaced it with `assertTrue()`, which works the same way.JUnit 4 is compatible with the assert keyword.If you run with the -ea JVM switch, assertions that fail will be reported by JUnit.
 
 </blockquote>
 </details>
 
 ---
 
-27. Why not just use `System.out.println()` for testing?
+27.Why not just use `System.out.println()` for testing?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Debugging the code using `System.out.println()` will lead to manual scanning of the whole output every time the program is run to ensure the code is doing the expected operations. Moreover, in the long run, it takes lesser time to code JUnit methods and tests them on class files.
+Debugging the code using `System.out.println()` will lead to manual scanning of the whole output every time the program is run to ensure the code is doing the expected operations.Moreover, in the long run, it takes lesser time to code JUnit methods and tests them on class files.
 
 </blockquote>
 </details>
 
 ---
 
-28. How will you run JUnit 5 test?
+28.How will you run JUnit 5 test?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- We can run a JUnit 5 test case using JUnit's console launcher. The executable for this jar can be downloaded from Maven Central, under the `junit-platform-console-standalone` directory.
+- We can run a JUnit 5 test case using JUnit's console launcher.The executable for this jar can be downloaded from Maven Central, under the `junit-platform-console-standalone` directory.
 - Also, we'll need a directory that will contain all our compiled classes:
 `$ mkdir target`
 
@@ -437,70 +437,70 @@ Debugging the code using `System.out.println()` will lead to manual scanning of 
 
 ---
 
-29. What is the purpose of `org.JUnit.jupiter.api.Assertions` class?
+29.What is the purpose of `org.JUnit.jupiter.api.Assertions` class?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-This class provides a set of assertion methods useful for writing tests. Only failed assertions are recorded.
+This class provides a set of assertion methods useful for writing tests.Only failed assertions are recorded.
 
 </blockquote>
 </details>
 
 ---
 
-30. What is the purpose of `org.JUnit.testresult` Class?
+30.What is the purpose of `org.JUnit.testresult` Class?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-A TestResult collects the results of executing a test case. It is an instance of the Collecting parameter pattern. The test framework distinguishes between failures and errors. A failure is anticipated and checked for with assertions. Errors are unanticipated problems like an `ArrayIndexOutOfBoundsException`.
+A TestResult collects the results of executing a test case.It is an instance of the Collecting parameter pattern.The test framework distinguishes between failures and errors.A failure is anticipated and checked for with assertions.Errors are unanticipated problems like an `ArrayIndexOutOfBoundsException`.
 
 </blockquote>
 </details>
 
 ---
 
-31. What is the purpose of `org.JUnit.testsuite` Class?
+31.What is the purpose of `org.JUnit.testsuite` Class?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-A TestSuite is a composite of tests. It runs a collection of test cases.
+A TestSuite is a composite of tests.It runs a collection of test cases.
 
 </blockquote>
 </details>
 
 ---
 
-32.  What is the purpose of `@BeforeEach` Annotation In JUnit?
+32. What is the purpose of `@BeforeEach` Annotation In JUnit?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Several tests need similar objects created before they can run. Annotating a public void method with `@BeforeEach` causes that method to be run before each Test method.
+Several tests need similar objects created before they can run.Annotating a public void method with `@BeforeEach` causes that method to be run before each Test method.
 
 </blockquote>
 </details>
 
 ---
 
-33.  What is the purpose of `@AfterAll` annotation in JUnit?
+33. What is the purpose of `@AfterAll` annotation in JUnit?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-If you allocate external resources in a Before method you need to release them after the test runs. Annotating a public void method with `@AfterAll` causes that method to be run after the Test method.
+If you allocate external resources in a Before method you need to release them after the test runs.Annotating a public void method with `@AfterAll` causes that method to be run after the Test method.
 ```Java
 @AfterAll
     public static void runsAfterEverything(){
@@ -513,7 +513,7 @@ If you allocate external resources in a Before method you need to release them a
 
 ---
 
-34. What is the purpose of `@BeforeAll` annotation in JUnit?
+34.What is the purpose of `@BeforeAll` annotation in JUnit?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -533,7 +533,7 @@ Annotating a public static void method with `@BeforeAll` causes it to be run onc
 
 ---
 
-35. What is the purpose of `assertTrue()` and `assertFalse()` in JUnit?
+35.What is the purpose of `assertTrue()` and `assertFalse()` in JUnit?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -548,7 +548,7 @@ Similarly, `assertFalse()` asserts that supplied condition is false.
 
 ---
 
-36. What is the `@Disable` annotation and how is this useful?
+36.What is the `@Disable` annotation and how is this useful?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -556,7 +556,7 @@ Similarly, `assertFalse()` asserts that supplied condition is false.
 <blockquote>
 
 
-To disable a test in JUnit 5, you will need to use the `@Disabled` annotation. It is equivalent to JUnit 4’s `@Ignored` annotation.
+To disable a test in JUnit 5, you will need to use the `@Disabled` annotation.It is equivalent to JUnit 4’s `@Ignored` annotation.
 
 `@Disabled` annotation can be applied over the test class (disables all test methods in that class) or individual test methods as well.
 ```Java
@@ -574,7 +574,7 @@ void testCalcTwo()
 
 ---
 
-37. Explain the execution procedure of the JUnit test API methods?
+37.Explain the execution procedure of the JUnit test API methods?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -597,49 +597,49 @@ Following is how the JUnit execution procedure works −
 
 ---
 
-38. What is the purpose of `org.JUnit.JUnitcore` Class?
+38.What is the purpose of `org.JUnit.JUnitcore` Class?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-The test cases are executed using JUnitCore class. JUnitCore is a facade for running tests. It supports running JUnit 4 tests, JUnit 3.8.x tests, and mixtures.
+The test cases are executed using JUnitCore class.JUnitCore is a facade for running tests.It supports running JUnit 4 tests, JUnit 3.8.x tests, and mixtures.
 
 </blockquote>
 </details>
 
 ---
 
-39. How to simulate a timeout situation In JUnit?
+39.How to simulate a timeout situation In JUnit?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-JUnit provides a handy option for Timeout. If a test case takes more time than the specified number of milliseconds then JUnit will automatically mark it as failed. The timeout parameter is used along the with `@Test` annotation.
+JUnit provides a handy option for Timeout.If a test case takes more time than the specified number of milliseconds then JUnit will automatically mark it as failed.The timeout parameter is used along the with `@Test` annotation.
 
 </blockquote>
 </details>
 
 ---
 
-40. How can you use JUnit to test that the code throws desired exception?
+40.How can you use JUnit to test that the code throws desired exception?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-JUnit provides an option for tracing the Exception handling of code. You can test if a code throws the desired exception or not. The expected parameter is used along with `@Test` annotation as follows − `@Test(expected)`
+JUnit provides an option for tracing the Exception handling of code.You can test if a code throws the desired exception or not.The expected parameter is used along with `@Test` annotation as follows − `@Test(expected)`
 
 </blockquote>
 </details>
 
 ---
 
-41.  How to create parameterized tests?
+41. How to create parameterized tests?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -649,7 +649,7 @@ JUnit provides an option for tracing the Exception handling of code. You can tes
 Following are the steps to create parameterized tests in JUnit5:
 - Declare `@ParameterizedTest` to the test.
 - Declare at least one source (for example – `@ValueSource`) that will provide the arguments for each invocation of the test.
-- Consume the arguments in the test method. 
+- Consume the arguments in the test method.
 - JUnit 5 parameterized test maven dependency : We need `JUnit-jupiter-params` maven dependencies to support parameterized tests.
 
 ```Java
@@ -678,63 +678,63 @@ arg => 10<br>
 
 ---
 
-42. How to compile a JUnit Test Class?
+42.How to compile a JUnit Test Class?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Compiling a JUnit test class is like compiling any other Java class. The only thing we need to watch out for is that the JUnit JAR file must be included in the classpath.
+Compiling a JUnit test class is like compiling any other Java class.The only thing we need to watch out for is that the JUnit JAR file must be included in the classpath.
 
 </blockquote>
 </details>
 
 ---
 
-43. What happens if a JUnit test method is declared as "private"?
+43.What happens if a JUnit test method is declared as "private"?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-If a JUnit test method is declared as "private", it compiles successfully. But the execution will fail. This is because JUnit requires that all test methods must be declared as "public".
+If a JUnit test method is declared as "private", it compiles successfully.But the execution will fail.This is because JUnit requires that all test methods must be declared as "public".
 
 </blockquote>
 </details>
 
 ---
 
-44. Can you use a `main()` method for Unit testing?
+44.Can you use a `main()` method for Unit testing?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Yes we can test using `main()` method. One obvious advantage seems to be that we can whitebox test the class. That is, we can test the internals of it (private methods for example). We can't do the unit testsit-tests. But primarily the test framework tests the interface and the behavior from the user's perspective.
+Yes we can test using `main()` method.One obvious advantage seems to be that we can whitebox test the class.That is, we can test the internals of it (private methods for example).We can't do the unit testsit-tests.But primarily the test framework tests the interface and the behavior from the user's perspective.
 
 </blockquote>
 </details>
 
 ---
 
-45. Do you need to write a Test Class for every class that needs to be tested?
+45.Do you need to write a Test Class for every class that needs to be tested?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-No. We need not write an independent test class for every class that needs to be tested. If there is a small group of tests sharing a common test fixture, you may move those tests to a new test class.
+No.We need not write an independent test class for every class that needs to be tested.If there is a small group of tests sharing a common test fixture, you may move those tests to a new test class.
 
 </blockquote>
 </details>
 
 ---
 
-46. Can we change the return type of the JUnit test method from void to some other type?
+46.Can we change the return type of the JUnit test method from void to some other type?
 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -742,28 +742,28 @@ No. We need not write an independent test class for every class that needs to be
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Ideally, we should not do that. All the JUnit test methods have a void return type. If we change the return type then the test method would not be considered a test method and would be ignored during the execution of tests.
+Ideally, we should not do that.All the JUnit test methods have a void return type.If we change the return type then the test method would not be considered a test method and would be ignored during the execution of tests.
 
 </blockquote>
 </details>
 
 ---
 
-47. When you should run the JUnit test, Is there any particular time interval between each run?
+47.When you should run the JUnit test, Is there any particular time interval between each run?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-No there is no time constraint. A JUnit test needs to run whenever there is a change in the source code. This ensures that the new change passes through all the tests.
+No there is no time constraint.A JUnit test needs to run whenever there is a change in the source code.This ensures that the new change passes through all the tests.
 
 </blockquote>
 </details>
 
 ---
 
-48. What is the annotation we have in JUnit 5 as a replacement for @Rule in JUnit 4?
+48.What is the annotation we have in JUnit 5 as a replacement for @Rule in JUnit 4?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -780,7 +780,7 @@ No there is no time constraint. A JUnit test needs to run whenever there is a ch
 
 ---
 
-49. What does the `@TestFactory` annotation do?
+49.What does the `@TestFactory` annotation do?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -795,7 +795,7 @@ No there is no time constraint. A JUnit test needs to run whenever there is a ch
 
 ---
 
-50. Mention different methods of exception handling in JUnit?
+50.Mention different methods of exception handling in JUnit?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -815,7 +815,7 @@ There are different methods of exception handling in JUnit
 
 ---
 
-51. Explain who should use JUnit – a developer or a tester? Why do you use JUnit to test your code?
+51.Explain who should use JUnit – a developer or a tester? Why do you use JUnit to test your code?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -823,7 +823,7 @@ There are different methods of exception handling in JUnit
 <blockquote>
 
 
-JUnit is more often used by developers to implement unit tests in JAVA.  It is designed for unit testing that is more of a coding process and not a testing process. However, many testers and QA engineers use JUnit for unit testing.
+JUnit is more often used by developers to implement unit tests in JAVA. It is designed for unit testing that is more of a coding process and not a testing process.However, many testers and QA engineers use JUnit for unit testing.
 
 JUnit is used because:
 
@@ -837,35 +837,35 @@ JUnit is used because:
 
 ---
 
-52. What `assert()` does in JUnit?
+52.What `assert()` does in JUnit?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-`assert()` is used to compare actual and expected results in JUnit. It has various implementations like `assertEquals()`,`assertArrayEquals()`,`assertFalse()`, `assertNotNull()`, etc.
+`assert()` is used to compare actual and expected results in JUnit.It has various implementations like `assertEquals()`,`assertArrayEquals()`,`assertFalse()`, `assertNotNull()`, etc.
 
 </blockquote>
 </details>
 
 ---
 
-53. Differentiate TDD and BDD?
+53.Differentiate TDD and BDD?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-The key difference is the scope. TDD is a development practice while BDD is a team methodology. In TDD, the developers write the tests while in BDD the automated specifications are created by users or testers (with developers wiring them to the code under test.) 
+The key difference is the scope.TDD is a development practice while BDD is a team methodology.In TDD, the developers write the tests while in BDD the automated specifications are created by users or testers (with developers wiring them to the code under test.) 
 
 </blockquote>
 </details>
 
 ---
 
-54. Why do we need Unit testing?
+54.Why do we need Unit testing?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -875,23 +875,23 @@ The key difference is the scope. TDD is a development practice while BDD is a te
 - Unit tests help to fix bugs early in the development cycle and save costs.
 - It helps the developers to understand the testing code base and enables them to make changes quickly.
 - Good unit tests serve as project documentation.
-- Unit tests help with code reuse. Migrate both your code and your tests to your new project. Tweak the code until the tests run again.
+- Unit tests help with code reuse.Migrate both your code and your tests to your new project.Tweak the code until the tests run again.
 
 </blockquote>
 </details>
 
 ---
 
-55. What is the purpose of Assumptions in JUnit5? 
+55.What is the purpose of Assumptions in JUnit5? 
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Assumptions provide static methods to support conditional test execution based on assumptions. A failed assumption results in a test being aborted.
+Assumptions provide static methods to support conditional test execution based on assumptions.A failed assumption results in a test being aborted.
 
-Assumptions are typically used whenever it does not make sense to continue the execution of a given test method. In the test report, these tests will be marked as passed.
+Assumptions are typically used whenever it does not make sense to continue the execution of a given test method.In the test report, these tests will be marked as passed.
 
 The assumptions class has three methods with many overloaded forms:
 
@@ -921,29 +921,29 @@ void testOnProd()
 
 ---
 
-56. Can we have Non-Public test methods in JUnit 5?
+56.Can we have Non-Public test methods in JUnit 5?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- JUnit 5 test classes and test methods are not required to be public. We can now make them package-protected.
-- JUnit internally uses reflection to find test classes and test methods. Reflection can discover them even if they have limited visibility, so there is no need for them to be public.
+- JUnit 5 test classes and test methods are not required to be public.We can now make them package-protected.
+- JUnit internally uses reflection to find test classes and test methods.Reflection can discover them even if they have limited visibility, so there is no need for them to be public.
 
 </blockquote>
 </details>
 
 ---
 
-57. What is the purpose of the `@RepeatedTest` annotation in JUnit 5?
+57.What is the purpose of the `@RepeatedTest` annotation in JUnit 5?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-JUnit Jupiter provides the ability to repeat a test a specified number of times by annotating a method with `@RepeatedTest` and specifying the total number of repetitions desired. 
+JUnit Jupiter provides the ability to repeat a test a specified number of times by annotating a method with `@RepeatedTest` and specifying the total number of repetitions desired.
 
 Below is the example of `@RepeatedTest` in JUnit5.
 ```Java

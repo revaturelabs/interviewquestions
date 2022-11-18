@@ -1,4 +1,4 @@
-1. Why is `API Testing` important?
+1.Why is `API Testing` important?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -13,7 +13,7 @@
   
 ---
 
-2. What aspects can be covered under `API Testing`?
+2.What aspects can be covered under `API Testing`?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -22,8 +22,8 @@
 <blockquote>
 
 API testing can be done on the below aspects:
-- `Functional Testing`: Checks API's functionality, takes payload in the form of JSON or XML and provides the response code and response body. 
-- `Load Testing`:  Checks the performance under the specific load and determines how much traffic the API can handle before being overloaded. 
+- `Functional Testing`: Checks API's functionality, takes payload in the form of JSON or XML and provides the response code and response body.
+- `Load Testing`:  Checks the performance under the specific load and determines how much traffic the API can handle before being overloaded.
 - `Security Testing`: Checks vulnerabilities like authentication and sensitive data is encrypted over HTTP and includes penetration testing validating authentication.
 
 </blockquote>
@@ -31,7 +31,7 @@ API testing can be done on the below aspects:
   
 ---
 
-3. What are the benefits of Automated API Testing?
+3.What are the benefits of Automated API Testing?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -53,7 +53,7 @@ There are many benefits to automating API testing, including:
 
 ---
 
-4. What is the `Postman Collection`?
+4.What is the `Postman Collection`?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -69,7 +69,7 @@ There are many benefits to automating API testing, including:
   
 ---
 
-5. What is `Testing Collection` in Postman?
+5.What is `Testing Collection` in Postman?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -77,7 +77,7 @@ There are many benefits to automating API testing, including:
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-- Testing Collection in Postman is used for testing the behaviour of our API. 
+- Testing Collection in Postman is used for testing the behaviour of our API.
 - We can communicate with other team members about how API functions or demonstrate the API’s behaviour under various circumstances.
 
 </blockquote>
@@ -85,7 +85,7 @@ There are many benefits to automating API testing, including:
   
 ---
   
-6. What is `Documentation Collection` in Postman??
+6.What is `Documentation Collection` in Postman??
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -102,7 +102,7 @@ There are many benefits to automating API testing, including:
 
 ---
 
-7. What is `Newman` API testing?
+7.What is `Newman` API testing?
    
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -110,8 +110,8 @@ There are many benefits to automating API testing, including:
 
 <blockquote>
 
-- `Newman` is a command-line Collection Runner for Postman. 
-- We can run and test a Postman Collection directly from the command line. 
+- `Newman` is a command-line Collection Runner for Postman.
+- We can run and test a Postman Collection directly from the command line.
 - It's built with extensibility in mind and easily integrates with CI servers and build systems.
 - Newman resides in the npm registry and on GitHub.
 
@@ -121,7 +121,7 @@ There are many benefits to automating API testing, including:
   
 ---
 
-8. How Postman collections are passed to Newman for API testing?
+8.How Postman collections are passed to Newman for API testing?
    
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -144,7 +144,7 @@ newman run {{collectionUrl}}
   
 ---
 
-9. Is it possible to generate HTML report using Newman?
+9.Is it possible to generate HTML report using Newman?
    
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -152,7 +152,7 @@ newman run {{collectionUrl}}
 
 <blockquote>
 
-- There are few custom node modules available for generating Newman test execution reports. 
+- There are few custom node modules available for generating Newman test execution reports.
 - First, we need to install the `newman-HTML-reporter` module.
 
 ```
@@ -171,7 +171,7 @@ newman run Postman_Newman_Collection.json -e enVariable.json -r html
   
 ---
 
-10. What is `SoapUI`?
+10.What is `SoapUI`?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -179,7 +179,7 @@ newman run Postman_Newman_Collection.json -e enVariable.json -r html
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-- `SoapUI` is a tool for testing Web Services; these can be the SOAP Web Services as well as RESTful Web Services or HTTP-based services. 
+- `SoapUI` is a tool for testing Web Services; these can be the SOAP Web Services as well as RESTful Web Services or HTTP-based services.
 - `SoapUI` is an Open Source and completely free tool with a commercial companion called `ReadyAPI` that has extra functionality for companies with mission-critical Web Services.
 
 </blockquote>
@@ -187,7 +187,7 @@ newman run Postman_Newman_Collection.json -e enVariable.json -r html
   
 ---
 
-11. What can we use SoapUI for?
+11.What can we use SoapUI for?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -196,11 +196,11 @@ newman run Postman_Newman_Collection.json -e enVariable.json -r html
 <blockquote>
 
 - SoapUI can be used for complete RESTful API and SOAP Web Service testing.
-- We can do Functional Testing, Performance Testing, Interoperability Testing & Regression Testing etc using SoapUI. 
+- We can do Functional Testing, Performance Testing, Interoperability Testing & Regression Testing etc using SoapUI.
 - Using SoapUI we can-
-  - simulate Web Services. 
-  - record tests and use them Later. 
-  - create code stubs from the WSDL. 
+  - simulate Web Services.
+  - record tests and use them Later.
+  - create code stubs from the WSDL.
   - create REST specifications (WADL)from recorded communication.
   - Just right-click a functional test and run it as a load test.
   
@@ -209,7 +209,7 @@ newman run Postman_Newman_Collection.json -e enVariable.json -r html
   
 ---
 
-12. What protocols are supported by SoapUI?
+12.What protocols are supported by SoapUI?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -225,7 +225,7 @@ newman run Postman_Newman_Collection.json -e enVariable.json -r html
   
 ---
 
-13. What is the difference between SoapUI and Selenium?
+13.What is the difference between SoapUI and Selenium?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -235,9 +235,9 @@ newman run Postman_Newman_Collection.json -e enVariable.json -r html
 
 |SoapUI                               |Selenium                           |
 |-------------------------------------|-----------------------------------|
-| SoapUI is NOT used for User Interface Testing. It is only used for WebAPI or WebService Testing | Selenium is used for User Interface Testing. |
-| Capability to test the data sent and received between the web browser and a web server. Can test protocols/technologies such as REST, and SOAP. | Selenium cannot test protocols, but it can test the UI behaviour.|
-| SoapUI is able to perform functional, load and Security Testing of the above-mentioned technologies. | Selenium can perform only Functional Testing. Performance Testing to some extent because we can track execution time with regards to the performance but cannot test multi-user and multi-tenancy. Selenium certainly cannot be used for security testing. |
-|SoapUI is PROTOCOL Dependent and NOT browser dependent. | Selenium depends on the browser’s capabilities. |
+| SoapUI is NOT used for User Interface Testing.It is only used for WebAPI or WebService Testing | Selenium is used for User Interface Testing.|
+| Capability to test the data sent and received between the web browser and a web server.Can test protocols/technologies such as REST, and SOAP.| Selenium cannot test protocols, but it can test the UI behaviour.|
+| SoapUI is able to perform functional, load and Security Testing of the above-mentioned technologies.| Selenium can perform only Functional Testing.Performance Testing to some extent because we can track execution time with regards to the performance but cannot test multi-user and multi-tenancy.Selenium certainly cannot be used for security testing.|
+|SoapUI is PROTOCOL Dependent and NOT browser dependent.| Selenium depends on the browser’s capabilities.|
 </blockquote>
 </details>

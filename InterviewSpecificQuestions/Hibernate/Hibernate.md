@@ -1,4 +1,4 @@
-1. What is an ORM? Explain.
+1.What is an ORM? Explain.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -7,7 +7,7 @@
 
 <blockquote>
 
-- Hibernate ORM stands for Object Relational Mapping. This is a mapping tool pattern mainly used for converting data stored in a relational database to an object used in object-oriented programming constructs. This tool also helps greatly in simplifying data 	retrieval, creation, and manipulation.
+- Hibernate ORM stands for Object Relational Mapping.This is a mapping tool pattern mainly used for converting data stored in a relational database to an object used in object-oriented programming constructs.This tool also helps greatly in simplifying data 	retrieval, creation, and manipulation.
 	
 ![Hibernate](https://user-images.githubusercontent.com/106813140/192742158-93dfe2ff-6019-4a5b-9b63-8223a3485a10.png)
 
@@ -18,7 +18,7 @@
 
 ------
 
-2. Have you used Hibernate? If yes, tell me what problem it solves in your project.
+2.Have you used Hibernate? If yes, tell me what problem it solves in your project.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -27,7 +27,7 @@
 
 <blockquote>
 
-- Hibernate ORM stands for Object Relational Mapping. This is a mapping tool pattern mainly used for converting data stored in a relational database to an object used in object-oriented programming constructs. This tool also helps greatly in simplifying data 	retrieval, creation, and manipulation.
+- Hibernate ORM stands for Object Relational Mapping.This is a mapping tool pattern mainly used for converting data stored in a relational database to an object used in object-oriented programming constructs.This tool also helps greatly in simplifying data 	retrieval, creation, and manipulation.
 
 </blockquote>
 
@@ -36,7 +36,7 @@
 ------
 
 
-3. What is Persistence?
+3.What is Persistence?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -45,7 +45,7 @@
 
 <blockquote>
 
-- Data Persistence is a means for an application to persist and retrieve information from a non-volatile storage system. 
+- Data Persistence is a means for an application to persist and retrieve information from a non-volatile storage system.
 - Persistence is vital to enterprise applications because of the required access to relational databases.
 
 </blockquote>
@@ -55,7 +55,7 @@
 ------
 
 
-4. What is O-R (Object relational) impedance mismatch? What problems may occur due to the impedance mismatch? 
+4.What is O-R (Object relational) impedance mismatch? What problems may occur due to the impedance mismatch? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -64,14 +64,14 @@
 
 <blockquote>
 
-- Impedance mismatch is the term used to refer to the problems that occurs due to differences between the database model and the programming language model. 
+- Impedance mismatch is the term used to refer to the problems that occurs due to differences between the database model and the programming language model.
 - The practical relational model has 3 components these are:
   - Attributes and their data types
   - Tuples
   - Tables
 - Following problems may occur due to the impedance mismatch:
-  - The first problem that may occur is that is data type mismatch means the programming language attribute data type may differ from the attribute data type in the data model. Hence it is quite necessary to have a binding for each host programming language that specifies for each attribute type the compatible programming language types. It is necessary to have different data types, for example, we have different data types available in different programming languages such as data types in C are different from Java and both differ from SQL data types.
-  - The second problem that may occur is because the results of most queries are sets or multisets of tuples and each tuple is formed of a sequence of attribute values. In the program, it is necessary to access the individual data values within individual tuples for printing or processing. Hence, there is a need for binding to map the query result data structure which is a table to an appropriate data structure in the programming language. A mechanism is needed to loop over the tuples in a query result in order to access a single tuple at a time and to extract individual values from the tuple. The extracted values are typically copied to appropriate program variables for further processing by the program. A cursor or iterator is a variable which is used for looping over the tuples in a query result. Individual values within each 	tuple are extracted into different or unique program variables of the appropriate datatype.
+  - The first problem that may occur is that is data type mismatch means the programming language attribute data type may differ from the attribute data type in the data model.Hence it is quite necessary to have a binding for each host programming language that specifies for each attribute type the compatible programming language types.It is necessary to have different data types, for example, we have different data types available in different programming languages such as data types in C are different from Java and both differ from SQL data types.
+  - The second problem that may occur is because the results of most queries are sets or multisets of tuples and each tuple is formed of a sequence of attribute values.In the program, it is necessary to access the individual data values within individual tuples for printing or processing.Hence, there is a need for binding to map the query result data structure which is a table to an appropriate data structure in the programming language.A mechanism is needed to loop over the tuples in a query result in order to access a single tuple at a time and to extract individual values from the tuple.The extracted values are typically copied to appropriate program variables for further processing by the program.A cursor or iterator is a variable which is used for looping over the tuples in a query result.Individual values within each 	tuple are extracted into different or unique program variables of the appropriate datatype.
   - Impedance mismatch is less of a problem when a special database programming language is designed that uses the same data model and data type as a database model for example Oracle’s/SQL.
 
 </blockquote>
@@ -81,7 +81,7 @@
 ------
 
 
-5. Can we use Hibernate in. standalone (or console based) applications?
+5.Can we use Hibernate in.standalone (or console based) applications?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -147,7 +147,7 @@ public class OrderDetail implements Serializable {
     // also override equals and hashcode
 }
 ```
-- One User can have multiple OrderDetails. In eager loading strategy, if we load the User data, it will also load up all orders associated with it and will store it in a memory.
+- One User can have multiple OrderDetails.In eager loading strategy, if we load the User data, it will also load up all orders associated with it and will store it in a memory.
 - But when we enable lazy loading, if we pull up a UserLazy, OrderDetail data won't be initialized and loaded into a memory until we make an explicit call to it.
 
 </blockquote>
@@ -156,7 +156,7 @@ public class OrderDetail implements Serializable {
 
 ------
 
-7. If you are a developer and want to develop database application using Java, will you opt-in for JDBC or Hibernate (or any other JPA framework)? Justify your choice.
+7.If you are a developer and want to develop database application using Java, will you opt-in for JDBC or Hibernate (or any other JPA framework)? Justify your choice.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -165,7 +165,7 @@ public class OrderDetail implements Serializable {
 
 <blockquote>
 
-- I will choose hibernate because using this we can persist entity class object into database and can retrieve data from database in form of entity object. So, performance of project will increase . 
+- I will choose hibernate because using this we can persist entity class object into database and can retrieve data from database in form of entity object.So, performance of project will increase .
 
 </blockquote>
 
@@ -174,7 +174,7 @@ public class OrderDetail implements Serializable {
 ------
 
 
-8. Can we use SQL inside the Hibernate?
+8.Can we use SQL inside the Hibernate?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -313,7 +313,7 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 ------
 
 
-14. Explain the .hbm file?
+14.Explain the .hbm file?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -322,7 +322,7 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 
 <blockquote>
 
-- HBM is a short name for Hibernate Mapping. It is an xml file in which we define the mapping between pojo class to database table 	and pojo class variables to table columns.
+- HBM is a short name for Hibernate Mapping.It is an xml file in which we define the mapping between pojo class to database table 	and pojo class variables to table columns.
 
 </blockquote>
 
@@ -358,7 +358,7 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 
 <blockquote>
 
-- It is class and file. Using class, we can map entity class as below:
+- It is class and file.Using class, we can map entity class as below:
 ``` xml
    <mapping class=”entity class qualified name” />
 ```
@@ -385,12 +385,12 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 
 <blockquote>
 
-- Unlike some frameworks, you do not need to do anything special to your objects to allow them to persist via Hibernate. 
-- They can be Plain Old Java Objects (or POJO) objects. These objects can follow the JavaBeans conventions and provide setters and getters.
-- Hibernate will then use reflection to obtain the data required to persist the object. Example is below
+- Unlike some frameworks, you do not need to do anything special to your objects to allow them to persist via Hibernate.
+- They can be Plain Old Java Objects (or POJO) objects.These objects can follow the JavaBeans conventions and provide setters and getters.
+- Hibernate will then use reflection to obtain the data required to persist the object.Example is below
 
 ```
-Class Cls = ... ;
+Class Cls = ...;
 cls.getField("xyz").getAnnotation(ManyToMany.class).mappedBy
 ```
 
@@ -468,7 +468,7 @@ Yes, because all the methods of SessionFactory is synchronized so at a time it w
 
 <blockquote>
 
-- A Session is used to get a physical connection with a database. The Session object is lightweight and designed to be instantiated each time an interaction is needed with the database. Persistent objects are saved and retrieved through a Session object.
+- A Session is used to get a physical connection with a database.The Session object is lightweight and designed to be instantiated each time an interaction is needed with the database.Persistent objects are saved and retrieved through a Session object.
 - The session objects should not be kept open for a long time because they are not usually thread safe and they should be created and destroyed them as needed.
 
 
@@ -479,7 +479,7 @@ Yes, because all the methods of SessionFactory is synchronized so at a time it w
 ------
 
 
-22.	Write the code snippet that creates a hibernate session and stores an object to the database. Assume that the SessionFactory object is available with the variable sessionFactory.
+22.	Write the code snippet that creates a hibernate session and stores an object to the database.Assume that the SessionFactory object is available with the variable sessionFactory.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -535,7 +535,7 @@ What advantages I see in using @Annotations:
 
 <blockquote>
 
-Yes, we can use because JPA is a specification. So, we can use all its annotation with hibernate.
+Yes, we can use because JPA is a specification.So, we can use all its annotation with hibernate.
 
 </blockquote>
 
@@ -563,7 +563,7 @@ cfg=cfg.configure();
 - Here when you called configure() method It looks for hibernate-cfg.xml and for Hibernate mapping file filled with all the properties defined in the configuration documents and mapping documents.
 
 SessionFactory sc=cfg.buildSessionFactory();
-• SessionFactory object will be created once and will be used by multiple users for long time.  Because it is a thread safe class. 
+• SessionFactory object will be created once and will be used by multiple users for long time. Because it is a thread safe class.
 • Session Factory object is the factory for session objects.
 
 </blockquote>
@@ -581,7 +581,7 @@ SessionFactory sc=cfg.buildSessionFactory();
 
 <blockquote>
 
-- First level cache is a session level cache, and it is always associated with session level object. 
+- First level cache is a session level cache, and it is always associated with session level object.
 - Second level cache is session factory level cache, and it is available across all sessions.
 
 </blockquote>
@@ -600,8 +600,8 @@ SessionFactory sc=cfg.buildSessionFactory();
 
 <blockquote>
 
-- The class must not be declared final. No methods or persistent instance variables must be declared final. 
-- JPA implementations use proxies in front of your entities to manage for example: Lazy loading. As a final class cannot be extended, a proxy cannot be built.
+- The class must not be declared final.No methods or persistent instance variables must be declared final.
+- JPA implementations use proxies in front of your entities to manage for example: Lazy loading.As a final class cannot be extended, a proxy cannot be built.
 - The class must have a public or protected, no-argument constructor.
 - These kind of frameworks and others in order to create new objects use that is the reason why a no arg constructor is needed.
 
@@ -629,10 +629,10 @@ Being only accesible through accessor or business methods allow interception in 
 <blockquote>
 
 - Access strategies
-    As a JPA provider, hibernate can introspect both the entity attributes (instance fields) or the accessors (instance properties). By default, the placement of the @Id annotation gives the default access strategy. When placed on a field, Hibernate will assume field-based access. Place on the identifier getter, Hibernate will use property-based access.
+    As a JPA provider, hibernate can introspect both the entity attributes (instance fields) or the accessors (instance properties).By default, the placement of the @Id annotation gives the default access strategy.When placed on a field, Hibernate will assume field-based access.Place on the identifier getter, Hibernate will use property-based access.
 
 - Field-based access
-Example 1. Field-based access
+Example 1.Field-based access
 ```java
 @Entitypublic class Simple {
 
@@ -648,13 +648,13 @@ Example 1. Field-based access
     }}
 ```
 
-- When using field-based access, adding other entity-level methods is much more flexible because Hibernate won’t consider those part of the persistence state. To exclude a field from being part of the entity persistent state, the field must be marked with the @Transient annotation.
+- When using field-based access, adding other entity-level methods is much more flexible because Hibernate won’t consider those part of the persistence state.To exclude a field from being part of the entity persistent state, the field must be marked with the @Transient annotation.
 
-- Another advantage of using field-based access is that some entity attributes can be hidden from outside the entity. An example of such attribute is the entity @Version field, which must not be manipulated by the data access layer. With field-based access, we can simply omit the getter and the setter for this version field and hibernate can still leverage the optimistic concurrency control mechanism.
+- Another advantage of using field-based access is that some entity attributes can be hidden from outside the entity.An example of such attribute is the entity @Version field, which must not be manipulated by the data access layer.With field-based access, we can simply omit the getter and the setter for this version field and hibernate can still leverage the optimistic concurrency control mechanism.
 
 Property-based access
 
-Example 2. Property-based access
+Example 2.Property-based access
 
 ```java
 @Entitypublic class Simple {
@@ -670,7 +670,7 @@ Example 2. Property-based access
         this.id = id;
     }}
 ```
-When using property-based access, Hibernate uses the accessors for both reading and writing the entity state. Every other method that will be added to the entity (e.g. helper methods for synchronizing both ends of a bidirectional one-to-many association) will have to be marked with the @Transient annotation.
+When using property-based access, Hibernate uses the accessors for both reading and writing the entity state.Every other method that will be added to the entity (e.g.helper methods for synchronizing both ends of a bidirectional one-to-many association) will have to be marked with the @Transient annotation.
 
 </blockquote>
 
@@ -835,15 +835,15 @@ public class Task {
 <blockquote>
 
 - HQL is similar to SQL and is also case insensitive.
-- HQL and SQL both fire queries in a database. In the case of HQL, the queries are in
+- HQL and SQL both fire queries in a database.In the case of HQL, the queries are in
 the form of objects that are translated to SQL queries in the target database.
 - SQL works with tables and columns to manipulate the data stored in it.
 - HQL works with classes and their properties to finally be mapped to a table structure
 in a database.
-- HQL supports concepts like polymorphism, inheritance, association, etc. It is a
+- HQL supports concepts like polymorphism, inheritance, association, etc.It is a
 powerful and easy-to-learn language that makes SQL object oriented.
-- SQL lets you modify the data through insert, update, and delete queries. You can add
-tables, procedures, or views to your database. The permissions on these added objects
+- SQL lets you modify the data through insert, update, and delete queries.You can add
+tables, procedures, or views to your database.The permissions on these added objects
 can be changed.
 
 </blockquote>
@@ -862,10 +862,10 @@ can be changed.
 
 <blockquote>
 
-- A transaction simply represents a unit of work. In such case, if one step fails, the whole transaction fails (which is termed as atomicity). 		A transaction can be described by ACID properties (Atomicity, Consistency, Isolation and Durability).
+- A transaction simply represents a unit of work.In such case, if one step fails, the whole transaction fails (which is termed as atomicity).		A transaction can be described by ACID properties (Atomicity, Consistency, Isolation and Durability).
 
 - Transaction Interface in Hibernate:
-    In hibernate framework, we have Transaction interface that defines the unit of work. It maintains abstraction from the transaction implementation (JTA,JDBC).
+    In hibernate framework, we have Transaction interface that defines the unit of work.It maintains abstraction from the transaction implementation (JTA,JDBC).
 
     A transaction is associated with Session and instantiated by calling session.beginTransaction().
 
@@ -882,7 +882,7 @@ can be changed.
 
 - Example of Transaction Management in Hibernate:
 
-    In hibernate, it is better to roll back the transaction if any exception occurs, so that resources can be free. Let's see the example of transaction management in hibernate.
+    In hibernate, it is better to roll back the transaction if any exception occurs, so that resources can be free.Let's see the example of transaction management in hibernate.
 
 ```java
     	Session session = null;  

@@ -1,6 +1,6 @@
 ## Technical
 
-1. What is C#?
+1.What is C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -8,7 +8,7 @@
 
 <blockquote> 
     
-C# is a general-purpose, high-level multi-paradigm programming language. C# encompasses static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines.
+C# is a general-purpose, high-level multi-paradigm programming language.C# encompasses static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines.
 
 </blockquote>
 
@@ -16,7 +16,7 @@ C# is a general-purpose, high-level multi-paradigm programming language. C# enco
 
 ---
 
-2. What are nullable types in C#?
+2.What are nullable types in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -26,7 +26,7 @@ C# is a general-purpose, high-level multi-paradigm programming language. C# enco
 
 - C# provides special data types, the nullable types, to which you can assign a normal range of values as well as null values.
 
-- For example, we can store any value from -2,147,483,648 to 2,147,483,647 or null in a `Nullable<Int32>` variable. Similarly, we can assign true, false, or null in a `Nullable<bool>` variable.
+- For example, we can store any value from -2,147,483,648 to 2,147,483,647 or null in a `Nullable<Int32>` variable.Similarly, we can assign true, false, or null in a `Nullable<bool>` variable.
 
 </blockquote>
 
@@ -34,7 +34,7 @@ C# is a general-purpose, high-level multi-paradigm programming language. C# enco
 
 ---
 
-3. What are variables?
+3.What are variables?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -42,7 +42,7 @@ C# is a general-purpose, high-level multi-paradigm programming language. C# enco
 
 <blockquote>
 
-Variables are named memory locations (memory cells) which are used to store the program’s input and its computational results during program execution. As the name suggests, the value of a variable may change during the program execution.
+Variables are named memory locations (memory cells) which are used to store the program’s input and its computational results during program execution.As the name suggests, the value of a variable may change during the program execution.
 
 </blockquote>
 
@@ -50,7 +50,7 @@ Variables are named memory locations (memory cells) which are used to store the 
 
 ---
 
-4. What are dynamic type variables in C#?
+4.What are dynamic type variables in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -58,14 +58,14 @@ Variables are named memory locations (memory cells) which are used to store the 
 
 <blockquote> 
 
-We can store any type of value in the dynamic data type variable. Type checking for these types of variables takes place at run-time.
+We can store any type of value in the dynamic data type variable.Type checking for these types of variables takes place at run-time.
 
 </blockquote>
 </details>
 
 ---
 
-5. What are reserved words?
+5.What are reserved words?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -73,7 +73,7 @@ We can store any type of value in the dynamic data type variable. Type checking 
 
 <blockquote>
 
-Reserved words or keywords are words, which have predefined meanings. They have predefined uses and cannot be used or redefined for any other purpose in a programming language.
+Reserved words or keywords are words, which have predefined meanings.They have predefined uses and cannot be used or redefined for any other purpose in a programming language.
 
 **Examples**
  - IF
@@ -86,7 +86,7 @@ Reserved words or keywords are words, which have predefined meanings. They have 
 
 ---
 
-6. What are Loops?
+6.What are Loops?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -94,7 +94,7 @@ Reserved words or keywords are words, which have predefined meanings. They have 
 
 <blockquote>
 
-The loop is a structure which can repeat a set of statements up to a fixed number of times or until a certain criterion is satisfied. Name different types of loops.
+The loop is a structure which can repeat a set of statements up to a fixed number of times or until a certain criterion is satisfied.Name different types of loops.
 
 </blockquote>
 
@@ -102,7 +102,7 @@ The loop is a structure which can repeat a set of statements up to a fixed numbe
 
 ---
 
-7.  What are constants?
+7. What are constants?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -110,11 +110,11 @@ The loop is a structure which can repeat a set of statements up to a fixed numbe
 
 <blockquote>
 
-A constant is a quantity whose value cannot be changed. Unlike a variable, the value stored in a constant can’t be modified during program execution.
+A constant is a quantity whose value cannot be changed.Unlike a variable, the value stored in a constant can’t be modified during program execution.
 
-Numeric constants consist of integers, single precision, or double-precision numbers. Integer constants represent values that are counted and do not have a fractional part, e.g., +56, -678.
+Numeric constants consist of integers, single precision, or double-precision numbers.Integer constants represent values that are counted and do not have a fractional part, e.g., +56, -678.
 
-A string constant is a sequence of alphanumeric characters enclosed in double quotation marks. The maximum length of a string constant is 255 characters. For example, 'New York`.
+A string constant is a sequence of alphanumeric characters enclosed in double quotation marks.The maximum length of a string constant is 255 characters.For example, 'New York`.
 
 </blockquote>
 
@@ -122,7 +122,7 @@ A string constant is a sequence of alphanumeric characters enclosed in double qu
 
 ---
 
-8.  Define Operators.
+8. Define Operators.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -130,7 +130,7 @@ A string constant is a sequence of alphanumeric characters enclosed in double qu
 
 <blockquote>
 
-Operators are symbols which are used to perform certain operations on data. These include arithmetic, relational, logical, and assignment operators.
+Operators are symbols which are used to perform certain operations on data.These include arithmetic, relational, logical, and assignment operators.
 
 </blockquote>
 
@@ -138,7 +138,7 @@ Operators are symbols which are used to perform certain operations on data. Thes
 
 ---
 
-9.  What is an Array?
+9. What is an Array?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -146,9 +146,9 @@ Operators are symbols which are used to perform certain operations on data. Thes
 
 <blockquote>
 
-An array is a data structure that stores a fixed number of literal values (elements) of the same data type. Array elements are stored contiguously in the memory.
+An array is a data structure that stores a fixed number of literal values (elements) of the same data type.Array elements are stored contiguously in the memory.
 
-In C#, an array can be of three types: single-dimensional, multidimensional, and jagged array. 
+In C#, an array can be of three types: single-dimensional, multidimensional, and jagged array.
 
 </blockquote>
 
@@ -156,7 +156,7 @@ In C#, an array can be of three types: single-dimensional, multidimensional, and
 
 ---
 
-10. What is the syntax to declare a namespace in .NET?
+10.What is the syntax to declare a namespace in .NET?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -164,7 +164,7 @@ In C#, an array can be of three types: single-dimensional, multidimensional, and
 
 <blockquote>
 
-In .NET, the namespace keyword is used to declare a namespace in the code. The syntax for declaring a namespace in C# is:
+In .NET, the namespace keyword is used to declare a namespace in the code.The syntax for declaring a namespace in C# is:
 
 `namespace UserNameSpace;`
 
@@ -174,7 +174,7 @@ In .NET, the namespace keyword is used to declare a namespace in the code. The s
 
 ---
 
-11. What does a break statement do in the switch statement?
+11.What does a break statement do in the switch statement?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -182,7 +182,7 @@ In .NET, the namespace keyword is used to declare a namespace in the code. The s
 
 <blockquote>
 
-- The switch statement is a selection control statement that is used to handle multiple choices and transfer control to the case statements within its body. 
+- The switch statement is a selection control statement that is used to handle multiple choices and transfer control to the case statements within its body.
 
 - The following code snippet shows an example of the use of the switch statement in C#:
 
@@ -201,7 +201,7 @@ switch(choice) {
      break; 
      }
 ```
-In switch statements, the break statement is used at the end of a case statement. The break statement is mandatory in C# and it avoids the fall-through of one case statement to another.
+In switch statements, the break statement is used at the end of a case statement.The break statement is mandatory in C# and it avoids the fall-through of one case statement to another.
 
 </blockquote>
 
@@ -209,7 +209,7 @@ In switch statements, the break statement is used at the end of a case statement
 
 ---
 
-12. Can you briefly explain the characteristics of value-type variables that are supported in the C# programming language?
+12.Can you briefly explain the characteristics of value-type variables that are supported in the C# programming language?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -217,7 +217,7 @@ In switch statements, the break statement is used at the end of a case statement
 
 <blockquote>
 
-The variables that are based on value types directly contain values. The characteristics of value-type variables that are supported in C# programming language are as follows:
+The variables that are based on value types directly contain values.The characteristics of value-type variables that are supported in C# programming language are as follows:
 
 - All value-type variables derive implicitly from the `System.ValueTypeclass`.
 - We cannot derive any new type from a value type.
@@ -232,7 +232,7 @@ The variables that are based on value types directly contain values. The charact
 
 ---
 
-13. What is a parameter?
+13.What is a parameter?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -240,7 +240,7 @@ The variables that are based on value types directly contain values. The charact
 
 <blockquote>
 
-A parameter is a special kind of variable, which is used in a function to provide a piece of information or input to a caller function. These inputs are called arguments. In C#, the different types of parameters are as follows:
+A parameter is a special kind of variable, which is used in a function to provide a piece of information or input to a caller function.These inputs are called arguments.In C#, the different types of parameters are as follows:
 - Value type 
 - Reference type 
 - Output type 
@@ -252,7 +252,7 @@ A parameter is a special kind of variable, which is used in a function to provid
 
 ---
 
-14. Can you briefly explain the characteristics of reference-type variables that are supported in the C# programming language?
+14.Can you briefly explain the characteristics of reference-type variables that are supported in the C# programming language?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -260,7 +260,7 @@ A parameter is a special kind of variable, which is used in a function to provid
 
 <blockquote>
 
-The variables are based on reference types of store references to the actual data. The keywords that are used to declare reference types are:
+The variables are based on reference types of store references to the actual data.The keywords that are used to declare reference types are:
 - **Class** - Refers to the primary building block for the programs, which is used to encapsulate variables and methods into a single unit.
 - **Interface** - Contains only the signatures of methods, properties, events, or indexers.
 - **Delegate** - Refers to a reference type that is used to encapsulate a named or anonymous method.
@@ -271,7 +271,7 @@ The variables are based on reference types of store references to the actual dat
 
 ---
 
-15. What are the different types of literals in C#?
+15.What are the different types of literals in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -296,7 +296,7 @@ The different types of literals in C# are:
 
 ---
 
-16. What is the difference between “continue” and “break” statements in C#?
+16.What is the difference between “continue” and “break” statements in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -312,7 +312,7 @@ Using the `break` statement, we can jump out of a loop whereas by using the `con
 
 ---
 
-17. What’s the difference between the `System.Array.CopyTo()` and `System.Array.Clone()`?
+17.What’s the difference between the `System.Array.CopyTo()` and `System.Array.Clone()`?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -320,7 +320,7 @@ Using the `break` statement, we can jump out of a loop whereas by using the `con
 
 <blockquote>
 
-The difference is - `System.Array.CopyTo()` requires a destination array to exist before and it must be capable to hold all the elements in the source array from the index that is specified to copy from the source array. On the other hand, `System.Array.Clone()` method does not require the destination array to exist as it creates a new one from scratch.
+The difference is - `System.Array.CopyTo()` requires a destination array to exist before and it must be capable to hold all the elements in the source array from the index that is specified to copy from the source array.On the other hand, `System.Array.Clone()` method does not require the destination array to exist as it creates a new one from scratch.
 
 </blockquote>
 
@@ -328,7 +328,7 @@ The difference is - `System.Array.CopyTo()` requires a destination array to exis
 
 ---
 
-18. What is the difference between `ToString()` and `Convert.ToString()`?
+18.What is the difference between `ToString()` and `Convert.ToString()`?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -344,7 +344,7 @@ The difference is - `System.Array.CopyTo()` requires a destination array to exis
 
 ---
 
-19.  What is the Difference between `int.Parse()` and `Convert.ToInt32()`?
+19. What is the Difference between `int.Parse()` and `Convert.ToInt32()`?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -352,7 +352,7 @@ The difference is - `System.Array.CopyTo()` requires a destination array to exis
 
 <blockquote>
 
-`int.Parse()`  will convert only string to int.  `Convert.ToInt32()` is used to convert any datatype to an int type.
+`int.Parse()`  will convert only string to int. `Convert.ToInt32()` is used to convert any datatype to an int type.
 
 </blockquote>
 
@@ -360,7 +360,7 @@ The difference is - `System.Array.CopyTo()` requires a destination array to exis
 
 ---
 
-20. What is the difference between `typeOf()` and `sizeOf()`?
+20.What is the difference between `typeOf()` and `sizeOf()`?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -378,7 +378,7 @@ The difference is - `System.Array.CopyTo()` requires a destination array to exis
 
 ---
 
-21. What is widening and narrowing?
+21.What is widening and narrowing?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -402,7 +402,7 @@ The narrowing is used to convert longer datatypes to smaller Datatype
 
 ---
 
-22. How to declare an array in C#?
+22.How to declare an array in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -427,7 +427,7 @@ The narrowing is used to convert longer datatypes to smaller Datatype
 
 ---
 
-23. What are the different types of control statements in C#?
+23.What are the different types of control statements in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -435,7 +435,7 @@ The narrowing is used to convert longer datatypes to smaller Datatype
 
 <blockquote>
 
-There are generally considered to be three main types of control statements, each serving different purposes. These include:
+There are generally considered to be three main types of control statements, each serving different purposes.These include:
 
 **Selection statements**, which enable us to branch to different sections of code.
 **Iteration statements**, which enable us to loop through connections or perform the same series of operations repeatedly until a specified condition is met.
@@ -447,7 +447,7 @@ There are generally considered to be three main types of control statements, eac
 
 ---
 
-24. Can u differentiate String and StringBuilder in C#?
+24.Can u differentiate String and StringBuilder in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -455,7 +455,7 @@ There are generally considered to be three main types of control statements, eac
 
 <blockquote>
 
-A string object is immutable, meaning that it cannot be changed after it’s created. Any operation that tries to modify the string object will simply create a new string object. On the other hand, a string builder object is mutable and can be modified.
+A string object is immutable, meaning that it cannot be changed after it’s created.Any operation that tries to modify the string object will simply create a new string object.On the other hand, a string builder object is mutable and can be modified.
 
 </blockquote>
 
@@ -463,7 +463,7 @@ A string object is immutable, meaning that it cannot be changed after it’s cre
 
 ---
 
-25. What are Jagged Arrays?
+25.What are Jagged Arrays?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -471,7 +471,7 @@ A string object is immutable, meaning that it cannot be changed after it’s cre
 
 <blockquote>
 
-The Array which comprises elements of a typed array is called a Jagged Array. The elements in Jagged Arrays can be of various dimensions and sizes.
+The Array which comprises elements of a typed array is called a Jagged Array.The elements in Jagged Arrays can be of various dimensions and sizes.
 
 </blockquote>
 
@@ -479,7 +479,7 @@ The Array which comprises elements of a typed array is called a Jagged Array. Th
 
 ---
 
-26.  What is the difference between `out` and `ref` parameters?
+26. What is the difference between `out` and `ref` parameters?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -487,7 +487,7 @@ The Array which comprises elements of a typed array is called a Jagged Array. Th
 
 <blockquote>
 
-When an argument is passed as a `ref`, it must be initialized before it can be passed to the method. An `out` parameter, on the other hand, need not be initialized before passing to a method.
+When an argument is passed as a `ref`, it must be initialized before it can be passed to the method.An `out` parameter, on the other hand, need not be initialized before passing to a method.
 
 </blockquote>
 
@@ -495,7 +495,7 @@ When an argument is passed as a `ref`, it must be initialized before it can be p
 
 ---
 
-27. What is meant by garbage collection in C#?
+27.What is meant by garbage collection in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -503,7 +503,7 @@ When an argument is passed as a `ref`, it must be initialized before it can be p
 
 <blockquote> 
 
-In C#, garbage collection is the process of managing memory in an application. The garbage collector automatically disposes of memory that is no longer used to make memory available for new allocations.
+In C#, garbage collection is the process of managing memory in an application.The garbage collector automatically disposes of memory that is no longer used to make memory available for new allocations.
 
 </blockquote>
 
@@ -511,7 +511,7 @@ In C#, garbage collection is the process of managing memory in an application. T
     
 ---
 
-28. What is Stream?
+28.What is Stream?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -519,7 +519,7 @@ In C#, garbage collection is the process of managing memory in an application. T
 
 <blockquote> 
     
-A stream is a sequence of bytes travelling from a source to a destination over a communication path. There are two main streams: the input stream and the output stream. The input stream is used for reading data from the file (read operation) and the output stream is used for writing into the file (write operation). There are two types of streams used:
+A stream is a sequence of bytes travelling from a source to a destination over a communication path.There are two main streams: the input stream and the output stream.The input stream is used for reading data from the file (read operation) and the output stream is used for writing into the file (write operation).There are two types of streams used:
 
 - **Input stream**: This stream is used to read data from a file, which is known as a read operation.
 - **Output stream**: This stream is used to write data into a file, which is known as a write operation.
@@ -530,7 +530,7 @@ A stream is a sequence of bytes travelling from a source to a destination over a
 
 ---
 
-29. Can you brief us on the `System.IO` namespace in C#?
+29.Can you brief us on the `System.IO` namespace in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -538,9 +538,9 @@ A stream is a sequence of bytes travelling from a source to a destination over a
 
 <blockquote> 
 
-In C#, the `System.IO` namespace contains the required classes which are used to handle the input and output streams and provide information about file and directory structure. The parent class of file processing is Stream. Stream is an abstract class, which is used as the parent of the classes that implement the necessary operations.
+In C#, the `System.IO` namespace contains the required classes which are used to handle the input and output streams and provide information about file and directory structure.The parent class of file processing is Stream.Stream is an abstract class, which is used as the parent of the classes that implement the necessary operations.
 
-**Note**: The FileIno, DirectoryInfo, and DriveInfo classes have instance methods. File, Directory, and Path classes have static methods.
+**Note**: The FileIno, DirectoryInfo, and DriveInfo classes have instance methods.File, Directory, and Path classes have static methods.
 
 </blockquote>
 
@@ -548,7 +548,7 @@ In C#, the `System.IO` namespace contains the required classes which are used to
 
 ---
 
-30. What is FileStream Class in C#?
+30.What is FileStream Class in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -556,7 +556,7 @@ In C#, the `System.IO` namespace contains the required classes which are used to
 
 <blockquote> 
 
-- The FileStream class in C# provides a stream for file operations. It can be used to perform both synchronous and asynchronous read and write operations. With the help of FileStream class, we can easily read and write data into files.
+- The FileStream class in C# provides a stream for file operations.It can be used to perform both synchronous and asynchronous read and write operations.With the help of FileStream class, we can easily read and write data into files.
 
 - To use FileStream class in C#, first of all, we need to include the System.IO namespace and then we need to create an instance of the FileStream object to create a new file or open an existing file.
 

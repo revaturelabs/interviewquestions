@@ -1,6 +1,6 @@
 ## Technical
 
-1. What is a Collection in C#?
+1.What is a Collection in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -9,8 +9,8 @@
 <blockquote> 
     
 - The Collections in C# are a set of predefined classes that are present in the `System.Collections` namespace that provides greater capabilities and functionalities.
-- The collections in C# are classes that represent a group of objects. With the help of C# Collections, we can perform different types of operations on objects such as Store, Update, Delete, Retrieve, Search, and Sort objects, etc. 
-- All the data structure work can be performed by collections in C#. 
+- The collections in C# are classes that represent a group of objects.With the help of C# Collections, we can perform different types of operations on objects such as Store, Update, Delete, Retrieve, Search, and Sort objects, etc.
+- All the data structure work can be performed by collections in C#.
 
 </blockquote>
 
@@ -18,7 +18,7 @@
 
 ---
 
-2. Do you know the types of collections in C#?
+2.Do you know the types of collections in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -26,7 +26,7 @@
 
 <blockquote> 
 
-There are 3 ways to work with collections. The three namespaces are,
+There are 3 ways to work with collections.The three namespaces are,
 
 - `System.Collections` classes.
 - `System.Collections.Generic` classes.
@@ -38,7 +38,7 @@ There are 3 ways to work with collections. The three namespaces are,
 
 ---
 
-3. Can you brief on Non-Generic Collection classes in C#?
+3.Can you brief on Non-Generic Collection classes in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -46,7 +46,7 @@ There are 3 ways to work with collections. The three namespaces are,
 
 <blockquote> 
 
-The Non-Generic collection classes in C# are defined under `System.Collections`classes which operate on objects, and hence can handle any type of data, but not in a safe-type manner. The `System.Collections` namespace contains the following classes:
+The Non-Generic collection classes in C# are defined under `System.Collections`classes which operate on objects, and hence can handle any type of data, but not in a safe-type manner.The `System.Collections` namespace contains the following classes:
 
 **ArrayList**: It Implements the `System.Collections.IList` interface using an array whose size is dynamically increased as required.
 
@@ -64,7 +64,7 @@ The Non-Generic collection classes in C# are defined under `System.Collections`c
 
 ---
 
-4. Can you elaborate on Generic Collection Classes in C#?
+4.Can you elaborate on Generic Collection Classes in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -72,15 +72,15 @@ The Non-Generic collection classes in C# are defined under `System.Collections`c
 
 <blockquote> 
 
-It provides a generic implementation of standard data structures like linked lists, stacks, queues, and dictionaries. These collection classes are type-safe because they are generic means only those items that are type-compatible with the type of the collection can be stored in a generic collection; it eliminates accidental type mismatches. The `System.Collections.Generic` namespace has the following classes:
+It provides a generic implementation of standard data structures like linked lists, stacks, queues, and dictionaries.These collection classes are type-safe because they are generic means only those items that are type-compatible with the type of the collection can be stored in a generic collection; it eliminates accidental type mismatches.The `System.Collections.Generic` namespace has the following classes:
 
-`List<T>`: It represents a strongly typed list of objects that can be accessed by index. Provides methods to search, sort, and manipulate lists.
+`List<T>`: It represents a strongly typed list of objects that can be accessed by index.Provides methods to search, sort, and manipulate lists.
 
 `Stack<T>`: It represents a variable size last-in-first-out (LIFO) collection of instances of the same specified type.
 
 `Queue<T>`: It represents a first-in, first-out collection of objects.
 
-`HashSet<T>`: It represents a set of values. It removes duplicate elements from the collection.
+`HashSet<T>`: It represents a set of values.It removes duplicate elements from the collection.
 
 `Dictionary<TKey, TValue>`: It represents a collection of keys and values.
 
@@ -98,7 +98,7 @@ It provides a generic implementation of standard data structures like linked lis
 
 ---
 
-5. Do you know about Concurrent Collection classes in C#?
+5.Do you know about Concurrent Collection classes in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -106,7 +106,7 @@ It provides a generic implementation of standard data structures like linked lis
 
 <blockquote> 
 
-It provides various threads-safe collection classes that are used in place of the corresponding types in the `System.Collections` and `System.Collections.Generic` namespaces, when multiple threads are accessing the collection simultaneously. The `System.Collections.Concurrent` namespace provides classes for thread-safe operations. Now multiple threads will not create problems for accessing the collection items. The `System.Collections.Concurrent` namespace has the following classes:
+It provides various threads-safe collection classes that are used in place of the corresponding types in the `System.Collections` and `System.Collections.Generic` namespaces, when multiple threads are accessing the collection simultaneously.The `System.Collections.Concurrent` namespace provides classes for thread-safe operations.Now multiple threads will not create problems for accessing the collection items.The `System.Collections.Concurrent` namespace has the following classes:
 
 `BlockingCollection<T>`: It provides blocking and bounding capabilities for thread-safe collections that implement `System.Collections.Concurrent.IProducerConsumerCollection`.
 
@@ -124,7 +124,7 @@ It provides various threads-safe collection classes that are used in place of th
 
 ---
 
-6. What is the difference between an Array and an Array List in C#?
+6.What is the difference between an Array and an Array List in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -132,8 +132,8 @@ It provides various threads-safe collection classes that are used in place of th
 
 <blockquote> 
 
-- The ArrayList collection in C# is very much like the Arrays data type. The major difference between them is the **dynamic nature** of the non-generic collection ArrayList. 
-- For arrays, we need to define the size i.e. the number of elements that the array can hold at the time of array declaration. But in the case of the ArrayList collection in C#, this does not need to be done beforehand. Elements can be added or removed from the Array List collection at any point in time.
+- The ArrayList collection in C# is very much like the Arrays data type.The major difference between them is the **dynamic nature** of the non-generic collection ArrayList.
+- For arrays, we need to define the size i.e.the number of elements that the array can hold at the time of array declaration.But in the case of the ArrayList collection in C#, this does not need to be done beforehand.Elements can be added or removed from the Array List collection at any point in time.
 
 </blockquote>
 
@@ -141,7 +141,7 @@ It provides various threads-safe collection classes that are used in place of th
 
 ---
 
-7. Do we face any problems with Array and ArrayList Collection in C#? 
+7.Do we face any problems with Array and ArrayList Collection in C#? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -149,9 +149,9 @@ It provides various threads-safe collection classes that are used in place of th
 
 <blockquote> 
 
-In the case of Array and ArrayList in C#, we access the elements from the collection using the index position. The index position of the elements starts from zero (0) to the number of elements – 1. But it is very difficult for us to remember the index position of the element to access the values.
+In the case of Array and ArrayList in C#, we access the elements from the collection using the index position.The index position of the elements starts from zero (0) to the number of elements – 1.But it is very difficult for us to remember the index position of the element to access the values.
 
-**For example**, let us say we have an employee array that contains the name, address, mobile, dept no, email id, employee id, salary, location, etc. Now if I want to know the email id or dept number of the employee then it is very difficult for me to use the index position.
+**For example**, let us say we have an employee array that contains the name, address, mobile, dept no, email id, employee id, salary, location, etc.Now if I want to know the email id or dept number of the employee then it is very difficult for me to use the index position.
 
 </blockquote>
 
@@ -159,7 +159,7 @@ In the case of Array and ArrayList in C#, we access the elements from the collec
 
 ---
 
-8. What is a HashTable in C#?
+8.What is a HashTable in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -167,9 +167,9 @@ In the case of Array and ArrayList in C#, we access the elements from the collec
 
 <blockquote> 
 
-The Hashtable in C# is a Non-Generic Collection that stores the element in the form of “Key-Value Pairs”. The data in the Hashtable are organized based on the hash code of the key. The key can be of any data type. Once we created the Hashtable collection, then we can access the elements by using the keys. The Hashtable class comes under the `System.Collections` namespace.
+The Hashtable in C# is a Non-Generic Collection that stores the element in the form of “Key-Value Pairs”.The data in the Hashtable are organized based on the hash code of the key.The key can be of any data type.Once we created the Hashtable collection, then we can access the elements by using the keys.The Hashtable class comes under the `System.Collections` namespace.
 
-The Hashtable computes a hash code for each key. Then it uses that hash code to look up the elements very quickly which increases the performance of the application.
+The Hashtable computes a hash code for each key.Then it uses that hash code to look up the elements very quickly which increases the performance of the application.
 
 </blockquote>
 
@@ -177,7 +177,7 @@ The Hashtable computes a hash code for each key. Then it uses that hash code to 
 
 ---
 
-9. How the HashTable works in C#?
+9.How the HashTable works in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -185,7 +185,7 @@ The Hashtable computes a hash code for each key. Then it uses that hash code to 
 
 <blockquote> 
 
-When we add elements to a hashtable like string, int, or complex types, then it converts the key data which can be a string, integer, numeric, or anything in the world into simple hash integer values so that lookup can be easy. Once the conversion is done, then the data will be added to the hashtable. collection.
+When we add elements to a hashtable like string, int, or complex types, then it converts the key data which can be a string, integer, numeric, or anything in the world into simple hash integer values so that lookup can be easy.Once the conversion is done, then the data will be added to the hashtable.collection.
 
 **Note**: The performance of the hashtable is less as compared to the ArrayList because of this key conversion (converting the key to an integer hashcode).
 
@@ -195,7 +195,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 ---
 
-10. Can you differentiate ArrayList and Hashtable in C#?
+10.Can you differentiate ArrayList and Hashtable in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -203,9 +203,9 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 <blockquote> 
 
-**Lookup**: ArrayList can be only looked up via the index number which is generated internally. Hashtable can be looked up by a custom-defined key.
+**Lookup**: ArrayList can be only looked up via the index number which is generated internally.Hashtable can be looked up by a custom-defined key.
 **Performance**: ArrayList is faster than hashtable because of extra tasks performed in hashtables i.e., hashing.
-**Scenario**: If you want a key lookup use hashtable. If you just want to add and browser through a collection, then use ArrayList.
+**Scenario**: If you want a key lookup use hashtable.If you just want to add and browser through a collection, then use ArrayList.
 
 </blockquote>
 
@@ -213,7 +213,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 ---
 
-11. Can you brief me on the Stack Collection class in C#?
+11.Can you brief me on the Stack Collection class in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -225,7 +225,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 -By using the `Push()` method, we can add elements to a stack.
 - The `Pop()` method will remove and return the topmost element from the stack.
 - The `Peek()` method will return the last (top-most) inserted element of the stack, and it won’t delete the element from the stack.
-- The capacity of a Stack is the number of elements the Stack can hold. As we add elements to a Stack, the capacity of the stack is automatically increased.
+- The capacity of a Stack is the number of elements the Stack can hold.As we add elements to a Stack, the capacity of the stack is automatically increased.
 - The Stack Collection in C# allows both null and duplicate values.
 
 </blockquote>
@@ -234,7 +234,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 ---
 
-12. Can you brief me on the Queue Collection class in C#?
+12.Can you brief me on the Queue Collection class in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -253,7 +253,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 ---
 
-13. When to Use Non-Generic SortedList Collection in C#?
+13.When to Use Non-Generic SortedList Collection in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -261,8 +261,8 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 <blockquote> 
 
-- The Non-Generic SortedList Collection is a powerful tool for performing quick manipulation of key-value data in an orderly manner. But there are certain scenarios where this class may not be suitable. For example, by its nature, a SortedList must always be sorted. 
-- Therefore, whenever we add a new key-value pair to the list or remove a key-value pair from the SortedList, then it must sort itself to ensure that all elements are in the right order. This becomes more expensive as we increase the number of elements in our SortedList.
+- The Non-Generic SortedList Collection is a powerful tool for performing quick manipulation of key-value data in an orderly manner.But there are certain scenarios where this class may not be suitable.For example, by its nature, a SortedList must always be sorted.
+- Therefore, whenever we add a new key-value pair to the list or remove a key-value pair from the SortedList, then it must sort itself to ensure that all elements are in the right order.This becomes more expensive as we increase the number of elements in our SortedList.
 
 **Note:** We should only use SortedList when we want to handle smaller collections that need to be sorted at all times.
 
@@ -272,7 +272,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 ---
 
-14. What is Generics in C#? Why do we need Generics in C#?
+14.What is Generics in C#? Why do we need Generics in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -280,7 +280,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 <blockquote> 
 
-- The Generics allow us to define classes and methods which are decoupled from the data type otherwise we can also say that the Generics allow us to create classes using angular brackets specifying the data type of its members. At compilation time, these angular brackets are going to be replaced with some specific data types. In C#, the Generics can be applied to:
+- The Generics allow us to define classes and methods which are decoupled from the data type otherwise we can also say that the Generics allow us to create classes using angular brackets specifying the data type of its members.At compilation time, these angular brackets are going to be replaced with some specific data types.In C#, the Generics can be applied to:
 
 - Interface
 - Abstract class
@@ -297,7 +297,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 ---
 
-15. Can you brief me on Generic Dictionary Collection Class?
+15.Can you brief me on Generic Dictionary Collection Class?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -317,7 +317,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 ---
 
-16. Can you differentiate List and Dictionary in C#?
+16.Can you differentiate List and Dictionary in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -326,7 +326,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 <blockquote> 
 
 - Both lists and dictionaries belong to Generics collections that are used to store collections of data.
-- Both Dictionary `<TKey, TValue>` and List `<T>` are similar both have random access data structures on top of the .NET framework. 
+- Both Dictionary `<TKey, TValue>` and List `<T>` are similar both have random access data structures on top of the .NET framework.
 - The Dictionary is based on a hash table which means it uses a hash lookup, which is an efficient algorithm to look up things, on the other hand, a list, has to go and check element by element until it finds the result from the beginning.
 - When comparing with the List data structure, the dictionary always has a fixed lookup time.
 
@@ -336,7 +336,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 ---
 
-17. What is the ForEach loop in C#?
+17.What is the ForEach loop in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -344,9 +344,9 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 <blockquote> 
 
-- The foreach loop in C# is used to iterate over the elements of a collection. Here, the collection may be an array or a list or a dictionary, etc. As per the name i.e. foreach, it executes the loop body for each element present in the array or collection.
+- The foreach loop in C# is used to iterate over the elements of a collection.Here, the collection may be an array or a list or a dictionary, etc.As per the name i.e.foreach, it executes the loop body for each element present in the array or collection.
 
-- In C#, the foreach loop iterates collection types such as Array, ArrayList, List, Hashtable, Dictionary, etc. It can be used with any type that implements the `IEnumerable` interface.
+- In C#, the foreach loop iterates collection types such as Array, ArrayList, List, Hashtable, Dictionary, etc.It can be used with any type that implements the `IEnumerable` interface.
 
 **Syntax**:
 
@@ -363,7 +363,7 @@ foreach(datatype var_name in collection_variable)
 
 ---
 
-18. Can you brief us on BlockingCollection class in C#?
+18.Can you brief us on BlockingCollection class in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 

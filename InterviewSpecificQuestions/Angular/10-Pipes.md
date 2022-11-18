@@ -1,4 +1,4 @@
-1. What are Pipes in angular? Explain with an example. 
+1.What are Pipes in angular? Explain with an example.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -6,16 +6,16 @@
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-Pipes provide a way to transform values in an Angular template. Pipes are used with a Pipe (`|`) character, and take integers, strings, arrays, and dates as input and return a desired formatted output which can be displayed in the browser.
+Pipes provide a way to transform values in an Angular template.Pipes are used with a Pipe (`|`) character, and take integers, strings, arrays, and dates as input and return a desired formatted output which can be displayed in the browser.
     
-For example, a Date object shows the date in this format: `Sat Aug 03 2019 19:48:11 GMT+0530 (India Standard Time)` which is not easy for normal users to understand. It’s better to have the date in this format `Saturday, 03 Aug 2019 07:50 PM`. This can be achieved using pipes.
+For example, a Date object shows the date in this format: `Sat Aug 03 2019 19:48:11 GMT+0530 (India Standard Time)` which is not easy for normal users to understand.It’s better to have the date in this format `Saturday, 03 Aug 2019 07:50 PM`.This can be achieved using pipes.
 
 </blockquote>
 </details>
   
 ---
  
-2. How you can transform any strings, currency amounts, dates, and other data for display?
+2.How you can transform any strings, currency amounts, dates, and other data for display?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -30,7 +30,7 @@ Using Pipes, we can transform any strings, currency amounts, dates, and other da
   
 ---
  
-3. What happens if I decorate the class with a `@Pipe` decorator?
+3.What happens if I decorate the class with a `@Pipe` decorator?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -40,14 +40,14 @@ Using Pipes, we can transform any strings, currency amounts, dates, and other da
 
 If we want to create a custom pipe in angular, we need to annotate the class with the `@Pipe` decorator.
 
-The `@Pipe` decorator has a name property, which is used to specify the name of the pipe. 
+The `@Pipe` decorator has a name property, which is used to specify the name of the pipe.
   
 </blockquote>
 </details>
   
 ---
  
-4. What do you get from the below code?
+4.What do you get from the below code?
 ```ts
 import { Pipe, PipeTransform } from '@angular/core';
 @Pipe({
@@ -77,7 +77,7 @@ export class FilterPipe implements PipeTransform {
 ---
  
 
-5. Can we create our pipe in angular? If so, how?
+5.Can we create our pipe in angular? If so, how?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -86,9 +86,9 @@ export class FilterPipe implements PipeTransform {
 <summary><b>Show Answer</b></summary>
 <blockquote>
   
- Yes, we can our own pipe in angular. 
+ Yes, we can our own pipe in angular.
   
-**For example:** we create a custom pipe to get the first character in a given string, by running the `ng g pipe firstChar` command in the terminal. The CLI creates 2 files - `first-char.pipe.spec.ts` and `first-char.pipe.ts` under the _src/app_ folder and updates the `app.module.ts` file.
+**For example:** we create a custom pipe to get the first character in a given string, by running the `ng g pipe firstChar` command in the terminal.The CLI creates 2 files - `first-char.pipe.spec.ts` and `first-char.pipe.ts` under the _src/app_ folder and updates the `app.module.ts` file.
 
 In the `first-char.pipe.ts` file, we write the logic for returning the first character in a given string.
   
@@ -102,7 +102,7 @@ export class FirstCharPipe implements PipeTransform {
   }
 }  
 ```
-And, we can use any template file. For example,  in the `app.component.ts` file,
+And, we can use any template file.For example,  in the `app.component.ts` file,
   
 ```ts
 {{ "Hello World" | firstChar}}  
@@ -113,7 +113,7 @@ And, we can use any template file. For example,  in the `app.component.ts` file,
   
 ---
  
-6. Design the angular application to print the current date in this format "MM/dd/yy".
+6.Design the angular application to print the current date in this format "MM/dd/yy".
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -121,7 +121,7 @@ And, we can use any template file. For example,  in the `app.component.ts` file,
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-We can use date pipe to date in this format "MM/dd/yy". Also, we can get the current date using `Date. now()`.
+We can use date pipe to date in this format "MM/dd/yy".Also, we can get the current date using `Date.now()`.
 
 ![image](https://user-images.githubusercontent.com/70228962/186723294-69118376-7c4a-48e5-966f-c8cd0ba50954.png)
 
@@ -132,7 +132,7 @@ We can use date pipe to date in this format "MM/dd/yy". Also, we can get the cur
   
 ---
  
-7. Design the angular application to get a sentence from the user and print the count of words in the given sentence.
+7.Design the angular application to get a sentence from the user and print the count of words in the given sentence.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -140,9 +140,9 @@ We can use date pipe to date in this format "MM/dd/yy". Also, we can get the cur
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-1. Create an angular application by running `ng new myapp` command 
-2. Create a custom pipe to count words by running the `ng g pipe wordcount` command
-3. In the `wordcount.pipe.ts` file, write the logic for word count
+1.Create an angular application by running `ng new myapp` command 
+2.Create a custom pipe to count words by running the `ng g pipe wordcount` command
+3.In the `wordcount.pipe.ts` file, write the logic for word count
 ```ts
 import { Pipe, PipeTransform } from '@angular/core';
 @Pipe({   name: 'wordcount' })
@@ -152,14 +152,14 @@ export class WordcountPipe implements PipeTransform {
   }
 }
 ```
-4. In `app.component.html`, get the sentence and use the `wordcount` pipe. Also, we have to import `FormsModule` in the `app.module.ts` and create a `sentence` variable of type `string` like `sentence !: string` in the `app.component.ts`.
+4.In `app.component.html`, get the sentence and use the `wordcount` pipe.Also, we have to import `FormsModule` in the `app.module.ts` and create a `sentence` variable of type `string` like `sentence !: string` in the `app.component.ts`.
     
 ```ts
 <p>Enter a sentence: <input type="text" [(ngModel)]="sentence"> <br/></p>
 
 {{ sentence | wordcount}}
 ```
-5. Output will be
+5.Output will be
     
 ![image](https://user-images.githubusercontent.com/70228962/186726853-a751b72f-faf3-4a00-ad1a-5b43176b0ae5.png)
 
@@ -168,7 +168,7 @@ export class WordcountPipe implements PipeTransform {
   
 ---
  
-8. Design the angular application to print the list of groceries items followed by their price in rupees
+8.Design the angular application to print the list of groceries items followed by their price in rupees
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -204,7 +204,7 @@ The output will be like
   
 ---
  
-9. How can slice the strings?
+9.How can slice the strings?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -218,27 +218,27 @@ The output will be like
 <!-- output: 'defg' -->
 ```
 
-We have a slice pipe in angular to slice the strings. Here, a number is given per character to our input string to understand the start and end index. The index starts from 0.
+We have a slice pipe in angular to slice the strings.Here, a number is given per character to our input string to understand the start and end index.The index starts from 0.
     
 ```
  0   1   2   3   4   5   6   7   8   9   10 
  |   |   |   |   |   |   |   |   |   |   |    
  a   b   c   d   e   f   g   h   i   j   k
  ```
-In our example, we have the following indexes. 
+In our example, we have the following indexes.
     
 start = 3
     
 end = 7
     
-Slice pipe will return substring starting from index 3 i.e character d and will include all characters before index 7 i.e up to g. The character at the end index will not be included in the output substring.
+Slice pipe will return substring starting from index 3 i.e character d and will include all characters before index 7 i.e up to g.The character at the end index will not be included in the output substring.
 
 </blockquote>
 </details>
   
 ---
  
-10. List some of the built-in pipes in angular. 
+10.List some of the built-in pipes in angular.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -279,7 +279,7 @@ Some of the built-in pipes are:
   
 ---
 
-11. Design the angular application to print the user's birthday in this format "MAY 19, 1997".
+11.Design the angular application to print the user's birthday in this format "MAY 19, 1997".
  
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -287,8 +287,8 @@ Some of the built-in pipes are:
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-1. Create an angular application by running `ng new myapp` command 
-2. In `app.component.html`, get the user's birthdate. Also, import `FormsModule` in the `app.module.ts` and create a `birthdate` variable of type `number` like `birthday !: number;` in the `app.component.ts`.
+1.Create an angular application by running `ng new myapp` command 
+2.In `app.component.html`, get the user's birthdate.Also, import `FormsModule` in the `app.module.ts` and create a `birthdate` variable of type `number` like `birthday !: number;` in the `app.component.ts`.
  ```html
  <p>Enter your birthday: <input type="date" [(ngModel)]="birthday"> <br/></p>
 
@@ -296,14 +296,14 @@ Some of the built-in pipes are:
 <!-- OUTPUT Date Of birth : MAY 19, 1997 -->  
  ```
    
- Here we're chaining pipes, chaining the `date` pipe and `uppercase` pipe. If, we just have only date pipe `{{ birthday | date }}` the output will be like `Aug 3, 2022`. Since the excepted output has Month is in uppercase, there is a need to transform month to uppercase. so will chain the uppercase pipe after the date pipe. 
+ Here we're chaining pipes, chaining the `date` pipe and `uppercase` pipe.If, we just have only date pipe `{{ birthday | date }}` the output will be like `Aug 3, 2022`.Since the excepted output has Month is in uppercase, there is a need to transform month to uppercase.so will chain the uppercase pipe after the date pipe.
 
 </blockquote>
 </details>
   
 ---
 
-12. What is the use of `PipeTransform` in angular?
+12.What is the use of `PipeTransform` in angular?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -311,7 +311,7 @@ Some of the built-in pipes are:
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-`PipeTransform` is an interface that is implemented by pipes to perform a transformation. Angular invokes the `transform` method with the value of a binding as the first argument, and any parameters as the second argument in list form.
+`PipeTransform` is an interface that is implemented by pipes to perform a transformation.Angular invokes the `transform` method with the value of a binding as the first argument, and any parameters as the second argument in list form.
     
 ```ts
 interface PipeTransform {

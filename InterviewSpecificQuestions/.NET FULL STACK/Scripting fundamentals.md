@@ -1,6 +1,6 @@
 ## Technical
 
-1. What is Shell?
+1.What is Shell?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -8,7 +8,7 @@
 
 <blockquote> 
     
-- Shell is a command interpreter, which interprets the command given by the user to the kernel. 
+- Shell is a command interpreter, which interprets the command given by the user to the kernel.
 - It is an interface between a user and an operating system.
 
 </blockquote>
@@ -17,7 +17,7 @@
 
 ---
 
-2. What is Shell Scripting?
+2.What is Shell Scripting?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -25,7 +25,7 @@
 
 <blockquote> 
 
-Shell scripting is a series or sequence of UNIX commands written in a plain text file. We used to give a list of UNIX commands like a to-do list in a file to execute it.
+Shell scripting is a series or sequence of UNIX commands written in a plain text file.We used to give a list of UNIX commands like a to-do list in a file to execute it.
 
 </blockquote>
 
@@ -33,7 +33,7 @@ Shell scripting is a series or sequence of UNIX commands written in a plain text
 
 ---
 
-3. Define Shell Variable.
+3.Define Shell Variable.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -41,7 +41,7 @@ Shell scripting is a series or sequence of UNIX commands written in a plain text
 
 <blockquote> 
 
-Shell variable forms the core part of a shell script or program. The variable allows the shell to manipulate the stored information within a shell program. It is generally stored as a string variable. 
+Shell variable forms the core part of a shell script or program.The variable allows the shell to manipulate the stored information within a shell program.It is generally stored as a string variable.
 
 </blockquote>
 
@@ -49,7 +49,7 @@ Shell variable forms the core part of a shell script or program. The variable al
 
 ---
 
-4. What is the absolute and relative path?
+4.What is the absolute and relative path?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -57,12 +57,12 @@ Shell variable forms the core part of a shell script or program. The variable al
 
 <blockquote> 
 
-- Absolute path is the full path of the directory. It always starts with “/”
+- Absolute path is the full path of the directory.It always starts with “/”
   - Example:
     **`cd  /var/tmp/abrt/`**
 - Relative path is necessary from the current location to reach a particular directory that doesn’t start with “/”.
   - Example:
-    **`cd .. ,   cd –`**
+    **`cd ..,   cd –`**
 
 </blockquote>
 
@@ -70,7 +70,7 @@ Shell variable forms the core part of a shell script or program. The variable al
 
 ---
 
-5.  How to create, read and delete files?
+5. How to create, read and delete files?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -94,7 +94,7 @@ Shell variable forms the core part of a shell script or program. The variable al
 
 ---
 
-6.  How to create and delete a directory?
+6. How to create and delete a directory?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -102,10 +102,10 @@ Shell variable forms the core part of a shell script or program. The variable al
 
 <blockquote> 
 
-- The mkdir command is used for creating a directory. 
+- The mkdir command is used for creating a directory.
   - Example:
   `# mkdir filename`
-- The rmdir command is used to remove the directory. 
+- The rmdir command is used to remove the directory.
   - Example:
   `#rmdir filename` 
 
@@ -115,7 +115,7 @@ Shell variable forms the core part of a shell script or program. The variable al
 
 ---
 
-7.  What is the use of `head` and `tail` commands?
+7. What is the use of `head` and `tail` commands?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -132,7 +132,7 @@ Shell variable forms the core part of a shell script or program. The variable al
 
 ---
 
-8. What is the significance of `$#`?
+8.What is the significance of `$#`?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -148,7 +148,7 @@ It represents the total number of arguments passed by string.
 
 ---
 
-9. What is the difference between `$*` and `$@`?
+9.What is the difference between `$*` and `$@`?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -164,7 +164,7 @@ It represents the total number of arguments passed by string.
 
 ---
 
-10. How to make variables unchangeable?
+10.How to make variables unchangeable?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -172,7 +172,7 @@ It represents the total number of arguments passed by string.
 
 <blockquote> 
 
-Variables can be made unchangeable using read-only. For instance, if we want variable ‘a’ value to remain as 10 and not change, then we can achieve this using read-only.
+Variables can be made unchangeable using read-only.For instance, if we want variable ‘a’ value to remain as 10 and not change, then we can achieve this using read-only.
 - Example:
   - $ a=10
   - $ readonly a
@@ -183,7 +183,7 @@ Variables can be made unchangeable using read-only. For instance, if we want var
 
 ---
 
-11. What is the alternative command available to echo and what does it do?
+11.What is the alternative command available to echo and what does it do?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -200,7 +200,7 @@ Variables can be made unchangeable using read-only. For instance, if we want var
 
 ---
 
-12. What are the default permissions of a file when it is created?
+12.What are the default permissions of a file when it is created?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -208,7 +208,7 @@ Variables can be made unchangeable using read-only. For instance, if we want var
 
 <blockquote> 
 
-666 i.e. rw-rw-rw- is the default permission of a file, when it is created.
+666 i.e.rw-rw-rw- is the default permission of a file, when it is created.
 
 </blockquote>
 
@@ -216,7 +216,7 @@ Variables can be made unchangeable using read-only. For instance, if we want var
 
 ---
 
-13. What does `ls` command do?
+13.What does `ls` command do?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -224,13 +224,13 @@ Variables can be made unchangeable using read-only. For instance, if we want var
 
 <blockquote> 
 
-1. It lists files in the current directory.
-2. It lists files in a long format.
+1.It lists files in the current directory.
+2.It lists files in a long format.
 
 - Example
 
-    1. $ ls
-    2. $ ls –lrt or $ ls -ltr
+    1.$ ls
+    2.$ ls –lrt or $ ls -ltr
 
 </blockquote>
 
@@ -238,7 +238,7 @@ Variables can be made unchangeable using read-only. For instance, if we want var
 
 ---
 
-14. What is the use of `cd` command?
+14.What is the use of `cd` command?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -246,9 +246,9 @@ Variables can be made unchangeable using read-only. For instance, if we want var
 
 <blockquote> 
 
-1. It changes the directory to your home directory.
-2. It changes the directory to test.
-3. It moves back to one directory or to the parent directory of your current directory.
+1.It changes the directory to your home directory.
+2.It changes the directory to test.
+3.It moves back to one directory or to the parent directory of your current directory.
 
 </blockquote>
 
@@ -256,7 +256,7 @@ Variables can be made unchangeable using read-only. For instance, if we want var
 
 ---
 
-15. How to copy, move and compress the files?
+15.How to copy, move and compress the files?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -267,7 +267,7 @@ Variables can be made unchangeable using read-only. For instance, if we want var
 - To copy the file
 
   - `$ cp file1 test`         - It copies file1 to test directory.
-  - `$ cp file1 file1.bak`    - It takes a backup of file1. 
+  - `$ cp file1 file1.bak`    - It takes a backup of file1.
 
 - To move the file 
  
@@ -282,7 +282,7 @@ Variables can be made unchangeable using read-only. For instance, if we want var
 
 ---
 
-16. What is the use of `date`, `diff` and `find` command?
+16.What is the use of `date`, `diff` and `find` command?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -291,12 +291,12 @@ Variables can be made unchangeable using read-only. For instance, if we want var
 <blockquote> 
 
 **date**    -   `$ date`                        - It displays the current date and time.
-e.g. Output:
+e.g.Output:
 Wednesday, October 2022 03:58:06 PM MDT
 
 **diff**    -   `$ diff file1 file2`	        - It displays line by line difference between file1 and file2.
 
-**find**    -	`$ find . –name ‘*.t’ -print`	- It searches in the current directory and in all its subdirectories for files ending with .t, and writes their names in the output.
+**find**    -	`$ find .–name ‘*.t’ -print`	- It searches in the current directory and in all its subdirectories for files ending with .t, and writes their names in the output.
 
 
 </blockquote>
@@ -305,7 +305,7 @@ Wednesday, October 2022 03:58:06 PM MDT
 
 ---
 
-17. What is the difference between the `finger` and `who` command?
+17.What is the difference between the `finger` and `who` command?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -322,7 +322,7 @@ Wednesday, October 2022 03:58:06 PM MDT
 
 ---
 
-18. What is the use of `grep` command?
+18.What is the use of `grep` command?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -339,7 +339,7 @@ Wednesday, October 2022 03:58:06 PM MDT
 
 ---
 
-19. Does `passwd` and `pwd` both are same?
+19.Does `passwd` and `pwd` both are same?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -358,7 +358,7 @@ Wednesday, October 2022 03:58:06 PM MDT
 
 ---
 
-20. What is the use of `ps`, `talk` and `wc` command?
+20.What is the use of `ps`, `talk` and `wc` command?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -376,7 +376,7 @@ Wednesday, October 2022 03:58:06 PM MDT
 
 ---
 
-21. What `sort` command does?
+21.What `sort` command does?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -392,7 +392,7 @@ Wednesday, October 2022 03:58:06 PM MDT
 
 ---
 
-22. What does the. (dot) indicate at the beginning of a file name and how should it be listed?
+22.What does the.(dot) indicate at the beginning of a file name and how should it be listed?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -400,9 +400,9 @@ Wednesday, October 2022 03:58:06 PM MDT
 
 <blockquote> 
 
-- A file name that begins with a. (dot) is called a hidden file. Whenever we try to list the files, it will list all the files except hidden files.
+- A file name that begins with a.(dot) is called a hidden file.Whenever we try to list the files, it will list all the files except hidden files.
 
-- To list the hidden file, we need to use –the option of ls. i.e. `$ ls –a`
+- To list the hidden file, we need to use –the option of ls.i.e.`$ ls –a`
 
 </blockquote>
 
@@ -410,7 +410,7 @@ Wednesday, October 2022 03:58:06 PM MDT
 
 ---
 
-23.  What is the difference between diff and cmp commands?
+23. What is the difference between diff and cmp commands?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -428,7 +428,7 @@ Wednesday, October 2022 03:58:06 PM MDT
 
 ---
 
-24. What is Shebang in a shell script?
+24.What is Shebang in a shell script?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -436,8 +436,8 @@ Wednesday, October 2022 03:58:06 PM MDT
 
 <blockquote> 
 
-- Shebang is a `# sign` followed by an exclamation i.e. !.
-- Generally, this can be seen at the beginning or top of the script/program. This is used to avoid repetitive work. Shebang mainly determines the location of the engine which is to be used to execute the script.
+- Shebang is a `# sign` followed by an exclamation i.e.!.
+- Generally, this can be seen at the beginning or top of the script/program.This is used to avoid repetitive work.Shebang mainly determines the location of the engine which is to be used to execute the script.
 
 **Example: #!/bin/bash**        - The above line also tells which shell to use.
    - Here ‘#’ symbol is called hash and ‘!’ is called a bang.

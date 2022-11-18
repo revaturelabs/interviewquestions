@@ -1,4 +1,4 @@
-1. What are directives?
+1.What are directives?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -12,7 +12,7 @@ Directives add behavior to an existing DOM element or an existing component inst
   
 ---
 
-2. What are the differences between Component and Directive?
+2.What are the differences between Component and Directive?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -20,7 +20,7 @@ Directives add behavior to an existing DOM element or an existing component inst
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-On a short note, A component(`@Component`) is a directive-with-a-template. Some of the major differences are mentioned in a tabular form:
+On a short note, A component(`@Component`) is a directive-with-a-template.Some of the major differences are mentioned in a tabular form:
 
 | Component                                                             | Directive                                                     |
 |-----------------------------------------------------------------------|---------------------------------------------------------------|
@@ -33,7 +33,7 @@ On a short note, A component(`@Component`) is a directive-with-a-template. Some 
   
 ---
 
-3. What are the different types of directives in Angular?
+3.What are the different types of directives in Angular?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
@@ -52,7 +52,7 @@ On a short note, A component(`@Component`) is a directive-with-a-template. Some 
 	
 --- 
     
-4. Explain Structural Directives in Angular?
+4.Explain Structural Directives in Angular?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -61,10 +61,10 @@ On a short note, A component(`@Component`) is a directive-with-a-template. Some 
  <blockquote>
     
 - Structural directives are used for adding, removing, or manipulating DOM elements
-- Structural directives start with an asterisk (*) followed by a directive name. 
+- Structural directives start with an asterisk (*) followed by a directive name.
 - There are three built-in structural directives - `ngIf`, `ngFor` and `ngSwitch`.
 - The `ngFor` directive is used to repeat a part of the HTML template once per each item from an iterable list.
-- `ngIf` directive allows us to add or remove DOM Elements based on the Boolean expression. We can also have an else block associated with a ngIf directive.
+- `ngIf` directive allows us to add or remove DOM Elements based on the Boolean expression.We can also have an else block associated with a ngIf directive.
 
 ```html
 <div *ngIf=" a > b ; else elseBlock1">
@@ -74,7 +74,7 @@ On a short note, A component(`@Component`) is a directive-with-a-template. Some 
 	    {{ b }} is greater than {{ a }}
 </ng-template>
 ```
-- `ngSwitch` directive lets you hide/show HTML elements depending on an expression. `NgSwitchCase` displays its element when its value matches the switch value. `NgSwitchDefault` displays its element when no sibling `NgSwitchCase` matches the switch value.
+- `ngSwitch` directive lets you hide/show HTML elements depending on an expression.`NgSwitchCase` displays its element when its value matches the switch value.`NgSwitchDefault` displays its element when no sibling `NgSwitchCase` matches the switch value.
     
 ```html
 <!-- user to enter any vowels(a, e, i o, u), print any word starting with vowels -->
@@ -94,7 +94,7 @@ On a short note, A component(`@Component`) is a directive-with-a-template. Some 
 	
 --- 
   
-5. Explain Attribute Directives in Angular?
+5.Explain Attribute Directives in Angular?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -105,7 +105,7 @@ On a short note, A component(`@Component`) is a directive-with-a-template. Some 
 - Attribute directives are used to change the look and behavior of the DOM elements.
 - Attribute directives are enclosed with the [] square brackets
 - There are two built-in attribute directives - `ngClass` and `ngStyle`
-- The `ngClass` directive is used for adding or removing the CSS classes on an HTML element. It allows us to apply CSS classes dynamically based on expression evaluation.
+- The `ngClass` directive is used for adding or removing the CSS classes on an HTML element.It allows us to apply CSS classes dynamically based on expression evaluation.
     
 ```html
     
@@ -126,7 +126,7 @@ Enter the username: <input type='text' [(ngModel)]='name'>
 	
 --- 
 
-6. Design the angular app with the following criteria
+6.Design the angular app with the following criteria
     - Get the `name` and `age` from the user
     - If entered `age`is greater than 60, print their `name` then say "is a senior citizen"
     - Else, their `name` then say "is not a senior citizen"
@@ -138,13 +138,13 @@ Enter the username: <input type='text' [(ngModel)]='name'>
 <blockquote>
 
 **Steps:**
-1. Create an angular project by running the `ng new angularDemo2` command in the angular CLI
+1.Create an angular project by running the `ng new angularDemo2` command in the angular CLI
 2.In the `app.component.html` file, create a form to get the `name` and `age` from the user
 ```html
 Name: <input type="text" [(ngModel)]="name" /> <br> 
 Age: <input type="text" [(ngModel)]="age" />
 ```
-3. In the `app.component.ts` file, create a `name` and `age` variables.
+3.In the `app.component.ts` file, create a `name` and `age` variables.
 ```ts
 import { Component } from '@angular/core';
 @Component({
@@ -159,14 +159,14 @@ export class AppComponent {
   age !: number;
 }	
 ```
-4. Since we are using the `ngModel`directive, we have to import `FormsModule` in the `app.module.ts` file.
+4.Since we are using the `ngModel`directive, we have to import `FormsModule` in the `app.module.ts` file.
 ```java
  imports: [
     BrowserModule,
     FormsModule
  ]
 ```
-5. To check entered age and print the sentence according to it. We need to use the `ngIf` directive. In the `app.component.html` file,
+5.To check entered age and print the sentence according to it.We need to use the `ngIf` directive.In the `app.component.html` file,
 ```ts
 <div *ngIf=" age > 60; else elseBlock1">
     {{name}} is a senior citizen
@@ -175,8 +175,8 @@ export class AppComponent {
     {{name}} is not a senior citizen
 </ng-template>	
 ```
-6. Launch the application by running `ng serve -o` command.
-7. Now, able to see the excepted output.
+6.Launch the application by running `ng serve -o` command.
+7.Now, able to see the excepted output.
 ![image](https://user-images.githubusercontent.com/70228962/186344357-656f9e28-3cfa-4dc0-9873-dbd62dcd14d8.png) 
 
 ![image](https://user-images.githubusercontent.com/70228962/186344483-f0368ed8-f0e2-46ec-8b3e-42e4cc6eb2c1.png)
@@ -186,8 +186,8 @@ export class AppComponent {
 
 ---
 
-7. Design angular application with the following criteria
-	-  Get a number from the user. 
+7.Design angular application with the following criteria
+	-  Get a number from the user.
 	-  Print it as an even number or an odd number
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -196,12 +196,12 @@ export class AppComponent {
 <summary><b>Show Answer</b></summary>
 <blockquote>
 	
-1. Create an angular project by running `ng new angularDemo2` command in the angular CLI
-2. In the `app.component.html` file, create a form to get the `name` and `age` from the user
+1.Create an angular project by running `ng new angularDemo2` command in the angular CLI
+2.In the `app.component.html` file, create a form to get the `name` and `age` from the user
 ```html
 Enter a number: <input type="text" [(ngModel)]="num" />
 ```
-3. In `app.component.ts` file, create a `name` and `age` variables.
+3.In `app.component.ts` file, create a `name` and `age` variables.
 ```ts
 import { Component } from '@angular/core';
 @Component({
@@ -215,14 +215,14 @@ export class AppComponent {
   num !: number;
 }	
 ```
-4. Since we are using the `ngModel`directive, we have to import `FormsModule` in the `app.module.ts` file.
+4.Since we are using the `ngModel`directive, we have to import `FormsModule` in the `app.module.ts` file.
 ```java
  imports: [
     BrowserModule,
     FormsModule
  ]
 ```
-5. To check entered number is odd and even and print it. We will use the `ngSwitch` directive. In the `app.component.html` file,
+5.To check entered number is odd and even and print it.We will use the `ngSwitch` directive.In the `app.component.html` file,
 ```ts
 Enter a number: <input type="text" [(ngModel)]="num">
 
@@ -232,8 +232,8 @@ Enter a number: <input type="text" [(ngModel)]="num">
     <div *ngSwitchDefault>Nothing Found</div>
 </div>
 ```
-6. Launch the application by running `ng serve -o` command.
-7. Now, able to see the excepted output.
+6.Launch the application by running `ng serve -o` command.
+7.Now, able to see the excepted output.
 
 ![image](https://user-images.githubusercontent.com/70228962/186347155-19484af6-e1f9-4818-bb4d-ba6d47864fb2.png)
 
@@ -244,7 +244,7 @@ Enter a number: <input type="text" [(ngModel)]="num">
   
 ---
 
-8. How do you create a custom directive in Angular?
+8.How do you create a custom directive in Angular?
  
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -254,9 +254,9 @@ Enter a number: <input type="text" [(ngModel)]="num">
 
 Steps to creating custom directive in angular:
 	
-1. To create an angular application, run `ng new myapp` command.
-2. Then, we can create a directive by running the `ng g d myHighlight` command. Angular CLI creates two files `my-highlight.directive.spec.ts` and `my-highlight.directive.ts` and updates `app.module.ts`
-3. In `my-highlight.directive.ts`, we will create an instance of `ElementRef` and just high lighting the background color as yellow.
+1.To create an angular application, run `ng new myapp` command.
+2.Then, we can create a directive by running the `ng g d myHighlight` command.Angular CLI creates two files `my-highlight.directive.spec.ts` and `my-highlight.directive.ts` and updates `app.module.ts`
+3.In `my-highlight.directive.ts`, we will create an instance of `ElementRef` and just high lighting the background color as yellow.
 ```ts
 import { Directive, ElementRef} from '@angular/core';
 
@@ -267,11 +267,11 @@ export class MyHighlightDirective {
    }
 }
 ```
-4. Now this directive extends HTML element behavior with a yellow background as below
+4.Now this directive extends HTML element behavior with a yellow background as below
 ```html
 <p myHighlight> Hi, there!!</p>	
 ```
-5. Launch the angular application by running `ng serve -o` command.  The expected output will be,
+5.Launch the angular application by running `ng serve -o` command. The expected output will be,
 	
 ![image](https://user-images.githubusercontent.com/70228962/186374096-514930ba-f29c-424e-bcf8-11318b5c0734.png)
 
@@ -280,7 +280,7 @@ export class MyHighlightDirective {
   
 ---
 
-9. What's Angular `ElementRef`?
+9.What's Angular `ElementRef`?
  
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -295,7 +295,7 @@ Angular `ElementRef`is simply a class that wraps native DOM elements in the brow
   
 ---
 
-10. How do you choose an element from a component template?
+10.How do you choose an element from a component template?
 	
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 	
@@ -303,7 +303,7 @@ Angular `ElementRef`is simply a class that wraps native DOM elements in the brow
 <summary><b>Show Answer</b></summary>
 <blockquote>
 	
-To directly access items in the view, use the `@ViewChild` directive. Consider an input item with a reference.
+To directly access items in the view, use the `@ViewChild` directive.Consider an input item with a reference.
 ```html
 <input #example>
 ```
@@ -322,7 +322,7 @@ ngAfterViewInit() {
   
 ---
 
-11. What is `ng-template` in Angular?
+11.What is `ng-template` in Angular?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -330,14 +330,14 @@ ngAfterViewInit() {
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-`ng-template` is an Angular element that is used for rendering HTML in a template. However, it is not rendered directly on DOM. If you include an ng-template tag to a template, the tag and the content inside it will be replaced by a comment upon rendering.
+`ng-template` is an Angular element that is used for rendering HTML in a template.However, it is not rendered directly on DOM.If you include an ng-template tag to a template, the tag and the content inside it will be replaced by a comment upon rendering.
 
 </blockquote>
 </details>
   
 ---
  
-12. Create a `myHighlight` attribute directive to set an element’s background color when you hover over that element.
+12.Create a `myHighlight` attribute directive to set an element’s background color when you hover over that element.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -345,9 +345,9 @@ ngAfterViewInit() {
 <summary><b>Show Answer</b></summary>
 <blockquote>
 	
-1. To create an angular application, run `ng new myapp` command.
-2. Then, we can create a directive by running `ng g d myHighlight` command. Angular CLI creates two files `my-highlight.directive.spec.ts` and `my-highlight.directive.ts` and updates `app.module.ts`
-3. In `my-highlight.directive.ts`, we will create an instance of `ElementRef` and highlighting based on the mouseover and mouseleave.
+1.To create an angular application, run `ng new myapp` command.
+2.Then, we can create a directive by running `ng g d myHighlight` command.Angular CLI creates two files `my-highlight.directive.spec.ts` and `my-highlight.directive.ts` and updates `app.module.ts`
+3.In `my-highlight.directive.ts`, we will create an instance of `ElementRef` and highlighting based on the mouseover and mouseleave.
 ```ts
 import { Directive, ElementRef, HostListener } from '@angular/core';
 
@@ -372,11 +372,11 @@ export class MyHighlightDirective {
 
 }
 ```
-4. Adding the `myHighlight` directive to the HTML elements, will change color based on mouseover and mouse leave
+4.Adding the `myHighlight` directive to the HTML elements, will change color based on mouseover and mouse leave
 ```html
 <p myHighlight> Hi, there!!</p>	
 ```	
-5. Launch the angular application by running `ng serve -o` command. Then, we'll able to see the excepted output
+5.Launch the angular application by running `ng serve -o` command.Then, we'll able to see the excepted output
 
 ![image](https://user-images.githubusercontent.com/70228962/186696341-de34b3a7-9c4a-4102-8d9d-16d6984d4746.png)
 	

@@ -1,11 +1,11 @@
-1. What is TypeScript?
+1.What is TypeScript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- TypeScript is an open-source object-oriented programming language developed and maintained by Microsoft. It is a superset of JavaScript.
+- TypeScript is an open-source object-oriented programming language developed and maintained by Microsoft.It is a superset of JavaScript.
 - TypeScript is designed for the development of large applications and transpiles to JavaScript.
 
 </blockquote>
@@ -13,7 +13,7 @@
 
 ---
 
-2. Why do we need TypeScript?
+2.Why do we need TypeScript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -22,14 +22,14 @@
 
 - TypeScript is an attempt to fix JavaScript problems.
 - Since we all know that JavaScript is the only language used in client-side scripting browsers can only understand JavaScript.
-- Since TypeScript simplifies JavaScript code, making it easier to read and debug. It saves developers time and increases productivity.
+- Since TypeScript simplifies JavaScript code, making it easier to read and debug.It saves developers time and increases productivity.
 
 </blockquote>
 </details>
 
 ---
 
-3. What are the advantages of using TypeScript?
+3.What are the advantages of using TypeScript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -39,8 +39,8 @@
 Advantages of using TypeScript:
 
 - Integrates well with React, Vue, and Angular.
-- Is a statically typed language and this makes the code easier to refactor. 
-- Is easier to read and access. Helps in code maintainability.
+- Is a statically typed language and this makes the code easier to refactor.
+- Is easier to read and access.Helps in code maintainability.
 - Has a powerful type system, including generics.
 - Statically typed programming languages are those in which the type of a variable is known at compile-time instead of at run-time.
 
@@ -49,7 +49,7 @@ Advantages of using TypeScript:
 
 ---
 
-4. How to install TypeScript?
+4.How to install TypeScript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -64,14 +64,14 @@ Install the TypeScript plugin in your IDE
 `npm install -g typescript`
 ```
 
-We can also install a typescript plugin available for our IDE. We can use the  IDE of our choice such as VS Code, Visual Studio, Atom, or Sublime Text.
+We can also install a typescript plugin available for our IDE.We can use the  IDE of our choice such as VS Code, Visual Studio, Atom, or Sublime Text.
 
 </blockquote>
 </details>
 
 ---
 
-5. Explain the TypeScript program execution?
+5.Explain the TypeScript program execution?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -85,7 +85,7 @@ TypeScript follows the OOPS (Object-Oriented Programming System) concept and wit
 
 ---
 
-6. What OOPs does TypeScript support?
+6.What OOPs does TypeScript support?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -99,7 +99,7 @@ Typescript supports the four object-oriented programming concepts – Abstractio
 
 ---
 
- 07. Explain data types in TypeScript?
+ 07.Explain data types in TypeScript?
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -107,7 +107,7 @@ Typescript supports the four object-oriented programming concepts – Abstractio
 <blockquote>
 
 - Typescript supports Any, Built-in, and User-defined data types.
-- Any is the superset for all the data types available. It means that the variable could be of any type. It will override the type checking.
+- Any is the superset for all the data types available.It means that the variable could be of any type.It will override the type checking.
 - The Built-in types include string, number, boolean, undefined, null, and void.
 - The User-defined types include array, enum, interface, class, union, and tuple.
 
@@ -116,14 +116,14 @@ Typescript supports the four object-oriented programming concepts – Abstractio
 
 ---
 
-8. What are the modules in TypeScript?
+8.What are the modules in TypeScript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- A module is a way to construct a local scope in a file. So that all the classes and variables declared in a module are not accessible outside the module.
+- A module is a way to construct a local scope in a file.So that all the classes and variables declared in a module are not accessible outside the module.
 - We can create a module using the export keyword.
 - A module in typescript can be used in another module using the import keyword.
 
@@ -132,14 +132,14 @@ Typescript supports the four object-oriented programming concepts – Abstractio
 
 ---
 
-9. What is a namespace in TypeScript?
+9.What is a namespace in TypeScript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- Using a namespace we can group logically related code. A namespace can include classes, interfaces, functions, and variables.
+- Using a namespace we can group logically related code.A namespace can include classes, interfaces, functions, and variables.
 - We can create a namespace in typescript using the namespace keyword followed by any valid name.
 - For Example:
 
@@ -155,14 +155,14 @@ namespace MyNamespace {
 
 ---
 
-10. What are typed functions in TypeScript?
+10.What are typed functions in TypeScript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-In Typescript, a function can be created as a named function or an anonymous function. We can further add types to each of the parameters of the function as well.
+In Typescript, a function can be created as a named function or an anonymous function.We can further add types to each of the parameters of the function as well.
 
 ```ts
 
@@ -187,14 +187,14 @@ let funcAdd: (a: number, b: number) => number =
 
 ---
 
-11. What is **as** syntax in TypeScript?
+11.What is **as** syntax in TypeScript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-This is an additional Type of assertion syntax. The reason for including the **as** syntax in typescript was that `<type>` conflicted with JSX.
+This is an additional Type of assertion syntax.The reason for including the **as** syntax in typescript was that `<type>` conflicted with JSX.
 
 ```ts
 
@@ -206,7 +206,7 @@ let strength: number= (someString as string).length;
 
 ---
 
-12. Difference between reading-only and const?
+12.Difference between reading-only and const?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -220,7 +220,7 @@ const is used on a variable whereas read-only is used on properties of an object
 
 ---
 
-13. What are static properties?
+13.What are static properties?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -247,7 +247,7 @@ class Singleton {
 
 ---
 
-14. Explain access modifiers in Typescript?
+14.Explain access modifiers in Typescript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -270,16 +270,16 @@ The protected members are similar to private access modifiers, except that they 
 
 ---
 
-15. Can you explain the Rest parameters in Typescript?
+15.Can you explain the Rest parameters in Typescript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- Sometimes, we want to work with multiple parameters as a group, or we may not know how many parameters a function will ultimately take. In JavaScript, we have something known as arguments. Similarly, we have Rest parameters in typescript.
+- Sometimes, we want to work with multiple parameters as a group, or we may not know how many parameters a function will ultimately take.In JavaScript, we have something known as arguments.Similarly, we have Rest parameters in typescript.
 
-- Rest parameters are treated as a boundless number of optional parameters. The compiler will build an array of the arguments passed in with the name given after the ellipsis (…)
+- Rest parameters are treated as a boundless number of optional parameters.The compiler will build an array of the arguments passed in with the name given after the ellipsis (…)
 
 ```ts
 
@@ -295,7 +295,7 @@ let players = getPlayersList("Virat", "MS", "Warner", "Kane", "Ben")
 
 ---
 
-16. What are Generics in TypeScript?
+16.What are Generics in TypeScript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -321,14 +321,14 @@ greet('DS'); //function call
 
 ---
 
-17. What are Modules in TypeScript?
+17.What are Modules in TypeScript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- A module is a way to construct a local scope in a file. So that all the classes and variables declared in a module are not accessible outside the module.
+- A module is a way to construct a local scope in a file.So that all the classes and variables declared in a module are not accessible outside the module.
 - We can create a module using the export keyword.
 - A module in typescript can be used in another module using the import keyword.
 
@@ -352,7 +352,7 @@ let Subject: string = "Computer Science";
 
 ---
 
-18. Can we use JSX in TypeScript?
+18.Can we use JSX in TypeScript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -367,14 +367,14 @@ let Subject: string = "Computer Science";
 
 ---
 
-19. What are Decorators in TypeScript?
+19.What are Decorators in TypeScript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- Decorators are functions that modify a class, property, method, or method parameter. The syntax to define decorators is “@”.
+- Decorators are functions that modify a class, property, method, or method parameter.The syntax to define decorators is “@”.
 - In other words, Decorators are functions that take their target as the argument.
 
 </blockquote>
@@ -382,14 +382,14 @@ let Subject: string = "Computer Science";
 
 ---
 
-20. What is Triple-Slash Directive?
+20.What is Triple-Slash Directive?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- Triple-slash directives are single-line comments containing a single XML tag. The contents of the comments are used as compiler directives.
+- Triple-slash directives are single-line comments containing a single XML tag.The contents of the comments are used as compiler directives.
 
 ```ts
 
@@ -402,21 +402,21 @@ let Subject: string = "Computer Science";
 
 ---
 
-21. What is the ts. config file in Typescript?
+21.What is the ts.config file in Typescript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-The typescript project will have a ts. config file which provides an infinite number of ways to customize the behavior of the compiler.
+The typescript project will have a ts.config file which provides an infinite number of ways to customize the behavior of the compiler.
 
 </blockquote>
 </details>
 
 ---
 
-22. Is it possible to compile a typescript file automatically?
+22.Is it possible to compile a typescript file automatically?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -436,7 +436,7 @@ tsc --watch filename.ts
 
 ---
 
-23. Explain the Declare keyword in Typescript?
+23.Explain the Declare keyword in Typescript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -457,7 +457,7 @@ declare var myAlexaLibrary;
 
 ---
 
-24. Explain the need for a TypeScript Definition Manager?
+24.Explain the need for a TypeScript Definition Manager?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -474,27 +474,27 @@ $(document).ready(function() { //Your jQuery code });
 ```
 - Here, when we try to compile it by using tsc, it will give a compile-time error: Cannot find the name “$”.
 - So, we need to inform the TypeScript compiler that “$”belongs to jQuery.
-- To do this, TSD comes into play. We can download the jQuery Type Definition file and include it in our .ts file.
+- To do this, TSD comes into play.We can download the jQuery Type Definition file and include it in our .ts file.
 
 </blockquote>
 </details>
 
 ---
 
-25. How to debug a TypeScript file?
+25.How to debug a TypeScript file?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- To debug any TypeScript file, we need a .js source map file. So, we have to compile the .ts file with the –source map flag to generate a source map file.
+- To debug any TypeScript file, we need a .js source map file.So, we have to compile the .ts file with the –source map flag to generate a source map file.
 ```ts
 
 $ tsc -source map filename.ts
 
 ```
-- This will create a filename.js and filename.js.map. And the last line of filename.js would be a reference to the source map file.
+- This will create a filename.js and filename.js.map.And the last line of filename.js would be a reference to the source map file.
 
 ```ts
 
@@ -506,7 +506,7 @@ $ tsc -source map filename.ts
 
 ---
 
-26.  How to call the base class constructor from the child class in TypeScript?
+26. How to call the base class constructor from the child class in TypeScript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -520,14 +520,14 @@ We can call the base class constructor using `super()`.
 
 ---
 
-27. What is Interface in TypeScript?
+27.What is Interface in TypeScript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- An `interface` is a virtual structure that only exists within the context of TypeScript. The TypeScript compiler uses interfaces only for type-checking purposes.
+- An `interface` is a virtual structure that only exists within the context of TypeScript.The TypeScript compiler uses interfaces only for type-checking purposes.
 - When we define your interface we’re saying that any object (not an instance of a class) given this contract must be an object containing interface properties.
 
 </blockquote>
@@ -535,14 +535,14 @@ We can call the base class constructor using `super()`.
 
 ---
 
-28. When to use interfaces and when to use classes in TypeScript? 
+28.When to use interfaces and when to use classes in TypeScript? 
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- If we need/wish to create an instance of perhaps a custom object, whilst getting the benefits of type-checking things such as arguments, return types, or generics - a class makes sense. 
+- If we need/wish to create an instance of perhaps a custom object, whilst getting the benefits of type-checking things such as arguments, return types, or generics - a class makes sense.
 - If we’re not creating instances - we have interfaces at our disposal, and their benefit comes from not generating any source code, yet allowing us to somewhat “virtually” type-check our code.
 
 </blockquote>
@@ -550,7 +550,7 @@ We can call the base class constructor using `super()`.
 
 ---
 
-29. How to declare a variable so that it can hold multiple values?
+29.How to declare a variable so that it can hold multiple values?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -558,7 +558,7 @@ We can call the base class constructor using `super()`.
 <blockquote>
 
 **Tuples**:
-It represents a heterogeneous collection of values. In other words, tuples enable storing multiple fields of different types. Tuples can also be passed as parameters to functions.
+It represents a heterogeneous collection of values.In other words, tuples enable storing multiple fields of different types.Tuples can also be passed as parameters to functions.
 
 **Syntax**
 ```typescript
@@ -577,14 +577,14 @@ console.log(employee[1]); // Output: Priya
 
 ---
 
-30. What are getters and setters in TypeScript?
+30.What are getters and setters in TypeScript?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- TypeScript supports getters/setters as a way of intercepting accesses to a member of an object. This gives a way of having finer-grained control over how a member is accessed on each object.
+- TypeScript supports getters/setters as a way of intercepting accesses to a member of an object.This gives a way of having finer-grained control over how a member is accessed on each object.
 ```typescript
 class Employee {
    
@@ -604,7 +604,7 @@ class Employee {
 
 ---
 
-31.  When to use the interface in TypeScript?
+31. When to use the interface in TypeScript?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -612,7 +612,7 @@ class Employee {
 <blockquote>
 
 - Interfaces help to achieve Polymorphism.
-- An interface is a contract to implement a shape of the data. 
+- An interface is a contract to implement a shape of the data.
 - Use the interface to make it clear that it is intended to be implemented and used as a contract about how the object will be used.
 ```typescript
 interface Bird {
@@ -620,20 +620,20 @@ interface Bird {
     fly(): void
     sleep(): void
 }
-class Hummingbird implements Bird { ... }
-class Bellbird implements Bird { ... }
+class Hummingbird implements Bird { ...}
+class Bellbird implements Bird { ...}
 ;
 ```
 ---
 
-32. Can u explain a bit about Enum in TypeScript?
+32.Can u explain a bit about Enum in TypeScript?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Enums or enumerations are a TypeScipt data type that allows us to define a set of named constants. Using enums can make it easier to document intent, or create a set of distinct cases. It is a collection of related values that can be numeric or string values.
+Enums or enumerations are a TypeScipt data type that allows us to define a set of named constants.Using enums can make it easier to document intent, or create a set of distinct cases.It is a collection of related values that can be numeric or string values.
 
 **Example**
 ```typescript
@@ -643,7 +643,7 @@ enum Gender {
   Other  
 }  
 console.log(Gender.Female); // Output: 1  
-//We can also access an enum value by its number value.  
+//We can also access an enum value by its number value. 
 console.log(Gender[1]); // Output: Female  
 ```
 
@@ -652,14 +652,14 @@ console.log(Gender[1]); // Output: Female
 
 ---
 
-33. Define the Lambda function.
+33.Define the Lambda function.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- For defining function expressions, TypeScript provides a shortcut syntax. A lambda function is an unnamed anonymous function. 
+- For defining function expressions, TypeScript provides a shortcut syntax.A lambda function is an unnamed anonymous function.
 - **Example**:
 ```ts
 let sum=(a: num, b: num): num=>{ return a+b;}
@@ -673,15 +673,15 @@ Here, `?=>?` is a lambda operator.
 
 ---
 
-34. What does Typescript do when you try to open it in a browser?
+34.What does Typescript do when you try to open it in a browser?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- TypeScript cannot be run or understood in any browser. 
-- TypeScript needs to be compiled (translated) to JavaScript which any browser can understand. 
+- TypeScript cannot be run or understood in any browser.
+- TypeScript needs to be compiled (translated) to JavaScript which any browser can understand.
 
 </blockquote>
 </details>

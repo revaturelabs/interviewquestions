@@ -1,6 +1,6 @@
 ## Technical
 
-1. What is SOA?
+1.What is SOA?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -16,7 +16,7 @@ SOA is an architecture for building applications using reusable, interoperable s
 
 ---
 
-2. What are ends, contracts, addresses, and bindings?
+2.What are ends, contracts, addresses, and bindings?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -24,13 +24,13 @@ SOA is an architecture for building applications using reusable, interoperable s
 
 <blockquote> 
 
-- The service can be made available to clients from different ends. All these services must be exposed through one of these ends.
+- The service can be made available to clients from different ends.All these services must be exposed through one of these ends.
 
 The end will consist of the following:
 
-- **Contract**: It is an agreement that is agreed upon between two parties. It defines how clients are expected to communicate. It specifies the different parameters and returns values that are to be used.
-- **Address**: This specifies where a user can find a service. There is an address URL that points to the location of services.
-- **Binding**: This determines how to access the end. It specifies the process for communication and how it is to be done.
+- **Contract**: It is an agreement that is agreed upon between two parties.It defines how clients are expected to communicate.It specifies the different parameters and returns values that are to be used.
+- **Address**: This specifies where a user can find a service.There is an address URL that points to the location of services.
+- **Binding**: This determines how to access the end.It specifies the process for communication and how it is to be done.
 
 </blockquote>
 
@@ -38,7 +38,7 @@ The end will consist of the following:
 
 ---
 
-3. What is the difference between SOA and Web Service?
+3.What is the difference between SOA and Web Service?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -48,9 +48,9 @@ The end will consist of the following:
 
 Service Oriented Architecture, as the name says is an architectural concept which focuses on having different services communicating with each other to carry out a bigger job.
 
-Thus, a web service is a basic building block in an SOA. When multiple services are combined, we have an application that falls under SOA.
+Thus, a web service is a basic building block in an SOA.When multiple services are combined, we have an application that falls under SOA.
 
-The best example would be any big application which uses Amazon Web Services where you have distinct server instances for your business logic, data hosting and load-balancing requests. Each instance provides its own unique service like load balancer distributes load, and business logic transforms user input and processes it with its logic which in turn provides this transformed data to the database instance for storing.
+The best example would be any big application which uses Amazon Web Services where you have distinct server instances for your business logic, data hosting and load-balancing requests.Each instance provides its own unique service like load balancer distributes load, and business logic transforms user input and processes it with its logic which in turn provides this transformed data to the database instance for storing.
 
 </blockquote>
 
@@ -58,7 +58,7 @@ The best example would be any big application which uses Amazon Web Services whe
 
 ---
 
-4. What is a reusable service?
+4.What is a reusable service?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -66,7 +66,7 @@ The best example would be any big application which uses Amazon Web Services whe
 
 <blockquote> 
 
-It is an autonomous, reusable, discoverable, stateless functionality that has the necessary granularity, and can be part of a composite application or a composite service. A reusable service should be identified with a business activity described by the service specifications (design-time contract).
+It is an autonomous, reusable, discoverable, stateless functionality that has the necessary granularity, and can be part of a composite application or a composite service.A reusable service should be identified with a business activity described by the service specifications (design-time contract).
 
 </blockquote>
 
@@ -74,7 +74,7 @@ It is an autonomous, reusable, discoverable, stateless functionality that has th
 
 ---
 
-5. How to achieve loose coupling in SOA? 
+5.How to achieve loose coupling in SOA? 
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -82,9 +82,9 @@ It is an autonomous, reusable, discoverable, stateless functionality that has th
 
 <blockquote> 
 
-- To achieve loose coupling, you can use a service interface like WSDL for a SOAP web service. To limit the dependency, we can hide the service implementation from the consumer. 
-- Loose coupling can be handled by encapsulating different functionalities in a way which it will limit the impact of changes to the implementation of different service interfaces. 
-- We may even have to change the interface and manage versioning without impacting the customers. Also, one can manage multiple security constraints, multiple means of transport, and other specifications.
+- To achieve loose coupling, you can use a service interface like WSDL for a SOAP web service.To limit the dependency, we can hide the service implementation from the consumer.
+- Loose coupling can be handled by encapsulating different functionalities in a way which it will limit the impact of changes to the implementation of different service interfaces.
+- We may even have to change the interface and manage versioning without impacting the customers.Also, one can manage multiple security constraints, multiple means of transport, and other specifications.
 
 </blockquote>
 
@@ -92,7 +92,7 @@ It is an autonomous, reusable, discoverable, stateless functionality that has th
 
 ---
 
-6. Can you explain the SOA Principles?
+6.Can you explain the SOA Principles?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 

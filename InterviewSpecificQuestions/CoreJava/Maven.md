@@ -1,4 +1,4 @@
-1. What is Maven?
+1.What is Maven?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -6,7 +6,7 @@
 <blockquote>
 
 - Maven is an automation and management tool developed by Apache Software Foundation.
-- It allows us to create projects, dependency, and documentation using Project Object Model and plugins. 
+- It allows us to create projects, dependency, and documentation using Project Object Model and plugins.
 - It can also build any number of projects into desired output such as jar, war, metadata.
 
 </blockquote>
@@ -14,14 +14,14 @@
 
 ---
 
-2. Do you know in which language Maven was written?
+2.Do you know in which language Maven was written?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- Maven is a build automation tool used primarily for Java projects. 
+- Maven is a build automation tool used primarily for Java projects.
 - Maven can also be used to build and manage projects written in C#, Ruby, Scala, and other languages.
 
 </blockquote>
@@ -29,7 +29,7 @@
 
 ---
 
-3. How do you think Maven helps the developer?
+3.How do you think Maven helps the developer?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -45,7 +45,7 @@
 
 ---
 
-4. Can you list out the processes which can be managed using Maven?
+4.Can you list out the processes which can be managed using Maven?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -59,7 +59,7 @@
 
 ---
 
-5. Can u explain a bit about how to use Maven?
+5.Can u explain a bit about how to use Maven?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -67,7 +67,7 @@
 <blockquote>
 
 - To configure the Maven in Java, you need to use Project Object Model, which is stored in a pom.xml-file.
-- POM includes all the configuration setting related to Maven. Plugins can be configured and edit in the  `<plugins>` tag of a pom.xml file and developer can use any plugin without much detail of each plugin.
+- POM includes all the configuration setting related to Maven.Plugins can be configured and edit in the  `<plugins>` tag of a pom.xml file and developer can use any plugin without much detail of each plugin.
 - When user start working on Maven Project, it provides default setting of configuration, so the user does not need to add every configuration in pom.xml.
 
 </blockquote>
@@ -75,35 +75,35 @@
 
 ---
 
-6. What is your understanding about the saying Maven uses Convention over Configuration?
+6.What is your understanding about the saying Maven uses Convention over Configuration?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- Maven uses Convention over Configuration which means developers are not required to create build process themselves. and they don’t have to mention each and every configuration details.
+- Maven uses Convention over Configuration which means developers are not required to create build process themselves.and they don’t have to mention each and every configuration details.
 
 </blockquote>
 </details>
 
 ---
 
-7. What is Maven Build Lifecycle?
+7.What is Maven Build Lifecycle?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-A Build lifecycle is a well-defined sequence of phases that outline the order in which the goals are to be executed. Here phase represents a stage in the life cycle.
+A Build lifecycle is a well-defined sequence of phases that outline the order in which the goals are to be executed.Here phase represents a stage in the life cycle.
 
 </blockquote>
 </details>
 
 ---
 
-8. Can you tell me the build lifecycle of Maven?
+8.Can you tell me the build lifecycle of Maven?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -120,7 +120,7 @@ A Build lifecycle is a well-defined sequence of phases that outline the order in
 
  ---
 
-9. Could you tell me a little bit about the Maven artifact? 
+9.Could you tell me a little bit about the Maven artifact? 
 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -128,15 +128,15 @@ A Build lifecycle is a well-defined sequence of phases that outline the order in
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- An artifact is a file, usually a JAR that gets deployed to a Maven repository. A Maven build produces one or more artifacts, such as a compiled JAR and a `sources` JAR.
-- Each artifact has a group ID, an artifact ID , and a version string. The three together uniquely identify the artifact. A project's dependencies are specified as artifacts.
+- An artifact is a file, usually a JAR that gets deployed to a Maven repository.A Maven build produces one or more artifacts, such as a compiled JAR and a `sources` JAR.
+- Each artifact has a group ID, an artifact ID , and a version string.The three together uniquely identify the artifact.A project's dependencies are specified as artifacts.
 
 </blockquote>
 </details>
 
 ---
 
-10. What are the phases of a Maven build lifecycle?
+10.What are the phases of a Maven build lifecycle?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -145,7 +145,7 @@ A Build lifecycle is a well-defined sequence of phases that outline the order in
 
 - validate :  the project is correct and all necessary information is available.
 - compile :  compile the source code of the project.
-- test : test the compiled source code with a suitable unit testing framework. These tests should not require the code be packaged or deployed.
+- test : test the compiled source code with a suitable unit testing framework.These tests should not require the code be packaged or deployed.
 - package : take the compiled code and package it in its distributable format, such as a JAR.
 - integration-test : process and deploy the package if necessary, into an environment where integration tests can be run.
 - verify :  run any checks to verify whether the package is valid and meets quality criteria.
@@ -157,7 +157,7 @@ A Build lifecycle is a well-defined sequence of phases that outline the order in
 
 ---
 
-11.  What phases does a clean lifecycle consist of?
+11. What phases does a clean lifecycle consist of?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -174,7 +174,7 @@ The clean lifecycle consists of the following phases:
 
 ---
 
-12. What phases does a site lifecycle consist of?
+12.What phases does a site lifecycle consist of?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -192,7 +192,7 @@ The phases in site lifecycle are:
 
 ---
 
-13. What are the two setting files called in Maven called and what are their locations?
+13.What are the two setting files called in Maven called and what are their locations?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -208,7 +208,7 @@ In Maven, the setting files are called settings.xml, and the two setting files a
 
 ---
 
-14. Can you tell what the "jar: jar" goal would do?
+14.Can you tell what the "jar: jar" goal would do?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -222,7 +222,7 @@ In Maven, the setting files are called settings.xml, and the two setting files a
 
 ---
 
-15. Can you list out what the Maven’s order of inheritance is?
+15.Can you list out what the Maven’s order of inheritance is?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -240,7 +240,7 @@ The maven’s order of inheritance is
 
 ---
 
-16. Do you know how to run test classes in Maven?
+16.Do you know how to run test classes in Maven?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -254,7 +254,7 @@ To run test classes in Maven, we need surefire plugin, and we need to check and 
 
 ---
 
-17.  How to install Maven?
+17. How to install Maven?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -269,7 +269,7 @@ Add both `M2_HOME` and `MAVEN_HOME` variable in the Windows environment and poin
 
 ---
 
-18. What are the archetype goals?
+18.What are the archetype goals?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -287,48 +287,48 @@ Four goals associated with archetype plugin:
 
 ---
 
-19. Do you know about Parent POM's?
+19.Do you know about Parent POM's?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- Basically, these are parent projects without code used by companies to define the set of libraries/versions, plugins they want their teams using. It can have dependencies, build plugins, variables definitions, and even their own parent POM, forming a chain.
-- A great example is Spring Boot. You can extract it to create production-grade web services crazily fast. 
+- Basically, these are parent projects without code used by companies to define the set of libraries/versions, plugins they want their teams using.It can have dependencies, build plugins, variables definitions, and even their own parent POM, forming a chain.
+- A great example is Spring Boot.You can extract it to create production-grade web services crazily fast.
 
 </blockquote>
 </details>
 
 ---
 
-20. What is a system dependency?
+20.What is a system dependency?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Dependency with reach system is always accessible and is not looked up in the repository. They are regularly used to tell Maven about dependencies that are provided by the JDK. So, system dependencies are mainly useful for resolving dependencies on artefacts that JDK usually provides.
+Dependency with reach system is always accessible and is not looked up in the repository.They are regularly used to tell Maven about dependencies that are provided by the JDK.So, system dependencies are mainly useful for resolving dependencies on artefacts that JDK usually provides.
 
 </blockquote>
 </details>
 
 ---
 
-21. How does Maven looks for a dependency or resource ?
+21.How does Maven looks for a dependency or resource ?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-It refers to the settings.xml to look for the repositories to look for the resource. It first looks into the configured local repository, then it looks into the configured remote repositories. If the resource is still not found , it looks it within maven repository central i.e., repo1.maven.org. If it’s still not found, it throws the exception saying `Unable to find resource in repository central`.
+It refers to the settings.xml to look for the repositories to look for the resource.It first looks into the configured local repository, then it looks into the configured remote repositories.If the resource is still not found , it looks it within maven repository central i.e., repo1.maven.org.If it’s still not found, it throws the exception saying `Unable to find resource in repository central`.
 
 </blockquote>
 </details>
 
-22. How can we look into the Dependencies for the project and where they are defined ?
+22.How can we look into the Dependencies for the project and where they are defined ?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -342,7 +342,7 @@ Using mvn dependency:tree
 
 ---
 
-23. What are the different types of Maven Repositories?
+23.What are the different types of Maven Repositories?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -351,12 +351,12 @@ Using mvn dependency:tree
 
 There are three types of Maven repositories:
 
-1. Local Repository: 
-    - Local repository refers to the machine of the developer where all the project material is saved. The local repository contains all the dependency jars.
-2. Remote Repository:
+1.Local Repository: 
+    - Local repository refers to the machine of the developer where all the project material is saved.The local repository contains all the dependency jars.
+2.Remote Repository:
     - The remote repository refers to the repository present on a server usually in company intranet to download dependencies.
     - The advantage of remote repository is that it can have all publicly available dependencies as well as private dependencies used only in intranet by employees of the enterprise.
-3. Central Repository:
+3.Central Repository:
     - Central repository refers to the Maven community that comes into action when there is a need for dependencies, and those dependencies cannot be found in the local repository.
     - Maven downloads the dependencies from here in the local repository whenever needed.
 
@@ -365,7 +365,7 @@ There are three types of Maven repositories:
 
 ---
 
-24. What are the types of Maven Plugins?
+24.What are the types of Maven Plugins?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -382,14 +382,14 @@ There are two types of Maven Plugins:
 
 ---
 
-25. What is meant by the term **Dependencies and Repositories** in Maven?
+25.What is meant by the term **Dependencies and Repositories** in Maven?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Dependencies refer to the Java libraries that are needed for the project. Repositories refer to the directories of packaged JAR files.
+Dependencies refer to the Java libraries that are needed for the project.Repositories refer to the directories of packaged JAR files.
 If the dependencies are not present in your local repository; then Maven downloads them from a central repository and stores them in the local repository.
 
 </blockquote>
@@ -397,7 +397,7 @@ If the dependencies are not present in your local repository; then Maven downloa
 
 ---
 
-26. Why do we need **Optional dependencies**?
+26.Why do we need **Optional dependencies**?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -413,14 +413,14 @@ If the dependencies are not present in your local repository; then Maven downloa
 
 ---
 
-27. Do you know where the Maven dependencies got stored?
+27.Do you know where the Maven dependencies got stored?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- All the JARS, dependency files, etc. that are downloaded by Maven are saved in the Maven local repository.
+- All the JARS, dependency files, etc.that are downloaded by Maven are saved in the Maven local repository.
 - The Maven local repository is a folder location on the local system where all the artifacts are locally stored.
 
 </blockquote>
@@ -428,7 +428,7 @@ If the dependencies are not present in your local repository; then Maven downloa
 
 ---
 
-28. How will you install JAR files in the Local Repository? 
+28.How will you install JAR files in the Local Repository? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -443,7 +443,7 @@ To install the JAR manually into the local Maven repository, the following plugi
 
 ---
 
-29. How will you create a new project based on an archetype?
+29.How will you create a new project based on an archetype?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -461,14 +461,14 @@ Creating a project from an archetype consists of four steps:
 
 ---
 
-30. Can u explain a bit about **Snapshot** in Maven?
+30.Can u explain a bit about **Snapshot** in Maven?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Snapshot refers to the version available in the Maven remote repository. It signals the latest development copy. Maven inspects for a new version of Snapshot in the remote repository, for every new build. The snapshot is updated by the data service team with an updated source code every time to the repository for each Maven build.
+Snapshot refers to the version available in the Maven remote repository.It signals the latest development copy.Maven inspects for a new version of Snapshot in the remote repository, for every new build.The snapshot is updated by the data service team with an updated source code every time to the repository for each Maven build.
 
 </blockquote>
 </details>
