@@ -73,9 +73,9 @@
 - The HTML template of the root component is displayed inside the `<app-root>` tags.
 - This is how every angular application works.Or This is how angular applications get bootstrapped
 
-  </blockquote>
+</blockquote>
 </details>
-	
+
 --- 
   
 4.How SPA is different from traditional webapplicationsn?
