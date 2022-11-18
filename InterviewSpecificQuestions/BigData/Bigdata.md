@@ -4,7 +4,8 @@
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details markdown="1">
+<summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
