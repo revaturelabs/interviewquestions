@@ -3,7 +3,7 @@
 
 1.Which command can be used in `Unix` to get the current working directory?
 
-![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
+![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -14,7 +14,7 @@
 ---
 2.With the help of which command you can create a new directory in Unix?
 
-![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
+![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -25,7 +25,7 @@
 ---
 3.How can you copy a file from "ABC" directory to "XYZ" directory in Unix?
 
-![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
+![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -37,7 +37,7 @@
 ---
 4.Give the syntax of the command which can be used to move the file from one directory to another.
 
-![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
+![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -48,11 +48,11 @@
 ---
 5.Your friend created a folder as "ABC" while working on an important project and dump the finance-related data in that folder.Now he wanted to rename the folder as "Finance_Data", what command he has to use to rename that folder in Unix?
 
-![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
+![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
-> For renaming files and folders, we can use two commands in Unix, one is `mv` and the other one is `rename`. 
+> For renaming files and folders, we can use two commands in Unix, one is `mv` and the other one is `rename`.
   
 > With `mv` command  
   `mv ABC Finance_Data` 
@@ -65,11 +65,11 @@
 ---
 6.Other than `touch` command, what command would you use to create an empty file in Unix?
 
-![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
+![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
-> Other than `touch` command, we can use `echo` and `cat` commands to create an empty file.     
+> Other than `touch` command, we can use `echo` and `cat` commands to create an empty file.    
       
 > With `echo` command     
   `echo > file1.txt`    
@@ -82,7 +82,7 @@
 ---
 7.Suppose you have created 6 to 7 directories and files that are holding some sort of data and your boss wanted to see the permissions of all those files and folders, then, which command can be used to view the permissions on the file? 
 
-![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
+![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -93,7 +93,7 @@
 ---
 8.How to see which file is modified recently and at what time in UNIX?
 
-![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
+![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -103,11 +103,11 @@
 ---
 9.Imagine you have two files "example1.txt" and " example2.txt" and you wanted to add the content of both files in another file named "combine.txt".Which command you will use to do that task and what will happen if the "combine.txt" file doesn't exist in your system?  
 
-![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
+![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
-> To add the content of example1.txt and example2.txt files in the combine.txt file we can use the `cat` command.    
+> To add the content of example1.txt and example2.txt files in the combine.txt file we can use the `cat` command.   
 ```
 cat example1.txt example2.txt > combine.txt
 ```
@@ -117,7 +117,7 @@ Here if the combine.txt file doesn't exist in the system, it will create a combi
 ---
 10.How do you differentiate between the root and home directories in Linux?
 
-![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
+![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -138,7 +138,7 @@ Here if the combine.txt file doesn't exist in the system, it will create a combi
 ---
 12.A 'test.txt' file has some old content and 'test1.txt' file has some newly added content then how would you add the content of the test1 file at the end of the test file so that it has both old and new content together?
 
-![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
+![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -149,11 +149,11 @@ Here if the combine.txt file doesn't exist in the system, it will create a combi
 ---
 13.Suppose using `mkdir` command you have created one directory as "program" which is empty and now you want to delete that directory from your system, then which command you will use for it?
 
-![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
+![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
-> Using `rmdir` command we can delete an empty directory.Just we have to write the directory name after `rmdir` command. 
+> Using `rmdir` command we can delete an empty directory.Just we have to write the directory name after `rmdir` command.
 ```
 rmdir program
 ```
@@ -167,7 +167,7 @@ rmdir program
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
-> To delete a directory that contains some files and folders, we can use the `rm` command with `-r` option. 
+> To delete a directory that contains some files and folders, we can use the `rm` command with `-r` option.
 ```
 rm -r program
 ```
@@ -177,7 +177,7 @@ rm -r program
 ---
 15.How you can change the current directory in Linux?
 
-![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
+![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -188,7 +188,7 @@ rm -r program
 ---
 16.Which command can be used to search as a string in a file based on a pattern in Linux?
 
-![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
+![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -212,7 +212,7 @@ Performance wise also `printf` is faster in execution than `echo` command.
 
 18.How to check the disk usage information on a filesystem?
 
-![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
+![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -224,7 +224,7 @@ Performance wise also `printf` is faster in execution than `echo` command.
 
 19.How to view all the partitions of a hard drive in Linux.
 
-![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
+![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -270,7 +270,7 @@ Performance wise also `printf` is faster in execution than `echo` command.
 
 23.Give the general format of the UNIX command?
 
-![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
+![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
@@ -285,7 +285,7 @@ command_name (-n_arguments) (filename)
 
 24.Is the kernel and Operating System the same?
 
-![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
+![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
@@ -297,7 +297,7 @@ command_name (-n_arguments) (filename)
 
 25.Name some of the file editors used in Unix/Linux?
 
-![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
+![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
@@ -313,7 +313,7 @@ command_name (-n_arguments) (filename)
 
 26.How to change the permission set of a file in UNIX?
 
-![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
+![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
@@ -325,7 +325,7 @@ command_name (-n_arguments) (filename)
 
 27.Assume you have to change ownership of a file in Linux, how will you do that?
 
-![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
+![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
@@ -337,7 +337,7 @@ command_name (-n_arguments) (filename)
 
 28.Is there any difference between `vi` and `vim` editors in Linux?
 
-![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
+![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
@@ -376,7 +376,7 @@ command_name (-n_arguments) (filename)
 
 31.Imagine Henry wants to be the owner of the two files, "test1" and "test2" in Linux then what he has to do?
 
-![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
+![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -458,11 +458,11 @@ Here, the first 6 represent read and write permission to a user, the next 6 repr
 
 37.If you have to show in which line number a given string or pattern is present in a file then which command you will use for that?
 
-![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
+![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
-> We can use the `grep` command with `-n` argument to get the line number where the word is present along with the whole line.For that we have to write ` grep -n "Pattern" File_name`. 
+> We can use the `grep` command with `-n` argument to get the line number where the word is present along with the whole line.For that we have to write ` grep -n "Pattern" File_name`.
 
 </details>
 
@@ -498,7 +498,7 @@ Here, the first 6 represent read and write permission to a user, the next 6 repr
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
-> To terminate or end a process, we can use the `kill` command in Linux. 
+> To terminate or end a process, we can use the `kill` command in Linux.
 ```
 kill -15 3007
 

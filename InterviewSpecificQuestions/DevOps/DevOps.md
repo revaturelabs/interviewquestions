@@ -2,7 +2,7 @@
 
 1.What is `DevOps`?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -18,7 +18,7 @@
 
 2.What is goal of `DevOps`?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -34,7 +34,7 @@
 
 3.What do you understand by Continuous Integration?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -50,7 +50,7 @@
 
 4.What tools are used for Continuous Integration?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -88,7 +88,7 @@
 
 6.What do you understand by Continuous Delivery?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -106,7 +106,7 @@
 
 7.What do you understand by Continuous Deployment?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -126,7 +126,7 @@
 
 Due to Continuous Integration code can be tested easily by creating separate, test or development branches based on the mainline code.
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -144,7 +144,7 @@ Due to Continuous Integration code can be tested easily by creating separate, te
 
 Continuous Integration establishes the foundation for an automated DevOps pipeline & ensures the entire team works on the most up to date code.
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -160,7 +160,7 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 
 10.What is Jenkins?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -176,7 +176,7 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 
 11.Why Jenkins pipeline is used?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 

@@ -1,6 +1,6 @@
 1.What is Java?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -15,7 +15,7 @@ Java is one of the most popular high level programming languages.For example, it
 
 2.What is the JDK?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -36,7 +36,7 @@ Java is one of the most popular high level programming languages.For example, it
 
 3.What is the JRE?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -55,7 +55,7 @@ Java is one of the most popular high level programming languages.For example, it
 
 4.What is JVM?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -72,7 +72,7 @@ Java is one of the most popular high level programming languages.For example, it
 
 5.What is the difference between JDK, JVM, & JRE?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -93,14 +93,14 @@ Java is one of the most popular high level programming languages.For example, it
 
 6.What are the types of access modifiers? Which one is more protective?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
 <blockquote markdown="1">
 
-Access modifiers allow us to set the scope or accessibility, or visibility of a data member be it a field, constructor, class, or method. The four different types of access specifiers
+Access modifiers allow us to set the scope or accessibility, or visibility of a data member be it a field, constructor, class, or method.The four different types of access specifiers
 - Public
 - Protected
 - Private
@@ -116,7 +116,7 @@ Private is more protective.When the methods or data members declared as private,
 
 7.Tell us about non-access modifiers
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -137,7 +137,7 @@ Non-access modifiers define the behavior of the entities to the JVM, used with c
 
 8.Brief us on Java Memory (or) How many memories are there in Java and what are they used for?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -156,7 +156,7 @@ There are two kinds of memory used in Java:
 
 9.What is garbage collection?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -172,7 +172,7 @@ There are two kinds of memory used in Java:
 
 10.Where are objects stored? (or) When an object is instantiated where is it stored?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -188,7 +188,7 @@ Whenever an object is created, it's always stored in the Heap memory and stack m
 
 11.What is local scope?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1">
 
@@ -218,7 +218,7 @@ public class Test {
 
 12.What is the difference between local scope and instance scope?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -228,8 +228,8 @@ public class Test {
 | Local Scope                                                                | Instance Scope                                                        |
 |----------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | Its the scope of the local variables                                       | Its the scope of the instance variables                               |
-| Local variables are declared inside a method or a block.                  | Instance variables are declared inside a class, but outside a method.|
-| Local variables are visible only in the method or block they are declared.| Instance variables can been seen by all methods in the class.        |
+| Local variables are declared inside a method or a block.                 | Instance variables are declared inside a class, but outside a method.|
+| Local variables are visible only in the method or block they are declared.| Instance variables can been seen by all methods in the class.       |
  
 </blockquote>
 </details>
@@ -238,7 +238,7 @@ public class Test {
 
 13.What are the different scopes in java?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -258,7 +258,7 @@ Variables can be defined as having one of three types of scope:
 
 14.What is static in Java?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -279,7 +279,7 @@ Variables can be defined as having one of three types of scope:
 
 15.What does the Final keyword mean for Variables, Methods, and Classes?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -309,7 +309,7 @@ Final Class     ---> Prevents Inheritance
 
 16.Explain each of the parts of `public static void main (String[] args)`
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -331,7 +331,7 @@ Final Class     ---> Prevents Inheritance
 
 17.What happens if you don’t make the main method static?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -347,7 +347,7 @@ If the main method won't be static, JVM would not be able to call it because the
 
 18.What is the difference between a Heap and a Stack?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -357,7 +357,7 @@ If the main method won't be static, JVM would not be able to call it because the
 | Stack Memory                                                                                                                                                                            | Heap Memory                                                                                                                                                                |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Stack memory is the space allocated for a process where all the function calls, primitive data types (int, double, etc.) and local and reference variables of the functions are stored.| Heap memory is used to store the objects that are created during the execution of a Java program.The reference to the objects that are created is stored in stack memory.|
-| Stack memory is always referenced in LIFO (Last-In-First-Out) order.                                                                                                                   | Heap follows dynamic memory allocation (memory is allocated during execution or runtime) and provides random access                                                     |
+| Stack memory is always referenced in LIFO (Last-In-First-Out) order.                                                                                                                  | Heap follows dynamic memory allocation (memory is allocated during execution or runtime) and provides random access                                                     |
 
 
  
@@ -374,7 +374,7 @@ If the main method won't be static, JVM would not be able to call it because the
 
 <blockquote markdown="1">
 
-Yes, the program will execute successfully. Because, in Java, there is no specific rule for the order of specifiers
+Yes, the program will execute successfully.Because, in Java, there is no specific rule for the order of specifiers
 
 </blockquote>
 
@@ -407,7 +407,7 @@ keyboard.
 
 21.Can a static method access non-static variables or methods? 
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary> Show Answer </summary>
 

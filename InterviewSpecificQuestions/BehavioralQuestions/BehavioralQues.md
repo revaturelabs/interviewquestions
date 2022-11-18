@@ -334,7 +334,7 @@ Sample Answer: Cricket is my outside interest.In my free time, I spend more time
  
 Sample answer 1: Most of my professional experience has led me up to this administrative secretary role.I’ve been working in the field for almost ten years now.I got my first position as an office assistant when I was 18 – a position that required a lot of communication with both co-workers and customers.I’m interested in this position specifically because it would allow me to expand my leadership potential and continue working in an environment in which I have a great deal of experience.
 
-Sample answer 2: The last time I worked as a language assistant, I found the work interesting but sometimes hard.I learned a lot from my work experience.On one occasion I found two boys fighting in the playground.I managed to calm them down by being calm myself.I asked them what had happened and helped them to resolve their fight themselves.I thought that in a situation like that I would get angry myself, and perhaps take sides, but I did not. I think that this was a great lesson for me.
+Sample answer 2: The last time I worked as a language assistant, I found the work interesting but sometimes hard.I learned a lot from my work experience.On one occasion I found two boys fighting in the playground.I managed to calm them down by being calm myself.I asked them what had happened and helped them to resolve their fight themselves.I thought that in a situation like that I would get angry myself, and perhaps take sides, but I did not.I think that this was a great lesson for me.
  
 </details>
 </blockquote>

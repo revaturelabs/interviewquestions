@@ -2,7 +2,7 @@
 
 1.What is the meaning of Monolithic Application?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -26,7 +26,7 @@
     
 - `Monolithic Architectural Style` is traditional software development style.
 - It is built as a unified one code base unit that is self-contained and independent from other applications.
-- In Monolithic style code is tightly coupled and servers all of the business concerns together. 
+- In Monolithic style code is tightly coupled and servers all of the business concerns together.
 - To make a change to Monolithic of application requires update to entire stack by accessing the code base and building and deploying an updated version of the service-side interface.
 - This leads to changes/updates restrictive and time-consuming.
 	
@@ -38,7 +38,7 @@
 
 3.Why we should avoid Monolithic Style? 
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -60,7 +60,7 @@
 
 4.Though we prefer Microservices over Monolithic, still do you see any advantages of building Monolithic applications?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -120,7 +120,7 @@
 ---
 7.What is so special about Netflix and Microservices?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -156,7 +156,7 @@
 ---
 9.What is `Spring Cloud`?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -173,7 +173,7 @@
 ---
 10.What is `Spring Cloud Netflix`?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -209,7 +209,7 @@
 ---
 12.What do you know about Service Discovery in Microservices?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -240,9 +240,9 @@
 </details>
 
 ---
-14.  What is use of Netflix Eureka? 
+14. What is use of Netflix Eureka? 
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -260,7 +260,7 @@
 </details>
 
 ---
-15. Can we manually maintain addresses of each service while building microservices based applications?
+15.Can we manually maintain addresses of each service while building microservices based applications?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -426,7 +426,7 @@ public class ProducerEureka2 {
 
 18.What is the difference between @EnableDiscoveryClient and @EnableEurekaClient?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -478,7 +478,7 @@ public class ProducerEureka2 {
 
 20.What do you understand by load balancing?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -494,7 +494,7 @@ public class ProducerEureka2 {
 
 21.Do you know what are the two types of load balancing techniques?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -511,7 +511,7 @@ public class ProducerEureka2 {
 ---
 22.What is the use of Netflix Ribbon?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -576,7 +576,7 @@ public class ProducerEureka2 {
 ---
 24.What do you understand by Circuit Breaker?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -593,7 +593,7 @@ public class ProducerEureka2 {
 ---
 25.How Spring Cloud supports Circuit Breaker?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -713,7 +713,7 @@ public class ProducerEurekaHystrix {
 ---
 28.What do you understand by `API Gateway`?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -740,7 +740,7 @@ public class ProducerEurekaHystrix {
 ---
 29.What is use of Netflix Zuul?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -862,7 +862,7 @@ public class EmployeeZuulGatwayApplication {
 </details>
 
 ---
-32. What is meaning of Blue/Green Deployments?
+32.What is meaning of Blue/Green Deployments?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 

@@ -2,7 +2,7 @@
 
 1.Is there difference between Object Oriented Programming (OOP) and Aspect-Oriented Programming (AOP)?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -19,7 +19,7 @@
 ---
 2.Why we need to use AspectJ in Spring application?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -150,7 +150,7 @@ public class ExecutionTimeAspect {
 
 5.Why we use pointcut expression in Spring application.
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -164,7 +164,7 @@ public class ExecutionTimeAspect {
 ---
 6.Why do we use @EnableAspectJAutoProxy?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 

@@ -2,7 +2,7 @@
 
 1.What is the difference between `Spring JDBC` and `Spring Data JDBC`?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -22,7 +22,7 @@
 
 2.What do you mean by database dialect? 
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -126,7 +126,7 @@
 ---
 8.What is the use of `@Query` annotation in Spring Data?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -207,7 +207,7 @@ interface PersonRepository extends Repository<Person, Long> {
 ---
 11.What is `Spring Data JPA`?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -222,7 +222,7 @@ interface PersonRepository extends Repository<Person, Long> {
 </details>
 
 ---
-12. What is the use of `@Modifying` in Spring Data JPA?
+12.What is the use of `@Modifying` in Spring Data JPA?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 

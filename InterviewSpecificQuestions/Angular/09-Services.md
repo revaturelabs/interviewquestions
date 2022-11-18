@@ -1,6 +1,6 @@
 1.How do you make a service available for a component?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -36,7 +36,7 @@ export class UserComponent implements OnInit  {
 
 2.How do you make a service available at the application level?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -59,9 +59,9 @@ export class UserService {
 
 ---
 
-3. How do you make service available at the NgModule level? _or_ How do you make service available for all components in a NgModule?
+3.How do you make service available at the NgModule level? _or_ How do you make service available for all components in a NgModule?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -87,7 +87,7 @@ When you register a provider with a specific NgModule, the same instance of a se
 
 4.How do you inject a dependency in angular?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>

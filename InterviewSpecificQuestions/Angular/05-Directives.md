@@ -1,6 +1,6 @@
 1.What are directives?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -14,7 +14,7 @@ Directives add behavior to an existing DOM element or an existing component inst
 
 2.What are the differences between Component and Directive?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -35,7 +35,7 @@ On a short note, A component(`@Component`) is a directive-with-a-template.Some o
 
 3.What are the different types of directives in Angular?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
   
 <details markdown="1">
 <summary> <b>Show Answer</b></summary>
@@ -54,7 +54,7 @@ On a short note, A component(`@Component`) is a directive-with-a-template.Some o
     
 4.Explain Structural Directives in Angular?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1">
 <summary> <b>Show Answer</b></summary>
@@ -96,7 +96,7 @@ On a short note, A component(`@Component`) is a directive-with-a-template.Some o
   
 5.Explain Attribute Directives in Angular?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1">
 <summary> <b>Show Answer</b></summary>
@@ -271,7 +271,7 @@ export class MyHighlightDirective {
 ```html
 <p myHighlight> Hi, there!!</p>	
 ```
-5.Launch the angular application by running `ng serve -o` command. The expected output will be,
+5.Launch the angular application by running `ng serve -o` command.The expected output will be,
 	
 ![image](https://user-images.githubusercontent.com/70228962/186374096-514930ba-f29c-424e-bcf8-11318b5c0734.png)
 
@@ -324,7 +324,7 @@ ngAfterViewInit() {
 
 11.What is `ng-template` in Angular?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>

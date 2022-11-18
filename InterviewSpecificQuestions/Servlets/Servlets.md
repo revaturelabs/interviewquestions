@@ -1,6 +1,6 @@
 1.	Define Servlets?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -16,7 +16,7 @@ Servlets can be defined as small Java program that runs within a Web server.It r
 
 2.	What are the functionalities of Servlets in java?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -32,7 +32,7 @@ Servlets provide several functionalities which include power, integration, effic
 
 3.	How do you create a servlet in a web application?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -50,7 +50,7 @@ To handle requests that are appropriate for the servlet, a typical servlet must 
   
 4.	What is the need of a HTTP servlet?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -66,7 +66,7 @@ A Http servlet typically does not override the `service()` method.However, it ac
   
 5.	How do you create server-side functionalities in servlets?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -94,7 +94,7 @@ Servlets can be added in HTML pages with the server-side include (SSI) functiona
   
 6.	 Explain 'init' and 'destroy' methods in servlets?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -111,7 +111,7 @@ Servlets init method is used to initialize a servlet.When the web container load
   
  7.How does a servlet get access and examine all its init parameters?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -129,7 +129,7 @@ Servlets init method is used to initialize a servlet.When the web container load
   
 8.Define Servlet chaining?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -145,7 +145,7 @@ Servlet Chaining is a way where the output of one servlet is piped to the input 
   
 9.Explain the Life Cycle of a Servlet?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -168,7 +168,7 @@ When a user enters a Uniform Resource Locator (URL) into a web browser.The brows
 
 10.Define Servlet Reloading?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -184,7 +184,7 @@ In servlet reloading, the objects in classloader are developed to load a class j
   
 11.How can we get the name of the server and the port number for a particular request using a servlet?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -252,7 +252,7 @@ string Hello! in bold type.
 
 13.Explain Single-Thread Model in servlets?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -270,7 +270,7 @@ string Hello! in bold type.
     
 14.How does Background Processing take place in servlets?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -286,7 +286,7 @@ A thread that has been started by a servlet can continue to execute even after t
   
 15.How does Servlet collaboration take place?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -307,7 +307,7 @@ Servlets running together in the same server have many ways to communicate with 
   
 16.Explain Request parameters in servlets?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -330,7 +330,7 @@ public String[] ServletRequest.getParameterValues(String name)
 	
 17.Explain the stages of inter-servlet communication?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -413,7 +413,7 @@ parameters.
 
 21.What is ServletRequest and ServletResponse Interface?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -429,7 +429,7 @@ The ServletRequest interface enables a servlet to obtain information about a cli
 
 22.What is GenericServlet Class?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -445,7 +445,7 @@ The GenericServlet class provides implementations of the basic life cycle method
 
 23.How will you distinguish between the ServletInputStream and ServletOutputStream classes? 
 	
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -526,7 +526,7 @@ pw.close();
 
 25.What are HTTP Servlet request, response and session interfaces in servlets?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -542,7 +542,7 @@ The HttpServletRequest interface enables a servlet to obtain information about a
 
 26.What is a Cookie Class?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -558,7 +558,7 @@ The Cookie class encapsulates a cookie.A cookie is stored on a client and contai
 
 27.How a servlet helps to create a cookie in the user's machine?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -599,7 +599,7 @@ The HttpServlet class extends GenericServlet.It is commonly used when developing
 
 29.Explain how it is possible to handle HTTP Requests in a servlet with examples?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -780,7 +780,7 @@ pw.close();
 
 31.What is Session Tracking?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 	
@@ -840,7 +840,7 @@ When you first request this servlet, the browser displays one line with the curr
 
 33.What is the difference between the web server and an application server?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -856,7 +856,7 @@ A web server’s responsibility is to handle HTTP requests from client browsers 
 
 34.Define MIME Type?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -873,7 +873,7 @@ The "Content-Type" response header is known as MIME Type.The server sends MIME t
 
 35.Explain Request Dispatcher?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -892,7 +892,7 @@ RequestDispatcher interface is used to forward the request to another resource t
 
 36.What is the difference between PrintWriter and ServletOutputStream?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -908,7 +908,7 @@ PrintWriter is a character-stream class whereas ServletOutputStream is a byte-st
 
 37.How can we create a deadlock situation in servlet?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -924,7 +924,7 @@ We can create a deadlock in the servlet by making a loop of method invocation, w
 
 38.What is the use of servlet wrapper classes?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -940,7 +940,7 @@ Servlet HTTP API provides two wrapper classes - `HttpServletRequestWrapper` and 
 
 39.What is HTTP Tunneling? 
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -955,7 +955,7 @@ HTTP Tunneling is a technique by which, communications performed using various n
 
 40.How can you differentiate GenericServlet and HttpServlet?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -971,7 +971,7 @@ GenericServlet is protocol-independent implementation of Servlet interface where
 
 41.How to achieve thread safety in servlets?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -987,7 +987,7 @@ HttpServlet `init()` method and `destroy()` method are called only once in the s
 
 42.How to invoke one servlet from another servlet?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -1003,7 +1003,7 @@ We can use RequestDispatcher `forward()` method to forward the processing of a r
 
 43.What is difference between ServletResponse `sendRedirect()` and RequestDispatcher `forward()` method?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -1023,7 +1023,7 @@ We can use RequestDispatcher `forward()` method to forward the processing of a r
 
 44.Why HTTP Servlet class is declared abstract?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -1041,7 +1041,7 @@ HttpServlet class provide HTTP protocol implementation of servlet but it's left 
 
 45.What are the different methods of session management in servlets?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -1064,7 +1064,7 @@ The session is a conversational state between the client and server, and it can 
 
 46.What is URL Rewriting?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -1080,7 +1080,7 @@ Servlet API provides support for URL rewriting that we can use to manage session
 
 47.How does Cookies work in Servlets?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -1096,7 +1096,7 @@ Cookies are text data sent by the server to the client and it gets saved on the 
 
 48.Why do we have servlet filters?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -1118,7 +1118,7 @@ Servlet Filters are pluggable java components that we can use to intercept and p
 
 49.How to handle exceptions thrown by an application with another servlet?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -1148,7 +1148,7 @@ The `doGet()` and `doPost()` methods throw ServletException and IOException.Sinc
 
 50.What is a deployment descriptor?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -1191,7 +1191,7 @@ The load-on-startup value should be int, if it's a negative integer then the ser
 
 52.What is a WAR file?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -1208,7 +1208,7 @@ The WAR (Web Application Resource) file specifies the web elements, Either a Ser
 
 53.Explain the MVC pattern.
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -1228,7 +1228,7 @@ Model-View-Controller (MVC) is a design pattern that divides a software applicat
 
 54.Explain the different methods involved in the process of session management in servlets?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -1254,7 +1254,7 @@ The different methods involved in the session management in servlets are as foll
 
 55.What is a Web Container?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -1270,7 +1270,7 @@ A web container or a Servlet container is used to interact with the Servlet and 
 
 56.How a servlet works without the `main()` method?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -1286,7 +1286,7 @@ Servlets don’t have a `main()` method.Because servlets are executed using web 
 
 57.What is the difference between Context Parameter and Context Attribute?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -1303,7 +1303,7 @@ Context Parameter is a value stored in the deployment descriptor, which is the `
 
 58.How can you create a session in servlet?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -1322,7 +1322,7 @@ We can create HttpSession object by calling the public method `getSession()` of 
 
 59.Explain the working of `service()` method in a servlet.
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -1347,7 +1347,7 @@ The container calls the `service()` method and service method invokes `doGet(), 
 
 60.How do you get the IP address of the client in the servlet?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 

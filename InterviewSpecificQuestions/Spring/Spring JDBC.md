@@ -2,7 +2,7 @@
 
 1.Why do we need `Spring JDBC` when we already have Java JDBC?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -19,7 +19,7 @@
 
 2.What is `DataSource` in Java application?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -88,7 +88,7 @@
 
 6.What connection pool does spring boot supports?
 
-![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
+![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -178,15 +178,15 @@
   
 | **Steps** | **Action**                                               | **Spring** | **Developer** |
 | --------- | -------------------------------------------------------- | ---------- | ------------- |
-| 1         | Define connection parameters.                           |            | X             |
-| 2         | Open the connection.                                    | X          |               |
-| 3         | Specify the SQL statement.                              |            | X             |
+| 1         | Define connection parameters.                          |            | X             |
+| 2         | Open the connection.                                   | X          |               |
+| 3         | Specify the SQL statement.                             |            | X             |
 | 4         | Declare parameters and provide parameter values          |            | X             |
-| 5         | Prepare and run the statement.                          | X          |               |
+| 5         | Prepare and run the statement.                         | X          |               |
 | 6         | Set up the loop to iterate through the results (if any).| X          |               |
-| 7         | Do the work for each iteration.                         |            | X             |
-| 8         | Process any exception.                                  | X          |               |
-| 9         | Handle transactions.                                    | X          |               |
+| 7         | Do the work for each iteration.                        |            | X             |
+| 8         | Process any exception.                                 | X          |               |
+| 9         | Handle transactions.                                   | X          |               |
 | 10        | Close the connection, the statement, and the result set.| X          |               |
 
 </blockquote> 
