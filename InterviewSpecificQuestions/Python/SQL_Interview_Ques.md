@@ -794,7 +794,7 @@ and class in [ "9th", "10th", "11th", "12th"];
   
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
-> - Denormalization can be described as the process to get back from all the normalized forms in the table to add some redundant data to it. 
+> - Denormalization can be described as the process to get back from all the normalized forms in the table to add some redundant data to it.
 > - It is a good idea to denormalize the tables to do the fast retrieval
 > - When there are multiple small tables and applying joins on those tables will be a costly operation.
 
@@ -961,7 +961,7 @@ on customers.id = orders.id;
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
-> Suppose we are taking customer names and order_id from both tables while doing the full join.  
+> Suppose we are taking customer names and order_id from both tables while doing the full join. 
 ```SQL
 select customers.name, orders.order_id
 from customers
@@ -1341,7 +1341,7 @@ select id from project);
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
-> The relationship between the two tables is established by the primary key- the foreign key.This foreign key constraint is also called a referential integrity constraint.The value of the foreign key is derived from the primary key of another table.   
+> The relationship between the two tables is established by the primary key- the foreign key.This foreign key constraint is also called a referential integrity constraint.The value of the foreign key is derived from the primary key of another table.  
 > In SQL there is two referential integrity constraint presents:  
 > - Insert Constraint: That says, we cannot insert values in a foreign key table if the value is not present in the primary key table.
 > - Delete Constraint: That says, we cannot delete any value from the primary key table if the value is present in the foreign key table.

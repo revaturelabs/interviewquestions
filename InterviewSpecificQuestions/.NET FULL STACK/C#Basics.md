@@ -102,7 +102,7 @@ The loop is a structure which can repeat a set of statements up to a fixed numbe
 
 ---
 
-7. What are constants?
+7.What are constants?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -122,7 +122,7 @@ A string constant is a sequence of alphanumeric characters enclosed in double qu
 
 ---
 
-8. Define Operators.
+8.Define Operators.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -138,7 +138,7 @@ Operators are symbols which are used to perform certain operations on data.These
 
 ---
 
-9. What is an Array?
+9.What is an Array?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -344,7 +344,7 @@ The difference is - `System.Array.CopyTo()` requires a destination array to exis
 
 ---
 
-19. What is the Difference between `int.Parse()` and `Convert.ToInt32()`?
+19.What is the Difference between `int.Parse()` and `Convert.ToInt32()`?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -352,7 +352,7 @@ The difference is - `System.Array.CopyTo()` requires a destination array to exis
 
 <blockquote markdown="1">
 
-`int.Parse()`  will convert only string to int. `Convert.ToInt32()` is used to convert any datatype to an int type.
+`int.Parse()`  will convert only string to int.`Convert.ToInt32()` is used to convert any datatype to an int type.
 
 </blockquote>
 
@@ -479,7 +479,7 @@ The Array which comprises elements of a typed array is called a Jagged Array.The
 
 ---
 
-26. What is the difference between `out` and `ref` parameters?
+26.What is the difference between `out` and `ref` parameters?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 

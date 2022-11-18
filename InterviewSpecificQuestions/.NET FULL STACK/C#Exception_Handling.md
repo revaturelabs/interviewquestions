@@ -27,7 +27,7 @@ When we write and execute our code in the .NET framework then there is a possibi
 
 <blockquote markdown="1"> 
 
-An Exception is a class in C# which is responsible for the abnormal termination of the program when runtime errors occur while running the program. So, these errors (runtime) are very dangerous because whenever the runtime errors occur in the programs, the program gets terminated abnormally on the same line where the error gets occurred without executing the next line of code.
+An Exception is a class in C# which is responsible for the abnormal termination of the program when runtime errors occur while running the program.So, these errors (runtime) are very dangerous because whenever the runtime errors occur in the programs, the program gets terminated abnormally on the same line where the error gets occurred without executing the next line of code.
 
 **Note**: Most people are saying Runtime Errors are Exceptions which is not true.Exceptions are classes that are responsible for the abnormal termination of the program when runtime errors occur.
 
@@ -100,7 +100,7 @@ The Exception Handling in C# is a 4 steps procedure:
 
 ---
 
-6. How is exception handling performed in C#?
+6.How is exception handling performed in C#?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 

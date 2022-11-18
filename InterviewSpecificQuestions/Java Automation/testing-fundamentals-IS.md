@@ -247,7 +247,7 @@ STLC defines a series of activities performed during testing to ensure the quali
   
 ---
 
-14. Which is better – White or Black Box Testing?
+14.Which is better – White or Black Box Testing?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -349,7 +349,7 @@ STLC defines a series of activities performed during testing to ensure the quali
   
 ---
 
-20. What is Defect/Bug Life Cycle in Software Testing?
+20.What is Defect/Bug Life Cycle in Software Testing?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -538,7 +538,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 <summary><b>Show Answer</b></summary>
 <blockquote markdown="1">
 
-- Performed after bug fixes, `Sanity Testing` determines that the bugs are fixed and that no further issues are introduced to these changes. 
+- Performed after bug fixes, `Sanity Testing` determines that the bugs are fixed and that no further issues are introduced to these changes.
 
 </blockquote>
 </details>
@@ -578,7 +578,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 ---
 
-34. What is the `Requirements Traceability Matrix (RTM)`?
+34.What is the `Requirements Traceability Matrix (RTM)`?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -613,7 +613,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 ---
 
-36. What is the `Priority` of Bug/Defects in Software Testing?
+36.What is the `Priority` of Bug/Defects in Software Testing?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -629,7 +629,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 ---
 
-37. Provide the key difference between the Priority and Severity of Defects in Software Testing?
+37.Provide the key difference between the Priority and Severity of Defects in Software Testing?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -819,7 +819,7 @@ with those solutions.
 
 ---
 
-47. What is the relation between Tester’s and Developer’s Mindsets?
+47.What is the relation between Tester’s and Developer’s Mindsets?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -1073,7 +1073,7 @@ A few parameters which are monitored during Performance Testing are listed below
 
 <blockquote markdown="1">
 
-- Happy Path in Use Case Analysis refers to the "path" that the user takes to achieve the desired result without encountering any error. 
+- Happy Path in Use Case Analysis refers to the "path" that the user takes to achieve the desired result without encountering any error.
 - Happy path test is a well-defined test case using known input, which executes without exception and produces an expected output.
   
 </blockquote>
@@ -1089,7 +1089,7 @@ A few parameters which are monitored during Performance Testing are listed below
 
 <blockquote markdown="1">
 
-- An alternate path describes a scenario other than the basic path that results in a user completing his or her goal. 
+- An alternate path describes a scenario other than the basic path that results in a user completing his or her goal.
 - It implies that the user has chosen to take an alternative path through the system.
   
 </blockquote>
@@ -1105,8 +1105,8 @@ A few parameters which are monitored during Performance Testing are listed below
 
 <blockquote markdown="1">
 
-- An exception path is an unintended path through the system usually because of missing information or system availability issues. 
-- Exception paths represent an undesirable path to the user. 
+- An exception path is an unintended path through the system usually because of missing information or system availability issues.
+- Exception paths represent an undesirable path to the user.
 - However, even though the exception path has occurred the system should still react in a way that recovers the flow and provides some useful information to the user.
   
 </blockquote>

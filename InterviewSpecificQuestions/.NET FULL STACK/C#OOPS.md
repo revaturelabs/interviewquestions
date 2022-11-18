@@ -132,7 +132,7 @@ A constructor is a member function with the same name as its class.The construct
 
 ---
 
-9. What is a destructor in C#?
+9.What is a destructor in C#?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -199,7 +199,7 @@ The four fundamental concepts of Object-Oriented Programming are:
 
 ---
 
-12. What are the different types of classes in C#?
+12.What are the different types of classes in C#?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -372,7 +372,7 @@ Both the `==` Operator and the `Equals()` method are used to compare two value-t
 
 ---
 
-20. What is the difference between fields and properties in C#?
+20.What is the difference between fields and properties in C#?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -388,7 +388,7 @@ A field is a member of a class or an object of any type that represents a locati
 
 ---
 
-21. What are circular references in C#?
+21.What are circular references in C#?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -733,7 +733,7 @@ A container that has objects which are ready to be used is known as an object po
 
 ---
 
-36. How do you inherit a class into another class in C#?
+36.How do you inherit a class into another class in C#?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -749,7 +749,7 @@ In C#, the colon can be used as an inheritance operator.You need to place a colo
 
 ---
 
-37. How can we set the class to be inherited, but prevent the method from being overridden?
+37.How can we set the class to be inherited, but prevent the method from being overridden?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 

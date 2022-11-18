@@ -70,7 +70,7 @@ Shell variable forms the core part of a shell script or program.The variable all
 
 ---
 
-5. How to create, read and delete files?
+5.How to create, read and delete files?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -94,7 +94,7 @@ Shell variable forms the core part of a shell script or program.The variable all
 
 ---
 
-6. How to create and delete a directory?
+6.How to create and delete a directory?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -115,7 +115,7 @@ Shell variable forms the core part of a shell script or program.The variable all
 
 ---
 
-7. What is the use of `head` and `tail` commands?
+7.What is the use of `head` and `tail` commands?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -410,7 +410,7 @@ Wednesday, October 2022 03:58:06 PM MDT
 
 ---
 
-23. What is the difference between diff and cmp commands?
+23.What is the difference between diff and cmp commands?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 

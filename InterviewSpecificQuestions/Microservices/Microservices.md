@@ -240,7 +240,7 @@
 </details>
 
 ---
-14. What is use of Netflix Eureka? 
+14.What is use of Netflix Eureka? 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 

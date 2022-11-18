@@ -1,6 +1,6 @@
 ## Technical
 
-1. What is Microsoft Azure?
+1.What is Microsoft Azure?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -101,7 +101,7 @@ SQL Azure is the cloud-based relational database that is offered by Microsoft.Th
 
 ---
 
-7. What will happen when the SQL Azure database reaches the max size?
+7.What will happen when the SQL Azure database reaches the max size?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -238,7 +238,7 @@ SQL Azure allows users to run their SQL server workloads as a hosted service (Pa
 
 ---
 
-15. How will you back up the SQL Azure data?
+15.How will you back up the SQL Azure data?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -322,7 +322,7 @@ For each database, three replicas are maintained for each database that one prov
 
 ---
 
-20. What is Sharding?
+20.What is Sharding?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -387,7 +387,7 @@ As of now, we have to build a custom solution at the application level that can 
 
 ---
 
-24. What is Federation?
+24.What is Federation?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 

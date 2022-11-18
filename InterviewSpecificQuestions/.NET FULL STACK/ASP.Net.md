@@ -31,7 +31,7 @@ ASP.NET is a server-side technology used for developing dynamic websites and web
 
 ---
 
-3. What is the ASP.NET Life Cycle, and list the types of Life Cycle?
+3.What is the ASP.NET Life Cycle, and list the types of Life Cycle?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -51,7 +51,7 @@ ASP.NET is a server-side technology used for developing dynamic websites and web
 
 ---
 
-4. What is ASP.NET MVC framework?
+4.What is ASP.NET MVC framework?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -142,7 +142,7 @@ By setting the EnableViewStateMac to true in the `@Page` directive.This attribut
 
 ---
 
-10. What is Server control?
+10.What is Server control?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -157,7 +157,7 @@ ASP.NET has Server Controls features, which provide facilities to manipulate the
 
 ---
 
-11. How many types of Server controls are supported by ASP.NET?
+11.How many types of Server controls are supported by ASP.NET?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -250,7 +250,7 @@ ASP.NET has 3 kinds of caching:
 
 ---
 
-16. Is it possible to create a web application with both webforms and MVC?
+16.Is it possible to create a web application with both webforms and MVC?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 

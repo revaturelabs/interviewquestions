@@ -287,7 +287,7 @@ Express is a flexible Node.js web application framework that provides a wide set
 
 ---
 
-18. What are streams in Node.js?
+18.What are streams in Node.js?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 

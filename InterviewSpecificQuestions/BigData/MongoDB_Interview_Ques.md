@@ -208,7 +208,7 @@ db.emp.find({name: /A/});
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
-> - The update() method can update multiple documents at a time, whereas the findAndModify() method, by default, can update a single document at a time. 
+> - The update() method can update multiple documents at a time, whereas the findAndModify() method, by default, can update a single document at a time.
   
 > - The update() method does not return any document after updation, whereas the findAndModify() method returns the pre-modified document.
 </details>
@@ -281,8 +281,8 @@ db.collection_name.find({
 
 > There are a few practices that one can follow to increase the query performance and fast retrieval of data:  
 > 1.We can create and use the indexes on the fields that are frequently a part of the query.
-> 2.While doing the find(), we can use projection to select only those fields that are required in the result. 
-> 3.We can also use the limit() method to limit the data that we want in our result. 
+> 2.While doing the find(), we can use projection to select only those fields that are required in the result.
+> 3.We can also use the limit() method to limit the data that we want in our result.
 
 </details>
 
@@ -305,9 +305,9 @@ db.collection_name.find({
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
-> As a developer we must make sure that all the data are not present in one single server or machine. 
-> -	We can distribute the data into different systems so, that if one system fails, we can get the data from other systems. 
-> -	We can also distribute the data into multiple servers of one system so that we can easily use the other server in case of downtime of one server. 
+> As a developer we must make sure that all the data are not present in one single server or machine.
+> -	We can distribute the data into different systems so, that if one system fails, we can get the data from other systems.
+> -	We can also distribute the data into multiple servers of one system so that we can easily use the other server in case of downtime of one server.
 
 </details>
 
@@ -542,7 +542,7 @@ db.collection_name.find({
 > There are many advantages document database gives over Relational or other databases:    
 > 1.They are schema-less.They don’t have any structure.
 > 2.No need to have a same number of fields in all the documents.Some may have > 4 fields while others may have 3 or 5 fields.
-> 3.They have a replica set that contains duplicate data in it.So if one server fails we can still recover the data from other servers. 
+> 3.They have a replica set that contains duplicate data in it.So if one server fails we can still recover the data from other servers.
 > 4.All the documents can be independent of one another as they don't have a foreign keys concept.
 </details>
 
@@ -566,7 +566,7 @@ db.collection_name.find({
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > Yes, it is correct that durability is one of the best features of MongoDB.
-Whenever there are a server failure or system crashes, we can still recover the data from the journal nodes as well as we can get the data from different replica sets. 
+Whenever there are a server failure or system crashes, we can still recover the data from the journal nodes as well as we can get the data from different replica sets.
 </details>
 
 ---
@@ -614,7 +614,7 @@ Whenever there are a server failure or system crashes, we can still recover the 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
-> Yes, MongoDB creates an Object-Id that is `_id`, which also works as an Index by default. 
+> Yes, MongoDB creates an Object-Id that is `_id`, which also works as an Index by default.
 </details>
 
 ---
@@ -658,7 +658,7 @@ db.collection.insertMany([{name: "Jack", dept: "training"},
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
-> To remove only one document without effecting any other document, we can use the `remove()` method with 'justOne' parameter set as 1.    
+> To remove only one document without effecting any other document, we can use the `remove()` method with 'justOne' parameter set as 1.   
 ```
 db.collection_name.remove({"name" : "Tom"},1);
 ```
@@ -792,7 +792,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > MongoDB stores the data in BSON format.Although both JSON and BSON looks same still there is one difference between them:     
-> - JSON is a text based format which stores the data in key-value pairs, on the other hand BSON is a binary format of JSON that provides efficient space in memory to store large data as well as it optimizes the speed to fetch the data from Memory. 
+> - JSON is a text based format which stores the data in key-value pairs, on the other hand BSON is a binary format of JSON that provides efficient space in memory to store large data as well as it optimizes the speed to fetch the data from Memory.
 > Because of this only it becomes the ideal choice to store the data in BSON format.
 
 </details>

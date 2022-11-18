@@ -28,7 +28,7 @@ Exceptions in Java can arise from different kinds of situations such as wrong da
 
 |                                       throw                                       |                                                                          throws                                                                         |
 |:---------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| Used inside a method when it is required to throw an Exception logically.       | Used in the method signature when the method has some statements that can lead to exceptions                                                            |
+| Used inside a method when it is required to throw an Exception logically.      | Used in the method signature when the method has some statements that can lead to exceptions                                                            |
 | Used to throw an exception explicitly.It can throw only one exception at a time.| Used to declare multiple exceptions, separated by a comma.When an exception occurs, it matches with the declared ones, and throws an exception automatically |
 | Syntax: throw new Exception()                                                     | Syntax: public static void writeToFile() throws Exception {}                                                                                            |
 

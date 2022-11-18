@@ -69,7 +69,7 @@
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
-> Other than `touch` command, we can use `echo` and `cat` commands to create an empty file.    
+> Other than `touch` command, we can use `echo` and `cat` commands to create an empty file.   
       
 > With `echo` command     
   `echo > file1.txt`    
@@ -107,7 +107,7 @@
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
-> To add the content of example1.txt and example2.txt files in the combine.txt file we can use the `cat` command.   
+> To add the content of example1.txt and example2.txt files in the combine.txt file we can use the `cat` command.  
 ```
 cat example1.txt example2.txt > combine.txt
 ```

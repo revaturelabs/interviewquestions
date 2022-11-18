@@ -1,6 +1,6 @@
 ## Technical
 
-1. What is Reflection in C#?
+1.What is Reflection in C#?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
