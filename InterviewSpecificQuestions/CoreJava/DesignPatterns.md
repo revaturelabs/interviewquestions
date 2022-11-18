@@ -8,8 +8,8 @@
 - Design patterns are reusable solutions to general problems including repetitive code, redundant functions, and logic that software developers faced during software development.
 - Design patterns are commonly used in object-oriented software products by incorporating best practices and promoting reusability for developing robust code.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 
 ---
@@ -29,8 +29,8 @@ The following are the components of the DAO Pattern.
 - **Data Access Object Interface:** DAO interface describes the standard actions to be performed on model objects.
 - **Data Access Object concrete class:** This class implements a DAO interface.This class is accountable to get data from a data source which can be XML/database or any other storage mechanism.
 - **Model Object or Value Object:** This object is a plain old java object containing get/set methods to store data retrieved using DAO class.
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -52,8 +52,8 @@ Implementations of the Singleton have these two steps in common:
 
 If your code has access to the Singleton class, then it’s able to call Singleton’s static method.So whenever that method is called, the same object is always returned.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -71,9 +71,9 @@ If your code has access to the Singleton class, then it’s able to call Singlet
 - I - Interface Segregation Principle (ISP): The ISP principle states that we can use as many interfaces specific to the client’s requirements instead of creating only one general interface.Clients should not be forced to implement the functionalities that they do not require.
 - D - Dependency Inversion Principle: Here, the high-level modules should not be dependent on the lower-level modules or concrete implementations.Instead, they should be dependent on abstractions.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -89,9 +89,9 @@ If your code has access to the Singleton class, then it’s able to call Singlet
 - Design principles are those principles that are followed while designing software systems for any platform by making use of any programming language.SOLID principles are the design principles that we follow as guidelines to develop robust, extensible, and scalable software systems.These apply to all aspects of programming.
 - Design Patterns are reusable template solutions for commonly occurring problems that can be customized as per the problem requirements.These are well-implemented solutions that are tested properly and safe to use.Factory Design Patterns, Singleton patterns, and Strategy patterns are a few examples of design patterns
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -185,9 +185,9 @@ For example, Let’s consider 3 classes Square, Rectangle, and Triangle.We will 
 	
 ```
 	
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -205,8 +205,8 @@ MVC stands for Model-View-Controller.This pattern is used for separating the app
 - View - This represents the data visualization of the model.
 - Controller - This is an interface between the Model and the View by controlling the flow of data into the model and updating the view whenever the model gets updated.This ensures that the model and the views are kept separate.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---

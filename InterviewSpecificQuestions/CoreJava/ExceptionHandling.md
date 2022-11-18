@@ -12,8 +12,8 @@ An exception is an error event that can happen during the execution of a program
 Exceptions in Java can arise from different kinds of situations such as wrong data entered by the user, hardware failure, network connection failure, or a database server that is down.The code that specifies what to do in specific exception scenarios is called exception handling.
 
  
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -33,8 +33,8 @@ Exceptions in Java can arise from different kinds of situations such as wrong da
 | Syntax: throw new Exception()                                                     | Syntax: public static void writeToFile() throws Exception {}                                                                                            |
 
  
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -54,8 +54,8 @@ To fix ClassNotFoundException, firstly we must go through the exception stack tr
 - Check for classpath settings and make sure the class it’s present at runtime.
 - Verify the requesting Class name is correct.
  
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -74,8 +74,8 @@ To fix ClassNotFoundException, firstly we must go through the exception stack tr
 
  - static keyword is used to create a class-level variable in java.static variables and methods are part of the class, not the instances of the class.
  
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -93,8 +93,8 @@ To fix ClassNotFoundException, firstly we must go through the exception stack tr
 
 - Errors are usually beyond the control of the programmer and we should not try to handle errors.
  
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -111,8 +111,8 @@ final is a keyword and it can be used to mark a variable "unchangeable".It is us
 
 Finally is a code block.It is used with a try-catch block for handling exceptions.Finally, a code block will be executed whether an exception is handled or not
  
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -130,8 +130,8 @@ Finally is a code block.It is used with a try-catch block for handling exception
 
 - **Unchecked Exceptions(java.lang.RuntimeException)** -> These exceptions occur at a run time, it is up to the programmer whether he wants to handle this or not, if he doesn’t handle it, it will lead to abnormal termination.Some of the unchecked exceptions are ArithmeticException, NullPointerException,ArrayIndexOutOfBoundException, etc.,
  
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -144,7 +144,7 @@ Finally is a code block.It is used with a try-catch block for handling exception
 	
 > catch or finally block.
 	
-</details>
+</details markdown="1">
 
 ---
 
@@ -156,7 +156,7 @@ Finally is a code block.It is used with a try-catch block for handling exception
 	
 > Whenever an exception is occurred in the try block, the rest of the code after the exception occurs line will not be executed.
 	
-</details>
+</details markdown="1">
 
 ---
 
@@ -172,8 +172,8 @@ yes, we can have multiple catch blocks with the single try block.
 
 Important Rule: The order of the catch block must be from most specific to most general one i.e.catch for ArithmeticException must come before catching for Exception.
 	
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -189,8 +189,8 @@ Important Rule: The order of the catch block must be from most specific to most 
 - When our program uses various concepts like an array, file handling, database, etc.at the same time and each of them may throw exceptions due to one reason or another.
 - To catch the generic exception we simply use 'Exception' in the catch block parameter and it can catch every exception like ArrayIndexOutOfBound, FileNotFound, etc.But the problem with this is we are not catching the specific exception.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -208,8 +208,8 @@ Important Rule: The order of the catch block must be from most specific to most 
  1.try, catch, and finally block
  2.throw, throws
  
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -224,8 +224,8 @@ Important Rule: The order of the catch block must be from most specific to most 
  
  Errors happen while an application is running.For instance, an Out of Memory Error occurs in case the JVM runs out of memory.On the other hand, exceptions are mainly caused by the application.For instance, Null Pointer Exception happens when an app tries to get through a null object.
  
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -240,8 +240,8 @@ Important Rule: The order of the catch block must be from most specific to most 
  
 Java allows us to create our exception based on our needs known as a custom exception or user-defined exception.
  
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -266,7 +266,7 @@ public class IncorrectUserNameException extends Exception {
 }
 ```
  
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---

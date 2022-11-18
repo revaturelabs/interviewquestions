@@ -8,8 +8,8 @@
   
  When passing data from the Parent to Child component, you can use the `@Input` decorator in the Child component.When passing data from the Child to the Parent component, you can use the `@Output` decorator in the Child component.
   
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 	
 --- 
 2.How would you pass data from a parent to a child component or a child to a parent component?
@@ -74,8 +74,8 @@ import { Component } from '@angular/core';
 ```
 ![image](https://user-images.githubusercontent.com/103101208/185595719-d657e42b-362d-4131-8378-072ec2d2ca79.png)
   
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 	
 --- 
   

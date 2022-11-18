@@ -8,8 +8,8 @@
 
 `@angular/common/http` 
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  
@@ -23,8 +23,8 @@
 
 The front-end of applications communicates with back-end services to get or send the data over HTTP protocol using either XMLHttpRequest interface or fetch API .This communication is done in Angular with the help of `HttpClient`.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  
@@ -43,8 +43,8 @@ The front-end of applications communicates with back-end services to get or send
 
 All `HttpClient` methods return an **Observable** of something.In general, an observable can return multiple values over time.
 	
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  
@@ -58,8 +58,8 @@ All `HttpClient` methods return an **Observable** of something.In general, an ob
 	
 We can consume RESTful APIs in Angular applications using HttpClient API.
 	
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  
@@ -121,8 +121,8 @@ export class EmployeeService {
 }
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  
@@ -139,8 +139,8 @@ Observable in Angular is a feature that provides support for delivering messages
 	
 All `HttpClient` methods return an **Observable** of something.
 	
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  
@@ -162,8 +162,8 @@ By verifying if an error is an instance of *ErrorEvent*, we can figure out which
 
 To catch errors, we "pipe" the observable result from `http.get()` (or any *HttpClient* methods) through an RxJS `catchError()` operator.Also, we add the `retry(1)` function to the pipe to retry all requests once before failing.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  
@@ -177,8 +177,8 @@ To catch errors, we "pipe" the observable result from `http.get()` (or any *Http
 
 A Subject is a special type of Observable that allows values to be multicasted to many Observers.The subjects are also observers because they can subscribe to another observable and get value from it, which it will multicast to all its subscribers.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  
@@ -192,9 +192,9 @@ A Subject is a special type of Observable that allows values to be multicasted t
 
 Every Subject is an Observable.Given a Subject, you can subscribe to it, providing an Observer, which will start receiving values normally.From the perspective of the Observer, it cannot tell whether the Observable execution is coming from a plain unicast Observable or a Subject.
 
-</blockquote>
+</blockquote  markdown="1">
 	
-</details>
+</details markdown="1">
   
 ---
  
@@ -230,7 +230,7 @@ const observable = new Observable(data) => {
 ```
 	
 
-</details>
+</details markdown="1">
 	
 ---
 
@@ -244,8 +244,8 @@ const observable = new Observable(data) => {
 
 Using the `HttpClient` Service
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  

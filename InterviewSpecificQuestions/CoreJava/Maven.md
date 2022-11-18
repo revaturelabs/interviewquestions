@@ -9,8 +9,8 @@
 - It allows us to create projects, dependency, and documentation using Project Object Model and plugins.
 - It can also build any number of projects into desired output such as jar, war, metadata.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -24,8 +24,8 @@
 - Maven is a build automation tool used primarily for Java projects.
 - Maven can also be used to build and manage projects written in C#, Ruby, Scala, and other languages.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -40,8 +40,8 @@
 -  Accessibility of new feature created or added in Maven can be easily added to a project in Maven configuration that will increases the performance of project and building process.
 - Apart from all these the main feature of Maven is that it can download the project dependency libraries automatically.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -54,8 +54,8 @@
 
 - Builds, Documentation, Reporting, Dependencies, SCMs, Releases, Distribution, mailing list
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -70,8 +70,8 @@
 - POM includes all the configuration setting related to Maven.Plugins can be configured and edit in the  `<plugins>` tag of a pom.xml file and developer can use any plugin without much detail of each plugin.
 - When user start working on Maven Project, it provides default setting of configuration, so the user does not need to add every configuration in pom.xml.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -84,8 +84,8 @@
 
 - Maven uses Convention over Configuration which means developers are not required to create build process themselves.and they don’t have to mention each and every configuration details.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -98,8 +98,8 @@
 
 A Build lifecycle is a well-defined sequence of phases that outline the order in which the goals are to be executed.Here phase represents a stage in the life cycle.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -115,8 +115,8 @@ A Build lifecycle is a well-defined sequence of phases that outline the order in
  - Default (or build): this can be accustomed to build the appliance.
  - Site: generates site documentation for the project.
 
- </blockquote>
- </details>
+</blockquote  markdown="1">
+ </details markdown="1">
 
  ---
 
@@ -131,8 +131,8 @@ A Build lifecycle is a well-defined sequence of phases that outline the order in
 - An artifact is a file, usually a JAR that gets deployed to a Maven repository.A Maven build produces one or more artifacts, such as a compiled JAR and a `sources` JAR.
 - Each artifact has a group ID, an artifact ID , and a version string.The three together uniquely identify the artifact.A project's dependencies are specified as artifacts.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -152,8 +152,8 @@ A Build lifecycle is a well-defined sequence of phases that outline the order in
 - install : install the package into the local repository, for use as a dependency in other projects locally.
 - deploy : done in an integration or release environment, copies the final package to the remote repository for sharing with other developers and projects.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -169,8 +169,8 @@ The clean lifecycle consists of the following phases:
   - clean.
   - post-clean.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -187,8 +187,8 @@ The phases in site lifecycle are:
   - post-site
   - site-deploy
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -203,8 +203,8 @@ In Maven, the setting files are called settings.xml, and the two setting files a
 - Maven installation directory: $M2_Home/conf/settings.xml
 - User’s home directory: ${ user.home }/ .m2 / settings.xml
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -217,8 +217,8 @@ In Maven, the setting files are called settings.xml, and the two setting files a
 
 `jar: jar` will not recompile sources; it will imply just create a JAR from the target/classes directory considering that everything else has been done.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -235,8 +235,8 @@ The maven’s order of inheritance is
   - Settings
   - CLI parameters
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -249,8 +249,8 @@ The maven’s order of inheritance is
 
 To run test classes in Maven, we need surefire plugin, and we need to check and configure our settings in setting.xml and pom.xml for a property named `test.`
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -264,8 +264,8 @@ To run test classes in Maven, we need surefire plugin, and we need to check and 
 Make sure JDK is installed, and `JAVA_HOME`  the variable is added as a Windows environment variable.
 Add both `M2_HOME` and `MAVEN_HOME` variable in the Windows environment and point it to your Maven folder.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -282,8 +282,8 @@ Four goals associated with archetype plugin:
    - Create-from-project creates an archetype from an existing project.
    - Crawl : searches the repository for archetype and updates catalog.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -297,8 +297,8 @@ Four goals associated with archetype plugin:
 - Basically, these are parent projects without code used by companies to define the set of libraries/versions, plugins they want their teams using.It can have dependencies, build plugins, variables definitions, and even their own parent POM, forming a chain.
 - A great example is Spring Boot.You can extract it to create production-grade web services crazily fast.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -311,8 +311,8 @@ Four goals associated with archetype plugin:
 
 Dependency with reach system is always accessible and is not looked up in the repository.They are regularly used to tell Maven about dependencies that are provided by the JDK.So, system dependencies are mainly useful for resolving dependencies on artefacts that JDK usually provides.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -325,8 +325,8 @@ Dependency with reach system is always accessible and is not looked up in the re
 
 It refers to the settings.xml to look for the repositories to look for the resource.It first looks into the configured local repository, then it looks into the configured remote repositories.If the resource is still not found , it looks it within maven repository central i.e., repo1.maven.org.If it’s still not found, it throws the exception saying `Unable to find resource in repository central`.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 22.How can we look into the Dependencies for the project and where they are defined ?
 
@@ -337,8 +337,8 @@ It refers to the settings.xml to look for the repositories to look for the resou
 
 Using mvn dependency:tree
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -360,8 +360,8 @@ There are three types of Maven repositories:
     - Central repository refers to the Maven community that comes into action when there is a need for dependencies, and those dependencies cannot be found in the local repository.
     - Maven downloads the dependencies from here in the local repository whenever needed.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -377,8 +377,8 @@ There are two types of Maven Plugins:
 - **Build plugins** : These plugins are executed during the build and are configured in the `<build/>` element of pom.xml
 - **Reporting plugins** : These plugins are executed during the stage generation and are configured in the `<reporting/>` element of the pom.xml.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -392,8 +392,8 @@ There are two types of Maven Plugins:
 Dependencies refer to the Java libraries that are needed for the project.Repositories refer to the directories of packaged JAR files.
 If the dependencies are not present in your local repository; then Maven downloads them from a central repository and stores them in the local repository.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -408,8 +408,8 @@ If the dependencies are not present in your local repository; then Maven downloa
 - These dependencies are used when it is not feasible to divide a project into sub-modules.
 - Some dependencies are only used for a specific feature in the project, and if that feature is not there, then that dependency will not be used.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -423,8 +423,8 @@ If the dependencies are not present in your local repository; then Maven downloa
 - All the JARS, dependency files, etc.that are downloaded by Maven are saved in the Maven local repository.
 - The Maven local repository is a folder location on the local system where all the artifacts are locally stored.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -438,8 +438,8 @@ If the dependencies are not present in your local repository; then Maven downloa
 `mvn install` is used to install JAR files in the local repository.
 To install the JAR manually into the local Maven repository, the following plugin is used: `mvn install:install-file-Dfile=<path to file>.`
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -456,8 +456,8 @@ Creating a project from an archetype consists of four steps:
 - the configuration of that archetype.
 - the project’s efficient creation based on the data collected.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -470,7 +470,7 @@ Creating a project from an archetype consists of four steps:
 
 Snapshot refers to the version available in the Maven remote repository.It signals the latest development copy.Maven inspects for a new version of Snapshot in the remote repository, for every new build.The snapshot is updated by the data service team with an updated source code every time to the repository for each Maven build.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---

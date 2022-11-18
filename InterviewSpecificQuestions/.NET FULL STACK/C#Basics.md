@@ -10,9 +10,9 @@
     
 C# is a general-purpose, high-level multi-paradigm programming language.C# encompasses static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -28,9 +28,9 @@ C# is a general-purpose, high-level multi-paradigm programming language.C# encom
 
 - For example, we can store any value from -2,147,483,648 to 2,147,483,647 or null in a `Nullable<Int32>` variable.Similarly, we can assign true, false, or null in a `Nullable<bool>` variable.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -44,9 +44,9 @@ C# is a general-purpose, high-level multi-paradigm programming language.C# encom
 
 Variables are named memory locations (memory cells) which are used to store the program’s input and its computational results during program execution.As the name suggests, the value of a variable may change during the program execution.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -60,8 +60,8 @@ Variables are named memory locations (memory cells) which are used to store the 
 
 We can store any type of value in the dynamic data type variable.Type checking for these types of variables takes place at run-time.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -80,9 +80,9 @@ Reserved words or keywords are words, which have predefined meanings.They have p
  - ELSE
  - THEN
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -96,9 +96,9 @@ Reserved words or keywords are words, which have predefined meanings.They have p
 
 The loop is a structure which can repeat a set of statements up to a fixed number of times or until a certain criterion is satisfied.Name different types of loops.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -116,9 +116,9 @@ Numeric constants consist of integers, single precision, or double-precision num
 
 A string constant is a sequence of alphanumeric characters enclosed in double quotation marks.The maximum length of a string constant is 255 characters.For example, 'New York`.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -132,9 +132,9 @@ A string constant is a sequence of alphanumeric characters enclosed in double qu
 
 Operators are symbols which are used to perform certain operations on data.These include arithmetic, relational, logical, and assignment operators.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -150,9 +150,9 @@ An array is a data structure that stores a fixed number of literal values (eleme
 
 In C#, an array can be of three types: single-dimensional, multidimensional, and jagged array.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -168,9 +168,9 @@ In .NET, the namespace keyword is used to declare a namespace in the code.The sy
 
 `namespace UserNameSpace;`
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -203,9 +203,9 @@ switch(choice) {
 ```
 In switch statements, the break statement is used at the end of a case statement.The break statement is mandatory in C# and it avoids the fall-through of one case statement to another.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -226,9 +226,9 @@ The variables that are based on value types directly contain values.The characte
   - Structs - Summarizes small groups of related variables.
   - Enumerations - Consists of a set of named constants.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -246,9 +246,9 @@ A parameter is a special kind of variable, which is used in a function to provid
 - Output type 
 - Optional parameter 
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -265,9 +265,9 @@ The variables are based on reference types of store references to the actual dat
 - **Interface** - Contains only the signatures of methods, properties, events, or indexers.
 - **Delegate** - Refers to a reference type that is used to encapsulate a named or anonymous method.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -290,9 +290,9 @@ The different types of literals in C# are:
   - A verbatim string literal consists of the @ character followed by a double-quote character, such as @hello.
 - **The Null literal** - Represents the null-type.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -306,9 +306,9 @@ The different types of literals in C# are:
 
 Using the `break` statement, we can jump out of a loop whereas by using the `continue` statement, we can jump over one iteration and then resume our loop execution.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -322,9 +322,9 @@ Using the `break` statement, we can jump out of a loop whereas by using the `con
 
 The difference is - `System.Array.CopyTo()` requires a destination array to exist before and it must be capable to hold all the elements in the source array from the index that is specified to copy from the source array.On the other hand, `System.Array.Clone()` method does not require the destination array to exist as it creates a new one from scratch.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -338,9 +338,9 @@ The difference is - `System.Array.CopyTo()` requires a destination array to exis
 
 `ToString()` does not handle null values but `Convert.ToString()` will handle null values
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -354,9 +354,9 @@ The difference is - `System.Array.CopyTo()` requires a destination array to exis
 
 `int.Parse()`  will convert only string to int. `Convert.ToInt32()` is used to convert any datatype to an int type.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -372,9 +372,9 @@ The difference is - `System.Array.CopyTo()` requires a destination array to exis
 
 - `SizeOf()` is used to get the size of the Datatype.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -396,9 +396,9 @@ The narrowing is used to convert longer datatypes to smaller Datatype
 
 **Note::** Working with Narrowing is an unsafe type of programming.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -421,9 +421,9 @@ The narrowing is used to convert longer datatypes to smaller Datatype
 
 - `string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};`
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -441,9 +441,9 @@ There are generally considered to be three main types of control statements, eac
 **Iteration statements**, which enable us to loop through connections or perform the same series of operations repeatedly until a specified condition is met.
 **Jump statements**, which enable control of flow to be shifted to another section of code.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -457,9 +457,9 @@ There are generally considered to be three main types of control statements, eac
 
 A string object is immutable, meaning that it cannot be changed after it’s created.Any operation that tries to modify the string object will simply create a new string object.On the other hand, a string builder object is mutable and can be modified.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -473,9 +473,9 @@ A string object is immutable, meaning that it cannot be changed after it’s cre
 
 The Array which comprises elements of a typed array is called a Jagged Array.The elements in Jagged Arrays can be of various dimensions and sizes.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -489,9 +489,9 @@ The Array which comprises elements of a typed array is called a Jagged Array.The
 
 When an argument is passed as a `ref`, it must be initialized before it can be passed to the method.An `out` parameter, on the other hand, need not be initialized before passing to a method.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -505,9 +505,9 @@ When an argument is passed as a `ref`, it must be initialized before it can be p
 
 In C#, garbage collection is the process of managing memory in an application.The garbage collector automatically disposes of memory that is no longer used to make memory available for new allocations.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
     
 ---
 
@@ -524,9 +524,9 @@ A stream is a sequence of bytes travelling from a source to a destination over a
 - **Input stream**: This stream is used to read data from a file, which is known as a read operation.
 - **Output stream**: This stream is used to write data into a file, which is known as a write operation.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -542,9 +542,9 @@ In C#, the `System.IO` namespace contains the required classes which are used to
 
 **Note**: The FileIno, DirectoryInfo, and DriveInfo classes have instance methods.File, Directory, and Path classes have static methods.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -560,9 +560,9 @@ In C#, the `System.IO` namespace contains the required classes which are used to
 
 - To use FileStream class in C#, first of all, we need to include the System.IO namespace and then we need to create an instance of the FileStream object to create a new file or open an existing file.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 

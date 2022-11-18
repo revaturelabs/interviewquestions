@@ -9,8 +9,8 @@
 
 A process is a program in execution.A thread is a subset of a process.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -29,8 +29,8 @@ In Java, we can create a thread using
 2.By Implementing Runnable interface in Java
 
  
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -52,8 +52,8 @@ At any given time, a thread can be in one of these states:
 - Timed_Waiting: waiting for some other thread to perform a specific action for a specified time period
 - Terminated: has completed its execution
  
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -70,9 +70,9 @@ At any given time, a thread can be in one of these states:
 
 - `notifyAll()`: It sends notifications and wakes up all threads and allows them to compete for the object's monitor instead of a single thread.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -86,8 +86,8 @@ At any given time, a thread can be in one of these states:
 
 Synchronization in java is the capability to control the access of multiple threads to any shared resource.In the Multithreading concept, multiple threads try to access the shared resources at a time to produce inconsistent results.The synchronization is necessary for reliable communication between threads.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -101,9 +101,9 @@ Synchronization in java is the capability to control the access of multiple thre
 
 Thread starvation is basically a situation or condition where a thread won’t be able to have regular access to shared resources and therefore is unable to proceed or make progress.This is because other threads have high priority and occupy the resources for too long.This usually happens with low-priority threads that do not get CPU for its execution to carry on.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -117,9 +117,9 @@ Thread starvation is basically a situation or condition where a thread won’t b
 
 No, it's not at all possible to restart a thread once a thread gets started and completes its execution.Thread only runs once and if you try to run it for a second time, then it will throw a runtime exception i.e., `java.lang.IllegalThreadStateException`.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 

@@ -10,9 +10,9 @@
     
 - In the case of Spring MVC, DispatcherServlet is the front controller.
 - DispatcherServlet acts as an entry and exit point for any request received by the rom client.
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -28,9 +28,9 @@
 - Once the handler mapping returns the controller the DispatcherServlet knows the controller which can handle the request and goes there for further request processing.
 - Once the controller returns the view the DispatcherServlet goes to the view resolver to identify where the view is located.
 - DispatcherServlet then grabs the view and returns as the final l response.
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -57,9 +57,9 @@
 </servlet-mapping>
 ```
 - If we are using `the spring-boot-starter-web` starter, DispatcherServletauto-configured to the URL pattern "/".So, we don't need to do any additional configuration in the web.xml file.
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 4.How to change the default context path URL pattern of DispatcherServlet in Spring MVC?
@@ -77,9 +77,9 @@ spring.mvc.servlet.path=/v2
 ```
 - With the above customizations, DispatcherServlet is configured to handle the URL pattern /v2 and the rcontext Path will be /admin.
 - Thus, DispatcherServlet listens at http://localhost:8080/admin/v2/.
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -112,9 +112,9 @@ public class UserRestController{
     // GET user details for specific userid: <protocol>://<hostUrl>/users/<userid>
 }
 ```
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 6.How do you ensure both "/" and "/welcome" request mappings land in the "index" view in Spring MVC applications?
@@ -132,9 +132,9 @@ public String homePage(){
   return "index";
 }
 ```
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 7.Can @Controller annotation be used for both Spring MVC and RESTful applications?
@@ -160,9 +160,9 @@ public class RestControllerB {
 
 } 
 ```
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 8.What does @Controller & @RestController returns?
@@ -175,9 +175,9 @@ public class RestControllerB {
     
 - @Controller returns a view in the Spring MVC application.
 - @RestController returns an object as a response instead of a view.
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 9.What is the use of @ResponseBody in Spring?
@@ -191,9 +191,9 @@ public class RestControllerB {
 - @ResponseBody is a Spring annotation which binds a method return value to the web response body.
 - It is not interpreted as a view name.
 - It uses `org.springframework.http.converter Interface HttpMessageConverter<T>` to convert the return value to the HTTP response body, based on the content type in the request HTTP header.
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 10.What are MIME Types?
@@ -211,9 +211,9 @@ public class RestControllerB {
 - For example, the MIME type for Microsoft Word files is an application and the subtype is ms-word.Together, the complete MIME type is application/ms-word.
 - The entire list of MIME types is available under Internet Assigned Numbers Authority (IANA) website- https://www.iana.org/assignments/media-types/media-types.xhtml
 - The MIME types & extensions can be found under-https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types 
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 11.What is the use of `@RequestBody` in Spring?
@@ -227,9 +227,9 @@ public class RestControllerB {
 - `@RequestBody` annotation request body to method parameters.
 - We use the `@RequestBody` annotation to have the request body read and deserialized into an Object through an `HttpMessageConverter`.
 - Additionally, automatic validations can be applied by annotating the argument with @Valid annotation.
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 12.What is the meaning of Content Negotiation?
@@ -244,9 +244,9 @@ public class RestControllerB {
 - When a consumer sends a request, it can specify two HTTP Headers related to Content Negotiation `Accept` and `Content-Type`.
 - `Content-Type` indicates the content type of the body of the request.
 - `Accept` indicates the expected content type of the response.
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 13.What is RESTprotocol-dependentependent?
@@ -259,9 +259,9 @@ public class RestControllerB {
     
 - REST is about resource state manipulation through their representations at the top of stateless communication between client and server.
 - It's a protocol-independent architectural style but, in practice, it's commonly implemented on top of the HTTP protocol.
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 14.What are “representation", "state" and "transfer" in Representational State Transfer (REST)?
@@ -281,9 +281,9 @@ public class RestControllerB {
     - A JSON document can be used to represent the state of a particular resource.A resource can have many representations, such as JSON and/or XML documents, and the client can use content negotiation to request different representations of the same resource.
   - What is a `state transfer`-
     - The state of a given resource can be retrieved and manipulated using representations.
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 15.What is REST API versioning? 
@@ -296,9 +296,9 @@ public class RestControllerB {
     
 - API versioning is the process of transparently managing changes to your API.
 - Versioning aims at effective communication around changes to API, so consumers/subscribers know what to expect from it.
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 16.How do we provide a version to RESTful APIs in Spring?
@@ -334,9 +334,9 @@ public class ControllerV2 {
   //...
 }
 ```
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 17.Which object is used as a base context in the Spring MVC application? Why?
@@ -354,9 +354,9 @@ public class ControllerV2 {
 - In one web application, there can be multiple DispatcherServlet, one for handling request and returns view whereas another which handle REST request & responses.
 - Each DispatcherServlet is associated with a single WebApplicationContext.
 - The WebApplicationContext configuration file `*-servlet.xml` is specific to the DispatcherServlet and a web application can have more than one DispatcherServlet configured to handle the requests and each DispatcherServlet would have a separate `*-servlet.xml` file to configure.
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 18.What is the difference between `applicationContext.xml` and `*-servlet.xml` in Spring Framework?
@@ -372,9 +372,9 @@ public class ControllerV2 {
 - `*-servlet.xml` defines the beans that are related only to specific DispatcherServlet.
 - All our Spring MVC controllers are defined in this file.
 - There is nothing wrong in defining all the beans in the `*-servlet.xml` if we are running only one DispatcherServlet in our web application.
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 

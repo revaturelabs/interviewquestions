@@ -8,8 +8,8 @@
 
 The `ng test` command builds the application in watch mode and launches the Karma test runner.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -23,8 +23,8 @@ The `ng test` command builds the application in watch mode and launches the Karm
 
 The test file extension **must be `.spec.ts`** so that tooling can identify it as a file with tests (also known as a spec file).
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -39,8 +39,8 @@ The test file extension **must be `.spec.ts`** so that tooling can identify it a
 - Jasmine is free and open-source Behavior Driven Development (BDD) framework.
 - Using Jasmine, one can perform test cases similar to user behavior on a website.It is very beneficial for front-end testing.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -54,8 +54,8 @@ The test file extension **must be `.spec.ts`** so that tooling can identify it a
 
 Karma is a task runner for our tests.It allows the users to execute their Jasmine test codes in multiple real-time browsers from the command line.This command line also displays the result of the tests.It watches the files for changes and re-runs the tests automatically.By default, Angular runs on Karma.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -76,7 +76,7 @@ There are three main methods in this test file:
 - `it()` – It’s the smallest unit test case that is written to be executed, which calls a global Jasmine function with two parameters: a string and a function.Multiple `it()` statements can be written inside the `describe()`
 - `expect()` – Every `it()` statement has a `expect()` function which takes a value and expects a return in true form
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---

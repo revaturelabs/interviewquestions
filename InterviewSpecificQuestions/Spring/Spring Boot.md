@@ -11,9 +11,9 @@
 - It’s simple, any console/desktop or web application that wants to leverage DI & other key features provided by Core Spring modules can use the Spring framework.
 - Spring Boot framework was evolved on top of Spring framework to support microservices-based architecture on the cloud.
 - Spring Boot framework is popularly used to develop Web/Enterprise Applications, RESTful API & Microservices.
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 2.Why do we need a `Service layer`? Can’t we call the `Repository layer` directly inside the `Controller layer`?
@@ -31,9 +31,9 @@
 - One Service layer may depend on multiple Repository layers to serve a specific business purpose.
 - The method names in Service layer are usually named as per the business purpose they serve whereas method names in Repository are named as standard CRUD operations supported by that Repository.
 - Hence, we need Service layer between DAO and Controller layer.
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 3.Is it safe to keep the DB & other critical passwords directly inside property file(s)?
@@ -52,9 +52,9 @@ mvn spring-boot:run -Dspring-boot.run.jvmArguments='
 -Dspring.datasource.username=admin 
 -Dspring.datasource.password=gd123'
 ````
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 4.As a developer you need to check your production application status daily, how does Spring Boot could help here?
@@ -85,8 +85,8 @@ mvn spring-boot:run -Dspring-boot.run.jvmArguments='
 - We need to add the following configuration to expose all endpoints: 
 `management.endpoints.web.exposure.include=*`
 
-</blockquote> 
-</details>
+</blockquote  markdown="1"> 
+</details markdown="1">
 
 ---
 5.What is Spring profile and why do we use it?
@@ -116,9 +116,9 @@ public class TestConfiguration {
 - You can specify the property in any of the usual ways, for example, you could include it in your application.properties:
 `spring.profiles.active=test`
 or specify on the command line using the switch `--spring.profiles.active=prod`.
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 6.How can you define multiple profiles in the Spring Boot application? How to add an active profile?
@@ -155,9 +155,9 @@ src
 └── test
     └── java
 ```
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 7.What happens when two profiles are set for property `spring.profiles.active` in the Spring application?
@@ -170,9 +170,9 @@ src
     
 - If several profiles are specified, a last-wins strategy applies.
 - For example, if profiles prod,live are specified by the spring.profiles.active property (i.e.`spring.profiles.active=prod,live`), values in `application-prod.properties` can be overridden by those in `application-live.properties`.
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 8.Which `pom.xml` file inside the Spring Boot framework defines versions of all pre-configured dependencies?
@@ -186,9 +186,9 @@ src
 - Spring Boot framework has utilized the concept of parent and child pom file inheritance and defined all the dependencies specific to its release version under `spring-boot-dependencies` module.
 - For example, refer to this link: https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-dependencies/2.7.3/spring-boot-dependencies-2.7.3.pom
 
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 9.What is Bean Validation API? How can we use it in Spring?
@@ -216,9 +216,9 @@ src
   </dependency>
 ```
 
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 10.Explain a few `hibernate-validator` Spring bean validation annotations?
@@ -236,9 +236,9 @@ src
   - `@Min` and `@Max`: Numerical field is only valid when its value is above or below a certain value.
   - `@Pattern`: String field is only valid when it matches a certain regular expression.
   - `@Email`: String field must be a valid email address.
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 11.What does the `@Valid` annotation indicate in Spring?
@@ -270,9 +270,9 @@ public class InputForm {
 }
 ```
 
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -294,9 +294,9 @@ public class RestApiExceptionHandlerAdvice {
     /** Handle all business exceptions here */  
 }
 ```
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -327,9 +327,9 @@ public class RestApiExceptionHandlerAdvice {
     } 
 }
 ```
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 14.Have you used the HAL browser in Spring? How to use it?
@@ -355,9 +355,9 @@ public class RestApiExceptionHandlerAdvice {
 ```
 - If we have the above dependency, Spring will auto-configure the HAL browser, and make it available via the default endpoint.
 - All we need to do now is press run and switch to the browser.The HAL browser will then be available on http://localhost:8080/
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 15.What is the use of the `ResponseEntity` class in Spring?
@@ -381,9 +381,9 @@ public class RestApiExceptionHandlerAdvice {
    return new ResponseEntity<String>("Hello World", responseHeaders, HttpStatus.CREATED);
  }
 ```
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -397,9 +397,9 @@ public class RestApiExceptionHandlerAdvice {
 
 Spring Boot is a microservice-based framework and making a production-ready application in it takes very less time.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -413,8 +413,8 @@ Spring Boot is a microservice-based framework and making a production-ready appl
 
 `@RestController` is a convenience annotation for creating Restful controllers.It is a specialization of @Component and is autodetected through classpath scanning.It adds the @Controller and @ResponseBody annotations.It converts the response to JSON or XML.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---

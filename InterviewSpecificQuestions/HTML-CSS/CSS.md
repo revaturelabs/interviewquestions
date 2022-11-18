@@ -7,8 +7,8 @@
 
 CSS is a styling language that makes HTML web pages more presentable.It allows you to add color, design, and buttons, among other things, to a website.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -50,8 +50,8 @@ CSS is a styling language that makes HTML web pages more presentable.It allows y
 
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -69,8 +69,8 @@ The CSS box model is a rectangular layout paradigm for HTML elements that consis
 **Border** - A border surrounding the padding (if any) and content
 **Margin** - A transparent area surrounding the border (i.e., the amount of space between the border and any neighboring elements)
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -87,8 +87,8 @@ Web browsers apply CSS rules to a document to affect how they are displayed.A CS
 - A **selector**, which selects the element(s) you want to apply the updated property values to.
 - A **set of CSS rules** contained within a stylesheet determines how a webpage should look.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -105,8 +105,8 @@ CSS3 has the elements as syntax rules; they are
 - Property.
 - It's Value.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -125,8 +125,8 @@ CSS3 has the elements as syntax rules; they are
 
 - External style sheets have the least priority.If there are no styles defined either in the inline or internal style sheet, then external style sheet rules are applied for the HTML tags.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -147,8 +147,8 @@ There are several different types of selectors in CSS.
 - CSS Universal Selector
 - CSS Group Selector
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -176,8 +176,8 @@ Color: blue
 ```
 In the output element P will be left aligned with the blue text color.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -194,9 +194,9 @@ In the output element P will be left aligned with the blue text color.
 
 - Grid is by far the most intuitive approach for creating grid-based layouts (it better be!) but browser support is not wide at the moment.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -213,8 +213,8 @@ With the Document Object Model, programmers can create and build documents, navi
 
 When a browser displays a document, it must combine the document's content with its style information.The browser converts HTML and CSS into the DOM (Document Object Model).The DOM represents the document in the computer's memory.It combines the document's content with its style.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -233,8 +233,8 @@ When a browser displays a document, it must combine the document's content with 
   - The user's style sheet
   - The author's style sheet
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -254,8 +254,8 @@ When a browser displays a document, it must combine the document's content with 
 ```CSS
 table p { property: value; } 
 ```
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -275,8 +275,8 @@ float: right; // left right none inherit
 ```
 The CSS clear property can be used to be positioned below left/right/both floated elements.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -291,8 +291,8 @@ The CSS clear property can be used to be positioned below left/right/both floate
 
 **Classes** — Can be reused on multiple elements within the document.Mainly for styling and targeting elements.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -316,8 +316,8 @@ img.trans {
 </style>   
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -331,8 +331,8 @@ img.trans {
 `CSS border properties` allow us to set the style, color, and width of the border.
 `CSS outline property` allows us to draw a line around the element, outside the border.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -351,8 +351,8 @@ body
 background-color: coral;
 }
 ```
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -388,8 +388,8 @@ background-color: coral;
     color: #0000FF;
     }
 ```
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -429,8 +429,8 @@ Flex Example :
 }
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -445,8 +445,8 @@ If we are using flexbox and find yourself disabling some of the flexibility, we 
 
 Use a grid when we already have the layout structure in mind, and flex when we just want everything to fit.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -467,8 +467,8 @@ It depends on what we are trying to do.
 
 **pt(points)** are traditionally used in print.1pt = 1/72 inch and it is fixed-size unit.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -487,8 +487,8 @@ It depends on what we are trying to do.
 
 **static**, element will be positioned based on the normal flow of the document.usually, we will use position static to remove other position might be applied to an element.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -501,8 +501,8 @@ It depends on what we are trying to do.
 
 `display`: none removes the element from the normal layout flow and allow other elements to fill in.`visibility`: hidden tag is rendered; it takes space in the normal flow but doesn't show it.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -519,8 +519,8 @@ It depends on what we are trying to do.
 
 `inline block`, will be similar to inline and will go with the flow of the page.Only differences are, this will take height and width.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -534,8 +534,8 @@ It depends on what we are trying to do.
 - Technically, height, width, padding, and border are part of box model and margin is related to it.
 - Everything in a web page is a box where we can control size, position, background, etc.Each box/ content area is optionally surrounded by padding, border, and margin.When we set height and width of an element, we set content height and width.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 26.Does overflow: hidden create a new block formatting context?
 
@@ -546,8 +546,8 @@ It depends on what we are trying to do.
 
 yes, overflow property deals with the content if content size exceeds the allocated size for the content.We can make extra content visible, hidden, scroll or auto (viewport default behavior).
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -562,8 +562,8 @@ yes, overflow property deals with the content if content size exceeds the alloca
 
 - pseudo classes is better if we don't want to mess up with JavaScript however, pseudo-classes is slow to process and apply rules.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -601,8 +601,8 @@ yes, overflow property deals with the content if content size exceeds the alloca
   <p>content example</p>
 </div>
 ```
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -615,8 +615,8 @@ yes, overflow property deals with the content if content size exceeds the alloca
 
 This is very open and depend on what we are trying to achieve.If we order selectors in terms of render speed it would be like id, class, tag, siblings, child, descendant, universal, attribute, pseudo.Speed of ID and class is very close.However, your code should be readable, maintainable and DRY along with highly performant.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -631,8 +631,8 @@ This is very open and depend on what we are trying to achieve.If we order select
 
 
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -645,8 +645,8 @@ This is very open and depend on what we are trying to achieve.If we order select
 
 CSS filter allows us to render DOM element, image, or video.We can choose from: grayscale, blur, opacity, brightness, contrast.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -659,8 +659,8 @@ CSS filter allows us to render DOM element, image, or video.We can choose from: 
 
 Transition allows to add an effect while changing from one style to another.we can set the which property we want to transition, duration, how we want to transit (linear, ease, ease-in, ease-out, cubic-bezier) and delay when transition will start.We can transition more than one property by comma separation.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -673,8 +673,8 @@ Transition allows to add an effect while changing from one style to another.we c
 
 We write CSS in high level with some special syntax (declaring variable, nested syntax, mathematical operations, etc.) and that is compiled to CSS.Preprocessor helps us to speed up develop, maintain, ensure best practices, and also confirms concatenation, compression, etc.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -693,8 +693,8 @@ The table-layout property defines the algorithm used to layout table cells, rows
 `initial` - Sets this property to its default value.
 `inherit` - Inherits this property from its parent element.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -711,8 +711,8 @@ Responsive design works on the principle of flexibility — a single fluid w
 
 Adaptive design is more like the modern definition of progressive enhancement.Instead of one flexible design, adaptive design detects the device and other features, and then provides the appropriate feature and layout based on a predefined set of viewport sizes and other characteristics.The site detects the type of device used and delivers the pre-set layout for that device.Instead of a single ball going through several different-sized hoops, we’d have several different balls to use depending on the hoop size.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -727,8 +727,8 @@ Accessibility (a11y) is a measure of a computer system's accessibility is to all
 
 Accessibility is also known as assistive technology.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -743,8 +743,8 @@ Accessibility is also known as assistive technology.
 **Normalizing**— preserves useful default styles rather than “unstyling” everything.It also corrects bugs for common browser dependencies.
 It's a good idea to choose resetting when we have very a customized or unconventional site design such that we need to do a lot of our own styling do not need any default styling to be preserved.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -763,8 +763,8 @@ Example of usage:
 - Used in the `.clearfix` hack to add a zero-space element with clear: both.
 - Triangular arrows in tooltips use `:before and :after`.Encourages separation of concerns because the triangle is considered part of styling and not really the DOM, but not really possible to draw a triangle with just CSS styles.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -796,8 +796,8 @@ p {
 }
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -877,8 +877,8 @@ clear: none|left|right|both|inherit|inline-start|inline-end;
 </html>
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -893,8 +893,8 @@ Browsers match selectors from rightmost (key selector) to left.Browsers filter o
 
 For example with this selector p span, browsers firstly find all the `<span>` elements and traverse up its parent all the way up to the root to find the `<p>` element.For a particular `<span>`, as soon as it finds a `<p>`, it knows that the `<span>` matches and can stop its matching.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -926,8 +926,8 @@ At-rules are `CSS statements` that instructs CSS how to behave.They begin with a
 | 07.|@font-face |Describes the aspect of an external font to be downloaded.|
 | 08.|@keyframes |Describes the aspect of intermediate steps in a CSS animation sequence.|
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -940,8 +940,8 @@ At-rules are `CSS statements` that instructs CSS how to behave.They begin with a
 
 The keyword `initial` can be used to resets it to its default value, which is defined in the CSS specification of the given property.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -964,8 +964,8 @@ Also, using margin will not affect your element\'s dimensions whereas padding wi
 ```
 *Note:* **Top/Bottom margins are collapsible:** if you have a 20px margin at the bottom of an element and a 30px margin at the top of the next element, the margin between the two elements will be 30px rather than 50px.This does not apply to left/right margin or padding.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -991,8 +991,8 @@ span {
 }
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -1023,8 +1023,8 @@ The `calc()` function can be used to perform addition, subtraction, multiplicati
   border-radius: 15px calc(15px / 3) 4px 2px;
 }
 ```
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -1043,8 +1043,8 @@ There are three main transformation types that are mentioned below:
    - rotateY()
    - rotateZ()
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -1057,8 +1057,8 @@ There are three main transformation types that are mentioned below:
 
 Responsive Design is a method of creating web pages that makes use of adaptable images, versatile layouts, and CSS media queries.This design approach aims to create web pages that identify the orientation and screen size of visitors and adjust the layout accordingly.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -1071,8 +1071,8 @@ Responsive Design is a method of creating web pages that makes use of adaptable 
 
 Sometimes, while positioning the elements of HTML using CSS, overlapping may occur.Z index helps in identifying and specifying the element that is overlapping.Z index’s default value is zero, but it can be a positive or a negative number.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -1085,8 +1085,8 @@ Sometimes, while positioning the elements of HTML using CSS, overlapping may occ
 
 Image Sprites is the process of collaborating several images into one.It reduces the time taken in loading images and gives information more quickly.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -1099,8 +1099,8 @@ Image Sprites is the process of collaborating several images into one.It reduces
 
 HTML lacks styling even though HTML has an easy structure method.Styling Sheets not only offer styling but also have better formatting options and browsing capabilities.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 

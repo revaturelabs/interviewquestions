@@ -11,8 +11,8 @@
 - A method is a **function that belongs to a class**.
 - A function is a group of reusable code which can be called anywhere in your program.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -37,8 +37,8 @@
 
 Characteristics are also known as data, attributes, or properties, and Behaviors are also known as the functions, procedures, or methods, in the programming language.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -57,8 +57,8 @@ The Four Pillars of Object-Oriented Programming are
 - Inheritance
 - Polymorphism
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -76,8 +76,8 @@ The Four Pillars of Object-Oriented Programming are
 
 For example: A man at the same time is a father, a husband, an employee.So, the same person possesses different behavior in different situations.This is called polymorphism.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -120,8 +120,8 @@ public class SquaringDemo {
 }
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -140,8 +140,8 @@ For example, in a company, they are different sections like the accounts section
 
 In encapsulation, the variables of a class will be hidden from other classes and can be accessed only through the methods of their current class.Therefore, it is also known as data hiding.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -191,8 +191,8 @@ class Main {
 }
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -233,8 +233,8 @@ class Main {
 }
 ```
  
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -256,8 +256,8 @@ class Main {
 | n abstract class can be extended using keyword `extends`.                | An interface can be implemented using keyword `implements`.                                        |
 | Members can be private, protected, default or public.                    | Members of an interface are public by default.                                                      |
  
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -282,8 +282,8 @@ There are two ways to achieve abstraction in java
 1.Abstract class (0 to 100% abstraction)
 2.Interface (100% abstraction)
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -300,8 +300,8 @@ Inheritance in Java is a concept that acquires the properties from one class to 
 
 The parent-child relationship, also known as the **IS-A** relationship, is represented by inheritance.
  
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -319,8 +319,8 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
 
 **Encapsulation = private data members + public getters or setters**
  
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -335,8 +335,8 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
  
  Yes, a class can have multiple constructors that assign the fields in different ways.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -351,8 +351,8 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
 
  We can declare static methods with the same signature in the subclass, but it is not considered overriding as there won’t be any run-time polymorphism.Hence the answer is **No**.
  
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -377,8 +377,8 @@ There are 5 types of Inheritance.They are
  
  ![image](https://user-images.githubusercontent.com/70228962/193798049-81ea6a70-ea0e-4608-8789-d73370162d9a.png)
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -399,8 +399,8 @@ Interfaces are also good when we want to have something similar to multiple inhe
 The JDBC API is an excellent example.It exists of almost only interfaces.The concrete implementations are provided as "JDBC drivers".This enables you to write all the JDBC code independent of the DB vendor.You can just change the JDBC driver without changing any line of Java code (except of any hardcoded DB-specific SQL code) whenever you'd like to switch of DB vendor.
  
  
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -417,8 +417,8 @@ There are two types of polymorphism as below:
 1.Static Binding or Compile time Polymorphism or Method Overloading
 2.Dynamic Binding or Runtime Polymorphism or Method overriding.
  
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -433,8 +433,8 @@ There are two types of polymorphism as below:
  
  No, we cannot override main method of java because a static method cannot be overridden.
  
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -449,8 +449,8 @@ There are two types of polymorphism as below:
 
  A constructor in Java is a special method that is used to initialize objects.The constructor is called when an object of a class is created.
  
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -469,8 +469,8 @@ We can think of the class as a sketch (prototype) of a house.It contains all the
 
 Since many houses can be made from the same description, we can create many objects from a class.
  
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -488,8 +488,8 @@ Since many houses can be made from the same description, we can create many obje
 - With the help of Inheritance, you can override the methods of the base class.
 - The base class in Inheritance decides which data to be kept private, such that the derived class will not be able to alter it.
  
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -504,8 +504,8 @@ Since many houses can be made from the same description, we can create many obje
  
 Java does not support multiple inheritance using classes.It can be achieved or implemented using interfaces.
  
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -526,8 +526,8 @@ While changing the accessibility of the method,
   - default can be changed to public.
   - public will always remain public.
  
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -543,8 +543,8 @@ While changing the accessibility of the method,
 - Helps to increase the security of an application or program as only essential details are provided to the user.
 - Avoids code duplication and increases reusability.
 - It improves the maintainability of the application.It improves the modularity of the application.
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -567,8 +567,8 @@ While changing the accessibility of the method,
 | It is declared with the class keyword                                     | It is created with a class name and a \`new\` keyword in Java.                            |
 | Class does not contain any values which can be associated with the field.| Each object has its own values, which are associated with it.                             |
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 --- 
 
@@ -582,9 +582,9 @@ While changing the accessibility of the method,
 
 It can be done by method overriding , which is a type of polymorphism.It can modify a super class method in the sub class.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -598,9 +598,9 @@ It can be done by method overriding , which is a type of polymorphism.It can mod
 
  Yes, an interface can extend another interface in Java.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -615,9 +615,9 @@ It can be done by method overriding , which is a type of polymorphism.It can mod
 
 The class has to be declared with an abstract modifier, which will be enforced by the Java compiler.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -631,9 +631,9 @@ The class has to be declared with an abstract modifier, which will be enforced b
 
 Yes, we can create an abstract class by using abstract keyword before class name even if it doesn’t have any abstract method.If a class has even one abstract method, it must be declared as abstract otherwise it will give an error.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -647,9 +647,9 @@ Yes, we can create an abstract class by using abstract keyword before class name
 
 It’s called only once for an object automatically at the time of object creation using new keyword.we can’t invoke the constructor again for an object after its creation.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -671,9 +671,9 @@ public Final Class Stone {
 }
 ```
 
- </blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -687,9 +687,9 @@ public Final Class Stone {
 
 No.Java provides a default no argument constructor if no explicit constructor is defined in a class.But if an explicit constructor has been defined, default constructor can’t be invoked, and developer can use only those constructors which are defined in the class.
 
- </blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -704,9 +704,9 @@ No.Java provides a default no argument constructor if no explicit constructor is
 
 No, we can’t change the value of any variable of an interface in the implementing class as all variables defined in the interface are by default public, static and Final.final variables are like constants which can’t be changed later
 
-  </blockquote>
+ </blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -721,9 +721,9 @@ No, we can’t change the value of any variable of an interface in the implement
 
 Heap.Because when Java programs run on the JVM, objects are created on the heap,
 
-  </blockquote>
+ </blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -737,9 +737,9 @@ Heap.Because when Java programs run on the JVM, objects are created on the heap,
 
 No, we cannot achieve method overloading through return type in Java.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -754,9 +754,9 @@ No, we cannot achieve method overloading through return type in Java.
 
 No, String is a final class, therefore we cannot extend or inherit it.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -770,8 +770,8 @@ No, String is a final class, therefore we cannot extend or inherit it.
 
 In Java, we can define a class inside a class, and they are called nested classes.Any nested class which is non-static are known as inner class.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---

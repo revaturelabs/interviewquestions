@@ -10,9 +10,9 @@
 - It will make use of JDBC drivers for connecting to the database.
 - JDBC can access tabular data stored in various types of relational databases such as Oracle, MySQL, MS Access, etc.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -37,9 +37,9 @@ ResultSet rs = con.executeQuery(sqlQuery);
 
 ```
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -60,9 +60,9 @@ For example:
 - JDBC driver of Oracle10G is `oJDBC14.jar` and it can be obtained in the installation directory of an Oracle at `…/Oracle/app/oracle/product/10.2.0/server/JDBC/lib` .
 - JDBC driver provides the connection to the database.Also, it implements the protocol for sending the query and result between client and database.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
   
  ---
   
@@ -79,9 +79,9 @@ For example:
 - By using a Uniform Resource Locator (URL), each application specifies a JDBC driver.When we load the JDBC Driver class into an application, it registers itself to the DriverManager by using `Class.forName()` or `DriverManager.registerDriver()`.
 - When we call `DriverManager.getConnection()` method by passing the details regarding database configuration, DriverManager will make use of registered drivers to obtain the connection and return it to the caller program.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
   
 ---
   
@@ -95,9 +95,9 @@ For example:
 
 - JDBC Net pure Java driver(Type 4 driver) is the fastest driver for localhost and remote connections because it directly interacts with the database by converting the JDBC calls into vendor-specific protocol calls.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
   
@@ -114,9 +114,9 @@ For example:
 - It stores the binary type of data.CLOB data type is used to store the file in the database.
 - It stores the character type of data.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
  ---
   
@@ -154,9 +154,9 @@ CallableStatement cs = con.prepareCall("{call STUDENT_DETAILS(?,?)}");
 ResultSet rs = cs.executeQuery();
 
 ```
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
   
@@ -181,9 +181,9 @@ ResultSet rs = cs.executeQuery();
   - It is highly recommended to use JDBC for Java applications because there are no performance issues.
   - JDBC is Object Oriented.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
   
 ---
   
@@ -198,9 +198,9 @@ ResultSet rs = cs.executeQuery();
 - A RowSet is an object that encapsulates a row set from either JDBC result sets or tabular data sources such as files or spreadsheets.
 - It supports component-based development models like JavaBeans, with the help of a standard set of properties and event notifications.RowSet is easier and flexible to use.It is Scrollable and Updatable by default.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
   
 ---
 
@@ -223,9 +223,9 @@ ResultSet rs = cs.executeQuery();
   - `Type IV`: 
     - Thin Driver - Fully Java Driver: It is platform-independent since it is written fully in Java.It can be installed inside the Java Virtual Machine(JVM) of the client, so there is no need of installing any software on the client or server side.This drive architecture is having all the logic to communicate directly with the database in a single driver.It provides better performance compared to other driver types.It permits easy deployment.It is developed by the database vendor itself so that programmers can use it directly without any dependencies on other sources.Type IV driver is directly implemented and it directly converts JDBC calls into vendor-specific database protocol.Most of the JDBC Drivers used today are type IV drivers.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
   
@@ -262,9 +262,9 @@ CallableStatement cs = con.prepareCall("{call STUDENT_DETAILS}");
 ResultSet rs = cs.executeQuery();
 
 ```
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
   
 ---
   
@@ -290,9 +290,9 @@ ResultSet rs = cs.executeQuery();
   - `CLOB` stands for Character Large Object.This data type is used by multiple database management systems to store character files.It is the same as BLOB except for the difference, instead of binary data, CLOB represents character stream data such as character files, etc.
 
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -312,9 +312,9 @@ ResultSet rs = cs.executeQuery();
 - It is much faster than executing a single statement at a time because of the fewer number of database calls.
 - To perform batch processing, `addBatch()` and `executeBatch()` methods are used,which are available in the Statement and PreparedStatement classes of JDBC
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
   
 ---
   
@@ -331,9 +331,9 @@ ResultSet rs = cs.executeQuery();
 - PreparedStatement:
   - The query is compiled only once.It is used when we want to give input parameters to the query at runtime.It provides better performance than Statement, as it executes the pre-compiled SQL statements.It is suitable for executing DML statements such as Insert, Update and Delete.It can be used for storing/retrieving images and files in the database.It executes pre-compiled SQL statements.It is more secured as they use to bind variables, which can prevent SQL injection.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
   
 ---
   
@@ -350,9 +350,9 @@ ResultSet rs = cs.executeQuery();
 - `executeUpdate()`:It is used to execute the SQL statements such as Insert or Update or Delete which will update or modify the database data.It returns an integer value which represents the number of affected rows where 0 indicates that the query returns null.It is used for executing only a non-Select query.
 		
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
   
 ---
   
@@ -367,9 +367,9 @@ ResultSet rs = cs.executeQuery();
 - Getter methods: These are used for retrieving the particular column values of the table from ResultSet.As a parameter, either the column index value or column name should be passed and the getter method is represented as getXXX() methods,for example: `int getInt(string Column_Name)` statement is used to retrieve the value of the specified column index and the return type is an int data type.
 - Setter Methods: These methods are used to set the value in the database.It is almost similar to getter methods, but here it requires to pass the data/values for the particular column to insert into the database and the column name or index value of that column and setter method is represented as setXXX() methods,for example: `void setInt(int Column_Index, int Data_Value)` statement is used to insert the value of the specified column index with an int value.
 		
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
   
 ---
   
@@ -386,9 +386,9 @@ ResultSet rs = cs.executeQuery();
 - This situation is known as a dirty read.For ex: where Transaction 2 changes a row but does not commit the changes made.Then Transaction 1 reads the uncommitted data.
 - Now, if Transaction 2 goes for roll backing its changes (which is already read by Transaction 1) or updates any changes to the database, then the view of the data may be wrong in the records related to Transaction 1.
 		
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
   
 ---
@@ -440,9 +440,9 @@ con.close();
 
 ```
 		
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
   
@@ -480,9 +480,9 @@ class JDBCMySql{
 
 ```
 		
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
   
 ---
   
@@ -511,9 +511,9 @@ cs.executeUpdate();
 
 We must register the OUT parameters before executing the CallableStatement.
 		
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 21.When "No suitable driver" error occurs in java?
 
@@ -527,9 +527,9 @@ We must register the OUT parameters before executing the CallableStatement.
 - It can specify an invalid or wrong JDBC URL, which cannot be recognized by the JDBC driver.
 - When one or more shared libraries required by the JDBC bridge cannot be loaded.
 		
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 	
@@ -545,9 +545,9 @@ JDBC has 2 types of architecture models to access the database.They are:
 - Two-tier Architecture: This architecture connects java programs explicitly to the database.It doesn’t require any mediator such as an application server for connecting with the database except the JDBC driver.It is also called client-server architecture.	
 - Three-tier Architecture: This architecture has no explicit communication between the JDBC driver or java application with the database.It will make use of an application server as a mediator between them.Java code will send the request to an application server, then the server will send it to the database and receive the response from the database.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 	
@@ -567,9 +567,9 @@ The sequence of SQL statements served as a single unit that is called a transact
 
 - Need for Transaction Management: When creating a connection to the database, the auto-commit mode will be selected by default.This implies that every time when the request is executed, it will be committed automatically upon completion.We might want to commit the transaction after the execution of few more SQL statements.In such a situation, we must set the auto-commit value to False.So that data will not be able to commit before executing all the queries.In case if we get an exception in the transaction, we can `rollback()` changes made and make it like before.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 	
@@ -584,9 +584,9 @@ The sequence of SQL statements served as a single unit that is called a transact
 PreparedStatement performs faster compared to the Statement because the Statement needs to be compiled each time when we run the code whereas the PreparedStatement is compiled once and then executed only on runtime.It can execute parametrized queries.But Statement can only run static queries.
 The query used in PreparedStatement looks similar each time, so the database can reuse the previous access plan.Statement inline the parameters into the string, so the query doesn’t look to be the same every time which prevents reusage of cache.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 	
@@ -621,9 +621,9 @@ Syntax:`Savepoint sp= conn.setSavepoint("Mysavepoint");`
 	
 Syntax:`conn.releaseSavepoint("Mysavepoint");`
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 	
 ---
 
@@ -640,9 +640,9 @@ Syntax:`conn.releaseSavepoint("Mysavepoint");`
 - `java.sql.SQLWarning`:It is displayed as a warning message of various SQL operations.
 - `java.sql.DataTruncation`:This exception occurs when data values are unexpectedly truncated due to exceeding MaxFieldSize.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 	
@@ -657,9 +657,9 @@ Syntax:`conn.releaseSavepoint("Mysavepoint");`
 Two-phase commit is useful for a distributed environment where numerous processes take part in the distributed transaction process.A transaction is executing and it is affecting multiple databases then a two-phase commit will be used to make sure that all databases are synchronized with each other.
 The main process or co-ordinator process take a vote of all other process that they have completed their process successfully and ready to commit, if all the votes are "yes" then they continue for the next phase.And if "No" then rollback will be performed.As per vote, if all the votes are "yes" then commit is done.when any transaction changes multiple databases after transaction execution, it will issue a pre-commit command on each database and all databases will send an acknowledgment.Based on acknowledgment, if all are positive transactions then it will issue the commit command otherwise rollback will be done
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 	
@@ -692,9 +692,9 @@ public class dynamicJDBCtable{
 
 ```
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 	
@@ -708,9 +708,9 @@ public class dynamicJDBCtable{
 
 It is possible to connect to multiple databases, at the same time, but it depends on the specific driver.To update and extract data from the different database we can use the single statement.But we need middleware to deal with multiple databases or a single database.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 	
@@ -741,8 +741,8 @@ int count = ps.executeUpdate();
 
 ```
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---

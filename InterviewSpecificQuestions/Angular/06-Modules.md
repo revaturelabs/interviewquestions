@@ -16,8 +16,8 @@
 - This speeds up the application.
 - It is utilized for larger projects where all of the modules are not required at the start.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -31,8 +31,8 @@
  
 No.By default, Angular loads the NgModules eagerly which means that as soon as the application loads, all the NgModules & components are loaded, whether or not they are immediately necessary.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -48,8 +48,8 @@ For small-scale applications, eagerly loading modules would be good.But as the a
   
 For large-scale applications, lazy-loading modules would be good.
   
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -67,8 +67,8 @@ For large-scale applications, lazy-loading modules would be good.
 - Angular libraries like `RouterModule`, `BrowserModule`, `HttpClientModule` and `FormsModule` are NgModules.
 - One of the important advantages of NgModules is that **they can be lazy loaded**.
   
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -85,8 +85,8 @@ Benefits of lazy loading module:
 - **Bandwidth conservation** – Lazy loading conserves bandwidth by delivering content to users only if it’s requested.
 - **System resource conservation** – Lazy loading conserves both server and client resources, because only some of the images, JavaScript and other code need to be rendered or executed.
    
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -121,8 +121,8 @@ import { AppComponent } from './app.component';
 export class AppModule { }
 ```
 	
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 	
 --- 
 
@@ -136,8 +136,8 @@ export class AppModule { }
 
 `AppModule` - file is `app.module.ts`
 	
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 	
 ---
 
@@ -154,8 +154,8 @@ Module in Angular refers to a place where you can group the components, directiv
 ![image](https://user-images.githubusercontent.com/70228962/186698012-0db3b928-1c5c-4706-b9c2-bf797be57473.png)
 
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -186,8 +186,8 @@ export class AppModule { }
 ```
 `BrowserModule` is imported from `@angular/platform-browser` (by default provides support to run Angular apps on different supported browsers.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  
@@ -226,8 +226,8 @@ import { FirstCharPipe } from './first-char.pipe';
 export class AppModule { }
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  
@@ -250,8 +250,8 @@ export class AppModule { }
 - `RouterModule` is imported from `@angular/router` and  it is used when you want to navigate between views defined in an application.
 - `HttpClientModule` is imported from `@angular/common/http` and it is used to initiate HTTP requests and responses in angular apps.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  
@@ -264,7 +264,7 @@ export class AppModule { }
 <blockquote markdown="1">
  
 For large-scale/ complex applications, lazy loading would be good.
-</blockquote>
+</blockquote  markdown="1">
 	
 <details markdown="1">
 <summary><b>Reference</b></summary>	
@@ -272,9 +272,9 @@ For large-scale/ complex applications, lazy loading would be good.
 	
 [Angular Reference for implementing lazy loading](https://angular.io/guide/lazy-loading-ngmodules)
 	
-</blockquote>
-</details>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
+</details markdown="1">
   
 ---
  

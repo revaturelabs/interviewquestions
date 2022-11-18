@@ -7,8 +7,8 @@
 <blockquote markdown="1">
   
 Directives add behavior to an existing DOM element or an existing component instance.
-  </blockquote>
-</details>
+ </blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -28,8 +28,8 @@ On a short note, A component(`@Component`) is a directive-with-a-template.Some o
 | Components are typically used to create UI widgets                    | Directive is used to add behavior to an existing DOM element  |
 | Component is used to break up the application into smaller components | Directive is used to design re-usable components               |
 | Only one component can be present per DOM element                     | Many directives can be used per DOM element                   |
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -47,8 +47,8 @@ On a short note, A component(`@Component`) is a directive-with-a-template.Some o
     
 <i>Custom Directive: Custom directive can also be created if any of the above directives does not solve our purpose for the requirement</i>
 
-</blockquote> 
-</details>
+</blockquote  markdown="1"> 
+</details markdown="1">
 	
 --- 
     
@@ -58,7 +58,7 @@ On a short note, A component(`@Component`) is a directive-with-a-template.Some o
 
 <details markdown="1">
 <summary> <b>Show Answer</b></summary>
- <blockquote markdown="1">
+<blockquote markdown="1">
     
 - Structural directives are used for adding, removing, or manipulating DOM elements
 - Structural directives start with an asterisk (*) followed by a directive name.
@@ -89,8 +89,8 @@ On a short note, A component(`@Component`) is a directive-with-a-template.Some o
 </div>   
 ```
   
-</blockquote> 
-</details>
+</blockquote  markdown="1"> 
+</details markdown="1">
 	
 --- 
   
@@ -121,8 +121,8 @@ Enter the username: <input type='text' [(ngModel)]='name'>
 <div [ngStyle]="{'background-color':username === 'Admin' ? 'green' : 'red' }"></div>
 ```
 
-</blockquote> 
-</details>
+</blockquote  markdown="1"> 
+</details markdown="1">
 	
 --- 
 
@@ -181,8 +181,8 @@ export class AppComponent {
 
 ![image](https://user-images.githubusercontent.com/70228962/186344483-f0368ed8-f0e2-46ec-8b3e-42e4cc6eb2c1.png)
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -239,8 +239,8 @@ Enter a number: <input type="text" [(ngModel)]="num">
 
 ![image](https://user-images.githubusercontent.com/70228962/186347246-414044f8-21bf-4021-a3c4-b2dba0540442.png)
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -275,8 +275,8 @@ export class MyHighlightDirective {
 	
 ![image](https://user-images.githubusercontent.com/70228962/186374096-514930ba-f29c-424e-bcf8-11318b5c0734.png)
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -290,8 +290,8 @@ export class MyHighlightDirective {
 	
 Angular `ElementRef`is simply a class that wraps native DOM elements in the browser and allows you to work with the DOM by providing the native elements` object which exposes all the methods and properties of the native elements.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -317,8 +317,8 @@ ngAfterViewInit() {
 }
 ```	
 	
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -332,8 +332,8 @@ ngAfterViewInit() {
 
 `ng-template` is an Angular element that is used for rendering HTML in a template.However, it is not rendered directly on DOM.If you include an ng-template tag to a template, the tag and the content inside it will be replaced by a comment upon rendering.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  
@@ -380,8 +380,8 @@ export class MyHighlightDirective {
 
 ![image](https://user-images.githubusercontent.com/70228962/186696341-de34b3a7-9c4a-4102-8d9d-16d6984d4746.png)
 	
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 

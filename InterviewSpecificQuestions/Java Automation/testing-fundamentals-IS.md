@@ -8,8 +8,8 @@
 
 Software testing is the process of evaluating and verifying that a software product or application does what it is supposed to do.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -27,8 +27,8 @@ Some reasons:
 - It makes the software more reliable and easier to use.
 - Thoroughly tested software ensures reliable and high-performance software operation.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -43,9 +43,9 @@ Some reasons:
 - Manual Testing is one type of software testing where test cases are executed manually by a tester (Quality Assurance team) without using any automated tools.
 - Being the most primitive technique of all testing types Manual testing helps to find critical bugs in the software application especially where tests are difficult to automate.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -60,9 +60,9 @@ Some reasons:
 - Automated Testing is one type of software testing where test software/tool runs tests automatically without manual intervention by a tester (Quality Assurance team).
 - Automation Software Testing is also referred to as Test Automation.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -76,8 +76,8 @@ Some reasons:
 - `Manual Software Testing` is a process where human testers manually run test cases, and maintain the test reports.
 - With `Automated Software Testing`, the test cases are executed by automation tools such as test scripts and code.
   
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -103,8 +103,8 @@ Some reasons:
 5.**Test Execution** - Start executing test cases
 6.**Test Closure** - Preparing the test report document
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
   
@@ -120,9 +120,9 @@ Some reasons:
 - Each functionality of the software is tested by providing sample input & comparing the actual and expected output.
 - Examples include - `Unit Testing`, `Integration Testing` etc.
   
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
   
@@ -139,9 +139,9 @@ Some reasons:
 - Mainly aimed to improve the performance of the software.
 - Examples include - `Performance Testing`, `Disaster Recover (DR) Testing` etc.
   
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -158,8 +158,8 @@ The entry and exit criteria for the test are closely related to the purpose and 
 - `Entry Criteria`: Entry Criteria are a set of conditions that need to be satisfied to begin the test.
 - `Exit Criteria`: Exit Criteria are a set of conditions that need to be satisfied to end the test.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -180,8 +180,8 @@ It’s required because it provides the below functionalities
 - Present Test Metrics to the client
 - Adjudge Risk
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -210,8 +210,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 - Test Execution
 - Test Closure
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -226,8 +226,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 - White box testing is an approach that allows testers to inspect and verify the inner workings of a software system—its code, infrastructure, and integrations with external systems.
 - This method is used in Unit Testing or Integration Testing.
   
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -242,8 +242,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 - `Black Box Testing` is an approach that allows testers to check the functionality of the software without looking into its internal structure or coding.
 - This method is used in System Testing or Acceptance Testing.
   
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -259,8 +259,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 - White Box Testing assures code functionality and makes later, higher-level testing less time intensive.
 - Black Box Testing enhances end-user experience.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -275,8 +275,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 - White box testing usually begins early in the development cycle.It is conducted at lower levels and includes unit and integration testing.
 - Black box testing is mainly higher level, as in system and acceptance testing, so implementation comes later in the development cycle.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -291,8 +291,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 - `Verification`: It is a static analysis technique.Here, testing is done without executing the code.Examples include – Reviews, Inspections, and Walkthroughs.
 - `Validation`: It is a dynamic analysis technique where testing is done by executing the code.Examples include - Functional and Non-functional Testing.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -307,8 +307,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 - `Feature` is a functionality intended to be useful to the user.
 - `Bug` is a behaviour, usually the result of an error in the implemented feature(s).
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -325,8 +325,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 | A `Bug` is a deviation from the customer’s requirement.| The functionality of an application not working as per the customer’s requirement is known as a `Defect`.|
 | Reason Behind Bug- Missing/Wrong/Extra Coding        | Reason Behind Defect- Giving wrong input, any error in the code                                         |
   
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -344,8 +344,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 - A `Defect` does not necessarily mean there is a Bug in the code, it could be a function that was not implemented but defined in the requirements of the software.
 - When a defect reaches the end customer it is called a `Failure`.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -361,8 +361,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 <img src = "https://user-images.githubusercontent.com/70228962/195288096-8cf86cdf-e93e-4da1-a7fe-7710ece088f6.png">
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -379,8 +379,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 - This is because unit tests can be run more quickly and cheaply, and they can be used to target specific parts of the code.
 - By having more unit tests, you can find and fix bugs before they make their way into the integration tests and eventually into production.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -394,8 +394,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 - `Code Coverage` is a metric that determines the number of lines of code validated successfully by a testing process, which helps to analyze how deep the software is verified.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -411,8 +411,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 - The tool executes pre-scripted tests and is capable of reporting and comparing outcomes with previous test runs.
 - Some automation testing tools are Selenium, Tellurium, and SoapUI.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -427,9 +427,9 @@ STLC defines a series of activities performed during testing to ensure the quali
 - User Acceptance Testing evaluates the compliance of the developed software with user needs and agreed business process requirements.
 - It is used to determine whether the developed system satisfies the acceptance criteria for delivery or not.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -444,8 +444,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 - End-to-end testing is a technique that tests the application’s workflow from beginning to end to make sure everything functions as expected.
 - The goal is to simulate what a real user scenario looks like from start to finish.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -460,8 +460,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 - Integration testing ensures that an entire, integrated system meets a set of requirements.
 - It is performed in an integrated hardware and software environment to ensure that the entire system functions properly.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -475,8 +475,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 - Non-functional testing verifies the readiness of a system according to nonfunctional parameters (performance, accessibility, UX, etc.) which are never addressed by functional testing.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -491,8 +491,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 - Unit testing involves the testing of each unit or an individual component of the software application.
 - It is the first level of functional testing.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -509,9 +509,9 @@ STLC defines a series of activities performed during testing to ensure the quali
 - Performance testing popular tool - Apache JMeter
 - Good performance means minimal impact on the 4 primary software performance metrics in the system under test- Processor Usage, Memory Usage, Response Time, and Throughput.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
   
 ---
 
@@ -525,8 +525,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 - Regression Testing is performed to determine if recent code modifications have not adversely affected existing features of the Software.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -540,8 +540,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 - Performed after bug fixes, `Sanity Testing` determines that the bugs are fixed and that no further issues are introduced to these changes. 
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -557,8 +557,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 ![image](https://user-images.githubusercontent.com/70228962/195306718-fbe82030-08e1-4ac8-9f85-0d6042feb5a4.png)
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -573,8 +573,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 - `Positive Testing` is used to determine what a system is supposed to do and is it justifies the planned requirement.If an error is encountered during Positive Testing, the test fails.
 - Whereas `Negative Testing` helps in determining what the system should not perform, leading to finding the possible defects in the software.Negative Testing ensures that software can gracefully handle invalid input or unexpected user behaviour.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -592,8 +592,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 - Once the software has been built, keeping track of which test executions have passed for a particular requirement allows the team to make a quality statement about requirements.
 
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -608,8 +608,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 - Bug/Defect Severity is defined as the degree of impact that a defect has on the operation of the software.
 - It tells - `How bad the defect is`
   
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -624,8 +624,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 - Bug/Defect Priority is defined as the order in which the developer should resolve a defect.
 - It tells - `How soon we need to fix the defect`
   
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -645,8 +645,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 |Its value is subjective and can change over a period of time depending on the change in the project situation.|Its value is objective and less likely to change.|
 |Defect Priority Types: Critical, Major, Medium, Low|Defect Severity Types: High, Medium, Low|
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -664,8 +664,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 ![Priority   Severity Matrix](https://user-images.githubusercontent.com/110081175/199326650-97cbac8d-75e3-448e-bcd8-27d9bf642bb3.png)
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -682,9 +682,9 @@ STLC defines a series of activities performed during testing to ensure the quali
 - This is referred to as alpha testing because it is performed early, near the end of the development of the software
 - Typically performed by Quality Assurance team members (called alpha testers).
   
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
   
 ---
   
@@ -701,9 +701,9 @@ STLC defines a series of activities performed during testing to ensure the quali
 - The software whose feedback is needed is released as a beta version to a limited number of end-users who assess its quality to minimize the risk of failures.
 - The key benefit of beta testing is direct feedback from customers.
   
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
   
 ---
 
@@ -717,9 +717,9 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 - An incident is any situation where the system exhibits questionable behaviour.
   
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
   
 ---
 
@@ -735,9 +735,9 @@ STLC defines a series of activities performed during testing to ensure the quali
 - Often, we refer to an incident as a defect only when the root cause is some problem in the item we're testing.
 - An incident report consists of information gathered by a defect tracking tool and stored in a database.
   
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
   
 ---
 
@@ -760,8 +760,8 @@ STLC defines a series of activities performed during testing to ensure the quali
  
 ![Incident Report Life Cycle](https://user-images.githubusercontent.com/110081175/199326542-fa767018-4410-4438-a2ad-a23d284031d8.PNG)
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -779,8 +779,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 ![V-model](https://user-images.githubusercontent.com/110081175/199331199-55c5e2b4-e48b-449a-9cdc-24e137bd60d5.PNG)
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -796,8 +796,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 - A tester’s mindset should include curiosity, professional pessimism, a critical eye, attention to detail, and a motivation for good and positive communications and relationships.
 - A tester’s mindset tends to grow and mature as the tester gains experience.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -814,8 +814,8 @@ STLC defines a series of activities performed during testing to ensure the quali
 are often more interested in designing and building solutions than in contemplating what might be wrong
 with those solutions.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -832,8 +832,8 @@ with those solutions.
 - These are different sets of objectives which require different mindsets.
 - Bringing these mindsets together helps to achieve a higher level of product quality.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -848,8 +848,8 @@ with those solutions.
 - With the right mindset, developers can test their own code.
 - The separation of this responsibility to a tester is typically done to help focus effort and provide additional benefits, such as an independent view by trained and professional testing resources.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -872,8 +872,8 @@ with those solutions.
   - Status
 
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -896,8 +896,8 @@ with those solutions.
   - Automation
   - Risks
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -913,8 +913,8 @@ with those solutions.
 - Test results offer an insight into the deliverables of software.
 - They are significant in representing the status of the project to the stakeholders.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -929,8 +929,8 @@ with those solutions.
 - Test Case is a specification that consists of test data, pre-conditions, post-conditions and expected results that are developed for a specific test scenario.
 - Test Case defines a single test to be executed to achieve a particular software testing objective, such as to exercise a particular program path or to verify compliance with a specific requirement.
   
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -945,8 +945,8 @@ with those solutions.
 - It is a collection of test cases, that are aimed at testing a software application to detect that the application adheres to the requirement specifications.
 - It basically consists of a detailed set of instructions to attain a common goal.
   
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -963,8 +963,8 @@ with those solutions.
   - What defects are associated with this test plan and what is the status of those defects?
   - How are we doing on finding and fixing defects?
   
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -985,8 +985,8 @@ with those solutions.
   - Test Case
   - Defect Report
   
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -1002,8 +1002,8 @@ with those solutions.
 - It is prepared to understand the flow of an application.
 - It does not consist of any inputs and navigation steps.
   
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -1029,8 +1029,8 @@ A few parameters which are monitored during Performance Testing are listed below
 - **Thread counts** – An application’s health can be measured by the no.of threads that are running and currently active.
 - **Garbage collection** – It has to do with returning unused memory back to the system.Garbage collection needs to be monitored for efficiency.
   
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -1045,8 +1045,8 @@ A few parameters which are monitored during Performance Testing are listed below
 - High-level functions and scope of a system can be depicted using a User Case diagram.
 - The use cases and actors in use-case diagrams describe what the system does and how the actors use it, but not how the system operates internally.
   
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -1060,8 +1060,8 @@ A few parameters which are monitored during Performance Testing are listed below
 
 - Use Case Testing is a functional black box testing technique which helps testers to identify test scenarios that exercise the whole system on each transaction basis from start to finish.
   
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -1076,8 +1076,8 @@ A few parameters which are monitored during Performance Testing are listed below
 - Happy Path in Use Case Analysis refers to the "path" that the user takes to achieve the desired result without encountering any error. 
 - Happy path test is a well-defined test case using known input, which executes without exception and produces an expected output.
   
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -1092,8 +1092,8 @@ A few parameters which are monitored during Performance Testing are listed below
 - An alternate path describes a scenario other than the basic path that results in a user completing his or her goal. 
 - It implies that the user has chosen to take an alternative path through the system.
   
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -1109,8 +1109,8 @@ A few parameters which are monitored during Performance Testing are listed below
 - Exception paths represent an undesirable path to the user. 
 - However, even though the exception path has occurred the system should still react in a way that recovers the flow and provides some useful information to the user.
   
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -1128,8 +1128,8 @@ A few parameters which are monitored during Performance Testing are listed below
 - This could be an Excel document, an XML file, a MySQL database, etc.
 - Data-driven testing allows the ability to build both positive and negative test cases into a single test.
  
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -1145,7 +1145,7 @@ A few parameters which are monitored during Performance Testing are listed below
 - One such feature is parameterized tests.
 - This feature enables us to execute a single test method multiple times with different parameters.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---

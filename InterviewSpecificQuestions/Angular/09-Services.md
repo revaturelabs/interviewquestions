@@ -29,8 +29,8 @@ export class UserComponent implements OnInit  {
 }
 ```
   
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -54,8 +54,8 @@ export class UserService {
 }
 ```
   
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -80,8 +80,8 @@ class UserListModule {}
   
 When you register a provider with a specific NgModule, the same instance of a service is available to all components in that NgModule.
   
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -102,7 +102,7 @@ class HeroListComponent {
 }
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---

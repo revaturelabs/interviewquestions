@@ -11,9 +11,9 @@
 - Shell is a command interpreter, which interprets the command given by the user to the kernel.
 - It is an interface between a user and an operating system.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -27,9 +27,9 @@
 
 Shell scripting is a series or sequence of UNIX commands written in a plain text file.We used to give a list of UNIX commands like a to-do list in a file to execute it.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -43,9 +43,9 @@ Shell scripting is a series or sequence of UNIX commands written in a plain text
 
 Shell variable forms the core part of a shell script or program.The variable allows the shell to manipulate the stored information within a shell program.It is generally stored as a string variable.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -64,9 +64,9 @@ Shell variable forms the core part of a shell script or program.The variable all
   - Example:
     **`cd ..,   cd –`**
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -88,9 +88,9 @@ Shell variable forms the core part of a shell script or program.The variable all
   - Example:
     `#rm –f  filename` 
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -109,9 +109,9 @@ Shell variable forms the core part of a shell script or program.The variable all
   - Example:
   `#rmdir filename` 
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -126,9 +126,9 @@ Shell variable forms the core part of a shell script or program.The variable all
 - `Head` command is used to display started 10 lines.
 - `Tail` command is used to display started 10 lines.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -142,9 +142,9 @@ Shell variable forms the core part of a shell script or program.The variable all
 
 It represents the total number of arguments passed by string.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -158,9 +158,9 @@ It represents the total number of arguments passed by string.
 
 `$*` consider the entire set of positional parameters as a single string, but `$@` treat each quoted argument as a separate argument.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -179,7 +179,7 @@ Variables can be made unchangeable using read-only.For instance, if we want vari
 
 </blocckquote>
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -194,9 +194,9 @@ Variables can be made unchangeable using read-only.For instance, if we want vari
 - `tput` is an alternative command to `echo`.
 - Using this, we can control the way in which the output is displayed on the screen.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -210,9 +210,9 @@ Variables can be made unchangeable using read-only.For instance, if we want vari
 
 666 i.e.rw-rw-rw- is the default permission of a file, when it is created.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -232,9 +232,9 @@ Variables can be made unchangeable using read-only.For instance, if we want vari
     1.$ ls
     2.$ ls –lrt or $ ls -ltr
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -250,9 +250,9 @@ Variables can be made unchangeable using read-only.For instance, if we want vari
 2.It changes the directory to test.
 3.It moves back to one directory or to the parent directory of your current directory.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -276,9 +276,9 @@ Variables can be made unchangeable using read-only.For instance, if we want vari
 - To compress the file
 
   - `$ compress file1` - It reduces the size of file1 and creates a compressed file called file1.z and deletes file1.
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -299,9 +299,9 @@ Wednesday, October 2022 03:58:06 PM MDT
 **find**    -	`$ find .–name ‘*.t’ -print`	- It searches in the current directory and in all its subdirectories for files ending with .t, and writes their names in the output.
 
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -316,9 +316,9 @@ Wednesday, October 2022 03:58:06 PM MDT
 **finger**	`$ finger`	        - It displays information about the user.
 **who** 	`$ who`         	- It lists the users who are logged in on the machine.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -333,9 +333,9 @@ Wednesday, October 2022 03:58:06 PM MDT
 `$ grep Hello file1`        -   It searches for the lines containing Hello in file1.
 `$ grep –c Hello file1`     -   It gives the count or number of lines that contain Hello in file1.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -352,9 +352,9 @@ Wednesday, October 2022 03:58:06 PM MDT
 **passwd**	`$ passwd`	    -   It is used to change the password.
 **pwd** 	`$ pwd`         -   It displays the present working directory.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -370,9 +370,9 @@ Wednesday, October 2022 03:58:06 PM MDT
 **talk**	`$ talk user1`	-   It is used to talk to the user1 who is currently logged into the same machine.
 **wc**	    `$ wc file1`    -   It counts the number of lines, words, and characters in file1.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -386,9 +386,9 @@ Wednesday, October 2022 03:58:06 PM MDT
 
 `$ sort file1`	        - This will sort the contents of file1 and display sorted output on the screen.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -404,9 +404,9 @@ Wednesday, October 2022 03:58:06 PM MDT
 
 - To list the hidden file, we need to use –the option of ls.i.e.`$ ls –a`
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -422,9 +422,9 @@ Wednesday, October 2022 03:58:06 PM MDT
 
 `cmp` – Basically it compares two files byte by byte and displays the very first mismatch.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -442,9 +442,9 @@ Wednesday, October 2022 03:58:06 PM MDT
 **Example: #!/bin/bash**        - The above line also tells which shell to use.
    - Here ‘#’ symbol is called hash and ‘!’ is called a bang.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 

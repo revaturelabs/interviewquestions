@@ -12,8 +12,8 @@ Components are the basic building blocks in the Angular application.Components c
 
 Consider, we are building a page for an application.The features on the page include the header, footer and navigation, and content area.Instead of building a single page with all these features, we can choose to split the page into components, which helps us to manage our application.In the above scenario, we can say that the header, footer, content area, navigate, on, and so on are separate components of the page; but when the user views it on the website through any device, it will show as a single page.
 	
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -27,8 +27,8 @@ Consider, we are building a page for an application.The features on the page inc
   
  `app.component.ts` 
   
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -42,8 +42,8 @@ Consider, we are building a page for an application.The features on the page inc
   
  Run the `ng generate component <component_name>` or `ng g c <component-name>` command in the terminal to create a component
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
   
@@ -57,8 +57,8 @@ Consider, we are building a page for an application.The features on the page inc
    
 When we run `ng g c server` in the terminal, CLI creates a component and registers this component in the AppModule.Now, you're able to see a `server` folder inside `src/app`.This `server` folder contains 4 files - `server.component.html`, `server.component.spec.ts`, `server.component.ts` and `server.component.css`.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
   
@@ -84,8 +84,8 @@ Lifecycle Hooks:	.
 
 NOTE - `constructor()` - The constructor of the component class gets executed first, before the execution of any other lifecycle hook events.If we need to inject any dependencies into the component, then the constructor is the best place to do so
 	
-</blockquote>  
-</details>
+</blockquote  markdown="1">  
+</details markdown="1">
 	
 ---  
 
@@ -99,8 +99,8 @@ NOTE - `constructor()` - The constructor of the component class gets executed fi
 
 - Components in Angular are defined using a `@Component` decorator.It includes a selector, template, style, and other properties, and it specifies the metadata required to process the component.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -114,8 +114,8 @@ NOTE - `constructor()` - The constructor of the component class gets executed fi
 
 Angular applications can have multiple components.Each component handles a small part of the UI.These components work together to produce the complete user interface of the application.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -129,8 +129,8 @@ Angular applications can have multiple components.Each component handles a small
 
 An Angular application has one root component - `AppComponent`
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 	
@@ -162,8 +162,8 @@ import { AppComponent } from './app.component';
 export class AppModule { }
 ```
 	
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 	
 ---
 
@@ -183,8 +183,8 @@ export class AppModule { }
 
 ![image](https://user-images.githubusercontent.com/70228962/186089554-ec5c403b-dd95-4f13-83ce-2bd90e4b67c2.png)
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 	
@@ -207,8 +207,8 @@ export class UserComponent {
 
 Using the `<user>` tag in the `index.html`
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 	
@@ -243,8 +243,8 @@ export class AppComponent {
 - `templateUrl` - points to an HTML file that defines what you see on your application.
 - `styleUrls` - points to a set of CSS files that define styles or designs for the  application
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 	
 ---   
 
@@ -260,8 +260,8 @@ A template is just like regular HTML that renders a view, or user interface, in 
 
 When you generate an Angular application with the Angular CLI, the `app.component.html` file is the default template containing placeholder HTML.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  
@@ -276,8 +276,8 @@ When you generate an Angular application with the Angular CLI, the `app.componen
 - `templateUrl` - You can define the template in a separate HTML file and link to it in the component metadata using the `@Component` decorator's `templateUrl` property.
 	
 - `template` - You can define it inline using the template property 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  	
@@ -312,8 +312,8 @@ When you generate an Angular application with the Angular CLI, the `app.componen
 ```
 - **NOTE:** Both the `styles` and `styleUrls` properties are arrays.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  
@@ -327,8 +327,8 @@ When you generate an Angular application with the Angular CLI, the `app.componen
 
 `OnChanges()`
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  
@@ -342,8 +342,8 @@ When you generate an Angular application with the Angular CLI, the `app.componen
 
 `constructor()`
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  
@@ -366,8 +366,8 @@ Angular calls these hook methods in the following order:
 7.**`ngAfterViewChecked`**: After every check of a component's views.
 8.**`ngOnDestroy`**: Just before the component/directive is destroyed.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  
@@ -381,8 +381,8 @@ Angular calls these hook methods in the following order:
 
 `ngOnInit`called only once during the component lifecycle, after the first `ngOnChanges` call.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  
@@ -396,8 +396,8 @@ Angular calls these hook methods in the following order:
 
 `@angular/core`
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 	
@@ -420,8 +420,8 @@ Inline Template  - It is defined by placing the HTML code in backticks _`_ and i
 })
 ````
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 	
@@ -447,8 +447,8 @@ You can use the `styles` property to keep the CSS code inline to style your comp
 })
 ```
 	
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 	
@@ -477,8 +477,8 @@ export class AppComponent{
 }
 ```
 	
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 	
@@ -492,8 +492,8 @@ export class AppComponent{
 
 Views are almost like their own virtual DOM.Together, the component and its template describe a view.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 	
@@ -509,8 +509,8 @@ A template is an HTML snippet that tells Angular how to render the component in 
 
 The template is immediately associated with a component that defines that component’s view.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -544,8 +544,8 @@ External Template - It is defined in a separate HTML file and is linked to the c
 })
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  
@@ -559,16 +559,16 @@ External Template - It is defined in a separate HTML file and is linked to the c
 
 Choose based on the explanation below	
 
-</blockquote>
+</blockquote  markdown="1">
 <details markdown="1">
 <summary><b>Explanation</b></summary>
 <blockquote markdown="1">
 
 Normally we use inline templates for small portion of code and external template files for bigger views.By default, the Angular CLI generates components with a template file.But you can override that with using `ng g c hero -it` command.
 	
-</blockquote>
-</details>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
+</details markdown="1">
   
 ---
  
@@ -582,8 +582,8 @@ Normally we use inline templates for small portion of code and external template
 
 `constructor()`
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -617,8 +617,8 @@ export class UserComponent {
 } 
 ```	
 	
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 	
@@ -634,8 +634,8 @@ export class UserComponent {
 - This way it eliminates the risk of **script injection attacks**.
 - If you still use it then it will be ignored and a warning appears in the browser console.
 	
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 	
@@ -651,8 +651,8 @@ The _constructor_ is a _Typescript_ feature used to instantiate the _Typescript_
 
 The _ngOnInit_ function is specific to the Angular framework and is called when Angular is done creating the component.It should be called with any custom finalization like loading data for your component to display.
 	
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -667,8 +667,8 @@ Dynamic components are components’ location in the application that is not def
 
 Instead, the component is instantiated and placed in the application at runtime.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 	
@@ -682,8 +682,8 @@ Instead, the component is instantiated and placed in the application at runtime.
 
 View Encapsulation in Angular defines how the styles defined in the template affect the other parts of the application.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  
@@ -697,8 +697,8 @@ View Encapsulation in Angular defines how the styles defined in the template aff
 
 3 strategies - `ViewEncapsulation.Emulated`, `ViewEncapsulation.ShadowDOM` and `ViewEncapsulation.None`
 	
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 	
@@ -716,8 +716,8 @@ In the case of Angular apps, the components co-exists with the other components.
 	
 That's why we need view encapsulation.
 	
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 		
@@ -743,8 +743,8 @@ The Encapsulation methods are added using the encapsulation metadata of the @Com
 
 **NOTE:** `ViewEncapsulation.Emulated` is the default encapsulation method.
 	
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 			

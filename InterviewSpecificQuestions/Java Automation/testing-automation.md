@@ -14,8 +14,8 @@
 | Black-box testing                                                    | White-box testing                         |
 | Tests the end-to-end behavior of the application                     | Tests are written for individual function |
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -32,8 +32,8 @@ Behavior Driven Development (BDD) Testing is used to test an application's behav
   
 In BDD, test cases are written in a natural language that even non-programmers can read.
   
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -47,8 +47,8 @@ In BDD, test cases are written in a natural language that even non-programmers c
 
 Automation testing is a software testing strategy in which a tester programmatically runs the tests using a tool or a framework instead of manually going through the test cases and executing them one by one.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -63,8 +63,8 @@ Automation testing is a software testing strategy in which a tester programmatic
 
 Selenium is an open-source automated testing framework for validating web applications across multiple browsers and platforms.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -78,8 +78,8 @@ Selenium is an open-source automated testing framework for validating web applic
 
 Using Selenium WebDriver.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -111,8 +111,8 @@ Modern developers and product teams don’t have that kind of time to allow for 
 
 Therefore, we go for automation testing with Selenium.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -134,8 +134,8 @@ Therefore, we go for automation testing with Selenium.
 8.Record results and compare results them to the expected output.
 9.Close the WebDriver
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -161,8 +161,8 @@ driver.get("https://www.example.com") ;
 driver.navigate().to("https://www.example.com/signup");
 ```
 	
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -180,8 +180,8 @@ The forward command navigates the browser forward by one page recorded in the br
 driver.navigate().forward();
 ```
 	
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -199,8 +199,8 @@ The back command instructs the browser to redirect to the immediate previous web
 driver.navigate().back();
 ```
 	
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -218,8 +218,8 @@ The Refresh command instructs the browser to reload or refresh the current web p
 driver.navigate().refresh();
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -244,8 +244,8 @@ A locator enables testers to select an HTML DOM element to act on.Some of the di
 | By CSS               | driver.findElement(By.cssSelector (<css selector>) | Locates an element using the CSS selector    |
 | By XPath             | driver.findElement(By.xpath (<xpath>)              | Locates an element using XPath query         |
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -270,8 +270,8 @@ email_input = driver.findElement(By.name("email")
 name_input = driver.findElement(By.name("name")
 ``` 	
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -300,8 +300,8 @@ first_name = driver.findElement(By.xpath ("//form[@id='loginForm']/input[1]")
 last_name = driver.findElement(By.xpath ("//form[@id='loginForm']/input[2]")
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -321,8 +321,8 @@ For example, to find all input elements of a form with ID loginForm, we use:
 List<WebElement> inputs = driver.findElementsBy(By.id("loginForm");
 ```
 	
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -336,8 +336,8 @@ List<WebElement> inputs = driver.findElementsBy(By.id("loginForm");
 
 HTML Source refers to the HTML code underlying a certain web element on a web page.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -352,8 +352,8 @@ HTML Source refers to the HTML code underlying a certain web element on a web pa
 - Anything that appears on a web page is a web element.Also, web elements mean the tags within the web page’s HTML code.
 - Web element refers to text boxes, checkboxes, buttons, or any other fields that display or require data from the user.Such elements usually have unique identifiers, such as ID, name, or unique classes.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -373,8 +373,8 @@ HTML Source refers to the HTML code underlying a certain web element on a web pa
 | Not Applicable                                                                                    | Each Web element is indexed with a number starting from 0 just like an array     |
 | Example: driver.findElement(By.id("no")                                                          | Example: List elements = driver.findElements(By.name("name");                   |
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 	
@@ -401,8 +401,8 @@ Here,
 - `Attribute`: denotes the attribute of the node
 - `Value`: denotes the value of the chosen attribute
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 	
@@ -425,8 +425,8 @@ There are two types of XPath in Selenium.
 	- Here XPath expression starts from the middle of the DOM structure denoting the current node.
 	- Example: `//img[@alt='LambdaTest']`
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---	
 	
@@ -443,8 +443,8 @@ There are two types of XPath in Selenium.
 - It's primarily used to develop acceptance tests for web apps based on their features' behaviour.
 - It provides a method for writing tests that anyone, regardless of technical knowledge, can comprehend.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -459,8 +459,8 @@ There are two types of XPath in Selenium.
 - The Cucumber tool uses the Gherkin language, a simple English representation of the application behaviour.
 - The Gherkin language uses several keywords to describe the behaviour of applications such as Feature, Scenario, Scenario Outline, Given, When, Then, etc.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -475,8 +475,8 @@ There are two types of XPath in Selenium.
 - Features files contain a high-level description of the Test Scenario in simple language.
 - It consists of the components like Feature, Scenario, Scenario outline, Given, When, Then
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -501,8 +501,8 @@ Example: For an e-commerce website, we can have the following features: -
 - User logs out from the website
 
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -523,8 +523,8 @@ For example,
 
 _Explanation_: When a user clicks on the My Orders option, he/ she should be taken to the My Orders page
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -559,8 +559,8 @@ Scenario Outline: A user wants to update the status of any potentially completed
 			| 4        | 19         | 23      |
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -576,8 +576,8 @@ Scenario Outline: A user wants to update the status of any potentially completed
 - Feature file
 - Step Definition file
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -595,8 +595,8 @@ Scenario Outline: A user wants to update the status of any potentially completed
 - Each step of the feature file can be mapped to a corresponding method on the Step Definition file.
 - Cucumber searches the step definition file and executes the relevant functions that are assigned to that step when it runs a step described in the feature file.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -618,8 +618,8 @@ Scenario: Login to the application.
 - When the user clicks on the Login button.
 - Then validate if the user login is successful.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -653,8 +653,8 @@ And another event occurs
 Then expected outcome
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -674,8 +674,8 @@ Then expected outcome
 | Selenium is written in programming languages like Java, .Net, etc.| Cucumber is written both in programming language as well as plain text.                       |
 | Requires programming knowledge to understand                       | Easier to read as it is written in both programming language as well as plain readable format.|
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -695,8 +695,8 @@ The general workflow for implementing BDD using Cucumber is as follows:
 2.After the developer has finished drafting the feature file, they should generate their glue code by running the feature file.We'll talk more about glue code in the future, but for now, you need only know that this glue code consists of potential test methods that are associated with a scenario's steps.We say "potential" test methods because the developer may or may not choose to implement those suggested test methods.
 3.Once the developer has generated the glue code and written the tests, they should choose a test runner for running the glue code.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -715,8 +715,8 @@ The general workflow for implementing BDD using Cucumber is as follows:
 - Because of this incompatibility, Cucumber allows developers to "translate" Gherkin into source code into the appropriate source code based on the BDD keywords used within the feature file.
 - The source code that Cucumber generates is called glue code.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -739,8 +739,8 @@ Below is the syntax of the Cucumber Options tag:
 @CucumberOptions(features="Features",glue={"StepDefinition"})
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -769,8 +769,8 @@ public class CucumberTestRunner {
 }
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -787,8 +787,8 @@ public class CucumberTestRunner {
 
 Selenium will throw a `NoSuchElementException`.There is also a chance that we have a reference to an element that no longer exists.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -808,8 +808,8 @@ In NoSuchElementException cases, we would like to wait for the element to appear
 - Implicit waits are a global configuration on the WebDriver object and apply every time the DOM is queried.
 - Explicit waits apply individually and adjust the waiting time explicitly and dynamically at regular intervals.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -826,8 +826,8 @@ In NoSuchElementException cases, we would like to wait for the element to appear
 Imagine you are trying to automate a single-page application.There are multiple views that you need to interact with and many elements to query for.Navigating to pages and repeatedly querying the DOM can result in messy, unorganized code.A simple design pattern to organize your code around is called the Page Object Model.
 
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -845,8 +845,8 @@ Imagine you are trying to automate a single-page application.There are multiple 
 - It is useful in reducing code duplication and improves test case maintenance.
 - In-Page Object Model, consider each web page of an application as a class file.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -872,8 +872,8 @@ The `initElements` method is used to initialize web elements.
 
 initElements(): initElements is a static method in Page Factory class.Using the initElements method, one can initialize all the web elements located by @FindBy annotation.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -894,8 +894,8 @@ initElements(): initElements is a static method in Page Factory class.Using the 
 | Page Object Model is a design pattern                          | PageFactory is a class that provides the implementation of the Page Object Model design pattern |
 | In POM, one needs to initialize every page object individually | In Page Factory, all page objects are initialized by using the initElements() method             |
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -929,8 +929,8 @@ driver.switchTo().alert().getText();
 driver.switchTo().alert().sendKeys("Text");
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -967,8 +967,8 @@ Select objSelect = new Select(driver.findElement(By.id("Search-box"));
 objSelect.selectByValue("Automation Testing");
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -989,8 +989,8 @@ List <WebElement> elementCount = oSelect.getOptions();
 System.out.println(elementCount.size();
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -1005,8 +1005,8 @@ System.out.println(elementCount.size();
 
 isMultiple(): boolean – This method informs whether the Select element supports multiple selection options at the same time or not.This method accepts nothing and returns a Boolean value (true/false).
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -1021,8 +1021,8 @@ isMultiple(): boolean – This method informs whether the Select element support
 
 In Selenium, the Select class provides the implementation of the HTML SELECT tag.A Select tag provides the helper methods with select and deselects options.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -1042,8 +1042,8 @@ In Selenium, the Select class provides the implementation of the HTML SELECT tag
 | This method is used in System Testing or Acceptance Testing.                                                                                          | This method is used in Unit Testing or Integration Testing.                                               |
 | No knowledge of implementation is needed.                                                                                                             | Knowledge of implementation is required.                                                                  |
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -1067,8 +1067,8 @@ In Selenium, the Select class provides the implementation of the HTML SELECT tag
 		- edgedriver	->	Microsoft Edge
 
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 	

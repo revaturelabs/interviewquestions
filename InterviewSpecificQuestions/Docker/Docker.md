@@ -7,8 +7,8 @@
 
 Containerization is a process of packaging an application code along with its required libraries, frameworks, and configuration files so that it can be run efficiently and seamlessly in any environment.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -22,8 +22,8 @@ Containerization is a process of packaging an application code along with its re
 - Quick software development
 - Easy software delivery
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -36,8 +36,8 @@ Containerization is a process of packaging an application code along with its re
 
 Docker is a very popular containerization platform which packages our application along with its dependencies in the form of containers so that our application can work seamlessly in any environment, be it development , test, or production.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -51,8 +51,8 @@ Docker is a very popular containerization platform which packages our applicatio
 - It's a remote repository where docker images can be stored.
 - Two types of registry are there: public e.g., Docker hub , private
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -66,8 +66,8 @@ Docker is a very popular containerization platform which packages our applicatio
 - Using the command `docker login`.
 - We need to use Docker login to access public registry.Before that we need to create an account at **http://hub.docker.com** so that we will get username and password.we can use that to access .
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -80,8 +80,8 @@ Docker is a very popular containerization platform which packages our applicatio
 
 No, we can pull the images from the Docker hub without login.But to push the images to Docker hub then login is needed.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -94,8 +94,8 @@ No, we can pull the images from the Docker hub without login.But to push the ima
 
 - Using the command `docker login <Private Registry URL>`.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -110,8 +110,8 @@ No, we can pull the images from the Docker hub without login.But to push the ima
 - Also Docker image is an immutable.
 
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -125,8 +125,8 @@ No, we can pull the images from the Docker hub without login.But to push the ima
 - Container is a running instance of the image.
 - Every time we start a new container an extra writeable layer is created for it.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -140,8 +140,8 @@ No, we can pull the images from the Docker hub without login.But to push the ima
 - Docker image has no dependency on Docker container.Because we can install Docker image and it is okay if we do not run a container from it.
 - On the other hand, Docker container has dependency on Docker image.Let's suppose we need to run Tomcat Docker container , for that we need to pull Tomcat Docker image without that image we cannot run the container.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -154,8 +154,8 @@ No, we can pull the images from the Docker hub without login.But to push the ima
 
 Yes, we can create multiple containers from the same image.As the image is made up of Read-only layers , none of the container can modify it.But each container has got the writable layer, where container specific changes can be stored.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -169,8 +169,8 @@ Yes, we can create multiple containers from the same image.As the image is made 
 - Docker is written in Golang.
 -Command to check Docker version is `docker -v`.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -186,8 +186,8 @@ There are two ways to create Docker images
    - Manually from running Docker container.
    - Automatically by writing instructions in Docker file.
 
-</Blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -203,8 +203,8 @@ In two ways we can do it.
   - Go to `https://hub.docker.com/` in our web browser and search.
   - Use `docker search<ImageName>` in our linux server.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -217,8 +217,8 @@ In two ways we can do it.
 
 Docker will not download any already available layer of **alpine-git**.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -232,7 +232,7 @@ Docker will not download any already available layer of **alpine-git**.
 The command to get the required details about each layer is `docker history <ImageName/Id>`.
 
 </blockquotes>
-</details>
+</details markdown="1">
 
 ---
 
@@ -247,8 +247,8 @@ The command to get the required details about each layer is `docker history <Ima
 - Frequent cleanup of these images is very important to keep our disk space free.
 - command to remove the dangling image is `docker image prune -a`.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -263,8 +263,8 @@ The command to get the required details about each layer is `docker history <Ima
   - -it for interactive mode.
   - -d for daemon mode.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -277,8 +277,8 @@ The command to get the required details about each layer is `docker history <Ima
 
 - The command is `docker inspect <ContainerName/Id>`.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -293,8 +293,8 @@ The command to get the required details about each layer is `docker history <Ima
 - For e.g., **docker create -it --name test1 image**
 
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -307,8 +307,8 @@ The command to get the required details about each layer is `docker history <Ima
 
 -Using the command is `docker ps -as`.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -321,8 +321,8 @@ The command to get the required details about each layer is `docker history <Ima
 
 -Using the command `docker logs<ContainerName/Id>`.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -335,8 +335,8 @@ The command to get the required details about each layer is `docker history <Ima
 
 Container logs are stored in host server.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -352,8 +352,8 @@ One should enable auto restart policy to handle above scenario.Restart supports 
    - always.
    - unless-stopped.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -366,8 +366,8 @@ One should enable auto restart policy to handle above scenario.Restart supports 
 
 we should use -rm flag while starting a container to auto remove the container on its exit.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -380,8 +380,8 @@ we should use -rm flag while starting a container to auto remove the container o
 
 No, restart and rm cannot be used together.restart will try to start the container as soon as it stops and rm will try to remove the container as soon as it stops.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -394,8 +394,8 @@ No, restart and rm cannot be used together.restart will try to start the contain
 
 We can make use of available git image along with bind mount to mount host directory inside a container and run `git clone` command on container start to clone the data in mounted directory.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -408,8 +408,8 @@ We can make use of available git image along with bind mount to mount host direc
 
 Docker shares resources from out host for running a container.So whatever changes are happening inside our Docker container are actually written somewhere on a host machine.So, we have to find that folder location and copy the content over there.Then it will automatically get visible in the Docker container.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -423,8 +423,8 @@ Docker shares resources from out host for running a container.So whatever change
 - Using link flag in case of default bridge.
 - user defined bridge.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -446,8 +446,8 @@ Docker shares resources from out host for running a container.So whatever change
 - Expose
 - CMD and ENTRYPOINT
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -460,8 +460,8 @@ Docker shares resources from out host for running a container.So whatever change
 
 **COPY** provides just the basic support of copying local files into the container whereas **ADD** provides additional features like remote URL and tar extraction support.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -474,8 +474,8 @@ Docker shares resources from out host for running a container.So whatever change
 
 A hypervisor is required to host and maintain virtual machines; a system administrator needs to maintain the hypervisor itself.However, the Docker engine is a lightweight container virtualization technology that runs on the host operating system, and Docker containers can be started very quickly.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -488,8 +488,8 @@ A hypervisor is required to host and maintain virtual machines; a system adminis
 
 Yes, active monitoring ensures higher productivity and better outcomes.Docker monitoring also notifies about any default in the system.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -504,8 +504,8 @@ Yes, active monitoring ensures higher productivity and better outcomes.Docker mo
 **Docker Host**.Contains Docker daemon, containers, and associated images.The Docker daemon establishes a connection with the Registry.The stored images are the type of metadata dedicated to containerized applications.
 **Registry**.Docker images are stored here.There are two of them, a public registry and a private one.Docker Hub and Docker Cloud are two public registries available for use by anyone.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -518,8 +518,8 @@ Yes, active monitoring ensures higher productivity and better outcomes.Docker mo
 
 Virtualization is an abstract version of a physical machine, while containerization is the abstract version of an application.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -532,8 +532,8 @@ Virtualization is an abstract version of a physical machine, while containerizat
 
 Docker Hub is a service provided by Docker for finding and sharing container images with your team.It provides two repositories: Push and pull container images.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -546,8 +546,8 @@ Docker Hub is a service provided by Docker for finding and sharing container ima
 
 Docker client and Docker Daemon communication happen with the combination of Rest API, socket.IO, and TCP.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -561,8 +561,8 @@ Docker client and Docker Daemon communication happen with the combination of Res
 - Docker uses a technology called namespaces to provide the isolated workspace called the container.When we run a container, Docker creates a set of namespaces for that container.
 - These namespaces provide a layer of isolation.Each aspect of a container runs in a separate namespace and its access is limited to that namespace.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -575,8 +575,8 @@ Docker client and Docker Daemon communication happen with the combination of Res
 
  A Docker Swarm is a group of either physical or virtual machines that are running the Docker application and that have been configured to join together in a cluster.Once a group of machines have been clustered together, we can still run the Docker commands that we're used to, but they will now be carried out by the machines in our cluster.The activities of the cluster are controlled by a swarm manager, and machines that have joined the cluster are referred to as nodes.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -589,8 +589,8 @@ Docker client and Docker Daemon communication happen with the combination of Res
 
 Docker Compose is a tool that was developed to help define and share multi-container applications.With Compose, we can create a YAML file to define the services and with a single command, can spin everything up or tear it all down.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -608,8 +608,8 @@ The command used for stopping a running container:
 The command to kill a container:
 `$ docker kill <container_id>`.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 

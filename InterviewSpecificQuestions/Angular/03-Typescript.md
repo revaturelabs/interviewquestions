@@ -8,8 +8,8 @@
 - TypeScript is an open-source object-oriented programming language developed and maintained by Microsoft.It is a superset of JavaScript.
 - TypeScript is designed for the development of large applications and transpiles to JavaScript.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -24,8 +24,8 @@
 - Since we all know that JavaScript is the only language used in client-side scripting browsers can only understand JavaScript.
 - Since TypeScript simplifies JavaScript code, making it easier to read and debug.It saves developers time and increases productivity.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -44,8 +44,8 @@ Advantages of using TypeScript:
 - Has a powerful type system, including generics.
 - Statically typed programming languages are those in which the type of a variable is known at compile-time instead of at run-time.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -66,8 +66,8 @@ Install the TypeScript plugin in your IDE
 
 We can also install a typescript plugin available for our IDE.We can use the  IDE of our choice such as VS Code, Visual Studio, Atom, or Sublime Text.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -80,8 +80,8 @@ We can also install a typescript plugin available for our IDE.We can use the  ID
 
 TypeScript follows the OOPS (Object-Oriented Programming System) concept and with the help of TSC (TypeScript Compiler), we can convert Typescript code (.ts file) to JavaScript (.js file).
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -94,8 +94,8 @@ TypeScript follows the OOPS (Object-Oriented Programming System) concept and wit
 
 Typescript supports the four object-oriented programming concepts – Abstraction, Polymorphism, Inheritance, and Encapsulation.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -111,8 +111,8 @@ Typescript supports the four object-oriented programming concepts – Abstractio
 - The Built-in types include string, number, boolean, undefined, null, and void.
 - The User-defined types include array, enum, interface, class, union, and tuple.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -127,8 +127,8 @@ Typescript supports the four object-oriented programming concepts – Abstractio
 - We can create a module using the export keyword.
 - A module in typescript can be used in another module using the import keyword.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -150,8 +150,8 @@ namespace MyNamespace {
 }
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -182,8 +182,8 @@ If we want to write the full type of the function:
 let funcAdd: (a: number, b: number) => number = 
      function (a: number, b: number) : number  { return a + b; };
 ```
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -201,8 +201,8 @@ This is an additional Type of assertion syntax.The reason for including the **as
 let strength: number= (someString as string).length;
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -215,8 +215,8 @@ let strength: number= (someString as string).length;
 
 const is used on a variable whereas read-only is used on properties of an object.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -242,8 +242,8 @@ class Singleton {
   console.log(Singleton.counter); //1
 ```  
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -265,8 +265,8 @@ When any of the class members are declared private, it is only accessible within
 **Protected**:
 The protected members are similar to private access modifiers, except that they are accessible in the derived class.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -290,8 +290,8 @@ function getPlayersList(name:string, ...players: string[]) {
 let players = getPlayersList("Virat", "MS", "Warner", "Kane", "Ben")
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -316,8 +316,8 @@ greet('DS'); //function call
 ```
 - The symbol T identifies a generic type.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -347,8 +347,8 @@ export class Student {
 let Subject: string = "Computer Science";
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -362,8 +362,8 @@ let Subject: string = "Computer Science";
 - Yes, JSX is an embeddable XML-like syntax.
 - To use JSX, we must name our file with a .tsx extension and should enable the jsx option.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -377,8 +377,8 @@ let Subject: string = "Computer Science";
 - Decorators are functions that modify a class, property, method, or method parameter.The syntax to define decorators is “@”.
 - In other words, Decorators are functions that take their target as the argument.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -397,8 +397,8 @@ let Subject: string = "Computer Science";
  ```
 - Triple-slash directives are only valid at the top of their containing file.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -411,8 +411,8 @@ let Subject: string = "Computer Science";
 
 The typescript project will have a ts.config file which provides an infinite number of ways to customize the behavior of the compiler.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -431,8 +431,8 @@ tsc --watch filename.ts
 
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -452,8 +452,8 @@ declare var myAlexaLibrary;
 
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -476,8 +476,8 @@ $(document).ready(function() { //Your jQuery code });
 - So, we need to inform the TypeScript compiler that “$”belongs to jQuery.
 - To do this, TSD comes into play.We can download the jQuery Type Definition file and include it in our .ts file.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -501,8 +501,8 @@ $ tsc -source map filename.ts
 //# sourceMappingURL=filename.js.map
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -515,8 +515,8 @@ $ tsc -source map filename.ts
 
 We can call the base class constructor using `super()`.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -530,8 +530,8 @@ We can call the base class constructor using `super()`.
 - An `interface` is a virtual structure that only exists within the context of TypeScript.The TypeScript compiler uses interfaces only for type-checking purposes.
 - When we define your interface we’re saying that any object (not an instance of a class) given this contract must be an object containing interface properties.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -545,8 +545,8 @@ We can call the base class constructor using `super()`.
 - If we need/wish to create an instance of perhaps a custom object, whilst getting the benefits of type-checking things such as arguments, return types, or generics - a class makes sense.
 - If we’re not creating instances - we have interfaces at our disposal, and their benefit comes from not generating any source code, yet allowing us to somewhat “virtually” type-check our code.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -572,8 +572,8 @@ console.log(employee[1]); // Output: Priya
 
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -599,8 +599,8 @@ class Employee {
 }
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -647,8 +647,8 @@ console.log(Gender.Female); // Output: 1
 console.log(Gender[1]); // Output: Female  
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -668,8 +668,8 @@ console.log(sum(5,10); //returns 15
 ```
 Here, `?=>?` is a lambda operator.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---
 
@@ -683,7 +683,7 @@ Here, `?=>?` is a lambda operator.
 - TypeScript cannot be run or understood in any browser.
 - TypeScript needs to be compiled (translated) to JavaScript which any browser can understand.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 ---

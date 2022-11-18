@@ -12,9 +12,9 @@
 
 - When different pieces of data are put together, they come to form the software.OOP is an alternative to functional or procedural programming and it’s also the approach used by C#.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -28,9 +28,9 @@
 
 In C#, a class is a user-defined blueprint from which objects are created.It brings various types of data together to form a single unit.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -44,9 +44,9 @@ In C#, a class is a user-defined blueprint from which objects are created.It bri
 
 An object is a real-world entity and in C# it’s a single instance of a class.For example, if you had a class of ‘birds’ then ‘pigeons’, ‘peacocks’, and ‘crows’ would all be objects.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -60,9 +60,9 @@ An object is a real-world entity and in C# it’s a single instance of a class.F
 
 In C#, a method is a code block that contains a series of statements used to perform specific operations.Methods must be declared within a class or a structure.They help save time by reusing code.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -78,9 +78,9 @@ In C#, a method is a code block that contains a series of statements used to per
 - A structure in C# is simply a composite data type consisting of several elements of other types.
 - The structure in C# can contain fields, methods, constants, constructors, properties, indexers, operators, and even other structure types.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -94,9 +94,9 @@ In C#, a method is a code block that contains a series of statements used to per
 
 A Class is an Abstract Data Type because it specifies what data members and member functions (methods) contain in it (class), but it does not provide information on how those are implemented.That makes Class Abstract and Class is User Defined Data Type.So, it’s an Abstract Data Type
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -110,9 +110,9 @@ A Class is an Abstract Data Type because it specifies what data members and memb
 
 Actually, there is no difference.The `string` keyword is an alias for the `System.String` class.Therefore `System.String` and `string` keywords both are the same, and we can use whichever naming convention we prefer.The String class provides many methods for safely creating, manipulating, and comparing strings.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -126,9 +126,9 @@ Actually, there is no difference.The `string` keyword is an alias for the `Syste
 
 A constructor is a member function with the same name as its class.The constructor is automatically invoked when an object is created.While the class is being initialized, it constructs all the values of data members.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -151,9 +151,9 @@ For Example:
 }
 ```
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -172,9 +172,9 @@ The four fundamental concepts of Object-Oriented Programming are:
 **Inheritance**: It is the ability to create new classes from another class.It is done by accessing, modifying and extending the behaviour of objects in the parent class.
 **Polymorphism**: The name means, one name, many forms.It is achieved by having multiple methods with the same name but different implementations.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -193,9 +193,9 @@ The four fundamental concepts of Object-Oriented Programming are:
 - Structures do not support inheritance.
 - Structures cannot have a default constructor.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -212,9 +212,9 @@ The four fundamental concepts of Object-Oriented Programming are:
 - Partial Class
 - Abstract Class
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -236,9 +236,9 @@ Static Classes are created using a `static` keyword, if any class is marked as s
 - You can access the members of a static class by using the class name itself.
 - Static class can be public.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -257,9 +257,9 @@ A sealed class is a class that does not allow inheritance.Some object model desi
 - We can create an instance of the sealed class in c#.
 - We cannot inherit the sealed class.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -282,9 +282,9 @@ When we work on a large project and write the code in a single .cs file.It is po
 - The partial class must be prefixed with the partial keyword.
 - We can apply inheritance on partial class.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -316,9 +316,9 @@ Class childClass : AB1
 
 - All the methods in an abstract class are implicitly virtual methods.Hence, the virtual keyword should not be used with any methods in the abstract class.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -332,9 +332,9 @@ Class childClass : AB1
 
 A Virtual method must always have a default implementation.An Abstract method does not have an implementation.An override keyword is not necessary here, though it can be used.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -348,9 +348,9 @@ A Virtual method must always have a default implementation.An Abstract method do
 
 Both the `==` Operator and the `Equals()` method are used to compare two value-type data items or reference-type data items.The Equality Operator `(==)` is the comparison operator and the `Equals()` method compares the contents of a string.The `==` Operator compares the reference identity while the `Equals()` method compares only contents.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -366,9 +366,9 @@ Both the `==` Operator and the `Equals()` method are used to compare two value-t
 
 **`as` operator**: The **“as”** operator behaves in a similar way as the **“is”** operator.The only difference is it returns the object if both are compatible with that type.Else it returns a null.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -382,9 +382,9 @@ Both the `==` Operator and the `Equals()` method are used to compare two value-t
 
 A field is a member of a class or an object of any type that represents a location for storing a value, whereas a property is a class member that provides a mechanism to read, write, and compute the value of a private field.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -398,9 +398,9 @@ A field is a member of a class or an object of any type that represents a locati
 
 In C#, circular references occur when two or more interdependent resources refer to each other, either directly or indirectly, resulting in a closed loop or lock condition.This situation makes the resource unusable.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -424,9 +424,9 @@ public static Rectangle operator + (Rectangle b, Rectangle c) {
      } 
 ```
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -440,9 +440,9 @@ public static Rectangle operator + (Rectangle b, Rectangle c) {
 
 Encapsulation reduces coupling between objects and increases maintainable code.It involves enclosing objects within a logical pack by limiting access to implementation details.In C#, encapsulation is achieved through the access specifiers public, private, protected, internal, and protected internal.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -456,9 +456,9 @@ Encapsulation reduces coupling between objects and increases maintainable code.I
 
 An Interface is a class with no implementation.The only thing that it contains is the declaration of methods, properties, and events.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -493,9 +493,9 @@ public static class SampleExtensions
     }
 }
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -509,9 +509,9 @@ public static class SampleExtensions
 
 Enumeration (or enum) is a value data type in C#.It is mainly used to assign the names or string values to integral constants, which make a program easy to read and maintain.For example, the 4 suits in a deck of playing cards may be 4 enumerators named Club, Diamond, Heart, and Spade, belonging to an enumerated type named Suit.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -534,9 +534,9 @@ Enumeration (or enum) is a value data type in C#.It is mainly used to assign the
 - The process of converting the reference type into the value type is known as Unboxing.
 - It is an explicit conversion process.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -563,9 +563,9 @@ Enumeration (or enum) is a value data type in C#.It is mainly used to assign the
 - Every property holds some specific logic while setting values for any particular work.
 - Fields in properties are contained within the class private so that they cannot be accessed from another class or outside the class's scope straightforwardly.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -580,9 +580,9 @@ Enumeration (or enum) is a value data type in C#.It is mainly used to assign the
 - The Early Binding occurs at compile time while the Late Binding occurs at runtime.
 - The major difference between Early and Late Binding is that Early Binding uses the class information to resolve method calling while Late Binding uses the object to resolve method calling.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -631,9 +631,9 @@ class Sample
 
 ```
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -653,9 +653,9 @@ Following are some uses of ‘this’ keyword in C#:
 - It can be used to invoke another constructor from the constructor of the same class.
 - It can be used as a parameter for a method call that takes the object of the same class as a parameter.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -674,9 +674,9 @@ We have four access modifiers in C#:
 - **Internal** - When a property or method is defined as internal, it can only be accessible from the current assembly point of that class.
 - **Protected**- When we declare a method or attribute as protected, then it can only be accessed by members of that class and those who inherit it.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -690,9 +690,9 @@ We have four access modifiers in C#:
 
 Method overloading is the process of generating many methods in the same class with the same name but with distinct signatures.The compiler utilizes overload resolution to identify which method to invoke when we compile.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -706,9 +706,9 @@ Method overloading is the process of generating many methods in the same class w
 
 A container that has objects which are ready to be used is known as an object pool.It helps in tracking the object which is currently in use and the total number of objects present in the pool.This brings down the need for creating and re-creating objects.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -727,9 +727,9 @@ A container that has objects which are ready to be used is known as an object po
 - This is used to implement dynamic polymorphism.
 - To implement function overriding, we use the virtual keyword for the base class function and override keyword in the derived class function 
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -743,9 +743,9 @@ A container that has objects which are ready to be used is known as an object po
 
 In C#, the colon can be used as an inheritance operator.You need to place a colon and follow it with the class name.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -759,9 +759,9 @@ In C#, the colon can be used as an inheritance operator.You need to place a colo
 
 To set the class to be inherited, it needs to be declared as public.The method needs to be sealed to prevent any overrides.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 ---
 
 38.How can a class be set to be inherited without overriding the method in C#?
@@ -774,9 +774,9 @@ To set the class to be inherited, it needs to be declared as public.The method n
 
 Provided that the method isn’t virtual, it won’t be overridden.However, if the class is inheriting from a base class that contains a virtual member function, you can use the `<sealed>` modifier to avoid further overriding that member function.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -790,9 +790,9 @@ Provided that the method isn’t virtual, it won’t be overridden.However, if t
 
 Yes, an interface can inherit from another interface in C#.It is possible for a class to inherit an interface multiple times, through base classes or interfaces it inherits.In this case, the class can only implement the interface one time if it is declared as part of the new class.If the inherited interface is not declared as part of the new class, its implementation is provided by the base class that declared it.It is possible for a base class to implement interface members using virtual members; in that case, the class inheriting the interface can change the interface behaviour by overriding the virtual members.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -810,9 +810,9 @@ Whereas in C#, for overriding the base class method in a derived class, you need
 Whereas if a method is overridden then the implementation to be called is based on the run-time type of the argument "this".
 - New is reference-type specific and overriding is object-type specific.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
     
@@ -826,9 +826,9 @@ Whereas if a method is overridden then the implementation to be called is based 
     
 We can't use `this` in the static method because the keyword `this` returns a reference to the current instance of the class containing it.Static methods (or any static member) do not belong to a particular instance.They exist without creating an instance of the class and call with the name of a class not by instance so we can't use this keyword in the body of static Methods, but in the case of Extension Methods, we can use it as the parameters of the function.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
     
 ---
     

@@ -12,9 +12,9 @@
 - The collections in C# are classes that represent a group of objects.With the help of C# Collections, we can perform different types of operations on objects such as Store, Update, Delete, Retrieve, Search, and Sort objects, etc.
 - All the data structure work can be performed by collections in C#.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -32,9 +32,9 @@ There are 3 ways to work with collections.The three namespaces are,
 - `System.Collections.Generic` classes.
 - `System.Collections.Concurrent` classes.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -58,9 +58,9 @@ The Non-Generic collection classes in C# are defined under `System.Collections`c
 
 **SortedList**:  It represents a collection of key/value pairs that are sorted by the keys and are accessible by key and by index.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -92,9 +92,9 @@ It provides a generic implementation of standard data structures like linked lis
 
 `LinkedList<T>`: It represents a doubly linked list.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -118,9 +118,9 @@ It provides various threads-safe collection classes that are used in place of th
 
 `ConcurrentDictionary<TKey, TValue>`: It represents a thread-safe collection of key/value pairs that can be accessed by multiple threads concurrently.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -135,9 +135,9 @@ It provides various threads-safe collection classes that are used in place of th
 - The ArrayList collection in C# is very much like the Arrays data type.The major difference between them is the **dynamic nature** of the non-generic collection ArrayList.
 - For arrays, we need to define the size i.e.the number of elements that the array can hold at the time of array declaration.But in the case of the ArrayList collection in C#, this does not need to be done beforehand.Elements can be added or removed from the Array List collection at any point in time.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -153,9 +153,9 @@ In the case of Array and ArrayList in C#, we access the elements from the collec
 
 **For example**, let us say we have an employee array that contains the name, address, mobile, dept no, email id, employee id, salary, location, etc.Now if I want to know the email id or dept number of the employee then it is very difficult for me to use the index position.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -171,9 +171,9 @@ The Hashtable in C# is a Non-Generic Collection that stores the element in the f
 
 The Hashtable computes a hash code for each key.Then it uses that hash code to look up the elements very quickly which increases the performance of the application.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -189,9 +189,9 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 **Note**: The performance of the hashtable is less as compared to the ArrayList because of this key conversion (converting the key to an integer hashcode).
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -207,9 +207,9 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 **Performance**: ArrayList is faster than hashtable because of extra tasks performed in hashtables i.e., hashing.
 **Scenario**: If you want a key lookup use hashtable.If you just want to add and browser through a collection, then use ArrayList.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -228,9 +228,9 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 - The capacity of a Stack is the number of elements the Stack can hold.As we add elements to a Stack, the capacity of the stack is automatically increased.
 - The Stack Collection in C# allows both null and duplicate values.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -247,9 +247,9 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 - The `Dequeue()` method will remove and return the first element from the queue.
 - The queue `Peek()` method will always return the first element of the queue, and it won’t delete elements from the queue.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -266,9 +266,9 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 **Note:** We should only use SortedList when we want to handle smaller collections that need to be sorted at all times.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -291,9 +291,9 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 - Event
 - Delegates
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -311,9 +311,9 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 - The fastest way to find a value in a dictionary is by using the keys.
 - Keys in a dictionary must be unique.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -330,9 +330,9 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 - The Dictionary is based on a hash table which means it uses a hash lookup, which is an efficient algorithm to look up things, on the other hand, a list, has to go and check element by element until it finds the result from the beginning.
 - When comparing with the List data structure, the dictionary always has a fixed lookup time.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -357,9 +357,9 @@ foreach(datatype var_name in collection_variable)
 }
 ```
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -380,9 +380,9 @@ foreach(datatype var_name in collection_variable)
 - Insertion and removal “try” operations that do not block or that block up to a specified period.
 - Encapsulates any collection type that implements `IProducerConsumerCollection<T>`
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 

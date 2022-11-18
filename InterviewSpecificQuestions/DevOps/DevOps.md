@@ -10,9 +10,9 @@
     
 - Software Development (Dev) Operations (Ops) are a set of practices and methodologies designed to combine the development (production/writing of code), deployment and maintenance of code into a streamlined process.
 
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -26,9 +26,9 @@
     
 - The primary goal of DevOps is to expedite the lifecycle of application development, particularly through the automation of tasks.
 
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -42,9 +42,9 @@
 
 - The process of regularly and consistently merging code into a central repository and reviewing new code to ensure that it integrates well within the previously established code base.
 
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -59,9 +59,9 @@
 - GitHub
 - GitLab
 
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -80,9 +80,9 @@
     - Acceptance Testing: Undergo other more complex tests (systems, integration) within temporary environment
     - Deployment of Build: Migrate working build to Production environment accessible by end users
 
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -98,9 +98,9 @@
 - Generally, source code control, building and testing, and deployment to staging are automated.
 - While acceptance testing and if necessary, deployment to production environment may be handled by a Human or requires manual approval.
 
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -116,9 +116,9 @@
 - There is no manual gate at the stage of the pipeline before production (like Continuous Delivery).
 - Any code commit that passes the automated testing phase is automatically released into the production.
 
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -134,9 +134,9 @@ Due to Continuous Integration code can be tested easily by creating separate, te
 
 - True
 
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -152,9 +152,9 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 
 - True
 
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -168,9 +168,9 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 
 - Jenkins is a self-contained, open-source automation server, which can be used to automate the building, testing and deployment of software.
 
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -185,9 +185,9 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 - Jenkins Pipeline (or simply Pipeline with a capital P) is a suite of plugins that supports implementing and integrating continuous delivery pipelines into Jenkins.
 - This allows us to automate the process of getting software from version control to our users and customers.
 
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -205,9 +205,9 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
     - provides richer syntactical features over Scripted Pipeline syntax, and
     - is designed to make writing and reading Pipeline code easier.
 
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -225,9 +225,9 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
   - `JOB_NAME`: Name of the project of this build, such as "foo" or "foo/bar".
   - `WORKSPACE`: The absolute path of the workspace.
 
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -244,9 +244,9 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 - SonarLint is an IDE extension that helps detect and fix quality issues as we write code.
 - For Eclipse, you can get it directly from the Eclipse Marketplace, and it will then detect new bugs and quality issues as we code (in Java, JavaScript, PHP, SQL, and Python).
 
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -260,9 +260,9 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 
 - Sonar Cloud is a cloud-based code review solution which can be configured to review code within a cloud repository, such as GitHub.
 
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -277,9 +277,9 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 - SonarQube is a Code Quality Assurance tool built to work on a centralized server or integrated into a development pipeline that collects and analyzes source code and provides reports for the code quality of our project.
 - SonarQube is an open-source platform developed by SonarSource for continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs, code smells on 29 programming languages and enables quality to be measured continually over time.
 
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -294,9 +294,9 @@ Continuous Integration establishes the foundation for an automated DevOps pipeli
 - Jenkins is usually shipped as war file which can be run in servlet containers such as Apache Tomcat or GlassFish.
 - Docker image of Jenkins is also available, which can be run in Docker as container.
 
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 

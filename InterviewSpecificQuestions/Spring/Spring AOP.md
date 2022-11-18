@@ -12,9 +12,9 @@
 - AOP can be good addition to OOP.
 - OOP is mainly used to model business logic whereas AOP helps to organize non-functional aspects (called cross cutting concerns) like Auditing, Logging, Transaction Management, Security etc.
 - AOP helps to build methods without clogging up the business code with the cross-cutting concerns.
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 2.Why we need to use AspectJ in Spring application?
@@ -52,9 +52,9 @@
         </dependency>
     </dependencies>
 ```
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 3.You must capture all exceptions caused in repository, service & controller layer using Spring AOP, how you can do it?
@@ -106,9 +106,9 @@ public class LoggingAspect {
 ```
 - In above code, we have defined pointcut expression for DAO, Service & Controller layer.
 - The `..` notation means "any package or subpackage", whereas `*` at the end of the expression after `..` means "any method in any class".
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 4.You have to measure performance (or time taken by method execution), how can you achieve it with AOP?
@@ -142,9 +142,9 @@ public class ExecutionTimeAspect {
 }
 ```
 - In above code, we have defined pointcut expression to measure performance of `public String com.revature.service.RefundService.process(Long)` method.
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -157,9 +157,9 @@ public class ExecutionTimeAspect {
 <blockquote markdown="1"> 
     
 - Pointcut is an expression language of spring AOP which is basically used to match the target methods to apply the advice.
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 6.Why do we use @EnableAspectJAutoProxy?
@@ -186,9 +186,9 @@ public class ExecutionTimeAspect {
     }
  }
 ```
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 

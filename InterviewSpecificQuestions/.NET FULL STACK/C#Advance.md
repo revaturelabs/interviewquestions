@@ -11,9 +11,9 @@
 - Reflection is the process of describing the metadata of types, methods, and fields in a code.The namespace System.
 - Reflection enables us to obtain data about the loaded assemblies, and the elements within them like classes, methods, and value types.
 	
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -27,9 +27,9 @@
 
 `dispose()` must be explicitly invoked by the user and the `finalize()` is called by the garbage collector when the object is destroyed.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -43,9 +43,9 @@
 
 Tuples are data structures that hold object properties and contain a sequence of elements of different data types.They were introduced as a `Tuple<T>` class in .NET Framework to avoid the need of creating separate types to hold object properties.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -59,9 +59,9 @@ Tuples are data structures that hold object properties and contain a sequence of
 
 Processes belonging to asynchronous programming run independently of the main or other processes.In C#, using Async and Await keywords for creating asynchronous methods.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -82,9 +82,9 @@ Suspended – The thread has been suspended
 Unstarted – The thread is created but has not started execution yet
 WaitSleepJoin – The thread calls sleep, calls wait on another object, and calls join on some other thread
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -116,9 +116,9 @@ Console.WriteLine(“Match found”);
 
 ```
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -134,9 +134,9 @@ C# introduces a new concept known as Indexers which are used for treating an obj
 
 Defining an indexer allows us to create classes that act as virtual arrays.Instances of that class can be accessed using the [] array access operator.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -150,9 +150,9 @@ Defining an indexer allows us to create classes that act as virtual arrays.Insta
 
 Serialization converts a code to its binary format using a process.After it is converted to bytes, it can be easily stored and written to a disk.Serializations are useful so that the original form of the code isn’t lost and can be retrieved later.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -191,9 +191,9 @@ public class Program
 
 ```
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -216,9 +216,9 @@ Public delegate void PrintNumbers();
 Event PrintNumbers myEvent;
 ```
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -232,9 +232,9 @@ Event PrintNumbers myEvent;
 
 - A Delegate that points to more than one method is called a Multicast Delegate.Multicasting is achieved by using the + and += operator.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -248,9 +248,9 @@ Event PrintNumbers myEvent;
 
 - Delegates are used to raise events and handle them.Always a delegate needs to be declared first and then the Events are declared.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -264,9 +264,9 @@ Event PrintNumbers myEvent;
 
 The difference between direct cast and ctype is that direct cast is used for the conversion of the type of an object that requires a run time which is like the specified type in the direct cast.Whereas ctype is used for converting the conversion which is defined for the expression and the type.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -280,9 +280,9 @@ The difference between direct cast and ctype is that direct cast is used for the
 
 LINQ stands for Language Integrated Query.LINQ has the great power of querying any source of data.The data source could be collections of objects, databases, or XML files.We can easily retrieve data from any object that implements the `IEnumerable<T>` interface.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -333,9 +333,9 @@ class Books : IDisposable
 
 ```
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -349,8 +349,8 @@ class Books : IDisposable
 
 The best choice is to use a sealed class to prevent the class not to be extended/inherited.This is true that a private constructor and sealed class both can prevent the extension of a class, which means, we cannot derive any class from it.However, they have their own purpose and properties.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---

@@ -11,9 +11,9 @@
 - Core business component defined insider Spring applications is termed as `Bean`.
 - In simple terms `Bean` is an object that is instantiated, assembled, and managed by a Spring IoC container.
 - Each technology has branded their core business components by certain nomenclature.For example, Business component in `JavaEE` applications are termed as `Servlet`, in `Web Services` they are named as `Resource` in `Struts` framework they are called `ActionForm` etc.
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 2.How do you decide whether to create `Singleton` bean or `Prototype` bean in application?
@@ -32,9 +32,9 @@ Spring does not manage the complete lifecycle of a prototype bean.
 - Some dependent objects need a bean that has private state so that they can conduct their processing separately from other objects that depend on the bean.In this case, singletons are clearly not suitable, and we consider prototypes.
 - If you have a bean that has a lot of writable state, you may find that the cost of synchronization is greater than the cost of creating a new instance to handle each request from a dependent object that time you can use prototype bean.
 
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -51,9 +51,9 @@ Spring does not manage the complete lifecycle of a prototype bean.
 - If the bean scope is `Session` then on every request same bean would be returned if requests are within the same user session also made from a client which is capable of maintaining the session (`curl` command can't maintain the user session unless pass cookie/session identifier header).
 - `Session` beans are not destroyed until session timeout up or session destroyed.
 
-</details>
+</details markdown="1">
     
-</blockquote> 
+</blockquote  markdown="1"> 
 
 ---
 
@@ -205,9 +205,9 @@ public class App {
 }
 ```
 
-</blockquote> 
+</blockquote  markdown="1"> 
     
-</details>
+</details markdown="1">
 
 ---
 
@@ -229,9 +229,9 @@ public class App {
 - It's always advisable to use ApplicationContext.
 - We should use BeanFactory only when memory consumption is critical.
     
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -294,9 +294,9 @@ public class App {
         }
     }
     ```
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 7.How Spring supports connection pooling? Elaborate what is connection pooling?
@@ -389,9 +389,9 @@ public class App {
         </bean>
     </beans>  
     ```
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -439,9 +439,9 @@ public class App {
         //....
     }
     ```
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 9.Have you configured Init & Destroy spring bean lifecycle hooks? 
@@ -522,9 +522,9 @@ public class MainApp {
 }
 
 ```
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 10.How do you decide as developer to choose among `.properties` or `.yaml` configuration file in Spring Boot application? 
@@ -562,9 +562,9 @@ management:
         readiness:
           include: db, diskSpace
 ```
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 11.Can we achieve DI with Core Java without using Spring framework?
@@ -579,9 +579,9 @@ management:
 - When the application under question is small, we can always meet the needs by injecting dependencies manually, without using any framework like Spring.
 - We can use Factory Design Pattern and create dependencies which will then be passed to required classes.
 - Though such code cannot replace the DI framework like Spring which provide much more extensive set of features.
-</blockquote> 
+</blockquote  markdown="1"> 
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -595,9 +595,9 @@ management:
 
 The Spring Framework is a Java platform that provides comprehensive infrastructure support for developing Java applications.Spring handles the infrastructure so application developer can focus on your application.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -611,9 +611,9 @@ The Spring Framework is a Java platform that provides comprehensive infrastructu
 
 Dependency Injection (DI) is a design pattern that removes the dependency from the programming code so that it can be easy to manage and test the application.Dependency Injection makes our programming code loosely coupled.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -633,8 +633,8 @@ There are 5 types of bean scope in Spring :-
 4.**Session:-** It returns a single instance for every HTTP request call.
 5.**Global session:-** Global session scope is equal as session scope on portlet-based web applications.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---

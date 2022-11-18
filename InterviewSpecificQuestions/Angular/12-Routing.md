@@ -19,8 +19,8 @@ const routes: Routes = [
 ];
 ```
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  
@@ -34,8 +34,8 @@ const routes: Routes = [
     
 Run the `ng new routing-app --routing ` command to generate a basic Angular app with an app routing module, where we can configure our routes.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  
@@ -49,8 +49,8 @@ Run the `ng new routing-app --routing ` command to generate a basic Angular app 
 
 To prevent unauthorized access to certain parts of our navigation, we use route guards in Angular.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  
@@ -67,8 +67,8 @@ To prevent unauthorized access to certain parts of our navigation, we use route 
 *  *routerLink* - is an attribute to an anchor tag that sets the route for the component.
 
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  
@@ -88,8 +88,8 @@ In the `app.routing.ts` file, you can add the paths and components under the `ro
 ];
 ```        
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  
@@ -107,8 +107,8 @@ In the `app.routing.ts` file, you can add the paths and components under the `ro
 * `CanDeactivate`- decides if the user can leave a route.
 
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
  
@@ -176,8 +176,8 @@ const routes: Routes = [
 
 
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -191,8 +191,8 @@ const routes: Routes = [
 
 The Router mechanism in Angular provides a way to navigate from one view to another view in the application.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---
 
@@ -207,7 +207,7 @@ The Router mechanism in Angular provides a way to navigate from one view to anot
 
 Angular provides a `RouterModule` that has the necessary service providers and directives for navigating through application views.The router defines the navigation of views on a single page and interprets URL links to determine which views to create or destroy, and which components to load or unload.
     
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
   
 ---

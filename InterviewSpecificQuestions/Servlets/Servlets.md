@@ -8,9 +8,9 @@
 
 Servlets can be defined as small Java program that runs within a Web server.It receives and responds to requests from Web clients like **HTTP**(Hyper Text Transfer Protocol).It can also access a library of HTTP-specific calls which includes portability, performance, reusability, and crash protection.They are often used to provide rich interaction functionality within the browser for users like clicking links from submission.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -24,9 +24,9 @@ Servlets can be defined as small Java program that runs within a Web server.It r
 
 Servlets provide several functionalities which include power, integration, efficiency, safety, portability, endurance, elegance, extensibility, and flexibility.It is convenient for modifying regular HTML and we can write the servlet code into the JSP.It includes java features like multithreading and exception handling and it has a separate layer of business logic in the application.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -42,9 +42,9 @@ We have to create a Java class that extends `javax.servlet.http.HttpServlet` and
 
 To handle requests that are appropriate for the servlet, a typical servlet must override its `service()` method.The `service()` method allows 2 parameters: these are the request object and the response object.The request object is used to inform the servlet about the request, whereas the response object is used to then give a response.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
   
  ---
   
@@ -58,9 +58,9 @@ To handle requests that are appropriate for the servlet, a typical servlet must 
 
 A Http servlet typically does not override the `service()` method.However, it actually overrides the `doGet()` to handle the GET requests and the `doPost()` to handle POST requests.Depending on the type of requests it needs to handle, an HTTP servlet can override either or both methods.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
   
 ---
   
@@ -86,9 +86,9 @@ Servlets can be added in HTML pages with the server-side include (SSI) functiona
 	
 ```
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
   
@@ -103,9 +103,9 @@ Servlets can be added in HTML pages with the server-side include (SSI) functiona
 
 Servlets init method is used to initialize a servlet.When the web container loads and instantiates the servlet class and before it delivers requests from clients, the web container initializes the servlet.To customize this process to allow the servlet to read persistent configuration data, initialize resources, and perform any other one-time activities, you override the init method of the Servlet interface.When a servlet container determines that a servlet should be removed from service (for example, when a container wants to reclaim memory resources or when it is being shut down), the container calls the destroy method of the Servlet interface.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
  ---
   
@@ -121,9 +121,9 @@ Servlets init method is used to initialize a servlet.When the web container load
 
 - `public Enumeration ServletConfig.getInitParameterNames()`:This method returns the names of the servlet's initialization parameters as an Enumeration of String objects, or an empty Enumeration if the servlet has no initialization parameters.This is often used for debugging.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
   
@@ -137,9 +137,9 @@ Servlets init method is used to initialize a servlet.When the web container load
 
 Servlet Chaining is a way where the output of one servlet is piped to the input of another servlet, and the output of that servlet can be piped to the input of yet another servlet and so on.Each servlet in the pipeline can either change or extend the incoming request.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
   
 ---
   
@@ -160,9 +160,9 @@ When a user enters a Uniform Resource Locator (URL) into a web browser.The brows
 
 - The server may decide to unload the servlet from its memory.The server calls the `destroy( )` method to relinquish any resources such as file handles that are allocated for the servlet.Important data may be saved to a persistent store.The memory allocated for the servlet and its objects can then be garbage collected.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
   
 ---
 
@@ -176,9 +176,9 @@ When a user enters a Uniform Resource Locator (URL) into a web browser.The brows
 
 In servlet reloading, the objects in classloader are developed to load a class just once.To solve this limitation and to load servlets multiple times, servers use custom class loaders.These custom class loaders load servlets from the default servlets directory.When a server dispatches a request to a servlet, it first checks if the servlet’s class file has changed on the disk.If the change appears, then the server abandons the class that the loader used to load the old version and then creates a new instance of the custom class loader to load the new version.Old servlet versions can stay in memory indefinitely, but the old versions are not used to handle any more requests
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
   
@@ -198,9 +198,9 @@ In servlet reloading, the objects in classloader are developed to load a class j
 - The `getServerInfo()` and `getAttribute()` methods of ServletContext supply information about the server software and its attributes like `public String ServletContext.getServerInfo()`
 `public Object ServletContext.getAttribute(String name)`
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
   
 ---
   
@@ -242,10 +242,10 @@ string Hello! in bold type.
 
 
 
-</details>
+</details markdown="1">
 	
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 
 
 ---
@@ -261,9 +261,9 @@ string Hello! in bold type.
 - It is standard to have a single servlet instance for each registered name of the servlet.However, instead of this, it is also possible for a servlet to choose to have a pool of instances created for each of its names that all share the task of handling requests.These servlets indicate this action by implementing the `javax.servlet.SingleThreadModel` interface.
 - A server loading the SingleThreadModel servlet should guarantee, "that no two threads will execute concurrently the service method of that servlet".Each thread uses a free servlet instance from the pool to achieve this.Therefore, any servlet using the SingleThreadModel isn’t needed to synchronize usage to its instance variables and is considered thread safe.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
   
 ---
 
@@ -278,9 +278,9 @@ string Hello! in bold type.
 
 A thread that has been started by a servlet can continue to execute even after the response has been sent.This ability proves most useful for the tasks that are long-running, and whose incremental results should be made available to multiple clients.A background thread that has been started in `init()` performs continuous work.It also performs request-handling threads displaying the current status with `doGet()` method.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
   
 ---
   
@@ -299,9 +299,9 @@ Servlets running together in the same server have many ways to communicate with 
 - **Sharing control**: Sharing control involves two or more servlets sharing control of the request.For example, one servlet could receive the request but let another servlet handle some or all of the request-handling responsibilities
 		
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
   
 ---
   
@@ -322,9 +322,9 @@ public String[] ServletRequest.getParameterValues(String name)
 
 ```
 		
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
   
 ---
 	
@@ -342,9 +342,9 @@ public String[] ServletRequest.getParameterValues(String name)
 
 - **Servlet collaboration**: When the cooperating servlets share information.Servlets can share information using the system properties list, using a shared object, or using inheritance
 		
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
   
 ---
@@ -359,9 +359,9 @@ public String[] ServletRequest.getParameterValues(String name)
 
 Servlet API contains two packages which contain the classes and interfaces that are required to build servlets.These are `javax.servlet` and `javax.servlet.http`.The `javax.servlet` package contains a number of interfaces and classes that establish the framework in which servlets operate.The `javax.servlet.http` package contains a number of interfaces and classes that are commonly used by servlet developers and its functionality makes it easy to build servlets that work with HTTP requests and responses.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
   
@@ -375,9 +375,9 @@ Servlet API contains two packages which contain the classes and interfaces that 
 
 All servlets must implement the Servlet interface.It declares the `init( )`, `service( )`, and `destroy( )` methods that are called by the server during the life cycle of a servlet.These are invoked by the server.The `getServletConfig( )` method is called by the servlet to obtain initialization parameters.A servlet developer overrides the `getServletInfo( )` method to provide a string with useful information.This method is also invoked by the server.
 		
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
   
 ---
   
@@ -405,9 +405,9 @@ parameters.
 - `void init(ServletConfig sc)throws ServletException`:It is invoked when the servlet is initialized.Initialization parameters for the servlet can be obtained from sc.An UnavailableException should be thrown if the servlet cannot be initialized.
 - `void service(ServletRequest req,ServletResponse res)throws ServletException,IOException`:It is used to process a request from a client.The request from the client can be read from req.The response to the client can be written to res.An exception is generated if a servlet or IO problem occurs.
 	
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -421,9 +421,9 @@ parameters.
 
 The ServletRequest interface enables a servlet to obtain information about a client request.The ServletResponse interface enables a servlet to formulate a response for a client.
 		
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -437,9 +437,9 @@ The ServletRequest interface enables a servlet to obtain information about a cli
 
 The GenericServlet class provides implementations of the basic life cycle methods for a servlet.It implements the Servlet and ServletConfig interfaces.In addition, a method to append a string to the server log file is available.The signatures of this method are `void log(String s)` and `void log(String s, Throwable e)` Where s is the string to be appended to the log, and e is an exception that occurred
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -455,9 +455,9 @@ The GenericServlet class provides implementations of the basic life cycle method
 
 - ServletOutputStream class extends OutputStream.It is implemented by the servlet container and provides an output stream that a servlet developer can use to write data to a client response.A default constructor is defined.It also defines the `print( )` and `println( )`methods, which output data to the stream.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -518,9 +518,9 @@ pw.close();
 
 ```
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -534,9 +534,9 @@ pw.close();
 
 The HttpServletRequest interface enables a servlet to obtain information about a client request.The HttpServletResponse interface enables a servlet to formulate an HTTP response to a client.Several constants are defined.These correspond to the different status codes that can be assigned to an HTTP response.For example, SC_OK indicates that the HTTP request succeeded, and SC_NOT_FOUND indicates that the requested resource is not available.The HTTPSession interface enables a servlet to read and write the state information that is associated with an HTTP session.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 	
 ---
 
@@ -550,9 +550,9 @@ The HttpServletRequest interface enables a servlet to obtain information about a
 
 The Cookie class encapsulates a cookie.A cookie is stored on a client and contains the state information.Cookies are valuable for tracking user activities.For example, assume that a user visits an online store.A cookie can save the user’s name, address, and other information.The user does not need to enter this data each time he or she visits the store.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -575,9 +575,9 @@ The expiration date determines when this cookie is deleted from the user’s mac
 There is one constructor for Cookie.It has the signature shown here: `Cookie(String name, String value)`
 Here, the name and value of the cookie are supplied as arguments to the constructor
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -591,9 +591,9 @@ Here, the name and value of the cookie are supplied as arguments to the construc
 
 The HttpServlet class extends GenericServlet.It is commonly used when developing servlets that receive and process HTTP requests.HttpSessionEvent encapsulates session events.It extends EventObject and is generated when a change occurs to the session.It defines this constructor:`HttpSessionEvent(HttpSession session)`Here, the session is the source of the event.HttpSessionEvent defines one method, `getSession( )`, which is shown here:`HttpSession getSession( )`.It returns to the session in which the event occurred.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -694,9 +694,9 @@ pw.close();
 
 ```
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -772,9 +772,9 @@ pw.close();
 
 ```
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -788,9 +788,9 @@ pw.close();
 
 HTTP is a stateless protocol.Each request is independent of the previous one.However, in some applications, it is necessary to save state information so that information can be collected from several interactions between a browser and a server.Sessions provide such a mechanism.A session can be created via the `getSession( )` method of HttpServletRequest.An HttpSession object is returned.This object can store a set of bindings that associate names with objects.The `setAttribute( )`, `getAttribute( )`, `getAttributeNames( )`, and `removeAttribute( )` methods of HttpSession manage these bindings.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 
 ---
@@ -832,9 +832,9 @@ pw.println("Current date: " + date);
 
 When you first request this servlet, the browser displays one line with the current date and time information.On subsequent invocations, two lines are displayed.The first line shows the date and time when the servlet was last accessed.The second line shows the current date and time.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -848,9 +848,9 @@ When you first request this servlet, the browser displays one line with the curr
 
 A web server’s responsibility is to handle HTTP requests from client browsers and respond with an Html response.A web server understands HTTP language and runs on HTTP protocol.Apache Web Server is a kind of a web server and then we have specific containers that can execute servlets and JSPs known as the servlet container Application Servers provide additional features such as Enterprise JavaBeans support, JMS Messaging support, Transaction Management, etc.application server is a web server with additional functionalities to help developers with enterprise applications.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -865,9 +865,9 @@ A web server’s responsibility is to handle HTTP requests from client browsers 
 
 The "Content-Type" response header is known as MIME Type.The server sends MIME type to clients to let them know the kind of data it’s sending.It helps the client in rendering the data for the user.Some of the most used mime types are `text/html`, `text/xml`, `application/xml` etc.We can use ServletContext `getMimeType()` method to get the correct `MIME` type of the file and use it to set the response content type.It’s very useful in downloading a file through servlet from the server.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -884,9 +884,9 @@ RequestDispatcher interface is used to forward the request to another resource t
 - `void include(ServletRequest request, ServletResponse response)`: It includes the content of a resource (servlet, Jsp page, Html file) in the response.
 - We can get RequestDispatcher in a servlet using ServletContext `getRequestDispatcher(String path)` method.The path must begin with a / and is interpreted as relative to the current context root.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -900,9 +900,9 @@ RequestDispatcher interface is used to forward the request to another resource t
 
 PrintWriter is a character-stream class whereas ServletOutputStream is a byte-stream class.We can use PrintWriter to write character-based information such as character array and String to the response whereas we can use ServletOutputStream to write byte array data to the response.We can use ServletResponse `getWriter()` to get the PrintWriter instance whereas we can use ServletResponse `getOutputStream()` method to get the ServletOutputStream object reference.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -916,9 +916,9 @@ PrintWriter is a character-stream class whereas ServletOutputStream is a byte-st
 
 We can create a deadlock in the servlet by making a loop of method invocation, we have to invoke `doPost()` method from `doGet()` method and `doGet()` method to `doPost()` method to create a deadlock situation in servlet.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -932,9 +932,9 @@ We can create a deadlock in the servlet by making a loop of method invocation, w
 
 Servlet HTTP API provides two wrapper classes - `HttpServletRequestWrapper` and `HttpServletResponseWrapper`.These wrapper classes are provided to help developers with the custom implementation of a servlet request and response types.We can extend these classes and override only specific methods we need to implement for custom request and response objects.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -948,8 +948,8 @@ Servlet HTTP API provides two wrapper classes - `HttpServletRequestWrapper` and 
 
 HTTP Tunneling is a technique by which, communications performed using various network protocols are encapsulated using the HTTP or HTTPS protocols.The HTTP protocol, therefore, acts as a wrapper for a channel that the network protocol being tunnelled uses to communicate.The masking of other protocol requests as HTTP requests is HTTP Tunneling.
 
-</blockquote>
-</details>
+</blockquote  markdown="1">
+</details markdown="1">
 	
 ---
 
@@ -963,9 +963,9 @@ HTTP Tunneling is a technique by which, communications performed using various n
 
 GenericServlet is protocol-independent implementation of Servlet interface whereas HttpServlet is an Http protocol specific implementation.We use servlet for creating web applications by extending HttpServlet class.HttpServlet class extends GenericServlet and provides some other methods specific to Http protocol.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -979,9 +979,9 @@ GenericServlet is protocol-independent implementation of Servlet interface where
 
 HttpServlet `init()` method and `destroy()` method are called only once in the servlet life cycle, so we don't need to worry about their synchronization.But service methods such as `doGet()` or `doPost()` are getting called in every client request and since servlet uses multithreading, we should provide thread safety in these methods.If there are any local variables in service methods, we don't need to worry about their thread safety because they are specific to each thread but if we have a shared resource then we can use synchronization to achieve thread safety in servlets when working with shared resources.The thread safety mechanisms are like thread safety in standalone java applications.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -995,9 +995,9 @@ HttpServlet `init()` method and `destroy()` method are called only once in the s
 
 We can use RequestDispatcher `forward()` method to forward the processing of a request to another servlet.If we want to include another servlet output to the response, we can use RequestDispatcher `include()` method.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -1015,9 +1015,9 @@ We can use RequestDispatcher `forward()` method to forward the processing of a r
 - In `forward()` method browser is unaware of the actual processing resource and the URL in the address bar remains the same whereas in `sendRedirect()` URL in the address bar change to the forwarded resource.
 - `forward()` can't be used to invoke a servlet in another context, we can only use `sendRedirect()` in this case.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -1031,9 +1031,9 @@ We can use RequestDispatcher `forward()` method to forward the processing of a r
 
 HttpServlet class provide HTTP protocol implementation of servlet but it's left abstract because there is no implementation logic in service methods such as `doGet()` and `doPost()` and we should override at least one of the service methods.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 
 ---
@@ -1055,9 +1055,9 @@ The session is a conversational state between the client and server, and it can 
 - URL Rewriting
 - Session Management API
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -1072,9 +1072,9 @@ The session is a conversational state between the client and server, and it can 
 
 Servlet API provides support for URL rewriting that we can use to manage sessions and it’s very easy to use and involves encoding the URL.Servlet URL Encoding is that it’s a fallback approach and it kicks in only if browser cookies are disabled.We can encode the URL with HttpServletResponse `encodeURL()` method and if we have to redirect the request to another resource and we want to provide session information, we can use the `encodeRedirectURL()` method.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -1088,9 +1088,9 @@ Servlet API provides support for URL rewriting that we can use to manage session
 
 Cookies are text data sent by the server to the client and it gets saved on the client’s local machine.Servlet API provides cookies support through `javax.servlet.http.Cookie` class that implements Serializable and Cloneable interfaces.HttpServletRequest `getCookies()` method is provided to get the array of cookies from the request, since there is no point in adding Cookie to the request, there are no methods to set or add a cookie to `request.HttpServletResponse addCookie(Cookie c)` method is provided to attach the cookie in the response header, there are no getter methods for a cookie.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -1110,9 +1110,9 @@ Servlet Filters are pluggable java components that we can use to intercept and p
 - Compressing the response data sent to the client.
 - Alter response by adding some cookies, header information etc.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -1140,9 +1140,9 @@ The `doGet()` and `doPost()` methods throw ServletException and IOException.Sinc
 
 ```
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -1156,9 +1156,9 @@ The `doGet()` and `doPost()` methods throw ServletException and IOException.Sinc
 
 The deployment descriptor is a configuration file for the web application and its name is `web.xml` and it resides in the WEB-INF directory.The Servlet container uses this file to configure web application servlets, servlet config params, context init params, filters, listeners, welcome pages, and error handlers.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -1183,9 +1183,9 @@ The Servlet container loads a servlet on the first client request.The servlet is
 The load-on-startup value should be int, if it's a negative integer then the servlet container will load the servlet based on client requests and requirements but if it's 0 or positive, then the container will load it on application startup.If there are multiple servlets with load-on-startup values such as 0,1,2,3 then the lower integer value servlet will be loaded first.
 
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -1200,9 +1200,9 @@ The load-on-startup value should be int, if it's a negative integer then the ser
 
 The WAR (Web Application Resource) file specifies the web elements, Either a Servlet or JSP project can be converted into a war file.Moving one Servlet project from one place to another will be fast as it is combined into a single file.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -1220,9 +1220,9 @@ Model-View-Controller (MVC) is a design pattern that divides a software applicat
 - View renders the information to the user so that it looks attractive and appealing.It takes information from the model using which it generates output.
 - Controller takes input from a user and sends the command to model or view.It controls the flow of the application.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -1246,9 +1246,9 @@ The different methods involved in the session management in servlets are as foll
 
 - **Session Management API**: Session Management API is built on top of the Request-Response methods for session tracking.Session Tracking is a way to maintain the state/data of a user.It is also known as session management in servlet.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -1262,9 +1262,9 @@ The different methods involved in the session management in servlets are as foll
 
 A web container or a Servlet container is used to interact with the Servlet and includes all the Servlet, JSP, and XML files inside it.Web Container’s responsibility is to manage the life cycle of a servlet and to help to map the URL of a specific servlet.A web container is also used to create the object of a servlet.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -1278,9 +1278,9 @@ A web container or a Servlet container is used to interact with the Servlet and 
 
 Servlets don’t have a `main()` method.Because servlets are executed using web containers.When a client places a request for a servlet, then the server hands the requests to the web container where the servlet is deployed.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -1294,9 +1294,9 @@ Servlets don’t have a `main()` method.Because servlets are executed using web 
 
 Context Parameter is a value stored in the deployment descriptor, which is the `web.xml` and is loaded during the deployment process.Context Attribute is the value which is set dynamically and can be used throughout the application.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -1314,9 +1314,9 @@ We can create HttpSession object by calling the public method `getSession()` of 
 `HttpSession session = request.getSession();`
 
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -1339,9 +1339,9 @@ public void service(ServletRequest request, ServletResponse response)throws Serv
 
 The container calls the `service()` method and service method invokes `doGet(), doPost(), doPut(), doDelete(),` methods as needed.So you have nothing to do with `service()` method but you override either `doGet()` or `doPost()` depending on the request you receive from the client end.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -1355,8 +1355,8 @@ The container calls the `service()` method and service method invokes `doGet(), 
 
 `request.getRemoteAddr()` is the code to get the client IP address in the servlet.
 
-</blockquote>
+</blockquote  markdown="1">
 
-</details>
+</details markdown="1">
 
 ---

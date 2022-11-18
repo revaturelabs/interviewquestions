@@ -9,7 +9,7 @@
 
 > We can use the `pwd` command to see the current working directory.For that, we just have to write pwd in the UNIX shell.
 
-</details>
+</details markdown="1">
 
 ---
 2.With the help of which command you can create a new directory in Unix?
@@ -20,7 +20,7 @@
 
 > We can use the `mkdir` command to create a new directory.For example, `mkdir directory_name`.To create multiple directories, we can write like this `mkdir {directory1, directory2, directory3}`.
 
-</details>
+</details markdown="1">
 
 ---
 3.How can you copy a file from "ABC" directory to "XYZ" directory in Unix?
@@ -32,7 +32,7 @@
 > To copy a file from one directory to another, we can use the `cp` command.For example, if we have to copy a test1.txt file of ABC directory to test2.txt file of XYZ directory, we can write as follows:  
 `cp /ABC/test1.txt /XYZ/test2.txt`
 
-</details>
+</details markdown="1">
 
 ---
 4.Give the syntax of the command which can be used to move the file from one directory to another.
@@ -43,7 +43,7 @@
 
 > For moving files from one directory to another we can use the `mv` command.For example, `mv example.txt /documents`, here we are moving the example.txt file of the current directory to the document’s directory.
 
-</details>
+</details markdown="1">
 
 ---
 5.Your friend created a folder as "ABC" while working on an important project and dump the finance-related data in that folder.Now he wanted to rename the folder as "Finance_Data", what command he has to use to rename that folder in Unix?
@@ -60,7 +60,7 @@
 > With `rename` command  
   `rename 's/ABC/Finance_Data/'* `  
   
-</details>
+</details markdown="1">
 
 ---
 6.Other than `touch` command, what command would you use to create an empty file in Unix?
@@ -77,7 +77,7 @@
 > With `cat` command  
   `cat > file1.txt`  
 
-</details>
+</details markdown="1">
 
 ---
 7.Suppose you have created 6 to 7 directories and files that are holding some sort of data and your boss wanted to see the permissions of all those files and folders, then, which command can be used to view the permissions on the file? 
@@ -88,7 +88,7 @@
 
 > To see the permission on the files we can use the simple `ls` command with `-l` option.For example, `ls -l`.It will give the read-write execute permission information in the long format for all the files and directories.
 
-</details>
+</details markdown="1">
 
 ---
 8.How to see which file is modified recently and at what time in UNIX?
@@ -98,7 +98,7 @@
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > To see what are all the files that are modified recently, we can use the `ls -l` command.
-</details>
+</details markdown="1">
 
 ---
 9.Imagine you have two files "example1.txt" and " example2.txt" and you wanted to add the content of both files in another file named "combine.txt".Which command you will use to do that task and what will happen if the "combine.txt" file doesn't exist in your system?  
@@ -112,7 +112,7 @@
 cat example1.txt example2.txt > combine.txt
 ```
 Here if the combine.txt file doesn't exist in the system, it will create a combine.txt file and add the content of both files to it.
-</details>
+</details markdown="1">
 
 ---
 10.How do you differentiate between the root and home directories in Linux?
@@ -122,7 +122,7 @@ Here if the combine.txt file doesn't exist in the system, it will create a combi
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > The root directory is the main directory of the system, and it contains the home directory in it.Everyone can access the root directory, but the home directory can be accessed by the owner of that directory only.There can be multiple home directories inside one root directory.
-</details>
+</details markdown="1">
 
 ---
 11.Which command can we use to view the content of multiple files in the terminal?
@@ -133,7 +133,7 @@ Here if the combine.txt file doesn't exist in the system, it will create a combi
 
 > `cat` command can be used to view multiple files in the terminal at the same time.For example, `cat file1.txt file2.txt file3.txt`.
 
-</details>
+</details markdown="1">
 
 ---
 12.A 'test.txt' file has some old content and 'test1.txt' file has some newly added content then how would you add the content of the test1 file at the end of the test file so that it has both old and new content together?
@@ -144,7 +144,7 @@ Here if the combine.txt file doesn't exist in the system, it will create a combi
 
 > we can use the `cat` command with two redirection operator `>>` to append the content of one file to another.In this case, we can write, `cat test1.txt >>test.txt`.
 
-</details>
+</details markdown="1">
 
 ---
 13.Suppose using `mkdir` command you have created one directory as "program" which is empty and now you want to delete that directory from your system, then which command you will use for it?
@@ -158,7 +158,7 @@ Here if the combine.txt file doesn't exist in the system, it will create a combi
 rmdir program
 ```
 
-</details>
+</details markdown="1">
 
 ---
 14.While working on a project you have created one directory as "program" and added some files and folders in it which contain some data related to the project.Now the project has been deployed in the working environment and there is no need for that directory in the system now.So, for deleting that directory what command you can write?
@@ -172,7 +172,7 @@ rmdir program
 rm -r program
 ```
 
-</details>
+</details markdown="1">
 
 ---
 15.How you can change the current directory in Linux?
@@ -183,7 +183,7 @@ rm -r program
 
 > Using `cd` command, we can change the current directory in which we are working.For example, `cd program/user`.
 
-</details>
+</details markdown="1">
 
 ---
 16.Which command can be used to search as a string in a file based on a pattern in Linux?
@@ -194,7 +194,7 @@ rm -r program
 
 > `grep` command can be used in pattern searching in a string.For example, `grep -i "Hello" test1.txt`, here will search the 'hello' word in the test1.txt file and returns the whole sentence where it is present.`-i` option in `grep` is used to do the case insensitive search.
 
-</details>
+</details markdown="1">
 
 ---
 17.Tell me the difference between `echo` and `printf` commands.
@@ -206,7 +206,7 @@ rm -r program
 > The `printf` can be used to print the string, numbers, and other format specifiers whereas `echo` can only be used to print the string values.
 Performance wise also `printf` is faster in execution than `echo` command.
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -218,7 +218,7 @@ Performance wise also `printf` is faster in execution than `echo` command.
 
 > Using `df` command, we can check the information related to disk usage, that is, how much space is used by the filesystem and what is the available space.
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -230,7 +230,7 @@ Performance wise also `printf` is faster in execution than `echo` command.
 
 > Using the` fdsik` command along with `-l` option, we can see all the partitions in the system.For example, ` sudo fdisk -l`.
 
-</details>
+</details markdown="1">
 
 ---
 20.Explain about fdisk, sfdisk and cfdisk commands?
@@ -241,7 +241,7 @@ Performance wise also `printf` is faster in execution than `echo` command.
 
 > All these 3 are used to create, view, update, and delete the partitions of a disk, but the fdisk and cfdisk provide fancy interfaces to do all these tasks, a sysadmin can easily do all these just by going into the menu interface without remembering all the commands.Whereas sfdisk doesn't provide the user interface, instead it is command driven and used in documentation.it can read input from file or stdin and writes into a partition table.
 
-</details>
+</details markdown="1">
 
 ---
 21.which command is used to give information about block devices like hard drives, flash drives, CD-ROMs?
@@ -252,7 +252,7 @@ Performance wise also `printf` is faster in execution than `echo` command.
 
 > To view the details of all available block devices, we can use the `lsblk` command.For example, `lsblk -a`, lists all the block devices including empty devices.
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -264,7 +264,7 @@ Performance wise also `printf` is faster in execution than `echo` command.
 
 > Using `mdadm` command, we can create software RAID and help manage RAID on devices.
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -279,7 +279,7 @@ Performance wise also `printf` is faster in execution than `echo` command.
 command_name (-n_arguments) (filename)
 ```
   
-</details>
+</details markdown="1">
 
 ---
 
@@ -291,7 +291,7 @@ command_name (-n_arguments) (filename)
   
 > No both are not the same, OS is a system software, whereas kernel is a part of OS.OS acts as an interface between the user and hardware, whereas the kernel is a core of OS and is used to interact between applications and hardware.
   
-</details>
+</details markdown="1">
 
 ---
 
@@ -307,7 +307,7 @@ command_name (-n_arguments) (filename)
 > - Gedit editor
 > - VS Code
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -319,7 +319,7 @@ command_name (-n_arguments) (filename)
   
 > To change the permission to read, write and execute a file, we can use the `chmod` command.For example, `chmod g+w test_file` will change the file permission to write for the group owner.
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -331,7 +331,7 @@ command_name (-n_arguments) (filename)
   
 > To change ownership of a file, we can use `chown` command.For example, `chown Henry work_file`.Here the new owner’s name is Henry, and the file name is work_file.
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -346,7 +346,7 @@ command_name (-n_arguments) (filename)
 > - While working with `vi` we cannot highlight any syntax or code, but with `vim` we can do it.
 > - `vi` doesn't have GUI, but `vim` have.
   
-</details>
+</details markdown="1">
 
 ---
 
@@ -358,7 +358,7 @@ command_name (-n_arguments) (filename)
 
 > The `chmod` command is used to change the permission set of a file, it can give read, write, and execute permission to a user, group of users, to all etc.In Numeric 0 means no permission, 1 means execute, 2 means write, and 4 means read.For example, if we are giving all three permissions to a file then we have to write, `chmod 777 file_name`, where '777' represents 'rwx'.
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -370,7 +370,7 @@ command_name (-n_arguments) (filename)
 
 > we can use the `chmod` command to do so, just we have to write `chmod ugo+rw test1`.
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -385,7 +385,7 @@ command_name (-n_arguments) (filename)
 chmod Henry test1 test2
 ```
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -400,7 +400,7 @@ chmod Henry test1 test2
 chmod u-w file_name
 ```
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -416,7 +416,7 @@ chmod 664 example
 ```
 Here, the first 6 represent read and write permission to a user, the next 6 represent read and write permission to a group, and the last 4 represent only the read permission to others.
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -428,7 +428,7 @@ Here, the first 6 represent read and write permission to a user, the next 6 repr
 
 > The `df` command give the details of the mounted file system, on the other hand `blkid` gives the details of block devices that are not mounted and `lsblk` command is used to get the details of both the mounted and unmounted file system.
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -440,7 +440,7 @@ Here, the first 6 represent read and write permission to a user, the next 6 repr
 
 > To check what are all the available block devices in the system, we can use the `blkid` command.
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -452,7 +452,7 @@ Here, the first 6 represent read and write permission to a user, the next 6 repr
 
 > Using `grep` command with `-c` option, it will give the count of the number of matches of a string or pattern in a line.For example, `grep -c "hello" example.txt`.Here we are finding how many times "hello" is present in a line in the example.txt file.
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -464,7 +464,7 @@ Here, the first 6 represent read and write permission to a user, the next 6 repr
 
 > We can use the `grep` command with `-n` argument to get the line number where the word is present along with the whole line.For that we have to write ` grep -n "Pattern" File_name`.
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -476,7 +476,7 @@ Here, the first 6 represent read and write permission to a user, the next 6 repr
 
 > When we use the `cat` command to see the content of a large file that will not be fixed in a single terminal screen, then it will move the cursor to the end of the file and to view the content from the start of the file we have to scroll it up.Therefore, it is not a convenient way to see the content of a large file.But, for that, there is a command called `more` through which we can see the content of a file in a convenient way.It will not move directly to the end of the file, instead, it stops at the end of the terminal with a prompt message at the bottom of the terminal showing how much content is present in the terminal at that moment in terms of percentage.We can press enter key to move down line by line and for scrolling down we can use the space key.
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -488,7 +488,7 @@ Here, the first 6 represent read and write permission to a user, the next 6 repr
 
 > The `more` command, when used to see the content of a big file, allows the user to scroll down only with limited or no scroll up.Whereas the `less` command is used for both forward and backward navigation in a file.
 
-</details>
+</details markdown="1">
 
 ---
 
@@ -505,7 +505,7 @@ kill -15 3007
 ```
 Here, -15 represents a termination signal.
 
-</details>
+</details markdown="1">
 
 ---
 
