@@ -1,0 +1,164 @@
+
+toc:
+  - title: AWS
+    subfolderitems:
+      - page: AWS
+        url: InterviewSpecificQuestions/AWS/AWS.html
+  - title: Angular
+    subfolderitems:
+      - page: Introduction To Angular
+        url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
+      - page: Introduction To npm And node
+        url: InterviewSpecificQuestions/Angular/02-IntroductionTonpmAndnode.html
+      - page: TypeScript
+        url: InterviewSpecificQuestions/Angular/03-Typescript.html  
+      - page: Components
+        url: InterviewSpecificQuestions/Angular/04-Components.html  
+      - page: Directives
+        url: InterviewSpecificQuestions/Angular/05-Directives.html  
+      - page: Modules
+        url: InterviewSpecificQuestions/Angular/06-Modules.html  
+      - page: Data Binding
+        url: InterviewSpecificQuestions/Angular/07-DataBinding.html  
+      - page: Event Emitters
+        url: InterviewSpecificQuestions/Angular/08-EventEmitters.html  
+      - page: Services
+        url: InterviewSpecificQuestions/Angular/09-Services.html  
+      - page: Pipes
+        url: InterviewSpecificQuestions/Angular/10-Pipes.html  
+      - page: HTTP Client
+        url: InterviewSpecificQuestions/Angular/11-HttpClient.html  
+      - page: Routing
+        url: InterviewSpecificQuestions/Angular/12-Routing.html  
+      - page: Testing
+        url: InterviewSpecificQuestions/Angular/13-Testing.html         
+  - title: Big Data
+    subfolderitems:
+      - page: Big Data
+        url: InterviewSpecificQuestions/BigData/Bigdata.html
+      - page: Mongo DB
+        url: InterviewSpecificQuestions/BigData/MongoDB_Interview_Ques.html
+  - title: Behavioral Questions
+    subfolderitems:
+      - page: Behavioral Questions
+        url: InterviewSpecificQuestions/BehavioralQuestions/BehavioralQues.html
+  - title: CoreJava
+    subfolderitems:
+      - page: Java Basics
+        url: InterviewSpecificQuestions/CoreJava/JavaBasics.html
+      - page: OOPS Concepts
+        url: InterviewSpecificQuestions/CoreJava/OOPSConcepts.html
+      - page: Numbers and Strings
+        url: InterviewSpecificQuestions/CoreJava/NumbersAndStrings.html
+      - page: Collections
+        url: InterviewSpecificQuestions/CoreJava/Collections.html
+      - page: Design Pattern
+        url: InterviewSpecificQuestions/CoreJava/DesignPatterns.html
+      - page: Exception Handling
+        url: InterviewSpecificQuestions/CoreJava/ExceptionHandling.html
+      - page: Threads
+        url: InterviewSpecificQuestions/CoreJava/Threads.html
+      - page: Java8
+        url: InterviewSpecificQuestions/CoreJava/Java8.html
+      - page: JDBC
+        url: InterviewSpecificQuestions/CoreJava/Jdbc.html
+      - page: JUnit
+        url: InterviewSpecificQuestions/CoreJava/JUnit.html
+      - page: Git
+        url: InterviewSpecificQuestions/CoreJava/Git.html
+      - page: Log4J
+        url: InterviewSpecificQuestions/CoreJava/Log4J.html
+      - page: Maven
+        url: InterviewSpecificQuestions/CoreJava/Maven.html
+  - title: DevOps
+    subfolderitems:
+      - page: DevOps
+        url: InterviewSpecificQuestions/DevOps/DevOps.html
+  - title: Docker
+    subfolderitems:
+      - page: Docker
+        url: InterviewSpecificQuestions/Docker/01-Docker.html
+  - title: Hibernate
+    subfolderitems:
+      - page: Hibernate
+        url: InterviewSpecificQuestions/Hibernate/01-Hibernate.html
+  - title: HTML/CSS
+    subfolderitems:
+      - page: HTML
+        url: InterviewSpecificQuestions/HTML-CSS/HTML.html
+      - page: CSS
+        url: InterviewSpecificQuestions/HTML-CSS/CSS.html
+  - title: Java Automation
+    subfolderitems:
+      - page: API Testing
+        url: InterviewSpecificQuestions/Java Automation/APITesting.html
+      - page: Testing Automation
+        url: InterviewSpecificQuestions/Java Automation/TestingAutomation.html
+      - page: Testing Fundamentals
+        url: InterviewSpecificQuestions/Java Automation/TestingFundamentals.html
+  - title: Java Script
+    subfolderitems:
+      - page: Java Script
+        url: InterviewSpecificQuestions/JavaScript/Javascript.html
+  - title: Micro Services
+    subfolderitems:
+      - page: Micro Services
+        url: InterviewSpecificQuestions/Microservices/Microservices.html
+  - title: Python
+    subfolderitems:
+      - page: Python
+        url: InterviewSpecificQuestions/Python/Python_Interview_Ques.html   
+      - page: SQL
+        url: InterviewSpecificQuestions/Python/SQL_Interview_Ques.html   
+      - page: UNIX
+        url: InterviewSpecificQuestions/Python/Unix_Interview_Ques.html
+  - title: SDLC
+    subfolderitems:
+      - page: SDLC
+        url: InterviewSpecificQuestions/SDLC/SDLC.html 
+  - title: Servlets
+    subfolderitems:
+      - page: Servlets
+        url: InterviewSpecificQuestions/Servlets/Servlets.html
+  - title: Spring
+    subfolderitems:
+      - page: Core Spring
+        url: InterviewSpecificQuestions/Spring/Core_Spring.html
+      - page: Spring AOP
+        url: InterviewSpecificQuestions/Spring/SpringAOP.html
+      - page: Spring Boot
+        url: InterviewSpecificQuestions/Spring/SpringBoot.html
+      - page: Spring Data JDBC & JPA
+        url: InterviewSpecificQuestions/Spring/SpringDataJDBC&JPA.html
+      - page: Spring JDBC
+        url: InterviewSpecificQuestions/Spring/SpringJDBC.html
+      - page: Spring MVC
+        url: InterviewSpecificQuestions/Spring/SpringMVC.html
+  - title: .Net Full stack
+    subfolderitems:
+      - page: .Net Full stack
+        url: InterviewSpecificQuestions/.NETFullStack/.NETFramework.html
+      - page: ADO .NET
+        url: InterviewSpecificQuestions/.NETFullStack/ADO.net.html
+      - page: ASP .NET
+        url: InterviewSpecificQuestions/.NETFullStack/ASP.Net.html
+      - page: C# Advanced
+        url: InterviewSpecificQuestions/.NETFullStack/C#Advance.html
+      - page: C# Azure
+        url: InterviewSpecificQuestions/.NETFullStack/C#Azure.html
+      - page: C# Basics
+        url: InterviewSpecificQuestions/.NETFullStack/C#Basics.html
+      - page: C# Collections
+        url: InterviewSpecificQuestions/.NETFullStack/C#Collections.html
+      - page: C# Exception Handling
+        url: InterviewSpecificQuestions/.NETFullStack/C#Exception_Handling.html
+      - page: C# OOPS
+        url: InterviewSpecificQuestions/.NETFullStack/C#OOPS.html
+      - page: Node JS
+        url: InterviewSpecificQuestions/.NETFullStack/Nodejs.html
+      - page: REST
+        url: InterviewSpecificQuestions/.NETFullStack/Rest.html
+      - page: Scripting fundamentals
+        url: InterviewSpecificQuestions/.NETFullStack/ScriptingFundamentals.html
+      - page: SOA
+        url: InterviewSpecificQuestions/.NETFullStack/SOA.html
