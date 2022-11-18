@@ -4,14 +4,14 @@ toc:
     subfolderitems:
       - page: Introduction
         url: InterviewSpecificQuestions/AWS/AWS.html
-      - page: Thing 2
-        url: /thing2.html
   - title: Angular
     subfolderitems:
       - page: Introduction To Angular
         url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
       - page: Introduction To npm And node
         url: InterviewSpecificQuestions/Angular/02-IntroductionTonpmAndnode.html
+      - page: TypeScript
+        url: InterviewSpecificQuestions/Angular/03-Typescript.html  
   - title: Big Data
     subfolderitems:
       - page: Introduction
