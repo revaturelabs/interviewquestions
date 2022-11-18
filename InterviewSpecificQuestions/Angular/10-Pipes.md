@@ -10,8 +10,8 @@ Pipes provide a way to transform values in an Angular template.Pipes are used wi
     
 For example, a Date object shows the date in this format: `Sat Aug 03 2019 19:48:11 GMT+0530 (India Standard Time)` which is not easy for normal users to understand.It’s better to have the date in this format `Saturday, 03 Aug 2019 07:50 PM`.This can be achieved using pipes.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
  
@@ -25,8 +25,8 @@ For example, a Date object shows the date in this format: `Sat Aug 03 2019 19:48
 
 Using Pipes, we can transform any strings, currency amounts, dates, and other data for display.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
  
@@ -42,8 +42,8 @@ If we want to create a custom pipe in angular, we need to annotate the class wit
 
 The `@Pipe` decorator has a name property, which is used to specify the name of the pipe.
   
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
  
@@ -71,8 +71,8 @@ export class FilterPipe implements PipeTransform {
 - We take an array of strings (`array`) and another string (`startWith`) as input.
 - Using the `filter` method, we only filter a string that starts with a value in `starts with` and returns it.
     
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
  
@@ -108,8 +108,8 @@ And, we can use any template file.For example,  in the `app.component.ts` file,
 {{ "Hello World" | firstChar}}  
 ```
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
  
@@ -127,8 +127,8 @@ We can use date pipe to date in this format "MM/dd/yy".Also, we can get the curr
 
 **NOTE:**  Output will be like  _08/25/22_
     
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
  
@@ -163,8 +163,8 @@ export class WordcountPipe implements PipeTransform {
     
 ![image](https://user-images.githubusercontent.com/70228962/186726853-a751b72f-faf3-4a00-ad1a-5b43176b0ae5.png)
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
  
@@ -199,8 +199,8 @@ The output will be like
 ![image](https://user-images.githubusercontent.com/70228962/186734281-ebe35c70-f152-402b-9e36-8b3a48f9ff90.png)
 
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
  
@@ -227,8 +227,8 @@ end = 7
     
 Slice pipe will return substring starting from index 3 i.e character d and will include all characters before index 7 i.e up to g.The character at the end index will not be included in the output substring.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
  
@@ -266,8 +266,8 @@ Some of the built-in pipes are:
  
 ![image](https://user-images.githubusercontent.com/70228962/186727762-9ca23c43-6cb0-4026-a00d-c443324950ee.png)  
     
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
 
@@ -290,8 +290,8 @@ Some of the built-in pipes are:
    
  Here we're chaining pipes, chaining the `date` pipe and `uppercase` pipe.If, we just have only date pipe the output will be like `Aug 3, 2022`.Since the excepted output has Month is in uppercase, there is a need to transform month to uppercase.so will chain the uppercase pipe after the date pipe.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
 
@@ -310,7 +310,7 @@ interface PipeTransform {
   transform(value: any, ...args: any[]): any
 }
 ```
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---

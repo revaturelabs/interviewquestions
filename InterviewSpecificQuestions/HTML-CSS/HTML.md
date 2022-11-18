@@ -15,8 +15,8 @@
    - Search engines to know about keywords on a web page
    - Other web services
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -31,8 +31,8 @@ Yes, a webpage can have many `<header>` and `<footer>` elements.Both tags are sp
 
 Hence, not only the page `<body>` must have the `<header>` and `<footer>` tags, but also does every `<article>` and `<section>` elements.Although a `<footer>` element might not be always necessary for every `<article>` and `<section>` tags, a `<header>` element must always be there.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -51,8 +51,8 @@ An iframe is an HTML document which can be embedded inside another HTML page
 <iframe src="https://github.com" height="300px" width="300px"></iframe>
 ```
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -84,8 +84,8 @@ There are multiple ways to set language in HTML:
 
 ```
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -100,8 +100,8 @@ A **DOCTYPE** is always associated to a DTD ( Document Type Definition ).A DTD d
 
 Once a user agent has recognized a correct **DOCTYPE**, it will trigger the no-quirks mode matching this **DOCTYPE** for reading the document.If a user agent doesn't recognize a correct **DOCTYPE**, it will trigger the quirks mode.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -121,8 +121,8 @@ The primary difference between div and span tag is their default behavior.By def
 <div>Demo Text, with <span>some other</span> text.</div>
 ```
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -145,8 +145,8 @@ The HTML `<main>` element represents the dominant content of the `<body>` of a d
 
 **Note:** A document mustn't have more than one `<main>` element that doesn't have the hidden attribute specified.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -160,8 +160,8 @@ The HTML `<main>` element represents the dominant content of the `<body>` of a d
 If the content within the element is not semantically related, then use a `<div>`.If the semantically related content is also able to be self-contained, then use an `<article>`.Otherwise, use a `<section>`.
 
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -174,8 +174,8 @@ If the content within the element is not semantically related, then use a `<div>
 
 Yes, both of these elements can be added multiple times in a webpage.And both of these tags are designed to serve a crucial purpose in relation to their parent section.In **HTML5** not only Page body but section and article elements also contains header and footer elements, although the use of multiple footers is always not required.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -194,8 +194,8 @@ Character encoding is a method of converting bytes into characters.To validate o
 
 **UTF-8:** A Unicode Translation Format that comes in 8-bit units that is, it comes in bytes.A character in UTF8 can be from 1 to 4 bytes long, making UTF8 variable width.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -208,8 +208,8 @@ Character encoding is a method of converting bytes into characters.To validate o
 
 The local storage is a type of HTML5 offline storage ( local storage ) that allows user's data to be saved in their browser.The data is kept in a name and value pairs and not available between different browsers on the same device.Local storage can be used as an alternative to cookies.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -222,8 +222,8 @@ The local storage is a type of HTML5 offline storage ( local storage ) that allo
 
 The sessionStorage object is equal to the localStorage object, except that it stores the data for only one session.The data is deleted when the user closes the browser tab.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -262,8 +262,8 @@ For the select element, the user is required to select one of the options you've
 </datalist>
 ```
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -276,8 +276,8 @@ For the select element, the user is required to select one of the options you've
 
 The HTML5 data attribute lets us assign custom data to an element.When we want to store more information/data about the element when no suitable HTML5 element or attribute exists.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -295,8 +295,8 @@ The HTML5 data attribute lets us assign custom data to an element.When we want t
 `<section>:` It is a set of instructions that is used inside the article block to define the basic structure of a page.
 `<aside>:` Sidebar content of the page.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -309,8 +309,8 @@ The HTML5 data attribute lets us assign custom data to an element.When we want t
 
 Microdata is a new simple semantic syntax, that is used to add the nested groups of name and value pair of data to documents, that are commonly based on the page content.Microdata is used for new global attributes.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -323,8 +323,8 @@ Microdata is a new simple semantic syntax, that is used to add the nested groups
 
 The `<figure>` tag is used for specifying self-contained content, such as diagrams and photos, in an HTML5 web page.Although the content of the figure element is related to the main flow of the document, its position is independent of the same, i.e., if removed, it will not affect the main flow of the document.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -339,8 +339,8 @@ Yes, an `<article>` element can have `<section>` element(s) and a `<section>` el
 
 Now, the `<section>` element for the blog can have multiple `<article>` elements to accommodate various articles.Further, each of these `<article>` elements can have two `<section>` elements, one for the comments section and the other for sharing section.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -356,8 +356,8 @@ Image maps allow users to click on images for opening new web pages.As such, the
 **Client-side Image Map** - Created using `<area>` and `<map>` elements.The map element holds the map information, and the area element takes the attributes for defining each section of the map.
 **Server-side Image Map** - Created using the `<usemap>` attribute, which is the name of the map.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -374,8 +374,8 @@ Image maps allow users to click on images for opening new web pages.As such, the
 `<ol>` - Ordered list
 `<ul>` - Unordered list.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -388,8 +388,8 @@ Image maps allow users to click on images for opening new web pages.As such, the
 
 Elements can be block-level elements or inline elements.The difference between block and inline elements is that the block elements take up the full width available while the inline elements take the required width to display the contents of the elements.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -404,8 +404,8 @@ Elements can be block-level elements or inline elements.The difference between b
 
 **Non-semantic elements:** `<div>` and `<span>` tells nothing about its content.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -421,8 +421,8 @@ Elements can be block-level elements or inline elements.The difference between b
 - Most HTML elements are written with a start tag (or opening tag) and an end tag (or closing tag), with content in between.Elements can also contain attributes that defines its additional properties.
 
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -435,8 +435,8 @@ Elements can be block-level elements or inline elements.The difference between b
 
 All elements don't require the end tag or closing tag to be present.These are referred as empty elements, self-closing elements, or void elements.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -451,8 +451,8 @@ The latest version is HTML5.
 
 HTML5 is based on styles, a style attribute is used to format each tag.People say it will replace the flash player used to watch online videos, as HTML5 directly support the videos of HTML5 format, so we will never have to install flash player
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -493,7 +493,7 @@ HTML5 drag-and-drop uses the DOM event model and drag events inherited from mous
 </html>
 ```
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---

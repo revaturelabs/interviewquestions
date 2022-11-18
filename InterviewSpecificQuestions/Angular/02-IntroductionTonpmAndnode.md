@@ -11,8 +11,8 @@
 - The **browser only understands JavaScript code**, so we need to compile Typescript (.ts file) to plain JavaScript (.js file).
 - We use Node.js and npm to perform this compilation, then we can deploy them in production.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
 
@@ -29,8 +29,8 @@
 - To check that you have installed npm, run `npm -v` in a  terminal.
 - **NOTE:** npm can install packages in a node_modules folder in angular working directory.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
 
@@ -46,9 +46,9 @@
 - Node.js is used to execute JavaScript code outside of a web browser.It provides a library of various JavaScript modules, which simplifies the development of web applications.
 - Global companies like Netflix, Facebook, Walmart Linkedin, Uber, etc., use Node.js for building their applications.
   
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
   
 ---
 
@@ -66,9 +66,9 @@
     - Provides online repositories for node.js packages/modules, which are searchable on search.nodejs.org
     - Provides command-line utility to install Node.js packages and also manages Node.js versions and dependencies  
   
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
   
 ---
 
@@ -86,9 +86,9 @@
 |                 It is written in TypeScript                 |                    It is written in C, C++ languages                    |
 | Used for building single-page, client-side web applications | Used for building fast and scalable server-side networking applications |
  
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
   
 ---
 
@@ -102,8 +102,8 @@
 
 To check that node.js is installed, open the power shell or command prompt (cmd) and type `node –v`.If the node is installed tall properly in your system print something like that v4.4.3.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
  
@@ -117,8 +117,8 @@ To check that node.js is installed, open the power shell or command prompt (cmd)
 
  `package.json` file is used to store the metadata related to the project such as a project description, the version of the project in a particular distribution, and license information, as well as to store the list of dependency packages.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
  
@@ -134,8 +134,8 @@ In `package.json`, regular `dependencies` are packages that are required for you
 
 `devDependencies` are packages used for development purposes, e.g for running tests or transpiling your code.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
  
@@ -149,8 +149,8 @@ In `package.json`, regular `dependencies` are packages that are required for you
 The 
 `npm install` command is used for installing JavaScript packages on your local computer.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
  
@@ -164,8 +164,8 @@ The
 
 `npm uninstall` command is used to remove installed npm packages on your computer.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
  
@@ -185,8 +185,8 @@ If the -g flag is specified, this command will update globally installed package
 
 If no package name is specified, all packages in the specified location (global or local) will be updated.
   
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
  
@@ -200,8 +200,8 @@ If no package name is specified, all packages in the specified location (global 
 
 The `npm init` command in the JSON language creates a package.json file for your project’s front end.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
  
@@ -214,8 +214,8 @@ The `npm init` command in the JSON language creates a package.json file for your
 
  Yes, it can run an angular application.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
  
@@ -229,8 +229,8 @@ The `npm init` command in the JSON language creates a package.json file for your
 
 `package.json` contains just JSON.The main purpose of this file is to hold various metadata related to the project.The file is used to provide the information to the node package manager (NPM) that allows identifying the project and its dependencies.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
 
@@ -244,8 +244,8 @@ The `npm init` command in the JSON language creates a package.json file for your
 
 The `package.json` file is normally present in the root directory of a project folder structure.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
 

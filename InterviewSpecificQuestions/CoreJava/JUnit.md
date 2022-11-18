@@ -9,8 +9,8 @@
 
 JUnit helps to test individual pieces of code, or “units,” to ensure that they are functioning properly.By identifying and isolating units that are not working correctly, JUnit makes it easier to find and fix errors in code.In addition, JUnit can be used to automate the execution of unit tests, which can save time and effort.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -30,8 +30,8 @@ JUnit helps to test individual pieces of code, or “units,” to ensure that th
 - JUnit tests can be organized into test suites containing test cases and even other test suites.
 - JUnit shows test progress in a bar that is green if the test is going fine and it turns red when a test fails.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -44,8 +44,8 @@ JUnit helps to test individual pieces of code, or “units,” to ensure that th
 
 Testing is the process of checking whether the application fulfills the requirements and achieves the desired functionalities.Unit testing refers to assessing an individual functionality or a unit of the application.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -58,8 +58,8 @@ Testing is the process of checking whether the application fulfills the requirem
 
 A JUnit test case is a test case written using the JUnit testing framework.JUnit is a popular Java testing framework that allows developers to write and run tests for their Java code.A JUnit test case is typically made up of several individual tests, each of which tests a specific aspect of the code being tested.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -72,8 +72,8 @@ A JUnit test case is a test case written using the JUnit testing framework.JUnit
 
 Automated testing in JUnit is that type of testing where one has the option to take support from tools.These automation tools would display accurate results which are suitable for the process of Java application development.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -86,8 +86,8 @@ Automated testing in JUnit is that type of testing where one has the option to t
 
 Unit testing is also regarded as the assessment of a single entity or class.We should be well aware of the fact that the principle of unit testing carries the utmost importance.With the assistance of unit testing, companies can give quality products to their clients and stakeholders.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -101,8 +101,8 @@ Unit testing is also regarded as the assessment of a single entity or class.We s
 
 JUnit is extensively used by developers to carry out unit testing in Java.Moreover, it is also being used to speed up the application based on Java.It is important to note that by taking into account the source code, the application can efficiently be sped up.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -115,8 +115,8 @@ JUnit is extensively used by developers to carry out unit testing in Java.Moreov
 
 The unit tests are written before the development of the application.It is so because writing the check before coding, assists the coders to write error-free codes which further boosts the viability of the form.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -134,8 +134,8 @@ The JUnit classes are essential classes that are usually utilized in testing and
 - `Test Result`: It is associated with the collection of results while executing a test case
 - `Test Case`: It is that kind of a JUnit class that is related to various fixtures.It also can run on a variety of tests.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -152,8 +152,8 @@ There are mainly three types of tools that play a pivotal role in the integratio
 - IDE (e.g.Eclipse, STS, IntelliJ)
 - Gradle (One of the Build Tools)
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -167,8 +167,8 @@ There are mainly three types of tools that play a pivotal role in the integratio
 - In JUnit, it is unnecessary to write a test case for every logic but only for those that can be reasonably broken.
 - A unit test case would comprise a collection of input data and expected output.The org.JUnit package contains several classes and interfaces to help you in unit testing, such as Assert, Test, Before, After, etc.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -185,8 +185,8 @@ We have to
   - Write our test method.
   - Run our test case.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -199,8 +199,8 @@ We have to
 
 Assuming already we have a JUnit test case written, we can run it by opening it in our IDE and selecting the `run` option.If we are using Eclipse, for example, right-click on the file and select `Run As > JUnit Test`.This will launch the test and run it using the JUnit framework.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -218,8 +218,8 @@ The JUnit test framework is associated with the providence of these critical fea
   - Fixtures
   - Test Runners
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -232,8 +232,8 @@ The JUnit test framework is associated with the providence of these critical fea
 
 Test suite means bundling a few unit test cases and running them together.In JUnit, both `@RunWith` and `@Suite` annotations are used to run the suite test.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -246,8 +246,8 @@ Test suite means bundling a few unit test cases and running them together.In JUn
 
 In the `protected` method, the test class and target class are declared in the same package.However, in the `private` method, there is no direct way of testing.Either we have to change your method to `protected` or do the testing manually.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -265,8 +265,8 @@ JUnit classes are those classes that are used in writing and testing JUnit progr
 `TestResult` − It contains methods that collect the results after a test case is executed.
 `TestSuite` − It is an aggregate of JUnit tests.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -282,8 +282,8 @@ The fixture is a fixed state of a set of objects used as a baseline for running 
 `setUp()` method which runs before every test invocation.
 `tearDown()` method which runs after every test method.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -298,8 +298,8 @@ The first step is to download JUnit 5, the latest version of JUnit ( it would be
 
 Next, we would test the installation.This would involve running sample tests (located not in the JUnit.jar file, but in the installation directory) distributed with JUnit.Lastly, we would confirm that all the tests pass with an “OK” message.If they don’t, we would go back and verify whether JUnit.jar is in the classpath.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -317,8 +317,8 @@ Following are some of the JUnit extensions
   - XMLUnit: XMLUnit provides you with the tools to verify the XML you emit is the one you want to create.
   - MockObject: In a unit test, mock objects can simulate the behavior of complex, real (non-mock) objects and are therefore useful when a real object is impractical or impossible to incorporate into a unit test.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -332,8 +332,8 @@ Following are some of the JUnit extensions
 - `setup`
 - `tearDown`
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -346,8 +346,8 @@ Following are some of the JUnit extensions
 
 `@Test` annotation is used to mark a method as a test method, the result of which is then compared with the expected output to check whether the test is successful or not.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -360,8 +360,8 @@ Following are some of the JUnit extensions
 
 Reporting multiple failures in a single test is generally a sign that the test does too much and it is too big a unit test.JUnit is designed to work best with several small tests.It executes each test within a separate instance of the test class.It reports failure on each test.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -374,8 +374,8 @@ Reporting multiple failures in a single test is generally a sign that the test d
 
 The parameterized test is a new feature introduced in JUnit 4.It provides the facility to execute the same test case again and again with different values.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -388,8 +388,8 @@ The parameterized test is a new feature introduced in JUnit 4.It provides the fa
 
 Annotations are like meta-tags that you can add to your code and apply  to methods or in class.The annotation in JUnit gives us information about test methods, which methods are going to run before & after test methods, which methods run before & after all the methods, and which methods or classes will be ignored during execution.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -402,8 +402,8 @@ Annotations are like meta-tags that you can add to your code and apply  to metho
 
 JUnit 3.7 deprecated `assert()` and replaced it with `assertTrue()`, which works the same way.JUnit 4 is compatible with the assert keyword.If you run with the -ea JVM switch, assertions that fail will be reported by JUnit.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -416,8 +416,8 @@ JUnit 3.7 deprecated `assert()` and replaced it with `assertTrue()`, which works
 
 Debugging the code using `System.out.println()` will lead to manual scanning of the whole output every time the program is run to ensure the code is doing the expected operations.Moreover, in the long run, it takes lesser time to code JUnit methods and tests them on class files.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -432,8 +432,8 @@ Debugging the code using `System.out.println()` will lead to manual scanning of 
 - Also, we'll need a directory that will contain all our compiled classes:
 `$ mkdir target`
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -446,8 +446,8 @@ Debugging the code using `System.out.println()` will lead to manual scanning of 
 
 This class provides a set of assertion methods useful for writing tests.Only failed assertions are recorded.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -460,8 +460,8 @@ This class provides a set of assertion methods useful for writing tests.Only fai
 
 A TestResult collects the results of executing a test case.It is an instance of the Collecting parameter pattern.The test framework distinguishes between failures and errors.A failure is anticipated and checked for with assertions.Errors are unanticipated problems like an `ArrayIndexOutOfBoundsException`.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -474,8 +474,8 @@ A TestResult collects the results of executing a test case.It is an instance of 
 
 A TestSuite is a composite of tests.It runs a collection of test cases.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -488,8 +488,8 @@ A TestSuite is a composite of tests.It runs a collection of test cases.
 
 Several tests need similar objects created before they can run.Annotating a public void method with `@BeforeEach` causes that method to be run before each Test method.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -508,8 +508,8 @@ If you allocate external resources in a Before method you need to release them a
     }
 
 ```
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -528,8 +528,8 @@ Annotating a public static void method with `@BeforeAll` causes it to be run onc
     }
 ```
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -543,8 +543,8 @@ Annotating a public static void method with `@BeforeAll` causes it to be run onc
 The `assertTrue()` asserts that the supplied condition is true or the boolean condition supplied by BooleanSupplier is true.
 Similarly, `assertFalse()` asserts that supplied condition is false.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -569,8 +569,8 @@ void testCalcTwo()
 }
 ```
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -592,8 +592,8 @@ Following is how the JUnit execution procedure works −
 - The method annotated with `@AfterEach` runs after Testcase 2 completes execution.
 - The method annotated with `@AfterAll` is executed once at the end of the class after both testcase 1 and 2 are executed.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -606,8 +606,8 @@ Following is how the JUnit execution procedure works −
 
 The test cases are executed using JUnitCore class.JUnitCore is a facade for running tests.It supports running JUnit 4 tests, JUnit 3.8.x tests, and mixtures.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -620,8 +620,8 @@ The test cases are executed using JUnitCore class.JUnitCore is a facade for runn
 
 JUnit provides a handy option for Timeout.If a test case takes more time than the specified number of milliseconds then JUnit will automatically mark it as failed.The timeout parameter is used along the with `@Test` annotation.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -634,8 +634,8 @@ JUnit provides a handy option for Timeout.If a test case takes more time than th
 
 JUnit provides an option for tracing the Exception handling of code.You can test if a code throws the desired exception or not.The expected parameter is used along with `@Test` annotation as follows − `@Test(expected)`
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -673,8 +673,8 @@ arg => 6<br>
 arg => 10<br>
 
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -687,8 +687,8 @@ arg => 10<br>
 
 Compiling a JUnit test class is like compiling any other Java class.The only thing we need to watch out for is that the JUnit JAR file must be included in the classpath.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -701,8 +701,8 @@ Compiling a JUnit test class is like compiling any other Java class.The only thi
 
 If a JUnit test method is declared as "private", it compiles successfully.But the execution will fail.This is because JUnit requires that all test methods must be declared as "public".
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -715,8 +715,8 @@ If a JUnit test method is declared as "private", it compiles successfully.But th
 
 Yes we can test using `main()` method.One obvious advantage seems to be that we can whitebox test the class.That is, we can test the internals of it (private methods for example).We can't do the unit testsit-tests.But primarily the test framework tests the interface and the behavior from the user's perspective.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -729,8 +729,8 @@ Yes we can test using `main()` method.One obvious advantage seems to be that we 
 
 No.We need not write an independent test class for every class that needs to be tested.If there is a small group of tests sharing a common test fixture, you may move those tests to a new test class.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -744,8 +744,8 @@ No.We need not write an independent test class for every class that needs to be 
 
 Ideally, we should not do that.All the JUnit test methods have a void return type.If we change the return type then the test method would not be considered a test method and would be ignored during the execution of tests.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -758,8 +758,8 @@ Ideally, we should not do that.All the JUnit test methods have a void return typ
 
 No there is no time constraint.A JUnit test needs to run whenever there is a change in the source code.This ensures that the new change passes through all the tests.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -775,8 +775,8 @@ No there is no time constraint.A JUnit test needs to run whenever there is a cha
   - For Example: creating a temporary folder before test case execution and deleting the folder post-execution can be set through a Rule.
 - `@Rule` is available only in JUnit 4 which can be used in JUnit 5 Vintage, however, `@ExtendWith` provides a closer feature for JUnit 5
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -790,8 +790,8 @@ No there is no time constraint.A JUnit test needs to run whenever there is a cha
 - This annotation is supported by JUnit 5 only and helps the creation of dynamic or runtime tests.
 - It returns a stream of data as collection and cannot use lifecycle callback annotations
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -810,8 +810,8 @@ There are different methods of exception handling in JUnit
 - With catch exception library
 - With customs annotation
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -832,8 +832,8 @@ JUnit is used because:
 - It allows test code re-usage.
 - JUnit tests behave as a document for the unit tests when there is a transfer.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -846,8 +846,8 @@ JUnit is used because:
 
 `assert()` is used to compare actual and expected results in JUnit.It has various implementations like `assertEquals()`,`assertArrayEquals()`,`assertFalse()`, `assertNotNull()`, etc.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -860,8 +860,8 @@ JUnit is used because:
 
 The key difference is the scope.TDD is a development practice while BDD is a team methodology.In TDD, the developers write the tests while in BDD the automated specifications are created by users or testers (with developers wiring them to the code under test.) 
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -877,8 +877,8 @@ The key difference is the scope.TDD is a development practice while BDD is a tea
 - Good unit tests serve as project documentation.
 - Unit tests help with code reuse.Migrate both your code and your tests to your new project.Tweak the code until the tests run again.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -916,8 +916,8 @@ void testOnProd()
 }
 ```
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -931,8 +931,8 @@ void testOnProd()
 - JUnit 5 test classes and test methods are not required to be public.We can now make them package-protected.
 - JUnit internally uses reflection to find test classes and test methods.Reflection can discover them even if they have limited visibility, so there is no need for them to be public.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -953,7 +953,7 @@ void repeatedTestWithRepetitionInfo1(RepetitionInfo repetitionInfo) {
 }
 ```
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---

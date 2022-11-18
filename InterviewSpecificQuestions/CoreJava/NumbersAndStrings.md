@@ -17,8 +17,8 @@
 - **String name2 = new String(“newJava”);**
   - The above statement creates a string object in heap memory and checks whether it is present in the string pool or not.If the ‘newJava’ is not present in the string pool, then it will place this string in the string pool else it will skip it.In this case, two objects are created that is one in heap memory and the other in the string pool.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 --- 
 
@@ -38,8 +38,8 @@
 |                                           Syntax: StringBuffer var = new StringBuffer(str);                                           |                                         Syntax: StringBuilder var = new StringBuilder(str);                                        |
 
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 --- 
 
@@ -54,8 +54,8 @@
  
  StringBuilder and StringBuffer 
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 --- 
 
@@ -70,8 +70,8 @@
  
  In the String constant pool, a String object is likely to have one or many references.If several references point to the same String without even knowing it, it would be bad if one of the references modified that String value.That's why String objects are immutable.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 --- 
 
@@ -99,8 +99,8 @@ public static void main(String[] args) {
 }
 ```
  
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 --- 
 
@@ -126,8 +126,8 @@ A Wrapper class is a class whose object wraps or contains primitive data types.E
 | long           | Long          |
 | short          | Short         |
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 --- 
 
@@ -145,8 +145,8 @@ A Wrapper class is a class whose object wraps or contains primitive data types.E
  - Wrapper classes has lot of utility methods, it really helpful and easier.
 
  
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 --- 
 8.What is autoboxing and unboxing?
@@ -162,8 +162,8 @@ The process of converting a primitive value into an object of the corresponding 
 
 The process of converting an object of a wrapper type to its corresponding primitive value is called as unboxing.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 --- 
 
@@ -180,9 +180,9 @@ The process of converting an object of a wrapper type to its corresponding primi
 - The `==` operator can be used for comparing references (addresses) and the `.equals()` method can be used to compare the content.
 `==` checks if the objects point to the same memory location, whereas `.equals()` compares the values of the objects.
 
- </blockquote  markdown="1">
+ </blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -212,8 +212,8 @@ e.g., `str1.compareTo(str2);`
 
 Note: == operator is avoided, since it checks for reference equality, i.e.if the strings point to the same object or not.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -227,9 +227,9 @@ Note: == operator is avoided, since it checks for reference equality, i.e.if the
 
 Integer class in the Java lang package provides different methods for converting strings to integers and vice versa.The `parseInt()` method allows you to convert a String into an integer and the `toString()` method allows you to convert an Integer into a String.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -245,9 +245,9 @@ Integer class in the Java lang package provides different methods for converting
 
 - However, if there is a radix mentioned in the argument, the respective data is converted into the base of the radix first and then converted to an Integer object.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -263,9 +263,9 @@ Integer class in the Java lang package provides different methods for converting
 
 - mmutable objects value cannot be changed once created.String is an immutable class in java.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -279,9 +279,9 @@ Integer class in the Java lang package provides different methods for converting
 
 The method `split(String regex)` to split the String into String array based on the provided regular expression
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -300,10 +300,10 @@ Reason:
 - If we use String , with every modification and concatenation operation, a new String is formed as String is immutable.It will lead to the memory allocation issues.
 - StringBuilder cannot be used as it is not synchronized, i.e., thread-safe.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
-</details markdown="1">
+</details>
 
 ---

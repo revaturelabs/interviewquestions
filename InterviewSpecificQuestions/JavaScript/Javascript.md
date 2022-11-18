@@ -10,9 +10,9 @@
 
  JavaScript is a scripting language which is not only used for client-side validation in web application but also evolved and helps to build end to end web applications.It has significant contribution in building diversified platform mobile applications today.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -26,9 +26,9 @@
 
 All the modern browsers come with built-in support for JavaScript.Uses have provision to enable or disable JavaScript support manually in browser.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -46,9 +46,9 @@ There are two types of data types to hold different types of values in JavaScrip
 - Primitive types- String, Number, Boolean, Undefined, Null
 - Non-primitive (reference) data type - Object, Array, RegExp
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -63,9 +63,9 @@ There are two types of data types to hold different types of values in JavaScrip
 
 JavaScript is a <b> dynamic type language </b>, so no need to specify type of the variable because it is dynamically used by JavaScript engine
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -88,9 +88,9 @@ The scope of a variable represents where the variable has been declared or defin
   - `Block Scope` -Block scope is the scope of the variables declared inside the {} (curly brackets).
   - `Lexical Scope` -Lexical scope is that a variable defined outside a function can access the inside another function defined after the variable declaration.The inner functions are lexically bound to the execution context of their outer functions.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -114,9 +114,9 @@ Here in the example, we will get a message x is `undefined` which means the vari
 
 In this case, you will get a message like `not defined` because the variable y is not created, and memory is not allocated for it and we try to reference the variable.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -146,9 +146,9 @@ console.log(typeof (y) == 'number')
 From the above code if the `typeof` y is a number, so from the expression it will print true in the console.
 
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -163,9 +163,9 @@ From the above code if the `typeof` y is a number, so from the expression it wil
 
 Hoisting is the default behavior of JavaScript where all the variable and function declarations are moved on top, irrespective of where the variables and functions are declared, they are moved on top of the scope.The scope can be both local and global.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -180,9 +180,9 @@ Hoisting is the default behavior of JavaScript where all the variable and functi
 
 It iterates the elements for the fixed number of times.It should be used if the number of iterations is known.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -197,9 +197,9 @@ It iterates the elements for the fixed number of times.It should be used if the 
 
 The JavaScript while loop iterates the elements for the infinite number of times, which should be used if number of iteration is not known
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -215,9 +215,9 @@ The JavaScript while loop iterates the elements for the infinite number of times
 
 Which refers to the currently calling object.It is commonly used in constructors to assign values to object properties.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -235,9 +235,9 @@ Which refers to the currently calling object.It is commonly used in constructors
 - Callback is a JavaScript function that is passed to another function as an argument or a parameter.This function is to be executed whenever the function that it is passed to gets executed.
 
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -253,9 +253,9 @@ Which refers to the currently calling object.It is commonly used in constructors
 
 It is generally a small data that is sent from a website and stored on the user’s machine by a web browser that was used to access the website.Cookies are used to remember information (e.g., user preferences, settings, passwords) for later use and also to record the browsing activity on a website.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -273,9 +273,9 @@ We can create a cookie as below:
 ``` java
 document.cookie = "key1 = value1; key2 = value2; expires = date";
 ```
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -290,9 +290,9 @@ document.cookie = "key1 = value1; key2 = value2; expires = date";
 
 `split()` method to break the cookie value into keys and values.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -308,9 +308,9 @@ document.cookie = "key1 = value1; key2 = value2; expires = date";
 
 Both let and var are used for variable and method declarations in JavaScript.var keyword is `scoped by function`, the let keyword is `scoped by a block`.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -334,9 +334,9 @@ const Message= () => {
 };
 ```
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -353,9 +353,9 @@ const Message= () => {
 - Example:
   - 5 == '5' // Returns true
   - 5 === '5' // Returns False
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -379,9 +379,9 @@ function User (name, age) {
 var user1 = new User('Bob', 25);
 var user2 = new User('Alice', 27);
 ```
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -396,9 +396,9 @@ var user2 = new User('Alice', 27);
 
 It is an object that may produce value in the future(either a resolved value, or a reason that it's not resolved).It is always in one of the possible states: fulfilled, rejected, or pending.Promises provide an alternative approach for callbacks by reducing the callback and writing the cleaner code.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -416,9 +416,9 @@ It is an object that may produce value in the future(either a resolved value, or
 - Global variables are properties of the window object.
 - Global functions are methods of the window object.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -435,9 +435,9 @@ It is an object that may produce value in the future(either a resolved value, or
 
 <code> window.location.href="https://www.revature.com/" </code>
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -452,9 +452,9 @@ It is an object that may produce value in the future(either a resolved value, or
 
 When HTML documents are loaded in the browser(which creates DOM), it will become a document object which is the root element that represents the HTML document.Each DOM element has various properties and methods through which we can add dynamic content to our web page according to the required behavior.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -469,9 +469,9 @@ When HTML documents are loaded in the browser(which creates DOM), it will become
 
 The change in the state of an object is known as an `Event`.In html, there are various events which represents that some activity is performed by the user or by the browser.When JavaScript code is included in HTML, JS react over these events and allow the execution.This process of reacting over the events is called `Event Handling`.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -486,9 +486,9 @@ The change in the state of an object is known as an `Event`.In html, there are v
 
 JavaScript handles the HTML events through Event Handlers.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -506,9 +506,9 @@ JavaScript handles the HTML events through Event Handlers.
 - Form events
 - Window/Document events
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -527,9 +527,9 @@ Syntax:
 
 <code> element.addEventListener(event, function, useCapture);  </code>
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -549,9 +549,9 @@ Syntax:
 - The strict mode in JavaScript does not allow us to use undefined variables, reserved keywords as variable or function name, duplicate properties of an object, duplicate parameters of the function, assign values to read-only properties, modifying arguments object, and Deleting an undeletable property.
 - Strict mode can be applied to function level in order to implement strictness only in that particular function.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -567,9 +567,9 @@ Syntax:
 
 we can use the method `document.getElementById()` to get value of the input text.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -588,9 +588,9 @@ It is used for selecting or getting the elements through their class name value.
 When the method is applied on any particular element, it will search the whole document and will return only those elements which match the specified or given class name.
 
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -607,9 +607,9 @@ When the method is applied on any particular element, it will search the whole d
 - **Load time errors**- errors that occurred at the time of web page loading and may occur due to improper syntaxes
 - **Logical errors**- errors may occur due to improper logical performance of the function.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -626,9 +626,9 @@ When the method is applied on any particular element, it will search the whole d
 - They are `navigator`, `screen`, `location`, `history`, `document`.
 - All above mentioned objects are children of the `window` Object.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -645,9 +645,9 @@ There are two ways:
 - `Internal JavaScript:` Writing the code in your HTML file by writing the code inside the `<script> tag`.
 - `External JavaScript:` Through an external file having a .js extension and then link the file inside the `<head>` or `<body>` tag of the HTML file.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -662,9 +662,9 @@ There are two ways:
 
 Whenever an event happens on an element, the event handlers will first run on it and then on its parent element and finally all the way up to its other ancestor elements.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -679,9 +679,9 @@ Whenever an event happens on an element, the event handlers will first run on it
 
 It is the reverse of the event bubbling and here the event starts from the parent element and then to its nested child elements.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -700,9 +700,9 @@ It is the reverse of the event bubbling and here the event starts from the paren
 - settled: Promise has fulfilled or rejected
 
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -721,9 +721,9 @@ It is the reverse of the event bubbling and here the event starts from the paren
   the code wait until the promise returns a result.
 
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -740,9 +740,9 @@ It is the reverse of the event bubbling and here the event starts from the paren
 Document Object Model(DOM) is a tree-like structure that represents the HTML document.It is used by JavaScript to access and manipulate the document.
 
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -764,9 +764,9 @@ eg: element.style.color = “new color”;
 
  ```
  
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -781,9 +781,9 @@ eg: element.style.color = “new color”;
 
 It is used to group together related objects, properties, and methods.In JavaScript, the default namespace is the global object.However, you can create your own namespace objects to keep your code organized.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -798,9 +798,9 @@ It is used to group together related objects, properties, and methods.In JavaScr
 
 Yes, it support automatic type conversion.It is the common way of type conversion used by JavaScript developer.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -818,9 +818,9 @@ JavaScript is a loosely typed language, so a variable can store any type of valu
 a= 6;
 a= "JavaScript";
 ```
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -836,9 +836,9 @@ a= "JavaScript";
 
 `Session Storage` – The data stored in local storage has no expiration time, data stored in session storage gets cleared when the page session ends.Which will leave when the browser is closed.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -859,9 +859,9 @@ a= "JavaScript";
 - JavaScript is an implementation of that blueprint.
 - JavaScript implements the ECMAScript specification as described in ECMA-262.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---

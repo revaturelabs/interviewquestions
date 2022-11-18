@@ -9,8 +9,8 @@
 
 Java Collection framework provides many interfaces (Set, List, Queue, Deque) and classes (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet).
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -26,8 +26,8 @@ Java Collection framework provides many interfaces (Set, List, Queue, Deque) and
 - We can use a set if we need to maintain a collection that contains no duplicates.
 - And Map when data is key-value pairs and need fast retrieval of value based on some key.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -40,8 +40,8 @@ Java Collection framework provides many interfaces (Set, List, Queue, Deque) and
 
 Because they are of an incompatible type.List, Set, and Queue are a collection of similar kind of objects but just values whereas a  Map is a collection of key and value pairs.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -58,8 +58,8 @@ Because they are of an incompatible type.List, Set, and Queue are a collection o
 -This method removes the current element from Iterator's perspective.If you use Collection's or List's `remove()` method during iteration then your code will throw `ConcurrentModificationException`.
 - That's why it's advised to use the iterator `remove()` method to remove objects from Collection.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -72,8 +72,8 @@ Because they are of an incompatible type.List, Set, and Queue are a collection o
 
 HashSet extends `AbstractSet` and implements the Set interface.It creates a collection that uses a hash table for storage.A hash table stores information by using a mechanism called hashing.In hashing, the informational content of a key is used to determine a unique value, called its hash code.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -86,8 +86,8 @@ HashSet extends `AbstractSet` and implements the Set interface.It creates a coll
 
 When we create an object of HashSet, it internally creates an instance of HashMap with default initial capacity 16.HashSet uses a constructor `HashSet(int capacity)` that represents how many elements can be stored in the HashSet.The capacity may increase automatically when more elements are to be stored
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -100,8 +100,8 @@ When we create an object of HashSet, it internally creates an instance of HashMa
 
 Though ArrayList is also backed up by array, it offers some usability advantage over array in Java.Array is fixed length data structure, once created you can not change it's length.On the other hand,ArrayList is dynamic, it automatically allocate a new array and copies content of old array, when it resize.Another reason of using ArrayList over Array is support of Generics.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -116,8 +116,8 @@ Though ArrayList is also backed up by array, it offers some usability advantage 
     - It is an implementation of the List and Deque interfaces.Internally, it is implemented using Doubly Linked List Data Structure.It supports duplicate elements.
     - It stores or maintains elements in Insertion order.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -140,8 +140,8 @@ Though ArrayList is also backed up by array, it offers some usability advantage 
     - It consists of only static methods which are used to operate on objects of type Collection.
     -  `Collections.max()`, `Collections.min()`, `Collections.sort()` are some methods of Collections class.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -154,8 +154,8 @@ Though ArrayList is also backed up by array, it offers some usability advantage 
 
 We should prefer String, Integer, Long, Double, Float, Short and any other wrapper class.Reason behind using them as a key is that they override `equals()` and `hashCode()` method, we need not to write any explicit code for overriding `equals()` and `hashCode()` method in java.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -170,8 +170,8 @@ We should prefer String, Integer, Long, Double, Float, Short and any other wrapp
 - We will now call Collections class `sort()` method and pass the list as an argument, that is,
 `Collections.sort(stdList)`
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -184,8 +184,8 @@ We should prefer String, Integer, Long, Double, Float, Short and any other wrapp
 
 `Collections.sort()` uses the Merge sort algorithm to sort the objects.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -198,8 +198,8 @@ We should prefer String, Integer, Long, Double, Float, Short and any other wrapp
 
 If we try to insert two values for the same key, the second value will be stored, while the first one will be dropped.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -212,8 +212,8 @@ If we try to insert two values for the same key, the second value will be stored
 
 The ArrayList in java does not provide checks for duplicate references to the same object.Therefore, we can insert the same object or reference to a single object as many times as we want.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -226,8 +226,8 @@ The ArrayList in java does not provide checks for duplicate references to the sa
 
 If the frequent operation is retrieval the ArrayList for the othercase LinkedList.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -243,8 +243,8 @@ If the frequent operation is retrieval the ArrayList for the othercase LinkedLis
 - Enumeration:  `hasMoreElement()` ,  `nextElement ()`
 - Iterator:  `hasNext()` ,  `next()` ,  `remove()`
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -259,8 +259,8 @@ If the frequent operation is retrieval the ArrayList for the othercase LinkedLis
 - No, TreeSet does not allows to store any null keys.Any attempt to add null throws `runtimeException (NullPointerException)`.
 - TreeSet internally compares elements for sorting elements by natural order (comparator may be used for sorting, if defined at creation time) and null is not comparable, Any attempt to compare null with other object will throw `NullPointerException`.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -280,7 +280,7 @@ If the frequent operation is retrieval the ArrayList for the othercase LinkedLis
         listIterator.previous();
     }
 ```
-</blockquote  markdown="1">
+</blockquote>
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -291,7 +291,7 @@ If the frequent operation is retrieval the ArrayList for the othercase LinkedLis
 
 infinite times
 
-</blockquote  markdown="1">
+</blockquote>
 
 <blockquote markdown="1">
 
@@ -299,9 +299,9 @@ infinite times
 
 ArrayList provides a listIterator for traversing in forward and backward directions, so the  program will compile and run infinitely.
 
-</details markdown="1">
+</details>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -316,8 +316,8 @@ ArrayList provides a listIterator for traversing in forward and backward directi
 and make sure they follow their contract.On the other hand, if you are storing a custom object in the  Sorted Collection 
 - e.g.SortedSet or SortedMap, you also need to make sure that your `equals()` method is consistent to `compareTo()` method, otherwise that collection will not follow their contacts e.g.Set may allow duplicates.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -331,8 +331,8 @@ and make sure they follow their contract.On the other hand, if you are storing a
 - BlockingQueue is a java Queue that support operations that wait for the queue to become non-empty when retrieving and removing an element, and wait for space to become available in the queue when adding an element.
 - Producer-consumer problem is a best example of BlockingQueue.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -346,8 +346,8 @@ and make sure they follow their contract.On the other hand, if you are storing a
 - Fail-fast Iterators throw `ConcurrentModificationException` when one thread is iterating over the collection object and another thread structurally modifies the Collection either by adding, removing, or modifying objects on the underlying collection.
 - They are called fail-fast because they try to immediately throw Exceptions when they encounter failure.- On the other hand, fail-safe Iterators works on a copy of the collection instead of the original collection
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -360,8 +360,8 @@ and make sure they follow their contract.On the other hand, if you are storing a
 
 TreeSet is the best suitable for such scenarios where you want a collection of objects with no duplicates and also sorted based on a particular data field.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -376,8 +376,8 @@ The Vector class is preferred over ArrayList class when you are developing a mul
 But, precautions need to be taken because vector may reduce the performance of your application as it is 
 Thread-safe and only one thread is allowed to have an object lock at any moment of time and the remaining threads have to wait until a thread releases the object lock.So, it is always recommended that if you don’t need thread safe environment, it is better the to use ArrayList class than the Vector class.And also Vector class is often considered as obsolete or “Due for Deprecation” by many experienced Java developers.They always recommend and advise not to the use Vector class in your code.They prefer using ArrayList over Vector class.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -390,8 +390,8 @@ Thread-safe and only one thread is allowed to have an object lock at any moment 
 
 We can use `reverseorder()` like `Collections.sort(arraylist, Collections.reverseOrder()`;  
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -415,7 +415,7 @@ We can use `reverseorder()` like `Collections.sort(arraylist, Collections.revers
     System.out.println("\n");
 ```
 
-</blockquote  markdown="1">
+</blockquote>
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -426,7 +426,7 @@ We can use `reverseorder()` like `Collections.sort(arraylist, Collections.revers
 	
 2 5 12 15 23 25
 
-</blockquote  markdown="1">
+</blockquote>
 
 
 <details markdown="1"> <summary> <b> Explanation </b> </summary>
@@ -434,9 +434,9 @@ We can use `reverseorder()` like `Collections.sort(arraylist, Collections.revers
 
 Priority queue always outputs the minimum element from the queue when the `remove()` method is called, no matter what the sequence of input is.
 
-</blockquote  markdown="1">
-</details markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
+</details>
 	
 ---
 
@@ -452,8 +452,8 @@ Priority queue always outputs the minimum element from the queue when the `remov
 - List(String) stringList;
 - objectList = stringList; **compilation error**
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -468,8 +468,8 @@ Priority queue always outputs the minimum element from the queue when the `remov
 - Generics support programming types as parameters.
 - Generics enable us to implement generic algorithms
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -482,8 +482,8 @@ Priority queue always outputs the minimum element from the queue when the `remov
 
 Since String is immutable, its hashcode is cached at the time of creation and it doesn’t need to be calculated again.This makes it a great candidate for keys in a Map and its processing is fast than other HashMap key objects.Therefore,String is mostly used Object as HashMap keys.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -496,8 +496,8 @@ Since String is immutable, its hashcode is cached at the time of creation and it
 
 We can use `Collections.unModifiableList()` method to create a read-only List,`Collections.unmodifiableSe()`for creating a read-only Set like a read-only HashSet and similarly creating a read-only Map in Java.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -512,8 +512,8 @@ We can use `Collections.unModifiableList()` method to create a read-only List,`C
 - The queue has the ability to also act as a buffer to store the elements for a temporary time.
 - Whereas Stack’s best use is to perform prefix, postfix, and infix operations in the Tree.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -526,8 +526,8 @@ We can use `Collections.unModifiableList()` method to create a read-only List,`C
 
 The collision problem is, whenever the hash function returns the same index position for a different key, then a collision occurs.The collision detection technique is also called collision detection.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -543,8 +543,8 @@ The collision problem is, whenever the hash function returns the same index posi
 - That’s why we can’t add a null element to TreeSet, it will come up with the `NullPointerException`
  every time you try to do that.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -560,8 +560,8 @@ There are two ways to remove duplicates from the ArrayList.
 - **Using HashSet**: By using HashSet we can remove the duplicate element from the ArrayList, but it will not then preserve the insertion order.
 - **Using LinkedHashSet**: We can also maintain the insertion order by using LinkedHashSet instead of HashSet.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -575,8 +575,8 @@ There are two ways to remove duplicates from the ArrayList.
 - No, Map does not implement Iterable interface, only Collection ( thus , list and set ) do , so the Collection implements iterable \<E\> , make the set and the list iteratble.
 - The Map can't be iterable only the key part can be iterable 
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -597,7 +597,7 @@ There are two ways to remove duplicates from the ArrayList.
             }
         }
 ```
-</blockquote  markdown="1">
+</blockquote>
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -609,7 +609,7 @@ There are two ways to remove duplicates from the ArrayList.
 2<br>
 {null=null, 11=a} 
 
-</blockquote  markdown="1">
+</blockquote>
 
 
 <details markdown="1"> <summary> <b> Explanation </b> </summary>
@@ -617,9 +617,9 @@ There are two ways to remove duplicates from the ArrayList.
 
 HashMap does not maintains insertion order of keys, and allows one null key and many null values.
 
-</blockquote  markdown="1">
-</details markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
+</details>
 
 ---
 
@@ -641,7 +641,7 @@ HashMap does not maintains insertion order of keys, and allows one null key and 
     }
 ```
 
-</blockquote  markdown="1">
+</blockquote>
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -652,7 +652,7 @@ HashMap does not maintains insertion order of keys, and allows one null key and 
  
 [null, 1, 1, null]
 
-</blockquote  markdown="1">
+</blockquote>
 
 
 <details markdown="1"> <summary> <b> Explanation </b> </summary>
@@ -660,9 +660,9 @@ HashMap does not maintains insertion order of keys, and allows one null key and 
 
 HashSet does not store duplicates but “1” is a String, while 1 is Integer & null is nothing, while “null” is a String .Also HashSet does not maintain insertion order and allows null.
 
-</blockquote  markdown="1">
-</details markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
+</details>
 
 ---
 
@@ -683,7 +683,7 @@ HashSet does not store duplicates but “1” is a String, while 1 is Integer & 
         }
     }
 ```
-</blockquote  markdown="1">
+</blockquote>
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -694,7 +694,7 @@ HashSet does not store duplicates but “1” is a String, while 1 is Integer & 
  
 [1, 1, 3, 2]
 
-</blockquote  markdown="1">
+</blockquote>
 
 
 <details markdown="1"> <summary> <b> Explanation </b> </summary>
@@ -702,9 +702,9 @@ HashSet does not store duplicates but “1” is a String, while 1 is Integer & 
 
 LinkedHashSet maintains insertion order and does not allow duplicates.
 
-</blockquote  markdown="1">
-</details markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
+</details>
 
 ---
 
@@ -721,7 +721,7 @@ LinkedHashSet maintains insertion order and does not allow duplicates.
         }
     }
 ```
-</blockquote  markdown="1">
+</blockquote>
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -732,7 +732,7 @@ LinkedHashSet maintains insertion order and does not allow duplicates.
  
 {a=audi, a=ferrari}
 
-</blockquote  markdown="1">
+</blockquote>
 
 
 <details markdown="1"> <summary> <b> Explanation </b> </summary>
@@ -743,9 +743,9 @@ LinkedHashSet maintains insertion order and does not allow duplicates.
 k2==null : k1.equals(k2).) 
 - new String("a") & new String("a") are different by reference.
 
-</blockquote  markdown="1">
-</details markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
+</details>
 
 ---
 
@@ -759,8 +759,8 @@ k2==null : k1.equals(k2).)
 To use any object as a key in HashMap, it needs to implement `equals()` and `hashCode()` methods.
 
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -774,8 +774,8 @@ To use any object as a key in HashMap, it needs to implement `equals()` and `has
 
 `Collections.emptySet()` returns the empty immutable Set ,not containing null.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -795,8 +795,8 @@ Advantages of using `emptySet()` method over creating an object using a construc
 
 3.Efficient: As `emptySet()` method doesn’t create new objects, so they just reuse the existing empty and immutable object .Although, practically, this trick is not that handy, and rarely improves the performance
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -813,8 +813,8 @@ deep copy and shallow copy.
 in `clone()` method , the elements themselves are not cloned .
 - In other words , a shallow copy is made by copying the reference of the object.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -828,8 +828,8 @@ in `clone()` method , the elements themselves are not cloned .
 - A good way to sort Java collection objects is using Comparable and Comparator interfaces.A developer can use `Collections.sort()`, the elements are sorted based on the order mention in `compareTo()`.
 - When a developer uses Collections, `sort (Comparator)`, it sorts the objects depend on `compare()` of the Comparator interface.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -842,8 +842,8 @@ in `clone()` method , the elements themselves are not cloned .
 
 Java Generics is a set of related methods or a set of similar types.Generics allow types Integer, String, or even user-defined types to be passed as a parameter to classes, methods, or interfaces.Generics are mostly used by classes like HashSet or HashMap.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -856,8 +856,8 @@ Java Generics is a set of related methods or a set of similar types.Generics all
 
 The Collection API is a set of classes and interfaces that support operation on collections of objects.These classes and interfaces are more flexible, more powerful, and more regular than the vectors, arrays, and hashtables if effectively replaces.Example of classes: HashSet, HashMap, ArrayList, LinkedList, TreeSet and TreeMap.Example of interfaces: Collection, Set, List and Map.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -885,8 +885,8 @@ The Collection API is a set of classes and interfaces that support operation on 
 - HashMap permits single null key and any number of null values.
 - HashMap is not synchronized which means they are not suitable for thread-safe operations until unless synchronized explicitly.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -901,8 +901,8 @@ The Collection API is a set of classes and interfaces that support operation on 
 
 - HashSet does not maintain any order of elements while TreeSet elements are sorted in ascending order by default.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -922,8 +922,8 @@ ArrayList and LinkedList both implements List interface and maintains insertion 
 | 03.|An ArrayList class can act as a list only because it implements List only.|	LinkedList class can act as a list and queue both because it implements List and Deque interfaces.|
 | 04.| ArrayList is better for storing and accessing data.|LinkedList is better for manipulating data.|
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -947,8 +947,8 @@ HashMap and Hashtable both are used to store data in key and value form.Both are
 | 07.|Iterator in HashMap is fail-fast.	|Enumerator in Hashtable is not fail-fast.       |
 | 08.|HashMap inherits AbstractMap class.	|Hashtable inherits Dictionary class.            |
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -969,7 +969,7 @@ Comparable and Comparator both are interfaces and can be used to sort collection
 |4) Comparable is present in java.lang package.|A Comparator is present in the java.util package.|
 5) We can sort the list elements of Comparable type by Collections.sort(List) method.|We can sort the list elements of Comparator type by Collections.sort(List, Comparator) method.|
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---

@@ -10,9 +10,9 @@
 
 Microsoft Azure is a set of cloud services that help your organization to meet your business requirements.You can build, manage, and deploy different applications with the help of different frameworks and tools using Azure.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -31,9 +31,9 @@ There are many reasons and benefits to choosing Azure.All solutions are in one p
 - Once the development and testing will over for a particular application, we can use Azure to host the application.
 - We can create a virtual machine (VM) for all the activities.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -47,9 +47,9 @@ There are many reasons and benefits to choosing Azure.All solutions are in one p
 
 Azure Portal is a single portal or a single place where you are accessing and managing all your applications.It helps to build, manage, and monitor your simple web applications to complex cloud applications using a single portal.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -63,9 +63,9 @@ Azure Portal is a single portal or a single place where you are accessing and ma
 
 PaaS is a development and deployment model to support the complete web application life cycle of building, testing, deploying, managing, and updating the application.Azure is a Platform As A Service (Paas).
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -79,9 +79,9 @@ PaaS is a development and deployment model to support the complete web applicati
 
 Different web applications like .Net, PHP, WCF, Java, etc.are supported in Azure.Multiple languages are supported in Azure.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -95,9 +95,9 @@ Different web applications like .Net, PHP, WCF, Java, etc.are supported in Azure
 
 SQL Azure is the cloud-based relational database that is offered by Microsoft.The service is based on SQL server technology, and it is used in a Microsoft data centre that is hardware owned and maintained by Microsoft.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -111,9 +111,9 @@ SQL Azure is the cloud-based relational database that is offered by Microsoft.Th
 
 If the SQL Azure database will reach the max size, data read or fetch operations will still work on it but create, insert, or update operations will stop with it.You can choose to drop, delete, or truncate the data in this condition.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -129,9 +129,9 @@ In SQL Azure, SSL connections are only supported.
 
 `SET encryption = TRUE`
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -150,9 +150,9 @@ Microsoft Azure provides three different types of Azure SQL models as below,
 **Managed Instance**: This model is targeted for migration activities from On-premises to the cloud environment.
 Elastic pool: This model helps to reduce costs by sharing the same resources with a group of standalone databases.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -166,9 +166,9 @@ Elastic pool: This model helps to reduce costs by sharing the same resources wit
 
 Security is one of the main concerns at the present time in the IT sector.SQL Azure Firewall is used as a security mechanism that will work to block the requests based on the IP address.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -182,9 +182,9 @@ Security is one of the main concerns at the present time in the IT sector.SQL Az
 
 In the single SQL Azure server, it is possible to create 150 databases that will include a master database as well.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -198,9 +198,9 @@ In the single SQL Azure server, it is possible to create 150 databases that will
 
 SQL Azure services will allow you to block the request that will be based on an IP address by using the SQL Azure firewall.It will use the SQL server authentication process that will authenticate the connections.By default, SQL Azure connections are SSL encrypted.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -214,9 +214,9 @@ SQL Azure services will allow you to block the request that will be based on an 
 
 If we want to migrate from the SQL server to SQL Azure, we can use SSIS or BCP.For the schema migration, generate script wizard will be used and we can also use the tool named SQL Azure Migration Wizard for it.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -232,9 +232,9 @@ It is possible to use No code solution named DATA SYNC to sync SQL Azure with an
 
 SQL Azure allows users to run their SQL server workloads as a hosted service (PaaS).
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -248,9 +248,9 @@ SQL Azure allows users to run their SQL server workloads as a hosted service (Pa
 
 Backup is important to handle the issues of hardware and 3 database replicas are used in SQL Azure for backup.For the errors based on the user level, the COPY command is used for the creation of the SQL Azure database replica.It is also possible to back up the data of SQL Azure to any local SQL server with the use of SSIS, BCP etc.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -268,9 +268,9 @@ Backup is important to handle the issues of hardware and 3 database replicas are
 - Enables users to have their own database, access other databases, and share database.
 - Benefits users by offering low-cost cloud resources on-demand basis and release when done.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -284,9 +284,9 @@ Backup is important to handle the issues of hardware and 3 database replicas are
 
 To improve the performance of SQL Azure databases, you can tune the database by using the information from the execution plan as well as statistics of the query.It is possible to use dynamic management views of SQL Azure for the monitoring and management of the SQL Azure database.Network latency and bandwidth also affect the performance of the SQL Azure database so it can be used to improve the performance.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -300,9 +300,9 @@ To improve the performance of SQL Azure databases, you can tune the database by 
 
 SQL Azure is a cloud-based service and so it has its own set of pros and cons when compared to SQL servers.SQL Azure service benefits include on-demand provisioning, high availability, reduced management overhead and scalability.But SQL Azure abstracts some details from the subscriber which can be good or bad which depends on the context of the need.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -316,9 +316,9 @@ SQL Azure is a cloud-based service and so it has its own set of pros and cons wh
 
 For each database, three replicas are maintained for each database that one provisions.One of them is a primary replica.All read/write happens on the primary replica and other replicas are kept in sync with the primary replica.If for some reason, the primary goes down, another replica is promoted to primary.All this happens under the hood.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -333,9 +333,9 @@ For each database, three replicas are maintained for each database that one prov
 - It is a technique for partitioning large data sets, which improves performance and scalability.
 - It also enables distributed querying of data across multiple tenants.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -349,9 +349,9 @@ For each database, three replicas are maintained for each database that one prov
 
 Code near application topology means that the SQL Azure database and the windows azure hosted service consuming the data are hosted in the same Azure data center.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -365,9 +365,9 @@ Code near application topology means that the SQL Azure database and the windows
 
 All tables must have clustered indexes.We can't have a table without a clustered index.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -381,9 +381,9 @@ All tables must have clustered indexes.We can't have a table without a clustered
 
 As of now, we have to build a custom solution at the application level that can handle the scale out of underlying SQL Azure databases.But Microsoft has announced, SQL Azure Federations that will assist in scaling out of SQL Azure databases.And scale-out means that we are splitting the data into smaller subsets spread across multiple databases.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -408,9 +408,9 @@ In this example,
 - `<DistributionType>` is the distribution data type that data will be sharded on.
 - The valid distribution data types are int, bigint, uniqueidentifier and varbinary (up to 900).
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 

@@ -15,9 +15,9 @@
 
 
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -37,9 +37,9 @@
 	Elastic Beans Talk: It provides services to deploy a different application which is available in different platforms or languages like java, nodejs etc..
 
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -56,9 +56,9 @@
 - AWS uses public key cryptography to encrypt and decrypt the login information.In public key cryptography, the public key is used to encrypt the information on the receiver's side, a private key is used to decrypt the information.The combination of a public key and the private key is known as a key-pairs.Key pairs allow you to access the instances securely.
 
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -75,9 +75,9 @@
 - By default, you can create up to 100 buckets.
 
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -94,9 +94,9 @@
 - Cross Region Replication is a service available in aws that enables to replicate of the data from one bucket to another bucket which could be in the same or different region.It provides asynchronous copying of objects, i.e., objects are not copied immediately.
 
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -114,9 +114,9 @@
 - Availability zones: An Availability zone is a data centre that can be somewhere in the country or city.Data centres can have multiple servers, switches, firewalls, and load balancing.The things through which you can interact with the cloud reside inside the Datacenter.
  
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -133,9 +133,9 @@
 - The minimum size of an object that you can store in S3 is 0 bytes and the maximum size of an object that you can store in S3 is 5 TB.
  
  
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -160,9 +160,9 @@ It makes the scaling plans that automate how different resources respond to the 
 Auto Scaling automatically optimizes the application performance and availability even when the workloads are unpredictable.It continuously monitors your application to maintain the desired performance level.When demand rises, then Auto Scaling automatically scales the resources.
 
  
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -179,9 +179,9 @@ Auto Scaling automatically optimizes the application performance and availabilit
 - AMI stands for Amazon Machine Image.It is a virtual image used to create a virtual machine within an EC2 instance.
 
  
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -198,9 +198,9 @@ Auto Scaling automatically optimizes the application performance and availabilit
 - Yes, an AMI can be shared.
 
  
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -221,9 +221,9 @@ ACL is used to manage the access of resources to buckets and objects.An object o
 Bucket policies are only applied to S3 buckets.Bucket policies define what actions are allowed or denied.Bucket policies are attached to the bucket, not to an S3 object but the permissions defined in the bucket policy are applied to all the objects in the S3 bucket.
 
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -248,9 +248,9 @@ AWS supports six types of policies:
 -	Session policies
 
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -267,9 +267,9 @@ AWS supports six types of policies:
 - The default storage class is Standard Frequently Accessed.
 
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -288,9 +288,9 @@ AWS supports six types of policies:
 - Terminating: You can also terminate the EC2 instance and terminating an instance means you are removing the instance from your AWS account.When you terminate an instance, then its corresponding EBS is also removed.Due to this reason, you cannot restart the EC2 instance.
 
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -307,9 +307,9 @@ AWS supports six types of policies:
 - 5 elastic IP addresses that you can create per AWS account per region.
 
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -326,9 +326,9 @@ AWS supports six types of policies:
 - A load Balancer is a virtual machine that balances your web application load which could be Http or Https traffic that you are getting in.It balances a load of multiple servers so that no web server gets overwhelmed.
 
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -351,9 +351,9 @@ AWS supports six types of policies:
     -	SQL Server
 
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -381,9 +381,9 @@ Latent-based Routing Policy allows Route53 to respond to the DNS query at which 
     -	Geolocation Routing Policy etc.
 
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -404,8 +404,8 @@ If the user wants to use the Console Access, a user needs to create a password t
     - 	Programmatic access
 If you use the Programmatic access, an IAM user needs to make API calls.An API call can be made by using the AWS CLI.To use the AWS CLI, you need to create an access key ID and secret access key.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------

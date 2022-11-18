@@ -9,8 +9,8 @@
 - Log4j has been ported to the C, C++, C#, Perl, Python, Ruby, and Eiffel languages.
 - Log4j is highly configurable through external configuration files at runtime.It views the logging process in terms of levels of priorities and offers mechanisms to direct logging information to a great variety of destinations, such as a database, file, console, UNIX Syslog, etc.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -26,8 +26,8 @@ Log4j has three main components −
 - appenders: Responsible for publishing logging information to various preferred destinations.
 - layouts: Responsible for formatting logging information in different styles.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -43,8 +43,8 @@ Log4j has three main components −
 - Object Renderer
 - Log Manager
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -63,8 +63,8 @@ Following are features of log4j −
 - It supports internationalization.
 - It is not restricted to a predefined set of facilities.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -80,7 +80,7 @@ Following are features of log4j −
 - Since logging is rarely the main focus of an application, the log4j API strives to be simple to understand and to use.
 
 </blockcode>
-</details markdown="1">
+</details>
 
 ---
 
@@ -95,8 +95,8 @@ Following are features of log4j −
 - You can easily save log information into either files or even databases.
 - Can be used for projects of any sizes small or large.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -109,8 +109,8 @@ Following are features of log4j −
 
 The top-level layer of log4j architecture is the Logger which provides the Logger object.The Logger object is responsible for capturing logging information and they are stored in a namespace hierarchy.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -124,8 +124,8 @@ The top-level layer of log4j architecture is the Logger which provides the Logge
 - The layout of log4j architecture provides objects which are used to format logging information in different styles.It provides support to appender objects before publishing logging information.
 - Layout objects play an important role in publishing logging information in a way that is human-readable and reusable.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -138,8 +138,8 @@ The top-level layer of log4j architecture is the Logger which provides the Logge
 
 This is a lower-level layer of log4j architecture which provides Appender objects.The Appender object is responsible for publishing logging information to various preferred destinations such as a database, file, console, UNIX Syslog, etc.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -152,8 +152,8 @@ This is a lower-level layer of log4j architecture which provides Appender object
 
 The Level object defines the granularity and priority of any logging information.There are seven levels of logging defined within the API: OFF, DEBUG, INFO, ERROR, WARN, FATAL, and ALL.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -166,8 +166,8 @@ The Level object defines the granularity and priority of any logging information
 
 The Filter object is used to analyze logging information and make further decisions on whether that information should be logged or not.An Appender objects can have several Filter objects associated with them.If logging information is passed to a particular Appender object, all the Filter objects associated with that Appender need to approve the logging information before it can be published to the attached destination.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -180,8 +180,8 @@ The Filter object is used to analyze logging information and make further decisi
 
 The ObjectRenderer object is specialized in providing a String representation of different objects passed to the logging framework.This object is used by Layout objects to prepare the final logging information.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -194,8 +194,8 @@ The ObjectRenderer object is specialized in providing a String representation of
 
 The LogManager object manages the logging framework.It is responsible for reading the initial configuration parameters from a system-wide configuration file or a configuration class.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -208,8 +208,8 @@ The LogManager object manages the logging framework.It is responsible for readin
 
 The log4j.properties file is a log4j configuration file which keeps properties in key-value pairs.By default, the LogManager looks for a file named log4j.properties in the CLASSPATH.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -222,8 +222,8 @@ The log4j.properties file is a log4j configuration file which keeps properties i
 
 Appender uses the Layout objects and the conversion pattern associated with them to format the logging information.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -236,8 +236,8 @@ Appender uses the Layout objects and the conversion pattern associated with them
 
 The target may be a console, a file, or another item depending on the appender.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -250,8 +250,8 @@ The target may be a console, a file, or another item depending on the appender.
 
 The level is required to control the filtration of the log messages.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -264,8 +264,8 @@ The level is required to control the filtration of the log messages.
 
 Appender can have a threshold level associated with it independent of the logger level.The Appender ignores any logging messages that have a level lower than the threshold level.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -278,8 +278,8 @@ Appender can have a threshold level associated with it independent of the logger
 
 The Filter objects can analyze logging information beyond level matching and decide whether logging requests should be handled by a particular Appender or ignored.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -297,8 +297,8 @@ log = /usr/home/log4j
 log4j.rootLogger = DEBUG, FILE
 ```
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -315,8 +315,8 @@ Following syntax defines a file appender −
 log4j.appender.FILE=org.apache.log4j.FileAppender
 log4j.appender.FILE.File=${log}/log.out
 ```
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -335,8 +335,8 @@ log4j.appender.FILE.layout=org.apache.log4j.PatternLayout
 log4j.appender.FILE.layout.conversionPattern=%m%n
 ```
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -355,8 +355,8 @@ log4j.appender.FILE.layout.conversionPattern=%m%n
 - Fatal
 - Off
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -369,8 +369,8 @@ log4j.appender.FILE.layout.conversionPattern=%m%n
 
 DEBUG − Designates fine-grained informational events that are most useful to debug an application.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -383,8 +383,8 @@ DEBUG − Designates fine-grained informational events that are most useful to d
 
 ERROR − Designates error events that might still allow the application to continue running.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -397,8 +397,8 @@ ERROR − Designates error events that might still allow the application to cont
 
 FATAL − Designates very severe error events that will presumably lead the application to abort.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -411,8 +411,8 @@ FATAL − Designates very severe error events that will presumably lead the appl
 
 INFO − Designates informational messages that highlight the progress of the application at coarse-grained level.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -425,8 +425,8 @@ INFO − Designates informational messages that highlight the progress of the ap
 
 OFF − The highest possible rank and is intended to turn off logging.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -439,8 +439,8 @@ OFF − The highest possible rank and is intended to turn off logging.
 
 TRACE − Designates finer-grained informational events than the DEBUG.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -453,8 +453,8 @@ TRACE − Designates finer-grained informational events than the DEBUG.
 
 WARN − Designates potentially harmful situations.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -467,8 +467,8 @@ WARN − Designates potentially harmful situations.
 
 A log request of level p in a logger with level q is enabled if p >= q.This rule is at the heart of log4j.It assumes that levels are ordered.For the standard levels, we have ALL < DEBUG < INFO < WARN < ERROR < FATAL < OFF.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -486,8 +486,8 @@ log = /usr/home/log4j
 log4j.rootLogger = WARN, FILE
 ```
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -503,8 +503,8 @@ Any other named Logger object instance is obtained through the second method by 
 ```Java
 static Logger log = Logger.getLogger(log4jExample.class.getName();
 ```
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -517,8 +517,8 @@ static Logger log = Logger.getLogger(log4jExample.class.getName();
 
 `public void debug(Object message)` of Logger class prints messages with the level `Level.DEBUG`.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -531,8 +531,8 @@ static Logger log = Logger.getLogger(log4jExample.class.getName();
 
 `public void error(Object message)` of Logger class prints messages with the level `Level.ERROR`.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -545,8 +545,8 @@ static Logger log = Logger.getLogger(log4jExample.class.getName();
 
 `public void fatal(Object message)` of Logger class prints messages with the level `Level.FATAL`.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -559,8 +559,8 @@ static Logger log = Logger.getLogger(log4jExample.class.getName();
 
 `public void info(Object message)` of Logger class prints messages with the level `Level.INFO`.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -573,8 +573,8 @@ static Logger log = Logger.getLogger(log4jExample.class.getName();
 
 `public void warn(Object message)` of Logger class prints messages with the level `Level.WARN`.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -587,8 +587,8 @@ static Logger log = Logger.getLogger(log4jExample.class.getName();
 
 `public void trace(Object message)` of Logger class prints messages with the level `Level.TRACE`.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -604,8 +604,8 @@ Some of the Appenders type include
 - `FileAppender` prints logs to some file
 - `Rolling file` appender to a file with maximum size
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -621,8 +621,8 @@ The two static methods for obtaining a logger object are
 - `Public static Logger getRootLogger()`
 - `Public static Logger getLogger(String name)`
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -635,8 +635,8 @@ The two static methods for obtaining a logger object are
 
 Log4j file is defined by the name `log4j.properties`, it keeps properties in key-value pairs.By default, the log manager looks for a file name `log4j.properties` in the CLASSPATH.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -649,8 +649,8 @@ Log4j file is defined by the name `log4j.properties`, it keeps properties in key
 
 To write your logging information into a file, you would need to use a command `org.apache.log4j.FileAppender`.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -665,8 +665,8 @@ Logger class provides a variety of methods to handle logging activities.To obtai
 `Public static logger getRootLogger();`
 `Public static logger getLogger(String name);`
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -679,8 +679,8 @@ Logger class provides a variety of methods to handle logging activities.To obtai
 
 The log4j API provides the object `org.apache.log4j.jdbc`.JDBCAppender object can put logging information in a particular database.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -693,8 +693,8 @@ The log4j API provides the object `org.apache.log4j.jdbc`.JDBCAppender object ca
 
 Yes, you can extend the layout class to create your own customized log format.Appenders can be parameterized to use the layout of your choice.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -712,8 +712,8 @@ The system properties checked by log4j are
 - **configurationClass**, Class name for configurator to execute default initialization configuration file.
 - **ignoreTCL**, if true, the thread class loader will be overlooked when loading classes.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -726,8 +726,8 @@ The system properties checked by log4j are
 
 We may have each process log to a socket Appender.The receiving socket server can receive all the events and send them to a single log file.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -740,8 +740,8 @@ We may have each process log to a socket Appender.The receiving socket server ca
 
 Both Threshold and LevelRangeFilter does the same thing.However, threshold should be faster.Filters enable you to implement your own logic, and you can also link them together if required.If you need a basic threshold functionality, then **threshold** function will be enough.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -758,8 +758,8 @@ For example,
 logger.getlogget (Myclass.class)
 ```
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -774,8 +774,8 @@ logger.getlogget (Myclass.class)
 
 - The PatternLayout class extends the abstract `org.apache.log4j.Layout` class and overrides the `format()` method to structure the logging information according to a supplied pattern.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -788,8 +788,8 @@ logger.getlogget (Myclass.class)
 
 Package level logging is the standard logging of log4j, with this you would determine the package and the associated level.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -802,8 +802,8 @@ Package level logging is the standard logging of log4j, with this you would dete
 
 Log4j level WARN gives a warning about an unpredicted event to the user.The messages coming out of this level may not stop the progress of the system.The TRACE level provides more detailed information than the DEBUG level, and it will stay on the top of the hierarchy.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -821,8 +821,8 @@ The format characters used in log4j are
 - **C**- It is used to output the class name of the caller issuing the logging request
 - When any number is used along with the character it means the priority of the logging event should be justified to a width of 4 characters.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -835,8 +835,8 @@ The format characters used in log4j are
 
 The best way to migrate from `java.util`  logged to log4j is to use global file search/replace method.It will replace with `org.apache.log4j.Logger`.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -851,8 +851,8 @@ There could be two reasons why this may happen:
 - Repeated configuration of log4j.
 - Attaching the same appenders to multiple loggers.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -865,8 +865,8 @@ There could be two reasons why this may happen:
 
 By changing the Root Level within Log4j config.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -894,8 +894,8 @@ By changing the Root Level within Log4j config.
 
 We should change the root level from DEBUG to WARN.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -917,8 +917,8 @@ WARN, DEBUG,INFO, ERROR	Log4j
     - Root Log level of WARN will print WARN and ERROR
     - Root Log level of ERROR will print ERROR alone
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -931,7 +931,7 @@ WARN, DEBUG,INFO, ERROR	Log4j
 
 It depends on how severe the exception is.If the exception is completely unexpected and breaks the request, It should be logged as ERROR or FATAL.If it's not expected but we can live with it and the application request continue in-spite of it, It should be WARN.If it's expected , it can be just INFO.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---

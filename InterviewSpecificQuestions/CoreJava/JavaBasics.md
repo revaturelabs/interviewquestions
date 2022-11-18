@@ -8,8 +8,8 @@
 
 Java is one of the most popular high level programming languages.For example, its used to create mobile application like Netflix, Twitter, Spotify, and many more.Also, used in the server applications.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 --- 
 
@@ -29,8 +29,8 @@ Java is one of the most popular high level programming languages.For example, it
     - javac - Java compiler translates java source code into byte code.
 
  
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 --- 
 
@@ -48,8 +48,8 @@ Java is one of the most popular high level programming languages.For example, it
 - To execute any Java application, you need JRE installed in the machine.It’s the minimum requirement to run Java applications on any computer.
 
  
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 --- 
 
@@ -65,8 +65,8 @@ Java is one of the most popular high level programming languages.For example, it
 - JVM - **J**ava **V**irtual **M**achine 
 - JVM interprets the byte code into the machine code and execute it.
  
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 --- 
 
@@ -86,8 +86,8 @@ Java is one of the most popular high level programming languages.For example, it
 
 ![image](https://user-images.githubusercontent.com/70228962/193740634-fbaf769e-ad53-45bd-86fb-36983e754ecc.png)
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 --- 
 
@@ -108,8 +108,8 @@ Access modifiers allow us to set the scope or accessibility, or visibility of a 
 
 Private is more protective.When the methods or data members declared as private, then we can access them only within the class in which they are declared.
  
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 --- 
 
@@ -130,8 +130,8 @@ Non-access modifiers define the behavior of the entities to the JVM, used with c
 - abstract
 - synchronized
  
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 --- 
 
@@ -149,8 +149,8 @@ There are two kinds of memory used in Java:
 - **Stack memory** stores primitive types and the addresses of objects.
 - **Heap memory** stores the value of the object.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 --- 
 
@@ -165,8 +165,8 @@ There are two kinds of memory used in Java:
  
  Garbage collection is the process of looking at heap memory, identifying which objects are in use and which are not, and deleting the unused objects.
  
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 --- 
 
@@ -181,8 +181,8 @@ There are two kinds of memory used in Java:
 
 Whenever an object is created, it's always stored in the Heap memory and stack memory contains the reference of it.
  
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 --- 
 
@@ -211,8 +211,8 @@ public class Test {
 ```
 
  
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 --- 
 
@@ -231,8 +231,8 @@ public class Test {
 | Local variables are declared inside a method or a block.                 | Instance variables are declared inside a class, but outside a method.|
 | Local variables are visible only in the method or block they are declared.| Instance variables can been seen by all methods in the class.       |
  
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 --- 
 
@@ -251,8 +251,8 @@ Variables can be defined as having one of three types of scope:
 - **Method level scope or Local scope** (local variables): Any variable declared within a method and arguments is only accessible inside that method.
 - **Block scope** (loop variables): Any variable declared in a for loop condition is not accessible after the loop, unless you defined it beforehand.
  
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 --- 
 
@@ -272,8 +272,8 @@ Variables can be defined as having one of three types of scope:
 - We can use the class name to call them with respect to the access modifier.
 - If we use the object name to call the static method or variable, the compiler will replace the name of the object with class.
  
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 --- 
 
@@ -301,8 +301,8 @@ Final Class     ---> Prevents Inheritance
 ```
 
  
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 --- 
 
@@ -324,8 +324,8 @@ Final Class     ---> Prevents Inheritance
 - `main` is a method name  
 - `String[] args` - Java main method accepts a single argument of type String array.This is also called as java command line arguments.
  
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 --- 
 
@@ -340,8 +340,8 @@ Final Class     ---> Prevents Inheritance
 
 If the main method won't be static, JVM would not be able to call it because there is no object of the class is present.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 --- 
 
@@ -361,8 +361,8 @@ If the main method won't be static, JVM would not be able to call it because the
 
 
  
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 --- 
 
@@ -376,9 +376,9 @@ If the main method won't be static, JVM would not be able to call it because the
 
 Yes, the program will execute successfully.Because, in Java, there is no specific rule for the order of specifiers
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -398,9 +398,9 @@ keyboard.
 
 `System.out` and `System.err` represent the monitor by default and can be used to send data or results to the monitor.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 
 ---
@@ -415,6 +415,6 @@ keyboard.
 
 No, A static method cannot access non-static variables or methods because static methods can be accessed without instantiating the class, so if the class is not instantiated the variables are not initialized and thus cannot be accessed from a static method.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>

@@ -8,7 +8,7 @@
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > `MongoDB`, by default, does not support primary and foreign key relationship.But we can achieve it by embedding one document inside another one.For example, embedding the 'city' document insthe ide 'address' document.
-</details markdown="1">
+</details>
 
 ---
 
@@ -19,7 +19,7 @@
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > `db.student.aggregate([{$group : {_id:null, Average_marks : {$avg : "marks"}}}])`.Here we are getting the average of the marks the field in student collection.
-</details markdown="1">
+</details>
 
 ---
 
@@ -30,7 +30,7 @@
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > `db.student.aggregate([{$group : {_id:null, Total_marks : {$sum : "marks"}}}])`.Here we are getting sum of the marks field in student collection.
-</details markdown="1">
+</details>
  
  ---
  
@@ -42,7 +42,7 @@
 
 > In `db.collection_name.find({ "school.student": "Jack"})` query, "school" is a outer document field and "student" is a inner document field.
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -57,7 +57,7 @@
 > 2.If any firewall is blocking your port connection, uninstall that firewall or try to connect from a different server.
 > 3.Must ensure that your MongoDB instance is running in the background.
 > 4.If server is shut down then, It will start the server again.
-</details markdown="1">
+</details>
  
 ---
 
@@ -73,7 +73,7 @@
 `mongorestore --db database_name path_of_file`  
 
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -84,7 +84,7 @@
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > It returns an object that contains information about the operation.It returns a `WriteResult` object when we insert a single document and `BulkWriteResult` object when we insert more than one document in a single insert query.
-</details markdown="1">
+</details>
 
 ---
 
@@ -95,7 +95,7 @@
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > The `_id` field is the default primary key in `MongoDB` and it is reserved, we cannot create any other primary key but, we can put the data that we want to be unique into the `_id` field of the document like `{"_id" : 01}`.
-</details markdown="1">
+</details>
 
 --- 
 
@@ -109,7 +109,7 @@
 use Company;
 db.createCollection("Department");
 ```
-</details markdown="1">
+</details>
 
 ---
 
@@ -123,7 +123,7 @@ db.createCollection("Department");
 use employee;
 db.emp.update({"name": "Jack"}, {$inc: {"salary": 1000}});
 ```
-</details markdown="1">
+</details>
 
 --- 
 
@@ -134,7 +134,7 @@ db.emp.update({"name": "Jack"}, {$inc: {"salary": 1000}});
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > The `update()` method is used to update the existing document values in MongoDB without creating a new document.Whereas, `save()` method is used to replace the existing document with the document passed in the `save()` method.
-</details markdown="1">
+</details>
 
 ---
 
@@ -149,7 +149,7 @@ db.emp.update({"name": "Jack"}, {$inc: {"salary": 1000}});
 ```
 db.collection_name.update({name:"Henry"}, {$set: {dept: "HR"}},{upsert:true});
 ```
-</details markdown="1">
+</details>
 
 ---
 
@@ -167,7 +167,7 @@ db.collection_name.update({name:"Henry"}, {$set: {dept: "HR"}},{upsert:true});
   {multi: true});
 ```
 Here address is the field that has to be added in all the documents.
-</details markdown="1">
+</details>
   
 --- 
 
@@ -184,7 +184,7 @@ db.emp.update({},
   {"age": 1}}, 
   {multi: true});
 ```
-</details markdown="1">
+</details>
 
 ---
 
@@ -198,7 +198,7 @@ db.emp.update({},
 ```
 db.emp.find({name: /A/});
 ```
-</details markdown="1">
+</details>
 
 ---
 
@@ -211,7 +211,7 @@ db.emp.find({name: /A/});
 > - The update() method can update multiple documents at a time, whereas the findAndModify() method, by default, can update a single document at a time. 
   
 > - The update() method does not return any document after updation, whereas the findAndModify() method returns the pre-modified document.
-</details markdown="1">
+</details>
 
 ---
 
@@ -229,7 +229,7 @@ db.emp.find({})
   .limit(5)
 ```
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -248,7 +248,7 @@ db.collection_name.find({
   ]
   });
 ```
-</details markdown="1">
+</details>
 
 ---
 19.What is the difference between findOneAndReplace() and findOneAndUpdate() in MongoDB?
@@ -259,7 +259,7 @@ db.collection_name.find({
 
 > The `findOneAndUpdate()` will update the fields of the document that are passed in the query.whereas the `findOneAndReplace()` will not only update the fields of the document that are passed in the query but also replaces or deletes the fields of the documents that are not passed to it in the query.
  
-</details markdown="1">
+</details>
 
 ---
 20.Differentiate between `findOneAndReplace()` and `replaceOne() in MongoDB?
@@ -269,7 +269,7 @@ db.collection_name.find({
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > Both `findOneAndReplace()` and `replaceOne()` in MongoDB is used to replace the document's fields based on filter criteria, but the main difference between both is that `findOneAndReplace()` returns a pre-modified document by default whereas `replaceOne()` doesn't return any document.
-</details markdown="1">
+</details>
 
 ---
 
@@ -284,7 +284,7 @@ db.collection_name.find({
 > 2.While doing the find(), we can use projection to select only those fields that are required in the result. 
 > 3.We can also use the limit() method to limit the data that we want in our result. 
 
-</details markdown="1">
+</details>
 
 ---
 22.Consider your documents have some array fields and you want to create an index on it.Is it possible in MongoDB? 
@@ -296,7 +296,7 @@ db.collection_name.find({
 > Yes, it is possible to create index on an array field.MongoDB automatically creates the multikey index for each value of an array.For example, let’s take an array field which holds the values as address : [ "NY", "MIAMI","TEXAS"], we can create an index on that field by writing:    
 `db.collection_name.createIndex({“address” : 1})`
 
-</details markdown="1">
+</details>
 
 ---
 23.What sort of practice you will take as a developer to increase the availability of data in MongoDB when there is a routine maintenance check or system failure?
@@ -309,7 +309,7 @@ db.collection_name.find({
 > -	We can distribute the data into different systems so, that if one system fails, we can get the data from other systems. 
 > -	We can also distribute the data into multiple servers of one system so that we can easily use the other server in case of downtime of one server. 
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -328,7 +328,7 @@ db.emp.find({
   ]
   });
 ```
-</details markdown="1">
+</details>
 
 ---
 
@@ -359,7 +359,7 @@ db.collection_name.find({
   ]
 })
 ```
-</details markdown="1">
+</details>
 
 ---
 
@@ -379,7 +379,7 @@ db.emp.find({
   {_id:0, name:1, age: 1}
   );
 ```
-</details markdown="1">
+</details>
   
 ---
 
@@ -401,7 +401,7 @@ db.collection_name.find({
   ]})
   .sort({"dob": 1}); 
 ```
-</details markdown="1">
+</details>
 
 ---
 
@@ -412,7 +412,7 @@ db.collection_name.find({
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > The only problem in the `db.people.find({} { _id: 0})` is missing comma after empty {} inside find() method.To resolve this error, jack has to write the query as `db.people.find({}, { _id: 0});`.
-</details markdown="1">
+</details>
 
 ---
 
@@ -433,7 +433,7 @@ db.student.find({
       .limit(20);
 
 ```
-</details markdown="1">
+</details>
 
 ---
 
@@ -447,7 +447,7 @@ db.student.find({
 ```
 db.dept.find({}).skip(10);
 ```
-</details markdown="1">
+</details>
 
 ---
 
@@ -468,7 +468,7 @@ db.collection_name.find({
       .count();
       
 ```
-</details markdown="1">
+</details>
 
 ---
 
@@ -479,7 +479,7 @@ db.collection_name.find({
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > If we use -2 or 2 with the fields inside sort() method instead of using -1 or 1, MongoDB will throw an error for that.Only 1 can be used with the fields that we want to sort in ascending order and -1 can be used with the fields that we want to sort in descending order.
-</details markdown="1">
+</details>
 
 ---
 
@@ -492,7 +492,7 @@ db.collection_name.find({
 > In the projection query, we cannot use a combination of 0 and 1.It should be either all 1 or all 0, except _id field value.So to get rid of that error we can re-write the query as:  
 `db.collection.find({}, {_id: 0, name: 1, address: 1});`   
 Here we are selecting an only name and address fields from the data.
-</details markdown="1">
+</details>
 
 ---
 
@@ -509,7 +509,7 @@ db.collection.find({
            $ne: null}
            });
 ```
-</details markdown="1">
+</details>
 
 ---
 
@@ -529,7 +529,7 @@ db.collection_name.find({
        {"_id": 0, "name" : 1, "department" : 1}
        );
 ```
-</details markdown="1">
+</details>
 
 ---
 
@@ -544,7 +544,7 @@ db.collection_name.find({
 > 2.No need to have a same number of fields in all the documents.Some may have > 4 fields while others may have 3 or 5 fields.
 > 3.They have a replica set that contains duplicate data in it.So if one server fails we can still recover the data from other servers. 
 > 4.All the documents can be independent of one another as they don't have a foreign keys concept.
-</details markdown="1">
+</details>
 
 ---
 
@@ -555,7 +555,7 @@ db.collection_name.find({
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > No, MongoDB doesn't write the data to the disk immediately.Firstly, it pushes the write to the journals, and from the journal it pushes the data to the disk.Therefore, it is not an immediate action.
-</details markdown="1">
+</details>
 
 ---
 
@@ -567,7 +567,7 @@ db.collection_name.find({
 
 > Yes, it is correct that durability is one of the best features of MongoDB.
 Whenever there are a server failure or system crashes, we can still recover the data from the journal nodes as well as we can get the data from different replica sets. 
-</details markdown="1">
+</details>
 
 ---
 39.Is creating Indexes in MongoDB always helpful?
@@ -579,7 +579,7 @@ Whenever there are a server failure or system crashes, we can still recover the 
 > We cannot deny the fact that using indexes efficiently in MongoDB can increase query performance, But there are some disadvantages of indexes as well like:  
 > - Each index that we create takes around 8 kB of space in memory.So, if we have many indexes that are not in use frequently will drain our resources.
 > - Whenever we update or delete the documents, the indexes that are associated with that document also be updated.And these indexes updates hinder the write performance badly.
-</details markdown="1">
+</details>
 
 ---
 
@@ -593,7 +593,7 @@ Whenever there are a server failure or system crashes, we can still recover the 
 > - 4 byte represents the time in seconds when it is created.
 > - 5 byte represents the Unique-id of the system and that is unique to the machine and process.
 > - 3 byte increment represents the increment counter generated randomly.
-</details markdown="1">
+</details>
 
 ---
 
@@ -604,7 +604,7 @@ Whenever there are a server failure or system crashes, we can still recover the 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > Yes, one we remove any field or fields from the document or a whole document, it will also be removed from the disk too.
-</details markdown="1">
+</details>
 
 ---
 
@@ -615,7 +615,7 @@ Whenever there are a server failure or system crashes, we can still recover the 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > Yes, MongoDB creates an Object-Id that is `_id`, which also works as an Index by default. 
-</details markdown="1">
+</details>
 
 ---
 
@@ -630,7 +630,7 @@ Whenever there are a server failure or system crashes, we can still recover the 
 > - Then we have to pass the hostname and port number as an parameter to MongoClient instance and our connect will be ready.
 > - At last, after doing all the operations, close the connection using close() method.
   
-</details markdown="1">
+</details>
 
 ---
 
@@ -648,7 +648,7 @@ db.collection.insertMany([{name: "Jack", dept: "training"},
 ```
 > It will inserts 3 documents at a time.
   
-</details markdown="1">
+</details>
 
 ---
 
@@ -663,7 +663,7 @@ db.collection.insertMany([{name: "Jack", dept: "training"},
 db.collection_name.remove({"name" : "Tom"},1);
 ```
   
-</details markdown="1">
+</details>
 
 ---
 
@@ -677,7 +677,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 > - The `remove()` method return a WriteResult object.
 > - The `deleteMany()` method returns a document containing acknowledged value and deleted count.
   
-</details markdown="1">
+</details>
 
 ---
 
@@ -689,7 +689,7 @@ db.collection_name.remove({"name" : "Tom"},1);
   
 > `pretty()` when applied with the `find()` method, it will display output documents in an easy to read format.Without `pretty()` if the documents have so many fields and we fetched all the documents fields through `find()` then it is very difficult to read values from each document as it will show one document in one line only.
   
-</details markdown="1">
+</details>
 
 ---
 
@@ -702,7 +702,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 > - Vertical scaling refers to adding additional resources in a single system to increase it performance such as ram, CPU, etc.
 > - Horizontal scaling refers to adding multiple servers to a single server and partitioning the dataset over those server.
   
-</details markdown="1">
+</details>
 
 ---
 
@@ -714,7 +714,7 @@ db.collection_name.remove({"name" : "Tom"},1);
   
 > We can use the `pretty()` method to format the resulted documents.
   
-</details markdown="1">
+</details>
 
 ---
 
@@ -726,7 +726,7 @@ db.collection_name.remove({"name" : "Tom"},1);
   
 > It is the process of adding data across multiple servers so that if one server is down we can still utilize the data from other servers.MongoDB supports sharding by breaking the larger datasets into smaller data sets and sending it to other servers.It increases the redundancy of data and provides durability in times of failure.
   
-</details markdown="1">
+</details>
 
 ---
 
@@ -741,7 +741,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 > - Both primary and secondary replica sets provides the redundancy of data and at the time of failure of primary replica, one of the nearest secondary replica becomes the primary replica set and process remains unaffected.
 > - After the write operation by primary replica node, the secondary replicas will replicate the data from primary through log files.
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -753,7 +753,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 > In MongoDB, one document can have 4 fields while other documents can have same or more or less fields.There is no restriction of having same number of fields in all the documents inside collection, which makes it schemeless.
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -765,7 +765,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 > MongoDB stores it data to RAM first but later on all the RAM data has been stored into Disk, so that at the time of failure the MongoDB will gets it data from disk without any loss.
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -781,7 +781,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 > - MongoDB doesn't have support of transaction by default.
 > - One MongoDB collection cannot have more than 64 indexes.
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -795,7 +795,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 > - JSON is a text based format which stores the data in key-value pairs, on the other hand BSON is a binary format of JSON that provides efficient space in memory to store large data as well as it optimizes the speed to fetch the data from Memory. 
 > Because of this only it becomes the ideal choice to store the data in BSON format.
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -810,7 +810,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 > - Compound Indexes are used to combine multiple fields of a document.
 > - Multi-key indexes are used for array fields.
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -822,7 +822,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 > Using `db.serverStatus()` method we can see the information about number of connections as well as the available connections.For that we have to write ` db.serverStatus().connections`.
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -834,7 +834,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 > By default, MongoDB can handle 64k connections.But it can be changed by going into the configuration file of MongoDB.
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -846,7 +846,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 > Using `db_adminCommand("connPoolStats")` we can see the connections utilized by MongoDB.
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -862,7 +862,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 > - `update()` method to change the values of a document.
 > - `remove()` method to delete any document from the collection.
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -880,7 +880,7 @@ db.resturants.find(
         }).count();
 ```
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -897,7 +897,7 @@ db.revature.find({"shift": {
                  {_id:0, name:1, experience: 1});
 ```
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -915,7 +915,7 @@ db.emp.find({
              });
 ```
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -936,7 +936,7 @@ db.collection_name.find({
                    );
 ```
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -953,7 +953,7 @@ db.company.find({
                )
                .sort("experience" : -1);
 ```
-</details markdown="1">
+</details>
 
 ---
 
@@ -971,7 +971,7 @@ db.collection_name.find()
                    );
 ```
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -990,7 +990,7 @@ db.food.find(
 ```     
              
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -1008,7 +1008,7 @@ db.resturants.find(
                   );
 ```  
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -1020,7 +1020,7 @@ db.resturants.find(
 
 > No, MongoDB doesn't require lot of RAM to store those documents and doing operations on those documents because it automatically allocates and deallocates the RAM based on the operations requirements.
 
-</details markdown="1">
+</details>
 
 --- 
 
@@ -1032,7 +1032,7 @@ db.resturants.find(
 
 > A covered query is the one whose fields in the query are the part of indexes as well as the returned output fields also contains those same index.
 
-</details markdown="1">
+</details>
 
 ---
 71.If an index is not fit into the RAM then what will happen in MongoDB at that point?
@@ -1043,7 +1043,7 @@ db.resturants.find(
 
 > If RAM has no space to fit the indexes in it, then MongoDB takes the data from the disk which is relatively slow compared to taking data from the RAM.
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -1058,7 +1058,7 @@ db.resturants.find(
 db.school.getIndexes()
 ```
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -1070,7 +1070,7 @@ db.school.getIndexes()
 
 > yes, we can achieve the concepts of locking and transcations by putting one document inside another document also called as nested documents.By this way, MongoDB supports atomic operations.
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -1082,7 +1082,7 @@ db.school.getIndexes()
 
 > No, In MongoDB, only primary replica set has the right to do the write operations but not secondary replica set.
   
-</details markdown="1">
+</details>
 
 ---
 
@@ -1097,7 +1097,7 @@ db.school.getIndexes()
 > - We want to do atmoic transaction opertaions on the document.
 > - We need to attain one-to-many relationship between fields.
   
-</details markdown="1">
+</details>
 
 ---
 
@@ -1109,7 +1109,7 @@ db.school.getIndexes()
 
 > While storing Data and indexes in MongoDB we cannot predict how much total space the server will requries for storing all these things.And as the total storage space in 32-bit systems are fixed to 2 gigabytes only, which is not suitable for production scenarios.therefore, 64-bit systems are preferred over 32-bit systems, that have unlimited server space for storage virtually.
   
-</details markdown="1">
+</details>
 
 ---
 
@@ -1121,7 +1121,7 @@ db.school.getIndexes()
 
 > We can check by using `db.isMaster()` command, that returns a document containing the status of a replica set.and also tells whether it is a part of primary replica or secondary replica set.
   
-</details markdown="1">
+</details>
 
 ---
 
@@ -1140,7 +1140,7 @@ db.emp.find({
              .count();
 ```
   
-</details markdown="1">
+</details>
 
 ---
 
@@ -1160,7 +1160,7 @@ db.students.find({
                  ]});
 ```
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -1178,7 +1178,7 @@ db.flights.find({
                 .sort( "departure" : 1);
 ```
                 
-</details markdown="1">
+</details>
 
 ---
 

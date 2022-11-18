@@ -10,9 +10,9 @@
     
 - When all the features/functionalities of an application are coupled together in single code base, then that application is termed as Monolithic applications.
 	
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -30,9 +30,9 @@
 - To make a change to Monolithic of application requires update to entire stack by accessing the code base and building and deploying an updated version of the service-side interface.
 - This leads to changes/updates restrictive and time-consuming.
 	
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -52,9 +52,9 @@
   - **Difficult to change framework/language** hence barrier to technology adoption.
   - Developer are **constrained by the technologies already used** in the monolith.
   - Due to one **smallest error the entire applications can be down and unavailable**.
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -74,9 +74,9 @@
   - **Easy debugging** to locate application issues.
   - **Cost of hosting** is less compared to microservices style.
 	
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -95,7 +95,7 @@
 - Each service runs a unique process and manages its database.
 - A service can generate alerts, log data, support user interfaces (UIs), handle user identification or authentication, and perform various other tasks.
 	
-</details markdown="1">
+</details>
 
 ---
 	
@@ -113,9 +113,9 @@
 - Companies are trying to migrate first the UI or client facing layer to MSA followed by slowly moving towards the core complex layers.
 - This has given them scaling advantages, greater business agility, and increased profits.
 	
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 7.What is so special about Netflix and Microservices?
@@ -131,9 +131,9 @@
 - They made the decision to break down their monolithic legacy application into smaller, individual microservices to lower the possibility of system errors and ensure better long-term system stability.
 - Switching to a microservices architecture can create exciting opportunities is proven by Netflix.
 	
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 	
@@ -149,9 +149,9 @@
 - Netflix decided to contribute these libraries and frameworks to the broader open-source community.
 - These libraries and frameworks can be used by anyone who wants to create a microservices application for their business.
 
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 9.What is `Spring Cloud`?
@@ -166,9 +166,9 @@
 - Spring Cloud project help build robust cloud applications and it provides a solution to the commonly encountered patterns when developing a distributed system.
 - Spring Cloud project provides tools for developers to quickly build both cloud and microservice-based applications.
 	
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 10.What is `Spring Cloud Netflix`?
@@ -183,9 +183,9 @@
 - `Spring Cloud Netflix` provides Netflix OSS integrations for Spring Boot apps through autoconfiguration and binding to the Spring Environment.
 - With a few simple annotations, we can quickly enable and configure the common patterns inside our application and build large distributed systems with various Netflix components.
 
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 11.Can you name few Netflix component that can be used in Spring Cloud project?
@@ -202,9 +202,9 @@
   - `Netflix Hystrix` -  Circuit Breaker
   - `Netflix Zuul` - API Gateway
 	
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 12.What do you know about Service Discovery in Microservices?
@@ -219,9 +219,9 @@
 - We have one dedicated server which is responsible for maintaining the registry of all the microservices that have been deployed and removed.
 - We can understand it as a lookup service where microservices (clients) can register themselves and discover other registered microservices.
 	
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 	
@@ -235,9 +235,9 @@
     
 - Netflix Eureka or Consul are the two popular Service Discovery providers.
 
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 14. What is use of Netflix Eureka? 
@@ -255,9 +255,9 @@
 - If any microservice instance consistently fail to send a heartbeat, then the discovery server will remove the instance from its registry.
 - This way Eureka server maintains very stable ecosystem of microservices collaborating with each other.
 	
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 15.Can we manually maintain addresses of each service while building microservices based applications?
@@ -273,9 +273,9 @@
 - Usually, each service instance in microservices based architecture is scaled up and down as per application load.
 - Also, we use a virtual host to host the services, especially in the cloud environment.
 	
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 16.How do you configure Eureka Server in Spring Boot maven application?
@@ -350,9 +350,9 @@ public class EurekaServerApplication {
 ```
 - Check Browser for Registry Server on http://localhost:8761/
 
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 17.How do we register our service into Service Discovery server?
@@ -418,9 +418,9 @@ public class ProducerEureka2 {
 
 - Launch application and verify the service with name `my-producer:8080` is visible on Service Discovery dashboard at http://localhost:8761/
 
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -437,9 +437,9 @@ public class ProducerEureka2 {
 - `@EnableDiscoveryClient` lives in `spring-cloud-commons` and picks the implementation on the class path.
 - `@EnableEurekaClient` lives in `spring-cloud-Netflix` and only works for Eureka.
 - If eureka is on your class path, they are effectively the same.
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -470,9 +470,9 @@ public class ProducerEureka2 {
 		baseUrl = baseUrl + "/employee";
 ```
 
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -486,9 +486,9 @@ public class ProducerEureka2 {
     
 - It is the process of distributing a set of requests or tasks over a set of resources, with the intention of making their overall processing more efficient.
   
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -504,9 +504,9 @@ public class ProducerEureka2 {
 - In server-side load balancing, the clients call an intermediate reverse proxy server, which then decides which instance of the actual server or microservice) will get call.
 - In client-side load balancing, the clients call an intermediate server (the API gateway - e.g., Zuul, configured with a load-balancer - e.g., Ribbon and a discovery server - e.g.Eureka), which then decides which instance of the microservice to call.
  
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 22.What is the use of Netflix Ribbon?
@@ -521,9 +521,9 @@ public class ProducerEureka2 {
 - This library provides client-side load balancing.
 - It automatically interacts with Netflix Service Discovery (Eureka) because it is a member of the Netflix family.
   
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 23.How to configure & use Netflix Ribbon in Spring application?
@@ -569,9 +569,9 @@ public class ProducerEureka2 {
 ```
 - Once the service URL is retrieved, we will invoke service normally (e.g., using RestTemplate)
 
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 24.What do you understand by Circuit Breaker?
@@ -586,9 +586,9 @@ public class ProducerEureka2 {
 - It is used to detect failures and encapsulates the logic of preventing a failure from constantly recurring, during maintenance, temporary external system failure or unexpected system difficulties.
 - The Circuit Breaker design pattern stops sending the request to the service which is not working or taking too long to respond.
 - Circuit Breaker aims in building fault-tolerant and resilient systems.
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 25.How Spring Cloud supports Circuit Breaker?
@@ -604,9 +604,9 @@ public class ProducerEureka2 {
 - In case failure occurs, Spring Cloud Circuit Breaker opens the circuit so that subsequent calls automatically fail.
 - While the circuit is open, Spring Cloud Circuit Breaker redirects calls to our specified `fallback method`.
 	
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 26.Which circuit breaker implementations does Spring cloud supports?
@@ -618,9 +618,9 @@ public class ProducerEureka2 {
 <blockquote markdown="1"> 
     
 - Spring Cloud Circuit Breaker supports many different circuit breaker implementations including, Resilience4J, Netflix Hystrix, Sentinal, and Spring Retry etc.
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -706,9 +706,9 @@ public class ProducerEurekaHystrix {
 }
 
 ```
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 28.What do you understand by `API Gateway`?
@@ -733,9 +733,9 @@ public class ProducerEurekaHystrix {
   - Versioning
   - Routing
 	
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 29.What is use of Netflix Zuul?
@@ -752,9 +752,9 @@ public class ProducerEurekaHystrix {
 - It works as a front door for all the requests.
 - Zuul is built to enable dynamic routing, monitoring, resiliency, and security.
 - Zuul is a JVM-based router and server-side load balancer from Netflix.
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 30.How to configure and use Netflix Zuul in Spring cloud application?
@@ -836,9 +836,9 @@ public class EmployeeZuulGatwayApplication {
 ```
 - Now all the requests to http://localhost:8079/product-producer/ will be diverted to this resource http://localhost:10000/info due to Zuul routing.
 
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 31.What are Zuul Filter & its types?
@@ -857,9 +857,9 @@ public class EmployeeZuulGatwayApplication {
   - `Route filters` – Used to route the request.
   - `Error filters` – Invoked when an error occurs while handling the request.
 	
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 32.What is meaning of Blue/Green Deployments?
@@ -876,8 +876,8 @@ public class EmployeeZuulGatwayApplication {
 - Using a blue/green deployment strategy increases application availability and reduces deployment risk by simplifying the rollback process if a deployment fails.
 - Once testing has been completed on the green environment, live application traffic is directed to the green environment and the blue environment is deprecated.
 	
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---

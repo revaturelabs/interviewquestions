@@ -8,8 +8,8 @@
 
 - API Testing is important for ensuring that the API which we built performs as expected when faced with a wide variety of expected and unexpected requests.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
 
@@ -26,8 +26,8 @@ API testing can be done on the below aspects:
 - `Load Testing`:  Checks the performance under the specific load and determines how much traffic the API can handle before being overloaded.
 - `Security Testing`: Checks vulnerabilities like authentication and sensitive data is encrypted over HTTP and includes penetration testing validating authentication.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
 
@@ -47,9 +47,9 @@ There are many benefits to automating API testing, including:
 - **Easier maintenance**: Easier to maintain and update than manual tests.
 - **Reduced human error**: Produce fewer errors than manual tests run by DevOps.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -64,8 +64,8 @@ There are many benefits to automating API testing, including:
 - `Postman Collection` is a tidy way to group our API requests together so you can save, reuse, and share them with others.
   
   
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
 
@@ -80,8 +80,8 @@ There are many benefits to automating API testing, including:
 - Testing Collection in Postman is used for testing the behaviour of our API.
 - We can communicate with other team members about how API functions or demonstrate the API’s behaviour under various circumstances.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
   
@@ -96,9 +96,9 @@ There are many benefits to automating API testing, including:
 - Documentation Collection in Postman is used for documentation or showing others how to consume the API.
 - Documentation should cover why the APIs used are important, and the how and why to use each endpoint, with examples.
      
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -115,9 +115,9 @@ There are many benefits to automating API testing, including:
 - It's built with extensibility in mind and easily integrates with CI servers and build systems.
 - Newman resides in the npm registry and on GitHub.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
   
 ---
 
@@ -138,9 +138,9 @@ newman run {{collectionJsonPath}}
 newman run {{collectionUrl}}
 ```
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
   
 ---
 
@@ -165,9 +165,9 @@ newman run Postman_Newman_Collection.json -e enVariable.json -r html
 ```
 - The '-r' flag, indicates the newman-reporter-html module to be used with the Newman collection run.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
   
 ---
 
@@ -182,8 +182,8 @@ newman run Postman_Newman_Collection.json -e enVariable.json -r html
 - `SoapUI` is a tool for testing Web Services; these can be the SOAP Web Services as well as RESTful Web Services or HTTP-based services.
 - `SoapUI` is an Open Source and completely free tool with a commercial companion called `ReadyAPI` that has extra functionality for companies with mission-critical Web Services.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
 
@@ -204,8 +204,8 @@ newman run Postman_Newman_Collection.json -e enVariable.json -r html
   - create REST specifications (WADL)from recorded communication.
   - Just right-click a functional test and run it as a load test.
   
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
 
@@ -220,8 +220,8 @@ newman run Postman_Newman_Collection.json -e enVariable.json -r html
 - SoapUI has the most comprehensive support for various protocols as shown below:
   ![SoapUI protocols](https://user-images.githubusercontent.com/110081175/200236666-56cd75e8-7256-4ed6-8f67-c34b4437bd0a.PNG)
   
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
 
@@ -239,5 +239,5 @@ newman run Postman_Newman_Collection.json -e enVariable.json -r html
 | Capability to test the data sent and received between the web browser and a web server.Can test protocols/technologies such as REST, and SOAP.| Selenium cannot test protocols, but it can test the UI behaviour.|
 | SoapUI is able to perform functional, load and Security Testing of the above-mentioned technologies.| Selenium can perform only Functional Testing.Performance Testing to some extent because we can track execution time with regards to the performance but cannot test multi-user and multi-tenancy.Selenium certainly cannot be used for security testing.|
 |SoapUI is PROTOCOL Dependent and NOT browser dependent.| Selenium depends on the browser’s capabilities.|
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>

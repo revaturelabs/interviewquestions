@@ -11,9 +11,9 @@
 - Representational state transfer (REST) is an abstraction of the architecture of the world wide web.REST is an architectural style to design networked applications.
 - REST makes communication between remote computers easy by using the simple HTTP protocol which supports for CRUD (Create, Read, Update, and Delete) operations on the server
 
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -29,9 +29,9 @@
 - In a REST API, all data are treated as resources, each one represented by a unique uniform resource identifier (URI).
 - For example, the **Twitter API** makes each tweet an available resource that can be retrieved by clients.Clients can also use Twitter’s API to post tweets and perform other actions on the site.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -50,9 +50,9 @@
 - `OPTIONS` is used to describe the communication options for the target resource.
 - `HEAD` asks for a response identical to that of a GET request, but without the response body.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -70,9 +70,9 @@
 
 - A resource is identified with a uniform resource identifier or URI.Clients access resources by including their URIs in HTTP requests.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -93,9 +93,9 @@ REST APIs follow six design principles:
 - Uniform Interface
 - Code on Demand (optional)
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -111,9 +111,9 @@ REST APIs follow six design principles:
 - When the client requests a request to the server, the server sends a response to the client.The server can’t initiate a request to the client.
 - In a RESTful API, the client and server are always kept independent of each other.This ensures that both the client and the server can be scaled independently.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -129,9 +129,9 @@ REST APIs follow six design principles:
 - No session or authentication state is stored on the server.
 - If the client requires authentication, then the client needs to authenticate itself before sending a request to the server.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -146,9 +146,9 @@ REST APIs follow six design principles:
 - In REST APIs, the resources should be able to cache themselves either on the client or on the server.- When a client requests a resource from the server, the response from the server will contain the information on whether the resource can be cached or not and for how long.
 - The main idea of caching is to improve the performance of the client by reducing the bandwidth required to load the resource.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -164,9 +164,9 @@ REST APIs follow six design principles:
 - There can be multiple systems in between them that are responsible for handling security, traffic, balancing the load, redirection, etc.
 - The client or the server doesn’t have any information about how many systems are in between them.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -181,9 +181,9 @@ REST APIs follow six design principles:
 - All communications between the client and server must follow the same protocol.For REST, this protocol is HTTP.
 - A uniform interface simplifies integrations because every application is using the same language to request and send data.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -197,9 +197,9 @@ REST APIs follow six design principles:
 
 A client sends a message in form of an HTTP Request and the server responds in form of an HTTP Response.This technique is termed Messaging.These messages contain message data and metadata i.e., information about the message itself.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -213,9 +213,9 @@ A client sends a message in form of an HTTP Request and the server responds in f
 
 Addressing refers to locating a resource or multiple resources lying on the server.It is analogous to locating a postal address of a person.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -234,9 +234,9 @@ Addressing refers to locating a resource or multiple resources lying on the serv
   - Update = PUT
   - Delete = DELETE
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -259,9 +259,9 @@ There are five main components of an HTTP request in REST:
 - **HTTP Request Header**: Lists metadata about the request, such as the user agent, file formats the client will accept, format of the request body, language, caching preferences, etc.
 - **HTTP Request body**: Contains any data associated with the request.This is only necessary if the request is to modify data on the server with the POST or PUT methods.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -280,9 +280,9 @@ There are five main components of an HTTP request in REST:
 - **HTTP Response Header**: Lists metadata about the response, such as the date, server, user agent, file formats of the returned resources, caching information, etc.
 - **HTTP Response body**: Contains the resource data that was requested by the client and is also called the payload.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -300,9 +300,9 @@ The format of a URI is as follows:
 
 `<protocol>://<service-name>/<ResourceType>/<ResourceID>`
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -317,9 +317,9 @@ The format of a URI is as follows:
 - Caching refers to storing server response in the client itself so that a client does need not to make server requests for the same resource again and again.
 - A server response should have information about how caching is to be done so that a client caches the response for a period or never caches the server response.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -337,9 +337,9 @@ The format of a URI is as follows:
 
 - Payload can also be included in the HTTP request with the POST method.If you want to post a tweet through Twitter's API, the tweet text that you send in your POST request is the payload.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -364,9 +364,9 @@ HTTP Status Code:
 - **409** – CONFLICT, states conflict situation while executing the method.
 - **500** – INTERNAL SERVER ERROR, states that the server has thrown some exception while executing the method.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
     
@@ -389,8 +389,8 @@ HATEOAS stand for Hypermedia as The Engine of the Application State.It provides 
 }
 ```
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---

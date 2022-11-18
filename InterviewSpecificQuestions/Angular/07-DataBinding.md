@@ -11,8 +11,8 @@ Using String Interpolation, we can print the `name` in the template.In `app.comp
 {{ name }}
 ```
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
  
@@ -32,8 +32,8 @@ In `app.component.html`, create a button and have `Click Me` enclosed with the `
 <button (click)="onClick()"> Click Me</button>	
 ```
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 	
 --- 
 	
@@ -50,8 +50,8 @@ In `app.component.html`, create a button and have `Click Me` enclosed with the `
 
 ![image](https://user-images.githubusercontent.com/70228962/186710327-e17f9bca-c65d-4957-a43a-ddecbd339ee6.png)
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 	
 --- 
 
@@ -70,8 +70,8 @@ In `app.component.html`, create a button and have `Click Me` enclosed with the `
 
 ![image](https://user-images.githubusercontent.com/103101208/185592858-66cc92f3-feca-436e-87cf-766c692a8a8c.png)
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 	
 --- 
 
@@ -90,8 +90,8 @@ In `app.component.html`, create a button and have `Click Me` enclosed with the `
 
 ![image](https://user-images.githubusercontent.com/103101208/185593164-aa23c1a2-497c-4906-8b32-15af3231d0a6.png)
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 	
 --- 
 
@@ -108,8 +108,8 @@ In `app.component.html`, create a button and have `Click Me` enclosed with the `
 
 ![image](https://user-images.githubusercontent.com/103101208/185593247-f546704d-d3ed-4a80-8ff3-01289401fe00.png)
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 	
 --- 
 
@@ -130,8 +130,8 @@ In `app.component.html`, create a button and have `Click Me` enclosed with the `
 
 ![image](https://user-images.githubusercontent.com/103101208/185593434-3e70965a-c750-4bbd-aa3b-b3fea6fccba7.png)
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 	
 --- 
 
@@ -167,8 +167,8 @@ name.value  // property value also gives Jim
 ```
 **NOTE:** Attributes initialize DOM properties.Once initialization is complete attribute job is done.Properties value can change whereas attribute value cannot change
 	
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
   
 ---
 

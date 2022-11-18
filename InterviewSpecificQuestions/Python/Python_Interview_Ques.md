@@ -22,7 +22,7 @@ a = "Welcome to My Home" # String literal
 print(f"{a} => {type(a)}") 
 ```
   
-</details markdown="1">
+</details>
   
 --- 
   
@@ -41,7 +41,7 @@ print("before reversing list",list1)
 print("after reversing",list1[::-1])
 ```   
   
-</details markdown="1">  
+</details>  
   
 ---
   
@@ -67,7 +67,7 @@ print("sorted values",values)
 list of values [5, 2, 3, 4, 1]
 sorted values [1, 2, 3, 4, 5]
   
-</details markdown="1">
+</details>
   
   ---
   
@@ -93,7 +93,7 @@ print(list2)
 
 [1, 2, 3, 4]
   
-</details markdown="1">
+</details>
   
 ---
   
@@ -107,7 +107,7 @@ print(list2)
 - If there is no return statement that appears in a function definition, the control automatically returns to the calling function after the last statement of the called function is executed.
 - It will return `None` if the function doesn't have a return statement.
 
-</details markdown="1">
+</details>
   
 ---
   
@@ -131,7 +131,7 @@ print("using index A[3] value is:" ,A[3])
 
 using index A[3] value is: 7
   
-</details markdown="1">
+</details>
  
 ---
   
@@ -150,7 +150,7 @@ Syntax of `frozenset()` function is:
 frozenset([iterable])
 ```
   
-</details markdown="1">
+</details>
   
 ---
   
@@ -180,7 +180,7 @@ print("After replacing the string is :",x)
 Before replacing the string: The Apple a Day Keeps the Doctor Away.
 After replacing the string: An Apple a Day Keeps the Doctor Away.
   
-</details markdown="1">
+</details>
   
 ---
 
@@ -194,7 +194,7 @@ After replacing the string: An Apple a Day Keeps the Doctor Away.
 - we can use triple quotes to print multiple lines into a single line in python.
 - Triple quotes ''" or '" are string delimiters that can span multiple lines in Python.Triple quotes are used when combining multiple lines or enclosing a string that has a mix of single and double quotes.
 
-</details markdown="1">
+</details>
   
 ---
    
@@ -224,7 +224,7 @@ print(x)
   
 ['Python', 'Online', 'Training']
 
-</details markdown="1">
+</details>
  
 ---  
   
@@ -245,7 +245,7 @@ for i in range(len(C):
      print("C values:", C[i])
 ```
  
-</details markdown="1">
+</details>
   
 ---
 
@@ -268,7 +268,7 @@ func()
 print("x outside:", x)
 ```
   
-</details markdown="1">
+</details>
   
  ---
   
@@ -284,7 +284,7 @@ print("x outside:", x)
    - Global namespace
    - Built-in namespace
   
-</details markdown="1">
+</details>
   
  ---
   
@@ -299,7 +299,7 @@ print("x outside:", x)
 - After entering, we will get as >>>>,
 Now you can write and run the Python code.The only drawback is when you close the session, your code will be gone.
   
-</details markdown="1">
+</details>
   
  ---
   
@@ -319,7 +319,7 @@ import some_module
 print dir(some_module)
 ```
 
-</details markdown="1">
+</details>
   
 ---
   
@@ -333,7 +333,7 @@ print dir(some_module)
 - If you want to repeat the part of the task for a finite number of times in python, use Enumerate loops.
 - you can provide the number of iterations to be performed, as an integer value.
   
-</details markdown="1">
+</details>
   
  ---
   
@@ -354,7 +354,7 @@ s.strip()
 
 - We can use `replace()`  to remove all the whitespaces from the string.This function will remove whitespaces between words.
   
-</details markdown="1">
+</details>
   
   ---
 
@@ -378,7 +378,7 @@ for line in reversed(list(open(filename)):
     print(line.rstrip()
 ```
   
-</details markdown="1">
+</details>
   
 ---
   
@@ -403,7 +403,7 @@ x = "CorporateWorld"
 print ("Reverse is", x[ :: -1] )
 ```
   
-</details markdown="1">
+</details>
   
 ---
   
@@ -417,7 +417,7 @@ print ("Reverse is", x[ :: -1] )
 - Yes, the `xrange()` method occupies only less memory comparing the `range()`.
 - Because it only stores one number at a time in the memory.
   
-</details markdown="1">
+</details>
   
 ---
   
@@ -431,7 +431,7 @@ print ("Reverse is", x[ :: -1] )
 - In Python, a generator is a special type of function which does not return a single value, instead, it returns an iterator object with a sequence of values.In a generator function, a yield statement is used rather than a return statement.
 - The difference is that while a return statement terminates a function entirely, the yield statement pauses the function saving all its states and later continues from there on successive calls.
   
-</details markdown="1">
+</details>
   
   ---
   
@@ -453,7 +453,7 @@ while True:
          print("Please Enter an integer number....")
 ```
   
-</details markdown="1">
+</details>
   
 ---
   
@@ -467,7 +467,7 @@ while True:
 - We can detect bugs in a python source code using a static analysis tool named `PyChecker`.
 - Another tool called `PyLint` checks whether the Python modules meet their coding standards.
   
-</details markdown="1">
+</details>
   
   ---
   
@@ -486,7 +486,7 @@ import re
   
 - Regular Expressions (RegEx) is a special sequence of characters that uses a search pattern to find a string or set of strings.
   
-</details markdown="1">
+</details>
   
 ---
   
@@ -499,7 +499,7 @@ import re
   
 - `re` in `re.match()` function in Python will search the regular expression pattern and return the first occurrence.
   
-</details markdown="1">
+</details>
   
   ---
   
@@ -520,7 +520,7 @@ languages.add('ML')
 print(languages)
 ```
   
-</details markdown="1">
+</details>
   
  ---
 
@@ -541,7 +541,7 @@ print(a.isupper()
 print(b.isupper()
 ```
   
-</details markdown="1">
+</details>
   
   ---
  
@@ -564,7 +564,7 @@ result = num1 // num2
 print("The type of the result", type(result)
 ```
   
-</details markdown="1">
+</details>
 
 ---
   
@@ -591,7 +591,7 @@ list = ['John', 70.2, 'abcd', 786, 2.23]
 print(list[7:3])
 ```
   
-</details markdown="1">
+</details>
   
   ---
 
@@ -610,7 +610,7 @@ x = slice(3, 5)
 print(a[x])
 ```
 
-</details markdown="1">
+</details>
   
   ---
   
@@ -628,7 +628,7 @@ x="Hi"
 print(X*10)
 ```
   
-</details markdown="1">
+</details>
   
   ---
   
@@ -650,7 +650,7 @@ print(x1,type(x1)
 # set([1, 2, 20, 210, 6]) # in the set(x) output order is sorted
 ```
   
-</details markdown="1">
+</details>
   
  ---
  
@@ -664,7 +664,7 @@ print(x1,type(x1)
 - Using `type()` for returning datatype.
 - Using `id()` for returning the identification number.
 
-</details markdown="1">
+</details>
   
   ---
   
@@ -678,7 +678,7 @@ print(x1,type(x1)
 The key difference between Python 2.x and Python 3.x is the behavior of the print function.
 2.x print is treated as a statement whereas in 3.x, it is treated as a function print().
   
-</details markdown="1">
+</details>
   
   ---
   
@@ -696,7 +696,7 @@ list1=["Jhon",123,06-09-1999,"jack",78,09-12-2000)
 print(list1)
 ```
   
-</details markdown="1">
+</details>
   
   ---
   
@@ -716,7 +716,7 @@ y = ["a","b","c"]
 print(x is y)
 ```
   
-</details markdown="1">
+</details>
    
 ---
   
@@ -740,7 +740,7 @@ print(x is y)
 pip install pandas
 ```
   
-</details markdown="1">
+</details>
   
   ---
  
@@ -761,7 +761,7 @@ iii)pdb – The module PDB defines associate degree interactive ASCII text file(
 
 iv)pylint – Analyzes Python ASCII text file (source code) trying to find bugs and signs of poor quality.
   
-</details markdown="1">
+</details>
    
 ---
    
@@ -778,7 +778,7 @@ iv)pylint – Analyzes Python ASCII text file (source code) trying to find bugs 
    - Bandit - Security Checks.
    - MyPy - Check for errors against optional static type annotations.
 
-</details markdown="1">
+</details>
   
   ---
 
@@ -793,7 +793,7 @@ iv)pylint – Analyzes Python ASCII text file (source code) trying to find bugs 
 - Since Python is a case-sensitive programming language, it is case-sensitive when dealing with Identifiers.
 - Case is always significant.
  
-</details markdown="1">
+</details>
   
   ---
   
@@ -817,7 +817,7 @@ iv)pylint – Analyzes Python ASCII text file (source code) trying to find bugs 
 python -V
 ```
 
-</details markdown="1">
+</details>
   
 ---
   
@@ -841,7 +841,7 @@ python -V
      - `t` - text mode
      - `+r` - open a file for reading and writing.
 
-</details markdown="1">
+</details>
 
 ---
  
@@ -866,7 +866,7 @@ print("After removing duplicate values",list(distinct_values)
 Before removing duplicate values: [1, 1, 2, 3, 2, 2, 4, 5, 6, 2, 1]
 After removing duplicate values [1, 2, 3, 4, 5, 6]
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -892,7 +892,7 @@ x, y = func(x, y)         # function calling
 print (x, y )              
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -917,7 +917,7 @@ wo
   
 - He can use the above code to access 'wo' from 'hello world'.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -944,7 +944,7 @@ result='x greater' if x>y else 'y greater'
 print(result)
 ```
   
-</details markdown="1">
+</details>
 
 ---
   
@@ -961,7 +961,7 @@ print(result)
 - Each time an interpreted program is run, the interpreter must convert source code into machine code and pull in the runtime libraries.This conversion process makes the program run slower than a comparable program written in a compiled language.
 - Python has something clever to improve the performance.It compiles to bytecode (.pyc files) the first time it executes a file.This substantially improves the execution of the code the next time the module is imported or executed.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -983,7 +983,7 @@ def Square(n):
       i += 1
 print(list(Square(5))
 ```
-</details markdown="1">
+</details>
 
 ---
   
@@ -999,7 +999,7 @@ print(list(Square(5))
 - Python modules are not always deallocated when Python exits.Python's garbage collector does this.So, Python doesn't detect and frees circular memory references before making use of the garbage collector.
 - So, Python does not detect and free circular memory references before making use of the garbage collector.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1023,7 +1023,7 @@ print(re.split(" +", str)
   
 ['Python', 'porgramming', 'test']
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1045,7 +1045,7 @@ print(random.randint(1,1000)
   
 669
   
-</details markdown="1">
+</details>
 
 ---
   
@@ -1062,7 +1062,7 @@ print(random.randint(1,1000)
 - A mutator method is a function that modifies the value of an internal data variable.
     - `append()`
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1087,7 +1087,7 @@ print(isinstance(MySubClass1, MyClass1)
   
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1120,7 +1120,7 @@ print( id(y), id(x)
   
 - Above program Output is different ids.
   
-</details markdown="1">
+</details>
 
 ---
  
@@ -1142,7 +1142,7 @@ My_class.static_var = 5
 print ( My_class.static_var ) #5
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1164,7 +1164,7 @@ print ( My_class.static_var ) #5
      - Need decorator @classmethod
      - Can be accessed directly through the class.Don't need an instance class.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1178,7 +1178,7 @@ print ( My_class.static_var ) #5
 - In python, the **inspect module** provides several useful functions to help get information about live objects such as modules, classes, methods, functions, tracebacks, frame objects, and code objects.
 - The **getmembers(object)** method return all the members of an object in a list of (name, value) pairs sorted by name.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1192,7 +1192,7 @@ print ( My_class.static_var ) #5
 - No, python doesn't support interfaces.
 - Python does not support multiple inheritances.But ,you can easily emulate the equivalence of interfaces.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1210,7 +1210,7 @@ print ( My_class.static_var ) #5
      - Scrapy
      - BeautifulSoup
   
-</details markdown="1">
+</details>
 
 ---
   
@@ -1224,7 +1224,7 @@ print ( My_class.static_var ) #5
 - Python is a byte-code-compiled interpreted language, it is very difficult to protect.Even if you use an exe-packager like py2exe, the layout of the executable is well-known, and the Python byte codes are well-understood.
 - To protect the only way is to license it because if you compile your code, let us say machine code, if your work is not protected by a license, it can still be commercialized against your will.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1244,7 +1244,7 @@ print ( My_class.static_var ) #5
     - Upgrade pip on windows
          `python -m pip install --upgrade pip`
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1274,7 +1274,7 @@ def print_num(**kwargs):
 print_numb(one=1, two="two",three=3,four="four")
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1292,7 +1292,7 @@ print_numb(one=1, two="two",three=3,four="four")
  - **Checked exception** - The classes which inherit compile-time exceptions are known as checked exceptions.
  - **Unchecked exception** - The classes which inherit Runtime exceptions are known as unchecked exceptions.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1319,7 +1319,7 @@ else:
    If there is no exception, then execute this block.
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1350,7 +1350,7 @@ He is asking to print the output for the code, but he got some error.How will yo
   
 - We can add only the two list, not an integer value.
   
-</details markdown="1">
+</details>
 
 ---
   
@@ -1369,7 +1369,7 @@ home = str(os.path.expanduser('~')
 print(home)
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1392,7 +1392,7 @@ else:
   
 - The above program validates x=1 or x=2 or x=3 or x=4 or x=5.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1410,7 +1410,7 @@ from subprocess import call
 call(["dir"])
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1424,7 +1424,7 @@ call(["dir"])
 - _fun: weak "internal use" indicator.E.g., from X import * does not import objects whose name starts with a single underscore.
 - __fun: the interpreter replaces this name with _classname__fun to ensure that the name will not overlap with a similar name in another class.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1443,7 +1443,7 @@ while True:
   print ("enter only one character")
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1457,7 +1457,7 @@ while True:
 - In python 2, `raw_input()` takes only what exactly user the enter by themself and passes it back as a string.
 - In python 3, `raw_input()` was taken as `input()`.So it will return exactly what the user entered and the old input() was removed.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1470,7 +1470,7 @@ while True:
 
 Python is an object-oriented programming language but not completely.Because, Python doesn't support strong encapsulation, which is one of many features associated with the term 'object-oriented'.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1488,7 +1488,7 @@ Python is an object-oriented programming language but not completely.Because, Py
     - Use the `ctypes` to raise Exceptions in a thread.
 - We can use any one of the methods and we can kill the thread.
   
-</details markdown="1">
+</details>
 
 ---
 
@@ -1509,7 +1509,7 @@ x * (3 + 8)
 b + math.sqrt(3 * max_val)
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1532,7 +1532,7 @@ else {
 }
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1547,7 +1547,7 @@ else {
 - When a variable is assigned a new value anyplace within the body of a function then it's assumed as local.
 - In a function, if a variable is ever assigned a new value, then the variable is implicitly local and explicitly it should be declared as global.
 
-</details markdown="1">
+</details>
 
 ---
  
@@ -1562,7 +1562,7 @@ else {
 - Pass works as a dummy statement.
 - Regardless, objects of an empty class can also be created.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1587,7 +1587,7 @@ def funcy(a, b, c, **kwargs):
     func(**kwargs)
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1603,7 +1603,7 @@ def funcy(a, b, c, **kwargs):
    - `hasattr()` – This function is used to check if an attribute exists or not.
    - `setattr()` – This function is used to set an attribute.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1616,7 +1616,7 @@ def funcy(a, b, c, **kwargs):
 
 - A higher-order function accepts one or additional functions as input and returns a new function.Sometimes it's needed to use function as data.To form a higher-order function, we need to import the functools module.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1630,7 +1630,7 @@ def funcy(a, b, c, **kwargs):
 - **New Modifiers** - In python, state the compiler to run a new function and not use the one from the base class.
 - **Override Modifier** - Instructs to run the base class version of a class and it will not create a new one.This reduces redundant repetitions of writing codes.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1644,7 +1644,7 @@ def funcy(a, b, c, **kwargs):
 - In python, the `new` method creates the instance of a class.It will allocate memory for the object.The instance variable of an object needs memory to hold it.This new will be called at the time of object creation.
 - This `new` method will be used to control the creation of a new instance.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1657,7 +1657,7 @@ def funcy(a, b, c, **kwargs):
 
 - In python, when the object is passed in the strong typing, it checks whether the method is present in the object.Using the python `hasattr()` function, using we can check whether the method is present in the past object.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1676,7 +1676,7 @@ x=['a','b','c','d']
 print(random.choice(x)
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1697,7 +1697,7 @@ print(random.choice(x)
   - **form.disposition_options**: Options for 'content-disposition'.
   - **form.headers**: All HTTP headers are returned as a dictionary.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1710,7 +1710,7 @@ print(random.choice(x)
 
 - Python doesn't have a concept of private variables, use the leading underscores to declare a variable as private.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1723,7 +1723,7 @@ print(random.choice(x)
 
 - Yes, it is possible if other child classes instantiate the base class or if the base class is a static method.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1738,7 +1738,7 @@ print(random.choice(x)
 - **Method**: It is a function that is a member of a class.Methods consist of statements that may or may not return an output.
 - **Constructor**:  It is a special type of method that has the same name as the class name.These methods are used to initialize an object's state.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1752,7 +1752,7 @@ print(random.choice(x)
 - Python arrives with some file-related modules that have functions to manipulate text files and binary files in a file system.These modules can be used to create text or binary files, update their content, copy, delete, and more.
 - Some file-related modules are `os, os.path, and shutil.os`.The `os.path` module has functions to access the file system, while the shutil.os module can be used to copy or delete files.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1766,7 +1766,7 @@ print(random.choice(x)
 - In python, the `exec()` function executes the specified Python code.The `exec()` function accepts large blocks of code.
 - In python, the `eval()` function only accepts a single expression.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1779,7 +1779,7 @@ print(random.choice(x)
 
 - A metaclass in Python is a class of a class that defines how a class behaves.A class in itself is an instance of a metaclass.A class in Python defines how the instance of the class can behave.To grasp metaclasses well, one has to have prior experience working with Python classes.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1793,7 +1793,7 @@ print(random.choice(x)
 - In python, `swapcase()` is a string’s function
 - It converts all the uppercase characters into lowercase and vice versa.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1809,7 +1809,7 @@ print(random.choice(x)
    - It executes faster and does not add heavy processing to the runtime.
    - NumPy has a highly readable syntax, making it easy and convenient for programmers.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1832,7 +1832,7 @@ print(math.fact(5)
 print(random.randint(10, 20)
 ```
   
-</details markdown="1">
+</details>
 
 ---
   
@@ -1865,7 +1865,7 @@ For example, if maxsplit=3, then it will do 3 splits.
  
   
   
-</details markdown="1">
+</details>
 
 ---
 
@@ -1880,7 +1880,7 @@ For example, if maxsplit=3, then it will do 3 splits.
 - Incorporating functional programming in our codes means writing pure functions.
 - Pure functions are functions that cause little or no changes outside the scope of the function.These changes are referred to as side effects.To reduce side effects, pure functions are used, which makes the code easy-to-follow, test, or debug.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1914,7 +1914,7 @@ if (number >= 18) {
 }
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1931,7 +1931,7 @@ if (number >= 18) {
   - Import the whole module and rename it, usually using a shorter variable name: pycon import pandas as pd
   - Import specific things from the module and rename them as you're importing them: pycon from os.path import joins as join_path
   
-</details markdown="1">
+</details>
 
 ---
   
@@ -1958,7 +1958,7 @@ print(obj.add(10, 20)
 print(obj.add("Jack","ken")
 ```
   
-</details markdown="1">
+</details>
 
 ---
   
@@ -1972,7 +1972,7 @@ print(obj.add("Jack","ken")
 - No, we can't read files without opening.
 - If you want to read a file, open the file first then, use open() function to open a file.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -1989,7 +1989,7 @@ print(obj.add("Jack","ken")
 - **logging.warning()** issues a warning for a runtime event if we need to note the event even when the client can do nothing about it.
 - **logging.error()**, **logging.exception()** report the suppression of an error without raising an exception
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2011,7 +2011,7 @@ def Function(One, x):
   
 - Whenever we call Function(One,x), we will get the output.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2031,7 +2031,7 @@ def my_decorator_function(func):
     return wrapper_function
 ``` 
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2051,7 +2051,7 @@ def my_decorator_function(func):
   - We can handle arithmetic operators directly.
   - It is a longer sequence.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2072,7 +2072,7 @@ def my_decorator_function(func):
   - Iteration involves four clear-cut steps, initialization,condition,execution and updating.
   - Any recursive problem can be solved iteratively.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2085,7 +2085,7 @@ def my_decorator_function(func):
 
 - In python, an identifier can be of infinite length.The PEP-8 standard sets a rule that you should limit all lines to a maximum of 79 characters.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2098,7 +2098,7 @@ def my_decorator_function(func):
 
 - In Python, docstring is a string used to document a Python module, class, function or method, so that programmers can understand what it does without having to read the details of the implementation.Also, it is a common practice to generate online documentation automatically from docstrings.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2111,7 +2111,7 @@ def my_decorator_function(func):
 
 - You can create a new test suite with Python unittest by subclassing unittest, TestSuite and add your test cases.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2130,7 +2130,7 @@ assertTrue(len(mylist) > 0)
 assertTrue(mylist[0] > 5)
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2143,7 +2143,7 @@ assertTrue(mylist[0] > 5)
 
 - In python, `Assert` is a keyword used in the Python unittest module to make assertions about the code being tested.Assertions are checks that the code does, and it is supposed to be doing, and they will throw an error if the check fails.This is useful for finding bugs in code, and for making sure that the code behaves as expected.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2156,7 +2156,7 @@ assertTrue(mylist[0] > 5)
 
 - We can use the Python `unittest` module for automating unit tests.This module is part of the standard library, so it is always available, and it is relatively easy to use.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2171,7 +2171,7 @@ assertTrue(mylist[0] > 5)
 - We know that a package may contain sub-packages and modules.A module is nothing but Python code.
 To create a package of our own, we create a directory and create a file __init__.py in it.We leave it empty.Then, in that package, we create a module(s) with whatever code we want.For a detailed explanation with pictures, refer to Python Packages.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2195,7 +2195,7 @@ class A:
     a.func()
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2214,7 +2214,7 @@ class A:
 
 - PYTHONPATH − It has a role like PATH.This variable tells the Python interpreter where to locate the module files imported into a program.It should include the Python source library directory and the directories containing Python source code.PYTHONPATH is sometimes preset by the Python installer.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2227,7 +2227,7 @@ class A:
 
 In python, we already know about Multiple Inheritance, Method Resolution Order (MRO).C does not contain its own version of `func()`.Since the interpreter searches in a left-to-right fashion, it finds the method in A, and does not look for it in B.
 
-</details markdown="1">
+</details>
 
 ---
  
@@ -2246,7 +2246,7 @@ n1=int(n)
 print(type(n1),n1)
 ```
   
-</details markdown="1">
+</details>
 
 ---
   
@@ -2259,7 +2259,7 @@ print(type(n1),n1)
 
 - In python, the `assertTrue()` method checks whether the given condition is True.While the `assertFalse()` method checks the given condition is False, these methods are used to check the return value of a given function.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2297,7 +2297,7 @@ File "<pyshell#331>", line 2, in counterfunc
 while(n==7):print(n)
 KeyboardInterrupt
 
-</details markdown="1">
+</details>
 
 ---
  
@@ -2310,7 +2310,7 @@ KeyboardInterrupt
 
 - To share global variables across modules, we need to create a special module, and then import the config module into all modules of our application.This lets the module be global to all modules.
 
-</details markdown="1">
+</details>
 
 ---  
   
@@ -2343,7 +2343,7 @@ os.getcwd()
   
 'C:\Users\lifei\Desktop'
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2363,7 +2363,7 @@ os.getcwd()
 - `<l>` — List source code
 - `<p>` — Print an expression`
   
-</details markdown="1">
+</details>
 
 ---
   
@@ -2379,7 +2379,7 @@ os.getcwd()
     - 2.An ordered list values.
 - Python supports JSON parsers.In fact, JSON-based data is internally represented as a dictionary in Python.It will convert JSON data into Python data, and for that we use the `load()` function from the JSON module.
   
-</details markdown="1">
+</details>
 
 ---
   
@@ -2413,7 +2413,7 @@ Hello
 Oh then
 Bye 
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -2426,7 +2426,7 @@ Bye
 
 That is just an editor and a graphical version of the interactive shell.You can write your code or load code and run it or type it into the shell.There is no automated testing.
 
-</details markdown="1">
+</details>
 
 ---    
   
@@ -2447,7 +2447,7 @@ def thread_task(name, n):
 for i in range(10)
 ```
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -2470,7 +2470,7 @@ e.group()
 **Output:**
 brian@gmail.com 
  
-</details markdown="1">
+</details>
 
 ---
   
@@ -2483,7 +2483,7 @@ brian@gmail.com
 
 - In python, you can use the @unittest.skip decorator to skip a particular test method or class.This is useful when you want to temporarily disable a test or if you know that a particular test will not work on your system.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2497,7 +2497,7 @@ brian@gmail.com
 - In python, the while statement is used for simple repetitive looping.
 - The `for` statement is used when one wishes to iterate through a list of items, such as database records, characters in a string, etc.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2531,7 +2531,7 @@ for i in range(3):
 [0, 1, 2]
   ```
   
-</details markdown="1">
+</details>
 
 ---
 
@@ -2554,7 +2554,7 @@ while line:
 f.close()
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2580,7 +2580,7 @@ else:
 - The output of the above code is Hi-world.
 - "Hi-world" is executed because all the `if` conditions become true for the values of 'a' and 'b'.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2595,7 +2595,7 @@ else:
 - Most of the programming languages have switch/case because they don't have proper mapping constructs.You cannot map a value to a function, that's why they have it.
 - But in Python, you can easily have a mapping table(dict) where a certain value maps to a certain function.Python functions are first-class values, you can use the functions as the values of the dictionary get(key[, default]) method.Performance-wise, the Python dictionary lookup will almost certainly be more efficient than any solution you can rig yourself.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2624,7 +2624,7 @@ else:
     pass
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2640,7 +2640,7 @@ else:
 - The Python `re` module provides regular expression patterns.
 - This module is providing methods for searching text strings or replacing text strings along with methods for splitting text strings based on the pattern defined.
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -2657,7 +2657,7 @@ else:
 `map()` – it is a built-in function that applies the function to each item in an iterable.
 `reduce()` – repeatedly performs a pair-wise reduction on a sequence until a single value is computed.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2678,7 +2678,7 @@ class Derived(Base):
  
 If you're using classic classes: For a class definition such as class Derived (Base): you can call method `math()` defined in Base as Base.`math(self,arguments)`.Here, Base.math is an unbound method, so you need to provide the self-argument.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2701,7 +2701,7 @@ True
 'us' not in 'y'
 ```
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -2721,7 +2721,7 @@ else:
     print("not equal")
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2737,7 +2737,7 @@ else:
 We can do this by using the `float()` and `int()` statements.The `int()` function returns an integer.The `float()` function returns a floating-point representation of a float.
 - Finally, the code first converts the value of the variable to a float.Next, it will convert the value to an integer.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2764,7 +2764,7 @@ for i in range(1,10):
     print (i)
 ```
   
-</details markdown="1">
+</details>
 
 ---
   
@@ -2777,7 +2777,7 @@ for i in range(1,10):
 
 In python, double quotes are used for String representation and single quotes are used for String representation.These work in Python.The most used way by PEP 8 is in double quotes.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2802,7 +2802,7 @@ name = input("enter your name please:")
 print(name)
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2827,7 +2827,7 @@ Or automatically:
 
 ` pip-review --local --auto`
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2870,7 +2870,7 @@ def min(*args):
         return mini(*args)  
 ```  
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2884,7 +2884,7 @@ def min(*args):
 - To pass its parameters to a function in Python, we can use pass-by-reference.If you want to change a parameter within a function, the change reflects in the calling function.This is its default behaviour.
 - However, when we pass literal arguments like strings, numbers, or tuples, they it is pass by value.Because they are immutable.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2913,7 +2913,7 @@ class HeaderFileHandler(logging.FileHandler):
         return f
  ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2930,7 +2930,7 @@ class HeaderFileHandler(logging.FileHandler):
 a,b,c=3,4,5     #This assigns 3, 4, and 5 to a, b, and c.
 a = b = c =3         #This assigns 3 to a, b, and c
 ```
-</details markdown="1">
+</details>
 
 ---
   
@@ -2951,7 +2951,7 @@ pip install -r /path/to/req.txt
   
  -r, --req < filename >
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2975,7 +2975,7 @@ A(7)()
   
 7  
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -2988,7 +2988,7 @@ A(7)()
 
 - In python, when we are running automated unit tests, you will need to consider how your configuration settings and databases are set up.You will need to make sure that your tests are able to run without affecting the live data in your databases.One way to do this is to create a separate testing database that your tests can run against.This way, your tests can be run without affecting the data in your production database.
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -3005,7 +3005,7 @@ A(7)()
  - `os.rmdir()` - it will remove an empty directory
  - `shutill.rmtree()` - deletes a directory and all its contents.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3025,7 +3025,7 @@ print(type(chr(65))
 # <class 'str'>
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3038,7 +3038,7 @@ print(type(chr(65))
 
 In python, when a local variable is given the same name as a global variable, the global variable is shadowed in the scope of the local variable and cannot be accessed.
 
-</details markdown="1">
+</details>
   
 ---
   
@@ -3052,7 +3052,7 @@ In python, when a local variable is given the same name as a global variable, th
 - Yes, it is possible in python.
 - If the base class is instantiated by other child classes or if the base class is a static method.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3068,7 +3068,7 @@ In python, when a local variable is given the same name as a global variable, th
 - This made the command prompt use the 32-bit version of pip to install the module I chose.
 - When I run the IDLE, I run the 64-bit version.
 
-</details markdown="1">
+</details>
 
 ---  
 
@@ -3093,7 +3093,7 @@ import os
 True
 ...
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3114,7 +3114,7 @@ True
    - Place modules of one kind in this directory.
    - Create a `__init__.py` file in this directory.This python knows the directory we created is a package.The content of this package can be imported across different modules in other packages to reuse the functionality.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3132,7 +3132,7 @@ import importlib
 module = importlib.import_module('my_package.my_module')
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3147,7 +3147,7 @@ module = importlib.import_module('my_package.my_module')
    - The script file’s mode must be executable
    - The first line must begin with a hash(#).An example of this will be: #!/usr/local/bin/python
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3201,7 +3201,7 @@ password = input('Enter your password: ')
         print('Not the proper password.Please register again.')                                                
 ```  
                                                 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3224,7 +3224,7 @@ As a senior developer, how will you help him?
 - If we run the above code, we will get an infinite number of e.
 - If you want to exit from the infinite loop, Press ctrl+c you will exit from the loop and you will get the `KeyboardInterrupt` error.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3244,7 +3244,7 @@ b=3
 print(a**b)
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3257,7 +3257,7 @@ print(a**b)
 
 Python does not add the current directory to `sys.path`, but rather the directory that the script is in.Add the /home/user/work/project to either `sys.path` or `$PYTHONPATH.`
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3278,7 +3278,7 @@ dt = datetime(2020, 1, 31, 12, tzinfo=ZoneInfo("India/Los_Angeles")
 print(dt) 
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3293,7 +3293,7 @@ print(dt)
 - The Python `dictionary` is the only type of mapping in the base typeset.
 - In python, Mappings do not maintain any left-to-right position order, it will support access to stored data by key, as well as type-specific method calls.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3306,7 +3306,7 @@ print(dt)
 
 - The difference between the `.py` files is python files that have the source code but `.pyc` has the bytecode of your program.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3328,7 +3328,7 @@ print(os.environ['HOME'])
 
 `print(os.environ)`
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3349,7 +3349,7 @@ print(os.environ['HOME'])
      - `>=`	Greater than or equal to
 These operators are used to compare the two values.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3375,7 +3375,7 @@ cwd=os.getcwd()
 print(cwd)
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3388,7 +3388,7 @@ print(cwd)
 
 Multiple junior-level programmers manage to care debugging, so having a debugging process is important for all developers.Whether you are a savvy developer or just starting, understanding how to discover and fix bugs is important.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3405,7 +3405,7 @@ Multiple junior-level programmers manage to care debugging, so having a debuggin
    - Unit testing skills
    - Time management
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3423,7 +3423,7 @@ Multiple junior-level programmers manage to care debugging, so having a debuggin
    - Syntax errors are "grammatical errors" and this will be detected when you compile the program.
    - Syntax errors prevent your program from executing.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3436,7 +3436,7 @@ Multiple junior-level programmers manage to care debugging, so having a debuggin
 
 - In python, background debug mode is an interface that enables developers to debug the embedded systems.This mode facilitates debugging in microcontrollers.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3452,7 +3452,7 @@ Multiple junior-level programmers manage to care debugging, so having a debuggin
 - Then run code blocks or stop at certain points 
 - Finally, Inspect and modify the values of the variables
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3488,7 +3488,7 @@ ob=samp(5,3)
 print(ob.add(5,3)
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3501,7 +3501,7 @@ print(ob.add(5,3)
 
 Only one copy of static variables is created when a class is loaded.Each object instantiated has its own copy of instance variables.Only one copy of static variables is created when a class is loaded.Each object instantiated has its own copy of instance variables.
 
-</details markdown="1">
+</details>
 
 ---
    
@@ -3520,7 +3520,7 @@ After running this code what will be the output and explain how you got that?
 - After running the above code, we will get the output as `False`.
 - The round-off errors from 0.2 and 0.4 add and therefore there is a difference between (0.2 + 0.4) and 0.6.This is because you can't compare floating point values, and it cannot be considered exact.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3542,7 +3542,7 @@ class C(B):
 
 In multi-level inheritance, a subclass derives from another class which itself is derived from another class.In multi-level inheritance, a subclass derives from another class which itself is derived from another class.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3563,7 +3563,7 @@ print(a, b)
 
 The given python snippet is, a = 3, b = 1, print(a, b) a, b = b, a print(a, b).Here "a" and "b" values are assigned.a=3 b=1.The print function prints 3 and 1.a, b = b, a.It is evaluated by pushing both the values to the stack and the top two values will be rotated (so that the values will be swapped) and the values are assigned back to "a" and "b".So, it swapped values become, a=1 b=3.The print function prints 1 and 3.Hence, the correct answer is 3 1 1 3.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3582,7 +3582,7 @@ What will they answer to this question?
 
 In python language, when 'r' or 'R' is used before the string, it converts the string into a raw string and the escape sequence like \n is not converted.Therefore, the answer is \nhello.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3623,7 +3623,7 @@ print(c)
   
 - Finally, the output will be 11 because characters are not equal to l.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3636,7 +3636,7 @@ print(c)
 
 The **PYTHONPATH** environment variable is used by Python to define a list of directories that modules can import from Windows.For most installations, you should not set these variables since they are not needed for Python to run.Python understands where to see its standard library.
   
-</details markdown="1">
+</details>
 
 --- 
   
@@ -3662,7 +3662,7 @@ class directions(Enum):
 print(directions.North.value)
 ```
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -3696,7 +3696,7 @@ print("Accessing outside a function :",x)
   
 - After running this code, this throws an error as `UnboundLocalError`: local variable 'x' referenced before assignment.Because, while modifying the values, Python treats x as a local variable, but x is also not defined inside the function `(myfunc()`.
 
-</details markdown="1">
+</details>
 
 ---
    
@@ -3710,7 +3710,7 @@ print("Accessing outside a function :",x)
 
 If the local variable exists with the exact name as the global variable that you want to access, then the global variable is shadowed as variable that is, preference is given to the local variable.
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -3724,7 +3724,7 @@ If the local variable exists with the exact name as the global variable that you
 - A Python identifier is a term used to determine a variable, function, class, module, or object.Identifiers can be a mix of letters in lowercase (a to z) or uppercase (A to Z) or digits (0 to 9) or an underscore _.
 - In python, the length of the identifier can be of any size.The most extended identifier will be from PEP – 8 and PEP – 20.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3760,7 +3760,7 @@ else:
     print(y)
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3776,7 +3776,7 @@ else:
     - if you are duck typing and things look like a duck, then it is assumed a duck even if that is just a flag or stamp.The code, in this case, would be a run-time error.
 - For example, Print "Hello world" would result in the runtime error of the missing parenthesis that is needed by print ( ).
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3803,7 +3803,7 @@ def func():
 func()
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3828,7 +3828,7 @@ for n in n:
 print("Break statement")
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3854,7 +3854,7 @@ class Cat(Animals):
       print ("meow")
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3893,7 +3893,7 @@ obj.setName("pup")
 print(obj.getName()
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3930,7 +3930,7 @@ obj1 = Human()
 obj1.leg()
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3956,7 +3956,7 @@ print(obj.add(10, 20, 30)    # output: 60
   
 Here, we have passed a different number of arguments at the time of calling, and we are getting different outputs as well for that.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -3969,7 +3969,7 @@ Here, we have passed a different number of arguments at the time of calling, and
 
 In the above scenario, class Animal is a parent class of both Dog and Cat classes.Also, Dog and Cat both classes inherit from the same base class which is the Animal class.So, Dog and Cat are derived classes of the same base class, which is the definition of Hierarchical inheritance.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -4007,7 +4007,7 @@ def add(a,b,c):
 print(add(2,4,6)   # output: 12 
 ```
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -4020,7 +4020,7 @@ print(add(2,4,6)   # output: 12
 
 By the definition, Multiple inheritances state that one derived class can inherit properties from more than 1 base class.In the above scenario also, we can see that the Child class is a derived class which inherits all the properties from the 2 base classes, that is Father and Mother classes.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -4034,7 +4034,7 @@ By the definition, Multiple inheritances state that one derived class can inheri
 - False
 - Suppose, if we define two functions with the same name and different argument lists in python, and when we try to call the first function, it will give an error in the program.But, when we try to call the second function, it doesn't give the error and overrides the prior function and generates the output.
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -4078,7 +4078,7 @@ obj.wheel()
 - Output for the above code is, `It can have 2 or more wheels`.
 - Car class overrides the wheel() method of Vehicle class and therefore when calling the wheel() method of Car using the object of Car class, it prints the statement present inside it.
   
-</details markdown="1">
+</details>
 
 ---
   
@@ -4099,7 +4099,7 @@ print(len(1.5, 2.8, 3.3))    #Output: 3
   
 - Different types of values are present in different print statements.First, it is a string, then it is a list, and at last, it is a tuple.The len() function returns the length of these values.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -4126,7 +4126,7 @@ obj.show()
                                           40
 -Before method calling, the first print statement prints the value of the global variable i.e 40.And when the show() method is called, the print statement present inside will also print the value of x as 40, not 20, because x= 20 is a class variable which must be accessed by using the class name before the variable name.Therefore, it will also take the global variable value i.e 40 in this case.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -4143,7 +4143,7 @@ obj.show()
 - As the code size increases, the compiler takes more time to scan a code compared to Interpreters.
 - Example: C, C++, java, etc are based on Compilers whereas Python, Ruby, MATLAB, etc.are interpreted languages.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -4160,7 +4160,7 @@ obj.show()
 - 4_id is not a valid identifier because the identifier should not start with a digit.
 - for is invalid because it is a reserved word in python.
 
-</details markdown="1">
+</details>
 
 ---
   
@@ -4190,7 +4190,7 @@ for i in list1:
   
 - i%2==0 is the condition for printing even numbers and i> 3 will take the value of i which is greater than 3 and there is a logical or operator between both the if conditions.Therefore, when either of the conditions becomes true only then the print statement inside if will executes.Hence, we get the result as 4, 2, 7, 8, and 9.
 
-</details markdown="1">
+</details>
 
 ---
   

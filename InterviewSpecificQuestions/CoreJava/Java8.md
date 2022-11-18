@@ -20,7 +20,7 @@
             .forEach(System.out::println);
     }
 ```
-</blockquote  markdown="1">
+</blockquote>
 
 **Output**<br>
     
@@ -33,11 +33,11 @@
 - It provides a method `filter ()` to filter stream elements on the basis of given predicate.
 - This method take predicate as an argument and returns a stream of consisting of resulted elements.
     
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
     
-</details markdown="1">
+</details>
 
 ---
 
@@ -54,9 +54,9 @@
 - **Compile-time error**: Abstract methods do not specify a body.
 - **Reason**: without default keyword, compiler consider it as abstract method which doesn’t have body.
 
-</blockquote  markdown="1">
+</blockquote>
     
-</details markdown="1">
+</details>
 
 ---
 
@@ -71,8 +71,8 @@
 - More reusable,testable and maintable.
 - User can write parallel code.
 - User can write database like operations.
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -85,8 +85,8 @@
 
 An Interface that contains exactly one abstract method is known as functional interface.It can have any number of defaults, static methods but can contain only one abstract method.It can also declare methods of object class.Functional Interface is also known as Single Abstract Method Interfaces or SAM Interfaces.
     
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -101,8 +101,8 @@ An Interface that contains exactly one abstract method is known as functional in
 - Lambda expressions express instances of functional interfaces (An interface with single abstract method is called functional interface.An example is `java.lang.Runnable`).
 - Lambda expressions implement the only abstract function and therefore implement functional interfaces
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -115,8 +115,8 @@ An Interface that contains exactly one abstract method is known as functional in
 
 It is the process of chaining different operations together.It accomplishes this function by dividing stream operations into two categories, intermediate operation, and terminal operations.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -132,8 +132,8 @@ It is the process of chaining different operations together.It accomplishes this
     - Annotate the interface with `@FunctionalInterface`, which is the Java 8 convention for custom functional interfaces.
     - Ensure that the interface has just one abstract method.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -146,8 +146,8 @@ It is the process of chaining different operations together.It accomplishes this
 
 Inside Functional Interface we can take only one abstract method, if we take more than one abstract method then compiler raise an error.Interface can declares an abstract method overriding one of the public method from `java.lang.Object`, that still can be considered as functional interface.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -160,8 +160,8 @@ Inside Functional Interface we can take only one abstract method, if we take mor
 
  Java 8 has introduced the concept of default methods which allow the interfaces to have methods with implementation without affecting the classes that implement the interface.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -174,7 +174,7 @@ Inside Functional Interface we can take only one abstract method, if we take mor
 
 Stream `findFirst()` returns an Optional (a container object which may or may not contain a non-null value) describing the first element of this stream, or an empty Optional if the stream is empty.
 
-</blockquote  markdown="1">
+</blockquote>
 
 <details markdown="1"> <summary> <b> Explanation </b> </summary>
 <blockquote markdown="1">
@@ -203,9 +203,9 @@ Stream `findFirst()` returns an Optional (a container object which may or may no
 one<br>
 one
 
-</blockquote  markdown="1">
-</details markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
+</details>
 
 ---
 
@@ -217,8 +217,8 @@ one
 <blockquote markdown="1">
 
 Stream `findAny()` returns an Optional (a container object which may or may not contain a non-null value) describing some element of the stream, or an empty Optional if the stream is empty.
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -231,8 +231,8 @@ Stream `findAny()` returns an Optional (a container object which may or may not 
 
 There are instances where you have a stream, but you only want to select a random element as long as it meets certain conditions and the operation itself takes the shortest time possible.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -248,8 +248,8 @@ There are instances where you have a stream, but you only want to select a rando
 - Example: Youtube
     - If we are watching a video all the content of the video will not be loaded at once.As the time elapses, we will get the content.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -269,8 +269,8 @@ There are instances where you have a stream, but you only want to select a rando
 - Multiple consumption: Most of the Collection APIs support iteration and consumption of elements multiple times.
 - With Stream API we can consume or iterate elements only once.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -286,8 +286,8 @@ We can declare a lambda expression by-
 - (parameters) -> expression
 - (parameters) -> { multiple statements}
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -301,8 +301,8 @@ We can declare a lambda expression by-
 - `@Functional interface `- used to force the compiler to check whether the given interface has single-abstract method or not.
 - If not, compiler will throw error `"Unexpected @FunctionalInterface annotation"`
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -343,7 +343,7 @@ import java.lang.annotation.RetentionPolicy;
     }
 ```
 
-</blockquote  markdown="1">
+</blockquote>
 
 <details markdown="1"> <summary> <b> Explanation </b> </summary>
 <blockquote markdown="1">
@@ -354,9 +354,9 @@ In this example, we have used RetentionPolicy.RUNTIME because we want to demonst
 
 @TestAnnotationForClass(currentRevision=6, lastModified=9/18/2020, lastModifiedBy=Editorial Team, author=Editorial Team, date=9/18/2020)
 
-</blockquote  markdown="1">
-</details markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
+</details>
 
 ---
 
@@ -376,8 +376,8 @@ Example:
     String value=null;<br>
     Optional <String> value=Optional.empty();
     ```
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -393,8 +393,8 @@ Example:
 - Function 
 - Supplier
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -441,8 +441,8 @@ class Main{
 ```
 
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -456,8 +456,8 @@ class Main{
 we can do that by overriding the default method in the implementation class.Altogether provide new implementation or invoke either one of the `default()` method using `super` keyword
 For example, `\<interfaceName\>.super.\<defaultMethodName\>`
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -472,8 +472,8 @@ For example, `\<interfaceName\>.super.\<defaultMethodName\>`
 - **Compile-time error**: The default method `displayDefaultMethod()` inherited from DemoInterfaceA conflicts with another method inherited from DemoInterfaceB
 - To overcome this error, override this conflicting method and provide new implementation or invoke default method’s implementation using `super` keyword
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -501,8 +501,8 @@ The `joining ()` method of the Collectors class in Java 8 returns a Collector th
 
 Concatenated = Demo
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -516,8 +516,8 @@ Concatenated = Demo
 `String::ValueOf` is a simple static method referencing the `valueOf` method, belonging to the class 
 `String`.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -534,8 +534,8 @@ The following is the expression for a method reference:
 
     `Class::methodname`
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -560,8 +560,8 @@ Similarly, it can also be used to get the current time:
     System.out.println(currentTime);
     ```
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -582,8 +582,8 @@ Similarly, it can also be used to get the current time:
 - Used to end the process under execution.
 - Code is immediately executed upon encounter.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 28.Can the following piece of code compile successfully?
@@ -602,15 +602,15 @@ default void count() {
 }
 ```
 
-</blockquote  markdown="1">
+</blockquote>
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
 
 Yes, the code can compile and execute without any errors.It uses functional interface specifications when the single abstract method is being defined.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -633,8 +633,8 @@ Collections.sort(names, (s1, s2) -> s1.compareTo(s2);
 }
 ```
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -661,8 +661,8 @@ Yes, it is possible to call a static method in a class by making use of the name
     }
 ```
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -683,8 +683,8 @@ Random random = new Random();
 random.ints().limit(20).forEach(System.out::println);
 
 ```
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -697,8 +697,8 @@ random.ints().limit(20).forEach(System.out::println);
 
 Collectors are mainly used to combine the result after the processing of elements in a stream.They are used to return lists or strings.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -717,8 +717,8 @@ In Java 8, the following code is used to print the sum of all of the numbers tha
     System.out.println("Sum of all numbers : " + stats.getSum();
 ```
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -738,8 +738,8 @@ The Stream API in Java 8 can be effectively used if the Java project calls for t
     - Use pipeline operations
     - Use internal iteration
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -752,8 +752,8 @@ The Stream API in Java 8 can be effectively used if the Java project calls for t
 
 A supplier is a simple functional interface in Java 8 that does not take in any argument.It is used as an assignment target when making use of lambda expressions.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -767,8 +767,8 @@ A supplier is a simple functional interface in Java 8 that does not take in any 
 - The Predicate is also a functional interface in Java and it is defined in the java.util.function package.
 - It improves the readability and manageability of our code.Also, it helps us in unit testing them separately.
 - We can use Predicate anywhere where we need to evaluate a condition on a Collection of objects such that evaluation can result either in true or false.
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -788,8 +788,8 @@ There are many functional interface types in the standard library, and some of t
 - Supplier
 - UnaryOperator
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -808,8 +808,8 @@ The examples that are widely used in intermediate operations are:
 - `Map(Function)`
 - `skip(long n)`
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -822,8 +822,8 @@ The examples that are widely used in intermediate operations are:
 
 Both `map` and `flatMap` operations are a form of intermediate stream operations that take in a function and use the input function for performing various activities in the stream.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -836,8 +836,8 @@ Both `map` and `flatMap` operations are a form of intermediate stream operations
 
 Duplicate elements can be listed and removed easily by applying stream operations and performing a collection, later using the `Collections.toSet()` method.This should remove all the duplicate elements present in the list.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -855,8 +855,8 @@ Any array in Java 8 can be converted into a stream easily using the stream class
     Stream numbers = Stream.of(testarray);
     numbers.forEach(System.out::println);
 ```
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -871,8 +871,8 @@ The `peek()` method is a part of the stream class in Java 8, which is used to se
 
 Peeking has a wide amount of usage when efficiency is a requirement, when debugging code with the lambda expression, or when performing stream processing.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -885,8 +885,8 @@ Peeking has a wide amount of usage when efficiency is a requirement, when debugg
 
 Spliterator is a newly introduced iterator interface for Java 8.It is very efficient and handles API-related operations seamlessly across the runtime environment.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -907,8 +907,8 @@ Spliterator is a newly introduced iterator interface for Java 8.It is very effic
 - ZonedDate Time Class in Java:
     - It is an immutable representation of a date-time with a time-zone.Use it when time zones are to be considered.It is used to store all date and time fields.
     
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -928,8 +928,8 @@ LocalDate newDate = LocalDate.parse("2016-08-23");
 System.out.println("Parsed date : " + newDate);
 
 ```
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -944,8 +944,8 @@ System.out.println("Parsed date : " + newDate);
 - A function takes one argument and returns an object.
 - Both are useful for evaluating lambda expressions.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -974,8 +974,8 @@ Example:
 ```
 It can extend other interfaces which do not have any abstract method and only have the default, static, another class is overridden, and normal methods.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---
 
@@ -988,7 +988,7 @@ It can extend other interfaces which do not have any abstract method and only ha
 
 It encapsulates optional values, i.e., null or not-null values, which helps in avoiding null checks, which results in better, readable, and robust code It acts as a wrapper around the object and returns an object instead of a value, which can be used to avoid run-time NullPointerExceptions.
 
-</blockquote  markdown="1">
-</details markdown="1">
+</blockquote>
+</details>
 
 ---

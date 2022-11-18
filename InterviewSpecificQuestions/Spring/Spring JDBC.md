@@ -11,9 +11,9 @@
 - `JDBC` is the core API to connect your java application with any database vendor.
 - When we use Java `JDBC` there are multiple configuration steps, starting from loading the river to closing the DB connection developer has to manage.
 - When we use the `Spring JDBC` module under the Spring framework, it takes care of all low-level common `JDBC` operations and allows the developer to focus only on business logic.
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -28,9 +28,9 @@
 - `DataSource` is a factory for connections to the physical data source.
 - In enterprise applications, the `DataSource` object is the preferred means of getting a connection to your database.
   
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -47,9 +47,9 @@
     - `Connection pooling implementation` -- produces a Connection object that will automatically participate in connection pooling.
     - `Distributed transaction implementation` -- produces a Connection object that may be used for distributed transactions and almost always participates in connection pooling.
 
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 4.What is `Connection Pooling` in an enterprise application?
@@ -64,9 +64,9 @@
 - `Connection pooling` can greatly increase the performance of your Java application, while reducing overall resource usage.
 -  Connection pool is a memory cache of database connections which is maintained by a connection pooling provider as a layer on top of any standard JDBC driver.
 
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 5.What default connection pool does spring boot use?
@@ -80,9 +80,9 @@
 - `Spring Boot` uses `HikariCP` as the default connection pool.
 - `HikariCP` has great performance and concurrency.
 
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -104,9 +104,9 @@
     - `PostgreSQL PGSimpleDataSource`
     - `C3P0`
 
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 7.What is the sequence of choosing various connection pools inside the Spring application?
@@ -123,9 +123,9 @@
     - Otherwise, if Commons `DBCP2` is available, Spring will use that.
 - If none of `HikariCP`, `Tomcat`, and `DBCP2` are available and if `Oracle UCP` is available, Spring will use it.
 
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 8.What is `Programmatic & Declarative Transaction Management` in the Spring application?
@@ -144,9 +144,9 @@
 - Most Spring Framework users choose declarative transaction management as this option has the least impact on application code.
 - To summarize, Programmatic Transaction management is more flexible during development time but less flexible during application life.whereas Declarative Transaction management is less flexible during development time but more flexible during the application life
 
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 9.What does isolation and propagation attributes denote in @Transactional annotation e.g.`@Transactional(isolation = xxx, propagation = xxx)`?
@@ -161,9 +161,9 @@
     - `Isolation`: The degree to which this transaction is isolated from the work of other transactions.For example, can this transaction see uncommitted writes from other transactions?
     - `Propagation`: Typically, all code within a transaction scope runs in that transaction.However, you can specify the behaviour if a transactional method is run when a transaction context already exists.For example, code can continue running in the existing transaction (the common case), or the existing transaction can be suspended, and a new transaction created.
 
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 10.What configurations do `Spring JDBC` & developer need to perform in the application?
@@ -189,8 +189,8 @@
 | 9         | Handle transactions.                                   | X          |               |
 | 10        | Close the connection, the statement, and the result set.| X          |               |
 
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---

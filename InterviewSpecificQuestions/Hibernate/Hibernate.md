@@ -12,9 +12,9 @@
 ![Hibernate](https://user-images.githubusercontent.com/106813140/192742158-93dfe2ff-6019-4a5b-9b63-8223a3485a10.png)
 
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -29,9 +29,9 @@
 
 - Hibernate ORM stands for Object Relational Mapping.This is a mapping tool pattern mainly used for converting data stored in a relational database to an object used in object-oriented programming constructs.This tool also helps greatly in simplifying data 	retrieval, creation, and manipulation.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -48,9 +48,9 @@
 - Data Persistence is a means for an application to persist and retrieve information from a non-volatile storage system.
 - Persistence is vital to enterprise applications because of the required access to relational databases.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -74,9 +74,9 @@
   - The second problem that may occur is because the results of most queries are sets or multisets of tuples and each tuple is formed of a sequence of attribute values.In the program, it is necessary to access the individual data values within individual tuples for printing or processing.Hence, there is a need for binding to map the query result data structure which is a table to an appropriate data structure in the programming language.A mechanism is needed to loop over the tuples in a query result in order to access a single tuple at a time and to extract individual values from the tuple.The extracted values are typically copied to appropriate program variables for further processing by the program.A cursor or iterator is a variable which is used for looping over the tuples in a query result.Individual values within each 	tuple are extracted into different or unique program variables of the appropriate datatype.
   - Impedance mismatch is less of a problem when a special database programming language is designed that uses the same data model and data type as a database model for example Oracle’s/SQL.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -92,9 +92,9 @@
 
 - Yes we can use.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -150,9 +150,9 @@ public class OrderDetail implements Serializable {
 - One User can have multiple OrderDetails.In eager loading strategy, if we load the User data, it will also load up all orders associated with it and will store it in a memory.
 - But when we enable lazy loading, if we pull up a UserLazy, OrderDetail data won't be initialized and loaded into a memory until we make an explicit call to it.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -167,9 +167,9 @@ public class OrderDetail implements Serializable {
 
 - I will choose hibernate because using this we can persist entity class object into database and can retrieve data from database in form of entity object.So, performance of project will increase .
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -191,9 +191,9 @@ public class OrderDetail implements Serializable {
 
 ```
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -208,9 +208,9 @@ public class OrderDetail implements Serializable {
 
 - A database dialect is a configuration setting for platform independent software (JPA, Hibernate, etc.) which allows such software to translate its generic SQL statements into vendor specific DDL, DML.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -247,9 +247,9 @@ public class OrderDetail implements Serializable {
 </hibernate-configuration>
 ```
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -266,9 +266,9 @@ public class OrderDetail implements Serializable {
 - Yes, we can change suppose my file name is revature.cfg.xml then our application will load it as 
 SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSessionFactory().
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -288,9 +288,9 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
     <property name="hibernate.hbm2ddl.auto">update</property>
 ```
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -306,9 +306,9 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 
 - Default constructor automatically comes in class so not necessary to mention it explicitly.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -324,9 +324,9 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 
 - HBM is a short name for Hibernate Mapping.It is an xml file in which we define the mapping between pojo class to database table 	and pojo class variables to table columns.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -342,9 +342,9 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 
 - No, we can skip because it maps entity class variable to database table column.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -369,9 +369,9 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
   <mapping file=”a.hbm.xml” />
 ```
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -394,9 +394,9 @@ Class Cls = ...;
 cls.getField("xyz").getAnnotation(ManyToMany.class).mappedBy
 ```
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -414,9 +414,9 @@ cls.getField("xyz").getAnnotation(ManyToMany.class).mappedBy
   Let the hibernate identifies the type automatically
 - Map the hibernate types explicitly in the mapping file
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -434,9 +434,9 @@ cls.getField("xyz").getAnnotation(ManyToMany.class).mappedBy
 SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSessionFactory().
 ```
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -452,9 +452,9 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 
 Yes, because all the methods of SessionFactory is synchronized so at a time it will allow only one task.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -472,9 +472,9 @@ Yes, because all the methods of SessionFactory is synchronized so at a time it w
 - The session objects should not be kept open for a long time because they are not usually thread safe and they should be created and destroyed them as needed.
 
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -497,9 +497,9 @@ session.save(entity class object);
 
 ```
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -519,9 +519,9 @@ What advantages I see in using @Annotations:
 •	with packagesToScan Spring's feature entites are easily scannable
 •	moving entites from packages to packages or class renaming is easy
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -537,9 +537,9 @@ What advantages I see in using @Annotations:
 
 Yes, we can use because JPA is a specification.So, we can use all its annotation with hibernate.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -566,9 +566,9 @@ SessionFactory sc=cfg.buildSessionFactory();
 • SessionFactory object will be created once and will be used by multiple users for long time.Because it is a thread safe class.
 • Session Factory object is the factory for session objects.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -584,9 +584,9 @@ SessionFactory sc=cfg.buildSessionFactory();
 - First level cache is a session level cache, and it is always associated with session level object.
 - Second level cache is session factory level cache, and it is available across all sessions.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -612,9 +612,9 @@ Class.newInstance()
 - Persistent instance variables must be declared private, protected, or package-private.
 Being only accesible through accessor or business methods allow interception in proxies.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -672,9 +672,9 @@ Example 2.Property-based access
 ```
 When using property-based access, Hibernate uses the accessors for both reading and writing the entity state.Every other method that will be added to the entity (e.g.helper methods for synchronizing both ends of a bidirectional one-to-many association) will have to be marked with the @Transient annotation.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -690,9 +690,9 @@ When using property-based access, Hibernate uses the accessors for both reading 
 
 - @ForeignKey and @Relations
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -732,9 +732,9 @@ Text.java
     private String code;
 ```
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -800,9 +800,9 @@ public class Task {
   private String description;
 ```
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -818,9 +818,9 @@ public class Task {
 
 ![hiber2](https://user-images.githubusercontent.com/106813140/192742500-013b5b25-9fe1-4f96-914e-5dfbe77a800a.png)
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -846,9 +846,9 @@ powerful and easy-to-learn language that makes SQL object oriented.
 tables, procedures, or views to your database.The permissions on these added objects
 can be changed.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -901,9 +901,9 @@ can be changed.
 
 ![hiber1](https://user-images.githubusercontent.com/106813140/192742423-e0cc47ea-7fe2-44d0-b9b2-d02aa7553cf7.jpg)
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------
 
@@ -925,8 +925,8 @@ Criteria cr = session.createCriteria(Employee.class);List results = cr.list();
 ```
 
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ------

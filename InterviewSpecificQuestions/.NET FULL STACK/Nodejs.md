@@ -12,9 +12,9 @@
 
 Node.js comes with a runtime environment on which a JavaScript-based script can be interpreted and executed (It is analogous to JVM to JAVA byte code).This runtime allows to execution of a JavaScript code on any machine outside a browser.Because of this runtime of Node.js, JavaScript is now can be executed on the server as well.
 	
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -28,9 +28,9 @@ Node.js comes with a runtime environment on which a JavaScript-based script can 
     
 Many leading businesses have used Node.JS to develop quality apps.Some of the most popular ones include Netflix, Uber, LinkedIn, PayPal, and eBay.We can go for Node JS download and create reliable apps for mobile and desktop.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -44,9 +44,9 @@ Many leading businesses have used Node.JS to develop quality apps.Some of the mo
 
 Node meets the low-latency requirements of real-time applications.It is ideal for handling countless client requests and suitable for instant messaging apps and online gaming.Node also allows the reuse of library code packages to save time and effort.Additionally, data syncing between the server and end-user happens quickly when we use Node.JS.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -60,9 +60,9 @@ Node meets the low-latency requirements of real-time applications.It is ideal fo
 
 Developers prefer Node for its simplicity.We can also take advantage of a short response time due to event-based models and non-blocking I/O.Node even supports concurrent processing and eliminates the need to use thread management.Additionally, developers can enjoy a reliable performance as Node is built on Google Chrome V8 Engine.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -76,9 +76,9 @@ Developers prefer Node for its simplicity.We can also take advantage of a short 
 
 Node.JS relies on single-thread programming to execute functions.Monolith apps generally come with multiple functionalities, and a single-thread approach can delay services.Additionally, a single thread makes use of a single processor core and doesn’t fully utilize server capabilities.As a result, Node is not suitable for monolith apps that have a high load.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -92,9 +92,9 @@ Node.JS relies on single-thread programming to execute functions.Monolith apps g
 
 Node.js is single threaded for async processing.By doing async processing on a single thread under typical web loads, more performance and scalability can be achieved instead of the typical thread-based implementation.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -109,9 +109,9 @@ Node.js is single threaded for async processing.By doing async processing on a s
 - The Multi-Threaded Request/Response Stateless Model is not followed by the Node JS Platform, and it adheres to the Single-Threaded Event Loop Model.
 - The Node JS Processing paradigm is heavily influenced by the JavaScript Event-based model and the JavaScript callback system.Hence, Node.js can easily manage more concurrent client requests.The event loop is the processing model's beating heart in Node.js.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -127,9 +127,9 @@ The two types of API functions in Node.js are:
 - Asynchronous, non-blocking functions
 - Synchronous, blocking functions
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -144,9 +144,9 @@ The two types of API functions in Node.js are:
 - All APIs of the Node.js library is asynchronous that is non-blocking.It essentially means a Node.The js-based server never waits for an API to return data.
 - The server moves to the next API after calling it and a notification mechanism of Events of Node.js helps the server to get a response from the previous API call.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -165,9 +165,9 @@ The two types of API functions in Node.js are:
   - Provides online repositories for node.js packages/modules, which are searchable on search.nodejs.org
   - Provides command-line utility to install Node.js packages and manages Node.js versions and dependencies.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -181,9 +181,9 @@ The two types of API functions in Node.js are:
 
 It is a generic piece of code which runs in between several asynchronous function calls and is known as a control flow function.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -197,9 +197,9 @@ It is a generic piece of code which runs in between several asynchronous functio
 
 Globally installed packages/dependencies are stored in /npm directory.Such dependencies can be used in CLI (Command Line Interface) function of any node.js but cannot be imported using require() in the Node application directly.To install a Node project globally use `-g flag`.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -215,9 +215,9 @@ Globally installed packages/dependencies are stored in /npm directory.Such depen
 - Callback functions are already registered with events and when an event is executed, the corresponding callback function is called.
 - Therefore, the flow of the program is decided by these events and hence the name.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -232,9 +232,9 @@ Globally installed packages/dependencies are stored in /npm directory.Such depen
 
 Modules are like JavaScript libraries that can be used in a Node.js application to include a set of functions.To include a module in a Node.js application, use the `require()` function with the parentheses containing the module's name.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -248,9 +248,9 @@ Modules are like JavaScript libraries that can be used in a Node.js application 
 
 In Node.js, a module encapsulates all related codes into a single unit of code that can be parsed by moving all relevant functions into a single file.We may export a module with the module and export the function, which lets it be imported into another file with a needed keyword.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -264,9 +264,9 @@ In Node.js, a module encapsulates all related codes into a single unit of code t
 
 Express is a flexible Node.js web application framework that provides a wide set of features to develop both web and mobile applications.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -281,9 +281,9 @@ Express is a flexible Node.js web application framework that provides a wide set
 - The request object represents the HTTP request and has properties for the request query string, parameters, body, HTTP headers, and so on.
 - The response object represents the HTTP response that an Express app sends when it receives an HTTP request.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -302,9 +302,9 @@ Express is a flexible Node.js web application framework that provides a wide set
   - Duplex − Can be used for both reading and writing operations.
   - Transform − A type of duplex stream where the output is computed based on input.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -320,9 +320,9 @@ Express is a flexible Node.js web application framework that provides a wide set
 - To update:  `npm update`.
 - To delete:  `npm uninstall express`.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -340,9 +340,9 @@ Express is a flexible Node.js web application framework that provides a wide set
 1.**Identifying metadata properties**: It basically consists of the properties to identify the module/project such as the name of the project, current version of the module, license, author of the project, description of the project etc.
 2.**Functional metadata properties**: As the name suggests, it consists of the functional values/properties of the project/module such as the entry/starting point of the module, dependencies in the project, scripts being used, repository links of Node project etc.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -402,9 +402,9 @@ npm init
 }
 ```
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -439,9 +439,9 @@ console.log(myURL1.href)
 
 ```
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 

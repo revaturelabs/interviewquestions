@@ -11,9 +11,9 @@
 - `Git` is a very famous tool which facilitates source code management in software development.
 - We can track changes in computer files (versions) using `Git`.
 - Using git can track the progress of a project over time as well as coordinate work among team developers.
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 2.What is the difference between `Git` and `GitHub`?
@@ -28,9 +28,9 @@
 - Whereas `GitHub` is a web application that provides service to host source code, commonly referred to as Git repository.
 - `GitHub` provides all of the distributed version control and `source code management (SCM)` functionalities of Git, along with a few of its features.
   
-</blockquote  markdown="1"> 
+</blockquote> 
     
-</details markdown="1">
+</details>
 
 ---
 3.What do you understand by Git repository?
@@ -45,9 +45,9 @@
 - These files can either be stored on the local repository or the remote repository.
 - The local repository is the folder inside your system where you will find one hidden folder named `.git` 
 
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -68,9 +68,9 @@ git init
 ```
 
 - After the above command, a hidden `.git` folder will appear in the directory.
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -85,9 +85,9 @@ git init
 - Ideally, the contents of the  .git folder are modified by the `git` command, we are not supposed to tamper with any files manually.
 - The .git folder contains all information that is necessary for the project and all information relating to commits, remote repository address, etc.
 - It also contains a log that stores the commit history and helps to roll back to the desired version of the code.
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -106,9 +106,9 @@ git init
 git log
 ```
 
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -123,9 +123,9 @@ git log
 - The project files that we are currently working on are called working trees,or working directory
 - We can think of a working tree as a file system where you can view and modify files.
   
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -141,9 +141,9 @@ git log
 - The index compares the files in the working tree to the files in the repo.
 - When you make a change in the working tree, the index marks the file as modified before it is committed.
   
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -162,9 +162,9 @@ git clone '<remote-repository-url>'
 ```
 
 -  Above command will automatically set up a local master/main branch that tracks the remote master/main branch it was cloned from.
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -182,9 +182,9 @@ git clone '<remote-repository-url>'
 git clone -b feature/audit --single-branch 'https://<github-username>@github.com/my-organization/my-project.git'
 ```
 
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -206,9 +206,9 @@ git add --all
 ```
 
 -  Above command stages all (new, modified, deleted) files
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -229,8 +229,8 @@ git commit -m "Added first commit"
 
 -  In the above command, we specify the message for the commit.
 
-</blockquote  markdown="1"> 
-</details markdown="1">
+</blockquote> 
+</details>
 
 ---
 
@@ -249,8 +249,8 @@ git commit -m "Added first commit"
 git push 
 ```
 
-</blockquote  markdown="1"> 
-</details markdown="1">
+</blockquote> 
+</details>
 
 ---
 
@@ -264,9 +264,9 @@ git push
     
 - Untracked files are files that have been created within your repo's working directory but have not yet been added to the repository's tracking index using the `git add command.
   
-</blockquote  markdown="1"> 
+</blockquote> 
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -280,9 +280,9 @@ git push
 
 A source-code repository is an archive with the code as well as the hosting facility for these software archives, where you can also have the project’s technical documentation, web pages, snippets, patches, etc.which can be accessed publicly (open-source) or privately.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -301,9 +301,9 @@ Using a source code repository has many potential benefits for an organization, 
 - **Increased Transparency:** Most source code repositories require a developer to check out, edit, and then check back in the part of the program he or she was editing.The repository records which developer made changes and when, resulting in a log of updates made to the program over time.
 - **Version Control:** When developers make enough changes to a program stored in a source code repository, they can designate the updated program as a new “version” of the software.A repository also stores previous versions of a program, a feature that allows companies to restore a previous version if, for example, an update introduces a harmful bug.
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
 
@@ -324,8 +324,8 @@ Using a source code repository has many potential benefits for an organization, 
 7.Git checkout
 8.Git merge
 
-</blockquote  markdown="1">
+</blockquote>
 
-</details markdown="1">
+</details>
 
 ---
