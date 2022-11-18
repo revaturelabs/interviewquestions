@@ -1,10 +1,10 @@
 1. What are directives?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
   
 Directives add behavior to an existing DOM element or an existing component instance.
   </blockquote>
@@ -14,11 +14,11 @@ Directives add behavior to an existing DOM element or an existing component inst
 
 2. What are the differences between Component and Directive?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 On a short note, A component(`@Component`) is a directive-with-a-template. Some of the major differences are mentioned in a tabular form:
 
@@ -35,11 +35,11 @@ On a short note, A component(`@Component`) is a directive-with-a-template. Some 
 
 3. What are the different types of directives in Angular?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
     
  - **Component Directives** - Component directives alter the details of how the component should be processed, instantiated, and used at runtime.
 - **Structural Directives** -  Structural directives are used for adding, removing, or manipulating DOM elements.
@@ -54,11 +54,11 @@ On a short note, A component(`@Component`) is a directive-with-a-template. Some 
     
 4. Explain Structural Directives in Angular?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
- <blockquote>
+ <blockquote markdown="1">
     
 - Structural directives are used for adding, removing, or manipulating DOM elements
 - Structural directives start with an asterisk (*) followed by a directive name. 
@@ -96,11 +96,11 @@ On a short note, A component(`@Component`) is a directive-with-a-template. Some 
   
 5. Explain Attribute Directives in Angular?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
     
 - Attribute directives are used to change the look and behavior of the DOM elements.
 - Attribute directives are enclosed with the [] square brackets
@@ -131,11 +131,11 @@ Enter the username: <input type='text' [(ngModel)]='name'>
     - If entered `age`is greater than 60, print their `name` then say "is a senior citizen"
     - Else, their `name` then say "is not a senior citizen"
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 **Steps:**
 1. Create an angular project by running the `ng new angularDemo2` command in the angular CLI
@@ -190,11 +190,11 @@ export class AppComponent {
 	-  Get a number from the user. 
 	-  Print it as an even number or an odd number
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 	
 1. Create an angular project by running `ng new angularDemo2` command in the angular CLI
 2. In the `app.component.html` file, create a form to get the `name` and `age` from the user
@@ -246,11 +246,11 @@ Enter a number: <input type="text" [(ngModel)]="num">
 
 8. How do you create a custom directive in Angular?
  
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 Steps to creating custom directive in angular:
 	
@@ -282,11 +282,11 @@ export class MyHighlightDirective {
 
 9. What's Angular `ElementRef`?
  
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 	
 Angular `ElementRef`is simply a class that wraps native DOM elements in the browser and allows you to work with the DOM by providing the native elements` object which exposes all the methods and properties of the native elements.
 
@@ -297,11 +297,11 @@ Angular `ElementRef`is simply a class that wraps native DOM elements in the brow
 
 10. How do you choose an element from a component template?
 	
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 	
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 	
 To directly access items in the view, use the `@ViewChild` directive. Consider an input item with a reference.
 ```html
@@ -324,11 +324,11 @@ ngAfterViewInit() {
 
 11. What is `ng-template` in Angular?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 `ng-template` is an Angular element that is used for rendering HTML in a template. However, it is not rendered directly on DOM. If you include an ng-template tag to a template, the tag and the content inside it will be replaced by a comment upon rendering.
 
@@ -339,11 +339,11 @@ ngAfterViewInit() {
  
 12. Create a `myHighlight` attribute directive to set an element’s background color when you hover over that element.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 	
 1. To create an angular application, run `ng new myapp` command.
 2. Then, we can create a directive by running `ng g d myHighlight` command. Angular CLI creates two files `my-highlight.directive.spec.ts` and `my-highlight.directive.ts` and updates `app.module.ts`

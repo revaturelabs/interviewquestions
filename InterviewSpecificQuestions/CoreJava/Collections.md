@@ -2,10 +2,10 @@
 
 1. What does the Collections framework in Java contain?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Java Collection framework provides many interfaces (Set, List, Queue, Deque) and classes (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet).
 
@@ -16,10 +16,10 @@ Java Collection framework provides many interfaces (Set, List, Queue, Deque) and
 
 2. Can you tell the main interfaces, and what are the differences between them?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - Set, List and Map are three important interfaces of the Java collection framework.
 - A List can be used when the insertion order of elements needs to be maintained.
@@ -33,10 +33,10 @@ Java Collection framework provides many interfaces (Set, List, Queue, Deque) and
 
 3. Why is Map not inherited from the Collection interface, even though it is a component of the Java collection framework? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Because they are of an incompatible type. List, Set, and Queue are a collection of similar kind of objects but just values whereas a  Map is a collection of key and value pairs.
 
@@ -47,10 +47,10 @@ Because they are of an incompatible type. List, Set, and Queue are a collection 
 
 4. How do you remove an entry from a collection? And subsequently, what is the difference between the `remove()` method of a collection and the `remove()` method of an iterator? Which one will you use while removing elements during iteration?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - Collection interface defines `remove(Object obj)` method to remove objects from `Collection.List` interface and adds another method `remove(int index)`, which is used to remove objects at a specific index.
 - You can use any of these methods to remove an entry from Collection, while not iterating. 
@@ -65,10 +65,10 @@ Because they are of an incompatible type. List, Set, and Queue are a collection 
 
 5. How does HashSet use Hashing?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 HashSet extends `AbstractSet` and implements the Set interface. It creates a collection that uses a hash table for storage. A hash table stores information by using a mechanism called hashing. In hashing, the informational content of a key is used to determine a unique value, called its hash code.
 
@@ -79,10 +79,10 @@ HashSet extends `AbstractSet` and implements the Set interface. It creates a col
 
 6. How is HashSet implemented in Java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 When we create an object of HashSet, it internally creates an instance of HashMap with default initial capacity 16. HashSet uses a constructor `HashSet(int capacity)` that represents how many elements can be stored in the HashSet. The capacity may increase automatically when more elements are to be stored
 
@@ -93,10 +93,10 @@ When we create an object of HashSet, it internally creates an instance of HashMa
 
 7. Which one do you prefer in Java between Array and Array Lists for storing objects and why?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Though ArrayList is also backed up by array, it offers some usability advantage over array in Java.Array is fixed length data structure, once created you can not change it's length. On the other hand,ArrayList is dynamic, it automatically allocate a new array and copies content of old array, when it resize.Another reason of using ArrayList over Array is support of Generics.
 
@@ -107,10 +107,10 @@ Though ArrayList is also backed up by array, it offers some usability advantage 
 
 8. How does LinkedList is implemented in Java, is it a Singly or Doubly linked list?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - Java LinkedList:
     - It is an implementation of the List and Deque interfaces. Internally, it is implemented using Doubly Linked List Data Structure. It supports duplicate elements. 
@@ -123,10 +123,10 @@ Though ArrayList is also backed up by array, it offers some usability advantage 
 
 9. Does Collection and Collections are same in Java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - No, Collection is a top-level interface of the Java collection framework whereas Collections is a utility class. The below table shows the difference between them.
 
@@ -147,10 +147,10 @@ Though ArrayList is also backed up by array, it offers some usability advantage 
 
 10. What classes should i prefer to use a key in HashMap in java?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 We should prefer String, Integer, Long, Double, Float, Short and any other wrapper class. Reason behind using them as a key is that they override `equals()` and `hashCode()` method, we need not to write any explicit code for overriding `equals()` and `hashCode()` method in java.
 
@@ -161,10 +161,10 @@ We should prefer String, Integer, Long, Double, Float, Short and any other wrapp
 
 11.  Suppose there is a Student class. We add Student class objects to the ArrayList. Mention the steps that need to be taken if I want to sort the objects in ArrayList using the studentId attribute present in the Student class. 
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - Implement the Comparable interface for the Employee class and now to compare the objects by studentId we will override the `std1.compareTo(std2)` .
 - We will now call Collections class `sort()` method and pass the list as an argument, that is,
@@ -177,10 +177,10 @@ We should prefer String, Integer, Long, Double, Float, Short and any other wrapp
 
 12. What is the sorting algorithm used in `Collections.sort()`?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 `Collections.sort()` uses the Merge sort algorithm to sort the objects.
 
@@ -191,10 +191,10 @@ We should prefer String, Integer, Long, Double, Float, Short and any other wrapp
 
 13. What will happen if we put two values with the same key in Map?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 If we try to insert two values for the same key, the second value will be stored, while the first one will be dropped.
 
@@ -205,10 +205,10 @@ If we try to insert two values for the same key, the second value will be stored
 
 14. Can an ArrayList contain multiple references to the same object in Java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 The ArrayList in java does not provide checks for duplicate references to the same object. Therefore, we can insert the same object or reference to a single object as many times as we want.
 
@@ -219,10 +219,10 @@ The ArrayList in java does not provide checks for duplicate references to the sa
 
 15. If the frequent operation is retrieval which collection is used and if the frequent operation is insertion or deletion which one is used?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 If the frequent operation is retrieval the ArrayList for the othercase LinkedList.
 
@@ -233,10 +233,10 @@ If the frequent operation is retrieval the ArrayList for the othercase LinkedLis
 
 16. How iterator and enumerator differ while iterating the elements in the collection?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - Enumeration is twice as fast as Iterator and uses less memory. The iterator is thread-safe because does not allow other threads to modify the collection when iterating.
 - Enumeration can only be used for read-only collections. It also has no `remove()` method ;
@@ -251,10 +251,10 @@ If the frequent operation is retrieval the ArrayList for the othercase LinkedLis
 
 17. Can we use a null element in TreeSet? Give reason?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - No, TreeSet does not allows to store any null keys. Any attempt to add null throws `runtimeException (NullPointerException)`.
 - TreeSet internally compares elements for sorting elements by natural order (comparator may be used for sorting, if defined at creation time) and null is not comparable, Any attempt to compare null with other object will throw `NullPointerException`.
@@ -266,7 +266,7 @@ If the frequent operation is retrieval the ArrayList for the othercase LinkedLis
 
 18. What will be the output of the given snippet?
 
-<blockquote>
+<blockquote markdown="1">
 
 ```Java
 
@@ -282,10 +282,10 @@ If the frequent operation is retrieval the ArrayList for the othercase LinkedLis
 ```
 </blockquote>
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 	
 **Output**
 
@@ -293,9 +293,9 @@ infinite times
 
 </blockquote>
 
-<blockquote>
+<blockquote markdown="1">
 
-<details> <summary> <b> Explanation </b> </summary>
+<details markdown="1"> <summary> <b> Explanation </b> </summary>
 
 ArrayList provides a listIterator for traversing in forward and backward directions, so the  program will compile and run infinitely.
 
@@ -307,10 +307,10 @@ ArrayList provides a listIterator for traversing in forward and backward directi
 
 19. If we want to use a custom object as a key in Collection classes like Map or Set, how can we achieve that?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - If you are using any custom object in Map as a key, you need to override `equals()` and `hashCode()` method, 
 and make sure they follow their contract. On the other hand, if you are storing a custom object in the  Sorted Collection 
@@ -323,10 +323,10 @@ and make sure they follow their contract. On the other hand, if you are storing 
 
 20. Do you know what is BlockingQueue? Give a practical example of BlockingQueue?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - BlockingQueue is a java Queue that support operations that wait for the queue to become non-empty when retrieving and removing an element, and wait for space to become available in the queue when adding an element.
 - Producer-consumer problem is a best example of BlockingQueue.
@@ -338,10 +338,10 @@ and make sure they follow their contract. On the other hand, if you are storing 
 
 21.  What is the difference between fail-safe and fail-fast properties?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - Fail-fast Iterators throw `ConcurrentModificationException` when one thread is iterating over the collection object and another thread structurally modifies the Collection either by adding, removing, or modifying objects on the underlying collection. 
 - They are called fail-fast because they try to immediately throw Exceptions when they encounter failure. - On the other hand, fail-safe Iterators works on a copy of the collection instead of the original collection
@@ -353,10 +353,10 @@ and make sure they follow their contract. On the other hand, if you are storing 
 
 22. Which Collection type do you suggest to me If I want a sorted collection of objects with no duplicates?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 TreeSet is the best suitable for such scenarios where you want a collection of objects with no duplicates and also sorted based on a particular data field.
 
@@ -367,10 +367,10 @@ TreeSet is the best suitable for such scenarios where you want a collection of o
 
 23. Why is it recommended not to use the Vector class in our code?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 The Vector class is preferred over ArrayList class when you are developing a multi-threaded application. 
 But, precautions need to be taken because vector may reduce the performance of your application as it is 
@@ -383,10 +383,10 @@ Thread-safe and only one thread is allowed to have an object lock at any moment 
 
 24. How to sort ArrayList in descending order?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 We can use `reverseorder()` like `Collections.sort(arraylist, Collections.reverseOrder())`;  
 
@@ -397,7 +397,7 @@ We can use `reverseorder()` like `Collections.sort(arraylist, Collections.revers
 
 25. Predict the output?
 
-<blockquote>
+<blockquote markdown="1">
 
 ```Java
 
@@ -417,10 +417,10 @@ We can use `reverseorder()` like `Collections.sort(arraylist, Collections.revers
 
 </blockquote>
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 **Output**
 	
@@ -429,8 +429,8 @@ We can use `reverseorder()` like `Collections.sort(arraylist, Collections.revers
 </blockquote>
 
 
-<details> <summary> <b> Explanation </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Explanation </b> </summary>
+<blockquote markdown="1">
 
 Priority queue always outputs the minimum element from the queue when the `remove()` method is called, no matter what the sequence of input is.
 
@@ -442,10 +442,10 @@ Priority queue always outputs the minimum element from the queue when the `remov
 
 26. Can you pass `List(String)` to a method which accepts `List(Object)`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - List(Object) can store any thing including String, Integer etc, but List(String) can only store Strings.
 - List(Object) objectList;
@@ -459,10 +459,10 @@ Priority queue always outputs the minimum element from the queue when the `remov
 
 27. If the compiler erases all type parameters at compile time, why should you use generics?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - The reason to use generics is, the Java compiler enforces tighter type checks on generic code at compile time.
 - Generics support programming types as parameters.
@@ -475,10 +475,10 @@ Priority queue always outputs the minimum element from the queue when the `remov
 
 28. Why is String a popular Hashmap key in Java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Since String is immutable, its hashcode is cached at the time of creation and it doesn’t need to be calculated again. This makes it a great candidate for keys in a Map and its processing is fast than other HashMap key objects. Therefore,String is mostly used Object as HashMap keys.
 
@@ -489,10 +489,10 @@ Since String is immutable, its hashcode is cached at the time of creation and it
 
 29. How will you create a Readonly List, Set, and Map in Java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 We can use `Collections.unModifiableList()` method to create a read-only List,`Collections.unmodifiableSe()`for creating a read-only Set like a read-only HashSet and similarly creating a read-only Map in Java.
 
@@ -503,10 +503,10 @@ We can use `Collections.unModifiableList()` method to create a read-only List,`C
 
 30. When to use Queues and stack? What is the possible use case?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - Stack and Queue work on the principle of First in Last Out and First in First out. The best use case of Queue is in the messaging services, where we implement the messaging container, which allows one message to get input and another message to get output from the queue.
 - The queue has the ability to also act as a buffer to store the elements for a temporary time.
@@ -519,10 +519,10 @@ We can use `Collections.unModifiableList()` method to create a read-only List,`C
 
 30. What is a collision problem ?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 The collision problem is, whenever the hash function returns the same index position for a different key, then a collision occurs. The collision detection technique is also called collision detection.
 
@@ -533,10 +533,10 @@ The collision problem is, whenever the hash function returns the same index posi
 
 31. Can I add a null element to HashSet and TreeSet?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - We can’t add any null element in TreeSet as it uses NavigableMap for element storage. But we can add just one to HashSet.
 - SortedMap doesn’t allow null keys and NavigableMap is its subset.
@@ -550,10 +550,10 @@ The collision problem is, whenever the hash function returns the same index posi
 
 32. How will you remove the duplicates from the Array List?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 There are two ways to remove duplicates from the ArrayList.
 
@@ -567,10 +567,10 @@ There are two ways to remove duplicates from the ArrayList.
 
 33. Can you use iterateor interface over map?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - No, Map does not implement Iterable interface, only Collection ( thus , list and set ) do , so the Collection implements iterable \<E\> , make the set and the list iteratble.
 - The Map can't be iterable only the key part can be iterable 
@@ -581,7 +581,7 @@ There are two ways to remove duplicates from the ArrayList.
 ---
 
 34. Predict the output?
-<blockquote>
+<blockquote markdown="1">
 
 ```Java
 
@@ -599,10 +599,10 @@ There are two ways to remove duplicates from the ArrayList.
 ```
 </blockquote>
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 **OUTPUT**
     
@@ -612,8 +612,8 @@ There are two ways to remove duplicates from the ArrayList.
 </blockquote>
 
 
-<details> <summary> <b> Explanation </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Explanation </b> </summary>
+<blockquote markdown="1">
 
 HashMap does not maintains insertion order of keys, and allows one null key and many null values.
 
@@ -624,7 +624,7 @@ HashMap does not maintains insertion order of keys, and allows one null key and 
 ---
 
 35.  Predict the output?
-<blockquote>
+<blockquote markdown="1">
 
 ```Java
     public class HashSetTest {
@@ -643,10 +643,10 @@ HashMap does not maintains insertion order of keys, and allows one null key and 
 
 </blockquote>
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 **OUTPUT**
  
@@ -655,8 +655,8 @@ HashMap does not maintains insertion order of keys, and allows one null key and 
 </blockquote>
 
 
-<details> <summary> <b> Explanation </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Explanation </b> </summary>
+<blockquote markdown="1">
 
 HashSet does not store duplicates but “1” is a String, while 1 is Integer & null is nothing, while “null” is a String . Also HashSet does not maintain insertion order and allows null.
 
@@ -667,7 +667,7 @@ HashSet does not store duplicates but “1” is a String, while 1 is Integer & 
 ---
 
 36. Predict the output?
-<blockquote>
+<blockquote markdown="1">
 
 ```Java
     public class LinkedHashSetTest {
@@ -685,10 +685,10 @@ HashSet does not store duplicates but “1” is a String, while 1 is Integer & 
 ```
 </blockquote>
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 **OUTPUT**
  
@@ -697,8 +697,8 @@ HashSet does not store duplicates but “1” is a String, while 1 is Integer & 
 </blockquote>
 
 
-<details> <summary> <b> Explanation </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Explanation </b> </summary>
+<blockquote markdown="1">
 
 LinkedHashSet maintains insertion order and does not allow duplicates.
 
@@ -709,7 +709,7 @@ LinkedHashSet maintains insertion order and does not allow duplicates.
 ---
 
 37. Predict the output?
-<blockquote>
+<blockquote markdown="1">
 
 ```Java
     public class MyClass {
@@ -723,10 +723,10 @@ LinkedHashSet maintains insertion order and does not allow duplicates.
 ```
 </blockquote>
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 **OUTPUT**
  
@@ -735,8 +735,8 @@ LinkedHashSet maintains insertion order and does not allow duplicates.
 </blockquote>
 
 
-<details> <summary> <b> Explanation </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Explanation </b> </summary>
+<blockquote markdown="1">
 
 - IdentityHashMap when comparing keys (and values) performs reference-equality in place of object-equality. 
 - In an IdentityHashMap, two keys k1 and k2 are equal if and only if (k1==k2). (In normal Map implementations (like HashMap) two keys k1 and k2 are considered equal if and only if (k1==null ? 
@@ -751,10 +751,10 @@ k2==null : k1.equals(k2)).)
 
 38. Which methods do you need to override to use any object as a key in HashMap?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 To use any object as a key in HashMap, it needs to implement `equals()` and `hashCode()` methods.
 
@@ -767,10 +767,10 @@ To use any object as a key in HashMap, it needs to implement `equals()` and `has
 
 39. What is and when to use `Collections.emptySet()` . What is the advantage of having emptySet in Collections class ?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 `Collections.emptySet()` returns the empty immutable Set ,not containing null.
 
@@ -781,10 +781,10 @@ To use any object as a key in HashMap, it needs to implement `equals()` and `has
 
 40. Why do we call `emptySet()` method, as we can also create an empty Set using a constructor ?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Advantages of using `emptySet()` method over creating an object using a constructor are :
 
@@ -802,10 +802,10 @@ Advantages of using `emptySet()` method over creating an object using a construc
 
 41.  What copy technique internally used by HashSet `clone()` method ?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - There are two copy techniques in every object oriented programming language , 
 deep copy and shallow copy.
@@ -820,10 +820,10 @@ in `clone()` method , the elements themselves are not cloned .
 
 42. What is a good way to sort the Collection objects in Java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - A good way to sort Java collection objects is using Comparable and Comparator interfaces. A developer can use `Collections.sort()`, the elements are sorted based on the order mention in `compareTo()`.
 - When a developer uses Collections, `sort (Comparator)`, it sorts the objects depend on `compare()` of the Comparator interface.
@@ -835,10 +835,10 @@ in `clone()` method , the elements themselves are not cloned .
 
 43. What are Generics in Java ?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Java Generics is a set of related methods or a set of similar types. Generics allow types Integer, String, or even user-defined types to be passed as a parameter to classes, methods, or interfaces. Generics are mostly used by classes like HashSet or HashMap.
 
@@ -849,10 +849,10 @@ Java Generics is a set of related methods or a set of similar types. Generics al
 
 44. What is Collection API ?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 The Collection API is a set of classes and interfaces that support operation on collections of objects. These classes and interfaces are more flexible, more powerful, and more regular than the vectors, arrays, and hashtables if effectively replaces. Example of classes: HashSet, HashMap, ArrayList, LinkedList, TreeSet and TreeMap. Example of interfaces: Collection, Set, List and Map.
 
@@ -863,10 +863,10 @@ The Collection API is a set of classes and interfaces that support operation on 
 
 45. What is the difference between hashMap and hashSet in Java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 **HashSet:-**
 
@@ -892,10 +892,10 @@ The Collection API is a set of classes and interfaces that support operation on 
 
 46. What is the difference between HashSet and TreeSet?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 - HashSet gives better performance (faster) than TreeSet for the operations like add, remove, contains, size etc. HashSet offers constant time cost while TreeSet offers log(n) time cost for such operations.
 
@@ -908,10 +908,10 @@ The Collection API is a set of classes and interfaces that support operation on 
 
 47. What is difference between ArrayList and LinkedList?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 ArrayList and LinkedList both implements List interface and maintains insertion order. Both are non-synchronized classes.
 
@@ -929,10 +929,10 @@ ArrayList and LinkedList both implements List interface and maintains insertion 
 
 48. What is difference between HashMap and Hashtable?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 HashMap and Hashtable both are used to store data in key and value form. Both are using hashing technique to store unique keys.
 
@@ -954,10 +954,10 @@ HashMap and Hashtable both are used to store data in key and value form. Both ar
 
 49. What is Comparable and Comparator Interface in java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
+<blockquote markdown="1">
 
 Comparable and Comparator both are interfaces and can be used to sort collection elements.
 

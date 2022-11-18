@@ -1,10 +1,10 @@
 1. What are Eager and Lazy loading?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
   
 **Eager Loading:** 
 - It is the default module-loading strategy. 
@@ -23,11 +23,11 @@
 
 2. Does Angular lazy load the modules?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
  
 No. By default, Angular loads the NgModules eagerly which means that as soon as the application loads, all the NgModules & components are loaded, whether or not they are immediately necessary.
 
@@ -38,11 +38,11 @@ No. By default, Angular loads the NgModules eagerly which means that as soon as 
 
 3. Which do you think is best eagerly loaded or lazily loaded?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
  
 For small-scale applications, eagerly loading modules would be good. But as the application grows the load time will increase if everything is loaded at once. Lazy loading allows Angular to load components and modules as and when they're needed.
   
@@ -55,11 +55,11 @@ For large-scale applications, lazy-loading modules would be good.
 
 4. What are modules?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
   
 - NgModules consist of files and code related to a specific domain or that have a similar set of functionalities.
 - A typical NgModule file declares components, directives, pipes, and services. 
@@ -74,11 +74,11 @@ For large-scale applications, lazy-loading modules would be good.
 
 5. List the benefits of lazy loading.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
  
 Benefits of lazy loading module:
 - **Reduces initial load time** – Lazy loading of a webpage reduces page weight, allowing for a quicker page load time.
@@ -92,11 +92,11 @@ Benefits of lazy loading module:
 
 6. Explain the use of the `@NgModule` Decorator
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 `@NgModule` takes the below metadata to launch the application:
 - `declarations` — contains a list of components, directives, and pipes, which belong to this module.
@@ -128,11 +128,11 @@ export class AppModule { }
 
 7. What is the root module of angular?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 `AppModule` - file is `app.module.ts`
 	
@@ -143,11 +143,11 @@ export class AppModule { }
 
 8. What is Angular Module?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 Module in Angular refers to a place where you can group the components, directives, pipes, and services, which are related to the application.
 	
@@ -161,11 +161,11 @@ Module in Angular refers to a place where you can group the components, directiv
 
 9. What are the modules imported by default in an angular application?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 After creating the angular application, in the `app.module.ts` file , we can see `BrowserModule` is imported by default.
 
@@ -193,11 +193,11 @@ export class AppModule { }
  
 10. If I want to use the pipe in two components, what I should do?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 We have to make that pipe class public, through the `export` keyword, so that external components can use them. 
 	
@@ -239,11 +239,11 @@ export class AppModule { }
 	- `HttpClientModule`
 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - `BrowserModule` is imported from `@angular/platform-browser` (by default) and provides support to run Angular apps on different supported browsers.
 - `FormsModule` is imported from `@angular/forms` and it is used when you build template-driven forms.
@@ -257,18 +257,18 @@ export class AppModule { }
  
 12. How do you manage the development of complex applications in Angular? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
  
 For large-scale/ complex applications, lazy loading would be good.
 </blockquote>
 	
-<details>
+<details markdown="1">
 <summary><b>Reference</b></summary>	
-<blockquote>
+<blockquote markdown="1">
 	
 [Angular Reference for implementing lazy loading](https://angular.io/guide/lazy-loading-ngmodules)
 	

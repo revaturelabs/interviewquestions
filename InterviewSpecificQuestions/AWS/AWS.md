@@ -1,11 +1,11 @@
 1. Brief AWS in short?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Explanation</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - AWS stands for Amazon Web Services. It is an Amazon product which is used to manage distributed IT infrastructure.
  It provides different services such as 
@@ -24,12 +24,12 @@
 
 2. Can you brief a few components of AWS?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Explanation</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Yes, a few components of AWS are:
 	Simple Storage Service (S3) : S3 is a service of aws that stores files. 
@@ -46,12 +46,12 @@
 
 3. Can you explain the Key-pairs in detail?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Explanation</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - AWS uses public key cryptography to encrypt and decrypt the login information. In public key cryptography, the public key is used to encrypt the information on the receiver's side, a private key is used to decrypt the information. The combination of a public key and the private key is known as a key-pairs. Key pairs allow you to access the instances securely.
 
@@ -65,12 +65,12 @@
 
 4. In general, S3 service can have how many buckets?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Explanation</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - By default, you can create up to 100 buckets.
 
@@ -84,12 +84,12 @@
 
 5. How will you explain the term “Cross Region Replication”?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Explanation</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Cross Region Replication is a service available in aws that enables to replicate of the data from one bucket to another bucket which could be in the same or different region. It provides asynchronous copying of objects, i.e., objects are not copied immediately. 
 
@@ -103,12 +103,12 @@
 
 6. What is the meaning of Regions and Zones in aws?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Explanation</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Regions: A region is a geographical area which consists of 2 or more availability zones. A region is a collection of data centres which are completely isolated from other regions.
 - Availability zones: An Availability zone is a data centre that can be somewhere in the country or city. Data centres can have multiple servers, switches, firewalls, and load balancing. The things through which you can interact with the cloud reside inside the Datacenter.
@@ -123,12 +123,12 @@
 
 7. Can you predict the minimum and maximum size S3 bucket?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Explanation</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - The minimum size of an object that you can store in S3 is 0 bytes and the maximum size of an object that you can store in S3 is 5 TB.
  
@@ -142,12 +142,12 @@
 
 8. Can you define Auto Scaling and its advantages?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Explanation</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Auto Scaling is a feature in AWS that automatically scales the capacity to maintain steady and predictable performance. 
 
@@ -169,12 +169,12 @@ Auto Scaling automatically optimizes the application performance and availabilit
 
 9. Can you explain AMI?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Explanation</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - AMI stands for Amazon Machine Image. It is a virtual image used to create a virtual machine within an EC2 instance.
 
@@ -188,12 +188,12 @@ Auto Scaling automatically optimizes the application performance and availabilit
 
 10. Can you make AMI shareable?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Explanation</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Yes, an AMI can be shared.
 
@@ -207,12 +207,12 @@ Auto Scaling automatically optimizes the application performance and availabilit
 
 11. Can you explain some security models in the S3 bucket?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Explanation</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - S3 bucket can be secured in two ways:
 -	ACL (Access Control List)
@@ -230,12 +230,12 @@ Bucket policies are only applied to S3 buckets. Bucket policies define what acti
 
 12. Why do you use policies in AWS and how many types of policies are in AWS?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Explanation</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - The policy is an object which is associated with a resource that defines the permissions. AWS evaluate these policies when the user makes a request. Permissions in the policy determine whether to allow or deny an action. Policies are stored in the form of JSON documents.
 
@@ -257,12 +257,12 @@ AWS supports six types of policies:
 
 13. Can you guess the default storage class in S3?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Explanation</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - The default storage class is Standard Frequently Accessed.
 
@@ -276,12 +276,12 @@ AWS supports six types of policies:
 
 14. How do you differentiate the terms, stopping the instances and terminating the instances?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Explanation</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Stopping: You can stop an EC2 instance and stopping an instance means shutting down the instance. Its corresponding EBS volume is still attached to an EC2 instance, so you can restart the instance as well.
 
@@ -297,12 +297,12 @@ AWS supports six types of policies:
 
 15. How many Elastic IPs can you create?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Explanation</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - 5 elastic IP addresses that you can create per AWS account per region.
 
@@ -316,12 +316,12 @@ AWS supports six types of policies:
 
 16. Do you have any idea about the Load Balancer?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Explanation</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - A load Balancer is a virtual machine that balances your web application load which could be Http or Https traffic that you are getting in. It balances a load of multiple servers so that no web server gets overwhelmed.
 
@@ -335,12 +335,12 @@ AWS supports six types of policies:
 
 17. Can you explain a few RDS types?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Explanation</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Yes, few are here:
     -	Amazon Aurora
@@ -360,12 +360,12 @@ AWS supports six types of policies:
 
 18. Have you listened to routing policies in route53?  if yes then can you explain some?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Explanation</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Yes, a few are given below:
     -	Simple Routing Policy
@@ -390,12 +390,12 @@ Latent-based Routing Policy allows Route53 to respond to the DNS query at which 
 
 19. While creating users, can you explain the access type?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Explanation</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - There are two types of access:
     - 	Console Access

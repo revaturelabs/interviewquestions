@@ -1,10 +1,10 @@
 1. In Angular, how can you interact between Parent and Child components?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
   
  When passing data from the Parent to Child component, you can use the `@Input` decorator in the Child component. When passing data from the Child to the Parent component, you can use the `@Output` decorator in the Child component.
   
@@ -14,11 +14,11 @@
 --- 
 2. How would you pass data from a parent to a child component or a child to a parent component?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - `@Input` decorator used to pass the data from a parent to a child component
 - `@Output` decorator used to pass the data from a child to a parent component

@@ -2,11 +2,11 @@
 
 1. How do you decide whether to choose either Spring or Spring Boot framework for the application?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - It’s simple, any console/desktop or web application that wants to leverage DI & other key features provided by Core Spring modules can use the Spring framework.
 - Spring Boot framework was evolved on top of Spring framework to support microservices-based architecture on the cloud.
@@ -18,11 +18,11 @@
 ---
 2. Why do we need a `Service layer`? Can’t we call the `Repository layer` directly inside the `Controller layer`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - There is no restriction from compiler, and we can call the Repository layer from the Controller layer directly.
 - The layering helps to segregate the Spring application responsibilities and enables loose coupling between the objects.
@@ -38,11 +38,11 @@
 ---
 3. Is it safe to keep the DB & other critical passwords directly inside property file(s)?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Since property file(s) are readable by anyone who has access to the codebase it is highly recommended not to keep the DB and other critical credentials inside property file(s).
 - They are usually stored inside cloud environment variables or passed through command line arguments while executing the application.
@@ -59,11 +59,11 @@ mvn spring-boot:run -Dspring-boot.run.jvmArguments='
 ---
 4. As a developer you need to check your production application status daily, how does Spring Boot could help here?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - One of the routine tasks for a developer is to check the status of the already launched production application periodically.
 - To simplify this task, Spring Boot provides a sub-project named Spring Boot Actuator.
@@ -91,11 +91,11 @@ mvn spring-boot:run -Dspring-boot.run.jvmArguments='
 ---
 5. What is Spring profile and why do we use it?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Spring Profiles provide a way to segregate parts of your application configuration and make it only available in certain environments. 
 - Any `@Component`, `@Configuration` or `@ConfigurationProperties` can be marked with `@Profile` to limit when it is loaded.
@@ -123,11 +123,11 @@ or specify on the command line using the switch `--spring.profiles.active=prod`.
 ---
 6. How can you define multiple profiles in the Spring Boot application? How to add an active profile?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - The application development process undergoes different stages; the typical ones are development, testing, and production. 
 - Spring Boot profiles help group parts of the application configuration and make it available only in certain environments.
@@ -162,11 +162,11 @@ src
 ---
 7. What happens when two profiles are set for property `spring.profiles.active` in the Spring application?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - If several profiles are specified, a last-wins strategy applies. 
 - For example, if profiles prod,live are specified by the spring.profiles.active property (i.e. `spring.profiles.active=prod,live`), values in `application-prod.properties` can be overridden by those in `application-live.properties`.
@@ -177,11 +177,11 @@ src
 ---
 8. Which `pom.xml` file inside the Spring Boot framework defines versions of all pre-configured dependencies?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Spring Boot framework has utilized the concept of parent and child pom file inheritance and defined all the dependencies specific to its release version under `spring-boot-dependencies` module.
 - For example, refer to this link: https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-dependencies/2.7.3/spring-boot-dependencies-2.7.3.pom
@@ -193,11 +193,11 @@ src
 ---
 9. What is Bean Validation API? How can we use it in Spring?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - To restrict the input provided by the user in Spring MVC applications, the Spring >=4 supports and uses `Bean Validation API`.
 - The Bean Validation API is a Java specification which is used to apply constraints to the fields of a class via annotations. 
@@ -223,11 +223,11 @@ src
 ---
 10. Explain a few `hibernate-validator` Spring bean validation annotations?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Few common validation annotations are listed below:
   - `@NotNull`: Field must not be null.
@@ -243,11 +243,11 @@ src
 ---
 11. What does the `@Valid` annotation indicate in Spring?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - The `@Valid` annotation can be added to variables in a `RestController` mapping method to validate them. 
 - In the below code our POST request takes in a request body, and we're mapping that request body to a class InputForm.
@@ -278,11 +278,11 @@ public class InputForm {
 
 12. What is the use of `@ControllerAdvice` in the Spring application?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - `@ControllerAdvice` is a specialization of the `@Component` annotation which allows handling exceptions across the whole application in one global handling component.
 - It intercepts exceptions thrown by methods annotated with `@RequestMapping` and similar.
@@ -302,11 +302,11 @@ public class RestApiExceptionHandlerAdvice {
 
 13. What is the use of `@ExceptionHandler` in the Spring application?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - The `@ExceptionHandler` is an annotation used to handle a specific exception in the controller and send a custom response to the client.
 - We need to have a method annotated with @ExceptionHandler which takes Exception Class (any exception that you want to handle) as an argument, if any of these exceptions are raised in the controller, then this handler method will handle it.
@@ -334,11 +334,11 @@ public class RestApiExceptionHandlerAdvice {
 ---
 14. Have you used the HAL browser in Spring? How to use it?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - HAL stands for Hypertext Application Language.
 - HAL is a simple format that gives a consistent and easy way to hyperlink between resources in your API.
@@ -362,11 +362,11 @@ public class RestApiExceptionHandlerAdvice {
 ---
 15. What is the use of the `ResponseEntity` class in Spring?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - `ResponseEntity` represents an HTTP response, including headers, body, and status. 
 - While `@ResponseBody` puts the return value into the body of the response, ResponseEntity also allows us to add headers and HTTP Status codes.
@@ -389,11 +389,11 @@ public class RestApiExceptionHandlerAdvice {
 
 16. What is Spring Boot?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
 
 Spring Boot is a microservice-based framework and making a production-ready application in it takes very less time.
 
@@ -405,11 +405,11 @@ Spring Boot is a microservice-based framework and making a production-ready appl
 
 17. What is the use of `@RestController`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
 
 `@RestController` is a convenience annotation for creating Restful controllers. It is a specialization of @Component and is autodetected through classpath scanning. It adds the @Controller and @ResponseBody annotations. It converts the response to JSON or XML.
 

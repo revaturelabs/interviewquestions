@@ -2,11 +2,11 @@
 
 1. Why do we need `Spring JDBC` when we already have Java JDBC?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - `JDBC` is the core API to connect your java application with any database vendor.
 - When we use Java `JDBC` there are multiple configuration steps, starting from loading the river to closing the DB connection developer has to manage.
@@ -19,11 +19,11 @@
 
 2. What is `DataSource` in Java application?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - `DataSource` is a factory for connections to the physical data source.
 - In enterprise applications, the `DataSource` object is the preferred means of getting a connection to your database.
@@ -36,11 +36,11 @@
 
 3. What are the three types of implementations of `DataSource` in Java applications?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - The `DataSource` interface is implemented by a driver vendor. There are three types of implementations:
     - `Basic implementation` - produces a standard Connection object
@@ -54,11 +54,11 @@
 ---
 4. What is `Connection Pooling` in an enterprise application?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - `Connection pooling` is a technique of creating and managing a pool of connections that are reused rather than created each time a connection is requested. 
 - `Connection pooling` can greatly increase the performance of your Java application, while reducing overall resource usage.
@@ -71,11 +71,11 @@
 ---
 5. What default connection pool does spring boot use?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - `Spring Boot` uses `HikariCP` as the default connection pool.
 - `HikariCP` has great performance and concurrency.
@@ -88,11 +88,11 @@
 
 6. What connection pool does spring boot supports?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Spring Boot supports various popular connection pool providers as listed below:
     - `HikariCP`
@@ -111,11 +111,11 @@
 ---
 7. What is the sequence of choosing various connection pools inside the Spring application?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Spring Boot uses the following algorithm for choosing a specific implementation:
     - If HikariCP is available, Spring always chooses it.
@@ -130,11 +130,11 @@
 ---
 8. What is `Programmatic & Declarative Transaction Management` in the Spring application?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Spring provides both `Programmatic` and `Declarative` transaction management.
 - In Programmatic Transaction management we have transaction management code surrounding our business code. 
@@ -151,11 +151,11 @@
 ---
 9. What does isolation and propagation attributes denote in @Transactional annotation e.g. `@Transactional(isolation = xxx, propagation = xxx)`?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - While using Declarative Transaction management we can provide isolation & propagation attributes which serve below purpose:
     - `Isolation`: The degree to which this transaction is isolated from the work of other transactions. For example, can this transaction see uncommitted writes from other transactions?
@@ -168,11 +168,11 @@
 ---
 10. What configurations do `Spring JDBC` & developer need to perform in the application?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - The table shows which actions Spring takes care of and which are developers’ responsibilities.
   

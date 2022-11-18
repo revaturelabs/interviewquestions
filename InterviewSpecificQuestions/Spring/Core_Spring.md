@@ -2,11 +2,11 @@
 
 1. What are Spring Beans?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Core business component defined insider Spring applications is termed as `Bean`. 
 - In simple terms `Bean` is an object that is instantiated, assembled, and managed by a Spring IoC container.
@@ -18,11 +18,11 @@
 ---
 2. How do you decide whether to create `Singleton` bean or `Prototype` bean in application?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Though Spring IOC container has excellent support to manage the lifecycle of different types of beans,
 Spring does not manage the complete lifecycle of a prototype bean.
@@ -40,11 +40,11 @@ Spring does not manage the complete lifecycle of a prototype bean.
 
 3. When do you use `Session` and `Request` bean in Spring?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
 
 - Both beans are used mainly in Web Application.
 - If the bean scope is `Request`, then on every request (from same user or different user) a new bean will be created.
@@ -59,11 +59,11 @@ Spring does not manage the complete lifecycle of a prototype bean.
 
 4. How an IOC container is configured in a spring console based application?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
 
 - Spring IOC container is primarily responsible for holding all business components termed as `Bean`.
 - Few of these beans are added by spring framework and rest all are defined by developers.
@@ -213,11 +213,11 @@ public class App {
 
 5. How to decide upon choosing BeanFactory or ApplicationContext in Spring application?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
 
 - The Spring IOC container can be programmatically accessed using two interfaces namely: `BeanFactory` & `ApplicationContext`
 - The BeanFactory is the root interface and the ApplicationContext extends the features of BeanFactory.
@@ -237,11 +237,11 @@ public class App {
 
 6. What are the ways through which the Spring beans are configured?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
     
-<blockquote> 
+<blockquote markdown="1"> 
 
 - There are broadly two ways in which Spring beans are configured in application-
     - Using XML configuration – We usually define xml file with standard name as `applicationContext.xml` inside `src/main/resources` folder of your maven project.
@@ -301,11 +301,11 @@ public class App {
 ---
 7. How Spring supports connection pooling? Elaborate what is connection pooling?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
     
-<blockquote> 
+<blockquote markdown="1"> 
 
 - Database connections are expensive operation.
 - A connection pool is like a collection of open connections. 
@@ -397,11 +397,11 @@ public class App {
 
 8. What is usual cause of `org.springframework.beans.factory.NoUniqueBeanDefinitionException`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Exception thrown when a BeanFactory is asked for a bean instance for which multiple matching candidates have been found when only one matching bean was expected.
 - To understand problem, consider below situation where we have three input interfaced namely `Keyboard`, `Mouse` and `Joystick` implementing `Usb` interface.
@@ -446,11 +446,11 @@ public class App {
 ---
 9. Have you configured Init & Destroy spring bean lifecycle hooks? 
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Spring provides several ways through which you can tap into the bean lifecycle. 
 - For example, once a bean is instantiated, you might need to perform some initialization to get the bean into a usable state. 
@@ -529,11 +529,11 @@ public class MainApp {
 ---
 10. How do you decide as developer to choose among `.properties` or `.yaml` configuration file in Spring Boot application? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - In Spring Boot, we use an external configuration to define our properties.
 - This allows us to use the same application code in different environments.
@@ -569,11 +569,11 @@ management:
 ---
 11. Can we achieve DI with Core Java without using Spring framework?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Yes, Dependency Injection is a concept rather and then a framework. 
 - When the application under question is small, we can always meet the needs by injecting dependencies manually, without using any framework like Spring.
@@ -587,11 +587,11 @@ management:
 
 12. Brief us on Spring Framework.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
 
 The Spring Framework is a Java platform that provides comprehensive infrastructure support for developing Java applications. Spring handles the infrastructure so application developer can focus on your application.
 
@@ -603,11 +603,11 @@ The Spring Framework is a Java platform that provides comprehensive infrastructu
 
 13. What is Dependency Injection? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
 
 Dependency Injection (DI) is a design pattern that removes the dependency from the programming code so that it can be easy to manage and test the application. Dependency Injection makes our programming code loosely coupled.
 
@@ -619,11 +619,11 @@ Dependency Injection (DI) is a design pattern that removes the dependency from t
 
 14. How many types of spring beans are there? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
 
 There are 5 types of bean scope in Spring :-
 

@@ -1,11 +1,11 @@
 1. What is an ORM? Explain.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Hibernate ORM stands for Object Relational Mapping. This is a mapping tool pattern mainly used for converting data stored in a relational database to an object used in object-oriented programming constructs. This tool also helps greatly in simplifying data 	retrieval, creation, and manipulation.
 	
@@ -20,12 +20,12 @@
 
 2. Have you used Hibernate? If yes, tell me what problem it solves in your project.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Hibernate ORM stands for Object Relational Mapping. This is a mapping tool pattern mainly used for converting data stored in a relational database to an object used in object-oriented programming constructs. This tool also helps greatly in simplifying data 	retrieval, creation, and manipulation.
 
@@ -38,12 +38,12 @@
 
 3. What is Persistence?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Data Persistence is a means for an application to persist and retrieve information from a non-volatile storage system. 
 - Persistence is vital to enterprise applications because of the required access to relational databases.
@@ -57,12 +57,12 @@
 
 4. What is O-R (Object relational) impedance mismatch? What problems may occur due to the impedance mismatch? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Impedance mismatch is the term used to refer to the problems that occurs due to differences between the database model and the programming language model. 
 - The practical relational model has 3 components these are:
@@ -83,12 +83,12 @@
 
 5. Can we use Hibernate in. standalone (or console based) applications?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Yes we can use.
 
@@ -101,12 +101,12 @@
 
 6.	What is lazy initialization in the Java Persistence?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Lazy Loading is a design pattern that we use to defer initialization of an object as long as it's possible.
 - Let's see how this works.
@@ -158,12 +158,12 @@ public class OrderDetail implements Serializable {
 
 7. If you are a developer and want to develop database application using Java, will you opt-in for JDBC or Hibernate (or any other JPA framework)? Justify your choice.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - I will choose hibernate because using this we can persist entity class object into database and can retrieve data from database in form of entity object. So, performance of project will increase . 
 
@@ -176,12 +176,12 @@ public class OrderDetail implements Serializable {
 
 8. Can we use SQL inside the Hibernate?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Yes, we can use using native query as below:
   
@@ -199,12 +199,12 @@ public class OrderDetail implements Serializable {
 
 9.	Explain dialect in the context of Hibernate?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - A database dialect is a configuration setting for platform independent software (JPA, Hibernate, etc.) which allows such software to translate its generic SQL statements into vendor specific DDL, DML.
 
@@ -217,12 +217,12 @@ public class OrderDetail implements Serializable {
 
 10.	What are all the JDBC information that you need to configure in the hibernate configuration file?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - We configure database driver,url,username,password,dialect,connection pool,entity information as below
 
@@ -256,12 +256,12 @@ public class OrderDetail implements Serializable {
 
 11.	Can you change the hibernate configuration file name to a different file name from its default name? If so, how your application knows the non-default file name?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Yes, we can change suppose my file name is revature.cfg.xml then our application will load it as 
 SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSessionFactory().
@@ -275,12 +275,12 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 
 12.	What should I do to automatically create the database schemas from configuration file or annotation information in Hibernate?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - We have to set following properties:
 
@@ -297,12 +297,12 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 
 13.	Can we have an entity bean in Hibernate without default or no-argument constructor?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Default constructor automatically comes in class so not necessary to mention it explicitly.
 
@@ -315,12 +315,12 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 
 14. Explain the .hbm file?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - HBM is a short name for Hibernate Mapping. It is an xml file in which we define the mapping between pojo class to database table 	and pojo class variables to table columns.
 
@@ -333,12 +333,12 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 
 15.	In the hibernate mapping file, can we skip the column property of <property> element?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - No, we can skip because it maps entity class variable to database table column.
 
@@ -351,12 +351,12 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 
 16.	What are all the hibernate mapping types? Why they exist?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - It is class and file. Using class, we can map entity class as below:
 ``` xml
@@ -378,12 +378,12 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 
 17.	How is Java reflection used in hibernate mapping?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Unlike some frameworks, you do not need to do anything special to your objects to allow them to persist via Hibernate. 
 - They can be Plain Old Java Objects (or POJO) objects. These objects can follow the JavaBeans conventions and provide setters and getters.
@@ -403,12 +403,12 @@ cls.getField("xyz").getAnnotation(ManyToMany.class).mappedBy
 
 18.	How can we increase the hibernate start-up performance?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Map the hibernate types explicitly in the mapping file
   Let the hibernate identifies the type automatically
@@ -423,12 +423,12 @@ cls.getField("xyz").getAnnotation(ManyToMany.class).mappedBy
 
 19.	How SessionFactory gets the hibernate metadata?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 ```java
 SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSessionFactory().
@@ -443,12 +443,12 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 
 20.	SessionFactory is a thread-safe object? Can you explain what it is?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 Yes, because all the methods of SessionFactory is synchronized so at a time it will allow only one task.
 
@@ -461,12 +461,12 @@ Yes, because all the methods of SessionFactory is synchronized so at a time it w
 
 21.	What is session in hibernate and how it is created?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - A Session is used to get a physical connection with a database. The Session object is lightweight and designed to be instantiated each time an interaction is needed with the database. Persistent objects are saved and retrieved through a Session object.
 - The session objects should not be kept open for a long time because they are not usually thread safe and they should be created and destroyed them as needed.
@@ -481,12 +481,12 @@ Yes, because all the methods of SessionFactory is synchronized so at a time it w
 
 22.	Write the code snippet that creates a hibernate session and stores an object to the database. Assume that the SessionFactory object is available with the variable sessionFactory.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 ```java
 Session session=sessionFactory.openSession();
@@ -506,12 +506,12 @@ session.save(entity class object);
 
 23.	Do you see any advantage of using annotations in hibernate rather than mapping file? Brief about it.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 What advantages I see in using @Annotations:
 •	compiler-safe
@@ -528,12 +528,12 @@ What advantages I see in using @Annotations:
 
 24.	Can we use JPA syntax / annotation in hibernate? If not, why and if so, why?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 Yes, we can use because JPA is a specification. So, we can use all its annotation with hibernate.
 
@@ -546,12 +546,12 @@ Yes, we can use because JPA is a specification. So, we can use all its annotatio
 
 25.	Its advised to create only one SessionFactory object for a database in hibernate, why?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Assume the scenario that you are using one database called mysql in your application then following is the way to create the SessionFactory object :
 
@@ -574,12 +574,12 @@ SessionFactory sc=cfg.buildSessionFactory();
 
 26.	What are first-level cache and second-level cache in hibernate?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - First level cache is a session level cache, and it is always associated with session level object. 
 - Second level cache is session factory level cache, and it is available across all sessions.
@@ -593,12 +593,12 @@ SessionFactory sc=cfg.buildSessionFactory();
 
 27.	Why hibernate class or attributes are recommended to be non-final members or class? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - The class must not be declared final. No methods or persistent instance variables must be declared final. 
 - JPA implementations use proxies in front of your entities to manage for example: Lazy loading. As a final class cannot be extended, a proxy cannot be built.
@@ -621,12 +621,12 @@ Being only accesible through accessor or business methods allow interception in 
 
 28.	What is field based access and property-based access of table fields?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Access strategies
     As a JPA provider, hibernate can introspect both the entity attributes (instance fields) or the accessors (instance properties). By default, the placement of the @Id annotation gives the default access strategy. When placed on a field, Hibernate will assume field-based access. Place on the identifier getter, Hibernate will use property-based access.
@@ -681,12 +681,12 @@ When using property-based access, Hibernate uses the accessors for both reading 
 
 29.	Which relationship annotation is direct equivalent to foreign key relationship in tables?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - @ForeignKey and @Relations
 
@@ -699,12 +699,12 @@ When using property-based access, Hibernate uses the accessors for both reading 
 
 30.	Give an example of unidirectional @OneToMany relationship.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Lookup.java
 
@@ -741,12 +741,12 @@ Text.java
 
 31.	How to map collection of values to an entity, in hibernate?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - Event Class:
 
@@ -809,12 +809,12 @@ public class Task {
 
 32.	Can you elaborate the states of persistent context?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 ![hiber2](https://user-images.githubusercontent.com/106813140/192742500-013b5b25-9fe1-4f96-914e-5dfbe77a800a.png)
 
@@ -827,12 +827,12 @@ public class Task {
 
 33.	Explain HQL vs SQL.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - HQL is similar to SQL and is also case insensitive.
 - HQL and SQL both fire queries in a database. In the case of HQL, the queries are in
@@ -855,12 +855,12 @@ can be changed.
 
 34.	What is transaction and how it is achieved in hibernate?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - A transaction simply represents a unit of work. In such case, if one step fails, the whole transaction fails (which is termed as atomicity). 		A transaction can be described by ACID properties (Atomicity, Consistency, Isolation and Durability).
 
@@ -910,12 +910,12 @@ can be changed.
 
 35.	Hibernate Criteria query, have you used it? If so, explain about it.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b> </summary>
 
-<blockquote>
+<blockquote markdown="1">
 
 - The Hibernate Session interface provides createCriteria() method, which can be used to create a Criteria object that returns instances of 	the persistence object's class when your application executes a criteria query.
 Following is the simplest example of a criteria query is one, which will simply return every object that corresponds to the Employee class.

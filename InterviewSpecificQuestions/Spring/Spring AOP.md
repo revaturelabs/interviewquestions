@@ -2,11 +2,11 @@
 
 1. Is there difference between Object Oriented Programming (OOP) and Aspect-Oriented Programming (AOP)?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Object Oriented Programming (OOP) and Aspect-Oriented Programming (AOP) are not mutually exclusive.
 - AOP can be good addition to OOP.
@@ -19,11 +19,11 @@
 ---
 2. Why we need to use AspectJ in Spring application?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Spring provides simple and powerful ways of writing custom aspects (a modularization of a concern that cuts across multiple classes) by using @AspectJ annotation style. 
 - @AspectJ refers to a style of declaring aspects as regular Java classes annotated with annotations. 
@@ -59,11 +59,11 @@
 ---
 3. You must capture all exceptions caused in repository, service & controller layer using Spring AOP, how you can do it?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Exception being one of the cross-cutting concern in Spring application which can be handled using Spring AOP.
 - Ensure the AspectJ dependencies are added in pom.xml file.
@@ -113,11 +113,11 @@ public class LoggingAspect {
 ---
 4. You have to measure performance (or time taken by method execution), how can you achieve it with AOP?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Apart from standard cross cutting concerns like Auditing, Logging, Transaction Management, Security etc. there are occasions where we want to deal with custom cross cutting concerns.
 - Measuring performance of the method execution can be one of such example of cross cutting concerns.
@@ -150,11 +150,11 @@ public class ExecutionTimeAspect {
 
 5. Why we use pointcut expression in Spring application.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Pointcut is an expression language of spring AOP which is basically used to match the target methods to apply the advice.
 </blockquote> 
@@ -164,11 +164,11 @@ public class ExecutionTimeAspect {
 ---
 6. Why do we use @EnableAspectJAutoProxy?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details> <summary> <b> Show Answer </b> </summary>
+<details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
-<blockquote> 
+<blockquote markdown="1"> 
     
 - Enables support for handling components marked with AspectJ's @Aspect annotation. 
 - This annotation is usually defined on class marked with @Configuration.

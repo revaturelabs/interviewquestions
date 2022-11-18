@@ -1,11 +1,11 @@
 1. Demonstrate a basic understanding of Angular or What is Angular?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
   
 - Angular is a typescript-based web application framework used to create & build web apps
 - It allows us to create Single Page Applications (SPA)
@@ -18,12 +18,12 @@
 
 2. What is meant by SPA? _or_ Give some examples of single-page applications.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
 
 - It is a single web page, website, or web application that works within a web browser and loads just a single document.
 - It does not need page reloading during its usage, and most of its content remains the same while only some of it needs updating.
@@ -36,12 +36,12 @@
 
 3. Angular workflow _or_ How does Angular work or bootstrapping your angular app? _or_ How do you load an Angular application in the webserver? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
   
 - Flow: `angular.json`-> `main.ts` -> `AppModule` -> `AppModule` -> `index.html`.
 - Every Angular app consists of a file named `angular.json` . This file will contain all the configurations of the app. While building the app, the builder looks at this file to find the entry point of the application.
@@ -80,11 +80,11 @@
   
 4. How SPA is different from traditional webapplicationsn?
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
   
 - In traditional web technology, the client requests for a web page (HTML/JSP) and the server sends the resource (or HTML page), and the client again requests for another page and the server responds with another resource. 
 - The problem here is a lot of time is consumed in the requesting/responding or due to a lot of reloading. 
@@ -98,11 +98,11 @@
   
 5. Have you used Angular in your project? Can you list some of the features of Angular?
   
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 Yes, used Angular.
 	
@@ -117,11 +117,11 @@ Yes, used Angular.
   
 6. In SPA, after the initial page load, does the server send any more HTML to you?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 On a SPA, after the initial page load, no more HTML gets sent over the network. Instead, only data gets requested from the server (or sent to the server).
 	
@@ -132,11 +132,11 @@ On a SPA, after the initial page load, no more HTML gets sent over the network. 
   
 7. Does refreshing a whole page needed in SPA?
 	
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 In a SPA, a page refresh never occurs; instead, all necessary HTML, JavaScript, and CSS code are either retrieved by the browser with a single page load, or the appropriate resources are dynamically loaded and added to the page as necessary, usually in response to user actions.
 	
@@ -147,12 +147,12 @@ In a SPA, a page refresh never occurs; instead, all necessary HTML, JavaScript, 
   
 8. What are some advantages of Angular?
   
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
   
-  <blockquote>
+  <blockquote markdown="1">
     
 - Effective cross-platform development
 - Two-way data binding in Angular will help users to exchange data from the component to the view and the room view to the component.  It will help users to establish communication bi-directionally. 
@@ -168,18 +168,18 @@ In a SPA, a page refresh never occurs; instead, all necessary HTML, JavaScript, 
 	
 9. What do you choose between Traditional Web Apps and Single Page Apps _or_ What do you choose between Multiple Page Apps and Single Page Apps
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 	
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 	
 Choose based on the explanation given
 </blockquote> 
 	
-<details>
+<details markdown="1">
 <summary><b>Explanation</b></summary>
-<blockquote>
+<blockquote markdown="1">
 	
 Use traditional web applications or MPA when:
 - Your application's client-side requirements are simple or even read-only.
@@ -203,11 +203,11 @@ Choosing the best option, you should always have your business goals and require
 
 10. How is SPA different from MPA?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 	
 A SPA is an app that works inside a browser and does not require page reloading during use.
 
@@ -220,11 +220,11 @@ On the other hand, an MPA multiple-page application) is considered a more tradit
 
 11. Difference between Angular JS and Angular 4 +
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 | **Angular JS**                                                                                     | **Angular 4**                                                                                                                    |
 | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
@@ -241,11 +241,11 @@ On the other hand, an MPA multiple-page application) is considered a more tradit
 
 12. Difference between Angular 2 and Angular 4
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 | **Angular 2**                                                                      | **Angular 4**                                                                                       |
 | ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -260,11 +260,11 @@ On the other hand, an MPA multiple-page application) is considered a more tradit
 
 13. What are some common Angular CLI commands?
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 	
 - `ng  new MyApp` – used to create an angular application named ‘MyApp’
 - `ng new MyApp  --routing`  - used to create an angular application named ‘MyApp’ with the routing module
@@ -281,11 +281,11 @@ On the other hand, an MPA multiple-page application) is considered a more tradit
 	
 14. What does `ng` means?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 	
 - `ng` stands for A**ng**ular
 	
@@ -296,11 +296,11 @@ On the other hand, an MPA multiple-page application) is considered a more tradit
 	
 15. List drawbacks and benefits of MPA _or_ List the advantages and disadvantages of MPA
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 	
 Benefits:
 - Performs well on the search engine.
@@ -317,11 +317,11 @@ Drawbacks:
 	
 16. List drawbacks and benefits of SPA _or_ List the advantages and disadvantages of SPA
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 	
 Benefits:
 - Single Page Apps are smooth and fast.
@@ -342,19 +342,19 @@ Drawbacks:
 
 17. What is the latest version of Angular?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 	
 - Angular 14 (as of August 2022)
 	
 </blockquote>
 	
-<details>
+<details markdown="1">
 <summary> <b>Reference</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 [Angular versioning and releases](https://angular.io/guide/releases)
 	
@@ -365,11 +365,11 @@ Drawbacks:
 	
 18. Does Angular support mobiles?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
  Yes, we can create a mobile application using Angular Framework. 
 	
@@ -380,11 +380,11 @@ Drawbacks:
 	
 19. Why do we need Webpack?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - In our web application, we use many javascript files that are added to the HTML pages via `<script>` tags.  For each user request, the browser loads these bunch of script files inside the HTML page. This is inefficient as it reduces the page speed since the browser requests each script file separately.
 - This can be solved by **bundling** several files together into one file to be downloaded by the browser in one single request.
@@ -398,11 +398,11 @@ Drawbacks:
 	
 20. Webpack builds a dependency graph. What does that mean? _or_ What is a dependency graph? How is it related to Webpack?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - Any time one file depends on another, webpack treats this as a dependency. This allows webpack to take images or web fonts, and also provide them as dependencies for your application.
 
@@ -415,11 +415,11 @@ Drawbacks:
 
 21. How do you install Angular CLI?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 Before installing Angular CLI, make sure the development environment includes Node.js and an npm package manager. Then, run the command `npm install -g @angular/clip on the terminal to install the Angular CLI using npm.
 		
@@ -430,11 +430,11 @@ Before installing Angular CLI, make sure the development environment includes No
 	
 22. How do you create any angular application?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 Run the CLI command `ng new my-app to create a new angular app with the `my-app` name.
 
@@ -445,11 +445,11 @@ Run the CLI command `ng new my-app to create a new angular app with the `my-app`
 
 23. Which port angular application will be launched?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 4200
 
@@ -460,11 +460,11 @@ Run the CLI command `ng new my-app to create a new angular app with the `my-app`
 
 24. How `ng serve -o` different form `ng serve` command?
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 The `ng serve` command launches the server on HTTP port 4200, which watches our files and rebuilds the app as we make changes to those files. The --open (or just -o) option automatically opens the browser to [http://localhost:4200](http://localhost:4200).
 	
@@ -475,11 +475,11 @@ The `ng serve` command launches the server on HTTP port 4200, which watches our 
 
 25. How do you find the version of angular installed in our system?
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 To check the version of angular installed by running the `ng --version` or `ng v` command
 	
@@ -490,11 +490,11 @@ To check the version of angular installed by running the `ng --version` or `ng v
 
 26. How do you update angular to the latest version?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 	
 Run the `npm install -g @angular/cli@latest` command to update angular to the latest version.
 
@@ -505,11 +505,11 @@ Run the `npm install -g @angular/cli@latest` command to update angular to the la
 
 27. What is the difference between `npm start` and `ng serve`?
 	
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 `npm start` will run whatever you have defined for the start command of the scripts object in your `package.json` file.
 
@@ -531,11 +531,11 @@ The `ng serve` commis and used when developing your application locally. It star
 	
 28. How to deploy the angular app to production?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 	
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - `ng build` command is used to build your application and deploy it. 
 - `ng serve --prod` command to run when building your application for a production environment
@@ -547,11 +547,11 @@ The `ng serve` commis and used when developing your application locally. It star
 	
 29. What kind of files we can find in the _e2e_ folder and node_modules folder?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 The _e2e_ folder at the top level contains source files for a set of end-to-end tests and test-specific configuration files. The _node_modules_ folder provides npm packages to the entire workspace.
 	
@@ -562,11 +562,11 @@ The _e2e_ folder at the top level contains source files for a set of end-to-end 
 	
 30. What are files we can find under the _src_ folder?
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 	
 The _src_ folder contains the source files which give information about application logic, data, and assets. It has
 
@@ -576,11 +576,11 @@ The _src_ folder contains the source files which give information about applicat
 --- 
 31. What is the difference between the `angular.json` and `package.json` files?
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 `angular.json` - holds CLI configuration defaults for all projects in the workspace. It includes configuration options for the build, serves, and test tools.
 	
@@ -592,11 +592,11 @@ The _src_ folder contains the source files which give information about applicat
 --- 
 32. What is the difference between `package.json` and `package-lock.json` files?
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 `package.json` - used to configure npm package dependencies that are available to all projects in the workspace.
 
@@ -609,11 +609,11 @@ The _src_ folder contains the source files which give information about applicat
 	
 33. Why do need to compile the Angular? 
 	
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>	
+<blockquote markdown="1">	
 	
 Angular is written using TypeScript. But, the browser only understands JavaScript. We need to compile the Angular, so angular applications require a compilation process before they can run in a browser.
 	
@@ -624,11 +624,11 @@ Angular is written using TypeScript. But, the browser only understands JavaScrip
 
 34. Have you heard of the AOT compiler? If so, can you explain it?
 		
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>	
+<blockquote markdown="1">	
 	
 The Angular ahead-of-time (AOT) compiler converts your Angular HTML and TypeScript code into efficient JavaScript code during the build phase before the browser downloads and runs that code. Compiling your application during the build process provides a faster rendering in the browser.
 	
@@ -639,11 +639,11 @@ The Angular ahead-of-time (AOT) compiler converts your Angular HTML and TypeScri
 	
 35. Do you recommend an AOT compiler? If yes, Justify.
 		
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
-<details>
+<details markdown="1">
 <summary> <b>Show Answer</b></summary>
-<blockquote>	
+<blockquote markdown="1">	
 
 Yes, I recommend the AOT compiler. Here are my reasons:
 
@@ -658,11 +658,11 @@ Yes, I recommend the AOT compiler. Here are my reasons:
 
 36. Can you tell me about the JIT compiler?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 Just in time (JIT) compiler provides compilation during the execution of the program at a run time before execution. In simple words, code gets compiled when it’s needed, not at the build time.
 
@@ -674,11 +674,11 @@ Just in time (JIT) compiler provides compilation during the execution of the pro
 
 37. How JIT compiler differs from the AOT compiler?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 | JIT                                                                                            | AOT                                                                                                               |
 |------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
@@ -696,11 +696,11 @@ Just in time (JIT) compiler provides compilation during the execution of the pro
 	
 38. When to use JIT Compiler?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 - If you have a big project or a situation where some of your components don’t come in use most of the time then you should use the Just in time compiler.
 - Just in Time compiler is best when your application is in local development
@@ -712,12 +712,12 @@ Just in time (JIT) compiler provides compilation during the execution of the pro
 	
 39. Let us take a most commonly used application, youtube or E-mail. How do you see Angular in this application? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
   
 - Angular is a typescript-based web application framework used to create & build web apps
 - It allows us to create Single Page Applications (SPA)
@@ -734,12 +734,12 @@ Just in time (JIT) compiler provides compilation during the execution of the pro
 	
 40. Is Angular Javascript-based or Typescript based?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
   <summary> <b>Show Answer</b></summary>
   
-<blockquote>
+<blockquote markdown="1">
 
 - AngularJS is written using JavaScript
 - Angular 2+  written using TypeScript

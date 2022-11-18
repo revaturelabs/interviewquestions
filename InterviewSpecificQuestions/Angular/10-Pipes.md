@@ -1,10 +1,10 @@
 1. What are Pipes in angular? Explain with an example. 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 Pipes provide a way to transform values in an Angular template. Pipes are used with a Pipe (`|`) character, and take integers, strings, arrays, and dates as input and return a desired formatted output which can be displayed in the browser.
     
@@ -17,11 +17,11 @@ For example, a Date object shows the date in this format: `Sat Aug 03 2019 19:48
  
 2. How you can transform any strings, currency amounts, dates, and other data for display?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 Using Pipes, we can transform any strings, currency amounts, dates, and other data for display.
 
@@ -32,11 +32,11 @@ Using Pipes, we can transform any strings, currency amounts, dates, and other da
  
 3. What happens if I decorate the class with a `@Pipe` decorator?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 If we want to create a custom pipe in angular, we need to annotate the class with the `@Pipe` decorator.
 
@@ -61,11 +61,11 @@ export class FilterPipe implements PipeTransform {
   }
 }
 ```
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
     
 - `FilterPipe` is a custom pipe.
 - We take an array of strings (`array`) and another string (`startWith`) as input.
@@ -79,12 +79,12 @@ export class FilterPipe implements PipeTransform {
 
 5. Can we create our pipe in angular? If so, how?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
   
  Yes, we can our own pipe in angular. 
   
@@ -115,11 +115,11 @@ And, we can use any template file. For example,  in the `app.component.ts` file,
  
 6. Design the angular application to print the current date in this format "MM/dd/yy".
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 We can use date pipe to date in this format "MM/dd/yy". Also, we can get the current date using `Date. now()`.
 
@@ -134,11 +134,11 @@ We can use date pipe to date in this format "MM/dd/yy". Also, we can get the cur
  
 7. Design the angular application to get a sentence from the user and print the count of words in the given sentence.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 1. Create an angular application by running `ng new myapp` command 
 2. Create a custom pipe to count words by running the `ng g pipe wordcount` command
@@ -170,11 +170,11 @@ export class WordcountPipe implements PipeTransform {
  
 8. Design the angular application to print the list of groceries items followed by their price in rupees
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 For example, below are the groceries items and its cost.
 ```ts
@@ -206,11 +206,11 @@ The output will be like
  
 9. How can slice the strings?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 We have a slice pipe in angular to slice the strings. Here, a number is given per character to our input string to understand the start and end index. The index starts from 0.
     
@@ -234,11 +234,11 @@ Slice pipe will return substring starting from index 3 i.e character d and will 
  
 10. List some of the built-in pipes in angular. 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 Some of the built-in pipes are:
 
@@ -273,11 +273,11 @@ Some of the built-in pipes are:
 
 11. Design the angular application to print the user's birthday in this format "MAY 19, 1997".
  
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 1. Create an angular application by running `ng new myapp` command 
 2. In `app.component.html`, get the user's birthdate. Also, import `FormsModule` in the `app.module.ts` and create a `birthdate` variable of type `number` like `birthday !: number;` in the `app.component.ts`.
@@ -297,11 +297,11 @@ Some of the built-in pipes are:
 
 12. What is the use of `PipeTransform` in angular?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details>
+<details markdown="1">
 <summary><b>Show Answer</b></summary>
-<blockquote>
+<blockquote markdown="1">
 
 `PipeTransform` is an interface that is implemented by pipes to perform a transformation. Angular invokes the `transform` method with the value of a binding as the first argument, and any parameters as the second argument in list form.
     
