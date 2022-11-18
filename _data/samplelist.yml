@@ -2,7 +2,7 @@
 toc:
   - title: AWS
     subfolderitems:
-      - page: Introduction
+      - page: AWS
         url: InterviewSpecificQuestions/AWS/AWS.html
   - title: Angular
     subfolderitems:
@@ -76,10 +76,8 @@ toc:
         url: InterviewSpecificQuestions/DevOps/01-DevOps.html
   - title: Docker
     subfolderitems:
-      - page: Introduction
-        url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
-      - page: Introduction Sample 2
-        url: InterviewSpecificQuestions/Angular/02-IntroductionTonpmAndnode.html
+      - page: Docker
+        url: InterviewSpecificQuestions/Docker/01-Docker.html
   - title: Hibernate
     subfolderitems:
       - page: Hibernate
@@ -139,28 +137,28 @@ toc:
   - title: .Net Full stack
     subfolderitems:
       - page: .Net Full stack
-        url: InterviewSpecificQuestions/.NET FULL STACK/01-.NET Framework.html
+        url: InterviewSpecificQuestions/.NETFullStack/01-.NETFramework.html
       - page: ADO .NET
-        url: InterviewSpecificQuestions/.NET FULL STACK/02-ADO.net.html
+        url: InterviewSpecificQuestions/.NETFullStack/02-ADO.net.html
       - page: ASP .NET
-        url: InterviewSpecificQuestions/.NET FULL STACK/03-ASP.Net.html
+        url: InterviewSpecificQuestions/.NETFullStack/03-ASP.Net.html
       - page: C# Advanced
-        url: InterviewSpecificQuestions/.NET FULL STACK/04-C#Advance.html
+        url: InterviewSpecificQuestions/.NETFullStack/04-C#Advance.html
       - page: C# Azure
-        url: InterviewSpecificQuestions/.NET FULL STACK/05-C#Azure.html
+        url: InterviewSpecificQuestions/.NETFullStack/05-C#Azure.html
       - page: C# Basics
-        url: InterviewSpecificQuestions/.NET FULL STACK/06-C#Basics.html
+        url: InterviewSpecificQuestions/.NETFullStack/06-C#Basics.html
       - page: C# Collections
-        url: InterviewSpecificQuestions/.NET FULL STACK/07-C#Collections.html
+        url: InterviewSpecificQuestions/.NETFullStack/07-C#Collections.html
       - page: C# Exception Handling
-        url: InterviewSpecificQuestions/.NET FULL STACK/08-C#Exception_Handling.html
+        url: InterviewSpecificQuestions/.NETFullStack/08-C#Exception_Handling.html
       - page: C# OOPS
-        url: InterviewSpecificQuestions/.NET FULL STACK/09-C#OOPS.html
+        url: InterviewSpecificQuestions/.NETFullStack/09-C#OOPS.html
       - page: Node JS
-        url: InterviewSpecificQuestions/.NET FULL STACK/10-Nodejs.html
+        url: InterviewSpecificQuestions/.NETFullStack/10-Nodejs.html
       - page: REST
-        url: InterviewSpecificQuestions/.NET FULL STACK/11-Rest.html
+        url: InterviewSpecificQuestions/.NETFullStack/11-Rest.html
       - page: Scripting fundamentals
-        url: InterviewSpecificQuestions/.NET FULL STACK/12-Scripting fundamentals.html
+        url: InterviewSpecificQuestions/.NETFullStack/12-ScriptingFundamentals.html
       - page: SOA
-        url: InterviewSpecificQuestions/.NET FULL STACK/13-SOA.html
+        url: InterviewSpecificQuestions/.NETFullStack/13-SOA.html
