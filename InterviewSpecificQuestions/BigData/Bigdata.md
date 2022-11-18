@@ -81,8 +81,6 @@ Component of Spark:
 
 To copy a file from the local file system to HDFS, use Hadoop fs -put or hdfs dfs -put, on put command, specify the local-file-path where we wanted to copy from and then HDFS-file-path where you wanted to copy to.If the file already exists on HDFS, we will get an error message saying “File already exists”.
 
-</details>
-
 </blockquote>
 
 </details>
@@ -283,9 +281,10 @@ We are aware of a complete process on how to decommission a datanode and there a
 <blockquote markdown="1">
 
 we can use monotonically_increasing_id() in withColumn
-
-</details> 
+ 
 </blockquote>
+
+</details>
 
 ---
 
