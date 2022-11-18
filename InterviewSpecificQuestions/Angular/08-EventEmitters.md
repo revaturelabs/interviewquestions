@@ -1,6 +1,6 @@
 1. In Angular, how can you interact between Parent and Child components?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary> <b>Show Answer</b></summary>
@@ -14,7 +14,7 @@
 --- 
 2. How would you pass data from a parent to a child component or a child to a parent component?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary> <b>Show Answer</b></summary>
