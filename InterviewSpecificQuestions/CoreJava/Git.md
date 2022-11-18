@@ -2,7 +2,7 @@
 
 1. What is `Git`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -18,7 +18,7 @@
 ---
 2. What is the difference between `Git` and `GitHub`?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -35,7 +35,7 @@
 ---
 3. What do you understand by Git repository?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -53,7 +53,7 @@
 
 4. What do you mean by initializing a repository in Git? How do we do it?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -76,7 +76,7 @@ git init
 
 5. Can we modify the `.git` hidden folder under any Git repository?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -93,7 +93,7 @@ git init
 
 6. How to view commit logs in git?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -114,7 +114,7 @@ git log
 
 7. What is the working directory/tree in Git?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -131,7 +131,7 @@ git log
 
 8. What is the staging area in Git?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -149,7 +149,7 @@ git log
 
 9. How to copy the remote repository onto your local machine?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -170,7 +170,7 @@ git clone '<remote-repository-url>'
 
 10. How to clone a specific branch using `git clone` command?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -190,7 +190,7 @@ git clone -b feature/audit --single-branch 'https://<github-username>@github.com
 
 11. Which command adds a change from the working directory to the staging area.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -214,7 +214,7 @@ git add --all
 
 12. What is the Git command to save your changes to the local repository?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -236,7 +236,7 @@ git commit -m "Added first commit"
 
 13. What is the use of the `git push` command?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -256,7 +256,7 @@ git push
 
 14. What are untracked files in git status?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -272,7 +272,7 @@ git push
 
 15. What is a source code repository?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -288,7 +288,7 @@ A source-code repository is an archive with the code as well as the hosting faci
 
 16.  What are the benefits of the source code repository?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -309,7 +309,7 @@ Using a source code repository has many potential benefits for an organization, 
 
 17. What are some basic Gitlab commands?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
