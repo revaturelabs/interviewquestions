@@ -299,7 +299,7 @@ infinite times
 
 ArrayList provides a listIterator for traversing in forward and backward directions, so the  program will compile and run infinitely.
 
-</details>
+</blockquote>
 
 </details>
 

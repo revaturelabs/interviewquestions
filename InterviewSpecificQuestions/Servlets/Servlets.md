@@ -1,4 +1,4 @@
-1.	Define Servlets?
+1.Define Servlets?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -14,7 +14,7 @@ Servlets can be defined as small Java program that runs within a Web server.It r
 
 ---
 
-2.	What are the functionalities of Servlets in java?
+2.What are the functionalities of Servlets in java?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -30,7 +30,7 @@ Servlets provide several functionalities which include power, integration, effic
 
 ---
 
-3.	How do you create a servlet in a web application?
+3.How do you create a servlet in a web application?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -48,7 +48,7 @@ To handle requests that are appropriate for the servlet, a typical servlet must 
   
  ---
   
-4.	What is the need of a HTTP servlet?
+4.What is the need of a HTTP servlet?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -64,7 +64,7 @@ A Http servlet typically does not override the `service()` method.However, it ac
   
 ---
   
-5.	How do you create server-side functionalities in servlets?
+5.How do you create server-side functionalities in servlets?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -92,7 +92,7 @@ Servlets can be added in HTML pages with the server-side include (SSI) functiona
 
 ---
   
-6.	 Explain 'init' and 'destroy' methods in servlets?
+6.Explain 'init' and 'destroy' methods in servlets?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 

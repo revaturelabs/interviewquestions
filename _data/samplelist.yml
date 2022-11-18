@@ -77,11 +77,11 @@ toc:
   - title: Docker
     subfolderitems:
       - page: Docker
-        url: InterviewSpecificQuestions/Docker/01-Docker.html
+        url: InterviewSpecificQuestions/Docker/Docker.html
   - title: Hibernate
     subfolderitems:
       - page: Hibernate
-        url: InterviewSpecificQuestions/Hibernate/01-Hibernate.html
+        url: InterviewSpecificQuestions/Hibernate/Hibernate.html
   - title: HTML/CSS
     subfolderitems:
       - page: HTML
