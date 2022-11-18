@@ -3,7 +3,7 @@
 
 1. Which command can be used in `Unix` to get the current working directory?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -14,7 +14,7 @@
 ---
 2. With the help of which command you can create a new directory in Unix?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -25,7 +25,7 @@
 ---
 3. How can you copy a file from "ABC" directory to "XYZ" directory in Unix?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -37,7 +37,7 @@
 ---
 4. Give the syntax of the command which can be used to move the file from one directory to another.
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -48,7 +48,7 @@
 ---
 5. Your friend created a folder as "ABC" while working on an important project and dump the finance-related data in that folder. Now he wanted to rename the folder as "Finance_Data", what command he has to use to rename that folder in Unix?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -65,7 +65,7 @@
 ---
 6. Other than `touch` command, what command would you use to create an empty file in Unix?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -82,7 +82,7 @@
 ---
 7. Suppose you have created 6 to 7 directories and files that are holding some sort of data and your boss wanted to see the permissions of all those files and folders, then, which command can be used to view the permissions on the file? 
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -93,7 +93,7 @@
 ---
 8. How to see which file is modified recently and at what time in UNIX?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -103,7 +103,7 @@
 ---
 9. Imagine you have two files "example1.txt" and " example2.txt" and you wanted to add the content of both files in another file named "combine.txt". Which command you will use to do that task and what will happen if the "combine.txt" file doesn't exist in your system?  
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -117,7 +117,7 @@ Here if the combine.txt file doesn't exist in the system, it will create a combi
 ---
 10. How do you differentiate between the root and home directories in Linux?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -127,7 +127,7 @@ Here if the combine.txt file doesn't exist in the system, it will create a combi
 ---
 11. Which command can we use to view the content of multiple files in the terminal?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -138,7 +138,7 @@ Here if the combine.txt file doesn't exist in the system, it will create a combi
 ---
 12. A 'test.txt' file has some old content and 'test1.txt' file has some newly added content then how would you add the content of the test1 file at the end of the test file so that it has both old and new content together?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -149,7 +149,7 @@ Here if the combine.txt file doesn't exist in the system, it will create a combi
 ---
 13. Suppose using `mkdir` command you have created one directory as "program" which is empty and now you want to delete that directory from your system, then which command you will use for it?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -163,7 +163,7 @@ rmdir program
 ---
 14. While working on a project you have created one directory as "program" and added some files and folders in it which contain some data related to the project. Now the project has been deployed in the working environment and there is no need for that directory in the system now. So, for deleting that directory what command you can write?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -177,7 +177,7 @@ rm -r program
 ---
 15. How you can change the current directory in Linux?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -188,7 +188,7 @@ rm -r program
 ---
 16. Which command can be used to search as a string in a file based on a pattern in Linux?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -199,7 +199,7 @@ rm -r program
 ---
 17. Tell me the difference between `echo` and `printf` commands.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -212,7 +212,7 @@ Performance wise also `printf` is faster in execution than `echo` command.
 
 18. How to check the disk usage information on a filesystem?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -224,7 +224,7 @@ Performance wise also `printf` is faster in execution than `echo` command.
 
 19. How to view all the partitions of a hard drive in Linux. 
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -235,7 +235,7 @@ Performance wise also `printf` is faster in execution than `echo` command.
 ---
 20. Explain about fdisk, sfdisk and cfdisk commands?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -246,7 +246,7 @@ Performance wise also `printf` is faster in execution than `echo` command.
 ---
 21. which command is used to give information about block devices like hard drives, flash drives, CD-ROMs?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -258,7 +258,7 @@ Performance wise also `printf` is faster in execution than `echo` command.
 
 22. How do you manage and monitor software RAID devices in Linux?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -270,7 +270,7 @@ Performance wise also `printf` is faster in execution than `echo` command.
 
 23. Give the general format of the UNIX command?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
   
@@ -285,7 +285,7 @@ command_name (-n_arguments) (filename)
 
 24. Is the kernel and Operating System the same?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
   
@@ -297,7 +297,7 @@ command_name (-n_arguments) (filename)
 
 25. Name some of the file editors used in Unix/Linux?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
   
@@ -313,7 +313,7 @@ command_name (-n_arguments) (filename)
 
 26. How to change the permission set of a file in UNIX?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
   
@@ -325,7 +325,7 @@ command_name (-n_arguments) (filename)
 
 27. Assume you have to change ownership of a file in Linux, how will you do that?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
   
@@ -337,7 +337,7 @@ command_name (-n_arguments) (filename)
 
 28. Is there any difference between `vi` and `vim` editors in Linux?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
   
@@ -352,7 +352,7 @@ command_name (-n_arguments) (filename)
 
 29. Tell me the use of the `chmod` command in UNIX?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -364,7 +364,7 @@ command_name (-n_arguments) (filename)
 
 30. How will you give only read and write permission to all the users of a file named as "test1"?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -376,7 +376,7 @@ command_name (-n_arguments) (filename)
 
 31. Imagine Henry wants to be the owner of the two files, "test1" and "test2" in Linux then what he has to do?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -391,7 +391,7 @@ chmod Henry test1 test2
 
 32. Suppose you have a file which has read and write permission and now you want to remove the write permission from it, then what you will do to remove the write permission from a file?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -406,7 +406,7 @@ chmod u-w file_name
 
 33. How will you give read and write permission to a user and group and only the read permission to others on a file named as an "example"?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -422,7 +422,7 @@ Here, the first 6 represent read and write permission to a user, the next 6 repr
 
 34. How will you differentiate between `df`, `blkid` and `lsblk` commands?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -434,7 +434,7 @@ Here, the first 6 represent read and write permission to a user, the next 6 repr
 
 35. As a developer, if you wanted to check how many block devices are available in your system that is not mounted, which command you will use for that in UNIX?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -446,7 +446,7 @@ Here, the first 6 represent read and write permission to a user, the next 6 repr
 
 36. In Linux, how will you display the number of times a substring is present in a line?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -458,7 +458,7 @@ Here, the first 6 represent read and write permission to a user, the next 6 repr
 
 37. If you have to show in which line number a given string or pattern is present in a file then which command you will use for that?
 
-![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg) 
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -470,7 +470,7 @@ Here, the first 6 represent read and write permission to a user, the next 6 repr
 
 38. To view the content of a small file we can use the `cat` command, but what will happen if we use the same `cat` command to view the content of a large file?  Also, tell me which command can be used to see the content of a large file in a more convenient way.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -482,7 +482,7 @@ Here, the first 6 represent read and write permission to a user, the next 6 repr
 
 39. Both `more` and `less` command in Linux, is used to view the content of a large file then what is the difference between both of them?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
@@ -494,7 +494,7 @@ Here, the first 6 represent read and write permission to a user, the next 6 repr
 
 40. How will you terminate a process that is running in the background with the process id of 3007?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary> 
 
