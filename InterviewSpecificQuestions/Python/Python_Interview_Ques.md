@@ -4,7 +4,7 @@
 
 ## Python Interview Questions
 
-1.	How can you say that python is a dynamically typed programming language?
+1.How can you say that python is a dynamically typed programming language?
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -23,11 +23,12 @@ print(f"{a} => {type(a)}")
 ```
 
 </blockquote>
+
 </details>
   
 --- 
   
-2.	Consider John has a list1 =[1,2,3,4,5].He wants to get an output as list1=[5,4,3,2,1].How will you help him get that output?
+2.Consider John has a list1 =[1,2,3,4,5].He wants to get an output as list1=[5,4,3,2,1].How will you help him get that output?
   
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
@@ -43,11 +44,12 @@ print("after reversing",list1[::-1])
 ```   
   
 </blockquote>
+
 </details>  
   
 ---
   
-3.	Jack wants to enter these multiple line values 5 2 3 4 1 into a single line and he is trying to order the list as [1,2,3,4,5].Which method helps him to get the values in python?
+3.Jack wants to enter these multiple line values 5 2 3 4 1 into a single line and he is trying to order the list as [1,2,3,4,5].Which method helps him to get the values in python?
   
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -70,11 +72,12 @@ list of values [5, 2, 3, 4, 1]
 sorted values [1, 2, 3, 4, 5]
   
 </blockquote>
+
 </details>
   
   ---
   
-4.	Consider you have a list which holds values of multiple datatypes how do you extract only the numbers from that lis?
+4.Consider you have a list which holds values of multiple datatypes how do you extract only the numbers from that lis?
   
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
@@ -97,11 +100,12 @@ print(list2)
 [1, 2, 3, 4]
   
 </blockquote>
+
 </details>
   
 ---
   
-5.	If a function doesn’t have a return statement at the end of the function, is it valid in python?
+5.If a function doesn’t have a return statement at the end of the function, is it valid in python?
   
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
@@ -112,11 +116,13 @@ print(list2)
 - It will return `None` if the function doesn't have a return statement.
 
 </blockquote>
+
+
 </details>
   
 ---
   
-6.	Consider we have a list A= [1,4,6,7,9,66,4,94], and you want to get output for A[3].How will you get the output of the above list?
+6.Consider we have a list A= [1,4,6,7,9,66,4,94], and you want to get output for A[3].How will you get the output of the above list?
   
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
@@ -137,11 +143,12 @@ print("using index A[3] value is:" ,A[3])
 using index A[3] value is: 7
   
 </blockquote>
+
 </details>
  
 ---
   
-7.	Can you tell me the reason why this Datatype `set` is called **the frozen set** in python?
+7.Can you tell me the reason why this Datatype `set` is called **the frozen set** in python?
   
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
@@ -157,11 +164,12 @@ frozenset([iterable])
 ```
   
 </blockquote>
+
 </details>
   
 ---
   
-8.	Assume that I have a text, "The Apple a Day Keeps the Doctor Away." We want to replace one string with another for the one/first two occurrences of "An Apple a Day Keeps the Doctor Away." Which technique is used to do this?
+8.Assume that I have a text, "The Apple a Day Keeps the Doctor Away." We want to replace one string with another for the one/first two occurrences of "An Apple a Day Keeps the Doctor Away." Which technique is used to do this?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
@@ -188,11 +196,12 @@ Before replacing the string: The Apple a Day Keeps the Doctor Away.
 After replacing the string: An Apple a Day Keeps the Doctor Away.
   
 </blockquote>
+
 </details>
   
 ---
 
-9.	Fyodor combined multiple lines of text into a single line in python.Which delimiter is used to do that?
+9.Fyodor combined multiple lines of text into a single line in python.Which delimiter is used to do that?
   
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
@@ -203,11 +212,12 @@ After replacing the string: An Apple a Day Keeps the Doctor Away.
 - Triple quotes ''" or '" are string delimiters that can span multiple lines in Python.Triple quotes are used when combining multiple lines or enclosing a string that has a mix of single and double quotes.
 
 </blockquote>
+
 </details>
   
 ---
    
-10.	Consider the string "Python Online Training" as an example.How do I get output as ['Python', 'Online', 'Training'?.Which process produces this result?
+10.Consider the string "Python Online Training" as an example.How do I get output as ['Python', 'Online', 'Training'?.Which process produces this result?
   
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
@@ -234,11 +244,12 @@ print(x)
 ['Python', 'Online', 'Training']
 
 </blockquote>
+
 </details>
  
 ---  
   
-11.	Shan wants to iterate the for loop for a fixed number of times in Python.Which method is used to iterate the loop?
+11.Shan wants to iterate the for loop for a fixed number of times in Python.Which method is used to iterate the loop?
   
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
@@ -256,11 +267,12 @@ for i in range(len(C):
 ```
  
 </blockquote>
+
 </details>
   
 ---
 
-12.	Which variables are created globally in a class? Tell me the scope of the variables.
+12.Which variables are created globally in a class? Tell me the scope of the variables.
   
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
@@ -280,11 +292,12 @@ print("x outside:", x)
 ```
   
 </blockquote>
+
 </details>
   
  ---
   
-13.	Which one is used to provide a unique name for every object in python? What are the different types available in python?
+13.Which one is used to provide a unique name for every object in python? What are the different types available in python?
   
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
@@ -297,11 +310,12 @@ print("x outside:", x)
    - Built-in namespace
   
 </blockquote>
+
 </details>
   
  ---
   
-14.	Can you teach James, how to run the interactive Python interpreter?
+14.Can you teach James, how to run the interactive Python interpreter?
   
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
@@ -313,11 +327,12 @@ print("x outside:", x)
 Now you can write and run the Python code.The only drawback is when you close the session, your code will be gone.
   
 </blockquote>
+
 </details>
   
  ---
   
-15.	James want to know list all the function in a module.Which method helps him to get all the functions in a module?	
+15.James want to know list all the function in a module.Which method helps him to get all the functions in a module?	
   
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
@@ -334,11 +349,12 @@ print dir(some_module)
 ```
 
 </blockquote>
+
 </details>
   
 ---
   
-16.	Junior developers want to repeat a particular part of the task a finite number of times in python.How is his senior going to help him to repeat the code?
+16.Junior developers want to repeat a particular part of the task a finite number of times in python.How is his senior going to help him to repeat the code?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
@@ -349,11 +365,12 @@ print dir(some_module)
 - you can provide the number of iterations to be performed, as an integer value.
   
 </blockquote>
+
 </details>
   
  ---
   
-17.	One of the coworkers was working on strings, he doesn't know how to remove whitespaces from a string in python.How would you help him to remove whitespaces?
+17.One of the coworkers was working on strings, he doesn't know how to remove whitespaces from a string in python.How would you help him to remove whitespaces?
   
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
@@ -371,11 +388,12 @@ s.strip()
 - We can use `replace()`  to remove all the whitespaces from the string.This function will remove whitespaces between words.
   
 </blockquote>
+
 </details>
   
   ---
 
-18.	Ron asked Ken to show the reversed order of the contents of a file in python.How would he do that?
+18.Ron asked Ken to show the reversed order of the contents of a file in python.How would he do that?
   
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
@@ -396,11 +414,12 @@ for line in reversed(list(open(filename)):
 ```
   
 </blockquote>
+
 </details>
   
 ---
   
-19.	One of the developers is trying to run the following piece of code but after running the code, it throws a Syntax error,
+19.One of the developers is trying to run the following piece of code but after running the code, it throws a Syntax error,
   
 ```python
 x = "CorporateWorld"
@@ -422,11 +441,12 @@ print ("Reverse is", x[ :: -1] )
 ```
   
 </blockquote>
+
 </details>
   
 ---
   
-20.	Is the `Xrange()` method occupy only the least memory? What would be the reason?
+20.Is the `Xrange()` method occupy only the least memory? What would be the reason?
   
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
@@ -437,11 +457,12 @@ print ("Reverse is", x[ :: -1] )
 - Because it only stores one number at a time in the memory.
   
 </blockquote>
+
 </details>
   
 ---
   
-21.	Can you tell us something about generators in python and explain where can we use the generators?
+21.Can you tell us something about generators in python and explain where can we use the generators?
   
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
@@ -452,11 +473,12 @@ print ("Reverse is", x[ :: -1] )
 - The difference is that while a return statement terminates a function entirely, the yield statement pauses the function saving all its states and later continues from there on successive calls.
   
 </blockquote>
+
 </details>
   
   ---
   
-22.	Consider your Team lead asks how you will handle errors.How will you describe the correct usage of error handling in Python?
+22.Consider your Team lead asks how you will handle errors.How will you describe the correct usage of error handling in Python?
   
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
@@ -475,11 +497,12 @@ while True:
 ```
   
 </blockquote>
+
 </details>
   
 ---
   
-23.	Junior was having some issues with their code.How would you help him to detect Python bugs and statistical issues?
+23.Junior was having some issues with their code.How would you help him to detect Python bugs and statistical issues?
   
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
@@ -490,11 +513,12 @@ while True:
 - Another tool called `PyLint` checks whether the Python modules meet their coding standards.
   
 </blockquote>
+
 </details>
   
   ---
   
-24.	Which module in Python supports regular expressions?
+24.Which module in Python supports regular expressions?
   
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
@@ -510,11 +534,12 @@ import re
 - Regular Expressions (RegEx) is a special sequence of characters that uses a search pattern to find a string or set of strings.
   
 </blockquote>
+
 </details>
   
 ---
   
-25.	How will you explain the function `re.match` to your junior developer?
+25.How will you explain the function `re.match` to your junior developer?
   
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
@@ -524,6 +549,7 @@ import re
 - `re` in `re.match()` function in Python will search the regular expression pattern and return the first occurrence.
   
 </blockquote>
+
 </details>
   
   ---
@@ -546,11 +572,12 @@ print(languages)
 ```
   
 </blockquote>
+
 </details>
   
  ---
 
-26.	John wants to check a string whether all characters are in uppercase.Joe helped him to check whether all the characters are in uppercase.Which method did she suggest to him?
+26.John wants to check a string whether all characters are in uppercase.Joe helped him to check whether all the characters are in uppercase.Which method did she suggest to him?
   
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
@@ -568,11 +595,12 @@ print(b.isupper()
 ```
   
 </blockquote>
+
 </details>
   
   ---
  
-27.	Can you list some differences between single `/` slash and double `//` slash in python?
+27.Can you list some differences between single `/` slash and double `//` slash in python?
   
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
@@ -592,11 +620,12 @@ print("The type of the result", type(result)
 ```
   
 </blockquote>
+
 </details>
 
 ---
   
-28.	Amie has the following code and is trying to get the output, but she keeps receiving NameError warnings.
+28.Amie has the following code and is trying to get the output, but she keeps receiving NameError warnings.
  
 ```python
 list = [John, 70.2, 'abcd', 786, 2.23] 
@@ -620,11 +649,12 @@ print(list[7:3])
 ```
   
 </blockquote>
+
 </details>
   
   ---
 
-29.	Henry wants to learn slicing, but he doesn’t know which data types of support slicing.How would you help him to learn the different data types supported for slicing?
+29.Henry wants to learn slicing, but he doesn’t know which data types of support slicing.How would you help him to learn the different data types supported for slicing?
   
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
@@ -640,11 +670,12 @@ print(a[x])
 ```
 
 </blockquote>
+
 </details>
   
   ---
   
-30.	John wants to print a single string 10 times using only one print statement.How can he do that?
+30.John wants to print a single string 10 times using only one print statement.How can he do that?
   
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
@@ -659,11 +690,12 @@ print(X*10)
 ```
   
 </blockquote>
+
 </details>
   
   ---
   
-31.	Consider Jack has this list [1,2,3,4,5,].He wants to convert the list into the set as (1,2,3,4,5) and John wants to know if it maintains the same order?
+31.Consider Jack has this list [1,2,3,4,5,].He wants to convert the list into the set as (1,2,3,4,5) and John wants to know if it maintains the same order?
   
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
@@ -682,11 +714,12 @@ print(x1,type(x1)
 ```
   
 </blockquote>
+
 </details>
   
  ---
  
-32.	How do you find the type and identification number of an object in Python?
+32.How do you find the type and identification number of an object in Python?
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
@@ -697,6 +730,7 @@ print(x1,type(x1)
 - Using `id()` for returning the identification number.
 
 </blockquote>
+
 </details>
   
   ---
@@ -712,6 +746,7 @@ The key difference between Python 2.x and Python 3.x is the behavior of the prin
 2.x print is treated as a statement whereas in 3.x, it is treated as a function print().
   
 </blockquote>
+
 </details>
   
   ---
@@ -731,6 +766,7 @@ print(list1)
 ```
   
 </blockquote>
+
 </details>
   
   ---
@@ -752,6 +788,7 @@ print(x is y)
 ```
   
 </blockquote>
+
 </details>
    
 ---
@@ -777,6 +814,7 @@ pip install pandas
 ```
   
 </blockquote>
+
 </details>
   
   ---
@@ -799,6 +837,7 @@ iii)pdb – The module PDB defines associate degree interactive ASCII text file(
 iv)pylint – Analyzes Python ASCII text file (source code) trying to find bugs and signs of poor quality.
   
 </blockquote>
+
 </details>
    
 ---
@@ -817,6 +856,7 @@ iv)pylint – Analyzes Python ASCII text file (source code) trying to find bugs 
    - MyPy - Check for errors against optional static type annotations.
 
 </blockquote>
+
 </details>
   
   ---
@@ -833,6 +873,7 @@ iv)pylint – Analyzes Python ASCII text file (source code) trying to find bugs 
 - Case is always significant.
  
 </blockquote>
+
 </details>
   
   ---
@@ -858,6 +899,7 @@ python -V
 ```
 
 </blockquote>
+
 </details>
   
 ---
@@ -883,6 +925,7 @@ python -V
      - `+r` - open a file for reading and writing.
 
 </blockquote>
+
 </details>
 
 ---
@@ -909,6 +952,7 @@ Before removing duplicate values: [1, 1, 2, 3, 2, 2, 4, 5, 6, 2, 1]
 After removing duplicate values [1, 2, 3, 4, 5, 6]
 
 </blockquote>
+
 </details>
 
 ---
@@ -936,6 +980,7 @@ print (x, y )
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -962,6 +1007,7 @@ wo
 - He can use the above code to access 'wo' from 'hello world'.
 
 </blockquote>
+
 </details>
 
 ---
@@ -990,6 +1036,7 @@ print(result)
 ```
   
 </blockquote>
+
 </details>
 
 ---
@@ -1008,6 +1055,7 @@ print(result)
 - Python has something clever to improve the performance.It compiles to bytecode (.pyc files) the first time it executes a file.This substantially improves the execution of the code the next time the module is imported or executed.
 
 </blockquote>
+
 </details>
 
 ---
@@ -1031,6 +1079,7 @@ def Square(n):
 print(list(Square(5))
 ```
 </blockquote>
+
 </details>
 
 ---
@@ -1048,6 +1097,7 @@ print(list(Square(5))
 - So, Python does not detect and free circular memory references before making use of the garbage collector.
 
 </blockquote>
+
 </details>
 
 ---
@@ -1073,6 +1123,7 @@ print(re.split(" +", str)
 ['Python', 'porgramming', 'test']
 
 </blockquote>
+
 </details>
 
 ---
@@ -1096,6 +1147,7 @@ print(random.randint(1,1000)
 669
   
 </blockquote>
+
 </details>
 
 ---
@@ -1114,6 +1166,7 @@ print(random.randint(1,1000)
     - `append()`
 
 </blockquote>
+
 </details>
 
 ---
@@ -1140,6 +1193,7 @@ print(isinstance(MySubClass1, MyClass1)
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -1174,6 +1228,7 @@ print( id(y), id(x)
 - Above program Output is different ids.
   
 </blockquote>
+
 </details>
 
 ---
@@ -1197,6 +1252,7 @@ print ( My_class.static_var ) #5
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -1220,6 +1276,7 @@ print ( My_class.static_var ) #5
      - Can be accessed directly through the class.Don't need an instance class.
 
 </blockquote>
+
 </details>
 
 ---
@@ -1235,6 +1292,7 @@ print ( My_class.static_var ) #5
 - The **getmembers(object)** method return all the members of an object in a list of (name, value) pairs sorted by name.
 
 </blockquote>
+
 </details>
 
 ---
@@ -1250,6 +1308,7 @@ print ( My_class.static_var ) #5
 - Python does not support multiple inheritances.But ,you can easily emulate the equivalence of interfaces.
 
 </blockquote>
+
 </details>
 
 ---
@@ -1269,6 +1328,7 @@ print ( My_class.static_var ) #5
      - BeautifulSoup
   
 </blockquote>
+
 </details>
 
 ---
@@ -1284,6 +1344,7 @@ print ( My_class.static_var ) #5
 - To protect the only way is to license it because if you compile your code, let us say machine code, if your work is not protected by a license, it can still be commercialized against your will.
 
 </blockquote>
+
 </details>
 
 ---
@@ -1305,6 +1366,7 @@ print ( My_class.static_var ) #5
          `python -m pip install --upgrade pip`
 
 </blockquote>
+
 </details>
 
 ---
@@ -1336,6 +1398,7 @@ print_numb(one=1, two="two",three=3,four="four")
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -1355,6 +1418,7 @@ print_numb(one=1, two="two",three=3,four="four")
  - **Unchecked exception** - The classes which inherit Runtime exceptions are known as unchecked exceptions.
 
 </blockquote>
+
 </details>
 
 ---
@@ -1383,6 +1447,7 @@ else:
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -1415,6 +1480,7 @@ He is asking to print the output for the code, but he got some error.How will yo
 - We can add only the two list, not an integer value.
   
 </blockquote>
+
 </details>
 
 ---
@@ -1435,6 +1501,7 @@ print(home)
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -1459,6 +1526,7 @@ else:
 - The above program validates x=1 or x=2 or x=3 or x=4 or x=5.
 
 </blockquote>
+
 </details>
 
 ---
@@ -1478,6 +1546,7 @@ call(["dir"])
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -1493,6 +1562,7 @@ call(["dir"])
 - __fun: the interpreter replaces this name with _classname__fun to ensure that the name will not overlap with a similar name in another class.
 
 </blockquote>
+
 </details>
 
 ---
@@ -1513,6 +1583,7 @@ while True:
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -1528,6 +1599,7 @@ while True:
 - In python 3, `raw_input()` was taken as `input()`.So it will return exactly what the user entered and the old input() was removed.
 
 </blockquote>
+
 </details>
 
 ---
@@ -1542,6 +1614,7 @@ while True:
 Python is an object-oriented programming language but not completely.Because, Python doesn't support strong encapsulation, which is one of many features associated with the term 'object-oriented'.
 
 </blockquote>
+
 </details>
 
 ---
@@ -1561,6 +1634,7 @@ Python is an object-oriented programming language but not completely.Because, Py
 - We can use any one of the methods and we can kill the thread.
   
 </blockquote>
+
 </details>
 
 ---
@@ -1583,6 +1657,7 @@ b + math.sqrt(3 * max_val)
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -1607,6 +1682,7 @@ else {
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -1623,6 +1699,7 @@ else {
 - In a function, if a variable is ever assigned a new value, then the variable is implicitly local and explicitly it should be declared as global.
 
 </blockquote>
+
 </details>
 
 ---
@@ -1639,6 +1716,7 @@ else {
 - Regardless, objects of an empty class can also be created.
 
 </blockquote>
+
 </details>
 
 ---
@@ -1665,6 +1743,7 @@ def funcy(a, b, c, **kwargs):
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -1682,6 +1761,7 @@ def funcy(a, b, c, **kwargs):
    - `setattr()` – This function is used to set an attribute.
 
 </blockquote>
+
 </details>
 
 ---
@@ -1696,6 +1776,7 @@ def funcy(a, b, c, **kwargs):
 - A higher-order function accepts one or additional functions as input and returns a new function.Sometimes it's needed to use function as data.To form a higher-order function, we need to import the functools module.
 
 </blockquote>
+
 </details>
 
 ---
@@ -1711,6 +1792,7 @@ def funcy(a, b, c, **kwargs):
 - **Override Modifier** - Instructs to run the base class version of a class and it will not create a new one.This reduces redundant repetitions of writing codes.
 
 </blockquote>
+
 </details>
 
 ---
@@ -1726,6 +1808,7 @@ def funcy(a, b, c, **kwargs):
 - This `new` method will be used to control the creation of a new instance.
 
 </blockquote>
+
 </details>
 
 ---
@@ -1740,6 +1823,7 @@ def funcy(a, b, c, **kwargs):
 - In python, when the object is passed in the strong typing, it checks whether the method is present in the object.Using the python `hasattr()` function, using we can check whether the method is present in the past object.
 
 </blockquote>
+
 </details>
 
 ---
@@ -1760,6 +1844,7 @@ print(random.choice(x)
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -1782,6 +1867,7 @@ print(random.choice(x)
   - **form.headers**: All HTTP headers are returned as a dictionary.
 
 </blockquote>
+
 </details>
 
 ---
@@ -1796,6 +1882,7 @@ print(random.choice(x)
 - Python doesn't have a concept of private variables, use the leading underscores to declare a variable as private.
 
 </blockquote>
+
 </details>
 
 ---
@@ -1810,6 +1897,7 @@ print(random.choice(x)
 - Yes, it is possible if other child classes instantiate the base class or if the base class is a static method.
 
 </blockquote>
+
 </details>
 
 ---
@@ -1826,6 +1914,7 @@ print(random.choice(x)
 - **Constructor**:  It is a special type of method that has the same name as the class name.These methods are used to initialize an object's state.
 
 </blockquote>
+
 </details>
 
 ---
@@ -1841,6 +1930,7 @@ print(random.choice(x)
 - Some file-related modules are `os, os.path, and shutil.os`.The `os.path` module has functions to access the file system, while the shutil.os module can be used to copy or delete files.
 
 </blockquote>
+
 </details>
 
 ---
@@ -1856,6 +1946,7 @@ print(random.choice(x)
 - In python, the `eval()` function only accepts a single expression.
 
 </blockquote>
+
 </details>
 
 ---
@@ -1870,6 +1961,7 @@ print(random.choice(x)
 - A metaclass in Python is a class of a class that defines how a class behaves.A class in itself is an instance of a metaclass.A class in Python defines how the instance of the class can behave.To grasp metaclasses well, one has to have prior experience working with Python classes.
 
 </blockquote>
+
 </details>
 
 ---
@@ -1885,6 +1977,7 @@ print(random.choice(x)
 - It converts all the uppercase characters into lowercase and vice versa.
 
 </blockquote>
+
 </details>
 
 ---
@@ -1902,6 +1995,7 @@ print(random.choice(x)
    - NumPy has a highly readable syntax, making it easy and convenient for programmers.
 
 </blockquote>
+
 </details>
 
 ---
@@ -1926,6 +2020,7 @@ print(random.randint(10, 20)
 ```
   
 </blockquote>
+
 </details>
 
 ---
@@ -1960,6 +2055,7 @@ For example, if maxsplit=3, then it will do 3 splits.
   
   
 </blockquote>
+
 </details>
 
 ---
@@ -1976,6 +2072,7 @@ For example, if maxsplit=3, then it will do 3 splits.
 - Pure functions are functions that cause little or no changes outside the scope of the function.These changes are referred to as side effects.To reduce side effects, pure functions are used, which makes the code easy-to-follow, test, or debug.
 
 </blockquote>
+
 </details>
 
 ---
@@ -2011,6 +2108,7 @@ if (number >= 18) {
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -2029,6 +2127,7 @@ if (number >= 18) {
   - Import specific things from the module and rename them as you're importing them: pycon from os.path import joins as join_path
   
 </blockquote>
+
 </details>
 
 ---
@@ -2057,6 +2156,7 @@ print(obj.add("Jack","ken")
 ```
   
 </blockquote>
+
 </details>
 
 ---
@@ -2072,6 +2172,7 @@ print(obj.add("Jack","ken")
 - If you want to read a file, open the file first then, use open() function to open a file.
 
 </blockquote>
+
 </details>
 
 ---
@@ -2090,6 +2191,7 @@ print(obj.add("Jack","ken")
 - **logging.error()**, **logging.exception()** report the suppression of an error without raising an exception
 
 </blockquote>
+
 </details>
 
 ---
@@ -2113,6 +2215,7 @@ def Function(One, x):
 - Whenever we call Function(One,x), we will get the output.
 
 </blockquote>
+
 </details>
 
 ---
@@ -2134,6 +2237,7 @@ def my_decorator_function(func):
 ``` 
 
 </blockquote>
+
 </details>
 
 ---
@@ -2155,6 +2259,7 @@ def my_decorator_function(func):
   - It is a longer sequence.
 
 </blockquote>
+
 </details>
 
 ---
@@ -2177,6 +2282,7 @@ def my_decorator_function(func):
   - Any recursive problem can be solved iteratively.
 
 </blockquote>
+
 </details>
 
 ---
@@ -2191,6 +2297,7 @@ def my_decorator_function(func):
 - In python, an identifier can be of infinite length.The PEP-8 standard sets a rule that you should limit all lines to a maximum of 79 characters.
 
 </blockquote>
+
 </details>
 
 ---
@@ -2205,6 +2312,7 @@ def my_decorator_function(func):
 - In Python, docstring is a string used to document a Python module, class, function or method, so that programmers can understand what it does without having to read the details of the implementation.Also, it is a common practice to generate online documentation automatically from docstrings.
 
 </blockquote>
+
 </details>
 
 ---
@@ -2219,6 +2327,7 @@ def my_decorator_function(func):
 - You can create a new test suite with Python unittest by subclassing unittest, TestSuite and add your test cases.
 
 </blockquote>
+
 </details>
 
 ---
@@ -2239,6 +2348,7 @@ assertTrue(mylist[0] > 5)
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -2253,6 +2363,7 @@ assertTrue(mylist[0] > 5)
 - In python, `Assert` is a keyword used in the Python unittest module to make assertions about the code being tested.Assertions are checks that the code does, and it is supposed to be doing, and they will throw an error if the check fails.This is useful for finding bugs in code, and for making sure that the code behaves as expected.
 
 </blockquote>
+
 </details>
 
 ---
@@ -2267,6 +2378,7 @@ assertTrue(mylist[0] > 5)
 - We can use the Python `unittest` module for automating unit tests.This module is part of the standard library, so it is always available, and it is relatively easy to use.
 
 </blockquote>
+
 </details>
 
 ---
@@ -2283,6 +2395,7 @@ assertTrue(mylist[0] > 5)
 To create a package of our own, we create a directory and create a file __init__.py in it.We leave it empty.Then, in that package, we create a module(s) with whatever code we want.For a detailed explanation with pictures, refer to Python Packages.
 
 </blockquote>
+
 </details>
 
 ---
@@ -2308,6 +2421,7 @@ class A:
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -2328,6 +2442,7 @@ class A:
 - PYTHONPATH − It has a role like PATH.This variable tells the Python interpreter where to locate the module files imported into a program.It should include the Python source library directory and the directories containing Python source code.PYTHONPATH is sometimes preset by the Python installer.
 
 </blockquote>
+
 </details>
 
 ---
@@ -2342,6 +2457,7 @@ class A:
 In python, we already know about Multiple Inheritance, Method Resolution Order (MRO).C does not contain its own version of `func()`.Since the interpreter searches in a left-to-right fashion, it finds the method in A, and does not look for it in B.
 
 </blockquote>
+
 </details>
 
 ---
@@ -2362,6 +2478,7 @@ print(type(n1),n1)
 ```
   
 </blockquote>
+
 </details>
 
 ---
@@ -2376,6 +2493,7 @@ print(type(n1),n1)
 - In python, the `assertTrue()` method checks whether the given condition is True.While the `assertFalse()` method checks the given condition is False, these methods are used to check the return value of a given function.
 
 </blockquote>
+
 </details>
 
 ---
@@ -2415,6 +2533,7 @@ while(n==7):print(n)
 KeyboardInterrupt
 
 </blockquote>
+
 </details>
 
 ---
@@ -2429,6 +2548,7 @@ KeyboardInterrupt
 - To share global variables across modules, we need to create a special module, and then import the config module into all modules of our application.This lets the module be global to all modules.
 
 </blockquote>
+
 </details>
 
 ---  
@@ -2463,6 +2583,7 @@ os.getcwd()
 'C:\Users\lifei\Desktop'
 
 </blockquote>
+
 </details>
 
 ---
@@ -2484,6 +2605,7 @@ os.getcwd()
 - `<p>` — Print an expression`
   
 </blockquote>
+
 </details>
 
 ---
@@ -2501,6 +2623,7 @@ os.getcwd()
 - Python supports JSON parsers.In fact, JSON-based data is internally represented as a dictionary in Python.It will convert JSON data into Python data, and for that we use the `load()` function from the JSON module.
   
 </blockquote>
+
 </details>
 
 ---
@@ -2536,6 +2659,7 @@ Oh then
 Bye 
 
 </blockquote>
+
 </details>
 
 ---
@@ -2550,6 +2674,7 @@ Bye
 That is just an editor and a graphical version of the interactive shell.You can write your code or load code and run it or type it into the shell.There is no automated testing.
 
 </blockquote>
+
 </details>
 
 ---    
@@ -2572,6 +2697,7 @@ for i in range(10)
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -2596,6 +2722,7 @@ e.group()
 brian@gmail.com 
  
 </blockquote>
+
 </details>
 
 ---
@@ -2610,6 +2737,7 @@ brian@gmail.com
 - In python, you can use the @unittest.skip decorator to skip a particular test method or class.This is useful when you want to temporarily disable a test or if you know that a particular test will not work on your system.
 
 </blockquote>
+
 </details>
 
 ---
@@ -2625,6 +2753,7 @@ brian@gmail.com
 - The `for` statement is used when one wishes to iterate through a list of items, such as database records, characters in a string, etc.
 
 </blockquote>
+
 </details>
 
 ---
@@ -2660,6 +2789,7 @@ for i in range(3):
   ```
   
 </blockquote>
+
 </details>
 
 ---
@@ -2684,6 +2814,7 @@ f.close()
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -2711,6 +2842,7 @@ else:
 - "Hi-world" is executed because all the `if` conditions become true for the values of 'a' and 'b'.
 
 </blockquote>
+
 </details>
 
 ---
@@ -2727,6 +2859,7 @@ else:
 - But in Python, you can easily have a mapping table(dict) where a certain value maps to a certain function.Python functions are first-class values, you can use the functions as the values of the dictionary get(key[, default]) method.Performance-wise, the Python dictionary lookup will almost certainly be more efficient than any solution you can rig yourself.
 
 </blockquote>
+
 </details>
 
 ---
@@ -2757,6 +2890,7 @@ else:
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -2774,6 +2908,7 @@ else:
 - This module is providing methods for searching text strings or replacing text strings along with methods for splitting text strings based on the pattern defined.
 
 </blockquote>
+
 </details>
 
 ---
@@ -2792,6 +2927,7 @@ else:
 `reduce()` – repeatedly performs a pair-wise reduction on a sequence until a single value is computed.
 
 </blockquote>
+
 </details>
 
 ---
@@ -2814,6 +2950,7 @@ class Derived(Base):
 If you're using classic classes: For a class definition such as class Derived (Base): you can call method `math()` defined in Base as Base.`math(self,arguments)`.Here, Base.math is an unbound method, so you need to provide the self-argument.
 
 </blockquote>
+
 </details>
 
 ---
@@ -2838,6 +2975,7 @@ True
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -2859,6 +2997,7 @@ else:
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -2876,6 +3015,7 @@ We can do this by using the `float()` and `int()` statements.The `int()` functio
 - Finally, the code first converts the value of the variable to a float.Next, it will convert the value to an integer.
 
 </blockquote>
+
 </details>
 
 ---
@@ -2904,6 +3044,7 @@ for i in range(1,10):
 ```
   
 </blockquote>
+
 </details>
 
 ---
@@ -2918,6 +3059,7 @@ for i in range(1,10):
 In python, double quotes are used for String representation and single quotes are used for String representation.These work in Python.The most used way by PEP 8 is in double quotes.
 
 </blockquote>
+
 </details>
 
 ---
@@ -2944,6 +3086,7 @@ print(name)
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -2970,6 +3113,7 @@ Or automatically:
 ` pip-review --local --auto`
 
 </blockquote>
+
 </details>
 
 ---
@@ -3014,6 +3158,7 @@ def min(*args):
 ```  
 
 </blockquote>
+
 </details>
 
 ---
@@ -3029,6 +3174,7 @@ def min(*args):
 - However, when we pass literal arguments like strings, numbers, or tuples, they it is pass by value.Because they are immutable.
 
 </blockquote>
+
 </details>
 
 ---
@@ -3059,6 +3205,7 @@ class HeaderFileHandler(logging.FileHandler):
  ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -3077,6 +3224,7 @@ a,b,c=3,4,5     #This assigns 3, 4, and 5 to a, b, and c.
 a = b = c =3         #This assigns 3 to a, b, and c
 ```
 </blockquote>
+
 </details>
 
 ---
@@ -3099,6 +3247,7 @@ pip install -r /path/to/req.txt
  -r, --req < filename >
 
 </blockquote>
+
 </details>
 
 ---
@@ -3124,6 +3273,7 @@ A(7)()
 7  
 
 </blockquote>
+
 </details>
 
 ---
@@ -3138,6 +3288,7 @@ A(7)()
 - In python, when we are running automated unit tests, you will need to consider how your configuration settings and databases are set up.You will need to make sure that your tests are able to run without affecting the live data in your databases.One way to do this is to create a separate testing database that your tests can run against.This way, your tests can be run without affecting the data in your production database.
 
 </blockquote>
+
 </details>
 
 ---
@@ -3156,6 +3307,7 @@ A(7)()
  - `shutill.rmtree()` - deletes a directory and all its contents.
 
 </blockquote>
+
 </details>
 
 ---
@@ -3177,6 +3329,7 @@ print(type(chr(65))
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -3191,6 +3344,7 @@ print(type(chr(65))
 In python, when a local variable is given the same name as a global variable, the global variable is shadowed in the scope of the local variable and cannot be accessed.
 
 </blockquote>
+
 </details>
   
 ---
@@ -3206,6 +3360,7 @@ In python, when a local variable is given the same name as a global variable, th
 - If the base class is instantiated by other child classes or if the base class is a static method.
 
 </blockquote>
+
 </details>
 
 ---
@@ -3223,6 +3378,7 @@ In python, when a local variable is given the same name as a global variable, th
 - When I run the IDLE, I run the 64-bit version.
 
 </blockquote>
+
 </details>
 
 ---  
@@ -3249,6 +3405,7 @@ True
 ...
 
 </blockquote>
+
 </details>
 
 ---
@@ -3271,6 +3428,7 @@ True
    - Create a `__init__.py` file in this directory.This python knows the directory we created is a package.The content of this package can be imported across different modules in other packages to reuse the functionality.
 
 </blockquote>
+
 </details>
 
 ---
@@ -3290,6 +3448,7 @@ module = importlib.import_module('my_package.my_module')
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -3306,6 +3465,7 @@ module = importlib.import_module('my_package.my_module')
    - The first line must begin with a hash(#).An example of this will be: #!/usr/local/bin/python
 
 </blockquote>
+
 </details>
 
 ---
@@ -3361,6 +3521,7 @@ password = input('Enter your password: ')
 ```  
                                                 
 </blockquote>
+
 </details>
 
 ---
@@ -3385,6 +3546,7 @@ As a senior developer, how will you help him?
 - If you want to exit from the infinite loop, Press ctrl+c you will exit from the loop and you will get the `KeyboardInterrupt` error.
 
 </blockquote>
+
 </details>
 
 ---
@@ -3406,6 +3568,7 @@ print(a**b)
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -3420,6 +3583,7 @@ print(a**b)
 Python does not add the current directory to `sys.path`, but rather the directory that the script is in.Add the /home/user/work/project to either `sys.path` or `$PYTHONPATH.`
 
 </blockquote>
+
 </details>
 
 ---
@@ -3442,6 +3606,7 @@ print(dt)
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -3458,6 +3623,7 @@ print(dt)
 - In python, Mappings do not maintain any left-to-right position order, it will support access to stored data by key, as well as type-specific method calls.
 
 </blockquote>
+
 </details>
 
 ---
@@ -3472,6 +3638,7 @@ print(dt)
 - The difference between the `.py` files is python files that have the source code but `.pyc` has the bytecode of your program.
 
 </blockquote>
+
 </details>
 
 ---
@@ -3495,6 +3662,7 @@ print(os.environ['HOME'])
 `print(os.environ)`
 
 </blockquote>
+
 </details>
 
 ---
@@ -3517,6 +3685,7 @@ print(os.environ['HOME'])
 These operators are used to compare the two values.
 
 </blockquote>
+
 </details>
 
 ---
@@ -3544,6 +3713,7 @@ print(cwd)
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -3558,6 +3728,7 @@ print(cwd)
 Multiple junior-level programmers manage to care debugging, so having a debugging process is important for all developers.Whether you are a savvy developer or just starting, understanding how to discover and fix bugs is important.
 
 </blockquote>
+
 </details>
 
 ---
@@ -3576,6 +3747,7 @@ Multiple junior-level programmers manage to care debugging, so having a debuggin
    - Time management
 
 </blockquote>
+
 </details>
 
 ---
@@ -3595,6 +3767,7 @@ Multiple junior-level programmers manage to care debugging, so having a debuggin
    - Syntax errors prevent your program from executing.
 
 </blockquote>
+
 </details>
 
 ---
@@ -3609,6 +3782,7 @@ Multiple junior-level programmers manage to care debugging, so having a debuggin
 - In python, background debug mode is an interface that enables developers to debug the embedded systems.This mode facilitates debugging in microcontrollers.
 
 </blockquote>
+
 </details>
 
 ---
@@ -3626,6 +3800,7 @@ Multiple junior-level programmers manage to care debugging, so having a debuggin
 - Finally, Inspect and modify the values of the variables
 
 </blockquote>
+
 </details>
 
 ---
@@ -3663,6 +3838,7 @@ print(ob.add(5,3)
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -3677,6 +3853,7 @@ print(ob.add(5,3)
 Only one copy of static variables is created when a class is loaded.Each object instantiated has its own copy of instance variables.Only one copy of static variables is created when a class is loaded.Each object instantiated has its own copy of instance variables.
 
 </blockquote>
+
 </details>
 
 ---
@@ -3697,6 +3874,7 @@ After running this code what will be the output and explain how you got that?
 - The round-off errors from 0.2 and 0.4 add and therefore there is a difference between (0.2 + 0.4) and 0.6.This is because you can't compare floating point values, and it cannot be considered exact.
 
 </blockquote>
+
 </details>
 
 ---
@@ -3720,6 +3898,7 @@ class C(B):
 In multi-level inheritance, a subclass derives from another class which itself is derived from another class.In multi-level inheritance, a subclass derives from another class which itself is derived from another class.
 
 </blockquote>
+
 </details>
 
 ---
@@ -3742,6 +3921,7 @@ print(a, b)
 The given python snippet is, a = 3, b = 1, print(a, b) a, b = b, a print(a, b).Here "a" and "b" values are assigned.a=3 b=1.The print function prints 3 and 1.a, b = b, a.It is evaluated by pushing both the values to the stack and the top two values will be rotated (so that the values will be swapped) and the values are assigned back to "a" and "b".So, it swapped values become, a=1 b=3.The print function prints 1 and 3.Hence, the correct answer is 3 1 1 3.
 
 </blockquote>
+
 </details>
 
 ---
@@ -3762,6 +3942,7 @@ What will they answer to this question?
 In python language, when 'r' or 'R' is used before the string, it converts the string into a raw string and the escape sequence like \n is not converted.Therefore, the answer is \nhello.
 
 </blockquote>
+
 </details>
 
 ---
@@ -3804,6 +3985,7 @@ print(c)
 - Finally, the output will be 11 because characters are not equal to l.
 
 </blockquote>
+
 </details>
 
 ---
@@ -3818,6 +4000,7 @@ print(c)
 The **PYTHONPATH** environment variable is used by Python to define a list of directories that modules can import from Windows.For most installations, you should not set these variables since they are not needed for Python to run.Python understands where to see its standard library.
   
 </blockquote>
+
 </details>
 
 --- 
@@ -3845,6 +4028,7 @@ print(directions.North.value)
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -3880,6 +4064,7 @@ print("Accessing outside a function :",x)
 - After running this code, this throws an error as `UnboundLocalError`: local variable 'x' referenced before assignment.Because, while modifying the values, Python treats x as a local variable, but x is also not defined inside the function `(myfunc()`.
 
 </blockquote>
+
 </details>
 
 ---
@@ -3895,6 +4080,7 @@ print("Accessing outside a function :",x)
 If the local variable exists with the exact name as the global variable that you want to access, then the global variable is shadowed as variable that is, preference is given to the local variable.
 
 </blockquote>
+
 </details>
 
 ---
@@ -3910,6 +4096,7 @@ If the local variable exists with the exact name as the global variable that you
 - In python, the length of the identifier can be of any size.The most extended identifier will be from PEP – 8 and PEP – 20.
 
 </blockquote>
+
 </details>
 
 ---
@@ -3947,6 +4134,7 @@ else:
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -3964,6 +4152,7 @@ else:
 - For example, Print "Hello world" would result in the runtime error of the missing parenthesis that is needed by print ( ).
 
 </blockquote>
+
 </details>
 
 ---
@@ -3992,6 +4181,7 @@ func()
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -4018,6 +4208,7 @@ print("Break statement")
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -4045,6 +4236,7 @@ class Cat(Animals):
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -4085,6 +4277,7 @@ print(obj.getName()
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -4123,6 +4316,7 @@ obj1.leg()
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -4150,6 +4344,7 @@ print(obj.add(10, 20, 30)    # output: 60
 Here, we have passed a different number of arguments at the time of calling, and we are getting different outputs as well for that.
 
 </blockquote>
+
 </details>
 
 ---
@@ -4164,6 +4359,7 @@ Here, we have passed a different number of arguments at the time of calling, and
 In the above scenario, class Animal is a parent class of both Dog and Cat classes.Also, Dog and Cat both classes inherit from the same base class which is the Animal class.So, Dog and Cat are derived classes of the same base class, which is the definition of Hierarchical inheritance.
 
 </blockquote>
+
 </details>
 
 ---
@@ -4203,6 +4399,7 @@ print(add(2,4,6)   # output: 12
 ```
 
 </blockquote>
+
 </details>
 
 ---
@@ -4217,6 +4414,7 @@ print(add(2,4,6)   # output: 12
 By the definition, Multiple inheritances state that one derived class can inherit properties from more than 1 base class.In the above scenario also, we can see that the Child class is a derived class which inherits all the properties from the 2 base classes, that is Father and Mother classes.
 
 </blockquote>
+
 </details>
 
 ---
@@ -4232,6 +4430,7 @@ By the definition, Multiple inheritances state that one derived class can inheri
 - Suppose, if we define two functions with the same name and different argument lists in python, and when we try to call the first function, it will give an error in the program.But, when we try to call the second function, it doesn't give the error and overrides the prior function and generates the output.
 
 </blockquote>
+
 </details>
 
 ---
@@ -4277,6 +4476,7 @@ obj.wheel()
 - Car class overrides the wheel() method of Vehicle class and therefore when calling the wheel() method of Car using the object of Car class, it prints the statement present inside it.
   
 </blockquote>
+
 </details>
 
 ---
@@ -4299,6 +4499,7 @@ print(len(1.5, 2.8, 3.3))    #Output: 3
 - Different types of values are present in different print statements.First, it is a string, then it is a list, and at last, it is a tuple.The len() function returns the length of these values.
 
 </blockquote>
+
 </details>
 
 ---
@@ -4327,6 +4528,7 @@ obj.show()
 -Before method calling, the first print statement prints the value of the global variable i.e 40.And when the show() method is called, the print statement present inside will also print the value of x as 40, not 20, because x= 20 is a class variable which must be accessed by using the class name before the variable name.Therefore, it will also take the global variable value i.e 40 in this case.
 
 </blockquote>
+
 </details>
 
 ---
@@ -4345,6 +4547,7 @@ obj.show()
 - Example: C, C++, java, etc are based on Compilers whereas Python, Ruby, MATLAB, etc.are interpreted languages.
 
 </blockquote>
+
 </details>
 
 ---
@@ -4363,6 +4566,7 @@ obj.show()
 - for is invalid because it is a reserved word in python.
 
 </blockquote>
+
 </details>
 
 ---
@@ -4394,6 +4598,7 @@ for i in list1:
 - i%2==0 is the condition for printing even numbers and i> 3 will take the value of i which is greater than 3 and there is a logical or operator between both the if conditions.Therefore, when either of the conditions becomes true only then the print statement inside if will executes.Hence, we get the result as 4, 2, 7, 8, and 9.
 
 </blockquote>
+
 </details>
 
 ---
