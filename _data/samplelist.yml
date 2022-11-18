@@ -36,7 +36,7 @@ toc:
     subfolderitems:
       - page: Big Data
         url: InterviewSpecificQuestions/BigData/Bigdata.html
-      - page: Monga DB
+      - page: Mongo DB
         url: InterviewSpecificQuestions/BigData/MongoDB_Interview_Ques.html
   - title: Behavioral Questions
     subfolderitems:
