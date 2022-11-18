@@ -228,7 +228,8 @@ const observable = new Observable(data) => {
 //Observable 2
 //Observable 3
 ```
-	
+
+</blockquote>
 
 </details>
 	
@@ -245,6 +246,7 @@ const observable = new Observable(data) => {
 Using the `HttpClient` Service
 
 </blockquote>
+
 </details>
   
 ---
