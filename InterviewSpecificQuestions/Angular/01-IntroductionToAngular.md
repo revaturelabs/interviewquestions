@@ -90,8 +90,7 @@
 - The problem here is a lot of time is consumed in the requesting/responding or due to a lot of reloading.
 - Whereas, in the SPA technology, we maintain only one page (`index.html`) even though the URL keeps on changing.
 
-  </blockquote>
-
+</blockquote>
 </details>
   
  ---
