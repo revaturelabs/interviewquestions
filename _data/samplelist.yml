@@ -125,15 +125,15 @@ toc:
       - page: Core Spring
         url: InterviewSpecificQuestions/Spring/01-Core_Spring.html
       - page: Spring AOP
-        url: InterviewSpecificQuestions/Spring/02-Spring AOP.html
+        url: InterviewSpecificQuestions/Spring/02-SpringAOP.html
       - page: Spring Boot
-        url: InterviewSpecificQuestions/Spring/03-Spring Boot.html
+        url: InterviewSpecificQuestions/Spring/03-SpringBoot.html
       - page: Spring Data JDBC & JPA
-        url: InterviewSpecificQuestions/Spring/04-Spring Data JDBC & JPA.html
+        url: InterviewSpecificQuestions/Spring/04-SpringDataJDBC&JPA.html
       - page: Spring JDBC
-        url: InterviewSpecificQuestions/Spring/05-Spring JDBC.html
+        url: InterviewSpecificQuestions/Spring/05-SpringJDBC.html
       - page: Spring MVC
-        url: InterviewSpecificQuestions/Spring/06-Spring MVC.html
+        url: InterviewSpecificQuestions/Spring/06-SpringMVC.html
   - title: .Net Full stack
     subfolderitems:
       - page: .Net Full stack
