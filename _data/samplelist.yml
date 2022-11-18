@@ -12,33 +12,155 @@ toc:
         url: InterviewSpecificQuestions/Angular/02-IntroductionTonpmAndnode.html
       - page: TypeScript
         url: InterviewSpecificQuestions/Angular/03-Typescript.html  
+      - page: Components
+        url: InterviewSpecificQuestions/Angular/04-Components.html  
+      - page: Directives
+        url: InterviewSpecificQuestions/Angular/05-Directives.html  
+      - page: Modules
+        url: InterviewSpecificQuestions/Angular/06-Modules.html  
+      - page: Data Binding
+        url: InterviewSpecificQuestions/Angular/07-DataBinding.html  
+      - page: Event Emitters
+        url: InterviewSpecificQuestions/Angular/08-EventEmitters.html  
+      - page: Services
+        url: InterviewSpecificQuestions/Angular/09-Services.html  
+      - page: Pipes
+        url: InterviewSpecificQuestions/Angular/10-Pipes.html  
+      - page: HTTP Client
+        url: InterviewSpecificQuestions/Angular/11-HttpClient.html  
+      - page: Routing
+        url: InterviewSpecificQuestions/Angular/12-Routing.html  
+      - page: Testing
+        url: InterviewSpecificQuestions/Angular/13-Testing.html         
   - title: Big Data
     subfolderitems:
-      - page: Introduction
-        url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
-      - page: Introduction Sample 2
-        url: InterviewSpecificQuestions/Angular/02-IntroductionTonpmAndnode.html
-  - title: BehavioralQuestions
+      - page: Big Data
+        url: InterviewSpecificQuestions/BigData/01-Bigdata.html
+      - page: Monga DB
+        url: InterviewSpecificQuestions/BigData/02-MongoDB_Interview_Ques.html
+  - title: Behavioral Questions
     subfolderitems:
-      - page: Introduction
-        url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
-      - page: Introduction Sample 2
-        url: InterviewSpecificQuestions/Angular/02-IntroductionTonpmAndnode.html
+      - page: Behavioral Questions
+        url: InterviewSpecificQuestions/BehavioralQuestions/01-BehavioralQues.html
   - title: CoreJava
     subfolderitems:
-      - page: Introduction
-        url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
-      - page: Introduction Sample 2
-        url: InterviewSpecificQuestions/Angular/02-IntroductionTonpmAndnode.html
+      - page: Java Basics
+        url: InterviewSpecificQuestions/CoreJava/01-JavaBasics.html
+      - page: OOPS Concepts
+        url: InterviewSpecificQuestions/CoreJava/02-OOPSConcepts.html
+      - page: Numbers and Strings
+        url: InterviewSpecificQuestions/CoreJava/03-NumbersAndStrings.html
+      - page: Collections
+        url: InterviewSpecificQuestions/CoreJava/04-Collections.html
+      - page: Design Pattern
+        url: InterviewSpecificQuestions/CoreJava/05-DesignPatterns.html
+      - page: Exception Handling
+        url: InterviewSpecificQuestions/CoreJava/06-ExceptionHandling.html
+      - page: Threads
+        url: InterviewSpecificQuestions/CoreJava/07-Threads.html
+      - page: Java8
+        url: InterviewSpecificQuestions/CoreJava/08-Java8.html
+      - page: JDBC
+        url: InterviewSpecificQuestions/CoreJava/09-Jdbc.html
+      - page: JUnit
+        url: InterviewSpecificQuestions/CoreJava/10-JUnit.html
+      - page: Git
+        url: InterviewSpecificQuestions/CoreJava/11-Git.html
+      - page: Log4J
+        url: InterviewSpecificQuestions/CoreJava/12-Log4J.html
+      - page: Maven
+        url: InterviewSpecificQuestions/CoreJava/13-Maven.html
   - title: DevOps
     subfolderitems:
-      - page: Introduction
-        url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
-      - page: Introduction Sample 2
-        url: InterviewSpecificQuestions/Angular/02-IntroductionTonpmAndnode.html
+      - page: DevOps
+        url: InterviewSpecificQuestions/DevOps/01-DevOps.html
   - title: Docker
     subfolderitems:
       - page: Introduction
         url: InterviewSpecificQuestions/Angular/01-IntroductionToAngular.html
       - page: Introduction Sample 2
         url: InterviewSpecificQuestions/Angular/02-IntroductionTonpmAndnode.html
+  - title: Hibernate
+    subfolderitems:
+      - page: Hibernate
+        url: InterviewSpecificQuestions/Hibernate/01-Hibernate.html
+  - title: HTML/CSS
+    subfolderitems:
+      - page: HTML
+        url: InterviewSpecificQuestions/HTML-CSS/01-HTML.html
+      - page: CSS
+        url: InterviewSpecificQuestions/HTML-CSS/02-CSS.html
+  - title: Java Automation
+    subfolderitems:
+      - page: API Testing
+        url: InterviewSpecificQuestions/Java Automation/01-api-testing-IS.html
+      - page: Testing Automation
+        url: InterviewSpecificQuestions/Java Automation/02-testing-automation.html
+      - page: Testing Fundamentals
+        url: InterviewSpecificQuestions/Java Automation/03-testing-fundamentals-IS.html
+  - title: Java Script
+    subfolderitems:
+      - page: Java Script
+        url: InterviewSpecificQuestions/JavaScript/01-Javascript.html
+  - title: Micro Services
+    subfolderitems:
+      - page: Micro Services
+        url: InterviewSpecificQuestions/Microservices/01-Microservices.html
+  - title: Python
+    subfolderitems:
+      - page: Python
+        url: InterviewSpecificQuestions/Python/01-Python_Interview_Ques.html   
+      - page: SQL
+        url: InterviewSpecificQuestions/Python/02-SQL_Interview_Ques.html   
+      - page: UNIX
+        url: InterviewSpecificQuestions/Python/03-Unix_Interview_Ques.html
+  - title: SDLC
+    subfolderitems:
+      - page: SDLC
+        url: InterviewSpecificQuestions/SDLC/01-SDLC.html 
+  - title: Servlets
+    subfolderitems:
+      - page: Servlets
+        url: InterviewSpecificQuestions/Servlets/01-Servlets.html
+  - title: Spring
+    subfolderitems:
+      - page: Core Spring
+        url: InterviewSpecificQuestions/Spring/01-Core_Spring.html
+      - page: Spring AOP
+        url: InterviewSpecificQuestions/Spring/02-Spring AOP.html
+      - page: Spring Boot
+        url: InterviewSpecificQuestions/Spring/03-Spring Boot.html
+      - page: Spring Data JDBC & JPA
+        url: InterviewSpecificQuestions/Spring/04-Spring Data JDBC & JPA.html
+      - page: Spring JDBC
+        url: InterviewSpecificQuestions/Spring/05-Spring JDBC.html
+      - page: Spring MVC
+        url: InterviewSpecificQuestions/Spring/06-Spring MVC.html
+  - title: .Net Full stack
+    subfolderitems:
+      - page: .Net Full stack
+        url: InterviewSpecificQuestions/.NET FULL STACK/01-.NET Framework.html
+      - page: ADO .NET
+        url: InterviewSpecificQuestions/.NET FULL STACK/02-ADO.net.html
+      - page: ASP .NET
+        url: InterviewSpecificQuestions/.NET FULL STACK/03-ASP.Net.html
+      - page: C# Advanced
+        url: InterviewSpecificQuestions/.NET FULL STACK/04-C#Advance.html
+      - page: C# Azure
+        url: InterviewSpecificQuestions/.NET FULL STACK/05-C#Azure.html
+      - page: C# Basics
+        url: InterviewSpecificQuestions/.NET FULL STACK/06-C#Basics.html
+      - page: C# Collections
+        url: InterviewSpecificQuestions/.NET FULL STACK/07-C#Collections.html
+      - page: C# Exception Handling
+        url: InterviewSpecificQuestions/.NET FULL STACK/08-C#Exception_Handling.html
+      - page: C# OOPS
+        url: InterviewSpecificQuestions/.NET FULL STACK/09-C#OOPS.html
+      - page: Node JS
+        url: InterviewSpecificQuestions/.NET FULL STACK/10-Nodejs.html
+      - page: REST
+        url: InterviewSpecificQuestions/.NET FULL STACK/11-Rest.html
+      - page: Scripting fundamentals
+        url: InterviewSpecificQuestions/.NET FULL STACK/12-Scripting fundamentals.html
+      - page: SOA
+        url: InterviewSpecificQuestions/.NET FULL STACK/13-SOA.html
