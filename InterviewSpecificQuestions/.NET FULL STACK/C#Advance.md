@@ -107,7 +107,7 @@ static void Main(strong[] args)
 string[] languages = {“C#”, “Python”, “Java”};
 foreach(string s in languages)
 {
-if(System.Text.RegularExpressions.Regex.IsMatch(s,“C#”))
+if(System.Text.RegularExpressions.Regex.IsMatch(s,“C#”)
 {
 Console.WriteLine(“Match found”);
 }
@@ -324,7 +324,7 @@ class Books : IDisposable
     	{
         public void DoSomething()
         {
-            using (Books myBook = new Books("book name", 12.45))
+            using (Books myBook = new Books("book name", 12.45)
             {
                 myBook.Print();
             }

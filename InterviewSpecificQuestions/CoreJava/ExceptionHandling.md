@@ -1,6 +1,6 @@
 1.Brief us on Exception Handling (or) What is an exception?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -19,7 +19,7 @@ Exceptions in Java can arise from different kinds of situations such as wrong da
 
 2.What is the difference between Throws and Throws?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -40,7 +40,7 @@ Exceptions in Java can arise from different kinds of situations such as wrong da
 
 3.How to handle class not found exceptions?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -61,7 +61,7 @@ To fix ClassNotFoundException, firstly we must go through the exception stack tr
 
 4.Brief us on the keywords - final, finally & static 
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -82,7 +82,7 @@ To fix ClassNotFoundException, firstly we must go through the exception stack tr
 
 5.Brief us on Errors
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -100,7 +100,7 @@ To fix ClassNotFoundException, firstly we must go through the exception stack tr
 
 6.What is the difference between final and finally?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -118,7 +118,7 @@ Finally is a code block.It is used with a try-catch block for handling exception
 
 7.Tell us about the various kinds of exceptions.What are some examples of checked and unchecked exceptions?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -138,7 +138,7 @@ Finally is a code block.It is used with a try-catch block for handling exception
 
 8.Which block has to be followed after the try block?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> <b> Show Answer</b></summary>
 	
@@ -150,7 +150,7 @@ Finally is a code block.It is used with a try-catch block for handling exception
 
 9.Does all the code inside the try block will be executed?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 	
@@ -162,7 +162,7 @@ Finally is a code block.It is used with a try-catch block for handling exception
 
 10.Can we have multiple catch blocks with the single try block?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> <b> Show Answer</b></summary>	
 <blockquote markdown="1">
@@ -179,7 +179,7 @@ Important Rule: The order of the catch block must be from most specific to most 
 
 11.When we can go for multiple catch blocks? 
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -196,7 +196,7 @@ Important Rule: The order of the catch block must be from most specific to most 
 
 12.How can you handle exceptions in Java?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -215,7 +215,7 @@ Important Rule: The order of the catch block must be from most specific to most 
 
 13.What is the difference between exception and error in Java?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -231,7 +231,7 @@ Important Rule: The order of the catch block must be from most specific to most 
 
 14.What is a custom exception?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -247,7 +247,7 @@ Java allows us to create our exception based on our needs known as a custom exce
 
 15.How do you create custom exceptions in java?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>

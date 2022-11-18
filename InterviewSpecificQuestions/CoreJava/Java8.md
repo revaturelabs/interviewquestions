@@ -1,7 +1,7 @@
 ## Technical
 1.In Java 8 how can I filter a collection using the stream?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -62,7 +62,7 @@
 
 3.What actual advantage does Java 8 brings?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -78,7 +78,7 @@
 
 4.Explain us about Functional interfaces.
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -93,7 +93,7 @@ An Interface that contains exactly one abstract method is known as functional in
 
 5.How lambda expressions and functional interface are related?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -108,7 +108,7 @@ An Interface that contains exactly one abstract method is known as functional in
 
 6.What is your understanding about stream pipelining?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -122,7 +122,7 @@ It is the process of chaining different operations together.It accomplishes this
 
 7.Can you create your own functional interface?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -139,7 +139,7 @@ It is the process of chaining different operations together.It accomplishes this
 
 8.What will happen if we define multiple abstract methods inside the Functional interface?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -153,7 +153,7 @@ Inside Functional Interface we can take only one abstract method, if we take mor
 
 9.Why default methods needed in the interface?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -167,7 +167,7 @@ Inside Functional Interface we can take only one abstract method, if we take mor
 
 10.What is the behavior of `findFirst()` method in Java 8  streams?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -211,7 +211,7 @@ one
 
 11.What is the behavior of `findAny()` method in Java 8  streams?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -224,7 +224,7 @@ Stream `findAny()` returns an Optional (a container object which may or may not 
 
 12.When to use `findAny()` method in Java 8 streams?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -238,7 +238,7 @@ There are instances where you have a stream, but you only want to select a rando
 
 13.What do you mean by stream?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -255,7 +255,7 @@ There are instances where you have a stream, but you only want to select a rando
 
 14.Can you tell me difference between Collection API and Stream API?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -276,7 +276,7 @@ There are instances where you have a stream, but you only want to select a rando
 
 15.Do you know what are the various forms of writing lambda expressions?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -293,7 +293,7 @@ We can declare a lambda expression by-
 
 16.What do you understand by `@Functional Interface` annotation in Java 8?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -362,7 +362,7 @@ In this example, we have used RetentionPolicy.RUNTIME because we want to demonst
 
 18.How to avoid  `NullPointer exception ` in Java 8?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -383,7 +383,7 @@ Example:
 
 19.What are the different types of functional interfaces in Java 8?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -429,7 +429,7 @@ class Main{
         Stream<Integer>
             stream = getStreamFromIterable(iterable);
         // Print the elements of stream
-        stream.forEach(s -> System.out.println(s));
+        stream.forEach(s -> System.out.println(s);
     }
 }
 // Output:
@@ -480,7 +480,7 @@ For example, `\<interfaceName\>.super.\<defaultMethodName\>`
 
 23.What is the purpose of `joining ()` method introduced in Java 8 ?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -491,7 +491,7 @@ The `joining ()` method of the Collectors class in Java 8 returns a Collector th
     public class Example {
         public static void main (String[] args) {
             List<Character> list = Arrays.asList('D', 'e', 'm', 'o');
-            String str = list.stream().map(String::valueOf).collect(Collectors.joining());
+            String str = list.stream().map(String::valueOf).collect(Collectors.joining();
             System.out.println("Concatenated = "+str);
         }
     }
@@ -508,7 +508,7 @@ Concatenated = Demo
 
 24.What is the use of the `String::Value of` expression in Java 8?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -523,7 +523,7 @@ Concatenated = Demo
 
 25.What do you mean by method reference in Java 8?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -541,7 +541,7 @@ The following is the expression for a method reference:
 
 26.What is the easiest way to print the current date and time using the new APIs in Java 8?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -567,7 +567,7 @@ Similarly, it can also be used to get the current time:
 
 27.Differentiate between intermediate and terminal operations in Java 8.
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -588,7 +588,7 @@ Similarly, it can also be used to get the current time:
 ---
 28.Can the following piece of code compile successfully?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <blockquote markdown="1">
 
@@ -628,7 +628,7 @@ The below piece of code sorts of strings using the lambda expression:
 ```Java
 private void sortUsingJava8(List<String> names) {
 
-Collections.sort(names, (s1, s2) -> s1.compareTo(s2));
+Collections.sort(names, (s1, s2) -> s1.compareTo(s2);
 
 }
 ```
@@ -668,7 +668,7 @@ Yes, it is possible to call a static method in a class by making use of the name
 
 31.Do you know how the `random` keyword in Java 8 works?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -690,7 +690,7 @@ random.ints().limit(20).forEach(System.out::println);
 
 32.Explain about collectors in Java 8?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -713,8 +713,8 @@ In Java 8, the following code is used to print the sum of all of the numbers tha
 
 ```Java
     List<Integer> numbers = Arrays.asList(5, 4, 10, 12, 87, 33, 75);
-    IntSummaryStatistics stats = integers.stream().mapToInt((x) −> x).summaryStatistics();
-    System.out.println("Sum of all numbers : " + stats.getSum());
+    IntSummaryStatistics stats = integers.stream().mapToInt(x) −> x).summaryStatistics();
+    System.out.println("Sum of all numbers : " + stats.getSum();
 ```
 
 </blockquote>
@@ -724,7 +724,7 @@ In Java 8, the following code is used to print the sum of all of the numbers tha
 
 34.When is an ideal situation to use the Stream API in Java 8?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -745,7 +745,7 @@ The Stream API in Java 8 can be effectively used if the Java project calls for t
 
 35.Can you tell me about supplier in Java 8?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -759,7 +759,7 @@ A supplier is a simple functional interface in Java 8 that does not take in any 
 
 36.Do you know about predicate in Java 8 ?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -774,7 +774,7 @@ A supplier is a simple functional interface in Java 8 that does not take in any 
 
 37.Can you name the common types of functional interfaces in the standard library?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -815,7 +815,7 @@ The examples that are widely used in intermediate operations are:
 
 39.What are the similarities between `map` and `flatMap` stream operations in Java 8?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -843,7 +843,7 @@ Duplicate elements can be listed and removed easily by applying stream operation
 
 41.What is the easiest way to convert an array into a stream in Java 8?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -878,7 +878,7 @@ Peeking has a wide amount of usage when efficiency is a requirement, when debugg
 
 43.What is the meaning of a `Spliterator` in Java 8?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -914,7 +914,7 @@ Spliterator is a newly introduced iterator interface for Java 8.It is very effic
 
 45.In Java, how do you convert a String to a LocalDate or a LocalDateTime? ?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -935,7 +935,7 @@ System.out.println("Parsed date : " + newDate);
 
 46.What is the difference between a predicate and a function?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -951,7 +951,7 @@ System.out.println("Parsed date : " + newDate);
 
 47.Can a functional interface extend/inherit another interface?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -981,7 +981,7 @@ It can extend other interfaces which do not have any abstract method and only ha
 
 48.What are the advantages of using the Optional class?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">

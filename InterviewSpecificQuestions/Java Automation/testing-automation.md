@@ -235,14 +235,14 @@ A locator enables testers to select an HTML DOM element to act on.Some of the di
 
 |        Method        |                        Syntax                       |                  Description                 |
 |:--------------------:|:---------------------------------------------------:|:--------------------------------------------:|
-| By ID                | driver.findElement(By.id (<element ID>))            | Locates an element using the ID attribute    |
-| By name              | driver.findElement(By.name (<element name>))        | Locates an element using the Name attribute  |
-| By class name        | driver.findElement(By.className (<element class>))  | Locates an element using the Class attribute |
-| By tag name          | driver.findElement(By.tagName (<htmltagname>))      | Locates an element using the HTML tag        |
-| By link text         | driver.findElement(By.linkText (<linktext>))        | Locates a link using link text               |
-| By partial link text | driver.findElement(By.partialLinkText (<linktext>)) | Locates a link using the link's partial text |
-| By CSS               | driver.findElement(By.cssSelector (<css selector>)) | Locates an element using the CSS selector    |
-| By XPath             | driver.findElement(By.xpath (<xpath>))              | Locates an element using XPath query         |
+| By ID                | driver.findElement(By.id (<element ID>)            | Locates an element using the ID attribute    |
+| By name              | driver.findElement(By.name (<element name>)        | Locates an element using the Name attribute  |
+| By class name        | driver.findElement(By.className (<element class>)  | Locates an element using the Class attribute |
+| By tag name          | driver.findElement(By.tagName (<htmltagname>)      | Locates an element using the HTML tag        |
+| By link text         | driver.findElement(By.linkText (<linktext>)        | Locates a link using link text               |
+| By partial link text | driver.findElement(By.partialLinkText (<linktext>) | Locates a link using the link's partial text |
+| By CSS               | driver.findElement(By.cssSelector (<css selector>) | Locates an element using the CSS selector    |
+| By XPath             | driver.findElement(By.xpath (<xpath>)              | Locates an element using XPath query         |
 
 </blockquote>
 </details>
@@ -263,11 +263,11 @@ A locator enables testers to select an HTML DOM element to act on.Some of the di
 <summary><b>Show Answer</b></summary>
 <blockquote markdown="1">
 
-Using the `driver.findElement(By.name (<element name>))` method, we can locate the `name` and `email` form elements.
+Using the `driver.findElement(By.name (<element name>)` method, we can locate the `name` and `email` form elements.
 	
 ```java
-email_input = driver.findElement(By.name("email"))
-name_input = driver.findElement(By.name("name"))
+email_input = driver.findElement(By.name("email")
+name_input = driver.findElement(By.name("name")
 ``` 	
 
 </blockquote>
@@ -291,13 +291,13 @@ name_input = driver.findElement(By.name("name"))
 
 If we can locate by name, we are able to only locate the first name, not the last name.Also, we can't locate the first name and last name by ID or class.So, we can locate these elements through its XML path. 
 	
-We will use the `driver.findElement(By.xpath (<xpath>))` method to locate an appropriate element in the document.
+We will use the `driver.findElement(By.xpath (<xpath>)` method to locate an appropriate element in the document.
 	
 The following code first searches for a form with the ID login form and then selects the form’s first and second input elements as the first and last names.
 
 ```java
-first_name = driver.findElement(By.xpath ("//form[@id='loginForm']/input[1]"))
-last_name = driver.findElement(By.xpath ("//form[@id='loginForm']/input[2]"))
+first_name = driver.findElement(By.xpath ("//form[@id='loginForm']/input[1]")
+last_name = driver.findElement(By.xpath ("//form[@id='loginForm']/input[2]")
 ```
 
 </blockquote>
@@ -318,7 +318,7 @@ The `findElementsBy()` method helps in finding multiple elements in the DOM stru
 For example, to find all input elements of a form with ID loginForm, we use: 
 	
 ```java
-List<WebElement> inputs = driver.findElementsBy(By.id("loginForm"));
+List<WebElement> inputs = driver.findElementsBy(By.id("loginForm");
 ```
 	
 </blockquote>
@@ -371,7 +371,7 @@ HTML Source refers to the HTML code underlying a certain web element on a web pa
 | Throws exception NoSuchElementException if there are no elements matching the locator strategy    | Returns an empty list if there are no web elements matching the locator strategy |
 | Find element by XPath will only find one web element                                              | It will find a collection of elements that match the locator strategy.         |
 | Not Applicable                                                                                    | Each Web element is indexed with a number starting from 0 just like an array     |
-| Example: driver.findElement(By.id("no"))                                                          | Example: List elements = driver.findElements(By.name("name"));                   |
+| Example: driver.findElement(By.id("no")                                                          | Example: List elements = driver.findElements(By.name("name");                   |
 
 </blockquote>
 </details>
@@ -949,21 +949,21 @@ The following methods help us to select a desired option/value from the dropdown
 - selectByVisibleText() method is used to select one of the options in a drop-down box or an option among multiple selection boxes.
 
 ```java
-Select objSelect =new Select(driver.findElement(By.id("search-box")));
+Select objSelect =new Select(driver.findElement(By.id("search-box"));
 objSelect.selectByVisibleText("Automation");
 ```
 
 - selectByIndex() method is similar to ‘selectByVisibleText’, but the difference here is that the user has to provide the index number for the option rather than the text
 
 ```java
-Select objSelect = new Select(driver.findElement(By.id("Search-box")));
+Select objSelect = new Select(driver.findElement(By.id("Search-box"));
 Select.selectByIndex(4);
 ```
 
 - selectByValue() method asks for the value of the desired option rather than the option text or an index.
 
 ```java
-Select objSelect = new Select(driver.findElement(By.id("Search-box")));
+Select objSelect = new Select(driver.findElement(By.id("Search-box"));
 objSelect.selectByValue("Automation Testing");
 ```
 
@@ -984,9 +984,9 @@ objSelect.selectByValue("Automation Testing");
 getOptions() method gets all the options belonging to the Select tag.It takes no parameter and returns List<WebElements>.
 
 ```java
-Select objSelect = new Select(driver.findElement(By.id("Search-box")));
+Select objSelect = new Select(driver.findElement(By.id("Search-box"));
 List <WebElement> elementCount = oSelect.getOptions();
-System.out.println(elementCount.size());
+System.out.println(elementCount.size();
 ```
 
 </blockquote>

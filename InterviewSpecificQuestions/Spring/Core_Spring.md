@@ -2,7 +2,7 @@
 
 1.What are Spring Beans?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -40,7 +40,7 @@ Spring does not manage the complete lifecycle of a prototype bean.
 
 3.When do you use `Session` and `Request` bean in Spring?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -124,7 +124,7 @@ public class AppConfig {
         // In applciationContext.xml this value will be in double quotes unlike
         // java developers who want it without double quotes
         myLappy.setPrice(78900.00);
-        myLappy.setProcessor(getIntelProcessor());
+        myLappy.setProcessor(getIntelProcessor();
         return myLappy;
     }
 
@@ -133,7 +133,7 @@ public class AppConfig {
     @Scope("singleton")
     public Laptop yourLaptop() {
         // This is JavConfig Alternative for Constructor Based Injection
-        Laptop yourLappy = new Laptop("Mac Book Pro",149000.0, getIntelProcessor());
+        Laptop yourLappy = new Laptop("Mac Book Pro",149000.0, getIntelProcessor();
         return yourLappy;
     }
 
@@ -168,7 +168,7 @@ public class App {
         System.out.println(lenovoLaptop);
         secondLaptop = (Laptop) appContext.getBean("yourLaptop");
         System.out.println(secondLaptop);
-        ((ClassPathXmlApplicationContext) appContext).close();
+        (ClassPathXmlApplicationContext) appContext).close();
     }
 }
 ```
@@ -213,7 +213,7 @@ public class App {
 
 5.How to decide upon choosing BeanFactory or ApplicationContext in Spring application?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -301,7 +301,7 @@ public class App {
 ---
 7.How Spring supports connection pooling? Elaborate what is connection pooling?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
     
@@ -397,7 +397,7 @@ public class App {
 
 8.What is usual cause of `org.springframework.beans.factory.NoUniqueBeanDefinitionException`?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -529,7 +529,7 @@ public class MainApp {
 ---
 10.How do you decide as developer to choose among `.properties` or `.yaml` configuration file in Spring Boot application? 
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -569,7 +569,7 @@ management:
 ---
 11.Can we achieve DI with Core Java without using Spring framework?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -587,7 +587,7 @@ management:
 
 12.Brief us on Spring Framework.
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -603,7 +603,7 @@ The Spring Framework is a Java platform that provides comprehensive infrastructu
 
 13.What is Dependency Injection? 
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -619,7 +619,7 @@ Dependency Injection (DI) is a design pattern that removes the dependency from t
 
 14.How many types of spring beans are there? 
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 

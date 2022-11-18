@@ -1,6 +1,6 @@
 1.What is a `<meta>` tag in HTML5?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -22,7 +22,7 @@
 
 2.Is it possible for a web page to have multiple `<header>` and `<footer>` elements?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -38,7 +38,7 @@ Hence, not only the page `<body>` must have the `<header>` and `<footer>` tags, 
 
 3.What is an iframe and how it works?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -58,7 +58,7 @@ An iframe is an HTML document which can be embedded inside another HTML page
 
 4.How do you set language in HTML?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -91,7 +91,7 @@ There are multiple ways to set language in HTML:
 
 5.What does a `<DOCTYPE html>` do?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -107,7 +107,7 @@ Once a user agent has recognized a correct **DOCTYPE**, it will trigger the no-q
 
 6.What is difference between span **tag** and **div** tag?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -167,7 +167,7 @@ If the content within the element is not semantically related, then use a `<div>
 
 9.Can a web page contain multiple `<header>` elements? What about `<footer>` elements?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -181,7 +181,7 @@ Yes, both of these elements can be added multiple times in a webpage.And both of
 
 10.What is Character Encoding?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -201,7 +201,7 @@ Character encoding is a method of converting bytes into characters.To validate o
 
 11.What is local storage in Html5?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -215,7 +215,7 @@ The local storage is a type of HTML5 offline storage ( local storage ) that allo
 
 12.What is sessionStorage Object ?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -229,7 +229,7 @@ The sessionStorage object is equal to the localStorage object, except that it st
 
 13.What is difference between Select and Datalist?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -269,7 +269,7 @@ For the select element, the user is required to select one of the options you've
 
 14.What are data- attributes good for?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -283,7 +283,7 @@ The HTML5 data attribute lets us assign custom data to an element.When we want t
 
 15.List out the page structure elements of HTML5.
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -302,7 +302,7 @@ The HTML5 data attribute lets us assign custom data to an element.When we want t
 
 16.What is Microdata in HTML5?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -316,7 +316,7 @@ Microdata is a new simple semantic syntax, that is used to add the nested groups
 
 17.Explain the `<figure>` tag in HTML5.
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -330,7 +330,7 @@ The `<figure>` tag is used for specifying self-contained content, such as diagra
 
 18.Please explain whether an `<article>` element can have `<section>` elements and vice-versa.
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -346,7 +346,7 @@ Now, the `<section>` element for the blog can have multiple `<article>` elements
 
 19.Can u tell us about image maps in HTML5?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -363,7 +363,7 @@ Image maps allow users to click on images for opening new web pages.As such, the
 
 20.What are the various common lists for designing a web page in HTML5.
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -381,7 +381,7 @@ Image maps allow users to click on images for opening new web pages.As such, the
 
 21.Explain the difference between block elements and inline elements.
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -395,7 +395,7 @@ Elements can be block-level elements or inline elements.The difference between b
 
 22.What are semantic and non-semantic elements?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -411,7 +411,7 @@ Elements can be block-level elements or inline elements.The difference between b
 
 23.What are the elements in HTML?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -428,7 +428,7 @@ Elements can be block-level elements or inline elements.The difference between b
 
 24.What ere void elements in HTML?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -442,7 +442,7 @@ All elements don't require the end tag or closing tag to be present.These are re
 
 25.What is the newest version of HTML and its new features?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -482,7 +482,7 @@ HTML5 drag-and-drop uses the DOM event model and drag events inherited from mous
         function drop(ev) {
             ev.preventDefault();
             var data = ev.dataTransfer.getData("text");
-            ev.target.appendChild(document.getElementById(data));
+            ev.target.appendChild(document.getElementById(data);
         }
     </script>
 </head>

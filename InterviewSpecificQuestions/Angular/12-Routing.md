@@ -26,7 +26,7 @@ const routes: Routes = [
  
 2.How do to create an angular project, when I need to navigate between components?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -41,7 +41,7 @@ Run the `ng new routing-app --routing ` command to generate a basic Angular app 
  
 3.Why do we need router guards?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -56,7 +56,7 @@ To prevent unauthorized access to certain parts of our navigation, we use route 
  
 4.What is the purpose of `routerLink` attributes and `<routeroutlet>`?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -74,7 +74,7 @@ To prevent unauthorized access to certain parts of our navigation, we use route 
  
 5.Where do you define the routes in the Angular application?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -95,7 +95,7 @@ In the `app.routing.ts` file, you can add the paths and components under the `ro
  
 6.List some of the interfaces used in routing guards?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -114,7 +114,7 @@ In the `app.routing.ts` file, you can add the paths and components under the `ro
  
 7.How do you create a routing guard?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -183,7 +183,7 @@ const routes: Routes = [
 
 8.Which mechanism in Angular provides a way to navigate from one view to another view in the application?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -199,7 +199,7 @@ The Router mechanism in Angular provides a way to navigate from one view to anot
 9.What is the use of `RoutingModule` in Angular?
 
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>

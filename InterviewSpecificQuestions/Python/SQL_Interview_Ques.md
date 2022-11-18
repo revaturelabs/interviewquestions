@@ -3,7 +3,7 @@
 
 1.What are the constraints SQL follows in all their databases tool?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -21,7 +21,7 @@
 
 2.How are primary key constraints and unique key constraints different? 
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -33,7 +33,7 @@
 
 3.When creating a table in SQL, you forget to make a column as the primary key, then is there any possibility to create a primary key on that column or do we have to delete the table from the database so that we can create a primary key while creating a table?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -48,7 +48,7 @@ alter table table_name add primary key(column_name);
 
 4.Suppose you want to create a student table having id, name, age and class as columns in it.Write down the query that will create that table in the "school" database.
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -72,7 +72,7 @@ create table school(
 
 5.While creating a table, how will you decide on the column that can be converted into primary key?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -88,7 +88,7 @@ create table school(
 
 6.In SQL, what are the statements through which we can create a primary key in a table?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -100,7 +100,7 @@ create table school(
 
 7.In SQL, what are the commands that are the part of Data Definition Language?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -118,7 +118,7 @@ create table school(
 
 8.Is `drop` and `truncate` commands have the same usage in SQL?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -130,7 +130,7 @@ create table school(
 
 9.Suppose you have created a table called "student" with column fields as id, name, age, address and class.But now you want to rename the "id" column to "student_id", then how will you do that in SQL?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -158,7 +158,7 @@ rename column id to student_id;
 
 11.How normalization affects the performance in SQL?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -184,7 +184,7 @@ rename column id to student_id;
 
 13.Tell me about some of the benefits of normalization in SQL?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -199,7 +199,7 @@ rename column id to student_id;
 
 14.Explain the different subsets of SQL?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -217,7 +217,7 @@ rename column id to student_id;
 
 15.Create an "employee" table and make one primary key and one foreign key in it.
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -238,7 +238,7 @@ create table employee(
 
 16.Can a primary key and foreign key contain null? 
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -266,7 +266,7 @@ create table employee(
 
 18.Assume you have created one table as "emp" and now you want to change that table name to "employee" then what are the ways, in SQL, through which we can change the table name? 
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -287,7 +287,7 @@ rename to employee;
 
 19.Suppose Jack has created a table as "Food" with id and food_name field as varchar datatype.But now he wanted to change the datatype of id from varchar to int.What query he should write that will do his task?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -303,7 +303,7 @@ modify column id int;
 
 20.Tell the difference between `alter` and `update` in SQL 
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -317,7 +317,7 @@ modify column id int;
 
 21.Is `truncate` and `delete` both are the same command? 
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -329,7 +329,7 @@ modify column id int;
 
 22.Give the syntax of `delete`, `truncate` and `drop` commands in SQL.
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -352,7 +352,7 @@ drop table table_name;
 
 23.Henry has created a table as "school" with id and name field and now he wants to insert 5 records into it.What query he has to use to insert the data into a table? 
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -371,7 +371,7 @@ insert into school(id, name) values(05, "EVE");
 
 24.After inserting some of the documents into the "school" table, Tom wants to update the name of one student to EVA where id is 05.Write the query for it.
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -388,7 +388,7 @@ where id = 05;
 
 25.A user has to remove all of the data from the "order" table without removing the structure of the table.What query he has to write for this? 
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -405,7 +405,7 @@ truncate table order;
 
 26.Let's imagine Amazon Prime no longer wishes to rent out the "Blue" movie and its movie id is 20.As an intern of Amazon company, what query you will write to remove that movie from the "movies" table?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -420,7 +420,7 @@ delete from movies where id =20;
 
 27.Is the command line the only way to interact with SQL?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -434,7 +434,7 @@ delete from movies where id =20;
 
 28.From someone you have heard about creating indexes in SQL will be better in terms of fast retrieval of data.Then, how will you create an index in a table? 
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -450,7 +450,7 @@ add index(column_name);
 
 29.You have 4 indexes in your table "order" but now you want to remove one index named "author_id" from it.For the same task what will be your query for it?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -497,7 +497,7 @@ create user 'Tim' identified by 'password';
 
 32.In SQL, how will you see the databases and tables that you have in that database?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
@@ -515,7 +515,7 @@ show tables;
 
 33.Assume you are handling a "student" table in the database having id, name, age, state, and class fields.Your task is to fetch the records of those students who are from "Texas" state.
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
@@ -531,7 +531,7 @@ where state = "Texas";
 
 34.Tell me the way about how to give a different name to a field while executing a select query?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
@@ -565,7 +565,7 @@ having count(id);
 
 36.In SQL, how will you give the count of those students from the student table whose name starts with 'H'.
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
@@ -607,7 +607,7 @@ select name from student where name like '%SK';
 
 38.Your boss has given you a work to find the details of those workers from the "Company" table whose salary lies between 10000 and 50000 and the department is 'HR'
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
@@ -640,7 +640,7 @@ where year(joined) = 2022 and month(joined) = 2;
 
 40.In a company there are 5 departments and in each department, there is one manager you have to get the employee id "emp_id" and "name" of those employees who are working for the Manager having "Manager_id" as 432.[ take the table name as Employee]
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
@@ -773,7 +773,7 @@ where salary not in
 
 47.Write a SQL query that will give the details of those students, from the student table, who comes from NY, Florida and Alaska state and who are from 9th, 10th, 11th and 12th class.
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
@@ -804,7 +804,7 @@ and class in [ "9th", "10th", "11th", "12th"];
 
 49.Where SQL language is used and what are its applications?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
@@ -822,7 +822,7 @@ and class in [ "9th", "10th", "11th", "12th"];
 
 50.In SQL, what is a cross-join? Give syntax.
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
   
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
@@ -869,7 +869,7 @@ where table1.id = table2.id;
 
 53.How will you execute a self-join SQL?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
@@ -887,7 +887,7 @@ on t1.id = t2.emp_id;
 
 54.Tell me about the joins in SQL and their types.
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
@@ -939,7 +939,7 @@ on orders.customer_number = customer_number;
 
 57.Assume, you have two tables’ "customers" and "orders".So, tell me how will you execute the right join between both tables?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -957,7 +957,7 @@ on customers.id = orders.id;
 
 58.In SQL, suppose you are handling two tables, "customers" and "orders", how would you execute the outer join between both tables?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
@@ -1005,7 +1005,7 @@ from employee;
 
 61.Imagine there are two tables’ Workers and Managers, where the Workers table has all the employee names along with the employee id who are working for the company and the Managers table has all the manager’s names along with the manager id of that company.Give one SQL query that will print the names of Workers who are also Managers.
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
@@ -1093,7 +1093,7 @@ from employee;
 
 66.In SQL, how will you get the last 3 records from the table "worker" having one unique column id.
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
@@ -1191,7 +1191,7 @@ This will group the table records by id and name and gives us distinct records o
 
 72.Display the name and id of those employees from the employee table whose salary is greater than 40000 and DOJ in 2019.
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
@@ -1228,7 +1228,7 @@ order by duplicate;
 
 74.In SQL, give a generalized query that will fetch the top N records from the table
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 

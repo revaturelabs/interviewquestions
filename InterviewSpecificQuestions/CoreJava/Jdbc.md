@@ -1,6 +1,6 @@
 1.How JDBC plays a vital role in Java?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -18,7 +18,7 @@
 
 2.What is the functionality of `ResultSet` in JDBC?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -45,7 +45,7 @@ ResultSet rs = con.executeQuery(sqlQuery);
 
 3.Why we need `JDBC driver` in JDBC?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -68,7 +68,7 @@ For example:
   
  4.What is the need of `DriverManager` in JDBC?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -87,7 +87,7 @@ For example:
   
 5.Which JDBC driver is fastest and used more commonly?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -103,7 +103,7 @@ For example:
   
 6.Which data types are used for storing the image and file in the database table?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -122,7 +122,7 @@ For example:
   
  7.Why we need stored procedure? Explain it?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -137,7 +137,7 @@ For example:
 DELIMITER $$
 DROP PROCEDURE IF EXISTS `STUDENT`.`STUDENT_DETAILS`  $$
 CREATE PROCEDURE `STUDENT`.`STUDENT_DETAILS`
-  (IN STUDENT_ID INT, OUT STUDENT_DETAILS VARCHAR(255))
+  (IN STUDENT_ID INT, OUT STUDENT_DETAILS VARCHAR(255)
 BEGIN
   SELECT first INTO STUDENT_DETAILS
   FROM Students
@@ -162,7 +162,7 @@ ResultSet rs = cs.executeQuery();
   
 8.How can you differentiate ODBC and JDBC?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -189,7 +189,7 @@ ResultSet rs = cs.executeQuery();
   
 9.What is `Rowset` in a Resultset?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -206,7 +206,7 @@ ResultSet rs = cs.executeQuery();
 
 10.Describe the different types of JDBC drivers in Java? 
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -231,7 +231,7 @@ ResultSet rs = cs.executeQuery();
   
 11.Explain the different types of statements in JDBC? 
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -270,7 +270,7 @@ ResultSet rs = cs.executeQuery();
   
 12.What are the interfaces and classes in JDBC? Explain it?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -298,7 +298,7 @@ ResultSet rs = cs.executeQuery();
 
 13.What is Batch processing in JDBC? How to perform it?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -320,7 +320,7 @@ ResultSet rs = cs.executeQuery();
   
 14.How can you differentiate Statement and PreparedStatement?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -339,7 +339,7 @@ ResultSet rs = cs.executeQuery();
   
 15.What is `execute()`,`executeQuery()` and `executeUpdate()` methods in JDBC?Explain it?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -358,7 +358,7 @@ ResultSet rs = cs.executeQuery();
   
 16.How getter and setter methods used in ResultSet?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -375,7 +375,7 @@ ResultSet rs = cs.executeQuery();
   
 17.What do you mean by "Dirty read" in terms of database?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -405,7 +405,7 @@ ResultSet rs = cs.executeQuery();
   - You can register a driver by using any one of the two methods mentioned below:
     - `Class.forName()`:We load the driver’s class file into memory during runtime.`Class.forName("com.mysql.JDBC.Driver")` is used to load the MySQL driver.However, this statement is no longer needed, because as you place the MySQL JDBC driver JAR file into the classpath of your program, the driver manager can find and load the driver.
     - `DriverManager.registerDriver()`: DriverManager is a built-in Java class with a static member register.Here we will be calling the constructor of the driver class during compile time.For registering the MySQL driver, use the below-given code:
-    - `DriverManager.registerDriver((new com.mysql.JDBC.Driver());`
+    - `DriverManager.registerDriver(new com.mysql.JDBC.Driver();`
 - Connection:After loading the driver into the program, establish connections using the code given below:
   - `Connection con = DriverManager.getConnection(url,user,password);`
   - `con`: Reference to a Connection interface.
@@ -467,8 +467,8 @@ class JDBCMySql{
            Connection con=DriverManager.getConnection(url,user,password);
            Statement st = con.createStatement();
            ResultSet rs = st.executeQuery("select * from student");  
-           while(rs.next())  
-               System.out.println(rs.getInt(1)+" "+rs.getString(2)+" "+rs.getString(3));  
+           while(rs.next()  
+               System.out.println(rs.getInt(1)+" "+rs.getString(2)+" "+rs.getString(3);  
            con.close();  
        }
        catch(Exception e)
@@ -517,7 +517,7 @@ We must register the OUT parameters before executing the CallableStatement.
 
 21.When "No suitable driver" error occurs in java?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -535,7 +535,7 @@ We must register the OUT parameters before executing the CallableStatement.
 	
 22.Explain the types of JDBC architecture?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -553,7 +553,7 @@ JDBC has 2 types of architecture models to access the database.They are:
 	
 23.Explain the ACID properties in JDBC Transaction Management and why is it needed?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -575,7 +575,7 @@ The sequence of SQL statements served as a single unit that is called a transact
 	
 24:How can you differentiate between PreparedStatement and Statement? 
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -592,7 +592,7 @@ The query used in PreparedStatement looks similar each time, so the database can
 	
 25: Explain the Transaction Management methods in JDBC.
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -629,7 +629,7 @@ Syntax:`conn.releaseSavepoint("Mysavepoint");`
 
 26: Explain the common exceptions in JDBC.
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -648,7 +648,7 @@ Syntax:`conn.releaseSavepoint("Mysavepoint");`
 	
 27: How two-phase commit is performed in JDBC?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -678,13 +678,13 @@ import java.sql.*;
 
 public class dynamicJDBCtable{
  public static void main(String[] args)throws SQLException,IOException{
-   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+   BufferedReader br = new BufferedReader(new InputStreamReader(System.in);
    Class.forName("com.mysql.JDBC.Driver");
    Connection con=DriverManager.getConnection(url,user,password);
    Statement st = con.createStatement();
    System.out.println(“Enter table name”);
    String tablename = br.readLine();
-   st.executeUpdate("create table"+tablename+"(studentno number,studentname varchar2(10),studentphone number,studentaddress varchar2(20))");
+   st.executeUpdate("create table"+tablename+"(studentno number,studentname varchar2(10),studentphone number,studentaddress varchar2(20)");
    System.out.println("Table created successfully");
    con.close();
  }
@@ -700,7 +700,7 @@ public class dynamicJDBCtable{
 	
 29: How is it possible to connect to multiple databases using single statement object?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -734,7 +734,7 @@ Class.forName("com.mysql.JDBC.Driver");
 Connection con=DriverManager.getConnection(url,user,password);
 ps = con.prepareCall("insert into student values (?,?)");
 ps.setInt(1,401);
-is = new FileInputStream(new File("student_img.jpg"));
+is = new FileInputStream(new File("student_img.jpg");
 ps.setBinaryStream(2, is);
 int count = ps.executeUpdate();
 

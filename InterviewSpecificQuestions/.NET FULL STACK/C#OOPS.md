@@ -480,7 +480,7 @@ public class Program
     {
         string sample1 = "This, is a, sample string";
 
-        Console.WriteLine("output string : " + sample1.Remove(","));
+        Console.WriteLine("output string : " + sample1.Remove(",");
     }   
 }
 

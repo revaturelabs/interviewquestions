@@ -1,6 +1,6 @@
 1.Consider there is a variable `name = "Angular"` in `app.component.ts, how can I print this value in template.
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -39,7 +39,7 @@ In `app.component.html`, create a button and have `Click Me` enclosed with the `
 	
 3.What are the ways of data binding in angular?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
 <details markdown="1">
 <summary> <b>Show Answer</b></summary>
@@ -57,7 +57,7 @@ In `app.component.html`, create a button and have `Click Me` enclosed with the `
 
 4.What is Property Binding? How do you achieve it in Angular?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
 <details markdown="1">
 <summary> <b>Show Answer</b></summary>
@@ -77,7 +77,7 @@ In `app.component.html`, create a button and have `Click Me` enclosed with the `
 
 5.How do you achieve event binding in Angular?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
 <details markdown="1">
 <summary> <b>Show Answer</b></summary>
@@ -97,7 +97,7 @@ In `app.component.html`, create a button and have `Click Me` enclosed with the `
 
 6.What is meant by String Interpolation?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
 <details markdown="1">
 <summary> <b>Show Answer</b></summary>
@@ -116,7 +116,7 @@ In `app.component.html`, create a button and have `Click Me` enclosed with the `
 
 7.Do you know about two-way data binding in angular? If so, explain.
 	
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
 <details markdown="1">
 <summary> <b>Show Answer</b></summary>

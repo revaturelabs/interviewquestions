@@ -1,6 +1,6 @@
 1.What is a component?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -19,7 +19,7 @@ Consider, we are building a page for an application.The features on the page inc
 
 2.In which file, I can find the `@Component` decorator?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -34,7 +34,7 @@ Consider, we are building a page for an application.The features on the page inc
 
 3.How do you create a component?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -49,7 +49,7 @@ Consider, we are building a page for an application.The features on the page inc
   
  4.What are the files created or updated when we create a component? _or_  How would you create an HTML file along with a component?
  
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
   
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -91,7 +91,7 @@ NOTE - `constructor()` - The constructor of the component class gets executed fi
 
 6.What is the use of the `@Component` decorator?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -106,7 +106,7 @@ NOTE - `constructor()` - The constructor of the component class gets executed fi
 
 7.How many components can angular have?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -121,7 +121,7 @@ Angular applications can have multiple components.Each component handles a small
 
 8.What is the root component in Angular?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -136,7 +136,7 @@ An Angular application has one root component - `AppComponent`
 	
 9.How do you find which is a root component?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -214,7 +214,7 @@ Using the `<user>` tag in the `index.html`
 	
 12.Detail about `@Component` Decorator.
 	
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))	
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)	
 
 <details markdown="1">
 <summary> <b>Show Answer</b></summary>
@@ -250,7 +250,7 @@ export class AppComponent {
 
 13.What is a template in Angular?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -267,7 +267,7 @@ When you generate an Angular application with the Angular CLI, the `app.componen
  
  14.What is the difference between `templateUrl` and `template` in the `@Component` decorator?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -284,7 +284,7 @@ When you generate an Angular application with the Angular CLI, the `app.componen
 	
 15.What is the difference between `styleUrls` and `styles` in the `@Component` decorator?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -319,7 +319,7 @@ When you generate an Angular application with the Angular CLI, the `app.componen
  
 16.Which lifecycle hook will be executed first?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -334,7 +334,7 @@ When you generate an Angular application with the Angular CLI, the `app.componen
  
 17.Where I can inject any dependencies into the component?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -349,7 +349,7 @@ When you generate an Angular application with the Angular CLI, the `app.componen
  
 18.In which order do lifecycle hooks get executed?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -373,7 +373,7 @@ Angular calls these hook methods in the following order:
  
 19.Which lifecycle hook is called only one?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -388,7 +388,7 @@ Angular calls these hook methods in the following order:
  
 20.Which angular module has all lifecycle hooks interfaces?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -403,7 +403,7 @@ Angular calls these hook methods in the following order:
 	
 21.Can we have HTML content attached to the component without having a `.html` file? If so, how?
 	
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -427,7 +427,7 @@ Inline Template  - It is defined by placing the HTML code in backticks _`_ and i
 	
 22.Can we have CSS styles attached to the component without having a `.css` file? If so, how?
 	
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -454,7 +454,7 @@ You can use the `styles` property to keep the CSS code inline to style your comp
 	
 23.Can we have a multiline template? If so, how?
 	
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -484,7 +484,7 @@ export class AppComponent{
 	
 24.What are our views on Angular?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -499,7 +499,7 @@ Views are almost like their own virtual DOM.Together, the component and its temp
 	
 25.How view is different from a template?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -516,7 +516,7 @@ The template is immediately associated with a component that defines that compon
 
 26.What are ways to define templates?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -551,7 +551,7 @@ External Template - It is defined in a separate HTML file and is linked to the c
  
 27.What would you choose between the inline and external template files?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -574,7 +574,7 @@ Normally we use inline templates for small portion of code and external template
  
 28.What is executed before any lifecycle hooks? 
 	
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -624,7 +624,7 @@ export class UserComponent {
 	
 30.What happens if you use the `<script>` tag inside the template?
 	
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -641,7 +641,7 @@ export class UserComponent {
 	
 31.What is the difference between `constructor()` and `ngOnInit()`?
 	
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -674,7 +674,7 @@ Instead, the component is instantiated and placed in the application at runtime.
 	
 33.What is View Encapsulation in Angular?
 	
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -689,7 +689,7 @@ View Encapsulation in Angular defines how the styles defined in the template aff
  
 34.List the strategies that angular uses while rendering the view?
 	
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -704,7 +704,7 @@ View Encapsulation in Angular defines how the styles defined in the template aff
 	
 35.Why do we need View Encapsulation?
 	
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -723,7 +723,7 @@ That's why we need view encapsulation.
 		
 36.How do add view encapsulation to components?
 	
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>

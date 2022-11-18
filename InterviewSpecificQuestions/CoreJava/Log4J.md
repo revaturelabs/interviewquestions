@@ -1,6 +1,6 @@
 1.What is Log4j?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -16,7 +16,7 @@
 
 2.What are the components of Log4j?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -33,7 +33,7 @@ Log4j has three main components −
 
 3.What are the support objects in Log4j?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -50,7 +50,7 @@ Log4j has three main components −
 
 4.What are the features of log4j?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -70,7 +70,7 @@ Following are features of log4j −
 
 5.What are Pros and Cons of Logging?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -86,7 +86,7 @@ Following are features of log4j −
 
 6.Explain why to use Apache Log4j?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -102,7 +102,7 @@ Following are features of log4j −
 
 7.What is the purpose of Logger object?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -116,7 +116,7 @@ The top-level layer of log4j architecture is the Logger which provides the Logge
 
 8.What is the purpose of Layout object?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -131,7 +131,7 @@ The top-level layer of log4j architecture is the Logger which provides the Logge
 
 9.What is the purpose of Appender object?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -145,7 +145,7 @@ This is a lower-level layer of log4j architecture which provides Appender object
 
 10.What is the purpose of Level object?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -159,7 +159,7 @@ The Level object defines the granularity and priority of any logging information
 
 11.What is the purpose of Filter object?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -173,7 +173,7 @@ The Filter object is used to analyze logging information and make further decisi
 
 12.What is the purpose of ObjectRenderer object?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -187,7 +187,7 @@ The ObjectRenderer object is specialized in providing a String representation of
 
 13.What is the purpose of LogManager object?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -201,7 +201,7 @@ The LogManager object manages the logging framework.It is responsible for readin
 
 14.What is the use of log4j.properties?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -215,7 +215,7 @@ The log4j.properties file is a log4j configuration file which keeps properties i
 
 15.What is the purpose of layout object in Appender?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -229,7 +229,7 @@ Appender uses the Layout objects and the conversion pattern associated with them
 
 16.What is the purpose of target in Appender?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -243,7 +243,7 @@ The target may be a console, a file, or another item depending on the appender.
 
 17.What is the purpose of level in Appender?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -257,7 +257,7 @@ The level is required to control the filtration of the log messages.
 
 18.What is the purpose of threshold in Appender?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -271,7 +271,7 @@ Appender can have a threshold level associated with it independent of the logger
 
 19.What is the purpose of filter in Appender?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -285,7 +285,7 @@ The Filter objects can analyze logging information beyond level matching and dec
 
 20.How will you define a root logger with appender file using log4j.properties?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -304,7 +304,7 @@ log4j.rootLogger = DEBUG, FILE
 
 21.How will you define a file appender using log4j.properties?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -323,7 +323,7 @@ log4j.appender.FILE.File=${log}/log.out
 
 22.How will you define the layout of file appender using log4j.properties?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -342,7 +342,7 @@ log4j.appender.FILE.layout.conversionPattern=%m%n
 
 23.What are the different log levels in the logger component?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -362,7 +362,7 @@ log4j.appender.FILE.layout.conversionPattern=%m%n
 
 24.What is purpose of DEBUG log level?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -376,7 +376,7 @@ DEBUG − Designates fine-grained informational events that are most useful to d
 
 25.What is purpose of ERROR log level?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -390,7 +390,7 @@ ERROR − Designates error events that might still allow the application to cont
 
 26.What is purpose of FATAL log level?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -404,7 +404,7 @@ FATAL − Designates very severe error events that will presumably lead the appl
 
 27.What is purpose of INFO log level?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -418,7 +418,7 @@ INFO − Designates informational messages that highlight the progress of the ap
 
 28.What is purpose of OFF log level?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -432,7 +432,7 @@ OFF − The highest possible rank and is intended to turn off logging.
 
 29.What is purpose of TRACE log level?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -446,7 +446,7 @@ TRACE − Designates finer-grained informational events than the DEBUG.
 
 30.What is purpose of WARN log level?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -460,7 +460,7 @@ WARN − Designates potentially harmful situations.
 
 31.How do Levels Works?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -474,7 +474,7 @@ A log request of level p in a logger with level q is enabled if p >= q.This rule
 
 32.How will you define a root logger turning DEBUG mode off?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -493,7 +493,7 @@ log4j.rootLogger = WARN, FILE
 
 33.How will you create a logger in any class?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -501,7 +501,7 @@ log4j.rootLogger = WARN, FILE
 Any other named Logger object instance is obtained through the second method by passing the name of the logger.The name of the logger can be any string you can pass, usually a class or a package name 
 
 ```Java
-static Logger log = Logger.getLogger(log4jExample.class.getName());
+static Logger log = Logger.getLogger(log4jExample.class.getName();
 ```
 </blockquote>
 </details>
@@ -510,7 +510,7 @@ static Logger log = Logger.getLogger(log4jExample.class.getName());
 
 34.How will you print a log message in debug mode?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -524,7 +524,7 @@ static Logger log = Logger.getLogger(log4jExample.class.getName());
 
 35.How will you print a log message in error mode?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -538,7 +538,7 @@ static Logger log = Logger.getLogger(log4jExample.class.getName());
 
 36.How will you print a log message in fatal mode?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -552,7 +552,7 @@ static Logger log = Logger.getLogger(log4jExample.class.getName());
 
 37.How will you print a log message in info mode?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -566,7 +566,7 @@ static Logger log = Logger.getLogger(log4jExample.class.getName());
 
 38.How will you print a log message in warn mode?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -580,7 +580,7 @@ static Logger log = Logger.getLogger(log4jExample.class.getName());
 
 39.How will you print a log message in trace mode?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -594,7 +594,7 @@ static Logger log = Logger.getLogger(log4jExample.class.getName());
 
 40.Mention what are the different types of Appenders?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -611,7 +611,7 @@ Some of the Appenders type include
 
 41.Mention what are the two static methods for obtaining a logger object?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -628,7 +628,7 @@ The two static methods for obtaining a logger object are
 
 42.How log4j file is defined?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -642,7 +642,7 @@ Log4j file is defined by the name `log4j.properties`, it keeps properties in key
 
 43.Explain what is the command to write your logging information into a file?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -656,7 +656,7 @@ To write your logging information into a file, you would need to use a command `
 
 44.Mention what are the logging methods provided by logger class?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -672,7 +672,7 @@ Logger class provides a variety of methods to handle logging activities.To obtai
 
 45.In log4j how can you log into the database?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -686,7 +686,7 @@ The log4j API provides the object `org.apache.log4j.jdbc`.JDBCAppender object ca
 
 46.Can you customize the log output format?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -700,7 +700,7 @@ Yes, you can extend the layout class to create your own customized log format.Ap
 
 47.What are the system properties checked by log4j?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -719,7 +719,7 @@ The system properties checked by log4j are
 
 48.Explain how can you get multiple processes to log to the same file?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -733,7 +733,7 @@ We may have each process log to a socket Appender.The receiving socket server ca
 
 49.Mention what is the difference between Threshold and LevelRangeFilter in log4j?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -747,7 +747,7 @@ Both Threshold and LevelRangeFilter does the same thing.However, threshold shoul
 
 50.Mention what does `.class` mean in log4j context?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -765,7 +765,7 @@ logger.getlogget (Myclass.class)
 
 51.What is the purpose of PatternLayout object?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -781,7 +781,7 @@ logger.getlogget (Myclass.class)
 
 52.What is package level logging in log4j?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -795,7 +795,7 @@ Package level logging is the standard logging of log4j, with this you would dete
 
 53.What does WARN and TRACE level indicates in log4j?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -809,7 +809,7 @@ Log4j level WARN gives a warning about an unpredicted event to the user.The mess
 
 54.What are the format characters used in log4j?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -828,7 +828,7 @@ The format characters used in log4j are
 
 55.What is the best way to migrate from `java.util` logging to log4j?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -842,7 +842,7 @@ The best way to migrate from `java.util`  logged to log4j is to use global file 
 
 56.Why do you get multiple copies of the message in log file sometime?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -858,7 +858,7 @@ There could be two reasons why this may happen:
 
 57.How can we change the Log level for the application?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -887,7 +887,7 @@ By changing the Root Level within Log4j config.
 </Configuration>
 ```
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">
@@ -902,7 +902,7 @@ We should change the root level from DEBUG to WARN.
 59.Can you organize following Log4j levels in hierarchy?
 WARN, DEBUG,INFO, ERROR	Log4j
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 <blockquote markdown="1">

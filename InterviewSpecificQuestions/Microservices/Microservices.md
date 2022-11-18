@@ -2,7 +2,7 @@
 
 1.What is the meaning of Monolithic Application?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -38,7 +38,7 @@
 
 3.Why we should avoid Monolithic Style? 
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -60,7 +60,7 @@
 
 4.Though we prefer Microservices over Monolithic, still do you see any advantages of building Monolithic applications?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -120,7 +120,7 @@
 ---
 7.What is so special about Netflix and Microservices?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -156,7 +156,7 @@
 ---
 9.What is `Spring Cloud`?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -173,7 +173,7 @@
 ---
 10.What is `Spring Cloud Netflix`?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -209,7 +209,7 @@
 ---
 12.What do you know about Service Discovery in Microservices?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -242,7 +242,7 @@
 ---
 14. What is use of Netflix Eureka? 
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -426,7 +426,7 @@ public class ProducerEureka2 {
 
 18.What is the difference between @EnableDiscoveryClient and @EnableEurekaClient?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -460,11 +460,11 @@ public class ProducerEureka2 {
 	StringBuilder responseText = new StringBuilder();
 	List<ServiceInstance> instances = discoveryClient.getInstances("employee-producer");
 		for (int i = 0; i < instances.size(); i++) {
-			System.out.println("[" + i + "]  -->  " + instances.get(i).getUri());
-			responseText.append("\n[" + i + "]  -->  " + instances.get(i).getUri());
+			System.out.println("[" + i + "]  -->  " + instances.get(i).getUri();
+			responseText.append("\n[" + i + "]  -->  " + instances.get(i).getUri();
 		}
-		System.out.println("Using the first producer service got from DiscoveryClient:" + instances.get(0).getUri());
-		responseText.append("\n\n\nUsing the first service:\n" + instances.get(0).getUri());
+		System.out.println("Using the first producer service got from DiscoveryClient:" + instances.get(0).getUri();
+		responseText.append("\n\n\nUsing the first service:\n" + instances.get(0).getUri();
 		ServiceInstance serviceInstance = instances.get(0);
 		String baseUrl = serviceInstance.getUri().toString();
 		baseUrl = baseUrl + "/employee";
@@ -478,7 +478,7 @@ public class ProducerEureka2 {
 
 20.What do you understand by load balancing?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -494,7 +494,7 @@ public class ProducerEureka2 {
 
 21.Do you know what are the two types of load balancing techniques?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -511,7 +511,7 @@ public class ProducerEureka2 {
 ---
 22.What is the use of Netflix Ribbon?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -562,8 +562,8 @@ public class ProducerEureka2 {
 ```java
 		StringBuilder responseText = new StringBuilder();
 		ServiceInstance serviceInstance = loadBalancer.choose("my-service");
-		System.out.println("Using the only producer service got from LoadBalancerClient:" + serviceInstance.getUri());
-		responseText.append("Using the only producer service got from LoadBalancerClient:\n" + serviceInstance.getUri());
+		System.out.println("Using the only producer service got from LoadBalancerClient:" + serviceInstance.getUri();
+		responseText.append("Using the only producer service got from LoadBalancerClient:\n" + serviceInstance.getUri();
 		String baseUrl = serviceInstance.getUri().toString();
 		baseUrl = baseUrl + "/employee";
 ```
@@ -576,7 +576,7 @@ public class ProducerEureka2 {
 ---
 24.What do you understand by Circuit Breaker?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -593,7 +593,7 @@ public class ProducerEureka2 {
 ---
 25.How Spring Cloud supports Circuit Breaker?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -674,7 +674,7 @@ public class ProducerController {
 	public Employee firstPage() {
 		Employee emp = new Employee();
 		emp.setName("A");
-		if (emp.getName().equalsIgnoreCase("A"))
+		if (emp.getName().equalsIgnoreCase("A")
 			throw new RuntimeException();
 		return emp;
 	}
@@ -713,7 +713,7 @@ public class ProducerEurekaHystrix {
 ---
 28.What do you understand by `API Gateway`?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
@@ -740,7 +740,7 @@ public class ProducerEurekaHystrix {
 ---
 29.What is use of Netflix Zuul?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 

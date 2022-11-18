@@ -1,6 +1,6 @@
 1.What is the difference between method and function?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -18,7 +18,7 @@
 
 2.Explain OOPs.
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -44,7 +44,7 @@ Characteristics are also known as data, attributes, or properties, and Behaviors
 
 3.What are the pillars of OOPs?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -64,7 +64,7 @@ The Four Pillars of Object-Oriented Programming are
 
 4.What is polymorphism?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -83,7 +83,7 @@ For example: A man at the same time is a father, a husband, an employee.So, the 
 
 5.What is method overloading?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -127,7 +127,7 @@ public class SquaringDemo {
 
 6.Explain Encapsulation.
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -147,7 +147,7 @@ In encapsulation, the variables of a class will be hidden from other classes and
 
 7.What is an abstract class?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -198,7 +198,7 @@ class Main {
 
 8.Brief us on interfaces
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -221,7 +221,7 @@ class Rectangle implements Polygon {
 
   // implementation of abstract method
   public void getArea(int length, int breadth) {
-    System.out.println("The area of the rectangle is " + (length * breadth));
+    System.out.println("The area of the rectangle is " + (length * breadth);
   }
 }
 
@@ -240,7 +240,7 @@ class Main {
 
 9.Difference between abstract classes and interfaces
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -263,7 +263,7 @@ class Main {
 
 10.What is Abstraction? or Describe abstract in OOP (or) What does Abstraction do?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -289,7 +289,7 @@ There are two ways to achieve abstraction in java
 
 11.What is inheritance? (or) Brief us on inheritance
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -308,7 +308,7 @@ The parent-child relationship, also known as the **IS-A** relationship, is repre
 
 12.Brief us on encapsulation and access modifiers (or) How do you achieve encapsulation?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -326,7 +326,7 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
 
 13.How many constructors you used in java?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -342,7 +342,7 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
 
 14.Can you do static overriding?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -358,7 +358,7 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
 
 15.What are the types of Inheritance?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -384,7 +384,7 @@ There are 5 types of Inheritance.They are
 
 16.When do you use Abstract Class and Interfaces?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -406,7 +406,7 @@ The JDBC API is an excellent example.It exists of almost only interfaces.The con
 
 17.Brief us on the types of Polymorphism
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -424,7 +424,7 @@ There are two types of polymorphism as below:
 
 18.Can the main method be overridden?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -440,7 +440,7 @@ There are two types of polymorphism as below:
 
 19.What are Constructors?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -456,7 +456,7 @@ There are two types of polymorphism as below:
 
 20.What is a class? What is an object?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -476,7 +476,7 @@ Since many houses can be made from the same description, we can create many obje
 
 21.What is the benefit of inheritance?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -495,7 +495,7 @@ Since many houses can be made from the same description, we can create many obje
 
 22.Can we implement multiple inheritances in Java?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -511,7 +511,7 @@ Java does not support multiple inheritance using classes.It can be achieved or i
 
 23.Can you change the scope of a method or class using inheritance?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
   <summary> <b>Show Answer</b></summary>
@@ -533,7 +533,7 @@ While changing the accessibility of the method,
 
 24.What are the benefits of abstraction?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary> <b>Show Answer</b></summary>
@@ -550,7 +550,7 @@ While changing the accessibility of the method,
 
 25.What is the difference between class and object?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary> <b>Show Answer</b></summary>
@@ -574,7 +574,7 @@ While changing the accessibility of the method,
 
 26.How can we change the super class method according to the requirements of sub class in Java?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer </b></summary>
 
@@ -590,7 +590,7 @@ It can be done by method overriding , which is a type of polymorphism.It can mod
 
 27.Can an interface extends another interface in Java?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer </b></summary>
 
@@ -606,7 +606,7 @@ It can be done by method overriding , which is a type of polymorphism.It can mod
 
 28.What happens if a class has implemented an interface but has not provided implementation for that method defined in Interface?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 
 <details markdown="1"><summary> Show Answer </summary>
@@ -623,7 +623,7 @@ The class has to be declared with an abstract modifier, which will be enforced b
 
 29.Can we declare a class as Abstract without having any abstract method?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -639,7 +639,7 @@ Yes, we can create an abstract class by using abstract keyword before class name
 
 30.Can we call the constructor of a class more than once for an object?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -729,7 +729,7 @@ Heap.Because when Java programs run on the JVM, objects are created on the heap,
 
 35.Can we achieve method overloading by changing the return type?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -746,7 +746,7 @@ No, we cannot achieve method overloading through return type in Java.
 36.Can we extend a String class?
 
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -762,7 +762,7 @@ No, String is a final class, therefore we cannot extend or inherit it.
 
 37.Explain about inner class in Java.
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 

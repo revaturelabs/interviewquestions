@@ -3,7 +3,7 @@
 
 1.Does `MongoDB support primary-key and foreign-key relationships If yes, then how?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
@@ -14,7 +14,7 @@
 
 2.Using the Aggregate function `$avg` write a MongoDB query.
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -25,7 +25,7 @@
 
 3.Use the Aggregate function `$sum` to write a MongoDB query.
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -36,7 +36,7 @@
  
 4.In a find () query like `db.collection_name.find({ "school.student": "Jack"})` , what could be school and what could be a student?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -79,7 +79,7 @@
 
 7.What `insert()` method return after successfully inserting a document into a collection?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
@@ -101,7 +101,7 @@
 
 9.Create a “Company” database and make a collection as “Department” in it.
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
   
@@ -115,7 +115,7 @@ db.createCollection("Department");
 
 10.Imagine you have an “employee” database and “emp” collection.Write a query to update salary of an employee by 1000 where name ="Jack".
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
  
@@ -129,7 +129,7 @@ db.emp.update({"name": "Jack"}, {$inc: {"salary": 1000}});
 
 11.Tell the difference between `update()` and `save()` method in MongoDB.
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -190,7 +190,7 @@ db.emp.update({},
 
 15.How do you fetch the employees, from the “emp” collection, whose name starts with ‘A’.
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
  
@@ -217,7 +217,7 @@ db.emp.find({name: /A/});
 
 17.Suppose you have a “Company” database and “emp” collection inside that database, then how do you find the records of top 5 employees based on the salary field?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -235,7 +235,7 @@ db.emp.find({})
 
 18.Write a query to get all the records of employees whose “age” is greater than 25 and whose “experience” greater or equal to 3 years.
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
@@ -253,7 +253,7 @@ db.collection_name.find({
 ---
 19.What is the difference between findOneAndReplace() and findOneAndUpdate() in MongoDB?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -264,7 +264,7 @@ db.collection_name.find({
 ---
 20.Differentiate between `findOneAndReplace()` and `replaceOne() in MongoDB?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -301,7 +301,7 @@ db.collection_name.find({
 ---
 23.What sort of practice you will take as a developer to increase the availability of data in MongoDB when there is a routine maintenance check or system failure?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -407,7 +407,7 @@ db.collection_name.find({
 
 28.Jack is trying to fetch all the records, from a collection called “people”, without including the `_id` field.When he wrote the query as `db.people.find({} { _id: 0})`, he was getting a syntax error message stating “unexpected { ”.What he needs to change in his query to get the desired output.
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -439,7 +439,7 @@ db.student.find({
 
 30.A developer doesn’t want to see the first 10 documents of “dept” collection and doesn’t have permission to delete any document from the collection as well, so what query he must write to see the rest of the documents after 10 documents without deleting any document?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -474,7 +474,7 @@ db.collection_name.find({
 
 32.As 1 and -1 are used to represent ascending and descending order respectively in the sort() method, then what will happen if we use -2 or 2 instead in sort().
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -535,7 +535,7 @@ db.collection_name.find({
 
 36.As we know MongoDB is a Document oriented Database.What are the benefits document database gives over others?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -561,7 +561,7 @@ db.collection_name.find({
 
 38.What are your thoughts, when anyone says durability is one of the best features of MongoDB? 
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -599,7 +599,7 @@ Whenever there are a server failure or system crashes, we can still recover the 
 
 41.Suppose I have an “address” field in “student” collection and if I removes it from the database, will it also remove it from the disk too?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -610,7 +610,7 @@ Whenever there are a server failure or system crashes, we can still recover the 
 
 42.Does MongoDB creates any Index by default, when we create any new collection?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))  
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -621,7 +621,7 @@ Whenever there are a server failure or system crashes, we can still recover the 
 
 43.Give the steps to connect MongoDB with Python?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
@@ -636,7 +636,7 @@ Whenever there are a server failure or system crashes, we can still recover the 
 
 44.How will you insert more than one document at a time without using default `insert()` method?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
@@ -654,7 +654,7 @@ db.collection.insertMany([{name: "Jack", dept: "training"},
 
 45.How will you delete only first document having "name" equal to "Tom"?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
@@ -669,7 +669,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 46.Is `remove()` and `deleteMany()` methods in MongoDB are same?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
@@ -683,7 +683,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 47.What is the use of `pretty()` method in MongoDB?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
@@ -695,7 +695,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 48.Tell me what do you understand by vertical scaling and horizontal scaling?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
@@ -708,7 +708,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 49.Which method can be used to see the results in a formatted way?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
@@ -747,7 +747,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 52.How will you say MongoDB doesn't have schema?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -759,7 +759,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 53.Does MongoDB stores it data to RAM or Disk?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -771,7 +771,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 54.Stating MongoDB as one of the best NoSQL database is always true, but at what time it is not preferred?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
@@ -801,7 +801,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 56.Tell me the types of indexes in MongoDB?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -852,7 +852,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 60.Tell me the basic CRUD operations of MongoDB?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
@@ -868,7 +868,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 61.Give the query that will find the count of number of restaurants that are present in Texas, Florida and Alaska state.
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
@@ -886,7 +886,7 @@ db.resturants.find(
 
 62.From "revature" company collection fetch the name and experience of those employees who are not working in night shift.
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
@@ -942,7 +942,7 @@ db.collection_name.find({
 
 65.Suppose you are having a collection as "company" and you want to fetch the details of those employees whose are from "training" department based on their experience in the industry.What query you will write to get what you want.
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
@@ -959,7 +959,7 @@ db.company.find({
 
 66.In MongoDB, write a query that will give details of all the employees based on their "DOJ"(data of joining) in ascending order and  "salary" in descending order.
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
@@ -996,7 +996,7 @@ db.food.find(
 
 68.As a food investigation specialist your task is to fetch the details of those restaurants "name" and "address" who are using "palm oil"  as a "food_oil" in making of their dishes.You have to send the report to the higher authorities, so that they can take actions on those restaurants.
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
@@ -1014,7 +1014,7 @@ db.resturants.find(
 
 69.For storing documents and doing operations on those data requires MongoDB to use lot of RAM?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
@@ -1049,7 +1049,7 @@ db.resturants.find(
 
 72.How you will check how many indexes your teammate created on the "school" collection?
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
@@ -1076,7 +1076,7 @@ db.school.getIndexes()
 
 74.Can we say that MongoDB reads and writes data from both primary and secondary replica set? 
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
@@ -1127,7 +1127,7 @@ db.school.getIndexes()
 
 78.Give the query that will display the number of employees from "emp" collection who have achieved "H1" reward in january and feburary month.
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
@@ -1166,7 +1166,7 @@ db.students.find({
 
 80.As a flying investigating officer you are managing a Database in MongoDB about the flights.And now you are trying to get the details of those flights who are flying over texas, florida and alaska states based on their "departure" time in ascending order.
 
-![Simple]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)) 
+![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 

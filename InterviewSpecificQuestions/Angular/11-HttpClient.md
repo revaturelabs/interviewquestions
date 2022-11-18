@@ -1,6 +1,6 @@
 1.Which angular package `HttpClient` service is available?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -15,7 +15,7 @@
  
 2.Why do we need `HttpClient`?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -30,7 +30,7 @@ The front-end of applications communicates with back-end services to get or send
  
 3.List some `HttpClient` methods provided by the angular framework.
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -50,7 +50,7 @@ All `HttpClient` methods return an **Observable** of something.In general, an ob
  
 4.How we can consume RESTful APIs in Angular Projects?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -65,7 +65,7 @@ We can consume RESTful APIs in Angular applications using HttpClient API.
  
 5.How to use HttpClient in Angular? _or_ How do you consume REST API in Angular?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -128,7 +128,7 @@ export class EmployeeService {
  
 6.What is observable? How is related to HttpClient?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -146,7 +146,7 @@ All `HttpClient` methods return an **Observable** of something.
  
 7.How do you handle errors with HttpClient?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -169,7 +169,7 @@ To catch errors, we "pipe" the observable result from `http.get()` (or any *Http
  
 8.Have you heard of Subjects? If so, tell me what it is.
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -184,7 +184,7 @@ A Subject is a special type of Observable that allows values to be multicasted t
  
 9.How do subjects differ from observable?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -201,7 +201,7 @@ Every Subject is an Observable.Given a Subject, you can subscribe to it, providi
 	
 10.What is the difference between a promise and an observable?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary> <b>Show Answer</b></summary>
@@ -211,17 +211,17 @@ Every Subject is an Observable.Given a Subject, you can subscribe to it, providi
 - So, while handling an HTTP request, a Promise can manage a single response for the same request, but if there are multiple responses to the same request, then we have to use an Observable.
 	
 ```ts
-const promise = new Promise((data) =>{ 
+const promise = new Promise(data) =>{ 
     data(1);
     data(2);
-    data(3);    }).then(element => console.log('Promise '+ element));
+    data(3);    }).then(element => console.log('Promise '+ element);
 // Logs:
 // Promise 1
  
-const observable = new Observable((data) => {
+const observable = new Observable(data) => {
     data.next(1);
     data.next(2);
-    data.next(3);   }).subscribe(element => console.log('Observable ' + element));
+    data.next(3);   }).subscribe(element => console.log('Observable ' + element);
  
 // Logs:
 //Observable 1
@@ -236,7 +236,7 @@ const observable = new Observable((data) => {
 
 11.Every front-end application needs to communicate with the backend microservices to share the data over the HTTP protocol.How is this communication established in angular? 
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>

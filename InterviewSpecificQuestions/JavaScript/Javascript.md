@@ -2,7 +2,7 @@
 
 1.What type of language is JavaScript?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -18,7 +18,7 @@
 
 2.What browser can you use for JavaScript?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -35,7 +35,7 @@ All the modern browsers come with built-in support for JavaScript.Uses have prov
 
 3.Mention the different data types present in JavaScript.
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -55,7 +55,7 @@ There are two types of data types to hold different types of values in JavaScrip
 
 4.Do we need to specify type of the variable in JavaScript?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -72,7 +72,7 @@ JavaScript is a <b> dynamic type language </b>, so no need to specify type of th
 
 5.Explain about the scopes of a variable in JavaScript?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -97,7 +97,7 @@ The scope of a variable represents where the variable has been declared or defin
 
 6.Differentiate between the terms undefined and not defined.
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -123,7 +123,7 @@ In this case, you will get a message like `not defined` because the variable y i
 
 7.What is the use of `typeof` operator?
 
-![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -133,7 +133,7 @@ The `typeof` is a unary operator which takes a single operand in a statement, it
 
 ``` java
 var x=15;
-console.log(typeof (x))
+console.log(typeof (x)
 ```
 
 It will print the number 15 in the console
@@ -155,7 +155,7 @@ From the above code if the `typeof` y is a number, so from the expression it wil
 
 8.Explain Hoisting in JavaScript.
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -172,7 +172,7 @@ Hoisting is the default behavior of JavaScript where all the variable and functi
 
 9.When ‘for loop’ should be used in JavaScript?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -189,7 +189,7 @@ It iterates the elements for the fixed number of times.It should be used if the 
 
 10.What loop should be used if number of iterations is not known?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -206,7 +206,7 @@ The JavaScript while loop iterates the elements for the infinite number of times
 
 11.What is the use of `this` keyword in JavaScript?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -224,7 +224,7 @@ Which refers to the currently calling object.It is commonly used in constructors
 
 12.Explain about Callback functions in JavaScript?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -244,7 +244,7 @@ Which refers to the currently calling object.It is commonly used in constructors
 
 13.What do you understand about cookies?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -262,7 +262,7 @@ It is generally a small data that is sent from a website and stored on the user�
 
 14.How would you create a cookie?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -282,7 +282,7 @@ document.cookie = "key1 = value1; key2 = value2; expires = date";
 
 15.What method is used to break the cookie value in JavaScript?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -299,7 +299,7 @@ document.cookie = "key1 = value1; key2 = value2; expires = date";
 
 16.Differentiate between `let` and `var`?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -362,7 +362,7 @@ const Message= () => {
 
 19.what is the use of  `constructor function()`?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -388,7 +388,7 @@ var user2 = new User('Alice', 27);
 20.Explain the use of `Promise` in JavaScript.
 
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -405,7 +405,7 @@ It is an object that may produce value in the future(either a resolved value, or
 
 21.What is window object in JavaScript?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -425,7 +425,7 @@ It is an object that may produce value in the future(either a resolved value, or
 
 22.How to redirect the user to a new page?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -444,7 +444,7 @@ It is an object that may produce value in the future(either a resolved value, or
 
 23.What is DOM(Document Object Model)?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -461,7 +461,7 @@ When HTML documents are loaded in the browser(which creates DOM), it will become
 
 24.What do you mean by Event and Event handling?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -478,7 +478,7 @@ The change in the state of an object is known as an `Event`.In html, there are v
 
 25.How does HTML events are handled in JavaScript?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -495,7 +495,7 @@ JavaScript handles the HTML events through Event Handlers.
 
 26.List the types of events used in JavaScript.
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -515,7 +515,7 @@ JavaScript handles the HTML events through Event Handlers.
 
 27.How to attach an event handler in JavaScript?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -536,7 +536,7 @@ Syntax:
 
 28.What is the use of JavaScript Strict Mode?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -559,7 +559,7 @@ Syntax:
 29.What method can be used instead of this `document.form1.name.value method`?
 
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -577,7 +577,7 @@ we can use the method `document.getElementById()` to get value of the input text
 30.What is the use of `getElementsByClassName()` method?
 
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -597,7 +597,7 @@ When the method is applied on any particular element, it will search the whole d
 
 31.List out different types of errors in JavaScript?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -615,7 +615,7 @@ When the method is applied on any particular element, it will search the whole d
 
 32.What is meaning of BOM in JavaScript?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -634,7 +634,7 @@ When the method is applied on any particular element, it will search the whole d
 
 33.In how many ways a JavaScript code can be used in an HTML file?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -654,7 +654,7 @@ There are two ways:
 
 34.Explain about Event Bubbling.
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -671,7 +671,7 @@ Whenever an event happens on an element, the event handlers will first run on it
 
 35.Explain about Event Capturing .
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -688,7 +688,7 @@ It is the reverse of the event bubbling and here the event starts from the paren
 
 36.List the states of `Promise` in JavaScript.
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -709,7 +709,7 @@ It is the reverse of the event bubbling and here the event starts from the paren
 
 37.Explain about Async/Await Function in JavaScript.
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -730,7 +730,7 @@ It is the reverse of the event bubbling and here the event starts from the paren
 
 38.What is the DOM?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -749,7 +749,7 @@ Document Object Model(DOM) is a tree-like structure that represents the HTML doc
 
 39.How can we change styles of a particular element using JavaScript?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -773,7 +773,7 @@ eg: element.style.color = “new color”;
 
 40.Explain about namespace objects in JavaScript?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -790,7 +790,7 @@ It is used to group together related objects, properties, and methods.In JavaScr
 
 41.What JavaScript support automatic type conversion?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -807,7 +807,7 @@ Yes, it support automatic type conversion.It is the common way of type conversio
 
 42.What do you understand by loosely typed in JavaScript?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -826,7 +826,7 @@ a= "JavaScript";
 
 43.Differentiate between Local storage & Session storage?
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
@@ -846,7 +846,7 @@ a= "JavaScript";
 44.What is the relation between ECMAScript and JavaScript?
 
 
- ![Easy]((https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg))
+ ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
 
