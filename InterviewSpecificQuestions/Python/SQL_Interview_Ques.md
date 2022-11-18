@@ -7,6 +7,8 @@
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
+<blockquote markdown="1">
+
 > In all the SQL databases there are some constraints like: 
 > - not null: This constraint restricts the values that are null from being inserted into columns.
 > - unique: This will allow only unique values in the column along with the null value
@@ -14,6 +16,8 @@
 > - foreign key: This constraint helps in forming the relationship between two or more tables in SQL.
 > - index: This constraint helps in improving query performance and fast retrieval of data
 > - check: This is used when we have to check if all the data that is being inserted satisfy a condition.
+
+</blockquote>
 
 </details>
 
@@ -25,7 +29,11 @@
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
+<blockquote markdown="1">
+
 > In a table in SQL, there can be many columns that can be a unique key but only one primary key is allowed on one table.The primary key is a combination of unique key plus null constraint, whereas unique key has only unique constraint and it can be null.
+
+</blockquote>
 
 </details>
 
@@ -37,11 +45,15 @@
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
+<blockquote markdown="1">
+
 > We can add the primary key after the creation of the table also, for that we can use the `alter` command that will add the primary key column to an existing table.There is no need to delete the table and recreate it again in the database.Just we have to pass a query as:  
 ```sql
 alter table table_name add primary key(column_name);
 ```
   
+</blockquote>
+
 </details>
 
 ---
@@ -51,6 +63,8 @@ alter table table_name add primary key(column_name);
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
+
+<blockquote markdown="1">
 
 > 
 ```sql
@@ -66,6 +80,8 @@ create table school(
        );
 ```
 
+</blockquote>
+
 </details>
 
 ---
@@ -76,11 +92,15 @@ create table school(
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
+<blockquote markdown="1">
+
 > There are set of rules that we can follow while creating a primary key:  
 > 1.A column must have unique values.
 > 2.A column shouldn't contain any null value.
 > 3.Only one primary key can be created for one table.
 > 4.Columns that are of type number are recommended for the primary key columns.
+
+</blockquote>
 
 </details>
 
@@ -92,7 +112,11 @@ create table school(
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
+<blockquote markdown="1">
+
 > By using `create table` and `alter table` statements we can create a primary key in a table in SQL.
+
+</blockquote>
 
 </details>
 
@@ -104,6 +128,8 @@ create table school(
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
+<blockquote markdown="1">
+
 > Data Definition language or DDL commands are used to describe or define the structure of the database objects.In DDL, the following are the commands:  
 > - create
 > - alter
@@ -111,6 +137,8 @@ create table school(
 > - truncate
 > - comment
 > - rename 
+
+</blockquote>
 
 </details>
 
@@ -122,7 +150,11 @@ create table school(
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
+<blockquote markdown="1">
+
 > Both `drop` and `truncate` are part of DDL commands and also look similar while deleting records of the table in the database.But one major difference between both is that `drop` deletes all the records from the table as well as the table structure, whereas `truncate` will only delete all the records from the table but not the table structure.Also, the drop command can be used to delete the database, whereas truncate cannot be used to delete the database.
+
+</blockquote>
 
 </details>
 
@@ -134,12 +166,16 @@ create table school(
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
+<blockquote markdown="1">
+
 > Using `alter` command, we can rename the column name.
 ```sql
 alter table student 
 rename column id to student_id;
 ```
 > Here "id" column name is changed to "student_id" name.
+</blockquote>
+
 </details>
 
 ---
@@ -150,7 +186,11 @@ rename column id to student_id;
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
+<blockquote markdown="1">
+
 > `rename` command and `alter` both have similar working when renaming a table name in SQL except for the syntax.The only difference between both is that `rename` cannot be used to rename the temporary table, whereas `alter` command can rename a temporary table in SQL.
+
+</blockquote>
 
 </details>
 
@@ -162,7 +202,11 @@ rename column id to student_id;
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
+<blockquote markdown="1">
+
 > The main point to use the normalization forms in table data is to eliminate the repetition of data from it.So one thing we can do is say that it will guarantees the duplicate free data in the table.But achieving full normalization, it negatively affects the performance.
+
+</blockquote>
 
 </details>
 
@@ -174,9 +218,13 @@ rename column id to student_id;
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
+<blockquote markdown="1">
+
 > - In 1nf or 1st normal form, the composite attribute is converted into a single-value attribute.Each column must only have one single data entry in each row.
 > - In 2nf or 2nd normal form, the table should not have any partial dependency means the proper subset of the primary key shouldn't determine any non-prime attribute.
 > - In 3nf or 3rd normal form, there should not be any transitive dependency, which means non-prime attribute of the table should not be dependent on another non- prime attribute.
+
+</blockquote>
 
 </details>
 
@@ -188,10 +236,14 @@ rename column id to student_id;
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
+<blockquote markdown="1">
+
 > - It is used to reduce or remove duplicates from the data.
 > - To optimize storage space.
 > - To prevent unwanted deletion of data.
 > - To prevent data inconsistency.
+
+</blockquote>
 
 </details>
 
@@ -203,6 +255,8 @@ rename column id to student_id;
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
+<blockquote markdown="1">
+
 > In SQL, the Most common subsets are DDL, DML, DQL, DCL and TCL.
 
 > - DDL allows the user to `create`, `alter` and `drop` objects of the database.
@@ -210,6 +264,8 @@ rename column id to student_id;
 > - DQL allows the user to fetch the data from the database using `select` command.
 > - DCL commands like `grant` and `revoke` gives or remove permission to the user on the database elements.
 > - TCL commands are used to control the data transaction using `commit`, `rollback` and `savepoint`.
+
+</blockquote>
 
 </details>
 
@@ -220,6 +276,8 @@ rename column id to student_id;
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
+
+<blockquote markdown="1">
 
 > 
 ```sql
@@ -232,6 +290,8 @@ create table employee(
        );
 ```
 
+</blockquote>
+
 </details>
 
 ---
@@ -242,7 +302,11 @@ create table employee(
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
+<blockquote markdown="1">
+
 > A primary key field in the table cannot contain null as a value.But that is not the case with a foreign key.A foreign key is used to stabilize a relation between two tables and it can contain a  null value.
+
+</blockquote>
 
 </details>
 
@@ -254,11 +318,15 @@ create table employee(
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
+<blockquote markdown="1">
+
 > Anomaly generally happens when the database is not constructed well and when the normalization concepts were not applied.There are 3 types of anomalies that cause a problem:  
 > 1.insertion anomaly: This can happen when we are trying to insert the data into the table, and it is not allowed because some data is not present.
 > 2.update anomaly: This will happen when we have duplicate data in the table and updating one of those data will not reflects toe other data and the end user has no idea which data is the correct one.
 > 3.deletion anomaly: This will happen when the deletion of one data will cause other data to be deleted from the table as well.
 
+
+</blockquote>
 
 </details>
 
@@ -269,6 +337,8 @@ create table employee(
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
+
+<blockquote markdown="1">
 
 > For changing the table name in SQL, we can go for `rename` command or `alter` command:    
 With `rename`
@@ -281,6 +351,8 @@ alter table emp
 rename to employee; 
 ```
 
+</blockquote>
+
 </details>
 
 ---
@@ -291,11 +363,15 @@ rename to employee;
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
+<blockquote markdown="1">
+
 > 
 ```sql
 alter table Food 
 modify column id int;
 ```
+
+</blockquote>
 
 </details>
 
@@ -307,9 +383,13 @@ modify column id int;
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
+<blockquote markdown="1">
+
 > - The `alter` command is a DDL command, whereas `update` is a DML command
 > - The `alter` command is used to perform the operation on the structure level.On the other hand, `update` is used to perform an operation on the data level.
 > - The `alter` command is used to modify the attribute of the table.The `update` command is used to modify the rows of the table.
+
+</blockquote>
 
 </details>
 
@@ -321,7 +401,11 @@ modify column id int;
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
+<blockquote markdown="1">
+
 > No, `truncate` is a DDL command, used to delete all the records from the table.Whereas `delete` is a DML command, used to delete the records based on some condition as well as it can delete all the data from the table as well.
+
+</blockquote>
 
 </details>
 
@@ -332,6 +416,8 @@ modify column id int;
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
+
+<blockquote markdown="1">
 
 > Syntax of `delete` 
 ```sql
@@ -346,6 +432,8 @@ truncate table table_name;
 drop table table_name;
 ```
 
+</blockquote>
+
 </details>
 
 ---
@@ -356,6 +444,8 @@ drop table table_name;
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
+<blockquote markdown="1">
+
 > He has to use the `insert` command for inserting the data:  
 ```sql
 insert into school(id, name) values(01, "Jack");
@@ -364,6 +454,8 @@ insert into school(id, name) values(03, "Tom");
 insert into school(id, name) values(04, "Tim");
 insert into school(id, name) values(05, "EVE");
 ```
+
+</blockquote>
 
 </details>
 
@@ -375,12 +467,16 @@ insert into school(id, name) values(05, "EVE");
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
+<blockquote markdown="1">
+
 > 
 ```sql
 update school
 set name = "EVA" 
 where id = 05;
 ```
+
+</blockquote>
 
 </details>
 
@@ -392,12 +488,16 @@ where id = 05;
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
+<blockquote markdown="1">
+
 > He can use `delete from` statement or `truncate table` statement to delete all the records from the table.
 ```sql
 delete from order;
 truncate table order;
 ```
 
+
+</blockquote>
 
 </details>
 
@@ -409,10 +509,14 @@ truncate table order;
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
+<blockquote markdown="1">
+
 >
 ```sql
 delete from movies where id =20; 
 ```
+
+</blockquote>
 
 </details>
 
@@ -424,9 +528,13 @@ delete from movies where id =20;
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
+<blockquote markdown="1">
+
 > No, the Command line is one of the ways through which we can interact with SQl, but there are 2 main ways also apart from the command line:  
 > - using the web interface.
 > - Through a programming language.
+
+</blockquote>
 
 </details>
 
@@ -438,11 +546,15 @@ delete from movies where id =20;
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
+<blockquote markdown="1">
+
 > 
 ```sql
 alter table Table_name
 add index(column_name);
 ```
+
+</blockquote>
 
 </details>
 
@@ -454,11 +566,15 @@ add index(column_name);
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
+<blockquote markdown="1">
+
 > 
 ```sql
 alter table order
 drop index author_id;
 ```
+
+</blockquote>
 
 </details>
 
@@ -470,10 +586,14 @@ drop index author_id;
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
+<blockquote markdown="1">
+
 > BLOB is a sub-type of string datatype in SQL and stands for a binary large object.It is used for a large amount of data like documents, images, etc.They are three types:  
 > - TINYBLOB
 > - MEDIUMBLOB
 > - LONGBLOB
+
+</blockquote>
 
 </details>
 
@@ -490,6 +610,8 @@ drop index author_id;
 create user 'Tim' identified by 'password';
 ```
 
+
+</blockquote>
 
 </details>
 
@@ -509,6 +631,8 @@ use database_name;
 show tables;
 ``` 
 
+</blockquote>
+
 </details>
 
 ---
@@ -525,6 +649,8 @@ select * from student
 where state = "Texas";
 ```
 
+</blockquote>
+
 </details>
 
 ---
@@ -539,6 +665,8 @@ where state = "Texas";
 ```sql
 select Name as "First_name" from table_name;
 ```
+
+</blockquote>
 
 </details>
 
@@ -559,6 +687,8 @@ group by class
 having count(id);
 ```
 
+</blockquote>
+
 </details>
 
 ---
@@ -574,6 +704,8 @@ having count(id);
 select count(name) as Name_H_students from student
 where name like 'H%';
 ```
+
+</blockquote>
 
 </details>
 
@@ -601,6 +733,8 @@ select name from student where name like 'AK%';
 select name from student where name like '%SK';
 ```
   
+</blockquote>
+
 </details>
 
 ---
@@ -618,6 +752,8 @@ where salary between 10000 and 50000
 and department = "HR";
 ```
 
+</blockquote>
+
 </details>
 
 ---
@@ -633,6 +769,8 @@ and department = "HR";
 select * from department 
 where year(joined) = 2022 and month(joined) = 2;
 ```
+</blockquote>
+
 </details>
 
 ---
@@ -651,6 +789,8 @@ from Employee
 where Manager_id = 432;
 ```
 
+
+</blockquote>
 
 </details>
 
@@ -672,6 +812,8 @@ where emp_id = 101
 
 ```
 
+</blockquote>
+
 </details>
 
 ---
@@ -691,6 +833,8 @@ from employee
 where id = 121
 );
 ```
+
+</blockquote>
 
 </details>
 
@@ -712,6 +856,8 @@ group by department
 );
 ```
 
+</blockquote>
+
 </details>
 
 ---
@@ -731,6 +877,8 @@ from employee
 );
 
 ```
+</blockquote>
+
 </details>
 
 ---
@@ -747,6 +895,8 @@ select e.name , e.id from employee e , department d
 where e.id = d.id
 and d.department = "product"
 ```
+
+</blockquote>
 
 </details>
 
@@ -767,6 +917,8 @@ where salary not in
 ( select max(salary) from employee
 );
 ```
+</blockquote>
+
 </details>
 
 ---
@@ -784,6 +936,8 @@ where state in ["NY", "Florida", "Alaska"]
 and class in [ "9th", "10th", "11th", "12th"];
 ```
 
+</blockquote>
+
 </details>
 
 ---
@@ -797,6 +951,8 @@ and class in [ "9th", "10th", "11th", "12th"];
 > - Denormalization can be described as the process to get back from all the normalized forms in the table to add some redundant data to it.
 > - It is a good idea to denormalize the tables to do the fast retrieval
 > - When there are multiple small tables and applying joins on those tables will be a costly operation.
+
+</blockquote>
 
 </details>
 
@@ -816,6 +972,8 @@ and class in [ "9th", "10th", "11th", "12th"];
 > - It is used in maintaining old data or historical data.
 
 
+</blockquote>
+
 </details>
 
 ---
@@ -833,6 +991,8 @@ select column_names from table1
 cross join table2 ;
 ```
 
+</blockquote>
+
 </details>
 
 ---
@@ -844,6 +1004,8 @@ cross join table2 ;
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > Yes, we can use the `inner join` without `on` condition in SQL as it is an optional condition in the inner join or joins.If used without one condition, it will generate the same output as `cross join`.
+
+</blockquote>
 
 </details>
 
@@ -863,6 +1025,8 @@ cross join table2
 where table1.id = table2.id;
 ```
 
+</blockquote>
+
 </details>
 
 ---
@@ -881,6 +1045,8 @@ join table1 t2
 on t1.id = t2.emp_id;
 ```
 
+</blockquote>
+
 </details>
 
 ---
@@ -898,6 +1064,8 @@ on t1.id = t2.emp_id;
 > - left Join: It returns matching rows of both the tables plus left out rows from the left table.
 > - right Join: It returns matching rows of both the tables plus left out rows from the right table.
 
+</blockquote>
+
 </details>
 
 ---
@@ -914,6 +1082,8 @@ select name, roll_no,
 mid_term + final_term as Total_marks
 from student;
 ```
+
+</blockquote>
 
 </details>
 
@@ -933,6 +1103,8 @@ left join orders
 on orders.customer_number = customer_number;
 ```
 
+</blockquote>
+
 </details>
 
 ---
@@ -943,6 +1115,8 @@ on orders.customer_number = customer_number;
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
+<blockquote markdown="1">
+
 >  
 ```sql
 select customers.* , orders.* 
@@ -950,6 +1124,8 @@ from customers
 right join orders 
 on customers.id = orders.id;
 ```
+
+</blockquote>
 
 </details>
 
@@ -969,6 +1145,8 @@ full join orders
 on customers.id = orders.order_id;
 ```
 
+</blockquote>
+
 </details>
 
 ---
@@ -985,6 +1163,8 @@ select replace(full_name, " ", "-")
 from employee;
 ```
 
+</blockquote>
+
 </details>
 
 ---
@@ -998,6 +1178,8 @@ from employee;
 > - Union joins the two-table data vertically, whereas full join joins the two table data horizontally.
 > - There are more restrictions when using a union between two tables than using full join.
 > - Union will take only distinct values from both tables, whereas full join combines all the data from both tables.
+
+</blockquote>
 
 </details>
 
@@ -1015,6 +1197,8 @@ select Workers.name from Workers
 inner join Managers
 on Workers.empID = Managers.managerID;
 ```
+
+</blockquote>
 
 </details>
 
@@ -1034,6 +1218,8 @@ group by department
 order by number_of_emp desc;
 ```
 
+</blockquote>
+
 </details>
 
 ---
@@ -1051,6 +1237,8 @@ from contact_details
 group by phoneNo
 having count(phoneNo) > 1;
 ```
+
+</blockquote>
 
 </details>
 
@@ -1070,6 +1258,8 @@ where d1.id > d2.id
 and d1.phoneNo = d2.phoneNo;
 ```
 
+</blockquote>
+
 </details>
 
 ---
@@ -1086,6 +1276,8 @@ select name,
 monthly_salary * 12 as "annual_salary"
 from employee;
 ```
+
+</blockquote>
 
 </details>
 
@@ -1104,6 +1296,8 @@ order by id desc
 limit 3;
 ```
 
+</blockquote>
+
 </details>
 
 ---
@@ -1119,6 +1313,8 @@ limit 3;
 create table employee_2 
 select * from employee;
 ```
+
+</blockquote>
 
 </details>
 
@@ -1136,6 +1332,8 @@ select * from table_name
 limit (select count(*)/2 from table_name);
 ```
 
+</blockquote>
+
 </details>
 
 ---
@@ -1151,6 +1349,8 @@ select * from employee
 where emp_id not in (
 select dept_id from department);
 ```
+
+</blockquote>
 
 </details>
 
@@ -1169,6 +1369,8 @@ from employee
 group by id, name;
 ```
 This will group the table records by id and name and gives us distinct records only.
+</blockquote>
+
 </details>
 
 ---
@@ -1184,6 +1386,8 @@ This will group the table records by id and name and gives us distinct records o
 > - If `where` clause is used in the query, `group by` clause must be placed after it.
 > - If `order by` clause is used in the query, `group by` clause must be placed before it.
 > - Columns mentioned in the select query should either be part of the group by clause or an aggregation function is applied to those columns.
+
+</blockquote>
 
 </details>
 
@@ -1202,6 +1406,8 @@ from employee
 where salary > 40000
 and DOJ like "2019%";
 ```
+
+</blockquote>
 
 </details>
 
@@ -1222,6 +1428,8 @@ having duplicate>1
 order by duplicate;
 ```
 
+</blockquote>
+
 </details>
 
 ---
@@ -1240,6 +1448,8 @@ order by column_name desc
 limit N;
 ```
 
+</blockquote>
+
 </details>
 
 ---
@@ -1255,6 +1465,8 @@ limit N;
 create table new_students
 like students;
 ```
+
+</blockquote>
 
 </details>
 
@@ -1273,6 +1485,8 @@ where id in
 (select id from table_name 
 where id % 2 = 0);
 ```
+
+</blockquote>
 
 </details>
 
@@ -1294,6 +1508,8 @@ join table3
 on table1.column3 = table3.column3;
 ```
 
+</blockquote>
+
 </details>
 
 ---
@@ -1313,6 +1529,8 @@ on e.id = s.id;
 ```
 
 
+</blockquote>
+
 </details>
 
 ---
@@ -1331,6 +1549,8 @@ and employee.id in (
 select id from project);
 ```
 
+</blockquote>
+
 </details>
 
 ---
@@ -1345,6 +1565,8 @@ select id from project);
 > In SQL there is two referential integrity constraint presents:  
 > - Insert Constraint: That says, we cannot insert values in a foreign key table if the value is not present in the primary key table.
 > - Delete Constraint: That says, we cannot delete any value from the primary key table if the value is present in the foreign key table.
+
+</blockquote>
 
 </details>
 
@@ -1364,6 +1586,8 @@ and salary > 50000
 and department = "Finance" 
 or department = "Training";
 ```
+
+</blockquote>
 
 </details>
 
