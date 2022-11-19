@@ -50,10 +50,10 @@ Spring does not manage the complete lifecycle of a prototype bean.
 - If the bean scope is `Request`, then on every request (from same user or different user) a new bean will be created.
 - If the bean scope is `Session` then on every request same bean would be returned if requests are within the same user session also made from a client which is capable of maintaining the session (`curl` command can't maintain the user session unless pass cookie/session identifier header).
 - `Session` beans are not destroyed until session timeout up or session destroyed.
-
-</details>
     
 </blockquote> 
+
+</details>
 
 ---
 

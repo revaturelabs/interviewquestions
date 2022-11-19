@@ -95,6 +95,8 @@
 - Each service runs a unique process and manages its database.
 - A service can generate alerts, log data, support user interfaces (UIs), handle user identification or authentication, and perform various other tasks.
 	
+</blockquote>
+
 </details>
 
 ---

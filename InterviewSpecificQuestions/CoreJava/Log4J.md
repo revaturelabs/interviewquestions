@@ -79,7 +79,7 @@ Following are features of log4j −
 - Logging does have its drawbacks also.It can slow down an application.If too verbose, it can cause scrolling blindness.To alleviate these concerns, log4j is designed to be reliable, fast, and extensible.
 - Since logging is rarely the main focus of an application, the log4j API strives to be simple to understand and to use.
 
-</blockcode>
+</blockquote>
 </details>
 
 ---
