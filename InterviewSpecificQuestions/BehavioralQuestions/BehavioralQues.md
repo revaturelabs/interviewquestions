@@ -1,4 +1,4 @@
-1.	What makes you excited or passionate about software development?
+1.What makes you excited or passionate about software development?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -8,12 +8,12 @@ Sample Answer 1: I want to be a software developer because designing computer pr
 
 Sample answer 2: I am a Mathematics student.In my eyes, Mathematics is the tool used by the nature to communicate with humans.Similarly, programming is the tool used by humans to communicate with computers.It feels like a great achievement when you finally get the code right after weeks of debugging.Seriously, those who have never done programming will never know the feeling.It feels like a savior when you figure out and implement the edge cases beforehand.In short, programming is challenging, gives me thrills, and gives a workout to my brain.That’s why I’m passionate about programming.
 
-</details>
 </blockquote>
+</details>
 
 ------------
  
-2.	What other languages are you interested in learning outside of what you've learned?
+2.What other languages are you interested in learning outside of what you've learned?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -23,13 +23,13 @@ Sample Answer: Related to technical languages and choose an answer on why did yo
 
 Sample answer: I would learn German and Spanish.I choose German because the vocabulary is similar to English.I choose Spanish as its widely spoken.These 2 languages might help me in my career upliftment as well.
  
-</details>
 </blockquote>
+</details>
  
 -----------
 
 
-3.	Tell me about a feature you were responsible for developing in your group work.
+3.Tell me about a feature you were responsible for developing in your group work.
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -37,12 +37,12 @@ Sample answer: I would learn German and Spanish.I choose German because the voca
  
 Sample answer: I created a utility that helps convert the excel data to a format that my company’s platform supports.
 
-</details>
 </blockquote>
+</details>
  
 ------------
  
-4.	What it was, why it was needed, and how you designed the feature?
+4.What it was, why it was needed, and how you designed the feature?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -50,12 +50,12 @@ Sample answer: I created a utility that helps convert the excel data to a format
  
 Sample answer: A conversion utility that converts all the excel data into a specific format, which was manually done earlier, and when we developed this, it saved a lot of time along with accuracy.
  
-</details>
 </blockquote>
+</details>
  
 ------------
 
-5.	Did you have any obstacles in developing this feature? Tell me about them
+5.Did you have any obstacles in developing this feature? Tell me about them
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -63,12 +63,12 @@ Sample answer: A conversion utility that converts all the excel data into a spec
  
 Sample answer: I was developing this utility in my available time and I couldn’t spend my work hours.Hence, was concerned about time management but I managed to complete the utility along with my other project works.
  
-</details>
 </blockquote>
+</details>
  
 --------------
 
-6.	Have you had any challenges with doing group work such as communication?
+6.Have you had any challenges with doing group work such as communication?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -85,13 +85,13 @@ Excessive staff numbers
 Interior competition
 Sample scenario: When I was working with a team of 10 people on a project of content creation, everyone had multiple opinions about executing the task.At times, it led to personal conflicts as well.We, as a team, decided to talk about this and come up with a common strategy that everyone supports and we were successful in accomplishing that.Initially, we had struggled to come up with a common solution due to communication barriers but we figured out ways to resolve and the task is successfully executed.
  
-</details>
 </blockquote>
+</details>
 
 ---------------
 
 
-7.	You are on a client project when someone client-facing approached you about a bug and is holding you responsible for the bug that you did not know existed.After some investigation, you find out that your most recent 
+7.You are on a client project when someone client-facing approached you about a bug and is holding you responsible for the bug that you did not know existed.After some investigation, you find out that your most recent 
 build did not cause the bug.How would you handle or approach this situation?
 
 <details markdown="1">
@@ -100,12 +100,12 @@ build did not cause the bug.How would you handle or approach this situation?
  
 If you are an ethical and empathetic person you own up to this and let the chips fall where they may.You need to ensure that when you notify your client of the fault, you also inform them of how this mistake occurred and how it will never occur again with documented changes in processes and tests to catch any similar issue in the future.Even though the broken code is from someone else and you are not at fault, do not come up with reasons defending your part.Instead, try to take responsibility and come up with solutions to resolve this problem.That way, you portray yourself as a good and responsible team player.
 
-</details>
 </blockquote>
+</details>
  
 -------------
 
-8.	Tell me about yourself and what led you to Revature?
+8.Tell me about yourself and what led you to Revature?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -115,12 +115,12 @@ Sample Answer: Good morning.I want to thank everyone for giving me this golden o
 
 Revature is a well-reputed company with numerous opportunities on learning platforms.It has got a good working environment and the knowledge and career opportunities that Revature provides is much essential for the current industry.Also, Revature’s business model is unique which made me choose them without a second thought.
 
-</details>
 </blockquote>
+</details>
  
 ---------------
  
-9.	What are your strengths and weaknesses?
+9.What are your strengths and weaknesses?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -130,12 +130,12 @@ Sample Answer: To state my strength and weakness can be a little confusing becau
 
 (For the most part, strengths should include your soft skills.This question is mostly asked to check a candidate’s behavioral skills, your technical skills are tested in your technical interview.No, mentioning your weakness will not affect your performance negatively.However, saying that you have no weaknesses will make you sound arrogant.)
 
-</details>
 </blockquote>
+</details>
 
 --------------
 
-10.	How do you react to challenges such as prioritizing parts of the project and conflict resolutions?
+10.How do you react to challenges such as prioritizing parts of the project and conflict resolutions?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -153,12 +153,12 @@ Ways to manage conflict resolution:
 
 Sample answer: When I am assigned a project, I would segregate the project modules based on the stages of development.I will make sure that the phase is streamlined with the execution along with the entire team.Also, regular one-on-one and proper communication would resolve most of the conflicts.
 
-</details>
 </blockquote>
+</details>
 
 -------------
 
-11.	What were your role/responsibilities in your project?
+11.What were your role/responsibilities in your project?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -166,12 +166,12 @@ Sample answer: When I am assigned a project, I would segregate the project modul
 
 (Should get the details from their respective portfolios)
  
-</details>
 </blockquote>
+</details>
 
 -------------
 
-12.	Explain your project.
+12.Explain your project.
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -179,12 +179,12 @@ Sample answer: When I am assigned a project, I would segregate the project modul
  
 (Should get the details from their respective portfolios)
 
-</details>
 </blockquote>
+</details>
  
 -------------
 
-13.	How to resolve conflicts between team members?
+13.How to resolve conflicts between team members?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -192,12 +192,12 @@ Sample answer: When I am assigned a project, I would segregate the project modul
  
 Sample Answer: When faced with a conflict, I like to ask questions and understand my coworker’s perspectives.This helps keep the situation calm and helps them feel like they’re being heard, and after this, I’ve found it’s much easier to come to an agreement or compromise while both staying a lot calmer.
 
-</details>
 </blockquote>
+</details>
 
 ---------------
 
-14.	Tell me about a time when you had a person that was hampering your progress as a team for a project.
+14.Tell me about a time when you had a person that was hampering your progress as a team for a project.
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -206,12 +206,12 @@ Sample Answer: When faced with a conflict, I like to ask questions and understan
 Sample Answer:  "I participated in a fellowship program over the summer as a part of my studies.Through the program, I was able to conduct a research project of my using university resources, like the library's special collections archive, to support my work.I worked alongside three other fellows who were taking part in the program and conducting their projects.We collaborated while forming our research questions, and one of my coworkers was particularly negative about my approach to my project.I wanted to understand her concerns, so I asked her about them in one of our collaborative meetings.
 Unfortunately, she avoided my question.Afterward, I spoke with my research mentor and asked for her guidance.My mentor advised me to speak with my coworker privately, so I invited her to get coffee with me later that day.During our conversation, I asked for her feedback about my project.I realized she was planning on using the same archive as me to support her research and had concerns regarding the availability of the space and resources.I reassured her that she would have access as well, and together we created a schedule that worked for the both of us."
 
-</details>
 </blockquote>
+</details>
 
 --------------
 
-15.	If you had a superpower, what would it be and why?
+15.If you had a superpower, what would it be and why?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -220,12 +220,12 @@ Unfortunately, she avoided my question.Afterward, I spoke with my research mento
 Sample Answer: “My superpower would have to be super-speed, like The Flash.I like to be productive and make the most out of every minute of the day.As it pertains to work, I perform tasks at a torrid pace.This not only keeps me focused and engaged for long periods, but it also allows me to do more than most workers can in a full, 8-hour workday.”
 
 
-</details>
 </blockquote>
+</details>
 
 --------------
 
-16.	Where do you want to see yourself in 3-4 years?
+16.Where do you want to see yourself in 3-4 years?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -235,12 +235,12 @@ Sample Answer 1: I firmly believe in self-development and knowledge enhancement,
 
 Sample Answer 2: In the next five years, I want to see myself as more responsible, knowledgeable, and experienced.I will make sure that I explore skills and used opportunities so that I can contribute and share my knowledge, see myself learning and growing with every experience and last of course want to be happy.
 
-</details>
 </blockquote>
+</details>
 
 --------------
 
-17.	Describe a moment where you failed?
+17.Describe a moment where you failed?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -248,12 +248,12 @@ Sample Answer 2: In the next five years, I want to see myself as more responsibl
 
 Sample Answer: “When I started my first internship, I was overly eager to go the extra mile.I agreed to take on unrealistic deadlines with coworkers.I was late completing at least one task each week, and my coworkers were not happy with me.After that experience, I devised a tracking system to make sure I knew how long each task would realistically take and made sure never to fall behind again.I understand now that it’s better to give a longer timeline and be early than promising the moon and fail to deliver.”
 
-</details>
 </blockquote>
+</details>
 
 ---------------
 
-18.	Describe a time when you had to earn someone's respect/what did that take.
+18.Describe a time when you had to earn someone's respect/what did that take.
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -261,12 +261,12 @@ Sample Answer: “When I started my first internship, I was overly eager to go t
 
 Sample Answer: I believe that respect is something that we must earn through our actions and not demand it.Treating everyone equally, being empathetic, and being courteous would make anyone respect us.All it takes is to treat others in the way that we have to be treated.
 
-</details>
 </blockquote>
+</details>
 
 --------------
 
-19.	Tell me something interesting about your schooling.
+19.Tell me something interesting about your schooling.
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -282,7 +282,7 @@ Sample answer 2: School life is a golden era.For me the memories of school life 
 
 ----------
 
-20.	How to overcome a problem in the project?
+20.How to overcome a problem in the project?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -292,12 +292,12 @@ Sample answer 1: At my current job, a client called late Friday afternoon with a
 
 Sample answer 2: When the software development of our new product stalled, I coordinated the team that managed to get the schedule back on track.We were able to successfully troubleshoot the issues and solve the problems, within a very short period, and without completely burning out our team.I was able to do this by motivating the senior engineering team to brainstorm a technologically innovative solution that would solve the customer’s issues with fewer development hours on our end.
  
-</details>
 </blockquote>
+</details>
 
 -------------
 
-21.	How did you deal with someone not pulling their weight?
+21.How did you deal with someone not pulling their weight?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -307,12 +307,12 @@ Sample answer 1: I had a colleague who always wanted things done his way, invari
 
 Sample answer 2: A team member was finding it difficult to contribute because they were unclear as to what their role was.I helped resolve the situation by creating a more detailed work plan that specified each member's role and responsibilities on the project.
  
-</details>
 </blockquote>
+</details>
  
 -----------
 
-22.	Have you explored outside of your study area? If so, what did you explore?
+22.Have you explored outside of your study area? If so, what did you explore?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -322,11 +322,11 @@ Sample Answer: My outside interests are spending quality time with my family, wa
 
 Sample Answer: Cricket is my outside interest.In my free time, I spend more time on this game.Play and watch cricket matches and spend time with my family.Also, I love to play guitar and like photography.
  
-</details>
 </blockquote>
+</details>
  
 ------------
-23.	Tell me about your previous job experience?
+23.Tell me about your previous job experience?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -336,12 +336,12 @@ Sample answer 1: Most of my professional experience has led me up to this admini
 
 Sample answer 2: The last time I worked as a language assistant, I found the work interesting but sometimes hard.I learned a lot from my work experience.On one occasion I found two boys fighting in the playground.I managed to calm them down by being calm myself.I asked them what had happened and helped them to resolve their fight themselves.I thought that in a situation like that I would get angry myself, and perhaps take sides, but I did not.I think that this was a great lesson for me.
  
-</details>
 </blockquote>
+</details>
  
 ------------
 
-24.	Describe a problem that you had and how did you fix it?
+24.Describe a problem that you had and how did you fix it?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -351,11 +351,11 @@ Sample answer 1: I feel that the best way to deal with any challenges is to meet
 
 Sample answer 2: Once I found a major flaw in the work of one of the most senior members of the department, which could have been very costly to the company if it had been overlooked.I went directly to them and called it to their attention so they could fix it before it affected the outcome.
  
-</details>
 </blockquote>
+</details>
 
 --------------
-25.	How would you handle a client situation where the client was upset with a broken code and the client claimed that you submitted but it was another team member's code?
+25.How would you handle a client situation where the client was upset with a broken code and the client claimed that you submitted but it was another team member's code?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -366,12 +366,12 @@ Sample answer 2: Once I found a major flaw in the work of one of the most senior
 •	Own up and explain what went wrong
 If you are an ethical and empathetic person you own up to this and let the chips fall where they may.You need to ensure that when you notify your client of the fault, you also inform them of how this mistake occurred and how it will never occur again with documented changes in processes and tests to catch any similar issue in the future.Even though the broken code is from someone else and you are not at fault, do not come up with reasons defending your part.Instead, try to take responsibility and come up with solutions to resolve this problem.That way, you portray yourself as a good and responsible team player.
 
-</details>
 </blockquote>
+</details>
  
 -------------
  
-26.	What are the three most important traits for a leader to possess? 
+26.What are the three most important traits for a leader to possess? 
 OR
 What are the 3 main characteristics of a leader?
 
@@ -390,12 +390,12 @@ Sample answer 2:
 •	Execute Strategy
 •	Coach Potential
  
-</details>
 </blockquote>
+</details>
 
 --------------
 
-27.	How do you handle stress?
+27.How do you handle stress?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -405,12 +405,12 @@ Sample answer 1: I'm not a person who has a difficult time with stress.When I'm 
 
 Sample answer 2: When stress does inevitably arise, planning helps me to tackle the situation one step at a time to prioritize what needs to be done efficiently for myself and my colleagues.Some of my best work in streamlining processes has come from stressful situations.
 
-</details>
 </blockquote>
+</details>
  
 ------------
  
-28.	What to do when there is a conflict with a client or stakeholder?
+28.What to do when there is a conflict with a client or stakeholder?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -426,12 +426,12 @@ Sample answer 2: When stress does inevitably arise, planning helps me to tackle 
 •	Approach the problem with empathy
 Sample answer: I actively readjust my attitude during a conflict situation.This means that I strive to listen to the other person’s point of view without becoming defensive.I also attempt to move the confrontation to a private space to avoid further complications
 
-</details>
 </blockquote>
+</details>
  
 ------------ 
 
-29.	What would you do when you didn’t understand a question?
+29.What would you do when you didn’t understand a question?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -440,12 +440,12 @@ Sample answer: I actively readjust my attitude during a conflict situation.This 
 Sample answer 1: “I’m sorry, but I didn’t understand the question.Could you say that again, please?”
 Sample answer 2: “I’m sorry, but I didn’t quite hear you.Could you say that again, please?”
 
-</details>
 </blockquote>
+</details>
  
 -------------
  
-30.	Tell me about a time when you had to use a creative solution to solve a problem while working with others.
+30.Tell me about a time when you had to use a creative solution to solve a problem while working with others.
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -461,12 +461,12 @@ Sample answer 2: “I’m sorry, but I didn’t quite hear you.Could you say tha
 8.Start again
 Sample answer: In my last job, I had to do quite a bit of problem-solving related to our shift scheduling.We had four people quit within a week and the department was severely understaffed.I coordinated a ramp-up of our hiring efforts, I got approval from the department head to offer bonuses for overtime work, and then I found eight employees who were willing to do overtime this month.I think the key problem-solving skills here were taking initiative, communicating clearly, and reacting quickly to solve this problem before it became an even bigger issue.
 
-</details>
 </blockquote>
+</details>
  
 ------------ 
  
-31.	Talk about a time when you had an issue with a coworker, how did you resolve that?
+31.Talk about a time when you had an issue with a coworker, how did you resolve that?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -476,12 +476,12 @@ Sample answer 1: Once, a co-worker and I disagreed on the way an unsatisfied cus
 
 Sample answer 2: I’ve learned that disagreements and conflicts are part of work whether I like it or not.I’ve also learned that, without conflict, there’s no progress.So, if a conflict arises, that means there’s room for progress and scope for improvement in that space.I must tread carefully and take it slowly so as not to offend others or complicate circumstances.I take enough time to assess the situation and once I gain a clear understanding of the situation, I will take care of them to resolve the conflict.
 
-</details>
 </blockquote>
+</details>
  
 ------------- 
  
-32.	If you were asked to switch roles in the company, how would you handle that?
+32.If you were asked to switch roles in the company, how would you handle that?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -491,12 +491,12 @@ Sample answer 1: When I was promoted from sales clerk to store manager, I was ne
 
 Sample answer 2: I manage change by first seeking to understand the reason for the change.I then immediately changed as needed to support the workplace and my team.As someone who seeks ways to improve my work environment, I welcome change.
 
-</details>
 </blockquote>
+</details>
  
 -----------
  
-33.	Talk about a time when you thought you did your best, but it did not work out.
+33.Talk about a time when you thought you did your best, but it did not work out.
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -506,8 +506,8 @@ The best way to answer this question is to talk about a specific example of a ti
 
 Sample Answer: One thing I have learned from past mistakes is when to ask for help.I have learned that it is far better to ask for clarification and solve an issue right away than to be unsure.I know that your company emphasizes teamwork and the need to be in constant communication with one another, and I think my ability to ask (and answer) questions of my peers would help me fit in very well with your company culture.
 
-</details>
 </blockquote>
+</details>
 
 --------------
  

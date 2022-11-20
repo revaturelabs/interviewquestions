@@ -369,7 +369,7 @@ HTML Source refers to the HTML code underlying a certain web element on a web pa
 |---------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | Returns the first most web element if there are multiple web elements found with the same locator | Returns a list of web elements                                                   |
 | Throws exception NoSuchElementException if there are no elements matching the locator strategy    | Returns an empty list if there are no web elements matching the locator strategy |
-| Find element by XPath will only find one web element                                              | It will find a collection of elements that match the locator strategy.       |
+| Find element by XPath will only find one web element                                              | It will find a collection of elements that match the locator strategy.      |
 | Not Applicable                                                                                    | Each Web element is indexed with a number starting from 0 just like an array     |
 | Example: driver.findElement(By.id("no")                                                          | Example: List elements = driver.findElements(By.name("name");                   |
 
@@ -669,9 +669,9 @@ Then expected outcome
 
 | Selenium                                                           | Cucumber                                                                                       |
 |--------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| Selenium is a web browser automation tool for web projects         | Cucumber is a behaviour-driven development automation tool that may be used with Selenium.   |
+| Selenium is a web browser automation tool for web projects         | Cucumber is a behaviour-driven development automation tool that may be used with Selenium.  |
 | Automation tool for E2E tests                                      | Automation tool for BDD tests                                                                  |
-| Selenium is written in programming languages like Java, .Net, etc.| Cucumber is written both in programming language as well as plain text.                     |
+| Selenium is written in programming languages like Java, .Net, etc.| Cucumber is written both in programming language as well as plain text.                    |
 | Requires programming knowledge to understand                       | Easier to read as it is written in both programming language as well as plain readable format.|
 
 </blockquote>
@@ -880,8 +880,7 @@ initElements(): initElements is a static method in Page Factory class.Using the 
 
 41.Difference Between Page Object Model and Page Factory in Selenium.
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
-
+![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
 <blockquote markdown="1">
@@ -1038,9 +1037,9 @@ In Selenium, the Select class provides the implementation of the HTML SELECT tag
 | Black Box Testing                                                                                                                                      | White Box Testing                                                                                          |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
 | The Black Box Test is a test that only considers the external behaviour of the system; the internal workings of the software are not considered.| The White Box Test is a method used to test software taking into consideration its internal functioning.|
-| It is carried out by testers.                                                                                                                       | It is carried out by software developers.                                                               |
-| This method is used in System Testing or Acceptance Testing.                                                                                        | This method is used in Unit Testing or Integration Testing.                                             |
-| No knowledge of implementation is needed.                                                                                                           | Knowledge of implementation is required.                                                                |
+| It is carried out by testers.                                                                                                                      | It is carried out by software developers.                                                              |
+| This method is used in System Testing or Acceptance Testing.                                                                                       | This method is used in Unit Testing or Integration Testing.                                            |
+| No knowledge of implementation is needed.                                                                                                          | Knowledge of implementation is required.                                                               |
 
 </blockquote>
 </details>

@@ -264,7 +264,7 @@ When you generate an Angular application with the Angular CLI, the `app.componen
 </details>
   
 ---
- 
+
  14.What is the difference between `templateUrl` and `template` in the `@Component` decorator?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)

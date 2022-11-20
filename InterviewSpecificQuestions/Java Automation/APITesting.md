@@ -146,7 +146,7 @@ newman run {{collectionUrl}}
 
 9.Is it possible to generate HTML report using Newman?
    
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
+![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 

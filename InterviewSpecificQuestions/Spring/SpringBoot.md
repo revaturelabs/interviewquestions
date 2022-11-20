@@ -111,7 +111,7 @@ public class ProductionConfiguration {
 public class TestConfiguration {
  // ...
 }
-```
+
 - In the normal Spring way, you can use a `spring.profiles.active` environment property to specify which profiles are active.
 - You can specify the property in any of the usual ways, for example, you could include it in your application.properties:
 `spring.profiles.active=test`

@@ -282,7 +282,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 16.What are `Verification` and `Validation` in Software Testing?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
+![Complex]https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -314,7 +314,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 18.Difference between a Bug and a Defect?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
+![Complex]https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -332,7 +332,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 19.Distinguish between `Error`, `Defect`, `Bug` and `Failure`?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
+![Complex]https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -351,7 +351,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 20.What is Defect/Bug Life Cycle in Software Testing?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
+![Complex]https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -652,7 +652,7 @@ STLC defines a series of activities performed during testing to ensure the quali
 
 38.How do Priority and Severity Metrix help to decide the impact of defects in Software Testing?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
+![Complex]https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
@@ -839,7 +839,7 @@ with those solutions.
 
 48.Developers can test their own code using TDD, then why Testers are needed?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
+![Complex]https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -855,7 +855,7 @@ with those solutions.
 
 49.What is the significance of the Test Plan?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
+![Complex]https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -879,7 +879,7 @@ with those solutions.
 
 50.What is the significance of the Test Strategy?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
+![Complex]https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -1009,7 +1009,7 @@ with those solutions.
 
 54.Name a few parameters monitored during Performance Testing.
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
+![Complex]https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -1135,7 +1135,7 @@ A few parameters which are monitored during Performance Testing are listed below
 
 61.Can we do Data-Driven Testing using JUnit?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
+![Complex]https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 

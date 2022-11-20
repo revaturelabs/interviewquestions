@@ -70,11 +70,11 @@ Component of Spark:
 
 <blockquote markdown="1">
 
-1.	$ Hadoop fs -put /local-file-path / huffs-file-path
+  1.	$ Hadoop fs -put /local-file-path / huffs-file-path
         
     or
 
-3.	$ huffs dfs -put /local-file-path /huffs-file-path
+  2.	$ huffs dfs -put /local-file-path /huffs-file-path
 
 <details markdown="1"> <summary><b>Explanation</b></summary>
 

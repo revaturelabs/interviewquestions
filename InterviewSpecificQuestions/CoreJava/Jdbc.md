@@ -515,6 +515,8 @@ We must register the OUT parameters before executing the CallableStatement.
 
 </details>
 
+---
+
 21.When "No suitable driver" error occurs in java?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)

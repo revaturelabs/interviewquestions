@@ -328,6 +328,8 @@ It refers to the settings.xml to look for the repositories to look for the resou
 </blockquote>
 </details>
 
+---
+
 22.How can we look into the Dependencies for the project and where they are defined ?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)

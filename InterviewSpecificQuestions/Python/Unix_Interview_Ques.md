@@ -244,7 +244,7 @@ Performance wise also `printf` is faster in execution than `echo` command.
 </details>
 
 ---
-21.which command is used to give information about block devices like hard drives, flash drives, CD-ROMs?
+21.Which command is used to give information about block devices like hard drives, flash drives, CD-ROMs?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 

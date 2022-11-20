@@ -624,6 +624,9 @@ class Hummingbird implements Bird { ...}
 class Bellbird implements Bird { ...}
 ;
 ```
+</blockquote>
+</details>
+
 ---
 
 32.Can u explain a bit about Enum in TypeScript?

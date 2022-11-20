@@ -99,7 +99,7 @@
 ------
 
 
-6.	What is lazy initialization in the Java Persistence?
+6.What is lazy initialization in the Java Persistence?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -197,7 +197,7 @@ public class OrderDetail implements Serializable {
 
 ------
 
-9.	Explain dialect in the context of Hibernate?
+9.Explain dialect in the context of Hibernate?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -215,7 +215,7 @@ public class OrderDetail implements Serializable {
 ------
 
 
-10.	What are all the JDBC information that you need to configure in the hibernate configuration file?
+10.What are all the JDBC information that you need to configure in the hibernate configuration file?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -254,7 +254,7 @@ public class OrderDetail implements Serializable {
 ------
 
 
-11.	Can you change the hibernate configuration file name to a different file name from its default name? If so, how your application knows the non-default file name?
+11.Can you change the hibernate configuration file name to a different file name from its default name? If so, how your application knows the non-default file name?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -273,7 +273,7 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 ------
 
 
-12.	What should I do to automatically create the database schemas from configuration file or annotation information in Hibernate?
+12.What should I do to automatically create the database schemas from configuration file or annotation information in Hibernate?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -295,7 +295,7 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 ------
 
 
-13.	Can we have an entity bean in Hibernate without default or no-argument constructor?
+13.Can we have an entity bean in Hibernate without default or no-argument constructor?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -331,7 +331,7 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 ------
 
 
-15.	In the hibernate mapping file, can we skip the column property of <property> element?
+15.In the hibernate mapping file, can we skip the column property of <property> element?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -349,7 +349,7 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 ------
 
 
-16.	What are all the hibernate mapping types? Why they exist?
+16.What are all the hibernate mapping types? Why they exist?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -376,7 +376,7 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 ------
 
 
-17.	How is Java reflection used in hibernate mapping?
+17.How is Java reflection used in hibernate mapping?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -401,7 +401,7 @@ cls.getField("xyz").getAnnotation(ManyToMany.class).mappedBy
 ------
 
 
-18.	How can we increase the hibernate start-up performance?
+18.How can we increase the hibernate start-up performance?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -421,7 +421,7 @@ cls.getField("xyz").getAnnotation(ManyToMany.class).mappedBy
 ------
 
 
-19.	How SessionFactory gets the hibernate metadata?
+19.How SessionFactory gets the hibernate metadata?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -441,7 +441,7 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 ------
 
 
-20.	SessionFactory is a thread-safe object? Can you explain what it is?
+20.SessionFactory is a thread-safe object? Can you explain what it is?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -459,7 +459,7 @@ Yes, because all the methods of SessionFactory is synchronized so at a time it w
 ------
 
 
-21.	What is session in hibernate and how it is created?
+21.What is session in hibernate and how it is created?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -479,7 +479,7 @@ Yes, because all the methods of SessionFactory is synchronized so at a time it w
 ------
 
 
-22.	Write the code snippet that creates a hibernate session and stores an object to the database.Assume that the SessionFactory object is available with the variable sessionFactory.
+22.Write the code snippet that creates a hibernate session and stores an object to the database.Assume that the SessionFactory object is available with the variable sessionFactory.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -504,7 +504,7 @@ session.save(entity class object);
 ------
 
 
-23.	Do you see any advantage of using annotations in hibernate rather than mapping file? Brief about it.
+23.Do you see any advantage of using annotations in hibernate rather than mapping file? Brief about it.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -526,7 +526,7 @@ What advantages I see in using @Annotations:
 ------
 
 
-24.	Can we use JPA syntax / annotation in hibernate? If not, why and if so, why?
+24.Can we use JPA syntax / annotation in hibernate? If not, why and if so, why?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -544,7 +544,7 @@ Yes, we can use because JPA is a specification.So, we can use all its annotation
 ------
 
 
-25.	Its advised to create only one SessionFactory object for a database in hibernate, why?
+25.Its advised to create only one SessionFactory object for a database in hibernate, why?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -572,7 +572,7 @@ SessionFactory sc=cfg.buildSessionFactory();
 
 ------
 
-26.	What are first-level cache and second-level cache in hibernate?
+26.What are first-level cache and second-level cache in hibernate?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -591,7 +591,7 @@ SessionFactory sc=cfg.buildSessionFactory();
 ------
 
 
-27.	Why hibernate class or attributes are recommended to be non-final members or class? 
+27.Why hibernate class or attributes are recommended to be non-final members or class? 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -619,7 +619,7 @@ Being only accesible through accessor or business methods allow interception in 
 ------
 
 
-28.	What is field based access and property-based access of table fields?
+28.What is field based access and property-based access of table fields?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -679,7 +679,7 @@ When using property-based access, Hibernate uses the accessors for both reading 
 ------
 
 
-29.	Which relationship annotation is direct equivalent to foreign key relationship in tables?
+29.Which relationship annotation is direct equivalent to foreign key relationship in tables?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -697,7 +697,7 @@ When using property-based access, Hibernate uses the accessors for both reading 
 ------
 
 
-30.	Give an example of unidirectional @OneToMany relationship.
+30.Give an example of unidirectional @OneToMany relationship.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -739,7 +739,7 @@ Text.java
 ------
 
 
-31.	How to map collection of values to an entity, in hibernate?
+31.How to map collection of values to an entity, in hibernate?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -807,7 +807,7 @@ public class Task {
 ------
 
 
-32.	Can you elaborate the states of persistent context?
+32.Can you elaborate the states of persistent context?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -825,7 +825,7 @@ public class Task {
 ------
 
 
-33.	Explain HQL vs SQL.
+33.Explain HQL vs SQL.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -853,7 +853,7 @@ can be changed.
 ------
 
 
-34.	What is transaction and how it is achieved in hibernate?
+34.What is transaction and how it is achieved in hibernate?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -908,7 +908,7 @@ can be changed.
 ------
 
 
-35.	Hibernate Criteria query, have you used it? If so, explain about it.
+35.Hibernate Criteria query, have you used it? If so, explain about it.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
