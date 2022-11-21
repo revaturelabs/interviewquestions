@@ -55,7 +55,6 @@ Component of Spark:
 3.	Machine Learning 
 4.	Graphx
 
-![Example](Spark.JPG)
 
 </blockquote>
 
@@ -71,11 +70,11 @@ Component of Spark:
 
 <blockquote markdown="1">
 
-1.	$ Hadoop fs -put /local-file-path / huffs-file-path
+1.$ Hadoop fs -put /local-file-path / huffs-file-path
         
     or
 
-3.	$ huffs dfs -put /local-file-path /huffs-file-path
+2.$ huffs dfs -put /local-file-path /huffs-file-path
 
 <details markdown="1"> <summary><b>Explanation</b></summary>
 
@@ -133,9 +132,9 @@ To copy a file from the local file system to HDFS, use Hadoop fs -put or hdfs df
 
 <blockquote markdown="1">
 
-A list of nodes that replicate the log is Replicas.Especially, for a particular partition.However, they are irrespective of whether they play the role of the Leader.
+- A list of nodes that replicate the log is Replicas.Especially, for a particular partition.However, they are irrespective of whether they play the role of the Leader.
 
-In addition, ISR refers to In-Sync Replicas.On defining ISR, it is a set of message replicas that are synced to the leaders.
+- In addition, ISR refers to In-Sync Replicas.On defining ISR, it is a set of message replicas that are synced to the leaders.
 
 </blockquote>
 
@@ -171,7 +170,7 @@ In addition, ISR refers to In-Sync Replicas.On defining ISR, it is a set of mess
 
 <blockquote markdown="1">
 
-Yes.
+   Yes
 - Aggregate functions are one of these features in SQL functions.It is a very powerful feature for me as an MS Excel.Aggregate functions are not specific to SQL, they are used often.They are part of the SELECT statement, and this allows us to have all benefits of SELECT (joining tables, filtering only rows and columns we need), combined with the power of these functions.
 
 <details markdown="1"><summary> Explanation </summary>
@@ -205,33 +204,34 @@ Space utilization between 60 % to 70 %
 
 <details markdown="1"><summary> Explanation </summary>
 
-Let’s do some calculations to find the number of data nodes required to store 600 TB of data:
-Rough calculation:
-Data Size – 600 TB
-Replication factor – 3
-Intermediate data – 1
-Total Storage requirement – (3+1) * 600 = 2400 TB
-Available disk size for storage – 8 TB
-Total number of required data nodes (approx.): 2400/8 = 300 machines
-Actual Calculation: Rough Calculation + Disk space utilization + Compression ratio
-Disk space utilization – 65 % (differs from business to business)
-Compression ratio – 2.3
-Total Storage requirement – 2400/2.3 = 1043.5 TB
-Available disk size for storage – 8*0.65 = 5.2 TB
-Total number of required data nodes (approx.): 1043.5/5.2 = 201 machines
-Actual usable cluster size (100 %): (201*8*2.3)/4 = 925 TB
-Case: Business has predicted 20 % data increase in a quarter and we need to predict the new machines to be added in a year
-Data increase – 20 % over a quarter
-Additional data:
-1st quarter: 1043.5 * 0.2 = 208.7 TB
-2nd quarter: 1043.5 * 1.2 * 0.2 = 250.44 TB
-3rd quarter: 1043.5 * (1.2)^2 * 0.2 = 300.5 TB
-4th quarter: 1043.5 * (1.2)^3 * 0.2 = 360.6 TB
-Additional data nodes requirement (approx.):
-1st quarter: 208.7/5.2 = 41 machines
-2nd quarter: 250.44/5.2 = 49 machines
-3rd quarter: 300.5/5.2 = 58 machines
-4th quarter: 360.6/5.2 = 70 machines
+Let’s do some calculations to find the number of data nodes <br>
+required to store 600 TB of data:<br>
+Rough calculation:<br>
+Data Size – 600 TB<br>
+Replication factor – 3<br>
+Intermediate data – 1<br>
+Total Storage requirement – (3+1) * 600 = 2400 TB<br>
+Available disk size for storage – 8 TB<br>
+Total number of required data nodes (approx.): 2400/8 = 300 machines<br>
+Actual Calculation: Rough Calculation + Disk space utilization + Compression ratio<br>
+Disk space utilization – 65 % (differs from business to business)<br>
+Compression ratio – 2.3<br>
+Total Storage requirement – 2400/2.3 = 1043.5 TB<br>
+Available disk size for storage – 8*0.65 = 5.2 TB<br>
+Total number of required data nodes (approx.): 1043.5/5.2 = 201 machines<br>
+Actual usable cluster size (100 %): (201*8*2.3)/4 = 925 TB<br>
+Case: Business has predicted 20 % data increase in a quarter and we need to predict the new machines to be added in a year<br>
+Data increase – 20 % over a quarter<br>
+Additional data:<br>
+1st quarter: 1043.5 * 0.2 = 208.7 TB<br>
+2nd quarter: 1043.5 * 1.2 * 0.2 = 250.44 TB<br>
+3rd quarter: 1043.5 * (1.2)^2 * 0.2 = 300.5 TB<br>
+4th quarter: 1043.5 * (1.2)^3 * 0.2 = 360.6 TB<br>
+Additional data nodes requirement (approx.):<br>
+1st quarter: 208.7/5.2 = 41 machines<br>
+2nd quarter: 250.44/5.2 = 49 machines<br>
+3rd quarter: 300.5/5.2 = 58 machines<br>
+4th quarter: 360.6/5.2 = 70 machines<br>
 With these numbers, you can predict next year’s additional machines required for the cluster (last quarter + 24), (last quarter + 28) and so on.
 
 </details>
@@ -250,13 +250,13 @@ With these numbers, you can predict next year’s additional machines required f
 
 <blockquote markdown="1">
 
-The default block size is 64 MB in Hadoop 1x and 128 MB in Hadoop 2x whereas in such a scenario let us consider block size to be 100 MB which means that we are going to have 5 blocks replicated 3 times (default replication factor).
+- The default block size is 64 MB in Hadoop 1x and 128 MB in Hadoop 2x whereas in such a scenario let us consider block size to be 100 MB which means that we are going to have 5 blocks replicated 3 times (default replication factor).
 
 <details markdown="1"><summary> Explanation </summary>
 
-We have 5 blocks (A/B/C/D/E) for a file, a client, a namenode and a datanode.So, first the client will take Block A and will approach namenode for datanode location to store this block and the replicated copies.Once the client is aware of the datanode information, it will directly reach out to datanode and start copying Block A which will be simultaneously replicated to other 2 datanodes.Once the block is copied and replicated to the datanodes, the client will get the confirmation about the Block A storage and then, it will initiate the same process for the  next block “Block B”.
+- We have 5 blocks (A/B/C/D/E) for a file, a client, a namenode and a datanode.So, first the client will take Block A and will approach namenode for datanode location to store this block and the replicated copies.Once the client is aware of the datanode information, it will directly reach out to datanode and start copying Block A which will be simultaneously replicated to other 2 datanodes.Once the block is copied and replicated to the datanodes, the client will get the confirmation about the Block A storage and then, it will initiate the same process for the  next block “Block B”.
 
-So, during this process if 1st block of 100 MB is written to HDFS and the next block has been started by the client to store then 1st block will be visible to readers.Only the current block being written will not be visible to the readers.
+- So, during this process if 1st block of 100 MB is written to HDFS and the next block has been started by the client to store then 1st block will be visible to readers.Only the current block being written will not be visible to the readers.
 
 </details>
 
@@ -399,10 +399,10 @@ We should have some minimum requirements for the CRUD operation using ACID prope
 <details markdown="1"><summary> Explanation </summary>
 
 Following operations need to be enabled to used CRUD operation:
-•	The version of Hive should be minimum 0.14 and above
-•	File format must be in ORC file format with TBLPROPERTIES(‘transactional’=’true’)
-•	Table on which you want to perform the update and delete operation must be CLUSTERED BY with some Buckets
-•	Properties (explained below) must be enabled.You can add these properties in Hive-Site.xml for the global changes or on the command like for the session changes.
+- The version of Hive should be minimum 0.14 and above
+- File format must be in ORC file format with TBLPROPERTIES(‘transactional’=’true’)
+- Table on which you want to perform the update and delete operation must be CLUSTERED BY with some Buckets
+- Properties (explained below) must be enabled.You can add these properties in Hive-Site.xml for the global changes or on the command like for the session changes.
 
 </details>
 
@@ -576,7 +576,7 @@ Failure detection and recovery in hadoop happens at a task level itself.Suppose 
 
 <details markdown="1"><summary> Explanation </summary>
 
-The reasons being -
+The reasons being:
 
 - Checkpointing requires the intermediate state to be saved on a stable storage.For an application like mapreduce, which produces a lot of intermediate results, this would severely affect the performance of the application.
 - Maintaining checkpoint information requires a lot of bandwidth and resources, which again is a bottleneck for mapreduce applications.
@@ -669,7 +669,7 @@ Hadoop cluster has 5 daemons.
 
 - We can stop the NameNode individually using Command like :
 /sbin/hadoop-daemon.sh
-After that start the NameNode using command like:
+- After that start the NameNode using command like:
 /sbin/hadoop-daemon.sh
 
 </blockquote>
@@ -703,6 +703,7 @@ It is used to check if a specific daemon is up or not as well as It is processes
 <blockquote markdown="1">
 
 Yes!
+
 It is possible to the copy files across the multiple Hadoop clusters, and this can be achieved using distributed copy.
 
 </blockquote>
@@ -881,8 +882,9 @@ Hive Metastore allow multiple users at the same time.
 
 <blockquote markdown="1">
 
-Hdfs is easy and efficient for handling a large number of data sets.
-It is used to maintained single file as compared to the small chunks of data stored in multiple files.
+- Hdfs is easy and efficient for handling a large number of data sets.
+
+- It is used to maintained single file as compared to the small chunks of data stored in multiple files.
 
 </blockquote>
 
@@ -953,9 +955,10 @@ It holds the data , that data must be analyzed and dimension table stores data a
 
 <blockquote markdown="1">
 
-Basically Fact table works the dimension tables.
+- Basically Fact table works the dimension tables.
 It holds the data , that data must be analyzed and dimension table stores data about the ways in which the data in the fact table can be analyzed.
-It is stored the report labels whereas Dimension table contains detailed data.
+
+- It is stored the report labels whereas Dimension table contains detailed data.
 
 </blockquote>
 
@@ -1161,9 +1164,9 @@ Hadoop-metrics properties file  is used to control the reporting for hadoop.
 
 <blockquote markdown="1">
 
-1.stop zookeeper & Kafka server, 
-2.then go to 'kafka-logs' folder , there you will see list of kafka topic folders, delete folder with topic name 
-3.go to 'zookeeper-data' folder , delete data inside that.
+1.stop zookeeper & Kafka server,<br> 
+2.then go to 'kafka-logs' folder , there you will see list of kafka topic folders, delete folder with topic name<br>
+3.go to 'zookeeper-data' folder , delete data inside that.<br>
 
 </blockquote>
 
@@ -1271,6 +1274,7 @@ Storage memory is used for caching purposes and execution memory is acquired for
 <blockquote markdown="1">
 
 sparkContext:
+
 Spark Context is an entry point to Spark.It is used to programmatically create Spark RDD, accumulators, and broadcast variables on the cluster.
 SparkContext in spark-shell:
 
@@ -1296,13 +1300,17 @@ use this to create Spark RDD.
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 Spark Session is introduced to use in a combined class for different contexts, we used to have in SQL Context as well as Hive Context.
+
 It is a entry point of Spark which is used to creating a Spark Session.It will be created using Sparksession.builder ().
+
 It includes all the APIs available in different contexts –
-•	Spark Context,
-•	SQL Context,
-•	Streaming Context,
-•	Hive Context.
+- Spark Context,
+- SQL Context,
+- Streaming Context,
+- Hive Context.
 
 SparkSession in spark-shell:
 
@@ -1322,9 +1330,8 @@ SparkSession in spark-shell:
 
 <details markdown="1"><summary> Show Answer </summary>
 
-Class path will contains the list of directories containing jar files required to stop/start daemons.
+> Class path will contains the list of directories containing jar files required to stop/start daemons.
 
-</blockquote>
 
 </details>
 
@@ -1337,9 +1344,11 @@ Class path will contains the list of directories containing jar files required t
 
 <details markdown="1"><summary> Show Answer </summary>
 
-stop-dfs.sh   - shutdown the DFS daemons.
-start-mapred.sh  - start the map-reduce daemons.
-start-all.sh  - start the all hadoop daemons.
+<blockquote markdown="1">
+
+stop-dfs.sh   - shutdown the DFS daemons.<br>
+start-mapred.sh  - start the map-reduce daemons.<br>
+start-all.sh  - start the all hadoop daemons.<br>
 
 <details markdown="1"><summary> Explanation </summary>
 
@@ -1361,9 +1370,8 @@ start-all.sh  - start the all hadoop daemons.
 
 <details markdown="1"><summary> Show Answer </summary>
 
-we store all the hostnames with their IP addresses in /etc./hosts so, that we can use hostnames easily instead of the IP addresses.
+- we store all the hostnames with their IP addresses in /etc./hosts so, that we can use hostnames easily instead of the IP addresses.
 
-</blockquote>
 
 </details>
 
@@ -1374,6 +1382,8 @@ we store all the hostnames with their IP addresses in /etc./hosts so, that we ca
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 Yes , it is possible to input multiple files in the same directory.
 
@@ -1396,6 +1406,8 @@ hadoop doesn’t read the directory recursively.Suppose , multiple input files l
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 Yes.
 
 Basically, Sqoop  is used as a tool to transfer data between Hadoop and Relational Database servers.
@@ -1412,8 +1424,10 @@ Basically, Sqoop  is used as a tool to transfer data between Hadoop and Relation
 
 <details markdown="1"><summary> Show Answer </summary>
 
-Yes.
-Example:
+<blockquote markdown="1">
+
+Yes.<br>
+Example:<br>
 Amazon Web Services (AWS), Google Cloud Platform, Alibaba, Microsoft Azure, and IBM Bluemix etc.
 
 </blockquote>
@@ -1427,6 +1441,8 @@ Amazon Web Services (AWS), Google Cloud Platform, Alibaba, Microsoft Azure, and 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 Kafka is a distributed system is built to use Zookeeper.Basically, it is main used to build coordination between different nodes in a cluster.It is also use Zookeeper to recover from previously committed offset if any node fails because it works as periodically commit offset.
 
@@ -1442,10 +1458,12 @@ Kafka is a distributed system is built to use Zookeeper.Basically, it is main us
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 Three ways to create a DataFrame in Spark: 
-•	Create a list and parse it as a DataFrame using the toDataFrame() method from the SparkSession .
-•	Convert an RDD to a DataFrame using the toDF() method.
-•	Import a file into a SparkSession as a DataFrame directly.
+- Create a list and parse it as a DataFrame using the toDataFrame() method from the SparkSession .
+- Convert an RDD to a DataFrame using the toDF() method.
+- Import a file into a SparkSession as a DataFrame directly.
 
 </blockquote>
 
@@ -1473,6 +1491,8 @@ Kafka consumers is a part of a consumer group.When multiple consumers are subscr
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 Having 128MB(huge) block size is to minimize the cost of seek and reduce the data information generated to per block.
 
 </blockquote>
@@ -1487,6 +1507,7 @@ Having 128MB(huge) block size is to minimize the cost of seek and reduce the dat
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 If we want to write a file in HDFS , we need to interact with namenode.
 Basicaly Namenode is used to provides the address of a datanode.
@@ -1504,6 +1525,8 @@ now datanode will create the data write pipeline.
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 If we want to read a file in HDFS , we need to interact with namenode.
 Basically Namenode is used to provides the address of a datanode.
 Now it will interact directly with the respective datanodes to read the data blocks.
@@ -1520,6 +1543,8 @@ Now it will interact directly with the respective datanodes to read the data blo
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 It  is a signal from Datanode to Namenode to indicate that it is alive.
 
 </blockquote>
@@ -1534,6 +1559,8 @@ It  is a signal from Datanode to Namenode to indicate that it is alive.
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 - Step 1: We can use Hive table to create as well as insert data.Or,  We can use below command to get the current time which will act as batch time in hive table:
 
@@ -1555,6 +1582,8 @@ df.withColumn(“batchtime”,lit(batchtime)
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 With the help of  monotonically_increasing_id()
 
 </blockquote>
@@ -1569,6 +1598,8 @@ With the help of  monotonically_increasing_id()
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 Hadoop fs – get hdfsdir local dir
 
 </blockquote>
@@ -1582,6 +1613,8 @@ Hadoop fs – get hdfsdir local dir
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 - Yarn application -list
 
@@ -1599,6 +1632,8 @@ Hadoop fs – get hdfsdir local dir
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 Using Parquet file in hive.After that we can deleting the old HDFS data and then Create a partition in hive.
 
 </blockquote>
@@ -1612,6 +1647,8 @@ Using Parquet file in hive.After that we can deleting the old HDFS data and then
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 Hadoop comes to rescue for various problems like storage, NoSQL, Datawarehouse, data ingestion, fault tolerance, maintaining configuration information, naming, providing distributed synchronization, and providing group services.
 
@@ -1627,6 +1664,7 @@ Hadoop comes to rescue for various problems like storage, NoSQL, Datawarehouse, 
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 - Spark is made public and freely available for the people to access and contribute as well
 - It is a Unified analytics engine which is used for Common processing engine to combine data across different channels and convert it into a consumable manner that is ready for analysis.
@@ -1643,6 +1681,8 @@ Hadoop comes to rescue for various problems like storage, NoSQL, Datawarehouse, 
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 It is used to chooses closer Datanodes based on the rack information.Which helps to improve the network traffic while reading/writing HDFS files in large clusters of Hadoop.Rack-Awareness is to prevent data loss if the entire rack fails.It also improves network bandwidth.
 
 </blockquote>
@@ -1656,6 +1696,8 @@ It is used to chooses closer Datanodes based on the rack information.Which helps
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 In the Hadoop the default block size is 128 MB.
 
@@ -1677,6 +1719,8 @@ In HDFS data is stored in the terms of Block.It is the size of the file that get
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 
 - Run the fsck command on namenode as $HDFS_USER: su - hdfs -c "hdfs fsck / -files -blocks -locations > dfs-new-fsck-1.log" .
 - Run hdfs namespace and report.
@@ -1696,6 +1740,8 @@ In HDFS data is stored in the terms of Block.It is the size of the file that get
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 The HDFS balancer re-balances data across the DataNodes, moving blocks from the overutilized to underutilized nodes.As the system administrator, we can run the balancer from the command-line as necessary.for example, after adding the new DataNodes to the cluster.
 
 </blockquote>
@@ -1709,6 +1755,8 @@ The HDFS balancer re-balances data across the DataNodes, moving blocks from the 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 The responsibilities of a Hadoop admin include deploying a hadoop cluster, maintaining a hadoop cluster, adding and the removing nodes using cluster monitoring tools like Ganglia Nagios or Cloudera Manager, configuring the NameNode high availability and keeping a track of all the running hadoop jobs.
 
@@ -1724,6 +1772,8 @@ The responsibilities of a Hadoop admin include deploying a hadoop cluster, maint
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 Kerberos was designed to the provide secure authentication to services over an insecure network.Kerberos uses tickets to authenticate a user and the completely avoids sending passwords across the network.
 
 </blockquote>
@@ -1737,6 +1787,8 @@ Kerberos was designed to the provide secure authentication to services over an i
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 We can configure the maximum number of times a particular map or reduce the task can fail before the entire job fails through the following properties:
 - mapred.map.max.attempts - The maximum number of attempts per map task.
@@ -1754,6 +1806,8 @@ We can configure the maximum number of times a particular map or reduce the task
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 FsImage is a file stored on the OS filesystem that contains the complete directory structure namespace of the HDFS with details about the location of the data on the Data Blocks and the which blocks are stored on the which node.This file is used by the NameNode when it is started.
 
 </blockquote>
@@ -1767,6 +1821,8 @@ FsImage is a file stored on the OS filesystem that contains the complete directo
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 
 Pig, is a repository of user-submitted UDF, contains a custom loader function CommonLogLoader to load Apache's Common Log Format files into pig.
@@ -1783,6 +1839,8 @@ Pig, is a repository of user-submitted UDF, contains a custom loader function Co
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 Use filters to temporarily hide some of the data in a table, so you can focus on the data you want to see.
 
 </blockquote>
@@ -1797,6 +1855,8 @@ Use filters to temporarily hide some of the data in a table, so you can focus on
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 Flume is an open-source, powerful, reliable, and flexible system used to collect, aggregate and move large amounts of unstructured data from multiple data sources into HDFS/Hbase (for example) in a distributed fashion via its strong coupling with the Hadoop cluster.
 
 </blockquote>
@@ -1810,6 +1870,8 @@ Flume is an open-source, powerful, reliable, and flexible system used to collect
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 
 - Map Reduce Jobs are split into task whereas Task tracker runs each task on a fixed number of map and reduce slots inside a data node based on a static configuration.
@@ -1832,6 +1894,8 @@ In Hadoop 1.0 we need to specify in mapred-site.xml the following parameter to C
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 We are used to connected through the  Read and write operation is through network only.If the network is down then only connectivity between the NameNode and Standby Name Node will be lost.
 
 </blockquote>
@@ -1847,6 +1911,8 @@ We are used to connected through the  Read and write operation is through networ
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 The minimum number of the nodes that is required is 3.
 
 </blockquote>
@@ -1861,6 +1927,8 @@ The minimum number of the nodes that is required is 3.
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 Install Hadoop cluster in a  production mode which help us to setup the cluster easily.It is extremely important for a Hadoop admin to tune the Hadoop cluster setup to gain maximum performance.
 
 </blockquote>
@@ -1874,6 +1942,8 @@ Install Hadoop cluster in a  production mode which help us to setup the cluster 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 When the JobTracker submits jobs to the TaskTracker and the tasks on that the node have failed too many times, the JobTracker will blacklisted a TaskTracker.
 
@@ -1895,6 +1965,7 @@ Dead Node , which are not in the cluster or configure but not showing into the c
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 - Blocksize=128 MB, Replication=1.
 - Cluster capacity in MB: 200 * 24,000,000 MB = 4,800,000,000 MB (4800 TB).
@@ -1914,6 +1985,7 @@ Dead Node , which are not in the cluster or configure but not showing into the c
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 The cluster could be in a safe mode after the restart of a namenode.The administrator needs to wait for the namenode to exit the safe mode before restarting the jobs again.
 
@@ -1930,6 +2002,7 @@ The cluster could be in a safe mode after the restart of a namenode.The administ
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 - Step1: Decommission the DataNode role.When asked to select the role instance to decommission, select the DataNode role instance.
 - Step2: Stop the DataNode role.
@@ -1948,7 +2021,9 @@ The cluster could be in a safe mode after the restart of a namenode.The administ
 
 <details markdown="1"><summary> Show Answer </summary>
 
-if Namenode is down then data requested by the client and gives the block information.JobTracker is responsible for the job to be completed and the allocation of resources to the job.
+<blockquote markdown="1">
+
+If Namenode is down then data requested by the client and gives the block information.JobTracker is responsible for the job to be completed and the allocation of resources to the job.
 
 </blockquote>
 
@@ -1961,6 +2036,8 @@ if Namenode is down then data requested by the client and gives the block inform
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 
 There could be a separate configuration file for configuring the properties of these and job ACLs are checked for authorizing view and the modification of jobs.
@@ -1977,6 +2054,8 @@ There could be a separate configuration file for configuring the properties of t
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 To create the HDFS home directory [i.e../user/] on edge node.
 
 </blockquote>
@@ -1990,6 +2069,8 @@ To create the HDFS home directory [i.e../user/] on edge node.
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 
 It will reduce the job execution time; however, the clustering efficiency is affected due to duplicate tasks.
@@ -2006,6 +2087,8 @@ It will reduce the job execution time; however, the clustering efficiency is aff
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 
 Serialization is the process of the converting an object into a stream of bytes to store the object or transmit it to memory, a database, or a file.
 
@@ -2020,6 +2103,8 @@ Serialization is the process of the converting an object into a stream of bytes 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 
 - Use Insert Overwrite and DISTINCT Keyword.
@@ -2039,6 +2124,7 @@ Serialization is the process of the converting an object into a stream of bytes 
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 We need to read a lines, count the number of commas and the number of tabs and compare them.If there's 20 commas and no tabs, it's in the CSV.If there's 20 tabs and 2 commas , it's in TSV.
 
@@ -2054,6 +2140,7 @@ We need to read a lines, count the number of commas and the number of tabs and c
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 The COGROUP operator works more or less in the same way as the GROUP operator.The only difference between the two operators is that the group operator is normally used with one relation, while the cogroup operator is used in the statements involving two or more relations.
 
@@ -2069,6 +2156,7 @@ The COGROUP operator works more or less in the same way as the GROUP operator.Th
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 We will use a Inner Join to join a two big table in Hive.
 
@@ -2084,6 +2172,7 @@ We will use a Inner Join to join a two big table in Hive.
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 Flume agent configuration is stored in a local configuration file.Configurations for that the one or more agents can be specified in the same configuration file.
 
@@ -2099,6 +2188,7 @@ Flume agent configuration is stored in a local configuration file.Configurations
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 The following syntax is used to import data into HDFS.
 
@@ -2118,6 +2208,7 @@ The following syntax is used to import data into HDFS.
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 Number of mappers indicates how parallel our Sqoop job is running .
 
@@ -2133,6 +2224,8 @@ Number of mappers indicates how parallel our Sqoop job is running .
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 No, it is not mandatory to set the input and output type/format in MapReduce.
 
 </blockquote>
@@ -2147,6 +2240,7 @@ No, it is not mandatory to set the input and output type/format in MapReduce.
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 Fact table is defined by their grain or its most atomic level whereas Dimension table should be wordy, descriptive, complete, and quality assured.Fact table helps to store report labels whereas Dimension table contains the detailed data.
 
@@ -2162,6 +2256,7 @@ Fact table is defined by their grain or its most atomic level whereas Dimension 
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 Bucketing decomposes data into more manageable or equal parts.With partitioning, there is a possibility that you can create the multiple small partitions based on column values.If we go for bucketing, we are restricting the number of buckets to store the data.This number is defined during the table creation scripts.
 
@@ -2178,6 +2273,7 @@ Bucketing decomposes data into more manageable or equal parts.With partitioning,
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 Dimension table Dimension table is a table which contain attributes of measurements stored in the fact tables.Fact table contains the measurement of business processes, and it contains foreign keys for the dimension tables.
 
@@ -2196,6 +2292,8 @@ Dimension table Dimension table is a table which contain attributes of measureme
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 Our Source is the Twitter, from where we are streaming the data and our Sink is HDFS, where we are writing the data.In source configuration, we are passing the Twitter source type as org.apache.flume.
 
 
@@ -2211,6 +2309,8 @@ Our Source is the Twitter, from where we are streaming the data and our Sink is 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 Heap errors can occur when your code inadvertently overwrites control information that the memory management functions use to the control heap usage.The application that you are debugging must have been built with the heap check capability.
 
@@ -2229,6 +2329,7 @@ Heap errors can occur when your code inadvertently overwrites control informatio
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 There are two types of join operations in MapReduce are: Map Side Join: As the name implies, the join operation is performed in the map phase itself.
 
@@ -2245,6 +2346,8 @@ There are two types of join operations in MapReduce are: Map Side Join: As the n
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 Environment variables store data that is used by the operating system and the other programs.Take us example, the WINDIR environment variable contains the location of the Windows installation directory.
 
 </blockquote>
@@ -2260,6 +2363,7 @@ Environment variables store data that is used by the operating system and the ot
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 - Used to read and executed when Bash is invoked as an interactive login shell, while .bash is executed for an interactive non-login shell.
 - Used to run commands that should run only once, such as customizing the $PATH environment variable .
@@ -2277,6 +2381,7 @@ Environment variables store data that is used by the operating system and the ot
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 Hadoop is a distributed file system, which lets you store and the handle massive amount of data on a cloud of machines, handling data redundancy.Each node can process the data stored on it instead of spending time in moving it over the network.
 
@@ -2293,6 +2398,7 @@ Hadoop is a distributed file system, which lets you store and the handle massive
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 - Add hadoop-mapreduce-client-jobclient maven dependency.The very first step to debug Hadoop map reduce code locally is to add the hadoop-mapreduce-client-jobclient maven dependency.
 - Set the local file system.Set either local or file:/// in fs.
@@ -2310,6 +2416,8 @@ Hadoop is a distributed file system, which lets you store and the handle massive
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 - First step in securing an Hadoop cluster is to enable the encryption in transit and at rest.
 
 - Authentication and Kerberos rely on secure communications, so before you even go down the road of enabling authentication and the Kerberos you must enable encryption of data-in-transit.
@@ -2326,6 +2434,7 @@ Hadoop is a distributed file system, which lets you store and the handle massive
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 In a Hadoop cluster a Manager node will be deployed on a reliable hardware with the high configurations, and the Slave node's will be deployed on commodity hardware.
 
@@ -2342,6 +2451,7 @@ In a Hadoop cluster a Manager node will be deployed on a reliable hardware with 
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 It is a utility which comes under Hadoop distribution.It allows to create and run the mapreduce job easily.
 
@@ -2359,6 +2469,7 @@ It is a utility which comes under Hadoop distribution.It allows to create and ru
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 Yes, its support the streaming data easily .
 
@@ -2381,6 +2492,8 @@ With streaming data integration for Hadoop, we can easily feed your Hadoop and N
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 In fakebook’s data  with mounds of information.Every 60 seconds, 136,000(approx.) photos are uploaded, 510,000 (approx.) comments are posted, and 293,000 (approx.) status updates are posted.Facebook generates 4 petabytes of data per day — that's a million gigabytes.
 
 
@@ -2396,6 +2509,8 @@ In fakebook’s data  with mounds of information.Every 60 seconds, 136,000(appro
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 
 Aprrox.361 companies reportedly use Hadoop in their tech stacks, including Uber, Airbnb, and Shopify.
@@ -2425,6 +2540,8 @@ Here are five businesses successfully using Hadoop:
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 No, calculations will be done only on the original data.
 
 
@@ -2440,6 +2557,7 @@ No, calculations will be done only on the original data.
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 In HDFS, blocks cannot be broken down.
 
@@ -2457,6 +2575,8 @@ In HDFS, blocks cannot be broken down.
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 
 - HadoopTraining.txt and will be processed for Mapreduce jobs ,when we process a file  in Hadoop using any FileInputFormat such as TextInputFormat, KeyValueInputFormat or SequenceFileInputFormat, we must confirm that none of files must have a hidden file prefix such as “_” or “.” because mapreduce is used to formate the FileInputFormat will by default uses hiddenFileFilter class to ignore all those files with these prefix in their name.
 
@@ -2473,6 +2593,8 @@ In HDFS, blocks cannot be broken down.
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 
 - We complete process on how to decommission a datanode and there are loads of material available on internet to maintain the task tracker running a MapReduce job on a datanode.
@@ -2492,6 +2614,8 @@ In HDFS, blocks cannot be broken down.
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 As we know , Namenode is responsible for managing the meta storage of the cluster, suppose if something is missing from the cluster then Namenode will be held.It will makes Namenode checking all the necessary information during the safe mode before making cluster writable to the users.
 
 
@@ -2506,6 +2630,8 @@ As we know , Namenode is responsible for managing the meta storage of the cluste
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 
 Leader perform the task of all read and write requests for the partition, whereas Followers passively replicate the leader.
@@ -2523,6 +2649,8 @@ Leader perform the task of all read and write requests for the partition, wherea
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 
 - Basically, a list of nodes that replicate the log is Replicas,for a particular partition.They are irrespective of whether they play the role of the Leader.
@@ -2542,6 +2670,8 @@ Leader perform the task of all read and write requests for the partition, wherea
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 
 Replication, we can be sure that published messages are not lost and can be consumed in the event of any machine error, program error or frequent software upgrades.
 
@@ -2556,6 +2686,8 @@ Replication, we can be sure that published messages are not lost and can be cons
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 
 Simply, it implies that the Follower cannot fetch data as fast as data accumulated by the Leader.
@@ -2573,6 +2705,8 @@ Simply, it implies that the Follower cannot fetch data as fast as data accumulat
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 whenever the Kafka Producer attempts to send messages at a pace that the Broker cannot handle at that time QueueFullException typically occurs.
 
 </blockquote>
@@ -2586,6 +2720,8 @@ whenever the Kafka Producer attempts to send messages at a pace that the Broker 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 
 - Kafka is a  general-purpose tool for both used multiple producers and consumers.Whereas, Flume is considered as a special-purpose tool for specific applications.
@@ -2605,6 +2741,8 @@ whenever the Kafka Producer attempts to send messages at a pace that the Broker 
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 
 Yes, Kafka is a streaming platform.
 
@@ -2620,6 +2758,8 @@ Yes, Kafka is a streaming platform.
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 The maximum size of a message that can be received by the Kafka is approx.1000000 bytes.
 
 </blockquote>
@@ -2633,6 +2773,8 @@ The maximum size of a message that can be received by the Kafka is approx.100000
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 - KAfka is currently the most superior/feature-rich framework when it comes to low-latency stream processing whereas Spark’s main benefit is the whole existing eco-system including the GraphX abstractions and that parts of the code can be reused for both batch- and stream-processing functionality.
 
@@ -2674,6 +2816,8 @@ def calculate(sparkSession: SparkSession): Unit = {
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 ```python
 def calculate(sparkSession: SparkSession): Unit = {
@@ -2723,6 +2867,8 @@ def calculate(sparkSession: SparkSession): Unit = {
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 
 - The ```repartition``` statement generates 10 partitions (no matter if it were more or less when they were loaded from wherever).These might become quite large on huge datasets and probably won’t fit into the allocated memory for one executor.
 
@@ -2741,6 +2887,8 @@ def calculate(sparkSession: SparkSession): Unit = {
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 It is used to consume the data from different data sources and then move them to spark for processing.
 
@@ -2771,6 +2919,8 @@ Paraquet, JSON, XML, CSV, RC, Avro, TSV.
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 
 It is a finite directed graph with no directed cycles.Here are finite numbers of vertices and edges, where each edge is directed from one vertex to another.
 
@@ -2785,6 +2935,8 @@ It is a finite directed graph with no directed cycles.Here are finite numbers of
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 
 Spark need not be installed when running a job under YARN or Mesos because Spark can execute on top of YARN or Mesos clusters without affecting any change to the cluster.
@@ -2801,6 +2953,8 @@ Spark need not be installed when running a job under YARN or Mesos because Spark
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 The Spark UI is available on port 4040 of the driver node.If you are running in local mode, this will be http://localhost:4040.The Spark UI displays information on the state of your Spark jobs, its environment, and cluster state.
 
 </blockquote>
@@ -2814,6 +2968,8 @@ The Spark UI is available on port 4040 of the driver node.If you are running in 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 
 Sliding Window controls transmission of data packets between various computer networks.Whereas Spark Streaming library provides windowed computations where the transformations on RDDs are applied over a sliding window of data.Whenever the window slides, the RDDs that fall within the particular window are combined and operated upon to produce new RDDs of the windowed DStream.
@@ -2830,6 +2986,8 @@ Sliding Window controls transmission of data packets between various computer ne
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 Spark stores the data in-memory whereas Hadoop stores data on disk.Hadoop uses replication to achieve fault tolerance whereas Spark uses different data storage model, RDD.
 
 </blockquote>
@@ -2843,6 +3001,8 @@ Spark stores the data in-memory whereas Hadoop stores data on disk.Hadoop uses r
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 Cost-Based Optimization is an optimization technique in Spark SQL that uses table statistics to determine the most efficient query execution plan of a structured query.
 
@@ -2858,6 +3018,8 @@ Cost-Based Optimization is an optimization technique in Spark SQL that uses tabl
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 
 Basically, Hive runs on our system, which helps to convert the SQL queries to set of jobs in Hadoop Cluster.
@@ -2881,12 +3043,12 @@ Components of Hive:
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 
 - Spark runs a workload up to 100 times faster than Hadoop.
-
-
-As we know that every day in Internet has huge amount of data being generated , the data in both formats structured and Unstructured.
-So in this situation , Sprak will help to work as much as can.
+- As we know that every day in Internet has huge amount of data being generated , the data in both formats structured and Unstructured.
+- So in this situation , Sprak will help to work as much as can.
 
 
 </blockquote>
@@ -2901,6 +3063,7 @@ So in this situation , Sprak will help to work as much as can.
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 Abstraction is spark is known as DStream or Discretized Stream, which is used to handle the streaming of data in real time.
 
@@ -2916,6 +3079,7 @@ Abstraction is spark is known as DStream or Discretized Stream, which is used to
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 - Data frame is used as a table in a RDBMS whereas Dataset is used similar as Data Frame but an extension of Data frame API.It provides additional feature like oop’s interface API.
 - Data Frame is immutable which means when we create and transforming the data, we cannot change the nature whereas Dataset can retain that data using RDD data Frame.
@@ -2936,6 +3100,7 @@ Abstraction is spark is known as DStream or Discretized Stream, which is used to
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 Hive used to organize the table into partitions.Partitions work with creating a folder for each partition, which means for each column value of the partitioned column, there will be a folder under the HDFS.
 
@@ -2951,6 +3116,7 @@ Hive used to organize the table into partitions.Partitions work with creating a 
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 - Data nodes is used as a slave node in HDFS.It is a block server that stores the data in the local file.
 - The Data Nodes store blocks, delete blocks and replicate those blocks upon instructions from the Name Node.
@@ -2971,6 +3137,7 @@ Hive used to organize the table into partitions.Partitions work with creating a 
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 With the help pf Job Traker and Task Tracker.
 
@@ -2992,6 +3159,8 @@ With the help pf Job Traker and Task Tracker.
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 - Maps- These are key, value stores joined together using #.
 - Tuples- Just similar to the row in a table, where different items are separated by a comma.Tuples can have multiple attributes.
 - Bags- Unordered collection of tuples.Bag allows multiple duplicate tuples.
@@ -3008,6 +3177,7 @@ With the help pf Job Traker and Task Tracker.
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 Flatten is used as a modifier in Pig.It is a  un-nests bags and tuples whereas un-nesting bags is a little complex because it requires creating new tuples.
 
@@ -3040,6 +3210,7 @@ grunt >
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 PigLatin scripts can be used in different way to use as a debugging tool.
 
@@ -3056,6 +3227,7 @@ PigLatin scripts can be used in different way to use as a debugging tool.
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 With the help of Logical and physical plans we can created during the execution of a pig script.
 Pig scripts are based on interpreter checking.
@@ -3077,6 +3249,7 @@ Pig scripts are based on interpreter checking.
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 - Logical plan is produced after semantic checking and basic parsing and no data processing takes place during the creation of a logical plan.
 
@@ -3094,6 +3267,7 @@ Pig scripts are based on interpreter checking.
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 - It is necessary to specify the schema in HiveQL, whereas it is optional in PigLatin.
 - HiveQL is a declarative language, whereas PigLatin is procedural.
@@ -3112,6 +3286,8 @@ Pig scripts are based on interpreter checking.
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 Yes , It is a stringly typed language, here user has to declare the type of all variables upfront..
 Pig, when we describe the schema of the data, it expects the data to come in the same format what we mentioned.
 
@@ -3128,6 +3304,8 @@ Pig, when we describe the schema of the data, it expects the data to come in the
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 - Inner bag is referred as a relation inside the beg.
 - Outer beg is referred as a relation in Pig.
 
@@ -3143,6 +3321,7 @@ Pig, when we describe the schema of the data, it expects the data to come in the
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 COUNT_STAR is used as a function includes Null values while counting whereas COUNT not include any NULL values while counting the number.
 
@@ -3159,6 +3338,7 @@ COUNT_STAR is used as a function includes Null values while counting whereas COU
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 We can use UNION and SPLIT operation.
 
@@ -3174,6 +3354,7 @@ We can use UNION and SPLIT operation.
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 Basicallt TOP() function is used to returns the top N tuples from any specific bag of tuple /Relation.
 
@@ -3189,6 +3370,8 @@ Basicallt TOP() function is used to returns the top N tuples from any specific b
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
+
 - Both is used to convert the commands into MapReduce jobs.
 - Both cannoy used for OLAP.
 
@@ -3203,6 +3386,8 @@ Basicallt TOP() function is used to returns the top N tuples from any specific b
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 - Step 1 : It will load the file Employee.txt , with the relation name called Employee.
 - Step 2: First 10 records of the employee data having a limit operator so, 
@@ -3221,6 +3406,8 @@ Result = Limit employee 10.
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details markdown="1"><summary> Show Answer </summary>
+
+<blockquote markdown="1">
 
 - Integer
 - float 
@@ -3243,6 +3430,7 @@ Result = Limit employee 10.
 
 <details markdown="1"><summary> Show Answer </summary>
 
+<blockquote markdown="1">
 
 Using the grunt shell.
 
