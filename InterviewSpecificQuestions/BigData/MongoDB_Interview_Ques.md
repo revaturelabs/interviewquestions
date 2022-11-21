@@ -5,7 +5,7 @@
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > `MongoDB`, by default, does not support primary and foreign key relationship.But we can achieve it by embedding one document inside another one.For example, embedding the 'city' document insthe ide 'address' document.
 </details>
@@ -16,7 +16,7 @@
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > `db.student.aggregate([{$group : {_id:null, Average_marks : {$avg : "marks"}}}])`.Here we are getting the average of the marks the field in student collection.
 </details>
@@ -27,7 +27,7 @@
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > `db.student.aggregate([{$group : {_id:null, Total_marks : {$sum : "marks"}}}])`.Here we are getting sum of the marks field in student collection.
 </details>
@@ -38,7 +38,7 @@
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > In `db.collection_name.find({ "school.student": "Jack"})` query, "school" is a outer document field and "student" is a inner document field.
 
@@ -50,7 +50,7 @@
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > To resolve the "could not connect to the server" error, we can take a few measures:
 >
@@ -68,7 +68,7 @@
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > To make sure that we have a backup of our database, we can use the `mongodump` command that will store our data in a backup file.For that, we just have to write `mongodump --db database_name -- collection collection_name`.
 > To import again the backup file in Mongodb we can use the `mongorestore` command:     
@@ -83,7 +83,7 @@
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > It returns an object that contains information about the operation.It returns a `WriteResult` object when we insert a single document and `BulkWriteResult` object when we insert more than one document in a single insert query.
 </details>
@@ -94,7 +94,7 @@
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > The `_id` field is the default primary key in `MongoDB` and it is reserved, we cannot create any other primary key but, we can put the data that we want to be unique into the `_id` field of the document like `{"_id" : 01}`.
 </details>
@@ -105,7 +105,7 @@
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
   
 ```
 use Company;
@@ -119,7 +119,7 @@ db.createCollection("Department");
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
  
 ```
 use employee;
@@ -133,7 +133,7 @@ db.emp.update({"name": "Jack"}, {$inc: {"salary": 1000}});
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > The `update()` method is used to update the existing document values in MongoDB without creating a new document.Whereas, `save()` method is used to replace the existing document with the document passed in the `save()` method.
 </details>
@@ -144,7 +144,7 @@ db.emp.update({"name": "Jack"}, {$inc: {"salary": 1000}});
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > To perform both updates and insert operations in a single query by making the  "upsert" option to "true" inside the `update()` method.
   
@@ -159,7 +159,7 @@ db.collection_name.update({name:"Henry"}, {$set: {dept: "HR"}},{upsert:true});
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > 
 ```
@@ -177,7 +177,7 @@ Here address is the field that has to be added in all the documents.
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > 
 ```
@@ -194,7 +194,7 @@ db.emp.update({},
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
  
 >
 ```
@@ -208,7 +208,7 @@ db.emp.find({name: /A/});
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > - The update() method can update multiple documents at a time, whereas the findAndModify() method, by default, can update a single document at a time.
   
@@ -221,7 +221,7 @@ db.emp.find({name: /A/});
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > To find the top 5 records, we can use the sort() and limit() methods with find().
    
@@ -239,7 +239,7 @@ db.emp.find({})
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > 
 ```
@@ -257,7 +257,7 @@ db.collection_name.find({
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > The `findOneAndUpdate()` will update the fields of the document that are passed in the query.whereas the `findOneAndReplace()` will not only update the fields of the document that are passed in the query but also replaces or deletes the fields of the documents that are not passed to it in the query.
  
@@ -268,7 +268,7 @@ db.collection_name.find({
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > Both `findOneAndReplace()` and `replaceOne()` in MongoDB is used to replace the document's fields based on filter criteria, but the main difference between both is that `findOneAndReplace()` returns a pre-modified document by default whereas `replaceOne()` doesn't return any document.
 </details>
@@ -279,7 +279,7 @@ db.collection_name.find({
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > There are a few practices that one can follow to increase the query performance and fast retrieval of data:  
 > 
@@ -296,7 +296,7 @@ db.collection_name.find({
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
  
 > Yes, it is possible to create index on an array field.MongoDB automatically creates the multikey index for each value of an array.For example, let’s take an array field which holds the values as address : [ "NY", "MIAMI","TEXAS"], we can create an index on that field by writing:    
 `db.collection_name.createIndex({“address” : 1})`
@@ -308,7 +308,7 @@ db.collection_name.find({
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > As a developer we must make sure that all the data are not present in one single server or machine.
 > -	We can distribute the data into different systems so, that if one system fails, we can get the data from other systems.
@@ -322,7 +322,7 @@ db.collection_name.find({
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > 
 ```
@@ -353,7 +353,7 @@ Help him to write a query that will produce the output as:
 
 ![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > 
 ```
@@ -372,7 +372,7 @@ db.collection_name.find({
 
 ![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > 
 ```
@@ -394,7 +394,7 @@ ii) Where “department” is not equal to “product”.
 
 ![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
  
 > 
 ```
@@ -414,7 +414,7 @@ db.collection_name.find({
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > The only problem in the `db.people.find({} { _id: 0})` is missing comma after empty {} inside find() method.To resolve this error, jack has to write the query as `db.people.find({}, { _id: 0});`.
 </details>
@@ -425,7 +425,7 @@ db.collection_name.find({
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 ```
 db.student.find({
@@ -446,7 +446,7 @@ db.student.find({
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > Using the skip() method, we can skip the number of documents based on our needs.
 
@@ -462,7 +462,7 @@ db.dept.find({}).skip(10);
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 ```
 db.collection_name.find({
@@ -483,7 +483,7 @@ db.collection_name.find({
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > If we use -2 or 2 with the fields inside sort() method instead of using -1 or 1, MongoDB will throw an error for that.Only 1 can be used with the fields that we want to sort in ascending order and -1 can be used with the fields that we want to sort in descending order.
 
@@ -495,7 +495,7 @@ db.collection_name.find({
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > In the projection query, we cannot use a combination of 0 and 1.It should be either all 1 or all 0, except _id field value.So to get rid of that error we can re-write the query as:  
 `db.collection.find({}, {_id: 0, name: 1, address: 1});`   
@@ -509,7 +509,7 @@ Here we are selecting an only name and address fields from the data.
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
  
 > To check if the field is present or not in the mongodb we can use $ne operator in the `find()` method query.
 
@@ -528,7 +528,7 @@ db.collection.find({
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 
 ```mongodb-json-query
@@ -549,7 +549,7 @@ db.collection_name.find({
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > There are many advantages document database gives over Relational or other databases:    
 > 
@@ -569,7 +569,7 @@ db.collection_name.find({
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > No, MongoDB doesn't write the data to the disk immediately.Firstly, it pushes the write to the journals, and from the journal it pushes the data to the disk.Therefore, it is not an immediate action.
 </details>
@@ -580,7 +580,7 @@ db.collection_name.find({
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > Yes, it is correct that durability is one of the best features of MongoDB.
 Whenever there are a server failure or system crashes, we can still recover the data from the journal nodes as well as we can get the data from different replica sets.
@@ -591,7 +591,7 @@ Whenever there are a server failure or system crashes, we can still recover the 
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > We cannot deny the fact that using indexes efficiently in MongoDB can increase query performance, But there are some disadvantages of indexes as well like:  
 > - Each index that we create takes around 8 kB of space in memory.So, if we have many indexes that are not in use frequently will drain our resources.
@@ -604,7 +604,7 @@ Whenever there are a server failure or system crashes, we can still recover the 
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > An object-id in MongoDB also refers as the primary key consists of 12-byte BSON type.Out of those 12 bytes:  
 > - 4 byte represents the time in seconds when it is created.
@@ -618,7 +618,7 @@ Whenever there are a server failure or system crashes, we can still recover the 
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > Yes, one we remove any field or fields from the document or a whole document, it will also be removed from the disk too.
 </details>
@@ -629,7 +629,7 @@ Whenever there are a server failure or system crashes, we can still recover the 
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)  
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > Yes, MongoDB creates an Object-Id that is `_id`, which also works as an Index by default.
 </details>
@@ -640,7 +640,7 @@ Whenever there are a server failure or system crashes, we can still recover the 
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > - To connect MongoDB with Python application we first have to install and import the `pymongo` Module.
 > - Then from pymongo import the MongoClient, that will help in putting the connection string.
@@ -655,7 +655,7 @@ Whenever there are a server failure or system crashes, we can still recover the 
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > To insert multiple documents through a single query we can use the insertMany() command.for example,   
 ``` 
@@ -673,7 +673,7 @@ db.collection.insertMany([{name: "Jack", dept: "training"},
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > To remove only one document without effecting any other document, we can use the `remove()` method with 'justOne' parameter set as 1.  
 ```
@@ -688,7 +688,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > Both the methods in MongoDB is used to delete documents.The only difference between both is the value return after deletion operation.
 > - The `remove()` method return a WriteResult object.
@@ -702,7 +702,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > `pretty()` when applied with the `find()` method, it will display output documents in an easy to read format.Without `pretty()` if the documents have so many fields and we fetched all the documents fields through `find()` then it is very difficult to read values from each document as it will show one document in one line only.
   
@@ -714,7 +714,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > - Vertical scaling refers to adding additional resources in a single system to increase it performance such as ram, CPU, etc.
 > - Horizontal scaling refers to adding multiple servers to a single server and partitioning the dataset over those server.
@@ -727,7 +727,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > We can use the `pretty()` method to format the resulted documents.
   
@@ -739,7 +739,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > It is the process of adding data across multiple servers so that if one server is down we can still utilize the data from other servers.MongoDB supports sharding by breaking the larger datasets into smaller data sets and sending it to other servers.It increases the redundancy of data and provides durability in times of failure.
   
@@ -751,7 +751,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > - The primary replica set is a master replica that receives the write operations, on the other hand secondary replica set is used only for read operations.
 > -  The primary replica set will always be one in the count, whereas secondary replica sets can be one or more than one.
@@ -766,7 +766,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > In MongoDB, one document can have 4 fields while other documents can have same or more or less fields.There is no restriction of having same number of fields in all the documents inside collection, which makes it schemeless.
 
@@ -778,7 +778,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > MongoDB stores it data to RAM first but later on all the RAM data has been stored into Disk, so that at the time of failure the MongoDB will gets it data from disk without any loss.
 
@@ -790,7 +790,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
   
 > There are few limitations that MongoDB have such as:  
 > - There are no joins that we can use with MongoDB.
@@ -806,7 +806,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > MongoDB stores the data in BSON format.Although both JSON and BSON looks same still there is one difference between them:     
 > - JSON is a text based format which stores the data in key-value pairs, on the other hand BSON is a binary format of JSON that provides efficient space in memory to store large data as well as it optimizes the speed to fetch the data from Memory.
@@ -820,7 +820,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > - We have default index in MongoDB as '_id'
 > - Single field indexes are also there, which uses single fields.
@@ -835,7 +835,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > Using `db.serverStatus()` method we can see the information about number of connections as well as the available connections.For that we have to write ` db.serverStatus().connections`.
 
@@ -847,7 +847,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > By default, MongoDB can handle 64k connections.But it can be changed by going into the configuration file of MongoDB.
 
@@ -859,7 +859,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > Using `db_adminCommand("connPoolStats")` we can see the connections utilized by MongoDB.
 
@@ -871,7 +871,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary> 
+<details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > To perform the basic CRUD operations we can use the following methods:
 > - `insert()` method for entering documents into collections.
@@ -887,7 +887,7 @@ db.collection_name.remove({"name" : "Tom"},1);
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > 
 ```
@@ -905,7 +905,7 @@ db.resturants.find(
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > 
 ```
@@ -922,7 +922,7 @@ db.revature.find({"shift": {
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > 
 ```
@@ -940,7 +940,7 @@ db.emp.find({
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > 
 ```
@@ -961,7 +961,7 @@ db.collection_name.find({
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > 
 ```
@@ -978,7 +978,7 @@ db.company.find({
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 >
 ```
@@ -996,7 +996,7 @@ db.collection_name.find()
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 >
 ```
@@ -1015,7 +1015,7 @@ db.food.find(
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > 
 ```
@@ -1033,7 +1033,7 @@ db.resturants.find(
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > No, MongoDB doesn't require lot of RAM to store those documents and doing operations on those documents because it automatically allocates and deallocates the RAM based on the operations requirements.
 
@@ -1045,7 +1045,7 @@ db.resturants.find(
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > A covered query is the one whose fields in the query are the part of indexes as well as the returned output fields also contains those same index.
 
@@ -1056,7 +1056,7 @@ db.resturants.find(
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > If RAM has no space to fit the indexes in it, then MongoDB takes the data from the disk which is relatively slow compared to taking data from the RAM.
 
@@ -1068,7 +1068,7 @@ db.resturants.find(
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > By using `getIndexes()` method, we can check the list of indexes in MongoDB.
 
@@ -1084,7 +1084,7 @@ db.school.getIndexes()
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > yes, we can achieve the concepts of locking and transcations by putting one document inside another document also called as nested documents.By this way, MongoDB supports atomic operations.
 
@@ -1096,7 +1096,7 @@ db.school.getIndexes()
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > No, In MongoDB, only primary replica set has the right to do the write operations but not secondary replica set.
   
@@ -1108,7 +1108,7 @@ db.school.getIndexes()
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > We can consider embedding documents when:  
 > - We need to attain primary-forign key relationship.
@@ -1123,7 +1123,7 @@ db.school.getIndexes()
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > While storing Data and indexes in MongoDB we cannot predict how much total space the server will requries for storing all these things.And as the total storage space in 32-bit systems are fixed to 2 gigabytes only, which is not suitable for production scenarios.therefore, 64-bit systems are preferred over 32-bit systems, that have unlimited server space for storage virtually.
   
@@ -1135,7 +1135,7 @@ db.school.getIndexes()
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > We can check by using `db.isMaster()` command, that returns a document containing the status of a replica set.and also tells whether it is a part of primary replica or secondary replica set.
   
@@ -1147,7 +1147,7 @@ db.school.getIndexes()
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > 
 ```
@@ -1166,7 +1166,7 @@ db.emp.find({
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > 
 ```
@@ -1186,7 +1186,7 @@ db.students.find({
 
 ![Simple](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg) 
 
-<details open markdown="1"><summary> <b>Show Answer</b> </summary>
+<details markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > 
 ```
