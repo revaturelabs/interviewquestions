@@ -368,9 +368,13 @@ Encapsulation can be achieved by declaring all the variables in the class as pri
 There are 5 types of Inheritance.They are
 
 1.Single Inheritance
+
 2.Multi-level Inheritance
+
 3.Hierarchical Inheritance
+
 4.Hybrid Inheritance
+
 5.Multiple inheritance 
 
 **In java, multiple and hybrid inheritance is supported through interface only.**
@@ -414,7 +418,9 @@ The JDBC API is an excellent example.It exists of almost only interfaces.The con
 <blockquote markdown="1">
 
 There are two types of polymorphism as below: 
+
 1.Static Binding or Compile time Polymorphism or Method Overloading
+
 2.Dynamic Binding or Runtime Polymorphism or Method overriding.
  
 </blockquote>
