@@ -291,13 +291,12 @@ If the frequent operation is retrieval the ArrayList for the othercase LinkedLis
 
 infinite times
 
-</blockquote>
-
-<blockquote markdown="1">
 
 <details markdown="1"> <summary> <b> Explanation </b> </summary>
 
 ArrayList provides a listIterator for traversing in forward and backward directions, so the  program will compile and run infinitely.
+
+</details>
 
 </blockquote>
 
