@@ -67,7 +67,8 @@
     
 - Exception being one of the cross-cutting concern in Spring application which can be handled using Spring AOP.
 - Ensure the AspectJ dependencies are added in pom.xml file.
-- Define central logging class named `LoggingAspect.java` 
+- Define central logging class named `LoggingAspect.java`.
+
 ```java
 import java.util.Arrays;
 import org.aspectj.lang.JoinPoint;
@@ -104,13 +105,16 @@ public class LoggingAspect {
     }
 }
 ```
+
 - In above code, we have defined pointcut expression for DAO, Service & Controller layer.
 - The `..` notation means "any package or subpackage", whereas `*` at the end of the expression after `..` means "any method in any class".
+
 </blockquote>
 
 </details>
 
 ---
+
 4.You have to measure performance (or time taken by method execution), how can you achieve it with AOP?
 
 ![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
@@ -123,6 +127,7 @@ public class LoggingAspect {
 - Measuring performance of the method execution can be one of such example of cross cutting concerns.
 - Ensure the AspectJ dependencies are added in pom.xml file.
 - Define central logging class named `ExecutionTimeAspect.java` 
+
 ```java
 package com.revature.aop;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -142,6 +147,7 @@ public class ExecutionTimeAspect {
 }
 ```
 - In above code, we have defined pointcut expression to measure performance of `public String com.revature.service.RefundService.process(Long)` method.
+
 </blockquote> 
 
 </details>
