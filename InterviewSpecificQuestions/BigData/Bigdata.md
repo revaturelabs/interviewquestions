@@ -86,6 +86,7 @@ To copy a file from the local file system to HDFS, use Hadoop fs -put or hdfs df
 </details>
 
 </details>
+
 ---
 
 5.How does Map reduce (MR) is differ from Elastic Map reduce (EMR)?
