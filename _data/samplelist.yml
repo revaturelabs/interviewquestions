@@ -137,28 +137,28 @@ toc:
   - title: .Net Full stack
     subfolderitems:
       - page: .Net Full stack
-        url: InterviewSpecificQuestions/.NETFullStack/.NETFramework.html
+        url: InterviewSpecificQuestions/DOT_NetFullStack/DOT_NETFramework.html
       - page: ADO .NET
-        url: InterviewSpecificQuestions/.NETFullStack/ADO.net.html
+        url: InterviewSpecificQuestions/DOT_NetFullStack/ADO_DOT_Net.html
       - page: ASP .NET
-        url: InterviewSpecificQuestions/.NETFullStack/ASP.Net.html
+        url: InterviewSpecificQuestions/DOT_NetFullStack/ASP_DOT_Net.html
       - page: C# Advanced
-        url: InterviewSpecificQuestions/.NETFullStack/C#Advance.html
+        url: InterviewSpecificQuestions/DOT_NetFullStack/C_Sharp_Advance.html
       - page: C# Azure
-        url: InterviewSpecificQuestions/.NETFullStack/C#Azure.html
+        url: InterviewSpecificQuestions/DOT_NetFullStack/C_Sharp_Azure.html
       - page: C# Basics
-        url: InterviewSpecificQuestions/.NETFullStack/C#Basics.html
+        url: InterviewSpecificQuestions/DOT_NetFullStack/C_Sharp_Basics.html
       - page: C# Collections
-        url: InterviewSpecificQuestions/.NETFullStack/C#Collections.html
+        url: InterviewSpecificQuestions/DOT_NetFullStack/C_Sharp_Collections.html
       - page: C# Exception Handling
-        url: InterviewSpecificQuestions/.NETFullStack/C#Exception_Handling.html
+        url: InterviewSpecificQuestions/DOT_NetFullStack/C_Sharp_Exception_Handling.html
       - page: C# OOPS
-        url: InterviewSpecificQuestions/.NETFullStack/C#OOPS.html
+        url: InterviewSpecificQuestions/DOT_NetFullStack/C_Sharp_OOPS.html
       - page: Node JS
-        url: InterviewSpecificQuestions/.NETFullStack/Nodejs.html
+        url: InterviewSpecificQuestions/DOT_NetFullStack/Nodejs.html
       - page: REST
-        url: InterviewSpecificQuestions/.NETFullStack/Rest.html
+        url: InterviewSpecificQuestions/DOT_NetFullStack/Rest.html
       - page: Scripting fundamentals
-        url: InterviewSpecificQuestions/.NETFullStack/ScriptingFundamentals.html
+        url: InterviewSpecificQuestions/DOT_NetFullStack/ScriptingFundamentals.html
       - page: SOA
-        url: InterviewSpecificQuestions/.NETFullStack/SOA.html
+        url: InterviewSpecificQuestions/DOT_NetFullStack/SOA.html
