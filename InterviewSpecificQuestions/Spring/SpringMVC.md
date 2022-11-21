@@ -44,6 +44,7 @@
     
 - Since DispatcherServlet is one type of Servlet the web.xml file configuration is the same as normal servlet.
 - Additionally, as DispatcherServlet is our front controller we need to ensure that all the incoming requests should be routed to it using "/" url pattern.
+
 ```xml
 <servlet>
     <servlet-name>dispatcher</servlet-name>
@@ -56,6 +57,7 @@
     <url-pattern>/</url-pattern>
 </servlet-mapping>
 ```
+
 - If we are using `the spring-boot-starter-web` starter, DispatcherServletauto-configured to the URL pattern "/".So, we don't need to do any additional configuration in the web.xml file.
 </blockquote> 
 
@@ -71,12 +73,14 @@
 <blockquote markdown="1"> 
     
 - It's very simple, we need to change two properties inside the application.properties file.
+
 ```
 server.servlet.context-path=/admin
 spring.mvc.servlet.path=/v2
 ```
 - With the above customizations, DispatcherServlet is configured to handle the URL pattern /v2 and the rcontext Path will be /admin.
 - Thus, DispatcherServlet listens at http://localhost:8080/admin/v2/.
+
 </blockquote> 
 
 </details>
