@@ -328,6 +328,8 @@ It refers to the settings.xml to look for the repositories to look for the resou
 </blockquote>
 </details>
 
+---
+
 22.How can we look into the Dependencies for the project and where they are defined ?
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
@@ -353,9 +355,11 @@ There are three types of Maven repositories:
 
 1.Local Repository: 
     - Local repository refers to the machine of the developer where all the project material is saved.The local repository contains all the dependency jars.
+    
 2.Remote Repository:
     - The remote repository refers to the repository present on a server usually in company intranet to download dependencies.
     - The advantage of remote repository is that it can have all publicly available dependencies as well as private dependencies used only in intranet by employees of the enterprise.
+    
 3.Central Repository:
     - Central repository refers to the Maven community that comes into action when there is a need for dependencies, and those dependencies cannot be found in the local repository.
     - Maven downloads the dependencies from here in the local repository whenever needed.
