@@ -53,9 +53,12 @@
 <details open markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > To resolve the "could not connect to the server" error, we can take a few measures:
+>
 > 1.We must ensure that we put the correct hostname and port number.
+> 
 > 2.If any firewall is blocking your port connection, uninstall that firewall or try to connect from a different server.
 > 3.Must ensure that your MongoDB instance is running in the background.
+> 
 > 4.If server is shut down then, It will start the server again.
 </details>
  
@@ -68,7 +71,6 @@
 <details open markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > To make sure that we have a backup of our database, we can use the `mongodump` command that will store our data in a backup file.For that, we just have to write `mongodump --db database_name -- collection collection_name`.
-   
 > To import again the backup file in Mongodb we can use the `mongorestore` command:     
 `mongorestore --db database_name path_of_file`  
 
@@ -280,8 +282,11 @@ db.collection_name.find({
 <details open markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > There are a few practices that one can follow to increase the query performance and fast retrieval of data:  
+> 
 > 1.We can create and use the indexes on the fields that are frequently a part of the query.
+> 
 > 2.While doing the find(), we can use projection to select only those fields that are required in the result.
+> 
 > 3.We can also use the limit() method to limit the data that we want in our result.
 
 </details>
@@ -547,9 +552,13 @@ db.collection_name.find({
 <details open markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > There are many advantages document database gives over Relational or other databases:    
+> 
 > 1.They are schema-less.They don’t have any structure.
+> 
 > 2.No need to have a same number of fields in all the documents.Some may have > 4 fields while others may have 3 or 5 fields.
+> 
 > 3.They have a replica set that contains duplicate data in it.So if one server fails we can still recover the data from other servers.
+> 
 > 4.All the documents can be independent of one another as they don't have a foreign keys concept.
 
 </details>
@@ -1062,6 +1071,7 @@ db.resturants.find(
 <details open markdown="1"><summary> <b>Show Answer</b> </summary>
 
 > By using `getIndexes()` method, we can check the list of indexes in MongoDB.
+
 ```
 db.school.getIndexes()
 ```
