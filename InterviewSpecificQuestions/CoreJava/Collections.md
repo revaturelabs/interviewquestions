@@ -317,6 +317,7 @@ and make sure they follow their contract.On the other hand, if you are storing a
 - e.g.SortedSet or SortedMap, you also need to make sure that your `equals()` method is consistent to `compareTo()` method, otherwise that collection will not follow their contacts e.g.Set may allow duplicates.
 
 </blockquote>
+
 </details>
 
 ---
