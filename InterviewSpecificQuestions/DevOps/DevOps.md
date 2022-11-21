@@ -124,7 +124,7 @@
 
 8.State True or False.
 
-Due to Continuous Integration code can be tested easily by creating separate, test or development branches based on the mainline code.
+Due to Continuous Integration, code can be tested easily by creating separate, test or development branches based on the mainline code.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 

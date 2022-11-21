@@ -141,8 +141,11 @@ We can use date pipe to date in this format "MM/dd/yy".Also, we can get the curr
 <blockquote markdown="1">
 
 1.Create an angular application by running `ng new myapp` command 
+
 2.Create a custom pipe to count words by running the `ng g pipe wordcount` command
+
 3.In the `wordcount.pipe.ts` file, write the logic for word count
+
 ```ts
 import { Pipe, PipeTransform } from '@angular/core';
 @Pipe({   name: 'wordcount' })
@@ -280,7 +283,9 @@ Some of the built-in pipes are:
 <blockquote markdown="1">
 
 1.Create an angular application by running `ng new myapp` command 
+
 2.In `app.component.html`, get the user's birthdate.Also, import `FormsModule` in the `app.module.ts` and create a `birthdate` variable of type `number` like `birthday !: number;` in the `app.component.ts`.
+
  ```html
  <p>Enter your birthday: <input type="date" [(ngModel)]="birthday"> <br/></p>
 

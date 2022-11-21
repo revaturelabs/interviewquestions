@@ -191,7 +191,7 @@ export class AppModule { }
   
 ---
  
-10.If I want to use the pipe in two components, what I should do?
+10.If I want to use the pipe in two components, what should I do?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 

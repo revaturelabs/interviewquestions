@@ -1,5 +1,7 @@
 1.Design an angular application with the following criteria.
+
     - `/login` needs to be the login page or template
+    
     - `/register` need to be the register page or template
  
 
@@ -10,8 +12,11 @@
 <blockquote markdown="1">
     
 1.Run the `ng new routing-app --routing ` command to generate a basic Angular app with an app routing module, where we can configure our routes.
+
 2.To use the Angular router, an app needs to have at least two components so that it can navigate from one to the other.Run these commands `ng g c login` and `ng g c register` to generate 2 components - *LoginComponent* and RegisterComponent*.
+
 3.In the app routing module, the CLI creates a Routes array used to define our routes.There we can path `/login`  and  `/register`
+
 ```typescript
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -24,7 +29,7 @@ const routes: Routes = [
   
 ---
  
-2.How do to create an angular project, when I need to navigate between components?
+2.How to create an angular project, when I need to navigate between components?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 

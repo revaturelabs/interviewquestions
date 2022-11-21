@@ -1388,7 +1388,7 @@ def print_colours(*args):
 print_colours('red','blue','gray','yellow')
 ```
 
-** **kwargs example **
+****kwargs example**
   
 ```python
 def print_num(**kwargs):
@@ -2652,7 +2652,7 @@ finally:
     print("Bye")
 ```
  
-**Output:  **
+**Output:**
   
 Hello
 Oh then

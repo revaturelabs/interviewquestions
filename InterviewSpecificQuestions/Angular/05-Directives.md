@@ -188,7 +188,9 @@ export class AppComponent {
 ---
 
 7.Design angular application with the following criteria
+
 	-  Get a number from the user.
+	
 	-  Print it as an even number or an odd number
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
@@ -198,6 +200,7 @@ export class AppComponent {
 <blockquote markdown="1">
 	
 1.Create an angular project by running `ng new angularDemo2` command in the angular CLI
+
 2.In the `app.component.html` file, create a form to get the `name` and `age` from the user
 ```html
 Enter a number: <input type="text" [(ngModel)]="num" />
@@ -256,7 +259,9 @@ Enter a number: <input type="text" [(ngModel)]="num">
 Steps to creating custom directive in angular:
 	
 1.To create an angular application, run `ng new myapp` command.
+
 2.Then, we can create a directive by running the `ng g d myHighlight` command.Angular CLI creates two files `my-highlight.directive.spec.ts` and `my-highlight.directive.ts` and updates `app.module.ts`
+
 3.In `my-highlight.directive.ts`, we will create an instance of `ElementRef` and just high lighting the background color as yellow.
 ```ts
 import { Directive, ElementRef} from '@angular/core';
@@ -346,9 +351,13 @@ ngAfterViewInit() {
 <summary><b>Show Answer</b></summary>
 <blockquote markdown="1">
 	
+	
 1.To create an angular application, run `ng new myapp` command.
+
 2.Then, we can create a directive by running `ng g d myHighlight` command.Angular CLI creates two files `my-highlight.directive.spec.ts` and `my-highlight.directive.ts` and updates `app.module.ts`
+
 3.In `my-highlight.directive.ts`, we will create an instance of `ElementRef` and highlighting based on the mouseover and mouseleave.
+
 ```ts
 import { Directive, ElementRef, HostListener } from '@angular/core';
 
