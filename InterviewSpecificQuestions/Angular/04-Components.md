@@ -177,8 +177,11 @@ export class AppModule { }
 
 **Steps:**
 1.Run `ng g c user` in the terminal, CLI creates a component and registers this component in the AppModule.Now, you're able to see a `user` folder inside `src/app`.
+
 2.Move to the `src/app/user` folder.
+
 3.Run `ng g c user-login` in the terminal, CLI creates the `user-login` component
+
 4.Run `ng g c user register in the terminal, CLI creates `the user register component
 
 ![image](https://user-images.githubusercontent.com/70228962/186089554-ec5c403b-dd95-4f13-83ce-2bd90e4b67c2.png)
@@ -363,12 +366,19 @@ When you generate an Angular application with the Angular CLI, the `app.componen
 Angular calls these hook methods in the following order:
 
 1.**`ngOnChanges`**: When an input/output binding value changes.
+
 2.**`ngOnInit`**: After the first `ngOnChanges`.
+
 3.**`ngDoCheck`**: Developer's custom change detection.
+
 4.**`ngAfterContentInit`**: After component content initialized.
+
 5.**`ngAfterContentChecked`**: After every check of component content.
+
 6.**`ngAfterViewInit`**: After a component's views are initialized.
+
 7.**`ngAfterViewChecked`**: After every check of a component's views.
+
 8.**`ngOnDestroy`**: Just before the component/directive is destroyed.
 
 </blockquote>
