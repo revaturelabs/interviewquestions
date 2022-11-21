@@ -182,9 +182,9 @@ Yes.
 - MIN – finds the minimum in the group defined
 - MAX – finds the maximum in the group defined.
 
-</blockquote>
-
 </details>
+
+</blockquote>
 
 </details>
 
@@ -232,9 +232,9 @@ Additional data nodes requirement (approx.):
 4th quarter: 360.6/5.2 = 70 machines
 With these numbers, you can predict next year’s additional machines required for the cluster (last quarter + 24), (last quarter + 28) and so on.
 
-</blockquote>
-
 </details>
+
+</blockquote>
 
 </details>
 
@@ -256,9 +256,9 @@ We have 5 blocks (A/B/C/D/E) for a file, a client, a namenode and a datanode.So,
 
 So, during this process if 1st block of 100 MB is written to HDFS and the next block has been started by the client to store then 1st block will be visible to readers.Only the current block being written will not be visible to the readers.
 
-</blockquote>
-
 </details>
+
+</blockquote>
 
 </details>
 
@@ -402,10 +402,9 @@ Following operations need to be enabled to used CRUD operation:
 •	Table on which you want to perform the update and delete operation must be CLUSTERED BY with some Buckets
 •	Properties (explained below) must be enabled.You can add these properties in Hive-Site.xml for the global changes or on the command like for the session changes.
 
+</details>
 
 </blockquote>
-
-</details>
 
 </details>
 
@@ -463,9 +462,9 @@ So total 5 input splits will create based on 5 blocks.
 
 Note:  blocks-size does not mean the per file size on the disc, it means the unit for replication in HDFS and input split in Map Reduce.
 
-</blockquote>
-
 </details>
+
+</blockquote>
 
 </details>
 
@@ -507,9 +506,9 @@ In Mapreduce the data is stored in disks, so it is slower.
 
 At the same time for batch processing where huge sets of data is there and time limit is not a factor mapreduce is definitely preferred, whereas for smaller datasets where we need quick to and for access to the data, Spark is preferred.
 
-</blockquote>
-
 </details>
+
+</blockquote>
 
 </details>
 
@@ -530,10 +529,9 @@ Yes it is possible.
 - Scenario- one mapper and one reducer.The simple approach in that case would be before you place your input in hdfs make a copy and use it twice you will get two sets of output.In this approach you can't expect a different outcome in both run if you have the Same keys in mapper.If in case, you have one set of keys for your mapper during first run and a different set for second run then is possible.
 - scenario - multiple mappers and one reducer in this case two set of map keys and one reducer so you can run the i out against two different mapper keys simultaneously.
 
+</details>
 
 </blockquote>
-
-</details>
 
 </details>
 
@@ -556,9 +554,9 @@ When a MapReduce program starts, the Mappers execute on the DNs on which blocks 
 All of the work of the MapReduce program is performed on the DNs.That is where the data that the MR program works on resided.
 
 
-</blockquote>
-
 </details>
+
+</blockquote>
 
 </details>
 
@@ -582,9 +580,9 @@ The reasons being -
 - Maintaining checkpoint information requires a lot of bandwidth and resources, which again is a bottleneck for mapreduce applications.
 - Recovering a task from a checkpoint also requires a lot of IO and network, which would affect our applications.
 
-</blockquote>
-
 </details>
+
+</blockquote>
 
 </details>
 
@@ -743,6 +741,8 @@ No , Hadoop never replace any data warehouse system.
 
 Hadoop will not replace a data warehouse because the data and its platform are two non-equivalent layers in Data warehouse architecture.
 
+</details
+>
 </blockquote>
 
 </details>
@@ -796,6 +796,8 @@ It is used to Provide AvroMapper and AvroReducer class for running the Mapreduce
 <details markdown="1"><summary> Explanation </summary>
 
 It is used to Provide AvroMapper and AvroReducer class for running the Mapreduce program in hadoop.Which helps Avro Serialization work.
+
+</details>
 
 </blockquote>
 
@@ -899,6 +901,8 @@ HDFS, blocks cannot be broken down.
 <details markdown="1"><summary> Explanation </summary>
 
 Before copying the blocks from one machine to another, the Master node will figure out what is the actual amount of space required, how many block are being used, how much space is available, and it will allocate the blocks accordingly.
+
+</details>
 
 </blockquote>
 
@@ -1248,6 +1252,8 @@ RDD work as a distributed collection of data elements spread across many machine
 
 Storage memory is used for caching purposes and execution memory is acquired for temporary structures like hash tables for aggregation, joins etc.
 
+</details>
+
 </blockquote>
 
 </details>
@@ -1339,6 +1345,8 @@ start-all.sh  - start the all hadoop daemons.
 - start-mapred.sh - Starts the Hadoop Map/Reduce daemons, the jobtracker and tasktrackers.
 - tart-all.sh - Starts all the Hadoop daemons, the namenode, datanodes, the jobtracker and tasktrackers.
 
+</details>
+
 </blockquote>
 
 </details>
@@ -1371,6 +1379,8 @@ Yes , it is possible to input multiple files in the same directory.
 <details markdown="1"><summary> Explanation </summary>
 
 hadoop doesn’t read the directory recursively.Suppose , multiple input files like file1, file2, file3 , file4 , etc.are present in the /folder1, then Set mapreduce.input.
+
+</details>
 
 </blockquote>
 
@@ -1651,6 +1661,8 @@ In the Hadoop the default block size is 128 MB.
 
 In HDFS data is stored in the terms of Block.It is the size of the file that get divided into when the file is store in any node.In the Hadoop the default block size is 128 MB.
 
+</details>
+
 </blockquote>
 
 </details>
@@ -1804,6 +1816,8 @@ Flume is an open-source, powerful, reliable, and flexible system used to collect
 
 In Hadoop 1.0 we need to specify in mapred-site.xml the following parameter to Configure the number of map slots and reduce slots.
 
+</details>
+
 </blockquote>
 
 </details>
@@ -1864,6 +1878,8 @@ When the JobTracker submits jobs to the TaskTracker and the tasks on that the no
 <details markdown="1"><summary> Explanation </summary>
 
 Dead Node , which are not in the cluster or configure but not showing into the cluster.
+
+</details>
 
 </blockquote>
 
@@ -2348,6 +2364,7 @@ Yes, its support the streaming data easily .
 
 With streaming data integration for Hadoop, we can easily feed your Hadoop and NoSQL solutions continuously with real-time, pre-processed data from enterprise databases, log files, messaging systems too.
 
+</details>
 
 </blockquote>
 
@@ -2390,6 +2407,8 @@ Here are five businesses successfully using Hadoop:
 - Royal Bank of Scotland....
 - British Airways....
 - Expedia.
+
+</details>
 
 </blockquote>
 
@@ -2472,7 +2491,6 @@ In HDFS, blocks cannot be broken down.
 <details markdown="1"><summary> Show Answer </summary>
 
 As we know , Namenode is responsible for managing the meta storage of the cluster, suppose if something is missing from the cluster then Namenode will be held.It will makes Namenode checking all the necessary information during the safe mode before making cluster writable to the users.
-
 
 
 </blockquote>
@@ -2707,7 +2725,6 @@ def calculate(sparkSession: SparkSession): Unit = {
 - The ```repartition``` statement generates 10 partitions (no matter if it were more or less when they were loaded from wherever).These might become quite large on huge datasets and probably won’t fit into the allocated memory for one executor.
 
 - Also, only one partition can be allocated per executor.This means, only 10 out of the 240 executors are used (10 nodes with 24 cores, each running one executor).
-
 
 
 </blockquote>
@@ -3290,6 +3307,8 @@ Spark supports Quering data via a HiveQL.
 
 HiveQL has similar Query performance.
 
+</details>
+
 </blockquote>
 
 </details>
@@ -3349,6 +3368,7 @@ It provides the checkpoints , to allow for code to run all around the clock to m
 
 - Actions in Spark helps in bringing back the data from an RDD to the local machine.
 
+</details>
 
 </blockquote>
 
