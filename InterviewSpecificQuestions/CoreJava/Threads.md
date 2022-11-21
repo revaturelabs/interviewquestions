@@ -26,6 +26,7 @@ A process is a program in execution.A thread is a subset of a process.
 In Java, we can create a thread using
 
 1.By Extending the Thread class
+
 2.By Implementing Runnable interface in Java
 
  
