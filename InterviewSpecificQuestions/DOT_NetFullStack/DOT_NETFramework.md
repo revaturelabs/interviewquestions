@@ -356,9 +356,13 @@ The steps for executing a managed code are as follows:
 The different parts of an Assembly are:
 
 i.Manifest: Also known as the assembly metadata, it has information about the version of an assembly.
+
 ii.Type Metadata: Binary information of the program.
+
 iii.MSIL: Microsoft Intermediate Language code.
+
 iv.Resources: List of related files.
+
 
 </blockquote>
 
