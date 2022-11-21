@@ -52,7 +52,6 @@ alter table table_name add primary key(column_name);
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
-> 
 ```sql
 create database school;
 
