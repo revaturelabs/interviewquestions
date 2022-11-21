@@ -3135,7 +3135,7 @@ The class is not iterable or indexable or anything like that.If possible, I woul
 <blockquote markdown="1">
 
 - Yes, it is possible.When min takes one argument, it assumes it to be an iterable, iterates over it and takes the minimum value.So,
-  C  
+  
 ```python
 class A:
     def __init__(self, a, b):
