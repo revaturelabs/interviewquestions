@@ -422,7 +422,6 @@ db.collection_name.find({
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
-> 
 ```
 db.student.find({
       $and: [
