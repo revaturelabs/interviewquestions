@@ -4,7 +4,7 @@
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1">
+<details open  markdown="1">
 <summary> Show Answer </summary>
 
 <blockquote markdown="1">
@@ -27,7 +27,7 @@ The Hadoop cluster is  up and running, the NameNode recovery method used the fol
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -44,7 +44,7 @@ The Hadoop cluster is  up and running, the NameNode recovery method used the fol
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -66,7 +66,7 @@ Component of Spark:
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -76,7 +76,7 @@ Component of Spark:
 
 2.$ huffs dfs -put /local-file-path /huffs-file-path
 
-<details markdown="1"> <summary><b>Explanation</b></summary>
+<details open  markdown="1"> <summary><b>Explanation</b></summary>
 
 To copy a file from the local file system to HDFS, use Hadoop fs -put or hdfs dfs -put, on put command, specify the local-file-path where we wanted to copy from and then HDFS-file-path where you wanted to copy to.If the file already exists on HDFS, we will get an error message saying “File already exists”.
 
@@ -92,7 +92,7 @@ To copy a file from the local file system to HDFS, use Hadoop fs -put or hdfs df
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -110,7 +110,7 @@ To copy a file from the local file system to HDFS, use Hadoop fs -put or hdfs df
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -128,7 +128,7 @@ To copy a file from the local file system to HDFS, use Hadoop fs -put or hdfs df
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -146,7 +146,7 @@ To copy a file from the local file system to HDFS, use Hadoop fs -put or hdfs df
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -166,14 +166,14 @@ To copy a file from the local file system to HDFS, use Hadoop fs -put or hdfs df
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
    Yes
 - Aggregate functions are one of these features in SQL functions.It is a very powerful feature for me as an MS Excel.Aggregate functions are not specific to SQL, they are used often.They are part of the SELECT statement, and this allows us to have all benefits of SELECT (joining tables, filtering only rows and columns we need), combined with the power of these functions.
 
-<details markdown="1"><summary> Explanation </summary>
+<details open  markdown="1"><summary> Explanation </summary>
 
 - Aggregate Functions:
 
@@ -195,14 +195,14 @@ To copy a file from the local file system to HDFS, use Hadoop fs -put or hdfs df
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
 The actual size of data to store – 600 TB
 Space utilization between 60 % to 70 % 
 
-<details markdown="1"><summary> Explanation </summary>
+<details open  markdown="1"><summary> Explanation </summary>
 
 Let’s do some calculations to find the number of data nodes <br>
 required to store 600 TB of data:<br>
@@ -246,13 +246,13 @@ With these numbers, you can predict next year’s additional machines required f
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
 - The default block size is 64 MB in Hadoop 1x and 128 MB in Hadoop 2x whereas in such a scenario let us consider block size to be 100 MB which means that we are going to have 5 blocks replicated 3 times (default replication factor).
 
-<details markdown="1"><summary> Explanation </summary>
+<details open  markdown="1"><summary> Explanation </summary>
 
 - We have 5 blocks (A/B/C/D/E) for a file, a client, a namenode and a datanode.So, first the client will take Block A and will approach namenode for datanode location to store this block and the replicated copies.Once the client is aware of the datanode information, it will directly reach out to datanode and start copying Block A which will be simultaneously replicated to other 2 datanodes.Once the block is copied and replicated to the datanodes, the client will get the confirmation about the Block A storage and then, it will initiate the same process for the  next block “Block B”.
 
@@ -270,7 +270,7 @@ With these numbers, you can predict next year’s additional machines required f
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -286,7 +286,7 @@ We are aware of a complete process on how to decommission a datanode and there a
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -303,7 +303,7 @@ we can use monotonically_increasing_id() in withColumn
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -319,7 +319,7 @@ Yarn application -list
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -337,7 +337,7 @@ nosql db.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -353,7 +353,7 @@ In that case we can use limit function (say 1000 records ) ,cache it and then us
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -369,7 +369,7 @@ Kafka consumers is a part of a consumer group.When multiple consumers are subscr
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -389,14 +389,14 @@ Three ways to create a DataFrame in Spark:
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
 With the help of ACID operations, HIVE can perform a CRUD operation.
 We should have some minimum requirements for the CRUD operation using ACID properties in Hive.We always need to enable the properties in Hive to be used CRUD operation.
 
-<details markdown="1"><summary> Explanation </summary>
+<details open  markdown="1"><summary> Explanation </summary>
 
 Following operations need to be enabled to used CRUD operation:
 - The version of Hive should be minimum 0.14 and above
@@ -416,7 +416,7 @@ Following operations need to be enabled to used CRUD operation:
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -436,7 +436,7 @@ How will we manage this Situation In HDFS?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -456,7 +456,7 @@ So total 5 input splits will create based on 5 blocks.
 
 
 
-<details markdown="1"><summary> Explanation </summary>
+<details open  markdown="1"><summary> Explanation </summary>
 
 1.128K file size: 
 
@@ -476,7 +476,7 @@ Note:  blocks-size does not mean the per file size on the disc, it means the uni
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -492,7 +492,7 @@ Hash Partion is the default partitioner in hadoop which is handled by Hadoop int
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -500,7 +500,7 @@ No.
 
 Yes, definitely ,Spark is much better than Map reduce , we can call it is an enhancement but not a replacement.
 
-<details markdown="1"><summary> Explanation </summary>
+<details open  markdown="1"><summary> Explanation </summary>
 
 Spark is definitely faster than mapreduce as all the processing is done in the memory, where the data is stored.So fast access to data is possible making it quicker.
 
@@ -520,13 +520,13 @@ At the same time for batch processing where huge sets of data is there and time 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
 Yes it is possible.
 
-<details markdown="1"><summary> Explanation </summary>
+<details open  markdown="1"><summary> Explanation </summary>
 
 - Scenario- one mapper and one reducer.The simple approach in that case would be before you place your input in hdfs make a copy and use it twice you will get two sets of output.In this approach you can't expect a different outcome in both run if you have the Same keys in mapper.If in case, you have one set of keys for your mapper during first run and a different set for second run then is possible.
 - scenario - multiple mappers and one reducer in this case two set of map keys and one reducer so you can run the i out against two different mapper keys simultaneously.
@@ -543,13 +543,13 @@ Yes it is possible.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
 The Shuffle and Sort process takes place on the Data Nodes (DNs), the same DNs where the Mappers executed and where the Reducers will execute.
 
-<details markdown="1"><summary> Explanation </summary>
+<details open  markdown="1"><summary> Explanation </summary>
 
 When a MapReduce program starts, the Mappers execute on the DNs on which blocks of the input file(s) are stored in HDFS.The Mappers execute against the splits of the input file(s).Once the Mappers finish execution, like keys and their associated values are sent to the same DN as input to a Reducer.This is the Shuffle phase.
 
@@ -568,13 +568,13 @@ All of the work of the MapReduce program is performed on the DNs.That is where t
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
 Failure detection and recovery in hadoop happens at a task level itself.Suppose a task fails, it will return  another available node.
 
-<details markdown="1"><summary> Explanation </summary>
+<details open  markdown="1"><summary> Explanation </summary>
 
 The reasons being:
 
@@ -594,7 +594,7 @@ The reasons being:
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -610,7 +610,7 @@ yes you can do it - but it may be a pretty bad idea.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -626,7 +626,7 @@ Suppose this situation happen , as NameNode gets fail the whole Hadoop cluster w
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -642,7 +642,7 @@ Suppose , we wants the jobs to make Equal progress ,whereas following the FIFO p
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -663,7 +663,7 @@ Hadoop cluster has 5 daemons.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -682,7 +682,7 @@ Hadoop cluster has 5 daemons.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -698,7 +698,7 @@ It is used to check if a specific daemon is up or not as well as It is processes
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -716,7 +716,7 @@ It is possible to the copy files across the multiple Hadoop clusters, and this c
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -734,13 +734,13 @@ HDFS blocks be broken to this is input split.As HDFS does not know the content o
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
 No , Hadoop never replace any data warehouse system.
 
-<details markdown="1"><summary> Explanation </summary>
+<details open  markdown="1"><summary> Explanation </summary>
 
 Hadoop will not replace a data warehouse because the data and its platform are two non-equivalent layers in Data warehouse architecture.
 
@@ -756,7 +756,7 @@ Hadoop will not replace a data warehouse because the data and its platform are t
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -774,7 +774,7 @@ Hadoop will not replace a data warehouse because the data and its platform are t
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -790,13 +790,13 @@ When a file is written to the HDFS, it is replicated to multiple core nodes.When
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
 It is used to Provide AvroMapper and AvroReducer class for running the Mapreduce program in hadoop.Which helps Avro Serialization work .
 
-<details markdown="1"><summary> Explanation </summary>
+<details open  markdown="1"><summary> Explanation </summary>
 
 It is used to Provide AvroMapper and AvroReducer class for running the Mapreduce program in hadoop.Which helps Avro Serialization work.
 
@@ -812,7 +812,7 @@ It is used to Provide AvroMapper and AvroReducer class for running the Mapreduce
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -828,7 +828,7 @@ With the help of <b> SkipBadRecords class </b> , we can skip the bad records in 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -844,7 +844,7 @@ It is a tool which is used to copy large amounts of data to and from hadoop file
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -861,7 +861,7 @@ It is a tool which is used to copy large amounts of data to and from hadoop file
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 Yes.
@@ -878,7 +878,7 @@ Hive Metastore allow multiple users at the same time.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -896,13 +896,13 @@ Hive Metastore allow multiple users at the same time.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
 HDFS, blocks cannot be broken down.
 
-<details markdown="1"><summary> Explanation </summary>
+<details open  markdown="1"><summary> Explanation </summary>
 
 Before copying the blocks from one machine to another, the Master node will figure out what is the actual amount of space required, how many block are being used, how much space is available, and it will allocate the blocks accordingly.
 
@@ -918,7 +918,7 @@ Before copying the blocks from one machine to another, the Master node will figu
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -934,7 +934,7 @@ The reducer phase will be started atleast 5% of total mappers have completed the
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -951,7 +951,7 @@ It holds the data , that data must be analyzed and dimension table stores data a
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -970,7 +970,7 @@ It holds the data , that data must be analyzed and dimension table stores data a
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -986,7 +986,7 @@ Hive is used to helps in finding the position of a substring in a string.It will
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1002,7 +1002,7 @@ It is possible to make relation between 10 tables.We can consider relation betwe
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1023,7 +1023,7 @@ It is possible to make relation between 10 tables.We can consider relation betwe
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1041,7 +1041,7 @@ It is possible to make relation between 10 tables.We can consider relation betwe
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1059,7 +1059,7 @@ It is possible to make relation between 10 tables.We can consider relation betwe
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1077,7 +1077,7 @@ It is possible to make relation between 10 tables.We can consider relation betwe
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1095,7 +1095,7 @@ It is possible to make relation between 10 tables.We can consider relation betwe
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1111,7 +1111,7 @@ We would have to import the data to an intermediate table and then insert into t
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1128,7 +1128,7 @@ Mapreduce used to process the task in a block of data at a time.Many small files
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1144,7 +1144,7 @@ Map side join is usually used when one data set is large and the other data set 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1160,7 +1160,7 @@ Hadoop-metrics properties file  is used to control the reporting for hadoop.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1178,7 +1178,7 @@ Hadoop-metrics properties file  is used to control the reporting for hadoop.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1194,7 +1194,7 @@ RDD work as a distributed collection of data elements spread across many machine
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1217,7 +1217,7 @@ RDD work as a distributed collection of data elements spread across many machine
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1244,7 +1244,7 @@ RDD work as a distributed collection of data elements spread across many machine
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1252,7 +1252,7 @@ RDD work as a distributed collection of data elements spread across many machine
 2.	Storage memory 
 
 
-<details markdown="1"><summary> Explanation </summary>
+<details open  markdown="1"><summary> Explanation </summary>
 
 
 Storage memory is used for caching purposes and execution memory is acquired for temporary structures like hash tables for aggregation, joins etc.
@@ -1269,7 +1269,7 @@ Storage memory is used for caching purposes and execution memory is acquired for
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1298,7 +1298,7 @@ use this to create Spark RDD.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1328,7 +1328,7 @@ SparkSession in spark-shell:
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 > Class path will contains the list of directories containing jar files required to stop/start daemons.
 
@@ -1342,7 +1342,7 @@ SparkSession in spark-shell:
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1350,7 +1350,7 @@ stop-dfs.sh   - shutdown the DFS daemons.<br>
 start-mapred.sh  - start the map-reduce daemons.<br>
 start-all.sh  - start the all hadoop daemons.<br>
 
-<details markdown="1"><summary> Explanation </summary>
+<details open  markdown="1"><summary> Explanation </summary>
 
 - stop-dfs.sh - Stops the Hadoop DFS daemons.
 - start-mapred.sh - Starts the Hadoop Map/Reduce daemons, the jobtracker and tasktrackers.
@@ -1368,7 +1368,7 @@ start-all.sh  - start the all hadoop daemons.<br>
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 > - we store all the hostnames with their IP addresses in /etc./hosts so, that we can use hostnames easily instead of the IP addresses.
 
@@ -1381,14 +1381,14 @@ start-all.sh  - start the all hadoop daemons.<br>
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
 Yes , it is possible to input multiple files in the same directory.
 
 
-<details markdown="1"><summary> Explanation </summary>
+<details open  markdown="1"><summary> Explanation </summary>
 
 hadoop doesn’t read the directory recursively.Suppose , multiple input files like file1, file2, file3 , file4 , etc.are present in the /folder1, then Set mapreduce.input.
 
@@ -1404,7 +1404,7 @@ hadoop doesn’t read the directory recursively.Suppose , multiple input files l
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1422,7 +1422,7 @@ Basically, Sqoop  is used as a tool to transfer data between Hadoop and Relation
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1440,7 +1440,7 @@ Amazon Web Services (AWS), Google Cloud Platform, Alibaba, Microsoft Azure, and 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1456,7 +1456,7 @@ Kafka is a distributed system is built to use Zookeeper.Basically, it is main us
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1475,7 +1475,7 @@ Three ways to create a DataFrame in Spark:
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 Kafka consumers is a part of a consumer group.When multiple consumers are subscribed to a topic and belong to the same consumer group, each consumer in the group will receive messages from a different subset of the partitions in the topic.
 
@@ -1489,7 +1489,7 @@ Kafka consumers is a part of a consumer group.When multiple consumers are subscr
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1505,7 +1505,7 @@ Having 128MB(huge) block size is to minimize the cost of seek and reduce the dat
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1523,7 +1523,7 @@ now datanode will create the data write pipeline.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1541,7 +1541,7 @@ Now it will interact directly with the respective datanodes to read the data blo
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1558,7 +1558,7 @@ It  is a signal from Datanode to Namenode to indicate that it is alive.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1580,7 +1580,7 @@ df.withColumn(“batchtime”,lit(batchtime)
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1596,7 +1596,7 @@ With the help of  monotonically_increasing_id()
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1612,7 +1612,7 @@ Hadoop fs – get hdfsdir local dir
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1630,7 +1630,7 @@ Hadoop fs – get hdfsdir local dir
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1646,7 +1646,7 @@ Using Parquet file in hive.After that we can deleting the old HDFS data and then
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1662,7 +1662,7 @@ Hadoop comes to rescue for various problems like storage, NoSQL, Datawarehouse, 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1679,7 +1679,7 @@ Hadoop comes to rescue for various problems like storage, NoSQL, Datawarehouse, 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1695,13 +1695,13 @@ It is used to chooses closer Datanodes based on the rack information.Which helps
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
 In the Hadoop the default block size is 128 MB.
 
-<details markdown="1"><summary> Explanation </summary>
+<details open  markdown="1"><summary> Explanation </summary>
 
 In HDFS data is stored in the terms of Block.It is the size of the file that get divided into when the file is store in any node.In the Hadoop the default block size is 128 MB.
 
@@ -1717,7 +1717,7 @@ In HDFS data is stored in the terms of Block.It is the size of the file that get
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1738,7 +1738,7 @@ In HDFS data is stored in the terms of Block.It is the size of the file that get
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1754,7 +1754,7 @@ The HDFS balancer re-balances data across the DataNodes, moving blocks from the 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1770,7 +1770,7 @@ The responsibilities of a Hadoop admin include deploying a hadoop cluster, maint
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1786,7 +1786,7 @@ Kerberos was designed to the provide secure authentication to services over an i
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1804,7 +1804,7 @@ We can configure the maximum number of times a particular map or reduce the task
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1820,7 +1820,7 @@ FsImage is a file stored on the OS filesystem that contains the complete directo
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1837,7 +1837,7 @@ Pig, is a repository of user-submitted UDF, contains a custom loader function Co
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1853,7 +1853,7 @@ Use filters to temporarily hide some of the data in a table, so you can focus on
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1869,14 +1869,14 @@ Flume is an open-source, powerful, reliable, and flexible system used to collect
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
 
 - Map Reduce Jobs are split into task whereas Task tracker runs each task on a fixed number of map and reduce slots inside a data node based on a static configuration.
 
-<details markdown="1"><summary> Explanation </summary>
+<details open  markdown="1"><summary> Explanation </summary>
 
 In Hadoop 1.0 we need to specify in mapred-site.xml the following parameter to Configure the number of map slots and reduce slots.
 
@@ -1892,7 +1892,7 @@ In Hadoop 1.0 we need to specify in mapred-site.xml the following parameter to C
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1909,7 +1909,7 @@ We are used to connected through the  Read and write operation is through networ
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1925,7 +1925,7 @@ The minimum number of the nodes that is required is 3.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1941,13 +1941,13 @@ Install Hadoop cluster in a  production mode which help us to setup the cluster 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
 When the JobTracker submits jobs to the TaskTracker and the tasks on that the node have failed too many times, the JobTracker will blacklisted a TaskTracker.
 
-<details markdown="1"><summary> Explanation </summary>
+<details open  markdown="1"><summary> Explanation </summary>
 
 Dead Node , which are not in the cluster or configure but not showing into the cluster.
 
@@ -1963,7 +1963,7 @@ Dead Node , which are not in the cluster or configure but not showing into the c
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -1983,7 +1983,7 @@ Dead Node , which are not in the cluster or configure but not showing into the c
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2000,7 +2000,7 @@ The cluster could be in a safe mode after the restart of a namenode.The administ
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2019,7 +2019,7 @@ The cluster could be in a safe mode after the restart of a namenode.The administ
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2035,7 +2035,7 @@ If Namenode is down then data requested by the client and gives the block inform
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2052,7 +2052,7 @@ There could be a separate configuration file for configuring the properties of t
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2068,7 +2068,7 @@ To create the HDFS home directory [i.e../user/] on edge node.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2085,7 +2085,7 @@ It will reduce the job execution time; however, the clustering efficiency is aff
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2102,7 +2102,7 @@ Serialization is the process of the converting an object into a stream of bytes 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2122,7 +2122,7 @@ Serialization is the process of the converting an object into a stream of bytes 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2138,7 +2138,7 @@ We need to read a lines, count the number of commas and the number of tabs and c
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2154,7 +2154,7 @@ The COGROUP operator works more or less in the same way as the GROUP operator.Th
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2170,7 +2170,7 @@ We will use a Inner Join to join a two big table in Hive.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2186,7 +2186,7 @@ Flume agent configuration is stored in a local configuration file.Configurations
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2206,7 +2206,7 @@ The following syntax is used to import data into HDFS.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2222,7 +2222,7 @@ Number of mappers indicates how parallel our Sqoop job is running .
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2238,7 +2238,7 @@ No, it is not mandatory to set the input and output type/format in MapReduce.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2254,7 +2254,7 @@ Fact table is defined by their grain or its most atomic level whereas Dimension 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2271,7 +2271,7 @@ Bucketing decomposes data into more manageable or equal parts.With partitioning,
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2290,7 +2290,7 @@ Dimension table Dimension table is a table which contain attributes of measureme
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2308,7 +2308,7 @@ Our Source is the Twitter, from where we are streaming the data and our Sink is 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2327,7 +2327,7 @@ Heap errors can occur when your code inadvertently overwrites control informatio
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2344,7 +2344,7 @@ There are two types of join operations in MapReduce are: Map Side Join: As the n
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2361,7 +2361,7 @@ Environment variables store data that is used by the operating system and the ot
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2379,7 +2379,7 @@ Environment variables store data that is used by the operating system and the ot
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2396,7 +2396,7 @@ Hadoop is a distributed file system, which lets you store and the handle massive
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2414,7 +2414,7 @@ Hadoop is a distributed file system, which lets you store and the handle massive
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2432,7 +2432,7 @@ Hadoop is a distributed file system, which lets you store and the handle massive
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2449,7 +2449,7 @@ In a Hadoop cluster a Manager node will be deployed on a reliable hardware with 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2467,13 +2467,13 @@ It is a utility which comes under Hadoop distribution.It allows to create and ru
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
 Yes, its support the streaming data easily .
 
-<details markdown="1"><summary> Explanation </summary>
+<details open  markdown="1"><summary> Explanation </summary>
 
 With streaming data integration for Hadoop, we can easily feed your Hadoop and NoSQL solutions continuously with real-time, pre-processed data from enterprise databases, log files, messaging systems too.
 
@@ -2490,7 +2490,7 @@ With streaming data integration for Hadoop, we can easily feed your Hadoop and N
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2508,14 +2508,14 @@ In fakebook’s data  with mounds of information.Every 60 seconds, 136,000(appro
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
 
 Aprrox.361 companies reportedly use Hadoop in their tech stacks, including Uber, Airbnb, and Shopify.
 
-<details markdown="1"><summary> Explanation </summary>
+<details open  markdown="1"><summary> Explanation </summary>
 
 Here are five businesses successfully using Hadoop:
 
@@ -2538,7 +2538,7 @@ Here are five businesses successfully using Hadoop:
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2555,7 +2555,7 @@ No, calculations will be done only on the original data.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2573,7 +2573,7 @@ In HDFS, blocks cannot be broken down.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2592,7 +2592,7 @@ In HDFS, blocks cannot be broken down.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2612,7 +2612,7 @@ In HDFS, blocks cannot be broken down.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2629,7 +2629,7 @@ As we know , Namenode is responsible for managing the meta storage of the cluste
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2648,7 +2648,7 @@ Leader perform the task of all read and write requests for the partition, wherea
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2668,7 +2668,7 @@ Leader perform the task of all read and write requests for the partition, wherea
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2685,7 +2685,7 @@ Replication, we can be sure that published messages are not lost and can be cons
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2703,7 +2703,7 @@ Simply, it implies that the Follower cannot fetch data as fast as data accumulat
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2719,7 +2719,7 @@ whenever the Kafka Producer attempts to send messages at a pace that the Broker 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2739,7 +2739,7 @@ whenever the Kafka Producer attempts to send messages at a pace that the Broker 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2756,7 +2756,7 @@ Yes, Kafka is a streaming platform.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2772,7 +2772,7 @@ The maximum size of a message that can be received by the Kafka is approx.100000
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2815,7 +2815,7 @@ def calculate(sparkSession: SparkSession): Unit = {
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2865,7 +2865,7 @@ def calculate(sparkSession: SparkSession): Unit = {
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2886,7 +2886,7 @@ def calculate(sparkSession: SparkSession): Unit = {
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2903,7 +2903,7 @@ It is used to consume the data from different data sources and then move them to
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 Paraquet, JSON, XML, CSV, RC, Avro, TSV.
 
@@ -2917,7 +2917,7 @@ Paraquet, JSON, XML, CSV, RC, Avro, TSV.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2934,7 +2934,7 @@ It is a finite directed graph with no directed cycles.Here are finite numbers of
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2951,7 +2951,7 @@ Spark need not be installed when running a job under YARN or Mesos because Spark
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2967,7 +2967,7 @@ The Spark UI is available on port 4040 of the driver node.If you are running in 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -2984,7 +2984,7 @@ Sliding Window controls transmission of data packets between various computer ne
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3000,7 +3000,7 @@ Spark stores the data in-memory whereas Hadoop stores data on disk.Hadoop uses r
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3017,7 +3017,7 @@ Cost-Based Optimization is an optimization technique in Spark SQL that uses tabl
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3041,7 +3041,7 @@ Components of Hive:
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3061,7 +3061,7 @@ Components of Hive:
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3077,7 +3077,7 @@ Abstraction is spark is known as DStream or Discretized Stream, which is used to
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3098,7 +3098,7 @@ Abstraction is spark is known as DStream or Discretized Stream, which is used to
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3114,7 +3114,7 @@ Hive used to organize the table into partitions.Partitions work with creating a 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3135,7 +3135,7 @@ Hive used to organize the table into partitions.Partitions work with creating a 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3157,7 +3157,7 @@ With the help pf Job Traker and Task Tracker.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3175,7 +3175,7 @@ With the help pf Job Traker and Task Tracker.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3192,7 +3192,7 @@ Flatten is used as a modifier in Pig.It is a  un-nests bags and tuples whereas u
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 “pig –x local” will result in the prompt -
 
@@ -3208,7 +3208,7 @@ grunt >
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3225,7 +3225,7 @@ PigLatin scripts can be used in different way to use as a debugging tool.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3247,7 +3247,7 @@ Pig scripts are based on interpreter checking.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3265,7 +3265,7 @@ Pig scripts are based on interpreter checking.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3284,7 +3284,7 @@ Pig scripts are based on interpreter checking.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3302,7 +3302,7 @@ Pig, when we describe the schema of the data, it expects the data to come in the
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3319,7 +3319,7 @@ Pig, when we describe the schema of the data, it expects the data to come in the
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3336,7 +3336,7 @@ COUNT_STAR is used as a function includes Null values while counting whereas COU
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3352,7 +3352,7 @@ We can use UNION and SPLIT operation.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3368,7 +3368,7 @@ Basicallt TOP() function is used to returns the top N tuples from any specific b
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3385,7 +3385,7 @@ Basicallt TOP() function is used to returns the top N tuples from any specific b
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3405,7 +3405,7 @@ Result = Limit employee 10.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3428,7 +3428,7 @@ Result = Limit employee 10.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3445,7 +3445,7 @@ Using the grunt shell.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3469,7 +3469,7 @@ To get the Hadoop cluster up and running, the NameNode recovery method used the 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3487,13 +3487,13 @@ To get the Hadoop cluster up and running, the NameNode recovery method used the 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
 Spark supports Quering data via a HiveQL.
 
-<details markdown="1"><summary> Explanation </summary>
+<details open  markdown="1"><summary> Explanation </summary>
 
 HiveQL has similar Query performance.
 
@@ -3510,7 +3510,7 @@ HiveQL has similar Query performance.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3526,7 +3526,7 @@ It is used for storing the non-zero entries for saving the space.which includes 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3545,14 +3545,14 @@ It provides the checkpoints , to allow for code to run all around the clock to m
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
 - Transformations
 - Actions
 
-<details markdown="1"><summary> Explanation </summary>
+<details open  markdown="1"><summary> Explanation </summary>
 
 - Transformations are the functions which is used to applied to RDD that helps in creating another RDD.
 
@@ -3570,7 +3570,7 @@ It provides the checkpoints , to allow for code to run all around the clock to m
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3588,7 +3588,7 @@ By using the hardware clusters that are managed by Mesos , we can  run Apache Sp
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3607,7 +3607,7 @@ we can trigger automated clean-ups in Spark which is used to handle the accumula
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3625,7 +3625,7 @@ We can divide the long-running jobs into different batches and writing the inter
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3641,7 +3641,7 @@ It helps in the scheduling a process.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3658,7 +3658,7 @@ It is designed to make it easier for code debugging and unit testing .
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3674,7 +3674,7 @@ Who want to use data in serialization and deserialization wasy , those are the m
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3693,7 +3693,7 @@ Who want to use data in serialization and deserialization wasy , those are the m
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3711,7 +3711,7 @@ It offers a framework for authentication as well as protection of network protoc
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3730,7 +3730,7 @@ It is not supported by Hive.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3747,7 +3747,7 @@ The ```TIMESTAMP``` data type in Hive stores all data information in the java.sq
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3766,7 +3766,7 @@ The ```TIMESTAMP``` data type in Hive stores all data information in the java.sq
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3785,7 +3785,7 @@ It can run shell commands in Hive by adding a ‘!’ before the command.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3803,7 +3803,7 @@ It can run shell commands in Hive by adding a ‘!’ before the command.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3819,7 +3819,7 @@ SHOW DATABASES LIKE ‘c.*’
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3837,7 +3837,7 @@ We cannot delete the DBPROPERTY.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3855,7 +3855,7 @@ Hive tables only helps reduce the number of files that make for easier managemen
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3871,7 +3871,7 @@ We can use the ENABLE OFFLINE clause along with the ALTER TABLE command.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3887,7 +3887,7 @@ We can make Hive avoid MapReduce to return query results by setting the hive.exe
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3906,7 +3906,7 @@ It cannot be used with respect to a view in Hive.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3922,7 +3922,7 @@ SHOW INDEX ON table_name
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3946,7 +3946,7 @@ STREAMTABLE(TABLE_NAME)
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3962,7 +3962,7 @@ It allows for a table to be streamed into memory before a query is executed.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3982,7 +3982,7 @@ hash_function (int_type_column)= value of int_type_column
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 
@@ -3998,7 +3998,7 @@ We can store the Hive Data with the ORC (Optimized Row Column) format as it help
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 The Local File System and the Hadoop Distributed File System (HDFS) mainly because of the block size.
@@ -4016,7 +4016,7 @@ The block size in Hadoop HDFS is 64 MB in the initial version and in later versi
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 It is a variables that are used for aggregating information across the executors.
@@ -4032,7 +4032,7 @@ Example: This information can pertain to data or API diagnosis like how many rec
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
  It is a structure of the DataFrame which we can get by calling printSchema() method on the DataFrame object.
@@ -4054,7 +4054,7 @@ printSchema(level: Int): Unit
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 Spark home: a path to the Spark installation directory.
@@ -4071,7 +4071,7 @@ Main class: the name of the main class of the .py file.Select it from the list.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
         
@@ -4091,7 +4091,7 @@ Main class: the name of the main class of the .py file.Select it from the list.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
   
@@ -4107,7 +4107,7 @@ Parquet file is an open- Source file format, which is used for Hadoop ecosystem.
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
         
@@ -4126,7 +4126,7 @@ Would not result in any arithmetic being performed, since only the element 1 nee
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
 If the consumer crashes or is shut down, its partitions will be re-assigned to another member, which will begin consumption from the last committed offset of each partition.If the consumer crashes before any offset has been committed, then the consumer which takes over its partitions will use the reset policy.
@@ -4142,7 +4142,7 @@ If the consumer crashes or is shut down, its partitions will be re-assigned to a
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
         
@@ -4171,7 +4171,7 @@ flatMap[U](f : scala.Function1[T, scala.TraversableOnce[U]])(implicit evidence$4
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
         
@@ -4190,7 +4190,7 @@ def withColumnRenamed(existingName: String, newName: String): DataFrame
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
-<details markdown="1"><summary> Show Answer </summary>
+<details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
         
