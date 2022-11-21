@@ -206,6 +206,7 @@ Important Rule: The order of the catch block must be from most specific to most 
  We can handle exceptions using
 
  1.try, catch, and finally block
+ 
  2.throw, throws
  
 </blockquote>
