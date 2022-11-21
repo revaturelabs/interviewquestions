@@ -256,6 +256,7 @@ src
 - The `@Valid` annotation can be added to variables in a `RestController` mapping method to validate them.
 - In the below code our POST request takes in a request body, and we're mapping that request body to a class InputForm.
 - The `@Valid` annotation will tell Spring to go and validate the data passed into the controller i.e., age is between 18 and 60 inclusive because of those Bean Validation API annotations (min and max).
+
 ```java
 @RestController
 public class ValidateFormController {
