@@ -232,6 +232,7 @@ Docker will not download any already available layer of **alpine-git**.
 The command to get the required details about each layer is `docker history <ImageName/Id>`.
 
 </blockquotes>
+
 </details>
 
 ---
