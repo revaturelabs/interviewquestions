@@ -167,10 +167,10 @@ For Example:
 
 The four fundamental concepts of Object-Oriented Programming are:
 
-**Encapsulation**: Here, the internal representation of an object is hidden from the view outside the object’s definition.Only the required information can be accessed whereas the rest of the data implementation is hidden.
-**Abstraction**: It is a process of identifying the critical behaviour and data of an object and eliminating the irrelevant details.
-**Inheritance**: It is the ability to create new classes from another class.It is done by accessing, modifying and extending the behaviour of objects in the parent class.
-**Polymorphism**: The name means, one name, many forms.It is achieved by having multiple methods with the same name but different implementations.
+- **Encapsulation**: Here, the internal representation of an object is hidden from the view outside the object’s definition.Only the required information can be accessed whereas the rest of the data implementation is hidden.
+- **Abstraction**: It is a process of identifying the critical behaviour and data of an object and eliminating the irrelevant details.
+- **Inheritance**: It is the ability to create new classes from another class.It is done by accessing, modifying and extending the behaviour of objects in the parent class.
+- **Polymorphism**: The name means, one name, many forms.It is achieved by having multiple methods with the same name but different implementations.
 
 </blockquote>
 
@@ -762,6 +762,8 @@ To set the class to be inherited, it needs to be declared as public.The method n
 </blockquote>
 
 </details>
+
+
 ---
 
 38.How can a class be set to be inherited without overriding the method in C#?
