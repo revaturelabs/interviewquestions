@@ -177,7 +177,7 @@ Variables can be made unchangeable using read-only.For instance, if we want vari
   - $ a=10
   - $ readonly a
 
-</blocckquote>
+</blockquote>
 
 </details>
 
