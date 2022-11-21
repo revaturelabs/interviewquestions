@@ -97,10 +97,15 @@ Some reasons:
 **6 Phases:**
   
 1.**Requirement Analysis** - Collecting the feature requirements and identifying testable aspects
+
 2.**Test Planning** - Defining a test strategy and estimating the efforts and costs of the testing team.
+
 3.**Test Case Development** - Creating test cases.
+
 4.**Test Environment Setup** - Deciding the test environment conditions on which software is tested.
+
 5.**Test Execution** - Start executing test cases
+
 6.**Test Closure** - Preparing the test report document
 
 </blockquote>
