@@ -3746,7 +3746,7 @@ SHOW INDEX ON table_name
 ---
 
 
-208.What Does 
+208.What is the purpose of the below?
 
 ```python
 
@@ -3822,7 +3822,7 @@ The block size in Hadoop HDFS is 64 MB in the initial version and in later versi
 
 ---
 
-212.What do you know about accumulators.
+212.What do you know about accumulators?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -3860,7 +3860,7 @@ printSchema(level: Int): Unit
 
 ---
 
-214.How to use spark-submit
+214.How do we use spark-submit?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -3877,7 +3877,7 @@ Main class: the name of the main class of the .py file.Select it from the list.
 
 ---
 
-215.How to create a Hive table using a Spark DF
+215.How to create a Hive table using a Spark DF?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -3947,7 +3947,7 @@ If the consumer crashes or is shut down, its partitions will be re-assigned to a
 
 ---
 
-219.Tell me the difference between map and flatmap .
+219.Tell me the difference between map and flatmap.
 
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
@@ -3977,7 +3977,7 @@ flatMap[U](f : scala.Function1[T, scala.TraversableOnce[U]])(implicit evidence$4
 
 ---
 
-220.How do you Rename column in spark 
+220.How do you Rename column in spark?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
