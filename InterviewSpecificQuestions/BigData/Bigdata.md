@@ -1477,6 +1477,8 @@ Three ways to create a DataFrame in Spark:
 
 <details open  markdown="1"><summary> Show Answer </summary>
 
+<blockquote>
+
 Kafka consumers is a part of a consumer group.When multiple consumers are subscribed to a topic and belong to the same consumer group, each consumer in the group will receive messages from a different subset of the partitions in the topic.
 
 </blockquote>
@@ -1564,11 +1566,11 @@ It  is a signal from Datanode to Namenode to indicate that it is alive.
 
 - Step 1: We can use Hive table to create as well as insert data.Or,  We can use below command to get the current time which will act as batch time in hive table:
 
-var batchtime=System.currentTimeMillis()
+`var batchtime=System.currentTimeMillis()`
 
 - Step 2: data frame which is storing data to partitioned table can have column batch time which will act as partition column:
 
-df.withColumn(“batchtime”,lit(batchtime)
+`df.withColumn(“batchtime”,lit(batchtime))`
 
 </blockquote>
 
@@ -2905,6 +2907,8 @@ It is used to consume the data from different data sources and then move them to
 
 <details open  markdown="1"><summary> Show Answer </summary>
 
+<blockquote>
+
 Paraquet, JSON, XML, CSV, RC, Avro, TSV.
 
 </blockquote>
@@ -3123,8 +3127,6 @@ Hive used to organize the table into partitions.Partitions work with creating a 
 - Data Nodes in a Hadoop cluster periodically send a block report to the Name Node too.A block report contains a list of all blocks on a Data Node.
 
 
-![Example](Data%20Node.JPG)
-
 </blockquote>
 
 </details>
@@ -3193,6 +3195,8 @@ Flatten is used as a modifier in Pig.It is a  un-nests bags and tuples whereas u
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
 <details open  markdown="1"><summary> Show Answer </summary>
+
+<blockquote>
 
 “pig –x local” will result in the prompt -
 
@@ -4037,12 +4041,12 @@ Example: This information can pertain to data or API diagnosis like how many rec
 <blockquote markdown="1">
  It is a structure of the DataFrame which we can get by calling printSchema() method on the DataFrame object.
  
-printSchema() method:
+printSchema() method:<br>
 This method has two signatures one without arguments and another with integer argument.These two are used to print the schema of the DataFrame to console or log.
 
-// printSchema() Syntax
-printSchema(): Unit
-printSchema(level: Int): Unit
+// printSchema() Syntax<br>
+printSchema(): Unit<br>
+printSchema(level: Int): Unit<br>
 
 </blockquote>
 
@@ -4057,8 +4061,13 @@ printSchema(level: Int): Unit
 <details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
+
 Spark home: a path to the Spark installation directory.
+
+
 Application: a path to the executable file.We can select .py file
+
+
 Main class: the name of the main class of the .py file.Select it from the list.
 
 </blockquote>
@@ -4075,11 +4084,11 @@ Main class: the name of the main class of the .py file.Select it from the list.
 
 <blockquote markdown="1">
         
-1.Start the Spark Shell.First, we have to start the Spark Shell.
-2.Create SQL Context Object.
-3.Create Table using HiveQL.
-4.Load Data into Table using HiveQL.
-5.Select Fields from the Table.
+1.Start the Spark Shell.First, we have to start the Spark Shell.<br>
+2.Create SQL Context Object.<br>
+3.Create Table using HiveQL.<br>
+4.Load Data into Table using HiveQL.<br>
+5.Select Fields from the Table.<br>
 
 </blockquote>
 
@@ -4111,9 +4120,9 @@ Parquet file is an open- Source file format, which is used for Hadoop ecosystem.
 
 <blockquote markdown="1">
         
-Strategy which holds the evaluation of an expression, is known as a Lazy evaluation.Spark will not start the execution of the process until an ACTION is called which known as a Lazy Evaluation.It is a Policy of only evaluating forms whose values, needed by a consumer, known as a print request.
-If List supported Lazy evaluation, then 
-(FISRT(LIST1(+45) (*67) (/78))
+Strategy which holds the evaluation of an expression, is known as a Lazy evaluation.Spark will not start the execution of the process until an ACTION is called which known as a Lazy Evaluation.It is a Policy of only evaluating forms whose values, needed by a consumer, known as a print request.<br>
+If List supported Lazy evaluation, then <br>
+(FISRT(LIST1(+45) (*67) (/78))<br>
 Would not result in any arithmetic being performed, since only the element 1 needs to be returned.
 
 </blockquote>
@@ -4129,6 +4138,7 @@ Would not result in any arithmetic being performed, since only the element 1 nee
 <details open  markdown="1"><summary> Show Answer </summary>
 
 <blockquote markdown="1">
+
 If the consumer crashes or is shut down, its partitions will be re-assigned to another member, which will begin consumption from the last committed offset of each partition.If the consumer crashes before any offset has been committed, then the consumer which takes over its partitions will use the reset policy.
 
 </blockquote>
@@ -4146,20 +4156,21 @@ If the consumer crashes or is shut down, its partitions will be re-assigned to a
 
 <blockquote markdown="1">
         
-Spark map() transformation applies a function to each row in a DataFrame/Dataset and returns the new transformed Dataset
-Syntax:
+Spark map() transformation applies a function to each row in a DataFrame/Dataset and returns the new transformed Dataset<br>
+Syntax:<br>
 
-1) map[U](func : scala.Function1[T, U])(implicit evidence$6 : org.apache.spark.sql.Encoder[U]) 
-        : org.apache.spark.sql.Dataset[U]
-2) map[U](func : org.apache.spark.api.java.function.MapFunction[T, U], encoder : org.apache.spark.sql.Encoder[U]) 
-        : org.apache.spark.sql.Dataset[U]
+1) `map[U](func : scala.Function1[T, U])(implicit evidence$6 : org.apache.spark.sql.Encoder[U])
+        : org.apache.spark.sql.Dataset[U]`
 
-Spark flatMap() transformation flattens the DataFrame column after applying the function on every element and returns a new DataFrame respectively.
-Syntax:
+2) `map[U](func : org.apache.spark.api.java.function.MapFunction[T, U], encoder : org.apache.spark.sql.Encoder[U]) <br>
+        : org.apache.spark.sql.Dataset[U]`
+
+Spark flatMap() transformation flattens the DataFrame column after applying the function on every element and returns a new DataFrame respectively.<br>
+Syntax:<br>
 
 
-flatMap[U](f : scala.Function1[T, scala.TraversableOnce[U]])(implicit evidence$4 : scala.reflect.ClassTag[U]) : 
-          org.apache.spark.rdd.RDD[U]
+`flatMap[U](f : scala.Function1[T, scala.TraversableOnce[U]])(implicit evidence$4 : scala.reflect.ClassTag[U]) <br>
+        : org.apache.spark.rdd.RDD[U]`
 
 </blockquote>
 
