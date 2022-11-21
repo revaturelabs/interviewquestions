@@ -3269,8 +3269,6 @@ def A(x):
 
 A(7)()
 ```
-  
-7  
 
 </blockquote>
 
