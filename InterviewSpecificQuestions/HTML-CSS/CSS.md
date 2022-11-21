@@ -537,6 +537,8 @@ It depends on what we are trying to do.
 </blockquote>
 </details>
 
+---
+
 26.Does overflow: hidden create a new block formatting context?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
