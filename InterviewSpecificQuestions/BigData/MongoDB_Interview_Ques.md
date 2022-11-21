@@ -433,6 +433,7 @@ db.student.find({
       .limit(20);
 
 ```
+
 </details>
 
 ---
@@ -447,6 +448,7 @@ db.student.find({
 ```
 db.dept.find({}).skip(10);
 ```
+
 </details>
 
 ---
