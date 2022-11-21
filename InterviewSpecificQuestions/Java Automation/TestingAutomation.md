@@ -98,11 +98,17 @@ Assume that the signup page has these input fields—username, email address, an
 As a manual tester, we need to follow these steps:
 
 1.Enter the URL in the address bar (www.example.com/signup)
+
 2.Enter an invalid string in each input field (email, username, and password)
+
 3.Check whether the input strings were validated against corresponding regexes and any pre-existing values in the database
+
 4.Enter _valid_ strings in each input field; click Sign Up
+
 5.Check whether _Welcome, {username}_ page showed up
+
 6.Check whether the system database created a new userID for _{username}_
+
 7.Mark the test _passed_ if it did, _failed_ if the signup feature broke anywhere during the test.
 
 Depending on the number of manual testers (and the thoroughness of test cases), it may take anywhere between hours to weeks to be sure that the web app is fully functional.
@@ -125,13 +131,21 @@ Therefore, we go for automation testing with Selenium.
 <blockquote markdown="1">
 
 1.Download browser drivers
+
 2.Create a WebDriver instance.
+
 3.Navigate to a webpage.
+
 4.Locate a web element on the webpage via locators in selenium.
+
 5.Perform one or more user actions on the element.
+
 6.Preload the expected output/browser response to the action.
+
 7.Run the test.
+
 8.Record results and compare results them to the expected output.
+
 9.Close the WebDriver
 
 </blockquote>
@@ -418,11 +432,16 @@ There are two types of XPath in Selenium.
 
 1.**Absolute XPath** 
 	- It starts with a single slash `/`
+	
 	- Provides the entire path starting from the root node
+	
 	- Example: `/html//div/div/div/div[1]/div/a/img`
+	
 2.**Relative XPath** 
 	- It starts with a double slash `//`
+	
 	- Here XPath expression starts from the middle of the DOM structure denoting the current node.
+	
 	- Example: `//img[@alt='LambdaTest']`
 
 </blockquote>
@@ -692,7 +711,9 @@ Then expected outcome
 The general workflow for implementing BDD using Cucumber is as follows:
 
 1.A developer must first write their feature files in Gherkin.A feature file defines several scenarios and steps to define a system's behaviour level.
+
 2.After the developer has finished drafting the feature file, they should generate their glue code by running the feature file.We'll talk more about glue code in the future, but for now, you need only know that this glue code consists of potential test methods that are associated with a scenario's steps.We say "potential" test methods because the developer may or may not choose to implement those suggested test methods.
+
 3.Once the developer has generated the glue code and written the tests, they should choose a test runner for running the glue code.
 
 </blockquote>
