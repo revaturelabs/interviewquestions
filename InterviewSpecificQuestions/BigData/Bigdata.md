@@ -185,6 +185,8 @@ Yes.
 
 </details>
 
+</details>
+
 ---
 
 10.If 8TB is the available disk space per node (10 disks with 1 TB, 2 disks for operating system etc.were excluded.).Assuming the initial data size is 600 TB.How will you estimate the number of data nodes (n)?
@@ -233,6 +235,8 @@ With these numbers, you can predict next year’s additional machines required f
 
 </details>
 
+</details>
+
 ---
 
 11.Imagine that you are uploading a file of 500MB into HDFS.100MB of data is successfully uploaded into HDFS and another client wants to read the uploaded data while the upload is still in progress.What will happen in such a scenario, will the 100 MB of data that is uploaded will be displayed?
@@ -252,6 +256,8 @@ We have 5 blocks (A/B/C/D/E) for a file, a client, a namenode and a datanode.So,
 So, during this process if 1st block of 100 MB is written to HDFS and the next block has been started by the client to store then 1st block will be visible to readers.Only the current block being written will not be visible to the readers.
 
 </blockquote>
+
+</details>
 
 </details>
 
@@ -400,6 +406,8 @@ Following operations need to be enabled to used CRUD operation:
 
 </details>
 
+</details>
+
 ---
 
 20.Suppose Hadoop spawned 100 tasks for a job and one of the tasks failed.What will Hadoop do?
@@ -458,6 +466,8 @@ Note:  blocks-size does not mean the per file size on the disc, it means the uni
 
 </details>
 
+</details>
+
 ---
 
 22.Explain how is data partitioned before it is sent to the reducer if no custom partitioner is defined in Hadoop?
@@ -500,6 +510,8 @@ At the same time for batch processing where huge sets of data is there and time 
 
 </details>
 
+</details>
+
 ---
 
 24.Is it possible to put  our data sets through the reduction phase twice in a map reduce?
@@ -519,6 +531,8 @@ Yes it is possible.
 
 
 </blockquote>
+
+</details>
 
 </details>
 
@@ -545,6 +559,8 @@ All of the work of the MapReduce program is performed on the DNs.That is where t
 
 </details>
 
+</details>
+
 ---
 
 26.Does creating checkpoints in various phases (map, combiner, shuffle, reduce) of a map reduce the chance to avoid phase level failures and improve fault tolerance?
@@ -566,6 +582,8 @@ The reasons being -
 - Recovering a task from a checkpoint also requires a lot of IO and network, which would affect our applications.
 
 </blockquote>
+
+</details>
 
 </details>
 
