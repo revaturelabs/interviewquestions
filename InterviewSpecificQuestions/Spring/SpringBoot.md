@@ -100,6 +100,7 @@ mvn spring-boot:run -Dspring-boot.run.jvmArguments='
     
 - Spring Profiles provide a way to segregate parts of your application configuration and make it only available in certain environments.
 - Any `@Component`, `@Configuration` or `@ConfigurationProperties` can be marked with `@Profile` to limit when it is loaded.
+
 ```java
 @Configuration
 @Profile("prod")
@@ -112,7 +113,6 @@ public class ProductionConfiguration {
 public class TestConfiguration {
  // ...
 }
-
 ```
 - In the normal Spring way, you can use a `spring.profiles.active` environment property to specify which profiles are active.
 - You can specify the property in any of the usual ways, for example, you could include it in your application.properties:
