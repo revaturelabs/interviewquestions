@@ -33,8 +33,8 @@
  
  |                                                              StringBuffer                                                             |                                                            StringBuilder                                                           |
 |:-------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------:|
-|       StringBuffer is synchronized i.e., thread safe.It means two threads can't call the methods of StringBuffer simultaneously.  | StringBuilder is non-synchronized i.e., not thread safe.It means two threads can call the methods of StringBuilder simultaneously.|
-| Faster than String class due to mutability but slower than StringBuilder class as it allows multiple threads simultaneous operations.|              Fastest among all as it allows mutability and does not allow multiple threads operating at the same time.         |
+|       StringBuffer is synchronized i.e., thread safe.It means two threads can't call the methods of StringBuffer simultaneously. | StringBuilder is non-synchronized i.e., not thread safe.It means two threads can call the methods of StringBuilder simultaneously.|
+| Faster than String class due to mutability but slower than StringBuilder class as it allows multiple threads simultaneous operations.|              Fastest among all as it allows mutability and does not allow multiple threads operating at the same time.        |
 |                                           Syntax: StringBuffer var = new StringBuffer(str);                                           |                                         Syntax: StringBuilder var = new StringBuilder(str);                                        |
 
 
@@ -301,8 +301,6 @@ Reason:
 - StringBuilder cannot be used as it is not synchronized, i.e., thread-safe.
 
 </blockquote>
-
-</details>
 
 </details>
 
