@@ -146,7 +146,7 @@ newman run {{collectionUrl}}
 
 9.Is it possible to generate HTML report using Newman?
    
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
+![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
 <details markdown="1"><summary><b> Show Answer</b></summary>
 
@@ -238,6 +238,7 @@ newman run Postman_Newman_Collection.json -e enVariable.json -r html
 | SoapUI is NOT used for User Interface Testing.It is only used for WebAPI or WebService Testing | Selenium is used for User Interface Testing.|
 | Capability to test the data sent and received between the web browser and a web server.Can test protocols/technologies such as REST, and SOAP.| Selenium cannot test protocols, but it can test the UI behaviour.|
 | SoapUI is able to perform functional, load and Security Testing of the above-mentioned technologies.| Selenium can perform only Functional Testing.Performance Testing to some extent because we can track execution time with regards to the performance but cannot test multi-user and multi-tenancy.Selenium certainly cannot be used for security testing.|
-|SoapUI is PROTOCOL Dependent and NOT browser dependent.| Selenium depends on the browser’s capabilities.|
+|SoapUI is PROTOCOL Dependent and NOT browser dependent.| Selenium depends on the browser’s capabilities|
+
 </blockquote>
 </details>
