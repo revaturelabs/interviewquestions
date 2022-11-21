@@ -442,7 +442,7 @@ Run the CLI command `ng new my-app to create a new angular app with the `my-app`
 	
 --- 
 
-23.Which port angular application will be launched?
+23.In which port, angular application will be launched?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
@@ -559,7 +559,7 @@ The _e2e_ folder at the top level contains source files for a set of end-to-end 
 	
 --- 
 	
-30.What are files we can find under the _src_ folder?
+30.What are the files we can find under the _src_ folder?
 	
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 	
