@@ -354,7 +354,7 @@ In addition to the above IIS custom handlers.
 (or)
 What is the difference between Code Level, Pagelevel or Application-Level Exception handling?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
 <details markdown="1"> <summary> <b> Show Answer </b> </summary>
 
