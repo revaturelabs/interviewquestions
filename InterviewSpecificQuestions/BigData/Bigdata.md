@@ -151,8 +151,10 @@ In addition, ISR refers to In-Sync Replicas.On defining ISR, it is a set of mess
 
 <blockquote markdown="1">
 
-1.stop zookeeper & Kafka server, 
+1.stop zookeeper & Kafka server,
+
 2.then go to the 'kafka-logs' folder , there you will a see list of kafka topic folders, delete folders  with topic name 
+
 3.go to the 'zookeeper-data' folder, and delete data inside that.
 
 </blockquote>
