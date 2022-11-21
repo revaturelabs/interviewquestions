@@ -99,7 +99,7 @@ Typescript supports the four object-oriented programming concepts – Abstractio
 
 ---
 
- 07.Explain data types in TypeScript?
+ 7.Explain data types in TypeScript?
 
  ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
@@ -624,6 +624,10 @@ class Hummingbird implements Bird { ...}
 class Bellbird implements Bird { ...}
 ;
 ```
+
+</blockquote>
+</details>
+
 ---
 
 32.Can u explain a bit about Enum in TypeScript?
