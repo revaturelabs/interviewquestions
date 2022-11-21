@@ -28,6 +28,7 @@ On a short note, A component(`@Component`) is a directive-with-a-template.Some o
 | Components are typically used to create UI widgets                    | Directive is used to add behavior to an existing DOM element  |
 | Component is used to break up the application into smaller components | Directive is used to design re-usable components               |
 | Only one component can be present per DOM element                     | Many directives can be used per DOM element                   |
+
 </blockquote>
 </details>
   
