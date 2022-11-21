@@ -89,6 +89,7 @@ mvn spring-boot:run -Dspring-boot.run.jvmArguments='
 </details>
 
 ---
+
 5.What is Spring profile and why do we use it?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
@@ -111,16 +112,19 @@ public class ProductionConfiguration {
 public class TestConfiguration {
  // ...
 }
+
 ```
 - In the normal Spring way, you can use a `spring.profiles.active` environment property to specify which profiles are active.
 - You can specify the property in any of the usual ways, for example, you could include it in your application.properties:
 `spring.profiles.active=test`
 or specify on the command line using the switch `--spring.profiles.active=prod`.
+
 </blockquote> 
 
 </details>
 
 ---
+
 6.How can you define multiple profiles in the Spring Boot application? How to add an active profile?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
