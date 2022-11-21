@@ -17,7 +17,9 @@ Using String Interpolation, we can print the `name` in the template.In `app.comp
 ---
  
 2.Design the angular app with the following criteria
+
 	- Template should have a button named `Click Me`
+	
 	- When the user clicked on the button, you should greet the user with the message "Welcome to my angular app"
 
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
