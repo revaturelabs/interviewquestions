@@ -614,6 +614,7 @@ class Employee {
 - Interfaces help to achieve Polymorphism.
 - An interface is a contract to implement a shape of the data.
 - Use the interface to make it clear that it is intended to be implemented and used as a contract about how the object will be used.
+
 ```typescript
 interface Bird {
     size: number
@@ -626,6 +627,7 @@ class Bellbird implements Bird { ...}
 ```
 
 </blockquote>
+
 </details>
 
 ---
