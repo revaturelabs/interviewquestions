@@ -224,12 +224,12 @@ Variables can be made unchangeable using read-only.For instance, if we want vari
 
 <blockquote markdown="1"> 
 
-1.It lists files in the current directory.
+1.It lists files in the current directory.<br>
 2.It lists files in a long format.
 
 - Example
 
-    1.$ ls
+    1.$ ls <br>
     2.$ ls –lrt or $ ls -ltr
 
 </blockquote>
@@ -246,9 +246,9 @@ Variables can be made unchangeable using read-only.For instance, if we want vari
 
 <blockquote markdown="1"> 
 
-1.It changes the directory to your home directory.
-2.It changes the directory to test.
-3.It moves back to one directory or to the parent directory of your current directory.
+1.It changes the directory to your home directory.<br>
+2.It changes the directory to test.<br>
+3.It moves back to one directory or to the parent directory of your current directory.<br>
 
 </blockquote>
 
