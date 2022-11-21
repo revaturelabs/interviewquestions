@@ -1370,7 +1370,7 @@ start-all.sh  - start the all hadoop daemons.<br>
 
 <details markdown="1"><summary> Show Answer </summary>
 
-- we store all the hostnames with their IP addresses in /etc./hosts so, that we can use hostnames easily instead of the IP addresses.
+> - we store all the hostnames with their IP addresses in /etc./hosts so, that we can use hostnames easily instead of the IP addresses.
 
 
 </details>
