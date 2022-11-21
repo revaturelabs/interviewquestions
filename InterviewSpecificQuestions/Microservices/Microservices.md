@@ -800,6 +800,7 @@ eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka
 server.port=8079
 ```
 - Annotate the Spring Boot application main class with @EnableZuulProxy annotation-
+
 ```java
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -77,8 +77,11 @@ create table school(
 
 > There are set of rules that we can follow while creating a primary key:  
 > 1.A column must have unique values.
+> 
 > 2.A column shouldn't contain any null value.
+> 
 > 3.Only one primary key can be created for one table.
+> 
 > 4.Columns that are of type number are recommended for the primary key columns.
 
 </details>
@@ -255,7 +258,9 @@ create table employee(
 
 > Anomaly generally happens when the database is not constructed well and when the normalization concepts were not applied.There are 3 types of anomalies that cause a problem:  
 > 1.insertion anomaly: This can happen when we are trying to insert the data into the table, and it is not allowed because some data is not present.
+> 
 > 2.update anomaly: This will happen when we have duplicate data in the table and updating one of those data will not reflects toe other data and the end user has no idea which data is the correct one.
+> 
 > 3.deletion anomaly: This will happen when the deletion of one data will cause other data to be deleted from the table as well.
 
 
@@ -502,6 +507,7 @@ create user 'Tim' identified by 'password';
 
 > - To list the databases we can use the `show databases;` 
 > - To list the tables in a particular database, write:
+
 ```sql
 use database_name;
 
@@ -518,7 +524,6 @@ show tables;
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
-> 
 ```sql
 select * from student 
 where state = "Texas";
@@ -661,7 +666,6 @@ where Manager_id = 432;
   
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
-> 
 ```sql
 select emp_id, name from employees 
 where salary > 
@@ -680,8 +684,7 @@ where emp_id = 101
 ![Medium](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Medium%20(2).svg)
   
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
-
-> 
+ 
 ```sql
 select * from employee
 where department = 
@@ -721,7 +724,7 @@ group by department
   
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
-> 
+ 
 ```sql
 select count(*) from employee
 where salary >
@@ -740,7 +743,7 @@ from employee
   
 <details markdown="1"><summary> <b>Show Answer</b> </summary>
 
-> 
+ 
 ```sql
 select e.name , e.id from employee e , department d
 where e.id = d.id

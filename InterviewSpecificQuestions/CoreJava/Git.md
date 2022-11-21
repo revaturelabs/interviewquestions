@@ -316,12 +316,19 @@ Using a source code repository has many potential benefits for an organization, 
 <blockquote markdown="1"> 
 
 1.Git init
+
 2.Git add
+
 3.Git commit
+
 4.Git status
+
 5.Git config
+
 6.Git branch
+
 7.Git checkout
+
 8.Git merge
 
 </blockquote>
