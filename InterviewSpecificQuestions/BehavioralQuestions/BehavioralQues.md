@@ -1,4 +1,4 @@
-1.	What makes you excited or passionate about software development?
+1.What makes you excited or passionate about software development?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -13,7 +13,7 @@ Sample answer 2: I am a Mathematics student.In my eyes, Mathematics is the tool 
 
 ------------
  
-2.	What other languages are you interested in learning outside of what you've learned?
+2.What other languages are you interested in learning outside of what you've learned?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -29,7 +29,7 @@ Sample answer: I would learn German and Spanish.I choose German because the voca
 -----------
 
 
-3.	Tell me about a feature you were responsible for developing in your group work.
+3.Tell me about a feature you were responsible for developing in your group work.
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -42,7 +42,7 @@ Sample answer: I created a utility that helps convert the excel data to a format
  
 ------------
  
-4.	What it was, why it was needed, and how you designed the feature?
+4.What it was, why it was needed, and how you designed the feature?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -55,7 +55,7 @@ Sample answer: A conversion utility that converts all the excel data into a spec
  
 ------------
 
-5.	Did you have any obstacles in developing this feature? Tell me about them
+5.Did you have any obstacles in developing this feature? Tell me about them
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -68,7 +68,7 @@ Sample answer: I was developing this utility in my available time and I couldn�
  
 --------------
 
-6.	Have you had any challenges with doing group work such as communication?
+6.Have you had any challenges with doing group work such as communication?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -91,7 +91,7 @@ Sample scenario: When I was working with a team of 10 people on a project of con
 ---------------
 
 
-7.	You are on a client project when someone client-facing approached you about a bug and is holding you responsible for the bug that you did not know existed.After some investigation, you find out that your most recent 
+7.You are on a client project when someone client-facing approached you about a bug and is holding you responsible for the bug that you did not know existed.After some investigation, you find out that your most recent 
 build did not cause the bug.How would you handle or approach this situation?
 
 <details markdown="1">
@@ -105,7 +105,7 @@ If you are an ethical and empathetic person you own up to this and let the chips
  
 -------------
 
-8.	Tell me about yourself and what led you to Revature?
+8.Tell me about yourself and what led you to Revature?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -120,7 +120,7 @@ Revature is a well-reputed company with numerous opportunities on learning platf
  
 ---------------
  
-9.	What are your strengths and weaknesses?
+9.What are your strengths and weaknesses?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -135,7 +135,7 @@ Sample Answer: To state my strength and weakness can be a little confusing becau
 
 --------------
 
-10.	How do you react to challenges such as prioritizing parts of the project and conflict resolutions?
+10.How do you react to challenges such as prioritizing parts of the project and conflict resolutions?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -158,7 +158,7 @@ Sample answer: When I am assigned a project, I would segregate the project modul
 
 -------------
 
-11.	What were your role/responsibilities in your project?
+11.What were your role/responsibilities in your project?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -171,7 +171,7 @@ Sample answer: When I am assigned a project, I would segregate the project modul
 
 -------------
 
-12.	Explain your project.
+12.Explain your project.
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -184,7 +184,7 @@ Sample answer: When I am assigned a project, I would segregate the project modul
  
 -------------
 
-13.	How to resolve conflicts between team members?
+13.How to resolve conflicts between team members?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -197,7 +197,7 @@ Sample Answer: When faced with a conflict, I like to ask questions and understan
 
 ---------------
 
-14.	Tell me about a time when you had a person that was hampering your progress as a team for a project.
+14.Tell me about a time when you had a person that was hampering your progress as a team for a project.
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -211,7 +211,7 @@ Unfortunately, she avoided my question.Afterward, I spoke with my research mento
 
 --------------
 
-15.	If you had a superpower, what would it be and why?
+15.If you had a superpower, what would it be and why?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -225,7 +225,7 @@ Sample Answer: “My superpower would have to be super-speed, like The Flash.I l
 
 --------------
 
-16.	Where do you want to see yourself in 3-4 years?
+16.Where do you want to see yourself in 3-4 years?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -240,7 +240,7 @@ Sample Answer 2: In the next five years, I want to see myself as more responsibl
 
 --------------
 
-17.	Describe a moment where you failed?
+17.Describe a moment where you failed?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -253,7 +253,7 @@ Sample Answer: “When I started my first internship, I was overly eager to go t
 
 ---------------
 
-18.	Describe a time when you had to earn someone's respect/what did that take.
+18.Describe a time when you had to earn someone's respect/what did that take.
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -266,7 +266,7 @@ Sample Answer: I believe that respect is something that we must earn through our
 
 --------------
 
-19.	Tell me something interesting about your schooling.
+19.Tell me something interesting about your schooling.
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -282,7 +282,7 @@ Sample answer 2: School life is a golden era.For me the memories of school life 
 
 ----------
 
-20.	How to overcome a problem in the project?
+20.How to overcome a problem in the project?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -297,7 +297,7 @@ Sample answer 2: When the software development of our new product stalled, I coo
 
 -------------
 
-21.	How did you deal with someone not pulling their weight?
+21.How did you deal with someone not pulling their weight?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -312,7 +312,7 @@ Sample answer 2: A team member was finding it difficult to contribute because th
  
 -----------
 
-22.	Have you explored outside of your study area? If so, what did you explore?
+22.Have you explored outside of your study area? If so, what did you explore?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -326,7 +326,7 @@ Sample Answer: Cricket is my outside interest.In my free time, I spend more time
 </details>
  
 ------------
-23.	Tell me about your previous job experience?
+23.Tell me about your previous job experience?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -341,7 +341,7 @@ Sample answer 2: The last time I worked as a language assistant, I found the wor
  
 ------------
 
-24.	Describe a problem that you had and how did you fix it?
+24.Describe a problem that you had and how did you fix it?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -355,7 +355,7 @@ Sample answer 2: Once I found a major flaw in the work of one of the most senior
 </details>
 
 --------------
-25.	How would you handle a client situation where the client was upset with a broken code and the client claimed that you submitted but it was another team member's code?
+25.How would you handle a client situation where the client was upset with a broken code and the client claimed that you submitted but it was another team member's code?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -371,7 +371,7 @@ If you are an ethical and empathetic person you own up to this and let the chips
  
 -------------
  
-26.	What are the three most important traits for a leader to possess? 
+26.What are the three most important traits for a leader to possess? 
 OR
 What are the 3 main characteristics of a leader?
 
@@ -395,7 +395,7 @@ Sample answer 2:
 
 --------------
 
-27.	How do you handle stress?
+27.How do you handle stress?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -410,7 +410,7 @@ Sample answer 2: When stress does inevitably arise, planning helps me to tackle 
  
 ------------
  
-28.	What to do when there is a conflict with a client or stakeholder?
+28.What to do when there is a conflict with a client or stakeholder?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -431,7 +431,7 @@ Sample answer: I actively readjust my attitude during a conflict situation.This 
  
 ------------ 
 
-29.	What would you do when you didn’t understand a question?
+29.What would you do when you didn’t understand a question?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -445,7 +445,7 @@ Sample answer 2: “I’m sorry, but I didn’t quite hear you.Could you say tha
  
 -------------
  
-30.	Tell me about a time when you had to use a creative solution to solve a problem while working with others.
+30.Tell me about a time when you had to use a creative solution to solve a problem while working with others.
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -466,7 +466,7 @@ Sample answer: In my last job, I had to do quite a bit of problem-solving relate
  
 ------------ 
  
-31.	Talk about a time when you had an issue with a coworker, how did you resolve that?
+31.Talk about a time when you had an issue with a coworker, how did you resolve that?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -481,7 +481,7 @@ Sample answer 2: I’ve learned that disagreements and conflicts are part of wor
  
 ------------- 
  
-32.	If you were asked to switch roles in the company, how would you handle that?
+32.If you were asked to switch roles in the company, how would you handle that?
 
 <details markdown="1">
 <summary> Show Answer </summary>
@@ -496,7 +496,7 @@ Sample answer 2: I manage change by first seeking to understand the reason for t
  
 -----------
  
-33.	Talk about a time when you thought you did your best, but it did not work out.
+33.Talk about a time when you thought you did your best, but it did not work out.
 
 <details markdown="1">
 <summary> Show Answer </summary>
