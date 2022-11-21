@@ -445,6 +445,7 @@ db.student.find({
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > Using the skip() method, we can skip the number of documents based on our needs.
+
 ```
 db.dept.find({}).skip(10);
 ```
@@ -459,7 +460,6 @@ db.dept.find({}).skip(10);
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
-> 
 ```
 db.collection_name.find({
       "$and: [
@@ -470,6 +470,7 @@ db.collection_name.find({
       .count();
       
 ```
+
 </details>
 
 ---
@@ -481,6 +482,7 @@ db.collection_name.find({
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
 > If we use -2 or 2 with the fields inside sort() method instead of using -1 or 1, MongoDB will throw an error for that.Only 1 can be used with the fields that we want to sort in ascending order and -1 can be used with the fields that we want to sort in descending order.
+
 </details>
 
 ---
@@ -494,6 +496,7 @@ db.collection_name.find({
 > In the projection query, we cannot use a combination of 0 and 1.It should be either all 1 or all 0, except _id field value.So to get rid of that error we can re-write the query as:  
 `db.collection.find({}, {_id: 0, name: 1, address: 1});`   
 Here we are selecting an only name and address fields from the data.
+
 </details>
 
 ---
@@ -505,12 +508,14 @@ Here we are selecting an only name and address fields from the data.
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
  
 > To check if the field is present or not in the mongodb we can use $ne operator in the `find()` method query.
+
 ```
 db.collection.find({
           "Field_value": {
            $ne: null}
            });
 ```
+
 </details>
 
 ---
@@ -521,7 +526,7 @@ db.collection.find({
 
 <details markdown="1"><summary> <b>Show Answer</b> </summary> 
 
-> 
+
 ```mongodb-json-query
 db.collection_name.find({
        $and : [
@@ -531,6 +536,7 @@ db.collection_name.find({
        {"_id": 0, "name" : 1, "department" : 1}
        );
 ```
+
 </details>
 
 ---
@@ -546,6 +552,7 @@ db.collection_name.find({
 > 2.No need to have a same number of fields in all the documents.Some may have > 4 fields while others may have 3 or 5 fields.
 > 3.They have a replica set that contains duplicate data in it.So if one server fails we can still recover the data from other servers.
 > 4.All the documents can be independent of one another as they don't have a foreign keys concept.
+
 </details>
 
 ---
