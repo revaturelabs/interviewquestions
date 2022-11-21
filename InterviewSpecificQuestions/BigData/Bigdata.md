@@ -81,9 +81,9 @@ Component of Spark:
 
 To copy a file from the local file system to HDFS, use Hadoop fs -put or hdfs dfs -put, on put command, specify the local-file-path where we wanted to copy from and then HDFS-file-path where you wanted to copy to.If the file already exists on HDFS, we will get an error message saying “File already exists”.
 
-</details>
-
 </blockquote>
+
+</details>
 
 </details>
 ---
