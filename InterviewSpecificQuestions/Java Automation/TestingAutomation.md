@@ -880,7 +880,7 @@ initElements(): initElements is a static method in Page Factory class.Using the 
 
 41.Difference Between Page Object Model and Page Factory in Selenium.
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/Complex%20(2).svg)
 
 <details markdown="1">
 <summary><b>Show Answer</b></summary>
