@@ -234,16 +234,20 @@ export class AppComponent {
   title = 'angularDemoProject';
 }
 ```
+
 - `selector` – just the name given for the component.In the `index.html` file, the `<app-root>` tag corresponds to the component’s selector.By doing so, Angular will inject the corresponding template of the component.
+
 ```html
 <body>
   <app-root></app-root>
 </body>
 ```
+
 - `templateUrl` - points to an HTML file that defines what you see on your application.
 - `styleUrls` - points to a set of CSS files that define styles or designs for the  application
 
 </blockquote>
+
 </details>
 	
 ---   
@@ -261,11 +265,12 @@ A template is just like regular HTML that renders a view, or user interface, in 
 When you generate an Angular application with the Angular CLI, the `app.component.html` file is the default template containing placeholder HTML.
 
 </blockquote>
+
 </details>
   
 ---
  
- 14.What is the difference between `templateUrl` and `template` in the `@Component` decorator?
+14.What is the difference between `templateUrl` and `template` in the `@Component` decorator?
 
 ![Easy](https://raw.githubusercontent.com/revaturelabs/interviewquestions/aef8eff919a3b083089641381ed9a9101ed21fba/ComplexityTags/simple%20(2).svg)
 
