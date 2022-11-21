@@ -320,16 +320,12 @@ eureka.client.register-with-eureka=false
 #Usually Kept false
 eureka.client.fetch-registry=false
 
-#If instance goes down what shall be done? in production we must 
-#Have multiple instances of the eureka server running that is controlled using below property
+#If instance goes down what shall be done? in production we must have multiple instances of the eureka server running that is controlled using below property
 #eureka.server.maxThreadsForPeerReplication=0
 
 eureka.server.max-threads-for-peer-replication=0
 
-#When the registry starts, it will complain (with a stack trace) that there 
-#are no replica nodes to which the registry can connect.In a production environment,
-#you will want more than one instance of the registry.For our simple purposes, 
-#however, it suffices to disable the relevant logging.
+#When the registry starts, it will complain (with a stack trace) that there are no replica nodes to which the registry can connect.In a production environment,you will want more than one instance of the registry.For our simple purposes, however, it suffices to disable the relevant logging.
 #logging.level.com.netflix.eureka=OFF
 #logging.level.com.netflix.discovery=OFF
 #https://cloud.spring.io/spring-cloud-static/Dalston.SR5/multi/multi__appendix_compendium_of_configuration_properties.html
