@@ -762,6 +762,7 @@ To set the class to be inherited, it needs to be declared as public. The method 
 </blockquote>
 
 </details>
+
 ---
 
 38. How can a class be set to be inherited without overriding the method in C#?
