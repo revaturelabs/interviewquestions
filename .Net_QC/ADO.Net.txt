@@ -1,0 +1,33 @@
+ADO.NET
+
+
+1. What is connected environment in ADO.Net?
+2. What is disconnected environment in ADO.Net?
+3. What are the commonly used namespaces in ADO.Net?
+4. What are managed providers?
+5. What is Connection pooling?
+6. How can you enable or disable connection poolong?
+7. Write a sample code for ADO.Net connection to SQL Server
+8. What are Command Object methods?
+9. What is the difference between SqlCommand and SqlCommandBuilder?
+10. What is SqlCommand Object?
+11. What is CommandType in SqlCommand?
+12. What are ReadCommited and ReadUncommited Transactions?
+13. What is difference betweeen Optimistic and Pessimistic locking?
+14. What is DataReader in ADO.Net?
+15. What is DataSet in ADO.Net?
+16. Can you differentiate DataReader and DataSet?
+17. What is the diffference between DataSet and RecordSet?
+18. How can you determine the changes done in DataSet?
+19. What is Data Adapter?
+20. How to use Data Adapter in ADO.Net?
+21. What are the basic methods of DataAdapter?
+22. What AcceptChanges method in DataSet can do ?
+23. What is the use of Data View?
+24. What are the different methods associated with DataView?
+25. Do you know to sort DataTable using DataView?
+26. How can you add multiple DataTable to a DataSet?
+27. Can you differentiate Clone and Copy methods of DataSet?
+28. How can you delete a row from a DataTable?
+29. What is Strongly Typed and Untyped DataSets?
+30. What is the use of Transaction and how to create in ADO.Net?
