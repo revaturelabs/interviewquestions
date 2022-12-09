@@ -1,0 +1,780 @@
+C# Questions:
+
+Basics:
+
+1.	Explain the C# code execution process?
+2.	What do you mean by value type and reference type?
+3.	What are Nullable types? How to use Nullable types in .Net framework?
+4.	How to check that a nullable variable is having value?
+5.	Do you know about int, Int16,Int32 and Int64.
+6.	What about ?? operator in C#?
+7.	What are dynamic types in C#?
+8.	Can you differentiate Object, Var and dynamic?
+9.	What is ref and out keyword in C#?
+10.	Can you use out and ref for overloading as the different signature of method?
+11.	What is the params keyword in C#?
+12.	What do you mean by operators and what are the different types of operators in C#?
+13.	What is a ternary operator “?:” in C#?
+14.	What are differences between Constant,ReadOnly and static?
+15.	What is safe and unsafe code?
+16.	What is Type Casting? What are the different types of Type Casting supported in C#?
+17.	How to do safe type casting in C#? (or)  What are the differences between IS and AS operator?
+18.	Do you have an idea about upcasting and downcasting?
+19.	What about Boxing and Unboxing?
+20.	Which one is fast, switch or if-else-if ladder?
+21.	What is foreach loop in C#? How it differs from for loop?
+22.	What are jump statements?
+23.	What is the difference between break and continue?
+24.	What is Jagged array?
+25.	What is array class in C#?
+26.	What is String array in C#?
+27.	How to create a string in C#?
+28.	What is the difference between System.String and System.Text.StringBuilder classes?
+29.	What is Verbatim string?
+30.	What is meant by an object and class?
+31.	What is meant by constructor and different types of constructor?
+32.	Why static constructor has no parameter?
+33.	Why you can have only one static constructor in a class?
+34.	What about private constructor?
+35.	What is the use of using statement in c#?
+36.	What is access modifier and different types of access modifier in C#?
+37.	Can a child or derived type have higher accessibility from its parent type?
+38.	Can you declare struct members as protected?
+39.	Can you explain the member’s Accessibility?
+40.	What is Enum? When to use it?
+41.	What is Structures ? When to use Structures?
+42.	Can u tell me the similarities and differences between Structure and Class?
+43.	What is a static class?
+44.	When to use a static class?
+45.	What about static members and static method?
+46.	What are the differences between static and instance method?
+47.	What are sealed classes in C#?
+48.	What is the role of System.Exception class?
+49.	What are the ways in C# to handle exceptions?
+50.	What is the order of try-catch-finally block?
+51.	Can you have a catch block without try or vice versa?
+52.	What do you understand by Custom Exceptions?
+53.	What is Reflection?How to use it?
+54.	What is Property ? When to use Property?
+55.	What is abstract property and static property?
+56.	What is Indexer in C#?
+57.	Which one to choose between property and method?
+58.	What is an abstract class?
+59.	How to create an abstract class and when to create it?
+60.	What is an interface? How to use it?
+61.	How can you achieve multiple inheritance using interfaces?
+62.	Can you differentiate abstract class and interface?
+63.	What are delegates?
+64.	What are the steps to create a Delegate?
+65.	What are Events? How to define Event or Event handler?
+66.	Can you differentiate Events and Delegats?
+67.	Do Events have a return type?Can it have access modifiers?
+68.	How to create a custom attribute class?
+69.	What are Collections?
+70.	What are various collections in C#?
+71.	What are Generics?
+72.	What is the name of the namespace for collections in C#?
+73.	What is the difference between Generic and Non-Generic collections in c#?
+74.	What is meant by concurrent collections ?
+75.	What is the name of the namespace for concurrent collections?
+76.	What are collection interfaces in C#?
+77.	What is a base interface for all the collection?
+78.	What is HashTable? How it differs from arraylist ?
+79.	Can you brief me on Stack Collection class and Queue Collection class?
+80.	Can you differentiate List and Dictionary in C#?
+
+*********  Predict the output or Debug the code ***********:::
+
+1.	What will be the error in the following C# code?
+ Static Void Main(String[] args)
+ {
+     const int m = 100;
+     int t = 10;
+     const int res = n / 5 * 100 * t ;
+     Console.WriteLine(m * res);
+     Console.ReadLine();
+ }
+2.	What will be the output of the following C# code?
+ static void Main(string[] args)
+ {
+     char w1 = 'g';
+     string s = c.ToString();
+     string res = "I am a human being" + w1;
+     Console.WriteLine(res);
+     Console.ReadLine();
+ }
+
+3.	What will be the output of the following C# code?
+ static void Main(string[] args)
+ {
+     int f1 = 5;
+     int f2 = 10;
+     int res;
+     Console.WriteLine(c = f1-- - ++f2);
+     Console.WriteLine(res);
+     Console.ReadLine();
+ }
+
+4.	What will be the output of the following C# code?
+ class Program
+ {
+     static void Main(string[] args)
+     {
+         int i;
+         for ( i = 0; i < 5; i++)
+         {
+ 
+         }
+         Console. WriteLine(i);
+         Console. ReadLine();
+     }
+}
+
+5.	What will be the output of the following code?
+
+using System;
+namespace ProgrammingExercise
+{
+class Result
+    {
+     static void Main(string[] args)
+
+     {
+     int i;
+     int div = 8, num = 32;
+     for (i = 0; i <= 10; i++)
+     {
+         if ((num / div * 3)== 6)
+         {
+             Console.WriteLine( i + " ");
+             continue;
+         }
+         else if (i != 5)
+             Console.Write(i + " ");
+         else
+             break;
+    }
+    Console.ReadLine();
+    }
+   }
+}
+
+6.	Predict the output?
+
+using System;
+namespace ProgrammingExercise
+{
+class FindOutput
+    {
+     static void Main(string[] args)
+     {
+      int a, b;
+      for (a = 2; a >= 0; a--)
+      {
+          for (b = 0; b <= 2; b++)
+          {
+              if (a == b)
+              {
+                  Console.WriteLine("1");
+              }
+              else
+              {
+                  Console.WriteLine("0");
+              }
+         }
+         Console.WriteLine("\n");
+       }
+     }
+   }
+}
+
+7.	Predict the output?
+using System;
+namespace ProgrammingExercise
+{
+class FindOutput
+    {
+     static void Main(string[] args)
+     {
+       int val = 5;
+      if (Convert.ToBoolean((.002f) -(0.1f)))
+      Console.WriteLine("If Condition executed");
+      else if (val == 5)
+      Console.WriteLine("else if executed");
+      else
+      Console.WriteLine("else clause executed");
+      Console.ReadLine();
+     }
+    }
+}
+
+8.	What is the output?
+using System;
+namespace ProgrammingExercise
+{
+class FindOutput
+    {
+     static void Main(string[] args)
+     {
+      int a = -2;
+      int b = -1;
+      if (Convert.ToBoolean (++a = ++b))
+      Console.WriteLine("If Condition is True");
+      else
+      Console.WriteLine("If Condition is False");
+      Console.ReadLine();
+     }
+    }
+}
+9.	Will the code produce error?
+using System;
+namespace ProgrammingExercise
+{
+class FindOutput
+    {
+     static void Main(string[] args)
+     {
+      if (Convert.ToBoolean(Convert.ToInt32(0xB)))
+      if (Convert.ToBoolean(Convert.ToInt32(022)))
+      if (Convert.ToBoolean(Convert.ToInt32('\xeb')))
+      Console.WriteLine("If executed Successfully");
+      else ;
+      else ;
+      else ;
+      }
+    }
+}
+
+10.	Predict the output?
+using System;
+namespace ProgrammingExercise
+{
+class FindOutput
+    {
+     static void Main(string[] args)
+     {
+     int i;
+     i = 0;
+     while (i++ < 5)
+     {
+         Console.WriteLine(i);
+     }
+     Console.WriteLine("\n");
+     i = 0;
+     while ( ++i < 5)
+    {
+        Console.WriteLine(i);
+    }
+    Console.ReadLine();
+      }
+    }
+}
+
+11.	Predict the output?
+using System;
+namespace ProgrammingExercise
+{
+class FindOutput
+    {
+     static void Main(string[] args)
+     {
+      int i = 1, j = 1;
+      while (++i <= 10)
+      {
+          j++;
+      }
+      Console.WriteLine(i+ "  " +j);
+      }
+    }
+}
+12.	Predict the output?
+using System;
+namespace ProgrammingExercise
+{
+class FindOutput
+    {
+     static void Main(string[] args)
+     {
+       int i = 1, j = 5;
+    do
+    {
+        Console.WriteLine(i = i++ * j);
+    }while (i <= 10);
+     }
+    }
+}
+13.	What will be the output?
+using System;
+namespace ProgrammingExercise
+{
+class FindOutput
+    {
+     static void Main(string[] args)
+     {
+       int a;
+       for (a = 10; a <= 15; a++)
+       while (Convert.ToBoolean(Convert.ToInt32(a)))
+       {
+        do
+        {
+            Console.WriteLine(1);
+            if (Convert.ToBoolean(a >> 1))
+            continue;
+        }while (Convert.ToBoolean(0));
+        break;
+       }
+     }
+    }
+}
+14.	Predict the output?
+using System;
+class program
+{
+   static void Main(string[] args)
+    {
+        int x = 4 ,b = 2;
+        x -= b/= x * b;
+        Console.WriteLine(x + " " + b);
+        Console.ReadLine();
+    } 
+}
+15.	Predict the output?
+using System;
+class Program
+{
+    static void Main(string[] args)
+    {
+        int num = 5;
+        int square = 0, cube = 0;
+        Mul (num, ref square, ref cube);
+        Console.WriteLine(square + " & " +cube);
+        Console.ReadLine();
+    }
+    static void Mul (int num, ref int square, ref int cube)
+    {
+        square = num * num;
+        cube = num * num * num;
+    }
+}
+16.	Predict the output?
+using System;
+public class emp
+{
+     public static int age = 25;
+     public static int salary = 55000;
+ 
+}
+public class record :emp
+{
+     new public static int salary = 60000;
+     static void Main(string[] args)
+     {
+         Console.WriteLine(emp.age + "  " + emp.salary + "  " + salary);
+     }
+}
+17.	What will be the output of the following code?
+using System;
+class sample
+{
+    static sample()
+    {
+        int num = 8;
+          Console.WriteLine(num);
+    }
+    public  sample(int a)
+      {
+          int val = 10;
+          Console.WriteLine(val);
+      }
+}
+class Program
+{
+    static void Main(string[] args)
+    {
+        sample s = new sample(100);
+        Console.ReadLine();
+    }
+}
+18.	What will be the output?
+interface A
+{
+     void func(int i);
+}
+class B1 : A 
+{
+     public int x;
+     public void func(int i) 
+     {
+         x = i * i;            
+     }
+}
+class B2 : A
+{
+     public int x;
+     public void func(int i)
+     {
+         x = i / i;
+     }
+}
+class Program
+{
+     public static void Main(string[] args)
+     {            
+         B1 b1 = new B1();
+         B2 b2 = new B2();
+         b1.x = 0;
+         b2.x = 0;
+         b1.func(2);
+         b2.func(2);
+         Console.WriteLine(b1.x + " " + b2.x);
+         Console.ReadLine();
+     }
+}
+19.	Predict the output?
+using System;
+class baseSample
+{
+     int i = 10;
+     int j = 20;
+     public void print() 
+     {
+         Console.WriteLine("inside base method ");
+     }
+}    
+class derivedSample : baseSample 
+{
+     public  int s = 30;
+}    
+class Program
+{
+     static void Main(string[] args)
+     {
+         derivedSample d = new derivedSample();
+         Console.WriteLine("{0}, {1}, {2}", d.i,  d.j,  d.s);
+         d.print();
+         Console.ReadLine();
+     }
+}
+20.	What should be included in the current set of code to get the output as 10 20?
+using System;
+public class baseSample
+{
+    protected int a = 20;
+}   
+
+public class derivedSample : baseSample
+{
+  int a = 10;
+  public void display()
+    {
+       /* add code here */
+    }   
+  
+}    
+class Program
+{
+    static void Main(string[] args)
+    {
+        derivedSample d = new derivedSample();
+        d.display();
+        Console.ReadLine();
+    }
+}
+21.	What will be the output?
+using System;
+public class Program
+    {      
+      public static void Main(string[] args)
+        {
+          char x = 'A';
+           int i = 0;
+          Console.WriteLine (true  ? x : 0);
+          Console.WriteLine(false ? i : x); 
+        }
+    }
+22.	Predict the output?
+using System;
+public class Program
+    {
+        public static void Main(string[] args)
+        {
+            char[] num = { '1', '2', '3' };
+            Console.WriteLine(" char array: " + num);
+        }
+ 
+    }
+23.	Predict the output?
+using System;
+using System.Collections.Generic;
+public class Program
+    {
+        public static void Main(string[] args)
+        {
+            string[] strings = { "abc", "def", "ghi" };
+            var actions = new List();
+            foreach (string str in strings)
+              actions.Add(() => { Console.WriteLine(str); });
+
+            foreach (var action in actions)
+              action();
+        }
+    }
+24.	What is the output of the following code?
+using System;
+using System.Collections.Generic;
+public class Program
+    {
+        public static void Main(string[] args)
+        {
+            var actions = new List();
+            for (int i = 0; i < 4; i++) actions.Add(() => Console.WriteLine(i));
+            foreach (var action in actions)
+                action();
+        }
+    }
+25.	Predict the output of the following code?
+using System;
+using System.Collections.ObjectModel;
+using System.Collections.Generic;
+public class Program
+    {
+        public static void Main()
+        {
+            var arr = new List { 20, 40, 35, 85, 70 };
+            var collection = new Collection(arr);
+            arr.Add(60);
+            arr.Sort();
+            Console.WriteLine(String.Join(",", collection));
+        }
+    }
+26.	Predict the output?
+using System;
+public class Program
+    {
+        public static void Main(string[] args)
+        {
+            {
+                try
+                {
+                    throw new NullReferenceException("C");
+                    Console.WriteLine("A");
+                }
+                catch (ArithmeticException e)
+                {
+                    Console.WriteLine("B");
+                }
+                Console.ReadLine();
+            }
+        }
+    }
+27.	Predict the output?
+using System;
+class Program
+    {
+      enum Color: int
+        { 
+         red, green, blue = 5, cyan, magenta = 10, yellow 
+        }
+      public static void Main()
+      {
+        Console.WriteLine( (int) Color.green + ", " ); 
+        Console.WriteLine( (int) Color.yellow );
+      }
+    }
+28.	Will the code successfully produce the output?
+using System;
+public class Program
+    {
+        public static void Main(string[] args)
+        {
+            int i = 3;
+            int j = 2;
+            func1(ref i);
+            func2(out j);           
+            Console.WriteLine(i + " " + j);
+        }
+ 
+        static void func1(ref int num)
+        {
+            num = num + num;
+        }
+        static void func2(out int num)
+        {
+            num = num * num;
+        }
+    }
+29.	Can you predict the output of the following?
+using System;
+class Program
+    {
+        public static void Main()
+        {
+            var test = SingletonB.Test;
+        }
+    }
+ 
+    class SingletonB
+    {
+        static readonly SingletonB _instance = new SingletonB();
+ 
+        public static SingletonB Test { get { return _instance; } }
+ 
+        private SingletonB()
+        {
+            Console.WriteLine("Default Constructor");
+        }
+ 
+        static SingletonB()
+        {
+            Console.WriteLine("Static Constructor");
+        }
+    }
+30.	Predict the output?
+using System;
+class Program
+    {
+        public static void Main()
+        {
+            Sample s = new Sample();
+            s.Print();
+ 
+            ISample i = s;
+            i.Print();
+        }
+ 
+        public interface ISample
+        {
+            void Print(string val = "Interface Executed");
+        }
+ 
+        public class Sample : ISample
+        {
+            public void Print(string val = "Class Executed")
+            {
+                Console.WriteLine(val);
+            }
+        }
+    }
+31.	What will be the output of the following code?
+using System;
+class MyProgram
+   {
+       public static void Main(string[] args)
+       {
+           try 
+           {
+               int x = args.Length;
+               int y = 1 / x;
+               Console.WriteLine("Hello");
+           }
+           catch (ArithmeticException e) 
+           {
+               Console.WriteLine("Exception Occurred");
+           }
+           Console.ReadLine();
+       }
+   }
+32.	What will be the output of the following code?
+static void main(string[] args)
+ {
+     int i;
+     int res = fun (out i);
+     console.writeline(res);
+     console.readline();
+ }
+ static int fun(out int i)
+ {
+     int s = 1;
+     i = 7;
+     for (int j = 1; j <= i; j++ )
+     s = s * j;
+     return s;
+ }
+33.	What will be the output?
+static void Main(string[] args)
+ {
+     int[] x = {65, 66, 67, 68, 69, 70};
+     fun(x);
+     Console.ReadLine();
+ }
+ static void fun(params int[] b )
+ {
+     int i;
+     for (i = 5; i > 0 ; i--)
+     {
+         b[i] = b[i] + 32;
+         Console.WriteLine(Convert.ToChar(b[i]));
+     }
+ }
+
+34.	Predict the output ?
+class Program
+ {
+     static void Main(string[] args)
+     {
+         int[] nums = { 1, -2, 3, 0, -4, 5 };
+         var posNums = from n in nums
+                       where n % 2 ==0
+                       select n;
+            Console.Write("The positive values in nums: ");
+            foreach (int i in posNums) Console.Write(i + " ");
+            Console.WriteLine();
+            Console.ReadLine();
+        }
+    }
+35.	Predict the output of the following code?
+class Program
+ {
+     static void Main(string[] args)
+     {
+         int[] nums = { 1, -2, 3, 0, -4, 5 };
+         var posNums = nums.Where(n => n > 0).Select(r => r*2).
+                       OrderByDescending(r=>r);
+         Console.Write("The positive values in nums: ");
+         foreach(int i in posNums) 
+         Console.Write(i + " ");
+         Console.WriteLine();
+         Console.ReadLine();
+     }
+ }
+36.	Predict the output?
+class Program
+    {
+        static void Main(string[] args)
+        {
+ 
+            int[] nums = { 1, -2, -3, 5 };
+            var posNums = from n in nums
+                          orderby n descending
+                          select n*4 / 2;
+            Console.Write("The values in nums: ");
+            foreach (int i in posNums) Console.Write(i + " ");
+            Console.WriteLine();
+            Console.ReadLine();
+        }
+    }
+37.	What will be the output of the following?
+class MyClass
+ {
+     int[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
+     public IEnumerator GetEnumerator()
+     {
+         for (int i = 0; i < 20; i++)
+         {
+             if (a[i] % 2 == 0)
+             yield return (int)(a[i]);
+         }
+     }
+ }
+ class Program
+ {
+     static void Main(string[] args)
+     {
+         MyClass mc = new MyClass();
+         foreach (int i in mc)
+         Console.Write(i + " ");
+         Console.WriteLine();
+         Console.ReadLine();
+     }
+ }
+
