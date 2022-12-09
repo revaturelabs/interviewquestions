@@ -82,6 +82,11 @@ Basics:
 78.	What is HashTable? How it differs from arraylist ?
 79.	Can you brief me on Stack Collection class and Queue Collection class?
 80.	Can you differentiate List and Dictionary in C#?
+81. Explain the different categories of Design Patterns?
+82. Can you tell me how will you implement threadsafe singleton design pattern in C#?
+83. Can you explain Factory design pattern ?
+84. What is pattern matching in C#?
+
 
 *********  Predict the output or Debug the code ***********:::
 
