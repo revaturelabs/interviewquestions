@@ -1,0 +1,70 @@
+SQL:
+1.	What is the difference between DBMS and RDBMS?
+2.	What is normalization?
+3.	Can you explain each normal form?
+4.	What is the difference between char,nchar,varchar,nvarchar?
+5.	What is SQL key? Different types of SQL keys?
+6.	Can you define all the keys in a database table?
+7.	Is that primary key and unique key both are same ? If not can you explain.
+8.	How to define primary key and unique key?
+9.	What is the difference between primary and foreign key?
+10.	What are SQL commands?
+11.	What are different types of SQL commands?
+12.	What are the DDL commands?
+13.	What are DML commands?
+14.	What are DQL commands?
+15.	What are TCL commands?
+16.	What are DCL commands?
+17.	What is Grant and Revoke Commands?
+18.	What are SQL Constraints or SQL Integrity Constraints?
+19.	What are the different types of SQL constraints sor SQL Integrity Constraints?
+20.	What is the difference between a JOIN and a UNION?
+21.	What is view?
+22.	What is the need of SQL View?
+23.	What is a transaction and why we use it in SQL?
+24.	What are the properties of a transaction?
+25.	What are the main steps in data modeling?
+26.	What’s the difference between the TRUNCATE and DELETE statements?
+27.	What’s the difference between UNION and UNIONALL ?
+28.	What are triggeres? How to create a trigger ?
+29.	What are the different types of DML triggers in SQL?
+30.	What are CLR triggers in SQL?
+31.	What are SQL Joins?
+32.	Can you describe each type of SQL Join?
+33.	What is the difference between inner join and equi join?
+34.	How Group by and having clause are related to each other?
+35.	What is Rollup Operator in SQL ?
+36.	What are SQL injection attacks?
+37.	What are the recommended solutions to stop SQL Injection attacks?
+38.	What is SQL Functions?
+39.	What are the System Defined functions?
+40.	How to create user defined functions ?
+41.	What are stored procedures? Can you tell me the different types of SQL Stored Procedures?
+42.	Can you differentiate Stored procedures and Functions in SQL?
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Queries:
+
+1.	Write a query to create a table?
+2.	Write a query to insert the data into the table?
+3.	Write a query to view the specified record of the table by using the where clause.
+4.	Write a query to display the names of employees that begin with ‘A’?
+5.	Write a query to retrieve the top N records?
+6.	Create a query to generate the first and last records from the Employee table.
+7.	Write a query to find duplicate records from a table?
+8.	Write a query to find even and odd records in the table?
+9.	Write a query to fetch the list of employees of the same department?
+10.	What is query to fetch the employee records where salary of employee is greater than 57 k and less than 75 k?
+11.	What is query to find out the Students whose names starts with S,K,U?
+12.	How to replace a string in a SQL Server Table Column.
+13.	How to rename Table Column in SQL Server.
+14.	Write an SQL query that fetches the unique values of EMPLOYEE from Worker table and prints its length.
+15.	Write an SQL query to print details for EMPLOYEE with the first name as “Chitrak” and “Raghu” from Worker table.
+16.	Write an SQL query to determine the 5th highest salary without using TOP or limit method.
+17.	Write an SQL query to fetch the list of employees with the same salary.
+18.	Write an SQL query to fetch departments along with the total salaries paid for each of them.
+19.	Write an SQL query to fetch the departments that have less than five people in it.
+20.	Write an SQL query to fetch all the EmpIds which are present in either of the tables – ‘EmployeeDetails’ and ‘EmployeeSalary’.
+
