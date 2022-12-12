@@ -1,1 +1,747 @@
-1.
+1. Why Java is platform independent?
+Answer: Java is called platform independent because programs written in Java can be run on multiple platforms without re-writing them individually for a particular platform, that is Write Once Run Anywhere (WORA).
+
+2. Is Java compiling or interpreting language?
+Answer: Java can be considered both a compiled and interpreted language. The interpreter scans the program line by line and translates it into machine code whereas the compiler scans the entire program first and then translates it into machine code. The interpreter shows one error at a time whereas the compiler shows all errors and warnings at the same time.
+
+3. what are classes and objects?
+Answer: Class: Class is a user-defined data type and it’s a blueprint of an object.
+Object: Objects can be considered as real-world instances of entities like class, that have characteristics and behaviors.
+
+4. How do you declare the method?
+Answer: Method is a block of code that only runs when it is called.
+Method is defined with the name of the method, followed by parentheses ().
+public class Main {
+
+  static void Method_Name() {
+
+    // code
+
+  }
+
+}
+
+5. What is the static and Non-Static method?
+Answer: Static
+It’s a non-access modifier.
+It’s used to share the same variable or method of a given class.
+There is no need to create an object for the class to access the static variable or static method.
+We can use the class name to call them with respect to the access modifier.
+If we use the object name to call the static method or variable, the compiler will replace the name of the object with class.
+Non-static
+A method that does not contain a static keyword is treated as a non-static method in java.
+We can access a non-static by using an object.
+
+6. Explain public static void main (String[] args)
+Answer: public static void main(String[] args) – the main method is the entry point of any java program
+public is an access specifier of the main method. It must be public so that java runtime can execute this method.
+static is a non-access modifier. When the java runtime starts, there is no object of the class present. That’s why the main method must be static so that JVM can load the class into memory and call the main method.
+Void is a return type, which means the main method not going to return anything.
+main is a method name
+String[] args - Java main method accepts a single argument of a type String array. This is also called java command line arguments.
+
+7. What is the difference between system.out.println and system.out.print.
+Answer: The main difference between the two is that print() retains the cursor in the same line after printing the argument, while println() moves the cursor to the next line.
+
+8. Why doesn’t java support multiple inheritance?
+Answer: Due to memory duplication java doesn’t support multiple inheritance.
+When we extends two parent classes having the same methods into a third child class and creates an object for the child class, there will be ambiguity to call the method of both the parent class, and thus an error will be generated in java.
+
+9. What are getters and setters?
+Answer: Getters and setters are used to protect your data, particularly when creating classes.
+The setter/getter methods are used to assign/change and retrieve values of the instance variables of a class.
+
+10. What is data abstraction?
+Answer: Abstraction is an important concept of object-oriented programming that allows us to hide unnecessary details and only show the needed information.
+A practical example of abstraction can be motorbike brakes. We know what brake does. When we apply the brake, the motorbike will stop. However, the working of the brake is kept hidden from us.
+
+11. What are constructors?
+Answer: A constructor in Java is a special method that is used to initialize objects. The constructor is called when an object of a class is created.
+
+12. What is the use of break statement
+Answer:In java break statements is used to terminate loops and switch statements in java.
+
+13. Can we use more than one constructor in java?
+Answer: Yes, a class can have multiple constructors that assign the fields in different ways.
+
+14. Difference between compiler and interpreter.
+Answer: Compiler
+A compiler translates the entire source code in a single run.
+Interpreter
+An interpreter translates the entire source code line by line.
+
+15. What is an abstract class and abstract method
+Answer: Abstract class: Abstract class is a restricted class that cannot be used to create an object.
+Abstract method: Abstract method: can only be used in an abstract class, and it does not have a body. The body is provided by the subclass (inherited from).
+
+16. What is the difference between a method and a constructor?
+Answer: Constructor
+Constructor has same name as the class name.
+Constructor is used to initialize the data members and startup tasks.
+Constructor is automatically called when an obj is created.
+There is no return data type in constructor.
+There is always a default constructor provided by compiler.
+Method
+Method can have the same class name and can be different as per requirement.
+Method is used to define the particular task for execution.
+We need to call the method explicitly.
+We must declare a return data type in methods.
+There is no method provided by the compiler.
+
+17. Can we use a default constructor of a class even if an explicit constructor is defined?
+Answer: No. Java provides a default no-argument constructor if no explicit constructor is defined in a class. But if an explicit constructor has been defined, the default constructor can’t be invoked, and the developer can use only those constructors which are defined in the class.
+
+18. What is a singleton class?
+Answer: A singleton class is a class that can have only one object at a time.
+
+19. What is parametrized constructor?
+Answer: Constructors that can take at least one argument are termed parameterized constructors.
+
+20. What is exception handling?
+Answer: An exception is an error event that can happen during the execution of a program and disrupts its normal flow.
+Exceptions in Java can arise from different kinds of situations such as wrong data entered by the user, hardware failure, network connection failure, or a database server that is down. The code that specifies what to do in specific exception scenarios is called exception handling.
+
+21.What is the syntax for exception handling?
+Answer: try {
+
+   // code
+
+} catch (ExceptionName e1) {
+
+   // Catch block
+
+}
+
+22. what are the common exceptions
+Answer: NullPointerException
+ArrayIndexOutOfBoundsException
+IllegalStateException
+ClassCastException
+ArithmeticException
+IllegalArgumentException
+
+23. what is an instance variable?
+Answer: The variables that are declared inside the class but outside the scope of any method are called instance variables in Java.
+
+24. what are the variables?
+Answer: A variable is a name that is stored in a memory location and it is used to hold a value.
+
+25. What is the difference between throw and throws?
+Answer: throw  
+Used inside a method when it is required to throw an Exception logically.
+Used to throw an exception explicitly.It can throw only one exception at a time.    
+Syntax: throw new Exception()  
+throws
+Used in the method signature when the method has some statements that can lead to exceptions.
+Used to declare multiple exceptions, separated by a comma.When an exception occurs, it matches with the declared ones and throws an exception automatically
+Syntax: public static void writeToFile() throws Exception {}
+
+26. what is the use of the final keyword?
+Answer: final keyword is a non-access specifier that can be used with class, variable, and method to restrict changes or make it constant.
+If we initialize a variable with the final keyword, then we cannot modify its value.
+If we declare a method as final, then it cannot be overridden by any subclasses.
+And, if we declare a class as final, we restrict the other classes to inherit or extend it.
+
+27. What are Stack and heap memory?
+Answer: Stack memory stores primitive types and the addresses of objects.
+Heap memory stores the value of the object.
+
+28. what are wrapper classes?
+Answer: A Wrapper class is a class whose object wraps or contains primitive data types. Each of the 8 primitive types has corresponding wrapper classes.
+
+29. why string is immutable?
+Answer: In the String constant pool, a String object is likely to have one or many references. If several references point to the same String without even knowing it, it would be bad if one of the references modified that String value. That’s why String objects are immutable.
+
+30. What is the purpose of using the Scanner class?
+Answer: In java scanner class is used to get user input, and it is found in java.util package.
+
+31.Explain the use of priority queue in Java?
+Answer: A PriorityQueue is used when the objects are supposed to be processed based on the priority. It is known that the queue follows the First-In-First-Out algorithm, but sometimes the elements of the queue need to be processed according to the priority, which is when the PriorityQueue comes into play.
+
+The PriorityQueue is based on the priority heap. The elements of the priority queue are ordered according to the natural ordering, or by a Comparator provided at queue construction time, depending on which constructor is used.
+
+32.What is the role of Maven in java?
+Answer: Maven is an automation and management tool developed by Apache Software Foundation.
+· It allows us to create projects, dependency, and documentation using Project Object Model and plugins.
+· It can also build any number of projects into desired output such as jar, war, metadata.
+
+33.What do you understand by Encapsulation?
+Answer:Encapsulation is the way of binding the data (variables) and code acting on the data (methods) together as a single unit.
+
+34.What are the types of polymorphism ?
+Answer: There are two types of polymorphism as below:
+1.Static Binding or Compile time Polymorphism or Method Overloading
+2.Dynamic Binding or Runtime Polymorphism or Method overriding.
+
+35.What are the types of access modifiers in java?
+Answer: Access modifiers allow us to set the scope or accessibility, or visibility of a data member be it a field, constructor, class, or method. The four different types of access specifiers
+· Public
+· Protected
+· Private
+· Default
+
+36.What are the different Non access modifiers in java?
+Answer: Non-access modifiers define the behavior of the entities to the JVM, used with classes, variables, methods, constructors, etc. Some of the non-access modifiers are
+· static
+· final
+· abstract
+· synchronized
+
+37. What is ArrayDeque in java?
+Answer: ArrayDeque provides a way to apply resizable array in addition to the implementation of the Deque interface. It is also known as Array Double Ended Queue or Array Deck. This is a special kind of array that grows and allows users to add or remove an element from both sides of the queue.
+
+38.How Arrays are different from ArrayList in java?
+Answer: Array is fixed length data structure, once created you cannot change its length. On the other hand, ArrayList is dynamic, it automatically allocates a new array and copies content of old array, when it resizes. Array does not support generics while ArrayList does.
+
+39.What are some of the phases of maven lifecycle?
+Answer:validate : the project is correct and all necessary information is available.
+· compile : compile the source code of the project.
+· test : test the compiled source code with a suitable unit testing framework. These tests should not require the code be packaged or deployed.
+· package : take the compiled code and package it in its distributable format, such as a JAR.
+· integration-test : process and deploy the package, if necessary, into an environment where integration tests can be run.
+· verify : run any checks to verify whether the package is valid and meets quality criteria.
+· install : install the package into the local repository, for use as a dependency in other projects locally.
+· deploy : done in an integration or release environment, copies the final package to the remote repository for sharing with other developers and projects.
+
+40.What are the types of maven repository?
+Answer:There are three types of Maven repositories:
+1.Local Repository: - Local repository refers to the machine of the developer where all the project material is saved. The local repository contains all the dependency jars.
+2.Remote Repository: - The remote repository refers to the repository present on a server usually in company intranet to download dependencies. - The advantage of remote repository is that it can have all publicly available dependencies as well as private dependencies used only in intranet by employees of the enterprise.
+3.Central Repository: - Central repository refers to the Maven community that comes into action when there is a need for dependencies, and those dependencies cannot be found in the local repository. - Maven downloads the dependencies from here in the local repository whenever needed.
+
+41.What is the use of log4j?
+Answer: Log4j is a reliable, fast, and flexible logging framework (APIs) written in Java, which is distributed under the Apache Software License.
+· Log4j has been ported to the C, C++, C#, Perl, Python, Ruby, and Eiffel languages.
+
+42.What are all the logging levels?
+Answer:
+· All
+· Debug
+· Info
+· Warn
+· Error
+· Fatal
+· Off
+
+43.Explain the concept of exception handling
+Answer: Exceptions in Java can arise from various kinds of situations such as wrong data entered by the user, hardware failure, network connection failure, or a database server that is down. The code that specifies what to do in specific exception scenarios is called exception handling.
+
+44.Difference between StringBuffer and StringBuilder?
+Answer:
+StringBuffer StringBuilder
+StringBuffer is
+synchronized i.e., thread
+safe. It means two
+threads cannot call the
+methods of StringBuffer
+simultaneously. StringBuilder is non-synchronized i.e., not thread safe. It means two threads can call the methods of StringBuilder simultaneously.
+Faster than String class
+due to mutability but
+slower than StringBuilder Fastest among all as it allows mutability and does not allow multiple threads
+StringBuffer StringBuilder
+class as it allows multiple
+threads simultaneous
+operations. operating at the same time.
+
+Syntax: StringBuffer var =
+
+new StringBuffer(str); Syntax: StringBuilder var = new StringBuilder(str);
+
+45. What is Finally in java?
+Answer:finally, the block in Java Exception Handling executes important code whether the exception occurs or not.
+
+46.What is Static keyword in java?
+Answer:It is a non-access modifier.
+· It is used to share the same variable or method of a given class.
+· When we declare a variable or method as static that will not belong to any object, it belongs to the class.
+· There is no need to create an object for the class to access the static variable or static method.
+· We can use the class name to call them with respect to the access modifier.
+· If we use the object name to call the static method or variable, the compiler will replace the name of the object with class.
+
+47.What is a lambda expression in java? And how it is different from a method?
+Answer:A lambda expression is a short block of code which takes in parameters and returns a value. Lambda expressions are like methods, but they do not need a name and they can be implemented right in the body of a method.
+
+48.What is a map interface in java?
+Answer:The map interface is present in java.util package represents a mapping between a key and a value. The Map interface is not a subtype of the Collection interface. Therefore, it behaves a bit differently from the rest of the collection types. A map contains unique keys.
+
+49.What is JVM?
+Answer:JVM - Java Virtual Machine
+JVM interprets the byte code into the machine code and executes it.
+
+50.Difference between JDK, JRE, & JRE?
+Answer:JDK is a software development kit whereas JRE is a software bundle that allows Java program to run, whereas JVM is an environment for executing bytecode.
+JRE = JVM + libraries to run Java application
+JDK = JRE + tools to develop Java application
+
+51.Explain Garbage collector in java
+Answer:Garbage collection is the process of looking at heap memory, identifying which objects are in use and which are not, and deleting the unused objects.
+
+52.What do you know about Stack and Heap memory in java?
+Answer:There are two kinds of memory used in Java:
+· Stack memory stores primitive types and the addresses of objects.
+· Heap memory stores the value of the object.
+
+53.What are the diverse types of control flow statements present in java?
+Answer:Java provides three types of control flow statements.
+1. Decision Making statements
+o if statements
+o switch statement
+2. Loop statements
+o do while loop
+o while loop
+o for loop
+o for-each loop
+3. Jump statements
+o break statement
+o continue statement
+
+54.What is the use of Packages?
+Answer:A package is a namespace that organizes a set of related classes and interfaces. Think of it as a folder in a file directory. We use packages to avoid name conflicts, and to write a better maintainable code.
+
+55.What is the use of import in java?
+Answer:The import keyword is used to import a package, class, or interface.
+
+56.What is the use of final keyword in Java?
+Answer:final keyword is a non-access specifier that can be used with class, variable, and method to restrict changes or make it as constant.
+· If we initialize a variable with the final keyword, then we cannot modify its value.
+· If we declare a method as final, then it cannot be overridden by any subclasses.
+· And, if we declare a class as final, we restrict the other classes to inherit or extend it.
+
+57.Constructors and it is types?
+Answer:A constructor in Java is a special method that is used to initialize objects. The constructor is called when an object of a class is created.
+Types include:
+Ø Default
+Ø Parameterize
+
+
+58.Difference between method and block scope?
+Answer:Method level scope or Local scope (local variables): Any variable declared within a method and arguments is only accessible inside that method.
+· Block scope (loop variables): Any variable declared in a for loop condition is not accessible after the loop unless you define it beforehand.
+
+59.Using which method of stringBuilder, we can add element at a specific position in a string
+Answer:Using insert() method.
+
+60.What do you understand by wrapper class?
+Answer:Java needs wrapper classes to be a pure Object-Oriented Programming language, so Java needs everything to look like an object.
+· Classes in Collection framework & java.util package, such as ArrayList and Vector, store only objects (reference types) and not primitive types
+· Wrapper classes have lot of utility methods, it really helpful and easier.
+
+Primitive Type Wrapper Class
+
+byte Byte
+
+boolean Boolean
+
+char Character
+
+Primitive Type Wrapper Class
+
+double Double
+
+float Float
+
+int Integer
+
+long Long
+
+short Short
+
+61.What is type casting in java?
+Answer:Type casting refers to changing the datatype to another datatype. It is of two types:
+Ø Implicit
+Ø Explicit
+
+62.What is the use of JDBC?
+Answer:JDBC(Java Database Connectivity) is a Java API, which is helpful in interacting with the database to retrieve, manipulate and process the data using SQL.
+· It will make use of JDBC drivers for connecting to the database.
+· JDBC can access tabular data stored in several types of relational databases such as Oracle, MySQL, MS Access, etc
+
+63.What is a Connection Interface in java?
+Answer:Connection interface represents a session between java application and database. All SQL statements are executed, and results are returned within the context of a Connection object.
+
+64.Explain multithreading
+Answer:Multithreading is a Java feature that allows concurrent execution of two or more parts of a program for maximum utilization of CPU. Each part of such a program is called a thread.
+
+65.What are the two ways through which we can use thread in java code?
+Answer:by implementing runnable interface or by extending thread class.
+
+66.Difference between thread class and runnable interface
+Answer:When we extend Thread class, we cannot extend any other class even if we require and when we implement Runnable, we can save a space for our class to extend any other class in future or now.
+· When we extend Thread class, each of our threads creates a unique object and associates with it. When we implement Runnable, it shares the same object with multiple threads.
+
+67.What is Junit testing?
+Answer:JUnit helps to test individual pieces of code, or “units,” to ensure that they are functioning properly. By identifying and isolating units that are not working correctly, JUnit makes it easier to find and fix errors in code. In addition, JUnit can be used to automate the execution of unit tests, which can save time and effort.
+
+68.What is assertion in java?
+Answer:An assertion is a statement in Java which ensures the correctness of any assumptions which have been done in the program. When an assertion is executed, it is assumed to be true. If the assertion is false, the JVM will throw an Assertion error.
+
+69.Explain TDD process
+Answer:TDD, which stands for test-driven development, is a software development methodology. As the name suggests, TDD consists of using tests to drive the development of the application, leading to simple, iterative implementation with high test coverage from the beginning.
+
+70.What is the difference between TreeSet and HashSet? 
+Answer:
+HashSet is a generic class of the Java collection framework. It extends AbstractSet and implements the Set interface. It creates a collection that uses a hash table for storage. The hash table stores the information by using the hashing mechanism. 
+TreeSet is a generic class of the Java collection framework. It implements the Set interface. It uses TreeMap internally to store the TreeSet elements. By default, it sorts the elements in natural order (ascending order). The order of sorting depends on the Comparator that we have parsed. If no Comparator is parsed, it sorts the elements in the natural order. 
+
+--------
+Coding Question
+
+1. Create an ArrayList, take elements from the user and sort the ArrayList in ascending and descending order.
+Answer:
+import java.util.*;
+public class Main
+{
+public static void main(String[] args)
+{
+Scanner sc = new Scanner(System.in);
+ArrayList<Integer> arr = new ArrayList<Integer>();
+arr.add(sc.nextInt());
+arr.add(sc.nextInt());
+arr.add(sc.nextInt());
+arr.add(sc.nextInt());
+System.out.println("initial list: "+arr);
+Collections.sort(arr);
+System.out.println("ascending order list: "+arr);
+Collections.sort(arr,Collections.reverseOrder());
+System.out.println("descending order list: "+arr);
+}
+}
+
+2. Create an Array in java and take elements from the user.
+Answer:
+import java.util.*;
+public class Main
+{
+public static void main(String[] args)
+{
+Scanner sc = new Scanner(System.in);
+int a[] = new int[5];
+int i;
+System.out.println("Enter the elemen
+for(i =0; i<5; i++){
+a[i] =sc.nextInt();
+}
+System.out.println("array elements are: ");
+for(i =0;i<5; i++){
+System.out.print(a[i]+" ");
+}
+}
+}
+
+3. Array program based on given task:
+i) even
+ii) odd
+iii) elements at odd index
+Answer:
+import java.util.*;
+public class Main
+{
+public static void main(String[] args) {
+sc =new Scanner(System.in);
+int size = sc.nextInt();
+int arr []= new int[size];
+System.out.println("enter values: ");
+for (int i = 0; i<size;i++){
+arr[i] = sc.nextInt();
+}
+for (int i = 0; i<size;i++){
+if(arr[i]%2==0){
+System.out.println("even numbers: " +arr[i]);
+}
+else if(i%2!=0) {
+System.out.println("elements at odd index: " +arr[i]);
+}
+else if(arr[i]%2!=0) {
+System.out.println("odd numbers: " +arr[i]);
+}
+else{
+System.out.print("");
+}
+}
+}
+}
+
+4. Array program based on given task
+i) max
+ii) min
+Answer:
+import java.util.*;
+public class Main
+{
+public static void main(String[] args) {
+Scanner sc =new Scanner(System.in);
+int size = sc.nextInt();
+int arr []= new int[size];
+System.out.println("enter values: ");
+for (int i = 0; i<size;i++){
+arr[i] = sc.nextInt();
+}
+int max = arr[0];
+int min = arr[0];
+for (int i = 0; i<size;i++){
+if(arr[i]>max){
+max= arr[i];
+}
+}
+System.out.println("maximum element: " +max);
+for (int i = 0; i<size;i++){
+if(arr[i]<min){
+min= arr[i];
+}
+}
+System.out.println("minimum element: " +min);
+}
+}
+
+5. ****ArrayList program*****
+i) even number
+ii) odd number
+iii) sort (using Collections.sort())
+iv) min
+v) max
+vi) even min
+vii) even max
+viii) odd min
+ix) odd max
+Answer:
+import java.util.*;
+public class Main
+{
+public static void main(String[] args) {
+Scanner sc =new Scanner(System.in);
+ArrayList<Integer> al = new ArrayList<>();
+al.add(5);
+al.add(7);
+al.add(4);
+al.add(6);
+System.out.println("arraylist elements: "+al);
+for(int i =0; i<al.size(); i++){
+if(al.get(i)%2 == 0){
+System.out.println("Even numbers:"+ al.get(i));
+}
+}
+for(int i =0; i<al.size(); i++){
+if(al.get(i)%2 != 0){
+System.out.println("Odd numbers:"+ al.get(i));
+}
+}
+Collections.sort(al);
+System.out.println(al);
+System.out.println("Min element: "+ al.get(0));
+System.out.println("Max element: " + al.get(al.size()-1));
+int minn = Integer.MAX_VALUE;
+int maxx = al.get(0);
+for(int i =0; i<al.size(); i++){
+if(al.get(i)< minn && al.get(i)%2 == 0){
+minn = al.get(i);
+System.out.println(" Even minimum number: " +minn);
+}
+}
+for(int i =0; i<al.size(); i++){
+if(al.get(i)> maxx && al.get(i)%2 == 0){
+maxx = al.get(i);
+System.out.println(" Even maximum number: " +maxx);
+}
+}
+int min = Integer.MAX_VALUE;
+int max = al.get(0);
+for(int i =0; i<al.size(); i++){
+if(al.get(i)< min && al.get(i)%2 != 0){
+min = al.get(i);
+System.out.println(" Odd minimum number: " +min);
+}
+}
+for(int i =0; i<al.size(); i++){
+if(al.get(i)> max && al.get(i)%2 != 0){
+max = al.get(i);
+}
+}
+System.out.println(" Odd maximum number: " +max);
+}
+}
+
+6. Array program
+tasks:
+1) sum of elements with index
+2) product of elements with index
+3) sum of elements with 2 to the power "i" where, "i" is index.
+4) sum of next element with previous elements sum.
+Answer:
+import java.util.*;
+import static java.lang.Math.*;
+public class Main
+{
+public static void main(String[] args)
+{
+Scanner sc = new Scanner(System.in);
+int n = sc.nextInt();
+int a[] = new int[n];
+int i;
+System.out.println("Enter the elements of the array: ");
+for(i =0; i<n; i++){
+a[i] =sc.nextInt();
+}
+System.out.println("addition of array elements with index: ");
+for(i =0;i<n; i++){
+int sum = a[i] + i;
+System.out.print(sum+" ");
+}
+System.out.println("\n product of array elements with index: ");
+for(i =0;i<n; i++){
+int product = a[i]*i;
+System.out.print(product+" ");
+}
+System.out.println("\n sum of array elements with 2th power index: ");
+for(i =0;i<n; i++){
+double power = a[i] + pow(2,i);
+System.out.print(power+" ");
+}
+System.out.println("\n sum of array element with previous sum ");
+int summ = 0;
+for(i =0;i<n; i++){
+summ = a[i] + summ;
+System.out.print(summ+" ");
+}
+}
+}
+
+7. Create a 2d array and take the elements in it from the user.
+Answer:
+import java.util.*;
+public class Main
+{
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+int r = sc.nextInt();
+int c = sc.nextInt();
+int [][] arr = new int [r][c];
+System.out.println("Enter values in 2D array");
+for(int i = 0; i<r; i++){
+for(int j = 0; j<c; j++){
+arr[i][j] = sc.nextInt();
+}
+}
+System.out.println("Print 2D array");
+for(int i = 0; i<r; i++){
+for(int j = 0; j<c; j++){
+System.out.print(arr[i][j]+" ");
+}
+System.out.println();
+}
+}
+}
+
+8. Array program task:
+i) array elm - index
+ii) array elm - min
+iii) max - array elm
+iv) square each array element
+Answer:
+import java.util.*;
+public class Main{
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+int n= sc.nextInt();
+int arr[]= new int[n];
+System.out.println("Enter elements: ");
+for(int i=0; i<n; i++){
+arr[i]= sc.nextInt();
+}
+System.out.println("\nArray elements are: ");
+for(int i=0; i<n; i++){
+System.out.print(arr[i]+" ");
+}
+// 1. array elements - index
+System.out.println("\nDifference b/w array elements and index : ");
+for(int i=0; i<n; i++){
+System.out.print(arr[i] - i+" ");
+}
+
+// 2. array elements - min
+System.out.println("\nDifference b/w array elements and min element : ");
+Arrays.sort(arr);
+int min = arr[0];
+for(int i=0; i<n; i++){
+int minn = arr[i]-min;
+System.out.print(minn+" ");
+}
+
+// 3. max- array elements
+int max = arr[n-1];
+for(int i=0; i<n; i++){
+System.out.print(max - arr[i]+" ");
+}
+
+// 4. square of each array element
+System.out.println("\nSquare of each array element : ");
+for(int i=0; i<n; i++){
+System.out.print(arr[i]*arr[i]+" ");
+}
+}
+
+9. LeftShift and RightShift program in Arrays.
+For Example: our array is [1, 2, 3, 4, 5]
+The right shift after 2 shifts will be – [4, 5, 1, 2, 3]
+The left shift after 2 shifts will be – [3, 4, 5, 1, 2]
+Answer:
+import java.util.*;
+public class Main
+{
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+int n= sc.nextInt();
+int arr[]= new int[n];
+System.out.println("Enter elements: ");
+for(int i=0; i<n; i++){
+arr[i]= sc.nextInt();
+}
+System.out.println("\nArray elements are: ");
+for(int i=0; i<n; i++){
+System.out.print(arr[i]+" ");
+}
+System.out.println("\nEnter no. of shift you want: ");
+int k = sc.nextInt();
+System.out.println("\nAfter right shift, Array elements are: ");
+for(int i=n-k; i<n; i++){
+System.out.print(arr[i]+" ");
+}
+for(int i=0; i<n-k; i++){
+System.out.print(arr[i]+" ");
+}
+System.out.println("\nAfter left shift, Array elements are: ");
+for(int i=k; i<n; i++){
+System.out.print(arr[i]+" ");
+}
+for(int i=0; i<k; i++){
+System.out.print(arr[i]+" ");
+}
+}
+}
+
+10. Returning Duplicate elements in an array program
+Answer:
+import java.util.*;
+public class Main
+{
+public static void main(String[] args)
+{
+Scanner sc = new Scanner(System.in);
+List<Integer> arr = new ArrayList<>();
+System.out.println("Enter elements: ");
+for(int i=0; i<6; i++)
+{
+arr.add(sc.nextInt());
+}
+System.out.println("\nArray elements are: ");
+for(int i=0; i<6; i++){
+System.out.println(arr.get(i)+" ");
+}
+List<Integer> dupl = new ArrayList<>();
+for(int i =0; i<5; i++){
+if((arr.get(i) == arr.get(i+1)) && (!dupl.contains(arr.get(i)))){
+dupl.add("\nDuplicate Elements: "arr.get(i));
+}
+}
+System.out.println(dupl);
+}
+}
