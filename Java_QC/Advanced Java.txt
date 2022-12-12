@@ -78,9 +78,26 @@ json (to convert a value or object into JSON formatted string).
 Answer: Directives are classes that add new behavior or modify the existing behavior to the elements in the template. Basically directives are used to manipulate the DOM, for example adding/removing the element from DOM or changing the appearance of the DOM elements.
 35.  Explain about Webpack
 Answer: It is a popular module bundler, a tool for bundling application source code in convenient chunks and for loading that code from a server into a browser.
-
-
-
+36. What is the use of package.json file?
+Answer: Which is used to give information to npm to identify the project and also to handle the project's dependencies.
+37.Explain about Routegauards
+Answer: These are the interfaces when implemented, allow us to control the accessibility of a route based on conditions provided in class implementation.
+38. Explain about NgModule.
+Answer: Which takes a metadata object that describes how to compile a component's template and how to create an injector at runtime. 
+39. Define Angular CLI
+Answer: Which is a command-line interface tool that you use to initialize, develop and maintain Angular applications directly from a command shell.
+40. Explain about Dependency Injection.
+Answer:It is a technique in which a class receives its dependencies from external sources rather than creating themselves and inject those dependencies into the Component, Directives, Pipes, or Services. 
+------------
+41. What is the use of @NamedQueries?
+Answer: Which is used to define the multiple HQL expressions. 
+42. What is the use of @NamedQuery?
+Answer: Which is used to define the single HQL expression. 
+43. What is the use of @NamedNativeQueries? 
+Answer: Used to define the multiple native SQL expressions. 
+44. What is the use of @NamedNativeQuery 
+Answer: Which is used to define the single native SQL expression. 
+45. 
 
 s3 - simple service storage used achieving ... by Krishna Gopika Urlaganti
 Krishna Gopika Urlaganti11:17 AM
