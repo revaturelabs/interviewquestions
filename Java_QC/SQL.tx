@@ -1,1 +1,183 @@
-1.
+1. What are the 5 sublanguages of SQL? List some commands for each.
+Answer: DDL - data definition language - CREATE, ALTER, MODIFY, DROP, TRUNCATE 
+        DML - data manipulation language - SELECT, INSERT, UPDATE, DELETE 
+        DCL - data control language - GRANT, REVOKE 
+        DQL - data query language - SELECT 
+        TCL - transaction control language - SAVEPOINT, ROLLBACK, COMMIT 
+2. What are the different types of keys? How are they made? What are they used for? 
+Answer: Primary - Unique value that can identify a row in the table 
+        Composite - A key made of more than a single column 
+        Surrogate -  Is a piece of data we add to a table, that isn’t a part of the data set 
+        Natural - Is a key that comes from the data itself 
+        Candidate - Is any potential combination of columns that could server as a primary key 
+3. What is the difference between DELETE, DROP, and TRUNCATE commands? 
+Answer: DROP removes a table entirely; DELETE will remove specific rows (unless no WHERE clause); TRUNCATE will empty a table of all data but leave the schema intact 
+        DROP and DELETE can be rolled back; TRUNCATE cannot 
+4. Explain what SQL is. What are some SQL databases? 
+Answer: Structured Query Language (SQL) refers to a standard programming language utilized to extract, organize, manage, and manipulate data stored in relational databases. SQL is thereby referred to as a database language that can execute activities on databases that consist of tables made up of rows and columns. MySQL,PostGreSQL,MSSQL Server,Oracle. 
+5. What are some SQL clauses you can use with SELECT statements? 
+Answer: Clauses: Clauses refer to the in-built functions that filter out data and retrieve the required data from the database or table. It is suitable when handling large databases. Clauses are a part of the SQL statement. 
+Let’s consider a use case where you need to select age, email, and address from the database. One would then represent the clause as ‘SELECT Age, Email, and Address,’ where SELECT is a keyword and age, email, and address reveal certain information to run the SQL query and retrieve the required data. 
+6. What is normalization? What are the levels? 
+Answer: The process of reducing redundancy in a database 
+1NF: the key (PK must exist; columns must be atomic and granular) 
+2NF: the whole key (1NF + every column relates to PK) 
+3NF: nothing but the key (2NF + no transitive dependencies) 
+7. Which normal form is it best practice to use? (3NF) 
+Answer: 3NF: nothing but the key (2NF + no transitive dependencies) 
+8. Explain about joins? 
+Answer: Joins are there to access more than one table through a select statement if you want to combine two or more table then sql join  statement is used .it combines rows of that tables in one table and one can retrieve the information by a select statement.the joining of two or more tables is based on common field between them. sql  inner join also known as simple join is the most common type of join. 
+9. What is update, and write the query? 
+Answer:  sql update statement is used to change the data of the records held by tables. which rows is to be update, it is decided by a condition. to specify condition, we use where clause. 
+the update statement can be written in following form: 
+update table_name set [column_name1= value1,... column_namen = valuen] [where condition] 
+update students   
+set user_name = 'Vinoth'   
+where student_id = '5'     
+10. Explain left join in sql?
+Answer: the  left join returns all the values from the left table and it also includes matching values from right table, if there are no matching join value it returns null. 
+syntax: 
+select table1.column1, table2.column2....  from table1    
+leftjoin table2  on table1.column_field = table2.column_field;   
+sql select id, name, amount,date from customer  left join order on customer.id = order.customer_id;   
+11. what does group by do in sql?Explain? 
+Answer: The group by clause is used in sql queries to organize data that have the same attribute values.we can often use this clause in collaboration with aggregate functions like sum, avg, min, max, and count to produce summary reports from the database
+Syntax: 
+select column_name, function(column_name)  from table_name   where condition   group by column_name;   
+Example: 
+select state, avg(salary) as salary  from developers  group by state   
+12. what is the difference between delete and truncate? 
+Answer:  The delete statement only deletes the rows from the table based on the condition defined by where clause or delete all the rows from the table when condition is not specified.The truncate statement: it is used to delete all the rows from the table and free the containing space. 
+Syntax: 
+delete from table_name;  
+truncate table employee;   
+13. Explain about referential integrity? 
+Answer: A referential integrity constraint is specified between two tables. In the referential integrity constraints, if a foreign key in table 1 refers to the primary key of table 2, then every value of the foreign key in table 1 must be null or be available in table 2. 
+14. What is the difference between primary key and alternate key?  
+Answer: A column  is in  primary key (pk) that uniquely identifies each row in the table.If you want to create a primary key, you should define a primary key constraint when you create or modify a table.
+Alternate key is a secondary Candidate Keys that can uniquely identify a row in a table.
+For Example: roll no. is primary key and rest of all columns like name, id and class are alternate keys. if a table has more than one candidate key, one of them will become the primary key and rest of all are called alternate keys. 
+15. How would you select all unique entries from a table? 
+Answer:SQL distinct clause is used to remove the duplicates columns from the result set. select distinct returns only distinct (different) values.distinct eliminates duplicate records from the table.It can be used with aggregates: count, avg, max, etc
+select distinct salary from employees  order by salary;   
+16. Explain the ACID principles. 
+Answer: Atomicity: atomicity defines that the data remains atomic. it means if any operation is performed on the data, either it should be performed or executed completely or should not be executed at all.
+Consistency: the word consistency means that the value should remain preserved always. in dbms, the integrity of the data should be maintained, which means if a change in the database is made, it should remain preserved always
+Isolation: the term 'isolation' means separation. in dbms, isolation is the property of a database where no data should affect the other one and may occur concurrently. 
+Durability: durability ensures the permanency of something. in dbms, the term durability ensures that the data after the successful execution of the operation becomes permanent in the database.
+17. what is the difference between left and inner join in sql? 
+Answer: SQL left join - when we use the left join clause, it will return all the records from the first (left-side) table, even no matching records found from the second (right side) table. 
+whereas inner join selects all rows from both participating tables as long as there is a match between the columns. An SQL INNER JOIN is same as JOIN clause, combining rows from two or more tables.
+18. Can you able to explain sql full outer join? 
+Answer: SQL full outer join is used to combine the result of both left and right outer join and returns all rows (don't care its matched or unmatched) from the both participating tables. 
+syntax for full outer join: 
+select * from table1 full outer join table2 on table1.column_name = table2.column_name;   
+19. Explain different types of relationships? 
+Answer: one to one relationship -  it is used to create a relationship between two tables in which a single row of the first table can only be related to one and only one records of a second table.
+one to many or many to one relationship - it is used to create a relationship between two tables. any single rows of the first table can be related to one or more rows of the second tables, but the rows of second tables can only relate to the only row in the first table.
+many to many relationships - it is many to many relationships that create a relationship between two tables. each record of the first table can relate to any records (or no records) in the second table
+20. Explain about aggregate functions?
+Answer: An aggregate function in SQL performs a calculation on multiple values and returns a single value. SQL provides many aggregate functions that include avg, count, sum, min, max, etc.Whichignores NULL values
+21. What is the purpose of a view? 
+Answer:  View is like a stored/cached query, useful for removing sensitive fields when giving access to a table 
+22. Explain about an index? 
+Answer: Indexes are used to retrieve data from the database more quickly than otherwise. The users cannot see the indexes, they are just used to speed up searches/queries.
+CREATE INDEX index_name ON table_name (column1, column2, ...);
+23. What is the use of commit command? 
+Answer: Commit must be executed to save all the operations performed in the transaction. 
+24. What is a trigger? Give the syntax for creating a trigger. 
+Answer: A database trigger is a stored program which is automatically fired or executed when some events occur. 
+25. What is the difference between scalar and aggregate functions?
+Answer: Scalar - operates on a single value, e.g. UPPER, LOWER, TRIM, CONCAT, DATE 
+Aggregate - operates on multiple values, e.g. MIN, MAX, AVG, SUM 
+26. Explain the difference between char and Varchar
+Answer: The main difference between CHAR and VARCHAR is that the CHAR data type is fixed in length, while the VARCHAR data type supports variable-length columns of data.
+27. Explain about the Types of indexes
+Answer: There are two types of Indexes in SQL Server:
+Clustered Index - defines the order in which data is physically stored in a table. Table data can be sorted in only way, therefore, there can be only one clustered index per table.
+Non-Clustered Index - which doesn’t sort the physical data inside the table. In fact, a non-clustered index is stored at one place and table data is stored in another place. This is similar to a textbook where the book content is located in one place and the index is located in another. 
+28. Differntiate between Commit vs savepoint
+Answer: Commit- which is used to save the changes.
+savepoint - which creates points within the groups of transactions in which to ROLLBACK.
+29. Differntiate between Grant vs revoke
+Answer: Grant - which is used to give access privileges to the users or other rights or opportunities for the database. This command also allows users to grant permissions to other users too.
+Revoke- which is used to withdraws user privileges on database objects
+30. How Where and having clause is differentiated
+Answer: Where clause is used to filter the records from a table that is based on a specified condition.
+Having clause is used to filter the record from the groups based on the specified condition. 
+31. How do you create a view?  
+Answer: Constructed from DQL queries and provide a window or "view" into the table 
+CREATE VIEW [viewname] AS [any DQL statement] 
+
+Queries
+---------
+
+1. Write a query to find all data in the table
+   SELECT * FROM employees 
+2. Write a query to find employees with a salary greater than 70000 
+   SELECT * FROM employees WHERE salary > 70000 
+3. Write a query to find employees whose first name contains an 's' 
+   SELECT * FROM employees WHERE firstName LIKE '%s%'
+4. Write a query to find employees whose last name begins with 'd' 
+   SELECT * FROM employees WHERE lastName LIKE 'd%' 
+5. Write a query to find employees whose last name ends with 'n' 
+   SELECT * FROM employees WHERE lastName LIKE '%m';
+6. Write a query to find the first name of all employees who do not work in sales 
+   SELECT firstName FROM employees WHERE dept != 'sales' 
+7. Write a query to find the average salary of all employees whose last names begin with 'E' 
+   SELECT AVG(salary) FROM employees WHERE lastName LIKE 'E%' 
+8. Write a query to find the highest paid salesperson 
+   SELECT * FROM employees ORDER BY salary DESC LIMIT 1 
+9. Write a query to remove all members of sales from the database 
+   DELETE FROM employees WHERE dept = 'sales' 
+10. Write the SQL query to get the employee details using last name ? 
+    SELECT Gender FROM Employees WHERE Last_Name = 'Anand'; 
+11. Write a Query to create a table for the Students along with three columns of ID,NAME and DEPARTMENT. 
+    CREATE TABLE Students (ID int,NAME varchar(30), DEPARTMENT varchar(30)); 
+12. Write a Query to alter the column name from Birth_Date to Date_of_Birth 
+    ALTER TABLE Employees RENAME COLUMN Birth_Date to Date_of_Birth; 
+13. Write a Query to adds a new column Location to the Employees table. 
+    ALTER TABLE Employees ADD (Location varchar(30)); 
+14. Write a Query to drops a column Joining_Date to the Students table. 
+    ALTER TABLE Students DROP column Joining_Date; 
+15. Write a statement to adds a primary key on the First_Name column. 
+    ALTER TABLE Employees ADD PRIMARY KEY (First_Name); 
+16. Write a Syntax for the CREATE TABLE using As statement in MySQL 
+    CREATE TABLE [ IF NOT EXISTS ] new_table [ AS ] SELECT expressions FROM existing_tables [WHERE conditions]; 
+17. Write an SQL query to fetch unique values of DEPARTMENT from Worker table.
+    Select distinct DEPARTMENT from Worker; 
+18. Write an SQL query to print the first three characters of  FIRST_NAME from Employee table.
+    Select substring(FIRST_NAME,1,3) from Employee; 
+19. Write an SQL query to fetch duplicate records having matching data in some fields of a table.
+    SELECT WORKER_TITLE, AFFECTED_FROM, COUNT(*) FROM Title GROUP BY WORKER_TITLE, AFFECTED_FROM HAVING COUNT(*) > 1; 
+20. Write an SQL query to show only even rows from a table. 
+    SELECT * FROM Worker WHERE MOD (WORKER_ID, 2) = 0; 
+21. Write an SQL query to clone a new table from another table. 
+    SELECT * INTO WorkerClone FROM Worker; (or)
+    SELECT * INTO WorkerClone FROM Worker WHERE 1 = 0; (or)
+    CREATE TABLE WorkerClone LIKE Worker;   
+22. Write an SQL query to fetch intersecting records of two tables.
+    (SELECT * FROM Worker) 
+    INTERSECT 
+    (SELECT * FROM WorkerClone); 
+23. Write an SQL query to show records from one table that another table does not have. 
+    SELECT * FROM Worker 
+    MINUS 
+    SELECT * FROM Title; 
+24. Write an SQL query to show the current date and time. 
+    SELECT getdate(); (or)
+    SELECT NOW(); 
+25. Write an SQL query to show the top n (say 10) records of a table.
+    SELECT * FROM Worker ORDER BY Salary DESC LIMIT 10; 
+26. Write an SQL query to fetch the list of employees with the same salary. 
+    Select distinct W.WORKER_ID, W.FIRST_NAME, W.Salary from Worker W, Worker W1 where W.Salary = W1.Salary and W.WORKER_ID != W1.WORKER_ID; 
+27. Write an SQL query to show the last record from a table.
+    Select * from Worker where WORKER_ID = (SELECT max(WORKER_ID) from Worker); 
+28. Write an SQL query to fetch three max salaries from a table.
+    SELECT distinct Salary from worker a WHERE 3 >= (SELECT count(distinct Salary) from worker b WHERE a.Salary <= b.Salary) order by a.Salary desc; 
+29. Write an SQL query to fetch three min salaries from a table. 
+    SELECT distinct Salary from worker a WHERE 3 >= (SELECT count(distinct Salary) from worker b WHERE a.Salary >= b.Salary) order by a.Salary desc; 
+30. Write a query to combine the resultsets of any two previous queries
+    SELECT column_name(s) FROM table1
+    UNION
+    SELECT column_name(s) FROM table2;
