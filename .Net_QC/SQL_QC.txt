@@ -1,27 +1,268 @@
 SQL:
 1.	What is the difference between DBMS and RDBMS?
+
+Answer::
+
+DBMS and RDBMS, both are used to store, manage and query the data. But both have some important 
+differences ::
+** DBMS **
+
+DBMS stands for Database Management System and treats data as files internally.
+It defines the relationship between the files programmatically.
+It does not impose any constraints or security with regard to data manipulation.
+It does not support distributed architecture. It supports distributed architecture
+Only one user can access data at a time.
+It satisfies maximum 6 to 7 rules of E.F. Codd 
+(Edgar Frank "Ted" Codd) out of 12 rules.
+
+** RDBMS **
+
+RDBMS stands for Relational Database Management System and treats data as relations means tables.
+It defines the relationship between the relations called tables at the time of table creation.
+It imposes constraints or security with regard to data manipulation.
+It does not support Client-Server architecture It supports Client-Server Architecture
+Multiple users can access the data at the same time
+It satisfies more than 6 to 7 rules of E.F. Codd out of 12 rules.
+Example- File System, XML, FoxPro, IMS Example – SQL Server, Oracle, DB2, MySQL
+
+
 2.	What is normalization?
+
+Answer::
+
+Normalization or data normalization is a process to organize the data into a tabular format i.e. database tables. It mainly used for implementing the following two things.
+• Reducing data redundancy.
+• Ensuring data dependency.
+A good database design implements normalization practices to make a database system fast, efficient and to produce the expected result.
+
+
 3.	Can you explain each normal form?
+
+Answer::
+
+1NF	A relation is in 1NF if it contains an atomic value.
+2NF	A relation will be in 2NF if it is in 1NF and all non-key attributes are fully functional dependent on the primary key.
+3NF	A relation will be in 3NF if it is in 2NF and no transition dependency exists.
+BCNF	A stronger definition of 3NF is known as Boyce Codd's normal form.
+4NF	A relation will be in 4NF if it is in Boyce Codd's normal form and has no multi-valued dependency.
+5NF	A relation is in 5NF. If it is in 4NF and does not contain any join dependency, joining should be lossless.
+
+
 4.	What is the difference between char,nchar,varchar,nvarchar?
+
+Answer::
+
+These data type is used to stores characters but these are different in many cases as given below:
+
+char - This is a fixed length characters data type. It takes one byte per character and used to store non-Unicode characters.
+Suppose, you declare a field with char(20) then it will allocate memory for 20 characters whether you are using only 10 characters. Hence memory for 10 characters which is empty will be wasted.
+
+nchar - This is like as char data type but it takes two bytes per character and used to store Unicode characters means multiple languages (like Hindi, Chinese etc.) characters in the database
+
+
+varchar - This is a variable length characters data type. It takes one byte per character and can store non-Unicode characters (like English). This data type allocates the memory based on a number of characters inserted. Hence, no wastage of memory.
+nvarchar – This is like as char data type but it takes 2 bytes per character and used to store Unicode characters means multiple languages (like Hindi, Chinese etc.) characters in the database. 
+
+
 5.	What is SQL key? Different types of SQL keys?
+
+Answer::
+
+A key can be a single field/column or a combination of multiple fields/columns in a table. It is used to retrieve records or data-rows from data table based on the condition. Keys are also used to create a relationship among different database tables or views.
+
+There are following types of SQL Keys –
+1. Super Key - A Super key is a set of one or more than one keys that can be used to identify a record uniquely in a database table.
+For Example: Primary key, Unique key, Alternate key are a subset of Super Keys.
+2. Candidate Key - A Candidate key is a set of one or more fields/columns that can identify a record uniquely in a database table. There can be multiple Candidate keys in one database table and each of them can work as a Primary Key.
+For Example: In below diagram ID, RollNo and EnrollNo are Candidate Keys since all these three fields can be work as Primary Key.
+3. Primary Key - A Primary key is a set of one or more fields/columns in a database table that can identify a record uniquely. It cannot accept null and duplicate values. A Candidate Key can become a Primary Key.
+4. Alternate key - An Alternate key is a key that can work as a primary key if needed. Basically, it is a candidate key that currently not a primary key
+5. Composite/Compound Key - A Composite key is a combination of more than one fields/columns of a database table. It can be a Candidate key, Primary key.
+6. Unique Key - A Unique key is a set of one or more fields/columns of a database table that can identify a record uniquely. It is like a Primary key but it can accept only one null value. It cannot have duplicate values.
+7. Foreign Key - A Foreign Key is a field/column in a database table that is Primary key in another database table. Unlike, primary key it can accept multiple null values and duplicate values.
+For Example: You can have a DeptID column in the Employee table which is pointing to the DeptID column in a department table where it a primary key.
+
+
 6.	Can you define all the keys in a database table?
+
+Answer::
+
+Practically in a database table, you can have only three types of keys: Primary Key, Unique Key and Foreign 
+Key. Other types of keys are only concepts of RDBMS that you need to know.
+
+
 7.	Is that primary key and unique key both are same ? If not can you explain.
+
+Answer::
+
+ In SQL Server, we have two keys which distinctively or uniquely identify a record in the database. Both the keys seem identical, but actually, both are different in features and behaviours.
+
+Primary Key::
+
+Primary Key can't accept null values. 
+You can have only one Primary key (it may be a composite primary key means key on multiple fields) in a table.
+By default, Primary key is clustered index and data in the database table is physically organized in the sequence of a clustered index.
+The primary key can be made foreign key into another table.
+ 
+Unique Key::
+
+The unique key can accept only one null value.
+By default, Unique key is a unique non-clustered index.
+You can have more than one unique key in a table.
+In SQL Server, Unique key can be made foreign key into another table.
+
 8.	How to define primary key and unique key?
+
+Answer::
+
+CREATE TABLE Employee
+(
+EmpID int PRIMARY KEY, --define primary key
+Name varchar (50) NOT NULL,
+MobileNo int UNIQUE, --define unique key
+Salary int NULL
+)
+
+
 9.	What is the difference between primary and foreign key?
+
+Answer::
+
+Primary key uniquely identify a relationship in a database, whereas foreign key is the key that is in other relation and it has been referenced from the primary key from other table.
+Primary key remains one only for the table, whereas there can be more than one foreign key.
+Primary key is unique and won'\t be shared between many tables, but foreign key will be shared between more than one table and will be used to tell the relationship between them.
+
+
 10.	What are SQL commands?
+
+Answer::
+
+SQL commands are a set of instructions that are used to interact with the database like SQL Server, MySQL and Oracle etc. SQL commands are responsible to create and to do all the manipulation on the database. These are also responsible to give or take out access rights on a particular database.
+
+
 11.	What are different types of SQL commands?
+
+Answer::
+
+We have different SQL commands for the different-different purpose. We can group SQL Commands into five major categories depending on their functionality.
+1. Data Definition Language (DDL)
+2. Data Manipulation Language (DML)
+3. Data Query Language (DQL)
+4. Transaction Control Language (TCL)
+5. Data Control Language (DCL)
+
+
 12.	What are the DDL commands?
+
+Answer::
+
+DDL commands are used to create, modify, and drop the structure of database objects like table, view, procedure, indexes etc. DDL commands are: CREATE, ALTER, DROP and TRUNCATE.
+
+For Example:
+--Here "TABLE" is a keyword that is used to create table "TABLE_NAME"
+CREATE TABLE TABLE_NAME
+(
+COL1 VARCHAR(10),
+COL2 VARCHAR(20),
+);
+
+
 13.	What are DML commands?
+
+Answer::
+
+DML commands are used to store, modify, and delete data from database tables. The DML commands are INSERT, UPDATE, and DELETE commands.
+
 14.	What are DQL commands?
+
+Answer::
+
+DQL commands are used to fetch/retrieve data from database tables. There are only one DQL command that is a SELECT command.
+
 15.	What are TCL commands?
+
+Answer::
+
+TCL commands are used to handle changes which affect the data in the database. Basically, these commands are used with the transaction or used to make a stable point during changes in the database at which You can roll back the database state if needed. The TCL commands are SAVEPOINT, ROLLBACK and COMMIT.
+
 16.	What are DCL commands?
+
+Answer::
+
+DCL commands are used to provide access or to provide authorization access on the database objects like table, view, stored procedure etc. The DCL commands are: GRANT and REVOKE
+
 17.	What is Grant and Revoke Commands?
+
+Answer::
+
+The Grant and Revoke commands are explained as:
+• Grant Command: This command is used to give permission to specific users on specific database objects like table, view etc.
+• Revoke Command: This command is used to take out permission from specific users on specific database objects like table, view etc.
+
+
 18.	What are SQL Constraints or SQL Integrity Constraints?
+
+Answer::
+
+Constraints are some rules that enforce on the data to be entered into the database table. Basically,constraints are used to restrict the type of data that can insert into a database table. Constraints can be defined at two levels as given below
+1. Column Level - These constraints are defined with the column definition inside a CREATE TABLE statement.
+2. Table Level - These constraints are defined after the table created using the ALTER TABLE statement.
+
+
 19.	What are the different types of SQL constraints sor SQL Integrity Constraints?
+
+Answer::
+
+In SQL Server, there are six types of SQL Constraints as given below:
+1. Primary Key Constraints - A Primary key is defined as one or more fields/columns of a database table that identify each record in a database table uniquely. It cannot accept null and duplicate values.
+2. Unique Key Constraints - A Unique key is a set of one or more fields/columns of a database table that can identify a record uniquely. It is like a Primary key but it can accept only one null value. It cannot have duplicate values.
+3. Foreign Key Constraints - A Foreign Key is a field/column in a database table that is Primary key in another database table. Unlike, primary key it can accept multiple null values and duplicate values.
+4. Not Null Constraints - This constraint ensures a field/column cannot accept a null value.
+5. Check Constraints - This constraint is used to define a business rule at a field/column in the database table that each record in the database table must follow.
+
 20.	What is the difference between a JOIN and a UNION?
+
+Answer::
+
+ Union :Union means joining two or more data sets into a single set. In SQL Server, Union is used to combine two queries into a single result set using the select statements. Union extracts all the rows that are described in the query.
+ 
+ Join : We  can retrieve data from two or more tables based on logical relationships between the tables. Joins indicate how SQL should use data from one table to select the rows in another table.
+ 
+ 
 21.	What is view?
+
+Answer::
+
+ Views are virtual tables that are compiled at runtime. The data associated with views are not physically stored in the view, but it is stored in the base tables of the view. A view can be made over one or more database tables. Generally, we put those columns in view that we need to retrieve/query again and again. Once you have 
+created the view, you can query view like as table. We can make an index, trigger on the view.
+
 22.	What is the need of SQL View?
+
+Answer::
+
+In SQL Server we make views for security purpose since it restricts the user to view some columns/fields of the table(s). Views show only those columns that are present in the query which is used to make a view. One more advantage of Views is, data abstraction since the end user is not aware of all the data present in the table.
+
+Syntax:
+
+CREATE VIEW view_name
+AS
+select_statement[]
+
+Key points about Views:
+• We make views for security purpose since it restricts the user to view some columns/fields of the table(s).
+• One more advantage of Views is, data abstraction since the end user is not aware of all the data present in 
+database table
+
 23.	What is a transaction and why we use it in SQL?
+
+Answer::
+
+A transaction is a set of T-SQL statements that are executed together as a unit like as a single T-SQL statement. If all of these T-SQL statements executed successfully, then a transaction is committed and the changes made by T-SQL statements permanently saved to the database. If any of these T-SQL statements within a 
+transaction fail, then the complete transaction is cancelled/ rolled back.
+
+We use transaction in that case when we try to modify more than one table or views that are related to each other. Transactions affect SQL Server performance greatly. Since, when a transaction is initiated then it locks all the tables’ data that are used in the transaction. Hence during the transaction life cycle, no one can modify 
+these tables’ data that are used by the transaction. The reason behind the locking of the data is to maintain Data Integrity.
+
 24.	What are the properties of a transaction?
 25.	What are the main steps in data modeling?
 26.	What’s the difference between the TRUNCATE and DELETE statements?
