@@ -153,6 +153,42 @@ Answer: A cloud based code review solution which can be configured to review cod
 Answer: Which is a Code review tool built to work on a centralized server or integrated into a development pipeline. Due to the increased flexibility and configuration options of Sonar Qube, it can be seen as a more powerful tool. 
 65. Explain about Sonar Lint 
 Answer: Which is a free, open-source linting tool. A linting tool/linter is a software tool which, when integrated with an IDE, can provide increased feedback to the developer. 
+66.Define Servlets
+Answer:
+Java Servlet is server side technologies to extend the capability of web servers by providing support for dynamic response and data persistence. Which is a small Java program that runs within a Web server.
+67. Explain about ServletConfig object
+Answer:
+which is used to pass configuration information to Servlet. Every servlet has it’s own ServletConfig object and servlet container is responsible for instantiating this object. We can use getServletConfig() method to get the ServletConfig object of the servlet.
+68. Explain about ServletContext object
+Answer:
+Which is a unique object and available to all the servlets in the web application. When we want some init parameters to be available to multiple or all of the servlets in the web application. 
+69. How do we call one servlet from another servlet?
+Answer:
+We can use RequestDispatcher forward() method to forward the processing of a request to another servlet. If we want to include the another servlet output to the response, we can use RequestDispatcher include() method.
+70. List the life cycle methods of a servlet?
+Answer:
+Servlet Life Cycle consists of three methods:
+1.  public void init(ServletConfig config) - This method is used by container to initialize the servlet, this method is invoked only once in the lifecycle of servlet.
+2.  public void service(ServletRequest request, ServletResponse response) - This method is called once for every request, container can't invoke service() method until unless init() method is executed.
+3.  public void destroy() - This method is invoked once when servlet is unloaded 
+71. What is URL Rewriting?
+Answer:
+If the client has disabled cookies in the browser then session management using cookie wont work. In that case URL Rewriting can be used as a backup. 
+Where a token(parameter) is added at the end of the URL. The token consist of name/value pair seperated by an equal(=) sign.
+72. How does Cookies work in Servlets?
+Answer:
+Cookies are text data sent by server to the client and it gets saved at the client local machine. 
+73. List out the advantage sof Microservices over monoluthic Architecture?
+Answer: Scalability, improved fault resistance,  cost efficient etc.
+74. What is circut breaker?
+Answer: Circuit breaker is used to redirect the requests if a service is not working example: Hystrix
+75. What is load balancer?
+Answer: load balancer is used to direct the requests to services without overloading a service ex: ribbon.
+76. What is registry?
+Answer: Its is middleware use to direct the requests from clients to server ex: eureka registry
+77. what is monolithic Architecture?
+Answer: A monolithic application is built as a single unified unit while a microservices architecture is a collection of smaller,independently deployable services. 
+
 
 ----------------
 
@@ -189,4 +225,13 @@ Answer: Inside constructor of component we will pass prive object of service cla
 Answer: ng generate pipe <pipe-name>
 11. How hibernate maps entity on table?
 Answer: <mapping class=”packagename.classname”/> in hibernate.cfg
-12. 
+12. How to get the actual path of servlet in server?
+Answer:
+To get the actual path of the servlet in file system. getServletContext().getRealPath(request.getServletPath())
+13. How to get the IP address of client in servlet?
+Answer:
+We can use request.getRemoteAddr() to get the client IP address in servlet.
+14. How to get the server information in a servlet?
+Answer:
+To get the servlet information in a servlet through servlet context object. getServletContext().getServerInfo()
+
