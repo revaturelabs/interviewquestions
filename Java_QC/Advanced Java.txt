@@ -1,1 +1,140 @@
-1. 
+1. why we need spring ?
+Answer: since it is a lightweight application framework i.e. container do not have services but it allow to inject services and use.
+2. What is the difference between spring vs spring boot?
+Answer: Spring all configuration we are doing inside xml file however in spring boot , it is free from xml configuration
+3. What is the use of @entity?
+Answer:It is used in entity class to connect Java and related to Database
+4. Why we use  @controller?
+Answer: It is used to create controller layer and it accept all the user request using @RequestMapping.
+5. What is Spring boot actuator 
+Answer:  which is used to test the health of application.
+6. What is difference between @controller and @rest conmtroller?
+Answer:controller is used to take user request and give response in web application i.e. within application however @RestController is used to take user request and give response in web services i.e. Rest Services.
+7. What is bean lifecycle?
+Answer: init (@PostConstruct), service(@RequestMapping) , destroy(@PreDestroy)
+8. What is advice in aop?
+Answer: It is the facility which we want to attach with application like logging, security, transaction.
+we can attach advice in application using @Before, @AfterReturning or @Around.
+9. What is @service?
+Answer: Which indicate the service layer of projectwhich will take request from controller and pass to dao and take response from dao and give back to controller.
+10. What is @Transactional ?
+Answer: which handles all the transaction in spring data. like begine transaction, commit transaction
+11.What is use of @springbootapplication ?
+Answer: Which is used to configure spring boot application using @EnableAutoConfigure aanotation, it provide location of component using @ComponentScan to spring container.
+12. Where to configure spring boot application?
+Answer: inside application.properties
+13. What is use of @Autowired?
+Answer: It is use to inject beans ans services.
+14. What is use of @Component?
+Answer: This indicates to spring container i.e. BeanFactory class that current class is java bean.
+15. How many object BeanFactory class will be created for a single Java bean?
+Answer: only 1 object because by default scope java Bean is singelton if we want to create more than 1 object then we have to change scope of java bean prototype.
+16. How to create aspects?
+Answer: Can create aspects using @Aspect annotation
+17. What is the use of @Request mapping
+Answer: which is used to map HTTP requests to handler methods of MVC and REST controllers.
+18. What is @Value used for?  
+Answer: This is used to assign default values to variables and method arguments.
+19. How to Create a Spring Bean in 3 Different Ways?
+Answer: -Creating Bean Inside an XML Configuration File (beans.xml)
+        -Using @Component Annotation
+        -Using @Bean Annotation
+20. Explain about autowiring?
+Answer: Which enables you to inject the object dependency implicitly and internally uses setter or constructor injection.
+---------
+21. What is SPA?
+Answer: which only loads a page once, and then dynamically updates the page. Any interactions with the page or subsequent pages do not require a round trip to the server, which means the page is not reloaded.
+22. What is Server-Side Rendering?
+Answer: when a user makes a request to a webpage, the server prepares an HTML page by fetching the data and sends it to the user’s machine over the internet. The browser then construes the content and displays the page. This entire process of fetching data from the database, creating an HTML page and sending it to client happens in milliseconds.
+23. What is Client-Side Rendering?
+Answer: Which is about rendering content in the browser using JavaScript. In this approach, communication with server happens only for getting the run-time data. All logic, data fetching, templating and routing are handled on the client rather than the server
+24. What is structural directives?
+Answer: *ngFor, *ngIf, *ngSwitch are the structural Directives
+25. What is attribute directives?
+Answer: Which is used to define or effect element attributes.
+Class name(ex: ngclass)
+26. What is one way data binding
+Answer: It is to bind the data from the component to the view (DOM) or from view to the component. One-way data binding is unidirectional. You can only bind the data from component to the view or from view to the component.
+27. What is two way data binding
+Answer: Which will help users to exchange data from the component to view and from view to the component. It will help users to establish communication bi-directionally.
+28. What is life cycle of component?
+Answer: init, service and destroy example: like ngOnInit() method
+29. What is purpose of http client?
+Answer: To interact with backend we’ll use http client
+30. What is purpose of routing?
+Answer: Routing is the way to move from a component to component
+31. Explain about Promises
+Answer: Provides an easy way to execute asynchronous functions that use callbacks, while emitting and completing (resolving or rejecting) one value at a time
+32. Explain about Pipes
+Answer: It is function that we can directly apply on any expression/value in a template to transform it into some other value.
+33. List the types of Pipes.
+Answer: Custom Pipe and Default Pipe.
+In default pipe , we have 
+uppercase (to convert string in upper case);
+lowercase (to convert string in upper case);
+date (to format the date into different types);
+json (to convert a value or object into JSON formatted string).
+34. What are directives used for?
+Answer: Directives are classes that add new behavior or modify the existing behavior to the elements in the template. Basically directives are used to manipulate the DOM, for example adding/removing the element from DOM or changing the appearance of the DOM elements.
+35.  Explain about Webpack
+Answer: It is a popular module bundler, a tool for bundling application source code in convenient chunks and for loading that code from a server into a browser.
+
+
+
+
+s3 - simple service storage used achieving ... by Krishna Gopika Urlaganti
+Krishna Gopika Urlaganti11:17 AM
+s3 - simple service storage used achieving data
+
+RDS - Relational db service six types db
+
+EC2 - virtual machine virtual Elastic Compute Cloud
+
+
+---
+containerization - packages into container invisible box
+
+docker file - from source destination
+
+Docker imgage - immutable file
+
+FROM source path:destination path
+
+docker image build -t employee
+
+docker container run 8080:8080
+
+Docker daemon - docker template
+
+----------------
+1.  what is syntax for request mapping with controller
+Answer: 
+@Restcontroller
+@RequestMapping("home")
+public class IndexController{
+    @RequestMapping("hello ")
+     String get(){
+     return "hello";
+   }
+}
+2. How to change the scope of Java bean prototype.
+Answer: 
+        @Component
+        @Scope("prototype")
+            public class EmpService{}
+3. How to compile type script?
+Answer: To compile a type script we can use the command using tsc. 
+4. How to generate component, pipe and service etc
+Answer: We can do this using Ng generate _____
+5. How to install angular?
+Answer: npm install @angular/cli@13.1.1 -g
+6. How to create a new project in angular?
+Answer: ng new project name
+7. How to run angular project?
+Answer: ng serve –open
+8. How to recognize service?
+Answer: using @Injectable we can recognize a service
+9. How to inject service into your component
+Answer: Inside constructor of component we will pass prive object of service class
+10. How to create a custom pipe in angular?
+Answer: ng generate pipe <pipe-name>
