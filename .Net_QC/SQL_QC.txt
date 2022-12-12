@@ -50,21 +50,249 @@ Queries:
 1.	Write a query to create a table?
 2.	Write a query to insert the data into the table?
 3.	Write a query to view the specified record of the table by using the where clause.
-4.	Write a query to display the names of employees that begin with ‘A’?
+
+ EMPLOYEE_ID  | FIRST_NAME   | LAST_NAME  | EMAIL    | PHONE_NUMBER       | HIRE_DATE  | JOB_ID     | SALARY   | COMMISSION_PCT | MANAGER_ID | DEPARTMENT_ID |
++-------------+-------------+-------------+----------+--------------------+------------+------------+----------+----------------+------------+---------------+
+|         100 | Steven      | King        | SKING    | 9897654678         | 2003-06-17 | AD_PRES    | 24000.00 |           0.00 |          0 |            90 |
+|         101 | Neena       | Kochhar     | NKOCHHAR | 9597653678         | 2005-09-21 | AD_VP      | 17000.00 |           0.00 |        100 |            90 |
+|         102 | Lex         | De Haan     | LDEHAAN  | 9697654678         | 2001-01-13 | AD_VP      | 17000.00 |           0.00 |        100 |            90 |
+|         103 | Alexander   | Hunold      | AHUNOLD  | 9237654678         | 2006-01-03 | IT_PROG    |  9000.00 |           0.00 |        102 |            60 |
+|         104 | Bruce       | Ernst       | BERNST   | 9127654678         | 2007-05-21 | IT_PROG    |  6000.00 |           0.00 |        103 |            60 |
+|         105 | David       | Austin      | DAUSTIN  | 9894554678         | 2005-06-25 | IT_PROG    |  4800.00 |           0.00 |        103 |            60 |
+|         106 | Valli       | Pataballa   | VPATABAL | 9897633678         | 2006-02-05 | IT_PROG    |  4800.00 |           0.00 |        103 |            60 |
+|         107 | Diana       | Lorentz     | DLORENTZ | 9897654218         | 2007-02-07 | IT_PROG    |  4200.00 |           0.00 |        103 |            60 |
+|         108 | Nancy       | Greenberg   | NGREENBE | 9897654672         | 2002-08-17 | FI_MGR     | 12008.00 |           0.00 |        101 |           100 |
+|         109 | Daniel      | Faviet      | DFAVIET  | 9891154678         | 2002-08-16 | FI_ACCOUNT |  9000.00 |           0.00 |        108 |           100 |
+|         110 | John        | Chen        | JCHEN    | 9897623678         | 2005-09-28 | FI_ACCOUNT |  8200.00 |           0.00 |        108 |           100 |
+|         104 | Bruce       | Ernst       | BERNST   | 9127654678         | 2007-05-21 | IT_PROG    |  6000.00 |           0.00 |        103 |            60 |
+|         108 | Nancy       | Greenberg   | NGREENBE | 9897654672         | 2002-08-17 | FI_MGR     | 12008.00 |           0.00 |        101 |           100 |
++-------------+-------------+-------------+----------+--------------------+------------+------------+----------+----------------+------------+---------------+
+4.	Write a query to display the names of employees first namethat begin with ‘A’?
 5.	Write a query to retrieve the top N records?
 6.	Create a query to generate the first and last records from the Employee table.
 7.	Write a query to find duplicate records from a table?
 8.	Write a query to find even and odd records in the table?
 9.	Write a query to fetch the list of employees of the same department?
-10.	What is query to fetch the employee records where salary of employee is greater than 57 k and less than 75 k?
-11.	What is query to find out the Students whose names starts with S,K,U?
+10.	What is query to fetch the employee records where salary of employee is greater than 10 k and less than 23 k?
+11.	What is query to find out the Employees whose names starts with S,D,U?
 12.	How to replace a string in a SQL Server Table Column.
 13.	How to rename Table Column in SQL Server.
 14.	Write an SQL query that fetches the unique values of EMPLOYEE from Worker table and prints its length.
-15.	Write an SQL query to print details for EMPLOYEE with the first name as “Chitrak” and “Raghu” from Worker table.
-16.	Write an SQL query to determine the 5th highest salary without using TOP or limit method.
-17.	Write an SQL query to fetch the list of employees with the same salary.
-18.	Write an SQL query to fetch departments along with the total salaries paid for each of them.
-19.	Write an SQL query to fetch the departments that have less than five people in it.
-20.	Write an SQL query to fetch all the EmpIds which are present in either of the tables – ‘EmployeeDetails’ and ‘EmployeeSalary’.
+15.	Write an SQL query to determine the 5th highest salary without using TOP or limit method.
+16.	Write an SQL query to fetch the list of employees with the same salary.
+17.	Write an SQL query to fetch departments along with the total salaries paid for each of them.
+18.	Write an SQL query to fetch the departments that have less than four people in it.
+
+ 
+## Employee table ##
+
+ EMPLOYEE_ID  | FIRST_NAME   | LAST_NAME  | EMAIL    | PHONE_NUMBER       | HIRE_DATE  | JOB_ID     | SALARY   | COMMISSION_PCT | MANAGER_ID | DEPARTMENT_ID |
++-------------+-------------+-------------+----------+--------------------+------------+------------+----------+----------------+------------+---------------+
+|         100 | Steven      | King        | SKING    | 9897654678         | 2003-06-17 | AD_PRES    | 24000.00 |           0.00 |          0 |            90 |
+|         101 | Neena       | Kochhar     | NKOCHHAR | 9597653678         | 2005-09-21 | AD_VP      | 17000.00 |           0.00 |        100 |            90 |
+|         102 | Lex         | De Haan     | LDEHAAN  | 9697654678         | 2001-01-13 | AD_VP      | 17000.00 |           0.00 |        100 |            90 |
+|         103 | Alexander   | Hunold      | AHUNOLD  | 9237654678         | 2006-01-03 | IT_PROG    |  9000.00 |           0.00 |        102 |            60 |
+|         104 | Bruce       | Ernst       | BERNST   | 9127654678         | 2007-05-21 | IT_PROG    |  6000.00 |           0.00 |        103 |            60 |
+|         105 | David       | Austin      | DAUSTIN  | 9894554678         | 2005-06-25 | IT_PROG    |  4800.00 |           0.00 |        103 |            60 |
+|         106 | Valli       | Pataballa   | VPATABAL | 9897633678         | 2006-02-05 | IT_PROG    |  4800.00 |           0.00 |        103 |            60 |
+|         107 | Diana       | Lorentz     | DLORENTZ | 9897654218         | 2007-02-07 | IT_PROG    |  4200.00 |           0.00 |        103 |            60 |
+|         108 | Nancy       | Greenberg   | NGREENBE | 9897654672         | 2002-08-17 | FI_MGR     | 12008.00 |           0.00 |        101 |           100 |
+|         109 | Daniel      | Faviet      | DFAVIET  | 9891154678         | 2002-08-16 | FI_ACCOUNT |  9000.00 |           0.00 |        108 |           100 |
+|         110 | John        | Chen        | JCHEN    | 9897623678         | 2005-09-28 | FI_ACCOUNT |  8200.00 |           0.00 |        108 |           100 |
+|         104 | Bruce       | Ernst       | BERNST   | 9127654678         | 2007-05-21 | IT_PROG    |  6000.00 |           0.00 |        103 |            60 |
+|         108 | Nancy       | Greenberg   | NGREENBE | 9897654672         | 2002-08-17 | FI_MGR     | 12008.00 |           0.00 |        101 |           100 |
++-------------+-------------+-------------+----------+--------------------+------------+------------+----------+----------------+------------+---------------+
+
+## Department table ##
+
++---------------+----------------------+------------+-------------+
+| DEPARTMENT_ID | DEPARTMENT_NAME      | MANAGER_ID | LOCATION_ID |
++---------------+----------------------+------------+-------------+
+|            10 | Administration       |        200 |        1700 |
+|            20 | Marketing            |        201 |        1800 |
+|            30 | Purchasing           |        114 |        1700 |
+|            40 | Human Resources      |        203 |        2400 |
+|            50 | Shipping             |        121 |        1500 |
+|            60 | IT                   |        103 |        1400 |
+|            70 | Public Relations     |        204 |        2700 |
+|            80 | Sales                |        145 |        2500 |
+|            90 | Executive            |        100 |        1700 |
+|           100 | Finance              |        108 |        1700 |
+|-----------------------------------------------------------------|
+
+## Location table ##
+
++-------------+------------------------------------------+-------------+---------------------+-------------------+------------+
+| LOCATION_ID | STREET_ADDRESS                           | POSTAL_CODE | CITY                | STATE_PROVINCE    | COUNTRY_ID |
++-------------+------------------------------------------+-------------+---------------------+-------------------+------------+
+|        1000 | 1297 Via Cola di Rie                     | 989         | Roma                |                   | IT         |
+|        1100 | 93091 Calle della Testa                  | 10934       | Venice              |                   | IT         |
+|        1200 | 2017 Shinjuku-ku                         | 1689        | Tokyo               | Tokyo Prefecture  | JP         |
+|        1300 | 9450 Kamiya-cho                          | 6823        | Hiroshima           |                   | JP         |
+|        1400 | 2014 Jabberwocky Rd                      | 26192       | Southlake           | Texas             | US         |
+|        1500 | 2011 Interiors Blvd                      | 99236       | South San Francisco | California        | US         |
+|        1600 | 2007 Zagora St                           | 50090       | South Brunswick     | New Jersey        | US         |
+|        1700 | 2004 Charade Rd                          | 98199       | Seattle             | Washington        | US         |
+|        1800 | 147 Spadina Ave                          | M5V 2L7     | Toronto             | Ontario           | CA         |
+|        1900 | 6092 Boxwood St                          | YSW 9T2     | Whitehorse          | Yukon             | CA         |
+|        2000 | 40-5-12 Laogianggen                      | 190518      | Beijing             |                   | CN         |
+|-----------------------------------------------------------------------------------------------------------------------------|
+
+## Jobs ##
+
++------------+---------------------------------+------------+------------+
+| JOB_ID     | JOB_TITLE                       | MIN_SALARY | MAX_SALARY |
++------------+---------------------------------+------------+------------+
+| AD_PRES    | President                       |      20080 |      40000 |
+| AD_VP      | Administration Vice President   |      15000 |      30000 |
+| AD_ASST    | Administration Assistant        |       3000 |       6000 |
+| FI_MGR     | Finance Manager                 |       8200 |      16000 |
+| FI_ACCOUNT | Accountant                      |       4200 |       9000 |
+| AC_MGR     | Accounting Manager              |       8200 |      16000 |
+| AC_ACCOUNT | Public Accountant               |       4200 |       9000 |
+| SA_MAN     | Sales Manager                   |      10000 |      20080 |
+| SA_REP     | Sales Representative            |       6000 |      12008 |
+| PU_MAN     | Purchasing Manager              |       8000 |      15000 |
+| PU_CLERK   | Purchasing Clerk                |       2500 |       5500 |
+| ST_MAN     | Stock Manager                   |       5500 |       8500 |
+| ST_CLERK   | Stock Clerk                     |       2008 |       5000 |
+| SH_CLERK   | Shipping Clerk                  |       2500 |       5500 |
+| IT_PROG    | Programmer                      |       4000 |      10000 |
+| MK_MAN     | Marketing Manager               |       9000 |      15000 |
+| MK_REP     | Marketing Representative        |       4000 |       9000 |
+| HR_REP     | Human Resources Representative  |       4000 |       9000 |
+| PR_REP     | Public Relations Representative |       4500 |      10500 |
++------------+---------------------------------+------------+------------+
+
+## Job History ##
+
++-------------+------------+------------+------------+---------------+
+| EMPLOYEE_ID | START_DATE | END_DATE   | JOB_ID     | DEPARTMENT_ID |
++-------------+------------+------------+------------+---------------+
+|         102 | 2001-01-13 | 2006-07-24 | IT_PROG    |            60 |
+|         101 | 1997-09-21 | 2001-10-27 | AC_ACCOUNT |           110 |
+|         101 | 2001-10-28 | 2005-03-15 | AC_MGR     |           110 |
+|         201 | 2004-02-17 | 2007-12-19 | MK_REP     |            20 |
+|         114 | 2006-03-24 | 2007-12-31 | ST_CLERK   |            50 |
+|         122 | 2007-01-01 | 2007-12-31 | ST_CLERK   |            50 |
+|         200 | 1995-09-17 | 2001-06-17 | AD_ASST    |            90 |
+|         176 | 2006-03-24 | 2006-12-31 | SA_REP     |            80 |
+|         176 | 2007-01-01 | 2007-12-31 | SA_MAN     |            80 |
+|         200 | 2002-07-01 | 2006-12-31 | AC_ACCOUNT |            90 |
++-------------+------------+------------+------------+---------------+
+
+ 19. From the above table write a SQL query to find all employees whose department is located in London. Return first name, last name, salary, and department ID.
+ 
+ Solution:
+ 
+ SELECT first_name, last_name, salary, department_id FROM employees WHERE department_id IN (SELECT department_id FROM departments WHERE location_id = (SELECT location_id FROM locations WHERE city = 'London'));
+ 
+ 20. From the above  table, write a SQL query to find the departments managed by Susan. Return all the fields of departments
+ 
+Solution:
+
+SELECT * FROM departments WHERE manager_id IN (SELECT employee_id FROM employees WHERE first_name='Susan');
+
+
+21. From the following tables, write a SQL query to display the department name, city, and state province for each department.
+
+
+Solution:
+
+SELECT D.department_name , L.city , L.state_province FROM  departments D JOIN locations L ON  D.location_id = L.location_id;
+
+22. From the following tables, write a SQL query to find all employees who joined on or after 1st January 1993 and on or before 31 August 1997. Return job title, department name, employee name, and joining date of the job.
+
+Solution:
+
+SELECT job_title, department_name, first_name || ' ' || last_name AS Employee_name, start_date FROM job_history JOIN jobs USING (job_id) JOIN departments USING (department_id) JOIN  employees USING (employee_id) WHERE start_date>='1993-01-01' AND start_date<='1997-08-31';
+
+23. From the following tables, write a SQL query to calculate the number of days worked by employees in a department of ID 80. Return employee ID, job title, number of days worked.
+
+Solution:
+
+SELECT employee_id, job_title, end_date-start_date DAYS FROM job_history NATURAL JOIN jobs WHERE department_id=80;
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Salesman ##
+
+salesman_id |    name    |   city   | commission 
+-------------+------------+----------+------------
+        5001 | James Hoog | New York |       0.15
+        5002 | Nail Knite | Paris    |       0.13
+        5005 | Pit Alex   | London   |       0.11
+        5006 | Mc Lyon    | Paris    |       0.14
+        5007 | Paul Adam  | Rome     |       0.13
+        5003 | Lauson Hen | San Jose |       0.12
+        
+ ## Customer ##
+ 
+  customer_id |   cust_name    |    city    | grade | salesman_id 
+-------------+----------------+------------+-------+-------------
+        3002 | Nick Rimando   | New York   |   100 |        5001
+        3007 | Brad Davis     | New York   |   200 |        5001
+        3005 | Graham Zusi    | California |   200 |        5002
+        3008 | Julian Green   | London     |   300 |        5002
+        3004 | Fabian Johnson | Paris      |   300 |        5006
+        3009 | Geoff Cameron  | Berlin     |   100 |        5003
+        3003 | Jozy Altidor   | Moscow     |   200 |        5007
+        3001 | Brad Guzan     | London     |       |        5005
+  
+  ## Orders ##
+  
+  ord_no      purch_amt   ord_date    customer_id  salesman_id
+----------  ----------  ----------  -----------  -----------
+70001       150.5       2012-10-05  3005         5002
+70009       270.65      2012-09-10  3001         5005
+70002       65.26       2012-10-05  3002         5001
+70004       110.5       2012-08-17  3009         5003
+70007       948.5       2012-09-10  3005         5002
+70005       2400.6      2012-07-27  3007         5001
+70008       5760        2012-09-10  3002         5001
+70010       1983.43     2012-10-10  3004         5006
+70003       2480.4      2012-10-10  3009         5003
+70012       250.45      2012-06-27  3008         5002
+70011       75.29       2012-08-17  3003         5007
+70013       3045.6      2012-04-25  3002         5001
+  
+ 24. write a SQL query to find those customers who are served by a salesperson and the salesperson earns commission in the range of 12% to 14% (Begin and end values are included.). Return cust_name AS "Customer", city AS "City".
+ 
+ Solution::
+ 
+ SELECT customer.cust_name AS "Customer", customer.city AS "City", salesman.name AS "Salesman", salesman.commission FROM customer,salesman
+WHERE customer.salesman_id = salesman.salesman_id AND salesman.commission BETWEEN .12 AND .14;
+
+25. write a SQL query to find those customers who placed orders on October 5, 2012. Return customer_id, cust_name, city, grade, salesman_id, ord_no, purch_amt, ord_date, customer_id and salesman_id.
+
+Solution::
+
+SELECT *
+FROM customer a,orders  b 
+WHERE a.customer_id=b.customer_id 
+AND b.ord_date='2012-10-05';
+
+26. write a SQL query to find those salespeople who generated orders for their customers but are not located in the same city. Return ord_no, cust_name, customer_id (orders table), salesman_id (orders table). 
+
+Solution::
+
+SELECT ord_no, cust_name, orders.customer_id, orders.salesman_id
+FROM salesman, customer, orders
+WHERE customer.city <> salesman.city
+AND orders.customer_id = customer.customer_id
+AND orders.salesman_id = salesman.salesman_id;
+
+27. write a SQL query to find those customers where each customer has a grade and is served by a salesperson who belongs to a city. Return cust_name as "Customer", grade as "Grade".
+
+Solution::
+
+SELECT customer.cust_name AS "Customer",
+customer.grade AS "Grade",orders.ord_no AS "Order No."
+FROM orders, salesman, customer
+WHERE orders.customer_id = customer.customer_id
+AND orders.salesman_id = salesman.salesman_id
+AND salesman.city IS NOT NULL
+AND customer.grade IS NOT NULL;
+
 
