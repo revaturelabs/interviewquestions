@@ -12,13 +12,9 @@ Object: Objects can be considered as real-world instances of entities like class
 Answer: Method is a block of code that only runs when it is called.
 Method is defined with the name of the method, followed by parentheses ().
 public class Main {
-
   static void Method_Name() {
-
     // code
-
   }
-
 }
 
 5. What is the static and Non-Static method?
@@ -103,13 +99,9 @@ Exceptions in Java can arise from different kinds of situations such as wrong da
 
 21.What is the syntax for exception handling?
 Answer: try {
-
    // code
-
 } catch (ExceptionName e1) {
-
    // Catch block
-
 }
 
 22. what are the common exceptions
@@ -242,9 +234,7 @@ StringBuffer StringBuilder
 class as it allows multiple
 threads simultaneous
 operations. operating at the same time.
-
 Syntax: StringBuffer var =
-
 new StringBuffer(str); Syntax: StringBuilder var = new StringBuilder(str);
 
 45. What is Finally in java?
@@ -325,25 +315,14 @@ Answer:Using insert() method.
 Answer:Java needs wrapper classes to be a pure Object-Oriented Programming language, so Java needs everything to look like an object.
 · Classes in Collection framework & java.util package, such as ArrayList and Vector, store only objects (reference types) and not primitive types
 · Wrapper classes have lot of utility methods, it really helpful and easier.
-
 Primitive Type Wrapper Class
-
 byte Byte
-
 boolean Boolean
-
 char Character
-
-Primitive Type Wrapper Class
-
 double Double
-
 float Float
-
 int Integer
-
 long Long
-
 short Short
 
 61.What is type casting in java?
