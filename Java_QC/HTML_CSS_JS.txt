@@ -1,1 +1,36 @@
-1.
+1.What is the key difference between HTML Elements and Tags? 
+Answer: HTML Elements are the sections of the web page, such as a paragraph, an image, or a link is an element whereas HTML Tags are the  elements communicate with the browser how to represent the text and become HTML tags when enclosed within angular brackets <>. 
+2. What is the use of head tag in HTML?
+Answer: Which is used to show the title 
+3. What do you mean by anchor tag
+Answer: It is used to link two sections, web pages, or website templates in HTML. 
+<a href=”#” target=”link”></a> 
+	html list - order ol and unorder list ul    example <ul><ol><li>
+	attributes - extra info about tag
+	doctype-refer to DTD which give instruction to display the content in the borwse
+	-bold vs strong 
+	-heading tags- h1 to h6. h1 is the big
+	create a html form with text box, label box an submit button
+	div tag it is a container element it block the space 
+	is div tag inline or block - block element
+	inline element - it do not take element in full line and not create any space before and after example <span>,<a>
+	block element - it block the full line and create space before and after the element example <div>
+	form post - good
+	What is html tag ?Types of tag?What is image tag and anchor tag used for?
+	
+	What are void or empty elements in HTML? <img /><hr /> element without body
+	What is a semantic tag? What about formatting tags/elements? 
+                  Link tag and Anchor tag?
+
+
+css
+	css - inline, internal, external told
+	class selector - . used eg paragaraph class mention head style used
+	-id selector n class selector- okay
+	-inline css- we can change font,color or style. <head>
+	how to define style for inline - using inline attribute
+	Responsive webpage ?
+	What is the ‘class’ attribute in HTML? 
+	What is meant by CSS frameworks?
+	How can the background color of an element be changed?
+	padding vs cell spacing -space betwween cell n border, padding- 
