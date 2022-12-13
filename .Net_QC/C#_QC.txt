@@ -3,9 +3,61 @@ C# Questions:
 Basics:
 
 1.	Explain the C# code execution process?
+
+Answer::
+
+- A developer writes C# code
+- C# compiler checks the syntax and analyzes the source code
+- Microsoft intermediate languages (MSIL) is generated as a result (EXE or DLL)
+- CLR gets initialized inside of a process and runs entry point method (Main)
+- MSIL gets converted to native code by the JIT compiler
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 2.	What do you mean by value type and reference type?
+
+Answer::
+
+Value Type - A value type variable stores actual values. Values types are of two types - built-in and user- defined. Value types are stored in a stack and derived from System.ValueType class.
+
+Reference Type - A reference type variable stores a reference to the actual value. Typically, a reference type contains a pointer to another memory location that stores the actual data. Reference types are of two types - built-in and user-defined. Reference types are stored in a heap and derived from System.Object class.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 3.	What are Nullable types? How to use Nullable types in .Net framework?
+
+Answer::
+
+Value types that can accept a normal value or a null value are referred to as Nullable types. These are instances of the Nullable struct. 
+
+For example, A Nullable<bool> pronounced as "Nullable of bool" and can have the values true, false or null. Nullable types can also be defined using ? type modifier. This token is placed immediately after the value type being defined as nullable.
+
+
+//assigning normal value
+Nullable<bool> flag = true;
+//Or You can also define as
+bool? flag = true;
+//assigning normal value
+Nullable<int> x = 20;
+//Or You can also define as
+int? x = 20;
+You can also assign null value to flag and d since both are nullable types.
+//assigning null value
+Nullable<bool> flag = null;
+//Or You can also define as
+bool? flag = null;
+//assigning null value
+Nullable<int> x = null;
+//Or You can also define as
+int? x = null;
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 4.	How to check that a nullable variable is having value?
+
+Answer::
+
+
 5.	Do you know about int, Int16,Int32 and Int64.
 6.	What about ?? operator in C#?
 7.	What are dynamic types in C#?
