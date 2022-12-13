@@ -554,7 +554,95 @@ Similarly, we can use the functions in WHERE/HAVING/SELECT section. But, a proce
 We can use the transactions in the stored procedure. But, we cannot use it in functions.
 In SQL Server, a function that returns a table can be considered a separate rowset.
 
------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+43. What are NoSQL Databases (Non-relational Databases)?
+
+Answer::
+
+Unlike SQL, NoSQL (a.k.a. Not Only SQL, Non-SQL) is a database that manages data in a non-relational structure. This means that it is schemaless (no fixed schema) and avoids joins. Due to its scalable, high performance and flexible nature, Its popularity is rising in Big Data and real-time applications.
+
+‍----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+44. Which is more scalable? (Sql or NoSql)?
+
+Answer::
+
+Scalability is an indicator of how well the system can increase or decrease performance and cost in response to the processing demand.
+
+Horizontal scaling is cheaper - Adding more machines is usually easier and cheaper than upgrading the hardware of a single machine (vertical scaling).‍
+Both vertical and horizontal scaling is possible for NoSQL - However, horizontal scaling is hard for SQL‍
+Technological limit to vertical scaling - It is limited by technology and hardware that’s available
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+45. Which is more faster [ Sql or NoSQL ]?
+
+Answer::
+
+Performance is an indicator of how well a software system or component meets its requirements for timeliness, measured by response time or throughput. 
+
+
+NoSQL is not ACID - It was designed to be faster by forgoing one of the ACID properties
+NoSQL stores commonly accessed data together - They have better performance on reads/writes on a single data entity.
+SQL schemas validate data changes - Additional computational required to ensure data changes do not violate predefined schemas. However, the schemaless nature of NoSQL’s skip this step and thus, have higher write operations per second.
+SQL databases are normalized - Data is broken down and stored in tables. As such, it is faster than NoSQL for complex queries like joins. “Joins” in NoSQL are done by retrieving multiple data entities and joining them “manually”.‍
+Indexes are more efficient for SQL - Indexes work by duplicating existing data and efficiently storing them in the RAM. They work better for structured data and thus, SQL benefits more from it.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+46. Sql or NoSQL which one provides more security?
+
+Answer::
+
+When it comes to comparing the security of the databases, we use 3 factors:
+
+Confidentiality - Only authorized users can access
+Integrity - Accuracy and Consistency of the data
+Availability - Data is available when needed
+
+SQL guarantees ACID transactions - NoSQL databases do not and thus lack confidentiality and integrity. This means race conditions are an issue and simultaneous transactions can affect each other.
+NoSQL has minimal in-built security features - Have to build them into your application instead.‍
+Horizontal scaling has higher availability - There is no single point of failure unlike vertical scaling
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+47. When to use SQL?
+
+Answer::
+
+Working with complex queries - NoSQL is less robust and has limited query functionality
+ACID transactions are important e.g. financial or accounting transactions
+Data is highly structured and does not change frequently - Predefined schemas allow for easy navigation
+
+Use cases of SQL (with Examples)::
+
+Banking account’s transaction history
+Text Messaging System
+Ecommerce transactions
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+48. When to use NoSQL?
+
+Answer::
+
+Unstructured data - different data entities can have different structure
+Faster development speed - No need to design database schema
+Priority is easy scalability and availability - Vertical scaling is expected to be too expensive
+Priority is not data consistency and integrity - NoSQL is not ACID compliant.
+
+
+Use cases of NoSQL (with Examples)::
+
+Social media posts don’t have to appear in the same order for every user
+Storing product views of millions of shoppers
+Storing items in users’ shopping cart
+Fraud detection - Detection algorithm rules require a huge amount of data from various sources
+Personalization and recommendation engine - Huge amount of unstructured data
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 Queries:
 
