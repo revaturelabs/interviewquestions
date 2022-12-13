@@ -57,19 +57,343 @@ int? x = null;
 
 Answer::
 
+The HasValue property is used to check whether a variable having value or not. To get the value from a nullable type Value property as shown below –
+
+int? x = 20;
+int y;
+if (x.HasValue)
+{
+ y = x.Value;
+}
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 5.	Do you know about int, Int16,Int32 and Int64.
+
+Answer::
+
+int
+1. It is a primitive data type defined in C#.
+2. It is mapped to Int32 of FCL (Framework class library) type.
+3. It is a value type and represents System.Int32 struct.
+4. It is signed and takes 32 bits always.
+5. It has a minimum -2147483648 and maximum +2147483647 capacity.
+
+Int16
+1. It is an FCL (Framework class library) type.
+2. In C#, short is mapped to Int16.
+3. It is a value type and represents System.Int16 struct.
+4. It is signed and takes 16 bits.
+5. It has a minimum -32768 and maximum +32767 capacity.
+
+Int32
+1. It is an FCL (Framework class library) type.
+2. In C#, int is mapped to Int32.
+3. It is 
+a value type and represents System.Int32 struct.
+4. It is signed and takes 32 bits.
+5. It has a minimum -2147483648 and maximum +2147483647 capacity.
+
+Int64
+1. It is an FCL (Framework class library) type.
+2. In C#, long is mapped to Int64.
+3. It is a value type and represents System.Int64 struct.
+4. It is signed and takes 64 bits.
+5. It has minimum –9,223,372,036,854,775,808 and maximum 9,223,372,036,854,775,807 capacity
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 6.	What about ?? operator in C#?
+
+Answer::
+
+The ?? operator is called the null-coalescing operator. It is used to define a default value for a nullable value type or reference type variable.
+
+int? x = null;
+int y = -1;
+// when x is null, z = y
+// when x is not null, z = x
+int z = x ?? y; // where x and y are left and right operand
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 7.	What are dynamic types in C#?
+
+Answer::
+
+The dynamic type was introduced in C# 4.0. Dynamic type variables are declared using the "dynamic" keyword. A dynamic type variable bypasses the compile-time type checking and its operations are resolved at runtime. In dynamic type, if the operations are not valid then the exception would be thrown at runtime, not at 
+compile time. 
+
+class Program
+{
+ public static void Main()
+ {
+ dynamic d = 1; //assigning integer
+ Console.WriteLine(d);
+ d = "Hi Dynamic"; //assigning string to the same variable d
+ Console.WriteLine(d);
+ d = TestData(); //assigning method result to the same variable d
+ Console.WriteLine(d);
+ // You can call anything on a dynamic variable,
+ // but it may result in a runtime error
+ Console.WriteLine(d.Error);
+ }
+ public static double TestData()
+ {
+ return 12.80;
+ }
+}
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 8.	Can you differentiate Object, Var and dynamic?
+
+Answer::
+
+Var- 
+
+Var is used in method scope (used inside the methods) to implicitly (not directly expressed) type variable. The compiler decides which type it is at runtime. Can able to see the type of the variable by hovering over the var keyword.
+ 
+ex,
+Var test = "name" or Var test = 3;
+
+Object-
+
+Any type of data can able to assign to the object. The compiler decides which type it is in runtime but if you want to use type, firstly we need to cast explicitly (manually).
+ 
+ex,
+Object test = "name" or Object test = 4; 
+
+Dynamic- 
+
+The dynamic keyword is similar to the Object keyword, we can assign anything to a dynamic variable. The compiler decides which type it is in runtime. The main difference between an object and dynamic keywords is explicit (manual) cast not required if you want to use type.
+ 
+ex,
+Dynamic test = "name" or Dynamic test = 3;  
+string a = test; or int a = test;   
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 9.	What is ref and out keyword in C#?
+
+Answer::
+
+the ref keyword causes an argument to be passed by reference, not by value. This means that when the value of that parameter is changed in the method, it gets reflected in the calling method.
+
+The out keyword also causes an argument to be passed by reference like “ref” keyword, but that argument can be passed without assigning any value to it.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 10.	Can you use out and ref for overloading as the different signature of method?
+
+Answer::
+
+No, you cannot. Although, ref and out are treated differently at runtime they treated same at compile time. Hence a method cannot be overloaded with the same type of arguments.
+
+Examples: These two methods are identical in terms of compilation.
+
+class Class1
+{
+ public void Method1(out int a) // compiler error “cannot define overloaded”
+ {
+ // method that differ only on ref and out"
+ }
+ public void Method1(ref int a) 
+ {
+ // method that differ only on ref and out" 
+ }
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 11.	What is the params keyword in C#?
+
+Answer::
+
+The params keyword enables a method parameter to receive n number of arguments. These n number of arguments are changed by the compiler into elements in a temporary array and actually, this array is received at receiving end. Also, the params arguments must be the last argument in the parameter list of the method. 
+
+public class Example
+{
+ static decimal Sum(decimal d1, params int[] values)
+ {
+ decimal total = d1;
+ foreach (int value in values)
+ {
+ total += value;
+ }
+ return total;
+ }
+ static void Main()
+ {
+ decimal d1 = 10;
+ int sum1 = Sum(d1, 1);
+ int sum2 = Sum(d2, 1, 2);
+ int sum3 = Sum(d3, 1, 2, 3);
+ Console.WriteLine(sum1);
+ Console.WriteLine(sum2);
+ Console.WriteLine(sum3);
+ Console.Read();
+ }
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 12.	What do you mean by operators and what are the different types of operators in C#?
+
+Answer::
+
+An operator is a special symbol that tellsto the compiler what operations can be performed on an operand or between two operands. Operators in programming languages are taken from mathematics.
+1. Arithmetic
+2. Relational
+3. Logical
+4. Bitwise
+5. Assignment
+6. Type information
+7.Misc
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 13.	What is a ternary operator “?:” in C#?
+
+Answer::
+
+A ternary or Conditional operator operates on a conditional expression that returns a Boolean value. If the conditional expression is true then the first expression would be evaluated otherwise the second expression would be evaluated. The syntax for the conditional operator is given below
+
+Conditional_expression ? First_expression : Second_expression;
+
+
+This operator provides an elegant and equivalent syntax to the simple if-else statement.
+
+int number = Convert.ToInt32(Console.ReadLine());
+string msg;
+// if-else statement
+if (number < 0)
+ msg = "negative";
+else
+ msg = "positive";
+
+// ?: conditional operator equivalent to above if else statement
+msg = number < 0 ? "negative" : "positive";
+Also, conditional operator is right-associative. Hence, the expression a ? b : c ? d : e is evaluated as a ? b : (c ? d : e), not as (a ? b : c) ? d : e.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 14.	What are differences between Constant,ReadOnly and static?
+
+Answer::
+
+Constant - Constant fields or local variables must be assigned a value at the time of declaration and after that, they cannot be modified. By default constant isstatic, hence you cannot define a constant type as static.
+
+public const int X = 10;
+
+A const field is a compile-time constant. A constant field or local variable can be initialized with a constant expression which must be fully evaluated at compile time. 
+
+void Calculate(int Z)
+{
+ const int X = 10, X1 = 50;
+ const int Y = X + X1; //no error, since its evaluated a compile time
+ const int Y1 = X + Z; //gives error, since its evaluated at run time
+}
+
+You can apply const keyword to built-in value types (byte, short, int, long, char, float, double, decimal, bool), enum, a string literal, or a reference type which can be assigned with a value null.
+
+const MyClass obj1 = null;//no error, since its evaluated a compile time
+const MyClass obj2 = new MyClass();//gives error, since its evaluated at run time
+
+Constants can be marked as public, private, protected, internal, or protected internal access modifiers. 
+Use the const modifier when you sure that the value a field or local variable would not be changed.
+
+
+Readonly - A readonly field can be initialized either at the time of declaration or within the constructor of the same class. Therefore, readonly fields can be used for run-time constants.
+
+class MyClass
+{
+ readonly int X = 10; // initialized at the time of declaration
+ readonly int X1;
+ public MyClass(int x1)
+ {
+ X1 = x1; // initialized at run time
+ }
+}
+Explicitly, you can specify a readonly field as static since like constant by default it is not static. The readonly keyword can be applied to a value type and reference type (which initialized by using the new keyword) both. 
+
+Also, delegate and event could not be readonly.
+
+Use the readonly modifier when you want to make a field constant at runtime.
+
+
+Static - The static keyword is used to specify a static member, which means that static members are common to all the objects and they do not tie to a specific object.
+This keyword can be used with classes, fields, methods, properties, operators, events, and constructors, but it cannot be used with indexers, destructors, or types other than classes.
+
+class MyClass
+{
+ static int X = 10;
+ int Y = 20;
+ public static void Show()
+ {
+ Console.WriteLine(X);
+ Console.WriteLine(Y); //error, since you can access only static members
+ }
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 15.	What is safe and unsafe code?
+
+Answer::
+
+A C# code which runs under the management of CLR is called safe code. C# has an interesting feature which is unsafe code. The unsafe code does not run under the management of CLR. Sometimes, you need to access low-level functionality such as Win32 API calls or need to use the pointer in C#, and you take responsibility for 
+ensuring such code operates correctly. Such code must be placed inside unsafe blocks in your source code.
+
+Using unsafe keyword of C#, you can mark any of the following as unsafe:
+
+• An entire method.
+• A code block in braces.
+• An individual statement.
+
+For Example:
+class TestUnsafe
+{
+ unsafe static void PointerMethod()
+ {
+ int i = 5;
+ int* pt = &i;
+ System.Console.WriteLine("*pt = " + *pt);
+ System.Console.WriteLine("Address of pt = {0:X2}\n", (int)pt);
+ }
+ static void StillPointer()
+ {
+ int i = 7;
+ unsafe
+ {
+ int* pt = &i;
+ System.Console.WriteLine("*pt = " + *pt);
+ System.Console.WriteLine("Address of pt = {0:X2}\n", (int)pt);
+ }
+ }
+ static void Main()
+ {
+ PointerMethod();
+ StillPointer();
+ }
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 16.	What is Type Casting? What are the different types of Type Casting supported in C#?
+
+Answer::
+
+Type Casting is a mechanism to convert one type of value to another type. Typecasting is possible only when both data types are compatible with each other; otherwise, you will get an InvalidCastException.
+
+1. Implicit conversion – Implicit conversion is being done automatically by the compiler and no data will be lost. It includes conversion of a smaller data type to a larger data types and conversion of derived classes to base class. This is safe type conversion.
+
+2. Explicit conversion - Explicit conversion is being done by using a cast operator. It includes conversion of the larger data type to smaller data type and conversion of the base class to derived classes. In this conversion information might be lost or conversion might not be succeeding for some reasons. This is unsafe type conversion.
+
+3. User-defined conversion - User-defined conversion is performed by using special methods that you can define to enable explicit and implicit conversions. It includes conversion of class to a struct or basic data type and struct to class or basic data type. Also, all conversions methods must be declared as static.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 17.	How to do safe type casting in C#? (or)  What are the differences between IS and AS operator?
 18.	Do you have an idea about upcasting and downcasting?
 19.	What about Boxing and Unboxing?
@@ -151,6 +475,8 @@ Answer::
      Console.WriteLine(m * res);
      Console.ReadLine();
  }
+ 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 2.	What will be the output of the following C# code?
  static void Main(string[] args)
  {
@@ -160,7 +486,7 @@ Answer::
      Console.WriteLine(res);
      Console.ReadLine();
  }
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 3.	What will be the output of the following C# code?
  static void Main(string[] args)
  {
@@ -171,7 +497,7 @@ Answer::
      Console.WriteLine(res);
      Console.ReadLine();
  }
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 4.	What will be the output of the following C# code?
  class Program
  {
@@ -186,7 +512,7 @@ Answer::
          Console. ReadLine();
      }
 }
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 5.	What will be the output of the following code?
 
 using System;
@@ -215,7 +541,7 @@ class Result
     }
    }
 }
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 6.	Predict the output?
 
 using System;
@@ -244,7 +570,7 @@ class FindOutput
      }
    }
 }
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 7.	Predict the output?
 using System;
 namespace ProgrammingExercise
@@ -264,7 +590,7 @@ class FindOutput
      }
     }
 }
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 8.	What is the output?
 using System;
 namespace ProgrammingExercise
@@ -283,10 +609,11 @@ class FindOutput
      }
     }
 }
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 9.	Will the code produce error?
 using System;
 namespace ProgrammingExercise
-{
+{---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 class FindOutput
     {
      static void Main(string[] args)
@@ -301,11 +628,12 @@ class FindOutput
       }
     }
 }
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 10.	Predict the output?
 using System;
 namespace ProgrammingExercise
 {
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 class FindOutput
     {
      static void Main(string[] args)
@@ -327,6 +655,8 @@ class FindOutput
     }
 }
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 11.	Predict the output?
 using System;
 namespace ProgrammingExercise
@@ -344,6 +674,8 @@ class FindOutput
       }
     }
 }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 12.	Predict the output?
 using System;
 namespace ProgrammingExercise
@@ -351,8 +683,10 @@ namespace ProgrammingExercise
 class FindOutput
     {
      static void Main(string[] args)
-     {
-       int i = 1, j = 5;
+  
+  
+  {
+      int i = 1, j = 5;
     do
     {
         Console.WriteLine(i = i++ * j);
@@ -360,6 +694,7 @@ class FindOutput
      }
     }
 }
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 13.	What will be the output?
 using System;
 namespace ProgrammingExercise
@@ -383,11 +718,13 @@ class FindOutput
      }
     }
 }
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 14.	Predict the output?
 using System;
 class program
 {
-   static void Main(string[] args)
+   
+ static void Main(string[] args)
     {
         int x = 4 ,b = 2;
         x -= b/= x * b;
@@ -395,6 +732,8 @@ class program
         Console.ReadLine();
     } 
 }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 15.	Predict the output?
 using System;
 class Program
@@ -413,6 +752,7 @@ class Program
         cube = num * num * num;
     }
 }
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 16.	Predict the output?
 using System;
 public class emp
@@ -429,6 +769,7 @@ public class record :emp
          Console.WriteLine(emp.age + "  " + emp.salary + "  " + salary);
      }
 }
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 17.	What will be the output of the following code?
 using System;
 class sample
@@ -445,6 +786,7 @@ class sample
       }
 }
 class Program
+
 {
     static void Main(string[] args)
     {
@@ -452,6 +794,7 @@ class Program
         Console.ReadLine();
     }
 }
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 18.	What will be the output?
 interface A
 {
@@ -487,6 +830,8 @@ class Program
          Console.ReadLine();
      }
 }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 19.	Predict the output?
 using System;
 class baseSample
@@ -512,6 +857,8 @@ class Program
          Console.ReadLine();
      }
 }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 20.	What should be included in the current set of code to get the output as 10 20?
 using System;
 public class baseSample
@@ -537,6 +884,9 @@ class Program
         Console.ReadLine();
     }
 }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 21.	What will be the output?
 using System;
 public class Program
@@ -549,6 +899,8 @@ public class Program
           Console.WriteLine(false ? i : x); 
         }
     }
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 22.	Predict the output?
 using System;
 public class Program
@@ -560,6 +912,9 @@ public class Program
         }
  
     }
+    
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 23.	Predict the output?
 using System;
 using System.Collections.Generic;
@@ -576,6 +931,9 @@ public class Program
               action();
         }
     }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 24.	What is the output of the following code?
 using System;
 using System.Collections.Generic;
@@ -589,6 +947,9 @@ public class Program
                 action();
         }
     }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 25.	Predict the output of the following code?
 using System;
 using System.Collections.ObjectModel;
@@ -603,7 +964,10 @@ public class Program
             arr.Sort();
             Console.WriteLine(String.Join(",", collection));
         }
-    }
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 26.	Predict the output?
 using System;
 public class Program
@@ -624,6 +988,9 @@ public class Program
             }
         }
     }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 27.	Predict the output?
 using System;
 class Program
@@ -638,6 +1005,9 @@ class Program
         Console.WriteLine( (int) Color.yellow );
       }
     }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 28.	Will the code successfully produce the output?
 using System;
 public class Program
@@ -660,6 +1030,9 @@ public class Program
             num = num * num;
         }
     }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 29.	Can you predict the output of the following?
 using System;
 class Program
@@ -686,6 +1059,9 @@ class Program
             Console.WriteLine("Static Constructor");
         }
     }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 30.	Predict the output?
 using System;
 class Program
@@ -712,6 +1088,9 @@ class Program
             }
         }
     }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 31.	What will be the output of the following code?
 using System;
 class MyProgram
@@ -731,6 +1110,9 @@ class MyProgram
            Console.ReadLine();
        }
    }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 32.	What will be the output of the following code?
 static void main(string[] args)
  {
@@ -747,6 +1129,9 @@ static void main(string[] args)
      s = s * j;
      return s;
  }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 33.	What will be the output?
 static void Main(string[] args)
  {
@@ -764,6 +1149,8 @@ static void Main(string[] args)
      }
  }
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 34.	Predict the output ?
 class Program
  {
@@ -779,6 +1166,9 @@ class Program
             Console.ReadLine();
         }
     }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 35.	Predict the output of the following code?
 class Program
  {
@@ -794,6 +1184,9 @@ class Program
          Console.ReadLine();
      }
  }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 36.	Predict the output?
 class Program
     {
@@ -810,6 +1203,9 @@ class Program
             Console.ReadLine();
         }
     }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 37.	What will be the output of the following?
 class MyClass
  {
@@ -835,3 +1231,826 @@ class MyClass
      }
  }
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Programs:::::
+
+1. Create a C# program that requests three names of people from the user and stores them in an array of objects of type Person. To do this, first create a Person class that has a Name property of type string and override the ToString() method.
+
+End the program by reading people and executing the ToString() method on the screen.
+
+Input
+
+Juan
+Sara
+Carlos
+
+
+Output
+
+Hello! My name is Juan
+Hello! My name is Sara
+Hello! My name is Carlos
+
+Solution::
+
+using System;
+ 
+public class FirstClass
+{
+    public static void Main(string[] args)
+    {
+        int total = 3;
+        Person[] persons = new Person[total];
+ 
+        for (int i = 0; i < total; i++)
+        {
+            persons[i] = new Person() {
+                Name = Console.ReadLine()
+            };
+        }
+ 
+        for (int i = 0; i < total; i++)
+        {
+            Console.WriteLine(persons[i].ToString());
+        }
+ 
+        Console.ReadLine();
+    }
+ 
+    public class Person
+    {
+        public string Name { get; set; }
+ 
+        public override string ToString()
+        {
+            return "Hello! My name is " + Name;
+        }
+    }
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. Create a C# program that prompts the user for three names of people and stores them in an array of Person-type objects. To do this, first create a Person class that has a Name property of type string, a constructor that receives the name as a parameter, a destructor that assigns the name to empty and overwrites the ToString () method.
+
+End the program by reading the people and executing the ToString () method on screen.
+
+Input:
+
+Juan
+Sara
+Carlos
+
+Output
+
+Hello! My name is Juan
+Hello! My name is Sara
+Hello! My name is Carlos
+
+Solution::
+
+using System;
+ 
+public class ConstructorsAndDestructors
+{
+    public static void Main(string[] args)
+    {
+        int total = 3;
+        Person[] persons = new Person[total];
+ 
+        for (int i = 0; i < total; i++)
+        {
+            persons[i] = new Person(Console.ReadLine());
+        }
+ 
+        for (int i = 0; i < total; i++)
+        {
+            Console.WriteLine(persons[i].ToString());
+        }
+    }
+ 
+    public class Person
+    {
+        public string Name { get; set; }
+ 
+        public Person(string name)
+        {
+            Name = name;
+        }
+ 
+        public override string ToString()
+        {
+            return "Hello! My name is " + Name;
+        }
+ 
+        ~Person()
+        {
+            Name = string.Empty;
+        }
+    }
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3. Create a new C # project with three classes plus another class to test the logic in your code. The main classes of the program are the following classes:
+
+Person
+Student
+Professor
+The Student and Teacher classes inherit from the Person class.
+
+The Student class will include a public Study() method that will write I'm studying on the screen.
+
+The Person class must have two public methods Greet() and SetAge(int age) that will assign the age of the person.
+
+The Teacher class will include a public Explain() method that will write I'm explaining on the screen.
+
+Also create a public method ShowAge() in the Student class that writes My age is: x years old on the screen.
+
+You must create another test class called StudentProfessorTest with a Main method to do the following:
+
+Create a new Person and make him say hello
+Create a new Student, set an age, say hello, and display her age on the screen.
+Create a new Teacher, set an age, say hello and start the explanation.
+
+ 
+Output:
+
+Hello!
+Hello!
+My age is 21 years old
+I'm studying
+Hello!
+I'm explaining
+
+Solution::
+
+using System;
+ 
+public class StudentAndTeacherTest
+{
+    public static void Main()
+    {
+        Person myPerson = new Person();
+        myPerson.Greet();
+ 
+        Student myStudent = new Student();
+        myStudent.SetAge(21);
+        myStudent.Greet();
+        myStudent.ShowAge();
+        myStudent.Study();
+ 
+        Teacher myTeacher = new Teacher();
+        myTeacher.SetAge(30);
+        myTeacher.Greet();
+        myTeacher.Explain();
+    }
+}
+ 
+public class Person
+{
+    protected int age;
+ 
+    public void Greet()
+    {
+        Console.WriteLine("Hello!");
+    }
+ 
+    public void SetAge(int n)
+    {
+        age = n;
+    }
+}
+ 
+public class Student : Person
+{
+    public void Study() 
+    {
+        Console.WriteLine("I'm studying");
+    }
+ 
+    public void ShowAge()
+    {
+        Console.WriteLine("My age is {0} years old", age);
+    }
+}
+ 
+public class Teacher : Person
+{
+    public void Explain()
+    {
+        Console.WriteLine("I'm explaining");
+    }
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4. Create a C# program to manage a photo book using object-oriented programming.
+
+To start, create a class called PhotoBook with a private attribute numPages of type int. It must also have a public method GetNumberPages that will return the number of photo book pages.
+
+The default constructor will create an album with 16 pages. There will be an additional constructor, with which we can specify the number of pages we want in the album.
+
+There is also a BigPhotoBook class whose constructor will create an album with 64 pages.
+
+Finally create a PhotoBookTest class to perform the following actions:
+
+Create a default photo book and show the number of pages
+Create a photo book with 24 pages and show the number of pages
+Create a large photo book and show the number of pages
+
+ 
+Output
+
+16
+24
+64
+
+Solution::
+
+using System;
+ 
+public class PhotoBookTest
+{
+    public static void Main()
+    {
+        PhotoBook myAlbum1 = new PhotoBook();
+        Console.WriteLine(myAlbum1.GetNumberPages());
+ 
+        PhotoBook myAlbum2 = new PhotoBook(24);
+        Console.WriteLine(myAlbum2.GetNumberPages());
+ 
+        SuperPhotoBook myBigPhotoAlbum1 = new SuperPhotoBook();
+        Console.WriteLine(myBigPhotoAlbum1.GetNumberPages());
+    }
+}
+ 
+public class PhotoBook
+{
+    protected int numPages;
+ 
+    public PhotoBook()
+    {
+        numPages = 16;
+    }
+ 
+    public PhotoBook(int numPages)
+    {
+        this.numPages = numPages;
+    }
+ 
+    public int GetNumberPages()
+    {
+        return numPages;
+    }
+}
+ 
+public class SuperPhotoBook : PhotoBook
+{
+    public SuperPhotoBook()
+    {
+        numPages = 64;
+    }
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5. Create a C# program that prompts the user for three names of people and stores them in an array of Person-type objects. There will be two people of the Student type and one person of the Teacher type.
+
+To do this, create a Person class that has a Name property of type string, a constructor that receives the name as a parameter and overrides the ToString () method.
+
+Then create two more classes that inherit from the Person class, they will be called Student and Teacher. The Student class has a Study method that writes by console that the student is studying. The Teacher class will have an Explain method that writes to the console that the teacher is explaining. Remember to also create two constructors on the child classes that call the parent constructor of the Person class.
+
+End the program by reading the people (the teacher and the students) and execute the Explain and Study methods.
+
+Input:
+
+Juan
+Sara
+Carlos
+
+Output:
+
+Explain
+Study
+Study
+
+Solution::
+
+using System;
+ 
+public class InheritanceObjects
+{
+    public static void Main(string[] args)
+    {
+        int total = 3;
+        Person[] persons = new Person[total];
+ 
+        for (int i = 0; i < total; i++)
+        {
+            if (i == 0)
+            {
+                persons[i] = new Teacher(Console.ReadLine());
+            }
+            else
+            {
+                persons[i] = new Student(Console.ReadLine());
+            }
+        }
+ 
+        for (int i = 0; i < total; i++)
+        {
+            if (i == 0)
+            {
+               ((Teacher)persons[i]).Explain();
+ 
+            }
+            else
+            {
+                ((Student)persons[i]).Study();
+            }
+        }
+    }
+ 
+    public class Person
+    {
+        protected string Name { get; set; }
+ 
+        public Person(string name)
+        {
+            Name = name;
+        }
+ 
+        public override string ToString()
+        {
+            return "Hello! My name is " + Name;
+        }
+ 
+        ~Person()
+        {
+            Name = string.Empty;
+        }
+    }
+ 
+    public class Teacher : Person
+    {
+        public Teacher(string name) : base(name)
+        {
+            Name = name;
+        }
+ 
+        public void Explain()
+        {
+            Console.WriteLine("Explain");
+        }
+    }
+ 
+    public class Student : Person
+    {
+        public Student(string name) : base(name)
+        {
+            Name = name;
+        }
+ 
+        public void Study()
+        {
+            Console.WriteLine("Study");
+        }
+    }
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+6. Create a C# program that implements an IVehiculo interface with two methods, one for Drive of type void and another for Refuel of type bool that has a parameter of type integer with the amount of gasoline to refuel. Then create a Car class with a builder that receives a parameter with the car's starting gasoline amount and implements the Drive and Refuel methods of the car.
+
+The Drive method will print on the screen that the car is Driving, if the gasoline is greater than 0. The Refuel method will increase the gasoline of the car and return true.
+
+To carry out the tests, create an object of type Car with 0 of gasoline in the Main of the program and ask the user for an amount of gasoline to refuel, finally execute the Drive method of the car.
+
+Input:
+
+50
+
+Output
+
+Driving
+
+Solution::
+
+using System;
+ 
+public class FirstInterface
+{
+    public static void Main(string[] args)
+    {
+        Car car = new Car(0);
+ 
+        int fuel = int.Parse(Console.ReadLine());
+        if (car.Refuel(fuel))
+        {
+            car.Drive();
+        }
+    }
+ 
+    public interface IVehicle
+    {
+        void Drive();
+        bool Refuel(int amount);
+    }
+ 
+    public class Car : IVehicle
+    {
+        public int Fuel { get; set; }
+ 
+        public Car(int fuel)
+        {
+            Fuel = fuel;
+        }
+ 
+        public void Drive()
+        {
+            if (Fuel > 0)
+            {
+                Console.WriteLine("Driving");
+            }
+            else
+            {
+                Console.WriteLine("Not fuel");
+            }
+        }
+ 
+        public bool Refuel(int amount)
+        {
+            Fuel += amount;
+            return true;
+        }
+    }
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+7. Create a C# program that implements an abstract class Animal that has a Name property of type text and three methods SetName (string name), GetName and Eat. The Eat method will be an abstract method of type void.
+
+You will also need to create a Dog class that implements the above Animal class and the Eat method that says the dog is Eating.
+
+To test the program ask the user for a dog name and create a new Dog type object from the Main of the program, give the Dog object a name, and then execute the GetName and Eat methods.
+
+Input:
+
+Tobby
+
+Output:
+
+Tobby
+Eating
+
+Solution:;
+
+using System;
+ 
+public class AbstractClass
+{
+    public static void Main(string[] args)
+    {
+        Dog dog = new Dog();
+        dog.SetName(Console.ReadLine());
+        Console.WriteLine(dog.GetName());
+        dog.Eat();
+    }
+ 
+    public class Dog : Animal
+    {
+        public override void Eat()
+        {
+            Console.WriteLine("Eating");
+        }
+    }
+ 
+    public abstract class Animal
+    {
+        private string Name;
+ 
+        public void SetName(string name)
+        {
+            Name = name;
+        }
+ 
+        public string GetName()
+        {
+            return Name;
+        }
+ 
+        public abstract void Eat();
+    }
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+8. Create a C# program that simulates the operation of a queue using an array of integers. There will be a class called Queue with 2 properties, an array of integers and an integer to store the current position of the queue values.
+
+The queue must have a constructor where the size of the queue will be specified per parameter and two methods, one for Enqueue() and the other for Unenqueue() the values. Remember that the new values are glued at the end and the first ones are descoiled.
+
+To test, create a Queue object in the program's Main and try to queue and unqueue some values.
+
+Solution::
+
+using System;
+ 
+public class QueueArrays
+{
+    public static void Main(string[] args)
+    {
+        int size = 2;
+        Queue queue = new Queue(size);
+ 
+        int val1 = 7, 
+            val2 = 1;
+ 
+        queue.Enqueue(val1);
+        queue.Enqueue(val2);
+ 
+        val1 = queue.Dequeue();
+        val2 = queue.Dequeue();
+ 
+        Console.WriteLine(val1);
+        Console.WriteLine(val2);
+    }
+}
+ 
+public class Queue
+{
+    private int[] queue;
+    private int position;
+    
+    public Queue(int size)
+    {
+        position = -1;
+        queue = new int[size];
+    }
+ 
+    public void Enqueue(int value)
+    {
+        position++;
+        queue[position] = value;
+    }
+ 
+    public int Dequeue()
+    {
+        int aux = queue[0];
+ 
+        for (int i = 0; i < position; i++)
+        {
+            queue[i] = queue[i + 1];
+        }
+ 
+        queue[position] = aux;
+        position--;
+ 
+        return queue[position + 1];
+    }
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+9. Create a C# program that uses a ArrayList to store a list of people. First prepare a class called Person.cs with two properties (name and age) and a ToString() method to print the result.
+
+Then define a ArrayList and request the information (name and age) of three people from the user, you will have to store the information in the list. Remember that you can find the ArrayList object in the System.Collections namespace of the .NET Framework.
+
+To end the program it prints the data of the people going through the list of data.
+
+Input:
+
+Juan
+26
+Sara
+31
+Carlos
+23
+
+Output
+
+Juan - 26
+Sara - 31
+Carlos - 23
+
+Solution::
+
+using System;
+using System.Collections;
+ 
+public class ArrayListObjects
+{
+    public static void Main(string[] args)
+    {
+        ArrayList list = new ArrayList();
+ 
+        int total = 3;
+        for (int i = 0; i < total; i++)
+        {
+            string name = Console.ReadLine();
+            int age = int.Parse(Console.ReadLine());
+ 
+            list.Add(new Person() {
+                Name = name,
+                Age = age
+            });
+        }
+ 
+        foreach (Person p in list)
+        {
+            Console.WriteLine(p.ToString());
+        }
+ 
+        Console.ReadLine();
+    }
+ 
+    public class Person
+    {
+        public string Name { get; set; }
+        public int Age { get; set; }
+ 
+ 
+        public override string ToString()
+        {
+            return Name + " - " + Age;
+        }
+    }
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+10. Create a function named Double to calculate the double of an integer number, and modify the data passed as an argument. It must be a void function and you must use refererence parameters.
+
+Input
+4
+Output
+8
+
+Solution::
+
+using System;
+public class FunctionReferenceParams
+{
+    public static void Main(string[] args)
+    {
+        int number = Convert.ToInt32(Console.ReadLine());
+ 
+        Double(ref number);
+        Console.WriteLine(number);
+    }
+ 
+    public static void Double(ref int number)
+    {
+        number += number;
+    }
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11. Create a program in C# that implements a function called CountSpaces that receives as a parameter a text requested from the user. Then show the total spaces that the text has.
+
+Input
+Hello, how are you?
+Output
+3
+
+Solution :::
+
+using System;
+public class FunctionCountSpaces
+{    
+    public static void Main(string[] args)
+    {
+        string text = Console.ReadLine();
+ 
+        int countSpaces = CountSpaces(text);
+        Console.WriteLine(countSpaces);
+    }
+ 
+    public static int CountSpaces(string text)
+    {
+        int count = 0;
+        string letter;
+ 
+        for (int i = 0; i < text.Length; i++)
+        {
+            letter = text.Substring(i, 1);
+ 
+            if (letter == " ")
+            {
+                count++;
+            }
+        }
+ 
+        return count;
+    }
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+12. Create a C# program that implements a function called ChangeLetter that receives as a parameter a text, a position (based on 0) and a letter requested from the user. You must modify the character of the text and display the new text on the screen.
+
+Input
+Card
+3
+ 
+Output
+Car
+
+Solution::
+
+using System;
+class FunctionChangeLetter
+{
+    public static void Main(string[] args)
+    {
+        string text = Console.ReadLine();
+        int position = Convert.ToInt32(Console.ReadLine());
+        char letter = Convert.ToChar(Console.ReadLine());
+ 
+        ChangeLetter(text, position, letter);
+    }
+ 
+    public static string ChangeLetter(string text, int position, char letter)
+    {
+        text = text.Remove(position, 1);
+        text = text.Insert(position, letter.ToString());
+ 
+        return text;
+    }
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+13. Create a C # program that uses an array of struct to store a car record. You will first need to create a data structure called Car with two public properties:
+
+Model: string
+AnyoFabricacion: int
+Now request for example 3 cars from the user and save them in the structs array. Lastly, order the cars by their year of manufacture, the oldest first.
+
+Input:
+
+BMW
+2005
+Porsche
+1970
+Toyota
+1993
+
+Output
+
+Model: Porsche, Year of production: 1970
+Model: Toyota, Year of production: 1993
+Model: BMW, Year of production: 2005
+
+Solution::
+
+using System;
+ 
+class ArrayOfStruct
+{
+    struct Car
+    {
+        public string Model;
+        public int YearOfProduction;
+    }
+ 
+    static void Main(string[] args)
+    {
+        int total = 3;
+        Car[] cars = new Car[total];
+ 
+        for (int i = 0; i < total; i++)
+        {
+            cars[i] = new Car()
+            {
+                Model = Console.ReadLine(),
+                YearOfProduction = int.Parse(Console.ReadLine())
+            };
+        }
+ 
+        // Sort
+        for (int i = 0; i < total - 1; i++)
+        {
+            for (int j = i + 1; j < total; j++)
+            {
+                if (cars[i].YearOfProduction > cars[j].YearOfProduction)
+                {
+                    var aux = cars[i];
+ 
+                    cars[i] = cars[j];
+                    cars[j] = aux;
+                }
+            }
+        }
+ 
+        // Show
+        for (int i = 0; i < total; i++)
+        {
+            var car = cars[i];
+            Console.WriteLine("Model: " + car.Model + ", " +
+                "Year of production: " + car.YearOfProduction);
+        }
+    }
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
