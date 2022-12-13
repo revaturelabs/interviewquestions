@@ -1,209 +1,292 @@
 1. Why Java is platform independent?
-Answer: Java is called platform independent because programs written in Java can be run on multiple platforms without re-writing them individually for a particular platform, that is Write Once Run Anywhere (WORA).
+Answer:
+Java is called platform independent because programs written in Java can be run on multiple platforms without re-writing them individually for a particular platform, that is Write Once Run Anywhere (WORA).
+------------------------------------------------------------------------------------------------------------------------------
 
 2. Is Java compiling or interpreting language?
-Answer: Java can be considered both a compiled and interpreted language. The interpreter scans the program line by line and translates it into machine code whereas the compiler scans the entire program first and then translates it into machine code. The interpreter shows one error at a time whereas the compiler shows all errors and warnings at the same time.
+Answer: 
+Java can be considered both a compiled and interpreted language. The interpreter scans the program line by line and translates it into machine code whereas the compiler scans the entire program first and then translates it into machine code. The interpreter shows one error at a time whereas the compiler shows all errors and warnings at the same time.
+------------------------------------------------------------------------------------------------------------------------------
 
 3. what are classes and objects?
-Answer: Class: Class is a user-defined data type and it’s a blueprint of an object.
+Answer: 
+Class: Class is a user-defined data type and it’s a blueprint of an object.
 Object: Objects can be considered as real-world instances of entities like class, that have characteristics and behaviors.
+------------------------------------------------------------------------------------------------------------------------------
 
 4. How do you declare the method?
-Answer: Method is a block of code that only runs when it is called.
+Answer: 
+Method is a block of code that only runs when it is called.
 Method is defined with the name of the method, followed by parentheses ().
 public class Main {
   static void Method_Name() {
     // code
   }
 }
+------------------------------------------------------------------------------------------------------------------------------
 
 5. What is the static and Non-Static method?
-Answer: Static
-It’s a non-access modifier.
-It’s used to share the same variable or method of a given class.
-There is no need to create an object for the class to access the static variable or static method.
-We can use the class name to call them with respect to the access modifier.
-If we use the object name to call the static method or variable, the compiler will replace the name of the object with class.
+Answer: 
+Static
+	It’s a non-access modifier.
+	It’s used to share the same variable or method of a given class.
+	There is no need to create an object for the class to access the static variable or static method.
+	We can use the class name to call them with respect to the access modifier.
+	If we use the object name to call the static method or variable, the compiler will replace the name of the object with 	       class.
 Non-static
-A method that does not contain a static keyword is treated as a non-static method in java.
-We can access a non-static by using an object.
+	A method that does not contain a static keyword is treated as a non-static method in java.
+	We can access a non-static by using an object.
+------------------------------------------------------------------------------------------------------------------------------
 
 6. Explain public static void main (String[] args)
-Answer: public static void main(String[] args) – the main method is the entry point of any java program
+Answer: 
+public static void main(String[] args) – the main method is the entry point of any java program
 public is an access specifier of the main method. It must be public so that java runtime can execute this method.
 static is a non-access modifier. When the java runtime starts, there is no object of the class present. That’s why the main method must be static so that JVM can load the class into memory and call the main method.
 Void is a return type, which means the main method not going to return anything.
 main is a method name
 String[] args - Java main method accepts a single argument of a type String array. This is also called java command line arguments.
+------------------------------------------------------------------------------------------------------------------------------
 
 7. What is the difference between system.out.println and system.out.print.
-Answer: The main difference between the two is that print() retains the cursor in the same line after printing the argument, while println() moves the cursor to the next line.
+Answer: 
+The main difference between the two is that print() retains the cursor in the same line after printing the argument, while println() moves the cursor to the next line.
+------------------------------------------------------------------------------------------------------------------------------
 
 8. Why doesn’t java support multiple inheritance?
-Answer: Due to memory duplication java doesn’t support multiple inheritance.
+Answer: 
+Due to memory duplication java doesn’t support multiple inheritance.
 When we extends two parent classes having the same methods into a third child class and creates an object for the child class, there will be ambiguity to call the method of both the parent class, and thus an error will be generated in java.
+------------------------------------------------------------------------------------------------------------------------------
 
 9. What are getters and setters?
-Answer: Getters and setters are used to protect your data, particularly when creating classes.
+Answer: 
+Getters and setters are used to protect your data, particularly when creating classes.
 The setter/getter methods are used to assign/change and retrieve values of the instance variables of a class.
+------------------------------------------------------------------------------------------------------------------------------
 
 10. What is data abstraction?
-Answer: Abstraction is an important concept of object-oriented programming that allows us to hide unnecessary details and only show the needed information.
+Answer:
+Abstraction is an important concept of object-oriented programming that allows us to hide unnecessary details and only show the needed information.
 A practical example of abstraction can be motorbike brakes. We know what brake does. When we apply the brake, the motorbike will stop. However, the working of the brake is kept hidden from us.
+------------------------------------------------------------------------------------------------------------------------------
 
 11. What are constructors?
-Answer: A constructor in Java is a special method that is used to initialize objects. The constructor is called when an object of a class is created.
+Answer: 
+A constructor in Java is a special method that is used to initialize objects. The constructor is called when an object of a class is created.
+------------------------------------------------------------------------------------------------------------------------------
 
 12. What is the use of break statement
-Answer:In java break statements is used to terminate loops and switch statements in java.
+Answer:
+In java break statements is used to terminate loops and switch statements in java.
+------------------------------------------------------------------------------------------------------------------------------
 
 13. Can we use more than one constructor in java?
-Answer: Yes, a class can have multiple constructors that assign the fields in different ways.
+Answer: 
+Yes, a class can have multiple constructors that assign the fields in different ways.
+------------------------------------------------------------------------------------------------------------------------------
 
 14. Difference between compiler and interpreter.
-Answer: Compiler
-A compiler translates the entire source code in a single run.
+Answer: 
+Compiler
+	A compiler translates the entire source code in a single run.
 Interpreter
-An interpreter translates the entire source code line by line.
+	An interpreter translates the entire source code line by line.
+------------------------------------------------------------------------------------------------------------------------------
 
 15. What is an abstract class and abstract method
-Answer: Abstract class: Abstract class is a restricted class that cannot be used to create an object.
+Answer: 
+Abstract class: Abstract class is a restricted class that cannot be used to create an object.
 Abstract method: Abstract method: can only be used in an abstract class, and it does not have a body. The body is provided by the subclass (inherited from).
+------------------------------------------------------------------------------------------------------------------------------
 
 16. What is the difference between a method and a constructor?
-Answer: Constructor
-Constructor has same name as the class name.
-Constructor is used to initialize the data members and startup tasks.
-Constructor is automatically called when an obj is created.
-There is no return data type in constructor.
-There is always a default constructor provided by compiler.
-Method
-Method can have the same class name and can be different as per requirement.
-Method is used to define the particular task for execution.
-We need to call the method explicitly.
-We must declare a return data type in methods.
-There is no method provided by the compiler.
+Answer: 
+- Constructor
+	Constructor has same name as the class name.
+	Constructor is used to initialize the data members and startup tasks.
+	Constructor is automatically called when an obj is created.
+	There is no return data type in constructor.
+	There is always a default constructor provided by compiler.
+- Method
+	Method can have the same class name and can be different as per requirement.
+	Method is used to define the particular task for execution.
+	We need to call the method explicitly.
+	We must declare a return data type in methods.
+	There is no method provided by the compiler.
+------------------------------------------------------------------------------------------------------------------------------
 
 17. Can we use a default constructor of a class even if an explicit constructor is defined?
-Answer: No. Java provides a default no-argument constructor if no explicit constructor is defined in a class. But if an explicit constructor has been defined, the default constructor can’t be invoked, and the developer can use only those constructors which are defined in the class.
+Answer: 
+No. Java provides a default no-argument constructor if no explicit constructor is defined in a class. But if an explicit constructor has been defined, the default constructor can’t be invoked, and the developer can use only those constructors which are defined in the class.
+------------------------------------------------------------------------------------------------------------------------------
 
 18. What is a singleton class?
-Answer: A singleton class is a class that can have only one object at a time.
+Answer: 
+A singleton class is a class that can have only one object at a time.
+------------------------------------------------------------------------------------------------------------------------------
 
 19. What is parametrized constructor?
-Answer: Constructors that can take at least one argument are termed parameterized constructors.
+Answer: 
+Constructors that can take at least one argument are termed parameterized constructors.
+------------------------------------------------------------------------------------------------------------------------------
 
 20. What is exception handling?
-Answer: An exception is an error event that can happen during the execution of a program and disrupts its normal flow.
+Answer: 
+An exception is an error event that can happen during the execution of a program and disrupts its normal flow.
 Exceptions in Java can arise from different kinds of situations such as wrong data entered by the user, hardware failure, network connection failure, or a database server that is down. The code that specifies what to do in specific exception scenarios is called exception handling.
+------------------------------------------------------------------------------------------------------------------------------
 
 21.What is the syntax for exception handling?
-Answer: try {
+Answer: 
+try {
    // code
 } catch (ExceptionName e1) {
    // Catch block
 }
+------------------------------------------------------------------------------------------------------------------------------
 
 22. what are the common exceptions
-Answer: NullPointerException
+Answer: 
+NullPointerException
 ArrayIndexOutOfBoundsException
 IllegalStateException
 ClassCastException
 ArithmeticException
 IllegalArgumentException
+------------------------------------------------------------------------------------------------------------------------------
 
 23. what is an instance variable?
-Answer: The variables that are declared inside the class but outside the scope of any method are called instance variables in Java.
+Answer: 
+The variables that are declared inside the class but outside the scope of any method are called instance variables in Java.
+------------------------------------------------------------------------------------------------------------------------------
 
 24. what are the variables?
-Answer: A variable is a name that is stored in a memory location and it is used to hold a value.
+Answer: 
+A variable is a name that is stored in a memory location and it is used to hold a value.
+------------------------------------------------------------------------------------------------------------------------------
 
 25. What is the difference between throw and throws?
-Answer: throw  
-Used inside a method when it is required to throw an Exception logically.
-Used to throw an exception explicitly.It can throw only one exception at a time.    
-Syntax: throw new Exception()  
-throws
-Used in the method signature when the method has some statements that can lead to exceptions.
-Used to declare multiple exceptions, separated by a comma.When an exception occurs, it matches with the declared ones and throws an exception automatically
-Syntax: public static void writeToFile() throws Exception {}
+Answer: 
+- throw  
+	Used inside a method when it is required to throw an Exception logically.
+	Used to throw an exception explicitly.It can throw only one exception at a time.    
+	Syntax: throw new Exception()  
+- throws
+	Used in the method signature when the method has some statements that can lead to exceptions.
+	Used to declare multiple exceptions, separated by a comma.When an exception occurs, it matches with the declared ones 	      and throws an exception automatically
+	Syntax: public static void writeToFile() throws Exception {}
+------------------------------------------------------------------------------------------------------------------------------
 
 26. what is the use of the final keyword?
-Answer: final keyword is a non-access specifier that can be used with class, variable, and method to restrict changes or make it constant.
+Answer: 
+final keyword is a non-access specifier that can be used with class, variable, and method to restrict changes or make it constant.
 If we initialize a variable with the final keyword, then we cannot modify its value.
 If we declare a method as final, then it cannot be overridden by any subclasses.
 And, if we declare a class as final, we restrict the other classes to inherit or extend it.
+------------------------------------------------------------------------------------------------------------------------------
 
 27. What are Stack and heap memory?
-Answer: Stack memory stores primitive types and the addresses of objects.
+Answer: 
+Stack memory stores primitive types and the addresses of objects.
 Heap memory stores the value of the object.
+------------------------------------------------------------------------------------------------------------------------------
 
 28. what are wrapper classes?
-Answer: A Wrapper class is a class whose object wraps or contains primitive data types. Each of the 8 primitive types has corresponding wrapper classes.
+Answer: 
+A Wrapper class is a class whose object wraps or contains primitive data types. Each of the 8 primitive types has corresponding wrapper classes.
+------------------------------------------------------------------------------------------------------------------------------
 
 29. why string is immutable?
-Answer: In the String constant pool, a String object is likely to have one or many references. If several references point to the same String without even knowing it, it would be bad if one of the references modified that String value. That’s why String objects are immutable.
+Answer: 
+In the String constant pool, a String object is likely to have one or many references. If several references point to the same String without even knowing it, it would be bad if one of the references modified that String value. That’s why String objects are immutable.
+------------------------------------------------------------------------------------------------------------------------------
 
 30. What is the purpose of using the Scanner class?
-Answer: In java scanner class is used to get user input, and it is found in java.util package.
+Answer: 
+In java scanner class is used to get user input, and it is found in java.util package.
+------------------------------------------------------------------------------------------------------------------------------
 
 31.Explain the use of priority queue in Java?
-Answer: A PriorityQueue is used when the objects are supposed to be processed based on the priority. It is known that the queue follows the First-In-First-Out algorithm, but sometimes the elements of the queue need to be processed according to the priority, which is when the PriorityQueue comes into play.
-
-The PriorityQueue is based on the priority heap. The elements of the priority queue are ordered according to the natural ordering, or by a Comparator provided at queue construction time, depending on which constructor is used.
+Answer: 
+A PriorityQueue is used when the objects are supposed to be processed based on the priority. It is known that the queue follows the First-In-First-Out algorithm, but sometimes the elements of the queue need to be processed according to the priority, which is when the PriorityQueue comes into play.
+It is based on the priority heap. The elements of the priority queue are ordered according to the natural ordering, or by a Comparator provided at queue construction time, depending on which constructor is used.
+------------------------------------------------------------------------------------------------------------------------------
 
 32.What is the role of Maven in java?
-Answer: Maven is an automation and management tool developed by Apache Software Foundation.
+Answer: 
+Maven is an automation and management tool developed by Apache Software Foundation.
 · It allows us to create projects, dependency, and documentation using Project Object Model and plugins.
 · It can also build any number of projects into desired output such as jar, war, metadata.
+------------------------------------------------------------------------------------------------------------------------------
 
 33.What do you understand by Encapsulation?
-Answer:Encapsulation is the way of binding the data (variables) and code acting on the data (methods) together as a single unit.
+Answer:
+Encapsulation is the way of binding the data (variables) and code acting on the data (methods) together as a single unit.
+------------------------------------------------------------------------------------------------------------------------------
 
 34.What are the types of polymorphism ?
-Answer: There are two types of polymorphism as below:
-1.Static Binding or Compile time Polymorphism or Method Overloading
-2.Dynamic Binding or Runtime Polymorphism or Method overriding.
+Answer: 
+There are two types of polymorphism as below:
+	1.Static Binding or Compile time Polymorphism or Method Overloading
+	2.Dynamic Binding or Runtime Polymorphism or Method overriding.
+------------------------------------------------------------------------------------------------------------------------------
 
 35.What are the types of access modifiers in java?
-Answer: Access modifiers allow us to set the scope or accessibility, or visibility of a data member be it a field, constructor, class, or method. The four different types of access specifiers
-· Public
-· Protected
-· Private
-· Default
+Answer: 
+Access modifiers allow us to set the scope or accessibility, or visibility of a data member be it a field, constructor, class, or method. The four different types of access specifiers
+	· Public
+	· Protected
+	· Private
+	· Default
+------------------------------------------------------------------------------------------------------------------------------
 
 36.What are the different Non access modifiers in java?
-Answer: Non-access modifiers define the behavior of the entities to the JVM, used with classes, variables, methods, constructors, etc. Some of the non-access modifiers are
+Answer: 
+Non-access modifiers define the behavior of the entities to the JVM, used with classes, variables, methods, constructors, etc. Some of the non-access modifiers are
 · static
 · final
 · abstract
 · synchronized
+------------------------------------------------------------------------------------------------------------------------------
 
 37. What is ArrayDeque in java?
-Answer: ArrayDeque provides a way to apply resizable array in addition to the implementation of the Deque interface. It is also known as Array Double Ended Queue or Array Deck. This is a special kind of array that grows and allows users to add or remove an element from both sides of the queue.
+Answer: 
+ArrayDeque provides a way to apply resizable array in addition to the implementation of the Deque interface. It is also known as Array Double Ended Queue or Array Deck. This is a special kind of array that grows and allows users to add or remove an element from both sides of the queue.
+------------------------------------------------------------------------------------------------------------------------------
 
 38.How Arrays are different from ArrayList in java?
-Answer: Array is fixed length data structure, once created you cannot change its length. On the other hand, ArrayList is dynamic, it automatically allocates a new array and copies content of old array, when it resizes. Array does not support generics while ArrayList does.
+Answer: 
+Array is fixed length data structure, once created you cannot change its length. On the other hand, ArrayList is dynamic, it automatically allocates a new array and copies content of old array, when it resizes. Array does not support generics while ArrayList does.
+------------------------------------------------------------------------------------------------------------------------------
 
 39.What are some of the phases of maven lifecycle?
-Answer:validate : the project is correct and all necessary information is available.
-· compile : compile the source code of the project.
-· test : test the compiled source code with a suitable unit testing framework. These tests should not require the code be packaged or deployed.
-· package : take the compiled code and package it in its distributable format, such as a JAR.
-· integration-test : process and deploy the package, if necessary, into an environment where integration tests can be run.
-· verify : run any checks to verify whether the package is valid and meets quality criteria.
-· install : install the package into the local repository, for use as a dependency in other projects locally.
-· deploy : done in an integration or release environment, copies the final package to the remote repository for sharing with other developers and projects.
+Answer:
+	. validate : the project is correct and all necessary information is available.
+	· compile : compile the source code of the project.
+	· test : test the compiled source code with a suitable unit testing framework. These tests should not require the code 		 be packaged or deployed.
+	· package : take the compiled code and package it in its distributable format, such as a JAR.
+	· integration-test : process and deploy the package, if necessary, into an environment where integration tests can be           run.
+	· verify : run any checks to verify whether the package is valid and meets quality criteria.
+	· install : install the package into the local repository, for use as a dependency in other projects locally.
+	· deploy : done in an integration or release environment, copies the final package to the remote repository for    
+	  sharing with other developers and projects.
+------------------------------------------------------------------------------------------------------------------------------
 
 40.What are the types of maven repository?
-Answer:There are three types of Maven repositories:
-1.Local Repository: - Local repository refers to the machine of the developer where all the project material is saved. The local repository contains all the dependency jars.
-2.Remote Repository: - The remote repository refers to the repository present on a server usually in company intranet to download dependencies. - The advantage of remote repository is that it can have all publicly available dependencies as well as private dependencies used only in intranet by employees of the enterprise.
-3.Central Repository: - Central repository refers to the Maven community that comes into action when there is a need for dependencies, and those dependencies cannot be found in the local repository. - Maven downloads the dependencies from here in the local repository whenever needed.
+Answer:
+There are three types of Maven repositories:
+	1.Local Repository: - Local repository refers to the machine of the developer where all the project material is saved.           The local repository contains all the dependency jars.
+	2.Remote Repository: - The remote repository refers to the repository present on a server usually in company intranet           to download dependencies. - The advantage of remote repository is that it can have all publicly available    
+	  dependencies as well as private dependencies used only in intranet by employees of the enterprise.
+	3.Central Repository: - Central repository refers to the Maven community that comes into action when there is a need             for dependencies, and those dependencies cannot be found in the local repository. - Maven downloads the dependencies           from here in the local repository whenever needed.
+------------------------------------------------------------------------------------------------------------------------------
 
 41.What is the use of log4j?
-Answer: Log4j is a reliable, fast, and flexible logging framework (APIs) written in Java, which is distributed under the Apache Software License.
+Answer: 
+Log4j is a reliable, fast, and flexible logging framework (APIs) written in Java, which is distributed under the Apache Software License.
 · Log4j has been ported to the C, C++, C#, Perl, Python, Ruby, and Eiffel languages.
+------------------------------------------------------------------------------------------------------------------------------
 
 42.What are all the logging levels?
 Answer:
@@ -214,203 +297,253 @@ Answer:
 · Error
 · Fatal
 · Off
+------------------------------------------------------------------------------------------------------------------------------
 
 43.Explain the concept of exception handling
-Answer: Exceptions in Java can arise from various kinds of situations such as wrong data entered by the user, hardware failure, network connection failure, or a database server that is down. The code that specifies what to do in specific exception scenarios is called exception handling.
+Answer: 
+Exceptions in Java can arise from various kinds of situations such as wrong data entered by the user, hardware failure, network connection failure, or a database server that is down. The code that specifies what to do in specific exception scenarios is called exception handling.
+------------------------------------------------------------------------------------------------------------------------------
 
 44.Difference between StringBuffer and StringBuilder?
 Answer:
-StringBuffer StringBuilder
-StringBuffer is
-synchronized i.e., thread
-safe. It means two
-threads cannot call the
-methods of StringBuffer
-simultaneously. StringBuilder is non-synchronized i.e., not thread safe. It means two threads can call the methods of StringBuilder simultaneously.
-Faster than String class
-due to mutability but
-slower than StringBuilder Fastest among all as it allows mutability and does not allow multiple threads
-StringBuffer StringBuilder
-class as it allows multiple
-threads simultaneous
-operations. operating at the same time.
-Syntax: StringBuffer var =
-new StringBuffer(str); Syntax: StringBuilder var = new StringBuilder(str);
+StringBuffer is synchronized i.e., thread safe. It means two threads cannot call the methods of StringBuffer simultaneously. 
+StringBuilder is non-synchronized i.e., not thread safe. It means two threads can call the methods of StringBuilder simultaneously.
+Syntax: StringBuffer var = new StringBuffer(str); 
+Syntax: StringBuilder var = new StringBuilder(str);
+------------------------------------------------------------------------------------------------------------------------------
 
 45. What is Finally in java?
-Answer:finally, the block in Java Exception Handling executes important code whether the exception occurs or not.
+Answer:
+Finally, the block in Java Exception Handling executes important code whether the exception occurs or not.
+------------------------------------------------------------------------------------------------------------------------------
 
 46.What is Static keyword in java?
-Answer:It is a non-access modifier.
-· It is used to share the same variable or method of a given class.
-· When we declare a variable or method as static that will not belong to any object, it belongs to the class.
-· There is no need to create an object for the class to access the static variable or static method.
-· We can use the class name to call them with respect to the access modifier.
-· If we use the object name to call the static method or variable, the compiler will replace the name of the object with class.
+Answer:
+	. It is a non-access modifier.
+	· It is used to share the same variable or method of a given class.
+	· When we declare a variable or method as static that will not belong to any object, it belongs to the class.
+	· There is no need to create an object for the class to access the static variable or static method.
+	· We can use the class name to call them with respect to the access modifier.
+	· If we use the object name to call the static method or variable, the compiler will replace the name of the object   
+	  with class.
+------------------------------------------------------------------------------------------------------------------------------
 
 47.What is a lambda expression in java? And how it is different from a method?
-Answer:A lambda expression is a short block of code which takes in parameters and returns a value. Lambda expressions are like methods, but they do not need a name and they can be implemented right in the body of a method.
+Answer:
+A lambda expression is a short block of code which takes in parameters and returns a value. Lambda expressions are like methods, but they do not need a name and they can be implemented right in the body of a method.
+------------------------------------------------------------------------------------------------------------------------------
 
 48.What is a map interface in java?
-Answer:The map interface is present in java.util package represents a mapping between a key and a value. The Map interface is not a subtype of the Collection interface. Therefore, it behaves a bit differently from the rest of the collection types. A map contains unique keys.
+Answer:
+The map interface is present in java.util package represents a mapping between a key and a value. The Map interface is not a subtype of the Collection interface. Therefore, it behaves a bit differently from the rest of the collection types. A map contains unique keys.
+------------------------------------------------------------------------------------------------------------------------------
 
 49.What is JVM?
-Answer:JVM - Java Virtual Machine
-JVM interprets the byte code into the machine code and executes it.
+Answer:
+JVM - Java Virtual Machine, which interprets the byte code into the machine code and executes it.
+------------------------------------------------------------------------------------------------------------------------------
 
 50.Difference between JDK, JRE, & JRE?
-Answer:JDK is a software development kit whereas JRE is a software bundle that allows Java program to run, whereas JVM is an environment for executing bytecode.
+Answer:
+JDK is a software development kit whereas JRE is a software bundle that allows Java program to run, whereas JVM is an environment for executing bytecode.
 JRE = JVM + libraries to run Java application
 JDK = JRE + tools to develop Java application
+------------------------------------------------------------------------------------------------------------------------------
 
 51.Explain Garbage collector in java
-Answer:Garbage collection is the process of looking at heap memory, identifying which objects are in use and which are not, and deleting the unused objects.
+Answer:
+Garbage collection is the process of looking at heap memory, identifying which objects are in use and which are not, and deleting the unused objects.
+------------------------------------------------------------------------------------------------------------------------------
 
 52.What do you know about Stack and Heap memory in java?
-Answer:There are two kinds of memory used in Java:
-· Stack memory stores primitive types and the addresses of objects.
-· Heap memory stores the value of the object.
+Answer:
+There are two kinds of memory used in Java:
+	· Stack memory stores primitive types and the addresses of objects.
+	· Heap memory stores the value of the object.
+------------------------------------------------------------------------------------------------------------------------------
 
 53.What are the diverse types of control flow statements present in java?
-Answer:Java provides three types of control flow statements.
+Answer:
+Java provides three types of control flow statements.
 1. Decision Making statements
-o if statements
-o switch statement
+	o if statements
+	o switch statement
 2. Loop statements
-o do while loop
-o while loop
-o for loop
-o for-each loop
+	o do while loop
+	o while loop
+	o for loop
+	o for-each loop
 3. Jump statements
-o break statement
-o continue statement
+	o break statement
+	o continue statement
+------------------------------------------------------------------------------------------------------------------------------
 
 54.What is the use of Packages?
-Answer:A package is a namespace that organizes a set of related classes and interfaces. Think of it as a folder in a file directory. We use packages to avoid name conflicts, and to write a better maintainable code.
+Answer:
+A package is a namespace that organizes a set of related classes and interfaces. Think of it as a folder in a file directory. We use packages to avoid name conflicts, and to write a better maintainable code.
+------------------------------------------------------------------------------------------------------------------------------
 
 55.What is the use of import in java?
-Answer:The import keyword is used to import a package, class, or interface.
+Answer:
+The import keyword is used to import a package, class, or interface.
+------------------------------------------------------------------------------------------------------------------------------
 
 56.What is the use of final keyword in Java?
-Answer:final keyword is a non-access specifier that can be used with class, variable, and method to restrict changes or make it as constant.
+Answer:
+Final keyword is a non-access specifier that can be used with class, variable, and method to restrict changes or make it as constant.
 · If we initialize a variable with the final keyword, then we cannot modify its value.
 · If we declare a method as final, then it cannot be overridden by any subclasses.
 · And, if we declare a class as final, we restrict the other classes to inherit or extend it.
+------------------------------------------------------------------------------------------------------------------------------
 
 57.Constructors and it is types?
-Answer:A constructor in Java is a special method that is used to initialize objects. The constructor is called when an object of a class is created.
+Answer:
+A constructor in Java is a special method that is used to initialize objects. The constructor is called when an object of a class is created.
 Types include:
-Ø Default
-Ø Parameterize
-
+	Ø Default
+	Ø Parameterize
+------------------------------------------------------------------------------------------------------------------------------
 
 58.Difference between method and block scope?
-Answer:Method level scope or Local scope (local variables): Any variable declared within a method and arguments is only accessible inside that method.
+Answer:
+. Method level scope or Local scope (local variables): Any variable declared within a method and arguments is only accessible inside that method.
 · Block scope (loop variables): Any variable declared in a for loop condition is not accessible after the loop unless you define it beforehand.
+------------------------------------------------------------------------------------------------------------------------------
 
 59.Using which method of stringBuilder, we can add element at a specific position in a string
-Answer:Using insert() method.
+Answer:
+Using insert() method.
+------------------------------------------------------------------------------------------------------------------------------
 
 60.What do you understand by wrapper class?
-Answer:Java needs wrapper classes to be a pure Object-Oriented Programming language, so Java needs everything to look like an object.
+Answer:
+Java needs wrapper classes to be a pure Object-Oriented Programming language, so Java needs everything to look like an object.
 · Classes in Collection framework & java.util package, such as ArrayList and Vector, store only objects (reference types) and not primitive types
 · Wrapper classes have lot of utility methods, it really helpful and easier.
 Primitive Type Wrapper Class
-byte Byte
-boolean Boolean
-char Character
-double Double
-float Float
-int Integer
-long Long
-short Short
+	byte Byte
+	boolean Boolean
+	char Character
+	double Double
+	float Float
+	int Integer
+	long Long
+	short Short
+------------------------------------------------------------------------------------------------------------------------------
 
 61.What is type casting in java?
-Answer:Type casting refers to changing the datatype to another datatype. It is of two types:
-Ø Implicit
-Ø Explicit
+Answer:
+Type casting refers to changing the datatype to another datatype. It is of two types:
+	Ø Implicit
+	Ø Explicit
+------------------------------------------------------------------------------------------------------------------------------
 
 62.What is the use of JDBC?
-Answer:JDBC(Java Database Connectivity) is a Java API, which is helpful in interacting with the database to retrieve, manipulate and process the data using SQL.
+Answer:
+JDBC(Java Database Connectivity) is a Java API, which is helpful in interacting with the database to retrieve, manipulate and process the data using SQL.
 · It will make use of JDBC drivers for connecting to the database.
 · JDBC can access tabular data stored in several types of relational databases such as Oracle, MySQL, MS Access, etc
+------------------------------------------------------------------------------------------------------------------------------
 
 63.What is a Connection Interface in java?
-Answer:Connection interface represents a session between java application and database. All SQL statements are executed, and results are returned within the context of a Connection object.
+Answer:
+Connection interface represents a session between java application and database. All SQL statements are executed, and results are returned within the context of a Connection object.
+------------------------------------------------------------------------------------------------------------------------------
 
 64.Explain multithreading
-Answer:Multithreading is a Java feature that allows concurrent execution of two or more parts of a program for maximum utilization of CPU. Each part of such a program is called a thread.
+Answer:
+Multithreading is a Java feature that allows concurrent execution of two or more parts of a program for maximum utilization of CPU. Each part of such a program is called a thread.
+------------------------------------------------------------------------------------------------------------------------------
 
 65.What are the two ways through which we can use thread in java code?
-Answer:by implementing runnable interface or by extending thread class.
+Answer:
+By implementing runnable interface or by extending thread class.
+------------------------------------------------------------------------------------------------------------------------------
 
 66.Difference between thread class and runnable interface
-Answer:When we extend Thread class, we cannot extend any other class even if we require and when we implement Runnable, we can save a space for our class to extend any other class in future or now.
+Answer:
+When we extend Thread class, we cannot extend any other class even if we require and when we implement Runnable, we can save a space for our class to extend any other class in future or now.
 · When we extend Thread class, each of our threads creates a unique object and associates with it. When we implement Runnable, it shares the same object with multiple threads.
+------------------------------------------------------------------------------------------------------------------------------
 
 67.What is Junit testing?
-Answer:JUnit helps to test individual pieces of code, or “units,” to ensure that they are functioning properly. By identifying and isolating units that are not working correctly, JUnit makes it easier to find and fix errors in code. In addition, JUnit can be used to automate the execution of unit tests, which can save time and effort.
-
+Answer:
+JUnit helps to test individual pieces of code, or “units,” to ensure that they are functioning properly. By identifying and isolating units that are not working correctly, JUnit makes it easier to find and fix errors in code. In addition, JUnit can be used to automate the execution of unit tests, which can save time and effort.
+------------------------------------------------------------------------------------------------------------------------------
 68.What is assertion in java?
-Answer:An assertion is a statement in Java which ensures the correctness of any assumptions which have been done in the program. When an assertion is executed, it is assumed to be true. If the assertion is false, the JVM will throw an Assertion error.
-
+Answer:
+An assertion is a statement in Java which ensures the correctness of any assumptions which have been done in the program. When an assertion is executed, it is assumed to be true. If the assertion is false, the JVM will throw an Assertion error.
+------------------------------------------------------------------------------------------------------------------------------
 69.Explain TDD process
-Answer:TDD, which stands for test-driven development, is a software development methodology. As the name suggests, TDD consists of using tests to drive the development of the application, leading to simple, iterative implementation with high test coverage from the beginning.
-
+Answer:
+TDD, which stands for test-driven development, is a software development methodology. As the name suggests, TDD consists of using tests to drive the development of the application, leading to simple, iterative implementation with high test coverage from the beginning.
+------------------------------------------------------------------------------------------------------------------------------
 70.What is the difference between TreeSet and HashSet? 
-Answer: HashSet is a generic class of the Java collection framework. It extends AbstractSet and implements the Set interface. It creates a collection that uses a hash table for storage. The hash table stores the information by using the hashing mechanism. 
+Answer: 
+HashSet is a generic class of the Java collection framework. It extends AbstractSet and implements the Set interface. It creates a collection that uses a hash table for storage. The hash table stores the information by using the hashing mechanism. 
 TreeSet is a generic class of the Java collection framework. It implements the Set interface. It uses TreeMap internally to store the TreeSet elements. By default, it sorts the elements in natural order (ascending order). The order of sorting depends on the Comparator that we have parsed. If no Comparator is parsed, it sorts the elements in the natural order. 
-
+------------------------------------------------------------------------------------------------------------------------------
 71. How can you execute javascript code from java 8 code base?
-Answer: Using ScriptEngineManager, JavaScript code can be called and interpreted in Java.
-
+Answer: 
+Using ScriptEngineManager, JavaScript code can be called and interpreted in Java.
+------------------------------------------------------------------------------------------------------------------------------
 72. Which class can be used Instead of System.getCurrentTimeMillis() to get a date and time in Java 8 -
-Answer: Clock
-
+Answer: 
+Clock
+------------------------------------------------------------------------------------------------------------------------------
 73. What kind of programming does Lambda expressions are based on?
-Answer: Functional programming
-
+Answer: 
+Functional programming
+------------------------------------------------------------------------------------------------------------------------------
 74. Does lambda expression execute on its own?
-Answer: No,  It is used to implement a method defined by a functional interface.
-
+Answer: 
+No,  It is used to implement a method defined by a functional interface.
+------------------------------------------------------------------------------------------------------------------------------
 75. When does a functional interface extend another interface?
-Answer: A functional interface can extend the interface only when there are no abstract methods in it.
+Answer: 
+A functional interface can extend the interface only when there are no abstract methods in it.
 If it has an abstract method then it will be an invalid functional interface.
-
+------------------------------------------------------------------------------------------------------------------------------
 76. What are the various forms of writing lambda expressions?
 Answer: 
 We can declare a lambda expression by-
 () -> expression
 (parameters) -> expression
 (parameters) -> { multiple statements}
-
+------------------------------------------------------------------------------------------------------------------------------
 77. What is Daemon Thread and how it differs from normal thread?
-Answer:  It is a low priority thread which always runs in the background. User is the high priority thread which runs in the foreground.
-
+Answer:  
+It is a low priority thread which always runs in the background. User is the high priority thread which runs in the foreground.
+------------------------------------------------------------------------------------------------------------------------------
 78. Which is the default thread?
-Answer: Main, If there is no thread is created, the main thread will execute the process by default.
-
+Answer: 
+Main, If there is no thread is created, the main thread will execute the process by default.
+------------------------------------------------------------------------------------------------------------------------------
 79. What is multithreading?
-Answer: It is the process of executing one or more threads simultaneously. In multithreading, threads will share a common memory and the execution will also be faster.
-
+Answer: 
+It is the process of executing one or more threads simultaneously. In multithreading, threads will share a common memory and the execution will also be faster.
+------------------------------------------------------------------------------------------------------------------------------
 80. How can we check whether the thread terminated or not?
-Answer: We can use isAlive() method that returns a boolean value whether the thread is on process or not.(will give true because the thread is not terminated)
-
+Answer: 
+We can use isAlive() method that returns a boolean value whether the thread is on process or not.(will give true because the thread is not terminated)
+------------------------------------------------------------------------------------------------------------------------------
 81. How will you check a thread is in which state?
-Answer: We can get the state of a thread by calling getState() method using the object of the thread.
-
+Answer: 
+We can get the state of a thread by calling getState() method using the object of the thread.
+------------------------------------------------------------------------------------------------------------------------------
 82. What is Deadlock condition?
-Answer: When two or more threads are in block state waiting for one another to release the resource that they are having.
+Answer:
+When two or more threads are in block state waiting for one another to release the resource that they are having.
 For example, let us assume, we have two processes A1 and A2. Now, process A1 is holding the resource R1 and is waiting for the resource R2. At the same time, the process A2 is having the resource R2 and is waiting for the resource R1. So, no one is releasing any resource, both are waiting for each other to release the resource. This is called deadlock condition.
-
+------------------------------------------------------------------------------------------------------------------------------
 83. Differentiate between deadlock and starvation?
-Answer: Both occurs when the processes requesting a resource have been waiting for a long time.
+Answer: 
+Both occurs when the processes requesting a resource have been waiting for a long time.
 Deadlock occurs when each process holds a resource and waits for another resource which is in hold by other process.
 In contrast, in starvation, the processes with high priorities continuously consume resources, holding low priority processes from using the resources.
-
-84. 
---------
+------------------------------------------------------------------------------------------------------------------------------
 Coding Question
+----------------
 
 1. Create an ArrayList, take elements from the user and sort the ArrayList in ascending and descending order.
 Answer:
@@ -432,6 +565,7 @@ Collections.sort(arr,Collections.reverseOrder());
 System.out.println("descending order list: "+arr);
 }
 }
+------------------------------------------------------------------------------------------------------------------------------
 
 2. Create an Array in java and take elements from the user.
 Answer:
@@ -453,6 +587,7 @@ System.out.print(a[i]+" ");
 }
 }
 }
+------------------------------------------------------------------------------------------------------------------------------
 
 3. Array program based on given task:
 i) even
@@ -486,6 +621,7 @@ System.out.print("");
 }
 }
 }
+------------------------------------------------------------------------------------------------------------------------------
 
 4. Array program based on given task
 i) max
@@ -518,6 +654,7 @@ min= arr[i];
 System.out.println("minimum element: " +min);
 }
 }
+------------------------------------------------------------------------------------------------------------------------------
 
 5. ****ArrayList program*****
 i) even number
@@ -585,6 +722,7 @@ max = al.get(i);
 System.out.println(" Odd maximum number: " +max);
 }
 }
+------------------------------------------------------------------------------------------------------------------------------
 
 6. Array program
 tasks:
@@ -630,6 +768,7 @@ System.out.print(summ+" ");
 }
 }
 }
+------------------------------------------------------------------------------------------------------------------------------
 
 7. Create a 2d array and take the elements in it from the user.
 Answer:
@@ -656,6 +795,7 @@ System.out.println();
 }
 }
 }
+------------------------------------------------------------------------------------------------------------------------------
 
 8. Array program task:
 i) array elm - index
@@ -704,6 +844,7 @@ for(int i=0; i<n; i++){
 System.out.print(arr[i]*arr[i]+" ");
 }
 }
+------------------------------------------------------------------------------------------------------------------------------
 
 9. LeftShift and RightShift program in Arrays.
 For Example: our array is [1, 2, 3, 4, 5]
@@ -743,6 +884,7 @@ System.out.print(arr[i]+" ");
 }
 }
 }
+------------------------------------------------------------------------------------------------------------------------------
 
 10. Returning Duplicate elements in an array program
 Answer:
@@ -771,6 +913,7 @@ dupl.add("\nDuplicate Elements: "arr.get(i));
 System.out.println(dupl);
 }
 }
+------------------------------------------------------------------------------------------------------------------------------
 
 11. Can you find out the error in the below code?
 private class A {
@@ -778,7 +921,9 @@ private class A {
         //Inner class
     }
 }
-Answer: Inner classes can be private, but outer classes can not be private.
+Answer: 
+Inner classes can be private, but outer classes can not be private.
+------------------------------------------------------------------------------------------------------------------------------
 
 12. Predict the output
 public class program1{
@@ -788,7 +933,9 @@ public class program1{
     program1 pg = new program1();
   }
 }
-Answer: Constructor
+Answer:
+Constructor
+------------------------------------------------------------------------------------------------------------------------------
 
 13. Predict the output
 public class Constructor2{
@@ -798,7 +945,9 @@ public class Constructor2{
     Constructor2 con = new Constructor2();
   }
 }
-Answer: Compiler error, If you write a constructor with arguments, the default constructor is not added by the compiler,should add it explicitly.
+Answer: 
+Compiler error, If you write a constructor with arguments, the default constructor is not added by the compiler,should add it explicitly.
+------------------------------------------------------------------------------------------------------------------------------
 
 14. Predict the output
 public class Operators {
@@ -810,7 +959,9 @@ public class Operators {
 		System.out.print(--i);
 	}
 }
-Answer: 5775
+Answer: 
+5775
+------------------------------------------------------------------------------------------------------------------------------
 
 15. How would you fix this code so that it compiles?
 public class Nosey {
@@ -819,11 +970,15 @@ public class Nosey {
 		System.out.println("Your age is: " + age);
 	}
 }
-Answer:Make age static
+Answer:
+Make age static
+------------------------------------------------------------------------------------------------------------------------------
 
 16. Given the following definitions, which of these expression will NOT evaluate to true?
 boolean b1 = true, b2 = false; int i1 = 1, i2 = 2;
-Answer: i2 && b1
+Answer: 
+i2 && b1
+------------------------------------------------------------------------------------------------------------------------------
 
 17. Predict the output
 class Bus{
@@ -846,7 +1001,9 @@ public class Vechicle{
     eb.showInfo();
   }
 }
-Answer: Subclass Seats=20Subclass Seats=20
+Answer: 
+Subclass Seats=20Subclass Seats=20
+------------------------------------------------------------------------------------------------------------------------------
 
 18. Spot the Error from the following code snippet
   public class A { 
@@ -861,9 +1018,10 @@ Answer: Subclass Seats=20Subclass Seats=20
    B b = new B(); 
    b.execute(); 
   }  } 
-  Answer: cannot override final method from parent class to child class
+  Answer: 
+  cannot override final method from parent class to child class ------------------------------------------------------------------------------------------------------------------------------ 
   
-  19. From the following code, to get the output "Compilation successful what   
+19. From the following code, to get the output "Compilation successful what   
   will be the code in Line1?
   abstract class Bike{
    abstract void run();
@@ -875,9 +1033,11 @@ Answer: Subclass Seats=20Subclass Seats=20
   obj.run();
   }
   }
-  Answer: Bike obj = new Unicorn();
-  
-  20. To get an output of 20 what should be given in Line 1 and Line 2?
+  Answer: 
+  Bike obj = new Unicorn();
+------------------------------------------------------------------------------------------------------------------------------ 
+
+20. To get an output of 20 what should be given in Line 1 and Line 2?
 public class Calculator {
     int num = 100;
     public void calc(int num)  { this.num = num * 10;  }
@@ -888,7 +1048,9 @@ public class Calculator {
         obj.printNum();
     }
 }
-Answer: obj.calc(2);
+Answer: 
+obj.calc(2);
+------------------------------------------------------------------------------------------------------------------------------
 
 21. What should be given in line 1 to get the output "welcome all30"?
 interface project1{
@@ -905,10 +1067,11 @@ public class project2 implements project1 {
       System.out.println(project1.num);
    }
 }
-Answer: project2 obj=new project1();
+Answer: 
+project2 obj=new project1();
+------------------------------------------------------------------------------------------------------------------------------
 
 22. What is the output of the below code?
-<pre>
 interface Car {
   int basePrice=1000;
 }
@@ -921,15 +1084,19 @@ public class InterfaceTest2 implements Car {
     new InterfaceTest2().changePrice();
   }
 }
-Answer: Compilation fails, Java Interface treats its variables like constants. So, the classes implementing Interfaces, can not reassign values to the variables
+Answer: 
+Compilation fails, Java Interface treats its variables like constants. So, the classes implementing Interfaces, can not reassign values to the variables
+------------------------------------------------------------------------------------------------------------------------------
 
 23. Which of the following pairs will make this code compile? 
    public void ohNo() _____ Exception {
    _____________ Exception();
   }
- Answer: throws, throw new
- 
- 24. predict the output
+ Answer: 
+ throws, throw new
+------------------------------------------------------------------------------------------------------------------------------
+
+24. predict the output
 class exception_handling {
         public static void main(String args[]) {
             try {
@@ -940,8 +1107,10 @@ class exception_handling {
             }
         }
     }
-Answer: World, System.out.print() function first converts the whole parameters into a string and then prints, before “Hello” goes to output stream 1 / 0 error is encountered which is cached by catch block printing just “World”.
-   
+Answer: 
+World, System.out.print() function first converts the whole parameters into a string and then prints, before “Hello” goes to output stream 1 / 0 error is encountered which is cached by catch block printing just “World”.
+------------------------------------------------------------------------------------------------------------------------------ 
+
 25. What is the output of this program?
 class Main {
 public static void main(String args[]) {
@@ -959,7 +1128,9 @@ public static void main(String args[]) {
 		}
 	}
 } 
-Answer: BC , finally keyword is used to execute the code before try and catch block end.
+Answer: 
+BC , finally keyword is used to execute the code before try and catch block end.
+------------------------------------------------------------------------------------------------------------------------------
 
 26. What is the output of this program?
 class Main {
@@ -976,7 +1147,9 @@ public static void main(String args[]) {
 		System.out.print(sum);
 	}
 }
-Answer: Compilation Error, Value of variable sum is printed outside of try block, sum is declared only in try block, outside try block it is undefined.
+Answer: 
+Compilation Error, Value of variable sum is printed outside of try block, sum is declared only in try block, outside try block it is undefined.
+------------------------------------------------------------------------------------------------------------------------------
 
 27. Which of the following are checked exceptions?
 class One extends RuntimeException{}
@@ -985,7 +1158,9 @@ class Three extends Error{}
 class Four extends One{}
 class Five extends Two{}
 class Six extends Three{} </pre>
-Answer: Five
+Answer: 
+Five
+------------------------------------------------------------------------------------------------------------------------------
 
 28. What is the output of the following?
 public class SnowStorm {
@@ -999,9 +1174,11 @@ public static void main(String[] args) {
  System.out.println(e.getMessage()
  + " " + e.getSuppressed().length);
  } } }
- Answer:  rain 2
- 
- 29. Fill in the blank so that the Helper class compiles
+ Answer:  
+ rain 2
+------------------------------------------------------------------------------------------------------------------------------ 
+
+29. Fill in the blank so that the Helper class compiles
 successfully? 
 	public class Helper {
 	public static <U extends Exception> void printException(U u) {
@@ -1010,13 +1187,17 @@ successfully?
 	public static void main(String[] args) {
 	__________________________________
 	} }
- Answer: Helper.printException(new FileNotFoundException("A"));
+ Answer: 
+ Helper.printException(new FileNotFoundException("A"));
+------------------------------------------------------------------------------------------------------------------------------ 
  
  30. Following code will give a compilation error, predict the reason
  class Bike { abstract void run();}
- Answer: A normal class(non-abstract class) cannot have abstract methods
- 
- 31. What will happen to the code when compiled? 
+ Answer: 
+ A normal class(non-abstract class) cannot have abstract methods
+------------------------------------------------------------------------------------------------------------------------------
+
+31. What will happen to the code when compiled? 
 interface DefaultMethodInterface {
 	default void implementedMethod() {
 		System.out.println("inside interface");
@@ -1027,9 +1208,11 @@ public class Quiz implements DefaultMethodInterface {
 		System.out.println("inside class");
 	}
 }
- Answer: Compilation will not be successful as it is not a valid Functional Interface
- 
- 32. Predict the output.
+Answer: 
+Compilation will not be successful as it is not a valid Functional Interface
+------------------------------------------------------------------------------------------------------------------------------
+
+32. Predict the output.
 import java.util.Arrays;
 public class StreamsStarterQuiz {
     public static void main(String pars[]) {
@@ -1039,7 +1222,9 @@ public class StreamsStarterQuiz {
             .forEach(System.out::print);
     }
 }
-Answer: 33 55 66
+Answer: 
+33 55 66
+------------------------------------------------------------------------------------------------------------------------------
 
 33. Write a code to print "HelloWorld" using lambda expression and functional interface?
 Answer: 
@@ -1053,12 +1238,15 @@ public class test {
 		g.greet(); // Output: HelloWorld
 	}
 } 
+------------------------------------------------------------------------------------------------------------------------------
 
 34. Is Circle interface a functional interface code snippet?
 public interface Circle {
     public abstract void draw();
 }
-Answer: Yes, This is a functional interface, since there is only one abstract method.
+Answer: 
+Yes, This is a functional interface, since there is only one abstract method.
+------------------------------------------------------------------------------------------------------------------------------
 
 35. Predict the output of the following code snippet.
 @FunctionalInterface
@@ -1068,6 +1256,7 @@ interface Arithmetic {
 }
 Answer: 
 It will throw a compile time error, The Arithmetic interface is not a functional interface, since it has 2 abstract methods.
+------------------------------------------------------------------------------------------------------------------------------
 
 36. Convert the following Anonymous class code into Lambda expresssion.
 public class AnonymousClassExample  {
@@ -1090,6 +1279,7 @@ public class AnonymousClassExample {
     }
 }
 Functional interface can be instantiated using lambda expression instead of AnonymousClass.
+------------------------------------------------------------------------------------------------------------------------------
 
 37. What is the code to sort strings using the Java 8 lambda expression?
 Answer:
@@ -1097,6 +1287,7 @@ To sorts strings using the lambda expression:
 private void sortUsingJava8(List<String> names) {
 Collections.sort(names, (s1, s2) -> s1.compareTo(s2));
 }
+------------------------------------------------------------------------------------------------------------------------------
 
 38. Write a program to throw an IllegalArgumentException exception in thread?
 Answer:
@@ -1109,6 +1300,7 @@ public static void main(String argvs[])
         System.out.println("Priority of the main thread is : " + Thread.currentThread().getPriority());  
     }  
 } 
+------------------------------------------------------------------------------------------------------------------------------
 
 39. How will you make the thread as Daemon thread?
 Answer: 
@@ -1125,7 +1317,16 @@ public class Main {
 		System.out.println(th0.isDaemon());	//true
 	}
 }
+------------------------------------------------------------------------------------------------------------------------------
 
-40. 
+40. Suppose that you have a table named animal with two rows. What is the result of the
+following code?
+6: Connection conn = new Connection(url, userName, password);
+7: Statement stmt = conn.createStatement();
+8: ResultSet rs = stmt.executeQuery("select count(*) from animal");
+9: if (rs.next()) System.out.println(rs.getInt(1));
+Answer: 
+There is a compiler error on line 6
+------------------------------------------------------------------------------------------------------------------------------
 
 	
