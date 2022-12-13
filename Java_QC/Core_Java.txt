@@ -724,3 +724,143 @@ dupl.add("\nDuplicate Elements: "arr.get(i));
 System.out.println(dupl);
 }
 }
+11. Can you find out the error in the below code?
+private class A {
+    private class B {
+        //Inner class
+    }
+}
+Answer: Inner classes can be private, but outer classes can not be private.
+12. Predict the output
+public class program1{
+  void program1() {   System.out.println("Constructor with void type");	}
+  program1()  { System.out.println("Constructor"); }
+  public static void main(String[] args) {
+    program1 pg = new program1();
+  }
+}
+Answer: Constructor
+13. Predict the output
+public class Constructor2{
+  int count=10;
+  Constructor2(int count) { System.out.println("Count=" + count); }
+  public static void main(String[] args) {
+    Constructor2 con = new Constructor2();
+  }
+}
+Answer: Compiler error, If you write a constructor with arguments, the default constructor is not added by the compiler,should add it explicitly.
+14. Predict the output
+public class Operators {
+	public static void main(String[] args) {
+		int i = 5;
+		System.out.print(i++);
+		System.out.print(++i);
+		System.out.print(i--);
+		System.out.print(--i);
+	}
+}
+Answer: 5775
+15. How would you fix this code so that it compiles?
+public class Nosey {
+	int age;
+	public static void main(String[] args) {
+		System.out.println("Your age is: " + age);
+	}
+}
+Answer:Make age static
+16. Given the following definitions, which of these expression will NOT evaluate to true?
+boolean b1 = true, b2 = false; int i1 = 1, i2 = 2;
+Answer: i2 && b1
+17. Predict the output
+class Bus{
+  void seatingCapacity(){
+    System.out.print("Superclass Seats=32");
+  }
+}
+class ElectricBus extends Bus{
+  void seatingCapacity(){
+    System.out.print("Subclass Seats=20");
+  }
+  void showInfo(){
+    seatingCapacity();
+    this.seatingCapacity();
+  }
+}
+public class Vechicle{
+  public static void main(String[] args){
+    ElectricBus eb = new ElectricBus();
+    eb.showInfo();
+  }
+}
+Answer: Subclass Seats=20Subclass Seats=20
+18. Spot the Error from the following code snippet
+  public class A { 
+  public final void execute(){ 
+   System.out.println("hello"); 
+  } } 
+  public class B extends A{ 
+   public void execute(){ 
+   System.out.println("welcome"); 
+  }
+  public static void main(String[] args) { 
+   B b = new B(); 
+   b.execute(); 
+  }  } 
+  Answer: cannot override final method from parent class to child class
+  19. From the following code, to get the output "Compilation successful what   
+  will be the code in Line1?
+  abstract class Bike{
+   abstract void run();
+  }
+  class Unicorn extends Bike{
+  void run(){System.out.println("Compilation successful");}
+  public static void main(String args[]){
+  //Line 1
+  obj.run();
+  }
+  }
+  Answer: Bike obj = new Unicorn();
+  20. To get an output of 20 what should be given in Line 1 and Line 2?
+public class Calculator {
+    int num = 100;
+    public void calc(int num)  { this.num = num * 10;  }
+    public void printNum()     { System.out.println(num); }
+    public static void main(String[] args){
+        Calculator obj = new Calculator();
+        //Line 1
+        obj.printNum();
+    }
+}
+Answer: obj.calc(2);
+21. What should be given in line 1 to get the output "welcome all30"?
+interface project1{
+   public int num = 30;
+   public void demo();
+}
+public class project2 implements project1 {
+   public void demo() {
+      System.out.println("welcome all");
+   }
+   public static void main(String args[]) {
+      //Line 1
+      obj.demo();
+      System.out.println(project1.num);
+   }
+}
+Answer: project2 obj=new project1();
+22. What is the output of the below code?
+<pre>
+interface Car {
+  int basePrice=1000;
+}
+public class InterfaceTest2 implements Car {
+  void changePrice(){
+    basePrice = 2000;
+    System.out.print(basePrice);
+  }
+  public static void main(String[] args) {
+    new InterfaceTest2().changePrice();
+  }
+}
+Answer: Compilation fails, Java Interface treats its variables like constants. So, the classes implementing Interfaces, can not reassign values to the variables
+23. 
