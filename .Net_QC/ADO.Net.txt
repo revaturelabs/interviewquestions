@@ -17,7 +17,7 @@ Disadvantages of connected environment:
 
       · A constant network connection is required that may lead to network traffic logging.
       
-      
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------      
 2. What is disconnected environment in ADO.Net?
 
 Answer::
@@ -36,6 +36,7 @@ Disadvantages of disconnected environment:
 
 · Data concurrency issues can occur when multiple users are updating the data to the data source.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 3. What are the commonly used namespaces in ADO.Net?
 
@@ -47,6 +48,8 @@ Answer::
 4. System.Data.OracleClient
 5. System.Xml
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 4. What are managed providers?
 
 Answer::
@@ -56,6 +59,8 @@ In ADO.NET a managed provider is similar to ODBC driver or OLEDB provider that p
 • SQL Server managed provider: The SQL Server managed provider is used with SQL server and is a very  efficient way of communicating with SQL Server.
 • OLEDB managed provider: OLEDB managed provider is used to communicate with any OLEDB compliant database like MS Access, Oracle, DB2 etc.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 5. What is Connection pooling?
 
 Answer::
@@ -63,6 +68,7 @@ Answer::
 Grouping of database connections in cache to make them reusable is called connection pooling. You know that opening new connections every time to a database is a time-consuming process. And so, connection pooling enables us to reuse already existing and active database connections, whenever required. In this way it increases
 the performance of our application.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 6. How can you enable or disable connection poolong?
 
@@ -76,6 +82,7 @@ Using Pooling=true in connection string you can enable connection pooling. To di
 providerName="System.Data.SqlClient"/>
 </connectionStrings>
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 7. Write a sample code for ADO.Net connection to SQL Server
 
@@ -98,6 +105,7 @@ finally
  conn.Close(); // Close the connection
 }
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 8. What are Command Object methods?
 
@@ -114,6 +122,7 @@ DataReader. The return type of this method is a DataReader.
 3. ExecuteScalar: It executes a SQL statement which returns a single value, like avg, min, max etc. The return 
 type of this method is object.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 9. What is the difference between SqlCommand and SqlCommandBuilder?
 
@@ -121,6 +130,7 @@ Answer::
 
 SqlCommand is used to execute all kind of SQL queries (DML & DDL). However, SqlCommandBuilder object is used to build & execute SQL (DML) queries like select, insert, update & delete.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 10. What is SqlCommand Object?
 
@@ -139,12 +149,12 @@ catch (Exception ex)
 {
  // Log Exceptions
 }
- 
-Page18
 finally
 {
  conn.Close(); // Close the connection
 }
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 11. What is CommandType in SqlCommand?
 
@@ -181,6 +191,8 @@ finally
 string strSelect = "select * from dbo.Tbl_Employe";
 SqlCommand cmd = new SqlCommand(strSelect, conn);
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 12. What are ReadCommited and ReadUncommited Transactions?
 
 Answer::
@@ -191,6 +203,7 @@ For example, if two persons are accessing same table, if one person executes an 
 
 ReadUncommitted: This is a state of transaction where changes in database made by a user can be reflected to others before the first user commits the transaction. Transactions running at the Read Uncommitted level do not issue shared locks to prevent other transactions from modifying data read by the current transaction. This does not prevent dirty reads
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 13. What is difference betweeen Optimistic and Pessimistic locking?
 
@@ -200,6 +213,7 @@ Optimistic: In Pessimistic locking when a user wants to update the data it locks
 
 Pessimistic: In Optimistic locking multiple users can open the same record for modification, thus increase maximum concurrency. The record is only locked when it is modified by someone and starts committing it to the database.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 14. What is DataReader in ADO.Net?
 
@@ -212,6 +226,7 @@ A DataReader object is a forward-only and read-only cursor. It needs a live conn
 3. A DataReader provides fast access when a forward-only sequential read is needed.
 4. Be sure to close the connection when done using data reader. Otherwise, the connection stays alive until it is explicitly closed.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 15. What is DataSet in ADO.Net?
 
@@ -219,27 +234,25 @@ Answer::
 
 A DataSet is a set of tables or a collection of disconnected record sets which allows you to store data for using in your application. In fact, a DataSet is disconnected cache store. A DataSetstructure is similar to a relational database containing tables, rows, and columns. Also, it can have constraints and relationships between the tables as we have in database.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 16. Can you differentiate DataReader and DataSet?
 
 Answer::
 
-1)Data set is work in diconnected architure.
-Datareader is work in connected architure.
+1)Data set is work in diconnected architure. Datareader is work in connected architure.
 
 2)according to speed datareader is faster than dataset.
 
-3)In case of dataset it contain all
-tables,relations,constriants which is not in datareader so
-that speed of datareader is fast.
+3)In case of dataset it contain all tables,relations,constriants which is not in datareader so that speed of datareader is fast.
 
 4)Data set can persist records where datareader is not.
 
-5)we can save ,update data in dataset and save using
-acceptchanges method where datareader cannot.
+5)we can save ,update data in dataset and save using acceptchanges method where datareader cannot.
 
 6)datareader is forward only.where dataset is not.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 17. What is the diffference between DataSet and RecordSet?
 
@@ -247,6 +260,7 @@ Answer::
 
 Both are basically need to hold the records or table available in database. recordset is live connection data holder whereas dataset is connectionless data holder. Recordset is having only one table at a time and can process one table at a time whereas dataset can contains multiple tables.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 18. How can you determine the changes done in DataSet?
 
@@ -258,11 +272,15 @@ In DataSet changes can be determine by using following methods:
 2. HasChanges()– It returns a boolean value (true or false) to indicates any changes occurred to DataSet including new, deleted, or modified rows. If changes occur, it returns true otherwise returns false.
 3. RejectChanges()– It rolls back all the changes made to the DataSet object since it was created, or since the last time AcceptChanges was called.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 19. What is Data Adapter?
 
 Answer::
 
 A Data adapter is a part of ADO.NET data providers. It is used to communicate between a data source and a dataset. It uses the Connection object to connect to the data source, and it uses Command objects to retrieve data from database and resolve changes to the database.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 20. How to use Data Adapter in ADO.Net?
 
@@ -284,6 +302,8 @@ Adapter.Fill(ds);
 ds.Tables["tbl_Employee"].Rows[0]["Name"] = "Asif";
 Adapter.Update(ds, "tbl_Employee");
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 21. What are the basic methods of DataAdapter?
 
 Answer::
@@ -292,6 +312,7 @@ Fill :: This method fills data records from a DataAdapter to a DataSet object by
 FillSchema :: This method adds a DataTable with its schema to a DataSet. It creates an empty table in the DataSet object with all the corresponding constraints.
 Update ::This executes the Insert, Update, or Delete SQL statement to update the original data source with the changes made to the content of the DataSet.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 22. What AcceptChanges method in DataSet can do ?
 
@@ -299,6 +320,7 @@ Answer::
 
 This method commits all the changes made to the DataSet since it was loaded or since the last time AcceptChanges was called.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 23. What is the use of Data View?
 
@@ -306,6 +328,7 @@ Answer::
 
 DataView is data container that contain user define view of tables. A complete table or a small section of table depending on some criteria can be presented by an object of the DataView class. You can use this class to sort and find data within DataTable.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 24. What are the different methods associated with DataView?
 
@@ -318,6 +341,7 @@ of all the corresponding objects of DataRowView whose columns match with the sor
 3. AddNew()- Adds a new row to the DataView object. 
 4. Delete()- Deletes the specified row from the DataView object according to the specified index
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 25. Do you know to sort DataTable using DataView?
 
@@ -328,6 +352,8 @@ By following way, you can use DataView for filtering and sorting data in a DataT
 DataTable DtEmployee = new DataTable();
 //sorting done by Name column using DataView
 DtEmployee.DefaultView.Sort = "Name";
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 26. How can you add multiple DataTable to a DataSet?
 
@@ -358,6 +384,7 @@ DataSet ds = new DataSet();
 ds.Tables.Add(DtEmployee);
 ds.Tables.Add(DtStudent); 
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 27. Can you differentiate Clone and Copy methods of DataSet?
 
@@ -365,6 +392,8 @@ Answer::
 
 Clone():: The Clone() method copies only the structure of a DataSet. The structure of a DataSet includes all the relations, constraints and the DataTables. 
 The Copy():: This  method copies the structure as well as the data stored in the DataSet.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 28. How can you delete a row from a DataTable?
 
@@ -375,6 +404,7 @@ Using Delete method you can delete a row from DataTable as given below:
 DataTableName.Rows[index].Delete();
 DataTableName.AcceptChanges();
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 29. What is Strongly Typed and Untyped DataSets?
 
@@ -382,6 +412,7 @@ Answer::
 
 A Typed DataSet is a class that derives from a DataSet and contains all the methods, events, and properties of a DataSet. It is stored in an .xsd file and type checking is done at design time using the .xsd definitions. A Typed dataset binds with the database tables at design time and contains all the schema information at design.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 30. What is the use of Transaction and how to create in ADO.Net?
 
@@ -409,3 +440,6 @@ catch (SqlException sqlError)
  transaction.Rollback();
 }
 con.Close();
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
