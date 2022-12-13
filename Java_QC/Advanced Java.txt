@@ -1,196 +1,430 @@
+Spring
+------
+
 1. why we need spring ?
-Answer: since it is a lightweight application framework i.e. container do not have services but it allow to inject services and use.
+Answer: 
+Since it is a lightweight application framework i.e. container do not have services but it allow to inject services and use.
+-------------------------------------------------------------------------------------------------------------------------------
+
 2. What is the difference between spring vs spring boot?
-Answer: Spring all configuration we are doing inside xml file however in spring boot , it is free from xml configuration
+Answer: 
+Spring all configuration we are doing inside xml file however in spring boot , it is free from xml configuration
+-------------------------------------------------------------------------------------------------------------------------------
+
 3. What is the use of @entity?
-Answer:It is used in entity class to connect Java and related to Database
+Answer:
+It is used in entity class to connect Java and related to Database
+-------------------------------------------------------------------------------------------------------------------------------
+
 4. Why we use  @controller?
-Answer: It is used to create controller layer and it accept all the user request using @RequestMapping.
+Answer: 
+It is used to create controller layer and it accept all the user request using @RequestMapping.
+-------------------------------------------------------------------------------------------------------------------------------
+
 5. What is Spring boot actuator 
-Answer:  which is used to test the health of application.
+Answer:  
+which is used to test the health of application.
+-------------------------------------------------------------------------------------------------------------------------------
+
 6. What is difference between @controller and @rest conmtroller?
-Answer:controller is used to take user request and give response in web application i.e. within application however @RestController is used to take user request and give response in web services i.e. Rest Services.
+Answer:
+controller is used to take user request and give response in web application i.e. within application however @RestController is used to take user request and give response in web services i.e. Rest Services.
+-------------------------------------------------------------------------------------------------------------------------------
+
 7. What is bean lifecycle?
-Answer: init (@PostConstruct), service(@RequestMapping) , destroy(@PreDestroy)
+Answer: 
+init (@PostConstruct), service(@RequestMapping) , destroy(@PreDestroy)
+-------------------------------------------------------------------------------------------------------------------------------
+
 8. What is advice in aop?
-Answer: It is the facility which we want to attach with application like logging, security, transaction.
+Answer: 
+It is the facility which we want to attach with application like logging, security, transaction.
 we can attach advice in application using @Before, @AfterReturning or @Around.
+-------------------------------------------------------------------------------------------------------------------------------
+
 9. What is @service?
-Answer: Which indicate the service layer of projectwhich will take request from controller and pass to dao and take response from dao and give back to controller.
+Answer: 
+Which indicate the service layer of projectwhich will take request from controller and pass to dao and take response from dao and give back to controller.
+-------------------------------------------------------------------------------------------------------------------------------
+
 10. What is @Transactional ?
-Answer: which handles all the transaction in spring data. like begine transaction, commit transaction
+Answer: 
+which handles all the transaction in spring data. like begine transaction, commit transaction
+-------------------------------------------------------------------------------------------------------------------------------
+
 11.What is use of @springbootapplication ?
-Answer: Which is used to configure spring boot application using @EnableAutoConfigure aanotation, it provide location of component using @ComponentScan to spring container.
+Answer: 
+Which is used to configure spring boot application using @EnableAutoConfigure aanotation, it provide location of component using @ComponentScan to spring container.
+-------------------------------------------------------------------------------------------------------------------------------
+
 12. Where to configure spring boot application?
-Answer: inside application.properties
+Answer: 
+inside application.properties
+-------------------------------------------------------------------------------------------------------------------------------
+
 13. What is use of @Autowired?
-Answer: It is use to inject beans ans services.
+Answer: 
+It is use to inject beans ans services.
+-------------------------------------------------------------------------------------------------------------------------------
+
 14. What is use of @Component?
-Answer: This indicates to spring container i.e. BeanFactory class that current class is java bean.
+Answer: 
+This indicates to spring container i.e. BeanFactory class that current class is java bean.
+-------------------------------------------------------------------------------------------------------------------------------
+
 15. How many object BeanFactory class will be created for a single Java bean?
-Answer: only 1 object because by default scope java Bean is singelton if we want to create more than 1 object then we have to change scope of java bean prototype.
+Answer: 
+only 1 object because by default scope java Bean is singelton if we want to create more than 1 object then we have to change scope of java bean prototype.
+-------------------------------------------------------------------------------------------------------------------------------
+
 16. How to create aspects?
-Answer: Can create aspects using @Aspect annotation
+Answer: 
+Can create aspects using @Aspect annotation
+-------------------------------------------------------------------------------------------------------------------------------
+
 17. What is the use of @Request mapping
-Answer: which is used to map HTTP requests to handler methods of MVC and REST controllers.
+Answer: 
+which is used to map HTTP requests to handler methods of MVC and REST controllers.
+-------------------------------------------------------------------------------------------------------------------------------
+
 18. What is @Value used for?  
-Answer: This is used to assign default values to variables and method arguments.
+Answer: 
+This is used to assign default values to variables and method arguments.
+-------------------------------------------------------------------------------------------------------------------------------
+
 19. How to Create a Spring Bean in 3 Different Ways?
-Answer: -Creating Bean Inside an XML Configuration File (beans.xml)
+Answer: 
+        -Creating Bean Inside an XML Configuration File (beans.xml)
         -Using @Component Annotation
         -Using @Bean Annotation
+-------------------------------------------------------------------------------------------------------------------------------
+
 20. Explain about autowiring?
-Answer: Which enables you to inject the object dependency implicitly and internally uses setter or constructor injection.
+Answer:
+Which enables you to inject the object dependency implicitly and internally uses setter or constructor injection.
+
+Angular
 ---------
+
 21. What is SPA?
-Answer: which only loads a page once, and then dynamically updates the page. Any interactions with the page or subsequent pages do not require a round trip to the server, which means the page is not reloaded.
+Answer: 
+which only loads a page once, and then dynamically updates the page. Any interactions with the page or subsequent pages do not require a round trip to the server, which means the page is not reloaded.
+-------------------------------------------------------------------------------------------------------------------------------
+
 22. What is Server-Side Rendering?
-Answer: when a user makes a request to a webpage, the server prepares an HTML page by fetching the data and sends it to the user’s machine over the internet. The browser then construes the content and displays the page. This entire process of fetching data from the database, creating an HTML page and sending it to client happens in milliseconds.
+Answer: 
+when a user makes a request to a webpage, the server prepares an HTML page by fetching the data and sends it to the user’s machine over the internet. The browser then construes the content and displays the page. This entire process of fetching data from the database, creating an HTML page and sending it to client happens in milliseconds.
+-------------------------------------------------------------------------------------------------------------------------------
+
 23. What is Client-Side Rendering?
-Answer: Which is about rendering content in the browser using JavaScript. In this approach, communication with server happens only for getting the run-time data. All logic, data fetching, templating and routing are handled on the client rather than the server
+Answer: 
+Which is about rendering content in the browser using JavaScript. In this approach, communication with server happens only for getting the run-time data. All logic, data fetching, templating and routing are handled on the client rather than the server
+-------------------------------------------------------------------------------------------------------------------------------
+
 24. What is structural directives?
-Answer: *ngFor, *ngIf, *ngSwitch are the structural Directives
+Answer: 
+*ngFor, *ngIf, *ngSwitch are the structural Directives
+-------------------------------------------------------------------------------------------------------------------------------
+
 25. What is attribute directives?
-Answer: Which is used to define or effect element attributes.
+Answer: 
+Which is used to define or effect element attributes.
 Class name(ex: ngclass)
+-------------------------------------------------------------------------------------------------------------------------------
+
 26. What is one way data binding
-Answer: It is to bind the data from the component to the view (DOM) or from view to the component. One-way data binding is unidirectional. You can only bind the data from component to the view or from view to the component.
+Answer: 
+It is to bind the data from the component to the view (DOM) or from view to the component. One-way data binding is unidirectional. You can only bind the data from component to the view or from view to the component.
+-------------------------------------------------------------------------------------------------------------------------------
+
 27. What is two way data binding
-Answer: Which will help users to exchange data from the component to view and from view to the component. It will help users to establish communication bi-directionally.
+Answer: 
+Which will help users to exchange data from the component to view and from view to the component. It will help users to establish communication bi-directionally.
+-------------------------------------------------------------------------------------------------------------------------------
+
 28. What is life cycle of component?
-Answer: init, service and destroy example: like ngOnInit() method
+Answer: 
+init, service and destroy example: like ngOnInit() method
+-------------------------------------------------------------------------------------------------------------------------------
+
 29. What is purpose of http client?
-Answer: To interact with backend we’ll use http client
+Answer: 
+To interact with backend we’ll use http client
+-------------------------------------------------------------------------------------------------------------------------------
+
 30. What is purpose of routing?
-Answer: Routing is the way to move from a component to component
+Answer: 
+Routing is the way to move from a component to component
+-------------------------------------------------------------------------------------------------------------------------------
+
 31. Explain about Promises
-Answer: Provides an easy way to execute asynchronous functions that use callbacks, while emitting and completing (resolving or rejecting) one value at a time
+Answer: 
+Provides an easy way to execute asynchronous functions that use callbacks, while emitting and completing (resolving or rejecting) one value at a time
+-------------------------------------------------------------------------------------------------------------------------------
+
 32. Explain about Pipes
-Answer: It is function that we can directly apply on any expression/value in a template to transform it into some other value.
+Answer: 
+It is function that we can directly apply on any expression/value in a template to transform it into some other value.
+-------------------------------------------------------------------------------------------------------------------------------
+
 33. List the types of Pipes.
-Answer: Custom Pipe and Default Pipe.
+Answer: 
+Custom Pipe and Default Pipe.
 In default pipe , we have 
 uppercase (to convert string in upper case);
 lowercase (to convert string in upper case);
 date (to format the date into different types);
 json (to convert a value or object into JSON formatted string).
+-------------------------------------------------------------------------------------------------------------------------------
+
 34. What are directives used for?
-Answer: Directives are classes that add new behavior or modify the existing behavior to the elements in the template. Basically directives are used to manipulate the DOM, for example adding/removing the element from DOM or changing the appearance of the DOM elements.
+Answer: 
+Directives are classes that add new behavior or modify the existing behavior to the elements in the template. Basically directives are used to manipulate the DOM, for example adding/removing the element from DOM or changing the appearance of the DOM elements.
+-------------------------------------------------------------------------------------------------------------------------------
+
 35.  Explain about Webpack
-Answer: It is a popular module bundler, a tool for bundling application source code in convenient chunks and for loading that code from a server into a browser.
-36. What is the use of package.json file?
+Answer: 
+It is a popular module bundler, a tool for bundling application source code in convenient chunks and for loading that code from a server into a browser.
+-------------------------------------------------------------------------------------------------------------------------------
+
+36.
+What is the use of package.json file?
 Answer: Which is used to give information to npm to identify the project and also to handle the project's dependencies.
+-------------------------------------------------------------------------------------------------------------------------------
+
 37.Explain about Routegauards
-Answer: These are the interfaces when implemented, allow us to control the accessibility of a route based on conditions provided in class implementation.
+Answer: 
+These are the interfaces when implemented, allow us to control the accessibility of a route based on conditions provided in class implementation.
+-------------------------------------------------------------------------------------------------------------------------------
+
 38. Explain about NgModule.
-Answer: Which takes a metadata object that describes how to compile a component's template and how to create an injector at runtime. 
+Answer: 
+Which takes a metadata object that describes how to compile a component's template and how to create an injector at runtime. 
+-------------------------------------------------------------------------------------------------------------------------------
+
 39. Define Angular CLI
-Answer: Which is a command-line interface tool that you use to initialize, develop and maintain Angular applications directly from a command shell.
+Answer: 
+Which is a command-line interface tool that you use to initialize, develop and maintain Angular applications directly from a command shell.
+-------------------------------------------------------------------------------------------------------------------------------
+
 40. Explain about Dependency Injection.
-Answer:It is a technique in which a class receives its dependencies from external sources rather than creating themselves and inject those dependencies into the Component, Directives, Pipes, or Services. 
+Answer:
+It is a technique in which a class receives its dependencies from external sources rather than creating themselves and inject those dependencies into the Component, Directives, Pipes, or Services. 
+
+Hibernate
 ------------
+
 41. What is the use of @NamedQueries?
-Answer: Which is used to define the multiple HQL expressions. 
+Answer: 
+Which is used to define the multiple HQL expressions. 
+-------------------------------------------------------------------------------------------------------------------------------
+
 42. What is the use of @NamedQuery?
-Answer: Which is used to define the single HQL expression. 
+Answer: 
+Which is used to define the single HQL expression. 
+-------------------------------------------------------------------------------------------------------------------------------
+
 43. What is the use of @NamedNativeQueries? 
-Answer: Used to define the multiple native SQL expressions. 
+Answer: 
+Used to define the multiple native SQL expressions. 
+-------------------------------------------------------------------------------------------------------------------------------
+
 44. What is the use of @NamedNativeQuery 
-Answer: Which is used to define the single native SQL expression. 
+Answer: 
+Which is used to define the single native SQL expression. 
+-------------------------------------------------------------------------------------------------------------------------------
+
 45. Differentaite between Lazy and Eager loading
-Answer: Eager loading is when the data can be fetched by promise whereas lazy loading is when it is fetched by stream
+Answer: 
+Eager loading is when the data can be fetched by promise whereas lazy loading is when it is fetched by stream
+
+AWS
 -----
+
 46. Explain about s3.
-Answer: It is a simple service storage used to stores data as objects within buckets
+Answer: 
+It is a simple service storage used to stores data as objects within buckets
+-------------------------------------------------------------------------------------------------------------------------------
+
 47. Explain about RDS 
-Answer: Amazon Relational Database Service provides relational databases in the cloud.
+Answer: 
+Amazon Relational Database Service provides relational databases in the cloud.
+-------------------------------------------------------------------------------------------------------------------------------
+
 48. What do you mean by EC2.
-Answer: Amazon’s Elastic Compute Cloud, it is a virtual machine that represents a physical server for you to deploy your applications
+Answer: 
+Amazon’s Elastic Compute Cloud, it is a virtual machine that represents a physical server for you to deploy your applications
+-------------------------------------------------------------------------------------------------------------------------------
+
 49. Explain about security group.
-Answer: Which is an AWS firewall to filter incoming and outgoing traffic from an EC2 instance.
+Answer: 
+Which is an AWS firewall to filter incoming and outgoing traffic from an EC2 instance.
+-------------------------------------------------------------------------------------------------------------------------------
+
 50. What do you mean by AMI?
-Answer: Amazon Machine Image (AMI) is a master image for the creation of virtual servers known as EC2 
+Answer: 
+Amazon Machine Image (AMI) is a master image for the creation of virtual servers known as EC2 
+-------------------------------------------------------------------------------------------------------------------------------
+
 51. Explain about EBS
-Answer: Amazon EBS(Elastic Block Storage) allows you to create storage volumes and attach them to Amazon EC2 instances
+Answer: 
+Amazon EBS(Elastic Block Storage) allows you to create storage volumes and attach them to Amazon EC2 instances
+-------------------------------------------------------------------------------------------------------------------------------
+
 52. What do you mean by AutoScaling
-Answer: Which automatically adjusts capacity to maintain the performance at the lowest possible cost
------------
-53. Explain about containerization.
-Answer: Which involves encapsulating or packaging up software code and all its dependencies so that it can run uniformly and consistently on any infrastructure
-54. What do you mean by Dockerfile
-Answer: It is a text document that contains all the instructions that are necessary to build a docker image.
-55. Explain about Docker Image
-Answer: A read-only snapshot of a container that is stored in Docker Hub or in private repository. 
-56. What is Docker Container
-Answer: A standard unit where the application service is located or transported. It packages up all code and its dependencies so that the application runs quickly and reliably from one computing environment to another.
-57. Explain about Docker Engine
-Answer: Which is a program that creates, ships, and runs application containers. The engine runs on any physical or virtual machine or server locally, in private or public cloud.
-58. Difference between Containers and Virtual Machines
-Answer: virtual machine is that a VM virtualizes a physical server, whereas a container virtualizes an operating system (OS). 
-59. Explain about Docker daemon
-Answer: which is installed on a host machine and essentially acts as the brain of the Docker; it creates and manages your Docker images on your behalf. 
-60. What are Docker Volumes?
-Answer: Docker volumes are file systems mounted on Docker containers to preserve data generated by the running container.The volumes are stored on the host, independent of the container life cycle
+Answer: 
+Which automatically adjusts capacity to maintain the performance at the lowest possible cost
+-------------------------------------------------------------------------------------------------------------------------------
+
+Docker
 -------
+
+53. Explain about containerization.
+Answer: 
+Which involves encapsulating or packaging up software code and all its dependencies so that it can run uniformly and consistently on any infrastructure
+-------------------------------------------------------------------------------------------------------------------------------
+
+54. What do you mean by Dockerfile
+Answer: 
+It is a text document that contains all the instructions that are necessary to build a docker image.
+-------------------------------------------------------------------------------------------------------------------------------
+
+55. Explain about Docker Image
+Answer: 
+A read-only snapshot of a container that is stored in Docker Hub or in private repository. 
+-------------------------------------------------------------------------------------------------------------------------------
+
+56. What is Docker Container
+Answer: 
+A standard unit where the application service is located or transported. It packages up all code and its dependencies so that the application runs quickly and reliably from one computing environment to another.
+-------------------------------------------------------------------------------------------------------------------------------
+
+57. Explain about Docker Engine
+Answer: 
+Which is a program that creates, ships, and runs application containers. The engine runs on any physical or virtual machine or server locally, in private or public cloud.
+-------------------------------------------------------------------------------------------------------------------------------
+
+58. Difference between Containers and Virtual Machines
+Answer: 
+virtual machine is that a VM virtualizes a physical server, whereas a container virtualizes an operating system (OS). 
+-------------------------------------------------------------------------------------------------------------------------------
+
+59. Explain about Docker daemon
+Answer: 
+which is installed on a host machine and essentially acts as the brain of the Docker; it creates and manages your Docker images on your behalf. 
+-------------------------------------------------------------------------------------------------------------------------------
+
+60. What are Docker Volumes?
+Answer: 
+Docker volumes are file systems mounted on Docker containers to preserve data generated by the running container.The volumes are stored on the host, independent of the container life cycle
+
+Servlets
+--------
+
 61. what are the steps to configure a tomcat server in eclipse?
-Answer: - Download latest version of Tomcat from https://tomcat.apache.org/.
-        - Once you downloaded the installation, unpack the binary distribution into a convenient location.              For example in C:\apache-tomcat-8.0.28 on windows, or /usr/local/apache-tomcat-8.0.289 on                    Linux/Unix and create CATALINA_HOME environment variable pointing to these locations.
+Answer: 
+        - Download latest version of Tomcat from https://tomcat.apache.org/.
+        - Once you downloaded the installation, unpack the binary distribution into a convenient location.              
+          For example in C:\apache-tomcat-8.0.28 on windows, or /usr/local/apache-tomcat-8.0.289 on Linux/Unix and create    
+           CATALINA_HOME environment variable pointing to these locations.
            Tomcat can be started by executing the following commands on windows machine −
            %CATALINA_HOME%\bin\startup.bat (or)
            C:\apache-tomcat-8.0.28\bin\startup.bat
            Apache Tomcat® - Welcome!
+-------------------------------------------------------------------------------------------------------------------------------
+
 62. what are the methods of  Reading Form Data using Servlet?
-Answer:  Servlets handles form data parsing automatically using the following methods depending on the situation 
+Answer:  
+Servlets handles form data parsing automatically using the following methods depending on the situation 
 getParameter() − to get the value of a form parameter.
 getParameterValues() − if the parameter appears more than once and returns multiple values, for example checkbox.
 getParameterNames() − if you want a complete list of all parameters in the current request.
+-------------------------------------------------------------------------------------------------------------------------------
+
 63. Explain CI/CD
-Answer:  Continuous integration refers to an automation process that developers use to build, test, and merge application code changes.
+Answer: 
+Continuous integration refers to an automation process that developers use to build, test, and merge application code changes.
 Continuous delivery is the next step in the process where the tested code from continuous integration is automatically deployed in various environments by a manual trigger.
+-------------------------------------------------------------------------------------------------------------------------------
+
 64. What do you mean by Sonar Cloud 
-Answer: A cloud based code review solution which can be configured to review code within a cloud repositoy, such as Github. 
+Answer: 
+A cloud based code review solution which can be configured to review code within a cloud repositoy, such as Github. 
+-------------------------------------------------------------------------------------------------------------------------------
+
 65. Explain about Sonar Qube 
-Answer: Which is a Code review tool built to work on a centralized server or integrated into a development pipeline. Due to the increased flexibility and configuration options of Sonar Qube, it can be seen as a more powerful tool. 
-65. Explain about Sonar Lint 
-Answer: Which is a free, open-source linting tool. A linting tool/linter is a software tool which, when integrated with an IDE, can provide increased feedback to the developer. 
+Answer: 
+Which is a Code review tool built to work on a centralized server or integrated into a development pipeline. Due to the increased flexibility and configuration options of Sonar Qube, it can be seen as a more powerful tool. 
+-------------------------------------------------------------------------------------------------------------------------------
+
 66.Define Servlets
 Answer:
 Java Servlet is server side technologies to extend the capability of web servers by providing support for dynamic response and data persistence. Which is a small Java program that runs within a Web server.
+-------------------------------------------------------------------------------------------------------------------------------
+
 67. Explain about ServletConfig object
 Answer:
 which is used to pass configuration information to Servlet. Every servlet has it’s own ServletConfig object and servlet container is responsible for instantiating this object. We can use getServletConfig() method to get the ServletConfig object of the servlet.
+-------------------------------------------------------------------------------------------------------------------------------
+
 68. Explain about ServletContext object
 Answer:
 Which is a unique object and available to all the servlets in the web application. When we want some init parameters to be available to multiple or all of the servlets in the web application. 
+-------------------------------------------------------------------------------------------------------------------------------
+
 69. How do we call one servlet from another servlet?
 Answer:
 We can use RequestDispatcher forward() method to forward the processing of a request to another servlet. If we want to include the another servlet output to the response, we can use RequestDispatcher include() method.
+-------------------------------------------------------------------------------------------------------------------------------
+
 70. List the life cycle methods of a servlet?
 Answer:
 Servlet Life Cycle consists of three methods:
 1.  public void init(ServletConfig config) - This method is used by container to initialize the servlet, this method is invoked only once in the lifecycle of servlet.
 2.  public void service(ServletRequest request, ServletResponse response) - This method is called once for every request, container can't invoke service() method until unless init() method is executed.
 3.  public void destroy() - This method is invoked once when servlet is unloaded 
+-------------------------------------------------------------------------------------------------------------------------------
+
 71. What is URL Rewriting?
 Answer:
 If the client has disabled cookies in the browser then session management using cookie wont work. In that case URL Rewriting can be used as a backup. 
 Where a token(parameter) is added at the end of the URL. The token consist of name/value pair seperated by an equal(=) sign.
+-------------------------------------------------------------------------------------------------------------------------------
+
 72. How does Cookies work in Servlets?
 Answer:
 Cookies are text data sent by server to the client and it gets saved at the client local machine. 
+-------------------------------------------------------------------------------------------------------------------------------
+
+Microservices
+-------------
+
 73. List out the advantage sof Microservices over monoluthic Architecture?
-Answer: Scalability, improved fault resistance,  cost efficient etc.
+Answer: 
+Scalability, improved fault resistance,  cost efficient etc.
+-------------------------------------------------------------------------------------------------------------------------------
+
 74. What is circut breaker?
-Answer: Circuit breaker is used to redirect the requests if a service is not working example: Hystrix
+Answer: 
+Circuit breaker is used to redirect the requests if a service is not working example: Hystrix
+-------------------------------------------------------------------------------------------------------------------------------
+
 75. What is load balancer?
-Answer: load balancer is used to direct the requests to services without overloading a service ex: ribbon.
+Answer: 
+load balancer is used to direct the requests to services without overloading a service ex: ribbon.
+-------------------------------------------------------------------------------------------------------------------------------
+
 76. What is registry?
-Answer: Its is middleware use to direct the requests from clients to server ex: eureka registry
+Answer: 
+Its is middleware use to direct the requests from clients to server ex: eureka registry
+-------------------------------------------------------------------------------------------------------------------------------
+
 77. what is monolithic Architecture?
-Answer: A monolithic application is built as a single unified unit while a microservices architecture is a collection of smaller,independently deployable services. 
-
-
-----------------
+Answer: 
+A monolithic application is built as a single unified unit while a microservices architecture is a collection of smaller,independently deployable services. 
+-------------------------------------------------------------------------------------------------------------------------------
+Coding
+------
 
 1.  what is syntax for request mapping with controller
 Answer: 
@@ -202,36 +436,71 @@ public class IndexController{
      return "hello";
    }
 }
+-------------------------------------------------------------------------------------------------------------------------------
+
 2. How to change the scope of Java bean prototype.
 Answer: 
         @Component
         @Scope("prototype")
             public class EmpService{}
+-------------------------------------------------------------------------------------------------------------------------------
+
 3. How to compile type script?
-Answer: To compile a type script we can use the command using tsc. 
+Answer: 
+To compile a type script we can use the command using tsc. 
+-------------------------------------------------------------------------------------------------------------------------------
+
 4. How to generate component, pipe and service etc
-Answer: We can do this using Ng generate _____
+Answer: 
+We can do this using Ng generate _____
+-------------------------------------------------------------------------------------------------------------------------------
+
 5. How to install angular?
-Answer: npm install @angular/cli@13.1.1 -g
+Answer: 
+npm install @angular/cli@13.1.1 -g
+-------------------------------------------------------------------------------------------------------------------------------
+
 6. How to create a new project in angular?
-Answer: ng new project name
+Answer: 
+ng new project name
+-------------------------------------------------------------------------------------------------------------------------------
+
 7. How to run angular project?
-Answer: ng serve –open
+Answer: 
+ng serve –open
+-------------------------------------------------------------------------------------------------------------------------------
+
 8. How to recognize service?
-Answer: using @Injectable we can recognize a service
+Answer: 
+using @Injectable we can recognize a service
+-------------------------------------------------------------------------------------------------------------------------------
+
 9. How to inject service into your component
-Answer: Inside constructor of component we will pass prive object of service class
+Answer: 
+Inside constructor of component we will pass prive object of service class
+-------------------------------------------------------------------------------------------------------------------------------
+
 10. How to create a custom pipe in angular?
-Answer: ng generate pipe <pipe-name>
+Answer: 
+ng generate pipe <pipe-name>
+-------------------------------------------------------------------------------------------------------------------------------
+
 11. How hibernate maps entity on table?
-Answer: <mapping class=”packagename.classname”/> in hibernate.cfg
+Answer: 
+<mapping class=”packagename.classname”/> in hibernate.cfg
+-------------------------------------------------------------------------------------------------------------------------------
+
 12. How to get the actual path of servlet in server?
 Answer:
 To get the actual path of the servlet in file system. getServletContext().getRealPath(request.getServletPath())
+-------------------------------------------------------------------------------------------------------------------------------
+
 13. How to get the IP address of client in servlet?
 Answer:
 We can use request.getRemoteAddr() to get the client IP address in servlet.
+-------------------------------------------------------------------------------------------------------------------------------
+
 14. How to get the server information in a servlet?
 Answer:
 To get the servlet information in a servlet through servlet context object. getServletContext().getServerInfo()
-
+-------------------------------------------------------------------------------------------------------------------------------
