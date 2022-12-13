@@ -1,36 +1,240 @@
+HTML
+----
+
 1.What is the key difference between HTML Elements and Tags? 
-Answer: HTML Elements are the sections of the web page, such as a paragraph, an image, or a link is an element whereas HTML Tags are the  elements communicate with the browser how to represent the text and become HTML tags when enclosed within angular brackets <>. 
+Answer: 
+HTML Elements are the sections of the web page, such as a paragraph, an image, or a link is an element whereas HTML Tags are the  elements communicate with the browser how to represent the text and become HTML tags when enclosed within angular brackets <>. 
+--------------------------------------------------------------------------------------------------------------------------------
+
 2. What is the use of head tag in HTML?
-Answer: Which is used to show the title 
+Answer: 
+Which is used to show the title 
+--------------------------------------------------------------------------------------------------------------------------------
+
 3. What do you mean by anchor tag
-Answer: It is used to link two sections, web pages, or website templates in HTML. 
+Answer: 
+It is used to link two sections, web pages, or website templates in HTML. 
 <a href=”#” target=”link”></a> 
-	html list - order ol and unorder list ul    example <ul><ol><li>
-	attributes - extra info about tag
-	doctype-refer to DTD which give instruction to display the content in the borwse
-	-bold vs strong 
-	-heading tags- h1 to h6. h1 is the big
-	create a html form with text box, label box an submit button
-	div tag it is a container element it block the space 
-	is div tag inline or block - block element
-	inline element - it do not take element in full line and not create any space before and after example <span>,<a>
-	block element - it block the full line and create space before and after the element example <div>
-	form post - good
-	What is html tag ?Types of tag?What is image tag and anchor tag used for?
+--------------------------------------------------------------------------------------------------------------------------------
+
+4. Which image formats can be displayed by all web browsers?
+Answer: 
+PNG, GIF, JPG
+
+5. What is the primary purpose of the <canvas> tag?
+Answer: 
+     It allows drawing on a bitmap via JavaScript.
+
+6. Which attribute is used to get a link to open in a new window or tab
+Answer: 
+      _blank
+     
+7. What is the <hr>tag typically used for?
+Answer: 
+      It designates a topic shift within a section at the paragraph level.
+      
+8. Which tag will you use to convey importance in your text?
+Answer: 
+      Strong < strong >
+      
+9. In the code below, what is the purpose of the id attribute?
+<p id="warning">Be careful when installing this product.</p>
+Answer: 
+It establishes that id is a unique identifier in the document, used for styling CSS, scripting, and linking within a webpage.
+ 
+10. What is the correct markup for alt attribute of an image?
+Answer: 
+      <img src="cubism.jpg" alt='Version of "Whistler\'s Mother" in cubist style'>
+      
+11. What is the difference between the <div> and <span> tags?
+Answer: 
+      <div> is used where a generic block-level tag is needed, while <span> is used where a generic inline tag is needed.
+      
+12. What is the use of <ol> and <ul> elements?
+Answer: 
+     We can use <ul> when you want a bulleted list and <ol> when you want a numbered list.
+     
+13. When is the <link> tag used?
+Answer: 
+     when linking style sheets, favicons(shortcut icon), and preloading assets
+
+14. __________ is a standardized way to indicate the format of the resource content which is sent from the server to the client.
+Answer:
+    Multipurpose Internet Mail Extension
+
+15. The client and server communicate over internet using an application-level protocol known as: ___________
+Answer:
+      HyperText Transfer Protocol
+
+16. Sam wants to create an HTML page. And he wants to display "Bonstay App" to appear on the browser tab. In which section of the HTML code he should include the text "Bonstay App"
+Answer: 
+     head section
+     
+17. While creating HTML page we use various HTML elements. And these HTML elements together form the entire web page. which encloses all other elements in the web page
+Answer: 
+      <html>
+
+18. Joy has created a home page for his application and he has a lot of content in it. Once the user reaches the bottom of the web page, he has to scroll all the way back to the top to see the content in the beginning. 
+Is there any provision in HTML to reduce the user's effort in the above scenario?
+Answer: 
+      Bookmark Hyperlink
+      
+19. Riya finds <!DOCTYPE html> at the beginning of all the web page codes.Can you help her to understand the relevance of this?
+Answer:
+     It declares the version of HTML
+     
+20. Which element is used to specify multiple audio/video clips?
+Answer:
+      <source>
+
+21. Which element represents marked or highlighted text for reference purposes?
+Answer:
+      mark
+
+22. Which is the replacement for cookies in HTML5.
+Answer:
+      Local Storage
+      
+23. John has been given an assignment to create a registration form for a Tour and Travel website. He wants to skip the validation for certain input fields. Which attribute of an input element can he use to skip the validation of that field?
+Answer:
+	formnovalidate
+
+24. What is the default method for form submission?
+Answer:
+       GET
+       
+25. In an HTML form, there is an email field for which a validator should be added. Which attribute will help to include regex for email validation?
+Answer:
+     pattern
+     
+26. When using the ______ method, after the submission of the form, the form values will NOT be visible in the address bar of the browser.
+Answer:
+       POST
+ 
+ CSS
+ ---
+ 
+ 27. Which selector is used to specify a rule to bind a particular unique element?
+Answer:
+	id 
+
+28. Using an attribute selector, how would you select an <a> element with a "title" attribute?
+Answer:
+	a[title]{...}
 	
-	What are void or empty elements in HTML? <img /><hr /> element without body
-	What is a semantic tag? What about formatting tags/elements? 
-                  Link tag and Anchor tag?
+29. What is the difference between the margin and padding properties?
+Answer:
+      Margin adds space around an element; padding adds space inside of an element.
+      
+30. What is an advantage of using inline CSS?
+Answer:
+     It is easier to add multiple styles through it.
+     
+31. Mike wants to define internal stylesheet. Can you help him to select the appropriate tag?
+Answer:
+     style
+     
+32. What is the correct HTML code to include external stylesheet?
+Answer:
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+33. 
+  
+     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Coding
+ ------
+ 
+ 1. What will be the output of the following HTML code when it is rendered in the browser?
+<!DOCTYPE html>
+<html>
+     <body>
+	 
+          Hello<World!
+     </body>
+</html>
+Answer: 
+       Hello is displayed in browser
+       
+2. John has created his first HTML page, when he runs it, the web page is displaying an incorrect title. Can you help him out by suggesting an appropriate solution by selecting an option.
+<!DOCTYPE html>
+<html>
+    <title>
+        <head>Testing</head>
+    </title>
+    <body>
+        Welcome to Infosys!!<br> All the best!
+    </body>
+</html>
+Answer: 
+   <title> tag must be placed inside <head> element
+   
+3. Sam is developing a web application to display cricket scores of live matches. He wants the web page to get auto-refreshed after every 30 seconds. Which of the following attributes of meta tag will help him to achieve this requirement?
+<html>
+	<head>
+		<meta _________________ />
+	</head>
+	<body>
+		…
+	</body>
+</html>
+Answer: 
+    http-equiv = "refresh" content = "30"
+    
+4. What happens when a user submits the form with an invalid email format?
+<form name="register" action="success.html" novalidate="true">
+    <input type="email" name="emailid">
+    <input type="submit">
+</form>
+Answer: 
+      Form will be submitted successfully and will redirect to success.html
+      
+5. Alex want to make a webpage which will contain a form with some fields like Name, password, confirm password, date of birth and email id.What he has to code in line 1 for succesfull compilation?
+//Line 1
+Name<input type="text" id="name" > 
+Password<input type="password" id="password"> 
+Email ID<input type="email" id="email"> 
+<button onclick="submit" >Submit</button> 
+</form>
+Answer: 
+       <form name="form" action="success.html" method="post"> 
 
+6. In the example below, when will the color pink be applied to the anchor element?
+a:active {
+  color: pink;
+}
+Answer: 
+The color of the link will display as pink while the link is being clicked but before the mouse click is released.
 
-css
-	css - inline, internal, external told
-	class selector - . used eg paragaraph class mention head style used
-	-id selector n class selector- okay
-	-inline css- we can change font,color or style. <head>
-	how to define style for inline - using inline attribute
-	Responsive webpage ?
-	What is the ‘class’ attribute in HTML? 
-	What is meant by CSS frameworks?
-	How can the background color of an element be changed?
-	padding vs cell spacing -space betwween cell n border, padding- 
+7. How would you make the first letter of every paragraph on the page red?
+Answer: 
+     =p::first-letter { color: red; }
+     
+8. Thomas has developed a website, where he has already added the box-shadow property. Now, if he wants to blur the shadow applied, which value among the below should be changed?
+box-shadow: 10px 5px 5px 10px rgba(30,40,50,0.4)
+Answer:
+     Lower the third value => 5px
+     
+ 9. Alex wanted to apply the border-radius property to an element such that only the top-right and bottom-left corners will be rounded. Which of the following option can be used by Alex?
+Answer:
+      border-radius: 0 12px 0 12px;
+     
