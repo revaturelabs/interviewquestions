@@ -1,4 +1,6 @@
 SQL:
+
+
 1.	What is the difference between DBMS and RDBMS?
 
 Answer::
@@ -25,6 +27,7 @@ Multiple users can access the data at the same time
 It satisfies more than 6 to 7 rules of E.F. Codd out of 12 rules.
 Example- File System, XML, FoxPro, IMS Example – SQL Server, Oracle, DB2, MySQL
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 2.	What is normalization?
 
@@ -35,6 +38,7 @@ Normalization or data normalization is a process to organize the data into a tab
 • Ensuring data dependency.
 A good database design implements normalization practices to make a database system fast, efficient and to produce the expected result.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 3.	Can you explain each normal form?
 
@@ -47,6 +51,7 @@ BCNF	A stronger definition of 3NF is known as Boyce Codd's normal form.
 4NF	A relation will be in 4NF if it is in Boyce Codd's normal form and has no multi-valued dependency.
 5NF	A relation is in 5NF. If it is in 4NF and does not contain any join dependency, joining should be lossless.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 4.	What is the difference between char,nchar,varchar,nvarchar?
 
@@ -63,6 +68,7 @@ nchar - This is like as char data type but it takes two bytes per character and 
 varchar - This is a variable length characters data type. It takes one byte per character and can store non-Unicode characters (like English). This data type allocates the memory based on a number of characters inserted. Hence, no wastage of memory.
 nvarchar – This is like as char data type but it takes 2 bytes per character and used to store Unicode characters means multiple languages (like Hindi, Chinese etc.) characters in the database. 
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 5.	What is SQL key? Different types of SQL keys?
 
@@ -82,6 +88,7 @@ For Example: In below diagram ID, RollNo and EnrollNo are Candidate Keys since a
 7. Foreign Key - A Foreign Key is a field/column in a database table that is Primary key in another database table. Unlike, primary key it can accept multiple null values and duplicate values.
 For Example: You can have a DeptID column in the Employee table which is pointing to the DeptID column in a department table where it a primary key.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 6.	Can you define all the keys in a database table?
 
@@ -90,6 +97,7 @@ Answer::
 Practically in a database table, you can have only three types of keys: Primary Key, Unique Key and Foreign 
 Key. Other types of keys are only concepts of RDBMS that you need to know.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 7.	Is that primary key and unique key both are same ? If not can you explain.
 
@@ -111,6 +119,8 @@ By default, Unique key is a unique non-clustered index.
 You can have more than one unique key in a table.
 In SQL Server, Unique key can be made foreign key into another table.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 8.	How to define primary key and unique key?
 
 Answer::
@@ -123,6 +133,7 @@ MobileNo int UNIQUE, --define unique key
 Salary int NULL
 )
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 9.	What is the difference between primary and foreign key?
 
@@ -132,6 +143,7 @@ Primary key uniquely identify a relationship in a database, whereas foreign key 
 Primary key remains one only for the table, whereas there can be more than one foreign key.
 Primary key is unique and won'\t be shared between many tables, but foreign key will be shared between more than one table and will be used to tell the relationship between them.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 10.	What are SQL commands?
 
@@ -139,6 +151,7 @@ Answer::
 
 SQL commands are a set of instructions that are used to interact with the database like SQL Server, MySQL and Oracle etc. SQL commands are responsible to create and to do all the manipulation on the database. These are also responsible to give or take out access rights on a particular database.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 11.	What are different types of SQL commands?
 
@@ -151,6 +164,7 @@ We have different SQL commands for the different-different purpose. We can group
 4. Transaction Control Language (TCL)
 5. Data Control Language (DCL)
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 12.	What are the DDL commands?
 
@@ -166,6 +180,7 @@ COL1 VARCHAR(10),
 COL2 VARCHAR(20),
 );
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 13.	What are DML commands?
 
@@ -173,11 +188,15 @@ Answer::
 
 DML commands are used to store, modify, and delete data from database tables. The DML commands are INSERT, UPDATE, and DELETE commands.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 14.	What are DQL commands?
 
 Answer::
 
 DQL commands are used to fetch/retrieve data from database tables. There are only one DQL command that is a SELECT command.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 15.	What are TCL commands?
 
@@ -185,11 +204,15 @@ Answer::
 
 TCL commands are used to handle changes which affect the data in the database. Basically, these commands are used with the transaction or used to make a stable point during changes in the database at which You can roll back the database state if needed. The TCL commands are SAVEPOINT, ROLLBACK and COMMIT.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 16.	What are DCL commands?
 
 Answer::
 
 DCL commands are used to provide access or to provide authorization access on the database objects like table, view, stored procedure etc. The DCL commands are: GRANT and REVOKE
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 17.	What is Grant and Revoke Commands?
 
@@ -199,6 +222,7 @@ The Grant and Revoke commands are explained as:
 • Grant Command: This command is used to give permission to specific users on specific database objects like table, view etc.
 • Revoke Command: This command is used to take out permission from specific users on specific database objects like table, view etc.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 18.	What are SQL Constraints or SQL Integrity Constraints?
 
@@ -208,6 +232,7 @@ Constraints are some rules that enforce on the data to be entered into the datab
 1. Column Level - These constraints are defined with the column definition inside a CREATE TABLE statement.
 2. Table Level - These constraints are defined after the table created using the ALTER TABLE statement.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 19.	What are the different types of SQL constraints sor SQL Integrity Constraints?
 
@@ -220,6 +245,8 @@ In SQL Server, there are six types of SQL Constraints as given below:
 4. Not Null Constraints - This constraint ensures a field/column cannot accept a null value.
 5. Check Constraints - This constraint is used to define a business rule at a field/column in the database table that each record in the database table must follow.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 20.	What is the difference between a JOIN and a UNION?
 
 Answer::
@@ -228,13 +255,16 @@ Answer::
  
  Join : We  can retrieve data from two or more tables based on logical relationships between the tables. Joins indicate how SQL should use data from one table to select the rows in another table.
  
- 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 21.	What is view?
 
 Answer::
 
  Views are virtual tables that are compiled at runtime. The data associated with views are not physically stored in the view, but it is stored in the base tables of the view. A view can be made over one or more database tables. Generally, we put those columns in view that we need to retrieve/query again and again. Once you have 
 created the view, you can query view like as table. We can make an index, trigger on the view.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 22.	What is the need of SQL View?
 
@@ -253,6 +283,8 @@ Key points about Views:
 • One more advantage of Views is, data abstraction since the end user is not aware of all the data present in 
 database table
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 23.	What is a transaction and why we use it in SQL?
 
 Answer::
@@ -263,12 +295,16 @@ transaction fail, then the complete transaction is cancelled/ rolled back.
 We use transaction in that case when we try to modify more than one table or views that are related to each other. Transactions affect SQL Server performance greatly. Since, when a transaction is initiated then it locks all the tables’ data that are used in the transaction. Hence during the transaction life cycle, no one can modify 
 these tables’ data that are used by the transaction. The reason behind the locking of the data is to maintain Data Integrity.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 24.	What are the properties of a transaction?
 
 Answer::
 
 ACID: Atomicity, Consistency, Integrity, Durability.
 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 25.	What are the main steps in data modeling?
 
@@ -280,6 +316,8 @@ Identify relationships among entities.
 Map attributes to entities completely.
 Assign keys as needed, and decide on a degree of normalization that balances the need to reduce redundancy with performance requirements.
 Finalize and validate the data model.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 26.	What’s the difference between the TRUNCATE and DELETE statements?
 
@@ -294,6 +332,7 @@ Truncate removes all records and doesn't fire triggers.
 Truncate is faster compared to delete as it makes less use of the transaction log.
 Truncate is not possible when a table is referenced by a Foreign Key or tables are used in replication or with indexed views.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 27.	What’s the difference between UNION and UNIONALL ?
 
@@ -303,6 +342,7 @@ Union::  In SQL Server, Union is used to combine two queries into a single resul
 
 UnionALL:: A union is used for extracting rows using the conditions specified in the query while Union All is used for extracting all the rows from a set of two tables.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 28.	What are triggeres? How to create a trigger ?
 
@@ -319,6 +359,7 @@ CREATE TRIGGER trigger_name ON {table|view}
 AS
 sql_statement [1...n ]
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 29.	What are the different types of DML triggers in SQL?
 
@@ -334,12 +375,15 @@ For Example: If an after the trigger is associated with the insert operation on 
 
 For Example: If an instead of trigger is associated with the insert operation on a database table, it will fire  before executing the insert statement on that database table. It will not wait for statement execution.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 30.	What are CLR triggers in SQL?
 
 Answer::
 
 CLR triggers  allow you to write triggers code using .NET languages like C#, Visual Basic and F#. These triggers are helpful in heavy computations or when you need the references of database objects outside the SQL Server
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 31.	What are SQL Joins?
 
@@ -347,7 +391,8 @@ Answer::
 
  SQL joins are used to retrieve data from two or more data tables, based on a join condition. A join condition is a relationship among some columns in the data tables that take part in SQL join.
  
- 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 32.	Can you describe each type of SQL Join?
 
 Answer::
@@ -358,6 +403,7 @@ SQL RIGHT OUTER JOIN creates a result table and includes into it all the records
 SQL SELF JOIN joins the table to itself and allows comparing rows within the same table.
 SQL CROSS JOIN creates a result table containing paired combination of each row of the first table with each row of the second table.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 33.	What is the difference between inner join and equi join?
 
@@ -381,6 +427,8 @@ ON tblEmp.DeptID = tblDept.DeptID;
 --Oracle and MySQL Query
 SELECT * FROM tblEmp INNER JOIN tblDept USING(DeptID)
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 34.	How Group by and having clause are related to each other?
 
 Answer::
@@ -401,6 +449,7 @@ FROM StudentMarks
 GROUP BY st_Name
 HAVING SUM(st_Marks) > 205
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 35.	What is Rollup Operator in SQL ?
 
@@ -411,6 +460,7 @@ Rollup operator is used to calculating grand of a column in SQL Server. This ope
 SELECT OrderID, SUM(Amount) AS Amount FROM CustomerOrders
 GROUP BY OrderID WITH ROLLUP
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 36.	What are SQL injection attacks?
 
@@ -433,6 +483,8 @@ Now, the hacker will pass the following input to TextBoxes to inject sql attack.
 Semicolon (;) in above statement will terminate the current SQL. So, "SELECT * FROM tbluser WHERE UserID = ''" will become a separate statement and after Semicolon (;) it will start a new SQL statement "Drop table tblusers" that will drop our table tbluser. Hence your user details table has been dropped and your database will be 
 unmanaged.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 37.	What are the recommended solutions to stop SQL Injection attacks?
 
 Answer:
@@ -450,12 +502,15 @@ function to replace any apostrophe (single quotation mark to SQL) with an additi
 a SQL string, two consecutive single quotation marks are treated as an instance of the apostrophe 
 character within the string
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 38.	What is SQL Functions?
 
 Answer::
 
 A function is a database object in SQL Server. Basically, it is a set of SQL statements that accept only input parameters, perform actions and return the result. The function can return only a single value or a table. We can’t use the function for Insert, Update and Delete records in the database table(s).
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 39.	What are the System Defined functions?
 
@@ -465,6 +520,7 @@ Scalar Function - Scalar functions operate on a single value and return a single
 
 An aggregate Function- Aggregate function operates on a collection of values and returns a single value. max(),min(),avg(),count().
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 40.	How to create user defined functions ?
 
@@ -472,6 +528,7 @@ Answer::
 
 In SQL Server, user-defined functions are called routines in SQL. They are generally used to provide us with the efficiency to perform specific tasks like complex calculations, data processing, etc.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 41.	What are stored procedures? Can you tell me the different types of SQL Stored Procedures?
 
@@ -480,6 +537,7 @@ Answer::
 A stored procedure is a precompiled set of one or more SQL statements that are stored on SQL Server. The benefit of Stored Procedures is that they are executed on the server side and perform a set of actions, before returning the results to the client side. This allows a set of actions to be executed with minimum time and also 
 reduce the network traffic. Hence, stored procedures improve performance to execute SQL statements.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 42.	Can you differentiate Stored procedures and Functions in SQL?
 
@@ -641,13 +699,16 @@ the where clause.
  Solution:
  
  SELECT first_name, last_name, salary, department_id FROM employees WHERE department_id IN (SELECT department_id FROM departments WHERE location_id = (SELECT location_id FROM locations WHERE city = 'London'));
- 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
  20. From the above  table, write a SQL query to find the departments managed by Susan. Return all the fields of departments
  
 Solution:
 
 SELECT * FROM departments WHERE manager_id IN (SELECT employee_id FROM employees WHERE first_name='Susan');
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 21. From the following tables, write a SQL query to display the department name, city, and state province for each department.
 
@@ -656,11 +717,15 @@ Solution:
 
 SELECT D.department_name , L.city , L.state_province FROM  departments D JOIN locations L ON  D.location_id = L.location_id;
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 22. From the following tables, write a SQL query to find all employees who joined on or after 1st January 1993 and on or before 31 August 1997. Return job title, department name, employee name, and joining date of the job.
 
 Solution:
 
 SELECT job_title, department_name, first_name || ' ' || last_name AS Employee_name, start_date FROM job_history JOIN jobs USING (job_id) JOIN departments USING (department_id) JOIN  employees USING (employee_id) WHERE start_date>='1993-01-01' AND start_date<='1997-08-31';
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 23. From the following tables, write a SQL query to calculate the number of days worked by employees in a department of ID 80. Return employee ID, job title, number of days worked.
 
@@ -719,6 +784,8 @@ salesman_id |    name    |   city   | commission
  SELECT customer.cust_name AS "Customer", customer.city AS "City", salesman.name AS "Salesman", salesman.commission FROM customer,salesman
 WHERE customer.salesman_id = salesman.salesman_id AND salesman.commission BETWEEN .12 AND .14;
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 25. write a SQL query to find those customers who placed orders on October 5, 2012. Return customer_id, cust_name, city, grade, salesman_id, ord_no, purch_amt, ord_date, customer_id and salesman_id.
 
 Solution::
@@ -727,6 +794,8 @@ SELECT *
 FROM customer a,orders  b 
 WHERE a.customer_id=b.customer_id 
 AND b.ord_date='2012-10-05';
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 26. write a SQL query to find those salespeople who generated orders for their customers but are not located in the same city. Return ord_no, cust_name, customer_id (orders table), salesman_id (orders table). 
 
@@ -737,6 +806,8 @@ FROM salesman, customer, orders
 WHERE customer.city <> salesman.city
 AND orders.customer_id = customer.customer_id
 AND orders.salesman_id = salesman.salesman_id;
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 27. write a SQL query to find those customers where each customer has a grade and is served by a salesperson who belongs to a city. Return cust_name as "Customer", grade as "Grade".
 
@@ -750,4 +821,6 @@ AND orders.salesman_id = salesman.salesman_id
 AND salesman.city IS NOT NULL
 AND customer.grade IS NOT NULL;
 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
