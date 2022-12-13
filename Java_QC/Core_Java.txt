@@ -724,6 +724,7 @@ dupl.add("\nDuplicate Elements: "arr.get(i));
 System.out.println(dupl);
 }
 }
+
 11. Can you find out the error in the below code?
 private class A {
     private class B {
@@ -731,6 +732,7 @@ private class A {
     }
 }
 Answer: Inner classes can be private, but outer classes can not be private.
+
 12. Predict the output
 public class program1{
   void program1() {   System.out.println("Constructor with void type");	}
@@ -740,6 +742,7 @@ public class program1{
   }
 }
 Answer: Constructor
+
 13. Predict the output
 public class Constructor2{
   int count=10;
@@ -749,6 +752,7 @@ public class Constructor2{
   }
 }
 Answer: Compiler error, If you write a constructor with arguments, the default constructor is not added by the compiler,should add it explicitly.
+
 14. Predict the output
 public class Operators {
 	public static void main(String[] args) {
@@ -760,6 +764,7 @@ public class Operators {
 	}
 }
 Answer: 5775
+
 15. How would you fix this code so that it compiles?
 public class Nosey {
 	int age;
@@ -768,9 +773,11 @@ public class Nosey {
 	}
 }
 Answer:Make age static
+
 16. Given the following definitions, which of these expression will NOT evaluate to true?
 boolean b1 = true, b2 = false; int i1 = 1, i2 = 2;
 Answer: i2 && b1
+
 17. Predict the output
 class Bus{
   void seatingCapacity(){
@@ -793,6 +800,7 @@ public class Vechicle{
   }
 }
 Answer: Subclass Seats=20Subclass Seats=20
+
 18. Spot the Error from the following code snippet
   public class A { 
   public final void execute(){ 
@@ -807,6 +815,7 @@ Answer: Subclass Seats=20Subclass Seats=20
    b.execute(); 
   }  } 
   Answer: cannot override final method from parent class to child class
+  
   19. From the following code, to get the output "Compilation successful what   
   will be the code in Line1?
   abstract class Bike{
@@ -820,6 +829,7 @@ Answer: Subclass Seats=20Subclass Seats=20
   }
   }
   Answer: Bike obj = new Unicorn();
+  
   20. To get an output of 20 what should be given in Line 1 and Line 2?
 public class Calculator {
     int num = 100;
@@ -832,6 +842,7 @@ public class Calculator {
     }
 }
 Answer: obj.calc(2);
+
 21. What should be given in line 1 to get the output "welcome all30"?
 interface project1{
    public int num = 30;
@@ -848,6 +859,7 @@ public class project2 implements project1 {
    }
 }
 Answer: project2 obj=new project1();
+
 22. What is the output of the below code?
 <pre>
 interface Car {
@@ -863,4 +875,97 @@ public class InterfaceTest2 implements Car {
   }
 }
 Answer: Compilation fails, Java Interface treats its variables like constants. So, the classes implementing Interfaces, can not reassign values to the variables
-23. 
+
+23. Which of the following pairs will make this code compile? 
+   public void ohNo() _____ Exception {
+   _____________ Exception();
+  }
+ Answer: throws, throw new
+ 
+ 24. predict the output
+class exception_handling {
+        public static void main(String args[]) {
+            try {
+                System.out.print("Hello" + " " + 1 / 0);
+            }
+            catch(ArithmeticException e) {
+        	System.out.print("World");        	
+            }
+        }
+    }
+Answer: World, System.out.print() function first converts the whole parameters into a string and then prints, before “Hello” goes to output stream 1 / 0 error is encountered which is cached by catch block printing just “World”.
+   
+25. What is the output of this program?
+class Main {
+public static void main(String args[]) {
+		try {
+			int a, b;
+			b = 0;
+			a = 5 / b;
+			System.out.print("A");
+	    }
+		catch(ArithmeticException e){
+			System.out.print("B");
+		}
+		finally{
+			System.out.print("C");
+		}
+	}
+} 
+Answer: BC , finally keyword is used to execute the code before try and catch block end.
+
+26. What is the output of this program?
+class Main {
+public static void main(String args[]) {
+		try {
+			int i, sum;
+			sum = 10;
+			for (i = -1; i < 3 ;++i)
+				sum = (sum / i);
+		}
+		catch(ArithmeticException e) {
+			System.out.print("0");
+		}
+		System.out.print(sum);
+	}
+}
+Answer: Compilation Error, Value of variable sum is printed outside of try block, sum is declared only in try block, outside try block it is undefined.
+
+27. Which of the following are checked exceptions?
+class One extends RuntimeException{}
+class Two extends Exception{}
+class Three extends Error{}
+class Four extends One{}
+class Five extends Two{}
+class Six extends Three{} </pre>
+Answer: Five
+
+28. What is the output of the following?
+public class SnowStorm {
+ static class Walk implements AutoCloseable {
+ public void close()  {
+ throw new RuntimeException("snow"); }}
+public static void main(String[] args) {
+ try (Walk walk1 = new Walk(); Walk walk2 = new Walk();) {
+ throw new RuntimeException("rain");
+ } catch(Exception e) {
+ System.out.println(e.getMessage()
+ + " " + e.getSuppressed().length);
+ } } }
+ Answer:  rain 2
+ 
+ 29. Fill in the blank so that the Helper class compiles
+successfully? 
+	public class Helper {
+	public static <U extends Exception> void printException(U u) {
+	System.out.println(u.getMessage());
+	}
+	public static void main(String[] args) {
+	__________________________________
+	} }
+ Answer: Helper.printException(new FileNotFoundException("A"));
+ 
+ 30. Following code will give a compilation error, predict the reason
+ class Bike { abstract void run();}
+ Answer: A normal class(non-abstract class) cannot have abstract methods
+
