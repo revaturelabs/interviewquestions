@@ -384,7 +384,31 @@ We can declare a lambda expression by-
 (parameters) -> expression
 (parameters) -> { multiple statements}
 
-77. 
+77. What is Daemon Thread and how it differs from normal thread?
+Answer:  It is a low priority thread which always runs in the background. User is the high priority thread which runs in the foreground.
+
+78. Which is the default thread?
+Answer: Main, If there is no thread is created, the main thread will execute the process by default.
+
+79. What is multithreading?
+Answer: It is the process of executing one or more threads simultaneously. In multithreading, threads will share a common memory and the execution will also be faster.
+
+80. How can we check whether the thread terminated or not?
+Answer: We can use isAlive() method that returns a boolean value whether the thread is on process or not.(will give true because the thread is not terminated)
+
+81. How will you check a thread is in which state?
+Answer: We can get the state of a thread by calling getState() method using the object of the thread.
+
+82. What is Deadlock condition?
+Answer: When two or more threads are in block state waiting for one another to release the resource that they are having.
+For example, let us assume, we have two processes A1 and A2. Now, process A1 is holding the resource R1 and is waiting for the resource R2. At the same time, the process A2 is having the resource R2 and is waiting for the resource R1. So, no one is releasing any resource, both are waiting for each other to release the resource. This is called deadlock condition.
+
+83. Differentiate between deadlock and starvation?
+Answer: Both occurs when the processes requesting a resource have been waiting for a long time.
+Deadlock occurs when each process holds a resource and waits for another resource which is in hold by other process.
+In contrast, in starvation, the processes with high priorities continuously consume resources, holding low priority processes from using the resources.
+
+84. 
 --------
 Coding Question
 
@@ -1074,6 +1098,34 @@ private void sortUsingJava8(List<String> names) {
 Collections.sort(names, (s1, s2) -> s1.compareTo(s2));
 }
 
-38. 
+38. Write a program to throw an IllegalArgumentException exception in thread?
+Answer:
+import java.lang.*;  
+public class IllegalArgumentException extends Thread   
+{  
+public static void main(String argvs[])  
+    {  
+        Thread.currentThread().setPriority(17);  
+        System.out.println("Priority of the main thread is : " + Thread.currentThread().getPriority());  
+    }  
+} 
+
+39. How will you make the thread as Daemon thread?
+Answer: 
+We have to use setDaemonthread() pass the boolean value to make the thread as Daemon thread.
+The isDaemon() returns a boolen value to check thread daemon or not.
+public class Main {
+	public static void main(String[] args) throws InterruptedException {
+		Thread th0 = new Thread(() -> {
+			for (int i = 0; i < 5; i++) {
+				System.out.println("Hello from Thread-0");
+			}
+		});
+		th0.setDaemon(true);
+		System.out.println(th0.isDaemon());	//true
+	}
+}
+
+40. 
 
 	
