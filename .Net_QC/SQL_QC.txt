@@ -264,25 +264,237 @@ We use transaction in that case when we try to modify more than one table or vie
 these tables’ data that are used by the transaction. The reason behind the locking of the data is to maintain Data Integrity.
 
 24.	What are the properties of a transaction?
+
+Answer::
+
+ACID: Atomicity, Consistency, Integrity, Durability.
+
+
 25.	What are the main steps in data modeling?
+
+Answer::
+
+Identify the entities.
+Identify key properties of each entity.
+Identify relationships among entities. 
+Map attributes to entities completely.
+Assign keys as needed, and decide on a degree of normalization that balances the need to reduce redundancy with performance requirements.
+Finalize and validate the data model.
+
 26.	What’s the difference between the TRUNCATE and DELETE statements?
+
+Answer::
+
+Everyone should know that DELETE is DML command and TRUNCATE is DDL command. DELETE deletes records one by one and makes an entry for each and every deletion in the transaction log, whereas TRUNCATE de-allocates pages and makes an entry for de-allocation of pages in the transaction log.
+
+we can rollback DELETE as well TRUNCATE if the commands are started inside a transaction and there is no difference between DELETE and TRUNCATE if we are talking about rollback
+
+Truncate reseeds identity values, whereas delete doesn't.
+Truncate removes all records and doesn't fire triggers.
+Truncate is faster compared to delete as it makes less use of the transaction log.
+Truncate is not possible when a table is referenced by a Foreign Key or tables are used in replication or with indexed views.
+
+
 27.	What’s the difference between UNION and UNIONALL ?
+
+Answer::
+
+Union::  In SQL Server, Union is used to combine two queries into a single result set using the select statements. Union extracts all the rows that are described in the query.
+
+UnionALL:: A union is used for extracting rows using the conditions specified in the query while Union All is used for extracting all the rows from a set of two tables.
+
+
 28.	What are triggeres? How to create a trigger ?
+
+Answer::
+
+Triggers are a database object. Basically, these are a special type of stored procedure that is automatically fired/executed when a DDL or DML command statement related to the trigger is executed. 
+Triggers are used to assess/evaluate data before or after data modification using DDL and DML statements. These are also used to preserve data integrity, to control server operations, to audit a server and to implement business logic or business rule
+
+
+CREATE TRIGGER trigger_name ON {table|view}
+[WITH ENCRYPTION|EXECUTE AS]
+{FOR|AFTER|INSTEAD OF} {[CREATE|ALTER|DROP|INSERT|UPDATE|DELETE ]}
+[NOT FOR REPLICATION]
+AS
+sql_statement [1...n ]
+
+
 29.	What are the different types of DML triggers in SQL?
+
+Answer::
+
+There are following types of DML Triggers:
+
+1. After Trigger – This type of triggers is defined using FOR or AFTER clause. These triggers fire only after successful execution of SQL Server statements on which they are associated.
+
+For Example: If an after the trigger is associated with the insert operation on a database table, it will fire after the successful record insertion in that database table. If the record insertion fails because of SQL constraints like primary key, not null etc., it will not fire.
+
+2. Instead of Trigger – This type of trigger is defined using INSTEAD OF clause. These triggers fire before executing the SQL Server statements on which they are associated.
+
+For Example: If an instead of trigger is associated with the insert operation on a database table, it will fire  before executing the insert statement on that database table. It will not wait for statement execution.
+
 30.	What are CLR triggers in SQL?
+
+Answer::
+
+CLR triggers  allow you to write triggers code using .NET languages like C#, Visual Basic and F#. These triggers are helpful in heavy computations or when you need the references of database objects outside the SQL Server
+
+
 31.	What are SQL Joins?
+
+Answer::
+
+ SQL joins are used to retrieve data from two or more data tables, based on a join condition. A join condition is a relationship among some columns in the data tables that take part in SQL join.
+ 
+ 
 32.	Can you describe each type of SQL Join?
+
+Answer::
+
+SQL INNER JOIN creates a result table by combining rows that have matching values in two or more tables.
+SQL LEFT OUTER JOIN includes in a result table unmatched rows from the table that is specified before the LEFT OUTER JOIN clause.
+SQL RIGHT OUTER JOIN creates a result table and includes into it all the records from the right table and only matching rows from the left table.
+SQL SELF JOIN joins the table to itself and allows comparing rows within the same table.
+SQL CROSS JOIN creates a result table containing paired combination of each row of the first table with each row of the second table.
+
+
 33.	What is the difference between inner join and equi join?
+
+Answer::
+
+Inner Join- This is the most used join in the SQL. This join returns only those records/rows that match/exists in both the database tables.
+
+For Example:
+
+SELECT * FROM tblEmp JOIN tblDept
+ON tblEmp.DeptID = tblDept.DeptID
+
+In the join condition, you can also use other operators like <,>, <>.
+
+
+Equi Join - Equi join is a special type of join in which we use only equality operator. Hence, when you make a query for join using equality operator then that join query comes under Equi join.
+
+SELECT * FROM tblEmp JOIN tblDept
+ON tblEmp.DeptID = tblDept.DeptID;
+--Using Clause is not supported by SQL Server
+--Oracle and MySQL Query
+SELECT * FROM tblEmp INNER JOIN tblDept USING(DeptID)
+
 34.	How Group by and having clause are related to each other?
+
+Answer::
+
+ Group By - Group by clause is used for grouping the records of the database table(s). This clause creates a single row for each group and this process is called aggregation. To use group by clause we have to use at least one aggregate function in the Select statement. We can use group by clause without where clause.
+
+Syntax for Group by Clause:
+
+SELECT Col1, Col2, <Aggreate_function>
+FROM Table_Name
+WHERE Condition
+GROUP BY Col1, Col2
+
+Having Clause - This clause operates only on group rows of the table(s) and acts as a filter like as where clause. We use having a clause to filter data that we get from the group by clause. To use having a clause, first we need to use group by clause.
+
+SELECT st_Name, SUM(st_Marks) AS 'Students Scored > 205'
+FROM StudentMarks
+GROUP BY st_Name
+HAVING SUM(st_Marks) > 205
+
+
 35.	What is Rollup Operator in SQL ?
+
+Answer::
+
+Rollup operator is used to calculating grand of a column in SQL Server. This operator calculates grand total of the column included in the group by clause as given below::
+
+SELECT OrderID, SUM(Amount) AS Amount FROM CustomerOrders
+GROUP BY OrderID WITH ROLLUP
+
+
 36.	What are SQL injection attacks?
+
+Answer::
+
+SQL Injection attack is an attack mechanism used by hackers to steal sensitive information from a database of an organization. It is the application layer means front-end attack which takes benefit of inappropriate coding of our applications that allows a hacker to insert SQL commands into your code that is using SQL statement.
+
+SQL Injection arises since the fields available for user input allow SQL statements to pass through and query the database directly.
+
+For Example:
+
+Now let’s look at the following query string in ASP.net. In this we are passing username from TextBox "txtUserID" and userpwd from TextBox "txtpwd" to check user credential.
+
+"SELECT * FROM tbluser WHERE userName = '"+ txtUserID.text +"' and userpwd = '"+ txtPwd.text +"'"
+
+Now, the hacker will pass the following input to TextBoxes to inject sql attack. What will happen when the below data goes as input?
+
+"SELECT * FROM tbluser WHERE userName = ';Drop table tblusers --' and userpwd = '123'";
+
+Semicolon (;) in above statement will terminate the current SQL. So, "SELECT * FROM tbluser WHERE UserID = ''" will become a separate statement and after Semicolon (;) it will start a new SQL statement "Drop table tblusers" that will drop our table tbluser. Hence your user details table has been dropped and your database will be 
+unmanaged.
+
 37.	What are the recommended solutions to stop SQL Injection attacks?
+
+Answer:
+
+Some of the recommended solutions for SQL injection attacks are given below
+
+1. In C# or VB.NET Framework during building a SQL Statement, use the SqlParameter to define the 
+Parameter Name, type, and value instead of making a straight command like as above
+2. In ASP.NET query specify that CommandType as Text or Stored Procedure.
+3. When we use the Parameters Collection, we should use parameters the type and size will also be mention.
+4. If we use a stored procedure, instead of directly building by using Exec command, use the sp_executesql
+command.
+5. Another way to stop SQL injection attacks is to filter the user input for SQL characters. Use the REPLACE 
+function to replace any apostrophe (single quotation mark to SQL) with an additional apostrophe. Within 
+a SQL string, two consecutive single quotation marks are treated as an instance of the apostrophe 
+character within the string
+
 38.	What is SQL Functions?
+
+Answer::
+
+A function is a database object in SQL Server. Basically, it is a set of SQL statements that accept only input parameters, perform actions and return the result. The function can return only a single value or a table. We can’t use the function for Insert, Update and Delete records in the database table(s).
+
+
 39.	What are the System Defined functions?
+
+Answer::
+
+Scalar Function - Scalar functions operate on a single value and return a single value. Like abs(), rand(), round(), upper(), ltrim(), convert().
+
+An aggregate Function- Aggregate function operates on a collection of values and returns a single value. max(),min(),avg(),count().
+
+
 40.	How to create user defined functions ?
+
+Answer::
+
+In SQL Server, user-defined functions are called routines in SQL. They are generally used to provide us with the efficiency to perform specific tasks like complex calculations, data processing, etc.
+
+
 41.	What are stored procedures? Can you tell me the different types of SQL Stored Procedures?
+
+Answer::
+
+A stored procedure is a precompiled set of one or more SQL statements that are stored on SQL Server. The benefit of Stored Procedures is that they are executed on the server side and perform a set of actions, before returning the results to the client side. This allows a set of actions to be executed with minimum time and also 
+reduce the network traffic. Hence, stored procedures improve performance to execute SQL statements.
+
+
 42.	Can you differentiate Stored procedures and Functions in SQL?
 
+Answer::
+
+A stored procedure in SQL Server can have input as well as output parameters. A function, on the other hand, can only have input parameters.
+A function can only return one value, whereas a stored procedure can return numerous parameters.
+A function in SQL Server must return a value. However, it is optional in a Stored Procedure.
+We can use a function within a stored procedure but, we cannot use a procedure in a function.
+We can handle errors in a stored procedure by using the TRY-CATCH block. But, we cannot use TRY-CATCH in functions.
+We can use SELECT as well as DML(INSERT/UPDATE/DELETE) statements in a stored procedure. But, we can only use SELECT statements within a function, as DML statements are not supported in functions.
+We can easily use functions in a SELECT statement. But, we cannot use a stored procedure in a SELECT statement.
+Similarly, we can use the functions in WHERE/HAVING/SELECT section. But, a procedure is not supported to be used in these statements.
+We can use the transactions in the stored procedure. But, we cannot use it in functions.
+In SQL Server, a function that returns a table can be considered a separate rowset.
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -290,7 +502,9 @@ Queries:
 
 1.	Write a query to create a table?
 2.	Write a query to insert the data into the table?
-3.	Write a query to view the specified record of the table by using the where clause.
+3.	Write a query to view the specified record of the table by 
+
+the where clause.
 
  EMPLOYEE_ID  | FIRST_NAME   | LAST_NAME  | EMAIL    | PHONE_NUMBER       | HIRE_DATE  | JOB_ID     | SALARY   | COMMISSION_PCT | MANAGER_ID | DEPARTMENT_ID |
 +-------------+-------------+-------------+----------+--------------------+------------+------------+----------+----------------+------------+---------------+
