@@ -358,10 +358,33 @@ Answer:An assertion is a statement in Java which ensures the correctness of any 
 Answer:TDD, which stands for test-driven development, is a software development methodology. As the name suggests, TDD consists of using tests to drive the development of the application, leading to simple, iterative implementation with high test coverage from the beginning.
 
 70.What is the difference between TreeSet and HashSet? 
-Answer:
-HashSet is a generic class of the Java collection framework. It extends AbstractSet and implements the Set interface. It creates a collection that uses a hash table for storage. The hash table stores the information by using the hashing mechanism. 
+Answer: HashSet is a generic class of the Java collection framework. It extends AbstractSet and implements the Set interface. It creates a collection that uses a hash table for storage. The hash table stores the information by using the hashing mechanism. 
 TreeSet is a generic class of the Java collection framework. It implements the Set interface. It uses TreeMap internally to store the TreeSet elements. By default, it sorts the elements in natural order (ascending order). The order of sorting depends on the Comparator that we have parsed. If no Comparator is parsed, it sorts the elements in the natural order. 
 
+71. How can you execute javascript code from java 8 code base?
+Answer: Using ScriptEngineManager, JavaScript code can be called and interpreted in Java.
+
+72. Which class can be used Instead of System.getCurrentTimeMillis() to get a date and time in Java 8 -
+Answer: Clock
+
+73. What kind of programming does Lambda expressions are based on?
+Answer: Functional programming
+
+74. Does lambda expression execute on its own?
+Answer: No,  It is used to implement a method defined by a functional interface.
+
+75. When does a functional interface extend another interface?
+Answer: A functional interface can extend the interface only when there are no abstract methods in it.
+If it has an abstract method then it will be an invalid functional interface.
+
+76. What are the various forms of writing lambda expressions?
+Answer: 
+We can declare a lambda expression by-
+() -> expression
+(parameters) -> expression
+(parameters) -> { multiple statements}
+
+77. 
 --------
 Coding Question
 
@@ -968,4 +991,89 @@ successfully?
  30. Following code will give a compilation error, predict the reason
  class Bike { abstract void run();}
  Answer: A normal class(non-abstract class) cannot have abstract methods
+ 
+ 31. What will happen to the code when compiled? 
+interface DefaultMethodInterface {
+	default void implementedMethod() {
+		System.out.println("inside interface");
+	}
+}
+public class Quiz implements DefaultMethodInterface {
+	void implementedMethod() {
+		System.out.println("inside class");
+	}
+}
+ Answer: Compilation will not be successful as it is not a valid Functional Interface
+ 
+ 32. Predict the output.
+import java.util.Arrays;
+public class StreamsStarterQuiz {
+    public static void main(String pars[]) {
+        int no [] = { 11,22,33,44,55,66};
+        Arrays.stream(no)
+            .filter(n -> n%3 == 0 || n%5 == 0)
+            .forEach(System.out::print);
+    }
+}
+Answer: 33 55 66
 
+33. Write a code to print "HelloWorld" using lambda expression and functional interface?
+Answer: 
+@FunctionalInterface
+interface Greetings {
+	void greet();
+}
+public class test {
+	public static void main(String[] args) {
+		Greetings g = () -> System.out.println("HelloWorld");
+		g.greet(); // Output: HelloWorld
+	}
+} 
+
+34. Is Circle interface a functional interface code snippet?
+public interface Circle {
+    public abstract void draw();
+}
+Answer: Yes, This is a functional interface, since there is only one abstract method.
+
+35. Predict the output of the following code snippet.
+@FunctionalInterface
+interface Arithmetic {  
+    void addition(String msg);  
+    void subtraction();
+}
+Answer: 
+It will throw a compile time error, The Arithmetic interface is not a functional interface, since it has 2 abstract methods.
+
+36. Convert the following Anonymous class code into Lambda expresssion.
+public class AnonymousClassExample  {
+   public static void main(String[] args) {
+       Runnable runnable = new Runnable(){
+           public void run(){
+               System.out.println("Convertion of Anonymous class into Lamda");
+           }
+       };
+       runnable.run();
+   }
+}
+Answer:
+public class AnonymousClassExample {
+    public static void main(String[] args) {
+        Runnable runnable = () -> {
+            System.out.println("Convertion of Anonymous class into Lamda");
+        };
+        runnable.run();
+    }
+}
+Functional interface can be instantiated using lambda expression instead of AnonymousClass.
+
+37. What is the code to sort strings using the Java 8 lambda expression?
+Answer:
+To sorts strings using the lambda expression:
+private void sortUsingJava8(List<String> names) {
+Collections.sort(names, (s1, s2) -> s1.compareTo(s2));
+}
+
+38. 
+
+	
