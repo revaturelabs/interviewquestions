@@ -1,0 +1,659 @@
+1. What is ADO.Net?
+
+Answer::
+
+ADO stands for ActiveX Data Objects. ADO.Net is a database technology within .Net framework which is used to access 
+data or services from the backend (database) from the front-end (application).
+
+2. What is ADO.Net Entity Framework?
+
+Answer:
+
+Entity Framework, also known as EF, is one of the strong ORM (Object Relational Mapping) framework 
+used to connect the database server aka data access within .Net application to exchange or store data from the 
+database. There are predefined functions to perform the CRUD operation automatically without the need of
+writing the queries within the application.
+
+
+3. What is LINQ to SQL?
+
+Answer::
+
+LINQ to SQL is an ORM in .Net Framework which creates strongly types classes/entity components 
+which represents the tables in your database. These classes are then used to exchange data between the 
+application and the database.
+
+4.  What is In-memory provider?
+
+Answer::
+
+When we want to make use of in-memory databases, i.e. IMDB or MMDB, to test a chunk of code 
+without actually connecting to the actual database, EF Core makes use of In-Memory Providers. 
+
+Note: 
+In-memory databases are not relational databases or neither they are mimic of the actual relational database
+
+5. What is ObjectContext?
+
+Answer::
+
+It is a part of the CORE Entity Framework which allows us to connect to database, query and track the 
+changes by using strongly typed entity classes.
+
+6.  What is difference ObjectContext and DBContext?
+
+Answer::
+
+DbContext is just a wrapper around ObjectContext. The DbContext API consists of methods which are 
+easier to use as compared to that of ObjectContext.
+
+7. What is Table Per Type (TPT) inheritance?
+
+Answer:: 
+
+Consider two entity classes, Students and Professor having the following properties in their entity 
+classes.
+
+	STUDENT 							PROFESSOR
+ID 		Int 						ID 		Int
+FirstName 	String 						FirstName 	String
+MiddleName 	String 						MiddleName 	String
+LastName 	String 						LastName 	String
+DOJ 		Datetime 					DOJ 		Datetime
+Course 		string 						Experience 	double
+
+The first four fields are common to both. So, what we can do is, we can create a separate entity class, 
+say, Person, consisting of the above properties and then Student & Professor inheriting from the Person Class. 
+Such an approach is known as Table Per Type (TPT).
+
+8. What is Table Per concrete (TPC) inheritance?
+
+Answer:: 
+
+In TPT, the ‘ID’ column is also being considered in the base class ‘Person’. In TPC, each entity class will 
+have their own table and own primary ‘ID’ key.
+
+9.  What is Entity Splitting?
+
+Answer:: 
+
+Suppose there are two tables, Employee and EmployeeAddress. Both the tables contain a primary key 
+‘EmployeeId’. In such cases, the entity framework clubs the columns of both the tables and creates a single 
+entity name ‘Employee’. As a result, whenever we query the Employee entity, EF automatically creates a join 
+between Employee and EmployeeAddress tables giving you back the desired data. Such a scenario is known as 
+Entity Splitting.
+
+10. What is Spatial Data?
+
+Answer:: 
+
+In SQL Server 2008, there were two types of data-types been introduced: Geography and Geometry. 
+The geography type represents data in a round-earth coordinate system whereas geometry represents data in a 
+Euclidean (flat) coordinate system. We can use this data-types if we want to specify any ‘Location’ property in an 
+entity.
+
+11.  What is Lazy Loading?
+
+Answer::
+
+When you query an entity for the first time, you must have observed that it takes some time to bring data 
+from the database as compared to when you query for second or more times. Basically, what happens is the 
+related data is not loaded until the time it has not been requested at least once. Such kind of loading is known as 
+lazy loading.
+
+12. What is Eager Loading?
+
+Answer::
+
+Now consider an Entity Student which has a property List<Courses>. So, whenever you query the Student 
+entity, it also brings the Courses details. Such kind of loading is known as Eager Loading.
+
+13.  What is Seed Data?
+
+Answer:: 
+
+While creating entities for Migration, we need to insert default data from the application into a 
+database for development/testing purpose. This kind of data is known as Seed data.
+
+14. What type of approaches does EF ?
+
+Answer: 
+
+Two types of approaches EF Core support:
+1. Code First Approach
+2. Database First Approach (Reverse Engineering)
+
+15.  What is Code First Approach?
+
+Answer::
+
+If you want to create a database schema through the Entity classes defined in your Application, such 
+kind of approach is known as Code First Approach.
+
+16. How to implement the Code First Approach?
+
+Answer::
+
+To Implement the code first approach you have to follow the given steps.
+
+Step 1: Create an Entity.cs. This file should represent the tables as class name and columns as properties in each 
+table. Please make sure the properties should be properly designed with attributes you wish to see in the table. 
+For e.g. primary key, foreign key, required, max length, etc. In other words, properties should have proper data 
+annotations
+Step 2: Add connection string in app.config
+Step 3: Create DBContextClass.cs file which contains the DBSet of the classes you created in Step 1 and an
+overridden OnConfiguration method which contains a reference to the connection string created in Step 2.
+Step 4: Execute Add-Migration and Update-Migration commands in the Nuget Package Manager.
+
+17.  What is Database First Approach?
+
+Answer:: 
+
+If you have an existing database and want to create entity classes based on them, such a scenario is 
+termed as Database First Approach.
+
+18. How to implement Database First Approach?
+
+Answer::
+
+In the NuGet Package manager you need to run a Scaffold-DbContext command having the below 
+
+syntax:
+Scaffold-DbContext [-Connection] [-Provider] [-OutputDir] [-Context] [-Schemas>] [-Tables>] 
+ [-DataAnnotations] [-Force] [-Project] [-StartupProject] [<CommonParameters>]
+
+For Example, If I am using SQL Server with database name as EFCoreExample and server name 
+MonalisaSQLServer2014, then Scaffold-DbContext command will look like
+
+Scaffold-DbContext "Server= MonalisaSQLServer2014; Database= EFCoreExample;
+Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+The “–OutputDir Models” creates a Models folder in the application which consists of different classes each 
+representing each table in your database.
+
+19. What are DBContext and DBSet ?
+
+Answer::
+
+DBContext represents a session of database connection which is used to perform CRUD operations. 
+Whereas DBSet is used to create a mapping with the tables in the database. It basically converts the LINQ 
+queries to database queries which are evaluated In-Memory and as a result returns the set of result.
+
+20. How can you define the model mapping?
+
+Answer::
+
+There are two types of approaches,
+1. Data Annotations
+2. Fluent API
+
+21. How to configure model using Fluent API?
+
+Answer::
+
+The ModelBuilder class in EF Core is responsible for Fluent API. You can override the OnModelCreating 
+method in your context class and use the ModelBuilder to configure your model. Fluent API configures 3 aspects 
+of a model, viz. Model Configuration, Entity Configuration and Property Configuration
+
+
+22. Explain Fluent API with an example?
+
+Answer:: 
+
+Consider an entity Student with a required property Name. This can be achieved in the following way,
+class DatabaseContextClass : DbContext
+{
+ public DbSet<Student> Students { get; set; }
+ protected override void OnModelCreating(ModelBuilder modelBuilder)
+ {
+ modelBuilder.Entity<Student>()
+ .Property(b => b.Name)
+ .IsRequired();
+ }
+}
+
+23. How to exclude property in Fluent API?
+
+Answer:: 
+
+To exclude property in Fluent API, we use ‘Ignore’ method.
+class YourContextClass : DbContext
+{
+ public DbSet<Student> Students { get; set; }
+ protected override void OnModelCreating(DbModelBuilder modelBuilder)
+ {
+	modelBuilder.Entity<Student>()
+ 	.Ignore(b => b.Course);
+ }
+}
+
+
+24. How to configure the model using Data Annotation?
+
+Answer:: 
+
+Decorating the model/entity properties with the attributes like required, max length, foreign key and so 
+on. 
+
+Please Note. If a property has a name ID or prefixed with ID, then EF Core considers it as a primary key.
+
+24. Explain Data Annotation with an example?
+
+Answer::
+
+Consider an entity Student with a required property Name. This can be achieved in the following way,
+
+public class Student
+{
+ public int StudentId { get; set; }
+ [Required]
+ public string Name { get; set; }
+ public Course CourseList { get; set; }
+}
+
+25. How to exclude property in Data Annotation?
+Ans. To exclude property in Data Annotation, ‘NotMapped’ attribute is used.
+public class Student
+{
+ public int StudentId { get; set; }
+ [Required]
+ public string Name { get; set; }
+ [NotMapped]
+ public Course CourseList { get; set; }
+}
+
+26. How are relationships defined in EF Core?
+
+Answer::
+
+Relationships in EF Core are usually defined as follows,
+1. Dependent entity: Contains the foreign key property, sometimes referred to as the 'child' of the 
+relationship.
+2. Principal entity: Contains the primary/alternate key property, sometimes referred to as the 'parent' of the 
+relationship.
+3. Foreign Key: Contains the value of the entity key it is dependent on.
+4. Principal Key: Contains the primary/alternate key property that uniquely identifies the data.
+5. Navigation property: A property defined on the principal and/or dependent entity that contains a 
+reference(s) to the related entity(s).
+	 Collection navigation property: A navigation property that contains references to many related 
+entities.
+	Reference navigation property: A navigation property that holds a reference to a single related entity.
+ 	Inverse navigation property: When discussing a particular navigation property, this term refers to the 
+navigation property on the other end of the relationship.
+
+27. What are the unique constraints?
+
+Answer:: 
+
+To identify data in an entity different from each other, we make use of unique constraints. This can be 
+uniquely identified using 2 factors,
+1. Primary Key
+2. Alternate Key
+
+28. What is a Primary Key?
+
+Answer:: 
+
+A primary key is a key defined within the relational database which can uniquely identify each record. 
+For Eg, in the Student table, ‘StudentId’ is used to identify each student record.
+
+29. How to define primary key using Data Annotation?
+
+Answer:: 
+
+By Convention, if a property has a name ID or prefixed with ID, then EF Core considers it as a primary 
+key. In the case of Data Annotation, we can decorate the property by ‘Key’ attribute.
+
+public class Student
+{
+ [Key]
+ public int StudentId { get; set; }
+ [Required]
+ public string Name { get; set; }
+ [NotMapped]
+ public Course CourseList { get; set; }
+}
+
+30.  How to define primary key using Fluent API?
+
+Answer::
+
+By Convention, if a property has a name ID or prefixed with ID, then EF Core considers it as a primary 
+key. For Fluent API, we use ‘HasKey’ keyword.
+
+class YourContextClass : DbContext
+{
+ public DbSet<Student> Students { get; set; }
+ protected override void OnModelCreating(ModelBuilder modelBuilder)
+ {
+ modelBuilder.Entity<Student>()
+.HasKey(c => c.StudentId)
+ .Property(b => b.Name)
+ .IsRequired();
+ }
+}
+
+31. What is an Alternate Key?
+
+Answer::
+
+A non-primary key which can identify a set of data uniquely is known as an alternate key. For Eg, in the 
+Student table, ‘RollNo’ can also be used to identify each student record apart from ‘StudentId’.
+
+32. How to implement Alternate Key using Data Annotation?
+
+Answer:: 
+
+An alternate key cannot be implemented using Data Annotation.
+
+33. How to implement Alternate Key using Fluent API?
+
+Answer::
+
+It can be implemented by using ‘HasAlternateKey’ method as given below:
+class YourContextClass : DbContext
+{
+ public DbSet<Student> Students { get; set; }
+ protected override void OnModelCreating(ModelBuilder modelBuilder)
+ {
+ modelBuilder.Entity<Student>()
+ .HasKey(c => c.StudentId)
+ .HasAlternateKey(d => d.RollNo)
+ .Property(b => b.FirstName)
+ .IsRequired()
+ .Property(x => x.LastName)
+ .IsConcurrencyToken()
+ .Property<DateTime>("LastUpdated");
+ }
+}
+
+34. What are the types of relationships in EF Core?
+
+Answer::
+
+one to One
+One to Many
+Many to Many
+
+35. How can we implement a one-to-many relationship using Fluent API?
+
+Answer::
+
+This can be achieved using HasOne(), WithMany() and HasForeignKey() methods in the 
+OnModelCreating method as follows,
+
+protected override void OnModelCreating(ModelBuilder modelBuilder)
+{
+ modelBuilder.Entity<Student>()
+ .HasOne<SpecialSubject>(s => s.spl_Subject)
+ .WithMany(g => g.Students)
+ .HasForeignKey(s => s.currentSpecialSubjectId);
+}
+
+So here we start building up the principal entity ‘Student’ where ‘.HasOne’ would tell the ModelCreating method 
+that the student entity has a dependant entity ‘SpecialSubject’, which in return has many students using the 
+‘WithMany’ property and ‘.HasForeginKey’ defines the dependant/foreign key. In our case, it’s the 
+‘currentSpecialSubjectId’.
+
+36. How can we implement a one-to-one relationship using Fluent API?
+
+Answer::
+
+This can be achieved using ‘HasForeignKey’ property in the OnModelCreating method as follows,
+
+protected override void OnModelCreating(ModelBuilder modelBuilder)
+{
+ modelBuilder.Entity<Student>()
+ .HasOne<Address>(s => s.studentAddress)
+ .WithOne(ad => ad.student)
+ .HasForeignKey<Address>(ad => ad.studentAddressId);
+}
+
+So here we start building up the principal entity ‘Student’ where ‘.HasOne’ would tell the ModelCreating method 
+that the student entity has a dependant entity ‘Address’, which in return is mapped to only one student using 
+the ‘WithOne’ methods and ‘.HasForeginKey’ defines the dependant/foreign key. In our case, it’s the 
+‘studentAddressId’.
+
+37. How can we implement a many-to-many relationship using Fluent API?
+
+Answer::
+
+Firstly, create a one-to-many relationship for Book and Author with Subject and then create a composite 
+key wrt BookId and AuthorId as below
+
+
+protected override void OnModelCreating(ModelBuilder modelBuilder)
+{
+ modelBuilder.Entity<Subject>().HasKey(sc => new { sc.BId, sc.AId });
+ modelBuilder.Entity<Subject>()
+ .HasOne<Book>(sc => sc.book)
+ .WithMany(s => s.subjectDetail)
+ .HasForeignKey(sc => sc.BId);
+ modelBuilder.Entity<Subject>()
+ .HasOne<Author>(sc => sc.author)
+ .WithMany(s => s.subjectDetail)
+ .HasForeignKey(sc => sc.AId);
+}
+
+38. What concurrency token in EF Core?
+
+Answer::
+
+If a property in the entity is declared as concurrency then it means that the property is not allowed to be 
+changed while saving the data. If it has been, then EF Core throws an error.
+
+39. How to implement concurrency token in Data Annotation?
+
+Answer::
+
+Decorate property with ‘ConcurrencyCheck’.
+
+public class Student
+{
+ [Key]
+ public int StudentId { get; set; }
+ [Required]
+ public string FirstName { get; set; }
+ [ConcurrencyCheck]
+ public string LastName { get; set; }
+ [NotMapped]
+ public Course CourseList { get; set; }
+}
+
+40. How to implement concurrency token in Fluent API?
+
+Answer::
+Use ‘IsConcurrencyToken’ method
+
+class YourContextClass : DbContext
+{
+ public DbSet<Student> Students { get; set; }
+ protected override void OnModelCreating(ModelBuilder modelBuilder)
+ {
+ modelBuilder.Entity<Student>()
+ .HasKey(c => c.StudentId)
+ .Property(b => b.FirstName)
+ .IsRequired()
+ .Property(x => x.LastName)
+ .IsConcurrencyToken();
+ }
+}
+
+41. What is Shadow property?
+
+Answer:: 
+
+The properties which are not a part of entity classes but can be included in the model and also a part of 
+database columns is known as shadow properties.
+
+42. How to declare shadow property using Data Annotation?
+
+Answer::
+
+We cannot declare shadow property using data annotation
+
+43. How to declare shadow property using Fluent API?
+
+Answer::
+
+Declare datatype and column name in Property method
+
+class YourContextClass : DbContext
+{
+ public DbSet<Student> Students { get; set; }
+ protected override void OnModelCreating(ModelBuilder modelBuilder)
+ {
+ modelBuilder.Entity<Student>()
+ .HasKey(c => c.StudentId)
+ .Property(b => b.FirstName)
+ .IsRequired()
+ .Property(x => x.LastName)
+ .IsConcurrencyToken()
+ .Property<DateTime>("LastUpdated");
+ }
+}
+
+44. What are backing fields?
+
+Answer::
+
+Instead of writing/reading data from a property, EF Core allows us to write/read data from fields. i.e. a 
+variable is assigned to get/set of the entity property and data can be written/read using the variable for the 
+property. This is known as backing fields.
+
+45. How are backing fields identified?
+
+Answer::
+
+For a variable to be identified as backing fields, following convention are followed,
+• _<camel-cased property name>
+• _<property name>
+• m_<camel-cased property name>
+• m_<property name>
+
+46. Is it possible to declare backing fields in Data Annotations?
+
+Answer::
+
+No, Data Annotations doesn’t support backing fields declaration.
+
+47. How can we use Fluent API for using backing fields?
+
+Answer::
+
+By using ‘HasField’ extension method as follows,
+
+class MyContext : DbContext
+{
+ public DbSet<Student> Students { get; set; }
+ protected override void OnModelCreating(ModelBuilder modelBuilder)
+ {
+ modelBuilder.Entity<Student>()
+ .Property(b => b.FirstName)
+ .HasField("_StudentFirstName");
+ }
+}
+
+48. What is EF Migrations?
+
+Answer::
+
+When developing an application, there are chances that the requirement may change. This indirectly 
+may result in making changes in the application entity/database to build in the new requirement. Using 
+Migration, one can change the models at the application level and sync the database for the same.
+In EF , Migration is enabled by default and can be executed using Package Manager Console or EF 
+Command Lines.
+
+49. What task can be performed in EF Core migrations?
+
+Answer::
+
+EF Core migration contains the following list of task,
+1. Create Migration
+➔ Generates code to sync the database with the model classes
+2. Update Migration
+➔ Use to run any pending migration
+3. Customize migrated code
+➔ Sometimes there is a need to customize or modify the generated code as per our requirement. In 
+that case, we can use customization of the migrated code.
+4. Remove Migration
+➔ To remove the generated code
+6. Revert Migration
+➔ Revert the database to its previous state.
+7. Generate SQL Scripts
+➔ This task is used if we want to update the production database or maybe we want to troubleshoot
+the migrated code
+8. Applying migration at run-time
+➔ Used if we want to execute the migration code while the application executes instead of manually 
+executing them through CLI or package manager console.
+
+class MyContext : DbContext
+{
+ public DbSet<Student> Students { get; set; }
+ protected override void OnModelCreating(ModelBuilder modelBuilder)
+ {
+ modelBuilder.Entity<Student>()
+ .Property(b => b.FirstName)
+ .HasField("_StudentFirstName");
+ }
+
+50. How to create a migration in EF Core?
+
+Answer::
+
+After creating the initial models, now we need to create the database. This can be done by using the 
+following commands,
+
+PACKAGE MANAGER CONSOLE
+Add-Migration InitialCreate
+
+CLI
+dotnet ef migrations add InitialCreate
+
+Once you execute the above line, three files are generated within the project under the Migrations directory
+
+51. How to update a migration in EF?
+
+Answer::
+
+After create, now we need to apply the migration to the database to generate the schema. It’s done as 
+follows,
+
+PACKAGE MANAGER CONSOLE
+Update-Database
+
+CLI
+dotnet ef database update
+
+52. How to customize a migrated code in EF Core?
+
+Answer::
+
+This is a three-step procedure.
+1. Create the migration
+2. Make changes in the generated code files
+3. Update the database
+
+53. In what cases do we need to remove a migration in EF Core?
+
+Answer::
+
+Suppose there is a need or we forgot to make changes in the migrated file or model & we need to make 
+the changes before the database schema gets updated. For this purpose, we execute remove migration. This will 
+remove the lastly created migrated files.
+
+PACKAGE MANAGER CONSOLE
+Remove-Migration
+
+CLI
+dotnet ef migrations remove
+
+After executing the command, you can make the changes and create – update the migrations.
+
+54. Can we remove a specific migration in EF Core?
+
+Answer::
+
+No. Only the lastly created migration can be removed
+
+ 
