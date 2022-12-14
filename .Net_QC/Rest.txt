@@ -1,0 +1,303 @@
+1. What is REST?
+
+Answer::
+
+REST stands for Representational State Transfer. REST is an architectural style for web development. REST architecture lays out guidelines for the transfer of 
+resource representations between clients and servers on the web.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. What is a REST API?
+
+Answer::
+
+A REST API or RESTful API is a web API that conforms to the REST architecture style.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3. Describe the 5 constraints of the REST architectural style, and their benefits.
+
+Answer::
+
+A truly RESTful API must conform to the five REST architectural constraints:
+
+Uniform interface:
+    - Interface between client and server that allows for standardized client-server communication in a single language
+    - Necessary for the decoupling of client and server
+Client-server:
+     - Client-server model, for separation of concerns between client and server
+     - Permits client and server to operate and evolve independently
+     - Supports portability and scalability
+Stateless:
+      - Refers to stateless communication protocol, wherein the server stores no information about session states
+      - Improves performance by reducing server load
+Cacheable:
+      - Servers mark their responses as cacheable or non-cacheable
+      - Clients and intermediaries are able to cache server responses
+      - Reduces client-server interaction, supports scalability and performance
+Layered system:
+      - Layers between client and server, can consist of intermediaries such as proxy servers or load balancers
+      - Layers have separate responsibilities but are able to interact with each other
+      - Supports system scalability and security
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4. What is the optional architectural constraint of REST?
+
+Answer::
+
+Code on demand is the optional constraint of RESTful architecture. Code on demand allows the server to send executable code (scripts or applets) to a client upon 
+client request.
+
+Advantage: Extends client functionality, since client can download features after deployment
+Disadvantage: Reduces visibility, which is why it’s considered optional
+Examples: Java applets and JavaScript
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5. Explain the constraints of a uniform interface.
+
+Answer::
+
+A uniform interface is needed to decouple the client from the server.
+
+There are four necessary constraints to achieving uniform interface:
+
+Identification of resources: Client requests must identify resources using uniform resource identifiers (URIs)
+Manipulation of resources through these representations: When clients receive a resource representation from the server, they have all information necessary to be 
+able to modify resource state
+Self-descriptive messages: Messages contain all information necessary for recipient to interpret it, including metadata
+Hypermedia as the engine of application state: Hypermedia (such as HTML) is the medium for client-server interaction, and the client requires no API-specific 
+documentation to understand server responses
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+6. What is CRUD?
+
+Answer::
+
+CRUD is an acronym for the four basic operations used in relational database management system (RDBMS).
+
+Each operation in CRUD relates to an HTTP method that REST supports.
+
+Create: POST
+Read: GET
+Update: PUT
+Delete: DELETE
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+7. Explain the HTTP request methods supported by REST, and when they are used.
+
+Answer::
+
+REST APIs are based on HTTP requests or verbs, which each perform a different task.
+
+REST supports the following HTTP requests:
+
+GET method: Request data from server
+POST method: Submit data to create new resource on server-defined URL
+PUT method: Submit data to update a resource at client-defined URL
+DELETE method: Remove resource from server
+OPTIONS method: Return request methods supported by a service
+HEAD method: Return meta information such as response headers
+PATCH method: Modify part of the resource on the server
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+8. What’s the difference between PUT and POST methods?
+
+Answer::
+
+Here are the differences between PUT and POST:
+
+PUT:
+
+Idempotent (i.e. multiple requests will yield same result)
+PUT responses aren’t cacheable
+Updates or replaces target resource with request’s payload
+
+POST:
+
+Not idempotent (i.e. multiple requests will yield multiples of the same resource)
+POST responses can be cacheable, provided proper cache-control header
+Request’s payload is processed by the web server based on target resource
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+9. Explain what statelessness means in REST.
+
+Answer::
+
+Statelessness means that the client and server don’t store information about each other’s state. Since the server stores no information, it treats each client 
+request as a new request.
+
+As a consequence, the following conditions would apply:
+
+The client request contains all information required for the server to process the request
+Client application is responsible for storing session state
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+10. What are the advantages and disadvantages of a REST API?
+
+Answer::
+
+
+Advantages include:
+
+Designed for high performance, portability, reliability, and scalability
+Client-server separation allows each to individually operate and scale
+Easy to test and adapt to various environments
+Easy to learn as it uses HTTP protocol
+Supports various data transfer technologies including JSON, XML, YAML, images, and more
+Uses less bandwidth than other methods, such as Simple Object Access Protocol (SOAP) technology
+
+
+Disadvantages include:
+
+Doesn’t enforce security practices
+HTTP method limits you to synchronous requests
+Due to statelessness, you might be unable to maintain state (e.g. in sessions)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11. What’s the difference between AJAX and REST?
+
+Answer::
+
+An AJAX client can make a RESTful request to a REST API (e.g. a get request), but AJAX isn’t an architectural style. It’s a web development technique for client-side 
+applications. REST APIs can be accessed by AJAX clients, but they aren’t inherently implemented with AJAX.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+12. What’s the difference between SOAP and REST?
+
+Answer::
+
+Although some REST APIs use SOAP protocols, REST and SOAP are entirely different approaches to building APIs. Interviewers may ask this to assess your depth of 
+understanding.
+
+Here are some of the differences between SOAP and REST.
+
+SOAP:
+
+Protocol
+Data format is limited to XML
+Heavyweight and requires more bandwidth
+Calls can’t be cached
+
+REST:
+
+Architectural style
+Allows various data formats including plain text, HTML, XML, JSON, and YAML
+Lightweight and requires less bandwidth
+Calls can be cached
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+13. Explain HTTP response status codes.
+
+Answer::
+
+HTTP response codes indicate the result of client requests.
+
+Common HTTP status codes include:
+
+200: Successful request
+201: Entity or entities created from successful request
+400: Bad request. Invalid client request.
+401: Unauthorized. User isn’t authorized to access a resource and may be unauthenticated
+403: Forbidden. User isn’t authorized to access a resource, user is authenticated
+404: Not found. Resource not found
+500: Internal server error. Generic server error
+502: Bad gateway. Response from upstream server is not valid
+503: Service unavailable. Result of server-side issue, including overload or system failure
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+14. What is HATEOAS in REST?
+
+Answer::
+
+HATEOAS stand for Hypermedia as The Engine of the Application State. It provides links to resources so that client does not have to manually bookmark the links. 
+Below is an example.
+
+{
+"id":1,
+"message":"Hello World",
+"author":"Dhiraj",
+"href":"/messages/1"
+}
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+15. What is payload?
+
+Answer::
+
+Payload refers to the data in the body of the HTTP request and/or response messages in GET or POST requests.
+
+For example, if you request a specific tweet from the Twitter API, the payload comprises the document containing the tweet text and any associated files for 
+rendering the tweet on a page.
+
+Payload can also be included in the HTTP request with the POST method. If you want to post a tweet through Twitter's API, the tweet text that you send in your 
+POST request is the payload.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+16. What is caching?
+
+Answer::
+
+Caching refers to storing server response in the client itself so that a client does need not to make server requests for the same resource again and again.
+A server response should have information about how caching is to be done so that a client caches the response for a period or never caches the server response.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+17. Can you brief on cacheable principle?
+
+Answer::
+
+In REST APIs, the resources should be able to cache themselves either on the client or on the server. - When a client requests a resource from the server, the 
+response from the server will contain the information on whether the resource can be cached or not and for how long.
+The main idea of caching is to improve the performance of the client by reducing the bandwidth required to load the resource.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+18. What is layered system in Rest?
+
+Answer::
+
+In REST APIs, there can be multiple intermediaries between the client and the server. It isn’t always necessarily true that the client connects directly to the 
+server and requests a resource.
+There can be multiple systems in between them that are responsible for handling security, traffic, balancing the load, redirection, etc.
+The client or the server doesn’t have any information about how many systems are in between them.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+19. Why is Http Protocol important for Rest?
+
+Answer::
+
+HTTP protocol is important for REST because it’s a way to communicate data between client and server. Without HTTP methods, requests and responds, and HTTP status
+codes, it would be difficult to build a REST API.
+
+Every HTTP request includes a method and a status code.
+The client-server interaction is based on requests and responses.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+20. Can there be more than one URI for the same resource?
+
+Answer::
+
+The same resource can have more than one URI. For example http://example.com/employee/eid/department and http://example.com/departments?name=”finance” could both 
+refer to the same resource.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
