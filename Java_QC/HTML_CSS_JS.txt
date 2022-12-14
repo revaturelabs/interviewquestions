@@ -166,31 +166,31 @@ When we use the attribute "visibility: hidden" for an HTML element then that ele
  CSS
  ---
  
- 27. Which selector is used to specify a rule to bind a particular unique element?
+35. Which selector is used to specify a rule to bind a particular unique element?
 Answer:
 	id 
 
-28. Using an attribute selector, how would you select an <a> element with a "title" attribute?
+36. Using an attribute selector, how would you select an <a> element with a "title" attribute?
 Answer:
 	a[title]{...}
 	
-29. What is the difference between the margin and padding properties?
+37. What is the difference between the margin and padding properties?
 Answer:
       Margin adds space around an element; padding adds space inside of an element.
       
-30. What is an advantage of using inline CSS?
+38. What is an advantage of using inline CSS?
 Answer:
      It is easier to add multiple styles through it.
      
-31. Mike wants to define internal stylesheet. Can you help him to select the appropriate tag?
+39. Mike wants to define internal stylesheet. Can you help him to select the appropriate tag?
 Answer:
      style
      
-32. What is the correct HTML code to include external stylesheet?
+40. What is the correct HTML code to include external stylesheet?
 Answer:
     <link rel="stylesheet" type="text/css" href="style.css">
     
-33.What are the different ways which  we can specify the CSS styles for the HTML element?
+41.What are the different ways which  we can specify the CSS styles for the HTML element?
 
 Answer:
 There are three ways in which we can specify the styles for HTML elements:
@@ -351,10 +351,20 @@ Answer:
         <source src="audio1.mp3" type="audio/mpeg">
     </audio>
 
+13.How to insert a picture of in a web page as a background image?
+
+Answer:
+
+To make a picture a background image on a web page, you should put the following tag code after the </head> tag.
+
+<body background = "google.gif">
+Here, replace the "google.gif" with the name of your image file which you want to display on your web page
+
+
 Javascript
 -----------
 
-13.How can you make an image draggable in html?
+14.How can you make an image draggable in html?
 Answer:
 The native drag and drop API, this was achievable by writing Javascript programming or external frameworks like jQuery.To enable this functionality there is a draggable attribute in the <img> tag and need to set ondrop and ondragover attribute to an eventhandler available in scripts.
 
@@ -403,7 +413,7 @@ Html allows event trigger actions in browsers using javascript. There are a lot 
    </script>
 </html>
 
-14.how to get the location - latitude and logitude position using html and javascript code
+15.how to get the location - latitude and logitude position using html and javascript code
 
 Answer:
 <!DOCTYPE html>
@@ -431,7 +441,7 @@ Answer:
   </body>
 </html>
 
-15.How the Web components can be used in Html using javascript?
+16.How the Web components can be used in Html using javascript?
 Answer:
 	The Web components are composed of javascript API's to define custom elements,shadowing DOM tree and html templates.
 	<!DOCTYPE html>
@@ -519,7 +529,7 @@ const slottedSpan = document.querySelector('my-para span');
 console.log(slottedSpan.assignedSlot);
 console.log(slottedSpan.slot);
 
-16.How to include javascript code in HTML?
+17.How to include javascript code in HTML?
 
 Answer:
 Html provides a <script> tag using which we can run the javascript code and make our Html page more dynamic.
