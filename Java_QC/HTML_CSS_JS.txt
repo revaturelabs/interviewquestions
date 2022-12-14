@@ -148,6 +148,21 @@ The effect on a normal webpage of the tags <strong>, <b>  and <em>, <i> is the s
 Answer:
 Html provides two table attributes "rowspan" and "colspan" to make a cell span to multiple rows and columns respectively.
 
+How can we display a web page inside a web page or nesting of webpages is possible in html?
+Yes, we can display a web page inside another HTML web page. HTML provides a tag <iframe> using which we can achieve this functionality.
+
+<iframe src=" A WebPage inside another webpage "/>
+
+34.How can we change an inline element into a block level element?
+
+Answer:
+we can change the inline element into a block-level element using the "display" property with its value as "block".
+
+35.What is the difference between "display: none" and "visibility: hidden", when used as attributes to the HTML element?
+Answer:
+When we use the attribute "visibility: hidden" for an HTML element then that element will be hidden from the webpage but still takes up space. Whereas, if we use the "display: none" attribute for an HTML element then the element will be hidden, and also it won’t take up any space on the webpage.
+
+
  CSS
  ---
  
@@ -503,3 +518,22 @@ constructor() {
 const slottedSpan = document.querySelector('my-para span');
 console.log(slottedSpan.assignedSlot);
 console.log(slottedSpan.slot);
+
+16.How to include javascript code in HTML?
+
+Answer:
+Html provides a <script> tag using which we can run the javascript code and make our Html page more dynamic.
+
+<!DOCTYPE html>
+<html>
+   <body>
+    <h1>
+          <span>Javascript page </span>
+          <u><span id="javascript demo"></span></u>
+   </h1>
+   <script>
+       document.getElementById("javascript demo").innerHTML = "Javascript tag"
+   </script>
+   </body>
+</html>
+
