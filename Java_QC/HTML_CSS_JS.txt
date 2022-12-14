@@ -110,6 +110,10 @@ Answer:
 26. When using the ______ method, after the submission of the form, the form values will NOT be visible in the address bar of the browser.
 Answer:
        POST
+       
+27.What are Semantic Elements?
+Answer:
+Semantic elements are those which has some particular meaning to the browser and the developer. Elements like <form>, <table>, <article>, <figure>, etc., are semantic elements
  
  CSS
  ---
@@ -139,10 +143,28 @@ Answer:
     <link rel="stylesheet" type="text/css" href="style.css">
     
 33. What are raster images and vector images?
+Answer:
 Raster Images - The arrangement of pixels in a grid with exactly what color the pixel should be. Few raster file formats include PNG(.png), JPEG(.jpg), etc.
 Vector Images - The algorithms with shape and path definitions that can be used to render the image on-screen written in a similar markup fashion. The file extension is .svg
-  
-     
+
+34.What is web storage in html?
+Answer:
+The web storage is used to store the static data in the local storage of the browser so that we do not need to fetch it from the server every time we need it. There is a size limit based on different browsers. This helps in decreasing the load time and a smooth user experience. There are two types of web storage that are used to store data locally in html:
+
+Local Storage - This helps in storing data that will be retained even though the user reopens the browser. It is stored for each webapp on different browsers.
+Session Storage - This is used for one session only. After the user closes the browser this gets deleted.
+
+35.What is Image Map?
+Answer:
+Image Map lets a developer map/link different parts of images with the different web pages. It can be achieved by the <map> tag in html,which we can link images with clickable areas.
+
+36.When to use scripts in the head and when to use scripts in the body?
+
+Answer:
+If the scripts contain some event-triggered functions then we should use them in the head section. If the script writes the content on the page or is not inside a function then it should be placed inside the body section at the bottom. we have to place library scripts or event scripts in the head section.
+and can have normal scripts that do not write anything on the page, in the head section until there is any performance issue.we can place scripts that render something on the web page at the bottom of the body section
+
+
  
  
  
@@ -428,4 +450,28 @@ Answer:
         <source src="audio1.mp3" type="audio/mpeg">
     </audio>
    
+16.How to handle events in HTML?
+
+Answer:
+Html allows event trigger actions in browsers using javascript. There are a lot of events like 'onclick', 'ondrag', 'onchange', etc.
+
+<!DOCTYPE html>
+<html>
+   <body style="padding-top:30px">
+       <h3 id="demo_event">1</h3>
+       <input type="button" onclick="Function1()" value="Click on Events" />
+       <input type="reset" onclick="reset()" value="Reset" />
+   </body>
+   
+   <script>
+       function myFunction() {
+           var val = document.getElementById("demo_event").innerHTML
+           val = parseInt(val) + 1;
+           document.getElementById("demo_event").innerHTML = val;
+       }
+       function reset() {
+           document.getElementById("demo_event").innerHTML = 0;
+       }
+   </script>
+</html>
    
