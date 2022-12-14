@@ -114,7 +114,40 @@ Answer:
 27.What are Semantic Elements?
 Answer:
 Semantic elements are those which has some particular meaning to the browser and the developer. Elements like <form>, <table>, <article>, <figure>, etc., are semantic elements
- 
+
+28. What are raster images and vector images?
+Answer:
+Raster Images - The arrangement of pixels in a grid with exactly what color the pixel should be. Few raster file formats include PNG(.png), JPEG(.jpg), etc.
+Vector Images - The algorithms with shape and path definitions that can be used to render the image on-screen written in a similar markup fashion. The file extension is .svg
+
+29.What is web storage in html?
+Answer:
+The web storage is used to store the static data in the local storage of the browser so that we do not need to fetch it from the server every time we need it. There is a size limit based on different browsers. This helps in decreasing the load time and a smooth user experience. There are two types of web storage that are used to store data locally in html:
+
+Local Storage - This helps in storing data that will be retained even though the user reopens the browser. It is stored for each webapp on different browsers.
+Session Storage - This is used for one session only. After the user closes the browser this gets deleted.
+
+30.What is Image Map?
+Answer:
+Image Map lets a developer map/link different parts of images with the different web pages. It can be achieved by the <map> tag in html,which we can link images with clickable areas.
+
+31.When to use scripts in the head and when to use scripts in the body?
+
+Answer:
+If the scripts contain some event-triggered functions then we should use them in the head section. If the script writes the content on the page or is not inside a function then it should be placed inside the body section at the bottom. we have to place library scripts or event scripts in the head section.
+and can have normal scripts that do not write anything on the page, in the head section until there is any performance issue.we can place scripts that render something on the web page at the bottom of the body section
+
+32.How can you differentiate <strong>, <b> tags and <em>, <i> tags?
+
+Answer:
+
+The effect on a normal webpage of the tags <strong>, <b>  and <em>, <i> is the same. <b> and <i> tags stands for bold and italic. These two tags only apply font styling and bold tag <b>, just adds more ink to the text, these tags don't say anything about the text.Whereas, <strong> and <em> tags represent that the span of text is of more importance  and emphatic stress respectively than the rest of the text.
+
+33.How can we club two or more rows or columns into a single row or column in an HTML table?
+
+Answer:
+Html provides two table attributes "rowspan" and "colspan" to make a cell span to multiple rows and columns respectively.
+
  CSS
  ---
  
@@ -142,27 +175,19 @@ Answer:
 Answer:
     <link rel="stylesheet" type="text/css" href="style.css">
     
-33. What are raster images and vector images?
-Answer:
-Raster Images - The arrangement of pixels in a grid with exactly what color the pixel should be. Few raster file formats include PNG(.png), JPEG(.jpg), etc.
-Vector Images - The algorithms with shape and path definitions that can be used to render the image on-screen written in a similar markup fashion. The file extension is .svg
-
-34.What is web storage in html?
-Answer:
-The web storage is used to store the static data in the local storage of the browser so that we do not need to fetch it from the server every time we need it. There is a size limit based on different browsers. This helps in decreasing the load time and a smooth user experience. There are two types of web storage that are used to store data locally in html:
-
-Local Storage - This helps in storing data that will be retained even though the user reopens the browser. It is stored for each webapp on different browsers.
-Session Storage - This is used for one session only. After the user closes the browser this gets deleted.
-
-35.What is Image Map?
-Answer:
-Image Map lets a developer map/link different parts of images with the different web pages. It can be achieved by the <map> tag in html,which we can link images with clickable areas.
-
-36.When to use scripts in the head and when to use scripts in the body?
+33.What are the different ways which  we can specify the CSS styles for the HTML element?
 
 Answer:
-If the scripts contain some event-triggered functions then we should use them in the head section. If the script writes the content on the page or is not inside a function then it should be placed inside the body section at the bottom. we have to place library scripts or event scripts in the head section.
-and can have normal scripts that do not write anything on the page, in the head section until there is any performance issue.we can place scripts that render something on the web page at the bottom of the body section
+There are three ways in which we can specify the styles for HTML elements:
+
+Inline: we use the <style> attribute inside the HTML element.
+Internal: we use the <style> tag inside the <head> tag. To apply the style we bind the elements using 'id' or 'class' attributes.
+External:we use the <link> tag inside <head> tag to reference the CSS file into our HTML code. Again the binding between elements and styles is done using 'id' or 'class' attributes.
+
+
+
+
+
 
 
  
@@ -261,9 +286,137 @@ Answer:
  9. Alex wanted to apply the border-radius property to an element such that only the top-right and bottom-left corners will be rounded. Which of the following option can be used by Alex?
 Answer:
       border-radius: 0 12px 0 12px;
-      
 
-10.How the Web components can be used in Html?
+
+10.How the images can be responsive in html?
+Answer:
+we can use <picture> element to make image responsive.
+
+<picture>
+ <source media="(min-width: 500px)" srcset="india.jpg">
+ <img src="india.jpg" style="width:auto;">
+</picture>
+
+11.How the novalidate attribute can be used in the form tag in html code
+Answer:
+The attibute value is a boolean type that indicates whether or not the data being submitted by the form will be validated beforehand. By making this false, forms can be submitted without validation which helps users to resume later also.
+
+<form action = "" method = "get" novalidate>
+       Name:<br><input type="name" name="firstname"><br>
+       Number:<br><input type="number" name="dnumber"><br>
+        <input type="submit" value="Submit">
+</form>
+
+
+
+12.How the media elements tags can be used in html?
+Answer:
+<audio> - It is used for sounds, audio streams, or music, and embed audio content.
+<video> - It is used for video streams, and  embed video content etc.
+<source> - It is used for multiple media resources in media elements, such as audio, video, etc.
+<embed> - It is used for an external application or embedded content.
+<track> - It is used for subtitles in the media elements such as video or audio.
+<label>
+       Video:
+   </label>
+    <video width="320" height="240" controls>
+        <source src="video1.mp4" type="video/mp4">
+        <track src="sub.vtt" kind="subtitles" srclang="en" label="English">
+    </video>
+    <br>
+    <label>
+        Embed:
+    </label>
+    <embed type="video/webm" src="https://www.youtube.com/embed/KPpKOIYU1ew" width="400" height="300">
+    <br>
+    <label>
+        Audio:
+    </label>
+    <audio controls>
+        <source src="audio1.mp3" type="audio/mpeg">
+    </audio>
+
+Javascript
+-----------
+
+13.How can you make an image draggable in html?
+Answer:
+The native drag and drop API, this was achievable by writing Javascript programming or external frameworks like jQuery.To enable this functionality there is a draggable attribute in the <img> tag and need to set ondrop and ondragover attribute to an eventhandler available in scripts.
+
+<!DOCTYPE HTML>
+<html>
+ <head>
+   <script>
+     function allowDrop(dd) {
+       dd.preventDefault();
+     }
+     function drop(dd) {
+       ...
+     }
+   </script>
+ </head>
+ <body>
+   ...
+   <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" style="border: 3px solid #aaaaaa; width:400px; height: 100px;"></div>
+   <br>
+   <img id="drag1" src="img1.gif" draggable="true" width="450" height="75">
+    ...
+ </body>
+</html>
+16.How to handle events in HTML using javascript?
+
+Answer:
+Html allows event trigger actions in browsers using javascript. There are a lot of events like 'onclick', 'ondrag', 'onchange', etc.
+
+<!DOCTYPE html>
+<html>
+   <body style="padding-top:30px">
+       <h3 id="demo_event">1</h3>
+       <input type="button" onclick="Function1()" value="Click on Events" />
+       <input type="reset" onclick="reset()" value="Reset" />
+   </body>
+   
+   <script>
+       function myFunction() {
+           var val = document.getElementById("demo_event").innerHTML
+           val = parseInt(val) + 1;
+           document.getElementById("demo_event").innerHTML = val;
+       }
+       function reset() {
+           document.getElementById("demo_event").innerHTML = 0;
+       }
+   </script>
+</html>
+
+14.how to get the location - latitude and logitude position using html and javascript code
+
+Answer:
+<!DOCTYPE html>
+<html>
+  <body>
+     <p>Click this button to get your coordinates.</p>
+     <button onclick="getLoc()">Try It</button>
+     <p id="getlocation"></p>
+     <script>
+        var a = document.getElementById("locationdemo");
+        
+        function getLoc() {
+          if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition);
+          } else { 
+            a.innerHTML = "The location can be identified by longitude and latitude";
+          }
+        }
+        
+        function showPosition(position) {
+          a.innerHTML = "Latitude: " + position.coords.latitude + 
+         "<br>Longitude: " + position.coords.longitude;
+        }
+     </script>
+  </body>
+</html>
+
+15.How the Web components can be used in Html using javascript?
 Answer:
 	The Web components are composed of javascript API's to define custom elements,shadowing DOM tree and html templates.
 	<!DOCTYPE html>
@@ -350,128 +503,3 @@ constructor() {
 const slottedSpan = document.querySelector('my-para span');
 console.log(slottedSpan.assignedSlot);
 console.log(slottedSpan.slot);
-
-11.how to get the location - latitude and logitude position using html and javascript code
-
-Answer:
-<!DOCTYPE html>
-<html>
-  <body>
-     <p>Click this button to get your coordinates.</p>
-     <button onclick="getLoc()">Try It</button>
-     <p id="getlocation"></p>
-     <script>
-        var a = document.getElementById("locationdemo");
-        
-        function getLoc() {
-          if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(showPosition);
-          } else { 
-            a.innerHTML = "The location can be identified by longitude and latitude";
-          }
-        }
-        
-        function showPosition(position) {
-          a.innerHTML = "Latitude: " + position.coords.latitude + 
-         "<br>Longitude: " + position.coords.longitude;
-        }
-     </script>
-  </body>
-</html>
-
-12.How the images can be responsive in html?
-Answer:
-we can use <picture> element to make image responsive.
-
-<picture>
- <source media="(min-width: 500px)" srcset="india.jpg">
- <img src="india.jpg" style="width:auto;">
-</picture>
-
-13.How the novalidate attribute can be used in the form tag in html code
-Answer:
-The attibute value is a boolean type that indicates whether or not the data being submitted by the form will be validated beforehand. By making this false, forms can be submitted without validation which helps users to resume later also.
-
-<form action = "" method = "get" novalidate>
-       Name:<br><input type="name" name="firstname"><br>
-       Number:<br><input type="number" name="dnumber"><br>
-        <input type="submit" value="Submit">
-</form>
-
-14.How can you make an image draggable in html?
-Answer:
-The native drag and drop API, this was achievable by writing Javascript programming or external frameworks like jQuery.To enable this functionality there is a draggable attribute in the <img> tag and need to set ondrop and ondragover attribute to an eventhandler available in scripts.
-
-<!DOCTYPE HTML>
-<html>
- <head>
-   <script>
-     function allowDrop(dd) {
-       dd.preventDefault();
-     }
-     function drop(dd) {
-       ...
-     }
-   </script>
- </head>
- <body>
-   ...
-   <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" style="border: 3px solid #aaaaaa; width:400px; height: 100px;"></div>
-   <br>
-   <img id="drag1" src="img1.gif" draggable="true" width="450" height="75">
-    ...
- </body>
-</html>
-
-15.How the media elements tags can be used in html?
-Answer:
-<audio> - It is used for sounds, audio streams, or music, and embed audio content.
-<video> - It is used for video streams, and  embed video content etc.
-<source> - It is used for multiple media resources in media elements, such as audio, video, etc.
-<embed> - It is used for an external application or embedded content.
-<track> - It is used for subtitles in the media elements such as video or audio.
-<label>
-       Video:
-   </label>
-    <video width="320" height="240" controls>
-        <source src="video1.mp4" type="video/mp4">
-        <track src="sub.vtt" kind="subtitles" srclang="en" label="English">
-    </video>
-    <br>
-    <label>
-        Embed:
-    </label>
-    <embed type="video/webm" src="https://www.youtube.com/embed/KPpKOIYU1ew" width="400" height="300">
-    <br>
-    <label>
-        Audio:
-    </label>
-    <audio controls>
-        <source src="audio1.mp3" type="audio/mpeg">
-    </audio>
-   
-16.How to handle events in HTML?
-
-Answer:
-Html allows event trigger actions in browsers using javascript. There are a lot of events like 'onclick', 'ondrag', 'onchange', etc.
-
-<!DOCTYPE html>
-<html>
-   <body style="padding-top:30px">
-       <h3 id="demo_event">1</h3>
-       <input type="button" onclick="Function1()" value="Click on Events" />
-       <input type="reset" onclick="reset()" value="Reset" />
-   </body>
-   
-   <script>
-       function myFunction() {
-           var val = document.getElementById("demo_event").innerHTML
-           val = parseInt(val) + 1;
-           document.getElementById("demo_event").innerHTML = val;
-       }
-       function reset() {
-           document.getElementById("demo_event").innerHTML = 0;
-       }
-   </script>
-</html>
-   
