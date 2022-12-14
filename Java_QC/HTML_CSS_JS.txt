@@ -199,6 +199,13 @@ Inline: we use the <style> attribute inside the HTML element.
 Internal: we use the <style> tag inside the <head> tag. To apply the style we bind the elements using 'id' or 'class' attributes.
 External:we use the <link> tag inside <head> tag to reference the CSS file into our HTML code. Again the binding between elements and styles is done using 'id' or 'class' attributes.
 
+42.Explain the CSS box model
+
+Answer:
+The CSS box model contains properties like orders, margin, padding, and the content itself.It is used to create the design and layout of web pages and the web browser supplies each element as a square prism to display the content.
+
+
+
 
 
 
