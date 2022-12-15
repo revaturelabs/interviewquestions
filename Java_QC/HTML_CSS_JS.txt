@@ -330,24 +330,59 @@ When HTML documents are loaded in the browser(which creates DOM), it will become
 62. What do you mean by Event and Event handling?
 Answer
 The change in the state of an object is known as an Event. In html, there are various events which represents that some activity is performed by the user or by the browser. When JavaScript code is included in HTML, JS react over these events and allow the execution. This process of reacting over the events is called Event Handling.
+-------------------------------------------------------------------------------------------------------------------------------
  
- 63. 
+63. What method can be used instead of this document.form1.name.value method?
+Answer:
+we can use the method document.getElementById() to get value of the input text.
+-------------------------------------------------------------------------------------------------------------------------------
+
+64. List out different types of errors in JavaScript?
+Answer:
+Run time errors- errors occurred due to misrepresentation of HTML commands.
+Load time errors- errors that occurred at the time of web page loading and may occur due to improper syntaxes
+Logical errors- errors may occur due to improper logical performance of the function.
+-------------------------------------------------------------------------------------------------------------------------------
+
+65. Explain about Event Bubbling.
+Answer
+Whenever an event happens on an element, the event handlers will first run on it and then on its parent element and finally all the way up to its other ancestor elements.
+-------------------------------------------------------------------------------------------------------------------------------
+
+66. Explain about Event Capturing .
+Answer
+It is the reverse of the event bubbling and here the event starts from the parent element and then to its nested child elements.
+-------------------------------------------------------------------------------------------------------------------------------
+
+67. List the states of Promise in JavaScript.
+Answer:
+fulfilled: Action related to the promise succeeded
+rejected: Action related to the promise failed
+pending: Promise is still pending i.e., not fulfilled or rejected yet
+settled: Promise has fulfilled or rejected
+-------------------------------------------------------------------------------------------------------------------------------
+68. Explain about Async/Await Function in JavaScript.
+Answer:
+Async allows us to write promises based code as if it was synchronous and it checks that we are not breaking the execution thread, which will always return a value.
+Await function is used to wait for the promise. It could be used within the async block only. It makes the code wait until the promise returns a result.
+-------------------------------------------------------------------------------------------------------------------------------
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- Coding
- ------
+69. Differentiate between Local storage & Session storage?
+Answer
+Local Storage – The data is not sent back to the server for every HTTP request , which will reduce the amount of traffic between client and server.
+Session Storage – The data stored in local storage has no expiration time, data stored in session storage gets cleared when the page session ends. Which will leave when the browser is closed.
+-------------------------------------------------------------------------------------------------------------------------------
+
+70. What is window object in JavaScript?
+Answer:
+It represents the browser's window.
+All global JavaScript objects, functions, and variables automatically become members of the window object.
+Global variables are properties of the window object.
+Global functions are methods of the window object.
+-------------------------------------------------------------------------------------------------------------------------------
+
+Coding
+------
  
  1. What will be the output of the following HTML code when it is rendered in the browser?
 <!DOCTYPE html>
@@ -473,28 +508,16 @@ Answer:
     </audio>
 -------------------------------------------------------------------------------------------------------------------------------
 13.How to insert a picture of in a web page as a background image?
-
 Answer:
 To make a picture a background image on a web page, you should put the following tag code after the </head> tag.
 
 <body background = "google.gif">
 Here, replace the "google.gif" with the name of your image file which you want to display on your web page
 -------------------------------------------------------------------------------------------------------------------------------
-14. How can the background color of an element be changed?
-Answer:
-The background color of an image can be changed using the background-color property.
-
-body
-{
-background-color: coral;
-}
-Javascript
------------
 
 14.How can you make an image draggable in html?
 Answer:
 The native drag and drop API, this was achievable by writing Javascript programming or external frameworks like jQuery.To enable this functionality there is a draggable attribute in the <img> tag and need to set ondrop and ondragover attribute to an eventhandler available in scripts.
-
 <!DOCTYPE HTML>
 <html>
  <head>
@@ -515,12 +538,11 @@ The native drag and drop API, this was achievable by writing Javascript programm
     ...
  </body>
 </html>
--------------------------------------------------------------------------------------------------------------------------------
-15.How to handle events in HTML using javascript?
+-----------------------------------------------------------------------------------------------------------------------------
 
+15.How to handle events in HTML using javascript?
 Answer:
 Html allows event trigger actions in browsers using javascript. There are a lot of events like 'onclick', 'ondrag', 'onchange', etc.
-
 <!DOCTYPE html>
 <html>
    <body style="padding-top:30px">
@@ -528,7 +550,6 @@ Html allows event trigger actions in browsers using javascript. There are a lot 
        <input type="button" onclick="Function1()" value="Click on Events" />
        <input type="reset" onclick="reset()" value="Reset" />
    </body>
-   
    <script>
        function myFunction() {
            var val = document.getElementById("demo_event").innerHTML
@@ -540,9 +561,9 @@ Html allows event trigger actions in browsers using javascript. There are a lot 
        }
    </script>
 </html>
--------------------------------------------------------------------------------------------------------------------------------
-16.how to get the location - latitude and logitude position using html and javascript code
+------------------------------------------------------------------------------------------------------------------------------
 
+16.how to get the location - latitude and logitude position using html and javascript code
 Answer:
 <!DOCTYPE html>
 <html>
@@ -568,6 +589,7 @@ Answer:
      </script>
   </body>
 </html>
+-------------------------------------------------------------------------------------------------------------------------------
 
 17.How the Web components can be used in Html using javascript?
 Answer:
@@ -575,7 +597,6 @@ Answer:
 	<!DOCTYPE html>
 <html>
  <head>
-
 <title>Web components</title>
 <script src="web.js" defer></script>
  </head>
@@ -585,7 +606,6 @@ Answer:
 <closed-shadow text="Shadowing - closed "></closed-shadow>
  </body>
 </html>
-
 customElements.define('open-shadow',class extends HTMLElement {
 constructor() {
   super();
@@ -610,8 +630,6 @@ document.querySelector('html').addEventListener('click', e => {
  console.log(e.composed);
  console.log(e.composedPath());
 });
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -657,11 +675,10 @@ const slottedSpan = document.querySelector('my-para span');
 console.log(slottedSpan.assignedSlot);
 console.log(slottedSpan.slot);
 -------------------------------------------------------------------------------------------------------------------------------
-18.How to include javascript code in HTML?
 
+18.How to include javascript code in HTML?
 Answer:
 Html provides a <script> tag using which we can run the javascript code and make our Html page more dynamic.
-
 <!DOCTYPE html>
 <html>
    <body>
@@ -675,7 +692,8 @@ Html provides a <script> tag using which we can run the javascript code and make
    </body>
 </html>
 -------------------------------------------------------------------------------------------------------------------------------
-What are the three main ways to apply CSS styles to a web page?
+
+19. What are the three main ways to apply CSS styles to a web page?
 Answer
 Using the inline style attribute on an element
 <div>
@@ -697,12 +715,53 @@ Loading an external CSS file using the <link> tag
     <link rel="stylesheet" href="/css/styles.css" />
 </head>
 -------------------------------------------------------------------------------------------------------------------------------
-How would you create a cookie?
+
+20. How would you create a cookie?
 Answer
 We can create a cookie as below:
 document.cookie = "key1 = value1; key2 = value2; expires = date";
 -------------------------------------------------------------------------------------------------------------------------------
-What method is used to break the cookie value in JavaScript?
+
+21. What method is used to break the cookie value in JavaScript?
 Answer
 split() method to break the cookie value into keys and values.
+-------------------------------------------------------------------------------------------------------------------------------
 
+22. How to attach an event handler in JavaScript?
+Answer:
+The addEventListener() method is an inbuilt function of JavaScript to add multiple event handlers to a particular element without overwriting the existing event handlers.
+Syntax:
+element.addEventListener(event, function, useCapture);
+-------------------------------------------------------------------------------------------------------------------------------
+
+23. How can the background color of an element be changed?
+Answer:
+The background color of an image can be changed using the background-color property.
+body
+{
+background-color: coral;
+}
+-------------------------------------------------------------------------------------------------------------------------------
+
+24. How to determine if the browser supports a certain feature using CSS?
+Answer:
+The @support in CSS can be very useful to scan if the current browser has support for a certain feature.
+@supports (display: grid) {
+	div {
+		display: grid;
+	}
+}
+-------------------------------------------------------------------------------------------------------------------------------
+
+25. How do you receive server-sent event notifications?
+Answer:
+The EventSource object is used to receive server-sent event notifications. For example, you can receive messages from server as below,
+
+if (typeof EventSource !== "undefined") {
+  var source = new EventSource("sse_generator.js");
+  source.onmessage = function (event) {
+    document.getElementById("output").innerHTML += event.data + "<br>";
+  };
+}
+
+-------------------------------------------------------------------------------------------------------------------------------
