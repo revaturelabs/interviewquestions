@@ -9,3 +9,65 @@ Answer:
 ASP.Net Core is an improved version of ASP.NET with richer functionalitiy, a more comfortable interface, new librariers, and other disctinctions.It is Cross-platform and available as an open-source tool
 ASP.Net MVC  is an applicaiton framework based on the Model-View-Controller architectural pattern and make decisions how to pass data to the view and how to expose your middle tier to the controllers.
 The requests resolved by invoking a method on a controller class
+
+3.Define Asynchronous programming?
+Answer:
+It is Utilizied for I/O-bound needs, requesting data from a network, accessing a database, or read/writes to a file system and it supports by the async and await keywords.The core of async programming are the Task objects like return types: 
+Task and Task<T.> (type)
+
+4.How is caching used in an ASP.NET application?
+Answer:
+Caching is used for building high-perforamce, scalable Web Applications and has ability to store items, whether data objects, pages, parts of a page into memory the initial time they are requested.It allows you to avoice recreating information that satisfied a previous request, particularly information that demands significant processor time or other resources
+
+5.How are filters used for in ASP.NET Core and differ from middleware? 
+Answer:
+It allows code to run before or after specific stages in the request processing piepline and handles cross-cutting concerns for error handling, caching, configuration, authorization, and logging.
+MVC filters only run for requests that come to MVC, while middleware operates on the level of ASP.NET Core cand can act on every single request that comes in to the application
+
+6.How Model binding done in ASP.Net?
+Answer:
+Model binding retrieves data from various sources such as route data, form fields, and query strings and it provides the data to controllers and Razor pages in method parameters and public properties.It converts string data to .NET types and updates properties of complex types.It retrieves data in the form of key-value pairs from various sources in an HTTP request.
+
+7.How are controllers used in ASP.Net?
+Answer:
+It is the  "brain" of an ASP.NET Core Application and process incoming HTTP requests and prepare the response to be sent to the clients.It perform operations on data provided through models and selects Views to render on the browser.
+
+8.How is middleware used in ASP.Net?
+Answer:
+It is a software which is  assembled into an application pipeline to handle requests and responses and request pipeline consists of a sequence of request delegates, called one after the other.To implement routing, we have to use the routing middleware in the HTTP request processing pipeline by authenticating and authorizing users to access a specific resource.It is used for 
+logging requests and handling exceptions.
+
+9.What are Data Annotations? 
+Answer:
+.NET attributes which can be applied to an entity class or properties to override default codefirst conventions and they are used for Primary key and ForeignKey annotation.It is required to indicate the property which is required for the table to map the class name which is different from the table name in the database and the column to map the property name which is different from the column in the database.
+
+10.What is the DbContext Class? 
+Answer:
+It represents a session with the database  and a collection of tables and views in the database and can be used to query and save instances of your entities to a database.It is a combination of the unit of work and repository patterns.It adds a new entity to DbCo, inserted into database when SaveChanges() is called, can be used asynchronously and finds an entity with the given primary key values, can be used asynchronously.DbContext corresponds to a collection of tables or views in your database, while DbSet corresponds to a singular table or view.
+
+11.What is Entity Framework Core?
+Answer:
+Entity Framework Core is a  cross-platform version of Entity Framework and it enables .NET developers to work with a database using .NET objects.It eliminates the need for most of the data-access code that typically needs to be written and  data acess technology that can serve as an ORM.
+
+12.Define ORM?
+Answer:
+Object-Relational Mapping is a programming technique that abstracts your code from the database behind it and can easily switch between different databases without having to change your code.
+
+13.Explain the approaches of an Entity Framework Core?
+Answer:
+The Database first approach is traditional approach where we first create the database and its dependencies first, then manage it with the application.
+The Code first approach can be done by the database which is created by the model class and creating a class with required properties, setting the key and other attributes using Data Annotations.
+
+14.Explain OpenAPI in ASP.Net? 
+Answer:
+ASP.NET Core Web API, Swagger. OpenAPI is a specification, while Swagger is tooling that used the OpenAPI specification.A language-agnostic specification for describing REST APIs.It allows users to understand the capabilities of a REST API without direct access to the source code and minimizes the amount of work needed to connect decouple services and it describes the capabilities of your API which is based on the XML and attribute annotations within the controllers and models through openapi.json file.Swagger UI offers a web-based UI that provides information about the service, using the generated OpenAPI specification.
+
+15.What are the types of validation controls in Asp.net?
+Answer:
+- Required Field Validator
+- Range Validator
+- Compare Validator
+- Regular Expression Validator
+- Custom Validator
+- Validation Summary
+
