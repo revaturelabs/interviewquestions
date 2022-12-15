@@ -185,3 +185,26 @@ Answer:
 Answer:
 DataGrid is a Web server control for displaying information from a data source. It is easy to use and can display editable data in a professional-looking grid by setting only a few properties. 
 At the same time, the grid has a sophisticated object model that provides you with great flexibility in how the data is displayed.
+
+35.What is the use of "EnableViewState" property?
+
+Answer:
+Enable View State turns on the automatic state management feature that enables server controls to re-populate their values on a round trip without requiring any code. 
+since the state of a control is passed to and from the server in a hidden form.
+
+36.What is the difference between Server-side scripting and Client-side scripting?
+
+Answer:
+Server side scripting means that all the script will be executed by the server and interpreted as needed. ASP doesn't have some of the functionality like sockets, uploading, etc.
+Client side scripting means that the script will be executed immediately in the browser such as form field validation, clock, email validation, etc. Client side scripting is usually done in VBScript or JavaScript.
+
+37.Which is the ASP.Net class reads the contents of a form after the user clicks the Submit button?
+
+Answer:
+The HttpResponse class reads the content of the form. This class can be accessed using the Response object, where you can use the form or parameters collection to find each form entry.
+
+38.What are ASP.NET Web Forms?
+
+Answer:
+Web Forms are the User Interface (UI) elements that gives Web applications their look and feel. Web Forms are similar to Windows Forms in that they provide properties/ methods, and events for the controls that are placed onto them.
+However, these UI elements render themselves in the appropriate markup language required by the request, e.g. HTML. 
