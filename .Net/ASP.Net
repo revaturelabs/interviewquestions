@@ -111,3 +111,34 @@ Authorization allowing access of specific resource to user.
 Answer:
 Server side code is executed at the server side on IIS in Asp.NET framework, while client side code is executed on the browser.
 
+23.How do you turn off cookies for one page in the site?
+Answer:
+We have to use the Cookie.Discard Property which gets or sets the discard flag set by the server. When true, this property instructs the client application not to save the Cookie on the user's hard disk when a session ends.
+
+24.How can you differentiate between a Web Service and a Web server?
+Answer:
+A Web Service uses custom code to provide functions to client programs located somewhere on the Internet. A Web server listens for Internet requests, such as HTTP or SOAP requests, and responds with files. Most Web Services use a Web server to "feed" them with requests from clients and to "push" data back to client programs.
+
+25.How to Manage State in ASP.Net?
+Answer:
+There are several ways to manage a state.
+- ViewState
+- QueryString
+- Cookies
+- Session
+- Application
+
+26.What is the difference between "Web.config" and "Machine.config"?
+
+Answer:
+"Web.config" files apply settings to each web application,but whereas "Machine.config" file apply settings to all ASP.NET applications.
+
+27.What is the sequence in which ASP.NET events are processed?
+
+Answer:
+- Page_Init
+- Page Load
+- Control Events
+- Page-Unload Events
+
+
