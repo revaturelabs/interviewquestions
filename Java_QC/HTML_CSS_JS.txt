@@ -116,49 +116,49 @@ Answer:
 Answer:
 Semantic elements are those which has some particular meaning to the browser and the developer. Elements like <form>, <table>, <article>, <figure>, etc., are semantic elements
 -------------------------------------------------------------------------------------------------------------------------------
+
 28. What are raster images and vector images?
 Answer:
 Raster Images - The arrangement of pixels in a grid with exactly what color the pixel should be. Few raster file formats include PNG(.png), JPEG(.jpg), etc.
 Vector Images - The algorithms with shape and path definitions that can be used to render the image on-screen written in a similar markup fashion. The file extension is .svg
 -------------------------------------------------------------------------------------------------------------------------------
+
 29.What is web storage in html?
 Answer:
 The web storage is used to store the static data in the local storage of the browser so that we do not need to fetch it from the server every time we need it. There is a size limit based on different browsers. This helps in decreasing the load time and a smooth user experience. There are two types of web storage that are used to store data locally in html:
-
 Local Storage - This helps in storing data that will be retained even though the user reopens the browser. It is stored for each webapp on different browsers.
 Session Storage - This is used for one session only. After the user closes the browser this gets deleted.
 -------------------------------------------------------------------------------------------------------------------------------
+
 30.What is Image Map?
 Answer:
 Image Map lets a developer map/link different parts of images with the different web pages. It can be achieved by the <map> tag in html,which we can link images with clickable areas.
 -------------------------------------------------------------------------------------------------------------------------------
-31.When to use scripts in the head and when to use scripts in the body?
 
+31.When to use scripts in the head and when to use scripts in the body?
 Answer:
 If the scripts contain some event-triggered functions then we should use them in the head section. If the script writes the content on the page or is not inside a function then it should be placed inside the body section at the bottom. we have to place library scripts or event scripts in the head section.
 and can have normal scripts that do not write anything on the page, in the head section until there is any performance issue.we can place scripts that render something on the web page at the bottom of the body section
 -------------------------------------------------------------------------------------------------------------------------------
+
 32.How can you differentiate <strong>, <b> tags and <em>, <i> tags?
-
 Answer:
-
 The effect on a normal webpage of the tags <strong>, <b>  and <em>, <i> is the same. <b> and <i> tags stands for bold and italic. These two tags only apply font styling and bold tag <b>, just adds more ink to the text, these tags don't say anything about the text.Whereas, <strong> and <em> tags represent that the span of text is of more importance  and emphatic stress respectively than the rest of the text.
--------------------------------------------------------------------------------------------------------------------------------
-33.How can we club two or more rows or columns into a single row or column in an HTML table?
+---------------------------------------------------------------------------------------------------------------------------
 
+33.How can we club two or more rows or columns into a single row or column in an HTML table?
 Answer:
 Html provides two table attributes "rowspan" and "colspan" to make a cell span to multiple rows and columns respectively.
-
 How can we display a web page inside a web page or nesting of webpages is possible in html?
 Yes, we can display a web page inside another HTML web page. HTML provides a tag <iframe> using which we can achieve this functionality.
-
 <iframe src=" A WebPage inside another webpage "/>
 -------------------------------------------------------------------------------------------------------------------------------
-34.How can we change an inline element into a block level element?
 
+34.How can we change an inline element into a block level element?
 Answer:
 we can change the inline element into a block-level element using the "display" property with its value as "block".
--------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
+
 35.What is the difference between "display: none" and "visibility: hidden", when used as attributes to the HTML element?
 Answer:
 When we use the attribute "visibility: hidden" for an HTML element then that element will be hidden from the webpage but still takes up space. Whereas, if we use the "display: none" attribute for an HTML element then the element will be hidden, and also it won’t take up any space on the webpage.
@@ -171,6 +171,7 @@ When we use the attribute "visibility: hidden" for an HTML element then that ele
 Answer:
 	id 
 -------------------------------------------------------------------------------------------------------------------------------
+
 36. Using an attribute selector, how would you select an <a> element with a "title" attribute?
 Answer:
 	a[title]{...}
@@ -195,32 +196,26 @@ Answer:
 
 Answer:
 There are three ways in which we can specify the styles for HTML elements:
-
 Inline: we use the <style> attribute inside the HTML element.
 Internal: we use the <style> tag inside the <head> tag. To apply the style we bind the elements using 'id' or 'class' attributes.
 External:we use the <link> tag inside <head> tag to reference the CSS file into our HTML code. Again the binding between elements and styles is done using 'id' or 'class' attributes.
 -------------------------------------------------------------------------------------------------------------------------------
-42.Explain the CSS box model
 
+42.Explain the CSS box model
 Answer:
 The CSS box model contains properties like orders, margin, padding, and the content itself.It is used to create the design and layout of web pages and the web browser supplies each element as a square prism to display the content.
 -------------------------------------------------------------------------------------------------------------------------------
 
 43. Which type of CSS holds the highest priority?
 Answer:
-
 Inline CSS has the highest priority, then comes Internal/Embedded followed by External CSS which has the least priority. Multiple style sheets can be defined on one page. If for an HTML tag, styles are defined in multiple style sheets then the below order will be followed.
-
 As Inline has the highest priority, any styles that are defined in the internal and external style sheets are overridden by Inline styles.
-
 Internal or Embedded stands second in the priority list and overrides the styles in the external style sheet.
-
 External style sheets have the least priority. If there are no styles defined either in the inline or internal style sheet, then external style sheet rules are applied for the HTML tags.
 -------------------------------------------------------------------------------------------------------------------------------
 
 44. List the components of a CSS Style?
 Answer: CSS Style is composed of the following elements:
-
 Selector: It is an HTML tag at which a style will be applied.
 Property: It is a type of attribute of HTML tag.
 Value: These are assigned to properties.
@@ -241,9 +236,7 @@ CSS border properties allow us to set the style, color, and width of the border.
 47. What are the differences between inline, block and inline block?
 Answer:
 - inline, elements do not break the flow. think of span it fits in the line. Important points about inline elements, margin/ padding will push other elements horizontally not vertically. Moreover, inline elements ignore height and width.
-
 - block, breaks the flow and don’t sit inline. they are usually container like div, section, ul and also text p, h1, etc.
-
 - inline block, will be similar to inline and will go with the flow of the page. Only differences are, this will take height and width.
 -------------------------------------------------------------------------------------------------------------------------------
 
@@ -267,15 +260,14 @@ JavaScript
 
 51. Mention the different data types present in JavaScript.
 Answer:
-
 There are two types of data types to hold different types of values in JavaScript.
 Primitive types- String, Number, Boolean, Undefined, Null
 Non-primitive (reference) data type - Object, Array, RegExp
 -------------------------------------------------------------------------------------------------------------------------------
+
 52. Do we need to specify type of the variable in JavaScript?
 Answer
 No, JavaScript is a dynamic type language , so no need to specify type of the variable because it is dynamically used by JavaScript engine
-
 -------------------------------------------------------------------------------------------------------------------------------
  
  53. Explain about the scopes of a variable in JavaScript?
@@ -288,21 +280,58 @@ Local Scope -The Local Scope has divided into the Function scope, the Block scop
   Lexical Scope -Lexical scope is that a variable defined outside a function can access the inside another 		   
   function defined after the variable declaration. The inner functions are lexically bound to the execution context of their  
   outer functions.
-  
+-------------------------------------------------------------------------------------------------------------------------------
+   
 54. Explain Hoisting in JavaScript.
 Answer:
 Hoisting is the default behavior of JavaScript where all the variable and function declarations are moved on top, irrespective of where the variables and functions are declared, they are moved on top of the scope. The scope can be both local and global.
-
+-------------------------------------------------------------------------------------------------------------------------------
+ 
 55. When should we use ‘for loop’  in JavaScript?
 Answer:
 It iterates the elements for the fixed number of times. It should be used if the number of iterations is known.
+-------------------------------------------------------------------------------------------------------------------------------
+ 
+56. What is the use of this keyword in JavaScript?
+Answer:
+Which refers to the currently calling object. It is commonly used in constructors to assign values to object properties.
+-------------------------------------------------------------------------------------------------------------------------------
+ 
+57. Explain about Callback functions in JavaScript?
+Answer:
+In JavaScript, functions are objects and therefore, functions can take other functions as arguments and can also be returned by other functions.
+Callback is a JavaScript function that is passed to another function as an argument or a parameter. This function is to be executed whenever the function that it is passed to gets executed.
+-------------------------------------------------------------------------------------------------------------------------------
 
-56. 
+58. Differentiate between let and var?
+Answer
+Both let and var are used for variable and method declarations in JavaScript. var keyword is scoped by function, the let keyword is scoped by a block.
+-------------------------------------------------------------------------------------------------------------------------------
 
+59. Differentiate between == vs === in JavaScript?
+Answer
+== is used for comparison between two variables irrespective of the data type of variable.
+=== is used for comparison between two variables but this will check strict type, which means it will check datatype and compare two values.
+Example:
+5 == '5' // Returns true
+5 === '5' // Returns False
+-------------------------------------------------------------------------------------------------------------------------------
+
+60. Explain the use of Promise in JavaScript.
+Answer:
+It is an object that may produce value in the future(either a resolved value, or a reason that it's not resolved). It is always in one of the possible states: fulfilled, rejected, or pending. Promises provide an alternative approach for callbacks by reducing the callback and writing the cleaner code.
+-------------------------------------------------------------------------------------------------------------------------------
+
+61. What is DOM(Document Object Model)?
+Answer
+When HTML documents are loaded in the browser(which creates DOM), it will become a document object which is the root element that represents the HTML document. Each DOM element has various properties and methods through which we can add dynamic content to our web page according to the required behavior.
+-------------------------------------------------------------------------------------------------------------------------------
+
+62. What do you mean by Event and Event handling?
+Answer
+The change in the state of an object is known as an Event. In html, there are various events which represents that some activity is performed by the user or by the browser. When JavaScript code is included in HTML, JS react over these events and allow the execution. This process of reacting over the events is called Event Handling.
  
- 
- 
- 
+ 63. 
  
  
  
@@ -667,6 +696,13 @@ Loading an external CSS file using the <link> tag
     <title>CSS Refresher</title>
     <link rel="stylesheet" href="/css/styles.css" />
 </head>
-
-
+-------------------------------------------------------------------------------------------------------------------------------
+How would you create a cookie?
+Answer
+We can create a cookie as below:
+document.cookie = "key1 = value1; key2 = value2; expires = date";
+-------------------------------------------------------------------------------------------------------------------------------
+What method is used to break the cookie value in JavaScript?
+Answer
+split() method to break the cookie value into keys and values.
 
