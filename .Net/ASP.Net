@@ -1,0 +1,11 @@
+ASP.Net
+-------
+1.Define ASP.NET?
+Answer:
+.NET web development framework for developing Web APIs, internet connected apps, associated with UI.It is Open source for building modern web apps and services.It is base framework for processing web requests in C#.It is Web-page templating syntax for building dynamic web pages.
+
+2.How can you differentiate between ASP.Net core and ASP.Net MVC?
+Answer:
+ASP.Net Core is an improved version of ASP.NET with richer functionalitiy, a more comfortable interface, new librariers, and other disctinctions.It is Cross-platform and available as an open-source tool
+ASP.Net MVC  is an applicaiton framework based on the Model-View-Controller architectural pattern and make decisions how to pass data to the view and how to expose your middle tier to the controllers.
+The requests resolved by invoking a method on a controller class
