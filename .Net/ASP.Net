@@ -141,4 +141,47 @@ Answer:
 - Control Events
 - Page-Unload Events
 
+28.What is a postback? and when is it used in ASP.NET Web forms?
 
+Answer:
+A postback is the name for the page request that an ASP.NET page sends to itself when a Web control is activated, such as when users click a button.
+Most Web forms use the HTML form control, which allows users to submit data using HTTP Post requests.
+
+29.What is Session and Application object?
+
+Answer:
+Session object store information between HTTP requests for a particular user, while application object are global across users.
+
+30.What are different types of directives in .NET?
+Answer:
+The different types of directive in .Net are : @Page, @Control, @Import, @Implement, @Register, @Assembly, @OutputCache, @Reference
+
+31.What are cookies?
+Answer:
+Cookies are small pieces of text, stored on the client's computer to be used only by the website setting the cookies. 
+This allows webapplications to save information for the user, and then re-use it on each page if needed.
+
+32.What is Marshaling?
+
+Answer:
+Marshaling is used when an object is converted so that it can be sent across the networks or across applications domains.
+
+33.What are the major events in Global.Asax file?
+
+Answer:
+- Application_Init
+- Application Disposed
+- Application Error
+- Application Start
+- Application End
+- Application_BeginRequest
+- Application_EndRequest
+- Session Start
+- Session End
+- Application_AuthorizationRequest
+
+34.Define Datagrid?
+
+Answer:
+DataGrid is a Web server control for displaying information from a data source. It is easy to use and can display editable data in a professional-looking grid by setting only a few properties. 
+At the same time, the grid has a sophisticated object model that provides you with great flexibility in how the data is displayed.
