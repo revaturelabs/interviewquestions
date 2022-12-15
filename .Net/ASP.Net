@@ -71,3 +71,43 @@ Answer:
 - Custom Validator
 - Validation Summary
 
+16.How can you differentiate server-side and client-side caching?
+Answer:
+Server-side caching caches output before it's sent to the browser. Subsequent requests to that data will retrieve from the cache.
+Client-side caching stores data like pages accessed over the Internet on a user's hard drive so that it doesn't need to be downloaded again.
+
+17.Explain the validation controls in ASP.Net?
+Answer:
+Required Field Validator checks whether the control have any value. It is used when you want the control should not be empty. 
+Range Validator checks if the value in validated controls is in that specific range. 
+Compare Validator checks that the value in controls should match some specific value. 
+Regular Expression Validator When we want the control, value should match with a specific regular expression. 
+Custom Validator is used to define user defined validation.
+
+18.What is a bubbled event?
+Answer:
+When there is a complex control, like DataGrid, writing an event processing routine for each object like cell, button, row, etc. is quite tedious. The controls can bubble up their event handlers, allowing the main DataGrid event handler to take care of its constituents.
+
+19.What are the different ways of handling state in ASP.Net Web forms?
+Answer:
+We can handle state in ASP.NET Web applications by using :
+- Cookies
+- Query strings
+- Hidden fields
+- Session
+- Application objects
+
+20.How can you differentiate between Server.Transfer and Response.Redirect?
+Answer:
+Server.Transfer does not send any message to the browser but rather redirects the user directly from the server itself.
+Response. Redirect sends message to the browser saying it to move to some different page.
+
+21.What is the difference between Authentication and Authorization?
+Answer: 	
+Authentication is the process of identifying/validating the user against the credentials (username and password) and Authorization performs after authentication.Authorization is the process of granting access to those users based on identity.
+Authorization allowing access of specific resource to user.
+
+22.What is the difference between Server-side and client-side code?
+Answer:
+Server side code is executed at the server side on IIS in Asp.NET framework, while client side code is executed on the browser.
+
