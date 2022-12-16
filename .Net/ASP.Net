@@ -315,12 +315,27 @@ of web.config. These are available in multiple directories of web application se
 web.config files to compute collection of settings for every URL target request, at run time. These 
 settings computer once and cached across further requests
 
+47.What is state management?
+
+Answer:
+State management is used to trace information or data that affect the state of applications. In .Net 
+framework, state can be maintained by the following mechanism
+• Client based state management uses the following techniques for implementation 
+- View State
+- Hidden Fields
+- Cookies
+- Query Strings
+- Control State 
+• Server-based state management uses following techniques for implementation 
+- Session State
+- Profile Properties
+- Application stat
 
 Coding
 ------
 
 
-47.How can we cache multiple responses from a single web form?
+48.How can we cache multiple responses from a single web form?
 
 Answer:
 We can cache multiple response from a single web form by using any one of the attributes from VaryByParam, VaryByHeaders or VaryByCustom attributes.
@@ -335,7 +350,7 @@ Example: If we want display different places like city data on our page where we
        <asp: ListItem Text="Mumbai" Value=" mumbai "></asp: ListItem>
     </asp:DropDownList>
 
-48.Explain partial classes
+49.Explain partial classes
 
 Answer:
 While programming in C#, we can split the definition of a class over two or more source files. The source files contain a section of the definition of class, and all parts are combined when the application is compiled. For splitting a class definition, we need to use the partial keyword.
@@ -391,7 +406,7 @@ namespace Rectangle
    }
 }
 
-49.Explain the different state management techniques in .Net?
+50.Explain the different state management techniques in .Net?
 
 Answer:
 
@@ -408,7 +423,7 @@ Session
 Application
 Server Side:-
 
-50. Session: when we want to store the data of web page over multiple requests we use session. In this technique we can store any kind of information or object in server memory it basically stores the information. The session is user specific since it stores the information of user separately. When we store data to Session state, a session cookie named is ASP.NET_SessionId is created automatically.
+51. Session: when we want to store the data of web page over multiple requests we use session. In this technique we can store any kind of information or object in server memory it basically stores the information. The session is user specific since it stores the information of user separately. When we store data to Session state, a session cookie named is ASP.NET_SessionId is created automatically.
 
 Example:
 
@@ -498,7 +513,7 @@ protected void Page_Load(object sender, EventArgs e)
   }
 }
 
-51.How to use nullable types in .Net?
+52.How to use nullable types in .Net?
 
 As we know we cannot assign the null value to any value type so for that we use nullable type where we can assign null value to the value type variables.
 
@@ -555,7 +570,7 @@ static void Main(string[] args)
 }
 
 
-52.What are the extension methods and where can we use them?
+53.What are the extension methods and where can we use them?
 
 Answer:
 
@@ -589,7 +604,7 @@ Output:
 
 False
 
-53.What is the difference between "throw" and "throw ex" in .Net?
+54.What is the difference between "throw" and "throw ex" in .Net?
 
 Answer:
 
@@ -622,7 +637,7 @@ catch (Exception ex)
 throw;
 }
 
-54.Explain ViewState with an example?
+55.Explain ViewState with an example?
 
 Answer:
 
