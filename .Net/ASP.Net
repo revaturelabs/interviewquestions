@@ -208,3 +208,448 @@ The HttpResponse class reads the content of the form. This class can be accessed
 Answer:
 Web Forms are the User Interface (UI) elements that gives Web applications their look and feel. Web Forms are similar to Windows Forms in that they provide properties/ methods, and events for the controls that are placed onto them.
 However, these UI elements render themselves in the appropriate markup language required by the request, e.g. HTML. 
+
+39.What is the difference between ASP.Net Web API and WCF?
+
+Web API:
+It is a web Application Programming Interface
+It uses HTTP which is suitable for various protocols which support on various browser
+Web API   a simple class file with .cs (C#) extension
+Web API support JSON or XML
+It is not open source but it can be understood by the client who knows the Xml
+
+WCF:
+It is a Windows Communication Foundation
+Multiple protocols like: HTTP, HTTPS, Name Pipes, MSMQ,  etc., are supported and is allowed to switch between any of them
+The Extension of WCF service is .svc
+It support JSON,XML,ATOM data format
+If the client knows the XML then it doesn't meant for them
+
+40.Explain Cookie-less Session in ASP.Net?
+
+Answer:
+
+Sessions are used in ASP.NET applications for state management. Sessions also make use of cookies to associate sessions with the correct user. But when browser cookies are turned off then in that case cookie-less sessions are used. It appends the values to the browser’s URL that is required to associate with the user.
+
+By default sessions use a cookie in the background, to enable cookie-less sessions, the following settings are required to make in web.config file.
+
+<sessionState cookieless="true" />
+The possible options to set cookieless options  are:
+
+UseCookies: cookies are always used.
+UseUri: Instead of cookies, use the URL to store the session id
+UseDeviceProfile: Sessions uses cookies if the browser supports, else URL is used.
+AutoDetect: Session uses browser cookies if cookies are enabled else URL is used to store session.
+
+41.What are the advantages of using session?
+
+Answer:
+
+Advantages of using session:
+
+- It helps us to maintain user state/data.
+- It is very easy to implement.
+- A session can store any kind of object in it. : Example: datatable, dataset... etc.
+- By using session we don't need to worry about data collapse because it stores every client data separately.
+- A session is secure and transparent from the user.
+- It is a global storage mechanism which helps in accessing the value from all pages in the web application
+- It is easy to use as session stores data in memory object of the current application domain.
+- It stores the client data separately so there is no worry about data collapse
+- It is secure and transparent from the user.
+- It can work in the multi-process configuration.
+- It always ensures data durability, since the session state retains the data even if the works process restart
+
+42.What are the names of events in page-life-cycle?
+
+Answer:
+
+• Page_PreInit
+• Page_Init
+• Page_InitComplete
+• Page_PreLoad
+• Page_Load
+• Page_LoadComplete
+• Page_PreRender
+
+43.What are methods of navigation in ASP.Net?
+
+Answer:
+
+• Hyperlink control
+• Server.Transfer
+• Server.Execute
+• Response.Redirect
+• Window.Open script
+
+
+44.Explain ASP.Net security controls?
+
+Answer:
+The ASP.Net security controls are explained below:
+
+<asp:Login>: It allows the users to enter their credentials
+<asp:LoginName>: Used to display the name of the logged-in user
+<asp:LoginStatus>: Shows as to whether user is authenticated or not
+<asp:LoginView>: It provides various login views depending on the selected template
+<asp:PasswordRecovery>: E-mail users the lost password
+
+45.What is AdRotator control in ASP.Net?
+
+Answer:
+The AdRotator control is used for the purpose of advertisements to web pages. It randomly displays 
+advertisements one by one when the web page is refreshed. This control is associated with links as you 
+click on the advertisement, it redirects to other pages.
+
+46.What is globalization and localization?
+
+Answer:
+The globalization is a procedure used to identify the specific part of a web application, different for 
+various languages and make that part separate from the core of web application while localization is a 
+technique to configure web application to make it supportive for a specific language or locale.
+
+46.What is web.config?
+
+Answer:
+Configuration files of ASP.Net are XML files for application level settings. These are saved in the name 
+of web.config. These are available in multiple directories of web application server. ASP.Net uses the 
+web.config files to compute collection of settings for every URL target request, at run time. These 
+settings computer once and cached across further requests
+
+
+Coding
+------
+
+
+47.How can we cache multiple responses from a single web form?
+
+Answer:
+We can cache multiple response from a single web form by using any one of the attributes from VaryByParam, VaryByHeaders or VaryByCustom attributes.
+
+Example: If we want display different places like city data on our page where we can choose city name from the drop down list. On SelectedIndexChanged event of the Drop down we have to write some logic to fetch the city  data according to the selected value and display the data of the particular city. By setting the VaryByParam attribute to the dropdown will cache all the responses received from server on SelectedIndexChanged event of drop down. 
+
+ <%@ OutputCache Duration="20" Location="Server" VaryByParam="cityDropDown%>
+<aspx:DropDownList ID="cityDropDown" AutoPostBack="true" runat="server" 
+        onselectedindexchanged=" cityDropDown _SelectedIndexChanged">
+      <asp:ListItem Text="Chennai" Value=" chennai"></asp:ListItem>
+      <asp:ListItem Text="Delhi" Value=" delhi "></asp:ListItem>
+       <asp: ListItem Text="Mumbai" Value=" mumbai "></asp: ListItem>
+    </asp:DropDownList>
+
+48.Explain partial classes
+
+Answer:
+While programming in C#, we can split the definition of a class over two or more source files. The source files contain a section of the definition of class, and all parts are combined when the application is compiled. For splitting a class definition, we need to use the partial keyword.
+
+Example:
+
+We have a file with a partial class named as Rect
+
+namespace Rectangle
+{
+   class File1
+   {
+   }
+   public partial class Rect
+   {
+       private int l;
+       private int b;
+       public Rect(int l, int b)
+       {
+           this.l = l;
+           this.b = b;
+       }
+   }
+}
+Here is another file named as File2.cs with the same partial class Record
+
+namespace Rectangle
+{
+   class File2
+   {
+   }
+   public partial class Rect
+   {
+       public void PrintRect()
+       {
+           Console.WriteLine("Length:"+ l);
+           Console.WriteLine("Breadth:"+ b);
+       }
+   }
+}
+The main method of the project
+
+namespace Rectangle
+{
+   class Shape
+   {
+       static void Main(string[] args)
+       {
+           Rect myRect = new Record(4, 8);
+           myRect.PrintRect();
+           Console.ReadLine();
+       }
+   }
+}
+
+49.Explain the different state management techniques in .Net?
+
+Answer:
+
+State management basically stores the information of user/Page or object when a user makes a request on a web page, since HTTP is a protocol which doesn’t store the information during each request made by the user.so Asp.net state management is used to preserve the data.
+
+Client side
+Hidden Field
+View State
+Cookies
+Control State
+Query Strings
+Server side
+Session
+Application
+Server Side:-
+
+50. Session: when we want to store the data of web page over multiple requests we use session. In this technique we can store any kind of information or object in server memory it basically stores the information. The session is user specific since it stores the information of user separately. When we store data to Session state, a session cookie named is ASP.NET_SessionId is created automatically.
+
+Example:
+
+Storing the data in Session object
+
+Session ["UserName"] = txtName.Text;
+Retrieving the data from the Session object
+
+Label1.Text = Session ["UserName"].ToString();
+Session timeout is 20 min if we want to increase the timeout of session then we need to configure the web config
+
+<configuration>
+ <system.web>
+   <sessionState timeout="40" />
+ </system.web>
+</configuration>
+
+2. Application object: In application object, we can store the information at the application level rather than User level, where every user can access that information .the main disadvantage is that sometimes there is a concurrency problem, so for that, we use a lock and unlock method. So if multiple requests came for same data then only one thread can do work.
+
+Example:
+
+Application["Message"] = "Welcome to ASP.Net";
+We can use an application object to count the number of visitors on that website.
+
+Client Side: 
+
+1.Query Strings: When we want to transfer the data over the pages from the URL then we use query string, it cannot handle the huge data and it is compatible with all browsers, we cannot transfer the objects and controls in query strings, so it is not meant for transferring sensitive data through query string.
+
+Example: 
+
+Response.Redirect( "SecondPage.aspx?Type=01&Query=Query1" );
+Or if we want to use query string to transfer the data then we can encrypt the sensitive data and we can transfer the data.
+
+2.Control State: It is used to transfer the data which is stored in controls .it is just like same as view state but here we can store the data of the controls like dropdown list`s selected items, we cannot disabled the control state if viewstate is disabled then control state works same as view state.
+
+3.View State: It is one of the finest methods to preserve the data, in view state we can store any kind of data like controls data, and even variables and raw data, view state encrypt the data when it will render to the user, so if user wants to see the value of view state in view source it will contain the symbols only which are very hard to decrypt.
+
+The only disadvantage is that page contains much space over the page. To handle the view state we just need to "EnableViewState = true" attribute to any control to save its state,
+
+Example:
+
+public class Person
+{
+public string FirstName {get;set;}
+public string LastName {get;set;}
+}
+public partial class default : Web.UI.Pages
+{
+Person p = new Person();
+p.FirstName = "Harshit";
+p.LastName = "Mittal";
+ViewState["PersonDetails"]=p;
+}
+
+4.Cookies: Cookies are used to identify the user on a web page whenever the user makes the request for the first time it stores that request data in the cookies and when the user visit that web page for the second time then browser check the cookies data with second request data made by the user if the result matches browser to consider them as a previous user else consider a new user.
+
+Example: The Case of Remember me on every login page.
+
+There are 2 types of cookies:
+
+Persistence cookies
+Non- Persistence cookies
+Persistence cookies - When we want to store the data in cookies for a specific period of time or for permanent use then we use persistence cookies
+Example: 
+
+Response.Cookies["nameWithPCookies"].Value = "This is A Persistence Cookie";
+Response.Cookies["nameWithPCookies"].Expires = DateTime.Now.AddSeconds(10);
+Non Persistence cookies - In this the data stored in the cookies remain in the client hard disk folder till the time the browser is running when the browser is closed then the information of cookies is lost.
+Example: 
+
+Response.Cookies["nameWithNPCookies"].Value = "This is A Non Persistence Cookie";
+
+5.Hidden Field - When we want to store the small amount of data or we can say the if want to save the single value, hidden field controls is not rendered on the client browser, it is invisible to the browser.
+
+Example:  
+
+<asp:HiddenField ID="HiddenField1" runat="server"  />
+At the server code
+
+protected void Page_Load(object sender, EventArgs e)
+{
+  if (HiddenField1.Value != null)
+  {
+   int val= Convert.ToInt32(HiddenField1.Value) + 1;
+   HiddenField1.Value = val.ToString();
+   Label1.Text = val.ToString();
+  }
+}
+
+51.How to use nullable types in .Net?
+
+As we know we cannot assign the null value to any value type so for that we use nullable type where we can assign null value to the value type variables.
+
+Syntax:  
+
+Nullable<T> where T is a type.
+Nullable type is an instance of System.Nullable<T> struct
+Nullable Struct :
+
+[Serializable]
+
+public struct Nullable<T> where T : struct
+{        
+   public bool HasValue { get; } // it will return true if we assigned a value, if there is no value or if we assign a null value it will return false;
+   public T Value { get; }
+}
+HasValue :
+static void Main(string[] args)
+{
+   Nullable<int> i = null;
+   if (i.HasValue)
+       Console.WriteLine(i.Value);
+   else
+       Console.WriteLine("Null");
+}
+Example: 
+
+[Serializable]
+
+public struct Nullable<T> where T : struct
+{        
+   public bool HasValue { get; }
+   public T Value { get; }
+}
+static void Main(string[] args)
+{
+   Nullable<int> i = null;
+   if (i.HasValue)
+       Console.WriteLine(i.Value); // or Console.WriteLine(i)
+   else
+       Console.WriteLine("Null");
+}
+Output:
+
+Null
+It will check whether an object has been assigned a value if it is having null value it will return false and the else part will be executed.
+
+To get the value of i using the nullable type you have to use GetValueOrDefault() method to get the actual value.
+
+static void Main(string[] args)
+{
+   Nullable<int> i = null;
+   Console.WriteLine(i.GetValueOrDefault());
+}
+
+
+52.What are the extension methods and where can we use them?
+
+Answer:
+
+Extension methods allow you to add our own custom method in any custom class without modifying into it and in our custom class and it will be available throughout the application by specifying namespace only where it is defined.
+
+Example: 
+
+namespace ExtensionMethod
+{
+   public static class IntExtension
+    {
+       public static bool IsGreaterThan(this int i, int value)
+       {
+           return i > value;
+       }
+   }
+}
+Here the first parameter specifies the type on which the extension method is applicable. We are going to use this extension method on int type. So the first parameter must be int preceded with the modifier.
+
+using ExtensionMethod;
+class Program
+{
+   static void Main(string[] args)
+   {
+       int i = 10;
+       bool result = i.IsGreaterThan(100);
+       Console.WriteLine(result);
+   }
+}
+Output:
+
+False
+
+53.What is the difference between "throw" and "throw ex" in .Net?
+
+Answer:
+
+In Throw, the original exception stack information is retained.
+
+Example:
+
+For Throw :
+
+try
+
+{
+//  some operation that can fail
+}
+catch (Exception ex)
+{
+throw;
+}
+For Throw Ex:
+
+In Throw Ex the original information is overridden by the External information and you will lose the original information.
+
+try
+{
+// do some operation that can fail
+}
+catch (Exception ex)
+{
+// do some local cleanup
+throw;
+}
+
+54.Explain ViewState with an example?
+
+Answer:
+
+ViewState is used to persist the data of page or page controls on postback. Viewstates are present on a page as a hidden field with data in an encrypted format. We can store any kind of data.
+
+Advantages:
+
+Stored only at the client side, not on the server side.
+Since data in ViewState is always in encrypted form, hence secure.
+Viewstates can be enabled or disabled by viewstate properties.
+Viewstates can implement it at the page level or at the control level.
+Disadvantages:
+
+If the size of viewstate data becomes large, then there might be a page load problem.
+  data is limited to the current page only, its information cannot be passed from one page to another.
+Example:
+
+public class Person
+{
+public string FirstName {get;set;}
+public string LastName {get;set;}
+}
+public partial class default : Web.UI.Pages
+{
+Person p = new Person();
+p.FirstName = "Revature";
+p.LastName = "India";
+ViewState["PersonDetails"]=p;
+}
+
