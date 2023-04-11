@@ -31,6 +31,12 @@ In `app.component.html`, create a button and have `Click Me` enclosed with the `
 ```html
 <button (click)="onClick()"> Click Me</button>	
 ```
+In the `app.component.ts` file create a function `onClick()`
+```html
+onClick() {
+    alert(' Welcome to My Angular App');
+  }
+```
 
 </blockquote>
 </details>
