@@ -78,7 +78,7 @@
 	
 --- 
   
-4. How SPA is different from traditional webapplicationsn?
+4. How SPA is different from traditional webapplications?
 	
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 	
@@ -155,7 +155,7 @@ In a SPA, a page refresh never occurs; instead, all necessary HTML, JavaScript, 
   <blockquote>
     
 - Effective cross-platform development
-- Two-way data binding in Angular will help users to exchange data from the component to the view and the room view to the component.  It will help users to establish communication bi-directionally. 
+- Two-way data binding in Angular will help users to exchange data from the component to the view and from the view to the component.  It will help users to establish communication bi-directionally. 
 - The Angular command-line interface (CLI) makes the developer’s job easier because it offers a set of helpful tools for coding. 
 - Angular offers powerful DI (dependency injection) instruments and services to resolve various productivity issues and speed up the development process.
 - Modularity of angular application makes our code readable and testable
@@ -348,7 +348,7 @@ Drawbacks:
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 	
-- Angular 14 (as of August 2022)
+- Angular 15 was released on 16 November 2022.
 	
 </blockquote>
 	
@@ -421,7 +421,7 @@ Drawbacks:
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 
-Before installing Angular CLI, make sure the development environment includes Node.js and an npm package manager. Then, run the command `npm install -g @angular/clip on the terminal to install the Angular CLI using npm.
+Before installing Angular CLI, make sure the development environment includes Node.js and an npm package manager. Then, run the command `npm install -g @angular/cli` on the terminal to install the Angular CLI using npm.
 		
 </blockquote>
 </details>
@@ -522,7 +522,7 @@ So if it looks like this:
 
 Then `npm start` will run `ng serve.
 
-The `ng serve` commis and used when developing your application locally. It starts up a local development server, which will serve your application while you are developing it.
+The `ng serve` command is used when devploying your application locally. It starts up a local development server, which will serve your application while you are developing it.
 
 </blockquote>
 </details>
