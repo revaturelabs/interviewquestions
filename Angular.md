@@ -1,6 +1,6 @@
 1. How to implement Angular testing?
 
-![Medium]()
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b>Show Answer</b></summary>
 
