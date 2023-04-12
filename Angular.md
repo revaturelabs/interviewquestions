@@ -14,6 +14,8 @@
   </blockquote>
 </details>
 
+---
+
 2. What is Angular restricted routing?
 <details><summary><b>Show Answer</b></summary>
 
@@ -26,6 +28,8 @@ Angular restricted routing is used to implemenent Autentication and Role based a
   </blockquote>
 </details>
 
+---
+
 3. Why do we use the Routing Module in Angular?
 
 
@@ -37,6 +41,8 @@ Angular restricted routing is used to implemenent Autentication and Role based a
 
   </blockquote>
 </details>
+
+---
 
 4. What is the advantages of a SPA application?
 
@@ -56,6 +62,8 @@ SPA (Single Page Application) is a web application that dynamically rewrites a s
   </blockquote>
 </details>
 
+---
+
 5. How would you test an Angular component?
 
 <details><summary><b>Show Answer</b></summary>
@@ -66,6 +74,8 @@ SPA (Single Page Application) is a web application that dynamically rewrites a s
 
   </blockquote>
 </details>
+
+---
 
 6. Can you extend Angular components (like Java classes)?
 
@@ -78,6 +88,8 @@ SPA (Single Page Application) is a web application that dynamically rewrites a s
 
   </blockquote>
 </details>
+
+---
 
 7. Tell me about Typescript and Angular and what you liked/disliked about it?
 
@@ -112,6 +124,8 @@ SPA (Single Page Application) is a web application that dynamically rewrites a s
   </blockquote>
 </details>
 
+---
+
 8. How do you connect your angular application with the backend?
 
 
@@ -123,6 +137,8 @@ SPA (Single Page Application) is a web application that dynamically rewrites a s
 
   </blockquote>
 </details>
+
+---
 
 9. How you show data in your view in angular?
 
@@ -172,6 +188,8 @@ Conventionally two-way binding is achieved by combining property binding/text in
   </blockquote>
 </details>
 
+---
+
 11. What is a component in angular?
 
 <details><summary><b>Show Answer</b></summary>
@@ -188,6 +206,8 @@ A component consists of:
 
   </blockquote>
 </details>
+
+---
 
 12. How does data pass between two components?
 
@@ -213,6 +233,8 @@ RxJS is a reactive programming library that can be used in Angular to pass data 
   </blockquote>
 </details>
 
+---
+
 13. What is a service in angular?
 
 
@@ -231,6 +253,8 @@ Uses of service:
   </blockquote>
 </details>
 
+---
+
 14. Describe how angular work.
 <details><summary><b>Show Answer</b></summary>
 
@@ -245,6 +269,8 @@ Angular is a framework built on TypeScript. Angular includes:
   </blockquote>
 </details>
 
+---
+
 15. How does the angular framework connect to the database? 
 
 <details><summary><b>Show Answer</b></summary>
@@ -255,6 +281,8 @@ Angular is a framework built on TypeScript. Angular includes:
 
   </blockquote>
 </details>
+
+---
 
 16. The difference between angular and reactjs.
 
@@ -279,7 +307,9 @@ The differences between Angular and react:
   </blockquote>
 </details>
 
-16. What are the benefits of angular over react and vice versa.
+---
+
+17. What are the benefits of angular over react and vice versa.
 
 
 <details><summary><b>Show Answer</b></summary>
@@ -308,7 +338,7 @@ The differences between Angular and react:
   </blockquote>
 </details>
 
-17. What is the difference between typescript and javascript?
+18. What is the difference between typescript and javascript?
   
 
 <details><summary><b>Show Answer</b></summary>
@@ -326,7 +356,9 @@ The differences between Angular and react:
   </blockquote>
 </details>
 
-1.  What are the parts of a Component in Angular?
+---
+
+19.  What are the parts of a Component in Angular?
 
 
 <details><summary><b>Show Answer</b></summary>
@@ -370,6 +402,8 @@ Using an array of components or by conditions or user actions the components can
 
   </blockquote>
 </details>
+ 
+ ---
 
 20. What are decorators in angular give an example.
 
