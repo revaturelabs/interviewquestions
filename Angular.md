@@ -166,6 +166,7 @@ Angular comes with built-in directives that allow you to add additional function
   </blockquote>
 </details>
 
+---
 
 10. How many data bindings does angular have? and explain.
 
