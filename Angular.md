@@ -339,6 +339,8 @@ The differences between Angular and react:
   </blockquote>
 </details>
 
+---
+
 18. What is the difference between typescript and javascript?
   
 
@@ -408,7 +410,7 @@ Using an array of components or by conditions or user actions the components can
  
  ---
 
-22. What are decorators in angular give an example.
+21. What are decorators in angular give an example.
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -425,7 +427,7 @@ There are four types of decorators in Angular:
   </blockquote>
 </details>
 
-21. 
+22. 
 
 <details><summary><b>Show Answer</b></summary>
 
