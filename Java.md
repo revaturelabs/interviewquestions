@@ -370,7 +370,7 @@ To inject a dependency through the constructor, create a constructor in a class 
   
 <blockquote>
 
-In java we follow pass-by-value.
+In java is a pass-by-value.
 
 </blockquote>
   
