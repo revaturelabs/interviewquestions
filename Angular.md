@@ -377,7 +377,9 @@ The parts of the component are:
   </blockquote>
 </details>
 
-19. How to create angular components dynamically?
+---
+
+20. How to create angular components dynamically?
 
 
 <details><summary><b>Show Answer</b></summary>
@@ -406,7 +408,7 @@ Using an array of components or by conditions or user actions the components can
  
  ---
 
-20. What are decorators in angular give an example.
+22. What are decorators in angular give an example.
 
 <details><summary><b>Show Answer</b></summary>
 
