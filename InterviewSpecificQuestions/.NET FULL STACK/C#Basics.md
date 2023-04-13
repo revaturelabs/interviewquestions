@@ -24,9 +24,25 @@ C# is a general-purpose, high-level multi-paradigm programming language. C# enco
 
 <blockquote> 
 
-- C# provides special data types, the nullable types, to which you can assign a normal range of values as well as null values.
+A nullable value type `T?` represents all values of its underlying value type T and an additional null value. For example, you can assign any of the following three values to a `bool? variable: true, false, or null`. An underlying value type T cannot be a nullable value type itself.
 
-- For example, we can store any value from -2,147,483,648 to 2,147,483,647 or null in a `Nullable<Int32>` variable. Similarly, we can assign true, false, or null in a `Nullable<bool>` variable.
+Any nullable value type is an instance of the generic `System.Nullable<T>` structure. You can refer to a nullable value type with an underlying type T in any of the following interchangeable forms: `Nullable<T> or T?`.
+
+```C#
+
+double? pi = 3.14;
+char? letter = 'a';
+
+int m2 = 10;
+int? m = m2;
+
+bool? flag = null;
+
+// An array of a nullable value type:
+int?[] arr = new int?[10];
+
+```
+The default value of a nullable value type represents null, that is, it's an instance whose `Nullable<T>`.HasValue property returns false.
 
 </blockquote>
 
@@ -42,7 +58,27 @@ C# is a general-purpose, high-level multi-paradigm programming language. C# enco
 
 <blockquote>
 
-Variables are named memory locations (memory cells) which are used to store the program’s input and its computational results during program execution. As the name suggests, the value of a variable may change during the program execution.
+Variables represent storage locations. Every variable has a type that determines what values can be stored in the variable. C# is a type-safe language, and the C# compiler guarantees that values stored in variables are always of the appropriate type. The value of a variable can be changed through assignment or through use of the ++ and -- operators.
+
+C# defines seven categories of variables: static variables, instance variables, array elements, value parameters, reference parameters, output parameters, and local variables. The subclauses that follow describe each of these categories.
+
+```C#
+
+class A
+{
+    public static int x;
+    int y;
+
+    void F(int[] v, int a, ref int b, out int c)
+    {
+        int i = 1;
+        c = a + b++;
+    }
+}
+
+```
+
+In the above example x is a static variable, y is an instance variable, v[0] is an array element, a is a value parameter, b is a reference parameter, c is an output parameter, and i is a local variable.
 
 </blockquote>
 
@@ -58,7 +94,42 @@ Variables are named memory locations (memory cells) which are used to store the 
 
 <blockquote> 
 
-We can store any type of value in the dynamic data type variable. Type checking for these types of variables takes place at run-time.
+The dynamic type is a static type, but an object of type dynamic bypasses static type checking. In most cases, it functions like it has type object. The compiler assumes a dynamic element supports any operation.
+
+For example, if instance method exampleMethod1 in the following code has only one parameter, the compiler recognizes that the first call to the method, ec.exampleMethod1(10, 4), isn't valid because it contains two arguments. The call causes a compiler error. The compiler doesn't check the second call to the method, dynamic_ec.exampleMethod1(10, 4), because the type of dynamic_ec is dynamic. Therefore, no compiler error is reported. However, the error doesn't escape notice indefinitely. It appears at run time and causes a run-time exception.
+
+```C#
+
+static void Main(string[] args)
+{
+    ExampleClass ec = new ExampleClass();
+    // The following call to exampleMethod1 causes a compiler error
+    // if exampleMethod1 has only one parameter. Uncomment the line
+    // to see the error.
+    //ec.exampleMethod1(10, 4);
+
+    dynamic dynamic_ec = new ExampleClass();
+    // The following line is not identified as an error by the
+    // compiler, but it causes a run-time exception.
+    dynamic_ec.exampleMethod1(10, 4);
+
+    // The following calls also do not cause compiler errors, whether
+    // appropriate methods exist or not.
+    dynamic_ec.someMethod("some argument", 7, null);
+    dynamic_ec.nonexistentMethod();
+}
+
+class ExampleClass
+{
+    public ExampleClass() { }
+    public ExampleClass(int v) { }
+
+    public void exampleMethod1(int i) { }
+
+    public void exampleMethod2(string str) { }
+}
+
+```
 
 </blockquote>
 </details>
@@ -73,12 +144,9 @@ We can store any type of value in the dynamic data type variable. Type checking 
 
 <blockquote>
 
-Reserved words or keywords are words, which have predefined meanings. They have predefined uses and cannot be used or redefined for any other purpose in a programming language.
+Keywords are predefined, reserved identifiers that have special meanings to the compiler. They can't be used as identifiers in your program unless they include @ as a prefix. For example, `@if` is a valid identifier, but if isn't because if is a keyword.
 
-**Examples**
- - IF
- - ELSE
- - THEN
+A contextual keyword is used to provide a specific meaning in the code, but it isn't a reserved word in C#. Some contextual keywords, such as partial and where, have special meanings in two or more contexts.
 
 </blockquote>
 
@@ -94,7 +162,24 @@ Reserved words or keywords are words, which have predefined meanings. They have 
 
 <blockquote>
 
-The loop is a structure which can repeat a set of statements up to a fixed number of times or until a certain criterion is satisfied. Name different types of loops.
+The iteration statements repeatedly execute a statement or a block of statements. The for statement: executes its body while a specified Boolean expression evaluates to true. The foreach statement: enumerates the elements of a collection and executes its body for each element of the collection. The do statement: conditionally executes its body one or more times. The while statement: conditionally executes its body zero or more times.
+
+At any point within the body of an iteration statement, you can break out of the loop using the break statement. You can step to the next iteration in the loop using the continue statement.
+
+```C#
+
+int i;
+int j = 3;
+for (i = 0, Console.WriteLine($"Start: i={i}, j={j}"); i < j; i++, j--, Console.WriteLine($"Step: i={i}, j={j}"))
+{
+    //...
+}
+// Output:
+// Start: i=0, j=3
+// Step: i=1, j=2
+// Step: i=2, j=1
+
+```
 
 </blockquote>
 
@@ -110,11 +195,20 @@ The loop is a structure which can repeat a set of statements up to a fixed numbe
 
 <blockquote>
 
-A constant is a quantity whose value cannot be changed. Unlike a variable, the value stored in a constant can’t be modified during program execution.
+Constants are immutable values which are known at compile time and do not change for the life of the program. Constants are declared with the const modifier. Only the C# built-in types (excluding System.Object) may be declared as const. User-defined types, including classes, structs, and arrays, cannot be const. Use the readonly modifier to create a class, struct, or array that is initialized one time at run time (for example in a constructor) and thereafter cannot be changed.
 
-Numeric constants consist of integers, single precision, or double-precision numbers. Integer constants represent values that are counted and do not have a fractional part, e.g., +56, -678.
+C# does not support const methods, properties, or events.
 
-A string constant is a sequence of alphanumeric characters enclosed in double quotation marks. The maximum length of a string constant is 255 characters. For example, 'New York`.
+```C#
+
+class Calendar1
+{
+    public const int Months = 12;
+}
+
+```
+
+In this example, the constant Months is always 12, and it cannot be changed even by the class itself. 
 
 </blockquote>
 
@@ -130,7 +224,13 @@ A string constant is a sequence of alphanumeric characters enclosed in double qu
 
 <blockquote>
 
-Operators are symbols which are used to perform certain operations on data. These include arithmetic, relational, logical, and assignment operators.
+C# provides a number of operators. Many of them are supported by the built-in types and allow you to perform basic operations with values of those types. Those operators include the following groups:
+
+`Arithmetic operators` that perform arithmetic operations with numeric operands.
+`Comparison operators` that compare numeric operands.
+`Boolean logical operators` that perform logical operations with bool operands.
+`Bitwise and shift operators` that perform bitwise or shift operations with operands of the integral types.
+`Equality operators` that check if their operands are equal or not.
 
 </blockquote>
 
@@ -146,9 +246,41 @@ Operators are symbols which are used to perform certain operations on data. Thes
 
 <blockquote>
 
-An array is a data structure that stores a fixed number of literal values (elements) of the same data type. Array elements are stored contiguously in the memory.
+You can store multiple variables of the same type in an array data structure. You declare an array by specifying the type of its elements. If you want the array to store elements of any type, you can specify object as its type. In the unified type system of C#, all types, predefined and user-defined, reference types and value types, inherit directly or indirectly from Object.
 
-In C#, an array can be of three types: single-dimensional, multidimensional, and jagged array. 
+The following example creates single-dimensional, multidimensional, and jagged arrays:
+
+```C#
+
+class TestArraysClass
+{
+    static void Main()
+    {
+        // Declare a single-dimensional array of 5 integers.
+        int[] array1 = new int[5];
+
+        // Declare and set array element values.
+        int[] array2 = new int[] { 1, 3, 5, 7, 9 };
+
+        // Alternative syntax.
+        int[] array3 = { 1, 2, 3, 4, 5, 6 };
+
+        // Declare a two dimensional array.
+        int[,] multiDimensionalArray1 = new int[2, 3];
+
+        // Declare and set array element values.
+        int[,] multiDimensionalArray2 = { { 1, 2, 3 }, { 4, 5, 6 } };
+
+        // Declare a jagged array.
+        int[][] jaggedArray = new int[6][];
+
+        // Set the values of the first array in the jagged array structure.
+        jaggedArray[0] = new int[4] { 1, 2, 3, 4 };
+    }
+}
+
+```
+
 
 </blockquote>
 
@@ -164,9 +296,36 @@ In C#, an array can be of three types: single-dimensional, multidimensional, and
 
 <blockquote>
 
-In .NET, the namespace keyword is used to declare a namespace in the code. The syntax for declaring a namespace in C# is:
+Namespaces are heavily used in C# programming in two ways. First, .NET uses namespaces to organize its many classes, as follows:
 
-`namespace UserNameSpace;`
+```C#
+System.Console.WriteLine("Hello World!");
+```
+
+`System` is a namespace and `Console` is a class in that namespace. The `using` keyword can be used so that the complete name isn't required, as in the following example:
+
+```C#
+using System;
+```
+```C#
+Console.WriteLine("Hello World!");
+```
+Second, declaring your own namespaces can help you control the scope of class and method names in larger programming projects. Use the namespace keyword to declare a namespace, as in the following example:
+
+```C#
+namespace SampleNamespace
+{
+    class SampleClass
+    {
+        public void SampleMethod()
+        {
+            System.Console.WriteLine(
+                "SampleMethod inside SampleNamespace");
+        }
+    }
+}
+```
+The name of the namespace must be a valid C# identifier name.
 
 </blockquote>
 
@@ -182,26 +341,24 @@ In .NET, the namespace keyword is used to declare a namespace in the code. The s
 
 <blockquote>
 
-- The switch statement is a selection control statement that is used to handle multiple choices and transfer control to the case statements within its body. 
-
-- The following code snippet shows an example of the use of the switch statement in C#:
-
 ```C#
-switch(choice) {
-     case 1: 
-     console.WriteLine(First); 
-     break; 
-     
-     case 2: 
-     console.WriteLine(Second); 
-     break; 
-     
-     default: 
-     console.WriteLine(Wrong choice); 
-     break; 
-     }
+
+switch ( expression )
+{
+    // declarations
+    // . . .
+    case constant_expression:
+        // statements executed if the expression equals the
+        // value of this constant_expression
+        break;
+    default:
+        // statements executed if expression does not equal
+        // any case constant_expression
+}
+
 ```
-In switch statements, the break statement is used at the end of a case statement. The break statement is mandatory in C# and it avoids the fall-through of one case statement to another.
+
+You can use the break statement to end processing of a particular labeled statement within the switch statement. It branches to the end of the switch statement. Without break, the program continues to the next labeled statement, executing the statements until a break or the end of the statement is reached. This continuation may be desirable in some situations.
 
 </blockquote>
 
@@ -217,14 +374,49 @@ In switch statements, the break statement is used at the end of a case statement
 
 <blockquote>
 
-The variables that are based on value types directly contain values. The characteristics of value-type variables that are supported in C# programming language are as follows:
+A variable of a value type contains an instance of the type. This differs from a variable of a reference type, which contains a reference to an instance of the type. By default, on assignment, passing an argument to a method, and returning a method result, variable values are copied. In the case of value-type variables, the corresponding type instances are copied. The following example demonstrates that behavior:
 
-- All value-type variables derive implicitly from the `System.ValueTypeclass`.
-- We cannot derive any new type from a value type.
-- Value types have an implicit default constructor that initializes the default value of that type.
-- The value type consists of two main categories:
-  - Structs - Summarizes small groups of related variables.
-  - Enumerations - Consists of a set of named constants.
+```C#
+using System;
+
+public struct MutablePoint
+{
+    public int X;
+    public int Y;
+
+    public MutablePoint(int x, int y) => (X, Y) = (x, y);
+
+    public override string ToString() => $"({X}, {Y})";
+}
+
+public class Program
+{
+    public static void Main()
+    {
+        var p1 = new MutablePoint(1, 2);
+        var p2 = p1;
+        p2.Y = 200;
+        Console.WriteLine($"{nameof(p1)} after {nameof(p2)} is modified: {p1}");
+        Console.WriteLine($"{nameof(p2)}: {p2}");
+
+        MutateAndDisplay(p2);
+        Console.WriteLine($"{nameof(p2)} after passing to a method: {p2}");
+    }
+
+    private static void MutateAndDisplay(MutablePoint p)
+    {
+        p.X = 100;
+        Console.WriteLine($"Point mutated in a method: {p}");
+    }
+}
+// Expected output:
+// p1 after p2 is modified: (1, 2)
+// p2: (1, 200)
+// Point mutated in a method: (100, 200)
+// p2 after passing to a method: (1, 200)
+
+```
+As the preceding example shows, operations on a value-type variable affect only that instance of the value type, stored in the variable.
 
 </blockquote>
 
@@ -260,10 +452,18 @@ A parameter is a special kind of variable, which is used in a function to provid
 
 <blockquote>
 
-The variables are based on reference types of store references to the actual data. The keywords that are used to declare reference types are:
-- **Class** - Refers to the primary building block for the programs, which is used to encapsulate variables and methods into a single unit.
-- **Interface** - Contains only the signatures of methods, properties, events, or indexers.
-- **Delegate** - Refers to a reference type that is used to encapsulate a named or anonymous method.
+Variables of reference types store references to their data (objects), while variables of value types directly contain their data. With reference types, two variables can reference the same object; therefore, operations on one variable can affect the object referenced by the other variable. With value types, each variable has its own copy of the data, and it's not possible for operations on one variable to affect the other (except in the case of `in, ref, and out` parameter variables; see in, ref, and out parameter modifier).
+
+The following keywords are used to declare reference types:
+- class
+- interface
+- delegate
+- record
+
+C# also provides the following built-in reference types:
+- dynamic
+- object
+- string
 
 </blockquote>
 
@@ -296,7 +496,7 @@ The different types of literals in C# are:
 
 ---
 
-16. What is the difference between “continue” and “break” statements in C#?
+16. What is the difference between `continue` and `break` statements in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -304,7 +504,50 @@ The different types of literals in C# are:
 
 <blockquote>
 
-Using the `break` statement, we can jump out of a loop whereas by using the `continue` statement, we can jump over one iteration and then resume our loop execution.
+The break statement terminates the closest enclosing iteration statement (that is, for, foreach, while, or do loop) or switch statement. The break statement transfers control to the statement that follows the terminated statement, if any.
+
+```C#
+int[] numbers = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+foreach (int number in numbers)
+{
+    if (number == 3)
+    {
+        break;
+    }
+
+    Console.Write($"{number} ");
+}
+Console.WriteLine();
+Console.WriteLine("End of the example.");
+// Output:
+// 0 1 2 
+// End of the example.
+```
+
+The continue statement starts a new iteration of the closest enclosing iteration statement (that is, for, foreach, while, or do loop), as the following example shows:
+
+```C#
+
+for (int i = 0; i < 5; i++)
+{
+    Console.Write($"Iteration {i}: ");
+    
+    if (i < 3)
+    {
+        Console.WriteLine("skip");
+        continue;
+    }
+    
+    Console.WriteLine("done");
+}
+// Output:
+// Iteration 0: skip
+// Iteration 1: skip
+// Iteration 2: skip
+// Iteration 3: done
+// Iteration 4: done
+
+```
 
 </blockquote>
 
@@ -320,7 +563,59 @@ Using the `break` statement, we can jump out of a loop whereas by using the `con
 
 <blockquote>
 
-The difference is - `System.Array.CopyTo()` requires a destination array to exist before and it must be capable to hold all the elements in the source array from the index that is specified to copy from the source array. On the other hand, `System.Array.Clone()` method does not require the destination array to exist as it creates a new one from scratch.
+`Array.CopyTo( )`:
+
+The CopyTo method of the array class copies all the data in the array to an existing array. It performs a shallow copy. It is used to copy a one-dimensional array. It copies the complete content of the array to the new array starting from the index passed in the parameter.
+
+```C#
+class Educative
+{
+    static void Main()
+    {
+      var arr1 = new[] { "Lodhi", "Educative", "Faheem", "Welcomes","You" };
+      var arr2= new string[10];
+      arr2[0]="Ed Tech";
+      // cloning arr and storing it in new array
+      arr1.CopyTo(arr2,1);
+      // Printing array using loop
+      foreach (var element in arr2)
+      {
+        System.Console.WriteLine(element);
+      }
+
+      }
+}
+```
+
+- Line 5: We initialize an array arr1 of size 5.
+- Lines 6–7: We initialize an array arr2 with a memory allocation of 10 indexes and assign the first index with a string "Ed Tech."
+- Line 9: We call the copyto() method of arr1 copying its elements to arr2 starting with index 1.
+- Lines 11–14: We print the elements of the array arr2.
+
+`Array.Clone( )`
+
+The Clone() method of the Array class copies all the data in the array and returns a new object. It needs to be typecast to the datatype of the original array. It performs a shallow copy. It can also be used to make copies of multi-dimensional arrays. It copies the complete content of the array stored in the new array.
+
+```C#
+class Educative
+{
+    static void Main()
+    {
+      
+      var arr = new[] { "Lodhi", "Educative", "Faheem", "Welcomes","You" };
+      
+      // cloning arr and storing it in new array
+      var new_arr = (string[])arr.Clone();
+  
+      // Printing array using loop
+      foreach (var element in new_arr)
+      {
+        System.Console.WriteLine(element);
+      }
+
+      }
+}
+```
 
 </blockquote>
 
@@ -336,7 +631,72 @@ The difference is - `System.Array.CopyTo()` requires a destination array to exis
 
 <blockquote>
 
-`ToString()` does not handle null values but `Convert.ToString()` will handle null values
+ Both methods are used to convert a string. But, yes, there is a difference between both the method and the main difference between both the methods is that `Convert.ToString()` method handles the NULL whereas `.ToString()` method does not handle the NULL and throws a NULL reference exception.
+
+When you use the `.ToString()` method, this method expects that the value must not be NULL otherwise, it will throw an error.
+
+```C#
+using System;
+
+namespace Tutorialsrack
+{
+    class Program
+    {
+        /* Difference Between Convert.ToString() and .ToString() Method in C# */
+        static void Main(string[] args)
+        {
+
+            object obj1 = null;
+            string str = null;
+
+            //Convert using Convert.ToString()
+
+            //When Object is Null
+            string str1 = Convert.ToString(obj1);
+            // Output ==> it will return empty string ""
+
+            //When String is Null
+            string str2 = Convert.ToString(str);
+            // Output ==> it will return 'null'
+
+            //Hit ENTER to exit the program
+            Console.ReadKey();
+        }
+    }
+}
+```
+
+```C#
+using System;
+
+namespace Tutorialsrack
+{
+    class Program
+    {
+        /* Difference Between Convert.ToString() and .ToString() Method in C# */
+        static void Main(string[] args)
+        {
+
+            object obj1 = null;
+            string str = null;
+
+            //Convert using .ToString() Method
+
+            //When Object is Null
+            string str1 = obj1.ToString();
+            // Ouptut ==> it will throw an Null reference exception
+
+            //When String is Null
+            string str2 = str.ToString();
+            // Output ==> it will throw an Null reference exception
+
+            //Hit ENTER to exit the program
+            Console.ReadKey();
+        }
+    }
+}
+```
+So, it is a good programming practice to use `Convert.ToString()` method over the `.ToString()` method. 
 
 </blockquote>
 
@@ -344,7 +704,7 @@ The difference is - `System.Array.CopyTo()` requires a destination array to exis
 
 ---
 
-19.  What is the Difference between `int.Parse()` and `Convert.ToInt32()`?
+19.  What is the difference between `int.Parse()` and `Convert.ToInt32()`?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -352,7 +712,19 @@ The difference is - `System.Array.CopyTo()` requires a destination array to exis
 
 <blockquote>
 
-`int.Parse()`  will convert only string to int.  `Convert.ToInt32()` is used to convert any datatype to an int type.
+The `int.Parse()` method converts a given string representation of a number to its equivalent integer:
+```C#
+var inputString = " 123 ";
+var outputInteger = int.Parse(inputString);
+```
+We pass the inputString parameter in the `int.Parse()` method. It returns the equivalent integer to the variable outputInteger. The `int.Parse()` method has an overload that can take other parameter types. We can set the specific style and culture-specific format as well.
+
+`Convert.ToInt32()` is also a method that converts a string into its corresponding integer just like the `int.Parse()` method:
+```C#
+var inputString = " 123 ";
+var outputInteger = Convert.ToInt32(inputString);
+```
+We pass the same string inputString to the `Convert.ToInt32()` method. It sets the desired integer to the variable outputInteger.
 
 </blockquote>
 
@@ -368,9 +740,13 @@ The difference is - `System.Array.CopyTo()` requires a destination array to exis
 
 <blockquote>
 
-- `TypeOf()` is used to get the Base Datatype name.
+- The C# `typeof` operator (GetType operator in Visual Basic) is used to get a Type object representing String
+- The `sizeof()` operator is used to obtain the size of a data type in bytes in bytes. It will not return the size of the variables or instances. Its return type is always int.
 
-- `SizeOf()` is used to get the size of the Datatype.
+**Syntax**:
+```C#
+int sizeof(type);
+```
 
 </blockquote>
 
@@ -386,15 +762,7 @@ The difference is - `System.Array.CopyTo()` requires a destination array to exis
 
 <blockquote>
 
-Widening is used to convert smaller datatype to longer datatype
-
-**`Ex:int to long`**
-
-The narrowing is used to convert longer datatypes to smaller Datatype
-
-**`Ex:long to int`**
-
-**Note::** Working with Narrowing is an unsafe type of programming.
+Widening conversion occurs when a value of one type is converted to another type that is of equal or greater size. A narrowing conversion occurs when a value of one type is converted to a value of another type that is of a smaller size. 
 
 </blockquote>
 
@@ -402,7 +770,7 @@ The narrowing is used to convert longer datatypes to smaller Datatype
 
 ---
 
-22. How to declare an array in C#?
+22. What is the purppose of `Params` keyword?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -410,16 +778,32 @@ The narrowing is used to convert longer datatypes to smaller Datatype
 
 <blockquote>
 
-- To declare an array, define the variable type with square brackets:
-`datatype[] arr_name;`
+`params` is used as a parameter which can take the VARIABLE NUMBER OF ARGUMENTS. 
 
-**For example:**
-`string[] cars;`
-- We have now declared a variable that holds an array of strings.
+```C#
+class Program
+{
+  static void Main(string[] args)
+  {
+    int y=Add(5,10,15,20);
+    Console.WriteLine(y);
+    Console.ReadLine();
+  }
 
-- To insert values to it, we can use an array literal - place the values in a comma-separated list, inside curly braces:
+  public static int Add(params int[] listNumbers)
+  {
+    int total=0;
+    foreach(int i in listNumbers)
+    {
+      total+=i;
+    }
+    return total;
+  }
+}
 
-- `string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};`
+```
+
+It is useful when programmer don’t have any prior knowledge about the number of parameters to be passed.
 
 </blockquote>
 
@@ -457,6 +841,12 @@ There are generally considered to be three main types of control statements, eac
 
 A string object is immutable, meaning that it cannot be changed after it’s created. Any operation that tries to modify the string object will simply create a new string object. On the other hand, a string builder object is mutable and can be modified.
 
+If we have to perform two or three string concatenations, or read and compare values then use a String.
+
+If we have to make repeated modifications to a string or concatenate many strings then StringBuilder must be used, as it will increase the performance by not creating a new instance each time, unlike String.
+
+
+
 </blockquote>
 
 </details>
@@ -471,7 +861,41 @@ A string object is immutable, meaning that it cannot be changed after it’s cre
 
 <blockquote>
 
-The Array which comprises elements of a typed array is called a Jagged Array. The elements in Jagged Arrays can be of various dimensions and sizes.
+A jagged array is an array whose elements are arrays, possibly of different sizes. A jagged array is sometimes called an "array of arrays." The following examples show how to declare, initialize, and access jagged arrays.
+
+```C#
+class ArrayTest
+{
+    static void Main()
+    {
+        // Declare the array of two elements.
+        int[][] arr = new int[2][];
+
+        // Initialize the elements.
+        arr[0] = new int[5] { 1, 3, 5, 7, 9 };
+        arr[1] = new int[4] { 2, 4, 6, 8 };
+
+        // Display the array elements.
+        for (int i = 0; i < arr.Length; i++)
+        {
+            System.Console.Write("Element({0}): ", i);
+
+            for (int j = 0; j < arr[i].Length; j++)
+            {
+                System.Console.Write("{0}{1}", arr[i][j], j == (arr[i].Length - 1) ? "" : " ");
+            }
+            System.Console.WriteLine();
+        }
+        // Keep the console window open in debug mode.
+        System.Console.WriteLine("Press any key to exit.");
+        System.Console.ReadKey();
+    }
+}
+/* Output:
+    Element(0): 1 3 5 7 9
+    Element(1): 2 4 6 8
+*/
+```
 
 </blockquote>
 
@@ -487,7 +911,16 @@ The Array which comprises elements of a typed array is called a Jagged Array. Th
 
 <blockquote>
 
-When an argument is passed as a `ref`, it must be initialized before it can be passed to the method. An `out` parameter, on the other hand, need not be initialized before passing to a method.
+The `ref` keyword indicates that a variable is a reference, or an alias for another object. It's used in five different contexts:
+
+- In a method signature and in a method call, to pass an argument to a method by reference. For more information, see Passing an argument by reference.
+- In a method signature, to return a value to the caller by reference. For more information, see Reference return values.
+- In a member body, to indicate that a reference return value is stored locally as a reference that the caller intends to modify. Or to indicate that a local variable accesses another value by reference. For more information, see Ref locals.
+- In a struct declaration, to declare a ref struct or a readonly ref struct. 
+- In a ref struct declaration, to declare that a field is a reference. 
+
+The `out` keyword causes arguments to be passed by reference. It makes the formal parameter an alias for the argument, which must be a variable. In other words, any operation on the parameter is made on the argument. It is like the ref keyword, except that ref requires that the variable be initialized before it is passed. It is also like the in keyword, except that in does not allow the called method to modify the argument value. To use an `out` parameter, both the method definition and the calling method must explicitly use the out keyword. 
+
 
 </blockquote>
 
@@ -503,7 +936,9 @@ When an argument is passed as a `ref`, it must be initialized before it can be p
 
 <blockquote> 
 
-In C#, garbage collection is the process of managing memory in an application. The garbage collector automatically disposes of memory that is no longer used to make memory available for new allocations.
+Garbage collection is a memory management technique used in the .NET Framework and many other programming languages. In C#, the garbage collector is responsible for managing memory and automatically freeing up memory that is no longer being used by the application.
+
+The garbage collector works by periodically scanning the application’s memory to determine which objects are still being used and which are no longer needed. Objects that are no longer being used are marked for garbage collection, and their memory is freed up automatically by the garbage collector.
 
 </blockquote>
 
@@ -519,10 +954,30 @@ In C#, garbage collection is the process of managing memory in an application. T
 
 <blockquote> 
     
-A stream is a sequence of bytes travelling from a source to a destination over a communication path. There are two main streams: the input stream and the output stream. The input stream is used for reading data from the file (read operation) and the output stream is used for writing into the file (write operation). There are two types of streams used:
+There are two purpose of using keyword in C#:
 
-- **Input stream**: This stream is used to read data from a file, which is known as a read operation.
-- **Output stream**: This stream is used to write data into a file, which is known as a write operation.
+**USING DIRECTIVE**
+` using System.IO;`
+**USING STATEMENT**
+The using statement ensures that `DISPOSE()` method of the class object is called even if an exception occurs.
+This is mostly used while creating database connections.
+
+Below code will make sure that connection.Dispose will be called even if it is not written
+
+```C#
+static void Main(string[] args)
+{
+  using(var connection=new SqlConnection("ConnectionString"));
+  {
+    var query="UPDATE YourTable SET Property=Value";
+    var command=new SqlCommand(query,connection);
+    connection.Open();
+    command.ExecuteNonQuery();
+
+    //connection.Dispose();
+  }
+}
+```
 
 </blockquote>
 
@@ -548,7 +1003,7 @@ In C#, the `System.IO` namespace contains the required classes which are used to
 
 ---
 
-30. What is FileStream Class in C#?
+30. What is the difference between `IS` and `AS` operator?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -556,10 +1011,32 @@ In C#, the `System.IO` namespace contains the required classes which are used to
 
 <blockquote> 
 
-- The FileStream class in C# provides a stream for file operations. It can be used to perform both synchronous and asynchronous read and write operations. With the help of FileStream class, we can easily read and write data into files.
+The `IS operator` is USED TO CHECK the type of an object.
 
-- To use FileStream class in C#, first of all, we need to include the System.IO namespace and then we need to create an instance of the FileStream object to create a new file or open an existing file.
+```C#
+static void Main(string[] args)
+{
+  int i=5;
+  bool check=i is int;
+  Console.Write(str1);
+  Console.ReadLine();
+}
+//Output: true
+```
 
+`AS operator` is used to PERFORM CONVERSION between compatible 
+reference type
+
+```C#
+static void Main(string[] args)
+{
+  object obj="Hello";
+  string str1=obj as string;
+  Console.Write(str1);
+  Console.ReadLine();
+}
+//Output:Hello
+```
 </blockquote>
 
 </details>
