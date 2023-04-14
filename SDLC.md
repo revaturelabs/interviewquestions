@@ -27,6 +27,8 @@ Overall, the Agile methodology is a customer-focused, flexible, and collaborativ
 
 </details>
 
+---
+
 2. What are the pros and cons of AGILE?
 
 <details> <summary>Show Answer</summary>
