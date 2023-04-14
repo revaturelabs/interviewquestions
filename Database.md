@@ -61,7 +61,22 @@ Note that the exact steps for connecting tables in RDS may vary depending on the
 <details> <summary>Show Answer</summary>
  
 <blockquote>
+
+SQL (Structured Query Language) and NoSQL (Not Only SQL) are two different types of database management systems that have their own strengths and weaknesses.
+
+### SQL 
+- SQL databases are known for their ability to handle structured data and their strong data consistency. 
+- They use a table-based data model with predefined schemas, and are ideal for applications that require complex queries and transactions.
+- SQL databases are often used in industries such as finance, healthcare, and government, where data accuracy and consistency are paramount. 
+- They also have a long history of reliable performance and strong security features.
+
+### NoSQL
+- NoSQL databases are designed to handle unstructured or semi-structured data. 
+- They offer high scalability, flexibility, and speed, making them ideal for applications that require high throughput and low latency, such as social media and e-commerce. 
+- NoSQL databases are often used in industries such as advertising, gaming, and web applications, where fast data access and processing are crucial. 
+- They also allow for more dynamic and agile development, as they do not require a fixed schema.
   
+In summary, SQL databases are better suited for applications that require complex queries, strong data consistency, and fixed schemas, while NoSQL databases are better suited for applications that require high scalability, flexibility, and speed, with more dynamic and agile development. Ultimately, the choice between SQL and NoSQL will depend on the specific needs and requirements the application.
 </blockquote>
 
 </details>
@@ -71,6 +86,16 @@ Note that the exact steps for connecting tables in RDS may vary depending on the
 <details> <summary>Show Answer</summary>
  
 <blockquote>
+
+ACID is an acronym that stands for Atomicity, Consistency, Isolation, and Durability. It is a set of properties that guarantee the reliability and integrity of transactions in a database management system.
+
+- **Atomicity:** This refers to the property of a transaction being "all or nothing". If a transaction fails at any point, it will be rolled back to its initial state, and all changes made during the transaction will be undone, ensuring that the database remains consistent.
+
+- **Consistency:** This ensures that a transaction can only commit if it leaves the database in a valid state, according to its predefined rules and constraints.
+
+- **Isolation:** This refers to the property that ensures that concurrent transactions do not interfere with each other, even if they are operating on the same data. Each transaction operates as if it is the only one accessing the database.
+
+- **Durability:** This refers to the property that ensures that once a transaction is committed, its changes will persist, even in the event of a system failure or power outage.
   
 </blockquote>
 
