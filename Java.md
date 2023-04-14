@@ -8,7 +8,7 @@ Dependency injection (DI) is a technique used in software engineering to make de
 
 Consider you are writing a code for an application where the various objects depend on each other. So, instead of having each object create and manage its own dependencies, you can use DI to create an object of those dependencies and pass them to each object whenever needed.
 
-Since the dependencies are managed by the DI, users can modify them without needing to change the code in every object that uses them.
+Since the dependencies are managed by DI, users can modify them without needing to change the code in every object that uses them. 
 
 </blockquote>
   
@@ -22,7 +22,7 @@ Since the dependencies are managed by the DI, users can modify them without need
   
 <blockquote>
 
-The main difference between RestController and Controller is that the `@RestController` is used for building RESTful web services that return data in JSON, XML or any other format and the `@Controller` is used when we are building a web application that return an HTML view.
+The main difference between `@RestController` and `@Controller` is that the `@RestController` annotation is used for building RESTful web services that return data in JSON, XML or any other format, whereas the `@Controller` annotation is used when we are building a web application that returns an HTML view.
 
 </blockquote>
   
@@ -36,9 +36,9 @@ The main difference between RestController and Controller is that the `@RestCont
   
 <blockquote>
 
-A functional interface is a Java 8 feature and is also called as `Single Abstract Method`. It is an interface that has only one abstract method. Functional interfaces are commonly used with lambda expressions to create more concise and readable code.
+A functional interface is a feature introduced in Java 8 and is also called a `Single Abstract Method`. It is an interface that has only one abstract method. Functional interfaces are commonly used with lambda expressions to create more concise and readable code.
 
-Java includes some built-in functional interfaces, such as Runnable, Consumer, Comparable.
+Java includes some built-in functional interfaces, such as Runnable, Consumer, and Comparable.
 
 </blockquote>
   
@@ -52,7 +52,7 @@ Java includes some built-in functional interfaces, such as Runnable, Consumer, C
   
 <blockquote>
 
-An interface defined the set of methods that a class must implement. It is like a blueprint for a class. They are used to achieve abstraction in the application. Also by using interface we can achieve multiple inheritance in java.
+An interface defined the set of methods that a class must implement. It is a blueprint for a class. They are used to achieve abstraction in the application. Also by using interface we can achieve multiple inheritance in java.
 
 </blockquote>
   
@@ -66,7 +66,7 @@ An interface defined the set of methods that a class must implement. It is like 
   
 <blockquote>
 
-Singleton is a type of bean object scope in which only one instance of bean is created. and this same instance will be shared globally for each request made for that bean.
+Singleton is a type of bean object scope in which only one instance of the bean is created, and this same instance is shared globally for each request made for that bean. The singleton bean scope is used for stateless beans that do not maintain any internal state, such as utility classes or service classes. The singleton scope offers benefits like improved performance, consistency, and simplicity in configuration.
 
 </blockquote>
   
@@ -80,7 +80,8 @@ Singleton is a type of bean object scope in which only one instance of bean is c
   
 <blockquote>
 
-Class is a blueprint for creating objects. It defines the structure of an object by specifying methods and variables which the object will contain. Objects are created from class by using `new` keyword.
+A class is a blueprint for creating objects. It defines the structure of an object by specifying methods and variables that the object will contain. For example, a Car class can have attributes such as model, weight, and color, as well as methods such as start, stop, and brake. We can then use this blueprint to create objects for the Car class, with each object having its own values for the attributes. To create objects from a class, we use the `new` keyword.
+
 
 </blockquote>
   
@@ -94,7 +95,7 @@ Class is a blueprint for creating objects. It defines the structure of an object
   
 <blockquote>
 
-An object is an instance of class. It represents an real-world entity which have properties and behaviour specified by the class. An object is creted from class using `new` keyword. Each object have it's own unique identity and behaviour. Objects are the main block of object oriented programming. 
+An object is an instance of a class. It represents a real-world entity that has properties and behavior specified by the class. An object is created from a class using the `new` keyword. Each object has its own unique identity, state, and behavior. The state represents the data contained in the object, while the methods define the actions that can be performed on that state. Objects are the main building block of object-oriented programming. 
 
 </blockquote>
   
@@ -108,7 +109,7 @@ An object is an instance of class. It represents an real-world entity which have
   
 <blockquote>
 
-To connect a database to our spring boot application first we have to add the driver dependency for that specific database. After adding the dependency we have to configure the database properties like url, username, password in our `application.properties` or `application.yml` file. Post which we have to create an Database access layer to interact with our database.
+To connect a database to our spring boot application first, we have to add the driver dependency for that specific database. After adding the dependency we have to configure the database properties like URL, username, and password in our `application.properties` or `application.yml` file. Post which we have to create a Database access layer to interact with our database.
 
 </blockquote>
   
@@ -116,13 +117,15 @@ To connect a database to our spring boot application first we have to add the dr
 
 ---
 
-9. How do you connect a spring application with a database?
+9. How does jpa interact with the data base?
+
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-To connect a database to our spring boot application first we have to add the driver dependency for that specific database. After adding the dependency we have to configure the database properties like url, username, password in our `application.properties` or `application.yml` file. Post which we have to create an Database access layer to interact with our database.
+JPA stands for Java Persistence API. It is a standard interface for Object-Relational Mapping (ORM) tools to map Java objects to relational databases. The JPA interacts with the database using an EntityManager, which is responsible for managing the lifecycle of entities. JPA also provides a query language called JPQL (Java Persistence Query Language). The JPQL queries are then translated into SQL statements that are used to perform operations on the database.
+
 
 </blockquote>
   
@@ -130,13 +133,13 @@ To connect a database to our spring boot application first we have to add the dr
 
 ---
 
-10. How can I make so that a field in an entity class does not generate a colum?
+10. How can I make so that a field in an entity class does not generate a column?
  
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-To acheive this functinality we can use `@Transient` annotation. The `@Transient` annotation indicats JPA to exclude the annotated field while creating the database table.
+To achieve this functionality we can use the `@Transient` annotation. The `@Transient` annotation indicates JPA to exclude the annotated field while creating the database table.
 
 </blockquote>
   
@@ -150,7 +153,7 @@ To acheive this functinality we can use `@Transient` annotation. The `@Transient
   
 <blockquote>
 
-To create a controller in a Spring application. Create a class and annotate it with the `@Controller` annotation. You can also use `@RequestMapping` annotation above the controller class to define the base url for the class methods. 
+To create a controller in a Spring application. Create a class and annotate it with the `@Controller` annotation. This class will have methods that handle incoming HTTP requests and return a response to the client. You can also use the `@RequestMapping` annotation above the controller class to define the base UR for the class methods.
 
 </blockquote>
   
@@ -158,15 +161,15 @@ To create a controller in a Spring application. Create a class and annotate it w
 
 ---
 
-12. How does spring know if your request is post, get or put in your controller?
+12. How does Spring know if your request is post, get, or put in your controller?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-The spring determines the type of HTTP request POST, GET, PUT based on the HTTP method specified in the request. Spring checks the HTTP method and url pattern to map that request to a specific method. 
+The Spring framework determines the type of HTTP request (POST, GET, PUT) based on the HTTP method specified in the request. Spring checks the HTTP method and URL pattern to map that request to a specific method.
 
-For example, If we send an GET request with a specific url. The spring will automatically map that request to a method which is having `@GetMapping` annotation with matching url pattern.
+For example, if we send a GET request with a specific URL, Spring will automatically map that request to a method which has the `@GetMapping` annotation with a matching URL pattern.
 
 
 </blockquote>
@@ -196,9 +199,9 @@ To transfer data from contoller to angular application we can use `HTTPClient` s
   
 <blockquote>
 
-An abstract class is a class which contain abstract methods. The abstract class can not be instantiated and have to be extended by other class to use the methods of that class. While an interface serves as an contract that specifies a set of methods that a class must implement.
+An abstract class is a class that contains abstract methods. The abstract class can not be instantiated and have to be extended by other class to use the methods of that class. While an interface serves as a contract that specifies a set of methods that a class must implement.
 
-The difference between abstract class and interface is that the abstract class can contain both abstract and non-abstract methods while an interface can have only abstract methods. Since java 8, it can have static and default methods. Abstract class can have final, non-final, static and non-static variables while interface can only have static and final variables.
+The difference between an abstract class and an interface is that the abstract class can contain both abstract and non-abstract methods while an interface can have only abstract methods. Since Java 8, it can have static and default methods. An abstract class can have final, non-final, static, and non-static variables while an interface can only have static and final variables.
 
 
 </blockquote>
@@ -213,7 +216,7 @@ The difference between abstract class and interface is that the abstract class c
   
 <blockquote>
 
-We can use `@GetMapping` annotation for get mapping and `@PostMapping` annotation for post mapping in spring.
+We use the `@GetMapping` annotation for HTTP GET requests to map that request to a specific handler method in a controller, and the `@PostMapping` annotation for HTTP POST requests in Spring.
 
 </blockquote>
   
