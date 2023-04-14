@@ -427,42 +427,114 @@ There are four types of decorators in Angular:
   </blockquote>
 </details>
 
-22. 
+ ---
+
+22. Angular lifecycle. 
+
 
 <details><summary><b>Show Answer</b></summary>
 
  <blockquote>
 
+## Components Life Cycle Hooks
+
+Angular creates a component; renders it; creates and renders its children; checks it when its data-bound properties change; and destroys it before removing it from the DOM. These events are called **Lifecycle Hooks**. These Lifecycle hooks have eight different function calls which correspond to the lifecycle event. Every angular component has a life cycle event carried out in 2 different phases -  one linked to the component itself and the other linked to the children of that component.
+
+## Eight lifecycle hooks in Angular
+
+The below diagram illustrates the order in which the eight hooks are executed.
+
+![Lifecycle Hooks](/modules/resources/hooks.png)
+
+**constructor()** - The constructor of the component class gets executed first, before the execution of any other lifecycle hook events. If we need to inject any dependencies into the component, then the constructor is the best place to do so.
+
+#### Lifecycle Hooks
+
+**ngOnChanges()** - Called whenever the input properties of the component change. It returns a *SimpleChanges* object which holds any current and previous property values.
+
+**ngOnInit()** - Called once to initialize the component and set the input properties. It initializes the component after Angular first displays the data-bound properties. 
+
+**ngDoCheck()** - Called during all change-detection runs that Angular can't detect on its own. Also called immediately after the `ngOnChanges()` method.
+
+**ngAfterContentInit()** - Invoked once after Angular performs any content projection into the component’s view.
+
+**ngAfterContentChecked()** - Invoked after each time Angular checks for content projected into the component. It's called after `ngAfterContentInit()` and every subsequent `ngDoCheck()`.
+
+**ngAfterViewInit()** - Invoked after Angular initializes the component's views and its child views.
+
+**ngAfterViewChecked()** - Invoked after each time Angular checks for the content projected into the component. a It called after `ngAfterViewInit()` and every subsequent `ngAfterContentChecked()`.
+
+**ngOnDestroy()** - Invoked before Angular destroys the directive or component.
 
 
   </blockquote>
 </details>
 
+ ---
+
+23. What does ngOnInIt do?
+
 <details><summary><b>Show Answer</b></summary>
 
  <blockquote>
+
+ **ngOnInit()** It is Called once to initialize the component and set the input properties. It initializes the component after Angular first displays the data-bound properties. 
 
   </blockquote>
   
 </details>
 
+ ---
+
+24. How are the files structured in Angular?
+
 <details><summary><b>Show Answer</b></summary>
 
  <blockquote>
+ 
+In Angular, files are organized into modules, components, services, directives, pipes, and other artifacts. Here is a brief overview of how files are typically structured in an Angular application:
+
+**1. Modules:** An Angular application is typically divided into feature modules, which are collections of related components, services, and other artifacts. A module is defined in a file with the ".module.ts" extension and typically includes declarations, imports, exports, and providers.
+
+**2. Components:** Components are the building blocks of an Angular application, and they represent the UI elements of the application. A component is defined in a file with the ".component.ts" extension and typically includes a template, styles, and logic for handling user interactions.
+
+**3. Services:** Services provide functionality that can be shared across components or other services in an application. A service is defined in a file with the ".service.ts" extension and typically includes methods for interacting with external data sources or performing other operations.
+
+**4. Directives:** Directives are used to add behavior or manipulate the DOM of an Angular application. A directive is defined in a file with the ".directive.ts" extension and typically includes a selector, template, and logic for manipulating the DOM.
+
+**5. Pipes:** Pipes are used to transform data in an Angular application. A pipe is defined in a file with the ".pipe.ts" extension and typically includes a transform method for transforming data.
+
+In addition to these core artifacts, an Angular application may also include files for testing, routing, and configuration. The specific file structure of an Angular application may vary depending on the needs of the project and the preferences of the development team.
 
   </blockquote>
 </details>
 
+ ---
+
+25. Angular components vs service layer.
+
 <details><summary><b>Show Answer</b></summary>
 
  <blockquote>
+
+- Components in an Angular application are responsible for managing the user interface, while services provide functionality that can be shared across multiple components or other services in an application. 
+- Components typically contain logic for handling user interactions and for communicating with other parts of the application. 
+- Services contain business logic for performing operations such as retrieving data from an API, processing data, or performing calculations. 
+- It is recommended to keep the business logic and data management code in services, and to use components primarily for managing the user interface.
 
   </blockquote>
 </details>
 
+ ---
+ 
+26. What is in the tsconfig.json file in Angular?
+
 <details><summary><b>Show Answer</b></summary>
 
  <blockquote>
+
+ The tsconfig.json file in an Angular project is a configuration file for the TypeScript compiler, which specifies the compiler options, files to include and exclude, and other settings for the TypeScript compiler. It is an important file as it controls how TypeScript code is compiled and processed in the project.
+
 
   </blockquote>
 </details>

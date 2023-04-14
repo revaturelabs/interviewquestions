@@ -264,3 +264,249 @@ For example: A man at the same time is a father, a husband, an employee. So, the
 </details>
 
 ---
+
+10. What is a singleton?
+
+<details><summary></summary>
+
+<blockquote>
+
+In software design patterns, a singleton is a creational design pattern that ensures only one instance of a class is created in the entire application. This pattern is useful in situations where a single instance of a class must be shared across the entire application, such as a configuration manager or a database connection pool. The singleton pattern helps reduce memory usage and avoid issues related to multiple instances of the same object.
+
+</blockquote>
+
+</details>
+
+11. What is the difference between a singleton and static?
+
+<details><summary></summary>
+
+<blockquote>
+
+- The main difference between a singleton and a static class is that a singleton can be instantiated, whereas a static class cannot. 
+- A singleton class is designed to create only one instance of the class, which can be accessed globally. A static class, on the other hand, does not have any instance and its methods and properties can be accessed using the class name itself.
+- A singleton can have state, and its instance can be passed around, whereas a static class cannot have any state and its methods are invoked directly using the class name. Therefore, singletons are useful for creating global, stateful objects, while static classes are useful for creating stateless utility classes with no instance methods.
+
+</blockquote>
+
+</details>
+
+12.  How many types of constructors are there?
+
+<details><summary></summary>
+
+<blockquote>
+
+In Java, there are three types of constructors:
+
+**1. Default constructor:** This constructor is provided by Java automatically if no other constructor is defined explicitly. It has no arguments and initializes all instance variables to their default values.
+
+**2. Parameterized constructor:** This constructor takes one or more arguments and initializes the instance variables with the values provided in the constructor call.
+
+**3. Copy constructor:** This constructor is used to create a new object that is a copy of an existing object. It takes an object of the same class as an argument and initializes the new object's instance variables with the values from the existing object.
+
+
+</blockquote>
+
+</details>
+
+13. How is a private constructor used?
+
+<details><summary></summary>
+
+<blockquote>
+
+
+</blockquote>
+
+</details>
+
+14. merge two arrays in java
+
+
+<details><summary></summary>
+
+<blockquote>
+
+In Java, a private constructor is a constructor that is declared with the private access modifier. A private constructor is not accessible outside of the class in which it is defined, which means it cannot be called directly by other classes.
+
+**Private constructors are often used in Java for two main reasons:**
+
+**1. To prevent instantiation:** If a class only contains static methods or fields, it may be designed to be used only as a utility class and should not be instantiated. By making the constructor private, the class cannot be instantiated from outside of the class, which ensures that it is only used as intended.
+
+**2. To control object creation:** By making the constructor private and providing a static factory method, a class can control the creation of its objects. This can be useful when a class needs to perform certain checks or calculations before creating an object, or when it needs to maintain a limited number of instances of the class.
+
+Overall, a private constructor can be used to control the instantiation and creation of objects of a class.
+
+</blockquote>
+
+</details>
+
+15. How would you do check a palindrome with a string builder?
+
+<details><summary></summary>
+
+<blockquote>
+
+To check if a string is a palindrome using StringBuilder, you can follow these steps:
+
+1. Create a StringBuilder object and append the input string to it.
+2. Use the reverse() method of the StringBuilder class to reverse the string.
+3. Convert the StringBuilder object back to a string using the toString() method.
+4. Compare the original input string with the reversed string to check if it is a palindrome.
+
+
+```java
+public static boolean isPalindrome(String input) {
+    StringBuilder sb = new StringBuilder(input);
+    String reversed = sb.reverse().toString();
+    return input.equals(reversed);
+}
+```
+
+</blockquote>
+
+</details>
+
+16.  how to make hashmap thread safe?
+
+
+<details><summary></summary>
+
+<blockquote>
+
+**1. Use ConcurrentHashMap:** ConcurrentHashMap is a thread-safe version of HashMap that provides better performance than synchronizing access to a regular HashMap. It uses a technique called lock striping to allow multiple threads to modify the map concurrently without blocking each other.
+
+**2. Synchronize access to the HashMap:** You can use the synchronized keyword to synchronize access to the HashMap. This ensures that only one thread can access the HashMap at a time, which prevents concurrent modifications.
+
+
+</blockquote>
+
+</details>
+
+17. How do you handle exceptions in java
+
+<details><summary></summary>
+
+<blockquote>
+
+In Java, exceptions are a way to handle errors and unexpected situations that occur during program execution. To handle exceptions in Java, you can use a try-catch block. Here's how it works:
+
+1. The code that might throw an exception is placed inside a try block.
+2. If an exception occurs in the try block, the program jumps to the catch block.
+3. The catch block contains code that handles the exception. It can print an error message or take other actions to recover from the error.
+
+</blockquote>
+
+</details>
+
+
+18. Given a sentence with punctuation stored as a string. print the words (case insensitive) that occur more than 1 times. and their occurrence.
+
+<details><summary></summary>
+
+<blockquote>
+
+To print the words that occur more than once in a sentence and their occurrence, you can use a HashMap to store the words and their frequency. Here's an example implementation in Java:
+
+```java
+import java.util.HashMap;
+import java.util.Map;
+
+public class WordCounter {
+    
+    public static void printWordFrequency(String sentence) {
+        String[] words = sentence.split("\\W+"); // Split sentence by non-word characters
+
+        Map<String, Integer> wordFreq = new HashMap<>();
+        for (String word : words) {
+            word = word.toLowerCase(); // Convert to lowercase to ignore case
+            if (wordFreq.containsKey(word)) {
+                wordFreq.put(word, wordFreq.get(word) + 1); // Increment frequency if word already in map
+            } else {
+                wordFreq.put(word, 1); // Add word to map with frequency 1
+            }
+        }
+
+        // Print words that occur more than once
+        for (Map.Entry<String, Integer> entry : wordFreq.entrySet()) {
+            if (entry.getValue() > 1) {
+                System.out.println(entry.getKey() + " occurs " + entry.getValue() + " times.");
+            }
+        }
+    }
+
+}
+
+```
+
+- In this example, we define a WordCounter class with a static method printWordFrequency() that takes a sentence as a parameter. The method works the same way as the previous example, using a HashMap to count the frequency of each word and then printing the words that occur more than once.
+
+</blockquote>
+
+</details>
+
+19. what do you know about collection? 
+
+<details><summary></summary>
+
+<blockquote>
+
+
+</blockquote>
+
+</details>
+
+
+20. what is the process to create servlet api in spring; 
+
+<details><summary></summary>
+
+<blockquote>
+
+In Java, a collection is a group of objects that can be stored, manipulated, and iterated together. The Java Collection Framework is a set of classes and interfaces that provide implementations of different types of collections.
+
+Some common types of collections in Java include:
+
+- **List:** an ordered collection of elements that allows duplicates and can be accessed by index.
+Set: an unordered collection of unique elements.
+- **Map:** a collection of key-value pairs, where each key is unique and maps to a value.
+- **Queue:** a collection that orders elements in a first-in, first-out (FIFO) manner.
+
+
+Each type of collection has its own methods and behavior, but they all share common methods and interfaces defined by the Collection Framework. For example, all collections implement the Iterable interface, which allows them to be iterated over using a for-each loop.
+
+The Collection Framework also provides algorithms for searching, sorting, and manipulating collections, as well as utility classes for working with collections, such as Collections and Arrays.
+
+Overall, collections are an important part of the Java language and provide a flexible and efficient way to work with groups of objects.
+
+</blockquote>
+
+</details>
+
+<details><summary></summary>
+
+<blockquote>
+
+
+</blockquote>
+
+</details>
+<details><summary></summary>
+
+<blockquote>
+
+
+</blockquote>
+
+</details>
+<details><summary></summary>
+
+<blockquote>
+
+
+</blockquote>
+
+</details>
+
+

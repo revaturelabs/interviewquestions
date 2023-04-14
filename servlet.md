@@ -21,4 +21,18 @@ Servlets support the concept of events and listeners through the use of interfac
 
 </details>
 
+ ---
+ 
+
+2. what is the process to create servlet api in spring; 
+
+<details><summary></summary>
+
+<blockquote>
+
+
+</blockquote>
+
+</details>
+
 ---

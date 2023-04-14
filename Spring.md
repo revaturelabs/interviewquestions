@@ -344,4 +344,104 @@ It is a specialisation of `@Component`. The `@Controller` indicates that a parti
 
 ---
 
+13. Name some Spring Annotations;
+
+
+<details><summary></summary>
+
+<blockquote>
+
+Few Examples for annotations in spring are:
+
+- `@Autowired` annotation is used to automatically wire dependencies into a Spring bean.
+- `@RequestMapping` annotation is used to map HTTP requests to controller methods.
+- `@Transactional` annotation is used to mark a method as transactional.
+- Spring also has stereotype annotations like:
+
+**1. `@Component`**
+
+`@Component` is the main Stereotype Annotation. It is a class-level annotation. `@Component` is used across the application to mark the beans as Spring's managed components.
+
+**2. `@Service`**
+
+It is a specialization of `@Component`. The business logic of an application is in the service layer, `@Service` annotation is used to indicate that a class belongs to the service layer.
+
+**3. `@Repository`**
+
+It is a specialization of `@Component`. It is very similar to the DAO pattern. DAO classes provide CRUD operations for database tables.
+
+**4. `@Controller`**
+
+It is a specialisation of `@Component`. The `@Controller` indicates that a particular class is a controller. It is mostly used with Spring MVC applications. It is used in combination with annotated methods based on the `@RequestMapping` annotation. The dispatcher scans the class and detects methods with `@RequestMapping`. 
+
+
+</blockquote>
+
+</details>
+
+---
+
+14. What is another annotation for the @Controller annotation?
+
+<details><summary></summary>
+
+<blockquote>
+
+- `@Component` is annother annotation for `@Controller`.
+
+- `@Component` is the main Stereotype Annotation. It is a class-level annotation. `@Component` is used across the application to mark the beans as Spring's managed components.
+
+</blockquote>
+
+</details>
+
+---
+
+15.  When the front-end sends information to the backend, what layer does the information go through first?
+
+
+<details><summary></summary>
+
+<blockquote>
+
+- When the frontend sends the information to backend the Controller layer recieves the information first.
+
+- The Controller layer in Spring is responsible for receiving and processing incoming HTTP requests, and for returning an appropriate HTTP response.
+
+</blockquote>
+
+</details>
+
+---
+
+16. Are you aware of native-queries (custom queries)? 
+
+<details><summary></summary>
+
+<blockquote>
+
+- Native queries are also known as custom queries, in the context of Spring framework. In Spring, native queries are SQL queries that are written in the database-specific language and executed using a database driver, instead of using the ORM framework like Hibernate or JPA.
+
+- In Spring Data JPA, developers can execute native queries by using the `@Query` annotation with the nativeQuery attribute set to true. This allows developers to use custom SQL queries to interact with the database, which can be useful for complex queries or for cases where the JPA query language is not expressive enough.
+
+- However, using native queries can have drawbacks, such as reduced portability across different databases, increased risk of SQL injection attacks, and increased complexity of the application code. Therefore, it is important to carefully consider the tradeoffs before deciding whether to use native queries or not.
+
+</blockquote>
+
+</details>
+
+---
+
+17. difference between spring data and spring JPA?
+
+<details><summary></summary>
+
+<blockquote>
+
+Spring Data is a high-level data access framework that provides a unified API for interacting with different types of data stores. Spring JPA is a specific module within Spring Data that provides support for Java Persistence API (JPA), which is a standard API for ORM in Java. In summary, Spring Data provides a high-level API for interacting with different types of data stores, while Spring JPA is a specific module within Spring Data that provides additional features and enhancements for working with JPA.
+
+</blockquote>
+
+</details>
+
 

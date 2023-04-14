@@ -77,3 +77,109 @@ public class Main {
 
 </details>
 
+4. Difference between ArrayList and Hashmap 
+
+<details> <summary>Show Answer</summary>
+ 
+<blockquote>
+
+ArrayList and HashMap are two different data structures in Java that serve different purposes. 
+
+**Here are some of the key differences between them:**
+
+**1. Data type:** ArrayList is used to store a collection of elements of a single data type, while HashMap is used to store key-value pairs where both the key and value can be of different data types.
+
+**2. Indexing:** ArrayList elements are indexed and can be accessed using the index number, while HashMap elements are accessed using the key.
+
+**3. Ordering:** ArrayList elements are ordered based on the index, while HashMap elements are not ordered.
+
+**4. Duplicates:** ArrayList can contain duplicate elements, while HashMap cannot have duplicate keys. However, values in HashMap can be duplicated.
+
+**5. Search time:** ArrayList uses index-based search, which is faster than HashMap's hash-based search. However, HashMap provides constant time search for a given key, regardless of the size of the map.
+
+**6. Memory usage:** ArrayList requires less memory overhead than HashMap because it only stores elements, while HashMap stores key-value pairs along with the hash table.
+
+In summary, ArrayList is used to store a collection of elements of a single data type in a specific order, while HashMap is used to store key-value pairs in an unordered manner for fast retrieval of values using keys.
+
+</blockquote>
+
+</details>
+
+5. what is Complexity and bigO notations of different sort methods and Arrays.sort
+
+
+<details> <summary>Show Answer</summary>
+ 
+<blockquote>
+
+| Sorting Algorithm | Time Complexity | Best Case  | Worst Case | Space Complexity | Stable |
+| ----------------- | --------------- | ---------- | ---------- | ---------------- | ------ |
+| Bubble Sort       | O(n^2)          | O(n)       | O(n^2)     | O(1)             | Yes    |
+| Selection Sort    | O(n^2)          | O(n^2)     | O(n^2)     | O(1)             | No     |
+| Insertion Sort    | O(n^2)          | O(n)       | O(n^2)     | O(1)             | Yes    |
+| Quick Sort        | O(n log n)      | O(n log n) | O(n^2)     | O(log n)         | No     |
+| Merge Sort        | O(n log n)      | O(n log n) | O(n log n) | O(n)             | Yes    |
+| Heap Sort         | O(n log n)      | O(n log n) | O(n log n) | O(1)             | No     |
+| Arrays.sort()     | O(n log n)      | O(n)       | O(n log n) | O(log n)         | Yes    |
+
+<b><i>Note:</b>
+
+- "Stable" refers to whether the algorithm maintains the relative order of equal elements in the sorted array.
+- "Space complexity" refers to the amount of additional memory required by the algorithm, apart from the input array itself.</i>
+
+
+</blockquote>
+
+</details>
+
+6. Create a queue with two stacks.
+
+<details> <summary>Show Answer</summary>
+ 
+<blockquote>
+
+To create a queue using two stacks, we need to maintain two stacks:
+
+1. A "push" stack to enqueue elements.
+2. A "pop" stack to dequeue elements.
+The approach is as follows:
+
+- To enqueue an element, simply push it onto the "push" stack.
+- To dequeue an element, if the "pop" stack is not empty, pop the top element from it and return it. Otherwise, pop all the elements from the "push" stack and push them onto the "pop" stack. Then pop the top element from the "pop" stack and return it.
+
+```java
+import java.util.Stack;
+
+public class QueueWithTwoStacks<T> {
+    private Stack<T> pushStack = new Stack<>();
+    private Stack<T> popStack = new Stack<>();
+
+    public void enqueue(T element) {
+        pushStack.push(element);
+    }
+
+    public T dequeue() {
+        if (popStack.isEmpty()) {
+            while (!pushStack.isEmpty()) {
+                popStack.push(pushStack.pop());
+            }
+        }
+        return popStack.pop();
+    }
+
+    public boolean isEmpty() {
+        return pushStack.isEmpty() && popStack.isEmpty();
+    }
+
+    public int size() {
+        return pushStack.size() + popStack.size();
+    }
+}
+
+```
+
+
+</blockquote>
+
+</details>
+
