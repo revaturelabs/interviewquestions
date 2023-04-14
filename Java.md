@@ -249,15 +249,15 @@ For example: A man at the same time is a father, a husband, an employee. So, the
 
 ### HashSet vs HashMap
 
-| HashSet          | HashMap                                                |
-| ---------------- | ------------------------------------------------------ |
-| Data type        | Collection of unique objects                           | Collection of key-value pairs |
-| Storage          | Hash table                                             | Hash table |
-| Duplicates       | Not allowed                                            | Duplicate keys and values are allowed |
-| Retrieval        | Only elements                                          | Value associated with a key |
-| Null values/keys | Does not allow null elements                           | Allows null values and keys |
-| Performance      | Constant time for add, remove, and contains operations | Constant time for put, get, and remove operations |
-| Order            | Elements are not stored in any particular order        | No order is |
+|                  | HashSet                                                | HashMap                                          |
+| ---------------- | ------------------------------------------------------ |--------------------------------------------------
+| Data type        | Collection of unique objects                           | Collection of key-value pairs                    |
+| Storage          | Hash table                                             | Hash table                                       |
+| Duplicates       | Not allowed                                            | Duplicate keys and values are allowed            |
+| Retrieval        | Only elements                                          | Value associated with a key                      |
+| Null values/keys | Does not allow null elements                           | Allows null values and keys                      |
+| Performance      | Constant time for add, remove, and contains operations | Constant time for put, get, and remove operations|
+| Order            | Elements are not stored in any particular order        | No order is                                      |
   
 </blockquote>
 
