@@ -1,36 +1,4 @@
-1. Why use Dependency injection?
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-Dependency injection (DI) is a technique used in software engineering to make development of software applications easier. The DI uses loose coupling between different components, making it easier to modify individual parts without affecting the rest of the application.
-
-Consider you are writing a code for an application where the various objects depend on each other. So, instead of having each object create and manage its own dependencies, you can use DI to create an object of those dependencies and pass them to each object whenever needed.
-
-Since the dependencies are managed by DI, users can modify them without needing to change the code in every object that uses them. 
-
-</blockquote>
-  
-</details>
-
----
-
-2. Difference between RestController and Controller?
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-The main difference between `@RestController` and `@Controller` is that the `@RestController` annotation is used for building RESTful web services that return data in JSON, XML or any other format, whereas the `@Controller` annotation is used when we are building a web application that returns an HTML view.
-
-</blockquote>
-  
-</details>
-
----
-
-3. Functional interface in java?
+1. Functional interface in java?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -46,7 +14,7 @@ Java includes some built-in functional interfaces, such as Runnable, Consumer, a
 
 ---
 
-4. What is the purpose of interfaces in Java? 
+2. What is the purpose of interfaces in Java? 
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -60,21 +28,9 @@ An interface defined the set of methods that a class must implement. It is a blu
 
 ---
 
-5. What is a singleton, and why do you use it?
 
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
 
-Singleton is a type of bean object scope in which only one instance of the bean is created, and this same instance is shared globally for each request made for that bean. The singleton bean scope is used for stateless beans that do not maintain any internal state, such as utility classes or service classes. The singleton scope offers benefits like improved performance, consistency, and simplicity in configuration.
-
-</blockquote>
-  
-</details>
-
----
-
-6. What is a class?
+3. What is a class?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -89,7 +45,7 @@ A class is a blueprint for creating objects. It defines the structure of an obje
 
 ---
 
-7. What is object?
+4. What is object?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -103,97 +59,7 @@ An object is an instance of a class. It represents a real-world entity that has 
 
 ---
 
-8. How do you connect a spring application with a database?
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-To connect a database to our spring boot application first, we have to add the driver dependency for that specific database. After adding the dependency we have to configure the database properties like URL, username, and password in our `application.properties` or `application.yml` file. Post which we have to create a Database access layer to interact with our database.
-
-</blockquote>
-  
-</details>
-
----
-
-9. How does jpa interact with the data base?
-
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-JPA stands for Java Persistence API. It is a standard interface for Object-Relational Mapping (ORM) tools to map Java objects to relational databases. The JPA interacts with the database using an EntityManager, which is responsible for managing the lifecycle of entities. JPA also provides a query language called JPQL (Java Persistence Query Language). The JPQL queries are then translated into SQL statements that are used to perform operations on the database.
-
-
-</blockquote>
-  
-</details>
-
----
-
-10. How can I make so that a field in an entity class does not generate a column?
- 
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-To achieve this functionality we can use the `@Transient` annotation. The `@Transient` annotation indicates JPA to exclude the annotated field while creating the database table.
-
-</blockquote>
-  
-</details>
-
----
-
-11. How do you create a controller in your spring application?
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-To create a controller in a Spring application. Create a class and annotate it with the `@Controller` annotation. This class will have methods that handle incoming HTTP requests and return a response to the client. You can also use the `@RequestMapping` annotation above the controller class to define the base UR for the class methods.
-
-</blockquote>
-  
-</details>
-
----
-
-12. How does Spring know if your request is post, get, or put in your controller?
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-The Spring framework determines the type of HTTP request (POST, GET, PUT) based on the HTTP method specified in the request. Spring checks the HTTP method and URL pattern to map that request to a specific method.
-
-For example, if we send a GET request with a specific URL, Spring will automatically map that request to a method which has the `@GetMapping` annotation with a matching URL pattern.
-
-
-</blockquote>
-  
-</details>
-
----
-
-13. How were you transferring information through the controllers to your angular application? 
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-To transfer data from contoller to angular application we can use `HTTPClient` service which will be used to make HTTP requests to the controller. The `HTTPClient` service return an `observable` which we can subscribe to get the data sent from the controller in our angular application.
-
-
-</blockquote>
-  
-</details>
-
----
-
-14. Abstract class vs interface?  
+5. Abstract class vs interface?  
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -210,13 +76,13 @@ The difference between an abstract class and an interface is that the abstract c
 
 ---
 
-15. Controller annotations for get mapping, post mapping?
+6. Does Java allow static classes?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-We use the `@GetMapping` annotation for HTTP GET requests to map that request to a specific handler method in a controller, and the `@PostMapping` annotation for HTTP POST requests in Spring.
+Java allows a class to be a static only if that class in a inner class.Static classes are also known as `static nested classes`. The static inner classes can be accessed without initializing the outer class.The static class does not have access to the instance variables and methods of the outer class. 
 
 </blockquote>
   
@@ -224,13 +90,13 @@ We use the `@GetMapping` annotation for HTTP GET requests to map that request to
 
 ---
 
-16. Does Java allow static classes?
+7. What are annotations and what are they good for?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-Java allows a class to be a static only if that class in a inner class. The static inner classes can be accessed without initializing the outer class.  
+Annotations in java provide metadata about the class, method, and interface. They are used to provide additional information to the compiler about a programming element like a method or class to provide additional functionality. In Java, annotations are represented using the `@` symbol followed by the annotation name.
 
 </blockquote>
   
@@ -238,13 +104,13 @@ Java allows a class to be a static only if that class in a inner class. The stat
 
 ---
 
-17. What are annotations and what are they good for?
+8. What is a deadlock?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-Annotations in java provide metadata about the class, method, interface. They are used to provide additional information to compiler to provide additional functionality.
+A deadlock condition occurs when two or more threads are blocking the resources and waiting for each other to release the resource. Consider for example, If one thread acquires a lock on one resource and then attempts to lock another resource that is already locked by another thread that is waiting for the first thread to release the lock on the first resource. So in this condition, a deadlock occurs. To prevent deadlock conditions we can avoid nested locks.
 
 </blockquote>
   
@@ -252,13 +118,13 @@ Annotations in java provide metadata about the class, method, interface. They ar
 
 ---
 
-18. What is a deadlock?
+9. What are threads? What type of threads?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-A dedlock condition occurs when two or more threads are blocking the resources and waiting for each other to release the resource. Consider for example, If one thread acquires lock on one resource and then attempts to lock another resource which is already locked by another threading which is waiting for first thread to release the lock on first resource. So in this condition deadlock occurs. To prevent deadlock condition we can avoid nested locks.
+Threads are individual, lightweight, and the smallest unit of a given process. They are used to perform multiple tasks simultaneously, which increases the performance of a program. There are two types of threads: daemon threads and user threads. User threads are created by the Java application and are used to perform application-specific tasks. Daemon threads are low-priority threads created by the JVM that run in the background and support the user threads.
 
 </blockquote>
   
@@ -266,27 +132,15 @@ A dedlock condition occurs when two or more threads are blocking the resources a
 
 ---
 
-19. What are threads? What type of threads?
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-Threads are individual, light-weight and smallest unit of a given process. There are two types of threads daemon threads and nondeamon thread. The deamon threads are lowpriority threads which runs in backgroundand supports the nondeamon threads.
-
-</blockquote>
-  
-</details>
-
----
-
-20. What is an exception in Java?
+10. What is an exception in Java?
  
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-An exception is an event that occurs during the execution of a program, which disrupts the normal flow of the program's instructions.Exceptions are of two types, checked exceptions and unchecked exceptions. Checked exceptions are checked by the compiler at the compile-time, while unchecked exceptions are not checked by the compiler. Java provides try-catch block to handel the exceptions.
+An exception is an event that occurs during the execution of a program, which disrupts the normal flow of the program. When an exception occurs, the execution flow of the program is transferred from the normal flow to an exception handling mechanism which uses a `try-catch` block to handle the exception.
+
+In Java, there are two types of exceptions: checked exceptions and unchecked exceptions. Checked exceptions are checked by the compiler at compile-time, while unchecked exceptions are not checked by the compiler. Examples of checked exceptions include `IOException`, `SQLException`, and `ClassNotFoundException`, while examples of unchecked exceptions include `NullPointerException`, `ArrayIndexOutOfBoundsException`, and `ArithmeticException`.
 
 </blockquote>
   
@@ -294,38 +148,7 @@ An exception is an event that occurs during the execution of a program, which di
 
 ---
 
-21. Can spring use a server different from the embedded tomcat server?
- 
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-Spirng support the usage of different servers other than the embedded Tomcat server. Inside the project dependencies you can configure the servers which you want to utilize.
-
-</blockquote>
-  
-</details>
-
----
-
-22. What is Spring and why do we use it?
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-Spring is a popular open-source framework for building robust and scalable applications in Java. Spring provided multiple feature like dependency injection, aspect-oriented programming, transaction management, and more. 
-
-Spring is widely used for building web applications, microservices, and enterprise applications.
-
-
-</blockquote>
-  
-</details>
-
----
-
-23. The Difference Between a vector and ArrayList.
+11. The Difference Between a vector and ArrayList.
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -339,7 +162,7 @@ The Vector is synchronized while ArrayList is not synchronized and is not thread
 
 ---
 
-24. The difference between a @bean and @component.
+12. The difference between a @bean and @component.
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -353,13 +176,15 @@ The main difference between `@Component` and `@Bean` is that `@Component` is a c
 
 ---
 
-25. How do you inject a dependency through the constructor ?
+13. Is java a pass-by-value or pass-by-reference.
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-To inject a dependency through the constructor, create a constructor in a class and pass that dependency as a parameter to the constructor. Then, apply the `@Autowired` annotation above the constructor, Spring will automatically detect the dependency and inject it into the constructor when creating an instance of the class.
+In java is a pass-by-value. When a Java method is called, the values of the arguments are copied into the method's parameter variables. This means that changes made to the parameter variables within the method do not affect the original values of the arguments passed to the method. In case of an object reference, the reference itself is passed by value. This means that the value of the reference is copied into the parameter variable, but the object itself is not copied. Therefore, changes made to the object's state within the method are visible outside the method.
+
+
 
 </blockquote>
   
@@ -367,13 +192,13 @@ To inject a dependency through the constructor, create a constructor in a class 
 
 ---
 
-26. Is java a pass-by-value or pass-by-reference.
+14.  What is a stream api in Java. 
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-In java is a pass-by-value.
+The Stream API is a feature introduced in Java 8. It  provids functional programming approach to processing collections of data. A Stream is a sequence of elements that can be processed in parallel or sequentially. It allows you to perform various aggregate operations, such as filtering, mapping, sorting, and reducing, on a collection of objects. The Stream API is designed to work with large data sets and can help improve the performance of your Java applications.
 
 </blockquote>
   
@@ -381,13 +206,13 @@ In java is a pass-by-value.
 
 ---
 
-27. What is a stream api in Java. 
+15. Java Interfaces – How many can you implement? 
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-The Stream API is a feature introduced in Java 8. It  provids functional programming approach to processing collections of data.
+An interface is a contract that specifies a set of methods that a class must implement. A class can implement multiple interfaces, But it should provide an implementation for all the methods defined in each of the interfaces.
 
 </blockquote>
   
@@ -395,13 +220,13 @@ The Stream API is a feature introduced in Java 8. It  provids functional program
 
 ---
 
-28. Java Interfaces – How many can you implement? 
+16. Java Classes – How many can you extend? 
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-In java we can implement multiple interfaces in the same class.
+In Java, a class can only extend one parent class. The `extends` keyword is used in Java to indicate that a class is inheriting another class. When a class extends another class, it inherits all the properties and methods of the inherited class.
 
 </blockquote>
   
@@ -409,13 +234,13 @@ In java we can implement multiple interfaces in the same class.
 
 ---
 
-29. Java Classes – How many can you extend? 
+17. What is a copy constructor?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-In java we can extend only one class.
+In Java, a copy constructor is a constructor that creates a new object by copying the state of an existing object. It takes an object of the same class as its parameter and initializes the new object's state with the state of the original object.
 
 </blockquote>
   
@@ -423,21 +248,7 @@ In java we can extend only one class.
 
 ---
 
-30. What is a copy constructor?
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-A copy constructor is a special constructor that allows you to create a new object by copying the values of an existing object.
-
-</blockquote>
-  
-</details>
-
----
-
-31. How do you copy an array?
+18. How do you copy an array?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -451,7 +262,7 @@ To copy an array values form one array to another you can use a for loop which w
 
 ---
 
-32. Arrays vs ArrayList.
+19. Arrays vs ArrayList.
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -465,7 +276,7 @@ Array is a fixes size data structure while size of arraylist is dynamic. We have
 
 ---
 
-33. What is a Linked List?
+20. What is a Linked List?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -480,7 +291,7 @@ A linked list is a data structure that consists of a sequence of nodes, where ea
 
 ---
 
-34. Linked List vs ArrayList?
+21. Linked List vs ArrayList?
  
 <details><summary><b> Show Answer</b></summary>
   
@@ -499,13 +310,13 @@ There are following differences between an arraylist and linkedlist.
 
 ---
 
-35. Do you know any thread safe collections?
+22. Do you know any thread safe collections?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-ConcurrentHashMap, CopyOnWriteArrayList, ConcurrentLinkedQueue, BlockingQueue, and ConcurrentSkipListMap, Vector, HashTable these are some of the examples of thread safe collections.
+Java provides several thread-safe collections that can be used in multi-threaded applications where multiple threads can access the same collection concurrently. Stack, Vector, Hashtable these are some of the examples of thread safe collections.
 
 </blockquote>
   
@@ -513,13 +324,13 @@ ConcurrentHashMap, CopyOnWriteArrayList, ConcurrentLinkedQueue, BlockingQueue, a
 
 ---
 
-36. Do you know about any concurrent collections?
+23. Do you know about any concurrent collections?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-ConcurrentHashMap, CopyOnWriteArrayList, ConcurrentLinkedQueue, BlockingQueue, and ConcurrentSkipListMap these are some of the examples of thread safe collections.
+ConcurrentHashMap, CopyOnWriteArrayList, ConcurrentLinkedQueue, BlockingQueue, and ConcurrentSkipListMap these are some of the examples of concurrent collections.
 
 </blockquote>
   
@@ -527,13 +338,13 @@ ConcurrentHashMap, CopyOnWriteArrayList, ConcurrentLinkedQueue, BlockingQueue, a
 
 --- 
 
-37. How do you make an arraylist synchronized?
+24. How do you make an arraylist synchronized?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-To make an arraylist thread-safe in java, we can use `Collections.synchronizedList()`
+To make an arraylist synchronized in java, we can use `Collections.synchronizedList()`
 method to create a synchronized version of the arraylist. This method returns a thread-safe version of the original arraylist.
 
 </blockquote>
@@ -542,13 +353,13 @@ method to create a synchronized version of the arraylist. This method returns a 
 
 ---
 
-38. What is a set?
+25. What is a set?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-A set in java is an unordered collection which do no allow duplicate values to be stored in it. We can implement the set using HashSet, LinkedHashSet, TreeSet. In LinkedHashSet the order of elements is maintained and in treeset the elements are stored in sorted manner. To perform operations on set we can use methods like `add()`, `remove()`, `contains()`,and  `size()` 
+A `Set` in java is an unordered collection which do no allow duplicate values to be stored in it. We can implement the `Set` interface using `HashSet`, `LinkedHashSet`, `TreeSet`. The `LinkedHashSet` maintains the order of elements in which they were inserted and in `TreeSet` the elements are stored in sorted manner. To perform operations on set we can use methods like `add()`, `remove()`, `contains()`,and  `size()` 
 
 </blockquote>
   
@@ -556,13 +367,13 @@ A set in java is an unordered collection which do no allow duplicate values to b
 
 ---
 
-39. How are elements in TreeSets arranged?
+26. How are elements in TreeSets arranged?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-The elements in a tree set are arranged in ascending order. The tree set internally implements a self-balancing binary search tree. So whenever an element is added into a tree set. It is inserted at the appropriate position in self-balancing binary search tree to maintain the sorting order.
+The elements in a `TreeSet` are arranged in ascending order. The `TreeSet` internally implements a self-balancing binary search tree. So whenever an element is added into a tree set. It is inserted at the appropriate position in self-balancing binary search tree to maintain the sorted order.
 
 </blockquote>
   
@@ -570,15 +381,15 @@ The elements in a tree set are arranged in ascending order. The tree set interna
 
 ---
 
-40. What is a Queue in java?
+27. What is a Queue in java?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-A Queue is a collection interface which is used to store the elements in a particular order. The queue follows first in first out principle. which means that the first element added to the queue is the first element to be get removed from the queue. In queue the elements are added from the tails and removed from the head.  
+A `Queue` is a collection interface that is used to store the elements in a particular order. The queue follows the first in first out principle. which means that the first element added to the queue is the first element to be get removed from the queue. In `Queue`, the elements are added from the tails and removed from the head.  
 
-To perform operations on queue we can use methods like `offer()`, `poll()`, `peek()`, and `size()`. The queue can be implemented using `LinkedList`,  `ArrayDeque` and `PriorityQueue`.
+To perform operations on queue we can use methods like `offer()`, `poll()`, `peek()`, and `size()`. The queue can be implemented using `LinkedList`,  `ArrayDeque`, and `PriorityQueue`.
 
 </blockquote>
   
@@ -586,15 +397,15 @@ To perform operations on queue we can use methods like `offer()`, `poll()`, `pee
 
 ---
 
-41. What is a Stack?
+28. What is a Stack?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-Stack is a linear data structure which follows last in first out principal. The last in first out principal stats that the last element added to the stack is the first element to be removed. To perform operations on queue we can use methods like `push()`, `pop()`, `peek()`, and `empty()`. 
+`Stack` is a linear data structure that follows the last in first out principle. The last in first out principle states that the last element added to the stack is the first element to be removed. To perform operations on queue we can use methods like `push()`, `pop()`, `peek()`, and `empty()`. 
 
-The `push()` methods adds the element at the top of stack. The `pop()` methods removes and returns the top element from the stack. The `peek()` methods will return the first element in the stack without removing it. The `empty()` method is used to check whether the stack is empty or not.
+The `push()` method adds the element at the top of the stack. The `pop()` method removes and returns the top element from the stack. The `peek()` method will return the first element in the stack without removing it. The `empty()` method is used to check whether the stack is empty or not.
 
 </blockquote>
   
@@ -602,32 +413,32 @@ The `push()` methods adds the element at the top of stack. The `pop()` methods r
 
 ---
 
-42. Queue vs Stack?
+29. Queue vs Stack?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-The difference between queue and stack is that, the queue follows first in first out principal while the stack follows last in first out principal. 
+The difference between queue and stack is that the queue follows the first in first out principal while the stack follows the last in first out principal. 
 
-The new element which will get added in the stack will be added at the end/tail of the stack. The new element which we add in stack gets added at the top of the stack. 
+The new element which will get added to the Queue will be added at the end/tail of the stack. The new element which we add to the stack gets added at the top of the stack. 
 
 Stacks are commonly used in programming for keeping track of function calls. while the queue is commonly used to manage tasks in a system, such as processing jobs.   
 
-Stacks are used in algorithms such as Depth First Search (DFS). whereas the queue is used in Breadh First Search algotithm.
+Stacks are used in algorithms such as Depth First Search (DFS). whereas the queue is used in the Breadth First Search algorithm.
 
 </blockquote>
   
 </details>
 
 ---
-43. How to handle exceptions?
+30. How to handle exceptions?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-To handel exception, java provides an exception handling mechanism called `try-catch` block. The part of code which may throw an exception that code is written `try` block. In the `catch` block we write the code which will get executed when any exception occurs in try block. we can have multiple `catch` blocks to handel different types of exceptions. with try and catch block java also provides `finally` block which will get executed wheather an exception occurs or not. The use of `finally` block is optional. 
+To handle an exception, java provides an exception handling mechanism called the `try-catch` block. The part of code which may throw an exception that code is written `try` block. In the `catch` block we write the code which will get executed when any exception occurs in the try block. we can have multiple `catch` blocks to handle different types of exceptions. with try and catch block java also provides a `finally` block which will get executed whether an exception occurs or not. The use of the `finally` block is optional. 
 
 </blockquote>
   
@@ -635,21 +446,14 @@ To handel exception, java provides an exception handling mechanism called `try-c
 
 ---
 
-44. Spring annotations for exception handling?
+31. Use of finally?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-The spring framework have following annotations to handel exceptions
+The finally block is used with the `try-catch` block for exception handling in Java. The finally block gets executed regardless of whether an exception occurs or not. It is mainly used to release resources such as network connections, and database connections.
 
-- `@ControllerAdvice`: This annotation is used to define global exception handlers that apply to all controllers.
-
-- `@ExceptionHandler`: It is used to define methods that handle specific exceptions thrown by controllers or services.
-
-- `@ResponseStatus`: This annotation is used to define the HTTP status code that should be returned when a specific exception is thrown.
-
-- `@RestControllerAdvice`: This annotation is used to define global exception handlers for RESTful web services.
 
 </blockquote>
 
@@ -657,13 +461,13 @@ The spring framework have following annotations to handel exceptions
 
 ---
 
-45. Use of finally?
+32. How do you do multi-threading?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-The finally block is used with `try-catch` block for exception handling in java. The finally block gets executed regardless of whether an exception occurs or not. It is mainly used to release resources such as network connectionds, database connections.
+Multithreading in java allows a program to perform multiple tasks concurrently, which can improve the performance of the application. Threads in Java can be created by using two ways. The first way to create a thread in Java is by implementing the `Runnable` interface and the second way is by extending the `Thread` class. 
 
 </blockquote>
 
@@ -671,13 +475,13 @@ The finally block is used with `try-catch` block for exception handling in java.
 
 ---
 
-46. How do you do multi-threading?
+33. Volatile keywords?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-Multithreding in java allows a program to perform multiple tasks concurrently, which can improve performance of the application. Threads in java can be created by using two ways. The first way to create an thread in java is by implemention the `Runnable` interface and the second way is by extending the `Thread` class. 
+The `volatile` keyword in Java is used to indicate that a variable's value may be modified by multiple threads at the same time. Without the `volatile` keyword, different threads may create their own copy of that variable which will contain a different value for a different thread. This can lead to incorrect results. The `volatile` keyword helps to prevent this by forcing threads to always read the variable's value from main memory, rather than from a cached copy.
 
 </blockquote>
 
@@ -685,13 +489,13 @@ Multithreding in java allows a program to perform multiple tasks concurrently, w
 
 ---
 
-47. Volatile keywords?
+34. Serialization in java?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-The `volatile` keyword in java is used to indicate that a variable's value may be modified by multiple threads at the same time. Without the `volatile` keyword, different threads may create their own copy of that variable which will contain different value for differnt thread. This can lead to incorrect results. The `volatile` keyword helps to prevent this by forcing threads to always read the variable's value from main memory, rather than from a cached copy.
+Serialization in Java is the process of converting an object into a stream of bytes so that it can be stored in a file or sent over a network. In Java serialization is achieved by implementing the `Serializable` interface, which is a marker interface with no methods. To convert back the serialized bytes back to the object java use a process called `Deserialization`. We can not serialize all the objects. The objects that contain non-serializable fields or methods such as open file handles or network connections, cannot be serialized. 
 
 </blockquote>
 
@@ -699,21 +503,7 @@ The `volatile` keyword in java is used to indicate that a variable's value may b
 
 ---
 
-48. Serialization in java?
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-Serialization in Java is the process of converting an object into a stream of bytes so that it can be stored in a file or sent over a network. In java serialization is achieved by implementing the `Serializable` interface, which is a marker interface with no methods. To convert back the serialized bytes back to the object java use a process called `Deserialization`. We can not serialize all the objects. The objects that contain non-serializable fields or methods such as open file handles or network connections, cannot be serialized. 
-
-</blockquote>
-
-</details>
-
----
-
-50. What are hashes in java?
+35. What are hashes in java?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -727,62 +517,3 @@ In Java, hashes usually refer to the hash codes generated by the `hashCode()` me
 
 ---
 
-51. What is JDBC?
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-JDBC stands for Java Database Connectivity. It is a Java API which is used to interact with relational databases. JDBC provides a standard set of interfaces that allow the user to connect to a database and retrieve or modify data in the database. 
-
-</blockquote>
-
-</details>
-
----
-
-52. How do you make a connection to the database using jdbc?
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-To make a connection to the database using jdbc first we have to load the JDBC driver for the database you want to connect to using the `Class.forName()` method. then we can create a create a `Connection` object using the `DriverManager.getConnection()` method and providing the URL, username, and password for the database. Then create a `Statement` using the `Connection.createStatement()` method. Then we can use `executeQuery()` method to run the queries on the database and fetch the result. The result received by the database can be stored in `ResultSet` object.
-
-</blockquote>
-
-</details>
-
----
-
-53. What are servlets?
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-Servlets are Java-based server-side components that are used to generate dynamic web content. The servlets run on a web server and respond to incoming requests from client side, by generating dynamic web content. Servlets are commonly used to create web applications such as online shopping sites, social media platforms, and other interactive web applications.
-
-</blockquote>
-
-</details>
-
----
-
-54. What are Java Server Pages?
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-JavaServer Pages (JSP) is a technology used to create dynamic web pages in Java. It allows you to combine static HTML with Java code to generate dynamic content on the server-side, which is then sent to the client-side for display in a web browser.
-
-JSP pages can be used to create a wide variety of web-based applications, including e-commerce sites, content management systems, social media platforms, and more.
-
-JSP pages can also be combined with other Java technologies, such as JavaBeans, servlets, and tag libraries, to create even more powerful web-based applications.
-
-</blockquote>
-
-</details>
-
----
