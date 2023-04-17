@@ -386,3 +386,214 @@ foreach(datatype var_name in collection_variable)
 
 ---
 
+19. What is IENUMERABLE in C#? 
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+
+`IEnumerable` interface is used when we want to iterate among our collection classes using a FOREACH loop. For example, in below code there is a List of Employees then you are adding new Employees in the list here. Then you are running a foreach loop to print the employee id and names one by one. Now how this loop is working. This is enabled by the `IEnumerable` only because internally List is using `IEnumerable`
+
+```C#
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        var employees=new List<Employee>(){
+            new Employee(){Id=1,Name="DotNet"},
+            new Employee(){Id=2,Name="Training"}
+        };
+        foreach(var employee in employees)
+        {
+            Console.WriteLine(employee.Id+", "+employee.Name);
+        }
+        Console.ReadLine();
+    }
+}
+
+public class Employee
+{
+    public int Id{get;set;}
+    public string Name{get;set;}
+}
+```
+If you got the definition of List then you will see the below code where List is inherited from `IEnumerable` interface.
+
+```C#
+
+namespace system.Collections.Generic
+{
+    public class List<T>:ICollection<T>,IEnumerable<T>,IEnumerable,IList<T>
+    {
+        ...public List();
+        ...public List(IEnumerable<T> collection);
+        ...public List(int capacity);
+    }
+}
+```
+And if you see the definition of `IEnumerable`, then you will see the below definition where it states that it supports iteration of non-generic collection.
+
+```C#
+
+namespace System.Collections
+{
+    public interface IEnumerable
+    {
+        IEnumerator GetEnumerator();
+    }
+}
+
+```
+</blockquote>
+
+</details>
+
+---
+
+20. What is the difference between IEnumerable and IEnumerator in C#?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+
+List is using IEnumerable internally and similarly IEnumerable will use IEnumerator internally. So IEnumerator is like a part of IEnumerable.
+
+Suppose you don’t want to use .NET Framework List collection and want to create your own custom collection.
+Then you have to explicitly implement first IEnumerable interface and then IEnumerator interface for iterating in for loop.
+
+</blockquote>
+
+</details>
+
+---
+
+21. What is the difference between IEnumerable and IQueryable in C#? Why to use IQueryable in SQL Queries?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+
+IQueryable is also like IEnumerable and is use to iterate sql query collection from data. It is under `SYSTEM.LINQ` namespace.
+
+Let’s compare IEnumerable and IQueryable working:
+
+If you use IEnumerable then, request will go to the database and bring the whole data from database and then FILTER the result at server side. So, bringing up whole data from the network will impact the 
+PERFORMANCE in negative way.
+
+On the other hand, IQueryable will go to the database, filter the data there only and send back the filtered data only, not the whole data which is good for performance. Network load will be less.
+
+So that’s is the reason IQueryable is better than IEnumerable for sql queries.
+
+</blockquote>
+
+</details>
+
+---
+
+22. What is the difference between Stack and Queue Collections?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+
+A stack is a linear data structure in which elements can be inserted and deleted only from one side of the list, called the top. A stack follows the LIFO (Last In First Out) principle, i.e., the element inserted at the last is the first element to come out.
+
+A queue is a linear data structure in which elements can be inserted only from one side of the list called rear, and the elements can be deleted only from the other side called the front. The queue data structure follows the FIFO (First In First Out) principle, i.e. the element inserted at first in the list, is the first element to be removed from the list.
+
+</blockquote>
+
+</details>
+
+---
+
+23.  What is Generic Delegates?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+
+A delegate can define its own type parameters. Code that references the generic delegate can specify the type argument to create a closed constructed type, just like when instantiating a generic class or calling a generic method, as shown in the following example:
+
+```C#
+
+public delegate void Del<T>(T item);
+public static void Notify(int i) { }
+
+Del<int> m1 = new Del<int>(Notify);
+```
+</blockquote>
+
+</details>
+
+---
+
+24. Generics method or class can take any type as type parameter, how can we restrict it to take only specific type?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+
+Constraints can restrict a generic to take only specific type according to constriant imposed on Generic. Example:
+```C#
+      Class MyType<TP>where TP:struct
+      {
+      ------
+      }
+ ```
+  in this case this class can take only value type as type parameter.
+
+</blockquote>
+
+</details>
+
+---
+
+25. Is an application that uses Generics faster than an application that does not?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+
+Depending on the application of course, but generally speaking, in most real-life applications, bottle necks such as I/O will mask out any performance benefit from generics. The real benefit of generics is not performance but rather type safety and productivity.
+
+</blockquote>
+
+</details>
+
+---
+
+26. What are rules of Unbounded type parameters?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+
+The  !=  and == operators cannot be used because there is no guarantee that the concrete type argument will support these operators.
+
+- They can be converted to and from  System.Object  or explicitly converted to any interface type.
+
+You can compare to  null. If an unbounded parameter is compared to null, the comparison will always return false if the type argument is a value type.
+
+</blockquote>
+
+</details>
+
+---
+
