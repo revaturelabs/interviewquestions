@@ -37,7 +37,7 @@ An Exception is a class in C# which is responsible for the abnormal termination 
 
 ---
 
-3. Who is Responsible for the Abnormal Termination of the Program whenever Runtime Errors occur?
+3. Who is responsible for the Abnormal Termination of the Program whenever Runtime Errors occur?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -129,7 +129,70 @@ In C#, exception handling helps detect errors in code at runtime. The process is
 
 <blockquote> 
 
-The fundamental difference is that throw exceptions overwrite the stack trace, whereas throw clauses retain the stack information. As such, it is much harder to retrieve the original code responsible for throwing the exception with throw exceptions. 
+`Throw ex will change the stack trace, whereas throw will preserve the whole stack trace. 
+
+See here in the code we have used throw. DivideByZero method is dividing 0 by 0 and it will throw an error. Now we will catch this error in the catch block and then throw to the Main method where it will goes inside the catch block and then exception stack trace will be printed. It will tell the error is at line 18 and that is right.
+So this is good because throw will preserve the whole stack trace.
+
+```C#
+static void Main(srtring[] args)
+{
+    try
+    {
+        DivideZerobyZero();
+    }
+    catch(Exception ex)
+    {
+        Console.WriteLine(ex.StackTrace);
+        Console.ReadLine();
+    }
+}
+public static void DivideZerobyZero()
+{
+    try
+    {
+        int i=0,j=0;
+        int k=i/j;
+    }
+    catch(Exception ex)
+    {
+        throw;
+    }
+}
+```
+Now let’s see throw ex example.
+
+See here in code we have just replaced throw with throw ex and rest of the code is same. Now when we run it, it will print this error in console.It will show that the error occurred at line 22 which is not correct, therefore we say that throw ex will change the stack trace and will be difficult for developer to locate the right position of error inside the method.
+
+```C#
+
+static void Main(String[] args)
+{
+    try
+    {
+        DivideZerobyZero();
+    }
+    catch(Exception ex)
+    {
+        Console.WriteLine(ex.StackTrace);
+        Console.ReadLine();
+    }
+}
+public static void DivideZerobyZero()
+{
+    try
+    {
+        int i=0,j=0;
+        int k=i/j;
+    }
+    catch(Exception ex)
+    {
+        throw ex;
+    }
+}
+```
+
+Its a best practice to use throw as it PRESERVE the whole stack trace.
 
 </blockquote>
 
