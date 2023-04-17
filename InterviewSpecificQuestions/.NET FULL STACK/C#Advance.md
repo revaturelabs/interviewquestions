@@ -1,6 +1,6 @@
 ## Technical
 
-1.  What is Reflection in C#?
+1.  What is `extern` modifier in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -8,8 +8,14 @@
 
 <blockquote> 
     
-- Reflection is the process of describing the metadata of types, methods, and fields in a code. The namespace System. 
-- Reflection enables us to obtain data about the loaded assemblies, and the elements within them like classes, methods, and value types.
+The `extern` modifier is used to declare a method that is implemented externally. A common use of the `extern` modifier is with the `DllImport` attribute when you are using Interop services to call into unmanaged code. In this case, the method must also be declared as `static`, as shown in the following example:
+
+```C#
+[DllImport("avifil32.dll")]
+private static extern void AVIFileInit();
+```
+
+The `extern` keyword can also define an external assembly alias, which makes it possible to reference different versions of the same component from within a single assembly. 
 	
 </blockquote> 
 
@@ -57,7 +63,48 @@ Tuples are data structures that hold object properties and contain a sequence of
 
 <blockquote> 
 
-Processes belonging to asynchronous programming run independently of the main or other processes. In C#, using Async and Await keywords for creating asynchronous methods.
+The `async` keyword turns a method into an async method, which allows you to use the `await` keyword in its body. When the `await` keyword is applied, it suspends the calling method and yields control back to its caller until the awaited task is complete. `await` can only be used inside an `async` method.
+
+```C#
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Method1_2();
+        int k=Method3();
+        Console.WriteLine(k);
+        Console.Read();
+    }
+    static async void Method1_2()
+    {
+        Console.WriteLine("Test");
+        var i=await Task.Run(()=>
+        {
+            return Method1();
+        })
+        Console.WriteLine(i);
+        int j=Method2(i);
+        Console.WriteLine(j);
+    }
+    public static int Method1()
+    {
+        Thread.sleep(500);
+        return 10;
+    }
+    public static int Method2(int i)
+    {
+        return 20 *i;
+    }
+    public static int Method3()
+    {
+        return 30;
+    }
+}
+
+// Output Test 30 10 200
+
+```
 
 </blockquote>
 
@@ -76,10 +123,15 @@ Processes belonging to asynchronous programming run independently of the main or
 A thread in C# can have any of the following states:
 
 Aborted – The thread is dead but has not stopped
+
 Running – The thread is executing
+
 Stopped – The thread has stopped the execution
+
 Suspended – The thread has been suspended
+
 Unstarted – The thread is created but has not started execution yet
+
 WaitSleepJoin – The thread calls sleep, calls wait on another object, and calls join on some other thread
 
 </blockquote>
@@ -130,9 +182,39 @@ Console.WriteLine(“Match found”);
 
 <blockquote>
 
-C# introduces a new concept known as Indexers which are used for treating an object as an array. The indexers are usually known as smart arrays in C#. They are not an essential part of object-oriented programming.
+Indexers allow instances of a class or struct to be indexed just like arrays. The indexed value can be set or retrieved without explicitly specifying a type or instance member. Indexers resemble properties except that their accessors take parameters.
 
-Defining an indexer allows us to create classes that act as virtual arrays. Instances of that class can be accessed using the [] array access operator.
+The following example defines a generic class with simple get and set accessor methods to assign and retrieve values. The Program class creates an instance of this class for storing strings.
+
+```C#
+using System;
+
+class SampleCollection<T>
+{
+   // Declare an array to store the data elements.
+   private T[] arr = new T[100];
+
+   // Define the indexer to allow client code to use [] notation.
+   public T this[int i]
+   {
+      get { return arr[i]; }
+      set { arr[i] = value; }
+   }
+}
+
+class Program
+{
+   static void Main()
+   {
+      var stringCollection = new SampleCollection<string>();
+      stringCollection[0] = "Hello, World";
+      Console.WriteLine(stringCollection[0]);
+   }
+}
+// The example displays the following output:
+//       Hello, World.
+
+```
 
 </blockquote>
 
@@ -140,7 +222,7 @@ Defining an indexer allows us to create classes that act as virtual arrays. Inst
 
 ---
 
-8. What is Serialization?
+8. What is Serialization? When to use it?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -148,7 +230,24 @@ Defining an indexer allows us to create classes that act as virtual arrays. Inst
 
 <blockquote>
 
-Serialization converts a code to its binary format using a process. After it is converted to bytes, it can be easily stored and written to a disk. Serializations are useful so that the original form of the code isn’t lost and can be retrieved later.
+Serialization is a process of converting object to its BINARY FORMAT (BYTES) Once it is converted to bytes, it can be easily stored and written to a disk or any such storage devices.
+
+It is mostly used in Web API to convert class objects into JSON string like this.
+
+```C#
+
+private void JSONSerialize()
+{
+    Employee empObj=new Employee();
+    empObj.ID=1;
+    empObj.Name="Revature";
+    empObj.Address="India";
+
+    string jsonData=JSONConvert.SerializeObject(empObj);
+    Response.Write(jsonData);
+}
+
+```
 
 </blockquote>
 
@@ -164,33 +263,59 @@ Serialization converts a code to its binary format using a process. After it is 
 
 <blockquote>
 
-- A Delegate is a variable that holds the reference to a method. Hence it is a function pointer or reference type. All Delegates are derived from System.Delegate namespace. Both Delegate and the method that it refers to can have the same signature.
-
-- **Declaring a delegate**: `public delegate void AddNumbers(int n);`
-After the declaration of a delegate, the object must be created by the delegate using the new keyword.
-
-  - `AddNumbers an1 = new AddNumbers(number);
-
-- The delegate provides a kind of encapsulation to the reference method, which will internally get called when a delegate is called.
+`IEnumerable` interface is used when we want to iterate among our collection classes using a FOREACH loop. For example, in below code there is a List of Employees then you are adding new Employees in the list here. Then you are running a foreach loop to print the employee id and names one by one. Now how this loop is working. This is enabled by the `IEnumerable` only because internally List is using `IEnumerable`
 
 ```C#
 
-public delegate int myDel(int number);
-public class Program
+class Program
 {
-    public int AddNumbers(int a)
+    static void Main(string[] args)
     {
-        int Sum = a + 10;
-        return Sum;
+        var employees=new List<Employee>(){
+            new Employee(){Id=1,Name="DotNet"},
+            new Employee(){Id=2,Name="Training"}
+        };
+        foreach(var employee in employees)
+        {
+            Console.WriteLine(employee.Id+", "+employee.Name);
+        }
+        Console.ReadLine();
     }
-    public void Start()
+}
+
+public class Employee
+{
+    public int Id{get;set;}
+    public string Name{get;set;}
+}
+```
+If you got the definition of List then you will see the below code where List is inherited from `IEnumerable` interface.
+
+```C#
+
+namespace system.Collections.Generic
+{
+    public class List<T>:ICollection<T>,IEnumerable<T>,IEnumerable,IList<T>
     {
-        myDel DelegateExample = AddNumbers;
+        ...public List();
+        ...public List(IEnumerable<T> collection);
+        ...public List(int capacity);
+    }
+}
+```
+And if you see the definition of `IEnumerable`, then you will see the below definition where it states that it supports iteration of non-generic collection.
+
+```C#
+
+namespace System.Collections
+{
+    public interface IEnumerable
+    {
+        IEnumerator GetEnumerator();
     }
 }
 
 ```
-
 </blockquote>
 
 </details>
@@ -254,7 +379,7 @@ Event PrintNumbers myEvent;
 
 ---
 
-13. Can you state the difference between direct cast and ctype?
+13. Explain Multithreading?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -262,7 +387,7 @@ Event PrintNumbers myEvent;
 
 <blockquote> 
 
-The difference between direct cast and ctype is that direct cast is used for the conversion of the type of an object that requires a run time which is like the specified type in the direct cast. Whereas ctype is used for converting the conversion which is defined for the expression and the type.
+Multithreading in C# is a process in which multiple threads work simultaneously.It is a way to achieve Multitasking. It saves time because multiple tasks are being executed at a time. To create multithreaded application in C#, we need to use `SYSTEM.THREDING` namespace.
 
 </blockquote>
 
@@ -354,3 +479,193 @@ The best choice is to use a sealed class to prevent the class not to be extended
 </details>
 
 ---
+17. What are Anonymous Delegates in C#?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+In Anonymous Delegates, you can create a delegate, but there is no need to declare the method associated with it.
+
+See in the below code, there is not Add method or any other method. But the logic of adding is written inline using `delegate` keyword.
+
+```C#
+
+public delegate void Calculator(int x,int y);
+class Program
+{
+    static void Main(string[] args)
+    {
+        Calculator calAdd=delegate(int a,int b)
+        {
+            Console.WriteLine(a+b);
+        };
+        calAdd(20,30);
+        Console.ReadLine();
+    }
+}
+
+```
+</blockquote>
+
+</details>
+
+---
+
+18. What is ENUM keyword used for?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+An enum is a special "class" that represents a group of constants.
+
+```C#
+
+enum Level
+{
+    Low,
+    Medium,
+    High
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+       Level myVar=Level.Medium;
+       Console.WriteLine(myVar);
+       Console.ReadLine(); 
+    }
+}
+```
+
+```C#
+enum Weekdays
+{
+    Sunday,
+    Monday,
+    Tuesday,
+    Wednesday,
+    Thursday,
+    Friday,
+    Saturday
+}
+```
+
+</blockquote>
+
+</details>
+
+---
+
+19. What is Covariance in C#?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Covariance enables you to pass a derived type where a base type is expected.
+
+`Small sml = new Bigger();`
+
+</blockquote>
+
+</details>
+
+---
+
+20. What is Parsing? How to parse a DATE TIME string?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Parsing converts a string into another data type.
+
+**For Example:**
+
+```C#
+string text = “500”;
+int num = int.Parse(text);
+```
+
+500 is an integer. So, the Parse method converts the string 500 into its own base type, i.e int.
+
+Follow the same method to convert a DateTime string.
+
+```C#
+
+string dateTime = “Jan 1, 2018”;
+DateTime parsedValue = DateTime.Parse(dateTime);
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+21. Can we have multiple threads in one APPDomain?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+One or more threads run in an AppDomain. An AppDomain is a runtime representation of a logical process within a physical process. Each AppDomain is started with a single thread, but can create additional threads from any of its threads.
+
+</blockquote>
+
+</details>
+
+---
+
+22. What is THREAD.SLEEP() in threading?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Thread's execution can be paused by calling the `Thread.Sleep` method. This method takes an integer value that determines how long the thread should sleep. Example
+
+`Thread.CurrentThread.Sleep(2000)`.
+
+</blockquote>
+
+</details>
+
+---
+
+23. Why we need Multi-threading in our project? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Multi-threading is running the multiple threads simultaneously. Some main advantages are:
+
+- You can do multiple tasks simultaneously. For e.g. saving the details of user to a file while at the same time retrieving something from a web service.
+- Threads are much lightweight than process. They don't get their own resources. They used the resources allocated to a process.
+- Context-switch between threads takes less time than process.
+
+</blockquote>
+
+</details>
+
+---
+
