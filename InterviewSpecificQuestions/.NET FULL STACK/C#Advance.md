@@ -255,7 +255,7 @@ private void JSONSerialize()
 
 ---
 
-9. Can you explain about delegates?
+9. How to achieve Callback in Delegates?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -263,58 +263,42 @@ private void JSONSerialize()
 
 <blockquote>
 
-`IEnumerable` interface is used when we want to iterate among our collection classes using a FOREACH loop. For example, in below code there is a List of Employees then you are adding new Employees in the list here. Then you are running a foreach loop to print the employee id and names one by one. Now how this loop is working. This is enabled by the `IEnumerable` only because internally List is using `IEnumerable`
+Callback is term where a process is going on and in between it targets some achievement then it return to main method. For callback, we just need to encapsulate the method with delegate.
+
+`objCallBackMethodExample.CheckEvenEvent += new OnEvenNumberHandler(objCallBackMethodExample.CallBackMethod);`
+
+Let see an example, CallBackMethodExample is a class which have a method CallBackMethod. It will be executed when some criteria will be fulfill. 
 
 ```C#
 
-class Program
+public delegate void OnEvenNumberHandler(object sender, EventArgs e);
+
+public class CallBackMethodExample
 {
-    static void Main(string[] args)
-    {
-        var employees=new List<Employee>(){
-            new Employee(){Id=1,Name="DotNet"},
-            new Employee(){Id=2,Name="Training"}
-        };
-        foreach(var employee in employees)
+        public void CallBackMethod(object sender, EventArgs e)
         {
-            Console.WriteLine(employee.Id+", "+employee.Name);
+            Console.WriteLine("Even Number has found !");
         }
-        Console.ReadLine();
-    }
-}
-
-public class Employee
-{
-    public int Id{get;set;}
-    public string Name{get;set;}
 }
 ```
-If you got the definition of List then you will see the below code where List is inherited from `IEnumerable` interface.
+
+When we are going to call this method using Delegate for callback, only need to pass this method name as a reference.
 
 ```C#
 
-namespace system.Collections.Generic
+CallBackMethodExample objCallBackMethodExample = new CallBackMethodExample();
+
+objCallBackMethodExample.CheckEvenEvent += new OnEvenNumberHandler(objCallBackMethodExample.CallBackMethod);
+Random random = new Random();
+for (int i = 0; i < 6; i++)
 {
-    public class List<T>:ICollection<T>,IEnumerable<T>,IEnumerable,IList<T>
-    {
-        ...public List();
-        ...public List(IEnumerable<T> collection);
-        ...public List(int capacity);
-    }
+   var randomNumber = random.Next(1, 10);
+   Console.WriteLine(randomNumber);
+   if (randomNumber % 2 == 0)
+   {
+       objCallBackMethodExample.OnCheckEvenNumber();
+   }
 }
-```
-And if you see the definition of `IEnumerable`, then you will see the below definition where it states that it supports iteration of non-generic collection.
-
-```C#
-
-namespace System.Collections
-{
-    public interface IEnumerable
-    {
-        IEnumerator GetEnumerator();
-    }
-}
-
 ```
 </blockquote>
 
