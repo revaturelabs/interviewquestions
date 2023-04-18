@@ -460,7 +460,7 @@ Navigation property is the property that should not be defined as virtual and pu
 
 ---
 
-26. Will There Be Any Issues Adding A Table Without Primary Keys To A Data Model?
+26. Will there be any issues adding a table without primary keys to a Data Model?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -476,7 +476,7 @@ Every entity must be having a key, even in case where the entity maps to a view.
 
 ---
 
-27. Mention In What All Scenarios Entity Framework Can Be Applicable?
+27. Mention in what all scenarios Entity Framework can be applicable?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -496,7 +496,7 @@ Entity Framework can be applicable in three scenarios
 
 ---
 
-28. How Can You Enhance The Performance Of Entity Framework?
+28. How can you enhance the performance of Entity Framework?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
