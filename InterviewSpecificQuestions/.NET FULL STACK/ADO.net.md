@@ -72,9 +72,11 @@ From the above components, two components are compulsory. One is the command obj
 
 <blockquote> 
 
-A .NET data provider is a software library consisting of classes that provide data access services such as connecting to a data source, executing commands at a data source, and fetching data from a data source with support to execute commands within transactions. It resides as a lightweight layer between data source and code, providing data access services with increased performance.
+A .NET Framework data provider is used for connecting to a database, executing commands, and retrieving results. Those results are either processed directly, placed in a DataSet in order to be exposed to the user as needed, combined with data from multiple sources, or remoted between tiers. .NET Framework data providers are lightweight, creating a minimal layer between the data source and code, increasing performance without sacrificing functionality.
 
-The .NET data provider is a component of ADO.NET, a subset of the .NET framework class library.
+The following table lists the data providers that are included in the .NET Framework.
+
+![data_providers_table](https://github.com/revaturelabs/interviewquestions/blob/Feature/Kaveri-Revamped-IS-ques/InterviewSpecificQuestions/.NET%20FULL%20STACK/images/DataProviders_table.PNG)
 
 </blockquote>
 
@@ -90,7 +92,13 @@ The .NET data provider is a component of ADO.NET, a subset of the .NET framework
 
 <blockquote> 
 
-A Dataset is set to be a collection of data with a tabular column representation. Each column in the table represents a variable and the row represents to value of a variable. This Dataset object can be obtained from the database values.
+The DataSet object is central to supporting disconnected, distributed data scenarios with ADO.NET. The DataSet is a memory-resident representation of data that provides a consistent relational programming model regardless of the data source. It can be used with multiple and differing data sources, with XML data, or to manage data local to the application. The DataSet represents a complete set of data, including related tables, constraints, and relationships among the tables. The following illustration shows the DataSet object model.
+
+![DataSet_Object_Model](https://github.com/revaturelabs/interviewquestions/blob/Feature/Kaveri-Revamped-IS-ques/InterviewSpecificQuestions/.NET%20FULL%20STACK/images/DataSetObject_Model.PNG)
+
+The methods and objects in a DataSet are consistent with those in the relational database model.
+
+The DataSet can also persist and reload its contents as XML, and its schema as XML schema definition language (XSD) schema. 
 
 </blockquote>
 
@@ -106,7 +114,7 @@ A Dataset is set to be a collection of data with a tabular column representation
 
 <blockquote> 
 
-DataReader is an object of ADO.Net that provides access to the data from the requested data source. It reads the data sequentially from a data source like Oracle, MS SQL, or MS Access.
+You can use the ADO.NET DataReader to retrieve a read-only, forward-only stream of data from a database. Results are returned as the query executes, and are stored in the network buffer on the client until you request them using the Read method of the DataReader. Using the DataReader can increase application performance both by retrieving data as soon as it is available, and (by default) storing only one row at a time in memory, reducing system overhead.
 
 </blockquote>
 
@@ -122,7 +130,7 @@ DataReader is an object of ADO.Net that provides access to the data from the req
 
 <blockquote> 
 
-A Data Service is responsible to handle the interaction between the Connection Manager, Schema and Data Streamer.
+ADO.NET Data Services generally sit on top of the ADO.NET Entity Framework and exposes entities through a web service. It exposes these entities in a RESTful way (you can view it in a browser!) which means that the entities being exposed need to be serialized to a certain format
 
 </blockquote>
 
@@ -180,7 +188,7 @@ We can populate a dataset by using any of the following different ways:
 
 <blockquote> 
 
-The use of the connection object is to connect data to a command object. Different connection objects are used for different providers such as an OleDbConnection object for the OLE-DB provider and SqlConnection object for the Microsoft SQL Server.
+A Connection object represents a unique session with a data source. In the case of a client/server database system, it may be equivalent to an actual network connection to the server. Depending on the functionality supported by the provider, some collections, methods, or properties of a Connection object may not be available.
 
 </blockquote>
 
@@ -196,11 +204,16 @@ The use of the connection object is to connect data to a command object. Differe
 
 <blockquote> 
 
-The different layers of ADO.NET are:
+The basic idea of a 3 tier application is to separate your data, business logics and the presentation.
 
-- Business Logic Layer
-- Presentation Layer
-- Database Access Layer
+In the data layer you have CRUD (Create, Update, Delete) methods for your tables (or other data source). You might add some minor business logics in combination with those tables (e.g. max, count, ...) and usually a singleton class is used to provide connection to the business layer.
+
+In the business layer you have all the domain classes with their variables, properties and methods. The variables contain the status of your business entity and are hidden to the outer world by using data hiding (private, protected). Public properties provide the data of these variables to client applications while methods implement the business logics.
+It's common used to have a Facade in front of your business classes to provide communication with the client application or presentation layer. A facade combines all the methods that can be used from outside in one single class and makes it easier for others to use the business layer since it's not needed to know how everything works behind the facade.
+
+The third layer of a 3 tier application is the presentation layer. This can be any type of user interface, for ASP.NET is this a Web application.
+
+![Layers_ADO.NET](https://github.com/revaturelabs/interviewquestions/blob/Feature/Kaveri-Revamped-IS-ques/InterviewSpecificQuestions/.NET%20FULL%20STACK/images/Layers_of_ADO.NET.PNG)
 
 </blockquote>
 
@@ -232,8 +245,13 @@ DataAdapter retrieves data from a data source. UpdateCommand, Insertcommand, and
 
 <blockquote> 
 
-**Data Grid**: Data Grid provides many features and functionality to users to perform paging and sort the data in the table easily. It can hold text object data, but it can’t hold embedded or linked object data.
-**Data Repeater**: Data Repeater has offered so many features that are not offered by Data Grid such as – It can hold control of embedded and linked objects data and it can embed Data Grid in it but vice-versa is not possible. It doesn’t have support for Paging functionality but can be achieved by programming it.
+**Data Grid**:
+- Data grid has advanced features and facilitates you to do many things like paging and sorting your data without much effort.
+- Data grid can hold text data, but not linked or embedded objects.
+**Data Repeater**:
+- A data repeater doesn’t have the paging feature, but it can be done by coding.
+- A data repeater can hold other controls and can embed objects.
+- A data repeater can embed a data grid within it but vice versa is not possible.
 
 </blockquote>
 
@@ -249,9 +267,7 @@ DataAdapter retrieves data from a data source. UpdateCommand, Insertcommand, and
 
 <blockquote> 
 
-- Connection pooling refers to the task of grouping database connections in the cache to make them reusable because opening new connections every time to a database is a time-consuming process. 
-- Therefore, connection pooling enables us to reuse already existing and active database connections, whenever required, increasing the performance of our application.
-- We can enable or disable connection pooling in your application by setting the pooling property to either true or false in the connection string. By default, it is enabled in an application.
+Connecting to a data source can be time consuming. To minimize the cost of opening connections, ADO.NET uses an optimization technique called connection pooling, which minimizes the cost of repeatedly opening and closing connections. Connection pooling is handled differently for the .NET Framework data providers.
 
 </blockquote>
 
@@ -313,7 +329,7 @@ The two key events of SqlConnection are:
 
 ---
 
-18. What is the difference between a Typed and Untyped Dataset?
+18. What is the difference between a Typed and Untyped DataSet?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -323,7 +339,7 @@ The two key events of SqlConnection are:
 
 The differences are explained below:
 
-**Typed Dataset**: 
+**Typed DataSet**: 
  - A typed dataset is derived from the Dataset class and has an associated XML schema, which is created at the time of the creation of the dataset.
  - The XML schema contains information about the dataset structure such as tables, columns, and rows. Data is transferred from a database into a dataset and from the dataset to another component in the XML format.
 
@@ -335,7 +351,7 @@ The differences are explained below:
 
 ---
 
-19. Do we use the Stored Procedure in Ado.net?
+19. Do we use the Stored Procedure in ADO.Net?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -351,7 +367,7 @@ Yes, stored procedures are used in ADO.Net and they can be used for common repet
 
 ---
 
-20. What is the difference between Dataset.clone and Dataset.copy?
+20. What is the difference between DataSet.clone and DataSet.copy?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -359,8 +375,8 @@ Yes, stored procedures are used in ADO.Net and they can be used for common repet
 
 <blockquote> 
 
-**Dataset.clone** object copies structure of the dataset including schemas, relations and constraints. This will not copy data in the table.
-**Dataset.copy** – Copies both structure and data from the table.
+**DataSet.clone** object copies structure of the dataset including schemas, relations and constraints. This will not copy data in the table.
+**DataSet.copy** – Copies both structure and data from the table.
 
 </blockquote>
 
@@ -441,6 +457,133 @@ There are four components of DataProviders:
 - The parameters are used to exchange the information or data between the stored procedure or function and the .NET application. Anything that is placed in the parameter, is treated as the field, not as a query text, which makes your application secure.
 
 - The parameters can be Input or Output in an SQL query. The default parameter type is Input.
+
+</blockquote>
+
+</details>
+
+---
+
+25. What is the difference between ExecuteScalar and ExecuteNonQuery?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+1. **ExecuteScalar** returns output value where as ExecuteNonQuery does not return any value but the number of rows affected by the query. 
+
+2. **ExecuteScalar** used for fetching a single value and ExecuteNonQuery used to execute Insert and Update statements.
+
+</blockquote>
+
+</details>
+
+---
+
+26. What are all the classes that are available in System.Data Namespace? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Following are the classes that are available in System.Data Namespace:
+- DataSet.
+- DataTable.
+- DataColumn.
+- DataRow.
+- DataRelation.
+- Constraint.
+
+</blockquote>
+
+</details>
+
+---
+
+27. What is the difference between DataReader and DataSet?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- Datareader is FORWARD and READ only
+- Dataset used to UPDATE records.
+
+- Datareader is CONNECTED architecture
+- Dataset is DISCONNECTED Recordset
+
+- Datareader contains single table
+- Datareader can contains multiple tables.
+
+- Datareader Occupies Less Memory
+- Dataset Occupies More memory
+
+</blockquote>
+
+</details>
+
+---
+
+28. What is Object Pooling?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Object pooling is nothing but a repository of the objects in memory which can be used later. This object pooling reduces the load of object creation when it is needed. Whenever there is a need of object, object pool manager will take the request and serve accordingly.
+
+</blockquote>
+
+</details>
+
+---
+
+29. What is Connected and Disconnected architecture in ADO.Net?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+**Disconnected Architecture** - Disconnected architecture means, you don’t need to connect always to get data from the database. You can get data into DataAdapter, disconnect the database, manipulate the DataAdapter and resubmit the data. It is fast and robust(data will not lose in case of any power failure).
+
+![Disconnected_Architecture](https://github.com/revaturelabs/interviewquestions/blob/Feature/Kaveri-Revamped-IS-ques/InterviewSpecificQuestions/.NET%20FULL%20STACK/images/Disconnected_Architecture_ADO.NET.PNG)
+
+**Connected Architecture** - Connected architecture means you are directly interacting with database but it is less secure and not robust.
+
+![Connected_Architecture](https://github.com/revaturelabs/interviewquestions/blob/Feature/Kaveri-Revamped-IS-ques/InterviewSpecificQuestions/.NET%20FULL%20STACK/images/Connected_Architecture.PNG)
+
+</blockquote>
+
+</details>
+
+---
+
+30. What do you mean by performing Asynchronous Operation using Command Object?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Sometimes the execution of the commands in the database may take a large amount of time to complete as they are linked to each other.
+
+A solution for such a situation has asynchronously executed the commands against the database without waiting for the command execution to finish, which can be handy in the situation in which, when you try to execute the long-running base commands.
+
+`Advantages of Asynchronous Execution`:
+
+- Improves performance.
+- Improve responsiveness of the client application.
 
 </blockquote>
 
