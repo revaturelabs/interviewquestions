@@ -546,33 +546,7 @@ In Java, the `==` operator compares objects based on their memory addresses, whi
 
 ---
 
-38. reverse a string.
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-Suppose we have an sample string as "Hello, World!" to reverse this string we can use following code.
-
-```java
-
-String str = "Hello, World!";
-String reversedStr = "";
-for (int i = str.length() - 1; i >= 0; i--) {
-    reversedStr += str.charAt(i);
-}
-System.out.println(reversedStr); 
-
-
-```
-
-</blockquote>
-
-</details>
-
----
-
-39. SOLID principles.
+38. SOLID principles.
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -586,7 +560,7 @@ SOLID is a set of principles that helps in writing maintainable and extensible s
 
 ---
 
-40. What are the new features of Java 8?
+39. What are the new features of Java 8?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -614,7 +588,7 @@ Java 8 provides following new features:
 
 ---
 
-41. What is the difference between an Arraylist and a HashSet?
+40. What is the difference between an Arraylist and a HashSet?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -628,7 +602,7 @@ The ArrayList is an ordered collection of elements where as the HashSet is unord
 
 ---
 
-42. What does the term asynchronous mean in Java?
+41. What does the term asynchronous mean in Java?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -642,48 +616,7 @@ In Java, asynchronous refers to a programming model where tasks are executed con
 
 ---
 
-43. build a calculator console app to get average.
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-Code for calculator application is mentioned below:
-
-```java
-
-import java.util.*;
-
-public class Calculator {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Enter the total number of elements: ");
-        int n = scanner.nextInt();
-
-        int sum = 0;
-        for (int i = 0; i < n; i++) {
-            System.out.print("Enter element : ");
-            int num = scanner.nextInt();
-            sum += num;
-        }
-
-        double average = (double) sum / n;
-        System.out.println("The average is: " + average);
-
-    }
-}
-
-
-```
-
-</blockquote>
-
-</details>
-
----
-
-44. How do you do unit test.
+42. How do you do unit test.
  
 
 <details><summary><b> Show Answer</b></summary>
@@ -698,7 +631,7 @@ Unit testing is done on an individual part of a code, like a method. In unit tes
 
 ---
 
-45. What are generics?
+43. What are generics?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -712,7 +645,7 @@ Generics in Java allow you to create classes, interfaces, and methods that can w
 
 ---
 
-46. What does static mean in Java?
+44. What does static mean in Java?
  
 
 <details><summary><b> Show Answer</b></summary>
@@ -727,7 +660,7 @@ The `static` keyword is used to define variables or methods that belong to a cla
 
 ---
 
-47. What is JAVA
+45. What is JAVA
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -741,7 +674,7 @@ Java is a platform-independent object-oriented programming language. It can run 
 
 ---
 
-48. difference between String and StringBuilder;
+46. difference between String and StringBuilder;
 
 
 <details><summary><b> Show Answer</b></summary>
@@ -756,7 +689,7 @@ The String is an immutable class in Java. where the StringBuilder is mutable. Th
 
 ---
 
-49. convert a string into a integer;
+47. convert a string into a integer;
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -770,48 +703,7 @@ To convert a string into an integer in Java, you can use the `parseInt()` method
 
 ---
 
-50. find the index of an int in an array[];
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-```java
-import java.util.Scanner;
-
-public class demo {
-
-    public static int findIndex(int[] arr, int n) {
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == n) {
-                return i;
-            }
-        }
-        return -1; // return -1 if the element is not found
-    }
-    
-    public static void main(String[] args){
-        Scanner scn=new Scanner(System.in);
-
-        int[] arr={1,2,3,4,5,6}; 
-        
-        System.out.println("Enter the number whose index you want to find");
-        int no=scn.nextInt();
-
-        System.out.println(findIndex(arr, no));
-    }
- 
-}
-
-```
-
-</blockquote>
-
-</details>
-
----
-
-51. explain how to start a thread.
+48. explain how to start a thread.
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -827,7 +719,7 @@ The second way is to extends the `Thread` class. Then create an object of your c
 
 ---
 
-52. What is the difference between StringBuilder and StringBuffer?
+49. What is the difference between StringBuilder and StringBuffer?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -841,7 +733,7 @@ The StringBuffer is thread-safe while the StringBuilder is not thread-safe. So, 
 
 ---
 
-53. What is an Optional in Java?
+50. What is an Optional in Java?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -855,7 +747,7 @@ The Optional class in Java is used to handle the null values. It helps to avoid 
 
 ---
 
-54. What is the benefit of Java 11.
+51. What is the benefit of Java 11.
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -870,7 +762,7 @@ Java 11 has multiple benefits it improves the performance of the Java applicatio
 
 ---
 
-55. If I had a String variable a1 as "Hector" and wanted to concatenate a second String with no variable "Infosys", what will print out?
+52. If I had a String variable a1 as "Hector" and wanted to concatenate a second String with no variable "Infosys", what will print out?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -884,7 +776,7 @@ When we concatinate both the strings the output will be "HecotorInfosys".
 
 ---
 
-56. Binary search algorithm
+53. Binary search algorithm
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -898,7 +790,7 @@ The binary search algorithm is used to find an element in the sorted array. To i
 
 ---
 
-57. Map interface vs collection interface
+54. Map interface vs collection interface
 
 
 <details><summary><b> Show Answer</b></summary>
@@ -918,7 +810,7 @@ The `Map` interface is used to store elements in key-value pair. Each key is ass
 
 ---
 
-58. why java doesn't have pointers.
+55. why java doesn't have pointers.
 
 <details><summary><b> Show Answer</b></summary>
   
