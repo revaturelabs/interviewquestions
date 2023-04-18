@@ -434,7 +434,7 @@ It is a specialisation of `@Component`. The `@Controller` indicates that a parti
 
 17. difference between spring data and spring JPA?
 
-<details><summary></summary>
+<details><summary><b>Show Answer</b></summary>
 
 <blockquote>
 
@@ -443,5 +443,81 @@ Spring Data is a high-level data access framework that provides a unified API fo
 </blockquote>
 
 </details>
+
+18. what is actuator in spring boot?
+
+<details><summary>Show Answer</summary>
+
+<blockquote>
+
+- Actuator in Spring Boot is a set of tools that allows you to monitor and manage your application. 
+- It provides endpoints accessible over HTTP to get insight into the health, metrics, and other operational aspects of your application.
+- Actuator also provides built-in health indicators to monitor the overall health of the application. It is a very useful tool for managing and monitoring Spring Boot applications.
+
+</blockquote>
+
+</details>
+
+---
+
+19. what does @transactional do in spring boot?
+
+
+<details><summary>Show Answer</summary>
+
+<blockquote>
+
+In Spring Boot, the `@Transactional` annotation is used to mark a method or class as transactional. It ensures that a transaction is created around the annotated method or methods, which enables data consistency and helps to prevent data corruption in the database. If an exception is thrown during the transaction, the transaction is rolled back to maintain data integrity. The `@Transactional` annotation provides a convenient and powerful way to manage transactions in Spring Boot applications.
+
+
+</blockquote>
+
+</details>
+
+---
+
+20. What does Tomcat do?
+
+<details><summary>Show Answer</summary>
+
+<blockquote>
+
+Tomcat is an open-source web server and servlet container that is used to serve Java-based web applications. It handles HTTP requests from clients, serves web content such as HTML, CSS, and JavaScript files, and manages the lifecycle of servlets. Tomcat supports the latest versions of the Java Servlet, JSP, and EL specifications, as well as SSL encryption, virtual hosting, and load balancing. It is a powerful and flexible tool for serving Java-based web applications.
+
+</blockquote>
+
+</details>
+
+---
+
+21. What is Spring?
+
+<details><summary>Show Answer</summary>
+
+<blockquote>
+
+Spring is a popular open-source framework for building Java-based enterprise applications. It provides a range of features and tools that make it easier to build robust, scalable, and maintainable applications. These include inversion of control (IoC), aspect-oriented programming (AOP), transaction management, and support for many different data access technologies. Spring is widely used in enterprise application development due to its flexibility, ease of use, and extensive community support.
+
+</blockquote>
+
+</details>
+
+---
+
+22.  what is autowiring?
+
+<details><summary>Show Answer</summary>
+
+<blockquote>
+
+Autowiring is a feature in the Spring Framework that allows dependencies to be automatically injected into a bean at runtime by the Spring container, instead of having to define them explicitly in the configuration files. It can save developers time and effort, but should be used carefully to ensure that dependencies are injected correctly and that the application remains maintainable and testable.
+
+
+</blockquote>
+
+</details>
+
+---
+ 
 
 
