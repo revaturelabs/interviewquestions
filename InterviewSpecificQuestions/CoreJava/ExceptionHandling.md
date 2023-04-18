@@ -270,3 +270,29 @@ public class IncorrectUserNameException extends Exception {
 </details>
 
 ---
+16. Explain try with resources in terms of exception handling?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details>
+  <summary> <b>Show Answer</b></summary>
+  
+<blockquote>
+ 
+The try-with-resources statement is a try statement that declares one or more resources. A resource is an object that must be closed after the program is finished with it. The try-with-resources statement ensures that each resource is closed at the end of the statement. Any object that implements java.lang.AutoCloseable, which includes all objects which implement java.io.Closeable, can be used as a resource.
+Prior to Java SE 7, you can use a finally block to ensure that a resource is closed regardless of whether the try statement completes normally or abruptly.
+Simply put, to be auto-closed, a resource has to be both declared and initialized inside the try.
+
+
+Example: 
+
+```java
+try (PrintWriter writer = new PrintWriter(new File("test.txt"))) {
+    writer.println("Hello World");
+}
+```
+ 
+</blockquote>
+</details>
+
+---
