@@ -8,7 +8,7 @@
 
 <blockquote> 
     
-ADO.Net is commonly termed ActiveX Data Objects which is a part of the .Net Framework. ADO.Net framework has a set of classes which are used to handle data access by connecting with different databases like SQL, Access, Oracle, etc.,
+ADO.NET is a set of classes that expose data access services for .NET Framework programmers. ADO.NET provides a rich set of components for creating distributed, data-sharing applications. It is an integral part of the .NET Framework, providing access to relational, XML, and application data. ADO.NET supports a variety of development needs, including the creation of front-end database clients and middle-tier business objects used by applications, tools, languages, or Internet browsers.
 
 
 </blockquote>
@@ -25,7 +25,18 @@ ADO.Net is commonly termed ActiveX Data Objects which is a part of the .Net Fram
 
 <blockquote> 
 
-Components of ADO.NET Components are designed for data manipulation and faster data access. Connection, Command, DataReader, DataAdapter, DataSet, and DataView are the components of ADO.NET that are used to perform database operations.
+The ADO.NET Architecture is comprised of 6 important components. They are as follows:
+
+- Connection
+- Command
+- DataReader
+- DataAdapter
+- DataSet
+- DataView
+
+From the above components, two components are compulsory. One is the command object and the other one is the connection object. Irrespective of the operations like Insert, Update, Delete and Select, the command and connection object you always need.
+
+![ADO.Net_Components](https://github.com/revaturelabs/interviewquestions/blob/Feature/Kaveri-Revamped-IS-ques/InterviewSpecificQuestions/.NET%20FULL%20STACK/images/Components%20ADO.NET.PNG)
 
 </blockquote>
 
