@@ -18,11 +18,7 @@ Servlets are Java-based server-side components that are used to generate dynamic
   
 <blockquote>
 
-JavaServer Pages (JSP) is a technology used to create dynamic web pages in Java. It allows you to combine static HTML with Java code to generate dynamic content on the server-side, which is then sent to the client-side for display in a web browser.
-
-JSP pages can be used to create a wide variety of web-based applications, including e-commerce sites, content management systems, social media platforms, and more.
-
-JSP pages can also be combined with other Java technologies, such as JavaBeans, servlets, and tag libraries, to create even more powerful web-based applications.
+Java Server Pages (JSP) is a technology for creating dynamic web pages using Java code. It allows developers to generate dynamic content. JSP pages are processed by the server and then sent as HTML to the client's web browser. It can be used to create a wide variety of web-based applications, including e-commerce sites, content management systems, social media platforms, and more.
 
 </blockquote>
 

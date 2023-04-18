@@ -234,22 +234,7 @@ Spring also includes other bean scopes like `prototype`, `request`, `session`, a
   
 <blockquote>
 
-In Spring, the term "bean scope" refers to the lifecycle of a bean and indicates how many instances of the bean should be created and managed by the Spring container.
-
-following are the types of bean scopes in spring:
-
-- `Prototype`: In this scope, a new instance of the bean is created every time it is requested from the container.
-
-- `Request`: In this scope, a new instance of the bean is created for each HTTP request. This scope is only applicable for web applications.
-
-- `Session`: In this scope, a new instance of the bean is created for each HTTP session. This scope is only applicable for web applications.
-
-- `Global Session`: This scope is similar to the session scope, but it is used in a portlet context where multiple portlets share the same session.
-
-- `Application`: In this scope, a single instance of the bean is created for the entire lifecycle of the application.
-
-- `WebSocket`: In this scope, a new instance of the bean is created for each WebSocket session. This scope is only applicable for WebSocket-based applications.
-
+In Spring, the term "bean scope" refers to the lifecycle of a bean and indicates how many instances of the bean should be created and managed by the Spring container. There are different types of bean scopes like `Prototype`, `Request`, `Session`, `Global Session`, `Application`, and `WebSocket`. 
 
 </blockquote>
 
@@ -302,7 +287,7 @@ AOP stands for Aspect-Oriented Programming. It provides several types of advice 
   
 <blockquote>
 
-In AOP a JoinPoint is a point during the execution of a program where the aspect code can be attached into the program's execution. A JoinPoint can be thought of as a hook or an event in the program's execution where an aspect can intervene and perform its function. Examples of JoinPoints include method calls, method executions, field accesses, and exception handling.  
+In AOP a JoinPoint is a point during the execution of a program where the aspect code can be attached to the programme. It can be thought of as a hook or an event in the program's execution where an aspect can intervene and perform its function. Examples of JoinPoints include method calls, method executions, field accesses, and exception handling.  
 
 </blockquote>
 
@@ -316,7 +301,7 @@ In AOP a JoinPoint is a point during the execution of a program where the aspect
   
 <blockquote>
 
-JDBC Templates are a part of the Spring Framework that provides a higher-level abstraction layer over the JDBC API. The JDBC Template encapsulates the common database operations, such as connecting to the database, creating statements, executing queries, and handling exceptions. It simplifies the use of JDBC and reduces the amount of boilerplate code needed for database operations.
+The JDBC Templates are a part of the Spring Framework that provides a higher-level abstraction layer over the JDBC API. The JDBC Template encapsulates the common database operations, such as connecting to the database, creating statements, executing queries, and handling exceptions. It simplifies the use of JDBC and reduces the amount of boilerplate code needed for database operations.
 
 
 </blockquote>
@@ -325,3 +310,98 @@ JDBC Templates are a part of the Spring Framework that provides a higher-level a
 
 ---
 
+21. What is the lifecycle (this term confused me) of Dependency Injection?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Dependency Injection (DI) is a design pattern used in software engineering to manage dependencies among objects. The lifecycle of Dependency Injection involves configuring a container with information about objects and their dependencies, injecting those dependencies into the objects, using the objects within the application, disposing of objects when they are no longer needed, and updating the container as necessary.
+
+</blockquote>
+
+</details>
+
+---
+
+22. What is CORS?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The CORS stands for Cross-Origin Resource Sharing. It is a security feature implemented in web browsers that restricts web pages from making requests to a different domain. It works by adding special HTTP headers to the response, which indicate which domains are allowed to make requests. This mechanism helps prevent unauthorized access to sensitive data.
+
+</blockquote>
+
+</details>
+
+---
+
+23. What is Lazy Loading?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Lazy Loading is a technique used in software development which enables the user to load the necessary information first and load the non-critical resources when they are required. This can optimize web page performance by loading only the visible portion of a web page initially, and additional content as the user scrolls down the page.
+
+</blockquote>
+
+</details>
+
+---
+
+24. Explain a design pattern you used befor.
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+I have used Singleton design pattern. This pattern ensures that threr is only one object of a class is created, and that same object is shared across the application. The Single design pattern is implemented by creating a private constructor for the class and a static method that returns the single instance of the class. This pattern can be useful for things like database connections or logging, where you want to make sure that there is only one instance of the class.
+
+
+</blockquote>
+
+</details>
+
+---
+
+25. What is Springboot.
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Spring Boot is a framework in Java that is used for building web applications and microservices. It is built on top of the popular Spring Framework. Using the spring boot framework we can easily configure Spring applications. It simplifies the process of application development by using its default tools. Spring Boot can quickly create a production-ready application and includes support for popular technologies like Spring Data and Spring Security.
+
+</blockquote>
+
+</details>
+
+---
+
+26. What is Spring JPA ?
+
+<blockquote>
+
+Spring JPA is a part of the Spring Framework that simplifies database access by providing a higher-level Object Relational Mapping (ORM) framework. The developers don't have to write boilerplate SQL code to perform operations on the database. It helps the developers to interact with databases more efficiently by providing features like entity mapping, CRUD operations, transactions, and querying using JPQL and Criteria API.
+
+
+</blockquote>
+
+</details>
+
+---
+
+27. Annotations used in Controller?
+
+<blockquote>
+
+In controller we use the annotations like `@Controller`, `@RequestMapping`, `@GetMapping`,`@PostMapping`, `@PutMapping`, `@DeleteMapping`, `@PathVariable`, `@RequestBody`, etc.
+
+</blockquote>
+
+</details>
+
+---

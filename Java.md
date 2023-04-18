@@ -578,17 +578,7 @@ System.out.println(reversedStr);
   
 <blockquote>
 
-SOLID is a set of principles that helps in writing maintainable and extensible software. Following are five principles of SOLID:
-
-- Single Responsibility Principle (SRP): It states that a class should have only one responsibility.
-
-- Open/Closed Principle (OCP): It states that a software entities should be open for extension but closed for modification.
-
-- Liskov Substitution Principle (LSP): It states that objects of a superclass should be able to be replaced with objects of a subclass without affecting the correctness of the program.
-
-- Interface Segregation Principle (ISP): Clients should not be forced to depend on interfaces they do not use.
-
-- Dependency Inversion Principle (DIP): High-level modules should not depend on low-level modules, but both should depend on abstractions.
+SOLID is a set of principles that helps in writing maintainable and extensible software. The five SOLID principles are Single Responsibility Principle, Open/Closed Principle, Liskov Substitution Principle, Interface Segregation Principle, Dependency Inversion Principle. 
 
 </blockquote>
 
@@ -596,49 +586,7 @@ SOLID is a set of principles that helps in writing maintainable and extensible s
 
 ---
 
-40. What is the lifecycle (this term confused me) of Dependency Injection?
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-Dependency Injection (DI) is a design pattern used in software engineering to manage dependencies among objects. The lifecycle of Dependency Injection involves configuring a container with information about objects and their dependencies, injecting those dependencies into the objects, using the objects within the application, disposing of objects when they are no longer needed, and updating the container as necessary.
-
-</blockquote>
-
-</details>
-
----
-
-41. What is CORS?
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-The CORS stands for Cross-Origin Resource Sharing. It is a security feature implemented in web browsers that restricts web pages from making requests to a different domain. It works by adding special HTTP headers to the response, which indicate which domains are allowed to make requests. This mechanism helps prevent unauthorized access to sensitive data.
-
-</blockquote>
-
-</details>
-
----
-
-42. What is Lazy Loading?
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-Lazy Loading is a technique used in software development which enables the user to load the necessary information first and load the non-critical resources when they are required. This can optimize web page performance by loading only the visible portion of a web page initially, and additional content as the user scrolls down the page.
-
-</blockquote>
-
-</details>
-
----
-
-43. What are the new features of Java 8?
+40. What are the new features of Java 8?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -666,7 +614,7 @@ Java 8 provides following new features:
 
 ---
 
-44. What is the difference between an Arraylist and a HashSet?
+41. What is the difference between an Arraylist and a HashSet?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -680,7 +628,7 @@ The ArrayList is an ordered collection of elements where as the HashSet is unord
 
 ---
 
-45. What does the term asynchronous mean in Java?
+42. What does the term asynchronous mean in Java?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -694,7 +642,7 @@ In Java, asynchronous refers to a programming model where tasks are executed con
 
 ---
 
-46. build a calculator console app to get average.
+43. build a calculator console app to get average.
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -735,12 +683,185 @@ public class Calculator {
 
 ---
 
-47. Explain Serialization and DeSerialization.
+44. How do you do unit test.
+ 
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
+Unit testing is done on an individual part of a code, like a method. In unit testing, we write a code that will check if a particular method on which we are performing unit testing gives an expected output or not for different test cases. If the output matches the expected output then the test is passed otherwise it fails.
+
+</blockquote>
+
+</details>
+
+---
+
+45. What are generics?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Generics in Java allow you to create classes, interfaces, and methods that can work with different types of objects. You can define a generic type with a type parameter, like T, which represents a placeholder for a specific type that will be determined later. You can use this type parameter to create classes, methods, or interfaces that can be used with any data type, making your code more flexible, reusable, and type-safe.
+
+</blockquote>
+
+</details>
+
+---
+
+46. What does static mean in Java?
+ 
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The `static` keyword is used to define variables or methods that belong to a class rather than to any object of that class. This allows the user to accesss these vairables and methods directly using the class name without creating an object of that class.  
+
+</blockquote>
+
+</details>
+
+---
+
+47. What is JAVA
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Java is a platform-independent object-oriented programming language. It can run on any computer or operating system that has a special program called a Java Virtual Machine (JVM) installed. It's used to build a wide range of software applications, including web and mobile apps, and is known for its ease of use, security features, and large developer community.
+
+</blockquote>
+
+</details>
+
+---
+
+48. difference between String and StringBuilder;
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The String is an immutable class in Java. where the StringBuilder is mutable. The performance of StringBuilder is faster than the String in operations like concatenation or modification. The String is a thread-safe class but the StringBuilder is not thread-safe.
+
+</blockquote>
+
+</details>
+
+---
+
+49. convert a string into a integer;
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+To convert a string into an integer in Java, you can use the `parseInt()` method of the `Integer` class. Just pass the string as an argument to `parseInt()` method, and it will return an integer.
+
+</blockquote>
+
+</details>
+
+---
+
+50. find the index of an int in an array[];
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+```java
+import java.util.Scanner;
+
+public class demo {
+
+    public static int findIndex(int[] arr, int n) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == n) {
+                return i;
+            }
+        }
+        return -1; // return -1 if the element is not found
+    }
+    
+    public static void main(String[] args){
+        Scanner scn=new Scanner(System.in);
+
+        int[] arr={1,2,3,4,5,6}; 
+        
+        System.out.println("Enter the number whose index you want to find");
+        int no=scn.nextInt();
+
+        System.out.println(findIndex(arr, no));
+    }
+ 
+}
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+51. explain how to start a thread.
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+To start a thread in java there are two ways. first one is to implment the `Runnable` interface and Then, create a new Thread object and pass an object of your class which is implementing the `Runnable` interface to the constructor, and call the `start()` method to start the thread.
+
+The second way is to extends the `Thread` class. Then create an object of your class which is exting the `Thread` class and call the `start()` method.
+
+</blockquote>
+
+</details>
+
+---
+
+52. What is the difference between StringBuilder and StringBuffer?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The StringBuffer is thread-safe while the StringBuilder is not thread-safe. So, we can use StringBuffer in multi-threaded environment. The performance of the StringBuffer is low as compared to StringBuffer.
+
+</blockquote>
+
+</details>
+
+---
+
+53. What is an Optional in Java?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The Optional class in Java is used to handle the null values. It helps to avoid the null pointer exceptions in the case where a value may be missing. The Optional class has two possible states, "non-empty" if a value is present and "empty" if a value is not present. Optional allows us to write code that clearly expresses whether a value is optional or required, which makes the code easier to read and maintain.
+
+</blockquote>
+
+</details>
+
+---
+
+54. What is the benefit of Java 11.
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Java 11 has multiple benefits it improves the performance of the Java application as it introduced the Z garbage collector and removed some deprecated APIs. Java 11 has enhanced the security aspect of Java. Java 11 improved developer productivity by adding new APIs for working with strings and files, and improved HTTP client API.
 
 
 </blockquote>
@@ -749,5 +870,65 @@ public class Calculator {
 
 ---
 
+55. If I had a String variable a1 as "Hector" and wanted to concatenate a second String with no variable "Infosys", what will print out?
 
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+When we concatinate both the strings the output will be "HecotorInfosys".
+
+</blockquote>
+
+</details>
+
+---
+
+56. Binary search algorithm
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The binary search algorithm is used to find an element in the sorted array. To implement the binary search algorithm it is important that the array should be sorted manner. The algorithm works by repeatedly dividing the search interval in half until the target element is found or not present in the array. The time complexity of the binary search is O(log n). 
+
+</blockquote>
+
+</details>
+
+---
+
+57. Map interface vs collection interface
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The `Map` interface and the `Collections` interface are both part of the Java Collections Framework.
+
+The `Collection` interface is used to represent a group of objects like a list. It provides a standard set of methods for adding, removing, and modifying elements in the list. The `Collection` interface is implemented by `ArrayList`, `LinkedList`, `HashSet`, and `TreeSet`.
+
+The `Map` interface is used to store elements in key-value pair. Each key is associated with a value, and you can use the key to retrieve the value assigned to that key. The `Map` interface is implemented by `HashMap`, `TreeMap`, and `LinkedHashMap`.
+
+
+</blockquote>
+
+</details>
+
+---
+
+58. why java doesn't have pointers.
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Java was designed to be a safe and secure programming language. That is why   This approach eliminates the possibility of accidentally modifying the wrong memory address, which can cause serious errors and security vulnerabilities.
+
+</blockquote>
+
+</details>
+
+---
 
