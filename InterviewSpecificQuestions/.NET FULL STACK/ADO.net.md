@@ -321,6 +321,7 @@ Connecting to a data source can be time consuming. To minimize the cost of openi
 The two key events of SqlConnection are:
 
 **StateChange event**: This event occurred when the state of the Connection changes. The event handler receives an argument (Datatype: StateChangeEventArgs) which contains the data related to that particular event.
+
 **InfoMessage event**: This event occurred when an info message or Warning is returned from a data source. The event handler receives an argument (Datatype: SqlInfoMessageEventArgs) which contains the data related to that event.
 
 </blockquote>
@@ -416,8 +417,11 @@ There are different methods under SqlCommand like:
 <blockquote> 
 
 **ExecuteScalar** – Returns a single value from the dataset
+    
 **ExecutenonQuery** – Returns resultset from the dataset and it has multiple values
+    
 **ExecuteReader** – Forwardonly resultset
+    
 **ExecuteXMLReader** – Build XMLReader object from a SQL Query
 
 </blockquote>
