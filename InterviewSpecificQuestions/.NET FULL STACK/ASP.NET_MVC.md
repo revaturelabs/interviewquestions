@@ -161,6 +161,7 @@ public class AuthorizeController:Controller
 <blockquote>
 
 **BUNDLING** - It lets us combine multiple JavaScript (.js) files or multiple cascading style sheet (.css) files, so that they can be downloaded as a unit, rather than making individual HTTP requests.
+    
 **MINIFICATION** - It squeezes out whitespace and performs other types of compression to make the downloaded files as small as possible. 
 
 </blockquote>
