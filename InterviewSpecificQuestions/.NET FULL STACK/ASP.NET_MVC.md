@@ -161,7 +161,6 @@ public class AuthorizeController:Controller
 <blockquote>
 
 **BUNDLING** - It lets us combine multiple JavaScript (.js) files or multiple cascading style sheet (.css) files, so that they can be downloaded as a unit, rather than making individual HTTP requests.
-    
 **MINIFICATION** - It squeezes out whitespace and performs other types of compression to make the downloaded files as small as possible. 
 
 </blockquote>
@@ -200,9 +199,28 @@ Contains Classes such as FilterConfig, RoutesConfig, WebApiConfig. As of now we 
 
 ---
 
+9. What is View? Explain its types?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
+<details> <summary> <b> Show Answer </b> </summary>
 
+<blockquote> 
+
+In ASP.NET Core, a view is a user interface component that is responsible for rendering data to the user. Views are used to generate the HTML that is sent to the client's web browser, and they are typically defined using a combination of HTML and server-side code.
+
+There are two main types of views in ASP.NET Core:
+
+**Razor Views**: Razor views are the most common type of view in ASP.NET Core. They are defined using a combination of HTML and Razor syntax, which allows server-side code to be embedded directly into the HTML.
+
+**Razor Pages**: Razor Pages are a newer type of view in ASP.NET Core that allow developers to define UI and server-side logic in a single file. Unlike Razor views, which are typically divided into separate view and controller files, Razor Pages combine both the view and the controller into a single file.
+
+</blockquote>
+
+</details>
+
+---
+ 
 
 
 
