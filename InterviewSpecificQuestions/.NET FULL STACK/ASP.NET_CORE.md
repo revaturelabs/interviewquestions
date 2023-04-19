@@ -524,5 +524,83 @@ Now how to remove this CORS restriction? For that you have to do the two things:
 
 ---
 
+19. How Routing works in ASP.NET Core?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Routing in ASP.NET Core is the process of mapping incoming requests to the appropriate controller action method. ASP.NET Core routing works by using the Routing Middleware, which is responsible for matching incoming URLs to registered routes. Routing Middleware takes a URL and tries to find a matching route in the RouteCollection.
+
+</blockquote>
+
+</details>
+
+---
+
+20. How Logging works in .NET Core and ASP.NET Core?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Logging is an important feature of any application, and .NET Core and ASP.NET Core provide a powerful and flexible logging framework that makes it easy to log application events and errors.
+
+The logging framework in .NET Core and ASP.NET Core is based on the ILogger interface, which defines a set of methods for logging different types of messages, including debug, information, warning, and error messages. To use the logging framework in your application, you need to create an instance of the ILogger interface and call the appropriate logging method based on the severity of the message.
+
+</blockquote>
+
+</details>
+
+---
+
+21. Describe the Servers in ASP.NET Core.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+ASP.NET Core supports multiple server options to host and run your web applications.
+
+**Kestrel Server**: Kestrel is the default and recommended server for ASP.NET Core. It's a cross-platform, lightweight, and fast server that can handle thousands of connections concurrently.
+**HTTP.sys Server**: HTTP.sys is a Windows-only server that is optimized for handling requests on Windows operating systems.
+**IIS Server**: You can also host your ASP.NET Core application on IIS by using the ASP.NET Core Module. 
+**Nginx Server**: Nginx is a popular open-source reverse proxy server that can be used to host ASP.NET Core applications. 
+
+</blockquote>
+
+</details>
+
+---
+
+22. How do you do Validation in Asp.Net core?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+In ASP.NET Core, there are several ways to perform validation, including client-side validation, server-side validation, and model binding validation. Here are some approaches for performing validation in ASP.NET Core:
+
+**Client-side validation**: Client-side validation is performed in the user's web browser using JavaScript. ASP.NET Core includes support for client-side validation through the use of jQuery Validation, which is a popular client-side validation library. By using the jquery.validate.unobtrusive.js script, ASP.NET Core can automatically generate client-side validation code based on server-side validation attributes. This approach can provide immediate feedback to the user without requiring a round-trip to the server.
+
+**Server-side validation**: Server-side validation is performed on the server, after the data has been submitted by the user. In ASP.NET Core, server-side validation can be performed using the built-in validation attributes, such as `[Required]`, `[StringLength]`, and `[RegularExpression]`. These attributes can be added to model properties to enforce validation rules. To perform server-side validation, the ModelState dictionary can be used to store validation errors and display them to the user.
+
+**Model binding validation**: Model binding validation is performed during the model binding process, which is responsible for mapping the HTTP request data to a model object.
+
+</blockquote>
+
+</details>
+
+---
+
+
 
 
