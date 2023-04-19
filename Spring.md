@@ -405,3 +405,12 @@ In controller we use the annotations like `@Controller`, `@RequestMapping`, `@Ge
 </details>
 
 ---
+
+28. What is @AutoWired?; 
+
+29. Tell us about initialization in Spring?; 
+
+30. What is a controller;
+
+31. Questions on Spring, how did you implement Spring JPA in your last project?; 
+

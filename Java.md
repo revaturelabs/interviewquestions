@@ -816,7 +816,209 @@ The `Map` interface is used to store elements in key-value pair. Each key is ass
   
 <blockquote>
 
-Java was designed to be a safe and secure programming language. That is why   This approach eliminates the possibility of accidentally modifying the wrong memory address, which can cause serious errors and security vulnerabilities.
+Java was designed to be a safe and secure programming language. So, to restricted the direct access to memory to avoid common programming errors like memory leaks and buffer overflows. Instead, Java uses references, which are similar to pointers but with built-in safety features to ensure that objects are created, used, and destroyed safely and efficiently. This approach eliminates the possibility of accidentally modifying the wrong memory address, which can cause serious errors and security vulnerabilities.
+
+</blockquote>
+
+</details>
+
+---
+
+56.  Create functional interfaces and use a lambda expression to add two integers.
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+```java
+interface IntegerMath {
+    int operation(int a, int b);
+}
+
+public class Example {
+    public static void main(String[] args) {
+        
+        IntegerMath addition = (a, b) -> a + b;
+        
+        int result = addition.operation(4, 5);
+        System.out.println("The resultis " + result);
+    }
+}
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+
+
+57. Did you ever run out of memory in Java? 
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Java programs can run out of memory if they exceed the memory allocated to them by the Java Virtual Machine (JVM). Java throws `OutOfMemoryError` in this scenario. This can occur due to inefficient memory usage or memory leaks within the program. It is important to properly manage memory in Java programs to avoid such issues.
+
+</blockquote>
+
+</details>
+
+---
+
+58. Can you have a try block without a catch block.
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+No, we cannot have a try block without a catch block in Java. A try block must be followed by at least one catch block or a finally block. If there is no catch block or finally block after a try block, the Java compiler will give a compile-time error.
+
+</blockquote>
+
+</details>
+
+---
+
+
+59. What IDE do you use for Java.
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+To execute Java programme we can use IDE like Eclipse, IntelliJ IDEA, NetBeans, Visual Studio Code with Java extensions, JDeveloper etc.
+
+</blockquote>
+
+</details>
+
+---
+
+
+60. What was added to the collections framework in java 8.
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Java 8 added several new features to the Collections framework, including Lambda expressions, the Streams API, default methods in interfaces, Optional class, enhancements to Map and Comparator interfaces, and more. These features make it easier to write expressive and efficient code for working with collections in Java.
+
+
+</blockquote>
+
+</details>
+
+---
+
+
+61. Throw vs Throws
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+In Java, the `throw` keyword is used to explicitly throw an exception from a method or block of code, while `throws` is used in the method signature to declare that the method may throw one or more types of exceptions. If a method can throw multiple exceptions, we can declare those exceptions in the method signature by separating them with commas.
+
+</blockquote>
+
+</details>
+
+---
+
+
+62. Explain the difference between a heap and a stack?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The heap and the stack are two separate areas of memory that are used for different purposes.
+
+- Memory allocation: The heap is used for dynamic memory allocation, while the stack is used for automatic memory allocation.
+- Data type: The heap is used for storing objects, while the stack is used for storing primitive types and method frames.
+- Access: The heap is a shared resource that can be accessed by all threads in a program, while the stack is a per-thread resource that can only be accessed by the thread that owns it.
+- Lifetime: Objects on the heap remain in memory until the garbage collector frees it or the program terminates, while data on the stack is freed when the method returns.
+
+</blockquote>
+
+</details>
+
+---
+
+
+63. What is the parent class of all classes in java?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The `Object` class is the parent class of all classes in Java. Every class in Java implicitly or explicitly extends the `Object` class. The `Object` class provides some default methods to it's subclasses, such as `toString()`, `equals()`, and `hashCode()`.
+
+</blockquote>
+
+</details>
+
+---
+
+64. Inheritance in Java and how is it implemented?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+In Java, inheritance is a way for a class to inherit properties and behavior from another class called the superclass. Inheritance is implemented by using the `extends` keyword. When a class extends another class, it inherits all the properties and behaviors of that class, and can override or extend them as needed. 
+For example, if we have an Animal class with an `eat()` method, and a Dog class that extends Animal, the Dog class automatically inherits the `eat()` method from Animal. 
+
+```Java
+public class Animal {
+    public void eat() {
+        System.out.println("This animal is eating.");
+    }
+}
+
+public class Dog extends Animal {
+    public void bark() {
+        System.out.println("Woof!");
+    }
+}
+
+```
+
+Inheritance makes it easier to reuse code and create specialized classes.
+
+</blockquote>
+
+</details>
+
+---
+
+
+65. What data structures are used in java?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+In Java there is wide range of data structures, like `Array`, `ArrayList`, `LinkedList`, `HashSet`, `TreeSet`, `HashMap`, `TreeMap` etc.
+
+</blockquote>
+
+</details>
+
+---
+
+
+66. Where primitive and an object get stored. 
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The primitive data types are stored in the memory stack. `int`, `double`, `boolean`, and `char` are the examples of primitive data type. whereas the Objects are stored in the heap memory.
 
 </blockquote>
 

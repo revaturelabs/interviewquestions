@@ -25,3 +25,11 @@ To make a connection to the database using jdbc first we have to load the JDBC d
 </details>
 
 ---
+
+3. What code do I write to set up the Driver?; 
+
+
+4. What should be imported in JDBC?; 
+
+
+

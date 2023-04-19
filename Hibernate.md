@@ -42,3 +42,5 @@ The `application.properties` file is used to configure Hibernate properties. In 
 
 ---
 
+4. Have you write SQL statements, used Hibernate and JPA.
+
