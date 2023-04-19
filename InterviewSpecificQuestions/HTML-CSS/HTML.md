@@ -426,7 +426,7 @@ Elements can be block-level elements or inline elements. The difference between 
 
 ---
 
-24. What ere void elements in HTML?
+24. What are void elements in HTML?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
