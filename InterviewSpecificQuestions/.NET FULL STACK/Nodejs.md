@@ -445,3 +445,111 @@ console.log(myURL1.href)
 
 ---
 
+23. What is an EventEmitter in Node.js?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+EventEmitter is a class that holds all the objects that can emit events.Whenever an object from the EventEmitter class throws an event, all attached functions are called upon synchronously.
+
+``` JS
+const EventEmitter=require('events');
+class MyEmitter extends EventEmitter{}
+const myEmitter=new MyEmitter();
+myEmitter.on('event',() => {
+  console.log('an event occurred!');
+});
+myEmitter.emit('event');
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+24. How do we implement async in Node.js?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+
+As shown below, the async code asks the JavaScript engine running the code to wait for the request.get() function to complete before moving on to the next line for execution.
+
+``` JS
+
+async function fun1(req,res)
+{
+  let response=await request.get('http://localhost:3000');
+  if(response.err)
+  {
+    console.log('error');
+  }
+  else
+  {
+    console.log('fetched response');
+  }
+}
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+25. How to manage packages in Node.js projects?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+
+Various package installers come with configurations to manage packages in Node.js projects. Most of these packages use npm or yarn. Luckily, both provide access to almost all JavaScript libraries with extended functionalities. 
+
+</blockquote>
+
+</details>
+
+---
+
+26. What are the differences between Callbacks and Promises?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+
+Callbacks are functions passed to other functions as arguments. They are part of the same task in the event loop’s sequence, ensuring that the inner function’s value is available for the outer function at its execution.
+
+Promises are placeholders for data that may be available later. Promises let the event loop wait through its sequence while the promise evaluates asynchronously.
+
+</blockquote>
+
+</details>
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
