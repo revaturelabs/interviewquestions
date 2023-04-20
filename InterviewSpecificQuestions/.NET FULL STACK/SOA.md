@@ -101,15 +101,25 @@ It is an autonomous, reusable, discoverable, stateless functionality that has th
 <blockquote>
 
 **Standardized service contract**: Services adhere to a communications agreement, as defined collectively by one or more service-description documents.
+
 **Service loose coupling**: Services maintain a relationship that minimizes dependencies and only requires that they maintain an awareness of each other.
+
 **Service abstraction**: Beyond descriptions in the service contract, services hide logic from the outside world.
+
 **Service reusability**: Logic is divided into services with the intention of promoting reuse.
+
 **Service autonomy**: Services have control over the logic they encapsulate.
-**Service statelessness**: Services minimize resource consumption by deferring the management of state information when necessary
+
+**Service statelessness**: Services minimize resource consumption by deferring the management of state information when necessary.
+
 **Service discoverability**: Services are supplemented with communicative metadata by which they can be effectively discovered and interpreted.
+
 **Service composability**: Services are effective composition participants, regardless of the size and complexity of the composition.
+
 
 </blockquote>
 
 </details>
+
+---
 
