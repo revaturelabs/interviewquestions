@@ -64,10 +64,10 @@ CSS is a styling language that makes HTML web pages more presentable. It allows 
 
 The CSS box model is a rectangular layout paradigm for HTML elements that consists of the following:
 
-**Content** - The content of the box, where text and images appear
-**Padding** - A transparent area surrounding the content (i.e., the amount of space between the border and the content)
-**Border** - A border surrounding the padding (if any) and content
-**Margin** - A transparent area surrounding the border (i.e., the amount of space between the border and any neighboring elements)
+- **Content** - The content of the box, where text and images appear
+- **Padding** - A transparent area surrounding the content (i.e., the amount of space between the border and the content)
+- **Border** - A border surrounding the padding (if any) and content
+- **Margin** - A transparent area surrounding the border (i.e., the amount of space between the border and any neighboring elements)
 
 </blockquote>
 </details>
