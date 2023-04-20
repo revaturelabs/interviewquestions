@@ -394,3 +394,188 @@ HATEOAS stand for Hypermedia as The Engine of the Application State. It provides
 </details>
 
 ---
+
+21.  Idempotent methods: what are they?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+
+Duplicate calls on the client side are known to result in problems since idempotent techniques are known to provide the same result even after the identical request has been submitted many times.
+
+</blockquote>
+
+</details>
+
+---
+
+22. What distinguishes monolithic, SOA, and microservices architectures from one another?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- With a monolithic architecture, all the software parts of a program are put together and neatly wrapped in one large container.
+- A group of services that communicate with one another is referred to as a service-oriented architecture. Simple data exchange or the coordination of an action between two or even more services are both possible forms of communication.
+- Microservice  Architecture is a type of architectural design that organizes an application as a group of tiny, independent services based on a business domain.
+
+![Microservices](https://github.com/revaturelabs/interviewquestions/blob/Feature/Kaveri-Revamped-IS-ques/InterviewSpecificQuestions/.NET%20FULL%20STACK/images/RestAPI.PNG)
+
+</blockquote>
+
+</details>
+
+---
+
+23. What are a few REST's flaws?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Statelessness is an advantage of REST, but it can also be a drawback. State is not preserved through REST. In those other words, the server doesn't save a history of previous communications. If maintaining state is required, the client is responsible for doing so. Developers must exercise caution and only use APIs from reliable, authentic providers as REST has less stringent security controls than SOAP. REST is therefore a bad choice for transmitting private data among servers and clients.
+
+</blockquote>
+
+</details>
+
+---
+
+24. How does the architecture for microservices operate?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+**Clients**: Requests are sent by numerous users using various devices.
+
+**Identity providers**: They verify the identities of users or customers and provide security tokens.
+Client requests are handled via API Gateway.
+All of the system's material is contained in static content.
+
+**Management** - Determines failures and balances services across nodes.
+
+A tool for determining the path of communication among microservices is called service discovery.
+Network connection of proxy servers and associated data centers is called a content delivery network.
+Information stored on a network of IT devices can be accessed remotely with the help of a remote service.
+
+</blokquote>
+
+</details>
+
+---
+
+25. What distinguishes REST and SOAP from one another?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+**REST(Representational State Transfer)**: 
+
+- It is a web service development architectural design pattern.
+- It is more cacheable and speedier in speed.
+- It just takes on the protocol-specific security measures that have been put in place.
+
+**SOAP (Simple Object Access Protocol)**:
+
+- It is a stringent protocol that is used to provide safe APIs.
+- It is not cacheable and moves more slowly.
+- It can specify its own security precautions.
+
+</blockquote>
+
+</details>
+
+---
+
+26. How to consume Web API from a .NET MVC Application?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- Web API methods can be consumed with the help of HttpClient class.
+
+- Below are the steps for consuming any Web API in a MVC application:
+
+![MVC_API](https://github.com/revaturelabs/interviewquestions/blob/Feature/Kaveri-Revamped-IS-ques/InterviewSpecificQuestions/.NET%20FULL%20STACK/images/API_FROM%20MVC.PNG)
+
+</blockquote>
+
+</details>
+
+---
+
+27. What are the main return types supported in Web API?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+
+A Web API controller action method can return following types:
+
+1. **Void** – It will return empty content.
+2. **HttpResponseMessage** - It will convert the response to an HTTP message.
+3. **IHttpActionResult** - internally calls ExecuteAsync to create an HttpResponseMessage.
+4. **Other types** – You can create your own custom return type.
+
+</blockquote>
+
+</details>
+
+---
+
+28. What is Content Negotiation in WEB API?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+
+- Whenever we consume an API, we receive data in either JSON or XML or plain text or your own custom format.
+- Which means the requester and responder applications are aware of the format in which they will send and receive data. This is nothing but Content Negotiation in Web API 2.
+- The same you can see in the diagram if the requester client will ask the data in JSON format then web api has to return it in json format.
+
+![Content_Negotiation](https://github.com/revaturelabs/interviewquestions/blob/Feature/Kaveri-Revamped-IS-ques/InterviewSpecificQuestions/.NET%20FULL%20STACK/images/API_Content_Negotiation.PNG)
+
+</blockquote>
+
+</details>
+
+---
+
+29. What are response codes in Web API?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+
+1. `1xx: Informational` – Communicates transfer protocol-level information.
+2. `2xx: Success` – Indicates that the client’s request was accepted successfully.
+3. `3xx: Redirection` – This means request is not complete. The client must take some additional action in order to complete their request.
+4. `4xx: Client Error` – This means there is some error in API code.
+5. `5xx: Server Error` – This means the error is not due to web api code but due to some environment settings.
+
+</blockquote>
+
+</details>
+
+---
