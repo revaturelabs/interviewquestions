@@ -410,7 +410,7 @@ Wednesday, October 2022 03:58:06 PM MDT
 
 ---
 
-23.  What is the difference between diff and cmp commands?
+23.  What is the difference between `diff` and `cmp` commands?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -439,7 +439,9 @@ Wednesday, October 2022 03:58:06 PM MDT
 - Shebang is a `# sign` followed by an exclamation i.e. !.
 - Generally, this can be seen at the beginning or top of the script/program. This is used to avoid repetitive work. Shebang mainly determines the location of the engine which is to be used to execute the script.
 
-**Example: #!/bin/bash**        - The above line also tells which shell to use.
+**Example: #!/bin/bash**
+    
+   - The above line also tells which shell to use.
    - Here ‘#’ symbol is called hash and ‘!’ is called a bang.
 
 </blockquote>
