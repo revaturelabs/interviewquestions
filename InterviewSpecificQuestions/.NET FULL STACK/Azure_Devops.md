@@ -20,7 +20,7 @@ Azure supports the most popular programming languages in use today, including Py
 
 2. Why do we use Azure?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/devInterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
