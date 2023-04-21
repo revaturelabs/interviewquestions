@@ -499,7 +499,7 @@ So that’s is the reason IQueryable is better than IEnumerable for sql queries.
 
 22. What is the difference between Stack and Queue Collections?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
