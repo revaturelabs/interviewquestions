@@ -572,8 +572,10 @@ You can use data pipelines to:
 
 - Data pipelines provide:
 
-`Consistency`: Data pipelines transform data into a consistent format for users to consume
-Error reduction: Automated data pipelines eliminate human errors when manipulating data
+`Consistency`: Data pipelines transform data into a consistent format for users to consume.
+ 
+`Error reduction`: Automated data pipelines eliminate human errors when manipulating data.
+ 
 `Efficiency`: Data professionals save time spent on data processing transformation. Saving time allows then to focus on their core job function - getting the insight out of the data and helping business makes better decisions.
 
 </blockquote>
