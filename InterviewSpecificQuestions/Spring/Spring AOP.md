@@ -2,7 +2,7 @@
 
 1. Is there difference between Object Oriented Programming (OOP) and Aspect-Oriented Programming (AOP)?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -19,7 +19,7 @@
 ---
 2. Why we need to use AspectJ in Spring application?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -59,7 +59,7 @@
 ---
 3. You must capture all exceptions caused in repository, service & controller layer using Spring AOP, how you can do it?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -113,7 +113,7 @@ public class LoggingAspect {
 ---
 4. You have to measure performance (or time taken by method execution), how can you achieve it with AOP?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -150,7 +150,7 @@ public class ExecutionTimeAspect {
 
 5. Why we use pointcut expression in Spring application.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -162,9 +162,9 @@ public class ExecutionTimeAspect {
 </details>
 
 ---
-6. Why do we use @EnableAspectJAutoProxy?
+6. Why do we use `@EnableAspectJAutoProxy`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -187,6 +187,100 @@ public class ExecutionTimeAspect {
  }
 ```
 </blockquote> 
+
+</details>
+
+---
+
+7. What are `Introductions` in Spring AOP?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+
+Introductions enable an aspect to declare that advised objects implement an additional interface(s) which they don’t have in real, and to provide an implementation of that interface on behalf of those objects.
+
+An introduction is made using the `@DeclareParents` annotation.
+
+</blockquote>
+
+</details>
+
+---
+
+8. How to implement AOP in Spring Boot?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+
+To implement AOP, start with including the spring-boot-starter-aop module in the application dependencies. It transitively imports spring-aop and aspectjweaver dependencies into the application.
+
+```Java
+
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-aop</artifactId>
+</dependency>
+```
+
+Next, we enable the autoconfiguration using the @EnableAspectJAutoProxy annotation.
+
+```Java
+@Configuration
+@EnableAspectJAutoProxy
+public class AopConfig {
+ 
+}
+```
+
+Now we are ready to create various AOP aspects using the @Aspect annotation. Read a detailed tutorial on this Spring Boot AOP example.
+
+```Java
+
+@Aspect
+@Component
+public class LoggingAspect 
+{
+    @Around("execution(* com.howtodoinjava.aop..*(..)))")
+    public Object profileAllMethods(
+        ProceedingJoinPoint proceedingJoinPoint) throws Throwable 
+    {
+        MethodSignature methodSignature = 
+            (MethodSignature) proceedingJoinPoint.getSignature();
+        //...
+    }
+}
+```
+
+</blockquote>
+
+</details>
+
+---
+
+9.  How you can enable or disable the Spring AOP based on configuration flag?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+
+When the maven dependencies are imported, AopAutoConfiguration is triggered, enabling AOP via the `@EnableAspectJAutoProxy` annotation.
+
+If `spring.aop.auto = false` in application.properties, the auto configuration will not be activated.
+
+```Java
+spring.aop.auto = false    //it disables Spring AOP
+
+```
+
+</blockquote>
 
 </details>
 
