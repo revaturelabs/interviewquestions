@@ -20,7 +20,7 @@ Java includes some built-in functional interfaces, such as Runnable, Consumer, a
   
 <blockquote>
 
-An interface defined the set of methods that a class must implement. It is a blueprint for a class. They are used to achieve abstraction in the application. Also by using interface we can achieve multiple inheritance in java.
+An interface defines the set of methods that a class must implement. It serves as a blueprint for a class. Interfaces are utilized to achieve abstraction in the application as they only contain the method signature, not the method definition. Additionally, interfaces allow multiple inheritance in Java. By using an interface, we can define the method separately from the signature, resulting in independent methods and classes that achieve Loose Coupling. Overall, interfaces are essential for abstraction, multiple inheritance, and loose coupling in Java applications.
 
 </blockquote>
   
@@ -154,27 +154,32 @@ In Java, there are two types of exceptions: checked exceptions and unchecked exc
   
 <blockquote>
 
-The Vector is synchronized while ArrayList is not synchronized and is not thread-safe. The performance of vector is less than arraylist. Vector doubles its size when it needs to expand, whereas ArrayList increases by half of its size.
+In Java, Vector and ArrayList are both classes used for storing and manipulating collections of objects, but they follwing differences:
+- Synchronization: Vector is synchronized, meaning that it is thread-safe and can be accessed by multiple threads simultaneously. but ArrayList is not synchronized.
+- Performance: Vector is generally slower than ArrayList.
+- Capacity: Vector doubles its size when it needs to expand, while ArrayList increases its size by half of its current size.
+- Enumeration: Vector has an enumeration interface that allows it to be used with older Java classes whereas ArrayList does not have an Enumeration interface.
 
 </blockquote>
   
 </details>
 
 ---
-
-12. The difference between a @bean and @component.
+12. Have you used any design patterns? What are they?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-The main difference between `@Component` and `@Bean` is that `@Component` is a class-level annotation that allows Spring to automatically discover and register a bean, whereas `@Bean` is a method-level annotation that creates and returns an object that Spring should register as a bean. 
+A software design pattern is a reusable solution to a commonly occurring problem in software design. TI is not specific to any particular programming language or software system. Rather, it is a general concept or approach to solving a problem. There are multiple design patterns like Singleton pattern, Factory pattern, Adapter pattern, Observer pattern etc.
+
 
 </blockquote>
-  
+
 </details>
 
 ---
+
 
 13. Is java a pass-by-value or pass-by-reference.
 
@@ -254,7 +259,7 @@ In Java, a copy constructor is a constructor that creates a new object by copyin
   
 <blockquote>
 
-To copy an array values form one array to another you can use a for loop which will iterate over the first array and will put the elements of first array into another array. orelse you can use `Arrays.copyOf` methods.
+To copy an array values form one array to another you can use a for loop which will iterate over the first array and will put the elements of first array into another array. orelse you can use `Arrays.copyOf()` methods.
 
 </blockquote>
   
@@ -725,7 +730,7 @@ The second way is to extends the `Thread` class. Then create an object of your c
   
 <blockquote>
 
-The StringBuffer is thread-safe while the StringBuilder is not thread-safe. So, we can use StringBuffer in multi-threaded environment. The performance of the StringBuffer is low as compared to StringBuffer.
+The StringBuffer is thread-safe while the StringBuilder is not thread-safe. So, we can use StringBuffer in multi-threaded environment. The performance of the StringBuffer is low as compared to StringBuffer. The StringBuffer was introduced in Java 1.0, while StringBuilder was introduced in Java 1.5.
 
 </blockquote>
 
@@ -1003,7 +1008,7 @@ Inheritance makes it easier to reuse code and create specialized classes.
   
 <blockquote>
 
-In Java there is wide range of data structures, like `Array`, `ArrayList`, `LinkedList`, `HashSet`, `TreeSet`, `HashMap`, `TreeMap` etc.
+Java provides a wide range of built-in data structures that are used to store, and organize data efficiently. It is wide range of data structures, like `Array`, `ArrayList`, `LinkedList`, `HashSet`, `TreeSet`, `HashMap`, `TreeMap` etc.
 
 </blockquote>
 
@@ -1026,3 +1031,847 @@ The primitive data types are stored in the memory stack. `int`, `double`, `boole
 
 ---
 
+67. how to write to a file.
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+To write inside a file java uses a `File` class which is present inside the `java.io` package. This class is ued to handle file related operations in java. Like creating or deleting files and directories. To write to a file, you first create a `File` object representing the file you want to write to, and then create a `FileWriter` object and pass the object of `File` to it. Once you have the `FileWriter` object, you can use its `write()` method to write text to the file.
+
+For example,
+
+```java
+import java.io.*;
+import java.util.*;
+
+public class test {
+ 
+    public static void main(String[] args) 
+    {
+       
+        File file = new File("C:/file.txt");
+        FileWriter writer;
+        try {
+            writer = new FileWriter(file);
+            writer.write("Hello, World!");
+            writer.close();
+        } 
+        catch (Exception e) {
+    
+            e.printStackTrace();
+        }
+
+    }
+}
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+
+68. what is mvc.
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+MVC stands for Model-View-Controller, which is a software design pattern. 
+
+- The Model represents the data and business logic of the application. It is responsible for managing data and performing calculations on it.
+- The View represents the user interface of the application. It is responsible for displaying data to the user and receiving input from them.
+- The Controller acts as an intermediary between the Model and the View. It processes user input and updates the Model and View accordingly.
+
+By separating the application into these components, makes it easier to maintain and modify the application.
+
+</blockquote>
+
+</details>
+
+---
+
+
+69. Tell me some String methods;
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The `String` class provides many methods for manipulating strings. The `String` class includes methods like `length()`, `charAt()`, `substring()`, `trim()`, `toLowerCase()`, `toUpperCase()` etc. 
+
+</blockquote>
+
+</details>
+
+---
+
+
+70. what is typecasting.
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The typecasting in java is the process of converting a value of one data type to another data type. There are two types of typecasting: implicit and explicit. In Implicit typecasting a smaller data type is converted to a larger data type. For example, converting an int to a long or a float to a double. The implicit typecasting happens automatically.In Explicit typecasting, also known as narrowing conversion, a larger data type is converted to a smaller data type. It requires the programmer to specify the type to which the value is going to be cased. For example, converting a double to an int.
+
+</blockquote>
+
+</details>
+
+---
+
+
+71. what is interpreter.
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+An interpreter is a computer program that translates and executes code written in a high-level programming language. The program gets executed line by line as the interpreter reads it. Unlike a compiler, which translates the entire program into machine code before execution, an interpreter works in real-time. Interpreters are often used in scripting languages like Python, JavaScript, and Ruby.
+
+</blockquote>
+
+</details>
+
+---
+
+
+72. why string are immutable.
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+In Java, strings are immutable, which means that once a string object is created we cannot modified it. The immutability of strings provides benefits such as thread safety and increased security since they can be safely shared across threads and are not susceptible to modification by malicious code. Additionally, immutable strings can be more efficient than mutable strings when performing operations such as comparison or concatenation. The use of immutable strings also allows Java to cache frequently used string objects for better performance and reduced memory usage.
+
+
+</blockquote>
+
+</details>
+
+---
+
+
+73. static method in Java.
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+A static method is a method which belongs to a class and can be called directly using the class without creating an object of that class. To define a method as a static method, `static` keyword is used in the method signature. Static methods are often used for utility functions, factory methods, or defining constants associated with a class. The static methods cannot access non-static members of a class and cannot be overridden by subclasses.
+
+</blockquote>
+
+</details>
+
+---
+
+
+74. Can you provide an example of calling an overridden method?
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Here is the example to call an overridden method in java.
+
+```java
+
+class Animal {
+    public void makeSound() {
+        System.out.println("The animal makes a sound");
+    }
+}
+
+class Cat extends Animal {
+    @Override
+    public void makeSound() {
+        System.out.println("Meow");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+       
+        Animal obj= new Cat();       
+        obj.makeSound();     
+    }
+}
+```
+
+In this example, we define an Animal class with a makeSound method, and a Cat class that extends Animal and overrides the makeSound method. In the main method, we create a Cat object that is referred to as an Animal. When we call obj.makeSound(), the overridden makeSound method in the Cat class is called, and it prints "Meow" to the console. This demonstrates how calling an overridden method in Java works.
+
+
+</blockquote>
+
+</details>
+
+---
+
+
+75. Can you provide an example of calling a parent class's method?
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Here is the example to call an parent class method from child class in java.
+
+```java
+ class Animal {
+    public void makeSound() {
+       System.out.println("The animal makes a sound");
+    }
+
+}
+ 
+
+public class Test extends Animal {
+
+
+    public static void main(String[] args) {
+       Test test = new Test();
+       test.makeSound(); 
+    }
+}
+
+
+```
+
+
+</blockquote>
+
+</details>
+
+---
+
+
+76. 
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+
+
+</blockquote>
+
+</details>
+
+---
+
+
+77. What's the difference between a Set and a Map and why would you utilize one over the other.
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The main difference between a `Set` and `Map` is that a `Set` is an unordered collection of unique elements. It is used to store a collection of objects where duplicates are not allowed. Whereas `Map` is an object that stores elements in key-value pairs where the keys are unique. We would use a `Set` when we need to store a collection of unique elements without any specific order. For example, If we want to store unique emails of employees, we can use a `Set` to ensure that there are no duplicates. On the other hand, we would use a `Map` when we need to retrieve values based on their associated keys. For example, when we need to store a collection of student records, where each record is associated with a unique student ID.
+
+</blockquote>
+
+</details>
+
+---
+
+
+78. What is the Collection framework in Java
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The Collection framework in Java is a set of interfaces and classes that provides a way to handle groups of objects. It consists core interfaces like `Collection`, `List`, `Set`, `Map`,and `Queue` and  implementation class of those interfaces like `ArrayList`, `HashSet`, and `TreeMap`. It have advantages such as improved code readability, increased reusability of code, and enhanced performance.
+
+</blockquote>
+
+</details>
+
+---
+
+
+79. What is the differences between Strings, StringBuilder and StringBuffer, and which one between StringBuilder and StringBuffer is thread-safe.
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Strings, StringBuilder, and StringBuffer are classes in Java used to manipulate character sequences and the main differences between them are Strings are immutable, while StringBuilder and StringBuffer are mutable. StringBuffer and StringBuilder both provide the same functionality to the use with differences like StringBuffer is thread-safe, while StringBuilder is not thread-safe. The performance of StringBuilder is high as compared to StringBuffer. Strings create a new object in memory every time they are modified, while StringBuilder and StringBuffer use a single buffer.
+
+</blockquote>
+
+</details>
+
+---
+
+
+80. can we override static methods. 
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+No, static methods cannot be overridden in Java. When a subclass defines a static method with the same signature as a static method in the superclass, the method in the subclass is not considered as an override of the method and the method in superclass gets executed whenever we call the method.
+
+</blockquote>
+
+</details>
+
+---
+
+
+81. Boxing and Unboxing
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Boxing is the process of converting a primitive data type into its corresponding object wrapper class. For example, converting an int variable into Integer. Whereas Unboxing is the process of converting an object of a wrapper class to its corresponding primitive data type. For example, converting an Integer object to an int. Unboxing is necessary when you want to use an object as a primitive data type.
+
+- Boxing example,
+
+```java
+int i = 15;
+Integer integer = Integer.valueOf(i);
+
+```
+
+- Unboxing example, 
+
+```java
+
+Integer integer = 10;
+int i = integer.intValue();
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+
+82. Explain and create a lamda.
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+
+
+</blockquote>
+
+</details>
+
+---
+
+
+83. Create a linked list.
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+
+
+</blockquote>
+
+</details>
+
+---
+
+
+84. What are the OOPS.
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+OOPs stands for Object-Oriented Programming. It is a methodology to design a program to simplify the application development process. There are four main pillers of OOPs including encapsulation, inheritance, polymorphism, and abstraction.  
+
+</blockquote>
+
+</details>
+
+---
+
+
+85. What is runtime polymorphism? 
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Runtime polymorphism allows a subclass to provide its own implementation of a method that is already defined by its parent class. In Java, this is achieved through method overriding. In method overriding, a method is cretated in subclass with the same name, return type, and parameters as a method in its parent class. At runtime, when the method is called on an object of the subclass the overridden method in the subclass is executed instead of the method in the parent class.
+
+For example,
+
+```java
+
+class Animal {
+    public void makeSound() {
+        System.out.println("Animal makes sound");
+    }
+}
+
+class Cat extends Animal {
+    @Override
+    public void makeSound() {
+        System.out.println("Meow");
+    }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        Animal animal = new Cat();
+        animal.makeSound(); // Output: Meow
+    }
+}
+
+
+```
+
+This is the example for runtime polymorphism. When we run the above code the overridden `makeSound()` methods gets executed. and we will receive an output as "Meow".
+
+</blockquote>
+
+</details>
+
+---
+
+
+86. What is upcasting in runtime polymorphism?
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Upcasting is a process of casting a reference variable of a subclass to a reference variable of its parent class. This limits the access of the variable to the methods and properties of the parent class only.
+
+For example,
+
+```java
+
+class Animal {
+    public void makeSound() {
+        System.out.println("Makes sound");
+    }
+}
+
+class Cat extends Animal {
+    @Override
+    public void makeSound() {
+        System.out.println("Meow");
+    }
+
+    public void eat() {
+        System.out.println("Eating...");
+    }
+}
+
+public class Test extends Animal {
+    public static void main(String[] args) {
+        Animal animal = new Dog(); 
+        animal.makeSound(); // Output: Meow
+
+        //animal.eat(); // compile time error.
+    }
+}
+
+```
+In this example, we have a parent class Animal and a subclass Cat. We create an object of the Cat class and assign it to a variable of type Animal. This is an example of upcasting. In this example when we run the code It will give an output as "Meow" when the `makeSound()` method is called. But we can not call the `eat()` method using the object because the Animal class does not have any method like `eat()` and if we try to call it this will give us an compile time error.
+
+</blockquote>
+
+</details>
+
+---
+
+
+87. What is method overloading?
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The method overloading allows a class to have multiple methods with the same name but different parameters. This means that two methods with the same name and different parameter types can coexist in the same class, as Java can differentiate between them based on their parameter types. The method overloading helps programmers to write more concise and flexible code.
+
+For example,
+
+```java
+
+class MyClass {
+    public int sum(int a, int b) {
+        return a + b;
+    }
+    
+    public double sum(double a, double b) {
+        return a + b;
+    }
+}
+
+
+public class Test{
+    public static void main(String[] args) {
+        MyClass obj = new MyClass();
+        System.out.println(obj.sum(1,2));        // output: 3
+        System.out.println(obj.sum( 2.4,3.1));   // output: 5.5
+        
+    }
+}
+
+
+```
+In this example, the MyClass class has two methods named as `sum()`, one that takes two integers as arguments and returns an integer, and another that takes two doubles as arguments and returns a double. When we execute this programme we will get output as 3 and 5.5 as in first scenario when will call the `sum()` method it executed the `sum()` method with parameter type as integer, and in the second `sum()` method call it executed the `sum()` method with parameter type double.
+
+</blockquote>
+
+</details>
+
+---
+
+
+88. What is garbage collection?
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Garbage collection is used in Java to perform automatic memory management. It deletes the objects in memory that are no longer being used by the program, and freeup the space in memory. When an object is created, Java keeps track of its reference count. When an object is no longer referenced by the program, its reference count is reduced to zero, and it becomes eligible for garbage collection. The garbage collector periodically scan the heap for objects that have a reference count of zero and delete them. It helps prevent memory leaks and makes programming in Java more convenient and safe.
+
+</blockquote>
+
+</details>
+
+---
+
+
+89. What can you tell me about the final keyword?
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The `final` keyword is used to indicate that a variable, method, or class cannot be modified or extended once it has been initialized. When we apply `final` keyword to a  variable we can not change the value of assigned to that variable. When the `final` keyword is applied to method then that method can not be overridden. and when we apply `final` keyword to a class we can not extend the class which means that the class will not have any child class.
+
+
+
+</blockquote>
+
+</details>
+
+---
+
+
+90. What is the benefit of inheritance?
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Inheritance is a core concept in object-oriented programming that allows classes to derive methods and variables from a parent class. It simplifies code structure, promotes code reusability, and saves time and efforts  as developers can leverage the existing functionality of a base class to create new classes with specific requirements.
+
+</blockquote>
+
+</details>
+
+---
+
+91. What is the HTTP Source Code?
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+HTTP stands for Hypertext Transfer Protocol. It is the underlying protocol used by the World Wide Web for communication between servers and clients. HTTP source code refers to the set of rules and standards that define how HTTP messages are formatted, transmitted, and processed in between client and server. The developers need to understand HTTP source code to optimize their web pages, improve performance, and debug issues related to HTTP communication.
+
+</blockquote>
+
+</details>
+
+---
+
+92. Can you tell me about JDK?
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+JDK stands for Java Development Kit.it is a software development kit used by developers to create Java-based applications. It includes JVM, the Java Runtime Environment, and other tools and utilities needed to develop, debug, and run Java code.
+
+</blockquote>
+
+</details>
+
+---
+
+
+93. What is the JIT Compiler?
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The JIT stands for Just-In-Time compiler is a component of the Java Virtual Machine (JVM) that compiles Java bytecode into machine code at runtime. It analyzes the bytecode as the program runs, identifies frequently executed sections of the code, then compiles these sections into machine code and stores the compiled code in a cache so that it can be executed more quickly in the future.This allows Java programs to achieve better performance.
+
+</blockquote>
+
+</details>
+
+---
+
+
+94. What does JVM do?
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+JVM stands for Java Virtual Machine, and its main function is to execute Java bytecode. It provides a runtime environment in which Java applications can run on any platform, without the need for the developer to worry about the specific details of the underlying operating system. It manages memory, thread synchronization, security, and other runtime aspects of the Java application. It also includes components like the JIT compiler and class loader to optimize the performance of Java applications.
+
+</blockquote>
+
+</details>
+
+---
+
+95. What are Wrapper Classes?
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Wrapper classes are the classes that allow primitive data types to be treated as objects. There is a wrapper class for each primitive data type, and they provide utility methods for converting between primitive data types and objects, as well as for performing various other operations on the data. Wrapper classes are useful in situations where an object is required, but only a primitive data type is available. Some examples of wrapper classes are `Boolean`, `Byte`,`Character`, `Short`, `Integer`,`Long`, `Float`, and `Double`.
+
+</blockquote>
+
+</details>
+
+---
+
+96. what is abstraction.
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Abstraction in Java is the process of hiding the implementation details of a system or software component and focusing on the essential features. To implement abstractin in our applicatio we use abstract classes and interfaces. By using abstraction, we can create code that is more modular, maintainable, and extensible. It allows us to focus on the high-level design of a system, without getting bogged down in the details of implementation.
+
+</blockquote>
+
+</details>
+
+---
+
+97. How many memories are there in Java and what are they used for?
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+In Java, there are mainly two types of memory: heap memory and stack memory. The heap memory is used for storing objects created during the runtime of a program, while stack memory is used for storing method calls and local variables. In addition to these, there are also other memory areas in Java, such as the Method Area, Runtime Constant Pool, and Native Method Stacks. Understanding the different types of memory in Java is important for writing efficient and scalable programs. 
+
+</blockquote>
+
+</details>
+
+---
+
+98. What kind of loop would you use for going from 1 to 10?
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+We can use a for , while or do while loop to fulfill the requirement.
+
+In the below example, We will write a code which will print numbers from 1 to 10 using for loop.
+
+```java
+import java.util.*;
+
+public class Test{
+    public static void main(String[] args) {
+        
+        for(int i=1;i<=10;i++){
+            System.out.println(i);
+        }
+        
+    }
+}
+
+```
+
+
+</blockquote>
+
+</details>
+
+---
+
+99. How do you declare a variable in java.
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+To declare a variable in Java, you need to specify its data type and name. The syntax for declaring a variable is `data_type variable_name;`.
+
+for example: 
+```java
+int num;
+
+```
+The above exampole declares an integer variable named num with no initial value.
+
+If you want to assign a value, you can do so in the declaration, like this: 
+
+```java
+int num = 10;
+```
+
+</blockquote>
+
+</details>
+
+---
+
+100. What is JEE design patterns.
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+JEE (Java Enterprise Edition) Design Patterns are standard solutions to software design problems when building enterprise-level Java applications. They help developers create reliable and scalable software systems. Examples of these patterns include MVC, Singleton, DAO, Factory, Observer, Dependency Injection, Service Locator, and Front Controller.
+
+</blockquote>
+
+</details>
+
+---
+
+101. Can you code a program that reflects overloading
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+here is an example for method overloading:
+
+```java
+import java.util.*;
+
+class DemoOverloading{
+    public void printNumber(int num) {
+        System.out.println("Printing integer number: " + num);
+    }
+
+    public void printNumber(double num) {
+        System.out.println("Printing floating-point number: " + num);
+    }
+
+    public void printNumber(String num) {
+        System.out.println("Printing string number: " + num);
+    }
+}
+
+public class Test{
+    public static void main(String[] args) {
+        DemoOverloading obj = new DemoOverloading();
+        obj.printNumber(10);
+        obj.printNumber(10.0);
+        obj.printNumber("10");  
+        
+        
+    }
+}
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+102. What is an abstract class;
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+An abstract class is a class that cannot be instantiated on its own but can be extended to create subclasses. It provides a blueprint for other classes and defines common characteristics and behavior that can be shared by multiple subclasses. The abstract class contains abstract and non-abstract methods, the abstract methods must be implemented in the subclasses that extend the abstract class. The keyword `abstract` is used to define an abstract class.
+
+</blockquote>
+
+</details>
+
+---
+
+103. How do you write an XML file?; 
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+
+
+</blockquote>
+
+</details>
+
+---
+
+104. 
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+
+
+</blockquote>
+
+</details>
+
+---

@@ -26,10 +26,22 @@ To make a connection to the database using jdbc first we have to load the JDBC d
 
 ---
 
-3. What code do I write to set up the Driver?; 
+3. What code do I write to set up the Driver?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+To set up the driver in a Java application, first, you need to download the JDBC driver JAR file and add it to the project's classpath. Then, you can load the JDBC driver class using the `Class.forName()` method. Once the driver class is loaded, you can establish a connection to the database using the `DriverManager.getConnection()` method, which takes the database's URL, username, and password as parameters. However, the `DriverManager.getConnection()` method may throw an `SQLException`, so it is important to write exception-handling code to handle any errors that may occur.
+
+</blockquote>
+
+</details>
+
+---
 
 
-4. What should be imported in JDBC?; 
+4. What should be imported in JDBC?
 
 
 

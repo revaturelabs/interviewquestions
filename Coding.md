@@ -254,10 +254,6 @@ public class test {
   
 <blockquote>
 
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
 The following programme checks if the given string is palindrome or not. It will return "Yes" if the string is palindrome and "No" if the string is not a palindrome.
 
 ```java
@@ -315,6 +311,393 @@ public class test {
 
 
 8. Move all the 0's to the end in a 1D array.
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The following code will move all the 0's present in the array at the end.
+
+```java
+
+import java.util.*;
+
+public class test {
+ 
+    
+    public static void moveZeroesToEnd(int[] arr) {
+        int nonZeroIndex = 0;
+    
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] != 0) {
+                arr[nonZeroIndex++] = arr[i];
+            }
+        }
+     
+        while (nonZeroIndex < arr.length) {
+            arr[nonZeroIndex++] = 0;
+        }
+
+        System.out.println(arr[1]);
+    }
+ 
+    
+    public static void main(String[] args)
+    {
+       
+        Scanner scn=new Scanner(System.in);
+       int[] arr={1,0,2,0,3,4,5};
+        moveZeroesToEnd(arr);
+        
+    }
+}
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+9. Given the set of numbers 1-100, code a program that would give fizz if it’s divisible by 5, buzz if divisible by 3, fizz buzz is divisible by both and the number of by neither.
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+```java
+import java.util.*;
+
+public class Test{
+    public static void main(String[] args) {
+        for (int num = 1; num <= 100; num++) {
+            if (num % 3 == 0 && num % 5 == 0) {
+                System.out.println("FizzBuzz");
+            } else if (num % 3 == 0) {
+                System.out.println("Buzz");
+            } else if (num % 5 == 0) {
+                System.out.println("Fizz");
+            } else {
+                System.out.println(num);
+            }
+        }
+        
+        
+    }
+}
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+
+10. Write a function to create a list? The list should contain different elements every time the function is invoked?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The following code contains a  `generateList()` method which generates a list with random elements every time it is called. The size of the list must be passed as an argument to the `generateList()` method.
+
+```java 
+import java.util.*;
+
+public class Test{
+    public static void main(String[] args) {
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        
+        list=generateList(3);
+        System.out.println(list.toString());
+
+
+        list=generateList(5);
+        System.out.println(list.toString());
+    }
+
+    public static ArrayList<Integer> generateList(int size) {
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        Random rand = new Random();
+
+        for (int i = 0; i < size; i++) {
+            int randNum = rand.nextInt(100);
+            list.add(randNum);
+        }
+
+        return list;
+    }
+}
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+
+11. Sort a list in ascending order?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The following code will sort a list of integers in ascending order using the built-in `Collections` class in Java:
+
+```java
+
+import java.util.*;
+
+public class Test{
+    public static void main(String[] args) {
+        ArrayList<Integer> numbers = new ArrayList<Integer>();
+        numbers.add(5);
+        numbers.add(2);
+        numbers.add(8);
+        numbers.add(1);
+
+        Collections.sort(numbers);
+
+        System.out.println(numbers);
+    }
+
+    
+}
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+12. Let's say you have a Student class with a name field and a grade field. If you put multiple Student objects in an array, then how would you sort them by name?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The following code the Student class implements the `Comparable` interface and overrides the `compareTo()` method to compare two Student objects based on their name field. 
+
+```java
+
+import java.util.*;
+
+class Student implements Comparable<Student> {
+    private String name;
+    private int grade;
+
+    public Student(String name, int grade) {
+        this.name = name;
+        this.grade = grade;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getGrade() {
+        return grade;
+    }
+
+    @Override
+    public int compareTo(Student other) {
+        return this.name.compareTo(other.getName());
+    }
+
+}
+
+public class Test{
+    public static void main(String[] args) {
+        Student[] students = new Student[3];
+        students[0] = new Student("Ram", 80);
+        students[1] = new Student("Sham", 52);
+        students[2] = new Student("Manoj", 78);
+
+        Arrays.sort(students);
+
+        for (Student s : students) {
+            System.out.println(s.getName() + " " + s.getGrade());
+        }
+    }
+    
+}
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+13. You have an ArrayList of Strings. For each String in the array, display the String and the number of times that String appeared in the array.
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The following code displays each String in an ArrayList along with the number of times that String appears in the list:
+
+```java
+import java.util.*;
+
+public class Test{
+    public static void main(String[] args) {
+        ArrayList<String> strings = new ArrayList<String>();
+        strings.add("Man");
+        strings.add("Animal");
+        strings.add("Animal");
+        strings.add("Bird");
+
+        Map<String, Integer> stringCount = new HashMap<String, Integer>();
+
+        for (String s : strings) {
+            if (stringCount.containsKey(s)) {
+                stringCount.put(s, stringCount.get(s) + 1);
+            } else {
+                stringCount.put(s, 1);
+            }
+        }
+
+        for (Map.Entry<String, Integer> entry : stringCount.entrySet()) {
+            System.out.println(entry.getKey() + " : " + entry.getValue() + " time(s)");
+        }
+    }
+    
+}
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+14. reverse the string.  
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The following code will reverse using character array.
+
+```java
+
+import java.util.*;
+
+public class Test{
+    public static void main(String[] args) {
+        String originalString = "hello world";
+        char[] originalArray = originalString.toCharArray();
+        char[] reversedArray = new char[originalArray.length];
+
+        for (int i = 0; i < originalArray.length; i++) {
+            reversedArray[i] = originalArray[originalArray.length - 1 - i];
+        }
+
+        String reversedString = new String(reversedArray);
+        System.out.println(reversedString);    
+}
+   
+}
+```
+
+</blockquote>
+
+</details>
+
+---
+
+15. find the 2nd longest word in the string.
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+```java
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+16. Given a List of a List of Intergers: first index is start time. second index is end time. [[1, 5], [3, 6], [6, 8]] How would you implement a function to find out if there is an overlap between classes.
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+
+
+</blockquote>
+
+</details>
+
+---
+
+17. Given a list of Integers:first index is start time.second index is end time.[1,2][1,2] How would you implement a function that returns how many instructors are needed on the day"
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+
+
+</blockquote>
+
+</details>
+
+---
+
+18. write a method in java that iterates through a string?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+
+
+</blockquote>
+
+</details>
+
+---
+
+19. Write a program to add two numbers without using the arithmatic operator.
+public static int add(int a, int b) {
+    while (b != 0) {
+        int carry = a & b;
+        a = a ^ b;
+        b = carry << 1;
+    }
+    return a;
+}
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+
+
+</blockquote>
+
+</details>
+
+---
+
+20. Had me do a coding exercise to analyze an ArrayList of Strings, and print out any strings that contain duplicates and how many, in the order they appear.
 
 <details><summary><b> Show Answer</b></summary>
   

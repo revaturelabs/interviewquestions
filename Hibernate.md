@@ -42,5 +42,16 @@ The `application.properties` file is used to configure Hibernate properties. In 
 
 ---
 
-4. Have you write SQL statements, used Hibernate and JPA.
+4. How to write SQL statements, in Hibernate.
 
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+To write SQL statements in Hibernate, you can use either native SQL. To use native SQL queries we have to create a Session object using a SessionFactory instance, and then we use the `createSQLQuery()` method to create a SQL query object. The `createSQLQuery()` method contains the SQL query which we want to execute on the database. To add dynamic values into the query `setParameter()` method is used.
+
+</blockquote>
+
+</details>
+
+---

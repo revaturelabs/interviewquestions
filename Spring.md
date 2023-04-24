@@ -406,11 +406,88 @@ In controller we use the annotations like `@Controller`, `@RequestMapping`, `@Ge
 
 ---
 
-28. What is @AutoWired?; 
+28. What is @AutoWired?
 
-29. Tell us about initialization in Spring?; 
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
 
-30. What is a controller;
+The `@Autowired` is a Spring annotation used for automatic dependency injection in spring. It allows Spring to automatically identify and inject the necessary dependencies (i.e., objects that a class needs to perform its functions) into a Spring-managed bean. By annotating a class property, constructor, or a setter method with @Autowired, Spring will automatically inject an instance of the required dependency when the bean is created. Spring uses type matching to determine which dependency to inject in the bean.
 
-31. Questions on Spring, how did you implement Spring JPA in your last project?; 
+</blockquote>
 
+</details>
+
+---
+
+
+29. Tell us about initialization in Spring?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+
+
+</blockquote>
+
+</details>
+
+---
+
+30. The difference between a @bean and @component.
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The main difference between `@Component` and `@Bean` is that `@Component` is a class-level annotation that allows Spring to automatically discover and register a bean, whereas `@Bean` is a method-level annotation that creates and returns an object that Spring should register as a bean. 
+
+</blockquote>
+  
+</details>
+
+---
+
+31. What is a controller;
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+
+
+</blockquote>
+
+</details>
+
+---
+
+32. Questions on Spring, how did you implement Spring JPA in your last project?; 
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+
+
+</blockquote>
+
+</details>
+
+---
+
+33. What are dependency injections & the benefits of using them?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+
+
+</blockquote>
+
+</details>
+
+---
