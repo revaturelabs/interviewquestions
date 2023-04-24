@@ -507,7 +507,9 @@ Request comes in to front controller, is dispatched to an appropriate controller
 The following ways to read the data from the form are: -
 
 `HttpServletRequest interface` - The HttpServletRequest is a java interface present in `javax.servlet.http `package. Like Servlets, you can use HttpServletRequest in Spring to read the HTML form data provided by the user.
+    
 `@RequestParam annotation` - The @RequestParam annotation reads the form data and binds it automatically to the parameter present in the provided method.
+    
 `@ModelAttribute annotation` - The @ModelAttribute annotation binds a method parameter or its return value to a named model attribute
 
 </blockquote>
