@@ -2,7 +2,7 @@
 
 1. How do you decide whether to choose either Spring or Spring Boot framework for the application?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -18,7 +18,7 @@
 ---
 2. Why do we need a `Service layer`? Can’t we call the `Repository layer` directly inside the `Controller layer`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -38,7 +38,7 @@
 ---
 3. Is it safe to keep the DB & other critical passwords directly inside property file(s)?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -46,12 +46,13 @@
     
 - Since property file(s) are readable by anyone who has access to the codebase it is highly recommended not to keep the DB and other critical credentials inside property file(s).
 - They are usually stored inside cloud environment variables or passed through command line arguments while executing the application.
-```
+
+```Java
 mvn spring-boot:run -Dspring-boot.run.jvmArguments='
 -Dspring.datasource.url=jdbc:postgresql://localhost:5432/mydb 
 -Dspring.datasource.username=admin 
 -Dspring.datasource.password=gd123'
-````
+```
 </blockquote> 
 
 </details>
@@ -59,7 +60,7 @@ mvn spring-boot:run -Dspring-boot.run.jvmArguments='
 ---
 4. As a developer you need to check your production application status daily, how does Spring Boot could help here?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -91,7 +92,7 @@ mvn spring-boot:run -Dspring-boot.run.jvmArguments='
 ---
 5. What is Spring profile and why do we use it?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -123,7 +124,7 @@ or specify on the command line using the switch `--spring.profiles.active=prod`.
 ---
 6. How can you define multiple profiles in the Spring Boot application? How to add an active profile?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -162,7 +163,7 @@ src
 ---
 7. What happens when two profiles are set for property `spring.profiles.active` in the Spring application?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -177,7 +178,7 @@ src
 ---
 8. Which `pom.xml` file inside the Spring Boot framework defines versions of all pre-configured dependencies?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -193,7 +194,7 @@ src
 ---
 9. What is Bean Validation API? How can we use it in Spring?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -223,7 +224,7 @@ src
 ---
 10. Explain a few `hibernate-validator` Spring bean validation annotations?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -243,7 +244,7 @@ src
 ---
 11. What does the `@Valid` annotation indicate in Spring?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -278,7 +279,7 @@ public class InputForm {
 
 12. What is the use of `@ControllerAdvice` in the Spring application?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -302,7 +303,7 @@ public class RestApiExceptionHandlerAdvice {
 
 13. What is the use of `@ExceptionHandler` in the Spring application?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -334,7 +335,7 @@ public class RestApiExceptionHandlerAdvice {
 ---
 14. Have you used the HAL browser in Spring? How to use it?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -362,7 +363,7 @@ public class RestApiExceptionHandlerAdvice {
 ---
 15. What is the use of the `ResponseEntity` class in Spring?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -389,7 +390,7 @@ public class RestApiExceptionHandlerAdvice {
 
 16. What is Spring Boot?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -405,13 +406,113 @@ Spring Boot is a microservice-based framework and making a production-ready appl
 
 17. What is the use of `@RestController`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
 <blockquote> 
 
 `@RestController` is a convenience annotation for creating Restful controllers. It is a specialization of @Component and is autodetected through classpath scanning. It adds the @Controller and @ResponseBody annotations. It converts the response to JSON or XML.
+
+</blockquote>
+
+</details>
+
+---
+
+18. Explain CORS in Spring Boot?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+CORS (Cross-origin resource sharing) allows a webpage to request additional resources into the browser from other domains e.g. fonts, CSS or static images from CDN. CORS helps in serving web content from multiple domains into browsers that usually have the same-origin security policy.
+
+In Spring,  `@CrossOrigin `annotation marks the annotated method or type as permitting cross-origin requests. If applied to a controller, all the handler methods permit the cross-origin requests.
+
+```Java
+
+@CrossOrigin(origins = "*", allowedHeaders = "*")
+@Controller
+public class HomeController 
+{
+    //
+}
+
+//or
+
+@Controller
+public class HomeController 
+{
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
+    @GetMapping(path="/")
+    public String homeInit(Model model) {
+        return "home";
+    }
+}
+```
+
+To enable CORS for the whole application, use WebMvcConfigurer to add CorsRegistry.
+
+```Java
+
+@Configuration
+@EnableWebMvc
+public class CorsConfiguration implements WebMvcConfigurer
+{
+    @Override
+    public void addCorsMappings(CorsRegistry registry) {
+        registry.addMapping("/**")
+                .allowedMethods("GET", "POST");
+    }
+}
+```
+
+</blockquote>
+
+</details>
+
+---
+
+19. What does it mean that Spring Boot supports relaxed binding?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Relaxed binding in Spring Boot is applicable to the type-safe binding of configuration properties.
+
+With relaxed binding, the key of a property doesn't need to be an exact match of a property name. Such an environment property can be written in camelCase, kebab-case, snake_case, or in uppercase with words separated by underscores.
+
+For example, if a property in a bean class with the `@ConfigurationProperties` annotation is named `myProp`, it can be bound to any of these environment properties: `myProp, my-prop, my_prop, or MY_PROP`.
+
+</blockquote>
+
+</details>
+
+---
+
+20. Which is better to configure a Spring Boot project — Properties or YAML?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+YAML offers many advantages over properties files:
+
+- More clarity and better readability
+- Perfect for hierarchical configuration data, which is also represented in a better, more readable format
+- Support for maps, lists and scalar types
+- Can include several profiles in the same file (since Spring Boot 2.4.0, this is possible for properties files too)
+
+
+However, writing it can be a little difficult and error-prone due to its indentation rules.
 
 </blockquote>
 
