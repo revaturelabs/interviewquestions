@@ -2,7 +2,7 @@
 
 1. Why do we need `Spring JDBC` when we already have Java JDBC?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -19,7 +19,7 @@
 
 2. What is `DataSource` in Java application?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -36,7 +36,7 @@
 
 3. What are the three types of implementations of `DataSource` in Java applications?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -54,7 +54,7 @@
 ---
 4. What is `Connection Pooling` in an enterprise application?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -71,7 +71,7 @@
 ---
 5. What default connection pool does spring boot use?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -88,7 +88,7 @@
 
 6. What connection pool does spring boot supports?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -111,7 +111,7 @@
 ---
 7. What is the sequence of choosing various connection pools inside the Spring application?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -130,7 +130,7 @@
 ---
 8. What is `Programmatic & Declarative Transaction Management` in the Spring application?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -151,7 +151,7 @@
 ---
 9. What does isolation and propagation attributes denote in @Transactional annotation e.g. `@Transactional(isolation = xxx, propagation = xxx)`?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -168,7 +168,7 @@
 ---
 10. What configurations do `Spring JDBC` & developer need to perform in the application?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -190,6 +190,38 @@
 | 10        | Close the connection, the statement, and the result set. | X          |               |
 
 </blockquote> 
+
+</details>
+
+---
+
+11. Is it possible to execute multiple statements simultaneously with Spring JDBC? If yes, then how?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Yes, it is possible to execute multiple statements simultaneously with Spring JDBC. This can be accomplished by using the `JdbcTemplate.batchUpdate()` method. This method takes an array of SQL statements and an array of parameters. The SQL statements will be executed in the order they are provided, and the parameters will be bound to the corresponding SQL statement.
+
+</blockquote>
+
+</details>
+
+---
+
+12. Is it possible to execute DDL statements with Spring JDBC?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Yes, it is possible to execute DDL statements with Spring JDBC. However, it is generally not recommended to do so, as DDL statements can potentially cause data loss. If you absolutely must execute a DDL statement, you can use the `JdbcTemplate.execute()` method.
+
+</blockquote>
 
 </details>
 
