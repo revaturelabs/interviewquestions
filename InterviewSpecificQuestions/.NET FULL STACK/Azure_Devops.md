@@ -552,3 +552,33 @@ Containers offer a simple software code approach which associates the dependenci
 </details>
 
 ---
+
+31. Why data pipelines?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+You can use data pipelines to:
+
+- Ingest data from various data sources
+- Process and transform the data
+- Save the processed data to a staging location for others to consume
+
+
+- Data pipelines in the enterprise can evolve into more complicated scenarios with multiple source systems and supporting various downstream applications.
+
+- Data pipelines provide:
+
+`Consistency`: Data pipelines transform data into a consistent format for users to consume
+Error reduction: Automated data pipelines eliminate human errors when manipulating data
+`Efficiency`: Data professionals save time spent on data processing transformation. Saving time allows then to focus on their core job function - getting the insight out of the data and helping business makes better decisions.
+
+</blockquote>
+
+</details>
+
+--- 
+
