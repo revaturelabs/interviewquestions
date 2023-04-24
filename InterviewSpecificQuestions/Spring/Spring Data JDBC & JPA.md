@@ -2,7 +2,7 @@
 
 1. What is the difference between `Spring JDBC` and `Spring Data JDBC`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -22,7 +22,7 @@
 
 2. What do you mean by database dialect? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -37,7 +37,7 @@
 
 3. Why does Spring Data JDBC need database dialect?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -53,7 +53,7 @@
 
 4. `Spring Data JDBC` includes direct support for which database dialects?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -77,7 +77,7 @@
 
 5. Why do we use `PagingAndSortingRepository` in Spring?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -92,7 +92,7 @@
 ---
 6. The `CrudRepository` interface does not have an `update` method then how do we update the record in the database? 
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -110,7 +110,7 @@
 ---
 7. Is it mandatory to call the `save` method to update an object inside a transactional method for `CrudRepository`?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -126,7 +126,7 @@
 ---
 8. What is the use of `@Query` annotation in Spring Data?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -143,7 +143,7 @@
 ---
 9. Explain the query builder mechanism in the Spring Data repository?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -184,7 +184,7 @@ interface PersonRepository extends Repository<Person, Long> {
 ---
 10. How you will implement the `SQL` `LIKE` query in Spring Data using method names? Give an example.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -207,7 +207,7 @@ interface PersonRepository extends Repository<Person, Long> {
 ---
 11. What is `Spring Data JPA`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -224,14 +224,14 @@ interface PersonRepository extends Repository<Person, Long> {
 ---
 12.  What is the use of `@Modifying` in Spring Data JPA?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
 <blockquote> 
     
 - Adding `@Modifying` annotation indicates the query is not for a `SELECT` query.
-- `@Modifying` annotation lets you execute `DML` inserts, updates, and deletes)and `DDL` using `JPA` `@Query` annotations.
+- `@Modifying` annotation lets you execute `DML` (inserts, updates, and deletes)and `DDL` using `JPA` `@Query` annotations.
 - `@Modifying` annotation is only relevant in combination with the `@Query` annotation, derived query methods or custom methods do not require this Annotation.
 </blockquote> 
 
@@ -239,3 +239,114 @@ interface PersonRepository extends Repository<Person, Long> {
 
 ---
 
+13. What are finder methods in Spring Data JPA?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Finder methods are the methods written in specific format and it has a specific naming convention. These methods are then converted into low level SQL queries.
+
+If we want to fetch the details of an Employee by the name, then we can write the method name as below in the Repository interface. The initial’s will be common across all method names, i.e. findBy , and then we will have the field name of the entity (mapped to the database column) , here in the below case it is empName
+
+```Java
+List<Employee> findByEmpName(String name);
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+14. What is `@JoinColumn` annotation in Spring DATA JPA?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+`@JoinColumn` is used to specify a column for joining an entity association. This annotation indicates that the enclosing entity is the owner of the relationship and the corresponding table has a foreign key column which references to the table of the non-owning side.
+
+```Java
+@Entity
+class Employee {                //non-owning side of the relationship
+ 
+    @Id
+    private String employee_id;
+ 
+    @OneToMany(mappedBy = "patient")
+    private Collection<Address> addresses = new ArrayList<Address>();
+ 
+}
+
+@Entity
+class Address {                //owning side of the relationship
+ 
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name="employee_id")
+    private Employee employee;
+ 
+}
+```
+
+</blockquote>
+
+</details>
+
+---
+
+15. How to generate Primary Key in Spring JPA?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Basically there are 4 options to generate primary keys in spring jpa
+
+**GenerationType.AUTO**
+
+  - GenerationType.AUTO is the default generation type which lets the persistence provider choose the generation type. If you talk about Hibernate, then it mostly uses GenerationType.SEQUENCE.
+
+**GenerationType.IDENTITY**
+
+ - GenerationType.IDENTITY relies on an auto-incremented database column and lets the database generate a new value with each insert operation. From the database perspective, this is very efficient because the auto-increment columns are highly optimized, and it doesn’t require any additional statements.
+
+**GenerationType.SEQUENCE**
+
+ - The GenerationType.SEQUENCE uses a database sequence to generate unique values. It requires additional select statements to get the next value from a database sequence.
+
+**GenerationType.TABLE**
+
+ - Most of the developers have stopped using this technique as it slows down the application.
+
+</blockquote>
+
+</details>
+
+---
+
+16. What is the difference between Hibernate and Spring Data JPA?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+
+- Hibernate is a JPA implementation, while Spring Data JPA is a JPA Data Access Abstraction. Spring Data offers a solution to GenericDao custom implementations. It can withal engender JPA queries on your behalf through method name conventions. 
+- Spring Data JPA is not an implementation or JPA provider, it's just an abstraction used to significantly minimize the quantity of boilerplate code required to implement data access layers for various persistence stores.
+
+</blockquote>
+
+</details>
+
+---
+
+ 
