@@ -2,7 +2,7 @@
 
 1. What is DispatcherServlet in the Spring MVC application?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -18,7 +18,7 @@
 
 2. How DispatcherServlet handle requests &responses in the Spring MVC application?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -36,13 +36,13 @@
 
 3. How Spring MVC DispatcherServlet is registered in the web.xml file?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
 <blockquote> 
     
-- Since DispatcherServlet is one type of Servlet the web.xml file configuration is the same as normal servlet.
+- Since DispatcherServlet is one type of Servlet the `web.xml` file configuration is the same as normal servlet.
 - Additionally, as DispatcherServlet is our front controller we need to ensure that all the incoming requests should be routed to it using "/" url pattern.
 ```xml
 <servlet>
@@ -64,7 +64,7 @@
 ---
 4. How to change the default context path URL pattern of DispatcherServlet in Spring MVC?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -85,7 +85,7 @@ spring.mvc.servlet.path=/v2
 
 5. Can we have one `@RestController` class with multiple `@GetMapping` methods?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -94,6 +94,7 @@ spring.mvc.servlet.path=/v2
 - Yes, we can have one `@RestController` class with multiple `@GetMapping` methods.
 - Defining not only Get but any HTTP method-compliant mappings purely depend on the context of the application and its use cases.
 - Below three GetMappings can be defined inside one UserRestController.
+
 ```java
 @RestController
 public class UserRestController{
@@ -119,7 +120,7 @@ public class UserRestController{
 ---
 6. How do you ensure both "/" and "/welcome" request mappings land in the "index" view in Spring MVC applications?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -137,15 +138,15 @@ public String homePage(){
 </details>
 
 ---
-7. Can @Controller annotation be used for both Spring MVC and RESTful applications?
+7. Can `@Controller` annotation be used for both Spring MVC and RESTful applications?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
 <blockquote> 
     
-- Yes, @RestController is a convenience annotation that does nothing more than the @Controller and @ResponseBody annotations.
+- Yes, `@RestController` is a convenience annotation that does nothing more than the `@Controller` and `@ResponseBody` annotations.
 - Hence the following two controller definitions are the same:
 
 ```java
@@ -165,30 +166,31 @@ public class RestControllerB {
 </details>
 
 ---
-8. What does @Controller & @RestController returns?
+8. What does `@Controller` & `@RestController` returns?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
 <blockquote> 
     
-- @Controller returns a view in the Spring MVC application.
-- @RestController returns an object as a response instead of a view.
+- `@Controller` returns a view in the Spring MVC application.
+- `@RestController` returns an object as a response instead of a view.
+
 </blockquote> 
 
 </details>
 
 ---
-9. What is the use of @ResponseBody in Spring?
+9. What is the use of `@ResponseBody` in Spring?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
 <blockquote> 
     
-- @ResponseBody is a Spring annotation which binds a method return value to the web response body. 
+- `@ResponseBody` is a Spring annotation which binds a method return value to the web response body. 
 - It is not interpreted as a view name. 
 - It uses `org.springframework.http.converter Interface HttpMessageConverter<T>` to convert the return value to the HTTP response body, based on the content type in the request HTTP header.
 </blockquote> 
@@ -198,7 +200,7 @@ public class RestControllerB {
 ---
 10. What are MIME Types?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -218,7 +220,7 @@ public class RestControllerB {
 ---
 11. What is the use of `@RequestBody` in Spring?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -234,7 +236,7 @@ public class RestControllerB {
 ---
 12. What is the meaning of Content Negotiation?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -251,7 +253,7 @@ public class RestControllerB {
 ---
 13. What is RESTprotocol-dependentependent?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -266,7 +268,7 @@ public class RestControllerB {
 ---
 14. What are “representation", "state" and "transfer" in Representational State Transfer (REST)?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -288,7 +290,7 @@ public class RestControllerB {
 ---
 15. What is REST API versioning? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -303,7 +305,7 @@ public class RestControllerB {
 ---
 16. How do we provide a version to RESTful APIs in Spring?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -341,7 +343,7 @@ public class ControllerV2 {
 ---
 17. Which object is used as a base context in the Spring MVC application? Why?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -361,7 +363,7 @@ public class ControllerV2 {
 ---
 18. What is the difference between `applicationContext.xml` and `*-servlet.xml` in Spring Framework?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -378,5 +380,139 @@ public class ControllerV2 {
 
 ---
 
+19. What is the difference between `@RequestParam` and `@PathVariable` in Spring MVC?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+`@RequestParam` is used to extract query parameters from the request URL, while `@PathVariable` is used to extract path variables from the URL. For example, in the URL `"/users?id=1"`, the id parameter can be extracted using `@RequestParam`, while in the URL `"/users/1"`, the `"1"` can be extracted using `@PathVariable`.
+
+</blockquote>
+
+</details>
+
+---
+
+20. What is the purpose of `@ModelAttribute` in Spring MVC?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+`@ModelAttribute` is used to bind HTTP request parameters to model objects. It can be used to pre-populate model objects with default values or to validate incoming data before processing it.
+
+</blockquote>
+
+</details>
+
+---
+
+21. What is the role of the `@Autowired` Annotation?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+The `@Autowired` annotation can be used with fields or methods for injecting a bean by type. This annotation allows Spring to resolve and inject collaborating beans into your bean.
+
+</blockquote>
+
+</details>
+
+---
+
+22. What is the ContextLoaderListener and what does it do? 
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+The ContextLoaderListener is a listener that helps to bootstrap Spring MVC. As the name suggests, it loads and creates the ApplicationContext, so you don't have to write explicit code to do create it.
+
+The application context is where Spring bean leaves. For a web application, there is is a subclass called WebAppliationContext.
+
+The ContextLoaderListener also ties the lifecycle of the ApplicationContext to the lifecycle of the  ServletContext. You can get the ServletContext from the WebApplicationContext using the `getServletContext()` method.
+
+</blockquote>
+
+</details>
+
+---
+
+23. Describe the data flow of a request/response operation within a Spring MVC application?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Request comes in to front controller, is dispatched to an appropriate controller which fetches the model requested, this bounces back through the front controller to a view template where the model data is woven into the UI view, this view object is then returned to the front controller, and the response is returned to the client.
+
+</blockquote>
+
+</details>
+
+---
+
+24. What is the purpose of BindingResult in Spring MVC validations?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- The BindingResult is an interface that contains the information of validations. For example :-
+
+```Java
+@RequestMapping("/helloagain")  
+    public String submitForm( @Valid @ModelAttribute("emp") Employee e, BindingResult br)  
+    {  
+        if(br.hasErrors())  
+        {  
+            return "viewpage";  
+        }  
+        else  
+        {  
+        return "final";  
+        }  
+    }  
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+25. What are the ways of reading data from the form in Spring MVC?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+The following ways to read the data from the form are: -
+
+`HttpServletRequest interface` - The HttpServletRequest is a java interface present in `javax.servlet.http `package. Like Servlets, you can use HttpServletRequest in Spring to read the HTML form data provided by the user.
+`@RequestParam annotation` - The @RequestParam annotation reads the form data and binds it automatically to the parameter present in the provided method.
+`@ModelAttribute annotation` - The @ModelAttribute annotation binds a method parameter or its return value to a named model attribute
+
+</blockquote>
+
+</details>
+
+---
 
