@@ -366,6 +366,8 @@ public class test {
   
 <blockquote>
 
+Following java code will accomplishes the task:
+
 ```java
 import java.util.*;
 
@@ -465,8 +467,6 @@ public class Test{
 
         System.out.println(numbers);
     }
-
-    
 }
 
 ```
@@ -595,7 +595,7 @@ import java.util.*;
 
 public class Test{
     public static void main(String[] args) {
-        String originalString = "hello world";
+        String originalString = "hello there";
         char[] originalArray = originalString.toCharArray();
         char[] reversedArray = new char[originalArray.length];
 
@@ -609,6 +609,7 @@ public class Test{
    
 }
 ```
+In this example, we first convert the originalString to a character array using the `toCharArray()` method. We then create a new character array reversedArray of the same length as originalArray. We loop over each element in originalArray, copy it to the corresponding position in reversedArray, and reverse the order. Finally, we create a new `String` object from the reversed character array.
 
 </blockquote>
 
@@ -623,6 +624,7 @@ public class Test{
 <blockquote>
 
 ```java
+
 
 ```
 
