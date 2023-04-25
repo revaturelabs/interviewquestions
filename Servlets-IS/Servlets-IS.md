@@ -66,7 +66,7 @@ A Http servlet typically does not override the `service()` method. However, it a
   
 ---
   
-5.	How do you create server-side functionalities in servlets?
+5. How do you create server-side functionalities in servlets?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
@@ -96,7 +96,7 @@ Servlets can be added in HTML pages with the server-side include (SSI) functiona
   
 6. Explain 'init' and 'destroy' methods in servlets?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -132,7 +132,7 @@ Servlets can be added in HTML pages with the server-side include (SSI) functiona
   
 8. Define Servlet chaining?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -148,7 +148,7 @@ Servlet Chaining is a way where the output of one servlet is piped to the input 
   
 9. Explain the Life Cycle of a Servlet?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
