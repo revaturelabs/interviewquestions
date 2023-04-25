@@ -32,6 +32,47 @@ public class demo {
 }
 
 ```
+**C#**
+
+``` C#
+
+
+using System;
+ 
+public static class Extensions
+{
+    public static int findIndex<T>(this T[] array, T item) {
+        return Array.IndexOf(array, item);
+    }
+}
+ 
+public class Example
+{
+    public static void Main()
+    {
+        int[] array = { 1, 2, 3, 4, 5 };
+        int item = Convert.ToInt32(Console.ReadLine());
+        int index = array.findIndex(item);
+        if (index != -1) {
+            Console.WriteLine(String.Format("Element {0} is found at index {1}", item, index));
+        }
+        else {
+            Console.WriteLine("Element not found in the given array.");
+        }
+    }
+}
+
+```
+
+**Python**
+
+```python
+
+lst = [13, 4, 20, 15, 6, 20, 20]
+
+print(lst.index(6))
+
+```
 
 </blockquote>
 
@@ -73,7 +114,54 @@ public class Calculator {
 
 
 ```
+**C#**
 
+```C#
+ 
+//Program to calculate the average of array elements.
+
+using System;
+
+class Avg
+{
+    public static void Main()
+    {
+        int n = Convert.ToInt32(Console.ReadLine());
+        int[] arr = new int[n];
+        int sum = 0;
+        float average = 0.0F;
+        for(int i = 0; i < n; i++) {
+            arr[i] = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(i);
+            sum += arr[i];
+        }
+        average=(float)sum/n;
+        Console.WriteLine(average);
+    }
+}
+
+```
+
+**Python**
+
+```python
+
+# Python code to get average of list
+
+def Average(lst):
+	sum_of_list = 0
+	for i in range(len(lst)):
+		sum_of_list += lst[i]
+	average = sum_of_list/len(lst)
+	return average
+
+
+# Driver Code
+lst = [15, 9, 55, 41, 35, 20, 62, 49]
+average = Average(lst)
+print("Average of the list =", round(average, 2))
+
+```
 </blockquote>
 
 </details>
@@ -100,7 +188,48 @@ System.out.println(reversedStr);
 
 
 ```
+**C#**
 
+```C#
+using System;
+namespace Exercises
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter a String : ");
+            string originalString = Console.ReadLine();
+            string reverseString = string.Empty;
+            for (int i = originalString.Length - 1; i >= 0; i--)
+            {
+                reverseString += originalString[i];
+            }
+            Console.Write($"Reverse String is : {reverseString} ");
+            
+        }      
+    }
+}
+
+```
+
+**Python**
+
+```python
+# Function to reverse a string
+def reverse(string):
+    string = string[::-1]
+    return string
+ 
+s = input("Enter the string: ")
+ 
+print("The original string is : ", end="")
+print(s)
+ 
+print("The reversed string(using extended slice syntax) is : ", end="")
+print(reverse(s))
+
+```
 </blockquote>
 
 </details>
@@ -141,6 +270,75 @@ public class test {
         System.out.println(findSecondLargest(arr));
     }
 }
+
+```
+**C#**
+
+```C#
+using System;
+
+class Program
+{
+    public static void Main()
+    {
+        int n = Convert.ToInt32(Console.ReadLine());
+        int largest,secondLargest,i,j=0;
+        int[] arr = new int[n];
+        
+        for(i = 0; i < n; i++) {
+            arr[i] = Convert.ToInt32(Console.ReadLine());
+        }
+         largest = 0;
+ 
+            for (i = 0; i < n; i++)
+            {
+                if (largest < arr[i])
+                {
+                    largest = arr[i];
+                    j = i;
+                }
+            }
+            /* ignore the largest element and find the 2nd largest element in the array */
+            secondLargest = 0;
+            for (i = 0; i < n; i++)
+            {
+                if (i == j)
+                {
+                    continue;  /* ignoring the largest element */
+                    
+                }
+                else
+                {
+                    if (secondLargest < arr[i])
+                    {
+                        secondLargest = arr[i];
+                    }
+                }
+            }
+ 
+            Console.Write("The Second largest element in the array is :  {0} \n\n", secondLargest);
+    }
+}
+
+```
+
+**Python**
+
+```python
+# Python program to find largest number
+# in a list
+
+# List of numbers
+list1 = [10, 20, 20, 4, 45, 45, 45, 99, 99]
+
+# Removing duplicates from the list
+list2 = list(set(list1))
+
+# Sorting the list
+list2.sort()
+
+# Printing the second last element
+print("Second largest element is:", list2[-2])
 
 ```
 
@@ -200,7 +398,41 @@ public class test {
 }
 
 ```
+**C#**
 
+```C#
+using System;
+using System.Linq;
+class HelloWorld {
+  static void Main() {
+    string input = "C# Corner is a popular online community popular online community";
+    string[] words = input.Split(' ');
+    string[] distinctWords = words.Distinct().ToArray();
+    string output = string.Join(" ", distinctWords);
+    Console.WriteLine(output);
+  }
+}
+```
+**Python**
+
+```python
+def printWords(l):
+     
+    # for loop for iterating
+    for i in l:
+        print(i)
+ 
+ 
+# Driver code
+str = input("Enter the string: ")
+ 
+# storing string in the form of list of words
+s = set(str.split(" "))
+ 
+# passing list to print words function
+printWords(s)
+
+```
 </blockquote>
 
 </details>
@@ -238,6 +470,60 @@ public class test {
         }
     
 }
+
+```
+**C#**
+
+```C#
+using System;
+namespace Exercises
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter a Number : ");
+            int number = int.Parse(Console.ReadLine());
+
+            long factorial = RecursiveFactorial(number);
+            Console.Write($"Factorial of {number} is: {factorial}");    
+            
+            
+        }
+
+        static long RecursiveFactorial(int number)
+        {
+            if (number == 1)
+            {
+                return 1;
+            } 
+            else
+            {
+                return number * RecursiveFactorial(number - 1);
+            }    
+        }
+    }
+}
+
+```
+
+**Python**
+
+```python
+
+num = int(input("Enter a number: "))
+
+factorial = 1
+
+# check if the number is negative, positive or zero
+if num < 0:
+   print("Sorry, factorial does not exist for negative numbers")
+elif num == 0:
+   print("The factorial of 0 is 1")
+else:
+   for i in range(1,num + 1):
+       factorial = factorial*i
+   print("The factorial of",num,"is",factorial)
 
 ```
 
@@ -295,7 +581,54 @@ public class test {
 }
 
 ```
+**C#**
 
+```C#
+using System;
+namespace LogicalPrograms
+{
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter a string to Check Palindrome : ");
+            string name = Console.ReadLine();
+            string reverse = string.Empty;
+            
+            for (int i = name.Length - 1; i >= 0; i--)
+            {
+                reverse += name[i];
+            }
+            
+            if (name == reverse)
+            {
+                Console.WriteLine($"{name} is Palindrome.");
+            }
+            else
+            {
+                Console.WriteLine($"{name} is not Palindrome");
+            }
+            
+        }
+    }
+}
+```
+**Python**
+
+```python
+def isPalindrome(s):
+    return s == s[::-1]
+  
+  
+# Driver code
+s = input("Enter the string: ")
+ans = isPalindrome(s)
+  
+if ans:
+    print("Yes, It is a Palindrome")
+else:
+    print("No, It is not a Palindrome")
+```
 </blockquote>
 
 </details>
@@ -353,7 +686,63 @@ public class test {
 }
 
 ```
+**C#**
 
+```C#
+
+using System;
+
+class PushZero
+{
+
+	static void pushZerosToEnd(int []arr, int n)
+	{
+	
+		int count = 0;
+		for (int i = 0; i < n; i++)
+		if (arr[i] != 0)
+	
+		arr[count++] = arr[i];
+	
+		while (count < n)
+		arr[count++] = 0;
+	}
+	
+	
+	public static void Main ()
+	{
+		int []arr = {1, 9, 8, 4, 0, 0, 2, 7, 0, 6, 0, 9};
+		int n = arr.Length;
+		pushZerosToEnd(arr, n);
+		Console.WriteLine("Array after pushing all zeros to the back: ");
+		for (int i = 0; i < n; i++)
+		Console.Write(arr[i] +" ");
+	}
+}
+```
+
+
+**Python**
+```python
+def pushZerosToEnd(arr, n):
+	count = 0
+	for i in range(n):
+		if arr[i] != 0:
+			arr[count] = arr[i]
+			count+=1
+	
+	while count < n:
+		arr[count] = 0
+		count += 1
+		
+
+arr = [1, 9, 8, 4, 0, 0, 2, 7, 0, 6, 0, 9]
+n = len(arr)
+pushZerosToEnd(arr, n)
+print("Array after pushing all zeros to end of array:")
+print(arr)
+
+```
 </blockquote>
 
 </details>
@@ -386,6 +775,50 @@ public class Test{
         
     }
 }
+
+```
+**C#**
+```C#
+using System;
+namespace LogicalPrograms
+{
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            for (int num = 1; num <= 100; num++) {
+            if (num % 3 == 0 && num % 5 == 0) {
+                Console.WriteLine("FizzBuzz");
+            } else if (num % 3 == 0) {
+                Console.WriteLine("Buzz");
+            } else if (num % 5 == 0) {
+                Console.WriteLine("Fizz");
+            } else {
+                Console.WriteLine(num);
+            }
+        }
+        }
+    }
+}
+```
+
+**Python**
+
+```python
+def fizzBuzz(n):
+    for n in range(1,n+1):
+        if n % 3 == 0 and n % 5 == 0:
+            print('FizzBuzz')
+        elif n % 3 == 0:
+            print('Fizz')
+        elif n % 5 == 0:
+            print('Buzz')
+        else:
+            print(n)
+
+if __name__ == '__main__':
+    n = int(input().strip())
+    fizzBuzz(n)
 
 ```
 
@@ -470,7 +903,47 @@ public class Test{
 }
 
 ```
+**C#**
+```C#
+// C# program to sort a list of integers
+// Using OrderBy() method
+using System;
+using System.Linq;
+using System.Collections.Generic;
 
+class Exercise{
+	
+static void Main(string[] args)
+{
+	List<int> nums = new List<int>() { 50, 20, 40, 60, 33, 70 };
+	
+	var result_set = nums.OrderBy(num => num);
+	
+	Console.WriteLine("Sorted in Ascending order:");
+	foreach (int value in result_set)
+	{
+		Console.Write(value + " ");
+	}
+}
+}
+
+```
+
+**Python**
+```python
+
+
+numbers = [1, 3, 4, 2]
+
+print(numbers.sort()) # None
+print(numbers)		 # [1, 2, 3, 4]
+
+print(sorted(numbers)) # [1, 2, 3, 4]
+print(numbers)		 # [1, 3, 4, 2]
+
+
+
+```
 </blockquote>
 
 </details>
