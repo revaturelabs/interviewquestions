@@ -4,6 +4,8 @@
   
 <blockquote>
 
+**Java**
+
 ```java
 import java.util.Scanner;
 
@@ -87,6 +89,7 @@ print(lst.index(6))
 <blockquote>
 
 Code for calculator application is mentioned below:
+**Java**
 
 ```java
 
@@ -177,6 +180,8 @@ print("Average of the list =", round(average, 2))
 
 Suppose we have an sample string as "Hello, World!" to reverse this string we can use following code.
 
+**Java**
+
 ```java
 
 String str = "Hello, World!";
@@ -241,6 +246,8 @@ print(reverse(s))
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
+
+**Java**
 
 ```Java
 
@@ -357,6 +364,8 @@ print("Second largest element is:", list2[-2])
 
 The following code will give you the unique characters from the string.
 
+**Java**
+
 ```java
 
 import java.util.*;
@@ -447,6 +456,8 @@ printWords(s)
 <blockquote>
 
 The following code will give you the factorial of given number N.
+
+**Java**
 
 ```Java
 
@@ -542,6 +553,8 @@ else:
 
 The following programme checks if the given string is palindrome or not. It will return "Yes" if the string is palindrome and "No" if the string is not a palindrome.
 
+**Java**
+
 ```java
 
 import java.util.*;
@@ -636,13 +649,6 @@ else:
 ---
 
 
-</blockquote>
-
-</details>
-
----
-
-
 8. Move all the 0's to the end in a 1D array.
 
 <details><summary><b> Show Answer</b></summary>
@@ -650,6 +656,8 @@ else:
 <blockquote>
 
 The following code will move all the 0's present in the array at the end.
+
+**Java**
 
 ```java
 
@@ -755,6 +763,8 @@ print(arr)
   
 <blockquote>
 
+**Java**
+
 ```java
 import java.util.*;
 
@@ -837,6 +847,8 @@ if __name__ == '__main__':
 
 The following code contains a  `generateList()` method which generates a list with random elements every time it is called. The size of the list must be passed as an argument to the `generateList()` method.
 
+**Java**
+
 ```java 
 import java.util.*;
 
@@ -881,6 +893,8 @@ public class Test{
 <blockquote>
 
 The following code will sort a list of integers in ascending order using the built-in `Collections` class in Java:
+
+**Java**
 
 ```java
 
