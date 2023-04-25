@@ -2,13 +2,13 @@
 
 1. What type of language is JavaScript?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
 <blockquote>
 
- JavaScript is a scripting language which is not only used for client-side validation in web application but also evolved and helps to build end to end web applications. It has significant contribution in building diversified platform mobile applications today. 
+JavaScript is a scripting language which is not only used for client-side validation in web application but also evolved and helps to build end to end web applications. It has significant contribution in building diversified platform mobile applications today. 
 
  </blockquote>
 
@@ -18,7 +18,7 @@
 
 2. What browser can you use for JavaScript?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -26,7 +26,7 @@
 
 All the modern browsers come with built-in support for JavaScript. Uses have provision to enable or disable JavaScript support manually in browser.
 
- </blockquote>
+</blockquote>
 
 </details>
 
@@ -35,7 +35,7 @@ All the modern browsers come with built-in support for JavaScript. Uses have pro
 
 3. Mention the different data types present in JavaScript.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -46,7 +46,7 @@ There are two types of data types to hold different types of values in JavaScrip
 - Primitive types- String, Number, Boolean, Undefined, Null
 - Non-primitive (reference) data type - Object, Array, RegExp
 
- </blockquote>
+</blockquote>
 
 </details>
 
@@ -55,7 +55,7 @@ There are two types of data types to hold different types of values in JavaScrip
 
 4. Do we need to specify type of the variable in JavaScript?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -63,7 +63,7 @@ There are two types of data types to hold different types of values in JavaScrip
 
 JavaScript is a <b> dynamic type language </b>, so no need to specify type of the variable because it is dynamically used by JavaScript engine
 
- </blockquote>
+</blockquote>
 
 </details>
 
@@ -72,7 +72,7 @@ JavaScript is a <b> dynamic type language </b>, so no need to specify type of th
 
 5. Explain about the scopes of a variable in JavaScript?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -88,7 +88,7 @@ The scope of a variable represents where the variable has been declared or defin
   - `Block Scope` -Block scope is the scope of the variables declared inside the {} (curly brackets).
   - `Lexical Scope` -Lexical scope is that a variable defined outside a function can access the inside another function defined after the variable declaration. The inner functions are lexically bound to the execution context of their outer functions.
 
- </blockquote>
+</blockquote>
 
 </details>
 
@@ -97,7 +97,7 @@ The scope of a variable represents where the variable has been declared or defin
 
 6. Differentiate between the terms undefined and not defined.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -114,7 +114,7 @@ Here in the example, we will get a message x is `undefined` which means the vari
 
 In this case, you will get a message like `not defined` because the variable y is not created, and memory is not allocated for it and we try to reference the variable.
 
- </blockquote>
+</blockquote>
 
 </details>
 
@@ -123,7 +123,7 @@ In this case, you will get a message like `not defined` because the variable y i
 
 7. What is the use of `typeof` operator?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -146,7 +146,7 @@ console.log(typeof (y) == 'number')
 From the above code if the `typeof` y is a number, so from the expression it will print true in the console.
 
 
- </blockquote>
+</blockquote>
 
 </details>
 
@@ -155,7 +155,7 @@ From the above code if the `typeof` y is a number, so from the expression it wil
 
 8. Explain Hoisting in JavaScript.
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -163,7 +163,7 @@ From the above code if the `typeof` y is a number, so from the expression it wil
 
 Hoisting is the default behavior of JavaScript where all the variable and function declarations are moved on top, irrespective of where the variables and functions are declared, they are moved on top of the scope. The scope can be both local and global.
 
- </blockquote>
+</blockquote>
 
 </details>
 
@@ -172,7 +172,7 @@ Hoisting is the default behavior of JavaScript where all the variable and functi
 
 9. When ‘for loop’ should be used in JavaScript?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -180,7 +180,7 @@ Hoisting is the default behavior of JavaScript where all the variable and functi
 
 It iterates the elements for the fixed number of times. It should be used if the number of iterations is known. 
 
- </blockquote>
+</blockquote>
 
 </details>
 
@@ -189,7 +189,7 @@ It iterates the elements for the fixed number of times. It should be used if the
 
 10. What loop should be used if number of iterations is not known?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -197,16 +197,15 @@ It iterates the elements for the fixed number of times. It should be used if the
 
 The JavaScript while loop iterates the elements for the infinite number of times, which should be used if number of iteration is not known
 
- </blockquote>
+</blockquote>
 
 </details>
-
 
 ---
 
 11. What is the use of `this` keyword in JavaScript?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -215,7 +214,7 @@ The JavaScript while loop iterates the elements for the infinite number of times
 
 Which refers to the currently calling object. It is commonly used in constructors to assign values to object properties.
 
- </blockquote>
+</blockquote>
 
 </details>
 
@@ -224,18 +223,17 @@ Which refers to the currently calling object. It is commonly used in constructor
 
 12. Explain about Callback functions in JavaScript?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
 <blockquote>
 
-
 - In JavaScript, functions are objects and therefore, functions can take other functions as arguments and can also be returned by other functions.
 - Callback is a JavaScript function that is passed to another function as an argument or a parameter. This function is to be executed whenever the function that it is passed to gets executed. 
 
 
- </blockquote>
+</blockquote>
 
 </details>
 
@@ -244,7 +242,7 @@ Which refers to the currently calling object. It is commonly used in constructor
 
 13. What do you understand about cookies?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -253,16 +251,15 @@ Which refers to the currently calling object. It is commonly used in constructor
 
 It is generally a small data that is sent from a website and stored on the user’s machine by a web browser that was used to access the website. Cookies are used to remember information (e.g., user preferences, settings, passwords) for later use and also to record the browsing activity on a website.
 
- </blockquote>
+</blockquote>
 
 </details>
-
 
 ---
 
 14. How would you create a cookie?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -270,19 +267,18 @@ It is generally a small data that is sent from a website and stored on the user�
 
 We can create a cookie as below:
 
-``` java
+``` javascript
 document.cookie = "key1 = value1; key2 = value2; expires = date";
 ```
- </blockquote>
+</blockquote>
 
 </details>
-
 
 ---
 
 15. What method is used to break the cookie value in JavaScript?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -290,7 +286,7 @@ document.cookie = "key1 = value1; key2 = value2; expires = date";
 
 `split()` method to break the cookie value into keys and values.
 
- </blockquote>
+</blockquote>
 
 </details>
 
@@ -299,25 +295,23 @@ document.cookie = "key1 = value1; key2 = value2; expires = date";
 
 16. Differentiate between `let` and `var`?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
 <blockquote>
 
-
 Both let and var are used for variable and method declarations in JavaScript. var keyword is `scoped by function`, the let keyword is `scoped by a block`.
 
- </blockquote>
+</blockquote>
 
 </details>
-
 
 ---
 
 17. What do you know about arrow functions in JavaScript? 
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -325,7 +319,7 @@ Both let and var are used for variable and method declarations in JavaScript. va
 
 Arrow functions are used to write functions with a short and concise syntax, which does not require a function keyword for declaration. An arrow function can be omitted with curly braces { } when we have one line of code.
 
-```java
+```javascript
 
 const Message= () => {
 
@@ -334,7 +328,7 @@ const Message= () => {
 };
 ```
 
- </blockquote>
+</blockquote>
 
 </details>
 
@@ -342,7 +336,7 @@ const Message= () => {
 
 18. What is difference between `==` vs `===` in JavaScript?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -353,7 +347,8 @@ const Message= () => {
 - Example:
   - 5 == '5' // Returns true
   - 5 === '5' // Returns False
- </blockquote>
+
+</blockquote>
 
 </details>
 
@@ -362,7 +357,7 @@ const Message= () => {
 
 19. what is the use of  `constructor function()`?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -370,6 +365,7 @@ const Message= () => {
 
 - It is a function that creates an instance of a class. We can create several objects of the same type by using an object constructor function.
 - Example
+
 ```javascript
 //Constructor
 function User (name, age) {
@@ -379,7 +375,7 @@ function User (name, age) {
 var user1 = new User('Bob', 25);
 var user2 = new User('Alice', 27);
 ```
- </blockquote>
+</blockquote>
 
 </details>
 
@@ -388,7 +384,7 @@ var user2 = new User('Alice', 27);
 20. Explain the use of `Promise` in JavaScript.
 
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -396,7 +392,7 @@ var user2 = new User('Alice', 27);
 
 It is an object that may produce value in the future(either a resolved value, or a reason that it's not resolved). It is always in one of the possible states: fulfilled, rejected, or pending. Promises provide an alternative approach for callbacks by reducing the callback and writing the cleaner code.
 
- </blockquote>
+</blockquote>
 
 </details>
 
@@ -405,7 +401,7 @@ It is an object that may produce value in the future(either a resolved value, or
 
 21. What is window object in JavaScript?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -416,35 +412,33 @@ It is an object that may produce value in the future(either a resolved value, or
 - Global variables are properties of the window object. 
 - Global functions are methods of the window object.
 
- </blockquote>
+</blockquote>
 
 </details>
-
 
 ---
 
 22. How to redirect the user to a new page?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
 <blockquote>
 
- We can use the window object location to redirect the user to the new page by providing the HREF URL link to be redirected.
+We can use the window object location to redirect the user to the new page by providing the HREF URL link to be redirected.
 
 <code> window.location.href="https://www.revature.com/" </code>
 
- </blockquote>
+</blockquote>
 
 </details>
-
 
 ---
 
 23. What is DOM(Document Object Model)?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -452,16 +446,15 @@ It is an object that may produce value in the future(either a resolved value, or
 
 When HTML documents are loaded in the browser(which creates DOM), it will become a document object which is the root element that represents the HTML document. Each DOM element has various properties and methods through which we can add dynamic content to our web page according to the required behavior.
 
- </blockquote>
+</blockquote>
 
 </details>
-
 
 ---
 
 24. What do you mean by Event and Event handling?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -469,7 +462,7 @@ When HTML documents are loaded in the browser(which creates DOM), it will become
 
 The change in the state of an object is known as an `Event`. In html, there are various events which represents that some activity is performed by the user or by the browser. When JavaScript code is included in HTML, JS react over these events and allow the execution. This process of reacting over the events is called `Event Handling`. 
 
- </blockquote>
+</blockquote>
 
 </details>
 
@@ -478,7 +471,7 @@ The change in the state of an object is known as an `Event`. In html, there are 
 
 25. How does HTML events are handled in JavaScript?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -486,7 +479,7 @@ The change in the state of an object is known as an `Event`. In html, there are 
 
 JavaScript handles the HTML events through Event Handlers.
 
- </blockquote>
+</blockquote>
 
 </details>
 
@@ -495,7 +488,7 @@ JavaScript handles the HTML events through Event Handlers.
 
 26. List the types of events used in JavaScript.
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -506,16 +499,15 @@ JavaScript handles the HTML events through Event Handlers.
 - Form events
 - Window/Document events
 
- </blockquote>
+</blockquote>
 
 </details>
-
 
 ---
 
 27. How to attach an event handler in JavaScript?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -531,12 +523,11 @@ Syntax:
 
 </details>
 
-
 ---
 
 28. What is the use of JavaScript Strict Mode?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -549,7 +540,7 @@ Syntax:
 - The strict mode in JavaScript does not allow us to use undefined variables, reserved keywords as variable or function name, duplicate properties of an object, duplicate parameters of the function, assign values to read-only properties, modifying arguments object, and Deleting an undeletable property.
 - Strict mode can be applied to function level in order to implement strictness only in that particular function.
 
- </blockquote>
+</blockquote>
 
 </details>
 
@@ -559,7 +550,7 @@ Syntax:
 29. What method can be used instead of this `document.form1.name.value method`?
 
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -567,7 +558,7 @@ Syntax:
 
 we can use the method `document.getElementById()` to get value of the input text. 
 
- </blockquote>
+</blockquote>
 
 </details>
 
@@ -577,7 +568,7 @@ we can use the method `document.getElementById()` to get value of the input text
 30. What is the use of `getElementsByClassName()` method?
 
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -588,7 +579,7 @@ It is used for selecting or getting the elements through their class name value.
 When the method is applied on any particular element, it will search the whole document and will return only those elements which match the specified or given class name.
 
 
- </blockquote>
+</blockquote>
 
 </details>
 
@@ -597,7 +588,7 @@ When the method is applied on any particular element, it will search the whole d
 
 31. List out different types of errors in JavaScript?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -607,7 +598,7 @@ When the method is applied on any particular element, it will search the whole d
 - **Load time errors**- errors that occurred at the time of web page loading and may occur due to improper syntaxes
 - **Logical errors**- errors may occur due to improper logical performance of the function.
 
- </blockquote>
+</blockquote>
 
 </details>
 
@@ -615,7 +606,7 @@ When the method is applied on any particular element, it will search the whole d
 
 32. What is meaning of BOM in JavaScript?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -626,7 +617,7 @@ When the method is applied on any particular element, it will search the whole d
 - They are `navigator`, `screen`, `location`, `history`, `document`.
 - All above mentioned objects are children of the `window` Object.
 
- </blockquote>
+</blockquote>
 
 </details>
 
@@ -634,7 +625,7 @@ When the method is applied on any particular element, it will search the whole d
 
 33.  In how many ways a JavaScript code can be used in an HTML file?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -645,16 +636,15 @@ There are two ways:
 - `Internal JavaScript:` Writing the code in your HTML file by writing the code inside the `<script> tag`.
 - `External JavaScript:` Through an external file having a .js extension and then link the file inside the `<head>` or `<body>` tag of the HTML file.
 
- </blockquote>
+</blockquote>
 
 </details>
-
 
 ---
 
 34. Explain about Event Bubbling.
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -662,16 +652,15 @@ There are two ways:
 
 Whenever an event happens on an element, the event handlers will first run on it and then on its parent element and finally all the way up to its other ancestor elements.
 
- </blockquote>
+</blockquote>
 
 </details>
-
 
 ---
 
 35.  Explain about Event Capturing .
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -679,7 +668,7 @@ Whenever an event happens on an element, the event handlers will first run on it
 
 It is the reverse of the event bubbling and here the event starts from the parent element and then to its nested child elements.
 
- </blockquote>
+</blockquote>
 
 </details>
 
@@ -688,7 +677,7 @@ It is the reverse of the event bubbling and here the event starts from the paren
 
 36. List the states of `Promise` in JavaScript.
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -700,7 +689,7 @@ It is the reverse of the event bubbling and here the event starts from the paren
 - settled: Promise has fulfilled or rejected
 
 
- </blockquote>
+</blockquote>
 
 </details>
 
@@ -709,7 +698,7 @@ It is the reverse of the event bubbling and here the event starts from the paren
 
 37. Explain about Async/Await Function in JavaScript.
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -721,7 +710,7 @@ It is the reverse of the event bubbling and here the event starts from the paren
   the code wait until the promise returns a result.
 
 
- </blockquote>
+</blockquote>
 
 </details>
 
@@ -730,7 +719,7 @@ It is the reverse of the event bubbling and here the event starts from the paren
 
 38. What is the DOM?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -740,7 +729,7 @@ It is the reverse of the event bubbling and here the event starts from the paren
 Document Object Model(DOM) is a tree-like structure that represents the HTML document. It is used by JavaScript to access and manipulate the document.
 
 
- </blockquote>
+</blockquote>
 
 </details>
 
@@ -749,7 +738,7 @@ Document Object Model(DOM) is a tree-like structure that represents the HTML doc
 
 39. How can we change styles of a particular element using JavaScript?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -764,7 +753,7 @@ eg: element.style.color = “new color”;
 
  ```
  
- </blockquote>
+</blockquote>
 
 </details>
 
@@ -773,7 +762,7 @@ eg: element.style.color = “new color”;
 
 40. Explain about namespace objects in JavaScript?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -781,16 +770,15 @@ eg: element.style.color = “new color”;
 
 It is used to group together related objects, properties, and methods. In JavaScript, the default namespace is the global object. However, you can create your own namespace objects to keep your code organized. 
 
- </blockquote>
+</blockquote>
 
 </details>
-
 
 ---
 
 41. What JavaScript support automatic type conversion?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -798,16 +786,15 @@ It is used to group together related objects, properties, and methods. In JavaSc
 
 Yes, it support automatic type conversion. It is the common way of type conversion used by JavaScript developer.
 
- </blockquote>
+</blockquote>
 
 </details>
-
 
 ---
 
 42.  What do you understand by loosely typed in JavaScript?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -818,7 +805,7 @@ JavaScript is a loosely typed language, so a variable can store any type of valu
 a= 6;
 a= "JavaScript";
 ```
- </blockquote>
+</blockquote>
 
 </details>
 
@@ -826,7 +813,7 @@ a= "JavaScript";
 
 43. Differentiate between Local storage & Session storage?
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -836,17 +823,16 @@ a= "JavaScript";
 
 `Session Storage` – The data stored in local storage has no expiration time, data stored in session storage gets cleared when the page session ends. Which will leave when the browser is closed.
 
- </blockquote>
+</blockquote>
 
 </details>
-
 
 ---
 
 44. What is the relation between ECMAScript and JavaScript?
 
 
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -859,9 +845,9 @@ a= "JavaScript";
 - JavaScript is an implementation of that blueprint. 
 - JavaScript implements the ECMAScript specification as described in ECMA-262.
 
- </blockquote>
+</blockquote>
 
 </details>
 
-
 ---
+
