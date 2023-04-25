@@ -2,7 +2,7 @@
 
 1. What is the meaning of Monolithic Application?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -18,7 +18,7 @@
 
 2. What do you understand by Monolithic Architectural style?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -38,7 +38,7 @@
 
 3. Why we should avoid Monolithic Style? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -52,6 +52,7 @@
   - **Difficult to change framework/language** hence barrier to technology adoption.
   - Developer are **constrained by the technologies already used** in the monolith.
   - Due to one **smallest error the entire applications can be down and unavailable**.
+
 </blockquote> 
 
 </details>
@@ -60,7 +61,7 @@
 
 4. Though we prefer Microservices over Monolithic, still do you see any advantages of building Monolithic applications?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -82,7 +83,7 @@
 
 5. How do you go about designing microservices?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -94,6 +95,8 @@
 - There is a bare minimum of centralized management of these services, which may be written in different programming languages and use different data storage technologies. 
 - Each service runs a unique process and manages its database. 
 - A service can generate alerts, log data, support user interfaces (UIs), handle user identification or authentication, and perform various other tasks.
+
+</blockquote>
 	
 </details>
 
@@ -101,7 +104,7 @@
 	
 6. What if there are already complex, huge legacy applications operational for decades? Can we convert them into microservices?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -120,7 +123,7 @@
 ---
 7. What is so special about Netflix and Microservices?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -139,7 +142,7 @@
 	
 8. What is Netflix OSS?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -156,7 +159,7 @@
 ---
 9. What is `Spring Cloud`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -171,9 +174,10 @@
 </details>
 
 ---
+
 10. What is `Spring Cloud Netflix`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -188,9 +192,10 @@
 </details>
 
 ---
+
 11. Can you name few Netflix component that can be used in Spring Cloud project?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -207,9 +212,10 @@
 </details>
 
 ---
+
 12. What do you know about Service Discovery in Microservices?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -227,7 +233,7 @@
 	
 13. What are the Service Discovery providers you know?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -240,9 +246,10 @@
 </details>
 
 ---
+
 14.   What is use of Netflix Eureka? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -260,9 +267,10 @@
 </details>
 
 ---
+
 15.  Can we manually maintain addresses of each service while building microservices based applications?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -278,9 +286,10 @@
 </details>
 
 ---
+
 16. How do you configure Eureka Server in Spring Boot maven application?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -355,9 +364,10 @@ public class EurekaServerApplication {
 </details>
 
 ---
+
 17. How do we register our service into Service Discovery server?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -424,9 +434,9 @@ public class ProducerEureka2 {
 
 ---
 
-18. What is the difference between @EnableDiscoveryClient and @EnableEurekaClient?
+18. What is the difference between `@EnableDiscoveryClient` and `@EnableEurekaClient`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -437,6 +447,7 @@ public class ProducerEureka2 {
 - `@EnableDiscoveryClient` lives in `spring-cloud-commons` and picks the implementation on the class path. 
 - `@EnableEurekaClient` lives in `spring-cloud-Netflix` and only works for Eureka. 
 - If eureka is on your class path, they are effectively the same.
+
 </blockquote> 
 
 </details>
@@ -445,7 +456,7 @@ public class ProducerEureka2 {
 
 19. How to fetch service URL from `Service Discovery` server using `DiscoveryClient`?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -478,7 +489,7 @@ public class ProducerEureka2 {
 
 20. What do you understand by load balancing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -494,14 +505,14 @@ public class ProducerEureka2 {
 
 21. Do you know what are the two types of load balancing techniques?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
 <blockquote> 
     
 - Yes, there is client and server-side load balancing.
-- In server-side load balancing, the clients call an intermediate reverse proxy server, which then decides which instance of the actual server or microservice) will get call.
+- In server-side load balancing, the clients call an intermediate reverse proxy server, which then decides which instance of the actual server or microservice will get call.
 - In client-side load balancing, the clients call an intermediate server (the API gateway - e.g., Zuul, configured with a load-balancer - e.g., Ribbon and a discovery server - e.g. Eureka), which then decides which instance of the microservice to call.
  
 </blockquote> 
@@ -509,9 +520,10 @@ public class ProducerEureka2 {
 </details>
 
 ---
+
 22. What is the use of Netflix Ribbon?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -526,9 +538,10 @@ public class ProducerEureka2 {
 </details>
 
 ---
+
 23. How to configure & use Netflix Ribbon in Spring application?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -574,9 +587,10 @@ public class ProducerEureka2 {
 </details>
 
 ---
+
 24. What do you understand by Circuit Breaker?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -586,14 +600,16 @@ public class ProducerEureka2 {
 - It is used to detect failures and encapsulates the logic of preventing a failure from constantly recurring, during maintenance, temporary external system failure or unexpected system difficulties.
 - The Circuit Breaker design pattern stops sending the request to the service which is not working or taking too long to respond.
 - Circuit Breaker aims in building fault-tolerant and resilient systems.
+
 </blockquote> 
 
 </details>
 
 ---
+
 25. How Spring Cloud supports Circuit Breaker?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -609,15 +625,17 @@ public class ProducerEureka2 {
 </details>
 
 ---
+
 26. Which circuit breaker implementations does Spring cloud supports?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
 <blockquote> 
     
 - Spring Cloud Circuit Breaker supports many different circuit breaker implementations including, Resilience4J, Netflix Hystrix, Sentinal, and Spring Retry etc. 
+
 </blockquote> 
 
 </details>
@@ -626,7 +644,7 @@ public class ProducerEureka2 {
 
 27. How to configure and use Netflix Hystrix?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -688,7 +706,7 @@ public class ProducerController {
 	}
 }
 ```
-- Annotate the Spring Boot application main class with additional @EnableCircuitBreaker annotation-
+- Annotate the Spring Boot application main class with additional `@EnableCircuitBreaker` annotation-
 
 ```java
 import org.springframework.boot.SpringApplication;
@@ -711,9 +729,10 @@ public class ProducerEurekaHystrix {
 </details>
 
 ---
+
 28. What do you understand by `API Gateway`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -738,9 +757,10 @@ public class ProducerEurekaHystrix {
 </details>
 
 ---
+
 29. What is use of Netflix Zuul?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -752,14 +772,16 @@ public class ProducerEurekaHystrix {
 - It works as a front door for all the requests. 
 - Zuul is built to enable dynamic routing, monitoring, resiliency, and security. 
 - Zuul is a JVM-based router and server-side load balancer from Netflix.
+
 </blockquote> 
 
 </details>
 
 ---
+
 30. How to configure and use Netflix Zuul in Spring cloud application?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -841,9 +863,10 @@ public class EmployeeZuulGatwayApplication {
 </details>
 
 ---
+
 31. What are Zuul Filter & its types?
 
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -862,9 +885,10 @@ public class EmployeeZuulGatwayApplication {
 </details>
 
 ---
+
 32.  What is meaning of Blue/Green Deployments?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -877,6 +901,25 @@ public class EmployeeZuulGatwayApplication {
 - Once testing has been completed on the green environment, live application traffic is directed to the green environment and the blue environment is deprecated.
 	
 </blockquote> 
+
+</details>
+
+---
+
+33. How would you approach deconstructing a monolith into microservices?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- Identify logical units that can operate independently, like layers, modules, classes, and separate these into independent services.
+- Identify which data goes with which services and split the datasource into multiple datasources.
+- Establish some protocols for communication between services.
+- Splitting the application apart introduces new requirements for things like: gateway, configuration, load balancing, session management, monitoring, and detection. Se we need solutions to these new problems as well.
+
+</blockquote>
 
 </details>
 
