@@ -315,31 +315,31 @@
 ```
 - Configure `Eureka server common port: 8761` inside application.properties file as below-
 ```
-#Port 8761 is the common port for Eureka Servers
+# Port 8761 is the common port for Eureka Servers
 server.port=8761
 
-#Indicates whether or not this instance should register its information with eureka server for discovery by others.
-#In some cases, you do not want your instances to be discovered whereas you just want do discover other instances.
-#Since current app is actual Eureka server hence, we must keep this value as false
+# Indicates whether or not this instance should register its information with eureka server for discovery by others.
+# In some cases, you do not want your instances to be discovered whereas you just want do discover other instances.
+# Since current app is actual Eureka server hence, we must keep this value as false
 eureka.client.register-with-eureka=false
 
-#Indicates whether this client should fetch eureka registry information from eureka server.
-#Usually Kept false
+# Indicates whether this client should fetch eureka registry information from eureka server.
+# Usually Kept false
 eureka.client.fetch-registry=false
 
-#If instance goes down what shall be done? in production we must 
-#Have multiple instances of the eureka server running that is controlled using below property
-#eureka.server.maxThreadsForPeerReplication=0
+# If instance goes down what shall be done? in production we must 
+# Have multiple instances of the eureka server running that is controlled using below property
+# eureka.server.maxThreadsForPeerReplication=0
 
 eureka.server.max-threads-for-peer-replication=0
 
-#When the registry starts, it will complain (with a stack trace) that there 
-#are no replica nodes to which the registry can connect. In a production environment,
-#you will want more than one instance of the registry. For our simple purposes, 
-#however, it suffices to disable the relevant logging.
-#logging.level.com.netflix.eureka=OFF
-#logging.level.com.netflix.discovery=OFF
-#https://cloud.spring.io/spring-cloud-static/Dalston.SR5/multi/multi__appendix_compendium_of_configuration_properties.html
+# When the registry starts, it will complain (with a stack trace) that there 
+# are no replica nodes to which the registry can connect. In a production environment,
+# you will want more than one instance of the registry. For our simple purposes, 
+# however, it suffices to disable the relevant logging.
+# logging.level.com.netflix.eureka=OFF
+# logging.level.com.netflix.discovery=OFF
+# https://cloud.spring.io/spring-cloud-static/Dalston.SR5/multi/multi__appendix_compendium_of_configuration_properties.html
 	
 ```
 - Annotate the Spring Boot application main class with @EnableEurekaServer annotation-
@@ -393,13 +393,13 @@ public class EurekaServerApplication {
 - Set below properties inside application.properties file-
 
 ```
-#When Eureka server is configured with multiple zones we define them, in simple case we can keep it as default
+# When Eureka server is configured with multiple zones we define them, in simple case we can keep it as default
 eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka
 
-#In Eureka each service is identified by unique Id, it’s our choice to keep id as we like, e.g., combination of `serviceName:port` uniquely identifies each service.
+# In Eureka each service is identified by unique Id, it’s our choice to keep id as we like, e.g., combination of `serviceName:port` uniquely identifies each service.
 eureka.instance.instanceId=${spring.application.name}:${server.port}
 
-#Our service names
+# Our service names
 spring.application.name=my-producer
 
 #Our service port number
