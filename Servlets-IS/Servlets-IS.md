@@ -18,7 +18,7 @@ The `javax.servlet` and `javax.servlet.http` packages provide interfaces and cla
 
 2.	What are the functionalities of Servlets in java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecifiQuestions/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
