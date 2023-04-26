@@ -4,6 +4,7 @@
   
 <blockquote>
 
+Angular supports one way data binding and two way data binding. 
 
 </blockquote>
 
