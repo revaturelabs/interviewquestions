@@ -345,4 +345,17 @@ Since String is immutable in Java, whenever we do String manipulation like conca
   
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+23.value and reference type?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+A ValueType is a type that represents a value. This is similar to how primitive types are represented in Java. ReferenceType encompasses classes, interfaces, and array types as defined in The Java Language Specification . All ReferenceType objects belong to one of the following subinterfaces: ClassType for classes, InterfaceType for interfaces, and ArrayType for arrays.
+
+</blockquote>
+
+</details>
+ 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
