@@ -228,7 +228,7 @@ Performance wise also `printf` is faster in execution than `echo` command.
 
 <details><summary> <b>Show Answer</b> </summary> 
 
-> Using the` fdsik` command along with `-l` option, we can see all the partitions in the system. For example, ` sudo fdisk -l`. 
+> Using the` fdisk` command along with `-l` option, we can see all the partitions in the system. For example, ` sudo fdisk -l`. 
 
 </details>
 
@@ -382,7 +382,7 @@ command_name (-n_arguments) (filename)
 
 > To change ownership of a file, he can use `chown` command:    
 ```
-chmod Henry test1 test2
+chown Henry test1 test2
 ```
 
 </details>
