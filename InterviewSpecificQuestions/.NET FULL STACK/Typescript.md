@@ -686,7 +686,60 @@ Here, `?=>?` is a lambda operator.
 
 ---
 
+34. How does TypeScript support optional parameters in function?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
+<details> <summary> <b> Show Answer </b> </summary>
 
+<blockquote>
 
+Unlike JavaScript, the TypeScript compiler throws an error if you try to invoke a function without providing the exact number and types of parameters as declared in its function signature. To overcome this problem, you can use optional parameters by using a question mark sign `(‘?’)`. It indicates that the parameters which may or may not receive a value can be appended with a `‘?’` to mark them optional.
+
+```ts
+function Demo(arg1: number, arg2? :number) {
+}
+```
+So, arg1 is always required, and arg2 is an optional parameter.
+In the above example, arg1 is always required, and arg2 is an optional parameter.
+
+</blockquote>
+
+</details>
+
+---
+
+35. What is tsconfig.json file?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+
+The tsconfig.json file is a file which is in JSON format. In the tsconfig.json file, you can specify different options to tell the compiler how to compile the current project. The presence of a tsconfig.json file in a directory indicates that the directory is the root of a TypeScript project.
+
+Example of a sample tsconfig.json file:
+```ts
+
+{
+"compilerOptions": {
+"declaration": true,
+"emitDecoratorMetadata": false,
+"experimentalDecorators": false,
+"module": "none",
+"moduleResolution": "node"
+"removeComments": true,
+"sourceMap": true
+},
+"files": [
+"main.ts",
+"othermodule.ts"
+]
+}
+```
+</blockquote>
+
+</details>
+
+---
