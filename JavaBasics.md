@@ -12,6 +12,7 @@ Java 8 brings the most anticipated feature for the programming language called L
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 2.Java static keyword 
+
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details><summary><b> Show Answer</b></summary>
 
@@ -24,6 +25,7 @@ Static keyword in java in Java indicates that a particular member is not an inst
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 3.when is memory allocated for static blocks?
+
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details><summary><b> Show Answer</b></summary>
 
@@ -36,6 +38,7 @@ A static block initializes the static variables. It executes whenever the class 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 4.static/non-static?
+
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details><summary><b> Show Answer</b></summary>
 
@@ -49,6 +52,7 @@ Static variables are shared by all objects of a class and have a single instance
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 5.What is the difference between static variable and instance variable?
+
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details><summary><b> Show Answer</b></summary>
 
@@ -62,6 +66,7 @@ Static variables are created when the program starts and destroyed when the prog
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 6.How does the Java ternary work?
+
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details><summary><b> Show Answer</b></summary>
 
@@ -75,6 +80,7 @@ The ternary operator (? :) consists of three operands. It is used to evaluate Bo
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 7.how to compile java code?
+
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details><summary><b> Show Answer</b></summary>
 
@@ -92,6 +98,7 @@ Type 'javac Welcome.java' and press enter to compile your code. If there are no 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 8.What is the static keyword?
+
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details><summary><b> Show Answer</b></summary>
 
@@ -119,6 +126,7 @@ If you don't add the 'static' modifier in your main method definition, the compi
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 10.What is JVM?
+
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details><summary><b> Show Answer</b></summary>
 
@@ -175,6 +183,7 @@ Autoboxing is the automatic conversion that the Java compiler makes between the 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 14.Mutable/Immutable classes in Java?
+
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details><summary><b> Show Answer</b></summary>
 
@@ -186,7 +195,10 @@ A mutable object can be changed after it's created, and an immutable object can'
 
 </details>
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 15.Object class methods in java?
+
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details><summary><b> Show Answer</b></summary>
 
@@ -229,7 +241,9 @@ true
 true
 
 ```
-
+ 
+</details>
+ 
 <details><summary><b> Explanation</b></summary>
 <blockquote>
 we create two objects, namely x and y . Both x  and y refer to same objects.
@@ -237,10 +251,12 @@ When we use the == operator for x and y comparison, the result is true as both h
 Using equals, the result is true because it’s only comparing the values given in x and y.
 </blockquote>
 </details>
-</details>
+
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
 17.Where are strings stored stack or heap?
+ 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details><summary><b> Show Answer</b></summary>
 
@@ -254,6 +270,7 @@ Strings are stored on the heap area in a separate memory location known as Strin
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
   
 18.How does garbage collection work? 
+ 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details><summary><b> Show Answer</b></summary>
 
@@ -265,9 +282,10 @@ In garbage collection process, the collector scans different parts of the heap, 
 
 </details>
   
- --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
   
 19.Can the garbage collector be manually called?
+ 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details><summary><b> Show Answer</b></summary>
 
