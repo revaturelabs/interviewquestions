@@ -446,7 +446,7 @@ public class WordCounter {
 
 </details>
 
-19. what do you know about collection? 
+19. what do you know about collection?
 
 <details><summary></summary>
 
@@ -484,6 +484,95 @@ Overall, collections are an important part of the Java language and provide a fl
 
 </details>
 
+21. Tell me about how you implement an interface?
+
+<details><summary></summary>
+
+<blockquote>
+
+To implement an interface in an object-oriented programming language like Java, you need to declare the interface with its methods, create a class that implements the interface, override the methods defined in the interface in the implementing class, and then instantiate the implementing class to use its methods.
+
+
+</blockquote>
+
+</details>
+
+22. What kind of method does a class need to be created
+
+<details><summary></summary>
+
+<blockquote>
+
+To create a class in Java, you need to define at least a constructor method to initialize the object when it is created. Additionally, the class may require other methods such as getters and setters to set and retrieve the values of the object's properties, as well as other methods that perform operations on the object's data. The specific methods needed will depend on the requirements of the application or system being developed.
+
+</blockquote>
+
+</details>
+
+23. Tell me 2 methods of changing a method (polymorphism)?
+
+<details><summary></summary>
+
+<blockquote>
+
+The two methods for method chaining are:
+
+1. Method overloading: Calling a method from other method of the same class.
+2. Method Overriding: Calling a method of a class from a method of a class that extends the class.
+
+</blockquote>
+
+</details>
+
+
+24. Do you know the purpose of logging?, Lets say there is an issue where no trades are going through. How would you go about searching the log for the issue?
+
+<details><summary></summary>
+
+<blockquote>
+
+Logging is the practice of generating log messages during the execution of a program. 
+- The purpose of logging isto recording important events and information about the program's behavior. Logging is a key tool for troubleshooting issues in software applications, as it can provide valuable insight into what happened leading up to an error or unexpected behavior.
+
+In the case of an issue where no trades are going through, one approach to searching the logs for the issue would be to look for log messages related to trade processing. This could involve searching for log messages related to the trade processing workflow, such as messages indicating that a trade was received, processed, and sent to a third-party system. Additionally, it might be useful to look for error messages or exceptions that occurred during the trade processing workflow, as these can provide clues about what went wrong.
+
+
+</blockquote>
+
+</details>
+
+25.  Why would you use a String Builder vs a String? 
+
+<details><summary></summary>
+
+<blockquote>
+
+You should use StringBuilder instead of String when you need to concatenate a large number of strings or when performance is a concern, because StringBuilder is a mutable class that allows for efficient concatenation of multiple strings without creating new objects in memory.
+
+</blockquote>
+
+</details>
+
+26. What is the JVM, JRE, and JDK?
+
+<details><summary></summary>
+
+**JDK:** JDK (Java Development Kit) is a software development kit that includes the JRE, as well as tools and libraries for developing and compiling Java applications. It provides everything needed to write, compile, and run Java code.
+
+**JRE:** JRE (Java Runtime Environment) is a software package that includes the JVM, along with libraries and other components required for running Java applications.
+
+**JVM:** JVM (Java Virtual Machine) is the runtime environment for Java applications, providing a layer of abstraction between the Java code and the underlying hardware and operating system.
+
+<blockquote>
+
+
+</blockquote>
+
+</details>
+
+27. What is a singleton class in java and how would you make one?
+
+
 <details><summary></summary>
 
 <blockquote>
@@ -492,6 +581,23 @@ Overall, collections are an important part of the Java language and provide a fl
 </blockquote>
 
 </details>
+
+
+28. What is the difference between a hash map and hash table?
+
+<details><summary></summary>
+
+<blockquote>
+
+
+
+
+</blockquote>
+
+</details>
+
+
+
 <details><summary></summary>
 
 <blockquote>
@@ -500,6 +606,64 @@ Overall, collections are an important part of the Java language and provide a fl
 </blockquote>
 
 </details>
+
+
+
+<details><summary></summary>
+
+<blockquote>
+
+
+</blockquote>
+
+</details>
+
+
+
+<details><summary></summary>
+
+<blockquote>
+
+
+</blockquote>
+
+</details>
+
+
+
+<details><summary></summary>
+
+<blockquote>
+
+
+</blockquote>
+
+</details>
+
+
+
+<details><summary></summary>
+
+<blockquote>
+
+
+</blockquote>
+
+</details>
+
+
+
+<details><summary></summary>
+
+<blockquote>
+
+
+</blockquote>
+
+</details>
+
+
+
 <details><summary></summary>
 
 <blockquote>

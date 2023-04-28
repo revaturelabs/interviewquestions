@@ -389,6 +389,24 @@ SELECT department, AVG(salary) as avg_salary FROM mytable GROUP BY department HA
 
 
 
+18. how to fetch object from database with associated objects with it (example used was fetching employee object with foreign key to an address object) 
+
+<details> <summary>Show Answer</summary>
+ 
+<blockquote>
+
+</blockquote>
+
+</details>
+
+---
+
+
+
+
+
+
+
 
 
 

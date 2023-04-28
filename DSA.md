@@ -183,3 +183,35 @@ public class QueueWithTwoStacks<T> {
 
 </details>
 
+7. find non repeating characters in a string and convert them to capitals.
+
+<details><summary>Show Answer</summary>
+
+<blockquote>
+
+
+
+</blockquote>
+
+</details>
+
+---
+
+
+8. The challenge was, given an array of numbers, to write a method that moves all 0's to the end of the array. So, if I had an array of numbers [1, 0, 3, 4, 0, 5], the method would return [1, 3, 4, 5, 0, 0]. She asked me to share my screen while completing the challenge. She then asked what test cases I would use to test the method.
+
+<details><summary>Show Answer</summary>
+
+<blockquote>
+
+
+
+</blockquote>
+
+</details>
+
+---
+
+
+
+

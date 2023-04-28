@@ -539,9 +539,459 @@ In addition to these core artifacts, an Angular application may also include fil
   </blockquote>
 </details>
 
+---
+
+27. How would you get a cursor to focus in a text box in Angular?
+
 <details><summary><b>Show Answer</b></summary>
 
  <blockquote>
+
+ In Angular, you can use the ViewChild decorator to get a reference to the text box element and then use the focus() method to set the cursor focus.
+
+ ```html
+ <input type="text" #myTextBox>
+ ```
+
+ ```ts
+ import { Component, ViewChild, ElementRef } from '@angular/core';
+
+@Component({
+  selector: 'my-component',
+  templateUrl: './my-component.component.html',
+  styleUrls: ['./my-component.component.css']
+})
+export class MyComponent {
+  @ViewChild('myTextBox') myTextBoxRef: ElementRef;
+
+  focusTextBox() {
+    this.myTextBoxRef.nativeElement.focus();
+  }
+}
+
+ ```
+
+  </blockquote>
+</details>
+
+---
+
+28. How do you do authorization in Anuglar?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+In Angular authorization can be implemented using:
+
+1. Role Based Authorization by using the `CanActivate` Interface.
+2. Token Based Authorization using `HttpClient` and `AuthService`.
+3. Permission based Authorization by using libraries like `ngx-permissions`.
+
+  </blockquote>
+
+</details>
+
+---
+
+29. Give an overview of an Angular application.
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+An Angular application is a single-page application built using the Angular framework. It consists of several components, services, modules, directives, and pipes, each with a specific purpose in the application's architecture.
+
+  </blockquote>
+</details>
+
+---
+
+30.  What are decorators?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+ Decorators are a feature in Angular that allow you to modify or enhance the behavior of classes, methods, and properties at runtime.
+
+Some of the most common decorators in Angular are:
+
+1. **`@Component`:** Used to define a component class and its metadata, including the template, styles, and selector.
+
+2. **`@Injectable`**: Used to mark a service class that can be injected into other classes.
+
+3. **`@Input`:** Used to define an input property that can be passed into a component from its parent component.
+
+4. **`@Output`:** Used to define an output property that emits events to the parent component.
+
+5. **`@Directive`:** Used to define a directive class and its metadata, including the selector and host binding.
+
+6. **`@HostListener`:** Used to define a method that listens for a specific DOM event on the host element of a directive.
+
+7. **`@Pipe`:** Used to define a pipe class and its metadata, including the name and arguments.
+
+8. **`@NgModule`:** Used to define a module class and its metadata, including the declarations, imports, providers, and exports.
+
+ 
+
+  </blockquote>
+</details>
+
+---
+
+31.  How would you perform a search in angular such that a user could search something in your database?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+ To perform a search operation 
+
+  </blockquote>
+</details>
+
+---
+
+32. What is subscribe in Angular and what 3 methods can be used with it
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+
+
+  </blockquote>
+</details>
+
+---
+
+33. what are some features of angular?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+ Angular is a framework built on TypeScript. Angular includes:
+
+- A component-based framework to create single-page applications and scalable applications.
+- A collection of well-defined libraries that include many features like routing, and client-server management etc.
+- Tools to develop, build, test and deploy a front-end application.
+
+  </blockquote>
+</details>
+
+---
+
+34.  what is $root in angular?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+  </blockquote>
+</details>
+
+---
+
+35. How do you make an HTTP request in Angular?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+ The HTTP requests can be made in angular using the `HttpClientModule`. The return type of a `HttpClient` method is an Observable.
+
+  </blockquote>
+</details>
+
+---
+
+
+36. What are observables and what is a promise?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+  </blockquote>
+</details>
+
+---
+
+37. Is data routing between two components possible, and if so how?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+  </blockquote>
+</details>
+
+---
+
+38. What are directives in Angular?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+  </blockquote>
+</details>
+
+---
+
+39. What are the different types of directives?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+  </blockquote>
+</details>
+
+---
+
+40.  How can components communicate in ng?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+  </blockquote>
+</details>
+
+---
+
+41. What is inside Angular ngModule?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+ NgModule takes metadata and describes how to compile a component's template and how to create an injector at runtime. It identifies the module's components, directives, and pipes and makes them public through the export property which can be used by external components.
+
+The Angular CLI generates the basic *AppModule* (src/app/app.module.ts file) when creating a new application.
+
+`@NgModule` takes the below metadata to launch the application:
+
+- **declarations** —  contains a list of components, directives, and pipes, which belong to this module. 
+
+- **imports** —  contains a list of modules, which are used by the component templates in this module reference.  For example, we import *BrowserModule* to have browser-specific services such as DOM rendering, sanitization, and location. 
+
+- **providers** — the list of service providers that the application needs.
+
+- **bootstrap** — contains the root component of the application.
+
+  </blockquote>
+</details>
+
+---
+
+42. What is a component?
+    
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+  </blockquote>
+</details>
+
+---
+
+43. What services have you used?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+  </blockquote>
+</details>
+
+---
+
+
+44. Differences between Angular and AngularJS?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+- AngularJS is the first version of Angular or Angular1.X. 
+
+
+The main differences between AngularJS and Angular are:
+
+| AngularJS                                                                                     | Angular                                                |
+| --------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| JavaScript based                                                                              | TypeScript based                                       |
+| Uses Directives                                                                               | Uses Components                                        |
+| Uses the ng-model directive for two-way binding and the ng-bind directive for one-way binding | Uses ngModel directive for one-way and two-way binding |
+| MVC (model-view-controller) based framework                                                   | Component-based framework                              |
+| Doesn’t provide mobile support                                                                |  Provides mobile support                               |
+| Relies on third-party tools as IDE and WebStorm                                               | Uses Command Line Interface (CLI)                      |
+
+  </blockquote>
+</details>
+
+---
+
+45.  What is Databinding?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+  </blockquote>
+</details>
+
+---
+
+46. Asked about NgModule and other Ngs?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+  </blockquote>
+</details>
+
+---
+
+47. What is the purpose of the main.ts file?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+  </blockquote>
+</details>
+
+---
+
+48. What are some of the common directives in angular?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+  </blockquote>
+</details>
+
+---
+
+49. what is angular bootstrapping?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+
+
+  </blockquote>
+</details>
+
+---
+
+50. What are some angular components?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+ Angular Components are building blocks of an Angular application. Every Angular application has a pre defined component called app component. Some real life examples for components would be, header, footer, nav-bar, user-profile, cart, dashboard, login, and register etc.  
+
+
+  </blockquote>
+</details>
+
+---
+
+51. How was data handled in between you Angular components?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+ The data is handeled between angular components using the services if the components are not related, If the Parent-Child relationship exists between the components, `@Input`, `@Output` and Event Emmitors are used.
+
+  </blockquote>
+</details>
+
+---
+
+52. How to connect angular frontend to entityframework backend?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+ Normally a model is used send data in request and store the request in response. But directly accessing the entity in backend is not the ideal procedure. Rather, DTO's should be used.
+
+  </blockquote>
+</details>
+
+---
+
+53. How would you approach targeting a UI element with a selector if that element continuously changes?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+ One approach is to use a unique attribute or combination of attributes to target the element, or use a stable parent element as a reference. Another approach is to use relative positioning or dynamic selectors to target the element based on patterns or properties.
+
+  </blockquote>
+</details>
+
+54. What is Dependency Injection in Angular?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+**Dependency injection**: A coding pattern in which a class receives the instances of the objects it needs (called dependencies) from an external source rather than creating them itself.
+
+A service can be created and injected in the following steps:
+
+1. Create a class and decorate it with the @Injectable decorator and export it.
+
+1. Register the provider => a provider is a code that can create or return a service 
+    - We can add the service to the provider's property in either:
+      - @Component => Injectable to component and its children. 
+      - @NgModule => Injectable everywhere in an application .
+2. Inject the Service
+    - We achieve dependency injection in the constructor of the class in which we wish to use the service. 
+    - Similar to Java, every class has an implicit no-arg constructor if no other constructor is defined.
+    - To inject dependencies, we need an explicit constructor passing in the service to be injected. 
+
+ ```ts
+    export class MyComponent {
+                constructor(private myService: MyService) {}
+            }
+```
+
+  </blockquote>
+</details>
+
+
+---
+
+55. how do you tie a value to an html element?/databinding?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+
+  </blockquote>
+</details>
+
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
 
   </blockquote>
 </details>
@@ -550,12 +1000,6 @@ In addition to these core artifacts, an Angular application may also include fil
 
  <blockquote>
 
-  </blockquote>
-</details>
-
-<details><summary><b>Show Answer</b></summary>
-
- <blockquote>
 
   </blockquote>
 </details>
@@ -564,12 +1008,13 @@ In addition to these core artifacts, an Angular application may also include fil
 
  <blockquote>
 
+
   </blockquote>
 </details>
-
 <details><summary><b>Show Answer</b></summary>
 
  <blockquote>
+
 
   </blockquote>
 </details>
