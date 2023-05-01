@@ -4,33 +4,7 @@
   
 <blockquote>
 
-Angular supports one way data binding and two way data binding. 
-
-</blockquote>
-
-</details>
-
----
-There are four types of data binding in Angular:
-
-Interpolation: Interpolation is a one-way data binding that allows you to display component data in the view. It is denoted by double curly braces {{ }} and can be used to display variables, expressions, and even method calls.
-
-Property binding: Property binding is another one-way data binding technique that allows you to bind a component property to an HTML element property. It is denoted by square brackets [ ] and allows you to set the value of a property based on the component's data.
-
-Event binding: Event binding is a one-way data binding technique that allows you to respond to user events such as button clicks, mouse clicks, or keyboard events. It is denoted by parentheses ( ) and allows you to call a method in the component when an event occurs.
-
-Two-way binding: Two-way data binding is a two-way data binding technique that allows you to bind a component property to an HTML element property and update both the component and the view when either one changes. It is denoted by square brackets and parentheses [( )] and allows you to keep both the view and the component data in sync.
-
-In summary, data binding is a powerful feature in Angular that makes it easy to create dynamic and interactive web applications. Understanding the different types of data binding is key to building successful applications with Angular.
-
-
-2. what is ngModel
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-ngModel is an Angular directive that provides two-way data binding between a form control element and a component's property. It allows you to bind an input, select, or textarea element to a component property, and automatically updates the component property when the user interacts with the form control, and vice versa.
+Data binding in angular is a way of connect data between component and view. So that changes made in one are automatically reflected in the other. There are four types of data binding in Angular such as interpolation, property binding, event binding, and two-way binding.
 
 </blockquote>
 
@@ -38,30 +12,45 @@ ngModel is an Angular directive that provides two-way data binding between a for
 
 ---
 
-
-3. observables vs. promises
+2. what is ngModel.
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-Promises:
+The `ngModel` is an Angular directive that provides two-way data binding. It is used to bind the value of an HTML form element to a variable in the component. With `ngModel` any changes made to the input value will be reflected in the component's variable, and changes to the variable will be reflected in the input field.
 
-Promises are an ES6 feature that allows you to handle asynchronous code in a more synchronous way.
-Promises represent a single value or an error that will be available in the future.
-Promises can be in one of three states: pending, fulfilled, or rejected.
-Promises can only be resolved or rejected once.
-You can chain multiple promises using .then() and .catch() methods.
-Promises are not cancellable once they are initiated.
-Observables:
+For example,
 
-Observables are a feature of RxJS library that allows you to handle asynchronous code in a more flexible way.
-Observables can represent a stream of multiple values that will be available in the future.
-Observables can emit values multiple times.
-Observables can be subscribed to and can emit values asynchronously over time.
-Observables can be transformed and combined using operators.
-Observables are cancellable using the unsubscribe() method.
-In summary, Promises are useful for handling a single asynchronous operation that will complete in the future, while Observables are useful for handling streams of asynchronous data that may emit values over time. Observables provide more flexibility and can be cancelled, transformed, and combined using operators.
+```HTML
+<input [(ngModel)]="username" name="username" type="text">
+```
+
+In the above example, the input field is binded with the username variable present inside the component.
+
+</blockquote>
+
+</details>
+
+---
+
+
+3. observables vs promises
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+An observable and a promise both are used to handle asynchronous operations, but they have differences.
+
+| Promise | Observable | 
+| :---------------: | :---------------: | 
+|  Promises represent a single value or an error that will be available in the future. | Observables can represent a stream of multiple values that will be available in the future. |  
+|  Promises can only be resolved or rejected once. | Observables can emit values multiple times. | 
+|  You can chain multiple promises using `.then()` and `.catch()` methods. | Observables can also be chained using methods like `map()`, `filter()`, and `reduce()` | 
+|  Promises are not cancellable once they are initiated. | Observables are cancellable using the `unsubscribe()` method. | 
+|  Promises are eager, which means they are executed immediately when they are created. | Observables are lazy, which means they only start executing when someone subscribes to them. | 
+|  Promises use the `catch()` method to handle errors | Observables use the error callback function. | 
 
 
 </blockquote>
@@ -77,13 +66,7 @@ In summary, Promises are useful for handling a single asynchronous operation tha
   
 <blockquote>
 
-Node.js, commonly referred to as Node, is an open-source, cross-platform JavaScript runtime environment built on the V8 JavaScript engine of Google Chrome. It allows developers to run JavaScript on the server-side to build fast, scalable, and high-performance network applications.
-
-Node.js uses an event-driven, non-blocking I/O model, which makes it ideal for building applications that require real-time data processing, such as chat applications, gaming, and streaming services. It also makes it possible to handle a large number of connections with less overhead than traditional server-side technologies, such as PHP or Java.
-
-Node.js provides a rich set of built-in modules that simplify the development of web applications, including HTTP, File System, Stream, and OS. In addition to the built-in modules, Node.js has a vast ecosystem of third-party modules available through the npm (Node Package Manager) registry. These modules enable developers to quickly and easily add functionality to their applications.
-
-Node.js is used in a wide range of applications, including web applications, mobile applications, desktop applications, IoT (Internet of Things), and cloud applications. It is also popular for building microservices, APIs, and serverless applications. Many large companies, such as Netflix, LinkedIn, Walmart, and PayPal, use Node.js to power their applications and services.
+Node.js is a JavaScript runtime environment built on the V8 JavaScript engine that allows developers to run JavaScript code outside of a web browser. It is lightweight and efficient, making it well-suited for building real-time applications that require high concurrency and scalability. Node.js also provides a rich set of libraries and frameworks that simplify the development process.
 
 </blockquote>
 
@@ -97,16 +80,9 @@ Node.js is used in a wide range of applications, including web applications, mob
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
-Promises are a feature of JavaScript that allow you to handle asynchronous code in a more synchronous way. They were introduced in ES6 (ECMAScript 2015) and are now a core part of the JavaScript language.
+A Promise is used to handle asynchronous operations. To understand a Promise in a simpler way, we can consider it as a placeholder for future upcoming values or errors. Promises have three states called pending, fulfilled, or rejected. 
 
-A Promise is an object that represents a value that may not be available yet, but will be at some point in the future. It is a placeholder for a future value, or for a future error. Promises can have one of three states: pending, fulfilled, or rejected.
-
-When a Promise is pending, it means that the operation it represents is still in progress and the result is not yet available. When a Promise is fulfilled, it means that the operation has completed successfully, and the result is available. When a Promise is rejected, it means that the operation has failed, and an error is available.
-
-Promises are created using the Promise constructor, which takes a function as an argument. The function takes two parameters: resolve and reject. resolve is a function that is called when the operation is successful, and reject is a function that is called when the operation fails.
-
-Promises have two main methods for handling their results: then() and catch(). The then() method is used to handle the successful completion of a Promise, and the catch() method is used to handle any errors that occur.
-
+When a Promise is in the pending state, it means that the operation is still in progress and we have not yet received the result. When a Promise is fulfilled, it means that the operation has completed successfully, and the result is available. When a Promise is rejected, it means that the operation has failed and has given us an error. Promises use the `then()` and `catch()` methods to handle the results. 
 
 </blockquote>
 
@@ -120,7 +96,22 @@ Promises have two main methods for handling their results: then() and catch(). T
   
 <blockquote>
 
+A callback function is a function that is passed as an argument to another function. It is commonly used in JavaScript to handle asynchronous operations like making an HTTP request. 
 
+example for a callback function,
+```js
+function add(a, b, callback) {
+  const result = a + b;
+  callback(result);
+}
+
+add(3, 4, function(sum) {
+  console.log('sum :', sum);
+});
+
+```
+
+In this example, we created a function called add that takes two numbers and a callback function as arguments. Inside the function, we calculate the sum of a and b, and then call the callback function and pass the result to that function.
 
 </blockquote>
 
@@ -134,6 +125,59 @@ Promises have two main methods for handling their results: then() and catch(). T
   
 <blockquote>
 
+In Angular, the declarations array in the `@NgModule` decorator of the `app.module.ts` file is used to specify the components, directives, and pipes that belong to the current module.
+
+</blockquote>
+
+</details>
+
+---
+
+8. Passing data in Angular?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+There are several ways to pass data between components in Angular, such as using `input/output bindings`, `services`, `RxJS`, `routing parameters`, and `ViewChild`. `Input and output bindings` are used to pass data between components that have a parent-child relationship. `Services` are used to share data between multiple components. `RxJS` can be used to pass data to components in a reactive way. We can also share data using the URL, and to receive data from the URL we can use `routing parameters`. `ViewChild` is used to access the child component's properties and methods from the parent component.
+
+</blockquote>
+
+</details>
+
+---
+
+9. Which decorator is used to declare module in angular
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The `@NgModule` decorator is used to define a module. The `@NgModule` decorator takes an object as its argument, which includes several properties that define the module's configuration like `declaration`, `imports`,`providers`, and `exports`.
+
+To declare a module using `@NgModule`, you need to create a new TypeScript class, decorate it with `@NgModule`, and then configure the module by setting its properties in the decorator's argument.
+
+for example,
+```ts
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { AppComponent } from './app.component';
+
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule
+  ],
+  providers: [],
+  exports: [
+   AppComponent
+  ]
+})
+export class AppModule { }
+
+```
 
 
 </blockquote>
@@ -142,13 +186,13 @@ Promises have two main methods for handling their results: then() and catch(). T
 
 ---
 
-8. Passing and binding data in Angular?
+10. What are some features you used in Angular?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-
+The feature which I used in angular are Components, Directives, Services, Dependency injection, Routing, Forms, Pipes, and Observables. The components of angular help the developer to encapsulat each feature in seperate component.  
 
 </blockquote>
 
@@ -156,41 +200,36 @@ Promises have two main methods for handling their results: then() and catch(). T
 
 ---
 
-9. what is the decorator of a module in angular
+11. Create a class component which has an element in it with onClick attribute and a function that is called when that element is clicked.
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
 
+```Ts
 
-</blockquote>
+import { Component } from '@angular/core';
 
-</details>
+@Component({
+  selector: 'app-home',
+  template: 
+    `<div>
+      <button (click)="handleClick()">Click me!</button>
+    </div>`,
+  styleUrls: ['./home.component.css']
+})
+export class HomeComponent {
 
----
+  handleClick(){
+    console.log('Button clicked!');
+  }
 
-10. What are some features you used in Angular?;
+}
 
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
+```
 
-
-
-</blockquote>
-
-</details>
-
----
-
-11. Create a class component which has an element in it with onClick attribute and a function that is called when that element is clicked
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-
+In above example, we have created a home component. which contains a button element and when the button is clicked hadleClick() method gets executed.
 
 </blockquote>
 
@@ -204,7 +243,7 @@ Promises have two main methods for handling their results: then() and catch(). T
   
 <blockquote>
 
-
+Angular is a JavaScript framework developed by Google for building web applications. Single Page Application (SPA) is a type of web application that loads a single page and dynamically updates its content without requiring a page refresh. SPAs enhance user experience by providing a smooth and responsive experience to the users. Angular helps developers create SPAs by providing a powerful templating engine, two-way data binding, dependency injection, and a robust router for handling navigation.
 
 </blockquote>
 
@@ -218,7 +257,7 @@ Promises have two main methods for handling their results: then() and catch(). T
   
 <blockquote>
 
-
+Components are the main building block of a web application in Angular. They are self-contained blocks of code that include the HTML template, TypeScript class, and CSS styles to define the view and behavior of a specific part of the application. We use the `@Component` decorator to define a component. Components are reusable and can be composed together to create a complex UI.
 
 </blockquote>
 
@@ -232,7 +271,7 @@ Promises have two main methods for handling their results: then() and catch(). T
   
 <blockquote>
 
-
+To get data from another application's API in Angular, you can use the `HttpClient` module to make HTTP requests to the API endpoints. First, import the `HttpClientModule` into your module, then inject the `HttpClient` service into your component or service where you want to make the API request. Next, use the `HttpClient` service's `get()` method to make a `GET` request to the API endpoint and retrieve the data.
 
 </blockquote>
 
@@ -246,7 +285,7 @@ Promises have two main methods for handling their results: then() and catch(). T
   
 <blockquote>
 
-
+An `Observable` is a stream of data that can be used to handle asynchronous operations. Using observable we can pass the data between different components of angular. `Observables` are similar to `Promises`, but unlike `Promises` that only return a single value, `Observables` can return multiple values over time. Also, Observables are cancelable, which means we can unsubscribe from an Observable if we no longer need to receive updates.
 
 </blockquote>
 
@@ -261,7 +300,14 @@ Promises have two main methods for handling their results: then() and catch(). T
   
 <blockquote>
 
+In Angular we have commands like, 
 
+- `ng new <project-name>` : Creates new angular application.
+- `ng generate component <component-name>` : Creates a new component with the specified name.
+- `ng serve`: Builds and serves the application locally.
+- `ng build`: Builds the application for production.
+- `ng update`: Updates the application's dependencies to the latest versions.
+- `ng deploy`: Deploys the application to a remote server.
 
 </blockquote>
 
@@ -276,7 +322,7 @@ Promises have two main methods for handling their results: then() and catch(). T
   
 <blockquote>
 
-
+To achieve two-way data binding in Angular you can use the `[(ngModel)]` directive. This binds a component property to an input field and synchronizes data in both directions. To use `[(ngModel)]`, create a property in the component class to store the data, bind it to an input field using [(ngModel)]. Any changes made to the input field will be automatically reflected in the property.
 
 </blockquote>
 
@@ -291,7 +337,7 @@ Promises have two main methods for handling their results: then() and catch(). T
   
 <blockquote>
 
-
+The `PipeTransform` interface is a built-in Angular interface that you can use to create custom pipes. To create a custom pipe first, you have to create a class that will implement the `PipeTransform` interface. In this class, we will create a transform method which defines the functionality of that pipe. You can use the custom pipe by applying it to an expression with the `|` symbol followed by the pipe name. 
 
 </blockquote>
 
@@ -306,7 +352,7 @@ Promises have two main methods for handling their results: then() and catch(). T
   
 <blockquote>
 
-
+`ngFor` is a structural directive in Angular that is used to render a list of items in the template based on an array or an iterable object. The `ngFor` can be used as `*ngFor="let item of items"`, where items is an array that contains the items to be rendered, and the item is a variable that represents the current item in the iteration.
 
 </blockquote>
 
@@ -315,13 +361,13 @@ Promises have two main methods for handling their results: then() and catch(). T
 ---
 
 
-20. they asked a question on angular hooks but i told them we did not do hooks.
+20. what are Angular lifecycle hooks
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-
+Angular lifecycle hooks are methods that are called at specific stages in the life cycle of an Angular component, such as when it is created, updated, or destroyed. It includes methods like `ngOnInit()`, `ngOnChanges()`, `ngAfterViewInit()`, and `ngOnDestroy()`. 
 
 </blockquote>
 
@@ -330,12 +376,13 @@ Promises have two main methods for handling their results: then() and catch(). T
 ---
 
 
-21. What directives did you use in Angular and what do they do?
+21. What are Angular directives and what do they do?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
+Angular directive is a type of Angular component that allows you to add custom behavior or attributes to an DOM element. There are three types of directives structural, attribute and custom. Structural directives add or remove elements, attribute directives modify the attributes of an element, and custom directives are used to create custom functionality. Directives are used to build dynamic and interactive web applications.
 
 
 </blockquote>
@@ -345,13 +392,13 @@ Promises have two main methods for handling their results: then() and catch(). T
 ---
 
 
-22. what is a promise.
+22. How to connect an Angular Project to a Spring Boot Project?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-
+To connect an Angular project to a Spring Boot project, you can use RESTful APIs. The Angular project can send HTTP requests to the Spring Boot project, which will handle these requests and return the required data. You can create the RESTful APIs in the Spring Boot project using Spring Web MVC, and then call these APIs from the Angular project using the `HttpClient` module.
 
 </blockquote>
 
@@ -360,13 +407,13 @@ Promises have two main methods for handling their results: then() and catch(). T
 ---
 
 
-23. What is a component?
+23. Would I do an API call that filters entirely through the backend or get all the information in the frontend, filter it, and return the rest of the data back into the database? 
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-
+This depends on the use case and requirements of your application. If you have a large amount of data or the data contains sensitive information filtering the data in the backend will be a good option. If you want to enhance the user experience then filtering the data in the front end can be considered as it will reduce the calls to the backend and improves the response time of the application.
 
 </blockquote>
 
@@ -374,7 +421,7 @@ Promises have two main methods for handling their results: then() and catch(). T
 
 ---
 
-24. The exact syntax for filling in a form and submitting the form in HTML, then how to set up a call from the TS file in the front end to the backend, then how do you call the backend with that. 
+24. What is the syntax in Angular for creating and submitting a form in HTML?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -394,7 +441,7 @@ Promises have two main methods for handling their results: then() and catch(). T
   
 <blockquote>
 
-
+To start an server in angular you can use `ng serve` command.
 
 </blockquote>
 
@@ -402,13 +449,13 @@ Promises have two main methods for handling their results: then() and catch(). T
 
 ---
 
-26. What is dependency injection?
+26. What is dependency injection in Angular?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-
+Dependency Injection (DI) in Angular is a feature that allows you to inject dependencies into a component, service or other class. The dependencies that your component or service needs are added in the constructor of the component, and Angular will automatically provide those dependencies when the component or service is instantiated. 
 
 </blockquote>
 
@@ -612,3 +659,5 @@ Promises have two main methods for handling their results: then() and catch(). T
 </details>
 
 ---
+
+

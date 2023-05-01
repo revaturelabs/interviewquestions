@@ -222,6 +222,7 @@ The spring framework has the following annotations to handle exceptions
 Singleton scope is the default scope of Bean in Spring. When a bean is defined as a singleton, the Spring container creates only one instance of that bean, and all requests for that bean will return the same instance. This can be very efficient in terms of performance and memory usage, as it avoids creating multiple instances of the same bean.
 
 Spring also includes other bean scopes like `prototype`, `request`, `session`, and `global session`.
+
 </blockquote>
 
 </details>
@@ -247,6 +248,7 @@ In Spring, the term "bean scope" refers to the lifecycle of a bean and indicates
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
+
 A prototype bean is a type of bean whose lifecycle is managed by the Spring IoC container in such a way that every time a bean is requested by the application, a new instance of the bean is created and returned. This means that each instance of the prototype bean will be completely independent and have its own state. Changes made to one instance of the bean will not affect other instances of the same bean.
 
 </blockquote>
