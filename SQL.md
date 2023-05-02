@@ -395,6 +395,17 @@ SELECT department, AVG(salary) as avg_salary FROM mytable GROUP BY department HA
  
 <blockquote>
 
+In SQL, you can use a JOIN statement to fetch an object from a database with associated objects. Assuming you have an Employee table with a foreign key to an Address table, you can use a JOIN statement to fetch the Employee object with its associated Address object. 
+
+
+```SQL
+SELECT *
+FROM Employee
+JOIN Address
+ON Employee.address_id = Address.id
+WHERE Employee.id = 1;
+```
+
 </blockquote>
 
 </details>

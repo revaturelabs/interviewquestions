@@ -25,6 +25,16 @@ Servlets support the concept of events and listeners through the use of interfac
 
 2. What is a servlet?
 
-3. 
+<details> <summary>Show Answer</summary>
+ 
+<blockquote>
+
+A Servlet is a Java class that runs on a web server and processes requests and responses between a client and a server. It is a server-side component that receives requests from web clients, processes them, and returns responses. Servlets are used to build dynamic web applications, such as e-commerce sites, social networking sites, and online banking systems. They follow the Java Servlet API, which provides a set of classes and interfaces that define the contract between the servlet container and the servlet. Servlets can handle HTTP requests and responses, session management, cookies, and more, making them a powerful tool for building web applications.
+
+</blockquote>
+
+</details>
+
+ ---
 
 

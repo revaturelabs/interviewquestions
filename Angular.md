@@ -646,7 +646,7 @@ Some of the most common decorators in Angular are:
 
  <blockquote>
 
- To perform a search operation 
+To perform a search in Angular, you can use a combination of template-driven forms and HTTP requests to query the database. First, you would create an input field where the user can enter their search query. Then, you would bind this input field to a variable in your component using Angular's two-way data binding syntax. Next, you would use the input variable to construct an HTTP request to query your backend database. You can use Angular's built-in HttpClient service to perform these requests. Finally, you would display the search results to the user by binding the response data to a list or table in your template. You can also use Angular's filtering and sorting pipes to further refine the search results before displaying them to the user.
 
   </blockquote>
 </details>
@@ -659,7 +659,16 @@ Some of the most common decorators in Angular are:
 
  <blockquote>
 
+In Angular, "subscribe" is a method that is used to listen for and respond to changes in an Observable. An Observable is an asynchronous data stream that can emit zero or more values over time, and subscribing to an Observable allows you to react to each emitted value.
 
+
+Here are the three methods that can be used with subscribe() in Angular:
+
+1. **`next()`:** This method is called when a new value is emitted from the Observable. It takes one argument, which is the value emitted by the Observable.
+
+2. **`error()`:** This method is called when an error occurs while processing the Observable. It takes one argument, which is the error object.
+
+3. **`complete()`:** This method is called when the Observable has completed emitting values. It does not take any arguments.
 
   </blockquote>
 </details>
@@ -728,9 +737,35 @@ Some of the most common decorators in Angular are:
   </blockquote>
 </details>
 
+
 ---
 
-38. What are directives in Angular?
+38.  What are the different types of directives?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+ - Directives fall into one of three categories
+    - Component Directive: established in the selector attribute of the @Component decorator 
+    - Structural Directive: changes the structure or layout of a view by manipulating, adding, or removing elements and their children 
+        - `*ngIf`: takes a boolean expression and makes an entire chunk of the DOM appear or disappear (exposed in BrowserModule)
+        - `*ngFor`: used to create for loops, at minimum needs a looping variable and a list (exposed in BrowserModule)
+        - `ngSwitch` : (actually a set of directives and ngSwitch is an attribute directive since it controls the behaviour of *ngSwitchCase and *ngSwitchDefault)
+            - ngSwitch
+            - *ngSwitchCase
+            - *ngSwitchDefault
+    - Attribute Directive: listens to and modifies the behaviour of other elements, attributes, properties, and components. However, usually applied to attributes 
+        - NgClass : adds and removes a set of CSS classes 
+        - NgStyle : adds and removes a set of HTML styles
+        - NgModel : allows for two-way data binding to an HTML form element (exposed in FormsModule)
+
+  </blockquote>
+</details>
+
+---
+
+39.  How can components communicate in ng?
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -741,29 +776,7 @@ Some of the most common decorators in Angular are:
 
 ---
 
-39. What are the different types of directives?
-
-<details><summary><b>Show Answer</b></summary>
-
- <blockquote>
-
-  </blockquote>
-</details>
-
----
-
-40.  How can components communicate in ng?
-
-<details><summary><b>Show Answer</b></summary>
-
- <blockquote>
-
-  </blockquote>
-</details>
-
----
-
-41. What is inside Angular ngModule?
+40. What is inside Angular ngModule?
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -788,30 +801,46 @@ The Angular CLI generates the basic *AppModule* (src/app/app.module.ts file) whe
 
 ---
 
-42. What is a component?
+41. What is a component?
     
 <details><summary><b>Show Answer</b></summary>
 
  <blockquote>
 
+Components are building blocks of Angular applications.
+
+A component consists of:
+1. An HTML template.
+2. A CSS selector.
+3. Optional CSS Styles applied to the template
+4. A TypeScript class that defines the behaviour of the component.
+
   </blockquote>
 </details>
 
 ---
 
-43. What services have you used?
+42. What services have you used?
 
 <details><summary><b>Show Answer</b></summary>
 
  <blockquote>
 
+ Few Services in Angular:
+
+1. **HttpClient:** used to make HTTP requests to a server.
+2. **ActivatedRoute:** used to access information about the currently activated route.
+3. **Router:** used to navigate between different routes in the application.
+4. **EventEmitter:** used to emit and listen to custom events.
+5. **AuthService:** used to handle authentication and authorization in the application.
+
   </blockquote>
 </details>
 
 ---
 
 
-44. Differences between Angular and AngularJS?
+43. Differences between Angular and AngularJS?
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -836,56 +865,56 @@ The main differences between AngularJS and Angular are:
 
 ---
 
-45.  What is Databinding?
+44.  What is Databinding?
 
 <details><summary><b>Show Answer</b></summary>
 
  <blockquote>
+
+## Data Binding
+
+- The data transfer between the part of the Template and the model is called Binding.
+- Binding is used to synchronize the view and model, and the Change detection algorithm is used for this process.
+
+### One way binding
+
+1. Text Interpolations: Text interpolation is a one-way transfer of data from a TypeScript file in a model to an HTML template.
+2. Property Binding: The properties of HTML elements in the template can be dynamically modified by transferring data from TypeScript. it is used to set a specific element property.
+3. Event Binding: Listens for an element change event. Mostly event binding is used to listen to user actions.
+
+## 2-way binding
+Conventionally two-way binding is achieved by combining property binding/text interpolation and event binding, but in Angular, this is achieved by "[()]". Two-way binding is used to listen for events and update values.
 
   </blockquote>
 </details>
 
 ---
 
-46. Asked about NgModule and other Ngs?
+45. What is NgModule?
 
 <details><summary><b>Show Answer</b></summary>
 
  <blockquote>
+
+- Every Angular application consists of at least one module, the root module. We bootstrap that module to launch the application.
+
+- NgModules are TypeScript classes decorated with the `@NgModule` decorator imported from the `@angular/core` package.
+
+- NgModule takes metadata and describes how to compile a component's template and how to create an injector at runtime. It identifies the module's components, directives, and pipes and makes them public through the export property which can be used by external components.
+
+- The Angular CLI generates the basic *AppModule* (src/app/app.module.ts file) when creating a new application.
 
   </blockquote>
 </details>
 
 ---
 
-47. What is the purpose of the main.ts file?
+46. What is the purpose of the main.ts file?
 
 <details><summary><b>Show Answer</b></summary>
 
  <blockquote>
-
-  </blockquote>
-</details>
-
----
-
-48. What are some of the common directives in angular?
-
-<details><summary><b>Show Answer</b></summary>
-
- <blockquote>
-
-  </blockquote>
-</details>
-
----
-
-49. what is angular bootstrapping?
-
-<details><summary><b>Show Answer</b></summary>
-
- <blockquote>
-
+In Angular, the main.ts file is the entry point of the application. It is responsible for bootstrapping the root module of the application, which in turn loads all the other modules and components needed to run the application.
 
 
   </blockquote>
@@ -893,7 +922,38 @@ The main differences between AngularJS and Angular are:
 
 ---
 
-50. What are some angular components?
+47. What are some of the common directives in angular?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+ ### Directives
+
+ A Directive is a custom HTML element or attribute used to power up and extend our HTML. Component directives, Structural Directives and Attribute directives are few common directives in Angular
+
+
+  </blockquote>
+</details>
+
+---
+
+48. what is angular bootstrapping?
+
+<details><summary><b>Show Answer</b></summary>
+
+ <blockquote>
+
+- Angular bootstrapping is the process of initializing an Angular application, creating the root component, and then rendering the application on the browser. 
+- The bootstrap process involves loading the required modules and components, compiling them, and finally, rendering them on the browser. 
+- This process is usually initiated by the main.ts file, which contains the necessary code to bootstrap an Angular application.
+
+  </blockquote>
+</details>
+
+---
+
+49. What are some angular components?
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -907,7 +967,7 @@ The main differences between AngularJS and Angular are:
 
 ---
 
-51. How was data handled in between you Angular components?
+50. How was data handled in between you Angular components?
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -920,7 +980,7 @@ The main differences between AngularJS and Angular are:
 
 ---
 
-52. How to connect angular frontend to entityframework backend?
+51. How to connect angular frontend to entityframework backend?
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -933,7 +993,7 @@ The main differences between AngularJS and Angular are:
 
 ---
 
-53. How would you approach targeting a UI element with a selector if that element continuously changes?
+52. How would you approach targeting a UI element with a selector if that element continuously changes?
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -944,7 +1004,7 @@ The main differences between AngularJS and Angular are:
   </blockquote>
 </details>
 
-54. What is Dependency Injection in Angular?
+53. What is Dependency Injection in Angular?
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -977,13 +1037,19 @@ A service can be created and injected in the following steps:
 
 ---
 
-55. how do you tie a value to an html element?/databinding?
+54. how do you tie a value to an html element?
 
 <details><summary><b>Show Answer</b></summary>
 
  <blockquote>
 
+ In Angular, you can tie a value to an HTML element using data binding. There are different types of data binding methods, including:
 
+1. **Interpolation:** This method is used to display a component property value in the view. To bind a value to an HTML element using interpolation, you can use double curly braces {{ }} around the property name.
+
+2. **Property binding:** This method is used to set an element property to a component property value. To bind a value to an HTML element using property binding, you can use square brackets [ ] around the property name.
+
+3. **Event binding:** This method is used to trigger an action in the component when an element event occurs. To bind an event to a component method, you can use parentheses ( ) around the event name.
   </blockquote>
 </details>
 

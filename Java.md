@@ -577,6 +577,32 @@ You should use StringBuilder instead of String when you need to concatenate a la
 
 <blockquote>
 
+In Java, a singleton class is a class that allows only one instance of itself to be created and provides a global point of access to that instance.
+
+
+To create a singleton class in Java, you can follow these steps:
+
+1. Declare the class as final to prevent it from being extended.
+2. Declare a private constructor to prevent the class from being instantiated from outside the class.
+3. Declare a private static variable of the same type as the class, which will hold the single instance of the class.
+4. Declare a public static method that returns the single instance of the class. This method should create the instance if it doesn't already exist, and return the existing instance if it does.
+
+
+```java
+public final class MySingletonClass {
+    private static MySingletonClass instance = null;
+    private MySingletonClass() {
+    }
+    public static MySingletonClass getInstance() {
+        if (instance == null) {
+            instance = new MySingletonClass();
+        }
+        return instance;
+    }
+}
+
+```
+
 
 </blockquote>
 
@@ -589,7 +615,13 @@ You should use StringBuilder instead of String when you need to concatenate a la
 
 <blockquote>
 
-
+| Feature          | HashMap                     | HashTable                          |
+| ---------------- | --------------------------- | ---------------------------------- |
+| Synchronization  | Not synchronized            | Synchronized                       |
+| Thread-safety    | Not thread-safe             | Thread-safe                        |
+| Null keys/values | Allows null keys and values | Does not allow null keys or values |
+| Iterator         | Fail-fast iterator          | Enumeration (legacy)               |
+| Performance      | Faster than HashTable       | Slower than HashMap                |
 
 
 </blockquote>
