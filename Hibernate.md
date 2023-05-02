@@ -55,3 +55,80 @@ To write SQL statements in Hibernate, you can use either native SQL. To use nati
 </details>
 
 ---
+
+5. What is ORM?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+ORM stands for Object-Relational Mapping, it isused to map data between an object-oriented programming language and a relational database. It helps developers work with database records as if they were objects in their programming language, making it easier to manage database interactions. Java also have a ORM framework tool called Hibernate.
+</blockquote>
+
+</details>
+
+---
+
+
+6. How do you define a many to one relationship in hibernate
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+In many-to-one relationship type many records from one table("many" side) belong to only one record of another table("one" side). To define this type of relationship in Hibernate, you can use the `@ManyToOne` annotation on the field of the "many" side of the association. 
+
+</blockquote>
+
+</details>
+
+---
+
+7. In Hibernate, what is the difference between save, update and persist?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The `save()` method is used to save a new entity to the database. If the object has already been saved before, then it will throw an exception. The `update()` method is used to update an existing entity object in the database. It throws an exception if the object is not found in the database. The `persist()` method is similar to the `save()` method, but the difference between them is that `save()` method returns the saved object with generated primary key, whereas the `persist()` method does not return anything.
+
+</blockquote>
+
+</details>
+
+---
+
+8. What does the @entity annotation do in hibernate?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The @Entity annotation is used to inform Hibernate that the marked class  represents a table in the database. It also tells Hibernate to create or update the corresponding table of the class in the database schema when the application is deployed.
+
+</blockquote>
+
+</details>
+
+---
+
+9. Name some other annotation and explain what the do.
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The hibernate annotations and their functionality is mentioned below:
+
+- `@Entity`: It marks a Java class as a entity and maps it to a database table.
+- `@Table`: It specifies the name of the table that corresponds to an entity.
+- `@Id`: It specifies the primary key column of an entity.
+- `@GeneratedValue`: It specifies the strategy for generating primary key values.
+- `@Column`: It is used to customize the column's name, type, and constraints.
+- `@ManyToOne` and `@OneToMany`: Defines a many-to-one or one-to-many relationship between entities.
+
+</blockquote>
+
+</details>
+
+---
