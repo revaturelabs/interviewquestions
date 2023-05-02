@@ -500,7 +500,7 @@ The `volatile` keyword in Java is used to indicate that a variable's value may b
   
 <blockquote>
 
-Serialization in Java is the process of converting an object into a stream of bytes so that it can be stored in a file or sent over a network. In Java serialization is achieved by implementing the `Serializable` interface, which is a marker interface with no methods. To convert back the serialized bytes back to the object java use a process called `Deserialization`. We can not serialize all the objects. The objects that contain non-serializable fields or methods such as open file handles or network connections, cannot be serialized. 
+Serialization is the process of converting an object into a stream of bytes so that it can be stored in a file or sent over a network. In Java serialization is achieved by implementing the `Serializable` interface, which is a marker interface with no methods. To convert back the serialized bytes back to the object java use a process called `Deserialization`. We can not serialize all the objects. The objects that contain non-serializable fields or methods such as open file handles or network connections, cannot be serialized. 
 
 </blockquote>
 
@@ -1118,7 +1118,7 @@ The `String` class provides many methods for manipulating strings. The `String` 
   
 <blockquote>
 
-The typecasting in java is the process of converting a value of one data type to another data type. There are two types of typecasting: implicit and explicit. In Implicit typecasting a smaller data type is converted to a larger data type. For example, converting an int to a long or a float to a double. The implicit typecasting happens automatically.In Explicit typecasting, also known as narrowing conversion, a larger data type is converted to a smaller data type. It requires the programmer to specify the type to which the value is going to be cased. For example, converting a double to an int.
+Typecasting is the process of converting a value of one data type to another data type. There are two types of typecasting implicit and explicit. In Implicit typecasting a smaller data type is converted to a larger data type. For example, converting an int to a long or a float to a double. The implicit typecasting happens automatically.In Explicit typecasting, also known as narrowing conversion, a larger data type is converted to a smaller data type. It requires the programmer to specify the type to which the value is going to be cased. For example, converting a double to an int.
 
 </blockquote>
 
@@ -1257,13 +1257,20 @@ public class Test extends Animal {
 ---
 
 
-76. 
+76. How do you write an XML file?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
+To write an XML file:
 
-
+- Decide on the structure of your XML file.
+- Open a text editor or an XML editor.
+- Start with the XML declaration at the beginning of the file: <?xml version="1.0" encoding="UTF-8"?>, which identifies the file as an XML file.
+- Create the root element of the XML file with a start and end tag.
+- Inside the root element, create other elements and add attributes and values to them.
+- Save the file with an `.xml` file extension.
+- Validate the XML file using an XML validator.
 
 </blockquote>
 
@@ -1376,7 +1383,23 @@ int i = integer.intValue();
   
 <blockquote>
 
+A lambda expression is a type of anonymous function in Java that can be used to implement functional programming concepts.
 
+Example for lambda expression,
+
+```java
+
+interface Calculator {
+  int calculate(int x, int y);
+}
+
+Calculator addition = (int x, int y) -> x + y;
+
+int result = addition.calculate(10, 20);
+System.out.println(result); // Output: 30
+
+```
+In the above code, we first define a functional interface called Calculator that has one method called calculate(). Then we create a lambda expression called addition that implements the calculate() method by adding two numbers together.
 
 </blockquote>
 
@@ -1392,7 +1415,29 @@ int i = integer.intValue();
   
 <blockquote>
 
+To create a linked list you can use `LinkedList` class from the `Collection` interface in Java, which will create a doubly-linked list data structure. 
 
+For an example:
+
+```java
+import java.util.*;
+
+public class LinkedListExample {
+    public static void main(String[] args) {
+        LinkedList<String> list = new LinkedList<>();
+
+        list.add("Apple");
+        list.add("Mango");
+        list.add("Banana");
+
+        System.out.println("LinkedList elements: " + list);
+
+    }
+}
+
+```
+
+In this example, we create a `LinkedList` object called list and add several elements to it using the `add()` method. We then print the elements of the list using the `println()` method.
 
 </blockquote>
 
@@ -1408,7 +1453,7 @@ int i = integer.intValue();
   
 <blockquote>
 
-OOPs stands for Object-Oriented Programming. It is a methodology to design a program to simplify the application development process. There are four main pillers of OOPs including encapsulation, inheritance, polymorphism, and abstraction.  
+OOPs stands for `Object-Oriented Programming`. It is a methodology to design a program to simplify the application development process. There are four main pillers of OOPs including `Encapsulation`, `Inheritance`, `Polymorphism`, and `Abstraction`.  
 
 </blockquote>
 
@@ -1840,35 +1885,6 @@ public class Test{
 <blockquote>
 
 An abstract class is a class that cannot be instantiated on its own but can be extended to create subclasses. It provides a blueprint for other classes and defines common characteristics and behavior that can be shared by multiple subclasses. The abstract class contains abstract and non-abstract methods, the abstract methods must be implemented in the subclasses that extend the abstract class. The keyword `abstract` is used to define an abstract class.
-
-</blockquote>
-
-</details>
-
----
-
-103. How do you write an XML file?; 
-
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-
-
-</blockquote>
-
-</details>
-
----
-
-104. 
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-
 
 </blockquote>
 

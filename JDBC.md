@@ -41,13 +41,13 @@ To set up the driver in a Java application, first, you need to download the JDBC
 ---
 
 
-4. What should be imported in JDBC?
+4. What should be imported in JDBC to connect with the database?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-
+To connect with a database using JDBC, you need to import the packages like `java.sql.DriverManager`, `java.sql.Connection`, `java.sql.Statement`, `java.sql.ResultSet`, and `java.sql.SQLException`. 
 
 </blockquote>
 

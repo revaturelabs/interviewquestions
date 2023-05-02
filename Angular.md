@@ -427,7 +427,23 @@ This depends on the use case and requirements of your application. If you have a
   
 <blockquote>
 
+`ngForm` directive is used to create form element in angular and bind it to a template variable.
 
+For example,
+
+```html
+<form #myForm="ngForm" (ngSubmit)="onSubmit(myForm)">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" ngModel required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" ngModel required>
+
+  <button type="submit">Submit</button>
+</form>
+
+```
+In above example the `ngModel` directive is also used for two-way data binding, which allows you to bind the input value to a variable in the component.
 
 </blockquote>
 
@@ -469,7 +485,7 @@ Dependency Injection (DI) in Angular is a feature that allows you to inject depe
   
 <blockquote>
 
-
+Angular does not have any states and props. These feature are related to React.
 
 </blockquote>
 
@@ -483,21 +499,7 @@ Dependency Injection (DI) in Angular is a feature that allows you to inject depe
   
 <blockquote>
 
-
-
-</blockquote>
-
-</details>
-
----
-
-29. I was asked all kinds of questions about Angular, its components & templates, npm, directives, route guards, libraries, etc. I was asked about "parallel queries" in SQL, which I had not heard before, but figured it might be another term for multiple query, as with unions and views. 
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-
+In Angular, lazy loading is a technique where instead of loading all the components and modules of an application at once during its initial loading, we load the modules based on their requirement. It is achieved by configuring the application's routing module to load the components or modules asynchronously when needed using the `loadChildren` property. This approach helps to reduce the initial load time of an application and improve performance. 
 
 </blockquote>
 
@@ -505,13 +507,27 @@ Dependency Injection (DI) in Angular is a feature that allows you to inject depe
 
 ---
 
-30. List some decorators in Angular
+29. Route guards in angular.
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
+Route guards are used to prevent unauthorized access to certain routes in an Angular. It checks if the user is allowed to access a particular route or not. There are different type of route guard in Angular such as `CanActivate`, `CanActivateChild`, `CanDeactivate`, `Resolve`, and `CanLoad`.
 
+</blockquote>
+
+</details>
+
+---
+
+30. List some decorators in Angular.
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Decorators are used to modify the behavior of a class or its members.  Some examples of decorators are `@Component`, `@Directive`, `@Injectable`, `@Input`, `@Output`, `@ViewChild`, and `@HostBinding`, etc.
 
 </blockquote>
 
@@ -525,6 +541,14 @@ Dependency Injection (DI) in Angular is a feature that allows you to inject depe
   
 <blockquote>
 
+| AngularJS                                                                | Angular                                                                  |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
+| It is a JavaScript-based open-source front-end web application framework | It is a TypeScript-based open-source front-end web application framework |
+| It is based on the Model-View-Controller (MVC) architecture.             | It is based on the Model-View-ViewModel (MVVM) architecture              |
+| AngularJs is slower as compared to Angular.                              | Angular is generally faster as compared to AngularJS                     |
+| It is not mobile-friendly                                                | It has excellent mobile support.                                         |
+| It uses controllers and $scope for building applications                 | It uses components and services for building applications                |
+| AngularJS do not have a CLI tool.                                        | Angular comes with a CLI tool                                            |
 
 
 </blockquote>
@@ -539,7 +563,7 @@ Dependency Injection (DI) in Angular is a feature that allows you to inject depe
   
 <blockquote>
 
-
+Routing is a mechanism that allows the user to navigate between different components or views. When a user clicks a link or enters a URL into the browser, the Angular router checks the URL against the registered routes and loads the associated component. The router then adds the component to the DOM and replace any existing component that was previously displayed. 
 
 </blockquote>
 
@@ -553,7 +577,7 @@ Dependency Injection (DI) in Angular is a feature that allows you to inject depe
   
 <blockquote>
 
-
+To handle exceptions, Angular has a built-in exception handling mechanism which is implemented using the `ErrorHandler` class. You can create a custom error handler by extending the `ErrorHandler` class and overriding its `handleError()` method.
 
 </blockquote>
 
@@ -567,7 +591,7 @@ Dependency Injection (DI) in Angular is a feature that allows you to inject depe
   
 <blockquote>
 
-
+TypeScript is an open-source, object-oriented programming language. It is a strict syntactical superset of JavaScript and adds optional static typing and class-based object-oriented programming concepts to it. TypeScript code is compiled into plain JavaScript code and can be executed in any browser or runtime environment that supports JavaScript. It is used to build web and mobile applications. 
 
 </blockquote>
 
@@ -581,7 +605,13 @@ Dependency Injection (DI) in Angular is a feature that allows you to inject depe
   
 <blockquote>
 
+The `apply()` method is a built-in method in JavaScript that allows you to call a function with a given `this` value and arguments provided as an array. The main advantage of using the `apply()` method is that it allows you to dynamically set the value of `this` for a function
 
+Syntax for `apply()` method:
+
+```js
+function.apply(thisArg, [argsArray])
+```
 
 </blockquote>
 
@@ -595,7 +625,28 @@ Dependency Injection (DI) in Angular is a feature that allows you to inject depe
   
 <blockquote>
 
+In JavaScript, the `bind()` method is used to create a new function with a specified this value. When `bind()` is called on a function, it creates a new function as the original function, but the `this` keyword inside the function will be bound to the first argument of the `bind()` method.
 
+For example,
+
+```js
+
+const myObj = {
+  x: 1,
+  getX: function() {
+    return this.x;
+  }
+};
+
+const unboundGetX = myObj.getX;
+console.log(unboundGetX()); // Output: undefined
+
+const boundGetX = unboundGetX.bind(myObj);
+console.log(boundGetX()); // Output: 1
+
+```
+
+In the above example, when we assign the getX method to a variable unboundGetX and call it, the `this` keyword inside the method is not bound to myObj, so it returns undefined. So, We use bind method to bind `this` keyword to myObj.
 
 </blockquote>
 
@@ -609,7 +660,7 @@ Dependency Injection (DI) in Angular is a feature that allows you to inject depe
   
 <blockquote>
 
-
+To create a component in Angular, you can use the command `ng generate component component-name` or `ng g c component-name`.
 
 </blockquote>
 
@@ -623,7 +674,7 @@ Dependency Injection (DI) in Angular is a feature that allows you to inject depe
   
 <blockquote>
 
-
+To create a module in angular application, inside the `src/app` folder create a typescript file with name `<module-name>.module.ts`. Use the `@NgModule` decorator to define the metadata for the module. The `@NgModule` decorator takes an object as an argument with properties such as `declarations`, `imports`, `exports`, `providers`, and `bootstrap`. Add the `@NgModule` decorator to the top of the module class and export it by using the `export` keyword.
 
 </blockquote>
 
@@ -637,7 +688,7 @@ Dependency Injection (DI) in Angular is a feature that allows you to inject depe
   
 <blockquote>
 
-
+`package.json` file is used to edit the dependencies for the application. This file contains metadata about the project and the dependencies required by the application.
 
 </blockquote>
 
@@ -646,13 +697,13 @@ Dependency Injection (DI) in Angular is a feature that allows you to inject depe
 ---
 
 
-40. What is the angular life cycle?
+40. What is the angular component life cycle?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-
+Angular component lifecycle refers to a series of stages in the life of an Angular component, starting from its intialization till its destruction.These stages are hooked to methods that are executed by Angular. The most important methods in this lifecycle are `ngOnInit()`, `ngOnChanges()`, `ngDoCheck()`, `ngAfterContentInit()`, `ngAfterContentChecked()`, `ngAfterViewInit()`, `ngAfterViewChecked()`, and `ngOnDestroy()`.
 
 </blockquote>
 

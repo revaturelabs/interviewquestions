@@ -3,7 +3,7 @@
   
 <blockquote>
 
-Both the `let` and `var` keywords are used to declare variables in JavaScript. The main difference between them is that `var` is function-scoped, while `let` is block-scoped. This means that when you declare a variable with `var` inside a function, it is accessible throughout the entire function, whereas `let` is only accessible within the block it is declared in. `Hoisting` is supported by `var` but not by `let`. Also, we can redeclare a variable in the same scope using `var`, but we can only declare a variable once in the same scope using `let`. 
+The `let` and `var` keywords are used to declare variables in JavaScript. The main difference between them is that `var` is function-scoped, while `let` is block-scoped. This means that when you declare a variable with `var` inside a function, it is accessible throughout the entire function, whereas `let` is only accessible within the block it is declared in. `Hoisting` is supported by `var` but not by `let`. Also, we can redeclare a variable in the same scope using `var`, but we can only declare a variable once in the same scope using `let`. 
 
 </blockquote>
 
@@ -214,13 +214,13 @@ The `render()` method is used in React and Vue.js to define the view of a compon
 
 ---
 
-14. 
+14. Tell me about JavaScript?
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-
+JavaScript is a high-level, dynamic, and interpreted programming language that is used to create interactive web pages. It can be used on both the client-side and server-side. JavaScript is also widely used for developing web applications and provides frameworks like Angular and React to make development faster and more efficient.
 
 </blockquote>
 
@@ -368,63 +368,28 @@ A function which is passed as an argument to another function is called a callba
   
 <blockquote>
 
+A closure is a feature in JavaScript that allows a function to access variables that are defined outside of its own scope. In other words, it is an inner function that has access to the variables and parameters of its outer function even after the outer function has completed execution.
 
+For example, 
 
-</blockquote>
+```javascript
 
-</details>
+function outerFunction() {
+  let outerVar = 'I am outside!';
 
----
+  function innerFunction() {
+    console.log(outerVar);
+  }
 
-22. Tell me about JavaScript?
+  return innerFunction;
+}
 
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
+let innerFunc = outerFunction();
+innerFunc(); // Output: I am outside!
 
+```
 
-
-</blockquote>
-
-</details>
-
----
-
-23. What is state?  
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-
-
-</blockquote>
-
-</details>
-
----
-
-24. How do you get the current state? 
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-
-
-</blockquote>
-
-</details>
-
----
-
-25.
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-
+When you execute the above code. It will give you an output as `I am outside!`. This is because even if the outer function has been completely executed the inner function has access to the variables of the outer function.
 
 </blockquote>
 
