@@ -89,7 +89,6 @@ print(lst.index(6))
 <blockquote>
 
 Code for calculator application is mentioned below:
-
 **Java**
 
 ```java
@@ -247,8 +246,6 @@ print(reverse(s))
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
-
-To find the largest number is an array you can use the following code.
 
 **Java**
 
@@ -848,9 +845,9 @@ if __name__ == '__main__':
   
 <blockquote>
 
-**Java**
-
 The following code contains a  `generateList()` method which generates a list with random elements every time it is called. The size of the list must be passed as an argument to the `generateList()` method.
+
+**Java**
 
 ```java 
 import java.util.*;
@@ -895,9 +892,9 @@ public class Test{
   
 <blockquote>
 
-**Java**
-
 The following code will sort a list of integers in ascending order using the built-in `Collections` class in Java:
+
+**Java**
 
 ```java
 
@@ -1020,6 +1017,107 @@ public class Test{
 }
 
 ```
+**C#**
+
+```C#
+
+using System;
+using System.Collections;
+
+class Stud{
+
+// Comparator class
+// to sort according to last name
+class StudentComparer : IComparer
+{
+	public int Compare(object x, object y)
+	{
+		return(new CaseInsensitiveComparer()).Compare(((Student)x).LastName,
+			((Student)y).LastName);
+	}
+}
+
+// Student class
+class Student
+{
+	public int Id
+	{
+		get;
+		set;
+	}
+	public string FirstName
+	{
+		get;
+		set;
+	}
+	public string LastName
+	{
+		get;
+		set;
+	}
+}
+
+// Driver code
+static public void Main()
+{
+	
+	// Initializing an array of Student type
+	Student[] students = {
+			
+			// Initializing using constructors
+			new Student(){ FirstName = "Bhuwanesh",
+						LastName = "Nainwal" },
+			new Student(){ FirstName = "Anil",
+						LastName = "Thapa" },
+			new Student(){ FirstName = "Hitesh",
+						LastName = "Kumar" }
+	};
+		
+	// Calling sort method by passing comparator
+	// function as an argument
+	Array.Sort(students, new StudentComparer());
+		
+	// Print array elements
+	foreach(var item in students)
+	{
+		Console.WriteLine(item.FirstName + ' ' +
+						item.LastName);
+	}
+}
+}
+
+```
+**Python**
+
+```Python
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def __str__(self):
+        return self.name
+
+def getName(person):
+    return person.name
+stud1 = Student("Sam", 12)
+stud2 = Student("Harry", 23)
+stud3 = Student("Tom", 17)
+stud4 = Student("John", 30)
+stud5 = Student("Kite", 40)
+
+
+myList = [stud1, stud2, stud3, stud4, stud5]
+print("Original list is:")
+for person in myList:
+    print(person, end=",")
+print("\n")
+myList.sort(key=getName)
+print("The sorted list is:")
+for person in myList:
+    print(person, end=",")
+
+```
 
 </blockquote>
 
@@ -1064,7 +1162,9 @@ public class Test{
 }
 
 ```
+
 **C#**
+
 ```C#
 using System;
 namespace Exercises
@@ -1093,7 +1193,9 @@ namespace Exercises
         }
     }
 }
+
 ```
+
 **python**
 
 ```python
@@ -1144,47 +1246,93 @@ public class Test{
 
 ---
 
-15. find the second longest word in the string.
+15. find the 2nd longest word in the string.
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-The following code will give you the second largest word in a string.
-
 **Java**
 
 ```java
 
-public class Test{
 
-    public static String findSecondLongestWord(String input) {
-        String[] words = input.split("\\s+");
-        
-        String longestWord = "";
-        String secondLongestWord = "";
-        
-       
-        for (String word : words) {
-            if (word.length() > longestWord.length()) {
-                secondLongestWord = longestWord;
-                longestWord = word;
-            } else if (word.length() > secondLongestWord.length() && !word.equals(longestWord)) {
-                secondLongestWord = word;
-            }
-        }
-        
-       
-        return secondLongestWord;
-    }
+import java.util.StringTokenizer;
 
+public class Main {
 
-    public static void main(String[] args) {
-        System.out.println(findSecondLongestWord("Good morning friend"));
-   
+	public static void main(String[] args) {
+
+		String str = "Welcome to the family";
+		StringTokenizer st = new StringTokenizer(str);
+    	String[] tokens = str.split(" ");
+
+		String longestWord = getLongestString(tokens);
+		String secondlongestWord = getSecondLongestString(tokens, longestWord);
+		System.out.println("String Longest Word in Array is " + secondlongestWord);
+	}
+
+	public static String getLongestString(String[] array) {
+		int maxLength = 0;
+		String longestString = null;
+		for (String s : array) {
+			if (s.length() > maxLength) {
+				maxLength = s.length();
+				longestString = s;
+			}
+		}
+		return longestString;
+	}
+
+	public static String getSecondLongestString(String[] array, String longestWord) {
+		int maxLength = 0;
+		String secondlongestString = null;
+		for (String s : array) {
+			if (s.length() > maxLength && s.length() < longestWord.length()) {
+				maxLength = s.length();
+				secondlongestString = s;
+			}
+		}
+		return secondlongestString;
+	}
+
 }
-    
+
+```
+
+**C#**
+
+```C#
+
+// C# program to find the number of charters
+// in the longest word in the sentence.
+using System;
+using System.Linq;
+
+class Solution {
+
+
+	public static void Main()
+	{
+		string st = "I like apples. I like red apples. I like red apples and green bananas.";
+        char[] sep = new char[]{'.',',',' '};
+        string secondLongestWord = (from words in st.Split(sep).Distinct().ToArray()
+                                    orderby words.Length descending
+                                    select words).Take(2).Last().ToString();
+
+        Console.WriteLine("Second longest word is: {0}" , secondLongestWord);
+	}
 }
+
+
+```
+
+**Python**
+
+```Python
+
+word = ["apple","is", "good", "for","health"] 
+print(sorted(word, key=len)[-2])
 
 ```
 
@@ -1201,67 +1349,75 @@ public class Test{
   
 <blockquote>
 
-We can use the following code to acheive the task.
 
-
-**java**
-
-```java
-
-import java.util.*;
-
-
-public class Test{
-
-    public static boolean hasOverlap(ArrayList<ArrayList<Integer>> classes) {
-        int prevEndTime = -1;
-        for (List<Integer> classTime : classes) {
-            int startTime = classTime.get(0);
-            int endTime = classTime.get(1);
-            if (prevEndTime > startTime) {
-                return true;
-            }
-            prevEndTime = endTime;
-        }
-        return false;
-    }
-
-    public static void main(String[] args) {
-
-        ArrayList<ArrayList<Integer>> classTimings = new ArrayList<ArrayList<Integer>>();
-
-        ArrayList<Integer> class1 = new ArrayList<Integer>();
-        class1.add(1);
-        class1.add(5);
-
-        ArrayList<Integer> class2 = new ArrayList<Integer>();
-        class2.add(3);
-        class2.add(6);
-
-
-        ArrayList<Integer> class3 = new ArrayList<Integer>();
-        class3.add(6);
-        class3.add(8);
-
-
-        classTimings.add(class1);
-        classTimings.add(class2);
-        classTimings.add(class3);
-
-        if(hasOverlap( classTimings )){
-            System.out.println("Classes overlap");
-        }else{
-            System.out.println("Classes do not overlap");
-        }
-        
-   
-}
-}
-
-```
 
 </blockquote>
 
 </details>
 
 ---
+
+17. Given a list of Integers:first index is start time.second index is end time.[1,2][1,2] How would you implement a function that returns how many instructors are needed on the day"
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+
+
+</blockquote>
+
+</details>
+
+---
+
+18. write a method in java that iterates through a string?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+
+
+</blockquote>
+
+</details>
+
+---
+
+19. Write a program to add two numbers without using the arithmatic operator.
+public static int add(int a, int b) {
+    while (b != 0) {
+        int carry = a & b;
+        a = a ^ b;
+        b = carry << 1;
+    }
+    return a;
+}
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+
+
+</blockquote>
+
+</details>
+
+---
+
+20. Had me do a coding exercise to analyze an ArrayList of Strings, and print out any strings that contain duplicates and how many, in the order they appear.
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+
+
+</blockquote>
+
+</details>
+
+---
+
