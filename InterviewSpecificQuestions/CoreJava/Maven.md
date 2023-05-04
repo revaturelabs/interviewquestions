@@ -568,3 +568,26 @@ The pom.xml file provides a central place to configure and manage project inform
 </details>
 
 ---
+36. What repositories do you know? 
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Maven repositories are locations where Maven can find dependencies and plugins needed to build and package a project. There are several types of Maven repositories:
+
+- Local repository: This is the repository on your local machine where Maven caches all the dependencies you have downloaded. By default, it is located in the .m2 directory in your home directory.
+
+- Remote repository: This is a repository that is hosted on a remote server, which contains the dependencies and plugins that you need. There are many public remote repositories available, such as Maven Central, JCenter, and Google Maven Repository.
+
+- Private repository: This is a repository that is hosted on a private server and contains dependencies and plugins that are not available in public repositories. You can set up your own private repository using tools like Nexus, Artifactory, or Archiva.
+
+- Mirror repository: This is a repository that mirrors another repository, either a public or private one. It can be useful to set up a mirror repository if you have slow or unreliable access to a particular repository, or if you want to reduce the load on a particular repository.
+
+In the pom.xml file, you can specify which repositories to use for your project by adding repository and pluginRepository elements.
+
+</blockquote>
+
+</details>
+
+---
