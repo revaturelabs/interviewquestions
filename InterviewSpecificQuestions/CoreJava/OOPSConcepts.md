@@ -1069,3 +1069,23 @@ Annotation - This interface is used to mark an annotation type, which is used to
 </details>
 
 ---
+
+47. Can an interface extend a class? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+No, in Java, an interface cannot extend a class. An interface is a completely separate construct from a class and cannot inherit from a class. In Java, an interface can only extend another interface, using the extends keyword.
+
+The reason for this is that a class and an interface have different purposes and functionality in Java. A class defines the behavior and state of an object, while an interface defines a set of methods that a class must implement. Since a class and an interface serve different purposes, it is not possible to mix the two by allowing an interface to extend a class.
+
+However, a class can implement multiple interfaces, allowing it to provide implementations for multiple sets of methods. This is a powerful feature of Java that allows for flexible and modular design.
+
+</blockquote>
+
+</details>
+
+---
