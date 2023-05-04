@@ -1089,3 +1089,36 @@ However, a class can implement multiple interfaces, allowing it to provide imple
 </details>
 
 ---
+
+48. What is the difference between method overloading and method overriding?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Method overloading and method overriding are two important concepts in object-oriented programming in Java. The main difference between them is that method overloading involves creating multiple methods with the same name in a class, but with different parameters, whereas method overriding involves creating a new implementation of a method in a subclass, with the same name and parameters as a method in its superclass.
+
+Here are some more details about each concept:
+
+Method Overloading:
+
+Method overloading is a feature of Java that allows a class to have multiple methods with the same name, but with different parameters.
+The methods must have different parameter lists, which can differ in terms of the number, order, and types of parameters.
+Method overloading allows a class to provide multiple ways of calling the same method, depending on the types and number of arguments passed to it.
+Method overloading is resolved at compile time, based on the number and types of arguments passed to the method.
+Method Overriding:
+
+Method overriding is a feature of Java that allows a subclass to provide a new implementation of a method that is already defined in its superclass.
+The method in the subclass must have the same name and parameters as the method in the superclass.
+Method overriding allows a subclass to provide a specialized implementation of a method that is tailored to its specific needs.
+Method overriding is resolved at runtime, based on the actual type of the object that the method is called on.
+In summary, method overloading involves creating multiple methods with the same name in a class, but with different parameters, while method overriding involves creating a new implementation of a method in a subclass, with the same name and parameters as a method in its superclass.
+
+</blockquote>
+
+</details>
+
+---
+
