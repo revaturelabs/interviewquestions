@@ -833,3 +833,28 @@ To prevent SQL injection attacks, you should always use prepared statements or p
 </details>
 
 ---
+34. How did you write code to prevent SQL injection 
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Here is an example of how to prevent SQL injection by using a prepared statement instead of building a SQL query using string concatenation:
+```java
+String username = request.getParameter("username");
+String password = request.getParameter("password");
+String sql = "SELECT * FROM users WHERE username = ? AND password = ?";
+PreparedStatement stmt = conn.prepareStatement(sql);
+stmt.setString(1, username);
+stmt.setString(2, password);
+ResultSet rs = stmt.executeQuery();
+```
+In this code, the sql variable contains placeholders (?) for the username and password values. Instead of concatenating the values directly into the SQL query, we use a PreparedStatement object to set the values of the placeholders. This ensures that user input is treated as data rather than executable code, and reduces the risk of SQL injection.
+
+Note that this is just a simple example to illustrate the use of prepared statements. In practice, you should always use input validation and sanitization techniques to ensure that user input is safe and does not contain any malicious code.
+
+</blockquote>
+
+</details>
+
+---
