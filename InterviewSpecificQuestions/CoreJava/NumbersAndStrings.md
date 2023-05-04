@@ -546,3 +546,26 @@ String is more commonly used and provides greater flexibility and functionality,
 </details>
 
 ---
+26. How do I change the value of a String without allocating a different part of memory?
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+In Java, strings are immutable, which means that once a string object is created, it cannot be modified. However, you can create a new string object with a modified value without allocating a different part of memory by using the StringBuilder or StringBuffer class.
+
+Here's an example using StringBuilder:
+```java
+String originalString = "Hello, world!";
+StringBuilder modifiedStringBuilder = new StringBuilder(originalString);
+modifiedStringBuilder.setCharAt(7, 'W');
+String modifiedString = modifiedStringBuilder.toString();
+System.out.println(modifiedString);
+```
+In this example, we first create a StringBuilder object with the value of the original string. We then modify the 7th character of the string using the setCharAt() method, which updates the value in place without creating a new object. Finally, we create a new String object from the modified StringBuilder using the toString() method.
+
+</blockquote>
+
+</details>
+
+---
