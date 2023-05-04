@@ -1110,3 +1110,31 @@ Together, lambdas and the Streams API provide a powerful and flexible way to wor
 
 ---
 
+54. What are Projections in Java? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+In Java, projections can be performed using the Streams API, which provides a set of operations for processing collections of data.
+
+In the Streams API, a projection operation is typically performed using the map() method, which takes a lambda expression as an argument and applies it to each element in the stream. The lambda expression defines the transformation to be applied to each element, and the result is a new stream that contains the transformed elements.
+
+Here's an example of how to perform a projection using the Streams API:
+```java
+List<String> names = Arrays.asList("John", "Mary", "Bob", "Jane");
+
+List<Integer> nameLengths = names.stream()
+                                  .map(name -> name.length())
+                                  .collect(Collectors.toList());
+```
+In this example, we have a list of names, and we want to create a new list containing the length of each name. We use the stream() method to create a stream from the list, then use the map() method to apply a lambda expression that computes the length of each name. Finally, we use the collect() method to collect the transformed elements into a new list.
+
+Projections are a powerful tool for working with collections of data, allowing you to extract and transform specific subsets of data in a concise and expressive way.
+
+
+</blockquote>
+</details>
+
+---
