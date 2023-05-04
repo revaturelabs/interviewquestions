@@ -591,3 +591,52 @@ In the pom.xml file, you can specify which repositories to use for your project 
 </details>
 
 ---
+37. What are Maven executables and how do you use them 
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Maven executables are Java applications packaged in a JAR file along with a POM file and other resources required to run the application. These executables can be used to start a Java application directly from the command line or from a script, without the need to set up a classpath or install additional dependencies.
+
+To create a Maven executable, you need to add the following configuration to your project's POM file:
+```xml
+<build>
+  <plugins>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-assembly-plugin</artifactId>
+      <version>3.3.0</version>
+      <configuration>
+        <archive>
+          <manifest>
+            <mainClass>com.example.MainClass</mainClass>
+          </manifest>
+        </archive>
+        <descriptorRefs>
+          <descriptorRef>jar-with-dependencies</descriptorRef>
+        </descriptorRefs>
+      </configuration>
+      <executions>
+        <execution>
+          <phase>package</phase>
+          <goals>
+            <goal>single</goal>
+          </goals>
+        </execution>
+      </executions>
+    </plugin>
+  </plugins>
+</build>
+```
+This configuration uses the maven-assembly-plugin to create an executable JAR file containing all dependencies required to run the application. The mainClass element specifies the fully qualified name of the class containing the main method. When you run mvn package, Maven will generate the executable JAR file in the target directory.
+```code
+java -jar my-application.jar
+```
+This will start the Java application contained in the JAR file.
+
+</blockquote>
+
+</details>
+
+---
