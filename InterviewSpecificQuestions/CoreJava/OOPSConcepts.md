@@ -797,3 +797,47 @@ In summary, a constructor is used to initialize an object's state when it is cre
 </details>
 
 ---
+
+39. How do you call another constructor from a constructor? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+In Java, you can call another constructor of the same class using the this keyword and the constructor's parameters. Here's an example:
+
+```java
+public class MyClass {
+   private int myValue;
+
+   // First constructor
+   public MyClass(int value) {
+      myValue = value;
+   }
+
+   // Second constructor that calls the first constructor
+   public MyClass() {
+      this(0); // Calls the first constructor with value = 0
+   }
+}
+```
+In the example above, the second constructor calls the first constructor using the this keyword and passing in the value 0. This means that when an object is created using the second constructor, it will have a default value of 0 for the myValue field.
+
+You can also use the super keyword to call a constructor from the superclass if the class you're defining is a subclass. In that case, the super keyword is used instead of this. For example:
+
+```java
+public class MySubClass extends MyClass {
+   public MySubClass() {
+      super(10); // Calls the superclass constructor with value = 10
+   }
+}
+```
+In this example, the MySubClass constructor calls the superclass constructor with a value of 10 using the super keyword.
+
+</blockquote>
+
+</details>
+
+---
