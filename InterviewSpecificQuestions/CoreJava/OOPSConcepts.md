@@ -841,3 +841,37 @@ In this example, the MySubClass constructor calls the superclass constructor wit
 </details>
 
 ---
+40. What is the difference between the super keyword and this keyword regarding local variables 
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+In Java, the super and this keywords are used to refer to different things, including local variables.
+
+The this keyword is used to refer to the current instance of the class and is used to access instance variables and methods. When used with local variables, this is used to disambiguate a local variable from an instance variable with the same name. For example:
+
+```java
+public class MyClass {
+    private int myVariable;
+
+    public void myMethod(int myVariable) {
+        this.myVariable = myVariable; // Use "this" to access the instance variable
+        int localVariable = myVariable; // Use the local variable with the same name
+    }
+}
+```
+In this example, this.myVariable refers to the instance variable myVariable of the class MyClass, while int localVariable = myVariable creates a new local variable with the same name as the parameter.
+
+On the other hand, the super keyword is used to refer to the parent class of the current class and is not used to access local variables. The use of super is limited to accessing the parent class's constructors, methods, and instance variables.
+
+In summary, this is used to refer to the current instance of the class and can be used to disambiguate local variables from instance variables with the same name, while super is used to refer to the parent class of the current class and is not used to access local variables.
+
+</blockquote>
+
+</details>
+
+---
