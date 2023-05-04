@@ -1005,6 +1005,7 @@ A lambda expression is a short block of code that represents a function, which c
 ```code
 (parameter_list) -> { expression }
 ```
+It consists of a parameter list, an arrow token (->), and a body that can be an expression or a block of statements. 
 Here, parameter_list is a comma-separated list of the function's parameters (if any), and expression is the code that performs the function's computation.
 
 For example, here is a lambda expression that takes two integers and returns their sum:
@@ -1028,6 +1029,7 @@ In Java, a lambda function (also known as a lambda expression) is defined using 
 ```code
 (parameter_list) -> { expression }
 ```
+It consists of a parameter list, an arrow token (->), and a body that can be an expression or a block of statements. 
 Here, parameter_list is a comma-separated list of the function's parameters (if any), and expression is the code that performs the function's computation.
 
 For example, the following lambda function takes two integers and returns their sum:
