@@ -1075,3 +1075,22 @@ Overall, lambdas in Java are a powerful and flexible feature that enable more ex
 </details>
 
 ---
+52. What is the purpose of lambdas and Streams API? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+The purpose of lambdas and the Streams API in Java is to provide a more concise and expressive way to work with collections and perform operations on them in a functional style.
+
+Lambdas provide a way to represent a function as an object, which can be passed around and used like any other object. This allows you to write more concise and expressive code, especially when working with functional programming constructs like streams and collections.
+
+The Streams API provides a set of high-level operations that can be used to perform common data processing tasks, such as filtering, sorting, mapping, and reducing, on collections of data. The API is designed to be used with lambdas, allowing you to write code that is both concise and expressive.
+
+Together, lambdas and the Streams API provide a powerful and flexible way to work with collections and perform complex data processing tasks with minimal boilerplate code. They are especially useful for working with large datasets and performing complex data transformations and analysis.
+
+</blockquote>
+</details>
+
+---
