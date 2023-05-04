@@ -569,3 +569,20 @@ In this example, we first create a StringBuilder object with the value of the or
 </details>
 
 ---
+27. Tell me about how to create a String literal 
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+A String literal in Java is a sequence of characters enclosed in double quotation marks. To create a String literal in Java, you simply need to enclose the characters in double quotes as follows:
+```java
+String str = "Hello, World!";
+```
+This creates a String object with the value "Hello, World!" and assigns it to the variable str. Note that String literals are automatically interned in Java, which means that multiple String literals with the same value will refer to the same String object in memory.
+
+</blockquote>
+
+</details>
+
+---
