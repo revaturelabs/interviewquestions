@@ -508,3 +508,20 @@ If you have a Maven project with dependencies, you can use the mvn package comma
 </details>
 
 ---
+33. What is the build command for a Maven project? 
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The build command for a Maven project is mvn clean install.
+
+This command will clean the project, compile the source code, run tests, create the package, and install it into the local Maven repository.
+
+If you want to skip the tests during the build process, you can use the command mvn clean install -DskipTests.
+
+</blockquote>
+
+</details>
+
+---
