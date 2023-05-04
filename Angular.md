@@ -692,18 +692,8 @@ Here are the three methods that can be used with subscribe() in Angular:
 
 ---
 
-34.  what is $root in angular?
 
-<details><summary><b>Show Answer</b></summary>
-
- <blockquote>
-
-  </blockquote>
-</details>
-
----
-
-35. How do you make an HTTP request in Angular?
+34. How do you make an HTTP request in Angular?
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -717,7 +707,7 @@ Here are the three methods that can be used with subscribe() in Angular:
 ---
 
 
-36. What are observables and what is a promise?
+35. What are observables and what is a promise?
 
 <details><summary><b>Show Answer</b></summary>
 
@@ -728,7 +718,7 @@ Here are the three methods that can be used with subscribe() in Angular:
 
 ---
 
-37. Is data routing between two components possible, and if so how?
+36. Is data routing between two components possible, and if so how?
 
 <details><summary><b>Show Answer</b></summary>
 
