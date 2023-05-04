@@ -783,3 +783,28 @@ This code uses the url string to connect to the MySQL database and creates a Con
 </details>
 
 ---
+32. What types of operation do you use in result sets?  
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+In JDBC, a ResultSet object represents a set of rows returned by a SQL query. It provides methods to iterate over the rows and retrieve data from each column. Some of the common operations that you can perform on a ResultSet include:
+
+- Moving the cursor: You can move the cursor to the next row using the next() method. You can also move the cursor to a specific row using the absolute() or relative() methods.
+
+- Retrieving data: You can retrieve data from each column of the current row using methods like getString(), getInt(), getDouble(), etc. These methods take the column index or column name as a parameter.
+
+- Updating data: You can update the data in a ResultSet by calling the updateXXX() methods (such as updateString(), updateInt(), etc.) to modify the value of a column in the current row. After updating the data, you need to call the updateRow() method to save the changes to the database.
+
+- Inserting data: You can insert a new row into a ResultSet by calling the moveToInsertRow() method to position the cursor on the insert row, and then calling the updateXXX() methods to set the values of the columns. Finally, you need to call the insertRow() method to insert the new row into the database.
+
+- Deleting data: You can delete the current row from a ResultSet by calling the deleteRow() method. Note that this operation actually deletes the row from the database.
+
+- Closing the ResultSet: After you have finished processing a ResultSet, you should close it by calling the close() method. This releases any resources held by the ResultSet, such as database connections or network sockets.
+
+</blockquote>
+
+</details>
+
+---
