@@ -553,3 +553,18 @@ Here are some commonly used Maven keywords:
 </details>
 
 ---
+35. What is the pom.xml?   
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+In Apache Maven, the pom.xml file is the Project Object Model (POM) that contains information about the project and configuration details used by Maven to build the project. It is an XML file that contains all the necessary information to manage project dependencies, plugins, and build profiles.
+
+The pom.xml file provides a central place to configure and manage project information, such as the project name, description, version, and dependencies. It also defines the project structure and build settings, including source directories, output directories, and test sources. The pom.xml file can also define various profiles that allow for different configurations for different environments.
+
+</blockquote>
+
+</details>
+
+---
