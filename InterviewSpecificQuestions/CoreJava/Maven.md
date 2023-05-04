@@ -493,3 +493,18 @@ Ant has been widely used in the Java community for many years, and is still a po
 </details>
 
 ---
+32. What's the Maven command to compile code 
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The Maven command to compile code is mvn compile. This command will compile the Java source code located in the src/main/java directory by default and put the compiled classes in the target/classes directory.
+
+If you have a Maven project with dependencies, you can use the mvn package command to create a JAR file that includes all the compiled classes and dependencies. This JAR file can then be used to run your application.
+
+</blockquote>
+
+</details>
+
+---
