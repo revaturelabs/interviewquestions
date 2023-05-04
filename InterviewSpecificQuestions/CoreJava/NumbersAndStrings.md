@@ -514,3 +514,22 @@ Examples of immutable classes in Java include String, Integer, and LocalDate. Th
 </details>
 
 ---
+24. What is StringBuilder?
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+StringBuilder is a class in Java that provides a mutable sequence of characters. It is similar to the String class, but unlike String, StringBuilder allows modification of its characters without creating a new object. This makes it more efficient for applications that require frequent string manipulations.
+
+StringBuilder provides methods for appending, inserting, deleting, and replacing characters in the sequence. It also provides methods for converting the sequence to a String object or to a character array.
+
+StringBuilder is often used in situations where the contents of a string need to be modified frequently, such as in a loop that builds a long string incrementally. The use of StringBuilder in such cases can improve performance compared to using String, as creating a new String object for each iteration of the loop can be slow and inefficient.
+
+In summary, StringBuilder is a mutable class in Java that provides methods for modifying sequences of characters, making it more efficient than the immutable String class for certain types of applications.
+
+</blockquote>
+
+</details>
+
+---
