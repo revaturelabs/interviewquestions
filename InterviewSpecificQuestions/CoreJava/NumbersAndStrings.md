@@ -533,3 +533,16 @@ In summary, StringBuilder is a mutable class in Java that provides methods for m
 </details>
 
 ---
+25. String vs StringTokenizer 
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+String is more commonly used and provides greater flexibility and functionality, while StringTokenizer is used for simpler tasks that involve splitting a string into smaller substrings based on a delimiter. However, since StringTokenizer is a legacy class, it is recommended to use the String class and its built-in methods for more advanced string manipulation tasks.
+
+</blockquote>
+
+</details>
+
+---
