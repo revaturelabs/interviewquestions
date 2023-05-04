@@ -474,3 +474,22 @@ Snapshot refers to the version available in the Maven remote repository. It sign
 </details>
 
 ---
+31. Explain ANT.
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Ant is a Java-based build tool, similar to Make or Maven, that provides a way to automate software build processes. It is essentially an XML-based scripting language for building software, and is particularly useful for projects that have complex build processes.
+
+Using Ant, you can specify the dependencies between various elements of your project, such as source code files, libraries, and target directories. You can also define the sequence of tasks required to build and package your project, such as compiling, testing, and creating a final executable or library.
+
+One of the key benefits of Ant is that it is platform-independent, meaning that you can use the same build script across different operating systems and development environments. Additionally, Ant can be extended with custom tasks and plugins to support specific build requirements.
+
+Ant has been widely used in the Java community for many years, and is still a popular choice for automating Java build processes, although other tools like Maven and Gradle have gained popularity in recent years.
+
+</blockquote>
+
+</details>
+
+---
