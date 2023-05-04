@@ -497,3 +497,20 @@ In general, it is recommended to use string literals instead of creating new str
 </details>
 
 ---
+23. do you understand immutable classes?
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+In Java, immutable classes are classes whose instances cannot be modified once they are created. This means that the values of the instance variables of an immutable class cannot be changed after the object is created.
+
+Immutable classes are typically used to represent values that do not change over time, such as dates, times, and other types of data. By making these classes immutable, Java provides a level of safety and predictability in the code, as developers can be sure that the objects they are working with will not change unexpectedly.
+
+Examples of immutable classes in Java include String, Integer, and LocalDate. These classes are all final, which means they cannot be subclassed and their methods cannot be overridden, further ensuring their immutability.
+
+</blockquote>
+
+</details>
+
+---
