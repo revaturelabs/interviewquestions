@@ -404,3 +404,33 @@ The String class in Java has several built-in methods that allow you to manipula
 </details>
 
 ---
+20. What is the substring function used for?
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The substring() function in Java is a method of the String class that is used to extract a part of a string. It returns a new string that is a substring of the original string. The substring() method takes two parameters: the starting index and the ending index of the substring.
+
+The syntax of the substring() method is as follows:
+```java
+String substring(int startIndex)
+String substring(int startIndex, int endIndex)
+```
+The first form of the method returns the substring starting from the given index to the end of the string.
+
+The second form of the method returns the substring starting from the given start index up to, but not including, the specified end index.
+
+For example, the following code snippet extracts a substring from a given string:
+```java
+String str = "Hello World";
+String substr1 = str.substring(6); // Returns "World"
+String substr2 = str.substring(0, 5); // Returns "Hello"
+```
+Note that the index starts at 0, so the first character in the string has an index of 0.
+
+</blockquote>
+
+</details>
+
+---
