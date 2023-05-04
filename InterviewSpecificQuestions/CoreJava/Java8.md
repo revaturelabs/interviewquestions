@@ -1017,3 +1017,34 @@ Lambda expressions can also be used in functional interfaces, which are interfac
 </details>
 
 ---
+50. How would you define a lambda function
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+In Java, a lambda function (also known as a lambda expression) is defined using the following syntax:
+```code
+(parameter_list) -> { expression }
+```
+Here, parameter_list is a comma-separated list of the function's parameters (if any), and expression is the code that performs the function's computation.
+
+For example, the following lambda function takes two integers and returns their sum:
+```java
+(int a, int b) -> { return a + b; }
+```
+In this case, the parameter_list consists of two integers (int a and int b), and the expression simply adds them together and returns the result.
+
+Lambda functions can also have no parameters, as in this example:
+```java
+() -> { System.out.println("Hello, world!"); }
+```
+In this case, the lambda function takes no parameters and simply prints the message "Hello, world!" to the console.
+
+Lambda functions can be used in a variety of contexts in Java, including with collections, streams, and functional interfaces. They are a powerful and flexible tool for writing functional-style code in Java.
+
+</blockquote>
+</details>
+
+---
