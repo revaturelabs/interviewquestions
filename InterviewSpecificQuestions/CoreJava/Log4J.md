@@ -952,3 +952,22 @@ Logging can be implemented using various logging frameworks and libraries in dif
 </details>
 
 ---
+62. Recently, Log4J was in the news, why?
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Log4j was in the news in late 2021 due to a critical vulnerability that was discovered in its codebase. The vulnerability, known as CVE-2021-44228, allowed attackers to execute remote code on a targeted system by exploiting a flaw in Log4j's handling of log messages.
+
+The vulnerability affected Log4j 2.x versions prior to 2.15.0 and Log4j 1.x versions. As Log4j is widely used in many Java-based applications and libraries, the vulnerability posed a significant risk to the security of these systems.
+
+The severity of the vulnerability led to widespread concern and a rapid response from the security community. Several organizations, including Apache Software Foundation (ASF) which manages the development of Log4j, released patches and advisories urging users to upgrade to the latest version of the software as soon as possible.
+
+The Log4j vulnerability also highlighted the importance of proper vulnerability management and the need for organizations to have robust security measures in place to detect and mitigate such threats.
+
+</blockquote>
+
+</details>
+
+---
