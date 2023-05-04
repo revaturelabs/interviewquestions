@@ -775,3 +775,25 @@ In Java, we can define a class inside a class, and they are called nested classe
 </details>
 
 ---
+
+38. What is the difference between a constructor and a method?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+In object-oriented programming, a constructor and a method are both types of functions, but they serve different purposes.
+
+A constructor is a special type of method that is called automatically when an object is created. Its purpose is to initialize the object's instance variables and set them to some default or initial values. Constructors are usually named after the class and have no return type.
+
+A method, on the other hand, is a function that is defined within a class and operates on the object's data. Methods can be used to manipulate the object's data, perform calculations, or perform any other action that is necessary for the object to function properly. Methods can take parameters and return values, and they can be called by the object or by other parts of the program that have access to the object.
+
+In summary, a constructor is used to initialize an object's state when it is created, while a method is used to perform operations on the object's state after it has been created.
+
+</blockquote>
+
+</details>
+
+---
