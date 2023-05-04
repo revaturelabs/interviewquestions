@@ -921,3 +921,43 @@ Constructor overloading can be useful when you want to provide different ways to
 </details>
 
 ---
+
+42. Can constructors be private?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Yes, constructors can be made private in Java. When a constructor is declared as private, it can only be accessed from within the class, which means that objects of the class cannot be created from outside the class.
+
+One use case for private constructors is to implement the Singleton design pattern. In the Singleton pattern, a class is designed to have only one instance, and the constructor is made private to prevent multiple instances from being created. The Singleton pattern is often used for objects that represent system resources or settings that should not be duplicated.
+
+Here's an example of a class with a private constructor that implements the Singleton pattern:
+
+```java
+public class MySingleton {
+    private static MySingleton instance = new MySingleton();
+
+    private MySingleton() {
+        // Private constructor
+    }
+
+    public static MySingleton getInstance() {
+        return instance;
+    }
+
+    // Other methods and fields
+}
+```
+
+In this example, the MySingleton class has a private constructor, which means that objects of this class cannot be created from outside the class. Instead, the class provides a getInstance() method, which returns the only instance of the class that is created when the class is loaded. This ensures that only one instance of MySingleton exists throughout the lifetime of the program.
+
+Note that if a class has only private constructors, it cannot be subclassed or extended.
+
+</blockquote>
+
+</details>
+
+---
