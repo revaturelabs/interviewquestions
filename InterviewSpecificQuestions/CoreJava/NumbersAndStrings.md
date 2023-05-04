@@ -307,3 +307,28 @@ Reason:
 </details>
 
 ---
+16. Difference between int and Integer   
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+In Java, int and Integer are both used to represent integer values, but there are some key differences between them.
+
+- int is a primitive data type, while Integer is a wrapper class that provides a way to use int values in object-oriented contexts. This means that int values are stored as simple binary values, while Integer objects are stored as instances with attributes and behaviors.
+
+- int is a value type, while Integer is a reference type. This means that int values are passed by value, while Integer objects are passed by reference.
+
+- int has a default value of 0, while Integer has a default value of null.
+
+- int has a fixed range of values (-2,147,483,648 to 2,147,483,647), while Integer has a larger range of values (from -2^31 to 2^31-1) due to its ability to handle null values.
+
+- int values can be used directly in arithmetic operations, while Integer objects need to be converted to int values using the intValue() method before they can be used in arithmetic operations.
+
+Overall, int is generally preferred for basic arithmetic operations and where memory usage and performance are a concern, while Integer is more useful in situations where an object-oriented approach is needed, such as when dealing with collections or passing values between methods that require objects.
+
+</blockquote>
+
+</details>
+
+---
