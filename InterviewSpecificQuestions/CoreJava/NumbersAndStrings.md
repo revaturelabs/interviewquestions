@@ -358,3 +358,49 @@ Strings, StringBuilder, and StringBuffer are classes in Java used to manipulate 
 </details>
 
 ---
+
+19. What types of Methods are in a String class 
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The String class in Java has several built-in methods that allow you to manipulate and work with strings. Some of the most commonly used methods include:
+
+- length(): This method returns the length of a string.
+
+- charAt(int index): This method returns the character at the specified index in the string.
+
+- substring(int beginIndex): This method returns a new string that is a substring of the original string, starting from the specified index.
+
+- substring(int beginIndex, int endIndex): This method returns a new string that is a substring of the original string, starting from the specified begin index and ending at the specified end index.
+
+- indexOf(char c): This method returns the index of the first occurrence of the specified character in the string.
+
+- indexOf(String str): This method returns the index of the first occurrence of the specified substring in the string.
+
+- lastIndexOf(char c): This method returns the index of the last occurrence of the specified character in the string.
+
+- lastIndexOf(String str): This method returns the index of the last occurrence of the specified substring in the string.
+
+- toUpperCase(): This method returns a new string with all characters in uppercase.
+
+- toLowerCase(): This method returns a new string with all characters in lowercase.
+
+- equals(Object obj): This method compares the string to the specified object and returns true if they are equal.
+
+- equalsIgnoreCase(String str): This method compares the string to the specified string, ignoring case differences.
+
+- startsWith(String prefix): This method returns true if the string starts with the specified prefix.
+
+- endsWith(String suffix): This method returns true if the string ends with the specified suffix.
+
+- replace(char oldChar, char newChar): This method returns a new string with all occurrences of the specified old character replaced with the specified new character.
+
+- replaceAll(String regex, String replacement): This method returns a new string with all occurrences of the specified regular expression replaced with the specified replacement string.
+
+</blockquote>
+
+</details>
+
+---
