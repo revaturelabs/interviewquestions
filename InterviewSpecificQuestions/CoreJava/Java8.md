@@ -992,3 +992,28 @@ It encapsulates optional values, i.e., null or not-null values, which helps in a
 </details>
 
 ---
+49. What are lambda expressions or lambda functions
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Lambda expressions are a feature introduced in Java 8 that allow you to write anonymous functions in a more concise and expressive way.
+
+A lambda expression is a short block of code that represents a function, which can be passed around and executed as if it were an object. The syntax for a lambda expression is as follows:
+```code
+(parameter_list) -> { expression }
+```
+Here, parameter_list is a comma-separated list of the function's parameters (if any), and expression is the code that performs the function's computation.
+
+For example, here is a lambda expression that takes two integers and returns their sum:
+```java
+(int a, int b) -> { return a + b; }
+```
+Lambda expressions can also be used in functional interfaces, which are interfaces that define exactly one abstract method. A lambda expression can be used to provide an implementation for the abstract method of a functional interface, allowing the interface to be used like a regular Java method.
+
+</blockquote>
+</details>
+
+---
