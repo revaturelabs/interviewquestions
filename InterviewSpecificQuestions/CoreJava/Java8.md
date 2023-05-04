@@ -1275,3 +1275,26 @@ Overall, the Stream API can be a powerful tool for working with collections in J
 </details>
 
 ---
+58. Can you create a stream to take our employees from the findAll() and return just the names? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+Assuming we have a class Employee with a getName() method, and a List of Employee objects returned by a method called findAll(), we can create a stream to get just the names of the employees like this:
+```java
+List<Employee> employees = findAll();
+
+List<String> names = employees.stream()
+                               .map(Employee::getName)
+                               .collect(Collectors.toList());
+```
+In this code, we first call findAll() to get a list of Employee objects. We then create a stream from this list using the stream() method. We use the map() method to transform each Employee object into its name using a method reference to the getName() method. Finally, we collect the resulting stream of names into a List using the toList() method provided by the Collectors class.
+
+This code will produce a List of String objects containing the names of all the employees in the original list.
+
+
+</blockquote>
+</details>
+
+---
