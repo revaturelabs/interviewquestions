@@ -1138,3 +1138,77 @@ Projections are a powerful tool for working with collections of data, allowing y
 </details>
 
 ---
+55. Use Java Streams to sort items based on price? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+To sort a collection of items based on price using Java Streams, you can use the sorted() method along with a lambda expression that compares the prices of each item. Here's an example:
+
+Suppose you have a list of Item objects, where each object has a price field:
+```java
+class Item {
+    String name;
+    double price;
+
+    public Item(String name, double price) {
+        this.name = name;
+        this.price = price;
+    }
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+}
+```
+To sort the items based on price, you can create a stream from the list using the stream() method, and then call the sorted() method with a lambda expression that compares the prices of the items:
+```java
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class ItemManager {
+public static void main(String[] args) {
+	List<Item> items = Arrays.asList(
+		    new Item("Book", 9.99),
+		    new Item("Phone", 599.99),
+		    new Item("Laptop", 1299.99),
+		    new Item("Tablet", 499.99)
+		);
+
+		List<Item> sortedItems = items.stream()
+		    .sorted((item1, item2) -> Double.compare(item1.getPrice(), item2.getPrice()))
+		    .collect(Collectors.toList());
+
+		sortedItems.forEach(item->{System.out.println(item.getName()+" : "+item.getPrice());});
+}
+}
+```
+```code
+Output :
+Book : 9.99
+Tablet : 499.99
+Phone : 599.99
+Laptop : 1299.99
+```
+In this example, we create a list of Item objects, and then use the stream() method to create a stream from the list. We then call the sorted() method, passing in a lambda expression that compares the prices of the items using the Double.compare() method. Finally, we use the collect() method to collect the sorted items into a new list.
+
+After running this code, the sortedItems list will contain the items sorted in ascending order based on price.
+
+</blockquote>
+</details>
+
+---
