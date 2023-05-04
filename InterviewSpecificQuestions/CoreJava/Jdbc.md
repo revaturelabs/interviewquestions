@@ -858,3 +858,38 @@ Note that this is just a simple example to illustrate the use of prepared statem
 </details>
 
 ---
+35. How to connect using JDBC to AWS?  
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+To connect to an Amazon Web Services (AWS) Relational Database Service (RDS) instance using JDBC, you will need to perform the following steps:
+
+- Obtain the endpoint and port number of your RDS instance from the AWS Management Console.
+
+- Download and install the appropriate JDBC driver for your RDS instance's database engine. You can download the JDBC driver from the database engine's official website or from the AWS documentation.
+
+- Add the JDBC driver JAR file to your Java project's classpath.
+
+- Use the following code to create a JDBC connection to your RDS instance:
+```java
+String dbURL = "jdbc:mysql://<endpoint>:<port>/<database>";
+String username = "<username>";
+String password = "<password>";
+Connection conn = DriverManager.getConnection(dbURL, username, password);
+```
+Replace `<endpoint>`, `<port>`, `<database>`, `<username>`, and `<password>` with the appropriate values for your RDS instance. For example:
+```java
+String dbURL = "jdbc:mysql://my-db-instance.abcdefg123.us-east-1.rds.amazonaws.com:3306/mydb";
+String username = "myusername";
+String password = "mypassword";
+Connection conn = DriverManager.getConnection(dbURL, username, password);
+```
+Note that you will need to configure your RDS instance's security group to allow incoming connections from the IP address or range of IP addresses that your Java application will be running on. You can do this from the AWS Management Console by adding an inbound rule to the security group.
+
+</blockquote>
+
+</details>
+
+---
