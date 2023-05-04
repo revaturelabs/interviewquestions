@@ -989,3 +989,20 @@ Overall, making constructors private can be a useful tool for controlling object
 </details>
 
 ---
+
+44. Can we inherit private classes in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+No, it is not possible to inherit or extend a private class in Java. Private classes are only accessible within the class in which they are defined, and cannot be accessed or extended from outside the class.
+
+</blockquote>
+
+</details>
+
+---
+
