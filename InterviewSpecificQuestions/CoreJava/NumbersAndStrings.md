@@ -471,3 +471,29 @@ This creates a new String object with the value "Hello world".
 </details>
 
 ---
+22. difference between instantiating a string = "dog" vs = new String("dog")?;
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+In Java, there are two ways to create a string:
+
+Using string literal - "dog"
+Using the new keyword - new String("dog")
+When a string is created using a string literal, Java creates a string object and adds it to the string pool. When a new string object is created using the new keyword, Java creates a new object on the heap memory, even if a string with the same value already exists in the string pool.
+
+Here are some of the differences between these two ways of creating a string:
+
+Performance: String literals are faster and more efficient as they use the string pool. String objects created using the new keyword are slower as they create a new object every time.
+
+Object references: When a string literal is used, only one object reference is created, and all the variables with the same string literal point to the same object. When the new keyword is used, a new object reference is created every time.
+
+String pool: String literals are added to the string pool, which is a special memory area reserved for storing strings. Strings created using the new keyword are not added to the string pool.
+
+In general, it is recommended to use string literals instead of creating new string objects using the new keyword, as string literals are more efficient and easier to use. However, in certain situations, such as when comparing strings using the == operator, it is recommended to use the new keyword to create new string objects.
+</blockquote>
+
+</details>
+
+---
