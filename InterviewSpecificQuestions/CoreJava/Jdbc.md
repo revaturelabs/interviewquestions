@@ -808,3 +808,28 @@ In JDBC, a ResultSet object represents a set of rows returned by a SQL query. It
 </details>
 
 ---
+33. What is sql injection ?  
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+SQL injection is a type of security vulnerability that can occur when using JDBC or any other technology that allows the use of dynamic SQL statements. It happens when an attacker is able to inject malicious SQL code into a query, potentially allowing them to access, modify or delete data from the database without proper authorization.
+
+For example, consider the following code that constructs a SQL query using user input:
+```java
+String username = request.getParameter("username");
+String password = request.getParameter("password");
+String sql = "SELECT * FROM users WHERE username = '" + username + "' AND password = '" + password + "'";
+PreparedStatement stmt = conn.prepareStatement(sql);
+ResultSet rs = stmt.executeQuery();
+```
+In this code, the username and password parameters are concatenated directly into the SQL query, which makes it vulnerable to SQL injection attacks. An attacker can craft a malicious input value that includes SQL code, such as username = 'admin'; -- which comments out the rest of the query and allows the attacker to log in as an administrator without a password.
+
+To prevent SQL injection attacks, you should always use prepared statements or parameterized queries instead of building SQL queries using string concatenation. This ensures that user input is treated as data rather than executable code, and reduces the risk of malicious SQL injection.
+
+</blockquote>
+
+</details>
+
+---
