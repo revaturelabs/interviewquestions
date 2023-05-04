@@ -1122,3 +1122,24 @@ In summary, method overloading involves creating multiple methods with the same 
 
 ---
 
+49. Is Java strictly OOP ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Java is considered to be a strongly object-oriented programming language, meaning that it is designed around the principles of object-oriented programming (OOP).
+
+In Java, everything is an object, including primitives like int and boolean, which are represented as wrapper classes such as Integer and Boolean. Java also supports all the key features of OOP, such as encapsulation, inheritance, and polymorphism.
+
+However, Java also includes some features that are not strictly object-oriented, such as static methods and variables, which belong to the class rather than to any instance of the class. Java also has basic support for procedural programming, as it allows for the use of functions outside of classes.
+
+So while Java is designed around the principles of OOP and is widely considered to be an object-oriented language, it also includes some non-OOP features and supports other programming paradigms.
+
+</blockquote>
+
+</details>
+
+---
