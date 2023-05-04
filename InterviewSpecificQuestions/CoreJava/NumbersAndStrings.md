@@ -345,3 +345,16 @@ Wrapper classes are the classes that allow primitive data types to be treated as
 </details>
 
 ---
+18. The differences between String, StringBuffer, and StringBuilder. 
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Strings, StringBuilder, and StringBuffer are classes in Java used to manipulate character sequences and the main differences between them are Strings are immutable, while StringBuilder and StringBuffer are mutable. StringBuffer and StringBuilder both provide the same functionality to the use with differences like StringBuffer is thread-safe, while StringBuilder is not thread-safe. The performance of StringBuilder is high as compared to StringBuffer. Strings create a new object in memory every time they are modified, while StringBuilder and StringBuffer use a single buffer.
+
+</blockquote>
+
+</details>
+
+---
