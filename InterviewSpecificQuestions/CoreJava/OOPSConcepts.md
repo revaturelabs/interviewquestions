@@ -961,3 +961,31 @@ Note that if a class has only private constructors, it cannot be subclassed or e
 </details>
 
 ---
+
+43. Why would we want constructors to be private?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+There are several reasons why we might want to make constructors private in Java:
+
+To implement the Singleton pattern: Making the constructor private is often used to implement the Singleton pattern, where a class is designed to have only one instance.
+
+To prevent object creation: In some cases, we might want to prevent objects of a class from being created. By making the constructor private, we can ensure that the class can only be used as a utility class or a container for static methods and fields.
+
+To restrict subclassing: If a class has only private constructors, it cannot be extended or subclassed. This can be useful when we want to ensure that a class cannot be modified or overridden.
+
+To control object creation: By making the constructor private, we can control how objects of a class are created. For example, we might want to ensure that objects are only created under certain conditions, or that certain initialization steps are performed before an object is created.
+
+To implement a factory method pattern: In some cases, we might want to provide a factory method for creating objects of a class, rather than allowing direct instantiation with a constructor. By making the constructor private and providing a factory method, we can control how objects are created and provide additional functionality such as caching or pooling of objects.
+
+Overall, making constructors private can be a useful tool for controlling object creation, preventing unwanted modifications, and implementing design patterns.
+
+</blockquote>
+
+</details>
+
+---
