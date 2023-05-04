@@ -525,3 +525,31 @@ If you want to skip the tests during the build process, you can use the command 
 </details>
 
 ---
+
+34. List any Maven keywords.
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Here are some commonly used Maven keywords:
+
+- groupId: This specifies the unique identifier of the project's group or organization.
+
+- artifactId: This specifies the unique identifier of the project, which is typically the name of the project.
+
+- version: This specifies the version of the project.
+
+- dependencies: This specifies the dependencies of the project, which are other libraries or modules that the project depends on.
+
+- plugins: This specifies the plugins used to build the project, which are used for tasks like compiling code or running tests.
+
+- repositories: This specifies the repositories where the project's dependencies can be found.
+
+- profiles: This specifies different profiles for building the project, which can be used for things like different build configurations or environments.
+
+</blockquote>
+
+</details>
+
+---
