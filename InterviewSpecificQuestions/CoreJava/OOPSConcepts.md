@@ -875,3 +875,49 @@ In summary, this is used to refer to the current instance of the class and can b
 </details>
 
 ---
+
+41. What is constructor overloading?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Constructor overloading in Java refers to the practice of defining multiple constructors for a class with different parameters. When a class has multiple constructors, each constructor can be called with a different set of arguments to create objects with different initial states.
+
+Constructor overloading is similar to method overloading, which allows multiple methods with the same name but different parameters to be defined in a class.
+
+Here's an example of constructor overloading in Java:
+
+```java
+public class MyClass {
+    private int myValue;
+
+    // Constructor with no parameters
+    public MyClass() {
+        myValue = 0;
+    }
+
+    // Constructor with one parameter
+    public MyClass(int value) {
+        myValue = value;
+    }
+
+    // Constructor with two parameters
+    public MyClass(int value1, int value2) {
+        myValue = value1 + value2;
+    }
+}
+```
+
+In this example, MyClass has three constructors: one with no parameters, one with one parameter, and one with two parameters. Each constructor sets the value of myValue based on the arguments passed to it. This allows objects of MyClass to be created with different initial states depending on which constructor is used.
+
+Constructor overloading can be useful when you want to provide different ways to create objects of a class with different initial states, or when you want to provide default values for some of the object's fields.
+
+
+</blockquote>
+
+</details>
+
+---
