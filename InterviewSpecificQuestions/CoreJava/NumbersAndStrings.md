@@ -434,3 +434,40 @@ Note that the index starts at 0, so the first character in the string has an ind
 </details>
 
 ---
+21. Tell me about Strings in java
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+In Java, a String is an object that represents a sequence of characters. It is one of the most commonly used classes in Java and is part of the java.lang package, which is automatically imported into every Java program.
+
+Strings in Java are immutable, which means that once a string is created, its value cannot be changed. This property is enforced by the final keyword, which is used to declare the internal character array of the String class.
+
+The String class provides a wide range of methods that allow you to manipulate and extract information from strings. Some of the most commonly used methods include:
+
+- length(): returns the number of characters in the string
+- charAt(int index): returns the character at the specified index
+- substring(int beginIndex, int endIndex): returns a substring of the original string from the beginIndex to the endIndex
+- indexOf(String str): returns the index of the first occurrence of the specified string
+- toUpperCase(): returns a new string with all characters in uppercase
+- toLowerCase(): returns a new string with all characters in lowercase
+- equals(Object obj): compares the current string to the specified object for equality
+- compareTo(String str): compares the current string to the specified string lexicographically
+Strings can be concatenated using the + operator or the concat() method. For example:
+```java
+String str1 = "Hello";
+String str2 = "world";
+String str3 = str1 + " " + str2; // "Hello world"
+String str4 = str1.concat(" ").concat(str2); // "Hello world"
+```
+Java also provides a shorthand for creating String objects using string literals. For example:
+```java
+String str = "Hello world";
+```
+This creates a new String object with the value "Hello world".
+</blockquote>
+
+</details>
+
+---
