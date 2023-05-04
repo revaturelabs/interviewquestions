@@ -1048,3 +1048,28 @@ Lambda functions can be used in a variety of contexts in Java, including with co
 </details>
 
 ---
+51. Why do you use lambdas?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Lambdas in Java are used for writing more concise and expressive code, especially when working with functional programming constructs like streams and collections. They provide a way to represent a function as an object, which can then be passed around and used like any other object.
+
+Some of the benefits of using lambdas in Java are as follows:
+
+Conciseness: Lambdas allow you to write shorter and more concise code, which can be easier to read and maintain.
+
+Expressiveness: Lambdas allow you to express complex operations in a more natural and intuitive way, making the code easier to understand.
+
+Flexibility: Lambdas can be used in a wide range of contexts, including with collections, streams, and functional interfaces, making them a versatile tool for writing functional-style code in Java.
+
+Composability: Lambdas can be combined and composed in various ways to create more complex operations, making it easier to build up complex algorithms from simpler building blocks.
+
+Overall, lambdas in Java are a powerful and flexible feature that enable more expressive and functional-style programming, making it easier to write efficient, readable, and maintainable code.
+
+</blockquote>
+</details>
+
+---
