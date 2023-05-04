@@ -1094,3 +1094,19 @@ Together, lambdas and the Streams API provide a powerful and flexible way to wor
 </details>
 
 ---
+53. What are optional objects? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+- In Java, an `Optional` object is a container object that may or may not contain a non-null value. It is a way of representing a value that may or may not exist, without using null references.
+- The purpose of `Optional` is to provide a way to explicitly indicate that a value may be absent, and to avoid NullPointerExceptions. It forces the developer to consider the possibility that a value may not be present and to handle that case explicitly, rather than relying on a null check.
+
+
+</blockquote>
+</details>
+
+---
+
