@@ -586,3 +586,18 @@ This creates a String object with the value "Hello, World!" and assigns it to th
 </details>
 
 ---
+28. What is the string pool?
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+In Java, the string pool (also known as string intern pool) is a special memory region in the heap where the string literals are stored. Whenever a string literal is created in the code, the JVM checks the string pool to see if an identical string already exists in the pool. If it does, then the new reference points to the existing object in the pool, instead of creating a new object. This mechanism helps to conserve memory and optimize performance, especially for frequently used string literals.
+
+String objects that are created with the new keyword are not stored in the string pool. They are created in the heap like any other object, and a new reference always points to a new object. However, you can explicitly add a String object to the string pool using the intern() method. This method returns a canonical representation of the String object, which can be used to compare two string objects for equality using the == operator, instead of the equals() method.
+
+</blockquote>
+
+</details>
+
+---
