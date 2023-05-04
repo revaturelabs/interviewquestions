@@ -493,7 +493,66 @@ In Java, `final`, `finally`, and `finalize` are three different keywords that se
   
 <blockquote>
 
+`throws` is a keyword that is used in a method signature to indicate that the method may throw an exception. It is used when the method itself is not handling the exception but instead wants to pass the responsibility of handling the exception to its caller method.
 
+On the other hand, `Throwable` is the root class of all Java exceptions and errors. It has subclasses, such as `Exception` and `Error` classes. All exceptions and errors inherit from the `Throwable` class, either directly or indirectly.
+
+</blockquote>
+
+</details>
+
+---
+
+27. If the memory is too big, how do you clear that exception with using try/catch block?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+If your program is using excessive memory Java will give you an `OutOfMemoryError` and we can not handle that error using `try-catch` block. As this error indicates that the JVM has run out of memory, and it can't be recovered by simply catching the error. 
+
+</blockquote>
+
+</details>
+
+---
+
+28. What is exception propogation.
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Exception propagation in Java refers to the mechanism by which an exception that is thrown in a method is passed on to the calling method, and then to the next method in the call stack until it is caught or reaches the main method.
+
+When an exception is thrown in a method, the Java runtime system searches for an exception handler in the method itself. If it doesn't find one, it looks for an exception handler in the calling method, and continues to do so up the call stack until it finds a handler or reaches the top of the stack. If no handler is found, the Java runtime system terminates the program and displays a stack trace, which shows the method call stack at the point where the exception occurred.
+
+</blockquote>
+
+</details>
+
+---
+29. there are two statements in a try/catch block, the first statement catches an exception, will the second statement run or stop?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+If the first statement in a try/catch block catches an exception, the second statement will not run. Instead, control will be transferred to the catch block to handle the exception. Once the exception is handled in the catch block, the program will continue executing after the catch block.
+
+</blockquote>
+
+</details>
+
+---
+
+30. can you nest try catch blocks?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Yes, it is possible to nest try-catch blocks in Java. This means that you can have one try-catch block inside another try-catch block. if an exception is thrown in the inner try block, the inner catch block will handle it. If no exception is thrown, the inner try block will complete, and the outer try block will continue to execute. If an exception is thrown in the outer try block (either before or after the inner try block), the outer catch block will handle it.
 
 </blockquote>
 
