@@ -1006,3 +1006,34 @@ No, it is not possible to inherit or extend a private class in Java. Private cla
 
 ---
 
+45. Java Classes – How many can you extend?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+In Java, a class can extend only one class at a time. This is known as single inheritance, where a subclass inherits the properties and behaviors of a single superclass.
+
+Java was designed with single inheritance to avoid the problems of multiple inheritance, which can lead to ambiguity when two or more superclasses define methods or fields with the same name. Single inheritance simplifies the language and makes it easier to reason about the behavior of objects.
+
+However, Java provides an alternative way to reuse code through interfaces, which allow a class to define a set of method signatures without implementing them. A class can implement multiple interfaces, which can be seen as a form of multiple inheritance, where a subclass inherits the method signatures and is required to provide implementations for them.
+
+Here's an example to illustrate this:
+
+```java
+public class MyClass extends MySuperclass implements MyInterface1, MyInterface2 {
+    // Code for MyClass
+}
+```
+
+In this example, MyClass extends MySuperclass and implements two interfaces, MyInterface1 and MyInterface2. This allows MyClass to inherit the properties and behaviors of MySuperclass, while also defining the method implementations required by the interfaces.
+
+So, to summarize, a class can extend only one class in Java, but it can implement multiple interfaces
+
+</blockquote>
+
+</details>
+
+---
