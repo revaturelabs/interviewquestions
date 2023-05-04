@@ -332,3 +332,16 @@ Overall, int is generally preferred for basic arithmetic operations and where me
 </details>
 
 ---
+17. What are Wrapper Classes?  
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Wrapper classes are the classes that allow primitive data types to be treated as objects. There is a wrapper class for each primitive data type, and they provide utility methods for converting between primitive data types and objects, as well as for performing various other operations on the data. Wrapper classes are useful in situations where an object is required, but only a primitive data type is available. Some examples of wrapper classes are `Boolean`, `Byte`,`Character`, `Short`, `Integer`,`Long`, `Float`, and `Double`.
+
+</blockquote>
+
+</details>
+
+---
