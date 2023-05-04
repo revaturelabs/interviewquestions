@@ -746,3 +746,40 @@ int count = ps.executeUpdate();
 </details>
 
 ---
+31. What is the jdbc connection string and how is it used, give an example  
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+A JDBC (Java Database Connectivity) connection string is a string that contains information required to connect to a database. It typically includes information such as the database server name or IP address, the port number, the database name, and any additional connection parameters.
+
+Here is an example JDBC connection string for connecting to a MySQL database:
+```java
+jdbc:mysql://localhost:3306/mydatabase?user=root&password=mypassword
+```
+In this example, the connection string contains the following information:
+
+- jdbc:mysql://: This specifies the JDBC driver to use (mysql) and the protocol to use (jdbc).
+
+- localhost: This specifies the name or IP address of the database server.
+
+- 3306: This specifies the port number on which the database server is listening.
+
+- mydatabase: This specifies the name of the database to connect to.
+
+- user=root: This specifies the username to use when connecting to the database.
+
+- password=mypassword: This specifies the password to use when connecting to the database.
+
+To use this connection string in Java, we would typically create a Connection object using the DriverManager.getConnection() method, like this:
+```java
+String url = "jdbc:mysql://localhost:3306/mydatabase?user=root&password=mypassword";
+Connection conn = DriverManager.getConnection(url);
+```
+This code uses the url string to connect to the MySQL database and creates a Connection object that can be used to execute SQL queries against the database.
+</blockquote>
+
+</details>
+
+---
