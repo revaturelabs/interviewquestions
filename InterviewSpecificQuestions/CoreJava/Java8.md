@@ -1212,3 +1212,43 @@ After running this code, the sortedItems list will contain the items sorted in a
 </details>
 
 ---
+56. Please use the stream api to create a map of numbers excluding the number 5 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+To create a map of numbers excluding the number 5 using Java Streams, you can use the filter() and collect() methods. Here's an example:
+```java
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+public class MapExample {
+public static void main(String[] args) {
+	List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
+
+	Map<Integer, Integer> map = numbers.stream()
+	    .filter(num -> num != 5)
+	    .collect(Collectors.toMap(num -> num, num -> num));
+
+	System.out.println(map);
+}
+}
+```
+```code
+Output :
+{1=1, 2=2, 3=3, 4=4, 6=6, 7=7, 8=8, 9=9}
+```
+In this example, we have a list of numbers from 1 to 9. We create a stream from the list using the stream() method, and then use the filter() method to exclude the number 5 from the stream. We then use the collect() method to collect the remaining numbers into a map.
+
+The Collectors.toMap() method is used to create the map, with the identity function num -> num used as the key mapper and value mapper, since we want to use the numbers themselves as both the keys and the values in the map.
+
+After running this code, the map variable will contain a map of the numbers from 1 to 9 excluding the number 5. The output of the System.out.println(map) statement would be:
+
+
+</blockquote>
+</details>
+
+---
