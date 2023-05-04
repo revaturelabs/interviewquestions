@@ -1037,3 +1037,35 @@ So, to summarize, a class can extend only one class in Java, but it can implemen
 </details>
 
 ---
+
+46. What is a marker interface?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+In Java, a marker interface is an interface that has no methods or fields, and is used only to mark or tag a class. A class that implements a marker interface indicates that it has some specific characteristic or capability that the interface represents.
+
+Marker interfaces are also known as "tagging interfaces" or "trait interfaces". They are typically used for metadata purposes, where the presence or absence of an interface is used to control or influence the behavior of the program.
+
+Here are some examples of marker interfaces in Java:
+
+Serializable - This interface is used to mark a class as serializable, which means that its state can be saved to a stream and reconstructed later.
+
+Cloneable - This interface is used to mark a class as cloneable, which means that it can be duplicated using the clone() method.
+
+RandomAccess - This interface is used to mark a list as random-access, which means that its elements can be accessed in constant time.
+
+Readable and Writable - These interfaces are used to mark classes as readable or writable, which means that they can be used with I/O streams.
+
+Remote - This interface is used in Java RMI to mark classes as remote, which means that they can be accessed by remote clients.
+
+Annotation - This interface is used to mark an annotation type, which is used to add metadata to Java code.
+
+</blockquote>
+
+</details>
+
+---
