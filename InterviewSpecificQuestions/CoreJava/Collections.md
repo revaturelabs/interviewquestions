@@ -1615,3 +1615,61 @@ for(int i=0; i<numbers.length; i++) {
 </details>
 
 ---
+
+85. What is an Array Map ?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+In Java, an array map is a data structure that maps keys to values, similar to a regular Map, but with an underlying array-based implementation. An array map is useful when the number of keys is relatively small and known in advance, and when you need fast access to the values associated with each key.
+
+Here's an example of how to create and use an array map in Java:
+
+```Java
+import java.util.Arrays;
+
+public class ArrayMap<K, V> {
+    private Object[] keys;
+    private Object[] values;
+    private int size;
+
+    public ArrayMap(int capacity) {
+        this.keys = new Object[capacity];
+        this.values = new Object[capacity];
+        this.size = 0;
+    }
+
+    public void put(K key, V value) {
+        int index = Arrays.binarySearch(keys, 0, size, key);
+        if (index < 0) {
+            index = -(index + 1);
+            if (size >= keys.length) {
+                keys = Arrays.copyOf(keys, size * 2);
+                values = Arrays.copyOf(values, size * 2);
+            }
+            System.arraycopy(keys, index, keys, index + 1, size - index);
+            System.arraycopy(values, index, values, index + 1, size - index);
+            keys[index] = key;
+            size++;
+        }
+        values[index] = value;
+    }
+
+    public V get(K key) {
+        int index = Arrays.binarySearch(keys, 0, size, key);
+        if (index >= 0) {
+            return (V) values[index];
+        }
+        return null;
+    }
+}
+
+```
+
+</blockquote>
+
+</details>
+
+---
