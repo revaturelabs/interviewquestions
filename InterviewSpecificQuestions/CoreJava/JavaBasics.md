@@ -723,3 +723,54 @@ This creates an array called `numbers` that contains five integer values.
 </blockquote>
 
 </details>
+
+38. What are annotations and what are they good for?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Annotations in java provide metadata about the class, method, and interface. They are used to provide additional information to the compiler about a programming element like a method or class to provide additional functionality. In Java, annotations are represented using the @ symbol followed by the annotation name.
+
+</blockquote>
+
+</details>
+
+---
+
+39. Return the peak value index from an integer array mountain.
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+To return the peak value index from an integer array mountain, you can use the following algorithm:
+
+1. Initialize two pointers, `left` and `right`, to point to the first and last elements of the array, respectively.
+2. While `left < right`:
+   - Calculate the middle index, `mid`, as `(left + right) / 2`.
+   - If `array[mid] < array[mid+1]`, set `left` to `mid+1`.
+   - Otherwise, set `right` to `mid`.
+3. Return `left` as the peak value index.
+
+This algorithm works by repeatedly dividing the array in half and checking whether the middle element is part of an increasing or decreasing sequence. The peak value index is where the increasing sequence ends and the decreasing sequence begins.
+
+</blockquote>
+
+</details>
+
+--- 
+
+40. what is typecasting.
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Typecasting is the process of converting a value of one data type to another data type. There are two types of typecasting implicit and explicit. In Implicit typecasting a smaller data type is converted to a larger data type. For example, converting an int to a long or a float to a double. The implicit typecasting happens automatically.In Explicit typecasting, also known as narrowing conversion, a larger data type is converted to a smaller data type. It requires the programmer to specify the type to which the value is going to be cased. For example, converting a double to an int.
+
+</blockquote>
+
+</details>
+
+---
