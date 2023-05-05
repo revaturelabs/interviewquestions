@@ -949,4 +949,18 @@ The code has a syntax error in the main method where the object obj is being dec
 
 ---
 
+38. Where are strings stored stack or heap?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+In Java, strings are stored in the heap memory. This is because a String object is created dynamically using the new keyword or through string literals, which results in the allocation of memory on the heap. However, string literals that are created at compile-time are stored in a separate area called the String constant pool, which is part of the heap memory.
+
+</blockquote>
+
+</details>
+
+---
