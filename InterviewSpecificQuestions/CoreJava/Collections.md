@@ -1673,3 +1673,19 @@ public class ArrayMap<K, V> {
 </details>
 
 ---
+
+86. Give an example of when to use a generic function in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+A generic function in Java can be useful in situations where the same logic needs to be applied to different types of data. For example, a sorting function that can sort an array of integers or an array of strings would benefit from being generic. Instead of having separate sorting functions for each data type, a single generic function can be used for both cases, improving code reusability and reducing code duplication.
+
+</blockquote>
+
+</details>
+
+---
+
