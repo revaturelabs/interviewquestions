@@ -992,3 +992,91 @@ Object pooling is a technique used in software development to improve performanc
 </blockquote> 
 
 </details>
+
+56. How is a yield different from a return?
+
+<details><summary><b> Show Answer</b></summary> 
+
+<blockquote> 
+
+In Java, "yield" and "return" are two different keywords with distinct meanings.
+
+1. `return` is used to exit a method and return a value to the caller. for example:
+
+```java
+public int add(int a, int b) {
+    int sum = a + b;
+    return sum; // using "return" to exit the method and return the value of sum to the caller
+}
+```
+In the example above, the "add" method takes two integer arguments and returns their sum using the "return" keyword.
+
+2. `yield` is used in switch expressions to provide a value based on a specific condition. for example:
+
+```java
+public String getDayOfWeek(int day) {
+    return switch (day) {
+        case 1 -> "Monday";
+        case 2 -> "Tuesday";
+        case 3 -> "Wednesday";
+        case 4 -> "Thursday";
+        case 5 -> "Friday";
+        case 6 -> "Saturday";
+        case 7 -> "Sunday";
+        default -> throw new IllegalArgumentException("Invalid day of the week: " + day);
+    };
+}
+```
+
+In the above example  the "case" keyword is used to define a specific case or condition, and the "-> yield" expression is used to provide the value to be returned for that case.
+
+</blockquote> 
+
+</details>
+
+57. What is a primitive data type?
+
+<details><summary><b> Show Answer</b></summary> 
+
+<blockquote> 
+
+In Java, a primitive data type is a data type that is not an object and has no methods. It is a basic data type that is predefined by the language and is represented by a reserved keyword. Primitive data types are used to represent simple values, such as numbers or characters, and are stored directly in memory.
+
+</blockquote> 
+
+</details>
+
+58.  List any primitives you know
+<details><summary><b> Show Answer</b></summary> 
+
+<blockquote> 
+
+Here are some examples of primitive data types in Java:
+- boolean: represents a true or false value
+- byte: represents an 8-bit integer value
+- short: represents a 16-bit integer value
+- int: represents a 32-bit integer value
+- long: represents a 64-bit integer value
+- float: represents a single-precision floating-point value
+- double: represents a double-precision floating-point value
+- char: represents a single Unicode character
+
+</blockquote> 
+
+</details>
+
+59. What is the difference between float and double? (Why do we use these two data types?)
+<details><summary><b> Show Answer</b></summary> 
+
+<blockquote> 
+
+In Java, float and double are both used to represent floating-point numbers, which are numbers that have a fractional part. The main difference between float and double is their precision and the amount of memory they require to store values.
+
+- float: represents a 32-bit floating-point value, with a range of approximately ±3.4 x 10^38 and a precision of about 6-7 decimal digits.
+- double: represents a 64-bit floating-point value, with a range of approximately ±1.7 x 10^308 and a precision of about 15-16 decimal digits.
+
+Double is generally used when more precision is needed, such as in scientific calculations or financial applications. Float is used when memory is a concern and the extra precision is not necessary. In practice, double is the more commonly used floating-point data type in Java.
+
+</blockquote> 
+
+</details>
