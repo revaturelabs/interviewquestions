@@ -1143,6 +1143,22 @@ So while Java is designed around the principles of OOP and is widely considered 
 </details>
 
 ---
+50. what you would use if you couldn't instantiate an object in Java
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+If you cannot instantiate an object in Java, you may consider using a static method or variable. A static method or variable belongs to the class and not to an instance of the class, so you can access it without creating an object.
+
+Alternatively, you can use a singleton design pattern, which ensures that only one instance of a class is created and provides a global point of access to that instance. The singleton pattern can be implemented using a static method or a static variable.
+
+Another option is to use an abstract class or interface, which cannot be instantiated directly, but can be extended or implemented by other classes. This can be useful if you want to define a common behavior or contract for a group of related classes, without providing a concrete implementation.
+
+</blockquote>
+
+</details>
+
+---
 
 
 
