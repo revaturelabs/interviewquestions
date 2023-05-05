@@ -53,3 +53,23 @@ In Java, BufferedReader and FileReader are commonly used for reading files. File
 </blockquote>
 
 </details>
+
+---
+
+3. Can you brief on Serialization in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Serialization in Java is the process of converting an object into a byte stream that can be persisted into a file, transferred over a network, or stored in a database. Deserialization is the reverse process of converting the byte stream back into an object.
+
+The Serializable interface is used to mark a class as serializable, and the ObjectOutputStream and ObjectInputStream classes are used for serialization and deserialization respectively. During serialization, all non-transient fields of the object are written to the byte stream, which can then be used to reconstruct the object during deserialization.
+
+</blockquote>
+
+</details>
+
+---
+
