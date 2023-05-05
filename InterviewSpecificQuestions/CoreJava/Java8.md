@@ -1298,3 +1298,66 @@ This code will produce a List of String objects containing the names of all the 
 </details>
 
 ---
+59. If you had a list of objects, and wanted to filter for a user by (for example) their Age; how would you do it?
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+In Java, you can use the Stream API to filter a list of users by age
+```java
+
+public class User {
+    private String name;
+    private int age;
+
+    public User(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+}
+```
+To filter the list of users by age, you can use the filter() method of the Stream class. 
+
+```java
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class UserManager {
+public static void main(String[] args) {
+	List<User> userList = Arrays.asList(
+			new User("User 1",33),
+			new User("User 2",32),
+			new User("User 3",25),
+			new User("User 4",37)
+			);
+
+			int ageFilter = 25; // assume we want to filter for users aged 25
+
+			List<User> filteredUsers = userList.stream()
+			    .filter(user -> user.getAge() == ageFilter)
+			    .collect(Collectors.toList());
+			
+			filteredUsers.forEach(user->{System.out.println(user.getName() +" - "+user.getAge());});
+
+}
+}
+```
+
+```Code
+Output:
+User 3 - 25
+```
+</blockquote>
+
+</details>
+
+---
