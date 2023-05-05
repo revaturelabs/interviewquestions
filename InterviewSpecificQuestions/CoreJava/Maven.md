@@ -640,3 +640,27 @@ This will start the Java application contained in the JAR file.
 </details>
 
 ---
+38. How to configure Maven?
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+To configure Maven for a project, follow these general steps:
+
+- Install Maven: Before configuring Maven for a project, you need to install it on your computer. You can download Maven from the Apache Maven website (https://maven.apache.org/download.cgi) and follow the installation instructions.
+
+- Create a new Maven project: To create a new Maven project, you can use the Maven command-line tool or your preferred Integrated Development Environment (IDE). You can use the mvn archetype:generate command to create a new project from a Maven archetype or use your IDE's built-in Maven project creation wizard.
+
+- Configure the pom.xml file: The pom.xml file is the central configuration file for a Maven project. It defines the project's dependencies, plugins, and other settings. You can use a text editor or your IDE's built-in pom.xml editor to modify this file.
+
+- Add dependencies: To add dependencies to your project, you can specify them in the pom.xml file using the <dependencies> section. Maven will automatically download and manage the specified dependencies.
+
+- Build and run your project: Once you have configured your Maven project, you can use the mvn command to build and run it. You can use the mvn clean install command to clean and build your project, and the mvn exec:java command to run it.
+
+Additional configuration options for a Maven project may include specifying build profiles, configuring plugins, and defining custom build lifecycles. However, the above steps should be sufficient for most basic Maven projects.
+
+</blockquote>
+
+</details>
+
+---
