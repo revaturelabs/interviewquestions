@@ -1081,6 +1081,7 @@ Double is generally used when more precision is needed, such as in scientific ca
 
 </details>
 
+
 60. Why do we use public and private access modifiers.
 
 <details><summary><b> Show Answer</b></summary>
