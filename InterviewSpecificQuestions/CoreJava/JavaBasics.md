@@ -420,7 +420,7 @@ No, A static method cannot access non-static variables or methods because static
 </details>
 
 
-22. Why do we use public and private access modifiers.
+60. Why do we use public and private access modifiers.
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -436,7 +436,7 @@ When a class, method, or variable is declared as `public`, it can be accessed fr
 
 ---
 
-23. Object class methods
+61. Object class methods
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -467,7 +467,7 @@ The object class have methods like:
 ---
 
 
-24. super class of all java classes. 
+62. super class of all java classes. 
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -495,7 +495,7 @@ The `volatile` keyword in Java is used to indicate that a variable's value may b
 
 ---
 
-26. What are the control statements.
+63. What are the control statements.
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -509,7 +509,7 @@ Control statements in Java are used to control the flow of execution in a progra
 
 ---
 
-27. When would you use the final keyword?
+64. When would you use the final keyword?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -536,7 +536,7 @@ Overall, the `final` keyword is a useful tool for creating constants, improving 
 
 ---
 
-28. What is `finalize`?
+65. What is `finalize`?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -549,7 +549,7 @@ Overall, the `final` keyword is a useful tool for creating constants, improving 
 </details>
 ---
 
-29. What is the difference between `final`, `finally`, and `finalize`, and what situations are they used in?
+66. What is the difference between `final`, `finally`, and `finalize`, and what situations are they used in?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -564,7 +564,7 @@ Overall, the `final` keyword is a useful tool for creating constants, improving 
 
 --- 
 
-30. Can the garbage collector be manually called?
+67. Can the garbage collector be manually called?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -578,7 +578,7 @@ The garbage collector in Java is automatically called by the JVM, and it cannot 
 
 --- 
 
-31. What are the levels of garbage collection?
+68. What are the levels of garbage collection?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -599,7 +599,7 @@ The exact configuration and behavior of garbage collection in Java depend on the
 
 --- 
 
-32. How does an object progress through those garbage collection levels?
+69. How does an object progress through those garbage collection levels?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -615,7 +615,7 @@ Objects in the old generation are subject to major garbage collections, which ru
 
 --- 
 
-33. How does garbage collection work? 
+70. How does garbage collection work? 
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -629,7 +629,7 @@ Garbage collection is used in Java to perform automatic memory management. It de
 
 ---
 
-34. How do you copy an array?
+71. How do you copy an array?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -651,7 +651,7 @@ This creates a new array `arr2` that is a copy of `arr1`.
 
 ---
 
-35. Write an array and give some values, then print them. What are different array methods you have used?
+72. Write an array and give some values, then print them. What are different array methods you have used?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -674,7 +674,7 @@ This creates an array `numbers` with five integer values, and then loops through
 
 ---
 
-36. Given an array, create a list of pairs of indexes that sum to a target value.
+73. Given an array, create a list of pairs of indexes that sum to a target value.
 
 <details><summary><b> Show Answer</b></b></summary>
 
@@ -704,7 +704,7 @@ This creates an array called `arr` with four integer values, and a target value 
 
 </details>
 
-37. Are you able to store integers in an array?
+74. Are you able to store integers in an array?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -724,7 +724,7 @@ This creates an array called `numbers` that contains five integer values.
 
 </details>
 
-38. What are annotations and what are they good for?
+75. What are annotations and what are they good for?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -738,7 +738,7 @@ Annotations in java provide metadata about the class, method, and interface. The
 
 ---
 
-39. Return the peak value index from an integer array mountain.
+76. Return the peak value index from an integer array mountain.
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -761,7 +761,7 @@ This algorithm works by repeatedly dividing the array in half and checking wheth
 
 --- 
 
-40. what is typecasting.
+77. what is typecasting.
 
 <details><summary><b> Show Answer</b></summary>
   
