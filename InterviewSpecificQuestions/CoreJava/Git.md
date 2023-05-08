@@ -376,6 +376,7 @@ Few commonly used git commands are:
 
 - **`git push`:** It is used to upload the local repository content to the remote repository. 
 </blockquote>
+    </details>
 
 20. What commands do you need to upload code to github ?
 
