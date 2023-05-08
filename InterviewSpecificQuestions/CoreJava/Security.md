@@ -2,8 +2,6 @@
 
 1. How does Java process the JWT?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -16,8 +14,6 @@ Java can process JWT (JSON Web Token) by decoding the JWT to extract the claims 
 ---
 
 2. What is JWT authentication? 
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -32,8 +28,6 @@ JWT authentication is a method of authentication that uses JSON Web Tokens (JWTs
 
 3. What is OAuth?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -46,8 +40,6 @@ OAuth (Open Authorization) is an open standard protocol used for secure and dele
 ---
 
 4. How to find the JWT expiration date?
-
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
