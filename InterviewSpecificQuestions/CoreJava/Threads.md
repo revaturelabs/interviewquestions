@@ -1,6 +1,8 @@
+##Technical
+
 1. What are Threads?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -16,7 +18,7 @@ A process is a program in execution. A thread is a subset of a process.
 
 2. How do you make a thread in java? or how do you create thread?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -36,7 +38,7 @@ In Java, we can create a thread using
 
 3. What is the life cycle of a thread?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -59,7 +61,7 @@ At any given time, a thread can be in one of these states:
 
 4.How can we differentiate `notify()` and `notifyAll()` methods ?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -78,7 +80,7 @@ At any given time, a thread can be in one of these states:
 
 5. Explain synchronization process? Why we use it?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -93,7 +95,7 @@ Synchronization in java is the capability to control the access of multiple thre
 
 6. Explain thread starvation?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -109,7 +111,7 @@ Thread starvation is basically a situation or condition where a thread won’t b
 
 7. Can you start a thread twice?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -125,8 +127,6 @@ No, it's not at all possible to restart a thread once a thread gets started and 
 
 8. What is a deadlock?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details><summary><b> Show Answer</b></summary>
 
 <blockquote>
@@ -141,8 +141,6 @@ A deadlock condition occurs when two or more threads are blocking the resources 
 
 9. What are the types of threads?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details><summary><b> Show Answer</b></summary>
 
 <blockquote>
@@ -154,8 +152,6 @@ There are two types of threads: daemon threads and user threads. User threads ar
 </details>
 
 10. How do you do multi-threading?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -170,8 +166,6 @@ Multithreading in java allows a program to perform multiple tasks concurrently, 
 ---
 
 11. If you are approaching a situation where you are running out of memory what should you do? (thread dump)
-
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -189,8 +183,6 @@ If you are running out of memory in a Java application, there are several steps 
 
 12. What is concurrency in Multithreading?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
-
 <details><summary><b> Show Answer</b></summary>
 
 <blockquote>
@@ -204,8 +196,6 @@ Concurrency in multithreading refers to the ability of multiple threads to run s
 ---
 
 13. Can you list out the thread methods?
-
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -232,8 +222,6 @@ Sure, here are some of the commonly used methods in the Thread class:
 
 14. Is Java a single threaded or multi threaded programming language?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details><summary><b> Show Answer</b></summary>
 
 <blockquote>
@@ -247,8 +235,6 @@ Java supports both single-threaded and multi-threaded programming. It allows pro
 ---
 
 15. How would you make three threads execute at the same time?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -302,8 +288,6 @@ public class ThreeThreadsExample {
 
 16. What is multithreading and multiprocessing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details><summary><b> Show Answer</b></summary>
 
 <blockquote>
@@ -317,8 +301,6 @@ In Java, multithreading is the ability to execute multiple threads within the sa
 ---
 
 17. Can you tell us the pros/cons of multithreading?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -343,8 +325,6 @@ In Java, multithreading is the ability to execute multiple threads within the sa
 ---
 
 18. Do you know how to initialize a thread in Java?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -391,8 +371,6 @@ Both methods are valid ways to create and initialize a thread in Java, and which
 
 19. What does the keyword synchronize mean in Java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details><summary><b> Show Answer</b></summary>
 
 <blockquote>
@@ -427,8 +405,6 @@ public class Counter {
 
 20. Do you know anything about Synchronized list in Java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details><summary><b> Show Answer</b></summary>
 
 <blockquote>
@@ -456,8 +432,6 @@ synchronized (synchronizedList) {
 ---
 
 21. How do you implement runnable in java? short answer
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -498,8 +472,6 @@ thread.start();
 ---
 
 22. How can you make a singleton thread-safe in Java?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
