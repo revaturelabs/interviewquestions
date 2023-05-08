@@ -1003,8 +1003,6 @@ UI testing, on the other hand, involves testing the entire application or a sign
 
 61. What is the purpose of mocking an object or class?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1017,8 +1015,6 @@ The purpose of mocking an object or class is to create a fake or substitute obje
 ---
 
 62. How would you mock a class in Java?
-
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1048,8 +1044,6 @@ In the above example, MyClass is mocked using the Mockito.mock() method. The beh
 ---
  
 63. What is TDD?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1157,7 +1151,7 @@ To test a method in JUnit, you can follow these steps:
 ---
 
 68. How would you pull in data live while a test is running in JUnit?
-69. 
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1215,7 +1209,7 @@ public class MyTest {
 ---
 
 69. Can you differentiate e2e and Unit testing ?
-70. 
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1314,6 +1308,9 @@ If you wrote `@After` and `@Before` annotations in your code, it is most likely 
 
 73. How  you can say how many percent of the code has been tested in JUnit? How you create a  report?
 
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
 In JUnit, you can use code coverage tools to determine how much of your code has been tested by your JUnit tests. These tools analyze your code and generate a report that shows which lines and branches of code have been executed by your tests.
 
 One popular code coverage tool for Java is `JaCoCo (Java Code Coverage)`. Here are the steps to generate a code coverage report using JaCoCo and Maven:
@@ -1371,6 +1368,9 @@ This will run your JUnit tests and generate a code coverage report in the `targe
 ---
 
 74. What is `@AfterClass` does?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
 
 `@AfterClass` is a JUnit annotation that is used to indicate that a method should be executed after all tests in a test class have been run. This annotation is useful for performing cleanup tasks after all the tests have been executed, such as closing resources or resetting the state of the system.
 
