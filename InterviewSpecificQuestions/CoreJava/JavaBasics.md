@@ -1436,3 +1436,515 @@ Typecasting is the process of converting a value of one data type to another dat
 </details>
 
 ---
+
+78. What is immutable in Java?
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+In Java, an immutable object is an object whose state cannot be changed once it is created. Once the object is created, any attempt to modify its state will result in the creation of a new object with the modified state. Immutable objects are thread-safe and can be shared without the risk of concurrent modification. Examples of immutable classes in Java include String, Integer, and BigDecimal.
+
+</blockquote>
+
+</details>
+
+---
+
+79. Can you tell us something on mutable and immutable class in Java? 
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+In Java, a mutable class is a class whose objects can be modified after creation, while an immutable class is a class whose objects cannot be modified after creation. In a mutable class, the state of the object can be changed by invoking methods or modifying fields, whereas in an immutable class, the state of the object is fixed and cannot be changed.
+
+An example of a mutable class in Java is the StringBuilder class, which allows the modification of the string content by appending, deleting, or replacing characters. On the other hand, an example of an immutable class in Java is the String class, whose objects cannot be modified once created, and any operation on the string creates a new string object.
+
+</blockquote>
+
+</details>
+
+---
+
+80. What is the difference between extends and implements in Java? 
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+In Java, `extends` and `implements` are both keywords used for inheritance, but they have different meanings.
+
+`extends` is used to create a subclass that inherits properties and methods from a parent class. The subclass can add or override properties and methods of the parent class.
+
+`implements` is used to make a class implement an interface. An interface is a collection of abstract methods that a class must implement. When a class implements an interface, it agrees to provide the implementations for all the methods defined in the interface.
+
+</blockquote>
+
+</details>
+
+---
+
+81. What is the use of getter and setter in java?
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+In Java, getters and setters are methods used to access and modify the values of private fields in a class.
+
+A getter method retrieves the value of a private field and returns it to the caller. This allows other classes to access the private field without exposing the implementation details of the class.
+
+A setter method sets the value of a private field based on the value passed to it as a parameter. This allows other classes to modify the value of the private field without exposing the implementation details of the class.
+
+</blockquote>
+
+</details>
+
+---
+
+82. How does the Java ternary operator works?
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+The Java ternary operator (also called conditional operator) is a shorthand way of writing an if-else statement. It takes three operands: a Boolean expression, a value to return if the expression is true, and a value to return if the expression is false. The syntax is:
+
+```Java
+variable = (condition) ? true-value : false-value;
+```
+
+If the condition is true, the variable will be assigned the value of true-value, otherwise it will be assigned the value of false-value.
+
+</blockquote>
+
+</details>
+
+---
+
+83. How do you write for a phone number using regex in Java?
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+To write a regex pattern for a phone number in Java, you can use the following pattern:
+
+```Java
+String regex = "^\\+(?:[0-9] ?){6,14}[0-9]$";
+```
+
+This pattern matches phone numbers in the format of a plus sign, followed by six to fourteen digits, with optional spaces between the digits.
+
+Here's an explanation of the different parts of the pattern:
+
+`^` - Matches the start of the string
+`\\+` - Matches a literal plus sign
+`(?:[0-9] ?)` - Matches a single digit with an optional space character
+`{6,14}` - Specifies the minimum and maximum number of times the previous match can occur, in this case, between 6 and 14 times.
+`[0-9]` - Matches a single digit
+`$` - Matches the end of the string.
+
+</blockquote>
+
+</details>
+
+---
+
+84. Do you know about Java Messaging Service in Java?
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Yes, Java Messaging Service (JMS) is a Java-based messaging standard that allows distributed applications to communicate with each other. It is a message-oriented middleware API that allows Java applications to send and receive messages asynchronously.
+
+JMS provides a common way for applications to create, send, receive, and read messages. It defines a set of standard interfaces and protocols that enable seamless communication between different messaging systems, such as IBM MQ, Apache ActiveMQ, and RabbitMQ.
+
+</blockquote>
+
+</details>
+
+---
+
+85. How does JNDI works?
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+JNDI stands for Java Naming and Directory Interface, and it is a standard interface to access naming and directory services in Java. It provides a common interface for accessing naming and directory services, regardless of the underlying technology used by the service.
+
+In JNDI, you can bind objects to names in a hierarchical namespace, which can be accessed by clients using a standard API. This allows you to separate the location of objects from the code that uses them, making it easier to manage and maintain distributed systems.
+
+</blockquote>
+
+</details>
+
+---
+
+86. How do you differentiate groovy from java using syntax?
+
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Groovy and Java have similar syntax, but there are a few key differences:
+
+`Semicolons`: In Java, semicolons are required at the end of each statement, but in Groovy, they are optional.
+
+`Type Declaration`: Java is a statically typed language, which means that you must declare the data type of a variable before you use it. Groovy, on the other hand, is a dynamically typed language, so you do not need to declare the data type of a variable.
+
+`String Concatenation`: In Java, you can concatenate strings using the "+" operator, while in Groovy, you can use either "+" or the string interpolation syntax, which uses "${}".
+
+`Method Definition`: In Java, you define a method using the "public static void" syntax, while in Groovy, you can omit the "public" and "void" keywords.
+
+`Collection Literal`: In Java, you define a collection using the "new" keyword and the type of the collection. In Groovy, you can use shorthand syntax to define a collection literal, such as "[1, 2, 3]" for a list of integers.
+
+</blockquote>
+
+</details>
+
+---
+
+87. Write a program of map implementation in java?
+
+
+<details><summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+```Java 
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Main {
+    public static void main(String[] args) {
+        // create a new HashMap object
+        Map<String, Integer> map = new HashMap<>();
+
+        // add key-value pairs to the map
+        map.put("apple", 1);
+        map.put("banana", 2);
+        map.put("orange", 3);
+
+        // get the value for a specific key
+        int value = map.get("banana");
+
+        // check if the map contains a specific key
+        boolean containsKey = map.containsKey("orange");
+
+        // remove a key-value pair from the map
+        map.remove("apple");
+
+        // loop over the key-value pairs in the map
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
+            System.out.println("Key: " + entry.getKey() + ", Value: " + entry.getValue());
+        }
+    }
+}
+
+```
+
+In this example, we create a new HashMap object and add key-value pairs to it using the put() method. We can retrieve the value for a specific key using the get() method and check if the map contains a specific key using the containsKey() method. We can remove a key-value pair from the map using the remove() method. Finally, we loop over the key-value pairs in the map using a for-each loop and the entrySet() method.
+
+</blockquote>
+
+</details>
+
+---
+
+88. Write a function in Java having two params n and m that returns an array of multiplications m times of given n
+
+**ex.: myFunction(5, 4) --> returns [5, 10, 15, 20]**
+
+<details><summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+```Java
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.*;
+import java.io.*;
+
+
+public class Main {
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+       int n1=sc.nextInt();
+       int n2=sc.nextInt();
+       System.out.println(Arrays.toString(myFunction(n1,n2)));
+    }
+
+
+public static int[] myFunction(int n, int m) {
+    int[] result = new int[m];
+    for (int i = 0; i < m; i++) {
+        result[i] = n * (i + 1);
+    }
+    return result;
+}
+}
+```
+
+This function first creates an integer array of length m to store the results. It then uses a loop to iterate m times, multiplying n by the current iteration number (i + 1) and storing the result in the corresponding index of the array. Finally, the function returns the array of results.
+
+</blockquote>
+
+</details>
+
+---
+
+89. How do you go about printing a Map Employee with id numbers as keys and last names as values in java?
+
+<details><summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+```Java
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.*;
+import java.io.*;
+
+
+public class Main {
+    public static void main(String[] args) {
+        Map<Integer, String> employeeMap = new HashMap<>();
+        employeeMap.put(1, "Smith");
+        employeeMap.put(2, "Johnson");
+        employeeMap.put(3, "Williams");
+        employeeMap.put(4, "Jones");
+
+        for(Map.Entry<Integer, String> entry : employeeMap.entrySet()) {
+                System.out.println("Employee " + entry.getKey() + ": " + entry.getValue());
+            }
+
+    }
+}
+
+
+```
+
+In this example, the keys are Integer ID numbers and the values are String last names. The loop iterates over each entry in the map and prints out the key and value for each employee.
+
+</blockquote>
+
+</details>
+
+---
+
+90. Write a Java code for Bubble sort ?
+
+<details><summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+``` Java
+
+public class BubbleSort {
+    public static void main(String[] args) {
+        int[] arr = { 5, 2, 9, 1, 5, 6 };
+        bubbleSort(arr);
+        System.out.println(Arrays.toString(arr));
+    }
+    
+    public static void bubbleSort(int[] arr) {
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    // swap arr[j] and arr[j+1]
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
+    }
+}
+
+```
+**Output**
+`[1,2,5,5,6,9]`
+
+In this example, we have an array of integers arr. We call the bubbleSort function passing in this array as an argument. The function sorts the array using bubble sort, and then we print the sorted array using the Arrays.toString method.
+
+The bubbleSort function uses two nested loops to compare adjacent elements in the array and swap them if they are in the wrong order. The outer loop iterates over the array from the first element to the second-to-last element, while the inner loop iterates over the unsorted part of the array. If the element at index j is greater than the element at index j+1, the two elements are swapped. After the inner loop completes, the largest element in the unsorted part of the array is placed at the end. This process is repeated until the entire array is sorted.
+
+</blockquote>
+
+</details>
+
+---
+
+91. Can you write a Java code for Singleton design pattern ?
+
+<details><summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+```Java
+
+public class Singleton {
+    // Private static variable to hold the single instance of the class
+    private static Singleton instance;
+    
+    // Private constructor to prevent creation of new instances
+    private Singleton() {}
+    
+    // Public static method to get the single instance of the class
+    public static Singleton getInstance() {
+        // If instance is null, create a new instance
+        if (instance == null) {
+            instance = new Singleton();
+        }
+        // Return the instance
+        return instance;
+    }
+    
+    // Other methods and variables of the class
+    public void doSomething() {
+        System.out.println("Doing something...");
+    }
+}
+
+```
+
+In this example, we have a class Singleton with a private constructor and a private static variable instance that holds the single instance of the class. We also have a public static method getInstance() that returns the single instance of the class. The getInstance() method checks if the instance variable is null, and if so, creates a new instance of the class. Otherwise, it simply returns the existing instance.
+
+</blockquote>
+
+</details>
+
+---
+
+92. Write a Java code to reverse the linked list?
+
+<details><summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+```Java
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.*;
+import java.io.*;
+
+
+public class Main {
+    Node head;
+ 
+    static class Node {
+        int data;
+        Node next;
+ 
+        Node(int data) {
+            this.data = data;
+            next = null;
+        }
+    }
+ 
+    public void reverse() {
+        Node current = head;
+        Node prev = null;
+        Node next = null;
+        while (current != null) {
+            next = current.next;
+            current.next = prev;
+            prev = current;
+            current = next;
+        }
+        head = prev;
+    }
+ 
+    public void printList() {
+        Node node = head;
+        while (node != null) {
+            System.out.print(node.data + " ");
+            node = node.next;
+        }
+    }
+ 
+    public static void main(String[] args) {
+        Main list = new Main();
+        list.head = new Node(1);
+        list.head.next = new Node(2);
+        list.head.next.next = new Node(3);
+        list.head.next.next.next = new Node(4);
+        System.out.println("Original Linked list");
+        list.printList();
+        list.reverse();
+        System.out.println("");
+        System.out.println("Reversed linked list ");
+        list.printList();
+    }
+}
+
+```
+
+This code defines a LinkedList class with a Node inner class. The reverse() method reverses the linked list by iterating through each node and changing its next pointer to point to the previous node. Finally, the head of the linked list is set to the last node, which becomes the new head of the reversed linked list. The printList() method simply prints the values in the linked list. The main() method creates a linked list with four nodes and prints the original and reversed linked lists.
+
+</blockquote>
+
+</details>
+
+---
+
+93. Predict the output of the following?
+
+```Java
+
+public class superclass {
+    public void displayResult() {
+        system.out.println("Printing from superclass");
+    }
+}
+public class subclass extends superclass {
+    public void displayResult() {
+        system.out.println("Displaying from subClass");
+        super.displayResult();
+    }
+    public static void main(String args[]) {
+        subclass obj = new superclass();
+        obj.displayResult();
+        superclass obj = new subclass();
+        obj.displayResult();
+    }
+}
+```
+
+Can you tell the output of the code?
+
+<details><summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+The code has a syntax error in the main method where the object obj is being declared twice with conflicting types. 
+
+</blockquote>
+
+</details>
+
+---
+
+94. Where are strings stored stack or heap?
+
+<details><summary><b> Show Answer </b></summary>
+
+<blockquote>
+
+In Java, strings are stored in the heap memory. This is because a String object is created dynamically using the new keyword or through string literals, which results in the allocation of memory on the heap. However, string literals that are created at compile-time are stored in a separate area called the String constant pool, which is part of the heap memory.
+
+</blockquote>
+
+</details>
+
+---
