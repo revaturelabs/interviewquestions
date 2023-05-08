@@ -778,8 +778,6 @@ In Java, we can define a class inside a class, and they are called nested classe
 
 38. What is the difference between a constructor and a method?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details><summary> Show Answer </summary>
 
 <blockquote>
@@ -799,8 +797,6 @@ In summary, a constructor is used to initialize an object's state when it is cre
 ---
 
 39. How do you call another constructor from a constructor? 
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -843,9 +839,6 @@ In this example, the MySubClass constructor calls the superclass constructor wit
 ---
 40. What is the difference between the super keyword and this keyword regarding local variables 
 
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details><summary> Show Answer </summary>
 
 <blockquote>
@@ -877,8 +870,6 @@ In summary, this is used to refer to the current instance of the class and can b
 ---
 
 41. What is constructor overloading?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -924,8 +915,6 @@ Constructor overloading can be useful when you want to provide different ways to
 
 42. Can constructors be private?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details><summary> Show Answer </summary>
 
 <blockquote>
@@ -964,8 +953,6 @@ Note that if a class has only private constructors, it cannot be subclassed or e
 
 43. Why would we want constructors to be private?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details><summary> Show Answer </summary>
 
 <blockquote>
@@ -992,8 +979,6 @@ Overall, making constructors private can be a useful tool for controlling object
 
 44. Can we inherit private classes in Java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details><summary> Show Answer </summary>
 
 <blockquote>
@@ -1007,8 +992,6 @@ No, it is not possible to inherit or extend a private class in Java. Private cla
 ---
 
 45. Java Classes – How many can you extend?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1040,8 +1023,6 @@ So, to summarize, a class can extend only one class in Java, but it can implemen
 
 46. What is a marker interface?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details><summary> Show Answer </summary>
 
 <blockquote>
@@ -1071,8 +1052,6 @@ Annotation - This interface is used to mark an annotation type, which is used to
 ---
 
 47. Can an interface extend a class? 
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
