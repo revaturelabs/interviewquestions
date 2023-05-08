@@ -958,6 +958,7 @@ void repeatedTestWithRepetitionInfo1(RepetitionInfo repetitionInfo) {
 
 ---
 
+
 58. What is Mocking?
 
 <details> <summary> <b> Show Answer </b> </summary>
@@ -1405,5 +1406,219 @@ In this example, the `@AfterClass` annotation is used to indicate that the `clea
 </blockquote>
 
 </details>
+
+---
+
+75. Why use Mockito/JUnit?
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+JUnit and Mockito are commonly used testing frameworks in Java. JUnit is used for writing and executing unit tests, while Mockito is used for creating mock objects to isolate the code being tested. Together, they provide a comprehensive suite of tools for developers to ensure their code is working correctly and efficiently.
+
+</blockquote>
+
+</details>
+
+---
+
+76. Spy vs Mock?
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+In Mockito, a mock object is created to replace a real object or system, while a spy object is a real object that is being monitored for certain interactions. In other words, a mock object is a complete replacement of the real object, while a spy object is a wrapper around the real object that allows for additional testing.
+
+</blockquote>
+
+</details>
+
+---
+
+77. Difference between TestNG and JUnit?
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+TestNG and JUnit are both popular testing frameworks in Java, but they differ in their approach to testing. TestNG provides more advanced features such as test suites, data-driven testing, and parallel testing, while JUnit is more focused on writing and executing unit tests. TestNG also supports more configuration options and provides better reporting capabilities than JUnit.
+
+</blockquote>
+
+</details>
+
+---
+
+78. JUnit annotations and assertion methods.
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+JUnit provides a variety of annotations and assertion methods to help developers write effective and efficient unit tests. Some commonly used annotations include `@Test`, `@Before`, `@After`, and `@Ignore`, while commonly used assertion methods include `assertEquals()`, `assertNotEquals()`, `assertTrue()`, and `assertFalse()`. These annotations and assertion methods help developers to organize and execute their tests, as well as verify that their code is working correctly.
+
+</blockquote>
+
+</details>
+
+---
+
+79. Explain how you would conduct a JUnit test.
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+To conduct a JUnit test, you would first write a test class that contains methods with JUnit test annotations (`@Test`). Within each test method, you would create the necessary objects, set up any necessary data, and then call the method being tested. You would then use JUnit assertion methods to verify that the output of the method matches the expected output. You can run the test class using an IDE such as Eclipse or IntelliJ IDEA, or you can run it from the command line using a build tool such as Maven or Gradle.
+
+</blockquote>
+
+</details>
+
+---
+
+80. What is the difference between a unit test and a feature test?
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+A unit test is a type of test that focuses on a small, isolated piece of code, such as a single method or function. The purpose of a unit test is to ensure that this piece of code is working correctly in isolation. In contrast, a feature test is a type of test that focuses on a larger piece of functionality, such as a user interface or a complete system. The purpose of a feature test is to ensure that the system is working correctly as a whole, and that all the individual pieces are working together as expected.
+
+</blockquote>
+
+</details>
+
+---
+
+81. How to reduce redundancy in tests of JUnit?
+
+<details><summary><b> Show Answer</b></summary>
+
+To reduce redundancy in JUnit tests, one can follow the following practices:
+
+- Use parameterized tests to avoid duplicating the same test code for different inputs.
+- Use test inheritance to share common setup and teardown code between test classes.
+- Use test fixture objects to encapsulate setup and teardown logic that is shared across multiple tests.
+
+</details>
+
+---
+
+82. Tell me about unit testing?
+
+<details><summary><b> Show Answer</b></summary>
+
+Unit testing is a software testing technique in which individual units or components of a software application are tested in isolation from the rest of the system. The purpose of unit testing is to verify that each unit of the software application performs as expected and meets its design requirements.
+
+In unit testing, the code is tested in small, isolated parts to ensure that each part is functioning correctly. Unit tests are usually automated and run frequently during the development cycle to catch defects early and ensure that the software application meets its quality goals.
+
+</details>
+
+---
+
+83. By using unit testing, how would you verify a function that adds two numbers?
+
+<details><summary><b> Show Answer</b></summary>
+
+To verify a function that adds two numbers using unit testing, we would create a test method that calls the function with two known input values and verifies that the result is correct. Here is an example test method using JUnit:
+
+```
+@Test
+public void testAddition() {
+    int a = 5;
+    int b = 7;
+    int expectedSum = 12;
+
+    int actualSum = MyClass.add(a, b);
+
+    assertEquals(expectedSum, actualSum);
+}
+```
+
+In this example, we create two input values `a` and `b`, call the `add()` function with these values, and then compare the expected result `expectedSum` with the actual result `actualSum` using the `assertEquals()` assertion method.
+
+</details>
+
+---
+
+84. How did you provide data to the JUnit tests?
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+JUnit tests need input data to test different scenarios. There are several ways to provide data to JUnit tests, including:
+
+1. Hard-coding values in test methods
+2. Creating test data as input files and reading them in the test methods
+3. Creating test data objects and passing them as method parameters
+4. Using data providers or test factories provided by testing frameworks like JUnit or TestNG
+
+The approach taken depends on the specific needs of the test cases and the size and complexity of the test data.
+
+</blockquote>
+
+</details>
+
+---
+
+85. What are you testing for in JUnit?
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+In JUnit, we are testing the behavior of a specific unit of code, such as a method or a class, in isolation from other units. The goal of testing with JUnit is to ensure that the code under test meets the requirements and specifications set out in the design and documentation, and that it functions correctly and robustly in different scenarios and conditions.
+
+Some of the things we might be testing for in JUnit include:
+
+1. Correctness: Does the code produce the expected output or behavior given a specific input or set of inputs?
+2. Boundary conditions: Does the code behave correctly when input values are at the limits or extremes of the allowable range?
+3. Error handling: Does the code handle unexpected or erroneous input or conditions gracefully and without crashing?
+4. Performance: Does the code execute within the expected time or resource constraints?
+5. Compatibility: Does the code work correctly with different environments, configurations, or platforms?
+
+</blockquote>
+
+</details>
+---
+
+86. How do you test an exception?
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+Testing exceptions in JUnit is a way to ensure that code under test behaves as expected when it encounters unexpected or erroneous input or conditions. Here's how you can test an exception in JUnit:
+
+1. Use the `@Test` annotation to identify the test method that will throw the exception.
+2. Use the `@Test` annotation's `expected` parameter to specify the exception class that is expected to be thrown.
+3. Add the code that will trigger the exception in the test method.
+4. Run the test and verify that the exception is thrown.
+
+Here's an example of how to test an exception in JUnit:
+
+```java
+@Test(expected = ArithmeticException.class)
+public void testDivideByZero() {
+  int a = 10;
+  int b = 0;
+  int result = a / b; // this line will trigger the exception
+}
+```
+
+In this example, we expect an `ArithmeticException` to be thrown when we divide an integer by zero. The `@Test` annotation's `expected` parameter specifies that the test method should pass if the exception is thrown.
+
+</blockquote>
+
+</details>
+
+---
+
+87. How do you override a test designation?
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+In JUnit, you can override a test method's default name by using the `@DisplayName` annotation. This allows you to provide a more descriptive name for the test method that makes it easier to understand what the test is actually doing.
+
+For example, if you have a test method called `testAddition()` and you want to override its name to `Test Addition of Two Positive Integers`, you can annotate the method with `@DisplayName("Test Addition of Two Positive Integers")`.
+
+This annotation can be placed on the test method itself, or on the test class if you want to apply it to all test methods in the class.
+</blockquote>
+
+</details>
+
+---
 
 
