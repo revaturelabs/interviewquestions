@@ -976,7 +976,6 @@ Comparable and Comparator both are interfaces and can be used to sort collection
 
 50. Can you differentiate Vector and ArrayList?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1001,8 +1000,6 @@ Yes, Vector and ArrayList are both data structures used to store and manage coll
 
 51. Do you know any thread safe collections?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1015,8 +1012,6 @@ Java provides several thread-safe collections that can be used in multi-threaded
 ---
 
 52. Do you know about any concurrent collections?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1032,8 +1027,6 @@ ConcurrentHashMap, CopyOnWriteArrayList, ConcurrentLinkedQueue, BlockingQueue, a
 ---
 
 53. How do you make an arraylist synchronized?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1053,8 +1046,6 @@ List<String> syncList = Collections.synchronizedList(list);
 
 54. What is a set?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1067,8 +1058,6 @@ A Set in java is an unordered collection which do no allow duplicate values to b
 ---
 
 55. Can you differentiate ArrayList and HashMap?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1104,9 +1093,7 @@ Yes, ArrayList and HashMap are different data structures in Java with different 
 ---
 
 56. What is the difference between HashMap and TreeMap in Java?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
+	
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1130,8 +1117,6 @@ Other differences between HashMap and TreeMap include:
 
 57. What is Concurrent HashMap?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1146,9 +1131,6 @@ ConcurrentHashMap achieves thread-safety by dividing the map into several segmen
 ---
 
 58. Name any two items in the collections API and when would you use them?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1164,8 +1146,6 @@ ConcurrentHashMap achieves thread-safety by dividing the map into several segmen
 
 59. What is the difference between List and Map?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1178,8 +1158,6 @@ A List is used to store a collection of elements in a specific order that can be
 ---
 
 60. What is the difference between List and Set?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1194,8 +1172,6 @@ In short, a List is an ordered collection that can contain duplicate elements, w
 
 61. What is the difference between Array and LinkedList ?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1208,8 +1184,6 @@ An array is a collection of elements stored in contiguous memory locations, wher
 ---
 
 62. What is HashTable?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1224,8 +1198,6 @@ HashTable is a data structure that maps keys to their associated values using a 
 
 63. How does a HashMap Work?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1239,7 +1211,6 @@ HashMap works by using a hash function to map keys to an index in an array, wher
 
 64. How would you get a sorted Hashmap?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1264,8 +1235,6 @@ TreeMap<Integer, String> sortedMap = new TreeMap<>(hashMap);
 
 65. Is the insertion time slow (or fast) when using a LinkedList? 
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1279,8 +1248,6 @@ Insertion time is generally considered to be fast in a linked list as compared t
 
 66. How do Map works?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1293,8 +1260,6 @@ A Map is an interface in Java that stores key-value pairs. It works by associati
 ---
 
 67. What is a Linked List and best used for?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1311,8 +1276,6 @@ Linked lists are best used when we need to frequently insert or delete elements 
 
 68. What is Array List and best used for?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1326,8 +1289,6 @@ ArrayList is best used when we need a resizable array that can grow dynamically.
 
 69. Why should we use Map over Set/List?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1340,8 +1301,6 @@ Maps are used over sets/lists when there is a need to store data as key-value pa
 ---
 
 70. What is the time complexity of Map and List?
-
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1360,8 +1319,6 @@ List operations have a time complexity of O(1) for accessing elements by index u
 
 71. When to use TreeMap?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1374,8 +1331,6 @@ You can consider using TreeMap when you need to maintain a collection of key-val
 ---
 
 72. How do you define an arraylist?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1396,8 +1351,6 @@ ArrayList<Integer> myList = new ArrayList<Integer>();
 
 73. What is Hashing ?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1410,8 +1363,6 @@ Hashing is a process of converting a large amount of data into a small, fixed-si
 ---
 
 74. What is stack? 
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1426,8 +1377,6 @@ A stack is an abstract data type that represents a collection of elements, where
 
 75. What is hashcode() in Java collection framework?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1441,8 +1390,6 @@ In the Java Collections framework, the `hashCode()` method is defined in the Obj
 ---
 
 76. Can a HashMap have null or blank values?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1463,8 +1410,6 @@ map.put(null, 2);
 
 77. What is the difference between an ArrayList and a List? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1480,8 +1425,6 @@ The main difference between ArrayList and List is that ArrayList is a resizable 
 
 78. What is a Map?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1495,8 +1438,6 @@ In Java, a Map is a collection interface that stores a set of key-value pairs, w
 ---
 
 79. What other classes besides ArrayList?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1522,8 +1463,6 @@ There are many other classes besides ArrayList in the Java Collections Framework
 
 80. Does vector implements interface List ?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1536,8 +1475,6 @@ Yes, Vector implements the List interface in Java.
 ---
 
 81. What is the difference between Map and hashMap?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1553,8 +1490,6 @@ HashMap is a specific implementation of the Map interface in Java. It uses a has
 ---
 
 82. How do you initialize an arraylist?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1576,8 +1511,6 @@ list.add("orange");
 
 83. What collection would you use to store an entire JSon Object?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1590,8 +1523,6 @@ In Java, you could use a Map collection to store an entire JSON object. The keys
 ---
 
 84. With an array of numbers, how do you display only the duplicates?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1617,8 +1548,6 @@ for(int i=0; i<numbers.length; i++) {
 ---
 
 85. What is an Array Map ?
-
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1675,8 +1604,6 @@ public class ArrayMap<K, V> {
 ---
 
 86. Give an example of when to use a generic function in Java?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
