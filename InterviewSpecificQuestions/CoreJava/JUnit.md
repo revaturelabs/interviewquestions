@@ -960,8 +960,6 @@ void repeatedTestWithRepetitionInfo1(RepetitionInfo repetitionInfo) {
 
 58. What is Mocking?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -974,8 +972,6 @@ Mocking is a technique used in unit testing to simulate the behavior of external
 ---
 
 59. What is Mockito and integration testing?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -991,8 +987,6 @@ Integration testing, on the other hand, is a type of testing that involves testi
 ---
 
 60. Can Mockito be used for UI testing?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1076,8 +1070,6 @@ TDD stands for Test-Driven Development. It is a software development approach in
 
 64. What is Red-green testing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1097,8 +1089,6 @@ The term "red-green" refers to the color of the test status indicators in the te
 
 65. Why is TDD useful?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1111,8 +1101,6 @@ TDD (Test Driven Development) is useful because it helps developers to write cle
 ---
 
 66. What are the considerations and best practices for Unit testing?
-
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1145,8 +1133,6 @@ Here are some considerations and best practices for unit testing:
 
 67.  How would you test a method in JUnit?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1171,9 +1157,7 @@ To test a method in JUnit, you can follow these steps:
 ---
 
 68. How would you pull in data live while a test is running in JUnit?
-
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
-
+69. 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1231,9 +1215,7 @@ public class MyTest {
 ---
 
 69. Can you differentiate e2e and Unit testing ?
-
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
-
+70. 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1258,8 +1240,6 @@ Here are some key differences between E2E and unit testing:
 ---
 
 70. How can we test a class in JUnit?
-
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1288,8 +1268,6 @@ public class MyClassTest {
 ---
 
 71. How to do Unit testing in spring and in angular?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -1323,8 +1301,6 @@ public class MyClassTest {
 
 72. What framework is it if you wrote `@After`, `@Before`? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -1337,8 +1313,6 @@ If you wrote `@After` and `@Before` annotations in your code, it is most likely 
 ---
 
 73. How  you can say how many percent of the code has been tested in JUnit? How you create a  report?
-
-![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
 In JUnit, you can use code coverage tools to determine how much of your code has been tested by your JUnit tests. These tools analyze your code and generate a report that shows which lines and branches of code have been executed by your tests.
 
@@ -1397,8 +1371,6 @@ This will run your JUnit tests and generate a code coverage report in the `targe
 ---
 
 74. What is `@AfterClass` does?
-
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 `@AfterClass` is a JUnit annotation that is used to indicate that a method should be executed after all tests in a test class have been run. This annotation is useful for performing cleanup tasks after all the tests have been executed, such as closing resources or resetting the state of the system.
 
