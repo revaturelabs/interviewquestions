@@ -1089,3 +1089,76 @@ However, a class can implement multiple interfaces, allowing it to provide imple
 </details>
 
 ---
+
+48. What is the difference between method overloading and method overriding?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Method overloading and method overriding are two important concepts in object-oriented programming in Java. The main difference between them is that method overloading involves creating multiple methods with the same name in a class, but with different parameters, whereas method overriding involves creating a new implementation of a method in a subclass, with the same name and parameters as a method in its superclass.
+
+Here are some more details about each concept:
+
+Method Overloading:
+
+Method overloading is a feature of Java that allows a class to have multiple methods with the same name, but with different parameters.
+The methods must have different parameter lists, which can differ in terms of the number, order, and types of parameters.
+Method overloading allows a class to provide multiple ways of calling the same method, depending on the types and number of arguments passed to it.
+Method overloading is resolved at compile time, based on the number and types of arguments passed to the method.
+Method Overriding:
+
+Method overriding is a feature of Java that allows a subclass to provide a new implementation of a method that is already defined in its superclass.
+The method in the subclass must have the same name and parameters as the method in the superclass.
+Method overriding allows a subclass to provide a specialized implementation of a method that is tailored to its specific needs.
+Method overriding is resolved at runtime, based on the actual type of the object that the method is called on.
+In summary, method overloading involves creating multiple methods with the same name in a class, but with different parameters, while method overriding involves creating a new implementation of a method in a subclass, with the same name and parameters as a method in its superclass.
+
+</blockquote>
+
+</details>
+
+---
+
+49. Is Java strictly OOP ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Java is considered to be a strongly object-oriented programming language, meaning that it is designed around the principles of object-oriented programming (OOP).
+
+In Java, everything is an object, including primitives like int and boolean, which are represented as wrapper classes such as Integer and Boolean. Java also supports all the key features of OOP, such as encapsulation, inheritance, and polymorphism.
+
+However, Java also includes some features that are not strictly object-oriented, such as static methods and variables, which belong to the class rather than to any instance of the class. Java also has basic support for procedural programming, as it allows for the use of functions outside of classes.
+
+So while Java is designed around the principles of OOP and is widely considered to be an object-oriented language, it also includes some non-OOP features and supports other programming paradigms.
+
+</blockquote>
+
+</details>
+
+---
+50. what you would use if you couldn't instantiate an object in Java
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+If you cannot instantiate an object in Java, you may consider using a static method or variable. A static method or variable belongs to the class and not to an instance of the class, so you can access it without creating an object.
+
+Alternatively, you can use a singleton design pattern, which ensures that only one instance of a class is created and provides a global point of access to that instance. The singleton pattern can be implemented using a static method or a static variable.
+
+Another option is to use an abstract class or interface, which cannot be instantiated directly, but can be extended or implemented by other classes. This can be useful if you want to define a common behavior or contract for a group of related classes, without providing a concrete implementation.
+
+</blockquote>
+
+</details>
+
+---
+
+
+
