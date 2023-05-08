@@ -307,3 +307,297 @@ Reason:
 </details>
 
 ---
+16. Difference between int and Integer   
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+In Java, int and Integer are both used to represent integer values, but there are some key differences between them.
+
+- int is a primitive data type, while Integer is a wrapper class that provides a way to use int values in object-oriented contexts. This means that int values are stored as simple binary values, while Integer objects are stored as instances with attributes and behaviors.
+
+- int is a value type, while Integer is a reference type. This means that int values are passed by value, while Integer objects are passed by reference.
+
+- int has a default value of 0, while Integer has a default value of null.
+
+- int has a fixed range of values (-2,147,483,648 to 2,147,483,647), while Integer has a larger range of values (from -2^31 to 2^31-1) due to its ability to handle null values.
+
+- int values can be used directly in arithmetic operations, while Integer objects need to be converted to int values using the intValue() method before they can be used in arithmetic operations.
+
+Overall, int is generally preferred for basic arithmetic operations and where memory usage and performance are a concern, while Integer is more useful in situations where an object-oriented approach is needed, such as when dealing with collections or passing values between methods that require objects.
+
+</blockquote>
+
+</details>
+
+---
+17. What are Wrapper Classes?  
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Wrapper classes are the classes that allow primitive data types to be treated as objects. There is a wrapper class for each primitive data type, and they provide utility methods for converting between primitive data types and objects, as well as for performing various other operations on the data. Wrapper classes are useful in situations where an object is required, but only a primitive data type is available. Some examples of wrapper classes are `Boolean`, `Byte`,`Character`, `Short`, `Integer`,`Long`, `Float`, and `Double`.
+
+</blockquote>
+
+</details>
+
+---
+18. The differences between String, StringBuffer, and StringBuilder. 
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Strings, StringBuilder, and StringBuffer are classes in Java used to manipulate character sequences and the main differences between them are Strings are immutable, while StringBuilder and StringBuffer are mutable. StringBuffer and StringBuilder both provide the same functionality to the use with differences like StringBuffer is thread-safe, while StringBuilder is not thread-safe. The performance of StringBuilder is high as compared to StringBuffer. Strings create a new object in memory every time they are modified, while StringBuilder and StringBuffer use a single buffer.
+
+</blockquote>
+
+</details>
+
+---
+
+19. What types of Methods are in a String class 
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The String class in Java has several built-in methods that allow you to manipulate and work with strings. Some of the most commonly used methods include:
+
+- length(): This method returns the length of a string.
+
+- charAt(int index): This method returns the character at the specified index in the string.
+
+- substring(int beginIndex): This method returns a new string that is a substring of the original string, starting from the specified index.
+
+- substring(int beginIndex, int endIndex): This method returns a new string that is a substring of the original string, starting from the specified begin index and ending at the specified end index.
+
+- indexOf(char c): This method returns the index of the first occurrence of the specified character in the string.
+
+- indexOf(String str): This method returns the index of the first occurrence of the specified substring in the string.
+
+- lastIndexOf(char c): This method returns the index of the last occurrence of the specified character in the string.
+
+- lastIndexOf(String str): This method returns the index of the last occurrence of the specified substring in the string.
+
+- toUpperCase(): This method returns a new string with all characters in uppercase.
+
+- toLowerCase(): This method returns a new string with all characters in lowercase.
+
+- equals(Object obj): This method compares the string to the specified object and returns true if they are equal.
+
+- equalsIgnoreCase(String str): This method compares the string to the specified string, ignoring case differences.
+
+- startsWith(String prefix): This method returns true if the string starts with the specified prefix.
+
+- endsWith(String suffix): This method returns true if the string ends with the specified suffix.
+
+- replace(char oldChar, char newChar): This method returns a new string with all occurrences of the specified old character replaced with the specified new character.
+
+- replaceAll(String regex, String replacement): This method returns a new string with all occurrences of the specified regular expression replaced with the specified replacement string.
+
+</blockquote>
+
+</details>
+
+---
+20. What is the substring function used for?
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The substring() function in Java is a method of the String class that is used to extract a part of a string. It returns a new string that is a substring of the original string. The substring() method takes two parameters: the starting index and the ending index of the substring.
+
+The syntax of the substring() method is as follows:
+```java
+String substring(int startIndex)
+String substring(int startIndex, int endIndex)
+```
+The first form of the method returns the substring starting from the given index to the end of the string.
+
+The second form of the method returns the substring starting from the given start index up to, but not including, the specified end index.
+
+For example, the following code snippet extracts a substring from a given string:
+```java
+String str = "Hello World";
+String substr1 = str.substring(6); // Returns "World"
+String substr2 = str.substring(0, 5); // Returns "Hello"
+```
+Note that the index starts at 0, so the first character in the string has an index of 0.
+
+</blockquote>
+
+</details>
+
+---
+21. Tell me about Strings in java
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+In Java, a String is an object that represents a sequence of characters. It is one of the most commonly used classes in Java and is part of the java.lang package, which is automatically imported into every Java program.
+
+Strings in Java are immutable, which means that once a string is created, its value cannot be changed. This property is enforced by the final keyword, which is used to declare the internal character array of the String class.
+
+The String class provides a wide range of methods that allow you to manipulate and extract information from strings. Some of the most commonly used methods include:
+
+- length(): returns the number of characters in the string
+- charAt(int index): returns the character at the specified index
+- substring(int beginIndex, int endIndex): returns a substring of the original string from the beginIndex to the endIndex
+- indexOf(String str): returns the index of the first occurrence of the specified string
+- toUpperCase(): returns a new string with all characters in uppercase
+- toLowerCase(): returns a new string with all characters in lowercase
+- equals(Object obj): compares the current string to the specified object for equality
+- compareTo(String str): compares the current string to the specified string lexicographically
+Strings can be concatenated using the + operator or the concat() method. For example:
+```java
+String str1 = "Hello";
+String str2 = "world";
+String str3 = str1 + " " + str2; // "Hello world"
+String str4 = str1.concat(" ").concat(str2); // "Hello world"
+```
+Java also provides a shorthand for creating String objects using string literals. For example:
+```java
+String str = "Hello world";
+```
+This creates a new String object with the value "Hello world".
+</blockquote>
+
+</details>
+
+---
+22. difference between instantiating a string = "dog" vs = new String("dog")?;
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+In Java, there are two ways to create a string:
+
+Using string literal - "dog"
+Using the new keyword - new String("dog")
+When a string is created using a string literal, Java creates a string object and adds it to the string pool. When a new string object is created using the new keyword, Java creates a new object on the heap memory, even if a string with the same value already exists in the string pool.
+
+Here are some of the differences between these two ways of creating a string:
+
+Performance: String literals are faster and more efficient as they use the string pool. String objects created using the new keyword are slower as they create a new object every time.
+
+Object references: When a string literal is used, only one object reference is created, and all the variables with the same string literal point to the same object. When the new keyword is used, a new object reference is created every time.
+
+String pool: String literals are added to the string pool, which is a special memory area reserved for storing strings. Strings created using the new keyword are not added to the string pool.
+
+In general, it is recommended to use string literals instead of creating new string objects using the new keyword, as string literals are more efficient and easier to use. However, in certain situations, such as when comparing strings using the == operator, it is recommended to use the new keyword to create new string objects.
+</blockquote>
+
+</details>
+
+---
+23. do you understand immutable classes?
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+In Java, immutable classes are classes whose instances cannot be modified once they are created. This means that the values of the instance variables of an immutable class cannot be changed after the object is created.
+
+Immutable classes are typically used to represent values that do not change over time, such as dates, times, and other types of data. By making these classes immutable, Java provides a level of safety and predictability in the code, as developers can be sure that the objects they are working with will not change unexpectedly.
+
+Examples of immutable classes in Java include String, Integer, and LocalDate. These classes are all final, which means they cannot be subclassed and their methods cannot be overridden, further ensuring their immutability.
+
+</blockquote>
+
+</details>
+
+---
+24. What is StringBuilder?
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+StringBuilder is a class in Java that provides a mutable sequence of characters. It is similar to the String class, but unlike String, StringBuilder allows modification of its characters without creating a new object. This makes it more efficient for applications that require frequent string manipulations.
+
+StringBuilder provides methods for appending, inserting, deleting, and replacing characters in the sequence. It also provides methods for converting the sequence to a String object or to a character array.
+
+StringBuilder is often used in situations where the contents of a string need to be modified frequently, such as in a loop that builds a long string incrementally. The use of StringBuilder in such cases can improve performance compared to using String, as creating a new String object for each iteration of the loop can be slow and inefficient.
+
+In summary, StringBuilder is a mutable class in Java that provides methods for modifying sequences of characters, making it more efficient than the immutable String class for certain types of applications.
+
+</blockquote>
+
+</details>
+
+---
+25. String vs StringTokenizer 
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+String is more commonly used and provides greater flexibility and functionality, while StringTokenizer is used for simpler tasks that involve splitting a string into smaller substrings based on a delimiter. However, since StringTokenizer is a legacy class, it is recommended to use the String class and its built-in methods for more advanced string manipulation tasks.
+
+</blockquote>
+
+</details>
+
+---
+26. How do I change the value of a String without allocating a different part of memory?
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+In Java, strings are immutable, which means that once a string object is created, it cannot be modified. However, you can create a new string object with a modified value without allocating a different part of memory by using the StringBuilder or StringBuffer class.
+
+Here's an example using StringBuilder:
+```java
+String originalString = "Hello, world!";
+StringBuilder modifiedStringBuilder = new StringBuilder(originalString);
+modifiedStringBuilder.setCharAt(7, 'W');
+String modifiedString = modifiedStringBuilder.toString();
+System.out.println(modifiedString);
+```
+In this example, we first create a StringBuilder object with the value of the original string. We then modify the 7th character of the string using the setCharAt() method, which updates the value in place without creating a new object. Finally, we create a new String object from the modified StringBuilder using the toString() method.
+
+</blockquote>
+
+</details>
+
+---
+27. Tell me about how to create a String literal 
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+A String literal in Java is a sequence of characters enclosed in double quotation marks. To create a String literal in Java, you simply need to enclose the characters in double quotes as follows:
+```java
+String str = "Hello, World!";
+```
+This creates a String object with the value "Hello, World!" and assigns it to the variable str. Note that String literals are automatically interned in Java, which means that multiple String literals with the same value will refer to the same String object in memory.
+
+</blockquote>
+
+</details>
+
+---
+28. What is the string pool?
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+In Java, the string pool (also known as string intern pool) is a special memory region in the heap where the string literals are stored. Whenever a string literal is created in the code, the JVM checks the string pool to see if an identical string already exists in the pool. If it does, then the new reference points to the existing object in the pool, instead of creating a new object. This mechanism helps to conserve memory and optimize performance, especially for frequently used string literals.
+
+String objects that are created with the new keyword are not stored in the string pool. They are created in the heap like any other object, and a new reference always points to a new object. However, you can explicitly add a String object to the string pool using the intern() method. This method returns a canonical representation of the String object, which can be used to compare two string objects for equality using the == operator, instead of the equals() method.
+
+</blockquote>
+
+</details>
+
+---
