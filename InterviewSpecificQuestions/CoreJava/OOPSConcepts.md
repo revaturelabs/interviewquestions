@@ -1,3 +1,5 @@
+## Technical
+
 1. What is the difference between method and function?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -841,7 +843,6 @@ In this example, the MySubClass constructor calls the superclass constructor wit
 ---
 40. What is the difference between the super keyword and this keyword regarding local variables 
 
-
 <details><summary> Show Answer </summary>
 
 <blockquote>
@@ -873,7 +874,6 @@ In summary, this is used to refer to the current instance of the class and can b
 ---
 
 41. What is constructor overloading?
-
 
 <details><summary> Show Answer </summary>
 
@@ -919,7 +919,6 @@ Constructor overloading can be useful when you want to provide different ways to
 
 42. Can constructors be private?
 
-
 <details><summary> Show Answer </summary>
 
 <blockquote>
@@ -957,7 +956,6 @@ Note that if a class has only private constructors, it cannot be subclassed or e
 ---
 
 43. Why would we want constructors to be private?
-
 
 <details><summary> Show Answer </summary>
 
@@ -1202,7 +1200,7 @@ In this example, the MySubClass constructor calls the superclass constructor wit
 </details>
 
 ---
-52. What is the difference between the super keyword and this keyword regarding local variables 
+53. What is the difference between the super keyword and this keyword regarding local variables 
 
 <details><summary> Show Answer </summary>
 
@@ -1234,7 +1232,7 @@ In summary, this is used to refer to the current instance of the class and can b
 
 ---
 
-53. What is constructor overloading?
+54. What is constructor overloading?
 
 <details><summary> Show Answer </summary>
 
@@ -1278,7 +1276,7 @@ Constructor overloading can be useful when you want to provide different ways to
 
 ---
 
-54. Can constructors be private?
+55. Can constructors be private?
 
 <details><summary> Show Answer </summary>
 
@@ -1316,7 +1314,7 @@ Note that if a class has only private constructors, it cannot be subclassed or e
 
 ---
 
-55. Why would we want constructors to be private?
+56. Why would we want constructors to be private?
 
 <details><summary> Show Answer </summary>
 
@@ -1342,7 +1340,7 @@ Overall, making constructors private can be a useful tool for controlling object
 
 ---
 
-56. Can we inherit private classes in Java?
+57. Can we inherit private classes in Java?
 
 <details><summary> Show Answer </summary>
 
@@ -1356,7 +1354,7 @@ No, it is not possible to inherit or extend a private class in Java. Private cla
 
 ---
 
-57. Java Classes – How many can you extend?
+58. Java Classes – How many can you extend?
 
 <details><summary> Show Answer </summary>
 
@@ -1386,7 +1384,7 @@ So, to summarize, a class can extend only one class in Java, but it can implemen
 
 ---
 
-58. What is a marker interface?
+59. What is a marker interface?
 
 <details><summary> Show Answer </summary>
 
@@ -1416,7 +1414,8 @@ Annotation - This interface is used to mark an annotation type, which is used to
 
 ---
 
-59. Can an interface extend a class? 
+60. Can an interface extend a class? 
+
 
 <details><summary> Show Answer </summary>
 
@@ -1433,7 +1432,4 @@ However, a class can implement multiple interfaces, allowing it to provide imple
 </details>
 
 ---
-
-
-
 

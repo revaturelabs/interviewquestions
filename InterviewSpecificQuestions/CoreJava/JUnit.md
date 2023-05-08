@@ -958,7 +958,458 @@ void repeatedTestWithRepetitionInfo1(RepetitionInfo repetitionInfo) {
 
 ---
 
-58. Why use Mockito/JUnit?
+
+58. What is Mocking?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Mocking is a technique used in unit testing to simulate the behavior of external dependencies, such as databases or web services, by creating fake objects that mimic their behavior. This allows developers to test their code in isolation, without actually interacting with the real external dependencies. Mocking frameworks, such as Mockito and EasyMock, provide a set of tools and APIs to easily create and manage these fake objects, making the process of writing unit tests faster and more efficient.
+
+</blockquote>
+
+</details>
+
+---
+
+59. What is Mockito and integration testing?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Mockito is a popular open-source Java mocking framework that allows you to easily create mock objects for testing purposes. It provides methods to create mock objects, stubbing methods of mock objects, and verify method invocations on mock objects.
+
+Integration testing, on the other hand, is a type of testing that involves testing the behavior of multiple modules of an application when they are integrated together. Integration testing is done to ensure that different modules of an application work correctly when integrated and to identify issues with the interactions between the modules. It is generally performed after unit testing and before system testing.
+
+</blockquote>
+
+</details>
+
+---
+
+60. Can Mockito be used for UI testing?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Mockito is not typically used for UI testing. Mockito is primarily used for unit testing to mock dependencies and ensure that individual units of code function correctly in isolation.
+
+UI testing, on the other hand, involves testing the entire application or a significant portion of it to ensure that the various parts of the application are working together correctly. For UI testing, tools like Selenium and Appium are typically used to simulate user interactions with the application and validate the behavior of the application in response to those interactions.
+
+</blockquote>
+
+</details>
+
+---
+
+61. What is the purpose of mocking an object or class?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+The purpose of mocking an object or class is to create a fake or substitute object that mimics the behavior of the original object, but allows for controlled and predictable behavior in tests. This is particularly useful when the real object is difficult or impossible to create or maintain in a test environment, or when the real object has side effects that may interfere with the test. By using a mock object, a developer can isolate the code being tested and focus on the specific functionality they are testing, without worrying about the behavior of other parts of the system. This helps in achieving more reliable and faster unit tests.
+
+</blockquote>
+
+</details>
+
+---
+
+62. How would you mock a class in Java?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+To mock a class in Java, you can use a mocking framework like Mockito. Here's an example of how to mock a class in Java using Mockito:
+
+Assume you have a class MyClass that you want to mock. Here's how you can do it:
+
+```Java
+
+// Create a mock object of MyClass
+MyClass myClassMock = Mockito.mock(MyClass.class);
+
+// Define the behavior of the mock object
+Mockito.when(myClassMock.someMethod()).thenReturn(someValue);
+
+// Use the mock object in your test
+// ...
+```
+
+In the above example, MyClass is mocked using the Mockito.mock() method. The behavior of the mock object is then defined using the Mockito.when() method. The someMethod() method of the mock object is then defined to return someValue. Finally, the mock object is used in the test.
+
+</blockquote>
+
+</details>
+
+---
+ 
+63. What is TDD?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+TDD stands for Test-Driven Development. It is a software development approach in which tests are written before the actual code is written. The process usually involves the following steps:
+
+- Write a test for a specific piece of functionality.
+- Run the test and verify that it fails.
+- Write the code that implements the functionality.
+- Run the test again and verify that it passes.
+- Refactor the code if necessary and repeat the process.
+
+</blockquote>
+
+</details>
+
+---
+
+64. What is Red-green testing?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Red-green testing is a term used in Test-driven development (TDD) to describe the two stages of writing and running automated tests.
+
+The first stage, the "red" stage, involves writing a failing test. This test is written before any code has been written to meet the requirements of the test. The purpose of the failing test is to ensure that the code that is written later on will meet the requirements of the test.
+
+The second stage, the "green" stage, involves writing code that will pass the failing test. The goal is to make the test pass by writing the minimum amount of code necessary. Once the code has passed the test, it can be refactored or improved upon without fear of introducing bugs, since the test provides a safety net for catching any regressions.
+
+The term "red-green" refers to the color of the test status indicators in the testing framework. When a test fails, it turns red. When a test passes, it turns green. The red-green testing cycle is repeated over and over as new features are added or existing features are changed, with the goal of continuously improving the codebase while maintaining a high level of test coverage.
+
+</blockquote>
+
+</details>
+
+---
+
+65. Why is TDD useful?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+TDD (Test Driven Development) is useful because it helps developers to write clean, reliable, and maintainable code. By writing automated tests before the actual code, developers can better understand the requirements, improve the design, catch and fix issues early, and ensure that their code is always working as intended. This leads to higher code quality, faster development cycles, and increased confidence in the codebase.
+
+</blockquote>
+
+</details>
+
+---
+
+66. What are the considerations and best practices for Unit testing?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Here are some considerations and best practices for unit testing:
+
+`Test one thing at a time`: Each unit test should focus on testing one specific behavior or function of the code. This ensures that the test is easy to write, easy to understand, and provides clear feedback on whether the code is working as expected.
+
+`Use a consistent naming convention`: Use a consistent naming convention for your test cases that accurately reflects what the test is testing. This makes it easier to understand what each test case is testing and helps to organize your tests.
+
+`Write tests before writing code`: One of the key benefits of unit testing is that it helps to catch bugs early in the development process. To take full advantage of this, write your unit tests before you write your code. This approach is known as test-driven development (TDD).
+
+`Use automated testing frameworks`: There are many automated testing frameworks available for different programming languages and platforms. These frameworks make it easy to run and manage your tests, and they can also provide useful features such as test coverage reports.
+
+`Test all code paths`: Make sure to test all possible code paths, including both positive and negative scenarios. This ensures that your code is working as expected in all possible scenarios.
+
+`Keep your tests independent`: Each test should be independent of other tests and should not rely on external resources such as databases or network connections. This makes it easier to debug failing tests and ensures that each test is testing only one specific behavior.
+
+`Keep your tests fast`: Unit tests should be fast and efficient. Slow tests can slow down your development process and reduce the effectiveness of your testing strategy.
+
+`Test for edge cases`: Make sure to test edge cases and corner cases, such as input values at the boundaries of acceptable ranges. This can help uncover bugs that may not be apparent in normal usage scenarios.
+
+`Continuously refactor your tests`: As your code evolves, make sure to refactor your tests to keep them up to date with the changes. This ensures that your tests remain accurate and effective over time.
+
+</blockquote>
+
+</details>
+
+---
+
+67.  How would you test a method in JUnit?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+To test a method in JUnit, you can follow these steps:
+
+`Create a test class`: Create a new class in your test package and annotate it with `@RunWith(JUnit4.class)`.
+
+`Create a test method`: Create a new method in your test class and annotate it with `@Test`. This method will be used to test your target method.
+
+`Prepare the test data`: Prepare the input data for your target method and any necessary dependencies.
+
+`Invoke the target method`: Call the target method with the input data prepared in the previous step.
+
+`Verify the result`: Verify that the result returned by the target method is correct. You can use various assertion methods provided by JUnit, such as `assertEquals()` or `assertThat()`, to compare the actual result with the expected result.
+
+`Handle exceptions`: If the target method throws any exceptions, you can use the @Test annotation's expected attribute to specify the expected exception type. You can also use the `@Rule` annotation to specify a rule that handles exceptions.
+
+</blockquote>
+
+</details>
+
+---
+
+68. How would you pull in data live while a test is running in JUnit?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+To pull in data live while a test is running in JUnit, you can use JUnit's `@Rule` annotation with the ExternalResource rule. This rule allows you to specify a method that will be executed before and after each test method in the class, and you can use this method to perform setup and teardown operations, including fetching data.
+
+Here's an example of how you can use the ExternalResource rule to fetch data from a database for a test:
+
+```Java
+
+public class MyTest {
+    @Rule
+    public ExternalResource resource = new ExternalResource() {
+        private Connection conn;
+
+        // Set up the resource
+        @Override
+        protected void before() throws Throwable {
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "user", "password");
+        }
+
+        // Tear down the resource
+        @Override
+        protected void after() {
+            try {
+                if (conn != null) {
+                    conn.close();
+                }
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+
+        // Fetch data from the resource
+        public ResultSet fetchSomeData() throws SQLException {
+            Statement stmt = conn.createStatement();
+            ResultSet rs = stmt.executeQuery("SELECT * FROM mytable WHERE someCondition = true");
+            return rs;
+        }
+    };
+
+    @Test
+    public void testSomethingWithLiveData() throws SQLException {
+        ResultSet rs = resource.fetchSomeData();
+        // Use the fetched data in your test
+        // ...
+    }
+}
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+69. Can you differentiate e2e and Unit testing ?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+End-to-end (E2E) testing and unit testing are two different types of testing that serve different purposes in the software development life cycle.
+
+Here are some key differences between E2E and unit testing:
+
+`Scope`: Unit tests focus on testing individual units of code in isolation, while E2E tests focus on testing the entire application from start to finish.
+
+`Speed`: Unit tests are typically faster than E2E tests because they test smaller pieces of code in isolation. E2E tests can be slower because they test the entire application.
+
+`Dependencies`: Unit tests are designed to be independent of other units of code and do not rely on external dependencies. E2E tests, on the other hand, rely on all of the application's dependencies to be available and working properly.
+
+`Coverage`: Unit tests provide better coverage of the codebase because they test individual units of code in isolation. E2E tests, on the other hand, provide better coverage of the user's experience with the application.
+
+`Maintenance`: Unit tests are usually easier to maintain than E2E tests because they test smaller pieces of code that are less likely to change. E2E tests can be more difficult to maintain because they test the entire application, which can be more prone to change.
+
+</blockquote>
+
+</details>
+
+---
+
+70. How can we test a class in JUnit?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+To test a class in JUnit, you can create a test class that contains one or more test methods that test the behavior of the class under different conditions. Here's an example:
+
+```Java
+
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+public class MyClassTest {
+    @Test
+    public void testAdd() {
+        MyClass myClass = new MyClass();
+        int result = myClass.add(2, 3);
+        assertEquals(5, result);
+    }
+}
+
+```
+</blockquote>
+
+</details>
+
+---
+
+71. How to do Unit testing in spring and in angular?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+**Unit testing in Spring**:
+
+- Add the JUnit and Mockito dependencies to your project's build configuration file.
+- Create a test class for the class or method you want to test.
+- Annotate the test class with `@RunWith(SpringJUnit4ClassRunner.class)` to use Spring's test runner.
+- Use `@Autowired` to inject dependencies into your test class.
+- Write test methods that test the behavior of your class or method under different conditions.
+- Use the Assert class to compare expected results with actual results.
+- Run your tests using a test runner like Maven Surefire or Gradle.
+
+**Unit testing in Angular**:
+
+- Create a new test file for the component or service you want to test.
+- Import the necessary modules, components, and services to set up the test environment.
+- Set up the test environment using the `TestBed` class.
+- Use the `compileComponents` method to compile the component and its template.
+- Create an instance of the component or service you want to test.
+- Write test methods that test the behavior of your component or service under different conditions.
+- Use the `expect` function to compare expected results with actual results.
+- Run your tests using the `ng test` command or a test runner like Karma.
+
+</blockquote>
+
+</details>
+
+---
+
+72. What framework is it if you wrote `@After`, `@Before`? 
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+If you wrote `@After` and `@Before` annotations in your code, it is most likely that you are using JUnit.
+
+</blockquote>
+
+</details>
+
+---
+
+73. How  you can say how many percent of the code has been tested in JUnit? How you create a  report?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+In JUnit, you can use code coverage tools to determine how much of your code has been tested by your JUnit tests. These tools analyze your code and generate a report that shows which lines and branches of code have been executed by your tests.
+
+One popular code coverage tool for Java is `JaCoCo (Java Code Coverage)`. Here are the steps to generate a code coverage report using JaCoCo and Maven:
+
+- Add the `JaCoCo Maven plugin` to your project's build configuration file.
+- Configure the plugin to run during the test phase of the build.
+- Run your JUnit tests using the test goal of the maven-surefire-plugin.
+- Generate a code coverage report using the jacoco:report goal of the JaCoCo Maven plugin.
+- View the report in your web browser or in your IDE's coverage tool.
+
+Here's an example configuration for the JaCoCo Maven plugin:
+
+```XML
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.0.0-M5</version>
+        </plugin>
+        <plugin>
+            <groupId>org.jacoco</groupId>
+            <artifactId>jacoco-maven-plugin</artifactId>
+            <version>0.8.6</version>
+            <executions>
+                <execution>
+                    <id>prepare-agent</id>
+                    <goals>
+                        <goal>prepare-agent</goal>
+                    </goals>
+                </execution>
+                <execution>
+                    <id>report</id>
+                    <goals>
+                        <goal>report</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
+    </plugins>
+</build>
+```
+
+To generate a code coverage report, run the following command:
+
+`mvn clean test jacoco:report`
+
+This will run your JUnit tests and generate a code coverage report in the `target/site/jacoco/index.html` file. You can open this file in your web browser to view the code coverage report. The report will show the percentage of code that was covered by your tests, as well as detailed information about which lines and branches of code were covered.
+
+</blockquote>
+
+</details>
+
+---
+
+74. What is `@AfterClass` does?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+`@AfterClass` is a JUnit annotation that is used to indicate that a method should be executed after all tests in a test class have been run. This annotation is useful for performing cleanup tasks after all the tests have been executed, such as closing resources or resetting the state of the system.
+
+Here's an example of using `@AfterClass` in JUnit:
+
+```java
+
+import org.junit.AfterClass;
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+public class MyTest {
+    
+    @Test
+    public void test1() {
+        // Test code
+    }
+    
+    @Test
+    public void test2() {
+        // Test code
+    }
+    
+    @AfterClass
+    public static void cleanup() {
+        // Cleanup code
+    }
+}
+```
+In this example, the `@AfterClass` annotation is used to indicate that the `cleanup()` method should be executed after all tests in the MyTest class have been run. This method can be used to perform any necessary cleanup tasks after the tests have been executed. Note that the `cleanup()` method must be static in order to be executed by JUnit.
+
+</blockquote>
+
+</details>
+
+---
+
+75. Why use Mockito/JUnit?
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -971,7 +1422,7 @@ JUnit and Mockito are commonly used testing frameworks in Java. JUnit is used fo
 
 ---
 
-59. Spy vs Mock?
+76. Spy vs Mock?
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -984,7 +1435,7 @@ In Mockito, a mock object is created to replace a real object or system, while a
 
 ---
 
-60. Difference between TestNG and JUnit?
+77. Difference between TestNG and JUnit?
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -997,7 +1448,7 @@ TestNG and JUnit are both popular testing frameworks in Java, but they differ in
 
 ---
 
-61. JUnit annotations and assertion methods.
+78. JUnit annotations and assertion methods.
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -1010,7 +1461,7 @@ JUnit provides a variety of annotations and assertion methods to help developers
 
 ---
 
-62. Explain how you would conduct a JUnit test.
+79. Explain how you would conduct a JUnit test.
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -1023,7 +1474,7 @@ To conduct a JUnit test, you would first write a test class that contains method
 
 ---
 
-63. What is the difference between a unit test and a feature test?
+80. What is the difference between a unit test and a feature test?
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -1036,7 +1487,7 @@ A unit test is a type of test that focuses on a small, isolated piece of code, s
 
 ---
 
-64. How to reduce redundancy in tests of JUnit?
+81. How to reduce redundancy in tests of JUnit?
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -1050,7 +1501,7 @@ To reduce redundancy in JUnit tests, one can follow the following practices:
 
 ---
 
-65. Tell me about unit testing?
+82. Tell me about unit testing?
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -1062,7 +1513,7 @@ In unit testing, the code is tested in small, isolated parts to ensure that each
 
 ---
 
-66. By using unit testing, how would you verify a function that adds two numbers?
+83. By using unit testing, how would you verify a function that adds two numbers?
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -1087,7 +1538,7 @@ In this example, we create two input values `a` and `b`, call the `add()` functi
 
 ---
 
-67. How did you provide data to the JUnit tests?
+84. How did you provide data to the JUnit tests?
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -1106,7 +1557,7 @@ The approach taken depends on the specific needs of the test cases and the size 
 
 ---
 
-68. What are you testing for in JUnit?
+85. What are you testing for in JUnit?
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -1125,7 +1576,7 @@ Some of the things we might be testing for in JUnit include:
 </details>
 ---
 
-69. How do you test an exception?
+86. How do you test an exception?
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -1155,7 +1606,7 @@ In this example, we expect an `ArithmeticException` to be thrown when we divide 
 
 ---
 
-70. How do you override a test designation?
+87. How do you override a test designation?
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -1169,4 +1620,5 @@ This annotation can be placed on the test method itself, or on the test class if
 </details>
 
 ---
+
 

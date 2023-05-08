@@ -973,6 +973,7 @@ Comparable and Comparator both are interfaces and can be used to sort collection
 </details>
 
 ---
+
 50. Can you differentiate Vector and ArrayList?
 
 
@@ -1683,4 +1684,3 @@ Array is a fixes size data structure while size of arraylist is dynamic. We have
 </details>
 
 ---
-

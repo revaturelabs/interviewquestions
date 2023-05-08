@@ -1,3 +1,5 @@
+## Technical
+
 1. What is Java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -418,6 +420,7 @@ No, A static method cannot access non-static variables or methods because static
 </blockquote>
 
 </details>
+
 
 22. What are hashes in java?
 
@@ -1439,6 +1442,7 @@ Typecasting is the process of converting a value of one data type to another dat
 
 78. What is immutable in Java?
 
+
 <details><summary> Show Answer </summary>
 
 <blockquote>
@@ -1451,8 +1455,9 @@ In Java, an immutable object is an object whose state cannot be changed once it 
 
 ---
 
-79. Can you tell us something on mutable and immutable class in Java? 
 
+79. Can you tell us something on mutable and immutable class in Java? 
+ 
 <details><summary> Show Answer </summary>
 
 <blockquote>
@@ -1466,6 +1471,7 @@ An example of a mutable class in Java is the StringBuilder class, which allows t
 </details>
 
 ---
+
 
 80. What is the difference between extends and implements in Java? 
 
@@ -1485,6 +1491,7 @@ In Java, `extends` and `implements` are both keywords used for inheritance, but 
 
 ---
 
+
 81. What is the use of getter and setter in java?
 
 <details><summary> Show Answer </summary>
@@ -1503,7 +1510,9 @@ A setter method sets the value of a private field based on the value passed to i
 
 ---
 
+
 82. How does the Java ternary operator works?
+
 
 <details><summary> Show Answer </summary>
 
@@ -1523,7 +1532,9 @@ If the condition is true, the variable will be assigned the value of true-value,
 
 ---
 
+
 83. How do you write for a phone number using regex in Java?
+
 
 <details><summary> Show Answer </summary>
 
@@ -1552,7 +1563,9 @@ Here's an explanation of the different parts of the pattern:
 
 ---
 
+
 84. Do you know about Java Messaging Service in Java?
+
 
 <details><summary> Show Answer </summary>
 
@@ -1568,7 +1581,9 @@ JMS provides a common way for applications to create, send, receive, and read me
 
 ---
 
+
 85. How does JNDI works?
+
 
 <details><summary> Show Answer </summary>
 
@@ -1585,6 +1600,7 @@ In JNDI, you can bind objects to names in a hierarchical namespace, which can be
 ---
 
 86. How do you differentiate groovy from java using syntax?
+
 
 
 <details><summary> Show Answer </summary>
@@ -1609,7 +1625,9 @@ Groovy and Java have similar syntax, but there are a few key differences:
 
 ---
 
+
 87. Write a program of map implementation in java?
+
 
 
 <details><summary><b> Show Answer </b></summary>
@@ -1657,7 +1675,9 @@ In this example, we create a new HashMap object and add key-value pairs to it us
 
 ---
 
+
 88. Write a function in Java having two params n and m that returns an array of multiplications m times of given n
+
 
 **ex.: myFunction(5, 4) --> returns [5, 10, 15, 20]**
 
@@ -1700,7 +1720,9 @@ This function first creates an integer array of length m to store the results. I
 
 ---
 
+
 89. How do you go about printing a Map Employee with id numbers as keys and last names as values in java?
+
 
 <details><summary><b> Show Answer </b></summary>
 
@@ -1740,7 +1762,9 @@ In this example, the keys are Integer ID numbers and the values are String last 
 
 ---
 
+
 90. Write a Java code for Bubble sort ?
+
 
 <details><summary><b> Show Answer </b></summary>
 
@@ -1786,6 +1810,7 @@ The bubbleSort function uses two nested loops to compare adjacent elements in th
 
 91. Can you write a Java code for Singleton design pattern ?
 
+
 <details><summary><b> Show Answer </b></summary>
 
 <blockquote>
@@ -1826,6 +1851,7 @@ In this example, we have a class Singleton with a private constructor and a priv
 ---
 
 92. Write a Java code to reverse the linked list?
+
 
 <details><summary><b> Show Answer </b></summary>
 
@@ -1898,6 +1924,7 @@ This code defines a LinkedList class with a Node inner class. The reverse() meth
 
 ---
 
+
 93. Predict the output of the following?
 
 ```Java
@@ -1934,6 +1961,7 @@ The code has a syntax error in the main method where the object obj is being dec
 </details>
 
 ---
+
 
 94. Where are strings stored stack or heap?
 
