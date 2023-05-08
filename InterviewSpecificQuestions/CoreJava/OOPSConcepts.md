@@ -775,3 +775,390 @@ In Java, we can define a class inside a class, and they are called nested classe
 </details>
 
 ---
+
+38. What is the difference between a constructor and a method?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+In object-oriented programming, a constructor and a method are both types of functions, but they serve different purposes.
+
+A constructor is a special type of method that is called automatically when an object is created. Its purpose is to initialize the object's instance variables and set them to some default or initial values. Constructors are usually named after the class and have no return type.
+
+A method, on the other hand, is a function that is defined within a class and operates on the object's data. Methods can be used to manipulate the object's data, perform calculations, or perform any other action that is necessary for the object to function properly. Methods can take parameters and return values, and they can be called by the object or by other parts of the program that have access to the object.
+
+In summary, a constructor is used to initialize an object's state when it is created, while a method is used to perform operations on the object's state after it has been created.
+
+</blockquote>
+
+</details>
+
+---
+
+39. How do you call another constructor from a constructor? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+In Java, you can call another constructor of the same class using the this keyword and the constructor's parameters. Here's an example:
+
+```java
+public class MyClass {
+   private int myValue;
+
+   // First constructor
+   public MyClass(int value) {
+      myValue = value;
+   }
+
+   // Second constructor that calls the first constructor
+   public MyClass() {
+      this(0); // Calls the first constructor with value = 0
+   }
+}
+```
+In the example above, the second constructor calls the first constructor using the this keyword and passing in the value 0. This means that when an object is created using the second constructor, it will have a default value of 0 for the myValue field.
+
+You can also use the super keyword to call a constructor from the superclass if the class you're defining is a subclass. In that case, the super keyword is used instead of this. For example:
+
+```java
+public class MySubClass extends MyClass {
+   public MySubClass() {
+      super(10); // Calls the superclass constructor with value = 10
+   }
+}
+```
+In this example, the MySubClass constructor calls the superclass constructor with a value of 10 using the super keyword.
+
+</blockquote>
+
+</details>
+
+---
+40. What is the difference between the super keyword and this keyword regarding local variables 
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+In Java, the super and this keywords are used to refer to different things, including local variables.
+
+The this keyword is used to refer to the current instance of the class and is used to access instance variables and methods. When used with local variables, this is used to disambiguate a local variable from an instance variable with the same name. For example:
+
+```java
+public class MyClass {
+    private int myVariable;
+
+    public void myMethod(int myVariable) {
+        this.myVariable = myVariable; // Use "this" to access the instance variable
+        int localVariable = myVariable; // Use the local variable with the same name
+    }
+}
+```
+In this example, this.myVariable refers to the instance variable myVariable of the class MyClass, while int localVariable = myVariable creates a new local variable with the same name as the parameter.
+
+On the other hand, the super keyword is used to refer to the parent class of the current class and is not used to access local variables. The use of super is limited to accessing the parent class's constructors, methods, and instance variables.
+
+In summary, this is used to refer to the current instance of the class and can be used to disambiguate local variables from instance variables with the same name, while super is used to refer to the parent class of the current class and is not used to access local variables.
+
+</blockquote>
+
+</details>
+
+---
+
+41. What is constructor overloading?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Constructor overloading in Java refers to the practice of defining multiple constructors for a class with different parameters. When a class has multiple constructors, each constructor can be called with a different set of arguments to create objects with different initial states.
+
+Constructor overloading is similar to method overloading, which allows multiple methods with the same name but different parameters to be defined in a class.
+
+Here's an example of constructor overloading in Java:
+
+```java
+public class MyClass {
+    private int myValue;
+
+    // Constructor with no parameters
+    public MyClass() {
+        myValue = 0;
+    }
+
+    // Constructor with one parameter
+    public MyClass(int value) {
+        myValue = value;
+    }
+
+    // Constructor with two parameters
+    public MyClass(int value1, int value2) {
+        myValue = value1 + value2;
+    }
+}
+```
+
+In this example, MyClass has three constructors: one with no parameters, one with one parameter, and one with two parameters. Each constructor sets the value of myValue based on the arguments passed to it. This allows objects of MyClass to be created with different initial states depending on which constructor is used.
+
+Constructor overloading can be useful when you want to provide different ways to create objects of a class with different initial states, or when you want to provide default values for some of the object's fields.
+
+
+</blockquote>
+
+</details>
+
+---
+
+42. Can constructors be private?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Yes, constructors can be made private in Java. When a constructor is declared as private, it can only be accessed from within the class, which means that objects of the class cannot be created from outside the class.
+
+One use case for private constructors is to implement the Singleton design pattern. In the Singleton pattern, a class is designed to have only one instance, and the constructor is made private to prevent multiple instances from being created. The Singleton pattern is often used for objects that represent system resources or settings that should not be duplicated.
+
+Here's an example of a class with a private constructor that implements the Singleton pattern:
+
+```java
+public class MySingleton {
+    private static MySingleton instance = new MySingleton();
+
+    private MySingleton() {
+        // Private constructor
+    }
+
+    public static MySingleton getInstance() {
+        return instance;
+    }
+
+    // Other methods and fields
+}
+```
+
+In this example, the MySingleton class has a private constructor, which means that objects of this class cannot be created from outside the class. Instead, the class provides a getInstance() method, which returns the only instance of the class that is created when the class is loaded. This ensures that only one instance of MySingleton exists throughout the lifetime of the program.
+
+Note that if a class has only private constructors, it cannot be subclassed or extended.
+
+</blockquote>
+
+</details>
+
+---
+
+43. Why would we want constructors to be private?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+There are several reasons why we might want to make constructors private in Java:
+
+To implement the Singleton pattern: Making the constructor private is often used to implement the Singleton pattern, where a class is designed to have only one instance.
+
+To prevent object creation: In some cases, we might want to prevent objects of a class from being created. By making the constructor private, we can ensure that the class can only be used as a utility class or a container for static methods and fields.
+
+To restrict subclassing: If a class has only private constructors, it cannot be extended or subclassed. This can be useful when we want to ensure that a class cannot be modified or overridden.
+
+To control object creation: By making the constructor private, we can control how objects of a class are created. For example, we might want to ensure that objects are only created under certain conditions, or that certain initialization steps are performed before an object is created.
+
+To implement a factory method pattern: In some cases, we might want to provide a factory method for creating objects of a class, rather than allowing direct instantiation with a constructor. By making the constructor private and providing a factory method, we can control how objects are created and provide additional functionality such as caching or pooling of objects.
+
+Overall, making constructors private can be a useful tool for controlling object creation, preventing unwanted modifications, and implementing design patterns.
+
+</blockquote>
+
+</details>
+
+---
+
+44. Can we inherit private classes in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+No, it is not possible to inherit or extend a private class in Java. Private classes are only accessible within the class in which they are defined, and cannot be accessed or extended from outside the class.
+
+</blockquote>
+
+</details>
+
+---
+
+45. Java Classes – How many can you extend?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+In Java, a class can extend only one class at a time. This is known as single inheritance, where a subclass inherits the properties and behaviors of a single superclass.
+
+Java was designed with single inheritance to avoid the problems of multiple inheritance, which can lead to ambiguity when two or more superclasses define methods or fields with the same name. Single inheritance simplifies the language and makes it easier to reason about the behavior of objects.
+
+However, Java provides an alternative way to reuse code through interfaces, which allow a class to define a set of method signatures without implementing them. A class can implement multiple interfaces, which can be seen as a form of multiple inheritance, where a subclass inherits the method signatures and is required to provide implementations for them.
+
+Here's an example to illustrate this:
+
+```java
+public class MyClass extends MySuperclass implements MyInterface1, MyInterface2 {
+    // Code for MyClass
+}
+```
+
+In this example, MyClass extends MySuperclass and implements two interfaces, MyInterface1 and MyInterface2. This allows MyClass to inherit the properties and behaviors of MySuperclass, while also defining the method implementations required by the interfaces.
+
+So, to summarize, a class can extend only one class in Java, but it can implement multiple interfaces
+
+</blockquote>
+
+</details>
+
+---
+
+46. What is a marker interface?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+In Java, a marker interface is an interface that has no methods or fields, and is used only to mark or tag a class. A class that implements a marker interface indicates that it has some specific characteristic or capability that the interface represents.
+
+Marker interfaces are also known as "tagging interfaces" or "trait interfaces". They are typically used for metadata purposes, where the presence or absence of an interface is used to control or influence the behavior of the program.
+
+Here are some examples of marker interfaces in Java:
+
+Serializable - This interface is used to mark a class as serializable, which means that its state can be saved to a stream and reconstructed later.
+
+Cloneable - This interface is used to mark a class as cloneable, which means that it can be duplicated using the clone() method.
+
+RandomAccess - This interface is used to mark a list as random-access, which means that its elements can be accessed in constant time.
+
+Readable and Writable - These interfaces are used to mark classes as readable or writable, which means that they can be used with I/O streams.
+
+Remote - This interface is used in Java RMI to mark classes as remote, which means that they can be accessed by remote clients.
+
+Annotation - This interface is used to mark an annotation type, which is used to add metadata to Java code.
+
+</blockquote>
+
+</details>
+
+---
+
+47. Can an interface extend a class? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+No, in Java, an interface cannot extend a class. An interface is a completely separate construct from a class and cannot inherit from a class. In Java, an interface can only extend another interface, using the extends keyword.
+
+The reason for this is that a class and an interface have different purposes and functionality in Java. A class defines the behavior and state of an object, while an interface defines a set of methods that a class must implement. Since a class and an interface serve different purposes, it is not possible to mix the two by allowing an interface to extend a class.
+
+However, a class can implement multiple interfaces, allowing it to provide implementations for multiple sets of methods. This is a powerful feature of Java that allows for flexible and modular design.
+
+</blockquote>
+
+</details>
+
+---
+
+48. What is the difference between method overloading and method overriding?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Method overloading and method overriding are two important concepts in object-oriented programming in Java. The main difference between them is that method overloading involves creating multiple methods with the same name in a class, but with different parameters, whereas method overriding involves creating a new implementation of a method in a subclass, with the same name and parameters as a method in its superclass.
+
+Here are some more details about each concept:
+
+Method Overloading:
+
+Method overloading is a feature of Java that allows a class to have multiple methods with the same name, but with different parameters.
+The methods must have different parameter lists, which can differ in terms of the number, order, and types of parameters.
+Method overloading allows a class to provide multiple ways of calling the same method, depending on the types and number of arguments passed to it.
+Method overloading is resolved at compile time, based on the number and types of arguments passed to the method.
+Method Overriding:
+
+Method overriding is a feature of Java that allows a subclass to provide a new implementation of a method that is already defined in its superclass.
+The method in the subclass must have the same name and parameters as the method in the superclass.
+Method overriding allows a subclass to provide a specialized implementation of a method that is tailored to its specific needs.
+Method overriding is resolved at runtime, based on the actual type of the object that the method is called on.
+In summary, method overloading involves creating multiple methods with the same name in a class, but with different parameters, while method overriding involves creating a new implementation of a method in a subclass, with the same name and parameters as a method in its superclass.
+
+</blockquote>
+
+</details>
+
+---
+
+49. Is Java strictly OOP ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Java is considered to be a strongly object-oriented programming language, meaning that it is designed around the principles of object-oriented programming (OOP).
+
+In Java, everything is an object, including primitives like int and boolean, which are represented as wrapper classes such as Integer and Boolean. Java also supports all the key features of OOP, such as encapsulation, inheritance, and polymorphism.
+
+However, Java also includes some features that are not strictly object-oriented, such as static methods and variables, which belong to the class rather than to any instance of the class. Java also has basic support for procedural programming, as it allows for the use of functions outside of classes.
+
+So while Java is designed around the principles of OOP and is widely considered to be an object-oriented language, it also includes some non-OOP features and supports other programming paradigms.
+
+</blockquote>
+
+</details>
+
+---
+50. what you would use if you couldn't instantiate an object in Java
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+If you cannot instantiate an object in Java, you may consider using a static method or variable. A static method or variable belongs to the class and not to an instance of the class, so you can access it without creating an object.
+
+Alternatively, you can use a singleton design pattern, which ensures that only one instance of a class is created and provides a global point of access to that instance. The singleton pattern can be implemented using a static method or a static variable.
+
+Another option is to use an abstract class or interface, which cannot be instantiated directly, but can be extended or implemented by other classes. This can be useful if you want to define a common behavior or contract for a group of related classes, without providing a concrete implementation.
+
+</blockquote>
+
+</details>
+
+---
+
+
+
