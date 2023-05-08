@@ -423,8 +423,6 @@ No, A static method cannot access non-static variables or methods because static
 
 22. What is immutable in Java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details><summary> Show Answer </summary>
 
 <blockquote>
@@ -438,8 +436,6 @@ In Java, an immutable object is an object whose state cannot be changed once it 
 ---
 
 23. Can you tell us something on mutable and immutable class in Java? 
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -456,8 +452,6 @@ An example of a mutable class in Java is the StringBuilder class, which allows t
 ---
 
 24. What is the difference between extends and implements in Java? 
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -477,8 +471,6 @@ In Java, `extends` and `implements` are both keywords used for inheritance, but 
 
 25. What is the use of getter and setter in java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details><summary> Show Answer </summary>
 
 <blockquote>
@@ -496,8 +488,6 @@ A setter method sets the value of a private field based on the value passed to i
 ---
 
 26. How does the Java ternary operator works?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -518,8 +508,6 @@ If the condition is true, the variable will be assigned the value of true-value,
 ---
 
 27. How do you write for a phone number using regex in Java?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -550,8 +538,6 @@ Here's an explanation of the different parts of the pattern:
 
 28. Do you know about Java Messaging Service in Java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details><summary> Show Answer </summary>
 
 <blockquote>
@@ -567,8 +553,6 @@ JMS provides a common way for applications to create, send, receive, and read me
 ---
 
 29. How does JNDI works?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -586,7 +570,6 @@ In JNDI, you can bind objects to names in a hierarchical namespace, which can be
 
 30. How do you differentiate groovy from java using syntax?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -612,7 +595,6 @@ Groovy and Java have similar syntax, but there are a few key differences:
 
 31. Write a program of map implementation in java?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer </b></summary>
 
@@ -663,8 +645,6 @@ In this example, we create a new HashMap object and add key-value pairs to it us
 
 **ex.: myFunction(5, 4) --> returns [5, 10, 15, 20]**
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
-
 <details><summary><b> Show Answer </b></summary>
 
 <blockquote>
@@ -706,8 +686,6 @@ This function first creates an integer array of length m to store the results. I
 
 33. How do you go about printing a Map Employee with id numbers as keys and last names as values in java?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
-
 <details><summary><b> Show Answer </b></summary>
 
 <blockquote>
@@ -747,8 +725,6 @@ In this example, the keys are Integer ID numbers and the values are String last 
 ---
 
 34. Write a Java code for Bubble sort ?
-
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer </b></summary>
 
@@ -794,8 +770,6 @@ The bubbleSort function uses two nested loops to compare adjacent elements in th
 
 35. Can you write a Java code for Singleton design pattern ?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
-
 <details><summary><b> Show Answer </b></summary>
 
 <blockquote>
@@ -836,8 +810,6 @@ In this example, we have a class Singleton with a private constructor and a priv
 ---
 
 36. Write a Java code to reverse the linked list?
-
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer </b></summary>
 
@@ -935,8 +907,6 @@ public class subclass extends superclass {
 
 Can you tell the output of the code?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
-
 <details><summary><b> Show Answer </b></summary>
 
 <blockquote>
@@ -950,8 +920,6 @@ The code has a syntax error in the main method where the object obj is being dec
 ---
 
 38. Where are strings stored stack or heap?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer </b></summary>
 
