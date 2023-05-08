@@ -973,8 +973,649 @@ Comparable and Comparator both are interfaces and can be used to sort collection
 </details>
 
 ---
+50. Can you differentiate Vector and ArrayList?
 
-50. How do you add and remove an element in an ArrayList?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Yes, Vector and ArrayList are both data structures used to store and manage collections of objects in Java, but they have some differences.
+
+*Thread Safety*: Vector is thread-safe, while ArrayList is not. This means that multiple threads can access a Vector object without causing any issues, while accessing an ArrayList from multiple threads at the same time can lead to unexpected behavior.
+
+*Synchronization*: Vector is internally synchronized, which means that each method of Vector acquires a lock on the object before executing, while ArrayList is not synchronized. This can cause some performance overhead with Vector, especially in multi-threaded environments.
+
+*Performance*: Since Vector is synchronized, it has additional overhead that can affect its performance. ArrayList is not synchronized, so it can perform better in scenarios where synchronization is not necessary.
+
+*Capacity*: Both Vector and ArrayList can grow dynamically, but they differ in how they handle capacity. Vector doubles its size when it reaches its capacity, while ArrayList increases its capacity by 50% of its current capacity.
+
+*Iterator*: Vector's iterator is designed to be fail-safe, while ArrayList's iterator is not. This means that if the underlying collection is modified while iterating through a Vector, it will not throw a `ConcurrentModificationException`, while ArrayList's iterator may throw this exception.
+
+</blockquote>
+
+</details>
+
+---
+
+51. Do you know any thread safe collections?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Java provides several thread-safe collections that can be used in multi-threaded applications where multiple threads can access the same collection concurrently. Stack, Vector, Hashtable these are some of the examples of thread safe collections.
+
+</blockquote>
+
+</details>
+
+---
+
+52. Do you know about any concurrent collections?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Yes, Java provides several concurrent collections that are designed to be thread-safe and can be used in multi-threaded environments without any issues.
+
+ConcurrentHashMap, CopyOnWriteArrayList, ConcurrentLinkedQueue, BlockingQueue, and ConcurrentSkipListMap these are some of the examples of concurrent collections.
+
+</blockquote>
+
+</details>
+
+---
+
+53. How do you make an arraylist synchronized?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+In Java, you can make an ArrayList synchronized by using the Collections.synchronizedList() method. This method returns a synchronized (thread-safe) list backed by the specified list. Here's an example of how to create a synchronized ArrayList:
+
+```Java
+List<String> list = new ArrayList<>();
+List<String> syncList = Collections.synchronizedList(list);
+```
+
+</blockquote>
+
+</details>
+
+---
+
+54. What is a set?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+A Set in java is an unordered collection which do no allow duplicate values to be stored in it. We can implement the Set interface using HashSet, LinkedHashSet, TreeSet. The LinkedHashSet maintains the order of elements in which they were inserted and in TreeSet the elements are stored in sorted manner. To perform operations on set we can use methods like `add()`, `remove()`, `contains()`,and `size()`.
+
+</blockquote>
+
+</details>
+
+---
+
+55. Can you differentiate ArrayList and HashMap?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Yes, ArrayList and HashMap are different data structures in Java with different characteristics and use cases.
+
+**Internal data structure**:
+`ArrayList`: It is internally implemented using an array, which stores a contiguous block of elements.
+`HashMap`: It is internally implemented using an array of linked lists, called buckets. Each bucket stores a key-value pair.
+
+**Order of elements**:
+`ArrayList`: It maintains the insertion order of elements. The position of an element is determined by the index at which it was inserted.
+`HashMap`: It does not maintain the order of elements. The order in which the key-value pairs are stored is not guaranteed.
+
+**Accessing elements**:
+`ArrayList`: Elements can be accessed by their index using the get() method. The time complexity for accessing an element is O(1).
+`HashMap`: Elements are accessed using their key using the get() method. The time complexity for accessing an element is O(1) on average, but can be O(n) in the worst case when there are many collisions in the bucket.
+
+**Duplicates**:
+
+`ArrayList`: It allows duplicate elements to be stored.
+`HashMap`: It allows duplicate values, but not duplicate keys.
+
+**Use cases**:
+
+`ArrayList`: It is useful when you need to store and retrieve elements based on their index, and when the order of elements is important.
+`HashMap`: It is useful when you need to store and retrieve key-value pairs, and when the order of elements is not important.
+
+</blockquote>
+
+</details>
+
+---
+
+56. What is the difference between HashMap and TreeMap in Java?
+	
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+The main difference between HashMap and TreeMap in Java is the way they store and order their elements:
+
+HashMap is implemented using a hash table and is unordered.
+TreeMap is implemented using a red-black tree and is ordered based on the natural order of its keys, or based on a custom comparator if provided.
+
+Other differences between HashMap and TreeMap include:
+
+`Performance`: HashMap generally has better performance for most operations due to its constant-time (O(1)) complexity for most operations. TreeMap has a logarithmic-time (O(log n)) complexity for many operations due to its use of a balanced tree.
+`Null values`: HashMap allows null keys and values, while TreeMap does not allow null keys but allows null values.
+`Memory usage`: HashMap uses less memory than TreeMap for storing the same number of elements.
+`Iteration order`: HashMap does not guarantee any specific order for its elements, while TreeMap guarantees a sorted order based on the keys.
+
+</blockquote>
+
+</details>
+
+---
+
+57. What is Concurrent HashMap?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+ConcurrentHashMap is a thread-safe implementation of the Map interface provided by Java's standard library. It allows multiple threads to access and modify the map concurrently without the need for external synchronization.
+
+ConcurrentHashMap achieves thread-safety by dividing the map into several segments, each of which can be locked independently for read and write operations. This allows multiple threads to access different segments of the map simultaneously without blocking each other.
+
+</blockquote>
+
+</details>
+
+---
+
+58. Name any two items in the collections API and when would you use them?
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+*ArrayList* - It is an implementation of the List interface and is used to store a dynamic list of objects of a specific type. It allows elements to be added or removed from the list, and provides methods to access elements by index or search for elements in the list. It is useful when you need a dynamic and resizable list of elements, and when you need fast access to elements by index.
+
+*HashMap* - It is an implementation of the Map interface and is used to store key-value pairs. It allows keys to be mapped to values, and provides methods to add, remove, and retrieve elements based on their keys. It is useful when you need to map keys to values and perform operations on the values based on their keys. It provides fast access to elements based on their keys and is commonly used to implement caches and lookup tables.
+
+</blockquote>
+
+</details>
+
+---
+
+59. What is the difference between List and Map?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+A List is used to store a collection of elements in a specific order that can be accessed by their index position, while a Map is used to store a collection of key-value pairs where each key maps to a specific value.
+
+</blockquote>
+
+</details>
+
+---
+
+60. What is the difference between List and Set?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+In short, a List is an ordered collection that can contain duplicate elements, while a Set is an unordered collection that cannot contain duplicate elements. In other words, elements in a List are accessed by their index position, and elements in a Set are accessed via their value.
+
+</blockquote>
+
+</details>
+
+---
+
+61. What is the difference between Array and LinkedList ?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+An array is a collection of elements stored in contiguous memory locations, where elements can be accessed using their index, while a linked list is a collection of elements (called nodes) where each node points to the next node using a reference, and elements are accessed sequentially by following the node references. The main difference is that arrays have a fixed size, while linked lists can grow or shrink dynamically. Also, insertion and deletion operations can be faster in a linked list because it requires only changing a few references, whereas in an array, these operations may require moving many elements to maintain order.
+
+</blockquote>
+
+</details>
+
+---
+
+62. What is HashTable?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+HashTable is a data structure that maps keys to their associated values using a hash function. It provides constant-time performance for basic operations such as get and put, making it a popular choice for implementing associative arrays, caches, and databases. In a HashTable, keys are hashed to an index in an array, and the associated value is stored at that index. In case of collisions, where two keys hash to the same index, the HashTable uses a collision resolution technique to store and retrieve the values correctly.
+
+</blockquote>
+
+</details>
+
+---
+
+63. How does a HashMap Work?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+HashMap works by using a hash function to map keys to an index in an array, where the associated value is stored. When a key-value pair is inserted, the hash function is applied to the key to determine the index in the array where the value should be stored. If another key maps to the same index, a collision occurs. To handle collisions, the HashMap uses a linked list or a balanced tree data structure to store multiple key-value pairs at the same index. When a value is retrieved, the hash function is applied to the key to determine the index in the array, and the list or tree at that index is searched for the key.
+
+</blockquote>
+
+</details>
+
+---
+
+64. How would you get a sorted Hashmap?
+
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+In Java, a HashMap is an unordered collection, so there is no inherent sorting order. However, you can get a sorted view of a HashMap by converting it to a TreeMap.
+
+A TreeMap is a sorted collection that maintains its entries in a sorted order based on the natural ordering of its keys or a custom ordering specified by a Comparator. You can create a TreeMap from a HashMap by passing the HashMap to the TreeMap constructor. For example:
+
+```Java
+HashMap<Integer, String> hashMap = new HashMap<>();
+// add entries to the hashMap
+
+// create a sorted view of the hashMap
+TreeMap<Integer, String> sortedMap = new TreeMap<>(hashMap);
+```
+
+</blockquote>
+
+</details>
+
+---
+
+65. Is the insertion time slow (or fast) when using a LinkedList? 
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Insertion time is generally considered to be fast in a linked list as compared to an array, especially when inserting elements at the beginning or end of the list. This is because a linked list stores its elements in separate nodes that are linked to each other through pointers, so adding or removing elements involves simply updating pointers. However, searching for an element in a linked list can be slower than in an array, as it requires traversing the list sequentially until the element is found.
+
+</blockquote>
+
+</details>
+
+---
+
+66. How do Map works?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+A Map is an interface in Java that stores key-value pairs. It works by associating keys with values and allowing the retrieval of values based on their corresponding keys. When an entry is added to a map, it is stored as a key-value pair, and the key is used to retrieve the corresponding value. In order to retrieve a value from a map, you provide the key associated with that value, and the map returns the value that was associated with that key. Maps can have duplicate values but not duplicate keys, and they can be implemented using various data structures such as hash tables, trees, or linked lists.
+
+</blockquote>
+
+</details>
+
+---
+
+67. What is a Linked List and best used for?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+A linked list is a data structure consisting of a sequence of nodes, where each node contains a value and a reference (or pointer) to the next node in the sequence.
+
+Linked lists are best used when we need to frequently insert or delete elements in the middle of the list, as adding or removing elements in a linked list is faster than in an array or array list.
+
+</blockquote>
+
+</details>
+
+---
+
+68. What is Array List and best used for?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+ArrayList is best used when we need a resizable array that can grow dynamically. We can add or remove elements from the ArrayList easily, and it automatically resizes the array if needed. ArrayList is also faster than LinkedList for random access, but slower for inserting or deleting elements in the middle of the list. Hence, it is best used when we need frequent random access to elements in the list and fewer insertions or deletions.
+
+</blockquote>
+
+</details>
+
+---
+
+69. Why should we use Map over Set/List?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Maps are used over sets/lists when there is a need to store data as key-value pairs, where keys are unique identifiers and values are associated data. Maps provide fast access to values based on their keys, which makes them ideal for applications such as caching, database indexing, and lookups.
+
+</blockquote>
+
+</details>
+
+---
+
+70. What is the time complexity of Map and List?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+The time complexity of Map and List operations depends on the specific implementation of the Map or List data structure.
+
+In general, Map operations have a time complexity of O(1) for average case insertion, deletion, and retrieval using a hash table implementation such as HashMap or ConcurrentHashMap. However, some operations like iterating over a Map can have a time complexity of O(n) where n is the number of entries in the Map.
+
+List operations have a time complexity of O(1) for accessing elements by index using an ArrayList, but O(n) for inserting or deleting elements in the middle of the list as all subsequent elements need to be shifted. LinkedList, on the other hand, has O(1) time complexity for insertion or deletion at any position, but O(n) time complexity for accessing elements by index.
+
+</blockquote>
+
+</details>
+
+---
+
+71. When to use TreeMap?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+You can consider using TreeMap when you need to maintain a collection of key-value pairs in sorted order based on the keys. This can be helpful for tasks such as range queries, finding the next or previous key in the sorted order, or performing operations such as ceilingEntry, floorEntry, or subMap that are specific to the TreeMap implementation.
+
+</blockquote>
+
+</details>
+
+---
+
+72. How do you define an arraylist?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+An ArrayList can be defined in short by specifying the data type it will contain within angled brackets <>, followed by the variable name and the new keyword. For example, to define an ArrayList of integers named myList, you would write:
+
+```java
+
+ArrayList<Integer> myList = new ArrayList<Integer>();
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+73. What is Hashing ?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Hashing is a process of converting a large amount of data into a small, fixed-size value that represents the original data in a unique way. This small value, known as a hash or hash code, is generated using a hashing algorithm that takes the input data and produces a fixed-size output. 
+
+</blockquote>
+
+</details>
+
+---
+
+74. What is stack? 
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+A stack is an abstract data type that represents a collection of elements, where elements can be added and removed only from the top. It follows the Last-In-First-Out (LIFO) principle, which means that the last element added to the stack will be the first one to be removed. Stacks can be implemented using an array or a linked list.
+
+</blockquote>
+
+</details>
+
+---
+
+75. What is hashcode() in Java collection framework?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+In the Java Collections framework, the `hashCode()` method is defined in the Object class and is used to generate a hash code value for an object. The hash code is an integer value that represents the object's state.
+
+
+</blockquote>
+
+</details>
+
+---
+
+76. Can a HashMap have null or blank values?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Yes, a HashMap can have null values and null keys. In fact, the put method of the HashMap class allows null values to be inserted as key-value pairs. Here's an example:
+
+```Java
+HashMap<String, Integer> map = new HashMap<>();
+map.put("one", null);
+map.put(null, 2);
+```
+
+</blockquote>
+
+</details>
+
+---
+
+77. What is the difference between an ArrayList and a List? 
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+In Java, ArrayList is a class that implements the List interface. So, List is an interface while ArrayList is a concrete implementation of the List interface.
+
+The main difference between ArrayList and List is that ArrayList is a resizable array, meaning that its size can be dynamically changed during runtime, while List is just an interface that defines certain operations that a collection of elements should support, such as adding, removing, and accessing elements by index.
+
+</blockquote>
+
+</details>
+
+---
+
+78. What is a Map?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+
+In Java, a Map is a collection interface that stores a set of key-value pairs, where each key is unique. It provides methods for adding, removing, and retrieving elements based on their keys. The most commonly used classes that implement the Map interface are HashMap, TreeMap, and LinkedHashMap.
+
+</blockquote>
+
+</details>
+
+---
+
+79. What other classes besides ArrayList?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+There are many other classes besides ArrayList in the Java Collections Framework. Some of the commonly used ones are:
+
+- LinkedList
+- HashSet
+- TreeSet
+- HashMap
+- TreeMap
+- PriorityQueue
+- ConcurrentHashMap
+- ArrayDeque
+- EnumSet
+- LinkedHashMap
+
+</blockquote>
+
+</details>
+
+---
+
+80. Does vector implements interface List ?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Yes, Vector implements the List interface in Java.
+
+</blockquote>
+
+</details>
+
+---
+
+81. What is the difference between Map and hashMap?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Map is a generic interface that represents a mapping between keys and values. It defines the basic operations such as put, get, containsKey, and containsValue for accessing and manipulating the elements of the mapping.
+
+HashMap is a specific implementation of the Map interface in Java. It uses a hash table to store the key-value pairs, allowing for fast access and retrieval of the elements. HashMap is an unordered collection and does not guarantee any particular order of the elements.
+
+</blockquote>
+
+</details>
+
+---
+
+82. How do you initialize an arraylist?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+To initialize an ArrayList in Java, you can create an instance of the ArrayList class and use the add() method to add elements to it. Here's an example:
+
+```Java
+
+ArrayList<String> list = new ArrayList<>();
+list.add("apple");
+list.add("banana");
+list.add("orange"); 
+```
+</blockquote>
+
+</details>
+
+---
+
+83. What collection would you use to store an entire JSon Object?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+In Java, you could use a Map collection to store an entire JSON object. The keys of the map would correspond to the property names of the JSON object, and the values of the map would correspond to the values of the properties. You could use a HashMap, TreeMap, or other implementations of the Map interface depending on your specific use case
+
+</blockquote>
+
+</details>
+
+---
+
+84. With an array of numbers, how do you display only the duplicates?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+To display only the duplicates in an array of numbers, we can use a combination of loops and conditional statements to compare each element in the array to every other element in the array, and print out the duplicate elements. Here's an example code snippet in Java:
+
+```Java
+int[] numbers = {1, 2, 3, 2, 4, 5, 3};
+for(int i=0; i<numbers.length; i++) {
+   for(int j=i+1; j<numbers.length; j++) {
+      if(numbers[i] == numbers[j]) {
+         System.out.println(numbers[i]);
+         break;
+      }
+   }
+}
+```
+
+</blockquote>
+
+</details>
+
+---
+
+85. What is an Array Map ?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+In Java, an array map is a data structure that maps keys to values, similar to a regular Map, but with an underlying array-based implementation. An array map is useful when the number of keys is relatively small and known in advance, and when you need fast access to the values associated with each key.
+
+Here's an example of how to create and use an array map in Java:
+
+```Java
+import java.util.Arrays;
+
+public class ArrayMap<K, V> {
+    private Object[] keys;
+    private Object[] values;
+    private int size;
+
+    public ArrayMap(int capacity) {
+        this.keys = new Object[capacity];
+        this.values = new Object[capacity];
+        this.size = 0;
+    }
+
+    public void put(K key, V value) {
+        int index = Arrays.binarySearch(keys, 0, size, key);
+        if (index < 0) {
+            index = -(index + 1);
+            if (size >= keys.length) {
+                keys = Arrays.copyOf(keys, size * 2);
+                values = Arrays.copyOf(values, size * 2);
+            }
+            System.arraycopy(keys, index, keys, index + 1, size - index);
+            System.arraycopy(values, index, values, index + 1, size - index);
+            keys[index] = key;
+            size++;
+        }
+        values[index] = value;
+    }
+
+    public V get(K key) {
+        int index = Arrays.binarySearch(keys, 0, size, key);
+        if (index >= 0) {
+            return (V) values[index];
+        }
+        return null;
+    }
+}
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+86. Give an example of when to use a generic function in Java?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+A generic function in Java can be useful in situations where the same logic needs to be applied to different types of data. For example, a sorting function that can sort an array of integers or an array of strings would benefit from being generic. Instead of having separate sorting functions for each data type, a single generic function can be used for both cases, improving code reusability and reducing code duplication.
+
+</blockquote>
+
+</details>
+
+---
+
+87. How do you add and remove an element in an ArrayList?
 
 <details><summary><b> Show Answer</b></b></summary>
 <blockquote>
@@ -1014,7 +1655,7 @@ This creates an `ArrayList` called `list` and adds three string values to it. It
 </blockquote>
 </details>
 
-51. What are the properties of an ArrayList?
+88. What are the properties of an ArrayList?
 
 <details><summary><b> Show Answer</b></b></summary>
 <blockquote>
@@ -1029,7 +1670,7 @@ This creates an `ArrayList` called `list` and adds three string values to it. It
 </blockquote>
 </details>
 
-52. Arrays vs ArrayList.
+89. Arrays vs ArrayList.
 
 <details><summary><b> Show Answer</b></summary>
   
