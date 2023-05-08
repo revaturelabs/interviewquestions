@@ -1109,3 +1109,329 @@ TDD (Test Driven Development) is useful because it helps developers to write cle
 </details>
 
 ---
+
+66. What are the considerations and best practices for Unit testing?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Here are some considerations and best practices for unit testing:
+
+`Test one thing at a time`: Each unit test should focus on testing one specific behavior or function of the code. This ensures that the test is easy to write, easy to understand, and provides clear feedback on whether the code is working as expected.
+
+`Use a consistent naming convention`: Use a consistent naming convention for your test cases that accurately reflects what the test is testing. This makes it easier to understand what each test case is testing and helps to organize your tests.
+
+`Write tests before writing code`: One of the key benefits of unit testing is that it helps to catch bugs early in the development process. To take full advantage of this, write your unit tests before you write your code. This approach is known as test-driven development (TDD).
+
+`Use automated testing frameworks`: There are many automated testing frameworks available for different programming languages and platforms. These frameworks make it easy to run and manage your tests, and they can also provide useful features such as test coverage reports.
+
+`Test all code paths`: Make sure to test all possible code paths, including both positive and negative scenarios. This ensures that your code is working as expected in all possible scenarios.
+
+`Keep your tests independent`: Each test should be independent of other tests and should not rely on external resources such as databases or network connections. This makes it easier to debug failing tests and ensures that each test is testing only one specific behavior.
+
+`Keep your tests fast`: Unit tests should be fast and efficient. Slow tests can slow down your development process and reduce the effectiveness of your testing strategy.
+
+`Test for edge cases`: Make sure to test edge cases and corner cases, such as input values at the boundaries of acceptable ranges. This can help uncover bugs that may not be apparent in normal usage scenarios.
+
+`Continuously refactor your tests`: As your code evolves, make sure to refactor your tests to keep them up to date with the changes. This ensures that your tests remain accurate and effective over time.
+
+</blockquote>
+
+</details>
+
+---
+
+67.  How would you test a method in JUnit?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+To test a method in JUnit, you can follow these steps:
+
+`Create a test class`: Create a new class in your test package and annotate it with `@RunWith(JUnit4.class)`.
+
+`Create a test method`: Create a new method in your test class and annotate it with `@Test`. This method will be used to test your target method.
+
+`Prepare the test data`: Prepare the input data for your target method and any necessary dependencies.
+
+`Invoke the target method`: Call the target method with the input data prepared in the previous step.
+
+`Verify the result`: Verify that the result returned by the target method is correct. You can use various assertion methods provided by JUnit, such as `assertEquals()` or `assertThat()`, to compare the actual result with the expected result.
+
+`Handle exceptions`: If the target method throws any exceptions, you can use the @Test annotation's expected attribute to specify the expected exception type. You can also use the `@Rule` annotation to specify a rule that handles exceptions.
+
+</blockquote>
+
+</details>
+
+---
+
+68. How would you pull in data live while a test is running in JUnit?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+To pull in data live while a test is running in JUnit, you can use JUnit's `@Rule` annotation with the ExternalResource rule. This rule allows you to specify a method that will be executed before and after each test method in the class, and you can use this method to perform setup and teardown operations, including fetching data.
+
+Here's an example of how you can use the ExternalResource rule to fetch data from a database for a test:
+
+```Java
+
+public class MyTest {
+    @Rule
+    public ExternalResource resource = new ExternalResource() {
+        private Connection conn;
+
+        // Set up the resource
+        @Override
+        protected void before() throws Throwable {
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "user", "password");
+        }
+
+        // Tear down the resource
+        @Override
+        protected void after() {
+            try {
+                if (conn != null) {
+                    conn.close();
+                }
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+
+        // Fetch data from the resource
+        public ResultSet fetchSomeData() throws SQLException {
+            Statement stmt = conn.createStatement();
+            ResultSet rs = stmt.executeQuery("SELECT * FROM mytable WHERE someCondition = true");
+            return rs;
+        }
+    };
+
+    @Test
+    public void testSomethingWithLiveData() throws SQLException {
+        ResultSet rs = resource.fetchSomeData();
+        // Use the fetched data in your test
+        // ...
+    }
+}
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+69. Can you differentiate e2e and Unit testing ?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+End-to-end (E2E) testing and unit testing are two different types of testing that serve different purposes in the software development life cycle.
+
+Here are some key differences between E2E and unit testing:
+
+`Scope`: Unit tests focus on testing individual units of code in isolation, while E2E tests focus on testing the entire application from start to finish.
+
+`Speed`: Unit tests are typically faster than E2E tests because they test smaller pieces of code in isolation. E2E tests can be slower because they test the entire application.
+
+`Dependencies`: Unit tests are designed to be independent of other units of code and do not rely on external dependencies. E2E tests, on the other hand, rely on all of the application's dependencies to be available and working properly.
+
+`Coverage`: Unit tests provide better coverage of the codebase because they test individual units of code in isolation. E2E tests, on the other hand, provide better coverage of the user's experience with the application.
+
+`Maintenance`: Unit tests are usually easier to maintain than E2E tests because they test smaller pieces of code that are less likely to change. E2E tests can be more difficult to maintain because they test the entire application, which can be more prone to change.
+
+</blockquote>
+
+</details>
+
+---
+
+70. How can we test a class in JUnit?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+To test a class in JUnit, you can create a test class that contains one or more test methods that test the behavior of the class under different conditions. Here's an example:
+
+```Java
+
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+public class MyClassTest {
+    @Test
+    public void testAdd() {
+        MyClass myClass = new MyClass();
+        int result = myClass.add(2, 3);
+        assertEquals(5, result);
+    }
+}
+
+```
+</blockquote>
+
+</details>
+
+---
+
+71. How to do Unit testing in spring and in angular?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+**Unit testing in Spring**:
+
+- Add the JUnit and Mockito dependencies to your project's build configuration file.
+- Create a test class for the class or method you want to test.
+- Annotate the test class with `@RunWith(SpringJUnit4ClassRunner.class)` to use Spring's test runner.
+- Use `@Autowired` to inject dependencies into your test class.
+- Write test methods that test the behavior of your class or method under different conditions.
+- Use the Assert class to compare expected results with actual results.
+- Run your tests using a test runner like Maven Surefire or Gradle.
+
+**Unit testing in Angular**:
+
+- Create a new test file for the component or service you want to test.
+- Import the necessary modules, components, and services to set up the test environment.
+- Set up the test environment using the `TestBed` class.
+- Use the `compileComponents` method to compile the component and its template.
+- Create an instance of the component or service you want to test.
+- Write test methods that test the behavior of your component or service under different conditions.
+- Use the `expect` function to compare expected results with actual results.
+- Run your tests using the `ng test` command or a test runner like Karma.
+
+</blockquote>
+
+</details>
+
+---
+
+72. What framework is it if you wrote `@After`, `@Before`? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+If you wrote `@After` and `@Before` annotations in your code, it is most likely that you are using JUnit.
+
+</blockquote>
+
+</details>
+
+---
+
+73. How  you can say how many percent of the code has been tested in JUnit? How you create a  report?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
+
+In JUnit, you can use code coverage tools to determine how much of your code has been tested by your JUnit tests. These tools analyze your code and generate a report that shows which lines and branches of code have been executed by your tests.
+
+One popular code coverage tool for Java is `JaCoCo (Java Code Coverage)`. Here are the steps to generate a code coverage report using JaCoCo and Maven:
+
+- Add the `JaCoCo Maven plugin` to your project's build configuration file.
+- Configure the plugin to run during the test phase of the build.
+- Run your JUnit tests using the test goal of the maven-surefire-plugin.
+- Generate a code coverage report using the jacoco:report goal of the JaCoCo Maven plugin.
+- View the report in your web browser or in your IDE's coverage tool.
+
+Here's an example configuration for the JaCoCo Maven plugin:
+
+```XML
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.0.0-M5</version>
+        </plugin>
+        <plugin>
+            <groupId>org.jacoco</groupId>
+            <artifactId>jacoco-maven-plugin</artifactId>
+            <version>0.8.6</version>
+            <executions>
+                <execution>
+                    <id>prepare-agent</id>
+                    <goals>
+                        <goal>prepare-agent</goal>
+                    </goals>
+                </execution>
+                <execution>
+                    <id>report</id>
+                    <goals>
+                        <goal>report</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
+    </plugins>
+</build>
+```
+
+To generate a code coverage report, run the following command:
+
+`mvn clean test jacoco:report`
+
+This will run your JUnit tests and generate a code coverage report in the `target/site/jacoco/index.html` file. You can open this file in your web browser to view the code coverage report. The report will show the percentage of code that was covered by your tests, as well as detailed information about which lines and branches of code were covered.
+
+</blockquote>
+
+</details>
+
+---
+
+74. What is `@AfterClass` does?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Medium%20(2).svg)
+
+`@AfterClass` is a JUnit annotation that is used to indicate that a method should be executed after all tests in a test class have been run. This annotation is useful for performing cleanup tasks after all the tests have been executed, such as closing resources or resetting the state of the system.
+
+Here's an example of using `@AfterClass` in JUnit:
+
+```java
+
+import org.junit.AfterClass;
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+public class MyTest {
+    
+    @Test
+    public void test1() {
+        // Test code
+    }
+    
+    @Test
+    public void test2() {
+        // Test code
+    }
+    
+    @AfterClass
+    public static void cleanup() {
+        // Cleanup code
+    }
+}
+```
+In this example, the `@AfterClass` annotation is used to indicate that the `cleanup()` method should be executed after all tests in the MyTest class have been run. This method can be used to perform any necessary cleanup tasks after the tests have been executed. Note that the `cleanup()` method must be static in order to be executed by JUnit.
+
+</blockquote>
+
+</details>
+
+
