@@ -2,6 +2,9 @@
 
 1. How to use I/O stream to read from a file in Java? 
 
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
 To use I/O stream to read from a file in Java, you can follow these steps:
 
 - Create a File object that represents the file you want to read.
@@ -34,6 +37,9 @@ fis.close();
 
 2. Can you tell us about the bufferReader and fileReader in Java? 
 
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
 In Java, BufferedReader and FileReader are commonly used for reading files. FileReader is used to read character files, while BufferedReader is used to read larger files more efficiently by buffering the input.
 
 *FileReader*: This class reads a file one character at a time. It is a subclass of InputStreamReader, which reads bytes and converts them into characters using a specified character encoding. FileReader is easy to use, but it is not very efficient when reading large files.
@@ -47,6 +53,9 @@ In Java, BufferedReader and FileReader are commonly used for reading files. File
 ---
 
 3. Can you brief on Serialization in Java?
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
 
 Serialization in Java is the process of converting an object into a byte stream that can be persisted into a file, transferred over a network, or stored in a database. Deserialization is the reverse process of converting the byte stream back into an object.
 
