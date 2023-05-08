@@ -610,7 +610,7 @@ In training, we used Git to manage the code changes made during the development 
 
 </details>
 
-33. what was the hardest part of git keeping (I told them the term)
+33. what was the hardest part of git keeping ?
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -619,13 +619,13 @@ The hardest part of Git keeping is resolving conflicts that arise when two or mo
 
 </details>
 
-Sure, here are the answers to your questions:
 
-34. what was the hardest part of git keeping ?
+34.  what was the hardest part of git keeping ?
 
 <details><summary><b> Show Answer</b></summary> 
 
 <blockquote> 
+
 The hardest part of Git keeping is resolving conflicts that arise when two or more team members make changes to the same file. Git provides various tools and features to help manage conflicts, such as merging, rebasing, and pull requests. However, conflicts can still occur, especially in large codebases with many contributors. Resolving conflicts requires careful attention to detail and good communication between team members. </blockquote> 
 
 </details>
@@ -649,6 +649,7 @@ When merging a pull request, it is important to consider the following things:
 <details><summary><b> Show Answer</b></summary> 
 
 <blockquote> 
+
 In Git, the "master" branch is the default branch that contains the stable, production-ready code. The "head" branch refers to the most recent commit in a branch. The "development" branch, on the other hand, is a branch used for ongoing development work. It may contain code changes that are not yet ready for production, such as new features or bug fixes that are still being tested. The development branch is usually merged into the master branch once all changes have been tested and approved for production. </blockquote> 
 
 </details>
@@ -752,6 +753,7 @@ Rebasing in Git is a process where a developer moves the changes made in one bra
 <details><summary><b> Show Answer</b></summary> 
 
 <blockquote> 
+
 The main difference between SVN (Subversion) and Git is that SVN is a centralized version control system, while Git is a distributed version control system. In SVN, all team members access a central repository, and changes made by each team member are merged back into this central repository. In Git, every team member has a local copy of the repository, and changes are synced between team members through pushing and pulling changes from a remote repository.
 
 Another difference is that SVN tracks changes to individual files, while Git tracks changes to the entire codebase. Git provides better branching and merging capabilities than SVN, which makes it easier to manage code changes and collaborate effectively with team members. </blockquote> 
