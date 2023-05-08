@@ -2,8 +2,6 @@
 
 1. Can you differentiate client-side coding and server-side coding?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -21,8 +19,6 @@ Server-side coding is executed on the server-side, which is usually a web server
 ---
 
 2. Can you give me an example of client-side bug and server-side bug?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
