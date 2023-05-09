@@ -357,6 +357,26 @@ In summary, DELETE is used to remove individual rows of data based on a conditio
 </details>
 
 ---
+14. Will a sql database throw an exception 
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Yes, a SQL database can throw exceptions or errors when there is an issue with executing a SQL statement.
+
+For example, if you try to insert a row into a table with a primary key value that already exists, the database will throw a primary key violation error. Similarly, if you try to create a table with a column name that already exists in another table, the database will throw a column name conflict error.
+
+In addition to syntax errors, databases can also throw exceptions for various reasons such as constraints violations, transaction failures, deadlocks, and other issues.
+
+It's important to handle these exceptions properly in your application code to ensure that your application can recover from errors gracefully and provide a good user experience.
+
+</blockquote>
+
+</details>
+
+---
+
 
 
 
