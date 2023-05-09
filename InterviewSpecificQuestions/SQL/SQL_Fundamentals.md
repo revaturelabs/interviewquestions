@@ -714,6 +714,33 @@ Together, these four operations provide the basic functionality needed to manage
 </details>
 
 ---
+29. What is LIKE operator used for?
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+The LIKE operator is used in SQL (Structured Query Language) to search for a pattern within a string column of a table.
+
+It's used in the WHERE clause of a SELECT statement to filter the results based on a pattern match. The pattern can include wildcard characters to match any number of characters or a specific character.
+
+Here's an example:
+```sql
+SELECT * FROM employees
+WHERE last_name LIKE 'Sm%';
+```
+This SQL statement retrieves all rows from the "employees" table where the "last_name" column starts with the letters "Sm".
+
+The % symbol is a wildcard character that matches any number of characters in the pattern. So, in this case, the query would return any employee with a last name that starts with "Sm", such as "Smith", "Smythe", or "Smeaton".
+
+The LIKE operator is useful for searching for data that matches a specific pattern, such as email addresses, phone numbers, or names that follow a certain format.
+
+</blockquote>
+
+</details>
+
+---
+
 
 
 
