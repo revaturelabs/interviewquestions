@@ -199,6 +199,37 @@ DDL statements are used by database administrators and developers to define the 
 </details>
 
 ---
+8. Tell me some of the keywords for DDL?
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Here are some of the keywords used in DDL (Data Definition Language) in SQL:
+
+- CREATE: This keyword is used to create a new database object such as a table, index, view, or constraint.
+
+- ALTER: This keyword is used to modify the structure of an existing database object such as a table, index, view, or constraint.
+
+- DROP: This keyword is used to delete an existing database object such as a table, index, view, or constraint.
+
+- TRUNCATE: This keyword is used to delete all the rows from a table, but the table structure remains intact.
+
+- RENAME: This keyword is used to rename an existing database object such as a table, column, or view.
+
+- CONSTRAINT: This keyword is used to define a constraint on a database object such as a table, column, or view.
+
+- INDEX: This keyword is used to create an index on a table.
+
+- VIEW: This keyword is used to create a virtual table that is based on a select statement.
+
+
+</blockquote>
+
+</details>
+
+---
+
 
 
 
