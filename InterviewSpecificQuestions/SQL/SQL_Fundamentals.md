@@ -884,4 +884,26 @@ It's important to note that once a transaction is committed, its changes cannot 
 
 ---
 
+35. What is the difference between Commit, save point, and Rollback in Oracle?
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+COMMIT, SAVEPOINT, and ROLLBACK are all Transaction Control Language (TCL) commands that are used to manage transactions in a relational database. Here's a brief overview of each command and their differences:
+
+- COMMIT: The COMMIT command is used to permanently save the changes made by a transaction. When a transaction is committed, its changes are made permanent in the database. Once a transaction is committed, its changes cannot be undone.
+
+- SAVEPOINT: The SAVEPOINT command is used to create a point in a transaction where it can be rolled back to if necessary. A SAVEPOINT is like a bookmark within a transaction. If a transaction encounters an error, it can be rolled back to the last SAVEPOINT created, rather than rolling back the entire transaction.
+
+- ROLLBACK: The ROLLBACK command is used to undo changes made by a transaction. When a transaction is rolled back, all the changes made by the transaction are undone, and the database is returned to its previous state. A transaction can be rolled back in full or to a specific SAVEPOINT created during the transaction.
+
+In summary, COMMIT is used to permanently save changes made by a transaction, ROLLBACK is used to undo changes made by a transaction, and SAVEPOINT is used to create a point in a transaction where it can be rolled back to if necessary. While all three commands are used to manage transactions in Oracle, they serve different purposes and are used in different scenarios.
+
+</blockquote>
+
+</details>
+
+---
+
 
