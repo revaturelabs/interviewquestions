@@ -740,6 +740,42 @@ The LIKE operator is useful for searching for data that matches a specific patte
 </details>
 
 ---
+30. Parent-child relationship SQL?
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+In SQL, a parent-child relationship refers to a type of relationship between two tables, where one table is the parent and the other table is the child. The parent table is usually the table that contains the primary key, and the child table is the table that contains a foreign key that references the primary key in the parent table.
+
+Here's an example of how to create a parent-child relationship between two tables:
+```sql
+CREATE TABLE orders (
+  order_id INT PRIMARY KEY,
+  customer_id INT,
+  order_date DATE,
+  total_amount DECIMAL(10,2)
+);
+
+CREATE TABLE order_items (
+  order_item_id INT PRIMARY KEY,
+  order_id INT,
+  product_id INT,
+  quantity INT,
+  price DECIMAL(10,2),
+  FOREIGN KEY (order_id) REFERENCES orders(order_id)
+);
+```
+In this example, the "orders" table is the parent table, and the "order_items" table is the child table. The "orders" table contains the primary key "order_id", and the "order_items" table contains a foreign key "order_id" that references the primary key in the "orders" table.
+
+This relationship means that each order can have multiple items, and each item belongs to a single order. The foreign key constraint ensures that an order item can only be associated with an existing order.
+
+</blockquote>
+
+</details>
+
+---
+
 
 
 
