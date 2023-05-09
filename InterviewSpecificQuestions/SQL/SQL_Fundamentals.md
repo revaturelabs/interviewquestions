@@ -835,27 +835,29 @@ The SUBSTRING function is useful for extracting parts of a string, such as a per
 </details>
 
 ---
+33. Tell me about transaction control language and its advantages
 
+<details><summary> Show Answer </summary>
 
+<blockquote>
 
+Transaction Control Language (TCL) is a set of SQL statements that are used to control transactions in a relational database. The three main TCL commands are COMMIT, ROLLBACK, and SAVEPOINT.
 
+The advantages of TCL are:
 
+- Data Consistency: TCL commands ensure data consistency in the database. A transaction may contain multiple queries that modify the data in the database. If any of the queries fail to execute, the entire transaction is rolled back to its original state. This helps to maintain the integrity of the data.
 
+- Atomicity: Atomicity is one of the ACID properties of a database. It ensures that a transaction is treated as a single, indivisible unit of work. If any part of a transaction fails, the entire transaction is rolled back, and the database is returned to its original state. This ensures that the database remains consistent and that data is not lost or corrupted.
 
+- Recovery: TCL commands help to recover data in the event of a system failure or unexpected shutdown. When a transaction is committed, the changes made by the transaction are written to the database's transaction log. If the system crashes, the database can use the transaction log to recover any changes that were not written to disk before the failure occurred.
 
+- Concurrency Control: TCL commands help to manage concurrency in a database. Multiple users may be accessing the same data at the same time, and TCL commands ensure that transactions do not interfere with each other. When a transaction is executed, a lock is placed on the data that it accesses. This lock prevents other transactions from modifying the same data until the first transaction is committed or rolled back.
 
+In summary, TCL provides a robust mechanism for managing transactions in a database. It ensures data consistency, atomicity, recovery, and concurrency control, which are critical to maintaining the integrity of the database and its data.
 
+</blockquote>
 
+</details>
 
-
-
-
-
-
-
-
-
-
-
-
+---
 
