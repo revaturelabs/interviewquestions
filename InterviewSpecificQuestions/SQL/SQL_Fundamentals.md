@@ -50,4 +50,38 @@ Aliases are a powerful feature in SQL that can be used to make queries more read
 </details>
 
 ---
+3. What is a record type?
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+In SQL, a record type is a user-defined data type that represents a collection of related values. A record type is similar to a struct in other programming languages, and it allows you to define a custom data structure with its own fields and data types.
+
+To define a record type in SQL, you use the CREATE TYPE statement. Here's an example:
+```sql
+CREATE TYPE person_type AS (
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    email VARCHAR(100)
+);
+```
+In this example, we define a record type called "person_type" with three fields: "first_name", "last_name", and "email". Each field has its own data type, which is specified after the field name.
+
+Once you have defined a record type, you can use it as a data type for columns in tables or as a return type for stored procedures and functions. Here's an example of using the "person_type" record type as a column type:
+```sql
+CREATE TABLE employees (
+    id INT,
+    name person_type
+);
+```
+In this example, we define a table called "employees" with two columns: "id" and "name". The "name" column is of type "person_type", which means it can store values with the same structure as the "person_type" record type we defined earlier.
+
+Record types are a powerful feature in SQL that allow you to define custom data structures and make your database schema more expressive and easier to understand.
+
+</blockquote>
+
+</details>
+
+---
+
 
