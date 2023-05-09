@@ -938,6 +938,43 @@ This statement sets the "price" column to 19.99 for all products with a "product
 </details>
 
 ---
+37. SQL window functions 
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+In SQL, window functions are used to perform calculations across a set of rows that are related to the current row. These calculations are performed on a "window" of rows that are defined by a specific set of criteria, rather than on the entire table. Window functions are particularly useful for performing complex calculations on subsets of data, such as finding running totals, calculating moving averages, or ranking results.
+
+Window functions are used in combination with the OVER clause, which defines the window or set of rows that the calculation will be performed on. The syntax for a window function is as follows:
+```sql
+function_name(expression) OVER (
+    [PARTITION BY partition_expression, ... ]
+    [ORDER BY sort_expression [ASC | DESC], ... ]
+    [ROWS/RANGE BETWEEN window_specification]
+)
+```
+Here's a brief explanation of each part of the syntax:
+
+- function_name: This is the name of the window function that you want to use, such as SUM, AVG, RANK, or ROW_NUMBER.
+- expression: This is the column or expression that you want to perform the calculation on.
+- PARTITION BY: This is an optional clause that partitions the result set into smaller groups based on the values of one or more columns. The calculation is performed separately for each group.
+- ORDER BY: This is an optional clause that specifies the order in which the rows are processed. The calculation is performed in the order specified by this clause.
+- ROWS/RANGE BETWEEN: This is an optional clause that defines the window or set of rows that the calculation will be performed on. The window can be defined as a set of rows relative to the current row, or as a range of values based on the order specified by the ORDER BY clause.
+Here's an example of a window function that calculates the running total of a "sales" column in a "sales_data" table partitioned by a "region" column and ordered by a "date" column:
+```sql
+SELECT region, date, sales,
+       SUM(sales) OVER (PARTITION BY region ORDER BY date) as running_total
+FROM sales_data;
+```
+This query uses the SUM window function to calculate the running total of the "sales" column for each region, ordered by date. The result set includes the original "region", "date", and "sales" columns, as well as a new "running_total" column that contains the result of the window function.
+
+</blockquote>
+
+</details>
+
+---
+
 
 
 
