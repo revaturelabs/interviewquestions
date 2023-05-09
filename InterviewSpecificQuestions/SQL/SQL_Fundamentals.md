@@ -317,6 +317,25 @@ Note that when you change the data type of a column, you may also need to update
 </details>
 
 ---
+12. DML in SQL. 
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+DML stands for Data Manipulation Language, which is a sub-language of SQL used to manipulate the data stored in a database. DML commands are used to insert, update, delete, and retrieve data from a table. Some of the commonly used DML commands in SQL are:
+
+- SELECT - used to retrieve data from one or more tables
+- INSERT - used to insert new rows of data into a table
+- UPDATE - used to modify existing data in a table
+- DELETE - used to delete rows of data from a table
+- MERGE - used to update or insert data based on a condition
+
+</blockquote>
+
+</details>
+
+---
 
 
 
