@@ -775,6 +775,39 @@ This relationship means that each order can have multiple items, and each item b
 </details>
 
 ---
+31. how would you establish the relationship between employee and department?
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+To establish a relationship between an "employee" table and a "department" table in SQL, you can use a foreign key constraint.
+
+Here's an example of how to create the two tables and establish the relationship:
+
+```sql
+CREATE TABLE department (
+  department_id INT PRIMARY KEY,
+  department_name VARCHAR(50)
+);
+
+CREATE TABLE employee (
+  employee_id INT PRIMARY KEY,
+  employee_name VARCHAR(50),
+  department_id INT,
+  FOREIGN KEY (department_id) REFERENCES department(department_id)
+);
+```
+In this example, the "department" table is the parent table, and the "employee" table is the child table. The "department" table contains the primary key "department_id", and the "employee" table contains a foreign key "department_id" that references the primary key in the "department" table.
+
+This relationship means that each employee belongs to a single department, and each department can have multiple employees. The foreign key constraint ensures that an employee can only be associated with an existing department.
+
+</blockquote>
+
+</details>
+
+---
+
 
 
 
