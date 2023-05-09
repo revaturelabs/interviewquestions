@@ -693,6 +693,28 @@ This will create a foreign key constraint on the product_id column in the orders
 </details>
 
 ---
+28. What are CRUD operations?
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+CRUD stands for Create, Read, Update, and Delete. It's a set of basic operations that can be performed on data in a database or other data storage systems. These operations are fundamental to the management of data in most software applications.
+
+Here's what each operation does:
+
+- Create: This operation creates new data and stores it in the database. For example, creating a new user account in a social media application.
+- Read: This operation retrieves data from the database. For example, reading a user's profile information from a social media application.
+- Update: This operation modifies existing data in the database. For example, updating a user's profile picture in a social media application.
+- Delete: This operation removes data from the database. For example, deleting a user account from a social media application.
+
+Together, these four operations provide the basic functionality needed to manage data in most software applications
+
+</blockquote>
+
+</details>
+
+---
+
 
 
 
