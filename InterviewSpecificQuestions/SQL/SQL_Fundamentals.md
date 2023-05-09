@@ -289,6 +289,35 @@ You can also add other constraints such as UNIQUE, CHECK, and FOREIGN KEY to the
 </details>
 
 ---
+11. How to change the data type for an attribute to a table 
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+To change the data type of an attribute in a table, you can use the ALTER TABLE statement with the MODIFY keyword. Here's the basic syntax:
+```sql
+ALTER TABLE table_name
+MODIFY column_name new_data_type;
+```
+where table_name is the name of the table, column_name is the name of the column whose data type you want to change, and new_data_type is the new data type for the column.
+
+For example, if you want to change the data type of the "age" column in the "employees" table from INT to FLOAT, you can use the following SQL statement:
+```sql
+ALTER TABLE employees
+MODIFY age FLOAT;
+```
+This will change the data type of the "age" column to FLOAT in the "employees" table.
+
+Note that when you change the data type of a column, you may also need to update the values in that column to match the new data type. For example, if you change a column from INT to VARCHAR, you will need to make sure that all values in that column are converted to strings. Also, if the column you're modifying is used in any indexes or constraints, you may need to modify those as well.
+
+
+</blockquote>
+
+</details>
+
+---
+
 
 
 
