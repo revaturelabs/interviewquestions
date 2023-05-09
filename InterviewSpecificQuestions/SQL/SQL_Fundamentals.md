@@ -174,6 +174,32 @@ Both primary key and unique key are used to ensure the uniqueness of values in a
 </details>
 
 ---
+7. What is DDL?
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+DDL stands for Data Definition Language. It is a set of SQL statements used to define, modify, and delete database objects such as tables, indexes, views, and constraints. DDL statements are used to create the database schema, which defines the structure and layout of the database.
+
+Some common DDL statements in SQL include:
+
+- CREATE: This statement is used to create a new database object such as a table, index, or view.
+
+- ALTER: This statement is used to modify the structure of an existing database object such as a table, index, or view.
+
+- DROP: This statement is used to delete an existing database object such as a table, index, or view.
+
+- TRUNCATE: This statement is used to delete all the rows from a table, but the table structure remains intact.
+
+DDL statements are used by database administrators and developers to define the structure of a database and to manage database objects. They play a crucial role in maintaining the integrity and consistency of the database, as they define the rules that govern the data stored in the database.
+
+</blockquote>
+
+</details>
+
+---
+
 
 
 
