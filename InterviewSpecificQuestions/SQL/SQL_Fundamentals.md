@@ -583,6 +583,28 @@ Creating a primary key in SQL involves specifying the PRIMARY KEY constraint whe
 </details>
 
 ---
+24. What is the difference between a unique key, a foreign key, and a primary key?
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Unique key, foreign key, and primary key are all types of constraints that can be applied to a column or a set of columns in a SQL table. Here are the main differences between these three types of keys:
+
+- Primary key: A primary key is a column or a set of columns that uniquely identify each row in a table. It is a unique constraint that enforces data integrity by ensuring that no duplicate rows are entered into the table. A table can have only one primary key.
+
+- Unique key: A unique key is similar to a primary key in that it also enforces uniqueness of values in a column or a set of columns. However, unlike a primary key, a table can have multiple unique keys. Unique keys can be used to enforce business rules and data integrity, but they cannot be referenced by foreign keys.
+
+- Foreign key: A foreign key is a column or a set of columns in a table that refers to the primary key or the unique key of another table. It establishes a relationship between the two tables, enabling data to be retrieved and combined from multiple tables. Foreign keys ensure data integrity by enforcing referential integrity rules, which prevent invalid data from being inserted into a table. A foreign key can reference the primary key or a unique key of another table.
+
+In summary, a primary key enforces uniqueness and identifies each row in a table, a unique key enforces uniqueness but cannot be referenced by foreign keys, and a foreign key establishes relationships between tables and enforces referential integrity rules.
+
+</blockquote>
+
+</details>
+
+---
+
 
 
 
