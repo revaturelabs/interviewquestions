@@ -254,6 +254,42 @@ ADD email VARCHAR(50);
 </details>
 
 ---
+10. How to create a table in SQL?
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+To create a new table in SQL, you can use the CREATE TABLE statement followed by the table name and the column definitions. Here's the basic syntax:
+```sql
+CREATE TABLE table_name (
+   column1 datatype constraint,
+   column2 datatype constraint,
+   ...
+);
+```
+where table_name is the name of the table you want to create, column1, column2, etc. are the column names, datatype is the data type of the column, and constraint is an optional constraint that can be added to the column.
+
+For example, if you want to create a table named "employees" with columns for employee ID, name, age, and department, you can use the following SQL statement:
+```sql
+CREATE TABLE employees (
+   emp_id INT PRIMARY KEY,
+   name VARCHAR(50) NOT NULL,
+   age INT,
+   department VARCHAR(50)
+);
+```
+This will create a new table "employees" with four columns: "emp_id", "name", "age", and "department". The "emp_id" column is defined as the primary key, while the "name" column is defined as not null, which means it cannot be left blank.
+
+You can also add other constraints such as UNIQUE, CHECK, and FOREIGN KEY to the columns as required. Once the table is created, you can insert data into it using the INSERT INTO statement.
+
+
+</blockquote>
+
+</details>
+
+---
+
 
 
 
