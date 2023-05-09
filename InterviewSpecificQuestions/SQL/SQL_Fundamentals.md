@@ -418,6 +418,26 @@ Overall, SQL is a powerful and widely used language that has evolved over time t
 </details>
 
 ---
+17. difference between global and local tables in sql.
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+In SQL, the terms "global" and "local" tables are not commonly used. However, there are concepts of global temporary tables and local temporary tables, which are specific to certain SQL implementations such as Oracle and SQL Server.
+
+Global temporary tables are tables that are created once and shared across all users and sessions. They are typically used for temporary data storage and are automatically dropped at the end of the session or transaction. Global temporary tables can be accessed by any user or session, and their contents are visible to all sessions.
+
+Local temporary tables, on the other hand, are tables that are created and accessed only within the context of a single session. They are typically used for temporary data storage within a particular session or transaction and are automatically dropped when the session or transaction ends. Local temporary tables are visible only within the session that created them, and their contents are not visible to other sessions or users.
+
+The choice between global and local temporary tables depends on the specific needs and requirements of your application. Global temporary tables are useful for scenarios where multiple sessions or users need to share temporary data, while local temporary tables are useful for scenarios where temporary data is needed within a single session or transaction.
+
+</blockquote>
+
+</details>
+
+---
+
 
 
 
