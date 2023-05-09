@@ -395,6 +395,30 @@ The choice between SQL and NoSQL databases depends on the specific needs and req
 </details>
 
 ---
+16. What would you change about SQL
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Here are some common criticisms and potential improvements for SQL:
+
+- Complexity: SQL can be complex and difficult to learn, especially for non-technical users. Improvements could be made to simplify the language and make it more accessible to beginners.
+
+- Performance: SQL can be slow and inefficient for certain types of queries and data processing tasks. Improvements could be made to optimize the language for better performance and scalability.
+
+- Lack of flexibility: SQL's fixed schema can make it difficult to adapt to changing data requirements. Improvements could be made to make the language more flexible and adaptable to changing data structures.
+
+- Standardization: SQL is a widely used language, but there are many variations and dialects that can make it difficult to use across different platforms and systems. Improvements could be made to standardize the language and make it more consistent across different implementations.
+
+Overall, SQL is a powerful and widely used language that has evolved over time to address many of its shortcomings. However, there is always room for improvement, and ongoing research and development are needed to ensure that SQL remains a relevant and effective tool for data management and analysis.
+
+</blockquote>
+
+</details>
+
+---
+
 
 
 
