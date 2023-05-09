@@ -860,4 +860,28 @@ In summary, TCL provides a robust mechanism for managing transactions in a datab
 </details>
 
 ---
+34. What is a COMMIT?
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+In SQL, COMMIT is a command that is used to permanently save the changes made to a database by a transaction. When a transaction is executed in a database, the changes made by the transaction are not saved until the transaction is committed. COMMIT is the command that signals the end of a transaction and makes its changes permanent in the database.
+
+Here's an example of how to use the COMMIT command:
+```sql
+BEGIN TRANSACTION;
+UPDATE customers SET email = 'newemail@example.com' WHERE customer_id = 1;
+COMMIT;
+```
+In this example, a transaction is started using the BEGIN TRANSACTION command. The UPDATE statement modifies the email address of a customer with ID 1. Finally, the COMMIT command is used to permanently save the changes made by the transaction.
+
+It's important to note that once a transaction is committed, its changes cannot be undone. Therefore, it's essential to ensure that a transaction is properly executed and tested before committing it. If a transaction needs to be rolled back, the ROLLBACK command can be used to cancel the transaction and undo its changes.
+
+</blockquote>
+
+</details>
+
+---
+
 
