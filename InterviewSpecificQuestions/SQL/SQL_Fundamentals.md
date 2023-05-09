@@ -561,6 +561,29 @@ Ranking functions are commonly used in business intelligence and data analysis a
 </details>
 
 ---
+23. What is a primary key in SQL.
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+
+In SQL, a primary key is a column or a set of columns in a table that uniquely identifies each row in the table. The primary key constraint is used to enforce this uniqueness requirement and ensure that the data in the table is consistent and correct.
+
+The primary key serves as a reference point for other tables in the database to establish relationships between tables. For example, in a sales database, the primary key in the customer table could be used as a foreign key in the sales order table to link each order to a specific customer.
+
+Some key characteristics of a primary key in SQL include:
+
+- It must contain unique values for each row in the table.
+- It cannot contain null values.
+- It should be composed of one or more columns that have an appropriate data type, such as integer or character.
+Creating a primary key in SQL involves specifying the PRIMARY KEY constraint when creating a table or altering an existing table. A table can have only one primary key, but it can be composed of multiple columns if necessary.
+</blockquote>
+
+</details>
+
+---
+
 
 
 
