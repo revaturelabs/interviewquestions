@@ -905,5 +905,39 @@ In summary, COMMIT is used to permanently save changes made by a transaction, RO
 </details>
 
 ---
+36. What is the syntax for UPDATE?
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+The UPDATE statement is used in SQL to modify existing records in a database table. Here is the syntax for the UPDATE statement in SQL:
+```sql
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+```
+Let's break down the syntax:
+
+- UPDATE: This keyword tells the database to update existing records.
+- table_name: This is the name of the table that you want to update.
+- SET: This keyword indicates that you are going to set new values for one or more columns in the table.
+- column1 = value1, column2 = value2, ...: This specifies the new values that you want to set for one or more columns in the table. Each column and its new value are separated by a comma.
+- WHERE: This keyword is used to filter the records that you want to update. The condition specified after the WHERE keyword determines which records will be updated.
+- condition: This specifies the condition that must be met for a record to be updated. If the condition is not met, the record will not be updated.
+Here is an example of an UPDATE statement that sets a new value for the "price" column in a "products" table for all products with a "product_id" greater than or equal to 100:
+```sql
+UPDATE products
+SET price = 19.99
+WHERE product_id >= 100;
+```
+This statement sets the "price" column to 19.99 for all products with a "product_id" greater than or equal to 100. It's important to note that the WHERE clause is used to filter the records that are updated. If you omit the WHERE clause, all records in the table will be updated.
+
+</blockquote>
+
+</details>
+
+---
+
 
 
