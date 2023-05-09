@@ -83,5 +83,41 @@ Record types are a powerful feature in SQL that allow you to define custom data 
 </details>
 
 ---
+4. replace and rank function in SQL?
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+In SQL, the REPLACE function is used to replace all occurrences of a substring within a string with a new substring. The basic syntax for the REPLACE function is:
+```sql
+REPLACE(string, old_substring, new_substring)
+```
+Here, "string" is the original string that you want to modify, "old_substring" is the substring that you want to replace, and "new_substring" is the substring that you want to replace it with.
+
+For example, if you have a string "Hello, world!" and you want to replace the comma with a space, you can use the following query:
+```sql
+SELECT REPLACE('Hello, world!', ',', ' ');
+```
+This will return the string "Hello world!" with the comma replaced by a space.
+
+The RANK function in SQL is used to assign a rank to each row within a result set based on the values in one or more columns. The basic syntax for the RANK function is:
+```sql
+RANK() OVER (ORDER BY column1 [ASC/DESC], column2 [ASC/DESC], ...)
+```
+Here, "column1", "column2", etc. are the columns that you want to use for sorting the rows. You can specify multiple columns separated by commas, and you can specify the sort order (ascending or descending) for each column.
+
+For example, if you have a table "employees" with columns "name" and "salary", and you want to assign a rank to each employee based on their salary, you can use the following query:
+```sql
+SELECT name, salary, RANK() OVER (ORDER BY salary DESC) AS rank
+FROM employees;
+```
+This will return a result set with the employee name, salary, and rank, where the rank is assigned based on the salary in descending order. The employee with the highest salary will have a rank of 1, the employee with the second-highest salary will have a rank of 2, and so on.
+
+</blockquote>
+
+</details>
+
+---
+
 
 
