@@ -605,6 +605,20 @@ In summary, a primary key enforces uniqueness and identifies each row in a table
 
 ---
 
+25. Can you have more than one primary key? 
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+No, a table can have only one primary key. The primary key constraint ensures that each row in the table is unique, so having more than one primary key would violate this constraint. However, a primary key can be made up of multiple columns, so a combination of columns can serve as the primary key. In this case, the combination of columns must be unique for each row in the table.
+
+</blockquote>
+
+</details>
+
+---
+
 
 
 
