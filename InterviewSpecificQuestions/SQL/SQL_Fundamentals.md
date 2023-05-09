@@ -229,6 +229,32 @@ Here are some of the keywords used in DDL (Data Definition Language) in SQL:
 </details>
 
 ---
+9. How do you add a column to an existing table?
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+To add a new column to an existing table in SQL, you can use the ALTER TABLE statement with the ADD keyword. Here's the basic syntax:
+```sql
+ALTER TABLE table_name
+ADD column_name data_type;
+```
+where table_name is the name of the table to which you want to add the column, column_name is the name of the new column, and data_type is the data type of the column.
+
+For example, if you want to add a new column "email" of data type VARCHAR(50) to a table named "customers", you can use the following SQL statement:
+```sql
+ALTER TABLE customers
+ADD email VARCHAR(50);
+```
+
+
+</blockquote>
+
+</details>
+
+---
+
 
 
 
