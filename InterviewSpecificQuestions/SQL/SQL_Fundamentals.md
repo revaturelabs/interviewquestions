@@ -652,6 +652,48 @@ This will add a primary key constraint to the order_id column in the orders tabl
 </details>
 
 ---
+27. What is a foreign key and how do you create it ?
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+A foreign key is a column or a set of columns in a table that refers to the primary key or the unique key of another table. It is used to establish a relationship between two tables in a relational database.
+
+When you create a foreign key, it creates a constraint that ensures data integrity and consistency between the two tables. The foreign key constraint ensures that any value in the foreign key column of the referencing table must exist in the primary key or unique key column of the referenced table.
+
+Here are the steps to create a foreign key in SQL:
+
+- Create the referenced table and define a primary key or a unique key constraint on the column(s) that you want to reference.
+
+For example, if you have a table called products and you want to reference the product_id column in another table, you can create the products table with a primary key on the product_id column:
+```sql
+CREATE TABLE products (
+    product_id INT PRIMARY KEY,
+    product_name VARCHAR(50),
+    category VARCHAR(50),
+    price DECIMAL(10, 2)
+);
+```
+- Create the referencing table and include a foreign key column that refers to the primary key or unique key of the referenced table.
+
+For example, if you have a table called orders and you want to reference the product_id column in the products table, you can create the orders table with a foreign key on the product_id column:
+```sql
+CREATE TABLE orders (
+    order_id INT PRIMARY KEY,
+    order_date DATE,
+    product_id INT,
+    quantity INT,
+    FOREIGN KEY (product_id) REFERENCES products (product_id)
+);
+```
+This will create a foreign key constraint on the product_id column in the orders table that references the product_id column in the products table. The foreign key constraint ensures that any value in the product_id column of the orders table must exist in the product_id column of the products table.
+
+</blockquote>
+
+</details>
+
+---
+
 
 
 
