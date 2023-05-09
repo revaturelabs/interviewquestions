@@ -619,6 +619,40 @@ No, a table can have only one primary key. The primary key constraint ensures th
 
 ---
 
+26. How do you create a primary key?
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+In SQL, you can create a primary key constraint on a column or a set of columns when you create a table or alter an existing table. Here are the steps to create a primary key in SQL:
+
+- When creating a new table, include a column or a set of columns that uniquely identify each row in the table.
+
+For example, if you are creating a table for customers, you might include a column for the customer ID that is unique for each customer:
+```sql
+CREATE TABLE customers (
+    customer_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    email VARCHAR(255)
+);
+```
+- If you already have a table, you can alter the table to add a primary key constraint using the ALTER TABLE statement.
+
+For example, if you have a table called orders and you want to add a primary key constraint on the order ID column, you can use the following statement:
+```sql
+ALTER TABLE orders
+ADD CONSTRAINT pk_orders PRIMARY KEY (order_id);
+```
+This will add a primary key constraint to the order_id column in the orders table.
+
+</blockquote>
+
+</details>
+
+---
+
 
 
 
