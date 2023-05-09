@@ -376,6 +376,26 @@ It's important to handle these exceptions properly in your application code to e
 </details>
 
 ---
+15. SQL vs noSQL
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+SQL (Structured Query Language) and NoSQL (Not Only SQL) are two different approaches to storing and retrieving data.
+
+SQL databases are relational databases that store data in tables with predefined schemas, where data is structured into rows and columns. SQL databases are best suited for applications that require complex queries, transactions, and data integrity. SQL databases use the ACID (Atomicity, Consistency, Isolation, Durability) model to ensure data consistency and reliability. Popular examples of SQL databases include MySQL, Oracle, Microsoft SQL Server, and PostgreSQL.
+
+NoSQL databases, on the other hand, are non-relational databases that store data in flexible, unstructured formats such as documents, key-value pairs, and graphs. NoSQL databases are best suited for applications that require scalability, high availability, and fast, real-time data processing. NoSQL databases typically do not enforce a fixed schema, which makes them highly flexible and adaptable to changing data requirements. However, this flexibility can also make it harder to ensure data consistency and reliability. Popular examples of NoSQL databases include MongoDB, Cassandra, Redis, and Amazon DynamoDB.
+
+The choice between SQL and NoSQL databases depends on the specific needs and requirements of your application. SQL databases are typically better suited for applications that require complex queries, transactions, and data integrity, while NoSQL databases are better suited for applications that require scalability, high availability, and real-time data processing. However, there are also hybrid databases that combine SQL and NoSQL features, offering the best of both worlds.
+
+</blockquote>
+
+</details>
+
+---
+
 
 
 
