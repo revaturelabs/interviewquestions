@@ -520,6 +520,24 @@ SQL is widely used in data-driven applications, from simple web applications to 
 
 ---
 
+21. What are parallel queries in sql
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Parallel queries in SQL are a feature that allows multiple processors or cores to work together to process a single SQL query in parallel, thereby reducing the query execution time. In other words, it enables the database to divide a single query into smaller parts that can be executed simultaneously on multiple processors, rather than executing the query sequentially on a single processor.
+
+This feature is particularly useful for large, complex queries that involve multiple tables, joins, and aggregations, as it can significantly reduce the time it takes to process the query and return the results.
+
+Parallel queries are supported by many relational database management systems, including Oracle, Microsoft SQL Server, and PostgreSQL. However, not all queries can benefit from parallel execution, and the performance gain achieved by parallel queries depends on several factors, including the complexity of the query, the hardware configuration, and the workload on the database server.
+
+</blockquote>
+
+</details>
+
+---
+
 
 
 
