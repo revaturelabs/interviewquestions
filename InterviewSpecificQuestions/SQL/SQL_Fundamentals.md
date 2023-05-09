@@ -473,6 +473,32 @@ WHERE
 </details>
 
 ---
+19. what is sqllite
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+SQLite is a lightweight, open-source, self-contained, and serverless relational database management system (RDBMS) that is embedded in applications. It is widely used in mobile and desktop applications, as well as in small-scale web applications.
+
+One of the main advantages of SQLite is its small size and low memory footprint, which makes it easy to integrate into applications and use on devices with limited resources. It also supports standard SQL syntax and provides a number of features common to larger RDBMSs, such as transactions, indexing, and triggers.
+
+SQLite databases are stored as single files on disk, making them easy to distribute and manage. They can be accessed using a variety of programming languages, including C, C++, Java, Python, and others.
+
+Some common use cases for SQLite include:
+
+- Storing user data in mobile and desktop applications
+- Caching data in web applications
+- Storing configuration settings
+- Storing temporary data
+- Storing data for embedded systems and Internet of Things (IoT) devices
+
+</blockquote>
+
+</details>
+
+---
+
 
 
 
