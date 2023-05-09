@@ -437,6 +437,43 @@ The choice between global and local temporary tables depends on the specific nee
 </details>
 
 ---
+18. PostgreSQL-how do you create a table and populate it in the same instance
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+The CREATE TABLE AS statement creates a new table and fills it with the data returned by a query. The following shows the syntax of the CREATE TABLE AS statement:
+
+```sql
+CREATE TABLE new_table_name
+AS query;
+```
+In this syntax:
+
+- First, specify the new table name after the CREATE TABLE clause.
+- Second, provide a query whose result set is added to the new table after the AS keyword.
+```sql
+CREATE TABLE action_film AS
+SELECT
+    film_id,
+    title,
+    release_year,
+    length,
+    rating
+FROM
+    film
+INNER JOIN film_category USING (film_id)
+WHERE
+    category_id = 1;
+```
+
+</blockquote>
+
+</details>
+
+---
+
 
 
 
