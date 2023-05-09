@@ -537,6 +537,31 @@ Parallel queries are supported by many relational database management systems, i
 </details>
 
 ---
+22. What are Ranking Functions
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Ranking functions in SQL are a set of built-in functions that assign a rank or row number to each row in a result set based on certain criteria, such as the value of a specific column. These functions can be used to calculate rankings, percentiles, and other statistical measures in SQL queries.
+
+There are several types of ranking functions in SQL, including:
+
+- RANK: assigns a unique rank to each row within a result set, with ties receiving the same rank value.
+
+- DENSE_RANK: assigns a unique rank to each row within a result set, with ties receiving the same rank value, but no gaps between ranks.
+
+- ROW_NUMBER: assigns a unique row number to each row within a result set, with no regard for ties.
+
+- NTILE: divides a result set into a specified number of groups, assigning a rank to each row based on which group it belongs to.
+
+Ranking functions are commonly used in business intelligence and data analysis applications to identify trends, patterns, and outliers in large data sets. They can also be used to sort and filter data based on specific criteria, such as the top 10% of sales by region or the lowest 5% of customer satisfaction scores.
+</blockquote>
+
+</details>
+
+---
+
 
 
 
