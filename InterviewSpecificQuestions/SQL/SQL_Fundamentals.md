@@ -146,5 +146,34 @@ Constraints are an essential feature in SQL that helps maintain the quality and 
 
 ---
 
+6. What is the difference between Primary Key and Unique Key?
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+Both primary key and unique key are used to ensure the uniqueness of values in a column or a group of columns in a table. However, there are some differences between the two:
+
+- Primary key: A primary key is a column or a group of columns that uniquely identifies each row in a table. It is used to enforce the integrity of the data and to ensure that each row has a unique identifier. A primary key can be defined on one or more columns, and it cannot contain NULL values. Each table can have only one primary key.
+
+- Unique key: A unique key is a column or a group of columns that must contain unique values. It is used to ensure that no two rows in a table have the same values in the specified column(s). A unique key can be defined on one or more columns, and it can contain NULL values. Each table can have multiple unique keys.
+
+Some key differences between primary key and unique key are:
+
+- Primary keys are used to uniquely identify each row in a table, while unique keys are used to ensure that each row has unique values in the specified column(s).
+
+- A primary key cannot contain NULL values, while a unique key can.
+
+- Each table can have only one primary key, while it can have multiple unique keys.
+
+- A foreign key in another table can reference a primary key in the current table, while a foreign key can reference a unique key as well.
+
+Both primary key and unique key are used to ensure the uniqueness of values in a table, but primary key is used to uniquely identify each row in a table, while unique key is used to ensure unique values in a column or a group of columns.
+
+</blockquote>
+
+</details>
+
+---
+
 
 
