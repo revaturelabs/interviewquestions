@@ -808,6 +808,34 @@ This relationship means that each employee belongs to a single department, and e
 
 ---
 
+32. What is the substring function used for?
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+The SUBSTRING function in SQL is used to extract a substring from a string value. The function takes three arguments: the input string, the starting position, and the length of the substring.
+
+Here's the syntax of the SUBSTRING function:
+```sql
+SUBSTRING(input_string, start_position, length)
+```
+The first argument is the input string from which the substring will be extracted. The second argument is the starting position of the substring within the input string. The third argument is the length of the substring.
+
+Here's an example of using the SUBSTRING function to extract a substring from a string value:
+```sql
+SELECT SUBSTRING('Hello World', 1, 5);
+```
+This SQL statement retrieves the substring "Hello" from the input string "Hello World". The start_position argument is 1, which means the substring will start at the first character of the input string. The length argument is 5, which means the substring will contain the first five characters of the input string.
+
+The SUBSTRING function is useful for extracting parts of a string, such as a person's first name from a full name or a year from a date value. It's commonly used in combination with other string functions and operators to manipulate and analyze string data in SQL.
+
+</blockquote>
+
+</details>
+
+---
+
 
 
 
