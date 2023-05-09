@@ -498,6 +498,28 @@ Some common use cases for SQLite include:
 </details>
 
 ---
+20. what is sql  
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+SQL (Structured Query Language) is a programming language used to manage and manipulate relational databases. It is the standard language used by most RDBMSs (Relational Database Management Systems) such as MySQL, Oracle, PostgreSQL, and Microsoft SQL Server, to perform tasks such as creating and modifying tables, inserting, updating and deleting data, and querying data from the database.
+
+SQL provides a standardized syntax and set of commands for interacting with relational databases. It consists of several types of statements, including:
+
+- Data definition language (DDL) statements: used to create, modify, and delete database objects such as tables, indexes, and constraints.
+- Data manipulation language (DML) statements: used to insert, update, delete, and query data in tables.
+- Data control language (DCL) statements: used to manage user access and permissions to database objects.
+- Transaction control statements: used to manage transactions, which are groups of database operations that are executed as a single unit.
+
+SQL is widely used in data-driven applications, from simple web applications to complex enterprise systems. It is a powerful and flexible language that can be used to manage and manipulate large amounts of data efficiently and effectively.
+
+</blockquote>
+
+</details>
+
+---
+
 
 
 
