@@ -540,6 +540,7 @@ This statement groups the orders by the CustomerID column and calculates the sum
   
 <blockquote>
 
+SQL has a variety of built-in scalar functions that can be used to manipulate data in various ways. Here are some of the commonly used scalar functions in SQL:
 
 - String Functions: `CONCAT`, `SUBSTRING`, `LENGTH`, `REPLACE`, and more.
 - Numeric Functions: `ABS`, `CEILING`, `FLOOR`, `MOD`,and more.
