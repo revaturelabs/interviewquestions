@@ -534,3 +534,19 @@ This statement groups the orders by the CustomerID column and calculates the sum
 
 ---
 
+29. What are the available scalar functions in SQL?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+
+- String Functions: `CONCAT`, `SUBSTRING`, `LENGTH`, `REPLACE`, and more.
+- Numeric Functions: `ABS`, `CEILING`, `FLOOR`, `MOD`,and more.
+- Date and Time Functions: `GETDATE`, `DATEADD`, `DATEDIFF`, YEAR.
+- Aggregate Functions: COUNT, SUM, AVG, MIN, MAX, and more.
+- Miscellaneous Functions: ISNULL, COALESCE, NULLIF, and more.
+
+</blockquote>
+
+</details>
