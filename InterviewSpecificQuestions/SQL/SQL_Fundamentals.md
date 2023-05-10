@@ -995,6 +995,42 @@ By using these keywords in combination with parentheses, SQL allows you to creat
 </details>
 
 ---
+39. How would you delete duplicate info in a database?
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+To delete duplicate information in a database, you can use the DELETE statement in combination with a subquery that selects the duplicate rows. Here is a general approach to delete duplicate information from a table:
+
+- Identify the columns that determine whether a row is a duplicate. For example, if you have a table of customers, you might consider the columns "first_name", "last_name", and "email" to determine whether two rows represent the same customer.
+
+- Use a subquery to select the duplicate rows. The subquery should return the primary key values of the rows that you want to delete. For example, if your customers table has a primary key column named "id", you can use a subquery like this:
+```sql
+SELECT MIN(id) as id_to_keep
+FROM customers
+GROUP BY first_name, last_name, email
+HAVING COUNT(*) > 1
+```
+This subquery selects the minimum value of the "id" column for each set of duplicate rows, based on the "first_name", "last_name", and "email" columns.
+
+- Use the selected primary key values to delete the duplicate rows from the table. You can use a DELETE statement with a WHERE clause that matches the primary key values returned by the subquery. For example:
+```sql
+DELETE FROM customers
+WHERE id NOT IN (
+    SELECT MIN(id) as id_to_keep
+    FROM customers
+    GROUP BY first_name, last_name, email
+    HAVING COUNT(*) > 1
+)
+```
+This statement deletes all rows from the "customers" table whose "id" value is not in the set of primary key values selected by the subquery.
+
+Note that you should always back up your data before deleting any rows from a table, and carefully review the results of the subquery before executing the DELETE statement to ensure that you are deleting the correct rows.
+</blockquote>
+
+</details>
+
+---
 
 
 
