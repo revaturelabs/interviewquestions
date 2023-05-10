@@ -975,6 +975,26 @@ This query uses the SUM window function to calculate the running total of the "s
 
 ---
 
+38. What is composition in SQL?
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+In SQL, composition refers to the ability to combine multiple SQL queries to form a more complex query. This is typically achieved using the keywords "UNION", "INTERSECT", and "EXCEPT".
+
+- UNION: This keyword is used to combine the results of two or more SELECT statements into a single result set. The SELECT statements must return the same number of columns and compatible data types.
+
+- INTERSECT: This keyword is used to combine the results of two or more SELECT statements and return only the rows that are common to all the SELECT statements. Again, the SELECT statements must return the same number of columns and compatible data types.
+
+- EXCEPT: This keyword is used to combine the results of two SELECT statements and return only the rows that are unique to the first SELECT statement and not present in the second SELECT statement. Once again, the SELECT statements must return the same number of columns and compatible data types.
+
+By using these keywords in combination with parentheses, SQL allows you to create complex queries that can perform more sophisticated data analysis.
+
+</blockquote>
+
+</details>
+
+---
 
 
 
