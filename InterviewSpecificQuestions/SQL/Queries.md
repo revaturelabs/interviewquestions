@@ -526,6 +526,8 @@ WHERE country IN (
 
 In this query, the subquery `(SELECT country FROM orders WHERE order_date >= '2022-01-01')` retrieves a list of countries that have orders placed after January 1st, 2022. This list is then used by the main query to filter the `customers` table to show only the customers from those countries.
 
+</details>
+
 15. How to avoid duplicates in a query?
 
 <details><summary><b>Answer</b></summary>
@@ -1130,35 +1132,664 @@ This PostgreSQL query deletes the duplicate rows from the `your_table`. Replace 
 -  present the employee who have sold nothing.  
 -  presend the employee who is the top sales.
 
-41.  SQL coding challenge: you are given some tables, select employee name for employee who has salary over 30,000 and is in the engineering department what is the difference between abstract class and interface 
+SQL Code Challenge: Given two tables "employee" and "sale_details", present the employee who have sold nothing.
 
-42.  write sql query to update the table
-43.  SQL Join query to combine two employee tables where salary was between 5000 and 8000
-44.  How would you write a query to get employee's name from an employees table with an id of 123?
+<details><summary><b>Answer</b></summary>
+
+<details><summary><b>MySQL</b></summary>
+
+```sql
+SELECT e.employee_id, e.employee_name
+FROM employee e
+LEFT JOIN sale_details sd ON e.employee_id = sd.employee_id
+WHERE sd.employee_id IS NULL;
+```
+
+Explanation:
+In this MySQL query, the `employee` table is joined with the `sale_details` table using a `LEFT JOIN` based on the `employee_id` column. The `LEFT JOIN` ensures that all employees from the `employee` table are included in the result, even if they have no corresponding rows in the `sale_details` table. The `WHERE` clause filters out the rows where `sale_details.employee_id` is `NULL`, indicating that the employee has sold nothing.
+
+</details>
+
+<details><summary><b>PostgreSQL</b></summary>
+
+```sql
+SELECT e.employee_id, e.employee_name
+FROM employee e
+LEFT JOIN sale_details sd ON e.employee_id = sd.employee_id
+WHERE sd.employee_id IS NULL;
+```
+
+Explanation:
+This PostgreSQL query is similar to the MySQL version. It uses a `LEFT JOIN` to combine the `employee` and `sale_details` tables based on the `employee_id` column. The `WHERE` clause filters out the rows where `sale_details.employee_id` is `NULL`, indicating that the employee has sold nothing.
+
+</details>
+</details>
+
+
+SQL Code Challenge: Given two tables "employee" and "sale_details", present the employee who is the top sales.
+
+<details><summary><b>Answer</b></summary>
+
+```sql
+SELECT e.employee_id, e.employee_name, SUM(sd.amount) AS total_sales
+FROM employee e
+JOIN sale_details sd ON e.employee_id = sd.employee_id
+GROUP BY e.employee_id, e.employee_name
+ORDER BY total_sales DESC
+LIMIT 1;
+```
+
+Explanation:
+This query joins the "employee" table with the "sale_details" table based on the "employee_id" column. It uses the `SUM()` function to calculate the total sales amount for each employee. The result is grouped by the employee's ID and name. The `ORDER BY` clause sorts the result in descending order based on the total sales amount. Finally, the `LIMIT 1` clause selects only the top row, which represents the employee with the highest sales.
+
+Note: If there are multiple employees with the same highest sales amount, this query will return only one of them. To retrieve all employees with the highest sales, you can modify the query accordingly.
+
+</details>
+
+41.   SQL coding challenge: you are given some tables, select employee name for employee who has salary over 30,000 and is in the engineering department?
+
+SQL Coding Challenge: Given some tables, select the employee name for employees who have a salary over 30,000 and are in the engineering department.
+
+<details><summary><b>Answer</b></summary>
+
+<details><summary><b>MySQL</b></summary>
+
+```sql
+SELECT e.employee_name
+FROM employee e
+JOIN department d ON e.department_id = d.department_id
+WHERE e.salary > 30000 AND d.department_name = 'Engineering';
+```
+
+Explanation:
+In this MySQL query, the "employee" table is joined with the "department" table using the common column "department_id". The `WHERE` clause filters the result to include only employees with a salary over 30,000 and who belong to the "Engineering" department.
+
+</details>
+
+<details><summary><b>PostgreSQL</b></summary>
+
+```sql
+SELECT e.employee_name
+FROM employee e
+JOIN department d ON e.department_id = d.department_id
+WHERE e.salary > 30000 AND d.department_name = 'Engineering';
+```
+
+Explanation:
+This PostgreSQL query is the same as the MySQL version. It joins the "employee" and "department" tables based on the "department_id" column and applies the same conditions in the `WHERE` clause to filter the result.
+
+</details>
+</details>
+
+42.    write sql query to update the table
+
+<details><summary><b>Answer</b></summary>
+
+SQL Query to Update a Table:
+
+```sql
+UPDATE your_table
+SET column1 = 'new_value1', column2 = 'new_value2'
+WHERE condition;
+```
+
+Explanation:
+This MySQL query updates the specified columns (`column1`, `column2`, etc.) in the table `your_table` with the new values (`new_value1`, `new_value2`, etc.). The `WHERE` clause is optional and can be used to specify conditions to determine which rows should be updated. If no condition is provided, all rows in the table will be updated.
+
+Please replace `your_table` with the actual name of your table, and modify the column names, new values, and conditions as per your requirements.
+
+</details>
+    
+43.     SQL Join query to combine two employee tables where salary was between 5000 and 8000
+  
+
+<details><summary><b>Answer</b></summary>
+
+  SQL Query to Join Two Employee Tables based on Salary Range:
+
+```sql
+SELECT *
+FROM employee_table1
+JOIN employee_table2 ON employee_table1.employee_id = employee_table2.employee_id
+WHERE employee_table1.salary BETWEEN 5000 AND 8000;
+```
+
+Explanation:
+This MySQL query performs an inner join between `employee_table1` and `employee_table2` based on the common column `employee_id`. The `WHERE` clause filters the result to include only those employees whose salary is between 5000 and 8000.
+
+Please replace `employee_table1` and `employee_table2` with the actual names of your employee tables, and adjust the column names (`employee_id`, `salary`) as per your table structure.
+
+</details>
+
+
+44. How would you write a query to get employee's name from an employees table with an id of 123?
+
+<details><summary><b>Answer</b></summary>
+
+To retrieve the employee's name from an employees table with an ID of 123, you can use the `SELECT` statement along with a `WHERE` clause. Here's the query:
+
+```sql
+SELECT name
+FROM employees
+WHERE id = 123;
+```
+
+Explanation:
+- Replace `name` with the column name that stores the employee's name in your employees table.
+- Replace `employees` with the name of your employees table.
+- Replace `id` with the column name that represents the employee ID in your employees table.
+- Replace `123` with the specific ID you want to retrieve the name for.
+
+For example, if you have a table named `employees` with columns `id` and `name`, and you want to get the name of the employee with ID 123, the query would be:
+
+```sql
+SELECT name
+FROM employees
+WHERE id = 123;
+```
+
+This query will retrieve the name of the employee with ID 123 from the employees table.
+
+Adjust the table name, column names, and ID value as per your specific table structure and requirements.
+
+</details>
+
 45.  How would you get the department an employee is in given this employee table and department table? 
     -Employee table columns: id, name, department_name
     -Department table columns: id, department_name"
-46.  How to do a left join
-47.  How do you sort data after it has been pulled from a database?
-48.  how to change an entry to null in sql
-49. Group by department and put the 1st/last name of the employees in that department in a single cell
-50. Two tables that can be joined: employees and employee salaries, 
-Return the 3rd highest employee salary.
-51.    How to find common records in two tables 
-52.   Write a SQL query where we combine a customers table and sales table to find the most recent purchase from each customer?
-53.   SQL queries, How to filter results and search with conditions
-54.   how do you create a table/select specific things from that table created    
-55.   Had me open any notepad and write SQL. 
 
-table 1: student name, student id, address, age. 
+<details><summary><b>Answer</b></summary>
+
+To retrieve the department of an employee based on the employee table and department table, you can use a simple `JOIN` between the two tables. Here's the query:
+
+```sql
+SELECT e.name, d.department_name
+FROM employee e
+JOIN department d ON e.department_name = d.department_name
+WHERE e.id = 123;
+```
+
+Explanation:
+- Replace `e.name` with the column name that stores the employee's name in the employee table.
+- Replace `d.department_name` with the column name that stores the department names in the department table.
+- Replace `employee` with the name of your employee table.
+- Replace `department` with the name of your department table.
+- Replace `e.department_name` and `d.department_name` with the respective column names in both tables that represent the department names.
+- Replace `e.id = 123` with the condition that matches the desired employee ID.
+
+For example, if you have an employee table with columns `id`, `name`, and `department_name`, and a department table with columns `id` and `department_name`, and you want to retrieve the department of an employee with ID 123, the query would be:
+
+```sql
+SELECT e.name, d.department_name
+FROM employee e
+JOIN department d ON e.department_name = d.department_name
+WHERE e.id = 123;
+```
+
+This query will retrieve the name of the employee and the corresponding department based on the department name in both tables.
+
+Adjust the table names, column names, and conditions as per your specific table structure and requirements.
+
+</details>
+
+1.   How to do a left join
+
+<details><summary><b>Answer</b></summary>
+
+To perform a left join in SQL, you can use the `LEFT JOIN` keyword in your query. Here's the syntax:
+
+```sql
+SELECT columns
+FROM table1
+LEFT JOIN table2 ON join_condition;
+```
+
+Explanation:
+- Replace `columns` with the columns you want to select from the tables.
+- Replace `table1` and `table2` with the names of the tables you want to join.
+- Replace `join_condition` with the condition that specifies how the tables should be joined.
+
+For example, let's say you have two tables named `orders` and `customers`, and you want to retrieve all orders along with their corresponding customer information (if available) using a left join on the `customer_id` column. The query would be:
+
+```sql
+SELECT o.order_id, o.order_date, c.customer_name
+FROM orders o
+LEFT JOIN customers c ON o.customer_id = c.customer_id;
+```
+
+This query selects the `order_id` and `order_date` columns from the `orders` table and the `customer_name` column from the `customers` table. It performs a left join based on the matching `customer_id` column, retrieving all orders and including the customer name if a matching customer exists.
+
+Adjust the table names, column names, and join conditions as per your specific table structure and requirements.
+
+</details>
+
+47.  How do you sort data after it has been pulled from a database?
+
+<details><summary><b>Answer</b></summary>
+
+To sort data after it has been pulled from a database, you can use the `ORDER BY` clause in SQL. Here's an example query:
+
+```sql
+SELECT column1, column2, ...
+FROM your_table
+ORDER BY column1 ASC/DESC;
+```
+
+Explanation:
+- Replace `column1, column2, ...` with the actual columns you want to select from the table.
+- Replace `your_table` with the name of your table.
+- Replace `column1` with the specific column you want to sort the data by.
+- Replace `ASC` or `DESC` to specify the sorting order. `ASC` stands for ascending order (smallest to largest), and `DESC` stands for descending order (largest to smallest).
+
+For example, if you have a table named `employees` with columns `employee_id`, `first_name`, and `last_name`, and you want to retrieve the data sorted by `employee_id` in ascending order, the query would be:
+
+```sql
+SELECT employee_id, first_name, last_name
+FROM employees
+ORDER BY employee_id ASC;
+```
+
+This query will retrieve the data from the `employees` table and sort it based on the `employee_id` column in ascending order.
+
+Adjust the table name, column names, and sorting criteria as per your specific table structure and requirements.
+
+</details>
+
+48.  how to change an entry to null in sql
+
+<details><summary><b>Answer</b></summary>
+
+To change an entry to `NULL` in SQL, you can use the `UPDATE` statement along with the `SET` clause. Here's an example query:
+
+```sql
+UPDATE your_table
+SET column_name = NULL
+WHERE condition;
+```
+
+Explanation:
+- Replace `your_table` with the name of your table.
+- Replace `column_name` with the name of the column where you want to change the entry to `NULL`.
+- Replace `condition` with the specific condition that identifies the row(s) you want to update.
+
+For example, let's say you have a table named `customers` with columns `customer_id` and `email`, and you want to change the email of a specific customer with `customer_id = 123` to `NULL`. The query would be:
+
+```sql
+UPDATE customers
+SET email = NULL
+WHERE customer_id = 123;
+```
+
+After executing this query, the email of the customer with `customer_id = 123` will be set to `NULL`.
+
+Make sure to adjust the table name, column name, and condition as per your specific table structure and requirements.
+
+</details>
+
+49.  Group by department and put the 1st/last name of the employees in that department in a single cell
+
+<details><summary><b>Answer</b></summary>
+
+To group employees by department and concatenate the first and last names of employees within each department into a single cell, you can use the `GROUP_CONCAT` function along with the `GROUP BY` clause. Here's an example query:
+
+```sql
+SELECT department, GROUP_CONCAT(CONCAT(first_name, ' ', last_name)) AS employees
+FROM employees
+GROUP BY department;
+```
+
+Explanation:
+- The query selects the `department` column from the `employees` table.
+- The `GROUP_CONCAT` function concatenates the `first_name` and `last_name` columns using the `CONCAT` function.
+- The result of the concatenation is aliased as `employees`.
+- The `GROUP BY` clause groups the rows by the `department` column.
+- The query returns the department and the concatenated names of employees within each department in a single cell.
+
+Adjust the table name, column names, and aliases as per your specific table structure and requirements.
+
+</details>
+
+50.  Two tables that can be joined: employees and employee salaries, 
+Return the 3rd highest employee salary.
+
+
+<details><summary><b>Answer</b></summary>
+
+To return the 3rd highest employee salary from the `employees` and `employee_salaries` tables, you can use the `ORDER BY` and `LIMIT` clauses. Here's an example query:
+
+```sql
+SELECT salary
+FROM employee_salaries
+ORDER BY salary DESC
+LIMIT 1 OFFSET 2;
+```
+
+Explanation:
+- The query selects the `salary` column from the `employee_salaries` table.
+- The `ORDER BY` clause sorts the salaries in descending order, placing the highest salary first.
+- The `LIMIT` clause with `1` specifies that only one row should be returned.
+- The `OFFSET 2` clause skips the first two rows, effectively returning the 3rd highest salary.
+
+Please note that this query assumes that the `employee_salaries` table contains a column named `salary` that stores the salaries of the employees.
+
+Adjust the table names, column names, and `LIMIT` and `OFFSET` values as per your specific table structure and requirements.
+
+</details>
+
+51.  How to find common records in two tables
+
+
+<details><summary><b>Answer</b></summary>
+
+To find common records in two tables, you can use the `INNER JOIN` operation. Here's an example query:
+
+```sql
+SELECT t1.column1, t1.column2, ...
+FROM table1 t1
+INNER JOIN table2 t2 ON t1.common_column = t2.common_column;
+```
+
+Explanation:
+- Replace `t1.column1, t1.column2, ...` with the actual columns you want to select from `table1`.
+- Replace `table1` with the name of the first table.
+- Replace `table2` with the name of the second table.
+- Replace `t1.common_column` and `t2.common_column` with the common column on which you want to join the two tables.
+
+The `INNER JOIN` operation returns only the rows that have matching values in both tables based on the specified common column. This effectively gives you the common records between the two tables.
+
+Here's an example query that demonstrates finding common records between two tables based on a common column named `id`:
+
+```sql
+SELECT t1.id, t1.name, t2.address
+FROM table1 t1
+INNER JOIN table2 t2 ON t1.id = t2.id;
+```
+
+This query selects the `id`, `name`, and `address` columns from `table1` and `table2`, respectively, and returns only the rows where the `id` values match in both tables.
+
+Adjust the column names, table names, and common column as per your specific scenario.
+
+</details>
+
+
+
+52.  Write a SQL query where we combine a customers table and sales table to find the most recent purchase from each customer?
+
+<details><summary><b>Answer</b></summary>
+
+<details><summary><b>MySQL</b></summary>
+
+To find the most recent purchase from each customer by combining the `customers` table and the `sales` table, you can use a subquery and the `MAX` function. Here's an example query:
+
+```sql
+SELECT c.customer_id, c.customer_name, s.purchase_date, s.purchase_amount
+FROM customers c
+INNER JOIN sales s ON c.customer_id = s.customer_id
+WHERE s.purchase_date = (
+    SELECT MAX(purchase_date)
+    FROM sales
+    WHERE customer_id = c.customer_id
+);
+```
+
+Explanation:
+- The query uses an `INNER JOIN` to combine the `customers` and `sales` tables based on the `customer_id` column.
+- The subquery `(SELECT MAX(purchase_date) FROM sales WHERE customer_id = c.customer_id)` is used to find the maximum (most recent) purchase date for each customer.
+- The outer query selects the relevant columns (`customer_id`, `customer_name`, `purchase_date`, `purchase_amount`) from both tables.
+- The `WHERE` clause filters the results to include only the rows where the purchase date matches the most recent purchase date for each customer.
+
+</details>
+
+<details><summary><b>PostgreSQL</b></summary>
+
+In PostgreSQL, you can use the `DISTINCT ON` clause along with the `ORDER BY` clause to find the most recent purchase from each customer. Here's an example query:
+
+```sql
+SELECT DISTINCT ON (c.customer_id)
+    c.customer_id, c.customer_name, s.purchase_date, s.purchase_amount
+FROM customers c
+INNER JOIN sales s ON c.customer_id = s.customer_id
+ORDER BY c.customer_id, s.purchase_date DESC;
+```
+
+Explanation:
+- The query uses an `INNER JOIN` to combine the `customers` and `sales` tables based on the `customer_id` column.
+- The `DISTINCT ON (c.customer_id)` clause ensures that only the first row with a unique `customer_id` is returned for each customer.
+- The `ORDER BY` clause orders the rows first by `customer_id` and then by `purchase_date` in descending order, so the most recent purchase for each customer appears first.
+- The selected columns (`customer_id`, `customer_name`, `purchase_date`, `purchase_amount`) are returned in the result.
+
+</details>
+</details>
+
+1.  SQL queries, How to filter results and search with conditions
+    
+
+<details><summary><b>Answer</b></summary>
+
+Filtering results and searching with conditions in SQL can be achieved using the `WHERE` clause in combination with various operators and functions. Here's an example:
+
+```sql
+SELECT column1, column2, ...
+FROM your_table
+WHERE condition;
+```
+
+Explanation:
+- Replace `column1, column2, ...` with the actual column names you want to select from the table.
+- Replace `your_table` with the name of your table.
+- Replace `condition` with the specific condition or set of conditions you want to apply to filter the results.
+
+Examples of Conditions:
+- Equality condition: `column = value`
+- Inequality condition: `column <> value`
+- Comparison operators: `<, >, <=, >=`
+- Logical operators: `AND, OR, NOT`
+- Pattern matching using `LIKE`: `column LIKE 'pattern'`
+- Null check: `column IS NULL` or `column IS NOT NULL`
+- Range condition: `column BETWEEN value1 AND value2`
+- List of values: `column IN (value1, value2, ...)`
+
+Here's an example query that demonstrates filtering results based on conditions:
+
+```sql
+SELECT employee_name, salary
+FROM employees
+WHERE department = 'Engineering' AND salary > 50000;
+```
+
+This query selects the `employee_name` and `salary` columns from the `employees` table, filtering the results to include only employees from the Engineering department with a salary greater than 50,000.
+
+Please adjust the column names, table name, and conditions as per your specific requirements.
+
+</details>
+
+1.  how do you create a table/select specific things from that table created  
+
+<details><summary><b>Answer</b></summary>
+
+  SQL Query to Create a Table and Select Specific Data:
+
+
+<details><summary><b>MySQL</b></summary>
+
+To create a table, you can use the `CREATE TABLE` statement in MySQL. Here's an example:
+
+```sql
+CREATE TABLE your_table (
+    column1 datatype1,
+    column2 datatype2,
+    ...
+);
+
+-- Example table creation
+CREATE TABLE students (
+    student_id INT PRIMARY KEY,
+    student_name VARCHAR(50),
+    age INT,
+    address VARCHAR(100)
+);
+
+-- Select specific data from the created table
+SELECT student_name, age
+FROM students;
+```
+
+Explanation:
+The first part of the query demonstrates how to create a table named `your_table` with the specified columns and data types. You can replace `your_table` with the desired table name and define the appropriate columns and data types according to your needs.
+
+The second part shows an example of creating a `students` table with columns `student_id`, `student_name`, `age`, and `address`. The `PRIMARY KEY` constraint is used to define the primary key column.
+
+After creating the table, you can use the `SELECT` statement to query and retrieve specific data from the table. In this example, the query selects the `student_name` and `age` columns from the `students` table.
+
+Please modify the table name, column names, and data types to match your requirements.
+
+</details>
+
+<details><summary><b>PostgreSQL</b></summary>
+
+To create a table and select specific data in PostgreSQL, you can use the `CREATE TABLE` statement followed by the `SELECT` statement. Here's an example:
+
+```sql
+CREATE TABLE your_table (
+    column1 datatype1,
+    column2 datatype2,
+    ...
+);
+
+-- Example table creation
+CREATE TABLE students (
+    student_id SERIAL PRIMARY KEY,
+    student_name VARCHAR(50),
+    age INT,
+    address VARCHAR(100)
+);
+
+-- Select specific data from the created table
+SELECT student_name, age
+FROM students;
+```
+
+Explanation:
+The first part of the query demonstrates how to create a table named `your_table` with the specified columns and data types. Replace `your_table` with the desired table name and define the appropriate columns and data types based on your requirements.
+
+The second part shows an example of creating a `students` table with columns `student_id`, `student_name`, `age`, and `address`. The `SERIAL` data type is used for the `student_id` column, which automatically generates a unique value for each new row. The `PRIMARY KEY` constraint is applied to the `student_id` column.
+
+After creating the table, the `SELECT` statement is used to query and retrieve specific data from the `students` table. In this example, the query selects the `student_name` and `age` columns.
+
+Please adjust the table name, column names, and data types as per your requirements.
+
+</details>
+</details>
+
+55. table 1: student name, student id, address, age. 
 table 2: student rank, score, student id, student row. student name, student age, score, student rank < than 10
 
-56. how do you delete duplicate record with no key or timestamp.
-57. Find the Max and Min amt in columns
-58. get the amount for each month if each. 1 column for each 
-month the rest are null."
 
-59. Find duplicates in a table using sql?
+<details><summary><b>Answer</b></summary>
+
+SQL Query to Join Tables and Filter by Student Rank:
+
+```sql
+SELECT t1.student_name, t1.student_id, t1.address, t1.age, t2.student_rank, t2.score
+FROM table1 t1
+JOIN table2 t2 ON t1.student_id = t2.student_id
+WHERE t2.student_rank < 10;
+```
+
+Explanation:
+This MySQL query performs an inner join between `table1` and `table2` based on the common column `student_id`. It selects the columns `student_name`, `student_id`, `address`, `age`, `student_rank`, and `score` from both tables. The `WHERE` clause filters the result to include only those students whose `student_rank` is less than 10.
+
+Please replace `table1` and `table2` with the actual names of your tables, and adjust the column names (`student_name`, `student_id`, `address`, `age`, `student_rank`, `score`) as per your table structure.
+
+</details>
+
+
+56.    how do you delete duplicate record with no key or timestamp.
+    
+<details><summary>Answer</summary>
+
+<blockquote>
+
+To delete duplicate records when you don't have a key or timestamp to uniquely identify them, you can use a combination of temporary tables and self-joins. Here's an example of how you can approach this:
+
+```sql
+-- Step 1: Create a temporary table with a unique identifier
+CREATE TEMPORARY TABLE temp_table AS
+SELECT *, ROW_NUMBER() OVER (ORDER BY column1, column2) AS row_num
+FROM your_table;
+
+-- Step 2: Identify the duplicate records based on the columns that define duplication
+SELECT column1, column2, COUNT(*) AS duplicate_count
+FROM temp_table
+GROUP BY column1, column2
+HAVING COUNT(*) > 1;
+
+-- Step 3: Delete the duplicate records except for one occurrence
+DELETE FROM your_table
+WHERE (column1, column2) IN (
+    SELECT column1, column2
+    FROM temp_table
+    GROUP BY column1, column2
+    HAVING COUNT(*) > 1
+) AND row_num > 1;
+
+-- Step 4: Drop the temporary table
+DROP TABLE temp_table;
+```
+
+Explanation:
+1. Step 1: Create a temporary table (`temp_table`) that includes all columns from `your_table` and assigns a unique row number to each record using the `ROW_NUMBER()` window function. Adjust the `ORDER BY` clause to define the order of records based on your preference.
+2. Step 2: Identify the duplicate records by grouping the records based on the columns that define duplication (`column1`, `column2`, etc.) and selecting the count of duplicates (`duplicate_count`).
+3. Step 3: Delete the duplicate records from `your_table` by using a subquery with the `IN` operator. The subquery selects the duplicate records based on the same grouping criteria and excludes the first occurrence (`row_num > 1`).
+4. Step 4: Finally, drop the temporary table (`temp_table`).
+
+Note: This approach assumes that the combination of columns used for identifying duplicates is sufficient to determine uniqueness. If you have additional criteria, you can modify the `GROUP BY` clause and the conditions in the `DELETE` statement accordingly.
+
+</blockquote>
+
+</details>
+
+57. Find the Max and Min amt in columns
+
+<details><summary><b>Show Answer</b></summary>
+
+SQL Query to Find the Maximum and Minimum Amounts in a Column:
+
+
+```sql
+SELECT MAX(amount) AS max_amount, MIN(amount) AS min_amount FROM your_table;
+```
+
+Explanation:
+This MySQL query uses the `MAX` and `MIN` aggregate functions to calculate the maximum and minimum values, respectively, in the specified column (`amount`). The `AS` keyword is used to provide aliases `max_amount` and `min_amount` for the resulting columns, representing the maximum and minimum amounts, respectively.
+
+Please replace `your_table` with the actual name of your table.
+
+</details>
+
+1.  get the amount for each month if each. 1 column for each 
+month the rest are null.
+
+<details><summary><b>Answer</b></summary>
+
+
+SQL Query to Get the Amount for Each Month (with Null for Non-Matching Months):
+
+```sql
+SELECT 
+    SUM(CASE WHEN MONTH(transaction_date) = 1 THEN amount ELSE NULL END) AS January,
+    SUM(CASE WHEN MONTH(transaction_date) = 2 THEN amount ELSE NULL END) AS February,
+    SUM(CASE WHEN MONTH(transaction_date) = 3 THEN amount ELSE NULL END) AS March,
+    -- Add more months here as needed
+FROM transactions;
+```
+
+Explanation:
+This MySQL query uses the `SUM` function with conditional statements (`CASE WHEN`) to calculate the sum of the `amount` column for each month. Each month is represented as a separate column in the result. The `CASE WHEN` statement checks the month of the `transaction_date` and returns the `amount` if it matches the respective month, otherwise it returns `NULL`.
+
+</details>
+
+59.  Find duplicates in a table using sql?
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
@@ -1183,9 +1814,39 @@ HAVING COUNT(*) > 1;
 
 ---
 
-60. 
+60. What is SQL command "Merge". 
 
-61. How do you get data from two separate tables in a single query?
+<details><summary><b>Show Answer</b></summary>
+
+SQL Command "MERGE" (also known as UPSERT) is used to perform both INSERT and UPDATE operations on a target table based on a condition specified in the query. It combines the functionality of both INSERT and UPDATE statements into a single statement.
+  
+Let's say we have a target table named `employees` with columns `employee_id`, `name`, and `salary`, and a source table named `employee_updates` with columns `employee_id` and `salary_updates`. We want to update the salary of employees if their records exist in the source table, otherwise, we want to insert a new record.
+
+The MERGE statement would look like this:
+
+```sql
+MERGE INTO employees AS target
+USING employee_updates AS source
+ON (target.employee_id = source.employee_id)
+WHEN MATCHED THEN
+    UPDATE SET target.salary = source.salary_updates
+WHEN NOT MATCHED THEN
+    INSERT (employee_id, name, salary)
+    VALUES (source.employee_id, target.name, source.salary_updates);
+```
+
+In this example, the `MERGE INTO` clause specifies the target table (`employees`) and the `USING` clause specifies the source table (`employee_updates`). The `ON` clause defines the condition for matching rows between the target and source tables.
+
+The `WHEN MATCHED THEN` block specifies the action to be taken when a matching row is found. In this case, it performs an update on the `salary` column of the target table using the value from the `salary_updates` column of the source table.
+
+The `WHEN NOT MATCHED THEN` block specifies the action to be taken when no matching row is found. It inserts a new record into the target table using the values from the source table.
+
+This way, the MERGE statement allows you to handle both INSERT and UPDATE operations in a single query, based on the specified conditions.
+
+</details>
+
+
+61.  How do you get data from two separate tables in a single query?
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
@@ -1685,8 +2346,18 @@ SELECT LENGTH('Infosys') - LENGTH(REPLACE('Infosys', 's', '')) AS num_of_s;
 
 ---
 
+79. Do you know anything about Query optimization or Performance Tuning?
 
 
+<details><summary> <b>Show Answer</b> </summary>
+<blockquote>
 
+Query optimization and performance tuning are techniques used to improve the performance of SQL queries and database systems. The goal is to make queries run faster and more efficiently, leading to improved application performance and user experience. It involves various strategies such as indexing, query rewriting, optimizing join operations, using appropriate data types, and analyzing execution plans to identify bottlenecks and optimize query execution.
+
+</blockquote>
+
+</details>
+
+---
 
 
