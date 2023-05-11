@@ -35,6 +35,7 @@ Explanation: In PostgreSQL, we can find the second highest salary by ordering th
 </blockquote>
 </details>
 
+---
 
 2. Create a number list that contains only unique values while preserving the order of the numbers from another number list. Was encouraged to present alternative approaches if any.
 
@@ -69,6 +70,7 @@ Explanation: In PostgreSQL, we can achieve the same result by using the `GROUP B
 </blockquote>
 </details>
 
+---
 
 3. Take a list and remove duplicates but preserve the order of the unique values.
 
@@ -105,6 +107,7 @@ Explanation: In PostgreSQL, we can achieve the same result by using the `GROUP B
 </details>
 
 
+---
 
 4. How would you remove duplicate values from a table or values that were not duplicates? You cannot use a separate table.
 
@@ -204,6 +207,7 @@ Note: Adjust the table and column names according to your schema.
 </blockquote>
 </details>
 
+---
 
 6. How do you select everything in a table in SQL? 
 
@@ -241,6 +245,7 @@ Explanation:
 
 </details>
 
+---
 
 7. Two tables that can be joined: employees and employee salaries, Return the 3rd highest employee salary.
 
@@ -301,6 +306,8 @@ Note: The assumption here is that the "employee_salaries" table stores the salar
 
 </details>
 
+---
+
 8. Given a table with duplicate data, how would find the duplicate records using SQL? 
 
 <details><summary><b>MySQL</b></summary>
@@ -345,6 +352,8 @@ Explanation:
 
 </details>
 
+---
+
 9. If you wanted to select unique rows from a table in sql how would you go about doing that?
 
 <details><summary><b>MySQL</b></summary>
@@ -376,6 +385,8 @@ Explanation:
 - `*` represents all columns in the table, so this query will select all unique rows with all columns from the table.
 
 </details>
+
+---
 
 10. distinct without using distinct.
 
@@ -414,6 +425,7 @@ The query is the same as the MySQL version. It selects the `column_name` from th
 
 </details>
 
+---
 
 11.  Query to find the most recent purchase from each customer:
 
@@ -466,6 +478,8 @@ The query performs an inner join on the `ID` column between table T1 and table T
 
 </details>
 
+---
+
 13. I have a table with 10 rows and 2 duplicates. How do I find the duplicate rows?   
 
 <details><summary><b>MySQL</b></summary>
@@ -504,6 +518,9 @@ This query is the same as the MySQL version. It selects `col1` and `col2` column
 
 </details>
 
+---
+
+
 14. What is a Subquery?
 
 <details><summary><b>Answer</b></summary>
@@ -527,6 +544,8 @@ WHERE country IN (
 In this query, the subquery `(SELECT country FROM orders WHERE order_date >= '2022-01-01')` retrieves a list of countries that have orders placed after January 1st, 2022. This list is then used by the main query to filter the `customers` table to show only the customers from those countries.
 
 </details>
+
+---
 
 15. How to avoid duplicates in a query?
 
@@ -557,6 +576,8 @@ In this example, the `GROUP BY` clause groups rows by the values in `column1` an
 
 </details>
 
+---
+
 16.   Can you tell me how to create a new Table from another Table, where just the structure of the table is copied but none of the rows? 
 
 <details><summary><b>MySQL</b></summary>
@@ -586,6 +607,8 @@ Explanation:
 This PostgreSQL query creates a new table called `new_table` using the `CREATE TABLE AS SELECT` syntax. The `SELECT` statement selects all columns from the `original_table`. The `WHERE false` condition is always false, which means no rows will be selected. As a result, the new table `new_table` will have the same structure as `original_table`, but without any rows.
 
 </details>
+
+---
 
 
 17. Counting the number of 's' characters in the string "Infosys" using SQL:
@@ -618,6 +641,7 @@ This PostgreSQL query is similar to the MySQL version. It calculates the count o
 
 </details>
 
+---
 
 18. To find duplicate records in a table, you can use the `GROUP BY` and `HAVING` clauses in SQL. Here's an example:
 
@@ -650,6 +674,8 @@ This PostgreSQL query is similar to the MySQL version. It selects `column1` and 
 
 </details>
 
+---
+
 19. A query using the `LIKE` keyword?
 
 <details><summary><b>MySQL</b></summary>
@@ -678,6 +704,8 @@ This PostgreSQL query is the same as the MySQL version. It uses the `LIKE` keywo
 
 </details>
 
+---
+
 20.  Returning both employee tables:
 
 <details><summary><b>MySQL</b></summary>
@@ -705,6 +733,8 @@ Explanation:
 This PostgreSQL query is similar to the MySQL version. It selects all columns from `employee_table1` and combines it with all columns from `employee_table2` using the `UNION` operator. The `UNION` operator removes duplicate rows from the final result set.
 
 </details>
+
+---
 
 21. If you had 2 tables, how would you query all the records unique in the first table all the records that are unique in the second table and then all the records that they have in common.
 
@@ -741,6 +771,7 @@ This PostgreSQL query is a more concise version. It uses the `EXCEPT` operator t
 
 </details>
 
+---
 
 22. Given 4 tables: Members, Checking Accounts (3 types), Savings Account (3 types), Loans(3 types) write a SQL query to find the most popular products along with the number of members who are attached to each product type. 
 
@@ -774,6 +805,8 @@ This query uses left joins to combine the `Members` table with the `Checking_Acc
 </details>
 
 
+---
+
 23.   Insert into Person table
 
 
@@ -793,7 +826,9 @@ Please note that you need to adjust the column names and values based on your sp
 
 </details>
 
-1.   Write out an SQL query to find the most recently updated fields in a table.
+---
+
+24.   Write out an SQL query to find the most recently updated fields in a table.
 
 <details><summary><b>Answer</b></summary>
 
@@ -811,6 +846,8 @@ In this query, `your_table` represents the name of your table. Assuming you have
 
 </details>
 
+---
+
 25. You have a table named Customer with 3 columns - customer_id, name, and country. How would you get all names fro the table?
 
 
@@ -827,6 +864,8 @@ Explanation:
 This MySQL query selects the "name" column from the "Customer" table. It retrieves all the names stored in the table.
 
 </details>
+
+---
 
 26.  You have a table named Customer with 3 columns - customer_id, name, and country. How would youGet all names in acsending order?
 
@@ -846,8 +885,9 @@ This query selects the "name" column from the "Customer" table and uses the ORDE
 </details>
 
 
+---
 
-1.   You have a table named Customer with 3 columns - customer_id, name, and country. How would you get number of countries from each table?
+27.   You have a table named Customer with 3 columns - customer_id, name, and country. How would you get number of countries from each table?
 
 <details><summary><b>Answer</b></summary>
 
@@ -863,6 +903,8 @@ In this query, the `COUNT` function is used to count the number of distinct coun
 
 </details>
 
+---
+
 28.  How do you update a record in SQL?
 
 <details><summary><b>Answer</b></summary>
@@ -877,6 +919,8 @@ Explanation:
 In this example, `table_name` should be replaced with the actual name of the table you want to update. You need to specify the columns you want to update (`column1`, `column2`, ...) and their corresponding new values (`new_value1`, `new_value2`, ...). If you want to update specific records, you can provide a `WHERE` clause with a condition that identifies the target records. This condition can be based on one or more columns in the table.
 
 </details>
+
+---
 
 29.  How would you do a SQL call for employees with a salary over 150K
 
@@ -896,7 +940,9 @@ In this query, `employees` represents the name of the table that stores employee
 
 </details>
 
-1.  How do you select only the uncommon rows in two single column tables where the first x rows have the same value (ie 2 tables: 1 is 20 rows, 1 is 15 rows, each have the same values in the first 15 rows. How do you retrieve the other 5 rows)? Is there another way that isn't the MINUS function?
+---
+
+30.  How do you select only the uncommon rows in two single column tables where the first x rows have the same value (ie 2 tables: 1 is 20 rows, 1 is 15 rows, each have the same values in the first 15 rows. How do you retrieve the other 5 rows)? Is there another way that isn't the MINUS function?
 
 <details><summary><b>Answer</b></summary>
 
@@ -913,6 +959,8 @@ Explanation:
 In this MySQL query, `table1` and `table2` represent the names of the two single-column tables you want to compare. `column_name` should be replaced with the actual column name in your tables. The LEFT JOIN combines the two tables based on the common column values. The WHERE clause filters the result to include only those rows where the value in `column_name` from `table2` is NULL, indicating that the row is not present in `table2`.
 
 </details>
+
+---
 
 31.  Write a query to select all people living in a specific city from the tables you created.
 
@@ -936,7 +984,9 @@ In this MySQL query, we join the `Persons` and `Addresses` tables using the `per
 
 </details>
 
-1.    What can I use to speed up a specific query in SQL?
+---
+
+32.    What can I use to speed up a specific query in SQL?
 
 <details><summary><b>Answer</b></summary>
 
@@ -958,6 +1008,8 @@ There are several ways to speed up a specific query in SQL:
 7. Use stored procedures: Using stored procedures can speed up queries by reducing network traffic and optimizing the way data is retrieved from the database.
 
 </details>
+
+---
 
 33.  how to manage a limitation in my program that only manages 100 objects whilst having a 1000 in my database.
 
@@ -995,6 +1047,8 @@ By implementing pagination or limiting the result set, you can effectively manag
 
 </details>
 
+---
+
 34.  How to find common records in two tables ?
 
 <details><summary><b>Answer</b></summary>
@@ -1014,6 +1068,8 @@ The `JOIN` operation combines the rows from both tables based on matching values
 
 </details>
 
+---
+
 35.   How to find min and max of a salary column?
 
 <details><summary><b>Answer</b></summary>
@@ -1029,6 +1085,8 @@ Explanation:
 In this query, replace `your_table` with the actual name of the table you're working with. The MIN() function returns the minimum value of the salary column, and the MAX() function returns the maximum value. The AS keyword is used to assign aliases to the result columns, `min_salary` and `max_salary`, respectively.
 
 </details>
+
+---
 
 36.   If you had an id column like 1,2,3,4,5,... how would you return the records with odd ID's
 
@@ -1046,6 +1104,8 @@ Explanation:
 In this MySQL query, replace `your_table` with the actual name of the table you're working with, and `id` with the actual name of the ID column. The condition `id % 2 = 1` checks if the ID value is odd. The modulo operator `%` returns the remainder when the ID is divided by 2. If the remainder is 1, it indicates an odd ID.
 
 </details>
+
+---
 
 37.  How do you select top 10 employees with highest salary in table?
 
@@ -1066,6 +1126,8 @@ In this query, `employees` represents the name of the table containing employee 
 This query will work for both MySQL and PostgreSQL databases as the syntax is the same.
 
 </details>
+
+---
 
 38. How would you get the individual transactions and the total transaction amount over the course of a month for a customer from a Customers table and a Transactions table?
 
@@ -1089,6 +1151,8 @@ The query joins the Customers and Transactions tables based on the customer_id c
 This query can be used in both MySQL and PostgreSQL databases as the syntax is the same.
 
 </details>
+
+---
 
 39.  how to delete duplicates in SQL?
 
@@ -1127,6 +1191,8 @@ Explanation:
 This PostgreSQL query deletes the duplicate rows from the `your_table`. Replace `your_table` with the actual name of the table, and `column1, column2, ...` with the column names that define the duplicates. The subquery checks for the existence of rows with the same values in the specified columns, but with a lower `ctid` (the internal identifier of each row). This ensures that only duplicates are deleted, keeping one copy of each unique row.
 
 </details>
+
+---
 
 40.  "on SQL code challenge: given two tables """"employee"""" and """"sale_details"""", ask to
 -  present the employee who have sold nothing.  
@@ -1186,6 +1252,8 @@ Note: If there are multiple employees with the same highest sales amount, this q
 
 </details>
 
+---
+
 41.   SQL coding challenge: you are given some tables, select employee name for employee who has salary over 30,000 and is in the engineering department?
 
 SQL Coding Challenge: Given some tables, select the employee name for employees who have a salary over 30,000 and are in the engineering department.
@@ -1221,6 +1289,8 @@ This PostgreSQL query is the same as the MySQL version. It joins the "employee" 
 </details>
 </details>
 
+---
+
 42.    write sql query to update the table
 
 <details><summary><b>Answer</b></summary>
@@ -1239,6 +1309,8 @@ This MySQL query updates the specified columns (`column1`, `column2`, etc.) in t
 Please replace `your_table` with the actual name of your table, and modify the column names, new values, and conditions as per your requirements.
 
 </details>
+
+---
     
 43.     SQL Join query to combine two employee tables where salary was between 5000 and 8000
   
@@ -1260,6 +1332,8 @@ This MySQL query performs an inner join between `employee_table1` and `employee_
 Please replace `employee_table1` and `employee_table2` with the actual names of your employee tables, and adjust the column names (`employee_id`, `salary`) as per your table structure.
 
 </details>
+
+---
 
 
 44. How would you write a query to get employee's name from an employees table with an id of 123?
@@ -1293,6 +1367,8 @@ This query will retrieve the name of the employee with ID 123 from the employees
 Adjust the table name, column names, and ID value as per your specific table structure and requirements.
 
 </details>
+
+---
 
 45.  How would you get the department an employee is in given this employee table and department table? 
     -Employee table columns: id, name, department_name
@@ -1332,7 +1408,9 @@ Adjust the table names, column names, and conditions as per your specific table 
 
 </details>
 
-1.   How to do a left join
+---
+
+46.   How to do a left join
 
 <details><summary><b>Answer</b></summary>
 
@@ -1362,6 +1440,8 @@ This query selects the `order_id` and `order_date` columns from the `orders` tab
 Adjust the table names, column names, and join conditions as per your specific table structure and requirements.
 
 </details>
+
+---
 
 47.  How do you sort data after it has been pulled from a database?
 
@@ -1395,6 +1475,8 @@ Adjust the table name, column names, and sorting criteria as per your specific t
 
 </details>
 
+---
+
 48.  how to change an entry to null in sql
 
 <details><summary><b>Answer</b></summary>
@@ -1426,6 +1508,8 @@ Make sure to adjust the table name, column name, and condition as per your speci
 
 </details>
 
+---
+
 49.  Group by department and put the 1st/last name of the employees in that department in a single cell
 
 <details><summary><b>Answer</b></summary>
@@ -1448,6 +1532,8 @@ Explanation:
 Adjust the table name, column names, and aliases as per your specific table structure and requirements.
 
 </details>
+
+---
 
 50.  Two tables that can be joined: employees and employee salaries, 
 Return the 3rd highest employee salary.
@@ -1475,6 +1561,8 @@ Please note that this query assumes that the `employee_salaries` table contains 
 Adjust the table names, column names, and `LIMIT` and `OFFSET` values as per your specific table structure and requirements.
 
 </details>
+
+---
 
 51.  How to find common records in two tables
 
@@ -1511,6 +1599,7 @@ Adjust the column names, table names, and common column as per your specific sce
 
 </details>
 
+---
 
 
 52.  Write a SQL query where we combine a customers table and sales table to find the most recent purchase from each customer?
@@ -1561,7 +1650,9 @@ Explanation:
 </details>
 </details>
 
-1.  SQL queries, How to filter results and search with conditions
+---
+
+53.  SQL queries, How to filter results and search with conditions
     
 
 <details><summary><b>Answer</b></summary>
@@ -1603,7 +1694,9 @@ Please adjust the column names, table name, and conditions as per your specific 
 
 </details>
 
-1.  how do you create a table/select specific things from that table created  
+---
+
+54.  how do you create a table/select specific things from that table created  
 
 <details><summary><b>Answer</b></summary>
 
@@ -1681,6 +1774,8 @@ Please adjust the table name, column names, and data types as per your requireme
 </details>
 </details>
 
+---
+
 55. table 1: student name, student id, address, age. 
 table 2: student rank, score, student id, student row. student name, student age, score, student rank < than 10
 
@@ -1703,6 +1798,7 @@ Please replace `table1` and `table2` with the actual names of your tables, and a
 
 </details>
 
+---
 
 56.    how do you delete duplicate record with no key or timestamp.
     
@@ -1749,6 +1845,8 @@ Note: This approach assumes that the combination of columns used for identifying
 
 </details>
 
+---
+
 57. Find the Max and Min amt in columns
 
 <details><summary><b>Show Answer</b></summary>
@@ -1767,7 +1865,9 @@ Please replace `your_table` with the actual name of your table.
 
 </details>
 
-1.  get the amount for each month if each. 1 column for each 
+---
+
+58.  get the amount for each month if each. 1 column for each 
 month the rest are null.
 
 <details><summary><b>Answer</b></summary>
@@ -1788,6 +1888,8 @@ Explanation:
 This MySQL query uses the `SUM` function with conditional statements (`CASE WHEN`) to calculate the sum of the `amount` column for each month. Each month is represented as a separate column in the result. The `CASE WHEN` statement checks the month of the `transaction_date` and returns the `amount` if it matches the respective month, otherwise it returns `NULL`.
 
 </details>
+
+---
 
 59.  Find duplicates in a table using sql?
 
