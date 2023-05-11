@@ -174,6 +174,8 @@ In this example, we create a connection string using the Psycopg2 library, which
 
 </details>
 
+---
+
 2. What is a relational database?
 
 <details><summary><b> Show Answer</b></summary>
