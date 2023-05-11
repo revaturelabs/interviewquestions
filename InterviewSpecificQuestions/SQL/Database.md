@@ -569,6 +569,8 @@ There are several types of databases, each designed to handle specific data stor
 
 </details>
 
+---
+
 23. What is OLTP and OLAP?
 
 <details><summary> <b>Show Answer</b> </summary>
