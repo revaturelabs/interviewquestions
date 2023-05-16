@@ -998,6 +998,8 @@ In the above example  the "case" keyword is used to define a specific case or co
 
 </details>
 
+---
+
 57. What is a primitive data type?
 
 <details><summary><b> Show Answer</b></summary> 
@@ -1009,6 +1011,8 @@ In Java, a primitive data type is a data type that is not an object and has no m
 </blockquote> 
 
 </details>
+
+---
 
 58.  List any primitives you know
 <details><summary><b> Show Answer</b></summary> 
@@ -1029,6 +1033,8 @@ Here are some examples of primitive data types in Java:
 
 </details>
 
+---
+
 59. What is the difference between float and double? (Why do we use these two data types?)
 <details><summary><b> Show Answer</b></summary> 
 
@@ -1045,6 +1051,7 @@ Double is generally used when more precision is needed, such as in scientific ca
 
 </details>
 
+---
 
 60. Why do we use public and private access modifiers.
 
@@ -1100,20 +1107,6 @@ The object class have methods like:
 <blockquote>
 
 The superclass of all Java classes is the `Object` class. So, all classes in Java inherit the methods defined in the Object class, such as `toString()`, `equals()`, and `hashCode()`.
-
-</blockquote>
-
-</details>
-
----
-
-25. Volatile keywords?
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-The `volatile` keyword in Java is used to indicate that a variable's value may be modified by multiple threads at the same time. Without the `volatile` keyword, different threads may create their own copy of that variable which will contain a different value for a different thread. This can lead to incorrect results. The `volatile` keyword helps to prevent this by forcing threads to always read the variable's value from main memory, rather than from a cached copy.
 
 </blockquote>
 
@@ -1330,6 +1323,8 @@ This creates an array called `arr` with four integer values, and a target value 
 
 </details>
 
+---
+
 74. Are you able to store integers in an array?
 
 <details><summary><b> Show Answer</b></summary>
@@ -1349,6 +1344,8 @@ This creates an array called `numbers` that contains five integer values.
 </blockquote>
 
 </details>
+
+---
 
 75. What are annotations and what are they good for?
 
@@ -1931,6 +1928,20 @@ The code has a syntax error in the main method where the object obj is being dec
 <blockquote>
 
 In Java, strings are stored in the heap memory. This is because a String object is created dynamically using the new keyword or through string literals, which results in the allocation of memory on the heap. However, string literals that are created at compile-time are stored in a separate area called the String constant pool, which is part of the heap memory.
+
+</blockquote>
+
+</details>
+
+---
+
+95. Volatile keywords?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The `volatile` keyword in Java is used to indicate that a variable's value may be modified by multiple threads at the same time. Without the `volatile` keyword, different threads may create their own copy of that variable which will contain a different value for a different thread. This can lead to incorrect results. The `volatile` keyword helps to prevent this by forcing threads to always read the variable's value from main memory, rather than from a cached copy.
 
 </blockquote>
 
