@@ -1562,6 +1562,8 @@ This creates an `ArrayList` called `list` and adds three string values to it. It
 </blockquote>
 </details>
 
+---
+
 88. What are the properties of an ArrayList?
 
 <details><summary><b> Show Answer</b></b></summary>
@@ -1577,6 +1579,8 @@ This creates an `ArrayList` called `list` and adds three string values to it. It
 </blockquote>
 </details>
 
+---
+	
 89. Arrays vs ArrayList.
 
 <details><summary><b> Show Answer</b></summary>
