@@ -1,6 +1,6 @@
 1.	What is Design Pattern? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 
 <details><summary><b> Show Answer</b></summary>
 <blockquote>
@@ -15,7 +15,7 @@
 ---
 2. What is DAO?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -36,7 +36,6 @@ The following are the components of the DAO Pattern.
 
 3. What is a singleton pattern?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -59,7 +58,6 @@ If your code has access to the Singleton class, then it’s able to call Singlet
 
 4. Describe the SOLID Principles.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -80,7 +78,6 @@ If your code has access to the Singleton class, then it’s able to call Singlet
 
 5. How are design principles different from design patterns?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -98,7 +95,6 @@ If your code has access to the Singleton class, then it’s able to call Singlet
 
 6. Explain  Factory Design Pattern with an example?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -193,7 +189,6 @@ For example, Let’s consider 3 classes Square, Rectangle, and Triangle. We will
 
 7. Explain the MVC design pattern?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
