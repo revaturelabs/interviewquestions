@@ -406,6 +406,8 @@ To protect a branch in Git, you can set up branch protection policies. Some comm
 
 </details>
 
+---
+
 22. How would you avoid overriding main code (Git)?
 
 <details><summary><b> Show Answer</b></summary> 
