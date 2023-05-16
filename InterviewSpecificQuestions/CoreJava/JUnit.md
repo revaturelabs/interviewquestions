@@ -2,8 +2,6 @@
 
 1. What is JUnit?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -15,8 +13,6 @@ JUnit helps to test individual pieces of code, or “units,” to ensure that th
 ---
 
 2. What are the important features of JUnit?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -37,8 +33,6 @@ JUnit helps to test individual pieces of code, or “units,” to ensure that th
 
 3.  What do you understand by testing and unit testing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -50,8 +44,6 @@ Testing is the process of checking whether the application fulfills the requirem
 ---
 
 4. What Is A JUnit Test Case?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -65,8 +57,6 @@ A JUnit test case is a test case written using the JUnit testing framework. JUni
 
 5. Define automated testing in the context of JUnit?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -79,7 +69,6 @@ Automated testing in JUnit is that type of testing where one has the option to t
 
 6. What do you mean by Unit Testing in JUnit?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -94,7 +83,6 @@ Unit testing is also regarded as the assessment of a single entity or class. We 
 
 7. Define JUnit in today’s context of evolving technologies?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -108,8 +96,6 @@ JUnit is extensively used by developers to carry out unit testing in Java. Moreo
 
 8. When are the unit tests about JUnit written in Developmental Cycle?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -121,8 +107,6 @@ The unit tests are written before the development of the application. It is so b
 ---
 
 9. Shed light on the variety of JUnit classes and make a proper list of them?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -140,9 +124,6 @@ The JUnit classes are essential classes that are usually utilized in testing and
 ---
 
 10. What are the tools with the help of which JUnit can be easily integrated?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -159,8 +140,6 @@ There are mainly three types of tools that play a pivotal role in the integratio
 
 11. Do you have to write a test case for every logic?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -173,8 +152,6 @@ There are mainly three types of tools that play a pivotal role in the integratio
 ---
 
 12. How do you write a JUnit test case?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -192,8 +169,6 @@ We have to
 
 13. How do you run a JUnit test case?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -205,8 +180,6 @@ Assuming already we have a JUnit test case written, we can run it by opening it 
 ---
 
 14. What are the critical fixtures of JUnit?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -225,8 +198,6 @@ The JUnit test framework is associated with the providence of these critical fea
 
 15. What do you know about Test Suite?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -239,8 +210,6 @@ Test suite means bundling a few unit test cases and running them together. In JU
 
 16. How do you test the `protected` and `private` methods?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -252,8 +221,6 @@ In the `protected` method, the test class and target class are declared in the s
 ---
 
 17. What do you understand by JUnit classes? List some of Junit’s classes.
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -272,8 +239,6 @@ JUnit classes are those classes that are used in writing and testing JUnit progr
 
 18.  What is JUnit Test Fixture?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -289,8 +254,6 @@ The fixture is a fixed state of a set of objects used as a baseline for running 
 
 19. How do you install JUnit?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -304,8 +267,6 @@ Next, we would test the installation. This would involve running sample tests (l
 ---
 
 20. Name some JUnit extensions?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -324,8 +285,6 @@ Following are some of the JUnit extensions
 
 21. What are the methods in fixtures?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -339,8 +298,6 @@ Following are some of the JUnit extensions
 
 22. What is `@Test` and where it’s used?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -352,8 +309,6 @@ Following are some of the JUnit extensions
 ---
 
 23. Why JUnit only reports the first failure in a single attempt?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -367,8 +322,6 @@ Reporting multiple failures in a single test is generally a sign that the test d
 
 24. What is a JUnit parameterized test?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -380,8 +333,6 @@ The parameterized test is a new feature introduced in JUnit 4. It provides the f
 ---
 
 25. What are Annotations and how are they are useful in JUnit?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -395,8 +346,6 @@ Annotations are like meta-tags that you can add to your code and apply  to metho
 
 26. In Java, `Assert` is a keyword. Won't this conflict with JUnit's `Assert()` Method?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -409,8 +358,6 @@ JUnit 3.7 deprecated `assert()` and replaced it with `assertTrue()`, which works
 
 27. Why not just use `System.out.println()` for testing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -422,8 +369,6 @@ Debugging the code using `System.out.println()` will lead to manual scanning of 
 ---
 
 28. How will you run JUnit 5 test?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -439,8 +384,6 @@ Debugging the code using `System.out.println()` will lead to manual scanning of 
 
 29. What is the purpose of `org.JUnit.jupiter.api.Assertions` class?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -452,8 +395,6 @@ This class provides a set of assertion methods useful for writing tests. Only fa
 ---
 
 30. What is the purpose of `org.JUnit.testresult` Class?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -467,8 +408,6 @@ A TestResult collects the results of executing a test case. It is an instance of
 
 31. What is the purpose of `org.JUnit.testsuite` Class?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -481,8 +420,6 @@ A TestSuite is a composite of tests. It runs a collection of test cases.
 
 32.  What is the purpose of `@BeforeEach` Annotation In JUnit?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -494,8 +431,6 @@ Several tests need similar objects created before they can run. Annotating a pub
 ---
 
 33.  What is the purpose of `@AfterAll` annotation in JUnit?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -515,8 +450,6 @@ If you allocate external resources in a Before method you need to release them a
 
 34. What is the purpose of `@BeforeAll` annotation in JUnit?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -535,8 +468,6 @@ Annotating a public static void method with `@BeforeAll` causes it to be run onc
 
 35. What is the purpose of `assertTrue()` and `assertFalse()` in JUnit?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -549,8 +480,6 @@ Similarly, `assertFalse()` asserts that supplied condition is false.
 ---
 
 36. What is the `@Disable` annotation and how is this useful?
-
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -576,8 +505,6 @@ void testCalcTwo()
 
 37. Explain the execution procedure of the JUnit test API methods?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -599,8 +526,6 @@ Following is how the JUnit execution procedure works −
 
 38. What is the purpose of `org.JUnit.JUnitcore` Class?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -612,8 +537,6 @@ The test cases are executed using JUnitCore class. JUnitCore is a facade for run
 ---
 
 39. How to simulate a timeout situation In JUnit?
-
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -627,8 +550,6 @@ JUnit provides a handy option for Timeout. If a test case takes more time than t
 
 40. How can you use JUnit to test that the code throws desired exception?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -640,8 +561,6 @@ JUnit provides an option for tracing the Exception handling of code. You can tes
 ---
 
 41.  How to create parameterized tests?
-
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -680,8 +599,6 @@ arg => 10<br>
 
 42. How to compile a JUnit Test Class?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -693,8 +610,6 @@ Compiling a JUnit test class is like compiling any other Java class. The only th
 ---
 
 43. What happens if a JUnit test method is declared as "private"?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -708,8 +623,6 @@ If a JUnit test method is declared as "private", it compiles successfully. But t
 
 44. Can you use a `main()` method for Unit testing?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -721,8 +634,6 @@ Yes we can test using `main()` method. One obvious advantage seems to be that we
 ---
 
 45. Do you need to write a Test Class for every class that needs to be tested?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -736,9 +647,6 @@ No. We need not write an independent test class for every class that needs to be
 
 46. Can we change the return type of the JUnit test method from void to some other type?
 
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -751,8 +659,6 @@ Ideally, we should not do that. All the JUnit test methods have a void return ty
 
 47. When you should run the JUnit test, Is there any particular time interval between each run?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -764,8 +670,6 @@ No there is no time constraint. A JUnit test needs to run whenever there is a ch
 ---
 
 48. What is the annotation we have in JUnit 5 as a replacement for @Rule in JUnit 4?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -782,8 +686,6 @@ No there is no time constraint. A JUnit test needs to run whenever there is a ch
 
 49. What does the `@TestFactory` annotation do?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -796,8 +698,6 @@ No there is no time constraint. A JUnit test needs to run whenever there is a ch
 ---
 
 50. Mention different methods of exception handling in JUnit?
-
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -816,8 +716,6 @@ There are different methods of exception handling in JUnit
 ---
 
 51. Explain who should use JUnit – a developer or a tester? Why do you use JUnit to test your code?
-
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -839,8 +737,6 @@ JUnit is used because:
 
 52. What `assert()` does in JUnit?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -853,8 +749,6 @@ JUnit is used because:
 
 53. Differentiate TDD and BDD?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -866,8 +760,6 @@ The key difference is the scope. TDD is a development practice while BDD is a te
 ---
 
 54. Why do we need Unit testing?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -883,8 +775,6 @@ The key difference is the scope. TDD is a development practice while BDD is a te
 ---
 
 55. What is the purpose of Assumptions in JUnit5? 
-
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -923,8 +813,6 @@ void testOnProd()
 
 56. Can we have Non-Public test methods in JUnit 5?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -937,8 +825,6 @@ void testOnProd()
 ---
 
 57. What is the purpose of the `@RepeatedTest` annotation in JUnit 5?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
