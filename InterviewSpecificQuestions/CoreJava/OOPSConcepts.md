@@ -626,7 +626,6 @@ It’s called only once for an object automatically at the time of object creati
 
 31. How can we stop inheriting a class from other class in Java?
 
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -650,7 +649,6 @@ public Final Class Stone {
 
 32. Can we use a default constructor of a class even if an explicit constructor is defined?
 
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -666,7 +664,6 @@ No. Java provides a default no argument constructor if no explicit constructor i
 
 33. Is it possible to change the value of any variable defined in the class implementing an interface?
 
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
  
 <details><summary> Show Answer </summary>
@@ -683,7 +680,6 @@ No, we can’t change the value of any variable of an interface in the implement
 
 34. What part of memory (Stack/Heap) is cleaned in garbage collection process?
 
- ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
  
 <details><summary> Show Answer </summary>
