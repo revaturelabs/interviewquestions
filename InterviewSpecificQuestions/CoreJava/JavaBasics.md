@@ -2,8 +2,6 @@
 
 1. What is Java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details>
   <summary> <b>Show Answer</b></summary>
 <blockquote>
@@ -16,8 +14,6 @@ Java is one of the most popular high level programming languages. For example, i
 --- 
 
 2. What is the JDK?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -38,8 +34,6 @@ Java is one of the most popular high level programming languages. For example, i
 
 3. What is the JRE?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details>
   <summary> <b>Show Answer</b></summary>
   
@@ -57,8 +51,6 @@ Java is one of the most popular high level programming languages. For example, i
 
 4. What is JVM?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details>
   <summary> <b>Show Answer</b></summary>
   
@@ -73,8 +65,6 @@ Java is one of the most popular high level programming languages. For example, i
 --- 
 
 5. What is the difference between JDK, JVM, & JRE?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -94,8 +84,6 @@ Java is one of the most popular high level programming languages. For example, i
 --- 
 
 6. What are the types of access modifiers? Which one is more protective?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -118,8 +106,6 @@ Private is more protective. When the methods or data members declared as private
 
 7. Tell us about non-access modifiers
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details>
   <summary> <b>Show Answer</b></summary>
   
@@ -139,8 +125,6 @@ Non-access modifiers define the behavior of the entities to the JVM, used with c
 
 8. Brief us on Java Memory (or) How many memories are there in Java and what are they used for?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details>
   <summary> <b>Show Answer</b></summary>
   
@@ -158,8 +142,6 @@ There are two kinds of memory used in Java:
 
 9. What is garbage collection?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details>
   <summary> <b>Show Answer</b></summary>
   
@@ -174,8 +156,6 @@ There are two kinds of memory used in Java:
 
 10. Where are objects stored? (or) When an object is instantiated where is it stored?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details>
   <summary> <b>Show Answer</b></summary>
   
@@ -189,8 +169,6 @@ Whenever an object is created, it's always stored in the Heap memory and stack m
 --- 
 
 11. What is local scope?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
 
@@ -220,8 +198,6 @@ public class Test {
 
 12. What is the difference between local scope and instance scope?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details>
   <summary> <b>Show Answer</b></summary>
   
@@ -240,7 +216,6 @@ public class Test {
 
 13. What are the different scopes in java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -260,7 +235,6 @@ Variables can be defined as having one of three types of scope:
 
 14. What is static in Java?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -281,7 +255,6 @@ Variables can be defined as having one of three types of scope:
 
 15. What does the Final keyword mean for Variables, Methods, and Classes?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -311,8 +284,6 @@ Final Class     ---> Prevents Inheritance
 
 16. Explain each of the parts of `public static void main (String[] args)`
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details>
   <summary> <b>Show Answer</b></summary>
   
@@ -333,8 +304,6 @@ Final Class     ---> Prevents Inheritance
 
 17. What happens if you don’t make the main method static?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
 <details>
   <summary> <b>Show Answer</b></summary>
   
@@ -348,8 +317,6 @@ If the main method won't be static, JVM would not be able to call it because the
 --- 
 
 18. What is the difference between a Heap and a Stack?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -370,8 +337,6 @@ If the main method won't be static, JVM would not be able to call it because the
 
 19. Does the program run if we give `static public void main`?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-
 <details><summary><b> Show Answer </b></summary>
 
 <blockquote>
@@ -386,8 +351,6 @@ Yes, the program will execute successfully.  Because, in Java, there is no speci
 ---
 
 20. Differentiate between `System. Out`, `System. Err`, and `System.in`?
-
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer </b></summary>
 
@@ -408,8 +371,6 @@ keyboard.
 ---
 
 21. Can a static method access non-static variables or methods? 
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -1037,6 +998,8 @@ In the above example  the "case" keyword is used to define a specific case or co
 
 </details>
 
+---
+
 57. What is a primitive data type?
 
 <details><summary><b> Show Answer</b></summary> 
@@ -1048,6 +1011,8 @@ In Java, a primitive data type is a data type that is not an object and has no m
 </blockquote> 
 
 </details>
+
+---
 
 58.  List any primitives you know
 <details><summary><b> Show Answer</b></summary> 
@@ -1068,6 +1033,8 @@ Here are some examples of primitive data types in Java:
 
 </details>
 
+---
+
 59. What is the difference between float and double? (Why do we use these two data types?)
 <details><summary><b> Show Answer</b></summary> 
 
@@ -1084,6 +1051,7 @@ Double is generally used when more precision is needed, such as in scientific ca
 
 </details>
 
+---
 
 60. Why do we use public and private access modifiers.
 
@@ -1139,20 +1107,6 @@ The object class have methods like:
 <blockquote>
 
 The superclass of all Java classes is the `Object` class. So, all classes in Java inherit the methods defined in the Object class, such as `toString()`, `equals()`, and `hashCode()`.
-
-</blockquote>
-
-</details>
-
----
-
-25. Volatile keywords?
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-The `volatile` keyword in Java is used to indicate that a variable's value may be modified by multiple threads at the same time. Without the `volatile` keyword, different threads may create their own copy of that variable which will contain a different value for a different thread. This can lead to incorrect results. The `volatile` keyword helps to prevent this by forcing threads to always read the variable's value from main memory, rather than from a cached copy.
 
 </blockquote>
 
@@ -1369,6 +1323,8 @@ This creates an array called `arr` with four integer values, and a target value 
 
 </details>
 
+---
+
 74. Are you able to store integers in an array?
 
 <details><summary><b> Show Answer</b></summary>
@@ -1388,6 +1344,8 @@ This creates an array called `numbers` that contains five integer values.
 </blockquote>
 
 </details>
+
+---
 
 75. What are annotations and what are they good for?
 
@@ -1970,6 +1928,20 @@ The code has a syntax error in the main method where the object obj is being dec
 <blockquote>
 
 In Java, strings are stored in the heap memory. This is because a String object is created dynamically using the new keyword or through string literals, which results in the allocation of memory on the heap. However, string literals that are created at compile-time are stored in a separate area called the String constant pool, which is part of the heap memory.
+
+</blockquote>
+
+</details>
+
+---
+
+95. Volatile keywords?
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+The `volatile` keyword in Java is used to indicate that a variable's value may be modified by multiple threads at the same time. Without the `volatile` keyword, different threads may create their own copy of that variable which will contain a different value for a different thread. This can lead to incorrect results. The `volatile` keyword helps to prevent this by forcing threads to always read the variable's value from main memory, rather than from a cached copy.
 
 </blockquote>
 
