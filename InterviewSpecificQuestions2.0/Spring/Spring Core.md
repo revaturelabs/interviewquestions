@@ -2,7 +2,7 @@
 
 1. What are Spring Beans?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -18,7 +18,7 @@
 ---
 2. How do you decide whether to create `Singleton` bean or `Prototype` bean in application?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Intermediate ](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -40,7 +40,7 @@ Spring does not manage the complete lifecycle of a prototype bean.
 
 3. When do you use `Session` and `Request` bean in Spring?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -59,7 +59,7 @@ Spring does not manage the complete lifecycle of a prototype bean.
 
 4. How an IOC container is configured in a spring console based application?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Intermediate ](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -213,7 +213,7 @@ public class App {
 
 5. How to decide upon choosing BeanFactory or ApplicationContext in Spring application?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -237,7 +237,7 @@ public class App {
 
 6. What are the ways through which the Spring beans are configured?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Intermediate ](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
     
@@ -301,7 +301,7 @@ public class App {
 ---
 7. How Spring supports connection pooling? Elaborate what is connection pooling?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
     
@@ -397,7 +397,7 @@ public class App {
 
 8. What is usual cause of `org.springframework.beans.factory.NoUniqueBeanDefinitionException`?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -446,7 +446,7 @@ public class App {
 ---
 9. Have you configured Init & Destroy spring bean lifecycle hooks? 
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Intermediate ](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -529,7 +529,7 @@ public class MainApp {
 ---
 10. How do you decide as developer to choose among `.properties` or `.yaml` configuration file in Spring Boot application? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -569,7 +569,7 @@ management:
 ---
 11. Can we achieve DI with Core Java without using Spring framework?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -587,7 +587,7 @@ management:
 
 12. Brief us on Spring Framework.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -603,7 +603,7 @@ The Spring Framework is a Java platform that provides comprehensive infrastructu
 
 13. What is Dependency Injection? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -617,9 +617,9 @@ Dependency Injection (DI) is a design pattern that removes the dependency from t
 
 ---
 
-14. How many types of spring beans are there? 
+14. Explain the different Bean scopes?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -638,3 +638,110 @@ There are 5 types of bean scope in Spring :-
 </details>
 
 ---
+
+15. What are the different types of Dependency Injection in Spring?
+
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+There are three types of Dependency Injection in Spring:
+- **Constructor Injection:** Dependencies are injected through the class constructor.
+- **Setter Injection:** Dependencies are injected using setter methods.
+- **Field Injection:** Dependencies are injected directly into class fields.
+
+</blockquote>
+
+</details>
+
+---
+
+16. What is IOC and what does the IOC Container do?
+
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- IOC in Spring is a design pattern and a way of implementing the Inversion of Control principle. 
+- It allows the Spring container (IOC container) to take control of managing object creation and their dependencies. Instead of objects creating and managing their dependencies directly, the dependencies are provided or injected into the objects by the container.
+
+
+</blockquote>
+
+</details>
+
+---
+
+17.  List some stereotype annotations.
+
+![Advance](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- **@Component:** This annotation is a generic stereotype for any Spring-managed component. It serves as a base annotation for more specific stereotype annotations and can be used to mark any class as a Spring component.
+
+- **@Repository:** This annotation is used to indicate that a class is a repository or data access object (DAO). It is typically used for classes that interact with a database or other persistent storage.
+
+- **@Service:** This annotation is used to mark a class as a service component. It represents the business logic layer of the application and is often used to encapsulate and handle complex business operations.
+
+- **@Controller:** This annotation is used to mark a class as a controller component in a Spring MVC application. It handles incoming HTTP requests, performs request processing, and returns responses to the client.
+
+
+
+</blockquote>
+
+</details>
+
+---
+
+18. What is @configuration and @bean in spring?
+
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- **@Configuration**
+The @Configuration annotation is used to mark a class as a configuration class in Spring. It indicates that the class contains bean definitions and other application-wide configuration settings.
+- **@Bean:**
+The @Bean annotation is used to declare a method as a producer of a bean within a Spring configuration class. It indicates that the method returns a bean instance that should be managed by the Spring container.
+
+</blockquote>
+
+</details>
+
+---
+
+19.What is @Value used for?
+
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- @Value annotation is used to assign default values to variables and method argument
+- We can read spring environment variables as well as system variables using @Value annotation. 
+
+</blockquote>
+
+</details>
+
+---
+
+20. What is bean wiring?
+
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- bean wiring is the process of connecting or establishing dependencies between beans. It involves configuring the relationships between different beans so that they can collaborate and work together.

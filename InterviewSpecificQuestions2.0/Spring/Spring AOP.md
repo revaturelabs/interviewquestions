@@ -1,6 +1,6 @@
 ## Technical
 
-1. Is there difference between Object Oriented Programming (OOP) and Aspect-Oriented Programming (AOP)?
+1. what is the difference between Object Oriented Programming (OOP) and Aspect-Oriented Programming (AOP)?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -17,7 +17,7 @@
 </details>
 
 ---
-2. Why we need to use AspectJ in Spring application?
+2. Why do we use AspectJ in Spring application?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
