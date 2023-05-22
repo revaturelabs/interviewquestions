@@ -1,6 +1,6 @@
 ## Technical
 
-1. What is `Agile`?
+1. What is Agile software development and why is it beneficial?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -8,15 +8,16 @@
 
 <blockquote> 
     
-- Agile is the ability to create and respond to change. 
-- Agile is a way of dealing with, and ultimately succeeding in, an uncertain environment.
+-	agile focuses on delivering a product through collaboration, flexibility, and continuous improvement.
+- Its benefits include adaptability to changing requirements, and improved team productivity and communication.
+
   
 </blockquote> 
 
 </details>
 
 ---
-2. What is `Agile Development`?
+2. What is a sprint in Agile and how does it work?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -24,16 +25,19 @@
 
 <blockquote> 
     
-- Agile Development is a set of methods and practices where solutions evolve through collaboration between self-organizing, cross-functional teams. 
+- It typically lasts two to four weeks. 
+- The team selects a set of items from the product backlog to work on, plans the work, and collaboratively develops and tests the increment. 
+- At the end of the sprint, there is a review of the increment and a retrospective to reflect on the process and identify improvements for the next sprint.
+ 
     
 </blockquote> 
 
 </details>
 
 ---
-3. Name any three `Agile Methodology Frameworks`.
+3. List some Agile Methodology Frameworks.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -41,7 +45,8 @@
     
 - Scrum
 - Kanban
-- eXtreme Programming
+- Extreme Programming (XP)
+
 
 </blockquote> 
 
@@ -63,7 +68,7 @@
 </details>
 
 ---
-5. What do you mean by Sprint in the Agile framework?
+5. What are the steps in the software development lifecycle?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -71,7 +76,15 @@
 
 <blockquote> 
 
-- Sprints refer to short (almost always less than four weeks, sometimes as short as one week), repeating periods of development in which key parts of the project are completed.
+- Planning / Requirements gathering
+- Analysis
+-	Design
+-	Development
+- Testing
+- Deployment
+- Maintenance
+
+
 
 </blockquote> 
 
@@ -118,7 +131,7 @@
 
 <blockquote> 
 
-- In agile development, a product backlog (or simply backlog) is a list of all deliverables such as new features, bug fixes, improvements, changes to existing features, and other product initiatives that product teams must prioritize and deliver for a product to strategically come to life.
+- In agile development, a product backlog is a list of all deliverables such as new features, bug fixes, improvements, changes to existing features, and other product initiatives that product teams must prioritize and deliver for a product to strategically come to life.
 
 </blockquote> 
 
@@ -142,7 +155,7 @@
 ---
 10. What is the purpose of a daily standup meeting?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -175,7 +188,7 @@
 ---
 12. What is Epic in agile?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -283,3 +296,201 @@
 </details>
 
 ---
+19.	What is a user story?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- User stories are written in simple, non-technical language and focus on the value they deliver to the user or customer.
+- A user story should follow a specific format, known as the "As a... I want... So that..." format. Example: “As a website visitor, I want to be able to create an account so that I can access exclusive content and personalize my experience."
+
+
+</blockquote> 
+
+</details>
+
+---
+
+20. What is the "Definition of Done" (DoD)?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- The "Definition of Done" is a shared understanding within a development team of what criteria must be met for a product backlog item, user story, or task to be considered complete with defined quality standards
+
+
+</blockquote> 
+
+</details>
+
+---
+
+21. What is the role of the product owner in scrum?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- The Product Owner in Scrum is responsible for representing the customers and stakeholders by prioritizing the product backlog, setting the product vision and strategy, collaborating with stakeholders, and providing clarity and direction to the development team.
+
+
+</blockquote> 
+
+</details>
+
+---
+
+22. How do you know if a user story is considered completed?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- A user story is considered completed when it meets the criteria defined in the team's Definition of Done (DoD). 
+- The Definition of Done outlines the specific conditions and quality standards that must be fulfilled for a user story to be considered complete. 
+-	This includes aspects such as meeting functional requirements, passing relevant tests, having appropriate documentation, undergoing code review, providing a good user experience, meeting performance standards, and being ready for deployment
+
+
+
+</blockquote> 
+
+</details>
+
+---
+
+23.	Scenario:
+ During a sprint, a team member falls sick and is unable to work for a few days. This team member was responsible for a significant portion of the work on a user story. 
+
+How should the team and Scrum Master handle this situation?
+
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- Evaluate the impact of a team member's absence, redistribute tasks, revise the sprint plan, seek additional support, and discuss strategies for handling future challenges during the sprint retrospective.
+
+
+
+</blockquote> 
+
+</details>
+
+---
+
+24.	Scenario:
+ During a sprint, the development team realizes that they won't be able to complete all the user stories they committed to. They have identified some technical complexities and dependencies that are causing delays. The product owner is concerned about meeting the sprint goal and delivering value to the stakeholders.
+
+ How should the team and the Scrum Master handle this situation?
+
+
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- The team should communicate their challenges, technical complexities, and dependencies to the Scrum Master and Product Owner.  
+- This will help them make informed decisions about the sprint scope reprioritizing user stories or seeking assistance from other team members or external resources. 
+- The goal is to find the best course of action that maintains focus on delivering value while addressing the technical complexities. This may involve removing or re-estimating some user stories, adjusting the sprint backlog, or replanning the remaining work to ensure the highest value is delivered within the sprint.
+
+
+
+
+</blockquote> 
+
+</details>
+
+---
+
+25. Scenario: 
+During a Sprint Review, a stakeholder raises a concern about a feature that was developed in the current sprint. They believe the functionality doesn't align with their expectations and requests changes to be made immediately.
+What would you do if you were a scrum master?
+
+
+
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- The Scrum Master should listen and understand the stakeholder's concerns and ensure they understand the specific issues or expectations that are not met. 
+- They stay committed to the Sprint Review and clarify that  the changes and adjustments are typically planned and prioritized for future sprints. 
+- The Scrum Master suggests that the stakeholder's concerns be documented as valuable feedback and included in the product backlog.
+- The Scrum Master also engages the Product Owner in the discussion to understand the stakeholder's concerns and determine if there is an immediate need to reprioritize the backlog based on the feedback. 
+- 	Finally, the Scrum Master encourages collaboration and a shared understanding between the development team and stakeholders.
+
+
+
+
+</blockquote> 
+
+</details>
+
+---
+
+26.	How does Agile support quality assurance and testing?
+
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- Early and continuous testing throughout the development process.
+- Test-driven development (TDD) to ensure code meets expected behavior.
+- Cross-functional collaboration (communication) between testers and developers
+- Implementing continuous improvement through retrospectives.
+
+
+
+
+
+</blockquote> 
+
+</details>
+
+---
+
+
+27.	What are some popular Agile metrics for measuring team performance?
+
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- measuring the amount of work a team can complete within a given sprint. 
+- Burn-down charts show the remaining work in a sprint or project, while burn-up charts depict the completed work over time. 
+- Cycle time measures the time it takes for a user story or a task to move through the entire development process, from start to finish. 
+- Measuring customer satisfaction through surveys or feedback can help gauge how well the team is meeting customer needs and delivering value. 
+- Tracking the number of defects or bugs identified during development or reported by customers can provide insights into the quality of the team's work. 
+
+
+
+
+
+</blockquote> 
+
+</details>
+
+---
+
