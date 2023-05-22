@@ -2,6 +2,8 @@
 
 1. What is `Git`?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 
 <blockquote> 
@@ -15,6 +17,8 @@
 
 ---
 2. What is the difference between `Git` and `GitHub`?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -31,6 +35,8 @@
 ---
 3. What do you understand by Git repository?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 
 <blockquote> 
@@ -46,6 +52,8 @@
 ---
 
 4. What do you mean by initializing a repository in Git? How do we do it?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -68,6 +76,8 @@ git init
 
 5. Can we modify the `.git` hidden folder under any Git repository?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 
 <blockquote> 
@@ -82,6 +92,8 @@ git init
 ---
 
 6. How to view commit logs in git?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -102,6 +114,8 @@ git log
 
 7. What is the working directory/tree in Git?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 
 <blockquote> 
@@ -116,6 +130,8 @@ git log
 ---
 
 8. What is the staging area in Git?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -132,6 +148,8 @@ git log
 ---
 
 9. How to copy the remote repository onto your local machine?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -152,6 +170,8 @@ git clone '<remote-repository-url>'
 
 10. How to clone a specific branch using `git clone` command?
 
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 
 <blockquote> 
@@ -169,6 +189,8 @@ git clone -b feature/audit --single-branch 'https://<github-username>@github.com
 ---
 
 11. Which command adds a change from the working directory to the staging area.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -192,6 +214,8 @@ git add --all
 
 12. What is the Git command to save your changes to the local repository?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 
 <blockquote> 
@@ -212,6 +236,8 @@ git commit -m "Added first commit"
 
 13. What is the use of the `git push` command?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 
 <blockquote> 
@@ -230,6 +256,8 @@ git push
 
 14. What are untracked files in git status?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 
 <blockquote> 
@@ -244,6 +272,8 @@ git push
 
 15. What is a source code repository?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 
 <blockquote> 
@@ -257,6 +287,8 @@ A source-code repository is an archive with the code as well as the hosting faci
 ---
 
 16.  What are the benefits of the source code repository?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -277,6 +309,8 @@ Using a source code repository has many potential benefits for an organization, 
 
 17. What are some basic Gitlab commands?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 
 <blockquote> 
@@ -296,7 +330,9 @@ Using a source code repository has many potential benefits for an organization, 
 
 ---
 
-18. how do you solve merge  conflict?
+18. How do you solve merge conflict?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><b>Show Answer</b></summary>
 
@@ -319,7 +355,9 @@ A merge confilct can be resolved in three ways:
 
 ---
 
-19. give some git  commands?
+19. List some of the commands in git?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><b>Show Answer</b></summary>
 
@@ -348,6 +386,8 @@ Few commonly used git commands are:
 ---
     
 20. What commands do you need to upload code to github ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><b>Show Answer</b></summary>
 
@@ -390,6 +430,8 @@ git push
 
 21. What protection policies would you put in place on a branch?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary> 
 
 <blockquote> 
@@ -410,6 +452,8 @@ To protect a branch in Git, you can set up branch protection policies. Some comm
 
 22. How would you avoid overriding main code (Git)?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary> 
 
 <blockquote> 
@@ -428,13 +472,15 @@ To avoid overriding main code in Git, you can follow these steps:
 
 ---
 
-23. How do you request a merge request with GitHub?
+23. How do you create a pull request in GitHub?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary> 
 
 <blockquote> 
 
-To request a merge request with GitHub, follow these steps:
+To create a pull request with GitHub, follow these steps:
 
 1. Create a new branch from the main branch.
 2. Make changes to the new branch and commit them.
@@ -453,6 +499,8 @@ To request a merge request with GitHub, follow these steps:
 ---
 
 24. How did you do code reviews before merging?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -473,6 +521,8 @@ Before merging code, code reviews are an important step to ensure quality and ca
 
 25. What pattern did you follow for Git management?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary> 
 
 <blockquote> 
@@ -486,6 +536,8 @@ There are many patterns that can be followed for Git management, but one common 
 ---
 
 26. What are the steps to setting up a Git repo?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -505,7 +557,9 @@ The basic steps to set up a Git repository are as follows:
 
 ---
 
-27. What repositories do you know?
+27. List the git repository hosting services.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -528,6 +582,8 @@ There are several popular Git repository hosting services, including:
 
 28. When using Git as version control, how would you merge a branch into main?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary> 
 
 <blockquote> 
@@ -548,6 +604,8 @@ To merge a branch into main (or any other branch), follow these steps:
 
 29. "If both of us are working on the same file, how will you handle it so you would not delete/erase my updates?"
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary> 
 
 <blockquote> 
@@ -564,6 +622,8 @@ If you both need to work on the same file simultaneously, you can use a version 
 
 30. What is git flow, work flow? 
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary> 
 
 <blockquote> 
@@ -579,20 +639,9 @@ If you both need to work on the same file simultaneously, you can use a version 
 
 ---
 
-31.  What version control did you use for your team projects?
+31. Explain Git and version control.
 
-<details><summary><b> Show Answer</b></summary> 
-
-<blockquote> 
-We used Git as the version control system for our team projects. Git is a popular distributed version control system that allows multiple developers to work on a project at the same time and track changes made to the codebase. It provides various features like branching, merging, and staging, which make it easy to manage code changes and collaborate effectively with team members. 
-
-</blockquote> 
-
-</details>
-
----
-
-32.  explain Git and version control and how you used it in training 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -600,27 +649,15 @@ We used Git as the version control system for our team projects. Git is a popula
 
 Git is a distributed version control system that allows developers to track changes made to the codebase and collaborate effectively with team members. It provides various features like branching, merging, and staging, which make it easy to manage code changes and collaborate effectively with team members. Git allows developers to work on a project locally and then push changes to a remote repository, which can be accessed by other team members.
 
-In training, we used Git to manage the code changes made during the development process. We used Git to create branches, make changes to the code, and merge changes back into the main branch after testing. This allowed us to keep track of code changes and collaborate effectively with team members. 
-
 </blockquote> 
 
 </details>
 
 ---
 
-33. what was the hardest part of git keeping ?
+32. What was the hardest part of git keeping ?
 
-<details><summary><b> Show Answer</b></summary> 
-
-<blockquote> 
-The hardest part of Git keeping is resolving conflicts that arise when two or more team members make changes to the same file. Git provides various tools and features to help manage conflicts, such as merging, rebasing, and pull requests. However, conflicts can still occur, especially in large codebases with many contributors. Resolving conflicts requires careful attention to detail and good communication between team members. 
-    
-</blockquote> 
-
-</details>
-
----
-34.  what was the hardest part of git keeping ?
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -634,7 +671,9 @@ The hardest part of Git keeping is resolving conflicts that arise when two or mo
 
 ---
 
-35. What's the most important things to consider when merging a pull request?
+33. What's the most important things to consider when merging a pull request?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -652,7 +691,9 @@ When merging a pull request, it is important to consider the following things:
 
 ---
 
-36. Explain the difference between the Github master/head and development branches.
+34. Explain the difference between the Github master/head and development branches.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -666,7 +707,9 @@ In Git, the "master" branch is the default branch that contains the stable, prod
 
 ---
 
-37. If code does get overridden how would you go about fixing that?
+35. If code does get overridden how would you go about fixing that?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -686,13 +729,15 @@ If the code was overwritten by mistake and the original code is lost, it may be 
 
 ---
 
-38. Did you pull request on GitHub?
+36. What is a pull request in GitHub?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary> 
 
 <blockquote> 
 
-Yes, I have used pull requests on GitHub for various projects. A pull request is a way to propose changes to a project's codebase and merge those changes into the main branch. Pull requests allow team members to review and discuss changes before they are merged into the main branch, which helps ensure that code changes are high quality and do not break existing functionality. 
+A pull request is a way to propose changes to a project's codebase and merge those changes into the main branch. Pull requests allow team members to review and discuss changes before they are merged into the main branch, which helps ensure that code changes are high quality and do not break existing functionality. 
 
 </blockquote> 
 
@@ -700,12 +745,26 @@ Yes, I have used pull requests on GitHub for various projects. A pull request is
 
 ---
 
-39. Did you use Trello and Git for organization?
+37. List the tools used for project management.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary> 
 
 <blockquote> 
-Yes, I have used Trello and Git together for project organization. Trello is a project management tool that helps teams organize tasks and track progress. Git is a version control system that allows developers to track changes made to the codebase and collaborate effectively with team members. We used Trello to track project tasks and used Git to manage code changes and collaboration with team members. 
+
+There are various tools available for project management, each offering different features and functionalities. The choice of tool depends on the specific needs and requirements of the project and the team using it. Here is a list of commonly used tools for project management:
+
+- Trello
+- Asana
+- Jira
+- Basecamp
+- Microsoft Project
+- Monday.com
+- Smartsheet
+- Wrike
+- Teamwork
+- Notion
     
 </blockquote> 
 
@@ -713,20 +772,9 @@ Yes, I have used Trello and Git together for project organization. Trello is a p
 
 ---
 
-40. "Did you have any difficulties with so many people working on a project or with Git?"
+38. What are the advantages and disadvantages of Version Control?
 
-<details><summary><b> Show Answer</b></summary> 
-
-<blockquote> 
-Yes, working with a large number of people on a project can be challenging, especially when using Git. One of the main challenges is managing conflicts that arise when multiple team members make changes to the same file. Another challenge is coordinating the development process and ensuring that all team members are on the same page. However, Git provides various features and tools to help manage these issues, such as branching, merging, and pull requests. Effective communication and coordination between team members are also crucial for successful collaboration. 
-
-</blockquote> 
-
-</details>
-
----
-
-41. What are the advantages and disadvantages of Version Control?
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -751,33 +799,9 @@ Overall, the benefits of using a version control system like Git usually outweig
 
 ---
 
-43. They use gera for now but are moving to start using GitHub.
+39. What is rebasing in Git?
 
-<details><summary><b> Show Answer</b></summary> 
-
-<blockquote> 
-Moving from Gera to GitHub can be a good decision, as GitHub is a more popular and feature-rich platform for software development. GitHub provides many features that Gera may not offer, such as pull requests, code reviews, and continuous integration. GitHub also has a larger community of developers and users, which can make it easier to find help and collaborate with others. However, migrating to a new platform can also be challenging and require some adjustment. 
-
-</blockquote> 
-
-</details>
-
----
-
-44. What is Git? Do you use GUI or CLI?
-
-<details><summary><b> Show Answer</b></summary> 
-
-<blockquote> 
-Git is a popular distributed version control system that allows multiple developers to work on a project at the same time and track changes made to the codebase. It provides various features like branching, merging, and staging, which make it easy to manage code changes and collaborate effectively with team members.
-
-</blockquote> 
-
-</details>
-
----
-
-45. What is rebasing in Git?
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -790,7 +814,9 @@ Rebasing in Git is a process where a developer moves the changes made in one bra
 
 ---
 
-46. What is the difference between SVN repository and Git repository?
+40. What is the difference between SVN repository and Git repository?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -806,9 +832,9 @@ Another difference is that SVN tracks changes to individual files, while Git tra
 
 ---
 
-47. How do you create a new branch in Git?
+41. How do you create a new branch in Git?
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -829,9 +855,9 @@ Alternatively, you can combine the branch creation and checkout steps into a sin
 
 ---
 
-48. How do you switch between branches in Git?
+42. How do you switch between branches in Git?
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -846,9 +872,9 @@ To switch to an existing branch, use the following command:
 
 ---
 
-49. How do you revert a commit in Git?
+43. How do you revert a commit in Git?
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -865,9 +891,9 @@ To switch to an existing branch, use the following command:
 
 ---
 
-50. What is the purpose of the "git pull" command?
+44. What is the purpose of the "git pull" command?
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -881,9 +907,9 @@ The purpose of the git pull command is to fetch the latest changes from a remote
 
 ---
 
-51. What is the purpose of the "git fetch" command?
+45. What is the purpose of the "git fetch" command?
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -897,9 +923,9 @@ The purpose of the git fetch command is to retrieve the latest commits, branches
 
 ---
 
-52. What is the purpose of the ".gitignore" file?
+46. What is the purpose of the ".gitignore" file?
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -913,9 +939,9 @@ The purpose of the .gitignore file in a Git repository is to specify intentional
 
 ---
 
-53. How do you undo the last commit in Git without losing the changes?
+47. How do you undo the last commit in Git without losing the changes?
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -931,9 +957,9 @@ The purpose of the .gitignore file in a Git repository is to specify intentional
 
 ---
 
-54. What is the purpose of the "git stash" command?
+48. What is the purpose of the "git stash" command?
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -947,9 +973,9 @@ The purpose of the git stash command is to save the current changes in your work
 
 ---
 
-55. What is the difference between a merge and a rebase in Git?
+49. What is the difference between a merge and a rebase in Git?
 
-![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -965,9 +991,9 @@ Rebase: Moves or combines commits from one branch onto another, rewriting the co
 
 ---
 
-56. Explain the concept of Git branching strategies (e.g., GitFlow)
+50. Explain the concept of Git branching strategies (e.g., GitFlow)
 
-![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -989,9 +1015,9 @@ Git branching strategies like GitFlow provide a structured approach to developme
 
 ---
 
-57. What are Git hooks?
+51. What are Git hooks?
 
-![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -1007,9 +1033,9 @@ Git hooks are customizable scripts that Git runs automatically in response to ce
 
 ---
 
-58. How do you squash multiple commits into a single commit in Git?
+52. How do you squash multiple commits into a single commit in Git?
 
-![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -1031,9 +1057,9 @@ To squash multiple commits into a single commit in Git:
 
 ---
 
-59. How do you use Git submodules?
+53. How do you use Git submodules?
 
-![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -1051,6 +1077,72 @@ To use Git submodules:
 - To update the submodule to the latest commit in its repository, navigate to the submodule directory and use `git pull` or any other Git commands as needed.
 
 Using Git submodules allows you to include and manage external repositories within your main repository, enabling separate versioning and development for the submodule. It is especially useful when you want to include external code as part of your project while maintaining the ability to update it independently.
+
+</blockquote> 
+
+</details>
+
+---
+
+54. Explain the difference between a fork and a clone in the context of GitHub. 
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary> 
+
+<blockquote> 
+
+Fork: A fork is a copy of a repository created by a user in their own GitHub account. It allows the user to freely make modifications to the repository without affecting the original project. Forking is commonly used for contributing to open-source projects, where users can make changes to their forked repository and propose those changes to be merged into the original repository via pull requests.
+
+Clone: Cloning refers to creating a local copy of a repository from GitHub onto your own computer. Cloning allows you to have a complete copy of the repository, including all branches, commits, and files. It enables you to work on the code locally, make changes, and commit them to your local repository. Cloning is typically used when you want to work with the codebase locally, without the intention of contributing changes back to the original repository.
+
+</blockquote> 
+
+</details>
+
+---
+
+55.	How do you handle large files in a Git repository on GitHub?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary> 
+
+<blockquote> 
+
+To handle large files in a Git repository on GitHub, you can use Git's Large File Storage (LFS) extension.
+
+- Install Git LFS: Download and install Git LFS on your local machine from the official Git LFS website.
+- Initialize Git LFS: Navigate to your repository's root directory and run `git lfs install` to initialize Git LFS for your repository.
+- Specify file types to track: Use `git lfs track` followed by file patterns or specific file names to specify which files should be tracked by Git LFS. 
+- Add and commit changes: Add the large files to your repository as usual (`git add`, `git commit`). Git LFS will handle these files differently, storing their contents separately from the Git repository.
+- Push changes to GitHub: Use `git push` to push your changes to the remote repository on GitHub. The large files will be uploaded to the Git LFS server, while the Git repository will contain pointers to these files.
+- Share and clone the repository: Other users can clone the repository using `git clone`. Git LFS will automatically download the large files, replacing the pointers in the cloned repository with the actual file contents.
+
+</blockquote> 
+
+</details>
+
+---
+
+55.	What is the purpose of pull request reviews in GitHub, and how do you request and perform a review? 
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary> 
+
+<blockquote> 
+
+The purpose of pull request reviews in GitHub is to facilitate collaboration and ensure code quality by having peers review proposed changes before they are merged into a repository. Reviewers provide feedback, identify potential issues, and ensure that the code adheres to coding standards and best practices.
+To request and perform a review in GitHub:
+
+- Open a pull request: Create a pull request in the repository on GitHub, specifying the source and target branches for the proposed changes.
+- Add reviewers: On the pull request page, add specific individuals or teams as reviewers. They will be notified and invited to review the changes.
+- Reviewers perform the review: Reviewers examine the code changes, leave comments, and provide feedback on the pull request. They can review the changes in the "Files changed" tab, view discussions, and make inline comments.
+- Address feedback: The author of the pull request responds to the feedback by making changes, replying to comments, and discussing any concerns raised by the reviewers.
+- Iterative process: The author and reviewers may engage in multiple rounds of feedback and updates until the proposed changes meet the project's requirements and the reviewers' satisfaction.
+- Approve the pull request: Once the reviewers are satisfied with the changes, they can approve the pull request. This indicates that they believe the changes are ready to be merged into the repository.
+- Merge the pull request: Finally, the authorized person, usually a project maintainer or repository owner, merges the approved pull request into the target branch, incorporating the proposed changes into the codebase.
 
 </blockquote> 
 
