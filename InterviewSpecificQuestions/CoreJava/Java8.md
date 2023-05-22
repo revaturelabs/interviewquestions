@@ -1,6 +1,8 @@
 ## Technical
 1. In Java 8 how can I filter a collection using the stream?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 
 <blockquote>
@@ -41,6 +43,8 @@
 
 2. Can we define default method without using default keyword in Java8?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
     
 <blockquote>
@@ -58,6 +62,8 @@
 
 3. What actual advantage does Java 8 brings?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -72,6 +78,8 @@
 
 4. Explain us about Functional interfaces.
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -84,6 +92,8 @@ An Interface that contains exactly one abstract method is known as functional in
 
 
 5. How lambda expressions and functional interface are related?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -98,6 +108,8 @@ An Interface that contains exactly one abstract method is known as functional in
 
 6. What is your understanding about stream pipelining?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -109,6 +121,8 @@ It is the process of chaining different operations together. It accomplishes thi
 ---
 
 7. Can you create your own functional interface?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -125,6 +139,8 @@ It is the process of chaining different operations together. It accomplishes thi
 
 8. What will happen if we define multiple abstract methods inside the Functional interface?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -137,6 +153,8 @@ Inside Functional Interface we can take only one abstract method, if we take mor
 
 9. Why default methods needed in the interface?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -148,6 +166,8 @@ Inside Functional Interface we can take only one abstract method, if we take mor
 ---
 
 10. What is the behavior of `findFirst()` method in Java 8  streams?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -191,6 +211,8 @@ one
 
 11. What is the behavior of `findAny()` method in Java 8  streams?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -201,6 +223,8 @@ Stream `findAny()` returns an Optional (a container object which may or may not 
 ---
 
 12. When to use `findAny()` method in Java 8 streams?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -213,6 +237,8 @@ There are instances where you have a stream, but you only want to select a rando
 ---
 
 13. What do you mean by stream?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -228,6 +254,8 @@ There are instances where you have a stream, but you only want to select a rando
 ---
 
 14. Can you tell me difference between Collection API and Stream API?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -248,6 +276,8 @@ There are instances where you have a stream, but you only want to select a rando
 
 15. Do you know what are the various forms of writing lambda expressions?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 We can declare a lambda expression by-
@@ -263,6 +293,8 @@ We can declare a lambda expression by-
 
 16. What do you understand by `@Functional Interface` annotation in Java 8?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -275,6 +307,8 @@ We can declare a lambda expression by-
 ---
 
 17. How do you create a custom annotation in Java?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -328,6 +362,8 @@ In this example, we have used RetentionPolicy.RUNTIME because we want to demonst
 
 18. How to avoid  `NullPointer exception ` in Java 8?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -347,6 +383,8 @@ Example:
 
 19. What are the different types of functional interfaces in Java 8?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -361,6 +399,8 @@ Example:
 ---
 
 20. How would you convert object of type Iterable to Stream?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -408,6 +448,8 @@ class Main{
 
 21.  How to overcome, multiple inheritance problem in Java 8?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
     
@@ -420,6 +462,8 @@ For example, `\<interfaceName\>.super.\<defaultMethodName\>`
 ---
 
 22. What happens, if a class implements two interfaces having exactly same method with same signature (consider one as default and another abstract)?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -435,6 +479,8 @@ For example, `\<interfaceName\>.super.\<defaultMethodName\>`
 
 
 23. What is the purpose of `joining ()` method introduced in Java 8 ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -462,6 +508,8 @@ Concatenated = Demo
 
 24. What is the use of the `String::Value of` expression in Java 8?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -474,6 +522,8 @@ Concatenated = Demo
 ---
 
 25. What do you mean by method reference in Java 8?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -490,6 +540,8 @@ The following is the expression for a method reference:
 ---
 
 26. What is the easiest way to print the current date and time using the new APIs in Java 8?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -515,6 +567,8 @@ Similarly, it can also be used to get the current time:
 
 27. Differentiate between intermediate and terminal operations in Java 8.
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -533,6 +587,8 @@ Similarly, it can also be used to get the current time:
 
 ---
 28. Can the following piece of code compile successfully?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <blockquote>
 
@@ -560,6 +616,7 @@ Yes, the code can compile and execute without any errors. It uses functional int
 
 29. What is the code to sort strings using the Java 8 lambda expression?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -582,6 +639,8 @@ Collections.sort(names, (s1, s2) -> s1.compareTo(s2));
 ---
 
 30. Is it possible to call a static method of any interface in a class using Java 8?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -609,6 +668,8 @@ Yes, it is possible to call a static method in a class by making use of the name
 
 31. Do you know how the `random` keyword in Java 8 works?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -629,6 +690,8 @@ random.ints().limit(20).forEach(System.out::println);
 
 32. Explain about collectors in Java 8?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -640,6 +703,8 @@ Collectors are mainly used to combine the result after the processing of element
 ---
 
 33. What is the easiest way to print the sum of all the numbers present in a list using Java 8?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -658,6 +723,8 @@ In Java 8, the following code is used to print the sum of all of the numbers tha
 ---
 
 34. When is an ideal situation to use the Stream API in Java 8?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -678,6 +745,8 @@ The Stream API in Java 8 can be effectively used if the Java project calls for t
 
 35. Can you tell me about supplier in Java 8?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -689,6 +758,8 @@ A supplier is a simple functional interface in Java 8 that does not take in any 
 ---
 
 36. Do you know about predicate in Java 8 ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -702,6 +773,8 @@ A supplier is a simple functional interface in Java 8 that does not take in any 
 ---
 
 37. Can you name the common types of functional interfaces in the standard library?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -722,6 +795,8 @@ There are many functional interface types in the standard library, and some of t
 
 38. Can you give examples of intermediate operations in Java 8?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -740,6 +815,8 @@ The examples that are widely used in intermediate operations are:
 
 39. What are the similarities between `map` and `flatMap` stream operations in Java 8?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -752,6 +829,8 @@ Both `map` and `flatMap` operations are a form of intermediate stream operations
 
 40.How to find and remove duplicate elements from a list using Java 8?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -763,6 +842,8 @@ Duplicate elements can be listed and removed easily by applying stream operation
 ---
 
 41. What is the easiest way to convert an array into a stream in Java 8?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -781,6 +862,8 @@ Any array in Java 8 can be converted into a stream easily using the stream class
 
 42. What is the use of the `peek()` method in Java 8?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -795,6 +878,8 @@ Peeking has a wide amount of usage when efficiency is a requirement, when debugg
 
 43.  What is the meaning of a `Spliterator` in Java 8?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -806,6 +891,8 @@ Spliterator is a newly introduced iterator interface for Java 8. It is very effi
 ---
 
 44. Explain the different time and date APIs and when you may use them.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -827,6 +914,8 @@ Spliterator is a newly introduced iterator interface for Java 8. It is very effi
 
 45. In Java, how do you convert a String to a LocalDate or a LocalDateTime? ?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 The Java 8 `LocalDate-Time API` includes a `parse()` method, which can be used to parse a given input string using a specified format.
@@ -846,6 +935,8 @@ System.out.println("Parsed date : " + newDate);
 
 46. What is the difference between a predicate and a function?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -859,6 +950,8 @@ System.out.println("Parsed date : " + newDate);
 ---
 
 47. Can a functional interface extend/inherit another interface?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -888,361 +981,14 @@ It can extend other interfaces which do not have any abstract method and only ha
 
 48. What are the advantages of using the Optional class?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
 It encapsulates optional values, i.e., null or not-null values, which helps in avoiding null checks, which results in better, readable, and robust code It acts as a wrapper around the object and returns an object instead of a value, which can be used to avoid run-time NullPointerExceptions.
 
 </blockquote>
-</details>
-
----
-49. What are lambda expressions or lambda functions
-
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
-
-Lambda expressions are a feature introduced in Java 8 that allow you to write anonymous functions in a more concise and expressive way.
-
-A lambda expression is a short block of code that represents a function, which can be passed around and executed as if it were an object. The syntax for a lambda expression is as follows:
-```code
-(parameter_list) -> { expression }
-```
-It consists of a parameter list, an arrow token (->), and a body that can be an expression or a block of statements. 
-Here, parameter_list is a comma-separated list of the function's parameters (if any), and expression is the code that performs the function's computation.
-
-For example, here is a lambda expression that takes two integers and returns their sum:
-```java
-(int a, int b) -> { return a + b; }
-```
-Lambda expressions can also be used in functional interfaces, which are interfaces that define exactly one abstract method. A lambda expression can be used to provide an implementation for the abstract method of a functional interface, allowing the interface to be used like a regular Java method.
-
-</blockquote>
-</details>
-
----
-50. How would you define a lambda function
-
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
-
-In Java, a lambda function (also known as a lambda expression) is defined using the following syntax:
-```code
-(parameter_list) -> { expression }
-```
-It consists of a parameter list, an arrow token (->), and a body that can be an expression or a block of statements. 
-Here, parameter_list is a comma-separated list of the function's parameters (if any), and expression is the code that performs the function's computation.
-
-For example, the following lambda function takes two integers and returns their sum:
-```java
-(int a, int b) -> { return a + b; }
-```
-In this case, the parameter_list consists of two integers (int a and int b), and the expression simply adds them together and returns the result.
-
-Lambda functions can also have no parameters, as in this example:
-```java
-() -> { System.out.println("Hello, world!"); }
-```
-In this case, the lambda function takes no parameters and simply prints the message "Hello, world!" to the console.
-
-Lambda functions can be used in a variety of contexts in Java, including with collections, streams, and functional interfaces. They are a powerful and flexible tool for writing functional-style code in Java.
-
-</blockquote>
-</details>
-
----
-51. Why do you use lambdas?
-
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
-
-Lambdas in Java are used for writing more concise and expressive code, especially when working with functional programming constructs like streams and collections. They provide a way to represent a function as an object, which can then be passed around and used like any other object.
-
-Some of the benefits of using lambdas in Java are as follows:
-
-Conciseness: Lambdas allow you to write shorter and more concise code, which can be easier to read and maintain.
-
-Expressiveness: Lambdas allow you to express complex operations in a more natural and intuitive way, making the code easier to understand.
-
-Flexibility: Lambdas can be used in a wide range of contexts, including with collections, streams, and functional interfaces, making them a versatile tool for writing functional-style code in Java.
-
-Composability: Lambdas can be combined and composed in various ways to create more complex operations, making it easier to build up complex algorithms from simpler building blocks.
-
-Overall, lambdas in Java are a powerful and flexible feature that enable more expressive and functional-style programming, making it easier to write efficient, readable, and maintainable code.
-
-</blockquote>
-</details>
-
----
-52. What is the purpose of lambdas and Streams API? 
-
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
-
-The purpose of lambdas and the Streams API in Java is to provide a more concise and expressive way to work with collections and perform operations on them in a functional style.
-
-Lambdas provide a way to represent a function as an object, which can be passed around and used like any other object. This allows you to write more concise and expressive code, especially when working with functional programming constructs like streams and collections.
-
-The Streams API provides a set of high-level operations that can be used to perform common data processing tasks, such as filtering, sorting, mapping, and reducing, on collections of data. The API is designed to be used with lambdas, allowing you to write code that is both concise and expressive.
-
-Together, lambdas and the Streams API provide a powerful and flexible way to work with collections and perform complex data processing tasks with minimal boilerplate code. They are especially useful for working with large datasets and performing complex data transformations and analysis.
-
-</blockquote>
-</details>
-
----
-53. What are optional objects? 
-
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
-
-- In Java, an `Optional` object is a container object that may or may not contain a non-null value. It is a way of representing a value that may or may not exist, without using null references.
-- The purpose of `Optional` is to provide a way to explicitly indicate that a value may be absent, and to avoid NullPointerExceptions. It forces the developer to consider the possibility that a value may not be present and to handle that case explicitly, rather than relying on a null check.
-
-
-</blockquote>
-</details>
-
----
-
-54. What are Projections in Java? 
-
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
-
-In Java, projections can be performed using the Streams API, which provides a set of operations for processing collections of data.
-
-In the Streams API, a projection operation is typically performed using the map() method, which takes a lambda expression as an argument and applies it to each element in the stream. The lambda expression defines the transformation to be applied to each element, and the result is a new stream that contains the transformed elements.
-
-Here's an example of how to perform a projection using the Streams API:
-```java
-List<String> names = Arrays.asList("John", "Mary", "Bob", "Jane");
-
-List<Integer> nameLengths = names.stream()
-                                  .map(name -> name.length())
-                                  .collect(Collectors.toList());
-```
-In this example, we have a list of names, and we want to create a new list containing the length of each name. We use the stream() method to create a stream from the list, then use the map() method to apply a lambda expression that computes the length of each name. Finally, we use the collect() method to collect the transformed elements into a new list.
-
-Projections are a powerful tool for working with collections of data, allowing you to extract and transform specific subsets of data in a concise and expressive way.
-
-
-</blockquote>
-</details>
-
----
-55. Use Java Streams to sort items based on price? 
-
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
-To sort a collection of items based on price using Java Streams, you can use the sorted() method along with a lambda expression that compares the prices of each item. Here's an example:
-
-Suppose you have a list of Item objects, where each object has a price field:
-```java
-class Item {
-    String name;
-    double price;
-
-    public Item(String name, double price) {
-        this.name = name;
-        this.price = price;
-    }
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public double getPrice() {
-		return price;
-	}
-
-	public void setPrice(double price) {
-		this.price = price;
-	}
-}
-```
-To sort the items based on price, you can create a stream from the list using the stream() method, and then call the sorted() method with a lambda expression that compares the prices of the items:
-```java
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
-
-public class ItemManager {
-public static void main(String[] args) {
-	List<Item> items = Arrays.asList(
-		    new Item("Book", 9.99),
-		    new Item("Phone", 599.99),
-		    new Item("Laptop", 1299.99),
-		    new Item("Tablet", 499.99)
-		);
-
-		List<Item> sortedItems = items.stream()
-		    .sorted((item1, item2) -> Double.compare(item1.getPrice(), item2.getPrice()))
-		    .collect(Collectors.toList());
-
-		sortedItems.forEach(item->{System.out.println(item.getName()+" : "+item.getPrice());});
-}
-}
-```
-```code
-Output :
-Book : 9.99
-Tablet : 499.99
-Phone : 599.99
-Laptop : 1299.99
-```
-In this example, we create a list of Item objects, and then use the stream() method to create a stream from the list. We then call the sorted() method, passing in a lambda expression that compares the prices of the items using the Double.compare() method. Finally, we use the collect() method to collect the sorted items into a new list.
-
-After running this code, the sortedItems list will contain the items sorted in ascending order based on price.
-
-</blockquote>
-</details>
-
----
-56. Please use the stream api to create a map of numbers excluding the number 5 
-
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
-To create a map of numbers excluding the number 5 using Java Streams, you can use the filter() and collect() methods. Here's an example:
-```java
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-import java.util.stream.Collectors;
-
-public class MapExample {
-public static void main(String[] args) {
-	List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
-
-	Map<Integer, Integer> map = numbers.stream()
-	    .filter(num -> num != 5)
-	    .collect(Collectors.toMap(num -> num, num -> num));
-
-	System.out.println(map);
-}
-}
-```
-```code
-Output :
-{1=1, 2=2, 3=3, 4=4, 6=6, 7=7, 8=8, 9=9}
-```
-In this example, we have a list of numbers from 1 to 9. We create a stream from the list using the stream() method, and then use the filter() method to exclude the number 5 from the stream. We then use the collect() method to collect the remaining numbers into a map.
-
-The Collectors.toMap() method is used to create the map, with the identity function num -> num used as the key mapper and value mapper, since we want to use the numbers themselves as both the keys and the values in the map.
-
-After running this code, the map variable will contain a map of the numbers from 1 to 9 excluding the number 5. The output of the System.out.println(map) statement would be:
-
-
-</blockquote>
-</details>
-
----
-57. Is Stream is better than for loop and why?  
-
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
-Whether the Stream API is better than a traditional for loop in Java depends on the context and the specific use case. Here are some factors to consider:
-
-- Conciseness and readability: The Stream API can often make code more concise and readable compared to traditional for loops. This is because it provides a higher-level abstraction for working with collections, and its fluent API allows you to chain together multiple operations in a single expression.
-
-- Parallelization: The Stream API provides built-in support for parallel processing, which can lead to significant performance improvements in some cases. This is because it can automatically split up the work across multiple threads, which can lead to better utilization of multi-core processors. However, not all operations can be parallelized effectively, and there is some overhead involved in setting up and coordinating the parallel processing, so it's important to measure the performance gains carefully.
-
-- Control flow: Traditional for loops provide more fine-grained control over the iteration process, such as the ability to break out of a loop early or skip over certain elements. While it's still possible to achieve these same effects with the Stream API, it can require more complex logic and may be less intuitive.
-
-- Compatibility: The Stream API was introduced in Java 8, so if you need to support older versions of Java, you may not be able to use it. In addition, some libraries and frameworks may not support or integrate well with the Stream API yet, so it's important to consider compatibility when deciding whether to use it.
-
-Overall, the Stream API can be a powerful tool for working with collections in Java, but it's not always the best choice in every situation. It's important to consider the trade-offs and choose the approach that makes the most sense for your specific needs.
-
-
-</blockquote>
-</details>
-
----
-58. Can you create a stream to take our employees from the findAll() and return just the names? 
-
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
-Assuming we have a class Employee with a getName() method, and a List of Employee objects returned by a method called findAll(), we can create a stream to get just the names of the employees like this:
-```java
-List<Employee> employees = findAll();
-
-List<String> names = employees.stream()
-                               .map(Employee::getName)
-                               .collect(Collectors.toList());
-```
-In this code, we first call findAll() to get a list of Employee objects. We then create a stream from this list using the stream() method. We use the map() method to transform each Employee object into its name using a method reference to the getName() method. Finally, we collect the resulting stream of names into a List using the toList() method provided by the Collectors class.
-
-This code will produce a List of String objects containing the names of all the employees in the original list.
-
-
-</blockquote>
-</details>
-
----
-59. If you had a list of objects, and wanted to filter for a user by (for example) their Age; how would you do it?
-
-<details><summary><b> Show Answer</b></summary>
-
-<blockquote>
-In Java, you can use the Stream API to filter a list of users by age
-```java
-
-public class User {
-    private String name;
-    private int age;
-
-    public User(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-}
-```
-To filter the list of users by age, you can use the filter() method of the Stream class. 
-
-```java
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
-
-public class UserManager {
-public static void main(String[] args) {
-	List<User> userList = Arrays.asList(
-			new User("User 1",33),
-			new User("User 2",32),
-			new User("User 3",25),
-			new User("User 4",37)
-			);
-
-			int ageFilter = 25; // assume we want to filter for users aged 25
-
-			List<User> filteredUsers = userList.stream()
-			    .filter(user -> user.getAge() == ageFilter)
-			    .collect(Collectors.toList());
-			
-			filteredUsers.forEach(user->{System.out.println(user.getName() +" - "+user.getAge());});
-
-}
-}
-```
-
-```Code
-Output:
-User 3 - 25
-```
-</blockquote>
-
 </details>
 
 ---
