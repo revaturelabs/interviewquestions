@@ -805,3 +805,255 @@ Another difference is that SVN tracks changes to individual files, while Git tra
 </details>
 
 ---
+
+47. How do you create a new branch in Git?
+
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary> 
+
+<blockquote> 
+
+To create a new branch you need to use the following commands:
+`git branch <branch-name>`
+Replace `<branch-name>` with the desired name for your new branch. Avoid using spaces or special characters in the branch name. Using lowercase letters and hyphens or underscores to separate words is common practice.
+ex: `git branch feature-branch`
+Once you've created the branch, you can switch to it using the git checkout
+`git checkout <branch-name>` ex: `git checkout feature-branch`
+
+Alternatively, you can combine the branch creation and checkout steps into a single command using the -b flag, like this: `git checkout -b <branch-name>` ex: `git checkout -b feature-branch`
+
+</blockquote> 
+
+</details>
+
+---
+
+48. How do you switch between branches in Git?
+
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary> 
+
+<blockquote> 
+
+To switch to an existing branch, use the following command:
+`git checkout <branch-name>` ex: `git checkout feature-branch`
+
+</blockquote> 
+
+</details>
+
+---
+
+49. How do you revert a commit in Git?
+
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary> 
+
+<blockquote> 
+
+- To revert a commit in Git, you can use the git revert command. The git revert command creates a new commit that undoes the changes made in a previous commit. `Git revert <commit>`	Replace `<commit>` with the commit hash or reference of the commit you want to revert
+- Git will open a text editor to enter a commit message for the revert. Modify the message if desired, save the file, and close the text editor. Alternatively, you can use the `-m` flag followed by a commit message to specify the revert message directly in the command, like this: `git revert -m "Reverting commit XYZ"`
+- Git will create a new commit that undoes the changes made in the specified commit. This revert commit will be added to the branch you are currently on
+- After reverting the commit, you can push the changes to a remote repository if necessary. Use the `git push` command to push the updated branch to the remote repository.
+
+</blockquote> 
+
+</details>
+
+---
+
+50. What is the purpose of the "git pull" command?
+
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary> 
+
+<blockquote> 
+
+The purpose of the git pull command is to fetch the latest changes from a remote repository and incorporate them into the current branch. It essentially combines two separate Git commands: git fetch and git merge.
+
+</blockquote> 
+
+</details>
+
+---
+
+51. What is the purpose of the "git fetch" command?
+
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary> 
+
+<blockquote> 
+
+The purpose of the git fetch command is to retrieve the latest commits, branches, and tags from a remote repository without merging them into your current branch. It allows you to fetch the updates from a remote repository and examine them before integrating them into your local branch.
+
+</blockquote> 
+
+</details>
+
+---
+
+52. What is the purpose of the ".gitignore" file?
+
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary> 
+
+<blockquote> 
+
+The purpose of the .gitignore file in a Git repository is to specify intentionally untracked files or directories that should be ignored by Git. It allows you to exclude certain files, file types, or entire directories from being tracked and committed to the repository.
+
+</blockquote> 
+
+</details>
+
+---
+
+53. How do you undo the last commit in Git without losing the changes?
+
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary> 
+
+<blockquote> 
+
+- To undo the last commit in Git without losing the changes, you can use the `git reset` command along with the `--soft` option. This allows you to remove the commit from the branch history while keeping the changes in your working directory and staging area. To undo the last commit, use the following command:
+`git reset --soft HEAD~1`
+- To discard the changes altogether and start fresh, you can use the `git reset --hard HEAD~1` command instead. This command will remove the last commit, reset the branch pointer, and discard the changes from the last commit.
+
+</blockquote> 
+
+</details>
+
+---
+
+54. What is the purpose of the "git stash" command?
+
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary> 
+
+<blockquote> 
+
+The purpose of the git stash command is to save the current changes in your working directory and the staging area into a temporary area called the "stash." It allows you to set aside your unfinished changes so that you can switch branches, apply patches, or perform other operations without committing or losing your work.
+
+</blockquote> 
+
+</details>
+
+---
+
+55. What is the difference between a merge and a rebase in Git?
+
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary> 
+
+<blockquote> 
+
+Merge: Combines the changes from one branch into another, creating a new merge commit and preserving branch histories.
+
+Rebase: Moves or combines commits from one branch onto another, rewriting the commit history to create a linear sequence without merge commits.
+
+</blockquote> 
+
+</details>
+
+---
+
+56. Explain the concept of Git branching strategies (e.g., GitFlow)
+
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary> 
+
+<blockquote> 
+
+Git branching strategies, such as GitFlow, provide guidelines for managing branches and organizing development workflows in Git. Git branching strategies define rules and conventions for creating, naming, and merging branches to facilitate collaboration and streamline development processes. One popular strategy is GitFlow, which involves the following branches: 
+
+- Master: Represents the production-ready code, containing stable and thoroughly tested versions of the software.
+- Develop: Acts as the main development branch where features are integrated. It should always be in a deployable state, but it may contain work in progress.
+- Feature branches: Created off the develop branch for developing specific features or enhancements. Each feature branch is short-lived and should have a clear purpose. Once completed, the branch is merged back into the develop branch.
+- Release branches: Created from the develop branch when preparing for a new release. These branches undergo final testing and bug fixes. Once ready, they are merged into both the master and develop branches, creating a new release.
+- Hotfix branches: Created from the master branch to fix critical issues in the production code. Once the hotfix is complete, it is merged into both master and develop branches, ensuring the fix is applied to both the production and ongoing development codebases.
+
+Git branching strategies like GitFlow provide a structured approach to development, enabling parallel work, isolating features, and maintaining a stable production codebase. 
+
+</blockquote> 
+
+</details>
+
+---
+
+57. What are Git hooks?
+
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary> 
+
+<blockquote> 
+
+Git hooks are scripts that Git executes before or after specific actions, such as committing, pushing, or merging. They allow developers to automate tasks and enforce project-specific workflows.
+
+Git hooks are customizable scripts that Git runs automatically in response to certain events during the version control process. They reside within the `.git/hooks` directory of a Git repository and can be written in any scripting language.
+
+</blockquote> 
+
+</details>
+
+---
+
+58. How do you squash multiple commits into a single commit in Git?
+
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary> 
+
+<blockquote> 
+
+To squash multiple commits into a single commit in Git:
+
+- Use the interactive rebase command: `git rebase -i HEAD~n` (replace `n` with the number of commits to squash).
+- In the interactive rebase file, change "pick" to "squash" (or "s") for the commits you want to squash.
+- Save and close the file.
+- Modify the commit message for the new squashed commit.
+- Save and close the file.
+- Git will perform the interactive rebase, squashing the specified commits into a single commit.
+- If needed, force push the updated branch to the remote repository using `git push --force-with-lease`.
+
+</blockquote> 
+
+</details>
+
+---
+
+59. How do you use Git submodules?
+
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary> 
+
+<blockquote> 
+
+To use Git submodules:
+
+- Navigate to the root directory of your Git repository.
+- Add a submodule by using the `git submodule add` command followed by the URL of the repository you want to add and the path where you want the submodule to reside.
+- After adding the submodule, a new directory is created at the specified path. This directory represents the submodule and contains its own Git repository.
+- Use `git submodule init` to initialize the submodule and fetch its contents.
+- Use `git submodule update` to clone and checkout the latest commit of the submodule repository.
+- Make changes within the submodule by navigating to its directory, making commits, and pushing changes to its repository as needed.
+- In the main repository, commit and push the updated submodule reference to record the new submodule commit hash.
+- To update the submodule to the latest commit in its repository, navigate to the submodule directory and use `git pull` or any other Git commands as needed.
+
+Using Git submodules allows you to include and manage external repositories within your main repository, enabling separate versioning and development for the submodule. It is especially useful when you want to include external code as part of your project while maintaining the ability to update it independently.
+
+</blockquote> 
+
+</details>
+
+---
