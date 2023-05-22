@@ -369,9 +369,9 @@
 ---
 
 23.	Scenario:
-    During a sprint, a team member falls sick and is unable to work for a few days. This team member was responsible for a significant portion of the work on a user story. 
+ During a sprint, a team member falls sick and is unable to work for a few days. This team member was responsible for a significant portion of the work on a user story. 
 
-    How should the team and Scrum Master handle this situation?
+How should the team and Scrum Master handle this situation?
 
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -391,9 +391,9 @@
 ---
 
 24.	Scenario:
-    During a sprint, the development team realizes that they won't be able to complete all the user stories they committed to. They have identified some technical complexities and dependencies that are causing delays. The product owner is concerned about meeting the sprint goal and delivering value to the stakeholders.
+ During a sprint, the development team realizes that they won't be able to complete all the user stories they committed to. They have identified some technical complexities and dependencies that are causing delays. The product owner is concerned about meeting the sprint goal and delivering value to the stakeholders.
 
-    How should the team and the Scrum Master handle this situation?
+ How should the team and the Scrum Master handle this situation?
 
 
 
@@ -417,9 +417,8 @@
 ---
 
 25. Scenario: 
-    During a Sprint Review, a stakeholder raises a concern about a feature that was developed in the current sprint. They believe the functionality doesn't align with their expectations and requests changes to be made immediately.
-
-    What would you do if you were a scrum master?
+During a Sprint Review, a stakeholder raises a concern about a feature that was developed in the current sprint. They believe the functionality doesn't align with their expectations and requests changes to be made immediately.
+What would you do if you were a scrum master?
 
 
 
