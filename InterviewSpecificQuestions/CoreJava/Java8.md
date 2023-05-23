@@ -367,8 +367,8 @@ In this example, we have used RetentionPolicy.RUNTIME because we want to demonst
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- Java 8 provides concept of Optional
-- Optional can be used to avoid `NullPointer Exception`
+- Java 8 provides concept of Optional class
+- Optional class can be used to avoid `NullPointer Exception`
 
 Example:
 
@@ -548,14 +548,14 @@ The following is the expression for a method reference:
 
 The `now` method, which is a part of `LocalDate`, can be used to get the current date as shown below:
 
-    ```Java
+    ```java
     LocalDate currentDate = LocalDate.now();
     System.out.println(currentDate);
     ```
 
 Similarly, it can also be used to get the current time:
 
-    ```Java
+    ```java
     LocalTime currentTime = LocalTime.now();
     System.out.println(currentTime);
     ```

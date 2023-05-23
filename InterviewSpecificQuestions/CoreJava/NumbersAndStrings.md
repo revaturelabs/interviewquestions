@@ -261,7 +261,7 @@ Integer class in the Java lang package provides different methods for converting
 
 - Mutable objects value can be changed. StringBuilder and StringBuffer are the examples of the mutable objects.
 
-- mmutable objects value cannot be changed once created. String is an immutable class in java.
+- Immutable objects value cannot be changed once created. String is an immutable class in java.
 
  </blockquote>
 
@@ -277,7 +277,7 @@ Integer class in the Java lang package provides different methods for converting
 
 <blockquote>
 
-The method `split(String regex)` to split the String into String array based on the provided regular expression
+The method `split(String regex)` is used to split the String into String array based on the provided regular expression
 
  </blockquote>
 

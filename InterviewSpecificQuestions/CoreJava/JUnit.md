@@ -451,7 +451,7 @@ This class provides a set of assertion methods useful for writing tests. Only fa
 
 ---
 
-30. What is the purpose of `org.JUnit.testresult` Class?
+30. What is the purpose of `junit.framework.TestResult` Class?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -465,7 +465,7 @@ A TestResult collects the results of executing a test case. It is an instance of
 
 ---
 
-31. What is the purpose of `org.JUnit.testsuite` Class?
+31. What is the purpose of `junit.framework.TestSuite` Class?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -597,7 +597,7 @@ Following is how the JUnit execution procedure works −
 
 ---
 
-38. What is the purpose of `org.JUnit.JUnitcore` Class?
+38. What is the purpose of `org.junit.runner.JUnitCore` Class?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -713,7 +713,7 @@ If a JUnit test method is declared as "private", it compiles successfully. But t
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Yes we can test using `main()` method. One obvious advantage seems to be that we can whitebox test the class. That is, we can test the internals of it (private methods for example). We can't do the unit testsit-tests. But primarily the test framework tests the interface and the behavior from the user's perspective.
+Yes we can test using `main()` method. One obvious advantage seems to be that we can whitebox test the class. That is, we can test the internals of it (private methods for example). We can't do the unit tests. But primarily the test framework tests the interface and the behavior from the user's perspective.
 
 </blockquote>
 </details>

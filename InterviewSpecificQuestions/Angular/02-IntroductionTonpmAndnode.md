@@ -100,7 +100,7 @@
 <summary><b>Show Answer</b></summary>
 <blockquote>
 
-To check that node.js is installed, open the power shell or command prompt (cmd) and type `node –v`. If the node is installed tall properly in your system print something like that v4.4.3.
+To check that node.js is installed, open the power shell or command prompt (cmd) and type `node –v`. If the node is installed properly in your system print something like that v4.4.3.
 
 </blockquote>
 </details>

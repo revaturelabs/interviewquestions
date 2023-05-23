@@ -20,8 +20,7 @@
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- TypeScript is an attempt to fix JavaScript problems.
-- Since we all know that JavaScript is the only language used in client-side scripting browsers can only understand JavaScript.
+- JavaScript is the only language used in client-side scripting browsers can only understand JavaScript.
 - Since TypeScript simplifies JavaScript code, making it easier to read and debug. It saves developers time and increases productivity.
 
 </blockquote>
@@ -423,7 +422,7 @@ The typescript project will have a ts. config file which provides an infinite nu
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Yes, it is possible to use -the watch option while compiling the typescript file for the first time.
+Yes, it is possible to use the watch option while compiling the typescript file for the first time.
 
 ```ts
 

@@ -253,7 +253,7 @@ class Main {
 | Abstract class doesn't support multiple inheritance.                       | Interface supports multiple inheritance.                                                             |
 | Abstract class can have final, non-final, static, and non-static variables. | Interface has only static and final variables.                                                       |
 | The `abstract` keyword is used to declare abstract class.                  | The `interface` keyword is used to declare interface.                                                |
-| n abstract class can be extended using keyword `extends`.                  | An interface can be implemented using keyword `implements`.                                          |
+| An abstract class can be extended using keyword `extends`.                  | An interface can be implemented using keyword `implements`.                                          |
 | Members can be private, protected, default or public.                      | Members of an interface are public by default.                                                        |
  
 </blockquote>
@@ -594,7 +594,7 @@ It can be done by method overriding , which is a type of polymorphism. It can mo
 
 <details><summary><b> Show Answer </b></summary>
 
-<blockquote
+<blockquote>
 
  Yes, an interface can extend another interface in Java.
 
@@ -661,12 +661,12 @@ It’s called only once for an object automatically at the time of object creati
 
 <blockquote>
 
-If we want a class not to be extended further by any class, we can use the keyword `Final` with the class name.
+If we want a class not to be extended further by any class, we can use the keyword `final` with the class name.
 
 In the following example, Stone class is Final and can’t be extended
 
 ``` java
-public Final Class Stone {
+public final Class Stone {
 	// Class methods and Variables
 }
 ```

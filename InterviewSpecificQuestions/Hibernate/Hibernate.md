@@ -331,7 +331,7 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 ------
 
 
-15.	In the hibernate mapping file, can we skip the column property of <property> element?
+15.	In the hibernate mapping file, can we skip the column property of `<property>` element?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -340,7 +340,8 @@ SessionFactory sf=new Configuration().configure(“revature.cfg.xml”).buildSes
 
 <blockquote>
 
-- No, we can skip because it maps entity class variable to database table column.
+- Yes, we can skip because it maps entity class variable to database table column.
+If you don't specify the column attribute, it defaults to the name attribute. 
 
 </blockquote>
 

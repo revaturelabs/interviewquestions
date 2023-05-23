@@ -41,7 +41,7 @@ Docker is a very popular containerization platform which packages our applicatio
 
 ---
 
-4. Explain ab Docker Registry?
+4. Explain about Docker Registry?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 

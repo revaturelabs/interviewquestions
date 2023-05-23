@@ -72,7 +72,7 @@ When we run `ng g c server` in the terminal, CLI creates a component and registe
 Angular creates a component; renders it; creates and renders its children; checks it when its data-bound properties change; and destroys it before removing it from the DOM. These events are called "Lifecycle Hooks".
 	
 Lifecycle Hooks:	.
-- `non changes()` - Called whenever the input properties of the component change. It returns a simple changes object which holds any current and previous property values.
+- `ngOnChanges()` - Called whenever the input properties of the component change. It returns a simple changes object which holds any current and previous property values.
 - `ngOnInit()` - Called once to initialize the component and set the input properties. It initializes the component after Angular first displays the data-bound properties.
 - `ngDoCheck()` - Called during all change-detection runs that Angular can't detect on its own. Also called immediately after the `ngOnChanges()` method.
 - `ngAfterContentInit()` - Invoked once after Angular performs any content projection into the component’s view.
@@ -411,7 +411,7 @@ Angular calls these hook methods in the following order:
 
 Yes, by using an inline template.
 	
-Inline Template  - It is defined by placing the HTML code in backticks _`_ and is linked to the component metadata using the `template` property of `the @Component` decorator.
+Inline Template  - It is defined by placing the HTML code in backticks(` `) _`_ and is linked to the component metadata using the `template` property of `the @Component` decorator.
 ```ts
 @Component({
   selector: 'app-root',
@@ -482,7 +482,7 @@ export class AppComponent{
   
 ---
 	
-24. What are our views on Angular?
+24. What are views in Angular?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
