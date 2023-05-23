@@ -1,5 +1,6 @@
-1. What are the sublanguages of SQL.
+1. List the sublanguages of SQL with their commands.
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -25,25 +26,27 @@ SQL (Structured Query Language) is a programming language designed for managing 
 
 2. What is an Alias?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> Show Answer </summary>
 
 <blockquote>
 
-In SQL, an alias is a temporary name assigned to a table or column in a query. Aliases can be used to make column names more meaningful or to distinguish between multiple tables with similar names.
+- In SQL, an alias is a temporary name assigned to a table or column in a query. Aliases can be used to make column names more meaningful or to distinguish between multiple tables with similar names.
 
-Aliases are created using the AS keyword, which is optional. Here's an example of creating an alias for a table:
+- Aliases are created using the AS keyword, which is optional. Here's an example of creating an alias for a table:
 ```sql
 SELECT * FROM employees AS emp;
 ```
 In this example, the table "employees" is given the alias "emp". From this point forward in the query, the table can be referred to as "emp" instead of "employees". This can make the query more readable and easier to understand.
 
-Aliases can also be used for columns. Here's an example:
+- Aliases can also be used for columns. Here's an example:
 ```sql
 SELECT first_name AS "First", last_name AS "Last" FROM employees;
 ```
 In this example, the column "first_name" is given the alias "First", and the column "last_name" is given the alias "Last". This can be useful for making the column names more descriptive or easier to read.
 
-Aliases are a powerful feature in SQL that can be used to make queries more readable and easier to understand.
+- Aliases are a powerful feature in SQL that can be used to make queries more readable and easier to understand.
 
 </blockquote>
 
@@ -52,10 +55,14 @@ Aliases are a powerful feature in SQL that can be used to make queries more read
 ---
 3. What is a record type?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
 <details><summary> Show Answer </summary>
 
 <blockquote>
-In SQL, a record type is a user-defined data type that represents a collection of related values. A record type is similar to a struct in other programming languages, and it allows you to define a custom data structure with its own fields and data types.
+
+- In SQL, a record type is a user-defined data type that represents a collection of related values. A record type is similar to a struct in other programming languages, and it allows you to define a custom data structure with its own fields and data types.
 
 To define a record type in SQL, you use the CREATE TYPE statement. Here's an example:
 ```sql
@@ -67,7 +74,7 @@ CREATE TYPE person_type AS (
 ```
 In this example, we define a record type called "person_type" with three fields: "first_name", "last_name", and "email". Each field has its own data type, which is specified after the field name.
 
-Once you have defined a record type, you can use it as a data type for columns in tables or as a return type for stored procedures and functions. Here's an example of using the "person_type" record type as a column type:
+- Once you have defined a record type, you can use it as a data type for columns in tables or as a return type for stored procedures and functions. Here's an example of using the "person_type" record type as a column type:
 ```sql
 CREATE TABLE employees (
     id INT,
@@ -76,19 +83,23 @@ CREATE TABLE employees (
 ```
 In this example, we define a table called "employees" with two columns: "id" and "name". The "name" column is of type "person_type", which means it can store values with the same structure as the "person_type" record type we defined earlier.
 
-Record types are a powerful feature in SQL that allow you to define custom data structures and make your database schema more expressive and easier to understand.
+- Record types are a powerful feature in SQL that allow you to define custom data structures and make your database schema more expressive and easier to understand.
 
 </blockquote>
 
 </details>
 
 ---
-4. replace and rank function in SQL?
+4. what is replace and rank function in SQL?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 
 <details><summary> Show Answer </summary>
 
 <blockquote>
-In SQL, the REPLACE function is used to replace all occurrences of a substring within a string with a new substring. The basic syntax for the REPLACE function is:
+
+- In SQL, the REPLACE function is used to replace all occurrences of a substring within a string with a new substring. The basic syntax for the REPLACE function is:
 ```sql
 REPLACE(string, old_substring, new_substring)
 ```
@@ -100,7 +111,7 @@ SELECT REPLACE('Hello, world!', ',', ' ');
 ```
 This will return the string "Hello world!" with the comma replaced by a space.
 
-The RANK function in SQL is used to assign a rank to each row within a result set based on the values in one or more columns. The basic syntax for the RANK function is:
+- The RANK function in SQL is used to assign a rank to each row within a result set based on the values in one or more columns. The basic syntax for the RANK function is:
 ```sql
 RANK() OVER (ORDER BY column1 [ASC/DESC], column2 [ASC/DESC], ...)
 ```
@@ -119,13 +130,16 @@ This will return a result set with the employee name, salary, and rank, where th
 
 ---
 
-5. What are some Constraints in SQL?
+5. List some Constraints used in SQL?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 
 <details><summary> Show Answer </summary>
 
 <blockquote>
 
-In SQL, a constraint is a rule that is defined on a table column or a group of columns to limit the type of data that can be inserted or updated in the table. Constraints help ensure data integrity and consistency by preventing invalid data from being stored in the table. Here are some common types of constraints in SQL:
+- In SQL, a constraint is a rule that is defined on a table column or a group of columns to limit the type of data that can be inserted or updated in the table. Constraints help ensure data integrity and consistency by preventing invalid data from being stored in the table. Here are some common types of constraints in SQL:
 
 - NOT NULL constraint: This constraint ensures that a column cannot contain NULL values. When a NOT NULL constraint is defined on a column, it means that every row in the table must have a value for that column.
 
@@ -147,6 +161,8 @@ Constraints are an essential feature in SQL that helps maintain the quality and 
 ---
 
 6. What is the difference between Primary Key and Unique Key?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -176,6 +192,8 @@ Both primary key and unique key are used to ensure the uniqueness of values in a
 ---
 7. What is DDL?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> Show Answer </summary>
 
 <blockquote>
@@ -199,7 +217,9 @@ DDL statements are used by database administrators and developers to define the 
 </details>
 
 ---
-8. Tell me some of the keywords for DDL?
+8. List the commands of DDL with its purpose?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -231,6 +251,8 @@ Here are some of the keywords used in DDL (Data Definition Language) in SQL:
 ---
 9. How do you add a column to an existing table?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> Show Answer </summary>
 
 <blockquote>
@@ -256,11 +278,14 @@ ADD email VARCHAR(50);
 ---
 10. How to create a table in SQL?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
 <details><summary> Show Answer </summary>
 
 <blockquote>
 
-To create a new table in SQL, you can use the CREATE TABLE statement followed by the table name and the column definitions. Here's the basic syntax:
+- To create a new table in SQL, you can use the CREATE TABLE statement followed by the table name and the column definitions. Here's the basic syntax:
 ```sql
 CREATE TABLE table_name (
    column1 datatype constraint,
@@ -289,7 +314,10 @@ You can also add other constraints such as UNIQUE, CHECK, and FOREIGN KEY to the
 </details>
 
 ---
-11. How to change the data type for an attribute to a table 
+11. How to change the data type for an attribute in a table ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 
 <details><summary> Show Answer </summary>
 
@@ -317,7 +345,9 @@ Note that when you change the data type of a column, you may also need to update
 </details>
 
 ---
-12. DML in SQL. 
+12. Explain DML in SQL. 
+
+ ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -338,106 +368,96 @@ DML stands for Data Manipulation Language, which is a sub-language of SQL used t
 ---
 13. What is the difference between DELETE, TRUNCATE, and DROP?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
 <details><summary> Show Answer </summary>
 
 <blockquote>
 
-DELETE, TRUNCATE, and DROP are all SQL commands used to remove data or objects from a database, but they differ in their scope and level of impact.
+- DELETE, TRUNCATE, and DROP are all SQL commands used to remove data or objects from a database, but they differ in their scope and level of impact.
 
-DELETE is a DML (Data Manipulation Language) command that removes rows of data from a table. It is used to selectively remove specific rows of data based on a condition specified in the WHERE clause. DELETE only removes data from the table and does not remove the table itself.
+- DELETE is a DML (Data Manipulation Language) command that removes rows of data from a table. It is used to selectively remove specific rows of data based on a condition specified in the WHERE clause. DELETE only removes data from the table and does not remove the table itself.
 
-TRUNCATE is a DDL (Data Definition Language) command that removes all rows from a table, but does not remove the table structure. TRUNCATE is much faster than DELETE because it does not need to log the individual row deletions, but it also cannot be rolled back once it is executed. TRUNCATE also resets the identity seed value for the table, so any subsequent inserts will start with the initial value.
+- TRUNCATE is a DDL (Data Definition Language) command that removes all rows from a table, but does not remove the table structure. TRUNCATE is much faster than DELETE because it does not need to log the individual row deletions, but it also cannot be rolled back once it is executed. TRUNCATE also resets the identity seed value for the table, so any subsequent inserts will start with the initial value.
 
-DROP is a DDL command that removes a table or other database object from the database. When a table is dropped, all data, indexes, and constraints associated with the table are also removed. DROP is a very powerful command and should be used with caution, as it can lead to data loss if used incorrectly.
+- DROP is a DDL command that removes a table or other database object from the database. When a table is dropped, all data, indexes, and constraints associated with the table are also removed. DROP is a very powerful command and should be used with caution, as it can lead to data loss if used incorrectly.
 
-In summary, DELETE is used to remove individual rows of data based on a condition, TRUNCATE is used to remove all rows from a table, and DROP is used to remove a table or other database object entirely. The level of impact and scope of each command should be considered carefully before using it in a production environment.
+- In summary, DELETE is used to remove individual rows of data based on a condition, TRUNCATE is used to remove all rows from a table, and DROP is used to remove a table or other database object entirely. The level of impact and scope of each command should be considered carefully before using it in a production environment.
 
 </blockquote>
 
 </details>
 
 ---
-14. Will a sql database throw an exception 
+14. Will a sql database throw an exception?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 
 <details><summary> Show Answer </summary>
 
 <blockquote>
 
-Yes, a SQL database can throw exceptions or errors when there is an issue with executing a SQL statement.
+- Yes, a SQL database can throw exceptions or errors when there is an issue with executing a SQL statement.
 
-For example, if you try to insert a row into a table with a primary key value that already exists, the database will throw a primary key violation error. Similarly, if you try to create a table with a column name that already exists in another table, the database will throw a column name conflict error.
+- For example, if you try to insert a row into a table with a primary key value that already exists, the database will throw a primary key violation error. Similarly, if you try to create a table with a column name that already exists in another table, the database will throw a column name conflict error.
 
-In addition to syntax errors, databases can also throw exceptions for various reasons such as constraints violations, transaction failures, deadlocks, and other issues.
+- In addition to syntax errors, databases can also throw exceptions for various reasons such as constraints violations, transaction failures, deadlocks, and other issues.
 
-It's important to handle these exceptions properly in your application code to ensure that your application can recover from errors gracefully and provide a good user experience.
+- It's important to handle these exceptions properly in your application code to ensure that your application can recover from errors gracefully and provide a good user experience.
 
 </blockquote>
 
 </details>
 
 ---
-15. SQL vs noSQL
+15. Differentiate between SQL vs noSQL ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
 <blockquote>
 
-SQL (Structured Query Language) and NoSQL (Not Only SQL) are two different approaches to storing and retrieving data.
+- SQL (Structured Query Language) and NoSQL (Not Only SQL) are two different approaches to storing and retrieving data.
 
-SQL databases are relational databases that store data in tables with predefined schemas, where data is structured into rows and columns. SQL databases are best suited for applications that require complex queries, transactions, and data integrity. SQL databases use the ACID (Atomicity, Consistency, Isolation, Durability) model to ensure data consistency and reliability. Popular examples of SQL databases include MySQL, Oracle, Microsoft SQL Server, and PostgreSQL.
+- SQL databases are relational databases that store data in tables with predefined schemas, where data is structured into rows and columns. SQL databases are best suited for applications that require complex queries, transactions, and data integrity. SQL databases use the ACID (Atomicity, Consistency, Isolation, Durability) model to ensure data consistency and reliability. Popular examples of SQL databases include MySQL, Oracle, Microsoft SQL Server, and PostgreSQL.
 
-NoSQL databases, on the other hand, are non-relational databases that store data in flexible, unstructured formats such as documents, key-value pairs, and graphs. NoSQL databases are best suited for applications that require scalability, high availability, and fast, real-time data processing. NoSQL databases typically do not enforce a fixed schema, which makes them highly flexible and adaptable to changing data requirements. However, this flexibility can also make it harder to ensure data consistency and reliability. Popular examples of NoSQL databases include MongoDB, Cassandra, Redis, and Amazon DynamoDB.
+- NoSQL databases, on the other hand, are non-relational databases that store data in flexible, unstructured formats such as documents, key-value pairs, and graphs. NoSQL databases are best suited for applications that require scalability, high availability, and fast, real-time data processing. NoSQL databases typically do not enforce a fixed schema, which makes them highly flexible and adaptable to changing data requirements. However, this flexibility can also make it harder to ensure data consistency and reliability. Popular examples of NoSQL databases include MongoDB, Cassandra, Redis, and Amazon DynamoDB.
 
-The choice between SQL and NoSQL databases depends on the specific needs and requirements of your application. SQL databases are typically better suited for applications that require complex queries, transactions, and data integrity, while NoSQL databases are better suited for applications that require scalability, high availability, and real-time data processing. However, there are also hybrid databases that combine SQL and NoSQL features, offering the best of both worlds.
+- The choice between SQL and NoSQL databases depends on the specific needs and requirements of your application. SQL databases are typically better suited for applications that require complex queries, transactions, and data integrity, while NoSQL databases are better suited for applications that require scalability, high availability, and real-time data processing. However, there are also hybrid databases that combine SQL and NoSQL features, offering the best of both worlds.
 
 </blockquote>
 
 </details>
 
 ---
-16. What would you change about SQL
+
+16. Difference between global and local tables in sql.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
 <blockquote>
 
-Here are some common criticisms and potential improvements for SQL:
+- In SQL, the terms "global" and "local" tables are not commonly used. However, there are concepts of global temporary tables and local temporary tables, which are specific to certain SQL implementations such as Oracle and SQL Server.
 
-- Complexity: SQL can be complex and difficult to learn, especially for non-technical users. Improvements could be made to simplify the language and make it more accessible to beginners.
+- Global temporary tables are tables that are created once and shared across all users and sessions. They are typically used for temporary data storage and are automatically dropped at the end of the session or transaction. Global temporary tables can be accessed by any user or session, and their contents are visible to all sessions.
 
-- Performance: SQL can be slow and inefficient for certain types of queries and data processing tasks. Improvements could be made to optimize the language for better performance and scalability.
+- Local temporary tables, on the other hand, are tables that are created and accessed only within the context of a single session. They are typically used for temporary data storage within a particular session or transaction and are automatically dropped when the session or transaction ends. Local temporary tables are visible only within the session that created them, and their contents are not visible to other sessions or users.
 
-- Lack of flexibility: SQL's fixed schema can make it difficult to adapt to changing data requirements. Improvements could be made to make the language more flexible and adaptable to changing data structures.
-
-- Standardization: SQL is a widely used language, but there are many variations and dialects that can make it difficult to use across different platforms and systems. Improvements could be made to standardize the language and make it more consistent across different implementations.
-
-Overall, SQL is a powerful and widely used language that has evolved over time to address many of its shortcomings. However, there is always room for improvement, and ongoing research and development are needed to ensure that SQL remains a relevant and effective tool for data management and analysis.
+- The choice between global and local temporary tables depends on the specific needs and requirements of your application. Global temporary tables are useful for scenarios where multiple sessions or users need to share temporary data, while local temporary tables are useful for scenarios where temporary data is needed within a single session or transaction.
 
 </blockquote>
 
 </details>
 
 ---
-17. difference between global and local tables in sql.
+17. How do you create a table and populate it in the same instance in PostgreSQL ?
 
-<details><summary> Show Answer </summary>
-
-<blockquote>
-
-In SQL, the terms "global" and "local" tables are not commonly used. However, there are concepts of global temporary tables and local temporary tables, which are specific to certain SQL implementations such as Oracle and SQL Server.
-
-Global temporary tables are tables that are created once and shared across all users and sessions. They are typically used for temporary data storage and are automatically dropped at the end of the session or transaction. Global temporary tables can be accessed by any user or session, and their contents are visible to all sessions.
-
-Local temporary tables, on the other hand, are tables that are created and accessed only within the context of a single session. They are typically used for temporary data storage within a particular session or transaction and are automatically dropped when the session or transaction ends. Local temporary tables are visible only within the session that created them, and their contents are not visible to other sessions or users.
-
-The choice between global and local temporary tables depends on the specific needs and requirements of your application. Global temporary tables are useful for scenarios where multiple sessions or users need to share temporary data, while local temporary tables are useful for scenarios where temporary data is needed within a single session or transaction.
-
-</blockquote>
-
-</details>
-
----
-18. PostgreSQL-how do you create a table and populate it in the same instance
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -473,17 +493,19 @@ WHERE
 </details>
 
 ---
-19. what is sqllite
+18. what is SQLite?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
 <blockquote>
 
-SQLite is a lightweight, open-source, self-contained, and serverless relational database management system (RDBMS) that is embedded in applications. It is widely used in mobile and desktop applications, as well as in small-scale web applications.
+- SQLite is a lightweight, open-source, self-contained, and serverless relational database management system (RDBMS) that is embedded in applications. It is widely used in mobile and desktop applications, as well as in small-scale web applications.
 
-One of the main advantages of SQLite is its small size and low memory footprint, which makes it easy to integrate into applications and use on devices with limited resources. It also supports standard SQL syntax and provides a number of features common to larger RDBMSs, such as transactions, indexing, and triggers.
+- One of the main advantages of SQLite is its small size and low memory footprint, which makes it easy to integrate into applications and use on devices with limited resources. It also supports standard SQL syntax and provides a number of features common to larger RDBMSs, such as transactions, indexing, and triggers.
 
-SQLite databases are stored as single files on disk, making them easy to distribute and manage. They can be accessed using a variety of programming languages, including C, C++, Java, Python, and others.
+- SQLite databases are stored as single files on disk, making them easy to distribute and manage. They can be accessed using a variety of programming languages, including C, C++, Java, Python, and others.
 
 Some common use cases for SQLite include:
 
@@ -498,11 +520,15 @@ Some common use cases for SQLite include:
 </details>
 
 ---
-20. what is sql  
+19. what is sql?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
 
 <details><summary> Show Answer </summary>
 
 <blockquote>
+
 SQL (Structured Query Language) is a programming language used to manage and manipulate relational databases. It is the standard language used by most RDBMSs (Relational Database Management Systems) such as MySQL, Oracle, PostgreSQL, and Microsoft SQL Server, to perform tasks such as creating and modifying tables, inserting, updating and deleting data, and querying data from the database.
 
 SQL provides a standardized syntax and set of commands for interacting with relational databases. It consists of several types of statements, including:
@@ -520,24 +546,28 @@ SQL is widely used in data-driven applications, from simple web applications to 
 
 ---
 
-21. What are parallel queries in sql
+20. What are parallel queries in sql?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
 <blockquote>
 
-Parallel queries in SQL are a feature that allows multiple processors or cores to work together to process a single SQL query in parallel, thereby reducing the query execution time. In other words, it enables the database to divide a single query into smaller parts that can be executed simultaneously on multiple processors, rather than executing the query sequentially on a single processor.
+- Parallel queries in SQL are a feature that allows multiple processors or cores to work together to process a single SQL query in parallel, thereby reducing the query execution time. In other words, it enables the database to divide a single query into smaller parts that can be executed simultaneously on multiple processors, rather than executing the query sequentially on a single processor.
 
-This feature is particularly useful for large, complex queries that involve multiple tables, joins, and aggregations, as it can significantly reduce the time it takes to process the query and return the results.
+- This feature is particularly useful for large, complex queries that involve multiple tables, joins, and aggregations, as it can significantly reduce the time it takes to process the query and return the results.
 
-Parallel queries are supported by many relational database management systems, including Oracle, Microsoft SQL Server, and PostgreSQL. However, not all queries can benefit from parallel execution, and the performance gain achieved by parallel queries depends on several factors, including the complexity of the query, the hardware configuration, and the workload on the database server.
+- Parallel queries are supported by many relational database management systems, including Oracle, Microsoft SQL Server, and PostgreSQL. However, not all queries can benefit from parallel execution, and the performance gain achieved by parallel queries depends on several factors, including the complexity of the query, the hardware configuration, and the workload on the database server.
 
 </blockquote>
 
 </details>
 
 ---
-22. What are Ranking Functions
+21. What are Ranking Functions?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -561,7 +591,9 @@ Ranking functions are commonly used in business intelligence and data analysis a
 </details>
 
 ---
-23. What is a primary key in SQL.
+22. What is a primary key in SQL ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -583,29 +615,11 @@ Creating a primary key in SQL involves specifying the PRIMARY KEY constraint whe
 </details>
 
 ---
-24. What is the difference between a unique key, a foreign key, and a primary key?
 
-<details><summary> Show Answer </summary>
 
-<blockquote>
+23. Can you have more than one primary key? 
 
-Unique key, foreign key, and primary key are all types of constraints that can be applied to a column or a set of columns in a SQL table. Here are the main differences between these three types of keys:
-
-- Primary key: A primary key is a column or a set of columns that uniquely identify each row in a table. It is a unique constraint that enforces data integrity by ensuring that no duplicate rows are entered into the table. A table can have only one primary key.
-
-- Unique key: A unique key is similar to a primary key in that it also enforces uniqueness of values in a column or a set of columns. However, unlike a primary key, a table can have multiple unique keys. Unique keys can be used to enforce business rules and data integrity, but they cannot be referenced by foreign keys.
-
-- Foreign key: A foreign key is a column or a set of columns in a table that refers to the primary key or the unique key of another table. It establishes a relationship between the two tables, enabling data to be retrieved and combined from multiple tables. Foreign keys ensure data integrity by enforcing referential integrity rules, which prevent invalid data from being inserted into a table. A foreign key can reference the primary key or a unique key of another table.
-
-In summary, a primary key enforces uniqueness and identifies each row in a table, a unique key enforces uniqueness but cannot be referenced by foreign keys, and a foreign key establishes relationships between tables and enforces referential integrity rules.
-
-</blockquote>
-
-</details>
-
----
-
-25. Can you have more than one primary key? 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -619,7 +633,9 @@ No, a table can have only one primary key. The primary key constraint ensures th
 
 ---
 
-26. How do you create a primary key?
+24. How do you create a primary key?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -652,7 +668,9 @@ This will add a primary key constraint to the order_id column in the orders tabl
 </details>
 
 ---
-27. What is a foreign key and how do you create it ?
+25. What is a foreign key and how do you create it ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -693,7 +711,9 @@ This will create a foreign key constraint on the product_id column in the orders
 </details>
 
 ---
-28. What are CRUD operations?
+26. What are CRUD operations?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -714,7 +734,10 @@ Together, these four operations provide the basic functionality needed to manage
 </details>
 
 ---
-29. What is LIKE operator used for?
+27. What is LIKE operator used for?
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -740,7 +763,9 @@ The LIKE operator is useful for searching for data that matches a specific patte
 </details>
 
 ---
-30. Parent-child relationship SQL?
+28. what is Parent-child relationship SQL?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -775,7 +800,9 @@ This relationship means that each order can have multiple items, and each item b
 </details>
 
 ---
-31. how would you establish the relationship between employee and department?
+29. how would you establish the relationship between employee and department tables?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -808,7 +835,9 @@ This relationship means that each employee belongs to a single department, and e
 
 ---
 
-32. What is the substring function used for?
+30. What is the substring function used for?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -835,7 +864,9 @@ The SUBSTRING function is useful for extracting parts of a string, such as a per
 </details>
 
 ---
-33. Tell me about transaction control language and its advantages
+31. Talk about transaction control language and its advantages
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -860,7 +891,9 @@ In summary, TCL provides a robust mechanism for managing transactions in a datab
 </details>
 
 ---
-34. What is a COMMIT?
+32. What is the use of COMMIT in SQL?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -884,7 +917,9 @@ It's important to note that once a transaction is committed, its changes cannot 
 
 ---
 
-35. What is the difference between Commit, save point, and Rollback in Oracle?
+33. What is the difference between Commit, save point, and Rollback in Oracle?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -905,7 +940,9 @@ In summary, COMMIT is used to permanently save changes made by a transaction, RO
 </details>
 
 ---
-36. What is the syntax for UPDATE?
+34. What is the syntax for UPDATE in SQL?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -938,7 +975,9 @@ This statement sets the "price" column to 19.99 for all products with a "product
 </details>
 
 ---
-37. SQL window functions 
+35. What is SQL window functions?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
@@ -975,7 +1014,9 @@ This query uses the SUM window function to calculate the running total of the "s
 
 ---
 
-38. What is composition in SQL?
+36. What is composition in SQL?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -995,7 +1036,10 @@ By using these keywords in combination with parentheses, SQL allows you to creat
 </details>
 
 ---
-39. How would you delete duplicate info in a database?
+37. How would you delete duplicate record in a database?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -1031,6 +1075,7 @@ Note that you should always back up your data before deleting any rows from a ta
 </details>
 
 ---
+
 
 
 

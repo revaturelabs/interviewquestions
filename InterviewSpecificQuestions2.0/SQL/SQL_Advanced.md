@@ -1,4 +1,7 @@
 1. What is difference between Table and View in SQL?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -12,6 +15,9 @@ A `table` in SQL is a database object that stores data in `rows` and `columns`, 
 ---
 
 2. What is a View?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -25,6 +31,9 @@ A `view` in SQL is a virtual table that does not store data physically but prese
 ---
 
 3. Does a view contain any data in it?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -38,6 +47,8 @@ No, a `view` does not contain any data in it. It is a virtual table that present
 ---
 
 4. Can you create a view from another view?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -62,6 +73,8 @@ WHERE condition;
 
 5. How do you create a table view?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -83,7 +96,9 @@ In this example, `my_view` is the name of the view, `column1`, `column2`, etc. a
 
 ---
 
-6. as with unions and views. 
+6. How to use 'as' with unions and views. 
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -120,6 +135,8 @@ In this query, the resulting view will be named "my_view" and the column names i
 
 7. What is the best practice for using triggers?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -143,6 +160,8 @@ Triggers are powerful tools in SQL, but they should be used with caution to avoi
 ---
 
 8. Create a trigger to delete an account if it has more than zero contacts.
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -171,7 +190,9 @@ This trigger will prevent the deletion of any account that has one or more conta
 
 ---
 
-9. Types of triggers in SQL?
+9. List the Types of triggers in SQL?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -192,6 +213,9 @@ Both types of triggers can be defined as either "BEFORE" or "AFTER" triggers. BE
 ---
 
 10. What is the maximum number of records returned by a trigger at once?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -204,6 +228,9 @@ The maximum number of records returned by a trigger at once depends on the datab
 ---
 
 11. What are triggers?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -216,7 +243,10 @@ In SQL, a `trigger` is a special type of stored procedure that automatically exe
 
 ---
 
-12. What are SQL procedures?
+12. What are procedures in SQL?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -229,6 +259,9 @@ SQL procedures are a set of pre-written SQL codes that are saved in the database
 ---
 
 13. What is a stored procedure?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -241,6 +274,9 @@ A `stored procedure` is a type of SQL procedure that is stored in the database s
 ---
 
 14. How to check the performance of a stored procedure?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -260,6 +296,9 @@ There are different ways to check the performance of a stored procedure in SQL. 
 ---
 
 15. What is the difference between a stored procedure and a function in SQL?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -275,7 +314,8 @@ A `function` is a precompiled SQL statement that returns a single value or a tab
 ---
 
 
-16. Where can we use SQL procedures?
+16. Where do we use SQL procedures?
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -296,6 +336,9 @@ SQL procedures can be used in many places, such as:
 ---
 
 17. How to write a stored procedure?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -336,6 +379,8 @@ Here, `procedure_name` is the name of the stored procedure, and `@parameter1`, `
 
 19. What is the difference between UNION and UNION ALL?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b>Answer</b></summary>
   
 <blockquote>
@@ -355,6 +400,8 @@ So, we use UNION when we want to combine two or more tables with the same struct
 
 20. What is the difference between clustered index and non-clustered index?
 
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -367,6 +414,8 @@ A clustered index determines the physical order of data in a table, which means 
 
 21. What are indexes in SQL?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -378,6 +427,8 @@ Indexes are database structures that improve the performance of queries by enabl
 ---
 
 22. Where would you place a COUNT() in SQL?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -396,6 +447,9 @@ This will return the total number of rows in the table "customers".
 ---
 
 23. What are aggregate functions?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -408,6 +462,9 @@ Aggregate functions are SQL functions that are used to perform calculations on a
 
 
 24. How do you use the MIN(), MAX() aggregation function?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -435,6 +492,8 @@ FROM table_name;
 
 25. Explain SQL GROUP BY clause.
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -457,23 +516,19 @@ This statement groups the sales data by the Salesperson and Product columns and 
 
 ---
 
-26.  What do you need to change in the SELECT statement if you use a GROUP BY statement?
+26 List the aggregate functions
 
-<details><summary><b> Show Answer</b></summary>
-  
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
 <blockquote>
 
-When using GROUP BY, include the columns to group by in the `SELECT` statement and any other columns in an aggregate function. This means that you cannot select columns that are not included in the GROUP BY clause or an aggregate function.
-
-For example, if you have a table of customer orders with columns for OrderID, CustomerID, OrderDate, and OrderTotal, and you want to group the orders by customer and display the total order amount for each customer, you could use the following SQL statement:
-
-```sql
-SELECT CustomerID, SUM(OrderTotal) AS TotalAmount
-FROM Orders
-GROUP BY CustomerID;
-```
-
-This statement selects the CustomerID column and calculates the sum of the OrderTotal column for each customer group.
+- **AVG():** This function is used to returns the average value from specified columns.
+- **COUNT():** This function is used to returns the number of table rows, including rows with null values.
+- **MAX():** This function is used to returns the largest value among the group.
+- **MIN():** This function is used to returns the smallest value among the group.
+- **SUM():** This function is used to returns the total summed values(non-null) of the specified column.
 
 </blockquote>
 
@@ -481,7 +536,12 @@ This statement selects the CustomerID column and calculates the sum of the Order
 
 ---
 
+
+
 27. Explain SQL GROUP BY clause.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -506,6 +566,8 @@ This statement groups the sales data by the Salesperson and Product columns and 
 ---
 
 28. What is the difference between GROUP BY and ORDER BY?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -534,7 +596,10 @@ This statement groups the orders by the CustomerID column and calculates the sum
 
 ---
 
-29. What are the available scalar functions in SQL?
+29. List the scalar functions in SQL?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -551,3 +616,7 @@ SQL has a variety of built-in scalar functions that can be used to manipulate da
 </blockquote>
 
 </details>
+
+
+
+---
