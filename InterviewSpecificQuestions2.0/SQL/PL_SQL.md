@@ -2,7 +2,7 @@
 
 1. What is PL/SQL?
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -19,7 +19,7 @@
 ---
 2. What is the difference between SQL and PL/SQL?
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -37,7 +37,7 @@
 ---
 3. What are the different types of PL/SQL blocks?
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -56,7 +56,7 @@ PL/SQL supports three types of blocks:
 ---
 4. How do you declare variables in PL/SQL?
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -80,7 +80,7 @@ END;
 ---
 5. What are cursors in PL/SQL?
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -91,7 +91,6 @@ END;
 - explicit cursors (manually declared and used for more control).
 
 
-
 </blockquote> 
 
 </details>
@@ -99,7 +98,7 @@ END;
 ---
 6. Explain the Types of Cursors?
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -117,6 +116,7 @@ END;
 - OPEN
 - FETCH
 - CLOSE
+
 </blockquote> 
 
 </details>
@@ -124,7 +124,7 @@ END;
 ---
 7. What is an exception in PL/SQL?
 
-![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -141,7 +141,7 @@ END;
 ---
 8. How do you handle exceptions in PL/SQL?
 
-![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -158,7 +158,7 @@ END;
 ---
 9. Mention a Few Predefined Exceptions
 
-![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -177,7 +177,7 @@ The following are some examples of predefined exceptions:
 ---
 10. How do you define and call a procedure in PL/SQL?
 
-![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -185,11 +185,15 @@ The following are some examples of predefined exceptions:
 
 - You can define a procedure in PL/SQL using the CREATE PROCEDURE statement. 
 **For example:**
+
+```sql
+
 CREATE OR REPLACE PROCEDURE my_procedure IS
 BEGIN
    -- code goes here
 END;
 
+```
 - To call a procedure, you can simply use its name followed by parentheses. For example: my_procedure();
 
 </blockquote> 
@@ -199,7 +203,7 @@ END;
 ---
 11. What do you know about the Commands COMMIT, ROLLBACK, and SAVEPOINT?
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -210,3 +214,201 @@ END;
 **ROLLBACK:** The ROLLBACK command is used at the end of a transaction to undo any modifications made since the start of the transaction.
 
 **SAVEPOINT:** The SAVEPOINT command saves the current point with a unique name during the processing of a transaction.
+
+</blockquote> 
+
+</details>
+
+---
+
+12. Explain the difference between a stored procedure and a function in PL/SQL.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- A stored procedure in PL/SQL is a named block of code that can be invoked using its name. It is primarily used to perform an action or a series of actions and may or may not return a value.
+
+- A function in PL/SQL is also a named block of code, but it must return a value. It is used to perform a specific computation or operation and return the result to the caller.
+
+</blockquote> 
+
+</details>
+
+---
+
+13. What is a PL/SQL record? How is it different from a database table?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- A PL/SQL record is a composite data type that can hold multiple values of different data types. It is similar to a row in a database table but does not have a fixed structure like a table.
+
+</blockquote> 
+
+</details>
+
+---
+
+14. Explain the difference between a cursor and a cursor variable in PL/SQL.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- A cursor in PL/SQL is a named control structure that allows you to process a result set returned by a query. It is static and needs to be explicitly declared and opened.
+- A cursor variable, also known as a REF CURSOR, is a data type that allows dynamic fetching of query results. It can be used to pass result sets between PL/SQL blocks or store them in variables.
+
+</blockquote> 
+
+</details>
+
+---
+
+15. How do you handle NULL values in PL/SQL?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- A cursor in PL/SQL is a named control structure that allows you to process a result set returned by a query. It is static and needs to be explicitly declared and opened.
+- A cursor variable, also known as a REF CURSOR, is a data type that allows dynamic fetching of query results. It can be used to pass result sets between PL/SQL blocks or store them in variables.
+
+</blockquote> 
+
+</details>
+
+---
+
+16. What are PL/SQL triggers? How are they used?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- PL/SQL triggers are stored programs that are automatically executed or fired in response to specific events or changes in the database.
+- Triggers can be used to enforce data integrity rules, perform auditing or logging, or automate complex business logic.
+
+</blockquote> 
+
+</details>
+
+---
+
+17. What are the advantages of using PL/SQL records over the %ROWTYPE attribute?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- PL/SQL records allow you to define custom data structures with specific fields, while %ROWTYPE attribute automatically creates a record type that matches a table's structure. The advantages of using records include flexibility, reusability, and improved code readability.
+
+</blockquote> 
+
+</details>
+
+---
+18. Explain the difference between a PL/SQL package and a standalone procedure or function.
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- A PL/SQL package is a named container that includes one or more procedures, functions, variables, and cursors. 
+- It provides a modular and organized approach to code implementation. In contrast, a standalone procedure or function is not contained within a package and is typically used for smaller, isolated tasks.
+
+</blockquote> 
+
+</details>
+
+---
+
+19. Explain the difference between a database trigger and a PL/SQL trigger.
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- A database trigger is a trigger defined at the database level and is executed automatically when a specified event occurs. 
+- On the other hand, a PL/SQL trigger is a trigger defined within a PL/SQL block and is executed explicitly as part of the PL/SQL code.
+
+</blockquote> 
+
+</details>
+
+---
+
+20. What are autonomous transactions in PL/SQL? When and why would you use them?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+-  Autonomous transactions in PL/SQL are independent transactions that are not affected by the main transaction. 
+- They are useful when you need to perform actions that are independent of the main transaction, such as logging or auditing. Autonomous transactions are created using the PRAGMA AUTONOMOUS_TRANSACTION directive.
+
+</blockquote> 
+
+</details>
+
+---
+
+21. How do you handle bulk data processing in PL/SQL?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+-  Bulk data processing in PL/SQL can be achieved using bulk operations such as BULK COLLECT and FORALL.
+-  BULK COLLECT allows you to fetch multiple rows at once into a collection, while FORALL allows you to perform DML operations on a collection of data in a single statement, improving performance.
+
+</blockquote> 
+
+</details>
+
+---
+
+22. How do you write a basic SELECT statement in PL/SQL?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+```sql
+DECLARE
+   variable_name data_type;
+BEGIN
+   SELECT column_name INTO variable_name FROM table_name WHERE condition;
+END;
+
+```
+
+</blockquote> 
+
+</details>
+
+---
+
