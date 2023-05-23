@@ -98,7 +98,7 @@ It provides a generic implementation of standard data structures like linked lis
 
 ---
 
-5. Do you know about Concurrent Collection classes in C#?
+5. Can you explain about the Concurrent Collection classes in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -141,7 +141,7 @@ It provides various threads-safe collection classes that are used in place of th
 
 ---
 
-7. Do we face any problems with Array and ArrayList Collection in C#? 
+7. What are the challenges in using Array and ArrayList Collection in C#? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -149,9 +149,9 @@ It provides various threads-safe collection classes that are used in place of th
 
 <blockquote> 
 
-In the case of Array and ArrayList in C#, we access the elements from the collection using the index position. The index position of the elements starts from zero (0) to the number of elements – 1. But it is very difficult for us to remember the index position of the element to access the values.
+In the case of Array and ArrayList in C#, we access the elements from the collection using the index position. The index position of the elements starts from zero (0) to the number of elements – 1. But it is very difficult to remember the index position of the element to access the values.
 
-**For example**, let us say we have an employee array that contains the name, address, mobile, dept no, email id, employee id, salary, location, etc. Now if I want to know the email id or dept number of the employee then it is very difficult for me to use the index position.
+**For example**, let us say we have an employee array that contains the name, address, mobile, dept no, email id, employee id, salary, location, etc. Now if we need to know the email id or dept number of the employee then it is very difficult to use the index position.
 
 </blockquote>
 
@@ -213,7 +213,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 ---
 
-11. Can you brief me on the Stack Collection class in C#?
+11. Can you brief on the Stack Collection class in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -234,7 +234,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 ---
 
-12. Can you brief me on the Queue Collection class in C#?
+12. Can you brief on the Queue Collection class in C#?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -297,7 +297,7 @@ When we add elements to a hashtable like string, int, or complex types, then it 
 
 ---
 
-15. Can you brief me on Generic Dictionary Collection Class?
+15. Can you brief on Generic Dictionary Collection Class?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -385,4 +385,214 @@ foreach(datatype var_name in collection_variable)
 </details>
 
 ---
+    
+19. What is HashTable? What is the difference between HashTable and Dictionary?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+ The Hashtable in C# is a collection that stores the element in the form of “Key-Value" Pairs.
+ Both Dictionary and Hashtable in C# are used to hold data as a collection of key-value pairs. But Dictionary is a generic type collection while Hashtable is a non-generic  type collection.
+ Dictionary is defined in System.Collections.Generic namespace while HashTable is defined in the System.Collection namespace.
+ In Dictionary you must have to specify the "key" name but the HashTable generates the hash code internally.
+
+</blockquote>
+
+</details>
+
+---    
+    
+20. What is the difference between the Peek() and Pop() operation?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+ Pop(): The Pop() method returns the last element and removes it from a stack. So the pop() method is used to remove and return the object at the top of the Stack. 
+ Peek():  The peek() method is used to return the object from the top of the Stack without removing it. So the Peek() method returns the lastly added value from the stack  but does not remove it.
+
+</blockquote>
+
+</details>
+
+---       
+    
+21. What is the difference between Enumerable and IEnumerator?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+IEnumerable and IEnumerator both are interfaces in C#.
+
+IEnumerable is an interface defining a single method GetEnumerator() that returns an IEnumerator interface.
+
+This works for readonly access to a collection that implements that IEnumerable can be used with a foreach statement.
+
+</blockquote>
+
+</details>
+
+---   
+    
+22. We can create a Generic class, however, we cannot create a generic interface in C#.NET, Is it true?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+No it is false, We can also create Generic Interfaces.
+
+</blockquote>
+
+</details>
+
+---    
+    
+23. Can we give multiple constraint on type argument? and if yes give example or if no then why?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+ Yes we can give multiple constraint on type argument.
+ 
+    Example:
+      public class MyContainer<T> where T: class, IComparable
+      {
+                  //Insert code here
+  }
+    
+  On the aove Class MyContainer requires that its type argument must be a reference type and it must implement IComparable interface.
+
+
+</blockquote>
+
+</details>
+
+---    
+    
+24. Why hashtables are not serialzable in .NET?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+The XmlSerializer cannot process classes implementing the Idictionary interface due to the fact that a hashtable does not have a counterpart in the XSD type system. The only solution is to implement a custom hashtable that does not implement theIDictionary interface.
+
+</blockquote>
+
+</details>
+
+---   
+    
+25. What is IComparable.CompareTo(Object) method in c#?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Compares the current instance with another object of the same type and returns an integer that indicates whether the current instance precedes, follows, or occurs in the same position in the sort order as the other object.
+
+public int CompareTo (object? obj);
+
+</blockquote>
+
+</details>
+
+---    
+    
+26. Difference between IComparable and IComparer Interface in C# ?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+IComparable has a method named as CompareTo & has only 1 parameter. Because it compares the current object with the next object which is coming as a parameter. Hence current object CompareTo next object.
+But IComparer has 2 parameters because we are going to pass both of the objects as arguments. Hence method name is Compare: saying Compare the first parameter with the second parameter.
+
+</blockquote>
+
+</details>
+
+---   
+    
+27. What is the advantage of using Generics ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+It helps you to maximize code reuse, type safety, and performance.
+    
+You can create your own generic interfaces, classes, methods, events, and delegates.
+
+You may create generic classes constrained to enable access to methods on particular data types.
+
+You may get information on the types used in a generic data type at run-time by means of reflection.
+
+</blockquote>
+
+</details>
+
+---   
+    
+28. What is C# collection initializers ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Collection initializers allow to specify elements to the collection during the object creation insice the {} brackets.
+
+Program.cs
+var vals = new List<int>() { 1, 2, 3, 4, 5, 6, 7 };
+
+int sum = vals.Sum();
+Console.WriteLine(sum);
+
+</blockquote>
+
+</details>
+
+---   
+    
+29. Difference between a Singly Linked List and a Doubly Linked List ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+A Singly-Linked List contains a pointer to only its next node whereas a Doubly-Linked List contains a pointer to both its next as well as previous node.
+
+</blockquote>
+
+</details>
+
+---    
+    
+    
 
