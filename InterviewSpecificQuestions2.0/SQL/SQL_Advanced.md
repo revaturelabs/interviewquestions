@@ -366,6 +366,9 @@ Here, `procedure_name` is the name of the stored procedure, and `@parameter1`, `
 
 18. What is a UNION?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
 <details><summary><b>Answer</b></summary>
   
 <blockquote>
@@ -379,7 +382,7 @@ Here, `procedure_name` is the name of the stored procedure, and `@parameter1`, `
 
 19. What is the difference between UNION and UNION ALL?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Answer</b></summary>
   
@@ -414,7 +417,7 @@ A clustered index determines the physical order of data in a table, which means 
 
 21. What are indexes in SQL?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -428,7 +431,7 @@ Indexes are database structures that improve the performance of queries by enabl
 
 22. Where would you place a COUNT() in SQL?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -448,7 +451,7 @@ This will return the total number of rows in the table "customers".
 
 23. What are aggregate functions?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -463,7 +466,7 @@ Aggregate functions are SQL functions that are used to perform calculations on a
 
 24. How do you use the MIN(), MAX() aggregation function?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -492,7 +495,7 @@ FROM table_name;
 
 25. Explain SQL GROUP BY clause.
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -518,7 +521,7 @@ This statement groups the sales data by the Salesperson and Product columns and 
 
 26 List the aggregate functions
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> Show Answer </summary>
 
