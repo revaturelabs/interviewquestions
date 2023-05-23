@@ -1225,34 +1225,7 @@ Model-View-Controller (MVC) is a design pattern that divides a software applicat
 </details>
 
 ---
-
-54. Explain the different methods involved in the process of session management in servlets?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details><summary><b> Show Answer</b></summary>
-
-<blockquote>
-
-The different methods involved in the session management in servlets are as follows:
-
-- **User Authentication**: A user tries to access a protected resource, such as a JSP page. If the user has been authenticated, the servlet container makes the resource available; otherwise, the user is asked for a username and password
-
-- **HTML Hidden Field**: The `<input type="hidden">` defines a hidden input field. A hidden field lets web developers include data that cannot be seen or modified by users when a form is submitted. A hidden field often stores what database record that needs to be updated when the form is submitted
-
-- **Cookies**: A small text file created by a website that is stored in the user’s computer either temporarily for that session only or permanently on the hard disk. Cookies provide a way for the website to recognize you and keep track of your preferences
-
-- **URL Rewriting**: URL rewriting is an automatic process of altering a program written for manipulating the parameters in a URL (Uniform Resource Locator). URL manipulation is employed as a convenience by a Web server administrator. 
-
-- **Session Management API**: Session Management API is built on top of the Request-Response methods for session tracking. Session Tracking is a way to maintain the state/data of a user. It is also known as session management in servlet.
-
-</blockquote>
-
-</details>
-
----
-
-55. What is a Web Container?
+54. What is a Web Container?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1268,7 +1241,7 @@ A web container or a Servlet container is used to interact with the Servlet and 
 
 ---
 
-56. How a servlet works without the `main()` method?
+55. How a servlet works without the `main()` method?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1284,7 +1257,7 @@ Servlets don’t have a `main()` method. Because servlets are executed using web
 
 ---
 
-57. What is the difference between Context Parameter and Context Attribute?
+56. What is the difference between Context Parameter and Context Attribute?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1301,7 +1274,7 @@ Context Parameter is a value stored in the deployment descriptor, which is the `
 ---
 
 
-58. How can you create a session in servlet?
+57. How can you create a session in servlet?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1320,7 +1293,7 @@ We can create HttpSession object by calling the public method `getSession()` of 
 
 ---
 
-59. Explain the working of `service()` method in a servlet.
+58. Explain the working of `service()` method in a servlet.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1345,7 +1318,7 @@ The container calls the `service()` method and service method invokes `doGet(), 
 
 ---
 
-60. How do you get the IP address of the client in the servlet?
+59. How do you get the IP address of the client in the servlet?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
