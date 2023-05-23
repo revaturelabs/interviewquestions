@@ -254,7 +254,7 @@ Backup is important to handle the issues of hardware and 3 database replicas are
 
 ---
 
-16. What are the benefits of a Sharded Database?
+16. What are the benefits of a Shared Database?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
