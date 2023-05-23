@@ -2,6 +2,8 @@
 
 1. How to use I/O stream to read from a file in Java? 
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -37,6 +39,8 @@ fis.close();
 
 2. Can you tell us about the bufferReader and fileReader in Java? 
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -54,6 +58,8 @@ In Java, BufferedReader and FileReader are commonly used for reading files. File
 
 3. Can you brief on Serialization in Java?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -67,3 +73,72 @@ The Serializable interface is used to mark a class as serializable, and the Obje
 
 ---
 
+4. How can I write to a file in Java?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+You can write to a file in Java using classes like FileOutputStream, BufferedWriter, or PrintWriter. Here's an example using BufferedWriter:
+
+```java
+try (BufferedWriter writer = new BufferedWriter(new FileWriter("file.txt"))) {
+    writer.write("Hello, World!");
+} catch (IOException e) {
+    e.printStackTrace();
+}
+```
+
+</blockquote>
+
+</details>
+
+---
+
+5. How can I create a directory in Java?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+You can create a directory in Java using the mkdir() or mkdirs() methods of the File class. The mkdir() method creates a single directory, while mkdirs() creates multiple directories recursively if needed. Here's an example:
+
+```java
+File directory = new File("mydir");
+if (directory.mkdir()) {
+    System.out.println("Directory created successfully.");
+} else {
+    System.out.println("Failed to create directory.");
+}
+```
+
+</blockquote>
+
+</details>
+
+---
+
+6. How can I delete a file in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+You can delete a file in Java using the delete() method of the File class. Here's an example:
+
+```java
+File file = new File("file.txt");
+if (file.delete()) {
+    System.out.println("File deleted successfully.");
+} else {
+    System.out.println("Failed to delete file.");
+}
+```
+</blockquote>
+
+</details>
+
+---

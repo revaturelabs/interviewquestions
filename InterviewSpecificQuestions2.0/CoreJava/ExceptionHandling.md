@@ -17,7 +17,7 @@ Exceptions in Java can arise from different kinds of situations such as wrong da
 
 --- 
 
-2. What is the difference between Throws and Throws?
+2. What is the difference between Throw and Throws?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -38,7 +38,7 @@ Exceptions in Java can arise from different kinds of situations such as wrong da
 
 --- 
 
-3. How to handle class not found exceptions?
+3. How to handle ClassNotFoundException exceptions?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -72,7 +72,7 @@ To fix ClassNotFoundException, firstly we must go through the exception stack tr
 
  - finally, the block in Java Exception Handling executes important code whether the exception occurs or not.
 
- - static keyword is used to create a class-level variable in java. static variables and methods are part of the class, not the instances of the class.
+ - static keyword is used to create a class-level variable in Java. static variables and methods are part of the class, not the instances of the class.
  
 </blockquote>
 </details>
@@ -80,7 +80,7 @@ To fix ClassNotFoundException, firstly we must go through the exception stack tr
 --- 
 
 
-5. Brief us on Errors
+5. What are Errors?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -148,26 +148,28 @@ Finally is a code block. It is used with a try-catch block for handling exceptio
 
 ---
 
-9. Does all the code inside the try block will be executed?
+9. Does all the code inside the try block be executed?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 	
-> Whenever an exception is occurred in the try block, the rest of the code after the exception occurs line will not be executed.
+In Java, the code inside the try block will be executed unless an exception occurs that causes the control flow to transfer to an appropriate catch block or finally block. The try block defines a section of code where an exception might occur, and the Java runtime system attempts to execute that code normally.
+
+If no exception occurs, the code within the try block will execute in its entirety, statement by statement, from top to bottom. However, if an exception is thrown during the execution of the try block, the remaining code within the block will be skipped, and the flow of control will transfer to the corresponding catch block or finally block (if present).
 	
 </details>
 
 ---
 
-10. Can we have multiple catch blocks with the single try block?
+10. Can we have multiple catch blocks with a single try block?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b> Show Answer</b></summary>	
 <blockquote>
 
-yes, we can have multiple catch blocks with the single try block. 
+yes, we can have multiple catch blocks with a single try block. 
 
 
 Important Rule: The order of the catch block must be from most specific to most general one i.e. catch for ArithmeticException must come before catching for Exception.
@@ -194,7 +196,7 @@ Important Rule: The order of the catch block must be from most specific to most 
 
 --- 
 
-12. How can you handle exceptions in Java?
+12. How will you handle exceptions in Java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -203,17 +205,17 @@ Important Rule: The order of the catch block must be from most specific to most 
   
 <blockquote>
  
- We can handle exceptions using
+ We can handle exceptions by using
 
  1. try, catch, and finally block
- 2. throw, throws
+ 2. throw, throws keywords
  
 </blockquote>
 </details>
 
 --- 
 
-13. What is the difference between exception and error in Java?
+13. What is the main difference between Exception and Error in Java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -222,7 +224,7 @@ Important Rule: The order of the catch block must be from most specific to most 
   
 <blockquote>
  
- Errors happen while an application is running. For instance, an Out of Memory Error occurs in case the JVM runs out of memory. On the other hand, exceptions are mainly caused by the application. For instance, Null Pointer Exception happens when an app tries to get through a null object.
+ The main difference between Exception and Error in Java is that exceptions represent problems that can occur during the normal execution of a program and are meant to be caught and handled, while errors indicate severe problems that are typically unrecoverable and are not meant to be caught or handled by regular application code.
  
 </blockquote>
 </details>
@@ -245,7 +247,7 @@ Java allows us to create our exception based on our needs known as a custom exce
 
 --- 
 
-15. How do you create custom exceptions in java?
+15. How do you create a custom exception in Java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -271,7 +273,7 @@ public class IncorrectUserNameException extends Exception {
 
 ---
 
-16. How to avoid exceptions.
+16. How to avoid Exceptions?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -279,7 +281,7 @@ public class IncorrectUserNameException extends Exception {
   
 <blockquote>
 
-To avoid exception exception in java you can :
+To avoid exception exception in Java you can :
 
 1. Check for null values: Whenever you are working with an object, check whether it is null before using it. This can help to avoid NullPointerExceptions.
 
@@ -295,7 +297,7 @@ To avoid exception exception in java you can :
 
 ---
 
-17. How to handle exceptions?
+17. How to handle Exceptions?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -369,7 +371,7 @@ Exception handling allows developers to handle and manage errors or exceptional 
 
 ---
 
-21. What is a null pointer exception?
+21. What is a NullPointerException?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -377,7 +379,7 @@ Exception handling allows developers to handle and manage errors or exceptional 
   
 <blockquote>
 
-A null pointer exception is a common runtime exception that occurs when a program tries to use a null reference.
+A NullPointerException is a common runtime exception that occurs when a program tries to use a null reference.
 
 Null pointer exceptions can occur in various situations, such as when trying to call a method or access a property on a null reference, when trying to iterate over a null collection.
 
@@ -502,7 +504,7 @@ In Java, `final`, `finally`, and `finalize` are three different keywords that se
 
 ---
 
-26. What are throws and throwable?
+26. What are throws and Throwable?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -582,6 +584,279 @@ Yes, it is possible to nest try-catch blocks in Java. This means that you can ha
 
 </blockquote>
 
+</details>
+
+---
+
+31. Differentiate throw vs throws vs Throwable.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+throw: The `throw` keyword is used to explicitly throw an exception within a method. It is followed by an instance of a subclass of Throwable or a derived class. When an exception is thrown, it interrupts the normal flow of the program and transfers control to an appropriate exception handler.
+
+throws: The `throws` keyword is used in a method signature to declare that the method may throw one or more types of exceptions. It specifies the exceptions that might be thrown by the method, allowing the calling code to handle them appropriately. It is used to indicate that the method doesn't handle the exceptions itself but passes the responsibility to the caller or higher-level exception handlers.
+
+Throwable: `Throwable` is the superclass of all exceptions and errors in Java. It represents any object that can be thrown using the throw statement. Throwable has two direct subclasses: Exception and Error (typically caused by system-level issues or unrecoverable errors).
+
+</blockquote>
+
+</details>
+
+---
+
+32. What is the difference between a ClassNotFoundException and NoClassDefFoundError?  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+ClassNotFoundException: This exception is thrown when the Java Virtual Machine (JVM) tries to load a class at runtime using the Class.forName() method or by directly referencing the class with its fully qualified name, but the class cannot be found in the classpath. It typically occurs when the class being loaded is missing or not available in the specified classpath or when the class name is misspelled. ClassNotFoundException is a checked exception, which means it must be declared in a method's throws clause or caught and handled within a try-catch block.
+
+NoClassDefFoundError: This error occurs when the JVM successfully finds the class during the compilation phase but cannot find the class during runtime. It means that the class was present at compile time but is missing at runtime. It can happen if the class was available during compilation, but it is not present in the classpath when the program is being executed. NoClassDefFoundError is an unchecked error, which means it is not required to be declared or caught explicitly. It usually indicates a more severe issue that prevents the JVM from initializing the class.
+
+</blockquote>
+
+</details>
+
+---
+
+33. Provide some examples when a finally block won't be executed in Java?   
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+In Java, the finally block is used in exception handling to define a block of code that will be executed regardless of whether an exception is thrown or not. However, there are a few scenarios where the finally block may not be executed:
+
+- System.exit(): If the program terminates abruptly by calling System.exit() within the try or catch block, the finally block will not be executed. The System.exit() method immediately terminates the Java Virtual Machine (JVM), bypassing any remaining code.
+- Infinite Loop: If the code within the try or catch block enters into an infinite loop, the finally block will not be executed. The program will keep running within the loop indefinitely, preventing the execution of any subsequent code.
+- Sudden Power Loss or System Crash: In cases where there is a sudden power loss or a system crash, the finally block may not get a chance to execute. These scenarios are beyond the control of the Java program, and the JVM may not have an opportunity to complete the execution of the finally block.
+
+</blockquote>
+
+</details>
+
+---
+
+34. Predict the output of the following program.
+
+```java
+class Test
+{
+	String str = "a";
+
+	void A()
+	{
+		try
+		{
+			str +="b";
+			B();
+		}
+		catch (Exception e)
+		{
+			str += "c";
+		}
+	}
+
+	void B() throws Exception
+	{
+		try
+		{
+			str += "d";
+			C();
+		}
+		catch(Exception e)
+		{
+			throw new Exception();
+		}
+		finally
+		{
+			str += "e";
+		}
+
+		str += "f";
+
+	}
+	
+	void C() throws Exception
+	{
+		throw new Exception();
+	}
+
+	void display()
+	{
+		System.out.println(str);
+	}
+
+	public static void main(String[] args)
+	{
+		Test object = new Test();
+		object.A();
+		object.display();
+	}
+
+}
+```
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+**Output**
+
+abdec
+
+</blockquote>
+
+<blockquote>
+
+<details> <summary> <b> Explanation </b> </summary>
+
+‘throw’ keyword is used to explicitly throw an exception.
+finally block is always executed even when an exception occurs.
+Call to method C() throws an exception. Thus, control goes in catch block of method B() which again throws an exception. So, control goes in catch block of method A().
+
+</details>
+</details>
+
+---
+
+35. Predict the output of the following program.
+
+```java
+class Test
+{ int count = 0;
+
+	void A() throws Exception
+	{
+		try
+		{
+			count++;
+			try
+			{
+				count++;
+				try
+				{
+					count++;
+					throw new Exception();
+				}
+				catch(Exception ex)
+				{
+					count++;
+					throw new Exception();
+				}
+			}
+			catch(Exception ex)
+			{
+				count++;
+			}
+		}
+		
+		catch(Exception ex)
+		{
+			count++;
+		}
+
+	}
+
+	void display()
+	{
+		System.out.println(count);
+	}
+
+	public static void main(String[] args) throws Exception
+	{
+		Test obj = new Test();
+		obj.A();
+		obj.display();
+	}
+}
+```
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+**Output**
+
+5
+
+</blockquote>
+
+<blockquote>
+
+<details> <summary> <b> Explanation </b> </summary>
+
+‘throw’ keyword is used to explicitly throw an exception.
+In third try block, exception is thrown. So, control goes in catch block.
+Again, in catch block exception is thrown. So, control goes in inner catch block.
+
+</details>
+</details>
+
+---
+
+36. Predict the output of the following program.
+
+``` java
+class NestedTry {
+	// main method
+	public static void main(String args[])
+	{
+		// Main try block
+		try {
+			// initializing array
+			int a[] = { 1, 2, 3, 4, 5 };
+			// trying to print element at index 5
+			System.out.println(a[5]);
+			// try-block2 inside another try block
+			try {
+				// performing division by zero
+				int x = a[2] / 0;
+			}
+			catch (ArithmeticException e2) {
+				System.out.println("division by zero is not possible");
+			}
+		}
+		catch (ArrayIndexOutOfBoundsException e1) {
+			System.out.println("ArrayIndexOutOfBoundsException");
+			System.out.println("Element at such index does not exists");
+		}
+	}
+	// end of main method
+}
+```
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+**Output**
+
+ArrayIndexOutOfBoundsException
+Element at such index does not exists
+
+</blockquote>
+
+<blockquote>
+
+<details> <summary> <b> Explanation </b> </summary>
+
+Whenever a try block does not have a catch block for a particular exception, then the catch blocks of parent try block are inspected for that exception, and if a match is found then that catch block is executed. If none of the catch blocks handles the exception then the Java run-time system will handle the exception and a system generated message would be shown for the exception.
+
+</details>
 </details>
 
 ---
