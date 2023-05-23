@@ -32,7 +32,7 @@
 
 ---
 
-3. When creating a table in SQL, you forget to make a column as the primary key, then is there any possibility to create a primary key on that column or do we have to delete the table from the database so that we can create a primary key while creating a table?
+3. When creating a table in SQL, if you forget to make a column as the primary key, then is there any possibility to create a primary key on that column or do we have to delete the table from the database so that we can create a primary key while creating a table?
 
  ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -89,7 +89,7 @@ create table school(
 
 --- 
 
-6. In SQL, what are the statements through which we can create a primary key in a table?
+6. In SQL, name the statements through which we can create a primary key in a table?
 
  ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -101,7 +101,7 @@ create table school(
 
 ---
 
-7. In SQL, what are the commands that are the part of Data Definition Language?
+7. In SQL, List the commands that are the part of Data Definition Language?
 
 ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -173,7 +173,7 @@ rename column id to student_id;
 
 ---
 
-12. Tell me the difference in 1nf, 2nf and 3nf forms of normalization
+12. Differentiated 1nf, 2nf and 3nf forms of normalization
 
 ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -187,7 +187,7 @@ rename column id to student_id;
 
 ---
 
-13. Tell me about some of the benefits of normalization in SQL?
+13. can you List some of the benefits of normalization in SQL?
 
 ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -257,7 +257,7 @@ create table employee(
 
 ---
 
-17. Explain the anomalies and their types?
+17. Explain anomalies and its types?
 
 ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
@@ -273,7 +273,7 @@ create table employee(
 
 ---
 
-18. Assume you have created one table as "emp" and now you want to change that table name to "employee" then what are the ways, in SQL, through which we can change the table name? 
+18. Assume that you have created one table as "emp" and now you want to change that table name to "employee" then what are the ways, in SQL, through which we can change the table name? 
 
  ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -311,7 +311,7 @@ modify column id int;
 
 ---
 
-20. Tell the difference between `alter` and `update` in SQL 
+20. Differentiate between `alter` and `update` in SQL 
 
  ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -443,7 +443,7 @@ delete from movies where id =20;
 
 ---
 
-28. From someone you have heard about creating indexes in SQL will be better in terms of fast retrieval of data. Then, how will you create an index in a table? 
+28. How do you create an index in a table? 
 
  ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -459,7 +459,7 @@ add index(column_name);
 
 ---
 
-29. You have 4 indexes in your table "order" but now you want to remove one index named "author_id" from it. For the same task what will be your query for it?
+29. You have 4 indexes in your table "order" but now you want to remove one index named "author_id" from it. what will be your query for it?
 
 ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
@@ -475,7 +475,7 @@ drop index author_id;
 
 ---
 
-30. Have you heard about BLOB in SQL?
+30. Can you talk about BLOB in SQL?
 
 ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -506,7 +506,7 @@ create user 'Tim' identified by 'password';
 
 ---
 
-32. In SQL, how will you see the databases and tables that you have in that database?
+32. In SQL, how do list all the databases and tables that are available?
 
 ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
@@ -540,7 +540,7 @@ where state = "Texas";
 
 ---
 
-34. Tell me the way about how to give a different name to a field while executing a select query?
+34. Tell a way about how to give a different name to a field while executing a select query?
 
  ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -555,7 +555,7 @@ select Name as "First_name" from table_name;
 
 ---
 
-35. Give one query to me which includes, select, from, where, order by, group by, and having clauses.  
+35. Give one single query which includes, select, where, order by, group by, and having clauses in it.  
 
 ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
@@ -574,7 +574,7 @@ having count(id);
 
 ---
 
-36. In SQL, how will you give the count of those students from the student table whose name starts with 'H'.
+36. In SQL, how will you give the count of the students from the student table whose name starts with 'H'.
 
 ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
@@ -616,7 +616,7 @@ select name from student where name like '%SK';
 
 ---
 
-38. Your boss has given you a work to find the details of those workers from the "Company" table whose salary lies between 10000 and 50000 and the department is 'HR'
+38. Your boss has given you a work to find the details of the workers in "HR" deparment from the "Company" table whose salary ranges between 10000 and 50000.
 
 ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
@@ -804,7 +804,7 @@ and class in [ "9th", "10th", "11th", "12th"];
 
 ---
 
-48. Tell me about Denormalization and when can we go for it in SQL.
+48. What is  Denormalization and  when do we go use it in SQL.
 
 ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -819,7 +819,7 @@ and class in [ "9th", "10th", "11th", "12th"];
 
 ---
 
-49. Where SQL language is used and what are its applications?
+49. What is the purpose of using SQL and what are its applications?
 
 ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
@@ -837,7 +837,7 @@ and class in [ "9th", "10th", "11th", "12th"];
 
 ---
 
-50. In SQL, what is a cross-join? Give syntax.
+50. In SQL, what is a cross-join? Give a syntax.
 
    ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -903,7 +903,7 @@ on t1.id = t2.emp_id;
 
 ---
 
-54. Tell me about the joins in SQL and their types.
+54. Talk about joins and its types in SQL.
 
  ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1011,7 +1011,7 @@ from employee;
 
 ---
 
-60. Tell the difference between union and full join in SQL?
+60. what is the difference between union and full join in SQL?
 
    ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1150,7 +1150,7 @@ select * from employee;
 
 ---
 
-68. In SQL, how will you display the first 50% of the records of any table?
+68. In SQL, how will you display the first 50% of the records of any given table?
 
 ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1202,7 +1202,7 @@ This will group the table records by id and name and gives us distinct records o
 
 ---
  
-71. In SQL, what are the points anyone has to keep in mind when using `group by` clause in SQL?
+71. In SQL, what are the points that anyone has to keep in mind when using `group by` clause in SQL?
 
  ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1367,7 +1367,7 @@ select id from project);
 
 80. Explain referential integrity constraint in SQL.
 
-  ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  ![Advance](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 

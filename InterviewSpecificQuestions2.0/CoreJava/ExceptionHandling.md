@@ -1,5 +1,7 @@
 1. Brief us on Exception Handling (or) What is an exception?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details>
   <summary> <b>Show Answer</b></summary>
   
@@ -16,6 +18,8 @@ Exceptions in Java can arise from different kinds of situations such as wrong da
 --- 
 
 2. What is the difference between Throws and Throws?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -36,6 +40,8 @@ Exceptions in Java can arise from different kinds of situations such as wrong da
 
 3. How to handle class not found exceptions?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details>
   <summary> <b>Show Answer</b></summary>
   
@@ -54,6 +60,8 @@ To fix ClassNotFoundException, firstly we must go through the exception stack tr
 --- 
 
 4. Brief us on the keywords - final, finally & static 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -74,6 +82,8 @@ To fix ClassNotFoundException, firstly we must go through the exception stack tr
 
 5. Brief us on Errors
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details>
   <summary> <b>Show Answer</b></summary>
   
@@ -90,6 +100,8 @@ To fix ClassNotFoundException, firstly we must go through the exception stack tr
 
 6. What is the difference between final and finally?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details>
   <summary> <b>Show Answer</b></summary>
   
@@ -105,6 +117,8 @@ Finally is a code block. It is used with a try-catch block for handling exceptio
 --- 
 
 7. Tell us about the various kinds of exceptions. What are some examples of checked and unchecked exceptions?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -124,6 +138,8 @@ Finally is a code block. It is used with a try-catch block for handling exceptio
 
 8. Which block has to be followed after the try block?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b> Show Answer</b></summary>
 	
 > catch or finally block.
@@ -134,6 +150,8 @@ Finally is a code block. It is used with a try-catch block for handling exceptio
 
 9. Does all the code inside the try block will be executed?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
 	
 > Whenever an exception is occurred in the try block, the rest of the code after the exception occurs line will not be executed.
@@ -143,6 +161,8 @@ Finally is a code block. It is used with a try-catch block for handling exceptio
 ---
 
 10. Can we have multiple catch blocks with the single try block?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b> Show Answer</b></summary>	
 <blockquote>
@@ -159,6 +179,8 @@ Important Rule: The order of the catch block must be from most specific to most 
 
 11. When we can go for multiple catch blocks? 
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details>
   <summary> <b>Show Answer</b></summary>
   
@@ -173,6 +195,8 @@ Important Rule: The order of the catch block must be from most specific to most 
 --- 
 
 12. How can you handle exceptions in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -191,6 +215,8 @@ Important Rule: The order of the catch block must be from most specific to most 
 
 13. What is the difference between exception and error in Java?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details>
   <summary> <b>Show Answer</b></summary>
   
@@ -205,6 +231,8 @@ Important Rule: The order of the catch block must be from most specific to most 
 
 14. What is a custom exception?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details>
   <summary> <b>Show Answer</b></summary>
   
@@ -218,6 +246,8 @@ Java allows us to create our exception based on our needs known as a custom exce
 --- 
 
 15. How do you create custom exceptions in java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -243,6 +273,8 @@ public class IncorrectUserNameException extends Exception {
 
 16. How to avoid exceptions.
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -265,6 +297,8 @@ To avoid exception exception in java you can :
 
 17. How to handle exceptions?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -282,6 +316,8 @@ In Java, exceptions are a way to handle errors and unexpected situations that oc
 ---
 
 18. What is the purpose of a try, catch block?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -303,6 +339,8 @@ The `try-catch` block helps to prevent the program from crashing when an unexpec
 
 19. Can you have more than one finally block?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -315,18 +353,15 @@ No, In Java we can not have more the one finally block for one try block.
 
 ---
 
-20. How to set up Exceptions? 
+20. What is the purpose of exception handling in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 
-To set up exceptions in Java, you need to follow these steps:
-
-1. Identify the code that can potentially throw an exception.
-2. Wrap the code that can throw an exception in a try block.
-3. Immediately after the try block, add one or more catch blocks that handle any exceptions thrown by the code in the try block.
-4. If necessary, add a finally block after the catch block.
+Exception handling allows developers to handle and manage errors or exceptional conditions that may occur during program execution.
 
 </blockquote>
 
@@ -335,6 +370,8 @@ To set up exceptions in Java, you need to follow these steps:
 ---
 
 21. What is a null pointer exception?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -353,6 +390,8 @@ To avoid null pointer exceptions we can check for null references before attempt
 ---
 
 22. List the Exception class hierarchy.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -373,6 +412,8 @@ The `RuntimeException` class have subclasses, like `NullPointerException` or `Ar
 ---
 
 23. How do you call a custom exception containing a unique error message?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -405,7 +446,9 @@ throw new MyException("This is a custom error message.");
 
 ---
 
-24. what is a try with resources?
+24. What is a try with resources?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -436,7 +479,9 @@ try (ResourceType resource1 = new ResourceType(); ResourceType resource2 = new R
 
 ---
 
-25. final, finally, and finalize?
+25. Explain final, finally, and finalize?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -459,6 +504,8 @@ In Java, `final`, `finally`, and `finalize` are three different keywords that se
 
 26. What are throws and throwable?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -473,7 +520,9 @@ On the other hand, `Throwable` is the root class of all Java exceptions and erro
 
 ---
 
-27. If the memory is too big, how do you clear that exception with using try/catch block?
+27. Is it possible to handle OutOfMemoryError by using try/catch block?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -487,7 +536,9 @@ If your program is using excessive memory Java will give you an `OutOfMemoryErro
 
 ---
 
-28. What is exception propogation.
+28. What is exception propogation?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -502,7 +553,10 @@ When an exception is thrown in a method, the Java runtime system searches for an
 </details>
 
 ---
-29. there are two statements in a try/catch block, the first statement catches an exception, will the second statement run or stop?
+
+29. When there are two statements in a try/catch block with the first statement catching an exception, will the second statement run or stop?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -516,7 +570,9 @@ If the first statement in a try/catch block catches an exception, the second sta
 
 ---
 
-30. can you nest try catch blocks?
+30. Is it possible to nest try-catch blocks?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
   
