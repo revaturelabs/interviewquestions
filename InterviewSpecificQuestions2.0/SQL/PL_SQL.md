@@ -205,7 +205,7 @@ END;
 
 <blockquote> 
 
-- **COMMIT:** The COMMIT command saves changes to a database permanently during the current transaction.
+**COMMIT:** The COMMIT command saves changes to a database permanently during the current transaction.
 
 **ROLLBACK:** The ROLLBACK command is used at the end of a transaction to undo any modifications made since the start of the transaction.
 
