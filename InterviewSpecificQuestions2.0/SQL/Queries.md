@@ -1,5 +1,7 @@
 1. How do you get the second highest salary from the database?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b>MySQL</b></summary>
 
 <blockquote>
@@ -72,7 +74,7 @@ Explanation: In PostgreSQL, we can achieve the same result by using the `GROUP B
 
 ---
 
-3. Take a list and remove duplicates but preserve the order of the unique values.
+3. How to remove duplicates from a list while preserving the order of unique values in SQL
 
 <details><summary><b>MySQL</b></summary>
 
