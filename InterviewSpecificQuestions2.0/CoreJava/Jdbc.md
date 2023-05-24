@@ -547,23 +547,7 @@ The sequence of SQL statements served as a single unit that is called a transact
 </details>
 
 ---
-	
-24:How can you differentiate between PreparedStatement and Statement? 
-
-<details><summary><b> Show Answer</b></summary>
-
-<blockquote>
-
-PreparedStatement performs faster compared to the Statement because the Statement needs to be compiled each time when we run the code whereas the PreparedStatement is compiled once and then executed only on runtime.It can execute parametrized queries. But Statement can only run static queries.
-The query used in PreparedStatement looks similar each time, so the database can reuse the previous access plan. Statement inline the parameters into the string, so the query doesn’t look to be the same every time which prevents reusage of cache.
-
-</blockquote>
-
-</details>
-
----
-	
-25: Explain the Transaction Management methods in JDBC.
+24: Explain the Transaction Management methods in JDBC.
 
 
 <details><summary><b> Show Answer</b></summary>
@@ -599,7 +583,7 @@ Syntax:`conn.releaseSavepoint("Mysavepoint");`
 	
 ---
 
-26: Explain the common exceptions in JDBC.
+25: Explain the common exceptions in JDBC.
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -616,7 +600,7 @@ Syntax:`conn.releaseSavepoint("Mysavepoint");`
 
 ---
 	
-27: How two-phase commit is performed in JDBC?
+26: How two-phase commit is performed in JDBC?
 
 
 <details><summary><b> Show Answer</b></summary>
@@ -632,7 +616,7 @@ The main process or co-ordinator process take a vote of all other process that t
 
 ---
 	
-28: How to create a table dynamically from java using JDBC?
+27: How to create a table dynamically from java using JDBC?
 
 
 <details><summary><b> Show Answer</b></summary>
@@ -666,7 +650,7 @@ public class dynamicJDBCtable{
 
 ---
 	
-29: How is it possible to connect to multiple databases using single statement object?
+28: How is it possible to connect to multiple databases using single statement object?
 
 
 <details><summary><b> Show Answer</b></summary>
@@ -681,7 +665,7 @@ It is possible to connect to multiple databases, at the same time, but it depend
 
 ---
 	
-30.How do you insert images into database using JDBC?
+29.How do you insert images into database using JDBC?
 
 
 <details><summary><b> Show Answer</b></summary>
@@ -712,7 +696,7 @@ int count = ps.executeUpdate();
 </details>
 
 ---
-31. What is the jdbc connection string and how is it used, give an example  
+30. What is the jdbc connection string and how is it used, give an example  
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -749,7 +733,7 @@ This code uses the url string to connect to the MySQL database and creates a Con
 </details>
 
 ---
-32. What types of operation do you use in result sets?  
+31. What types of operation do you use in result sets?  
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -774,7 +758,7 @@ In JDBC, a ResultSet object represents a set of rows returned by a SQL query. It
 </details>
 
 ---
-33. What is sql injection ?  
+32. What is sql injection ?  
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -799,7 +783,7 @@ To prevent SQL injection attacks, you should always use prepared statements or p
 </details>
 
 ---
-34. How did you write code to prevent SQL injection 
+33. How did you write code to prevent SQL injection 
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -824,7 +808,7 @@ Note that this is just a simple example to illustrate the use of prepared statem
 </details>
 
 ---
-35. How to connect using JDBC to AWS?  
+34. How to connect using JDBC to AWS?  
 
 <details><summary><b> Show Answer</b></summary>
 
