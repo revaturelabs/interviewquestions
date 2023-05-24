@@ -467,7 +467,7 @@ In case of maximum failed attempts, the azure account would get locked and the m
 
 ---
   
-27.What is a Resource group?
+28.What is a Resource group?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -483,7 +483,7 @@ A resource group is a logical container for created resources in Azure. An ARM r
 
 ---
   
-28.What are the different ways to host web sites in Azure?
+29.What are the different ways to host web sites in Azure?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -505,7 +505,7 @@ Service Fabric is an option if you are writing a Microservice application that r
 
 ---
   
-29.How the app services can be scaled?
+30.How the app services can be scaled?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -527,7 +527,7 @@ Autoscaling is supported by standard and premium based on matrices (response tim
 
 ---
   
-30.What is Azure Function?
+31.What is Azure Function?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -545,7 +545,7 @@ We can use Functions for Backend Services, Event-based Processing like Data Tabl
 
 ---
   
-31.In terms of Azure, what are public, private, and hybrid cloud?
+32.In terms of Azure, what are public, private, and hybrid cloud?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -565,7 +565,7 @@ Hybrid Cloud: It blends features of Public and Private cloud. Certain of the use
 
 ---
   
-32.What are the different roles in Azure?
+33.What are the different roles in Azure?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -585,7 +585,7 @@ VM role is required to manage or schedule tasks. He is responsible for customizi
 
 --- 
 
-33.What are the available options for deployment environments provided by Azure?
+34.What are the available options for deployment environments provided by Azure?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -605,7 +605,7 @@ Production Environment: This is the main environment where our application goes 
 
 --- 
   
-34.In Azure, define role instance ?
+35.In Azure, define role instance ?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
