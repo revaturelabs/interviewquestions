@@ -549,7 +549,23 @@ Or Enter Zero for Second Number (Causes Divide By Zero Exception)
 </details>
 
 ---
+    
+25.What CLR does when a logical mistake occurred in the program?
+    
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+It creates an exception class object that is associated with that logical mistake and terminates the current method execution by throwing that exception object by using the “throw” keyword.
+    
+</blockquote>
+
+</details>
+
+---
+    
 
 
 

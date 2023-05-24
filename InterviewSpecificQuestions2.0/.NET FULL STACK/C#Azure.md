@@ -460,4 +460,164 @@ Replace the drive so that the drive gets remounted and formatted.
 <blockquote> 
 
 In case of maximum failed attempts, the azure account would get locked and the method of locking is dependent on the protocol that analyzes the entered password and the IP addresses of the login requests.
+  
+</blockquote>
+
+</details>
+
+---
+  
+28.What is a Resource group?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+  
+A resource group is a logical container for created resources in Azure. An ARM resource can exist only in one resource group. A resource group is created in a region and it can have the resources from the other regions. All resources within the resource group share the common lifecycle. 
+  
+</blockquote>
+
+</details>
+
+---
+  
+29.What are the different ways to host web sites in Azure?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+ 
+Azure supports multiple ways to Host like App Service (PaaS), Virtual Machine (IaaS) and Service Fabric.
+
+App Service is the best option for Most of the web sites. It allows quick deployment, scalability, management & also cost-effective.
+
+A Virtual Machine is an option if your existing Web Sites require Custom Configurations in IIS Level, Cannot Fit into App Service etc.
+
+Service Fabric is an option if you are writing a Microservice application that requires Massive Scaling, Stateful Services etc.
+  
+</blockquote>
+
+</details>
+
+---
+  
+30.How the app services can be scaled?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+  
+An app service supports two types of scaling - vertical (up/down) and horizontal (out/in). During scaling, there is no impact on service availability.
+
+In vertical scaling, VM size can be increased or decreased as per your need.
+  
+In horizontal scaling, identical VMs of the desired size will be created or removed as per your need
+  
+Autoscaling is supported by standard and premium based on matrices (response time, memory, CPU, data uses etc.)
+  
+</blockquote>
+
+</details>
+
+---
+  
+31.What is Azure Function?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+  
+Azure Function is a Serverless Compute Service that Runs code on Demand like Events or External-Invoke. Azure Functions can Scale up Automatically based on Demand. Azure functions are the evolution of Web Jobs. You can develop functions in C#, Node, Java, Python etc. Internally, Azure functions use App services.
+  
+We can use Functions for Backend Services, Event-based Processing like Data Table creation on File Upload, Scheduled Tasks etc.
+  
+</blockquote>
+
+</details>
+
+---
+  
+32.In terms of Azure, what are public, private, and hybrid cloud?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+  
+Public Cloud: Each component which the user uses in an application is operating only on Azure
+
+Private Cloud: Azure services are being run within an on-premises data center. Such data centers are utilized by the user to either host applications or systems.
+
+Hybrid Cloud: It blends features of Public and Private cloud. Certain of the user’s components are executed on Azure whereas others run within an on-premises datacenter.
+  
+</blockquote>
+
+</details>
+
+---
+  
+33.What are the different roles in Azure?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+  
+There are three types of roles in Azure – Web Role, Worker Role, and VM.
+
+The Web role is basically dedicated to the website deployments.
+The Worker role is used to manage background processes in Azure.
+VM role is required to manage or schedule tasks. He is responsible for customizing machines and managing other Azure roles too.
+  
+</blockquote>
+
+</details>
+
+--- 
+
+34.What are the available options for deployment environments provided by Azure?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+  
+Azure provides two deployment environments, they are:
+
+Staging Environment: This environment is used for validating the changes of our application before making them live into the main environment.
+Here, the application is identified by means of GUID (Globally Unique Identifier) of Azure which has the URL as: GUID.cloudapp.net
+Production Environment: This is the main environment where our application goes live and can be accessed by the target audience which can be accessed by means of DNS friendly URL: appName.cloudapp.net
+  
+</blockquote>
+
+</details>
+
+--- 
+  
+35.In Azure, define role instance ?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+  
+A role instance is a virtual computer where application code is run in conjunction with running role specifications. In accordance with the specification in the cloud service configuration files, a role may have more than one instance.
+  
+</blockquote>
+
+</details>
+
+--- 
 

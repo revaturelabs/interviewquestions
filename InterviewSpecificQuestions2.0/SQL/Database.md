@@ -271,7 +271,7 @@ RDBMS and NoSQL are two different types of database management systems. Here's a
 
 ---
 
-8. What is Normalization?
+7. What is Normalization?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -288,7 +288,7 @@ RDBMS and NoSQL are two different types of database management systems. Here's a
 
 ---
 
-9. How do we decide not to normalize a table? 
+8. How do we decide not to normalize a table? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -311,7 +311,7 @@ There are situations where normalization may not be the best approach for organi
 
 ---
 
-10.  Differentiate between BigData and RDBMS?
+9.  Differentiate between BigData and RDBMS?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -334,7 +334,7 @@ Yes, there are some key differences between big data and RDBMS (Relational Datab
 
 ---
 
-11. What is the difference between SQL and MongoDB?
+10. What is the difference between SQL and MongoDB?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -359,7 +359,7 @@ SQL and MongoDB are both database technologies, but they differ in several ways:
 
 ---
 
-12. How to set up a database?
+11. How to set up a database?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -388,7 +388,7 @@ Setting up a database involves the following steps:
 
 ---
 
-13. How to troubleshoot a long query?
+12. How to troubleshoot a long query?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -417,7 +417,7 @@ To troubleshoot a long query in SQL, you can follow these steps:
 
 
 
-15. What are the relationships in RDBMS?
+13. What are the relationships in RDBMS?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -438,7 +438,7 @@ In a relational database management system (RDBMS), there are three main types o
 
 ---
 
-16. What is a data dictionary?
+14. What is a data dictionary?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -454,7 +454,7 @@ In a relational database management system (RDBMS), there are three main types o
 
 ---
 
-17. What type of storage would you use to store data which is requested often?
+15. What type of storage would you use to store data which is requested often?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -473,7 +473,7 @@ For data that is requested often, a high-performance storage solution should be 
 
 ---
 
-18. What is the difference between Oracle database and PostgresQL?
+16. What is the difference between Oracle database and PostgresQL?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -496,7 +496,7 @@ Oracle and PostgreSQL are both popular relational database management systems, b
 
 ---
 
-19. What is Dynamic Hashing?
+17. What is Dynamic Hashing?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -511,7 +511,7 @@ Dynamic hashing is a technique used in database systems to manage hash tables wi
 
 ---
 
-20. How do you decide whether to store data as JSON or in RDBMS ?
+18. How do you decide whether to store data as JSON or in RDBMS ?
  
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -536,7 +536,7 @@ Ultimately, the choice between JSON and RDBMS depends on the specific requiremen
 
 ---
 
-21. What is Referential Integrity?
+19. What is Referential Integrity?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -552,7 +552,7 @@ Referential Integrity is a feature in RDBMS that ensures the consistency and acc
 
 ---
 
-22. List the different types of databases?
+20. List the different types of databases?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -581,7 +581,7 @@ There are several types of databases, each designed to handle specific data stor
 
 ---
 
-23. What is OLTP and OLAP?
+21. What is OLTP and OLAP?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -600,7 +600,7 @@ OLTP and OLAP are two types of systems used for managing and analyzing data.
 
 ---
 
-24. What is the difference between H2 Database and MySQL?
+22. What is the difference between H2 Database and MySQL?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -615,7 +615,7 @@ H2 and MySQL are both relational database management systems, but differ in thei
 
 ---
 
-25. How to update room database based on server response?
+23. How to update room database based on server response?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -637,7 +637,7 @@ This is the general approach to update a local room database to reflect a databa
 
 ---
 
-26. How do you compare the data in the Database?
+24. How do you compare the data in the Database?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -652,7 +652,7 @@ To compare data in a database, you need to execute queries to retrieve the data 
 
 ---
 
-27. what is a cluster?
+25. what is a cluster?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 

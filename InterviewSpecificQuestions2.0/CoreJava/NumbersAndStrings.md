@@ -1,6 +1,6 @@
-1. How do Strings work? (or) Brief us on strings
+1. How do Strings work? 
 
- 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -22,9 +22,9 @@
 
 --- 
 
-2. What is the difference between String Buffer and String Builder?
+2. Differentiate String Buffer and String Builder.
 
- 
+ ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -43,9 +43,9 @@
 
 --- 
 
-3. What classes are mutable strings? 
+3. List the classes used for creating mutable strings.
 
- 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -61,7 +61,7 @@
 
 4. Why Strings in Java are immutable?
 
- 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -75,16 +75,16 @@
 
 --- 
 
-5. How would you reverse a string of your name?
+5. How would you reverse a string in Java?
 
- 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
   <summary> <b>Show Answer</b></summary>
   
 <blockquote>
 
-StringBuilder or StringBuffer class has an in-build method reverse() to reverse the characters in the string. 
+StringBuilder or StringBuffer class has an in-build method reverse() to reverse the characters in the string. Alternatively, you can convert the string to a character array and swap characters from the beginning and end of the array. 
 
 ```java
 public static void main(String[] args) {		
@@ -104,9 +104,9 @@ public static void main(String[] args) {
 
 --- 
 
-6. What are Wrapper classes?
+6. What is a Wrapper class?
 
- 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -131,9 +131,9 @@ A Wrapper class is a class whose object wraps or contains primitive data types. 
 
 --- 
 
-7. Why do we use wrapper classes? or What is the purpose of the Wrapper class in java?
+7. What is the purpose of using wrapper classes in Java?
 
- 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -149,9 +149,10 @@ A Wrapper class is a class whose object wraps or contains primitive data types. 
 </details>
 
 --- 
+
 8. What is autoboxing and unboxing?
 
- 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -167,8 +168,9 @@ The process of converting an object of a wrapper type to its corresponding primi
 
 --- 
 
-9. Differentiate between `str1 == str2` and `str1.equals(str2)`, where both str1 & str2 are String objects.
+9. Differentiate `str1 == str2` and `str1.equals(str2)`, where both str1 & str2 are String objects.
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
  
 <details><summary><b> Show Answer </b></summary>
 
@@ -185,8 +187,9 @@ The process of converting an object of a wrapper type to its corresponding primi
 
 ---
 
-10. How can two strings be compared in Java?
+10. How strings are compared in Java?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
  
 <details><summary><b> Show Answer </b></summary>
 
@@ -217,6 +220,7 @@ Note: == operator is avoided, since it checks for reference equality, i.e. if th
 
 11. How do you convert a string to an integer and vice versa in Java?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
  
 <details><summary><b> Show Answer </b></summary>
 
@@ -232,7 +236,7 @@ Integer class in the Java lang package provides different methods for converting
 
 12. What is the use of `valueof()` method?
 
- 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer </b></summary>
 
@@ -248,9 +252,9 @@ Integer class in the Java lang package provides different methods for converting
 
 ---
 
-13. Give the example for mutable and immutable objects in java?
+13. Give examples for mutable and immutable objects in java.
 
- 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer </b></summary>
 
@@ -268,7 +272,7 @@ Integer class in the Java lang package provides different methods for converting
 
 14. What is the use of `split ()` method in Java?
 
- 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
 <details><summary><b> Show Answer </b></summary>
 
@@ -282,9 +286,9 @@ The method `split(String regex)` to split the String into String array based on 
 
 ---
 
-15. Which class should we use among String,StringBuffer and StringBuilder when there are lot of String concatenation and String modification operations with thread-safe code?
+15. Which class must be used among String, StringBuffer and StringBuilder when there are lot of String concatenation and String modification operations with thread-safe code?
 
-  
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
 <details><summary><b> Show Answer </b></summary>
 
@@ -304,7 +308,10 @@ Reason:
 </details>
 
 ---
-16. Difference between int and Integer   
+
+16. Differentiate int and Integer.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -329,20 +336,29 @@ Overall, int is generally preferred for basic arithmetic operations and where me
 </details>
 
 ---
-17. What are Wrapper Classes?  
+
+17. How do you find the length of a string in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
 <blockquote>
 
-Wrapper classes are the classes that allow primitive data types to be treated as objects. There is a wrapper class for each primitive data type, and they provide utility methods for converting between primitive data types and objects, as well as for performing various other operations on the data. Wrapper classes are useful in situations where an object is required, but only a primitive data type is available. Some examples of wrapper classes are `Boolean`, `Byte`,`Character`, `Short`, `Integer`,`Long`, `Float`, and `Double`.
+You can find the length of a string in Java using the length() method. For example:
+```java
+int length = myString.length();
+```
 
 </blockquote>
 
 </details>
 
 ---
+
 18. The differences between String, StringBuffer, and StringBuilder. 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -356,7 +372,9 @@ Strings, StringBuilder, and StringBuffer are classes in Java used to manipulate 
 
 ---
 
-19. What types of Methods are in a String class 
+19. List some of the built-in methods in a String class?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -401,7 +419,10 @@ The String class in Java has several built-in methods that allow you to manipula
 </details>
 
 ---
-20. What is the substring function used for?
+
+20. What is the purpose of using the substring function?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -431,44 +452,32 @@ Note that the index starts at 0, so the first character in the string has an ind
 </details>
 
 ---
-21. Tell me about Strings in java
+
+21. How do you check if a string contains a specific character or sequence in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
 <blockquote>
 
-In Java, a String is an object that represents a sequence of characters. It is one of the most commonly used classes in Java and is part of the java.lang package, which is automatically imported into every Java program.
+You can check if a string contains a specific character or sequence using the contains() method. For example:
 
-Strings in Java are immutable, which means that once a string is created, its value cannot be changed. This property is enforced by the final keyword, which is used to declare the internal character array of the String class.
-
-The String class provides a wide range of methods that allow you to manipulate and extract information from strings. Some of the most commonly used methods include:
-
-- length(): returns the number of characters in the string
-- charAt(int index): returns the character at the specified index
-- substring(int beginIndex, int endIndex): returns a substring of the original string from the beginIndex to the endIndex
-- indexOf(String str): returns the index of the first occurrence of the specified string
-- toUpperCase(): returns a new string with all characters in uppercase
-- toLowerCase(): returns a new string with all characters in lowercase
-- equals(Object obj): compares the current string to the specified object for equality
-- compareTo(String str): compares the current string to the specified string lexicographically
-Strings can be concatenated using the + operator or the concat() method. For example:
 ```java
-String str1 = "Hello";
-String str2 = "world";
-String str3 = str1 + " " + str2; // "Hello world"
-String str4 = str1.concat(" ").concat(str2); // "Hello world"
+if (myString.contains("Hello")) {
+    // String contains "Hello"
+}
 ```
-Java also provides a shorthand for creating String objects using string literals. For example:
-```java
-String str = "Hello world";
-```
-This creates a new String object with the value "Hello world".
+
 </blockquote>
 
 </details>
 
 ---
-22. difference between instantiating a string = "dog" vs = new String("dog")?;
+
+22. Differentiate instantiating a string = "dog" vs = new String("dog")?;
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -494,7 +503,10 @@ In general, it is recommended to use string literals instead of creating new str
 </details>
 
 ---
-23. do you understand immutable classes?
+
+23. What are immutable classes in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -511,7 +523,10 @@ Examples of immutable classes in Java include String, Integer, and LocalDate. Th
 </details>
 
 ---
+
 24. What is StringBuilder?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -530,7 +545,10 @@ In summary, StringBuilder is a mutable class in Java that provides methods for m
 </details>
 
 ---
-25. String vs StringTokenizer 
+
+25. Differentiate String and StringTokenizer.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -543,7 +561,10 @@ String is more commonly used and provides greater flexibility and functionality,
 </details>
 
 ---
-26. How do I change the value of a String without allocating a different part of memory?
+
+26. How do you change the value of a String without allocating a different part of memory?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -566,7 +587,10 @@ In this example, we first create a StringBuilder object with the value of the or
 </details>
 
 ---
-27. Tell me about how to create a String literal 
+
+27. How to create a String literal?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -583,7 +607,10 @@ This creates a String object with the value "Hello, World!" and assigns it to th
 </details>
 
 ---
+
 28. What is the string pool?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -595,6 +622,191 @@ String objects that are created with the new keyword are not stored in the strin
 
 </blockquote>
 
+</details>
+
+---
+
+29. What is the trim() method in Java and how is it used?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The trim() method in Java is used to remove leading and trailing whitespace from a string. It returns a new string with the whitespace trimmed.
+
+</blockquote>
+
+</details>
+
+---
+
+30. What are regular expressions (regex) and how are they used with strings in Java?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Regular expressions are patterns used to match and manipulate strings. In Java, you can use the `Pattern` and `Matcher` classes along with regular expressions to perform operations like searching, replacing, or validating strings.
+
+</blockquote>
+
+</details>
+
+---
+
+31. How can you efficiently compare the contents of two large strings in Java?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+For comparing the contents of two large strings efficiently, you can use the `contentEquals()` method of the `CharSequence` interface. It performs a content-based comparison, character by character, without creating intermediate string objects.
+
+</blockquote>
+</details>
+
+---
+
+32. What is the purpose of the `intern()` method in Java strings?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- The `intern()` method is used to store a string in the internal string pool maintained by the JVM. It returns a canonical representation of the string, allowing for efficient comparisons using the `==` operator.
+
+</blockquote>
+</details>
+
+---
+
+33. How can you efficiently replace a specific substring within a string in Java?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- You can use the `replace()` method in Java to replace all occurrences of a specified substring within a string. However, for more complex replacements or multiple replacements, the `StringBuilder` class or regular expressions can be more efficient.
+
+</blockquote>
+</details>
+
+---
+
+34. What is the difference between the `compareTo()` and `compareToIgnoreCase()` methods in Java strings?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- The `compareTo()` method compares two strings lexicographically, considering the case of the characters. The `compareToIgnoreCase()` method performs a case-insensitive comparison, ignoring the case of the characters.
+
+</blockquote>
+</details>
+
+---
+
+35. How can you efficiently check if a string starts or ends with a specific substring in Java?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- You can use the `startsWith()` method to check if a string starts with a specified substring and the `endsWith()` method to check if a string ends with a specified substring. These methods return a boolean value indicating the result.
+
+</blockquote>
+</details>
+
+---
+
+36. What is the purpose of the `matches()` method in Java strings?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- The `matches()` method in Java is used to check if a string matches a specified regular expression pattern. It returns a boolean value indicating whether the entire string matches the pattern.
+
+</blockquote>
+</details>
+
+---
+
+37. How can you convert a string to a character array in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- You can convert a string to a character array using the `toCharArray()` method. For example:
+```java
+String str = "Hello";
+char[] charArray = str.toCharArray();
+```
+</blockquote>
+</details>
+
+---
+
+38. What is the purpose of the `format()` method in Java strings?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- The `format()` method is used to format strings in Java based on a specified format string and arguments. It is similar to the `printf()` function in C and allows for precise control over the output.
+
+</blockquote>
+</details>
+
+---
+
+39. How can you check if a string is empty or contains only whitespace in Java?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- You can use the `isEmpty()` method to check if a string is empty, and the `isBlank()` method introduced in Java 11 to check if a string is empty or contains only whitespace characters.
+
+</blockquote>
+</details>
+
+---
+
+40. How do you convert a string representation of a number to its corresponding numeric data type in Java?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+- You can use the wrapper classes such as `Integer`, `Double`, `Long`, etc., to parse and convert a string representation of a number to its corresponding numeric data type using methods like `parseInt()`, `parseDouble()`, `parseLong()`, etc.
+
+</blockquote>
 </details>
 
 ---

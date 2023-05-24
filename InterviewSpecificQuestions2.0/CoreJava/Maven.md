@@ -44,7 +44,7 @@ A Maven repository is a directory or a remote location where Maven stores projec
 
 ---
 
-4. List the processes which can be managed using Maven?
+4. List the processes which can be managed using Maven.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -102,7 +102,7 @@ A Build lifecycle is a well-defined sequence of phases that outline the order in
 
 ---
 
-8. List the build lifecycles of Maven?
+8. List the build lifecycles of Maven.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -190,7 +190,7 @@ The phases in site lifecycle are:
 
 ---
 
-13. What are the two setting files called in Maven called and what are their locations?
+13. What are the two setting files called in Maven and what are their locations?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -252,7 +252,7 @@ To run test classes in Maven, we need surefire plugin, and we need to check and 
 
 ---
 
-17.  How to install Maven?
+17. How to install Maven?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -584,23 +584,7 @@ The pom.xml file provides a central place to configure and manage project inform
 
 ---
 
-36. 
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details><summary><b> Show Answer</b></summary>
-
-<blockquote>
-
-
-
-</blockquote>
-
-</details>
-
----
-
-37. What are Maven executables and how do you use them?
+ 36. What are Maven executables and how do you use them?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -652,7 +636,7 @@ This will start the Java application contained in the JAR file.
 
 ---
 
-38. How to configure Maven?
+37. How to configure Maven?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -679,7 +663,7 @@ Additional configuration options for a Maven project may include specifying buil
 
 ---
 
-39. Explain some of the built-in lifecycles in the Maven Build lifecycle along with the repective phases.
+38. Explain some of the built-in lifecycles in the Maven Build lifecycle along with the repective phases.
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -720,7 +704,7 @@ By default, when you run a specific phase in the Maven build, it will execute al
 
 ---
 
-40. What is the purpose of the `mvn clean` command?
+39. What is the purpose of the `mvn clean` command?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -735,7 +719,7 @@ The `mvn clean` command is used to clean the target directory of your Maven proj
 
 ---
 
-41. How do you run tests in Maven?
+40. How do you run tests in Maven?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -743,6 +727,20 @@ The `mvn clean` command is used to clean the target directory of your Maven proj
 <blockquote>
 
 Maven has a specific phase called test for running tests. By executing the command `mvn test`, Maven will compile the project, run the unit tests, and provide the test results.
+
+</blockquote>
+</details>
+
+---
+
+41. How do you package a Maven project?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+<blockquote>
+
+Maven can package your project into different formats, such as JAR, WAR, or even an executable JAR. The command `mvn package` triggers the necessary phases to compile, test, and package your project based on the packaging type specified in the POM file.
 
 </blockquote>
 </details>
@@ -763,21 +761,7 @@ Maven can package your project into different formats, such as JAR, WAR, or even
 
 ---
 
-43. How do you package a Maven project?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details><summary><b> Show Answer</b></summary>
-<blockquote>
-
-Maven can package your project into different formats, such as JAR, WAR, or even an executable JAR. The command `mvn package` triggers the necessary phases to compile, test, and package your project based on the packaging type specified in the POM file.
-
-</blockquote>
-</details>
-
----
-
-44. How do you specify a dependency in Maven?
+43. How do you specify a dependency in Maven?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -801,7 +785,7 @@ Dependencies are specified within the <dependencies> element in the POM file. Ea
 
 ---
 
-45. What is Maven's reactor?
+44. What is Maven's reactor?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -815,7 +799,7 @@ Maven's reactor is a mechanism that manages the build order and interdependencie
 
 ---
 
-46. What is the purpose of Maven profiles?
+45. What is the purpose of Maven profiles?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -829,7 +813,7 @@ Maven profiles allow you to define different sets of configurations, dependencie
 
 ---
 
-47. What are Maven plugins?
+46. What are Maven plugins?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -843,7 +827,7 @@ Maven plugins are extensions that provide additional functionality to the build 
 
 ---
 
-48. What is the purpose of the Maven release plugin?
+47. What is the purpose of the Maven release plugin?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -857,7 +841,7 @@ The Maven release plugin is used to automate the release process of a Maven proj
 
 ---
 
-49. What is the difference between `<dependency>` and `<dependencyManagement>` in the POM file?
+48. What is the difference between `<dependency>` and `<dependencyManagement>` in the POM file?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -873,7 +857,7 @@ On the other hand, the `<dependencyManagement>` element is used in the parent PO
 
 ---
 
-50. How can you skip tests in Maven?
+49. How can you skip tests in Maven?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
