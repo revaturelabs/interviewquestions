@@ -1904,17 +1904,3 @@ In Java, strings are stored in the heap memory. This is because a String object 
 </details>
 
 ---
-
-93. Volatile keywords?
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-The `volatile` keyword in Java is used to indicate that a variable's value may be modified by multiple threads at the same time. Without the `volatile` keyword, different threads may create their own copy of that variable which will contain a different value for a different thread. This can lead to incorrect results. The `volatile` keyword helps to prevent this by forcing threads to always read the variable's value from main memory, rather than from a cached copy.
-
-</blockquote>
-
-</details>
-
----
