@@ -437,3 +437,204 @@ There are four components of DataProviders:
 
 ---
 
+25. Explain the difference between DataTable and DataSet.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+DataTable consists of a single database table that is placed within a memory whereas DataSet consists of a collection of multiple database tables.
+
+</blockquote>
+
+</details>
+
+---
+
+26. What is object pooling?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Object pooling is a repository of the objects in memory that can be reused later without creating them.
+Whenever there is a requirement of an object, the object pool manager will process the request and serve accordingly.
+
+</blockquote>
+
+</details>
+
+---
+
+27. What are the different execute() methods available in ADO.NET?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+ExecuteScalar(): This method returns only a single value after the execution of the query.
+ExecuteNonQuery():This method returns the number of rows affected by the execution of a query like insert,update,delete.
+ExecuteReader():This method returns an object of DataReader which is a read-only and forward-only ResultSet.
+ExecuteXmlReader():This method builds an object of the XmlReader class and will return the ResultSet in the form of an XML document. 
+
+</blockquote>
+
+</details>
+
+---
+
+28. What is a transaction in ADO.NET? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Transactions are used when you want to bind several tasks together and execute them in a single unit of work.
+
+</blockquote>
+
+</details>
+
+---
+
+29.Why Stored Procedure is used in ADO.NET?
+
+[Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+The reasons for using Stored Procedures in ADO.NET are given below:
+
+For improved performance
+For security reasons
+Easier to use and maintain
+Lesser Network Traffic
+Execution time is less
+
+</blockquote>
+
+</details>
+
+---
+
+30.Briefly explain connected and disconnected architecture of ADO.NET.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+In connected architecture, the connection remains open for accessing the data retrieved from the database.
+While in disconnected architecture, even if the database connection is closed, data retrieved from the database can be accessed by storing the tables on the dataset.
+
+</blockquote>
+
+</details>
+
+---
+
+31. What is the HasChanges() method of DataSet?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+This method return boolean value to show whether record of DataSet has changed or not. It returns true if any changes made and false if no changes performed. 
+
+</blockquote>
+
+</details>
+
+---
+
+32.What is the use of Dataview?
+
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Dataview is used to represent a whole table or a part of table. It is best view for sorting and searching data in the data table.
+
+</blockquote>
+
+</details>
+
+---
+
+33.  What is the SqlCommandBuilder?  
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+CommandBuilder helps you to generate update, delete, and insert commands on a single database table for a data adapter. 
+Similar to other objects, each data provider has a command builder class. 
+The OleDbCommandBuilder, SqlCommonBuilder, and OdbcCommandBuilder classes represent the CommonBuilder object in the OleDb, Sql, and ODBC data providers.
+
+</blockquote>
+
+</details>
+
+---
+
+34. What is the best and fast way to insert 2 million rows of data into SQL Server?  
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+ BULK INSERT statement can be used to insert large volume of data on SQL.
+The first argument for BULK INSERT should be a table name or a view name. 
+The second argument is the name of the source file with the full file path from where the data is required to be imported.
+The third argument is to specify the target .
+
+</blockquote>
+
+</details>
+
+---
+
+35.Name some problems that could occur with connection pooling between ASP.NET And SQL Server?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- Timeout Expired Error
+- The Connection’s Current State Is Open Error
+- The Connection’s Current State Is Closed Error
+
+</blockquote>
+
+</details>
+
+---
+
+
+
+
+
+
+
