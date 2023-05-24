@@ -1,4 +1,4 @@
-15. Can you explain the Rest parameters in Typescript?
+1. Can you explain the Rest parameters in Typescript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -23,7 +23,7 @@ let players = getPlayersList("Virat", "MS", "Warner", "Kane", "Ben")
 
 ---
 
-16. What are Generics in TypeScript?
+2. What are Generics in TypeScript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -49,7 +49,7 @@ greet('DS'); //function call
 
 ---
 
-29. How to declare a variable so that it can hold multiple values?
+3. How to declare a variable so that it can hold multiple values?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
