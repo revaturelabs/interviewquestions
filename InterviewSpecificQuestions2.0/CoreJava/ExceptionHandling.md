@@ -626,7 +626,7 @@ NoClassDefFoundError: This error occurs when the JVM successfully finds the clas
 
 ---
 
-33. Provide some examples when a finally block won't be executed in Java?   
+33. Provide some examples when a finally block won't be executed in Java.
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
