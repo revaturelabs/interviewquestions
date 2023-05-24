@@ -1,5 +1,5 @@
 ## Technical
-1. Create a list with numbers - 3, 4, 6, 12, 20, filter the numbers which are divisible by 5 and display them using streams API?
+1. Create a list with numbers - 3, 4, 6, 12, 20, filter the numbers which are divisible by 5 and display them using streams API.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -253,7 +253,7 @@ There are instances where you have a stream, but you only want to select a rando
 
 ---
 
-14. Differentiate Collection API and Stream API?
+14. Differentiate Collection API and Stream API.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -360,7 +360,7 @@ In this example, we have used RetentionPolicy.RUNTIME because we want to demonst
 
 ---
 
-18. How to avoid  `NullPointerException ` in Java 8?
+18. How to avoid `NullPointerException` in Java 8?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -478,7 +478,7 @@ For example, `\<interfaceName\>.super.\<defaultMethodName\>`
 ---
 
 
-23. What is the purpose of `joining ()` method introduced in Java 8 ?
+23. What is the purpose of `joining ()` method introduced in Java 8?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -772,7 +772,7 @@ A Supplier is a simple functional interface in Java 8 that does not take in any 
 
 ---
 
-37. List the common types of functional interfaces in the standard library?
+37. List the common types of functional interfaces in the standard library.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1141,7 +1141,7 @@ Projections are a powerful tool for working with collections of data, allowing y
 </details>
 
 ---
-55. Use Java Streams to sort items based on price? 
+55. Use Java Streams to sort items based on price.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1258,7 +1258,7 @@ After running this code, the map variable will contain a map of the numbers from
 
 ---
 
-57. Is Stream is better than for loop and why?  
+57. Is Stream better than loop and if so, why?  
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1306,7 +1306,7 @@ This code will produce a List of String objects containing the names of all the 
 </details>
 
 ---
-59. A User object has an attribute named age. How would you filter a list of User objects by age.
+59. A User object has an attribute named age. How would you filter a list of User objects by age?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
