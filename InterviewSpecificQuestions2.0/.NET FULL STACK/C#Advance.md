@@ -354,3 +354,194 @@ The best choice is to use a sealed class to prevent the class not to be extended
 </details>
 
 ---
+	
+17.What are C# attributes and its significance?
+	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+	
+Attributes are declarative tags on certain entities, eg. Class, method, etc. are called attributes. The attribute’s information can be retrieved at runtime using Reflection.
+	
+</blockquote>
+
+</details>
+
+---
+	
+18.What is the difference between the Virtual method and the Abstract method?
+	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+The Virtual method must always have a default implementation. However, it can be overridden in the derived class, although it is not mandatory. It can be overridden using the override keyword.
+
+An Abstract method does not have an implementation. It resides in the abstract class. It is mandatory that the derived class implements the abstract method. An override keyword is not necessary here though it can be used.
+	
+</blockquote>
+
+</details>
+
+---
+	
+19. What are C# I/O classes? What are the commonly used I/O classes?
+	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 	
+
+C# has System.IO namespace, consisting of classes that are used to perform various operations on files like creating, deleting, opening, closing, etc.
+
+Some commonly used I/O classes are:
+
+File – Helps in manipulating a file.
+StreamWriter – Used for writing characters to a stream.
+StreamReader – Used for reading characters to a stream.
+StringWriter – Used for reading a string buffer.
+StringReader – Used for writing a string buffer.
+Path – Used for performing operations related to the path information.
+	
+</blockquote>
+
+</details>
+
+---	
+	
+20. What is StreamReader/StreamWriter class?
+	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 	
+	
+StreamReader and StreamWriter are classes of namespace System.IO. They are used when we want to read or write charact90, Reader-based data, respectively.
+
+Some of the members of StreamReader are: Close(), Read(), Readline().
+
+Members of StreamWriter are: Close(), Write(), Writeline().	
+	
+</blockquote>
+
+</details>
+
+---	
+
+21.Explain Publishers and Subscribers in Events.
+	
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 	
+	
+Publisher is a class responsible for publishing a message of different types of other classes. The message is nothing but Event.
+
+Subscribers capture the message of the type that it is interested in.
+	
+</blockquote>
+
+</details>
+
+---	
+	
+22.What are the types of Serialization?
+	
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+The different types of Serialization are: 
+
+XML serialization – It serializes all the public properties to the XML document. Since the data is in XML format, it can be easily read and manipulated in various formats. The classes reside in System.sml.Serialization.
+SOAP – Classes reside in System.Runtime.Serialization. Similar to XML but produces a complete SOAP compliant envelope that can be used by any system that understands SOAP.
+Binary Serialization – Allows any code to be converted to its binary form. Can serialize and restore public and non-public properties. It is faster and occupies less space.
+	
+</blockquote>
+
+</details>
+
+---	
+	
+23.What do you understand about dependency injection?
+	
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 	
+	
+You can de-couple tightly linked classes using the dependency injection. Thus, it reduces the direct dependency of classes upon each other. You can achieve dependency injection via the following: 
+
+Constructor dependency
+Property dependency
+Method dependency
+	
+</blockquote>
+
+</details>
+
+---	
+	
+24. What are the advantages of using partial classes?
+	
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 	
+	
+The major advantages of using partial classes are as follows:
+
+They allow multiple developers to work on the same class easily.
+The code generators mainly use them to keep different concerns separate.
+It allows one developer to define the method while the other developer can implement it.
+	
+</blockquote>
+
+</details>
+
+---
+	
+25.What is string interpolation in C#?
+	
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 	
+	
+String Interpolation in C# allows to create formatted strings with readable and convenient syntax. You can create an interpolation string containing interpolation expressions using the $ special character. On resolving, the interpolation string replaces the interpolation expression with the string representation of the interpolation item.
+	
+</blockquote>
+
+</details>
+
+---
+	
+26.How is Var different from Dynamics in C#?
+	
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 	
+	
+Variables declared with var are implicitly but statically typed. Variables declared with dynamic are dynamically typed. 
+	
+This means that dynamic declarations are resolved at run-time, and var declarations are resolved at compile-time.
+	
+</blockquote>
+
+</details>
+
+---
