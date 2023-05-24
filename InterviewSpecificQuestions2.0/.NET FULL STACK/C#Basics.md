@@ -565,5 +565,175 @@ In C#, the `System.IO` namespace contains the required classes which are used to
 </details>
 
 ---
+    
+31.What is serialization?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+The process of converting objects into bytes of stream and storing it on a file,memory or database is called as serialization.
+
+</blockquote>
+
+</details>
+
+---
+
+32.Differentiate between finally blocks and finalize.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Finally block is called during exception handling to ensure the resources held by try block are released before exiting the code.
+Finalize() is called before executing the garbage collection.It will release any resources held by the objects before deleting it.
+
+</blockquote>
+
+</details>
+
+---
+
+33. Describe the accessibility modifier “protected internal”.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Variables or methods that are Protected Internal can be accessed within the same assembly as well as from the classes which have been derived from the parent class.
+
+</blockquote>
+
+</details>
+
+---
+
+34.  What is the difference between Dispose() and Finalize()methods?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Dispose() is used when an object is required to release any unmanaged resources in it. 
+Finalize(), on the other hand, doesn’t assure the garbage collection of an object even though it is used for the same function.
+
+</blockquote>
+
+</details>
+
+---
+
+35.In C#, how do you implement the singleton design pattern?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+In a singleton pattern, a class is allowed to have only one instance, and an access point is provided to it globally.
+
+</blockquote>
+
+</details>
+
+---
+
+36.What is tuple in C#?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Tuple is a data structure to represent a data set that has multiple values that could be related to each other. 
+
+</blockquote>
+
+</details>
+
+---
+
+37.What is the Constructor Chaining in C#? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+With Constructor Chaining, an overloaded constructor can be called from another constructor. The constructor must belong to the same class. 
+
+</blockquote>
+
+</details>
+
+---
+
+38.Why are Async and Await used in C#?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Asynchronous programming processes execute independently of the primary or other processes. 
+Asynchronous methods in C# are created using the Async and Await keywords.
+
+</blockquote>
+
+</details>
+
+---
+
+39.What is the difference between “is” and “as” operators in c#?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+An “is” operator can be used to check an object’s compatibility with respect to a given type, and the result is returned as a Boolean. 
+An “as” operator can be used for casting an object to either a type or a class.
+
+</blockquote>
+
+</details>
+
+---
+
+40.What is a multicasting delegate?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Multicasting delegates allow users to invoke multiple callbacks. It can refer to multiple methods and functions having the same signature at one time.
+
+</blockquote>
+
+</details>
+
+---
+
+
+
+
+
+
 
 
