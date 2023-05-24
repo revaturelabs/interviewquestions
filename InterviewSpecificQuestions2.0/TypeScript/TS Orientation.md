@@ -467,6 +467,3 @@ Here, `?=>?` is a lambda operator.
 </details>
 
 ---
-
-
-
