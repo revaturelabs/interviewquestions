@@ -1,4 +1,4 @@
-1. How do Strings work? (or) Brief us on strings
+1. How do Strings work? (or) Brief us on strings.
 
  
 
@@ -248,7 +248,7 @@ Integer class in the Java lang package provides different methods for converting
 
 ---
 
-13. Give the example for mutable and immutable objects in java?
+13. Give the example for mutable and immutable objects in java.
 
  
 
@@ -304,7 +304,7 @@ Reason:
 </details>
 
 ---
-16. Difference between int and Integer   
+16. Difference between int and Integer.
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -342,7 +342,7 @@ Wrapper classes are the classes that allow primitive data types to be treated as
 </details>
 
 ---
-18. The differences between String, StringBuffer, and StringBuilder. 
+18. What are the differences between String, StringBuffer, and StringBuilder. 
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -356,7 +356,7 @@ Strings, StringBuilder, and StringBuffer are classes in Java used to manipulate 
 
 ---
 
-19. What types of Methods are in a String class 
+19. What types of Methods are in a String class?
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -431,7 +431,7 @@ Note that the index starts at 0, so the first character in the string has an ind
 </details>
 
 ---
-21. Tell me about Strings in java
+21. Tell me about Strings in java.
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -468,7 +468,7 @@ This creates a new String object with the value "Hello world".
 </details>
 
 ---
-22. difference between instantiating a string = "dog" vs = new String("dog")?;
+22. Difference between instantiating a string = "dog" vs = new String("dog")?;
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -494,7 +494,7 @@ In general, it is recommended to use string literals instead of creating new str
 </details>
 
 ---
-23. do you understand immutable classes?
+23. What do you understand about immutable classes?
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -530,7 +530,7 @@ In summary, StringBuilder is a mutable class in Java that provides methods for m
 </details>
 
 ---
-25. String vs StringTokenizer 
+25. Differentiate between String vs StringTokenizer 
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -566,7 +566,7 @@ In this example, we first create a StringBuilder object with the value of the or
 </details>
 
 ---
-27. Tell me about how to create a String literal 
+27. Tell me about how to create a String literal.
 
 <details><summary><b> Show Answer</b></summary>
 
