@@ -168,56 +168,12 @@ Note: Replace `your_table` with the actual name of your table, and adjust the co
 
 ---
 
-5. Given 2 tables create a SQL query to find the sums of department spending?
 
-<details><summary><b>MySQL</b></summary>
 
-<blockquote>
+5. How do you retrieve all the data from a  table in SQL? 
 
-```sql
-SELECT departments.department_name, SUM(employee_salaries.salary) AS department_spending
-FROM departments
-JOIN employee_salaries ON departments.department_id = employee_salaries.department_id
-GROUP BY departments.department_name;
-```
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-Explanation: 
-1. The query selects the `department_name` column from the `departments` table.
-2. It then calculates the sum of the `salary` column from the `employee_salaries` table using the `SUM` function.
-3. The `JOIN` clause is used to join the two tables based on the `department_id` column.
-4. Finally, the `GROUP BY` clause groups the results by `department_name`.
-
-Note: Adjust the table and column names according to your schema.
-
-</blockquote>
-
-</details>
-
-<details><summary><b>PostgreSQL</b></summary>
-
-<blockquote>
-
-```sql
-SELECT departments.department_name, SUM(employee_salaries.salary) AS department_spending
-FROM departments
-JOIN employee_salaries ON departments.department_id = employee_salaries.department_id
-GROUP BY departments.department_name;
-```
-
-Explanation: 
-1. The query selects the `department_name` column from the `departments` table.
-2. It then calculates the sum of the `salary` column from the `employee_salaries` table using the `SUM` function.
-3. The `JOIN` clause is used to join the two tables based on the `department_id` column.
-4. Finally, the `GROUP BY` clause groups the results by `department_name`.
-
-Note: Adjust the table and column names according to your schema.
-
-</blockquote>
-</details>
-
----
-
-6. How do you retrieve all the data from a  table in SQL? 
 
 <details><summary><b>MySQL</b></summary>
 
@@ -255,7 +211,10 @@ Explanation:
 
 ---
 
-7. Two tables that can be joined: employees and employee salaries, Return the 3rd highest employee salary.
+6. Write a query to join the tables employees and employee salaries to return the 3rd highest employee salary.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 
 <details><summary><b>MySQL</b></summary>
 
@@ -278,7 +237,7 @@ Explanation:
    - `LIMIT 2, 1` skips the first two highest salaries and retrieves the third highest salary.
 2. The outer query selects the employees' salary from the "employee_salaries" table that matches the 3rd highest salary obtained from the subquery.
 
-Note: The assumption here is that the "employee_salaries" table stores the salaries of employees.
+
 
 </blockquote>
 
@@ -308,7 +267,7 @@ Explanation:
    - `LIMIT 1` retrieves only one salary, which will be the 3rd highest.
 2. The outer query selects the employees' salary from the "employee_salaries" table that matches the 3rd highest salary obtained from the subquery.
 
-Note: The assumption here is that the "employee_salaries" table stores the salaries of employees.
+
 
 </blockquote>
 
@@ -316,7 +275,10 @@ Note: The assumption here is that the "employee_salaries" table stores the salar
 
 ---
 
-8. Given a table with duplicate data, how would find the duplicate records using SQL? 
+8. Write a query to find the duplicate records from a table.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 
 <details><summary><b>MySQL</b></summary>
 
@@ -362,7 +324,9 @@ Explanation:
 
 ---
 
-9. If you wanted to select unique rows from a table in sql how would you go about doing that?
+9. How do you select unique rows from a table in sql ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>MySQL</b></summary>
 
@@ -396,7 +360,9 @@ Explanation:
 
 ---
 
-10. distinct without using distinct.
+10. How can you obtain unique values in SQL without using the DISTINCT keyword?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
 <details><summary><b>MySQL</b></summary>
@@ -435,7 +401,10 @@ The query is the same as the MySQL version. It selects the `column_name` from th
 
 ---
 
-11.  Query to find the most recent purchase from each customer:
+11. write a query to find the most recent purchase from each customer.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 
 <details><summary><b>MySQL</b></summary>
 
@@ -475,7 +444,9 @@ This query is similar to the MySQL query. It combines the `customers` and `sales
 
 ---
 
-12. SQL Riddle: If table T1 has 1 Column named "ID" and 2 Rows: (1;1) and table T2 has 1 Column named "ID" and 2 Rows: (1;1), how many rows would `SELECT T1.ID, T2.ID FROM T1 INNER JOIN T2 ON T1.ID = T2.ID` return?
+12. Consider if table T1 has 1 Column named "ID" and 2 Rows: (1;1) and table T2 has 1 Column named "ID" and 2 Rows: (1;1), how many rows would `SELECT T1.ID, T2.ID FROM T1 INNER JOIN T2 ON T1.ID = T2.ID` return?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Answer</b></summary>
 
@@ -488,7 +459,9 @@ The query performs an inner join on the `ID` column between table T1 and table T
 
 ---
 
-13. I have a table with 10 rows and 2 duplicates. How do I find the duplicate rows?   
+13. Consider if im having a table containing 10 rows with 2 duplicates, how can I identify and retrieve the duplicate rows?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>MySQL</b></summary>
 
@@ -531,6 +504,8 @@ This query is the same as the MySQL version. It selects `col1` and `col2` column
 
 14. What is a Subquery?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b>Answer</b></summary>
 
 <blockquote>
@@ -556,6 +531,8 @@ In this query, the subquery `(SELECT country FROM orders WHERE order_date >= '20
 ---
 
 15. How to avoid duplicates in a query?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Answer</b></summary>
 
@@ -586,7 +563,10 @@ In this example, the `GROUP BY` clause groups rows by the values in `column1` an
 
 ---
 
-16.   Can you tell me how to create a new Table from another Table, where just the structure of the table is copied but none of the rows? 
+16. How do you  create a new Table from another Table, where just the structure of the table is copied but none of the rows are copied? 
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 
 <details><summary><b>MySQL</b></summary>
 
@@ -619,7 +599,9 @@ This PostgreSQL query creates a new table called `new_table` using the `CREATE T
 ---
 
 
-17. Counting the number of 's' characters in the string "Infosys" using SQL:
+17. Write a query to Count the number of 's' characters in the string "Infosys" using SQL
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>MySQL</b></summary>
 
@@ -651,7 +633,9 @@ This PostgreSQL query is similar to the MySQL version. It calculates the count o
 
 ---
 
-18. To find duplicate records in a table, you can use the `GROUP BY` and `HAVING` clauses in SQL. Here's an example:
+18. How do you find duplicate records in a table?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
 <details><summary><b>MySQL</b></summary>
@@ -684,7 +668,9 @@ This PostgreSQL query is similar to the MySQL version. It selects `column1` and 
 
 ---
 
-19. A query using the `LIKE` keyword?
+19. Write a query using the `LIKE` keyword?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>MySQL</b></summary>
 
@@ -714,7 +700,9 @@ This PostgreSQL query is the same as the MySQL version. It uses the `LIKE` keywo
 
 ---
 
-20.  Returning both employee tables:
+20. How can you retrieve data from both employee tables in SQL and combine the results into a single result set?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>MySQL</b></summary>
 
@@ -745,6 +733,8 @@ This PostgreSQL query is similar to the MySQL version. It selects all columns fr
 ---
 
 21. If you had 2 tables, how would you query all the records unique in the first table all the records that are unique in the second table and then all the records that they have in common.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>MySQL</b></summary>
 
@@ -783,6 +773,8 @@ This PostgreSQL query is a more concise version. It uses the `EXCEPT` operator t
 
 22. Given 4 tables: Members, Checking Accounts (3 types), Savings Account (3 types), Loans(3 types) write a SQL query to find the most popular products along with the number of members who are attached to each product type. 
 
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b>Answer</b></summary>
 
 ```sql
@@ -815,8 +807,9 @@ This query uses left joins to combine the `Members` table with the `Checking_Acc
 
 ---
 
-23.   Insert into Person table
+23. How do you insert a data into a table Person.
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Answer</b></summary>
 
@@ -836,7 +829,9 @@ Please note that you need to adjust the column names and values based on your sp
 
 ---
 
-24.   Write out an SQL query to find the most recently updated fields in a table.
+24. Write a query to find the most recently updated fields in a table.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Answer</b></summary>
 
@@ -856,7 +851,9 @@ In this query, `your_table` represents the name of your table. Assuming you have
 
 ---
 
-25. You have a table named Customer with 3 columns - customer_id, name, and country. How would you get all names fro the table?
+25. Consider you have a table named Customer with 3 columns - customer_id, name, and country. How do you get all names from the table?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
 <details><summary><b>Answer</b></summary>
@@ -875,7 +872,9 @@ This MySQL query selects the "name" column from the "Customer" table. It retriev
 
 ---
 
-26.  You have a table named Customer with 3 columns - customer_id, name, and country. How would youGet all names in acsending order?
+26. Consider you have a table named Customer with 3 columns - customer_id, name, and country. How do you Get all names in acsending order?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Answer</b></summary>
 
@@ -895,7 +894,9 @@ This query selects the "name" column from the "Customer" table and uses the ORDE
 
 ---
 
-27.   You have a table named Customer with 3 columns - customer_id, name, and country. How would you get number of countries from each table?
+27. Consider you have a table named Customer with 3 columns - customer_id, name, and country. How do you get the number of countries from each table?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Answer</b></summary>
 
@@ -915,6 +916,8 @@ In this query, the `COUNT` function is used to count the number of distinct coun
 
 28.  How do you update a record in SQL?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b>Answer</b></summary>
 
 ```sql
@@ -931,6 +934,8 @@ In this example, `table_name` should be replaced with the actual name of the tab
 ---
 
 29.  How would you do a SQL call for employees with a salary over 150K
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
 <details><summary><b>Answer</b></summary>
@@ -952,6 +957,8 @@ In this query, `employees` represents the name of the table that stores employee
 
 30.  How do you select only the uncommon rows in two single column tables where the first x rows have the same value (ie 2 tables: 1 is 20 rows, 1 is 15 rows, each have the same values in the first 15 rows. How do you retrieve the other 5 rows)? Is there another way that isn't the MINUS function?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b>Answer</b></summary>
 
 To select only the uncommon rows between two single-column tables, where the first x rows have the same values, you can use various techniques such as the EXCEPT/NOT IN operator or a combination of LEFT JOIN and NULL check. Here's an example using the LEFT JOIN technique:
@@ -972,6 +979,7 @@ In this MySQL query, `table1` and `table2` represent the names of the two single
 
 31.  Write a query to select all people living in a specific city from the tables you created.
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Answer</b></summary>
 
@@ -994,7 +1002,10 @@ In this MySQL query, we join the `Persons` and `Addresses` tables using the `per
 
 ---
 
-32.    What can I use to speed up a specific query in SQL?
+32. What are ways to speed up a specific query in SQL?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 
 <details><summary><b>Answer</b></summary>
 
@@ -1019,7 +1030,10 @@ There are several ways to speed up a specific query in SQL:
 
 ---
 
-33.  how to manage a limitation in my program that only manages 100 objects whilst having a 1000 in my database.
+33.  How to manage a limitation in a program that only manages 100 objects whilst having a 1000 in my database.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 
 <details><summary><b>Answer</b></summary>
 
@@ -1057,7 +1071,9 @@ By implementing pagination or limiting the result set, you can effectively manag
 
 ---
 
-34.  How to find common records in two tables ?
+34. How to find common records in two tables ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Answer</b></summary>
 
@@ -1078,7 +1094,9 @@ The `JOIN` operation combines the rows from both tables based on matching values
 
 ---
 
-35.   How to find min and max of a salary column?
+35. How to find min and max in a salary column?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Answer</b></summary>
 
@@ -1096,11 +1114,14 @@ In this query, replace `your_table` with the actual name of the table you're wor
 
 ---
 
-36.   If you had an id column like 1,2,3,4,5,... how would you return the records with odd ID's
+36.  Consider if you have an id column like 1,2,3,4,5,... how would you return the records with odd ID's
 
-To return the records with odd IDs from a table with an ID column, you can use the modulo operator (%) in your SQL query. Here's how you can do it:
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 
 <details><summary><b>Answer</b></summary>
+
+To return the records with odd IDs from a table with an ID column, you can use the modulo operator (%) in your SQL query. Here's how you can do it:
 
 ```sql
 SELECT *
@@ -1116,6 +1137,8 @@ In this MySQL query, replace `your_table` with the actual name of the table you'
 ---
 
 37.  How do you select top 10 employees with highest salary in table?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Answer</b></summary>
 
@@ -1138,6 +1161,8 @@ This query will work for both MySQL and PostgreSQL databases as the syntax is th
 ---
 
 38. How would you get the individual transactions and the total transaction amount over the course of a month for a customer from a Customers table and a Transactions table?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Answer</b></summary>
 
@@ -1162,7 +1187,9 @@ This query can be used in both MySQL and PostgreSQL databases as the syntax is t
 
 ---
 
-39.  how to delete duplicates in SQL?
+39.  how do you delete duplicates in SQL?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>MySQL</b></summary>
 
@@ -1202,13 +1229,13 @@ This PostgreSQL query deletes the duplicate rows from the `your_table`. Replace 
 
 ---
 
-40.  "on SQL code challenge: given two tables """"employee"""" and """"sale_details"""", ask to
--  present the employee who have sold nothing.  
--  presend the employee who is the top sales.
+40.  Given two tables "employee" and "sale_details", 
+How do you fetch the details of the 
+ -  employee who have sold nothing.  
+ -  employee who is the top sales.
 
-SQL Code Challenge: Given two tables "employee" and "sale_details", present the employee who have sold nothing.
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
 
 <details><summary><b>MySQL</b></summary>
 
@@ -1240,7 +1267,7 @@ This PostgreSQL query is similar to the MySQL version. It uses a `LEFT JOIN` to 
 </details>
 
 
-SQL Code Challenge: Given two tables "employee" and "sale_details", present the employee who is the top sales.
+
 
 <details><summary><b>Answer</b></summary>
 

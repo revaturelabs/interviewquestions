@@ -245,6 +245,8 @@ Yes, ACID is an acronym that stands for Atomicity, Consistency, Isolation, and D
 
 </details>
 
+---
+
 6. Can you differentiate between RDBMS and NoSQL? 
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
