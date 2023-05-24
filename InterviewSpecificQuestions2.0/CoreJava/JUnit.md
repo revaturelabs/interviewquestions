@@ -787,7 +787,7 @@ No there is no time constraint. A JUnit test needs to run whenever there is a ch
 
 ---
 
-50. Mention different methods of exception handling in JUnit?
+50. Mention different methods of exception handling in JUnit.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -843,7 +843,7 @@ JUnit is used because:
 
 ---
 
-53. Differentiate TDD and BDD?
+53. Differentiate TDD and BDD.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1223,7 +1223,7 @@ public class MyTest {
 
 ---
 
-69. Differentiate e2e and Unit testing ?
+69. Differentiate e2e and Unit testing.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
