@@ -308,3 +308,142 @@ let Subject: string = "Computer Science";
 </details>
 
 ---
+ 
+ 23. Explain the Declare keyword in Typescript?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+- The **declare** keyword is used for ambient declarations and methods where we want to define a variable that may exist elsewhere.
+- If we want to use any library in our TypeScript code, we can use the following code:
+
+```ts
+
+declare var myAlexaLibrary;
+
+```
+
+</blockquote>
+</details>
+
+---
+
+24. Explain the need for a TypeScript Definition Manager?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+- TypeScript Definition Manager (TSD) is a package manager used to search and install typescript definition files directly from the community-driven DefinitelyTyped repository.
+- Now, if we want to use some jQuery code in your .ts file:
+
+```ts
+
+$(document).ready(function() { //Your jQuery code });
+
+```
+- Here, when we try to compile it by using tsc, it will give a compile-time error: Cannot find the name “$”.
+- So, we need to inform the TypeScript compiler that “$”belongs to jQuery.
+- To do this, TSD comes into play. We can download the jQuery Type Definition file and include it in our .ts file.
+
+</blockquote>
+</details>
+
+---
+ 
+ 26.  How to call the base class constructor from the child class in TypeScript?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+We can call the base class constructor using `super()`.
+
+</blockquote>
+</details>
+
+---
+
+27. What is Interface in TypeScript?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+- An `interface` is a virtual structure that only exists within the context of TypeScript. The TypeScript compiler uses interfaces only for type-checking purposes.
+- When we define your interface we’re saying that any object (not an instance of a class) given this contract must be an object containing interface properties.
+
+</blockquote>
+</details>
+
+---
+
+28. When to use interfaces and when to use classes in TypeScript? 
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+- If we need/wish to create an instance of perhaps a custom object, whilst getting the benefits of type-checking things such as arguments, return types, or generics - a class makes sense. 
+- If we’re not creating instances - we have interfaces at our disposal, and their benefit comes from not generating any source code, yet allowing us to somewhat “virtually” type-check our code.
+
+</blockquote>
+</details>
+
+---
+
+ 30. What are getters and setters in TypeScript?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+- TypeScript supports getters/setters as a way of intercepting accesses to a member of an object. This gives a way of having finer-grained control over how a member is accessed on each object.
+```typescript
+class Employee {
+   
+    private _name: string;
+
+    get Name() {
+        return this._name;
+    }
+    set Name(val) {
+        this._name = val;
+    }
+}
+```
+
+</blockquote>
+</details>
+
+---
+
+31.  When to use the interface in TypeScript?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+- Interfaces help to achieve Polymorphism.
+- An interface is a contract to implement a shape of the data. 
+- Use the interface to make it clear that it is intended to be implemented and used as a contract about how the object will be used.
+```typescript
+interface Bird {
+    size: number
+    fly(): void
+    sleep(): void
+}
+class Hummingbird implements Bird { ... }
+class Bellbird implements Bird { ... }
+;
+```
+---
+
