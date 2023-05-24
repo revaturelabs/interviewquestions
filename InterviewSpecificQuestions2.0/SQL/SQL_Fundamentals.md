@@ -53,6 +53,7 @@ In this example, the column "first_name" is given the alias "First", and the col
 </details>
 
 ---
+
 3. What is a record type?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)

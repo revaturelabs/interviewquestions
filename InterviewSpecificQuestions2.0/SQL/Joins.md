@@ -1,4 +1,6 @@
 1. What are the different types of joins in SQL?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -14,9 +16,12 @@ There are several types of joins in SQL:
 
 </details>
 
+
 ---
 
 2. What is a join in SQL?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -27,11 +32,13 @@ In SQL, a join is used to combine rows from two or more tables based on a relate
 
 ---
 
-3. If there is no respective item I.E. a genre but no movie with that genre, what will happen to that genre?
+3. What happens to a genre if there are no movies associated with it?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
-If there is no respective item, i.e., a genre but no movie with that genre, the genre will still be included in the result set, but the movie column values for that genre will be NULL. This is because the SQL engine still includes all rows from the first table (the one specified before the LEFT JOIN or RIGHT JOIN keyword) in the result set, regardless of whether there is a match in the second table (the one specified after the JOIN keyword).
+ The genre will still be included in the result set, but the movie column values for that genre will be NULL. This is because the SQL engine still includes all rows from the first table (the one specified before the LEFT JOIN or RIGHT JOIN keyword) in the result set, regardless of whether there is a match in the second table (the one specified after the JOIN keyword).
 </blockquote>
 
 </details>
@@ -39,6 +46,8 @@ If there is no respective item, i.e., a genre but no movie with that genre, the 
 ---
 
 4. What is a cartesian join?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -49,24 +58,10 @@ A Cartesian join, also known as a cross join, is a join operation in SQL that re
 
 ---
 
-5. Take a list of entries and make a second list of the unique elements from the first.
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-To create a list of unique elements from a list of entries in SQL, you can use the DISTINCT keyword with the SELECT statement. Here is an example query that selects unique values from a table called 'mytable' with a column called 'mycolumn':
 
-```sql
-SELECT DISTINCT mycolumn FROM mytable;
-```
+5. What is a left outer join?
 
-This query will return a list of all unique values in the 'mycolumn' column of the 'mytable' table.
-</blockquote>
-
-</details>
-
----
-
-6. What is a left outer join?
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -86,7 +81,10 @@ This query will return all records from 'table1' and matching records from 'tabl
 
 ---
 
-7. What is the difference between a Union and a Join in SQL? 
+6. What is the difference between a Union and a Join in SQL? 
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -99,7 +97,9 @@ In other words, a join combines columns from different tables into a single resu
 
 ---
 
-8. What are Outer Join and Full Outer Join?
+7. What are Outer Join and Full Outer Join?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -121,7 +121,10 @@ This query will return all records from both 'table1' and 'table2', based on the
 
 ---
 
-9. What is a Cross Join?
+8. What is a Cross Join?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -142,7 +145,10 @@ This query will return the combination of every row from 'table1' and 'table2', 
 
 ---
 
-10. Let's say you have two tables with a common column between them (primary key-foreign key), how do you join these tables so that each row says which table it comes from: Table A, Table B, or Both Tables?
+9. Let's say you have two tables with a common column between them (primary key and foreign key), how do you join these tables so that each row says which table it belongs to: Table A, Table B, or Both Tables?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -163,7 +169,10 @@ This query will return a result set that includes all the rows from both 'tableA
 
 ---
 
-11. How would you combine the data of two different SQL tables? 
+10. How would you combine the data of two different SQL tables? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -187,13 +196,16 @@ This query will return a result set that combines the rows from 'table1' and 'ta
 ---
 
 
-12. How to write an SQL query (joins) for a database with 3 tables?
+11. How to write a SQL query using joins for a database with 3 tables?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
 To write an SQL query that joins 3 tables, you need to use multiple join operations. The specific type of join operation depends on the relationship between the tables and the data you want to extract. Here is an example of a query that joins 3 tables:
 
-Suppose we have three tables, 'customers', 'orders', and 'order_details', with the following columns:
+Consider we have three tables, 'customers', 'orders', and 'order_details', with the following columns:
 
 - customers: customer_id, customer_name, customer_email
 - orders: order_id, customer_id, order_date
@@ -217,36 +229,10 @@ This query joins the 'customers' table with the 'orders' table based on the 'cus
 
 ---
 
-13. How to write an SQL query (joins)?
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-To write an SQL query with joins, you need to specify the tables you want to join, the join conditions based on their relationships, the type of join operation you want to use, and the columns you want to retrieve using the SELECT statement.
 
-Here are the basic steps to follow:
+12. Difference between INNER JOIN and FULL OUTER JOIN
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-1. Identify the tables you want to join.
-2. Determine the join conditions based on the relationships between the tables.
-3. Choose the type of join operation you want to use (e.g., INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN).
-4. Specify the columns you want to retrieve using the SELECT statement.
-
-For example, to join two tables 'students' and 'grades', you could use the following SQL query:
-
-```sql
-SELECT students.name, grades.subject, grades.grade
-FROM students
-INNER JOIN grades
-ON students.id = grades.student_id;
-```
-
-This query retrieves the student name, subject, and grade for all matching rows between the 'students' and 'grades' tables, based on the join condition that the student ID in the 'students' table matches the student ID in the 'grades' table.
-</blockquote>
-
-</details>
-
----
-
-14. Difference between INNER JOIN and FULL OUTER JOIN:
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -257,7 +243,10 @@ INNER JOIN returns only the matching records from both tables while FULL OUTER J
 
 ---
 
-15. What is the difference between a right join and a left join?
+13. What is the difference between a right join and a left join?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -268,7 +257,10 @@ LEFT JOIN returns all records from the left table and matching records from the 
 
 ---
 
-16. How can I join tables without a primary key?
+14. How can you join tables without a primary key?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -279,7 +271,10 @@ You can join tables without a primary key by using a common field between the ta
 
 ---
 
-17. What is the difference between a join and a join with a select statement?
+15. What is the difference between a join and a join with a select statement?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -290,18 +285,12 @@ A join combines data from two or more tables based on a specified condition, whi
 
 ---
 
-18. How to combine two tables with related data?
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-You can combine two tables with related data by using a join statement that specifies the common field between the tables as the join condition. The most common type of join is an INNER JOIN, which returns only the matching records from both tables.
-</blockquote>
 
-</details>
 
----
+16. What is an inner join?
 
-19. What is an inner join?
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -312,18 +301,11 @@ An inner join is a type of join in SQL that returns only the matching records fr
 
 ---
 
-20. What is the condition for joining tables?
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-The condition for joining tables is typically a shared column or set of columns between the tables. The join condition can be specified in the ON clause of the join statement, which defines how the tables are related to each other.
-</blockquote>
 
-</details>
+17. Describe right join
 
----
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-21. Describe right join?
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -334,7 +316,11 @@ A right join is a type of join in SQL that returns all records from the right ta
 
 ---
 
-22. Outer join vs minus, cases of usage and syntax.
+18. Differentiate between Outer join and minus with a example.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -367,7 +353,8 @@ The minus operator is useful for finding differences between two sets of data, w
 
 ---
 
-23. Intersect: cases of usage and syntax.
+19. Explain Intersect operator with an example.
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -389,7 +376,11 @@ The INTERSECT operator can be useful for finding common rows between two tables 
 
 ---
 
-24. SQL right vs left outer joins
+20. Differentiate between right outer join and  left outer join 
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
 <details><summary><b> Show Answer</b></summary>
 
 <blockquote>
@@ -423,7 +414,10 @@ ON Table1.ID = Table2.ID;
 
 ---
 
-25. What is the difference between an inner join and a cartesian product?
+21. What is the difference between an inner join and a cartesian product?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 
 <details><summary><b> Show Answer</b></summary>
   
