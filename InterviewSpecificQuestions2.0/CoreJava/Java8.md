@@ -1258,7 +1258,7 @@ After running this code, the map variable will contain a map of the numbers from
 
 ---
 
-57. Is Stream better than loop and if so, why?  
+57. Is Stream better than for loop and if so, why?  
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
