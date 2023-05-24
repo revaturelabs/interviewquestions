@@ -247,3 +247,64 @@ The protected members are similar to private access modifiers, except that they 
 </details>
 
 ---
+ 
+ 17. What are Modules in TypeScript?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+- A module is a way to construct a local scope in a file. So that all the classes and variables declared in a module are not accessible outside the module.
+- We can create a module using the export keyword.
+- A module in typescript can be used in another module using the import keyword.
+
+```ts
+
+export class Student {
+    readonly Id: number;
+    Name: string;
+    
+    constructor(id: number, name: string) {
+        this.Id = id;
+        this.Name = name;
+    }
+}
+
+let Subject: string = "Computer Science";
+```
+
+</blockquote>
+</details>
+
+---
+
+18. Can we use JSX in TypeScript?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+- Yes, JSX is an embeddable XML-like syntax.
+- To use JSX, we must name our file with a .tsx extension and should enable the jsx option.
+
+</blockquote>
+</details>
+
+---
+
+19. What are Decorators in TypeScript?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+- Decorators are functions that modify a class, property, method, or method parameter. The syntax to define decorators is “@”.
+- In other words, Decorators are functions that take their target as the argument.
+
+</blockquote>
+</details>
+
+---
