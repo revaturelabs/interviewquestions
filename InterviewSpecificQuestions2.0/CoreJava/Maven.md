@@ -44,7 +44,7 @@ A Maven repository is a directory or a remote location where Maven stores projec
 
 ---
 
-4. List the processes which can be managed using Maven?
+4. List the processes which can be managed using Maven.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -102,7 +102,7 @@ A Build lifecycle is a well-defined sequence of phases that outline the order in
 
 ---
 
-8. List the build lifecycles of Maven?
+8. List the build lifecycles of Maven.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -190,7 +190,7 @@ The phases in site lifecycle are:
 
 ---
 
-13. What are the two setting files called in Maven called and what are their locations?
+13. What are the two setting files called in Maven and what are their locations?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -252,7 +252,7 @@ To run test classes in Maven, we need surefire plugin, and we need to check and 
 
 ---
 
-17.  How to install Maven?
+17. How to install Maven?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
