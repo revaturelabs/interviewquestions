@@ -831,4 +831,355 @@ We can't use `this` in the static method because the keyword `this` returns a re
 </details>
     
 ---
+   
+42.Define Implicit Interface Implementation.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+    
+This is the most common way to implement the members of an interface. In this one, one doesn’t have to specify the interface name of the members and implement the implicity.
+
+</blockquote>
+
+</details>
+    
+---
+    
+42.Define the meaning of Explicit Interface Implementation.
+    
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+    
+It is known as another way of implementing the members of an interface. In this one, one doesn’t need to specify the interface name of the given members. The difficulty with explicit implementation is that the member of the same class can't be accessed while using a class instance. It can be used only through an instance of the Interface.
+   
+</blockquote>
+
+</details>
+    
+---
+    
+43.Is it possible to serialize Hashtable?
+    
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+    
+No, it’s impossible to serialize Hashtable because the .Net Framework restricts the serialization of any objects that implement the iDictionary Interface.
+    
+</blockquote>
+
+</details>
+    
+---
+    
+44.Can we restrict object creation in C#?
+    
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+    
+ Yes, we can restrict an Object Creation by using the following methods-
+
+Abstract Class, Static Class, Private or Protected Constructor.
+    
+</blockquote>
+
+</details>
+    
+---
+
+45.Is it possible to change access specifier of members of the interface.
+    
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+    
+No, We cannot make a change in the method of interface just why because the interface is publicly exposed for construction, so interface methods are public by default.
+If you want to change access specifier of members may you have to go for an abstract class instead of the interface.
+    
+</blockquote>
+
+</details>
+    
+---  
+    
+46.Why object of the abstract class can’t be instantiate ?
+    
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+ 
+An abstract class has a protected constructor (by default) allowing derived types to initialize it.
+An abstract type is defined largely as one that can't be created. You can create subtypes of it, but not of that type itself. The CLI will not let you do this.
+    
+</blockquote>
+
+</details>
+    
+---  
+    
+47.What will be the result of execution of the following code?
+    
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            MyClassB b = new MyClassB();
+            MyClassA a = b;
+            a.abc();
+            Console.ReadLine();
+        }
+    }
+
+    class MyClassA
+    {
+        public MyClassA()
+        {
+            Console.WriteLine("constructor A");
+        }
+
+        public void abc()
+        {
+            Console.WriteLine("A");
+        }
+    }
+
+    class MyClassB:MyClassA
+    {
+        public MyClassB()
+        {
+            Console.WriteLine("constructor B");
+        }
+
+        public void abc()
+        {
+            Console.WriteLine("B");
+        }
+    }
+    
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+ 
+constructor A
+constructor B
+A
+
+</blockquote>
+
+</details>
+    
+---  
+    
+48.Can pointers be used in C# as in C++?
+    
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>    
+  
+Yes, they can be used inside the method declared with the unsafe modifier or within the unsafe block.
+
+unsafe {  
+    int a = 15; 
+    *b = &a;
+    Console.WriteLine(*b); 
+          }
+Do not forget to specify ‘Allow unsafe code’ in the project properties.
+    
+</blockquote>
+
+</details>
+    
+---    
+    
+49.What will be outputted?
+
+    string hello = "hello";
+        string helloWorld = "hello world";
+        string helloWorld2 = "hello world";
+        string helloWorld3 = hello + " world";
+
+        Console.WriteLine(helloWorld == helloWorld2);
+        Console.WriteLine(object.ReferenceEquals(helloWorld, helloWorld2));
+        Console.WriteLine(object.ReferenceEquals(helloWorld, helloWorld3));
+        Console.ReadLine();
+    
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>   
+    
+ True, True, False will be outputted.
+    
+</blockquote>
+
+</details>
+    
+---     
+    
+50.In C#, how can you prevent a class from being inherited further while still allowing instantiation? Also, explain how this affects the overall design and extensibility of a class hierarchy.
+    
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>   
+    
+ In C#, you can prevent a class from being inherited further by marking it as sealed. A sealed class can still be instantiated, but it cannot be used as a base class for other classes. 
+    
+</blockquote>
+
+</details>
+    
+---    
+    
+51.Does Enum Supports Inheritance ?
+    
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>   
+    
+ Enums do not support inheritance since they are value type and therefore are sealed. Enum is like a struct.it is having the nature of the sealed class. so it doesn't support inheritance.  
+    
+</blockquote>
+
+</details>
+    
+---   
+    
+52.Explain the concept of dependency inversion in C#, and how it contributes to creating flexible and maintainable code in OOP. Provide a real-world example to support your explanation.
+    
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>   
+  
+Dependency Inversion Principle (DIP) is one of the SOLID design principles that promotes creating flexible and maintainable code in OOP. The principle states that high-level modules should not depend on low-level modules; both should depend on abstractions. In other words, classes should depend on interfaces or abstract classes instead of concrete implementations.
+
+The main benefits of adhering to the Dependency Inversion Principle include:
+
+Decoupling: By depending on abstractions, classes are less coupled to specific implementations, making the code more modular and easier to change.
+Reusability: Abstracting dependencies allows for better code reuse, as common interfaces can be shared among multiple classes.
+Testability: When classes depend on abstractions, it becomes easier to write unit tests by replacing actual dependencies with mock objects or stubs.
+    
+</blockquote>
+
+</details>
+    
+--- 
+    
+53.How can you achieve encapsulation in C# without using access modifiers like private, protected, or internal? Are there any alternative techniques or patterns to achieve this?
+    
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+Encapsulation is an essential principle in OOP that involves hiding the internal state and implementation details of an object while exposing a well-defined interface for interaction. In C#, access modifiers such as private, protected, and internal are commonly used to achieve encapsulation by controlling the visibility of class members.
+
+However, there are alternative techniques and patterns to achieve encapsulation without relying solely on access modifiers:
+
+Use properties: Properties in C# can be used to encapsulate fields by exposing them through getter and setter methods. This approach allows you to control how the internal state is accessed and modified, providing validation and other logic when necessary. 
+
+Use composition: Composition can be used to encapsulate complex behavior or functionality within separate classes, exposing only the necessary interface to interact with the composed objects. This approach promotes separation of concerns and encapsulation of implementation details.
+    
+Use the Facade pattern: The Facade pattern provides a simplified interface to a complex subsystem, encapsulating the details of the subsystem and making it easier to use. This pattern can be used to hide the complexity of a set of related classes or methods, exposing a more straightforward interface for clients.
+    
+</blockquote>
+
+</details>
+    
+--- 
+    
+54.In C#, how can you achieve immutability in a class, and what are the advantages and disadvantages of using immutable objects in an application?
+    
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+   
+Immutability is a property of an object that ensures its state cannot be changed after it has been created. In C#, you can achieve immutability in a class by making its fields read-only and initializing them during object   construction.
+    
+chieving immutability in a class
+Here’s an example of implementing an immutable class in C#:
+
+public class ImmutablePerson
+{
+    public string FirstName { get; }
+    public string LastName { get; }
+
+    public ImmutablePerson(string firstName, string lastName)
+    {
+        FirstName = firstName;
+        LastName = lastName;
+    }
+}
+In this example, the ImmutablePerson class has two read-only properties, FirstName and LastName, that are initialized in the constructor. Once an instance of ImmutablePerson is created, its state cannot be changed.
+    
+ </blockquote>
+
+ </details>
+    
+ --- 
+    
+ 55.What is the purpose of the IDisposable interface in C# OOP, and how does it relate to the proper management of resources within an application? Provide a practical example of its usage.
+    
+ ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+ <blockquote> 
+  
+ The IDisposable interface in C# OOP provides a standardized way for classes to release unmanaged resources, such as file handles, network connections, or database connections, that may be acquired during their lifetime. Implementing IDisposable helps ensure the proper management of resources within an application by allowing developers to explicitly release resources when they are no longer needed, preventing resource leaks and improving overall performance and stability.
+     
+public class FileStreamWrapper : IDisposable
+{
+    private FileStream _fileStream;
+
+    public FileStreamWrapper(string filePath)
+    {
+        _fileStream = new FileStream(filePath, FileMode.Open);
+    }
+
+    // Read and write file operations
+
+    public void Dispose()
+    {
+        if (_fileStream != null)
+        {
+            _fileStream.Dispose();
+            _fileStream = null;
+        }
+    }
+}
+    
+ </blockquote>
+
+ </details>
+    
+ --- 
     
