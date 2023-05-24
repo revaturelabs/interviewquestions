@@ -446,4 +446,27 @@ class Bellbird implements Bird { ... }
 ;
 ```
 ---
+ 
+24. Define the Lambda function.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+- For defining function expressions, TypeScript provides a shortcut syntax. A lambda function is an unnamed anonymous function. 
+- **Example**:
+```ts
+let sum=(a: num, b: num): num=>{ return a+b;}
+
+console.log(sum(5,10)); //returns 15
+```
+Here, `?=>?` is a lambda operator.
+
+</blockquote>
+</details>
+
+---
+
+
 
