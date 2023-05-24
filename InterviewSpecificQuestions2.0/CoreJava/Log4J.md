@@ -458,7 +458,7 @@ WARN − Designates potentially harmful situations.
 
 ---
 
-31. How do Levels Works?
+31. How do Levels Work?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -608,7 +608,7 @@ By using the logger, you can log messages with different log levels (e.g., info,
 
 ---
 
-40. Mention what are the different types of Appenders?
+40. Mention what are the different types of Appenders.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -625,7 +625,7 @@ Some of the Appenders type include
 
 ---
 
-41. Mention what are the two static methods for obtaining a logger object?
+41. Mention what are the two static methods for obtaining a logger object.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -670,7 +670,7 @@ To write a logging information into a file, you would need to use a command `org
 
 ---
 
-44. Mention the logging methods provided by logger class?
+44. Mention the logging methods provided by logger class.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -747,7 +747,7 @@ We may have each process log to a socket Appender. The receiving socket server c
 
 ---
 
-49. Mention the difference between Threshold and LevelRangeFilter in log4j?
+49. Mention the difference between Threshold and LevelRangeFilter in log4j.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -761,7 +761,7 @@ Both Threshold and LevelRangeFilter does the same thing. However, threshold shou
 
 ---
 
-50. Mention what does `.class` mean in log4j context?
+50. what does `.class` mean in log4j context?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -886,7 +886,7 @@ By changing the Root Level within Log4j config.
 
 ---
 
-58. In following log4j configuration file, How should we change the logging level to WARN
+58. In following log4j configuration file, How should we change the logging level to WARN?
 
 ```Java
 <Configuration status="DEBUG">
