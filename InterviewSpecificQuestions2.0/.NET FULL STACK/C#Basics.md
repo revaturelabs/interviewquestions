@@ -568,7 +568,7 @@ In C#, the `System.IO` namespace contains the required classes which are used to
     
 31.What is serialization?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -584,7 +584,7 @@ The process of converting objects into bytes of stream and storing it on a file,
 
 32.Differentiate between finally blocks and finalize.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -601,7 +601,7 @@ Finalize() is called before executing the garbage collection.It will release any
 
 33. Describe the accessibility modifier “protected internal”.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -650,7 +650,7 @@ In a singleton pattern, a class is allowed to have only one instance, and an acc
 
 36.What is tuple in C#?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -666,7 +666,7 @@ Tuple is a data structure to represent a data set that has multiple values that 
 
 37.What is the Constructor Chaining in C#? 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -699,7 +699,7 @@ Asynchronous methods in C# are created using the Async and Await keywords.
 
 39.What is the difference between “is” and “as” operators in c#?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -716,7 +716,7 @@ An “as” operator can be used for casting an object to either a type or a cla
 
 40.What is a multicasting delegate?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
