@@ -567,7 +567,7 @@ void testCalcTwo()
 
 ---
 
-37. Explain the execution procedure of the JUnit test API methods with Junit Annotations?
+37. Explain the execution procedure of the JUnit test API methods with Junit Annotations.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
