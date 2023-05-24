@@ -410,3 +410,202 @@ In-Process and Out-of-Process are the two session state management options.
 </details>
 
 ---
+
+26. Explain usage of Dependency Injection in ASP.NET Core  
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+It is used to create a Loosely coupled code.
+Programs are more testable, maintainable and reusable.
+It enables developers to work on more.
+Developers can create classes independently that still use each other. They only need to know the interface of the classes.
+
+</blockquote>
+
+</details>
+
+---
+
+27.What are the different service lifetimes supported in ASP.NET Core ?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Transient — Services are created each time they are requested. It gets a new instance of the injected object, on each request of this object.
+Scoped — Services are created on each request (once per request). This is most recommended for WEB applications. So for example, if during a request you use the same dependency injection, in many places, you will use the same instance of that object, it will make reference to the same memory allocation.
+Singleton — Services are created once for the lifetime of the application. It uses the same instance for the whole application.
+
+</blockquote>
+
+</details>
+
+---
+
+28.what is a middleware in .net core
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Middleware is software that's assembled into an app pipeline to handle requests and responses. Each component:
+
+Chooses whether to pass the request to the next component in the pipeline.
+Can perform work before and after the next component in the pipeline.
+
+</blockquote>
+
+</details>
+
+---
+
+29. What are user secrets and how to use them in ASP.NET Core
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+User Secrets is a great feature in ASP.NET Core that is an excellent alternative to using environment variables. 
+User Secrets ensures that there is no sensitive data included in the source code. 
+Instead, the user secrets are stored outside of the project folder — inside the user's profile folder in the file system.
+
+</blockquote>
+
+</details>
+
+---
+
+30.List types of Caching.
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Caching is a technique used to sort the user data or information in memory.
+
+Caching is divided into three types:-
+
+Output Caching: It specifies the duration of the cache and the attribute.
+Fragment Caching: It is a user control caching used in a basic web form page.
+Data Caching: It is used for caching the data of data source controls.
+
+</blockquote>
+
+</details>
+
+---
+
+31.What is the role of Action Filters?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+It executes the filtering logic after an action method is called. 
+You can call these filters to "custom attributes" which helps to clarify declarations of pre-action or post-action behaviour to the controller's action methods
+We can implement action filters as follows
+OutputCache - It caches the output of a controller action for a specific period
+HandleError - It handles errors raised when a controller action executes
+Authorise	- It enables you to restrict access to a particular user or role
+
+</blockquote>
+
+</details>
+
+---
+
+32. How to intercept exceptions using ASP.NET MVC?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+ASP.NET MVC has various ways to intercept exceptions, including
+
+HandleError attribute on controllers and action method 
+Try-catch-finally 
+Overriding OnException Method 
+Setting a goal exception handling filter 
+Extending HandleErrorAttribute 
+
+</blockquote>
+
+</details>
+
+---
+
+33.Why use an area in ASP.NET MVC?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+ The area is used to physically partition the large application into small functional units.
+ Each unit has its own MVC folder structure and model, view, and controller folders.
+
+</blockquote>
+
+</details>
+
+---
+
+34.What is the difference between ViewData and ViewBag in ASP.NET MVC?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+The difference is that the ViewData is a dictionary whereas the ViewBag is just a dynamic wrapper around this dictionary. Both point to the same data though. 
+
+</blockquote>
+
+</details>
+
+---
+
+35. What is Scaffolding in ASP.NET MVC?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+It helps developers to generate code to perform basic operations – Create, Read, Update, Delete. 
+You can make changes in the codes as per needs. 
+That's why, we call it a "code-generation framework" for developing MVC applications. 
+It helps enhance the code which interacts with the data model of applications. 
+It also supports reducing the development time to execute data operations.
+
+</blockquote>
+
+</details>
+
+---
+
+
+
+
+
+
+
