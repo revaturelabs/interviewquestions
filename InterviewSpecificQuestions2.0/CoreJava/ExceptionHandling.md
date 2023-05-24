@@ -59,7 +59,7 @@ To fix ClassNotFoundException, firstly we must go through the exception stack tr
 
 --- 
 
-4. Brief us on the keywords - final, finally & static 
+4. Brief us on the keywords - final, finally & static.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
