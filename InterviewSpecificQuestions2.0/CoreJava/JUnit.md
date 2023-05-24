@@ -1451,7 +1451,7 @@ JUnit and Mockito are commonly used testing frameworks in Java. JUnit is used fo
 
 ---
 
-76. Spy vs Mock?
+76. Differentiate between Spy vs Mock.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1467,7 +1467,7 @@ In Mockito, a mock object is created to replace a real object or system, while a
 
 ---
 
-77. Difference between TestNG and JUnit?
+77. Difference between TestNG and JUnit.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1483,7 +1483,7 @@ TestNG and JUnit are both popular testing frameworks in Java, but they differ in
 
 ---
 
-78. JUnit annotations and assertion methods.
+78. What is JUnit annotations and assertion methods?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
