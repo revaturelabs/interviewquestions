@@ -728,26 +728,7 @@ It is the reverse of the event bubbling and here the event starts from the paren
 
 ---
 
-38. What is the DOM?
-
- ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details><summary> Show Answer </summary>
-
-<blockquote>
-
-
-Document Object Model(DOM) is a tree-like structure that represents the HTML document. It is used by JavaScript to access and manipulate the document.
-
-
- </blockquote>
-
-</details>
-
-
----
-
-39. How can we change styles of a particular element using JavaScript?
+38. How can we change styles of a particular element using JavaScript?
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -771,7 +752,7 @@ eg: element.style.color = “new color”;
 
 ---
 
-40. Explain about namespace objects in JavaScript?
+39. Explain about namespace objects in JavaScript?
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -788,7 +769,7 @@ It is used to group together related objects, properties, and methods. In JavaSc
 
 ---
 
-41. What JavaScript support automatic type conversion?
+40. Does JavaScript support automatic type conversion?
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -805,7 +786,7 @@ Yes, it support automatic type conversion. It is the common way of type conversi
 
 ---
 
-42.  What do you understand by loosely typed in JavaScript?
+41.  What do you understand by loosely typed in JavaScript?
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -824,7 +805,7 @@ a= "JavaScript";
 
 ---
 
-43. Differentiate between Local storage & Session storage?
+42. Differentiate between Local storage & Session storage?
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -843,7 +824,7 @@ a= "JavaScript";
 
 ---
 
-44. What is the relation between ECMAScript and JavaScript?
+43. What is the relation between ECMAScript and JavaScript?
 
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
