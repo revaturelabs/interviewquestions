@@ -13,7 +13,7 @@ Java is one of the most popular high level programming languages. For example, i
 
 --- 
 
-2. What is the JDK?
+2. What is JDK?
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -32,7 +32,7 @@ Java is one of the most popular high level programming languages. For example, i
 
 --- 
 
-3. What is the JRE?
+3. What is JRE?
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -104,7 +104,7 @@ Private is more protective. When the methods or data members declared as private
 --- 
 
 
-7. Tell us about non-access modifiers
+7. Tell us about non-access modifiers.
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -282,7 +282,7 @@ Final Class     ---> Prevents Inheritance
 --- 
 
 
-16. Explain each of the parts of `public static void main (String[] args)`
+16. Explain each of the parts of `public static void main (String[] args)`.
 
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -350,7 +350,7 @@ Yes, the program will execute successfully.  Because, in Java, there is no speci
 
 ---
 
-20. Differentiate between `System. Out`, `System. Err`, and `System.in`?
+20. Differentiate between `System. Out`, `System. Err`, and `System.in`.
 
 <details><summary><b> Show Answer </b></summary>
 
@@ -441,7 +441,7 @@ Few commonly used Object methods in Java are:
 
 ---
 
-25. What would you change about Java ?
+25. What would you change about Java?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -468,22 +468,6 @@ Suggestions for improving Java are:
   
 <blockquote>
 
-Dynamic hashing is a technique used to optimize hash table performance in Java and other programming languages. It involves creating a hash table that can dynamically resize itself when the number of keys or elements in the table exceeds a certain threshold.
-
-In Java, dynamic hashing can be implemented using classes such as HashMap, Hashtable, or ConcurrentHashMap. These classes use a hash function to map keys to indices in an array, where the correspon
-
-</blockquote>
-
-</details>
-
----
-
-27. what is dynamic hashing?
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
 | Feature           | `this`                                                       | `super`                                                                                                   |
 | ----------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
 | Usage             | Refers to the current object instance                        | Refers to the parent class of the current object instance                                                 |
@@ -500,7 +484,7 @@ In Java, dynamic hashing can be implemented using classes such as HashMap, Hasht
 
 ---
 
-28. What are different array methods ?
+27. What are different array methods ?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -541,7 +525,7 @@ boolean equal = Arrays.equals(arr1, arr3); // compares arr1 and arr3 for equalit
 ---
 
 
-29. What are the features of Java?
+28. What are the features of Java?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -564,7 +548,7 @@ Some features of Java include:
 
 ---
 
-30. how would you make an object immutable?
+29. How would you make an object immutable?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -587,7 +571,7 @@ To make an object immutable in Java, you can follow these steps:
 
 
 
-31. What do you need to have to actually run a Java application?
+30. What do you need in order to run a Java application?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -601,7 +585,7 @@ To run a Java application, you need to have the Java Runtime Environment (JRE) i
 
 ---
 
-32. Volatile keywords?
+31. What are Volatile keywords?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -615,7 +599,7 @@ The `volatile` keyword in Java is used to indicate that a variable's value may b
 
 ---
 
-33. What is finalize?
+32. What is finalize?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -629,7 +613,7 @@ The `volatile` keyword in Java is used to indicate that a variable's value may b
 
 ---
 
-34. What would you use if you couldn't instantiate an object in Java (referring to static, I believe)?
+33. What would you use if you couldn't instantiate an object in Java (referring to static, I believe)?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -643,7 +627,7 @@ Yes, you can use static variables and methods in Java, which belong to the class
 
 ---
 
-35. What is immutability?
+34. What is immutability?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -657,7 +641,7 @@ Immutability is the property of an object that once created, cannot be modified.
 
 ---
 
-36. How to compile Java code?
+35. How to compile Java code?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -671,21 +655,7 @@ To compile Java code, you need to use the Java compiler (javac) that comes with 
 
 ---
 
-37. What is JVM?
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-JVM stands for Java Virtual Machine. It is a software environment that runs Java bytecode. The JVM is responsible for interpreting the bytecode and executing it on the underlying operating system. It provides a platform-independent way of running Java code.
-
-</blockquote>
-
-</details>
-
----
-
-38. Tell me about Java.
+36. Tell me about Java.
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -699,7 +669,7 @@ Java is a general-purpose programming language that is used to build a wide vari
 
 ---
 
-39. What is the default directory for a Jar file?
+37. What is the default directory for a Jar file?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -713,7 +683,7 @@ The default directory for a Jar file is the directory from which the Java comman
 
 ---
 
-40. What does System.out.println() mean?
+38. What does System.out.println() mean?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -727,7 +697,7 @@ System.out.println() is a Java statement that is used to print output to the con
 
 ---
 
-41. Java different versions.
+39.What are the different Java editions?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -751,7 +721,7 @@ There are four types of Java editions:
 ---
 
 
-42.  Does Java allow static classes?
+40.  Does Java allow static classes?
     
 <details><summary><b> Show Answer</b></summary>
   
@@ -765,7 +735,7 @@ Yes, Java allows the creation of static classes, which are often used as utility
 
 ---
 
-43.  Explain what a static method is in Java.
+41.  Explain what a static method is in Java.
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
@@ -778,7 +748,7 @@ In Java, a static method is a method that belongs to a class rather than to an i
 
 ---
 
-44. Can you override static method? can you override the main method?
+42. Can you override static method? can you override the main method.
 
 
 <details><summary><b> Show Answer</b></summary>
@@ -793,7 +763,7 @@ You can't override a static method in Java because a static method is associated
 
 ---
 
-45.  What was the difference between static and non-static methods?
+43. What are the difference between static and non-static methods?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -807,7 +777,7 @@ The main difference between static and non-static methods is that a static metho
 
 ---
 
-46.  What is the difference between a static variable and a non-static variable?
+44. What is the difference between a static variable and a non-static variable?
   
 <details><summary><b> Show Answer</b></summary>
   
@@ -820,7 +790,7 @@ A static variable belongs to a class, while a non-static variable belongs to an 
 
 ---
 
-47.  Can a static variable be private?
+45. Can a static variable be private?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -833,7 +803,7 @@ Yes, a static variable can be private in Java. Access modifiers like private, pu
 
 ---
 
-48.  When is memory allocated for static blocks?
+46. When is memory allocated for static blocks?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -847,7 +817,7 @@ Memory for static blocks is allocated when the class is loaded into memory by th
 
 ---
 
-49.  What is the difference between static variable and instance variable?
+47. What is the difference between static variable and instance variable?
 
 
 <details><summary><b> Show Answer</b></summary>
@@ -860,7 +830,7 @@ In Java, a static variable is a class-level variable that is shared among all in
 
 ---
 
-50. static method in Java.
+48. Define static method in Java.
 
 
 <details><summary><b> Show Answer</b></summary>
@@ -875,7 +845,7 @@ A static method is a method which belongs to a class and can be called directly 
 
 ---
 
-51. can we override static methods. 
+49. can we override static methods?
 
 
 <details><summary><b> Show Answer</b></summary>
@@ -890,7 +860,7 @@ No, static methods cannot be overridden in Java. When a subclass defines a stati
 
 ---
 
-52. How would you optimize memory in Java?
+50. How would you optimize memory in Java?
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -912,7 +882,7 @@ Here are some ways to optimize memory in Java:
 
 ---
 
-53.  How do you make sure memory is being utilized optimally in Java?
+51. How do you make sure memory is being utilized optimally in Java?
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -931,7 +901,7 @@ To make sure memory is being utilized optimally in Java, you can follow these st
 
 ---
 
-54.  Can you have the garbage collector immediately de-allocate memory?
+52. Can you have the garbage collector immediately de-allocate memory?
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -945,7 +915,7 @@ In Java, you cannot directly control when the garbage collector deallocates memo
 
 ---
 
-55. What is object pooling?
+53. What is object pooling?
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -957,7 +927,7 @@ Object pooling is a technique used in software development to improve performanc
 
 </details>
 
-56. How is a yield different from a return?
+54. How is a "yield" different from a "return"?
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -1000,7 +970,7 @@ In the above example  the "case" keyword is used to define a specific case or co
 
 ---
 
-57. What is a primitive data type?
+55. What is a primitive data type?
 
 <details><summary><b> Show Answer</b></summary> 
 
@@ -1014,7 +984,7 @@ In Java, a primitive data type is a data type that is not an object and has no m
 
 ---
 
-58.  List any primitives you know
+56.  List any primitives you know.
 <details><summary><b> Show Answer</b></summary> 
 
 <blockquote> 
@@ -1035,7 +1005,7 @@ Here are some examples of primitive data types in Java:
 
 ---
 
-59. What is the difference between float and double? (Why do we use these two data types?)
+57. What is the difference between float and double? (Why do we use these two data types?)
 <details><summary><b> Show Answer</b></summary> 
 
 <blockquote> 
@@ -1053,7 +1023,7 @@ Double is generally used when more precision is needed, such as in scientific ca
 
 ---
 
-60. Why do we use public and private access modifiers.
+58. Why do we use public and private access modifiers?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -1069,7 +1039,7 @@ When a class, method, or variable is declared as `public`, it can be accessed fr
 
 ---
 
-61. Object class methods
+59. What are the methods in Object class?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -1100,7 +1070,7 @@ The object class have methods like:
 ---
 
 
-62. super class of all java classes. 
+60. What is the super class of all java classes?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -1114,7 +1084,7 @@ The superclass of all Java classes is the `Object` class. So, all classes in Jav
 
 ---
 
-63. What are the control statements.
+61. What are the control statements?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -1128,7 +1098,7 @@ Control statements in Java are used to control the flow of execution in a progra
 
 ---
 
-64. When would you use the final keyword?
+62. When would you use the final keyword?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -1155,7 +1125,7 @@ Overall, the `final` keyword is a useful tool for creating constants, improving 
 
 ---
 
-65. What is `finalize`?
+63. What is `finalize`?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -1168,7 +1138,7 @@ Overall, the `final` keyword is a useful tool for creating constants, improving 
 </details>
 ---
 
-66. What is the difference between `final`, `finally`, and `finalize`, and what situations are they used in?
+64. What is the difference between `final`, `finally`, and `finalize`, and what situations are they used in?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -1183,7 +1153,7 @@ Overall, the `final` keyword is a useful tool for creating constants, improving 
 
 --- 
 
-67. Can the garbage collector be manually called?
+65. Can the garbage collector be manually called?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -1197,7 +1167,7 @@ The garbage collector in Java is automatically called by the JVM, and it cannot 
 
 --- 
 
-68. What are the levels of garbage collection?
+66. What are the levels of garbage collection?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -1218,7 +1188,7 @@ The exact configuration and behavior of garbage collection in Java depend on the
 
 --- 
 
-69. How does an object progress through those garbage collection levels?
+67. How does an object progress through those garbage collection levels?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -1234,7 +1204,7 @@ Objects in the old generation are subject to major garbage collections, which ru
 
 --- 
 
-70. How does garbage collection work? 
+68. How does garbage collection work? 
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -1248,7 +1218,7 @@ Garbage collection is used in Java to perform automatic memory management. It de
 
 ---
 
-71. How do you copy an array?
+69. How do you copy an array?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -1270,7 +1240,7 @@ This creates a new array `arr2` that is a copy of `arr1`.
 
 ---
 
-72. Write an array and give some values, then print them. What are different array methods you have used?
+70. Write an array and give some values, then print them. What are different array methods you have used?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -1293,7 +1263,7 @@ This creates an array `numbers` with five integer values, and then loops through
 
 ---
 
-73. Given an array, create a list of pairs of indexes that sum to a target value.
+71. Given an array, create a list of pairs of indexes that sum to a target value.
 
 <details><summary><b> Show Answer</b></b></summary>
 
@@ -1325,7 +1295,7 @@ This creates an array called `arr` with four integer values, and a target value 
 
 ---
 
-74. Are you able to store integers in an array?
+72. Can you store integers in an array?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -1347,7 +1317,7 @@ This creates an array called `numbers` that contains five integer values.
 
 ---
 
-75. What are annotations and what are they good for?
+73. What are annotations and what are they good for?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -1361,7 +1331,7 @@ Annotations in java provide metadata about the class, method, and interface. The
 
 ---
 
-76. Return the peak value index from an integer array mountain.
+74. Return the peak value index from an integer array mountain.
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -1384,7 +1354,7 @@ This algorithm works by repeatedly dividing the array in half and checking wheth
 
 --- 
 
-77. what is typecasting.
+75. what is typecasting?
 
 <details><summary><b> Show Answer</b></summary>
   
@@ -1398,7 +1368,7 @@ Typecasting is the process of converting a value of one data type to another dat
 
 ---
 
-78. What is immutable in Java?
+76. What is immutable in Java?
 
 
 <details><summary> Show Answer </summary>
@@ -1414,7 +1384,7 @@ In Java, an immutable object is an object whose state cannot be changed once it 
 ---
 
 
-79. Can you tell us something on mutable and immutable class in Java? 
+77. Can you tell us something on mutable and immutable class in Java? 
  
 <details><summary> Show Answer </summary>
 
@@ -1431,7 +1401,7 @@ An example of a mutable class in Java is the StringBuilder class, which allows t
 ---
 
 
-80. What is the difference between extends and implements in Java? 
+78. What is the difference between extends and implements in Java? 
 
 <details><summary> Show Answer </summary>
 
@@ -1450,7 +1420,7 @@ In Java, `extends` and `implements` are both keywords used for inheritance, but 
 ---
 
 
-81. What is the use of getter and setter in java?
+79. What is the use of getter and setter in java?
 
 <details><summary> Show Answer </summary>
 
@@ -1469,7 +1439,7 @@ A setter method sets the value of a private field based on the value passed to i
 ---
 
 
-82. How does the Java ternary operator works?
+80. How does the Java ternary operator works?
 
 
 <details><summary> Show Answer </summary>
@@ -1491,7 +1461,7 @@ If the condition is true, the variable will be assigned the value of true-value,
 ---
 
 
-83. How do you write for a phone number using regex in Java?
+81. How do you write for a phone number using regex in Java?
 
 
 <details><summary> Show Answer </summary>
@@ -1522,7 +1492,7 @@ Here's an explanation of the different parts of the pattern:
 ---
 
 
-84. Do you know about Java Messaging Service in Java?
+82. Do you know about Java Messaging Service in Java?
 
 
 <details><summary> Show Answer </summary>
@@ -1540,7 +1510,7 @@ JMS provides a common way for applications to create, send, receive, and read me
 ---
 
 
-85. How does JNDI works?
+83. How does JNDI works?
 
 
 <details><summary> Show Answer </summary>
@@ -1557,7 +1527,7 @@ In JNDI, you can bind objects to names in a hierarchical namespace, which can be
 
 ---
 
-86. How do you differentiate groovy from java using syntax?
+84. How do you differentiate groovy from java using syntax?
 
 
 
@@ -1584,7 +1554,7 @@ Groovy and Java have similar syntax, but there are a few key differences:
 ---
 
 
-87. Write a program of map implementation in java?
+85. Write a program of map implementation in java?
 
 
 
@@ -1634,7 +1604,7 @@ In this example, we create a new HashMap object and add key-value pairs to it us
 ---
 
 
-88. Write a function in Java having two params n and m that returns an array of multiplications m times of given n
+86. Write a function in Java having two params n and m that returns an array of multiplications m times of given n
 
 
 **ex.: myFunction(5, 4) --> returns [5, 10, 15, 20]**
@@ -1679,7 +1649,7 @@ This function first creates an integer array of length m to store the results. I
 ---
 
 
-89. How do you go about printing a Map Employee with id numbers as keys and last names as values in java?
+87. How do you go about printing a Map Employee with id numbers as keys and last names as values in java?
 
 
 <details><summary><b> Show Answer </b></summary>
@@ -1721,7 +1691,7 @@ In this example, the keys are Integer ID numbers and the values are String last 
 ---
 
 
-90. Write a Java code for Bubble sort ?
+88. Write a Java code for Bubble sort ?
 
 
 <details><summary><b> Show Answer </b></summary>
@@ -1766,7 +1736,7 @@ The bubbleSort function uses two nested loops to compare adjacent elements in th
 
 ---
 
-91. Can you write a Java code for Singleton design pattern ?
+89. Can you write a Java code for Singleton design pattern ?
 
 
 <details><summary><b> Show Answer </b></summary>
@@ -1808,7 +1778,7 @@ In this example, we have a class Singleton with a private constructor and a priv
 
 ---
 
-92. Write a Java code to reverse the linked list?
+90. Write a Java code to reverse the linked list?
 
 
 <details><summary><b> Show Answer </b></summary>
@@ -1883,7 +1853,7 @@ This code defines a LinkedList class with a Node inner class. The reverse() meth
 ---
 
 
-93. Predict the output of the following?
+91. Predict the output of the following.
 
 ```Java
 
@@ -1921,7 +1891,7 @@ The code has a syntax error in the main method where the object obj is being dec
 ---
 
 
-94. Where are strings stored stack or heap?
+92. Where are strings stored stack or heap?
 
 <details><summary><b> Show Answer </b></summary>
 
@@ -1935,7 +1905,7 @@ In Java, strings are stored in the heap memory. This is because a String object 
 
 ---
 
-95. Volatile keywords?
+93. Volatile keywords?
 
 <details><summary><b> Show Answer</b></summary>
   
