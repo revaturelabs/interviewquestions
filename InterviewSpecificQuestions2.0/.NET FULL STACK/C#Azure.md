@@ -413,4 +413,51 @@ In this example,
 </details>
 
 ---
+  
+25.What is Azure Redis Cache?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+It is an open-source, in-memory Redis cache system provided and maintained by Azure.
+It helps the web applications to improve the performance by fetching data from the backend database and storing it into the Redis cache for the first request and then fetching data from the Redis cache for all subsequent requests.
+Azure Redis Cache provides powerful and secure caching mechanisms by making use of the Azure cloud.
+
+</blockquote>
+
+</details>
+
+---
+
+26.What do you need to do when drive failure occurs?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+The following steps need to be performed when the drive failure occurs:
+
+To make sure that the Azure Storage functions without fail, we need to ensure that the drive is not mounted.
+Replace the drive so that the drive gets remounted and formatted.
+
+</blockquote>
+
+</details>
+
+---
+
+27.What would happen when the maximum failed attempts are reached during the process of Azure ID Authentication?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+In case of maximum failed attempts, the azure account would get locked and the method of locking is dependent on the protocol that analyzes the entered password and the IP addresses of the login requests.
 
