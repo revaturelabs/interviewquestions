@@ -38,7 +38,7 @@ Exceptions in Java can arise from different kinds of situations such as wrong da
 
 --- 
 
-3. How to handle ClassNotFoundException exceptions?
+3. How to handle ClassNotFoundException?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
