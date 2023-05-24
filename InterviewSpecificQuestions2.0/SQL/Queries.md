@@ -1,6 +1,6 @@
 1. How do you get the second highest salary from the database?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>MySQL</b></summary>
 
@@ -39,7 +39,9 @@ Explanation: In PostgreSQL, we can find the second highest salary by ordering th
 
 ---
 
-2. Create a number list that contains only unique values while preserving the order of the numbers from another number list. Was encouraged to present alternative approaches if any.
+2. How do you create a number list that contains only unique values while preserving the order of the numbers from another number list. 
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>MySQL</b></summary>
 
@@ -76,6 +78,8 @@ Explanation: In PostgreSQL, we can achieve the same result by using the `GROUP B
 
 3. How to remove duplicates from a list while preserving the order of unique values in SQL
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b>MySQL</b></summary>
 
 <blockquote>
@@ -111,7 +115,9 @@ Explanation: In PostgreSQL, we can achieve the same result by using the `GROUP B
 
 ---
 
-4. How would you remove duplicate values from a table or values that were not duplicates? You cannot use a separate table.
+4. How do you remove duplicate values from a table without using a separate table ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> MySQL</b></summary>
 
@@ -211,7 +217,7 @@ Note: Adjust the table and column names according to your schema.
 
 ---
 
-6. How do you select everything in a table in SQL? 
+6. How do you retrieve all the data from a  table in SQL? 
 
 <details><summary><b>MySQL</b></summary>
 

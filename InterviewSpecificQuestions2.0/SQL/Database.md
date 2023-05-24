@@ -3,6 +3,8 @@
 
 1. How to connect to a MongoDB or a PostgreSQL database?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
 <blockquote>
 
@@ -178,6 +180,8 @@ In this example, we create a connection string using the Psycopg2 library, which
 
 2. What is a relational database?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
 <blockquote>
 
@@ -189,7 +193,9 @@ A relational database is a type of database that stores and organizes data in a 
 
 ---
 
-3. Why would you use SQL over noSQL?  Vice versa?
+3. Why would you use SQL over noSQL?  
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 <blockquote>
@@ -204,6 +210,8 @@ The choice between SQL and NoSQL databases depends on the specific needs of the 
 
 4.  What is relational mapping?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
 <blockquote>
 
@@ -215,21 +223,10 @@ Relational mapping, also known as object-relational mapping (ORM), is the proces
 
 ---
 
-5. Tell me about Denormalization and when can we go for it in SQL.
-  
-<details><summary> <b>Show Answer</b> </summary>
-<blockquote>
 
-- Denormalization can be described as the process to get back from all the normalized forms in the table to add some redundant data to it.   
-- It is a good idea to denormalize the tables to do the fast retrieval
-- When there are multiple small tables and applying joins on those tables will be a costly operation.
-
-</blockquote>
-</details>
-
----
-
-6. Do you know what ACID is?
+5. What are the properties a transaction must follow?
+ 
+ ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
@@ -248,7 +245,9 @@ Yes, ACID is an acronym that stands for Atomicity, Consistency, Isolation, and D
 
 </details>
 
-7. Can you differentiate between RDBMS and NoSQL? 
+6. Can you differentiate between RDBMS and NoSQL? 
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
@@ -272,6 +271,8 @@ RDBMS and NoSQL are two different types of database management systems. Here's a
 
 8. What is Normalization?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
 
@@ -285,12 +286,14 @@ RDBMS and NoSQL are two different types of database management systems. Here's a
 
 ---
 
-9. Is there an instance where we wouldn't want to normalize a table?
+9. How do we decide not to normalize a table? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
 
-Yes, there are situations where normalization may not be the best approach for organizing data in a table. Here are some examples:
+There are situations where normalization may not be the best approach for organizing data in a table. Here are some examples:
 
 *When performance is a priority*: Normalization can sometimes result in complex joins and slower query performance. In cases where performance is a key requirement, denormalization can be used to store redundant data in a single table to improve query speed.
 
@@ -306,7 +309,9 @@ Yes, there are situations where normalization may not be the best approach for o
 
 ---
 
-10. Can you differentiate between BigData and RDBMS?
+10.  Differentiate between BigData and RDBMS?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
@@ -327,7 +332,9 @@ Yes, there are some key differences between big data and RDBMS (Relational Datab
 
 ---
 
-11. What's the difference between SQL and MongoDB?
+11. What is the difference between SQL and MongoDB?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
@@ -350,12 +357,14 @@ SQL and MongoDB are both database technologies, but they differ in several ways:
 
 ---
 
-12. Explain your methodology on setting up databases.
+12. How to set up a database?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
 
-The general methodology that can be used for setting up databases:
+Setting up a database involves the following steps:
 
 *Identify the purpose and scope of the database*: The first step is to identify the purpose of the database and the scope of the data that will be stored in it. This will help determine the requirements for the database, including its structure, security, and performance.
 
@@ -378,6 +387,8 @@ The general methodology that can be used for setting up databases:
 ---
 
 13. How to troubleshoot a long query?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
@@ -402,29 +413,11 @@ To troubleshoot a long query in SQL, you can follow these steps:
 
 ---
 
-14. How would you account for having multiple showings of the same movie at the same time?
 
-<details><summary> <b>Show Answer</b> </summary>
-<blockquote>
-
-To account for having multiple showings of the same movie at the same time, you could add a *"showing"* table to your database schema that contains information about each showing of a movie. This table could have the following fields:
-
-`Showing ID`: A unique identifier for the showing.
-`Movie ID`: The ID of the movie being shown.
-`Theater ID`: The ID of the theater where the movie is being shown.
-`Start time`: The start time of the showing.
-`End time`: The end time of the showing.
-`Number of seats`: The number of seats available for the showing.
-
-By adding this table, you can track each individual showing of a movie and ensure that there are no scheduling conflicts between showings. You can also use this table to track ticket sales and monitor the popularity of different showings of a movie.
-
-</blockquote>
-
-</details>
-
----
 
 15. What are the relationships in RDBMS?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
@@ -445,6 +438,8 @@ In a relational database management system (RDBMS), there are three main types o
 
 16. What is a data dictionary?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
 
@@ -457,7 +452,9 @@ In a relational database management system (RDBMS), there are three main types o
 
 ---
 
-17. What type of storage would you use for data that is requested often?
+17. What type of storage would you use to store data which is requested often?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
@@ -475,6 +472,8 @@ For data that is requested often, a high-performance storage solution should be 
 ---
 
 18. What is the difference between Oracle database and PostgresQL?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
@@ -497,6 +496,8 @@ Oracle and PostgreSQL are both popular relational database management systems, b
 
 19. What is Dynamic Hashing?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
 
@@ -508,7 +509,9 @@ Dynamic hashing is a technique used in database systems to manage hash tables wi
 
 ---
 
-20. If  I showed you some data, how would you decide if you should store it as JSON or in an RDBMS? 
+20. How do you decide whether to store data as JSON or in RDBMS ?
+ 
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
@@ -533,6 +536,9 @@ Ultimately, the choice between JSON and RDBMS depends on the specific requiremen
 
 21. What is Referential Integrity?
 
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
 
@@ -544,7 +550,9 @@ Referential Integrity is a feature in RDBMS that ensures the consistency and acc
 
 ---
 
-22. What are the different types of databases that you know?
+22. List the different types of databases?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
@@ -573,6 +581,8 @@ There are several types of databases, each designed to handle specific data stor
 
 23. What is OLTP and OLAP?
 
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
 
@@ -590,6 +600,8 @@ OLTP and OLAP are two types of systems used for managing and analyzing data.
 
 24. What is the difference between H2 Database and MySQL?
 
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
 
@@ -601,7 +613,9 @@ H2 and MySQL are both relational database management systems, but differ in thei
 
 ---
 
-25. How would you updated a room database to reflect a database from the server? 
+25. How to update room database based on server response?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
@@ -623,6 +637,8 @@ This is the general approach to update a local room database to reflect a databa
 
 26. How do you compare the data in the Database?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
 
@@ -634,7 +650,9 @@ To compare data in a database, you need to execute queries to retrieve the data 
 
 ---
 
-27. Do you know what is a cluster?
+27. what is a cluster?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>

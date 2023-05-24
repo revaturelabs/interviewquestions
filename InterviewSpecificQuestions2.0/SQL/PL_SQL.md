@@ -274,7 +274,7 @@ END;
 
 15. How do you handle NULL values in PL/SQL?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -412,3 +412,65 @@ END;
 
 ---
 
+23. Consider that we are fetching details of employees from ib_employee table where salary is a parameter for filter.Write a PL/SQL procedure for selecting some records from the database using some parameters as filters.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+```sql
+
+CREATE PROCEDURE get_employee_details @salary nvarchar(30)
+AS
+BEGIN
+   SELECT * FROM ib_employee WHERE salary = @salary;
+END;
+
+
+```
+
+</blockquote> 
+
+</details>
+
+---
+
+24. What is the difference between a mutating table and a constraining table?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- A table that is being modified by the usage of the DML statement currently is known as a mutating table. It can also be a table that has triggers defined on it.
+- A table used for reading for the purpose of referential integrity constraint is called a constraining table
+
+</blockquote> 
+
+</details>
+
+---
+
+25. In what cursor attributes the outcomes of DML statement execution are saved?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+The outcomes of the execution of the DML statement is saved in the following 4 cursor attributes:
+- **SQL%FOUND:** This returns TRUE if at least one row has been processed.
+- **SQL%NOTFOUND:** This returns TRUE if no rows were processed.
+- **SQL%ISOPEN:** This checks whether the cursor is open or not and returns TRUE if open.
+- **SQL%ROWCOUNT:** This returns the number of rows processed by the DML statement.
+
+</blockquote> 
+
+</details>
+
+
+---

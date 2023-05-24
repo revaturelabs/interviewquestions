@@ -430,3 +430,126 @@ Inner join returns the rows that have matching values in both tables based on th
 </details>
 
 ---
+
+22. Consider You have three tables, "Customers", "Orders", and "Payments". Each customer can have multiple orders, and each order can have multiple payments. Write a query to retrieve all customers along with their total order count and total payment count.
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+```sql
+
+SELECT c.CustomerID, c.CustomerName, COUNT(DISTINCT o.OrderID) AS TotalOrders, COUNT(p.PaymentID) AS TotalPayments
+FROM Customers c
+LEFT JOIN Orders o ON c.CustomerID = o.CustomerID
+LEFT JOIN Payments p ON o.OrderID = p.OrderID
+GROUP BY c.CustomerID, c.CustomerName;
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+23. Consider You have two tables, "Students" and "Courses". The "Students" table contains student information, and the "Courses" table contains course information. There is a many-to-many relationship between students and courses through a junction table called "Enrollments". Write a query to retrieve the names of students along with the course names they are enrolled in.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+```sql
+
+SELECT s.StudentName, c.CourseName
+FROM Students s
+INNER JOIN Enrollments e ON s.StudentID = e.StudentID
+INNER JOIN Courses c ON e.CourseID = c.CourseID
+
+```
+
+
+</blockquote>
+
+</details>
+
+---
+
+24. What are the different multiplicity (cardinality) relationships? 
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Multiplicity is also known as cardinality defines the number of instances that can be associated between two entities. Here are the different types of multiplicity relationships:
+
+- **One-to-One (1:1):** Each instance of one entity is associated with exactly one instance of another entity, and vice versa.
+
+- **One-to-Many (1:N):** Each instance of one entity is associated with multiple instances of another entity, but each instance of the other entity is associated with only one instance of the first entity.
+
+- **Many-to-One (N:1):** Multiple instances of one entity are associated with a single instance of another entity.
+
+- **Many-to-Many (N:N):** Multiple instances of one entity can be associated with multiple instances of another entity through a junction table.
+
+</blockquote>
+
+</details>
+
+---
+
+25. Write a query to retrieve the total count of customers for each country in the Customers table.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+```sql
+
+SELECT Country, COUNT(*) AS TotalCustomers
+FROM Customers
+GROUP BY Country
+
+```
+
+</blockquote>
+
+</details>
+
+---
+
+26. Consider you have three tables: "Employees", "Departments", and "Projects". The "Employees" table contains employee information, the "Departments" table contains department information, and the "Projects" table contains project information. Each employee is assigned to a department, and each department is associated with multiple projects. Write a query to retrieve the names of employees along with their department name and project name(s) they are assigned to.
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+```sql
+
+SELECT e.EmployeeName, d.DepartmentName, p.ProjectName
+FROM Employees e
+INNER JOIN Departments d ON e.DepartmentID = d.DepartmentID
+LEFT JOIN Projects p ON d.DepartmentID = p.DepartmentID
+
+
+```
+
+</blockquote>
+
+</details>
+
+---
