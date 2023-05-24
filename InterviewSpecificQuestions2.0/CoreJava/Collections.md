@@ -146,7 +146,7 @@ Though ArrayList is also backed up by array, it offers some usability advantage 
 
 ---
 
-10. What classes should I prefer to use as a key in HashMap in java?
+10. What classes should you prefer to use as a key in HashMap in java?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
