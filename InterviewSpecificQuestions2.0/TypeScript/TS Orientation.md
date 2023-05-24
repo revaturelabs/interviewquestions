@@ -49,7 +49,7 @@ Advantages of using TypeScript:
 
 ---
 
-5. Explain the TypeScript program execution?
+4. Explain the TypeScript program execution?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -63,7 +63,7 @@ TypeScript follows the OOPS (Object-Oriented Programming System) concept and wit
 
 ---
 
-6. What OOPs does TypeScript support?
+5. What OOPs does TypeScript support?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -77,7 +77,7 @@ Typescript supports the four object-oriented programming concepts – Abstractio
 
 ---
 
- 07. Explain data types in TypeScript?
+ 6. Explain data types in TypeScript?
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -94,7 +94,7 @@ Typescript supports the four object-oriented programming concepts – Abstractio
 
 ---
 
-8. What are the modules in TypeScript?
+7. What are the modules in TypeScript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -110,7 +110,7 @@ Typescript supports the four object-oriented programming concepts – Abstractio
 
 ---
 
-9. What is a namespace in TypeScript?
+8. What is a namespace in TypeScript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -133,7 +133,7 @@ namespace MyNamespace {
 
 ---
 
-10. What are typed functions in TypeScript?
+9. What are typed functions in TypeScript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -165,7 +165,7 @@ let funcAdd: (a: number, b: number) => number =
 
 ---
 
-11. What is **as** syntax in TypeScript?
+10. What is **as** syntax in TypeScript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -184,7 +184,7 @@ let strength: number= (someString as string).length;
 
 ---
 
-12. Difference between reading-only and const?
+11. Difference between reading-only and const?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -198,7 +198,7 @@ const is used on a variable whereas read-only is used on properties of an object
 
 ---
 
-13. What are static properties?
+12. What are static properties?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -225,7 +225,7 @@ class Singleton {
 
 ---
 
-14. Explain access modifiers in Typescript?
+13. Explain access modifiers in Typescript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -248,7 +248,7 @@ The protected members are similar to private access modifiers, except that they 
 
 ---
  
- 17. What are Modules in TypeScript?
+14. What are Modules in TypeScript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -279,7 +279,7 @@ let Subject: string = "Computer Science";
 
 ---
 
-18. Can we use JSX in TypeScript?
+15. Can we use JSX in TypeScript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -294,7 +294,7 @@ let Subject: string = "Computer Science";
 
 ---
 
-19. What are Decorators in TypeScript?
+16. What are Decorators in TypeScript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -309,7 +309,7 @@ let Subject: string = "Computer Science";
 
 ---
  
- 23. Explain the Declare keyword in Typescript?
+17. Explain the Declare keyword in Typescript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -330,7 +330,7 @@ declare var myAlexaLibrary;
 
 ---
 
-24. Explain the need for a TypeScript Definition Manager?
+18. Explain the need for a TypeScript Definition Manager?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -354,7 +354,7 @@ $(document).ready(function() { //Your jQuery code });
 
 ---
  
- 26.  How to call the base class constructor from the child class in TypeScript?
+19.  How to call the base class constructor from the child class in TypeScript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -368,7 +368,7 @@ We can call the base class constructor using `super()`.
 
 ---
 
-27. What is Interface in TypeScript?
+20. What is Interface in TypeScript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -383,7 +383,7 @@ We can call the base class constructor using `super()`.
 
 ---
 
-28. When to use interfaces and when to use classes in TypeScript? 
+21. When to use interfaces and when to use classes in TypeScript? 
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -398,7 +398,7 @@ We can call the base class constructor using `super()`.
 
 ---
 
- 30. What are getters and setters in TypeScript?
+22. What are getters and setters in TypeScript?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -425,7 +425,7 @@ class Employee {
 
 ---
 
-31.  When to use the interface in TypeScript?
+23.  When to use the interface in TypeScript?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
