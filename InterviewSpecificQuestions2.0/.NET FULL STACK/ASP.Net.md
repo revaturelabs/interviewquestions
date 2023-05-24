@@ -585,7 +585,7 @@ The difference is that the ViewData is a dictionary whereas the ViewBag is just 
 
 35. What is Scaffolding in ASP.NET MVC?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
