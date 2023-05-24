@@ -94,3 +94,23 @@ $ tsc -source map filename.ts
 
 ---
 
+6. What is Triple-Slash Directive?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+- Triple-slash directives are single-line comments containing a single XML tag. The contents of the comments are used as compiler directives.
+
+```ts
+
+ /// <reference path = "filename.ts" />
+ ```
+- Triple-slash directives are only valid at the top of their containing file.
+
+</blockquote>
+</details>
+
+---
+
