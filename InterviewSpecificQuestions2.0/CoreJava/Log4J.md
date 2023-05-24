@@ -1,5 +1,7 @@
 1. What is Log4j?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -14,6 +16,8 @@
 
 2. What are the components of Log4j?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -27,7 +31,9 @@ Log4j has three main components −
 
 ---
 
-3.What are the support objects in Log4j?
+3. List the support objects in Log4j.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -43,6 +49,8 @@ Log4j has three main components −
 ---
 
 4. What are the features of log4j?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -62,6 +70,8 @@ Following are features of log4j −
 
 5. What are Pros and Cons of Logging?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -74,7 +84,9 @@ Following are features of log4j −
 
 ---
 
-6. Explain why to use Apache Log4j?
+6. What is the purpose of Apache Log4j?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -90,6 +102,8 @@ Following are features of log4j −
 
 7. What is the purpose of Logger object?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -101,6 +115,8 @@ The top-level layer of log4j architecture is the Logger which provides the Logge
 ---
 
 8. What is the purpose of Layout object?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -115,6 +131,8 @@ The top-level layer of log4j architecture is the Logger which provides the Logge
 
 9. What is the purpose of Appender object?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -126,6 +144,8 @@ This is a lower-level layer of log4j architecture which provides Appender object
 ---
 
 10. What is the purpose of Level object?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -139,6 +159,8 @@ The Level object defines the granularity and priority of any logging information
 
 11. What is the purpose of Filter object?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -150,6 +172,8 @@ The Filter object is used to analyze logging information and make further decisi
 ---
 
 12.What is the purpose of ObjectRenderer object?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -163,6 +187,8 @@ The ObjectRenderer object is specialized in providing a String representation of
 
 13. What is the purpose of LogManager object?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -174,6 +200,8 @@ The LogManager object manages the logging framework. It is responsible for readi
 ---
 
 14.What is the use of log4j.properties?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -187,6 +215,8 @@ The log4j.properties file is a log4j configuration file which keeps properties i
 
 15. What is the purpose of layout object in Appender?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -198,6 +228,8 @@ Appender uses the Layout objects and the conversion pattern associated with them
 ---
 
 16. What is the purpose of target in Appender?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -211,6 +243,8 @@ The target may be a console, a file, or another item depending on the appender.
 
 17. What is the purpose of level in Appender?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -222,6 +256,8 @@ The level is required to control the filtration of the log messages.
 ---
 
 18. What is the purpose of threshold in Appender?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -235,6 +271,8 @@ Appender can have a threshold level associated with it independent of the logger
 
 19. What is the purpose of filter in Appender?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -246,6 +284,8 @@ The Filter objects can analyze logging information beyond level matching and dec
 ---
 
 20. How will you define a root logger with appender file using log4j.properties?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -264,6 +304,8 @@ log4j.rootLogger = DEBUG, FILE
 
 21. How will you define a file appender using log4j.properties?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -281,6 +323,8 @@ log4j.appender.FILE.File=${log}/log.out
 
 22. How will you define the layout of file appender using log4j.properties?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -296,7 +340,9 @@ log4j.appender.FILE.layout.conversionPattern=%m%n
 
 ---
 
-23. What are the different log levels in the logger component?
+23. List the different log levels in the logger component?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -316,6 +362,8 @@ log4j.appender.FILE.layout.conversionPattern=%m%n
 
 24. What is purpose of DEBUG log level?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -327,6 +375,8 @@ DEBUG − Designates fine-grained informational events that are most useful to d
 ---
 
 25. What is purpose of ERROR log level?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -340,6 +390,8 @@ ERROR − Designates error events that might still allow the application to cont
 
 26. What is purpose of FATAL log level?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -351,6 +403,8 @@ FATAL − Designates very severe error events that will presumably lead the appl
 ---
 
 27. What is purpose of INFO log level?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -364,6 +418,8 @@ INFO − Designates informational messages that highlight the progress of the ap
 
 28. What is purpose of OFF log level?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -375,6 +431,8 @@ OFF − The highest possible rank and is intended to turn off logging.
 ---
 
 29. What is purpose of TRACE log level?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -388,6 +446,8 @@ TRACE − Designates finer-grained informational events than the DEBUG.
 
 30.What is purpose of WARN log level?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -400,6 +460,8 @@ WARN − Designates potentially harmful situations.
 
 31. How do Levels Works?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -410,7 +472,9 @@ A log request of level p in a logger with level q is enabled if p >= q. This rul
 
 ---
 
-32.How will you define a root logger turning DEBUG mode off?
+32. How will you define a root logger turning DEBUG mode off?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -427,22 +491,42 @@ log4j.rootLogger = WARN, FILE
 
 ---
 
-33. How will you create a logger in any class?
+33. How will you create a logger in a Java class?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Any other named Logger object instance is obtained through the second method by passing the name of the logger. The name of the logger can be any string you can pass, usually a class or a package name 
+To create a logger in a Java class, you can follow these steps:
 
-```Java
-static Logger log = Logger.getLogger(log4jExample.class.getName());
-```
+1. Import the necessary logger class from the `java.util.logging` package:
+   ```java
+   import java.util.logging.Logger;
+   ```
+
+2. Declare a logger object in your class:
+   ```java
+   private static final Logger logger = Logger.getLogger(YourClassName.class.getName());
+   ```
+
+3. Use the logger to log messages wherever needed in your class:
+   ```java
+   logger.info("This is an informational message.");
+   logger.warning("This is a warning message.");
+   logger.severe("This is a severe error message.");
+   ```
+
+By using the logger, you can log messages with different log levels (e.g., info, warning, severe) and configure the logging behavior based on your needs (e.g., output to console, file, etc.).
+
 </blockquote>
 </details>
 
 ---
 
 34. How will you print a log message in debug mode?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -456,6 +540,8 @@ static Logger log = Logger.getLogger(log4jExample.class.getName());
 
 35. How will you print a log message in error mode?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -467,6 +553,8 @@ static Logger log = Logger.getLogger(log4jExample.class.getName());
 ---
 
 36. How will you print a log message in fatal mode?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -480,6 +568,8 @@ static Logger log = Logger.getLogger(log4jExample.class.getName());
 
 37. How will you print a log message in info mode?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -491,6 +581,8 @@ static Logger log = Logger.getLogger(log4jExample.class.getName());
 ---
 
 38. How will you print a log message in warn mode?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -504,6 +596,8 @@ static Logger log = Logger.getLogger(log4jExample.class.getName());
 
 39. How will you print a log message in trace mode?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -515,6 +609,8 @@ static Logger log = Logger.getLogger(log4jExample.class.getName());
 ---
 
 40. Mention what are the different types of Appenders?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -531,6 +627,8 @@ Some of the Appenders type include
 
 41. Mention what are the two static methods for obtaining a logger object?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -546,6 +644,8 @@ The two static methods for obtaining a logger object are
 
 42. How log4j file is defined?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -556,19 +656,23 @@ Log4j file is defined by the name `log4j.properties`, it keeps properties in key
 
 ---
 
-43. Explain what is the command to write your logging information into a file?
+43. What is the command to write a logging information into a file?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-To write your logging information into a file, you would need to use a command `org.apache.log4j.FileAppender`.
+To write a logging information into a file, you would need to use a command `org.apache.log4j.FileAppender`.
 
 </blockquote>
 </details>
 
 ---
 
-44. Mention what are the logging methods provided by logger class?
+44. Mention the logging methods provided by logger class?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -584,6 +688,8 @@ Logger class provides a variety of methods to handle logging activities.  To obt
 
 45. In log4j how can you log into the database?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -596,6 +702,8 @@ The log4j API provides the object `org.apache.log4j.jdbc`. JDBCAppender object c
 
 46. Can you customize the log output format?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -607,6 +715,8 @@ Yes, you can extend the layout class to create your own customized log format. A
 ---
 
 47. What are the system properties checked by log4j?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -623,7 +733,9 @@ The system properties checked by log4j are
 
 ---
 
-48.  Explain how can you get multiple processes to log to the same file?
+48.  How can you get multiple processes to log to the same file?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -635,7 +747,9 @@ We may have each process log to a socket Appender. The receiving socket server c
 
 ---
 
-49. Mention what is the difference between Threshold and LevelRangeFilter in log4j?
+49. Mention the difference between Threshold and LevelRangeFilter in log4j?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -648,6 +762,8 @@ Both Threshold and LevelRangeFilter does the same thing. However, threshold shou
 ---
 
 50. Mention what does `.class` mean in log4j context?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -665,6 +781,8 @@ logger.getlogget (Myclass.class)
 
 51. What is the purpose of PatternLayout object?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -679,6 +797,8 @@ logger.getlogget (Myclass.class)
 
 52. What is package level logging in log4j?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -691,6 +811,8 @@ Package level logging is the standard logging of log4j, with this you would dete
 
 53. What does WARN and TRACE level indicates in log4j?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -702,6 +824,8 @@ Log4j level WARN gives a warning about an unpredicted event to the user. The mes
 ---
 
 54. What are the format characters used in log4j?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -720,6 +844,8 @@ The format characters used in log4j are
 
 55. What is the best way to migrate from `java.util` logging to log4j?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -731,6 +857,8 @@ The best way to migrate from `java.util`  logged to log4j is to use global file 
 ---
 
 56. Why do you get multiple copies of the message in log file sometime?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -745,6 +873,8 @@ There could be two reasons why this may happen:
 ---
 
 57. How can we change the Log level for the application?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -773,6 +903,8 @@ By changing the Root Level within Log4j config.
 </Configuration>
 ```
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -785,6 +917,8 @@ We should change the root level from DEBUG to WARN.
 
 59. Can you organize following Log4j levels in hierarchy?
 WARN, DEBUG,INFO, ERROR	Log4j
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -806,6 +940,8 @@ WARN, DEBUG,INFO, ERROR	Log4j
 
 60. What should be the logging level while logging exceptions?	
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
@@ -815,7 +951,10 @@ It depends on how severe the exception is. If the exception is completely unexpe
 </details>
 
 ---
+
 61. What is logging?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -832,44 +971,141 @@ Logging can be implemented using various logging frameworks and libraries in dif
 </details>
 
 ---
-62. Recently, Log4J was in the news, why?
+
+62. How does Log4j work?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
 <blockquote>
 
-Log4j was in the news in late 2021 due to a critical vulnerability that was discovered in its codebase. The vulnerability, known as CVE-2021-44228, allowed attackers to execute remote code on a targeted system by exploiting a flaw in Log4j's handling of log messages.
-
-The vulnerability affected Log4j 2.x versions prior to 2.15.0 and Log4j 1.x versions. As Log4j is widely used in many Java-based applications and libraries, the vulnerability posed a significant risk to the security of these systems.
-
-The severity of the vulnerability led to widespread concern and a rapid response from the security community. Several organizations, including Apache Software Foundation (ASF) which manages the development of Log4j, released patches and advisories urging users to upgrade to the latest version of the software as soon as possible.
-
-The Log4j vulnerability also highlighted the importance of proper vulnerability management and the need for organizations to have robust security measures in place to detect and mitigate such threats.
+Log4j is a Java-based logging utility that provides a flexible and customizable framework for logging messages in applications. It follows a hierarchical structure where loggers are organized in a tree-like hierarchy, and log messages are categorized based on their severity level. Log4j allows you to configure various appenders (e.g., console, file, database) to control where log messages are outputted.
 
 </blockquote>
 
 </details>
 
 ---
-63. How up to date are you in the Log4J context?
+
+63. What is the significance of log levels in Log4j?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
 <blockquote>
-Log4J is a Java-based logging utility that provides a flexible and configurable way to log messages from Java applications.
 
-The Log4J context is a hierarchical structure that holds the logging configuration and contextual information that is used during the logging process. It consists of a hierarchy of named Logger objects, each of which can have its own logging level, appenders, and filters.
-
-At the root of the Log4J context hierarchy is the "root logger", which is created automatically by Log4J and has the name "root". You can configure the root logger to specify the logging level and appenders that will be used by default for all loggers in the hierarchy that do not have their own specific configuration.
-
-In addition to the root logger, you can create and configure custom loggers that are named according to your own naming conventions. For example, you might create a logger with the name "com.mycompany.MyClass" to log messages specific to that class.
-
-When a log message is generated by an application, Log4J uses the logger hierarchy to determine which logger(s) should be used to handle the message. The message is then passed through any configured filters before being sent to the appropriate appenders, which can include files, databases, or other logging destinations.
-
-Overall, the Log4J context provides a powerful and flexible way to configure and manage logging for your Java applications.
+Log levels in Log4j determine the severity or importance of log messages. Log4j defines several log levels, including (in increasing order of severity): TRACE, DEBUG, INFO, WARN, ERROR, and FATAL. By setting the log level in the configuration, you can control which messages should be logged based on their severity. Log messages with a level higher than or equal to the configured level will be logged.
 
 </blockquote>
 
+</details>
+
+---
+
+64. How can you configure Log4j programmatically?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Log4j can be configured programmatically by using the `org.apache.logging.log4j.core.LoggerContext` class. You can create a LoggerContext, configure it with the desired configuration, and then activate the context. This allows you to dynamically configure Log4j at runtime, such as changing log levels or appending new appenders.
+
+</blockquote>
+
+</details>
+
+---
+
+65. How can you handle log rotation in Log4j?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Log rotation in Log4j allows you to manage log files by automatically archiving or deleting old log files and creating new ones. Log4j provides a RollingFileAppender that supports log rotation based on size or time. You can configure the maximum file size or time interval before a new log file is created, and Log4j will handle the rotation process accordingly.
+
+</blockquote>
+</details>
+
+---
+
+66. What is the purpose of Log4j layouts?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Log4j layouts define the format in which log messages are presented. They control how log messages are structured, including the timestamp, log level, class name, and the actual log message itself. Log4j provides various built-in layouts, such as PatternLayout, XMLLayout, and JSONLayout. You can choose the appropriate layout for your logging needs or create custom layouts.
+
+</blockquote>
+</details>
+
+---
+
+67. What is the difference between Log4j 1.x and Log4j 2.x?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Log4j 1.x and Log4j 2.x are different major versions of the Log4j framework. Log4j 2.x is the newer version and offers several improvements over 1.x, including better performance, enhanced configuration options, improved threading model, and support for multiple APIs (SLF4J, JUL, etc.). Log4j 2.x also introduced new features like asynchronous logging, automatic configuration reloading, and improved plugin architecture.
+
+</blockquote>
+</details>
+
+---
+
+68. How can you configure Log4j using XML?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Log4j can be configured using XML by creating an XML configuration file (e.g., log4j2.xml) and placing it in the classpath. The XML file contains elements and attributes to define loggers, appenders, log levels, layouts, and other configuration details. Log4j will automatically detect and load the XML configuration file when the application starts.
+
+</blockquote>
+</details>
+
+---
+
+69. How can you use Log4j in a multi-threaded environment?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Log4j is designed to be thread-safe, allowing multiple threads to log concurrently without conflicts. Each thread can use the same logger instance to log messages. Log4j ensures thread safety by synchronizing access to shared resources and providing efficient locking mechanisms. Additionally, Log4j 2.x introduced the AsyncLogger, which allows asynchronous logging to improve performance in highly concurrent applications.
+
+</blockquote>
+</details>
+
+---
+
+70. How will you configure Log4j to send log messages to a remote server?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Log4j provides appenders like SocketAppender and SyslogAppender that allow you to send log messages to a remote server. SocketAppender can send log events over TCP or UDP to a remote server, while SyslogAppender follows the Syslog protocol for log transmission. By configuring the appropriate appender and specifying the remote server's address, Log4j can forward log messages to a centralized logging server.AsyncLogger, which allows asynchronous logging to improve performance in highly concurrent applications.
+
+</blockquote>
 </details>
 
 ---
