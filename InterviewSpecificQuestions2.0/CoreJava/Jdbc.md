@@ -1,4 +1,4 @@
-1.How JDBC plays a vital role in Java?
+1.How does JDBC play a vital role in Java?
 
 
 <details><summary><b> Show Answer</b></summary>
@@ -113,7 +113,7 @@ For example:
 
  ---
   
- 7.Why we need stored procedure? Explain it?
+ 7.Explain why do we need stored procedure.
 
 
 <details><summary><b> Show Answer</b></summary>
@@ -341,7 +341,7 @@ ResultSet rs = cs.executeQuery();
   
 ---
   
-16.How getter and setter methods used in ResultSet?
+16.How are getter and setter methods used in ResultSet?
 
 
 <details><summary><b> Show Answer</b></summary>
@@ -493,7 +493,7 @@ We must register the OUT parameters before executing the CallableStatement.
 
 </details>
 
-21.When "No suitable driver" error occurs in java?
+21.When does "No suitable driver" error occurs in java?
 
 
 <details><summary><b> Show Answer</b></summary>
@@ -696,7 +696,7 @@ int count = ps.executeUpdate();
 </details>
 
 ---
-30. What is the jdbc connection string and how is it used, give an example  
+30. What is the jdbc connection string and how is it used, give an example.
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -758,7 +758,7 @@ In JDBC, a ResultSet object represents a set of rows returned by a SQL query. It
 </details>
 
 ---
-32. What is sql injection ?  
+32. What is sql injection?  
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -783,7 +783,7 @@ To prevent SQL injection attacks, you should always use prepared statements or p
 </details>
 
 ---
-33. How did you write code to prevent SQL injection 
+33. How do you prevent SQL injection?
 
 <details><summary><b> Show Answer</b></summary>
 
