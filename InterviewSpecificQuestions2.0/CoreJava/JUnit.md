@@ -699,7 +699,7 @@ If a JUnit test method is declared as "private", it compiles successfully. But t
 
 ---
 
-44. Can you use a `main()` method for Unit testing?
+44. Can you use a `main()` method for Unit testing.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
