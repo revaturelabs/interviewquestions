@@ -92,7 +92,7 @@ When we create an object of HashSet, it internally creates an instance of HashMa
 
 ---
 
-7. Which one do you prefer in Java between Array and Array Lists for storing objects and why?
+7. Which one do you prefer in Java between Array and ArrayLists for storing objects and why?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
