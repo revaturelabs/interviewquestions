@@ -454,3 +454,102 @@ Some uncatchable exceptions exist in C#.Net.
 </details>
 
 ---
+    
+20. Can we use multiple finally blocks inside the exception handling c# method?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Yes, we can write the multiple finally blocks in exception handling c#. For every try block, there needs to be either a catch block or finally block.
+
+</blockquote>
+
+</details>
+
+---
+
+21.Is it possible to keep finally inside a try block?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Yes, it is possible to keep finally inside a try block.
+
+</blockquote>
+
+</details>
+
+---
+
+22.Can we write try block without catch block?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+No, It’s not allowed to write a try block without a catch/finally block. 
+You have to write one of either catch or finally with each try block. 
+Otherwise you will be prompt with a compilation error.
+
+</blockquote>
+
+</details>
+
+---
+
+23.Can we write try block only with finally block in exception handling c#?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Yes, you can write a try block only with the finally block.
+
+try
+{
+}
+finally
+{
+}
+
+</blockquote>
+
+</details>
+
+---
+
+24.What is Inner Exception?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Easy%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+The InnerException property returns the Exception instance (original exception) that caused the current exception.
+
+To look at the inner exception, we have to make this program cause an exception to fail. To do that you have 3 options
+
+Enter a Character instead of a number (Causes Format Exception)
+Or Enter a very big number that an integer cannot hold (Causes Over Flow Exception)
+Or Enter Zero for Second Number (Causes Divide By Zero Exception)
+
+</blockquote>
+
+</details>
+
+---
+
+
+
+
