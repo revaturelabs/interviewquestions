@@ -1,4 +1,4 @@
-4. How to install TypeScript?
+1. How to install TypeScript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -20,7 +20,7 @@ We can also install a typescript plugin available for our IDE. We can use the  I
 
 ---
 
-21. What is the ts. config file in Typescript?
+2. What is the ts. config file in Typescript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -34,7 +34,7 @@ The typescript project will have a ts. config file which provides an infinite nu
 
 ---
 
-22. Is it possible to compile a typescript file automatically?
+3. Is it possible to compile a typescript file automatically?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -54,7 +54,7 @@ tsc --watch filename.ts
 
 ---
 
-25. How to debug a TypeScript file?
+4. How to debug a TypeScript file?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -79,7 +79,7 @@ $ tsc -source map filename.ts
 
 ---
 
-34. What does Typescript do when you try to open it in a browser?
+5. What does Typescript do when you try to open it in a browser?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
