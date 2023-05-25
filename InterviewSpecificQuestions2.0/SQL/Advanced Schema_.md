@@ -23,3 +23,29 @@ Multiplicity is also known as cardinality defines the number of instances that c
 
 ---
 
+75. How do you create a new Table from another Table, where just the structure of the table is copied but none of the rows?  
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+<blockquote>
+
+We can use the following  to create a new table with the same structure as an existing table but no data. It works for both *SQL and PostgreSQL*
+
+```sql
+
+CREATE TABLE new_table_name AS
+SELECT *
+FROM existing_table_name
+WHERE 1 = 2;
+```
+
+- In this statement, new_table_name is the name you want to give to the new table, and existing_table_name is the name of the existing table whose structure you want to copy.
+
+- The SELECT statement retrieves the column structure of the existing table, but the WHERE clause always evaluates to false, so no data is actually selected. This means that the new table will have the same columns as the existing table, but it will be empty.
+
+</blockquote>
+
+</details>
+
+---
