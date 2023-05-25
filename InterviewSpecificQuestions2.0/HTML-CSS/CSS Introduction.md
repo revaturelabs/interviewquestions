@@ -611,27 +611,7 @@ It's a good idea to choose resetting when we have very a customized or unconvent
 
 ---
 
-31. Describe pseudo-elements and discuss what they are used for.
-
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
-
-A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s). They can be used for decoration (`:first-line, :first-letter`) or adding elements to the markup (combined with content: ...) without having to modify the markup (`:before, :after`).
-
-Example of usage:
-
-- `:first-line and :first-letter` can be used to decorate text.
-- Used in the `.clearfix` hack to add a zero-space element with clear: both.
-- Triangular arrows in tooltips use `:before and :after`. Encourages separation of concerns because the triangle is considered part of styling and not really the DOM, but not really possible to draw a triangle with just CSS styles.
-
-</blockquote>
-</details>
-
----
-
-32. What is the difference between RGBa, HEX and HSLa?
+31. What is the difference between RGBa, HEX and HSLa?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -664,7 +644,7 @@ p {
 
 ---
 
-33. Explain the purpose of clearing floats in CSS?
+32. Explain the purpose of clearing floats in CSS?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -745,7 +725,7 @@ clear: none|left|right|both|inherit|inline-start|inline-end;
 
 ---
   
-34. What is At-Rule?
+33. What is At-Rule?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -778,7 +758,7 @@ At-rules are `CSS statements` that instructs CSS how to behave. They begin with 
 
 ---
 
-35. How do I restore the default value of a property?
+34. How do I restore the default value of a property?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -792,7 +772,7 @@ The keyword `initial` can be used to resets it to its default value, which is de
 
 ---
 
-36.  What is the difference between padding and margin?
+35.  What is the difference between padding and margin?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -816,7 +796,7 @@ Also, using margin will not affect your element\'s dimensions whereas padding wi
 
 ---
 
-37. How is the concept of inheritance applied in CSS?
+36. How is the concept of inheritance applied in CSS?
 
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
@@ -843,7 +823,7 @@ span {
 
 ---
 
-38. How does Calc() work?
+37. How does Calc() work?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -875,7 +855,7 @@ The `calc()` function can be used to perform addition, subtraction, multiplicati
 
 ---
 
-39. Can you add 3D transformations to our project using CSS?
+38. Can you add 3D transformations to our project using CSS?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -895,7 +875,7 @@ There are three main transformation types that are mentioned below:
 
 ---
 
-40. What is responsive web design?
+39. What is responsive web design?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -909,7 +889,7 @@ Responsive Design is a method of creating web pages that makes use of adaptable 
 
 ---
 
-41. How does the Z index function?
+40. How does the Z index function?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -923,7 +903,7 @@ Sometimes, while positioning the elements of HTML using CSS, overlapping may occ
 
 ---
 
-42. Define Image sprites with context to CSS?
+41. Define Image sprites with context to CSS?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -937,7 +917,7 @@ Image Sprites is the process of collaborating several images into one. It reduce
 
 ---
 
-43. State the difference between Style Sheet and HTML?
+42. State the difference between Style Sheet and HTML?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
