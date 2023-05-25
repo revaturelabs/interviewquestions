@@ -203,3 +203,48 @@ Note that you'll need to replace "employees" and "salary" with the actual names 
 </details>
 
 ---
+1. What is difference between Table and View in SQL?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+A `table` in SQL is a database object that stores data in `rows` and `columns`, whereas a `view` in SQL is a virtual table that does not store data physically but presents data from one or more tables in a structured manner. 
+
+</blockquote>
+
+</details>
+
+---
+2. What is a View?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+A `view` in SQL is a virtual table that does not store data physically but presents data from one or more tables in a structured manner. `Views` are used to simplify complex queries, hide the complexity of underlying tables, and restrict access to certain data for security purposes.
+
+</blockquote>
+
+</details>
+
+---
+3. Does a view contain any data in it?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+No, a `view` does not contain any data in it. It is a virtual table that presents data from one or more tables in a structured manner. The data in a `view` is stored in the underlying `tables` and is retrieved and presented by the `view` as if it were a table.
+
+</blockquote>
+
+</details>
+
+---
