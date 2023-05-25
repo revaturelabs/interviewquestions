@@ -248,3 +248,112 @@ No, a `view` does not contain any data in it. It is a virtual table that present
 </details>
 
 ---
+4. Can you create a view from another view?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Yes, you can create a view from another view in SQL. This is known as a `nested view`. The syntax for creating a nested view is similar to creating a regular view. However, instead of specifying a table as the source of data, you specify another view. 
+
+Here is an example syntax for creating a nested view:
+
+```sql
+CREATE VIEW nested_view AS
+SELECT column1, column2, ...
+FROM another_view
+WHERE condition;
+```
+
+</blockquote>
+
+</details>
+
+---
+5. How do you create a table view?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+To create a table view in SQL, you use the `CREATE VIEW` statement. The syntax for creating a view is similar to that of creating a table, but instead of specifying the columns and data types, you specify the columns and data that you want to include in the view. Here is an example syntax:
+
+```sql
+CREATE VIEW my_view AS
+SELECT column1, column2, ...
+FROM my_table
+WHERE condition;
+```
+
+In this example, `my_view` is the name of the view, `column1`, `column2`, etc. are the columns that you want to include in the view, `my_table` is the name of the table that the view is based on, and `condition` is the optional condition that filters the data in the view.
+
+</blockquote>
+
+</details>
+
+---
+6. How to use 'as' with unions and views. 
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+In the case of a `UNION` operation, the `AS` keyword can be used to provide an alias for the resulting combined table. For example:
+
+```sql
+SELECT column1, column2
+FROM table1
+UNION
+SELECT column1, column2
+FROM table2
+AS combined_table;
+```
+
+In this query, the resulting table from the `UNION` operation will be named "combined_table" due to the use of the `AS` keyword.
+
+Similarly, the `AS` keyword can be used in a `CREATE VIEW` statement to give an alias for a view or to rename columns in the view's result set. For example:
+
+```sql
+CREATE VIEW my_view AS
+SELECT column1 AS new_name1, column2 AS new_name2
+FROM my_table;
+```
+
+In this query, the resulting view will be named "my_view" and the column names in the view's result set will be "new_name1" and "new_name2" instead of "column1" and "column2" from the original table.
+
+</blockquote>
+
+</details>
+
+---
+7. What is the best practice for using triggers?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+Triggers are powerful tools in SQL, but they should be used with caution to avoid unintended consequences. Here are some best practices for using triggers:
+
+1. Only use triggers when necessary: Triggers should only be used when there is no other alternative for achieving the same result. In some cases, a stored procedure or application code may be a better option.
+
+2. Keep triggers simple: Triggers should be simple and easy to understand. Avoid complex logic or multiple triggers on the same table.
+
+3. Test thoroughly: Before deploying a trigger to a production environment, it should be thoroughly tested in a development or test environment.
+
+4. Document: Triggers should be clearly documented, including the purpose, functionality, and any potential side effects.
+
+5. Use caution with `DML` statements: Triggers that execute DML statements (such as `INSERT`, `UPDATE`, `DELETE`) can have a significant impact on performance. Use caution when using `DML` statements in triggers.
+
+</blockquote>
+
+</details>
+
+---
