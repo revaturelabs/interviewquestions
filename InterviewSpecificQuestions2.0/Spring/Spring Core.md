@@ -1,8 +1,8 @@
 ## Technical
 
-1. What are Spring Beans?
+1. What is Spring Beans?
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -16,9 +16,9 @@
 </details>
 
 ---
-2. How do you decide whether to create `Singleton` bean or `Prototype` bean in application?
+2. How do you determine whether to create a Singleton bean or a Prototype bean in an application?
 
-![Intermediate ](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium ](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -40,7 +40,7 @@ Spring does not manage the complete lifecycle of a prototype bean.
 
 3. When do you use `Session` and `Request` bean in Spring?
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -57,9 +57,9 @@ Spring does not manage the complete lifecycle of a prototype bean.
 
 ---
 
-4. How an IOC container is configured in a spring console based application?
+4. How can an IOC container be configured in a console-based Spring application?
 
-![Intermediate ](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Medium ](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -211,9 +211,9 @@ public class App {
 
 ---
 
-5. How to decide upon choosing BeanFactory or ApplicationContext in Spring application?
+5. How do you make a decision between choosing BeanFactory or ApplicationContext in a Spring application?
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -235,9 +235,9 @@ public class App {
 
 ---
 
-6. What are the ways through which the Spring beans are configured?
+6. What are ways to configure spring bean ?
 
-![Intermediate ](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
     
@@ -299,9 +299,9 @@ public class App {
 </details>
 
 ---
-7. How Spring supports connection pooling? Elaborate what is connection pooling?
+7. what is connection pooling and also elaborate on How Spring supports connection pooling ?
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
     
@@ -395,9 +395,9 @@ public class App {
 
 ---
 
-8. What is usual cause of `org.springframework.beans.factory.NoUniqueBeanDefinitionException`?
+8. What is the usual cause of `org.springframework.beans.factory.NoUniqueBeanDefinitionException` in spring?
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -444,9 +444,10 @@ public class App {
 </details>
 
 ---
-9. Have you configured Init & Destroy spring bean lifecycle hooks? 
 
-![Intermediate ](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+9. How to configure initialization and destruction hooks for Spring beans?
+
+![Complex ](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -527,9 +528,9 @@ public class MainApp {
 </details>
 
 ---
-10. How do you decide as developer to choose among `.properties` or `.yaml` configuration file in Spring Boot application? 
+10. What factors should a developer consider when choosing between using a `.properties` file or a `.yaml` file for configuration in a Spring Boot application?
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -567,9 +568,9 @@ management:
 </details>
 
 ---
-11. Can we achieve DI with Core Java without using Spring framework?
+11. Is it possible to achieve dependency injection with Core Java without using Spring framework? if so how ?
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -585,9 +586,9 @@ management:
 
 ---
 
-12. Brief us on Spring Framework.
+12. Explain Spring Framework.
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -603,7 +604,7 @@ The Spring Framework is a Java platform that provides comprehensive infrastructu
 
 13. What is Dependency Injection? 
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -617,9 +618,9 @@ Dependency Injection (DI) is a design pattern that removes the dependency from t
 
 ---
 
-14. Explain the different Bean scopes?
+14. Explain the different Bean scopes
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -641,7 +642,7 @@ There are 5 types of bean scope in Spring :-
 
 15. What are the different types of Dependency Injection in Spring?
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -660,7 +661,7 @@ There are three types of Dependency Injection in Spring:
 
 16. What is IOC and what does the IOC Container do?
 
-![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -678,7 +679,7 @@ There are three types of Dependency Injection in Spring:
 
 17.  List some stereotype annotations.
 
-![Advance](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -702,7 +703,7 @@ There are three types of Dependency Injection in Spring:
 
 18. What is @configuration and @bean in spring?
 
-![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -719,9 +720,9 @@ The @Bean annotation is used to declare a method as a producer of a bean within 
 
 ---
 
-19.What is @Value used for?
+19.What is the purpose of using @Value?
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
@@ -738,10 +739,302 @@ The @Bean annotation is used to declare a method as a producer of a bean within 
 
 20. What is bean wiring?
 
-![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
 <blockquote> 
 
 - bean wiring is the process of connecting or establishing dependencies between beans. It involves configuring the relationships between different beans so that they can collaborate and work together.
+
+</blockquote>
+
+</details>
+
+---
+
+21. What is Auto wiring?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- Autowiring in Spring is a feature that automatically resolves dependencies between beans. 
+- It eliminates the need for manual configuration and wiring of dependencies by allowing Spring to automatically inject the required dependencies into a bean.
+
+</blockquote>
+
+</details>
+
+---
+
+22. What is the Spring Bean lifecycle?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+The Spring Bean lifecycle refers to the series of steps that a bean goes through from its creation to its destruction within a Spring container. The lifecycle consists of several phases:
+
+1. Instantiation: The bean instance is created either through XML configuration or using annotations.
+2. Population of Dependencies: Dependencies are injected into the bean, either through constructor injection or setter injection.
+3. Bean Post-Processing: Spring applies any registered BeanPostProcessor implementations to modify the bean instance before it is fully initialized.
+4. Initialization: If the bean implements the InitializingBean interface or defines an initialization method, it is invoked to perform any necessary initialization tasks.
+5. Ready for Use: The bean is now fully initialized and available for use.
+6. Destruction: If the bean implements the DisposableBean interface or defines a destroy method, it is invoked when the bean is being removed from the container or the container is being shut down.
+
+
+
+</blockquote>
+
+</details>
+
+---
+
+23. What is the difference between constructor injection and setter injection in Spring?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- Constructor injection enforces the dependencies to be provided at the time of object creation, while setter injection allows dependencies to be provided or changed after object creation.
+- Constructor injection promotes immutability and ensures that a fully initialized object is created, while setter injection allows for more flexibility in managing dependencies.
+- Constructor injection provides a clear contract for required dependencies, making it easier to understand the dependencies of a class, while setter injection allows for optional dependencies and can lead to a less strict contract.annotation. 
+
+</blockquote>
+
+</details>
+
+---
+
+24.  What is the purpose of the @Autowired annotation in Spring?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- The purpose of the `@Autowired` annotation in Spring is to automatically wire or inject dependencies into a bean. 
+- It allows Spring to automatically detect and wire the appropriate bean dependency based on the declared type.
+-  By using `@Autowired`, you don't need to manually instantiate or look up dependencies, as Spring takes care of resolving and injecting them for you. 
+- This annotation helps to achieve loose coupling and promotes dependency injection, making the code more modular and maintainable.
+
+</blockquote>
+
+</details>
+
+---
+
+25.  What are the key features of the Spring Framework?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+The key features of the Spring Framework are:
+
+1. Inversion of Control (IoC): The Spring Framework implements the principle of IoC, where the control of object creation and dependency injection is shifted from the application code to the framework. This promotes loose coupling and easier testing of components.
+
+2. Dependency Injection (DI): Spring provides a powerful DI mechanism, allowing dependencies to be injected into objects without requiring explicit instantiation or configuration. DI helps in achieving loose coupling, modular design, and easier unit testing.
+
+3. Aspect-Oriented Programming (AOP): Spring supports AOP, which allows separating cross-cutting concerns such as logging, caching, and security from the core application logic. AOP enables modularization and reusability of code.
+
+4. Spring MVC: The Spring MVC framework provides robust support for building web applications based on the Model-View-Controller (MVC) architectural pattern. It offers features like request mapping, data binding, validation, and view resolution for building flexible and scalable web applications.
+
+5. Transaction Management: Spring offers a comprehensive transaction management framework that supports both programmatic and declarative transaction management. It integrates seamlessly with various transaction APIs, including Java Transaction API (JTA) and JDBC, and supports distributed transactions.
+
+6. Data Access Abstraction: Spring provides a consistent abstraction layer for working with different data access technologies, including JDBC, JPA, Hibernate, and MyBatis. It simplifies database operations and supports seamless switching between different data access technologies.
+
+7. Spring Security: Spring offers a powerful security framework that provides authentication, authorization, and other security features for web applications. It integrates well with other Spring modules and supports various authentication mechanisms, including form-based, OAuth, and JWT.
+
+8. Testing Support: Spring provides excellent support for testing applications, including unit testing, integration testing, and mocking. It offers integration with popular testing frameworks like JUnit and Mockito, making it easier to write and execute tests.
+
+9. Internationalization (i18n) and Localization (l10n): Spring supports internationalization and localization of applications by providing features like message bundles, locale resolution, and support for different languages and regions.
+
+10. Lightweight and Modular: The Spring Framework is designed to be lightweight and modular, allowing developers to pick and choose the required modules based on their application needs. This helps in keeping the application footprint small and improves performance.
+
+These are some of the key features that make the Spring Framework popular and widely used in enterprise Java development.
+
+</blockquote>
+
+</details>
+
+---
+
+26.  What is the concept of component scanning and how would you set it up?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+The concept of component scanning in Spring is a way to automatically detect and register Spring beans based on predefined conventions. It eliminates the need for explicit bean configuration and simplifies the development process.
+
+To set up component scanning in Spring, you need to follow these steps:
+
+1. Add the `@ComponentScan` annotation to your configuration class or XML configuration file.
+2. Specify the base package(s) where Spring should scan for components. This can be done by providing the package name(s) as an argument to `@ComponentScan` annotation or configuring it in the XML file.
+3. Optionally, you can further customize the component scanning behavior by specifying filters to include or exclude certain components based on annotations, interface implementations, or other criteria.
+
+By enabling component scanning, Spring will automatically scan the specified packages and register the detected components as beans in the application context. This allows you to use them throughout your application without explicitly defining them in the configuration files.
+
+</blockquote>
+
+</details>
+
+---
+
+27.  What are Spring Projects and Spring Modules?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+ Spring Projects and Spring Modules refer to different components and extensions that provide additional functionality and features on top of the core Spring framework.
+
+1. Spring Projects: Spring Projects are individual sub-projects within the Spring ecosystem that address specific domains or technologies. Each Spring Project focuses on a particular aspect of application development and provides dedicated features and APIs. Some popular Spring Projects include Spring Boot, Spring Data, Spring Security, Spring Cloud, and Spring Integration.
+
+2. Spring Modules: Spring Modules, on the other hand, are modular components within the core Spring framework that provide specific functionality. These modules are designed to be used together to build enterprise applications. Examples of Spring Modules include the Core Container module (providing the fundamental Spring container and dependency injection features), the Data Access module (providing support for working with databases and data access frameworks), the AOP module (providing aspect-oriented programming capabilities), and the Web module (providing support for web application development).
+
+
+</blockquote>
+
+</details>
+
+---
+
+28. What is the typical Bean life cycle in Spring Bean Factory Container?  
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+In the Spring framework, the typical lifecycle of a bean within the Bean Factory container follows these steps:
+
+1. Instantiation: The bean is created by invoking the bean's constructor.
+
+2. Populating Properties: Dependencies and properties of the bean are injected using setter methods or constructor arguments.
+
+3. BeanNameAware and BeanFactoryAware: If the bean implements the `BeanNameAware` or `BeanFactoryAware` interfaces, the corresponding callback methods are invoked to provide the bean with its bean name and reference to the Bean Factory.
+
+4. BeanPostProcessor: If there are any BeanPostProcessor implementations registered in the container, the post-processing methods are called. These processors can modify the bean instance or provide additional initialization logic.
+
+5. InitializingBean and custom init methods: If the bean implements the `InitializingBean` interface, the `afterPropertiesSet()` method is invoked. Alternatively, if the bean defines a custom initialization method, that method is called.
+
+6. DisposableBean and custom destroy methods: If the bean implements the `DisposableBean` interface, the `destroy()` method is called when the container is shutting down. Similarly, if the bean defines a custom destroy method, that method is called.
+
+During these stages, the Spring container manages the lifecycle of the bean, including instantiation, dependency injection, initialization, and destruction. The container ensures that the beans are properly initialized and released based on their configuration and lifecycle callbacks.
+
+
+</blockquote>
+
+</details>
+
+---
+
+29. Describe some of the standard Spring events  
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+In the Spring framework, there are several standard events that can be published and handled within the application. Some of the commonly used standard Spring events include:
+
+1. ContextRefreshedEvent: This event is published when the ApplicationContext is initialized or refreshed. It indicates that all beans have been loaded, initialized, and are ready for use.
+
+2. ContextStartedEvent: This event is published when the ApplicationContext is started using the start() method. It is typically used to resume any paused application functionality.
+
+3. ContextStoppedEvent: This event is published when the ApplicationContext is stopped using the stop() method. It is often used to perform any cleanup or shutdown tasks.
+
+4. ContextClosedEvent: This event is published when the ApplicationContext is closed using the close() method. It indicates that the application context is being shut down, and any necessary cleanup can be performed.
+
+5. RequestHandledEvent: This event is published when an HTTP request has been handled by a Spring MVC handler. It provides information about the request, including the handler method and execution time.
+
+6. ApplicationEvent: This is a general base class for all application-specific events. Developers can create custom events by extending this class and publishing them within the application.
+
+These events can be used to perform various tasks such as logging, auditing, caching, and triggering specific actions based on the occurrence of certain events in the application. By subscribing to these events, components within the Spring application can respond and react accordingly.
+
+
+</blockquote>
+
+</details>
+
+---
+
+30. Does Spring Bean provide thread safety? Justify your answer.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- No, Spring Beans do not inherently provide thread safety.
+- Whether a Spring Bean is thread-safe or not depends on how it is implemented and managed by the developer.
+- The Spring framework itself does not enforce or guarantee thread safety for beans. 
+- It is the responsibility of the developer to design and implement thread-safe beans if they are required in a concurrent environment.
+
+</blockquote>
+
+</details>
+
+---
+
+31. What is Spring Expression Language? 
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- The Spring Expression Language (SpEL) is a powerful expression language that allows you to dynamically evaluate expressions at runtime in the Spring framework.
+-  It provides a wide range of capabilities, including accessing and manipulating object properties, invoking methods, performing mathematical and logical operations, conditional expressions, collection manipulation, and more.
+-  SpEL is commonly used in various Spring components, such as bean definitions, annotations, XML configurations, and runtime expressions. 
+- It provides a concise and flexible way to configure and manipulate application logic in a Spring application.
+
+</blockquote>
+
+</details>
+
+---
+
+32. What is the difference between $ and # in @value expressions?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+In Spring's `@Value` expressions, the symbols `$` and `#` have different meanings:
+
+1. `$` (Dollar Sign): It is used for value injection, where the value is directly resolved from property placeholders or environment variables. For example, `@Value("${app.name}")` will inject the value of the property `app.name` from the configuration file or environment variable.
+
+2. `#` (Hash Sign): It is used for expression evaluation, where the value is evaluated dynamically using Spring Expression Language (SpEL). This allows you to perform complex evaluations, access object properties, invoke methods, perform mathematical operations, etc. For example, `@Value("#{someBean.someProperty}")` will evaluate the expression `someBean.someProperty` using SpEL.
+
+In summary, the `$` symbol is used for simple value injection, while the `#` symbol is used for dynamic expression evaluation using SpEL.
+
+
+</blockquote>
+
+</details>
+
+---
