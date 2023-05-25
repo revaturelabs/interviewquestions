@@ -1187,9 +1187,9 @@ This query can be used in both MySQL and PostgreSQL databases as the syntax is t
 
 ---
 
-39.  how do you delete duplicates in SQL?
+39. How do you delete duplicate Records in SQL?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>MySQL</b></summary>
 
@@ -1229,7 +1229,7 @@ This PostgreSQL query deletes the duplicate rows from the `your_table`. Replace 
 
 ---
 
-40.  Given two tables "employee" and "sale_details", 
+40.  Consider you are given two tables "employee" and "sale_details", 
 How do you fetch the details of the 
  -  employee who have sold nothing.  
  -  employee who is the top sales.
@@ -1251,47 +1251,13 @@ In this MySQL query, the `employee` table is joined with the `sale_details` tabl
 
 </details>
 
-<details><summary><b>PostgreSQL</b></summary>
-
-```sql
-SELECT e.employee_id, e.employee_name
-FROM employee e
-LEFT JOIN sale_details sd ON e.employee_id = sd.employee_id
-WHERE sd.employee_id IS NULL;
-```
-
-Explanation:
-This PostgreSQL query is similar to the MySQL version. It uses a `LEFT JOIN` to combine the `employee` and `sale_details` tables based on the `employee_id` column. The `WHERE` clause filters out the rows where `sale_details.employee_id` is `NULL`, indicating that the employee has sold nothing.
-
-</details>
-</details>
-
-
-
-
-<details><summary><b>Answer</b></summary>
-
-```sql
-SELECT e.employee_id, e.employee_name, SUM(sd.amount) AS total_sales
-FROM employee e
-JOIN sale_details sd ON e.employee_id = sd.employee_id
-GROUP BY e.employee_id, e.employee_name
-ORDER BY total_sales DESC
-LIMIT 1;
-```
-
-Explanation:
-This query joins the "employee" table with the "sale_details" table based on the "employee_id" column. It uses the `SUM()` function to calculate the total sales amount for each employee. The result is grouped by the employee's ID and name. The `ORDER BY` clause sorts the result in descending order based on the total sales amount. Finally, the `LIMIT 1` clause selects only the top row, which represents the employee with the highest sales.
-
-Note: If there are multiple employees with the same highest sales amount, this query will return only one of them. To retrieve all employees with the highest sales, you can modify the query accordingly.
-
-</details>
 
 ---
 
-41.   SQL coding challenge: you are given some tables, select employee name for employee who has salary over 30,000 and is in the engineering department?
+41.  Consider you are have table "Employee". How do you write a query to fetch the employees name and the department of the employees whose salary is over 30,000?
 
-SQL Coding Challenge: Given some tables, select the employee name for employees who have a salary over 30,000 and are in the engineering department.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Answer</b></summary>
 
@@ -1326,7 +1292,9 @@ This PostgreSQL query is the same as the MySQL version. It joins the "employee" 
 
 ---
 
-42.    write sql query to update the table
+42. Write a sql query to update the table?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Answer</b></summary>
 
@@ -1347,8 +1315,9 @@ Please replace `your_table` with the actual name of your table, and modify the c
 
 ---
     
-43.     SQL Join query to combine two employee tables where salary was between 5000 and 8000
+43.  write a SQL Join query to combine two employee tables where the salary is between 5000 and 8000
   
+  ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Answer</b></summary>
 
@@ -1372,6 +1341,8 @@ Please replace `employee_table1` and `employee_table2` with the actual names of 
 
 
 44. How would you write a query to get employee's name from an employees table with an id of 123?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Answer</b></summary>
 
@@ -1405,9 +1376,11 @@ Adjust the table name, column names, and ID value as per your specific table str
 
 ---
 
-45.  How would you get the department an employee is in given this employee table and department table? 
+45.  How would you get the department of an employee from a given employee table ? 
     -Employee table columns: id, name, department_name
     -Department table columns: id, department_name"
+
+    ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Answer</b></summary>
 
@@ -1445,7 +1418,9 @@ Adjust the table names, column names, and conditions as per your specific table 
 
 ---
 
-46.   How to do a left join
+46.  Explain left join?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Answer</b></summary>
 
@@ -1480,6 +1455,8 @@ Adjust the table names, column names, and join conditions as per your specific t
 
 47.  How do you sort data after it has been pulled from a database?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b>Answer</b></summary>
 
 To sort data after it has been pulled from a database, you can use the `ORDER BY` clause in SQL. Here's an example query:
@@ -1512,7 +1489,9 @@ Adjust the table name, column names, and sorting criteria as per your specific t
 
 ---
 
-48.  how to change an entry to null in sql
+48.  How to change an entry to null in sql ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Answer</b></summary>
 
@@ -1545,7 +1524,9 @@ Make sure to adjust the table name, column name, and condition as per your speci
 
 ---
 
-49.  Group by department and put the 1st/last name of the employees in that department in a single cell
+49. Condiser you are given a table Employee. How do you group employee according to their department and put the 1st/last name of the employees in that department in a single cell?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Answer</b></summary>
 
@@ -1570,8 +1551,10 @@ Adjust the table name, column names, and aliases as per your specific table stru
 
 ---
 
-50.  Two tables that can be joined: employees and employee salaries, 
-Return the 3rd highest employee salary.
+50.  Consider you are given with two tables employees and employee salaries. 
+How do you return the 3rd highest employee salary.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
 <details><summary><b>Answer</b></summary>
@@ -1599,7 +1582,9 @@ Adjust the table names, column names, and `LIMIT` and `OFFSET` values as per you
 
 ---
 
-51.  How to find common records in two tables
+51.  How to find common records in two tables?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
 <details><summary><b>Answer</b></summary>
@@ -1639,7 +1624,9 @@ Adjust the column names, table names, and common column as per your specific sce
 
 52.  Write a SQL query where we combine a customers table and sales table to find the most recent purchase from each customer?
 
-<details><summary><b>Answer</b></summary>
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
 
 <details><summary><b>MySQL</b></summary>
 
@@ -1687,8 +1674,9 @@ Explanation:
 
 ---
 
-53.  SQL queries, How to filter results and search with conditions
+53.  Write a SQL query to filter results and search with conditions 
     
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Answer</b></summary>
 
@@ -1731,14 +1719,12 @@ Please adjust the column names, table name, and conditions as per your specific 
 
 ---
 
-54.  how do you create a table/select specific things from that table created  
+54.  how do you create a table and select specific records from that table created.
 
-<details><summary><b>Answer</b></summary>
-
-  SQL Query to Create a Table and Select Specific Data:
-
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>MySQL</b></summary>
+SQL Query to Create a Table and Select Specific Data:
 
 To create a table, you can use the `CREATE TABLE` statement in MySQL. Here's an example:
 
@@ -1812,8 +1798,10 @@ Please adjust the table name, column names, and data types as per your requireme
 ---
 
 55. table 1: student name, student id, address, age. 
-table 2: student rank, score, student id, student row. student name, student age, score, student rank < than 10
+table 2: student rank, score, student id.
+write a query to fetch the data of the student whose rank is < 10 along with the student name, student age and score.
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b>Answer</b></summary>
 
@@ -1835,7 +1823,9 @@ Please replace `table1` and `table2` with the actual names of your tables, and a
 
 ---
 
-56.    how do you delete duplicate record with no key or timestamp.
+56. How do you delete duplicate record with no key or timestamp.
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
     
 <details><summary>Answer</summary>
 
@@ -1882,9 +1872,11 @@ Note: This approach assumes that the combination of columns used for identifying
 
 ---
 
-57. Find the Max and Min amt in columns
+57. Write a query to find the Max and Min amount from a table.
 
-<details><summary><b>Show Answer</b></summary>
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b>Answer</b></summary>
 
 SQL Query to Find the Maximum and Minimum Amounts in a Column:
 
@@ -1902,8 +1894,10 @@ Please replace `your_table` with the actual name of your table.
 
 ---
 
-58.  get the amount for each month if each. 1 column for each 
-month the rest are null.
+58. How can you calculate the total amount for each month using the SQL CASE statement along with aggregation functions?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 
 <details><summary><b>Answer</b></summary>
 
@@ -1926,34 +1920,13 @@ This MySQL query uses the `SUM` function with conditional statements (`CASE WHEN
 
 ---
 
-59.  Find duplicates in a table using sql?
 
-<details><summary> <b>Show Answer</b> </summary>
-<blockquote>
+59. What is "Merge" in SQL ?
 
-- To find duplicates in a table using *SQL and PostgreSQL*, we can use the following query:
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-```sql
 
-SELECT column_name, COUNT(*) 
-FROM table_name
-GROUP BY column_name
-HAVING COUNT(*) > 1;
-```
-
-- Replace column_name with the name of the column you want to check for duplicates and table_name with the name of the table containing the column.
-
-- This query groups the rows in the table by the values in the specified column and returns only those groups that have a count greater than one. This means that only the rows that have duplicates in the specified column will be returned.
-
-</blockquote>
-
-</details>
-
----
-
-60. What is SQL command "Merge". 
-
-<details><summary><b>Show Answer</b></summary>
+<details><summary><b>Answer</b></summary>
 
 SQL Command "MERGE" (also known as UPSERT) is used to perform both INSERT and UPDATE operations on a target table based on a condition specified in the query. It combines the functionality of both INSERT and UPDATE statements into a single statement.
   
@@ -1982,10 +1955,15 @@ This way, the MERGE statement allows you to handle both INSERT and UPDATE operat
 
 </details>
 
+---
 
-61.  How do you get data from two separate tables in a single query?
 
-<details><summary> <b>Show Answer</b> </summary>
+60.  How do you get data from two separate tables using a single query?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
+<details><summary> <b> Answer</b> </summary>
 <blockquote>
 
 - To get data from two separate tables in a single query in *SQL and PostgreSQL*, you can use the JOIN clause.
@@ -2024,9 +2002,11 @@ This query will return the customer ID, first name, last name, order ID, and ord
 
 ---
 
-62. How do you create a sub-query in SQL and PostgreSQL?
+61. How do you create a sub-query in SQL and PostgreSQL?
 
-<details><summary> <b>Show Answer</b> </summary>
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>SQL</b> </summary>
 <blockquote>
 
 - To create a subquery in SQL and PostgreSQL, you can use a query nested inside another query. The result of the inner query is used as input to the outer query.
@@ -2041,6 +2021,9 @@ WHERE columnN IN (SELECT columnN FROM table2 WHERE condition);
 ```
 
 - In this example, the subquery is enclosed in parentheses and is executed first. The result of the subquery is then used in the outer query to filter the results.
+
+<details><summary>  <b> PostgreSQL </b> </summary>
+<blockquote>
 
 - Here's an example of a subquery in SQL and PostgreSQL that selects the names of customers who have placed an order:
 
@@ -2061,7 +2044,9 @@ WHERE customer_id IN (
 
 ---
 
-63. How to get all contacts associated with an account where the account name contains the word 'public' assuming tables 'accounts' and 'contacts' with a corresponding column named 'account_id' in the 'contacts' table?
+62. How to get all contacts associated with an account where the account name contains the word 'public' assuming tables 'accounts' and 'contacts' with a corresponding column named 'account_id' in the 'contacts' table?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
@@ -2085,12 +2070,14 @@ WHERE accounts.name LIKE '%public%';
 
 ---
 
-64. Write an Sql and PostgreSQL query to get the 3rd highest salaries of all 3 departments from a table with columns: department, employee, salary?
+63. Write an Sql query to retrieve the 3rd highest salaries of all 3 departments from a table with columns: department, employee, salary?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
 
-Here's a SQL and PostgreSQL query that retrieves the third highest salaries of each department from a table named employees with columns department, employee, and salary:
+Here's a SQL query that retrieves the third highest salaries of each department from a table named employees with columns department, employee, and salary:
 
 ```sql
 
@@ -2114,12 +2101,14 @@ In this query, the subquery `(SELECT MAX(salary) FROM employees)` retrieves the 
 
 ---
 
-65. Say I have a simple SQL query where I say ""SELECT column a, column b FROM table T ORDER BY 2"" Would this run?
+64. Explain the given query: "SELECT column a, column b FROM table T ORDER BY 2"
+
+![Simple](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
 
-Yes, the SQL query you provided will run assuming the following:
 
 - The table name 'table' exists in your database.
 - Column 'a' and 'b' exist in 'table'.
@@ -2132,9 +2121,12 @@ Yes, the SQL query you provided will run assuming the following:
 
 ---
 
-66. If there are two tables that are both employee tables,how would you return both tables?
+65. If there are two employee tables how do you return both tables?
 
-<details><summary> <b>Show Answer</b> </summary>
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b> SQL </b> </summary>
+
 <blockquote>
 
 - In both SQL and PostgreSQL, you can use the UNION operator to combine the results of two SELECT statements into a single result set. Here's an example of how to return both tables in SQL:
@@ -2145,6 +2137,8 @@ SELECT * FROM table1
 UNION
 SELECT * FROM table2;
 ```
+
+<details><summary> <b>PostgreSQL</b> </summary>
 
 - And here's an example of how to do it in PostgreSQL:
 
@@ -2163,7 +2157,9 @@ SELECT * FROM table2;
 
 ---
 
-67. Write a query to select an employment from a table and matching the employee's salary to the rank?
+66. Write a query to select an employee from a table whose salary matches the rank?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
@@ -2187,7 +2183,9 @@ WHERE e.employee_name = 'John Doe';
 
 ---
 
-68. Imagine you have some table (id name price). Write a query to get entity with the biggest price?
+67. Imagine you have a table with the column (id,name and price). Write a query to get entity with the biggest price?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
@@ -2209,7 +2207,9 @@ Note that you'll need to replace "table" in the query with the actual name of yo
 
 ---
 
-69. How would you do a SQL call for employees with a salary over 150K?
+68. How would you do a SQL call for employees with a salary over 150K?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
@@ -2231,9 +2231,12 @@ Note that you'll need to replace "employees" and "salary" with the actual names 
 
 ---
 
-70. Write a query to get just a last name from the name field and display that. Is there another way that isn't the MINUS function? 
+69. Write a query to get just a last name from the name field without using MINUS function? 
 
-<details><summary> <b>Show Answer</b> </summary>
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
+<details><summary> <b> SQL </b> </summary>
 <blockquote>
 
 We can extract just the last name from the "name" field in SQL and PostgreSQL using string manipulation functions:
@@ -2245,7 +2248,7 @@ SELECT SUBSTRING(name, CHARINDEX(' ', name) + 1) AS last_name FROM table;
 
 This query uses the CHARINDEX function to find the position of the first space character in the "name" field, and then uses the SUBSTRING function to extract the substring starting from the position of the space character + 1 (which is the first character of the last name).
 
-*PostgreSQL*:
+<details><summary> <b> PostgreSQL </b> </summary>
 
 ```sql
 
@@ -2259,7 +2262,9 @@ This query uses the SPLIT_PART function to split the "name" field into two parts
 
 ---
 
-71. How to delete a single record?
+70. How do you delete a single record from a table?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
@@ -2278,9 +2283,11 @@ This query deletes the record from the "table" where the "id" column has a value
 
 ---
 
-72. How would you account for having multiple showings of the same movie at the same time? 
+71. How would you account having multiple shows of the same movie at the same time? 
 
-<details><summary> <b>Show Answer</b> </summary>
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Answer</b> </summary>
 <blockquote>
 
 - If you have multiple showings of the same movie at the same time, you can account for it in your *SQL and PostgreSQL* database by adding a unique identifier for each showing. One way to do this is to create a composite primary key for the showings table that includes both the movie ID and the showing time.
@@ -2307,7 +2314,9 @@ CREATE TABLE showings (
 
 ---
 
-73. Given two tables create a SQL query to find the sums of department spending?
+72. Consider you are given with two tables "departments" and "expenses". Write a SQL query to find the sums of department spending?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
@@ -2331,7 +2340,9 @@ GROUP BY departments.department_name;
 
 ---
 
-74. Show us how you'd write CREATE TABLE statements to set up SQL tables to store the street addresses of multiple people (there can be multiple people at the same address). Write a query to select all people living in a specific city from the tables you created
+73. Show us how you'd  CREATE TABLE statements to set up SQL tables to store the street addresses of multiple people (there can be multiple people at the same address). Write a query to select all people living in a specific city from the tables you created
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
@@ -2376,26 +2387,10 @@ WHERE addresses.city = 'New York';
 
 ---
 
-75. How do you select everything in a table in SQL?
 
-<details><summary> <b>Show Answer</b> </summary>
-<blockquote>
+74. If T1 has 1 Column named *ID* and 2 Rows: (1;1) and T2 has 1 Column named *ID* and 2 Rows: (1;1), How many rows would SELECT T1.ID, T2.ID FROM T1 INNER JOIN T2 ON T1.ID = T2.ID return?
 
-In both *SQL and PostgreSQL*
-
-```SQL
-
-Select * from table_name;
-
-```
-
-</blockquote>
-
-</details>
-
----
-
-. If T1 has 1 Column named *ID* and 2 Rows: (1;1) and T2 has 1 Column named *ID* and 2 Rows: (1;1), How many rows would SELECT T1.ID, T2.ID FROM T1 INNER JOIN T2 ON T1.ID = T2.ID return?
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
@@ -2408,30 +2403,10 @@ The query SELECT T1.ID, T2.ID FROM T1 INNER JOIN T2 ON T1.ID = T2.ID would retur
 
 ---
 
-76. I have a table with 10 rows and 2 duplicates.  How do I find the duplicate rows?
 
-<details><summary> <b>Show Answer</b> </summary>
-<blockquote>
+75. How do you create a new Table from another Table, where just the structure of the table is copied but none of the rows?  
 
-- To find the duplicate rows in a table in SQL and PostgreSQL, you can use the following query:
-
-```sql
-
-SELECT column1, column2, COUNT(*) as count
-FROM table_name
-GROUP BY column1, column2
-HAVING COUNT(*) > 1;
-```
-
-- Replace table_name with the name of the table you want to search for duplicates, and column1 and column2 with the names of the columns you want to check for duplicates.
-
-</blockquote>
-
-</details>
-
----
-
-77. Can you tell me how to create a new Table from another Table, where just the structure of the table is copied but none of the rows?  
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
@@ -2456,7 +2431,9 @@ WHERE 1 = 2;
 
 ---
 
-78. How to count the number of s's in the string Infosys in SQL?
+76. How to count the number of "s" in the string Infosys in SQL?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>Show Answer</b> </summary>
 <blockquote>
@@ -2483,7 +2460,9 @@ SELECT LENGTH('Infosys') - LENGTH(REPLACE('Infosys', 's', '')) AS num_of_s;
 
 ---
 
-79. Do you know anything about Query optimization or Performance Tuning?
+77. Do you know anything about Query optimization or Performance Tuning?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
 <details><summary> <b>Show Answer</b> </summary>
