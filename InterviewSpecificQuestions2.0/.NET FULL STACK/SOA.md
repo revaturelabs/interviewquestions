@@ -113,3 +113,115 @@ It is an autonomous, reusable, discoverable, stateless functionality that has th
 
 </details>
 
+---
+
+7. What is the difference between Monolithic, SOA and Micro services Architecture?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+
+Monolithic Architecture is similar to a big container wherein all the software components of an application are assembled together and tightly packaged.
+
+A Service-Oriented Architecture is a collection of services which communicate with each other. The communication can involve either simple data passing or it could involve two or more services coordinating some activity.
+
+Microservice Architecture is an architectural style that structures an application as a collection of small autonomous services, modeled around a business domain.
+  
+</blockquote>
+
+</details>
+
+---
+
+8. What is WSDL File?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+  
+WSDL stands for Web Services Description Language. It is the standard format for describing a web service. WSDL was developed jointly by Microsoft and IBM.
+
+Features of WSDL
+WSDL is an XML-based protocol for information exchange in decentralized and distributed environments.
+
+WSDL definitions describe how to access a web service and what operations it will perform.
+
+WSDL is a language for describing how to interface with XML-based services.
+
+WSDL is an integral part of Universal Description, Discovery, and Integration (UDDI), an XML-based worldwide business registry.
+
+WSDL is the language that UDDI uses.
+
+WSDL is pronounced as 'wiz-dull' and spelled out as 'W-S-D-L'.  
+</blockquote>
+
+</details>
+
+---
+
+9. Explain SOAP Message Structure ?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+  
+A SOAP message is an ordinary XML document containing the following elements −
+
+Envelope − Defines the start and the end of the message. It is a mandatory element.
+
+Header − Contains any optional attributes of the message used in processing the message, either at an intermediary point or at the ultimate end-point. It is an optional element.
+
+Body − Contains the XML data comprising the message being sent. It is a mandatory element.
+
+Fault − An optional Fault element that provides information about errors that occur while processing the message. 
+  
+<?xml version = "1.0"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV = "http://www.w3.org/2001/12/soap-envelope" 
+   SOAP-ENV:encodingStyle = "http://www.w3.org/2001/12/soap-encoding">
+
+   <SOAP-ENV:Header>
+      ...
+      ...
+   </SOAP-ENV:Header>
+   <SOAP-ENV:Body>
+      ...
+      ...
+      <SOAP-ENV:Fault>
+         ...
+         ...
+      </SOAP-ENV:Fault>
+      ...
+   </SOAP-ENV:Body>
+</SOAP_ENV:Envelope>
+  
+</blockquote>
+
+</details>
+
+---
+
+10. What’s the difference between services and components?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+  
+Services are logical grouping of components to achieve a business functionality. Components are implementation approaches to make a service. The components can be in Java, C#, C++ but the services will be exposed in a general format like Web Services.  
+  
+</blockquote>
+
+</details>
+
+---
+
+
+
+
