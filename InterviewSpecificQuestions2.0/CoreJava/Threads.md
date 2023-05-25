@@ -2,6 +2,7 @@
 
 1. What are Threads?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -17,6 +18,7 @@ A process is a program in execution. A thread is a subset of a process.
 
 2. How do you make a thread in java? or how do you create thread?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -36,6 +38,7 @@ In Java, we can create a thread using
 
 3. What is the life cycle of a thread?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
 <details>
   <summary> <b>Show Answer</b></summary>
@@ -58,6 +61,7 @@ At any given time, a thread can be in one of these states:
 
 4.How can we differentiate `notify()` and `notifyAll()` methods ?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
 <details><summary><b> Show Answer</b></summary>
 
@@ -76,7 +80,8 @@ At any given time, a thread can be in one of these states:
 
 5. Explain synchronization process? Why we use it?
 
- 
+ ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
 
 <blockquote>
@@ -90,6 +95,7 @@ Synchronization in java is the capability to control the access of multiple thre
 
 6. Explain thread starvation?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
 <details><summary><b> Show Answer</b></summary>
 
@@ -105,7 +111,8 @@ Thread starvation is basically a situation or condition where a thread won’t b
 
 7. Can you start a thread twice?
 
- 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
 
 <blockquote>
@@ -119,6 +126,8 @@ No, it's not at all possible to restart a thread once a thread gets started and 
 ---
 
 8. What is a deadlock?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -134,6 +143,8 @@ A deadlock condition occurs when two or more threads are blocking the resources 
 
 9. What are the types of threads?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
 
 <blockquote>
@@ -144,7 +155,11 @@ There are two types of threads: daemon threads and user threads. User threads ar
 
 </details>
 
+---
+
 10. How do you do multi-threading?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -159,6 +174,8 @@ Multithreading in java allows a program to perform multiple tasks concurrently, 
 ---
 
 11. If you are approaching a situation where you are running out of memory what should you do? (thread dump)
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -176,6 +193,8 @@ If you are running out of memory in a Java application, there are several steps 
 
 12. What is concurrency in Multithreading?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
 
 <blockquote>
@@ -188,7 +207,9 @@ Concurrency in multithreading refers to the ability of multiple threads to run s
 
 ---
 
-13. Can you list out the thread methods?
+13. List the thread methods.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -215,6 +236,8 @@ Sure, here are some of the commonly used methods in the Thread class:
 
 14. Is Java a single threaded or multi threaded programming language?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
 
 <blockquote>
@@ -228,6 +251,8 @@ Java supports both single-threaded and multi-threaded programming. It allows pro
 ---
 
 15. How would you make three threads execute at the same time?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -281,6 +306,8 @@ public class ThreeThreadsExample {
 
 16. What is multithreading and multiprocessing?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
 
 <blockquote>
@@ -293,7 +320,9 @@ In Java, multithreading is the ability to execute multiple threads within the sa
 
 ---
 
-17. Can you tell us the pros/cons of multithreading?
+17. List the pros/cons of multithreading?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -318,6 +347,8 @@ In Java, multithreading is the ability to execute multiple threads within the sa
 ---
 
 18. Do you know how to initialize a thread in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -362,7 +393,9 @@ Both methods are valid ways to create and initialize a thread in Java, and which
 
 ---
 
-19. What does the keyword synchronize mean in Java?
+19. What is the purpose of synchronized keyword in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -396,7 +429,9 @@ public class Counter {
 
 ---
 
-20. Do you know anything about Synchronized list in Java?
+20. What is a Synchronized list in Java?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -424,7 +459,9 @@ synchronized (synchronizedList) {
 
 ---
 
-21. How do you implement runnable in java? short answer
+21. How do you implement runnable in java? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary><b> Show Answer</b></summary>
 
@@ -466,6 +503,8 @@ thread.start();
 
 22. How can you make a singleton thread-safe in Java?
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
 
 <blockquote>
@@ -497,6 +536,329 @@ public class MySingleton {
 
 </blockquote>
 
+</details>
+
+---
+
+23. What is the difference between extending the Thread class and implementing the Runnable interface to create a thread?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+When extending the `Thread` class, the class cannot extend any other class as Java doesn't support multiple inheritance. On the other hand, implementing the `Runnable` interface allows the class to extend other classes or implement other interfaces.
+
+</blockquote>
+</details>
+
+---
+
+24. How do you start a thread in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+To start a thread, you need to call the `start()` method on the instance of the thread. This method internally calls the `run()` method of the thread, which contains the code to be executed concurrently.
+
+</blockquote>
+</details>
+
+---
+
+25. What is the difference between `start()` and `run()` methods in Java threads?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The `start()` method is used to start a new thread of execution and allows the thread scheduler to schedule the thread for execution. The `run()` method contains the actual code that will be executed by the thread, but calling it directly won't create a new thread. It will run the code on the calling thread instead.
+
+</blockquote>
+</details>
+
+---
+
+26. What is the purpose of the `join()` method in Java threads?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The join() method is used to wait for a thread to complete its execution before moving on to the next steps in the program. It allows one thread to wait for the completion of another thread.
+
+</blockquote>
+</details>
+
+---
+
+27. What are daemon threads in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Daemon threads are low-priority threads that run in the background and provide services to other threads. They don't prevent the JVM from exiting if all other non-daemon threads have finished execution.
+
+</blockquote>
+</details>
+
+---
+
+28. What is thread safety in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Thread safety refers to the ability of a program or code to function correctly and produce expected results when multiple threads are executing concurrently. Thread-safe code avoids race conditions and ensures proper synchronization to handle shared resources correctly.
+
+</blockquote>
+</details>
+
+---
+
+29. What is the difference between a thread and a process in Java?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+In Java, a thread is a lightweight unit of execution within a process, while a process is an independent instance of a running program. Multiple threads can exist within a single process and share the same memory space, while each process has its own memory space.
+
+</blockquote>
+</details>
+
+---
+
+30. What is the concept of thread pooling in Java?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Thread pooling is a technique where a group of pre-initialized threads is kept in a pool and used to execute tasks. Instead of creating a new thread for each task, the thread pool assigns an available thread from the pool, which improves performance by reducing the overhead of thread creation.
+
+</blockquote>
+</details>
+
+---
+
+31. What are the ThreadLocal variables in Java threads?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+ThreadLocal variables in Java are variables that are local to each thread. Each thread has its own separate copy of the ThreadLocal variable, and changes made by one thread do not affect the values seen by other threads. ThreadLocal variables are typically used to store thread-specific data.
+
+</blockquote>
+</details>
+
+---
+
+32. What is the purpose of the sleep() method in Java threads?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The sleep() method is used to pause the execution of a thread for a specified period of time. It allows other threads to execute while the current thread is dormant. It is commonly used for time-based operations, delays, or periodic tasks.
+
+</blockquote>
+</details>
+
+---
+
+33. How deadlock can be prevented?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Deadlock occurs when two or more threads are blocked forever, waiting for each other to release resources. Deadlocks can be prevented by employing techniques such as avoiding circular dependencies, using a proper locking order for resources, and employing timeouts and deadlock detection algorithms.
+
+</blockquote>
+</details>
+
+---
+
+34. Explain the concept of thread interruption in Java.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Thread interruption is a way to request the termination of a thread in a cooperative manner. It involves setting the interrupted flag on the target thread, which can be checked periodically by the thread to determine whether it should terminate gracefully. Thread interruption is often used to implement cancellation or termination mechanisms.
+
+</blockquote>
+</details>
+
+---
+
+35. How does the ExecutorService framework work in Java threads?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The `ExecutorService` framework in Java provides a higher-level interface for managing and executing threads. It abstracts the complexity of thread creation, management, and pooling.
+
+With `ExecutorService`, you create an instance of an executor, such as `ThreadPoolExecutor` or `ScheduledThreadPoolExecutor`. You can submit tasks to the executor using the `submit()` method, which returns a `Future` representing the result of the task.
+
+The executor manages a pool of worker threads and assigns tasks to them. It automatically handles thread creation, reuse, and termination based on the specified configuration. This eliminates the need to manually create and manage threads.
+
+Additionally, `ExecutorService` provides methods to control the execution flow, such as shutting down the executor gracefully and waiting for all submitted tasks to complete.
+
+Overall, the `ExecutorService` framework simplifies the management of threads and provides efficient thread pooling and task execution capabilities.
+
+</blockquote>
+</details>
+
+---
+
+36.  What is a thread dump in Java?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+A thread dump is a snapshot of the current state of all threads running in a Java application. It provides information about each thread's status, stack traces, and held locks. Thread dumps are useful for diagnosing performance issues, deadlocks, or identifying threads that are consuming excessive CPU time.
+
+</blockquote>
+</details>
+
+---
+
+37. What are the advantages and disadvantages of using thread pools in Java?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Advantages of using thread pools include efficient management of thread resources, reduced overhead of thread creation, and better control over thread execution. However, the disadvantage is that thread pools may introduce additional complexity, especially when dealing with long-running or blocking tasks that could potentially lead to thread starvation.
+
+</blockquote>
+</details>
+
+---
+
+38. How does the `java.util.concurrent.locks` package differ from the `synchronized` keyword in Java?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The `java.util.concurrent.locks` package provides more fine-grained control over locking mechanisms compared to the `synchronized` keyword. It offers features like explicit lock acquisition and release, support for different lock types (e.g., `ReentrantLock`, `ReadWriteLock`), and advanced functionalities like condition variables and atomic operations.
+
+</blockquote>
+</details>
+
+---
+
+39. What are the Java Memory Model (JMM) and its role in multi-threading?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+The Java Memory Model (JMM) defines the rules and guarantees for how threads interact with memory during concurrent execution. It ensures that changes made by one thread are visible to other threads in a predictable manner. JMM provides concepts like happens-before relationships, volatile variables, and atomic operations to ensure thread safety and prevent data inconsistencies.
+
+</blockquote>
+</details>
+
+---
+
+40. Explain the concept of atomicity in Java threads.
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Atomicity refers to the property of an operation being executed as a single, indivisible unit. In Java, the `java.util.concurrent.atomic` package provides classes such as `AtomicInteger`, `AtomicLong`, etc., which allow atomic operations without requiring explicit locking. Atomic operations are thread-safe and guarantee that no other thread can interfere during their execution.
+
+</blockquote>
+</details>
+
+---
+
+41. What are concurrent collections in Java and when are they useful?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Concurrent collections are thread-safe versions of the standard Java collections, designed to handle concurrent access by multiple threads without external synchronization. Classes like `ConcurrentHashMap`, `ConcurrentLinkedQueue`, and `CopyOnWriteArrayList` are examples of concurrent collections. They are useful when multiple threads need to access or modify collections concurrently.
+
+</blockquote>
+</details>
+
+---
+
+42. What is thread-local memory and when should it be used?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Thread-local memory refers to memory that is local to each thread, allowing the storage of thread-specific data. The `ThreadLocal` class in Java provides a container for thread-local variables. Thread-local variables are useful when different threads require independent copies of data, eliminating the need for synchronization and avoiding potential thread interference.
+
+</blockquote>
+</details>
+
+---
+
+43. How does Java handle thread synchronization and memory visibility on different platforms?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+
+Java provides a memory model that ensures thread synchronization and memory visibility on all platforms. While the implementation may vary, the Java Virtual Machine (JVM) ensures that the memory model rules defined by the Java Language Specification (JLS) are followed, regardless of the underlying hardware or operating system.
+
+</blockquote>
 </details>
 
 ---
