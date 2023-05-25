@@ -16,7 +16,7 @@ SOA is an architecture for building applications using reusable, interoperable s
 
 ---
 
-2. What are ends, contracts, addresses, and bindings?
+2. What are endpoints ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -26,7 +26,7 @@ SOA is an architecture for building applications using reusable, interoperable s
 
 - The service can be made available to clients from different ends. All these services must be exposed through one of these ends.
 
-The end will consist of the following:
+The endpoints will consist of the following:
 
 - **Contract**: It is an agreement that is agreed upon between two parties. It defines how clients are expected to communicate. It specifies the different parameters and returns values that are to be used.
 - **Address**: This specifies where a user can find a service. There is an address URL that points to the location of services.
