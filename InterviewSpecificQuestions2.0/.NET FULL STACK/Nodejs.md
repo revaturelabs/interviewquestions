@@ -449,7 +449,7 @@ console.log(myURL1.href)
 ---
 
 
-22. What are Promises in Node.js? 
+23. What are Promises in Node.js? 
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -470,7 +470,7 @@ The rejected state of a promise represents a failed operation.
 
 ---
 
-23. What is piping in Node.js?
+24. What is piping in Node.js?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -487,7 +487,7 @@ Piping in Node.js is the mechanism that connects the output of one stream to ano
 
 ---	
 
-24. What is middleware?
+25. What is middleware?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -508,7 +508,7 @@ It can invoke the next middleware function in the stack.
 
 ---	
 
-25. How can you avoid callbacks?
+26. How can you avoid callbacks?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -528,7 +528,7 @@ You can use yield with Generators and Promises.
 
 ---	
 
-25. Explain the tasks of terms used in Node REPL.
+27. Explain the tasks of terms used in Node REPL.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -552,7 +552,7 @@ Loop: It loops the above command until user press ctrl-c twice to terminate.
 
 ---	
 
-26. What is the use of the underscore variable in REPL?
+28. What is the use of the underscore variable in REPL?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -571,7 +571,7 @@ undefined
 
 ---	
 
-27. Mention the components of NPM ?
+29. Mention the components of NPM ?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -591,7 +591,7 @@ registry – large public database of javascript software and meta-information s
 
 ---
 
-28. How do you delete the file in Node js?
+30. How do you delete the file in Node js?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -618,7 +618,7 @@ console.log("File deleted successfully")
 
 ---
 
-29. How do you truncate the file in Node js?
+31. How do you truncate the file in Node js?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -638,7 +638,7 @@ iclose the file using fs.close method
 </details>
 
 ---
-30. Describe the exit codes of Node.js.
+32. Describe the exit codes of Node.js.
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -660,7 +660,7 @@ Internal JavaScript Evaluation Failure
 
 ---
 
-31. Explain the concept of stub in Node.js.
+33. Explain the concept of stub in Node.js.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -676,7 +676,7 @@ In Node.js, stubs are basically the programs or functions that are used for stim
 
 ---
 
-32. List down the major security implementations within Node.js?
+34. List down the major security implementations within Node.js?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
