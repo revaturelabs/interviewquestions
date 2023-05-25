@@ -394,3 +394,290 @@ HATEOAS stand for Hypermedia as The Engine of the Application State. It provides
 </details>
 
 ---
+    
+21. Differentiate between SOAP and REST?
+    
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+    
+SOAP: 	
+Simple Object Access Protocol 
+SOAP is a protocol used to implement web services.   
+SOAP supports only XML transmission between the client and the server.  
+SOAP uses service interfaces for exposing the resource logic.
+    
+REST: 
+Representational State Transfer
+REST is an architectural design pattern for developing web services
+REST supports data of multiple formats like XML, JSON, MIME, Text, etc.
+REST uses URI to expose the resource logic.
+    
+</blockquote>
+
+</details>
+
+---
+    
+22. What are Idempotent methods? How is it relevant in RESTful web services domain?
+    
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+    
+Idempotent methods ensure that the responses to a request if called once or ten times or more than that remain the same. This is equivalent to adding any number with 0.
+REST provides idempotent methods automatically. GET, PUT, DELETE, HEAD, OPTIONS, and TRACE are the idempotent HTTP methods. POST is not idempotent.
+    
+</blockquote>
+
+</details>
+
+---
+    
+23.What are the differences between PUT and POST in REST?
+    
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+    
+PUT methods are used to request the server to store the enclosed entity in request. In case, the request does not exist, then new resource has to be created. If the resource exists, then the resource should get updated.
+    
+POST method is used to request the server to store the enclosed entity in the request as a new resource.
+    
+</blockquote>
+
+</details>
+
+---
+    
+24.What is different between REST API and RESTful API?
+    
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>
+ 
+ REST is an architectural pattern used for creating web services.The data format of REST is based on HTTP.
+ RESTful API is used to implement that pattern. The data format of RESTful is based on JSON, HTTP, and Text.  
+    
+</blockquote>
+
+</details>
+
+---
+    
+25.Explain media type formatters.
+    
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+In web API, media type formatters are classes that are responsible for serialization data. Here, serialization generally means a process of translating data into a format that can be transmitted and reconstructed later.  Because of serializing request/response data, Web API can understand request data format in a better way and send data in a format that the client expects. It simply specifies data that is being transferred among client and server in HTTP response or request.     
+    
+Media Type Formatter Class :
+    
+JsonMediaTypeFormatter
+XmlMediaTypeFormatter
+FormUrlEncodedMediaTypeFormatter	
+JQueryMvcFormUrlEncodedFormatter
+    
+</blockquote>
+
+</details>
+
+---  
+    
+26.What are Web API filters?
+    
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Filters are basically used to add extra logic at different levels of Web API framework request processing.  Different types of Web API filters are available as given below:
+
+Authentication Filter: It handles authentication and authenticates HTTP requests. It also helps to authenticate user detail. It checks the identity of the user.
+Authorization Filter: It handles authorization. It runs before controller action. This filter is used to check whether or not a user is authenticated. If the user is not authenticated, then it returns an HTTP status code 401 without invoking the action.
+AuthorizeAttribute is a built-in authorization filter provided by Web API.
+Action Filter: It is attributing that one can apply to controller action or entire controller. It is used to add extra logic before or after controller action executes. It is simply a way to add extra functionality to Web API services.
+Exception Filter: It is used to handle exceptions that are unhandled in Web API. It is used whenever controller actions throw an unhandled exception that is not HttpResponseException. It will implement an “IExceptionFilter” interface.
+Override Filter: It is used to exclude specific action methods or controllers from the global filter or controller level filter. It is simply used to modify the behavior of other filters for individual action methods. 
+    
+</blockquote>
+
+</details>
+
+---  
+    
+27.Who can consume Web API?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>  
+    
+ A large range of clients such as browsers, mobile devices, iPhone, etc., include or consume web API. It is also good for using along native applications that require web services but not SOAP support. It can also be consumed by any client that supports HTTP verbs such as GET, DELETE, POST, PUT.
+    
+</blockquote>
+
+</details>
+
+---  
+    
+28.How to register an exception filter globally?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+    
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>  
+    
+One can register exception filter globally using following code:
+GlobalConfiguration.Configuration.Filters.Add (new MyTestCustomerStore.NotImplExceptionFilterAttribute());   
+    
+</blockquote>
+
+</details>
+
+---  
+    
+29.What are the main return types supported in ASP. Net Web API?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+    
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+It supports the following return types:
+
+HttpResponseMessage
+IHttpActionResult
+Void
+Other types such as string, int, etc.  
+    
+</blockquote>
+
+</details>
+
+---   
+    
+30.What is ASP.NET Web API routing?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+    
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+Routing is the most important part of ASP.NET Web API. Routing is a way how Web API matches a URI to an action. It is basically a process that decides which action and controller should be called. The controller is basically a class that handles all HTTP requests. All public methods of controllers are basically known as action methods or just actions. Whenever a Web API framework receives any type of request, it routes that request to action. 
+
+There are basically two ways to implement routing in Web API as given below:
+Convention-based routing: Web API supports convention-based routing. In this type of routing, Web API uses route templates to select which controller and action method to execute. 
+
+Attribute-based routing: Web API 2 generally supports a new type of routing known as attribute routing. As the name suggests, it uses attributes to define routes. It is the ability to add routes to the route table via attributes. 
+
+    
+</blockquote>
+
+</details>
+
+---  
+    
+31.What is HttpConfiguration in Web API?
+    
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+    
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+ It is considered as the main class that includes different properties with help of which one can override the default behavior of Web API. 
+
+Some properties are given below:
+
+DependencyResolver: It sets or gets a dependency resolver for dependency injection.
+Services: It gets web API services.
+ParameterBindingRules: It gets a collection of rules for how parameters should be bound.
+MessageHandlers:  It sets or gets message handlers.
+Formatters: It sets or gets media-type formatters.   
+</blockquote>
+
+</details>
+
+---
+    
+32.Can we return View from ASP.NET Web API method?
+    
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+    
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+ 
+No, we cannot return the view from the ASP.NET Web API method. ASP.NET web API develops HTTP services that provide raw data or information. ApiController in ASP.NET MVC application only renders data that is serialized and sent to the client. One can use a controller to provide normal views.
+    
+</blockquote>
+
+</details>
+
+---
+    
+33.What is content negotiation in ASP.Net Web API?
+    
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+    
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+Content negotiation is basically a process of selecting the best representation from multiple representations that are available for a given response. It simply allows one to choose rather than negotiate content that one wants to get in response. It is performed at the server-side. In simple words, it chooses the best media type for matters to return a response to an incoming request. 
+    
+</blockquote>
+
+</details>
+
+---
+   
+ 34.What is CORS in Web API?
+    
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+    
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+ORS (Cross-Origin Resource Sharing) is basically a mechanism that allows one to make requests from one website to another website in a browser that is normally not allowed by another policy called SOP (Same Origin Policy). It supports secure cross-origin requests and data transfers among clients or browsers and servers. Here, cross-origin request means requests coming from different origins. CORS simply resolves the same-origin restriction for JavaScript. One can enable CORS for web API using the respective web API package or OWIN middleware. 
+    
+</blockquote>
+
+</details>
+
+---
+    
+35.Explain method to handle error using HttpError in Web API?
+    
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+    
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+CreateErrorResponse is an extension method that can be used in Web API controller methods to return error codes and error messages. It creates an HttpError object and then wraps it inside an HttpResponseMessage object.    
+    
+</blockquote>
+
+</details>
+
+---
