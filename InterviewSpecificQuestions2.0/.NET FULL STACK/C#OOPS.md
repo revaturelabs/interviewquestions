@@ -848,7 +848,7 @@ This is the most common way to implement the members of an interface. In this on
     
 ---
     
-42.Define the meaning of Explicit Interface Implementation.
+43.Define the meaning of Explicit Interface Implementation.
     
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -864,7 +864,7 @@ It is known as another way of implementing the members of an interface. In this 
     
 ---
     
-43.Is it possible to serialize Hashtable?
+44.Is it possible to serialize Hashtable?
     
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -880,7 +880,7 @@ No, it’s impossible to serialize Hashtable because the .Net Framework restrict
     
 ---
     
-44.Can we restrict object creation in C#?
+45.Can we restrict object creation in C#?
     
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -898,7 +898,7 @@ Abstract Class, Static Class, Private or Protected Constructor.
     
 ---
 
-45.Is it possible to change access specifier of members of the interface.
+46.Is it possible to change access specifier of members of the interface.
     
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -915,7 +915,7 @@ If you want to change access specifier of members may you have to go for an abst
     
 ---  
     
-46.Why object of the abstract class can’t be instantiate ?
+47.Why object of the abstract class can’t be instantiate ?
     
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -932,7 +932,7 @@ An abstract type is defined largely as one that can't be created. You can create
     
 ---  
     
-47.What will be the result of execution of the following code?
+48.What will be the result of execution of the following code?
     
     class Program
     {
@@ -987,7 +987,7 @@ A
     
 ---  
     
-48.Can pointers be used in C# as in C++?
+49.Can pointers be used in C# as in C++?
     
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -1010,7 +1010,7 @@ Do not forget to specify ‘Allow unsafe code’ in the project properties.
     
 ---    
     
-49.What will be outputted?
+50.What will be outputted?
 
     string hello = "hello";
         string helloWorld = "hello world";
@@ -1036,7 +1036,7 @@ Do not forget to specify ‘Allow unsafe code’ in the project properties.
     
 ---     
     
-50.In C#, how can you prevent a class from being inherited further while still allowing instantiation? Also, explain how this affects the overall design and extensibility of a class hierarchy.
+51.In C#, how can you prevent a class from being inherited further while still allowing instantiation? Also, explain how this affects the overall design and extensibility of a class hierarchy.
     
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -1052,7 +1052,7 @@ Do not forget to specify ‘Allow unsafe code’ in the project properties.
     
 ---    
     
-51.Does Enum Supports Inheritance ?
+52.Does Enum Supports Inheritance ?
     
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1068,7 +1068,7 @@ Do not forget to specify ‘Allow unsafe code’ in the project properties.
     
 ---   
     
-52.Explain the concept of dependency inversion in C#, and how it contributes to creating flexible and maintainable code in OOP. Provide a real-world example to support your explanation.
+53.Explain the concept of dependency inversion in C#, and how it contributes to creating flexible and maintainable code in OOP. Provide a real-world example to support your explanation.
     
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -1090,7 +1090,7 @@ Testability: When classes depend on abstractions, it becomes easier to write uni
     
 --- 
     
-53.How can you achieve encapsulation in C# without using access modifiers like private, protected, or internal? Are there any alternative techniques or patterns to achieve this?
+54.How can you achieve encapsulation in C# without using access modifiers like private, protected, or internal? Are there any alternative techniques or patterns to achieve this?
     
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -1114,7 +1114,7 @@ Use the Facade pattern: The Facade pattern provides a simplified interface to a 
     
 --- 
     
-54.In C#, how can you achieve immutability in a class, and what are the advantages and disadvantages of using immutable objects in an application?
+55.In C#, how can you achieve immutability in a class, and what are the advantages and disadvantages of using immutable objects in an application?
     
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -1146,7 +1146,7 @@ In this example, the ImmutablePerson class has two read-only properties, FirstNa
     
  --- 
     
- 55.What is the purpose of the IDisposable interface in C# OOP, and how does it relate to the proper management of resources within an application? Provide a practical example of its usage.
+ 56.What is the purpose of the IDisposable interface in C# OOP, and how does it relate to the proper management of resources within an application? Provide a practical example of its usage.
     
  ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
