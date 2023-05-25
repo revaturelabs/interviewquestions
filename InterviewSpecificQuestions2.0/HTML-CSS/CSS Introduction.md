@@ -21,14 +21,14 @@ CSS is a styling language that makes HTML web pages more presentable. It allows 
 
 - Using the inline style attribute on an element
 
-``` CSS
+```html
 <div>
     <p style="color: maroon;"></p>
 </div>
 ```
 - Using a `<style>` block in the `<head>` section of your HTML
 
-```CSS
+```html
 <head>
     <title>CSS Refresher</title>
     <style>
@@ -42,7 +42,7 @@ CSS is a styling language that makes HTML web pages more presentable. It allows 
 
 - Loading an external CSS file using the `<link>` tag
 
-```CSS
+```html
 <head>
     <title>CSS Refresher</title>
     <link rel="stylesheet" href="/css/styles.css" />
@@ -55,7 +55,7 @@ CSS is a styling language that makes HTML web pages more presentable. It allows 
 
 ---
 
-3. Can you tell me briefly about  CSS “box model” and the layout components that it consists of?
+3. Explian CSS “box model” and the layout components that it consists of?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -150,7 +150,7 @@ When a browser displays a document, it must combine the document's content with 
 
 ---
   
-8. Describe floats and how they work
+8. Describe floats and how they work.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -293,7 +293,7 @@ background-color: coral;
 
 **Grid and flexbox**. The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.
 
-```CSS
+```html
 <div class="wrapper">
   <div>One</div>
   <div>Two</div>
@@ -301,7 +301,8 @@ background-color: coral;
   <div>Four</div>
   <div>Five</div>
 </div>
-
+```
+```css
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -455,7 +456,7 @@ yes, overflow property deals with the content if content size exceeds the alloca
 
 **Example**
 
-```CSS
+```html
 <style>
    .divContainer{
       height: 100px;
@@ -513,7 +514,7 @@ CSS filter allows us to render DOM element, image, or video. We can choose from:
 
 ---
 
-25. What do you know about transition?
+25. What is transition?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -855,18 +856,18 @@ The `calc()` function can be used to perform addition, subtraction, multiplicati
 
 ---
 
-38. Can you add 3D transformations to our project using CSS?
+38. How can we do 3D transformations using CSS?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-Yes, 3D transformations can be used to change elements. The elements in 3D transformation are rotated along the X, Y, and Z axes.
+3D transformations can be used to change elements. The elements in 3D transformation are rotated along the X, Y, and Z axes.
 
 There are three main transformation types that are mentioned below:
 
-   -  rotateX()
+   - rotateX()
    - rotateY()
    - rotateZ()
 
@@ -891,7 +892,7 @@ Responsive Design is a method of creating web pages that makes use of adaptable 
 
 40. How does the Z index function?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -905,7 +906,7 @@ Sometimes, while positioning the elements of HTML using CSS, overlapping may occ
 
 41. Define Image sprites with context to CSS?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
@@ -931,5 +932,45 @@ HTML lacks styling even though HTML has an easy structure method. Styling Sheets
 
 ---
 
+43. How do you center an element horizontally and vertically in CSS?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+To center an element horizontally, you can set the left and right margins to "auto" and give the element a specified width. To center vertically, you can use the CSS flexbox or CSS grid properties.
+
+</blockquote>
+</details>
+
+---
+
+44. What is the difference between padding and margin?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+- Padding is the space between the content of an element and its border.
+- Margin is the space between an element's border and the neighboring elements.
+
+</blockquote>
+</details>
+
+---
+
+45. How do you override CSS styles?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+CSS follows a cascading order, where styles applied later can override previous styles. To override a style, you can use a more specific selector, use the "!important" keyword, or modify the order in which stylesheets are linked.
+
+</blockquote>
+</details>
+
+---
