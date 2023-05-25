@@ -63,7 +63,9 @@ When we run `ng g c server` in the terminal, CLI creates a component and registe
 ---
   
 5. Angular Components Lifecycle or Lifecycle Hooks or LifeCycle Methods
-  
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details>
 <summary> <b>Show Answer</b></summary>
   
@@ -167,7 +169,7 @@ export class AppModule { }
 	
 ---
 
-10. I have to create the component `user` as a parent. Then, I want to 2 child components for the `user` component. Let's say 2 child components are `user-login` and `user-register`. What are the steps I needed to do?
+10. I have to create the component `user` as a parent. Then, I want to add 2 child components for the `user` component. Let's say 2 child components are `user-login` and `user-register`. What are the steps I needed to do?
 	
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -332,7 +334,7 @@ When you generate an Angular application with the Angular CLI, the `app.componen
   
 ---
  
-17. Where I can inject any dependencies into the component?
+17. Where can I inject any dependencies into the component?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -371,7 +373,7 @@ Angular calls these hook methods in the following order:
   
 ---
  
-19. Which lifecycle hook is called only one?
+19. Which lifecycle hook is called only once?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -482,7 +484,7 @@ export class AppComponent{
   
 ---
 	
-24. What are our views on Angular?
+24. What are views in Angular?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
