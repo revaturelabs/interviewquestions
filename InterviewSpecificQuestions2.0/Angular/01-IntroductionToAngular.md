@@ -1,4 +1,4 @@
-1. Demonstrate a basic understanding of Angular or What is Angular?
+1.What is Angular?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -34,7 +34,7 @@
 
 --- 
 
-3. Angular workflow _or_ How does Angular work or bootstrapping your angular app? _or_ How do you load an Angular application in the webserver? 
+3.How do you load an Angular application in the webserver? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -78,7 +78,7 @@
 	
 --- 
   
-4. How SPA is different from traditional webapplicationsn?
+4. How SPA is different from traditional webapplications?
 	
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 	
@@ -239,21 +239,19 @@ On the other hand, an MPA multiple-page application) is considered a more tradit
 	
 --- 
 
-12. Difference between Angular 2 and Angular 4
-	
+12. Is Angular Javascript-based or Typescript based?
+
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details>
-<summary> <b>Show Answer</b></summary>
+  <summary> <b>Show Answer</b></summary>
+  
 <blockquote>
 
-| **Angular 2**                                                                      | **Angular 4**                                                                                       |
-| ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| Angular v2.0 uses Typescript, a superset of JavaScript, for writing the application. | Angular v4.0 serves to be compatible with the new version of TypeScript 2.1 as well as TypeScript 2.2. |
-| Code is not Reduced much                                                           | Reduce the size of the generated bundled code up to 60%                                             |
+- AngularJS is written using JavaScript
+- Angular 2+  written using TypeScript
 
 </blockquote>
-
 </details>
 	
 --- 
@@ -294,7 +292,7 @@ On the other hand, an MPA multiple-page application) is considered a more tradit
 	
 --- 
 	
-15. List drawbacks and benefits of MPA _or_ List the advantages and disadvantages of MPA
+15. List out the advantages and disadvantages of MPA
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -302,11 +300,11 @@ On the other hand, an MPA multiple-page application) is considered a more tradit
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 	
-Benefits:
+Advantages:
 - Performs well on the search engine.
 - Provides a visual map of the web app to the user.
 
-Drawbacks:
+Disadvantages:
 - Comparatively complex development
 - Coupled backend and frontend
 	
@@ -315,7 +313,7 @@ Drawbacks:
 	
 --- 
 	
-16. List drawbacks and benefits of SPA _or_ List the advantages and disadvantages of SPA
+16. List drawbacks and benefits of SPA ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -396,7 +394,7 @@ Drawbacks:
 	
 --- 
 	
-20. Webpack builds a dependency graph. What does that mean? _or_ What is a dependency graph? How is it related to Webpack?
+20. What is a dependency graph? How is it related to Webpack?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -421,7 +419,7 @@ Drawbacks:
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 
-Before installing Angular CLI, make sure the development environment includes Node.js and an npm package manager. Then, run the command `npm install -g @angular/clip on the terminal to install the Angular CLI using npm.
+Before installing Angular CLI, make sure the development environment includes Node.js and an npm package manager. Then, run the command `npm install -g @angular/cli` on the terminal to install the Angular CLI using npm.
 		
 </blockquote>
 </details>
@@ -522,7 +520,7 @@ So if it looks like this:
 
 Then `npm start` will run `ng serve.
 
-The `ng serve` commis and used when developing your application locally. It starts up a local development server, which will serve your application while you are developing it.
+The `ng serve` command is used when developing your application locally. It starts up a local development server, which will serve your application while you are developing it.
 
 </blockquote>
 </details>
@@ -560,7 +558,7 @@ The _e2e_ folder at the top level contains source files for a set of end-to-end 
 	
 --- 
 	
-30. What are files we can find under the _src_ folder?
+30. What are the files that we can find under the _src_ folder?
 	
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 	
@@ -568,7 +566,7 @@ The _e2e_ folder at the top level contains source files for a set of end-to-end 
 <summary> <b>Show Answer</b></summary>
 <blockquote>
 	
-The _src_ folder contains the source files which give information about application logic, data, and assets. It has
+The _src_ folder contains the source files which give information about application logic, data, and assets. 
 
 </blockquote>
 </details>
@@ -732,19 +730,4 @@ Just in time (JIT) compiler provides compilation during the execution of the pro
 
 --- 
 	
-40. Is Angular Javascript-based or Typescript based?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details>
-  <summary> <b>Show Answer</b></summary>
-  
-<blockquote>
-
-- AngularJS is written using JavaScript
-- Angular 2+  written using TypeScript
-
-</blockquote>
-</details>
-
----
