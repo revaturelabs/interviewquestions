@@ -566,6 +566,79 @@ It creates an exception class object that is associated with that logical mistak
 
 ---
     
+26.What is exception filter in Web API .NET core?
+    
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
+<details> <summary> <b> Show Answer </b> </summary>
 
+<blockquote> 
+    
+An exception filter is executed when a controller method throws any unhandled exception that is not an HttpResponseException exception. The HttpResponseException type is a special case, because it is designed specifically for returning an HTTP response.
 
+Exception filters implement the System.Web.Http.Filters.IExceptionFilter interface.   
+    
+</blockquote>
+
+</details>
+
+---  
+    
+27.What is the HandleError filter attribute?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>     
+
+ASP.Net MVC has an attribute called "HandleError" that provides built-in exception filters. The HandleError attribute in ASP.NET MVC can be applied over the action method as well as Controller or at the global level. The HandleError attribute is the default implementation of IExceptionFilter. When we create a MVC application, the HandleError attribute is added within the Global.asax.cs file and registered in the Application_Start event.
+    
+</blockquote>
+
+</details>
+
+---  
+
+28.How do you handle exception globally in a asp.net core api ?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>    
+    
+To configure a custom error handling page for the Production environment, call UseExceptionHandler.
+    **
+This exception handling middleware:
+Catches and logs unhandled exceptions.
+Re-executes the request in an alternate pipeline using the path indicated. The request isn't re-executed if the response has started. The template-generated code re-executes the request using the /Error path.
+    
+</blockquote>
+
+</details>
+
+---  
+    
+29.What is the purpose of UseDeveloperExceptionPage()?
+    
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote>    
+ 
+The UseDeveloperExceptionPage extension method adds middleware into the request pipeline which displays developer friendly exception detail page. This helps developers in tracing errors that occur during development phase.
+
+As this middleware displays sensitive information, it is advisable to add it only in development environment.
+    
+if (env.IsDevelopment() || env.IsStaging())
+        {
+            app.UseDeveloperExceptionPage();
+        }
+
+</blockquote>
+
+</details>
+
+---  
