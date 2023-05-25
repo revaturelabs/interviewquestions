@@ -360,7 +360,7 @@ Explanation:
 
 ---
 
-10. How can you obtain unique values in SQL without using the DISTINCT keyword?
+10. How do you obtain unique values in SQL without using the DISTINCT keyword?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
