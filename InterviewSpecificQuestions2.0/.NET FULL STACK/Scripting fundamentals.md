@@ -448,3 +448,136 @@ Wednesday, October 2022 03:58:06 PM MDT
 
 ---
 
+25. Write the difference between “=” and “==”.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+= operator: Assigning the value into a variable is accomplished by using the = operator. It is referred to as the assignment operator.    
+Example: a = $b;             #Would assign value of b to a 
+    
+== operator: This is used to compare strings. In the double equals operator, both operands are compared. If they are equal, it returns true, otherwise, it returns false.
+Example:[ $a == $b ];      #Comparing the values of a and b.
+    
+</blockquote>
+
+</details>
+
+---
+
+26.How to use pipe commands? 
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+Pipe command allows you to use several commands in the same way, in which the output of one is used as input for another. Like a pipeline, each process output is directly input to the next one. A pipe is represented by the symbol "|". The flow of data through a pipeline is unidirectional, i.e., from left to right.
+
+Syntax :
+
+command_1 | command_2 | command_3 | .... | command_N    
+    
+</blockquote>
+
+</details>
+
+---
+
+27. How can we create a function in shell script?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+shell functions are much like subroutines, procedures, and functions. The syntax for declaring a function is as follows:
+
+function_name () 
+{ 
+   list of commands
+} 
+Function_name is the name of your function, and that's what you'll use to call it from anywhere in your script. The function name must be followed by parentheses, then a list of commands enclosed in braces.   
+    
+Example :
+    
+#!/bin/sh
+# Define your function here
+ 
+Hello () 
+  {
+     echo "Hello World"
+  }
+ 
+# Invoke your function
+Hello
+    
+</blockquote>
+
+</details>
+
+---
+
+28. What are the types of permission at the file level in Shell?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+Owner permissions: The permissions granted to a user with all the rights at the root level.
+
+Group permissions: The permissions granted to a user with all the rights in a particular group.
+
+Other  permissions: The permissions granted to a user with all the rights globally to a file.    
+    
+</blockquote>
+
+</details>
+
+---
+
+29. How to debug the problems encountered in the shell script/program?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+Below are common methods applied to debug the problems in the script.
+
+Debug statements can be inserted in the shell script to output/display the information which helps to identify the problem.
+Using set -x enables the debugging in the script.    
+    
+</blockquote>
+
+</details>
+
+---
+
+30. Explain the different modes of vi editors.
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+    
+The different modes of vi editors are:
+
+Command mode: this is the mode when vi starts up.
+Edit mode: enables users to do the next editing.
+Ex mode: when users interact with vi with instructions to process   
+    
+</blockquote>
+
+</details>
+
+---
