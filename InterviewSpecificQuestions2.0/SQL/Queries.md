@@ -448,7 +448,7 @@ This query is similar to the MySQL query. It combines the `customers` and `sales
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 The query `SELECT T1.ID, T2.ID FROM T1 INNER JOIN T2 ON T1.ID = T2.ID` would return 4 rows.
 
@@ -506,7 +506,7 @@ This query is the same as the MySQL version. It selects `col1` and `col2` column
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 <blockquote>
 
@@ -534,7 +534,7 @@ In this query, the subquery `(SELECT country FROM orders WHERE order_date >= '20
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 <blockquote>
 
@@ -775,7 +775,7 @@ This PostgreSQL query is a more concise version. It uses the `EXCEPT` operator t
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 ```sql
 SELECT 
@@ -811,7 +811,7 @@ This query uses left joins to combine the `Members` table with the `Checking_Acc
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 To insert data into the `Person` table, you need to provide the specific columns and their corresponding values that you want to insert. The exact column names will depend on the schema and structure of your `Person` table. Here's an example of how an `INSERT` statement can be written:
 
@@ -833,7 +833,7 @@ Please note that you need to adjust the column names and values based on your sp
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 To find the most recently updated fields in a table, you can utilize the timestamp or date columns in your table that track the last update time. Here's an example of how you can write an SQL query to accomplish this:
 
@@ -856,7 +856,7 @@ In this query, `your_table` represents the name of your table. Assuming you have
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 To get all the names from the "Customer" table with the columns "customer_id", "name", and "country", you can use a simple SELECT statement. Here's an example:
 
@@ -876,7 +876,7 @@ This MySQL query selects the "name" column from the "Customer" table. It retriev
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 To get all the names from the "Customer" table in ascending order, you can modify the SQL query with an ORDER BY clause. Here's an example:
 
@@ -898,7 +898,7 @@ This query selects the "name" column from the "Customer" table and uses the ORDE
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 To get the number of unique countries from the "Customer" table, you can use the COUNT and DISTINCT functions in SQL. Here's an example query:
 
@@ -918,7 +918,7 @@ In this query, the `COUNT` function is used to count the number of distinct coun
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 ```sql
 UPDATE table_name
@@ -938,7 +938,7 @@ In this example, `table_name` should be replaced with the actual name of the tab
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 To retrieve employees with a salary over $150,000 from a table, you can use the SELECT statement along with a WHERE clause to filter the results based on the salary condition. Here's an example of how you can write the SQL query:
 
@@ -959,7 +959,7 @@ In this query, `employees` represents the name of the table that stores employee
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 To select only the uncommon rows between two single-column tables, where the first x rows have the same values, you can use various techniques such as the EXCEPT/NOT IN operator or a combination of LEFT JOIN and NULL check. Here's an example using the LEFT JOIN technique:
 
@@ -981,7 +981,7 @@ In this MySQL query, `table1` and `table2` represent the names of the two single
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 - `Persons` table with columns: `person_id`, `name`
 - `Addresses` table with columns: `address_id`, `person_id`, `city`
@@ -1007,7 +1007,7 @@ In this MySQL query, we join the `Persons` and `Addresses` tables using the `per
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 
 There are several ways to speed up a specific query in SQL:
@@ -1035,7 +1035,7 @@ There are several ways to speed up a specific query in SQL:
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 To manage the limitation in your program where it can only handle 100 objects while you have 1000 objects in your database, you can implement pagination or limit the result set using SQL queries. Here are two approaches you can consider:
 
@@ -1075,7 +1075,7 @@ By implementing pagination or limiting the result set, you can effectively manag
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 To find common records in two tables, you can use the SQL JOIN operation to combine the tables based on a common column. Here's how you can approach it:
 
@@ -1098,7 +1098,7 @@ The `JOIN` operation combines the rows from both tables based on matching values
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 To find the minimum and maximum values of a salary column in a table, you can use the SQL MIN() and MAX() aggregate functions. Here's how you can do it:
 
@@ -1119,7 +1119,7 @@ In this query, replace `your_table` with the actual name of the table you're wor
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 To return the records with odd IDs from a table with an ID column, you can use the modulo operator (%) in your SQL query. Here's how you can do it:
 
@@ -1140,7 +1140,7 @@ In this MySQL query, replace `your_table` with the actual name of the table you'
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 To select the top 10 employees with the highest salary in a table, you can use the SQL query below:
 
@@ -1164,7 +1164,7 @@ This query will work for both MySQL and PostgreSQL databases as the syntax is th
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 To retrieve the individual transactions and the total transaction amount over the course of a month for a customer from a Customers table and a Transactions table, you can use the following SQL query:
 
@@ -1237,7 +1237,7 @@ How do you fetch the details of the
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
-<details><summary><b>MySQL</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 ```sql
 SELECT e.employee_id, e.employee_name
@@ -1256,10 +1256,8 @@ In this MySQL query, the `employee` table is joined with the `sale_details` tabl
 
 41.  Consider you are have table "Employee". How do you write a query to fetch the employees name and the department of the employees whose salary is over 30,000?
 
-
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
 
 <details><summary><b>MySQL</b></summary>
 
@@ -1296,7 +1294,7 @@ This PostgreSQL query is the same as the MySQL version. It joins the "employee" 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 SQL Query to Update a Table:
 
@@ -1319,7 +1317,7 @@ Please replace `your_table` with the actual name of your table, and modify the c
   
   ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
   SQL Query to Join Two Employee Tables based on Salary Range:
 
@@ -1344,7 +1342,7 @@ Please replace `employee_table1` and `employee_table2` with the actual names of 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 To retrieve the employee's name from an employees table with an ID of 123, you can use the `SELECT` statement along with a `WHERE` clause. Here's the query:
 
@@ -1382,7 +1380,7 @@ Adjust the table name, column names, and ID value as per your specific table str
 
     ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 To retrieve the department of an employee based on the employee table and department table, you can use a simple `JOIN` between the two tables. Here's the query:
 
@@ -1422,7 +1420,7 @@ Adjust the table names, column names, and conditions as per your specific table 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 To perform a left join in SQL, you can use the `LEFT JOIN` keyword in your query. Here's the syntax:
 
@@ -1457,7 +1455,7 @@ Adjust the table names, column names, and join conditions as per your specific t
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 To sort data after it has been pulled from a database, you can use the `ORDER BY` clause in SQL. Here's an example query:
 
@@ -1493,7 +1491,7 @@ Adjust the table name, column names, and sorting criteria as per your specific t
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 To change an entry to `NULL` in SQL, you can use the `UPDATE` statement along with the `SET` clause. Here's an example query:
 
@@ -1528,7 +1526,7 @@ Make sure to adjust the table name, column name, and condition as per your speci
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 To group employees by department and concatenate the first and last names of employees within each department into a single cell, you can use the `GROUP_CONCAT` function along with the `GROUP BY` clause. Here's an example query:
 
@@ -1557,7 +1555,7 @@ How do you return the 3rd highest employee salary.
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 To return the 3rd highest employee salary from the `employees` and `employee_salaries` tables, you can use the `ORDER BY` and `LIMIT` clauses. Here's an example query:
 
@@ -1587,7 +1585,7 @@ Adjust the table names, column names, and `LIMIT` and `OFFSET` values as per you
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 To find common records in two tables, you can use the `INNER JOIN` operation. Here's an example query:
 
@@ -1678,7 +1676,7 @@ Explanation:
     
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 Filtering results and searching with conditions in SQL can be achieved using the `WHERE` clause in combination with various operators and functions. Here's an example:
 
@@ -1803,7 +1801,7 @@ write a query to fetch the data of the student whose rank is < 10 along with the
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 SQL Query to Join Tables and Filter by Student Rank:
 
@@ -1827,7 +1825,7 @@ Please replace `table1` and `table2` with the actual names of your tables, and a
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
     
-<details><summary>Answer</summary>
+<details><summary>Show Answer</summary>
 
 <blockquote>
 
@@ -1876,7 +1874,7 @@ Note: This approach assumes that the combination of columns used for identifying
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 SQL Query to Find the Maximum and Minimum Amounts in a Column:
 
@@ -1899,7 +1897,7 @@ Please replace `your_table` with the actual name of your table.
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 
 SQL Query to Get the Amount for Each Month (with Null for Non-Matching Months):
@@ -1921,12 +1919,12 @@ This MySQL query uses the `SUM` function with conditional statements (`CASE WHEN
 ---
 
 
-59. What is "Merge" in SQL ?
+59. What is the use of  "Merge" Command in SQL ?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Show Answer</b></summary>
 
 SQL Command "MERGE" (also known as UPSERT) is used to perform both INSERT and UPDATE operations on a target table based on a condition specified in the query. It combines the functionality of both INSERT and UPDATE statements into a single statement.
   
@@ -1963,7 +1961,7 @@ This way, the MERGE statement allows you to handle both INSERT and UPDATE operat
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
-<details><summary> <b> Answer</b> </summary>
+<details><summary> <b> Show Answer</b> </summary>
 <blockquote>
 
 - To get data from two separate tables in a single query in *SQL and PostgreSQL*, you can use the JOIN clause.
@@ -2007,6 +2005,7 @@ This query will return the customer ID, first name, last name, order ID, and ord
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 <details><summary> <b>SQL</b> </summary>
+
 <blockquote>
 
 - To create a subquery in SQL and PostgreSQL, you can use a query nested inside another query. The result of the inner query is used as input to the outer query.
@@ -2018,12 +2017,18 @@ This query will return the customer ID, first name, last name, order ID, and ord
 SELECT column1, column2, ...
 FROM table1
 WHERE columnN IN (SELECT columnN FROM table2 WHERE condition);
+
 ```
 
 - In this example, the subquery is enclosed in parentheses and is executed first. The result of the subquery is then used in the outer query to filter the results.
 
-<details><summary>  <b> PostgreSQL </b> </summary>
-<blockquote>
+</blockquote>
+
+</details>
+
+<details><summary> <b> PostgreSQL </b></summary>
+
+<blockquote
 
 - Here's an example of a subquery in SQL and PostgreSQL that selects the names of customers who have placed an order:
 
@@ -2137,6 +2142,7 @@ SELECT * FROM table1
 UNION
 SELECT * FROM table2;
 ```
+</details>
 
 <details><summary> <b>PostgreSQL</b> </summary>
 
@@ -2248,6 +2254,8 @@ SELECT SUBSTRING(name, CHARINDEX(' ', name) + 1) AS last_name FROM table;
 
 This query uses the CHARINDEX function to find the position of the first space character in the "name" field, and then uses the SUBSTRING function to extract the substring starting from the position of the space character + 1 (which is the first character of the last name).
 
+</details>
+
 <details><summary> <b> PostgreSQL </b> </summary>
 
 ```sql
@@ -2287,7 +2295,7 @@ This query deletes the record from the "table" where the "id" column has a value
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Answer</b> </summary>
+<details><summary> <b>Show Answer</b> </summary>
 <blockquote>
 
 - If you have multiple showings of the same movie at the same time, you can account for it in your *SQL and PostgreSQL* database by adding a unique identifier for each showing. One way to do this is to create a composite primary key for the showings table that includes both the movie ID and the showing time.
