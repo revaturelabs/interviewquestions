@@ -65,145 +65,43 @@ Spring does not manage the complete lifecycle of a prototype bean.
 
 <blockquote> 
 
-- Spring IOC container is primarily responsible for holding all business components termed as `Bean`.
-- Few of these beans are added by spring framework and rest all are defined by developers.
-- These beans can be configured using XML configuration file (usually named as `applicationContext.xml`) or using Java Configuration class (usually named as `AppConfig.java`).
-- **`applicationContext.xml` sample** -
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.springframework.org/schema/beans
-     http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+In a console-based Spring application, you can configure an IOC (Inversion of Control) container, such as the `ApplicationContext`, to manage and instantiate your beans. Here's how you can configure it:
 
-    <bean id="intelProcessor" class="com.revature.model.Intel">
-        <property name="modelName" value ="Intel i7"/>
-        <property name="cacheMemory" value="64MB" />
-        <property name="price" value="6700.00"/>
-        <property name="numberOfCores" value="7 Cores" />
-    </bean>
-    <bean id="myLaptop" class="com.revature.model.Laptop" autowire="no">
-        <property name="modelName" value="Lenovo Think PagEdge" />
-        <property name="price" value="78900.00" />
-        <property name="processor" ref="intelProcessor" />
-    </bean>
-    <bean id="yourLaptop" class="com.revature.model.Laptop" autowire="no">
-        <constructor-arg value="Alienware"></constructor-arg>
-        <constructor-arg value="98900.00"></constructor-arg>
-        <constructor-arg ref="intelProcessor" ></constructor-arg>
-    </bean>
-</beans>
-```
-- **`AppConfig.java` sample** -
+1. Include Spring Dependencies: Add the necessary Spring dependencies to your project's build configuration. This typically includes the `spring-context` dependency, which provides the core Spring IOC container functionality.
+
+2. Create a Configuration Class: Create a Java class to serve as the configuration class for your Spring application. Annotate this class with `@Configuration` to indicate that it contains bean definitions.
+
+3. Define Beans: Inside the configuration class, define your beans using various annotations such as `@Bean` or `@Component`. These annotations specify the creation and configuration of your beans.
+
+4. Create ApplicationContext: In your console application's entry point, create an `ApplicationContext` by instantiating the appropriate implementation class, such as `AnnotationConfigApplicationContext`. Pass your configuration class as a parameter to the constructor.
+
+5. Retrieve Beans: Use the `getBean()` method of the `ApplicationContext` to retrieve the instances of your beans. You can retrieve the beans by their type or by their names.
+
+Here's an example of a console-based Spring application configuration:
 
 ```java
-package com.revature.config;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Description;
-import org.springframework.context.annotation.Scope;
-//Assume below model classes exist in the application
-import com.revature.model.Intel;
-import com.revature.model.Laptop;
-
 @Configuration
 public class AppConfig {
-    @Bean(name = "i7")
-    @Description("This bean is used to injection dependency inside Laptop class")
-    public Intel getIntelProcessor() {
-        return new Intel("Intel i7", "64MB", 6700.0, "7 Cores");
-    }
-
+    
     @Bean
-    @Description("My Lenovo Laptop Bean")
-    public Laptop myLaptop() {
-        // This is JavaConfig Alternative for Setter Based Injection
-        Laptop myLappy = new Laptop();
-        myLappy.setModelName("Lenovo Think PagEdge");
-        
-        // In applciationContext.xml this value will be in double quotes unlike
-        // java developers who want it without double quotes
-        myLappy.setPrice(78900.00);
-        myLappy.setProcessor(getIntelProcessor());
-        return myLappy;
+    public MyBean myBean() {
+        return new MyBean();
     }
-
-    @Bean
-    @Description("Your Mac Book Pro Laptop Bean")
-    @Scope("singleton")
-    public Laptop yourLaptop() {
-        // This is JavConfig Alternative for Constructor Based Injection
-        Laptop yourLappy = new Laptop("Mac Book Pro",149000.0, getIntelProcessor());
-        return yourLappy;
-    }
-
-    /* --- Comparison ---
-        @Configuration  //== applicationContext.xml
-        class AppConfig
-        @Bean   //== <bean>
-        public Amd amd(){  // id=amd class="com.revature.model.Amd"
-        Amd a= new Amd();
-        a.setPrice();     // <property name="price" value="23232"/>
-        ....
-        ....
-        return a;
-        }
-    */
-}
-```
-- The Spring IOC container can be programmatically accessed using two interfaces namely: `BeanFactory` & `ApplicationContext`.
-- It's always advisable to use ApplicationContext which is child interface of BeanFactory.
-- There are multiple implementations available of ApplicationContext depending upon your bean configuration.
-- For `applicationContext.xml` based bean configuration we use `ClassPathXmlApplicationContext` class.
-```java
-package com.revature.client;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
-import com.revature.model.Laptop;
-public class App {
+    
+    // Define other beans...
+    
     public static void main(String[] args) {
-        Laptop lenovoLaptop, secondLaptop;
-        ApplicationContext appContext = new ClassPathXmlApplicationContext("applicationContext.xml");
-        lenovoLaptop = (Laptop) appContext.getBean("myLaptop");
-        System.out.println(lenovoLaptop);
-        secondLaptop = (Laptop) appContext.getBean("yourLaptop");
-        System.out.println(secondLaptop);
-        ((ClassPathXmlApplicationContext) appContext).close();
+        ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+        
+        MyBean myBean = context.getBean(MyBean.class);
+        // Use the bean...
     }
 }
 ```
-- For `AppConfig.java` based bean configuration we use `AnnotationConfigApplicationContext` class.
 
-```java
-package com.revature.client;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import com.revature.config.AppConfig;
-//Assume below model classes exist in the application
-import com.revature.model.Laptop;
-import com.revature.model.Processor;
-public class App {
-    public static void main(String[] args) {
-        AnnotationConfigApplicationContext  appContext = new AnnotationConfigApplicationContext(AppConfig.class);
-        Laptop lenovoLaptop, secondLaptop;
-        Processor intelProcessor;
+In this example, `MyBean` is a custom bean defined using the `@Bean` annotation within the configuration class. The `ApplicationContext` is created using `AnnotationConfigApplicationContext` and the configuration class `AppConfig`. Finally, the `MyBean` instance is retrieved from the context using `getBean()`.
 
-        System.out.println("/////////////////////////////////");
-        intelProcessor= (Processor) appContext.getBean("i7");
-        System.out.println(intelProcessor);
-        
-        System.out.println("/////////////////////////////////");
-        lenovoLaptop = (Laptop) appContext.getBean("myLaptop");
-        System.out.println(lenovoLaptop);
-        
-        System.out.println("/////////////////////////////////");
-        secondLaptop = (Laptop) appContext.getBean("yourLaptop");
-        System.out.println(secondLaptop);
-            
-        appContext.close();
-        
-    }
-}
-```
+By following these steps, you can configure and use an IOC container in a console-based Spring application to manage your beans and their dependencies.
 
 </blockquote> 
     
@@ -244,7 +142,8 @@ public class App {
 <blockquote> 
 
 - There are broadly two ways in which Spring beans are configured in application-
-    - Using XML configuration – We usually define xml file with standard name as `applicationContext.xml` inside `src/main/resources` folder of your maven project.
+
+- Using XML configuration – We usually define xml file with standard name as `applicationContext.xml` inside `src/main/resources` folder of your maven project.
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <beans xmlns="http://www.springframework.org/schema/beans"
@@ -452,77 +351,78 @@ public class App {
 <details> <summary> <b> Show Answer </b> </summary>
 
 <blockquote> 
-    
-- Spring provides several ways through which you can tap into the bean lifecycle. 
-- For example, once a bean is instantiated, you might need to perform some initialization to get the bean into a usable state. 
-- Similarly, you might need to clean up resources before a bean is removed from the container.
-- These actions can be achieved by configuring Init and Destroy lifecycle hooks into Spring application.
-- `@PostConstruct` Annotation:
-    - Whenever we annotate a method in Spring Bean with `@PostConstruct` annotation, it gets executed after the spring bean is initialized. 
-    - We can have only one method annotated with `@PostConstruct` annotation. 
-- `@PreDestroy` Annotation: 
-    - When we annotate a Spring Bean method with PreDestroy annotation, it gets called when the bean instance is getting removed from the context.
-    - Note: if your spring bean scope is `Prototype` then it’s not completely managed by the spring container and the PreDestroy method won’t get called. 
-- Both of the above annotation are part of Common Annotations API and it’s part of JDK module `javax.annotation-api`. 
-- Let’s look at simple example below:
-- `MailService.java` file-
-```java
-package com.revature;
-import java.util.HashMap;
-import java.util.Map;
-import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
-import org.springframework.beans.factory.config.ConfigurableBeanFactory;
-import org.springframework.context.annotation.Scope;
-import org.springframework.stereotype.Component;
+In Spring, you can configure initialization and destruction hooks for beans using the `@PostConstruct` and `@PreDestroy` annotations or implementing the `InitializingBean` and `DisposableBean` interfaces. Here's how you can do it:
 
-@Component
-@Scope(scopeName = ConfigurableBeanFactory.SCOPE_SINGLETON)
-public class MailService {
-   private Map<String, String> map=null;
-   public MailService() {
-      map=new HashMap<>();
-   }
-   public void send(String mailTo){
-      //Send mail code
-      System.out.println("Inside send email method - "+mailTo);
-   }
-   @PostConstruct
-   public void init() {
-      map.put("host", "mail.gd.com");
-      map.put("port", "25");
-      map.put("from", "example@gd.com");
-      System.out.println("Inside init method - "+map);
-   }
-   @PreDestroy
-   public void destroy() {
-      map.clear();
-      System.out.println("Inside destroy method - "+map);
-   }
-}
-```
-- `MainApp.java` file-
+1. Using the `@PostConstruct` and `@PreDestroy` annotations:
+   - Import the necessary annotations: `import javax.annotation.PostConstruct;` and `import javax.annotation.PreDestroy;`.
+   - Add the `@PostConstruct` annotation on a method that should be called after the bean initialization.
+   - Add the `@PreDestroy` annotation on a method that should be called before the bean destruction.
 
-```java
-package com.revature.app;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import com.revature.MailService;
+   Example:
+   ```java
+   import javax.annotation.PostConstruct;
+   import javax.annotation.PreDestroy;
 
-public class MainApp {
-   public static void main(String[] args) {
-      AnnotationConfigApplicationContext context = 
-            new AnnotationConfigApplicationContext(AppConfig.class);
-      // Send mail 1
-      MailService mailService1 = (MailService) context.getBean("mailService");
-      mailService1.send("coupancodes@gd.com");
-      // Send mail 2
-      MailService mailService2 = context.getBean(MailService.class);
-      mailService2.send("newletters@gd.com");
-      context.close();
+   public class MyBean {
+       @PostConstruct
+       public void init() {
+           // Initialization logic here
+       }
+
+       @PreDestroy
+       public void destroy() {
+           // Destruction logic here
+       }
    }
-}
+   ```
 
-```
+2. Implementing the `InitializingBean` and `DisposableBean` interfaces:
+   - Implement the `InitializingBean` interface and override the `afterPropertiesSet()` method to define initialization logic.
+   - Implement the `DisposableBean` interface and override the `destroy()` method to define destruction logic.
+
+   Example:
+   ```java
+   import org.springframework.beans.factory.DisposableBean;
+   import org.springframework.beans.factory.InitializingBean;
+
+   public class MyBean implements InitializingBean, DisposableBean {
+       @Override
+       public void afterPropertiesSet() throws Exception {
+           // Initialization logic here
+       }
+
+       @Override
+       public void destroy() throws Exception {
+           // Destruction logic here
+       }
+   }
+   ```
+
+3. Using custom initialization and destruction methods:
+   - Define custom initialization and destruction methods in your bean class.
+   - Configure these methods in the Spring bean configuration XML file or using the `@Bean` annotation in a configuration class.
+
+   Example:
+   ```java
+   public class MyBean {
+       public void customInit() {
+           // Custom initialization logic here
+       }
+
+       public void customDestroy() {
+           // Custom destruction logic here
+       }
+   }
+   ```
+
+   XML configuration:
+   
+   ```xml
+   <bean id="myBean" class="com.example.MyBean" init-method="customInit" destroy-method="customDestroy" />
+   ```
+
+By configuring these initialization and destruction hooks, you can perform specific tasks when a bean is initialized or destroyed within the Spring container. This allows you to handle any necessary setup or cleanup operations for your beans.
+
 </blockquote> 
 
 </details>
