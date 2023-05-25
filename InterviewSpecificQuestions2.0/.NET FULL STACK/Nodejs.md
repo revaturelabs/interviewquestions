@@ -434,6 +434,9 @@ console.log(URL === require('url').URL);
   
 const myURL1 = new URL(
     { toString: () => 'https://revature.org/' });
+	
+
+
   
 console.log(myURL1.href)
 
@@ -445,3 +448,249 @@ console.log(myURL1.href)
 
 ---
 
+
+22. What are Promises in Node.js? 
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+	
+A promise in Node.js is a placeholder for a value that will be available in the future. Promises in Node.js allow asynchronous methods to return values like synchronous methods wherein the asynchronous method returns a promise for the value in the future instead of the final value. They have separate callbacks that would be executed for success/ failure and handling timeouts. Promises fall in the following three different states:
+
+The initial or the pending state. 
+The fulfilled state represents a successful operation.
+The rejected state of a promise represents a failed operation.	
+	
+	
+</blockquote>
+
+</details>
+
+---
+
+23. What is piping in Node.js?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+	
+Piping in Node.js is the mechanism that connects the output of one stream to another, i.e., it connects multiple streams. It retrieves data from one stream and passes the output to another stream.	
+	
+</blockquote>
+	
+
+</details>
+
+---	
+
+24. What is middleware?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+	
+A middleware function has access to the response object, request object, and the next middleware function in the application's request-response cycle. A variable named next denotes the next middleware function. Middleware finds usage in between your request and business logic. You can also write your own middleware for a specific use case. The primary tasks that the middleware functions perform are:
+
+Code execution
+Modify the request and the response objects
+Complete the request-response cycle
+It can invoke the next middleware function in the stack.
+	
+</blockquote>
+	
+</details>
+
+---	
+
+25. How can you avoid callbacks?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+To avoid callbacks, you can use any one of the following options:
+
+You can use modularization. It breaks callbacks into independent functions.
+You can use promises.
+You can use yield with Generators and Promises.
+	
+</blockquote>
+	
+</details>
+
+---	
+
+25. Explain the tasks of terms used in Node REPL.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+REPL stands for:
+
+Read: It reads user's input; parse the input into JavaScript data-structure and stores in memory.
+
+Eval: It takes and evaluates the data structure.
+
+Print: It is used to print the result.
+
+Loop: It loops the above command until user press ctrl-c twice to terminate.
+	
+</blockquote>
+	
+</details>
+
+---	
+
+26. What is the use of the underscore variable in REPL?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+	
+In REPL, the underscore variable is used to get the last result.
+	
+var sum = _  
+undefined  
+	
+</blockquote>
+	
+</details>
+
+---	
+
+27. Mention the components of NPM ?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+	
+npm consists of three distinct components:
+
+website – to discover packages and their dependencies (by searching), setup profiles for authentication, version control management 
+CLI (Command line interface) -  runs on a terminal which is the way developers interact with npm.
+registry – large public database of javascript software and meta-information surrounding it
+	
+</blockquote>
+	
+</details>
+
+---
+
+28. How do you delete the file in Node js?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+import fs module
+delete the file using fs.unlink method and name of file to be deleted as parameter.
+Create a text file “demo_file_del.txt” file to be deleted.
+
+var fs = require("fs");  //import fs module
+console.log("going to delete demo_file_del.txt file")
+fs.unlink('demo_file_del.txt', function(err) { // call unlink method)
+if (err) {
+return console.err(err);
+}
+console.log("File deleted successfully")
+});
+	
+</blockquote>
+	
+</details>
+
+---
+
+29. How do you truncate the file in Node js?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+	
+import fs module and declare buffer class
+
+Open the file using fs.open method
+Execute the method ftruncate to truncate the opened file. Provide the name of the opened file , length of file after which the file will be truncated.
+Read the truncated file after successful truncation using fs.read method and buffer
+iclose the file using fs.close method
+	
+</blockquote>
+	
+</details>
+
+---
+30. Describe the exit codes of Node.js.
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+	
+<blockquote> 
+	
+In Node.js, exit codes are a set of specific codes which are used for finishing a specific process. These processes can include the global object as well. Below are some of the exit codes used in Node.js:
+
+Uncaught fatal exception
+Unused
+Fatal Error
+Internal Exception handler Run-time failure
+Internal JavaScript Evaluation Failure	
+	
+</blockquote>
+	
+</details>
+
+---
+
+31. Explain the concept of stub in Node.js.
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+	
+<blockquote> 
+	
+</blockquote>
+	
+In Node.js, stubs are basically the programs or functions that are used for stimulating the module or component behavior. During any test cases, stubs provide the canned answers of the functions.
+	
+</details>
+
+---
+
+32. List down the major security implementations within Node.js?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+	
+<blockquote> 
+	
+Major security implementations in Node.js are:
+
+Authentications
+Error Handling
+	
+</blockquote>
+	
+</details>
+
+---
