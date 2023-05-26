@@ -191,7 +191,7 @@ A relational database is a type of database that stores and organizes data in a 
 
 ---
 
-6. Can you differentiate between RDBMS and NoSQL? 
+3. Can you differentiate between RDBMS and NoSQL? 
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -215,7 +215,7 @@ RDBMS and NoSQL are two different types of database management systems. Here's a
 
 ---
 
-7. What is Normalization?
+4. What is Normalization?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -232,7 +232,7 @@ RDBMS and NoSQL are two different types of database management systems. Here's a
 
 ---
 
-8. How do we decide not to normalize a table? 
+5. How do we decide not to normalize a table? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -255,7 +255,7 @@ There are situations where normalization may not be the best approach for organi
 
 ---
 
-9.  Differentiate between BigData and RDBMS?
+6.  Differentiate between BigData and RDBMS?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -278,7 +278,7 @@ Yes, there are some key differences between big data and RDBMS (Relational Datab
 
 ---
 
-10. What is the difference between SQL and MongoDB?
+7. What is the difference between SQL and MongoDB?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -303,7 +303,7 @@ SQL and MongoDB are both database technologies, but they differ in several ways:
 
 ---
 
-11. How to set up a database?
+8. How to set up a database?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -332,7 +332,7 @@ Setting up a database involves the following steps:
 
 ---
 
-13. What are the relationships in RDBMS?
+9. What are the relationships in RDBMS?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -353,7 +353,7 @@ In a relational database management system (RDBMS), there are three main types o
 
 ---
 
-14. What is a data dictionary?
+10. What is a data dictionary?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -369,7 +369,7 @@ In a relational database management system (RDBMS), there are three main types o
 
 ---
 
-17. What is Dynamic Hashing?
+11. What is Dynamic Hashing?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -384,7 +384,7 @@ Dynamic hashing is a technique used in database systems to manage hash tables wi
 
 ---
 
-19. What is Referential Integrity?
+12. What is Referential Integrity?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -400,7 +400,7 @@ Referential Integrity is a feature in RDBMS that ensures the consistency and acc
 
 ---
 
-20. List the different types of databases?
+13. List the different types of databases?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -429,7 +429,7 @@ There are several types of databases, each designed to handle specific data stor
 
 ---
 
-21. What is OLTP and OLAP?
+14. What is OLTP and OLAP?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -448,7 +448,7 @@ OLTP and OLAP are two types of systems used for managing and analyzing data.
 
 ---
 
-25. what is a cluster?
+15. what is a cluster?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -463,7 +463,7 @@ A cluster is a group of servers or nodes that work together to provide higher pe
 
 ---
 
-3. What is a record type?
+16. What is a record type?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -501,7 +501,7 @@ In this example, we define a table called "employees" with two columns: "id" and
 
 ---
 
-5. List some Constraints used in SQL?
+17. List some Constraints used in SQL?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -531,7 +531,7 @@ Constraints are an essential feature in SQL that helps maintain the quality and 
 
 ---
 
-6. What is the difference between Primary Key and Unique Key?
+18. What is the difference between Primary Key and Unique Key?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -561,7 +561,7 @@ Both primary key and unique key are used to ensure the uniqueness of values in a
 </details>
 
 ---
-7. What is DDL?
+19. What is DDL?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -588,7 +588,7 @@ DDL statements are used by database administrators and developers to define the 
 </details>
 
 ---
-8. List the commands of DDL with its purpose?
+20. List the commands of DDL with its purpose?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -621,7 +621,7 @@ Here are some of the keywords used in DDL (Data Definition Language) in SQL:
 
 ---
 
-10. How to create a table in SQL?
+21. How to create a table in SQL?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -660,7 +660,7 @@ You can also add other constraints such as UNIQUE, CHECK, and FOREIGN KEY to the
 
 ---
 
-12. Explain DML in SQL. 
+22. Explain DML in SQL. 
 
  ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -682,7 +682,7 @@ DML stands for Data Manipulation Language, which is a sub-language of SQL used t
 
 ---
 
-15. Differentiate between SQL vs noSQL ?
+23. Differentiate between SQL vs noSQL ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -704,7 +704,7 @@ DML stands for Data Manipulation Language, which is a sub-language of SQL used t
 
 ---
 
-16. Difference between global and local tables in sql.
+24. Difference between global and local tables in SQL.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -726,7 +726,7 @@ DML stands for Data Manipulation Language, which is a sub-language of SQL used t
 
 ---
 
-18. what is SQLite?
+25. what is SQLite?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -753,7 +753,7 @@ Some common use cases for SQLite include:
 </details>
 
 ---
-19. what is sql?
+26. what is sql?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
   
@@ -779,7 +779,7 @@ SQL is widely used in data-driven applications, from simple web applications to 
 
 ---
 
-20. What are parallel queries in sql?
+27. What are parallel queries in sql?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -798,7 +798,7 @@ SQL is widely used in data-driven applications, from simple web applications to 
 </details>
 
 ---
-21. What are Ranking Functions?
+28. What are Ranking Functions?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -824,7 +824,7 @@ Ranking functions are commonly used in business intelligence and data analysis a
 </details>
 
 ---
-22. What is a primary key in SQL ?
+29. What is a primary key in SQL ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -848,7 +848,7 @@ Creating a primary key in SQL involves specifying the PRIMARY KEY constraint whe
 </details>
 
 ---
-24. How do you create a primary key?
+30. How do you create a primary key?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -883,7 +883,7 @@ This will add a primary key constraint to the order_id column in the orders tabl
 </details>
 
 ---
-25. What is a foreign key and how do you create it ?
+31. What is a foreign key and how do you create it ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -926,7 +926,7 @@ This will create a foreign key constraint on the product_id column in the orders
 </details>
 
 ---
-26. What are CRUD operations?
+32. What are CRUD operations?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -950,7 +950,7 @@ Together, these four operations provide the basic functionality needed to manage
 
 ---
 
-27. What is the use of LIKE operator?
+33. What is the use of LIKE operator?
 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -979,7 +979,7 @@ The LIKE operator is useful for searching for data that matches a specific patte
 </details>
 
 ---
-28. what is Parent-child relationship SQL?
+34. what is Parent-child relationship SQL?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1016,7 +1016,7 @@ This relationship means that each order can have multiple items, and each item b
 </details>
 
 ---
-38. What is an ERD?
+35. What is an ERD?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1032,7 +1032,7 @@ An entity-relationship diagram (ERD) is a graphical representation of the relati
 </details>
 
 ---
-27. Is the command line the only way to interact with SQL?
+36. Is the command line the only way to interact with SQL?
 
  ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
