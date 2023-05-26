@@ -463,3 +463,17 @@ like students;
 </details>
 
 ---
+25. What is  Denormalization and  when do we go use it in SQL.
+
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+   
+<details><summary> <b>Show Answer</b> </summary>
+
+> - Denormalization can be described as the process to get back from all the normalized forms in the table to add some redundant data to it.   
+> - It is a good idea to denormalize the tables to do the fast retrieval
+> - When there are multiple small tables and applying joins on those tables will be a costly operation.
+
+</details>
+
+---
