@@ -176,3 +176,48 @@ To design a transactional system that maintains consistency and avoids data anom
 </details>
 
 ---
+
+5. What are the properties a transaction must follow?
+ 
+ ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+<blockquote>
+
+Yes, ACID is an acronym that stands for Atomicity, Consistency, Isolation, and Durability. It is a set of properties that guarantee that database transactions are processed reliably. Here's what each of the properties means:
+
+`Atomicity`: This property ensures that each transaction is treated as a single, indivisible unit of work. Either the entire transaction is processed or none of it is processed.
+
+`Consistency`: This property ensures that the database remains in a consistent state after a transaction is processed. In other words, the database must transition from one valid state to another valid state.
+
+`Isolation`: This property ensures that each transaction is executed in isolation from other transactions, as if it is the only transaction being processed. This prevents transactions from interfering with each other and causing data inconsistencies.
+
+`Durability`: This property ensures that once a transaction is committed, its changes are permanent and will survive any subsequent system failures or crashes.
+
+</blockquote>
+
+</details>
+
+---
+
+23. How to update room database based on server response?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+<blockquote>
+
+This is the general approach to update a local room database to reflect a database from the server, you would typically follow these steps:
+
+- Retrieve the updated data from the server in the form of JSON, XML, or other format.
+- Parse the data to extract the relevant information and convert it into the appropriate data types.
+- Compare the updated data with the existing data in the local database to identify any changes.
+- Apply the changes to the local database by inserting, updating, or deleting records as needed.
+- Update any associated data structures or views to reflect the changes in the database.
+- Notify any relevant components of the application that the database has been updated.
+
+</blockquote>
+
+</details>
+
+---

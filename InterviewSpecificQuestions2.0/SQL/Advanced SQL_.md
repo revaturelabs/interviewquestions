@@ -722,3 +722,60 @@ SQL has a variety of built-in scalar functions that can be used to manipulate da
 </details>
 
 ---
+
+12. How to troubleshoot a long query?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+<blockquote>
+
+To troubleshoot a long query in SQL, you can follow these steps:
+
+- *Analyze the query execution plan*: Use the EXPLAIN command to generate the query execution plan and analyze it to identify performance bottlenecks, such as table scans or inefficient join operations.
+
+- *Check for indexing issues*: Ensure that the query is using the appropriate indexes by using the INDEX command to see which indexes are being used, and consider creating new indexes if necessary.
+
+- *Optimize the query*: Consider rewriting the query or using query hints to force the optimizer to use a specific execution plan that may be more efficient.
+
+- *Evaluate server and database configuration*: Review the server hardware and software configuration, as well as the database configuration, to ensure that they are optimized for performance.
+
+- *Monitor query performance*: Use SQL performance monitoring tools to identify slow-running queries and analyze their execution patterns, and monitor query performance over time to identify trends and proactively address potential performance issues.
+
+- *Consider scaling out the database*: If the database is experiencing high traffic or has large data volumes, consider scaling out the database by adding more servers or using sharding to distribute data across multiple servers.
+
+</blockquote>
+
+</details>
+
+---
+
+22. What is the difference between H2 Database and MySQL?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+<blockquote>
+
+H2 and MySQL are both relational database management systems, but differ in their licensing, performance, features, and scalability. H2 is open-source, faster for small to medium-sized databases, and has advanced features, while MySQL is owned by Oracle, better for large-scale databases, and more scalable. The choice depends on the specific needs of the application.
+
+</blockquote>
+
+</details>
+
+---
+
+24. How do you compare the data in the Database?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+<blockquote>
+
+To compare data in a database, you need to execute queries to retrieve the data from each data set, store the results in temporary tables or data structures, compare the data using a suitable method, and analyze the results to identify any differences or discrepancies. The specific approach will depend on the database system and the nature of the data being compared.
+
+</blockquote>
+
+</details>
+
+---
