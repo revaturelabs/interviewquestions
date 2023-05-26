@@ -2802,3 +2802,59 @@ select dept_id from department);
 
 ---
 
+96. Let's say you have two tables, one is an employee which has employee details like id, name, etc and another one is a salary table having columns like id, salary, etc. Give the query in SQL which will return the employee’s name, id and salary of those employees. Also, display the name and id of those employees even if salary details are not present.
+
+ ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+  
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+```sql
+select e.id, e.name, s.salary
+from employee e 
+left join salary s
+on e.id = s.id;
+```
+
+
+</details>
+
+---
+
+97. Can we use `join` to join more than 2 tables in SQL? If yes, then give a query for it as an example.
+
+   ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> Yes, we can join more than 2 tables with `join`.  
+```sql
+select column1 
+from table1
+join table2
+on table1.column2 = table2.column2
+join table3
+on table1.column3 = table3.column3;
+```
+
+</details>
+
+---
+
+98. In SQL, give the query that will fetch the records of those employees who are from the product department and assigned to one project. [Consider two tables employee and project, which has the same column as id] 
+
+  ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+```sql
+select * from employee
+where department = "product" 
+and employee.id in ( 
+select id from project);
+```
+
+</details>
+
+---

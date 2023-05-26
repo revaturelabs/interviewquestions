@@ -432,3 +432,34 @@ create table employee(
 </details>
 
 ---
+
+23. Andrew wants to create an empty table as new_students that has the same structure as of students’ table. What query does he need to execute in order to create an empty table from the old table?
+
+ ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```sql
+create table new_students
+like students;
+```
+
+</details>
+
+---
+
+24. Explain referential integrity constraint in SQL.
+
+  ![Advance](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> The relationship between the two tables is established by the primary key- the foreign key. This foreign key constraint is also called a referential integrity constraint. The value of the foreign key is derived from the primary key of another table.     
+> In SQL there is two referential integrity constraint presents:  
+> - Insert Constraint: That says, we cannot insert values in a foreign key table if the value is not present in the primary key table. 
+> - Delete Constraint: That says, we cannot delete any value from the primary key table if the value is present in the foreign key table. 
+
+</details>
+
+---

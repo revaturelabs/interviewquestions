@@ -1524,3 +1524,41 @@ limit N;
 </details>
 
 ---
+
+42. How to fetch only records that are present in an even position in SQL?
+
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```sql
+select * from table_name
+where id in
+(select id from table_name 
+where id % 2 = 0);
+```
+
+</details>
+
+---
+
+43. Consider you have a company table in SQL. Give the details of those employee who are from Florida, NY and Texas state and earning salary more than 50000 and department is either Finance or Training.
+
+  ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+```sql
+select * from company
+where state in [ "Florida", "NY", "Texas"]
+and salary > 50000
+and department = "Finance" 
+or department = "Training";
+```
+
+</details>
+
+---
+

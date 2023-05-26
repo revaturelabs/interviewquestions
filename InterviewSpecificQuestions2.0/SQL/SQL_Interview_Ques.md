@@ -610,127 +610,15 @@ and d1.phoneNo = d2.phoneNo;
 
 
 
-75. Andrew wants to create an empty table as new_students that has the same structure as of students’ table. What query does he need to execute in order to create an empty table from the old table?
-
- ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details><summary> <b>Show Answer</b> </summary>
-
-> 
-```sql
-create table new_students
-like students;
-```
-
-</details>
-
----
-
-76. How to fetch only records that are present in an even position in SQL?
-
-![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details><summary> <b>Show Answer</b> </summary>
-
-> 
-```sql
-select * from table_name
-where id in
-(select id from table_name 
-where id % 2 = 0);
-```
-
-</details>
-
----
-
-77. Can we use `join` to join more than 2 tables in SQL? If yes, then give a query for it as an example.
-
-   ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details><summary> <b>Show Answer</b> </summary>
-
-> Yes, we can join more than 2 tables with `join`.  
-```sql
-select column1 
-from table1
-join table2
-on table1.column2 = table2.column2
-join table3
-on table1.column3 = table3.column3;
-```
-
-</details>
-
----
-
-78. Let's say you have two tables, one is an employee which has employee details like id, name, etc and another one is a salary table having columns like id, salary, etc. Give the query in SQL which will return the employee’s name, id and salary of those employees. Also, display the name and id of those employees even if salary details are not present.
-
- ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-  
-<details><summary> <b>Show Answer</b> </summary>
-
->
-```sql
-select e.id, e.name, s.salary
-from employee e 
-left join salary s
-on e.id = s.id;
-```
 
 
-</details>
 
----
 
-79. In SQL, give the query that will fetch the records of those employees who are from the product department and assigned to one project. [Consider two tables employee and project, which has the same column as id] 
 
-  ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
 
->
-```sql
-select * from employee
-where department = "product" 
-and employee.id in ( 
-select id from project);
-```
 
-</details>
 
----
 
-80. Explain referential integrity constraint in SQL.
 
-  ![Advance](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
-<details><summary> <b>Show Answer</b> </summary>
-
-> The relationship between the two tables is established by the primary key- the foreign key. This foreign key constraint is also called a referential integrity constraint. The value of the foreign key is derived from the primary key of another table.     
-> In SQL there is two referential integrity constraint presents:  
-> - Insert Constraint: That says, we cannot insert values in a foreign key table if the value is not present in the primary key table. 
-> - Delete Constraint: That says, we cannot delete any value from the primary key table if the value is present in the foreign key table. 
-
-</details>
-
----
-
-81. Consider you have a company table in SQL. Give the details of those employee who are from Florida, NY and Texas state and earning salary more than 50000 and department is either Finance or Training.
-
-  ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details><summary> <b>Show Answer</b> </summary>
-
->
-```sql
-select * from company
-where state in [ "Florida", "NY", "Texas"]
-and salary > 50000
-and department = "Finance" 
-or department = "Training";
-```
-
-</details>
-
----
