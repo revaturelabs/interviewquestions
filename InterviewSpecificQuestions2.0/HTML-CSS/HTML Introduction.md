@@ -267,7 +267,7 @@ For the select element, the user is required to select one of the options you've
 
 ---
 
-14. What are data- attributes good for?
+14. What is the purpose of using data attributes?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -328,7 +328,7 @@ The `<figure>` tag is used for specifying self-contained content, such as diagra
 
 ---
 
-18. Please explain whether an `<article>` element can have `<section>` elements and vice-versa.
+18. Explain whether an `<article>` element can have `<section>` elements and vice-versa.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -344,7 +344,7 @@ Now, the `<section>` element for the blog can have multiple `<article>` elements
 
 ---
 
-19. Can u tell us about image maps in HTML5?
+19. What are image maps in HTML5?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -361,7 +361,7 @@ Image maps allow users to click on images for opening new web pages. As such, th
 
 ---
 
-20.  What are the various common lists for designing a web page in HTML5.
+20.  What are the common lists for designing a web page in HTML5?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -463,7 +463,7 @@ HTML5 is based on styles, a style attribute is used to format each tag. People s
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-HTML5 drag-and-drop uses the DOM event model and drag events inherited from mouse events. A typical drag operation begins when a user selects a draggable element, drags the element to a droppable element, and then releases the dragged element.
+HTML5 introduced the Drag and Drop API, which allows you to implement drag and drop functionality between elements on a web page. This API includes events such as `dragstart`, `dragenter`, `dragover`, `dragleave`, and `drop` that you can handle with JavaScript to define the behavior of draggable and droppable elements.
 
 **Example**
 ```HTML
@@ -492,6 +492,328 @@ HTML5 drag-and-drop uses the DOM event model and drag events inherited from mous
 </body>
 </html>
 ```
+
+</blockquote>
+</details>
+
+---
+
+27. How do you create a hyperlink in HTML?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+To create a hyperlink in HTML, you use the `<a>` tag. For example, `<a href="https://www.example.com">Click here</a>` creates a hyperlink with the text "Click here" that links to "https://www.example.com".
+
+</blockquote>
+</details>
+
+---
+
+28. What is the purpose of the `<img>` tag in HTML?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+The `<img>` tag is used to display an image in HTML. It requires the "src" attribute to specify the image source file.
+
+</blockquote>
+</details>
+
+---
+
+29. How do you create a line break in HTML?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+To create a line break in HTML, you use the `<br>` tag. For example, `<p>This is the first line.<br>This is the second line.</p>` will display the text on two separate lines.
+
+</blockquote>
+</details>
+
+---
+
+30. What is the purpose of the `<head>` element in HTML?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+The `<head>` element is used to define the metadata and title of an HTML document. It includes information such as the document title, character encoding, stylesheets, and scripts.
+
+</blockquote>
+</details>
+
+---
+
+31. How do you create an unordered list in HTML?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+To create an unordered list in HTML, you use the `<ul>` tag along with the `<li>` tags for each list item. For example:
+
+```html
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+```
+</blockquote>
+</details>
+
+---
+
+32. What is the purpose of the `<div>` element in HTML?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+The `<div>` element is a generic container used to group and style HTML elements. It is commonly used for layout and to apply styles or JavaScript functionality to a group of elements.
+
+</blockquote>
+</details>
+
+---
+
+33. How do you add a comment in HTML?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+In HTML, you can add comments using the `<!-- -->` syntax. Anything between these comment tags will be ignored by the browser when rendering the page.
+
+</blockquote>
+</details>
+
+---
+
+34. What is the purpose of the `alt` attribute in the `<img>` tag?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+The `alt` attribute in the `<img>` tag provides alternative text for an image. It is displayed if the image fails to load or if a screen reader is used, helping to provide accessibility for visually impaired users.
+
+</blockquote>
+</details>
+
+---
+
+35. What is the purpose of the `<table>` tag in HTML?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+The `<table>` tag is used to create a table in HTML. It allows you to organize data into rows and columns.
+
+</blockquote>
+</details>
+
+---
+
+36. How do you define a table header in HTML?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+To define a table header in HTML, you use the `<th>` tag within the `<thead>` section. The `<th>` tag represents a header cell in a table.
+
+</blockquote>
+</details>
+
+---
+
+37. What is the purpose of the `<video>` tag in HTML?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+The `<video>` tag is used to embed a video in an HTML document. It allows you to play video content on a web page.
+
+</blockquote>
+</details>
+
+---
+
+38. How do you create a numbered list in HTML?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+To create a numbered list in HTML, you use the `<ol>` tag along with the `<li>` tags for each list item. For example:
+
+```html
+<ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ol>
+```
+</blockquote>
+</details>
+
+---
+
+39. How do you create a comment in HTML5?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+In HTML5, you can create comments using the `<!-- -->` syntax, just like in previous versions of HTML.
+
+</blockquote>
+</details>
+
+---
+
+40. What is the purpose of the `<canvas>` tag in HTML5?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+The `<canvas>` element in HTML5 provides a drawing surface for JavaScript. It can be used to create dynamic graphics, animations, and interactive visualizations. To draw on the canvas, you can use JavaScript methods such as `getContext()` to get the drawing context, and then use various drawing functions like `fillRect()`, `drawImage()`, or `lineTo()` to create shapes, images, or paths.
+
+</blockquote>
+</details>
+
+---
+
+41. How do you create a link that opens in a new tab or window?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+To create a link that opens in a new tab or window, you add the `target="_blank"` attribute to the `<a>` tag. For example, `<a href="https://www.example.com" target="_blank">Open in a new tab</a>` will open the link in a new tab or window when clicked.
+
+</blockquote>
+</details>
+
+---
+
+42. What are Web Workers in HTML5, and how do they improve performance?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Web Workers are a feature in HTML5 that allows JavaScript code to run in the background, separate from the main thread. They help improve performance by offloading computationally intensive tasks to separate threads, preventing them from blocking the main thread and thus keeping the user interface responsive.
+
+</blockquote>
+</details>
+
+---
+
+43. What are the semantic elements introduced in HTML5, and why are they important?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+HTML5 introduced semantic elements such as `<header>`, `<footer>`, `<nav>`, `<article>`, `<section>`, and others. These elements provide a more meaningful structure to web documents, making it easier for search engines, screen readers, and other tools to understand the content and improve accessibility. They also make the HTML code more readable and maintainable.
+
+</blockquote>
+</details>
+
+---
+
+44. What is the difference between the `<section>` and `<article>` elements in HTML5?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+The `<section>` element represents a standalone section of content, while the `<article>` element represents a self-contained composition that can be independently distributed or syndicated. In simpler terms, a section is a thematic grouping of content, while an article is a complete, independent piece of content that could stand alone.
+
+</blockquote>
+</details>
+
+---
+
+45. How does the `<audio>` element work in HTML5, and what are some of its attributes?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+The `<audio>` element is used to embed audio content in an HTML document. It allows you to specify the source file using the `src` attribute, and provides controls for playing, pausing, and adjusting the volume of the audio. Additional attributes include `autoplay`, `loop`, and `controls` to control the audio playback behavior.
+
+</blockquote>
+</details>
+
+---
+
+46. How can you use the Geolocation API in HTML5 to retrieve the user's location?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+The Geolocation API in HTML5 allows you to retrieve the user's geographical location through JavaScript. By calling the `navigator.geolocation.getCurrentPosition()` method, you can obtain the latitude and longitude coordinates of the user's location. This information can be used to provide location-based services or personalize content.
+
+</blockquote>
+</details>
+
+---
+
+47. What is the purpose of the `contenteditable` attribute in HTML5, and how can it be used?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+The `contenteditable` attribute in HTML5 allows you to make an element editable by the user, similar to a text editor. By setting `contenteditable="true"` on an element, such as a `<div>` or a `<p>`, the user can modify the content directly in the browser. This attribute is useful for creating rich-text editors or enabling inline editing of content.
+
+</blockquote>
+</details>
+
+---
+
+48. How can you implement offline web applications using HTML5?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+HTML5 provides the Application Cache (AppCache) API, which allows you to create offline web applications. By defining a cache manifest file, you can specify which resources should be cached and made available offline. This enables the web application to function even when the user is not connected to the internet.
 
 </blockquote>
 </details>
