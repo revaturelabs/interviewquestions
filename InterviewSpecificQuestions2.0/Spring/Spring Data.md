@@ -51,7 +51,7 @@
 
 ---
 
-4. `Spring Data JDBC` includes direct support for which database dialects?
+4.Which database dialects are directly supported by `Spring Data JDBC`?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -90,7 +90,7 @@
 </details>
 
 ---
-6. The `CrudRepository` interface does not have an `update` method then how do we update the record in the database? 
+6. How can we update a record in the database when the CrudRepository interface does not have an update method?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -108,7 +108,7 @@
 </details>
 
 ---
-7. Is it mandatory to call the `save` method to update an object inside a transactional method for `CrudRepository`?
+7. Do we need to invoke the `save` method within a transactional method when updating an object using CrudRepository?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -182,7 +182,7 @@ interface PersonRepository extends Repository<Person, Long> {
 </details>
 
 ---
-10. How you will implement the `SQL` `LIKE` query in Spring Data using method names? Give an example.
+10. How do you implement the `SQL` `LIKE` query in Spring Data using method names? Give an example.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -308,47 +308,8 @@ interface PersonRepository extends Repository<Person, Long> {
 </details>
 
 ---
-17. What default connection pool does spring boot use?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-
-<details> <summary> <b> Show Answer </b> </summary>
-
-<blockquote> 
-    
-- `Spring Boot` uses `HikariCP` as the default connection pool.
-- `HikariCP` has great performance and concurrency.
-
-</blockquote> 
-
-</details>
-
----
-
-18. What connection pool does spring boot supports?
-
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-<details> <summary> <b> Show Answer </b> </summary>
-
-<blockquote> 
-    
-- Spring Boot supports various popular connection pool providers as listed below:
-    - `HikariCP`
-    - `Tomcat pooling Datasource`
-    - `Commons DBCP2`
-    - `Oracle UCP & OracleDataSource`
-    - `Spring Framework’s SimpleDriverDataSource`
-    - `H2 JdbcDataSource`
-    - `PostgreSQL PGSimpleDataSource`
-    - `C3P0`
-
-</blockquote> 
-
-</details>
-
----
-19. What is the sequence of choosing various connection pools inside the Spring application?
+17. What is the sequence of choosing various connection pools inside the Spring application?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -367,7 +328,7 @@ interface PersonRepository extends Repository<Person, Long> {
 </details>
 
 ---
-20. What is `Programmatic & Declarative Transaction Management` in the Spring application?
+18. What is `Programmatic & Declarative Transaction Management` in the Spring application?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -388,7 +349,8 @@ interface PersonRepository extends Repository<Person, Long> {
 </details>
 
 ---
-21. What does isolation and propagation attributes denote in @Transactional annotation e.g. `@Transactional(isolation = xxx, propagation = xxx)`?
+19. What does isolation and propagation attributes denote in @Transactional annotation 
+Example: `@Transactional(isolation = xxx, propagation = xxx)`?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -405,30 +367,237 @@ interface PersonRepository extends Repository<Person, Long> {
 </details>
 
 ---
-22. What configurations do `Spring JDBC` & developer need to perform in the application?
+20. What is the PlatformTransactionManager?
 
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 
 <blockquote> 
-    
-- The table shows which actions Spring takes care of and which are developers’ responsibilities.
-  
-| **Steps** | **Action**                                               | **Spring** | **Developer** |
-| --------- | -------------------------------------------------------- | ---------- | ------------- |
-| 1         | Define connection parameters.                            |            | X             |
-| 2         | Open the connection.                                     | X          |               |
-| 3         | Specify the SQL statement.                               |            | X             |
-| 4         | Declare parameters and provide parameter values          |            | X             |
-| 5         | Prepare and run the statement.                           | X          |               |
-| 6         | Set up the loop to iterate through the results (if any). | X          |               |
-| 7         | Do the work for each iteration.                          |            | X             |
-| 8         | Process any exception.                                   | X          |               |
-| 9         | Handle transactions.                                     | X          |               |
-| 10        | Close the connection, the statement, and the result set. | X          |               |
+
+The PlatformTransactionManager is an interface in Spring that provides a consistent abstraction for managing transactions across different transactional resources, such as relational databases, message queues, or any other resource that supports transactions. It defines methods for beginning, committing, and rolling back transactions.
 
 </blockquote> 
+
+</details>
+
+---
+
+21. What is a PersistenceContext?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- A PersistenceContext, in the context of Java Persistence API (JPA), is a first-level cache of managed entities. It represents the set of persistent entities that are currently being managed by the JPA provider within a particular unit of work.
+
+- A PersistenceContext is a temporary storage space that holds the objects retrieved from the database or created within the application. 
+
+</blockquote> 
+
+</details>
+
+---
+
+22. What is Spring ORM?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- Spring ORM is a module within the Spring Framework that provides integration with Object-Relational Mapping (ORM) frameworks, primarily Hibernate, JPA (Java Persistence API), and other ORM technologies. It simplifies the development of database access code by providing a consistent and declarative way to interact with the database.
+
+- Spring ORM offers features such as transaction management, object-to-relational mapping, query execution, and caching. It allows developers to work with database entities as regular Java objects and abstracts away the complexities of SQL queries and database interactions.
+
+
+</blockquote>
+
+</details>
+
+---
+
+23.  what is the JDBC template?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+- The JDBC template is a class provided by the Spring Framework that implements the Template design pattern for database access using the JDBC (Java Database Connectivity) API. It simplifies the process of working with relational databases by encapsulating common database operations such as querying, updating, and deleting records. The JDBC template handles low-level details such as database connections, statement creation, and result set handling, allowing developers to focus on writing business logic instead of dealing with boilerplate code.
+
+</blockquote>
+
+</details>
+
+---
+
+24.  What is transaction propagation?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Transaction propagation refers to how a transaction is propagated from one method to another within a transactional context. It defines the behavior of nested method invocations when it comes to transaction management.
+
+In the context of Spring and its transaction management, transaction propagation determines whether a method should join an existing transaction or create a new one. It controls how transactions are inherited or shared between multiple methods.
+
+There are different transaction propagation options available, such as:
+
+- REQUIRED: The method must run within a transaction. If a transaction already exists, the method joins it; otherwise, a new transaction is created.
+- REQUIRES_NEW: The method always creates a new transaction. If an existing transaction exists, it is suspended until the new transaction completes.
+- SUPPORTS: The method can run with or without a transaction. If an existing transaction exists, the method joins it; otherwise, it executes non-transactionally.
+- NOT_SUPPORTED: The method always runs without a transaction, even if an existing transaction exists.
+
+
+</blockquote>
+
+</details>
+
+---
+
+25. What are the different modules available in Spring Data?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+The different modules available in Spring Data are:
+
+1. Spring Data JPA: Provides support for working with JPA (Java Persistence API) to access relational databases.
+
+2. Spring Data MongoDB: Offers support for working with MongoDB NoSQL database.
+
+3. Spring Data Redis: Provides support for working with Redis, an in-memory data store.
+
+4. Spring Data JDBC: Offers support for working with JDBC (Java Database Connectivity) to access relational databases using a lightweight and simplified approach.
+
+5. Spring Data Elasticsearch: Provides support for working with Elasticsearch, a distributed search and analytics engine.
+
+6. Spring Data Neo4j: Offers support for working with Neo4j, a graph database.
+
+7. Spring Data Cassandra: Provides support for working with Apache Cassandra, a highly scalable and distributed NoSQL database.
+
+8. Spring Data Couchbase: Offers support for working with Couchbase, a NoSQL document database.
+
+9. Spring Data Solr: Provides support for working with Apache Solr, a search platform built on Apache Lucene.
+
+
+
+</blockquote>
+
+</details>
+
+---
+
+26. How does Spring Data simplify database access and reduce boilerplate code?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Spring Data simplifies database access and reduces boilerplate code by providing a set of abstractions and ready-to-use implementations for common database operations. 
+
+1. It offers a unified and consistent programming model across different databases, allowing developers to work with different database technologies using a common API.
+
+2. Spring Data provides automatic repository implementations based on conventions and naming conventions, eliminating the need to write repetitive data access code.
+
+3. It supports query methods, where developers can define queries by simply declaring method names with specific prefixes or using annotations, reducing the need to write complex SQL or query DSLs.
+
+4. Spring Data supports pagination, sorting, and other common data access patterns out-of-the-box, making it easier to handle large datasets and perform efficient data retrieval.
+
+5. It integrates with the Spring Framework's transaction management, allowing developers to easily manage database transactions without writing explicit transaction code.
+
+
+</blockquote>
+
+</details>
+
+---
+
+27. List some of the Spring Data Annotations with its purpose?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+Some of the commonly used Spring Data annotations are:
+
+1. `@Entity`: Marks a class as an entity in JPA (Java Persistence API) and maps it to a database table.
+
+2. `@Table`: Specifies the name of the database table associated with an entity class.
+
+3. `@Id`: Marks a field as the primary key of an entity.
+
+4. `@GeneratedValue`: Specifies the strategy for generating values for an entity's primary key.
+
+5. `@Column`: Specifies the mapping between an entity's field and a database column.
+
+6. `@Transient`: Marks a field as not persistent, meaning it will not be stored in the database.
+
+7. `@Repository`: Marks a class as a repository, which is responsible for data access and manipulation.
+
+8. `@Query`: Defines a custom query method in a repository interface using JPQL (Java Persistence Query Language) or native SQL.
+
+9. `@Transactional`: Specifies that a method or class should be executed within a transaction.
+
+10. `@EnableJpaRepositories`: Enables Spring Data JPA repositories in a Spring Boot application.
+
+
+</blockquote>
+
+</details>
+
+---
+
+28.  How do you handle database migrations in Spring Data and Spring JDBC?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+In Spring Data, database migrations can be handled using external tools such as Flyway or Liquibase. These tools allow you to define and manage database schema changes using versioned migration scripts. Spring Data integrates with these tools by providing support for executing the migration scripts during application startup.
+
+In Spring JDBC, you can handle database migrations by executing SQL scripts manually. You can create SQL scripts that contain the necessary database schema changes and execute them using the `JdbcTemplate` provided by Spring JDBC. This approach requires you to manage the versioning and execution of the scripts manually.
+
+
+</blockquote>
+
+</details>
+
+---
+
+29.  How do you handle database transactions in Spring JDBC?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+In Spring JDBC, you can handle database transactions using the `TransactionTemplate` or by annotating your methods with the `@Transactional` annotation.
+
+1. Using `TransactionTemplate`: You can create an instance of `TransactionTemplate` and use its `execute` method to execute database operations within a transaction. You can define the transaction boundaries and handle transactional behavior programmatically.
+
+2. Using `@Transactional` annotation: You can annotate your methods or classes with `@Transactional` to enable declarative transaction management. Spring will automatically manage the transactions for annotated methods, ensuring that they are executed within a transactional context. You can configure transaction propagation, isolation level, and other transaction attributes using the `@Transactional` annotation.
+
+
+</blockquote>
 
 </details>
 
