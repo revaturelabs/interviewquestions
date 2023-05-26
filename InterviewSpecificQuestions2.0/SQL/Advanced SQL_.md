@@ -1,4 +1,4 @@
-47.  How do you sort data after it has been pulled from a database?
+1.  How do you sort data after it has been pulled from a database?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -34,7 +34,7 @@ Adjust the table name, column names, and sorting criteria as per your specific t
 
 ---
 
-48.  How to change an entry to null in sql ?
+2.  How to change an entry to null in sql ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -69,7 +69,7 @@ Make sure to adjust the table name, column name, and condition as per your speci
 
 ---
 
-56. How do you delete duplicate record with no key or timestamp.
+3. How do you delete duplicate record with no key or timestamp.
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
     
@@ -118,7 +118,7 @@ Note: This approach assumes that the combination of columns used for identifying
 
 ---
 
-58. How can you calculate the total amount for each month using the SQL CASE statement along with aggregation functions?
+4. How can you calculate the total amount for each month using the SQL CASE statement along with aggregation functions?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -144,7 +144,7 @@ This MySQL query uses the `SUM` function with conditional statements (`CASE WHEN
 
 ---
 
-59. What is the use of  "Merge" Command in SQL ?
+5. What is the use of  "Merge" Command in SQL ?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -180,7 +180,7 @@ This way, the MERGE statement allows you to handle both INSERT and UPDATE operat
 
 ---
 
-68. How would you do a SQL call for employees with a salary over 150K?
+6. How would you do a SQL call for employees with a salary over 150K?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -203,7 +203,7 @@ Note that you'll need to replace "employees" and "salary" with the actual names 
 </details>
 
 ---
-1. What is difference between Table and View in SQL?
+7. What is difference between Table and View in SQL?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -218,7 +218,7 @@ A `table` in SQL is a database object that stores data in `rows` and `columns`, 
 </details>
 
 ---
-2. What is a View?
+8. What is a View?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -233,7 +233,7 @@ A `view` in SQL is a virtual table that does not store data physically but prese
 </details>
 
 ---
-3. Does a view contain any data in it?
+9. Does a view contain any data in it?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -248,7 +248,7 @@ No, a `view` does not contain any data in it. It is a virtual table that present
 </details>
 
 ---
-4. Can you create a view from another view?
+10. Can you create a view from another view?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -272,7 +272,7 @@ WHERE condition;
 </details>
 
 ---
-5. How do you create a table view?
+11. How do you create a table view?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -296,7 +296,7 @@ In this example, `my_view` is the name of the view, `column1`, `column2`, etc. a
 </details>
 
 ---
-6. How to use 'as' with unions and views. 
+12. How to use 'as' with unions and views. 
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -332,7 +332,7 @@ In this query, the resulting view will be named "my_view" and the column names i
 </details>
 
 ---
-7. What is the best practice for using triggers?
+13. What is the best practice for using triggers?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -357,7 +357,7 @@ Triggers are powerful tools in SQL, but they should be used with caution to avoi
 </details>
 
 ---
-8. Create a trigger to delete an account if it has more than zero contacts.
+14. Create a trigger to delete an account if it has more than zero contacts.
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -388,7 +388,7 @@ This trigger will prevent the deletion of any account that has one or more conta
 
 ---
 
-9. List the Types of triggers in SQL?
+15. List the Types of triggers in SQL?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -409,7 +409,7 @@ Both types of triggers can be defined as either "BEFORE" or "AFTER" triggers. BE
 </details>
 
 ---
-11. What are triggers?
+16. What are triggers?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -425,7 +425,7 @@ In SQL, a `trigger` is a special type of stored procedure that automatically exe
 
 ---
 
-12. What are procedures in SQL?
+17. What are procedures in SQL?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -440,7 +440,7 @@ SQL procedures are a set of pre-written SQL codes that are saved in the database
 
 ---
 
-13. What is a stored procedure?
+18. What is a stored procedure?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -455,7 +455,7 @@ A `stored procedure` is a type of SQL procedure that is stored in the database s
 
 ---
 
-14. How to check the performance of a stored procedure?
+19. How to check the performance of a stored procedure?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg) 
 
@@ -476,7 +476,7 @@ There are different ways to check the performance of a stored procedure in SQL. 
 </details>
 
 ---
-16. Where do we use SQL procedures?
+20. Where do we use SQL procedures?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -499,7 +499,7 @@ SQL procedures can be used in many places, such as:
 
 ---
 
-17. How to write a stored procedure?
+21. How to write a stored procedure?
 
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -528,7 +528,7 @@ Here, `procedure_name` is the name of the stored procedure, and `@parameter1`, `
 </details>
 
 ---
-19. What is the difference between UNION and UNION ALL?
+22. What is the difference between UNION and UNION ALL?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -548,7 +548,7 @@ So, we use UNION when we want to combine two or more tables with the same struct
 </details>
 
 ---
-21. What are indexes in SQL?
+23. What are indexes in SQL?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -562,7 +562,7 @@ Indexes are database structures that improve the performance of queries by enabl
 
 ---
 
-22. Where would you place a COUNT() in SQL?
+24. Where would you place a COUNT() in SQL?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 <details><summary><b> Show Answer</b></summary>
@@ -582,7 +582,7 @@ This will return the total number of rows in the table "customers".
 
 ---
 
-23. What are aggregate functions?
+25. What are aggregate functions?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)  
 
@@ -597,7 +597,7 @@ Aggregate functions are SQL functions that are used to perform calculations on a
 ---
 
 
-24. How do you use the MIN(), MAX() aggregation function?
+26. How do you use the MIN(), MAX() aggregation function?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -626,7 +626,7 @@ FROM table_name;
 
 ---
 
-25. Explain SQL GROUP BY clause.
+27. Explain SQL GROUP BY clause.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -652,7 +652,7 @@ This statement groups the sales data by the Salesperson and Product columns and 
 
 ---
 
-26 List the aggregate functions
+28. List the aggregate functions.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -674,7 +674,7 @@ This statement groups the sales data by the Salesperson and Product columns and 
 
 
 
-27. Explain SQL GROUP BY clause.
+29. Explain SQL GROUP BY clause.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -700,7 +700,7 @@ This statement groups the sales data by the Salesperson and Product columns and 
 </details>
 
 ---
-29. List the scalar functions in SQL?
+30. List the scalar functions in SQL?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -723,7 +723,7 @@ SQL has a variety of built-in scalar functions that can be used to manipulate da
 
 ---
 
-12. How to troubleshoot a long query?
+31. How to troubleshoot a long query?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -750,7 +750,7 @@ To troubleshoot a long query in SQL, you can follow these steps:
 
 ---
 
-22. What is the difference between H2 Database and MySQL?
+32. What is the difference between H2 Database and MySQL?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -765,7 +765,7 @@ H2 and MySQL are both relational database management systems, but differ in thei
 
 ---
 
-24. How do you compare the data in the Database?
+33. How do you compare the data in the Database?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -780,7 +780,7 @@ To compare data in a database, you need to execute queries to retrieve the data 
 
 ---
 
-2. What is an Alias?
+34. What is an Alias?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -810,7 +810,7 @@ In this example, the column "first_name" is given the alias "First", and the col
 
 ---
 
-4. what is replace and rank function in SQL?
+35. what is replace and rank function in SQL?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -850,7 +850,7 @@ This will return a result set with the employee name, salary, and rank, where th
 
 ---
 
-17. How do you create a table and populate it in the same instance in PostgreSQL ?
+36. How do you create a table and populate it in the same instance in PostgreSQL ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -890,7 +890,7 @@ WHERE
 ---
 
 
-30. What is the substring function used for?
+37. What is the substring function used for?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -919,7 +919,7 @@ The SUBSTRING function is useful for extracting parts of a string, such as a per
 </details>
 
 ---
-31. Talk about transaction control language and its advantages
+38. Talk about transaction control language and its advantages
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -949,7 +949,7 @@ In summary, TCL provides a robust mechanism for managing transactions in a datab
 
 
 
-34. What is the syntax for UPDATE in SQL?
+39. What is the syntax for UPDATE in SQL?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -986,7 +986,7 @@ This statement sets the "price" column to 19.99 for all products with a "product
 ---
 
 
-35. What is SQL window functions?
+40. What is SQL window functions?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1026,7 +1026,7 @@ This query uses the SUM window function to calculate the running total of the "s
 ---
 
 
-37. How would you delete duplicate record in a database?
+41. How would you delete duplicate record in a database?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1065,7 +1065,7 @@ Note that you should always back up your data before deleting any rows from a ta
 </details>
 
 ---
-40. Consider a database schema for an online shopping application. The schema consists of the following tables:
+42. Consider a database schema for an online shopping application. The schema consists of the following tables:
 
  - Customers (customer_id, name, email, address)
  - Orders (order_id, customer_id, order_date, total_amount)
@@ -1100,7 +1100,7 @@ ORDER BY revenue DESC;
 
 ---
 
-41. How do you grant or revoke privileges on database objects in SQL?
+43. How do you grant or revoke privileges on database objects in SQL?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1152,7 +1152,8 @@ REVOKE INSERT ON employees FROM john;
 </details>
 
 ---
-1. What are the constraints SQL follows in all their databases tool?
+
+44. What are the constraints SQL follows in all their databases tool?
 
 ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1171,7 +1172,7 @@ REVOKE INSERT ON employees FROM john;
 
 ---
 
-2. How are primary key constraints and unique key constraints different? 
+45. How are primary key constraints and unique key constraints different? 
 
  ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1183,7 +1184,7 @@ REVOKE INSERT ON employees FROM john;
 
 ---
 
-3. When creating a table in SQL, if you forget to make a column as the primary key, then is there any possibility to create a primary key on that column or do we have to delete the table from the database so that we can create a primary key while creating a table?
+46. When creating a table in SQL, if you forget to make a column as the primary key, then is there any possibility to create a primary key on that column or do we have to delete the table from the database so that we can create a primary key while creating a table?
 
  ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1198,7 +1199,7 @@ alter table table_name add primary key(column_name);
 
 ---
 
-4. Create a student table having id, name, age and class as columns in it. Write down the query that will create that table in the "school" database.
+47. Create a student table having id, name, age and class as columns in it. Write down the query that will create that table in the "school" database.
 
 ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1222,7 +1223,7 @@ create table school(
 </details>
 
 ---
-8. Is `drop` and `truncate` commands have the same usage in SQL?
+48. Is `drop` and `truncate` commands have the same usage in SQL?
 
  ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1234,7 +1235,7 @@ create table school(
 
 ---
 
-9. Suppose you have created a table called "student" with column fields as id, name, age, address and class. But now you want to rename the "id" column to "student_id", then how will you do that in SQL?
+49. Suppose you have created a table called "student" with column fields as id, name, age, address and class. But now you want to rename the "id" column to "student_id", then how will you do that in SQL?
 
  ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1250,7 +1251,7 @@ rename column id to student_id;
 
 ---
 
-10. How `rename` and `alter` command different from each other while renaming a table in SQL? 
+50. How `rename` and `alter` command different from each other while renaming a table in SQL? 
 
  ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1262,7 +1263,8 @@ rename column id to student_id;
 </details>
 
 ---
-18. Assume that you have created one table as "emp" and now you want to change that table name to "employee" then what are the ways, in SQL, through which we can change the table name? 
+
+51. Assume that you have created one table as "emp" and now you want to change that table name to "employee" then what are the ways, in SQL, through which we can change the table name? 
 
  ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1283,7 +1285,7 @@ rename to employee;
 
 ---
 
-19. Suppose Jack has created a table as "Food" with id and food_name field as varchar datatype. But now he wanted to change the datatype of id from varchar to int. What query he should write that will do his task?
+52. Suppose Jack has created a table as "Food" with id and food_name field as varchar datatype. But now he wanted to change the datatype of id from varchar to int. What query he should write that will do his task?
 
 ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1300,7 +1302,7 @@ modify column id int;
 
 ---
 
-20. Differentiate between `alter` and `update` in SQL 
+53. Differentiate between `alter` and `update` in SQL 
 
  ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1313,7 +1315,8 @@ modify column id int;
 </details>
 
 ---
-28. How do you create an index in a table? 
+
+54. How do you create an index in a table? 
 
  ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1329,7 +1332,7 @@ add index(column_name);
 
 ---
 
-29. You have 4 indexes in your table "order" but now you want to remove one index named "author_id" from it. what will be your query for it?
+55. You have 4 indexes in your table "order" but now you want to remove one index named "author_id" from it. what will be your query for it?
 
 ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
@@ -1344,7 +1347,8 @@ drop index author_id;
 </details>
 
 ---
-32. In SQL, how do list all the databases and tables that are available?
+
+56. In SQL, how do list all the databases and tables that are available?
 
 ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
