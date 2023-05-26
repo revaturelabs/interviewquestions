@@ -1561,4 +1561,274 @@ or department = "Training";
 </details>
 
 ---
+44. Assume you are handling a "student" table in the database having id, name, age, state, and class fields. Your task is to fetch the records of those students who are from "Texas" state.
 
+ ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ 
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```sql
+select * from student 
+where state = "Texas";
+```
+
+</details>
+
+---
+
+45. Tell a way about how to give a different name to a field while executing a select query?
+
+ ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> We can use the `as` as an alias name for the column, for example:  
+```sql
+select Name as "First_name" from table_name;
+```
+
+</details>
+
+---
+
+46. Give one single query which includes, select, where, order by, group by, and having clauses in it.  
+
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ 
+<details><summary> <b>Show Answer</b> </summary>
+
+> The required query can be this:  
+```sql
+select id, name, class, marks from student 
+where marks>= 33 and marks <=100 
+order by id 
+group by class 
+having count(id);
+```
+
+</details>
+
+---
+
+47. In SQL, how will you give the count of the students from the student table whose name starts with 'H'.
+
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ 
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```sql
+select count(name) as Name_H_students from student
+where name like 'H%';
+```
+
+</details>
+
+---
+
+48. Tell me about the ways through which we can search for a "string" pattern in SQL?
+
+ ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> To search "string" pattern, we can use the `like` operator with `where` class.  
+> - To search only for a fixed number of characters we can use '_' with like. For example, we have to find the name of those students having 4 characters only. for that use four underscores.
+```sql
+select name from student where name like '____'; 
+```
+   
+> - To search string starting with a particular character or substring we can write like this:   
+```sql
+select name from student where name like 'AK%';
+```
+   
+> - To search string ending with a particular character or substring we can write like this: 
+```sql
+select name from student where name like '%SK';
+```
+  
+</details>
+
+---
+
+49. Your boss has given you a work to find the details of the workers in "HR" deparment from the "Company" table whose salary ranges between 10000 and 50000.
+
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ 
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```sql
+select * from company
+where salary between 10000 and 50000 
+and department = "HR";
+```
+
+</details>
+
+---
+50. From "employee" table give the "names" and "emp_id" of those employees who receive a higher salary than the employee with "emp_id" = 101.
+
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+   
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```sql
+select emp_id, name from employees 
+where salary > 
+( select salary from employee
+where emp_id = 101
+);
+
+```
+
+</details>
+
+---
+51. In an employee table, how will you find those employee’s name and emp_id whose salary matches the lowest salary of any of the departments in SQL?
+
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+   
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```sql
+select name, emp_id from employee
+where salary IN 
+( select min(salary)
+from employee
+group by department
+);
+```
+
+</details>
+
+---
+
+52. In SQL, give the count of those employees who is getting a salary more than the average salary from "employee" table.
+
+   ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```sql
+select count(*) from employee
+where salary >
+(select avg(salary)
+from employee
+);
+
+```
+</details>
+
+---
+53. In SQL, what is a cross-join? Give a syntax.
+
+   ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> `cross join` also known as `cartesian join`, is used to join each tuple of the 1st table with each tuple of 2nd table. 
+> Syntax of cross join:  
+```sql
+select column_names from table1 
+cross join table2 ;
+```
+
+</details>
+
+---
+54. Is it possible to make a `cross join` work as an `inner join` in SQL.
+
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> Yes, it is possible to use `cross join` as an `inner join` in SQL by using `where` clause with it. For example:    
+> 
+```sql
+select * from table1 
+cross join table2
+where table1.id = table2.id;
+```
+
+</details>
+
+---
+55. Assume, you have two tables’ "customers" and "orders". So, tell me how will you execute the right join between both tables?
+
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+ 
+<details><summary> <b>Show Answer</b> </summary> 
+
+>  
+```sql
+select customers.* , orders.* 
+from customers
+right join orders 
+on customers.id = orders.id;
+```
+
+</details>
+
+---
+56. Give the query in SQL that will replace the space with '-' in full name from the employee table.
+
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ 
+<details><summary> <b>Show Answer</b> </summary>
+
+> For replacing something in SQL select query we can use the `replace` function.  
+```sql
+select replace(full_name, " ", "-")
+from employee;
+```
+
+</details>
+
+---
+57. When managing a contact_details table in SQL, you found out that some of the records are duplicates and now you want to see the duplicate records only in your result set. What select query you will write for this that will fetch you the duplicate records? In contact_details table, columns are phoneNo, name, etc. 
+ 
+   ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+```sql
+select phoneNo, name 
+from contact_details
+group by phoneNo
+having count(phoneNo) > 1;
+```
+
+</details>
+
+---
+
+68. When managing a contact_details table in SQL, you found out that some of the records are duplicates and now you want to delete those duplicate records only so that only distinct records are leftout in your table. Give the query for this that will delete the duplicate records. In contact_details table, columns are phoneNo, name, id etc. 
+
+ ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```sql
+delete d1 from contact_details d1
+inner join contact_details d2
+where d1.id > d2.id
+and d1.phoneNo = d2.phoneNo;
+```
+
+</details>
+
+---
