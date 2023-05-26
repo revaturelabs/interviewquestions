@@ -2858,3 +2858,258 @@ select id from project);
 </details>
 
 ---
+99. Imagine you are handling a "company" database which has one table as "department" and your manager is asking you to give the details of those employees who joined in January of 2022.
+
+   ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```sql
+select * from department 
+where year(joined) = 2022 and month(joined) = 2;
+```
+</details>
+
+---
+
+
+100. In a company there are 5 departments and in each department, there is one manager you have to get the employee id "emp_id" and "name" of those employees who are working for the Manager having "Manager_id" as 432.[ take the table name as Employee]
+
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+ 
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```sql
+select emp_id, name
+from Employee
+where Manager_id = 432;
+```
+
+
+</details>
+
+---
+101. Suppose you are having a "employee" table, in which you are trying to find out those employee’s details having the same department as the employee whose id is 121.
+
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+   
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```sql
+select * from employee
+where department = 
+( select department 
+from employee
+where id = 121
+);
+```
+
+</details>
+
+---
+102. Suppose you are handling two tables, one is an employee table and another one is a department table and there is a primary-foreign key relationship between both. Assume your boss asked you to give the emp_id and name of those employees who works in the product department. 
+
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+   
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```sql
+select e.name , e.id from employee e , department d
+where e.id = d.id
+and d.department = "product"
+```
+
+</details>
+
+---
+
+103. In an "employee" table , give me the query that will fetch the employee detail of those employees who are getting the second highest salary in the company. 
+
+   ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```sql
+select * from employee
+where salary in 
+( select max(salary) from employee
+where salary not in 
+( select max(salary) from employee
+);
+```
+</details>
+
+---
+
+104. Write a SQL query that will give the details of those students, from the student table, who comes from NY, Florida and Alaska state and who are from 9th, 10th, 11th and 12th class. 
+
+  ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```sql
+select * from student
+where state in ["NY", "Florida", "Alaska"] 
+and class in [ "9th", "10th", "11th", "12th"];
+```
+
+</details>
+
+---
+105. Can we use `inner join` without the `on` condition?
+
+   ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> Yes, we can use the `inner join` without `on` condition in SQL as it is an optional condition in the inner join or joins. If used without one condition, it will generate the same output as `cross join`.
+
+</details>
+
+---
+106.  How will you execute a self-join SQL?
+
+ ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> A self-join can be executed by joining the table to itself. for example: 
+```SQL
+select t1.name, t1.id
+from table1 t1
+join table1 t2 
+on t1.id = t2.emp_id;
+```
+
+</details>
+
+---
+
+107. Talk about joins and its types in SQL.
+
+ ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> Joins, in SQL, are useful to combine records of two or more different tables. 
+> We have various types of joins like:  
+> - Inner Join: After join, it returns matching rows of both tables only.
+> - Outer Join: After join, it returns matching rows of both the tables plus left out rows of left table and right table.
+> - left Join: It returns matching rows of both the tables plus left out rows from the left table.
+> - right Join: It returns matching rows of both the tables plus left out rows from the right table.
+
+</details>
+
+---
+
+108. Give the query that will display the total marks of all the students by adding mid-term and final_term marks. return name and roll_no also.
+
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+   
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```sql
+select name, roll_no,
+mid_term + final_term as Total_marks
+from student;
+```
+
+</details>
+
+---
+
+109. Imagine you have two tables, "customers" and "orders" and you have to find all customers who placed 0 or more orders. How will you do that in SQL?
+
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+ 
+<details><summary> <b>Show Answer</b> </summary>
+
+> Using `left join` we can find the details of all the customers who placed 0 or more orders.  
+```SQL
+select customer_number, name
+from customers
+left join orders 
+on orders.customer_number = customer_number;
+```
+
+</details>
+
+---
+110. In SQL, suppose you are handling two tables, "customers" and "orders", how would you execute the outer join between both tables?
+
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+ 
+<details><summary> <b>Show Answer</b> </summary>
+
+> Suppose we are taking customer names and order_id from both tables while doing the full join.    
+```SQL
+select customers.name, orders.order_id
+from customers
+full join orders
+on customers.id = orders.order_id;
+```
+
+</details>
+
+---
+111. what is the difference between union and full join in SQL?
+
+   ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> - Union joins the two-table data vertically, whereas full join joins the two table data horizontally.
+> - There are more restrictions when using a union between two tables than using full join. 
+> - Union will take only distinct values from both tables, whereas full join combines all the data from both tables. 
+
+</details>
+
+---
+
+112. Imagine there are two tables’ Workers and Managers, where the Workers table has all the employee names along with the employee id who are working for the company and the Managers table has all the manager’s names along with the manager id of that company. Give one SQL query that will print the names of Workers who are also Managers.
+
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ 
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```sql
+select Workers.name from Workers
+inner join Managers
+on Workers.empID = Managers.managerID;
+```
+
+</details>
+
+---
+
+113. Assume you have a Worker table having columns like name, id, department, salary, address, etc. How will you find the number of workers in each department in descending order?
+
+ ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```sql
+select department, count(id) as number_of_emp 
+from Worker
+group by department
+order by number_of_emp desc;
+```
+
+</details>
+
+---
