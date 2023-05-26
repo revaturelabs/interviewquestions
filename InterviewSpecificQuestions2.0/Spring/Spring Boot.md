@@ -759,7 +759,7 @@ The Spring Boot DevTools is a module provided by Spring Boot that enhances the d
 
 ---
 
-31.List the annotations that you use for Spring Boot apps with its purpose?  
+31.List the annotations that you use for Spring Boot application with its purpose?  
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
