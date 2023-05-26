@@ -1016,3 +1016,32 @@ This relationship means that each order can have multiple items, and each item b
 </details>
 
 ---
+38. What is an ERD?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+An entity-relationship diagram (ERD) is a graphical representation of the relationships between entities in a database. It is used to design and model databases and to communicate the structure of a database to stakeholders. ERDs use symbols and notation to represent the entities, attributes, and relationships in the database.
+
+</blockquote>
+
+</details>
+
+---
+27. Is the command line the only way to interact with SQL?
+
+ ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> No, the Command line is one of the ways through which we can interact with SQl, but there are 2 main ways also apart from the command line:  
+> - using the web interface.
+> - Through a programming language.
+
+</details>
+
+---
