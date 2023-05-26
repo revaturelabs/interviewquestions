@@ -1045,3 +1045,20 @@ An entity-relationship diagram (ERD) is a graphical representation of the relati
 </details>
 
 ---
+37. What is the purpose of using SQL and what are its applications?
+
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ 
+<details><summary> <b>Show Answer</b> </summary>
+
+> SQL is used to interact with the data that are present in tabular form.  
+> The applications of SQL are:
+> - It is used as a backend of a front-end system to store its data in the database.
+> - It permits a user or group of users to access the database.
+> - It is used on web sites where a need for storing the data is required.
+> - It is used in maintaining old data or historical data.
+
+
+</details>
+
+---
