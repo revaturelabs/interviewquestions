@@ -41,7 +41,7 @@ Docker is a very popular containerization platform which packages our applicatio
 
 ---
 
-4. Explain ab Docker Registry?
+4. What is Docker Registry?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -145,7 +145,7 @@ No, we can pull the images from the Docker hub without login. But to push the im
 
 ---
 
-11. Suppose host server has 2 GB space and your image size is 500 MB, then is it possible to run more than 4 containers of this image on the host?
+11. Consider a host server that has 2 GB space and your image size is 500 MB, then is it possible to run more than 4 containers of this image on the host?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -167,7 +167,7 @@ Yes, we can create multiple containers from the same image. As the image is made
 <blockquote>
 
 - Docker is written in Golang.
--Command to check Docker version is `docker -v`.
+- Command to check Docker version is `docker -v`.
 
 </blockquote>
 </details>
@@ -208,7 +208,7 @@ In two ways we can do it.
 
 ---
 
-15. Suppose I want to pull a **alpine-git** image and **alpine** image is already installed then will Docker download a full or partial **alpine-git** image?
+15. If an **alpine-git** image needs to be pulled and **alpine** image is already installed then will Docker download a full or partial **alpine-git** image?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -340,7 +340,7 @@ Container logs are stored in host server.
 
 ---
 
-24. 10+ containers are running on my host server. All these containers stop on server reboot or docker engine restart which requires a manually container start. Is there any way to auto restart the containers in this scenario?
+24. 10+ containers are running on a host server. All these containers stop on server reboot or docker engine restart which requires a manual container start. Is there any way to auto restart the containers in this scenario?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -385,7 +385,7 @@ No, restart and rm cannot be used together. restart will try to start the contai
 
 ---
 
-27. I want to clone a GitHub repo, but I don't have git utility installed in my system, although docker is running in my system and git image is also available. So, considering the scenario, how can I clone the repo now?
+27. A GitHub repo needs to be cloned, but the git utility is not installed in the system, although docker is running in the system and git image is also available, how can the repo be cloned?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -399,7 +399,7 @@ We can make use of available git image along with bind mount to mount host direc
 
 ---
 
-28. I have a requirement to copy token/config file inside a container but can't use Docker command for that. Is there any alternate way to achieve it?
+28. Is there an alternate way to copy token/config file inside a container without using Docker command?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -413,7 +413,7 @@ Docker shares resources from out host for running a container. So whatever chang
 
 ---
 
-29. I have an app and a db container running on a same host? How can these two containers talk to each other?
+29. An app and a db container are running on the same host, how can these containers talk to each other?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -580,7 +580,7 @@ Docker client and Docker Daemon communication happen with the combination of Res
 
 ---
 
-40. Can u tell me something about Docker compose?
+40. What is Docker compose?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -613,4 +613,193 @@ The command to kill a container:
 
 ---
 
+42. What is the difference between a container and a virtual machine?
 
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Containers and virtual machines (VMs) both provide isolation, but they work differently. A container shares the host operating system's kernel and resources, allowing for faster startup and more efficient resource utilization. In contrast, a VM runs a separate operating system on top of a hypervisor and requires more resources.
+
+</blockquote>
+</details>
+
+---
+
+43. What are the benefits of using Docker?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Docker offers several benefits, including:
+
+1. Portability: Docker containers can run on any system that supports Docker, making it easy to deploy applications across different environments.
+2. Scalability: Docker enables horizontal scaling, allowing you to replicate containers to handle increased workloads.
+3. Isolation: Containers provide process-level isolation, ensuring that applications and their dependencies are encapsulated and don't interfere with each other.
+4. Reproducibility: Docker containers encapsulate the entire application stack, making it easier to reproduce the same environment across different machines.
+5. Continuous Integration and Deployment (CI/CD): Docker simplifies the process of building, testing, and deploying applications, making it a popular choice for CI/CD pipelines.
+
+</blockquote>
+</details>
+
+---
+
+44. How do you install Docker?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Docker provides installation instructions for various operating systems on their website. You can visit https://www.docker.com/get-started to find the installation steps for your specific platform.
+
+</blockquote>
+</details>
+
+---
+
+
+45. How do you create a Docker image with Dockerfile?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Docker images are created using a Dockerfile, which is a plain text file that contains a set of instructions to build the image. You can use the `docker build` command with the appropriate options to build an image based on the Dockerfile.
+
+</blockquote>
+</details>
+
+---
+
+46. How do you run a Docker container?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+You can run a Docker container using the `docker run` command followed by the name or ID of the Docker image you want to run. You can also specify additional options, such as port mappings or environment variables, to customize the container's behavior.
+
+</blockquote>
+</details>
+
+---
+
+47. How can containers communicate with each other?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Docker provides networking capabilities that allow containers to communicate with each other. By default, containers can communicate with each other on the same Docker network using their container names as hostnames. You can also expose and publish ports to allow external access to specific containers.
+
+</blockquote>
+</details>
+
+---
+
+48. Can Docker be used for both development and production environments?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Yes, Docker is commonly used in both development and production environments. It provides consistency between development, testing, and production by ensuring that the same containerized environment is used throughout the software lifecycle.
+
+</blockquote>
+</details>
+
+---
+
+49. What is a Dockerfile, and how does it work?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+A Dockerfile is a text file that contains a set of instructions for building a Docker image. It provides a declarative syntax for specifying the image's base, dependencies, environment variables, volume mounts, network settings, and more. When you run the `docker build` command with a Dockerfile, Docker reads the file and executes the instructions step-by-step to create the image.
+
+</blockquote>
+</details>
+
+---
+
+50. What are the techniques used to optimize the size of Docker images?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+To optimize the size of Docker images, you can consider the following techniques:
+
+1. Use lightweight base images: Start your Docker image with a minimal and specialized base image rather than a general-purpose operating system.
+2. Minimize layers: Combine multiple RUN instructions into a single instruction to reduce the number of layers in the image.
+3. Remove unnecessary dependencies and files: Clean up temporary files, unused dependencies, and artifacts in the same layer where they were created.
+4. Use .dockerignore: Create a .dockerignore file in your build context to exclude unnecessary files and directories from being added to the image.
+5. Use multi-stage builds: Utilize multi-stage builds to build artifacts in one stage and copy only the necessary artifacts to the final image.
+
+</blockquote>
+</details>
+
+---
+
+51. What are the ways to scale Docker containers?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Docker provides several mechanisms to scale containers:
+
+1. Manual scaling: You can manually start multiple instances of a container using the `docker run` command with appropriate options and different container names.
+2. Docker Compose scaling: If you're using Docker Compose, you can define the desired number of container replicas for a service in the Compose file and use the `docker-compose up --scale <service-name>=<replica-count>` command to scale the service.
+3. Orchestration platforms: Docker can integrate with container orchestration platforms like Docker Swarm or Kubernetes, which provide built-in mechanisms for scaling containers based on defined rules and policies.
+
+</blockquote>
+</details>
+
+---
+
+52. How can you manage persistent data with Docker?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Docker offers several options for managing persistent data:
+
+1. Volumes: Docker volumes are the recommended way to manage persistent data. They can be attached to containers, allowing data to be stored and shared independently of the container's lifecycle. Volumes can be created manually or defined in a Docker Compose file.
+2. Bind mounts: Bind mounts map a host file or directory to a container, allowing you to access and modify the host's filesystem from within the container. Bind mounts provide direct access to the host's file system and can be useful for development or when you need to share data between the host and the container.
+3. Docker plugins: Docker plugins like Docker Volume Plugins (DVP) or third-party storage plugins allow you to integrate external storage systems with Docker to manage persistent data.
+
+</blockquote>
+</details>
+
+---
+
+53. How Docker Swarm differs from Kubernetes?
+
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+<blockquote>
+
+Docker Swarm is Docker's native clustering and orchestration solution for managing a cluster of Docker nodes. It provides features for service discovery, load balancing, scaling, and high availability. Docker Swarm is simpler to set up and has a smaller learning curve compared to Kubernetes, making it a good choice for smaller deployments or when you want to stick with the Docker ecosystem.
+
+Kubernetes, on the other hand, is a popular and highly flexible container orchestration platform that can manage containers from various sources, not just Docker. It offers a more extensive set of features and is suitable for large-scale, complex deployments with advanced requirements.
+
+</blockquote>
+</details>
+
+---
