@@ -779,3 +779,289 @@ To compare data in a database, you need to execute queries to retrieve the data 
 </details>
 
 ---
+
+2. What is an Alias?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+- In SQL, an alias is a temporary name assigned to a table or column in a query. Aliases can be used to make column names more meaningful or to distinguish between multiple tables with similar names.
+
+- Aliases are created using the AS keyword, which is optional. Here's an example of creating an alias for a table:
+```sql
+SELECT * FROM employees AS emp;
+```
+In this example, the table "employees" is given the alias "emp". From this point forward in the query, the table can be referred to as "emp" instead of "employees". This can make the query more readable and easier to understand.
+
+- Aliases can also be used for columns. Here's an example:
+```sql
+SELECT first_name AS "First", last_name AS "Last" FROM employees;
+```
+In this example, the column "first_name" is given the alias "First", and the column "last_name" is given the alias "Last". This can be useful for making the column names more descriptive or easier to read.
+
+- Aliases are a powerful feature in SQL that can be used to make queries more readable and easier to understand.
+
+</blockquote>
+
+</details>
+
+---
+
+4. what is replace and rank function in SQL?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+- In SQL, the REPLACE function is used to replace all occurrences of a substring within a string with a new substring. The basic syntax for the REPLACE function is:
+```sql
+REPLACE(string, old_substring, new_substring)
+```
+Here, "string" is the original string that you want to modify, "old_substring" is the substring that you want to replace, and "new_substring" is the substring that you want to replace it with.
+
+For example, if you have a string "Hello, world!" and you want to replace the comma with a space, you can use the following query:
+```sql
+SELECT REPLACE('Hello, world!', ',', ' ');
+```
+This will return the string "Hello world!" with the comma replaced by a space.
+
+- The RANK function in SQL is used to assign a rank to each row within a result set based on the values in one or more columns. The basic syntax for the RANK function is:
+```sql
+RANK() OVER (ORDER BY column1 [ASC/DESC], column2 [ASC/DESC], ...)
+```
+Here, "column1", "column2", etc. are the columns that you want to use for sorting the rows. You can specify multiple columns separated by commas, and you can specify the sort order (ascending or descending) for each column.
+
+For example, if you have a table "employees" with columns "name" and "salary", and you want to assign a rank to each employee based on their salary, you can use the following query:
+```sql
+SELECT name, salary, RANK() OVER (ORDER BY salary DESC) AS rank
+FROM employees;
+```
+This will return a result set with the employee name, salary, and rank, where the rank is assigned based on the salary in descending order. The employee with the highest salary will have a rank of 1, the employee with the second-highest salary will have a rank of 2, and so on.
+
+</blockquote>
+
+</details>
+
+---
+
+17. How do you create a table and populate it in the same instance in PostgreSQL ?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+The CREATE TABLE AS statement creates a new table and fills it with the data returned by a query. The following shows the syntax of the CREATE TABLE AS statement:
+
+```sql
+CREATE TABLE new_table_name
+AS query;
+```
+In this syntax:
+
+- First, specify the new table name after the CREATE TABLE clause.
+- Second, provide a query whose result set is added to the new table after the AS keyword.
+```sql
+CREATE TABLE action_film AS
+SELECT
+    film_id,
+    title,
+    release_year,
+    length,
+    rating
+FROM
+    film
+INNER JOIN film_category USING (film_id)
+WHERE
+    category_id = 1;
+```
+
+</blockquote>
+
+</details>
+
+---
+
+
+30. What is the substring function used for?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+The SUBSTRING function in SQL is used to extract a substring from a string value. The function takes three arguments: the input string, the starting position, and the length of the substring.
+
+Here's the syntax of the SUBSTRING function:
+```sql
+SUBSTRING(input_string, start_position, length)
+```
+The first argument is the input string from which the substring will be extracted. The second argument is the starting position of the substring within the input string. The third argument is the length of the substring.
+
+Here's an example of using the SUBSTRING function to extract a substring from a string value:
+```sql
+SELECT SUBSTRING('Hello World', 1, 5);
+```
+This SQL statement retrieves the substring "Hello" from the input string "Hello World". The start_position argument is 1, which means the substring will start at the first character of the input string. The length argument is 5, which means the substring will contain the first five characters of the input string.
+
+The SUBSTRING function is useful for extracting parts of a string, such as a person's first name from a full name or a year from a date value. It's commonly used in combination with other string functions and operators to manipulate and analyze string data in SQL.
+
+</blockquote>
+
+</details>
+
+---
+31. Talk about transaction control language and its advantages
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+Transaction Control Language (TCL) is a set of SQL statements that are used to control transactions in a relational database. The three main TCL commands are COMMIT, ROLLBACK, and SAVEPOINT.
+
+The advantages of TCL are:
+
+- Data Consistency: TCL commands ensure data consistency in the database. A transaction may contain multiple queries that modify the data in the database. If any of the queries fail to execute, the entire transaction is rolled back to its original state. This helps to maintain the integrity of the data.
+
+- Atomicity: Atomicity is one of the ACID properties of a database. It ensures that a transaction is treated as a single, indivisible unit of work. If any part of a transaction fails, the entire transaction is rolled back, and the database is returned to its original state. This ensures that the database remains consistent and that data is not lost or corrupted.
+
+- Recovery: TCL commands help to recover data in the event of a system failure or unexpected shutdown. When a transaction is committed, the changes made by the transaction are written to the database's transaction log. If the system crashes, the database can use the transaction log to recover any changes that were not written to disk before the failure occurred.
+
+- Concurrency Control: TCL commands help to manage concurrency in a database. Multiple users may be accessing the same data at the same time, and TCL commands ensure that transactions do not interfere with each other. When a transaction is executed, a lock is placed on the data that it accesses. This lock prevents other transactions from modifying the same data until the first transaction is committed or rolled back.
+
+In summary, TCL provides a robust mechanism for managing transactions in a database. It ensures data consistency, atomicity, recovery, and concurrency control, which are critical to maintaining the integrity of the database and its data.
+
+</blockquote>
+
+</details>
+
+---
+
+
+
+34. What is the syntax for UPDATE in SQL?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+The UPDATE statement is used in SQL to modify existing records in a database table. Here is the syntax for the UPDATE statement in SQL:
+```sql
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+```
+Let's break down the syntax:
+
+- UPDATE: This keyword tells the database to update existing records.
+- table_name: This is the name of the table that you want to update.
+- SET: This keyword indicates that you are going to set new values for one or more columns in the table.
+- column1 = value1, column2 = value2, ...: This specifies the new values that you want to set for one or more columns in the table. Each column and its new value are separated by a comma.
+- WHERE: This keyword is used to filter the records that you want to update. The condition specified after the WHERE keyword determines which records will be updated.
+- condition: This specifies the condition that must be met for a record to be updated. If the condition is not met, the record will not be updated.
+Here is an example of an UPDATE statement that sets a new value for the "price" column in a "products" table for all products with a "product_id" greater than or equal to 100:
+```sql
+UPDATE products
+SET price = 19.99
+WHERE product_id >= 100;
+```
+This statement sets the "price" column to 19.99 for all products with a "product_id" greater than or equal to 100. It's important to note that the WHERE clause is used to filter the records that are updated. If you omit the WHERE clause, all records in the table will be updated.
+
+</blockquote>
+
+</details>
+
+---
+
+
+35. What is SQL window functions?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+In SQL, window functions are used to perform calculations across a set of rows that are related to the current row. These calculations are performed on a "window" of rows that are defined by a specific set of criteria, rather than on the entire table. Window functions are particularly useful for performing complex calculations on subsets of data, such as finding running totals, calculating moving averages, or ranking results.
+
+Window functions are used in combination with the OVER clause, which defines the window or set of rows that the calculation will be performed on. The syntax for a window function is as follows:
+```sql
+function_name(expression) OVER (
+    [PARTITION BY partition_expression, ... ]
+    [ORDER BY sort_expression [ASC | DESC], ... ]
+    [ROWS/RANGE BETWEEN window_specification]
+)
+```
+Here's a brief explanation of each part of the syntax:
+
+- function_name: This is the name of the window function that you want to use, such as SUM, AVG, RANK, or ROW_NUMBER.
+- expression: This is the column or expression that you want to perform the calculation on.
+- PARTITION BY: This is an optional clause that partitions the result set into smaller groups based on the values of one or more columns. The calculation is performed separately for each group.
+- ORDER BY: This is an optional clause that specifies the order in which the rows are processed. The calculation is performed in the order specified by this clause.
+- ROWS/RANGE BETWEEN: This is an optional clause that defines the window or set of rows that the calculation will be performed on. The window can be defined as a set of rows relative to the current row, or as a range of values based on the order specified by the ORDER BY clause.
+Here's an example of a window function that calculates the running total of a "sales" column in a "sales_data" table partitioned by a "region" column and ordered by a "date" column:
+```sql
+SELECT region, date, sales,
+       SUM(sales) OVER (PARTITION BY region ORDER BY date) as running_total
+FROM sales_data;
+```
+This query uses the SUM window function to calculate the running total of the "sales" column for each region, ordered by date. The result set includes the original "region", "date", and "sales" columns, as well as a new "running_total" column that contains the result of the window function.
+
+</blockquote>
+
+</details>
+
+---
+
+
+37. How would you delete duplicate record in a database?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
+<details><summary><b> Show Answer</b></summary>
+
+<blockquote>
+To delete duplicate information in a database, you can use the DELETE statement in combination with a subquery that selects the duplicate rows. Here is a general approach to delete duplicate information from a table:
+
+- Identify the columns that determine whether a row is a duplicate. For example, if you have a table of customers, you might consider the columns "first_name", "last_name", and "email" to determine whether two rows represent the same customer.
+
+- Use a subquery to select the duplicate rows. The subquery should return the primary key values of the rows that you want to delete. For example, if your customers table has a primary key column named "id", you can use a subquery like this:
+```sql
+SELECT MIN(id) as id_to_keep
+FROM customers
+GROUP BY first_name, last_name, email
+HAVING COUNT(*) > 1
+```
+This subquery selects the minimum value of the "id" column for each set of duplicate rows, based on the "first_name", "last_name", and "email" columns.
+
+- Use the selected primary key values to delete the duplicate rows from the table. You can use a DELETE statement with a WHERE clause that matches the primary key values returned by the subquery. For example:
+```sql
+DELETE FROM customers
+WHERE id NOT IN (
+    SELECT MIN(id) as id_to_keep
+    FROM customers
+    GROUP BY first_name, last_name, email
+    HAVING COUNT(*) > 1
+)
+```
+This statement deletes all rows from the "customers" table whose "id" value is not in the set of primary key values selected by the subquery.
+
+Note that you should always back up your data before deleting any rows from a table, and carefully review the results of the subquery before executing the DELETE statement to ensure that you are deleting the correct rows.
+</blockquote>
+
+</details>
+
+---

@@ -221,3 +221,104 @@ This is the general approach to update a local room database to reflect a databa
 </details>
 
 ---
+
+
+13. What is the difference between DELETE, TRUNCATE, and DROP?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+- DELETE, TRUNCATE, and DROP are all SQL commands used to remove data or objects from a database, but they differ in their scope and level of impact.
+
+- DELETE is a DML (Data Manipulation Language) command that removes rows of data from a table. It is used to selectively remove specific rows of data based on a condition specified in the WHERE clause. DELETE only removes data from the table and does not remove the table itself.
+
+- TRUNCATE is a DDL (Data Definition Language) command that removes all rows from a table, but does not remove the table structure. TRUNCATE is much faster than DELETE because it does not need to log the individual row deletions, but it also cannot be rolled back once it is executed. TRUNCATE also resets the identity seed value for the table, so any subsequent inserts will start with the initial value.
+
+- DROP is a DDL command that removes a table or other database object from the database. When a table is dropped, all data, indexes, and constraints associated with the table are also removed. DROP is a very powerful command and should be used with caution, as it can lead to data loss if used incorrectly.
+
+- In summary, DELETE is used to remove individual rows of data based on a condition, TRUNCATE is used to remove all rows from a table, and DROP is used to remove a table or other database object entirely. The level of impact and scope of each command should be considered carefully before using it in a production environment.
+
+</blockquote>
+
+</details>
+
+---
+
+14. Will a sql database throw an exception?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+- Yes, a SQL database can throw exceptions or errors when there is an issue with executing a SQL statement.
+
+- For example, if you try to insert a row into a table with a primary key value that already exists, the database will throw a primary key violation error. Similarly, if you try to create a table with a column name that already exists in another table, the database will throw a column name conflict error.
+
+- In addition to syntax errors, databases can also throw exceptions for various reasons such as constraints violations, transaction failures, deadlocks, and other issues.
+
+- It's important to handle these exceptions properly in your application code to ensure that your application can recover from errors gracefully and provide a good user experience.
+
+</blockquote>
+
+</details>
+
+---
+
+
+32. What is the use of COMMIT in SQL?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+In SQL, COMMIT is a command that is used to permanently save the changes made to a database by a transaction. When a transaction is executed in a database, the changes made by the transaction are not saved until the transaction is committed. COMMIT is the command that signals the end of a transaction and makes its changes permanent in the database.
+
+Here's an example of how to use the COMMIT command:
+```sql
+BEGIN TRANSACTION;
+UPDATE customers SET email = 'newemail@example.com' WHERE customer_id = 1;
+COMMIT;
+```
+In this example, a transaction is started using the BEGIN TRANSACTION command. The UPDATE statement modifies the email address of a customer with ID 1. Finally, the COMMIT command is used to permanently save the changes made by the transaction.
+
+It's important to note that once a transaction is committed, its changes cannot be undone. Therefore, it's essential to ensure that a transaction is properly executed and tested before committing it. If a transaction needs to be rolled back, the ROLLBACK command can be used to cancel the transaction and undo its changes.
+
+</blockquote>
+
+</details>
+
+---
+
+
+33. What is the difference between Commit, save point, and Rollback in Oracle?
+
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> Show Answer </summary>
+
+<blockquote>
+
+COMMIT, SAVEPOINT, and ROLLBACK are all Transaction Control Language (TCL) commands that are used to manage transactions in a relational database. Here's a brief overview of each command and their differences:
+
+- COMMIT: The COMMIT command is used to permanently save the changes made by a transaction. When a transaction is committed, its changes are made permanent in the database. Once a transaction is committed, its changes cannot be undone.
+
+- SAVEPOINT: The SAVEPOINT command is used to create a point in a transaction where it can be rolled back to if necessary. A SAVEPOINT is like a bookmark within a transaction. If a transaction encounters an error, it can be rolled back to the last SAVEPOINT created, rather than rolling back the entire transaction.
+
+- ROLLBACK: The ROLLBACK command is used to undo changes made by a transaction. When a transaction is rolled back, all the changes made by the transaction are undone, and the database is returned to its previous state. A transaction can be rolled back in full or to a specific SAVEPOINT created during the transaction.
+
+In summary, COMMIT is used to permanently save changes made by a transaction, ROLLBACK is used to undo changes made by a transaction, and SAVEPOINT is used to create a point in a transaction where it can be rolled back to if necessary. While all three commands are used to manage transactions in Oracle, they serve different purposes and are used in different scenarios.
+
+</blockquote>
+
+</details>
+
+---
