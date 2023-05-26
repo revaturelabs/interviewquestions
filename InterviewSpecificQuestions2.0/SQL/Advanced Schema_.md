@@ -280,3 +280,155 @@ By using these keywords in combination with parentheses, SQL allows you to creat
 </details>
 
 ---
+37. What is a schema in a database?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+A schema in a database is a logical structure that represents the organization of data in a database. It defines the tables, columns, and relationships between the data, as well as the data types and other constraints for each column.
+
+</blockquote>
+
+</details>
+
+---
+6. In SQL, name the statements through which we can create a primary key in a table?
+
+ ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> By using `create table` and `alter table` statements we can create a primary key in a table in SQL. 
+
+</details>
+
+---
+
+7. In SQL, List the commands that are the part of Data Definition Language?
+
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> Data Definition language or DDL commands are used to describe or define the structure of the database objects. In DDL, the following are the commands:  
+> - create
+> - alter
+> - drop
+> - truncate
+> - comment
+> - rename 
+
+</details>
+
+---
+11. How normalization affects the performance in SQL?
+
+![Advance](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+ 
+<details><summary> <b>Show Answer</b> </summary> 
+
+> The main point to use the normalization forms in table data is to eliminate the repetition of data from it. So one thing we can do is say that it will guarantees the duplicate free data in the table. But achieving full normalization, it negatively affects the performance. 
+
+</details>
+
+---
+
+12. Differentiated 1nf, 2nf and 3nf forms of normalization
+
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> - In 1nf or 1st normal form, the composite attribute is converted into a single-value attribute. Each column must only have one single data entry in each row. 
+> - In 2nf or 2nd normal form, the table should not have any partial dependency means the proper subset of the primary key shouldn't determine any non-prime attribute. 
+> - In 3nf or 3rd normal form, there should not be any transitive dependency, which means non-prime attribute of the table should not be dependent on another non- prime attribute. 
+
+</details>
+
+---
+
+13. can you List some of the benefits of normalization in SQL?
+
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
+ 
+<details><summary> <b>Show Answer</b> </summary> 
+
+> - It is used to reduce or remove duplicates from the data.
+> - To optimize storage space.
+> - To prevent unwanted deletion of data.
+> - To prevent data inconsistency.
+
+</details>
+
+---
+15. Create an "employee" table and make one primary key and one foreign key in it. 
+
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+ 
+<details><summary> <b>Show Answer</b> </summary> 
+
+> 
+```sql
+create table employee(
+       emp_id int,
+       emp_name varchar(20),
+       dept_id int,
+       primary key (emp_id),
+       foreign key (dept_id) references department(dept_id)
+       );
+```
+
+</details>
+
+---
+
+16. Can a primary key and foreign key contain null? 
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
+ 
+<details><summary> <b>Show Answer</b> </summary> 
+
+> A primary key field in the table cannot contain null as a value. But that is not the case with a foreign key. A foreign key is used to stabilize a relation between two tables and it can contain a  null value.
+
+</details>
+
+---
+
+17. Explain anomalies and its types?
+
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ 
+<details><summary> <b>Show Answer</b> </summary> 
+
+> Anomaly generally happens when the database is not constructed well and when the normalization concepts were not applied. There are 3 types of anomalies that cause a problem:  
+> 1. insertion anomaly: This can happen when we are trying to insert the data into the table, and it is not allowed because some data is not present.
+> 2. update anomaly: This will happen when we have duplicate data in the table and updating one of those data will not reflects toe other data and the end user has no idea which data is the correct one.
+> 3. deletion anomaly: This will happen when the deletion of one data will cause other data to be deleted from the table as well.
+
+
+</details>
+
+---
+30. Can you talk about BLOB in SQL?
+
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> BLOB is a sub-type of string datatype in SQL and stands for a binary large object. It is used for a large amount of data like documents, images, etc. They are three types:  
+> - TINYBLOB
+> - MEDIUMBLOB
+> - LONGBLOB
+
+</details>
+
+---
