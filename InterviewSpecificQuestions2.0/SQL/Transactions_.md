@@ -322,3 +322,155 @@ In summary, COMMIT is used to permanently save changes made by a transaction, RO
 </details>
 
 ---
+36. What are the potential considerations to keep in mind when working with long-running transactions?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
+<details><summary><b> Show Answer</b></summary>
+  
+<blockquote>
+
+When working with long-running transactions, there are several potential pitfalls and considerations to keep in mind:
+
+- **Increased resource usage:**Long-running transactions can tie up database resources such as locks, memory, and disk space for an extended period of time, potentially impacting the performance of other transactions.
+
+- **Lock contention:** Long-running transactions holding locks for an extended period can lead to lock contention issues and hinder concurrency, causing delays for other transactions.
+
+- **Data consistency risks:** Long-running transactions increase the risk of data inconsistencies, especially if the data being modified or accessed by the transaction is also being modified by other concurrent transactions.
+
+- **Limited scalability:** Long-running transactions can limit the scalability of the system as they may prevent other transactions from executing concurrently, reducing overall throughput.
+
+- **Transaction failure and rollback complexity:** The longer a transaction runs, the higher the chances of failure. Rolling back a long-running transaction can be complex and time-consuming, potentially leaving the system in an inconsistent state.
+
+- **Resource leaks:** Long-running transactions may inadvertently hold on to resources such as connections, cursors, or locks, leading to resource leaks and impacting system performance.
+
+- **Increased risk of deadlocks:** Long-running transactions that acquire multiple resources can increase the likelihood of deadlocks, where two or more transactions are waiting for resources held by each other, resulting in a deadlock situation.
+
+- **Longer recovery time:** In case of a system failure or crash, the recovery time for long-running transactions can be longer, as the system needs to ensure data consistency and restore the transaction to a consistent state.
+
+- **Reduced transactional integrity:** Long-running transactions increase the window of time during which inconsistencies or errors can occur, potentially compromising the transactional integrity of the system.
+
+</blockquote>
+
+</details>
+
+---
+21. Is `truncate` and `delete` both are the same command? 
+
+ ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> No, `truncate` is a DDL command, used to delete all the records from the table. Whereas `delete` is a DML command, used to delete the records based on some condition as well as it can delete all the data from the table as well.
+
+</details>
+
+---
+
+22. Give the syntax of `delete`, `truncate` and `drop` commands in SQL.
+
+ ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> Syntax of `delete` 
+```sql
+delete from table_name where condition;
+```
+> Syntax of `truncate`
+```sql
+truncate table table_name;
+```
+> Syntax of `drop` 
+```sql
+drop table table_name;
+```
+
+</details>
+
+---
+
+23. Henry has created a table as "school" with id and name field and now he wants to insert 5 records into it. What query he has to use to insert the data into a table? 
+
+ ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> He has to use the `insert` command for inserting the data:  
+```sql
+insert into school(id, name) values(01, "Jack");
+insert into school(id, name) values(02, "Henry");
+insert into school(id, name) values(03, "Tom");
+insert into school(id, name) values(04, "Tim");
+insert into school(id, name) values(05, "EVE");
+```
+
+</details>
+
+---
+
+24. After inserting some of the documents into the "school" table, Tom wants to update the name of one student to EVA where id is 05. Write the query for it.
+
+![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+ 
+<details><summary> <b>Show Answer</b> </summary> 
+
+> 
+```sql
+update school
+set name = "EVA" 
+where id = 05;
+```
+
+</details>
+
+---
+
+25. A user has to remove all of the data from the "order" table without removing the structure of the table. What query he has to write for this? 
+
+ ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+> He can use `delete from` statement or `truncate table` statement to delete all the records from the table.
+```sql
+delete from order;
+truncate table order;
+```
+
+
+</details>
+
+---
+
+26. Let's imagine Amazon Prime no longer wishes to rent out the "Blue" movie and its movie id is 20. As an intern of Amazon company, what query you will write to remove that movie from the "movies" table?
+
+ ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary> 
+
+>
+```sql
+delete from movies where id =20; 
+```
+
+</details>
+
+---
+31. Tim is asking you to add him as a user in SQL so that he can access and manage the database. So, how will you add them?
+
+ ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> To add a user in SQL, we can use the `create user` statement.  
+```sql
+create user 'Tim' identified by 'password';
+```
+
+
+</details>
+
+---
