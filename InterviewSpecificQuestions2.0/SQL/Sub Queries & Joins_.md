@@ -2785,5 +2785,20 @@ Query optimization and performance tuning are techniques used to improve the per
 
 ---
 
+95. Assume you have an employee table which stores the details of all employees and one department table which stores the department information, and both these tables have a primary-foreign key relationship, where emp_id of the employee table is a primary key and dept_id of the department table is a foreign key. Your boss has given you the task of fetching the details of those employees who have not been assigned any department yet. How will you do that?
 
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+ <details><summary> <b>Show Answer</b> </summary>
+
+> 
+```sql
+select * from employee
+where emp_id not in (
+select dept_id from department);
+```
+
+</details>
+
+---
 

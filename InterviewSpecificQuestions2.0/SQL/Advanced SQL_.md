@@ -1361,3 +1361,162 @@ show tables;
 </details>
 
 ---
+
+33. In an employee table, the monthly salary is given to each employee. Your task is to find and fetch the annual salary of employees with their names.
+
+ ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```sql
+select name, 
+monthly_salary * 12 as "annual_salary"
+from employee;
+```
+
+</details>
+
+---
+
+34. In SQL, how will you get the last 3 records from the table "worker" having one unique column id.
+
+ ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ 
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+```sql
+select * from worker
+order by id desc
+limit 3;
+```
+
+</details>
+
+---
+
+35. I have a table called employee in SQL and now I want to create another table as employee_2 that has the same structure and data as the employee table. How can I do this?
+
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+   
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+```sql
+create table employee_2 
+select * from employee;
+```
+
+</details>
+
+---
+
+36. In SQL, how will you display the first 50% of the records of any given table?
+
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+ 
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+```sql
+select * from table_name
+limit (select count(*)/2 from table_name);
+```
+
+</details>
+
+---
+
+37. Without using the distinct keyword, how will you get the distinct records from the table in SQL?
+
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+   
+<details><summary> <b>Show Answer</b> </summary>
+
+> let's say we have an employee table having id and name as columns. We can use the `group by` clause to get the distinct records from the table.  
+```sql
+select id, name 
+from employee
+group by id, name;
+```
+This will group the table records by id and name and gives us distinct records only.
+</details>
+
+---
+
+38. In SQL, what are the points that anyone has to keep in mind when using `group by` clause in SQL?
+
+ ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> Points to remember when using `group by` clause:  
+> - Use `group by` clause with a select query
+> - If `where` clause is used in the query, `group by` clause must be placed after it.
+> - If `order by` clause is used in the query, `group by` clause must be placed before it.
+> - Columns mentioned in the select query should either be part of the group by clause or an aggregation function is applied to those columns. 
+
+</details>
+
+---
+
+39. Display the name and id of those employees from the employee table whose salary is greater than 40000 and DOJ in 2019.
+
+ ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```sql
+select id, name 
+from employee
+where salary > 40000
+and DOJ like "2019%";
+```
+
+</details>
+
+---
+
+40. In a student table, how you will find the count of repeated rows in SQL?
+
+![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+ 
+<details><summary> <b>Show Answer</b> </summary>
+
+> 
+```sql
+select id, count(id) as duplicate 
+from student
+group by id
+having duplicate>1
+order by duplicate;
+```
+
+</details>
+
+---
+
+41. In SQL, give a generalized query that will fetch the top N records from the table
+
+ ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
+<details><summary> <b>Show Answer</b> </summary>
+
+>
+```sql
+select *
+from table_name
+order by column_name desc 
+limit N;
+```
+
+</details>
+
+---
