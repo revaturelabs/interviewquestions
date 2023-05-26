@@ -1,4 +1,4 @@
-10. What is the maximum number of records returned by a trigger at once?
+1. What is the maximum number of records returned by a trigger at once?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -12,7 +12,7 @@ The maximum number of records returned by a trigger at once depends on the datab
 </details>
 
 ---
-30. Explain the different isolation levels
+2. Explain the different isolation levels
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -37,7 +37,7 @@ Isolation levels in database systems define the level of concurrent access and t
 
 ---
 
-31. What is a transaction within a relational database?
+3. What is a transaction within a relational database?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -59,7 +59,7 @@ Isolation levels in database systems define the level of concurrent access and t
 
 ---
 
-32. What is nested transaction? Explain with an example.
+4. What is nested transaction? Explain with an example.
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -104,7 +104,7 @@ In this example, we have an outer transaction called OuterTransaction that conta
 
 ---
 
-33. How can you ensure that a group of SQL statements is treated as a single unit of work within a transaction?
+5. How can you ensure that a group of SQL statements is treated as a single unit of work within a transaction?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -126,7 +126,7 @@ To ensure that a group of SQL statements is treated as a single unit of work wit
 
 ---
 
-34. How do you handle exceptions or errors within a transaction and ensure proper rollback of changes?
+6. How do you handle exceptions or errors within a transaction and ensure proper rollback of changes?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -149,7 +149,7 @@ To handle exceptions or errors within a transaction and ensure proper rollback o
 
 ---
 
-35. How do you design a transactional system that maintains consistency and avoids data anomalies in concurrent environments?
+7. How do you design a transactional system that maintains consistency and avoids data anomalies in concurrent environments?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -177,7 +177,7 @@ To design a transactional system that maintains consistency and avoids data anom
 
 ---
 
-5. What are the properties a transaction must follow?
+8. What are the properties a transaction must follow?
  
  ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -200,7 +200,7 @@ Yes, ACID is an acronym that stands for Atomicity, Consistency, Isolation, and D
 
 ---
 
-23. How to update room database based on server response?
+9. How to update room database based on server response?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -223,7 +223,7 @@ This is the general approach to update a local room database to reflect a databa
 ---
 
 
-13. What is the difference between DELETE, TRUNCATE, and DROP?
+10. What is the difference between DELETE, TRUNCATE, and DROP?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -248,7 +248,7 @@ This is the general approach to update a local room database to reflect a databa
 
 ---
 
-14. Will a sql database throw an exception?
+11. Will a sql database throw an exception?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -272,7 +272,7 @@ This is the general approach to update a local room database to reflect a databa
 ---
 
 
-32. What is the use of COMMIT in SQL?
+12. What is the use of COMMIT in SQL?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -299,7 +299,7 @@ It's important to note that once a transaction is committed, its changes cannot 
 ---
 
 
-33. What is the difference between Commit, save point, and Rollback in Oracle?
+13. What is the difference between Commit, save point, and Rollback in Oracle?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -322,7 +322,7 @@ In summary, COMMIT is used to permanently save changes made by a transaction, RO
 </details>
 
 ---
-36. What are the potential considerations to keep in mind when working with long-running transactions?
+14. What are the potential considerations to keep in mind when working with long-running transactions?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -356,7 +356,7 @@ When working with long-running transactions, there are several potential pitfall
 </details>
 
 ---
-21. Is `truncate` and `delete` both are the same command? 
+15. Is `truncate` and `delete` both are the same command? 
 
  ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -368,7 +368,7 @@ When working with long-running transactions, there are several potential pitfall
 
 ---
 
-22. Give the syntax of `delete`, `truncate` and `drop` commands in SQL.
+16. Give the syntax of `delete`, `truncate` and `drop` commands in SQL.
 
  ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -391,7 +391,7 @@ drop table table_name;
 
 ---
 
-23. Henry has created a table as "school" with id and name field and now he wants to insert 5 records into it. What query he has to use to insert the data into a table? 
+17. Henry has created a table as "school" with id and name field and now he wants to insert 5 records into it. What query he has to use to insert the data into a table? 
 
  ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -410,7 +410,7 @@ insert into school(id, name) values(05, "EVE");
 
 ---
 
-24. After inserting some of the documents into the "school" table, Tom wants to update the name of one student to EVA where id is 05. Write the query for it.
+18. After inserting some of the documents into the "school" table, Tom wants to update the name of one student to EVA where id is 05. Write the query for it.
 
 ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -428,7 +428,7 @@ where id = 05;
 
 ---
 
-25. A user has to remove all of the data from the "order" table without removing the structure of the table. What query he has to write for this? 
+19. A user has to remove all of the data from the "order" table without removing the structure of the table. What query he has to write for this? 
 
  ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -445,7 +445,7 @@ truncate table order;
 
 ---
 
-26. Let's imagine Amazon Prime no longer wishes to rent out the "Blue" movie and its movie id is 20. As an intern of Amazon company, what query you will write to remove that movie from the "movies" table?
+20. Let's imagine Amazon Prime no longer wishes to rent out the "Blue" movie and its movie id is 20. As an intern of Amazon company, what query you will write to remove that movie from the "movies" table?
 
  ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -459,7 +459,7 @@ delete from movies where id =20;
 </details>
 
 ---
-31. Tim is asking you to add him as a user in SQL so that he can access and manage the database. So, how will you add them?
+21. Tim is asking you to add him as a user in SQL so that he can access and manage the database. So, how will you add them?
 
  ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 

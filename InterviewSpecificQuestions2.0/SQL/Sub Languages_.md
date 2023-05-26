@@ -23,7 +23,7 @@ SQL (Structured Query Language) is a programming language designed for managing 
 </details>
 
 ---
-5. While creating a table, how will you decide on the column that can be converted into primary key?
+2. While creating a table, how will you decide on the column that can be converted into primary key?
 
 ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -39,7 +39,7 @@ SQL (Structured Query Language) is a programming language designed for managing 
 </details>
 
 --- 
-14. Explain the different subsets of SQL?
+3. Explain the different subsets of SQL?
 
  ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 

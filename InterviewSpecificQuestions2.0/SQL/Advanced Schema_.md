@@ -1,4 +1,4 @@
-24. What are the different multiplicity (cardinality) relationships? 
+1. What are the different multiplicity (cardinality) relationships? 
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -23,7 +23,7 @@ Multiplicity is also known as cardinality defines the number of instances that c
 
 ---
 
-75. How do you create a new Table from another Table, where just the structure of the table is copied but none of the rows?  
+2. How do you create a new Table from another Table, where just the structure of the table is copied but none of the rows?  
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -80,7 +80,7 @@ Relational mapping, also known as object-relational mapping (ORM), is the proces
 
 ---
 
-15. What type of storage would you use to store data which is requested often?
+5. What type of storage would you use to store data which is requested often?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -99,7 +99,7 @@ For data that is requested often, a high-performance storage solution should be 
 
 ---
 
-16. What is the difference between Oracle database and PostgresQL?
+6. What is the difference between Oracle database and PostgresQL?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -122,7 +122,7 @@ Oracle and PostgreSQL are both popular relational database management systems, b
 
 ---
 
-18. How do you decide whether to store data as JSON or in RDBMS ?
+7. How do you decide whether to store data as JSON or in RDBMS ?
  
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -147,7 +147,7 @@ Ultimately, the choice between JSON and RDBMS depends on the specific requiremen
 
 ---
 
-9. How do you add a column to an existing table?
+8. How do you add a column to an existing table?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -175,7 +175,7 @@ ADD email VARCHAR(50);
 
 ---
 
-11. How to change the data type for an attribute in a table ?
+9. How to change the data type for an attribute in a table ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -207,7 +207,7 @@ Note that when you change the data type of a column, you may also need to update
 
 ---
 
-23. Can you have more than one primary key? 
+10. Can you have more than one primary key? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -223,7 +223,7 @@ No, a table can have only one primary key. The primary key constraint ensures th
 
 ---
 
-29. how would you establish the relationship between employee and department tables?
+11. how would you establish the relationship between employee and department tables?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -258,7 +258,7 @@ This relationship means that each employee belongs to a single department, and e
 
 ---
 
-36. What is composition in SQL?
+12. What is a composition in SQL?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -280,7 +280,7 @@ By using these keywords in combination with parentheses, SQL allows you to creat
 </details>
 
 ---
-37. What is a schema in a database?
+13. What is a schema in a database?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -296,7 +296,7 @@ A schema in a database is a logical structure that represents the organization o
 </details>
 
 ---
-6. In SQL, name the statements through which we can create a primary key in a table?
+14. In SQL, name the statements through which we can create a primary key in a table?
 
  ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -308,7 +308,7 @@ A schema in a database is a logical structure that represents the organization o
 
 ---
 
-7. In SQL, List the commands that are the part of Data Definition Language?
+15. In SQL, List the commands that are the part of Data Definition Language?
 
 ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -325,7 +325,7 @@ A schema in a database is a logical structure that represents the organization o
 </details>
 
 ---
-11. How normalization affects the performance in SQL?
+16. How normalization affects the performance in SQL?
 
 ![Advance](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -338,7 +338,7 @@ A schema in a database is a logical structure that represents the organization o
 
 ---
 
-12. Differentiated 1nf, 2nf and 3nf forms of normalization
+17. Differentiated 1nf, 2nf and 3nf forms of normalization
 
 ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -352,7 +352,7 @@ A schema in a database is a logical structure that represents the organization o
 
 ---
 
-13. can you List some of the benefits of normalization in SQL?
+18. can you List some of the benefits of normalization in SQL?
 
 ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -368,7 +368,7 @@ A schema in a database is a logical structure that represents the organization o
 </details>
 
 ---
-15. Create an "employee" table and make one primary key and one foreign key in it. 
+19. Create an "employee" table and make one primary key and one foreign key in it. 
 
 ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -390,7 +390,7 @@ create table employee(
 
 ---
 
-16. Can a primary key and foreign key contain null? 
+20. Can a primary key and foreign key contain null? 
 ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
@@ -403,7 +403,7 @@ create table employee(
 
 ---
 
-17. Explain anomalies and its types?
+21. Explain anomalies and its types?
 
 ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
@@ -418,7 +418,7 @@ create table employee(
 </details>
 
 ---
-30. Can you talk about BLOB in SQL?
+22. Can you talk about BLOB in SQL?
 
 ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
