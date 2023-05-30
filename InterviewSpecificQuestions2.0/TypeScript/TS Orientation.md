@@ -94,7 +94,7 @@ Typescript supports the four object-oriented programming concepts – Abstractio
 
 ---
 
-7. What are the modules in TypeScript?
+7. What are modules in TypeScript?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -248,34 +248,26 @@ The protected members are similar to private access modifiers, except that they 
 
 ---
  
-14. What are Modules in TypeScript?
+14.  Define the Lambda function.
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details> <summary> <b> Show Answer </b> </summary>
 <blockquote>
 
-- A module is a way to construct a local scope in a file. So that all the classes and variables declared in a module are not accessible outside the module.
-- We can create a module using the export keyword.
-- A module in typescript can be used in another module using the import keyword.
-
+- For defining function expressions, TypeScript provides a shortcut syntax. A lambda function is an unnamed anonymous function. 
+- **Example**:
 ```ts
+let sum=(a: num, b: num): num=>{ return a+b;}
 
-export class Student {
-    readonly Id: number;
-    Name: string;
-    
-    constructor(id: number, name: string) {
-        this.Id = id;
-        this.Name = name;
-    }
-}
-
-let Subject: string = "Computer Science";
+console.log(sum(5,10)); //returns 15
 ```
+Here, `?=>?` is a lambda operator.
 
 </blockquote>
 </details>
+
+---
 
 ---
 
@@ -447,23 +439,3 @@ class Bellbird implements Bird { ... }
 ```
 ---
  
-24. Define the Lambda function.
-
-![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
-
-<details> <summary> <b> Show Answer </b> </summary>
-<blockquote>
-
-- For defining function expressions, TypeScript provides a shortcut syntax. A lambda function is an unnamed anonymous function. 
-- **Example**:
-```ts
-let sum=(a: num, b: num): num=>{ return a+b;}
-
-console.log(sum(5,10)); //returns 15
-```
-Here, `?=>?` is a lambda operator.
-
-</blockquote>
-</details>
-
----
