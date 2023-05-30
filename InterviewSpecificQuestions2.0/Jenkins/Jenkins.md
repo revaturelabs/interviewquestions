@@ -431,3 +431,32 @@ A Jenkins job and a Jenkins pipeline are two different ways to define and manage
 </details>
 
 ---
+
+20. How do you integrate Jenkins with version control systems like Git?
+
+![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
+
+<details> <summary> <b> Show Answer </b> </summary>
+
+<blockquote> 
+
+To integrate Jenkins with version control systems like Git, you can use plugins and configure the Jenkins job to interact with the Git repository. Here's a general outline of the steps:
+
+1. Install the Git Plugin: Install the "Git Plugin" in Jenkins from the Plugin Manager. This plugin provides the necessary functionality to interact with Git repositories.
+
+2. Configure Git repository credentials: In the Jenkins job configuration, specify the Git repository URL and provide the appropriate credentials (username/password or SSH key) to access the repository.
+
+3. Set up the branch to build: Specify the branch or branches you want Jenkins to monitor for changes. You can configure Jenkins to build automatically whenever changes are pushed to a specific branch or branches.
+
+4. Define build triggers: Configure the build triggers based on your requirements. You can set up Jenkins to poll the Git repository at regular intervals to check for changes or configure it to trigger a build whenever a specific event occurs, such as a commit or a pull request.
+
+5. Define build steps: Configure the build steps in your Jenkins job, such as compiling code, running tests, and deploying artifacts. You can use build tools like Maven, Gradle, or custom shell scripts to perform these tasks.
+
+6. Set up post-build actions: Configure post-build actions, such as archiving artifacts, sending notifications, or triggering downstream jobs. You can specify actions to be performed after the build is completed, based on the build status or other criteria.
+
+
+</blockquote> 
+
+</details>
+
+---
