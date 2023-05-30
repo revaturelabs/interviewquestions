@@ -7,12 +7,13 @@
 <blockquote>
   
 Directives add behavior to an existing DOM element or an existing component instance.
+	
   </blockquote>
 </details>
   
 ---
 
-2. What are the differences between Component and Directive?
+2. What is the differences between Component and Directive?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -83,7 +84,7 @@ On a short note, A component(`@Component`) is a directive-with-a-template. Some 
 	    <div *ngSwitchCase="'a'">Entered a!! Word: Apple</div>
 	    <div *ngSwitchCase="'e"> Entered e!! Word: Egg</div>
 	    <div *ngSwitchCase="'i'"> Entered i!! Word: Ice cream</div>
-	    <div *ngSwitchCase="'o'"> Entered o!! Word: Orange</div>
+	    <div *ngSwitchCase="'o'"> Entered o!! Word: Orange</div>x
 	    <div *ngSwitchCase="'u'"> Entered u!! Word: Umberalla</div>
 	    <div *ngSwitchDefault> You Entered Constant </div>
 </div>   
