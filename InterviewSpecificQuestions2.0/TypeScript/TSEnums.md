@@ -1,4 +1,4 @@
-1. Can u explain a bit about Enum in TypeScript?
+1. Explain about Enum in TypeScript?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
