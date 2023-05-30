@@ -28,7 +28,7 @@ The test file extension **must be `.spec.ts`** so that tooling can identify it a
   
 ---
 
-3. Have you heard of Jasmine? Explain a bit.
+3. How do you Run a Unit Test On Jasmine?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
