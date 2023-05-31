@@ -1366,7 +1366,7 @@ show tables;
 
 ---
 
-33. In an employee table, the monthly salary is given to each employee. Your task is to find and fetch the annual salary of employees with their names.
+57. In an employee table, the monthly salary is given to each employee. Your task is to find and fetch the annual salary of employees with their names.
 
  ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1384,7 +1384,7 @@ from employee;
 
 ---
 
-34. In SQL, how will you get the last 3 records from the table "worker" having one unique column id.
+58. In SQL, how will you get the last 3 records from the table "worker" having one unique column id.
 
  ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
@@ -1401,7 +1401,7 @@ limit 3;
 
 ---
 
-35. I have a table called employee in SQL and now I want to create another table as employee_2 that has the same structure and data as the employee table. How can I do this?
+59. I have a table called employee in SQL and now I want to create another table as employee_2 that has the same structure and data as the employee table. How can I do this?
 
 ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1418,7 +1418,7 @@ select * from employee;
 
 ---
 
-36. In SQL, how will you display the first 50% of the records of any given table?
+60. In SQL, how will you display the first 50% of the records of any given table?
 
 ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1435,7 +1435,7 @@ limit (select count(*)/2 from table_name);
 
 ---
 
-37. Without using the distinct keyword, how will you get the distinct records from the table in SQL?
+61. Without using the distinct keyword, how will you get the distinct records from the table in SQL?
 
 ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1453,7 +1453,7 @@ This will group the table records by id and name and gives us distinct records o
 
 ---
 
-38. In SQL, what are the points that anyone has to keep in mind when using `group by` clause in SQL?
+62. In SQL, what are the points that anyone has to keep in mind when using `group by` clause in SQL?
 
  ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1469,7 +1469,7 @@ This will group the table records by id and name and gives us distinct records o
 
 ---
 
-39. Display the name and id of those employees from the employee table whose salary is greater than 40000 and DOJ in 2019.
+63. Display the name and id of those employees from the employee table whose salary is greater than 40000 and DOJ in 2019.
 
  ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1487,7 +1487,7 @@ and DOJ like "2019%";
 
 ---
 
-40. In a student table, how you will find the count of repeated rows in SQL?
+64. In a student table, how you will find the count of repeated rows in SQL?
 
 ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1507,7 +1507,7 @@ order by duplicate;
 
 ---
 
-41. In SQL, give a generalized query that will fetch the top N records from the table
+65. In SQL, give a generalized query that will fetch the top N records from the table
 
  ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1525,7 +1525,7 @@ limit N;
 
 ---
 
-42. How to fetch only records that are present in an even position in SQL?
+66. How to fetch only records that are present in an even position in SQL?
 
 ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1543,7 +1543,7 @@ where id % 2 = 0);
 
 ---
 
-43. Consider you have a company table in SQL. Give the details of those employee who are from Florida, NY and Texas state and earning salary more than 50000 and department is either Finance or Training.
+67. Consider you have a company table in SQL. Give the details of those employee who are from Florida, NY and Texas state and earning salary more than 50000 and department is either Finance or Training.
 
   ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1561,7 +1561,7 @@ or department = "Training";
 </details>
 
 ---
-44. Assume you are handling a "student" table in the database having id, name, age, state, and class fields. Your task is to fetch the records of those students who are from "Texas" state.
+68. Assume you are handling a "student" table in the database having id, name, age, state, and class fields. Your task is to fetch the records of those students who are from "Texas" state.
 
  ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
@@ -1577,7 +1577,7 @@ where state = "Texas";
 
 ---
 
-45. Tell a way about how to give a different name to a field while executing a select query?
+69. Tell a way about how to give a different name to a field while executing a select query?
 
  ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1592,7 +1592,7 @@ select Name as "First_name" from table_name;
 
 ---
 
-46. Give one single query which includes, select, where, order by, group by, and having clauses in it.  
+70. Give one single query which includes, select, where, order by, group by, and having clauses in it.  
 
 ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
@@ -1611,7 +1611,7 @@ having count(id);
 
 ---
 
-47. In SQL, how will you give the count of the students from the student table whose name starts with 'H'.
+71. In SQL, how will you give the count of the students from the student table whose name starts with 'H'.
 
 ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
@@ -1627,7 +1627,7 @@ where name like 'H%';
 
 ---
 
-48. Tell me about the ways through which we can search for a "string" pattern in SQL?
+72. Tell me about the ways through which we can search for a "string" pattern in SQL?
 
  ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1653,7 +1653,7 @@ select name from student where name like '%SK';
 
 ---
 
-49. Your boss has given you a work to find the details of the workers in "HR" deparment from the "Company" table whose salary ranges between 10000 and 50000.
+73. Your boss has given you a work to find the details of the workers in "HR" deparment from the "Company" table whose salary ranges between 10000 and 50000.
 
 ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
@@ -1669,7 +1669,7 @@ and department = "HR";
 </details>
 
 ---
-50. From "employee" table give the "names" and "emp_id" of those employees who receive a higher salary than the employee with "emp_id" = 101.
+74. From "employee" table give the "names" and "emp_id" of those employees who receive a higher salary than the employee with "emp_id" = 101.
 
 ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1689,7 +1689,7 @@ where emp_id = 101
 </details>
 
 ---
-51. In an employee table, how will you find those employee’s name and emp_id whose salary matches the lowest salary of any of the departments in SQL?
+75. In an employee table, how will you find those employee’s name and emp_id whose salary matches the lowest salary of any of the departments in SQL?
 
 ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1710,7 +1710,7 @@ group by department
 
 ---
 
-52. In SQL, give the count of those employees who is getting a salary more than the average salary from "employee" table.
+76. In SQL, give the count of those employees who is getting a salary more than the average salary from "employee" table.
 
    ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1728,7 +1728,7 @@ from employee
 </details>
 
 ---
-53. In SQL, what is a cross-join? Give a syntax.
+77. In SQL, what is a cross-join? Give a syntax.
 
    ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1744,7 +1744,7 @@ cross join table2 ;
 </details>
 
 ---
-54. Is it possible to make a `cross join` work as an `inner join` in SQL.
+78. Is it possible to make a `cross join` work as an `inner join` in SQL.
 
 ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1762,7 +1762,7 @@ where table1.id = table2.id;
 </details>
 
 ---
-55. Assume, you have two tables’ "customers" and "orders". So, tell me how will you execute the right join between both tables?
+79. Assume, you have two tables’ "customers" and "orders". So, tell me how will you execute the right join between both tables?
 
 ![Beginner](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1780,7 +1780,7 @@ on customers.id = orders.id;
 </details>
 
 ---
-56. Give the query in SQL that will replace the space with '-' in full name from the employee table.
+80. Give the query in SQL that will replace the space with '-' in full name from the employee table.
 
 ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
@@ -1795,7 +1795,7 @@ from employee;
 </details>
 
 ---
-57. When managing a contact_details table in SQL, you found out that some of the records are duplicates and now you want to see the duplicate records only in your result set. What select query you will write for this that will fetch you the duplicate records? In contact_details table, columns are phoneNo, name, etc. 
+81. When managing a contact_details table in SQL, you found out that some of the records are duplicates and now you want to see the duplicate records only in your result set. What select query you will write for this that will fetch you the duplicate records? In contact_details table, columns are phoneNo, name, etc. 
  
    ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1814,7 +1814,7 @@ having count(phoneNo) > 1;
 
 ---
 
-68. When managing a contact_details table in SQL, you found out that some of the records are duplicates and now you want to delete those duplicate records only so that only distinct records are leftout in your table. Give the query for this that will delete the duplicate records. In contact_details table, columns are phoneNo, name, id etc. 
+82. When managing a contact_details table in SQL, you found out that some of the records are duplicates and now you want to delete those duplicate records only so that only distinct records are leftout in your table. Give the query for this that will delete the duplicate records. In contact_details table, columns are phoneNo, name, id etc. 
 
  ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
