@@ -355,9 +355,12 @@ The minus operator is useful for finding differences between two sets of data, w
 
 19. Explain Intersect operator with an example.
 
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+
 <details><summary><b> Show Answer</b></summary>
   
 <blockquote>
+
 The INTERSECT operator in SQL is used to return only the distinct rows that are returned by both the SELECT statements on either side of the operator. The syntax for an intersect operation is as follows:
 
 ```sql
