@@ -161,7 +161,7 @@ Note: Make sure to include the necessary dependencies for Spring AOP in your pro
 
 ---
 
-5. Why we use pointcut expression in Spring application.
+5. Why do we use pointcut expression in Spring application.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
