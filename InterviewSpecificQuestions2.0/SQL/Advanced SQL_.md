@@ -674,28 +674,20 @@ This statement groups the sales data by the Salesperson and Product columns and 
 
 
 
-29. Explain SQL GROUP BY clause.
+29.When managing a contact_details table in SQL, you found out that some of the records are duplicates and now you want to delete those duplicate records only so that only distinct records are leftout in your table. Give the query for this that will delete the duplicate records. In contact_details table, columns are phoneNo, name, id etc. 
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+ ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
 
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
+<details><summary> <b>Show Answer</b> </summary>
 
-The GROUP BY clause in SQL is used to group rows based on one or more columns. When you use GROUP BY, the result set is divided into groups based on the values in the specified columns. You can then use aggregate functions, such as SUM, COUNT, AVG, MIN, or MAX, to perform calculations on each group.
-
-For example, if you have a table of sales data that includes columns for Salesperson, Product, and SalesAmount, and you want to group the data by Salesperson and Product and display the total sales for each combination of Salesperson and Product, you could use the following SQL statement:
-
+> 
 ```sql
-SELECT Salesperson, Product, SUM(SalesAmount) as TotalSales
-FROM Sales
-GROUP BY Salesperson, Product;
+delete d1 from contact_details d1
+inner join contact_details d2
+where d1.id > d2.id
+and d1.phoneNo = d2.phoneNo;
 ```
-
-This statement groups the sales data by the Salesperson and Product columns and calculates the sum of the SalesAmount column for each group. The output includes the Salesperson, Product, and TotalSales columns.
-
-</blockquote>
 
 </details>
 
@@ -1814,21 +1806,3 @@ having count(phoneNo) > 1;
 
 ---
 
-82. When managing a contact_details table in SQL, you found out that some of the records are duplicates and now you want to delete those duplicate records only so that only distinct records are leftout in your table. Give the query for this that will delete the duplicate records. In contact_details table, columns are phoneNo, name, id etc. 
-
- ![Intermediate](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
-
-
-<details><summary> <b>Show Answer</b> </summary>
-
-> 
-```sql
-delete d1 from contact_details d1
-inner join contact_details d2
-where d1.id > d2.id
-and d1.phoneNo = d2.phoneNo;
-```
-
-</details>
-
----
