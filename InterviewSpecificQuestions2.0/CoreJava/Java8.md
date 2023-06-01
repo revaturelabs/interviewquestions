@@ -1141,7 +1141,7 @@ Projections are a powerful tool for working with collections of data, allowing y
 </details>
 
 ---
-55. Use Java Streams to sort items based on price.
+55. How do you use Java Streams to sort items based on price?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
