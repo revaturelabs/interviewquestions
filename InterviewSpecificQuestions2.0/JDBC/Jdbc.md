@@ -64,9 +64,9 @@ For example:
 
 </details>
   
- ---
+---
   
- 4. What is the need of `DriverManager` in JDBC?
+4. What is the need of `DriverManager` in JDBC?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -118,9 +118,9 @@ For example:
 
 </details>
 
- ---
+---
   
-7. Explain why do we need stored procedure.
+7. What is a stored procedure?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -402,45 +402,19 @@ ResultSet rs = cs.executeQuery();
 
 <blockquote>
 
-- Loading the Driver:When we need to load or register the driver before using it in the program. Registration must be done once in your program. 
-  - You can register a driver by using any one of the two methods mentioned below:
-    - `Class.forName()`:We load the driver’s class file into memory during runtime.`Class.forName("com.mysql.JDBC.Driver")` is used to load the MySQL driver.However, this statement is no longer needed, because as you place the MySQL JDBC driver JAR file into the classpath of your program, the driver manager can find and load the driver.
-    - `DriverManager.registerDriver()`: DriverManager is a built-in Java class with a static member register. Here we will be calling the constructor of the driver class during compile time.For registering the MySQL driver, use the below-given code:
-    - `DriverManager.registerDriver((new com.mysql.JDBC.Driver());`
-- Connection:After loading the driver into the program, establish connections using the code given below:
-  - `Connection con = DriverManager.getConnection(url,user,password);`
-  - `con`: Reference to a Connection interface.
-  - `url`: Uniform Resource Locator.
-  - `user`: Username from which SQL command prompt is accessed.
-  - `password`: Password from which SQL command prompt is accessed.
-  - url in MySQL can be created as follows:
-    - `String url = "JDBC:mysql://localhost:3306/demo1";`
-  - Where localhost represents hostname or IP address of the MySQL server, 3306 port number of the server and by default, it is 3306, test1 is the name of the database on the server.
+To establish a connection to a database using JDBC, you need to follow these steps:
+a. Load the JDBC driver for your database.
+b. Create a connection URL, specifying the database name, host, port, and other required parameters.
+c. Create a connection object by passing the connection URL, username, and password to the DriverManager.getConnection() method.
 
-- Create a statement:Once a connection establishment is done, you can interact with the database. 
-  - The `Statement`, `PreparedStatement`, and `CallableStatement` JDBC interfaces will define the methods that permit you to send SQL commands and receive data from the database.We can use JDBC Statement as follows:
-  - `Statement st = con.createStatement();`
-  - Here, con is a reference to the Connection interface used in the earlier step.
-
-- Execute the query: query means an SQL query. We can have various types of queries.for ex:Query for updating,
-  inserting and data retrieval a table in a database. The `executeQuery()` method that belongs to the Statement interface is used for executing queries related to values retrieval from the database. This method returns the ResultSet object which can be used to get all the table records.The `executeUpdate(sql_query)` method of the Statement interface is used for executing queries related to the update/insert operation.For Example:
-```java
-
-    int s = st.executeUpdate(sql);
-    if (s==1)
-        System.out.println("Data inserted successfully : "+sql);
-    else
-        System.out.println("Data insertion failed");
-    Here SQL is the SQL query of string type.
-```
-- Close the connection:We have to send the data to the location specified and now we are at the end of our task completion.Closing the connection, objects of Statement and ResultSet will be automatically closed. The `close()` method of the Connection interface is used for closing the connection. 
+Here's an example for connecting to a MySQL database:
 
 ```java
-
-con.close();
-
-```
-		
+Class.forName("com.mysql.jdbc.Driver");
+String url = "jdbc:mysql://localhost:3306/mydatabase";
+Connection connection = DriverManager.getConnection(url, "username", "password");
+connection.close();        
+```		
 </blockquote>
 
 </details>
@@ -566,7 +540,7 @@ The sequence of SQL statements served as a single unit that is called a transact
 - Isolation:It ensures that the transaction is isolated from other transactions.
 - Durability:If a transaction has been committed once, it will remain always committed, even in the situation of errors, power loss, etc.
 
-- Need for Transaction Management: When creating a connection to the database, the auto-commit mode will be selected by default. This implies that every time when the request is executed, it will be committed automatically upon completion. We might want to commit the transaction after the execution of few more SQL statements. In such a situation, we must set the auto-commit value to False. So that data will not be able to commit before executing all the queries. In case if we get an exception in the transaction, we can `rollback()` changes made and make it like before.
+The ACID properties are needed in JDBC Transaction Management to ensure reliable and consistent database operations. They provide guarantees that protect the integrity of data and ensure that transactions are executed correctly, even in the presence of concurrent operations and system failures. By adhering to these properties, applications can maintain data integrity, prevent data corruption, and ensure reliable and consistent database operations.
 
 </blockquote>
 
