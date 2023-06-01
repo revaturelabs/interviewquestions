@@ -222,7 +222,7 @@ Stream `findAny()` returns an Optional (a container object which may or may not 
 
 ---
 
-12. When to use `findAny()` method in Java 8 streams?
+12. When do we use `findAny()` method in Java 8 streams?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
