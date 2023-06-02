@@ -1,3 +1,5 @@
+## Technical
+
 1. What is EC2?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
@@ -30,7 +32,7 @@ An instance in EC2 refers to a virtual server that you can launch and run in the
 
 ---
 
-3. How do I choose the right EC2 instance type?
+3. How do you choose the right EC2 instance type?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
@@ -46,7 +48,7 @@ Choosing the right instance type depends on factors like your application's reso
 
 ---
 
-4. How do I access an EC2 instance?
+4. How do you access an EC2 instance?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
@@ -78,7 +80,7 @@ An Amazon Machine Image (AMI) is a template that contains the necessary informat
 
 ---
 
-6. How can I scale EC2 instances?
+6. How can you scale EC2 instances?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
@@ -94,7 +96,7 @@ You can scale EC2 instances manually or automatically. Manual scaling involves l
 
 ---
 
-7. How do I store data on an EC2 instance?
+7. How do you store data on an EC2 instance?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
@@ -110,7 +112,7 @@ EC2 instances provide storage options like Amazon Elastic Block Store (EBS) and 
 
 ---
 
-8. Can I use EC2 for high-performance computing (HPC) workloads?
+8. Is it possible to use EC2 for high-performance computing (HPC) workloads?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
@@ -126,7 +128,7 @@ Yes, EC2 offers instance types specifically optimized for high-performance compu
 
 ---
 
-9. How can I secure my EC2 instances?
+9. How can you secure your EC2 instances?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
@@ -368,7 +370,7 @@ To share an Amazon EBS volume between multiple EC2 instances, you can create the
 
 24. What is an EC2 dedicated host?
 
-![Easys](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
+![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/simple%20(2).svg)
 
 <details>
 <summary> <b>Show Answer</b> </summary>
@@ -414,7 +416,7 @@ Amazon EFS (Elastic File System) is a scalable file storage service provided by 
 
 ---
 
-27. How can I secure my EC2 instances at the network level?
+27. How can you secure your EC2 instances at the network level?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
@@ -446,7 +448,7 @@ AWS offers EC2 instance types optimized for GPU workloads, such as the P3, G4, a
 
 ---
 
-29. How can I migrate my on-premises servers to EC2 instances?
+29. How can you migrate your on-premises servers to EC2 instances?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 
@@ -514,7 +516,7 @@ An EC2 instance profile is a container for an IAM role that can be assigned to a
 
 ---
 
-33. How can I achieve cross-region replication for my EC2 instances?
+33. How can you achieve cross-region replication for your EC2 instances?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/InterviewSpecificQuestions/ComplexityTags/Complex%20(2).svg)
 

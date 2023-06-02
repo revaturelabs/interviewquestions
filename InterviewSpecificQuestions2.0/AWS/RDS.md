@@ -1,3 +1,5 @@
+## Technical
+
 1. What is Amazon RDS?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
@@ -144,7 +146,7 @@ A database snapshot is a point-in-time copy of the database instance stored in A
 
 10. Is it possible to replicate an Amazon RDS database to another region?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary> <b>Show Answer</b> </summary>
@@ -160,7 +162,7 @@ Yes, you can replicate an Amazon RDS database to another region using the featur
 
 11. What is Amazon Aurora, and how is it different from other database engines?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary> <b>Show Answer</b> </summary>
@@ -221,7 +223,7 @@ Yes, you can run database engine-specific operations and features on Amazon RDS,
 
 ---
 
-15. Is it possible to I automate the backup process in Amazon RDS?
+15. Is it possible to automate the backup process in Amazon RDS?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -237,9 +239,9 @@ Yes, Amazon RDS allows you to automate backups by configuring the backup retenti
 
 ---
 
-16. How can you monitor the performance of my Amazon RDS database instance?
+16. How can you monitor the performance of your Amazon RDS database instance?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary> <b>Show Answer</b> </summary>
@@ -271,7 +273,7 @@ Yes, you can migrate an existing on-premises database to Amazon RDS using variou
 
 18. How does Amazon RDS handle software patching and database upgrades?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary> <b>Show Answer</b> </summary>
@@ -287,7 +289,7 @@ Amazon RDS automates the process of applying software patches and performing dat
 
 19. Is it possible to scale storage independently from compute in Amazon RDS?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary> <b>Show Answer</b> </summary>
@@ -303,7 +305,7 @@ Yes, in Amazon RDS, you can independently scale storage and compute resources. Y
 
 20. How can you enable automated backups and enable Multi-AZ deployment during database instance creation in Amazon RDS?
 
-![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
+![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
 <details>
 <summary> <b>Show Answer</b> </summary>
@@ -349,7 +351,7 @@ Multi-AZ deployment provides high availability by maintaining a standby replica 
 
 ---
 
-23. How can you enable encryption for my Amazon RDS database?
+23. How can you enable encryption for an Amazon RDS database?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -429,7 +431,7 @@ You can use Amazon CloudWatch to monitor the performance of your Amazon RDS data
 
 ---
 
-28. Is it possible to access my Amazon RDS database from outside of AWS?
+28. Is it possible to access an Amazon RDS database from outside of AWS?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
