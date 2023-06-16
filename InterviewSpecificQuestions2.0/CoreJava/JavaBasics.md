@@ -936,22 +936,7 @@ A static method is a method which belongs to a class and can be called directly 
 
 ---
 
-49. 
-
-
-<details><summary><b> Show Answer</b></summary>
-  
-<blockquote>
-
-
-
-</blockquote>
-
-</details>
-
----
-
-50. How would you optimize memory in Java?
+49. How would you optimize memory in Java?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -975,7 +960,7 @@ Here are some ways to optimize memory in Java:
 
 ---
 
-51. How do you make sure memory is being utilized optimally in Java?
+50. How do you make sure memory is being utilized optimally in Java?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -996,7 +981,7 @@ To make sure memory is being utilized optimally in Java, you can follow these st
 
 ---
 
-52. Can you have the garbage collector immediately de-allocate memory?
+51. Can you have the garbage collector immediately de-allocate memory?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1012,7 +997,7 @@ In Java, you cannot directly control when the garbage collector deallocates memo
 
 ---
 
-53. What is object pooling?
+52. What is object pooling?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1026,7 +1011,7 @@ Object pooling is a technique used in software development to improve performanc
 
 </details>
 
-54. How is a "yield" different from a "return"?
+53. How is a "yield" different from a "return"?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1071,7 +1056,7 @@ In the above example  the "case" keyword is used to define a specific case or co
 
 ---
 
-55. What is a primitive data type?
+54. What is a primitive data type?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1087,7 +1072,7 @@ In Java, a primitive data type is a data type that is not an object and has no m
 
 ---
 
-56.  List the primitives in Java.
+55.  List the primitives in Java.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1111,7 +1096,7 @@ Here are some examples of primitive data types in Java:
 
 ---
 
-57. What is the difference between float and double and why do we use these two data types?
+56. What is the difference between float and double and why do we use these two data types?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1132,7 +1117,7 @@ Double is generally used when more precision is needed, such as in scientific ca
 
 ---
 
-58. Why do we use public and private access modifiers?
+57. Why do we use public and private access modifiers?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1150,7 +1135,7 @@ When a class, method, or variable is declared as `public`, it can be accessed fr
 
 ---
 
-59. When does an Object becomes eligible for Garbage Collection in Java? 
+58. When does an Object becomes eligible for Garbage Collection in Java? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1167,7 +1152,7 @@ A Java object is subject to garbage collection when it becomes unreachable to th
 ---
 
 
-60. What is the super class of all java classes?
+59. What is the super class of all java classes?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1183,7 +1168,7 @@ The superclass of all Java classes is the `Object` class. So, all classes in Jav
 
 ---
 
-61. What are the control statements?
+60. What are the control statements?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1199,7 +1184,7 @@ Control statements in Java are used to control the flow of execution in a progra
 
 ---
 
-62. When would you use the final keyword?
+61. When would you use the final keyword?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1228,7 +1213,7 @@ Overall, the `final` keyword is a useful tool for creating constants, improving 
 
 ---
 
-63.  What are pass by reference and pass by value?   
+62.  What are pass by reference and pass by value?   
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1246,7 +1231,7 @@ Overall, the `final` keyword is a useful tool for creating constants, improving 
 </details>
 ---
 
-64. What is the difference between `final`, `finally`, and `finalize`, and what situations are they used in?
+63. What is the difference between `final`, `finally`, and `finalize`, and what situations are they used in?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1263,7 +1248,7 @@ Overall, the `final` keyword is a useful tool for creating constants, improving 
 
 --- 
 
-65. Can the garbage collector be manually called?
+64. Can the garbage collector be manually called?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1279,7 +1264,7 @@ The garbage collector in Java is automatically called by the JVM, and it cannot 
 
 --- 
 
-66. What are the levels of garbage collection?
+65. What are the levels of garbage collection?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -1302,7 +1287,7 @@ The exact configuration and behavior of garbage collection in Java depend on the
 
 --- 
 
-67. How does an object progress through those garbage collection levels?
+66. How does an object progress through those garbage collection levels?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -1320,7 +1305,7 @@ Objects in the old generation are subject to major garbage collections, which ru
 
 --- 
 
-68. How does garbage collection work? 
+67. How does garbage collection work? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1336,7 +1321,7 @@ Garbage collection is used in Java to perform automatic memory management. It de
 
 ---
 
-69. How do you copy an array?
+68. How do you copy an array?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1360,7 +1345,7 @@ This creates a new array `arr2` that is a copy of `arr1`.
 
 ---
 
-70. Write an array and give some values, then print them. What are different array methods you have used?
+69. Write an array and give some values, then print them. What are different array methods you have used?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1385,7 +1370,7 @@ This creates an array `numbers` with five integer values, and then loops through
 
 ---
 
-71. Given an array, create a list of pairs of indexes that sum to a target value.
+70. Given an array, create a list of pairs of indexes that sum to a target value.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1419,7 +1404,7 @@ This creates an array called `arr` with four integer values, and a target value 
 
 ---
 
-72. Can you store integers in an array?
+71. Can you store integers in an array?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1443,7 +1428,7 @@ This creates an array called `numbers` that contains five integer values.
 
 ---
 
-73. What are annotations and why are they used?
+72. What are annotations and why are they used?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1459,7 +1444,7 @@ Annotations in java provide metadata about the class, method, and interface. The
 
 ---
 
-74. Return the peak value index from an integer array mountain.
+73. Return the peak value index from an integer array mountain.
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -1484,7 +1469,7 @@ This algorithm works by repeatedly dividing the array in half and checking wheth
 
 --- 
 
-75. What is typecasting?
+74. What is typecasting?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1500,7 +1485,7 @@ Typecasting is the process of converting a value of one data type to another dat
 
 ---
 
-76. What is an immutable object in Java?
+75. What is an immutable object in Java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1517,7 +1502,7 @@ In Java, an immutable object is an object whose state cannot be changed once it 
 ---
 
 
-77. What are mutable and immutable classes in Java? 
+76. What are mutable and immutable classes in Java? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
  
@@ -1536,7 +1521,7 @@ An example of a mutable class in Java is the StringBuilder class, which allows t
 ---
 
 
-78. What is the difference between extends and implements in Java? 
+77. What is the difference between extends and implements in Java? 
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1557,7 +1542,7 @@ In Java, `extends` and `implements` are both keywords used for inheritance, but 
 ---
 
 
-79. What is the use of getters and setters in java?
+78. What is the use of getters and setters in java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1578,7 +1563,7 @@ A setter method sets the value of a private field based on the value passed to i
 ---
 
 
-80. How does the Java ternary operator work?
+79. How does the Java ternary operator work?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1601,7 +1586,7 @@ If the condition is true, the variable will be assigned the value of true-value,
 ---
 
 
-81. How do you write for a phone number using regex in Java?
+80. How do you write for a phone number using regex in Java?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -1633,7 +1618,7 @@ Here's an explanation of the different parts of the pattern:
 ---
 
 
-82. What is a Java Messaging Service?
+81. What is a Java Messaging Service?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -1652,7 +1637,7 @@ JMS provides a common way for applications to create, send, receive, and read me
 ---
 
 
-83. How does JNDI work?
+82. How does JNDI work?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -1670,7 +1655,7 @@ In JNDI, you can bind objects to names in a hierarchical namespace, which can be
 
 ---
 
-84. How do you differentiate groovy from java using syntax?
+83. How do you differentiate groovy from java using syntax?
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -1697,7 +1682,7 @@ Groovy and Java have similar syntax, but there are a few key differences:
 ---
 
 
-85. Write a program of map implementation in java?
+84. Write a program of map implementation in java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1747,7 +1732,7 @@ In this example, we create a new HashMap object and add key-value pairs to it us
 ---
 
 
-86. Write a function in Java having two params n and m that returns an array of multiplications m times of given n
+85. Write a function in Java having two params n and m that returns an array of multiplications m times of given n
 
 **ex.: myFunction(5, 4) --> returns [5, 10, 15, 20]**
 
@@ -1793,7 +1778,7 @@ This function first creates an integer array of length m to store the results. I
 ---
 
 
-87. How do you create a map with employee details and print it? Employee Details - Id(Key) Name(Value)
+86. How do you create a map with employee details and print it? Employee Details - Id(Key) Name(Value)
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1836,7 +1821,7 @@ In this example, the keys are Integer ID numbers and the values are String last 
 ---
 
 
-88. Write a Java code for Bubble sort ?
+87. Write a Java code for Bubble sort ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1882,7 +1867,7 @@ The bubbleSort function uses two nested loops to compare adjacent elements in th
 
 ---
 
-89. Can you write a Java code for Singleton design pattern ?
+88. Can you write a Java code for Singleton design pattern ?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -1925,7 +1910,7 @@ In this example, we have a class Singleton with a private constructor and a priv
 
 ---
 
-90. Write a Java code to reverse the linked list.
+89. Write a Java code to reverse the linked list.
 
 ![Complex](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Complex%20(2).svg)
 
@@ -2001,7 +1986,7 @@ This code defines a LinkedList class with a Node inner class. The reverse() meth
 ---
 
 
-91. Predict the output of the following.
+90. Predict the output of the following.
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -2039,7 +2024,7 @@ The code has a syntax error in the main method where the object obj is being dec
 ---
 
 
-92. Where are strings stored in Java?
+91. Where are strings stored in Java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -2055,7 +2040,7 @@ In Java, strings are stored in the heap memory. This is because a String object 
 
 ---
 
-93. What are the different types of loops in Java? Provide examples.
+92. What are the different types of loops in Java? Provide examples.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -2099,7 +2084,7 @@ These loops provide different ways to control the flow of execution in Java prog
 
 ---
 
-94. What is the difference between a while loop and a do-while loop?
+93. What is the difference between a while loop and a do-while loop?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -2120,7 +2105,7 @@ In summary, a while loop may not execute the loop body if the condition is false
 
 ---
 
-95. What is the difference between composition and inheritance in Java?
+94. What is the difference between composition and inheritance in Java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -2136,7 +2121,7 @@ Composition represents a "has-a" relationship between classes, where one class c
 
 ---
 
-96. What is the purpose of the static block in Java?
+95. What is the purpose of the static block in Java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -2152,7 +2137,7 @@ The static block is used to initialize the static variables of a class. It is ex
 
 ---
 
-97. What are anonymous classes in Java?
+96. What are anonymous classes in Java?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -2168,7 +2153,7 @@ Anonymous classes are classes without a name that are defined and instantiated a
 
 ---
 
-98. What is the difference between the `compareTo()` and `equals()` methods in Java?
+97. What is the difference between the `compareTo()` and `equals()` methods in Java?
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -2184,7 +2169,7 @@ The `compareTo()` method is used to compare two objects for ordering, returning 
 
 ---
 
-99. What is the purpose of the super keyword in Java? Give an example.
+98. What is the purpose of the super keyword in Java? Give an example.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -2245,7 +2230,7 @@ By utilizing the `super` keyword, we can access and utilize the members and beha
 
 ---
 
-100. Explain the concept of object serialization in Java.
+99. Explain the concept of object serialization in Java.
 
 ![Easy](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/simple%20(2).svg)
 
@@ -2261,7 +2246,7 @@ Object serialization is the process of converting an object into a byte stream, 
 
 ---
 
-101. What are the different types of inner classes in Java?
+100. What are the different types of inner classes in Java?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
@@ -2277,7 +2262,7 @@ Inner classes in Java are classes defined within other classes. The types of inn
 
 ---
 
-102. What is the purpose of the assert statement in Java?
+101. What is the purpose of the assert statement in Java?
 
 ![Medium](https://github.com/revaturelabs/interviewquestions/blob/dev/ComplexityTags/Medium%20(2).svg)
 
